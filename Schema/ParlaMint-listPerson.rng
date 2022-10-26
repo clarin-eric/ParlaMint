@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://www.tei-c.org/ns/1.0"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  
+  <a:documentation>RelaxNG XML schema for ParlaMint corpora: schema
+  for listPerson stored in a separate file.</a:documentation>
+
+  <include href="ParlaMint.rng"/>
+  <start>
+    <a:documentation>Person list element acting as root.</a:documentation>
+    <ref name="listPerson"/>
+  </start>
+</grammar>

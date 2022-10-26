@@ -1,112 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar ns="http://www.tei-c.org/ns/1.0"
-	 xmlns:xml="http://www.w3.org/XML/1998/namespace"
-	 xmlns="http://relaxng.org/ns/structure/1.0"
-	 xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-	 datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
 
-  <a:documentation>Schema for ParlaMint linguistically annotatated TEI
-  XML documents (components of the corpus).  It currently covers
-  sentences, tokens, lemmas, morphosyntactic tags, morphological feautures,
-  UD dependency relations, and named entities.</a:documentation>
+  <a:documentation>RelaxNG XML schema for ParlaMint corpora: schema
+  for linguistically annotatated corpus component file.</a:documentation>
+  
+  <a:documentation>The linguistic annotation markup covers sentences, tokens, lemmas,
+  morphosyntactic tags, UD morphological features, UD dependency relations, and named
+  entities.</a:documentation>
 
   <include href="ParlaMint-TEI.rng">
-    <a:documentation>Most definitions taken from the schema of the
-    unannotated corpus.</a:documentation>
+    
     <define name="seg">
-      <a:documentation>The only element that contains analysed text is
-      segment. It can, however, contain transcription
-      commentary.</a:documentation>
+      <a:documentation>The only element that contains analysed text is the segment. It can,
+      however, contain transcription commentary.</a:documentation>
       <element name="seg">
-	<ref name="global.atts"/>
-	<oneOrMore>
-	  <choice>
+        <ref name="global.atts"/>
+        <oneOrMore>
+          <choice>
             <ref name="comment"/>
             <ref name="pb"/>
             <ref name="sentence"/>
-	  </choice>
-	</oneOrMore>
+          </choice>
+        </oneOrMore>
       </element>
     </define>
+    
   </include>
 
   <define name="sentence">
+    <a:documentation>A sentence.</a:documentation>
     <element name="s">
       <ref name="global.atts"/>
       <oneOrMore>
-	<choice>
+        <choice>
           <ref name="comment"/>
           <ref name="pb"/>
           <ref name="ner"/>
           <ref name="word"/>
           <ref name="punct"/>
-	</choice>
+        </choice>
       </oneOrMore>
       <ref name="syntax"/>
     </element>
   </define>
 
   <define name="ner">
-    <a:documentation>NER elements</a:documentation>
+    <a:documentation>Named entity element</a:documentation>
     <choice>
       <a:documentation>Standard name element</a:documentation>
       <element name="name">
-	<ref name="global.atts"/>
-	<ref name="ref.att"/>
-	<optional>
-	  <attribute name="ana">
-	    <data type="anyURI"/>
-	  </attribute>
-	</optional>
-	<optional>
-	  <attribute name="type">
-	    <choice>
-	      <value>PER</value>
-	      <value>LOC</value>
-	      <value>ORG</value>
-	      <value>MISC</value>
-	    </choice>
-	  </attribute>
-	</optional>
-	<optional>
-	  <attribute name="subtype">
-	    <data type="token"/>
-	  </attribute>
-	</optional>
-	<ref name="ner_tokens"/>
+        <ref name="global.atts"/>
+        <ref name="ref.att"/>
+        <optional>
+          <attribute name="ana">
+            <data type="anyURI"/>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="type">
+            <choice>
+              <value>PER</value>
+              <value>LOC</value>
+              <value>ORG</value>
+              <value>MISC</value>
+            </choice>
+          </attribute>
+        </optional>
+        <optional>
+          <attribute name="subtype">
+            <data type="token"/>
+          </attribute>
+        </optional>
+        <ref name="ner_tokens"/>
       </element>
-      <a:documentation>Additional content used by CZ</a:documentation>
+      <a:documentation>Additional content used by CZ:</a:documentation>
       <element name="date">
-	<ref name="ner.atts"/>
-	<optional>
-	  <ref name="temporal.atts"/>
-	</optional>
+        <ref name="ner.atts"/>
+        <optional>
+          <ref name="temporal.atts"/>
+        </optional>
         <ref name="ner_tokens"/>
       </element>
       <element name="time">
-	<ref name="ner.atts"/>
+        <ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="num">
-	<ref name="ner.atts"/>
+        <ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="unit">
-	<ref name="ner.atts"/>
+        <ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="email">
-	<ref name="ner.atts"/>
+        <ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
       <element name="ref">
-	<ref name="ner.atts"/>
+        <ref name="ner.atts"/>
         <ref name="ner_tokens"/>
       </element>
     </choice>
   </define>
 
   <define name="ner.atts">
+    <a:documentation>Attributes for NEs.</a:documentation>
     <ref name="global.atts"/>
     <attribute name="ana">
       <data type="anyURI"/>
@@ -114,11 +117,12 @@
   </define>
   
   <define name="ner_tokens">
+    <a:documentation>Annotations that can appear in a NE.</a:documentation>
     <oneOrMore>
       <choice>
         <ref name="word"/>
         <ref name="punct"/>
-	<ref name="comment"/>
+        <ref name="comment"/>
         <ref name="pb"/>
         <ref name="ner"/>
       </choice>
@@ -126,51 +130,54 @@
   </define>
 
   <define name="tokens">
+    <a:documentation>A series of tokens.</a:documentation>
     <oneOrMore>
       <choice>
-	<ref name="word"/>
-	<ref name="punct"/>
+        <ref name="word"/>
+        <ref name="punct"/>
       </choice>
     </oneOrMore>
   </define>
 
   <define name="word">
+    <a:documentation>Definition of word.</a:documentation>
     <element name="w">
       <a:documentation>cf. https://clarin-eric.github.io/parla-clarin/#sec-ananorm</a:documentation>
       <choice>
-	<a:documentation>Simple word</a:documentation>
-	<group>
-	  <ref name="word.atts"/>
-	  <ref name="normalized-space.string"/>
-	</group>
-	<a:documentation>Word with several normalised words</a:documentation>
-	<group>
-	  <ref name="word-optional.atts"/>
-	  <!-- This doesn't work: error: group of "string" or "data" element -->
-	  <!--ref name="normalized-space.string"/-->
-	  <text/>
-	  <oneOrMore>
-	    <element name="w">
-	      <ref name="word.atts"/>
-	      <empty/>
-	    </element>
-	  </oneOrMore>
-	</group>
-	<a:documentation>Normalised word with several surface words</a:documentation>
-	<group>
-	  <ref name="word.atts"/>
-	  <oneOrMore>
-	    <element name="w">
-	      <ref name="normalized-space.string"/>
-	    </element>
-	  </oneOrMore>
-	  <empty/>
-	</group>
+        <a:documentation>Simple word:</a:documentation>
+        <group>
+          <ref name="word.atts"/>
+          <ref name="normalized-space.string"/>
+        </group>
+        <a:documentation>Word with several normalised words:</a:documentation>
+        <group>
+          <ref name="word-optional.atts"/>
+          <!-- This doesn't work: error: group of "string" or "data" element -->
+          <!--ref name="normalized-space.string"/-->
+          <text/>
+          <oneOrMore>
+            <element name="w">
+              <ref name="word.atts"/>
+              <empty/>
+            </element>
+          </oneOrMore>
+        </group>
+        <a:documentation>Normalised word with several surface words:</a:documentation>
+        <group>
+          <ref name="word.atts"/>
+          <oneOrMore>
+            <element name="w">
+              <ref name="normalized-space.string"/>
+            </element>
+          </oneOrMore>
+          <empty/>
+        </group>
       </choice>
     </element>
   </define>
 
   <define name="punct">
+    <a:documentation>A punctuation element.</a:documentation>
     <element name="pc">
       <ref name="token.atts"/>
       <ref name="normalized-space.string"/>
@@ -178,38 +185,40 @@
   </define>
 
   <define name="syntax">
+    <a:documentation>Dependency syntax as a link group (inside a sentence).</a:documentation>
     <element name="linkGrp">
       <attribute name="targFunc">
-	<value>head argument</value>
+        <value>head argument</value>
       </attribute>
       <attribute name="type">
-	<value>UD-SYN</value>
+        <value>UD-SYN</value>
       </attribute>
       <oneOrMore>
-	<element name="link">
-	  <attribute name="ana">
-	    <data type="anyURI"/>
-	  </attribute>
-	  <attribute name="target">
-	    <ref name="anyURIs"/>
-	  </attribute>
-	  <empty/>
-	</element>
+        <element name="link">
+          <attribute name="ana">
+            <data type="anyURI"/>
+          </attribute>
+          <attribute name="target">
+            <ref name="anyURIs"/>
+          </attribute>
+          <empty/>
+        </element>
       </oneOrMore>
     </element>
   </define>
 
   <define name="token.atts">
+    <a:documentation>Attributes of token elements.</a:documentation>
     <ref name="id.att"/>
     <ref name="lang.att"/>
     <optional>
       <attribute name="join">
-	<value>right</value>
+        <value>right</value>
       </attribute>
     </optional>
     <optional>
       <attribute name="norm">
-	<data type="string"/>
+        <data type="string"/>
       </attribute>
     </optional>
     <attribute name="msd">
@@ -217,48 +226,55 @@
     </attribute>
     <optional>
       <attribute name="ana">
-	<ref name="anyURIs"/>
+        <ref name="anyURIs"/>
       </attribute>
     </optional>
     <optional>
       <attribute name="pos">
-	<data type="string"/>
+        <data type="string"/>
       </attribute>
     </optional>
   </define>
 
+  <define name="word.atts">
+    <a:documentation>Obligatory attributes of word.</a:documentation>
+    <ref name="token.atts"/>
+    <attribute name="lemma">
+      <data type="string"/>
+    </attribute>
+  </define>
+
   <define name="word-optional.atts">
+    <a:documentation>Optional attributes of word.</a:documentation>
     <optional>
       <ref name="id.att"/>
     </optional>
     <ref name="lang.att"/>
     <optional>
       <attribute name="join">
-	<value>right</value>
+        <value>right</value>
       </attribute>
     </optional>
     <optional>
+      <a:documentation>UD PoS and morph.features, e.g. "UPosTag=NUM|NumForm=Digit":</a:documentation>
       <attribute name="msd">
-	<data type="string"/>
+        <data type="string">
+          <param name="pattern">\S+</param>
+        </data>
       </attribute>
     </optional>
     <optional>
       <attribute name="ana">
-	<ref name="anyURIs"/>
+        <ref name="anyURIs"/>
       </attribute>
     </optional>
     <optional>
       <attribute name="lemma">
-	<data type="string"/>
+        <data type="string">
+          <param name="pattern">\S+</param>
+        </data>
       </attribute>
     </optional>
-  </define>
-
-  <define name="word.atts">
-    <ref name="token.atts"/>
-    <attribute name="lemma">
-      <data type="string"/>
-    </attribute>
   </define>
 
 </grammar>

@@ -1,46 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar ns="http://www.tei-c.org/ns/1.0"
-	 xmlns:xi="http://www.w3.org/2001/XInclude"
-	 xmlns:xml="http://www.w3.org/XML/1998/namespace"
-	 xmlns="http://relaxng.org/ns/structure/1.0"
-	 xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-	 datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:xml="http://www.w3.org/XML/1998/namespace"
+         xmlns="http://relaxng.org/ns/structure/1.0"
+         xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+         datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
   
-  <a:documentation>Schema for ParlaMint linguistically annotated
-  teiCorpus. Assumed to contain the corpus header and XIncludes of
-  component TEI files, but which should not be actually
-  included!</a:documentation>
+  <a:documentation>RelaxNG XML schema for ParlaMint corpora: schema
+  for linguistically annotated root teiCorpus file.</a:documentation>
   
   <include href="ParlaMint-teiCorpus.rng">
+    
     <define name="encodingDesc">
-      <a:documentation>Encoding description.</a:documentation>
+      <a:documentation>Encoding description linguistically annotated corpus.</a:documentation>
       <element name="encodingDesc">
-	<ref name="global.atts"/>
-	<element name="projectDesc">
-	  <ref name="paras"/>
-	</element>
-	<ref name="editorialDecl"/>
-	<ref name="tagsDecl"/>
-	<element name="classDecl">
-	  <oneOrMore>
-	    <ref name="taxonomy"/>
-	  </oneOrMore>
-	</element>
-	<element name="listPrefixDef">
-	  <oneOrMore>
-	    <ref name="prefixDef"/>
-	  </oneOrMore>
-	</element>
-	<element name="appInfo">
-	  <oneOrMore>
-	    <ref name="application"/>
-	  </oneOrMore>
-	</element>
+        <ref name="global.atts"/>
+        <element name="projectDesc">
+          <ref name="paras"/>
+        </element>
+        <ref name="editorialDecl"/>
+        <ref name="tagsDecl"/>
+        <element name="classDecl">
+          <oneOrMore>
+            <choice>
+              <ref name="taxonomy"/>
+              <ref name="XInclude"/>
+            </choice>
+          </oneOrMore>
+        </element>
+        <element name="listPrefixDef">
+          <oneOrMore>
+            <ref name="prefixDef"/>
+          </oneOrMore>
+        </element>
+        <element name="appInfo">
+          <oneOrMore>
+            <ref name="application"/>
+          </oneOrMore>
+        </element>
       </element>
     </define>
   </include>
   
   <define name="prefixDef">
+    <a:documentation>Prefix definition for extended TEI pointers.</a:documentation>
     <element name="prefixDef">
       <attribute name="ident">
         <data type="token">
@@ -58,6 +61,8 @@
   </define>
   
   <define name="application">
+    <a:documentation>Description of an applications used to linguistically annotate the
+    corpus.</a:documentation>
     <element name="application">
       <attribute name="version">
         <data type="token">
@@ -68,13 +73,13 @@
         <data type="Name"/>
       </attribute>
       <element name="label">
-	<ref name="normalized-space.string"/>
+        <ref name="normalized-space.string"/>
       </element>
       <oneOrMore>
-	<element name="desc">
-	  <ref name="lang.att"/>
-	  <ref name="annotated-text"/>
-	</element>
+        <element name="desc">
+          <ref name="lang.att"/>
+          <ref name="annotated.text"/>
+        </element>
       </oneOrMore>
     </element>
   </define>

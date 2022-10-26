@@ -34,8 +34,8 @@ echo "DEBUG: parla_all=${parla_all}"
 echo "DEBUG: parla_process=${parla_process}"
 
 
-echo ::set-output name=parla_process::${parla_process}
-echo ::set-output name=parla_all::${parla_all}
-echo ::set-output name=parla_changed::${parla_changed}
-echo ::set-output name=scripts_changed::${scripts_changed}
-echo ::set-output name=parla_changed_size::${parla_changed_size}
+echo "parla_process=${parla_process}" >> $GITHUB_OUTPUT
+echo "parla_all=${parla_all}" >> $GITHUB_OUTPUT
+echo "parla_changed=${parla_changed}" >> $GITHUB_OUTPUT
+echo "scripts_changed=${scripts_changed}" | tr "\n" " " >> $GITHUB_OUTPUT
+echo "parla_changed_size=${parla_changed_size}" >> $GITHUB_OUTPUT
