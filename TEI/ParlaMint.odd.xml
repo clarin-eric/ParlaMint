@@ -440,16 +440,14 @@
             the metadata.
             </item>
             
-            <item>ParlaMint also makes a lot of use of temporal information, i.e. to
-            determine when a session took place or from (and maybe to) when a certain
-            person was an MP. To specify a date or time <ref
-            target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> should be used,
-            for ParlaMint typically gives just the date, e.g. "2022-04-01". Temporal values
-            are usually stored in the <att>when</att>, <att>from</att> and <att>to</att>
-            attributes of various elements. It should be noted that in cases when and interval
-            is specified with <att>from</att> and <att>to</att>, if either or both attributes
-            are missing, then the inference is that the information holds from and/or to
-            the extent of the dates that the corpus covers.</item>
+            <item>Temporal, i.e. time-related information is typically stored in the
+            <att>when</att>, <att>from</att> and <att>to</att> attributes of various
+            elements. To specify a date or time as the value of these attributes,
+            formatting according to the <ref
+            target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> standard should
+            be used, e.g. <val>2022-04-01</val> for the 1st of April 2022. More
+            information on temporal attributes is given in the Section on <ref
+            target="#sec-temporal">Temporal attributes</ref>.</item>
           </list>
           </p>
         </div>
@@ -596,6 +594,35 @@
           should be always consulted.</p>
         </div>
 
+        <div xml:id="sec-temporal">
+          <head>Temporal attributes</head>
+
+          <p>ParlaMint makes a lot of use of temporal information, e.g. to determine when
+          a session took place or the period when a certain person was an MP. As mentioned
+          in the Section on <ref target="#sec-standard">Standard values</ref>, the <ref
+          target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> format should be
+          used to specify the dates or times.</p>
+	  
+	  <p>The following attributes are used to specify temporal information:
+
+          <list>
+	    <item>The <att>when</att> attribute is used when the temporal information
+	    refers to a point in time, typically a date, and is used e.g. to give the date
+	    when the corpus was published, or when a change in the corpus was made.</item>
+	    
+	    <item>The <att>from</att> and <att>to</att> attributes give the starting and
+	    ending date or time of an interval, e.g. the time period the corpus covers, or
+	    the period when a person was an MP. If only one of the two attributes is
+	    present, then the assumption is that this interval extends at least to the
+	    start (if <att>from</att> is missing) or after the end (if <att>to</att> is
+	    missing) of time period that the particular ParlaMint corpus covers. Similary,
+	    if both attributes are missing, the assumption is that the interval covers the
+	    complete time period of the ParlaMint corpus.</item>
+	    
+	  </list>
+	  </p>
+	</div>
+	
       </div>
       
       <div xml:id="sec-metadata">
