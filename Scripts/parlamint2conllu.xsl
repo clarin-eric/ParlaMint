@@ -14,39 +14,16 @@
   xmlns:et="http://nl.ijs.si/et"
   exclude-result-prefixes="#all">
 
-  <xsl:output encoding="utf-8" method="text"/>
-  <xsl:key name="id" match="tei:*" use="concat('#',@xml:id)"/>
-  <xsl:key name="corresp" match="tei:*" use="substring-after(@corresp,'#')"/>
-
-  <!-- Name of file with meta-data, i.e. the corpus teiHeader: -->
-  <xsl:param name="meta"/>
+  <xsl:import href="parlamint-lib.xsl"/>
   
+  <xsl:output encoding="utf-8" method="text"/>
+  <xsl:key name="corresp" match="tei:*" use="substring-after(@corresp, '#')"/>
+
   <!-- We can choose the language of the segments that we want to output -->
   <xsl:param name="seg-lang"/>
   
-  <!-- Save root teiHeader to $teiHeader -->
-  <xsl:variable name="teiHeader">
-    <xsl:if test="normalize-space($meta) and not(doc-available($meta))">
-      <xsl:message terminate="yes">
-	<xsl:text>ERROR: meta document </xsl:text>
-	<xsl:value-of select="$meta"/>
-	<xsl:text> not available!</xsl:text>
-      </xsl:message>
-    </xsl:if>
-    <xsl:copy-of select="document($meta)//tei:teiHeader"/>
-  </xsl:variable>
-  
   <!-- Save listPrefixes to $listPrefix -->
-  <xsl:variable name="listPrefix">
-    <xsl:choose>
-      <xsl:when test="//tei:teiHeader//tei:listPrefixDef">
-	<xsl:copy-of select="//tei:teiHeader//tei:listPrefixDef"/>
-      </xsl:when>
-      <xsl:when test="$teiHeader//tei:listPrefixDef">
-	<xsl:copy-of select="$teiHeader//tei:listPrefixDef"/>
-      </xsl:when>
-    </xsl:choose>
-  </xsl:variable>
+  <xsl:variable name="listPrefix" select="$rootHeader//tei:listPrefixDef"/>
 
   <xsl:template match="text()"/>
 
@@ -292,9 +269,9 @@
     <xsl:variable name="link" select="$links//tei:link[matches(@target,concat(' #',$id,'$'))]"/>
     <xsl:variable name="head_id" select="substring-before($link/@target,' ')"/>
     <xsl:choose>
-      <xsl:when test="key('id', $head_id)/name()= 's'">0</xsl:when>
-      <xsl:when test="key('id', $head_id)[name()='pc' or name()='w']">
-	<xsl:apply-templates mode="number" select="key('id', $head_id)"/>
+      <xsl:when test="key('idr', $head_id)/name()= 's'">0</xsl:when>
+      <xsl:when test="key('idr', $head_id)[name()='pc' or name()='w']">
+	<xsl:apply-templates mode="number" select="key('idr', $head_id)"/>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:message terminate="yes">

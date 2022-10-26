@@ -8,8 +8,14 @@
   xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   exclude-result-prefixes="tei xi">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output method="text"/>
 
+  <xsl:template match="/tei:teiCorpus">
+    <xsl:apply-templates select="$rootHeader"/>
+  </xsl:template>
+  
   <xsl:template match="tei:affiliation">
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
     <xsl:variable name="person" select="./parent::tei:person"/>
@@ -32,34 +38,47 @@
 
     <xsl:choose>
       <xsl:when test="$ref">
-        <xsl:variable name="affWith" select="./ancestor::tei:teiCorpus//*[@xml:id = substring-after($ref,'#')]"/>
+        <xsl:variable name="affWith" select="./ancestor::tei:particDesc//*[@xml:id = substring-after($ref,'#')]"/>
         <xsl:choose>
           <xsl:when test="$affWith/local-name()='org'"> <!-- affiliation with organization -->
             <xsl:variable name="orgFrom" select="mk:get_org_from($affWith)"/>
             <xsl:variable name="orgTo" select="mk:get_org_to($affWith)"/>
             <xsl:variable name="affFrom" select="mk:fix_date($from,'-01-01','T00:00:00')"/>
             <xsl:variable name="affTo" select="mk:fix_date($to,'-12-31','T23:59:59')"/>
+            <xsl:variable name="roleNames" select="concat('|',
+                                                          string-join('|',
+                                                               ./roleName/concat(./ancestor-or-self::*/@xml:lang[1],
+                                                                                 '=',
+                                                                                text()
+                                                                                )
+                                                              ),
+                                                          '|'
+                                                          )"/>
 
 
             <!-- overlapping affiliations with same role and same organization -->
             <xsl:variable name="aff-duplicit" select="following-sibling::tei:affiliation
                                                         [@role=$role]
                                                         [@ref = $ref]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [$from=mk:get_from(.) and $to = mk:get_to(.)][1]"/>
             <xsl:variable name="aff-day-overlap" select="following-sibling::tei:affiliation
                                                         [@role=$role]
                                                         [@ref = $ref]
                                                         [not(@ana) or @ana = $ana]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [$from=mk:get_to(.) or $to = mk:get_from(.)][1]"/>
             <xsl:variable name="aff-cover" select="(preceding-sibling::tei:affiliation,following-sibling::tei:affiliation)
                                                         [@role=$role]
                                                         [@ref = $ref]
                                                         [not(@ana) or @ana = $ana]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [$from >= mk:get_from(.) and  mk:get_to(.) >= $to and not($from = mk:get_from(.) and $to = mk:get_to(.))][1]"/>
             <xsl:variable name="aff-overlap" select="following-sibling::tei:affiliation
                                                         [@role=$role]
                                                         [@ref = $ref]
                                                         [not(@ana) or @ana = $ana]
+                                                        [mk:contains(., 'roleName', $roleNames)]
                                                         [($from > mk:get_from(.) and  mk:get_to(.) > $from) or ($to > mk:get_from(.) and  mk:get_to(.) > $to)][1]"/>
             <xsl:choose>
               <xsl:when test="$aff-duplicit">
@@ -73,7 +92,7 @@
               <xsl:when test="$aff-day-overlap"> <!-- one day overlap -->
                 <xsl:call-template name="affiliation-error-overlap">
                   <xsl:with-param name="ident">01</xsl:with-param>
-                  <xsl:with-param name="severity">WARN</xsl:with-param>
+                  <xsl:with-param name="severity">INFO</xsl:with-param>
                   <xsl:with-param name="msg">has one day overlap with</xsl:with-param>
                   <xsl:with-param name="aff-overlaps" select="aff-day-overlap"/>
                 </xsl:call-template>
@@ -152,7 +171,7 @@
               <xsl:call-template name="affiliation-error">
                 <xsl:with-param name="ident"><xsl:value-of select="substring-before($role-msg,':')"/></xsl:with-param>
                 <xsl:with-param name="severity"><xsl:value-of select="substring-after(substring-before($role-msg,')'),':')"/></xsl:with-param>
-                <xsl:with-param name="msg"><xsl:text>Invalid role '</xsl:text><xsl:value-of select="@role"/><xsl:text>' - </xsl:text><xsl:value-of select="substring-after($role-msg,')')"/></xsl:with-param>
+                <xsl:with-param name="msg"><xsl:text>Non-standard role '</xsl:text><xsl:value-of select="@role"/><xsl:text>' - </xsl:text><xsl:value-of select="substring-after($role-msg,')')"/></xsl:with-param>
               </xsl:call-template>
             </xsl:if>
 
@@ -231,9 +250,9 @@
       <xsl:when test="@xml:id">
         <!-- organization without affiliation -->
         <xsl:variable name="orgId" select="@xml:id"/>
-        <xsl:variable name="affCnt" select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId)])"/>
+        <xsl:variable name="affCnt" select="count(./ancestor::tei:particDesc//tei:affiliation[@ref = concat('#',$orgId)])"/>
         <xsl:variable name="affCnt-no-from-to"
-                      select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId) and not(@from) and not(@to)])"/>
+                      select="count(./ancestor::tei:particDesc//tei:affiliation[@ref = concat('#',$orgId) and not(@from) and not(@to)])"/>
 
         <xsl:call-template name="error">
           <xsl:with-param name="ident">10</xsl:with-param>
@@ -361,11 +380,11 @@
       <xsl:otherwise>
         <xsl:variable name="newRefs" select="substring-after($refs,' ')"/>
         <xsl:variable name="actRef" select="substring-after(substring-before(concat($refs,' '),' '),'#')"/>
-        <xsl:variable name="eventNode" select="./ancestor::tei:teiCorpus//tei:event[@xml:id = $actRef]"/>
+        <xsl:variable name="eventNode" select="./ancestor::tei:particDesc//tei:event[@xml:id = $actRef]"/>
         <xsl:if test="$eventNode">
           <xsl:variable name="eventFrom" select="mk:fix_date(mk:get_from($eventNode),'-01-01','T00:00:00')" />
           <xsl:variable name="eventTo" select="mk:fix_date(mk:get_to($eventNode),'-12-31','T23:59:59')" />
-          <xsl:if test="$eventFrom > $date or $date > $eventTo">
+          <xsl:if test="($eventFrom > $date or $date > $eventTo) and $eventTo >= $eventFrom">
             <xsl:call-template name="error">
               <xsl:with-param name="ident">13</xsl:with-param>
               <xsl:with-param name="severity">WARN</xsl:with-param>
@@ -530,10 +549,10 @@
     <xsl:choose>
       <!-- TODO: extend rules -->
       <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and contains(' minister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)unexpected affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister deputyMinister ', mk:borders($role)))">16:WARN)unexpected affiliation role with government organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)unexpected affiliation role with parliamentary group organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and contains(' minister deputyMinister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)consider changing affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister deputyMinister ', mk:borders($role)))">16:WARN)consider changing affiliation role with government organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)consider changing affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -607,6 +626,7 @@
     <xsl:choose>
       <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
       <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
                        and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
@@ -630,5 +650,22 @@
   <xsl:function name="mk:borders">
     <xsl:param name="str"/>
     <xsl:value-of select="concat(' ',$str,' ')"/>
+  </xsl:function>
+
+  <xsl:function name="mk:contains">
+    <xsl:param name="node"/>
+    <xsl:param name="elem-name"/>
+    <xsl:param name="text-content"/>
+    <xsl:variable name="cnt-elem" select="count($node/*[name() = $elem-name])"/>
+    <xsl:choose>
+      <xsl:when test="not($node/*[name() = $elem-name])"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="$node/*[name() = $elem-name] and $elem-name = '||'"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:when test="count($node/*[name() = $elem-name]
+                             [contains($text-content,
+                                        concat('|',ancestor-or-self/@xml:lang[1],'=',text(),'|')
+                                      )]
+                          ) = $cnt-elem"><xsl:sequence select="true()"/></xsl:when>
+      <xsl:otherwise><xsl:sequence select="false()"/></xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
 </xsl:stylesheet>

@@ -6,6 +6,8 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   exclude-result-prefixes="tei xi">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output method="text"/>
 
   <xsl:variable name="fileName" select="replace(base-uri(), '^.*?([^/]+\.xml)$', '$1')"/>
@@ -63,7 +65,10 @@
 	</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:apply-templates/>
+    <xsl:variable name="rootHeader">
+      <xsl:apply-templates mode="XInclude" select="//tei:teiHeader"/>
+    </xsl:variable>
+    <xsl:apply-templates select="$rootHeader"/>
   </xsl:template>
   
   <xsl:template match="tei:TEI">

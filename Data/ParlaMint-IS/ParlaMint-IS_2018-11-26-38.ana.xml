@@ -10,9 +10,9 @@
             <title type="main" xml:lang="en">Icelandic parliamentary corpus ParlaMint-IS, regular meeting 149-38 [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="is">Ræður frá Alþingi Íslendinga, 23. kjörtímabil, hefðbundinn fundur 149-38, 26.11.2018.</title>
             <title type="sub" xml:lang="en">Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018.</title>
-            <meeting n="38" corresp="#LV" ana="#parla.meeting.regular">Hefðbundinn</meeting>
-            <meeting n="149" corresp="#LV" ana="#parla.session">149. löggjafarþing</meeting>
-            <meeting n="23" corresp="#LV" ana="#parla.term #LV.23">23. kjörtímabil</meeting>
+            <meeting n="38" corresp="#LV" ana="#parla.meeting.regular #parla.uni">Hefðbundinn</meeting>
+            <meeting n="149" corresp="#LV" ana="#parla.session #parla.uni">149. löggjafarþing</meeting>
+            <meeting n="23" corresp="#LV" ana="#parla.term #LV.23 #parla.uni">23. kjörtímabil</meeting>
             <respStmt>
                <persName>Starkaður Barkarson</persName>
                <resp xml:lang="is">Söfnun og úrvinnsla texta. TEI-kóðun.</resp>
@@ -23,16 +23,12 @@
                <resp xml:lang="is">Málfræðimörkun</resp>
                <resp xml:lang="en">Linguistic annotation</resp>
             </respStmt>
-            <funder>
-               <orgName xml:lang="is">Rannsóknainnviðanet CLARIN</orgName>
-               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-            </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.1</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="words" quantity="61954" xml:lang="en">61,954 words</measure>
+            <measure unit="words" quantity="61952" xml:lang="en">61952 words</measure>
             <measure unit="speeches" quantity="260" xml:lang="en">260 speeches</measure>
          </extent>
          <publicationStmt>
@@ -41,27 +37,27 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+            <idno type="handle">http://hdl.handle.net/11356/1432</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2021-06-10">2021-06-10</date>
+            <date when="2022-08-31">2022-08-31</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title xml:lang="is">Þingræður haldnar á Alþingi Íslendinga</title>
-               <title xml:lang="en">Parliament speeches in the national parliament of Iceland</title>
-               <idno type="URI" subtype="parliament">https://www.althingi.is/</idno>
+               <title xml:lang="en">Parliament speeches in the national parliament of Iceland </title>
+               <idno type="URI" subtype="parliament">https://www.althingi.is</idno>
                <date when="2018-11-26">2018-11-26</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the<ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -73,12 +69,12 @@
                <tagUsage occurs="127" gi="kinesic"/>
                <tagUsage occurs="178" gi="desc"/>
                <tagUsage occurs="51" gi="vocal"/>
-               <tagUsage occurs="3180" gi="s"/>
-               <tagUsage occurs="61954" gi="w"/>
-               <tagUsage occurs="5407" gi="pc"/>
-               <tagUsage occurs="3180" gi="linkGrp"/>
+               <tagUsage occurs="3179" gi="s"/>
+               <tagUsage occurs="61952" gi="w"/>
+               <tagUsage occurs="5409" gi="pc"/>
+               <tagUsage occurs="3179" gi="linkGrp"/>
                <tagUsage occurs="67361" gi="link"/>
-               <tagUsage occurs="701" gi="name"/>
+               <tagUsage occurs="724" gi="name"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -92,6 +88,10 @@
             </setting>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2022-08-31">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -1518,9 +1518,9 @@
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-IS_2018-11-26-38.seg5.4">
-                     <w lemma="sá"
+                     <w lemma="það"
                         xml:id="ParlaMint-IS_2018-11-26-38.seg5.4.1"
-                        pos="fahen"
+                        pos="fphen"
                         msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem">Það</w>
                      <w lemma="sem"
                         xml:id="ParlaMint-IS_2018-11-26-38.seg5.4.2"
@@ -3412,9 +3412,9 @@
                         xml:id="ParlaMint-IS_2018-11-26-38.seg798.1.14"
                         pos="nkeþ"
                         msd="UPosTag=VERB|VerbForm=Inf|Voice=Act">kvóta</w>
-                     <w lemma="endurútdeilda"
+                     <w lemma="endurútdeila"
                         xml:id="ParlaMint-IS_2018-11-26-38.seg798.1.15"
-                        pos="sþgven"
+                        pos="sþghen"
                         msd="UPosTag=ADJ|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act">endurútdeilt</w>
                      <w lemma="á"
                         xml:id="ParlaMint-IS_2018-11-26-38.seg798.1.16"
@@ -3598,7 +3598,7 @@
                         xml:id="ParlaMint-IS_2018-11-26-38.seg799.1.18"
                         pos="ct"
                         msd="UPosTag=SCONJ">sem</w>
-                     <name type="MISC">
+                     <name type="ORG">
                         <w lemma="Pírati"
                            xml:id="ParlaMint-IS_2018-11-26-38.seg799.1.19"
                            pos="nkfn-s"
@@ -4191,9 +4191,9 @@
                         xml:id="ParlaMint-IS_2018-11-26-38.seg800.7.8"
                         pos="sng"
                         msd="UPosTag=VERB|VerbForm=Inf|Voice=Act">finna</w>
-                     <w lemma="flöt"
+                     <w lemma="flötur"
                         xml:id="ParlaMint-IS_2018-11-26-38.seg800.7.9"
-                        pos="nveo"
+                        pos="nkeo"
                         msd="UPosTag=NOUN|Case=Acc|Definite=Ind|Gender=Neut|Number=Plur">flöt</w>
                      <w lemma="á"
                         xml:id="ParlaMint-IS_2018-11-26-38.seg800.7.10"

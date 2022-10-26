@@ -1,4 +1,4 @@
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u1" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="Opposition" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u1" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg1" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -128,7 +128,7 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u2" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="Opposition" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u2" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg5" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg5.1">
 Άξιοι	Άξιοι	άξιος	ADJ	Case=Nom Gender=Masc Number=Plur	1	root	-	-	-	-
@@ -141,7 +141,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u8" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="MP" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" speaker_gender="F" speaker_birth="">
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u8" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg79" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg79.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2
@@ -223,7 +223,7 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u9" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="MP" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" speaker_gender="F" speaker_birth="">
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u9" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg82" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg82.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3

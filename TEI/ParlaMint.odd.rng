@@ -5,9 +5,9 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-07-12T11:10:32Z. 2022-07-12.
+Schema generated from ODD source 2022-10-26T10:59:23Z. 2022-10-26.
 TEI Edition: Version 4.5.0a. Last updated on
-        1st June 2022, revision aeba95253
+        29th July 2022, revision 50a1ab835
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
   
 --><!--This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.-->
@@ -694,29 +694,41 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <define name="tei_model.placeStateLike">
       <choice>
          <ref name="tei_model.placeNamePart"/>
+         <ref name="tei_state"/>
       </choice>
    </define>
    <define name="tei_model.placeStateLike_alternation">
       <choice>
          <ref name="tei_model.placeNamePart_alternation"/>
+         <ref name="tei_state"/>
       </choice>
    </define>
    <define name="tei_model.placeStateLike_sequence">
       <ref name="tei_model.placeNamePart_sequence"/>
+      <ref name="tei_state"/>
    </define>
    <define name="tei_model.placeStateLike_sequenceOptional">
       <optional>
          <ref name="tei_model.placeNamePart_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="tei_state"/>
       </optional>
    </define>
    <define name="tei_model.placeStateLike_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_model.placeNamePart_sequenceOptionalRepeatable"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_state"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.placeStateLike_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_model.placeNamePart_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_state"/>
       </oneOrMore>
    </define>
    <define name="tei_model.quoteLike">
@@ -885,7 +897,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                           test="    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )">
+                           test="(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </sch:report>
             </rule>
@@ -900,7 +912,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                           test="    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )">
+                           test="(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
       </sch:report>
             </rule>
@@ -980,6 +992,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                <ref name="tei_name"/>
                <ref name="tei_date"/>
                <ref name="tei_num"/>
+               <ref name="tei_pb"/>
                <text/>
             </choice>
          </oneOrMore>
@@ -1207,7 +1220,10 @@ Measures]</a:documentation>
    <define name="tei_label">
       <element name="label">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]</a:documentation>
-         <text/>
+         <choice>
+            <text/>
+            <ref name="tei_orgName"/>
+         </choice>
          <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
       </element>
@@ -1288,7 +1304,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_respStmt">
       <element name="respStmt">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organisations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
          <oneOrMore>
             <ref name="tei_persName"/>
          </oneOrMore>
@@ -1299,7 +1315,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_resp">
       <element name="resp">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organisation's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]</a:documentation>
          <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <empty/>
@@ -1337,7 +1353,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_publisher">
       <element name="publisher">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(publisher) provides the name of the organisation responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
          <choice>
             <group>
                <oneOrMore>
@@ -1451,7 +1467,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_funder">
       <element name="funder">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. [2.2.1. The Title Statement]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(funding body) specifies the name of an individual, institution, or organisation responsible for the funding of a project or text. [2.2.1. The Title Statement]</a:documentation>
          <oneOrMore>
             <ref name="tei_orgName"/>
          </oneOrMore>
@@ -1493,7 +1509,7 @@ Elements]</a:documentation>
    </define>
    <define name="tei_idno">
       <element name="idno">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organisation, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
          <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <attribute name="type">
@@ -1684,7 +1700,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(element usage) documents the usage of a specific element within a specified document. [2.3.4. The Tagging Declaration]</a:documentation>
          <empty/>
          <attribute name="gi">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(generic identifier) specifies the name (generic identifier) of the element indicated by the tag, within the namespace indicated by the parent <code xmlns="http://www.w3.org/1999/xhtml">&lt;namespace&gt;</code> element. All descendats of <code xmlns="http://www.w3.org/1999/xhtml">&lt;text&gt;</code> element and <code xmlns="http://www.w3.org/1999/xhtml">&lt;text&gt;</code> element counts has to be included.</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(generic identifier) specifies the name (generic identifier) of the element indicated by the tag, within the namespace indicated by the parent <code xmlns="http://www.w3.org/1999/xhtml">&lt;namespace&gt;</code> element. All descendats of <code xmlns="http://www.w3.org/1999/xhtml">&lt;text&gt;</code> element and <code xmlns="http://www.w3.org/1999/xhtml">&lt;text&gt;</code> element counts have to be included.</a:documentation>
             <data type="Name"/>
          </attribute>
          <attribute name="occurs">
@@ -1743,9 +1759,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_classDecl">
       <element name="classDecl">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains one or more taxonomies defining any classificatory codes used elsewhere in the text. [2.3.7. The Classification Declaration 2.3. The Encoding Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in separate files. [2.3.7. The Classification Declaration 2.3. The Encoding Description]</a:documentation>
          <oneOrMore>
-            <ref name="tei_taxonomy"/>
+            <choice>
+               <ref name="tei_taxonomy"/>
+               <ref name="tei_include"/>
+            </choice>
          </oneOrMore>
       </element>
    </define>
@@ -1927,8 +1946,12 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    <define name="tei_change">
       <element name="change">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]</a:documentation>
-         <ref name="tei_name"/>
-         <text/>
+         <oneOrMore>
+            <choice>
+               <ref name="tei_name"/>
+               <text/>
+            </choice>
+         </oneOrMore>
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <empty/>
       </element>
@@ -2077,14 +2100,16 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_particDesc">
       <element name="particDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [15.2. Contextual Information]</a:documentation>
          <group>
-            <oneOrMore>
+            <choice>
                <ref name="tei_listOrg"/>
-            </oneOrMore>
-            <oneOrMore>
+               <ref name="tei_include"/>
+            </choice>
+            <choice>
                <ref name="tei_listPerson"/>
-            </oneOrMore>
+               <ref name="tei_include"/>
+            </choice>
          </group>
       </element>
    </define>
@@ -2268,6 +2293,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                   <value>entering</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>break</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>pause</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>sound</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -2547,7 +2574,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_orgName">
       <element name="orgName">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organisational name. [13.2.2. Organizational Names]</a:documentation>
          <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.canonical.attribute.ref"/>
@@ -2694,7 +2721,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_affiliation">
       <element name="affiliation">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example an employer or sponsor. [15.2.2. The Participant Description]</a:documentation>
          <zeroOrMore>
             <ref name="tei_roleName"/>
          </zeroOrMore>
@@ -2706,81 +2733,51 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <attribute name="role">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
-               <value>member</value>
+               <value>academician</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>head</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>deputyHead</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>minister</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>substituteMP</value>
+               <value>alternateOfDelegation</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>associateMember</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>nonAttachedMember</value>
+               <value>candidateChairman</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>constitutionalJudge</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>deputyHead</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>deputyMinister</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>head</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>member</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>minister</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>ministerDelegate</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>ministerOfState</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>secretaryOfState</value>
+               <value>nonAttachedMember</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>observer</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>verifier</value>
+               <value>ombudsman</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>vicePublicDefenderOfRights</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>headOfDelegation</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>presidiumMember</value>
+               <value>prosecutorGeneral</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>publicDefenderOfRights</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>alternateOfDelegation</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>replacement</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>representative</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>academician</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>candidateChairman</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>chairperson</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>chiefInspector</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>commander</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>constitutionalJudge</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>deputyChief</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>deputyMinister</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>deputyPrimeMinister</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>director</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>headOfDepartment</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>leader</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>ombudsman</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>presidentEP</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>primeMinister</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>prosecutorGeneral</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>secretary</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>secretaryGeneral</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>viceDirector</value>
+               <value>secretaryOfState</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>verifier</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>vicePublicDefenderOfRights</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
@@ -2849,7 +2846,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_event">
       <element name="event">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(event) contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(event) contains data relating to any kind of significant event associated with a person, place, or organisation. [13.3.1. Basic Principles]</a:documentation>
          <oneOrMore>
             <ref name="tei_label"/>
          </oneOrMore>
@@ -2862,7 +2859,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_listOrg">
       <element name="listOrg">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of organizations) contains a list of elements, each of which provides information about an identifiable organization. [13.2.2. Organizational Names]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(list of organizations) contains a list of elements, each of which provides information about an identifiable organisation. [13.2.2. Organizational Names]</a:documentation>
          <group>
             <zeroOrMore>
                <ref name="tei_head"/>
@@ -2904,7 +2901,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_listRelation">
       <element name="listRelation">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about relationships identified amongst people, places, and organizations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about relationships identified amongst people, places, and organisations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]</a:documentation>
          <oneOrMore>
             <ref name="tei_relation"/>
          </oneOrMore>
@@ -2923,7 +2920,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_org">
       <element name="org">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization) provides information about an identifiable organisation such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]</a:documentation>
          <group>
             <zeroOrMore>
                <ref name="tei_head"/>
@@ -2943,6 +2940,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             <optional>
                <ref name="tei_listEvent"/>
             </optional>
+            <zeroOrMore>
+               <ref name="tei_state"/>
+            </zeroOrMore>
          </group>
          <ref name="tei_att.global.analytic.attribute.ana"/>
          <attribute name="xml:id">
@@ -2952,7 +2952,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <attribute name="role">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             <choice>
+               <value>country</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>republic</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>government</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>ministry</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>parliament</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -2964,11 +2970,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>boardOfParliament</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>coalition</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>ngo</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>president</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>institution</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -2994,9 +2996,13 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>chamberOfTheNations</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>europeanCommission</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>europeanParliament</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <value>internationalOrganizations</value>
+               <value>europeanInstitution</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>internationalOrganisation</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>boardOfDirectors</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -3051,7 +3057,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_relation">
       <element name="relation">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(relationship) describes any kind of relationship or linkage amongst a specified group of places, events, persons, objects or other items. [13.3.2.3. Personal Relationships]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(relationship) describes a relationship between two organisations. [13.3.2.3. Personal Relationships]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="parlamint-relation-reforkeyorname-constraint-assert-4">
@@ -3096,6 +3102,21 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.datable.w3c.attribute.when"/>
          <ref name="tei_att.datable.w3c.attribute.from"/>
          <ref name="tei_att.datable.w3c.attribute.to"/>
+         <attribute name="name">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>coalition</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>opposition</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>renaming</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>successor</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>representing</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <choice>
             <optional>
                <attribute name="active">
@@ -3122,12 +3143,6 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                </attribute>
             </optional>
          </choice>
-         <attribute name="name">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a name for the kind of relationship of which this is an instance.</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
          <optional>
             <attribute name="passive">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the passive participants in a non-mutual relationship.</a:documentation>
@@ -3159,6 +3174,46 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <value>O</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <value>N</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_state">
+      <element name="state">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(state) defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]</a:documentation>
+         <choice>
+            <ref name="tei_label"/>
+            <zeroOrMore>
+               <ref name="tei_note"/>
+            </zeroOrMore>
+         </choice>
+         <ref name="tei_att.global.attribute.n"/>
+         <ref name="tei_att.global.source.attribute.source"/>
+         <ref name="tei_att.datable.w3c.attribute.from"/>
+         <ref name="tei_att.datable.w3c.attribute.to"/>
+         <attribute name="ana">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(analysis) indicates one or more elements containing interpretations of the element on which the <code xmlns="http://www.w3.org/1999/xhtml">@ana</code> attribute appears.</a:documentation>
+            <data type="anyURI">
+               <param name="pattern">\S+</param>
+            </data>
+         </attribute>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>politicalOrientation</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
+         <attribute name="subtype">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>CHES</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>Wikipedia</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>unknown</value>
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
             </choice>
          </attribute>
@@ -3279,6 +3334,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <ref name="tei_kinesic"/>
                <ref name="tei_incident"/>
                <ref name="tei_gap"/>
+               <ref name="tei_pb"/>
             </choice>
          </oneOrMore>
          <ref name="tei_linkGrp"/>
@@ -3520,7 +3576,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 context="tei:*/@source">
          <sch:let name="srcs" value="tokenize( normalize-space(.),' ')"/>
-         <sch:report test="( parent::tei:classRef                               | parent::tei:dataRef                               | parent::tei:elementRef                               | parent::tei:macroRef                               | parent::tei:moduleRef                               | parent::tei:schemaSpec )                               and                               $srcs[2]">
+         <sch:report test="( parent::tei:classRef | parent::tei:dataRef | parent::tei:elementRef | parent::tei:macroRef | parent::tei:moduleRef | parent::tei:schemaSpec ) and $srcs[2]">
               When used on a schema description element (like
               <sch:value-of select="name(..)"/>), the @source attribute
               should have only 1 value. (This one has <sch:value-of select="count($srcs)"/>.)
@@ -3722,7 +3778,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </pattern>
    <define name="tei_include">
       <element name="include" ns="http://www.w3.org/2001/XInclude">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">used to include a corpus component (a <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> element) into the corpus root (the <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> element).</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">is an element from the XML namespace of the <a xmlns="http://www.w3.org/1999/xhtml"
+               href="https://www.w3.org/TR/xinclude-11/">XML Inclusions (XInclude)</a> W3C recommendation. It is used to include, into a ParlaMint <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiCorpus&gt;</code> root file the elements of the corpus that are stored as separate files. These are the <code xmlns="http://www.w3.org/1999/xhtml">&lt;TEI&gt;</code> corpus components and parts of the corpus root <code xmlns="http://www.w3.org/1999/xhtml">&lt;teiHeader&gt;</code>. Inside <code xmlns="http://www.w3.org/1999/xhtml">&lt;particDesc&gt;</code> these are <code xmlns="http://www.w3.org/1999/xhtml">&lt;listPerson&gt;</code> &amp; <code xmlns="http://www.w3.org/1999/xhtml">&lt;listOrg&gt;</code>, and <code xmlns="http://www.w3.org/1999/xhtml">&lt;taxonomy&gt;</code> inside <code xmlns="http://www.w3.org/1999/xhtml">&lt;classDecl&gt;</code>.</a:documentation>
          <empty/>
          <optional>
             <attribute name="href">

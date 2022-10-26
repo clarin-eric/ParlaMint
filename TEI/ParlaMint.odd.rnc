@@ -12,9 +12,9 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-07-12T11:10:35Z. 2022-07-12.
+# Schema generated from ODD source 2022-10-26T10:59:27Z. 2022-10-26.
 # TEI Edition: Version 4.5.0a. Last updated on
-#         1st June 2022, revision aeba95253
+#         29th July 2022, revision 50a1ab835
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
 #
 
@@ -404,16 +404,17 @@ tei_model.placeNamePart_sequence = tei_placeName
 tei_model.placeNamePart_sequenceOptional = tei_placeName?
 tei_model.placeNamePart_sequenceOptionalRepeatable = tei_placeName*
 tei_model.placeNamePart_sequenceRepeatable = tei_placeName+
-tei_model.placeStateLike = tei_model.placeNamePart
+tei_model.placeStateLike = tei_model.placeNamePart | tei_state
 tei_model.placeStateLike_alternation =
-  tei_model.placeNamePart_alternation
-tei_model.placeStateLike_sequence = tei_model.placeNamePart_sequence
+  tei_model.placeNamePart_alternation | tei_state
+tei_model.placeStateLike_sequence =
+  tei_model.placeNamePart_sequence, tei_state
 tei_model.placeStateLike_sequenceOptional =
-  tei_model.placeNamePart_sequenceOptional?
+  tei_model.placeNamePart_sequenceOptional?, tei_state?
 tei_model.placeStateLike_sequenceOptionalRepeatable =
-  tei_model.placeNamePart_sequenceOptionalRepeatable*
+  tei_model.placeNamePart_sequenceOptionalRepeatable*, tei_state*
 tei_model.placeStateLike_sequenceRepeatable =
-  tei_model.placeNamePart_sequenceRepeatable+
+  tei_model.placeNamePart_sequenceRepeatable+, tei_state+
 tei_model.quoteLike = notAllowed
 tei_model.quoteLike_alternation = notAllowed
 tei_model.quoteLike_sequence = empty
@@ -486,7 +487,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "    (ancestor::tei:ab or ancestor::tei:p)                          and not( ancestor::tei:floatingText                                 |parent::tei:exemplum                                 |parent::tei:item                                 |parent::tei:note                                 |parent::tei:q                                 |parent::tei:quote                                 |parent::tei:remarks                                 |parent::tei:said                                 |parent::tei:sp                                 |parent::tei:stage                                 |parent::tei:cell                                 |parent::tei:figure                                )"
+               "(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )"
              "\x{a}" ~
              "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
              "      "
@@ -508,7 +509,7 @@ tei_p =
            "               "
            sch:report [
              test =
-               "    (ancestor::tei:l or ancestor::tei:lg)                          and not( ancestor::tei:floatingText                                 |parent::tei:figure                                 |parent::tei:note                                )"
+               "(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )"
              "\x{a}" ~
              "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
              "      "
@@ -578,7 +579,7 @@ tei_name =
   
   ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
   element name {
-    (tei_w | tei_pc | tei_name | tei_date | tei_num | text)+,
+    (tei_w | tei_pc | tei_name | tei_date | tei_num | tei_pb | text)+,
     tei_att.global.attribute.xmlid,
     tei_att.global.attribute.xmllang,
     tei_att.global.analytic.attribute.ana,
@@ -780,7 +781,9 @@ tei_ref =
 tei_label =
   
   ## (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]
-  element label { text, tei_att.global.attribute.xmllang, empty }
+  element label {
+    (text | tei_orgName), tei_att.global.attribute.xmllang, empty
+  }
 tei_head =
   
   ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]
@@ -845,11 +848,11 @@ tei_pb =
   }
 tei_respStmt =
   
-  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
+  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organisations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
   element respStmt { tei_persName+, tei_resp+ }
 tei_resp =
   
-  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
+  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organisation's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
   element resp { text, tei_att.global.attribute.xmllang, empty }
 tei_title =
   
@@ -882,7 +885,7 @@ tei_meeting =
   }
 tei_publisher =
   
-  ## (publisher) provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
+  ## (publisher) provides the name of the organisation responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
   element publisher {
     ((tei_orgName+, tei_ref?) | text),
     tei_att.global.attribute.xmllang,
@@ -946,7 +949,7 @@ tei_titleStmt =
   }
 tei_funder =
   
-  ## (funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. [2.2.1. The Title Statement]
+  ## (funding body) specifies the name of an individual, institution, or organisation responsible for the funding of a project or text. [2.2.1. The Title Statement]
   element funder { tei_orgName+ }
 tei_editionStmt =
   
@@ -968,7 +971,7 @@ tei_publicationStmt =
   }
 tei_idno =
   
-  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organisation, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     text,
     tei_att.global.attribute.xmllang,
@@ -1148,7 +1151,7 @@ tei_tagUsage =
         ns1:code [ "<text>" ]
         " element and "
         ns1:code [ "<text>" ]
-        " element counts has to be included."
+        " element counts have to be included."
       ]
     ]
     attribute gi { xsd:Name },
@@ -1200,8 +1203,8 @@ tei_listPrefixDef =
   element listPrefixDef { tei_prefixDef+ }
 tei_classDecl =
   
-  ## (classification declarations) contains one or more taxonomies defining any classificatory codes used elsewhere in the text. [2.3.7. The Classification Declaration 2.3. The Encoding Description]
-  element classDecl { tei_taxonomy+ }
+  ## (classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in separate files. [2.3.7. The Classification Declaration 2.3. The Encoding Description]
+  element classDecl { (tei_taxonomy | tei_include)+ }
 tei_taxonomy =
   
   ## (taxonomy) defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
@@ -1345,7 +1348,7 @@ tei_change =
   
   ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
   element change {
-    tei_name, text, tei_att.datable.w3c.attribute.when, empty
+    (tei_name | text)+, tei_att.datable.w3c.attribute.when, empty
   }
 tei_TEI =
   [
@@ -1475,8 +1478,10 @@ tei_div =
   }
 tei_particDesc =
   
-  ## (participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]
-  element particDesc { tei_listOrg+, tei_listPerson+ }
+  ## (participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [15.2. Contextual Information]
+  element particDesc {
+    (tei_listOrg | tei_include), (tei_listPerson | tei_include)
+  }
 tei_settingDesc =
   
   ## (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information 2.4. The Profile Description]
@@ -1653,6 +1658,9 @@ tei_incident =
         "break"
       | 
         ##
+        "pause"
+      | 
+        ##
         "sound"
       | 
         ##
@@ -1813,7 +1821,7 @@ tei_att.datable.iso.attribute.to-iso =
   }?
 tei_orgName =
   
-  ## (organization name) contains an organizational name. [13.2.2. Organizational Names]
+  ## (organization name) contains an organisational name. [13.2.2. Organizational Names]
   element orgName {
     text,
     tei_att.global.attribute.xmllang,
@@ -1914,7 +1922,7 @@ tei_placeName =
   }
 tei_affiliation =
   
-  ## (affiliation) contains an informal description of a person's present or past affiliation with some organization, for example an employer or sponsor. [15.2.2. The Participant Description]
+  ## (affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example an employer or sponsor. [15.2.2. The Participant Description]
   element affiliation {
     tei_roleName*,
     tei_att.global.analytic.attribute.ana,
@@ -1927,55 +1935,52 @@ tei_affiliation =
     attribute role {
       
       ##
-      "member"
+      "academician"
       | 
         ##
-        "head"
-      | 
-        ##
-        "deputyHead"
-      | 
-        ##
-        "minister"
-      | 
-        ##
-        "substituteMP"
+        "alternateOfDelegation"
       | 
         ##
         "associateMember"
       | 
         ##
-        "nonAttachedMember"
+        "candidateChairman"
+      | 
+        ##
+        "constitutionalJudge"
+      | 
+        ##
+        "deputyHead"
+      | 
+        ##
+        "deputyMinister"
+      | 
+        ##
+        "head"
+      | 
+        ##
+        "member"
+      | 
+        ##
+        "minister"
       | 
         ##
         "ministerDelegate"
       | 
         ##
-        "ministerOfState"
-      | 
-        ##
-        "secretaryOfState"
+        "nonAttachedMember"
       | 
         ##
         "observer"
       | 
         ##
-        "verifier"
+        "ombudsman"
       | 
         ##
-        "vicePublicDefenderOfRights"
-      | 
-        ##
-        "headOfDelegation"
-      | 
-        ##
-        "presidiumMember"
+        "prosecutorGeneral"
       | 
         ##
         "publicDefenderOfRights"
-      | 
-        ##
-        "alternateOfDelegation"
       | 
         ##
         "replacement"
@@ -1984,61 +1989,19 @@ tei_affiliation =
         "representative"
       | 
         ##
-        "academician"
-      | 
-        ##
-        "candidateChairman"
-      | 
-        ##
-        "chairperson"
-      | 
-        ##
-        "chiefInspector"
-      | 
-        ##
-        "commander"
-      | 
-        ##
-        "constitutionalJudge"
-      | 
-        ##
-        "deputyChief"
-      | 
-        ##
-        "deputyMinister"
-      | 
-        ##
-        "deputyPrimeMinister"
-      | 
-        ##
-        "director"
-      | 
-        ##
-        "headOfDepartment"
-      | 
-        ##
-        "leader"
-      | 
-        ##
-        "ombudsman"
-      | 
-        ##
-        "presidentEP"
-      | 
-        ##
-        "primeMinister"
-      | 
-        ##
-        "prosecutorGeneral"
-      | 
-        ##
         "secretary"
       | 
         ##
         "secretaryGeneral"
       | 
         ##
-        "viceDirector"
+        "secretaryOfState"
+      | 
+        ##
+        "verifier"
+      | 
+        ##
+        "vicePublicDefenderOfRights"
     },
     empty
   }
@@ -2094,7 +2057,7 @@ tei_education =
   }
 tei_event =
   
-  ## (event) contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]
+  ## (event) contains data relating to any kind of significant event associated with a person, place, or organisation. [13.3.1. Basic Principles]
   element event {
     tei_label+,
     tei_att.global.attribute.xmlid,
@@ -2105,7 +2068,7 @@ tei_event =
   }
 tei_listOrg =
   
-  ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organization. [13.2.2. Organizational Names]
+  ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organisation. [13.2.2. Organizational Names]
   element listOrg { tei_head*, tei_org+, tei_listRelation? }
 tei_listEvent =
   
@@ -2117,7 +2080,7 @@ tei_listPerson =
   element listPerson { tei_head*, tei_person+ }
 tei_listRelation =
   
-  ## provides information about relationships identified amongst people, places, and organizations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]
+  ## provides information about relationships identified amongst people, places, and organisations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]
   element listRelation { tei_relation+ }
 tei_occupation =
   
@@ -2132,14 +2095,15 @@ tei_occupation =
   }
 tei_org =
   
-  ## (organization) provides information about an identifiable organization such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]
+  ## (organization) provides information about an identifiable organisation such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]
   element org {
     (tei_head*,
      tei_orgName+,
      tei_event*,
      tei_idno*,
      tei_desc?,
-     tei_listEvent?),
+     tei_listEvent?,
+     tei_state*),
     tei_att.global.analytic.attribute.ana,
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
@@ -2149,7 +2113,16 @@ tei_org =
     attribute role {
       
       ##
-      "government"
+      "country"
+      | 
+        ##
+        "republic"
+      | 
+        ##
+        "government"
+      | 
+        ##
+        "ministry"
       | 
         ##
         "parliament"
@@ -2167,13 +2140,7 @@ tei_org =
         "boardOfParliament"
       | 
         ##
-        "coalition"
-      | 
-        ##
         "ngo"
-      | 
-        ##
-        "president"
       | 
         ##
         "institution"
@@ -2212,10 +2179,16 @@ tei_org =
         "chamberOfTheNations"
       | 
         ##
+        "europeanCommission"
+      | 
+        ##
         "europeanParliament"
       | 
         ##
-        "internationalOrganizations"
+        "europeanInstitution"
+      | 
+        ##
+        "internationalOrganisation"
       | 
         ##
         "boardOfDirectors"
@@ -2245,7 +2218,7 @@ tei_person =
   }
 tei_relation =
   
-  ## (relationship) describes any kind of relationship or linkage amongst a specified group of places, events, persons, objects or other items. [13.3.2.3. Personal Relationships]
+  ## (relationship) describes a relationship between two organisations. [13.3.2.3. Personal Relationships]
   element relation {
     empty
     >> sch:pattern [
@@ -2306,6 +2279,25 @@ tei_relation =
     tei_att.datable.w3c.attribute.when,
     tei_att.datable.w3c.attribute.from,
     tei_att.datable.w3c.attribute.to,
+    
+    ##
+    attribute name {
+      
+      ##
+      "coalition"
+      | 
+        ##
+        "opposition"
+      | 
+        ##
+        "renaming"
+      | 
+        ##
+        "successor"
+      | 
+        ##
+        "representing"
+    },
     (
      ## identifies the active participants in a non-mutual relationship, or all the participants in a mutual one.
      attribute active {
@@ -2320,11 +2312,6 @@ tei_relation =
            xsd:anyURI { pattern = "\S+" }+
          }
        }?),
-    
-    ## supplies a name for the kind of relationship of which this is an instance.
-    attribute name {
-      xsd:token { pattern = "[^\p{C}\p{Z}]+" }
-    },
     
     ## identifies the passive participants in a non-mutual relationship.
     attribute passive {
@@ -2357,6 +2344,47 @@ tei_sex =
       | 
         ##
         "N"
+    },
+    empty
+  }
+tei_state =
+  
+  ## (state) defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
+  element state {
+    (tei_label | tei_note*),
+    tei_att.global.attribute.n,
+    tei_att.global.source.attribute.source,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    [
+      a:documentation [
+        "(analysis) indicates one or more elements containing interpretations of the element on which the "
+        ns1:code [ "@ana" ]
+        " attribute appears."
+      ]
+    ]
+    attribute ana {
+      xsd:anyURI { pattern = "\S+" }
+    },
+    
+    ##
+    attribute type {
+      
+      ##
+      "politicalOrientation"
+    },
+    
+    ##
+    attribute subtype {
+      
+      ##
+      "CHES"
+      | 
+        ##
+        "Wikipedia"
+      | 
+        ##
+        "unknown"
     },
     empty
   }
@@ -2456,7 +2484,8 @@ tei_s =
      | tei_vocal
      | tei_kinesic
      | tei_incident
-     | tei_gap)+,
+     | tei_gap
+     | tei_pb)+,
     tei_linkGrp
     >> sch:pattern [
          id = "parlamint-s-noNestedS-constraint-report-12"
@@ -2649,7 +2678,7 @@ sch:pattern [
     "         "
     sch:report [
       test =
-        "( parent::tei:classRef                               | parent::tei:dataRef                               | parent::tei:elementRef                               | parent::tei:macroRef                               | parent::tei:moduleRef                               | parent::tei:schemaSpec )                               and                               $srcs[2]"
+        "( parent::tei:classRef | parent::tei:dataRef | parent::tei:elementRef | parent::tei:macroRef | parent::tei:moduleRef | parent::tei:schemaSpec ) and $srcs[2]"
       "\x{a}" ~
       "              When used on a schema description element (like\x{a}" ~
       "              "
@@ -2831,11 +2860,28 @@ sch:pattern [
 tei_include =
   [
     a:documentation [
-      "used to include a corpus component (a "
-      ns1:code [ "<TEI>" ]
-      " element) into the corpus root (the "
+      "is an element from the XML namespace of the "
+      ns1:a [
+        href = "https://www.w3.org/TR/xinclude-11/"
+        "XML Inclusions (XInclude)"
+      ]
+      " W3C recommendation. It is used to include, into a ParlaMint "
       ns1:code [ "<teiCorpus>" ]
-      " element)."
+      " root file the elements of the corpus that are stored as separate files. These are the "
+      ns1:code [ "<TEI>" ]
+      " corpus components and parts of the corpus root "
+      ns1:code [ "<teiHeader>" ]
+      ". Inside "
+      ns1:code [ "<particDesc>" ]
+      " these are "
+      ns1:code [ "<listPerson>" ]
+      " & "
+      ns1:code [ "<listOrg>" ]
+      ", and "
+      ns1:code [ "<taxonomy>" ]
+      " inside "
+      ns1:code [ "<classDecl>" ]
+      "."
     ]
   ]
   element xi:include {
