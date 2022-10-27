@@ -3155,34 +3155,34 @@
       </div>
       
       <div xml:id="chp-contributing">
-        <head>Contributing to the GitHub repository</head>
+        <head>Contributing to ParlaMint</head>
         
         <p>The <ref target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
         repository</ref> contains these guidelines, the ParlaMint XML schemas, the scripts used
         to validate, finalise and convert the ParlaMint TEI XML corpora to derived formats, and
-        samples of the ParlaMint corpora. There are four stable branches in the repository, to
-        make development more transparent:
+        samples of the ParlaMint corpora. There are four main branches in the repository:
           <list>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/main">main</ref>
               is the default branch used for the synchronisation of other branches.
               It is also used for releasing sample files that correspond to published corpora.</item>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/data">data</ref>
               serves as a pushing place for new sample files in ./Data/ParlaMint-XX directories.</item>
-            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/devel">devel</ref>
-              serves development scripts, and schemas</item>
-            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>             serves development documentation and GitHub pages deployment.</item>
+            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/devel">devel</ref>:
+              development of scripts</item>
+              <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>:
+              development of schemas, the TEI ODD of these Guidelines, which are then deployed on GitHub pages.</item>
           </list>
         </p>
 
-        <p>Those contributing to the ParlaMint corpora should first make a fork of the
-        ParlaMint repository, and then clone the fork to their local machine. They should
-        then develop their ParlaMint corpus, and validate it as explained in the Section on
-        <ref target="#sec-validate">Validating ParlaMint corpora</ref>.</p>
+        <p>The validation procedure for corpora is explained in the
+        Section on <ref target="#sec-validate">Validating ParlaMint
+        corpora</ref>, while the technical aspects of contributing
+        corpora is further explained in the <ref
+        target="https://github.com/clarin-eric/ParlaMint/blob/main/CONTRIBUTING.md">CONTRIBUTING
+        file</ref> of the repository.
+	</p>
 
-        <p>Then, the samples should be produced and put in the <code>data</code> branch of
-        the local copy of the repository, which should then be pushed to their fork of the
-        repository. Finally, a pull request should be made to the main ParlaMint GitHub
-        repository.</p>
+	
       </div>
       
       <div xml:id="sec-ack">
