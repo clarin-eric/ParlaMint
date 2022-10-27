@@ -5,8 +5,8 @@
       <titleStmt>
         <title type="main">Riksdagens protokoll</title>
         <respStmt>
-         <persName>Väinö Yrjänäinen</persName>
-         <resp xml:lang="en">TEI XML corpus encoding</resp>
+          <persName>Väinö Yrjänäinen</persName>
+          <resp xml:lang="en">TEI XML corpus encoding</resp>
         </respStmt>
         <funder>
           <orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -16,7 +16,10 @@
         <edition>2.0</edition>
       </editionStmt>
       <extent>
+        <measure xml:lang="en" unit="speeches" quantity="278">278 speeches</measure>
         <measure xml:lang="sv" unit="speeches" quantity="278">278 tal</measure>
+        <measure xml:lang="en" unit="words" quantity="31273">31273 words</measure>
+        <measure xml:lang="sv" unit="words" quantity="31273">31273 ord</measure>
       </extent>
       <publicationStmt>
         <publisher>
@@ -41,10 +44,9 @@
     <encodingDesc>
       <projectDesc>
         <p xml:lang="sv">
-            <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
         </p>
-        <p xml:lang="en">
-            <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
+        <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
         </p>
       </projectDesc>
       <editorialDecl>
@@ -82,18 +84,12 @@
         </namespace>
       </tagsDecl>
       <classDecl>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="taxonomy-parla.legislature.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="SE-taxonomy-meeting.parts.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="SE-taxonomy-parla.links.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="taxonomy-speaker_types.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="taxonomy-subcorpus.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="taxonomy-UD-SYN.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="taxonomy-parla.legislature.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="SE-taxonomy-meeting.parts.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="SE-taxonomy-parla.links.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="taxonomy-speaker_types.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="taxonomy-subcorpus.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="taxonomy-UD-SYN.xml"/>
       </classDecl>
       <listPrefixDef>
         <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -105,8 +101,8 @@
       </listPrefixDef>
       <appInfo>
         <application ident="Sparv" version="5.0.0">
-           <label>Språkbanken's Sparv Pipeline</label>
-           <desc>POS tagging, lemmatization, dependency parsing and named entity recognition done with Sparv Pipeline 5.0.0 (<ref target="https://spraakbanken.gu.se/sparv/#/">https://spraakbanken.gu.se/sparv/#/</ref>) using the Stanza and SweNER models</desc>
+          <label>Språkbanken's Sparv Pipeline</label>
+          <desc>POS tagging, lemmatization, dependency parsing and named entity recognition done with Sparv Pipeline 5.0.0 (<ref target="https://spraakbanken.gu.se/sparv/#/">https://spraakbanken.gu.se/sparv/#/</ref>) using the Stanza and SweNER models</desc>
         </application>
       </appInfo>
     </encodingDesc>
@@ -122,8 +118,7 @@
       </settingDesc>
       <particDesc>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="SE-listOrg.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                href="SE-listPerson.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="SE-listPerson.xml"/>
       </particDesc>
       <langUsage>
         <language ident="sv" xml:lang="sv">svenska</language>
@@ -133,6 +128,5 @@
       </langUsage>
     </profileDesc>
   </teiHeader>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-SE_201617--3.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-SE_201617--3.ana.xml"/>
 </teiCorpus>
