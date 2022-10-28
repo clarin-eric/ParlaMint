@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-10-26</date>
+        <date>2022-10-28</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,14 +48,13 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-10-26">Tomaž Erjavec: add minister organisation, fix some errors.</change>
+      <change when="2022-10-28">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
-      <change when="2022-02-21">Tomaž Erjavec: better schemaSpec.</change>
       <change when="2022-02-16">Tomaž Erjavec: first draft.</change>
     </revisionDesc>
   </teiHeader>
@@ -68,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-10-26</docDate>
+        <docDate>2022-10-28</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1844,10 +1843,11 @@
                 </egXML>
                 
                 The formal type of affiliation is given in the <att>role</att> attribute, in this
-                case <val>member</val>. The <att>ref</att> attribute points to the ID of
-                the organisation in which the person has the specified role. For MPs this
-                will be the ID of the parliament or one of the two houses (cf. the Section
-                on <ref target="#sec-parliament">The parliament organisations</ref>).</p>
+                case <val>member</val>. The <att>ref</att> attribute points to the ID of the
+                organisation (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) in
+                which the person has the specified role. For MPs, as is the case above, this will
+                be the ID of the parliament or one of the two houses (cf. the Section on <ref
+                target="#sec-parliament">The parliament organisations</ref>).</p>
                 
                 <p>The affiliation element also has the usual <att>from</att> and
                 <att>to</att> attributes, i.e. from and to when the person was affiliated
@@ -1872,20 +1872,17 @@
                   <gi>org</gi> elements with <att>role</att> =
                   <val>parliamentaryGroup</val></item-->
                   
-                  <item><val>head</val> is used for the lead person in an
-                  organisation, regardless of how this role is named in the specific
-                  country and for the specific organisation, i.e. it can be used for the
-                  queen (head of the <val>country</val> organisation),
-		  president (head of the <val>republic</val> organisation),
-		  prime minister (head of <val>goverment</val>),
-		  minister (head of <val>ministry</val>),
-		  chairperson (head of <val>committee</val>),
-		  etc.</item>
+                  <item><val>head</val> is used for the lead person in an organisation, regardless
+                  of how this role is named in the specific country and for the specific
+                  organisation, i.e. it can be used for the queen (head of the <val>country</val>
+                  organisation), president (head of the <val>republic</val> organisation), prime
+                  minister (head of <val>goverment</val>), minister (head of <val>ministry</val>),
+                  chairperson (head of <val>committee</val>), etc.</item>
                   
-                  <item><val>deputyHead</val> is the deputy head of
-                  the organisation, again, regardless of how this role is named in the specific
-                  country and for the specific organisation, i.e. it is used for the
-                  vice president, deputy chairperson, etc.</item>
+                  <item><val>deputyHead</val> is the deputy head of the organisation, again,
+                  regardless of how this role is named in the specific country and for the specific
+                  organisation, i.e. it is used for the vice president, deputy chairperson,
+                  etc.</item>
 
                   <item><val>minister</val> is used to indicate that the person is the minister
                   in the government. Note that this only says that they are a minister, and
@@ -1919,6 +1916,91 @@
                 government. Therefore it is necessary to specify all the
                 desired affiliations with their particular roles, e.g. both as
                 <val>minister</val> and as <val>member</val>.</p>
+
+		<p>It is important to give correct roles to the affiliations that associate a
+		person with organisations. We list the most common roles and how they should be
+		encoded, emphasising the ones that are obligatory in ParlaMint :
+		
+		<list>
+		  
+		  <item>King or queen:
+		  <code>affiliation/@role="head"</code> →
+		  <code>org/@role="country"</code>
+		  </item>
+		  
+		  <item>President (as opposed to Prime minister):
+		  <code>affiliation/@role="head"</code> →
+		  <code>org/@role="republic"</code>
+		  </item>
+		  
+		  <item><emph>Prime minister</emph>
+		  (or other head of government):
+		  <code>affiliation/@role="head"</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="government"</code>
+		  (cf. Section on <ref target="#sec-government">The government organisation)</ref>
+		  </item>
+		  
+		  <item>Deputy primer minister:
+		  <code>affiliation/@role="deputyHead"</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="government"</code>
+		  </item>
+		  
+		  <item><emph>Minister</emph>:
+		  <code>affiliation/@role="minister"</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="government"</code>
+		  <lb/>
+		  If ministries are defined, then also:
+		  <code>affiliation/@role="head</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="ministry"</code>
+		  </item>
+		  
+		  <item>Deputy minister:
+		  <code>affiliation/@role="deputyMinister"</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="government"</code>
+		  <lb/>
+		  If ministries are defined, then also:
+		  <code>affiliation/@role="deputyHead</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="ministry"</code>
+		  </item>
+		  
+		  <item>Leader of parliamentary group:
+		  <code>affiliation/@role="head"</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="parliamentaryGroup"</code>
+		  (cf. Section on <ref target="#sec-parties">Political parties
+		  and parliamentary groups</ref>)
+		  </item>
+		  
+		  <item><emph>Member of parliamentary group</emph>:
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="parliamentaryGroup"</code>
+		  </item>
+		  
+		  <item>Leader of political party:
+		  <code>affiliation/@role="head"</code> &amp;
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="politicalParty"</code>
+		  </item>
+		  
+		  <item>Member of political party:
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="politicalParty"</code>
+		  </item>
+		  
+		  <item><emph>MP</emph>:
+		  <code>affiliation/@role="member"</code> →
+		  <code>org/@role="parliament"</code>
+		  (cf. Section on <ref target="#sec-parliament">The parliament organisations</ref>)
+		  </item>
+		  
+		</list>
+		</p>
               </div>
             </div>
           </div>
