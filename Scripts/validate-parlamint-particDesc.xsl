@@ -611,7 +611,7 @@
     <xsl:param name="node"/>
     <xsl:choose>
       <xsl:when test="$node/@from"><xsl:value-of select="$node/@from"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@from"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
                        and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
@@ -625,7 +625,7 @@
     <xsl:param name="node"/>
     <xsl:choose>
       <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@when"/></xsl:when>
       <xsl:when test="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
