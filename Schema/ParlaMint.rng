@@ -554,6 +554,16 @@
         </optional>
       </group>
       <group>
+        <optional>
+          <attribute name="from">
+            <ref name="temporal.val"/>
+          </attribute>
+	</optional>
+        <attribute name="to">
+          <ref name="temporal.val"/>
+        </attribute>
+      </group>
+      <group>
         <attribute name="notBefore">
           <ref name="temporal.val"/>
         </attribute>
@@ -738,6 +748,7 @@
       <value>country</value>
       <value>republic</value>
       <value>government</value>
+      <value>ministry</value>
       <value>parliament</value>
       <value>politicalParty</value>
       <value>parliamentaryGroup</value>
