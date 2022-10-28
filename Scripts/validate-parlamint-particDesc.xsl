@@ -594,15 +594,15 @@
     <xsl:param name="org"/>
     <xsl:choose>
       <xsl:when test="$org//tei:event/@*[contains(' from when ',mk:borders(name()))]"><xsl:value-of select="min($org//tei:event/@*[contains(' from when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-01-01','T00:00:00')))"/></xsl:when>
-      <xsl:otherwise>1500-01-01</xsl:otherwise>
+      <xsl:otherwise>1500-01-01T00:00:00</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
   <xsl:function name="mk:get_org_to">
     <xsl:param name="org"/>
     <xsl:choose>
-      <xsl:when test="$org//tei:event/@*[contains(' to when ',mk:borders(name()))]"><xsl:value-of select="min($org//tei:event/@*[contains(' to when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59')))"/></xsl:when>
-      <xsl:otherwise><xsl:value-of select="$org/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:otherwise>
+      <xsl:when test="$org//tei:event/@*[contains(' to when ',mk:borders(name()))]"><xsl:value-of select="max($org//tei:event/@*[contains(' to when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59')))"/></xsl:when>
+      <xsl:otherwise><xsl:value-of select="$org/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59'))"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 

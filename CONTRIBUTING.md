@@ -121,7 +121,8 @@ rm /tmp/jing-20181222.zip
 
 Running *`make help`* in the repository root folder provides a make targets list with a description.
 Once the set-up has been done, the corpus for country XX can be validated with the
-`validate-parlamint-XX` command.
+`validate-parlamint-XX` command. For the linguistically annotated version, `make conllu-XX` should
+also be run.
 
 ## Submitting the completed corpora
 
