@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.meeting.regular #covid"
+     xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465"
+     xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 465 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 465 [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 465, giorno (2022-09-20)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 465, Day (2022-09-20)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="465-upper">465 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-6829-6309">Roberto Bartolini</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Informatics and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="126" unit="speeches" xml:lang="it">126 discorsi</measure>
+            <measure quantity="126" unit="speeches" xml:lang="en">126 speeches</measure>
+            <measure quantity="13829" unit="words" xml:lang="it"/>
+            <measure quantity="13829" unit="words" xml:lang="en"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2022-10-28">October 28, 2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1360790</idno>
+               <date when="2022-09-20">20.09.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="it">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="56"/>
+               <tagUsage gi="div" occurs="13"/>
+               <tagUsage gi="head" occurs="10"/>
+               <tagUsage gi="incident" occurs="5"/>
+               <tagUsage gi="kinesic" occurs="47"/>
+               <tagUsage gi="note" occurs="117"/>
+               <tagUsage gi="seg" occurs="126"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="52"/>
+               <tagUsage gi="vocal" occurs="4"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2022-09-20">20.09.2022</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="president">Presidenza del presidente ALBERTI CASELLATI</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u1">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg1">La seduta è aperta (ore 14,37). GIRO, segretario, dà lettura del processo verbale della seduta del 13 settembre. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u2">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u3">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg3">Informo l'Assemblea che all'inizio della seduta il Presidente del Gruppo MoVimento 5 Stelle ha fatto pervenire, ai sensi dell'articolo 113, comma 2, del Regolamento, la richiesta di votazione con procedimento elettronico per tutte le votazioni da effettuare nel corso della seduta. La richiesta è accolta ai sensi dell'articolo 113, comma 2, del Regolamento.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Corte costituzionale, composizione</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u4">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg4">Onorevoli colleghi, il Presidente della Repubblica ha inviato la seguente lettera: «Roma, 15 settembre 2022 Signor Presidente, La informo che, con decreto in data odierna, controfirmato dal Presidente del Consiglio dei Ministri, ho nominato Giudice della Corte Costituzionale il Professor Marco D'Alberti. F.to Sergio Mattarella».</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla scomparsa di Maria Grazia Pagano</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u5">
+               <incident type="action">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg5">Senatori, con profonda commozione desidero ricordare una grande donna che lo scorso 17 settembre ci ha prematuramente lasciato, Maria Grazia Pagano, per tutti Graziella.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg6">Ero legata a Graziella Pagano da sentimenti di sincera amicizia coltivata tra gli scranni di questa Assemblea, di cui è stata autorevole componente per ben quattro legislature, dal 1992 al 2006. Avevamo visioni politiche diverse, il che ci portava a confrontarci spesso su piccole e grandi questioni, ma sempre con grande rispetto. Stare in sua compagnia era piacevole per quella simpatia travolgente che era uno dei tratti più autentici della sua forte personalità.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg7">Lunga e poliedrica è stata la sua carriera istituzionale e partitica, dal mandato di senatrice a quello di europarlamentare, dagli incarichi come consigliere e poi assessore al Comune di Napoli ai ruoli di coordinamento, sia a livello regionale che nazionale, per il Partito Democratico. Una lunga avventura, che ha sempre saputo interpretare con il suo stile inconfondibile, straordinario connubio di un tratto femminile di raro fascino e di un animo autenticamente combattente, che trovava nel rigore intellettuale, nell'autonomia di giudizio e nella passione le sue armi strategiche.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg8">Tante sono le battaglie per la sua amata terra, per il Mezzogiorno, e per i diritti civili e sociali che rimarranno indissolubilmente legati al suo nome.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg9">Nonostante una malattia fortemente invalidante, aveva scelto di rinnovare l'impegno politico candidandosi all'elezione per la Camera dei deputati, «non per tornare, ma per rappresentare una comunità alla quale sentivo di appartenere», come ha scritto nella sua commovente lettera di addio pubblicata sui social, lettera che ha concluso con il suo solito sorriso, invitando i suoi compagni di partito a continuare a lavorare in campagna elettorale, perché comunque li avrebbe controllati anche da lassù. La sua storia rimarrà un'indimenticabile testimonianza di cosa significhi perseguire una visione nobile della politica, una politica che, nel rispetto di alti ideali, sappia promuovere il cammino di un'intera collettività a favore di un futuro di crescita e di affermazione per tutti, anche per i più fragili. Nel rinnovare pertanto ai familiari e agli amici della senatrice Graziella Pagano il cordoglio mio personale e del Senato, invito l'Assemblea a ricordarla osservando un minuto di raccoglimento.</seg>
+               <incident type="sound">
+                  <desc>L'Assemblea osserva un minuto di silenzio. Applausi.</desc>
+               </incident>
+            </u>
+            <note type="speaker">VALENTE (PD)</note>
+            <u ana="#regular"
+               who="#ValenteValeria"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u6">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg10">Signor Presidente, garantisco che per me non è per nulla semplice ricordare Graziella. Graziella, come mi ha insegnato lei, era innanzitutto un'amica, una maestra, una consigliera premurosa e saggia, un punto di riferimento per tante di noi. Ho incontrato Graziella a vent'anni, durante la mia prima esperienza in consiglio comunale; lei era senatrice ed era parte di un gruppo che nel partito investiva sulle giovani donne, alle quali insegnava come fare politica in un contesto per noi ancora complicato e difficile. Graziella era prima di tutto un'insegnante, amava essere un'insegnante e si è dedicata per tutta la vita al tema della scuola. Poi, come è già stato ricordato, è stata consigliera comunale, senatrice, consigliera della Ministra per le pari opportunità, europarlamentare e di nuovo assessore. La sorte volle che a suo tempo, come assessore della giunta Iervolino, prendesse proprio le mie deleghe, a seguito delle mie dimissioni. Tanti sono gli incarichi che Graziella ha rivestito nel partito, dal PCI, passando per i DS, al PD. Da ultimo aveva scelto di aderire a Italia Viva, ma i nostri percorsi umani, innanzitutto di grande amicizia e di grande stima reciproca, non si sono mai allontanati del tutto e anzi forse in alcuni casi si sono rinsaldati. Graziella è stata una figura autorevole e di spicco della politica napoletana, protagonista riconosciuta di quella squadra di riformisti che a Napoli ha espresso sempre tante personalità, dal presidente Giorgio Napolitano, verso cui Graziella vantava una grande e sincera amicizia, passando per Gerardo Chiaromonte, Maurizio Valenzi, Carlo Fermariello, Umberto Ranieri: potrei ricordarne tanti e tanti colleghi senatori con cui ha condiviso pezzi del suo percorso istituzionale e politico, da donna della città di Napoli e da donna delle istituzioni. Graziella era una donna forte, appassionata, determinata e coraggiosa che, come è già stato detto, nell'Assemblea del Senato ha ricoperto ruoli istituzionali e politici anche in fasi difficili e delicate, sempre con grande competenza, che era quello che noi tutte le riconoscevamo - noi tutte, donne del Partito Democratico di Napoli e donne di sinistra e progressiste della nostra città - con grande rigore istituzionale e, soprattutto, una grande ed enorme autorevolezza. Era capace di avere rapporti con tutti, di dialogare e mediare anche con chi aveva posizioni distanti dalle sue e da quelle della parte politica che rappresentava. Era una donna capace di grandissime e straordinarie relazioni, costruite innanzitutto sul suo modo brillante di tenere i rapporti, riconoscendo sempre nell'avversario un interlocutore e mai un nemico. La sua straordinaria generosità e umanità erano riconosciute da tutti. I suoi unici veri nemici erano la demagogia e il populismo: quelli davvero non li sopportava e li osteggiava con tutta se stessa e con tutta la forza di cui era capace. Come detto, le sue altri grandi passioni politiche, oltre al riformismo, erano la scuola e le donne. Alla scuola, come materia del suo impegno istituzionale e politico, non ha mai rinunciato, sin da quando ha iniziato, come consigliere comunale, a presiedere la commissione scuola dell'allora consiglio comunale, nei primi anni del suo impegno. Alle donne, ugualmente, mai: sempre pronta a spendersi per affermare un protagonismo femminile reale, autonomo, libero ed autorevole, in contesti ancora troppo maschili, da quelli interni al partito a quelli più istituzionali. Fu parte di un percorso di donne, che tanto a Roma quanto a Napoli l'ha vista sempre protagonista, in un rapporto vero di fiducia, direi di sorellanza, con tante donne, al di là dell'appartenenza e degli schieramenti del momento. A questa che era gran parte della sua vita, ovviamente, si aggiungono, attraverso i tempi e le fasi diverse, i suoi due grandi amori: innanzitutto suo figlio Lorenzo e poi suo marito Enzo. Enzo, che è andato via pochi anni fa e che per lei è stato sempre un prezioso e insostituibile punto di riferimento, e Lorenzo, vero infinito amore della sua vita, a cui nonostante i tanti impegni istituzionali e politici ha cercato di non far mancare mai l'affetto di una madre e la presenza amorevole e affettuosa, pur spesso rimproverandosi, secondo me troppo autocriticamente, di averlo fatto nei primi anni di vita di Lorenzo. È a loro, ovviamente, alla sorella, amica di viaggio per tutta la sua vita sino a questi ultimi giorni, che va il mio e - credo di poterlo dire - il nostro abbraccio più sincero. Se dovessi dire una parola che mi ricorda Graziella, userei sicuramente la parola «battaglie». Le battaglie fatte insieme con te, grazie a te, su scuola, partito, rappresentanza e diritti delle donne e tante altre. Ne hai fatte tante, vinte tante e noi ti ricorderemo così: grande, guerriera, donna straordinaria, politica appassionata, senatrice competente. In quest'ultima battaglia non hai avuto la meglio, ma noi continueremo a ricordarti così, come ti abbiamo vista e conosciuta per tutta una vita, bellissima, sorridente, bionda, forte, tenace. Grazie, Graziella: ci mancherai. Che la terra ti sia lieve.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">SBROLLINI (IV-PSI)</note>
+            <u ana="#regular"
+               who="#SbrolliniDaniela"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u7">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg11">Signora Presidente, colleghe e colleghi, mi associo anch'io alle bellissime parole da lei espresse poco fa sulla nostra collega Graziella Pagano e alle bellissime parole della collega senatrice Valente. Desidero anch'io rivolgere un commosso pensiero di vicinanza e cordoglio ai familiari, ai parenti e agli amici della senatrice Graziella Pagano. Come è stato detto, una donna di rara intelligenza, di forte carattere, di grande generosità d'animo. Ho avuto anch'io la fortuna - come la collega Valente - di conoscerla quando ho iniziato la mia attività politica. Una donna amica delle donne che si batteva per l'affermazione delle donne, e delle giovani in modo particolare; ci incoraggiava, ci stava vicino, era sempre positiva, era una donna appassionata; come è stato detto, una vera leonessa, che è morta come era vissuta: sul campo, combattendo le sue battaglie politiche fino in fondo, non risparmiandosi neanche in questa campagna elettorale, come candidata alla Camera a Napoli con il terzo polo Italia Viva-Azione. Il 9 settembre scorso, nonostante la devastante malattia, non aveva voluto rinunciare a partecipare all'inaugurazione del comitato elettorale di Italia Viva a Napoli insieme a Matteo Renzi, dimostrando e trasmettendo a tutti i partecipanti tutto il suo amore per le sue idee, per la politica e per il suo territorio. Con grande dignità e un inestimabile coraggio ha tenuto testa alle sfide della politica, alle responsabilità pubbliche, alle maldicenze private, ai dolori personali. Già senatrice eletta con i democratici di sinistra nel 1992 e poi per quattro legislature fino al 2006, è stata anche cofirmataria della prima legge per inasprire le pene contro la violenza sessuale, sempre in stretto contatto con l'allora ministro della pubblica istruzione Luigi Berlinguer. Ha lavorato per l'attuazione di tutte le norme sull'autonomia scolastica. A lei si deve la prima bozza sui Dico, da cui nacque poi la legge sulle unioni civili. Graziella Pagano è stata soprattutto questo: una donna perennemente sopra le righe del convenzionalismo e anche di un certo bigottismo; era al di sopra di questo. Apparteneva certamente a quella sinistra appassionata, forte, ma anche progressista, e anche con gli avversari - che ne hanno sempre riconosciuto lo stile - è stata sempre leale, corretta. Per cinque anni ha affrontato la malattia raccontandola sui social con grande generosità, offrendo la sua esperienza a chi condivideva il suo drammatico calvario, intervenendo sui social anche con post spesso polemici, ma mai banali. Ha continuato le sue battaglie politiche facendo anche affidamento sul sostegno amorevole del suo straordinario figlio Lorenzo, dei tanti amici e di chi la ammirava per com'era, innamorata della vita, così forte da sembrare sopravvissuta alla stessa notizia della propria morte, annunciata mentre ancora i familiari non l'avevano comunicata. Noi di Italia Viva la vorremmo ricordare leggendo qui, in quest'Aula, un passaggio delle sue ultime parole affidate ai social: «Cari amici, cari compagni, la mia battaglia finisce qui. Prima di passare dall'altra parte, vi lascio un grande abbraccio e un ringraziamento sincero. In questi anni non mi avete mai fatto sentire sola e ho sempre sentito forte il vostro affetto e la vostra vicinanza. Anche per questo ho accettato di candidarmi. Non per tornare, ma per rappresentare una comunità alla quale sentivo di appartenere. Donne e uomini giovani e meno giovani che mi hanno permesso di fare quello che ho fatto, in politica e non solo, e ai quali sarò sempre legata. Purtroppo la mia malattia ha avuto la meglio, ma ho combattuto con vigore fino alla fine e me ne sto andando con la mia dignità, non consentendole di trasformarmi in quella che non sono. Adesso è tempo di volare in cielo, andrò a dare battaglia anche lì.». Un forte abbraccio da quaggiù, Graziella. Il Senato è stato e sarà sempre la tua casa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">PRESUTTO (Ipf-CD)</note>
+            <u ana="#regular"
+               who="#PresuttoVincenzo"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u8">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg12">Signor Presidente, anch'io voglio portare la mia testimonianza diretta e la conoscenza della grande Graziella Pagano, che era anche per me un'amica. L'ho conosciuta, diversamente da chi mi ha preceduto, molto tempo dopo; l'ho conosciuta pochi anni fa. Mi ha colpito: è una donna che lascia impressa la propria determinazione, la propria volontà, la voglia di andare avanti. L'ho conosciuta quando già era stata colpita da questa durissima malattia, che peraltro, come è stato già anticipato prima dalla collega Sbrollini, lei non ha mai nascosto: praticamente la ostentava, attraverso i social, come un momento di sfida che in pratica la vedeva impegnata a vincere. La fine non è stata quella, però ha rappresentato un esempio. L'ho conosciuta grazie ad una sua iniziativa. Voglio testimoniare la grande apertura mentale di Graziella: non riesco a chiamarla diversamente, perché ho avuto modo di cogliere soprattutto l'aspetto umano che poi ha accompagnato la sua grande esperienza politica. L'ho conosciuta molto tempo prima di aver avuto modo di poterle parlare, quindi sapevo chi era e cosa aveva fatto di importante, soprattutto per la città di Napoli, che ci accomuna. Ho avuto modo di conoscere il figlio e il grande amore che madre e figlio si sono scambiati, andando al di là del rapporto che solitamente lega madre e figlio: un rapporto in cui c'era l'ammirazione, soprattutto del figlio, nel raccontare le attività politiche che la madre ha portato avanti in questi anni. Ripeto, non ho avuto la fortuna di poterla vedere all'opera, giorno dopo giorno, nella sua attività in Senato o come europarlamentare. Quindi questa mattina ho sentito il figlio, Lorenzo, e gli ho chiesto: «Secondo te, tua madre oggi quale messaggio vorrebbe lasciare al Senato come suo ricordo in questo momento così delicato?». Lui mi ha detto queste parole che faccio mie: «Di Graziella Pagano verrà ricordata la capacità di farsi rispettare e di essere leale con tutti, compagni di partito e avversari. Per questo ci mancherà, soprattutto in un momento come quello che stiamo vivendo, perché ci ha insegnato che la politica deve essere improntata innanzitutto al rispetto degli altri. Solo se si ha rispetto degli altri, soprattutto di chi la pensa diversamente, si può rappresentare davvero la comunità, oggi quanto mai smarrita e che chiede ai politici di utilizzare un linguaggio gentile, sobrio, anche appassionato, ma mai divisivo». Perché ho voluto riportare queste frasi che sono di Graziella Pagano, passate attraverso il figlio e arrivate a me? Sono tante e innumerevoli le telefonate con le quali io e lei ci scambiavamo valutazioni, ma soprattutto durante le quali ascoltavo i suoi consigli. Io e Graziella Pagano facevamo parte di due forze politiche diverse, anche per certi versi ostili, ma lei non ha mai avuto limiti. Quindi voglio testimoniare a chi l'ha conosciuta la grande sensibilità, la grande umanità, la grande determinazione: tutti valori positivi che oggi purtroppo ci fanno rimpiangere una grande donna che, a dimostrazione della sua fermezza e determinazione, addirittura nonostante la malattia aveva deciso di presentarsi alle prossime elezioni. La ricorderemo sempre come un grande esempio di virtù e positività.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BINETTI (FIBP-UDC)</note>
+            <u ana="#regular"
+               who="#BinettiPaola"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u9">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg13">Signora Presidente, colleghe, rispetto alle testimonianze che mi hanno preceduto, nate da una conoscenza e da un'amicizia politica fatte di condivisione di idee e di battaglie combattute dalla stessa parte, la mia conoscenza personale di Graziella comincia direi quasi alla fine della parabola politica e sicuramente si svolge in un contesto e in un ambito decisamente diversi. Graziella è stata malata a lungo: una di quelle malattie che cominciano subdole, che possono durare per molti anni e che poi a un certo punto precipitano e ti mettono a tu per tu con quello che potrebbe essere allo stesso tempo lo specchio della vita che hai vissuto e la prospettiva che hai davanti. Mi ha sempre colpito profondamente il suo amore alla vita; non solo l'amore alla vita politica e non solo l'amore alla vita con la sua vivacità tutta napoletana, che la portava a sdrammatizzare anche le piccole difficoltà e contrarietà che a volte nella malattia sono come quelle punture che ti lasciano stremate. Non è tanto la malattia in sé, quanto sono gli inconvenienti della quotidianità nella malattia che possono rendere difficile sopportare le stesse terapie. Ma lei aveva un autentico amore alla vita. Mi colpiva molto questa voglia di vivere, che si è tradotta, fino alla fine, nell'ultima grande passione del volersi candidare e di volerlo fare in un contesto politico diverso da quello di provenienza, com'era quello di Italia Viva (come ha detto bene Daniela Sbrollini poco fa), in una prospettiva del terzo polo, cioè in una prospettiva che in qualche modo ribaltava tanti giochi, ribaltava anche una storia e ribaltava tante scelte, ma marcava forte e chiaro il desiderio di vivere. Anche nella sua dichiarazione su Facebook appare questa sua lotta costante e continua con la malattia. Non a caso, firmando la lettera con cui conclude il suo dialogo con gli amici, con gli elettori e con le persone che la seguivano, si firma "la leonessa". C'è una voglia di lottare in positivo e di non rassegnarsi. Vorrei riprendere alcune delle sue parole, come hanno già fatto alcuni colleghi. Io, come facilmente immaginate tutti voi, non resisto a sottolineare la passione dominante di questa donna per la vita e non resisto a sottolineare quel messaggio forte che lei ha saputo trasmettere ai suoi medici, ai suoi infermieri e a tutte le persone si avvicinavano a lei: era un desiderio di cure. Abbiamo parlato qualche volta con lei anche del valore e dell'importanza delle cure palliative, cioè di quella capacità di lottare e di amare, della voglia di curarsi anche quando sembra che le medicine specifiche abbiano esaurito il loro ruolo e il loro compito. Dice: "Cari compagni, la mia battaglia finisce qui. Prima di passare dall'altra parte, vi lascio un grande abbraccio e un ringraziamento sincero". Graziella aveva chiare nella sua vita quelle frasi così straordinarie della liturgia, quando si dice vita mutatur et non tollitur. Per lei la vita cambiava, passava dall'altra parte. C'era una dimensione di fede nella vita - non voglio spingermi oltre - che ti faceva sentire la continuità tra ciò che eri stato, ciò che eri e ciò che potevi essere, secondo un dialogo in cui la fede nei valori umani intrecciava profondamente non solo la passione politica, ma anche la passione superiore. La sua è un'affermazione straordinaria, cui forse ci farà piacere pensare: "Il 25 settembre sarò in paradiso". Poi, con un'ironia garbata e piena di misura, diceva: "se mi vorranno". Io sono certa che in paradiso l'hanno già accolta e che il 25 sarà lì a guardare cosa sarà accaduto qui sotto; e lo farà testimoniando fino all'ultimo che la vita vale la pena di essere vissuta.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">URRARO (L-SP-PSd'Az)</note>
+            <u ana="#regular"
+               who="#UrraroFrancesco"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u10">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg14">Signor Presidente, intervengo per esprimere il cordoglio del Gruppo Lega rispetto a una figura autorevole, un mix di elementi che ha incarnato nel suo percorso di vita umano, professionale e politico, tra cultura, grinta, passione civile, coraggio e intelligenza; quell'intelligenza che si legge anche nell'ultimo post, citato da chi mi ha preceduto, dove diceva, con la sua consueta ironia e con estrema intelligenza che il suo seggio adesso scatterà in paradiso. E ha invitato a non disperarsi, a non versare lacrime, perché è venuto il tempo di volare in cielo, dove andrò a dare battaglia e dove anche lì la conosceranno. Non voleva sapere triste l'intera comunità politica cui è appartenuta e i familiari, cui vanno il mio e il nostro pensiero. Una donna di grande impegno civico e politico: sono note le sue battaglie sulla custodia e sulla difesa dei diritti, dei diritti fondamentali, dei diritti così come alterati e squilibrati, anche nel corso di una pandemia che già l'aveva vista sofferente per l'andare avanti e l'incancrenirsi del percorso sanitario; quei diritti - quel mix di equilibrio tra diritto allo studio, diritto alla salute, diritto alla libertà di iniziativa economica e diritto al lavoro - che trapelavano dalle sue parole, nei suoi interventi pubblici, che si sono sempre rivelati mai banali, pregnanti, pertinenti a un mondo che cambiava e con una serie di criticità sociali, economiche, ambientali e criminali, cui la terra a cui apparteneva, cui anche io appartengo, vive tutt'ora per una serie di problematiche e di incrostazioni del passato. Nella sua memoria e nel suo nome andremo avanti, sapendo di avere una guida e una prospettiva certa. Rinnovo ancora il mio cordoglio.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DE LUCIA (M5S)</note>
+            <u ana="#regular"
+               who="#DeLuciaDanila"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u11">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg15">Signor Presidente, la prima volta che l'ho vista, qualche decennio fa, a un incontro politico, pensai che era una bella donna. Poi, man mano che parlava, dissi che era una donna straordinaria. Era Graziella Pagano. Anche oltre il percorso politico e istituzionale, che ha condotto sempre con impegno, lealtà ed onore, era forte, determinata, pronta a tutto pur di difendere una giusta causa, a cominciare dalle unioni civili. In ogni passaggio politico e in ogni istituzione, dove ha rappresentato la forza delle donne, ha sempre tenuto nel giusto conto la questione femminile, in tempi in cui sembrava lontanissima l'idea di poter ragionare a tutela della questione femminile. Ha vissuto gli ultimi cinque anni della sua vita stupenda veramente in trincea, senza mai arrendersi al male che voleva portarsela via. Non aveva rinunciato - come hanno detto i colleghi che mi hanno preceduto - neanche alla candidatura: «Svolgerò il mio ruolo in paradiso, se mi vorranno». Così ha scritto nel suo ultimo post e ha avuto ragione ancora una volta: il 25 settembre non sarà qui con noi. L' ex senatrice è stata promotrice dei cosiddetti DICO, il primo disegno di legge italiano sul diritto dei conviventi: la prima proposta di legge - ripetiamolo - a sostegno delle unioni civili e non solo. Le sue battaglie, nella sua lunga vita di esponente della sinistra, sono state soprattutto a sostegno dei più deboli, che ha condotto con impegno e forza, per portare le scuole nei quartieri più abbandonati della sua città. Ricordo il suo impegno per il mondo della scuola, dal quale proveniva - aveva insegnato per lungo tempo materie letterarie - prima di avviarsi a una carriera politica che anche oggi ottiene il giusto riconoscimento, il valore che lei in realtà ha voluto portare nella sua vita per tutti quanti noi. C'è anche un altro particolare che mi ha colpito della sua vicenda politica: lei, da parlamentare, è stata cofirmataria della prima legge per inasprire le pene contro la violenza sessuale. In un momento in cui questi argomenti sono ancora così forti nelle discussioni quotidiane, è importante ricordare anche chi ha avviato battaglie così fondamentali per la vita delle donne. «Sarò in Paradiso (se mi vorranno)» - ha scritto - «il mio seggio scatterà lì (...). Voi però non fate scherzi, continuate a lavorare anche perché da lassù vi posso controllare più facilmente. Il mio tempo in terra è scaduto, vi mando un ultimo bacio. Arrivederci». Grazie, leonessa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla scomparsa di Virginio Rognoni</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u12">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg16">Apprendo adesso della scomparsa di Virginio Rognoni, uno dei più grandi politici del Novecento. Vorrei porgere alla famiglia le condoglianze mie e del Senato, dedicando alla sua memoria un minuto di silenzio, prima di dare la parola a chi l'ha richiesta per commemorarlo.</seg>
+               <kinesic type="applause">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi e osservano un minuto di silenzio. Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASINI (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular"
+               who="#CasiniPierFerdinando"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u13">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg17">Signora Presidente, le particolari circostanze in cui si riunisce il Senato, in piena campagna elettorale, mi esentano dalla possibilità di commemorare come meriterebbe l'onorevole Rognoni, che è stato - come lei ha detto - a lungo al governo del Paese: cinque anni Ministro dell'interno, Ministro della difesa, Ministro della giustizia, vice Presidente del Consiglio supremo della magistratura. Io lo ricordo molto bene, perché è stato anche il mio Capogruppo nella Democrazia Cristiana, Presidente del Gruppo della Democrazia Cristiana alla Camera dei deputati. L'ultima volta che l'ho visto ero con un suo intimo amico, Alan Ferrari, che è un nostro collega. Andai a Pavia, durante un'iniziativa; Alan volle organizzare un incontro e ho tratto ancora oggi l'impressione di quello che era Rognoni: una passione politica che continuava e che non si estingueva, nonostante l'età molto avanzata, aveva quasi cent'anni. È stata una personalità - come lei ha detto - di primo piano e penso che il Senato, nella prossima legislatura, dovrà in modo più compiuto ricordarlo, perché se lo merita veramente. È stato un bell'esempio di politica e di servizio delle istituzioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ZANDA (PD)</note>
+            <u ana="#regular"
+               who="#ZandaLuigi"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u14">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg18">Signor Presidente, la scomparsa di Virgilio Rognoni ha toccato molti di noi: chi l'ha conosciuto o chi soltanto ne ha sentito parlare, chi gli è stato molto amico, come il senatore Ferrari, e chi invece ha soltanto memoria della storia d'Italia della seconda parte del secolo scorso, essendo stato Virgilio Rognoni un gigante della politica e in tempi molto diversi da quelli che noi oggi viviamo; erano tempi difficili a cui noi dobbiamo molto rispetto perché densi di uomini che hanno saputo difendere con molto coraggio la nostra democrazia. Rognoni è stato un gigante tra quei giganti; un uomo politico molto coraggioso che ha continuato sino a pochi giorni dalla sua scomparsa a dispensare consigli, ad aiutare, a intervenire, con chi aveva la fortuna di incontrarlo, sulla politica. Era un grande gentiluomo, ma era un gentiluomo che nella sua cortesia sapeva unire molta fermezza nelle sue idee, che sapeva difendere come un leone. È stato un grande Ministro dell'interno nella fase finale del terrorismo, nella quale la violenza e i morti non sono stati certamente inferiori a quelli dei tempi precedenti. A lui si devono decisioni importanti; voglio qui ricordare soltanto la decisione con cui scelse il generale Carlo Alberto Dalla Chiesa come prefetto di Palermo per affidare nelle sue mani la lotta al gravissimo fenomeno della mafia. Non era soltanto un leader politico: era un uomo colto, un intellettuale. La politica era una passione per lui, come aveva poi passione per la vita. Aveva anche una grande attenzione alla maturazione del pensiero politico. Penso che questo debba essere un punto su cui riflettere in tempi come i nostri, nei quali il pensiero politico - diciamo la verità - è spesso molto debole. Noi dobbiamo ricordarlo non soltanto per l'affetto che lo legava a tanti di noi, ma anche e forse soprattutto per l'integrità della sua vita e per la coerenza molto alta del suo impegno politico. Per noi democratici è scomparso un grande amico, uno di noi e, come tale, noi lo piangiamo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u15">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg19">Avevo già salutato e ringraziato la scorsa settimana. Poiché ci ritroviamo insieme, a me fa molto piacere, perché questa è stata per quattro anni la nostra casa comune</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg20">, rinnovare i ringraziamenti per il supporto dato in una legislatura davvero difficile. E desidero cogliere l'occasione per ringraziare tutta l'amministrazione che ha fatto davvero un lavoro importante</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg21">, anche se sempre silenzioso.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg22">Grazie ancora. Non è detto che non triplichiamo i ringraziamenti. Grazie comunque, grazie a tutti.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg23">(ore 15,23)</seg>
+            </u>
+            <note type="president">Presidenza del vice presidente ROSSOMANDO</note>
+            <note type="time">15,23</note>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u16">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg24">Colleghi, la Conferenza dei Capigruppo ha modulato i tempi di discussione del decreto-legge n. 115, recante misure urgenti in materia di energia, emergenza idrica, politiche sociali e industriali, cosiddetto decreto aiuti- bis, approvato dal Senato e modificato dalla Camera dei deputati. Per la discussione generale sono stati attributi ventitré minuti in base a specifiche richieste dei Gruppi. Non essendo stati presentati emendamenti, salvo due ordini del giorno inammissibili, si passerà quindi direttamente alle dichiarazioni di voto finali, per le quali ciascun Gruppo avrà a disposizione cinque minuti.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Discussione e approvazione del disegno di legge: (2685-B) Conversione in legge, con modificazioni, del decreto-legge 9 agosto 2022, n. 115, recante misure urgenti in materia di energia, emergenza idrica, politiche sociali e industriali</note>
+            <note type="time">15,23</note>
+            <note type="status">(Approvato dal Senato e modificato dalla Camera dei deputati) (Relazione orale)</note>
+            <note type="link">http://www.senato.it/leg/18/BGT/Schede/Ddliter/55175.htm</note>
+            <note type="time">(ore 15,23)</note>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u17">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg25">L'ordine del giorno reca la discussione del disegno di legge n. 2685-B, già approvato dal Senato e modificato dalla Camera dei deputati.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg26">Ricordo che, ai sensi dell'articolo 104 del Regolamento, oggetto della discussione e delle deliberazioni saranno soltanto le modificazioni apportate dalla Camera dei deputati, salvo la votazione finale.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg27">I relatori, senatori D'Alfonso e Pesco, hanno chiesto l'autorizzazione a svolgere la relazione orale. Non facendosi osservazioni la richiesta si intende accolta.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg28">Pertanto, ha facoltà di parlare il relatore, senatore D'Alfonso.</seg>
+            </u>
+            <note type="speaker">D'ALFONSO</note>
+            <note type="role">relatore</note>
+            <u ana="#regular"
+               who="#DAlfonsoLuciano"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u18">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg29">Signor Presidente, mi riservo di consegnare il testo scritto del mio intervento agli Uffici.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u19">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg30">Ha facoltà di parlare il relatore, senatore Pesco.</seg>
+            </u>
+            <note type="speaker">PESCO</note>
+            <note type="role">relatore</note>
+            <u ana="#regular"
+               who="#PescoDaniele"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u20">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg31">Signor Presidente, mi riservo anche io di consegnare il testo scritto del mio intervento agli Uffici.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u21">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg32">Dichiaro aperta la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg33">È iscritta a parlare la senatrice La Mura. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">LA MURA (UpC-CAL-Alt-PC-AI-Pr.SMART-IdV)</note>
+            <u ana="#regular"
+               who="#LaMuraVirginia"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u22">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg34">Signor Presidente, colleghi, colleghe, se la vostra giusta esecrazione per la cancellazione del tetto agli stipendi dei massimi dirigenti avesse riguardato, nel corso di questa legislatura, anche altri ambiti e norme ugualmente vergognose e contrarie all'interesse pubblico, ora probabilmente lasceremmo un Paese migliore, soprattutto in campo ambientale e nel terreno dei diritti civili, che risultano perlopiù assenti nei programmi elettorali delle grandi coalizioni.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg35">Quest'Assemblea, esclusi pochissimi, è responsabile di viltà, in quanto la norma che derogava al limite dei 240.000 euro per gli stipendi è nata in Parlamento e da voi è stata votata nelle Commissioni competenti.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg36">Altro che manina: è un leitmotiv che fa comodo veicolare per rabbonire l'opinione pubblica in campagna elettorale. Oggi il mio intervento è anche volto a sottolineare come l'emendamento che siamo chiamati a votare per reintrodurre un tetto agli stipendi dei massimi dirigenti sia tanto responsabile, quanto presumibile. Intendo dire che questa norma, una delle poche di buon senso all'interno del decreto aiuti- bis, è un atto dovuto a fronte della galoppante inflazione, del rialzo dei tassi e del rischio che la nostra già fragile economia possa essere vittima della crisi in corso, facendoci diventare un sorvegliato speciale a livello internazionale. Non parliamo poi dell'impatto sociale che la cancellazione del tetto avrebbe avuto in termini di fiducia verso le istituzioni e, quindi, con riferimento alla verosimiglianza tra la politica e il Paese reale. Concludo rivolgendomi direttamente ai parlamentari miei colleghi e colleghe, in particolare a coloro che in queste settimane sono stati impegnati nella loro rielezione elezione. Per l'approvazione del decreto aiuti- bis avete dato l'ennesima dimostrazione dell'incapacità di capire che la crisi è ormai diventata strutturale e, quindi, le manovre politiche atte a trasformare i sussidi da temporanei a permanenti non faranno altro che creare nel breve periodo un equilibrio di difficile gestione. Il corso Draghi, poi, ha fatto di tutto per portare a compimento la privatizzazione degli asset strategici italiani. Continuiamo a rimanere in balia dei mercati e degli interessi dei grandi gruppi energetici che, proprio in virtù delle privatizzazioni, avranno - e già hanno - la possibilità di scegliere i loro investimenti. Penso alle isole minori, ad esempio. È facile pensare che la loro logica si muoverà non sulla scia dello Stato sociale, purtroppo ormai scomparso, ma sulla linea della convenienza e dell'interesse non pubblico.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritta a parlare la senatrice Cattaneo. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">CATTANEO (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular"
+               who="#CattaneoElena"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u23">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg37">Signora Presidente, gentili colleghe e colleghi, a cinque giorni dalle elezioni siamo qui oggi per l'inaspettata terza lettura del decreto-legge aiuti- bis. Il motivo per cui siamo qui riuniti è correggere, cioè cancellare all'unanimità una norma che questo stesso Senato ha approvato non più tardi di una settimana fa, e mi riferisco al famigerato articolo 41- bis. Senza entrare nel contenuto di una norma quantomeno improvvida, ciò che - a mio avviso - rende preziosa l'odierna seduta dell'Assemblea è la possibilità di condividere, come ultimo atto di questa legislatura, la necessità di richiamare a un impegno trasversale i legislatori della prossima, affinché mettano termine a una prassi irresponsabile nel modo di legiferare, che la vicenda odierna esemplifica ancora una volta ai nostri occhi e ovviamente a quelli dei cittadini. Mi riferisco alla prassi che vede, nel corso dei lavori delle Commissioni parlamentari per la conversione dei decreti-legge, l'aggiunta dei testi più disparati, introdotti sotto l'etichetta di riformulazioni di emendamenti, ma che in realtà li svuotano dell'originario contenuto; sono nuovi testi, muniti della preziosa relazione tecnica bollinata e riferiti genericamente alle volontà delle Commissioni. Complici la notte, il dover continuare i lavori a ritmo serrato anche nei giorni festivi e la sostanziale inconoscibilità dei testi definitivi, queste aggiunte vengono approvate e offerte alla opinione pubblica come fatti compiuti, anche nella sorpresa di molti di voi a cui chiedevo. E ho capito che il fatto compiuto diventa tale perché chi inserisce la norma intrusa a pochi giorni dalla scadenza del decreto-legge ha la certezza matematica che l'altro ramo del Parlamento non potrà che approvare in blocco il testo senza modifiche. Di questa modalità di agire, in grado di vanificare ogni vostro e nostro lavoro accurato, ogni volontà e possibilità di controllo da parte dei parlamentari, io stessa ho avuto cognizione nel corso dei lavori del Senato relativi al disegno di legge n. 2564, di conversione del cosiddetto decreto-legge tagliaprezzi, adottato nel marzo 2022 per contrastare gli effetti economici e umanitari della crisi ucraina. A inizio di maggio, in circostanze che definirei fortunose, grazie al lavoro di molti di voi un sabato sera (a tarda sera) venni a sapere da alcuni colleghi dell'Assemblea che qualcuno, presumibilmente al Ministero dell'economia e delle finanze, nel dare un parere sulla copertura di un emendamento in tema di mobilità dei docenti della scuola dell'infanzia, ne aveva totalmente riscritto il testo, aggiungendo commi senza alcun nesso con la materia del decreto-legge, volti a modificare le competenze di Arexpo, i requisiti di nomina dei candidabili alla presidenza dell'Istat e infine la disciplina del centro di ricerca noto come fondazione Human Technopole, materia che seguo da sei anni. Per Human Technopole addirittura si inseriva una norma in contrasto con quanto disposto dalla legge di bilancio 2019, volta a vanificare totalmente gli impegni sottoscritti da MEF, Ministero dell'università e della ricerca (MUR) e Ministero della salute con la fondazione, nel contesto di una convenzione sottoscritta da queste parti, il cui effetto era quello di rinviare al tempo del mai il libero accesso e l'apertura di quell'infrastruttura a centinaia di ricercatori, ricercatori ai quali nel frattempo era stato chiesto di dire la loro su cosa si doveva fare presso quell'infrastruttura ed erano quindi coinvolti in una consultazione pubblica che veramente coinvolgeva centinaia di ricercatori. Quella norma intrusa vanificava completamente tutto. Grazie all'intervento tempestivo di alcuni di voi, quelle norme vennero in parte espunte e in parte dichiarate inammissibili. Ma il solo fatto che fossero state concepite e presentate in quel modo rende l'idea delle criticità con cui l'alta amministrazione si sente di poter tradurre i desiderata politici o peggio propri nel processo legislativo. E la norma senza padri, di cui oggi ci accingiamo a ratificare la soppressione operata dalla Camera, ha avuto il merito perlomeno di recare scandalo e di indurre le Camere alla correzione. È un meccanismo di rigetto eccezionale su un fatto non raro. Ricordo che forse la tossicità democratica risiede anche e soprattutto nell'opacità delle decisioni che il Parlamento si trova ad assumere. Opacità politica significa che si rende pressoché impossibile al cittadino capire chi ha chiesto cosa, come e per quale motivo e, se non è chiaro, non si potrà mai essere richiamati alla propria responsabilità rispetto alle finalità e agli effetti di ciò che è stato proposto. Per questo mi convinco ogni giorno di più che uno dei grandi meriti dell'istituzione parlamentare, diretta espressione della sovranità popolare, sia la pubblicità, il libero e pubblico confronto a valle del quale si assumono decisioni legislative. Il resoconto stenografico, il verbale, le registrazioni audio sono la straordinaria forma che si fa sostanza. Sulla riconoscibilità delle decisioni compiute qua dentro si fondano anche la libertà e il potere del cittadino, da esprimersi con il voto, di premiare con la propria fiducia un partito o una personalità rispetto ad un'altra. Non possiamo far venire a meno questo patto fiduciario. Questi mali della legislazione - me lo insegnate voi - sono universalmente noti, enumerati qui in Aula spesso da chi veste i panni delle opposizioni, elencati in tutti i rapporti del Comitato per la legislazione, onnipresenti negli editoriali dei quotidiani e nelle riviste scientifiche di settore. Ma, se il male è noto, la volontà di rompere questo circuito ad oggi latita e, nonostante la recente modifica del Regolamento del Senato, credo che poco sia stato fatto per rompere questo circuito, per cui forse con un po' di coordinamento con la Camera si potrà magari fare qualcosa. PRESIDENTE. La invito a concludere, senatrice. CATTANEO (Aut (SVP-PATT, UV)). Chiudo, signora Presidente, dicendo che riconoscere una nostra mancanza o forse una necessità del Parlamento potrebbe essere il presupposto migliore per convincere i prossimi legislatori a innovare prassi e Regolamento che hanno finito per compromettere gravemente la funzione parlamentare. Questa è una di quelle piccole riforme di cui tutti lamentano la necessità, ma che come un miraggio nel deserto sembra non arrivare mai.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg38">Chiedo di poter allegare il testo integrale del mio intervento.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg39">PRESIDENTE. La Presidenza l'autorizza in tal senso.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg40">È iscritta a parlare la senatrice Abate. Ne ha facoltà.</seg>
+            </u>
+            <note type="speaker">ABATE (UpC-CAL-Alt-PC-AI-Pr.SMART-IdV)</note>
+            <u ana="#regular"
+               who="#AbateRosaSilvana"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u24">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg41">Signor Presidente, colleghe e colleghi, il provvedimento in discussione è tornato in Senato, dove lo avevamo votato la settimana scorsa, perché si è dovuto bloccare - questo è il termine esatto - un emendamento alquanto strano, contenente la deroga al tetto dei 240.000 euro per gli stipendi dei vertici della pubblica amministrazione.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg42">Naturalmente tutti dicono che non sapevano nulla di questo emendamento: chissà, sarà vero? È un po' difficile credere a questa versione.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg43">Vorrei comunque ricordare - e mi rivolgo non solo ai colleghi e all'Aula, ma anche ai pescatori e agli agricoltori, compagni di viaggio del mio mandato - che, anche in fase di approvazione del decreto aiuti alla Camera, ho nuovamente presentato gli emendamenti per il settore dell'agricoltura e della pesca, e soprattutto la moratoria finanziaria, così necessaria alle aziende che stanno fallendo. Devo dirvi, però, che anche in quella sede nessuno, eccetto i colleghi del mio Gruppo, ha sottoscritto gli emendamenti e li ha votati.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg44">Quindi, cari amici agricoltori e pescatori, non credete a chi adesso viene a raccontarvi che è necessaria e fondamentale una moratoria finanziaria per le piccole e medie imprese dell'agricoltura e della pesca in difficoltà, perché sono solo e semplicemente vane promesse elettorali.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg45">Se infatti avessero voluto combattere per questo emendamento, avrebbero potuto farlo con me e nell'esame di questo decreto-legge, per una ripresa delle aziende che - come sappiamo - sono in difficoltà, tanto che 70.000 aziende del settore dell'agricoltura sono già chiuse. Ricordatelo, amici pescatori e agricoltori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <note>PRESIDENTE. È iscritto a parlare il senatore Lanzi. Ne ha facoltà.</note>
+            </u>
+            <note type="speaker">LANZI (M5S)</note>
+            <u ana="#regular"
+               who="#LanziGabriele"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u25">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg46">Signor Presidente, mi fa piacere si possa intervenire anche in terza lettura, così come prevede il nostro ordinamento. Lo avremmo voluto fare - come sarebbe stato più che giusto - anche per le leggi di bilancio e ci si augura che, nella nuova legislatura, il Parlamento possa farsi valere al meglio. Andiamo però senza indugio al punto e cioè al motivo per cui oggi siamo qui riuniti. Diciamolo chiaramente ai cittadini: se oggi il decreto-legge arriva in Assemblea in terza lettura è per approvare il provvidenziale correttivo voluto dal MoVimento 5 Stelle e apportato dalla Camera dei deputati al testo del provvedimento licenziato poco meno di una settimana fa qui in Senato. Siamo qui perché qualche partito ha pensato bene, con un colpo di coda di fine legislatura, di eliminare il tetto di 240.000 euro ai mega-stipendi dei manager pubblici. Facciamo pure i nomi, perché è giusto che i cittadini lo sappiano: si tratta di Forza Italia, del Partito Democratico e di Italia Viva. La cosa più assurda, però, è che solo pochi giorni dopo aver votato questa ingiusta norma, PD e Italia Viva hanno presentato alla Camera dei deputati un emendamento soppressivo: quanto basta per cercare oggi di prendersi il merito della modifica. Allora la domanda sorge spontanea: perché l'hanno approvata? A questa domanda credo ci siano due possibili risposte. Nella migliore delle ipotesi hanno votato senza sapere cosa si stava votando. Se così fosse, non si comprende quali garanzie tali partiti sarebbero in grado di dare a chi oggi pensa di sostenerli alle prossime elezioni. Nell'ipotesi peggiore, invece, si è tentato di fare l'ennesimo regalo ad alcuni alti dirigenti dello Stato, sperando che la modifica passasse in sordina, salvo poi ritrattarla quando invece ha acquisito, grazie al MoVimento 5 Stelle, una forte eco mediatica. Ecco perché ci siamo ed è lo stesso motivo per cui il sistema ci vuole fuori dalle istituzioni. Se c'è una cosa su cui qui dentro siete tutti d'accordo è proprio l'avversione nei confronti del MoVimento 5 Stelle. Quale sia il motivo andrebbe forse spiegato ai cittadini. Forse perché si vuole tentare di ripristinare i privilegi della casta oppure per approvare norme come quella che oggi viene cancellata, senza alcun controllo? Credo proprio che sia questo l'intento della vecchia politica, come emerge dalle dichiarazioni, neanche poco plateali, di colui che il centrodestra indica come possibile futuro ministro della giustizia, Nordio, attualmente candidato con Fratelli d'Italia. Diciamo che, ancora una volta, siamo gli unici a mostrarci diversi da chi da sempre vive questi Palazzi, diversi dalla vecchia politica che vuole ripristinare le immunità parlamentari e i vitalizi, alzare gli stipendi dei manager pubblici e magari anche dei parlamentari stessi. Come Movimento 5 Stelle, invece, dal nostro ingresso nelle istituzioni abbiamo fatto una cosa semplice: ci siamo tagliati i privilegi!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg47">Non servivano leggi, ma bastava la semplice volontà: lo avevamo promesso e lo abbiamo fatto.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg48">Avete idea della sofferenza che oggi il Paese vive, a causa del caro energia? Famiglie e imprese sono in ginocchio, non riescono a pagare le utenze e, addirittura, per farlo adesso si chiede loro di contrarre altri debiti. Ecco qual è la realtà fuori da queste stanze: una realtà di cui chi ha votato questa norma non ha alcuna contezza. Ai cittadini voglio dire che chi oggi voterà per eliminarla, solo pochi giorni fa era d'accordo a introdurla. Sono gli stessi partiti che per mezza legislatura hanno ignorato la nostra richiesta di introdurre un salario minimo orario, per aiutare chi guadagna 3 o 4 euro l'ora e non riesce a portare un piatto caldo a tavola.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg49">Mentre in tutta Europa gli altri Stati membri lo stanno addirittura alzando, siamo rimasti tra i 6 Paesi a non averlo ancora introdotto.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg50">Oggi non c'è spazio per il ravvedimento operoso per chi solo una settimana fa ha votato questa norma porcheria e i cittadini lo hanno capito. Vorrei ricordare una frase di Adriano Olivetti, che chi ha votato quell'emendamento dovrebbe tenere più spesso a mente: «nessun dirigente, neanche il più alto in grado, deve guadagnare più di 10 volte l'ammontare del salario» più basso. È una frase che racchiude un concetto semplice, ma al tempo stesso rivoluzionario.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg51">Forse è un'utopia oggi, ma di certo una regola morale a cui ritengo che un legislatore avveduto e coscienzioso dovrebbe ispirarsi, soprattutto quando si tratta di denaro pubblico, e a maggior ragione in un momento di così grande sofferenza per il Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg52">Concludo salutando i conduttori di «Un giorno da pecora»: è il modo giusto di fare ironia anche sulla politica. Declamo una breve ma significativa rima: molti leader stan dicendo: senza me non c'è speranza, ma il consenso sta crescendo per chi ha stile ed eleganza. Parlo di Giuseppe Conte, che il destino ci ha affidato. Le matite sono pronte, è il migliore candidato! Viva l'Italia. Viva il MoVimento 5 Stelle!</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CIAMPOLILLO (Misto)</note>
+            <u ana="#regular"
+               who="#CiampolilloLello"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u26">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg53">Signor Presidente, circa l'inammissibilità dell'ordine del giorno G1.1000, siccome si risparmierebbero 0,5 miliardi di euro estendendo l'ora legale... PRESIDENTE. Mi scusi, senatore Ciampolillo, per che cosa sta chiedendo di intervenire? CIAMPOLILLO (Misto). Vorrei semplicemente conoscere le motivazioni dell'inammissibilità.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u27">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg54">Intanto non riguarda parti modificate del provvedimento, e questo è il motivo per cui è inammissibile.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg55">Dichiaro chiusa la discussione generale.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg56">I relatori e il rappresentante del Governo non intendono intervenire in sede di replica.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg57">Comunico che sono pervenuti alla Presidenza - e sono in distribuzione - i pareri espressi dalla 1ᵃ e dalla 5ᵃ Commissione permanente sul disegno di legge in esame, che verranno pubblicati in allegato al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg58">Come già preannunciato, sono dichiarati inammissibili, ai sensi dell'articolo 104 del Regolamento, gli ordini del giorno G1.1000 e G16.2000.</seg>
+            </u>
+            <note type="speaker">PRESUTTO (Ipf-CD)</note>
+            <u ana="#regular"
+               who="#PresuttoVincenzo"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u28">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg59">Signor Presidente, sarò molto rapido. Il Gruppo Insieme per il Futuro dichiara voto favorevole al provvedimento. È, però, altresì opportuno evidenziare la criticità che ci ha portato in questo caso a una terza lettura: un atto dovuto per porre rimedio a un emendamento che la volta scorsa è passato in sordina. È chiaro che il Parlamento in questi casi ha la responsabilità, perché quel provvedimento lo abbiamo votato noi. Ma è anche giusto evidenziare che era una situazione di particolare criticità: avevamo un tempo molto ristretto, vi era la necessità di convertire quel decreto-legge molto importante per gli interessi del Paese - parliamo degli aiuti economici alle imprese e alle famiglie - e bisognava mettere i nostri colleghi della Camera nelle condizioni di poterlo discutere. Tuttavia, è accaduto un fatto grave, che bisogna assolutamente evidenziare: siamo stati messi tutti quanti sotto accusa dai cittadini per disattenzione. Chiaramente ce ne assumiamo la responsabilità perché l'abbiamo votato noi, ma merita un'attenta riflessione tutta la procedura che ha portato quelle benedette riformulazioni a non essere valutate non da una persona, ma praticamente da tutti i Gruppi parlamentari, in modo particolare dalle Commissioni bilancio e finanze. Sono un componente della Commissione bilancio, ma posso assolutamente assolvere non soltanto me stesso, ma i colleghi di entrambe le Commissioni che non erano stati messi nelle condizioni di poter capire cosa stesse accadendo. Questo ha alimentato una critica e addirittura l'intervento del Presidente della Repubblica, con la necessità di essere presenti oggi, e noi con senso di responsabilità ci siamo. Quel passaggio merita una riflessione e richiede anche la necessità di individuare le responsabilità di quelle riformulazioni che sono arrivate in un momento contingentato particolare, che ha messo in difficoltà la capacità di funzionamento del Parlamento, e non ha consentito di valutare in piena cognizione cosa stessimo votando. La responsabilità oggettiva è nostra, ma vi è una dinamica distorsiva dei fatti che ci ha tratto in inganno. Quindi - ripeto - ci assumiamo la responsabilità, ma solleviamo un momento di critica generale che dovrà essere valutata affinché episodi come quelli, in un momento drammatico per il Paese, non si ripropongano più. In ogni caso, confermo il voto favorevole al provvedimento.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">LANNUTTI (UpC-CAL-Alt-PC-AI-Pr.SMART-IdV)</note>
+            <u ana="#regular"
+               who="#LannuttiElio"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u29">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg60">Signora Presidente, le sanzioni stanno funzionando, il tempo sta rivelando che queste misure sono sempre più efficaci: è il mantra del Capo del Governo per cercare di convincere e autoconvincersi. Funzionano sì, ma decine di migliaia di imprese, a causa dei rincari elevati delle bollette di luce e gas, hanno già chiuso o saranno costrette a chiudere, mentre il "Governo dei migliori", capeggiati da Draghi - il peggior disastro per diritti e interessi del popolo italiano -, addirittura nega, rifiuta di fare uno scostamento di bilancio di almeno 30 miliardi, per timore di aumentare il debito. Lui sta negli Stati Uniti e volevo informarlo che il 17 febbraio 2021 - data che gli italiani ricorderanno a lungo per vessazioni ed angherie seriali subite dopo il voto di fiducia al peggior Governo della storia recente - tutti gli indicatori economici sono peggiorati: inflazione all'8,4 per cento, rincari tariffari per circa 3.000 euro a famiglia, tassi d'interesse che comportano migliaia di euro in più all'anno su mutui e prestiti, cambio euro-dollaro sotto la parità. Il famigerato debito pubblico, grazie al "migliore", è arrivato a 2.770 miliardi di euro a luglio, con 167 miliardi in più, al ritmo di 9,8 miliardi al mese, 327 milioni al giorno, 13 milioni l'ora, 226.666 euro al secondo, nonostante il rimbalzo positivo dell'economia, l'aumento del PIL e dell'occupazione dovuto in gran parte al tanto vituperato superbonus. Le sanzioni stanno funzionando: il mantra di Draghi tre giorni fa, illustrando il cosiddetto decreto aiuti- ter, quando ha lanciato l'accusa, da vero intenditore, ai presunti pupazzi prezzolati. Proprio lui che, come ripeteva Francesco Cossiga, fu prezzolato da suoi comparucci di Goldman Sachs.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg61">Al di là della narrazione fraudolenta raccontata da.. . PRESIDENTE. Senatore, ovviamente lei sa cosa sto per dirle: si assume le responsabilità delle sue parole, che a mio avviso vanno decisamente oltre i toni aspri della... LANNUTTI (UpC-CAL-Alt-PC-AI-Pr.SMART-IdV). Come sempre. E mi farà recuperare anche il tempo. Al di là della narrazione fraudolenta, raccontata da media e TG Rai Luce, veri e propri resoconti alla tele-Zelensky, la realtà è più forte delle menzogne. Poche conseguenze per la Russia dallo stop, come dice un lancio dell'agenzia AGI del 2 settembre scorso, che smentisce platealmente l'efficacia delle sanzioni. È invece un drammatico boomerang per famiglie stangate e impoverite, con un micidiale impatto su decine di migliaia di imprese, costrette a chiudere. Secondo l'analisi di Capital Economics, pubblicata da Bloomberg, la Russia può permettersi di chiudere il rubinetto del gas all'Europa per un anno senza conseguenze per il proprio bilancio pubblico. Del resto, appare demenziale focalizzare l'ossessiva propaganda dei media in Italia, ai primi posti per corruzione e tra gli ultimi per libertà di stampa, sull'impatto delle sanzioni sui russi, ignorando le drammatiche conseguenze sul popolo italiano, che dovrà affrontare un rigido inverno al gelo. Occorre andare alle radici del problema, oltre i palliativi dei decreti aiuti. Un articolo de «La Verità» titolava: «Il gioco di prestigio di Draghi sugli aiuti. Nemmeno un euro arriva dai nuovi fondi». I tanto sbandierati 66 miliardi complessivi di sostegno arrivano da spostamenti interni di bilancio o dall'extragettito IVA. Occorrerebbe una robusta autocritica sull'aumento delle spese militari di 16 miliardi e l'invio delle armi, invece che incentivare diplomazia e negoziati per dirimere il conflitto. Vi è la cieca obbedienza ai guerrafondai USA-NATO, la cui guerra per procura ha rafforzato gli Stati Uniti, indebolito l'Europa, impoverito cittadini ed imprese alla canna del gas.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg62">Per ciò che riguarda questo decreto, vedo pochi aiuti per famiglie e imprese e molta propaganda. Con alcune perle: l'articolo 29 in materia di procedura liquidatoria su Alitalia. La svendita di ITA costerà all'erario 980 milioni di euro e ci sarà l'ennesimo ulteriore regalo di un miliardo per Milano-Cortina, un evento spacciato a costo zero, a conferma di sperperi e sprechi per le consuete Olimpiadi degli affari.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg63">Chiudo, per i tanti cultori dell'agenda Draghi, che mi appaiono come afflitti dalla sindrome di Stoccolma, quel morbo che porta ad amare i propri carnefici. Ecco, credo che gli italiani, nonostante la propaganda ossessiva dei media, tesi a esaltare il migliore, siano, come me, immuni da quella sindrome contagiosa.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">EVANGELISTA (IV-PSI)</note>
+            <u ana="#regular"
+               who="#EvangelistaElviraLucia"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u30">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg64">Signora Presidente, è evidente che siamo oggi in Aula, a pochi giorni dalle elezioni politiche, per votare in terza lettura il decreto-legge aiuti- bis al solo fine di porre rimedio a quanto accaduto la scorsa settimana nelle Commissioni bilancio e finanze, quando furtivamente, con una vera e propria forzatura (in gergo istituzionale si dice "la manina"), è stato introdotto, nel pacchetto di emendamenti concordato da tutti i Gruppi politici, fatta eccezione per CAL e Italexit, un emendamento che andava a modificare una norma introdotta dal Governo Renzi, che poneva un tetto agli stipendi degli alti funzionari e dei dirigenti statali. Questa è stata sicuramente una sgrammaticatura istituzionale, che indebolisce il Parlamento; ciò dispiace molto, soprattutto perché è accaduto a fine legislatura, utilizzando un decreto-legge che era stato emanato per le imprese e per le famiglie, in un momento di crisi economica ed energetica e di forte inflazione. Forse potevamo evitarlo e potevamo essere tutti un attimino più attenti. Sicuramente però dobbiamo ringraziare il presidente Draghi, che prontamente è intervenuto con un emendamento governativo, sottoscritto e approvato dai colleghi della Camera, che ha corretto immediatamente questa stortura e ha ripristinato la vecchia norma; di questo non possiamo fare altro che ringraziarlo. Spiace inoltre che, di fronte a un indebolimento del Parlamento, alcune forze politiche abbiano cercato di addossare la colpa ad altre forze politiche, per pura propaganda elettorale, ree semplicemente di aver rispettato in Aula gli impegni che erano stati presi dentro le Commissioni, ossia l'impegno a votare tutti a favore del pacchetto di emendamenti (a parte le due forze politiche che ho citato prima). Comunque, per tutti questi motivi, come Gruppo politico Italia Viva - Partito Socialista Italiano, voteremo a favore del decreto-legge aiuti- bis.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">COMINCINI (PD)</note>
+            <u ana="#regular"
+               who="#CominciniEugenio"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u31">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg65">Signora Presidente, nel rinnovare il voto favorevole del Partito Democratico alla conversione in legge del decreto-legge aiuti- bis, una parola non può non essere detta a proposito dell'incidente che ci vede riuniti quest'oggi per dare nuovamente il via libera al provvedimento e rimediare all'errore che è stato fatto la settimana scorsa. Vorrei dire due parole anche al collega Lanzi, che nel suo intervento in discussione generale si è permesso di pontificare sulle ragioni che hanno portato altri Gruppi a votare a favore di quell'emendamento. Qualche altro collega ha già ricostruito la dinamica con la quale si è giunti a non comprendere esattamente il contenuto della riformulazione che era giunta in Commissione. Mi permetto di dire al collega Lanzi e al MoVimento 5 Stelle che neppure voi avevate votato contro quell'emendamento e che pure voi oggi vi trovate a dover modificare il vostro voto, perché non credo che quest'oggi vi asterrete nuovamente. Noi di lezioni non ne prendiamo da nessuno.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg66">Voglio invece collegarmi alle parole della senatrice a vita Elena Cattaneo. Mi permetta, signor Presidente, visto che abbiamo presenti anche degli studenti, che magari restano un po' interdetti rispetto a questo dibattito e alle parole che ascoltano...</seg>
+               <vocal type="noise">
+                  <desc>Brusio.</desc>
+               </vocal>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u32">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg67">Colleghi, siamo in fase di conclusione dei nostri lavori. Credo che non sia eccessivo, quindi, chiedervi di abbassare il volume della voce, così da arrivarvi in modo ordinato e da riuscire anche ad ascoltare gli interventi dei colleghi.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg68">Senatore Comincini, la invito a riprendere il suo intervento.</seg>
+            </u>
+            <note type="speaker">COMINCINI (PD)</note>
+            <u ana="#regular"
+               who="#CominciniEugenio"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u33">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg69">Signor Presidente, dicevo appunto che vorrei collegarmi alle parole della senatrice a vita Elena Cattaneo e in questo modo, se mi è permesso, anche lanciare un messaggio agli studenti che sono ospiti, quest'oggi, in quest'ultima seduta della XVIII legislatura. Non vorrei, infatti, che restassero interdetti rispetto a quello che vedono, che ed ascoltano e cui assistono.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg70">Il processo legislativo e le modalità con le quali giungono a maturazione emendamenti depositati dai senatori, che necessitano del parere del Governo e che spesso sono oggetto di riformulazione da parte della macro struttura ministeriale, andrebbero ordinati in maniera davvero diversa.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg71">Nel mio scorso intervento, pensando che fosse l'ultimo, chiusi dicendo che auspicavo che nella prossima legislatura, da parte del prossimo Parlamento, potesse esservi una adeguata attenzione alla tutela e alla valorizzazione del processo legislativo, del potere legislativo, che è cosa diversa dal potere esecutivo, che è chiamato ad applicare ed eseguire le norme e gli indirizzi dati dal Parlamento.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg72">Ma la modalità con la quale in questi anni si sono modificate le procedure, si è costruito in maniera diversa il percorso che porta all'approvazione delle leggi, di fatto costituisce uno sbilanciamento che mette spesso il Parlamento in una condizione di difficoltà. Le modalità con le quali si è giunti a quella riformulazione, che non ha permesso a nessun Gruppo di poter avere piena coscienza di quello che si andava a votare in Commissione (ne è dimostrazione il fatto che oggi tutti i Gruppi politici esprimeranno un voto diverso rispetto a quello espresso una settimana fa), sono la dimostrazione della necessità di una maggiore cura e tutela del potere legislativo nell'equilibrio dei poteri costituzionali.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg73">Nel ribadire, quindi, il voto favorevole del Partito Democratico al decreto-legge aiuti- bis, alle tante misure che il Governo vi ha inserito e a quelle che il Parlamento ha migliorato approvando gli emendamenti la settimana scorsa, che resti agli atti anche questo appello a che le modalità con le quali il processo legislativo si svolge trovino un diverso equilibrio. Un equilibrio che non è soltanto questione di maggiore attenzione a ciò che votiamo, ma davvero di individuare una modalità che permetta ad ogni parlamentare di essere pienamente cosciente di ciò che vota, di avere a disposizione i tempi necessari per conoscere le riformulazioni e, nel limite del possibile, che tali riformulazioni vengano assentite veramente dagli esponenti politici del Governo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u34">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg74">Senatore Comincini, le ricordo che il Senato ha apportato delle modifiche al proprio Regolamento, cercando di andare in questo senso.</seg>
+            </u>
+            <note type="speaker">DE PETRIS (Misto-LeU-Eco)</note>
+            <u ana="#regular"
+               who="#DePetrisLoredana"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u35">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg75">Signor Presidente, intanto possiamo dire: meno male che abbiamo il bicameralismo. Così, quando si fanno degli errori, si può poi riuscire ad avere un'altra lettura per mettervi riparo. È evidente, però, che da questo nascono anche una serie di riflessioni, che non riguardano soltanto la qualità legislativa, ma anche un'idea molto chiara di come si arrivi, molto spesso in tempi anche ristretti, a fare alcune riformulazioni. Signor Presidente, in un momento come questo, in cui le famiglie sono nella situazione in cui sono, in cui il Paese è nella situazione in cui è dal punto di vista sociale ed economico, noi ovviamente riteniamo che sia non giusto, ma assolutamente necessario che noi rapidamente ci adoperiamo per eliminare questa norma, che rappresentava un vero e proprio schiaffo ai cittadini. Forse però il Governo, che giustamente ha presentato l'emendamento al nostro esame, così come alla Camera è stato presentato l'emendamento soppressivo, dovrebbe accertare come è nata quella riformulazione. Mi rivolgo ai relatori: visto che l'emendamento è passato per molti Ministeri per ottenere il nullaosta, sarebbe curioso sapere cosa è successo in tale sede e sarebbe stato anche molto importante che qualcuno si fosse assunto fino in fondo la responsabilità di quella riformulazione. Questo non per assolvere i senatori che poi l'hanno votato, ma credo che sarebbe stato assolutamente necessario. Abbiamo assistito altre volte - sulla base della mia esperienza potrei fare mille esempi - al tentativo di agganciare a un emendamento un'altra norma, tentando di approfittare del fatto che la versione nota fosse la precedente. Detto questo, è importante che oggi mettiamo immediatamente riparo a quello che non poteva che essere interpretato come un vero e proprio schiaffo a tutti i cittadini che stanno vivendo un momento molto difficile.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'elezione del Presidente della Corte costituzionale</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u36">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg76">A nome dell'Assemblea del Senato, rivolgiamo i migliori auguri di buon lavoro a Silvana Sciarra, che è stata eletta Presidente della Corte costituzionale.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Saluto ad una delegazione di giovani funzionari di Confindustria</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u37">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg77">Saluto a nome dell'Assemblea la delegazione dei giovani funzionari del circuito Confindustria, che stanno assistendo ai nostri lavori.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note>Ripresa della discussione del disegno di legge n. 2685-B</note>
+            <note type="time">16,07</note>
+            <note type="link">http://www.senato.it/leg/18/BGT/Schede/Ddliter/55175.htm</note>
+            <note type="time">(ore 16,07)</note>
+            <note type="speaker">GASPARRI (FIBP-UDC)</note>
+            <u ana="#regular"
+               who="#GasparriMaurizio"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u38">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg78">Signor Presidente, il Gruppo di Forza Italia è ovviamente d'accordo con questo decreto-legge, che rappresenta uno degli interventi parziali per affrontare la drammatica vicenda energetica, economica e sociale che stiamo vivendo. È un tassello di un'azione che era stata già avviata con un precedente decreto-legge; è in corso di ultimazione nei suoi dettagli un ulteriore provvedimento e credo che il nuovo Parlamento e il nuovo Governo avranno ancora da lavorare su questo terreno, perché le esigenze delle famiglie e delle imprese sono enormi e il costo dell'energia è il problema che preoccupa più gli italiani, giustamente, anche in questi giorni. Noi di Forza Italia, peraltro, sappiamo bene che la questione non si risolverà solo con dei decreti, ma serve un intervento europeo. Ed è per questo che sia il presidente Berlusconi che l'onorevole Tajani, come i parlamentari europei, hanno chiesto da mesi che l'Europa lanci un'altra azione, come il recovery fund che c'è stato per il Covid-19, per affrontare gli stanziamenti per l'energia e difendere la realtà produttiva di tutta Europa e dell'Italia. Noi siamo impegnati a proseguire questa azione, ma riteniamo - questo sarà un capitolo che si affronterà in futuro - che si debbano rimuovere le cause del disastro in cui viviamo. Siamo stati, siamo e saremo solidali con il popolo ucraino, ma ricordiamo la politica che i Governi Berlusconi seppero fare mettendo intorno a un tavolo i russi e gli americani, l'Oriente e l'Occidente.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg79">Serve la capacità di autentici statisti di disegnare un percorso di pace per il futuro, tutelando i popoli aggrediti, ma rimuovendo le cause della speculazione e dell'aggressione economica.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg80">Per quanto riguarda i vari dettagli, ho chiesto pubblicamente al Governo la chiarezza e il nome di chi ha scritto le riformulazioni dell'emendamento della Commissione, sul quale anche quelli che oggi urlano si erano astenuti, facilitandone il percorso, perché qualcuno ha scritto la riformulazione. Forza Italia si è battuta anche in questo decreto solo se si parlava delle Forze dell'ordine e delle Forze di polizia</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg81">, per le quali, sì, vogliamo adeguamenti, ma dalla base al vertice, dal vertice alla base. Voglio ricordare che soltanto il nostro ingresso nella maggioranza di Governo ha consentito il rinnovo del contratto per il comparto sicurezza-difesa che il Governo giallorosso aveva lasciato marcire, fermo per tre anni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg82">Ripartiremo dal nuovo contratto, già scaduto, per le Forze di polizia e le Forze armate, a cominciare dalla base, dai poliziotti o carabinieri di quartiere, al fine di dare riconoscimenti economici e stanziamenti necessari. Questo è il nostro spirito, insieme ovviamente a tutto il sostegno alle altre norme che sono contenute nel cosiddetto decreto aiuti, che abbiamo sostenuto in Commissione e che altri hanno rallentato, frenando l'erogazione di fondi. Anche noi infatti volevamo chiarezza sul superbonus 110 per cento, ma vogliamo bonus veri e seri e non misure che poi crollano, lasciando le imprese e le famiglie nella disperazione. Vogliamo una politica di serietà anche sui bonus e sull'edilizia. Votiamo quindi a favore di questo provvedimento, ma vorremmo un po' di chiarezza dal Governo e che sia evidente che Forza Italia sull'edilizia, sulle Forze di polizia e sui temi prioritari ha una posizione chiara, molto esplicita, che ribadiamo anche oggi.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ROMEO (L-SP-PSd'Az)</note>
+            <u ana="#regular"
+               who="#RomeoMassimiliano"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u39">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg83">Signor Presidente, nell'annunciare il voto favorevole della Lega-Salvini premier -Partito Sardo d'Azione al provvedimento, ne approfittiamo per ringraziare tutto il Consiglio di Presidenza, il Segretario, i Vice Segretari, tutti i funzionari, le Commissioni, gli uffici e gli assistenti per tutto il lavoro svolto e il supporto che ci è stato dato. Rivolgo naturalmente un ringraziamento speciale al Governo, che ci ha dato l'opportunità di ritrovarci qui tutti insieme durante l'ultima settimana della campagna elettorale, perché non solo ha dato parere favorevole ad un emendamento che prevedeva il superamento del tetto agli stipendi per alcune categorie e alle Forze dell'ordine, ma poi addirittura lo ha riformulato estendendo la platea dei beneficiari, salvo poi indignarsi, dare la colpa al Parlamento, pretendere che alla Camera venisse cambiato</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg84">con un proprio emendamento, per poi passarlo al Senato per la terza lettura. Davvero un capolavoro. Grazie.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">CASTALDI (M5S)</note>
+            <u ana="#regular"
+               who="#CastaldiGianluca"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u40">
+               <note>Domando di parlare per dichiarazione di voto.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg85">Signor Presidente, è un grande onore per me fare l'ultima dichiarazione di voto a nome del MoVimento 5 Stelle e ringrazio il mio Presidente di Gruppo per avermi dato questa possibilità. Perché siamo oggi in terza lettura? La terza lettura - lo dico ai cittadini fuori - è una rarità nel Parlamento italiano, ma noi, come MoVimento 5 Stelle, abbiamo iniziato la nostra azione quindici-venti anni fa per la transizione ecologica (ricordate Grillo sotto una Twingo a respirare idrogeno; siamo ancora con il diesel e la benzina), per l'onestà e soprattutto anti casta, per alcuni provvedimenti anti casta. Immaginate, cittadini, che noi siamo in terza lettura al Senato per cancellare una norma pro casta, che permetteva di togliere il tetto agli stipendi di alcuni dirigenti. Questo per noi è motivo di orgoglio. Siamo in questa sede anche perché la nostra ostinazione - lo dico anche perché ci sono i ragazzi di Confindustria - ci ha permesso di dare grande respiro all'Italia con una norma, il superbonus, targata MoVimento 5 Stelle.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg86">Lo sblocco della cessione dei crediti è un grande risultato. Ricordate, quello che il mainstream - che fa un po' riferimento a tutti voi, maggiori partiti, perché purtroppo non c'è una libertà di informazione in Italia - ci ha accusato di ritardare. Pensate: oggi, 20 settembre, stiamo ritardando la conversione del decreto per colpa di un tetto agli stipendi di 240.000 euro. Noi volevamo solo, come siamo riusciti a fare, ripristinare la cessione dei crediti di un provvedimento che, lo ricordo, in trenta anni di illuminati parlamentari nessuno mai aveva inventato; una norma che è semplice</seg>
+               <kinesic type="applause">
+                  <desc>Applausi),</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg87">crea lavoro, va verso la transizione ecologica, aiuta le famiglie a pagare di meno le bollette. Veniamo definiti però incompetenti. Lo so, è facile dirlo.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg88">Do una notizia cittadini fuori, perché la stampa non lo fa: questa legislatura è quella con il più alto grado di istruzione mai avuto dal Parlamento italiano. Lascio indovinare qual è il Gruppo politico che ha il più alto grado di istruzione in quest'Aula.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg89">Voglio poi sfatare un altro mito perché è stata una campagna elettorale contro i più poveri da chi prende 500 euro al giorno contro chi ne prende 300 al mese.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg90">È obbligatorio utilizzare il reddito di cittadinanza. Sono soldi che vengono reimmessi nella circolazione dell'economia. Ricordiamolo perché la stampa si dimentica di dire queste cose.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg91">Voglio ricordare un episodio. Nella scorsa legislatura il mio amico, senatore Santangelo, si alzava per chiedere il voto elettronico per ogni singolo emendamento perché in quest'Aula, dove mediamente sono presenti due terzi dei parlamentari, si votava per alzata di mano. Ciò comportava che nessuno risultava assente. Pagavamo un centinaio di senatori e 200 deputati come se fossero presenti. Sapete a quanti redditi di cittadinanza ciò corrispondeva giornalmente? Sono soldi che parlamentari della Repubblica rubavano allo Stato italiano.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg92">Queste sono le cose che la stampa deve dire. Dove sta? Uso questi ultimi minuti a disposizione per salutare tutti i funzionari. Fortunatamente ho ricoperto in quest'Aula ruoli di opposizione, di maggioranza e anche di Governo con il presente ministro D'Incà. Le Istituzioni sono fatte (e anche i parlamentari di tutte le forze politiche, ci mancherebbe) anche di persone perbene e molto preparate. Abbiamo sempre avuto un riscontro positivo da parte degli Uffici legislativi e di tutti i funzionari sia dei Ministeri, che del Parlamento e per questo li ringrazio. I cittadini italiani possono essere fieri di queste figure che aiutano tutti noi politici, che siamo transitori, a portare avanti la nostra Nazione.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg93">Cosa augurare a chi ci seguirà? Io faccio parte di quei parlamentari di una forza politica che ha rispettato tutti i princìpi che potevamo rispettare da soli: le restituzioni e i due mandati. Quello che potevamo rispettare da soli, lo abbiamo onorato. Abbiamo conseguito un altro record, in quanto abbiamo rispettato l'80 per cento del programma presentato nel 2018, nonostante i compromessi che abbiamo dovuto fare con gli altri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg94">Invito i giornalisti a vedere cosa c'è scritto nei programmi di oggi e, poi, valutare le forze politiche un domani.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg95">Auguro a chi ci seguirà di utilizzare l'intelligenza non per mantenere lo status quo della politica, ma per aiutare anche l'ultimo dei nostri connazionali. Auguri.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">NUGNES (Misto-Man.A Pap PRc-Se)</note>
+            <u ana="#regular"
+               who="#NugnesPaola"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u41">
+               <note>Domando di parlare per dichiarazione di voto in dissenso dal mio Gruppo.</note>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg96">PRESIDENTE. Ne prendo atto e le do la parola.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg97">Signor Presidente, grazie alla claque. Le privatizzazioni ritenute inevitabili dal discorso di Draghi del 1992 hanno clamorosamente fallito, portandoci esattamente al punto in cui siamo adesso, ossia davanti a un baratro climatico, sociale ed economico di cui ancora non abbiamo chiarezza. Sono procedute per trent'anni con una picconatura inevitabile, come diceva Draghi, e continua e ancora continuano con l'ultima coda del decreto che il Governo ha liquidato in Consiglio dei ministri e che il prossimo Parlamento dimezzato dovrà licenziare e che, dopo il provvedimento sulla concorrenza, ancora limita le prerogative del pubblico. Di fronte all'evidenza, come sul Titanic o nel film più recente «Don't look up», noi continuiamo verso il disastro. Mi riferisco al disastro di aver demolito il patrimonio pubblico collettivo ed eliminato la potestà del controllo pubblico dello Stato. Non abbiamo imparato nulla da questo. Credevamo, da quest'altro punto di vista, che il capitalismo avrebbe trovato la sua fine nei propri errori e abbiamo sbagliato, perché questo capitalismo bulimico ha dimostrato di sapersi alimentare degli stessi disastri che compie (ossia mangia il disastro che sta mettendo in campo). Purtroppo, a causa delle scelte fatte dal Governo dei migliori insieme all'Unione europea, noi avremo un inverno difficilissimo, con scarsità di gas fino a 10 miliardi di metri cubi. Chiuderanno le imprese e ci saranno licenziamenti in massa; avremo un problema climatico.</seg>
+               <vocal type="noise">
+                  <desc>Brusio</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg98">PRESIDENTE. Colleghi, il tempo lo sto tenendo, però questo non è ammissibile, soprattutto nell'ultima seduta. L'intervento è di tre minuti, anche perché poi molti insistiamo sulla dignità degli interventi in Parlamento, quindi cerchiamo di essere conseguenti e concludiamo i lavori ordinatamente. Senatrice, la invito a concludere il suo intervento perché il tempo è veramente al termine.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg99">Ebbene, benché stiamo andando verso una vera e propria catastrofe e sono certa che toccheremo il fondo del barile col prossimo Parlamento, la fine di tutto questo, la morte di questo modello capitalista predatorio, che abbatte il pubblico e demolisce la Costituzione, avrà fine prima di quanto voi...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente.</desc>
+               </incident>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u42">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg100">Indìco la votazione nominale con scrutinio simultaneo del disegno di legge, composto del solo articolo 1. (Segue la votazione). Il Senato approva. (v. Allegato B).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Interventi su argomenti non iscritti all'ordine del giorno</head>
+            <note type="speaker">*VERDUCCI (PD)</note>
+            <u ana="#regular"
+               who="#VerducciFrancesco"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u43">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg101">Colleghi, l'intervento del senatore Verducci riguarda la recente alluvione nelle Marche, quindi chiederei a chi non ha imminenti partenze di trattenersi e a chi intende abbandonare l'Aula di farlo in silenzio per cortesia.</seg>
+               <vocal type="noise">
+                  <desc>Brusio. Richiami del Presidente.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg102">Colleghi, per chi si fosse distratto, ripeto che il senatore Verducci sta intervenendo sui gravissimi fatti avvenuti nelle Marche, quindi vi invito a tacere e a consentire lo svolgimento dell'intervento come merita l'argomento.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg103">Signora Presidente, colleghi, sono giornate di lutto indicibile per tutti noi marchigiani e per tutta l'Italia. L'alluvione della notte del 15 settembre è un evento terribile che ci colpisce nella carne viva degli affetti più cari che tengono insieme una comunità. È una tragedia che riapre ferite mai rimarginate, come quelle del terremoto e come quelle dell'alluvione del 2014. C'è un dolore profondo per le persone che non ci sono più, strappate dal fango alle proprie case, alle proprie famiglie; abbiamo conosciuto i loro nomi, i loro volti, le loro storie e in questa sede desidero citare uno ad uno i loro nomi: Andrea, Giuseppe, Diego, Fernando, Mohamed, Erina, Maria Luisa, Gino, Augusto, Noemi, Michele.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg104">Ringrazio i colleghi per essersi alzati in piedi ed essersi uniti al mio e al nostro dolore e al mio e al nostro cordoglio.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg105">Con loro, Presidente, colleghi, anche Brunella, dispersa da quella notte, e il piccolo Mattia di otto anni, che in questi giorni abbiamo visto in foto sorridente con i genitori; sorridente, prima che avvenisse quello che nessuno poteva pensare fino a qualche ora prima, Mattia, a cui la mamma ha provato in ogni modo a fare da scudo; da giorni il babbo, i nonni, i vigili del fuoco e tanti volontari lo stanno cercando in tutti i modi.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg106">Signora Presidente, c'è una solidarietà grande. Volontari da tutte le Marche e da tutta Italia, tantissimi giovani, ventenni, che hanno lasciato quello che stavano facendo per andare dove è necessario stare, per aiutare chi ha perso tutto, per contribuire ad una rinascita, che oggi pare difficilissima, ma che ci sarà. Quei giovani hanno unito il proprio impegno e il proprio coraggio all'impegno, al coraggio, alla determinazione e alla professionalità dei Vigili del fuoco, degli operatori della protezione civile, delle Forze dell'ordine, dei medici, di tutto il personale sanitario, dei sindaci, che sono al lavoro ininterrottamente da quella notte per mettere in salvo le persone, per proteggere i più deboli, i più fragili, quelli che sono stati maggiormente colpiti.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg107">Ci sono molte persone sfollate. Alcuni luoghi in queste ore sono ancora difficilmente raggiungibili. In alcuni centri abitati scarseggia l'acqua potabile. I danni economici sono giganteschi. Paesi e città, i cui nomi sono conosciuti ovunque per la loro bellezza e per la generosità di chi li abita, sono ancora ricoperti dalla melma. Case, aziende, attività, mestieri, progetti di vita costruiti in decenni di lavoro, generazione dopo generazione, dopo generazione, sono stati inghiottiti dalla notte dell'alluvione.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg108">Signora Presidente, colleghi, le Marche si rialzeranno</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg109">, si rialzeranno come sempre è accaduto nelle ore più buie.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg110">Oggi abbiamo il dovere di combattere chi si ostina ad essere indifferente e complice degli effetti dell'inquinamento e del cambiamento climatico, la mancanza di manutenzione, l'incuria, i mancati interventi strutturali, la speculazione edilizia, lo sfruttamento del suolo e un modello economico feroce e ingiusto che condanna il pianeta e minaccia il futuro delle nuove generazioni.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">BRIZIARELLI (L-SP-PSd'Az)</note>
+            <u ana="#regular"
+               who="#BriziarelliLuca"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u44">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg111">Signora Presidente, colleghi, ringrazio il senatore Verducci per questo importante momento di condivisione e ovviamente anche come Gruppo Lega ci associamo al pensiero per le Marche. Tuttavia - non è polemica, ma un appello a chi siederà in questi banchi dopo di noi - queste parole hanno risuonato in quest'Aula in occasione di ogni tragedia e non è mai seguito un atto. È grave che l'Italia, che fra terremoti e alluvioni conosce tragedie - non dico quotidianamente, ma spesso - non si sia dotata di una legge nazionale per la gestione delle emergenze e che ogni volta si debba ricominciare, plaudendo alla protezione civile e ai volontari. Nelle parole del collega senatore Verducci, probabilmente, qualcuno un po' più grande di me di età avrà rivisto anche gli angeli del fango di Firenze, del 1966. Il problema è che non avere una legge per la gestione delle emergenze nel 1966 forse era anche plausibile, ma non averla oggi è comunque una colpa che credo l'intero sistema politico-istituzionale nazionale si porti sulle spalle. Mi auguro che il prossimo Parlamento riesca a fare quello che non abbiamo fatto noi, perché è una cosa che serve all'Italia, a prescindere dai colori e dalle appartenenze, e al sistema Paese.</seg>
+            </u>
+            <note type="speaker">QUARTO (M5S)</note>
+            <u ana="#regular"
+               who="#QuartoRuggiero"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u45">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg112">Signor Presidente, nell'ultimo mio intervento di martedì scorso paventai ciò che poi si è verificato nelle Marche: era una tragedia annunciata, che ha causato undici morti, due dispersi e un territorio devastato. Condivido pienamente il dolore delle comunità colpite. Nelle Marche si sono verificati un evento meteo estremo, che comunque può accadere ovunque in Italia, e un alluvione in un territorio geologicamente fragile, strutturalmente vulnerabile e indifeso. I climatologi ci hanno ben detto che c'è un'emergenza climatica planetaria e che in Italia quest'anno si è creata la combinazione di caldo e di asciutto più estrema mai vista prima d'ora dall'inizio dell'Ottocento, con i mari più caldi di 5 o 6 gradi e tanta energia disponibile, da innescare nubifragi e alluvioni autunnali. Si è così scatenato un temporale autorigenerante V- shaped, con piogge fino a 418 millimetri in sette ore, con conseguenti esondazioni in punti già colpiti in passato. Ben ricordo l'alluvione del Misa a Senigallia del 3 maggio 2014, con tre morti e 180 milioni di euro di danni, dopo la quale ben poco è stato fatto, con un'opera di difesa degli argini incompiuta da quarant'anni. Anche allora ci fu un morto nel garage, come papà e figlio ora. Probabilmente, se avesse funzionato IT Alert, Giuseppe e Andrea avrebbero ricevuto un messaggio di pericolo sul proprio cellulare e non sarebbero scesi, mettendo in salvo la propria vita, piuttosto che l'automobile. Lo stesso messaggio forse avrebbe fatto desistere Silvia dal mettersi in auto con Mattia, il bimbo di otto anni scomparso con il terrore negli occhi. IT Alert, l' app della Protezione civile, che ci dicono già pronta e sperimentata, con tanto di spot pubblicitario, non ci avverte, lasciandoci nella nostra incapacità di discernimento e comportamento. Non avrebbe dovuto entrare in funzione il 21 giugno scorso? Concludendo, se non vogliamo che i sempre più frequenti e intensi eventi meteo si trasformino in catastrofi, la strada è obbligata: allerta e prevenzione. Fulcro della prevenzione e del rischio idrogeologico è la conoscenza e il caposaldo della conoscenza è la cartografia geologica. Concludere IT Alert e la cartografia geologica è la strada giusta, che può salvare la vita.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">DI NICOLA (Ipf-CD)</note>
+            <u ana="#regular"
+               who="#DiNicolaPrimo"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u46">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg113">Signor Presidente, esprimo innanzitutto la nostra solidarietà ai cittadini delle Marche e alle famiglie colpite. Non aggiungo nulla alle parole toccanti utilizzate dal senatore Verducci e vengo al senso del mio intervento. Lasciatemi dire che è una calamità naturale, ma anche in questo caso l'imprevidenza è stata tanta. Vedo, in chi vuole oggi commemorare, una tendenza a dimenticare. Voglio dire chiaro e forte - ed è uno dei più grandi rimpianti per questa fine di legislatura - che il lavoro che andava fatto era volto alla prevenzione e, come chiesi sin dalle prime settimane della legislatura, nella famosa Commissione speciale, occorrevano una nuova mappatura del rischio idrogeologico e sismico, per vedere quanti soldi servivano, e un piano decennale - volendo, anche ventennale - per distribuire le risorse e intervenire subito. Ho scoperto in quella circostanza quanto la politica - al di là di quanto dichiara come buona intenzione - abbia il cuore duro. Minacciai di non votare un inutile provvedimento, in quella Commissione speciale, che verteva intorno al canone RAI, rispetto al quale venne imbastito un corposo intervento sull'emergenza terremoto, perché dissi che quello era il lavoro che andava fatto, se volevamo lavorare, anche perché c'era da mettere in sicurezza sismica l'80 per cento del patrimonio pubblico del Paese, a cominciare dalle scuole. Mi dissero che non c'erano i soldi e che il programma era troppo ambizioso. Ecco, non è stato fatto alcunché su questo fronte e spero che il rimpianto del sottoscritto in questo momento possa essere d'augurio - ai parlamentari che fra qualche settimana siederanno in Senato - a intervenire subito per dotare il Paese di questo strumento. Oggi è la pioggia, ma voglio ricordare a tutti che il terremoto è addirittura più impietoso e non avverte nessuno. Questo è il lascito, l'augurio, e spero che il prossimo Parlamento, unito, sappia affrontare questo tema per trovare le risorse necessarie a mettere in sicurezza il Paese.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">MALAN (FdI)</note>
+            <u ana="#regular"
+               who="#MalanLucio"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u47">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg114">Signor Presidente, il Gruppo Fratelli d'Italia è vicino alla popolazione delle Marche, colpita da questo grave evento. Esprimiamo gratitudine verso tutti coloro che si sono attivati: volontari, Forze dell'ordine, la Giunta regionale, il presidente Acquaroli, che è stato sempre nella sala operativa per dare il suo apporto in questo momento difficile e imprevedibile nella sua specificità, certamente. Porgiamo le condoglianze alle famiglie di coloro che sono deceduti e ci proponiamo di essere attivamente ed efficacemente a fianco di tutta la gente, le aree e i Comuni che sono stati danneggiati. Occorre ingenerare una politica nei confronti del dissesto idrogeologico; una politica di gestione delle risorse idriche e di tutti i corsi d'acqua. Certamente, una precipitazione così concentrata in così poco tempo è in ogni caso estremamente difficile da gestire; tutto quello che può essere fatto per mitigare gli effetti di questi eventi dev'essere fatto e credo che questo sia un impegno che ci assumiamo e siamo certi di vedere che sia comune su questo fronte in ogni caso e da ogni posizione di governo, a livello nazionale e locale. Su questo, come sempre, saremo determinati e coerenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u48">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg115">Prima di proseguire, a nome dell'Assemblea, la Presidenza si unisce al cordoglio delle famiglie delle vittime delle Marche.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg116">Invito l'Assemblea a osservare un minuto di silenzio.</seg>
+               <incident type="action">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi e osservano un minuto di silenzio.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg117">Credo che questo momento di silenzio e di dolore sia anche un'occasione di riflessione molto seria e profonda su quanto accaduto e su cosa occorre fare perché ciò non si ripeta.</seg>
+            </u>
+            <note type="speaker">LANNUTTI (UpC-CAL-Alt-PC-AI-Pr.SMART-IdV)</note>
+            <u ana="#regular"
+               who="#LannuttiElio"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u49">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg118">Signor Presidente, anche il Gruppo Costituzione, Ambiente, Lavoro esprime solidarietà ai cittadine delle Marche per questa immane, ennesima tragedia. Vorrei congedarmi da questa alta Assemblea segnalando, con questo ultimo intervento, l'ennesimo scandalo di una serie infinita che ha caratterizzato il "Governo dei migliori" presieduto da Draghi in questi diciotto mesi di Governo, caratterizzati da 55 voti di fiducia, a conferma dell'esproprio delle funzioni e delle prerogative che la Costituzione assegna alle Camere, con i parlamentari delle Commissioni scippati delle loro funzioni da un Esecutivo diventato terza Camera. Parlo dello scandalo Alitalia-ITA, la storica compagnia di bandiera passata dell'azionariato pubblico IRI all'amministrazione straordinaria ministeriale fino al 2009, quando la cordata dei "capitani coraggiosi" riuscì ad affossarla definitivamente; per poi arrivare al 2020, quando fu trasformata nella nuova società ITA Airways, con migliaia di lavoratori licenziati e buttati in mezzo a una strada. Siamo la patria del turismo e ci priviamo di una compagnia di bandiera. Un articolo pubblicato oggi su «Il Fatto Quotidiano» titola: «ITA: il MEF incasserà 350 milioni dai soci ma verserà 1,35 miliardi». È il solito capolavoro del professor Giavazzi e dei suoi bravi di Palazzo. Certares si propone di comprare il 51 per cento di ITA, lasciando al MEF il 49 per cento, per 950 milioni. Chi guarda più a fondo questa operazione, invece di farlo con superficialità, potrebbe pensare che il MEF, quindi lo Stato, incasserebbe quasi 1 miliardo. Scavando nelle clausole contrattuali, come per i derivati avariati che hanno intossicato i conti pubblici, favorendo le banche d'affari e dorate carriere, si noterà che tra ricapitalizzazione e aumenti di capitale il MEF incasserà 350 milioni, ma sarà chiamato a sborsare 1,35 miliardi, tra soldi versati e quelli delle gare. Signora Presidente, termino il mio intervento ringraziando lei, gli Uffici, i funzionari e tutti i colleghi e le colleghe con cui abbiamo condiviso quattro anni e mezzo di legislatura, e rivolgendo un saluto particolare ai lavoratori e alle lavoratrici di Alitalia (come a tutti gli altri lavoratori, ma soprattutto a loro), trattati dal Governo come merce avariata.</seg>
+            </u>
+            <note type="speaker">DRAGO (FdI)</note>
+            <u ana="#regular"
+               who="#DragoTizianaCarmelaRosaria"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u50">
+               <note>Domando di parlare.</note>
+               <note>PRESIDENTE. Ne ha facoltà.</note>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg119">Signor Presidente, il mio sarà più un discorso rivolto alla vita, in quanto sarà a tutti nota la comunicazione di qualche ora fa del ministro Bianchi, in merito al fatto che nel 2031 si prevede una perdita - che ha definito come un problema micidiale - di 1,4 milioni di alunni nella scuola italiana. Prendo spunto da questo per dire semplicemente che la mia attività parlamentare - è stato il mio primo mandato, che qui si conclude - è nata proprio in seguito all'impegno con il forum delle associazioni familiari di Catania e provincia, di cui ero presidente (e che saluto), e con altre associazioni in ambito familiare. La scuola è sempre stata l'attenzione primaria, per quanto mi riguarda, ma anche il tema demografico. Facciamo attenzione: spesso si associa semplicemente la denatalità - termine a volte usato impropriamente - al problema dell'emigrazione giovanile. Su questo tema in questa legislatura ho depositato una serie di atti, tra cui una mozione e un disegno di legge delega su cui sono stati fatti dei commenti, sottolineandone la complessità rispetto alla soluzione del problema. Credo che il problema demografico sia sistemico e che non possa essere risolto con piccoli emendamenti o piccoli interventi. Cosa voglio dire con ciò? Nel congedarmi, faccio questo dono di questo tema all'Assemblea e ai colleghi che verranno rieletti, in maniera tale che possa servire da spunto di lavoro, così come la riforma dell'ISEE, già depositata come unico atto presente in Senato (se non forse un altro successivo), che non vuole chiaramente essere esaustivo, ma che è sicuramente una base di partenza. Colgo l'occasione per esprimere anche un desideratum, ossia che con la prossima legislatura si possa acconsentire alla mobilità di quei docenti (parliamo di poche migliaia) che da quindici-vent'anni e oltre sono sparsi in Italia per una gestione chiaramente critica, che non sto qua a raccontare. Per quanto riguarda, il sisma sono d'accordo sul discorso di realizzare una legge quadro. Mi permetto di dare un altro suggerimento per quanto riguarda l'infanzia: la Commissione bicamerale per l'infanzia e l'adolescenza, che non può legiferare e che non ha un potere redigente, a mio avviso dev'essere resa permanente. Ritengo assolutamente auspicabile accorparla alla Commissione istruzione e quindi al relativo Ministero. PRESIDENTE. Devo invitarla a concludere, senatrice Drago. DRAGO (FdI). Concludo ringraziando Fratelli d'Italia per non avermi ricandidata, non solo nella modalità, perché l'ho saputo solo qualche ora prima ma, perché mi ha dato lo spunto per riflettere su cosa sono la politica e partitismo. Non vorrei assolutamente che le giovani generazioni la pensassero come un po' tutti, cioè che la politica è sporca, perché è l'arte più nobile e ritengo ancora che sia così. Il partitismo invece è un problema serio, perché, se il partito, anziché essere il mezzo, diventa il fine (come la riforma del numero dei parlamentari e l'attuale legge elettorale dimostrano), allora...</seg>
+               <incident type="sound">
+                  <desc>Il microfono si disattiva automaticamente</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg120">PRESIDENTE. Le devo chiedere di concludere, senatrice Drago.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg121">Ringrazio tutti i colleghi, chiaramente anche il MoVimento 5 Stelle, che mi candidò. Con questo, concludo dicendo che rimane ferma per me sempre la convinzione che più del partito è importante la figura, come del resto è dettato dell'articolo 67 della Costituzione, del progetto politico di ogni senatore, che si collega e trova radicamento nel partito.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u51">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg122">Direi che possiamo considerare conclusi non solo i lavori di questa seduta, ma i lavori di questa Assemblea.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg123">Naturalmente, rimangono agli atti tutti i buoni propositi sul Parlamento e su quello che è tenuto a fare per il prosieguo.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#RossomandoAnna"
+               xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.u52">
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg124">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg125">Il Senato è convocato a domicilio.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-20-LEG18-upper-Sed-465.seg126">La seduta è tolta (ore 16,48).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
