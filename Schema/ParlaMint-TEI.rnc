@@ -266,7 +266,7 @@ pb = element pb { global.atts, corresp.att, source.att, empty }
 comment =
   note
   | element gap {
-      attribute reason { "editorial" | "inaudible" },
+      attribute reason { "editorial" | "inaudible" | "foreign" },
       incidentDesc+
     }
   | element kinesic {

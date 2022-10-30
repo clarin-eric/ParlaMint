@@ -2374,7 +2374,7 @@
           </egXML>
           </p>
 
-          <p>The other reason for omitting a part of the transcription can be an editorial
+          <p>Another reason for omitting a part of the transcription can be an editorial
           decision of the corpus compilers. The transcript can, for example, contain material
           that they do not want to include in the corpus, such as tables, or parts of the
           transcription that for technical reasons cannot be converted to text. In these
@@ -2384,6 +2384,27 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-gap-editorial">
             <gap reason="editorial">
               <desc xml:lang="en">Table omitted</desc>
+            </gap>
+          </egXML>
+          </p>
+          
+          <p>Sometimes a passage of the transcription is in a foregin language, and, esp. as
+          the corpus is to be linguistically annotated, the passage is best left out of the
+          transcription proper. This can be achieved by encoding it as a gap in the
+          transcription with the reason <val>foreign</val>, while the <gi>desc</gi> should
+          contain the omitted text. In this case therefore the description does not give the
+          reason for the ommission, but rather the text that has been ommited.
+
+	  The language of the foreign passage should be indicated on the <att>xml:lang</att>
+	  attribute of <gi>desc</gi>. If the language has not been identified, the ISO 639 code
+	  for undetermined language <q>und</q> can be used, while in cases where more than one
+	  language is used in such a passage, the <q>mul</q> code for multiple languages is
+	  used.  All languages used on <gi>desc</gi> should of course be documented in the
+	  <gi>langUsage</gi> element. Below an example:
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-gap-foreign">
+            <gap reason="foreign">
+              <desc xml:lang="und">Huliniahuanngittunga</desc>
             </gap>
           </egXML>
           </p>
