@@ -14,9 +14,13 @@
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
 
-  <!-- Output label for MPs and non-MPs (in vertical output) --> 
+  <!-- Output label for MPs and non-MPs (in vertical or metadata output) --> 
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="nonmp-label">notMP</xsl:param>
+  
+  <!-- Output label for a coalition and opposition party (in vertical or metadata output) --> 
+  <xsl:param name="coalition-label">Coalition</xsl:param>
+  <xsl:param name="opposition-label">Opposition</xsl:param>
   
   <!-- Key in value of element ID -->
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
@@ -293,14 +297,15 @@
     </xsl:choose>
   </xsl:function>
   
-  <!-- Output coalition/opposition/- of the speaker's party when speaking -->
+  <!-- Output coalition/opposition of the speaker's party when speaking -->
   <xsl:function name="et:party-status" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
     <xsl:variable name="relations" select="$rootHeader//tei:relation
 					   [@name='coalition' or @name='opposition']"/>
     <xsl:choose>
       <xsl:when test="not($relations/self::tei:relation)">
-	<xsl:message>ERROR: coalition / opposition info found in corpus</xsl:message>
+	<xsl:message>ERROR: no coalition / opposition info found in corpus</xsl:message>
+	<xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
 	<!-- Relation in the correct time-frame, should be only 1 -->
@@ -336,13 +341,17 @@
 	  <xsl:for-each select="$relation/tei:relation[@name = 'coalition']/tokenize(@mutual)">
 	    <xsl:variable name="relation-party" select="."/>
 	    <xsl:for-each select="tokenize($org-refs, ' ')">
-	      <xsl:if test="$relation-party = .">Coalition </xsl:if>
+	      <xsl:if test="$relation-party = .">
+		<xsl:value-of select="concat($coalition-label, '&#32;')"/>
+	      </xsl:if>
 	    </xsl:for-each>
 	  </xsl:for-each>
 	  <xsl:for-each select="$relation/tei:relation[@name = 'opposition']/tokenize(@active)">
 	    <xsl:variable name="relation-party" select="."/>
 	    <xsl:for-each select="tokenize($org-refs, ' ')">
-	      <xsl:if test="$relation-party = .">Opposition </xsl:if>
+	      <xsl:if test="$relation-party = .">
+		<xsl:value-of select="concat($opposition-label, '&#32;')"/>
+	      </xsl:if>
 	    </xsl:for-each>
 	  </xsl:for-each>
 	</xsl:variable>
