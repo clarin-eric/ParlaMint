@@ -134,19 +134,24 @@
           and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
           the top level elements and their attributes and the main pointing attributes;</item>
 
-          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on encoding the
-          rich corpus metadata, such as information on speakers and political parties;</item>
+          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on the stucture and
+	  encoding of the corpus metadata, such as the title information, documenting the source
+	  of the corpus, taxonomies used etc.;</item>
           
-          <item><ref target="#chp-transcript">Chapter 5</ref> treats the encoding of the
+          <item><ref target="#chp-speaker">Chapter 5</ref> explains how and what information
+          must be encoded about the persons giving the speeches and the (political)
+          organisations they belong to;</item>
+          
+          <item><ref target="#chp-transcript">Chapter 6</ref> treats the encoding of the
           transcripts, including speeches and transcriber notes;</item>
 
-          <item><ref target="#chp-linguistic">Chapter 6</ref> details the addition of
+          <item><ref target="#chp-linguistic">Chapter 7</ref> details the addition of
           linguistic annotations to the corpus;</item>
 
-          <item><ref target="#chp-validation">Chapter 7</ref> introduces scripts to finalise,
+          <item><ref target="#chp-validation">Chapter 8</ref> introduces scripts to finalise,
           validate and convert a ParlaMint corpus to other formats;</item>
 
-          <item><ref target="#chp-contributing">Chapter 8</ref> gives instructions on how to
+          <item><ref target="#chp-contributing">Chapter 9</ref> gives instructions on how to
           contribute samples of a ParlaMint corpus to GitHub;</item>
 
           <item><ref target="#schema">Appendix A</ref> gives the formal specification of
@@ -1356,10 +1361,11 @@
             </egXML>
             </p>
             
-            <p>Given the complexity and importance that the content of <gi>listOrg</gi> and
-            <gi>listPerson</gi> have in ParlaMint, we treat them separately, in the Section
-            on <ref target="#sec-orgs">Organisations</ref> and in the Section on <ref
-            target="#sec-speakers">Speakers</ref>.
+            <p>Given the importance that ParlaMint gives to the information on speakers and
+            their affiliations to (political) organisations, as well as the richness of this
+            information, the content of <gi>listOrg</gi> and <gi>listPerson</gi> is further
+            explained in a separate Chapter on <ref target="#chp-speaker">Speakers and their
+            organisations</ref>.
             </p>
             
         </div>
@@ -1421,14 +1427,27 @@
           containing the <gi>name</gi> of the person responsible for the change, and a
           free-text description of the change.</p>
         </div>
+      </div>
+      
+      <div xml:id="chp-speaker">
+        <head>Speakers and their organisations</head>
 
+	<p>ParlaMint places considerable emphasis of including in the corpora significant
+	information about the persons giving the speeches contained in the transcriptions.
+	This is why, even though this information is encoded in the <gi>particDesc</gi> element
+	of the <gi>teiHeader</gi> of the corpus root (cf. the Chapter on <ref
+	target="#sec-particDesc">Participant description</ref>) we treat it here in a separate
+	Chapter. Below we first discuss the information on persons, including how they are
+	affiliated with (political) organisation, and then explain the encoding of these
+	organisations.</p>
+	
         <div xml:id="sec-speakers">
           <head>Speakers</head>
           
-          <p>As mentioned, the information on speakers is given in the
-          <gi>listPerson</gi> element of the participant description. This element then
-          contains the list of <gi>person</gi> elements, each of which gives information
-          on an individual speaker, as the example below illustrates:
+          <p>The information on speakers is given in the <gi>listPerson</gi> element of the
+          participant description. This element then contains the series of <gi>person</gi>
+          elements, each of which gives information on an individual speaker, as the example
+          below illustrates:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
             <listPerson>
@@ -1690,13 +1709,12 @@
         <div xml:id="sec-orgs">
           <head>Organisations</head>
           
-          <p>Information on the the government, parliament, political parties or
-          parliamentary groups of political parties, as well as other
-          optional parlimanentary structures (e.g. ministries, committees) is given in
-          the corpus <gi>listOrg</gi>
-          element, which then contains a list of <gi>org</gi> elements, each giving information about
-          one organisation, followed by the <gi>listRelations</gi> element giving a
-          list of relations between organisations:
+	  <p>Information on the the government, parliament, political parties or parliamentary
+	  groups of political parties, as well as other optional parliamentary structures
+	  (e.g. ministries, committees) is given in the corpus root <gi>listOrg</gi> element,
+	  which then contains a series of <gi>org</gi> elements, each giving information about
+	  one organisation. The organisations are followed by the <gi>listRelations</gi>
+	  element giving a list of relations between organisations:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
             <listOrg>
@@ -2075,8 +2093,6 @@
             </p>
           </div>
         </div>
-        
-        
       </div>
 
       <div xml:id="chp-transcript">
