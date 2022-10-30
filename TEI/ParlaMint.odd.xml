@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-10-28</date>
+        <date>2022-10-30</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-10-28">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
+      <change when="2022-10-30">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -67,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-10-28</docDate>
+        <docDate>2022-10-30</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1522,6 +1522,14 @@
             which the person has the specified role. For MPs, as is the case above, this will
             be the ID of the parliament or one of the two houses (cf. the Section on <ref
             target="#sec-parliament">The parliament organisations</ref>).</p>
+
+	    <p>The example above also shows the use of the classification attribute
+	    <att>ana</att>, which points to the specification of the legislative period
+	    in which the person was affiliated with the specified organisation. Such
+	    legislative periods are typically given as <gi>event</gi> elements inside the
+	    government or parliament organisations, as futher explained in the Sections on
+	    the <ref target="#sec-government">government</ref> and <ref
+	    target="#sec-parliament">parliament</ref> organisations.</p>
             
             <p>The affiliation element also has the usual <att>from</att> and
             <att>to</att> attributes, i.e. from and to when the person was affiliated
@@ -1612,7 +1620,7 @@
               <code>affiliation/@role="head"</code> &amp;
               <code>affiliation/@role="member"</code> →
               <code>org/@role="government"</code>
-              (cf. Section on <ref target="#sec-government">The government organisation)</ref>
+              (cf. Section on <ref target="#sec-government">The government organisation</ref>)
               </item>
               
               <item>Deputy primer minister:
@@ -1675,6 +1683,7 @@
               
             </list>
             </p>
+
           </div>
         </div>
 
