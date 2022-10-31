@@ -510,14 +510,10 @@
         <valList type="closed">
           <valItem ident="inaudible"/>
           <valItem ident="editorial"/>
+          <valItem ident="foreign"/>
         </valList>
       </attDef>
     </attList>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <gap quantity="4" unit="chars" reason="illegible"/>
-      </egXML>
-    </exemplum>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <gap reason="inaudible">
@@ -531,6 +527,13 @@
           <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
           <desc xml:lang="en">Quoted printed matter omited</desc>
 	</gap>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <gap reason="foreign">
+          <desc xml:lang="und">Huliniahuanngittunga</desc>
+        </gap>
       </egXML>
     </exemplum>
   </elementSpec>
