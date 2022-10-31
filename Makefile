@@ -524,6 +524,14 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 	git -C ${DATA_XX_REP} pull --all
 
 
+##!create-UD-SYN-taxonomy##
+create-taxonomy-UD-SYN:
+	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
+	git -C Scripts/UD-docs checkout pages-source
+	git -C Scripts/UD-docs pull
+	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.xml
+
+
 ######################Generating and ingesting TSV added metadata
 
 ## Generate TSV files for party information on the basis of the corpus root files.
