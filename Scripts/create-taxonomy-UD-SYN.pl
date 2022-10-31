@@ -48,7 +48,12 @@ $dom->setDocumentElement($root_node);
 my ($TEINS,$XMLNS) = ('http://www.tei-c.org/ns/1.0', 'http://www.w3.org/XML/1998/namespace');
 $root_node->setNamespace($TEINS,'',1);
 $root_node->setNamespace($XMLNS,'xml',0);
-add_desc_node($root_node,'desc','en','UD syntactic relations');
+my $taxonomy_desc = add_desc_node($root_node,'desc','en','UD syntactic relations');
+$taxonomy_desc->appendText(': All defined syntactic relations of the ');
+my $ref=$taxonomy_desc->addNewChild(undef,'ref');
+$ref->appendText('Universal Dependendencies');
+$ref->setAttribute('target','https://universaldependencies.org/');
+$taxonomy_desc->appendText(' project');
 
 $inDir = File::Spec->rel2abs($inDir);
 $outFile = File::Spec->rel2abs($outFile);
@@ -148,7 +153,7 @@ sub fill_xml_taxonomy {
   my ($node,$rels) = @_;
   for my $rel (sort keys %{$rels//{}}){
     my $category = $node->addNewChild(undef,'category');
-    $category->appendChild(XML::LibXML::Comment->new(' languages: '.join(' ',@{$rels->{$rel}->{langs}}).' ')) unless $rels->{$rel}->{is_common};
+    $category->appendChild(XML::LibXML::Comment->new(' languages: '.join(' ',sort @{$rels->{$rel}->{langs}}).' ')) unless $rels->{$rel}->{is_common};
     my $term = $rels->{$rel}->{term};
     my $desc = $rels->{$rel}->{desc};
     my $id = $term;
@@ -166,8 +171,8 @@ sub to_string {
     element => {
         inline   => [qw//], # note
         block    => [qw/category taxonomy/],
-        compact  => [qw/catDesc term desc/],
-        preserves_whitespace => [qw//],
+        compact  => [qw/catDesc term/],
+        preserves_whitespace => [qw/desc/],
         }
     );
   $pp->pretty_print($doc);
