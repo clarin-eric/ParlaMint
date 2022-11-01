@@ -261,6 +261,8 @@ temporal.atts =
   when.att
   | (attribute from { temporal.val },
      attribute to { temporal.val }?)
+  | (attribute from { temporal.val }?,
+     attribute to { temporal.val })
   | (attribute notBefore { temporal.val },
      attribute notAfter { temporal.val }?)
 
@@ -345,6 +347,7 @@ orgRole.val =
   ("country"
    | "republic"
    | "government"
+   | "ministry"
    | "parliament"
    | "politicalParty"
    | 

@@ -11,11 +11,11 @@
   exclude-result-prefixes="xsl tei et xs xi"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <!-- Directories must have absolute paths! -->
   <xsl:param name="sheet"/>
   <xsl:output method="xml" indent="yes"/>
-  
-  <xsl:key name="id" match="tei:*" use="@xml:id"/>
   
   <!-- Transform TSV into a XML variable -->
   <xsl:variable name="input">

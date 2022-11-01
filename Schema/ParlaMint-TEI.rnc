@@ -130,11 +130,7 @@ revisionDesc =
     global.atts,
     element change {
       attribute when { xsd:date },
-      name-header,
-      # The following doesn't work: group of "string" or "data" element
-      
-      # ref name="normalized-space.string"/
-      text
+      mixed { name-header* }
     }+
   }
 
@@ -270,7 +266,7 @@ pb = element pb { global.atts, corresp.att, source.att, empty }
 comment =
   note
   | element gap {
-      attribute reason { "editorial" | "inaudible" },
+      attribute reason { "editorial" | "inaudible" | "foreign" },
       incidentDesc+
     }
   | element kinesic {
