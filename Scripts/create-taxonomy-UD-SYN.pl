@@ -12,6 +12,9 @@ use XML::LibXML;
 use XML::LibXML::PrettyPrint;
 use File::Spec;
 
+#DEBUG:
+use Data::Dumper;
+
 
 sub usage {
   print STDERR ("Usage:\n");
@@ -66,8 +69,8 @@ if($langCodes){
 }
 
 
-my @commonRelFiles = glob "$inDir/_u-dep/*.md";
-my @countryRelFiles = map {glob "$inDir/_$_/dep/*.md"} keys %processLangs;
+my @commonRelFiles = sort {[split('/',$a)]->[-1] cmp [split('/',$b)]->[-1]} glob "$inDir/_u-dep/*.md";
+my @countryRelFiles = sort {[split('/',$a)]->[-1] cmp [split('/',$b)]->[-1]} map {glob "$inDir/_$_/dep/*.md"} keys %processLangs;
 
 
 my %relationList;
@@ -101,6 +104,8 @@ sub insert_relation {
     $rels->{$rel_part}->{subrel} //= {};
     insert_relation($rels->{$rel_part}->{subrel}, $is_common, $file, @_);
   } else {
+    my ($term,$desc) = get_relation_from_file($file);
+    return unless $term;
     if($is_common or $rels->{$rel_part}->{is_common}){
       $rels->{$rel_part}->{is_common} //= 1;
     } else {
@@ -109,24 +114,38 @@ sub insert_relation {
       my ($lang) = $file =~  /_([^_]*)\/dep\/.*.md/;
       push @{$rels->{$rel_part}->{langs}}, $lang;
     }
-    my ($term,$desc) = get_relation_from_file($file);
     $rels->{$rel_part}->{term} //= $term;
-    $rels->{$rel_part}->{desc} //= $desc;
-    ## TODO test if term and desc are equal in various files and corresponds to filename
+    $rels->{$rel_part}->{desc} //= {};
+    $rels->{$rel_part}->{desc}->{$desc} //= 0;
+    $rels->{$rel_part}->{desc}->{$desc} += 1;
+    $rels->{$rel_part}->{common_desc} = $desc if $is_common;
   }
 }
 
-#use Data::Dumper;print STDERR Dumper \%relationList;
 
 sub get_relation_from_file {
   my $file = shift;
   open my $fh, '<', $file or die "Can't open file $!";
   my $content = do { local $/; <$fh>};
   close $fh;
+  my $file_shortpath = $file;
+  $file_shortpath =~ s/^.*(_[^\/]*\/(?:dep\/)?[^\/]*\.md)$/$1/;
   my ($table) = $content =~ m/^\s*(?:.*?---)?(.*?title.*?)---.*$/s;
-  my ($term) = $table =~ m/title\s*:\s*'?([^']*)'?\s*\n/s;
+  my ($title) = $table =~ m/title\s*:\s*'?([^']*)'?\s*\n/s;
   my ($desc) = $table =~ m/shortdef\s*:\s*'?([^']*)'?\s*\n/s;
-  $term =~ tr/\x{0435}\x{0445}/ex/; # fixing obscure characters in hy/dep/aux-ex.md and hyw/dep/aux-ex.md
+  my $term = $title;
+  if($term =~ tr/\x{0435}\x{0445}/ex/){ # fixing obscure characters in hy/dep/aux-ex.md and hyw/dep/aux-ex.md
+    print STDERR "WARN: strange characters in title '$term'='",join('',map {sprintf('<0x%X>',ord($_))} split('',$title))," in $file_shortpath'\n";
+  }
+  if($term =~ tr/ -/::/){ # fixing obscure characters in hy/dep/aux-ex.md and hyw/dep/aux-ex.md
+    print STDERR "INFO: replacing characters in title '$title' to make term '$term' $file_shortpath\n";
+  }
+  my $test_filename = $term;
+  $test_filename =~ tr/:/-/;
+  if($file !~ m/\/${test_filename}_?.md/){
+    print STDERR "ERROR: title '$term' does not match filename $file_shortpath\n";
+    return;
+  }
   return ($term,$desc);
 }
 
@@ -150,17 +169,38 @@ sub add_desc_node {
 }
 
 sub fill_xml_taxonomy {
-  my ($node,$rels) = @_;
+  my ($node,$rels,$term_path) = @_;
+  $term_path //= '';
   for my $rel (sort keys %{$rels//{}}){
-    my $category = $node->addNewChild(undef,'category');
-    $category->appendChild(XML::LibXML::Comment->new(' languages: '.join(' ',sort @{$rels->{$rel}->{langs}}).' ')) unless $rels->{$rel}->{is_common};
     my $term = $rels->{$rel}->{term};
-    my $desc = $rels->{$rel}->{desc};
+    #print STDERR $term//'##',"=$rel\t";
+    if(!$term && %{$rels->{$rel}->{subrel}//{}} == 0){
+      print STDERR "WARN: skipping $term_path : $rel no info and no subrelations\n";
+      next;
+    }
+    if(!$term ){
+      print STDERR "ERROR: skipping $rel no info and no subrelations\n";
+      next;
+    }
+    $term //= $rel;
+    my $category = $node->addNewChild(undef,'category');
+    $category->appendChild(XML::LibXML::Comment->new(' languages: '.join(' ',sort @{$rels->{$rel}->{langs}//[]}).' ')) unless $rels->{$rel}->{is_common};
+
+    my ($desc) =  (
+                   $rels->{$rel}->{common_desc} ? ($rels->{$rel}->{common_desc}) : (),
+                   sort {
+                         $rels->{$rel}->{desc}->{$b} <=> $rels->{$rel}->{desc}->{$a}
+                         || length $b <=> length $a
+                       } keys %{$rels->{$rel}->{desc}}
+                   );
+    #if(keys %{$rels->{$rel}->{desc}} > 1){
+    #  print STDERR "$rel: ",Dumper($rels->{$rel}->{common_desc}),"\t",Dumper($rels->{$rel}->{desc}),"\n\t$desc\n===\n";
+    #}
     my $id = $term;
     $id =~ tr/:/_/;
     $category->setAttributeNS($XMLNS,'id',$id);
     add_desc_node($category,'catDesc','en',$term,$desc);
-    fill_xml_taxonomy($category,$rels->{$rel}->{subrel});
+    fill_xml_taxonomy($category,$rels->{$rel}->{subrel},$term);
   }
 }
 
