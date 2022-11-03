@@ -1,7 +1,5 @@
 # CONTRIBUTING in ParlaMint
 
-
-
 ## Git and GitHub
 
 Sample data should be pushed to the Data branch of the ParlaMint repository directly into the parliament folder (*`Data/ParlaMint-XX`*) in a flat structure of files.
@@ -113,17 +111,35 @@ sudo ln -s /opt/jing-20181222/bin/jing.jar /usr/share/java/jing.jar
 rm /tmp/jing-20181222.zip
 ```
 
-
 ### UD tools
 
 - Change directory to `Scripts` folder: `cd Scripts`
 - Clone UD tools repository: `git clone https://github.com/UniversalDependencies/tools.git`
 - Install Python regex library: `pip3 install --user regex`
 
-
-
-
-
 ## Local validation
 
 Running *`make help`* in the repository root folder provides a make targets list with a description.
+Once the set-up has been done, the corpus for country XX can be validated with the
+`validate-parlamint-XX` command. For the linguistically annotated version, `make conllu-XX` should
+also be run.
+
+## Submitting the completed corpora
+
+Once samples have been validated and incorporated into the ParlaMint GitHub repositroy, and the
+complete corpus validates locally, the directory with the complete corpus (e.g. `ParlaMint-XX.TEI`)
+should be compressed (either .zip or .tgz) into one file and put somewhere where the editors of the
+corpus can access it, e.g. on a local web server, WeTransfer or similar. Then the editors
+(@TomazErjavec and @matyaskopp) should be sent an email with instructions on how to download the
+corpus.
+
+The corpus should be structured according to the rules of ParlaMint, as explained in the [Section on
+Filenames and directory structure](https://clarin-eric.github.io/ParlaMint/#sec-files) of the
+Guidelines.
+
+Note that ParlaMint distinguishes two version of the corpus, the "plain text" one (stored in the
+`ParlaMint-XX.TEI` directory), and the linguistically annotated one (stored in the
+`ParlaMint-XX.TEI.ana` directory), where the root and component files and are marked with the `.ana`
+suffix. The two versions should be submitted separately, i.e. each in it own compressed file.
+
+

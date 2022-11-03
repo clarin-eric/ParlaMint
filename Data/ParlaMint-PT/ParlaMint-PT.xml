@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-PT" xml:lang="pt">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Portuguese parliamentary corpus ParlaMint-PT [ParlaMint SAMPLE]</title>
+            <title xml:lang="en" type="sub">Minutes of the Assembleia da República Portuguesa (2015-2022)</title>
+            <meeting ana="#parla.term #L.XII">XII Legislatura</meeting>
+            <meeting ana="#parla.term #L.XIII">XIII Legislatura</meeting>
+            <meeting ana="#parla.term #L.XIV">XIV Legislatura</meeting>
+            <respStmt>
+               <persName>Amália Mendes</persName>
+               <persName>Aida Cardoso</persName>
+               <persName>Rui Pereira</persName>
+               <persName>José Aires</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Centre of Linguistics of the University of Lisbon</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="2637"/>
+            <measure unit="words" quantity="246012"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022-10-28">2022-10-28</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="en">Minutes of the Assembleia da República of Portugal</title>
+               <publisher>Assembleia da República</publisher>
+               <idno type="URI">https://debates.parlamento.pt/catalogo/r3/dar</idno>
+               <date from="2015-01-07" to="2022-03-22">07.01.2015 - 22.03.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">No normalization of source texts was performed.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No hyphenation of source texts was performed.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">No quotation of source texts was performed.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">No segmentation of source texts was performed.</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="10"/>
+               <tagUsage gi="speeches" occurs="2637"/>
+               <tagUsage gi="words" occurs="246012"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-PT-taxonomy-parla.orientations.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Alameda da Universidade, 1600-214 Lisboa, Portugal</name>
+               <name type="city">Lisboa</name>
+               <name type="country" key="PT">Portugal</name>
+               <date from="2015-01-07" to="2022-03-22">07.01.2015 - 22.03.2022</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#Parliament" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PT-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-PT-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="pt" xml:lang="en">Portuguese</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-28">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_darl12sl04n036-09-01-2015.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_darl12sl04n039-16-01-2015.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_darl12sl04n042-28-01-2015.xml"/>
+</teiCorpus>
