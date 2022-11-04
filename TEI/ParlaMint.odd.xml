@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-10-22</date>
+        <date>2022-10-30</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,14 +48,13 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-10-22">Tomaž Erjavec: add minister organisation</change>
+      <change when="2022-10-30">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
       <change when="2022-05-18">Katja Meden: add ParlaMint examples in exemplums.</change>
       <change when="2022-05-16">Tomaž Erjavec: add section 3.5 on referring attributes.</change>
       <change when="2022-03-04">Matyáš Kopp: finish first pass through schemaSpecs.</change>
-      <change when="2022-02-21">Tomaž Erjavec: better schemaSpec.</change>
       <change when="2022-02-16">Tomaž Erjavec: first draft.</change>
     </revisionDesc>
   </teiHeader>
@@ -68,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-10-22</docDate>
+        <docDate>2022-10-30</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -135,19 +134,24 @@
           and the file-naming conventions a ParlaMint corpus has to meet; it also introduces
           the top level elements and their attributes and the main pointing attributes;</item>
 
-          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on encoding the
-          rich corpus metadata, such as information on speakers and political parties;</item>
+          <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on the stucture and
+	  encoding of the corpus metadata, such as the title information, documenting the source
+	  of the corpus, taxonomies used etc.;</item>
           
-          <item><ref target="#chp-transcript">Chapter 5</ref> treats the encoding of the
+          <item><ref target="#chp-speaker">Chapter 5</ref> explains how and what information
+          must be encoded about the persons giving the speeches and the (political)
+          organisations they belong to;</item>
+          
+          <item><ref target="#chp-transcript">Chapter 6</ref> treats the encoding of the
           transcripts, including speeches and transcriber notes;</item>
 
-          <item><ref target="#chp-linguistic">Chapter 6</ref> details the addition of
+          <item><ref target="#chp-linguistic">Chapter 7</ref> details the addition of
           linguistic annotations to the corpus;</item>
 
-          <item><ref target="#chp-validation">Chapter 7</ref> introduces scripts to finalise,
+          <item><ref target="#chp-validation">Chapter 8</ref> introduces scripts to finalise,
           validate and convert a ParlaMint corpus to other formats;</item>
 
-          <item><ref target="#chp-contributing">Chapter 8</ref> gives instructions on how to
+          <item><ref target="#chp-contributing">Chapter 9</ref> gives instructions on how to
           contribute samples of a ParlaMint corpus to GitHub;</item>
 
           <item><ref target="#schema">Appendix A</ref> gives the formal specification of
@@ -327,6 +331,30 @@
             <code>ParlaMint-BE.TEI/2015/ParlaMint-BE_2015-01-08-54.xml</code><lb/>
             <code>...</code><lb/>
           </eg>
+
+          The lingistically annotated version of the corpus is stored
+          separately, with the main directory and, as mentioned, the
+          corpus root and component filenames having the
+          additional suffix <code>.ana</code>, e.g.
+
+          <eg xml:id="exa-directories.ana"><lb/>
+            <code>ParlaMint-BE.TEI.ana/ParlaMint-BE.ana.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/ParlaMint-BE-listPerson.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/ParlaMint-BE-listOrg.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/ParlaMint-taxonomy-parla.legislature.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/ParlaMint-taxonomy-speaker_types.xml</code><lb/>
+            <code>ParlaMint-taxonomy-NER.xml</code><lb/>
+            <code>ParlaMint-taxonomy-UD.xml</code><lb/>
+            <code>...</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/2014/ParlaMint-BE_2014-06-19.ana.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/2014/ParlaMint-BE_2014-06-30.ana.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/2014/ParlaMint-BE_2014-07-17.ana.xml</code><lb/>
+            <code>...</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/2015/ParlaMint-BE_2015-01-06-54.ana.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/2015/ParlaMint-BE_2015-01-07-54.ana.xml</code><lb/>
+            <code>ParlaMint-BE.TEI.ana/2015/ParlaMint-BE_2015-01-08-54.ana.xml</code><lb/>
+            <code>...</code><lb/>
+          </eg>
           </p>
         </div>
       </div>
@@ -416,16 +444,14 @@
             the metadata.
             </item>
             
-            <item>ParlaMint also makes a lot of use of temporal information, i.e. to
-            determine when a session took place or from (and maybe to) when a certain
-            person was an MP. To specify a date or time <ref
-            target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> should be used,
-            for ParlaMint typically gives just the date, e.g. "2022-04-01". Temporal values
-            are usually stored in the <att>when</att>, <att>from</att> and <att>to</att>
-            attributes of various elements. It should be noted that in cases when and interval
-            is specified with <att>from</att> and <att>to</att>, if either or both attributes
-            are missing, then the inference is that the information holds from and/or to
-            the extent of the dates that the corpus covers.</item>
+            <item>Temporal, i.e. time-related information is typically stored in the
+            <att>when</att>, <att>from</att> and <att>to</att> attributes of various
+            elements. To specify a date or time as the value of these attributes,
+            formatting according to the <ref
+            target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> standard should
+            be used, e.g. <val>2022-04-01</val> for the 1st of April 2022. More
+            information on temporal attributes is given in the Section on <ref
+            target="#sec-temporal">Temporal attributes</ref>.</item>
           </list>
           </p>
         </div>
@@ -572,6 +598,35 @@
           should be always consulted.</p>
         </div>
 
+        <div xml:id="sec-temporal">
+          <head>Temporal attributes</head>
+
+          <p>ParlaMint makes a lot of use of temporal information, e.g. to determine when
+          a session took place or the period when a certain person was an MP. As mentioned
+          in the Section on <ref target="#sec-standard">Standard values</ref>, the <ref
+          target="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</ref> format should be
+          used to specify the dates or times.</p>
+          
+          <p>The following attributes are used to specify temporal information:
+
+          <list>
+            <item>The <att>when</att> attribute is used when the temporal information
+            refers to a point in time, typically a date, and is used e.g. to give the date
+            when the corpus was published, or when a change in the corpus was made.</item>
+            
+            <item>The <att>from</att> and <att>to</att> attributes give the starting and
+            ending date or time of an interval, e.g. the time period the corpus covers, or
+            the period when a person was an MP. If only one of the two attributes is
+            present, then the assumption is that this interval extends at least to the
+            start (if <att>from</att> is missing) or after the end (if <att>to</att> is
+            missing) of time period that the particular ParlaMint corpus covers. Similary,
+            if both attributes are missing, the assumption is that the interval covers the
+            complete time period of the ParlaMint corpus.</item>
+            
+          </list>
+          </p>
+        </div>
+        
       </div>
       
       <div xml:id="sec-metadata">
@@ -1306,234 +1361,577 @@
             </egXML>
             </p>
             
-            <p>The two section below detail the kind of information ParlaMint requires and allows
-            to describe the organisations and persons.</p>
+            <p>Given the importance that ParlaMint gives to the information on speakers and
+            their affiliations to (political) organisations, as well as the richness of this
+            information, the content of <gi>listOrg</gi> and <gi>listPerson</gi> is further
+            explained in a separate Chapter on <ref target="#chp-speaker">Speakers and their
+            organisations</ref>.
+            </p>
             
-            <div xml:id="sec-orgs">
-              <head>Organisations</head>
-              
-              <p>Information on the the government, parliament, political parties or
-              parliamentary groups of political parties, as well as other
-              optional parlimanentary structures (e.g. ministries, committees) is given in
-              the corpus <gi>listOrg</gi>
-              element, which then contains a list of <gi>org</gi> elements, each giving information about
-              one organisation, followed by the <gi>listRelations</gi> element giving a
-              list of relations between organisations:
+        </div>
+          
+          <div xml:id="sec-langUsage">
+            <head>Language usage</head>
+            
+            <p>The language usage, <gi>langUsage</gi> is the fourth and last element of the
+            profile description of a corpus root and defines the languages that are used in
+            the corpus. Typically the language use will define (bilingually) only two
+            languages, the local language and English, as the language used in the metadata,
+            for example:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langUsage">
+              <langUsage>
+                <language ident="sl" xml:lang="sl">slovenski</language>
+                <language ident="en" xml:lang="sl">angleški</language>
+                <language ident="sl" xml:lang="en">Slovenian</language>
+                <language ident="en" xml:lang="en">English</language>
+              </langUsage>
+            </egXML>
+            </p>
+            
+            <p>In cases where the transcription contains more than one language, the
+            percentage of their use can also be indicated in the <att>usage</att> element of
+            the <gi>language</gi> elements, as illustrated in the example below:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langusage2">
+              <langUsage>
+                <language ident="en" xml:lang="en">English</language>
+                <language ident="en" xml:lang="nl">Engels</language>
+                <language usage="45" ident="nl" xml:lang="en">Dutch</language>
+                <language usage="45" ident="nl" xml:lang="nl">Nederlands</language>
+                <language usage="55" ident="fr" xml:lang="en">French</language>
+                <language usage="55" ident="fr" xml:lang="nl">Frans</language>
+              </langUsage>
+            </egXML>
+            </p>
+          </div>
+        </div>
+        
+        <div xml:id="sec-revisionDesc">
+          <head>Revision description</head>
+          <p>The revision description, <gi>revisionDesc</gi> is the fourth, and last
+          element of the TEI header. It is an optional element that can appear in the
+          <hi>corpus root or component</hi>, and documents the revisions made in the corpus
+          or component. Its structure is illustrated below:
+          
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-revisionDesc">
+            <revisionDesc>
+              <change when="2021-06-11">
+              <name>Tomaž Erjavec</name>: Finalized encoding.</change>
+              <change when="2021-05-28">
+              <name>Tomaž Erjavec</name>: Built corpus.</change>
+            </revisionDesc>
+          </egXML>
+          The revision description consists of a series of <gi>change</gi> elements, with
+          the attribute <att>when</att> giving the date of the change, and the content
+          containing the <gi>name</gi> of the person responsible for the change, and a
+          free-text description of the change.</p>
+        </div>
+      </div>
+      
+      <div xml:id="chp-speaker">
+        <head>Speakers and their organisations</head>
 
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
-                <listOrg>
-                  <org>...</org>
-                  <org>...</org>
-                  <org>...</org>
+	<p>ParlaMint places considerable emphasis of including in the corpora significant
+	information about the persons giving the speeches contained in the transcriptions.
+	This is why, even though this information is encoded in the <gi>particDesc</gi> element
+	of the <gi>teiHeader</gi> of the corpus root (cf. the Chapter on <ref
+	target="#sec-particDesc">Participant description</ref>) we treat it here in a separate
+	Chapter. Below we first discuss the information on persons, including how they are
+	affiliated with (political) organisation, and then explain the encoding of these
+	organisations.</p>
+	
+        <div xml:id="sec-speakers">
+          <head>Speakers</head>
+          
+          <p>The information on speakers is given in the <gi>listPerson</gi> element of the
+          participant description. This element then contains the series of <gi>person</gi>
+          elements, each of which gives information on an individual speaker, as the example
+          below illustrates:
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
+            <listPerson>
+              <person xml:id="AccettoMatej">
+                <persName>
+                  <surname>Accetto</surname>
+                  <forename>Matej</forename>
+                </persName>
+                <sex value="M"/>
+              </person>
+              ...
+            </listPerson>
+          </egXML>
+
+          Each <gi>person</gi> must have an <att>xml:id</att> attribute, so that it can
+          be referred to from the transcription. The person name, <gi>persName</gi> gives
+          the name of the person which is further decomposed into the person
+          <gi>surname</gi>(s), <gi>forename</gi>(s) and possibly <gi>addName</gi>. The
+          person must also have the <gi>sex</gi> element, with the <att>value</att>
+          attribute being one of the controlled values: <val>M</val> for male,
+          <val>F</val> for female, <val>O</val> for other, <val>N</val> for none or
+          <val>U</val> for unknown.</p>
+
+          <p>The person element can also contain other optional information, i.e. the
+          date and place of <gi>birth</gi> (and <gi>death</gi>), their official Web
+          page, link(s) to Wikipedia, their VIAF, or photo, as illustrated below:
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-personextra">
+            <person xml:id="SayeedaWarsi">
+              <persName>
+                <forename>Sayeeda</forename>
+                <surname>Warsi</surname>
+              </persName>
+              <sex value="F"/>
+              <birth when="1971-03-28">
+                <placeName ref="https://www.geonames.org/2651286/">Dewsbury</placeName>
+              </birth>
+              <idno type="URI" subtype="contact">https://members.parliament.uk/member/3839/contact</idno>
+              <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Sayeeda_Warsi,_Baroness_Warsi</idno>
+              <idno type="URI" subtype="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Sayeeda_Warsi</idno>
+              <idno type="URI" subtype="viaf">http://viaf.org/viaf/33149912470406211798</idno>
+              <figure>
+                <graphic url="https://api.parliament.uk/photo/Paa3j0vS.jpg?crop=CU_1:1"/>
+              </figure>
+            </person>
+          </egXML>
+          </p>
+
+          <div xml:id="sec-affiliation">
+            <head>Speaker affiliations</head>
+
+            <p>And important element of a person is <gi>affiliation</gi>, which associates
+            the speakers with organisations, i.e. it specifies who is a member of the
+            government, parliament, a parliamentary group of political parties<note>Note
+            that parliaments also have unaffiliated (or independent) MPs,
+            that can either belong to a special <q>unaffiliated</q> parliamentary group
+            or don't belong to any parliamentary group. For the former, they are simply
+            not affiliated to any parliamentary group. For the latter, an
+            <q>unaffiliated</q> parlimentaryGroup organisation must be created, and such
+            MPs are affiliated with it as members.</note>
+            
+            or political parties themselves, as well as who holds a relevant office,
+            e.g. that they are the president, chairman, minister etc. in or of a given
+            organisation.
+
+            The following example shows the use of the <gi>affiliation</gi> element for
+            specifying membership in organisations:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
+              <person xml:id="BahŽibertAnja">
+                <persName>
+                  <forename>Anja</forename>
+                  <surname>Žibert</surname>
+                </persName>
+                <sex value="F"/>
+                <affiliation role="member"
+                             ref="#parliamentSI"
+                             from="2014-08-01"
+                             to="2018-06-21"
+                             ana="#DZ.7"/>
+                <affiliation role="member"
+                             ref="#parliamentSI"
+                             from="2018-06-22"
+                             ana="#DZ.8"/>
+              </person>
+            </egXML>
+            
+            The formal type of affiliation is given in the <att>role</att> attribute, in this
+            case <val>member</val>. The <att>ref</att> attribute points to the ID of the
+            organisation (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) in
+            which the person has the specified role. For MPs, as is the case above, this will
+            be the ID of the parliament or one of the two houses (cf. the Section on <ref
+            target="#sec-parliament">The parliament organisations</ref>).</p>
+
+	    <p>The example above also shows the use of the classification attribute
+	    <att>ana</att>, which points to the specification of the legislative period
+	    in which the person was affiliated with the specified organisation. Such
+	    legislative periods are typically given as <gi>event</gi> elements inside the
+	    government or parliament organisations, as futher explained in the Sections on
+	    the <ref target="#sec-government">government</ref> and <ref
+	    target="#sec-parliament">parliament</ref> organisations.</p>
+            
+            <p>The affiliation element also has the usual <att>from</att> and
+            <att>to</att> attributes, i.e. from and to when the person was affiliated
+            with the organisation. Affiliation can also have the classification
+            <att>ana</att> attribute, which here points to the definition of the
+            legislative period in which the person was affiliated with the specified
+            organisation.</p>
+            
+            <p>The <att>role</att> attribute can have as its value one of the values
+            given by the ParlaMint schema. For backward compatibility with ParlaMint I
+            corpora, there are some roles that are only used by one corpus (cf. the
+            definition of <att>role</att> for <gi>affiliation</gi>), but the main ones
+            that should be used are:
+            
+            <list>
+              
+              <item><val>member</val> specifies that a person is a member of the
+              organisation</item>
+              
+              <!--item><val>representative</val> specifies that a person represents an
+                  organisation and it used to connect persons to parliamentary groups, i.e. to
+                  <gi>org</gi> elements with <att>role</att> =
+                  <val>parliamentaryGroup</val></item-->
+              
+              <item><val>head</val> is used for the lead person in an organisation, regardless
+              of how this role is named in the specific country and for the specific
+              organisation, i.e. it can be used for the queen (head of the <val>country</val>
+              organisation), president (head of the <val>republic</val> organisation), prime
+              minister (head of <val>goverment</val>), minister (head of <val>ministry</val>),
+              chairperson (head of <val>committee</val>), etc.</item>
+              
+              <item><val>deputyHead</val> is the deputy head of the organisation, again,
+              regardless of how this role is named in the specific country and for the specific
+              organisation, i.e. it is used for the vice president, deputy chairperson,
+              etc.</item>
+
+              <item><val>minister</val> is used to indicate that the person is the minister
+              in the government. Note that this only says that they are a minister, and
+              when.  To encode what they are a minister of, the ministry organisation needs
+              to be created, and the minister associated with it with the <val>head</val>
+              role.</item>
+            </list>
+            </p>
+
+            <p>Because the roles are quite generic, ParlaMint also allows to specify the
+            exact name of the affiliation role for a particular country or region using the
+            <gi>roleName</gi> element, preferably both in the local language, as well as in
+            English, as illustrated in the following example, which specifies that somebody
+            is a minister, and also what they are a minster of:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-roleName">
+              <affiliation role="minister" ref="#GOV" from="2020-08-01">
+                <roleName xml:lang="sl">Minister za obrambo</roleName>
+                <roleName xml:lang="en">Minister of Defence</roleName>
+              </affiliation>
+              <affiliation role="head" ref="#MinistryOfDefence" from="2020-08-01">
+                <roleName xml:lang="sl">Minister za obrambo</roleName>
+                <roleName xml:lang="en">Minister of Defence</roleName>
+              </affiliation>
+            </egXML>
+            </p>
+            
+            <p>It should be noted that ParlaMint makes no assumptions on the
+            interconnection between various roles, e.g. we do not assume that if somebody
+            has a minister role in the government that they are also a member of the
+            government. Therefore it is necessary to specify all the desired affiliations
+            with their particular roles, e.g. both as <val>minister</val> and as
+            <val>member</val>.</p>
+
+            <p>It is important to give correct roles to the affiliations that associate a
+            person with organisations. We list the most common roles and how they should be
+            encoded, emphasising the ones that are obligatory in ParlaMint :
+            
+            <list>
+              
+              <item>King or queen:
+              <code>affiliation/@role="head"</code> →
+              <code>org/@role="country"</code>
+              </item>
+              
+              <item>President (as opposed to Prime minister):
+              <code>affiliation/@role="head"</code> →
+              <code>org/@role="republic"</code>
+              </item>
+              
+              <item><emph>Prime minister</emph>
+              (or other head of government):
+              <code>affiliation/@role="head"</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="government"</code>
+              (cf. Section on <ref target="#sec-government">The government organisation</ref>)
+              </item>
+              
+              <item>Deputy primer minister:
+              <code>affiliation/@role="deputyHead"</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="government"</code>
+              </item>
+              
+              <item><emph>Minister</emph>:
+              <code>affiliation/@role="minister"</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="government"</code>
+              <lb/>
+              If ministries are defined, then also:
+              <code>affiliation/@role="head</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="ministry"</code>
+              </item>
+              
+              <item>Deputy minister:
+              <code>affiliation/@role="deputyMinister"</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="government"</code>
+              <lb/>
+              If ministries are defined, then also:
+              <code>affiliation/@role="deputyHead</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="ministry"</code>
+              </item>
+              
+              <item>Leader of parliamentary group:
+              <code>affiliation/@role="head"</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="parliamentaryGroup"</code>
+              (cf. Section on <ref target="#sec-parties">Political parties
+              and parliamentary groups</ref>)
+              </item>
+              
+              <item><emph>Member of parliamentary group</emph>:
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="parliamentaryGroup"</code>
+              </item>
+              
+              <item>Leader of political party:
+              <code>affiliation/@role="head"</code> &amp;
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="politicalParty"</code>
+              </item>
+              
+              <item>Member of political party:
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="politicalParty"</code>
+              </item>
+              
+              <item><emph>MP</emph>:
+              <code>affiliation/@role="member"</code> →
+              <code>org/@role="parliament"</code>
+              (cf. Section on <ref target="#sec-parliament">The parliament organisations</ref>)
+              </item>
+              
+            </list>
+            </p>
+
+          </div>
+        </div>
+
+        <div xml:id="sec-orgs">
+          <head>Organisations</head>
+          
+	  <p>Information on the the government, parliament, political parties or parliamentary
+	  groups of political parties, as well as other optional parliamentary structures
+	  (e.g. ministries, committees) is given in the corpus root <gi>listOrg</gi> element,
+	  which then contains a series of <gi>org</gi> elements, each giving information about
+	  one organisation. The organisations are followed by the <gi>listRelations</gi>
+	  element giving a list of relations between organisations:
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
+            <listOrg>
+              <org>...</org>
+              <org>...</org>
+              <org>...</org>
+              ...
+              <listRelation>...</listRelation>
+            </listOrg>
+          </egXML>
+          </p>
+
+          <p>We exemplify the structure of one organisation element by giving the basic
+          information about a parliamentary group of political parties:
+          
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliamentaryGroup">
+            <org role="parliamentaryGroup" xml:id="group.LN-Aut">
+              <orgName full="yes" xml:lang="it">Lega Nord e Autonomie</orgName>
+              <orgName full="abb">LN-Aut</orgName>
+              <event from="2013-03-15">
+                <label xml:lang="en">existence</label>
+              </event>
+            </org>
+          </egXML>
+          
+          First, each organisation must have an <att>xml:id</att> attribute, so that
+          other elements (in particular, <gi>person</gi>s) can refer to it.
+          The fact that the organisation is a
+          parliamentary group of political parties is encoded in the <att>role</att>
+          attribute, and we elaborate on this below.  The name of the organisation
+          group is given in the <gi>orgName</gi> element, which also uses the
+          <att>full</att> attribute to distinguish between the <val>full</val> name of
+          the party and the <val>abb</val>reviated name of the party
+          group.</p>
+          
+          <p>Organisations are also created and dissolved, and this information is encoded in the
+          <gi>event</gi> element, which has as its <gi>label</gi> <val>existence</val>,
+          and where the start of its existence is given in the <att>from</att> attribute;
+          as there is no <att>to</att> attribute, this also means that the party still
+          exists.</p>
+
+          <p>The example above gives the minimal required information about an
+          organisation but ParlaMint also allows further data to be added, as exemplified by
+          the following example:
+          
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
+            <org xml:id="party.PS" role="parliamentaryGroup">
+              <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
+              <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
+              <orgName full="abb">PS</orgName>
+              <event from="2011-10-22">
+                <label xml:lang="en">existence</label>
+              </event>
+              <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
+              <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
+            </org>
+          </egXML>
+          
+          Here the full name of the organisation is also given in English, and there two
+          external links giving URLs to further information about the organisation. In the
+          example above, these are the Slovene and English Wikipedia pages, as indicated
+          by the appropriate values of the <att>xml:lang</att> attribtes on the
+          <gi>idno</gi> element.</p>
+
+          <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
+          (cf. the Section on <ref target="#sec-validate">Validating ParlaMint
+          corpora</ref>) that gives its set of allowed values. Currently, the list is
+          quite long, as we left it up to the partners of ParlaMint I to determine the
+          values, but the main ones are:
+
+          <list>
+            <item><val>country</val>: the country taken as an organisation, which can be
+            used to specify the king or queen of the country as a <gi>person</gi> affiliated
+            with the country organisation with the <att>role</att> <val>head</val>.</item>
+
+            <item><val>republic</val>: the republic, which can be used to specify the
+            president of the country as a <gi>person</gi> affiliated with the republic
+            organisation with the <att>role</att> <val>head</val>.</item>
+
+            <item><val>government</val>: the government of the country or region,
+            further exemplified below</item>
+
+            <item><val>ministry</val>: a particular ministry, which can be used to specify
+            the minister as a <gi>person</gi> affiliated with the ministry 
+            organisation with the <att>role</att> <val>head</val>.</item>
+
+            <item><val>parliament</val>: the parliament, upper or lower house of the
+            country or region, further exemplified below</item>
+
+            <item><val>parliamentaryGroup</val>: a grouping of political parties for the
+            purpose of acting as one in the government.</item>
+
+            <item><val>politicalParty</val>: a political party.</item>
+
+          </list>
+
+          We discuss these types of organisations in the following sections.
+          </p>
+          
+          <div xml:id="sec-government">
+            <head>The government organisation</head>
+            
+            <p>The government organisation, distinguished by the <att>role</att>
+            <val>government</val>, is required to be present in the <gi>listOrg</gi> of every
+            corpus root and is, by convention, the first organisation in the list. It gives
+            the ID and name of the country or region government, and also contains the list
+            of specific governments by using the dedicated list element for events,
+            <gi>listEvent</gi>, which then gives the these governments as a series of
+            <gi>event</gi> elements:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-government">
+              <org xml:id="ParlaMint-SI-GOV" role="government">
+                <orgName xml:lang="sl" full="yes">Vlada Republike Slovenije</orgName>
+                <orgName xml:lang="en" full="yes">Government of the Republic of Slovenia</orgName>
+                <event from="1990-05-16">
+                  <label xml:lang="en">existence</label>
+                </event>
+                <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
+                <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
+                <listEvent>
+                  <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
+                    <label xml:lang="sl">11. vlada Republike Slovenije (20. marec 2013 - 18. september 2014)</label>
+                    <label xml:lang="en">11th Government of the Republic of Slovenia (20 March 2013 - 18 September 2014)</label>
+                  </event>
                   ...
-                  <listRelation>...</listRelation>
-                </listOrg>
-              </egXML>
-              </p>
-
-              <p>We exemplify the structure of one organisation element by giving the basic
-              information about a parliamentary group of political parties:
-              
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliamentaryGroup">
-                <org role="parliamentaryGroup" xml:id="group.LN-Aut">
-                  <orgName full="yes" xml:lang="it">Lega Nord e Autonomie</orgName>
-                  <orgName full="abb">LN-Aut</orgName>
-                  <event from="2013-03-15">
-                    <label xml:lang="en">existence</label>
+                  <event xml:id="GOV.14" from="2018-03-13">
+                    <label xml:lang="sl">14. vlada Republike Slovenije (13. marec 2020 - danes)</label>
+                    <label xml:lang="en">14th Government of the Republic of Slovenia (March 13, 2020 - today)</label>
                   </event>
-                </org>
-              </egXML>
-              
-              First, each organisation must have an <att>xml:id</att> attribute, so that
-              other elements (in particular, <gi>person</gi>s) can refer to it.
-              The fact that the organisation is a
-              parliamentary group of political parties is encoded in the <att>role</att>
-              attribute, and we elaborate on this below.  The name of the organisation
-              group is given in the <gi>orgName</gi> element, which also uses the
-              <att>full</att> attribute to distinguish between the <val>full</val> name of
-              the party and the <val>abb</val>reviated name of the party
-              group.</p>
-              
-              <p>Organisations are also created and dissolved, and this information is encoded in the
-              <gi>event</gi> element, which has as its <gi>label</gi> <val>existence</val>,
-              and where the start of its existence is given in the <att>from</att> attribute;
-              as there is no <att>to</att> attribute, this also means that the party still
-              exists.</p>
+                </listEvent>
+              </org>
+            </egXML>
+            </p>
+          </div>
+          
+          <div xml:id="sec-parliament">
+            <head>The parliament organisations</head>
 
-              <p>The example above gives the minimal required information about an
-              organisation but ParlaMint also allows further data to be added, as exemplified by
-              the following example:
-              
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parties">
-                <org xml:id="party.PS" role="parliamentaryGroup">
-                  <orgName full="yes" xml:lang="sl">Pozitivna Slovenija</orgName>
-                  <orgName full="yes" xml:lang="en">Positive Slovenia</orgName>
-                  <orgName full="abb">PS</orgName>
-                  <event from="2011-10-22">
-                    <label xml:lang="en">existence</label>
-                  </event>
-                  <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Pozitivna_Slovenija</idno>
-                 <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Positive_Slovenia</idno>
-                </org>
-              </egXML>
-              
-              Here the full name of the organisation is also given in English, and there two
-              external links giving URLs to further information about the organisation. In the
-              example above, these are the Slovene and English Wikipedia pages, as indicated
-              by the appropriate values of the <att>xml:lang</att> attribtes on the
-              <gi>idno</gi> element.</p>
+            <p>The parliament organisations, distinguished by the <att>role</att> <val>parliament</val>,
+            are also required to be present in the <gi>listOrg</gi> of every corpus root and
+            are, by convention, the second and third organisation in the list. There will be
+            two parliament organisations for bicameral chambers, at least in cases where the
+            corpus contains the transcripts of both the upper and the lower house. For
+            unicameral ones, or if the transcripts contains only the lower house, there will
+            be only one parliament organisation. Which of the three options the organisation
+            encoded is determined by the value of the <att>ana</att> attribute, which refers
+            to the appropriate ID of the category in the legislature taxonomy (cf. the
+            Section on <ref target="#sec-classDecl">Class declaration</ref>). The
+            <att>ana</att> attribute should also specify whether the parliament is national
+            or regional, with the categories also specified in the legislature taxonomy. In
+            short, the theoretically possible values of <att>ana</att> for the parliament
+            organisations are:
+            <list>
+              <item><code>#parla.national #parla.uni</code>: national parliament, unicameral system</item>
+              <item><code>#parla.national #parla.lower</code>: national parliament, lower house</item>
+              <item><code>#parla.national #parla.upper</code>: national parliament, upper house</item>
+              <item><code>#parla.regional #parla.uni</code>: regional parliament, unicameral system</item>
+              <item><code>#parla.regional #parla.lower</code>: regional parliament, lower house</item>
+              <item><code>#parla.regional #parla.upper</code>: regional parliament, upper house</item>
+            </list>
 
-              <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
-              (cf. the Section on <ref target="#sec-validate">Validating ParlaMint
-              corpora</ref>) that gives its set of allowed values. Currently, the list is
-              quite long, as we left it up to the partners of ParlaMint I to determine the
-              values, but the main ones are:
-
-              <list>
-                <item><val>country</val>: the country taken as an organisation, which can be
-                used to specify the king or queen of the country as a <gi>person</gi> affiliated
-                with the country organisation with the <att>role</att> <val>head</val>.</item>
-
-                <item><val>republic</val>: the republic, which can be used to specify the
-                president of the country as a <gi>person</gi> affiliated with the republic
-                organisation with the <att>role</att> <val>head</val>.</item>
-
-                <item><val>government</val>: the government of the country or region,
-                further exemplified below</item>
-
-                <item><val>ministry</val>: a particular ministry, which can be used to specify
-                the minister as a <gi>person</gi> affiliated with the ministry 
-                organisation with the <att>role</att> <val>head</val>.</item>
-
-                <item><val>parliament</val>: the parliament, upper or lower house of the
-                country or region, further exemplified below</item>
-
-                <item><val>politicalParty</val>: a political party.</item>
-
-                <item><val>parliamentaryGroup</val>: a grouping of political parties for the
-                purpose of acting as one in the government.</item>
-
-              </list>
-
-              We discuss these types of organisations in the following sections.
-              </p>
-              
-            <div xml:id="sec-government">
-              <head>The government organisation</head>
-              
-              <p>The government organisation, distinguished by the <att>role</att>
-              <val>government</val>, is required to be present in the <gi>listOrg</gi> of every
-              corpus root and is, by convention, the first organisation in the list. It gives
-              the ID and name of the country or region government, and also contains the list
-              of specific governments by using the dedicated list element for events,
-              <gi>listEvent</gi>, which then gives the these governments as a series of
-              <gi>event</gi> elements:
-              
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-government">
-                <org xml:id="ParlaMint-SI-GOV" role="government">
-                  <orgName xml:lang="sl" full="yes">Vlada Republike Slovenije</orgName>
-                  <orgName xml:lang="en" full="yes">Government of the Republic of Slovenia</orgName>
-                  <event from="1990-05-16">
-                    <label xml:lang="en">existence</label>
-                  </event>
-                  <idno type="URI" subtype="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Vlada_Republike_Slovenije</idno>
-                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Government_of_Slovenia</idno>
-                  <listEvent>
-                    <event xml:id="GOV.11" from="2013-03-20" to="2014-09-18">
-                      <label xml:lang="sl">11. vlada Republike Slovenije (20. marec 2013 - 18. september 2014)</label>
-                      <label xml:lang="en">11th Government of the Republic of Slovenia (20 March 2013 - 18 September 2014)</label>
-                    </event>
-                    ...
-                    <event xml:id="GOV.14" from="2018-03-13">
-                      <label xml:lang="sl">14. vlada Republike Slovenije (13. marec 2020 - danes)</label>
-                      <label xml:lang="en">14th Government of the Republic of Slovenia (March 13, 2020 - today)</label>
-                    </event>
-                  </listEvent>
-                </org>
-              </egXML>
-              </p>
-            </div>
+            Otherwise, the structure of the parliament organisations is identical to the one
+            for the government, i.e. it gives the ID and name of the parliament and encodes
+            the successive parliaments, using the <gi>event</gi> element:
             
-            <div xml:id="sec-parliament">
-              <head>The parliament organisations</head>
-
-              <p>The parliament organisations, distinguished by the <att>role</att> <val>parliament</val>,
-              are also required to be present in the <gi>listOrg</gi> of every corpus root and
-              are, by convention, the second and third organisation in the list. There will be
-              two parliament organisations for bicameral chambers, at least in cases where the
-              corpus contains the transcripts of both the upper and the lower house. For
-              unicameral ones, or if the transcripts contains only the lower house, there will
-              be only one parliament organisation. Which of the three options the organisation
-              encoded is determined by the value of the <att>ana</att> attribute, which refers
-              to the appropriate ID of the category in the legislature taxonomy (cf. the
-              Section on <ref target="#sec-classDecl">Class declaration</ref>). The
-              <att>ana</att> attribute should also specify whether the parliament is national
-              or regional, with the categories also specified in the legislature taxonomy. In
-              short, the theoretically possible values of <att>ana</att> for the parliament
-              organisations are:
-              <list>
-                <item><code>#parla.national #parla.uni</code>: national parliament, unicameral system</item>
-                <item><code>#parla.national #parla.lower</code>: national parliament, lower house</item>
-                <item><code>#parla.national #parla.upper</code>: national parliament, upper house</item>
-                <item><code>#parla.regional #parla.uni</code>: regional parliament, unicameral system</item>
-                <item><code>#parla.regional #parla.lower</code>: regional parliament, lower house</item>
-                <item><code>#parla.regional #parla.upper</code>: regional parliament, upper house</item>
-              </list>
-
-              Otherwise, the structure of the parliament organisations is identical to the one
-              for the government, i.e. it gives the ID and name of the parliament and encodes
-              the successive parliaments, using the <gi>event</gi> element:
-              
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliament">
-                <org ana="#parla.national #parla.lower"
-                     role="parliament"
-                     xml:id="be_federal_parliament">
-                  <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
-                  <orgName full="yes" xml:lang="en">Belgian Federal Parliament</orgName>
-                  <event from="1831-02-07">
-                    <label xml:lang="en">existence</label>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-parliament">
+              <org ana="#parla.national #parla.lower"
+                   role="parliament"
+                   xml:id="be_federal_parliament">
+                <orgName full="yes" xml:lang="nl">Federaal Parlement van België</orgName>
+                <orgName full="yes" xml:lang="en">Belgian Federal Parliament</orgName>
+                <event from="1831-02-07">
+                  <label xml:lang="en">existence</label>
+                </event>
+                <listEvent>
+                  <head xml:lang="nl">Zittingsperiode</head>
+                  <head xml:lang="en">Legislative period</head>
+                  <event to="2007-05-02" from="2003-06-05" xml:id="period_51">
+                    <label xml:lang="nl">Zittingsperiode 51</label>
+                    <label xml:lang="en">Legislative period 51</label>
                   </event>
-                  <listEvent>
-                    <head xml:lang="nl">Zittingsperiode</head>
-                    <head xml:lang="en">Legislative period</head>
-                    <event to="2007-05-02" from="2003-06-05" xml:id="period_51">
-                      <label xml:lang="nl">Zittingsperiode 51</label>
-                      <label xml:lang="en">Legislative period 51</label>
-                    </event>
-                    ...
-                    <event from="2019-06-20" xml:id="period_55">
-                      <label xml:lang="nl">Zittingsperiode 55</label>
-                      <label xml:lang="en">Legislative period 55</label>
-                    </event>
-                  </listEvent>
-                </org>
-              </egXML>
-              </p>
-            </div>
+                  ...
+                  <event from="2019-06-20" xml:id="period_55">
+                    <label xml:lang="nl">Zittingsperiode 55</label>
+                    <label xml:lang="en">Legislative period 55</label>
+                  </event>
+                </listEvent>
+              </org>
+            </egXML>
+            </p>
+          </div>
           
           <!--div xml:id="sec-republic">
-            <head>The "Republic" organisation</head>
-            <p>ParlaMint also distinguished an organisation that has the <att>role</att>
-            equal to <val>republic</val>. This organisation is primarily used to give the affiliation
-            of the president of the republic to ...
-            </p>
-          </div-->
+              <head>The "Republic" organisation</head>
+              <p>ParlaMint also distinguished an organisation that has the <att>role</att>
+              equal to <val>republic</val>. This organisation is primarily used to give the affiliation
+              of the president of the republic to ...
+              </p>
+              </div-->
           
           <div xml:id="sec-parties">
             <head>Political parties and parliamentary groups</head>
 
             <p>In the scope of ParlaMint, very important organisations are political parties
-            (distinguished by the <att>role</att> <val>politicalParty</val>) and parliamentary
-            groups that represent political parties in the parliament (distinguished by the
-            <att>role</att> <val>parliamentryGroup</val>). These organisations are linked to
-            <gi>person</gi> elements (i.e. speakers) so that is known to which political party
-            or parliamentary group the speaker belongs to in a certain moment of time,
-            as further explained in the <ref target="#sec-affiliation">Section on Speaker
-            affiliations</ref>.</p>
+            (distinguished by the <att>role</att> <val>politicalParty</val>) and, even more so,
+            parliamentary groups that represent political parties in the parliament
+            (distinguished by the <att>role</att> <val>parliamentryGroup</val>). These
+            organisations are linked to <gi>person</gi> elements (i.e. speakers) so that is
+            known to which political party or parliamentary group the speaker belongs to or
+            represents in a certain moment of time, as further explained in the <ref
+            target="#sec-affiliation">Section on Speaker affiliations</ref>.</p>
 
-            <p>ParlaMint does not require that a corpus must use both types of organisations,
-            and the choice to use either political parties, parliamentary groups, or both, is
-            left to the creators of the corpus.</p>
+            <p>ParlaMint requires that a corpus must use parliamentary groups, while
+            the use of political parties is optional. Note that if political parties are used,
+            it is also expected to encode which political parties constitute a parliamentary group;
+            this is encoded via the <gi>relation</gi> element, as further explained in the
+            Section on <ref target="#sec-relation">Relations between organisations</ref>.</p>
 
             <p>The introduction to this chapter already gave examples of how organisations are
             encoded in general, so we here only give examples of the encoding of the
@@ -1555,26 +1953,26 @@
 
             <p>If the source of the information for the political orientations is unknown,
             then the orientation is given as follows:
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-unknown">
-                <org xml:id="BANAAN" role="parliamentaryGroup">
-                  <orgName full="abb">BANAAN</orgName>
-                  <orgName full="yes">Beter Alternatieven Nastreven Als Apathisch Nietsdoen</orgName>
-                  <event from="1995-01-01">
-                     <label xml:lang="en">existence</label>
-                  </event>
-                  <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
-                    <note xml:lang="en">Orientation determined by encoder, using own knowledge of the
-                    parliamentary group.</note>
-                  </state>
-               </org>
-              </egXML>
-              As can be seen, the <gi>state</gi> element must be of <att>type</att>
-              <val>politicalOrientation</val>, while the <att>subtype</att> has the value
-              <val>unknown</val>. As mentioned, the <att>ana</att> attribute points to the
-              political orientation taxonomy, which gives the valid types of categories for
-              the political orientation, in this case the part is categories as being left
-              oriented. Finally, it is possible (but not required) to give a comment
-              (preferably in English) about the orientation in the <gi>note</gi> element.
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-unknown">
+              <org xml:id="BANAAN" role="parliamentaryGroup">
+                <orgName full="abb">BANAAN</orgName>
+                <orgName full="yes">Beter Alternatieven Nastreven Als Apathisch Nietsdoen</orgName>
+                <event from="1995-01-01">
+                  <label xml:lang="en">existence</label>
+                </event>
+                <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
+                  <note xml:lang="en">Orientation determined by encoder, using own knowledge of the
+                  parliamentary group.</note>
+                </state>
+              </org>
+            </egXML>
+            As can be seen, the <gi>state</gi> element must be of <att>type</att>
+            <val>politicalOrientation</val>, while the <att>subtype</att> has the value
+            <val>unknown</val>. As mentioned, the <att>ana</att> attribute points to the
+            political orientation taxonomy, which gives the valid types of categories for
+            the political orientation, in this case the part is categories as being left
+            oriented. Finally, it is possible (but not required) to give a comment
+            (preferably in English) about the orientation in the <gi>note</gi> element.
             </p>
             
             <p>If the source of the information for the political orientations is Wikipedia, 
@@ -1632,7 +2030,7 @@
           
           <div xml:id="sec-relation">
             <head>Relations between organisations</head>
-              
+            
             <p>As mentioned, the relations between various organisations, in particular,
             which parliamentary groups of political parties are in the <hi>coalition</hi> or in
             <hi>opposition</hi> and when, are encoded in the final element of <gi>listOrg</gi>,
@@ -1640,291 +2038,59 @@
             shown in the example below:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
-                <listRelation>
-                  <relation name="coalition"
-                            mutual="#parliamentaryGroup.MR #parliamentaryGroup.OpenVld"
-                            from="2014-10-11"
-                            to="2018-12-09"
-                            ana="#period_54"/>
-                  <relation name="opposition"
-                            active="#parliamentaryGroup.Ecolo #parliamentaryGroup.cdH"
-                            passive="#government.BE"
-                            from="2014-10-11"
-                            to="2018-12-09"
-                            ana="#period_54"/>
-                  <relation name="representing" active="#parliamentaryGroup.MR"
-                            passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
-                            from="2013-10-29" to="2017-10-26"/>
-                </listRelation>
-              </egXML>
-
-              The type of relation is given in the <att>name</att> attribute.
-              ParlaMint allows the following values of <att>name</att>:
-
-              <list>
-                <item><val>coalition</val>: the pointers to the organisations
-                (i.e. parliamentary groups or political parties) are given in the <att>mutual</att>
-                attribute (because a coalition is mutual relation betweent its members);</item>
-                
-                <item><val>opposition</val>: the pointers to the organisations are given in
-                the <att>active</att> attribute, as the organisations are in an active relation to the
-                government, the pointer to which is given in the <att>passive</att> attribute;</item>
-                
-                <item><val>representing</val>: a parliamentary group representing one or more political
-                parties in the parliament. The parliamentary group is given as the value of the
-                <att>active</att> attribute, while the political parties are given as the value of
-                the <att>passive</att> attribute.</item>
-                
-                <item><val>renaming</val>: the two organisation (typically political parties)
-                referred to are essentially the same organistion, which has been, however, renamed at
-                some point in time; the reference to the old organisation is given in the
-                <att>passive</att> attribute, while the reference to the new one is given in the
-                <att>active</att> attribute;</item>
-                
-                <item><val>successor</val>: an organisation (again, typically a political party), or
-                several of them, ceased to exist, but a sucessor was created; as with renaming, the
-                previous organisation is given as the value of the <att>passive</att> attribute,
-                while the new one uses the <att>active</att> attribute.</item>
-
-              </list>
-              
-              For the relations it is typically also necessary to specify <att>from</att>
-              and possibly <att>to</att> when the relation was in force. Finally, it is
-              possible, but not necessary, to also give the legislative period and/or the
-              government when this particular coalition or opposition existed.
-              </p>
-            </div>
-          </div>
-          
-          <div xml:id="sec-speakers">
-            <head>Speakers</head>
-              
-              <p>As mentioned, the information on speakers is given in the
-              <gi>listPerson</gi> element of the participant description. This element then
-              contains the list of <gi>person</gi> elements, each of which gives information
-              on an individual speaker, as the example below illustrates:
-
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
-                <listPerson>
-                  <person xml:id="AccettoMatej">
-                    <persName>
-                      <surname>Accetto</surname>
-                      <forename>Matej</forename>
-                    </persName>
-                    <sex value="M"/>
-                  </person>
-                  ...
-                </listPerson>
-              </egXML>
-
-              Each <gi>person</gi> must have an <att>xml:id</att> attribute, so that it can
-              be referred to from the transcription. The person name, <gi>persName</gi> gives
-              the name of the person which is further decomposed into the person
-              <gi>surname</gi>(s), <gi>forename</gi>(s) and possibly <gi>addName</gi>. The
-              person must also have the <gi>sex</gi> element, with the <att>value</att>
-              attribute being one of the controlled values: <val>M</val> for male,
-              <val>F</val> for female, <val>O</val> for other, <val>N</val> for none or
-              <val>U</val> for unknown.</p>
-
-              <p>The person element can also contain other optional information, i.e. the
-              date and place of <gi>birth</gi> (and <gi>death</gi>), their official Web
-              page, link(s) to Wikipedia, their VIAF, or photo, as illustrated below:
-
-              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-personextra">
-                <person xml:id="SayeedaWarsi">
-                  <persName>
-                    <forename>Sayeeda</forename>
-                    <surname>Warsi</surname>
-                  </persName>
-                  <sex value="F"/>
-                  <birth when="1971-03-28">
-                    <placeName ref="https://www.geonames.org/2651286/">Dewsbury</placeName>
-                  </birth>
-                  <idno type="URI" subtype="contact">https://members.parliament.uk/member/3839/contact</idno>
-                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Sayeeda_Warsi,_Baroness_Warsi</idno>
-                  <idno type="URI" subtype="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Sayeeda_Warsi</idno>
-                  <idno type="URI" subtype="viaf">http://viaf.org/viaf/33149912470406211798</idno>
-                  <figure>
-                    <graphic url="https://api.parliament.uk/photo/Paa3j0vS.jpg?crop=CU_1:1"/>
-                  </figure>
-                </person>
-              </egXML>
-              </p>
-
-              <div xml:id="sec-affiliation">
-                <head>Speaker affiliations</head>
-
-                <p>And important element of a person is <gi>affiliation</gi>, which associates
-                the speakers with organisations, i.e. it specifies who is a member of the
-                government, parliament, a parliamentary group of political parties<note>Note
-		that parliaments also have unaffiliated (or independent) MPs,
-                that can either belong to a special <q>unaffiliated</q> parliamentary group
-                or don't belong to any parliamentary group. For the former, they are simply
-                not affiliated to any parliamentary group. For the latter, an
-                <q>unaffiliated</q> parlimentaryGroup organisation must be created, and such
-                MPs are affiliated with it as members.</note>
-		
-                or political parties themselves, as well as who holds a relevant office,
-                e.g. that they are the president, chairman, minister etc. in or of a given
-                organisation.
-
-                The following example shows the use of the <gi>affiliation</gi> element for
-                specifying membership in organisations:
-              
-                <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation">
-                  <person xml:id="BahŽibertAnja">
-                    <persName>
-                      <forename>Anja</forename>
-                      <surname>Žibert</surname>
-                    </persName>
-                    <sex value="F"/>
-                    <affiliation role="member"
-                                 ref="#DZ"
-                                 from="2014-08-01"
-                                 to="2018-06-21"
-                                 ana="#DZ.7"/>
-                    <affiliation role="member"
-                                 ref="#party.SDS.2"
-                                 from="2014-08-01"
-                                 to="2018-06-21"
-                                 ana="#DZ.7"/>
-                    <affiliation role="member" ref="#DZ" from="2018-06-22" ana="#DZ.8"/>
-                  </person>
-                </egXML>
-                
-                The formal type of affiliation is given in the <att>role</att> attribute, in this
-                case <val>member</val>. The <att>ref</att> attribute points to the ID of
-                the organisation in which the person has the specified role. For MPs this
-                will be the ID of the parliament or one of the two houses (cf. the Section
-                on <ref target="#sec-parliament">The parliament organisations</ref>). For
-                membership in a party or, more commonly, a parliamentary group of parties,
-                this is, of course, the ID of the party or parliamentary group
-                organisation.</p>
-                
-                <p>The affiliation element also has the usual <att>from</att> and
-                <att>to</att> attributes, i.e. from and to when the person was affiliated
-                with the organisation. Affiliation can also have the classification
-                <att>ana</att> attribute, which here points to the definition of the
-                legislative period in which the person was affiliated with the specified
-                organisation.</p>
-                
-                <p>The <att>role</att> attribute can have as its value one of the values
-                given by the ParlaMint schema. For backward compatibility with ParlaMint I
-                corpora, there are some roles that are only used by one corpus (cf. the
-                definition of <att>role</att> for <gi>affiliation</gi>), but the main ones
-                that should be used are:
-                
-                <list>
-                  
-                  <item><val>member</val> specifies that a person is a member of the
-                  organisation</item>
-                  
-                  <item><val>head</val> is used for the lead person in an
-                  organisation, regardless of how this role is named in the specific
-                  country and for the specific organisation, i.e. it can be used for the
-                  queen (head of the <val>country</val> organisation),
-		  president (head of the <val>republic</val> organisation),
-		  prime minister (head of <val>goverment</val>),
-		  minister (head of <val>ministry</val>),
-		  chairperson (head of <val>committee</val>),
-		  etc.</item>
-                  
-                  <item><val>deputyHead</val> is the deputy head of
-                  the organisation, again, regardless of how this role is named in the specific
-                  country and for the specific organisation, i.e. it is used for the
-                  vice president, deputy chairperson, etc.</item>
-
-                  <item><val>minister</val> is used to indicate that the person is the minister
-                  in the government. Note that this only says that they are a minister, and
-                  when.  To encode what they are a minister of, the ministry organisation needs
-                  to be created, and the minister associated with it with the <val>head</val>
-                  role.</item>
-		</list>
-                </p>
-
-                <p>Because the roles are quite generic, ParlaMint also allows to specify the
-                exact name of the affiliation role for a particular country or region using the
-                <gi>roleName</gi> element, preferably both in the local language, as well as in
-                English, as illustrated in the following example, which specifies that somebody
-                is a minister, and also what they are a minster of:
-                
-                <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-roleName">
-                  <affiliation role="minister" ref="#GOV" from="2020-08-01">
-                    <roleName xml:lang="sl">Minister za obrambo</roleName>
-                    <roleName xml:lang="en">Minister of Defence</roleName>
-                  </affiliation>
-                  <affiliation role="head" ref="#MinistryOfDefence" from="2020-08-01">
-                    <roleName xml:lang="sl">Minister za obrambo</roleName>
-                    <roleName xml:lang="en">Minister of Defence</roleName>
-                  </affiliation>
-                </egXML>
-                </p>
-                
-                <p>An important point to note is that ParlaMint makes no assumptions on the
-                interconnection between various roles, e.g. we do not assume that if somebody
-                has a minister role in the government that they are also a member of the
-                government. Therefore it is necessary to specify all the
-                desired affiliations with their particular roles, e.g. both as
-                <val>minister</val> and as <val>member</val>.</p>
-              </div>
-            </div>
-          </div>
-          
-          <div xml:id="sec-langUsage">
-            <head>Language usage</head>
-            
-            <p>The language usage, <gi>langUsage</gi> is the fourth and last element of the
-            profile description of a corpus root and defines the languages that are used in
-            the corpus. Typically the language use will define (bilingually) only two
-            languages, the local language and English, as the language used in the metadata,
-            for example:
-            
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langUsage">
-              <langUsage>
-                <language ident="sl" xml:lang="sl">slovenski</language>
-                <language ident="en" xml:lang="sl">angleški</language>
-                <language ident="sl" xml:lang="en">Slovenian</language>
-                <language ident="en" xml:lang="en">English</language>
-              </langUsage>
+              <listRelation>
+                <relation name="coalition"
+                          mutual="#parliamentaryGroup.MR #parliamentaryGroup.OpenVld"
+                          from="2014-10-11"
+                          to="2018-12-09"
+                          ana="#period_54"/>
+                <relation name="opposition"
+                          active="#parliamentaryGroup.Ecolo #parliamentaryGroup.cdH"
+                          passive="#government.BE"
+                          from="2014-10-11"
+                          to="2018-12-09"
+                          ana="#period_54"/>
+                <relation name="representing" active="#parliamentaryGroup.MR"
+                          passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
+                          from="2013-10-29" to="2017-10-26"/>
+              </listRelation>
             </egXML>
+
+            The type of relation is given in the <att>name</att> attribute.
+            ParlaMint allows the following values of <att>name</att>:
+
+            <list>
+              <item><val>coalition</val>: the pointers to the organisations
+              (i.e. parliamentary groups or political parties) are given in the <att>mutual</att>
+              attribute (because a coalition is mutual relation betweent its members);</item>
+              
+              <item><val>opposition</val>: the pointers to the organisations are given in
+              the <att>active</att> attribute, as the organisations are in an active relation to the
+              government, the pointer to which is given in the <att>passive</att> attribute;</item>
+              
+              <item><val>representing</val>: a parliamentary group representing one or more political
+              parties in the parliament. The parliamentary group is given as the value of the
+              <att>active</att> attribute, while the political parties are given as the value of
+              the <att>passive</att> attribute.</item>
+              
+              <item><val>renaming</val>: the two organisation (typically political parties)
+              referred to are essentially the same organistion, which has been, however, renamed at
+              some point in time; the reference to the old organisation is given in the
+              <att>passive</att> attribute, while the reference to the new one is given in the
+              <att>active</att> attribute;</item>
+              
+              <item><val>successor</val>: an organisation (again, typically a political party), or
+              several of them, ceased to exist, but a sucessor was created; as with renaming, the
+              previous organisation is given as the value of the <att>passive</att> attribute,
+              while the new one uses the <att>active</att> attribute.</item>
+
+            </list>
+            
+            For the relations it is typically also necessary to specify <att>from</att>
+            and possibly <att>to</att> when the relation was in force. Finally, it is
+            possible, but not necessary, to also give the legislative period and/or the
+            government when this particular coalition or opposition existed.
             </p>
-            
-            <p>In cases where the transcription contains more than one language, the
-            percentage of their use can also be indicated in the <att>usage</att> element of
-            the <gi>language</gi> elements, as illustrated in the example below:
-            
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-langusage2">
-              <langUsage>
-                <language ident="en" xml:lang="en">English</language>
-                <language ident="en" xml:lang="nl">Engels</language>
-                <language usage="45" ident="nl" xml:lang="en">Dutch</language>
-                <language usage="45" ident="nl" xml:lang="nl">Nederlands</language>
-                <language usage="55" ident="fr" xml:lang="en">French</language>
-                <language usage="55" ident="fr" xml:lang="nl">Frans</language>
-              </langUsage>
-            </egXML>
-            </p>
-          </div>
-
-          <div xml:id="sec-revisionDesc">
-            <head>Revision description</head>
-            <p>The revision description, <gi>revisionDesc</gi> is the fourth, and last
-            element of the TEI header. It is an optional element that can appear in the
-            <hi>corpus root or component</hi>, and documents the revisions made in the corpus
-            or component. Its structure is illustrated below:
-            
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-revisionDesc">
-              <revisionDesc>
-                <change when="2021-06-11">
-                <name>Tomaž Erjavec</name>: Finalized encoding.</change>
-                <change when="2021-05-28">
-                <name>Tomaž Erjavec</name>: Built corpus.</change>
-              </revisionDesc>
-            </egXML>
-            The revision description consists of a series of <gi>change</gi> elements, with
-            the attribute <att>when</att> giving the date of the change, and the content
-            containing the <gi>name</gi> of the person responsible for the change, and a
-            free-text description of the change.</p>
           </div>
         </div>
       </div>
@@ -2208,7 +2374,7 @@
           </egXML>
           </p>
 
-          <p>The other reason for omitting a part of the transcription can be an editorial
+          <p>Another reason for omitting a part of the transcription can be an editorial
           decision of the corpus compilers. The transcript can, for example, contain material
           that they do not want to include in the corpus, such as tables, or parts of the
           transcription that for technical reasons cannot be converted to text. In these
@@ -2218,6 +2384,27 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-gap-editorial">
             <gap reason="editorial">
               <desc xml:lang="en">Table omitted</desc>
+            </gap>
+          </egXML>
+          </p>
+          
+          <p>Sometimes a passage of the transcription is in a foregin language, and, esp. as
+          the corpus is to be linguistically annotated, the passage is best left out of the
+          transcription proper. This can be achieved by encoding it as a gap in the
+          transcription with the reason <val>foreign</val>, while the <gi>desc</gi> should
+          contain the omitted text. In this case therefore the description does not give the
+          reason for the ommission, but rather the text that has been ommited.
+
+	  The language of the foreign passage should be indicated on the <att>xml:lang</att>
+	  attribute of <gi>desc</gi>. If the language has not been identified, the ISO 639 code
+	  for undetermined language <q>und</q> can be used, while in cases where more than one
+	  language is used in such a passage, the <q>mul</q> code for multiple languages is
+	  used.  All languages used on <gi>desc</gi> should of course be documented in the
+	  <gi>langUsage</gi> element. Below an example:
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-gap-foreign">
+            <gap reason="foreign">
+              <desc xml:lang="und">Huliniahuanngittunga</desc>
             </gap>
           </egXML>
           </p>
@@ -3102,34 +3289,34 @@
       </div>
       
       <div xml:id="chp-contributing">
-        <head>Contributing to the GitHub repository</head>
+        <head>Contributing to ParlaMint</head>
         
         <p>The <ref target="https://github.com/clarin-eric/ParlaMint/">ParlaMint GitHub
         repository</ref> contains these guidelines, the ParlaMint XML schemas, the scripts used
         to validate, finalise and convert the ParlaMint TEI XML corpora to derived formats, and
-        samples of the ParlaMint corpora. There are four stable branches in the repository, to
-        make development more transparent:
+        samples of the ParlaMint corpora. There are four main branches in the repository:
           <list>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/main">main</ref>
               is the default branch used for the synchronisation of other branches.
               It is also used for releasing sample files that correspond to published corpora.</item>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/data">data</ref>
               serves as a pushing place for new sample files in ./Data/ParlaMint-XX directories.</item>
-            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/devel">devel</ref>
-              serves development scripts, and schemas</item>
-            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>             serves development documentation and GitHub pages deployment.</item>
+            <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/devel">devel</ref>:
+              development of scripts</item>
+              <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>:
+              development of schemas, the TEI ODD of these Guidelines, which are then deployed on GitHub pages.</item>
           </list>
         </p>
 
-        <p>Those contributing to the ParlaMint corpora should first make a fork of the
-        ParlaMint repository, and then clone the fork to their local machine. They should
-        then develop their ParlaMint corpus, and validate it as explained in the Section on
-        <ref target="#sec-validate">Validating ParlaMint corpora</ref>.</p>
+        <p>The validation procedure for corpora is explained in the
+        Section on <ref target="#sec-validate">Validating ParlaMint
+        corpora</ref>, while the technical aspects of contributing
+        corpora is further explained in the <ref
+        target="https://github.com/clarin-eric/ParlaMint/blob/main/CONTRIBUTING.md">CONTRIBUTING
+        file</ref> of the repository.
+        </p>
 
-        <p>Then, the samples should be produced and put in the <code>data</code> branch of
-        the local copy of the repository, which should then be pushed to their fork of the
-        repository. Finally, a pull request should be made to the main ParlaMint GitHub
-        repository.</p>
+        
       </div>
       
       <div xml:id="sec-ack">

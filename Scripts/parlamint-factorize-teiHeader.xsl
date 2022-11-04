@@ -31,7 +31,7 @@
     <xsl:variable name="filename">
 
       <xsl:choose>
-        <xsl:when test="@xml:id and index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus', '\s+'), @xml:id)">
+        <xsl:when test="@xml:id and index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), @xml:id)">
           <xsl:value-of select="concat('ParlaMint-',local-name(),@xml:id/concat('-',.),'.xml')" />
         </xsl:when>
         <xsl:otherwise>

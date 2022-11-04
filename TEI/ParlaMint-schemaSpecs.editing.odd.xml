@@ -510,14 +510,10 @@
         <valList type="closed">
           <valItem ident="inaudible"/>
           <valItem ident="editorial"/>
+          <valItem ident="foreign"/>
         </valList>
       </attDef>
     </attList>
-    <exemplum xml:lang="en">
-      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-        <gap quantity="4" unit="chars" reason="illegible"/>
-      </egXML>
-    </exemplum>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <gap reason="inaudible">
@@ -531,6 +527,13 @@
           <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
           <desc xml:lang="en">Quoted printed matter omited</desc>
 	</gap>
+      </egXML>
+    </exemplum>
+    <exemplum xml:lang="en">
+      <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+        <gap reason="foreign">
+          <desc xml:lang="und">Huliniahuanngittunga</desc>
+        </gap>
       </egXML>
     </exemplum>
   </elementSpec>
@@ -2544,7 +2547,7 @@
         <desc versionDate="2013-11-20" xml:lang="en">specifies the name
 	(generic identifier) of the element indicated by the tag,  within the namespace indicated by the parent
         <gi>namespace</gi> element. All descendats of <gi>text</gi> element and <gi>text</gi> element counts
-        has to be included. </desc>
+        have to be included. </desc>
       </attDef>
       <attDef ident="occurs" mode="change" usage="req"/>
     </attList>
@@ -3410,13 +3413,12 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="relation" module="namesdates" mode="change">
-    <desc versionDate="2013-04-12" xml:lang="en">describes any kind of relationship or linkage amongst a
-    specified group of places, events, persons, objects or other items.</desc>
+    <desc versionDate="2022-10-23" xml:lang="en">describes a relationship between two organisations.</desc>
     <content>
       <empty/>
     </content>
     <attList>
-      <attDef ident="name" mode="change" usage="req">
+      <attDef ident="name" mode="replace" usage="req">
         <valList type="closed">
           <valItem ident="coalition"/>
           <valItem ident="opposition"/>
@@ -3463,12 +3465,12 @@
     </alternate>
   </content>
   <attList>
-    <attDef ident="type" mode="change" usage="req">
+    <attDef ident="type" mode="replace" usage="req">
       <valList type="closed">
         <valItem ident="politicalOrientation"/>
       </valList>
     </attDef>
-    <attDef ident="subtype" mode="change" usage="req">
+    <attDef ident="subtype" mode="replace" usage="req">
       <valList type="closed">
         <valItem ident="CHES"/>
         <valItem ident="Wikipedia"/>
@@ -3807,7 +3809,7 @@
                        to="2021-10-21T00:00:00">
             <roleName xml:lang="en">Member</roleName>
           </affiliation>
-          <affiliation ref="#politicalGroup.ANO.1292"
+          <affiliation ref="#parliamentaryGroup.ANO.1292"
                        role="member"
                        from="2017-10-24T00:00:00"
                        to="2021-10-21T00:00:00">
