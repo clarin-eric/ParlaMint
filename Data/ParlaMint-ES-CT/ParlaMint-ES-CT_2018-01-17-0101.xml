@@ -1,0 +1,401 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.agenda #reference" xml:lang="ca" xml:id="ParlaMint-ES-CT_2018-01-17-0101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT_2018-01-17-0101 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT_2018-01-17-0101 [ParlaMint SAMPLE]</title>
+            <meeting ana="#parla:term" n="12">XII Legislatura</meeting>
+            <meeting ana="#parla:meeting" n="1">1</meeting>
+            <meeting ana="#parla.sitting" n="1">1</meeting>
+            <respStmt>
+               <persName>Nuria Bel</persName>
+               <resp>Coordinator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp>Data retrieval, first conversion to XML and to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Marilina Pisani</persName>
+               <resp>Final TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rodolfo Zevallos</persName>
+               <resp>Computational Linguistics Specialist</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="ca">Cap financiacio</orgName>
+               <orgName xml:lang="en">No funder</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="19" xml:lang="ca">19 intervencions</measure>
+            <measure unit="speeches" quantity="19" xml:lang="en">19 speeches</measure>
+            <measure unit="words" quantity="6748" xml:lang="ca">6748 paraules</measure>
+            <measure unit="words" quantity="6748" xml:lang="en">6748 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022">2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date when="2018-01-17">2018-01-17</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="25"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="19"/>
+               <tagUsage gi="seg" occurs="165"/>
+               <tagUsage gi="kinesic" occurs="9"/>
+               <tagUsage gi="vocal" occurs="7"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name type="country" key="ES">Spain</name>
+               <date when="2018-01-17">26.10.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>SESSIÓ NÚM. 1</head>
+            <note>La sessió s'obre a les onze del matí i dos minuts. Presideix el president de la Mesa d’Edat, acompanyat dels secretaris de la Mesa d’Edat, la qual és assistida pel secretari general i el lletrat major.</note>
+            <note>ORDRE DEL DIA DE LA CONVOCATÒRIA</note>
+            <note>Punt únic: Constitució del Ple del Parlament i elecció de la Mesa del Parlament (tram. 396-00001/12 i 398-00001/12).</note>
+            <note type="speaker">El secretari general (Xavier Muro i Bas)</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.1" who="MuroXavier" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.0" xml:lang="ca">Bon dia a tothom, il·lustres senyores diputades i senyores diputats, autoritats que ens acompanyen, senyores i senyors, sigueu benvinguts al Parlament de Catalunya en aquesta sessió constitutiva de la seva dotzena legislatura.</seg>
+               <note>Constitució del Ple del Parlament i elecció de la Mesa del Parlament</note>
+               <note>396-00001/12 i 398-00001/12</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.1" xml:lang="ca">Tal com és preceptiu, d’acord amb l’article 1 del Reglament de la cambra, aquesta sessió s’ha d’iniciar amb la lectura del Decret de convocatòria, que és el Reial decret 1/2018, de 9 de gener, de convocatòria de la sessió constitutiva del Parlament de Catalunya, publicat al Butlletí Oficial de l’Estat número 9, de 10 de gener, i al Diari Oficial de la Generalitat de Catalunya, número 7532A, de 10 de gener.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.2" xml:lang="ca">Aquest decret diu així: «Realitzades les eleccions al Parlament de Catalunya el proppassat dia 21 de desembre i atès que les corresponents juntes electorals provincials han proclamat els resultats d’aquest procés electoral.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.3" xml:lang="ca">»Vist el que disposa l’article 10.d, de la Llei 13/2008, del 5 de novembre, de la presidència de la Generalitat i del Govern.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.4" xml:lang="ca">»De conformitat amb el que estableixen els paràgrafs segon i tercer de l’apartat A de l’Acord del Consell de Ministres de 21 d’octubre de 2017, publicat mitjançant l’Ordre de presidència 1034/2017, de 27 d’octubre, en el Butlletí Oficial de l’Estat número 260, de 27 d’octubre, així com amb l’article 3 del Reial decret 944/2017, de 27 d’octubre, pel qual es designen òrgans i autoritats encarregats de donar compliment a les mesures dirigides al Govern i a l’Administració de la Generalitat de Catalunya, autoritzades per l’acord del Ple del Senat, de 27 d’octubre de 2017, pel qual s’aproven les mesures requerides pel Govern, a l’empara de l’article 155 de la Constitució, decreto:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.5" xml:lang="ca">»Article 1. Convocar a la sessió constitutiva del Parlament de Catalunya els diputats i diputades electes que han estat proclamats per les juntes electorals provincials de Barcelona, Girona, Lleida i Tarragona, d’acord amb el resultat de les eleccions realitzades el dia 21 de desembre de 2017.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.6" xml:lang="ca">»Article 2. La sessió constitutiva tindrà lloc el dia 17 de gener, a les 11 hores, al Palau del Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.7" xml:lang="ca">»Disposició final. Aquest reial decret entrarà en vigor el mateix dia de la seva publicació oficial.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.8" xml:lang="ca">»Madrid, 9 de gener de 2018.»</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.9" xml:lang="ca">El Reglament del Parlament, en el seu article 2, estableix que la sessió constitutiva ha de ser presidida, inicialment, pel diputat electe de més edat d’entre els presents, assistit pels dos diputats més joves en qualitat de secretaris.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.10" xml:lang="ca">Segons les dades lliurades al Parlament de Catalunya, consta que l’honorable senyor Ernest Maragall i Mira, nascut el 5 de gener del 1943, és el diputat de més edat d’entre els presents i li correspon de presidir la sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.11" xml:lang="ca">Comptarà amb la col·laboració dels dos diputats més joves, que són la il·lustre senyora Rut Ribas i Martí, nascuda el 13 de desembre de 1990, i l’il·lustre senyor Gerard Gómez del Moral i Fuster, nascut el dia 17 d’octubre de 1989, a qui ja va correspondre assistir a la Mesa d’Edat a l’inici de l’anterior legislatura.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.12" xml:lang="ca">Si algú d’entre els proclamats electes considera que té un millor dret, ho haurà d’advertir ara. En cas contrari, el Parlament espera i el Reglament disposa que componguin la Mesa d’Edat per tal d’obrir la sessió constitutiva del Parlament en la seva dotzena legislatura.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.13" xml:lang="ca">Els prego, doncs, que vulguin ocupar els seus llocs en la presidència.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.1.14" xml:lang="ca">Mentrestant, com a secretari general del Parlament de Catalunya, els vull desitjar a tots i a totes els millors encerts en l’exercici de la funció representativa i de servei a les persones i al país que el poble de Catalunya els ha encomanat.</seg>
+               <note>(Pausa llarga.)</note>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat (Ernest Maragall i Mira)</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.2" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.0" xml:lang="ca">Molt bon dia a tothom. Un cop iniciada la sessió constitutiva amb la lectura del decret de convocatòria per part del secretari general, com a president de la Mesa d’Edat, i d’acord amb l’article 2 del Reglament, declaro oberta aquesta sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.1" xml:lang="ca">Diputats i diputades, autoritats que ens acompanyeu, senyores i senyors assistents, treballadors del Parlament i dels mitjans de comunicació que cobreixen aquesta sessió, moltes gràcies, els desitjo molt bon dia a tots i a totes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.2" xml:lang="ca">Jo hauria de començar aquesta sessió dient, també, bon dia...., haig de dir «bon dia, president Benach, president Rigol, presidenta Carme Forcadell, eh?, i gràcies per ser aquí, per honorar aquesta sessió». Però hauria de dir, també, «bon dia, president de la Generalitat, bon dia consellers del Govern de la Generalitat». Però ja ho veuen: ni el president de la Generalitat ni els membres del seu Govern seuen al lloc que els pertocaria, eh? Els uns presoners, els altres a l’exili, la resta destituïts.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.3" xml:lang="ca">Espero que em perdonin, doncs, si abans de continuar amb el procediment d’elecció dels membres de la Mesa expresso algun dels sentiments que, imparables, omplen el cap.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.4" xml:lang="ca">Vindran dies per actuar, per pensar, tots nosaltres, tots vostès, senyores i senyors diputats, amb dedicació i responsabilitat en la nostra condició de representants dels set i mig milions de catalans i catalanes. El que sento avui, en canvi, prové més del cor que del cap, més de l’experiència viscuda que de la reflexió tranquil·la. I el que sento és, per una banda, una acumulació d’indignació enfront a les agressions que cada dia vivim, però també, els ho asseguro, una creixent suma de raó i de raons, de conviccions afermades sobre el present i el futur del nostre país, d’aquesta Catalunya que no es rendeix, que no es resigna, que vol seguir sent el que és, el que ha sigut sempre, per poder construir el país nou, lliure, just i digne que volem ser.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.5" xml:lang="ca">Mirin, avui jo no hauria de ser aquí. Sense aquestes eleccions imposades des de l’Estat, a l’empara de l’article 155 de la Constitució, jo no seria aquí. Podria seguir sent un ciutadà políticament compromès, això sí, però més espectador que actor, més assistent a manifestacions o a debats que no pas representant d’aquests manifestants o d’aquests ciutadans. Diguem-ho clar, qui hauria de ser avui aquí són precisament els que no hi són: el president Puigdemont, el vicepresident Oriol Junqueras, els consellers Joaquim Forn, Lluís Puig, Clara Ponsatí, Toni Comín, els..., Jordi Cuixart i Jordi Sànchez, que ens podrien acompanyar des de la llotja, ben certament, i hauríem d’estar fent un altre debat, que no aquest, hauríem d’estar fent un debat, diguem-ne, aquest sí, ordinari. I quin hauria de ser aquest debat? No el que estem obligats a fer avui, sobre qui té dret i qui no té dret, sobre les condicions dels nostres representants i les seves situacions i els seus drets individuals com a ciutadans i com a representants dels ciutadans. Hauríem d'estar tenint, crec jo, un debat sobre la taula de diàleg que s’hagués hagut d’obrir entre tots nosaltres i la representació de l’Estat; una taula de diàleg per avaluar la situació sorgida a partir de l’1 d’octubre i per arbitrar, de comú acord, les vies per a la verificació democràtica de la voluntat dels catalans i catalanes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.6" xml:lang="ca">Aquesta seria la normalitat acceptable, eh?, la que ens..., una normalitat a la que no renunciem ni renunciarem; una normalitat sorgida del mutu respecte i del reconeixement de la nostra condició de societat amb dret a existir per ella mateixa, de subjecte polític equipat per governar-se, per expressar projectes col·lectius, per dibuixar i construir el propi futur. Avui és, efectivament, un dia per mirar endavant, per començar una nova etapa, però és també un dia per recordar d’on venim, per entendre per què som avui aquí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.7" xml:lang="ca">Mirin, és el primer cop, en totes les legislatures, des de l’anomenada «transició democràtica», que el Ple de constitució d’una legislatura es celebra amb el banc del Govern buit. Com em recordava en Gerard Gómez del Moral –és bo saber-ho i recordar-ho–, el president Tarradellas va presidir la sessió de la constitució del primer Parlament el 10 d’abril del 1980. La va presidir des d’aquí, inicialment, i després hi va assistir a tota la sessió, com va assistir igualment, a la d’investidura. I el president Tarradellas, aquell dia, com durant tots els anys en què va ser president de la Generalitat a l’exili, representava la legitimitat i la continuïtat històrica de les institucions catalanes. Era una institució que enllaçava directament amb la Generalitat republicana, enderrocada i dissolta el 1939, de la mateixa manera que, rebuda de Josep Irla, la presidència de Tarradellas era la continuïtat institucional de la presidència de Lluís Companys, afusellat a Montjuic el 1940 per la dictadura franquista.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.8" xml:lang="ca">Deixin-me dir que tinc també ben viva la imatge potent d’aquell 30 de setembre del 2005, quan aquell mateix Parlament, amb un govern sota la presidència de Pasqual Maragall, votava, gosava votar un text estatutari, una nova proposta que, ben explícitament, representava una mà estesa a l’Estat espanyol. Buscaven, en aquell temps, un acord amb profunditat amb l’Estat, un acord basat en la lleialtat i el respecte mutus, però que donés genuïna resposta, també, federal a l’aspiració catalana.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.9" xml:lang="ca">Preteníem –quina ingenuïtat, diríem avui– substituir els acords entre elits i el mercadeig permanent per una entesa de fons, per una entesa que donés satisfacció a Catalunya al mateix temps que permetia la plasmació d’una Espanya reconciliada amb ella mateixa, respectuosa i convençuda de la riquesa derivada de la diversitat dels pobles i nacions amb els que compartir futur.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.10" xml:lang="ca">Però aquella mà estesa, tots ho sabem, va ser, un cop més, rebutjada. L’Estat espanyol, sembla, no en sap ni en vol saber res, de reconciliació ni de sobiranies compartides. El poder es posseeix i no se’n cedeix ni un bri a ningú, menys encara a Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.11" xml:lang="ca">L’Estat espanyol, ho sembla, no sap guanyar, sap derrotar; no sap compartir, sap imposar, humiliar i castigar. El 2010 la societat catalana va reaccionar per necessitat, per instint de supervivència, front a l’evidència que l’Estat espanyol havia decidit completar un projecte d’estat que incloïa l’assimilació definitiva de Catalunya com a realitat política econòmica i social diferenciada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.12" xml:lang="ca">L’acció col·lectiva d’una part molt significativa d’aquesta societat catalana ha estat formidable al llarg d’aquests anys i s’ha convertit en l’experiència democràtica europea més significativa de les últimes dècades. Això és el que ara l’Estat sembla que no admet, no entén ni vol acceptar.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.13" xml:lang="ca">L’1 d’octubre va ser la confirmació, la culminació d’aquest període. Serà recordat –els ho ben asseguro– com el dia en què la ciutadania es va fer mestra del seu destí. Avui, per molt que el Tribunal Constitucional anul·li la comissió creada per esbrinar i delimitar responsabilitats del que va succeir aquell dia, no el podrà esborrar de la nostra memòria col·lectiva. Potser per això l’Estat prescindeix ara de qualsevol fórmula basada en el diàleg i el respecte. Ja no importa, sembla, «que se note el empeño», no importa.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.14" xml:lang="ca">Nosaltres seguirem. N’hem après. Coneixem bé les nostres forces i mesurem millor les de l’Estat. Sabem el que podem esperar d’Europa i el que no podem esperar dels seus grans estats, però som Europa i serem part activa de la regeneració europea.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.15" xml:lang="ca">El vot del 21 de desembre –i vaig acabant– és la confirmació de l'1 d'octubre</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.16" xml:lang="ca">, és també..., el vot del 21 de desembre és també un bon mapa de la societat catalana d’avui, diversa, complexa, una societat que aquest Parlament haurà de saber expressar, amb el màxim respecte, a tots i a cadascú, amb la imprescindible sensibilitat i proximitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.17" xml:lang="ca">No abandonarem la via democràtica. Assumirem el repte del contrast viu i directe amb la ciutadania catalana en el camí d’un projecte per a tots els catalans i catalanes, un projecte que, si fos contra o sense els ciutadans, perdria tot el sentit –sense tots ells–; un projecte al que molts anomenem república, però que també podria dir-se llibertat, justícia, equitat i progrés.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.18" xml:lang="ca">Amb en Jordi Sànchez hem coincidit molt sovint en actes i en diverses oportunitats compartint uns versos d’El cant de la senyera que serveixen també com a definició del país i del moment; són molt breus, diuen: «Dona veu al teu cantaire / llum als ulls i força al braç»; és a dir, dona la veu i el vot al poble, dona intel·ligència als que han de prendre decisions, a les institucions, al Govern i al Parlament, i dona resistència, fermesa, tenacitat al capteniment col·lectiu de la ciutadania catalana, la resistència i la intel·ligència que caldrà per guanyar la llibertat d’Oriol Junqueras, Joaquim Forn, Jordi Cuixart i Jordi Sànchez, i per accelerar el lliure retorn de Carles Puigdemont, Meritxell Serret, Clara Ponsatí, Lluís Puig i Antoni Comín. Aquest país serà sempre nostre.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.19" xml:lang="ca">Moltes gràcies. I visca Catalunya.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.20" xml:lang="ca">Molt bé. Gràcies.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.21" xml:lang="ca">De conformitat amb l’article 2.2 del Reglament, procedirem ara a la lectura de la relació dels diputats i diputades electes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.2.22" xml:lang="ca">I prego a la secretària de la Mesa d’Edat, senyora Rut Ribas, que iniciï la lectura de la relació dels membres electes per la circumscripció de Barcelona.</seg>
+            </u>
+            <note type="speaker">La secretària de la Mesa d’Edat (Rut Ribas i Martí)</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.3" who="RibasRut" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.0" xml:lang="ca">Bon dia a tothom. «La Junta Electoral Provincial, en sessió tinguda els dies 28 de desembre de 2017 i 11 de gener de 2018, d’acord amb els resultats electorals, ha proclamat diputats electes per la circumscripció de Barcelona les senyores i els senyors següents:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.1" xml:lang="ca">»Partit dels Socialistes de Catalunya: Miquel Iceta Llorens, Eva Granados Galiano, Ramon Espadaler Parcerisas, Beatriz Silva Gallardo, Ferran Pedret i Santos, Alícia Romero Llano, Jordi Terrades Santacreu, Assumpta Escarp Gibert, David Pérez Ibáñez, Esther Niubó Cidoncha, Pol Gibert Horcas, Marta Moreta i Rovira, Raúl Moreno Montaña.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.2" xml:lang="ca">»Partit Popular - Partido Popular: Xavier García Albiol, Andrea Levy Soler, Santiago Rodríguez i Serra.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.3" xml:lang="es">»Ciutadans - Partido de la Ciudadanía: Inés Arrimadas García, Carlos Carrizosa Torres, José María Espejo-Saavedra Conesa, Fernando Tomás de Páramo Gómez, Sonia Sierra Infante, Ignacio Martín Blanco, Joan García González, Marina Bravo Sobrino, David Mejía Ayra, Noemí de la Calle Sifré, Antonio Espinosa Cerrato, Susana Beltrán García, Laura Vilchez Sánchez, María Luz Guilarte Sánchez, Martín Eusebio Barra López, Blanca Victoria Navarro Pacheco, José María Cano Navarro, Sergio Sanz Jiménez, Carmen de Rivera Pla, Elisabeth Valencia Mimbrero, María Francisca Valle Fuentes, Munia Fernández-Jordán Celorio, Dimas Gragera Velaz, Manuel Rodríguez de l’Hotellerie de Fallois.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.4" xml:lang="ca">»Esquerra Republicana de Catalunya - Catalunya Sí: Oriol Junqueras i Vies, Marta Rovira i Vergés, Raül Romeva i Rueda, Carme Forcadell i Lluís, Alba Vergés i Bosch, Antoni Comín i Oliveres, Jenn Díaz i Ruiz, Ruben Wagensberg i Ramon, Najat Driouech Ben Moussa, Josep Maria Jové i Lladó, Eva Baró i Ramos, Ernest Maragall i Mira, Rut Ribas i Martí, Antoni Castellà i Clavé, Adriana Delgado i Herreros, Jordi Albert i Caballero, Mònica Palacín i París, Gerard Gómez del Moral i Fuster.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.5" xml:lang="ca">»Candidatura d’Unitat Popular: Carles Riera Albert, Maria Sirvent Escrig, Vidal Aragonés Chicharro.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.6" xml:lang="ca">»Catalunya en Comú - Podem: Xavier Domènech Sampere, Elisenda Alamany Gutiérrez, Jéssica Albiach Satorres, Marta Ribas Frias, Joan Josep Nuet Pujals, Susana Segovia Sánchez, David Cid Colomer.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.3.7" xml:lang="ca">»Junts per Catalunya: Carles Puigdemont i Casamajó, Jordi Sànchez i Picanyol, Clara Ponsatí i Obiols, Jordi Turull i Negre, Laura Borràs i Castanyer, Josep Rull i Andreu, Joaquim Forn i Chiariello, Eduard Pujol i Bonell, Aurora Madaula i Giménez, Elsa Artadi i Vila, Joaquim Torra i Pla, Lluís Font i Espinós, Josep Riera i Font, Anna Tarrés i Campà, Maria Isabel Ferrer i Àlvarez, Francesc de Dalmases i Thió, Josep Costa i Rosselló.»</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.4" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.4.0" xml:lang="ca">Molt bé. Moltes gràcies. Prego ara al secretari de la Mesa d’Edat, senyor Gerard Gómez del Moral, que continuï la lectura de la relació de diputats i diputades electes per les circumscripcions de Girona, Lleida i Tarragona.</seg>
+            </u>
+            <note type="speaker">El secretari de la Mesa d’Edat (Gerard Gómez del Moral i Fuster)</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.5" who="GomézGerard" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.0" xml:lang="ca">Gràcies. «Per la circumscripció de Girona, la Junta Electoral Provincial, en sessió tinguda el dia 27 de desembre de 2017, d’acord amb els resultats electorals ha proclamat diputats electes per la circumscripció de Girona les senyores i els senyors següents:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.1" xml:lang="ca">»Partit dels Socialistes de Catalunya - PSC-PSOE: Rafel Bruguera Batalla.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.2" xml:lang="ca">»Esquerra Republicana - Catalunya Sí: Dolors Bassa i Coll, Roger Torrent i Ramió, Anna Caula i Paretas, Sergi Sabrià i Benito.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.3" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía: Jean Marie Castel Sucarrat, Alfonso Sánchez Fisac, Héctor Amelló Montiu, María del Camino Fernández Riol.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.4" xml:lang="ca">»Candidatura d’Unitat Popular: Natàlia Sànchez Dipp.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.5" xml:lang="ca">»Junts per Catalunya: Gemma Geis Carreras, Lluís Puig Gordi, Marta Madrenas Mir, Narcís Clara Lloret, Lluís Guinó Subirós, Jordi Munell García, Francesc Xavier Ten Costa.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.6" xml:lang="ca">»Per la circumscripció de Lleida, la Junta Electoral Provincial, en sessió tinguda el dia 24 de desembre de 2017, d’acord amb els resultats electorals, ha proclamat diputats electes per la circumscripció de Lleida les senyores i els senyors següents:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.7" xml:lang="ca">»Partit dels Socialistes de Catalunya - PSC-PSOE: Òscar Ordeig Molist.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.8" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía: Jorge Soler González, Javier Rivas Escamilla, David Bertran Román.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.9" xml:lang="ca">»Esquerra Republicana - Catalunya Sí: Meritxell Serret i Aleu, Bernat Solé i Barril, Gemma Espigares i Tribó, Francesc Viaplana i Manresa, Montserrat Fornells i Solé.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.10" xml:lang="ca">»Junts per Catalunya: Josep Maria Forné i Febrer, Marc Solsona Aixalà, Immaculada Gallardo Barceló, Xavier Quinquillà Durich, Montserrat Macià Gou, Anna Geli España.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.11" xml:lang="ca">»Per la circumscripció de Tarragona, la Junta Electoral Provincial, en sessió tinguda el dia 25 de desembre de 2017, d’acord amb els resultats electorals, ha proclamat diputats electes per la circumscripció de Tarragona les senyores i els senyors següents:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.12" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía: Matías Alonso Ruiz, Lorena Roldán Suárez, Carlos Sánchez Martín, Francisco Javier Domínguez Serrano, Maialen Fernández Cabezas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.13" xml:lang="ca">»Esquerra Republicana - Catalunya Sí: Òscar Peris i Ródenas, Noemí Llauradó i Sans, Josep Lluís Salvadó i Tenesa, Irene Fornós i Curto, Ferran Civit i Martí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.14" xml:lang="ca">»Junts per Catalunya: Eusebi Campdepadrós i Pucurull, Teresa Pallarès Piqué, Albert Batet Canadell, Mònica Sales de la Cruz.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.15" xml:lang="ca">»Partit dels Socialistes de Catalunya - PSC-PSOE: Rosa María Ibarra Ollé, Carles Castillo Rosique.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.16" xml:lang="ca">»Catalunya en Comú - Podem: Yolanda López Fernández.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.5.17" xml:lang="ca">»Partit Popular - Partido Popular: Alejandro Fernández Álvarez.»</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.6" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.0" xml:lang="ca">Molt bé. Aquesta presidència, un cop escoltada la lectura de tots els diputats electes, fa constar que tots els membres del Parlament han complert efectivament amb els requisits que estableix l’article 23 del Reglament per accedir al ple exercici de la condició de diputat o diputada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.1" xml:lang="ca">A continuació procedirem a l’elecció dels membres de la Mesa del Parlament, i, d’acord amb l’article 43.2 d’aquest Reglament, les votacions per a l’elecció d’aquests càrrecs es fan, com saben, per mitjà de paperetes que hauran de lliurar a aquesta Mesa d’Edat perquè siguin dipositades a l’urna preparada per a aquesta finalitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.2" xml:lang="ca">La primera elecció que correspon fer és la del president o presidenta del Parlament, d’acord amb l’article 44 del Reglament, i per fer aquesta elecció cada diputat o diputada ha d’escriure un sol nom a la papereta, i surt elegit qui obté la majoria absoluta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.3" xml:lang="ca">Es consideraran nul·les les paperetes il·legibles i les que continguin un nombre de noms superior al requerit o noms relatius a persones que no són membres del Parlament. Les paperetes sense cap indicació escrita es consideraran vots en blanc. I recordo a la cambra que els membres de la Mesa votaran al final.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.4" xml:lang="ca">Abans de procedir a la votació, els faig avinent que el diputat Oriol Junqueras ha delegat el seu vot en la senyora Marta Rovira, diputada de la llista electoral d’Esquerra Republicana i Catalunya Sí, i que els diputats Joaquim Forn i Jordi Sànchez han delegat el seu vot en el diputat senyor Jordi Turull, de la llista electoral Junts per Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.5" xml:lang="ca">La Mesa d’Edat admet per a aquesta sessió parlamentària les delegacions de vot formulades per considerar que hi concorre la causa d’incapacitat perllongada a què fa referència l’article 93.2 del Reglament de la cambra, i atès també el principi democràtic fonamental l’exercici del dret de participació política dels diputats electes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.6" xml:lang="ca">Així doncs, un cop escoltades les intervencions, aquesta Mesa confirma la decisió de...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.6.7" xml:lang="ca">Sí, perdó. Demana la paraula, senyora Arrimadas?</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.7" who="ArrimadasInés" ana="member" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.7.0" xml:lang="es">Sí, señor presidente; por una cuestión de orden.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.7.1" xml:lang="es">Sí. Como el Reglamento en su artículo 93 fija muy claramente cuales son las causas para poder delegar el voto y tenemos además un informe de los letrados del Parlament que no avala la delegación de voto que usted nos acaba de informar que la Mesa de Edad sí que ha aprobado, le pediría, por favor, una reconsideración de esta decisión.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.7.2" xml:lang="es">Yo creo que el Parlament de Catalunya tiene que estar al servicio de todos los catalanes y me parece que no se puede empezar con mal pie, no se puede empezar saltándonos el Reglamento del Parlament. Quiero recordar que las tres causas que recoge el artículo 93 para la delegación del voto son muy claras: la primera es tener un permiso de maternidad o paternidad; la segunda es tener una enfermedad grave, o la tercera es una incapacidad. Insisto, teniendo en cuenta el artículo 93 del Reglamento y teniendo en cuenta los informes del letrado, le pido, señor presidente de la Mesa de Edad del Parlament, una reconsideración respecto a esta decisión.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.7.3" xml:lang="es">Creo que esta sesión plenaria, sinceramente, ha empezado con mal pie, porque creo que hemos empezado asistiendo a un mitin de Esquerra que no se corresponde con una sesión de constitución del Parlament, y le quería recordar que si usted ocupa este cargo honorable, aunque solo sea por un día, es porque es el diputado de mayor edad, y eso no creo que le faculte para hacer un mitin de Esquerra, que por cierto quiero recordar que es la tercera fuerza parlamentaria en el Parlament de Catalunya. Así que por favor...</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.8" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.8.0" xml:lang="ca">Molt bé; gràcies, senyora Arrimadas...</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.9" who="ArrimadasInés" ana="member" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.9.0" xml:lang="es">...reconsidere esta decisión.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.9.1" xml:lang="es">Gracias.</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.10" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.10.0" xml:lang="ca">Molt bé. Aquesta presidència recorda que la Mesa d’Edat té atribuïdes les funcions d’ordenació i direcció d’aquesta sessió constitutiva.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.10.1" xml:lang="ca">Hi ha una altra paraula demanada, senyor...?</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.10.2" xml:lang="ca">També per un minut, si li sembla bé, senyor... Fernández.</seg>
+            </u>
+            <note type="speaker">Santi Rodríguez i Serra</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.11" who="RodríguezSanti" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.11.0" xml:lang="ca">Rodríguez, senyor Maragall.</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.12" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.12.0" xml:lang="ca">Rodríguez.</seg>
+            </u>
+            <note type="speaker">Santi Rodríguez i Serra</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.13" who="RodríguezSanti" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.13.0" xml:lang="ca">Sí, amb relació... –és qüestió d’ordre–, també amb relació a la decisió que acaba de prendre la Mesa d’Edat, amb relació a la petició de vots delegats, deixar constància que per part del nostre grup discrepem de la interpretació que ha fet la Mesa d’Edat del que diu el Reglament en el seu article 93.2. Entenem que aquesta decisió que acaba de prendre la Mesa suposa de facto una ampliació dels supòsits de delegació de vot, la qual cosa entenem que no correspon adoptar per una mesa d’edat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.13.1" xml:lang="ca">I, per tant, expressem des d’aquesta posició la discrepància dels diputats del Partit Popular amb relació a aquesta decisió adoptada.</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.14" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.14.0" xml:lang="ca">Gràcies, moltes gràcies. Hi ha algun altre portaveu que demani...?</seg>
+               <note>(Miquel Iceta i Llorens demana per parlar.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.14.1" xml:lang="ca">Senyor Iceta?</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.14.2" xml:lang="ca">També amb la mateixa llargada, si pot ser...</seg>
+            </u>
+            <note type="speaker">Miquel Iceta i Llorens</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.15" who="IcetaMiquel" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.15.0" xml:lang="ca">Sí, molt breument; per, en aquest cas, estar d’acord amb la decisió de la Mesa d’Edat, que crec que és la millor interpretació possible tant de la interlocutòria del jutge com de l’informe dels lletrats de la cambra.</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.16" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.0" xml:lang="ca">Gràcies. Hi ha alguna altra intervenció?</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.1" xml:lang="ca">No?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.2" xml:lang="ca">Només fer-los avinent, doncs, que..., en fi, que aquesta Mesa d’Edat té atribuïdes les funcions d’ordenació i direcció d’aquesta sessió constitutiva, així com, si escau, resoldre les incidències referides en aquesta sessió, respecte de les quals el Reglament no preveu la possibilitat, com saben, de demanar reconsideració.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.3" xml:lang="ca">De manera que, un cop escoltades les intervencions i deixat clar quina és la situació des del punt de vista reglamentari, aquesta Mesa confirma la decisió d’acceptar les sol·licituds de delegacions de vot formulades, de manera que prego a la secretària senyora Ribas que iniciï el procediment de votació amb la crida dels diputats i diputades, en aquesta ocasió, per ordre alfabètic, eh?</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.4" xml:lang="ca">Necessitem l’urna. Suposo que la tenim aquí mateix... I podem començar, doncs, immediatament la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.5" xml:lang="ca">Gràcies.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.6" xml:lang="ca">Som-hi; endavant, senyora Ribas.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.7" xml:lang="ca">Sí, perdó... Preguem silenci, perquè tothom pugui escoltar el seu nom i accelerar el..., en fi, agilitzar la votació. Gràcies.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per ordre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.8" xml:lang="ca">Molt bé, doncs. Completada la votació, procedirem ara a l’escrutini. Podem, doncs, organitzar la...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.9" xml:lang="ca">Anirem dient els noms en veu alta, de cada papereta, i així podem anar fent, tots plegats, el recompte manual.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.10" xml:lang="ca">Sembla que coincideixen els comptes que s’han fet des dels serveis i des de la mateixa Mesa. El resultat és: senyor Roger Torrent, 65 vots; senyor José María Espejo-Saavedra, 56 vots; en blanc, 9 vots, i cap vot nul, cosa de la que em felicito.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.11" xml:lang="ca">En qualsevol cas, atès que no s’ha assolit la majoria absoluta de membres d’aquesta cambra, s’ha de procedir, com vostès saben, a una segona votació. De manera que tornarem a començar la crida per ordre alfabètic dels senyors i senyores diputats.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.12" xml:lang="ca">Tornem a tancar l’urna, guardem això. Això s’ha de guardar, no?, de totes maneres? Això s’ha de guardar, i s’ha de guardar bé, eh?</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.13" xml:lang="ca">Molt bé, doncs. Procedim a la segona votació. Comença la senyora Ribas.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.14" xml:lang="ca">Tal com preveu el Reglament, es tracta en aquest cas, evidentment, d’una votació entre els dos candidats amb major nombre de vots. Només hi ha dos candidats amb vots atribuïts, doncs..., la votació es repeteix entre aquests dos noms, entre aquests dos candidats.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.15" xml:lang="ca">Endavant, senyora Ribas.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per ordre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.16" xml:lang="ca">Molt bé, doncs. Completada aquesta segona votació, procedirem a l’escrutini, el més àgilment que siguem capaços.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.17" xml:lang="ca">Molt bé. El recompte, coincident, dona altre cop els mateixos nombres que l’anterior: senyor Roger Torrent, 65 vots; senyor José María Espejo, 56; en blanc, 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.18" xml:lang="ca">Queda, doncs, proclamat el senyor Roger Torrent i Ramió com a president del Parlament de Catalunya.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.19" xml:lang="ca">Seguim, doncs, amb la votació per a l’elecció dels dos vicepresidents. Com vostès saben, i d’acord amb l’article 44.2 del Reglament, cada diputat o diputada ha d’escriure un nom a la papereta i surten elegits els qui per ordre correlatiu obtenen una majoria de vots.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.20" xml:lang="ca">Prego, doncs, altre cop a la senyora Ribas que iniciem la crida dels diputats per ordre alfabètic. Endavant.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per ordre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.21" xml:lang="ca">Molt bé. Acabada, doncs, aquesta votació per a l’elecció de vicepresidents, procedim un cop més a l’escrutini. Endavant.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.22" xml:lang="ca">Molt bé, doncs, procedim al recompte.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.23" xml:lang="ca">El nombre de vots dels respectius candidats és el de: 65 vots per al senyor Josep Costa i Rosselló; 57 vots per al senyor José María Espejo-Saavedra, i 8 vots en blanc.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.24" xml:lang="ca">D’aquesta manera queden, doncs, proclamats vicepresident primer el senyor Josep Costa i Rosselló, i vicepresident segon al senyor José María Espejo-Saavedra.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments llargs i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.25" xml:lang="ca">Bé, podem prosseguir, doncs, amb la –en principi– última votació de la jornada: la votació per elegir els quatre secretaris de la Mesa del Parlament de Catalunya. I, d’acord amb l’article 44.3 del Reglament, per a l’elecció dels secretaris s’ha d’escriure igualment un sol nom a la papereta, i surten elegits per ordre de vots els quatre que n’obtenen més.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.26" xml:lang="ca">Prego, doncs, a la senyora Rut Ribas que tornem a començar amb la crida dels diputats per ordre alfabètic. Endavant.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per odre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.27" xml:lang="ca">Molt bé. Completada, doncs, aquesta última votació, anem a procedir a l’escrutini.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.28" xml:lang="ca">Molt bé. Procedit, doncs, el recompte..., ho teniu clar?</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.29" xml:lang="ca">Em sembla que els resultats dels tres recomptes coincideixen.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.30" xml:lang="ca">Tenim, doncs, per ordre de vots: el senyor Eusebi Campdepadrós, amb 41 vots; el senyor David Pérez, en segon lloc, amb 30; el senyor Joan García, amb 27, i la senyora Alba Vergés, amb 24 vots.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.31" xml:lang="ca">Queden, doncs, proclamats com a primer secretari el senyor Eusebi Campdepadrós; com a segon secretari, el senyor David Pérez; com a tercer secretari, el senyor Joan García, i, com a quarta secretària, la senyora Alba Vergés.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.32" xml:lang="ca">Fins aquí les votacions.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.33" xml:lang="ca">Aquí acaba la nostra tasca i agrair la paciència i l’atenció, en nom propi i en nom d’aquests autèntics i futurs grans ciutadans de Catalunya, presents i futurs, els senyor Gerard Gómez del Moral i la senyora Rut Ribas, de Sant Sadurní, de Barcelona, com jo, en definitiva, de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.34" xml:lang="ca">Moltes gràcies a tots ells i a tots vostès.</seg>
+               <note>(Elisenda Alamany Gutiérrez demana la paraula.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.16.35" xml:lang="ca">Perdó, hi ha una demanda de qüestió d’ordre... Digui, digui.</seg>
+            </u>
+            <note type="speaker">Elisenda Alamany Gutiérrez</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.17" who="AlamanyElisenda" ana="member" xml:lang="ca">
+               <gap reason="inaudible">
+                  <desc>(L’oradora comença a parlar sense fer ús del micròfon, motiu pel qual no n’han quedat enregistrats els primers mots.)</desc>
+               </gap>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.17.0" xml:lang="ca">Nosaltres volíem manifestar, en tot cas, en primer lloc, que el 10 d’abril de 1980 en aquest hemicicle s’asseien set dones. M’agradaria recordar què representa que set dones s’asseguin en un hemicicle envoltades d’homes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.17.1" xml:lang="ca">La nostra decepció, perquè aquesta Mesa no representa la pluralitat del nostre país, i crec que a tothom ens hauria de coure una mica l’escó pensar que aquesta Mesa no reflecteix la pluralitat d’aquest Parlament. Som el Parlament amb més dones de la història i, malauradament, aquesta Mesa no reflectirà això.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.17.2" xml:lang="ca">En primer lloc, aquesta decepció, però, en segon lloc, és que això també incompleix la Llei d’igualtat, en el seu article 12, que contempla que els òrgans col·legiats de les administracions públiques han de contemplar la seva paritat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.17.3" xml:lang="ca">Per tant, crec que quan obrim la porta a reformar el Reglament hauríem de pensar també, quan el reformem, que el reformem realment també per fer avançar el país, també, en aquesta matèria.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.17.4" xml:lang="ca">Gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.18" who="MaragallErnest" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.18.0" xml:lang="ca">Molt bé. Queda dit i ben dit.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.18.1" xml:lang="ca">Convido el senyor Roger Torrent, president del Parlament, els senyors Josep Costa i José Maria Espejo, vicepresidents, i els senyors Eusebi Campdepadrós, David Pérez, Joan García i Alba Vergés, a ocupar els seus llocs en aquesta Mesa.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.18.2" xml:lang="ca">Moltes gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments. Els membres de la Mesa del Parlament ocupen llurs llocs.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president del Parlament (Roger Torrent i Ramió)</note>
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.19" who="TorrentRoger" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.0" xml:lang="ca">Molt honorables presidents del Parlament, Rigol, Benach, presidenta De Gispert i presidenta Forcadell, diputats, diputades, autoritats, senyores i senyors, en primer lloc, vull expressar el meu agraïment a les diputades i diputats que m’han votat, i, per tant, que m’han fet confiança, i, als que no ho han fet, dir-los que intentaré guanyar-me aquesta confiança durant el meu mandat. Tinc el ferm compromís de treballar per a totes i tots els diputats de la cambra, com correspon al meu càrrec.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.1" xml:lang="ca">Alguns avui han fet notar la meva joventut –ja saben que això és una qüestió circumstancial–, diuen que soc el president més jove. Si m’ho permeten, de l’anècdota en voldria fer una categoria: no m’agradaria que el fet que jo fos jove fos atzarós; voldria pensar, en canvi, que es tracta d’un símptoma; un símptoma d’un relleu natural i necessari en els espais de decisió i responsabilitat política. El país avança també en aquest sentit, ho ha de fer.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.2" xml:lang="ca">Accedir a la presidència del Parlament de Catalunya és un honor immens i alhora és també, evidentment, una gran responsabilitat. Per les funcions, perquè és la segona autoritat del país, i perquè aquesta institució representa políticament el poble de Catalunya. Però segurament, en aquesta legislatura, en aquests moments, la responsabilitat és encara més gran pel context complex i anòmal al qual hem de fer front.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.3" xml:lang="ca">Vull recordar els escons buits. Vull recordar que tres diputats d’aquesta cambra es troben en aquests moments en presó preventiva. Oriol Junqueras i Joaquim Forn ho estan des de fa setanta-sis dies; Jordi Sànchez en porta noranta-tres, conjuntament amb el president d’Òmnium, Jordi Cuixart. Una presó preventiva que, en opinió d’un gran nombre de juristes i experts en dret, és absolutament injustificada i que impedeix que puguin exercir plenament, lliurement, els seus drets polítics; no només els seus, sinó també d’aquells a qui representen, és a dir, dels seus votants. I cal recordar també que altres cinc diputats –diputat Comín, Ponsatí, Puig i Serret i el mateix president Puigdemont– es troben a Brussel·les, advertits de rebre el mateix tracte si tornen al país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.4" xml:lang="ca">No seria honest per part meva, i sobretot no seria responsable amb el que procurem representar i protegir, si no denunciés contundentment aquesta situació, si no denunciés els escons buits. En aquesta cambra hi ha cent trenta-cinc veus, i jo haig de defensar el dret d'expressió de totes, completament totes. Dels que avui són aquí, però especialment dels que no hi poden ser.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.5" xml:lang="ca">Aquest és el context en el qual afrontem aquesta legislatura, amb aquesta situació. Però alhora també l’afrontem amb el Ministeri d’Hisenda del Govern espanyol, que intervé les finances de la Generalitat des de fa mesos. I està en vigor també l’aplicació de l’article 155 de la Constitució espanyola, mitjançant el qual el Govern espanyol va dissoldre aquesta cambra, va limitar-ne les funcions, va cessar el Govern de la Generalitat i manté intervinguda l’Administració.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.6" xml:lang="ca">Davant d’aquest escenari sense precedents, sense precedents democràtics, el primer pas és posar fi, immediatament, a la intervenció de les nostres institucions. Cal recuperar la normalitat institucional necessària per estar al servei del país i per atendre amb eficàcia les demandes i la voluntat de la ciutadania.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.7" xml:lang="ca">Correspon als grups, correspon a vostès fixar l’agenda i el rumb polític dels propers anys, però en el que depèn de mi, en el que depèn d’aquesta presidència, treballaré incansablement perquè aquesta legislatura la política torni a situar-se al centre de tot.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.8" xml:lang="ca">Conjurem-nos tots, conjurem-nos per recuperar les institucions del país i tornar-les a posar al servei de la ciutadania al més aviat possible, conjurem-nos per recuperar les institucions i posar-les en mans de la ciutadania. De fet, amb aquest Ple constitutiu de la legislatura, amb la votació que acabem de realitzar, recuperem la institució política essencial del país, dipositària de la nostra sobirania, l’encarregada de fer realitat els mandats democràtics del nostre poble.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.9" xml:lang="ca">Hem de tenir sempre present que les urnes són el nostre origen, són la màxima expressió del que representem. I res que no impliqui respectar-ne la seva veu, respectar-ne el seu resultat, és assumible en termes d’integritat democràtica.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.10" xml:lang="ca">Ens correspon restituir, enfortir també i preservar la sobirania del Parlament, no només per una obligació històrica, de continuïtat i de voluntat de ser com a poble, sinó per garantir i enfortir els drets civils i els drets socials del nostre país. En un moment en què en molts països del nostre entorn s’està produint una regressió en els drets socials, nosaltres aquí tenim l’obligació de defensar els que més pateixen, aquells a qui les crisis sempre els exclouen una mica més, els que més pateixen les conseqüències d’un sistema econòmic que genera desigualtats. Aquest també és el meu desig. Fem que aquesta cambra sigui una aliada de totes aquestes persones, fem que la nostra feina sigui útil en aquest sentit. Fem que el progrés social sigui també un objectiu irrenunciable d’aquest Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.11" xml:lang="ca">Per això em proposo treballar sense descans per ajudar a restituir plenament el conjunt de les nostres institucions, treballar incansablement per restituir plenament el conjunt de les nostres institucions. Ho faré humilment, des de la meva experiència prèvia com a diputat en aquesta cambra i com a alcalde.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.12" xml:lang="ca">I aprofito aquest fet per reivindicar la tasca que es fa al món municipal, el compromís de centenars i centenars d’alcaldes i milers de regidors que amb honestedat, amb esforç, al dia a dia, des del seu poble o des de la seva ciutat, ajuden a construir també un país millor. Perquè treballar al món municipal significa gestionar conflictes, treballar colze a colze amb la ciutadania, teixir acords amb aquells que no sempre pensen com tu, però amb els que ens hem d’entendre.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.13" xml:lang="ca">I és amb aquest esperit, amb aquest mateix esperit, que em plantejo exercir la responsabilitat que ara m’ha estat atorgada. És amb aquest mateix esperit que vull contribuir a cercar l’entesa i el diàleg en la vida política catalana, que té, evidentment, en aquesta cambra i ha de tenir un espai central.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.14" xml:lang="ca">En la meva trajectòria personal i política sempre he procurat estendre la mà, a tothom, sense excepció. Em comprometo ara a seguir en aquesta línia, a seguir fent-ho. Els demano, això sí, col·laboració, col·laboració a tots vostès i voluntat franca d’ajudar en el bon govern d’aquesta institució. Però alhora em permeto exigir-los una cosa: exigir-los respecte; respecte a la institució, respecte a tots i cadascun dels diputats i diputades i respecte, en definitiva, pels vots de la gent, respecte per la voluntat popular.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.15" xml:lang="ca">Molts de vostès m’han conegut com a diputat i saben el que penso. Aquest, de fet, és el meu patrimoni personal i polític, al qual no penso renunciar mai, en cap cas. Però més enllà de les conviccions polítiques, personals, hi han els principis; per damunt de les conviccions hi han els principis. I en aquest sentit jo personalment vull fer de la democràcia i la convivència els pilars fonamentals del meu mandat, aquests principis bàsics. Vull contribuir a cosir, a cosir també la societat catalana a través d’aquests dos principis, d’aquests dos fonaments. De fet, som una societat d’identitats creuades: identitats d’origen, de gènere, de classe, d’ideologia, de creences i de conviccions, identitats múltiples. Davant d’aquesta pluralitat, que és una riquesa en si mateixa, la cohesió s’ha de fonamentar en els elements comuns que garanteixen la convivència: els principis democràtics, el respecte absolut pels drets i les llibertats fonamentals, la justícia social i, en definitiva, l’essència del que entenem com a republicanisme.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.16" xml:lang="ca">Les successives presidències del Parlament de Catalunya, tot i els diferents i lògics accents ideològics, sempre han mantingut una clara línia de continuïtat institucional entorn del compromís i de la determinació en la defensa de la institució, així com dels drets i les llibertats públiques. I en aquest sentit vull agrair i fer-me deutor d’aquesta línia de continuïtat, però sobretot vull agrair en particular la tasca de la presidenta Forcadell. Com ha defensat ella, reiteradament, des d’aquí on jo avui m’assec, però també arreu, al Parlament s’ha de poder parlar de tot, al Parlament s’ha de poder parlar del que vulguin els diputats i les diputades. Perquè, si no, per a què serveix un parlament, si no és precisament per donar veu a totes els diputats i les diputades i, per tant, a tots aquells a qui representen?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.17" xml:lang="ca">De fet, quan un debat és viu a la societat, quan és present entre els ciutadans, quan forma part dels anhels i dels desitjos d’una majoria, és imprescindible que aquest debat pugui tenir cabuda en aquesta cambra. Aquells que creiem en la democràcia, aquells que participem de les seves institucions, mai hem de tenir por d’ella, mai hem de tenir por de la democràcia, i mai hem de renunciar al debat i a la paraula. Les diputades i els diputats hem de poder portar aquí al Parlament les veus del país, que són moltes i són diverses. I, com deia l’enyorada Muriel Casals, la nostra tasca és compartir, contrastar visions diferents i trobar, al final, espais de confluència.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.18" xml:lang="ca">Aquest és un país molt plural, i així queda reflectit en aquest Parlament, un parlament que ha estat legitimat per una participació del 79 per cent. Atenent a aquesta pluralitat, la presidenta Forcadell va fer un gest significatiu en obrir les reunions de la Mesa als representants dels partits que no formen part d’ella. Anuncio, ara ja, que vull donar continuïtat a aquesta mesura, perquè tots representem una part del país i vull que tots ens sentim part d’aquest Parlament, que és el de totes i és el de tots els catalans.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.19" xml:lang="ca">És un parlament amb història, i això afegeix un altre pes a la responsabilitat del càrrec. Em precedeixen, per exemple, noms com el de Josep Irla, fins avui l’únic gironí president del Parlament. D’ell em sento deutor, de la seva capacitat de persistència i de la seva lleialtat al país. I, per tant, intentarem, des d’aquesta presidència, complir amb aquell llegat que ens deixava el president Irla.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.20" xml:lang="ca">Per altra banda, succeeixo ja més recentment en el càrrec dues dones: la presidenta De Gispert i la presidenta Forcadell, que han representat amb gran dignitat i compromís aquesta institució. En faig esment perquè la igualtat efectiva és encara un repte pendent de la nostra societat, també a les nostres institucions, i personalment em sento compromès amb la lluita feminista, perquè el repte de la igualtat ens reclama la implicació de totes i de tots, i també, i en especial, dels homes, un repte per als cent trenta-cinc diputats i diputades d’aquesta cambra. No volem iniciar cap més ple lamentant l’assassinat d’una dona, lamentant un crim de violència masclista. Com a país –i aquest és el nostre repte–, no ens podem permetre ni un sol cas, ni un sola dona assassinada més.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.21" xml:lang="ca">Senyores diputades, senyors diputats, tenim molts reptes, tenim molta feina i, evidentment, una gran responsabilitat. La ciutadania ha dipositat la seva confiança en tots i cadascun de nosaltres; no els podem defraudar. Fem d’aquest Parlament un espai on el diàleg i l’entesa ens ajudin a construir una societat millor.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.22" xml:lang="ca">Deia Stefan Zweig, de qui em declaro fervent seguidor, que el nostre món té espai per a moltes veritats, i no només per a una; i simplement, si els homes volguessin, podrien conviure amb les altres.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.23" xml:lang="ca">Tots els electes tenim un propòsit comú: el de representar el millor possible els nostres votants, portar aquí al Parlament la seva veu, les seves demandes, els seus anhels, per tal de construir un país millor, més just i més lliure. Que cadascú ho faci des de les seves posicions, que cadascú defensi els seus projectes polítics; tots, òbviament, hi tenen cabuda. Però els demano que sempre es faci mantenint el respecte als altres.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.24" xml:lang="ca">Diputats i diputades, de tots nosaltres depèn no fallar en la confiança dels nostres conciutadans. A les nostres mans està refer i recuperar el protagonisme de les nostres institucions, un protagonisme que es basi en la capacitat de transformar i fer avançar el país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.25" xml:lang="ca">Els emplaço a posar-nos al servei de la ciutadania i a fer que els debats i els acords en aquest Parlament permetin conrear la llavor de l’esperança en un país que sempre, sempre, sempre, persisteix i que sempre se n’acaba sortint. Malgrat tots els obstacles, malgrat totes les dificultats, aquest país sempre persisteix i se n’acaba sortint.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.26" xml:lang="ca">Visca la democràcia i visca Catalunya!</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.27" xml:lang="ca">Els convido a cloure aquesta sessió constitutiva de la dotzena legislatura, amb l’himne nacional de Catalunya.</seg>
+               <kinesic type="applause">
+                  <desc>(La cambra, dempeus, canta Els segadors. Crits de: «Visca Catalunya lliure!» Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.28" xml:lang="ca">S’aixeca...</seg>
+               <note>(Crits de «Llibertat!»)</note>
+               <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.19.29" xml:lang="ca">S’aixeca la sessió.</seg>
+            </u>
+            <note>La sessió s’aixeca a dos quarts de dues del migdia i tres minuts.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
