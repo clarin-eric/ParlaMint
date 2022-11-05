@@ -261,7 +261,7 @@
       <xsl:if test="normalize-space($words) and $words != '0'">
 	<xsl:attribute name="quantity" select="$words"/>
 	<xsl:if test="$old-words != $words">
-	  <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
 			       ': replacing words ', $old-words, ' with ', $words)"/>
 	</xsl:if>
 	<xsl:value-of select="replace(., '.+ ', concat(

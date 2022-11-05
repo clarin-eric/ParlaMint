@@ -91,7 +91,7 @@ close TMP;
 `rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-$command = "$Saxon hdr=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
+$command = "$Saxon meta=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
 
