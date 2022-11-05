@@ -116,6 +116,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $anaDir  = "$XX.TEI.ana";
     $anaRoot = "$anaDir/$XX.ana.xml";
 
+    $inTeiDir = "$inDir/$teiDir";
+    $inAnaDir = "$inDir/$anaDir";
+
+    $listOrg    = "$XX-listOrg.xml";
+    $listPerson = "$XX-listPerson.xml";
+    $taxonomies = "*-taxonomy-*.xml";
+    
     $inTeiRoot = "$inDir/$teiRoot";
     $inAnaRoot = "$inDir/$anaRoot";
 
@@ -127,8 +134,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outTxtDir  = "$outDir/$XX.txt";
     $outConlDir = "$outDir/$XX.conllu";
     $outVertDir = "$outDir/$XX.vert";
-    #$vertRegi   = lc "parlamint20_$countryCode.regi";
-    $vertRegi   = lc "parlamint21_$countryCode.regi";
+    #$vertRegi   = lc "parlamint21_$countryCode.regi";
+    $vertRegi   = lc "parlamint30_$countryCode.regi";
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
@@ -138,6 +145,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
+	my $inListOrg = "$inAnaDir/$listOrg";
+	if (-e $inListOrg) {copy($inListOrg, "$outAnaDir/$listOrg")}
+	else {print STDERR "WARN: $inListOrg not found\n"}
+	my $inListPerson = "$inAnaDir/$listPerson";
+	if (-e $inListPerson) {copy($inListPerson, "$outAnaDir/$listPerson")}
+	else {print STDERR "WARN: $inListPerson not found\n"}
+	my $inTaxonomies = "$inAnaDir/$taxonomies";
+	foreach my $inTaxonomy (glob $inTaxonomies) {
+	    ($outTaxonomy = $inTaxonomy) =~ s/\Q$inAnaDir\E/$outAnaDir/;
+	    copy($inTaxonomy, $outTaxonomy)
+	}
 	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
     	&polish($outAnaDir);
     }
@@ -146,7 +164,20 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
-	dircopy($schemaDir, "$outTeiDir//Schema");
+	dircopy($schemaDir, "$outTeiDir/Schema");
+	`rm -f $outTeiDir/Schema/.gitignore`;
+	`rm -f $outTeiDir/Schema/nohup.*`;
+	my $inListOrg = "$inTeiDir/$listOrg";
+	if (-e $inListOrg) {copy($inListOrg, "$outTeiDir/$listOrg")}
+	else {print STDERR "WARN: $inListOrg not found\n"}
+	my $inListPerson = "$inTeiDir/$listPerson";
+	if (-e $inListPerson) {copy($inListPerson, "$outTeiDir/$listPerson")}
+	else {print STDERR "WARN: $inListPerson not found\n"}
+	my $inTaxonomies = "$inTeiDir/$taxonomies";
+	foreach my $inTaxonomy (glob $inTaxonomies) {
+	    ($outTaxonomy = $inTaxonomy) =~ s/\Q$inTeiDir\E/$outTeiDir/;
+	    copy($inTaxonomy, $outTaxonomy)
+	}
 	`$SaxonX anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
 	&polish($outTeiDir);
     }
@@ -224,7 +255,7 @@ sub dirify {
     }
 }
 
-#Read in the appropriate README and output it to appropriate directory
+#Read in the appropriate $inFile README, change XX in it to country code, and output it $outFile
 sub cp_readme {
     my $country = shift;
     my $inFile = shift;
