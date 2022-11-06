@@ -1,8 +1,11 @@
 #!/usr/bin/perl
-# Finalize ParlaMint files
-# Tomaž Erjavec <tomaz.erjavec@ijs.si>
-# License: GNU GPL
-
+# Make ParlaMint corpora ready for distribution:
+# 1. Finalize input corpora (release, date, handle, extent)
+# 2. Validate corpora
+# 3. Produce derived format
+# License: CC0
+# Uses proper command line options.
+#
 use warnings;
 use utf8;
 use open ':utf8';
