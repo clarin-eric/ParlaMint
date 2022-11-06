@@ -241,7 +241,7 @@ sub polish {
 }
 #If a directory has more than $MAX files, store them in year directories
 sub dirify {
-    my $MAX = 1023;
+    my $MAX = 1;  #In ParlaMint II we always put them in year directories
     my $inDir = shift;
     my @files = glob("$inDir/*");
     if (scalar @files > $MAX) {
