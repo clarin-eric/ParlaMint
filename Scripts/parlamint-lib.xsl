@@ -325,6 +325,12 @@
 		  <xsl:copy-of select="."/>
 		</xsl:if>
 	      </xsl:when>
+	      <xsl:when test="@to">
+		<xsl:if test="et:between-dates($date-from, '1000-01-01', @to) and
+			      et:between-dates($date-to, '1000-01-01', @to)">
+		  <xsl:copy-of select="."/>
+		</xsl:if>
+	      </xsl:when>
 	      <xsl:otherwise>
 		<xsl:copy-of select="."/>
 	      </xsl:otherwise>
@@ -389,9 +395,9 @@
     <!-- Collect all affiliation references where the speaker is a member and are in 
 	 the correct time-frame for the speech -->
     <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
-    <xsl:variable name="politicalGroups">
+    <xsl:variable name="parliamentaryGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
-	<xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalGroup']"/>
+	<xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
 	<xsl:call-template name="party-name">
 	  <xsl:with-param name="party" select="$party"/>
 	  <xsl:with-param name="full" select="$full"/>
@@ -408,8 +414,8 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($politicalGroups)">
-	<xsl:value-of select="replace($politicalGroups, ';$', '')"/>
+      <xsl:when test="normalize-space($parliamentaryGroups)">
+	<xsl:value-of select="replace($parliamentaryGroups, ';$', '')"/>
       </xsl:when>
       <xsl:when test="normalize-space($politicalParties)">
 	<xsl:value-of select="replace($politicalParties, ';$', '')"/>
@@ -436,6 +442,12 @@
 	    <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
 			  et:between-dates($date-to, @from, $today-iso)">
 	      <xsl:value-of select="@ref"/>
+	    </xsl:if>
+	  </xsl:when>
+	  <xsl:when test="@to">
+	    <xsl:if test="et:between-dates($date-from, '1000-01-01', @to) and
+			  et:between-dates($date-to, '1000-01-01', @to)">
+	      <xsl:copy-of select="@ref"/>
 	    </xsl:if>
 	  </xsl:when>
 	  <xsl:otherwise>
