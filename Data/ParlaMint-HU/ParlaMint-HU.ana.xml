@@ -34,21 +34,21 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure xml:lang="hu" quantity="104115" unit="speeches">104 115 beszéd</measure>
-            <measure xml:lang="en" quantity="104115" unit="speeches">104,115 speeches</measure>
-            <measure xml:lang="hu" quantity="32353437" unit="words">32 353 437 szó</measure>
-            <measure xml:lang="en" quantity="32353437" unit="words">32,353,437 words</measure>
+            <measure xml:lang="hu" quantity="1202" unit="speeches">1.202 beszéd</measure>
+            <measure xml:lang="en" quantity="1202" unit="speeches">1,202 speeches</measure>
+            <measure xml:lang="hu" quantity="187862" unit="words">187.862 szó</measure>
+            <measure xml:lang="en" quantity="187862" unit="words">187,862 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
-               <orgName xml:lang="hu">ClARIN Kutatási Infrastruktúra</orgName>
-               <orgName xml:lang="en">ClARIN research infrastucture</orgName>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN research infrastucture</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="hu">
@@ -60,7 +60,7 @@
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-03-31">2023. 03. 31.</date>
+            <date when="2022-11-06">November 6, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -103,18 +103,23 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="0"/>
-               <tagUsage gi="body" occurs="0"/>
-               <tagUsage gi="div" occurs="0"/>
-               <tagUsage gi="head" occurs="0"/>
-               <tagUsage gi="u" occurs="0"/>
-               <tagUsage gi="seg" occurs="0"/>
-               <tagUsage gi="note" occurs="0"/>
-               <tagUsage gi="gap" occurs="0"/>
-               <tagUsage gi="vocal" occurs="0"/>
-               <tagUsage gi="incident" occurs="0"/>
-               <tagUsage gi="kinesic" occurs="0"/>
-               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="body" occurs="6"/>
+               <tagUsage gi="desc" occurs="2175"/>
+               <tagUsage gi="div" occurs="6"/>
+               <tagUsage gi="gap" occurs="1085"/>
+               <tagUsage gi="incident" occurs="20"/>
+               <tagUsage gi="kinesic" occurs="582"/>
+               <tagUsage gi="link" occurs="221016"/>
+               <tagUsage gi="linkGrp" occurs="11614"/>
+               <tagUsage gi="name" occurs="6158"/>
+               <tagUsage gi="note" occurs="1488"/>
+               <tagUsage gi="pc" occurs="33151"/>
+               <tagUsage gi="s" occurs="11614"/>
+               <tagUsage gi="seg" occurs="3606"/>
+               <tagUsage gi="text" occurs="6"/>
+               <tagUsage gi="u" occurs="1202"/>
+               <tagUsage gi="vocal" occurs="488"/>
+               <tagUsage gi="w" occurs="187862"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -199,18 +204,20 @@
       </profileDesc>
       <revisionDesc>
          <change when="2022-11-05">xi:include taxonomies and particDesc elements</change>
+         <change when="2022-11-06">
+            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2016.02.15.ana.xml"/>
+               href="ParlaMint-HU_2014-05-06.ana.xml"/>
    <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2021.06.14.ana.xml"/>
+               href="ParlaMint-HU_2016-02-15.ana.xml"/>
    <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2018.11.19.ana.xml"/>
+               href="ParlaMint-HU_2017-11-20.ana.xml"/>
    <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2017.11.20.ana.xml"/>
+               href="ParlaMint-HU_2018-11-19.ana.xml"/>
    <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2014.05.06.ana.xml"/>
+               href="ParlaMint-HU_2021-06-14.ana.xml"/>
    <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2022.06.14.ana.xml"/>
+               href="ParlaMint-HU_2022-06-14.ana.xml"/>
 </teiCorpus>
