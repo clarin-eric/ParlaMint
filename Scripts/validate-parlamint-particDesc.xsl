@@ -550,7 +550,7 @@
       <!-- TODO: extend rules -->
       <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and contains(' minister deputyMinister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)consider changing affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead replacement ', mk:borders($role)))">15:WARN)consider changing affiliation role with parliament organization</xsl:when>
       <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister deputyMinister ', mk:borders($role)))">16:WARN)consider changing affiliation role with government organization</xsl:when>
       <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)consider changing affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
