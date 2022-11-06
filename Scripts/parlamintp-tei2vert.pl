@@ -45,6 +45,6 @@ foreach $inFile (@compAnaFiles) {
 }
 close TMP;
 
-$command = "$Saxon hdr=$rootAnaFile -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
+$command = "$Saxon meta=$rootAnaFile -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*.vert`;

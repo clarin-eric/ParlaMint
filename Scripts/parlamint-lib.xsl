@@ -268,6 +268,7 @@
   <!-- e.g. "#regular #topic.144_403_M" -->
   <xsl:function name="et:u-role" as="xs:string">
     <xsl:param name="ana"/>
+    <!--xsl:message terminate="yes" select="concat('THIS: ', $rootHeader)"/-->
     <xsl:for-each select="tokenize($ana, ' ')">
       <xsl:if test="key('idr', ., $rootHeader)/
 		    ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
@@ -334,7 +335,7 @@
 	     coallition(s) / oppositions(s)? -->
 	<!-- We don't check the type of organisation of the speaker's role in it, as we 
 	     assume that this is "ok" -->
-	<xsl:variable name="in-relation">
+	<xsl:variable name="in-relations">
 	  <!-- Collect all affiliation references where the speaker is a member and are in 
 	       the correct time-frame for the speech -->
 	  <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker)"/>
@@ -353,6 +354,11 @@
 		<xsl:value-of select="concat($opposition-label, '&#32;')"/>
 	      </xsl:if>
 	    </xsl:for-each>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:variable name="in-relation">
+	  <xsl:for-each select="distinct-values(tokenize(normalize-space($in-relations)))">
+	    <xsl:value-of select="concat(., '&#32;')"/>
 	  </xsl:for-each>
 	</xsl:variable>
 	<xsl:choose>
