@@ -110,10 +110,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     $XX = $XX_template;
     $XX =~ s|XX|$countryCode|g;
-    
+
     $teiDir  = "$XX.TEI";
+    $anaDir = "$XX.TEI.ana";
+    
     $teiRoot = "$teiDir/$XX.xml";
-    $anaDir  = "$XX.TEI.ana";
     $anaRoot = "$anaDir/$XX.ana.xml";
 
     $inTeiDir = "$inDir/$teiDir";
@@ -125,6 +126,9 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     $inTeiRoot = "$inDir/$teiRoot";
     $inAnaRoot = "$inDir/$anaRoot";
+    #In case input dir is for samples
+    unless (-e $inTeiRoot) {$inTeiRoot =~ s/\.TEI//}
+    unless (-e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana//}
 
     $outTeiDir  = "$outDir/$teiDir";
     $outTeiRoot = "$outDir/$teiRoot";
@@ -139,7 +143,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
-	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot;
+	die "Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
 	dircopy($schemaDir, "$outAnaDir/Schema");
@@ -161,7 +165,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
-	die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
+	die "Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
 	dircopy($schemaDir, "$outTeiDir/Schema");
@@ -183,7 +187,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: *Making $countryCode samples\n";
-	die "Can't find $outTeiRoot\n" unless -e $outTeiRoot; 
+	die "Can't find output tei root $outTeiRoot\n" unless -e $outTeiRoot; 
 	`rm -fr $outSmpDir`;
 	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
 	if (-e $outAnaRoot) {
@@ -206,7 +210,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: *Making $countryCode text\n";
-	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
+	die "Can't find output tei dir $outTeiDir\n" unless -e $outTeiDir; 
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	&cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
 	`$Texts $outTeiDir $outTxtDir`;
@@ -214,7 +218,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
-	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
+	die "Can't find output ana dir $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	&cp_readme($countryCode, "$docsDir/README.conll.txt", "$outConlDir/00README.txt");
 	`$Conls $outAnaDir $outConlDir`;
@@ -222,7 +226,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: *Making $countryCode vert\n";
-	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
+	die "Can't find output ana dir $outAnaDir\n" unless -e $outAnaDir; 
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	&cp_readme($countryCode, "$docsDir/README.vert.txt", "$outVertDir/00README.txt");
 	`cp "$docsDir/$vertRegi" $outVertDir`;
