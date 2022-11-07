@@ -70,8 +70,6 @@
   <xsl:variable name="corpusDir" select="replace(base-uri(), 
 					 '.*?([^/]+)/[^/]+\.[^/]+$', '$1')"/>
 
-  <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-  
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
     <xsl:text>/</xsl:text>
@@ -372,7 +370,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="when" select="$today-iso"/>
-      <xsl:value-of select="format-date(current-date(), '[MNn] [D], [Y]')"/>
+      <xsl:value-of select="$today-iso"/>
     </xsl:copy>
   </xsl:template>
   
