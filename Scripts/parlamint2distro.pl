@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # Make ParlaMint corpora ready for distribution:
-# 1. Finalize input corpora (release, date, handle, extent)
+# 1. Finalize input corpora stored (release, date, handle, extent)
 # 2. Validate corpora
 # 3. Produce derived format
 # License: CC0
@@ -18,7 +18,7 @@ sub usage {
     print STDERR ("$0 -help\n");
     print STDERR ("$0 [<procFlags>] -codes '<Codes>' -schema [<Schema>] -docs [<Docs>]");
     print STDERR (" -in <Input> -out <Output>\n");
-    print STDERR ("    Finalizes ParlaMint corpora and produces derived encodings.\n");
+    print STDERR ("    Prepares ParlaMint corpora for distribution.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Schema> is the directory where ParlaMint RNG schemas are.\n");
     print STDERR ("    <Docs> is the directory where ParlaMint README files are.\n");
@@ -36,7 +36,7 @@ sub usage {
     print STDERR ("    * -all: do all of the above.\n");
     print STDERR ("    The flags can be also negated, e.g. \"-all -novalid\".\n");
     print STDERR ("    Example: \n");
-    print STDERR ("    ./finalize-parlamint.pl -all -novalid -codes 'BE ES' \\\n");
+    print STDERR ("    ./parlamint2distro.pl -all -novalid -codes 'BE ES' \\\n");
     print STDERR ("      -schema ../Schema -docs My/Docs/ -in Originals/ -out Final/  \\\n");
     print STDERR ("      2> ParlaMint.ana.log\n");
 }
@@ -102,7 +102,7 @@ $XX_template = "ParlaMint-XX";
 
 unless ($countryCodes) {
     print STDERR "Need some country codes.\n";
-    print STDERR "For help: finalize-parlamint.pl -h\n";
+    print STDERR "For help: parlamint2distro.pl -h\n";
     exit
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
