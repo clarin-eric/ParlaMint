@@ -29,7 +29,14 @@
   </xsl:template>
 
   <xsl:template match="tei:listPerson | tei:listOrg | tei:taxonomy">
-    <xsl:variable name="is_common" select=".[@xml:id and index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), @xml:id)]"/>
+    <xsl:variable name="is_common"
+                  select=".[@xml:id
+                            and
+                            (
+                              index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), @xml:id)
+                              or
+                              index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), replace(@xml:id,'^.*taxonomy-(.+)(.ana)?','$1'))
+                            )]"/>
 
     <xsl:variable name="fileid">
       <xsl:choose>
