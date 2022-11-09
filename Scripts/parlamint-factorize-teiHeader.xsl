@@ -55,8 +55,19 @@
         <xsl:variable name="path" select="concat($outDir,'/',$filename)"/>
         <xsl:message select="concat('Saving ',local-name(), ' to ',$path)"/>
         <xsl:result-document href="{$path}" method="xml">
-          <!-- TODO add id and language -->
-          <xsl:copy-of select="." copy-namespaces="no"/>
+          <xsl:element name="{name()}">
+            <xsl:if test="not(@xml:id = concat($fileid,$interfix))">
+              <xsl:message select="concat('INFO: replacing xml:id ',@xml:id,' with ',concat($fileid,$interfix))"/>
+            </xsl:if>
+            <xsl:attribute name="xml:id" select="concat($fileid,$interfix)"/>
+            <xsl:attribute name="xml:lang">
+              <xsl:choose>
+                <xsl:when test="$is_common">mul</xsl:when>
+                <xsl:otherwise><xsl:value-of select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/></xsl:otherwise>
+              </xsl:choose>
+            </xsl:attribute>
+            <xsl:copy-of select="./*" copy-namespaces="no"/>
+          </xsl:element>
         </xsl:result-document>
       </xsl:otherwise>
     </xsl:choose>
