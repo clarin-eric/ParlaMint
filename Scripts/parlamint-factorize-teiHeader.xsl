@@ -8,6 +8,7 @@
   exclude-result-prefixes="tei xs" >
   <xsl:param name="outDir"/>
   <xsl:param name="prefix"/>
+  <xsl:param name="skip"/>
 
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
@@ -28,24 +29,37 @@
   </xsl:template>
 
   <xsl:template match="tei:listPerson | tei:listOrg | tei:taxonomy">
-    <xsl:variable name="filename">
+    <xsl:variable name="is_common" select=".[@xml:id and index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), @xml:id)]"/>
 
+    <xsl:variable name="fileid">
       <xsl:choose>
-        <xsl:when test="@xml:id and index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), @xml:id)">
-          <xsl:value-of select="concat('ParlaMint-',local-name(),@xml:id/concat('-',.),'.xml')" />
+        <xsl:when test="$is_common">
+          <xsl:value-of select="concat('ParlaMint-',local-name(),@xml:id/concat('-',.))" />
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="concat($prefix,local-name(),@xml:id/concat('-',.),'.xml')" />
+          <xsl:value-of select="concat($prefix,local-name(),@xml:id/concat('-',.))" />
         </xsl:otherwise>
       </xsl:choose>
-
-
     </xsl:variable>
-    <xsl:variable name="path" select="concat($outDir,'/',$filename)"/>
-    <xsl:message select="concat('Saving ',local-name(), ' to ',$path)"/>
-    <xsl:result-document href="{$path}" method="xml">
-      <xsl:copy-of select="." copy-namespaces="no"/>
-    </xsl:result-document>
+
+    <xsl:variable name="interfix">
+      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml')))">.ana</xsl:if>
+    </xsl:variable>
+
+    <xsl:variable name="filename" select="concat($fileid,$interfix,'.xml')"/>
+    <xsl:choose>
+      <xsl:when test="contains($skip,concat($fileid,'.xml'))">
+        <xsl:message select="concat('Skipping - file should exist: ',$fileid,'.xml')"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="path" select="concat($outDir,'/',$filename)"/>
+        <xsl:message select="concat('Saving ',local-name(), ' to ',$path)"/>
+        <xsl:result-document href="{$path}" method="xml">
+          <!-- TODO add id and language -->
+          <xsl:copy-of select="." copy-namespaces="no"/>
+        </xsl:result-document>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
       <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
       <xsl:attribute name="href">

@@ -283,11 +283,13 @@ $(factorize-teiHeader-XX): factorize-teiHeader-%: %
 	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
 	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
 	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
-	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml || :
-	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
-	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
-	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
 	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
+	SKIP=`echo ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/ParlaMint-$<.xml| xargs ${getheaderincludes}|tr "\n" " " ` \
+	&& $s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
+	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
+	   skip="$${SKIP}" \
+	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml || :
 
 factorize-teiHeader-INPLACE-XX = $(addprefix factorize-teiHeader-INPLACE-, $(PARLIAMENTS))
 ## factorize-teiHeader-INPLACE ##
