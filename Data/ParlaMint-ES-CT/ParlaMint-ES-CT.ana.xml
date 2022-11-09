@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
-           xml:id="ParlaMint-ES-CT"
+           xml:id="ParlaMint-ES-CT.ana"
            xml:lang="ca">
    <teiHeader>
       <fileDesc>
@@ -9,10 +9,10 @@
             <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="ca">Actes del Parlament de Catalunya, legislatures XI-XII (2015 - 2022)</title>
             <title type="sub" xml:lang="en">Minutes from  the Parliament of Catalonia, terms XI XII (2015 - 2022)</title>
-            <meeting n="11" corresp="#PC" ana="#parla.term #PC.11">Term 11</meeting>
-            <meeting n="12" corresp="#PC" ana="#parla.term #PC.12">Term 12</meeting>
-            <meeting n="13" corresp="#PC" ana="#parla.term #PC.13">Term 13</meeting>
-            <meeting n="14" corresp="#PC" ana="#parla.term #PC.14">Term 14</meeting>
+            <meeting n="11" ana="#parla.term #PC.11">Term 11</meeting>
+            <meeting n="12" ana="#parla.term #PC.12">Term 12</meeting>
+            <meeting n="13" ana="#parla.term #PC.13">Term 13</meeting>
+            <meeting n="14" ana="#parla.term #PC.14">Term 14</meeting>
             <respStmt>
                <persName>Nuria Bel</persName>
                <resp>Coordinator</resp>
@@ -30,10 +30,8 @@
                <resp>Computational Linguistics Specialist</resp>
             </respStmt>
             <funder>
-               <orgName xml:lang="ca">Infraestructura de recerca CLARIN
-			   </orgName>
-               <orgName xml:lang="en">CLARIN research infrastructure
-			   </orgName>
+               <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
+			   <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
@@ -156,6 +154,9 @@
                <date from="2015-10-26" to="2022-07-21">2015-10-26 - 2022-07-21</date>
             </setting>
          </settingDesc>
+		 <textClass>
+            <catRef scheme="#PC" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-ES-CT-listOrg.xml"/>
@@ -165,13 +166,13 @@
          <langUsage>
             <language ident="es" xml:lang="es">Español</language>
             <language ident="ca" xml:lang="ca">Catalán</language>
-			<language ident="en" xml:lang="en">Inglés</language>
+            <language ident="en" xml:lang="en">Inglés</language>
             <language ident="es" xml:lang="es">Espanyol</language>
             <language ident="ca" xml:lang="ca">Català</language>
-			<language ident="en" xml:lang="en">Anglès</language>
-			<language ident="es" xml:lang="es">Spanish</language>
+            <language ident="en" xml:lang="en">Anglès</language>
+            <language ident="es" xml:lang="es">Spanish</language>
             <language ident="ca" xml:lang="ca">Catalan</language>
-			<language ident="en" xml:lang="en">English</language>
+            <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
