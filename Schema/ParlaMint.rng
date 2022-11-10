@@ -240,7 +240,7 @@
       <ref name="global.atts"/>
       <oneOrMore>
         <a:documentation>We can have person name in several languages, or, rather,
-        scripts.</a:documentation>
+        scripts or several names with different temporal information.</a:documentation>
         <ref name="persName"/>
       </oneOrMore>
       <interleave>
@@ -291,6 +291,17 @@
     <a:documentation>The name of a person.</a:documentation>
     <element name="persName">
       <ref name="lang.att"/>
+      <a:documentation>Names can change, and are then marked by @from / @to.</a:documentation>
+      <optional>
+        <attribute name="from">
+          <ref name="temporal.val"/>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="to">
+          <ref name="temporal.val"/>
+        </attribute>
+      </optional>
       <choice>
         <a:documentation>Special persons (like 'group') have their name in term. This possibility
         might have to be revisited.</a:documentation>
