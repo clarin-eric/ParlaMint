@@ -93,13 +93,13 @@
     <xsl:value-of select="ancestor::tei:teiCorpus/replace(@xml:id, '.+-', '')"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
-			  tei:org[@role='politicalParty' or @role='politicalGroup'])"/>
+			  tei:org[@role='politicalParty' or @role='parliamentaryGroup'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
 			  tei:relation[@name='coalition' or @name='opposition'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
-			  tei:org[@role!='politicalParty' and @role!='politicalGroup'])"/>
+			  tei:org[@role!='politicalParty' and @role!='parliamentaryGroup'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person)"/>
     <xsl:value-of select="$col-sep"/>
@@ -110,7 +110,7 @@
     <!-- tei:affiliation[@role='MP'] and -->
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[
 			  tei:affiliation[(@role='member' or @role='candidateMP') and 
-			  key('ref', @ref)[@role='politicalParty' or @role='politicalGroup']]
+			  key('ref', @ref)[@role='politicalParty' or @role='parliamentaryGroup']]
 			  ])"/>
     <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>

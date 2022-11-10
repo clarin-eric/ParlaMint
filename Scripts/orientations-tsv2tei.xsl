@@ -117,7 +117,7 @@
   <xsl:template mode="insert" match="tei:org">
     <xsl:variable name="abbr" select="lower-case(tei:orgName[@full = 'abb' and 
 				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1])"/>
-    <!-- politicalGroup.ANO.1108 -> ano.1108 -->
+    <!-- parliamentaryGroup.ANO.1108 -> ano.1108 -->
     <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*?\.', ''))"/>
     <!-- ano.1108 -> ano -->
     <xsl:variable name="abbr-id2" select="replace($abbr-id, '\..*', '')"/>

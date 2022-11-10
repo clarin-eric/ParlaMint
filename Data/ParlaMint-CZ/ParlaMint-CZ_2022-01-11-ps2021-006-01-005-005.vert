@@ -1,5 +1,5 @@
 <note type="speaker" content="Místopředseda PSP Jan Skopeček"/>
-<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u1.p1.s1">
 5	5	5	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -92,7 +92,7 @@ slova	slova	slovo	NOUN	Case=Gen Gender=Neut Number=Sing Polarity=Pos	w8	obl:arg	
 </p>
 </speech>
 <note type="speaker" content="Ministr financí ČR Zbyněk Stanjura"/>
-<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Regular" speaker_id="ZbynekStanjura.1964" speaker_name="Stanjura, Zbyněk" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Regular" speaker_id="ZbynekStanjura.1964" speaker_name="Stanjura, Zbyněk" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="" speaker_gender="M" speaker_birth="1964">
 <p id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u2.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -365,7 +365,7 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Regular" speaker_id="PatrikNacher.1974" speaker_name="Nacher, Patrik" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1974">
+<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Regular" speaker_id="PatrikNacher.1974" speaker_name="Nacher, Patrik" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="" speaker_gender="M" speaker_birth="1974">
 <p id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u6.p1.s1">
 Tak	Tak	tak	CCONJ		w1	advmod	navrhnout	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w8
@@ -398,7 +398,7 @@ Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=
 </p>
 </speech>
 <note type="speaker" content="Místopředseda PSP Jan Skopeček"/>
-<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7" text_id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/01" agenda="ps2021/006/005" from="2022-01-11" to="2022-01-11" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-11" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.u7.p1.s1">
 Ano	Ano	ano	PART		w1	root	-	-	-	-

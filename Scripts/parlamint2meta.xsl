@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- Transform one ParlaMint file to a TSV file with its metadata. -->
 <!-- Includes header row, cf. template for tei:TEI -->
-<!-- Needs the file with corpus teiHeader giving the speaker, party etc. info as the "hdr" parameter -->
+<!-- Needs the file with corpus teiHeader giving the speaker, party etc. info as the "meta" parameter -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
