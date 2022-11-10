@@ -37,9 +37,16 @@
                               or
                               index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), replace(@xml:id,'^.*taxonomy-(.+)(.ana)?','$1'))
                             )]"/>
-
+    <xsl:variable name="no_id_change"
+                  select=".[starts-with(@xml:id,'ParlaMint-')
+                            and
+                            contains(@xml:id,concat('-',local-name()))
+                            ]"/>
     <xsl:variable name="fileid">
       <xsl:choose>
+        <xsl:when test="$no_id_change">
+          <xsl:value-of select="@xml:id" />
+        </xsl:when>
         <xsl:when test="$is_common">
           <xsl:value-of select="concat('ParlaMint-',local-name(),@xml:id/concat('-',.))" />
         </xsl:when>
@@ -50,7 +57,7 @@
     </xsl:variable>
 
     <xsl:variable name="interfix">
-      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml')))">.ana</xsl:if>
+      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml'))) and not($no_id_change)">.ana</xsl:if>
     </xsl:variable>
 
     <xsl:variable name="filename" select="concat($fileid,$interfix,'.xml')"/>
@@ -84,6 +91,10 @@
         <xsl:value-of select="$filename"/>
       </xsl:attribute>
     </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="@scheme[. = '#parla.legislature']">
+    <xsl:attribute name="scheme">#ParlaMint-taxonomy-parla.legislature</xsl:attribute>
   </xsl:template>
 
   <xsl:template match="@*|node()">
