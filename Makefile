@@ -300,7 +300,7 @@ $(factorize-teiHeader-XX): factorize-teiHeader-%: %
 factorize-teiHeader-INPLACE-XX = $(addprefix factorize-teiHeader-INPLACE-, $(PARLIAMENTS))
 ## factorize-teiHeader-INPLACE ##
 factorize-teiHeader-INPLACE: $(factorize-teiHeader-INPLACE-XX)
-## factorize-teiHeader-XX ##
+## factorize-teiHeader-INPLACE-XX ##
 $(factorize-teiHeader-INPLACE-XX): factorize-teiHeader-INPLACE-%: % factorize-teiHeader-%
 	@echo "modified files:"
 	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml|grep -v 'ParlaMint-$<${CORPUSDIR_SUFFIX}-')
@@ -308,6 +308,39 @@ $(factorize-teiHeader-INPLACE-XX): factorize-teiHeader-INPLACE-%: % factorize-te
 	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}-*.xml ) || :
 	@mv ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/* ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/
 	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader
+	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
+
+
+composite-teiHeader-XX = $(addprefix composite-teiHeader-, $(PARLIAMENTS))
+## composite-teiHeader ## oposite to factorize-teiHeader
+composite-teiHeader: $(composite-teiHeader-XX)
+## composite-teiHeader-XX ##
+$(composite-teiHeader-XX): composite-teiHeader-%: %
+	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader \
+	   -xsl:Scripts/parlamint-composite-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml 2>&1 \
+	   | tee -a ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log || :
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader \
+	   -xsl:Scripts/parlamint-composite-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml 2>&1 \
+	   | tee -a ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log || :
+
+composite-teiHeader-INPLACE-XX = $(addprefix composite-teiHeader-INPLACE-, $(PARLIAMENTS))
+## composite-teiHeader-INPLACE ##
+composite-teiHeader-INPLACE: $(composite-teiHeader-INPLACE-XX)
+## composite-teiHeader-INPLACE-XX ##
+$(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-teiHeader-%
+	@echo "modified files:"
+	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml|grep -v 'ParlaMint-$<${CORPUSDIR_SUFFIX}-')
+	@echo "removed files:"
+	@cat ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log|sed -n 's/^including: //p'|sort|uniq
+	@cat ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log|sed -n 's/^including: //p'|sort|uniq \
+	  | xargs -I {} rm ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{}
+	@mv ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/*.xml ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/
+	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
+	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
 
 
 
