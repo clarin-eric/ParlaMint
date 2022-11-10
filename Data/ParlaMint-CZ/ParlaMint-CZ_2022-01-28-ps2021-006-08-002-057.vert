@@ -1,5 +1,5 @@
 <note type="speaker" content="Místopředseda PSP Jan Skopeček"/>
-<speech id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u1" text_id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/08" agenda="ps2021/006/057" from="2022-01-28" to="2022-01-28" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-28" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u1" text_id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/08" agenda="ps2021/006/057" from="2022-01-28" to="2022-01-28" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-28" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Coalition" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u1.p1.s1">
 57	57	57	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -779,7 +779,7 @@ pozornost	pozornost	pozornost	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u20" text_id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/08" agenda="ps2021/006/057" from="2022-01-28" to="2022-01-28" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-28" speaker_role="Regular" speaker_id="RadimFiala.1969" speaker_name="Fiala, Radim" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="1969">
+<speech id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u20" text_id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/08" agenda="ps2021/006/057" from="2022-01-28" to="2022-01-28" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-28" speaker_role="Regular" speaker_id="RadimFiala.1969" speaker_name="Fiala, Radim" speaker_type="MP" speaker_party="SPD" speaker_party_name="Poslanecký klub Svoboda a přímá demokracie" party_status="Opposition" speaker_gender="M" speaker_birth="1969">
 <p id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u20.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u20.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -851,7 +851,7 @@ patří	patří	patřit	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Polarity=P
 </p>
 </speech>
 <note type="speaker" content="Místopředseda PSP Jan Skopeček"/>
-<speech id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u21" text_id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/08" agenda="ps2021/006/057" from="2022-01-28" to="2022-01-28" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-28" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="M" speaker_birth="1980">
+<speech id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u21" text_id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057" subcorpus="COVID" house="Lower house" term="ps2021" session="" meeting="ps2021/006" sitting="ps2021/006/08" agenda="ps2021/006/057" from="2022-01-28" to="2022-01-28" title="Parliament of the Czech Republic, Chamber of Deputies, 2022-01-28" speaker_role="Chairperson" speaker_id="JanSkopecek.1980" speaker_name="Skopeček, Jan" speaker_type="MP" speaker_party="ODS" speaker_party_name="Poslanecký klub Občanské demokratické strany" party_status="Coalition" speaker_gender="M" speaker_birth="1980">
 <p id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u21.p1" lang="Czech">
 <s id="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.u21.p1.s1">
 Ano	Ano	ano	PART		w1	root	-	-	-	-
