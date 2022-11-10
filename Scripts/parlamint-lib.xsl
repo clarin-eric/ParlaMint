@@ -27,10 +27,12 @@
   <!-- Key which directly finds local references -->
   <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
 
+  <xsl:variable name="corpus-language" select="/tei:TEI/@xml:lang"/>
+  
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
-  <!-- $date-from and $date-to of a corpus compoment -->
+  <!-- $date-from and $date-to of a corpus component (assumed at XML root) -->
   <!-- Typically are identical, but not necessarily -->
   <xsl:variable name="date-from">
     <xsl:variable name="d" select="/tei:TEI/tei:teiHeader//tei:settingDesc//tei:date"/>
@@ -131,6 +133,11 @@
   <xsl:template mode="XInclude" match="tei:*">
     <xsl:copy>
       <xsl:apply-templates mode="XInclude" select="@*"/>
+      <!-- Copy over langauge, so subsidiary elements know which language they are in -->
+      <xsl:if test="self::tei:teiHeader">
+	<xsl:attribute name="xml:lang"
+		       select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+      </xsl:if>
       <xsl:apply-templates mode="XInclude"/>
     </xsl:copy>
   </xsl:template>
@@ -268,6 +275,7 @@
   <!-- e.g. "#regular #topic.144_403_M" -->
   <xsl:function name="et:u-role" as="xs:string">
     <xsl:param name="ana"/>
+    <!--xsl:message terminate="yes" select="concat('THIS: ', $rootHeader)"/-->
     <xsl:for-each select="tokenize($ana, ' ')">
       <xsl:if test="key('idr', ., $rootHeader)/
 		    ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
@@ -314,13 +322,19 @@
 	    <xsl:choose>
 	      <xsl:when test="@from and @to">
 		<xsl:if test="et:between-dates($date-from, @from, @to) and
-			      et:between-dates($date-to, @from, @to)">
+			      et:between-dates($date-to,   @from, @to)">
 		  <xsl:copy-of select="."/>
 		</xsl:if>
 	      </xsl:when>
 	      <xsl:when test="@from">
 		<xsl:if test="et:between-dates($date-from, @from, $today-iso) and
-			      et:between-dates($date-to, @from, $today-iso)">
+			      et:between-dates($date-to,   @from, $today-iso)">
+		  <xsl:copy-of select="."/>
+		</xsl:if>
+	      </xsl:when>
+	      <xsl:when test="@to">
+		<xsl:if test="et:between-dates($date-from, '1000-01-01', @to) and
+			      et:between-dates($date-to, '1000-01-01', @to)">
 		  <xsl:copy-of select="."/>
 		</xsl:if>
 	      </xsl:when>
@@ -332,9 +346,9 @@
 	</xsl:variable>
 	<!-- Is the organisation that the speaker is affiliated with in the 
 	     coallition(s) / oppositions(s)? -->
-	<!-- We don't check the type of organisation of the speaker's role in it, as we 
+	<!-- We don't check the type of organisation or the speaker's role in it, as we 
 	     assume that this is "ok" -->
-	<xsl:variable name="in-relation">
+	<xsl:variable name="in-relations">
 	  <!-- Collect all affiliation references where the speaker is a member and are in 
 	       the correct time-frame for the speech -->
 	  <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker)"/>
@@ -353,6 +367,11 @@
 		<xsl:value-of select="concat($opposition-label, '&#32;')"/>
 	      </xsl:if>
 	    </xsl:for-each>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:variable name="in-relation">
+	  <xsl:for-each select="distinct-values(tokenize(normalize-space($in-relations)))">
+	    <xsl:value-of select="concat(., '&#32;')"/>
 	  </xsl:for-each>
 	</xsl:variable>
 	<xsl:choose>
@@ -383,9 +402,9 @@
     <!-- Collect all affiliation references where the speaker is a member and are in 
 	 the correct time-frame for the speech -->
     <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
-    <xsl:variable name="politicalGroups">
+    <xsl:variable name="parliamentaryGroups">
       <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
-	<xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalGroup']"/>
+	<xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
 	<xsl:call-template name="party-name">
 	  <xsl:with-param name="party" select="$party"/>
 	  <xsl:with-param name="full" select="$full"/>
@@ -402,8 +421,8 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($politicalGroups)">
-	<xsl:value-of select="replace($politicalGroups, ';$', '')"/>
+      <xsl:when test="normalize-space($parliamentaryGroups)">
+	<xsl:value-of select="replace($parliamentaryGroups, ';$', '')"/>
       </xsl:when>
       <xsl:when test="normalize-space($politicalParties)">
 	<xsl:value-of select="replace($politicalParties, ';$', '')"/>
@@ -432,6 +451,12 @@
 	      <xsl:value-of select="@ref"/>
 	    </xsl:if>
 	  </xsl:when>
+	  <xsl:when test="@to">
+	    <xsl:if test="et:between-dates($date-from, '1000-01-01', @to) and
+			  et:between-dates($date-to, '1000-01-01', @to)">
+	      <xsl:copy-of select="@ref"/>
+	    </xsl:if>
+	  </xsl:when>
 	  <xsl:otherwise>
 	      <xsl:value-of select="@ref"/>
 	  </xsl:otherwise>
@@ -454,20 +479,20 @@
   <xsl:template name="party-name">
     <xsl:param name="party"/>
     <xsl:param name="full"/>
+    <xsl:variable name="name-local"
+		  select="$party/tei:orgName[@full=$full]
+			  [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
+    <xsl:variable name="name-en"
+		  select="$party/tei:orgName[@full=$full]
+			  [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
     <xsl:choose>
       <!-- Non-English name first -->
-      <xsl:when test="$party/tei:orgName[@full=$full]
-		      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']">
-	<xsl:value-of select="$party/tei:orgName[@full=$full]
-			      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
-	<xsl:text>;</xsl:text>
+      <xsl:when test="normalize-space($name-local)">
+	<xsl:value-of select="concat($name-local, ';')"/>
       </xsl:when>
       <!-- then English name -->
-      <xsl:when test="$party/tei:orgName[@full=$full]
-		      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']">
-	<xsl:value-of select="$party/tei:orgName[@full=$full]
-			      [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
-	<xsl:text>;</xsl:text>
+      <xsl:when test="normalize-space($name-en)">
+	<xsl:value-of select="concat($name-en, ';')"/>
       </xsl:when>
       <xsl:when test="normalize-space($party)">
 	<xsl:message>
@@ -478,7 +503,9 @@
 	<xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
 	<xsl:text>;</xsl:text>
       </xsl:when>
-      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+      <xsl:otherwise>
+	<xsl:text></xsl:text>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   

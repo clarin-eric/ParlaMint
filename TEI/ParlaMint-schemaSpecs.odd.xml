@@ -2384,7 +2384,7 @@
             </alternate>
          </alternate>
       </content>
-      <attList><!--persName/@xml:lang--><!--persName/@ref-->
+      <attList><!--persName/@xml:lang--><!--persName/@ref--><!--persName/@from--><!--persName/@to-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -2411,8 +2411,6 @@
          <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -4374,16 +4372,16 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="taxonomy" module="header" mode="change">
-      <desc versionDate="2011-11-02" xml:lang="en">defines a typology either implicitly, by means of a bibliographic
-    citation, or explicitly by a structured taxonomy.</desc>
+      <desc versionDate="2022-11-10" xml:lang="en">defines a typology explicitly by a structured
+    taxonomy.</desc>
       <content>
          <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
          <elementRef key="category" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="xml:id" mode="change" usage="req"/>
+         <!--taxonomy/@xml:lang-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -5237,10 +5235,8 @@
             <elementRef key="listRelation" minOccurs="0" maxOccurs="1"/>
          </sequence>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--listOrg/@xml:id--><!--listOrg/@xml:lang-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -5892,10 +5888,8 @@
             <elementRef key="person" minOccurs="1" maxOccurs="unbounded"/>
          </sequence>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--listPerson/@xml:id--><!--listPerson/@xml:lang-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>

@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-10-30T08:21:09Z. 2022-10-30.
+# Schema generated from ODD source 2022-11-10T15:10:05Z. 2022-11-10.
 # TEI Edition: Version 4.5.0a. Last updated on
 #         29th July 2022, revision 50a1ab835
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -1210,10 +1210,11 @@ tei_classDecl =
   element classDecl { (tei_taxonomy | tei_include)+ }
 tei_taxonomy =
   
-  ## (taxonomy) defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
+  ## (taxonomy) defines a typology explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
   element taxonomy {
     tei_desc+,
     tei_category+,
+    tei_att.global.attribute.xmllang,
     
     ## (identifier) provides a unique identifier for the element bearing the attribute.
     attribute xml:id { xsd:ID },
@@ -1877,6 +1878,8 @@ tei_persName =
      | (tei_term)+
      | (text)),
     tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
     tei_att.canonical.attribute.ref,
     empty
   }
@@ -2072,7 +2075,12 @@ tei_event =
 tei_listOrg =
   
   ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organisation. [13.2.2. Organizational Names]
-  element listOrg { tei_head*, tei_org+, tei_listRelation? }
+  element listOrg {
+    (tei_head*, tei_org+, tei_listRelation?),
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
 tei_listEvent =
   
   ## (list of events) contains a list of descriptions, each of which provides information about an identifiable event. [13.3.1. Basic Principles]
@@ -2080,7 +2088,12 @@ tei_listEvent =
 tei_listPerson =
   
   ## (list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]
-  element listPerson { tei_head*, tei_person+ }
+  element listPerson {
+    (tei_head*, tei_person+),
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
 tei_listRelation =
   
   ## provides information about relationships identified amongst people, places, and organisations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Dump all politicalParties and politicalGroups as TSV file -->
+<!-- Dump all politicalParties and parliamentaryGroups as TSV file -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -33,7 +33,7 @@
   
   <xsl:template match="tei:org">
     <xsl:param name="country"/>
-    <xsl:if test="@role = 'politicalParty' or @role = 'politicalGroup'">
+    <xsl:if test="@role = 'politicalParty' or @role = 'parliamentaryGroup'">
       <xsl:value-of select="$country"/>
       <xsl:text>&#9;</xsl:text>
       <xsl:value-of select="@role"/>
