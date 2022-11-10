@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-10-30</date>
+        <date>2022-11-10</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-10-30">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
+      <change when="2022-11-10">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -67,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-10-30</docDate>
+        <docDate>2022-11-10</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1346,9 +1346,11 @@
               </particDesc>
             </egXML>
             
-            While the above gives the XML structre of the participant description, ParlaMint
-            separates the organisation and person list into separate files, so the actual
-            encoding would be (for the CZ corpus) as follows:
+            While the above gives the XML structure of the participant description,
+            ParlaMint separates the organisation and person list into separate files
+            (cf. the Section on <ref target="#sec-files">File names and directory
+            structure</ref>), so the actual encoding would be (for the CZ corpus) as
+            follows:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-particDesc-XInclude">
               <particDesc>
@@ -1444,10 +1446,11 @@
         <div xml:id="sec-speakers">
           <head>Speakers</head>
           
-          <p>The information on speakers is given in the <gi>listPerson</gi> element of the
-          participant description. This element then contains the series of <gi>person</gi>
-          elements, each of which gives information on an individual speaker, as the example
-          below illustrates:
+          <p>The information on speakers is given in the <gi>listPerson</gi> element of
+          the <gi>particDesc</gi> element (cf. the Section on <ref
+          target="#sec-particDesc">Participant description</ref>). This element contains
+          the series of <gi>person</gi> elements, each of which gives information on an
+          individual speaker, as the example below illustrates:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-speakers">
             <listPerson>
@@ -1463,13 +1466,37 @@
           </egXML>
 
           Each <gi>person</gi> must have an <att>xml:id</att> attribute, so that it can
-          be referred to from the transcription. The person name, <gi>persName</gi> gives
-          the name of the person which is further decomposed into the person
-          <gi>surname</gi>(s), <gi>forename</gi>(s) and possibly <gi>addName</gi>. The
-          person must also have the <gi>sex</gi> element, with the <att>value</att>
-          attribute being one of the controlled values: <val>M</val> for male,
-          <val>F</val> for female, <val>O</val> for other, <val>N</val> for none or
-          <val>U</val> for unknown.</p>
+          be referred to from the transcription. The person's name, <gi>persName</gi>
+          gives the name of the person which is further decomposed into the person
+          <gi>surname</gi>(s), <gi>forename</gi>(s) and possibly <gi>addName</gi>. A
+          person's name can also change, typically because of marriage. In this case, the
+          <gi>person</gi> should contain another (or, possibly, several)
+          <gi>persName</gi> elements, each marked by the <att>from</att> and/or
+          <att>to</att> temporal attributes, as shown in the following example:
+	  
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-persName">
+            <person xml:id="GlawischnigAnna">
+	      <persName to="2016-06-01">
+		<surname>Glawischnig</surname>
+                <forename>Anna</forename>
+	      </persName>
+	      <persName from="2016-06-02">
+		<surname>Glawischnig-Piesczek</surname>
+                <forename>Anna</forename>
+	      </persName>
+	      ...
+	    </person>
+          </egXML>
+	  
+	  Note that the <att>to</att>/<att>from</att> dates should not overlap, neither
+	  should they have gaps in them, as this would mean that at certain points in
+	  time the person would have either two sets of names, or none.
+	  </p>
+
+	  <p>The person must also have the <gi>sex</gi> element, with the
+	  <att>value</att> attribute being one of the controlled values: <val>M</val> for
+	  male, <val>F</val> for female, <val>O</val> for other, <val>N</val> for none or
+	  <val>U</val> for unknown.</p>
 
           <p>The person element can also contain other optional information, i.e. the
           date and place of <gi>birth</gi> (and <gi>death</gi>), their official Web
@@ -1709,12 +1736,15 @@
         <div xml:id="sec-orgs">
           <head>Organisations</head>
           
-	  <p>Information on the the government, parliament, political parties or parliamentary
-	  groups of political parties, as well as other optional parliamentary structures
-	  (e.g. ministries, committees) is given in the corpus root <gi>listOrg</gi> element,
-	  which then contains a series of <gi>org</gi> elements, each giving information about
-	  one organisation. The organisations are followed by the <gi>listRelations</gi>
-	  element giving a list of relations between organisations:
+	  <p>Information on the the government, parliament, political parties or
+	  parliamentary groups of political parties, as well as other optional
+	  parliamentary structures (e.g. ministries, committees) is given in the corpus
+	  root <gi>listOrg</gi> element of the <gi>particDesc</gi> (cf. the Section on
+	  <ref target="#sec-particDesc">Participant description</ref>).  The
+	  <gi>listOrg</gi> element then contains a series of <gi>org</gi> elements, each
+	  giving information about one organisation. The organisations are followed by
+	  the <gi>listRelations</gi> element giving a list of relations between
+	  organisations:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
             <listOrg>

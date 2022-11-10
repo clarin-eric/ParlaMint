@@ -124,7 +124,7 @@ person =
     global.atts,
     
     ## We can have person name in several languages, or, rather,
-    ##         scripts.
+    ##         scripts or several names with different temporal information.
     (persName+),
     (element sex {
        attribute value { "M" | "F" | "U" | "O" | "N" },
@@ -142,7 +142,12 @@ person =
 ## The name of a person.
 persName =
   element persName {
-    lang.att,
+    lang.att
+    >> a:documentation [
+         "Names can change, and are then marked by @from / @to."
+       ],
+    attribute from { temporal.val }?,
+    attribute to { temporal.val }?,
     
     ## Special persons (like 'group') have their name in term. This possibility
     ##         might have to be revisited.
