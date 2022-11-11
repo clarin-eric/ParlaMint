@@ -12,7 +12,7 @@ $outDir = File::Spec->rel2abs(shift);
 
 binmode(STDERR, 'utf8');
 
-$Para  = 'parallel --gnu --halt 2 --jobs 8';
+$Para  = 'parallel --gnu --halt 2 --jobs 10';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
 $POLISH = "$Bin/parlamint-xml2vert.pl";
@@ -45,6 +45,6 @@ foreach $inFile (@compAnaFiles) {
 }
 close TMP;
 
-$command = "$Saxon hdr=$rootAnaFile -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
+$command = "$Saxon meta=$rootAnaFile -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*.vert`;

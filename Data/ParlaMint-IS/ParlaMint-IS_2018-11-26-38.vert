@@ -1,4 +1,4 @@
-<speech id="ParlaMint-IS_2018-11-26-38.u1" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2018-11-26-38.u1" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg1" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg1.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -263,7 +263,7 @@ en	en	en	ADP		7	case	ég	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	8
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2018-11-26-38.u2" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1957">
+<speech id="ParlaMint-IS_2018-11-26-38.u2" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="" speaker_gender="F" speaker_birth="1957">
 <p id="ParlaMint-IS_2018-11-26-38.seg5" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg5.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -429,7 +429,7 @@ lotu	lotu	lota	NOUN	Case=Dat Definite=Ind Gender=Fem Number=Sing	21	obl	búinn	V
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2018-11-26-38.u259" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1958">
+<speech id="ParlaMint-IS_2018-11-26-38.u259" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="JonValdimarsson" speaker_name="Valdimarsson, Jón Steindór" speaker_type="MP" speaker_party="V" speaker_party_name="Viðreisn" party_status="" speaker_gender="M" speaker_birth="1958">
 <p id="ParlaMint-IS_2018-11-26-38.seg795" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg795.1">
 Virðulegur	Virðulegur	virðulegur	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
@@ -749,7 +749,7 @@ til	til	til	ADP		27	compound_prt	leggja	VERB	VerbForm=Inf Voice=Act	26
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2018-11-26-38.u260" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1957">
+<speech id="ParlaMint-IS_2018-11-26-38.u260" text_id="ParlaMint-IS_2018-11-26-38" subcorpus="Reference" house="" term="23" session="149" meeting="38" sitting="" agenda="" from="2018-11-26" to="2018-11-26" title="Speeches in the national parliament of Iceland, 23. term, regular meeting 149-38, 26.11.2018." speaker_role="Regular" speaker_id="OddnyHardardottir" speaker_name="Harðardóttir, Oddný G." speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="" speaker_gender="F" speaker_birth="1957">
 <p id="ParlaMint-IS_2018-11-26-38.seg800" lang="">
 <s id="ParlaMint-IS_2018-11-26-38.seg800.1">
 Herra	Herra	herra	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
