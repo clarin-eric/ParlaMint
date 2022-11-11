@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!-- Transform one ParlaMint file to a TSV file with its metadata. -->
 <!-- Includes header row, cf. template for tei:TEI -->
-<!-- Needs the file with corpus teiHeader giving the speaker, party etc. info as the "hdr" parameter -->
+<!-- Needs the file with corpus teiHeader giving the speaker, party etc. info as the "meta" parameter -->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.tei-c.org/ns/1.0"
@@ -101,7 +101,9 @@
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
 	<xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
-	<xsl:value-of select="concat(et:format-name($speaker//tei:persName[1]), '&#9;')"/>
+	<!-- If they change name between $date-from and $date-to, we fake it -->
+	<xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $date-from), 
+			      '&#9;')"/>
 	<xsl:choose>
 	  <xsl:when test="$speaker/tei:sex">
 	    <xsl:value-of select="$speaker/tei:sex/@value"/>
