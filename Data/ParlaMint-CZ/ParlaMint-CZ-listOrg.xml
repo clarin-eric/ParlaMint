@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listOrg xmlns="http://www.tei-c.org/ns/1.0">
+<listOrg xmlns="http://www.tei-c.org/ns/1.0"
+         xml:id="ParlaMint-CZ-listOrg"
+         xml:lang="cs">
    <org xml:id="government.VladaCR" role="government">
       <orgName full="yes" xml:lang="cs">Vláda České republiky</orgName>
       <orgName full="yes" xml:lang="en">Government of the Czech Republic</orgName>
@@ -8024,45 +8026,38 @@
       </event>
    </org>
    <listRelation>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="coalition"
+      <relation name="coalition"
                 mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD #parliamentaryGroup.KDU-CSL"
                 from="2014-01-29"
                 to="2017-10-26"
                 ana="#parliament.PSP7"/>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="coalition"
+      <relation name="coalition"
                 mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD"
                 from="2017-12-13"
                 to="2018-06-26"
                 ana="#parliament.PSP8"/>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="coalition"
+      <relation name="coalition"
                 mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD"
                 from="2018-06-27"
                 to="2021-10-21"
                 ana="#parliament.PSP8"/>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="coalition"
+      <relation name="coalition"
                 mutual="#parliamentaryGroup.ODS #parliamentaryGroup.TOP09 #parliamentaryGroup.KDU-CSL #parliamentaryGroup.STAN #parliamentaryGroup.Pirati"
                 from="2022-01-18"
                 ana="#parliament.PSP9"/>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="opposition"
+      <relation name="opposition"
                 active="#parliamentaryGroup.KSCM #parliamentaryGroup.ODS #parliamentaryGroup.TOP09-S #parliamentaryGroup.Usvit.1111"
                 passive="#government.VladaCR"
                 from="2014-01-29"
                 to="2017-10-26"
                 ana="#parliament.PSP7"/>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="opposition"
+      <relation name="opposition"
                 active="#parliamentaryGroup.KDU-CSL #parliamentaryGroup.ODS #parliamentaryGroup.Pirati #parliamentaryGroup.SPD #parliamentaryGroup.STAN #parliamentaryGroup.TOP09"
                 passive="#government.VladaCR"
                 from="2017-12-13"
                 to="2021-10-21"
                 ana="#parliament.PSP8"/>
-      <relation xmlns:xi="http://www.w3.org/2001/XInclude"
-                name="opposition"
+      <relation name="opposition"
                 active="#parliamentaryGroup.ANO #parliamentaryGroup.SPD"
                 passive="#government.VladaCR"
                 from="2022-01-18"
