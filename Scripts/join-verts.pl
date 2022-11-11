@@ -10,6 +10,9 @@ binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 
+#Version number, will be embedded in vertical file name, e.g. ParlaMint-CZ.3.0.vert.gz
+$VER = '3.0'; 
+
 sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("$0 -help\n");
@@ -18,7 +21,7 @@ sub usage {
     print STDERR ("    Joins .vert files in reverse order.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Input> is the directory where ParlaMint-XX.vert/ is.\n");
-    print STDERR ("    <Output> is the directory where output directories are written.\n");
+    print STDERR ("    <Output> is the directory where output files are written.\n");
 }
 
 use Getopt::Long;
@@ -50,6 +53,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $XX = $XX_template;
     $XX =~ s|XX|$countryCode|g;
     $inVertDir  = "$inDir/$XX.vert";
-    $outVert    = "$outDir/$XX.vert";
-    `find $inVertDir -type f -name '*.vert' -print | tac | xargs cat | gzip > $outVert.gz`
+    $outVert    = "$outDir/$XX.$VER.vert";
+    `find $inVertDir -type f -name '*.vert' -print | sort -r | xargs cat | gzip > $outVert.gz`;
+    $copyRegi = "cp $inVertDir/*_" . lc($countryCode) . ".regi $outDir/";
+    `$copyRegi`
 }
