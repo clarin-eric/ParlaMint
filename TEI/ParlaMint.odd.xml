@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-11-10</date>
+        <date>2022-11-11</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-11-10">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
+      <change when="2022-11-11">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -67,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-11-10</docDate>
+        <docDate>2022-11-11</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -499,10 +499,10 @@
             Section on <ref target="#sec-metadata">Corpus metadata</ref>.
 
             The subordinate elements in the transcription that have an ID (such as
-            utterances and segments), should have the top level <att>xml:id</att> as a
-            prefix and indicate the element name in the ID. For example, if the top
+            utterances and segments), are recommended to have the top level <att>xml:id</att> as a
+            prefix and to indicate the element name in the ID. For example, if the top
             level ID is <val>ParlaMint-GB_2021-01-06</val>, the first utterance
-            should have the ID <val>ParlaMint-GB_2021-01-06-lords.u1</val> and the first
+            would have the ID <val>ParlaMint-GB_2021-01-06-lords.u1</val> and the first
             segment <val>ParlaMint-GB_2021-01-06-lords.seg1</val>. The number of the
             element should not have leading zeros.</item>
             
