@@ -129,9 +129,9 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-parla.legislature.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-NER.xml"/>
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.xml"/>
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -159,7 +159,7 @@
             </setting>
          </settingDesc>
          <textClass>
-            <catRef scheme="#parla.legislature" target="#parla.uni"/>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
          </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HU-listOrg.xml"/>
