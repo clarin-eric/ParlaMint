@@ -66,7 +66,10 @@
 	      <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
 	      <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
 	      <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
-	      <xsl:attribute name="speaker_name" select="et:format-name($speaker//tei:persName[1])"/>
+	      <!-- If they change name between $date-from and $date-to, we fake it -->
+	      <xsl:attribute name="speaker_name" select="et:format-name-chrono(
+							 $speaker//tei:persName, 
+							 $date-from)"/>
 	      <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
 	      <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
 	      <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
