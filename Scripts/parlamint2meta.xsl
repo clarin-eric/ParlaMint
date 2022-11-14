@@ -101,7 +101,9 @@
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
 	<xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
 	<xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
-	<xsl:value-of select="concat(et:format-name($speaker//tei:persName[1]), '&#9;')"/>
+	<!-- If they change name between $date-from and $date-to, we fake it -->
+	<xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $date-from), 
+			      '&#9;')"/>
 	<xsl:choose>
 	  <xsl:when test="$speaker/tei:sex">
 	    <xsl:value-of select="$speaker/tei:sex/@value"/>
