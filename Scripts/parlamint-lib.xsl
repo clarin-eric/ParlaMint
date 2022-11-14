@@ -227,6 +227,50 @@
     
   <!-- FUNCTIONS -->
 
+  <!-- Format the name of a person in a given point in time -->
+  <xsl:function name="et:format-name-chrono">
+    <xsl:param name="persNames"/>
+    <xsl:param name="when"/>
+    <xsl:variable name="persName">
+      <xsl:for-each select="$persNames/self::tei:persName">
+	<xsl:if test="et:between-dates($when, @from, @to)">
+	  <xsl:copy-of select="."/>
+	</xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <!-- Two names in different languages / scripts, we choose the
+           Latin script if possible, othewise first -->
+      <xsl:when test="$persName/tei:persName[2] and 
+		      $persName/tei:persName[1]/@xml:lang != $persName/tei:persName[2]/@xml:lang">
+	<xsl:choose>
+	  <xsl:when test="ends-with($persName/tei:persName[1]/@xml:lang, 'Latn')">
+	    <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
+	  </xsl:when>
+	  <xsl:when test="ends-with($persName/tei:persName[2]/@xml:lang, 'Latn')">
+	    <xsl:value-of select="et:format-name($persName/tei:persName[2])"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
+      <xsl:when test="$persName/tei:persName[2]">
+	<xsl:message select="concat('ERROR: several persNames ', $persName, 
+			     ' on ', $when)"/> 
+	<xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
+      </xsl:when>
+      <xsl:when test="not($persName/tei:persName)">
+	<xsl:message select="concat('ERROR: empty persName ',
+			     'on ', $when)"/> 
+	<xsl:text></xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="et:format-name($persName/tei:persName)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
   <!-- Format the name of a person from persName -->
   <xsl:function name="et:format-name">
     <xsl:param name="persName"/>
@@ -263,9 +307,7 @@
 	<xsl:value-of select="$persName"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:message>
-	  <xsl:text>ERROR: empty persName!</xsl:text>
-	</xsl:message>
+	<xsl:message select="concat('ERROR: empty persName for ', $persName/@xml:id)"/> 
 	<xsl:text></xsl:text>
       </xsl:otherwise>
     </xsl:choose>
@@ -319,29 +361,10 @@
 	<!-- Relation in the correct time-frame, should be only 1 -->
 	<xsl:variable name="relation">
 	  <xsl:for-each select="$relations/self::tei:relation">
-	    <xsl:choose>
-	      <xsl:when test="@from and @to">
-		<xsl:if test="et:between-dates($date-from, @from, @to) and
-			      et:between-dates($date-to,   @from, @to)">
-		  <xsl:copy-of select="."/>
-		</xsl:if>
-	      </xsl:when>
-	      <xsl:when test="@from">
-		<xsl:if test="et:between-dates($date-from, @from, $today-iso) and
-			      et:between-dates($date-to,   @from, $today-iso)">
-		  <xsl:copy-of select="."/>
-		</xsl:if>
-	      </xsl:when>
-	      <xsl:when test="@to">
-		<xsl:if test="et:between-dates($date-from, '1000-01-01', @to) and
-			      et:between-dates($date-to, '1000-01-01', @to)">
-		  <xsl:copy-of select="."/>
-		</xsl:if>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:copy-of select="."/>
-	      </xsl:otherwise>
-	    </xsl:choose>
+	    <xsl:if test="et:between-dates($date-from, @from, @to) and
+			  et:between-dates($date-to,   @from, @to)">
+	      <xsl:copy-of select="."/>
+	    </xsl:if>
 	  </xsl:for-each>
 	</xsl:variable>
 	<!-- Is the organisation that the speaker is affiliated with in the 
@@ -438,30 +461,11 @@
       <xsl:for-each select="$speaker/tei:affiliation
 			    [@role='member' or @role='candidateMP' or 
 			    @role='president' or @role='vicePresident' or @role='secretary']">
-	<xsl:choose>
-	  <xsl:when test="@from and @to">
-	    <xsl:if test="et:between-dates($date-from, @from, @to) and
-			  et:between-dates($date-to, @from, @to)">
-	      <xsl:value-of select="@ref"/>
-	    </xsl:if>
-	  </xsl:when>
-	  <xsl:when test="@from">
-	    <xsl:if test="et:between-dates($date-from, @from, $today-iso) and
-			  et:between-dates($date-to, @from, $today-iso)">
-	      <xsl:value-of select="@ref"/>
-	    </xsl:if>
-	  </xsl:when>
-	  <xsl:when test="@to">
-	    <xsl:if test="et:between-dates($date-from, '1000-01-01', @to) and
-			  et:between-dates($date-to, '1000-01-01', @to)">
-	      <xsl:copy-of select="@ref"/>
-	    </xsl:if>
-	  </xsl:when>
-	  <xsl:otherwise>
-	      <xsl:value-of select="@ref"/>
-	  </xsl:otherwise>
-	</xsl:choose>
-	<xsl:text>&#32;</xsl:text>
+	<xsl:if test="et:between-dates($date-from, @from, @to) and
+		      et:between-dates($date-to, @from, @to)">
+	  <xsl:value-of select="@ref"/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
     <!--xsl:if test="contains(normalize-space($tmp), ' ')">
@@ -515,19 +519,20 @@
     <xsl:param name="from" as="xs:string?"/>
     <xsl:param name="to" as="xs:string?"/>
     <xsl:choose>
-      <xsl:when test="$from = '' and $to = ''">
+      <xsl:when test="not(normalize-space($from) or normalize-space($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="$from = '' and 
+      <xsl:when test="normalize-space($from) and normalize-space($to) and
+		      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
+	              xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="not(normalize-space($from)) and normalize-space($to) and
 		      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))" >
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="$to = '' and 
+      <xsl:when test="normalize-space($from) and not(normalize-space($to)) and 
 		      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from))" >
-	<xsl:value-of select="true()"/>
-      </xsl:when>
-      <xsl:when test="xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
-	              xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
@@ -548,10 +553,10 @@
 	<xsl:value-of select="$date"/>
       </xsl:when>
       <xsl:when test="matches($date, '^\d\d\d\d-\d\d$')">
-	<!--xsl:message>
+	<xsl:message>
 	  <xsl:text>WARN: short date </xsl:text>
 	  <xsl:value-of select="$date"/>
-	</xsl:message-->
+	</xsl:message>
 	<xsl:value-of select="concat($date, '-01')"/>
       </xsl:when>
       <xsl:when test="matches($date, '^\d\d\d\d$')">

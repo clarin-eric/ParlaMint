@@ -47,7 +47,7 @@
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2022-11-04">2022-11-04</date>
+            <date when="2022-11-10">2022-11-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -115,9 +115,9 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-IS-taxonomy-gov.ministries.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.xml"/>
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-NER.xml"/>
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -168,6 +168,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-11-10">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-11-04">
             <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
