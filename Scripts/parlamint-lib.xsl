@@ -229,7 +229,7 @@
 
   <!-- Format the name of a person in a given point in time -->
   <xsl:function name="et:format-name-chrono">
-    <xsl:param name="persNames" as="element(tei:persName)"/>
+    <xsl:param name="persNames"/>
     <xsl:param name="when"/>
     <xsl:variable name="persName">
       <xsl:for-each select="$persNames/self::tei:persName">
@@ -522,16 +522,17 @@
       <xsl:when test="not(normalize-space($from) or normalize-space($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="not(normalize-space($from)) and 
+      <xsl:when test="normalize-space($from) and normalize-space($to) and
+		      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
+	              xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:when test="not(normalize-space($from)) and normalize-space($to) and
 		      xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))" >
 	<xsl:value-of select="true()"/>
       </xsl:when>
-      <xsl:when test="not(normalize-space($to)) and 
+      <xsl:when test="normalize-space($from) and not(normalize-space($to)) and 
 		      xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from))" >
-	<xsl:value-of select="true()"/>
-      </xsl:when>
-      <xsl:when test="xs:date(et:pad-date($date)) &gt;= xs:date(et:pad-date($from)) and
-	              xs:date(et:pad-date($date)) &lt;= xs:date(et:pad-date($to))">
 	<xsl:value-of select="true()"/>
       </xsl:when>
       <xsl:otherwise>
