@@ -158,26 +158,36 @@ $(check-links-XX): check-links-%: %
 ###### Check content
 check-content-XX = $(addprefix check-content-, $(PARLIAMENTS))
 ## check-content ## validate all corpora with Scripts/validate-parlamint.xsl
+#### and Scripts/validate-parlamint-particDesc.xsl
+#### particDesc validation prints line number in messages
 check-content: $(check-content-XX)
 ## check-content-XX ## ...
 $(check-content-XX): check-content-%: %
+	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP;
+	mkdir ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP;
+	for file2LINE in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint(:?-$<${CORPUSDIR_SUFFIX})?(|\.ana|-taxonomy.*|-list.*).xml"`;	do \
+	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$${file2LINE}" \
+	    > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP/$${file2LINE##*/};\
+	done
 	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking content in root:" $${root}; \
 	  echo "  - general"; \
 	  ${s} ${vcontent} $${root}; \
 	  echo "  - organisations + persons"; \
-	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${root} ;\
+	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP/$${root##*/}" ;\
 	  for component in `echo $${root}| xargs ${getcomponentincludes}`; do \
 	    echo "checking content in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	    ${s} ${vcontent} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	  done; \
 	done
+	rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP
 
 
 
 ###### Validate ParlaMint validate-parlamint.pl
 validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
 ## validate-parlamint ## validate all corpora with Scripts/validate-parlamint.pl
+#### (not showing line numbers in messages)
 validate-parlamint: $(validate-parlamint-XX)
 ## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
 $(validate-parlamint-XX): validate-parlamint-%: %
