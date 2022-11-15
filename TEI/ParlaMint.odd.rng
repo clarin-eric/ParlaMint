@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-10-30T08:21:05Z. 2022-10-30.
+Schema generated from ODD source 2022-11-10T15:10:01Z. 2022-11-10.
 TEI Edition: Version 4.5.0a. Last updated on
         29th July 2022, revision 50a1ab835
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -1772,13 +1772,14 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_taxonomy">
       <element name="taxonomy">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(taxonomy) defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(taxonomy) defines a typology explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]</a:documentation>
          <oneOrMore>
             <ref name="tei_desc"/>
          </oneOrMore>
          <oneOrMore>
             <ref name="tei_category"/>
          </oneOrMore>
+         <ref name="tei_att.global.attribute.xmllang"/>
          <attribute name="xml:id">
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
             <data type="ID"/>
@@ -2657,6 +2658,8 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
             </choice>
          </choice>
          <ref name="tei_att.global.attribute.xmllang"/>
+         <ref name="tei_att.datable.w3c.attribute.from"/>
+         <ref name="tei_att.datable.w3c.attribute.to"/>
          <ref name="tei_att.canonical.attribute.ref"/>
          <empty/>
       </element>
@@ -2873,6 +2876,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <ref name="tei_listRelation"/>
             </optional>
          </group>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <empty/>
       </element>
    </define>
    <define name="tei_listEvent">
@@ -2899,6 +2905,9 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
                <ref name="tei_person"/>
             </oneOrMore>
          </group>
+         <ref name="tei_att.global.attribute.xmlid"/>
+         <ref name="tei_att.global.attribute.xmllang"/>
+         <empty/>
       </element>
    </define>
    <define name="tei_listRelation">

@@ -12,6 +12,7 @@ a:documentation [
 taxonomy =
   element taxonomy {
     id.att,
+    lang.att,
     element desc { lang.att, catDesc.content }+,
     category+
   }
@@ -31,7 +32,8 @@ catDesc.content =
 
 ## Organization list element included directly in the teiHeader of corpus root or
 ##     stored in a separate file.
-listOrg = element listOrg { head*, org+, listRelation? }
+listOrg =
+  element listOrg { id.att?, lang.att, head*, org+, listRelation? }
 
 ## Organization element for storing info on political parties, government,
 ##     etc.
@@ -116,7 +118,7 @@ listRelation =
 
 ## A list of persons. This element can be included directly in the teiHeader of a
 ##     corpus root or stored in a separate file.
-listPerson = element listPerson { head*, person+ }
+listPerson = element listPerson { id.att?, lang.att, head*, person+ }
 
 ## All informaton pertaining to a person.
 person =
@@ -124,7 +126,7 @@ person =
     global.atts,
     
     ## We can have person name in several languages, or, rather,
-    ##         scripts.
+    ##         scripts or several names with different temporal information.
     (persName+),
     (element sex {
        attribute value { "M" | "F" | "U" | "O" | "N" },
@@ -142,7 +144,12 @@ person =
 ## The name of a person.
 persName =
   element persName {
-    lang.att,
+    lang.att
+    >> a:documentation [
+         "Names can change, and are then marked by @from / @to."
+       ],
+    attribute from { temporal.val }?,
+    attribute to { temporal.val }?,
     
     ## Special persons (like 'group') have their name in term. This possibility
     ##         might have to be revisited.

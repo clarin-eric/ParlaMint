@@ -68,6 +68,28 @@
     <xsl:variable name="rootHeader">
       <xsl:apply-templates mode="XInclude" select="//tei:teiHeader"/>
     </xsl:variable>
+    <xsl:for-each select="./tei:teiHeader//xi:include">
+      <xsl:variable name="incl">
+        <xsl:apply-templates mode="XInclude" select="."/>
+      </xsl:variable>
+      <xsl:variable name="incl-id"><xsl:value-of select="$incl/tei:*/@xml:id"/></xsl:variable>
+      <xsl:variable name="incl-lang"><xsl:value-of select="$incl/tei:*/@xml:lang"/></xsl:variable>
+      <xsl:if test="not(@href = concat($incl-id,'.xml'))">
+        <xsl:call-template name="error">
+          <xsl:with-param name="msg">
+            <xsl:value-of select="concat(@href,'/@xml:id=&quot;',$incl-id,'&quot; does not match filename')"/>
+          </xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
+      <xsl:if test="$incl-lang=''">
+        <xsl:call-template name="error">
+          <xsl:with-param name="msg">
+            <xsl:value-of select="concat(@href,'/@xml:lang is missing')"/>
+          </xsl:with-param>
+        </xsl:call-template>
+      </xsl:if>
+
+    </xsl:for-each>
     <xsl:apply-templates select="$rootHeader"/>
   </xsl:template>
   
@@ -83,10 +105,10 @@
       </xsl:call-template>
     </xsl:if>
     <xsl:choose>
-      <xsl:when test="not(matches($id, concat($idTemplate,'_')))">
+      <xsl:when test="not(matches($id, concat('^',$idTemplate,'_[0-9]{4}-[01][0-9]-[0123][0-9](-[-a-zA-Z0-9]+)?(\.ana)?$')))">
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg">
-	    <xsl:text>TEI ID should match ParlaMint-{ISO3166}(-{ISO639})?_...</xsl:text>
+	    <xsl:text>TEI ID should match ParlaMint-{ISO3166}(-{ISO639})?_{YYYY-MM-DD}(-[-a-zA-Z0-9]+)?(\.ana)?</xsl:text>
 	  </xsl:with-param>
 	</xsl:call-template>
       </xsl:when>
