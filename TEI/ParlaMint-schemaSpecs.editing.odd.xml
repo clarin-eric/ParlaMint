@@ -1556,6 +1556,8 @@
     <attList>
       <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="ref"/>
+      <pm:attPreserve ident="from"/>
+      <pm:attPreserve ident="to"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -2598,16 +2600,15 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="taxonomy" module="header" mode="change">
-    <desc
-        versionDate="2011-11-02"
-        xml:lang="en">defines a typology either implicitly, by means of a bibliographic
-    citation, or explicitly by a structured taxonomy.</desc>
+    <desc versionDate="2022-11-10" xml:lang="en">defines a typology explicitly by a structured
+    taxonomy.</desc>
     <content>
       <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
       <elementRef key="category" minOccurs="1" maxOccurs="unbounded"/>
     </content>
     <attList>
       <attDef ident="xml:id" mode="change" usage="req"/>
+      <pm:attPreserve ident="xml:lang"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -3137,7 +3138,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="listOrg" module="namesdates" mode="change">
-    <desc
+    <desc 
         versionDate="2008-04-29"
         xml:lang="en">contains a list of elements, each of which provides information about an identifiable
     organisation.</desc>
@@ -3148,7 +3149,10 @@
         <elementRef key="listRelation" minOccurs="0" maxOccurs="1"/>
       </sequence>
     </content>
-    <attList/>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <listOrg>
@@ -3543,7 +3547,10 @@
         <elementRef key="person" minOccurs="1" maxOccurs="unbounded"/>
       </sequence>
     </content>
-    <attList/>
+    <attList>
+      <pm:attPreserve ident="xml:id"/>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
         <listPerson>
