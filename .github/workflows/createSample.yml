@@ -69,10 +69,11 @@ jobs:
       - name: Remove unused data from repository
         run: |
           cd $GITHUB_WORKSPACE/ParlaMint
+          shopt -s globstar
           for parla in $(jq -r '.[]' <<< '${{needs.Changes.outputs.parla_changed}}' ); do
-            for file in $(echo Data/ParlaMint-$parla/ParlaMint-$parla\_*) ; do
+            for file in $(echo Data/ParlaMint-$parla/**/ParlaMint-$parla\_*) ; do
               echo "testing $file"
-              xmlfile=$(echo $file|sed -E 's/(-meta\.tsv|\.conllu|\.txt|\.vert)$/.xml/;s/^.*\///')
+              xmlfile=$(echo $file|sed -E 's/(-meta\.tsv|\.conllu|\.txt|\.vert)$/.xml/;s/^Data\/ParlaMint-[^\/]*\///')
               cat Data/ParlaMint-$parla/ParlaMint-$parla{,.ana}.xml | grep -Fq "$xmlfile" || git rm "$file"
             done
           done
