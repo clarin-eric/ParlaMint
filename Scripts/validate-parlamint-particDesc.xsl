@@ -480,9 +480,12 @@
         <xsl:value-of select="mk:get_from($aff-overlaps)"/>
         <xsl:text> --- </xsl:text>
         <xsl:value-of select="mk:get_to($aff-overlaps)"/>
-        <xsl:text>) affiliation (line:</xsl:text>
-        <xsl:value-of select="$aff-overlaps/@LINE"/>
-        <xsl:text>) </xsl:text>
+        <xsl:text>) affiliation </xsl:text>
+        <xsl:if test="$aff-overlaps/@LINE">
+          <xsl:text>(line:</xsl:text>
+          <xsl:value-of select="$aff-overlaps/@LINE"/>
+          <xsl:text>) </xsl:text>
+        </xsl:if>
         <xsl:value-of select="@role"/>
         <xsl:text>-</xsl:text>
         <xsl:value-of select="@ref"/>
@@ -500,9 +503,11 @@
       <xsl:text>[</xsl:text>
       <xsl:value-of select="$ident"/>
       <xsl:text>]&#32;</xsl:text>
-      <xsl:value-of select="/tei:*/@xml:id"/>
-      <xsl:text>:</xsl:text>
-      <xsl:value-of select="./@LINE"/>
+      <xsl:value-of select="./ancestor-or-self::tei:*[starts-with(@xml:id,'ParlaMint-')][1]/@xml:id"/>
+      <xsl:if test="./@LINE">
+        <xsl:text>:</xsl:text>
+        <xsl:value-of select="./@LINE"/>
+      </xsl:if>
       <xsl:text>&#32;</xsl:text>
       <xsl:value-of select="$msg"/>
     </xsl:message>
