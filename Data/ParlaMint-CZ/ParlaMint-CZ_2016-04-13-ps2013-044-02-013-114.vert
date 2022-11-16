@@ -1,5 +1,5 @@
 <note type="speaker" content="Místopředseda PSP Vojtěch Filip"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u1" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u1" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="VojtechFilip.1955" speaker_name="Filip, Vojtěch" speaker_type="MP" speaker_party="KSČM" speaker_party_name="Poslanecký klub Komunistické strany Čech a Moravy" party_status="Opposition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u1.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u1.p1.s1">
 114	114	114	NUM	NumForm=Digit NumType=Card	w1	root	-	-	-	-
@@ -164,7 +164,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w6	obj	mít
 </p>
 </speech>
 <note type="speaker" content="Poslanec Jaroslav Zavadil"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u2" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="JaroslavZavadil.1944" speaker_name="Zavadil, Jaroslav" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="M" speaker_birth="1944">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u2" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="JaroslavZavadil.1944" speaker_name="Zavadil, Jaroslav" speaker_type="MP" speaker_party="ČSSD" speaker_party_name="Poslanecký klub České strany sociálně demokratické" party_status="Coalition" speaker_gender="M" speaker_birth="1944">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u2.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u2.p1.s1">
 Já	Já	já	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	w1	nsubj	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w3
@@ -976,7 +976,7 @@ předsedající	předsedající	předsedající	ADJ	Animacy=Anim Aspect=Imp Case
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u108" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="MiroslavKalousek.1960" speaker_name="Kalousek, Miroslav" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u108" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Regular" speaker_id="MiroslavKalousek.1960" speaker_name="Kalousek, Miroslav" speaker_type="MP" speaker_party="TOP09-S" speaker_party_name="Poslanecký klub TOP 09 a Starostové" party_status="Opposition" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u108.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u108.p1.s1">
 Děkuji	Děkuji	děkovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1	root	-	-	-	-
@@ -1012,7 +1012,7 @@ výboru	výboru	výbor	NOUN	Animacy=Inan Case=Dat Gender=Masc Number=Sing Polari
 </p>
 </speech>
 <note type="speaker" content="Místopředsedkyně PSP Jaroslava Jermanová"/>
-<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u109" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="JaroslavaPokornaJermanova.1970" speaker_name="Pokorná Jermanová, Jaroslava" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="F" speaker_birth="1970">
+<speech id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u109" text_id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114" subcorpus="Reference" house="Lower house" term="ps2013" session="" meeting="ps2013/044" sitting="ps2013/044/02" agenda="ps2013/044/114" from="2016-04-13" to="2016-04-13" title="Parliament of the Czech Republic, Chamber of Deputies, 2016-04-13" speaker_role="Chairperson" speaker_id="JaroslavaPokornaJermanova.1970" speaker_name="Pokorná Jermanová, Jaroslava" speaker_type="MP" speaker_party="ANO" speaker_party_name="Poslanecký klub ANO 2011" party_status="Coalition" speaker_gender="F" speaker_birth="1970">
 <p id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u109.p1" lang="Czech">
 <s id="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.u109.p1.s1">
 Ještě	Ještě	ještě	ADV		w1	advmod:emph	návrh	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity=Pos	w3

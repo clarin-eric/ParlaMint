@@ -105,10 +105,10 @@
       </xsl:call-template>
     </xsl:if>
     <xsl:choose>
-      <xsl:when test="not(matches($id, concat($idTemplate,'_[0-9]{4}-[01][0-9]-[0123][0-9]')))">
+      <xsl:when test="not(matches($id, concat('^',$idTemplate,'_[0-9]{4}-[01][0-9]-[0123][0-9](-[-a-zA-Z0-9]+)?(\.ana)?$')))">
 	<xsl:call-template name="error">
 	  <xsl:with-param name="msg">
-	    <xsl:text>TEI ID should match ParlaMint-{ISO3166}(-{ISO639})?_{YYYY-MM-DD}...</xsl:text>
+	    <xsl:text>TEI ID should match ParlaMint-{ISO3166}(-{ISO639})?_{YYYY-MM-DD}(-[-a-zA-Z0-9]+)?(\.ana)?</xsl:text>
 	  </xsl:with-param>
 	</xsl:call-template>
       </xsl:when>

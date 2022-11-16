@@ -1,4 +1,4 @@
-<speech id="ParlaMint-IS_2015-01-22-55.u1" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2015-01-22-55.u1" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2015-01-22-55.seg1" lang="">
 <s id="ParlaMint-IS_2015-01-22-55.seg1.1">
 Borist	Borist	bera	VERB	VerbForm=Sup Voice=Mid	1	root	-	-	-	-
@@ -97,7 +97,7 @@ nýju	nýju	nýr	ADJ	Case=Dat Definite=Ind Degree=Pos Gender=Neut Number=Sing	16
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2015-01-22-55.u2" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="M" speaker_birth="1955">
+<speech id="ParlaMint-IS_2015-01-22-55.u2" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Chairperson" speaker_id="EinarGudfinnsson1955" speaker_name="Guðfinnsson, Einar K." speaker_type="MP" speaker_party="S" speaker_party_name="Sjálfstæðisflokkur" party_status="Coalition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-IS_2015-01-22-55.seg3" lang="">
 <s id="ParlaMint-IS_2015-01-22-55.seg3.1">
 Forseti	Forseti	forseti	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	nsubj	vilja	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -117,7 +117,7 @@ dag	dag	dagur	NOUN	Case=Acc Definite=Ind Gender=Masc Number=Sing	11	obl	verða	V
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2015-01-22-55.u226" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Regular" speaker_id="BjarkeyGunnarsdottir" speaker_name="Gunnarsdóttir, Bjarkey Olsen" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1965">
+<speech id="ParlaMint-IS_2015-01-22-55.u226" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Regular" speaker_id="BjarkeyGunnarsdottir" speaker_name="Gunnarsdóttir, Bjarkey Olsen" speaker_type="MP" speaker_party="Vg" speaker_party_name="Vinstrihreyfingin - grænt framboð" party_status="" speaker_gender="F" speaker_birth="1965">
 <p id="ParlaMint-IS_2015-01-22-55.seg534" lang="">
 <s id="ParlaMint-IS_2015-01-22-55.seg534.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
@@ -534,7 +534,7 @@ auglýsingar	auglýsingar	auglýsing	NOUN	Case=Gen Definite=Ind Gender=Fem Numbe
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2015-01-22-55.u227" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Regular" speaker_id="ValgerdurBjarnadottir" speaker_name="Bjarnadóttir, Valgerður" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1950">
+<speech id="ParlaMint-IS_2015-01-22-55.u227" text_id="ParlaMint-IS_2015-01-22-55" subcorpus="Reference" house="" term="21" session="144" meeting="55" sitting="" agenda="" from="2015-01-22" to="2015-01-22" title="Speeches in the national parliament of Iceland, 21. term, regular meeting 144-55, 22.01.2015." speaker_role="Regular" speaker_id="ValgerdurBjarnadottir" speaker_name="Bjarnadóttir, Valgerður" speaker_type="MP" speaker_party="Sf" speaker_party_name="Samfylking" party_status="" speaker_gender="F" speaker_birth="1950">
 <p id="ParlaMint-IS_2015-01-22-55.seg538" lang="">
 <s id="ParlaMint-IS_2015-01-22-55.seg538.1">
 Virðulegi	Virðulegi	virðulegur	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing	1	amod	forseti	NOUN	Case=Nom Definite=Ind Gender=Masc Number=Sing	2
