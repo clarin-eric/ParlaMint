@@ -30,7 +30,7 @@
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1241"/>
             <measure unit="words" quantity="123782"/>
          </extent>
@@ -43,7 +43,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2021-05-06">May 6, 2021</date>
+            <date when="2022-11-18">2022-11-18</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +75,7 @@
                <p xml:lang="en">No segmentation of source texts was performed.</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="5"/>
                <tagUsage gi="speeches" occurs="1241"/>
@@ -84,13 +84,13 @@
          </tagsDecl>
          <classDecl>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                         href="ParlaMint-taxonomy-speaker_types.xml"/>
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                         href="ParlaMint-taxonomy-parla.legislature.xml"/>
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                         href="ParlaMint-taxonomy-subcorpus.xml"/>
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                         href="ParlaMint-PT-taxonomy-parla.orientations.xml"/>
+                        href="ParlaMint-PT-taxonomy-parla.orientations.xml"/>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -108,22 +108,26 @@
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-PT-listOrg.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                         href="ParlaMint-PT-listPerson.xml"/>
+                        href="ParlaMint-PT-listPerson.xml"/>
          </particDesc>
          <langUsage>
             <language ident="pt" xml:lang="en">Portuguese</language>
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2022-11-18">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-                href="ParlaMint-PT_2015-01-07.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-                href="ParlaMint-PT_2015-01-08.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-                href="ParlaMint-PT_2015-01-09.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-                href="ParlaMint-PT_2015-01-14.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
-                href="ParlaMint-PT_2015-01-15.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_2015-01-07.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_2015-01-08.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_2015-01-09.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_2015-01-14.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-PT_2015-01-15.xml"/>
 </teiCorpus>
