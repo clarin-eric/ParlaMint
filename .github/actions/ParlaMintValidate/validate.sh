@@ -15,27 +15,27 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   echo "Cleaning old sample files [$parla]"
   rm -f ${DATADIR}/ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
 
-  Scripts/validate-parlamint.pl Schema ${DATADIR}/ParlaMint-$parla 2>&1 | sed "s/^\(.*\)\(error\)/::error::\1\2/i" | tee $DIR/validate.log
+  Scripts/validate-parlamint.pl Schema ${DATADIR}/ParlaMint-$parla 2>&1 | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/validate.log
 
   echo "Validating parla-CLARIN (TEI)"
   java -jar /usr/share/java/saxon.jar -xi -xsl:Scripts/copy.xsl ${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.xml > $TESTDIR/ParlaMint-$parla.xml
-  java -jar /usr/share/java/jing.jar Schema/parla-clarin.rng $TESTDIR/ParlaMint-$parla.xml| sed "s/^\(.*\)\(error\)/::error::\1\2/i" | tee $DIR/parla-clarin-validate-tei.log
+  java -jar /usr/share/java/jing.jar Schema/parla-clarin.rng $TESTDIR/ParlaMint-$parla.xml| sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/parla-clarin-validate-tei.log
 
   echo "CONVERT to text and metadata"
-  Scripts/parlamintp-tei2text.pl ${DATADIR}/ParlaMint-$parla $DIR 2>&1 | sed "s/^\(.*\)\(error\)/::error::\1\2/i" | tee $DIR/text.log
+  Scripts/parlamintp-tei2text.pl ${DATADIR}/ParlaMint-$parla $DIR 2>&1 | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/text.log
 
 
   if [ -f "${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.ana.xml" ] ; then
     echo "Validating parla-CLARIN (TEI.ana)"
     java -jar /usr/share/java/saxon.jar -xi -xsl:Scripts/copy.xsl ${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.ana.xml > $TESTDIR/ParlaMint-$parla.ana.xml
-    java -jar /usr/share/java/jing.jar Schema/parla-clarin.rng $TESTDIR/ParlaMint-$parla.ana.xml | sed "s/^\(.*\)\(error\)/::error::\1\2/i" | tee $DIR/parla-clarin-validate-tei.log
+    java -jar /usr/share/java/jing.jar Schema/parla-clarin.rng $TESTDIR/ParlaMint-$parla.ana.xml | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/parla-clarin-validate-tei.log
 
     echo "CONVERT to vert"
-    Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.ana.xml $DIR 2>&1 | tee $DIR/vert.log | sed "s/^\(.*\)\(error\)/::error::\1\2/i"
+    Scripts/parlamint-tei2vert.pl ${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.ana.xml $DIR 2>&1 | tee $DIR/vert.log | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i"
 
     echo "CONVERT and VALIDATE CoNLLu format"
     Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-$parla $DIR 2>&1 \
-      | perl -pe 'if(/^INFO/){($L) = $_ =~ m/Validating level (\d):/;} $ERROR= $L>1 ? "warning" : "error"; s/^(.*)(error)/\:\:$ERROR\:\:$1$2/i;' \
+      | perl -pe 'if(/^INFO/){($L) = $_ =~ m/Validating level (\d):/;} $ERROR= $L>1 ? "warning" : "error"; s/^(.*)(\berror\b)/\:\:$ERROR\:\:$1$2/i;' \
       | tee $DIR/conllu.log
 
   else
