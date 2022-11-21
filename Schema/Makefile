@@ -1,3 +1,10 @@
+## We use this Makefile also for testing scripts:
+META = $F/DataXI/ParlaMint-CZ/ParlaMint-CZ.xml
+cl-test:
+	#$s -xsl:../Scripts/check-links.xsl ${META}
+	$s meta=${META} -xsl:../Scripts/check-links.xsl \
+	$F/DataXI/ParlaMint-CZ/ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.xml
+
 F = ../../Factorized
 f-test:	f-test-root f-test-anaroot f-test-component f-test-anacomponent f-test-splits f-test-odd
 

@@ -22,8 +22,11 @@ die "Can't find root TEI file with teiHeader: $rootFile\n"
 
 open(IN, '<:utf8', $rootFile);
 $/ = ">";
+$skip = 1; # We skip over XIncludes in the <teiHeader>
 while (<IN>) {
-    if (m|<xi:include |) {
+    if (m|</teiHeader>|) {$skip = 0}
+    elsif ($skip) {}
+    elsif (m|<xi:include |) {
 	($href) = m|href="(.+?)"| or
 	    die "Can't find href in xi:include!\n";
 	push(@inFiles, "$rootDir/$href");
@@ -39,7 +42,7 @@ foreach $inFile (@inFiles) {
     }
     else {die "Weird input file $inFile\n"}
     my $outFile = "$outDir/$fName.vert";
-    $command = "$Saxon hdr=$rootFile -xsl:$TEI2VERT $inFile | $POLISH > $outFile";
+    $command = "$Saxon meta=$rootFile -xsl:$TEI2VERT $inFile | $POLISH > $outFile";
     #print STDERR "\$ $command\n";
     my $status = system($command);
     die "ERROR: Conversion to vert for $inFile failed!\n"

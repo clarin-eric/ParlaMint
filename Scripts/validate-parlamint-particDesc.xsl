@@ -8,8 +8,14 @@
   xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   exclude-result-prefixes="tei xi">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:output method="text"/>
 
+  <xsl:template match="/tei:teiCorpus">
+    <xsl:apply-templates select="$rootHeader"/>
+  </xsl:template>
+  
   <xsl:template match="tei:affiliation">
     <xsl:variable name="personId" select="./parent::tei:person/@xml:id"/>
     <xsl:variable name="person" select="./parent::tei:person"/>
@@ -32,7 +38,7 @@
 
     <xsl:choose>
       <xsl:when test="$ref">
-        <xsl:variable name="affWith" select="./ancestor::tei:teiCorpus//*[@xml:id = substring-after($ref,'#')]"/>
+        <xsl:variable name="affWith" select="./ancestor::tei:particDesc//*[@xml:id = substring-after($ref,'#')]"/>
         <xsl:choose>
           <xsl:when test="$affWith/local-name()='org'"> <!-- affiliation with organization -->
             <xsl:variable name="orgFrom" select="mk:get_org_from($affWith)"/>
@@ -244,9 +250,9 @@
       <xsl:when test="@xml:id">
         <!-- organization without affiliation -->
         <xsl:variable name="orgId" select="@xml:id"/>
-        <xsl:variable name="affCnt" select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId)])"/>
+        <xsl:variable name="affCnt" select="count(./ancestor::tei:particDesc//tei:affiliation[@ref = concat('#',$orgId)])"/>
         <xsl:variable name="affCnt-no-from-to"
-                      select="count(./ancestor::tei:teiCorpus//tei:affiliation[@ref = concat('#',$orgId) and not(@from) and not(@to)])"/>
+                      select="count(./ancestor::tei:particDesc//tei:affiliation[@ref = concat('#',$orgId) and not(@from) and not(@to)])"/>
 
         <xsl:call-template name="error">
           <xsl:with-param name="ident">10</xsl:with-param>
@@ -374,7 +380,7 @@
       <xsl:otherwise>
         <xsl:variable name="newRefs" select="substring-after($refs,' ')"/>
         <xsl:variable name="actRef" select="substring-after(substring-before(concat($refs,' '),' '),'#')"/>
-        <xsl:variable name="eventNode" select="./ancestor::tei:teiCorpus//tei:event[@xml:id = $actRef]"/>
+        <xsl:variable name="eventNode" select="./ancestor::tei:particDesc//tei:event[@xml:id = $actRef]"/>
         <xsl:if test="$eventNode">
           <xsl:variable name="eventFrom" select="mk:fix_date(mk:get_from($eventNode),'-01-01','T00:00:00')" />
           <xsl:variable name="eventTo" select="mk:fix_date(mk:get_to($eventNode),'-12-31','T23:59:59')" />
@@ -588,15 +594,15 @@
     <xsl:param name="org"/>
     <xsl:choose>
       <xsl:when test="$org//tei:event/@*[contains(' from when ',mk:borders(name()))]"><xsl:value-of select="min($org//tei:event/@*[contains(' from when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-01-01','T00:00:00')))"/></xsl:when>
-      <xsl:otherwise>1500-01-01</xsl:otherwise>
+      <xsl:otherwise>1500-01-01T00:00:00</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
   <xsl:function name="mk:get_org_to">
     <xsl:param name="org"/>
     <xsl:choose>
-      <xsl:when test="$org//tei:event/@*[contains(' to when ',mk:borders(name()))]"><xsl:value-of select="min($org//tei:event/@*[contains(' to when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59')))"/></xsl:when>
-      <xsl:otherwise><xsl:value-of select="$org/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:otherwise>
+      <xsl:when test="$org//tei:event/@*[contains(' to when ',mk:borders(name()))]"><xsl:value-of select="max($org//tei:event/@*[contains(' to when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59')))"/></xsl:when>
+      <xsl:otherwise><xsl:value-of select="$org/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59'))"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
@@ -605,7 +611,7 @@
     <xsl:param name="node"/>
     <xsl:choose>
       <xsl:when test="$node/@from"><xsl:value-of select="$node/@from"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@from"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
                        and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
@@ -619,7 +625,7 @@
     <xsl:param name="node"/>
     <xsl:choose>
       <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@when"/></xsl:when>
       <xsl:when test="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
