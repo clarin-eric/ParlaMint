@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Turkish parliamentary corpus ParlaMint-TR [ParlaMint.ana SAMPLE]</title>
             <title type="main" xml:lang="tr">Türkiye meclis derlemi ParlaMint-TR [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="en">Grand National Assembly of Turkey</title>
             <title type="sub" xml:lang="tr">Türkiye Büyük Millet Meclisi</title>
@@ -48,8 +48,8 @@
             <edition>2.0</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="2629" xml:lang="en">2,629 speeches</measure>
-            <measure unit="words" quantity="377341" xml:lang="en">377,341 words</measure>
+            <measure unit="speeches" quantity="1363" xml:lang="en">1,363 speeches</measure>
+            <measure unit="words" quantity="193686" xml:lang="en">193,686 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -62,7 +62,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">Bu çalışma <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atıf 4.0 Uluslararası Lisansı</ref> ile lisanslanmıştır.</p>
             </availability>
-            <date when="2022-10-31">2022-10-31</date>
+            <date when="2022-11-22">2022-11-22</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -97,21 +97,21 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="20"/>
-               <tagUsage gi="body" occurs="10"/>
-               <tagUsage gi="div" occurs="46"/>
-               <tagUsage gi="note" occurs="744"/>
-               <tagUsage gi="u" occurs="5269"/>
-               <tagUsage gi="seg" occurs="11692"/>
-               <tagUsage gi="kinesic" occurs="675"/>
-               <tagUsage gi="vocal" occurs="57"/>
+               <tagUsage gi="text" occurs="16"/>
+               <tagUsage gi="body" occurs="8"/>
+               <tagUsage gi="div" occurs="29"/>
+               <tagUsage gi="note" occurs="527"/>
+               <tagUsage gi="u" occurs="2611"/>
+               <tagUsage gi="seg" occurs="5739"/>
+               <tagUsage gi="kinesic" occurs="304"/>
+               <tagUsage gi="vocal" occurs="17"/>
                <tagUsage gi="incident" occurs="1"/>
-               <tagUsage gi="s" occurs="24565"/>
-               <tagUsage gi="name" occurs="23534"/>
-               <tagUsage gi="w" occurs="333312"/>
-               <tagUsage gi="pc" occurs="61315"/>
-               <tagUsage gi="link" occurs="394627"/>
-               <tagUsage gi="linkGrp" occurs="24565"/>
+               <tagUsage gi="s" occurs="12476"/>
+               <tagUsage gi="name" occurs="12194"/>
+               <tagUsage gi="w" occurs="171399"/>
+               <tagUsage gi="pc" occurs="31393"/>
+               <tagUsage gi="link" occurs="202792"/>
+               <tagUsage gi="linkGrp" occurs="12476"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -122,13 +122,11 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-TR-taxonomy-parla.constituencies.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-TR-taxonomy-gov.ministries.xml"/>
+                        href="ParlaMint-TR-taxonomy-parla.constituencies-TR.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-NER.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.xml"/>
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -157,7 +155,7 @@
             <setting>
                <name type="city">Ankara</name>
                <name type="country" key="TR">Turkey</name>
-               <date from="2011-10-13" to="2021-11-04"/>
+               <date from="2011-10-13" to="2022-02-24"/>
             </setting>
          </settingDesc>
          <particDesc>
@@ -176,21 +174,17 @@
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="2011/ParlaMint-TR_2011-10-13-tbmm-T24.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2012/ParlaMint-TR_2012-04-18-tbmm-T24.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2012/ParlaMint-TR_2012-04-26-tbmm-T24.ana.xml"/>
+               href="2012/ParlaMint-TR_2012-06-26-tbmm-T24.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="2013/ParlaMint-TR_2013-12-26-tbmm-T24.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2016/ParlaMint-TR_2016-11-30-tbmm-T26.ana.xml"/>
+               href="2014/ParlaMint-TR_2014-04-10-tbmm-T24.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="2016/ParlaMint-TR_2016-12-20-tbmm-T26.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2018/ParlaMint-TR_2018-03-28-tbmm-T26.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="2018/ParlaMint-TR_2018-11-06-tbmm-T27.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2021/ParlaMint-TR_2021-02-25-tbmm-T27.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="2021/ParlaMint-TR_2021-11-04-tbmm-T27.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="2022/ParlaMint-TR_2022-02-24-tbmm-T27.ana.xml"/>
 </teiCorpus>
