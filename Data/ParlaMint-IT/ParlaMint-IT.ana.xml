@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-IT" xml:lang="it">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="ParlaMint-IT.ana"
+           xml:lang="it">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="it">Resoconti del Senato della Repubblica italiana, legislature XVII e XVIII (2013 - 2022)</title>
             <title type="sub" xml:lang="en">Minutes of the Senate of the Italian Republic, terms 17 and 18 (2013 - 2022)</title>
             <meeting ana="#parla.upper #parla.term #LEG.17" corresp="#LEG" n="17-upper">XVII Legislatura</meeting>
@@ -33,6 +35,14 @@
                <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
                <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
+            <respStmt>
+               <persName>Roberto Bartolini</persName>
+               <persName>Valeria Quochi</persName>
+               <resp xml:lang="it">Annotazione linguistica automatica</resp>
+               <resp xml:lang="en">Automatic Linguistic annotation</resp>
+               <resp xml:lang="it">Riconoscimento Entità Nominate</resp>
+               <resp xml:lang="en">NER</resp>
+            </respStmt>
             <funder>
                <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -56,8 +66,16 @@
             <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>.</p>
-               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="it">
+            Quest'opera è rilasciata con 
+            <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref>
+            .
+          </p>
+               <p xml:lang="en">
+            This work is licensed under the 
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+            .
+          </p>
             </availability>
             <date when="2022-11-22">2022-11-22</date>
          </publicationStmt>
@@ -76,7 +94,11 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+           is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the 
+          <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>
+           and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
+        </p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -117,7 +139,29 @@
                         href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-NER.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-UD-SYN.xml"/>
          </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="it">Gli URI privati con questo prefisso puntano a elementi che ne indicano il nome. In questo documento sono dei semplici riferimenti locali alle categorie della tassonomia UD-SYN contenute nel root TEI header del corpus</p>
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application version="1" ident="app-stanza">
+               <label>Stanza</label>
+               <desc xml:lang="en">
+                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref>: a jointly trained neural tagger, lemmatizer and dependency parser. Pretrained model based on the italian-isdt-ud-2.5 treebank</desc>
+            </application>
+            <application version="1" ident="conll-U2TEIXML">
+               <label>CoNLL-U 2 TEI XML</label>
+               <desc xml:lang="en">
+                  <ref target="http://conllu2teixml">CoNLL-U 2 TEI XML</ref>: converter from CoNLL-U format to (ParlaClarin/ParlaMint) Tei XML Format</desc>
+            </application>
+         </appInfo>
       </encodingDesc>
       <profileDesc>
          <settingDesc>
@@ -149,9 +193,9 @@
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.xml"/>
+               href="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.xml"/>
+               href="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.xml"/>
+               href="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.xml"/>
 </teiCorpus>
