@@ -3,7 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Estonian parliamentary corpus ParlaMint-EE [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE [ParlaMint SAMPLE]</title>
+        <meeting ana="#parla.term">XII Riigikogu</meeting>
+        <meeting ana="#parla.term">XIII Riigikogu</meeting>
+        <meeting ana="#parla.term">XIV Riigikogu</meeting>
         <respStmt>
           <persName>Martin Mölder</persName>
           <persName>Neeme Kahusk</persName>
@@ -85,6 +88,7 @@
             <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
           </category>
         </taxonomy>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
       </classDecl>
     </encodingDesc>
     <profileDesc>
