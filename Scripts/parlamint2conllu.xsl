@@ -143,8 +143,9 @@
 	<xsl:value-of select="text()"/>
       </xsl:when>
       <xsl:when test="not(@lemma)">
-	<xsl:message terminate="yes">
+	<xsl:message terminate="no">
 	  <xsl:value-of select="concat('ERROR: no lemma for token: ', text())"/>
+	  <xsl:text></xsl:text>
 	</xsl:message>
       </xsl:when>
       <xsl:otherwise>
@@ -161,10 +162,10 @@
     <!-- 4/CPOSTAG -->
     <xsl:choose>
       <xsl:when test="not(@msd)">
-	<xsl:message terminate="yes">
+	<xsl:message terminate="no">
 	  <xsl:value-of select="concat('ERROR: no UPOS (@msd) for token: ', text())"/>
 	</xsl:message>
-	<xsl:text>???</xsl:text>
+	<xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:variable name="catfeat" select="replace(@msd, '\|.+', '')"/>
@@ -274,8 +275,9 @@
 	<xsl:apply-templates mode="number" select="key('idr', $head_id)"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:message terminate="yes">
-	  <xsl:value-of select="concat('ERROR: in link cant find head ', $head_id, ' for id ', $id)"/>
+	<xsl:message terminate="no">
+	  <xsl:value-of select="concat('ERROR: syntactic head ', $head_id, ' not found for id ', $id)"/>
+	  <xsl:text></xsl:text>
 	</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
