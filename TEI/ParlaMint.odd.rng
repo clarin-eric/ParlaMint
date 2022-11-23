@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-11-12T13:38:25Z. 2022-11-12.
+Schema generated from ODD source 2022-11-23T17:07:20Z. 2022-11-23.
 TEI Edition: Version 4.5.0a. Last updated on
         29th July 2022, revision 50a1ab835
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -2037,7 +2037,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_div">
       <element name="div">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains division of the body a corpus component. [4.1. Divisions of the Body]</a:documentation>
          <zeroOrMore>
             <ref name="tei_head"/>
          </zeroOrMore>
@@ -2086,15 +2086,15 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.typed.attribute.subtype"/>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <value>debateSection</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">General purpose text division for all parts of parliamentary proceedings. If needed, the @subtype attribute can be used for additional content classification.</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>debateSection</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">General purpose text division for all parts of parliamentary proceedings. It should include at least one utterance. If needed, the @subtype attribute can be used for additional content classification.</a:documentation>
+               <value>commentSection</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A special purpose text division used as a container for transcriber comments. Should not contain any utterances. If needed, the @subtype attribute can be used for additional content classification.</a:documentation>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>

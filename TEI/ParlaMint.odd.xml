@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-11-12</date>
+        <date>2022-11-23</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-11-12">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
+      <change when="2022-11-23">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -67,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-11-12</docDate>
+        <docDate>2022-11-23</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -2139,6 +2139,7 @@
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div">
           <text ana="#reference">
             <body>
+              <div type="commentSection">...</div>
               <div type="debateSection">...</div>
               <div type="debateSection">...</div>
               ...
@@ -2158,14 +2159,19 @@
           <p>A text body contains a series of divisions, <gi>div</gi> in cases when the source
           document can be reliably split into sections, which is typically done on the basis of
           headings identified in the source. When this is not possible, the complete body will be
-          just one division. ParlaMint requires that each division has the <att>type</att>
-          attribute with the fixed value <val>debateSection</val>.</p>
+          just one division.</p>
+
+	  <p>In ParlaMint we have two types of divisions, which are distinguished by the value of
+	  their (required) <att>type</att> attribute. If its value is <val>debateSection</val>,
+	  then the divisions must contain at least one speech, while the value
+	  <val>commentSection</val> must not contain any speeches, i.e. it contains transcriber
+	  (or other) comments only, e.g. the table of contents, references to laws etc.</p>
           
-          <p>Inside a division, the main elements of interest are speeches, encoded as the
-          utterance element, <gi>u</gi>. However, the transcription can also contain headings and
-          notes by the transcribers that serve to structure and comment the speeches, as well as
-          page breaks, and these can also appear directly inside the section(s), as illustrated
-          below:
+          <p>Inside a <val>debateSection</val>-type division, the main elements of interest are
+          speeches, encoded as the utterance element, <gi>u</gi>. However, this type of division
+          can (and the <val>commentSection</val>-type must) also contain headings and notes by
+          the transcribers that serve to structure and comment the speeches, as well as page
+          breaks, as illustrated below:
           
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div-detail">
             <text ana="#reference">
@@ -2193,11 +2199,11 @@
           </egXML>
           
           It should be noted that the <gi>head</gi> element can appear only at the start of a
-          divisions while notes can be interspersed with speeches anywhere inside a division,
-          and can also appear inside speeches, i.e. <gi>u</gi>. It is also possible to
-          specify the type of note, and, in fact, to use more precise elements than just
-          note, which is further explained in the Section on <ref
-          target="#sec-comments">Transcriber comments</ref>.</p>
+          division while notes can be interspersed with speeches anywhere inside a division, and
+          can also appear inside speeches, i.e. inside <gi>u</gi> elements. It is also possible
+          to specify the type of note, and, in fact, to use more precise elements than just
+	  <gi>note</gi>, which is further explained in the Section on
+	  <ref target="#sec-comments">Transcriber comments</ref>.</p>
 
           <p>Page breaks, <gi>pb</gi> are an optional element, and can also appear both
           inside divisions and inside speeches or segments (as well as inside the <gi>note</gi>

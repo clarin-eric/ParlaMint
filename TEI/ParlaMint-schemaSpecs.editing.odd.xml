@@ -238,7 +238,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="div" module="textstructure" mode="change">
-    <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
+    <desc versionDate="2022-11-23" xml:lang="en">contains division of the body a corpus component.</desc>
     <content>
       <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
       <alternate minOccurs="1" maxOccurs="unbounded">
@@ -253,12 +253,17 @@
     </content>
     <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
     <attList>
-      <attDef ident="type" mode="replace" usage="rec">
+      <attDef ident="type" mode="replace" usage="req">
         <valList type="closed">
           <valItem ident="debateSection">
             <desc xml:lang="en">General purpose text division for all parts of parliamentary
-            proceedings.  If needed, the @subtype attribute can be used for additional content
-            classification.</desc>
+            proceedings. It should include at least one utterance. If needed, the @subtype
+	    attribute can be used for additional content classification.</desc>
+          </valItem>
+          <valItem ident="commentSection">
+            <desc xml:lang="en">A special purpose text division used as a container for transcriber
+	    comments. Should not contain any utterances. If needed, the @subtype attribute can be
+	    used for additional content classification.</desc>
           </valItem>
         </valList>
       </attDef>
