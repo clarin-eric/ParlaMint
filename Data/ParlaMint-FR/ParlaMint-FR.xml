@@ -112,6 +112,22 @@
               <catDesc xml:lang="en">
                 <term>Chambers</term>
               </catDesc>
+              <category xml:id="parla.national">
+                <catDesc xml:lang="fr">
+                  <term>Parlement national</term>
+                </catDesc>
+                <catDesc xml:lang="en">
+                  <term>National parliament</term>
+                </catDesc>
+              </category>
+              <category xml:id="parla.regional">
+                <catDesc xml:lang="fr">
+                  <term>Parlement régional</term>
+                </catDesc>
+                <catDesc xml:lang="en">
+                  <term>Regional parliament</term>
+                </catDesc>
+              </category>
               <category xml:id="parla.uni">
                 <catDesc xml:lang="fr">
                   <term>Unicaméralisme</term>
@@ -405,6 +421,16 @@
               </event>
             </listEvent>
           </org>
+          <org xml:id="PO717460" role="parliament" ana="#parla.national #parla.lower">
+            <orgName full="yes" xml:lang="fr">Assemblée nationale de la 15ème législature</orgName>
+            <orgName full="abb">AN</orgName>
+            <orgName xml:lang="en" full="yes">National Assembly of the 15th legislature of the French Fifth Republic</orgName>
+            <event from="2017-06-21">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="URI" subtype="wikimedia" xml:lang="fr">https://fr.wikipedia.org/wiki/XVe_l%C3%A9gislature_de_la_Cinqui%C3%A8me_R%C3%A9publique_fran%C3%A7aise</idno>
+            <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/15th_legislature_of_the_French_Fifth_Republic</idno>
+          </org>
           <org xml:id="PO415287" role="commission">
             <orgName full="yes" xml:lang="fr">Commission des affaires européennes</orgName>
             <orgName full="abb">DUE</orgName>
@@ -454,16 +480,6 @@
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO717460" role="parliament" ana="#parla.national #parla.lower">
-            <orgName full="yes" xml:lang="fr">Assemblée nationale de la 15ème législature</orgName>
-            <orgName full="abb">AN</orgName>
-            <orgName xml:lang="en" full="yes">National Assembly of the 15th legislature of the French Fifth Republic</orgName>
-            <event from="2017-06-21">
-              <label xml:lang="en">existence</label>
-            </event>
-            <idno type="URI" subtype="wikimedia" xml:lang="fr">https://fr.wikipedia.org/wiki/XVe_l%C3%A9gislature_de_la_Cinqui%C3%A8me_R%C3%A9publique_fran%C3%A7aise</idno>
-            <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/15th_legislature_of_the_French_Fifth_Republic</idno>
-          </org>
           <org xml:id="PO723569" role="parliamentaryGroup">
             <orgName full="yes" xml:lang="fr">Non inscrit</orgName>
             <orgName full="abb">NI</orgName>
@@ -471,112 +487,112 @@
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO725689" role="government">
+          <org xml:id="PO725689" role="ministry">
             <orgName full="yes" xml:lang="fr">Premier ministre</orgName>
             <orgName full="abb">PMI</orgName>
             <event from="2017-06-20" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729937" role="government">
+          <org xml:id="PO729937" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l’intérieur</orgName>
             <orgName full="abb">INT</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729976" role="government">
+          <org xml:id="PO729976" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'Europe et des affaires étrangères</orgName>
             <orgName full="abb">EAE</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729978" role="government">
+          <org xml:id="PO729978" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de la cohésion des territoires</orgName>
             <orgName full="abb">TER</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729982" role="government">
+          <org xml:id="PO729982" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'économie et des finances</orgName>
             <orgName full="abb">ECO</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730004" role="government">
+          <org xml:id="PO730004" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'intérieur</orgName>
             <orgName full="abb">INT</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730006" role="government">
+          <org xml:id="PO730006" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'agriculture et de l'alimentation</orgName>
             <orgName full="abb">AGR</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730011" role="government">
+          <org xml:id="PO730011" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'action et des comptes publics</orgName>
             <orgName full="abb">CPA</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730017" role="government">
+          <org xml:id="PO730017" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère des outre-mer</orgName>
             <orgName full="abb">MOM</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730021" role="government">
+          <org xml:id="PO730021" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État auprès du ministre de l'Europe et des affaires étrangères</orgName>
             <orgName full="abb">EAE</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730023" role="government">
+          <org xml:id="PO730023" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État auprès de la ministre des armées</orgName>
             <orgName full="abb">ARM</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730027" role="government">
+          <org xml:id="PO730027" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du Premier ministre, chargé des relations avec le Parlement, porte-parole du Gouvernement</orgName>
             <orgName full="abb">PAR</orgName>
             <event from="2017-06-22" to="2017-11-24">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730029" role="government">
+          <org xml:id="PO730029" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du ministre de l'économie et des finances</orgName>
             <orgName full="abb">ECO</orgName>
             <event from="2017-06-22" to="2017-11-24">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730033" role="government">
+          <org xml:id="PO730033" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du ministre d'État, ministre de la transition écologique et solidaire</orgName>
             <orgName full="abb">TRE</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730035" role="government">
+          <org xml:id="PO730035" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du Premier ministre, chargé du numérique</orgName>
             <orgName full="abb">NUM</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730037" role="government">
+          <org xml:id="PO730037" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État auprès du ministre d'État, ministre de la transition écologique et solidaire</orgName>
             <orgName full="abb">TRE</orgName>
             <event from="2017-06-22" to="2019-07-16">
