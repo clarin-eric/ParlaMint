@@ -129,83 +129,83 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outVertDir = "$outDir/$XX.vert";
     #$vertRegi   = lc "parlamint20_$countryCode.regi";
     $vertRegi   = lc "parlamint21_$countryCode.regi";
-	
+        
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
-	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
-	die "Can't find $inAnaRoot\n" unless -e $inAnaRoot;
-	`rm -fr $outAnaDir; mkdir $outAnaDir`;
-	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
-	dircopy($schemaDir, "$outAnaDir/Schema");
-	`rm -f $outAnaDir/Schema/.gitignore`;
-	`rm -f $outAnaDir/Schema/nohup.*`;
-	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
-    	&polish($outAnaDir);
+        print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
+        die "Can't find $inAnaRoot\n" unless -e $inAnaRoot;
+        `rm -fr $outAnaDir; mkdir $outAnaDir`;
+        &cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
+        dircopy($schemaDir, "$outAnaDir/Schema");
+        `rm -f $outAnaDir/Schema/.gitignore`;
+        `rm -f $outAnaDir/Schema/nohup.*`;
+        `$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
+        &polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
-	print STDERR "INFO: *Finalizing $countryCode TEI\n";
-	die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
-	`rm -fr $outTeiDir; mkdir $outTeiDir`;
-	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
-	dircopy($schemaDir, "$outTeiDir//Schema");
-	`$SaxonX anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
-	&polish($outTeiDir);
+        print STDERR "INFO: *Finalizing $countryCode TEI\n";
+        die "Can't find $inTeiRoot\n" unless -e $inTeiRoot; 
+        `rm -fr $outTeiDir; mkdir $outTeiDir`;
+        &cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
+        dircopy($schemaDir, "$outTeiDir//Schema");
+        `$SaxonX anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+        &polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
-	print STDERR "INFO: *Making $countryCode samples\n";
-	die "Can't find $outTeiRoot\n" unless -e $outTeiRoot; 
-	`rm -fr $outSmpDir`;
-	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
-	if (-e $outAnaRoot) {
-	    `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
-	    #Make also derived files
-	    `$Verts $outSmpDir $outSmpDir`;
-	    `$Conls $outSmpDir $outSmpDir`
-	}
-	else {
-	    print STDERR "WARN: No .ana files for $countryCode samples\n";
-	}
-	`$Texts $outSmpDir $outSmpDir`;
+        print STDERR "INFO: *Making $countryCode samples\n";
+        die "Can't find $outTeiRoot\n" unless -e $outTeiRoot; 
+        `rm -fr $outSmpDir`;
+        `$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
+        if (-e $outAnaRoot) {
+            `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
+            #Make also derived files
+            `$Verts $outSmpDir $outSmpDir`;
+            `$Conls $outSmpDir $outSmpDir`
+        }
+        else {
+            print STDERR "WARN: No .ana files for $countryCode samples\n";
+        }
+        `$Texts $outSmpDir $outSmpDir`;
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
-	print STDERR "INFO: *Validating $countryCode TEI\n";
-	die "Can't find schema directory $schemaDir\n" unless -e $schemaDir;
-	`$Valid $schemaDir $outSmpDir`;
-	`$Valid $schemaDir $outTeiDir`;
-	`$Valid $schemaDir $outAnaDir`;
+        print STDERR "INFO: *Validating $countryCode TEI\n";
+        die "Can't find schema directory $schemaDir\n" unless -e $schemaDir;
+        `$Valid $schemaDir $outSmpDir`;
+        `$Valid $schemaDir $outTeiDir`;
+        `$Valid $schemaDir $outAnaDir`;
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
-	print STDERR "INFO: *Making $countryCode text\n";
-	die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
-	`rm -fr $outTxtDir; mkdir $outTxtDir`;
-	&cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
-	`$Texts $outTeiDir $outTxtDir`;
-	&dirify($outTxtDir);
+        print STDERR "INFO: *Making $countryCode text\n";
+        die "Can't find $outTeiDir\n" unless -e $outTeiDir; 
+        `rm -fr $outTxtDir; mkdir $outTxtDir`;
+        &cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
+        `$Texts $outTeiDir $outTxtDir`;
+        &dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
-	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
-	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
-	`rm -fr $outConlDir; mkdir $outConlDir`;
-	&cp_readme($countryCode, "$docsDir/README.conll.txt", "$outConlDir/00README.txt");
-	`$Conls $outAnaDir $outConlDir`;
-	&dirify($outConlDir);
+        print STDERR "INFO: *Making $countryCode CoNLL-U\n";
+        die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
+        `rm -fr $outConlDir; mkdir $outConlDir`;
+        &cp_readme($countryCode, "$docsDir/README.conll.txt", "$outConlDir/00README.txt");
+        `$Conls $outAnaDir $outConlDir`;
+        &dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
-	print STDERR "INFO: *Making $countryCode vert\n";
-	die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
-	`rm -fr $outVertDir; mkdir $outVertDir`;
-	&cp_readme($countryCode, "$docsDir/README.vert.txt", "$outVertDir/00README.txt");
-	`cp "$docsDir/$vertRegi" $outVertDir`;
-	`$Verts $outAnaDir $outVertDir`;
-	&dirify($outVertDir);
+        print STDERR "INFO: *Making $countryCode vert\n";
+        die "Can't find $outAnaDir\n" unless -e $outAnaDir; 
+        `rm -fr $outVertDir; mkdir $outVertDir`;
+        &cp_readme($countryCode, "$docsDir/README.vert.txt", "$outVertDir/00README.txt");
+        `cp "$docsDir/$vertRegi" $outVertDir`;
+        `$Verts $outAnaDir $outVertDir`;
+        &dirify($outVertDir);
     }
 }
 #Format XML file to be a bit nicer & smaller
 sub polish {
     my $dir = shift;
     foreach my $file (glob("$dir/*.xml $dir/*/*.xml")) {
-	$command = "$Polish < $file > $file.tmp";
-	`$command`;
-	rename("$file.tmp", $file); 
+        $command = "$Polish < $file > $file.tmp";
+        `$command`;
+        rename("$file.tmp", $file); 
     }
 }
 #If a directory has more than $MAX files, store them in year directories
@@ -214,13 +214,13 @@ sub dirify {
     my $inDir = shift;
     my @files = glob("$inDir/*");
     if (scalar @files > $MAX) {
-	foreach my $file (@files) {
-	    if (my ($year) = $file =~ m|ParlaMint-.+?_(\d\d\d\d)|) {
-		my $newDir = "$inDir/$year";
-		mkdir($newDir) unless -d $newDir;
-		move($file, $newDir);
-	    }
-	}
+        foreach my $file (@files) {
+            if (my ($year) = $file =~ m|ParlaMint-.+?_(\d\d\d\d)|) {
+                my $newDir = "$inDir/$year";
+                mkdir($newDir) unless -d $newDir;
+                move($file, $newDir);
+            }
+        }
     }
 }
 
@@ -232,8 +232,8 @@ sub cp_readme {
     open IN, '<:utf8', $inFile or die "Can't open input README $inFile\n";
     open OUT,'>:utf8', $outFile or die "Can't open output README $outFile\n";
     while (<IN>) {
-	s/XX/$country/g;
-	print OUT
+        s/XX/$country/g;
+        print OUT
     }
     close IN;
     close OUT;

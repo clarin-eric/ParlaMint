@@ -235,11 +235,11 @@
           <attribute name="when">
             <data type="date"/>
           </attribute>
-	  <mixed>
-	    <zeroOrMore>
+          <mixed>
+            <zeroOrMore>
               <ref name="name-header"/>
-	    </zeroOrMore>
-	  </mixed>
+            </zeroOrMore>
+          </mixed>
         </element>
       </oneOrMore>
     </element>
@@ -418,37 +418,37 @@
     <element name="div">
       <ref name="global.atts"/>
       <choice>
-	<a:documentation>A standard div with utterances.</a:documentation>
-  	<group>
-	  <attribute name="type">
+        <a:documentation>A standard div with utterances.</a:documentation>
+        <group>
+          <attribute name="type">
             <value>debateSection</value>
-	  </attribute>
-	  <zeroOrMore>
+          </attribute>
+          <zeroOrMore>
             <ref name="head"/>
-	  </zeroOrMore>
-	  <oneOrMore>
+          </zeroOrMore>
+          <oneOrMore>
             <choice>
               <ref name="comment"/>
               <ref name="pb"/>
               <ref name="u"/>
             </choice>
-	  </oneOrMore>
-	</group>
-	<a:documentation>A div with transcriber comments only.</a:documentation>
-  	<group>
-	  <attribute name="type">
+          </oneOrMore>
+        </group>
+        <a:documentation>A div with transcriber comments only.</a:documentation>
+        <group>
+          <attribute name="type">
             <value>commentSection</value>
-	  </attribute>
-	  <zeroOrMore>
+          </attribute>
+          <zeroOrMore>
             <ref name="head"/>
-	  </zeroOrMore>
-	  <oneOrMore>
+          </zeroOrMore>
+          <oneOrMore>
             <choice>
               <ref name="comment"/>
               <ref name="pb"/>
             </choice>
-	  </oneOrMore>
-	</group>
+          </oneOrMore>
+        </group>
       </choice>
     </element>
   </define>

@@ -20,20 +20,20 @@
   <xsl:variable name="col-sep">
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:text>&amp;</xsl:text>
+        <xsl:text>&amp;</xsl:text>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:text>&#9;</xsl:text>
+        <xsl:text>&#9;</xsl:text>
       </xsl:when>
     </xsl:choose>
   </xsl:variable>
   <xsl:variable name="line-sep">
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:text>\\&#10;</xsl:text>
+        <xsl:text>\\&#10;</xsl:text>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:text>&#10;</xsl:text>
+        <xsl:text>&#10;</xsl:text>
       </xsl:when>
     </xsl:choose>
   </xsl:variable>
@@ -67,14 +67,14 @@
   <xsl:template match="tei:teiCorpus">
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:value-of select="$preamble"/>
-	<xsl:value-of select="$header-row"/>
+        <xsl:value-of select="$preamble"/>
+        <xsl:value-of select="$header-row"/>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:value-of select="$header-row"/>
+        <xsl:value-of select="$header-row"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:message terminate="yes">Parameter 'mode' should be either TSV of TeX.</xsl:message>
+        <xsl:message terminate="yes">Parameter 'mode' should be either TSV of TeX.</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:for-each select="xi:include">
@@ -92,9 +92,9 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="utterances">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:u)"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:u)"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($utterances/tei:item)"/>
@@ -102,9 +102,9 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="speeches">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:u[@who])"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:u[@who])"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($speeches/tei:item)"/>
@@ -112,9 +112,9 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="nonchairs">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:u[@ana != '#chair'])"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:u[@ana != '#chair'])"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($nonchairs/tei:item)"/>
@@ -122,9 +122,9 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="mps">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:u[key('ref', @who, $head)/tei:affiliation/@role='MP'])"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:u[key('ref', @who, $head)/tei:affiliation/@role='MP'])"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($mps/tei:item)"/>
@@ -132,9 +132,9 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="heads">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:head)"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:head)"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($heads/tei:item)"/>
@@ -142,9 +142,9 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="notes">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:note)"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:note)"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($notes/tei:item)"/>
@@ -152,11 +152,11 @@
     <xsl:value-of select="$col-sep"/>
     <xsl:variable name="incidents">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:*
-				[self::tei:incident or self::tei:vocal or self::tei:kinesic]
-				)"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:*
+                                [self::tei:incident or self::tei:vocal or self::tei:kinesic]
+                                )"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($incidents/tei:item)"/>
@@ -164,9 +164,9 @@
     <!--xsl:value-of select="$col-sep"/>
     <xsl:variable name="paragraphs">
       <xsl:for-each select="document(../xi:include/@href)">
-	<item>
-	  <xsl:value-of select="count(//tei:seg)"/>
-	</item>
+        <item>
+          <xsl:value-of select="count(//tei:seg)"/>
+        </item>
       </xsl:for-each>
     </xsl:variable>
     <xsl:value-of select="et:sum($paragraphs/tei:item)"/-->
@@ -179,10 +179,10 @@
     <xsl:param name="nodes"/>
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:value-of select="format-number(number(sum($nodes)), '###,###,###,###')"/>
+        <xsl:value-of select="format-number(number(sum($nodes)), '###,###,###,###')"/>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:value-of select="sum($nodes)"/>
+        <xsl:value-of select="sum($nodes)"/>
       </xsl:when>
     </xsl:choose>
   </xsl:function>

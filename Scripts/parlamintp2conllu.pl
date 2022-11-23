@@ -106,12 +106,12 @@ if ($langs !~ /,/) {
 }
 else {
     foreach $lang (split(/,\s*/, $langs)) {
-	$command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
-	`cat $fileFile | $Para '$command'`;
-	`rename 's/\.ana//' $outDir/*.conllu`;
-	$command = "python3 $Valid --lang $lang --level 1 {}";
-	`ls $outDir/*.conllu | $Para '$command'`;
-	$command = "python3 $Valid --lang $lang --level 2 {}";
-	`ls $outDir/*.conllu | $Para '$command'`;
+        $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
+        `cat $fileFile | $Para '$command'`;
+        `rename 's/\.ana//' $outDir/*.conllu`;
+        $command = "python3 $Valid --lang $lang --level 1 {}";
+        `ls $outDir/*.conllu | $Para '$command'`;
+        $command = "python3 $Valid --lang $lang --level 2 {}";
+        `ls $outDir/*.conllu | $Para '$command'`;
     }
 }
