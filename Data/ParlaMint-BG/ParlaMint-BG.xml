@@ -518,32 +518,6 @@
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Патриотичен фронт</idno>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Patriotic_Front_(Bulgaria)</idno>
                </org>
-               <listRelation>
-                  <relation name="coalition"
-                            mutual="#party.GERB #party.RB #party.PF #party.ABV"
-                            from="2014-10-05"
-                            to="2017-01-26"/>
-                  <relation name="opposition"
-                            active="#party.BSP #party.DPS #party.ATAKA #party.BGUn"
-                            passive="#gov.IzvSv"
-                            from="2014-10-05"
-                            to="2017-01-26"/>
-                  <relation name="coalition"
-                            mutual="#party.GERB #party.VMRO #party.FRONT #party.ATAKA #party.VOLYA"
-                            from="2017-04-19"
-                            to="2021-03-25"
-                            ana="#NS.44"/>
-                  <relation name="opposition"
-                            active="#party.BSP #party.DPS"
-                            passive="#gov.IzvSv"
-                            from="2017-04-19"
-                            to="2021-03-25"
-                            ana="#NS.44"/>
-               </listRelation>
-            </listOrg>
-            <listOrg>
-               <head xml:lang="bg">Народното събрание, минстерства, агенции и други държавни служби</head>
-               <head xml:lang="en">National Assembly, ministries, agencies and other state services</head>
                <org role="parliament" xml:id="NS">
                   <orgName full="yes" xml:lang="bg">Народно събрание на Република България</orgName>
                   <orgName full="yes" xml:lang="en">National Assembly of the Republic of Bulgaria</orgName>
@@ -568,7 +542,33 @@
                <org role="government" xml:id="gov.IzvSv">
                   <orgName full="yes" from="2017">Министерски съвет</orgName>
                </org>
+               <listRelation>
+                  <relation name="coalition"
+                            mutual="#party.GERB #party.RB #party.PF #party.ABV"
+                            from="2014-10-05"
+                            to="2017-01-26"/>
+                  <relation name="opposition"
+                            active="#party.BSP #party.DPS #party.ATAKA #party.BGUn"
+                            passive="#gov.IzvSv"
+                            from="2014-10-05"
+                            to="2017-01-26"/>
+                  <relation name="coalition"
+                            mutual="#party.GERB #party.VMRO #party.FRONT #party.ATAKA #party.VOLYA"
+                            from="2017-04-19"
+                            to="2021-03-25"
+                            ana="#NS.44"/>
+                  <relation name="opposition"
+                            active="#party.BSP #party.DPS"
+                            passive="#gov.IzvSv"
+                            from="2017-04-19"
+                            to="2021-03-25"
+                            ana="#NS.44"/>
+               </listRelation>
             </listOrg>
+<!--            <listOrg>
+               <head xml:lang="bg">Народното събрание, минстерства, агенции и други държавни служби</head>
+               <head xml:lang="en">National Assembly, ministries, agencies and other state services</head>
+            </listOrg> -->
             <listPerson>
                <head xml:lang="bg">Депутати</head>
                <head xml:lang="en">Members of Parliament</head>
