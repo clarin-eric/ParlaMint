@@ -31,7 +31,7 @@
          <editionStmt>
             <edition>3.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="23891824" xml:lang="en">23891824 words</measure>
             <measure unit="speeches" quantity="74132" xml:lang="en">74132 speeches</measure>
          </extent>
@@ -47,7 +47,7 @@
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2022-11-04">2022-11-04</date>
+            <date when="2022-11-10">2022-11-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -80,7 +80,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage occurs="3" gi="text"/>
                <tagUsage occurs="3" gi="body"/>
@@ -115,9 +115,9 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-IS-taxonomy-gov.ministries.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.xml"/>
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-NER.xml"/>
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -167,6 +167,12 @@
             <language ident="is">Icelandic</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2022-11-10">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2022-11-04">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IS_2015-01-22-55.ana.xml"/>
