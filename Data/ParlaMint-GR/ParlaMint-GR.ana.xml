@@ -7,9 +7,9 @@
                 <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR [ParlaMint.ana]</title>
                 <title type="sub" xml:lang="el">Πρακτικά του ελληνικού κοινοβουλίου, κοινοβουλευτικοί περίοδοι ΙΣΤ, ΙΖ και ΙΗ (2015-2022)</title>
                 <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 16, 17 and 18 (2015-2022)</title>
-                <meeting n="ΙΣΤ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΣΤ">ΙΣΤ περίοδος</meeting>
-                <meeting n="ΙΖ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ">ΙΖ περίοδος</meeting>
-                <meeting n="ΙΗ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ">ΙΗ περίοδος</meeting>
+                <meeting n="16" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΣΤ">ΙΣΤ περίοδος</meeting>
+                <meeting n="17" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ">ΙΖ περίοδος</meeting>
+                <meeting n="18" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ">ΙΗ περίοδος</meeting>
                 <respStmt>
                     <persName>Δημήτρης Γκούμας</persName>
                     <persName>Βασίλης Παπαβασιλείου</persName>
@@ -34,8 +34,8 @@
             <extent>
                 <measure xml:lang="el" unit="speeches" quantity="342274">342274 ομιλίες</measure>
                 <measure xml:lang="en" unit="speeches" quantity="342274">342274 speeches</measure>
-                <measure xml:lang="el" unit="words" quantity="51931220">51931220 λέξεις</measure>
-                <measure xml:lang="en" unit="words" quantity="51931220">51931220 words</measure>
+                <measure xml:lang="el" unit="words" quantity="49702614">49702614 λέξεις</measure>
+                <measure xml:lang="en" unit="words" quantity="49702614">49702614 words</measure>
             </extent>
             <publicationStmt>
                 <publisher>
@@ -57,7 +57,7 @@
                         .
                     </p>
                 </availability>
-                <date when="2022-10-28">2022-10-28</date>
+                <date when="2022-11-25">2022-11-25</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -102,63 +102,44 @@
                     <tagUsage gi="text" occurs="1263"/>
                     <tagUsage gi="body" occurs="1263"/>
                     <tagUsage gi="div" occurs="1263"/>
+                    <tagUsage gi="head" occurs="7578"/>
                     <tagUsage gi="u" occurs="342274"/>
                     <tagUsage gi="seg" occurs="1229320"/>
-                    <tagUsage gi="desc" occurs="5095"/>
-                    <tagUsage gi="vocal" occurs="5095"/>
+                    <tagUsage gi="desc" occurs="53308"/>
+                    <tagUsage gi="note" occurs="362392"/>
+                    <tagUsage gi="vocal" occurs="5324"/>
+                    <tagUsage gi="kinesic" occurs="42196"/>
+                    <tagUsage gi="incident" occurs="4525"/>
                     <tagUsage gi="s" occurs="2816249"/>
-                    <tagUsage gi="w" occurs="51931220"/>
-                    <tagUsage gi="pc" occurs="7374799"/>
+                    <tagUsage gi="w" occurs="49702614"/>
+                    <tagUsage gi="pc" occurs="7375665"/>
                     <tagUsage gi="linkGrp" occurs="2816249"/>
                     <tagUsage gi="link" occurs="58192149"/>
-                    <tagUsage gi="name" occurs="1364517"/>
+                    <tagUsage gi="name" occurs="1381300"/>
+                    <tagUsage gi="gap" occurs="1263"/>
                 </namespace>
             </tagsDecl>
             <classDecl>
                 <taxonomy xml:id="parla.legislature">
-                    <desc xml:lang="el">
-                        <term>Νομοθετικό σώμα</term>
-                    </desc>
-                    <desc xml:lang="en">
-                        <term>Legislature</term>
-                    </desc>
+                    <desc xml:lang="el"><term>Νομοθετικό σώμα</term></desc>
+                    <desc xml:lang="en"><term>Legislature</term></desc>
                     <category xml:id="parla.geo-political">
-                        <catDesc xml:lang="el">
-                            <term>Γεωπολιτικές ή διοικητικές μονάδες</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                            <term>Geo-political or administrative units</term>
-                        </catDesc>
+                        <catDesc xml:lang="el"><term>Γεωπολιτικές ή διοικητικές μονάδες</term></catDesc>
+                        <catDesc xml:lang="en"><term>Geo-political or administrative units</term></catDesc>
                         <category xml:id="parla.national">
-                            <catDesc xml:lang="el">
-                                <term>Εθνικό νομοθετικό σώμα</term>
-                            </catDesc>
-                            <catDesc xml:lang="en">
-                                <term>National legislature</term>
-                            </catDesc>
+                            <catDesc xml:lang="el"><term>Εθνικό νομοθετικό σώμα</term></catDesc>
+                            <catDesc xml:lang="en"><term>National legislature</term></catDesc>
                         </category>
                     </category>
                     <category xml:id="parla.organization">
-                        <catDesc xml:lang="el">
-                            <term>Οργανισμός</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                            <term>Organization</term>
-                        </catDesc>
+                        <catDesc xml:lang="el"><term>Οργανισμός</term></catDesc>
+                        <catDesc xml:lang="en"><term>Organization</term></catDesc>
                         <category xml:id="parla.chambers">
-                            <catDesc xml:lang="el">
-                                <term>Θάλαμοι</term>
-                            </catDesc>
-                            <catDesc xml:lang="en">
-                                <term>Chambers</term>
-                            </catDesc>
+                            <catDesc xml:lang="el"><term>Θάλαμοι</term></catDesc>
+                            <catDesc xml:lang="en"><term>Chambers</term></catDesc>
                             <category xml:id="parla.uni">
-                                <catDesc xml:lang="el">
-                                    <term>μονοθάλαμο</term>
-                                </catDesc>
-                                <catDesc xml:lang="en">
-                                    <term>unicameral</term>
-                                </catDesc>
+                                <catDesc xml:lang="el"><term>μονοθάλαμο</term></catDesc>
+                                <catDesc xml:lang="en"><term>unicameral</term></catDesc>
                             </category>
                         </category>
                     </category>
@@ -169,14 +150,10 @@
                             <catDesc xml:lang="el"><term>Σύνοδος</term>:μια χρονική περίοδος κατά την οποία συγκαλείται το νομοθετικό σώμα, συνήθως ένα έτος.</catDesc>
                             <catDesc xml:lang="en"><term>Session</term>:a period of time in which a legislature is convened, typically one year.</catDesc>
                             <category xml:id="parla.meeting">
-                                <catDesc xml:lang="el">
-                                    <term>Συνάντηση</term>
-                                </catDesc>
+                                <catDesc xml:lang="el"><term>Συνάντηση</term></catDesc>
                                 <catDesc xml:lang="en"><term>Meeting</term>:each meeting will be a constitute part of a parliamentary session.</catDesc>
                                 <category xml:id="parla.sitting">
-                                    <catDesc xml:lang="el">
-                                        <term>Συνεδρίαση</term>
-                                    </catDesc>
+                                    <catDesc xml:lang="el"><term>Συνεδρίαση</term></catDesc>
                                     <catDesc xml:lang="en"><term>Sitting</term>:sitting day.</catDesc>
                                 </category>
                             </category>
@@ -184,12 +161,8 @@
                     </category>
                 </taxonomy>
                 <taxonomy xml:id="speaker_types">
-                    <desc xml:lang="el">
-                        <term>Τύποι ομιλητών</term>
-                    </desc>
-                    <desc xml:lang="en">
-                        <term>Types of speakers</term>
-                    </desc>
+                    <desc xml:lang="el"><term>Τύποι ομιλητών</term></desc>
+                    <desc xml:lang="en"><term>Types of speakers</term></desc>
                     <category xml:id="chair">
                         <catDesc xml:lang="el"><term>ΠΡΟΕΔΡΕΥΟΝ</term>:ο προεδρεύον στη συνεδρίαση</catDesc>
                         <catDesc xml:lang="en"><term>Chairperson</term>:chairman of a meeting</catDesc>
@@ -204,12 +177,8 @@
                     </category>
                 </taxonomy>
                 <taxonomy xml:id="subcorpus">
-                    <desc xml:lang="el">
-                        <term>Υποσώματα</term>
-                    </desc>
-                    <desc xml:lang="en">
-                        <term>Subcorpora</term>
-                    </desc>
+                    <desc xml:lang="el"><term>Υποσώματα</term></desc>
+                    <desc xml:lang="en"><term>Subcorpora</term></desc>
                     <category xml:id="reference">
                         <catDesc xml:lang="el"><term>Αναφορά</term>:υποσώμα αναφοράς μέχρι 2019-10-31</catDesc>
                         <catDesc xml:lang="en"><term>Reference</term>:reference subcorpus, until 2019-10-31</catDesc>
@@ -220,52 +189,28 @@
                     </category>
                 </taxonomy>
                 <taxonomy xml:id="NER">
-                    <desc xml:lang="el">
-                        <term>Ονοματικές οντότητες</term>
-                    </desc>
-                    <desc xml:lang="en">
-                        <term>Named entities</term>
-                    </desc>
+                    <desc xml:lang="el"><term>Ονοματικές οντότητες</term></desc>
+                    <desc xml:lang="en"><term>Named entities</term></desc>
                     <category xml:id="PER">
-                        <catDesc xml:lang="el">
-                            <term>άνθρωπος</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                            <term>person</term>
-                        </catDesc>
+                        <catDesc xml:lang="el"><term>άνθρωπος</term></catDesc>
+                        <catDesc xml:lang="en"><term>person</term></catDesc>
                     </category>
                     <category xml:id="LOC">
-                        <catDesc xml:lang="el">
-                            <term>τοποθεσία</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                            <term>location</term>
-                        </catDesc>
+                        <catDesc xml:lang="el"><term>τοποθεσία</term></catDesc>
+                        <catDesc xml:lang="en"><term>location</term></catDesc>
                     </category>
                     <category xml:id="ORG">
-                        <catDesc xml:lang="el">
-                            <term>οργανισμός</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                            <term>organization</term>
-                        </catDesc>
+                        <catDesc xml:lang="el"><term>οργανισμός</term></catDesc>
+                        <catDesc xml:lang="en"><term>organization</term></catDesc>
                     </category>
                     <category xml:id="MISC">
-                        <catDesc xml:lang="el">
-                            <term>διάφορα</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                            <term>miscellaneous</term>
-                        </catDesc>
+                        <catDesc xml:lang="el"><term>διάφορα</term></catDesc>
+                        <catDesc xml:lang="en"><term>miscellaneous</term></catDesc>
                     </category>
                 </taxonomy>
                 <taxonomy xml:id="UD-SYN">
-                    <desc xml:lang="el">
-                        <term>Συντακτικές σχέσεις UD</term>
-                    </desc>
-                    <desc xml:lang="en">
-                        <term>UD syntactic relations</term>
-                    </desc>
+                    <desc xml:lang="el"><term>Συντακτικές σχέσεις UD</term></desc>
+                    <desc xml:lang="en"><term>UD syntactic relations</term></desc>
                     <category xml:id="acl">
                         <catDesc xml:lang="en"><term>acl</term>: clausal modifier of noun (adnominal clause)</catDesc>
                     </category>
@@ -465,7 +410,12 @@
             <appInfo>
                 <application version="3.1" ident="ilsp-nlp">
                     <label>ILSP NLP Toolkit</label>
-                    <desc>Tokenisation, POS tagging, lemmatization, dependency parsing and NER using <ref target="http://nlp.ilsp.gr/nws/">NLP modules</ref>developed at the <ref target="https://www.ilsp.gr/">Institute for Language and Speech Processing/Athena RC</ref>.</desc>
+                    <desc>
+                        Tokenisation, POS tagging, lemmatization, dependency parsing and NER using 
+                        <ref target="http://nlp.ilsp.gr/nws/">NLP modules</ref>
+                        developed at the 
+                        <ref target="https://www.ilsp.gr/">Institute for Language and Speech Processing/Athena RC</ref>
+                    </desc>
                 </application>
             </appInfo>
         </encodingDesc>
@@ -2818,13 +2768,13 @@
                         <affiliation from="2015-01-25" to="2015-08-28" role="member" ref="#party.KKE"/>
                         <affiliation from="2015-09-20" to="2019-06-11" role="member" ref="#party.KKE"/>
                         <affiliation from="2019-07-17" role="member" ref="#party.KKE"/>
-                        <affiliation from="2015-02-05" to="2016-07-06" role="deputyHead" ref="#PoGR">
+                        <affiliation from="2015-02-06" to="2015-10-03" role="deputyHead" ref="#PoGR">
                             <roleName xml:lang="el">Ζ ΑΝΤΙΠΡΟΕΔΡΟΣ ΒΟΥΛΗΣ</roleName>
                         </affiliation>
                         <affiliation from="2015-10-04" to="2019-07-17" role="deputyHead" ref="#PoGR">
                             <roleName xml:lang="el">ΣΤ ΑΝΤΙΠΡΟΕΔΡΟΣ</roleName>
                         </affiliation>
-                        <affiliation from="2016-07-06" role="deputyHead" ref="#PoGR">
+                        <affiliation from="2019-07-18" role="deputyHead" ref="#PoGR">
                             <roleName xml:lang="el">ΣΤ ΑΝΤΙΠΡΟΕΔΡΟΣ ΒΟΥΛΗΣ</roleName>
                         </affiliation>
                         <affiliation from="2015-01-25" role="member" ref="#PoGR"/>
@@ -8450,8 +8400,7 @@
                     </person>
                     <person xml:id="ΙΕΡΕΥΣ">
                         <persName>
-                            <term>ΙΕΡΕΥΣ</term>
-                        </persName>
+                            <term>ΙΕΡΕΥΣ</term></persName>
                         <sex value="M"/>
                     </person>
                     <person xml:id="ΑΝΔΡΕΑΣ_ΛΥΚΟΥΡΕΝΤΖΟΣ">
@@ -8485,10 +8434,10 @@
                 <language ident="en" xml:lang="en">english</language>
             </langUsage>
         </profileDesc>
-    </teiHeader>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2015-02-06-S1-commons.ana.xml"/>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2016-01-07-S1-commons.ana.xml"/>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2020-01-13-S1-commons.ana.xml"/>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2021-01-15-S1-commons.ana.xml"/>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2022-01-12-S1-commons.ana.xml"/>
+      </teiHeader>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2015-02-06-S1-commons.ana.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2016-01-07-S1-commons.ana.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2020-01-13-S1-commons.ana.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2021-01-15-S1-commons.ana.xml"/>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-GR_2022-01-12-S1-commons.ana.xml"/>
 </teiCorpus>

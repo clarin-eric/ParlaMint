@@ -7,7 +7,9 @@
                 <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR, session 78 [ParlaMint.ana]</title>
                 <title type="sub" xml:lang="el">Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΟΗ', 2020-01-13</title>
                 <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 78, 2020-01-13</title>
-                <meeting n="ΙΗ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ"/>
+                <meeting n="18" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ"/>
+                <meeting n="1" corresp="#PoGR" ana="#parla.uni #parla.session"/>
+                <meeting n="78" corresp="#PoGR" ana="#parla.uni #parla.sitting"/>
                 <respStmt>
                     <persName>Δημήτρης Γκούμας</persName>
                     <persName>Βασίλης Παπαβασιλείου</persName>
@@ -32,8 +34,8 @@
             <extent>
                 <measure xml:lang="el" unit="speeches" quantity="43">43 ομιλίες</measure>
                 <measure xml:lang="en" unit="speeches" quantity="43">43 speeches</measure>
-                <measure xml:lang="el" unit="words" quantity="9504">9504 λέξεις</measure>
-                <measure xml:lang="en" unit="words" quantity="9504">9504 words</measure>
+                <measure xml:lang="el" unit="words" quantity="9063">9063 λέξεις</measure>
+                <measure xml:lang="en" unit="words" quantity="9063">9063 words</measure>
             </extent>
             <publicationStmt>
                 <publisher>
@@ -55,7 +57,7 @@
                         .
                     </p>
                 </availability>
-                <date when="2022-10-28">2022-10-28</date>
+                <date when="2022-11-25">2022-11-25</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -80,16 +82,20 @@
                     <tagUsage gi="text" occurs="1"/>
                     <tagUsage gi="body" occurs="1"/>
                     <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="head" occurs="6"/>
                     <tagUsage gi="u" occurs="43"/>
                     <tagUsage gi="seg" occurs="234"/>
                     <tagUsage gi="s" occurs="398"/>
+                    <tagUsage gi="desc" occurs="4"/>
+                    <tagUsage gi="note" occurs="46"/>
                     <tagUsage gi="vocal" occurs="2"/>
-                    <tagUsage gi="desc" occurs="2"/>
-                    <tagUsage gi="w" occurs="9504"/>
-                    <tagUsage gi="pc" occurs="1208"/>
-                    <tagUsage gi="name" occurs="323"/>
+                    <tagUsage gi="kinesic" occurs="1"/>
+                    <tagUsage gi="w" occurs="9063"/>
+                    <tagUsage gi="pc" occurs="1201"/>
+                    <tagUsage gi="name" occurs="340"/>
                     <tagUsage gi="linkGrp" occurs="398"/>
                     <tagUsage gi="link" occurs="10488"/>
+                    <tagUsage gi="gap" occurs="1"/>
                 </namespace>
             </tagsDecl>
         </encodingDesc>
@@ -106,6 +112,17 @@
     <text ana="#covid">
         <body>
             <div type="debateSection">
+                <head>ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
+                <head type="term">ΙΗ ΠΕΡΙΟΔΟΣ</head>
+                <head>ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
+                <head type="session">ΣΥΝΟΔΟΣ Α'</head>
+                <head type="sitting">ΣΥΝΕΔΡΙΑΣΗ ΟΗ'</head>
+                <head type="date">Δευτέρα 13 Ιανουαρίου 2020</head>
+                <gap reason="editorial">
+                    <desc xml:lang="en">The frontmatter of the document has been removed</desc>
+                </gap>
+                <note>Αθήνα, σήμερα στις 13 Ιανουαρίου 2020, ημέρα Δευτέρα και ώρα 18.07΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία της Η΄ Αντιπροέδρου αυτής κ. ΣΟΦΙΑΣ ΣΑΚΟΡΑΦΑ.</note>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u1" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg1">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg1.1">
@@ -628,6 +645,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u2" ana="#regular" who="#ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ_ΧΡΗΣΤΟΥ_ΔΗΜΗΤΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg11">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg11.1">
@@ -820,7 +838,9 @@
                                 <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.13">και</w>
                                 <w lemma="νέος" msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.14">Νέων</w>
                                 <w lemma="τεχνολογία" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.15">Τεχνολογιών</w>
-                                <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.16">του</w>
+                            </name>
+                            <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.16">του</w>
+                            <name type="LOC">
                                 <w lemma="Αγρίνιο" msd="UPosTag=PROPN|Case=Gen|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.17">Αγρινίου</w>
                             </name>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg12.1.18">και</w>
@@ -1859,7 +1879,9 @@
                             <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.6">με</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.7">τον</w>
                             <w lemma="νόμος" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.8">νόμο</w>
-                            <w lemma="Γαβρόγλου" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.9">Γαβρόγλου</w>
+                            <name type="PER">
+                                <w lemma="Γαβρόγλου" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.9">Γαβρόγλου</w>
+                            </name>
                             <w xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.10">
                                 στην
                                 <w lemma="σε" msd="UPosTag=ADP" norm="σ" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.1.11"/>
@@ -1904,7 +1926,9 @@
                             <w lemma="εδώ" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.5">εδώ</w>
                             <w lemma="ότι" msd="UPosTag=SCONJ" pos="CjSb" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.6">ότι</w>
                             <w lemma="ως" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.7">ως</w>
-                            <w lemma="αντιπολίτευση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.8">Αντιπολίτευση</w>
+                            <name type="ORG">
+                                <w lemma="αντιπολίτευση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.8">Αντιπολίτευση</w>
+                            </name>
                             <w lemma="εγώ" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" pos="PnPe" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.9">το</w>
                             <w lemma="έχω" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.10">είχατε</w>
                             <w lemma="τότε" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg22.2.11">τότε</w>
@@ -2053,6 +2077,8 @@
                         </s>
                     </seg>
                 </u>
+                <note>Στο σημείο αυτό ο Βουλευτής κ. Κωνσταντόπουλος καταθέτει για τα Πρακτικά τα προαναφερθέντα έγγραφα, τα οποία βρίσκονται στο αρχείο του Τμήματος Γραμματείας της Διεύθυνσης Στενογραφίας και Πρακτικών της Βουλής</note>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u3" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg25">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg25.1">
@@ -2099,6 +2125,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΔΙΓΑΛΑΚΗΣ (Υφυπουργός Παιδείας και Θρησκευμάτων):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u4" ana="#regular" who="#ΔΙΓΑΛΑΚΗΣ_ΒΑΣΙΛΕΙΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg27">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg27.1">
@@ -2119,9 +2146,7 @@
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28.1">
                             <w lemma="κύριος" msd="UPosTag=NOUN|Case=Voc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28.1.1">Κύριε</w>
-                            <name type="PER">
-                                <w join="right" lemma="Κωνσταντόπουλος" msd="UPosTag=PROPN|Case=Voc|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28.1.2">Κωνσταντόπουλε</w>
-                            </name>
+                            <w join="right" lemma="Κωνσταντόπουλος" msd="UPosTag=PROPN|Case=Voc|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28.1.2">Κωνσταντόπουλε</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28.1.3">,</pc>
                             <w xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg28.1.4">
                                 στην
@@ -3575,6 +3600,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u5" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg39">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg39.1">
@@ -3619,6 +3645,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u6" ana="#regular" who="#ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ_ΧΡΗΣΤΟΥ_ΔΗΜΗΤΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg41">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg41.1">
@@ -3852,9 +3879,7 @@
                             <w lemma="αυτός" msd="UPosTag=PRON|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Dem" pos="PnDm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.5">αυτή</w>
                             <w lemma="εδώ" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.6">εδώ</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.7">την</w>
-                            <name type="LOC">
-                                <w lemma="αίθουσα" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.8">Αίθουσα</w>
-                            </name>
+                            <w lemma="αίθουσα" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.8">Αίθουσα</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.9">-</pc>
                             <w join="right" lemma="προσωπικά" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.10">προσωπικά</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg43.1.11">,</pc>
@@ -3993,7 +4018,9 @@
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.6">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.7">τον</w>
                             <w lemma="νόμος" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.8">νόμο</w>
-                            <w join="right" lemma="Γαβρόγλου" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.9">Γαβρόγλου</w>
+                            <name type="PER">
+                                <w join="right" lemma="Γαβρόγλου" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.9">Γαβρόγλου</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.10">,</pc>
                             <w join="right" lemma="αλλάζω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.11">άλλαξε</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg44.1.12">,</pc>
@@ -5484,6 +5511,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u7" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg55">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg55.1">
@@ -5520,6 +5548,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΔΙΓΑΛΑΚΗΣ (Υφυπουργός Παιδείας και Θρησκευμάτων):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u8" ana="#regular" who="#ΔΙΓΑΛΑΚΗΣ_ΒΑΣΙΛΕΙΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg57">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg57.1">
@@ -5830,6 +5859,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u9" ana="#regular" who="#ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ_ΧΡΗΣΤΟΥ_ΔΗΜΗΤΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg60">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg60.1">
@@ -5878,6 +5908,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΔΙΓΑΛΑΚΗΣ (Υφυπουργός Παιδείας και Θρησκευμάτων):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u10" ana="#regular" who="#ΔΙΓΑΛΑΚΗΣ_ΒΑΣΙΛΕΙΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg61">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg61.1">
@@ -6157,6 +6188,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u11" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg63">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg63.1">
@@ -6175,6 +6207,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u12" ana="#regular" who="#ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ_ΧΡΗΣΤΟΥ_ΔΗΜΗΤΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg64">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg64.1">
@@ -6211,6 +6244,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΔΙΓΑΛΑΚΗΣ (Υφυπουργός Παιδείας και Θρησκευμάτων):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u13" ana="#regular" who="#ΔΙΓΑΛΑΚΗΣ_ΒΑΣΙΛΕΙΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg65">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg65.1">
@@ -6237,6 +6271,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u14" ana="#regular" who="#ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ_ΧΡΗΣΤΟΥ_ΔΗΜΗΤΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg66">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg66.1">
@@ -6283,6 +6318,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u15" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg68">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg68.1">
@@ -6406,6 +6442,7 @@
                 <vocal type="shouting">
                     <desc>Μάλιστα, μάλιστα.</desc>
                 </vocal>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u16" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg70">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg70.1">
@@ -6483,28 +6520,30 @@
                             <w join="right" lemma="τρίτος" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.1">Τρίτον</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.2">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.3">οι</w>
-                            <w lemma="υπουργός" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.4">Υπουργοί</w>
-                            <w lemma="παιδεία" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.5">Παιδείας</w>
-                            <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.6">και</w>
-                            <w join="right" lemma="θρήσκευμα" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.7">Θρησκευμάτων</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.8">,</pc>
-                            <w join="right" lemma="οικονομικά" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.9">Οικονομικών</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.10">,</pc>
-                            <w lemma="ανάπτυξη" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.11">Ανάπτυξης</w>
-                            <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.12">και</w>
-                            <w join="right" lemma="επένδυση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.13">Επενδύσεων</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.14">,</pc>
-                            <w join="right" lemma="εξωτερικά" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.15">Εξωτερικών</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.16">,</pc>
-                            <w lemma="προστασία" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.17">Προστασίας</w>
-                            <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.18">του</w>
-                            <w join="right" lemma="πολίτης" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.19">Πολίτη</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.20">,</pc>
-                            <w join="right" lemma="εσωτερικά" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.21">Εσωτερικών</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.22">,</pc>
-                            <w lemma="τουρισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.23">Τουρισμού</w>
-                            <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.24">και</w>
-                            <w join="right" lemma="επικράτεια" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.25">Επικρατείας</w>
+                            <name type="ORG">
+                                <w lemma="υπουργός" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.4">Υπουργοί</w>
+                                <w lemma="παιδεία" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.5">Παιδείας</w>
+                                <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.6">και</w>
+                                <w join="right" lemma="θρήσκευμα" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.7">Θρησκευμάτων</w>
+                                <w lemma="," msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.8">,</w>
+                                <w join="right" lemma="οικονομικά" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.9">Οικονομικών</w>
+                                <w lemma="," msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.10">,</w>
+                                <w lemma="ανάπτυξη" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.11">Ανάπτυξης</w>
+                                <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.12">και</w>
+                                <w join="right" lemma="επένδυση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.13">Επενδύσεων</w>
+                                <w lemma="," msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.14">,</w>
+                                <w join="right" lemma="εξωτερικά" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.15">Εξωτερικών</w>
+                                <w lemma="," msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.16">,</w>
+                                <w lemma="προστασία" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.17">Προστασίας</w>
+                                <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.18">του</w>
+                                <w join="right" lemma="πολίτης" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.19">Πολίτη</w>
+                                <w lemma="," msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.20">,</w>
+                                <w join="right" lemma="εσωτερικά" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.21">Εσωτερικών</w>
+                                <w lemma="," msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.22">,</w>
+                                <w lemma="τουρισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.23">Τουρισμού</w>
+                                <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.24">και</w>
+                                <w join="right" lemma="επικράτεια" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.25">Επικρατείας</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.26">,</pc>
                             <w lemma="καθώς" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.27">καθώς</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg72.1.28">και</w>
@@ -6746,12 +6785,10 @@
                             </name>
                             <w lemma="προς" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.24">προς</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.25">την</w>
-                            <name type="ORG">
-                                <w lemma="υπουργός" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.26">Υπουργό</w>
-                                <w lemma="πολιτισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.27">Πολιτισμού</w>
-                                <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.28">και</w>
-                                <w join="right" lemma="αθλητισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.29">Αθλητισμού</w>
-                            </name>
+                            <w lemma="υπουργός" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.26">Υπουργό</w>
+                            <w lemma="πολιτισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.27">Πολιτισμού</w>
+                            <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.28">και</w>
+                            <w join="right" lemma="αθλητισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.29">Αθλητισμού</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.30">,</pc>
                             <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.31">με</w>
                             <w join="right" lemma="θέμα" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg74.1.32">θέμα</w>
@@ -6895,6 +6932,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΙΩΑΝΝΗΣ ΔΕΛΗΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u17" ana="#regular" who="#ΔΕΛΗΣ_ΙΩΑΝΝΗ_ΙΩΑΝΝΗΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg77">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg77.1">
@@ -7903,6 +7941,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u18" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg87">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg87.1">
@@ -7947,6 +7986,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΕΛΕΥΘΕΡΙΟΣ ΑΥΓΕΝΑΚΗΣ (Υφυπουργός Πολιτισμού και Αθλητισμού):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u19" ana="#regular" who="#ΑΥΓΕΝΑΚΗΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΕΛΕΥΘΕΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg89">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg89.1">
@@ -8310,8 +8350,8 @@
                             <w lemma="ελαστικός" msd="UPosTag=ADJ|Case=Gen|Gender=Masc|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.13">ελαστικού</w>
                             <w lemma="τάπητας" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.14">τάπητα</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.15">του</w>
+                            <w lemma="στίβος" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.16">στίβου</w>
                             <name type="ORG">
-                                <w lemma="στίβος" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.16">στίβου</w>
                                 <w lemma="δήμος" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.17">Δήμου</w>
                                 <w lemma="Θεσσαλονίκη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg91.1.18">Θεσσαλονίκης</w>
                             </name>
@@ -9376,9 +9416,7 @@
                             <w lemma="θα" msd="UPosTag=AUX" pos="PtFu" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.6">θα</w>
                             <w lemma="λαμβάνω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.7">λάβει</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.8">το</w>
-                            <name type="ORG">
-                                <w lemma="καυτανζόγλειο" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.9">Καυτανζόγλειο</w>
-                            </name>
+                            <w lemma="καυτανζόγλειο" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.9">Καυτανζόγλειο</w>
                             <w lemma="προϋπολογισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.10">προϋπολογισμού</w>
                             <w lemma="650.000" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.11">650.000</w>
                             <w join="right" lemma="ευρώ" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg98.4.12">ευρώ</w>
@@ -9449,6 +9487,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u20" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg99">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg99.1">
@@ -9489,6 +9528,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΙΩΑΝΝΗΣ ΔΕΛΗΣ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u21" ana="#regular" who="#ΔΕΛΗΣ_ΙΩΑΝΝΗ_ΙΩΑΝΝΗΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg101">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg101.1">
@@ -10847,6 +10887,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u22" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg110">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg110.1">
@@ -10891,6 +10932,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΕΛΕΥΘΕΡΙΟΣ ΑΥΓΕΝΑΚΗΣ (Υφυπουργός Πολιτισμού και Αθλητισμού):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u23" ana="#regular" who="#ΑΥΓΕΝΑΚΗΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΕΛΕΥΘΕΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg112">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg112.1">
@@ -11219,11 +11261,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.24">η</w>
                             <w lemma="αναβάθμιση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.25">αναβάθμιση</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.26">του</w>
-                            <name type="ORG">
-                                <w lemma="εθνικός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.27">Εθνικού</w>
-                                <w lemma="καυτανζόγλειος" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.28">Καυτανζόγλειου</w>
-                                <w join="right" lemma="στάδιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.29">Σταδίου</w>
-                            </name>
+                            <w lemma="εθνικός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.27">Εθνικού</w>
+                            <w lemma="καυτανζόγλειος" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.28">Καυτανζόγλειου</w>
+                            <w join="right" lemma="στάδιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.29">Σταδίου</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg114.1.30">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:case" target="#ParlaMint-GR_2020-01-13-S1-commons.seg114.1.3 #ParlaMint-GR_2020-01-13-S1-commons.seg114.1.1"/>
@@ -12277,6 +12317,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u24" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg121">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg121.1">
@@ -12464,6 +12505,9 @@
                             </linkGrp>
                         </s>
                     </seg>
+                    <kinesic>
+                        <desc>Χειροκροτήματα από όλες τις πτέρυγες της Βουλής</desc>
+                    </kinesic>
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1">
                             <w lemma="ακολουθώ" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.1">Ακολουθεί</w>
@@ -12480,10 +12524,14 @@
                             <w lemma="ΣΤ'" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord" pos="NmOd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.12">ΣΤ΄</w>
                             <w lemma="αντιπρόεδρος" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.13">Αντιπροέδρου</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.14">της</w>
-                            <w lemma="βουλή" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.15">Βουλής</w>
+                            <name type="ORG">
+                                <w lemma="βουλή" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.15">Βουλής</w>
+                            </name>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.16">και</w>
                             <w lemma="βουλευτής" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.17">Βουλευτή</w>
-                            <w lemma="Λαρίσης" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.18">Λαρίσης</w>
+                            <name type="LOC">
+                                <w lemma="Λαρίσης" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.18">Λαρίσης</w>
+                            </name>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.19">του</w>
                             <name type="ORG">
                                 <w lemma="κομμουνιστικός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg124.1.20">Κομμουνιστικού</w>
@@ -12628,6 +12676,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΓΕΩΡΓΙΟΣ ΛΑΜΠΡΟΥΛΗΣ (ΣΤ΄ Αντιπρόεδρος της Βουλής):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u25" ana="#regular" who="#ΛΑΜΠΡΟΥΛΗΣ_ΑΡΙΣΤΕΙΔΗ_ΓΕΩΡΓΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg127">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg127.1">
@@ -12645,6 +12694,7 @@
                             </linkGrp>
                         </s>
                     </seg>
+                    <note>Στο σημείο αυτό ο ΣΤ΄ Αντιπρόεδρος της Βουλής κ. Γεώργιος Λαμπρούλης καταθέτει για τα Πρακτικά το προαναφερθέν έγγραφο, το οποίο βρίσκεται στο αρχείο του Τμήματος Γραμματείας της Διεύθυνσης Στενογραφίας και Πρακτικών της Βουλής</note>
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1">
                             <w lemma="επιτρέπω" msd="UPosTag=VERB|Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1.1">Επιτρέψτε</w>
@@ -12668,7 +12718,9 @@
                             </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1.18">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1.19">τους</w>
-                            <w join="right" lemma="συμπατριώτης" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1.20">συμπατριώτες</w>
+                            <name type="MISC">
+                                <w join="right" lemma="συμπατριώτης" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1.20">συμπατριώτες</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg128.1.21">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:root" target="#ParlaMint-GR_2020-01-13-S1-commons.seg128.1 #ParlaMint-GR_2020-01-13-S1-commons.seg128.1.1"/>
@@ -13305,7 +13357,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.16">του</w>
                             <w lemma="γήπεδο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.17">Γηπέδου</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.18">του</w>
-                            <w join="right" lemma="Αλκαζάρ" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.19">Αλκαζάρ</w>
+                            <name type="LOC">
+                                <w join="right" lemma="Αλκαζάρ" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.19">Αλκαζάρ</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.20">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.21">του</w>
                             <w lemma="κλειστός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg130.4.22">κλειστού</w>
@@ -13763,6 +13817,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u26" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg133">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg133.1">
@@ -13801,6 +13856,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΕΛΕΥΘΕΡΙΟΣ ΑΥΓΕΝΑΚΗΣ (Υφυπουργός Πολιτισμού και Αθλητισμού):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u27" ana="#regular" who="#ΑΥΓΕΝΑΚΗΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΕΛΕΥΘΕΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg135">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg135.1">
@@ -14030,9 +14086,7 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.47">του</w>
                             <w lemma="κλειστός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.48">κλειστού</w>
                             <w lemma="γυμναστήριο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.49">γυμναστηρίου</w>
-                            <name type="LOC">
-                                <w lemma="Νεάπολη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.50">Νεάπολης</w>
-                            </name>
+                            <w lemma="Νεάπολη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.50">Νεάπολης</w>
                             <w lemma="προϋπολογισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.51">προϋπολογισμού</w>
                             <w lemma="185.000" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.52">185.000</w>
                             <w join="right" lemma="ευρώ" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.53">ευρώ</w>
@@ -14044,9 +14098,7 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.59">του</w>
                             <w lemma="κλειστός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.60">κλειστού</w>
                             <w lemma="γυμναστήριο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.61">γυμναστηρίου</w>
-                            <name type="LOC">
-                                <w lemma="Νεάπολη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.62">Νεαπόλεως</w>
-                            </name>
+                            <w lemma="Νεάπολη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.62">Νεαπόλεως</w>
                             <w lemma="προϋπολογισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.63">προϋπολογισμού</w>
                             <w lemma="150.000" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.64">150.000</w>
                             <w lemma="ευρώ" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.65">ευρώ</w>
@@ -14070,7 +14122,7 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.83">του</w>
                             <w lemma="στάδιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.84">Σταδίου</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.85">του</w>
-                            <name type="LOC">
+                            <name type="ORG">
                                 <w lemma="ΕΑΚ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.86">ΕΑΚ</w>
                                 <w join="right" lemma="Λάρισα" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg138.1.87">Λάρισας</w>
                             </name>
@@ -14295,10 +14347,8 @@
                             <w lemma="χρήση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.11">χρήσης</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.12">του</w>
                             <w lemma="κλειστός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.13">κλειστού</w>
-                            <name type="ORG">
-                                <w lemma="γυμναστήριο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.14">Γυμναστηρίου</w>
-                                <w join="right" lemma="Νεάπολη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.15">Νεάπολης</w>
-                            </name>
+                            <w lemma="γυμναστήριο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.14">Γυμναστηρίου</w>
+                            <w join="right" lemma="Νεάπολη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.15">Νεάπολης</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.16">,</pc>
                             <w lemma="έχω" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.17">έχει</w>
                             <w lemma="υποβάλλω" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg140.1.18">υποβληθεί</w>
@@ -14973,6 +15023,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u28" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg145">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg145.1">
@@ -15011,6 +15062,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΓΕΩΡΓΙΟΣ ΛΑΜΠΡΟΥΛΗΣ (ΣΤ΄ Αντιπρόεδρος της Βουλής):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u29" ana="#regular" who="#ΛΑΜΠΡΟΥΛΗΣ_ΑΡΙΣΤΕΙΔΗ_ΓΕΩΡΓΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg147">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg147.1">
@@ -15353,7 +15405,7 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg151.1.2">το</w>
                             <w lemma="γήπεδο" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg151.1.3">γήπεδο</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg151.1.4">του</w>
-                            <name type="ORG">
+                            <name type="LOC">
                                 <w lemma="Αλκαζάρ" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg151.1.5">Αλκαζάρ</w>
                             </name>
                             <w lemma="αναφέρω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg151.1.6">αναφερθήκατε</w>
@@ -16521,9 +16573,7 @@
                             </w>
                             <w lemma="πλαίσιο" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg157.1.40">πλαίσια</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg157.1.41">του</w>
-                            <name type="LOC">
-                                <w join="right" lemma="νομός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg157.1.42">νομού</w>
-                            </name>
+                            <w join="right" lemma="νομός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg157.1.42">νομού</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg157.1.43">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:cc" target="#ParlaMint-GR_2020-01-13-S1-commons.seg157.1.2 #ParlaMint-GR_2020-01-13-S1-commons.seg157.1.1"/>
@@ -16752,6 +16802,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u30" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg160">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg160.1">
@@ -16792,6 +16843,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΕΛΕΥΘΕΡΙΟΣ ΑΥΓΕΝΑΚΗΣ (Υφυπουργός Πολιτισμού και Αθλητισμού):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u31" ana="#regular" who="#ΑΥΓΕΝΑΚΗΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΕΛΕΥΘΕΡΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg162">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg162.1">
@@ -16910,10 +16962,14 @@
                             <w lemma="θα" msd="UPosTag=AUX" pos="PtFu" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.5">θα</w>
                             <w lemma="διεξάγω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.6">διεξαχθούν</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.7">οι</w>
-                            <w lemma="Ολυμπιακός" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.8">Ολυμπιακοί</w>
+                            <name type="MISC">
+                                <w lemma="Ολυμπιακός" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.8">Ολυμπιακοί</w>
+                            </name>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.9">και</w>
-                            <w lemma="Παραολυμπιακοί" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.10">Παραολυμπιακοί</w>
-                            <w join="right" lemma="αγώνας" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.11">Αγώνες</w>
+                            <name type="MISC">
+                                <w lemma="Παραολυμπιακοί" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.10">Παραολυμπιακοί</w>
+                                <w join="right" lemma="αγώνας" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.11">Αγώνες</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.12">,</pc>
                             <w xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg163.3.13">
                                 στους
@@ -17746,11 +17802,9 @@
                             <w lemma="ποσό" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.9">ποσά</w>
                             <w lemma="από" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.10">από</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.11">το</w>
-                            <name type="ORG">
-                                <w lemma="πρόγραμμα" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.12">Πρόγραμμα</w>
-                                <w lemma="δημόσιος" msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.13">Δημοσίων</w>
-                                <w lemma="επένδυση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.14">Επενδύσεων</w>
-                            </name>
+                            <w lemma="πρόγραμμα" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.12">Πρόγραμμα</w>
+                            <w lemma="δημόσιος" msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.13">Δημοσίων</w>
+                            <w lemma="επένδυση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.14">Επενδύσεων</w>
                             <w lemma="για" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.15">για</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.16">το</w>
                             <w lemma="2020" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg168.3.17">2020</w>
@@ -18173,7 +18227,9 @@
                             <w lemma="όχι" msd="UPosTag=PART" pos="PtNg" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.14">όχι</w>
                             <w lemma="μετά" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.15">μετά</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.16">τα</w>
-                            <w join="right" lemma="Χριστούγεννα" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.17">Χριστούγεννα</w>
+                            <name type="MISC">
+                                <w join="right" lemma="Χριστούγεννα" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.17">Χριστούγεννα</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.18">,</pc>
                             <w lemma="όπως" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.19">όπως</w>
                             <w lemma="ξεκινώ" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg170.3.20">ξεκινούσαν</w>
@@ -18548,9 +18604,9 @@
                             <w lemma="βασικός" msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.9">βασικές</w>
                             <w lemma="αρχή" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.10">αρχές</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.11">του</w>
-                            <w lemma="συμβούλιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.12">Συμβουλίου</w>
-                            <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.13">της</w>
-                            <name type="LOC">
+                            <name type="ORG">
+                                <w lemma="συμβούλιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.12">Συμβουλίου</w>
+                                <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.13">της</w>
                                 <w join="right" lemma="Ευρώπη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.14">Ευρώπης</w>
                             </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg172.3.15">.</pc>
@@ -18657,7 +18713,7 @@
                             <w lemma="όσο" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg173.2.36">όσο</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg173.2.37">και</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg173.2.38">τη</w>
-                            <name type="ORG">
+                            <name type="MISC">
                                 <w lemma="Super" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg173.2.39">Super</w>
                                 <w join="right" lemma="League" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg173.2.40">League</w>
                             </name>
@@ -18776,7 +18832,9 @@
                                 <w lemma="εθνικός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.28">Εθνικού</w>
                                 <w lemma="συμβούλιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.29">Συμβουλίου</w>
                                 <w lemma="καταπολέμηση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.30">Καταπολέμησης</w>
-                                <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.31">του</w>
+                            </name>
+                            <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.31">του</w>
+                            <name type="ORG">
                                 <w lemma="Ντόπινγκ" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.32">Ντόπινγκ</w>
                             </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.33">-</pc>
@@ -18839,7 +18897,9 @@
                             </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.81">,</pc>
                             <w lemma="κοινώς" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.82">κοινώς</w>
-                            <w join="right" lemma="WADA" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.83">WADA</w>
+                            <name type="ORG">
+                                <w join="right" lemma="WADA" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.83">WADA</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg174.1.84">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:advmod" target="#ParlaMint-GR_2020-01-13-S1-commons.seg174.1.55 #ParlaMint-GR_2020-01-13-S1-commons.seg174.1.1"/>
@@ -19038,9 +19098,7 @@
                             <w lemma="θεσπίζω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.10">θέσπισε</w>
                             <w lemma="πρόσφατα" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.11">πρόσφατα</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.12">η</w>
-                            <name type="ORG">
-                                <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.13">Κυβέρνηση</w>
-                            </name>
+                            <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.13">Κυβέρνηση</w>
                             <w lemma="λίγο" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.14">λίγο</w>
                             <w lemma="πριν" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.15">πριν</w>
                             <w lemma="από" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg176.1.16">από</w>
@@ -19334,9 +19392,7 @@
                                 <w lemma="επιστήμη" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.37">Επιστημών</w>
                                 <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.38">και</w>
                                 <w lemma="τεχνολογία" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.39">Τεχνολογίας</w>
-                            </name>
-                            <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.40">της</w>
-                            <name type="LOC">
+                                <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.40">της</w>
                                 <w join="right" lemma="Ιαπωνία" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.41">Ιαπωνίας</w>
                             </name>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg177.2.42">»</pc>
@@ -19436,10 +19492,12 @@
                             <w lemma="όψει" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.39">όψει</w>
                             <w lemma="φυσικά" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.40">φυσικά</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.41">των</w>
-                            <w lemma="Ολυμπιακός" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.42">Ολυμπιακών</w>
-                            <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.43">και</w>
-                            <w lemma="Παραολυμπιακών" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.44">Παραολυμπιακών</w>
-                            <w join="right" lemma="αγώνας" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.45">Αγώνων</w>
+                            <name type="MISC">
+                                <w lemma="Ολυμπιακός" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.42">Ολυμπιακών</w>
+                                <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.43">και</w>
+                                <w lemma="Παραολυμπιακών" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.44">Παραολυμπιακών</w>
+                                <w join="right" lemma="αγώνας" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.45">Αγώνων</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.46">,</pc>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.47">και</w>
                             <w lemma="να" msd="UPosTag=AUX" pos="PtSj" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg178.1.48">να</w>
@@ -19742,6 +19800,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u32" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg182">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg182.1">
@@ -19808,7 +19867,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.35">τον</w>
                             <w lemma="επαναπατρισμός" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.36">επαναπατρισμό</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.37">των</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.38">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.38">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.39">ναυτικών</w>
                             <w lemma="που" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Rel" pos="PnRe" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.40">που</w>
                             <w lemma="βρίσκω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg183.1.41">βρίσκονται</w>
@@ -19930,6 +19991,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΚΥΡΙΑΚΗ ΜΑΛΑΜΑ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u33" ana="#regular" who="#ΜΑΛΑΜΑ_ΙΩΑΝΝΗ_ΚΥΡΙΑΚΗ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg185">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg185.1">
@@ -19977,7 +20039,9 @@
                                 <w lemma="Τζιμπουτί" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.23">Τζιμπουτί</w>
                             </name>
                             <w lemma="τέσσερις" msd="UPosTag=NUM|Case=Nom|Gender=Masc|Number=Plur|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.24">τέσσερις</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.25">Έλληνες</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.25">Έλληνες</w>
+                            </name>
                             <w join="right" lemma="ναυτικός" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.26">ναυτικοί</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.27">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg186.1.28">οι</w>
@@ -20159,7 +20223,9 @@
                             <w lemma="ζωή" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.4">ζωή</w>
                             <w lemma="αυτός" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Dem" pos="PnDm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.5">αυτών</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.6">των</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.7">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.7">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.8">ναυτικών</w>
                             <w lemma="έχω" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.9">έχει</w>
                             <w join="right" lemma="γίνομαι" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg188.1.10">γίνει</w>
@@ -20282,7 +20348,9 @@
                             <w lemma="εκ" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.10">εκ</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.11">των</w>
                             <w lemma="πέντε" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Plur|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.12">πέντε</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.13">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.13">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.14">ναυτικών</w>
                             <w lemma="που" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Rel" pos="PnRe" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.15">που</w>
                             <w lemma="βρίσκω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg189.1.16">βρίσκονται</w>
@@ -20587,7 +20655,9 @@
                             <w lemma="τύχη" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.27">τύχη</w>
                             <w lemma="μου" msd="UPosTag=PRON|Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs" pos="PnPo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.28">τους</w>
                             <w lemma="τέσσερις" msd="UPosTag=NUM|Case=Acc|Gender=Masc|Number=Plur|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.29">τέσσερις</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.30">Έλληνες</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.30">Έλληνες</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=ADJ|Case=Acc|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.31">ναυτικούς</w>
                             <w xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg191.1.32">
                                 στα
@@ -20985,10 +21055,12 @@
                             <w lemma="ασφαλιστικός" msd="UPosTag=ADJ|Case=Nom|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.8">ασφαλιστική</w>
                             <w lemma="εταιρεία" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.9">εταιρεία</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.10">«</pc>
-                            <w join="right" lemma="P" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.11">P</w>
-                            <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.12">&amp;</pc>
-                            <w lemma="ι" msd="UPosTag=NUM|Case=Nom|Gender=Neut|Number=Sing|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.13">Ι</w>
-                            <w join="right" lemma="CLUB" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.14">CLUB</w>
+                            <name type="ORG">
+                                <w join="right" lemma="P" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.11">P</w>
+                                <w join="right" lemma="&amp;" msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.12">&amp;</w>
+                                <w lemma="ι" msd="UPosTag=NUM|Case=Nom|Gender=Neut|Number=Sing|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.13">Ι</w>
+                                <w join="right" lemma="CLUB" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.14">CLUB</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.15">»</pc>
                             <w lemma="για" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.16">για</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg195.1.17">το</w>
@@ -21075,6 +21147,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u34" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg197">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg197.1">
@@ -21117,6 +21190,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΒΛΑΣΗΣ (Υφυπουργός Εξωτερικών):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u35" ana="#regular" who="#ΒΛΑΣΗΣ_ΓΕΩΡΓΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg199">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg199.1">
@@ -21341,7 +21415,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.37">το</w>
                             <w lemma="ζήτημα" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.38">ζήτημα</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.39">των</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.40">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.40">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=ADJ|Case=Gen|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.41">ναυτικών</w>
                             <w xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.42">
                                 στα
@@ -21350,9 +21426,7 @@
                             </w>
                             <w lemma="πλοίο" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.45">πλοία</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.46">«</pc>
-                            <name type="ORG">
-                                <w join="right" lemma="Πτολεμαίος" msd="UPosTag=ADJ|Case=Nom|Gender=Masc|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.47">ΠΤΟΛΕΜΑΙΟΣ</w>
-                            </name>
+                            <w join="right" lemma="Πτολεμαίος" msd="UPosTag=ADJ|Case=Nom|Gender=Masc|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.47">ΠΤΟΛΕΜΑΙΟΣ</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.48">»</pc>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.49">και</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.50">«</pc>
@@ -21394,7 +21468,9 @@
                                 <w lemma="σε" msd="UPosTag=ADP" norm="σ" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.81"/>
                                 <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" norm="τους" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.82"/>
                             </w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.83">Έλληνες</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.83">Έλληνες</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=ADJ|Case=Acc|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.84">ναυτικούς</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.85">και</w>
                             <w lemma="να" msd="UPosTag=AUX" pos="PtSj" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg201.2.86">να</w>
@@ -21554,7 +21630,9 @@
                             <w lemma="επικοινωνία" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.37">επικοινωνία</w>
                             <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.38">με</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.39">τους</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.40">Έλληνες</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.40">Έλληνες</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=ADJ|Case=Acc|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.41">ναυτικούς</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.42">και</w>
                             <w lemma="ενημερώνω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg202.1.43">ενημερώνονται</w>
@@ -21750,7 +21828,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.28">ο</w>
                             <w lemma="επαναπατρισμός" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.29">επαναπατρισμός</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.30">των</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.31">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.31">Ελλήνων</w>
+                            </name>
                             <w join="right" lemma="ναυτικός" msd="UPosTag=ADJ|Case=Gen|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.32">ναυτικών</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg203.2.33">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
@@ -22056,7 +22136,9 @@
                             <w lemma="περιπέτεια" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.23">περιπέτεια</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.24">των</w>
                             <w lemma="τέσσερις" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Plur|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.25">τεσσάρων</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.26">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.26">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=ADJ|Case=Gen|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.27">ναυτικών</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.28">το</w>
                             <w lemma="σύντομος" msd="UPosTag=ADJ|Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing" pos="AjCp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg205.1.29">συντομότερο</w>
@@ -22098,6 +22180,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u36" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg206">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg206.1">
@@ -22140,6 +22223,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΚΥΡΙΑΚΗ ΜΑΛΑΜΑ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u37" ana="#regular" who="#ΜΑΛΑΜΑ_ΙΩΑΝΝΗ_ΚΥΡΙΑΚΗ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg208">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg208.1">
@@ -22737,6 +22821,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u38" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg215">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg215.1">
@@ -22781,6 +22866,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΒΛΑΣΗΣ (Υφυπουργός Εξωτερικών):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u39" ana="#regular" who="#ΒΛΑΣΗΣ_ΓΕΩΡΓΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg217">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg217.1">
@@ -23003,7 +23089,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.56">τον</w>
                             <w lemma="επαναπατρισμός" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.57">επαναπατρισμό</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.58">των</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.59">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.59">Ελλήνων</w>
+                            </name>
                             <w join="right" lemma="ναυτικός" msd="UPosTag=ADJ|Case=Gen|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.60">ναυτικών</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg218.1.61">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
@@ -23104,7 +23192,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.27">τον</w>
                             <w lemma="επαναπατρισμός" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.28">επαναπατρισμό</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.29">των</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.30">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.30">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.31">ναυτικών</w>
                             <w lemma="αντίκειμαι" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.32">αντίκειται</w>
                             <w xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg219.1.33">
@@ -23580,7 +23670,9 @@
                             <w lemma="εκ" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.36">εκ</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.37">των</w>
                             <w lemma="πέντε" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Plur|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.38">πέντε</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.39">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.39">Ελλήνων</w>
+                            </name>
                             <w lemma="ναυτικός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.40">ναυτικών</w>
                             <w lemma="αποτελώ" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.41">αποτελεί</w>
                             <w lemma="ιδιαίτερα" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg222.1.42">ιδιαίτερα</w>
@@ -23791,7 +23883,9 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.22">των</w>
                             <w lemma="λοιπός" msd="UPosTag=ADJ|Case=Gen|Gender=Masc|Number=Plur" pos="AjBa" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.23">λοιπών</w>
                             <w lemma="τέσσερις" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Plur|NumType=Card" pos="NmCd" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.24">τεσσάρων</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.25">Ελλήνων</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.25">Ελλήνων</w>
+                            </name>
                             <w join="right" lemma="ναυτικός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.26">ναυτικών</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg223.1.27">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
@@ -23838,6 +23932,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΚΥΡΙΑΚΗ ΜΑΛΑΜΑ</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u40" ana="#regular" who="#ΜΑΛΑΜΑ_ΙΩΑΝΝΗ_ΚΥΡΙΑΚΗ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg225">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg225.1">
@@ -23932,6 +24027,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΒΛΑΣΗΣ (Υφυπουργός Εξωτερικών):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u41" ana="#regular" who="#ΒΛΑΣΗΣ_ΓΕΩΡΓΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg226">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg226.1">
@@ -23960,6 +24056,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u42" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg227">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg227.1">
@@ -24478,6 +24575,7 @@
                 <vocal type="shouting">
                     <desc>Μάλιστα, μάλιστα.</desc>
                 </vocal>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
                 <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u43" ana="#chair" who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
                     <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg234">
                         <s xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg234.1">

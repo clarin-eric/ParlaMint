@@ -7,7 +7,9 @@
                 <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR, session 52 [ParlaMint.ana]</title>
                 <title type="sub" xml:lang="el">Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΖ, σύνοδος Α', συνεδρίαση ΝΒ', 2016-01-07</title>
                 <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 17, session 1, sitting 52, 2016-01-07</title>
-                <meeting n="ΙΖ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ"/>
+                <meeting n="17" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ"/>
+                <meeting n="1" corresp="#PoGR" ana="#parla.uni #parla.session"/>
+                <meeting n="52" corresp="#PoGR" ana="#parla.uni #parla.sitting"/>
                 <respStmt>
                     <persName>Δημήτρης Γκούμας</persName>
                     <persName>Βασίλης Παπαβασιλείου</persName>
@@ -32,8 +34,8 @@
             <extent>
                 <measure xml:lang="el" unit="speeches" quantity="35">35 ομιλίες</measure>
                 <measure xml:lang="en" unit="speeches" quantity="35">35 speeches</measure>
-                <measure xml:lang="el" unit="words" quantity="6669">6669 λέξεις</measure>
-                <measure xml:lang="en" unit="words" quantity="6669">6669 words</measure>
+                <measure xml:lang="el" unit="words" quantity="6406">6406 λέξεις</measure>
+                <measure xml:lang="en" unit="words" quantity="6406">6406 words</measure>
             </extent>
             <publicationStmt>
                 <publisher>
@@ -55,7 +57,7 @@
                         .
                     </p>
                 </availability>
-                <date when="2022-10-28">2022-10-28</date>
+                <date when="2022-11-25">2022-11-25</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -80,16 +82,19 @@
                     <tagUsage gi="text" occurs="1"/>
                     <tagUsage gi="body" occurs="1"/>
                     <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="head" occurs="6"/>
                     <tagUsage gi="u" occurs="35"/>
                     <tagUsage gi="seg" occurs="154"/>
                     <tagUsage gi="s" occurs="287"/>
+                    <tagUsage gi="desc" occurs="3"/>
+                    <tagUsage gi="note" occurs="37"/>
                     <tagUsage gi="vocal" occurs="2"/>
-                    <tagUsage gi="desc" occurs="2"/>
-                    <tagUsage gi="w" occurs="6669"/>
-                    <tagUsage gi="pc" occurs="874"/>
-                    <tagUsage gi="name" occurs="191"/>
+                    <tagUsage gi="w" occurs="6406"/>
+                    <tagUsage gi="pc" occurs="871"/>
+                    <tagUsage gi="name" occurs="197"/>
                     <tagUsage gi="linkGrp" occurs="287"/>
                     <tagUsage gi="link" occurs="7410"/>
+                    <tagUsage gi="gap" occurs="1"/>
                 </namespace>
             </tagsDecl>
         </encodingDesc>
@@ -106,6 +111,17 @@
     <text ana="#reference">
         <body>
             <div type="debateSection">
+                <head>ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
+                <head type="term">ΙΖ ΠΕΡΙΟΔΟΣ</head>
+                <head>ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
+                <head type="session">ΣΥΝΟΔΟΣ Α'</head>
+                <head type="sitting">ΣΥΝΕΔΡΙΑΣΗ ΝΒ'</head>
+                <head type="date">Πέμπτη 7 Ιανουαρίου 2016</head>
+                <gap reason="editorial">
+                    <desc xml:lang="en">The frontmatter of the document has been removed</desc>
+                </gap>
+                <note>Αθήνα, σήμερα στις 7 Ιανουαρίου 2016, ημέρα Πέμπτη και ώρα 9.35΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Δ΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ.</note>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u1" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg1">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg1.1">
@@ -137,6 +153,7 @@
                             </linkGrp>
                         </s>
                     </seg>
+                    <note>ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ: Σύμφωνα με την από 22-12-2015 εξουσιοδότηση του Σώματος επικυρώθηκαν με ευθύνη του Προεδρείου τα Πρακτικά της ΝΑ΄ συνεδριάσεώς του, της Τρίτης 22 Δεκεμβρίου 2015, σε ό,τι αφορά α) την ψήφιση στο σύνολο του σχεδίου νόμου «Σύμφωνο συμβίωσης, άσκηση δικαιωμάτων, ποινικές και άλλες διατάξεις» καθώς και β) τα Πρακτικά των συνεδριάσεων της Παρασκευής 23 Οκτωβρίου 2015 και Σαββάτου 24 Οκτωβρίου 2015</note>
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg2">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg2.1">
                             <w lemma="εύχομαι" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg2.1.1">Εύχομαι</w>
@@ -439,7 +456,7 @@
                             <w lemma="ερώτηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.7">ερώτηση</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.8">της</w>
                             <w lemma="βουλευτής" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.9">Βουλευτού</w>
-                            <name type="LOC">
+                            <name type="ORG">
                                 <w lemma="Β'" msd="UPosTag=NUM|Case=Gen|Gender=Neut|Number=Sing|NumType=Ord" pos="NmOd" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.10">Β΄</w>
                                 <w lemma="Αθήνα" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.11">Αθηνών</w>
                             </name>
@@ -480,12 +497,14 @@
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.40">»</pc>
                             <w lemma="από" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.41">από</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.42">τα</w>
+                            <w lemma="ΤΕΦΑΑ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.43">ΤΕΦΑΑ</w>
+                            <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.44">των</w>
                             <name type="ORG">
-                                <w lemma="ΤΕΦΑΑ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.43">ΤΕΦΑΑ</w>
-                                <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.44">των</w>
                                 <w lemma="πανεπιστήμιο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.45">Πανεπιστημίων</w>
                                 <w lemma="Θεσσαλονίκη" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.46">Θεσσαλονίκης</w>
-                                <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.47">και</w>
+                            </name>
+                            <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.47">και</w>
+                            <name type="LOC">
                                 <w join="right" lemma="Αθήνα" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.48">Αθηνών</w>
                             </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg6.1.49">,</pc>
@@ -1514,6 +1533,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΑΛΕΞΑΝΔΡΟΣ ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u2" ana="#regular" who="#ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ_ΓΕΩΡΓΙΟΥ_ΑΛΕΞΑΝΔΡΟΣ_ΑΛΕΚΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg18">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg18.1">
@@ -1608,9 +1628,7 @@
                             <w lemma="έννοια" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.19">έννοια</w>
                             <w lemma="ότι" msd="UPosTag=SCONJ" pos="CjSb" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.20">ότι</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.21">η</w>
-                            <name type="ORG">
-                                <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.22">Κυβέρνηση</w>
-                            </name>
+                            <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.22">Κυβέρνηση</w>
                             <w lemma="ελέγχω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.23">ελέγχεται</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.24">και</w>
                             <w lemma="υπό" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg19.1.25">υπ'</w>
@@ -2079,8 +2097,10 @@
                             <w lemma="είμαι" msd="UPosTag=AUX|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.1">Είναι</w>
                             <w lemma="πραγματικά" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.2">πραγματικά</w>
                             <w lemma="ένας" msd="UPosTag=DET|Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art" pos="AtId" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.3">ένα</w>
-                            <w lemma="Far" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.4">Far</w>
-                            <w join="right" lemma="West" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.5">West</w>
+                            <name type="ORG">
+                                <w lemma="Far" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.4">Far</w>
+                                <w join="right" lemma="West" msd="UPosTag=X|Foreign=Yes" pos="RgFwOr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.5">West</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.6">,</pc>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg21.3.7">«</pc>
                             <name type="ORG">
@@ -2704,9 +2724,7 @@
                             <w lemma="μέσο" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.36">μέσα</w>
                             <w lemma="σκοπεύω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.37">σκοπεύει</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.38">η</w>
-                            <name type="ORG">
-                                <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.39">Κυβέρνηση</w>
-                            </name>
+                            <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.39">Κυβέρνηση</w>
                             <w lemma="να" msd="UPosTag=AUX" pos="PtSj" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.40">να</w>
                             <w lemma="αντιμετωπίζω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.41">αντιμετωπίσει</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg24.1.42">τις</w>
@@ -2781,6 +2799,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u3" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg26">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg26.1">
@@ -2805,6 +2824,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΤΡΥΦΩΝ ΑΛΕΞΙΑΔΗΣ (Αναπληρωτής Υπουργός Οικονομικών):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u4" ana="#regular" who="#ΤΡΥΦΩΝ_ΑΛΕΞΙΑΔΗΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg27">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg27.1">
@@ -3961,7 +3981,9 @@
                             <w lemma="στιγμή" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.3">στιγμή</w>
                             <w lemma="που" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.4">που</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.5">ο</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.6">Έλληνας</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.6">Έλληνας</w>
+                            </name>
                             <w lemma="πολίτης" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.7">πολίτης</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.8">και</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg36.6.9">οι</w>
@@ -4675,6 +4697,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u5" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg41">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg41.1">
@@ -4769,6 +4792,7 @@
                 <vocal type="shouting">
                     <desc>Μάλιστα, μάλιστα.</desc>
                 </vocal>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u6" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg42">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg42.1">
@@ -4819,6 +4843,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΑΛΕΞΑΝΔΡΟΣ ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u7" ana="#regular" who="#ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ_ΓΕΩΡΓΙΟΥ_ΑΛΕΞΑΝΔΡΟΣ_ΑΛΕΚΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg44">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg44.1">
@@ -5433,8 +5458,10 @@
                             <w lemma="δίνω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.13">δόθηκε</w>
                             <w lemma="με" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.14">με</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.15">τον</w>
-                            <w lemma="ν." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.16">ν.</w>
-                            <w lemma="4002" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.17">4002</w>
+                            <name type="MISC">
+                                <w lemma="ν." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.16">ν.</w>
+                                <w lemma="4002" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.17">4002</w>
+                            </name>
                             <w lemma="δυνατότητα" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.18">δυνατότητα</w>
                             <w lemma="να" msd="UPosTag=AUX" pos="PtSj" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.19">να</w>
                             <w lemma="πληρώνω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg47.2.20">πληρώσουν</w>
@@ -5896,7 +5923,9 @@
                             <w join="right" lemma="πολίτης" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.12">πολίτης</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.13">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.14">ο</w>
-                            <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.15">Έλληνας</w>
+                            <name type="MISC">
+                                <w lemma="Έλληνας" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.15">Έλληνας</w>
+                            </name>
                             <w lemma="πολίτης" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.16">πολίτης</w>
                             <w lemma="που" msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel" pos="PnRe" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.17">που</w>
                             <w lemma="διεκδικώ" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg50.1.18">διεκδικεί</w>
@@ -6540,6 +6569,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u8" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg54">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg54.1">
@@ -6740,13 +6770,17 @@
                             <w join="right" lemma="1060/2009" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.123">1060/2009</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.124">,</pc>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.125">(</pc>
-                            <w join="right" lemma="ΕΕ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.126">ΕΕ</w>
+                            <name type="ORG">
+                                <w join="right" lemma="ΕΕ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.126">ΕΕ</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.127">)</pc>
                             <w lemma="αριθ." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.128">αριθ.</w>
                             <w lemma="1094/2010" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.129">1094/2010</w>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.130">και</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.131">(</pc>
-                            <w join="right" lemma="ΕΕ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.132">ΕΕ</w>
+                            <name type="ORG">
+                                <w join="right" lemma="ΕΕ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.132">ΕΕ</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.133">)</pc>
                             <w lemma="αριθ." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.134">αριθ.</w>
                             <w join="right" lemma="1095/2010" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg55.1.135">1095/2010</w>
@@ -7045,10 +7079,8 @@
                                 <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" norm="την" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.4"/>
                             </w>
                             <w lemma="αρμόδιος" msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.5">αρμόδια</w>
-                            <name type="ORG">
-                                <w lemma="διαρκής" msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.6">Διαρκή</w>
-                                <w join="right" lemma="επιτροπή" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.7">Επιτροπή</w>
-                            </name>
+                            <w lemma="διαρκής" msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.6">Διαρκή</w>
+                            <w join="right" lemma="επιτροπή" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.7">Επιτροπή</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg56.1.8">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:root" target="#ParlaMint-GR_2016-01-07-S1-commons.seg56.1 #ParlaMint-GR_2016-01-07-S1-commons.seg56.1.1"/>
@@ -7092,6 +7124,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΤΡΥΦΩΝ ΑΛΕΞΙΑΔΗΣ (Αναπληρωτής Υπουργός Οικονομικών):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u9" ana="#regular" who="#ΤΡΥΦΩΝ_ΑΛΕΞΙΑΔΗΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1">
@@ -7121,9 +7154,7 @@
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.22">και</w>
                             <w lemma="διαφθορά" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.23">διαφθοράς</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.24">η</w>
-                            <name type="ORG">
-                                <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.25">Κυβέρνηση</w>
-                            </name>
+                            <w lemma="κυβέρνηση" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.25">Κυβέρνηση</w>
                             <w lemma="θα" msd="UPosTag=AUX" pos="PtFu" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.26">θα</w>
                             <w lemma="κάνω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.27">κάνει</w>
                             <w lemma="ό,τι" msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rel" pos="PnRi" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg58.1.28">ό,τι</w>
@@ -8462,6 +8493,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u10" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg65">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg65.1">
@@ -8725,6 +8757,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΤΡΥΦΩΝ ΑΛΕΞΙΑΔΗΣ (Αναπληρωτής Υπουργός Οικονομικών):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u11" ana="#regular" who="#ΤΡΥΦΩΝ_ΑΛΕΞΙΑΔΗΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg66">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg66.1">
@@ -8773,6 +8806,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u12" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg67">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg67.1">
@@ -8795,6 +8829,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΤΡΥΦΩΝ ΑΛΕΞΙΑΔΗΣ (Αναπληρωτής Υπουργός Οικονομικών):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u13" ana="#regular" who="#ΤΡΥΦΩΝ_ΑΛΕΞΙΑΔΗΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg68">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg68.1">
@@ -9247,6 +9282,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u14" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg72">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg72.1">
@@ -9277,7 +9313,9 @@
                             <w lemma="κύκλος" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.11">κύκλου</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.12">του</w>
                             <w lemma="βουλευτής" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.13">Βουλευτή</w>
-                            <w lemma="Ηράκλειο" msd="UPosTag=PROPN|Case=Gen|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.14">Ηρακλείου</w>
+                            <name type="LOC">
+                                <w lemma="Ηράκλειο" msd="UPosTag=PROPN|Case=Gen|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.14">Ηρακλείου</w>
+                            </name>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.15">της</w>
                             <name type="ORG">
                                 <w lemma="δημοκρατικός" msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.1.16">Δημοκρατικής</w>
@@ -9398,9 +9436,7 @@
                         </s>
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2">
                             <w lemma="αγαπητός" msd="UPosTag=ADJ|Case=Voc|Gender=Masc|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2.1">Αγαπητέ</w>
-                            <name type="PER">
-                                <w join="right" lemma="Βασίλειος" msd="UPosTag=PROPN|Case=Voc|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2.2">Βασίλειε</w>
-                            </name>
+                            <w join="right" lemma="Βασίλειος" msd="UPosTag=PROPN|Case=Voc|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2.2">Βασίλειε</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2.3">,</pc>
                             <w lemma="χρόνος" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2.4">χρόνια</w>
                             <w lemma="πολύς" msd="UPosTag=DET|Case=Acc|Gender=Neut|Number=Plur|PronType=Ind" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg73.2.5">πολλά</w>
@@ -9487,6 +9523,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΚΕΓΚΕΡΟΓΛΟΥ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u15" ana="#regular" who="#ΚΕΓΚΕΡΟΓΛΟΥ_ΑΛΕΞΑΝΔΡΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg76">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg76.1">
@@ -9702,9 +9739,7 @@
                                 <w lemma="σε" msd="UPosTag=ADP" norm="σ" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg78.1.40"/>
                                 <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" norm="το" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg78.1.41"/>
                             </w>
-                            <name type="ORG">
-                                <w join="right" lemma="ΕΣΠΑ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg78.1.42">ΕΣΠΑ</w>
-                            </name>
+                            <w join="right" lemma="ΕΣΠΑ" msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg78.1.42">ΕΣΠΑ</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg78.1.43">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:aux" target="#ParlaMint-GR_2016-01-07-S1-commons.seg78.1.2 #ParlaMint-GR_2016-01-07-S1-commons.seg78.1.1"/>
@@ -10642,6 +10677,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u16" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg84">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg84.1">
@@ -10664,6 +10700,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΧΡΗΣΤΟΣ ΣΠΙΡΤΖΗΣ (Υπουργός Υποδομών, Μεταφορών και Δικτύων):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u17" ana="#regular" who="#ΣΠΙΡΤΖΗΣ_ΠΑΝΑΓΙΩΤΗ_ΧΡΗΣΤΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg85">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg85.1">
@@ -11185,9 +11222,7 @@
                             <w lemma="αρμόδιος" msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.23">αρμόδια</w>
                             <w lemma="υπηρεσία" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.24">υπηρεσία</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.25">του</w>
-                            <name type="ORG">
-                                <w join="right" lemma="υπουργείο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.26">Υπουργείου</w>
-                            </name>
+                            <w join="right" lemma="υπουργείο" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.26">Υπουργείου</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.27">,</pc>
                             <w xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg91.1.28">
                                 στη
@@ -11512,7 +11547,9 @@
                             <w lemma="λίγο" msd="UPosTag=ADV" pos="AdBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg94.1.24">λίγο</w>
                             <w lemma="πριν" msd="UPosTag=ADP" pos="AsPpSp" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg94.1.25">πριν</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg94.1.26">τα</w>
-                            <w join="right" lemma="Χριστούγεννα" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg94.1.27">Χριστούγεννα</w>
+                            <name type="MISC">
+                                <w join="right" lemma="Χριστούγεννα" msd="UPosTag=PROPN|Case=Acc|Gender=Neut|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg94.1.27">Χριστούγεννα</w>
+                            </name>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg94.1.28">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:det" target="#ParlaMint-GR_2016-01-07-S1-commons.seg94.1.3 #ParlaMint-GR_2016-01-07-S1-commons.seg94.1.1"/>
@@ -12258,6 +12295,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u18" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg101">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg101.1">
@@ -12282,6 +12320,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΚΕΓΚΕΡΟΓΛΟΥ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u19" ana="#regular" who="#ΚΕΓΚΕΡΟΓΛΟΥ_ΑΛΕΞΑΝΔΡΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg102">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg102.1">
@@ -13052,8 +13091,10 @@
                             <w lemma="λέγω" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.4">πω</w>
                             <w lemma="ότι" msd="UPosTag=SCONJ" pos="CjSb" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.5">ότι</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.6">ο</w>
-                            <w lemma="ν." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.7">ν.</w>
-                            <w lemma="4313" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.8">4313</w>
+                            <name type="MISC">
+                                <w lemma="ν." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.7">ν.</w>
+                                <w lemma="4313" msd="UPosTag=NUM|NumType=Card" pos="DIG" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.8">4313</w>
+                            </name>
                             <w lemma="και" msd="UPosTag=CCONJ" pos="CjCo" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.9">και</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.10">η</w>
                             <w lemma="δημιουργία" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg107.1.11">δημιουργία</w>
@@ -13275,17 +13316,21 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.4">το</w>
                             <w lemma="έργο" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.5">έργο</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.6">«</pc>
-                            <w lemma="γούρνα" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.7">Γούρνες</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.8">-</pc>
-                            <w join="right" lemma="χερσόνησος" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.9">Χερσόνησος</w>
+                            <name type="MISC">
+                                <w lemma="γούρνα" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.7">Γούρνες</w>
+                                <w lemma="-" msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.8">-</w>
+                                <w join="right" lemma="χερσόνησος" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.9">Χερσόνησος</w>
+                            </name>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.10">»</pc>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.11">,</pc>
                             <w lemma="ο" msd="UPosTag=DET|Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.12">το</w>
                             <w lemma="έργο" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.13">έργο</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.14">«</pc>
-                            <w lemma="Πάνορμος" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.15">Πάνορμος</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.16">-</pc>
-                            <w join="right" lemma="Εξάντη" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.17">Εξάντη</w>
+                            <name type="MISC">
+                                <w lemma="Πάνορμος" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.15">Πάνορμος</w>
+                                <w lemma="-" msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.16">-</w>
+                                <w join="right" lemma="Εξάντη" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.17">Εξάντη</w>
+                            </name>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.18">»</pc>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.19">,</pc>
                             <w xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.20">
@@ -13299,9 +13344,11 @@
                             <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.26">το</w>
                             <w lemma="έργο" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.27">έργο</w>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.28">«</pc>
-                            <w lemma="Μουρνιές" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.29">Μουρνιές</w>
-                            <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.30">-</pc>
-                            <w join="right" lemma="Γογονή" msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.31">Γογονή</w>
+                            <name type="MISC">
+                                <w lemma="Μουρνιές" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.29">Μουρνιές</w>
+                                <w lemma="-" msd="UPosTag=PUNCT" pos="PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.30">-</w>
+                                <w join="right" lemma="Γογονή" msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.31">Γογονή</w>
+                            </name>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.32">»</pc>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg109.2.33">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
@@ -13666,9 +13713,7 @@
                             <w lemma="έγκαιρος" msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg112.1.51">έγκαιρης</w>
                             <w lemma="επιχορήγηση" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg112.1.52">επιχορήγησης</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg112.1.53">του</w>
-                            <name type="ORG">
-                                <w join="right" lemma="οργανισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg112.1.54">Οργανισμού</w>
-                            </name>
+                            <w join="right" lemma="οργανισμός" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg112.1.54">Οργανισμού</w>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg112.1.55">.</pc>
                             <linkGrp targFunc="head argument" type="UD-SYN">
                                 <link ana="ud-syn:root" target="#ParlaMint-GR_2016-01-07-S1-commons.seg112.1 #ParlaMint-GR_2016-01-07-S1-commons.seg112.1.1"/>
@@ -13979,6 +14024,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u20" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg115">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg115.1">
@@ -13995,6 +14041,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΚΕΓΚΕΡΟΓΛΟΥ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u21" ana="#regular" who="#ΚΕΓΚΕΡΟΓΛΟΥ_ΑΛΕΞΑΝΔΡΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg116">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg116.1">
@@ -14057,6 +14104,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u22" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg118">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg118.1">
@@ -14346,7 +14394,9 @@
                             <w lemma="βουλευτής" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.11">Βουλευτή</w>
                             <w lemma="Αχαΐα" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.12">Αχαΐας</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.13">του</w>
-                            <w lemma="Ποτάμι" msd="UPosTag=PROPN|Case=Gen|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.14">Ποταμιού</w>
+                            <name type="ORG">
+                                <w lemma="Ποτάμι" msd="UPosTag=PROPN|Case=Gen|Gender=Neut|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.14">Ποταμιού</w>
+                            </name>
                             <w lemma="κ." msd="UPosTag=NOUN|Abbr=Yes" pos="ABBR" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.15">κ.</w>
                             <name type="PER">
                                 <w lemma="Ιάσονας" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg121.1.16">Ιάσονα</w>
@@ -14813,10 +14863,8 @@
                             <w lemma="κύκλος" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.9">κύκλου</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.10">της</w>
                             <w lemma="βουλευτής" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" pos="NoCm" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.11">Βουλευτού</w>
-                            <name type="LOC">
-                                <w lemma="Β'" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord" pos="NmOd" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.12">Β΄</w>
-                                <w lemma="Πειραιάς" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.13">Πειραιώς</w>
-                            </name>
+                            <w lemma="Β'" msd="UPosTag=NUM|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord" pos="NmOd" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.12">Β΄</w>
+                            <w lemma="Πειραιάς" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.13">Πειραιώς</w>
                             <w lemma="ο" msd="UPosTag=DET|Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pos="AtDf" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.14">του</w>
                             <name type="ORG">
                                 <w lemma="κομμουνιστικός" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|Number=Sing" pos="AjBa" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg125.1.15">Κομμουνιστικού</w>
@@ -15123,6 +15171,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΧΡΗΣΤΟΣ ΣΠΙΡΤΖΗΣ (Υπουργός Υποδομών, Μεταφορών και Δικτύων):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u23" ana="#regular" who="#ΣΠΙΡΤΖΗΣ_ΠΑΝΑΓΙΩΤΗ_ΧΡΗΣΤΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg128">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg128.1">
@@ -15309,6 +15358,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u24" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg130">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg130.1">
@@ -15321,6 +15371,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΧΡΗΣΤΟΣ ΣΠΙΡΤΖΗΣ (Υπουργός Υποδομών, Μεταφορών και Δικτύων):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u25" ana="#regular" who="#ΣΠΙΡΤΖΗΣ_ΠΑΝΑΓΙΩΤΗ_ΧΡΗΣΤΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg131">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg131.1">
@@ -16327,6 +16378,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u26" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg138">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg138.1">
@@ -16351,6 +16403,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΚΕΓΚΕΡΟΓΛΟΥ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u27" ana="#regular" who="#ΚΕΓΚΕΡΟΓΛΟΥ_ΑΛΕΞΑΝΔΡΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg139">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg139.1">
@@ -16375,6 +16428,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u28" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg140">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg140.1">
@@ -16411,6 +16465,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΚΕΓΚΕΡΟΓΛΟΥ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u29" ana="#regular" who="#ΚΕΓΚΕΡΟΓΛΟΥ_ΑΛΕΞΑΝΔΡΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg141">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg141.1">
@@ -16473,6 +16528,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u30" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg142">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg142.1">
@@ -16574,6 +16630,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΚΕΓΚΕΡΟΓΛΟΥ</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u31" ana="#regular" who="#ΚΕΓΚΕΡΟΓΛΟΥ_ΑΛΕΞΑΝΔΡΟΥ_ΒΑΣΙΛΕΙΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg143">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg143.1">
@@ -16891,6 +16948,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u32" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg148">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg148.1">
@@ -16917,6 +16975,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΧΡΗΣΤΟΣ ΣΠΙΡΤΖΗΣ (Υπουργός Υποδομών, Μεταφορών και Δικτύων):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u33" ana="#regular" who="#ΣΠΙΡΤΖΗΣ_ΠΑΝΑΓΙΩΤΗ_ΧΡΗΣΤΟΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg149">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg149.1">
@@ -16935,6 +16994,7 @@
                         </s>
                     </seg>
                 </u>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u34" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg150">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg150.1">
@@ -17009,7 +17069,9 @@
                                 <w lemma="σε" msd="UPosTag=ADP" norm="σ" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.50"/>
                                 <w lemma="ο" msd="UPosTag=DET|Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art" norm="τους" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.51"/>
                             </w>
-                            <w join="right" lemma="Σκοπιανός" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.52">Σκοπιανούς</w>
+                            <name type="MISC">
+                                <w join="right" lemma="Σκοπιανός" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Plur" pos="NoPr" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.52">Σκοπιανούς</w>
+                            </name>
                             <pc join="right" msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.53">»</pc>
                             <pc msd="UPosTag=PUNCT" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.54">,</pc>
                             <w lemma="αναβάλλω" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass" pos="VbMn" xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg151.1.55">αναβάλλεται</w>
@@ -17157,6 +17219,7 @@
                 <vocal type="shouting">
                     <desc>Μάλιστα, μάλιστα.</desc>
                 </vocal>
+                <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
                 <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u35" ana="#chair" who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                     <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg154">
                         <s xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg154.1">
