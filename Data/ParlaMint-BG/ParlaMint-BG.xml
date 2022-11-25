@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-BGs" xml:lang="bg">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-BG" xml:lang="bg">
      <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -518,7 +518,7 @@
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Патриотичен фронт</idno>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Patriotic_Front_(Bulgaria)</idno>
                </org>
-               <org role="parliament" xml:id="NS">
+               <org ana="#parla.national #parla.uni" role="parliament" xml:id="NS">
                   <orgName full="yes" xml:lang="bg">Народно събрание на Република България</orgName>
                   <orgName full="yes" xml:lang="en">National Assembly of the Republic of Bulgaria</orgName>
                   <event from="1879-02-10">
@@ -1338,7 +1338,7 @@
                   </birth>
                   <affiliation ref="#NS" role="member"/>
                   <affiliation ref="#party.GERB" role="member"/>
-                  <affiliation from="2017-05-04" role="minister" to="2018-09-13"/>
+                  <affiliation from="2017-05-04" ref="#gov.IzvSv" role="minister" to="2018-09-13"/>
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Валентин_Радев</idno>
                </person>
                <person n="2764" xml:id="KasabovValentin">
@@ -1444,7 +1444,7 @@
                   <affiliation ref="#NS" role="member"/>
                   <affiliation ref="#NS" role="candidateChairman"/>
                   <affiliation ref="#party.PATR" role="member"/>
-                  <affiliation from="2014-05-04" role="minister" to="2018-11-16"/>
+                  <affiliation from="2014-05-04" ref="#gov.IzvSv" role="minister" to="2018-11-16"/>
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Валери_Симеонов</idno>
                </person>
                <person xml:id="GeorgievaVania">
@@ -1588,7 +1588,6 @@
                      <placeName>Момчилград, България</placeName>
                   </birth>
                   <affiliation ref="#NS" role="member"/>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="VuchkovVeselin">
                   <persName xml:lang="bg">
@@ -3278,7 +3277,6 @@
                      <placeName>Пловдив, България</placeName>
                   </birth>
                   <affiliation ref="#NS" role="member"/>
-                  <affiliation role="member"/>
                </person>
                <person n="2869" xml:id="MihovskiIvan">
                   <persName xml:lang="bg">
@@ -7399,7 +7397,6 @@
                   <education>Sapienza University</education>
                   <occupation>политик</occupation>
                   <affiliation from="2017-01-17" role="head" to="2019-07-03"/>
-                  <affiliation role="member"/>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Antonio_Tajani</idno>
                </person>
                <person xml:id="StoimenovaAsena">
@@ -7418,7 +7415,6 @@
                   <sex value="M"></sex>
                   <education>икономист</education>
                   <affiliation from="2012" role="head" to="2017"/>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="ZhotevaBetina">
                   <persName xml:lang="bg">
@@ -7524,7 +7520,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="PoryazovValentin">
                   <persName xml:lang="bg">
@@ -7687,7 +7682,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="KozarevaGabriela">
                   <persName xml:lang="bg">
@@ -7731,7 +7725,6 @@
                   </birth>
                   <education when="1987">Магистър по право от Великотърновския университет</education>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="KostovGeorgi">
                   <persName xml:lang="bg">
@@ -7799,7 +7792,6 @@
                   <sex value="M"></sex>
                   <education when="1997">Висшия Машинно-електротехнически институт – гр.Варна, магистър „електроинженер”, специалност „Електроенергетика”</education>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="CholakovGeorgi">
                   <persName xml:lang="bg">
@@ -7821,7 +7813,6 @@
                   </persName>
                   <sex value="F"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="KomitovGlinka">
                   <persName xml:lang="bg">
@@ -7978,7 +7969,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="KostovDimityr">
                   <persName xml:lang="bg">
@@ -8072,7 +8062,6 @@
                   </persName>
                   <sex value="F"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="KostadinovEvtim">
                   <persName xml:lang="bg">
@@ -8240,7 +8229,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="CanovaIliyana">
                   <persName xml:lang="bg">
@@ -8432,7 +8420,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="ZafirovKrasimir">
                   <persName xml:lang="bg">
@@ -8442,7 +8429,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="VlahovKrasimir">
                   <persName xml:lang="bg">
@@ -8709,7 +8695,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="SimeonovOgnyan">
                   <persName xml:lang="bg">
@@ -8746,7 +8731,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="AsenovOleg">
                   <persName xml:lang="bg">
@@ -8783,7 +8767,6 @@
                   </persName>
                   <sex value="F"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="DzhelepovPetyr">
                   <persName xml:lang="bg">
@@ -8793,7 +8776,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="NikolovPetar">
                   <persName xml:lang="bg">
@@ -8839,7 +8821,6 @@
                   </persName>
                   <sex value="M"></sex>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="GeorgievPlamen">
                   <persName xml:lang="bg">
@@ -8924,7 +8905,6 @@
                   <education when="1997">„Право“ в Юридическия факултет на Университета за национално и световно стопанство (УНСС)</education>
                   <occupation>юрист</occupation>
                   <occupation>политик</occupation>
-                  <affiliation role="member"/>
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Ремзи_Осман</idno>
                </person>
                <person xml:id="PlevnelievRosen">
@@ -9060,7 +9040,6 @@
                   <education when="1988">Доктор по икономика от Университет за национално и световно стопанство</education>
                   <occupation>икономист</occupation>
                   <occupation>счетоводител</occupation>
-                  <affiliation role="member"/>
                </person>
                <person xml:id="StoyanovaSlaveya">
                   <persName xml:lang="bg">
@@ -9155,7 +9134,7 @@
                      <placeName>София</placeName>
                   </birth>
                   <education>юрист</education>
-                  <affiliation from="2015" role="chiefInspector"/>
+                  <affiliation from="2015" role="head"/>
                </person>
                <person xml:id="TanevTodor">
                   <persName xml:lang="bg">
@@ -9240,7 +9219,7 @@
                   </birth>
                   <education>ВВВУ „Георги Бенковски“</education>
                   <idno type="URI" xml:lang="bg" subtype="wikimedia">https://bg.wikipedia.org/wiki/Цанко_Стойков</idno>
-                  <affiliation role="commander" when="2016-08-30"/>
+                  <affiliation role="head" when="2016-08-30"/>
                </person>
                <person xml:id="KitovCvetan">
                   <persName xml:lang="bg">
