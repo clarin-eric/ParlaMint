@@ -92,6 +92,17 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
       </classDecl>
+      <listPrefixDef>
+	<prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+	  <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+	</prefixDef>
+      </listPrefixDef>
+      <appInfo>
+        <application ident="EstNLTK" version="1.6b">
+          <label>EstNLTK</label>
+          <desc>POS tagging, lemmatization and dependency parsing done with EstNLTK ver. 1.6b</desc>
+        </application>
+      </appInfo>
     </encodingDesc>
     <profileDesc>
       <settingDesc>
