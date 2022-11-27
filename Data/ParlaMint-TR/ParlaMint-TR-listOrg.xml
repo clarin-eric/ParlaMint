@@ -2,6 +2,17 @@
 <listOrg xmlns="http://www.tei-c.org/ns/1.0"
          xml:id="ParlaMint-TR-listOrg"
          xml:lang="tr">
+   <org xml:id="party.Zafer" role="politicalParty">
+      <orgName full="yes" xml:lang="tr">Zafer Partisi</orgName>
+      <orgName full="yes" xml:lang="en">Victory Party</orgName>
+      <orgName full="abb" xml:lang="tr">Zafer</orgName>
+      <event from="2021-08-26">
+         <label xml:lang="en">existence</label>
+      </event>
+      <idno type="URI" subtype="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Zafer_Partisi</idno>
+      <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Victory_Party_(Turkey)</idno>
+      <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q108248939</idno>
+   </org>
    <org xml:id="party.MSP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Millî Selamet Partisi</orgName>
       <orgName full="yes" xml:lang="en">National Salvation Party</orgName>
@@ -101,16 +112,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/People's_Labour_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q3674950</idno>
    </org>
-   <org xml:id="parliamentaryGroup.YP" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Yenilik Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Innovation Party (Turkey)</orgName>
-      <orgName full="abb" xml:lang="tr">YP</orgName>
-      <listEvent>
-         <event from="2018-07-07" xml:id="parliamentaryGroup.YP.27">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
    <org xml:id="party.YP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Yenilik Partisi</orgName>
       <orgName full="yes" xml:lang="en">Innovation Party (Turkey)</orgName>
@@ -122,20 +123,10 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Innovation_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q97599122</idno>
    </org>
-   <org xml:id="parliamentaryGroup.TiP" role="parliamentaryGroup">
+   <org xml:id="party.TIP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Türkiye İşçi Partisi</orgName>
       <orgName full="yes" xml:lang="en">Workers' Party of Turkey</orgName>
-      <orgName full="abb" xml:lang="tr">TiP</orgName>
-      <listEvent>
-         <event from="2018-07-07" xml:id="parliamentaryGroup.TiP.27">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
-   <org xml:id="party.TiP" role="politicalParty">
-      <orgName full="yes" xml:lang="tr">Türkiye İşçi Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Workers' Party of Turkey</orgName>
-      <orgName full="abb" xml:lang="tr">TiP</orgName>
+      <orgName full="abb" xml:lang="tr">TIP</orgName>
       <event from="2017-11-07">
          <label xml:lang="en">existence</label>
       </event>
@@ -153,18 +144,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Sosyaldemokrat_Halkçı_Parti</idno>
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Social_Democratic_Populist_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q929507</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.Saadet" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Saadet Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Felicity Party</orgName>
-      <orgName full="abb" xml:lang="tr">Saadet</orgName>
-      <listEvent>
-         <event from="2015-11-17"
-                to="2018-05-16"
-                xml:id="parliamentaryGroup.Saadet.26">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
    </org>
    <org xml:id="party.Saadet" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Saadet Partisi</orgName>
@@ -199,18 +178,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Left_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q307890</idno>
    </org>
-   <org xml:id="parliamentaryGroup.ÖDP" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Özgürlük ve Dayanışma Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Freedom and Solidarity Party</orgName>
-      <orgName full="abb" xml:lang="tr">ÖDP</orgName>
-      <listEvent>
-         <event from="2002-11-14"
-                to="2007-06-03"
-                xml:id="parliamentaryGroup.ÖDP.22">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
    <org xml:id="party.ÖDP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Özgürlük ve Dayanışma Partisi</orgName>
       <orgName full="yes" xml:lang="en">Freedom and Solidarity Party</orgName>
@@ -227,11 +194,6 @@
       <orgName full="yes" xml:lang="en">Nationalist Movement Party</orgName>
       <orgName full="abb" xml:lang="tr">MHP</orgName>
       <listEvent>
-         <event from="2002-11-14"
-                to="2007-06-03"
-                xml:id="parliamentaryGroup.MHP.22">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
          <event from="2007-07-23"
                 to="2011-04-23"
                 xml:id="parliamentaryGroup.MHP.23">
@@ -332,11 +294,6 @@
       <orgName full="yes" xml:lang="en">Peoples' Democratic Party</orgName>
       <orgName full="abb" xml:lang="tr">HDP</orgName>
       <listEvent>
-         <event from="2007-07-23"
-                to="2011-04-23"
-                xml:id="parliamentaryGroup.HDP.23">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
          <event from="2011-06-28"
                 to="2015-04-23"
                 xml:id="parliamentaryGroup.HDP.24">
@@ -412,18 +369,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Virtue_Party</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q1399162</idno>
    </org>
-   <org xml:id="parliamentaryGroup.eParti" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Elektronik Demokrasi Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Electronic Democracy Party</orgName>
-      <orgName full="abb" xml:lang="tr">eParti</orgName>
-      <listEvent>
-         <event from="2007-07-23"
-                to="2011-04-23"
-                xml:id="parliamentaryGroup.eParti.23">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
    <org xml:id="party.eParti" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Elektronik Demokrasi Partisi</orgName>
       <orgName full="yes" xml:lang="en">Electronic Democracy Party</orgName>
@@ -457,18 +402,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/True_Path_Party</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q6061183</idno>
    </org>
-   <org xml:id="parliamentaryGroup.DTP" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Demokratik Toplum Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Democratic Society Party</orgName>
-      <orgName full="abb" xml:lang="tr">DTP</orgName>
-      <listEvent>
-         <event from="2002-11-14"
-                to="2007-06-03"
-                xml:id="parliamentaryGroup.DTP.22">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
    <org xml:id="party.DTP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Demokratik Toplum Partisi</orgName>
       <orgName full="yes" xml:lang="en">Democratic Society Party</orgName>
@@ -491,16 +424,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Democratic_Left_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q942515</idno>
    </org>
-   <org xml:id="parliamentaryGroup.DP" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Demokrat Parti</orgName>
-      <orgName full="yes" xml:lang="en">Democratic Party</orgName>
-      <orgName full="abb" xml:lang="tr">DP</orgName>
-      <listEvent>
-         <event from="2018-07-07" xml:id="parliamentaryGroup.DP.27">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
    <org xml:id="party.DP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Demokrat Parti</orgName>
       <orgName full="yes" xml:lang="en">Democratic Party</orgName>
@@ -511,16 +434,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokrat_Parti_(2007)</idno>
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Democrat_Party_(Turkey,_current)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q2067217</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.DEVA" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Demokrasi ve Atılım Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Democracy and Progress Party</orgName>
-      <orgName full="abb" xml:lang="tr">DEVA</orgName>
-      <listEvent>
-         <event from="2018-07-07" xml:id="parliamentaryGroup.DEVA.27">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
    </org>
    <org xml:id="party.DEVA" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Demokrasi ve Atılım Partisi</orgName>
@@ -543,21 +456,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Demokratik_Halk_Partisi_(Türkiye)</idno>
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Democratic_People's_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q645397</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.DBP" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Demokratik Bölgeler Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Democratic Regions Party</orgName>
-      <orgName full="abb" xml:lang="tr">DBP</orgName>
-      <listEvent>
-         <event from="2007-07-23"
-                to="2011-04-23"
-                xml:id="parliamentaryGroup.DBP.23">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-         <event from="2018-07-07" xml:id="parliamentaryGroup.DBP.27">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
    </org>
    <org xml:id="party.DBP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Demokratik Bölgeler Partisi</orgName>
@@ -627,16 +525,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Peace_and_Democracy_Party</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q809719</idno>
    </org>
-   <org xml:id="parliamentaryGroup.BBP" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Büyük Birlik Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Great Unity Party</orgName>
-      <orgName full="abb" xml:lang="tr">BBP</orgName>
-      <listEvent>
-         <event from="2018-07-07" xml:id="parliamentaryGroup.BBP.27">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
-   </org>
    <org xml:id="party.BBP" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Büyük Birlik Partisi</orgName>
       <orgName full="yes" xml:lang="en">Great Unity Party</orgName>
@@ -658,18 +546,6 @@
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://tr.wikipedia.org/wiki/Anavatan_Partisi</idno>
       <idno type="URI" subtype="wikimedia" xml:lang="tr">https://en.wikipedia.org/wiki/Motherland_Party_(Turkey)</idno>
       <idno type="URI" subtype="wikidata">https://www.wikidata.org/entity/Q488511</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.ANA" role="parliamentaryGroup">
-      <orgName full="yes" xml:lang="tr">Anadolu Partisi</orgName>
-      <orgName full="yes" xml:lang="en">Anatolia Party</orgName>
-      <orgName full="abb" xml:lang="tr">ANA</orgName>
-      <listEvent>
-         <event from="2007-07-23"
-                to="2011-04-23"
-                xml:id="parliamentaryGroup.ANA.23">
-            <label xml:lang="tr">{pcode} {term}. dönem meclis grubu</label>
-         </event>
-      </listEvent>
    </org>
    <org xml:id="party.ANA" role="politicalParty">
       <orgName full="yes" xml:lang="tr">Anadolu Partisi</orgName>
@@ -1003,29 +879,21 @@
       <orgName xml:lang="tr" full="yes">Ekonomi Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of Economy</orgName>
    </org>
-   <org xml:id="mstr.egitim" role="ministry">
-      <orgName xml:lang="tr" full="yes">Millî Eğitim Bakanlığı</orgName>
-      <orgName xml:lang="en" full="yes">Ministry of National Education</orgName>
+   <org xml:id="mstr.gumruk.ticaret" role="ministry">
+      <orgName xml:lang="tr" full="yes">Gümrük ve Ticaret Bakanlığı</orgName>
+      <orgName xml:lang="en" full="yes">Ministry of Customs and Trade</orgName>
    </org>
    <org xml:id="mstr.ulastirma" role="ministry">
       <orgName xml:lang="tr" full="yes">Ulaştırma Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of Transport</orgName>
    </org>
-   <org xml:id="mstr.tarim.orman" role="ministry">
-      <orgName xml:lang="tr" full="yes">Tarım ve Orman Bakanlığı</orgName>
-      <orgName xml:lang="en" full="yes">Ministry of Agriculture and Forestry</orgName>
+   <org xml:id="mstr.bayindirlik.iskan" role="ministry">
+      <orgName xml:lang="tr" full="yes">Bayındırlık ve İskan Bakanlığı</orgName>
+      <orgName xml:lang="en" full="yes">Ministry of Public Works and Housing</orgName>
    </org>
    <org xml:id="mstr.kalkinma" role="ministry">
       <orgName xml:lang="tr" full="yes">Kalkınma Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of Development</orgName>
-   </org>
-   <org xml:id="mstr.gumruk.ticaret" role="ministry">
-      <orgName xml:lang="tr" full="yes">Gümrük ve Ticaret Bakanlığı</orgName>
-      <orgName xml:lang="en" full="yes">Ministry of Customs and Trade</orgName>
-   </org>
-   <org xml:id="mstr.devlet" role="ministry">
-      <orgName xml:lang="tr" full="yes">Devlet Bakanlığı</orgName>
-      <orgName xml:lang="en" full="yes">Ministry of State</orgName>
    </org>
    <org xml:id="mstr.ticaret" role="ministry">
       <orgName xml:lang="tr" full="yes">Ticaret Bakanlığı</orgName>
@@ -1035,25 +903,33 @@
       <orgName xml:lang="tr" full="yes">Enerji ve Tabii Kaynaklar Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of Energy and Natural Resources</orgName>
    </org>
+   <org xml:id="mstr.tarim.orman" role="ministry">
+      <orgName xml:lang="tr" full="yes">Tarım ve Orman Bakanlığı</orgName>
+      <orgName xml:lang="en" full="yes">Ministry of Agriculture and Forestry</orgName>
+   </org>
+   <org xml:id="mstr.egitim" role="ministry">
+      <orgName xml:lang="tr" full="yes">Millî Eğitim Bakanlığı</orgName>
+      <orgName xml:lang="en" full="yes">Ministry of National Education</orgName>
+   </org>
    <org xml:id="mstr.genclik.spor" role="ministry">
       <orgName xml:lang="tr" full="yes">Gençlik ve Spor Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of Youth and Sports</orgName>
-   </org>
-   <org xml:id="mstr.bayindirlik.iskan" role="ministry">
-      <orgName xml:lang="tr" full="yes">Bayındırlık ve İskan Bakanlığı</orgName>
-      <orgName xml:lang="en" full="yes">Ministry of Public Works and Housing</orgName>
    </org>
    <org xml:id="mstr.savunma" role="ministry">
       <orgName xml:lang="tr" full="yes">Millî Savunma Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of National Defense</orgName>
    </org>
-   <org xml:id="mstr.bilim.sanayi.teknoloji" role="ministry">
-      <orgName xml:lang="tr" full="yes">Bilim, Sanayi ve Teknoloji Bakanlığı</orgName>
-      <orgName xml:lang="en" full="yes">Ministry of Science, Industry and Technology</orgName>
-   </org>
    <org xml:id="mstr.icisleri" role="ministry">
       <orgName xml:lang="tr" full="yes">İçişleri Bakanlığı</orgName>
       <orgName xml:lang="en" full="yes">Ministry of Interior</orgName>
+   </org>
+   <org xml:id="mstr.devlet" role="ministry">
+      <orgName xml:lang="tr" full="yes">Devlet Bakanlığı</orgName>
+      <orgName xml:lang="en" full="yes">Ministry of State</orgName>
+   </org>
+   <org xml:id="mstr.bilim.sanayi.teknoloji" role="ministry">
+      <orgName xml:lang="tr" full="yes">Bilim, Sanayi ve Teknoloji Bakanlığı</orgName>
+      <orgName xml:lang="en" full="yes">Ministry of Science, Industry and Technology</orgName>
    </org>
    <org xml:id="TBMM" role="parliament" ana="#parla.uni #parla.national">
       <orgName full="yes" xml:lang="en">National Assembly of the Republic of Turkey</orgName>
@@ -1153,12 +1029,12 @@
                 from="2011-06-28"
                 ana="#TBMM.24"/>
       <relation name="opposition"
-                active="#party.MHP #party.ANAP #party.CHP #party.DSP #party.DYP #party.Fazilet #party.HDP #party.IYI #party.ANA #party.BDP #party.BBP #party.DP #party.DEVA #party.eParti #party.MEP #party.TiP #party.Saadet #party.YP"
+                active="#party.MHP #party.ANAP #party.CHP #party.DSP #party.DYP #party.Fazilet #party.HDP #party.IYI #party.ANA #party.BDP #party.BBP #party.DP #party.DEVA #party.eParti #party.MEP #party.TIP #party.Saadet #party.YP"
                 passive="#GOV_TR"
                 from="2011-06-28"
                 to="2018-02-20"/>
       <relation name="opposition"
-                active="#party.ANAP #party.CHP #party.DSP #party.DYP #party.Fazilet #party.HDP #party.IYI #party.ANA #party.BDP #party.BBP #party.DP #party.DEVA #party.eParti #party.MEP #party.TiP #party.Saadet #party.YP"
+                active="#party.ANAP #party.CHP #party.DSP #party.DYP #party.Fazilet #party.HDP #party.IYI #party.ANA #party.BDP #party.BBP #party.DP #party.DEVA #party.eParti #party.MEP #party.TIP #party.Saadet #party.YP"
                 passive="#GOV_TR"
                 from="2018-02-21"
                 ana="#TBMM.26"/>
@@ -1166,26 +1042,8 @@
                 active="#parliamentaryGroup.AKP"
                 passive="#party.AKP"/>
       <relation name="representing"
-                active="#parliamentaryGroup.ANA"
-                passive="#party.ANA"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.BBP"
-                passive="#party.BBP"/>
-      <relation name="representing"
                 active="#parliamentaryGroup.CHP"
                 passive="#party.CHP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.DBP"
-                passive="#party.DBP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.DEVA"
-                passive="#party.DEVA"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.DP"
-                passive="#party.DP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.DTP"
-                passive="#party.DTP"/>
       <relation name="representing"
                 active="#parliamentaryGroup.HDP"
                 passive="#party.HDP"/>
@@ -1195,20 +1053,5 @@
       <relation name="representing"
                 active="#parliamentaryGroup.MHP"
                 passive="#party.MHP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.Saadet"
-                passive="#party.Saadet"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.TiP"
-                passive="#party.TiP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.YP"
-                passive="#party.YP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.eParti"
-                passive="#party.eParti"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.ÖDP"
-                passive="#party.ÖDP"/>
    </listRelation>
 </listOrg>
