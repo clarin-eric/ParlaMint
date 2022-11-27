@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-EE" xml:lang="et">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-EE.ana" xml:lang="et">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -91,6 +91,8 @@
         </taxonomy>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                    href="ParlaMint-taxonomy-NER.ana.xml"/>
       </classDecl>
       <listPrefixDef>
 	<prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
