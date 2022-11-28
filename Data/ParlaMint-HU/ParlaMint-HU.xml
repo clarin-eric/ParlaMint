@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-HU" xml:lang="hu">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU [ParlaMint]</title>
+            <title type="main" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU [ParlaMint]</title>
+            <title type="sub" xml:lang="hu">A Magyar Országgyűlés ülései, 7., 8. és 9. ciklus (2014 - 2022)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of Hungary, Term 7, 8 and 9 (2014 - 2022)</title>
+            <meeting ana="#parla.term #OGY.7" corresp="#OGY" n="7">7. ciklus</meeting>
+            <meeting ana="#parla.term #OGY.8" corresp="#OGY" n="8">8. ciklus</meeting>
+            <meeting ana="#parla.term #OGY.9" corresp="#OGY" n="9">9. ciklus</meeting>
+            <respStmt>
+               <persName>Noémi Ligeti-Nagy</persName>
+               <resp xml:lang="hu">A ParlaMint TEI XML formátum előállítása</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Réka Dodé</persName>
+               <persName>Kinga Jelencsik-Mátyus</persName>
+               <persName>Zsófia Varga</persName>
+               <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
+               <resp xml:lang="en">Metadata collection and organization</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN Research Infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="hu">Nyelvtudományi Kutatóközpont</orgName>
+               <orgName xml:lang="en">Hungarian Research Centre for Linguistics</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure xml:lang="hu" quantity="1098" unit="speeches">1.098 beszéd</measure>
+            <measure xml:lang="en" quantity="1098" unit="speeches">1,098 speeches</measure>
+            <measure xml:lang="hu" quantity="250672" unit="words">250.672 szó</measure>
+            <measure xml:lang="en" quantity="250672" unit="words">250,672 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN research infrastucture</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hu">
+                        Ez a munka az alábbi licensz alapján használható: 
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">
+                        This work is licensed under the 
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2022-11-09">November 9, 2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="hu">A Magyar Országgyűlés ülései</title>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of Hungary</title>
+               <idno type="URI" subtype="parliament">https://www.parlament.hu/</idno>
+               <date from="2014-05-06" to="2022-06-14">2014.05.06 - 2022.06.14.</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hu">
+                    A 
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+                     projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.
+                </p>
+            <p xml:lang="en">
+                    The 
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+                     project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in PoliticalSciences and Digital Humanities based on the corpus data.
+                </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for speakers' name and affiliation.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="6"/>
+               <tagUsage gi="desc" occurs="965"/>
+               <tagUsage gi="div" occurs="6"/>
+               <tagUsage gi="incident" occurs="24"/>
+               <tagUsage gi="kinesic" occurs="539"/>
+               <tagUsage gi="note" occurs="1398"/>
+               <tagUsage gi="seg" occurs="4755"/>
+               <tagUsage gi="text" occurs="6"/>
+               <tagUsage gi="u" occurs="1098"/>
+               <tagUsage gi="vocal" occurs="402"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Kossuth tér 1-3.</name>
+               <name type="city">Budapest</name>
+               <name type="country" key="HU">Hungary</name>
+               <date from="2014-05-06" to="2022-06-15"/>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-HU-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-HU-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="hu" xml:lang="hu" usage="100">magyar</language>
+            <language ident="en" xml:lang="hu">angol</language>
+            <language ident="hu" xml:lang="en" usage="100">Hungarian</language>
+            <language ident="en" xml:lang="en">English</language>
+            <language ident="de" xml:lang="hu" usage="0">német</language>
+            <language ident="de" xml:lang="en" usage="0">Deutsch</language>
+            <language ident="bg" xml:lang="hu" usage="0">bolgár</language>
+            <language ident="bg" xml:lang="en" usage="0">Bulgarian</language>
+            <language ident="pl" xml:lang="hu" usage="0">lengyel</language>
+            <language ident="pl" xml:lang="en" usage="0">Polish</language>
+            <language ident="sr" xml:lang="hu" usage="0">szerb</language>
+            <language ident="sr" xml:lang="en" usage="0">Serbian</language>
+            <language ident="sk" xml:lang="hu" usage="0">szlovák</language>
+            <language ident="sk" xml:lang="en" usage="0">Slovakian</language>
+            <language ident="cs" xml:lang="hu" usage="0">cseh</language>
+            <language ident="cs" xml:lang="en" usage="0">Czech</language>
+            <language ident="el" xml:lang="hu" usage="0">görög</language>
+            <language ident="el" xml:lang="en" usage="0">Greek</language>
+            <language ident="hr" xml:lang="hu" usage="0">horvát</language>
+            <language ident="hr" xml:lang="en" usage="0">Croatian</language>
+            <language ident="ru" xml:lang="hu" usage="0">orosz</language>
+            <language ident="ru" xml:lang="en" usage="0">Russian</language>
+            <language ident="sl" xml:lang="hu" usage="0">szlovén</language>
+            <language ident="sl" xml:lang="en" usage="0">Slovenian</language>
+            <language ident="uk" xml:lang="hu" usage="0">ukrán</language>
+            <language ident="uk" xml:lang="en" usage="0">Ukranian</language>
+            <language ident="rom" xml:lang="hu" usage="0">romani</language>
+            <language ident="rom" xml:lang="en" usage="0">Romani</language>
+            <language ident="ro" xml:lang="hu" usage="0">román</language>
+            <language ident="ro" xml:lang="en" usage="0">Romanian</language>
+            <language ident="mul" xml:lang="hu" usage="0">többnyelvű</language>
+            <language ident="mul" xml:lang="en" usage="0">Multilingual</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-11-05">xi:include taxonomies and particDesc elements</change>
+         <change when="2022-11-09">new sample made after revision</change>
+         <change when="2022-11-09">
+            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HU_2014-05-06.xml"/>
+   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HU_2016-02-15.xml"/>
+   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HU_2017-11-20.xml"/>
+   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-HU_2022-06-14.xml"/>
+</teiCorpus>
