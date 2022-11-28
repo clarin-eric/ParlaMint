@@ -8,9 +8,15 @@
          <titleStmt>
             <title type="main" xml:lang="nob">Norsk parlamentarisk korpus ParlaMint-NO, 1999-10-01 [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO, 1999-10-01 [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, periode 1997-2001, sesjon 1999-2000</title>
-            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, Session 1997-2001, Sitting 1999-2000</title>
-            <meeting ana="#parla.upper #parla.session #ST.1999-2000" corresp="#LT">Session 1999-2000</meeting>
+            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, Stortingsperiode 1997-2001, sesjon 1999-2000, møtedag 1999-10-01</title>
+            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, term 1997-2001, Session 1999-2000, Sitting day 1999-10-01</title>
+            <meeting ana="#parla.upper #parla.sitting" corresp="#LT" n="1999-10-01">Sitting day 1999-10-01</meeting>
+            <meeting ana="#parla.upper #parla.session #ST.1999-2000"
+                     corresp="#LT"
+                     n="1999-2000">Session 1999-2000</meeting>
+            <meeting ana="#parla.upper #parla.term #ST.1997-2001"
+                     corresp="#LT"
+                     n="1997-2001">Term 1997-2001</meeting>
             <respStmt>
                <persName>Lars Magne Tungland</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
@@ -44,7 +50,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2022-11-16">November 16, 2022</date>
+            <date when="2022-11-28">November 28, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,8 +71,8 @@
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="2"/>
-               <tagUsage gi="note" occurs="40"/>
-               <tagUsage gi="seg" occurs="32"/>
+               <tagUsage gi="note" occurs="39"/>
+               <tagUsage gi="seg" occurs="31"/>
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="u" occurs="24"/>
             </namespace>
@@ -91,48 +97,45 @@
    <text ana="#reference">
       <body>
          <div type="debateSection">
-            <note type="stortingstidende">Stortingstidende</note>
-            <note type="inneholdende">inneholdende</note>
-            <note type="aar">144. Stortingets forhandlinger</note>
-            <note type="periode">1999 - 2000</note>
-            <note type="forhtit">Forhandlinger i Lagtinget</note>
-            <note type="tit">År 1999, fredag den 1. oktober kl. 13.40 trådte Lagtinget sammen.</note>
-            <note type="a">Representanten Laila</note>
-            <note type="uth">Kaland</note>
-            <note type="a">tok ordet og uttalte:</note>
-            <note type="a">Eg vil oppmode den førre lagtingspresidenten, Odd</note>
-            <note type="uth">Holten</note>
-            <note type="a">, om inntil vidare å leie forhandlingane.</note>
-            <note type="speaker">Odd Holten (KrF)</note>
+            <note type="comment">Stortingstidende</note>
+            <note type="comment">inneholdende</note>
+            <note type="comment">144. Stortingets forhandlinger</note>
+            <note type="comment">1999 - 2000</note>
+            <note type="comment">Forhandlinger i Lagtinget</note>
+            <note type="comment">År 1999, fredag den 1. oktober kl. 13.40 trådte Lagtinget sammen.</note>
+            <note type="comment">Representanten Laila</note>
+            <note type="comment">Kaland</note>
+            <note type="comment">tok ordet og uttalte:</note>
+            <note type="comment">Eg vil oppmode den førre lagtingspresidenten, Odd</note>
+            <note type="comment">Holten</note>
+            <note type="comment">, om inntil vidare å leie forhandlingane.</note>
+            <note type="speaker">Odd Holten (KrF) (fra salen):</note>
             <u who="#person.OH"
                ana="#regular"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e27"
                xml:lang="nob">
-               <note>(fra salen):</note>
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e32">Hvis ingen har noe å innvende, skal jeg etterkomme anmodningen.</seg>
             </u>
-            <note type="uth">Odd Holten</note>
-            <note type="a">inntok deretter presidentplassen.</note>
+            <note type="comment">Odd Holten</note>
+            <note type="comment">inntok deretter presidentplassen.</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e39"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e40">Fungerende president vil anmode forrige lagtings sekretær, Per Ove Width, om midlertidig å fungere som sekretær.</seg>
             </u>
-            <note type="tit">Referat</note>
-            <note type="merke">(3)</note>
-            <note type="a">Stortingets presidentskap melder at de innkalte vararepresentantene Ellen Gjerpe Hansen, Karin Lian og Anders Anundsen er innvalgt i Lagtinget for den tid de møter for henholdsvis representantene Ole Johs. Brunæs, Anne Helen Rui og Per Erik Monsen.</note>
-            <note type="a">Enst.: Vedlegges protokollen.</note>
-            <note type="subtit">Valg av presidenter og sekretærer</note>
+            <note type="comment">Referat</note>
+            <note type="comment">(3)</note>
+            <note type="comment">Stortingets presidentskap melder at de innkalte vararepresentantene Ellen Gjerpe Hansen, Karin Lian og Anders Anundsen er innvalgt i Lagtinget for den tid de møter for henholdsvis representantene Ole Johs. Brunæs, Anne Helen Rui og Per Erik Monsen.</note>
+            <note type="comment">Enst.: Vedlegges protokollen.</note>
+            <note type="comment">Valg av presidenter og sekretærer</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e58"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e59">Det skal først velges president og visepresident.</seg>
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e61">Når det gjelder valg av president og visepresident, følger Lagtinget forretningsordenens § 4 siste ledd:</seg>
-               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e63">«Ved valg av presidenter og sekretærer kreves vanlig flertall, dvs. over halvparten av de avgitte stemmer. Oppnår ingen av kandidatene slikt flertall ved første valg eller ved fritt omvalg, foretas bundet omvalg mellom de to kandidater som har fått det største stemmetall</seg>
-               <note>(jfr. § 45 pkt. b)</note>
-               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e63s1">.»</seg>
+               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e63">«Ved valg av presidenter og sekretærer kreves vanlig flertall, dvs. over halvparten av de avgitte stemmer. Oppnår ingen av kandidatene slikt flertall ved første valg eller ved fritt omvalg, foretas bundet omvalg mellom de to kandidater som har fått det største stemmetall<note type="comment">(jfr. § 45 pkt. b)</note>.»</seg>
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e66">Fungerende president ber om forslag til Lagtingets president.</seg>
             </u>
             <note type="speaker">Lars Rise (KrF):</note>
@@ -190,8 +193,8 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e135">Per Ove Width er foreslått som Lagtingets sekretær. Andre forslag foreligger ikke. Det voteres på vanlig måte.</seg>
             </u>
-            <note type="tit">Votering:</note>
-            <note type="merknad">Vidar Kleppes forslag bifaltes enstemmig.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Vidar Kleppes forslag bifaltes enstemmig.</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e142"
@@ -211,8 +214,8 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e157">Anne Helen Rui er foreslått som visesekretær. Andre forslag foreligger ikke. Det voteres på vanlig måte.</seg>
             </u>
-            <note type="tit">Votering:</note>
-            <note type="merknad">Kirsti Kolle Grøndahls forslag bifaltes enstemmig.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Kirsti Kolle Grøndahls forslag bifaltes enstemmig.</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e164"
@@ -232,8 +235,8 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e179">Elsa Skarbøvik er foreslått som første varapresident. Andre forslag foreligger ikke.</seg>
             </u>
-            <note type="tit">Votering:</note>
-            <note type="merknad">Lars Rises forslag bifaltes enstemmig.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Lars Rises forslag bifaltes enstemmig.</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e186"
@@ -253,8 +256,8 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e202">Siri Frost Sterri er foreslått som Lagtingets annen varapresident. Andre forslag foreligger ikke.</seg>
             </u>
-            <note type="tit">Votering:</note>
-            <note type="merknad">Petter Løviks forslag bifaltes enstemmig.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Petter Løviks forslag bifaltes enstemmig.</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e209"
@@ -274,8 +277,8 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e224">Einar Olav Skogholt er foreslått som varasekretær. Andre forslag foreligger ikke.</seg>
             </u>
-            <note type="tit">Votering:</note>
-            <note type="merknad">Kirsti Kolle Grøndahls forslag bifaltes enstemmig.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Kirsti Kolle Grøndahls forslag bifaltes enstemmig.</note>
             <u who="#person.OH"
                ana="#chair"
                xml:id="ParlaMint-NO_1999-10-01-upper.ud949e231"
@@ -283,8 +286,8 @@
                <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e232">Dermed har Lagtinget konstituert seg, og det vil bli sendt melding til Stortinget og Odelstinget om dette.</seg>
             </u>
          </div>
-         <div type="debateSection">
-            <note type="slutt">Møtet hevet kl. 13.50.</note>
+         <div type="commentSection">
+            <note type="comment">Møtet hevet kl. 13.50.</note>
          </div>
       </body>
    </text>

@@ -8,9 +8,15 @@
          <titleStmt>
             <title type="main" xml:lang="nob">Norsk parlamentarisk korpus ParlaMint-NO, 2013-06-20 [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO, 2013-06-20 [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, periode 2009-2014, sesjon 2012-2013</title>
-            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, Session 2009-2014, Sitting 2012-2013</title>
-            <meeting ana="#parla.uni #parla.session #ST.2012-2013" corresp="#ST">Session 2012-2013</meeting>
+            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2012-2013, møtedag 2013-06-20</title>
+            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2012-2013, Sitting day 2013-06-20</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#ST" n="2013-06-20">Sitting day 2013-06-20</meeting>
+            <meeting ana="#parla.uni #parla.session #ST.2012-2013"
+                     corresp="#ST"
+                     n="2012-2013">Session 2012-2013</meeting>
+            <meeting ana="#parla.uni #parla.term #ST.2009-2013"
+                     corresp="#ST"
+                     n="2009-2013">Term 2009-2013</meeting>
             <respStmt>
                <persName>Lars Magne Tungland</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
@@ -44,7 +50,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2022-11-16">November 16, 2022</date>
+            <date when="2022-11-28">November 28, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -66,8 +72,8 @@
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="31"/>
                <tagUsage gi="head" occurs="28"/>
-               <tagUsage gi="note" occurs="712"/>
-               <tagUsage gi="seg" occurs="1538"/>
+               <tagUsage gi="note" occurs="694"/>
+               <tagUsage gi="seg" occurs="1526"/>
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="u" occurs="317"/>
             </namespace>
@@ -93,92 +99,92 @@
       <body>
          <div type="debateSection">
             <head>Møte torsdag den 20. juni 2013 kl. 09</head>
-            <note type="president">Sigvald Oppebøen Hansen</note>
-            <note type="uth">Dagsorden</note>
-            <note type="dagsnr">(nr. 102):</note>
-            <note type="ordennr">1.</note>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om Byggje – bu – leve. Ein bustadpolitikk for den einskilde, samfunnet og framtidige generasjonar</note>
-            <note type="kildedok">(Innst. 506 S (2012–2013), jf. Meld. St. 17 (2012–2013))</note>
-            <note type="ordennr">2.</note>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om kommuneproposisjonen 2014</note>
-            <note type="kildedok">(Innst. 500 S (2012–2013), jf. Prop. 146 S (2012–2013))</note>
-            <note type="ordennr">3.</note>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Morten Ørsal Johansen og Åge Starheim om å styrke norsk språk i offentlig tjenesteutøvelse</note>
-            <note type="kildedok">(Innst. 392 S (2012–2013), jf. Dokument 8:36 S (2012–2013))</note>
-            <note type="ordennr">4.</note>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om lønnsregulering for arbeidstakere i det statlige tariffområdet 2013 mv.</note>
-            <note type="kildedok">(Innst. 505 S (2012–2013), jf. Prop. 165 S (2012–2013))</note>
-            <note type="ordennr">5.</note>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om samtykke til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltagelse i Det europeiske støttekontoret på asylfeltet (EASO)</note>
-            <note type="kildedok">(Innst. 460 S (2012–2013), jf. Prop. 140 S (2012–2013))</note>
-            <note type="ordennr">6.</note>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om fellesnordisk landinfo</note>
-            <note type="kildedok">(Innst. 462 S (2012–2013), jf. Dokument 8:67 S (2012–2013))</note>
-            <note type="ordennr">7.</note>
-            <note type="saktit">Innstilling fra Stortingets presidentskap om representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget</note>
-            <note type="kildedok">(Innst. 491 S (2012–2013), jf. Dokument 8:120 S (2012–2013))</note>
-            <note type="ordennr">8.</note>
-            <note type="saktit">Innstilling fra Stortingets presidentskap om endringer i tilskuddet til partigruppene på Stortinget</note>
-            <note type="kildedok">(Innst. 421 S (2012–2013))</note>
-            <note type="ordennr">9.</note>
-            <note type="saktit">Innstilling fra Stortingets presidentskap om godtgjørelser for stortingsrepresentantene og regjeringens medlemmer</note>
-            <note type="kildedok">(Innst. 457 S (2012–2013))</note>
-            <note type="ordennr">10.</note>
-            <note type="saktit">Innstilling fra valgkomiteen om valg av medlemmer og varamedlemmer til den forberedende fullmaktskomité</note>
-            <note type="kildedok">(Innst. 455 S (2012–2013))</note>
-            <note type="ordennr">11.</note>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om folkehelsemeldingen. God helse – felles ansvar</note>
-            <note type="kildedok">(Innst. 478 S (2012–2013), jf. Meld. St. 34 (2012–2013))</note>
-            <note type="ordennr">12.</note>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemning</note>
-            <note type="kildedok">(Innst. 476 S (2012–2013), jf. Dokument 8:116 S (2012–2013))</note>
-            <note type="ordennr">13.</note>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper</note>
-            <note type="kildedok">(Innst. 474 S (2012–2013), jf. Dokument 8:114 S (2012–2013))</note>
-            <note type="ordennr">14.</note>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</note>
-            <note type="kildedok">(Innst. 486 S (2012–2013), jf. Prop. 174 S (2012–2013))</note>
-            <note type="ordennr">15.</note>
-            <note type="saktit">Innstilling fra transport- og kommunikasjonskomiteen om E6 Halselv–Møllnes i Finnmark – styrings- og kostnadsramme</note>
-            <note type="kildedok">(Innst. 509 S (2012–2013), jf. Prop. 175 S (2012–2013))</note>
-            <note type="ordennr">16.</note>
-            <note type="saktit">Innstilling fra transport- og kommunikasjonskomiteen om revisjon og sluttføring av Østfoldpakka. Utbygging og finansiering av E18 på strekningene Riksgrensen–Ørje og Knapstad–Retvet i Østfold og Akershus</note>
-            <note type="kildedok">(Innst. 510 S (2012–2013), jf. Prop. 176 S (2012–2013))</note>
-            <note type="ordennr">17.</note>
-            <note type="saktit">Innstilling fra næringskomiteen om statens eierskap til Cermaq ASA</note>
-            <note type="kildedok">(Innst. 511 S (2012–2013), jf. Prop. 178 S (2012–2013))</note>
-            <note type="ordennr">18.</note>
-            <note type="saktit">Stortingets vedtak til lov endringer i lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland</note>
-            <note type="kildedok">(Lovvedtak 103 (2012–2013), jf. Innst. 301 L (2012–2013) og Prop. 86 L (2012–2013))</note>
-            <note type="ordennr">19.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i straffeloven 1902 og straffeloven 2005 mv. (forberedelse av terror m.m.)</note>
-            <note type="kildedok">(Lovvedtak 104 (2012–2013), jf. Innst. 442 L (2012–2013) og Prop. 131 L (2012–2013))</note>
-            <note type="ordennr">20.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i straffeprosessloven mv. (behandling og beskyttelse av informasjon)</note>
-            <note type="kildedok">(Lovvedtak 105 (2012–2013), jf. Innst. 445 L (2012–2013) og Prop. 147 L (2012–2013))</note>
-            <note type="ordennr">21.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i passloven (politiets adgang til å benytte passregisteret)</note>
-            <note type="kildedok">(Lovvedtak 106 (2012–2013), jf. Innst. 452 L (2012–2013) og Prop. 153 L (2012–2013))</note>
-            <note type="ordennr">22.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)</note>
-            <note type="kildedok">(Lovvedtak 107 (2012–2013), jf. Innst. 453 L (2012–2013) og Prop. 148 L (2012–2013))</note>
-            <note type="ordennr">23.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</note>
-            <note type="kildedok">(Lovvedtak 108 (2012–2013), jf. Innst. 411 L (2012–2013) og Prop. 132 L (2012–2013))</note>
-            <note type="ordennr">24.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringar i inndelingslova</note>
-            <note type="kildedok">(Lovvedtak 109 (2012–2013), jf. Innst. 393 L (2012–2013) og Prop. 109 L (2012–2013))</note>
-            <note type="ordennr">25.</note>
-            <note type="saktit">Stortingets vedtak til lov om stillingsvern mv. for arbeidstakere på skip (skipsarbeidsloven)</note>
-            <note type="kildedok">(Lovvedtak 110 (2012–2013), jf. Innst. 456 L (2012–2013) og Prop. 115 L (2012–2013))</note>
-            <note type="ordennr">26.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i vegtrafikkloven (miljøfartsgrenser)</note>
-            <note type="kildedok">(Lovvedtak 111 (2012–2013), jf. Innst. 350 L (2012–2013) og Prop. 126 L (2012–2013))</note>
-            <note type="ordennr">27.</note>
-            <note type="saktit">Stortingets vedtak til lov om endringer i forsvarspersonelloven</note>
-            <note type="kildedok">(Lovvedtak 112 (2012–2013), jf. Innst. 383 L (2012–2013) og Prop. 57 L (2012–2013))</note>
-            <note type="ordennr">28.</note>
-            <note type="saktit">Referat</note>
+            <note type="comment">Sigvald Oppebøen Hansen</note>
+            <note type="comment">Dagsorden</note>
+            <note type="comment">(nr. 102):</note>
+            <note type="comment">1.</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om Byggje – bu – leve. Ein bustadpolitikk for den einskilde, samfunnet og framtidige generasjonar</note>
+            <note type="comment">(Innst. 506 S (2012–2013), jf. Meld. St. 17 (2012–2013))</note>
+            <note type="comment">2.</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om kommuneproposisjonen 2014</note>
+            <note type="comment">(Innst. 500 S (2012–2013), jf. Prop. 146 S (2012–2013))</note>
+            <note type="comment">3.</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Morten Ørsal Johansen og Åge Starheim om å styrke norsk språk i offentlig tjenesteutøvelse</note>
+            <note type="comment">(Innst. 392 S (2012–2013), jf. Dokument 8:36 S (2012–2013))</note>
+            <note type="comment">4.</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om lønnsregulering for arbeidstakere i det statlige tariffområdet 2013 mv.</note>
+            <note type="comment">(Innst. 505 S (2012–2013), jf. Prop. 165 S (2012–2013))</note>
+            <note type="comment">5.</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om samtykke til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltagelse i Det europeiske støttekontoret på asylfeltet (EASO)</note>
+            <note type="comment">(Innst. 460 S (2012–2013), jf. Prop. 140 S (2012–2013))</note>
+            <note type="comment">6.</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om fellesnordisk landinfo</note>
+            <note type="comment">(Innst. 462 S (2012–2013), jf. Dokument 8:67 S (2012–2013))</note>
+            <note type="comment">7.</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget</note>
+            <note type="comment">(Innst. 491 S (2012–2013), jf. Dokument 8:120 S (2012–2013))</note>
+            <note type="comment">8.</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om endringer i tilskuddet til partigruppene på Stortinget</note>
+            <note type="comment">(Innst. 421 S (2012–2013))</note>
+            <note type="comment">9.</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om godtgjørelser for stortingsrepresentantene og regjeringens medlemmer</note>
+            <note type="comment">(Innst. 457 S (2012–2013))</note>
+            <note type="comment">10.</note>
+            <note type="comment">Innstilling fra valgkomiteen om valg av medlemmer og varamedlemmer til den forberedende fullmaktskomité</note>
+            <note type="comment">(Innst. 455 S (2012–2013))</note>
+            <note type="comment">11.</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om folkehelsemeldingen. God helse – felles ansvar</note>
+            <note type="comment">(Innst. 478 S (2012–2013), jf. Meld. St. 34 (2012–2013))</note>
+            <note type="comment">12.</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemning</note>
+            <note type="comment">(Innst. 476 S (2012–2013), jf. Dokument 8:116 S (2012–2013))</note>
+            <note type="comment">13.</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper</note>
+            <note type="comment">(Innst. 474 S (2012–2013), jf. Dokument 8:114 S (2012–2013))</note>
+            <note type="comment">14.</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</note>
+            <note type="comment">(Innst. 486 S (2012–2013), jf. Prop. 174 S (2012–2013))</note>
+            <note type="comment">15.</note>
+            <note type="comment">Innstilling fra transport- og kommunikasjonskomiteen om E6 Halselv–Møllnes i Finnmark – styrings- og kostnadsramme</note>
+            <note type="comment">(Innst. 509 S (2012–2013), jf. Prop. 175 S (2012–2013))</note>
+            <note type="comment">16.</note>
+            <note type="comment">Innstilling fra transport- og kommunikasjonskomiteen om revisjon og sluttføring av Østfoldpakka. Utbygging og finansiering av E18 på strekningene Riksgrensen–Ørje og Knapstad–Retvet i Østfold og Akershus</note>
+            <note type="comment">(Innst. 510 S (2012–2013), jf. Prop. 176 S (2012–2013))</note>
+            <note type="comment">17.</note>
+            <note type="comment">Innstilling fra næringskomiteen om statens eierskap til Cermaq ASA</note>
+            <note type="comment">(Innst. 511 S (2012–2013), jf. Prop. 178 S (2012–2013))</note>
+            <note type="comment">18.</note>
+            <note type="comment">Stortingets vedtak til lov endringer i lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland</note>
+            <note type="comment">(Lovvedtak 103 (2012–2013), jf. Innst. 301 L (2012–2013) og Prop. 86 L (2012–2013))</note>
+            <note type="comment">19.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i straffeloven 1902 og straffeloven 2005 mv. (forberedelse av terror m.m.)</note>
+            <note type="comment">(Lovvedtak 104 (2012–2013), jf. Innst. 442 L (2012–2013) og Prop. 131 L (2012–2013))</note>
+            <note type="comment">20.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i straffeprosessloven mv. (behandling og beskyttelse av informasjon)</note>
+            <note type="comment">(Lovvedtak 105 (2012–2013), jf. Innst. 445 L (2012–2013) og Prop. 147 L (2012–2013))</note>
+            <note type="comment">21.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i passloven (politiets adgang til å benytte passregisteret)</note>
+            <note type="comment">(Lovvedtak 106 (2012–2013), jf. Innst. 452 L (2012–2013) og Prop. 153 L (2012–2013))</note>
+            <note type="comment">22.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)</note>
+            <note type="comment">(Lovvedtak 107 (2012–2013), jf. Innst. 453 L (2012–2013) og Prop. 148 L (2012–2013))</note>
+            <note type="comment">23.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</note>
+            <note type="comment">(Lovvedtak 108 (2012–2013), jf. Innst. 411 L (2012–2013) og Prop. 132 L (2012–2013))</note>
+            <note type="comment">24.</note>
+            <note type="comment">Stortingets vedtak til lov om endringar i inndelingslova</note>
+            <note type="comment">(Lovvedtak 109 (2012–2013), jf. Innst. 393 L (2012–2013) og Prop. 109 L (2012–2013))</note>
+            <note type="comment">25.</note>
+            <note type="comment">Stortingets vedtak til lov om stillingsvern mv. for arbeidstakere på skip (skipsarbeidsloven)</note>
+            <note type="comment">(Lovvedtak 110 (2012–2013), jf. Innst. 456 L (2012–2013) og Prop. 115 L (2012–2013))</note>
+            <note type="comment">26.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i vegtrafikkloven (miljøfartsgrenser)</note>
+            <note type="comment">(Lovvedtak 111 (2012–2013), jf. Innst. 350 L (2012–2013) og Prop. 126 L (2012–2013))</note>
+            <note type="comment">27.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i forsvarspersonelloven</note>
+            <note type="comment">(Lovvedtak 112 (2012–2013), jf. Innst. 383 L (2012–2013) og Prop. 57 L (2012–2013))</note>
+            <note type="comment">28.</note>
+            <note type="comment">Referat</note>
             <u who="#person.SOH"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e185"
@@ -203,8 +209,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 1 [09:01:08]</head>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om Byggje – bu – leve. Ein bustadpolitikk for den einskilde, samfunnet og framtidige generasjonar</note>
-            <note type="kildedok">(Innst. 506 S (2012–2013), jf. Meld. St. 17 (2012–2013))</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om Byggje – bu – leve. Ein bustadpolitikk for den einskilde, samfunnet og framtidige generasjonar</note>
+            <note type="comment">(Innst. 506 S (2012–2013), jf. Meld. St. 17 (2012–2013))</note>
             <u who="#person.SOH"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e214"
@@ -215,12 +221,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e221">Vidare blir det foreslått at dei som måtte teikne seg på talarlista utover den fordelte taletida, får ei taletid på inntil 3 minutt.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e223">– Det er vedteke.</seg>
             </u>
-            <note type="speaker">Eirik Sivertsen (A) [09:02:23]</note>
+            <note type="speaker">Eirik Sivertsen (A) [09:02:23] (ordfører for saken):</note>
             <u who="#person.EIRS"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e225"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e228s1">Boligpolitikken er kommet høyt på den offentlige dagsordenen og er omfattet av betydelig interesse. Derfor avholdt komiteen en høring i saken 30. april, og høringen var besøkt av en lang rekke organisasjoner, som benyttet anledningen til å gi sine gode innspill til meldingen.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e230">Den sentrale utfordringen i dag er at det over tid har vært ubalanse mellom tilbud og etterspørsel. Forsyningen av nye boliger har ikke holdt tritt med etterspørselen. Dette har bidratt til en prisvekst på boliger som langt har overgått veksten i byggekostnadene, og som er høyere enn lønnsveksten i samfunnet.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e232">Komiteen er enig om at de boligene som bygges i dag, skal stå i mange år framover. Derfor er det så avgjørende at disse støtter opp om viktige samfunnsmessige hensyn. Komiteen har understreket i sine merknader at det er et politisk ansvar å sikre at kvaliteter som aktørene i markedet ikke tar nok hensyn til, blir ivaretatt. Det sentrale virkemiddelet for å sikre disse hensynene er planleggingen etter plan- og bygningsloven.</seg>
@@ -309,12 +314,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e382">Høyre har med noe uro merket seg språkbruken i meldingen om hvordan den videre skattleggingen av boliger og annen fast eiendom blir. Jeg tror vi bare skal understreke her i dag at boliginvestering er noe av det viktigste vi gjør i våre liv, og at det er svært viktig for folks trygghet at disse rammebetingelsene ligger fast, så man kan stole på dem over år, og at man altså ikke da skur opp beskatningen av bolig, at våre hjem ikke blir et yndet skatteobjekt.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e384">For øvrig har vi sammen med Fremskrittspartiet fremmet syv forslag i saken. Blant dem er noe av det viktigste en presisering i plan- og bygningsloven om at man bare skal holde seg til spørsmål av nasjonal interesse når man har innsigelser. Det er også et forslag om forbedring av BSU-ordninger og annet. Jeg vil dessuten varsle at vi vil støtte de forslagene som er fremlagt av Venstre i salen i dag.</seg>
             </u>
-            <note type="speaker">Aksel Hagen (SV) [09:40:40]</note>
+            <note type="speaker">Aksel Hagen (SV) [09:40:40] (komiteens leder):</note>
             <u who="#person.AKSH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e386"
                xml:lang="nob">
-               <note>(komiteens leder):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e389s1">Takk til saksordfører, til komité og til departement, med statsråd Liv Signe Navarsete i spissen.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e391">Bolig er et viktig tema, og bolig er et artig tema. De fleste politikkområder kan med rette gjøre krav på å favne helheten i større eller mindre grad – kunnskapsdebatter, kulturdebatter, næringsdebatter og miljødebatter – og det gjelder absolutt også boligdebatter, som virkelig er blant dem. Under overskriften «bolig» kan en ta opp de fleste politikkområder.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e393">Derfor er det også viktig at vi i slike meldinger og i debatter før, under og etter at slike meldinger blir lagt fram, også tar ansvar for å ivareta dette mangfoldet og den bredden som et slikt tema fortjener – og det syns jeg meldinga gjør på en god måte. Slik sett – bare for å kommentere det – undrer jeg meg litt over denne forestillinga om at en bare kan samle alt som på et eller annet vis har med bolig å gjøre, i ett departement. Etter min mening viser det at en ikke har tatt helt inn over seg nettopp den bredden som er i boligtemaet og i boligdebattene – hvis vi ikke da mener at det er nok med ett departement og én statsråd i regjeringa.</seg>
@@ -656,8 +660,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e801">Så er det er sidepoeng – hvis man først interesserer seg for lokalpolitisk adferd – at i Oslo har Oslo SV og Oslo Arbeiderparti systematisk gått inn for lavere boligalternativer, i betydningen boligtall, enn det byrådet har fremlagt forslag om for bystyret.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e803">Det siste punktet i denne omgang, var representanten Sivertsen, som gjorde et poeng av at et av forslagene våre var en veldig enkel endring av plan- og bygningsloven § 5-4. Det er ofte i slike lover man gjør store endringer – f.eks. som vi har foreslått: å kutte tillegget om at tilsynsorganet nærmest gir seg selv myndigheten. For i tillegg til at det er av vesentlig betydning, står det også i dag «eller som av andre grunner er av vesentlig betydning for vedkommende organs saksområde». Da er det klart at det er fristende, hvis man synes man driver med viktige ting her i verden, å legge inn en innsigelse, og det er også det som er problemet.</seg>
             </u>
-            <note type="uth">Dag Terje Andersen</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Dag Terje Andersen</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Heidi Greni (Sp) [11:10:34]:</note>
             <u who="#person.HEIG"
                ana="#regular"
@@ -745,8 +749,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 2 [11:22:24]</head>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om kommuneproposisjonen 2014</note>
-            <note type="kildedok">(Innst. 500 S (2012–2013), jf. Prop. 146 S (2012–2013))</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om kommuneproposisjonen 2014</note>
+            <note type="comment">(Innst. 500 S (2012–2013), jf. Prop. 146 S (2012–2013))</note>
             <u who="#person.DTA"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e900"
@@ -756,12 +760,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e905">Videre blir det foreslått at de som måtte tegne seg på talerlisten utover den fordelte taletid, får en taletid på inntil 3 minutter.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e907">– Det anses vedtatt.</seg>
             </u>
-            <note type="speaker">Ingalill Olsen (A) [11:23:31]</note>
+            <note type="speaker">Ingalill Olsen (A) [11:23:31] (ordfører for saken):</note>
             <u who="#person.IOL"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e909"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e912s1">Den store innbyggerundersøkelsen viser at 96 pst. av innbyggerne er fornøyd med å bo i Norge. Det viser det vi alle vet, at vi som bor i Norge, er utrolig heldige. Vi bor i et godt land, i et trygt velferdssamfunn, hvor det meste fungerer. Det er et resultat av bevisste politiske valg, gjort av kloke politikere som ville utjevne, løfte befolkningens levekår og ikke øke forskjellene mellom folk.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e914">Framlegget av kommuneproposisjonen er en del av maskineriet i dette velferdssamfunnet. Kommuner og fylkeskommuner tilføres penger, men de må gjøre jobben selv. Under stemmerettsjubileet i forrige uke sa parlamentarisk leder i Arbeiderpartiet Helga Pedersen at velferdsstaten er kvinners beste venn. Kanskje er også kommunen velferdsstatens beste venn. Det er en venn som utfører mange av de tjenestene vi forbinder med en velferdsstat, og som innbefatter et godt sikkerhetsnett for enkeltmennesket. Det gir trygghet for barnehagetilbud, slik at foreldre trygt kan være i yrkeslivet og bidra til fellesskapet. Velferdsstaten gir skolegang og utdanning.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e916">Videre har vi et offentlig helsevesen som ikke gjør forskjell på pasienten etter hvor stor lommeboka er. Vi har eldreomsorg og sosiale ordninger for dem som behøver det. Arbeidslivet er regulert, og både myndighetene, arbeidsgiverne og arbeidstakerne har gjennom et aktivt trepartssamarbeid mulighet til å finne omforente løsninger som avveier alle hensyn. Arbeidsmiljøloven er et ektefødt barn av velferdssamfunnet.</seg>
@@ -829,9 +832,7 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e997">Jeg merket meg at saksordføreren gledet seg til valgkampen, og at hun kritiserte mangelen på pengebruk under den forrige borgerlige regjeringen, i årene 2001–2005. Jeg får kanskje si at handlingsrommet i norsk økonomi har økt i perioden etter det, og det ville ha kommet enhver regjering til gode. Men hvis man skal bruke en hel valgkamp på å kritisere en avgått regjering, vil man kanskje ikke ha oppmerksomheten på riktig sted.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e999">Når det så gjelder den såkalte sultefôringen, er det slik at hvis man ser disse periodene under ett, viser det seg at det har vært en litt større vekstprosent for kommunene under den rød-grønne regjeringen. Den er på 2,55 pst. i gjennomsnitt per år, mot den borgerlige regjeringens 2,25 pst.</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1001">Mitt spørsmål til saksordføreren er: Synes hun virkelig at denne forskjellen, på 0,3 pst. i gjennomsnitt, over så mange år forsvarer</seg>
-               <note>(presidenten klubber)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1001s1">…</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1001">Mitt spørsmål til saksordføreren er: Synes hun virkelig at denne forskjellen, på 0,3 pst. i gjennomsnitt, over så mange år forsvarer<note type="comment">(presidenten klubber)</note>…</seg>
             </u>
             <note type="speaker">Ingalill Olsen (A) [11:39:16]:</note>
             <u who="#person.IOL"
@@ -949,8 +950,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1126">Det rød-grønne alternativet er å behandle kommunene mer og mer som velferdsstatsklienter, og da er det ikke rart de vil innta den rollen. Da vil de bruke mer av sin tid til å påvirke statlige bevilgningsetater og overbevise dem om sine manglende muligheter, fremfor å se de mulighetene som er lokalt for å stimulere næringsliv og bringe vekst i den enkelte kommune.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1128">Derfor ønsker Høyre en helhetlig gjennomgang av inntektssystemet for kommunesektoren, endringer som skal sikre og stimulere til en positiv utvikling i kommunenes inntekter. Målet er å bygge opp under det lokale selvstyret ved at kommunene får beholde en andel av selskapsskatten og en større del av egne skatteinntekter. Dette skal selvfølgelig skje under hensyntaken til inntektsgarantiordningen, som innebærer en garanti for at kommunene alltid får en tidshorisont for å tilpasse seg nye regimer og nye inntektsregler.</seg>
             </u>
-            <note type="uth">Per-Kristian Foss</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Per-Kristian Foss</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <u who="#person.PKF"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e1136"
@@ -1013,12 +1014,11 @@
                xml:lang="nno">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1186">Replikkordskiftet er omme.</seg>
             </u>
-            <note type="speaker">Aksel Hagen (SV) [12:14:13]</note>
+            <note type="speaker">Aksel Hagen (SV) [12:14:13] (komiteens leder):</note>
             <u who="#person.AKSH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e1188"
                xml:lang="nob">
-               <note>(komiteens leder):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1191s1">Dette er en innstilling som temamessig favner bredt. Det er noe som bekrefter hvor viktig kommuner og fylkeskommuner er i den norske velferdsstaten – særlig når de samspiller godt med stat, næringsliv og det sivile samfunnet, og det gjør kommuner og fylkeskommuner som oftest.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1193">Ulike undersøkelser viser oss at folk – ikke minst brukerne av alle de tjenester som kommuner og fylkeskommuner gir oss – i utgangspunktet er svært godt fornøyd. For oss politikere, både i posisjon og opposisjon, er det krevende å balansere klokt mellom det å være fornøyd og rose alt det gode arbeidet som blir gjort, samtidig som en skal både makte og tørre å se det som ikke fungerer, og i neste omgang sjølsagt også både makte og tørre å gjøre noe med det. For i dynamiske tider, i dynamiske samfunn som vårt, er det ingen svar, løsninger og metoder som er evig gode.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1195">Denne innstillinga kan leses nærmest som en tverrpolitisk hyllest til videre vekst og utvikling av kommunene våre. Fylkeskommunen er det langt mer splittede oppfatninger om: Noen ønsker den en rask død – andre ønsker en langsom seigpining. Andre igjen ønsker status quo, mens noen av oss ønsker fylkeskommunene en ny vår, i form av store, kraftige regioner. Men samtidig er det per i dag i denne salen stor oppslutning om de fylkeskommunale aktivitetene. Det er jo et godt utgangspunkt.</seg>
@@ -1459,8 +1459,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1702">De ble i 2012 anmodet om å bosette 15 personer, og 15 ble bosatt. Tilsvarende i 2013: De ble anmodet om å bosette 25, og tar imot 25. De har en positiv holdning til å fortsette med det.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e1705">Vi kunne gått videre til andre kommuner, men det har jeg ikke tid til. Jeg mener dette illustrerer et viktig poeng. Her handler det også om vilje og evne ute i kommunene, og ikke bare om penger fra staten.</seg>
             </u>
-            <note type="uth">Marit Nybakk</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Marit Nybakk</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Jorodd Asphjell (A) [13:36:34]:</note>
             <u who="#person.JASP"
                ana="#regular"
@@ -1832,8 +1832,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2134">Så er det en ting som ofte blir vektlagt; at du skal ha nærhet til rådhuset. Spør innbyggerne: Hvor mange ganger i året er du på rådhuset? Hvor mange ganger besøker du visse tjenester i kommunen? Spør også innbyggerne: Hvor går kommunegrensene dine – mellom deg og nabokommunen? Svaret uteblir veldig ofte. Det er det som er viktig. Det er veldig mye hjertet som styrer denne debatten, og så tenker en ikke på konsekvenser og hva som kan bli bedre med en kommunesammenslåing.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2136">Det som er viktig, er at kommunene får nye oppgaver, at de får penger som følger med disse oppgavene, og at de får et bedre og større fagmiljø, slik at de kan gi en mye bedre tjeneste til innbyggerne i kommunen.</seg>
             </u>
-            <note type="uth">Akhtar Chaudhry</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Akhtar Chaudhry</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Statsråd Liv Signe Navarsete [15:02:04]:</note>
             <u who="#person.LSN"
                ana="#regular"
@@ -1871,14 +1871,13 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 3 [15:06:14]</head>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Morten Ørsal Johansen og Åge Starheim om å styrke norsk språk i offentlig tjenesteutøvelse</note>
-            <note type="kildedok">(Innst. 392 S (2012–2013), jf. Dokument 8:36 S (2012–2013))</note>
-            <note type="speaker">Lise Christoffersen (A) [15:06:48]</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Morten Ørsal Johansen og Åge Starheim om å styrke norsk språk i offentlig tjenesteutøvelse</note>
+            <note type="comment">(Innst. 392 S (2012–2013), jf. Dokument 8:36 S (2012–2013))</note>
+            <note type="speaker">Lise Christoffersen (A) [15:06:48] (ordfører for saken):</note>
             <u who="#person.LIC"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2186"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2189s1">I denne saken ber Fremskrittspartiet regjeringen om å sikre at utenlandske borgere som ansettes i offentlig sektor, har gode nok norskkunnskaper til å sikre god kvalitet og hindre misforståelser i møtet mellom brukerne av offentlige tjenester og de ansatte i offentlig sektor. Spesielt framheves viktigheten av god kommunikasjon med helsepersonell, men også i barnehager og skoler og innen kollektivtransporten.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2191">Fremskrittspartiet har reist saken tidligere i denne stortingsperioden, gjennom et skriftlig spørsmål til fornyings-, administrasjons- og kirkeministeren. Komiteen ba også om ministerens uttalelse i denne saken. Hun svarte nå, som i forrige runde, at det er den enkelte virksomhet som selv har ansvaret for å rekruttere kvalifiserte medarbeidere til ledige stillinger og vurdere hvilke krav som skal stilles, bl.a. til norskkunnskaper.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2193">Samtidig viser hun til at det etter 1. september i år vil bli innført obligatoriske prøver for dem med rett og/eller plikt til å delta i opplæring i norsk og samfunnskunnskap. Slik dokumentasjon vil være nyttig for arbeidsgivere som skal rekruttere nye medarbeidere. Språkopplæring vil dessuten være ett av flere tiltak i den kommende handlingsplanen for bedre bruk av innvandreres kompetanse i arbeidslivet. Det skal vurderes å innføre språkkrav til enkelte faggrupper i helsevesenet. Det er avsatt penger på inneværende års budsjett til språkopplæring for helsefagarbeidere. Det er utarbeidet en veileder for tilsetting av helsepersonell, der viktigheten av språkkunnskaper understrekes.</seg>
@@ -1938,12 +1937,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2266">Derfor kjem vi med to forslag. Det eine er at utanlandske borgarar som blir tilsette i offentleg sektor, har tilfredsstillande kunnskapar i norsk språk. Det synest eg er eit minimum, slik at dei kan kommunisere på ein trygg måte. Og så seier vi også at regjeringa må setje i verk tiltak for utanlandske tilsette i offentlege verksemder slik at dei oppnår eit tilfredstillande kunnskapsnivå i norsk språk.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2268">Her kan ikkje regjeringa sitje og fråskrive seg alt ansvar. Dette er ein alvorleg situasjon. Vi har meir enn nok eksempel frå media på at det har vore kommunikasjonssvikt, og då kan ikkje regjeringa berre distansere seg frå dette problemet. Då må vi ta initiativ her og sikre at innbyggjarane kan møte opp hos offentlege tenestefolk og vente å kunne kommunisere på norsk på ein god og trygg måte utan at det blir kommunikasjonssvikt som i verste fall kan medføre fare for liv og helse.</seg>
             </u>
-            <note type="speaker">Aksel Hagen (SV) [15:22:48]</note>
+            <note type="speaker">Aksel Hagen (SV) [15:22:48] (komiteens leder):</note>
             <u who="#person.AKSH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2270"
                xml:lang="nob">
-               <note>(komiteens leder):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2273s1">Dette er interessant. Vi har akkurat det samme ordskiftet nå som det vi hadde under debatten om kommuneproposisjonen. Hvis temaet er innbyggernes interesser, sier Fremskrittspartiet at svaret må være stat. Gjermund Hagesæter har en formulering nå som er identisk med den han har hatt minst et par tre ganger under debatten i forrige sak.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2275">Det er veldig klargjørende for alle de andre partiene at lokaldemokratiet for Fremskrittspartiet ikke strekker seg langt nok til å inkludere en forståelse for å ta innbyggernes interesser alvorlig. Så Fremskrittspartiet er statspartiet – det statsregulerende, byråkratiserende partiet.</seg>
             </u>
@@ -1956,14 +1954,13 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 4 [15:23:41]</head>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om lønnsregulering for arbeidstakere i det statlige tariffområdet 2013 mv.</note>
-            <note type="kildedok">(Innst. 505 S (2012–2013), jf. Prop. 165 S (2012–2013))</note>
-            <note type="speaker">Aksel Hagen (SV) [15:24:04]</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om lønnsregulering for arbeidstakere i det statlige tariffområdet 2013 mv.</note>
+            <note type="comment">(Innst. 505 S (2012–2013), jf. Prop. 165 S (2012–2013))</note>
+            <note type="speaker">Aksel Hagen (SV) [15:24:04] (komiteens leder og ordfører for saken):</note>
             <u who="#person.AKSH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2291"
                xml:lang="nob">
-               <note>(komiteens leder og ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2294s1">Sakens realiteter er som følger: Det foreligger en proposisjon. Her har det forut for den proposisjonen foregått noen forhandlinger, som ble innledet 12. april. Den 30. april la staten fram endelig tilbud. Hovedsammenslutningene aksepterte tilbudet samme dag.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2296">Dette ble en lett oppgave for komiteen å ta tak i. Vi har under punkt 2, Komiteens merknader, ingen merknader. Vi slutter oss til forslaget. Til punkt 3, Komiteens tilråding, har vi heller ingen andre merknader – eller rettere sagt står det vel «ingen merknader». Slik sett rår vi Stortinget til å gjøre det vedtaket som her er referert til.</seg>
             </u>
@@ -1976,21 +1973,20 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2303">– Det anses vedtatt.</seg>
             </u>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 5 [15:25:05]</head>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om samtykke til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltagelse i Det europeiske støttekontoret på asylfeltet (EASO)</note>
-            <note type="kildedok">(Innst. 460 S (2012–2013), jf. Prop. 140 S (2012–2013))</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om samtykke til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltagelse i Det europeiske støttekontoret på asylfeltet (EASO)</note>
+            <note type="comment">(Innst. 460 S (2012–2013), jf. Prop. 140 S (2012–2013))</note>
          </div>
          <div type="debateSection">
             <head>Sak nr. 6 [15:25:25]</head>
-            <note type="saktit">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om fellesnordisk landinfo</note>
-            <note type="kildedok">(Innst. 462 S (2012–2013), jf. Dokument 8:67 S (2012–2013))</note>
-            <note type="speaker">Lise Christoffersen (A) [15:25:59]</note>
+            <note type="comment">Innstilling fra kommunal- og forvaltningskomiteen om representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om fellesnordisk landinfo</note>
+            <note type="comment">(Innst. 462 S (2012–2013), jf. Dokument 8:67 S (2012–2013))</note>
+            <note type="speaker">Lise Christoffersen (A) [15:25:59] (ordfører for sakene nr. 5 og 6):</note>
             <u who="#person.LIC"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2327"
                xml:lang="nob">
-               <note>(ordfører for sakene nr. 5 og 6):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2330s1">I den første saken behandler Stortinget et forslag fra regjeringen om at Norge skal inngå en avtale med EU, der vi får muligheten til å slutte oss til Det europeiske støttekontoret for asylsaker, EASO. Kontoret er lokalisert til Malta. Det er en enstemmig komite som slutter seg til forslaget. Saken har også vært til uttalelse i utenriks- og forsvarskomiteen, som sluttet seg til utkastet vårt til innstilling. Også deres tilslutning var enstemmig.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2332">Komiteen valgte å avstå fra å avholde høring i saken. Begrunnelsen for det er at komiteen allerede 8. juni 2010, da vi behandlet Meld. St. 9 for 2009–2010 om norsk flyktning- og asylpolitikk i et europeisk perspektiv, ga vår tilslutning til at tilknytning til EASO skulle være et prioritert tiltak i oppfølging av meldingen.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2334">Forslag til avtale foreligger nå. I saken blir det redegjort for de enkelte bestemmelsene i avtalen om Norges deltakelse. Det er satt av midler i budsjettet for 2013. Samarbeidet innen EASO er til fordel for alle. Støttekontoret skal bidra til et tettere samarbeid mellom EU-landene på asylfeltet og oss assosierte. Informasjons- og erfaringsutveksling blir en viktig del av samarbeidet. Land som mottar mange asylsøkere, skal bli bedre i stand til å håndtere søknadene, bl.a. ved å få tilgang til egne asylstøtteteam som etter anmodning kan settes inn i kortere perioder. Det kan også vi komme til å nyte godt av. Det skal samarbeides om aktiviteter og kunnskapsformidling når det gjelder opprinnelsesland. Det skal sørge for at søknadene behandles på en betryggende måte. Det vil tilføre oss verdifull oversikt over utviklingen i asylankomstene i Europa og styrke Dublin-samarbeidet. Det legges også opp til et tett samarbeid med FNs høykommissær for flyktninger.</seg>
@@ -2001,8 +1997,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2344">Også her er det allerede, før vi kommer så langt som til å inngå en avtale, utviklet et omfattende samarbeid, og heretter skal vi altså delta fullt ut. Informasjonsutveksling er en viktig del av dette samarbeidet i Europa. Det nevnte jeg innledningsvis. Det samme er etterprøving og bruk av landinformasjonen. I tillegg skal støttekontoret lage analyser som kan bidra til mer enhetlige vurderingskriterier de europeiske landene imellom. Et siste poeng er at EASO også skal samarbeide tett med FNs høykommissær for flyktninger.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2346">Komiteen støtter altså hensikten bak forslaget, men en samlet komité deler statsrådens vurdering av at opprettelsen av enda en formell struktur nå neppe vil bidra til ytterligere gevinster.</seg>
             </u>
-            <note type="uth">Marit Nybakk</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Marit Nybakk</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Trine Skei Grande (V) [15:31:08]:</note>
             <u who="#person.TSG"
                ana="#regular"
@@ -2023,8 +2019,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 7 [15:33:16]</head>
-            <note type="saktit">Innstilling fra Stortingets presidentskap om representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget</note>
-            <note type="kildedok">(Innst. 491 S (2012–2013), jf. Dokument 8:120 S (2012–2013))</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget</note>
+            <note type="comment">(Innst. 491 S (2012–2013), jf. Dokument 8:120 S (2012–2013))</note>
             <note type="speaker">Per-Kristian Foss (H) [15:33:55]:</note>
             <u who="#person.PKF"
                ana="#regular"
@@ -2083,8 +2079,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 8 [15:48:10]</head>
-            <note type="saktit">Innstilling fra Stortingets presidentskap om endringer i tilskuddet til partigruppene på Stortinget</note>
-            <note type="kildedok">(Innst. 421 S (2012–2013))</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om endringer i tilskuddet til partigruppene på Stortinget</note>
+            <note type="comment">(Innst. 421 S (2012–2013))</note>
             <note type="speaker">Per-Kristian Foss (H) [15:48:28]:</note>
             <u who="#person.PKF"
                ana="#regular"
@@ -2106,8 +2102,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 9 [15:51:04]</head>
-            <note type="saktit">Innstilling fra Stortingets presidentskap om godtgjørelser for stortingsrepresentantene og regjeringens medlemmer</note>
-            <note type="kildedok">(Innst. 457 S (2012–2013))</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om godtgjørelser for stortingsrepresentantene og regjeringens medlemmer</note>
+            <note type="comment">(Innst. 457 S (2012–2013))</note>
             <note type="speaker">Per-Kristian Foss (H) [15:51:30]:</note>
             <u who="#person.PKF"
                ana="#regular"
@@ -2135,8 +2131,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 10 [15:53:58]</head>
-            <note type="saktit">Innstilling fra valgkomiteen om valg av medlemmer og varamedlemmer til den forberedende fullmaktskomité</note>
-            <note type="kildedok">(Innst. 455 S (2012–2013))</note>
+            <note type="comment">Innstilling fra valgkomiteen om valg av medlemmer og varamedlemmer til den forberedende fullmaktskomité</note>
+            <note type="comment">(Innst. 455 S (2012–2013))</note>
             <u who="#person.MN"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2518"
@@ -2145,15 +2141,15 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2521">Etter ønske fra helse- og omsorgskomiteen vil presidenten foreslå at sakene nr. 11 og 12 behandles under ett. – Det anses vedtatt.</seg>
             </u>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 11 [15:54:36]</head>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om folkehelsemeldingen. God helse – felles ansvar</note>
-            <note type="kildedok">(Innst. 478 S (2012–2013), jf. Meld. St. 34 (2012–2013))</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om folkehelsemeldingen. God helse – felles ansvar</note>
+            <note type="comment">(Innst. 478 S (2012–2013), jf. Meld. St. 34 (2012–2013))</note>
          </div>
          <div type="debateSection">
             <head>Sak nr. 12 [15:54:54]</head>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemning</note>
-            <note type="kildedok">(Innst. 476 S (2012–2013), jf. Dokument 8:116 S (2012–2013))</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemning</note>
+            <note type="comment">(Innst. 476 S (2012–2013), jf. Dokument 8:116 S (2012–2013))</note>
             <u who="#person.MN"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2546"
@@ -2164,12 +2160,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2553">Videre blir det foreslått at de som måtte tegne seg på talerlisten utover den fordelte taletid, får en taletid på inntil 3 minutter.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2555">– Det anses vedtatt.</seg>
             </u>
-            <note type="speaker">Håkon Haugli (A) [15:56:26]</note>
+            <note type="speaker">Håkon Haugli (A) [15:56:26] (ordfører for sak nr. 11):</note>
             <u who="#person.HAKH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2557"
                xml:lang="nob">
-               <note>(ordfører for sak nr. 11):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2560s1">I den store fortellingen om det moderne Norge hører en stadig bedre folkehelse hjemme. På 1900-tallet økte den gjennomsnittlige levealderen med 30 år, og den øker fortsatt.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2562">Den norske befolkningen har god helse. Begge mine besteforeldre hadde søsken som døde av tuberkulose. Folkehelsedugnaden gjennom de siste 100 årene stagget de smittsomme sykdommene. Tannpuss og fluor har gitt bedre tenner, vi har tilgang på prevensjon og vaksiner, og de fleste hus er knyttet til vannverk som sørger for rent vann. Folk flest har god helse og lever lenge.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2564">Sykdom og død skyldes i økende grad måten vi lever på: mat med for mye salt, sukker og fett samt for lite fysisk aktivitet. I 2011 slo et toppmøte i FN fast at ikke-smittsomme sykdommer utgjør en av de største truslene mot menneskelig utvikling dette århundret. Disse problemene løser vi ikke på legekontoret eller på operasjonsbordet.</seg>
@@ -2183,13 +2178,7 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2581">I meldingen inviteres også næringsaktører til samarbeid. På få år har den norske importen av palmeolje falt kraftig: fra 26 000 tonn i 2005 til 5 000 tonn i 2012 – i en periode der forbruket i resten av verden er doblet. Det skyldes godt samarbeid mellom næringslivet og myndighetene. Og mens komiteen behandlet meldingen, kom nyheten om at tilsvarende samarbeid var etablert for markedsføring rettet mot barn. At næringsaktører på denne måten tar samfunnsansvar, er flott.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2583">Det er enighet om mye på folkehelseområdet, men det er ulikheter i synet på balansen mellom det individuelle og fellesskapets ansvar. Arbeiderpartiet er opptatt av at helse ikke er et moralsk spørsmål. Alle har ansvar for egen helse, men fellesskapet har ansvar for alles helse.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2585">Per Fugelli har advart slik:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2587">«</seg>
-               <note>(…)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2587s1">individualiseringen av det forebyggende helsearbeidet har moralske bivirkninger.</seg>
-               <note>(…)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2587s2">De som røyker, spiser chips og sitter i sofaen i stedet for å kaste seg ut i akebakken med røde eplekinn, er svake, dumme og skyldige. Folk får ikke mer livsmot</seg>
-               <note>(…)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2587s3">av slik stempling.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2587">«<note type="comment">(…)</note>individualiseringen av det forebyggende helsearbeidet har moralske bivirkninger.<note type="comment">(…)</note>De som røyker, spiser chips og sitter i sofaen i stedet for å kaste seg ut i akebakken med røde eplekinn, er svake, dumme og skyldige. Folk får ikke mer livsmot<note type="comment">(…)</note>av slik stempling.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2590">Livsmot og livsglede er viktig. Vi svinger ingen moralske pekefingre, men vi er opptatt av å bruke de virkemidlene som finnes – lovgivning, pris og tilgjengelighet – for å fremme helse.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2592">Vi må begynne med barn og unge. I høringene fikk regjeringens mål om en time daglig fysisk aktivitet i skolen bred tilslutning. Fysisk aktivitet er viktig for barns vekst og utvikling. Trudvang skole i Sogndal har hatt 60 minutter daglig bevegelse for alle elever i to år. Elever som deltar, har fått bedre karakterer enn landsgjennomsnittet på nasjonale prøver i 8. og 9. klasse.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2594">Barn og unges psykiske helse må få mer oppmerksomhet. Undersøkelser viser at barn og unge opplever helsetjenestene som utilgjengelige. Det finnes kunnskapsbaserte metoder for forebygging og tidlig innsats for barn med symptomer på psykisk uhelse, f.eks. Psykologisk Førstehjelp. Det er viktig at slike verktøy tas i bruk, f.eks. i skolehelsetjenesten. At skolehelsetjenesten nå styrkes, er virkelig flott, og enormt viktig.</seg>
@@ -2206,8 +2195,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2618">Men det er ikke overformynderi å bruke pris, tilgjengelighet eller lovgivning for å beskytte barn mot sykdom. Selvsagt går det grenser, men Høyre er altså imot at barn har rett til et røykfritt miljø med henvisning til et ullent frihetsbegrep. Frihet for hvem?</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2620">Klisjeen om at vi ikke kan vedta oss til bedre helse er kun det – en klisjé. Det er ikke sant at vi ikke kan vedta bedre helse. Selvsagt kan vi ikke vedta at enkeltpersoner skal trene eller spise sunnere, men gjennom historien har Stortinget gjort mange, mange vedtak som har gitt folk bedre helse. Det er et påfallende fellestrekk ved alle disse vedtakene: Representanter som bruker uttrykket «vi kan ikke vedta oss til bedre helse», har stemt imot.</seg>
             </u>
-            <note type="uth">Akhtar Chaudhry</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Akhtar Chaudhry</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Kari Kjønaas Kjos (FrP) [16:05:21]:</note>
             <u who="#person.KKK"
                ana="#regular"
@@ -2256,12 +2245,11 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2706">Representanten Kari Kjønaas Kjos har tatt opp det forslaget hun refererte til.</seg>
             </u>
-            <note type="speaker">Bent Høie (H) [16:18:44]</note>
+            <note type="speaker">Bent Høie (H) [16:18:44] (komiteens leder):</note>
             <u who="#person.BENH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e2708"
                xml:lang="nob">
-               <note>(komiteens leder):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2711s1">Når Stortinget i dag behandler en ny stortingsmelding om folkehelse, går det inn i en god tradisjon med at en hvert tiende år behandler en helhetlig stortingsmelding om dette temaet.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2713">Stortinget behandlet St.meld. nr. 37 for 1992–1993, Utfordringer i helsefremmende og forebyggende arbeid, i 1993. I 2003 behandlet Stortinget St.meld. nr. 16 for 2002–2003, Resept for et sunnere Norge. Den inneholdt strategier for den tiårsperioden vi nå har lagt bak oss. I dag behandler vi en stortingsmelding om strategier for den neste perioden, under overskriften «God helse – felles ansvar».</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2715">Hvis vi ser på innholdet og målsettingene i disse to meldingene – den ene lagt fram av en sentrum–Høyre-regjering og dagens, lagt fram av en rød-grønn regjering – finner vi at det ikke er forskjellene som framstår som det tydeligste, men likhetstrekkene.</seg>
@@ -2298,8 +2286,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2774">Vi tror at kosthold og det å bevege seg, er en forutsetning både for god helse og for kunnskap i morgendagens skoledag.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e2776">Det er en veldig god stortingsmelding vi behandler i dag. Den kommer til å danne grunnlag for folkehelsepolitikken i lang tid framover. Nå blir jobben for oss å følge dette opp.</seg>
             </u>
-            <note type="uth">Laila Dåvøy</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Laila Dåvøy</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Kjersti Toppe (Sp) [16:34:16]:</note>
             <u who="#person.KJT"
                ana="#regular"
@@ -2536,14 +2524,13 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3069">Det pekes også på at vi må samarbeide mer i Norden, mer med EU og med andre aktører for å finne gode løsninger, fordi vi erkjenner at alle land har de samme store utfordringene.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3071">Rådet som kommer fra alle store forskermiljøer, er at tilgjengelighet og pris er de beste virkemidlene. De fleste anbefaler at alle bør følge Norges modell med et vinmonopol. Det å svekke eller uthule vinmonopolet er derfor feil vei å gå hvis vi mener noe med at vi skal påvirke folkehelsen. Det er viktig at en har et bevisst forhold til at også alkoholpolitikken som føres i landet, påvirker folkehelsen.</seg>
             </u>
-            <note type="uth">Øyvind Korsberg</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
-            <note type="speaker">Are Helseth (A) [17:32:20]</note>
+            <note type="comment">Øyvind Korsberg</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
+            <note type="speaker">Are Helseth (A) [17:32:20] (ordfører for sak nr. 12):</note>
             <u who="#person.AREH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3078"
                xml:lang="nob">
-               <note>(ordfører for sak nr. 12):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3081s1">Til sak nr. 12, representantforslag fra Fremskrittspartiet om Special Olympics Norge:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3083">En samlet komité er enig med forslagsstillerne i viktigheten av at også psykisk utviklingshemmede får mulighet til å delta i folkehelsefremmende aktiviteter og idrettsaktiviteter. Mennesker med psykisk utviklingshemning er ofte avhengig av god tilrettelegging og organiserte tilbud i regi av idrettslag, andre frivillige lag og foreninger – ofte i samarbeid med lokale myndigheter.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3085">Jeg viser til at regjeringen gjennom spillemiddeltildelingen til Norges idrettsforbund og olympiske og paralympiske komité legger til rette for bred idrettsdeltagelse i nærmiljøet for personer med nedsatt funksjonsevne, og vil fremheve idrettens arbeid med integrering, der de ulike organisasjonsleddene har ansvar for tilbudene til personer med nedsatt funksjonsevne.</seg>
@@ -2662,8 +2649,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 13 [18:02:24]</head>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper</note>
-            <note type="kildedok">(Innst. 474 S (2012–2013), jf. Dokument 8:114 S (2012–2013))</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper</note>
+            <note type="comment">(Innst. 474 S (2012–2013), jf. Dokument 8:114 S (2012–2013))</note>
             <u who="#person.OYK"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3231"
@@ -2673,12 +2660,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3236">Videre blir det foreslått at de som måtte tegne seg på talerlisten utover den fordelte taletid, får en taletid på inntil 3 minutter.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3238">– Det anses vedtatt.</seg>
             </u>
-            <note type="speaker">Are Helseth (A) [18:03:28]</note>
+            <note type="speaker">Are Helseth (A) [18:03:28] (ordfører for saken):</note>
             <u who="#person.AREH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3240"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3243s1">Dette representantforslaget tar utgangspunkt i at noen pasienter er ressurssterke og svært bevisste på hvilke tjenester man har rett til og behov for, mens andre pasientgrupper har et mindre bevisst forhold til dette.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3245">En samlet komité har i merknadene understreket at mange enkeltmennesker av forskjellige grunner vil ha liten mulighet til å fremme sine rettigheter og behov, og det stilles særlige krav til lovgivning, regelverk, organisering, kunnskap og etisk refleksjon i helsetjenesten av denne grunn. Videre har komiteen fremhevet at de samme forhold i spesielle livssituasjoner kan være situasjonen for oss alle, også for enkeltmennesker som ellers ville regne seg som ressurssterke. Vi er alle sårbare ved alvorlig sykdom, og organisering og drift av helsetjenesten må ha dette som fundament.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3247">Uheldige hendelser som fører til dødsfall, er svært alvorlig, og samfunnet har en etisk plikt til å arbeide systematisk for å forebygge slike hendelser. Det er derfor gledelig at bedre kunnskap, skjerpet bevissthet og systematisk forbedringsarbeid på hele pasientsikkerhetsområdet nå etableres blant de viktigste sakene på den helsepolitiske dagsorden og i helsetjenesten. Meld. St. 10 for 2012–2013 om kvalitet og pasientsikkerhet i helse- og omsorgstjenesten beskriver både det arbeid som er i satt i gang, og retningen for videre arbeid. Gode løsninger vil innebære avveining av krevende dilemmaer, bl.a. knyttet til melding om uheldige hendelser, god læringskultur og spørsmålet om samfunnets reaksjoner ved brudd på lov og regelverk. Det er derfor behov for en vurdering av om dagens virkemidler for å håndtere mistanke om lovbrudd eller alvorlige hendelser er gode nok, inkludert en vurdering av problemstillinger knyttet til læring og bruk av sanksjoner overfor helsepersonell og virksomheter i helse- og omsorgstjenesten.</seg>
@@ -2767,14 +2753,13 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 14 [18:17:22]</head>
-            <note type="saktit">Innstilling fra helse- og omsorgskomiteen om endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</note>
-            <note type="kildedok">(Innst. 486 S (2012–2013), jf. Prop. 174 S (2012–2013))</note>
-            <note type="speaker">Are Helseth (A) [18:17:57]</note>
+            <note type="comment">Innstilling fra helse- og omsorgskomiteen om endringar i statsbudsjettet for 2013 under Helse- og omsorgsdepartementet (som følgje av endra takstar for legar, psykologar og fysioterapeutar)</note>
+            <note type="comment">(Innst. 486 S (2012–2013), jf. Prop. 174 S (2012–2013))</note>
+            <note type="speaker">Are Helseth (A) [18:17:57] (ordfører for saken):</note>
             <u who="#person.AREH"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3352"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3355s1">Som i tidligere år er dette siste sak fra helse- og omsorgskomiteen til Stortinget. Det dreier seg om årlig regulering av takster for folketrygdrefusjon til legehjelp, psykologhjelp og fysioterapihjelp. Disse takstene løper fra 1. juli til 30. juni det neste året.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3357">Prosessene for nye takster er i gang, men ikke avsluttet. Dette året vil det bli forhandlet med legenes organisasjon og med psykologenes organisasjon, og det vil være av grunner som fremgår av innstillingen, hørings- og drøftingsmøter med de tre fysioterapiorganisasjonene.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3359">Det er samstemt komité, som bare fremmer felles merknader og støtter at departementet får de nødvendige fullmakter.</seg>
@@ -2790,14 +2775,13 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 15 [18:19:29]</head>
-            <note type="saktit">Innstilling fra transport- og kommunikasjonskomiteen om E6 Halselv–Møllnes i Finnmark – styrings- og kostnadsramme</note>
-            <note type="kildedok">(Innst. 509 S (2012–2013), jf. Prop. 175 S (2012–2013))</note>
-            <note type="speaker">Jan-Henrik Fredriksen (FrP) [18:20:07]</note>
+            <note type="comment">Innstilling fra transport- og kommunikasjonskomiteen om E6 Halselv–Møllnes i Finnmark – styrings- og kostnadsramme</note>
+            <note type="comment">(Innst. 509 S (2012–2013), jf. Prop. 175 S (2012–2013))</note>
+            <note type="speaker">Jan-Henrik Fredriksen (FrP) [18:20:07] (ordfører for saken):</note>
             <u who="#person.JF"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3379"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3382s1">Det er en enstemmig komité som ønsker å gi sin tilslutning til utbygging av E6 Alta vest. Det er en totalstrekning på 13 km hvor det inngår bygging av to tunneler på til sammen 3,6 km. Prosjektet vil som sådan forkorte E6 med om lag 2 km vei, og som sagt er det en enstemmig komité som står bak innstillingen.</seg>
             </u>
             <note type="speaker">Anne Marit Bjørnflaten (A) [18:20:58]:</note>
@@ -2834,8 +2818,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 16 [18:23:53]</head>
-            <note type="saktit">Innstilling fra transport- og kommunikasjonskomiteen om revisjon og sluttføring av Østfoldpakka. Utbygging og finansiering av E18 på strekningene Riksgrensen–Ørje og Knapstad–Retvet i Østfold og Akershus</note>
-            <note type="kildedok">(Innst. 510 S (2012–2013), jf. Prop. 176 S (2012–2013))</note>
+            <note type="comment">Innstilling fra transport- og kommunikasjonskomiteen om revisjon og sluttføring av Østfoldpakka. Utbygging og finansiering av E18 på strekningene Riksgrensen–Ørje og Knapstad–Retvet i Østfold og Akershus</note>
+            <note type="comment">(Innst. 510 S (2012–2013), jf. Prop. 176 S (2012–2013))</note>
             <u who="#person.OYK"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3421"
@@ -2845,12 +2829,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3426">Videre blir det foreslått at de som måtte tegne seg på talerlisten utover den fordelte taletid, får en taletid på inntil 3 minutter.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3428">– Det anses vedtatt.</seg>
             </u>
-            <note type="speaker">Ingjerd Schou (H) [18:24:40]</note>
+            <note type="speaker">Ingjerd Schou (H) [18:24:40] (ordfører for saken):</note>
             <u who="#person.ISC"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3430"
                xml:lang="nob">
-               <note>(ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3433s1">Først vil jeg takke komiteen for en fleksibel og rask behandling av en sak som kom på det aller senest mulige tidspunkt til komiteen. Så tusen takk for at det var mulig å få denne saken til behandling før Stortinget går fra hverandre.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3435">Det vi skal behandle i dag, er to nye parseller på E18 mot svenskegrensen. Det er all grunn til å glede seg over to nye parseller på henholdsvis 6 og 7 km ny vei som legges ut til byggestart så snart vi har fattet vedtaket.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3437">Ruten E18 Oslo–Ørje/Riksgrensen og Stockholm er den nest viktigste hovedveiforbindelsen til og fra utlandet etter korridor 1 Oslo–Svinesund. Veien har stor regional viktighet spesielt for Østfold og Indre Østfold, men også for gods- og persontrafikken til og fra Sverige, Finland, Baltikum og Russland – og dermed for hele landet.</seg>
@@ -2876,8 +2859,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3469">På denne bakgrunn mener Arbeiderpartiet at det ikke er grunnlag for å hevde at E18 gjennom Østfold ikke kan anses som ferdigstilt før dette sideveistiltaket er på plass.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3471">Til slutt: Som saksordføreren var inne på, er dette en sak det er viktig for Høyre med avklart finansiering. Vel, dette er jo en sak der det er uenighet mellom Høyre og Fremskrittspartiet om finansiering. Fremskrittspartiet har eget forslag i saken om full statlig finansiering. Høyre støtter regjeringen i at man skal delfinansiere ved hjelp av bompenger. Når det gjelder avklart finansiering, blir det spennende å se om man klarer å bli enige på borgerlig side om finansering av denne veien og 56 andre prosjekter de neste ti årene.</seg>
             </u>
-            <note type="uth">Dag Terje Andersen</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Dag Terje Andersen</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Bård Hoksrud (FrP) [18:34:33]:</note>
             <u who="#person.BÅH"
                ana="#regular"
@@ -3074,8 +3057,8 @@
          </div>
          <div type="debateSection">
             <head>Sak nr. 17 [19:08:28]</head>
-            <note type="saktit">Innstilling fra næringskomiteen om statens eierskap til Cermaq ASA</note>
-            <note type="kildedok">(Innst. 511 S (2012–2013), jf. Prop. 178 S (2012–2013))</note>
+            <note type="comment">Innstilling fra næringskomiteen om statens eierskap til Cermaq ASA</note>
+            <note type="comment">(Innst. 511 S (2012–2013), jf. Prop. 178 S (2012–2013))</note>
             <u who="#person.DTA"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3689"
@@ -3085,12 +3068,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3694">Videre blir det foreslått at de som måtte tegne seg på talerlisten utover den fordelte taletid, får en taletid på inntil 3 minutter.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3696">–Det anses vedtatt.</seg>
             </u>
-            <note type="speaker">Terje Aasland (A) [19:09:15]</note>
+            <note type="speaker">Terje Aasland (A) [19:09:15] (komiteens leder og ordfører for saken):</note>
             <u who="#person.TELA"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e3698"
                xml:lang="nob">
-               <note>(komiteens leder og ordfører for saken):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3701s1">Denne saken handler om statens eierskap i Cermaq. Jeg vil bare starte med å si at så sent som den 14. mai i år behandlet Stortinget en sak om en statlig deltakelse i en fortrinnsrettsemisjon i Cermaq, og overtakelse av Copeinca, en av de største fiskemel- og fiskeoljeprodusentene i Peru. I selskapets generalforsamling den 21. mai stemte 62,5 pst. for transaksjonen, som da Stortinget også ga sin tilslutning til. Men det var ikke tilstrekkelig støtte til å gjennomføre finansieringen av Copeinca-transaksjonen.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3703">Etter den tid har vi helt klart sett at aktiviteten overfor Cermaq har tiltatt. Derfor er det helt nødvendig at Stortinget også nå går de nødvendige runder når det gjelder statens eierskap i selskapet, og håndterer de fullmakter som regjeringen nå ber om. Slik sett har denne saken gått veldig raskt gjennom i komiteen, og jeg takker også komiteen for en grei behandling av saken i den korte tiden som har vært til disposisjon.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3705">Vi visste allerede da vi behandlet forrige sak den 14. mai at det var stor interesse for selskapet, blant annet gjennom den aktivitet som Marine Harvest hadde utvist overfor til selskapet. I ettertid har vi, ikke minst gjennom media, registrert at også nå er det flere interesserte. Vi er også kjent med at det nå foreligger et konkret bud på Cermaq ASA fra Marine Harvest, men både Cermaq ASAs styre og Nærings- og handelsdepartementet mener at det budet ikke gjenspeiler de reelle verdiene i selskapet.</seg>
@@ -3174,11 +3156,7 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3820">Cermaq ASA er et selskap som har lokalisert hoveddelen av sin forretningsvirksomhet utenfor landets grenser, og majoriteten av selskapets ansatte er ikke bosatt i Norge. Gjennom forretningsområdet EWOS har Cermaq en global markedsandel på 36 pst. innen fiskefôr, og gjennom forretningsområdet Mainstream en global markedsandel på ca. 6 pst. innenfor oppdrett av laks og ørret.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3822">Det betyr at ledelsen i Cermaq ASA til daglig forholder seg til viktige etiske og praktiske avveininger når det gjelder behandling av arbeidstakere i land med andre arbeidsrettslige forhold, forvaltning av knappe fiskeressurser som råstoff for fiskefôr og betydelige miljøutfordringer knyttet til fiskeoppdrett. Vi vurderer det dermed slik at dette er en sak der statens muligheter til å stille forventninger om samfunnsansvar er særdeles viktig ut fra selskapets forretningsområde.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3824">På side 56 i eierskapsmeldingen blir statens forventninger om samfunnsansvar bl.a. konkretisert i følgende punkter:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3826">«Regjeringen forventer at:</seg>
-               <note>(…)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3826s1">Selskaper med internasjonal virksomhet knytter seg til FNs Global Compact, og at selskaper med internasjonal leverandørkjede vurderer det samme.</seg>
-               <note>(…)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3826s2">Selskaper med internasjonal virksomhet eller internasjonal leverandørkjede legger ILOs åtte kjernekonvensjoner til grunn for sin virksomhet.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3826">«Regjeringen forventer at:<note type="comment">(…)</note>Selskaper med internasjonal virksomhet knytter seg til FNs Global Compact, og at selskaper med internasjonal leverandørkjede vurderer det samme.<note type="comment">(…)</note>Selskaper med internasjonal virksomhet eller internasjonal leverandørkjede legger ILOs åtte kjernekonvensjoner til grunn for sin virksomhet.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3841">Fortsatt statlig eierskap i Cermaq ASA vil dermed gi storting og regjering mulighet til å stille klare forventninger til selskapet om samfunnsansvar på de nevnte områder også i framtiden. Ved et eventuelt fullt nedsalg av statens aksjepost vil den muligheten falle bort.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3843">I inneværende periode har Kristelig Folkeparti gjentatte ganger påpekt de store miljøutfordringene som er knyttet til norsk oppdrettsnæring.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3846">Kristelig Folkeparti har også tatt til orde for at statlige investeringer i ulike selskaper som opererer i det internasjonale marked, i sterkere grad må baseres på etiske vurderinger av selskapenes forretningsdrift.</seg>
@@ -3187,8 +3165,8 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3852">Vi vil også minne om at Stortinget ved to anledninger i inneværende stortingsperiode har stemt mot fullt nedsalg av statens aksjer i Cermaq ASA. Det skjedde første gang da Stortinget behandlet eierskapsmeldingen den 9. juni 2011, og igjen under Stortingets behandling av en foreslått aksjeemisjon i selskapet den 14. mai i år. Det sier sitt om at flertallet på Stortinget er skeptisk til å la markedskreftenes frie spill få bestemme hvem som skal dominere og eventuelt kontrollere oppdrettsnæringen. Det gjelder både her til lands og internasjonalt.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3854">Kristelig Folkeparti vil gi sin tilslutning til I og II i innstillingen. Vi vil imidlertid stemme imot III, med de begrunnelsene jeg her har gitt.</seg>
             </u>
-            <note type="uth">Laila Dåvøy</note>
-            <note type="a">hadde her overtatt presidentplassen.</note>
+            <note type="comment">Laila Dåvøy</note>
+            <note type="comment">hadde her overtatt presidentplassen.</note>
             <note type="speaker">Statsråd Trond Giske [19:33:51]:</note>
             <u who="#person.TG"
                ana="#regular"
@@ -3270,55 +3248,55 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e3940">Presidenten vil foreslå at sakene nr. 18–27 behandles under ett. Alle sakene gjelder andre gangs behandling av lovsaker. – Det anses vedtatt.</seg>
             </u>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 18 [19:44:12]</head>
-            <note type="saktit">Stortingets vedtak til lov endringer i lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland</note>
-            <note type="kildedok">(Lovvedtak 103 (2012–2013), jf. Innst. 301 L (2012–2013) og Prop. 86 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov endringer i lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland</note>
+            <note type="comment">(Lovvedtak 103 (2012–2013), jf. Innst. 301 L (2012–2013) og Prop. 86 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 19</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i straffeloven 1902 og straffeloven 2005 mv. (forberedelse av terror m.m.)</note>
-            <note type="kildedok">(Lovvedtak 104 (2012–2013), jf. Innst. 442 L (2012–2013) og Prop. 131 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i straffeloven 1902 og straffeloven 2005 mv. (forberedelse av terror m.m.)</note>
+            <note type="comment">(Lovvedtak 104 (2012–2013), jf. Innst. 442 L (2012–2013) og Prop. 131 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 20</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i straffeprosessloven mv. (behandling og beskyttelse av informasjon)</note>
-            <note type="kildedok">(Lovvedtak 105 (2012–2013), jf. Innst. 445 L (2012–2013) og Prop. 147 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i straffeprosessloven mv. (behandling og beskyttelse av informasjon)</note>
+            <note type="comment">(Lovvedtak 105 (2012–2013), jf. Innst. 445 L (2012–2013) og Prop. 147 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 21</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i passloven (politiets adgang til å benytte passregisteret)</note>
-            <note type="kildedok">(Lovvedtak 106 (2012–2013), jf. Innst. 452 L (2012–2013) og Prop. 153 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i passloven (politiets adgang til å benytte passregisteret)</note>
+            <note type="comment">(Lovvedtak 106 (2012–2013), jf. Innst. 452 L (2012–2013) og Prop. 153 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 22</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)</note>
-            <note type="kildedok">(Lovvedtak 107 (2012–2013), jf. Innst. 453 L (2012–2013) og Prop. 148 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i rettsgebyrloven og lov om notarius publicus (gebyr for notarialforretninger og testamentoppbevaring)</note>
+            <note type="comment">(Lovvedtak 107 (2012–2013), jf. Innst. 453 L (2012–2013) og Prop. 148 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 23</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</note>
-            <note type="kildedok">(Lovvedtak 108 (2012–2013), jf. Innst. 411 L (2012–2013) og Prop. 132 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i straffeprosessloven (bording av skip ved terrorhandlinger m.m.)</note>
+            <note type="comment">(Lovvedtak 108 (2012–2013), jf. Innst. 411 L (2012–2013) og Prop. 132 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 24</head>
-            <note type="saktit">Stortingets vedtak til lov om endringar i inndelingslova</note>
-            <note type="kildedok">(Lovvedtak 109 (2012–2013), jf. Innst. 393 L (2012–2013) og Prop. 109 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringar i inndelingslova</note>
+            <note type="comment">(Lovvedtak 109 (2012–2013), jf. Innst. 393 L (2012–2013) og Prop. 109 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 25</head>
-            <note type="saktit">Stortingets vedtak til lov om stillingsvern mv. for arbeidstakere på skip (skipsarbeidsloven)</note>
-            <note type="kildedok">(Lovvedtak 110 (2012–2013), jf. Innst. 456 L (2012–2013) og Prop. 115 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om stillingsvern mv. for arbeidstakere på skip (skipsarbeidsloven)</note>
+            <note type="comment">(Lovvedtak 110 (2012–2013), jf. Innst. 456 L (2012–2013) og Prop. 115 L (2012–2013))</note>
          </div>
-         <div type="debateSection">
+         <div type="commentSection">
             <head>Sak nr. 26</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i vegtrafikkloven (miljøfartsgrenser)</note>
-            <note type="kildedok">(Lovvedtak 111 (2012–2013), jf. Innst. 350 L (2012–2013) og Prop. 126 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i vegtrafikkloven (miljøfartsgrenser)</note>
+            <note type="comment">(Lovvedtak 111 (2012–2013), jf. Innst. 350 L (2012–2013) og Prop. 126 L (2012–2013))</note>
          </div>
          <div type="debateSection">
             <head>Sak nr. 27</head>
-            <note type="saktit">Stortingets vedtak til lov om endringer i forsvarspersonelloven</note>
-            <note type="kildedok">(Lovvedtak 112 (2012–2013), jf. Innst. 383 L (2012–2013) og Prop. 57 L (2012–2013))</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i forsvarspersonelloven</note>
+            <note type="comment">(Lovvedtak 112 (2012–2013), jf. Innst. 383 L (2012–2013) og Prop. 57 L (2012–2013))</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4044"
@@ -3327,14 +3305,14 @@
             </u>
          </div>
          <div type="debateSection">
-            <note type="a">Etter at det var ringt til votering, uttalte</note>
+            <note type="comment">Etter at det var ringt til votering, uttalte</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4050"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4051">Da er Stortinget klar til å gå til votering.</seg>
             </u>
-            <note type="uth">Votering i sak nr. 1</note>
+            <note type="comment">Votering i sak nr. 1</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4058"
@@ -3346,9 +3324,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4075">«Stortinget ber regjeringen legge frem sak om studentboliger som eget reguleringsformål.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4078">Høyre og Kristelig Folkeparti har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble med 76 mot 22 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.52.07)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble med 76 mot 22 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.52.07)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4089"
@@ -3357,9 +3335,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4092">«Stortinget ber regjeringen snarest foreta en gjennomgang av forskrifter tilhørende plan- og bygningsloven, med sikte på å gjøre det enklere å leie ut del av egen bolig og å øke det kommunale handlingsrommet i forbindelse med godkjenning av slike utleieenheter.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4095">Fremskrittspartiet, Høyre og Kristelig Folkeparti har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble med 56 mot 46 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.52.27)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble med 56 mot 46 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.52.27)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4106"
@@ -3388,13 +3366,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4163">Forslag nr. 18 lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4166">«Stortinget ber regjeringen foreta en omfattende gjennomgang av det regelverket som i dag styrer regulering av tomteareal og boligbygging med sikte på å gjøre regelverket mindre omfattende, enklere og mindre byråkratisk.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4169">Forslag nr. 19 lyder:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4171">«Stortinget ber regjeringen vurdere å fremme forslag om å oppheve plan- og bygningsloven § 12-4</seg>
-               <note>(5)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4171s1">som blant annet sier: «Er bygge- og anleggstiltak som hjemles i plan fremmet med bakgrunn i privat reguleringsforslag etter § 12-11, ikke satt i gang fem år etter vedtak av planen, kan tillatelsen til gjennomføring av planen ikke gis uten nytt planvedtak.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4171">«Stortinget ber regjeringen vurdere å fremme forslag om å oppheve plan- og bygningsloven § 12-4<note type="comment">(5)</note>som blant annet sier: «Er bygge- og anleggstiltak som hjemles i plan fremmet med bakgrunn i privat reguleringsforslag etter § 12-11, ikke satt i gang fem år etter vedtak av planen, kan tillatelsen til gjennomføring av planen ikke gis uten nytt planvedtak.»</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Fremskrittspartiet ble med 77 mot 24 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.52.59)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Fremskrittspartiet ble med 77 mot 24 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.52.59)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4183"
@@ -3402,51 +3378,45 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4184">Det voteres over forslag nr. 2, fra Fremskrittspartiet og Høyre. Forslaget lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4186">«Stortinget ber regjeringen komme tilbake til Stortinget med en endring i plan- og bygningsloven § 5-4 om at innsigelser begrenses til der «berørt statlig og regionalt organ kan fremme innsigelse til forslag til kommuneplanens arealdel og reguleringsplan i spørsmål som er av nasjonal eller vesentlig regional betydning» og hvor formuleringen «eller som av andre grunner er av vesentlig betydning for vedkommende organs saksområde», utgår.»</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Fremskrittspartiet og Høyre ble med 61 mot 41 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.53.16)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Fremskrittspartiet og Høyre ble med 61 mot 41 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.53.16)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4198"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4199">Det voteres over forslagene nr. 1, 3–5 og 7, fra Fremskrittspartiet og Høyre.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4201">Forslag nr. 1 lyder:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4203">«Stortinget ber regjeringen komme tilbake til Stortinget med forslag til revisjon av plan- og bygningsloven, samt bestemmelser i byggteknisk forskrift</seg>
-               <note>(TEK10)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4203s1">, med mål om å lempe på krav til nye boliger og utleieboliger.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4203">«Stortinget ber regjeringen komme tilbake til Stortinget med forslag til revisjon av plan- og bygningsloven, samt bestemmelser i byggteknisk forskrift<note type="comment">(TEK10)</note>, med mål om å lempe på krav til nye boliger og utleieboliger.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4206">Forslag nr. 3 lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4208">«Stortinget ber regjeringen utarbeide klare retningslinjer for hvordan innsigelser kan fremmes, slik at antallet innsigelser kan bli redusert.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4211">Forslag nr. 4 lyder:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4213">«Stortinget ber regjeringen komme tilbake til Stortinget med en endring av fristbestemmelsen, jf. plan- og bygningsloven § 12-4</seg>
-               <note>(planers rettsvirkninger)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4213s1">slik at den bortfaller.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4213">«Stortinget ber regjeringen komme tilbake til Stortinget med en endring av fristbestemmelsen, jf. plan- og bygningsloven § 12-4<note type="comment">(planers rettsvirkninger)</note>slik at den bortfaller.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4216">Forslag nr. 5 lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4218">«Stortinget ber regjeringen gjennomgå plan- og bygningsloven med sikte på forenklinger for å sikre bedre fremdrift i planprosessene.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4221">Forslag nr. 7 lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4223">«Stortinget ber regjeringen legge til rette for bygging av minst 2 000 studentboliger i året, og oppheve kostnadsrammen.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4227">Venstre har varslet at de vil støtte forslagene.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Fremskrittspartiet og Høyre ble med 60 mot 42 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.53.38)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Fremskrittspartiet og Høyre ble med 60 mot 42 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.53.38)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4239"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4240">Det voteres over forslag nr. 6, fra Fremskrittspartiet og Høyre. Forslaget lyder:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4242">«Stortinget ber regjeringen styrke ordningen med Boligsparing for ungdom</seg>
-               <note>(BSU)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4242s1">gjennom å heve beløpet man kan spare fra 150 000 til 300 000, heve fradragssatsen fra 20 til 28 pst., og heve det årlige sparetaket til 25 000.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4242">«Stortinget ber regjeringen styrke ordningen med Boligsparing for ungdom<note type="comment">(BSU)</note>gjennom å heve beløpet man kan spare fra 150 000 til 300 000, heve fradragssatsen fra 20 til 28 pst., og heve det årlige sparetaket til 25 000.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4245">Kristelig Folkeparti og Venstre har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Fremskrittspartiet og Høyre ble med 54 mot 47 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.54.00)</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Meld. St. 17 (2012–2013) – om Byggje – bu – leve. Ein bustadpolitikk for den einskilde, samfunnet og framtidige generasjonar – vedlegges protokollen.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 2</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Fremskrittspartiet og Høyre ble med 54 mot 47 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.54.00)</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Meld. St. 17 (2012–2013) – om Byggje – bu – leve. Ein bustadpolitikk for den einskilde, samfunnet og framtidige generasjonar – vedlegges protokollen.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 2</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4272"
@@ -3458,9 +3428,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4292">«Stortinget ber regjeringen nedsette et utvalg for å gjennomgå og fremme forslag om å redusere det totale antallet av lover, forskrifter og rapporteringskrav mv. som regulerer kommunesektoren og lokaldemokratiet.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4295">Fremskrittspartiet har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble med 77 mot 24 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.54.53)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble med 77 mot 24 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.54.53)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4306"
@@ -3471,9 +3441,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4314">Forslag nr. 5 lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4316">«Stortinget ber regjeringen komme tilbake til Stortinget i forbindelse med behandlingen av statsbudsjettet for 2014 med en oversikt over det faktiske behovet for rehabilitering og habilitering av kommunal og fylkeskommunal infrastruktur, og fremme de nødvendige forslag til en opptrappingsplan som legger forholdene til rette for nødvendig oppgradering.»</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Fremskrittspartiet ble med 78 mot 24 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.55.10)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Fremskrittspartiet ble med 78 mot 24 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.55.10)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4328"
@@ -3485,9 +3455,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4338">«Stortinget ber regjeringen endre telletidspunktet for nye innbyggere i vekstkommunene slik at disse kommunene får økonomiske midler etter faktisk antall innbyggere.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4341">Venstre har varslet at de vil støtte forslagene.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Fremskrittspartiet og Høyre ble med 60 mot 41 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.55.30)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Fremskrittspartiet og Høyre ble med 60 mot 41 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.55.30)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4352"
@@ -3496,21 +3466,21 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4355">«Stortinget ber regjeringen øke digitaliseringen av offentlige tjenester og sikre en fungerende nasjonal strategi for IKT-løsninger som styrker kommunenes evne til å levere tjenester til sine innbyggere.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4358">Venstre har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Fremskrittspartiet, Høyre og Kristelig Folkeparti ble med 54 mot 47 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.55.49)</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Stortinget gir Kommunal- og regionaldepartementet fullmakt til å fordele etter skjønn 2 653 mill. kroner for 2014. Beløpet foreslås bevilget over kap. 571 Rammetilskudd til kommuner og kap. 572 Rammetilskudd til fylkeskommuner.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Fremskrittspartiet, Høyre og Kristelig Folkeparti ble med 54 mot 47 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.55.49)</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Stortinget gir Kommunal- og regionaldepartementet fullmakt til å fordele etter skjønn 2 653 mill. kroner for 2014. Beløpet foreslås bevilget over kap. 571 Rammetilskudd til kommuner og kap. 572 Rammetilskudd til fylkeskommuner.</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4373"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4374">Fremskrittspartiet har varslet at de vil stemme imot.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble bifalt med 76 mot 24 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.56.47)</note>
-            <note type="uth">Votering i sak nr. 3</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble bifalt med 76 mot 24 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.56.47)</note>
+            <note type="comment">Votering i sak nr. 3</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4390"
@@ -3522,49 +3492,49 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4400">«Stortinget ber regjeringen iverksette tiltak for utenlandske ansatte i offentlige virksomheter slik at de oppnår et tilfredsstillende kunnskapsnivå i norsk språk.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4403">Det voteres alternativt mellom disse forslagene og komiteens innstilling.</seg>
             </u>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Dokument 8:36 S (2012–2013) – representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Morten Ørsal Johansen og Åge Starheim om å styrke norsk språk i offentlig tjenesteutøvelse – avvises.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Ved alternativ votering mellom komiteens innstilling og forslagene fra Fremskrittspartiet ble komiteens innstilling ble bifalt med 75 mot 25 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.57.28)</note>
-            <note type="uth">Votering i sak nr. 4</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="tit">I</note>
-            <note type="a">I statsbudsjettet for 2013 gjøres følgende endringer:</note>
-            <note type="entry">Kap.</note>
-            <note type="entry">Post</note>
-            <note type="entry">Formål</note>
-            <note type="entry">Kroner</note>
-            <note type="uth">Utgifter</note>
-            <note type="entry">2315</note>
-            <note type="entry">Lønnsregulering for arbeidstakere i det statlige tariffområdet</note>
-            <note type="entry">1</note>
-            <note type="entry">(Ny) Driftsutgifter,</note>
-            <note type="uth">bevilges</note>
-            <note type="entry">med</note>
-            <note type="entry">800 000 000</note>
-            <note type="entry">1503</note>
-            <note type="entry">Midler til opplæring og utvikling av tillitsvalgte</note>
-            <note type="entry">70</note>
-            <note type="entry">Tilskudd,</note>
-            <note type="uth">økes</note>
-            <note type="entry">med</note>
-            <note type="entry">9 087 000</note>
-            <note type="entry">fra kr 149 934 000 til kr 159 021 000</note>
-            <note type="tit">II</note>
-            <note type="a">Stortinget samtykker i at det med virkning fra 1. mai 2013 foretas regulering av lønningene mv. for arbeidstakere i det statlige tariffområdet som er medlemmer av LO Stat, YS Stat, Unio og Akademikerne i samsvar med protokoll av 30. april 2013.</note>
-            <note type="tit">III</note>
-            <note type="a">For embets- og tjenestemenn som ikke er medlemmer av organisasjoner som nevnt i II og derfor ikke får sine lønns- og arbeidsvilkår fastsatt i hovedtariffavtale, skal det gjelde de samme lønns- og arbeidsvilkår som etter II. Embets- og tjenestemenn som er tatt ut av hovedtariffavtalen, får sine lønns- og arbeidsvilkår fastsatt administrativt i egen kontrakt.</note>
-            <note type="tit">IV</note>
-            <note type="a">Stortinget samtykker i at Finansdepartementet får fullmakt til å fordele bevilgningen under kap. 2315 Lønnsregulering for arbeidstakere i det statlige tariffområdet, post 1 Driftsutgifter, på de av postene i statsbudsjettet som har lønnsbevilgning.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 5</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Stortinget samtykker til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltakelse i Det europeiske støttekontoret på asylfeltet (EASO).</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 6</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Dokument 8:36 S (2012–2013) – representantforslag fra stortingsrepresentantene Gjermund Hagesæter, Morten Ørsal Johansen og Åge Starheim om å styrke norsk språk i offentlig tjenesteutøvelse – avvises.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Ved alternativ votering mellom komiteens innstilling og forslagene fra Fremskrittspartiet ble komiteens innstilling ble bifalt med 75 mot 25 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.57.28)</note>
+            <note type="comment">Votering i sak nr. 4</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">I</note>
+            <note type="comment">I statsbudsjettet for 2013 gjøres følgende endringer:</note>
+            <note type="comment">Kap.</note>
+            <note type="comment">Post</note>
+            <note type="comment">Formål</note>
+            <note type="comment">Kroner</note>
+            <note type="comment">Utgifter</note>
+            <note type="comment">2315</note>
+            <note type="comment">Lønnsregulering for arbeidstakere i det statlige tariffområdet</note>
+            <note type="comment">1</note>
+            <note type="comment">(Ny) Driftsutgifter,</note>
+            <note type="comment">bevilges</note>
+            <note type="comment">med</note>
+            <note type="comment">800 000 000</note>
+            <note type="comment">1503</note>
+            <note type="comment">Midler til opplæring og utvikling av tillitsvalgte</note>
+            <note type="comment">70</note>
+            <note type="comment">Tilskudd,</note>
+            <note type="comment">økes</note>
+            <note type="comment">med</note>
+            <note type="comment">9 087 000</note>
+            <note type="comment">fra kr 149 934 000 til kr 159 021 000</note>
+            <note type="comment">II</note>
+            <note type="comment">Stortinget samtykker i at det med virkning fra 1. mai 2013 foretas regulering av lønningene mv. for arbeidstakere i det statlige tariffområdet som er medlemmer av LO Stat, YS Stat, Unio og Akademikerne i samsvar med protokoll av 30. april 2013.</note>
+            <note type="comment">III</note>
+            <note type="comment">For embets- og tjenestemenn som ikke er medlemmer av organisasjoner som nevnt i II og derfor ikke får sine lønns- og arbeidsvilkår fastsatt i hovedtariffavtale, skal det gjelde de samme lønns- og arbeidsvilkår som etter II. Embets- og tjenestemenn som er tatt ut av hovedtariffavtalen, får sine lønns- og arbeidsvilkår fastsatt administrativt i egen kontrakt.</note>
+            <note type="comment">IV</note>
+            <note type="comment">Stortinget samtykker i at Finansdepartementet får fullmakt til å fordele bevilgningen under kap. 2315 Lønnsregulering for arbeidstakere i det statlige tariffområdet, post 1 Driftsutgifter, på de av postene i statsbudsjettet som har lønnsbevilgning.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 5</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Stortinget samtykker til inngåelse av avtale mellom Norge og EU om vilkårene for Norges deltakelse i Det europeiske støttekontoret på asylfeltet (EASO).</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 6</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4550"
@@ -3575,12 +3545,12 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4558">Forslaget fra Venstre er levert inn etter den fristen som er satt opp i Stortingets forretningsorden § 39 for innlevering av forslag som det skal realitetsvoteres over. Presidenten vil likevel foreslå at det voteres over forslaget. – Det anses vedtatt.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4560">Det voteres alternativt mellom dette forslaget og komiteens innstilling.</seg>
             </u>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Dokument 8:67 S (2012–2013) – representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om fellesnordisk landinfo – bifalles ikke.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Ved alternativ votering mellom komiteens innstilling og forslaget fra Venstre ble innstillingen bifalt med 99 stemmer mot 1 stemme.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.58.47)</note>
-            <note type="uth">Votering i sak nr. 7</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Dokument 8:67 S (2012–2013) – representantforslag fra stortingsrepresentantene Trine Skei Grande og Borghild Tenden om fellesnordisk landinfo – bifalles ikke.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Ved alternativ votering mellom komiteens innstilling og forslaget fra Venstre ble innstillingen bifalt med 99 stemmer mot 1 stemme.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.58.47)</note>
+            <note type="comment">Votering i sak nr. 7</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4581"
@@ -3589,23 +3559,21 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4584">forslag nr. 1, fra presidentskapets medlem Øyvind Korsberg forslag nr. 2, fra presidentskapets medlem Akhtar Chaudhry</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4591">Det voteres først over forslag nr. 2, fra Akhtar Chaudhry. Forslaget lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4593">«Stortinget ber presidentskapet utrede hvordan Stortinget best kan sikre seg uavhengig kompetanse ved behandling av lovforslag.»</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4596">Voteringstavlene viste at det var avgitt 81 stemmer mot og 19 stemmer for forslaget.</seg>
-               <note>(Voteringsutskrift kl. 19.59.19)</note>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4596">Voteringstavlene viste at det var avgitt 81 stemmer mot og 19 stemmer for forslaget.<note type="comment">(Voteringsutskrift kl. 19.59.19)</note>
+               </seg>
             </u>
-            <note type="speaker">Morten Ørsal Johansen (FrP) [19:59:32]</note>
+            <note type="speaker">Morten Ørsal Johansen (FrP) [19:59:32] (fra salen):</note>
             <u who="#person.MOJ"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4602"
                xml:lang="nob">
-               <note>(fra salen):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4605s1">Jeg stemte feil.</seg>
             </u>
-            <note type="speaker">Eirik Sivertsen (A) [19:59:34]</note>
+            <note type="speaker">Eirik Sivertsen (A) [19:59:34] (fra salen):</note>
             <u who="#person.EIRS"
                ana="#regular"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4607"
                xml:lang="nob">
-               <note>(fra salen):</note>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4610s1">Jeg stemte også feil.</seg>
             </u>
             <u who="#person.LD"
@@ -3614,9 +3582,9 @@
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4613">Det var nok flere som stemte feil, så da tar vi voteringen om igjen.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra presidentskapets medlem Akhtar Chaudhry ble med 90 mot 12 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 19.59.58)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra presidentskapets medlem Akhtar Chaudhry ble med 90 mot 12 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 19.59.58)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4624"
@@ -3626,18 +3594,18 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4629">«Stortinget ber presidentskapet nedsette et utvalg for å utrede hvordan Stortinget best kan forsterke egen mulighet til å følge opp lovarbeid og sikre tilgang til uavhengig og kompetent vurdering av lovforslag, herunder om lovforslag kan være i strid med Grunnloven, rettsordningen, borgernes rettssikkerhet og menneskerettighetene.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4632">Venstre har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra presidentskapets medlem Øyvind Korsberg ble med 77 mot 25 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.00.20)</note>
-            <note type="a">Presidentskapet hadde innstilt:</note>
-            <note type="a">Dokument 8:120 S (2012–2013) representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget – bifalles ikke.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra presidentskapets medlem Øyvind Korsberg ble med 77 mot 25 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.00.20)</note>
+            <note type="comment">Presidentskapet hadde innstilt:</note>
+            <note type="comment">Dokument 8:120 S (2012–2013) representantforslag fra stortingsrepresentantene Anders Anundsen, Ulf Erik Knudsen og Øyvind Vaksdal om egen lovrådgiver for Stortinget – bifalles ikke.</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4647"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4648">Presidenten antar at Fremskrittspartiet og Sosialistisk Venstreparti her vil stemme imot.</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4650">Voteringstavlene viste at det var avgitt 63 stemmer for og 36 stemmer mot presidentskapets innstilling.</seg>
-               <note>(Voteringsutskrift kl. 20.00.51)</note>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4650">Voteringstavlene viste at det var avgitt 63 stemmer for og 36 stemmer mot presidentskapets innstilling.<note type="comment">(Voteringsutskrift kl. 20.00.51)</note>
+               </seg>
             </u>
             <u who="#person.LD"
                ana="#chair"
@@ -3647,81 +3615,81 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4659">Det er voldsomt mye feilvotering i dag. Har ikke representantene lyst til å gå hjem i kveld?</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4661">Presidenten foreslår at vi tar voteringen på nytt.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Presidentskapets innstilling ble bifalt med 67 mot 33 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.01.23)</note>
-            <note type="uth">Votering i sak nr. 8</note>
-            <note type="a">Presidentskapet hadde innstilt:</note>
-            <note type="tit">I</note>
-            <note type="a">Fra 1. oktober 2013 fastsettes grunntilskuddet til kr 4 134 400 per år, opposisjonstilskuddet fastsettes til kr 2 584 000 per år og representanttilskuddet fastsettes til kr 682 186 per år. Beregningen av rådgivertilskuddet til partiet med presidentskapsvervet videreføres uendret.</note>
-            <note type="tit">II</note>
-            <note type="a">Gruppene får videreført gjeldende tilskuddsberegning ut 2013 dersom det gir et høyere tilskudd enn ny beregningsmodell. Dette gjelder ikke opposisjonstilskuddet ved eventuelt regjeringsskifte.</note>
-            <note type="tit">III</note>
-            <note type="a">Følgende retningslinjer gjøres gjeldende for all bruk av tilskudd fra Stortinget til stortingsgrupper og uavhengige representanter:</note>
-            <note type="a">Bruk av tilskudd til partigruppene</note>
-            <note type="a">§ 1 Formål</note>
-            <note type="uth">Stortinget gir partigruppene tilskudd for at gruppene skal kunne drive sin virksomhet slik at stortingsrepresentantene kan utøve sitt stortingsverv.</note>
-            <note type="a">§ 2 Virkeområde og definisjoner</note>
-            <note type="a">Disse reglene gjelder all bruk av tilskudd fra Stortinget til stortingsgrupper og uavhengige representanter.</note>
-            <note type="uth">Med virksomhet i § 1 menes</note>
-            <note type="a">drift av et politisk og administrativt støtteapparat for stortingsgruppene, samt anskaffelse av varer og tjenester som gruppene finner nødvendig for å ivareta sine funksjoner i Stortinget.</note>
-            <note type="a">§ 3 Rettslig stilling</note>
-            <note type="a">Partienes stortingsgrupper og uavhengige representanter er å betrakte som egne juridiske enheter med ansvar for eget personell og egen økonomi.</note>
-            <note type="a">Stortingsgruppene vedtar selv regler for sin økonomistyring.</note>
-            <note type="a">Det er gruppenes ansvar å påse at tilskuddet blir brukt som forutsatt i retningslinjene. Er man i tvil, forelegges saken for presidentskapet.</note>
-            <note type="a">§ 4 Tilskuddets størrelse</note>
-            <note type="a">Gruppetilskuddets størrelse beregnes ut fra et grunntilskudd og et tilskudd per representant. Grupper som er i opposisjon, det vil si grupper som ikke er med i regjering, og har to representanter eller flere, får i tillegg et</note>
-            <note type="uth">opposisjonstilskudd</note>
-            <note type="a">. Grupper i opposisjon med én representant får ikke tillegg. Den gruppen som har presidentvervet, får i tillegg dekket et beløp tilsvarende 50 prosent av en rådgiverstilling.</note>
-            <note type="a">Ved regjeringsskifte vil opposisjonstillegget falle bort for partier som går inn i regjering, og komme i tillegg for partier som går over i opposisjon, fra den 1. i måneden etter at regjeringsskiftet har funnet sted.</note>
-            <note type="a">Representanter som trer ut av sin stortingsgruppe og blir uavhengige, mottar 50 prosent av det til enhver tid gjeldende representantbaserte tilskuddet. Representanter som går over fra én gruppe til en annen, tar med seg 50 prosent av det representantbaserte tilskuddet. Tilskuddet til den stortingsgruppen de har trådt ut av reduseres med 100 prosent av det representantbaserte tilskuddet.</note>
-            <note type="a">Grupper som reduseres etter et stortingsvalg, opprettholder sitt grunn- og representantbaserte tilskudd ut året. Deretter korrigeres tilskuddet i henhold til det nye antall representanter.</note>
-            <note type="a">Grupper som faller helt ut av Stortinget etter et stortingsvalg, opprettholder sitt grunn- og representantbaserte tilskudd ut året. Deretter stoppes tilskuddet. Grupper som faller helt ut, skal tilbakebetale til Stortinget de tilskuddsmidlene som står ubrukt etter at alle avviklingskostnader er dekket.</note>
-            <note type="a">§ 5 Forhold til egen partiorganisasjon</note>
-            <note type="a">Det skal være et klart skille mellom den offentlige støtten som går til partiorganisasjonene, og</note>
-            <note type="uth">det tilskuddet</note>
-            <note type="a">som bevilges over Stortingets budsjett til stortingsgruppene.</note>
-            <note type="uth">Ingen midler skal overføres til partiorganisasjonen sentralt. Gruppene kan likevel kjøpe følgende tjenester fra eget parti:</note>
-            <note type="a">1. lønnskjøring,</note>
-            <note type="a">2. regnskapsføring,</note>
-            <note type="a">3. kommunikasjonstjenester og</note>
-            <note type="a">4. HR-tjenester.</note>
-            <note type="uth">Honoraret for kjøp av slike tjenester skal kun dekke kostnadene partiet har ved å yte gruppen slike tjenester.</note>
-            <note type="a">Honorarets størrelse skal presiseres i egen note i regnskapsrapporten til presidentskapet.</note>
-            <note type="a">Ansatte i stortingsgruppene skal</note>
-            <note type="uth">i hovedsak</note>
-            <note type="a">ha sin arbeidsplass i Stortinget og ikke i partiorganisasjonen sentralt eller ved partikontorer lokalt i distriktene. Det er likevel anledning til å disponere personell noe friere</note>
-            <note type="uth">fra 1. mai i valgår</note>
-            <note type="a">.</note>
-            <note type="a">§ 6 Reiser og arrangementer</note>
-            <note type="a">Representantenes utgifter til reiser og arrangementer dekkes over Stortingets driftsbudsjett i samsvar med bestemmelser om stortingsrepresentantenes godtgjørelser.</note>
-            <note type="a">§ 7 Godtgjørelser og naturalytelser til representanter</note>
-            <note type="a">Bortsett fra eventuell tilleggsgodtgjørelse til parlamentarisk leder og</note>
-            <note type="uth">inntil to nestledere</note>
-            <note type="a">skal tilskuddsmidler ikke utbetales som godtgjørelse eller benyttes til naturalytelser til stortingsrepresentanter. Innberetningspliktige ytelser skal spesifiseres i egen note i regnskapsrapporten, slik at det framgår hva hver enkelt har mottatt. Det legges til grunn at de ytelser det her er snakk om må ha karakter av faste ordninger som kan ses som en form for godtgjørelse til vedkommende representant, og at situasjonsbestemte ytelser, som for eksempel åremålsgaver/tilstelninger og lignende, faller utenfor.</note>
-            <note type="uth">Gruppene kan likevel tilby representantene forsikringsordninger. Forsikringsordningens kostnader skal presiseres i egen note i regnskapsrapporten til presidentskapet.</note>
-            <note type="a">§ 8 Politisk reklame</note>
-            <note type="a">Gruppetilskuddet skal ikke brukes til kjøp av politisk reklame for partier eller stortingsgrupper i media. Med politisk reklame menes annonser, kommersielle kampanjer og markedsføring av politiske standpunkter, verdier og budskap. Med medier menes alle former for medier, for eksempel aviser, radio, fjernsyn, nett, kino og boards. Gruppetilskuddet kan dog brukes til kjøp av stillingsannonser og lignende.</note>
-            <note type="a">§ 9 Regnskapsføring og revisjon</note>
-            <note type="a">Stortingsgrupper og uavhengige representanter skal føre regnskap. Årlig regnskapsrapport sendes til presidentskapet innen 15. mai påfølgende år. Antall ansatte i stortingsgruppen skal framgå av regnskapsrapporten. Regnskapsrapporten skal følge kontantprinsippet og vise påløpte utgifter. Presidentskapet gir nærmere bestemmelser om regnskapsrapportens utforming, slik at rapportering kan skje etter en ensartet mal.</note>
-            <note type="a">Regnskapene til stortingsgruppene og uavhengige representanter skal årlig revideres av en statsautorisert revisor oppnevnt av Stortingets presidentskap. Revisjonsberetningen for hvert grupperegnskap framlegges for presidentskapet sammen med regnskapsrapportene.</note>
-            <note type="a">Revisor skal kunne bistå partigruppene med nødvendige avklaringer.</note>
-            <note type="a">Revisor fakturerer hver enkelt gruppe direkte for sine tjenester.</note>
-            <note type="a">Regnskapsrapporten og revisjonsberetningen gjøres offentlig tilgjengelige når de fremmes for presidentskapet.</note>
-            <note type="a">§ 10 Tildeling</note>
-            <note type="uth">Hver enkelt gruppe mottar et tilskuddsbrev en gang i året der beregningen av tilskuddet framkommer.</note>
-            <note type="a">Tilskuddet utbetales månedlig, med ca. 1/12 av det totale årsbeløpet.</note>
-            <note type="a">§ 11 Regulering</note>
-            <note type="a">Gruppetilskuddet reguleres årlig, hvorav 80 prosent følger årslønnsveksten i staten slik den framgår fra Det tekniske beregningsutvalget, og 20 prosent reguleres med konsumprisindeksen slik den framgår av Statistisk sentralbyrås beregninger. Gruppetilskuddet rundes av til nærmeste hele tusen kroner.</note>
-            <note type="a">§ 12 Utfyllende bestemmelser</note>
-            <note type="uth">Stortingets presidentskap kan utfylle disse retningslinjene.</note>
-            <note type="a">§ 13 Ikrafttreden</note>
-            <note type="uth">Retningslinjene trer i kraft fra 1.oktober 2013.</note>
-            <note type="tit">IV</note>
-            <note type="a">Retningslinjene trer i kraft 1. oktober 2013.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Presidentskapets innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 9</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Presidentskapets innstilling ble bifalt med 67 mot 33 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.01.23)</note>
+            <note type="comment">Votering i sak nr. 8</note>
+            <note type="comment">Presidentskapet hadde innstilt:</note>
+            <note type="comment">I</note>
+            <note type="comment">Fra 1. oktober 2013 fastsettes grunntilskuddet til kr 4 134 400 per år, opposisjonstilskuddet fastsettes til kr 2 584 000 per år og representanttilskuddet fastsettes til kr 682 186 per år. Beregningen av rådgivertilskuddet til partiet med presidentskapsvervet videreføres uendret.</note>
+            <note type="comment">II</note>
+            <note type="comment">Gruppene får videreført gjeldende tilskuddsberegning ut 2013 dersom det gir et høyere tilskudd enn ny beregningsmodell. Dette gjelder ikke opposisjonstilskuddet ved eventuelt regjeringsskifte.</note>
+            <note type="comment">III</note>
+            <note type="comment">Følgende retningslinjer gjøres gjeldende for all bruk av tilskudd fra Stortinget til stortingsgrupper og uavhengige representanter:</note>
+            <note type="comment">Bruk av tilskudd til partigruppene</note>
+            <note type="comment">§ 1 Formål</note>
+            <note type="comment">Stortinget gir partigruppene tilskudd for at gruppene skal kunne drive sin virksomhet slik at stortingsrepresentantene kan utøve sitt stortingsverv.</note>
+            <note type="comment">§ 2 Virkeområde og definisjoner</note>
+            <note type="comment">Disse reglene gjelder all bruk av tilskudd fra Stortinget til stortingsgrupper og uavhengige representanter.</note>
+            <note type="comment">Med virksomhet i § 1 menes</note>
+            <note type="comment">drift av et politisk og administrativt støtteapparat for stortingsgruppene, samt anskaffelse av varer og tjenester som gruppene finner nødvendig for å ivareta sine funksjoner i Stortinget.</note>
+            <note type="comment">§ 3 Rettslig stilling</note>
+            <note type="comment">Partienes stortingsgrupper og uavhengige representanter er å betrakte som egne juridiske enheter med ansvar for eget personell og egen økonomi.</note>
+            <note type="comment">Stortingsgruppene vedtar selv regler for sin økonomistyring.</note>
+            <note type="comment">Det er gruppenes ansvar å påse at tilskuddet blir brukt som forutsatt i retningslinjene. Er man i tvil, forelegges saken for presidentskapet.</note>
+            <note type="comment">§ 4 Tilskuddets størrelse</note>
+            <note type="comment">Gruppetilskuddets størrelse beregnes ut fra et grunntilskudd og et tilskudd per representant. Grupper som er i opposisjon, det vil si grupper som ikke er med i regjering, og har to representanter eller flere, får i tillegg et</note>
+            <note type="comment">opposisjonstilskudd</note>
+            <note type="comment">. Grupper i opposisjon med én representant får ikke tillegg. Den gruppen som har presidentvervet, får i tillegg dekket et beløp tilsvarende 50 prosent av en rådgiverstilling.</note>
+            <note type="comment">Ved regjeringsskifte vil opposisjonstillegget falle bort for partier som går inn i regjering, og komme i tillegg for partier som går over i opposisjon, fra den 1. i måneden etter at regjeringsskiftet har funnet sted.</note>
+            <note type="comment">Representanter som trer ut av sin stortingsgruppe og blir uavhengige, mottar 50 prosent av det til enhver tid gjeldende representantbaserte tilskuddet. Representanter som går over fra én gruppe til en annen, tar med seg 50 prosent av det representantbaserte tilskuddet. Tilskuddet til den stortingsgruppen de har trådt ut av reduseres med 100 prosent av det representantbaserte tilskuddet.</note>
+            <note type="comment">Grupper som reduseres etter et stortingsvalg, opprettholder sitt grunn- og representantbaserte tilskudd ut året. Deretter korrigeres tilskuddet i henhold til det nye antall representanter.</note>
+            <note type="comment">Grupper som faller helt ut av Stortinget etter et stortingsvalg, opprettholder sitt grunn- og representantbaserte tilskudd ut året. Deretter stoppes tilskuddet. Grupper som faller helt ut, skal tilbakebetale til Stortinget de tilskuddsmidlene som står ubrukt etter at alle avviklingskostnader er dekket.</note>
+            <note type="comment">§ 5 Forhold til egen partiorganisasjon</note>
+            <note type="comment">Det skal være et klart skille mellom den offentlige støtten som går til partiorganisasjonene, og</note>
+            <note type="comment">det tilskuddet</note>
+            <note type="comment">som bevilges over Stortingets budsjett til stortingsgruppene.</note>
+            <note type="comment">Ingen midler skal overføres til partiorganisasjonen sentralt. Gruppene kan likevel kjøpe følgende tjenester fra eget parti:</note>
+            <note type="comment">1. lønnskjøring,</note>
+            <note type="comment">2. regnskapsføring,</note>
+            <note type="comment">3. kommunikasjonstjenester og</note>
+            <note type="comment">4. HR-tjenester.</note>
+            <note type="comment">Honoraret for kjøp av slike tjenester skal kun dekke kostnadene partiet har ved å yte gruppen slike tjenester.</note>
+            <note type="comment">Honorarets størrelse skal presiseres i egen note i regnskapsrapporten til presidentskapet.</note>
+            <note type="comment">Ansatte i stortingsgruppene skal</note>
+            <note type="comment">i hovedsak</note>
+            <note type="comment">ha sin arbeidsplass i Stortinget og ikke i partiorganisasjonen sentralt eller ved partikontorer lokalt i distriktene. Det er likevel anledning til å disponere personell noe friere</note>
+            <note type="comment">fra 1. mai i valgår</note>
+            <note type="comment">.</note>
+            <note type="comment">§ 6 Reiser og arrangementer</note>
+            <note type="comment">Representantenes utgifter til reiser og arrangementer dekkes over Stortingets driftsbudsjett i samsvar med bestemmelser om stortingsrepresentantenes godtgjørelser.</note>
+            <note type="comment">§ 7 Godtgjørelser og naturalytelser til representanter</note>
+            <note type="comment">Bortsett fra eventuell tilleggsgodtgjørelse til parlamentarisk leder og</note>
+            <note type="comment">inntil to nestledere</note>
+            <note type="comment">skal tilskuddsmidler ikke utbetales som godtgjørelse eller benyttes til naturalytelser til stortingsrepresentanter. Innberetningspliktige ytelser skal spesifiseres i egen note i regnskapsrapporten, slik at det framgår hva hver enkelt har mottatt. Det legges til grunn at de ytelser det her er snakk om må ha karakter av faste ordninger som kan ses som en form for godtgjørelse til vedkommende representant, og at situasjonsbestemte ytelser, som for eksempel åremålsgaver/tilstelninger og lignende, faller utenfor.</note>
+            <note type="comment">Gruppene kan likevel tilby representantene forsikringsordninger. Forsikringsordningens kostnader skal presiseres i egen note i regnskapsrapporten til presidentskapet.</note>
+            <note type="comment">§ 8 Politisk reklame</note>
+            <note type="comment">Gruppetilskuddet skal ikke brukes til kjøp av politisk reklame for partier eller stortingsgrupper i media. Med politisk reklame menes annonser, kommersielle kampanjer og markedsføring av politiske standpunkter, verdier og budskap. Med medier menes alle former for medier, for eksempel aviser, radio, fjernsyn, nett, kino og boards. Gruppetilskuddet kan dog brukes til kjøp av stillingsannonser og lignende.</note>
+            <note type="comment">§ 9 Regnskapsføring og revisjon</note>
+            <note type="comment">Stortingsgrupper og uavhengige representanter skal føre regnskap. Årlig regnskapsrapport sendes til presidentskapet innen 15. mai påfølgende år. Antall ansatte i stortingsgruppen skal framgå av regnskapsrapporten. Regnskapsrapporten skal følge kontantprinsippet og vise påløpte utgifter. Presidentskapet gir nærmere bestemmelser om regnskapsrapportens utforming, slik at rapportering kan skje etter en ensartet mal.</note>
+            <note type="comment">Regnskapene til stortingsgruppene og uavhengige representanter skal årlig revideres av en statsautorisert revisor oppnevnt av Stortingets presidentskap. Revisjonsberetningen for hvert grupperegnskap framlegges for presidentskapet sammen med regnskapsrapportene.</note>
+            <note type="comment">Revisor skal kunne bistå partigruppene med nødvendige avklaringer.</note>
+            <note type="comment">Revisor fakturerer hver enkelt gruppe direkte for sine tjenester.</note>
+            <note type="comment">Regnskapsrapporten og revisjonsberetningen gjøres offentlig tilgjengelige når de fremmes for presidentskapet.</note>
+            <note type="comment">§ 10 Tildeling</note>
+            <note type="comment">Hver enkelt gruppe mottar et tilskuddsbrev en gang i året der beregningen av tilskuddet framkommer.</note>
+            <note type="comment">Tilskuddet utbetales månedlig, med ca. 1/12 av det totale årsbeløpet.</note>
+            <note type="comment">§ 11 Regulering</note>
+            <note type="comment">Gruppetilskuddet reguleres årlig, hvorav 80 prosent følger årslønnsveksten i staten slik den framgår fra Det tekniske beregningsutvalget, og 20 prosent reguleres med konsumprisindeksen slik den framgår av Statistisk sentralbyrås beregninger. Gruppetilskuddet rundes av til nærmeste hele tusen kroner.</note>
+            <note type="comment">§ 12 Utfyllende bestemmelser</note>
+            <note type="comment">Stortingets presidentskap kan utfylle disse retningslinjene.</note>
+            <note type="comment">§ 13 Ikrafttreden</note>
+            <note type="comment">Retningslinjene trer i kraft fra 1.oktober 2013.</note>
+            <note type="comment">IV</note>
+            <note type="comment">Retningslinjene trer i kraft 1. oktober 2013.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Presidentskapets innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 9</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e4837"
@@ -3738,62 +3706,62 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4897">Stortinget samtykker i at følgende godtgjørelser fastsettes med virkning fra 1. mai 2013:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e4899">Stortingsrepresentanterkr836 579pr. årRegjeringsmedlemmerkr1 195 072pr. årStatsministerkr1 469 831pr. år</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Ved alternativ votering mellom presidentskapets innstilling og forslagene fra presidentskapets medlem Akhtar Chaudhry ble presidentskapets innstilling bifalt med 93 mot 9 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.02.23)</note>
-            <note type="uth">Votering i sak nr. 10</note>
-            <note type="a">Valgkomiteen hadde innstilt:</note>
-            <note type="a">Som medlemmer og varamedlemmer til forberedende fullmaktskomité velges:</note>
-            <note type="uth">Medlemmer:</note>
-            <note type="uth">Personlige varamedlemmer:</note>
-            <note type="entry">1.</note>
-            <note type="entry">Bendiks H. Arnesen, leder</note>
-            <note type="entry">Svein Roald Hansen</note>
-            <note type="entry">2.</note>
-            <note type="entry">Gerd Janne Kristoffersen</note>
-            <note type="entry">Wenche Olsen</note>
-            <note type="entry">3.</note>
-            <note type="entry">Tore Nordtun</note>
-            <note type="entry">Jan Bøhler</note>
-            <note type="entry">4.</note>
-            <note type="entry">Marit Nybakk</note>
-            <note type="entry">Marianne Aasen</note>
-            <note type="entry">5.</note>
-            <note type="entry">Sverre Myrli</note>
-            <note type="entry">Truls Wickholm</note>
-            <note type="entry">6.</note>
-            <note type="entry">Tone Merete Sønsterud</note>
-            <note type="entry">Lise Christoffersen</note>
-            <note type="entry">7.</note>
-            <note type="entry">Anders Anundsen, nestleder</note>
-            <note type="entry">Bård Hoksrud</note>
-            <note type="entry">8.</note>
-            <note type="entry">Ulf Leirstein</note>
-            <note type="entry">Christian Tybring-Gjedde</note>
-            <note type="entry">9.</note>
-            <note type="entry">Solveig Horne</note>
-            <note type="entry">Vigdis Giltun</note>
-            <note type="entry">10.</note>
-            <note type="entry">Sylvi Graham</note>
-            <note type="entry">Svein Flåtten</note>
-            <note type="entry">11.</note>
-            <note type="entry">Michael Tetzschner</note>
-            <note type="entry">Ingjerd Schou</note>
-            <note type="entry">12.</note>
-            <note type="entry">Gunnar Gundersen</note>
-            <note type="entry">Nikolai Astrup</note>
-            <note type="entry">13.</note>
-            <note type="entry">Geir-Ketil Hansen</note>
-            <note type="entry">Heidi Sørensen</note>
-            <note type="entry">14.</note>
-            <note type="entry">Magnhild Meltveit Kleppa</note>
-            <note type="entry">Anne Tingelstad Wøien</note>
-            <note type="entry">15.</note>
-            <note type="entry">Laila Dåvøy</note>
-            <note type="entry">Kjell Ingolf Ropstad</note>
-            <note type="uth">Votering:</note>
-            <note type="a">Valgkomiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 11</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Ved alternativ votering mellom presidentskapets innstilling og forslagene fra presidentskapets medlem Akhtar Chaudhry ble presidentskapets innstilling bifalt med 93 mot 9 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.02.23)</note>
+            <note type="comment">Votering i sak nr. 10</note>
+            <note type="comment">Valgkomiteen hadde innstilt:</note>
+            <note type="comment">Som medlemmer og varamedlemmer til forberedende fullmaktskomité velges:</note>
+            <note type="comment">Medlemmer:</note>
+            <note type="comment">Personlige varamedlemmer:</note>
+            <note type="comment">1.</note>
+            <note type="comment">Bendiks H. Arnesen, leder</note>
+            <note type="comment">Svein Roald Hansen</note>
+            <note type="comment">2.</note>
+            <note type="comment">Gerd Janne Kristoffersen</note>
+            <note type="comment">Wenche Olsen</note>
+            <note type="comment">3.</note>
+            <note type="comment">Tore Nordtun</note>
+            <note type="comment">Jan Bøhler</note>
+            <note type="comment">4.</note>
+            <note type="comment">Marit Nybakk</note>
+            <note type="comment">Marianne Aasen</note>
+            <note type="comment">5.</note>
+            <note type="comment">Sverre Myrli</note>
+            <note type="comment">Truls Wickholm</note>
+            <note type="comment">6.</note>
+            <note type="comment">Tone Merete Sønsterud</note>
+            <note type="comment">Lise Christoffersen</note>
+            <note type="comment">7.</note>
+            <note type="comment">Anders Anundsen, nestleder</note>
+            <note type="comment">Bård Hoksrud</note>
+            <note type="comment">8.</note>
+            <note type="comment">Ulf Leirstein</note>
+            <note type="comment">Christian Tybring-Gjedde</note>
+            <note type="comment">9.</note>
+            <note type="comment">Solveig Horne</note>
+            <note type="comment">Vigdis Giltun</note>
+            <note type="comment">10.</note>
+            <note type="comment">Sylvi Graham</note>
+            <note type="comment">Svein Flåtten</note>
+            <note type="comment">11.</note>
+            <note type="comment">Michael Tetzschner</note>
+            <note type="comment">Ingjerd Schou</note>
+            <note type="comment">12.</note>
+            <note type="comment">Gunnar Gundersen</note>
+            <note type="comment">Nikolai Astrup</note>
+            <note type="comment">13.</note>
+            <note type="comment">Geir-Ketil Hansen</note>
+            <note type="comment">Heidi Sørensen</note>
+            <note type="comment">14.</note>
+            <note type="comment">Magnhild Meltveit Kleppa</note>
+            <note type="comment">Anne Tingelstad Wøien</note>
+            <note type="comment">15.</note>
+            <note type="comment">Laila Dåvøy</note>
+            <note type="comment">Kjell Ingolf Ropstad</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Valgkomiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 11</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5094"
@@ -3807,9 +3775,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5110">Forslag nr. 10 lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5112">«Stortinget ber regjeringen vurdere hvordan fordelingen av spillemidler i større grad kan benyttes til å aktivisere lite aktive i alle aldre.»</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Venstre ble med 100 stemmer mot 1 stemme ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.03.58)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Venstre ble med 100 stemmer mot 1 stemme ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.03.58)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5124"
@@ -3819,9 +3787,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5129">«Stortinget ber regjeringen i forbindelse med statsbudsjettet for 2014 øke tilskuddene til friluftstiltak.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5132">Kristelig Folkeparti har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble med 94 mot 8 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.04.16)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble med 94 mot 8 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.04.16)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5143"
@@ -3833,9 +3801,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5153">«Stortinget ber regjeringen fremme forslag om å endre avgiftssystemet for alkohol for å vri konsumet fra sterke til svakere alkoholholdige drikker.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5156">Fremskrittspartiet har varslet at de vil støtte forslagene.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Venstre ble med 78 mot 23 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.04.35)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Venstre ble med 78 mot 23 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.04.35)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5167"
@@ -3849,9 +3817,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5182">«Stortinget ber regjeringen styrke utdanningen av helsesøstre.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5185">Fremskrittspartiet og Kristelig Folkeparti har varslet at de vil støtte forslagene.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslagene fra Venstre ble med 69 mot 31 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.04.55)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslagene fra Venstre ble med 69 mot 31 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.04.55)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5196"
@@ -3861,9 +3829,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5201">«Stortinget ber regjeringen innføre en prøveordning med fastpsykolog i kommunene.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5204">Fremskrittspartiet og Høyre har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble med 61 mot 41 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.05.17)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble med 61 mot 41 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.05.17)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5215"
@@ -3873,9 +3841,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5220">«Stortinget ber regjeringen fremme forslag om å øke momskompensasjonsordningen for breddeidrettsanlegg.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5223">Fremskrittspartiet, Høyre og Kristelig Folkeparti har varslet at de vil støtte forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble med 58 mot 43 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.05.37)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble med 58 mot 43 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.05.37)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5234"
@@ -3884,13 +3852,13 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5237">«Stortinget ber regjeringen vurdere hvordan friluftsliv i større grad kan prioriteres for å oppfylle statens mål i folkehelsepolitikken og de idrettspolitiske mål om «idrett og fysisk aktivitet for alle».»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5240">Presidenten vi gjøre oppmerksom på at her har alle partiene varslet at de vil stemme for forslaget.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Venstre ble enstemmig bifalt.</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Meld. St. 34 (2012–2013) – om folkehelsemeldingen God helse – felles ansvar – vedlegges protokollen.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 12</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Venstre ble enstemmig bifalt.</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Meld. St. 34 (2012–2013) – om folkehelsemeldingen God helse – felles ansvar – vedlegges protokollen.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 12</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5265"
@@ -3899,12 +3867,12 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5268">«Stortinget ber regjeringen i forbindelse med statsbudsjettet for 2014 sørge for at Special Olympics Norge får en stabil og forutsigbar finansiering.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5271">Det voteres alternativt mellom dette forslaget og komiteens innstilling.</seg>
             </u>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Dokument 8:116 S (2012–2013) – representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemning – vedlegges protokollen.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Ved alternativ votering mellom komiteens innstilling og forslaget fra Fremskrittspartiet ble innstillingen bifalt med 73 mot 26 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.06.52)</note>
-            <note type="uth">Votering i sak nr. 13</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Dokument 8:116 S (2012–2013) – representantforslag fra stortingsrepresentantene Siv Jensen, Solveig Horne og Kari Kjønaas Kjos om et styrket aktivitets- og folkehelsetilbud for mennesker med psykisk utviklingshemning – vedlegges protokollen.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Ved alternativ votering mellom komiteens innstilling og forslaget fra Fremskrittspartiet ble innstillingen bifalt med 73 mot 26 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.06.52)</note>
+            <note type="comment">Votering i sak nr. 13</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5293"
@@ -3914,11 +3882,11 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5303">Det voteres først over forslag nr. 3, fra Fremskrittspartiet. Forslaget lyder:</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5305">«Stortinget ber regjeringen utarbeide en tiltaksplan for å forbedre pasientsikkerheten generelt og til sårbare pasientgrupper spesielt. Sykehusene, Statens helsetilsyn og pasient- og brukerorganisasjoner bør inviteres til å delta i utformingen av en slik konkret tiltaksplan.»</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Forslaget fra Fremskrittspartiet ble med 78 mot 24 stemmer ikke bifalt.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.07.19)</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Dokument 8:114 S (2012–2013) – representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper – vedlegges protokollen.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Forslaget fra Fremskrittspartiet ble med 78 mot 24 stemmer ikke bifalt.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.07.19)</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Dokument 8:114 S (2012–2013) – representantforslag fra stortingsrepresentantene Anders Anundsen, Jon Jæger Gåsvatn, Kari Kjønaas Kjos og Per Arne Olsen om å styrke pasientrettighetene for sårbare pasientgrupper – vedlegges protokollen.</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5321"
@@ -3930,46 +3898,44 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5331">«Stortinget ber regjeringen legge frem forslag som sikrer tilstrekkelig motivasjon i helsesektoren for å lære av egne og andres feil, og på den måten redusere uheldige hendelser.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5334">Venstre har varslet at de vil stemme for forslagene.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Ved alternativ votering mellom komiteens innstilling og forslagene fra Fremskrittspartiet, Høyre og Venstre ble innstillingen bifalt med 54 mot 47 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.08.01)</note>
-            <note type="uth">Votering i sak nr. 14</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Stortinget samtykkjer i at Helse- og omsorgsdepartementet får fullmakt til å gjere endringar i løyvingane til trygderefusjonane for legehjelp, psykologhjelp og fysioterapi frå 1. juli 2013. Endringane vil bli gjort på grunnlag av eventuelle avtalar med Den norske legeforening og Norsk Psykologforening og den pågåande høyringsprosess for endringar i forskrift om stønad til dekning av fysioterapi.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 15</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="a">Samferdselsdepartementet får fullmakt til å gjennomføre prosjektet E6 Halselv–Møllnes innafor ei kostnadsramme på 992 mill. kroner.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling ble enstemmig bifalt.</note>
-            <note type="uth">Votering i sak nr. 16</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Ved alternativ votering mellom komiteens innstilling og forslagene fra Fremskrittspartiet, Høyre og Venstre ble innstillingen bifalt med 54 mot 47 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.08.01)</note>
+            <note type="comment">Votering i sak nr. 14</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Stortinget samtykkjer i at Helse- og omsorgsdepartementet får fullmakt til å gjere endringar i løyvingane til trygderefusjonane for legehjelp, psykologhjelp og fysioterapi frå 1. juli 2013. Endringane vil bli gjort på grunnlag av eventuelle avtalar med Den norske legeforening og Norsk Psykologforening og den pågåande høyringsprosess for endringar i forskrift om stønad til dekning av fysioterapi.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 15</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">Samferdselsdepartementet får fullmakt til å gjennomføre prosjektet E6 Halselv–Møllnes innafor ei kostnadsramme på 992 mill. kroner.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling ble enstemmig bifalt.</note>
+            <note type="comment">Votering i sak nr. 16</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5382"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5383">Under debatten har Bård Hoksrud satt fram ett forslag på vegne av Fremskrittspartiet. Forslaget lyder:</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5385">«Stortinget samtykker i sluttføring av Østfoldpakka og var utbygging av E18 på strekningene Riksgrensen–Ørje og Knapstad–Retvet bygges som omtalt i Prop. 176 S</seg>
-               <note>(2012–2013)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5385s1">. Stortinget samtykker videre i at prosjektet i sin helhet finansieres av staten. Stortinget ber regjeringen sørge for nødvendig forskuttering av midler for å holde planlagt fremdrift, og at endelig finansiering legges inn i sluttsalderingen for budsjettet for 2013.»</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5385">«Stortinget samtykker i sluttføring av Østfoldpakka og var utbygging av E18 på strekningene Riksgrensen–Ørje og Knapstad–Retvet bygges som omtalt i Prop. 176 S<note type="comment">(2012–2013)</note>. Stortinget samtykker videre i at prosjektet i sin helhet finansieres av staten. Stortinget ber regjeringen sørge for nødvendig forskuttering av midler for å holde planlagt fremdrift, og at endelig finansiering legges inn i sluttsalderingen for budsjettet for 2013.»</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5388">Det voteres alternativt mellom dette forslaget og komiteens innstilling.</seg>
             </u>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="tit">I</note>
-            <note type="a">Stortinget samtykker i at bompengeselskapet får tillatelse til å ta opp lån og kreve inn bompenger til delvis bompengefinansiering av utbyggingen av strekningene Riksgrensen–Ørje og Knapstad–Retvet. Vilkårene fremgår av Prop. 176 S (2012–2013) og Innst. 510 S (2012–2013).</note>
-            <note type="tit">II</note>
-            <note type="a">Samferdselsdepartementet får fullmakt til å inngå avtale med bompengeselskapet og fastsette nærmere regler for finansieringsordningen.</note>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Ved alternativ votering mellom komiteens innstilling og forslaget fra Fremskrittspartiet ble innstillingen bifalt med 78 mot 24 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.09.00)</note>
-            <note type="uth">Votering i sak nr. 17</note>
-            <note type="innstillet">Komiteen hadde innstilt:</note>
-            <note type="tit">I</note>
-            <note type="a">Stortinget samtykker i at Nærings- og handelsdepartementet kan kjøpe aksjer i Cermaq ASA slik at statens eierandel kan økes opp til 65 pst.</note>
-            <note type="tit">II</note>
-            <note type="a">Stortinget samtykker i at Nærings- og handelsdepartementet i statsbudsjettet for 2013 kan utgiftsføre kjøp av aksjer i Cermaq ASA uten bevilgning under kap. 950 Forvaltning av statlig eierskap, post 96 Aksjer.</note>
-            <note type="tit">III</note>
-            <note type="a">Stortinget samtykker i at Nærings- og handelsdepartementet kan selge, med oppgjør i kontanter og/eller aksjer i et annet selskap i samme bransje, samtlige av statens aksjer i Cermaq som en del av en industriell løsning.</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">I</note>
+            <note type="comment">Stortinget samtykker i at bompengeselskapet får tillatelse til å ta opp lån og kreve inn bompenger til delvis bompengefinansiering av utbyggingen av strekningene Riksgrensen–Ørje og Knapstad–Retvet. Vilkårene fremgår av Prop. 176 S (2012–2013) og Innst. 510 S (2012–2013).</note>
+            <note type="comment">II</note>
+            <note type="comment">Samferdselsdepartementet får fullmakt til å inngå avtale med bompengeselskapet og fastsette nærmere regler for finansieringsordningen.</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Ved alternativ votering mellom komiteens innstilling og forslaget fra Fremskrittspartiet ble innstillingen bifalt med 78 mot 24 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.09.00)</note>
+            <note type="comment">Votering i sak nr. 17</note>
+            <note type="comment">Komiteen hadde innstilt:</note>
+            <note type="comment">I</note>
+            <note type="comment">Stortinget samtykker i at Nærings- og handelsdepartementet kan kjøpe aksjer i Cermaq ASA slik at statens eierandel kan økes opp til 65 pst.</note>
+            <note type="comment">II</note>
+            <note type="comment">Stortinget samtykker i at Nærings- og handelsdepartementet i statsbudsjettet for 2013 kan utgiftsføre kjøp av aksjer i Cermaq ASA uten bevilgning under kap. 950 Forvaltning av statlig eierskap, post 96 Aksjer.</note>
+            <note type="comment">III</note>
+            <note type="comment">Stortinget samtykker i at Nærings- og handelsdepartementet kan selge, med oppgjør i kontanter og/eller aksjer i et annet selskap i samme bransje, samtlige av statens aksjer i Cermaq som en del av en industriell løsning.</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5435"
@@ -3977,9 +3943,9 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5436">Det voteres over innstillingens I og II.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5438">Fremskrittspartiet, Høyre og Venstre har varslet at de vil stemme imot.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling til I og II ble bifalt med 60 mot 42 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.09.23)</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling til I og II ble bifalt med 60 mot 42 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.09.23)</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5450"
@@ -3987,10 +3953,10 @@
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5451">Det voteres over innstillingens III.</seg>
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5453">Kristelig Folkeparti har varslet at de vil stemme imot.</seg>
             </u>
-            <note type="uth">Votering:</note>
-            <note type="merknad">Komiteens innstilling til III ble bifalt med 79 mot 7 stemmer.</note>
-            <note type="merknad">(Voteringsutskrift kl. 20.09.45)</note>
-            <note type="uth">Votering i sakene nr. 18–27</note>
+            <note type="comment">Votering:</note>
+            <note type="comment">Komiteens innstilling til III ble bifalt med 79 mot 7 stemmer.</note>
+            <note type="comment">(Voteringsutskrift kl. 20.09.45)</note>
+            <note type="comment">Votering i sakene nr. 18–27</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5467"
@@ -4000,21 +3966,19 @@
             </u>
          </div>
          <div type="debateSection">
-            <note type="uth">Sak nr. 28</note>
-            <note type="tit">[20:10:06]</note>
-            <note type="uth">Referat</note>
+            <note type="comment">Sak nr. 28</note>
+            <note type="comment">[20:10:06]</note>
+            <note type="comment">Referat</note>
             <u who="#person.LD"
                ana="#chair"
                xml:id="ParlaMint-NO_2013-06-20.ud2501e5481"
                xml:lang="nob">
                <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5482">Det foreligger ikke noe referat. Dermed er dagens kart ferdigbehandlet.</seg>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5484">Presidenten vil få lov til å takke for seg. Det er siste gangen jeg presiderer i dag – og «forever», tror jeg. Tusen takk for meg. Det har vært en stor glede.</seg>
-               <note>(Applaus i salen)</note>
-               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5486">Forlanger noen ordet før møtet heves? – Møtet er hevet.</seg>
+               <seg xml:id="ParlaMint-NO_2013-06-20.segd2501e5484">Presidenten vil få lov til å takke for seg. Det er siste gangen jeg presiderer i dag – og «forever», tror jeg. Tusen takk for meg. Det har vært en stor glede.<note type="comment">(Applaus i salen)</note>Forlanger noen ordet før møtet heves? – Møtet er hevet.</seg>
             </u>
          </div>
-         <div type="debateSection">
-            <note type="slutt">Møtet hevet kl. 20.10.</note>
+         <div type="commentSection">
+            <note type="comment">Møtet hevet kl. 20.10.</note>
          </div>
       </body>
    </text>

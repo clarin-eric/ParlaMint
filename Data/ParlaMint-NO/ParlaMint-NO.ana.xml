@@ -6,7 +6,9 @@
       <fileDesc>
          <titleStmt>
             <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="nob">Norsk stortingskorpus ParlaMint-NO [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="en">Transcriptions of the Norwegian Parliament, Stortinget, 1997-2022</title>
+            <title type="sub" xml:lang="nob">Transkripsjoner fra Stortinget, 1997-2022</title>
             <meeting corresp="#ST" ana="#parla.national #parla.session #ST.1998-1999">Session 1998-1999</meeting>
             <meeting corresp="#ST" ana="#parla.national #parla.session #ST.1999-2000">Session 1999-2000</meeting>
             <meeting corresp="#ST" ana="#parla.national #parla.session #ST.2000-2001">Session 2000-2001</meeting>
@@ -51,8 +53,8 @@
          <extent>
             <measure quantity="585" unit="speeches" xml:lang="en">585 speeches</measure>
             <measure quantity="585" unit="speeches" xml:lang="nob">585 taler</measure>
-            <measure quantity="154385" unit="words" xml:lang="en">154,385 words</measure>
-            <measure quantity="154385" unit="words" xml:lang="nob">154,385 ord</measure>
+            <measure quantity="154383" unit="words" xml:lang="en">154,383 words</measure>
+            <measure quantity="154383" unit="words" xml:lang="nob">154,383 ord</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -68,7 +70,7 @@
             .
 </p>
             </availability>
-            <date when="2022-11-16">November 16, 2022</date>
+            <date when="2022-11-28">November 28, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -110,16 +112,16 @@
                <tagUsage gi="body" occurs="5"/>
                <tagUsage gi="div" occurs="65"/>
                <tagUsage gi="head" occurs="52"/>
-               <tagUsage gi="link" occurs="169946"/>
-               <tagUsage gi="linkGrp" occurs="8156"/>
+               <tagUsage gi="link" occurs="169939"/>
+               <tagUsage gi="linkGrp" occurs="8130"/>
                <tagUsage gi="name" occurs="4737"/>
-               <tagUsage gi="note" occurs="4393"/>
-               <tagUsage gi="pc" occurs="15560"/>
-               <tagUsage gi="s" occurs="8156"/>
-               <tagUsage gi="seg" occurs="2710"/>
+               <tagUsage gi="note" occurs="4358"/>
+               <tagUsage gi="pc" occurs="15556"/>
+               <tagUsage gi="s" occurs="8130"/>
+               <tagUsage gi="seg" occurs="2678"/>
                <tagUsage gi="text" occurs="5"/>
                <tagUsage gi="u" occurs="585"/>
-               <tagUsage gi="w" occurs="308770"/>
+               <tagUsage gi="w" occurs="154383"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -127,28 +129,46 @@
                <desc xml:lang="en">
                   <term>Legislature</term>
                </desc>
+               <desc xml:lang="nob">
+                  <term>Lovgivende forsamling</term>
+               </desc>
                <category xml:id="parla.geo-political">
                   <catDesc xml:lang="en">
                      <term>Geo-political or administrative units</term>
                   </catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Geo-politisk eller administrative enheter</term>
+                  </catDesc>
                   <category xml:id="parla.supranational">
                      <catDesc xml:lang="en">
                         <term>Supranational legislature</term>
+                     </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Overnasjonal lovgivende forsamling</term>
                      </catDesc>
                   </category>
                   <category xml:id="parla.national">
                      <catDesc xml:lang="en">
                         <term>National legislature</term>
                      </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Nasjonal lovgivende forsamling</term>
+                     </catDesc>
                   </category>
                   <category xml:id="parla.regional">
                      <catDesc xml:lang="en">
                         <term>Regional legislature</term>
                      </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Regional lovgivende forsamling</term>
+                     </catDesc>
                   </category>
                   <category xml:id="parla.local">
                      <catDesc xml:lang="en">
                         <term>Local legislature</term>
+                     </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Lokal lovgivende forsamling</term>
                      </catDesc>
                   </category>
                </category>
@@ -156,27 +176,39 @@
                   <catDesc xml:lang="en">
                      <term>Organization</term>
                   </catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Organisasjon</term>
+                  </catDesc>
                   <category xml:id="parla.chambers">
                      <catDesc xml:lang="en">
                         <term>Chambers</term>
                      </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Kamre</term>
+                     </catDesc>
                      <category xml:id="parla.uni">
                         <catDesc xml:lang="en">
-                           <term>Unicameralism</term>
+                           <term>Ettkammersystem</term>
                         </catDesc>
                      </category>
                      <category xml:id="parla.bi">
                         <catDesc xml:lang="en">
-                           <term>Bicameralism</term>
+                           <term>Tokammersystem</term>
                         </catDesc>
                         <category xml:id="parla.upper">
                            <catDesc xml:lang="en">
                               <term>Upper house</term>
                            </catDesc>
+                           <catDesc xml:lang="nob">
+                              <term>Overhus</term>
+                           </catDesc>
                         </category>
                         <category xml:id="parla.lower">
                            <catDesc xml:lang="en">
                               <term>Lower house</term>
+                           </catDesc>
+                           <catDesc xml:lang="nob">
+                              <term>Underhus</term>
                            </catDesc>
                         </category>
                      </category>
@@ -184,9 +216,15 @@
                         <catDesc xml:lang="en">
                            <term>Multicameralism</term>
                         </catDesc>
+                        <catDesc xml:lang="nob">
+                           <term>Flerkammersystem</term>
+                        </catDesc>
                         <category xml:id="parla.chamber">
                            <catDesc xml:lang="en">
                               <term>Chamber</term>
+                           </catDesc>
+                           <catDesc xml:lang="nob">
+                              <term>Kammer</term>
                            </catDesc>
                         </category>
                      </category>
@@ -195,19 +233,34 @@
                      <catDesc xml:lang="en">
                         <term>Committee</term>
                      </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Kammer</term>
+                     </catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Komité</term>
+                     </catDesc>
                      <category xml:id="parla.committee.standing">
                         <catDesc xml:lang="en">
                            <term>Standing committee</term>
+                        </catDesc>
+                        <catDesc xml:lang="nob">
+                           <term>Stående komité</term>
                         </catDesc>
                      </category>
                      <category xml:id="parla.committee.special">
                         <catDesc xml:lang="en">
                            <term>Special committee</term>
                         </catDesc>
+                        <catDesc xml:lang="nob">
+                           <term>Spesialkomité</term>
+                        </catDesc>
                      </category>
                      <category xml:id="parla.committee.inquiry">
                         <catDesc xml:lang="en">
                            <term>Committee of inquiry</term>
+                        </catDesc>
+                        <catDesc xml:lang="nob">
+                           <term>Undersøkelseskomité</term>
                         </catDesc>
                      </category>
                   </category>
@@ -216,50 +269,83 @@
                   <catDesc xml:lang="en">
                      <term>Legislative period</term>
             : term of the parliament between general elections.</catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Stortingsperiode</term>
+            : Stortingets funksjonstid mellom valg.</catDesc>
                   <category xml:id="parla.session">
                      <catDesc xml:lang="en">
                         <term>Session</term>
-              : A parliamentary year, which always begins on the first working day in October at and end on the last working day of September.</catDesc>
+            : A parliamentary year, which always begins on the first working day in October at and end on the last working day of September.</catDesc>
+                     <catDesc xml:lang="nob">
+                        <term>Sesjon</term>
+            : Et parlamentarisk år, som alltid begynner første arbeidsdag i oktober og slutter siste arbeidsdag i september</catDesc>
                      <category xml:id="parla.meeting">
                         <catDesc xml:lang="en">
                            <term>Meeting</term>
-                : Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+               : Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <catDesc xml:lang="nob">
+                           <term>Møte</term>
+               : Hvert møte kan være en separat sesjon eller del av en gruppe møter som utgjør en sesjon. Sesjonen/møtet kan ta én eller flere dager.</catDesc>
                         <category xml:id="parla.meeting-types">
                            <catDesc xml:lang="en">
                               <term>Types of meetings</term>
                            </catDesc>
+                           <catDesc xml:lang="nob">
+                              <term>Typer møter</term>
+                           </catDesc>
                            <category xml:id="parla.meeting.regular">
                               <catDesc xml:lang="en">
                                  <term>Regular meeting</term>
+                              </catDesc>
+                              <catDesc xml:lang="nob">
+                                 <term>Regulært møte</term>
                               </catDesc>
                            </category>
                            <category xml:id="parla.meeting.special">
                               <catDesc xml:lang="en">
                                  <term>Special meeting</term>
                               </catDesc>
+                              <catDesc xml:lang="nob">
+                                 <term>Spesialmøte</term>
+                              </catDesc>
                               <category xml:id="parla.meeting.extraordinary">
                                  <catDesc xml:lang="en">
                                     <term>Extraordinary meeting</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="nob">
+                                    <term>Ekstraordinært møte</term>
                                  </catDesc>
                               </category>
                               <category xml:id="parla.meeting.urgent">
                                  <catDesc xml:lang="en">
                                     <term>Urgent meeting</term>
                                  </catDesc>
+                                 <catDesc xml:lang="nob">
+                                    <term>Hastemøte</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.ceremonial">
                                  <catDesc xml:lang="en">
                                     <term>Ceremonial meeting</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="nob">
+                                    <term>Seremonielt møte</term>
                                  </catDesc>
                               </category>
                               <category xml:id="parla.meeting.commemorative">
                                  <catDesc xml:lang="en">
                                     <term>Commemorative meeting</term>
                                  </catDesc>
+                                 <catDesc xml:lang="nob">
+                                    <term>Minnemøte</term>
+                                 </catDesc>
                               </category>
                               <category xml:id="parla.meeting.opinions">
                                  <catDesc xml:lang="en">
                                     <term>Public presentation of opinions</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="nob">
+                                    <term>Offentlig presentasjon av meninger</term>
                                  </catDesc>
                               </category>
                            </category>
@@ -267,23 +353,33 @@
                               <catDesc xml:lang="en">
                                  <term>Continued meeting</term>
                               </catDesc>
+                              <catDesc xml:lang="nob">
+                                 <term>Fortsatt møte</term>
+                              </catDesc>
                            </category>
                            <category xml:id="parla.meeting.public">
                               <catDesc xml:lang="en">
                                  <term>Public meeting</term>
+                              </catDesc>
+                              <catDesc xml:lang="nob">
+                                 <term>Offentlig møte</term>
                               </catDesc>
                            </category>
                            <category xml:id="parla.meeting.executive">
                               <catDesc xml:lang="en">
                                  <term>Executive meeting</term>
                               </catDesc>
+                              <catDesc xml:lang="nob">
+                                 <term>Beslutningsmøte</term>
+                              </catDesc>
                            </category>
                         </category>
                         <category xml:id="parla.sitting">
                            <catDesc xml:lang="en">
                               <term>Sitting</term>
-                  : a parliamentary meeting. The course of the year is planned in accordance with a number of working processes and recurring events. Sittings for the coming parliamentary year are planned in advance, and the plan specifies the days on which there will be sittings and the weeks during which there will be no sittings in the Chamber. Parliamentary committees usually have one or two regular weekly meetings, but not all of them hold meetings every week, especially not during the summer. During a parliamentary year, there are about 100 sitting days.
-</catDesc>
+                  : a parliamentary meeting. The course of the year is planned in accordance with a number of working processes and recurring events. Sittings for the coming parliamentary year are planned in advance, and the plan specifies the days on which there will be sittings and the weeks during which there will be no sittings in the Chamber. Parliamentary committees usually have one or two regular weekly meetings, but not all of them hold meetings every week, especially not during the summer. During a parliamentary year, there are about 100 sitting days.</catDesc>
+                           <catDesc xml:lang="nob">
+                              <term>Møtedag</term> : et parlamentarisk møte.</catDesc>
                         </category>
                      </category>
                   </category>
@@ -293,16 +389,24 @@
                <desc xml:lang="en">
                   <term>Types of speakers</term>
                </desc>
+               <desc xml:lang="nob">
+                  <term>Typer talere</term>
+               </desc>
                <category xml:id="chair">
                   <catDesc xml:lang="en">
                      <term>Chairperson</term>
             : chairman of a meeting
 </catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Møteleder</term>: leder for møtet.</catDesc>
                </category>
                <category xml:id="regular">
                   <catDesc xml:lang="en">
                      <term>Regular</term>
             : a regular speaker at a meeting
+</catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Regulær</term> : en vanlig taler.
 </catDesc>
                </category>
                <category xml:id="guest">
@@ -310,22 +414,34 @@
                      <term>Guest</term>
             : a guest speaker at a meeting
 </catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Gjest</term> : Gjestetaler
+</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
                <desc xml:lang="en">
                   <term>Subcorpora</term>
                </desc>
+               <desc xml:lang="nob">
+                  <term>Subkorpus</term>
+               </desc>
                <category xml:id="reference">
                   <catDesc xml:lang="en">
                      <term>Reference</term>
             : reference subcorpus, until 2019-10-31
+</catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>Referanse</term> : referansesubkorpus, frem til 2019-10-31
 </catDesc>
                </category>
                <category xml:id="covid">
                   <catDesc xml:lang="en">
                      <term>COVID</term>
             : COVID subcorpus, from 2019-11-01 onwards
+</catDesc>
+                  <catDesc xml:lang="nob">
+                     <term>COVID</term> : COVID subkorpus, fra 2019-11-01 og fremover
 </catDesc>
                </category>
             </taxonomy>
@@ -603,10 +719,30 @@
                   <event from="1814">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="wikimedia" xml:lang="nob">https://no.wikipedia.org/wiki/Stortinget</idno>
-                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Storting</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="nob">https://no.wikipedia.org/wiki/Stortinget</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Storting</idno>
                   <listEvent>
-                     <head xml:lang="en">Parliamentary year</head>
+                     <event xml:id="ST.1997-2001" from="1997-10-01" to="2001-09-01">
+                        <label xml:lang="en">Term 1997-2001</label>
+                     </event>
+                     <event xml:id="ST.2001-2005" from="2001-10-01" to="2005-09-01">
+                        <label xml:lang="en">Term 2001-2005</label>
+                     </event>
+                     <event xml:id="ST.2005-2009" from="2005-10-01" to="2009-09-01">
+                        <label xml:lang="en">Term 2005-2009</label>
+                     </event>
+                     <event xml:id="ST.2009-2013" from="2009-10-01" to="2013-09-01">
+                        <label xml:lang="en">Term 2009-2013</label>
+                     </event>
+                     <event xml:id="ST.2013-2017" from="2013-10-01" to="2017-09-01">
+                        <label xml:lang="en">Term 2013-2017</label>
+                     </event>
+                     <event xml:id="ST.2017-2021" from="2017-10-01" to="2021-09-01">
+                        <label xml:lang="en">Term 2017-2021</label>
+                     </event>
+                     <event xml:id="ST.2021-2025" from="2021-10-01" to="2025-09-01">
+                        <label xml:lang="en">Term 2021-2025</label>
+                     </event>
                      <event xml:id="ST.1998-1999" from="1998-10-01" to="1999-09-30">
                         <label xml:lang="en">Session 1998-1999</label>
                      </event>
