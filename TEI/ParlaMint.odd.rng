@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2022-11-10T15:10:01Z. 2022-11-10.
+Schema generated from ODD source 2022-11-23T17:07:20Z. 2022-11-23.
 TEI Edition: Version 4.5.0a. Last updated on
         29th July 2022, revision 50a1ab835
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -1511,51 +1511,48 @@ Elements]</a:documentation>
    </define>
    <define name="tei_idno">
       <element name="idno">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organisation, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) supplies an identifier used to identify some object, such as a person or organisation. If it is a URL, it should have `@type="URI"`. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]</a:documentation>
          <text/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <attribute name="type">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the identifier, for example as an ISBN, Social Security number, etc.
-Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC</a:documentation>
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">categorizes the identifier.</a:documentation>
             <choice>
-               <value>ISBN</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the <a xmlns="http://www.w3.org/1999/xhtml"
-                     href="https://www.isbn-international.org"> International ISBN Agency.</a>
-               </a:documentation>
-               <value>ISSN</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.</a:documentation>
-               <value>DOI</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.</a:documentation>
                <value>URI</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of <a xmlns="http://www.w3.org/1999/xhtml"
-                     href="https://datatracker.ietf.org/doc/html/rfc3986">RFC 3986</a>.</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Uniform Resource Identifier ParlaMint should be a resolvable URL, with the <code xmlns="http://www.w3.org/1999/xhtml">@subtype</code> classifying the type of web site.</a:documentation>
                <value>VIAF</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.</a:documentation>
-               <value>ESTC</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.</a:documentation>
-               <value>OCLC</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The URL of the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.</a:documentation>
             </choice>
          </attribute>
          <optional>
             <attribute name="subtype">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">
-Suggested values include: 1] facebook; 2] twitter; 3] wikipedia; 4] wikimedia; 5] wikidata</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                <choice>
-                  <value>facebook</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>twitter</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>wikipedia</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>handle</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The permanent identifier of type handle.</a:documentation>
+                  <value>government</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A governmental web site.</a:documentation>
+                  <value>politicalParty</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The web site of a political party.</a:documentation>
+                  <value>parliament</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A web site of the parliament.</a:documentation>
+                  <value>ministry</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The web site of a ministry.</a:documentation>
+                  <value>personal</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The personal web site of a person.</a:documentation>
+                  <value>business</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A web site belonging to a bussiness.</a:documentation>
+                  <value>publicService</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">The web site of a pubic service.</a:documentation>
                   <value>wikimedia</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>wikidata</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <data type="Name"/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A web site of Wikimedia, e.g. Wikipedia.</a:documentation>
+                  <value>facebook</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A Facebook web site.</a:documentation>
+                  <value>twitter</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A Twitter web site.</a:documentation>
+                  <value>tiktok</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A TikTok web site.</a:documentation>
+                  <value>instagram</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">An Instagram web site.</a:documentation>
                </choice>
             </attribute>
          </optional>
@@ -2040,7 +2037,7 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
    </define>
    <define name="tei_div">
       <element name="div">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains division of the body a corpus component. [4.1. Divisions of the Body]</a:documentation>
          <zeroOrMore>
             <ref name="tei_head"/>
          </zeroOrMore>
@@ -2089,15 +2086,15 @@ On <name/>, either the @marks attribute should be used, or a paragraph of descri
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
          <ref name="tei_att.typed.attribute.subtype"/>
-         <optional>
-            <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               <choice>
-                  <value>debateSection</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">General purpose text division for all parts of parliamentary proceedings. If needed, the @subtype attribute can be used for additional content classification.</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            <choice>
+               <value>debateSection</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">General purpose text division for all parts of parliamentary proceedings. It should include at least one utterance. If needed, the @subtype attribute can be used for additional content classification.</a:documentation>
+               <value>commentSection</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">A special purpose text division used as a container for transcriber comments. Should not contain any utterances. If needed, the @subtype attribute can be used for additional content classification.</a:documentation>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
