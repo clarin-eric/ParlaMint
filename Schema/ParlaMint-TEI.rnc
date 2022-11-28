@@ -209,19 +209,27 @@ paras = element p { global.atts, annotated.text }+
 abs = element ab { global.atts, normalized-space.string }+
 a:documentation [ "Start of definitions for text" ]
 
-## The definition of the text and body (and division) elements.
+## The definition of the text and body elements.
 text-body =
   element text {
     global.atts,
     ana.att,
-    element body {
-      element div {
-        global.atts,
-        attribute type { "debateSection" },
+    element body { \div+ }
+  }
+
+## The definition of the div element.
+\div =
+  element div {
+    global.atts,
+    
+    ## A standard div with utterances.
+    ((attribute type { "debateSection" },
+      head*,
+      (comment | pb | u)+)
+     >> a:documentation [ "A div with transcriber comments only." ]
+     | (attribute type { "commentSection" },
         head*,
-        (note | comment | pb | u)+
-      }+
-    }
+        (comment | pb)+))
   }
 
 ## One speech (i.e. 'utterance').

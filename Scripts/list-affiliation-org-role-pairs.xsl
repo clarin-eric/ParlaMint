@@ -14,8 +14,8 @@
   <xsl:output encoding="utf-8" method="text"/>
   
   <xsl:variable name="country" select="replace(replace(document-uri(/), 
-				       '.+/([^/]+)\.xml', '$1'), 
-				       'ParlaMint-([^._]+).*', '$1')"/>
+                                       '.+/([^/]+)\.xml', '$1'), 
+                                       'ParlaMint-([^._]+).*', '$1')"/>
   <xsl:template match="/">
     <xsl:apply-templates select="$rootHeader"/>
   </xsl:template>
@@ -43,8 +43,8 @@
         <xsl:variable name="org" select="key('idr', $ref, $rootHeader)"/>
         <xsl:choose>
           <xsl:when test="key('idr', $ref, $rootHeader)/@role">
-	    <xsl:value-of select="key('idr', $ref, $rootHeader)/@role"/>
-	  </xsl:when>
+            <xsl:value-of select="key('idr', $ref, $rootHeader)/@role"/>
+          </xsl:when>
         </xsl:choose>
       </xsl:when>
     </xsl:choose>
