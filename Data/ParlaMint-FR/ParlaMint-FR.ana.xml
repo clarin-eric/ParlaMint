@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-FR" xml:lang="fr">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-FR.ana" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -680,6 +680,17 @@
           </category>
         </taxonomy>
       </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+          <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+        </prefixDef>
+      </listPrefixDef>
+      <appInfo>
+        <application version="1.2.0" ident="stanza-stanfordnlp">
+          <label>Stanza</label>
+          <desc xml:lang="en">Stanza – A Python NLP Package for Many Human Languages, pretrained neural network model for French, available from <ref target="https://github.com/stanfordnlp/stanza">https://github.com/stanfordnlp/stanza</ref>.</desc>
+        </application>
+      </appInfo>
     </encodingDesc>
     <profileDesc>
       <settingDesc>
@@ -714,6 +725,16 @@
                 <label xml:lang="en">Castex government</label>
               </event>
             </listEvent>
+          </org>
+          <org xml:id="PO717460" role="parliament" ana="#parla.national #parla.lower">
+            <orgName full="yes" xml:lang="fr">Assemblée nationale de la 15ème législature</orgName>
+            <orgName full="abb">AN</orgName>
+            <orgName xml:lang="en" full="yes">National Assembly of the 15th legislature of the French Fifth Republic</orgName>
+            <event from="2017-06-21">
+              <label xml:lang="en">existence</label>
+            </event>
+            <idno type="URI" subtype="wikimedia" xml:lang="fr">https://fr.wikipedia.org/wiki/XVe_l%C3%A9gislature_de_la_Cinqui%C3%A8me_R%C3%A9publique_fran%C3%A7aise</idno>
+            <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/15th_legislature_of_the_French_Fifth_Republic</idno>
           </org>
           <org xml:id="PO415287" role="commission">
             <orgName full="yes" xml:lang="fr">Commission des affaires européennes</orgName>
@@ -764,16 +785,6 @@
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO717460" role="parliament" ana="#parla.national #parla.lower">
-            <orgName full="yes" xml:lang="fr">Assemblée nationale de la 15ème législature</orgName>
-            <orgName full="abb">AN</orgName>
-            <orgName xml:lang="en" full="yes">National Assembly of the 15th legislature of the French Fifth Republic</orgName>
-            <event from="2017-06-21">
-              <label xml:lang="en">existence</label>
-            </event>
-            <idno type="URI" subtype="wikimedia" xml:lang="fr">https://fr.wikipedia.org/wiki/XVe_l%C3%A9gislature_de_la_Cinqui%C3%A8me_R%C3%A9publique_fran%C3%A7aise</idno>
-            <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/15th_legislature_of_the_French_Fifth_Republic</idno>
-          </org>
           <org xml:id="PO723569" role="parliamentaryGroup">
             <orgName full="yes" xml:lang="fr">Non inscrit</orgName>
             <orgName full="abb">NI</orgName>
@@ -781,112 +792,112 @@
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO725689" role="government">
+          <org xml:id="PO725689" role="ministry">
             <orgName full="yes" xml:lang="fr">Premier ministre</orgName>
             <orgName full="abb">PMI</orgName>
             <event from="2017-06-20" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729937" role="government">
+          <org xml:id="PO729937" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l’intérieur</orgName>
             <orgName full="abb">INT</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729976" role="government">
+          <org xml:id="PO729976" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'Europe et des affaires étrangères</orgName>
             <orgName full="abb">EAE</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729978" role="government">
+          <org xml:id="PO729978" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de la cohésion des territoires</orgName>
             <orgName full="abb">TER</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO729982" role="government">
+          <org xml:id="PO729982" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'économie et des finances</orgName>
             <orgName full="abb">ECO</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730004" role="government">
+          <org xml:id="PO730004" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'intérieur</orgName>
             <orgName full="abb">INT</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730006" role="government">
+          <org xml:id="PO730006" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'agriculture et de l'alimentation</orgName>
             <orgName full="abb">AGR</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730011" role="government">
+          <org xml:id="PO730011" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère de l'action et des comptes publics</orgName>
             <orgName full="abb">CPA</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730017" role="government">
+          <org xml:id="PO730017" role="ministry">
             <orgName full="yes" xml:lang="fr">Ministère des outre-mer</orgName>
             <orgName full="abb">MOM</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730021" role="government">
+          <org xml:id="PO730021" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État auprès du ministre de l'Europe et des affaires étrangères</orgName>
             <orgName full="abb">EAE</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730023" role="government">
+          <org xml:id="PO730023" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État auprès de la ministre des armées</orgName>
             <orgName full="abb">ARM</orgName>
             <event from="2017-06-22" to="2020-07-06">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730027" role="government">
+          <org xml:id="PO730027" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du Premier ministre, chargé des relations avec le Parlement, porte-parole du Gouvernement</orgName>
             <orgName full="abb">PAR</orgName>
             <event from="2017-06-22" to="2017-11-24">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730029" role="government">
+          <org xml:id="PO730029" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du ministre de l'économie et des finances</orgName>
             <orgName full="abb">ECO</orgName>
             <event from="2017-06-22" to="2017-11-24">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730033" role="government">
+          <org xml:id="PO730033" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du ministre d'État, ministre de la transition écologique et solidaire</orgName>
             <orgName full="abb">TRE</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730035" role="government">
+          <org xml:id="PO730035" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État, auprès du Premier ministre, chargé du numérique</orgName>
             <orgName full="abb">NUM</orgName>
             <event from="2017-06-22" to="2018-10-16">
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO730037" role="government">
+          <org xml:id="PO730037" role="ministry">
             <orgName full="yes" xml:lang="fr">Secrétariat d'État auprès du ministre d'État, ministre de la transition écologique et solidaire</orgName>
             <orgName full="abb">TRE</orgName>
             <event from="2017-06-22" to="2019-07-16">
@@ -9681,39 +9692,4 @@
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-27-E2006.ana.xml" />
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-28-E2007.ana.xml" />
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-28-E2008.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-03-O1001.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-03-O1002.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-04-O1003.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-04-O1004.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-10-O1005.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-10-O1006.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-11-O1007.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-12-O1008.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-12-O1009.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-17-O1010.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-17-O1011.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-18-O1012.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-18-O1013.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-19-O1014.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-19-O1015.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-19-O1016.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-20-O1017.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-20-O1018.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-20-O1019.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-21-O1020.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-21-O1021.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-21-O1022.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-23-O1023.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-24-O1024.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-24-O1025.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-25-O1026.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-25-O1027.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-26-O1028.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-26-O1029.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-26-O1030.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-27-O1031.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-27-O1032.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-27-O1033.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-31-O1034.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-10-31-O1035.ana.xml" />
 </teiCorpus>
