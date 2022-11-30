@@ -196,18 +196,24 @@
    <!-- Estonian-specific Relations, see: https://universaldependencies.org/treebanks/et_ewt/et_ewt-dep-nsubj-cop.html -->
    <category xml:id="nsubj_cop">
      <catDesc xml:lang="en">
-       <term>nsubj:cop</term>: This relation is a language-specific subtype of nsubj.
+       <term>nsubj:cop</term>: This relation is a language-specific subtype of nsubj. Used for nominal subject in copula clauses.
      </catDesc>
    </category>
    <category xml:id="compound_prt">
      <catDesc xml:lang="en">
-       <term>compound:prt</term>: This relation is a language-specific subtype of compound.
+       <term>compound:prt</term>: This relation is a language-specific subtype of compound. Used for adverbal components of particle verbs.
      </catDesc>
    </category>
    <category xml:id="csubj_cop">
      <catDesc xml:lang="en">
-       <term>csubj:cop</term>: This relation is a language-specific subtype of csubj.
+       <term>csubj:cop</term>: This relation is a language-specific subtype of csubj. Used for clausal or infinitive subject in copula clauses.
      </catDesc>
    </category>
+   <category xml:id="goeswith">
+     <catDesc xml:lang="en">
+       <term>goeswith</term>: This relation is universal. This relation links two or more parts of a word that are separated in text that is not well edited. These parts should be written together as one word according to the orthographic rules of a given language. The head is always the first part, the other parts are attached to it with the goeswith relation.
+     </catDesc>
+   </category>
+   
    
 </taxonomy>
