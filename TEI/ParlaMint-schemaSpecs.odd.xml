@@ -288,7 +288,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="div" module="textstructure" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
+      <desc versionDate="2022-11-23" xml:lang="en">contains division of the body a corpus component.</desc>
       <content>
          <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -303,12 +303,17 @@
       </content>
       <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
       <attList>
-         <attDef ident="type" mode="replace" usage="rec">
+         <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="debateSection">
                   <desc xml:lang="en">General purpose text division for all parts of parliamentary
-            proceedings.  If needed, the @subtype attribute can be used for additional content
-            classification.</desc>
+            proceedings. It should include at least one utterance. If needed, the @subtype
+	    attribute can be used for additional content classification.</desc>
+               </valItem>
+               <valItem ident="commentSection">
+                  <desc xml:lang="en">A special purpose text division used as a container for transcriber
+	    comments. Should not contain any utterances. If needed, the @subtype attribute can be
+	    used for additional content classification.</desc>
                </valItem>
             </valList>
          </attDef>
@@ -3142,24 +3147,71 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="idno" module="header" mode="change">
-      <desc versionDate="2010-04-30" xml:lang="en">supplies any form of identifier used to identify some object,
-    such as a bibliographic item, a person, a title, an organisation,
-    etc. in a standardized way.</desc>
+      <desc versionDate="2022-11-12" xml:lang="en">supplies an identifier used to identify some object,
+    such as a person or organisation. If it is a URL, it should have <code>@type="URI"</code>.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
-         <attDef ident="type" mode="change" usage="req"/>
-         <attDef ident="subtype" mode="replace" usage="rec">
-            <valList type="semi">
-               <valItem ident="facebook"/>
-               <valItem ident="twitter"/>
-               <valItem ident="wikipedia"/>
-               <valItem ident="wikimedia"/>
-               <valItem ident="wikidata"/>
+         <attDef ident="type" mode="replace" usage="req">
+            <desc versionDate="2022-11-12" xml:lang="en">categorizes the identifier.</desc>
+            <valList type="closed">
+               <valItem ident="URI">
+                  <desc versionDate="2022-11-12" xml:lang="en">Uniform Resource Identifier
+            ParlaMint should be a resolvable URL, with the <att>subtype</att>
+            classifying the type of web site.</desc>
+               </valItem>
+               <valItem ident="VIAF">
+                  <desc versionDate="2022-11-12" xml:lang="en">The URL of the Virtual Internet
+            Authority File assigned to link different names in catalogs around the world
+            for the same entity.</desc>
+               </valItem>
+            </valList>
+         </attDef>
+         <attDef ident="subtype" mode="replace" usage="opt">
+            <valList type="closed">
+               <valItem ident="handle">
+                  <desc versionDate="2022-11-12" xml:lang="en">The permanent identifier of type handle.</desc>
+               </valItem>
+               <valItem ident="government">
+                  <desc versionDate="2022-11-12" xml:lang="en">A governmental web site.</desc>
+               </valItem>
+               <valItem ident="politicalParty">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a political party.</desc>
+               </valItem>
+               <valItem ident="parliament">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site of the parliament.</desc>
+               </valItem>
+               <valItem ident="ministry">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a ministry.</desc>
+               </valItem>
+               <valItem ident="personal">
+                  <desc versionDate="2022-11-12" xml:lang="en">The personal web site of a person.</desc>
+               </valItem>
+               <valItem ident="business">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site belonging to a bussiness.</desc>
+               </valItem>
+               <valItem ident="publicService">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a pubic service.</desc>
+               </valItem>
+               <valItem ident="wikimedia">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site of Wikimedia, e.g. Wikipedia.</desc>
+               </valItem>
+               <valItem ident="facebook">
+                  <desc versionDate="2022-11-12" xml:lang="en">A Facebook web site.</desc>
+               </valItem>
+               <valItem ident="twitter">
+                  <desc versionDate="2022-11-12" xml:lang="en">A Twitter web site.</desc>
+               </valItem>
+               <valItem ident="tiktok">
+                  <desc versionDate="2022-11-12" xml:lang="en">A TikTok web site.</desc>
+               </valItem>
+               <valItem ident="instagram">
+                  <desc versionDate="2022-11-12" xml:lang="en">An Instagram web site.</desc>
+               </valItem>
             </valList>
             <remarks xml:lang="en">
-               <p>sample values recomended to use with <att>type</att>="<val>URI</val>"</p>
+               <p>this attribute should always be used with <att>type</att>="<val>URI</val>"</p>
             </remarks>
          </attDef>
          <!--idno/@xml:lang-->

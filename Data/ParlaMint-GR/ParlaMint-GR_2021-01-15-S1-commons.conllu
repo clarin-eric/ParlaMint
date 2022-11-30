@@ -7,9 +7,9 @@
 3	κύριοι	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	conj	_	NER=O
 4	συνάδελφοι	συνάδελφος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	flat	_	NER=O|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	NER=O
-6	καλημέρα	καλημέρα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	1	nmod	_	NER=O
+6	καλημέρα	καλημέρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	9	vocative	_	NER=O
 7	σας	εγώ	PRON	PnPe	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	nmod	_	NER=O|SpaceAfter=No
-8	,	,	PUNCT	_	_	1	punct	_	NER=O
+8	,	,	PUNCT	_	_	6	punct	_	NER=O
 9	αρχίζει	αρχίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 10	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=O
 11	συνεδρίαση	συνεδρίαση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	NER=O|SpaceAfter=No
@@ -22,7 +22,7 @@
 2-3	στην	_	_	_	_	_	_	_	NER=O
 2	σ	σε	ADP	_	_	6	case	_	_
 3	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-4	ΕΙΔΙΚΗ	ειδικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	NER=O
+4	ΕΙΔΙΚΗ	ειδικός	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	NER=B-LOC
 5	ΗΜΕΡΗΣΙΑ	ημερήσιος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	NER=O
 6	ΔΙΑΤΑΞΗ	διάταξη	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	NER=O
 
@@ -35,9 +35,9 @@
 4	αιτήματος	αίτημα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	NER=O
 5	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=O
 6	Πρωθυπουργού	πρωθυπουργός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=O
-7	κ.	κ.	NOUN	ABBR	Abbr=Yes	6	flat	_	NER=O
-8	Κυριάκου	Κυριάκος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	NER=B-PER
-9	Μητσοτάκη	Μητσοτάκης	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	6	flat	_	NER=I-PER|SpaceAfter=No
+7	κ.	κ.	NOUN	ABBR	Abbr=Yes	4	nmod	_	NER=O
+8	Κυριάκου	Κυριάκος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	NER=B-PER
+9	Μητσοτάκη	Μητσοτάκης	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	NER=I-PER|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	NER=O
 11	σύμφωνα	σύμφωνα	ADV	AdBa	_	1	advmod	_	NER=O
 12	με	με	ADP	AsPpSp	_	14	case	_	NER=O
@@ -48,9 +48,9 @@
 17	Κανονισμού	κανονισμός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	NER=O
 18	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER=O
 19	Βουλής	βουλή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	NER=B-ORG|SpaceAfter=No
-20	,	,	PUNCT	_	_	11	punct	_	NER=O
+20	,	,	PUNCT	_	_	22	punct	_	NER=O
 21	με	με	ADP	AsPpSp	_	22	case	_	NER=O
-22	αντικείμενο	αντικείμενο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	NER=O
+22	αντικείμενο	αντικείμενο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	NER=O
 23	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	NER=O
 24	ενημέρωση	ενημέρωση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	22	acl	_	NER=O
 25	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	NER=O
@@ -83,7 +83,7 @@
 11	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	12	nsubj:pass	_	NER=O
 12	απεστάλη	αποστέλλω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	NER=O
 13	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=O
-14	Παρασκευή	Παρασκευή	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	NER=O
+14	Παρασκευή	Παρασκευή	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	NER=O
 15	8	8	NUM	DIG	NumType=Card	14	nmod	_	NER=O
 16	Ιανουαρίου	Ιανουάριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	NER=O
 17	2021	2021	NUM	DIG	NumType=Card	16	nmod	_	NER=O
@@ -101,7 +101,7 @@
 28	αυθημερόν	αυθημερόν	ADV	AdBa	_	19	advmod	_	NER=O|SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	NER=O
 30	όπως	όπως	ADV	AdBa	_	31	advmod	_	NER=O
-31	ορίζει	ορίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	NER=O
+31	ορίζει	ορίζω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	NER=O
 32	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	33	det	_	NER=O
 33	άρθρο	άρθρο	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	NER=O
 34	142Α	142Α	NUM	DIG	NumType=Card	33	nmod	_	NER=O
@@ -121,7 +121,7 @@
 5-6	στο	_	_	_	_	_	_	_	NER=O
 5	σ	σε	ADP	_	_	7	case	_	_
 6	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-7	άρθρο	άρθρο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	NER=O
+7	άρθρο	άρθρο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	NER=O
 8	142Α	142Α	NUM	DIG	NumType=Card	7	nmod	_	NER=O|SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	NER=O
 10	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=O
@@ -147,17 +147,17 @@
 29	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	πρωτολογία	πρωτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	NER=O|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	NER=O
-32	πέντε	πέντε	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	24	appos	_	NER=O
+32	πέντε	πέντε	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	30	appos	_	NER=O
 33-34	στη	_	_	_	_	_	_	_	NER=O
 33	σ	σε	ADP	_	_	35	case	_	_
 34	τη	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	NER=O
+35	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	32	obl	_	NER=O
 36	και	και	CCONJ	CjCo	_	37	cc	_	NER=O
 37	πέντε	πέντε	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	32	conj	_	NER=O
 38-39	στην	_	_	_	_	_	_	_	NER=O
 38	σ	σε	ADP	_	_	40	case	_	_
 39	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	τριτολογία	τριτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	37	nmod	_	NER=O|SpaceAfter=No
+40	τριτολογία	τριτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	37	orphan	_	NER=O|SpaceAfter=No
 41	.	.	PUNCT	_	_	12	punct	_	NER=O
 
 # sent_id = ParlaMint-GR_2021-01-15-S1-commons.seg5.2
@@ -184,21 +184,21 @@
 20	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	15	nmod	_	NER=O
 21	για	για	ADP	AsPpSp	_	23	case	_	NER=O
 22	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	NER=O
-23	καθένα	καθένας	PRON	PnId	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Tot	20	nmod	_	NER=O
+23	καθένα	καθένας	PRON	PnId	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Tot	15	nmod	_	NER=O
 24-25	στην	_	_	_	_	_	_	_	NER=O
 24	σ	σε	ADP	_	_	26	case	_	_
 25	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	πρωτολογία	πρωτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	NER=O
+26	πρωτολογία	πρωτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	NER=O
 27	και	και	CCONJ	CjCo	_	32	cc	_	NER=O
 28	εν	εν	ADP	AsPpSp	_	29	case	_	NER=O
-29	συνεχεία	συνεχεία	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	32	nmod	_	NER=O
-30	για	για	ADP	AsPpSp	_	31	case	_	NER=O
+29	συνεχεία	συνεχεία	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	32	orphan	_	NER=O
+30	για	για	ADP	AsPpSp	_	32	case	_	NER=O
 31	τρία	τρεις	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	32	nummod	_	NER=O
 32	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	15	conj	_	NER=O
 33-34	στη	_	_	_	_	_	_	_	NER=O
 33	σ	σε	ADP	_	_	35	case	_	_
 34	τη	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	32	nmod	_	NER=O|SpaceAfter=No
+35	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	32	orphan	_	NER=O|SpaceAfter=No
 36	.	.	PUNCT	_	_	6	punct	_	NER=O
 
 # sent_id = ParlaMint-GR_2021-01-15-S1-commons.seg5.3
@@ -225,7 +225,7 @@
 # newpar id = ParlaMint-GR_2021-01-15-S1-commons.seg6
 # sent_id = ParlaMint-GR_2021-01-15-S1-commons.seg6.1
 # text = Ωστόσο, για την καλύτερη οργάνωση της συζητήσεως, προτείνω, σύμφωνα με την από 12 Ιανουαρίου 2021 ομόφωνη απόφαση της Διασκέψεως Κοινοβουλευτικών Ομάδων της Αντιπολιτεύσεως να τριπλασιαστούν με την απαιτούμενη ανοχή.
-1	Ωστόσο	ωστόσο	CCONJ	CjCo	_	10	cc	_	NER=O|SpaceAfter=No
+1	Ωστόσο	ωστόσο	ADV	AdBa	_	10	cc	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	NER=O
 3	για	για	ADP	AsPpSp	_	6	case	_	NER=O
 4	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=O
@@ -242,9 +242,9 @@
 15	από	από	ADP	AsPpSp	_	16	case	_	NER=O
 16	12	12	NUM	DIG	NumType=Card	12	obl	_	NER=O
 17	Ιανουαρίου	Ιανουάριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NER=O
-18	2021	2021	NUM	DIG	NumType=Card	16	nmod	_	NER=O
+18	2021	2021	NUM	DIG	NumType=Card	17	nmod	_	NER=O
 19	ομόφωνη	ομόφωνος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	NER=O
-20	απόφαση	απόφαση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	10	obj	_	NER=O
+20	απόφαση	απόφαση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	NER=O
 21	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	NER=O
 22	Διασκέψεως	διάσκεψη	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	NER=B-ORG
 23	Κοινοβουλευτικών	κοινοβουλευτικός	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Plur	24	amod	_	NER=I-ORG
@@ -273,7 +273,7 @@
 9	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER=O
 10	Πρωθυπουργός	πρωθυπουργός	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	NER=O
 11	θα	θα	AUX	PtFu	_	12	aux	_	NER=O
-12	έχει	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	NER=O
+12	έχει	έχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	NER=O
 13	για	για	ADP	AsPpSp	_	15	case	_	NER=O
 14	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=O
 15	πρωτολογία	πρωτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	NER=O
@@ -286,17 +286,17 @@
 22	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	NER=O
 23	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod	_	NER=O
 24	δεκαπέντε	δεκαπέντε	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	25	nummod	_	NER=O
-25	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	22	nmod	_	NER=O
+25	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	NER=O
 26	και	και	CCONJ	CjCo	_	29	cc	_	NER=O
 27	για	για	ADP	AsPpSp	_	29	case	_	NER=O
 28	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	NER=O
-29	τριτολογία	τριτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	22	conj	_	NER=O
+29	τριτολογία	τριτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	25	conj	_	NER=O
 30	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod	_	NER=O|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	NER=O
-32	επίσης	επίσης	ADV	AdBa	_	35	advmod	_	NER=O|SpaceAfter=No
+32	επίσης	επίσης	ADV	AdBa	_	29	advmod	_	NER=O|SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	NER=O
 34	δεκαπέντε	δεκαπέντε	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	35	nummod	_	NER=O
-35	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	29	nmod	_	NER=O|SpaceAfter=No
+35	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	NER=O|SpaceAfter=No
 36	.	.	PUNCT	_	_	5	punct	_	NER=O
 
 # sent_id = ParlaMint-GR_2021-01-15-S1-commons.seg7.2
@@ -319,14 +319,14 @@
 16	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	NER=O
 17	για	για	ADP	AsPpSp	_	19	case	_	NER=O
 18	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER=O
-19	πρωτολογία	πρωτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	NER=O
+19	πρωτολογία	πρωτολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	NER=O
 20	τους	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	NER=O
 21	και	και	CCONJ	CjCo	_	23	cc	_	NER=O
 22	εννιά	εννέα	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	23	nummod	_	NER=O
 23	λεπτά	λεπτό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	14	conj	_	NER=O
 24	για	για	ADP	AsPpSp	_	26	case	_	NER=O
 25	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	NER=O
-26	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	NER=O
+26	δευτερολογία	δευτερολογία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	23	orphan	_	NER=O
 27	τους	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod	_	NER=O|SpaceAfter=No
 28	.	.	PUNCT	_	_	14	punct	_	NER=O
 
@@ -347,18 +347,18 @@
 12	ότι	ότι	SCONJ	CjSb	_	14	mark	_	NER=O
 13	θα	θα	AUX	PtFu	_	14	aux	_	NER=O
 14	υπάρξει	υπάρχω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	acl	_	NER=O
-15	και	και	CCONJ	CjCo	_	19	cc	_	NER=O
-16	σε	σε	ADP	AsPpSp	_	19	case	_	NER=O
-17	αυτό	αυτός	DET	PnDm	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	19	det	_	NER=O
+15	και	και	CCONJ	CjCo	_	17	cc	_	NER=O
+16	σε	σε	ADP	AsPpSp	_	17	case	_	NER=O
+17	αυτό	αυτός	PRON	PnDm	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	14	obl	_	NER=O
 18	μία	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER=O
-19	ανοχή	ανοχή	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	NER=O|SpaceAfter=No
+19	ανοχή	ανοχή	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	NER=O|SpaceAfter=No
 20	,	,	PUNCT	_	_	2	punct	_	NER=O
 21	παρακαλώ	παρακαλώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 22	για	για	ADP	AsPpSp	_	27	case	_	NER=O
 23	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	NER=O
 24	κατά	κατά	ADP	AsPpSp	_	26	case	_	NER=O
 25	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	NER=O
-26	δυνατόν	δυνατός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	27	nmod	_	NER=O
+26	δυνατόν	δυνατός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	27	amod	_	NER=O
 27	τήρηση	τήρηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	NER=O
 28	αυτού	αυτός	DET	PnDm	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Dem	31	det	_	NER=O
 29	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	NER=O
@@ -413,7 +413,7 @@
 1	Κυρίες	κυρία	NOUN	NoCm	Case=Voc|Gender=Fem|Number=Plur	12	vocative	_	NER=O
 2	και	και	CCONJ	CjCo	_	3	cc	_	NER=O
 3	κύριοι	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	conj	_	NER=O
-4	συνάδελφοι	συνάδελφος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	flat	_	NER=O|SpaceAfter=No
+4	συνάδελφοι	συνάδελφος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	NER=O
 6	με	με	ADP	AsPpSp	_	8	case	_	NER=O
 7	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER=O
@@ -461,29 +461,29 @@
 4	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=O
 5	Σώματος	σώμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	NER=B-ORG
 6	και	και	CCONJ	CjCo	_	7	cc	_	NER=O
-7	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	NER=O
-8	17.40΄	17.40΄	NUM	DIG	NumType=Card	7	nmod	_	NER=O
+7	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	NER=O
+8	17.40΄	17.40΄	NUM	DIG	NumType=Card	5	conj	_	NER=O
 9	λύεται	λύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
 10	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=O
 11	συνεδρίαση	συνεδρίαση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	NER=O
 12	για	για	ADP	AsPpSp	_	14	case	_	NER=O
 13	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=O
-14	Δευτέρα	Δευτέρα	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	NER=O
+14	Δευτέρα	Δευτέρα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	NER=O
 15	18	18	NUM	DIG	NumType=Card	14	nmod	_	NER=O
 16	Ιανουαρίου	Ιανουάριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	NER=O
 17	2021	2021	NUM	DIG	NumType=Card	16	nmod	_	NER=O
 18	και	και	CCONJ	CjCo	_	19	cc	_	NER=O
-19	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	NER=O
-20	13.00΄	13.00΄	NUM	DIG	NumType=Card	19	nmod	_	NER=O|SpaceAfter=No
+19	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	NER=O
+20	13.00΄	13.00΄	ADV	AdBa	_	19	advmod	_	NER=O|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	NER=O
 22	με	με	ADP	AsPpSp	_	23	case	_	NER=O
 23	αντικείμενο	αντικείμενο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	NER=O
 24	εργασιών	εργασία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	NER=O
 25	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	NER=O
 26	Σώματος	σώμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	NER=B-ORG|SpaceAfter=No
-27	:	:	PUNCT	_	_	23	punct	_	NER=O
+27	:	:	PUNCT	_	_	29	punct	_	NER=O
 28	κοινοβουλευτικό	κοινοβουλευτικός	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Sing	29	amod	_	NER=O
-29	έλεγχο	έλεγχος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	9	appos	_	NER=O|SpaceAfter=No
+29	έλεγχο	έλεγχος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	9	parataxis	_	NER=O|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	NER=O
 31	συζήτηση	συζήτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	29	conj	_	NER=O
 32	επίκαιρων	επίκαιρος	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Plur	33	amod	_	NER=O
