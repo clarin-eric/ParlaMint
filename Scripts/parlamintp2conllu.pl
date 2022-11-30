@@ -28,7 +28,7 @@ my $DIR = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 $inDir = File::Spec->rel2abs(shift);
 $outDir = File::Spec->rel2abs(shift);
 
-$Para  = 'parallel --gnu --halt 0 --jobs 8';
+$Para  = 'parallel --gnu --halt 0 --jobs 10';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Convert = "$Bin/parlamint2conllu.xsl";
 $Meta = "$Bin/parlamint2meta.xsl";
@@ -91,7 +91,7 @@ close TMP;
 `rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-$command = "$Saxon hdr=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
+$command = "$Saxon meta=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
 
@@ -106,12 +106,12 @@ if ($langs !~ /,/) {
 }
 else {
     foreach $lang (split(/,\s*/, $langs)) {
-	$command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
-	`cat $fileFile | $Para '$command'`;
-	`rename 's/\.ana//' $outDir/*.conllu`;
-	$command = "python3 $Valid --lang $lang --level 1 {}";
-	`ls $outDir/*.conllu | $Para '$command'`;
-	$command = "python3 $Valid --lang $lang --level 2 {}";
-	`ls $outDir/*.conllu | $Para '$command'`;
+        $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
+        `cat $fileFile | $Para '$command'`;
+        `rename 's/\.ana//' $outDir/*.conllu`;
+        $command = "python3 $Valid --lang $lang --level 1 {}";
+        `ls $outDir/*.conllu | $Para '$command'`;
+        $command = "python3 $Valid --lang $lang --level 2 {}";
+        `ls $outDir/*.conllu | $Para '$command'`;
     }
 }

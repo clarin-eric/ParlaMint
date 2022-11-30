@@ -288,7 +288,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="div" module="textstructure" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
+      <desc versionDate="2022-11-23" xml:lang="en">contains division of the body a corpus component.</desc>
       <content>
          <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -303,12 +303,17 @@
       </content>
       <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
       <attList>
-         <attDef ident="type" mode="replace" usage="rec">
+         <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="debateSection">
                   <desc xml:lang="en">General purpose text division for all parts of parliamentary
-            proceedings.  If needed, the @subtype attribute can be used for additional content
-            classification.</desc>
+            proceedings. It should include at least one utterance. If needed, the @subtype
+	    attribute can be used for additional content classification.</desc>
+               </valItem>
+               <valItem ident="commentSection">
+                  <desc xml:lang="en">A special purpose text division used as a container for transcriber
+	    comments. Should not contain any utterances. If needed, the @subtype attribute can be
+	    used for additional content classification.</desc>
                </valItem>
             </valList>
          </attDef>
@@ -687,6 +692,7 @@
             <valList type="closed">
                <valItem ident="inaudible"/>
                <valItem ident="editorial"/>
+               <valItem ident="foreign"/>
             </valList>
          </attDef>
          <attDef ident="agent" mode="delete"/>
@@ -731,11 +737,6 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <gap quantity="4" unit="chars" reason="illegible"/>
-         </egXML>
-      </exemplum>
-      <exemplum xml:lang="en">
-         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <gap reason="inaudible">
                <desc>microphone muted</desc>
             </gap>
@@ -746,6 +747,13 @@
             <gap reason="editorial">
                <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
                <desc xml:lang="en">Quoted printed matter omited</desc>
+            </gap>
+         </egXML>
+      </exemplum>
+      <exemplum xml:lang="en">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <gap reason="foreign">
+               <desc xml:lang="und">Huliniahuanngittunga</desc>
             </gap>
          </egXML>
       </exemplum>
@@ -2381,7 +2389,7 @@
             </alternate>
          </alternate>
       </content>
-      <attList><!--persName/@xml:lang--><!--persName/@ref-->
+      <attList><!--persName/@xml:lang--><!--persName/@ref--><!--persName/@from--><!--persName/@to-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -2408,8 +2416,6 @@
          <attDef ident="when" mode="delete"/>
          <attDef ident="notBefore" mode="delete"/>
          <attDef ident="notAfter" mode="delete"/>
-         <attDef ident="from" mode="delete"/>
-         <attDef ident="to" mode="delete"/>
          <attDef ident="when-iso" mode="delete"/>
          <attDef ident="notBefore-iso" mode="delete"/>
          <attDef ident="notAfter-iso" mode="delete"/>
@@ -3141,24 +3147,71 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="idno" module="header" mode="change">
-      <desc versionDate="2010-04-30" xml:lang="en">supplies any form of identifier used to identify some object,
-    such as a bibliographic item, a person, a title, an organisation,
-    etc. in a standardized way.</desc>
+      <desc versionDate="2022-11-12" xml:lang="en">supplies an identifier used to identify some object,
+    such as a person or organisation. If it is a URL, it should have <code>@type="URI"</code>.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
-         <attDef ident="type" mode="change" usage="req"/>
-         <attDef ident="subtype" mode="replace" usage="rec">
-            <valList type="semi">
-               <valItem ident="facebook"/>
-               <valItem ident="twitter"/>
-               <valItem ident="wikipedia"/>
-               <valItem ident="wikimedia"/>
-               <valItem ident="wikidata"/>
+         <attDef ident="type" mode="replace" usage="req">
+            <desc versionDate="2022-11-12" xml:lang="en">categorizes the identifier.</desc>
+            <valList type="closed">
+               <valItem ident="URI">
+                  <desc versionDate="2022-11-12" xml:lang="en">Uniform Resource Identifier
+            ParlaMint should be a resolvable URL, with the <att>subtype</att>
+            classifying the type of web site.</desc>
+               </valItem>
+               <valItem ident="VIAF">
+                  <desc versionDate="2022-11-12" xml:lang="en">The URL of the Virtual Internet
+            Authority File assigned to link different names in catalogs around the world
+            for the same entity.</desc>
+               </valItem>
+            </valList>
+         </attDef>
+         <attDef ident="subtype" mode="replace" usage="opt">
+            <valList type="closed">
+               <valItem ident="handle">
+                  <desc versionDate="2022-11-12" xml:lang="en">The permanent identifier of type handle.</desc>
+               </valItem>
+               <valItem ident="government">
+                  <desc versionDate="2022-11-12" xml:lang="en">A governmental web site.</desc>
+               </valItem>
+               <valItem ident="politicalParty">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a political party.</desc>
+               </valItem>
+               <valItem ident="parliament">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site of the parliament.</desc>
+               </valItem>
+               <valItem ident="ministry">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a ministry.</desc>
+               </valItem>
+               <valItem ident="personal">
+                  <desc versionDate="2022-11-12" xml:lang="en">The personal web site of a person.</desc>
+               </valItem>
+               <valItem ident="business">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site belonging to a bussiness.</desc>
+               </valItem>
+               <valItem ident="publicService">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a pubic service.</desc>
+               </valItem>
+               <valItem ident="wikimedia">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site of Wikimedia, e.g. Wikipedia.</desc>
+               </valItem>
+               <valItem ident="facebook">
+                  <desc versionDate="2022-11-12" xml:lang="en">A Facebook web site.</desc>
+               </valItem>
+               <valItem ident="twitter">
+                  <desc versionDate="2022-11-12" xml:lang="en">A Twitter web site.</desc>
+               </valItem>
+               <valItem ident="tiktok">
+                  <desc versionDate="2022-11-12" xml:lang="en">A TikTok web site.</desc>
+               </valItem>
+               <valItem ident="instagram">
+                  <desc versionDate="2022-11-12" xml:lang="en">An Instagram web site.</desc>
+               </valItem>
             </valList>
             <remarks xml:lang="en">
-               <p>sample values recomended to use with <att>type</att>="<val>URI</val>"</p>
+               <p>this attribute should always be used with <att>type</att>="<val>URI</val>"</p>
             </remarks>
          </attDef>
          <!--idno/@xml:lang-->
@@ -4276,7 +4329,7 @@
             <desc versionDate="2013-11-20" xml:lang="en">specifies the name
 	(generic identifier) of the element indicated by the tag,  within the namespace indicated by the parent
         <gi>namespace</gi> element. All descendats of <gi>text</gi> element and <gi>text</gi> element counts
-        has to be included. </desc>
+        have to be included. </desc>
          </attDef>
          <attDef ident="occurs" mode="change" usage="req"/>
          <attDef ident="withId" mode="delete"/>
@@ -4371,16 +4424,16 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="taxonomy" module="header" mode="change">
-      <desc versionDate="2011-11-02" xml:lang="en">defines a typology either implicitly, by means of a bibliographic
-    citation, or explicitly by a structured taxonomy.</desc>
+      <desc versionDate="2022-11-10" xml:lang="en">defines a typology explicitly by a structured
+    taxonomy.</desc>
       <content>
          <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
          <elementRef key="category" minOccurs="1" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="xml:id" mode="change" usage="req"/>
+         <!--taxonomy/@xml:lang-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -5234,10 +5287,8 @@
             <elementRef key="listRelation" minOccurs="0" maxOccurs="1"/>
          </sequence>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--listOrg/@xml:id--><!--listOrg/@xml:lang-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -5660,13 +5711,12 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="relation" module="namesdates" mode="change">
-      <desc versionDate="2013-04-12" xml:lang="en">describes any kind of relationship or linkage amongst a
-    specified group of places, events, persons, objects or other items.</desc>
+      <desc versionDate="2022-10-23" xml:lang="en">describes a relationship between two organisations.</desc>
       <content>
          <empty/>
       </content>
       <attList>
-         <attDef ident="name" mode="change" usage="req">
+         <attDef ident="name" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="coalition"/>
                <valItem ident="opposition"/>
@@ -5764,12 +5814,12 @@
          </alternate>
       </content>
       <attList>
-         <attDef ident="type" mode="change" usage="req">
+         <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="politicalOrientation"/>
             </valList>
          </attDef>
-         <attDef ident="subtype" mode="change" usage="req">
+         <attDef ident="subtype" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="CHES"/>
                <valItem ident="Wikipedia"/>
@@ -5890,10 +5940,8 @@
             <elementRef key="person" minOccurs="1" maxOccurs="unbounded"/>
          </sequence>
       </content>
-      <attList>
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--listPerson/@xml:id--><!--listPerson/@xml:lang-->
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -6449,7 +6497,7 @@
                             to="2021-10-21T00:00:00">
                   <roleName xml:lang="en">Member</roleName>
                </affiliation>
-               <affiliation ref="#politicalGroup.ANO.1292"
+               <affiliation ref="#parliamentaryGroup.ANO.1292"
                             role="member"
                             from="2017-10-24T00:00:00"
                             to="2021-10-21T00:00:00">
