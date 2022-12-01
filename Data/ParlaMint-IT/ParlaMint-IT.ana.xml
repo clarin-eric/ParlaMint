@@ -151,16 +151,14 @@
             </prefixDef>
          </listPrefixDef>
           <appInfo>
-            <application version="1" ident="app-stanza">
-               <label>Stanza</label>
-               <desc xml:lang="en">
-                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref>: a jointly trained neural tagger, lemmatizer and dependency parser. Pretrained model based on the italian-isdt-ud-2.5 treebank</desc>
-            </application>
-            <application version="1" ident="app-stanza-NER">
-               <label>Stanza NER</label>
-               <desc xml:lang="en">
-                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref> with pretrained NER italian-fbk-1.2.3 model (<ref target="https://stanfordnlp.github.io/stanza/ner_models.html">https://stanfordnlp.github.io/stanza/ner_models.html</ref>)</desc>
-            </application>
+			<application version="1" ident="Stanza">
+				<label>Stanza (UD_Italian-ISDT model)</label>
+					<desc xml:lang="en">POS tagging, lemmatization, morphological analysis and dependency parsing done with <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref> using the UD_Italian-ISDT  model (<ref target="https://stanfordnlp.github.io/stanza/available_models.html#available-ud-models">https://stanfordnlp.github.io/stanza/available_models.html#available-ud-models</ref>) based on the italian-isdt-ud-2.5 treebank.</desc>
+			</application>
+			<application version="1" ident="Stanza-NERProcessor">
+				<label>Stanza NERprocessor (FBK model)</label>
+					<desc xml:lang="en">NER is done with the <ref target="https://stanfordnlp.github.io/stanza/ner.html">Stanza NERprocessor</ref>, the named entity recognition (NER) module which recognizes mention spans of a particular entity type (Person, Location, Organization), using the FBK model (<ref target="https://stanfordnlp.github.io/stanza/ner_models.html">https://stanfordnlp.github.io/stanza/ner_models.html</ref>)</desc>
+			</application>
             <application version="1" ident="conll-U2TEIXML">
                <label>CoNLL-U 2 TEI XML</label>
                <desc xml:lang="en">
