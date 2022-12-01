@@ -1,6 +1,6 @@
 <note type="president" content="Presidenza del vice presidente LA RUSSA"/>
 <note type="role" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_type="MP" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1" lang="Italian">
 <s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -72,7 +72,7 @@ approvato	approvato	approvare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=P
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Comunicazioni della Presidenza"/>
 <note type="role" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="1947">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="LaRussaIgnazio" speaker_name="La Russa, Ignazio" speaker_type="MP" speaker_party="FdI" speaker_party_name="Fratelli d'Italia" party_status="Opposition" speaker_gender="M" speaker_birth="1947">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2" lang="Italian">
 <s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1">
 L'	L'	il	DET	Definite=Def Number=Sing PronType=Art	1	det	elenco	NOUN	Gender=Masc Number=Sing	2
@@ -118,7 +118,7 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	35	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u18" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u18" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg37" lang="Italian">
 <s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg37.1">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
@@ -181,7 +181,7 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	54	amod	seduta	NOUN	Gender=Fe
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di martedì 13 settembre 2022"/>
 <note type="role" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u19" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u19" text_id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463" subcorpus="COVID" house="Upper house" term="18-upper" session="" meeting="" sitting="463-upper" agenda="" from="2022-09-07" to="2022-09-07" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)" speaker_role="Chairperson" speaker_id="CalderoliRoberto" speaker_name="Calderoli, Roberto" speaker_type="MP" speaker_party="L-SP" speaker_party_name="Lega-Salvini Premier" party_status="" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg38" lang="Italian">
 <s id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg38.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN		2

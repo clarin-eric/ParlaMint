@@ -1,6 +1,6 @@
 <note type="president" content="Presidenza della vice presidente FEDELI"/>
 <note type="role" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="FedeliValeria" speaker_name="Fedeli, Valeria" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="F" speaker_birth="1949">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="FedeliValeria" speaker_name="Fedeli, Valeria" speaker_type="MP" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="Coalition" speaker_gender="F" speaker_birth="1949">
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1" lang="Italian">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
@@ -54,7 +54,7 @@ giugno	giugno	giugno	NOUN	Gender=Masc Number=Sing	18	flat	4	NUM	NumType=Card	17
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Sul processo verbale"/>
 <note type="speaker" content="SANTANGELO (M5S)"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="SantangeloVincenzo" speaker_name="Santangelo, Vincenzo" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="1972">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="SantangeloVincenzo" speaker_name="Santangelo, Vincenzo" speaker_type="MP" speaker_party="M5S.1" speaker_party_name="Movimento 5 Stelle" party_status="Opposition" speaker_gender="M" speaker_birth="1972">
 <note type="-" content="Domando di parlare."/>
 <note type="-" content="PRESIDENTE. Ne ha facoltà."/>
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2" lang="Italian">
@@ -88,7 +88,7 @@ legale	legale	legale	ADJ	Number=Sing	5	amod	numero	NOUN	Gender=Masc Number=Sing	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u114" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="DiBiagioAldo" speaker_name="Di Biagio, Aldo" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="M" speaker_birth="1964">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u114" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="DiBiagioAldo" speaker_name="Di Biagio, Aldo" speaker_type="MP" speaker_party="AP (NCD-UDC)" speaker_party_name="Area Popolare (NCD-UDC)" party_status="Coalition" speaker_gender="M" speaker_birth="1964">
 <note type="-" content="Domando di parlare."/>
 <note type="-" content="PRESIDENTE. Ne ha facoltà."/>
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg216" lang="Italian">
@@ -446,7 +446,7 @@ bisognosi	bisognosi	bisognoso	ADJ	Gender=Masc Number=Plur	45	amod	cittadino	NOUN
 </speech>
 <note type="head" content="Mozioni, interpellanze e interrogazioni, annunzio"/>
 <note type="role" content="PRESIDENTE"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u115" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1956">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u115" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" house="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" from="2015-06-10" to="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_type="MP" speaker_party="PdL" speaker_party_name="Il Popolo della Libertà" party_status="" speaker_gender="M" speaker_birth="1956">
 <p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg217" lang="Italian">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg217.1">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
