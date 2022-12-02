@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ParlaMint-GB.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Great Britain parliamentary corpus ParlaMint-GB [ParlaMint.ana]</title>
+            <title type="sub">Minutes of the House of Commons and the House of Lords, Daily Sessions</title>
+            <meeting ana="#parla.term #PoGB.55"/>
+            <meeting ana="#parla.term #PoGB.56"/>
+            <meeting ana="#parla.term #PoGB.57"/>
+            <meeting ana="#parla.term #PoGB.58"/>
+            <respStmt>
+               <persName>Matthew Coole</persName>
+               <resp>Data retrieval, Parla-CLARIN TEI XML corpus encoding and linguistic annotation.</resp>
+            </respStmt>
+            <funder>
+               <orgName>The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="0" unit="speeches">0 speeches</measure>
+            <measure quantity="0" unit="words">0 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p>
+                                This work is licensed under the
+                                <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2022-12-02">2022-12-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Parliament of Great Britain: Daily sessions</title>
+               <publisher>Houses of Parliament</publisher>
+               <idno type="URI">https://hansard.parliament.uk/</idno>
+               <date from="2015-01-05" to="2021-02-25">2015-01-05 - 2021-02-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+                            (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+                            (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+                            (3) make the corpora available through concordancers and Parlameter; and
+                            (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
+                        </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p>Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p>Hyphenation has not been altered with respect to the source files.</p>
+            </hyphenation>
+            <quotation>
+               <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p>The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="">
+               <tagUsage gi="text" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature">
+               <desc>
+                  <term>Legislature</term>
+               </desc>
+               <category xml:id="parla.organization">
+                  <catDesc>
+                     <term>Organization</term>
+                  </catDesc>
+                  <category xml:id="parla.chambers">
+                     <catDesc>
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.bi">
+                        <catDesc>
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc>
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc>
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="parla.term">
+                  <catDesc>
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category xml:id="parla.session">
+                     <catDesc>
+                        <term>Legislative session</term>: a period of time in which a legislature is convened, typically one year.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc>
+                           <term>Meeting</term>: Each meeting will be a constitute part of a parliamentary session.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc>
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc>
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc>
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="speaker_types">
+               <desc>
+                  <term>Types of speakers</term>
+               </desc>
+               <category xml:id="chair">
+                  <catDesc>
+                     <term>Chairperson</term>: chairman of a meeting</catDesc>
+               </category>
+               <category xml:id="regular">
+                  <catDesc>
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="guest">
+                  <catDesc>
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="subcorpus">
+               <desc>
+                  <term>Subcorpora</term>
+               </desc>
+               <category xml:id="reference">
+                  <catDesc>
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+               </category>
+               <category xml:id="covid">
+                  <catDesc>
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="NER">
+               <desc>
+                  <term>Named entities</term>
+               </desc>
+               <category xml:id="PER">
+                  <catDesc>
+                     <term>person</term>
+                  </catDesc>
+               </category>
+               <category xml:id="LOC">
+                  <catDesc>
+                     <term>location</term>
+                  </catDesc>
+               </category>
+               <category xml:id="ORG">
+                  <catDesc>
+                     <term>organization</term>
+                  </catDesc>
+               </category>
+               <category xml:id="MISC">
+                  <catDesc>
+                     <term>miscellaneous</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="UD-SYN">
+               <desc>
+                  <term>UD syntactic relations</term>
+               </desc>
+               <category xml:id="acl">
+                  <catDesc>
+                     <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
+               </category>
+               <category xml:id="acl_relcl">
+                  <catDesc>
+                     <term>acl:relcl</term>: relative clause modifier</catDesc>
+               </category>
+               <category xml:id="advcl">
+                  <catDesc>
+                     <term>advcl</term>: Adverbial clause modifier</catDesc>
+               </category>
+               <category xml:id="advmod">
+                  <catDesc>
+                     <term>advmod</term>: Adverbial modifier</catDesc>
+               </category>
+               <category xml:id="amod">
+                  <catDesc>
+                     <term>amod</term>: Adjectival modifier</catDesc>
+               </category>
+               <category xml:id="appos">
+                  <catDesc>
+                     <term>appos</term>: Appositional modifier</catDesc>
+               </category>
+               <category xml:id="aux">
+                  <catDesc>
+                     <term>aux</term>: Auxiliary</catDesc>
+               </category>
+               <category xml:id="aux_pass">
+                  <catDesc>
+                     <term>aux:pass</term>: passive auxiliary</catDesc>
+               </category>
+               <category xml:id="case">
+                  <catDesc>
+                     <term>case</term>: Case marking</catDesc>
+               </category>
+               <category xml:id="cc">
+                  <catDesc>
+                     <term>cc</term>: Coordinating conjunction</catDesc>
+               </category>
+               <category xml:id="ccomp">
+                  <catDesc>
+                     <term>ccomp</term>: Clausal complement</catDesc>
+               </category>
+               <category xml:id="cc_preconj">
+                  <catDesc>
+                     <term>cc:preconj</term>: Preconjunct</catDesc>
+               </category>
+               <category xml:id="compound">
+                  <catDesc>
+                     <term>compound</term>: compound</catDesc>
+               </category>
+               <category xml:id="compound_prt">
+                  <catDesc>
+                     <term>compound:prt</term>: phrasal verb particle</catDesc>
+               </category>
+               <category xml:id="conj">
+                  <catDesc>
+                     <term>conj</term>: Conjunct</catDesc>
+               </category>
+               <category xml:id="cop">
+                  <catDesc>
+                     <term>cop</term>: Copula</catDesc>
+               </category>
+               <category xml:id="csubj">
+                  <catDesc>
+                     <term>csubj</term>: Clausal subject</catDesc>
+               </category>
+               <category xml:id="csubj_pass">
+                  <catDesc>
+                     <term>csubj:pass</term>: Clausal passive subject</catDesc>
+               </category>
+               <category xml:id="dep">
+                  <catDesc>
+                     <term>dep</term>: Unspecified dependency</catDesc>
+               </category>
+               <category xml:id="det">
+                  <catDesc>
+                     <term>det</term>: Determiner</catDesc>
+               </category>
+               <category xml:id="det_predet">
+                  <catDesc>
+                     <term>det:predet</term>: predeterminer</catDesc>
+               </category>
+               <category xml:id="det_qmod">
+                  <catDesc>
+                     <term>det:qmod</term>: special relation quantificational modifier</catDesc>
+               </category>
+               <category xml:id="discourse">
+                  <catDesc>
+                     <term>discourse</term>: Discourse element</catDesc>
+               </category>
+               <category xml:id="expl">
+                  <catDesc>
+                     <term>expl</term>: Expletive</catDesc>
+               </category>
+               <category xml:id="fixed">
+                  <catDesc>
+                     <term>fixed</term>: Fixed multiword expression</catDesc>
+               </category>
+               <category xml:id="flat">
+                  <catDesc>
+                     <term>flat</term>: Flat multiword expression</catDesc>
+               </category>
+               <category xml:id="flat_foreign">
+                  <catDesc>
+                     <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
+               </category>
+               <category xml:id="flat_name">
+                  <catDesc>
+                     <term>flat:name</term>: Flat name</catDesc>
+               </category>
+               <category xml:id="goeswith">
+                  <catDesc>
+                     <term>goeswith</term>: Goes with</catDesc>
+               </category>
+               <category xml:id="iobj">
+                  <catDesc>
+                     <term>iobj</term>: Indirect object</catDesc>
+               </category>
+               <category xml:id="mark">
+                  <catDesc>
+                     <term>mark</term>: Marker</catDesc>
+               </category>
+               <category xml:id="nmod">
+                  <catDesc>
+                     <term>nmod</term>: Nominal modifier</catDesc>
+               </category>
+               <category xml:id="nmod_poss">
+                  <catDesc>
+                     <term>nmod:poss</term>: possessive nominal modifier</catDesc>
+               </category>
+               <category xml:id="nsubj">
+                  <catDesc>
+                     <term>nsubj</term>: Nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_pass">
+                  <catDesc>
+                     <term>nsubj:pass</term>: passive nominal subject</catDesc>
+               </category>
+               <category xml:id="nsubj_xsubj">
+                  <catDesc>
+                     <term>nsubj:xsubj</term>: controlling subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nsubj_pass_xsubj">
+                  <catDesc>
+                     <term>nsubj:pass:xsubj</term>: controlling passive subject (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="nummod">
+                  <catDesc>
+                     <term>nummod</term>: Numeric modifier</catDesc>
+               </category>
+               <category xml:id="obj">
+                  <catDesc>
+                     <term>obj</term>: Object</catDesc>
+               </category>
+               <category xml:id="obl">
+                  <catDesc>
+                     <term>obl</term>: Oblique nominal</catDesc>
+               </category>
+               <category xml:id="obl_agent">
+                  <catDesc>
+                     <term>obl:agent</term>: agent modifier</catDesc>
+               </category>
+               <category xml:id="obl_npmod">
+                  <catDesc>
+                     <term>obl</term>: oblique nominal noun phrase modifier</catDesc>
+               </category>
+               <category xml:id="obl_tmod">
+                  <catDesc>
+                     <term>obl:tmod</term>: temporal modifier</catDesc>
+               </category>
+               <category xml:id="orphan">
+                  <catDesc>
+                     <term>orphan</term>: orphan-to-orphan relation in gapping</catDesc>
+               </category>
+               <category xml:id="parataxis">
+                  <catDesc>
+                     <term>parataxis</term>: Parataxis</catDesc>
+               </category>
+               <category xml:id="punct">
+                  <catDesc>
+                     <term>punct</term>: Punctuation</catDesc>
+               </category>
+               <category xml:id="ref">
+                  <catDesc>
+                     <term>ref</term>: relative clause (enhanced dependency)</catDesc>
+               </category>
+               <category xml:id="reparandum">
+                  <catDesc>
+                     <term>reparandum</term>: Overridden disfluency (here used for program mistakes!)</catDesc>
+               </category>
+               <category xml:id="root">
+                  <catDesc>
+                     <term>root</term>: Root</catDesc>
+               </category>
+               <category xml:id="xcomp">
+                  <catDesc>
+                     <term>xcomp</term>: Open clausal complement</catDesc>
+               </category>
+               <category xml:id="udpe">
+                  <catDesc>
+                     <term>?</term>: UD parser error</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application version="4.0" ident="stanford-corenlp">
+               <label>Stanford CoreNLP</label>
+               <desc>Tokenisation, POS tagging, NER and dependency parsed using Stanford CoreNLP <ref target="https://stanfordnlp.github.io/CoreNLP/">https://stanfordnlp.github.io/CoreNLP/</ref>.</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">London</name>
+               <name type="place">Westminster</name>
+               <date from="2015-01-01" to="2021-03-31"/>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listOrg>
+               <org xml:id="PoGB" role="parliament">
+                  <orgName full="yes">Parliament of the United Kingdom of Great Britain and Northern Ireland</orgName>
+                  <listEvent>
+                     <event xml:id="PoGB.55" from="2010-05-18" to="2015-03-30">
+                        <label>Fifty-fifth Parliament of the United Kingdom</label>
+                     </event>
+                     <event xml:id="PoGB.56" from="2015-05-27" to="2017-05-03">
+                        <label>Fifty-sixth Parliament of the United Kingdom</label>
+                     </event>
+                     <event xml:id="PoGB.57" from="2017-06-21" to="2019-11-06">
+                        <label>Fifty-seventh Parliament of the United Kingdom</label>
+                     </event>
+                     <event xml:id="PoGB.58" from="2019-12-17">
+                        <label>Fifty-eighth Parliament of the United Kingdom</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.LS">
+                  <orgName full="yes">Lord Speaker</orgName>
+                  <orgName full="abb">LS</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.NA">
+                  <orgName full="yes">Non-affiliated</orgName>
+                  <orgName full="abb">NA</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.GP">
+                  <orgName full="yes">Green Party</orgName>
+                  <orgName full="abb">GP</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.UUSL">
+                  <orgName full="yes">Social Democratic Party</orgName>
+                  <orgName full="abb">UUSL</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.LI">
+                  <orgName full="yes">Labour Independent</orgName>
+                  <orgName full="abb">LI</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.CON">
+                  <orgName full="yes">Conservative</orgName>
+                  <orgName full="abb">CON</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.DUP">
+                  <orgName full="yes">Democratic Unionist Party</orgName>
+                  <orgName full="abb">DUP</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.LD">
+                  <orgName full="yes">Liberal Democrat</orgName>
+                  <orgName full="abb">LD</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.LB">
+                  <orgName full="yes">Liberal</orgName>
+                  <orgName full="abb">LB</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.CB">
+                  <orgName full="yes">Crossbench</orgName>
+                  <orgName full="abb">CB</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.I">
+                  <orgName full="yes">Independent</orgName>
+                  <orgName full="abb">I</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.LAB">
+                  <orgName full="yes">Labour</orgName>
+                  <orgName full="abb">LAB</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.SNP">
+                  <orgName full="yes">Scottish National Party</orgName>
+                  <orgName full="abb">SNP</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.BI">
+                  <orgName full="yes">Bishops</orgName>
+                  <orgName full="abb">BI</orgName>
+               </org>
+               <org ana="parla.national" role="politicalParty" xml:id="#party.S">
+                  <orgName full="yes">Speaker</orgName>
+                  <orgName full="abb">S</orgName>
+               </org>
+            </listOrg>
+            <listPerson>
+               <head>List of speakers</head>
+               <person xml:id="NavenduMishra">
+                  <persName>
+                     <forename>Navendu</forename>
+                     <forename>Prabhat</forename>
+                     <surname>Mishra</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4811/contact</idno>
+               </person>
+               <person xml:id="MarkMcInnes">
+                  <persName>
+                     <forename>Mark</forename>
+                     <surname>McInnes</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4576/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/6puYaolz.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GavinNewlands">
+                  <persName>
+                     <forename>Gavin</forename>
+                     <forename>Andrew Stuart</forename>
+                     <surname>Newlands</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4420/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/GavinNewlandsMP</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/ChooseGavin</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/3qZGdA1b.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="SaraBritcliffe">
+                  <persName>
+                     <forename>Sara</forename>
+                     <forename>Alice</forename>
+                     <surname>Britcliffe</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4838/contact</idno>
+               </person>
+               <person xml:id="BarrySheerman">
+                  <persName>
+                     <forename>Barry</forename>
+                     <forename>John</forename>
+                     <surname>Sheerman</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/411/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/BarrySheerman</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/YnjeUXkm.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="PaulHolmes">
+                  <persName>
+                     <forename>Paul</forename>
+                     <forename>John</forename>
+                     <surname>Holmes</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4803/contact</idno>
+               </person>
+               <person xml:id="JohnAnderson">
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Anderson</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1744/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/uqyQT5b7.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JohnSpellar">
+                  <persName>
+                     <forename>John</forename>
+                     <forename>Francis</forename>
+                     <surname>Spellar</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/318/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/spellar</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/f8QjI6aE.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MathewRodda">
+                  <persName>
+                     <forename>Mathew</forename>
+                     <forename>Richard Allen</forename>
+                     <surname>Rodda</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4654/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/PJp2mKqP.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="PaulineBryan">
+                  <persName>
+                     <forename>Pauline</forename>
+                     <surname>Bryan</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4701/contact</idno>
+               </person>
+               <person xml:id="JoannaGideon">
+                  <persName>
+                     <forename>Joanna</forename>
+                     <forename>Mary</forename>
+                     <surname>Gideon</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4817/contact</idno>
+               </person>
+               <person xml:id="RichardGraham">
+                  <persName>
+                     <forename>Richard</forename>
+                     <forename>Michael John Ogilvie</forename>
+                     <surname>Graham</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3990/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/RichardGrahamMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/KS4X3MOM.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ChristopherElmore">
+                  <persName>
+                     <forename>Christopher</forename>
+                     <forename>Philip James</forename>
+                     <surname>Elmore</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4572/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/cpjelmore</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/ChrisElmoreMP/</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/SZ0wMZuM.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="PaulScully">
+                  <persName>
+                     <forename>Paul</forename>
+                     <forename>Stuart</forename>
+                     <surname>Scully</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4414/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/scullyp</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/GJnMmOyf.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MaryTwist">
+                  <persName>
+                     <forename>Mary</forename>
+                     <forename>Elizabeth</forename>
+                     <surname>Twist</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4618/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Mgn0kk5S.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="TessaBlackstone">
+                  <persName>
+                     <forename>Tessa</forename>
+                     <forename>Ann Vosper</forename>
+                     <surname>Blackstone</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3561/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/oINdfdGj.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AlexanderCarmichael">
+                  <persName>
+                     <forename>Alexander</forename>
+                     <forename>Morrison</forename>
+                     <surname>Carmichael</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1442/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/acarmichaelmp</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/9z7cU6u1.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RoselBoycott">
+                  <persName>
+                     <forename>Rosel</forename>
+                     <surname>Boycott</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4704/contact</idno>
+               </person>
+               <person xml:id="TariqAhmad">
+                  <persName>
+                     <forename>Tariq</forename>
+                     <surname>Ahmad</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4210/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/tariqahmadbt</idno>
+               </person>
+               <person xml:id="SarahOlney">
+                  <persName>
+                     <forename>Sarah</forename>
+                     <forename>Jane</forename>
+                     <surname>Olney</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4591/contact</idno>
+               </person>
+               <person xml:id="AnitaGale">
+                  <persName>
+                     <forename>Anita</forename>
+                     <surname>Gale</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/2503/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/zBbYJdeM.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="HenryBellingham">
+                  <persName>
+                     <forename>Henry</forename>
+                     <surname>Bellingham</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1441/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/dk6Blhnq.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="OliviaBloomfield">
+                  <persName>
+                     <forename>Olivia</forename>
+                     <surname>Bloomfield</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4582/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Gc7kDQSC.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="TomMcNally">
+                  <persName>
+                     <forename>Tom</forename>
+                     <surname>McNally</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/919/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/QYQmVE29.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="CliveBetts">
+                  <persName>
+                     <forename>Clive</forename>
+                     <forename>James Charles</forename>
+                     <surname>Betts</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/394/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/CliveBettsMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/hnCWVlFJ.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AlastairCooke">
+                  <persName>
+                     <forename>Alastair</forename>
+                     <surname>Cooke</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4202/contact</idno>
+               </person>
+               <person xml:id="MichaelCashman">
+                  <persName>
+                     <forename>Michael</forename>
+                     <surname>Cashman</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4340/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/mcashmanCBE</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/uvcmNqqX.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GeorgeDuncanSmith">
+                  <persName>
+                     <forename>George</forename>
+                     <forename>Iain</forename>
+                     <surname>Duncan Smith</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/152/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/QKFLcYZ8.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MalcolmBruce">
+                  <persName>
+                     <forename>Malcolm</forename>
+                     <surname>Bruce</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/615/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/malcolmbruce</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/PgFyFLn4.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DenisTunnicliffe">
+                  <persName>
+                     <forename>Denis</forename>
+                     <surname>Tunnicliffe</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3671/contact</idno>
+               </person>
+               <person xml:id="JulianKnight">
+                  <persName>
+                     <forename>Julian</forename>
+                     <forename>Carlton</forename>
+                     <surname>Knight</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4410/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/julianknight15</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/JulianKnightforSolihull</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/zUSInshk.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ChristopherLoder">
+                  <persName>
+                     <forename>Christopher</forename>
+                     <forename>Lionel John</forename>
+                     <surname>Loder</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4751/contact</idno>
+               </person>
+               <person xml:id="RupaHuq">
+                  <persName>
+                     <forename>Rupa</forename>
+                     <forename>Asha</forename>
+                     <surname>Huq</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4511/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/rupahuq</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/CNnmHE23.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="CatherineMeyer">
+                  <persName>
+                     <forename>Catherine</forename>
+                     <surname>Meyer</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4699/contact</idno>
+               </person>
+               <person xml:id="SimonBrown">
+                  <persName>
+                     <forename>Simon</forename>
+                     <forename>Denis</forename>
+                     <surname>Brown</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3654/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/MVwhimze.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LloydRussellMoyle">
+                  <persName>
+                     <forename>Lloyd</forename>
+                     <surname>Russell-Moyle</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4615/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/lloyd_rm</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/LloydRussellMoyle/</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/xXTvcHDg.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="IanLiddellGrainger">
+                  <persName>
+                     <forename>Ian</forename>
+                     <forename>Richard Peregrine</forename>
+                     <surname>Liddell-Grainger</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1396/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/7xiUjKSN.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DavidHowell">
+                  <persName>
+                     <forename>David</forename>
+                     <forename>Arthur Russell</forename>
+                     <surname>Howell</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/993/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Lordhowell</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/gESok4yP.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JamesMearns">
+                  <persName>
+                     <forename>James</forename>
+                     <forename>Ian</forename>
+                     <surname>Mearns</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4000/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/IanMearnsMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/I6wd9weg.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RichardShannon">
+                  <persName>
+                     <forename>Richard</forename>
+                     <forename>James</forename>
+                     <surname>Shannon</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4131/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/jimshannonmp</idno>
+               </person>
+               <person xml:id="MarcoLonghi">
+                  <persName>
+                     <forename>Marco</forename>
+                     <surname>Longhi</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4789/contact</idno>
+               </person>
+               <person xml:id="HelenaKennedy">
+                  <persName>
+                     <forename>Helena</forename>
+                     <surname>Kennedy</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1987/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/fBjUPm6L.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="TimothyLoughton">
+                  <persName>
+                     <forename>Timothy</forename>
+                     <forename>Paul</forename>
+                     <surname>Loughton</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/114/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/timloughton</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/AcplbG52.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MarkJenkinson">
+                  <persName>
+                     <forename>Mark</forename>
+                     <forename>Ian</forename>
+                     <surname>Jenkinson</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4752/contact</idno>
+               </person>
+               <person xml:id="PaulScriven">
+                  <persName>
+                     <forename>Paul</forename>
+                     <surname>Scriven</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4333/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Paulscriven</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/gF5lVEi7.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JeanCoussins">
+                  <persName>
+                     <forename>Jean</forename>
+                     <surname>Coussins</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3829/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/j1lhX5uo.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AnnaFirth">
+                  <persName>
+                     <forename>Anna</forename>
+                     <surname>Firth</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4936/contact</idno>
+               </person>
+               <person xml:id="JohnPakington">
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Pakington</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4951/contact</idno>
+               </person>
+               <person xml:id="StewartHosie">
+                  <persName>
+                     <forename>Stewart</forename>
+                     <surname>Hosie</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1514/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/StewartHosieMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/xUsMi3Oi.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DaleCampbellSavours">
+                  <persName>
+                     <forename>Dale</forename>
+                     <forename>Norman</forename>
+                     <surname>Campbell-Savours</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/499/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/adbjCqJg.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NarendraPatel">
+                  <persName>
+                     <forename>Narendra</forename>
+                     <forename>Babubhai</forename>
+                     <surname>Patel</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/2443/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/bYtIl8Ua.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NeilOBrien">
+                  <persName>
+                     <forename>Neil</forename>
+                     <forename>John</forename>
+                     <surname>O'Brien</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4679/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/NeilDotObrien</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/neil4harborough/</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/p6JYtaxc.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MargaretFerrier">
+                  <persName>
+                     <forename>Margaret</forename>
+                     <surname>Ferrier</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4386/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/MargaretFerrier</idno>
+               </person>
+               <person xml:id="JennyChapman">
+                  <persName>
+                     <forename>Jenny</forename>
+                     <surname>Chapman</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3972/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/JennyChapman</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/zMaMXB7c.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JenniferRanderson">
+                  <persName>
+                     <forename>Jennifer</forename>
+                     <forename>Elizabeth</forename>
+                     <surname>Randerson</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4230/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/jennyranderson</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/LKRh0DRA.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AndrewSharpe">
+                  <persName>
+                     <forename>Andrew</forename>
+                     <surname>Sharpe</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4888/contact</idno>
+               </person>
+               <person xml:id="KevinBrennan">
+                  <persName>
+                     <forename>Kevin</forename>
+                     <forename>Denis</forename>
+                     <surname>Brennan</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1400/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/KevinBrennanMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/YTiAgse5.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="EdwardLeigh">
+                  <persName>
+                     <forename>Edward</forename>
+                     <forename>Julian Egerton</forename>
+                     <surname>Leigh</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/345/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/EdwardLeighMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/kHZbXTnP.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RichardHarries">
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Harries</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3813/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/iHvOcErb.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DominicHubbard">
+                  <persName>
+                     <forename>Dominic</forename>
+                     <surname>Hubbard</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3453/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/pr7LBaRW.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="KevinShinkwin">
+                  <persName>
+                     <forename>Kevin</forename>
+                     <surname>Shinkwin</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4557/contact</idno>
+               </person>
+               <person xml:id="PeterFowler">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Fowler</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/315/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/QDbueyIv.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ShamiChakrabarti">
+                  <persName>
+                     <forename>Shami</forename>
+                     <surname>Chakrabarti</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4579/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/jjCKoH6R.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="SusanWilliams">
+                  <persName>
+                     <forename>Susan</forename>
+                     <surname>Williams</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4311/contact</idno>
+               </person>
+               <person xml:id="MarkMenzies">
+                  <persName>
+                     <forename>Mark</forename>
+                     <forename>Andrew</forename>
+                     <surname>Menzies</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3998/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/7eEEBvVZ.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NatalieElphicke">
+                  <persName>
+                     <forename>Natalie</forename>
+                     <forename>Cecilia</forename>
+                     <surname>Elphicke</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4795/contact</idno>
+               </person>
+               <person xml:id="JuliaLopez">
+                  <persName>
+                     <forename>Julia</forename>
+                     <forename>Louise</forename>
+                     <surname>Lopez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4647/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/JuliaDockerill</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/qK3GylNt.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GarySambrook">
+                  <persName>
+                     <forename>Gary</forename>
+                     <forename>William</forename>
+                     <surname>Sambrook</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4760/contact</idno>
+               </person>
+               <person xml:id="SarahAtherton">
+                  <persName>
+                     <forename>Sarah</forename>
+                     <forename>Elizabeth</forename>
+                     <surname>Atherton</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4855/contact</idno>
+               </person>
+               <person xml:id="SimonFell">
+                  <persName>
+                     <forename>Simon</forename>
+                     <forename>Richard James</forename>
+                     <surname>Fell</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4744/contact</idno>
+               </person>
+               <person xml:id="RobertRogers">
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Rogers</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4351/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Ow0sr2ja.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="PatrickGrady">
+                  <persName>
+                     <forename>Patrick</forename>
+                     <forename>John</forename>
+                     <surname>Grady</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4432/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/gradysnp</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/PatrickGradySNP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/6fE3qLbd.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MichelleDonelan">
+                  <persName>
+                     <forename>Michelle</forename>
+                     <forename>Emma May Elizabeth</forename>
+                     <surname>Donelan</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4530/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/michelledonelan</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/teamdonelan</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/MichelleDonelanChippenham</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/20EHxcQG.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="PatriciaGibson">
+                  <persName>
+                     <forename>Patricia</forename>
+                     <surname>Gibson</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4435/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/PGibsonSNP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/1OUMcPUi.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DesmondBrowne">
+                  <persName>
+                     <forename>Desmond</forename>
+                     <surname>Browne</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/620/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Z6rwINDf.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="StephenSherbourne">
+                  <persName>
+                     <forename>Stephen</forename>
+                     <surname>Sherbourne</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4287/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/D3m5y0XQ.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MichaelMorris">
+                  <persName>
+                     <forename>Michael</forename>
+                     <surname>Morris</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1251/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/saq2PJAO.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LorelyBurt">
+                  <persName>
+                     <forename>Lorely</forename>
+                     <surname>Burt</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1567/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/LorelyBurt</idno>
+               </person>
+               <person xml:id="JohnPenrose">
+                  <persName>
+                     <forename>John</forename>
+                     <forename>David</forename>
+                     <surname>Penrose</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1584/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/JohnPenroseNews</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/5QxHZ8h6.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="HuwMerriman">
+                  <persName>
+                     <forename>Huw</forename>
+                     <forename>William</forename>
+                     <surname>Merriman</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4442/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/huwmerriman</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/QZQbaD6l.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AntoniaAntoniazzi">
+                  <persName>
+                     <forename>Antonia</forename>
+                     <forename>Louise</forename>
+                     <surname>Antoniazzi</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4623/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/ToniaAntoniazzi</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/ToniaForGower</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/HIQKLNyr.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DanielMoylan">
+                  <persName>
+                     <forename>Daniel</forename>
+                     <surname>Moylan</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4883/contact</idno>
+               </person>
+               <person xml:id="JamesYounger">
+                  <persName>
+                     <forename>James</forename>
+                     <surname>Younger</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4169/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/PqEeCJgd.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NicholasMarkham">
+                  <persName>
+                     <forename>Nicholas</forename>
+                     <surname>Markham</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4948/contact</idno>
+               </person>
+               <person xml:id="RaymondCollins">
+                  <persName>
+                     <forename>Raymond</forename>
+                     <surname>Collins</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4222/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Lord_Collins</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/M8w8WIPf.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DavidSimmonds">
+                  <persName>
+                     <forename>David</forename>
+                     <forename>Timothy</forename>
+                     <surname>Simmonds</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4872/contact</idno>
+               </person>
+               <person xml:id="SarahGreen">
+                  <persName>
+                     <forename>Sarah</forename>
+                     <forename>Louise</forename>
+                     <surname>Green</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4918/contact</idno>
+               </person>
+               <person xml:id="AlanHaselhurst">
+                  <persName>
+                     <forename>Alan</forename>
+                     <surname>Haselhurst</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/43/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/T8p46jXt.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="IanBlair">
+                  <persName>
+                     <forename>Ian</forename>
+                     <forename>Warwick</forename>
+                     <surname>Blair</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4182/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/T22I4bpR.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="BarbaraKeeley">
+                  <persName>
+                     <forename>Barbara</forename>
+                     <forename>Mary</forename>
+                     <surname>Keeley</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1588/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/KeeleyMP</idno>
+               </person>
+               <person xml:id="TanmanjeetDhesi">
+                  <persName>
+                     <forename>Tanmanjeet</forename>
+                     <forename>Singh</forename>
+                     <surname>Dhesi</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4638/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/TanDhesi</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/tandhesi/</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/VUZifWUi.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GeorgeYoung">
+                  <persName>
+                     <forename>George</forename>
+                     <surname>Young</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/57/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/YIX9HKhe.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JohnBird">
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Bird</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4564/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/johnbirdswords</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/pages/John-Bird-Baron-Bird/116378058409595</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/5ZTATgKd.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ArminkaHelic">
+                  <persName>
+                     <forename>Arminka</forename>
+                     <surname>Helic</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4331/contact</idno>
+               </person>
+               <person xml:id="CharlotteVere">
+                  <persName>
+                     <forename>Charlotte</forename>
+                     <surname>Vere</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4580/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/charlottev?lang=en-gb</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/fF3bRokW.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DoreenLawrence">
+                  <persName>
+                     <forename>Doreen</forename>
+                     <surname>Lawrence</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4290/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/DLawrenceOBE</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/wl53EfQg.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AlanSmith">
+                  <persName>
+                     <forename>Alan</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4308/contact</idno>
+               </person>
+               <person xml:id="JohnBassam">
+                  <persName>
+                     <forename>John</forename>
+                     <forename>Steven</forename>
+                     <surname>Bassam</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3504/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Rgv6eXnn.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="PeterSnape">
+                  <persName>
+                     <forename>Peter</forename>
+                     <surname>Snape</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/319/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/xNk92biL.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LucyLeighFrazer">
+                  <persName>
+                     <forename>Lucy</forename>
+                     <forename>Claire</forename>
+                     <surname>Leigh (Frazer)</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4517/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/argxzvrH.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ThangamDebbonaire">
+                  <persName>
+                     <forename>Thangam</forename>
+                     <forename>Elizabeth Rachel</forename>
+                     <surname>Debbonaire</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4433/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/thangammp</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/dzpmUD38.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RichardAllan">
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Allan</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/397/contact</idno>
+               </person>
+               <person xml:id="AngelaBrowning">
+                  <persName>
+                     <forename>Angela</forename>
+                     <forename>Frances</forename>
+                     <surname>Browning</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/236/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/4yHGLTkA.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NicholasSmith">
+                  <persName>
+                     <forename>Nicholas</forename>
+                     <forename>Desmond John</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3928/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/BlaenauGwentMP</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/NickSmithforBlaenauGwent</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/sYHPRb0u.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AndrewGwynne">
+                  <persName>
+                     <forename>Andrew</forename>
+                     <forename>John</forename>
+                     <surname>Gwynne</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1506/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/GwynneMP</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/GwynneMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/S4ILw89O.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NicholasTrue">
+                  <persName>
+                     <forename>Nicholas</forename>
+                     <surname>True</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4200/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/m5dtNiGf.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ChristianWakeford">
+                  <persName>
+                     <forename>Christian</forename>
+                     <surname>Wakeford</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4871/contact</idno>
+               </person>
+               <person xml:id="AngelaRayner">
+                  <persName>
+                     <forename>Angela</forename>
+                     <surname>Rayner</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4356/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/angelarayner</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/eKbm1x9p.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GillianMerron">
+                  <persName>
+                     <forename>Gillian</forename>
+                     <surname>Merron</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/347/contact</idno>
+               </person>
+               <person xml:id="DorotheaThornton">
+                  <persName>
+                     <forename>Dorothea</forename>
+                     <forename>Glenys</forename>
+                     <surname>Thornton</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1782/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/glenysthornton</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/A4Y07nq6.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DianaWarwick">
+                  <persName>
+                     <forename>Diana</forename>
+                     <forename>Mary</forename>
+                     <surname>Warwick</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/2471/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/aKD583jK.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GeorgeFoulkes">
+                  <persName>
+                     <forename>George</forename>
+                     <surname>Foulkes</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/579/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/GeorgeFoulkes</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/GeorgeFoulkes</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/ReYxfrHs.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DavidHannay">
+                  <persName>
+                     <forename>David</forename>
+                     <forename>Hugh Alexander</forename>
+                     <surname>Hannay</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/2167/contact</idno>
+               </person>
+               <person xml:id="JeffreySmith">
+                  <persName>
+                     <forename>Jeffrey</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4456/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/jeffsmithetc</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/8Vy68md5.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="SallyAnnHart">
+                  <persName>
+                     <forename>Sally-Ann</forename>
+                     <surname>Hart</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4842/contact</idno>
+               </person>
+               <person xml:id="ZacGoldsmith">
+                  <persName>
+                     <forename>Zac</forename>
+                     <surname>Goldsmith</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4062/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/ZacGoldsmith</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/PxWXATZF.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MarkEastwood">
+                  <persName>
+                     <forename>Mark</forename>
+                     <forename>Simon</forename>
+                     <surname>Eastwood</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4807/contact</idno>
+               </person>
+               <person xml:id="AnneJenkin">
+                  <persName>
+                     <forename>Anne</forename>
+                     <forename>Caroline</forename>
+                     <surname>Jenkin</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4229/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/bdsKc49c.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MichaelWatson">
+                  <persName>
+                     <forename>Michael</forename>
+                     <forename>Goodall</forename>
+                     <surname>Watson</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1241/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/kn5k4g09.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AnthonyMangnall">
+                  <persName>
+                     <forename>Anthony</forename>
+                     <forename>James Holland</forename>
+                     <surname>Mangnall</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4762/contact</idno>
+               </person>
+               <person xml:id="JanetRoyall">
+                  <persName>
+                     <forename>Janet</forename>
+                     <surname>Royall</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3703/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/LabourRoyall</idno>
+               </person>
+               <person xml:id="AlanBrown">
+                  <persName>
+                     <forename>Alan</forename>
+                     <surname>Brown</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4470/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/alanbrownsnp</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/B59BDgR5.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="CatherineBakewell">
+                  <persName>
+                     <forename>Catherine</forename>
+                     <surname>Bakewell</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4285/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/5nIRKVvr.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LucyAllan">
+                  <persName>
+                     <forename>Lucy</forename>
+                     <surname>Allan</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4411/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/lucyallan</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/DUPfVet1.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="CatherineSmith">
+                  <persName>
+                     <forename>Catherine</forename>
+                     <forename>Jane</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4436/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/CatSmithMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/yOJKipFE.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RichardBacon">
+                  <persName>
+                     <forename>Richard</forename>
+                     <forename>Michael</forename>
+                     <surname>Bacon</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1451/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/CiSGevgE.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RobertBlackman">
+                  <persName>
+                     <forename>Robert</forename>
+                     <forename>John</forename>
+                     <surname>Blackman</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4005/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/BobBlackmanMP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/5TEpzjCn.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DavidAlton">
+                  <persName>
+                     <forename>David</forename>
+                     <surname>Alton</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/738/contact</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/LordAltonofLiverpool/</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/tFPNlo5K.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MichaelHastings">
+                  <persName>
+                     <forename>Michael</forename>
+                     <surname>Hastings</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3759/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/RcL6yK7Q.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AndreaLeadsom">
+                  <persName>
+                     <forename>Andrea</forename>
+                     <forename>Jacqueline</forename>
+                     <surname>Leadsom</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4117/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/andrealeadsom</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/andrealeadsom</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/CUh9CmGC.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="GregoryKnight">
+                  <persName>
+                     <forename>Gregory</forename>
+                     <surname>Knight</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1200/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/gregknightmp</idno>
+               </person>
+               <person xml:id="PaulineLatham">
+                  <persName>
+                     <forename>Pauline</forename>
+                     <forename>Elizabeth</forename>
+                     <surname>Latham</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4025/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Pauline_Latham</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/pauline.latham.31</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/eMeMDM5k.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="NickHerbert">
+                  <persName>
+                     <forename>Nick</forename>
+                     <surname>Herbert</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1479/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/nickherbertmp</idno>
+               </person>
+               <person xml:id="DonaldAnderson">
+                  <persName>
+                     <forename>Donald</forename>
+                     <surname>Anderson</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/568/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/lwjmAdtv.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="KaranBilimoria">
+                  <persName>
+                     <forename>Karan</forename>
+                     <surname>Bilimoria</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3809/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Lord_Bilimoria</idno>
+               </person>
+               <person xml:id="RobertSkidelsky">
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Skidelsky</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3120/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/F7tZ5nm6.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RosalieWinterton">
+                  <persName>
+                     <forename>Rosalie</forename>
+                     <surname>Winterton</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/390/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/ohGbLaZr.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JenniferJones">
+                  <persName>
+                     <forename>Jennifer</forename>
+                     <surname>Jones</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4297/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/DFvjs5G0.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DesmondSwayne">
+                  <persName>
+                     <forename>Desmond</forename>
+                     <forename>Angus</forename>
+                     <surname>Swayne</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/55/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/DesmondSwayne</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/4EI1R7k4.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RogerLiddle">
+                  <persName>
+                     <forename>Roger</forename>
+                     <forename>John</forename>
+                     <surname>Liddle</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4156/contact</idno>
+               </person>
+               <person xml:id="RachaelMaskell">
+                  <persName>
+                     <forename>Rachael</forename>
+                     <forename>Helen</forename>
+                     <surname>Maskell</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4471/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/rachaelmaskell</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/rachaelmaskell4york</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/tQKZndrH.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="IanMcColl">
+                  <persName>
+                     <forename>Ian</forename>
+                     <surname>McColl</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1892/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/yvexRy3T.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LucyPowell">
+                  <persName>
+                     <forename>Lucy</forename>
+                     <forename>Maria</forename>
+                     <surname>Powell</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4263/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/LucyMPowell</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/DDl39b46.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AndrewFleming">
+                  <persName>
+                     <forename>Andrew</forename>
+                     <surname>Fleming</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4346/contact</idno>
+               </person>
+               <person xml:id="MichaelBurghart">
+                  <persName>
+                     <forename>Michael</forename>
+                     <forename>Alex</forename>
+                     <surname>Burghart</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4613/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/alexburghart</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/mtMsc1vM.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="SarahBrinton">
+                  <persName>
+                     <forename>Sarah</forename>
+                     <forename>Virginia</forename>
+                     <surname>Brinton</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4241/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/lIDdfgiV.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="TinaStowell">
+                  <persName>
+                     <forename>Tina</forename>
+                     <surname>Stowell</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4205/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/tinastowell</idno>
+               </person>
+               <person xml:id="VictoriaFord">
+                  <persName>
+                     <forename>Victoria</forename>
+                     <forename>Grace</forename>
+                     <surname>Ford</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4674/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/vickyford</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/jFFcDSnI.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LindsayHoyle">
+                  <persName>
+                     <forename>Lindsay</forename>
+                     <forename>Harvey</forename>
+                     <surname>Hoyle</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/467/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/LindsayHoyle_MP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/aNmJtA7U.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MichaelEllis">
+                  <persName>
+                     <forename>Michael</forename>
+                     <forename>Tyrone</forename>
+                     <surname>Ellis</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4116/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Michael_Ellis1</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/5uni5ZvR.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AlexandraDaviesJones">
+                  <persName>
+                     <forename>Alexandra</forename>
+                     <forename>Mary</forename>
+                     <surname>Davies-Jones</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4849/contact</idno>
+               </person>
+               <person xml:id="IanPaisley">
+                  <persName>
+                     <forename>Ian</forename>
+                     <forename>Richard Kyle</forename>
+                     <surname>Paisley</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4129/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/ianpaisleymp</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/TgR2vrao.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="MichaelFabricant">
+                  <persName>
+                     <forename>Michael</forename>
+                     <forename>Louis David</forename>
+                     <surname>Fabricant</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/280/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/Mike_Fabricant</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/LSdx1X8O.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="FrancesDSouza">
+                  <persName>
+                     <forename>Frances</forename>
+                     <surname>D'Souza</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3709/contact</idno>
+               </person>
+               <person xml:id="DavidGold">
+                  <persName>
+                     <forename>David</forename>
+                     <surname>Gold</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4237/contact</idno>
+               </person>
+               <person xml:id="BrianPaddick">
+                  <persName>
+                     <forename>Brian</forename>
+                     <surname>Paddick</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4288/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/HOx0Nynp.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RachelTreweek">
+                  <persName>
+                     <forename>Rachel</forename>
+                     <surname>Treweek</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4540/contact</idno>
+               </person>
+               <person xml:id="GregSmith">
+                  <persName>
+                     <forename>Greg</forename>
+                     <surname>Smith</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4778/contact</idno>
+               </person>
+               <person xml:id="JohnHoughton">
+                  <persName>
+                     <forename>John</forename>
+                     <surname>Houghton</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4694/contact</idno>
+               </person>
+               <person xml:id="NadiaWhittome">
+                  <persName>
+                     <forename>Nadia</forename>
+                     <forename>Edith</forename>
+                     <surname>Whittome</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4869/contact</idno>
+               </person>
+               <person xml:id="ArchibaldHamilton">
+                  <persName>
+                     <forename>Archibald</forename>
+                     <forename>Gavin</forename>
+                     <surname>Hamilton</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/100/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/DZNCLqXD.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="OliverDowden">
+                  <persName>
+                     <forename>Oliver</forename>
+                     <forename>James</forename>
+                     <surname>Dowden</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4441/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/FNlxbMGv.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ElliotColburn">
+                  <persName>
+                     <forename>Elliot</forename>
+                     <surname>Colburn</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4775/contact</idno>
+               </person>
+               <person xml:id="CarolineNokes">
+                  <persName>
+                     <forename>Caroline</forename>
+                     <forename>Fiona Ellen</forename>
+                     <surname>Nokes</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4048/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/carolinenokes</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/tNauiJg5.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="LouiseHaigh">
+                  <persName>
+                     <forename>Louise</forename>
+                     <forename>Margaret</forename>
+                     <surname>Haigh</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4473/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/louhaigh</idno>
+               </person>
+               <person xml:id="PhilipHollobone">
+                  <persName>
+                     <forename>Philip</forename>
+                     <forename>Thomas</forename>
+                     <surname>Hollobone</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1537/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/2YruzNd1.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="CarolineCox">
+                  <persName>
+                     <forename>Caroline</forename>
+                     <forename>Anne</forename>
+                     <surname>Cox</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3364/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/lbEuxyct.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ChristopherFox">
+                  <persName>
+                     <forename>Christopher</forename>
+                     <surname>Fox</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4322/contact</idno>
+               </person>
+               <person xml:id="PhilipDunne">
+                  <persName>
+                     <forename>Philip</forename>
+                     <forename>Martin</forename>
+                     <surname>Dunne</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1542/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/dunne4ludlow</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/T1Qht1jY.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="SusanCunliffeLister">
+                  <persName>
+                     <forename>Susan</forename>
+                     <forename>Lilian Primrose</forename>
+                     <surname>Cunliffe-Lister</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1850/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/GvEbSRjG.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="RichardBalfe">
+                  <persName>
+                     <forename>Richard</forename>
+                     <surname>Balfe</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4302/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/myXgfcRR.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ElizabethSugg">
+                  <persName>
+                     <forename>Elizabeth</forename>
+                     <surname>Sugg</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4584/contact</idno>
+               </person>
+               <person xml:id="KishwerFalkner">
+                  <persName>
+                     <forename>Kishwer</forename>
+                     <surname>Falkner</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/3670/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/bkqXnj6j.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="AndrewSelous">
+                  <persName>
+                     <forename>Andrew</forename>
+                     <forename>Edmund Armstrong</forename>
+                     <surname>Selous</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/1453/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/AndrewSelous</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/X8e2KcB7.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="KeithStewart">
+                  <persName>
+                     <forename>Keith</forename>
+                     <surname>Stewart</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4899/contact</idno>
+               </person>
+               <person xml:id="PatrickCormack">
+                  <persName>
+                     <forename>Patrick</forename>
+                     <surname>Cormack</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/282/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/dCFjL9mT.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="BrendanOHara">
+                  <persName>
+                     <forename>Brendan</forename>
+                     <surname>O'Hara</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4371/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/brendanoharasnp</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/XmkeKXHy.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="KevinFoster">
+                  <persName>
+                     <forename>Kevin</forename>
+                     <forename>John</forename>
+                     <surname>Foster</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4451/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/kevin_j_foster</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/fj5to8In.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ChristopherClarkson">
+                  <persName>
+                     <forename>Christopher</forename>
+                     <forename>Mark</forename>
+                     <surname>Clarkson</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4835/contact</idno>
+               </person>
+               <person xml:id="NicolaRichards">
+                  <persName>
+                     <forename>Nicola</forename>
+                     <forename>Faye</forename>
+                     <surname>Richards</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4868/contact</idno>
+               </person>
+               <person xml:id="NigelEvans">
+                  <persName>
+                     <forename>Nigel</forename>
+                     <forename>Martin</forename>
+                     <surname>Evans</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/474/contact</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/a6J7hadW.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DeidreBrock">
+                  <persName>
+                     <forename>Deidre</forename>
+                     <forename>Leanne</forename>
+                     <surname>Brock</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4417/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/deidrebrock</idno>
+                  <idno subtype="facebook" type="URI">https://www.facebook.com/DeidreBrockSNP</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/ydbyKKCa.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JudithJolly">
+                  <persName>
+                     <forename>Judith</forename>
+                     <forename>Anne</forename>
+                     <surname>Jolly</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4203/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/jollyjudith</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/vPIYDp3M.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="StevenBonnar">
+                  <persName>
+                     <forename>Steven</forename>
+                     <surname>Bonnar</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4748/contact</idno>
+               </person>
+               <person xml:id="HollyWalkerLynch">
+                  <persName>
+                     <forename>Holly</forename>
+                     <forename>Jamie</forename>
+                     <surname>Walker-Lynch</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4472/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/hollylynch5</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/Hqu9NbvJ.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="ChinyeluOnwurah">
+                  <persName>
+                     <forename>Chinyelu</forename>
+                     <forename>Susan</forename>
+                     <surname>Onwurah</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4124/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/ChiOnwurah</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/POgVsnEn.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="DeanRussell">
+                  <persName>
+                     <forename>Dean</forename>
+                     <surname>Russell</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4812/contact</idno>
+               </person>
+               <person xml:id="StuartAndrew">
+                  <persName>
+                     <forename>Stuart</forename>
+                     <forename>James</forename>
+                     <surname>Andrew</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4032/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/stuartandrew</idno>
+                  <figure>
+                     <graphic url="https://api.parliament.uk/photo/0rhvZjjO.jpg?crop=CU_1:1"/>
+                  </figure>
+               </person>
+               <person xml:id="JohnShipley">
+                  <persName>
+                     <forename>John</forename>
+                     <forename>Warren</forename>
+                     <surname>Shipley</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4176/contact</idno>
+               </person>
+               <person xml:id="RobertStevenson">
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Stevenson</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4175/contact</idno>
+               </person>
+               <person xml:id="AlexanderStafford">
+                  <persName>
+                     <forename>Alexander</forename>
+                     <forename>Paul Thomas</forename>
+                     <surname>Stafford</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4866/contact</idno>
+               </person>
+               <person xml:id="PenelopeMordaunt">
+                  <persName>
+                     <forename>Penelope</forename>
+                     <forename>Mary</forename>
+                     <surname>Mordaunt</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4017/contact</idno>
+                  <idno subtype="twitter" type="URI">https://twitter.com/PennyMordauntMP</idno>
+               </person>
+               <person xml:id="SyedKamall">
+                  <persName>
+                     <forename>Syed</forename>
+                     <surname>Kamall</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <idno subtype="contact" type="URI">https://members.parliament.uk/member/4909/contact</idno>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-GB_2022-12-01-lords.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-GB_2022-12-01-commons.ana.xml"/>
+</teiCorpus>
