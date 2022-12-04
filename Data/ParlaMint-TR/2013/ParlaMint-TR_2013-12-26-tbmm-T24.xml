@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-TR_2013-12-26-tbmm-T24" xml:lang="tr" ana="#parla.session #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 40 [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="tr">Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Oturum 40 [ParlaMint SAMPLE]</title>
+        <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">Term 24</meeting>
+        <meeting n="40" ana="#parla.session">40</meeting>
+        <respStmt>
+          <persName>Çağrı Çöltekin</persName>
+          <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="1" xml:lang="en">1 speech</measure>
+        <measure unit="words" quantity="45" xml:lang="en">45 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1405</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
+        </availability>
+        <date when="2022-12-04">2022-12-04</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="en">https://www5.tbmm.gov.tr/tutanak/donem24/yil4/bas/b040m.htm</title>
+          <edition xml:lang="en">Official session record</edition>
+          <publisher xml:lang="en">The Turkish Parliament</publisher>
+          <idno type="URI">https://www.tbmm.gov.tr/</idno>
+          <date when="2013-12-26">2013-12-26</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="note" occurs="2"/>
+          <tagUsage gi="u" occurs="1"/>
+          <tagUsage gi="seg" occurs="3"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city">Ankara</name>
+          <name type="country" key="TR">Turkey</name>
+          <date when="2013-12-26" ana="#parla.session">26.12.2013</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#reference" xml:lang="tr">
+    <body>
+      <div type="debateSection">
+        <note type="time">15.00</note>
+        <note type="president">Sadık Yakut</note>
+        <u ana="#chair" who="#Sadık.Yakut" xml:id="tbmm-2013-12-26sit01spe0001par0001">
+          <seg xml:id="tbmm-2013-12-26sit01spe0001par0001.seg0">Sayın milletvekilleri, Türkiye Büyük Millet Meclisinin 40’ıncı Birleşimini açıyorum.</seg>
+          <seg xml:id="tbmm-2013-12-26sit01spe0001par0002.seg1">Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.</seg>
+          <seg xml:id="tbmm-2013-12-26sit01spe0001par0003.seg2">Bu nedenle, sözlü soru önergeleri ile diğer denetim konularını sırasıyla görüşmek için, 31 Aralık 2013 Salı günü saat 15. 00’te toplanmak üzere birleşimi kapatıyorum.</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>
