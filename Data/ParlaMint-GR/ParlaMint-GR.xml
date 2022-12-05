@@ -7,9 +7,9 @@
             <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="el">Πρακτικά του ελληνικού κοινοβουλίου, κοινοβουλευτικοί περίοδοι ΙΣΤ, ΙΖ και ΙΗ (2015-2022)</title>
             <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 16, 17 and 18 (2015-2022)</title>
-            <meeting n="ΙΣΤ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΣΤ">ΙΣΤ περίοδος</meeting>
-            <meeting n="ΙΖ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ">ΙΖ περίοδος</meeting>
-            <meeting n="ΙΗ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ">ΙΗ περίοδος</meeting>
+            <meeting n="16" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΣΤ">ΙΣΤ περίοδος</meeting>
+            <meeting n="17" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ">ΙΖ περίοδος</meeting>
+            <meeting n="18" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ">ΙΗ περίοδος</meeting>
             <respStmt>
                <persName>Δημήτρης Γκούμας</persName>
                <persName>Βασίλης Παπαβασιλείου</persName>
@@ -34,8 +34,8 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="342274">342274 ομιλίες</measure>
             <measure xml:lang="en" unit="speeches" quantity="342274">342274 speeches</measure>
-            <measure xml:lang="el" unit="words" quantity="51931217">51931217 λέξεις</measure>
-            <measure xml:lang="en" unit="words" quantity="51931217">51931217 words</measure>
+            <measure xml:lang="el" unit="words" quantity="49702614">49702614 λέξεις</measure>
+            <measure xml:lang="en" unit="words" quantity="49702614">49702614 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -57,7 +57,7 @@
                         .
                     </p>
             </availability>
-            <date when="2022-08-31">2022-08-31</date>
+            <date when="2022-11-28">2022-11-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -102,10 +102,15 @@
                <tagUsage gi="text" occurs="1263"/>
                <tagUsage gi="body" occurs="1263"/>
                <tagUsage gi="div" occurs="1263"/>
+               <tagUsage gi="head" occurs="7578"/>
                <tagUsage gi="u" occurs="342274"/>
                <tagUsage gi="seg" occurs="1229320"/>
-               <tagUsage gi="desc" occurs="5095"/>
-               <tagUsage gi="vocal" occurs="5095"/>
+               <tagUsage gi="desc" occurs="53308"/>
+               <tagUsage gi="note" occurs="362392"/>
+               <tagUsage gi="vocal" occurs="5324"/>
+               <tagUsage gi="kinesic" occurs="42196"/>
+               <tagUsage gi="incident" occurs="4525"/>
+               <tagUsage gi="gap" occurs="1263"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -361,7 +366,7 @@
                   <idno type="URI" xml:lang="el" subtype="wikimedia">https://el.wikipedia.org/wiki/%CE%9A%CE%BF%CE%BC%CE%BC%CE%BF%CF%85%CE%BD%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CF%8C_%CE%9A%CF%8C%CE%BC%CE%BC%CE%B1_%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1%CF%82</idno>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Communist_Party_of_Greece</idno>
                </org>
-               <org xml:id="party.ΛΑ_Ε." role="parliamentaryGroup">
+               <org xml:id="party.ΛΑ_Ε" role="parliamentaryGroup">
                   <orgName xml:lang="el" full="yes">Λαϊκή Ενότητα</orgName>
                   <orgName xml:lang="en" full="yes">Popular Unity</orgName>
                   <orgName full="abb">ΛΑ.Ε.</orgName>
@@ -401,7 +406,7 @@
                   <idno type="URI" xml:lang="el" subtype="wikimedia">https://el.wikipedia.org/wiki/%CE%A0%CE%B1%CE%BD%CE%B5%CE%BB%CE%BB%CE%AE%CE%BD%CE%B9%CE%BF_%CE%A3%CE%BF%CF%83%CE%B9%CE%B1%CE%BB%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CF%8C_%CE%9A%CE%AF%CE%BD%CE%B7%CE%BC%CE%B1</idno>
                   <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/PASOK</idno>
                </org>
-               <org xml:id="party.ΔΗΜ.ΑΡ." role="politicalParty">
+               <org xml:id="party.ΔΗΜΑΡ" role="politicalParty">
                   <orgName xml:lang="el" full="yes">Δημοκρατική Αριστερά</orgName>
                   <orgName xml:lang="en" full="yes">Democratic Left</orgName>
                   <orgName full="abb">ΔΗΜ.ΑΡ</orgName>
@@ -585,7 +590,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -1356,7 +1361,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -1392,7 +1397,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -1528,7 +1533,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -1590,7 +1595,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -1844,7 +1849,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -2450,7 +2455,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -2815,10 +2820,10 @@
                      <forename>ΧΟΥΝΤΗΣ</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation from="2019-06-09" role="head" ref="#party.ΛΑ_Ε.">
+                  <affiliation from="2019-06-09" role="head" ref="#party.ΛΑ_Ε">
                      <roleName xml:lang="el">ΑΡΧΗΓΟΣ ΚΟΜΜΑΤΟΣ:ΓΕΝΙΚΟΣ ΓΡΑΜΜΑΤΕΑΣ ΛΑΙΚΗΣ ΕΝΟΤΗΤΑΣ</roleName>
                   </affiliation>
-                  <affiliation from="2019-06-09" role="member" ref="#party.ΛΑ_Ε."/>
+                  <affiliation from="2019-06-09" role="member" ref="#party.ΛΑ_Ε"/>
                </person>
                <person xml:id="ΜΙΧΕΛΟΓΙΑΝΝΑΚΗΣ_ΔΗΜΗΤΡΙΟΥ_ΙΩΑΝΝΗΣ">
                   <persName>
@@ -2870,7 +2875,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-02-06" to="2015-10-04" role="deputyHead" ref="#PoGR">
                      <roleName xml:lang="el">Γ ΑΝΤΙΠΡΟΕΔΡΟΣ ΒΟΥΛΗΣ</roleName>
                   </affiliation>
@@ -3602,7 +3607,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -4296,7 +4301,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -4679,7 +4684,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -4932,7 +4937,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-27"
                                to="2015-03-21"
                                role="deputyMinister"
@@ -5285,7 +5290,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -5533,7 +5538,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -5578,7 +5583,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -6231,7 +6236,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -7497,7 +7502,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -7897,7 +7902,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -8207,7 +8212,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -8241,7 +8246,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -8305,10 +8310,10 @@
                      <forename>ΑΘΑΝΑΣΙΟΣ</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation from="2015-06-07" role="head" ref="#party.ΔΗΜ.ΑΡ.">
+                  <affiliation from="2015-06-07" role="head" ref="#party.ΔΗΜΑΡ">
                      <roleName xml:lang="el">ΑΡΧΗΓΟΣ ΚΟΜΜΑΤΟΣ:ΠΡΟΕΔΡΟΣ ΔΗΜΟΚΡΑΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ</roleName>
                   </affiliation>
-                  <affiliation from="2015-06-07" role="member" ref="#party.ΔΗΜ.ΑΡ."/>
+                  <affiliation from="2015-06-07" role="member" ref="#party.ΔΗΜΑΡ"/>
                   <affiliation from="2015-09-20"
                                to="2019-01-20"
                                role="member"
@@ -8349,10 +8354,7 @@
                      <forename>ΠΑΝΑΓΙΩΤΗΣ</forename>
                   </persName>
                   <sex value="M"/>
-                  <affiliation from="2015-08-21"
-                               to="2019-06-02"
-                               role="head"
-                               ref="#party.ΛΑ_Ε.">
+                  <affiliation from="2015-08-21" to="2019-06-02" role="head" ref="#party.ΛΑ_Ε">
                      <roleName xml:lang="el">ΑΡΧΗΓΟΣ ΚΟΜΜΑΤΟΣ:ΓΕΝΙΚΟΣ ΓΡΑΜΜΑΤΕΑΣ ΛΑΙΚΗΣ ΕΝΟΤΗΤΑΣ</roleName>
                   </affiliation>
                   <affiliation from="2015-01-25"
@@ -8362,7 +8364,7 @@
                   <affiliation from="2015-08-21"
                                to="2019-06-02"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-27" to="2015-07-18" role="minister" ref="#GOV">
                      <roleName xml:lang="el">ΥΠΟΥΡΓΟΣ ΠΑΡΑΓΩΓΙΚΗΣ ΑΝΑΣΥΓΚΡΟΤΗΣΗΣ ΠΕΡΙΒΑΛΛΟΝΤΟΣ ΚΑΙ ΕΝΕΡΓΕΙΑΣ</roleName>
                   </affiliation>
@@ -8573,7 +8575,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -8765,7 +8767,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -8816,7 +8818,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -9977,7 +9979,7 @@
                   <affiliation from="2015-08-21"
                                to="2015-08-28"
                                role="member"
-                               ref="#party.ΛΑ_Ε."/>
+                               ref="#party.ΛΑ_Ε"/>
                   <affiliation from="2015-01-25" to="2015-08-20" role="member" ref="#PoGR"/>
                   <affiliation from="2015-08-21" to="2015-08-28" role="member" ref="#PoGR"/>
                </person>
@@ -10206,7 +10208,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-08-31">
+         <change when="2022-11-28">
             <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
