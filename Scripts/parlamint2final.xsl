@@ -43,11 +43,11 @@
   
   <!-- County code take from the teiCorpus ID, country name from main English title -->
   <xsl:param name="country-code" select="replace(/tei:teiCorpus/@xml:id, 
-					 '.*?-([^._]+).*', '$1')"/>
+                                         '.*?-([^._]+).*', '$1')"/>
   <xsl:param name="country-name" select="replace(/tei:teiCorpus/tei:teiHeader/
-					 tei:fileDesc/tei:titleStmt/
-					 tei:title[@type='main' and @xml:lang='en'],
-					 '([^ ]+) .*', '$1')"/>
+                                         tei:fileDesc/tei:titleStmt/
+                                         tei:title[@type='main' and @xml:lang='en'],
+                                         '([^ ]+) .*', '$1')"/>
   
   <!-- Project description for ParlaMint II -->
   <xsl:variable name="projectDesc-en">
@@ -64,11 +64,12 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg"/>
 
+
   <!-- Input directory -->
   <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
   <xsl:variable name="corpusDir" select="replace(base-uri(), 
-					 '.*?([^/]+)/[^/]+\.[^/]+$', '$1')"/>
+                                         '.*?([^/]+)/[^/]+\.[^/]+$', '$1')"/>
 
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
@@ -82,18 +83,18 @@
   <xsl:variable name="docs">
     <xsl:for-each select="/tei:teiCorpus/xi:include">
       <item>
-	<xi-orig>
-	  <xsl:value-of select="@href"/>
-	</xi-orig>
-	<url-orig>
-	  <xsl:value-of select="concat($inDir, '/', @href)"/>
-	</url-orig>
-	<url-new>
-	  <xsl:value-of select="concat($outDir, '/', $corpusDir, '/', @href)"/>
-	</url-new>
-	<url-ana>
-	  <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
-	</url-ana>
+        <xi-orig>
+          <xsl:value-of select="@href"/>
+        </xi-orig>
+        <url-orig>
+          <xsl:value-of select="concat($inDir, '/', @href)"/>
+        </url-orig>
+        <url-new>
+          <xsl:value-of select="concat($outDir, '/', $corpusDir, '/', @href)"/>
+        </url-new>
+        <url-ana>
+          <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
+        </url-ana>
       </item>
       </xsl:for-each>
   </xsl:variable>
@@ -102,24 +103,24 @@
   <xsl:variable name="words">
     <xsl:for-each select="$docs/tei:item">
       <item n="{tei:xi-orig}">
-	<xsl:choose>
-	  <!-- For .ana files, compute number of words -->
-	  <xsl:when test="$type = 'ana'">
-	    <xsl:value-of select="document(tei:url-orig)/
-				  count(//tei:w[not(parent::tei:w)])"/>
-	  </xsl:when>
-	  <!-- For plain files, take number of words from .ana files -->
-	  <xsl:when test="doc-available(tei:url-ana)">
-	    <xsl:value-of select="document(tei:url-ana)/tei:TEI/tei:teiHeader//
-				  tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-				   ': cannot locate .ana file ', tei:url-ana)"/>
-	      <xsl:value-of select="number('0')"/>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</item>
+        <xsl:choose>
+          <!-- For .ana files, compute number of words -->
+          <xsl:when test="$type = 'ana'">
+            <xsl:value-of select="document(tei:url-orig)/
+                                  count(//tei:w[not(parent::tei:w)])"/>
+          </xsl:when>
+          <!-- For plain files, take number of words from .ana files -->
+          <xsl:when test="doc-available(tei:url-ana)">
+            <xsl:value-of select="document(tei:url-ana)/tei:TEI/tei:teiHeader//
+                                  tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+                                   ': cannot locate .ana file ', tei:url-ana)"/>
+              <xsl:value-of select="number('0')"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </item>
       </xsl:for-each>
   </xsl:variable>
   
@@ -127,8 +128,8 @@
   <xsl:variable name="speeches">
     <xsl:for-each select="$docs/tei:item">
       <item>
-	<xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//
-			      tei:extent/tei:measure[@unit = 'speeches'][1]/@quantity"/>
+        <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//
+                              tei:extent/tei:measure[@unit = 'speeches'][1]/@quantity"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -137,23 +138,23 @@
   <xsl:variable name="tagUsages">
     <xsl:variable name="tUs">
       <xsl:for-each select="$docs/tei:item/document(tei:url-orig)/
-			    tei:TEI/tei:teiHeader//tei:tagUsage">
-	<xsl:sort select="@gi"/>
-	<xsl:copy-of select="."/>
+                            tei:TEI/tei:teiHeader//tei:tagUsage">
+        <xsl:sort select="@gi"/>
+        <xsl:copy-of select="."/>
       </xsl:for-each>
     </xsl:variable>
     <xsl:for-each select="$tUs/tei:tagUsage">
       <xsl:variable name="gi" select="@gi"/>
       <xsl:if test="not(following-sibling::tei:tagUsage[@gi = $gi])">
-	<xsl:variable name="occurences">
-	  <xsl:for-each select="$tUs/tei:tagUsage[@gi = $gi]">
-	    <item>
-	      <xsl:value-of select="@occurs"/>
-	    </item>
-	  </xsl:for-each>
-	</xsl:variable>
+        <xsl:variable name="occurences">
+          <xsl:for-each select="$tUs/tei:tagUsage[@gi = $gi]">
+            <item>
+              <xsl:value-of select="@occurs"/>
+            </item>
+          </xsl:for-each>
+        </xsl:variable>
         <tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="{$gi}"
-		  occurs="{format-number(sum($occurences/tei:item), '#')}"/>
+                  occurs="{format-number(sum($occurences/tei:item), '#')}"/>
       </xsl:if>
     </xsl:for-each>
   </xsl:variable>
@@ -165,9 +166,9 @@
       <xsl:variable name="this" select="tei:xi-orig"/>
       <xsl:message select="concat('INFO: Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
-	<xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
-	<xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
-	</xsl:apply-templates>
+        <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
+        <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
+        </xsl:apply-templates>
       </xsl:result-document>
     </xsl:for-each>
     <!-- Output Root file -->
@@ -182,7 +183,7 @@
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
-	<xsl:with-param name="words" select="$words"/>
+        <xsl:with-param name="words" select="$words"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -195,39 +196,39 @@
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
     <xsl:variable name="date-from">
       <xsl:choose>
-	<xsl:when test="$date/@when">
-	  <xsl:value-of select="$date/@when"/>
-	</xsl:when>
-	<xsl:when test="$date/@from">
-	  <xsl:value-of select="$date/@from"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
-	</xsl:otherwise>
+        <xsl:when test="$date/@when">
+          <xsl:value-of select="$date/@when"/>
+        </xsl:when>
+        <xsl:when test="$date/@from">
+          <xsl:value-of select="$date/@from"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:attribute name="ana">
       <xsl:variable name="ref">
-	<xsl:for-each select="tokenize(., ' ')">
-	  <xsl:choose>
-	    <xsl:when test=". = '#reference' and 
-			    $covid-date &lt;= $date-from">
-	      <xsl:text>#covid</xsl:text>
-	      <xsl:message select="concat('WARN ', $id, 
-			       ': fixing subcorpus to covid for date ', $date-from)"/>
-	    </xsl:when>
-	    <xsl:when test=". = '#covid' and 
-			    $covid-date &gt; $date-from">
-	      <xsl:text>#reference</xsl:text>
-	      <xsl:message select="concat('WARN ', $id, 
-			       ': fixing subcorpus to reference for date ', $date-from)"/>
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:value-of select="."/>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	  <xsl:text>&#32;</xsl:text>
-	</xsl:for-each>
+        <xsl:for-each select="tokenize(., ' ')">
+          <xsl:choose>
+            <xsl:when test=". = '#reference' and 
+                            $covid-date &lt;= $date-from">
+              <xsl:text>#covid</xsl:text>
+              <xsl:message select="concat('WARN ', $id, 
+                               ': fixing subcorpus to covid for date ', $date-from)"/>
+            </xsl:when>
+            <xsl:when test=". = '#covid' and 
+                            $covid-date &gt; $date-from">
+              <xsl:text>#reference</xsl:text>
+              <xsl:message select="concat('WARN ', $id, 
+                               ': fixing subcorpus to reference for date ', $date-from)"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="."/>
+            </xsl:otherwise>
+          </xsl:choose>
+          <xsl:text>&#32;</xsl:text>
+        </xsl:for-each>
       </xsl:variable>
       <xsl:value-of select="normalize-space($ref)"/>
     </xsl:attribute>
@@ -247,7 +248,7 @@
     <xsl:apply-templates select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
-		       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
+                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:apply-templates select="."/>
   </xsl:template>
   
@@ -257,14 +258,14 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:if test="normalize-space($words) and $words != '0'">
-	<xsl:attribute name="quantity" select="$words"/>
-	<xsl:if test="$old-words != $words">
-	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-			       ': replacing words ', $old-words, ' with ', $words)"/>
-	</xsl:if>
-	<xsl:value-of select="replace(., '.+ ', concat(
-			    et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
-			    ' '))"/>
+        <xsl:attribute name="quantity" select="$words"/>
+        <xsl:if test="$old-words != $words">
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': replacing words ', $old-words, ' with ', $words)"/>
+        </xsl:if>
+        <xsl:value-of select="replace(., '.+ ', concat(
+                            et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
+                            ' '))"/>
       </xsl:if>
     </xsl:copy>
   </xsl:template>  
@@ -274,41 +275,43 @@
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:choose>
-	<xsl:when test="parent::tei:u/@xml:id">
-	  <xsl:attribute name="xml:id">
-	    <xsl:value-of select="parent::tei:u/@xml:id"/>
-	    <xsl:text>.</xsl:text>
-	    <xsl:number/>
-	  </xsl:attribute>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-			       ': seg without ID but utterance also has no ID!')"/>
-	</xsl:otherwise>
+        <xsl:when test="parent::tei:u/@xml:id">
+          <xsl:attribute name="xml:id">
+            <xsl:value-of select="parent::tei:u/@xml:id"/>
+            <xsl:text>.</xsl:text>
+            <xsl:number/>
+          </xsl:attribute>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+                               ': seg without ID but utterance also has no ID!')"/>
+        </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
   </xsl:template>
       
+
   <!-- Bug in STANZA, sometimes a word lemma is set to "_" -->
   <!-- We set lemma to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
     <xsl:attribute name="lemma">
       <xsl:choose>
-	<xsl:when test="../@norm">
-	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-			       ': changing _ lemma to @norm ', ../@norm, ' in ', ../@xml:id)"/>
-	  <xsl:value-of select="../@norm"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-			       ': changing _ lemma to token ', ../text(), ' in ', ../@xml:id)"/>
-	  <xsl:value-of select="../text()"/>
-	</xsl:otherwise>
+        <xsl:when test="../@norm">
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': changing _ lemma to @norm ', ../@norm, ' in ', ../@xml:id)"/>
+          <xsl:value-of select="../@norm"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': changing _ lemma to token ', ../text(), ' in ', ../@xml:id)"/>
+          <xsl:value-of select="../text()"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:attribute>
   </xsl:template>
   
+
   <!-- Finalizing ROOT -->
   
   <xsl:template match="*">
@@ -326,11 +329,11 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="tei:*"/>
       <xsl:for-each select="xi:include">
-	<!-- Don't sort by date, as otherwise if one date has more than one file,
+        <!-- Don't sort by date, as otherwise if one date has more than one file,
              the order inside the date will be random; rather, just sort on @href -->
-	<!--xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/-->
-	<xsl:sort select="@href"/>
-	<xsl:copy-of select="."/>
+        <!--xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/-->
+        <xsl:sort select="@href"/>
+        <xsl:copy-of select="."/>
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
@@ -339,33 +342,34 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="quant">
-	<xsl:choose>
-	  <xsl:when test="@unit='sessions'">
-	    <xsl:value-of select="count($docs/tei:item)"/>
-	  </xsl:when>
-	  <xsl:when test="@unit='speeches'">
-	    <xsl:value-of select="sum($speeches/tei:item)"/>
-	  </xsl:when>
-	  <xsl:when test="@unit='words'">
-	    <xsl:value-of select="sum($words/tei:item)"/>
-	  </xsl:when>
-	</xsl:choose>
+        <xsl:choose>
+          <xsl:when test="@unit='sessions'">
+            <xsl:value-of select="count($docs/tei:item)"/>
+          </xsl:when>
+          <xsl:when test="@unit='speeches'">
+            <xsl:value-of select="sum($speeches/tei:item)"/>
+          </xsl:when>
+          <xsl:when test="@unit='words'">
+            <xsl:value-of select="sum($words/tei:item)"/>
+          </xsl:when>
+        </xsl:choose>
       </xsl:variable>
       <xsl:choose>
-	<xsl:when test="normalize-space($quant)">
-	  <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
-	  <xsl:value-of select="replace(., '.+ ', concat(
-				et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
-				' '))"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-			       ': no count for measure ', @unit)"/>
-	</xsl:otherwise>
+        <xsl:when test="normalize-space($quant)">
+          <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
+          <xsl:value-of select="replace(., '.+ ', concat(
+                                et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
+                                ' '))"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+                               ': no count for measure ', @unit)"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:copy>
   </xsl:template>
   
+
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -378,8 +382,8 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:if test="$version != .">
-	<!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-			     ': replacing version ', ., ' with ', $version)"/-->
+        <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+                             ': replacing version ', ., ' with ', $version)"/-->
       </xsl:if>
       <xsl:value-of select="$version"/>
     </xsl:copy>
@@ -400,12 +404,12 @@
   <xsl:template match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
     <idno subtype="handle" type="URI">
       <xsl:choose>
-	<xsl:when test="$type = 'txt'">
-	  <xsl:value-of select="$handle-txt"/>
-	</xsl:when>
-	<xsl:when test="$type = 'ana'">
-	  <xsl:value-of select="$handle-ana"/>
-	</xsl:when>
+        <xsl:when test="$type = 'txt'">
+          <xsl:value-of select="$handle-txt"/>
+        </xsl:when>
+        <xsl:when test="$type = 'ana'">
+          <xsl:value-of select="$handle-ana"/>
+        </xsl:when>
       </xsl:choose>
     </idno>
   </xsl:template>
@@ -424,25 +428,25 @@
     <xsl:variable name="form" select="format-number($quant, '###,###,###,###')"/>
     <xsl:choose>
       <xsl:when test="$lang = 'fr'">
-	<xsl:value-of select="replace($form, ',', ' ')"/>
+        <xsl:value-of select="replace($form, ',', ' ')"/>
       </xsl:when>
       <xsl:when test="$lang = 'bg' or 
-		      $lang = 'cs' or
-		      $lang = 'hr' or
-		      $lang = 'hu' or
-		      $lang = 'is' or
-		      $lang = 'it' or
-		      $lang = 'lt' or
-		      $lang = 'lv' or
-		      $lang = 'pl' or
-		      $lang = 'ro' or
-		      $lang = 'sl' or
-		      $lang = 'tr'
-		      ">
-	<xsl:value-of select="replace($form, ',', '.')"/>
+                      $lang = 'cs' or
+                      $lang = 'hr' or
+                      $lang = 'hu' or
+                      $lang = 'is' or
+                      $lang = 'it' or
+                      $lang = 'lt' or
+                      $lang = 'lv' or
+                      $lang = 'pl' or
+                      $lang = 'ro' or
+                      $lang = 'sl' or
+                      $lang = 'tr'
+                      ">
+        <xsl:value-of select="replace($form, ',', '.')"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:value-of select="$form"/>
+        <xsl:value-of select="$form"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>

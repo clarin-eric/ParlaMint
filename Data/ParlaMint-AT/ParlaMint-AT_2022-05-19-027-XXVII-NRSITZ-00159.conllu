@@ -1,0 +1,103 @@
+# newdoc id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e395
+# newpar id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1
+# text = Die 159. Sitzung des Nationalrates ist eröffnet.
+1	Die	Die	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
+2	159.	159.	ADJ	_	Person=3	3	amod	_	NER=O
+3	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	7	nsubj:pass	_	NER=O
+4	des	des	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=O
+5	Nationalrates	Rat	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	NER=B-ORG
+6	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	NER=O
+7	eröffnet	eröffnen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1
+# text = Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc, Johann Höfinger, Melanie Erasim, MSc, MMag.
+1	Als	Als	CCONJ	_	ConjType=Comp	2	mark	_	NER=O
+2	verhindert	verhindern	ADJ	_	Degree=Pos|Variant=Short	3	advcl	_	NER=O
+3	gemeldet	melden	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O
+4	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	NER=O
+5	die	die	DET	_	Case=Nom|Number=Plur|PronType=Art	6	det	_	NER=O
+6	Abgeordneten	Abgeordnet	NOUN	_	Number=Plur|Person=3	3	nsubj:pass	_	NER=O
+7	Eva-Maria	Eva-Maria	PROPN	_	Gender=Fem|Number=Sing|Person=3	6	flat:name	_	NER=B-PER
+8	Himmelbauer	Himmelbauer	PROPN	_	Person=3	6	flat:name	_	NER=I-PER|SpaceAfter=No
+9	,	,	PUNCT	_	PunctType=Comm	10	punct	_	NER=O
+10	BSc	BSc	PROPN	_	Person=3	6	conj	_	NER=B-ORG|SpaceAfter=No
+11	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
+12	Johann	Johann	PROPN	_	Gender=Masc|Number=Sing|Person=3	6	conj	_	NER=B-PER
+13	Höfinger	Höfinger	PROPN	_	Number=Sing|Person=3	12	flat:name	_	NER=I-PER|SpaceAfter=No
+14	,	,	PUNCT	_	PunctType=Comm	15	punct	_	NER=O
+15	Melanie	Melanie	PROPN	_	Gender=Fem|Number=Sing|Person=3	6	conj	_	NER=B-PER
+16	Erasim	Erasim	PROPN	_	Person=3	15	flat:name	_	NER=I-PER|SpaceAfter=No
+17	,	,	PUNCT	_	PunctType=Comm	18	punct	_	NER=O
+18	MSc	MSc	PROPN	_	Person=3	6	conj	_	NER=B-ORG|SpaceAfter=No
+19	,	,	PUNCT	_	PunctType=Comm	20	punct	_	NER=O
+20	MMag	MMag	PROPN	_	Person=3	6	conj	_	NER=B-ORG|SpaceAfter=No
+21	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s2
+# text = DDr.
+1	DDr	DDr	PROPN	_	Number=Sing|Person=3	0	root	_	NER=B-LOC|SpaceAfter=No
+2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s3
+# text = Hubert Fuchs, Herbert Kicklund Dipl.-Ing. Olga Voglauer.
+1	Hubert	Hubert	PROPN	_	Gender=Masc|Number=Sing|Person=3	0	root	_	NER=B-PER
+2	Fuchs	Fuchs	PROPN	_	Case=Nom|Number=Sing|Person=3	1	flat:name	_	NER=I-PER|SpaceAfter=No
+3	,	,	PUNCT	_	PunctType=Comm	4	punct	_	NER=O
+4	Herbert	Herbert	PROPN	_	Gender=Masc|Number=Sing|Person=3	1	conj	_	NER=B-PER
+5	Kicklund	Kicklund	PROPN	_	Number=Sing|Person=3	4	flat:name	_	NER=I-PER
+6	Dipl.-Ing.	Dipl.-Ing.	NOUN	_	Person=3	4	appos	_	NER=O
+7	Olga	Olga	PROPN	_	Gender=Fem|Number=Sing|Person=3	4	flat:name	_	NER=B-PER
+8	Voglauer	Voglauer	PROPN	_	Person=3	6	flat:name	_	NER=I-PER|SpaceAfter=No
+9	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1
+# text = Einlauf und Zuweisungen
+1	Einlauf	Einlauf	NOUN	_	Gender=Masc|Number=Sing|Person=3	0	root	_	NER=O
+2	und	und	CCONJ	_	_	3	cc	_	NER=O
+3	Zuweisungen	Zuweisung	NOUN	_	Gender=Fem|Number=Plur|Person=3	1	conj	_	NER=O
+
+# newdoc id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e441
+# newpar id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1
+# text = Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.
+1	Hinsichtlich	Hinsichtlich	ADP	_	AdpType=Prep|Case=Gen	4	case	_	NER=O
+2	der	der	DET	_	Case=Gen|Number=Plur|PronType=Art	4	det	_	NER=O
+3	eingelangten	einlangen	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	NER=O
+4	Verhandlungsgegenstände	Gegenständ	NOUN	_	Gender=Masc|Number=Plur|Person=3	8	obl	_	NER=O
+5	und	und	CCONJ	_	_	7	cc	_	NER=O
+6	deren	deren	DET	_	PronType=Dem	7	det	_	NER=O
+7	Zuweisungen	Zuweisung	NOUN	_	Gender=Fem|Number=Plur|Person=3	4	conj	_	NER=O
+8	verweise	verweisen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+9	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=O
+10	gemäß	gemäß	ADP	_	AdpType=Prep|Case=Dat	11	case	_	NER=O
+11	§	§	NOUN	_	Gender=Masc|Number=Sing|Person=3	8	obl	_	NER=O
+12	23	23	NUM	_	Number=Plur|NumType=Card|Person=3	11	flat	_	NER=O
+13	Abs.	Absatz	NOUN	_	Person=3	11	appos	_	NER=O
+14	4	4	NUM	_	Number=Plur|NumType=Card|Person=3	13	flat	_	NER=O
+15	der	der	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	16	det	_	NER=O
+16	Geschäftsordnung	Ordnung	NOUN	_	Gender=Fem|Number=Sing|Person=3	13	nmod	_	NER=O
+17	auf	auf	ADP	_	AdpType=Prep|Case=Acc	23	case	_	NER=O
+18	die	die	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=O
+19-20	im	_	_	_	_	_	_	_	NER=O
+19	in	in	ADP	_	AdpType=Prep|Case=Dat	21	case	_	_
+20	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Sitzungssaal	Saal	NOUN	_	Gender=Masc|Number=Sing|Person=3	22	obl	_	NER=O
+22	verteilte	verteilen	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	NER=O
+23	Mitteilung	Mitteilung	NOUN	_	Gender=Fem|Number=Sing|Person=3	8	obj	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209
+# sent_id = ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1
+# text = Die schriftliche Mitteilung hat folgenden Wortlaut:
+1	Die	Die	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
+2	schriftliche	schriftlich	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	NER=O
+3	Mitteilung	Mitteilung	NOUN	_	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	NER=O
+4	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+5	folgenden	folgen	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	NER=O
+6	Wortlaut	Wortlaut	NOUN	_	Gender=Masc|Number=Sing|Person=3	4	obj	_	NER=O|SpaceAfter=No
+7	:	:	PUNCT	_	PunctType=Peri	4	punct	_	NER=O
+

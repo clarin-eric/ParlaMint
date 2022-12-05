@@ -20,20 +20,20 @@
   <xsl:variable name="col-sep">
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:text>&amp;</xsl:text>
+        <xsl:text>&amp;</xsl:text>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:text>&#9;</xsl:text>
+        <xsl:text>&#9;</xsl:text>
       </xsl:when>
     </xsl:choose>
   </xsl:variable>
   <xsl:variable name="line-sep">
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:text>\\&#10;</xsl:text>
+        <xsl:text>\\&#10;</xsl:text>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:text>&#10;</xsl:text>
+        <xsl:text>&#10;</xsl:text>
       </xsl:when>
     </xsl:choose>
   </xsl:variable>
@@ -71,14 +71,14 @@
   <xsl:template match="tei:teiCorpus">
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:value-of select="$preamble"/>
-	<xsl:value-of select="$header-row"/>
+        <xsl:value-of select="$preamble"/>
+        <xsl:value-of select="$header-row"/>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:value-of select="$header-row"/>
+        <xsl:value-of select="$header-row"/>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:message terminate="yes">Parameter 'mode' should be either TSV of TeX.</xsl:message>
+        <xsl:message terminate="yes">Parameter 'mode' should be either TSV of TeX.</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:for-each select="xi:include">
@@ -93,13 +93,13 @@
     <xsl:value-of select="ancestor::tei:teiCorpus/replace(@xml:id, '.+-', '')"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
-			  tei:org[@role='politicalParty' or @role='parliamentaryGroup'])"/>
+                          tei:org[@role='politicalParty' or @role='parliamentaryGroup'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
-			  tei:relation[@name='coalition' or @name='opposition'])"/>
+                          tei:relation[@name='coalition' or @name='opposition'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//
-			  tei:org[@role!='politicalParty' and @role!='parliamentaryGroup'])"/>
+                          tei:org[@role!='politicalParty' and @role!='parliamentaryGroup'])"/>
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person)"/>
     <xsl:value-of select="$col-sep"/>
@@ -109,24 +109,24 @@
     <xsl:value-of select="$col-sep"/>
     <!-- tei:affiliation[@role='MP'] and -->
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person[
-			  tei:affiliation[(@role='member' or @role='candidateMP') and 
-			  key('ref', @ref)[@role='politicalParty' or @role='parliamentaryGroup']]
-			  ])"/>
+                          tei:affiliation[(@role='member' or @role='candidateMP') and 
+                          key('ref', @ref)[@role='politicalParty' or @role='parliamentaryGroup']]
+                          ])"/>
     <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person
-			  [tei:birth]
-			  )"/>
+                          [tei:birth]
+                          )"/>
     <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person
-			  [tei:idno[@type='URI']]
-			  )"/>
+                          [tei:idno[@type='URI']]
+                          )"/>
     <!-- [tei:affiliation[@role='MP']] -->
     <xsl:value-of select="$col-sep"/>
     <xsl:value-of select="et:cnt(.//tei:particDesc//tei:person
-			  [tei:figure]
-			  )"/>
+                          [tei:figure]
+                          )"/>
     <xsl:value-of select="$line-sep"/>
   </xsl:template>
 
@@ -135,10 +135,10 @@
     <xsl:param name="nodes"/>
     <xsl:choose>
       <xsl:when test="matches($mode, 'tex', 'i')">
-	<xsl:value-of select="format-number(count($nodes), '###,###,###')"/>
+        <xsl:value-of select="format-number(count($nodes), '###,###,###')"/>
       </xsl:when>
       <xsl:when test="matches($mode, 'tsv', 'i')">
-	<xsl:value-of select="count($nodes)"/>
+        <xsl:value-of select="count($nodes)"/>
       </xsl:when>
     </xsl:choose>
   </xsl:function>
