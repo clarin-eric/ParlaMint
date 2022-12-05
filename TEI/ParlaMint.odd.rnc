@@ -12,7 +12,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-11-10T15:10:05Z. 2022-11-10.
+# Schema generated from ODD source 2022-11-23T17:07:24Z. 2022-11-23.
 # TEI Edition: Version 4.5.0a. Last updated on
 #         29th July 2022, revision 50a1ab835
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
@@ -974,74 +974,67 @@ tei_publicationStmt =
   }
 tei_idno =
   
-  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organisation, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (identifier) supplies an identifier used to identify some object, such as a person or organisation. If it is a URL, it should have `@type="URI"`. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     text,
     tei_att.global.attribute.xmllang,
     
-    ## categorizes the identifier, for example as an ISBN, Social Security number, etc.
-    ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
+    ## categorizes the identifier.
     attribute type {
       [
         a:documentation [
-          "International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the "
-          ns1:a [
-            href = "https://www.isbn-international.org"
-            " International ISBN Agency."
-          ]
-          "\x{a}" ~
-          "               "
+          "Uniform Resource Identifier ParlaMint should be a resolvable URL, with the "
+          ns1:code [ "@subtype" ]
+          " classifying the type of web site."
         ]
       ]
-      "ISBN"
+      "URI"
       | 
-        ## International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.
-        "ISSN"
-      | 
-        ## Digital Object Identifier: a unique string of letters and numbers assigned to an electronic document.
-        "DOI"
-      | [
-          a:documentation [
-            "Uniform Resource Identifier: a string of characters to uniquely identify a resource, following the syntax of "
-            ns1:a [
-              href = "https://datatracker.ietf.org/doc/html/rfc3986"
-              "RFC 3986"
-            ]
-            "."
-          ]
-        ]
-        "URI"
-      | 
-        ## A data number in the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
+        ## The URL of the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
         "VIAF"
-      | 
-        ## English Short-Title Catalogue number: an identifying number assigned to a document in English printed in the British Isles or North America before 1801.
-        "ESTC"
-      | 
-        ## OCLC control number (record number) for the union catalog record in WorldCat, a union catalog for member libraries in the Online Computer Library Center global cooperative.
-        "OCLC"
-      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
     },
     
-    ## 
-    ## Suggested values include: 1] facebook; 2] twitter; 3] wikipedia; 4] wikimedia; 5] wikidata
+    ##
     attribute subtype {
       
-      ##
-      "facebook"
+      ## The permanent identifier of type handle.
+      "handle"
       | 
-        ##
-        "twitter"
+        ## A governmental web site.
+        "government"
       | 
-        ##
-        "wikipedia"
+        ## The web site of a political party.
+        "politicalParty"
       | 
-        ##
+        ## A web site of the parliament.
+        "parliament"
+      | 
+        ## The web site of a ministry.
+        "ministry"
+      | 
+        ## The personal web site of a person.
+        "personal"
+      | 
+        ## A web site belonging to a bussiness.
+        "business"
+      | 
+        ## The web site of a pubic service.
+        "publicService"
+      | 
+        ## A web site of Wikimedia, e.g. Wikipedia.
         "wikimedia"
       | 
-        ##
-        "wikidata"
-      | xsd:Name
+        ## A Facebook web site.
+        "facebook"
+      | 
+        ## A Twitter web site.
+        "twitter"
+      | 
+        ## A TikTok web site.
+        "tiktok"
+      | 
+        ## An Instagram web site.
+        "instagram"
     }?,
     empty
   }
@@ -1413,7 +1406,7 @@ tei_body =
   element body { tei_div+ }
 tei_div =
   
-  ## (text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]
+  ## (text division) contains division of the body a corpus component. [4.1. Divisions of the Body]
   element div {
     tei_head*,
     ((tei_note
@@ -1475,9 +1468,12 @@ tei_div =
     ##
     attribute type {
       
-      ## General purpose text division for all parts of parliamentary proceedings. If needed, the @subtype attribute can be used for additional content classification.
+      ## General purpose text division for all parts of parliamentary proceedings. It should include at least one utterance. If needed, the @subtype attribute can be used for additional content classification.
       "debateSection"
-    }?,
+      | 
+        ## A special purpose text division used as a container for transcriber comments. Should not contain any utterances. If needed, the @subtype attribute can be used for additional content classification.
+        "commentSection"
+    },
     empty
   }
 tei_particDesc =

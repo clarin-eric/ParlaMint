@@ -26,14 +26,14 @@
   <!-- Country code of new taxonomy, if it is present in corpus specific taxonomy file
        filename otherwise -->
   <xsl:variable name="country" select="replace(replace($new,
-				       '.+ParlaMint-([A-Z-]+).*', '$1'),
-				       '.+/', '')"/>
+                                       '.+ParlaMint-([A-Z-]+).*', '$1'),
+                                       '.+/', '')"/>
   
   <!-- The taxonomy with the translations which should be merged into master taxonomy -->
   <xsl:variable name="new-taxo">
     <xsl:if test="not(doc-available($new))">
       <xsl:message terminate="yes"
-		   select="concat('FATAL: file ', $new, ' not found')"/>
+                   select="concat('FATAL: file ', $new, ' not found')"/>
     </xsl:if>
     <xsl:copy-of select="document($new)//tei:taxonomy[@xml:id = $taxo-id]"/>
   </xsl:variable>
@@ -42,24 +42,24 @@
   <xsl:template match="tei:taxonomy">
     <xsl:if test="not($new-taxo)">
       <xsl:message terminate="yes"
-		   select="concat('FATAL: In ', $country, 
-			   ' no appropriate taxonomy found for ', $taxo-id)"/>
+                   select="concat('FATAL: In ', $country, 
+                           ' no appropriate taxonomy found for ', $taxo-id)"/>
     </xsl:if>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <!-- Merge the taxonomy descriptions -->
       <xsl:call-template name="merge">
-	<xsl:with-param name="master" select="tei:desc"/>
-	<xsl:with-param name="new" select="$new-taxo/tei:taxonomy/tei:desc"/>
+        <xsl:with-param name="master" select="tei:desc"/>
+        <xsl:with-param name="new" select="$new-taxo/tei:taxonomy/tei:desc"/>
       </xsl:call-template>
       <!-- Process the taxonomy categories -->
       <xsl:variable name="categories">
-	<xsl:apply-templates select="tei:category"/>
+        <xsl:apply-templates select="tei:category"/>
       </xsl:variable>
       <!-- Check that the corpus-specific taxonomy does not have categories not present 
-	   in the  master one -->
+           in the  master one -->
       <xsl:apply-templates mode="check" select="$new-taxo//tei:category">
-	<xsl:with-param name="master" select="$categories"/>
+        <xsl:with-param name="master" select="$categories"/>
       </xsl:apply-templates>
       <!-- Output merged taxonomy -->
       <xsl:copy-of select="$categories"/>
@@ -74,18 +74,18 @@
       <!-- Store the corpus-specific descriptions of the category -->
       <xsl:variable name="new" select="key('id', $id, $new-taxo)/tei:catDesc"/>
       <xsl:choose>
-	<xsl:when test="not($new)">
-	  <xsl:message select="concat('WARNING: ', $country, 
-			       ' taxonomy is missing the category ', $id)"/>
-	  <xsl:copy-of select="tei:catDesc"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <!-- Merge the category descriptions -->
-	  <xsl:call-template name="merge">
-	    <xsl:with-param name="master" select="tei:catDesc"/>
-	    <xsl:with-param name="new" select="$new"/>
-	  </xsl:call-template>
-	</xsl:otherwise>
+        <xsl:when test="not($new)">
+          <xsl:message select="concat('WARNING: ', $country, 
+                               ' taxonomy is missing the category ', $id)"/>
+          <xsl:copy-of select="tei:catDesc"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <!-- Merge the category descriptions -->
+          <xsl:call-template name="merge">
+            <xsl:with-param name="master" select="tei:catDesc"/>
+            <xsl:with-param name="new" select="$new"/>
+          </xsl:call-template>
+        </xsl:otherwise>
       </xsl:choose>
       <!-- Process subordinate categories -->
       <xsl:apply-templates select="tei:category"/>
@@ -98,7 +98,7 @@
     <xsl:variable name="id" select="@xml:id"/>
     <xsl:if test="not(key('id', $id, $master))">
       <xsl:message select="concat('ERROR: ', $country, ' taxonomy has category ', $id,
-			   ' which does not exist in the master taxonomy!')"/>
+                           ' which does not exist in the master taxonomy!')"/>
     </xsl:if>
   </xsl:template>
   
@@ -109,46 +109,46 @@
     <xsl:variable name="descriptions">
       <!-- Copy over existing descriptions, possibly updating some -->
       <xsl:for-each select="$master/self::tei:*">
-	<xsl:variable name="lang-master" select="@xml:lang"/>
-	<xsl:variable name="text-master" select="."/>
-	<xsl:choose>
-	  <xsl:when test="$lang-master = 'en'">
-	    <xsl:copy-of select="."/>
-	  </xsl:when>
-	  <xsl:when test="$new/self::tei:*[@xml:lang = $lang-master]">
-	    <xsl:variable name="text-new" select="$new/self::tei:*[@xml:lang = $lang-master]"/>
-	    <xsl:choose>
-	      <xsl:when test="normalize-space($text-master) = normalize-space($text-new)">
-		<xsl:message select="concat('INFO: For ', $country, ' no change in ',
-				     $lang-master, ' text for: ', normalize-space($text-new))"/> 
-		<xsl:copy-of select="."/>
-	      </xsl:when>
-	      <xsl:otherwise>
-		<xsl:message select="concat('WARNING: For ', $country, ' changed ', $lang-master, 
-				     ' text ', normalize-space($text-master), 
-				     ' to ', normalize-space($text-new))"/> 
-		<xsl:copy-of select="$text-new"/>
-	      </xsl:otherwise>
-	    </xsl:choose>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:copy-of select="."/>
-	  </xsl:otherwise>
-	</xsl:choose>
+        <xsl:variable name="lang-master" select="@xml:lang"/>
+        <xsl:variable name="text-master" select="."/>
+        <xsl:choose>
+          <xsl:when test="$lang-master = 'en'">
+            <xsl:copy-of select="."/>
+          </xsl:when>
+          <xsl:when test="$new/self::tei:*[@xml:lang = $lang-master]">
+            <xsl:variable name="text-new" select="$new/self::tei:*[@xml:lang = $lang-master]"/>
+            <xsl:choose>
+              <xsl:when test="normalize-space($text-master) = normalize-space($text-new)">
+                <xsl:message select="concat('INFO: For ', $country, ' no change in ',
+                                     $lang-master, ' text for: ', normalize-space($text-new))"/> 
+                <xsl:copy-of select="."/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message select="concat('WARNING: For ', $country, ' changed ', $lang-master, 
+                                     ' text ', normalize-space($text-master), 
+                                     ' to ', normalize-space($text-new))"/> 
+                <xsl:copy-of select="$text-new"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy-of select="."/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:for-each>
       <!-- Add new descriptions -->
       <xsl:for-each select="$new/self::tei:*">
-	<xsl:variable name="lang-new" select="@xml:lang"/>
+        <xsl:variable name="lang-new" select="@xml:lang"/>
       <xsl:variable name="text-new" select="."/>
       <xsl:choose>
-	<xsl:when test="$lang-new = 'en'"/>
-	<xsl:when test="$master/self::tei:*[@xml:lang = $lang-new]"/>
-	<xsl:otherwise>
-	  <!--xsl:message select="concat('INFO: ', $country, ' + language ', 
-	      $lang-new, ' inserting new ', name(.), ': ',
-	      normalize-space($text-new))"/--> 
-	  <xsl:copy-of select="."/>
-	</xsl:otherwise>
+        <xsl:when test="$lang-new = 'en'"/>
+        <xsl:when test="$master/self::tei:*[@xml:lang = $lang-new]"/>
+        <xsl:otherwise>
+          <!--xsl:message select="concat('INFO: ', $country, ' + language ', 
+              $lang-new, ' inserting new ', name(.), ': ',
+              normalize-space($text-new))"/--> 
+          <xsl:copy-of select="."/>
+        </xsl:otherwise>
       </xsl:choose>
       </xsl:for-each>
     </xsl:variable>
@@ -157,7 +157,7 @@
     <xsl:for-each select="$descriptions/tei:*">
       <xsl:sort select="@xml:lang"/>
       <xsl:if test="@xml:lang != 'en'">
-	<xsl:copy-of select="."/>
+        <xsl:copy-of select="."/>
       </xsl:if>
     </xsl:for-each>
   </xsl:template>

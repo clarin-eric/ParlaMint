@@ -20,20 +20,20 @@
     <!-- Store sub title, if it exists, otherwise main title -->
     <xsl:variable name="title">
       <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/
-					  tei:titleStmt/tei:title"/>
+                                          tei:titleStmt/tei:title"/>
       <xsl:choose>
-	<xsl:when test="$titles[@type='sub']
-			[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
-	  <xsl:value-of select="$titles[@type='sub']
-				[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-				[1]"/>
-	</xsl:when>
-	<xsl:when test="$titles[@type='sub']">
-	  <xsl:value-of select="$titles[@type='sub'][1]"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:value-of select="$titles[1]"/>
-	</xsl:otherwise>
+        <xsl:when test="$titles[@type='sub']
+                        [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
+          <xsl:value-of select="$titles[@type='sub']
+                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
+                                [1]"/>
+        </xsl:when>
+        <xsl:when test="$titles[@type='sub']">
+          <xsl:value-of select="$titles[@type='sub'][1]"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$titles[1]"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     
@@ -79,44 +79,44 @@
     <xsl:value-of select="concat(et:u-role(@ana), '&#9;')"/>
     <xsl:choose>
       <xsl:when test="not(@who)">
-	<xsl:text>-&#9;</xsl:text>
-	<xsl:text>-&#9;</xsl:text>
-	<xsl:text>-&#9;</xsl:text>
-	<xsl:text>-&#9;</xsl:text>
-	<xsl:text>-&#9;</xsl:text>
-	<xsl:text>-&#9;</xsl:text>
-	<xsl:text>-</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-&#9;</xsl:text>
+        <xsl:text>-</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-	<xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
-	<xsl:if test="not(normalize-space($speaker))">
-	  <xsl:message terminate="yes">
-	    <xsl:text>FATAL: Can't find speaker for </xsl:text>
-	    <xsl:value-of select="@who"/>
-	    <xsl:text> in </xsl:text>
-	    <xsl:value-of select="@xml:id"/>
-	  </xsl:message>
-	</xsl:if>
-	<xsl:value-of select="concat(et:speaker-type($speaker), '&#9;')"/>
-	<xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
-	<xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
-	<xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
-	<!-- If they change name between $date-from and $date-to, we fake it -->
-	<xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $date-from), 
-			      '&#9;')"/>
-	<xsl:choose>
-	  <xsl:when test="$speaker/tei:sex">
-	    <xsl:value-of select="$speaker/tei:sex/@value"/>
-	  </xsl:when>
-	  <xsl:otherwise>-</xsl:otherwise>
-	</xsl:choose>
-	<xsl:text>&#9;</xsl:text>
-	<xsl:choose>
-	  <xsl:when test="$speaker/tei:birth">
-	    <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-	  </xsl:when>
-	  <xsl:otherwise>-</xsl:otherwise>
-	</xsl:choose>
+        <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
+        <xsl:if test="not(normalize-space($speaker))">
+          <xsl:message terminate="yes">
+            <xsl:text>FATAL: Can't find speaker for </xsl:text>
+            <xsl:value-of select="@who"/>
+            <xsl:text> in </xsl:text>
+            <xsl:value-of select="@xml:id"/>
+          </xsl:message>
+        </xsl:if>
+        <xsl:value-of select="concat(et:speaker-type($speaker), '&#9;')"/>
+        <xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
+        <xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
+        <xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>
+        <!-- If they change name between $date-from and $date-to, we fake it -->
+        <xsl:value-of select="concat(et:format-name-chrono($speaker//tei:persName, $date-from), 
+                              '&#9;')"/>
+        <xsl:choose>
+          <xsl:when test="$speaker/tei:sex">
+            <xsl:value-of select="$speaker/tei:sex/@value"/>
+          </xsl:when>
+          <xsl:otherwise>-</xsl:otherwise>
+        </xsl:choose>
+        <xsl:text>&#9;</xsl:text>
+        <xsl:choose>
+          <xsl:when test="$speaker/tei:birth">
+            <xsl:value-of select="replace($speaker/tei:birth/@when, '-.+', '')"/>
+          </xsl:when>
+          <xsl:otherwise>-</xsl:otherwise>
+        </xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
     <!-- Speech sizes -->
