@@ -78,17 +78,21 @@ xsd:
 #DATADIR = ../Data
 # For testing v3 corpora
 DATADIR = ../../ParlaMint-data/Data
-#DATADIR = ../../ParlaMint-v2tov3/Data
+ALL = ${DATADIR}/ParlaMint-*/ParlaMint-*.xml
+ANA = '.ana'
+TAX = 'taxonomy'
+LST = 'list'
 val:
-	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${pc}
-	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep -v '.ana.' | grep    '_' | xargs ${vct}
-	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${pc}
-	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | grep    '.ana.' | grep    '_' | xargs ${vca}
+	-ls ${ALL} | grep -v ${ANA} | grep -v ${TAX} | grep -v ${LST} | grep -v '_' | xargs ${pc}
+	-ls ${ALL} | grep -v ${ANA} | grep -v ${TAX} | grep -v ${LST} | grep -v '_' | xargs ${vrt}
+	-ls ${ALL} | grep -v ${ANA} | grep -v ${TAX} | grep -v ${LST} | grep    '_' | xargs ${vct}
+	-ls ${ALL} | grep    ${ANA} | grep -v ${TAX} | grep -v ${LST} | grep -v '_' | xargs ${pc}
+	-ls ${ALL} | grep    ${ANA} | grep -v ${TAX} | grep -v ${LST} | grep -v '_' | xargs ${vra}
+	-ls ${ALL} | grep    ${ANA} | grep -v ${TAX} | grep -v ${LST} | grep    '_' | xargs ${vca}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*listOrg.xml    | xargs ${vlo}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*listPerson.xml | xargs ${vlp}
+	-ls ${DATADIR}/ParlaMint-*/ParlaMint-*taxonomy*.xml  | xargs ${vta}
 
-s = java -jar /usr/share/java/saxon.jar
-j = java -jar /usr/share/java/jing.jar
 pc = -I % $s -xi -xsl:../Scripts/copy.xsl % | $j parla-clarin.rng
 vrt = $j ParlaMint-teiCorpus.rng 	# Corpus root / text
 vct = $j ParlaMint-TEI.rng		# Corpus component / text
@@ -97,9 +101,12 @@ vca = $j ParlaMint-TEI.ana.rng		# Corpus component / analysed
 vlo = $j ParlaMint-listOrg.rng		# Corpus organisation list
 vlp = $j ParlaMint-listPerson.rng	# Corpus person list
 vta = $j ParlaMint-taxonomy.rng		# Corpus taxonomy
+
+s = java -jar /usr/share/java/saxon.jar
+j = java -jar /usr/share/java/jing.jar
 P = parallel --citation --gnu --halt 2
 
 #Count things like org/@role
 what = grep ' corresp=' | grep corresp
 what:
-	cat ${DATADIR}/ParlaMint-*/ParlaMint-*.xml | ${what}
+	cat ${ALL} | ${what}
