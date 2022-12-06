@@ -235,11 +235,11 @@
           <attribute name="when">
             <data type="date"/>
           </attribute>
-	  <mixed>
-	    <zeroOrMore>
+          <mixed>
+            <zeroOrMore>
               <ref name="name-header"/>
-	    </zeroOrMore>
-	  </mixed>
+            </zeroOrMore>
+          </mixed>
         </element>
       </oneOrMore>
     </element>
@@ -401,34 +401,58 @@
   <a:documentation>Start of definitions for text</a:documentation>
 
   <define name="text-body">
-    <a:documentation>The definition of the text and body (and division) elements.</a:documentation>
+    <a:documentation>The definition of the text and body elements.</a:documentation>
     <element name="text">
       <ref name="global.atts"/>
       <ref name="ana.att"/>
       <element name="body">
         <oneOrMore>
-          <element name="div">
-            <ref name="global.atts"/>
-            <attribute name="type">
-              <value>debateSection</value>
-            </attribute>
-            <zeroOrMore>
-              <ref name="head"/>
-            </zeroOrMore>
-            <oneOrMore>
-              <choice>
-                <ref name="note"/>
-                <ref name="comment"/>
-                <ref name="pb"/>
-                <ref name="u"/>
-              </choice>
-            </oneOrMore>
-          </element>
+          <ref name="div"/>
         </oneOrMore>
       </element>
     </element>
   </define>
   
+  <define name="div">
+    <a:documentation>The definition of the div element.</a:documentation>
+    <element name="div">
+      <ref name="global.atts"/>
+      <choice>
+        <a:documentation>A standard div with utterances.</a:documentation>
+        <group>
+          <attribute name="type">
+            <value>debateSection</value>
+          </attribute>
+          <zeroOrMore>
+            <ref name="head"/>
+          </zeroOrMore>
+          <oneOrMore>
+            <choice>
+              <ref name="comment"/>
+              <ref name="pb"/>
+              <ref name="u"/>
+            </choice>
+          </oneOrMore>
+        </group>
+        <a:documentation>A div with transcriber comments only.</a:documentation>
+        <group>
+          <attribute name="type">
+            <value>commentSection</value>
+          </attribute>
+          <zeroOrMore>
+            <ref name="head"/>
+          </zeroOrMore>
+          <oneOrMore>
+            <choice>
+              <ref name="comment"/>
+              <ref name="pb"/>
+            </choice>
+          </oneOrMore>
+        </group>
+      </choice>
+    </element>
+  </define>
+
   <define name="u">
     <a:documentation>One speech (i.e. 'utterance').</a:documentation>
     <element name="u">

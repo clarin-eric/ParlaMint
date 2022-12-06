@@ -79,21 +79,21 @@ foreach $inFile (@compAnaFiles) {
     die "ERROR: Language is not defined for $country" unless defined $langs;
     #One corpus, one language
     if ($langs !~ /,/) {
-	my $outFile = "$outDir/$fName.conllu";
-	&run("$Saxon meta=$rootAnaFile -xsl:$Convert $inFile > $outFile", $fName);
-	&run("python3 $Valid --lang $langs --level 1 $outFile", "level 1: $fName");
-	&run("python3 $Valid --lang $langs --level 2 $outFile", "level 2: $fName");
-	#&run("python3 $Valid --lang $langs --level 3 $outFile", "level 3: $fName");
+        my $outFile = "$outDir/$fName.conllu";
+        &run("$Saxon meta=$rootAnaFile -xsl:$Convert $inFile > $outFile", $fName);
+        &run("python3 $Valid --lang $langs --level 1 $outFile", "level 1: $fName");
+        &run("python3 $Valid --lang $langs --level 2 $outFile", "level 2: $fName");
+        #&run("python3 $Valid --lang $langs --level 3 $outFile", "level 3: $fName");
     }
     #One corpus, several languages, several files (BE = nl, fr)
     else {
-	foreach $lang (split(/,\s*/, $langs)) {
-	    my $outFile = "$outDir/$fName-$lang.conllu";
-	    &run("$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert $inFile > $outFile", $fName);
-	    &run("python3 $Valid --lang $lang --level 1 $outFile", "level 1: $fName");
-	    &run("python3 $Valid --lang $lang --level 2 $outFile", "level 2: $fName");
-	    #&run("python3 $Valid --lang $lang --level 3 $outFile", "level 3: $fName");
-	}
+        foreach $lang (split(/,\s*/, $langs)) {
+            my $outFile = "$outDir/$fName-$lang.conllu";
+            &run("$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert $inFile > $outFile", $fName);
+            &run("python3 $Valid --lang $lang --level 1 $outFile", "level 1: $fName");
+            &run("python3 $Valid --lang $lang --level 2 $outFile", "level 2: $fName");
+            #&run("python3 $Valid --lang $lang --level 3 $outFile", "level 3: $fName");
+        }
     }
 }
 
@@ -101,10 +101,10 @@ sub run {
     my $command = shift;
     my $info = shift;
     if ($command =~ /$Convert/) {
-	print STDERR "INFO: Converting $info\n"
+        print STDERR "INFO: Converting $info\n"
     }
     elsif ($command =~ /$Valid/) {
-	print STDERR "INFO: Validating $info\n"
+        print STDERR "INFO: Validating $info\n"
     }
     else {die "Weird command!\n"}
     #`$command 1>&2`;

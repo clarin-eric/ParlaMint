@@ -19,8 +19,8 @@
     <xsl:copy-of select="$rootHeader//tei:listPrefixDef"/>
   </xsl:variable>
   <xsl:variable name="country" select="replace(replace(document-uri(/), 
-				       '.+/([^/]+)\.xml', '$1'), 
-				       'ParlaMint-([^._]+).*', '$1')"/>
+                                       '.+/([^/]+)\.xml', '$1'), 
+                                       'ParlaMint-([^._]+).*', '$1')"/>
 
   <xsl:template match="/">
     <xsl:apply-templates/>
@@ -56,11 +56,11 @@
         <xsl:when test="not(normalize-space($local-id))"/>
         <xsl:when test="key('id', $local-id, $rootHeader)">
           <xsl:value-of select="mk:print_link($elem, $attr, 'local',
-				key('id', $local-id, $rootHeader)/name(),$ptr)"/>
+                                key('id', $local-id, $rootHeader)/name(),$ptr)"/>
         </xsl:when>
         <xsl:when test="$rootHeader and key('id', $local-id, $rootHeader)">
           <xsl:value-of select="mk:print_link($elem, $attr, 'external',
-				key('id', $local-id, $rootHeader)/name(), $ptr)"/>
+                                key('id', $local-id, $rootHeader)/name(), $ptr)"/>
         </xsl:when>
       </xsl:choose>
     </xsl:for-each>

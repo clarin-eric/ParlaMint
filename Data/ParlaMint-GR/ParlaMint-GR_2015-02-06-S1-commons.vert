@@ -1,4 +1,13 @@
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u1" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="">
+<note type="head" content="ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ"/>
+<note type="head" content="ΙΣΤ ΠΕΡΙΟΔΟΣ"/>
+<note type="head" content="ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ"/>
+<note type="head" content="ΣΥΝΟΔΟΣ Α'"/>
+<note type="head" content="ΣΥΝΕΔΡΙΑΣΗ Β"/>
+<note type="head" content="Παρασκευή 6 Φεβρουαρίου 2015 (πρωί)"/>
+<note type="gap::editorial" content="The frontmatter of the document has been removed"/>
+<note type="-" content="Αθήνα, σήμερα στις 6 Φεβρουαρίου 2015, ημέρα Παρασκευή και ώρα 11.20΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Α΄ Αντιπροέδρου της Βουλής της προηγούμενης βουλευτικής περιόδου κ. ΙΩΑΝΝΗ ΤΡΑΓΑΚΗ."/>
+<note type="speaker" content="ΠΡΟΣΩΡΙΝΟΣ ΠΡΟΕΔΡΟΣ (ΙΩΑΝΝΗΣ ΤΡΑΓΑΚΗΣ):"/>
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u1" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="16" session="1" meeting="" sitting="2" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg1" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -14,6 +23,7 @@
 .	.	.	PUNCT		9	punct	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
 </p>
+<note type="-" content="ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ: Σύμφωνα με την από 5-2-2015 εξουσιοδότηση του Σώματος επικυρώθηκαν με ευθύνη του Προεδρείου τα Πρακτικά της Α΄ συνεδριάσεώς του, της Πέμπτης 5 Φεβρουαρίου 2015, σε ό,τι αφορά την ορκωμοσία των Βουλευτών της ΙΣΤ΄ Περιόδου Προεδρευομένης Κοινοβουλευτικής Δημοκρατίας"/>
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg2" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg2.1">
 Πριν	Πριν	πριν	SCONJ		1	mark	εισέρχομαι	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	2
@@ -28,19 +38,19 @@
 ορκωμοσία	ορκωμοσία	ορκωμοσία	NOUN	Case=Acc Gender=Fem Number=Sing	14	obl	προβαίνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	10
 των	των	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Plur PronType=Art	15	det	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16
 συναδέλφων	συναδέλφων	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16	nmod	ορκωμοσία	NOUN	Case=Acc Gender=Fem Number=Sing	14
-κυρίων	κυρίων	κύριος	ADJ	Case=Gen Gender=Masc Number=Plur	17	amod	Ιωάννης	PROPN	Case=Acc Gender=Masc Number=Sing	18
+κυρίων	κυρίων	κύριος	NOUN	Case=Gen Gender=Masc Number=Plur	17	flat	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16
 <name type="PER">
-Ιωάννη	Ιωάννη	Ιωάννης	PROPN	Case=Acc Gender=Masc Number=Sing	18	nmod	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16
-Βαρουφάκη	Βαρουφάκη	Βαρουφάκης	PROPN	Case=Gen Gender=Masc Number=Sing	19	flat	Ιωάννης	PROPN	Case=Acc Gender=Masc Number=Sing	18
+Ιωάννη	Ιωάννη	Ιωάννης	PROPN	Case=Gen Gender=Masc Number=Sing	18	flat	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16
+Βαρουφάκη	Βαρουφάκη	Βαρουφάκης	PROPN	Case=Gen Gender=Masc Number=Sing	19	flat	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16
 </name>
 και	και	και	CCONJ		20	cc	Ευκλείδης	PROPN	Case=Gen Gender=Masc Number=Sing	21
 <name type="PER">
-Ευκλείδη	Ευκλείδη	Ευκλείδης	PROPN	Case=Gen Gender=Masc Number=Sing	21	conj	Ιωάννης	PROPN	Case=Acc Gender=Masc Number=Sing	18
+Ευκλείδη	Ευκλείδη	Ευκλείδης	PROPN	Case=Gen Gender=Masc Number=Sing	21	conj	συνάδελφος	NOUN	Case=Gen Gender=Masc Number=Plur	16
 Τσακαλώτου	Τσακαλώτου	Τσακαλώτος	PROPN	Case=Gen Gender=Masc Number=Sing	22	flat	Ευκλείδης	PROPN	Case=Gen Gender=Masc Number=Sing	21
 <g/>
 </name>
 ,	,	,	PUNCT		23	punct	ανακηρύσσω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	26
-οι	οι	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Plur PronType=Art	24	det	οποίος	PRON	Case=Nom Gender=Masc Number=Plur Person=3 PronType=Rel	25
+οι	οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	24	det	οποίος	PRON	Case=Nom Gender=Masc Number=Plur Person=3 PronType=Rel	25
 οποίοι	οποίοι	οποίος	PRON	Case=Nom Gender=Masc Number=Plur Person=3 PronType=Rel	25	nsubj:pass	ανακηρύσσω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	26
 ανακηρύχθηκαν	ανακηρύχθηκαν	ανακηρύσσω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	26	acl:relcl	ορκωμοσία	NOUN	Case=Acc Gender=Fem Number=Sing	14
 Βουλευτές	Βουλευτές	βουλευτής	NOUN	Case=Nom Gender=Masc Number=Plur	27	xcomp	ανακηρύσσω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	26
@@ -58,16 +68,16 @@
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg3" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg3.1">
 Καλούνται	Καλούνται	καλώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1	root	-	-	-	-
-οι	οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	2	det	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4
-συνάδελφοι	συνάδελφοι	συνάδελφος	ADJ	Case=Nom Gender=Masc Number=Plur	3	amod	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4
-κύριοι	κύριοι	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4	nsubj:pass	καλώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
+οι	οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	2	det	συνάδελφος	NOUN	Case=Nom Gender=Masc Number=Plur	3
+συνάδελφοι	συνάδελφοι	συνάδελφος	NOUN	Case=Nom Gender=Masc Number=Plur	3	nsubj:pass	καλώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
+κύριοι	κύριοι	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4	flat	συνάδελφος	NOUN	Case=Nom Gender=Masc Number=Plur	3
 <name type="PER">
-Ιωάννης	Ιωάννης	Ιωάννης	PROPN	Case=Nom Gender=Masc Number=Sing	5	flat	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4
-Βαρουφάκης	Βαρουφάκης	Βαρουφάκης	PROPN	Case=Nom Gender=Masc Number=Sing	6	flat	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4
+Ιωάννης	Ιωάννης	Ιωάννης	PROPN	Case=Nom Gender=Masc Number=Sing	5	flat	συνάδελφος	NOUN	Case=Nom Gender=Masc Number=Plur	3
+Βαρουφάκης	Βαρουφάκης	Βαρουφάκης	PROPN	Case=Nom Gender=Masc Number=Sing	6	flat	Ιωάννης	PROPN	Case=Nom Gender=Masc Number=Sing	5
 </name>
 και	και	και	CCONJ		7	cc	Ευκλείδης	PROPN	Case=Nom Gender=Masc Number=Sing	8
 <name type="PER">
-Ευκλείδης	Ευκλείδης	Ευκλείδης	PROPN	Case=Nom Gender=Masc Number=Sing	8	conj	κύριος	NOUN	Case=Nom Gender=Masc Number=Plur	4
+Ευκλείδης	Ευκλείδης	Ευκλείδης	PROPN	Case=Nom Gender=Masc Number=Sing	8	conj	Βαρουφάκης	PROPN	Case=Nom Gender=Masc Number=Sing	6
 Τσακαλώτος	Τσακαλώτος	Τσακαλώτος	PROPN	Case=Nom Gender=Masc Number=Sing	9	flat	Ευκλείδης	PROPN	Case=Nom Gender=Masc Number=Sing	8
 </name>
 να	να	να	AUX		10	aux	προσέρχομαι	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Pass	11
@@ -82,6 +92,7 @@
 .	.	.	PUNCT		18	punct	καλώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
 </s>
 </p>
+<note type="-" content="Στο σημείο αυτό προσέρχονται οι Βουλευτές κύριοι Ιωάννης Βαρουφάκης και Ευκλείδης Τσακαλώτος και δίνουν τον παρακάτω όρκο:"/>
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg4" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg4.1">
 «	«	«	PUNCT		1	punct	διαβεβαιώνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -97,12 +108,12 @@
 θα	θα	θα	AUX		12	aux	πιστός	ADJ	Case=Nom Gender=Masc Number=Sing	14
 είμαι	είμαι	είμαι	AUX	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Pass	13	cop	πιστός	ADJ	Case=Nom Gender=Masc Number=Sing	14
 πιστός	πιστός	πιστός	ADJ	Case=Nom Gender=Masc Number=Sing	14	ccomp	διαβεβαιώνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
-στην	σ|την	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	16|17	case|det	Πατρίδα	PROPN	Case=Acc Gender=Fem Number=Sing	18
-Πατρίδα	Πατρίδα	Πατρίδα	PROPN	Case=Acc Gender=Fem Number=Sing	18	obl	πιστός	ADJ	Case=Nom Gender=Masc Number=Sing	14
+στην	σ|την	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	16|17	case|det	πατρίδα	NOUN	Case=Acc Gender=Fem Number=Sing	18
+Πατρίδα	Πατρίδα	πατρίδα	NOUN	Case=Acc Gender=Fem Number=Sing	18	obl	πιστός	ADJ	Case=Nom Gender=Masc Number=Sing	14
 και	και	και	CCONJ		19	cc	πολίτευμα	NOUN	Case=Acc Gender=Neut Number=Sing	22
 το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	20	det	πολίτευμα	NOUN	Case=Acc Gender=Neut Number=Sing	22
 δημοκρατικό	δημοκρατικό	δημοκρατικός	ADJ	Case=Acc Gender=Neut Number=Sing	21	amod	πολίτευμα	NOUN	Case=Acc Gender=Neut Number=Sing	22
-πολίτευμα	πολίτευμα	πολίτευμα	NOUN	Case=Acc Gender=Neut Number=Sing	22	conj	Πατρίδα	PROPN	Case=Acc Gender=Fem Number=Sing	18
+πολίτευμα	πολίτευμα	πολίτευμα	NOUN	Case=Acc Gender=Neut Number=Sing	22	conj	πατρίδα	NOUN	Case=Acc Gender=Fem Number=Sing	18
 <g/>
 ,	,	,	PUNCT		23	punct	υπακούω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	25
 θα	θα	θα	AUX		24	aux	υπακούω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	25
@@ -128,7 +139,9 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u2" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="">
+<note type="" content="Χειροκροτήματα απ' όλες τις πτέρυγες της Βουλής"/>
+<note type="speaker" content="ΠΡΟΣΩΡΙΝΟΣ ΠΡΟΕΔΡΟΣ (ΙΩΑΝΝΗΣ ΤΡΑΓΑΚΗΣ):"/>
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u2" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="16" session="1" meeting="" sitting="2" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΤΡΑΓΑΚΗΣ_ΠΑΝΑΓΙΩΤΗ_ΙΩΑΝΝΗΣ" speaker_name="ΤΡΑΓΑΚΗΣ, ΙΩΑΝΝΗΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg5" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg5.1">
 Άξιοι	Άξιοι	άξιος	ADJ	Case=Nom Gender=Masc Number=Plur	1	root	-	-	-	-
@@ -141,19 +154,19 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u8" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="F" speaker_birth="">
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u8" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="16" session="1" meeting="" sitting="2" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="MP" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg79" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg79.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2
 <name type="ORG">
-Σώμα	Σώμα	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj	παρέσχε	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
+Σώμα	Σώμα	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj	παρέχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </name>
-παρέσχε	παρέσχε	παρέσχε	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3	root	-	-	-	-
+παρέσχε	παρέσχε	παρέχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3	root	-	-	-	-
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	4	det	εξουσιοδότηση	NOUN	Case=Acc Gender=Fem Number=Sing	6
 ζητηθείσα	ζητηθείσα	ζητηθείς	ADJ	Case=Acc Gender=Fem Number=Sing	5	amod	εξουσιοδότηση	NOUN	Case=Acc Gender=Fem Number=Sing	6
-εξουσιοδότηση	εξουσιοδότηση	εξουσιοδότηση	NOUN	Case=Acc Gender=Fem Number=Sing	6	obj	παρέσχε	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
+εξουσιοδότηση	εξουσιοδότηση	εξουσιοδότηση	NOUN	Case=Acc Gender=Fem Number=Sing	6	obj	παρέχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 <g/>
-.	.	.	PUNCT		7	punct	παρέσχε	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
+.	.	.	PUNCT		7	punct	παρέχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </s>
 </p>
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg80" lang="greek">
@@ -223,7 +236,8 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2015-02-06-S1-commons.u9" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="ΙΣΤ" session="" meeting="" sitting="" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Coalition" speaker_gender="F" speaker_birth="">
+<note type="speaker" content="ΠΡΟΕΔΡΟΣ (ΖΩΗ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ):"/>
+<speech id="ParlaMint-GR_2015-02-06-S1-commons.u9" text_id="ParlaMint-GR_2015-02-06-S1-commons" subcorpus="Reference" house="" term="16" session="1" meeting="" sitting="2" agenda="" from="2015-02-06" to="2015-02-06" title="Minutes of the assembly of the greek parliament, Term 16, session 1, sitting 2, 2015-02-06" speaker_role="Chairperson" speaker_id="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ_Ν._ΖΩΗ" speaker_name="ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ, ΖΩΗ" speaker_type="MP" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" speaker_gender="F" speaker_birth="">
 <p id="ParlaMint-GR_2015-02-06-S1-commons.seg82" lang="greek">
 <s id="ParlaMint-GR_2015-02-06-S1-commons.seg82.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -234,15 +248,15 @@
 Σώματος	Σώματος	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	5	nmod	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
 </name>
 και	και	και	CCONJ		6	cc	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7
-ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7	conj	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
+ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7	conj	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	5
 12.45΄	12.45΄	12.45΄	NUM	NumType=Card	8	nmod	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7
 λύεται	λύεται	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9	root	-	-	-	-
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
 συνεδρίαση	συνεδρίαση	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11	nsubj:pass	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
 για	για	για	ADP		12	case	σήμερα	ADV		13
 σήμερα	σήμερα	σήμερα	ADV		13	advmod	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
-Παρασκευή	Παρασκευή	Παρασκευή	PROPN	Case=Nom Gender=Fem Number=Sing	14	nmod	σήμερα	ADV		13
-6	6	6	NUM	NumType=Card	15	nmod	Παρασκευή	PROPN	Case=Nom Gender=Fem Number=Sing	14
+Παρασκευή	Παρασκευή	Παρασκευή	PROPN	Case=Acc Gender=Fem Number=Sing	14	obl	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
+6	6	6	NUM	NumType=Card	15	nmod	Παρασκευή	PROPN	Case=Acc Gender=Fem Number=Sing	14
 Φεβρουαρίου	Φεβρουαρίου	Φεβρουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	16	nmod	6	NUM	NumType=Card	15
 2015	2015	2015	NUM	NumType=Card	17	nmod	Φεβρουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	16
 και	και	και	CCONJ		18	cc	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	19
@@ -258,9 +272,9 @@
 Σώματος	Σώματος	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	26	nmod	εργασία	NOUN	Case=Gen Gender=Fem Number=Plur	24
 <g/>
 </name>
-:	:	:	PUNCT		27	punct	εκλογή	NOUN	Case=Nom Gender=Fem Number=Sing	28
-εκλογή	εκλογή	εκλογή	NOUN	Case=Nom Gender=Fem Number=Sing	28	appos	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	23
-Αντιπροέδρων	Αντιπροέδρων	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Plur	29	nmod	εκλογή	NOUN	Case=Nom Gender=Fem Number=Sing	28
+:	:	:	PUNCT		27	punct	εκλογή	NOUN	Case=Acc Gender=Fem Number=Sing	28
+εκλογή	εκλογή	εκλογή	NOUN	Case=Acc Gender=Fem Number=Sing	28	appos	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	23
+Αντιπροέδρων	Αντιπροέδρων	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Plur	29	nmod	εκλογή	NOUN	Case=Acc Gender=Fem Number=Sing	28
 <g/>
 ,	,	,	PUNCT		30	punct	κοσμήτορας	NOUN	Case=Gen Gender=Masc Number=Plur	31
 Κοσμητόρων	Κοσμητόρων	κοσμήτορας	NOUN	Case=Gen Gender=Masc Number=Plur	31	conj	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Plur	29
