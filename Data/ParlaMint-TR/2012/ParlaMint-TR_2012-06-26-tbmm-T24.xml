@@ -3,10 +3,11 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Term 24, Session 124 [ParlaMint SAMPLE]</title>
-        <title type="main" xml:lang="tr">Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Oturum 124 [ParlaMint SAMPLE]</title>
-        <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">Term 24</meeting>
-        <meeting n="124" ana="#parla.session">124</meeting>
+        <title type="main" xml:lang="en">The Turkish parliamentary corpus ParlaMint-TR, Term 24, Year 2, Session 124 [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="tr">Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 2, Birleşim 124 [ParlaMint SAMPLE]</title>
+        <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24">24</meeting>
+        <meeting n="2" ana="#parla.session">2</meeting>
+        <meeting n="124" ana="#parla.meeting">124</meeting>
         <respStmt>
           <persName>Çağrı Çöltekin</persName>
           <resp xml:lang="en">Data retrieval, linguistic annotation, and conversion to TEI</resp>
@@ -32,14 +33,18 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
         </availability>
-        <date when="2022-12-04">2022-12-04</date>
+        <date when="2022-12-07">2022-12-07</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title type="main" xml:lang="en">https://www5.tbmm.gov.tr/tutanak/donem24/yil2/bas/b124m.htm</title>
+          <title type="main" xml:lang="en">Proceedings of the Turkish Parliament (2012-06-26)</title>
+          <title type="main" xml:lang="tr">Proceedings of the Turkish Parliament (2012-06-26)</title>
           <edition xml:lang="en">Official session record</edition>
-          <publisher xml:lang="en">The Turkish Parliament</publisher>
-          <idno type="URI">https://www.tbmm.gov.tr/</idno>
+          <publisher>
+            <orgName xml:lang="en">Grand National Assembly of Turkey</orgName>
+            <orgName xml:lang="tr">Türkiye Büyük Millet Meclisi</orgName>
+          </publisher>
+          <idno type="URI" subtype="parliament">https://www5.tbmm.gov.tr/tutanak/donem24/yil2/bas/b124m.htm</idno>
           <date when="2012-06-26">2012-06-26</date>
         </bibl>
       </sourceDesc>
