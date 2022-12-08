@@ -10,8 +10,10 @@
             <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI, Extraordinary Session 99 (April 06, 2022) [ParlaMint]</title>
             <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, Izredna 8. mandat, 99. izredna seja (6. 4. 2022)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)</title>
-            <meeting n="99" corresp="#DZ" ana="#parla.meeting.extraordinary">Izredna</meeting>
-            <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8">8. mandat</meeting>
+            <meeting n="99"
+                     corresp="#DZ"
+                     ana="#parla.lower #parla.meeting.extraordinary">Izredna</meeting>
+            <meeting n="8" corresp="#DZ" ana="#parla.lower #parla.term #DZ.8">8. mandat</meeting>
             <respStmt>
                <persName>Andrej Pančur</persName>
                <resp xml:lang="sl">Kodiranje TEI</resp>
@@ -26,10 +28,10 @@
             <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="0" xml:lang="sl">0 govorov</measure>
-            <measure unit="speeches" quantity="0" xml:lang="en">0 speeches</measure>
-            <measure unit="words" quantity="0" xml:lang="sl">0 besed</measure>
-            <measure unit="words" quantity="0" xml:lang="en">0 words</measure>
+            <measure unit="speeches" quantity="230" xml:lang="sl">230 govorov</measure>
+            <measure unit="speeches" quantity="230" xml:lang="en">230 speeches</measure>
+            <measure unit="words" quantity="53260" xml:lang="sl"/>
+            <measure unit="words" quantity="53260" xml:lang="en"/>
          </extent>
          <publicationStmt>
             <publisher>
@@ -37,13 +39,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1486</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
             </availability>
-            <date when="2022-11-25"/>
+            <date when="2022-12-08">December 8, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -67,17 +69,16 @@
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="front" occurs="1"/>
-               <tagUsage gi="div" occurs="2"/>
-               <tagUsage gi="head" occurs="2"/>
-               <tagUsage gi="note" occurs="275"/>
                <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="u" occurs="230"/>
-               <tagUsage gi="seg" occurs="947"/>
-               <tagUsage gi="kinesic" occurs="10"/>
                <tagUsage gi="desc" occurs="40"/>
+               <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="gap" occurs="23"/>
+               <tagUsage gi="head" occurs="3"/>
+               <tagUsage gi="kinesic" occurs="10"/>
+               <tagUsage gi="note" occurs="274"/>
+               <tagUsage gi="seg" occurs="947"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="230"/>
                <tagUsage gi="vocal" occurs="7"/>
             </namespace>
          </tagsDecl>
