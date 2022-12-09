@@ -224,8 +224,13 @@ text-body =
     
     ## A standard div with utterances.
     ((attribute type { "debateSection" },
-      head*,
-      (comment | pb | u)+)
+      (head*)
+      >> a:documentation [
+           "We want at least one u in the debateSection."
+         ],
+      (comment | pb)*,
+      u,
+      (comment | pb | u)*)
      >> a:documentation [ "A div with transcriber comments only." ]
      | (attribute type { "commentSection" },
         head*,

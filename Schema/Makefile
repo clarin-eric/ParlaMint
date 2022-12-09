@@ -79,6 +79,7 @@ xsd:
 # For testing v3 corpora
 DATADIR = ../../ParlaMint-data/Data
 ALL = ${DATADIR}/ParlaMint-*/ParlaMint-*.xml
+#ALL = ${DATADIR}/ParlaMint-AT/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.ana.xml
 ANA = '.ana'
 TAX = 'taxonomy'
 LST = 'list'
