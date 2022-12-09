@@ -22,7 +22,7 @@
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1363" xml:lang="en">1,363 speeches</measure>
             <measure unit="words" quantity="193686" xml:lang="en">193,686 words</measure>
          </extent>
@@ -37,7 +37,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">Bu çalışma <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atıf 4.0 Uluslararası Lisansı</ref> ile lisanslanmıştır.</p>
             </availability>
-            <date when="2022-12-07">2022-12-07</date>
+            <date when="2022-12-09">2022-12-09</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -70,7 +70,7 @@
                <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="16"/>
                <tagUsage gi="body" occurs="8"/>
@@ -114,21 +114,17 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-09">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2011/ParlaMint-TR_2011-10-13-tbmm-T24.xml"/>
+               href="ParlaMint-TR_2012-06-26-tbmm-T24.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2012/ParlaMint-TR_2012-06-26-tbmm-T24.xml"/>
+               href="ParlaMint-TR_2014-04-10-tbmm-T24.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2013/ParlaMint-TR_2013-12-26-tbmm-T24.xml"/>
+               href="ParlaMint-TR_2018-11-06-tbmm-T27.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2014/ParlaMint-TR_2014-04-10-tbmm-T24.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2016/ParlaMint-TR_2016-12-20-tbmm-T26.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2018/ParlaMint-TR_2018-11-06-tbmm-T27.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2021/ParlaMint-TR_2021-11-04-tbmm-T27.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="2022/ParlaMint-TR_2022-02-24-tbmm-T27.xml"/>
+               href="ParlaMint-TR_2022-02-24-tbmm-T27.xml"/>
 </teiCorpus>
