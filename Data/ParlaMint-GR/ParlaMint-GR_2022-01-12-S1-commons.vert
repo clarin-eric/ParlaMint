@@ -1,4 +1,13 @@
-<speech id="ParlaMint-GR_2022-01-12-S1-commons.u1" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Chairperson" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="ΚΑΚΛΑΜΑΝΗΣ, ΝΙΚΗΤΑΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<note type="head" content="ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ"/>
+<note type="head" content="ΙΗ ΠΕΡΙΟΔΟΣ"/>
+<note type="head" content="ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ"/>
+<note type="head" content="ΣΥΝΟΔΟΣ Γ'"/>
+<note type="head" content="ΣΥΝΕΔΡΙΑΣΗ ΝΒ'"/>
+<note type="head" content="Τετάρτη 12 Ιανουαρίου 2022"/>
+<note type="gap::editorial" content="The frontmatter of the document has been removed"/>
+<note type="-" content="Αθήνα, σήμερα 12 Ιανουαρίου 2022, ημέρα Τετάρτη και ώρα 10:06΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Α΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ."/>
+<note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):"/>
+<speech id="ParlaMint-GR_2022-01-12-S1-commons.u1" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="18" session="3" meeting="" sitting="52" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Chairperson" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="ΚΑΚΛΑΜΑΝΗΣ, ΝΙΚΗΤΑΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg1" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -14,6 +23,7 @@
 .	.	.	PUNCT		9	punct	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
 </p>
+<note type="-" content="Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις"/>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg2" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg2.1">
 Είναι	Είναι	είμαι	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1	cop	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	4
@@ -35,12 +45,10 @@
 <g/>
 ,	,	,	PUNCT		6	punct	μέρος	NOUN	Case=Gen Gender=Neut Number=Sing	8
 εκ	εκ	εκ	ADP		7	case	μέρος	NOUN	Case=Gen Gender=Neut Number=Sing	8
-μέρους	μέρους	μέρος	NOUN	Case=Gen Gender=Neut Number=Sing	8	nmod	χρονιά	NOUN	Case=Acc Gender=Fem Number=Sing	5
-συνολικά	συνολικά	συνολικά	ADV		9	advmod	προεδρείο	NOUN	Case=Gen Gender=Neut Number=Sing	11
+μέρους	μέρους	μέρος	NOUN	Case=Gen Gender=Neut Number=Sing	8	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
+συνολικά	συνολικά	συνολικά	ADV		9	advmod	μέρος	NOUN	Case=Gen Gender=Neut Number=Sing	8
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	10	det	προεδρείο	NOUN	Case=Gen Gender=Neut Number=Sing	11
-<name type="ORG">
 Προεδρείου	Προεδρείου	προεδρείο	NOUN	Case=Gen Gender=Neut Number=Sing	11	nmod	μέρος	NOUN	Case=Gen Gender=Neut Number=Sing	8
-</name>
 και	και	και	CCONJ		12	cc	πρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	14
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	13	det	πρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	14
 Προέδρου	Προέδρου	πρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	14	conj	προεδρείο	NOUN	Case=Gen Gender=Neut Number=Sing	11
@@ -59,9 +67,9 @@
 όλους	όλους	όλος	DET	Case=Acc Gender=Masc Number=Plur PronType=Tot	9	det	συνάδελφος	NOUN	Case=Acc Gender=Masc Number=Plur	11
 τους	τους	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Plur PronType=Art	10	det	συνάδελφος	NOUN	Case=Acc Gender=Masc Number=Plur	11
 συναδέλφους	συναδέλφους	συνάδελφος	NOUN	Case=Acc Gender=Masc Number=Plur	11	nmod	υγεία	NOUN	Case=Acc Gender=Fem Number=Sing	5
-και	και	και	CCONJ		12	cc	συναδέλφισσα	ADJ	Case=Acc Gender=Fem Number=Plur	14
-τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	13	det	συναδέλφισσα	ADJ	Case=Acc Gender=Fem Number=Plur	14
-συναδέλφισσες	συναδέλφισσες	συναδέλφισσα	ADJ	Case=Acc Gender=Fem Number=Plur	14	conj	συνάδελφος	NOUN	Case=Acc Gender=Masc Number=Plur	11
+και	και	και	CCONJ		12	cc	συναδέλφισσα	NOUN	Case=Acc Gender=Fem Number=Plur	14
+τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	13	det	συναδέλφισσα	NOUN	Case=Acc Gender=Fem Number=Plur	14
+συναδέλφισσες	συναδέλφισσες	συναδέλφισσα	NOUN	Case=Acc Gender=Fem Number=Plur	14	conj	συνάδελφος	NOUN	Case=Acc Gender=Masc Number=Plur	11
 <g/>
 ,	,	,	PUNCT		15	punct	εργαζόμενος	ADJ	Case=Acc Gender=Masc Number=Plur	17
 τους	τους	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Plur PronType=Art	16	det	εργαζόμενος	ADJ	Case=Acc Gender=Masc Number=Plur	17
@@ -111,7 +119,7 @@
 προς	προς	προς	ADP		20	case	σώμα	NOUN	Case=Acc Gender=Neut Number=Sing	22
 το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	21	det	σώμα	NOUN	Case=Acc Gender=Neut Number=Sing	22
 <name type="ORG">
-Σώμα	Σώμα	σώμα	NOUN	Case=Acc Gender=Neut Number=Sing	22	nmod	ανακοίνωση	NOUN	Case=Acc Gender=Fem Number=Plur	19
+Σώμα	Σώμα	σώμα	NOUN	Case=Acc Gender=Neut Number=Sing	22	obl	κάνω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 VerbForm=Fin Voice=Act	17
 <g/>
 </name>
 :	:	:	PUNCT		23	punct	θέλω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	15
@@ -143,17 +151,17 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg5" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg5.1">
-Α.	Α.	Α.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
+Α.	Α.	Α.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΠΙΚΑΙΡΕΣ	ΕΠΙΚΑΙΡΕΣ	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Plur	2	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΡΩΤΗΣΕΙΣ	ΕΡΩΤΗΣΕΙΣ	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3	root	-	-	-	-
 Πρώτου	Πρώτου	πρώτος	NUM	Case=Gen Gender=Masc Number=Sing NumType=Ord	4	amod	κύκλος	NOUN	Case=Gen Gender=Masc Number=Sing	5
 Κύκλου	Κύκλου	κύκλος	NOUN	Case=Gen Gender=Masc Number=Sing	5	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 (	(	(	PUNCT		6	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 <g/>
-Άρθρα	Άρθρα	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
+Άρθρα	Άρθρα	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7	appos	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 130	130	130	NUM	NumType=Card	8	nummod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Plur	9
 παράγραφοι	παράγραφοι	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Plur	9	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
-2	2	2	NUM	NumType=Card	10	nmod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Plur	9
+2	2	2	NUM	NumType=Card	10	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 και	και	και	CCONJ		11	cc	3	NUM	NumType=Card	12
 3	3	3	NUM	NumType=Card	12	conj	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 και	και	και	CCONJ		13	cc	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	15
@@ -163,39 +171,41 @@
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	17	det	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	18
 Κανονισμού	Κανονισμού	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	18	nmod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	15
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	20
+<name type="ORG">
 Βουλής	Βουλής	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	20	nmod	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	18
 <g/>
+</name>
 )	)	)	PUNCT		21	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 </s>
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg6" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg6.1">
-1.	1.	1.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 292/10-1-2022	292/10-1-2022	292/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Acc Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 Βουλευτή	Βουλευτή	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Α΄	Α΄	Α'	NUM	Case=Gen Gender=Masc Number=Sing NumType=Ord	10	amod	Αθήνα	PROPN	Case=Gen Gender=Fem Number=Plur	11
+Α΄	Α΄	Α'	NUM	Case=Gen Gender=Neut Number=Sing NumType=Ord	10	amod	Αθήνα	PROPN	Case=Gen Gender=Fem Number=Plur	11
 Αθηνών	Αθηνών	Αθήνα	PROPN	Case=Gen Gender=Fem Number=Plur	11	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	12	det	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	13
 <name type="ORG">
 Συνασπισμού	Συνασπισμού	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	13	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
-Ριζοσπαστικής	Ριζοσπαστικής	ριζοσπαστικός	ADJ	Case=Gen Gender=Fem Number=Sing	14	amod	Αριστερά	NOUN	Case=Gen Gender=Fem Number=Sing	15
-Αριστεράς	Αριστεράς	Αριστερά	NOUN	Case=Gen Gender=Fem Number=Sing	15	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	13
+Ριζοσπαστικής	Ριζοσπαστικής	ριζοσπαστικός	ADJ	Case=Gen Gender=Fem Number=Sing	14	amod	Αριστερά	PROPN	Case=Gen Gender=Fem Number=Sing	15
+Αριστεράς	Αριστεράς	Αριστερά	PROPN	Case=Gen Gender=Fem Number=Sing	15	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	13
 </name>
 κ.	κ.	κ.	NOUN	Abbr=Yes	16	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	13
 <name type="PER">
 Νικόλαου	Νικόλαου	Νικόλαος	PROPN	Case=Gen Gender=Masc Number=Sing	17	flat	κ.	NOUN	Abbr=Yes	16
-Φίλη	Φίλη	Φίλης	PROPN	Case=Acc Gender=Masc Number=Sing	18	flat	κ.	NOUN	Abbr=Yes	16
+Φίλη	Φίλη	Φίλης	PROPN	Case=Gen Gender=Masc Number=Sing	18	flat	κ.	NOUN	Abbr=Yes	16
 </name>
-προς	προς	προς	ADP		19	case	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	21
-την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	21
-Υπουργό	Υπουργό	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	21	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Παιδείας	Παιδείας	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	22	nmod	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	21
+προς	προς	προς	ADP		19	case	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	21
+την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	21
+Υπουργό	Υπουργό	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	21	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+Παιδείας	Παιδείας	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	22	nmod	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	21
 και	και	και	CCONJ		23	cc	θρήσκευμα	NOUN	Case=Gen Gender=Neut Number=Plur	24
 Θρησκευμάτων	Θρησκευμάτων	θρήσκευμα	NOUN	Case=Gen Gender=Neut Number=Plur	24	conj	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	22
 <g/>
@@ -216,17 +226,17 @@
 χωρίς	χωρίς	χωρίς	ADP		35	case	πλατφόρμα	NOUN	Case=Acc Gender=Fem Number=Sing	37
 «	«	«	PUNCT		36	punct	πλατφόρμα	NOUN	Case=Acc Gender=Fem Number=Sing	37
 <g/>
-πλατφόρμα	πλατφόρμα	πλατφόρμα	NOUN	Case=Acc Gender=Fem Number=Sing	37	nmod	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	33
+πλατφόρμα	πλατφόρμα	πλατφόρμα	NOUN	Case=Acc Gender=Fem Number=Sing	37	nmod	ευθύνη	NOUN	Case=Acc Gender=Fem Number=Sing	31
 <g/>
 »	»	»	PUNCT		38	punct	πλατφόρμα	NOUN	Case=Acc Gender=Fem Number=Sing	37
 τηλεκπαίδευσης	τηλεκπαίδευσης	τηλεκπαίδευση	NOUN	Case=Gen Gender=Fem Number=Sing	39	nmod	πλατφόρμα	NOUN	Case=Acc Gender=Fem Number=Sing	37
 τα	τα	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Plur PronType=Art	40	det	σχολείο	NOUN	Case=Acc Gender=Neut Number=Plur	41
-σχολεία	σχολεία	σχολείο	NOUN	Case=Acc Gender=Neut Number=Plur	41	nsubj	ευθύνη	NOUN	Case=Acc Gender=Fem Number=Sing	31
+σχολεία	σχολεία	σχολείο	NOUN	Case=Acc Gender=Neut Number=Plur	41	nmod	ευθύνη	NOUN	Case=Acc Gender=Fem Number=Sing	31
 <g/>
-,	,	,	PUNCT		42	punct	μέσω	ADP		44
-εν	εν	εν	ADP		43	case	μέσω	ADP		44
-μέσω	μέσω	μέσω	ADP		44	nmod	ευθύνη	NOUN	Case=Acc Gender=Fem Number=Sing	31
-πανδημίας	πανδημίας	πανδημία	NOUN	Case=Gen Gender=Fem Number=Sing	45	nmod	μέσω	ADP		44
+,	,	,	PUNCT		42	punct	πανδημία	NOUN	Case=Gen Gender=Fem Number=Sing	45
+εν	εν	εν	ADP		43	case	πανδημία	NOUN	Case=Gen Gender=Fem Number=Sing	45
+μέσω	μέσω	μέσω	ADP		44	case	πανδημία	NOUN	Case=Gen Gender=Fem Number=Sing	45
+πανδημίας	πανδημίας	πανδημία	NOUN	Case=Gen Gender=Fem Number=Sing	45	nmod	ευθύνη	NOUN	Case=Acc Gender=Fem Number=Sing	31
 <g/>
 »	»	»	PUNCT		46	punct	ευθύνη	NOUN	Case=Acc Gender=Fem Number=Sing	31
 <g/>
@@ -235,16 +245,16 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg7" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg7.1">
-2.	2.	2.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+2.	2.	2.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 284/10-1-2022	284/10-1-2022	284/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Acc Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 Βουλευτή	Βουλευτή	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Βοιωτίας	Βοιωτίας	Βοιωτία	PROPN	Case=Gen Gender=Masc Number=Sing	10	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
+Βοιωτίας	Βοιωτίας	Βοιωτία	PROPN	Case=Gen Gender=Fem Number=Sing	10	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	11	det	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	12
 <name type="ORG">
 Κινήματος	Κινήματος	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	12	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
@@ -265,7 +275,7 @@
 <g/>
 ,	,	,	PUNCT		24	punct	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	26
 με	με	με	ADP		25	case	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	26
-θέμα	θέμα	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	26	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+θέμα	θέμα	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	26	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 <g/>
 :	:	:	PUNCT		27	punct	μειώνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	31
 «	«	«	PUNCT		28	punct	μειώνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	31
@@ -295,29 +305,31 @@
 σχετικής	σχετικής	σχετικός	ADJ	Case=Gen Gender=Fem Number=Sing	7	amod	εγκύκλιος	NOUN	Case=Gen Gender=Fem Number=Sing	8
 εγκυκλίου	εγκυκλίου	εγκύκλιος	NOUN	Case=Gen Gender=Fem Number=Sing	8	nmod	απόσυρση	NOUN	Case=Nom Gender=Fem Number=Sing	5
 <g/>
-»	»	»	PUNCT		9	punct	λύση	NOUN	Case=Nom Gender=Fem Number=Sing	2
+»	»	»	PUNCT		9	punct	απόσυρση	NOUN	Case=Nom Gender=Fem Number=Sing	5
 <g/>
 .	.	.	PUNCT		10	punct	λύση	NOUN	Case=Nom Gender=Fem Number=Sing	2
 </s>
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg8" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg8.1">
-3.	3.	3.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+3.	3.	3.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
+Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 295/10-1-2022	295/10-1-2022	295/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Acc Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
-ΣΤ΄	ΣΤ΄	ΣΤ'	NOUN	Abbr=Yes	9	nmod	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
+ΣΤ΄	ΣΤ΄	ΣΤ'	NUM	Case=Gen Gender=Masc Number=Sing NumType=Ord	9	amod	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
 Αντιπροέδρου	Αντιπροέδρου	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	12
 <name type="ORG">
 Βουλής	Βουλής	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	12	nmod	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
+</name>
 και	και	και	CCONJ		13	cc	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	14
 Βουλευτή	Βουλευτή	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	14	conj	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
-Λαρίσης	Λαρίσης	Λαρίσης	PROPN	Case=Gen Gender=Fem Number=Sing	15	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	14
+<name type="LOC">
+Λαρίσης	Λαρίσης	Λαρίσης	PROPN	Case=Gen Gender=Fem Number=Sing	15	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	14
 </name>
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	16	det	κόμμα	NOUN	Case=Gen Gender=Neut Number=Sing	18
 <name type="ORG">
@@ -330,15 +342,13 @@
 Γεωργίου	Γεωργίου	Γεώργιος	PROPN	Case=Gen Gender=Masc Number=Sing	21	flat	κ.	NOUN	Abbr=Yes	20
 Λαμπρούλη	Λαμπρούλη	Λαμπρούλης	PROPN	Case=Gen Gender=Masc Number=Sing	22	flat	κ.	NOUN	Abbr=Yes	20
 </name>
-προς	προς	προς	ADP		23	case	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	25
-την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	24	det	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	25
-<name type="ORG">
-Υπουργό	Υπουργό	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	25	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Παιδείας	Παιδείας	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	26	nmod	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	25
+προς	προς	προς	ADP		23	case	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	25
+την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	24	det	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	25
+Υπουργό	Υπουργό	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	25	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+Παιδείας	Παιδείας	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	26	nmod	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	25
 και	και	και	CCONJ		27	cc	θρήσκευμα	NOUN	Case=Gen Gender=Neut Number=Plur	28
 Θρησκευμάτων	Θρησκευμάτων	θρήσκευμα	NOUN	Case=Gen Gender=Neut Number=Plur	28	conj	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	26
 <g/>
-</name>
 ,	,	,	PUNCT		29	punct	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	31
 με	με	με	ADP		30	case	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	31
 θέμα	θέμα	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	31	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -346,7 +356,7 @@
 :	:	:	PUNCT		32	punct	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	35
 «	«	«	PUNCT		33	punct	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	35
 <g/>
-Άμεση	Άμεση	άμεσος	ADJ	Case=Acc Gender=Fem Number=Sing	34	amod	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	35
+Άμεση	Άμεση	άμεσος	ADJ	Case=Nom Gender=Fem Number=Sing	34	amod	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	35
 κάλυψη	κάλυψη	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	35	acl	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	31
 των	των	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Plur PronType=Art	36	det	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Plur	37
 αναγκών	αναγκών	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Plur	37	nmod	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	35
@@ -361,17 +371,17 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg9" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg9.1">
-Β.	Β.	Β.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
+Β.	Β.	Β.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΠΙΚΑΙΡΕΣ	ΕΠΙΚΑΙΡΕΣ	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Plur	2	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΡΩΤΗΣΕΙΣ	ΕΡΩΤΗΣΕΙΣ	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3	root	-	-	-	-
 Δεύτερου	Δεύτερου	δεύτερος	NUM	Case=Gen Gender=Masc Number=Sing NumType=Ord	4	amod	κύκλος	NOUN	Case=Gen Gender=Masc Number=Sing	5
 Κύκλου	Κύκλου	κύκλος	NOUN	Case=Gen Gender=Masc Number=Sing	5	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 (	(	(	PUNCT		6	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 <g/>
-Άρθρα	Άρθρα	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
+Άρθρα	Άρθρα	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7	appos	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 130	130	130	NUM	NumType=Card	8	nummod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Plur	9
 παράγραφοι	παράγραφοι	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Plur	9	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
-2	2	2	NUM	NumType=Card	10	nmod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Plur	9
+2	2	2	NUM	NumType=Card	10	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 και	και	και	CCONJ		11	cc	3	NUM	NumType=Card	12
 3	3	3	NUM	NumType=Card	12	conj	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 και	και	και	CCONJ		13	cc	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	15
@@ -381,14 +391,16 @@
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	17	det	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	18
 Κανονισμού	Κανονισμού	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	18	nmod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	15
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	20
+<name type="ORG">
 Βουλής	Βουλής	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	20	nmod	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	18
 <g/>
+</name>
 )	)	)	PUNCT		21	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 </s>
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg10" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg10.1">
-1.	1.	1.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -401,8 +413,8 @@
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
 <name type="ORG">
 Συνασπισμού	Συνασπισμού	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
-Ριζοσπαστικής	Ριζοσπαστικής	ριζοσπαστικός	ADJ	Case=Gen Gender=Fem Number=Sing	13	amod	Αριστερά	NOUN	Case=Gen Gender=Fem Number=Sing	14
-Αριστεράς	Αριστεράς	Αριστερά	NOUN	Case=Gen Gender=Fem Number=Sing	14	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
+Ριζοσπαστικής	Ριζοσπαστικής	ριζοσπαστικός	ADJ	Case=Gen Gender=Fem Number=Sing	13	amod	Αριστερά	PROPN	Case=Gen Gender=Fem Number=Sing	14
+Αριστεράς	Αριστεράς	Αριστερά	PROPN	Case=Gen Gender=Fem Number=Sing	14	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
 </name>
 κ.	κ.	κ.	NOUN	Abbr=Yes	15	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
 <name type="PER">
@@ -421,20 +433,20 @@
 :	:	:	PUNCT		26	punct	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29
 «	«	«	PUNCT		27	punct	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29
 <g/>
-Άμεση	Άμεση	άμεσος	ADJ	Case=Acc Gender=Fem Number=Sing	28	amod	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29
-επαναφορά	επαναφορά	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29	acl	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	25
+Άμεση	Άμεση	άμεσος	ADJ	Case=Nom Gender=Fem Number=Sing	28	amod	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29
+επαναφορά	επαναφορά	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29	appos	θέμα	NOUN	Case=Acc Gender=Neut Number=Sing	25
 σε	σε	σε	ADP		30	case	ισχύς	NOUN	Case=Acc Gender=Fem Number=Sing	31
 ισχύ	ισχύ	ισχύς	NOUN	Case=Acc Gender=Fem Number=Sing	31	nmod	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	32	det	ΚΥΑ	NOUN	Abbr=Yes	33
 ΚΥΑ	ΚΥΑ	ΚΥΑ	NOUN	Abbr=Yes	33	nmod	ισχύς	NOUN	Case=Acc Gender=Fem Number=Sing	31
 (	(	(	PUNCT		34	punct	ΦΕΚ	NOUN	Abbr=Yes	35
 <g/>
-ΦΕΚ	ΦΕΚ	ΦΕΚ	NOUN	Abbr=Yes	35	appos	επαναφορά	NOUN	Case=Nom Gender=Fem Number=Sing	29
-Β΄	Β΄	Β'	NUM	Case=Nom Gender=Neut Number=Sing NumType=Ord	36	amod	ΦΕΚ	NOUN	Abbr=Yes	35
+ΦΕΚ	ΦΕΚ	ΦΕΚ	NOUN	Abbr=Yes	35	appos	ισχύς	NOUN	Case=Acc Gender=Fem Number=Sing	31
+Β΄	Β΄	Β'	NUM	Case=Nom Gender=Neut Number=Sing NumType=Ord	36	flat	ΦΕΚ	NOUN	Abbr=Yes	35
 <g/>
-5138	5138	5138	NUM	NumType=Card	37	nmod	ΦΕΚ	NOUN	Abbr=Yes	35
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	38	det	12-11-2021	NUM	NumType=Card	39
-12-11-2021	12-11-2021	12-11-2021	NUM	NumType=Card	39	nmod	ΦΕΚ	NOUN	Abbr=Yes	35
+5138	5138	5138	NUM	NumType=Card	37	list	ΦΕΚ	NOUN	Abbr=Yes	35
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	38	det	12-11-2021	NOUN		39
+12-11-2021	12-11-2021	12-11-2021	NOUN		39	nmod	ΦΕΚ	NOUN	Abbr=Yes	35
 <g/>
 )	)	)	PUNCT		40	punct	ΦΕΚ	NOUN	Abbr=Yes	35
 για	για	για	ADP		41	case	πώληση	NOUN	Case=Acc Gender=Fem Number=Sing	43
@@ -452,10 +464,10 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg11" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg11.1">
-2.	2.	2.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+2.	2.	2.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 297/10-1-2022	297/10-1-2022	297/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
@@ -467,10 +479,10 @@
 Κινήματος	Κινήματος	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	12	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 Αλλαγής	Αλλαγής	αλλαγή	NOUN	Case=Gen Gender=Fem Number=Sing	13	nmod	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	12
 </name>
-κ.	κ.	κ.	NOUN	Abbr=Yes	14	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
+κ.	κ.	κ.	NOUN	Abbr=Yes	14	nmod	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	12
 <name type="PER">
-Βασίλειου	Βασίλειου	Βασίλειο	PROPN	Case=Gen Gender=Masc Number=Sing	15	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
-Κεγκέρογλου	Κεγκέρογλου	Κεγκέρογλου	PROPN	Case=Gen Gender=Masc Number=Sing	16	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
+Βασίλειου	Βασίλειου	Βασίλειος	PROPN	Case=Gen Gender=Masc Number=Sing	15	flat	κ.	NOUN	Abbr=Yes	14
+Κεγκέρογλου	Κεγκέρογλου	Κεγκέρογλου	PROPN	Case=Gen Gender=Masc Number=Sing	16	flat	κ.	NOUN	Abbr=Yes	14
 </name>
 προς	προς	προς	ADP		17	case	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	19
 τον	τον	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Sing PronType=Art	18	det	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	19
@@ -496,7 +508,9 @@
 Ανάκαμψης	Ανάκαμψης	ανάκαμψη	NOUN	Case=Gen Gender=Fem Number=Sing	34	nmod	ταμείο	NOUN	Case=Gen Gender=Neut Number=Sing	33
 <g/>
 ,	,	,	PUNCT		35	punct	ΕΣΠΑ	NOUN	Abbr=Yes	36
+<name type="ORG">
 ΕΣΠΑ	ΕΣΠΑ	ΕΣΠΑ	NOUN	Abbr=Yes	36	conj	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	31
+</name>
 κ.λπ.	κ.λπ.	κ.λπ.	NOUN	Abbr=Yes	37	flat	ΕΣΠΑ	NOUN	Abbr=Yes	36
 για	για	για	ADP		38	case	παραμονή	NOUN	Case=Acc Gender=Fem Number=Sing	39
 παραμονή	παραμονή	παραμονή	NOUN	Case=Acc Gender=Fem Number=Sing	39	nmod	κίνητρο	NOUN	Case=Nom Gender=Neut Number=Plur	28
@@ -504,11 +518,11 @@
 επιχειρήσεων	επιχειρήσεων	επιχείρηση	NOUN	Case=Gen Gender=Fem Number=Plur	41	nmod	παραμονή	NOUN	Case=Acc Gender=Fem Number=Sing	39
 στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	43|44	case|det	περιοχή	NOUN	Case=Acc Gender=Fem Number=Plur	46
 σεισμόπληκτες	σεισμόπληκτες	σεισμόπληκτος	ADJ	Case=Acc Gender=Fem Number=Plur	45	amod	περιοχή	NOUN	Case=Acc Gender=Fem Number=Plur	46
-περιοχές	περιοχές	περιοχή	NOUN	Case=Acc Gender=Fem Number=Plur	46	nmod	επιχείρηση	NOUN	Case=Gen Gender=Fem Number=Plur	41
+περιοχές	περιοχές	περιοχή	NOUN	Case=Acc Gender=Fem Number=Plur	46	nmod	παραμονή	NOUN	Case=Acc Gender=Fem Number=Sing	39
 αλλά	αλλά	αλλά	CCONJ		47	cc	εγκατάσταση	NOUN	Case=Acc Gender=Fem Number=Sing	50
 και	και	και	CCONJ		48	cc	εγκατάσταση	NOUN	Case=Acc Gender=Fem Number=Sing	50
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	49	det	εγκατάσταση	NOUN	Case=Acc Gender=Fem Number=Sing	50
-εγκατάσταση	εγκατάσταση	εγκατάσταση	NOUN	Case=Acc Gender=Fem Number=Sing	50	conj	παραμονή	NOUN	Case=Acc Gender=Fem Number=Sing	39
+εγκατάσταση	εγκατάσταση	εγκατάσταση	NOUN	Case=Acc Gender=Fem Number=Sing	50	conj	περιοχή	NOUN	Case=Acc Gender=Fem Number=Plur	46
 νέων	νέων	νέος	ADJ	Case=Gen Gender=Fem Number=Plur	51	amod	εγκατάσταση	NOUN	Case=Acc Gender=Fem Number=Sing	50
 <g/>
 »	»	»	PUNCT		52	punct	κίνητρο	NOUN	Case=Nom Gender=Neut Number=Plur	28
@@ -518,31 +532,31 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg12" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg12.1">
-3.	3.	3.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+3.	3.	3.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
+Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 298/10-1-2022	298/10-1-2022	298/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 Βουλευτή	Βουλευτή	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Αρκαδίας	Αρκαδίας	Αρκαδία	PROPN	Case=Gen Gender=Masc Number=Sing	10	flat	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
+Αρκαδίας	Αρκαδίας	Αρκαδία	PROPN	Case=Gen Gender=Fem Number=Sing	10	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	11	det	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
 <name type="ORG">
 Συνασπισμού	Συνασπισμού	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
-Ριζοσπαστικής	Ριζοσπαστικής	ριζοσπαστικός	ADJ	Case=Gen Gender=Fem Number=Sing	13	amod	Αριστερά	NOUN	Case=Gen Gender=Fem Number=Sing	14
-Αριστεράς	Αριστεράς	Αριστερά	NOUN	Case=Gen Gender=Fem Number=Sing	14	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
+Ριζοσπαστικής	Ριζοσπαστικής	ριζοσπαστικός	ADJ	Case=Gen Gender=Fem Number=Sing	13	amod	Αριστερά	PROPN	Case=Gen Gender=Fem Number=Sing	14
+Αριστεράς	Αριστεράς	Αριστερά	PROPN	Case=Gen Gender=Fem Number=Sing	14	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
 </name>
 κ.	κ.	κ.	NOUN	Abbr=Yes	15	nmod	συνασπισμός	NOUN	Case=Gen Gender=Masc Number=Sing	12
 <name type="PER">
 Γεωργίου	Γεωργίου	Γεώργιος	PROPN	Case=Gen Gender=Masc Number=Sing	16	flat	κ.	NOUN	Abbr=Yes	15
-Παπαηλιού	Παπαηλιού	Παπαηλιός	PROPN	Case=Gen Gender=Masc Number=Sing	17	flat	κ.	NOUN	Abbr=Yes	15
+Παπαηλιού	Παπαηλιού	Παπαηλιού	PROPN	Case=Gen Gender=Masc Number=Sing	17	flat	κ.	NOUN	Abbr=Yes	15
 </name>
-προς	προς	προς	ADP		18	case	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	20
-την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	20
-Υπουργό	Υπουργό	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	20	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
-Παιδείας	Παιδείας	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	21	nmod	υπουργός	NOUN	Case=Acc Gender=Fem Number=Sing	20
+προς	προς	προς	ADP		18	case	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	20
+την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	19	det	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	20
+Υπουργό	Υπουργό	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	20	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+Παιδείας	Παιδείας	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	21	nmod	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	20
 και	και	και	CCONJ		22	cc	θρήσκευμα	NOUN	Case=Gen Gender=Neut Number=Plur	23
 Θρησκευμάτων	Θρησκευμάτων	θρήσκευμα	NOUN	Case=Gen Gender=Neut Number=Plur	23	conj	παιδεία	NOUN	Case=Gen Gender=Fem Number=Sing	21
 <g/>
@@ -558,7 +572,7 @@
 κενών	κενών	κενό	NOUN	Case=Gen Gender=Neut Number=Plur	31	nmod	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	29
 ενόψει	ενόψει	ενόψει	ADP		32	case	εξέταση	NOUN	Case=Gen Gender=Fem Number=Plur	34
 πανελλαδικών	πανελλαδικών	πανελλαδικός	ADJ	Case=Gen Gender=Fem Number=Plur	33	amod	εξέταση	NOUN	Case=Gen Gender=Fem Number=Plur	34
-εξετάσεων	εξετάσεων	εξέταση	NOUN	Case=Gen Gender=Fem Number=Plur	34	nmod	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	29
+εξετάσεων	εξετάσεων	εξέταση	NOUN	Case=Gen Gender=Fem Number=Plur	34	nmod	κενό	NOUN	Case=Gen Gender=Neut Number=Plur	31
 <g/>
 »	»	»	PUNCT		35	punct	κάλυψη	NOUN	Case=Nom Gender=Fem Number=Sing	29
 <g/>
@@ -567,7 +581,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg13" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg13.1">
-4.	4.	4.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+4.	4.	4.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -586,13 +600,13 @@
 </name>
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	16	det	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	17
 <name type="ORG">
-Κινήματος	Κινήματος	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	17	nmod	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	14
+Κινήματος	Κινήματος	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	17	nmod	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
 Αλλαγής	Αλλαγής	αλλαγή	NOUN	Case=Gen Gender=Fem Number=Sing	18	nmod	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	17
 </name>
-κ.	κ.	κ.	NOUN	Abbr=Yes	19	flat	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
+κ.	κ.	κ.	NOUN	Abbr=Yes	19	nmod	κίνημα	NOUN	Case=Gen Gender=Neut Number=Sing	17
 <name type="PER">
-Οδυσσέα	Οδυσσέα	Οδυσσέας	PROPN	Case=Acc Gender=Masc Number=Sing	20	flat	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
-Κωνσταντινόπουλου	Κωνσταντινόπουλου	Κωνσταντινόπουλος	PROPN	Case=Acc Gender=Masc Number=Sing	21	flat	αντιπρόεδρος	NOUN	Case=Gen Gender=Masc Number=Sing	10
+Οδυσσέα	Οδυσσέα	Οδυσσέας	PROPN	Case=Gen Gender=Masc Number=Sing	20	flat	κ.	NOUN	Abbr=Yes	19
+Κωνσταντινόπουλου	Κωνσταντινόπουλου	Κωνσταντινόπουλος	PROPN	Case=Gen Gender=Masc Number=Sing	21	flat	κ.	NOUN	Abbr=Yes	19
 </name>
 προς	προς	προς	ADP		22	case	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	24
 τον	τον	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	υπουργός	NOUN	Case=Acc Gender=Masc Number=Sing	24
@@ -613,7 +627,7 @@
 εγκεκριμένων	εγκεκριμένων	εγκεκριμένος	VERB	Aspect=Perf Case=Gen Gender=Fem Number=Plur VerbForm=Part Voice=Pass	36	amod	επένδυση	NOUN	Case=Gen Gender=Fem Number=Plur	37
 επενδύσεων	επενδύσεων	επένδυση	NOUN	Case=Gen Gender=Fem Number=Plur	37	nmod	υλοποίηση	NOUN	Case=Gen Gender=Fem Number=Sing	35
 που	που	που	PRON	Case=Acc Gender=Fem Number=Plur Person=3 PronType=Rel	38	obj	αντιμετωπίζω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39
-αντιμετωπίζουν	αντιμετωπίζουν	αντιμετωπίζω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39	acl:relcl	αδιέξοδο	NOUN	Case=Nom Gender=Neut Number=Sing	34
+αντιμετωπίζουν	αντιμετωπίζουν	αντιμετωπίζω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39	acl:relcl	επένδυση	NOUN	Case=Gen Gender=Fem Number=Plur	37
 οι	οι	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Plur PronType=Art	40	det	επιχείρηση	NOUN	Case=Nom Gender=Fem Number=Plur	42
 μικρομεσαίες	μικρομεσαίες	μικρομεσαίος	ADJ	Case=Nom Gender=Fem Number=Plur	41	amod	επιχείρηση	NOUN	Case=Nom Gender=Fem Number=Plur	42
 επιχειρήσεις	επιχειρήσεις	επιχείρηση	NOUN	Case=Nom Gender=Fem Number=Plur	42	nsubj	αντιμετωπίζω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39
@@ -637,7 +651,7 @@
 από	από	από	ADP		60	case	ανατίμηση	NOUN	Case=Acc Gender=Fem Number=Plur	63
 τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	61	det	ανατίμηση	NOUN	Case=Acc Gender=Fem Number=Plur	63
 σοβαρές	σοβαρές	σοβαρός	ADJ	Case=Acc Gender=Fem Number=Plur	62	amod	ανατίμηση	NOUN	Case=Acc Gender=Fem Number=Plur	63
-ανατιμήσεις	ανατιμήσεις	ανατίμηση	NOUN	Case=Acc Gender=Fem Number=Plur	63	nmod	κόστος	NOUN	Case=Gen Gender=Neut Number=Sing	57
+ανατιμήσεις	ανατιμήσεις	ανατίμηση	NOUN	Case=Acc Gender=Fem Number=Plur	63	nmod	αύξηση	NOUN	Case=Acc Gender=Fem Number=Sing	55
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	64	det	εξοπλισμός	NOUN	Case=Gen Gender=Masc Number=Sing	65
 εξοπλισμού	εξοπλισμού	εξοπλισμός	NOUN	Case=Gen Gender=Masc Number=Sing	65	nmod	ανατίμηση	NOUN	Case=Acc Gender=Fem Number=Plur	63
 και	και	και	CCONJ		66	cc	ύλη	NOUN	Case=Gen Gender=Fem Number=Plur	69
@@ -652,10 +666,10 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg14" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg14.1">
-5.	5.	5.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+5.	5.	5.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 299/10-1-2022	299/10-1-2022	299/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
@@ -721,12 +735,12 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg15" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg15.1">
-6.	6.	6.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+6.	6.	6.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	obl	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 303/10-1-2022	303/10-1-2022	303/10-1-2022	NUM	NumType=Card	5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
-επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Acc Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
+επίκαιρη	επίκαιρη	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Sing	6	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7	root	-	-	-	-
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	8	det	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9
 Βουλευτή	Βουλευτή	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	9	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -778,13 +792,13 @@
 )	)	)	PUNCT		40	punct	Ε.Δ	NOUN	Abbr=Yes	39
 και	και	και	CCONJ		41	cc	σώμα	NOUN	Case=Gen Gender=Neut Number=Plur	42
 <name type="ORG">
-Σωμάτων	Σωμάτων	σώμα	NOUN	Case=Gen Gender=Neut Number=Plur	42	conj	απόστρατος	NOUN	Case=Acc Gender=Masc Number=Plur	35
+Σωμάτων	Σωμάτων	σώμα	NOUN	Case=Gen Gender=Neut Number=Plur	42	conj	δύναμη	NOUN	Case=Gen Gender=Fem Number=Plur	37
 Ασφαλείας	Ασφαλείας	ασφάλεια	NOUN	Case=Gen Gender=Fem Number=Sing	43	nmod	σώμα	NOUN	Case=Gen Gender=Neut Number=Plur	42
 </name>
 (	(	(	PUNCT		44	punct	Σ.Α	NOUN	Abbr=Yes	45
 <g/>
 <name type="ORG">
-Σ.Α	Σ.Α	Σ.Α	NOUN	Abbr=Yes	45	nmod	σώμα	NOUN	Case=Gen Gender=Neut Number=Plur	42
+Σ.Α	Σ.Α	Σ.Α	NOUN	Abbr=Yes	45	appos	σώμα	NOUN	Case=Gen Gender=Neut Number=Plur	42
 <g/>
 </name>
 )	)	)	PUNCT		46	punct	Σ.Α	NOUN	Abbr=Yes	45
@@ -798,28 +812,30 @@
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg16.1">
 ΑΝΑΦΟΡΕΣ	ΑΝΑΦΟΡΕΣ	αναφορά	NOUN	Case=Nom Gender=Fem Number=Plur	1	root	-	-	-	-
 -	-	-	PUNCT		2	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
-ΕΡΩΤΗΣΕΙΣ	ΕΡΩΤΗΣΕΙΣ	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3	parataxis	αναφορά	NOUN	Case=Nom Gender=Fem Number=Plur	1
+ΕΡΩΤΗΣΕΙΣ	ΕΡΩΤΗΣΕΙΣ	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3	conj	αναφορά	NOUN	Case=Nom Gender=Fem Number=Plur	1
 (	(	(	PUNCT		4	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5
 <g/>
-Άρθρο	Άρθρο	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
+Άρθρο	Άρθρο	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5	nmod	αναφορά	NOUN	Case=Nom Gender=Fem Number=Plur	1
 130	130	130	NUM	NumType=Card	6	nummod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	7
 παράγραφος	παράγραφος	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	7	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5
-5	5	5	NUM	NumType=Card	8	nmod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	7
+5	5	5	NUM	NumType=Card	8	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	10
-Κανονισμού	Κανονισμού	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	παράγραφος	NOUN	Case=Nom Gender=Fem Number=Sing	7
+Κανονισμού	Κανονισμού	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	10	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	11	det	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	12
+<name type="ORG">
 Βουλής	Βουλής	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	12	nmod	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	10
 <g/>
+</name>
 )	)	)	PUNCT		13	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5
 </s>
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg17" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg17.1">
-1.	1.	1.	NOUN		1	discourse	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6
+1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6
 με	με	με	ADP		3	case	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 αριθμό	αριθμό	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6
-231/11-10-2021	231/11-10-2021	231/11-10-2021	NUM	NumType=Card	5	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6
+231/11-10-2021	231/11-10-2021	231/11-10-2021	NOUN		5	nmod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 ερώτηση	ερώτηση	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6	root	-	-	-	-
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	7	det	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	8
 Βουλευτή	Βουλευτή	βουλευτής	NOUN	Case=Gen Gender=Masc Number=Sing	8	nmod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6
@@ -857,9 +873,9 @@
 που	που	που	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Rel	33	nsubj	προβλέπω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	34
 προβλέπει	προβλέπει	προβλέπω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	34	acl:relcl	διάταξη	NOUN	Case=Nom Gender=Fem Number=Sing	32
 ότι	ότι	ότι	SCONJ		35	mark	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39
-δικαίωμα	δικαίωμα	δικαίωμα	NOUN	Case=Nom Gender=Neut Number=Sing	36	obj	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39
+δικαίωμα	δικαίωμα	δικαίωμα	NOUN	Case=Acc Gender=Neut Number=Sing	36	obj	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39
 κρατικής	κρατικής	κρατικός	ADJ	Case=Gen Gender=Fem Number=Sing	37	amod	συνδρομή	NOUN	Case=Gen Gender=Fem Number=Sing	38
-συνδρομής	συνδρομής	συνδρομή	NOUN	Case=Gen Gender=Fem Number=Sing	38	nmod	δικαίωμα	NOUN	Case=Nom Gender=Neut Number=Sing	36
+συνδρομής	συνδρομής	συνδρομή	NOUN	Case=Gen Gender=Fem Number=Sing	38	nmod	δικαίωμα	NOUN	Case=Acc Gender=Neut Number=Sing	36
 έχουν	έχουν	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39	ccomp	προβλέπω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	34
 οι	οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	40	det	ιδιοκτήτης	NOUN	Case=Nom Gender=Masc Number=Plur	42
 σεισμόπληκτοι	σεισμόπληκτοι	σεισμόπληκτος	ADJ	Case=Nom Gender=Masc Number=Plur	41	amod	ιδιοκτήτης	NOUN	Case=Nom Gender=Masc Number=Plur	42
@@ -871,8 +887,8 @@
 μόνο	μόνο	μόνο	ADV		46	advmod	ένας	NUM	Case=Acc Gender=Neut Number=Sing NumType=Card	48
 για	για	για	ADP		47	case	ένας	NUM	Case=Acc Gender=Neut Number=Sing NumType=Card	48
 ένα	ένα	ένας	NUM	Case=Acc Gender=Neut Number=Sing NumType=Card	48	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	39
-απ'	απ'	από	ADP		49	case	αυτός	DET	Case=Acc Gender=Neut Number=Plur Person=3 PronType=Dem	50
-αυτά	αυτά	αυτός	DET	Case=Acc Gender=Neut Number=Plur Person=3 PronType=Dem	50	det	ένας	NUM	Case=Acc Gender=Neut Number=Sing NumType=Card	48
+απ'	απ'	από	ADP		49	case	αυτός	PRON	Case=Acc Gender=Neut Number=Plur Person=3 PronType=Dem	50
+αυτά	αυτά	αυτός	PRON	Case=Acc Gender=Neut Number=Plur Person=3 PronType=Dem	50	nmod	ένας	NUM	Case=Acc Gender=Neut Number=Sing NumType=Card	48
 <g/>
 »	»	»	PUNCT		51	punct	διορθώνω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	28
 <g/>
@@ -930,28 +946,24 @@
 <g/>
 ,	,	,	PUNCT		37	punct	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	38
 Ναυτιλίας	Ναυτιλίας	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	38	conj	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	5
-και	και	και	CCONJ		39	cc	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	41
-Νησιωτικής	Νησιωτικής	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	40	amod	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	41
-Πολιτικής	Πολιτικής	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	41	conj	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	5
+και	και	και	CCONJ		39	cc	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	41
+Νησιωτικής	Νησιωτικής	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	40	amod	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	5
+Πολιτικής	Πολιτικής	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	41	conj	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	40
 <g/>
 ,	,	,	PUNCT		42	punct	ανάπτυξη	NOUN	Case=Gen Gender=Fem Number=Sing	44
-<name type="ORG">
 Αγροτικής	Αγροτικής	αγροτικός	ADJ	Case=Gen Gender=Fem Number=Sing	43	amod	ανάπτυξη	NOUN	Case=Gen Gender=Fem Number=Sing	44
 Ανάπτυξης	Ανάπτυξης	ανάπτυξη	NOUN	Case=Gen Gender=Fem Number=Sing	44	conj	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	5
 και	και	και	CCONJ		45	cc	τρόφιμα	NOUN	Case=Gen Gender=Neut Number=Plur	46
 Τροφίμων	Τροφίμων	τρόφιμα	NOUN	Case=Gen Gender=Neut Number=Plur	46	conj	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	5
 <g/>
-</name>
 ,	,	,	PUNCT		47	punct	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	50
 οι	οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	48	det	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	50
-<name type="ORG">
 Αναπληρωτές	Αναπληρωτές	αναπληρωτής	NOUN	Case=Nom Gender=Masc Number=Plur	49	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	50
 Υπουργοί	Υπουργοί	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	50	conj	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	4
 Οικονομικών	Οικονομικών	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	51	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	50
 και	και	και	CCONJ		52	cc	εσωτερικά	NOUN	Case=Gen Gender=Neut Number=Plur	53
 Εσωτερικών	Εσωτερικών	εσωτερικά	NOUN	Case=Gen Gender=Neut Number=Plur	53	conj	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	51
 <g/>
-</name>
 ,	,	,	PUNCT		54	punct	υφυπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	58
 καθώς	καθώς	καθώς	ADV		55	advmod	υφυπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	58
 και	και	και	CCONJ		56	cc	υφυπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	58
@@ -998,18 +1010,18 @@
 αποφυγή	αποφυγή	αποφυγή	NOUN	Case=Acc Gender=Fem Number=Sing	90	conj	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	84
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	91	det	φοροδιαφυγή	NOUN	Case=Gen Gender=Fem Number=Sing	92
 φοροδιαφυγής	φοροδιαφυγής	φοροδιαφυγή	NOUN	Case=Gen Gender=Fem Number=Sing	92	nmod	αποφυγή	NOUN	Case=Acc Gender=Fem Number=Sing	90
-αναφορικά	αναφορικά	αναφορικά	ADV		93	advmod	φοροδιαφυγή	NOUN	Case=Gen Gender=Fem Number=Sing	92
+αναφορικά	αναφορικά	αναφορικά	ADV		93	advmod	αποφυγή	NOUN	Case=Acc Gender=Fem Number=Sing	90
 με	με	με	ADP		94	case	φόρος	NOUN	Case=Acc Gender=Masc Number=Plur	95
 φόρους	φόρους	φόρος	NOUN	Case=Acc Gender=Masc Number=Plur	95	obl	αναφορικά	ADV		93
 εισοδήματος	εισοδήματος	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	96	nmod	φόρος	NOUN	Case=Acc Gender=Masc Number=Plur	95
 και	και	και	CCONJ		97	cc	κεφάλαιο	NOUN	Case=Gen Gender=Neut Number=Sing	98
 κεφαλαίου	κεφαλαίου	κεφάλαιο	NOUN	Case=Gen Gender=Neut Number=Sing	98	conj	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	96
-και	και	και	CCONJ		99	cc	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	101
-του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	100	det	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	101
-συνημμένου	συνημμένου	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	101	conj	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	96
-σε	σε	σε	ADP		102	case	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	104
-αυτήν	αυτήν	αυτός	DET	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	103	det	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	104
-Πρωτοκόλλου	Πρωτοκόλλου	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	104	nmod	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	101
+και	και	και	CCONJ		99	cc	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	101
+του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	100	det	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	101
+συνημμένου	συνημμένου	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	101	conj	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	96
+σε	σε	σε	ADP		102	case	αυτός	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	103
+αυτήν	αυτήν	αυτός	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	103	obl	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	101
+Πρωτοκόλλου	Πρωτοκόλλου	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	104	nmod	αυτός	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	103
 <g/>
 »	»	»	PUNCT		105	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	70
 <g/>
@@ -1044,9 +1056,9 @@
 Υπουργός	Υπουργός	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	20	conj	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
 Οικονομικών	Οικονομικών	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	21	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	20
 κατέθεσαν	κατέθεσαν	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22	root	-	-	-	-
-στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	24|25	case|det	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	27
-5-1-2022	5-1-2022	5-1-2022	NUM	NumType=Card	26	nummod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	27
-σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	27	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22
+στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	24|25	case|det	5-1-2022	NOUN	|	26
+5-1-2022	5-1-2022	5-1-2022	NOUN		26	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22
+σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	27	obj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22
 νόμου	νόμου	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	28	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	27
 <g/>
 :	:	:	PUNCT		29	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	31
@@ -1067,7 +1079,7 @@
 Συμπαραγωγές	Συμπαραγωγές	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	41	nmod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	33
 (	(	(	PUNCT		42	punct	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	43
 <g/>
-Αναθεωρημένη	Αναθεωρημένη	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	43	amod	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	41
+Αναθεωρημένη	Αναθεωρημένη	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	43	appos	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	31
 <g/>
 )	)	)	PUNCT		44	punct	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	43
 <g/>
@@ -1098,9 +1110,9 @@
 Υπουργός	Υπουργός	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	15	conj	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
 Οικονομικών	Οικονομικών	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	16	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	15
 κατέθεσαν	κατέθεσαν	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	17	root	-	-	-	-
-στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	19|20	case|det	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	22
-5-1-2022	5-1-2022	5-1-2022	NUM	NumType=Card	21	nummod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	22
-σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	22	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	17
+στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	19|20	case|det	5-1-2022	NOUN	|	21
+5-1-2022	5-1-2022	5-1-2022	NOUN		21	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	17
+σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	22	obj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	17
 νόμου	νόμου	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	23	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	22
 <g/>
 :	:	:	PUNCT		24	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	26
@@ -1130,10 +1142,10 @@
 Διοίκησης	Διοίκησης	διοίκηση	NOUN	Case=Gen Gender=Fem Number=Sing	42	conj	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	32
 Τύπου	Τύπου	τύπος	NOUN	Case=Gen Gender=Masc Number=Sing	43	nmod	διοίκηση	NOUN	Case=Gen Gender=Fem Number=Sing	42
 <g/>
+</name>
 ,	,	,	PUNCT		44	punct	έκδοση	NOUN	Case=Gen Gender=Fem Number=Plur	45
 Εκδόσεων	Εκδόσεων	έκδοση	NOUN	Case=Gen Gender=Fem Number=Plur	45	conj	τύπος	NOUN	Case=Gen Gender=Masc Number=Sing	43
 <g/>
-</name>
 ,	,	,	PUNCT		46	punct	ραδιόφωνο	NOUN	Case=Gen Gender=Neut Number=Sing	47
 Ραδιοφώνου	Ραδιοφώνου	ραδιόφωνο	NOUN	Case=Gen Gender=Neut Number=Sing	47	conj	τύπος	NOUN	Case=Gen Gender=Masc Number=Sing	43
 <g/>
@@ -1152,15 +1164,15 @@
 <name type="LOC">
 Κίνας	Κίνας	Κίνα	PROPN	Case=Gen Gender=Fem Number=Sing	56	nmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	54
 </name>
-σχετικά	σχετικά	σχετικά	ADV		57	advmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	54
-με	με	με	ADP		58	case	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	62
-το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	59	det	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	62
+σχετικά	σχετικά	σχετικά	ADV		57	advmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	26
+με	με	με	ADP		58	case	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	62
+το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	59	det	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	62
 <g/>
 :	:	:	PUNCT		60	punct	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	59
-«	«	«	PUNCT		61	punct	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	62
+«	«	«	PUNCT		61	punct	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	62
 <g/>
-Έργο	Έργο	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	62	obl	σχετικά	ADV		57
-μετάφρασης	μετάφρασης	μετάφραση	NOUN	Case=Gen Gender=Fem Number=Sing	63	nmod	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	62
+Έργο	Έργο	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	62	obl	σχετικά	ADV		57
+μετάφρασης	μετάφρασης	μετάφραση	NOUN	Case=Gen Gender=Fem Number=Sing	63	nmod	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	62
 και	και	και	CCONJ		64	cc	έκδοση	NOUN	Case=Gen Gender=Fem Number=Sing	65
 έκδοσης	έκδοσης	έκδοση	NOUN	Case=Gen Gender=Fem Number=Sing	65	conj	μετάφραση	NOUN	Case=Gen Gender=Fem Number=Sing	63
 έργων	έργων	έργο	NOUN	Case=Gen Gender=Neut Number=Plur	66	nmod	έκδοση	NOUN	Case=Gen Gender=Fem Number=Sing	65
@@ -1181,7 +1193,7 @@
 Ελλάδας	Ελλάδας	Ελλάδα	PROPN	Case=Gen Gender=Fem Number=Sing	78	conj	Κίνα	PROPN	Case=Gen Gender=Fem Number=Sing	75
 <g/>
 </name>
-»	»	»	PUNCT		79	punct	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	62
+»	»	»	PUNCT		79	punct	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	62
 <g/>
 .	.	.	PUNCT		80	punct	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	17
 </s>
@@ -1189,7 +1201,6 @@
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg21" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg21.1">
 Οι	Οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	1	det	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
-<name type="ORG">
 Υπουργοί	Υπουργοί	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2	nsubj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	27
 Ναυτιλίας	Ναυτιλίας	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
 και	και	και	CCONJ		4	cc	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	6
@@ -1212,20 +1223,19 @@
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	17	det	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	18
 Πολίτη	Πολίτη	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	18	nmod	προστασία	NOUN	Case=Gen Gender=Fem Number=Sing	16
 <g/>
-</name>
 ,	,	,	PUNCT		19	punct	δικαιοσύνη	NOUN	Case=Gen Gender=Fem Number=Sing	20
-Δικαιοσύνης	Δικαιοσύνης	δικαιοσύνη	NOUN	Case=Gen Gender=Fem Number=Sing	20	conj	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	18
+Δικαιοσύνης	Δικαιοσύνης	δικαιοσύνη	NOUN	Case=Gen Gender=Fem Number=Sing	20	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	3
 <g/>
-,	,	,	PUNCT		21	punct	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	25
-καθώς	καθώς	καθώς	ADV		22	advmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	25
+,	,	,	PUNCT		21	punct	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
+καθώς	καθώς	καθώς	ADV		22	mark	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	27
 ο	ο	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	25
 Αναπληρωτής	Αναπληρωτής	αναπληρωτής	NOUN	Case=Nom Gender=Masc Number=Sing	24	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	25
 Υπουργός	Υπουργός	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	25	conj	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
 Οικονομικών	Οικονομικών	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	26	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	25
 κατέθεσαν	κατέθεσαν	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	27	root	-	-	-	-
-στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	29|30	case|det	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	32
-5-1-2022	5-1-2022	5-1-2022	NUM	NumType=Card	31	nummod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	32
-σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	32	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	27
+στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	29|30	case|det	5-1-2022	NOUN	|	31
+5-1-2022	5-1-2022	5-1-2022	NOUN		31	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	27
+σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	32	obj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	27
 νόμου	νόμου	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	33	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	32
 <g/>
 :	:	:	PUNCT		34	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	36
@@ -1237,7 +1247,7 @@
 Κατανόησης	Κατανόησης	κατανόηση	NOUN	Case=Gen Gender=Fem Number=Sing	39	nmod	μνημόνιο	NOUN	Case=Gen Gender=Neut Number=Sing	38
 μεταξύ	μεταξύ	μεταξύ	ADV		40	case	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	42
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	41	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	42
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	42	nmod	κατανόηση	NOUN	Case=Gen Gender=Fem Number=Sing	39
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	42	nmod	μνημόνιο	NOUN	Case=Gen Gender=Neut Number=Sing	38
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	43	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	45
 <name type="ORG">
 Ελληνικής	Ελληνικής	ελληνικός	ADJ	Case=Gen Gender=Fem Number=Sing	44	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	45
@@ -1245,17 +1255,17 @@
 </name>
 και	και	και	CCONJ		46	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	47	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48
-<name type="ORG">
 Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	42
-των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	49	det	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	52
-Ηνωμένων	Ηνωμένων	ηνωμένος	ADJ	Case=Gen Gender=Neut Number=Plur	50	amod	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	52
-Αραβικών	Αραβικών	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	51	nmod	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	52
-Εμιράτων	Εμιράτων	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	52	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48
+των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	49	det	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	51
+<name type="LOC">
+Ηνωμένων	Ηνωμένων	ηνωμένος	ADJ	Case=Gen Gender=Neut Number=Plur	50	amod	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	51
+Αραβικών	Αραβικών	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	51	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48
+Εμιράτων	Εμιράτων	Εμίρατα	PROPN	Case=Gen Gender=Neut Number=Plur	52	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48
 </name>
 για	για	για	ADP		53	case	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	56
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	54	det	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	56
 θεσμική	θεσμική	θεσμικός	ADJ	Case=Acc Gender=Fem Number=Sing	55	amod	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	56
-συνεργασία	συνεργασία	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	56	nmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	36
+συνεργασία	συνεργασία	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	56	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	48
 στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	58|59	case|det	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	61
 θαλάσσιες	θαλάσσιες	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Plur	60	amod	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	61
 μεταφορές	μεταφορές	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	61	nmod	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	56
@@ -1292,7 +1302,6 @@
 ,	,	,	PUNCT		18	punct	προστασία	NOUN	Case=Gen Gender=Fem Number=Sing	19
 Προστασίας	Προστασίας	προστασία	NOUN	Case=Gen Gender=Fem Number=Sing	19	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	3
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	20	det	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	21
-<name type="ORG">
 Πολίτη	Πολίτη	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	21	nmod	προστασία	NOUN	Case=Gen Gender=Fem Number=Sing	19
 <g/>
 ,	,	,	PUNCT		22	punct	δικαιοσύνη	NOUN	Case=Gen Gender=Fem Number=Sing	23
@@ -1303,7 +1312,6 @@
 και	και	και	CCONJ		26	cc	μεταφορά	NOUN	Case=Gen Gender=Fem Number=Plur	27
 Μεταφορών	Μεταφορών	μεταφορά	NOUN	Case=Gen Gender=Fem Number=Plur	27	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	3
 <g/>
-</name>
 ,	,	,	PUNCT		28	punct	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	33
 καθώς	καθώς	καθώς	ADV		29	advmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	33
 και	και	και	CCONJ		30	cc	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	33
@@ -1312,9 +1320,9 @@
 Υπουργός	Υπουργός	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	33	conj	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
 Οικονομικών	Οικονομικών	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	34	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	33
 κατέθεσαν	κατέθεσαν	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	35	root	-	-	-	-
-στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	37|38	case|det	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	40
-5-1-2022	5-1-2022	5-1-2022	NUM	NumType=Card	39	nummod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	40
-σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	40	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	35
+στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	37|38	case|det	5-1-2022	NOUN	|	39
+5-1-2022	5-1-2022	5-1-2022	NOUN		39	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	35
+σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	40	obj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	35
 νόμου	νόμου	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	41	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	40
 <g/>
 :	:	:	PUNCT		42	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	44
@@ -1355,7 +1363,6 @@
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg23" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg23.1">
 Οι	Οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	1	det	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
-<name type="ORG">
 Υπουργοί	Υπουργοί	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2	nsubj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22
 Ναυτιλίας	Ναυτιλίας	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	3	nmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	2
 και	και	και	CCONJ		4	cc	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	6
@@ -1373,7 +1380,6 @@
 και	και	και	CCONJ		13	cc	ενέργεια	NOUN	Case=Gen Gender=Fem Number=Sing	14
 Ενέργειας	Ενέργειας	ενέργεια	NOUN	Case=Gen Gender=Fem Number=Sing	14	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	3
 <g/>
-</name>
 ,	,	,	PUNCT		15	punct	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	20
 καθώς	καθώς	καθώς	ADV		16	advmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	20
 και	και	και	CCONJ		17	cc	υπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	20
@@ -1406,7 +1412,7 @@
 ,	,	,	PUNCT		41	punct	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	43
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	42	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	43
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	43	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	37
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	43	conj	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	33
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	44	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	46
 Κυπριακής	Κυπριακής	κυπριακός	ADJ	Case=Gen Gender=Fem Number=Sing	45	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	46
 Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	46	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	43
@@ -1414,7 +1420,7 @@
 και	και	και	CCONJ		47	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	49
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	48	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	49
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	49	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	43
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	49	conj	εφαρμογή	NOUN	Case=Gen Gender=Fem Number=Sing	34
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	50	det	κράτος	NOUN	Case=Gen Gender=Neut Number=Sing	51
 Κράτους	Κράτους	κράτος	NOUN	Case=Gen Gender=Neut Number=Sing	51	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	49
 </name>
@@ -1433,8 +1439,8 @@
 θαλάσσια	θαλάσσια	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Sing	62	amod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	63
 ρύπανση	ρύπανση	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	63	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	57
 από	από	από	ADP		64	case	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	65
-πετρέλαιο	πετρέλαιο	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	65	nmod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	63
-σύμφωνα	σύμφωνα	σύμφωνα	ADV		66	advmod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	63
+πετρέλαιο	πετρέλαιο	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	65	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	57
+σύμφωνα	σύμφωνα	σύμφωνα	ADV		66	advmod	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22
 με	με	με	ADP		67	case	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	69
 το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	68	det	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	69
 Πρωτόκολλο	Πρωτόκολλο	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	69	obl	σύμφωνα	ADV		66
@@ -1451,7 +1457,7 @@
 <g/>
 ,	,	,	PUNCT		80	punct	και	CCONJ		79
 σε	σε	σε	ADP		81	case	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	82
-περιπτώσεις	περιπτώσεις	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	82	nmod	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	74
+περιπτώσεις	περιπτώσεις	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	82	conj	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	74
 επείγουσας	επείγουσας	επείγων	ADJ	Case=Gen Gender=Fem Number=Sing	83	amod	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Sing	84
 ανάγκης	ανάγκης	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Sing	84	nmod	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	82
 <g/>
@@ -1461,17 +1467,19 @@
 καταπολέμηση	καταπολέμηση	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	88	conj	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	74
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	89	det	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	90
 ρύπανσης	ρύπανσης	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	90	nmod	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	88
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	91	det	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	93
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	91	det	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	92
 <name type="LOC">
-Μεσογείου	Μεσογείου	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	92	nmod	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	93
+Μεσογείου	Μεσογείου	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	92	nmod	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	90
 Θάλασσας	Θάλασσας	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	93	nmod	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	90
 </name>
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	94	det	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	95
+<name type="MISC">
 Σύμβασης	Σύμβασης	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	95	nmod	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	93
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	96	det	Βαρκελώνη	PROPN	Case=Gen Gender=Fem Number=Sing	97
 Βαρκελώνης	Βαρκελώνης	Βαρκελώνη	PROPN	Case=Gen Gender=Fem Number=Sing	97	nmod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	95
 <g/>
-»	»	»	PUNCT		98	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	31
+</name>
+»	»	»	PUNCT		98	punct	σύμφωνα	ADV		66
 <g/>
 .	.	.	PUNCT		99	punct	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	22
 </s>
@@ -1512,9 +1520,9 @@
 <name type="ORG">
 Υπουργείου	Υπουργείου	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	18	nmod	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	16
 Ναυτιλίας	Ναυτιλίας	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	19	nmod	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	18
-και	και	και	CCONJ		20	cc	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	22
-Νησιωτικής	Νησιωτικής	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	21	amod	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	22
-Πολιτικής	Πολιτικής	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	22	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	19
+και	και	και	CCONJ		20	cc	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	22
+Νησιωτικής	Νησιωτικής	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	21	amod	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	22
+Πολιτικής	Πολιτικής	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	22	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	19
 <g/>
 </name>
 :	:	:	PUNCT		23	punct	καταθέτω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -1522,7 +1530,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg26" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg26.1">
-Α.	Α.	Α.	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+Α.	Α.	Α.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -1531,7 +1539,7 @@
 Κατανόησης	Κατανόησης	κατανόηση	NOUN	Case=Gen Gender=Fem Number=Sing	6	nmod	μνημόνιο	NOUN	Case=Gen Gender=Neut Number=Sing	5
 μεταξύ	μεταξύ	μεταξύ	ADV		7	case	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	κατανόηση	NOUN	Case=Gen Gender=Fem Number=Sing	6
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9	conj	μνημόνιο	NOUN	Case=Gen Gender=Neut Number=Sing	5
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	12
 <name type="ORG">
 Ελληνικής	Ελληνικής	ελληνικός	ADJ	Case=Gen Gender=Fem Number=Sing	11	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	12
@@ -1539,12 +1547,12 @@
 </name>
 και	και	και	CCONJ		13	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
-<name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
-των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	16	det	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19
-Ηνωμένων	Ηνωμένων	ηνωμένος	ADJ	Case=Gen Gender=Neut Number=Plur	17	amod	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19
-Αραβικών	Αραβικών	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18	nmod	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19
-Εμιράτων	Εμιράτων	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	12
+των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	16	det	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18
+<name type="LOC">
+Ηνωμένων	Ηνωμένων	ηνωμένος	ADJ	Case=Gen Gender=Neut Number=Plur	17	amod	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18
+Αραβικών	Αραβικών	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Εμιράτων	Εμιράτων	Εμίρατα	PROPN	Case=Gen Gender=Neut Number=Plur	19	flat	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18
 </name>
 για	για	για	ADP		20	case	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	23
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	23
@@ -1561,50 +1569,44 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg27" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg27.1">
-Β	Β	Β	INTJ		1	root	-	-	-	-
+Β.	Β.	Β.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+«	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
-.	.	.	PUNCT		2	punct	Β	INTJ		1
-</s>
-<s id="ParlaMint-GR_2022-01-12-S1-commons.seg27.2">
-«	«	«	PUNCT		1	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	2
-<g/>
-Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	2	root	-	-	-	-
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	3	det	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	4
-Συμφωνίας	Συμφωνίας	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	4	nmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	2
-μεταξύ	μεταξύ	μεταξύ	ADV		5	case	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	7
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	6	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	7
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	4
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	10
+Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	4	det	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
+Συμφωνίας	Συμφωνίας	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5	nmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+μεταξύ	μεταξύ	μεταξύ	ADV		6	case	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	8
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	7	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	8
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	8	nmod	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	9	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	11
 <name type="ORG">
-Ελληνικής	Ελληνικής	ελληνικός	ADJ	Case=Gen Gender=Fem Number=Sing	9	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	10
-Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	10	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	7
+Ελληνικής	Ελληνικής	ελληνικός	ADJ	Case=Gen Gender=Fem Number=Sing	10	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	11
+Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	11	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	8
 </name>
-και	και	και	CCONJ		11	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	13
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	12	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	13
+και	και	και	CCONJ		12	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	13	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	7
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	15
-Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	15	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	13
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14	conj	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	11
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	16
+Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	16	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 </name>
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	16	det	Τυνησία	PROPN	Case=Gen Gender=Fem Number=Sing	17
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	17	det	Τυνησία	PROPN	Case=Gen Gender=Fem Number=Sing	18
 <name type="LOC">
-Τυνησίας	Τυνησίας	Τυνησία	PROPN	Case=Gen Gender=Fem Number=Sing	17	nmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Τυνησίας	Τυνησίας	Τυνησία	PROPN	Case=Gen Gender=Fem Number=Sing	18	nmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	16
 </name>
-για	για	για	ADP		18	case	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	21
-τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	19	det	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	21
-θαλάσσιες	θαλάσσιες	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Plur	20	amod	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	21
-μεταφορές	μεταφορές	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	21	nmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	2
+για	για	για	ADP		19	case	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22
+τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	20	det	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22
+θαλάσσιες	θαλάσσιες	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Plur	21	amod	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22
+μεταφορές	μεταφορές	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 <g/>
-»	»	»	PUNCT		22	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	2
+»	»	»	PUNCT		23	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
-.	.	.	PUNCT		23	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	2
+.	.	.	PUNCT		24	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 </s>
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg28" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg28.1">
-<name type="PER">
-Γ.	Γ.	Γ.	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
-</name>
+Γ.	Γ.	Γ.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -1623,7 +1625,7 @@
 ,	,	,	PUNCT		13	punct	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	16	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	18
 Κυπριακής	Κυπριακής	κυπριακός	ADJ	Case=Gen Gender=Fem Number=Sing	17	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	18
 Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	18	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
@@ -1631,7 +1633,7 @@
 και	και	και	CCONJ		19	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21	conj	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	22	det	κράτος	NOUN	Case=Gen Gender=Neut Number=Sing	23
 Κράτους	Κράτους	κράτος	NOUN	Case=Gen Gender=Neut Number=Sing	23	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21
 </name>
@@ -1650,8 +1652,8 @@
 θαλάσσια	θαλάσσια	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Sing	34	amod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	35
 ρύπανση	ρύπανση	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	35	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	29
 από	από	από	ADP		36	case	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	37
-πετρέλαιο	πετρέλαιο	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	37	nmod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	35
-σύμφωνα	σύμφωνα	σύμφωνα	ADV		38	advmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	29
+πετρέλαιο	πετρέλαιο	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	37	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	29
+σύμφωνα	σύμφωνα	σύμφωνα	ADV		38	advmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 με	με	με	ADP		39	case	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	41
 το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	40	det	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	41
 Πρωτόκολλο	Πρωτόκολλο	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	41	obl	σύμφωνα	ADV		38
@@ -1668,26 +1670,28 @@
 <g/>
 ,	,	,	PUNCT		52	punct	και	CCONJ		51
 σε	σε	σε	ADP		53	case	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54
-περιπτώσεις	περιπτώσεις	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54	nmod	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	46
+περιπτώσεις	περιπτώσεις	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54	conj	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	46
 επείγουσας	επείγουσας	επείγων	ADJ	Case=Gen Gender=Fem Number=Sing	55	amod	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Sing	56
 ανάγκης	ανάγκης	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Sing	56	nmod	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54
 <g/>
 ,	,	,	PUNCT		57	punct	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
 για	για	για	ADP		58	case	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	59	det	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
-καταπολέμηση	καταπολέμηση	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60	nmod	συνεργασία	NOUN	Case=Gen Gender=Fem Number=Sing	43
+καταπολέμηση	καταπολέμηση	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60	nmod	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	46
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	61	det	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62
 ρύπανσης	ρύπανσης	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62	nmod	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	63	det	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	63	det	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	64
 <name type="LOC">
-Μεσογείου	Μεσογείου	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	64	nmod	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65
+Μεσογείου	Μεσογείου	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	64	nmod	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62
 Θάλασσας	Θάλασσας	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65	nmod	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62
 </name>
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	66	det	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	67
+<name type="MISC">
 Σύμβασης	Σύμβασης	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	67	nmod	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	68	det	Βαρκελώνη	PROPN	Case=Gen Gender=Fem Number=Sing	69
 Βαρκελώνης	Βαρκελώνης	Βαρκελώνη	PROPN	Case=Gen Gender=Fem Number=Sing	69	nmod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	67
 <g/>
+</name>
 »	»	»	PUNCT		70	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 .	.	.	PUNCT		71	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
@@ -1722,7 +1726,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg30" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg30.1">
-α)	α)	α)	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+α)	α)	α)	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -1736,13 +1740,11 @@
 </name>
 για	για	για	ADP		10	case	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	13
 τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	11	det	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	13
-<name type="ORG">
 Κινηματογραφικές	Κινηματογραφικές	κινηματογραφικός	ADJ	Case=Acc Gender=Fem Number=Plur	12	amod	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	13
 Συμπαραγωγές	Συμπαραγωγές	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	13	nmod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	5
-</name>
 (	(	(	PUNCT		14	punct	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	15
 <g/>
-Αναθεωρημένη	Αναθεωρημένη	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	15	appos	συμπαραγωγή	NOUN	Case=Acc Gender=Fem Number=Plur	13
+Αναθεωρημένη	Αναθεωρημένη	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	15	parataxis	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 )	)	)	PUNCT		16	punct	αναθεωρημένος	VERB	Aspect=Perf Case=Nom Gender=Fem Number=Sing VerbForm=Part Voice=Pass	15
 <g/>
@@ -1752,7 +1754,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg31" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg31.1">
-β)	β)	β)	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+β)	β)	β)	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -1779,10 +1781,10 @@
 Διοίκησης	Διοίκησης	διοίκηση	NOUN	Case=Gen Gender=Fem Number=Sing	19	conj	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	9
 Τύπου	Τύπου	τύπος	NOUN	Case=Gen Gender=Masc Number=Sing	20	nmod	διοίκηση	NOUN	Case=Gen Gender=Fem Number=Sing	19
 <g/>
+</name>
 ,	,	,	PUNCT		21	punct	έκδοση	NOUN	Case=Gen Gender=Fem Number=Plur	22
 Εκδόσεων	Εκδόσεων	έκδοση	NOUN	Case=Gen Gender=Fem Number=Plur	22	conj	τύπος	NOUN	Case=Gen Gender=Masc Number=Sing	20
 <g/>
-</name>
 ,	,	,	PUNCT		23	punct	ραδιόφωνο	NOUN	Case=Gen Gender=Neut Number=Sing	24
 Ραδιοφώνου	Ραδιοφώνου	ραδιόφωνο	NOUN	Case=Gen Gender=Neut Number=Sing	24	conj	τύπος	NOUN	Case=Gen Gender=Masc Number=Sing	20
 <g/>
@@ -1801,15 +1803,15 @@
 <name type="LOC">
 Κίνας	Κίνας	Κίνα	PROPN	Case=Gen Gender=Fem Number=Sing	33	nmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	31
 </name>
-σχετικά	σχετικά	σχετικά	ADV		34	advmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	31
-με	με	με	ADP		35	case	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	39
-το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	36	det	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	39
+σχετικά	σχετικά	σχετικά	ADV		34	advmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+με	με	με	ADP		35	case	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	39
+το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	36	det	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	39
 <g/>
 :	:	:	PUNCT		37	punct	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	36
-«	«	«	PUNCT		38	punct	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	39
+«	«	«	PUNCT		38	punct	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	39
 <g/>
-Έργο	Έργο	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	39	obl	σχετικά	ADV		34
-μετάφρασης	μετάφρασης	μετάφραση	NOUN	Case=Gen Gender=Fem Number=Sing	40	nmod	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	39
+Έργο	Έργο	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	39	conj	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+μετάφρασης	μετάφρασης	μετάφραση	NOUN	Case=Gen Gender=Fem Number=Sing	40	nmod	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	39
 και	και	και	CCONJ		41	cc	έκδοση	NOUN	Case=Gen Gender=Fem Number=Sing	42
 έκδοσης	έκδοσης	έκδοση	NOUN	Case=Gen Gender=Fem Number=Sing	42	conj	μετάφραση	NOUN	Case=Gen Gender=Fem Number=Sing	40
 έργων	έργων	έργο	NOUN	Case=Gen Gender=Neut Number=Plur	43	nmod	έκδοση	NOUN	Case=Gen Gender=Fem Number=Sing	42
@@ -1830,7 +1832,7 @@
 Ελλάδας	Ελλάδας	Ελλάδα	PROPN	Case=Gen Gender=Fem Number=Sing	55	conj	Κίνα	PROPN	Case=Gen Gender=Fem Number=Sing	52
 <g/>
 </name>
-»	»	»	PUNCT		56	punct	έργο	NOUN	Case=Nom Gender=Neut Number=Sing	39
+»	»	»	PUNCT		56	punct	έργο	NOUN	Case=Acc Gender=Neut Number=Sing	39
 <g/>
 »	»	»	PUNCT		57	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
@@ -1873,14 +1875,14 @@
 </name>
 και	και	και	CCONJ		27	cc	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	29
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	28	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	29
-Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	29	conj	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	26
+Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	29	conj	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	22
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	30	det	Σιγκαπούρη	PROPN	Case=Gen Gender=Fem Number=Sing	31
 <name type="LOC">
 Σιγκαπούρης	Σιγκαπούρης	Σιγκαπούρη	PROPN	Case=Gen Gender=Fem Number=Sing	31	nmod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	29
 </name>
 για	για	για	ADP		32	case	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	34
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	33	det	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	34
-εξάλειψη	εξάλειψη	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	34	nmod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	22
+εξάλειψη	εξάλειψη	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	34	nmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	20
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	35	det	φορολογία	NOUN	Case=Gen Gender=Fem Number=Sing	37
 διπλής	διπλής	διπλός	NUM	Case=Gen Gender=Fem Number=Sing NumType=Mult	36	amod	φορολογία	NOUN	Case=Gen Gender=Fem Number=Sing	37
 φορολογίας	φορολογίας	φορολογία	NOUN	Case=Gen Gender=Fem Number=Sing	37	nmod	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	34
@@ -1889,18 +1891,18 @@
 αποφυγή	αποφυγή	αποφυγή	NOUN	Case=Acc Gender=Fem Number=Sing	40	conj	εξάλειψη	NOUN	Case=Acc Gender=Fem Number=Sing	34
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	41	det	φοροδιαφυγή	NOUN	Case=Gen Gender=Fem Number=Sing	42
 φοροδιαφυγής	φοροδιαφυγής	φοροδιαφυγή	NOUN	Case=Gen Gender=Fem Number=Sing	42	nmod	αποφυγή	NOUN	Case=Acc Gender=Fem Number=Sing	40
-αναφορικά	αναφορικά	αναφορικά	ADV		43	advmod	φοροδιαφυγή	NOUN	Case=Gen Gender=Fem Number=Sing	42
+αναφορικά	αναφορικά	αναφορικά	ADV		43	advmod	αποφυγή	NOUN	Case=Acc Gender=Fem Number=Sing	40
 με	με	με	ADP		44	case	φόρος	NOUN	Case=Acc Gender=Masc Number=Plur	45
 φόρους	φόρους	φόρος	NOUN	Case=Acc Gender=Masc Number=Plur	45	obl	αναφορικά	ADV		43
 εισοδήματος	εισοδήματος	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	46	nmod	φόρος	NOUN	Case=Acc Gender=Masc Number=Plur	45
 και	και	και	CCONJ		47	cc	κεφάλαιο	NOUN	Case=Gen Gender=Neut Number=Sing	48
 κεφαλαίου	κεφαλαίου	κεφάλαιο	NOUN	Case=Gen Gender=Neut Number=Sing	48	conj	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	46
-και	και	και	CCONJ		49	cc	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	51
-του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	50	det	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	51
-συνημμένου	συνημμένου	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	51	conj	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	46
-σε	σε	σε	ADP		52	case	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	54
-αυτήν	αυτήν	αυτός	DET	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	53	det	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	54
-Πρωτοκόλλου	Πρωτοκόλλου	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	54	nmod	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Neut Number=Sing VerbForm=Part Voice=Pass	51
+και	και	και	CCONJ		49	cc	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	51
+του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	50	det	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	51
+συνημμένου	συνημμένου	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	51	conj	εισόδημα	NOUN	Case=Gen Gender=Neut Number=Sing	46
+σε	σε	σε	ADP		52	case	αυτός	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	53
+αυτήν	αυτήν	αυτός	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	53	obl	συνημμένος	VERB	Aspect=Perf Case=Gen Gender=Masc Number=Sing VerbForm=Part Voice=Pass	51
+Πρωτοκόλλου	Πρωτοκόλλου	πρωτόκολλο	NOUN	Case=Gen Gender=Neut Number=Sing	54	nmod	αυτός	PRON	Case=Acc Gender=Fem Number=Sing Person=3 PronType=Dem	53
 <g/>
 »	»	»	PUNCT		55	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	20
 <g/>
@@ -1947,7 +1949,7 @@
 και	και	και	CCONJ		29	cc	μεταφορά	NOUN	Case=Gen Gender=Fem Number=Plur	30
 Μεταφορών	Μεταφορών	μεταφορά	NOUN	Case=Gen Gender=Fem Number=Plur	30	conj	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	22
 και	και	και	CCONJ		31	cc	επικράτεια	NOUN	Case=Gen Gender=Fem Number=Sing	32
-Επικρατείας	Επικρατείας	επικράτεια	NOUN	Case=Gen Gender=Fem Number=Sing	32	conj	πολίτης	NOUN	Case=Gen Gender=Masc Number=Sing	22
+Επικρατείας	Επικρατείας	επικράτεια	NOUN	Case=Gen Gender=Fem Number=Sing	32	conj	ανάπτυξη	NOUN	Case=Gen Gender=Fem Number=Sing	10
 <g/>
 ,	,	,	PUNCT		33	punct	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	38
 καθώς	καθώς	καθώς	ADV		34	advmod	υπουργός	NOUN	Case=Nom Gender=Masc Number=Plur	38
@@ -1962,9 +1964,9 @@
 και	και	και	CCONJ		42	cc	εσωτερικά	NOUN	Case=Gen Gender=Neut Number=Plur	43
 Εσωτερικών	Εσωτερικών	εσωτερικά	NOUN	Case=Gen Gender=Neut Number=Plur	43	conj	οικονομικά	NOUN	Case=Gen Gender=Neut Number=Plur	39
 κατέθεσαν	κατέθεσαν	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	44	root	-	-	-	-
-στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	46|47	case|det	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	49
-11-1-2022	11-1-2022	11-1-2022	NUM	NumType=Card	48	nummod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	49
-σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	49	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	44
+στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	46|47	case|det	11-1-2022	NOUN	|	48
+11-1-2022	11-1-2022	11-1-2022	NOUN		48	obl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	44
+σχέδιο	σχέδιο	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	49	obj	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	44
 νόμου	νόμου	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	50	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	49
 <g/>
 :	:	:	PUNCT		51	punct	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
@@ -1977,19 +1979,19 @@
 για	για	για	ADP		57	case	εποχή	NOUN	Case=Acc Gender=Fem Number=Sing	60
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	58	det	εποχή	NOUN	Case=Acc Gender=Fem Number=Sing	60
 ψηφιακή	ψηφιακή	ψηφιακός	ADJ	Case=Acc Gender=Fem Number=Sing	59	amod	εποχή	NOUN	Case=Acc Gender=Fem Number=Sing	60
-εποχή	εποχή	εποχή	NOUN	Case=Acc Gender=Fem Number=Sing	60	nmod	δίκαιο	NOUN	Case=Gen Gender=Neut Number=Sing	55
+εποχή	εποχή	εποχή	NOUN	Case=Acc Gender=Fem Number=Sing	60	nmod	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
 -	-	-	PUNCT		61	punct	τροποποίηση	NOUN	Case=Acc Gender=Fem Number=Sing	62
 Τροποποίηση	Τροποποίηση	τροποποίηση	NOUN	Case=Acc Gender=Fem Number=Sing	62	conj	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	63	det	ν.3959/2011	NUM	NumType=Card	64
 ν.3959/2011	ν.3959/2011	ν.3959/2011	NUM	NumType=Card	64	nmod	τροποποίηση	NOUN	Case=Acc Gender=Fem Number=Sing	62
 και	και	και	CCONJ		65	cc	ενσωμάτωση	NOUN	Case=Acc Gender=Fem Number=Sing	66
-ενσωμάτωση	ενσωμάτωση	ενσωμάτωση	NOUN	Case=Acc Gender=Fem Number=Sing	66	conj	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
+ενσωμάτωση	ενσωμάτωση	ενσωμάτωση	NOUN	Case=Acc Gender=Fem Number=Sing	66	conj	τροποποίηση	NOUN	Case=Acc Gender=Fem Number=Sing	62
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	67	det	οδηγία	NOUN	Case=Gen Gender=Fem Number=Sing	68
 Οδηγίας	Οδηγίας	οδηγία	NOUN	Case=Gen Gender=Fem Number=Sing	68	nmod	ενσωμάτωση	NOUN	Case=Acc Gender=Fem Number=Sing	66
 (	(	(	PUNCT		69	punct	ΕΕ	NOUN	Abbr=Yes	70
 <g/>
 <name type="ORG">
-ΕΕ	ΕΕ	ΕΕ	NOUN	Abbr=Yes	70	nmod	οδηγία	NOUN	Case=Gen Gender=Fem Number=Sing	68
+ΕΕ	ΕΕ	ΕΕ	NOUN	Abbr=Yes	70	appos	οδηγία	NOUN	Case=Gen Gender=Fem Number=Sing	68
 <g/>
 </name>
 )	)	)	PUNCT		71	punct	ΕΕ	NOUN	Abbr=Yes	70
@@ -1997,28 +1999,28 @@
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	73	det	κοινοβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	75
 <name type="ORG">
 Ευρωπαϊκού	Ευρωπαϊκού	ευρωπαϊκός	ADJ	Case=Gen Gender=Neut Number=Sing	74	amod	κοινοβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	75
-Κοινοβουλίου	Κοινοβουλίου	κοινοβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	75	nmod	οδηγία	NOUN	Case=Gen Gender=Fem Number=Sing	68
+Κοινοβουλίου	Κοινοβουλίου	κοινοβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	75	nmod	2019/1	NUM	NumType=Card	72
 </name>
 και	και	και	CCONJ		76	cc	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	77	det	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78
-Συμβουλίου	Συμβουλίου	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78	conj	οδηγία	NOUN	Case=Gen Gender=Fem Number=Sing	68
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	79	det	11ος	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	80
-11ης	11ης	11ος	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	80	amod	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78
+Συμβουλίου	Συμβουλίου	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78	conj	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	79	det	Δεκέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	81
+11ης	11ης	11ος	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	80	amod	Δεκέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	81
 Δεκεμβρίου	Δεκεμβρίου	Δεκέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	81	nmod	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78
 2018	2018	2018	NUM	NumType=Card	82	nmod	Δεκέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	81
 για	για	για	ADP		83	case	παροχή	NOUN	Case=Acc Gender=Fem Number=Sing	85
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	84	det	παροχή	NOUN	Case=Acc Gender=Fem Number=Sing	85
-παροχή	παροχή	παροχή	NOUN	Case=Acc Gender=Fem Number=Sing	85	nmod	συμβούλιο	NOUN	Case=Gen Gender=Neut Number=Sing	78
+παροχή	παροχή	παροχή	NOUN	Case=Acc Gender=Fem Number=Sing	85	conj	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
 αρμοδιοτήτων	αρμοδιοτήτων	αρμοδιότητα	NOUN	Case=Gen Gender=Fem Number=Plur	86	nmod	παροχή	NOUN	Case=Acc Gender=Fem Number=Sing	85
 στις	σ|τις	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	88|89	case|det	αρχή	NOUN	Case=Acc Gender=Fem Number=Plur	90
 αρχές	αρχές	αρχή	NOUN	Case=Acc Gender=Fem Number=Plur	90	nmod	αρμοδιότητα	NOUN	Case=Gen Gender=Fem Number=Plur	86
 ανταγωνισμού	ανταγωνισμού	ανταγωνισμός	NOUN	Case=Gen Gender=Masc Number=Sing	91	nmod	αρχή	NOUN	Case=Acc Gender=Fem Number=Plur	90
 των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	92	det	κράτος	NOUN	Case=Gen Gender=Neut Number=Plur	93
-κρατών	κρατών	κράτος	NOUN	Case=Gen Gender=Neut Number=Plur	93	nmod	αρχή	NOUN	Case=Acc Gender=Fem Number=Plur	90
+κρατών	κρατών	κράτος	NOUN	Case=Gen Gender=Neut Number=Plur	93	nmod	ανταγωνισμός	NOUN	Case=Gen Gender=Masc Number=Sing	91
 μελών	μελών	μέλος	NOUN	Case=Gen Gender=Neut Number=Plur	94	nmod	κράτος	NOUN	Case=Gen Gender=Neut Number=Plur	93
 ώστε	ώστε	ώστε	SCONJ		95	mark	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97
 να	να	να	AUX		96	aux	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97
-επιβάλουν	επιβάλουν	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97	advcl	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	44
+επιβάλουν	επιβάλουν	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97	advcl	παροχή	NOUN	Case=Acc Gender=Fem Number=Sing	85
 αποτελεσματικότερα	αποτελεσματικότερα	αποτελεσματικά	ADV	Degree=Cmp	98	advmod	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97
 τους	τους	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Plur PronType=Art	99	det	κανόνας	NOUN	Case=Acc Gender=Masc Number=Plur	100
 κανόνες	κανόνες	κανόνας	NOUN	Case=Acc Gender=Masc Number=Plur	100	obj	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97
@@ -2033,7 +2035,7 @@
 εσωτερικής	εσωτερικής	εσωτερικός	ADJ	Case=Gen Gender=Fem Number=Sing	109	amod	αγορά	NOUN	Case=Gen Gender=Fem Number=Sing	110
 αγοράς	αγοράς	αγορά	NOUN	Case=Gen Gender=Fem Number=Sing	110	nmod	λειτουργία	NOUN	Case=Gen Gender=Fem Number=Sing	107
 <g/>
-»	»	»	PUNCT		111	punct	επιβάλλω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	97
+»	»	»	PUNCT		111	punct	εκσυγχρονισμός	NOUN	Case=Nom Gender=Masc Number=Sing	53
 <g/>
 .	.	.	PUNCT		112	punct	καταθέτω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	44
 </s>
@@ -2043,11 +2045,9 @@
 Παραπέμπεται	Παραπέμπεται	παραπέμπω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1	root	-	-	-	-
 στην	σ|την	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	3|4	case|det	επιτροπή	NOUN	Case=Acc Gender=Fem Number=Sing	7
 αρμόδια	αρμόδια	αρμόδιος	ADJ	Case=Acc Gender=Fem Number=Sing	5	amod	επιτροπή	NOUN	Case=Acc Gender=Fem Number=Sing	7
-<name type="ORG">
 Διαρκή	Διαρκή	διαρκής	ADJ	Case=Acc Gender=Fem Number=Sing	6	amod	επιτροπή	NOUN	Case=Acc Gender=Fem Number=Sing	7
 Επιτροπή	Επιτροπή	επιτροπή	NOUN	Case=Acc Gender=Fem Number=Sing	7	obl	παραπέμπω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
 <g/>
-</name>
 .	.	.	PUNCT		8	punct	παραπέμπω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
 </s>
 </p>
@@ -2068,8 +2068,8 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg36" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg36.1">
-ΝΟΜΟΘΕΤΙΚΗΣ	ΝΟΜΟΘΕΤΙΚΗΣ	νομοθετικός	ADJ	Case=Gen Gender=Fem Number=Sing	1	root	-	-	-	-
-ΕΡΓΑΣΙΑΣ	ΕΡΓΑΣΙΑΣ	εργασία	NOUN	Case=Gen Gender=Fem Number=Sing	2	nmod	νομοθετικός	ADJ	Case=Gen Gender=Fem Number=Sing	1
+ΝΟΜΟΘΕΤΙΚΗΣ	ΝΟΜΟΘΕΤΙΚΗΣ	νομοθετικός	ADJ	Case=Gen Gender=Fem Number=Sing	1	amod	εργασία	NOUN	Case=Gen Gender=Fem Number=Sing	2
+ΕΡΓΑΣΙΑΣ	ΕΡΓΑΣΙΑΣ	εργασία	NOUN	Case=Gen Gender=Fem Number=Sing	2	root	-	-	-	-
 </s>
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg37" lang="greek">
@@ -2077,10 +2077,10 @@
 Συζήτηση	Συζήτηση	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 και	και	και	CCONJ		2	cc	ψήφιση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 ψήφιση	ψήφιση	ψήφιση	NOUN	Case=Nom Gender=Fem Number=Sing	3	conj	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	1
-ενιαία	ενιαία	ενιαίος	ADJ	Case=Nom Gender=Fem Number=Sing	4	amod	ψήφιση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+ενιαία	ενιαία	ενιαίος	ADJ	Case=Nom Gender=Fem Number=Sing	4	amod	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	1
 επί	επί	επί	ADP		5	case	αρχή	NOUN	Case=Gen Gender=Fem Number=Sing	7
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	6	det	αρχή	NOUN	Case=Gen Gender=Fem Number=Sing	7
-αρχής	αρχής	αρχή	NOUN	Case=Gen Gender=Fem Number=Sing	7	nmod	ενιαίος	ADJ	Case=Nom Gender=Fem Number=Sing	4
+αρχής	αρχής	αρχή	NOUN	Case=Gen Gender=Fem Number=Sing	7	obl	ενιαίος	ADJ	Case=Nom Gender=Fem Number=Sing	4
 <g/>
 ,	,	,	PUNCT		8	punct	άρθρο	NOUN	Case=Gen Gender=Neut Number=Plur	10
 των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	9	det	άρθρο	NOUN	Case=Gen Gender=Neut Number=Plur	10
@@ -2095,9 +2095,9 @@
 <name type="ORG">
 Υπουργείου	Υπουργείου	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	18	nmod	νόμος	NOUN	Case=Gen Gender=Masc Number=Sing	16
 Ναυτιλίας	Ναυτιλίας	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	19	nmod	υπουργείο	NOUN	Case=Gen Gender=Neut Number=Sing	18
-και	και	και	CCONJ		20	cc	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	22
-Νησιωτικής	Νησιωτικής	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	21	amod	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	22
-Πολιτικής	Πολιτικής	πολιτική	NOUN	Case=Gen Gender=Fem Number=Sing	22	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	19
+και	και	και	CCONJ		20	cc	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	22
+Νησιωτικής	Νησιωτικής	νησιωτικός	ADJ	Case=Gen Gender=Fem Number=Sing	21	amod	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	22
+Πολιτικής	Πολιτικής	πολιτικός	ADJ	Case=Gen Gender=Fem Number=Sing	22	conj	ναυτιλία	NOUN	Case=Gen Gender=Fem Number=Sing	19
 <g/>
 </name>
 :	:	:	PUNCT		23	punct	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	1
@@ -2105,7 +2105,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg38" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg38.1">
-1.	1.	1.	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+1.	1.	1.	NUM	NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -2114,7 +2114,7 @@
 Κατανόησης	Κατανόησης	κατανόηση	NOUN	Case=Gen Gender=Fem Number=Sing	6	nmod	μνημόνιο	NOUN	Case=Gen Gender=Neut Number=Sing	5
 μεταξύ	μεταξύ	μεταξύ	ADV		7	case	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	8	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9	nmod	κατανόηση	NOUN	Case=Gen Gender=Fem Number=Sing	6
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9	conj	μνημόνιο	NOUN	Case=Gen Gender=Neut Number=Sing	5
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	12
 <name type="ORG">
 Ελληνικής	Ελληνικής	ελληνικός	ADJ	Case=Gen Gender=Fem Number=Sing	11	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	12
@@ -2122,12 +2122,12 @@
 </name>
 και	και	και	CCONJ		13	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
-<name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
-των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	16	det	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19
-Ηνωμένων	Ηνωμένων	ηνωμένος	ADJ	Case=Gen Gender=Neut Number=Plur	17	amod	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19
-Αραβικών	Αραβικών	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18	nmod	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19
-Εμιράτων	Εμιράτων	εμιράτο	NOUN	Case=Gen Gender=Neut Number=Plur	19	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	12
+των	των	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Plur PronType=Art	16	det	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18
+<name type="LOC">
+Ηνωμένων	Ηνωμένων	ηνωμένος	ADJ	Case=Gen Gender=Neut Number=Plur	17	amod	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18
+Αραβικών	Αραβικών	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Εμιράτων	Εμιράτων	Εμίρατα	PROPN	Case=Gen Gender=Neut Number=Plur	19	flat	Αραβικά	PROPN	Case=Gen Gender=Neut Number=Plur	18
 </name>
 για	για	για	ADP		20	case	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	23
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	συνεργασία	NOUN	Case=Acc Gender=Fem Number=Sing	23
@@ -2144,7 +2144,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg39" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg39.1">
-2.	2.	2.	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+2.	2.	2.	NUM	NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -2161,7 +2161,7 @@
 και	και	και	CCONJ		12	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	8
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14	conj	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	11
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	15	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	16
 Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	16	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 </name>
@@ -2172,7 +2172,7 @@
 για	για	για	ADP		19	case	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22
 τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	20	det	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22
 θαλάσσιες	θαλάσσιες	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Plur	21	amod	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22
-μεταφορές	μεταφορές	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22	nmod	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
+μεταφορές	μεταφορές	μεταφορά	NOUN	Case=Acc Gender=Fem Number=Plur	22	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	14
 <g/>
 »	»	»	PUNCT		23	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
@@ -2181,7 +2181,7 @@
 </p>
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg40" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg40.1">
-3.	3.	3.	NOUN		1	discourse	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
+3.	3.	3.	NUM	NumType=Card	1	nummod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 «	«	«	PUNCT		2	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 Κύρωση	Κύρωση	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3	root	-	-	-	-
@@ -2200,7 +2200,7 @@
 ,	,	,	PUNCT		13	punct	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	9
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	16	det	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	18
 Κυπριακής	Κυπριακής	κυπριακός	ADJ	Case=Gen Gender=Fem Number=Sing	17	amod	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	18
 Δημοκρατίας	Δημοκρατίας	δημοκρατία	NOUN	Case=Gen Gender=Fem Number=Sing	18	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
@@ -2208,7 +2208,7 @@
 και	και	και	CCONJ		19	cc	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	20	det	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21
 <name type="ORG">
-Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21	conj	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	15
+Κυβέρνησης	Κυβέρνησης	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21	conj	συμφωνία	NOUN	Case=Gen Gender=Fem Number=Sing	5
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	22	det	κράτος	NOUN	Case=Gen Gender=Neut Number=Sing	23
 Κράτους	Κράτους	κράτος	NOUN	Case=Gen Gender=Neut Number=Sing	23	nmod	κυβέρνηση	NOUN	Case=Gen Gender=Fem Number=Sing	21
 </name>
@@ -2227,8 +2227,8 @@
 θαλάσσια	θαλάσσια	θαλάσσιος	ADJ	Case=Acc Gender=Fem Number=Sing	34	amod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	35
 ρύπανση	ρύπανση	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	35	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	29
 από	από	από	ADP		36	case	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	37
-πετρέλαιο	πετρέλαιο	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	37	nmod	ρύπανση	NOUN	Case=Acc Gender=Fem Number=Sing	35
-σύμφωνα	σύμφωνα	σύμφωνα	ADV		38	advmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	29
+πετρέλαιο	πετρέλαιο	πετρέλαιο	NOUN	Case=Acc Gender=Neut Number=Sing	37	nmod	σχέδιο	NOUN	Case=Acc Gender=Neut Number=Sing	29
+σύμφωνα	σύμφωνα	σύμφωνα	ADV		38	advmod	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 με	με	με	ADP		39	case	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	41
 το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	40	det	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	41
 Πρωτόκολλο	Πρωτόκολλο	πρωτόκολλο	NOUN	Case=Acc Gender=Neut Number=Sing	41	obl	σύμφωνα	ADV		38
@@ -2245,26 +2245,28 @@
 <g/>
 ,	,	,	PUNCT		52	punct	και	CCONJ		51
 σε	σε	σε	ADP		53	case	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54
-περιπτώσεις	περιπτώσεις	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54	nmod	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	46
+περιπτώσεις	περιπτώσεις	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54	conj	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	46
 επείγουσας	επείγουσας	επείγων	ADJ	Case=Gen Gender=Fem Number=Sing	55	amod	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Sing	56
 ανάγκης	ανάγκης	ανάγκη	NOUN	Case=Gen Gender=Fem Number=Sing	56	nmod	περίπτωση	NOUN	Case=Acc Gender=Fem Number=Plur	54
 <g/>
 ,	,	,	PUNCT		57	punct	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
 για	για	για	ADP		58	case	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	59	det	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
-καταπολέμηση	καταπολέμηση	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60	nmod	συνεργασία	NOUN	Case=Gen Gender=Fem Number=Sing	43
+καταπολέμηση	καταπολέμηση	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60	nmod	πρόληψη	NOUN	Case=Acc Gender=Fem Number=Sing	46
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	61	det	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62
 ρύπανσης	ρύπανσης	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62	nmod	καταπολέμηση	NOUN	Case=Acc Gender=Fem Number=Sing	60
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	63	det	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	63	det	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	64
 <name type="LOC">
-Μεσογείου	Μεσογείου	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	64	nmod	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65
+Μεσογείου	Μεσογείου	Μεσόγειος	PROPN	Case=Gen Gender=Fem Number=Sing	64	nmod	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62
 Θάλασσας	Θάλασσας	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65	nmod	ρύπανση	NOUN	Case=Gen Gender=Fem Number=Sing	62
 </name>
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	66	det	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	67
+<name type="MISC">
 Σύμβασης	Σύμβασης	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	67	nmod	θάλασσα	NOUN	Case=Gen Gender=Fem Number=Sing	65
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	68	det	Βαρκελώνη	PROPN	Case=Gen Gender=Fem Number=Sing	69
 Βαρκελώνης	Βαρκελώνης	Βαρκελώνη	PROPN	Case=Gen Gender=Fem Number=Sing	69	nmod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Sing	67
 <g/>
+</name>
 »	»	»	PUNCT		70	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
 <g/>
 .	.	.	PUNCT		71	punct	κύρωση	NOUN	Case=Nom Gender=Fem Number=Sing	3
@@ -2308,7 +2310,7 @@
 </name>
 ,	,	,	PUNCT		18	punct	μπορώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
 δηλαδή	δηλαδή	δηλαδή	ADV		19	advmod	μπορώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
-μπορούν	μπορούν	μπορώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	20	parataxis	εισάγω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
+μπορούν	μπορούν	μπορώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	20	conj	εισάγω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
 να	να	να	AUX		21	aux	λαμβάνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	22
 λάβουν	λάβουν	λαμβάνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	22	xcomp	μπορώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	20
 τον	τον	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Sing PronType=Art	23	det	λόγος	NOUN	Case=Acc Gender=Masc Number=Sing	24
@@ -2324,30 +2326,30 @@
 αυτών	αυτών	αυτός	DET	Case=Gen Gender=Fem Number=Plur Person=3 PronType=Dem	33	det	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Plur	32
 για	για	για	ADP		34	case	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	36
 πέντε	πέντε	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	35	nummod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	36
-λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	36	nmod	κύρωση	NOUN	Case=Gen Gender=Fem Number=Sing	30
-και	και	και	CCONJ		37	cc	σύμφωνα	ADV		38
-σύμφωνα	σύμφωνα	σύμφωνα	ADV		38	advmod	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	26
+λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	36	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	26
+και	και	και	CCONJ		37	cc	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
+σύμφωνα	σύμφωνα	σύμφωνα	ADV		38	advmod	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
 με	με	με	ADP		39	case	ειωθός	ADJ	Case=Acc Gender=Neut Number=Plur	41
 τα	τα	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Plur PronType=Art	40	det	ειωθός	ADJ	Case=Acc Gender=Neut Number=Plur	41
 ειωθότα	ειωθότα	ειωθός	ADJ	Case=Acc Gender=Neut Number=Plur	41	obl	σύμφωνα	ADV		38
 και	και	και	CCONJ		42	cc	παρέκκλιση	NOUN	Case=Acc Gender=Fem Number=Sing	44
 κατά	κατά	κατά	ADP		43	case	παρέκκλιση	NOUN	Case=Acc Gender=Fem Number=Sing	44
-παρέκκλιση	παρέκκλιση	παρέκκλιση	NOUN	Case=Acc Gender=Fem Number=Sing	44	conj	ειωθός	ADJ	Case=Acc Gender=Neut Number=Plur	41
+παρέκκλιση	παρέκκλιση	παρέκκλιση	NOUN	Case=Acc Gender=Fem Number=Sing	44	obl	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
 <g/>
 ,	,	,	PUNCT		45	punct	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48
 κατά	κατά	κατά	ADP		46	case	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48
-κάποιον	κάποιον	κάποιος	DET	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Ind	47	det	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48
-τρόπο	τρόπο	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48	obl	σύμφωνα	ADV		38
+κάποιον	κάποιον	κάποιος	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Ind	47	nmod	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48
+τρόπο	τρόπο	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48	conj	παρέκκλιση	NOUN	Case=Acc Gender=Fem Number=Sing	44
 <g/>
-,	,	,	PUNCT		49	punct	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48
+,	,	,	PUNCT		49	punct	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	51
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	50	det	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	51
-Κανονισμού	Κανονισμού	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	51	nmod	σύμφωνα	ADV		38
+Κανονισμού	Κανονισμού	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	51	nmod	τρόπος	NOUN	Case=Acc Gender=Masc Number=Sing	48
 και	και	και	CCONJ		52	cc	εκπρόσωπος	NOUN	Case=Nom Gender=Masc Number=Plur	55
 οι	οι	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Plur PronType=Art	53	det	εκπρόσωπος	NOUN	Case=Nom Gender=Masc Number=Plur	55
 Κοινοβουλευτικοί	Κοινοβουλευτικοί	κοινοβουλευτικός	ADJ	Case=Nom Gender=Masc Number=Plur	54	amod	εκπρόσωπος	NOUN	Case=Nom Gender=Masc Number=Plur	55
-Εκπρόσωποι	Εκπρόσωποι	εκπρόσωπος	NOUN	Case=Nom Gender=Masc Number=Plur	55	conj	σύμφωνα	ADV		38
+Εκπρόσωποι	Εκπρόσωποι	εκπρόσωπος	NOUN	Case=Nom Gender=Masc Number=Plur	55	nsubj	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
 <g/>
-,	,	,	PUNCT		56	punct	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
+,	,	,	PUNCT		56	punct	εκπρόσωπος	NOUN	Case=Nom Gender=Masc Number=Plur	55
 εφόσον	εφόσον	εφόσον	SCONJ		57	mark	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
 το	το	εγώ	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Prs	58	obj	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
 επιθυμούν	επιθυμούν	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59	advcl	εισάγω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
@@ -2359,7 +2361,7 @@
 και	και	και	CCONJ		64	cc	προϋπόθεση	NOUN	Case=Acc Gender=Fem Number=Sing	67
 με	με	με	ADP		65	case	προϋπόθεση	NOUN	Case=Acc Gender=Fem Number=Sing	67
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	66	det	προϋπόθεση	NOUN	Case=Acc Gender=Fem Number=Sing	67
-προϋπόθεση	προϋπόθεση	προϋπόθεση	NOUN	Case=Acc Gender=Fem Number=Sing	67	obl	επιθυμώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	59
+προϋπόθεση	προϋπόθεση	προϋπόθεση	NOUN	Case=Acc Gender=Fem Number=Sing	67	conj	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	63
 ότι	ότι	ότι	SCONJ		68	mark	μιλώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	71
 δεν	δεν	δεν	PART		69	advmod	μιλώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	71
 θα	θα	θα	AUX		70	aux	μιλώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	71
@@ -2367,12 +2369,10 @@
 ο	ο	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Sing PronType=Art	72	det	πρόεδρος	NOUN	Case=Nom Gender=Masc Number=Sing	73
 Πρόεδρος	Πρόεδρος	πρόεδρος	NOUN	Case=Nom Gender=Masc Number=Sing	73	nsubj	μιλώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	71
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	74	det	ομάδα	NOUN	Case=Gen Gender=Fem Number=Sing	77
-<name type="ORG">
 Κοινοβουλευτικής	Κοινοβουλευτικής	κοινοβουλευτικός	ADJ	Case=Gen Gender=Fem Number=Sing	75	amod	ομάδα	NOUN	Case=Gen Gender=Fem Number=Sing	77
 τους	τους	μου	PRON	Case=Gen Gender=Masc Number=Plur Person=3 Poss=Yes PronType=Prs	76	nmod	ομάδα	NOUN	Case=Gen Gender=Fem Number=Sing	77
 Ομάδας	Ομάδας	ομάδα	NOUN	Case=Gen Gender=Fem Number=Sing	77	nmod	πρόεδρος	NOUN	Case=Nom Gender=Masc Number=Sing	73
 <g/>
-</name>
 .	.	.	PUNCT		78	punct	εισάγω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
 </s>
 </p>
@@ -2382,7 +2382,7 @@
 ψηφοφορία	ψηφοφορία	ψηφοφορία	NOUN	Case=Nom Gender=Fem Number=Sing	2	nsubj	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	8
 και	και	και	CCONJ		3	cc	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Plur	6
 των	των	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Plur PronType=Art	4	det	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Plur	6
-τριών	τριών	τρεις	NUM	Case=Gen Gender=Fem Number=Plur NumType=Card	5	amod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Plur	6
+τριών	τριών	τρεις	NUM	Case=Gen Gender=Fem Number=Plur NumType=Card	5	nummod	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Plur	6
 συμβάσεων	συμβάσεων	σύμβαση	NOUN	Case=Gen Gender=Fem Number=Plur	6	nmod	ψηφοφορία	NOUN	Case=Nom Gender=Fem Number=Sing	2
 θα	θα	θα	AUX		7	aux	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	8
 γίνει	γίνει	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	8	root	-	-	-	-
@@ -2396,8 +2396,8 @@
 και	και	και	CCONJ		16	cc	σειρά	NOUN	Case=Acc Gender=Fem Number=Sing	19
 με	με	με	ADP		17	case	σειρά	NOUN	Case=Acc Gender=Fem Number=Sing	19
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	18	det	σειρά	NOUN	Case=Acc Gender=Fem Number=Sing	19
-σειρά	σειρά	σειρά	NOUN	Case=Acc Gender=Fem Number=Sing	19	obl	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	8
-που	που	που	PRON	Case=Nom Gender=Fem Number=Sing Person=3 PronType=Rel	20	nsubj:pass	συζητώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	21
+σειρά	σειρά	σειρά	NOUN	Case=Acc Gender=Fem Number=Sing	19	conj	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	8
+που	που	που	ADV		20	advmod	συζητώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	21
 συζητήθηκαν	συζητήθηκαν	συζητώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	21	acl:relcl	σειρά	NOUN	Case=Acc Gender=Fem Number=Sing	19
 <g/>
 .	.	.	PUNCT		22	punct	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	8
@@ -2421,7 +2421,8 @@
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-GR_2022-01-12-S1-commons.u2" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Regular" speaker_id="ΜΠΙΑΓΚΗΣ_ΣΠΥΡΙΔΩΝΟΣ_ΔΗΜΗΤΡΙΟΣ" speaker_name="ΜΠΙΑΓΚΗΣ, ΔΗΜΗΤΡΙΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="Opposition" speaker_gender="M" speaker_birth="">
+<note type="speaker" content="ΔΗΜΗΤΡΙΟΣ ΜΠΙΑΓΚΗΣ"/>
+<speech id="ParlaMint-GR_2022-01-12-S1-commons.u2" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="18" session="3" meeting="" sitting="52" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Regular" speaker_id="ΜΠΙΑΓΚΗΣ_ΣΠΥΡΙΔΩΝΟΣ_ΔΗΜΗΤΡΙΟΣ" speaker_name="ΜΠΙΑΓΚΗΣ, ΔΗΜΗΤΡΙΟΣ" speaker_type="MP" speaker_party="ΚΙΝ.ΑΛ." speaker_party_name="Κίνημα Αλλαγής" party_status="Opposition" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg43" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg43.1">
 Κύριε	Κύριε	κύριος	NOUN	Case=Voc Gender=Masc Number=Sing	1	vocative	θέλω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	5
@@ -2438,7 +2439,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2022-01-12-S1-commons.u154" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Chairperson" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2022-01-12-S1-commons.u154" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="18" session="3" meeting="" sitting="52" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Chairperson" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg447" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg447.1">
 Συνεπώς	Συνεπώς	συνεπώς	ADV		1	advmod	επικυρώνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	46
@@ -2448,50 +2449,50 @@
 Παρασκευής	Παρασκευής	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5	nmod	πρακτικό	NOUN	Case=Nom Gender=Neut Number=Plur	3
 5	5	5	NUM	NumType=Card	6	nmod	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	7	nmod	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
-2021	2021	2021	NUM	NumType=Card	8	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	7
+2021	2021	2021	NUM	NumType=Card	8	nmod	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
 <g/>
 ,	,	,	PUNCT		9	punct	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	11
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	11
-Δευτέρας	Δευτέρας	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	11	nmod	πρακτικό	NOUN	Case=Nom Gender=Neut Number=Plur	3
+Δευτέρας	Δευτέρας	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	11	conj	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
 8	8	8	NUM	NumType=Card	12	nmod	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	11
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	13	nmod	8	NUM	NumType=Card	12
 2021	2021	2021	NUM	NumType=Card	14	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	13
 <g/>
 ,	,	,	PUNCT		15	punct	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	17
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	16	det	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	17
-Τετάρτης	Τετάρτης	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	17	nmod	πρακτικό	NOUN	Case=Nom Gender=Neut Number=Plur	3
+Τετάρτης	Τετάρτης	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	17	conj	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
 10	10	10	NUM	NumType=Card	18	nmod	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	17
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	19	nmod	10	NUM	NumType=Card	18
 2021	2021	2021	NUM	NumType=Card	20	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	19
 <g/>
-,	,	,	PUNCT		21	punct	Πέμπτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	23
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	22	det	Πέμπτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	23
-Πέμπτης	Πέμπτης	Πέμπτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	23	nmod	πρακτικό	NOUN	Case=Nom Gender=Neut Number=Plur	3
-11	11	11	NUM	NumType=Card	24	nmod	Πέμπτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	23
+,	,	,	PUNCT		21	punct	Πέμπτη	PROPN	Case=Gen Gender=Fem Number=Sing	23
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	22	det	Πέμπτη	PROPN	Case=Gen Gender=Fem Number=Sing	23
+Πέμπτης	Πέμπτης	Πέμπτη	PROPN	Case=Gen Gender=Fem Number=Sing	23	conj	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
+11	11	11	NUM	NumType=Card	24	nmod	Πέμπτη	PROPN	Case=Gen Gender=Fem Number=Sing	23
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	25	nmod	11	NUM	NumType=Card	24
 2021	2021	2021	NUM	NumType=Card	26	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	25
 <g/>
 ,	,	,	PUNCT		27	punct	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	29
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	28	det	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	29
-Δευτέρας	Δευτέρας	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	29	nmod	11	NUM	NumType=Card	24
+Δευτέρας	Δευτέρας	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	29	conj	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
 15	15	15	NUM	NumType=Card	30	nmod	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	29
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	31	nmod	15	NUM	NumType=Card	30
 2021	2021	2021	NUM	NumType=Card	32	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	31
 <g/>
-,	,	,	PUNCT		33	punct	Τρίτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	35
-της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	Τρίτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	35
-Τρίτης	Τρίτης	Τρίτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	35	nmod	Δευτέρα	PROPN	Case=Gen Gender=Fem Number=Sing	29
-16	16	16	NUM	NumType=Card	36	nmod	Τρίτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	35
+,	,	,	PUNCT		33	punct	Τρίτη	PROPN	Case=Gen Gender=Fem Number=Sing	35
+της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	Τρίτη	PROPN	Case=Gen Gender=Fem Number=Sing	35
+Τρίτης	Τρίτης	Τρίτη	PROPN	Case=Gen Gender=Fem Number=Sing	35	conj	Παρασκευή	PROPN	Case=Gen Gender=Fem Number=Sing	5
+16	16	16	NUM	NumType=Card	36	nmod	Τρίτη	PROPN	Case=Gen Gender=Fem Number=Sing	35
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	37	nmod	16	NUM	NumType=Card	36
 2021	2021	2021	NUM	NumType=Card	38	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	37
 και	και	και	CCONJ		39	cc	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	41
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	40	det	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	41
-Τετάρτης	Τετάρτης	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	41	conj	16	NUM	NumType=Card	36
+Τετάρτης	Τετάρτης	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	41	conj	Τρίτη	PROPN	Case=Gen Gender=Fem Number=Sing	35
 17	17	17	NUM	NumType=Card	42	nmod	Τετάρτη	PROPN	Case=Gen Gender=Fem Number=Sing	41
 Νοεμβρίου	Νοεμβρίου	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	43	nmod	17	NUM	NumType=Card	42
 2021	2021	2021	NUM	NumType=Card	44	nmod	Νοέμβριος	PROPN	Case=Gen Gender=Masc Number=Sing	43
 <g/>
-,	,	,	PUNCT		45	punct	Τρίτη	NUM	Case=Gen Gender=Fem Number=Sing NumType=Ord	35
+,	,	,	PUNCT		45	punct	πρακτικό	NOUN	Case=Nom Gender=Neut Number=Plur	3
 επικυρώθηκαν	επικυρώθηκαν	επικυρώνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	46	root	-	-	-	-
 <g/>
 .	.	.	PUNCT		47	punct	επικυρώνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	46
@@ -2517,7 +2518,8 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2022-01-12-S1-commons.u155" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Chairperson" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΑΘΑΝΑΣΙΟΣ ΜΠΟΥΡΑΣ):"/>
+<speech id="ParlaMint-GR_2022-01-12-S1-commons.u155" text_id="ParlaMint-GR_2022-01-12-S1-commons" subcorpus="COVID" house="" term="18" session="3" meeting="" sitting="52" agenda="" from="2022-01-12" to="2022-01-12" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 52, 2022-01-12" speaker_role="Chairperson" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2022-01-12-S1-commons.seg449" lang="greek">
 <s id="ParlaMint-GR_2022-01-12-S1-commons.seg449.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -2528,22 +2530,22 @@
 Σώματος	Σώματος	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	5	nmod	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
 </name>
 και	και	και	CCONJ		6	cc	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7
-ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7	conj	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
+ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7	conj	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	5
 12.35΄	12.35΄	12.35΄	NUM	NumType=Card	8	nmod	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7
 λύεται	λύεται	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9	root	-	-	-	-
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
 συνεδρίαση	συνεδρίαση	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11	nsubj:pass	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
 για	για	για	ADP		12	case	αύριο	ADV		13
-αύριο	αύριο	αύριο	ADV		13	nmod	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
+αύριο	αύριο	αύριο	ADV		13	advmod	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
 <g/>
 ,	,	,	PUNCT		14	punct	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	15
-ημέρα	ημέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	15	nmod	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
-Πέμπτη	Πέμπτη	Πέμπτη	PROPN	Case=Nom Gender=Fem Number=Sing	16	nmod	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	15
-13	13	13	NUM	NumType=Card	17	nmod	Πέμπτη	PROPN	Case=Nom Gender=Fem Number=Sing	16
+ημέρα	ημέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	15	nmod	Πέμπτη	PROPN	Case=Acc Gender=Fem Number=Sing	16
+Πέμπτη	Πέμπτη	Πέμπτη	PROPN	Case=Acc Gender=Fem Number=Sing	16	obl	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
+13	13	13	NUM	NumType=Card	17	nmod	Πέμπτη	PROPN	Case=Acc Gender=Fem Number=Sing	16
 Ιανουαρίου	Ιανουαρίου	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	18	nmod	13	NUM	NumType=Card	17
 2022	2022	2022	NUM	NumType=Card	19	nmod	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	18
 και	και	και	CCONJ		20	cc	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	21
-ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	21	conj	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	15
+ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	21	conj	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
 10.00΄	10.00΄	10.00΄	NUM	NumType=Card	22	nmod	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	21
 <g/>
 ,	,	,	PUNCT		23	punct	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	25
@@ -2556,9 +2558,9 @@
 <g/>
 </name>
 :	:	:	PUNCT		29	punct	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	25
-νομοθετική	νομοθετική	νομοθετικός	ADJ	Case=Nom Gender=Fem Number=Sing	30	amod	εργασία	NOUN	Case=Nom Gender=Fem Number=Sing	31
-εργασία	εργασία	εργασία	NOUN	Case=Nom Gender=Fem Number=Sing	31	appos	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
-σύμφωνα	σύμφωνα	σύμφωνα	ADV		32	advmod	εργασία	NOUN	Case=Nom Gender=Fem Number=Sing	31
+νομοθετική	νομοθετική	νομοθετικός	ADJ	Case=Nom Gender=Fem Number=Sing	30	amod	εργασία	NOUN	Case=Acc Gender=Fem Number=Sing	31
+εργασία	εργασία	εργασία	NOUN	Case=Acc Gender=Fem Number=Sing	31	parataxis	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
+σύμφωνα	σύμφωνα	σύμφωνα	ADV		32	advmod	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
 με	με	με	ADP		33	case	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	36
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	34	det	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	36
 ημερήσια	ημερήσια	ημερήσιος	ADJ	Case=Acc Gender=Fem Number=Sing	35	amod	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	36

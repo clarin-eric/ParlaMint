@@ -256,13 +256,13 @@
         </xsl:choose>
       </xsl:when>
       <xsl:when test="$persName/tei:persName[2]">
-        <xsl:message select="concat('ERROR: several persNames ', $persName, 
-                             ' on ', $when)"/> 
+        <xsl:message select="concat('ERROR: several persNames ', $persName,
+                             ' on ', $when)"/>
         <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
       </xsl:when>
       <xsl:when test="not($persName/tei:persName)">
         <xsl:message select="concat('ERROR: empty persName ',
-                             'on ', $when)"/> 
+                             'on ', $when)"/>
         <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
@@ -307,7 +307,7 @@
         <xsl:value-of select="$persName"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('ERROR: empty persName for ', $persName/@xml:id)"/> 
+        <xsl:message select="concat('ERROR: empty persName for ', $persName/@xml:id)"/>
         <xsl:text></xsl:text>
       </xsl:otherwise>
     </xsl:choose>
@@ -353,11 +353,14 @@
     <xsl:variable name="relations" select="$rootHeader//tei:relation
                                            [@name='coalition' or @name='opposition']"/>
     <xsl:choose>
-      <xsl:when test="not($relations/self::tei:relation)">
-        <xsl:message>ERROR: no coalition / opposition info found in corpus</xsl:message>
+      <xsl:when test="not($relations/self::tei:relation[@name='coalition'])">
+        <xsl:message>ERROR: no coalition info found in corpus</xsl:message>
         <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
+        <xsl:if test="not($relations/self::tei:relation[@name='opposition'])">
+          <xsl:message>WARN: no opposition info found in corpus</xsl:message>
+        </xsl:if>
         <!-- Relation in the correct time-frame, should be only 1 -->
         <xsl:variable name="relation">
           <xsl:for-each select="$relations/self::tei:relation">
@@ -367,12 +370,12 @@
             </xsl:if>
           </xsl:for-each>
         </xsl:variable>
-        <!-- Is the organisation that the speaker is affiliated with in the 
+        <!-- Is the organisation that the speaker is affiliated with in the
              coallition(s) / oppositions(s)? -->
-        <!-- We don't check the type of organisation or the speaker's role in it, as we 
+        <!-- We don't check the type of organisation or the speaker's role in it, as we
              assume that this is "ok" -->
         <xsl:variable name="in-relations">
-          <!-- Collect all affiliation references where the speaker is a member and are in 
+          <!-- Collect all affiliation references where the speaker is a member and are in
                the correct time-frame for the speech -->
           <xsl:variable name="org-refs" select="et:speaker-affiliations-refs($speaker)"/>
           <xsl:for-each select="$relation/tei:relation[@name = 'coalition']/tokenize(@mutual)">
@@ -403,7 +406,7 @@
               <xsl:text>ERROR: multiple party statuses for </xsl:text>
               <xsl:value-of select="$speaker/@xml:id"/>
               <xsl:text> on </xsl:text>
-              <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ', 
+              <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ',
                                     normalize-space($in-relation))"/>
             </xsl:message>
             <xsl:value-of select="substring-before($in-relation, ' ')"/>
@@ -459,7 +462,7 @@
     <xsl:param name="speaker" as="element(tei:person)"/>
     <xsl:variable name="refs">
       <xsl:for-each select="$speaker/tei:affiliation
-                            [@role='member' or @role='candidateMP' or 
+                            [@role='member' or @role='candidateMP' or
                             @role='president' or @role='vicePresident' or @role='secretary']">
         <xsl:if test="et:between-dates($date-from, @from, @to) and
                       et:between-dates($date-to, @from, @to)">

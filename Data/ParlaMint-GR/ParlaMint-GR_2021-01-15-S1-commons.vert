@@ -1,4 +1,13 @@
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u1" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<note type="head" content="ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ"/>
+<note type="head" content="ΙΗ ΠΕΡΙΟΔΟΣ"/>
+<note type="head" content="ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ"/>
+<note type="head" content="ΣΥΝΟΔΟΣ Β'"/>
+<note type="head" content="ΣΥΝΕΔΡΙΑΣΗ ΞΒ'"/>
+<note type="head" content="Παρασκευή 15 Ιανουαρίου 2021"/>
+<note type="gap::editorial" content="The frontmatter of the document has been removed"/>
+<note type="-" content="Αθήνα, σήμερα στις 15 Ιανουαρίου 2021, ημέρα Παρασκευή και ώρα 10.42΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Προέδρου αυτής κ. ΚΩΝΣΤΑΝΤΙΝΟΥ ΤΑΣΟΥΛΑ."/>
+<note type="speaker" content="ΠΡΟΕΔΡΟΣ (ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΑΣΟΥΛΑΣ):"/>
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u1" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="18" session="2" meeting="" sitting="62" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg1" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -6,11 +15,11 @@
 κύριοι	κύριοι	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3	conj	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
 συνάδελφοι	συνάδελφοι	συνάδελφος	NOUN	Case=Voc Gender=Masc Number=Plur	4	flat	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
 <g/>
-,	,	,	PUNCT		5	punct	καλημέρα	NOUN	Case=Nom Gender=Fem Number=Sing	6
-καλημέρα	καλημέρα	καλημέρα	NOUN	Case=Nom Gender=Fem Number=Sing	6	nmod	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
-σας	σας	εγώ	PRON	Case=Gen Gender=Masc Number=Plur Person=2 PronType=Prs	7	nmod	καλημέρα	NOUN	Case=Nom Gender=Fem Number=Sing	6
+,	,	,	PUNCT		5	punct	καλημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	6
+καλημέρα	καλημέρα	καλημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	6	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
+σας	σας	εγώ	PRON	Case=Gen Gender=Masc Number=Plur Person=2 PronType=Prs	7	nmod	καλημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	6
 <g/>
-,	,	,	PUNCT		8	punct	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
+,	,	,	PUNCT		8	punct	καλημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	6
 αρχίζει	αρχίζει	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9	root	-	-	-	-
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
 συνεδρίαση	συνεδρίαση	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11	nsubj	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
@@ -18,11 +27,14 @@
 .	.	.	PUNCT		12	punct	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 </s>
 </p>
+<note type="-" content="ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ: Σύμφωνα με την από 14-1-2021 εξουσιοδότηση του Σώματος, επικυρώθηκαν με ευθύνη του Προεδρείου τα πρακτικά της ΞΑ΄ συνεδριάσεώς του, της Πέμπτης 14 Ιανουαρίου 2021, σε ό,τι αφορά την ψήφιση στο σύνολο του σχεδίου νόμου: «Έγκριση σχεδίων συμβάσεων στον τομέα της άμυνας»."/>
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg2" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg2.1">
 Εισερχόμαστε	Εισερχόμαστε	εισέρχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Pass	1	root	-	-	-	-
 στην	σ|την	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	3|4	case|det	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	7
+<name type="LOC">
 ΕΙΔΙΚΗ	ΕΙΔΙΚΗ	ειδικός	ADJ	Case=Acc Gender=Fem Number=Sing	5	amod	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	7
+</name>
 ΗΜΕΡΗΣΙΑ	ΗΜΕΡΗΣΙΑ	ημερήσιος	ADJ	Case=Acc Gender=Fem Number=Sing	6	amod	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	7
 ΔΙΑΤΑΞΗ	ΔΙΑΤΑΞΗ	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	7	obl	εισέρχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Pass	1
 </s>
@@ -36,10 +48,10 @@
 αιτήματος	αιτήματος	αίτημα	NOUN	Case=Gen Gender=Neut Number=Sing	4	nmod	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	1
 του	του	ο	DET	Case=Gen Definite=Def Gender=Masc Number=Sing PronType=Art	5	det	πρωθυπουργός	NOUN	Case=Gen Gender=Masc Number=Sing	6
 Πρωθυπουργού	Πρωθυπουργού	πρωθυπουργός	NOUN	Case=Gen Gender=Masc Number=Sing	6	nmod	αίτημα	NOUN	Case=Gen Gender=Neut Number=Sing	4
-κ.	κ.	κ.	NOUN	Abbr=Yes	7	flat	πρωθυπουργός	NOUN	Case=Gen Gender=Masc Number=Sing	6
+κ.	κ.	κ.	NOUN	Abbr=Yes	7	nmod	αίτημα	NOUN	Case=Gen Gender=Neut Number=Sing	4
 <name type="PER">
-Κυριάκου	Κυριάκου	Κυριάκος	PROPN	Case=Gen Gender=Masc Number=Sing	8	flat	πρωθυπουργός	NOUN	Case=Gen Gender=Masc Number=Sing	6
-Μητσοτάκη	Μητσοτάκη	Μητσοτάκης	PROPN	Case=Acc Gender=Masc Number=Sing	9	flat	πρωθυπουργός	NOUN	Case=Gen Gender=Masc Number=Sing	6
+Κυριάκου	Κυριάκου	Κυριάκος	PROPN	Case=Gen Gender=Masc Number=Sing	8	flat	κ.	NOUN	Abbr=Yes	7
+Μητσοτάκη	Μητσοτάκη	Μητσοτάκης	PROPN	Case=Gen Gender=Masc Number=Sing	9	flat	κ.	NOUN	Abbr=Yes	7
 <g/>
 </name>
 ,	,	,	PUNCT		10	punct	σύμφωνα	ADV		11
@@ -55,9 +67,9 @@
 Βουλής	Βουλής	βουλή	NOUN	Case=Gen Gender=Fem Number=Sing	19	nmod	κανονισμός	NOUN	Case=Gen Gender=Masc Number=Sing	17
 <g/>
 </name>
-,	,	,	PUNCT		20	punct	σύμφωνα	ADV		11
+,	,	,	PUNCT		20	punct	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	22
 με	με	με	ADP		21	case	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	22
-αντικείμενο	αντικείμενο	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	22	nmod	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	1
+αντικείμενο	αντικείμενο	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	22	obl	σύμφωνα	ADV		11
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	ενημέρωση	NOUN	Case=Acc Gender=Fem Number=Sing	24
 ενημέρωση	ενημέρωση	ενημέρωση	NOUN	Case=Acc Gender=Fem Number=Sing	24	acl	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	22
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	25	det	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	26
@@ -93,9 +105,9 @@
 Πρωθυπουργού	Πρωθυπουργού	πρωθυπουργός	NOUN	Case=Gen Gender=Masc Number=Sing	10	flat	κύριος	NOUN	Case=Gen Gender=Masc Number=Sing	9
 που	που	που	PRON	Case=Nom Gender=Masc Number=Sing Person=3 PronType=Rel	11	nsubj:pass	αποστέλλω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	12
 απεστάλη	απεστάλη	αποστέλλω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	12	acl:relcl	κύριος	NOUN	Case=Gen Gender=Masc Number=Sing	9
-την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	Παρασκευή	PROPN	Case=Nom Gender=Fem Number=Sing	14
-Παρασκευή	Παρασκευή	Παρασκευή	PROPN	Case=Nom Gender=Fem Number=Sing	14	obl	αποστέλλω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	12
-8	8	8	NUM	NumType=Card	15	nmod	Παρασκευή	PROPN	Case=Nom Gender=Fem Number=Sing	14
+την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	Παρασκευή	PROPN	Case=Acc Gender=Fem Number=Sing	14
+Παρασκευή	Παρασκευή	Παρασκευή	PROPN	Case=Acc Gender=Fem Number=Sing	14	obl	αποστέλλω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	12
+8	8	8	NUM	NumType=Card	15	nmod	Παρασκευή	PROPN	Case=Acc Gender=Fem Number=Sing	14
 Ιανουαρίου	Ιανουαρίου	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	16	nmod	8	NUM	NumType=Card	15
 2021	2021	2021	NUM	NumType=Card	17	nmod	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	16
 και	και	και	CCONJ		18	cc	γνωστοποιώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	19
@@ -111,7 +123,7 @@
 <g/>
 ,	,	,	PUNCT		30	punct	ορίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	32
 όπως	όπως	όπως	ADV		31	advmod	ορίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	32
-ορίζει	ορίζει	ορίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	32	advcl	γνωστοποιώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	19
+ορίζει	ορίζει	ορίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	32	advcl	συνεδριάζω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 το	το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	33	det	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	34
 άρθρο	άρθρο	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	34	nsubj	ορίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	32
 142Α	142Α	142Α	NUM	NumType=Card	35	nmod	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	34
@@ -132,7 +144,7 @@
 τα	τα	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Plur PronType=Art	3	det	οριζόμενος	ADJ	Case=Acc Gender=Neut Number=Plur	4
 οριζόμενα	οριζόμενα	οριζόμενος	ADJ	Case=Acc Gender=Neut Number=Plur	4	obl	σύμφωνα	ADV		1
 στο	σ|το	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	6|7	case|det	άρθρο	NOUN	Case=Acc Gender=Neut Number=Sing	8
-άρθρο	άρθρο	άρθρο	NOUN	Case=Acc Gender=Neut Number=Sing	8	obl	σύμφωνα	ADV		1
+άρθρο	άρθρο	άρθρο	NOUN	Case=Acc Gender=Neut Number=Sing	8	nmod	οριζόμενος	ADJ	Case=Acc Gender=Neut Number=Plur	4
 142Α	142Α	142Α	NUM	NumType=Card	9	nmod	άρθρο	NOUN	Case=Acc Gender=Neut Number=Sing	8
 <g/>
 ,	,	,	PUNCT		10	punct	σύμφωνα	ADV		1
@@ -158,13 +170,13 @@
 πρωτολογία	πρωτολογία	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	32	obl	υπερβαίνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25
 <g/>
 ,	,	,	PUNCT		33	punct	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34
-πέντε	πέντε	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34	appos	υπερβαίνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	25
+πέντε	πέντε	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34	appos	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	32
 στη	σ|τη	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	36|37	case|det	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	38
-δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	38	nmod	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34
+δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	38	obl	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34
 και	και	και	CCONJ		39	cc	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	40
 πέντε	πέντε	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	40	conj	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34
 στην	σ|την	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	42|43	case|det	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	44
-τριτολογία	τριτολογία	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	44	nmod	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	40
+τριτολογία	τριτολογία	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	44	orphan	πέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	40
 <g/>
 .	.	.	PUNCT		45	punct	γίνομαι	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	13
 </s>
@@ -193,17 +205,17 @@
 λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	20	nmod	περιεχόμενο	NOUN	Case=Acc Gender=Neut Number=Sing	15
 για	για	για	ADP		21	case	καθένας	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Tot	23
 τον	τον	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Sing PronType=Art	22	det	καθένας	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Tot	23
-καθένα	καθένα	καθένας	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Tot	23	nmod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	20
+καθένα	καθένα	καθένας	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Tot	23	nmod	περιεχόμενο	NOUN	Case=Acc Gender=Neut Number=Sing	15
 στην	σ|την	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	25|26	case|det	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	27
-πρωτολογία	πρωτολογία	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	27	nmod	καθένας	PRON	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Tot	23
+πρωτολογία	πρωτολογία	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	27	nmod	περιεχόμενο	NOUN	Case=Acc Gender=Neut Number=Sing	15
 και	και	και	CCONJ		28	cc	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
 εν	εν	εν	ADP		29	case	συνεχεία	NOUN	Case=Dat Gender=Fem Number=Sing	30
-συνεχεία	συνεχεία	συνεχεία	NOUN	Case=Dat Gender=Fem Number=Sing	30	nmod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
-για	για	για	ADP		31	case	τρεις	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	32
+συνεχεία	συνεχεία	συνεχεία	NOUN	Case=Dat Gender=Fem Number=Sing	30	orphan	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
+για	για	για	ADP		31	case	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
 τρία	τρία	τρεις	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	32	nummod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
 λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33	conj	περιεχόμενο	NOUN	Case=Acc Gender=Neut Number=Sing	15
 στη	σ|τη	σε|ο	ADP|DET	|Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	35|36	case|det	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	37
-δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	37	nmod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
+δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	37	orphan	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	33
 <g/>
 .	.	.	PUNCT		38	punct	μπορώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 </s>
@@ -233,9 +245,9 @@
 </p>
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg6" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg6.1">
-Ωστόσο	Ωστόσο	ωστόσο	CCONJ		1	cc	προτείνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	10
+Ωστόσο	Ωστόσο	ωστόσο	ADV		1	cc	προτείνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	10
 <g/>
-,	,	,	PUNCT		2	punct	ωστόσο	CCONJ		1
+,	,	,	PUNCT		2	punct	ωστόσο	ADV		1
 για	για	για	ADP		3	case	οργάνωση	NOUN	Case=Acc Gender=Fem Number=Sing	6
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	4	det	οργάνωση	NOUN	Case=Acc Gender=Fem Number=Sing	6
 καλύτερη	καλύτερη	καλός	ADJ	Case=Acc Degree=Cmp Gender=Fem Number=Sing	5	amod	οργάνωση	NOUN	Case=Acc Gender=Fem Number=Sing	6
@@ -253,9 +265,9 @@
 από	από	από	ADP		15	case	12	NUM	NumType=Card	16
 12	12	12	NUM	NumType=Card	16	obl	σύμφωνα	ADV		12
 Ιανουαρίου	Ιανουαρίου	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	17	nmod	12	NUM	NumType=Card	16
-2021	2021	2021	NUM	NumType=Card	18	nmod	12	NUM	NumType=Card	16
+2021	2021	2021	NUM	NumType=Card	18	nmod	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	17
 ομόφωνη	ομόφωνη	ομόφωνος	ADJ	Case=Nom Gender=Fem Number=Sing	19	amod	απόφαση	NOUN	Case=Nom Gender=Fem Number=Sing	20
-απόφαση	απόφαση	απόφαση	NOUN	Case=Nom Gender=Fem Number=Sing	20	obj	προτείνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	10
+απόφαση	απόφαση	απόφαση	NOUN	Case=Nom Gender=Fem Number=Sing	20	nsubj	προτείνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	10
 της	της	ο	DET	Case=Gen Definite=Def Gender=Fem Number=Sing PronType=Art	21	det	διάσκεψη	NOUN	Case=Gen Gender=Fem Number=Sing	22
 <name type="ORG">
 Διασκέψεως	Διασκέψεως	διάσκεψη	NOUN	Case=Gen Gender=Fem Number=Sing	22	nmod	απόφαση	NOUN	Case=Nom Gender=Fem Number=Sing	20
@@ -288,7 +300,7 @@
 ο	ο	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Sing PronType=Art	9	det	πρωθυπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	10
 Πρωθυπουργός	Πρωθυπουργός	πρωθυπουργός	NOUN	Case=Nom Gender=Masc Number=Sing	10	nsubj	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
 θα	θα	θα	AUX		11	aux	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
-έχει	έχει	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12	parataxis	διαμορφώνω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	5
+έχει	έχει	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12	conj	διαμορφώνω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	5
 για	για	για	ADP		13	case	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	15
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	14	det	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	15
 πρωτολογία	πρωτολογία	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	15	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
@@ -302,19 +314,19 @@
 δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	22	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
 του	του	μου	PRON	Case=Gen Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	23	nmod	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	22
 δεκαπέντε	δεκαπέντε	δεκαπέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	24	nummod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	25
-λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	25	nmod	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	22
+λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	25	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
 και	και	και	CCONJ		26	cc	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29
 για	για	για	ADP		27	case	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	28	det	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29
-τριτολογία	τριτολογία	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29	conj	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	22
+τριτολογία	τριτολογία	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29	conj	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	25
 του	του	μου	PRON	Case=Gen Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs	30	nmod	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29
 <g/>
 ,	,	,	PUNCT		31	punct	επίσης	ADV		32
-επίσης	επίσης	επίσης	ADV		32	advmod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	35
+επίσης	επίσης	επίσης	ADV		32	advmod	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29
 <g/>
 ,	,	,	PUNCT		33	punct	επίσης	ADV		32
 δεκαπέντε	δεκαπέντε	δεκαπέντε	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	34	nummod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	35
-λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	35	nmod	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	29
+λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	35	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	12
 <g/>
 .	.	.	PUNCT		36	punct	διαμορφώνω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Pass	5
 </s>
@@ -339,14 +351,14 @@
 λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	16	obj	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	14
 για	για	για	ADP		17	case	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	19
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	18	det	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	19
-πρωτολογία	πρωτολογία	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	19	nmod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	16
+πρωτολογία	πρωτολογία	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	19	obl	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	14
 τους	τους	μου	PRON	Case=Gen Gender=Masc Number=Plur Person=3 Poss=Yes PronType=Prs	20	nmod	πρωτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	19
 και	και	και	CCONJ		21	cc	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	23
 εννιά	εννιά	εννέα	NUM	Case=Acc Gender=Neut Number=Plur NumType=Card	22	nummod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	23
 λεπτά	λεπτά	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	23	conj	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	14
 για	για	για	ADP		24	case	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	26
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	25	det	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	26
-δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	26	nmod	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	23
+δευτερολογία	δευτερολογία	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	26	orphan	λεπτό	NOUN	Case=Acc Gender=Neut Number=Plur	23
 τους	τους	μου	PRON	Case=Gen Gender=Masc Number=Plur Person=3 Poss=Yes PronType=Prs	27	nmod	δευτερολογία	NOUN	Case=Acc Gender=Fem Number=Sing	26
 <g/>
 .	.	.	PUNCT		28	punct	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act	14
@@ -368,11 +380,11 @@
 ότι	ότι	ότι	SCONJ		12	mark	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	14
 θα	θα	θα	AUX		13	aux	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	14
 υπάρξει	υπάρξει	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	14	acl	δεδομένο	NOUN	Case=Acc Gender=Neut Number=Sing	11
-και	και	και	CCONJ		15	cc	ανοχή	NOUN	Case=Acc Gender=Fem Number=Sing	19
-σε	σε	σε	ADP		16	case	ανοχή	NOUN	Case=Acc Gender=Fem Number=Sing	19
-αυτό	αυτό	αυτός	DET	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	17	det	ανοχή	NOUN	Case=Acc Gender=Fem Number=Sing	19
-μία	μία	ένας	DET	Case=Acc Definite=Ind Gender=Fem Number=Sing PronType=Art	18	det	ανοχή	NOUN	Case=Acc Gender=Fem Number=Sing	19
-ανοχή	ανοχή	ανοχή	NOUN	Case=Acc Gender=Fem Number=Sing	19	obl	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	14
+και	και	και	CCONJ		15	cc	αυτός	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	17
+σε	σε	σε	ADP		16	case	αυτός	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	17
+αυτό	αυτό	αυτός	PRON	Case=Acc Gender=Neut Number=Sing Person=3 PronType=Dem	17	obl	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	14
+μία	μία	ένας	DET	Case=Acc Definite=Ind Gender=Fem Number=Sing PronType=Art	18	det	ανοχή	NOUN	Case=Nom Gender=Fem Number=Sing	19
+ανοχή	ανοχή	ανοχή	NOUN	Case=Nom Gender=Fem Number=Sing	19	nsubj	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Act	14
 <g/>
 ,	,	,	PUNCT		20	punct	δεδομένο	NOUN	Case=Acc Gender=Neut Number=Sing	2
 παρακαλώ	παρακαλώ	παρακαλώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	21	root	-	-	-	-
@@ -380,7 +392,7 @@
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	23	det	τήρηση	NOUN	Case=Acc Gender=Fem Number=Sing	27
 κατά	κατά	κατά	ADP		24	case	δυνατός	ADJ	Case=Acc Gender=Neut Number=Sing	26
 το	το	ο	DET	Case=Acc Definite=Def Gender=Neut Number=Sing PronType=Art	25	det	δυνατός	ADJ	Case=Acc Gender=Neut Number=Sing	26
-δυνατόν	δυνατόν	δυνατός	ADJ	Case=Acc Gender=Neut Number=Sing	26	nmod	τήρηση	NOUN	Case=Acc Gender=Fem Number=Sing	27
+δυνατόν	δυνατόν	δυνατός	ADJ	Case=Acc Gender=Neut Number=Sing	26	amod	τήρηση	NOUN	Case=Acc Gender=Fem Number=Sing	27
 τήρηση	τήρηση	τήρηση	NOUN	Case=Acc Gender=Fem Number=Sing	27	obl	παρακαλώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	21
 αυτού	αυτού	αυτός	DET	Case=Gen Gender=Neut Number=Sing Person=3 PronType=Dem	28	det	όριο	NOUN	Case=Gen Gender=Neut Number=Sing	31
 του	του	ο	DET	Case=Gen Definite=Def Gender=Neut Number=Sing PronType=Art	29	det	όριο	NOUN	Case=Gen Gender=Neut Number=Sing	31
@@ -405,7 +417,8 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u2" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<note type="speaker" content="ΠΡΟΕΔΡΟΣ (ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΑΣΟΥΛΑΣ):"/>
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u2" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="18" session="2" meeting="" sitting="62" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg10" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg10.1">
 Συνεπώς	Συνεπώς	συνεπώς	ADV		1	advmod	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	4
@@ -440,13 +453,13 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u106" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u106" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="18" session="2" meeting="" sitting="62" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg951" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg951.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	ολοκληρώνω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	12
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
 κύριοι	κύριοι	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3	conj	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
-συνάδελφοι	συνάδελφοι	συνάδελφος	NOUN	Case=Voc Gender=Masc Number=Plur	4	flat	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
+συνάδελφοι	συνάδελφοι	συνάδελφος	NOUN	Case=Voc Gender=Masc Number=Plur	4	conj	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
 <g/>
 ,	,	,	PUNCT		5	punct	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1
 με	με	με	ADP		6	case	τριτολογία	NOUN	Case=Acc Gender=Fem Number=Sing	8
@@ -492,7 +505,8 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
-<speech id="ParlaMint-GR_2021-01-15-S1-commons.u107" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="ΙΗ" session="" meeting="" sitting="" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
+<note type="speaker" content="ΠΡΟΕΔΡΟΣ (ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΑΣΟΥΛΑΣ):"/>
+<speech id="ParlaMint-GR_2021-01-15-S1-commons.u107" text_id="ParlaMint-GR_2021-01-15-S1-commons" subcorpus="COVID" house="" term="18" session="2" meeting="" sitting="62" agenda="" from="2021-01-15" to="2021-01-15" title="Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15" speaker_role="Chairperson" speaker_id="ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_name="ΤΑΣΟΥΛΑΣ, ΚΩΝΣΤΑΝΤΙΝΟΣ" speaker_type="MP" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2021-01-15-S1-commons.seg953" lang="greek">
 <s id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -503,20 +517,20 @@
 Σώματος	Σώματος	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	5	nmod	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
 </name>
 και	και	και	CCONJ		6	cc	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7
-ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7	conj	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
-17.40΄	17.40΄	17.40΄	NUM	NumType=Card	8	nmod	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7
+ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	7	nmod	17.40΄	NUM	NumType=Card	8
+17.40΄	17.40΄	17.40΄	NUM	NumType=Card	8	conj	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	5
 λύεται	λύεται	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9	root	-	-	-	-
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	10	det	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
 συνεδρίαση	συνεδρίαση	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11	nsubj:pass	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
-για	για	για	ADP		12	case	Δευτέρα	PROPN	Case=Nom Gender=Fem Number=Sing	14
-τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	Δευτέρα	PROPN	Case=Nom Gender=Fem Number=Sing	14
-Δευτέρα	Δευτέρα	Δευτέρα	PROPN	Case=Nom Gender=Fem Number=Sing	14	nmod	συνεδρίαση	NOUN	Case=Nom Gender=Fem Number=Sing	11
-18	18	18	NUM	NumType=Card	15	nmod	Δευτέρα	PROPN	Case=Nom Gender=Fem Number=Sing	14
+για	για	για	ADP		12	case	Δευτέρα	PROPN	Case=Acc Gender=Fem Number=Sing	14
+τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	13	det	Δευτέρα	PROPN	Case=Acc Gender=Fem Number=Sing	14
+Δευτέρα	Δευτέρα	Δευτέρα	PROPN	Case=Acc Gender=Fem Number=Sing	14	obl	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
+18	18	18	NUM	NumType=Card	15	nmod	Δευτέρα	PROPN	Case=Acc Gender=Fem Number=Sing	14
 Ιανουαρίου	Ιανουαρίου	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	16	nmod	18	NUM	NumType=Card	15
 2021	2021	2021	NUM	NumType=Card	17	nmod	Ιανουάριος	PROPN	Case=Gen Gender=Masc Number=Sing	16
 και	και	και	CCONJ		18	cc	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	19
-ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	19	conj	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
-13.00΄	13.00΄	13.00΄	NUM	NumType=Card	20	nmod	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	19
+ώρα	ώρα	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	19	conj	2021	NUM	NumType=Card	17
+13.00΄	13.00΄	13.00΄	ADV		20	advmod	ώρα	NOUN	Case=Acc Gender=Fem Number=Sing	19
 <g/>
 ,	,	,	PUNCT		21	punct	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	23
 με	με	με	ADP		22	case	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	23
@@ -527,9 +541,9 @@
 Σώματος	Σώματος	σώμα	NOUN	Case=Gen Gender=Neut Number=Sing	26	nmod	εργασία	NOUN	Case=Gen Gender=Fem Number=Plur	24
 <g/>
 </name>
-:	:	:	PUNCT		27	punct	αντικείμενο	NOUN	Case=Acc Gender=Neut Number=Sing	23
+:	:	:	PUNCT		27	punct	έλεγχος	NOUN	Case=Acc Gender=Masc Number=Sing	29
 κοινοβουλευτικό	κοινοβουλευτικό	κοινοβουλευτικός	ADJ	Case=Acc Gender=Masc Number=Sing	28	amod	έλεγχος	NOUN	Case=Acc Gender=Masc Number=Sing	29
-έλεγχο	έλεγχο	έλεγχος	NOUN	Case=Acc Gender=Masc Number=Sing	29	appos	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
+έλεγχο	έλεγχο	έλεγχος	NOUN	Case=Acc Gender=Masc Number=Sing	29	parataxis	λύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	9
 <g/>
 ,	,	,	PUNCT		30	punct	συζήτηση	NOUN	Case=Acc Gender=Fem Number=Sing	31
 συζήτηση	συζήτηση	συζήτηση	NOUN	Case=Acc Gender=Fem Number=Sing	31	conj	έλεγχος	NOUN	Case=Acc Gender=Masc Number=Sing	29
