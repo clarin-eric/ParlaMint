@@ -426,13 +426,21 @@
           <zeroOrMore>
             <ref name="head"/>
           </zeroOrMore>
-          <oneOrMore>
+	  <a:documentation>We want at least one u in the debateSection.</a:documentation>
+          <zeroOrMore>
+            <choice>
+              <ref name="comment"/>
+              <ref name="pb"/>
+            </choice>
+          </zeroOrMore>
+          <ref name="u"/>
+          <zeroOrMore>
             <choice>
               <ref name="comment"/>
               <ref name="pb"/>
               <ref name="u"/>
             </choice>
-          </oneOrMore>
+          </zeroOrMore>
         </group>
         <a:documentation>A div with transcriber comments only.</a:documentation>
         <group>
