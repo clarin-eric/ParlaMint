@@ -67,14 +67,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     print STDERR "INFO: *Packing $anaDir, $ConlDir, $VertDir\n";
     if (-e "$inDir/$anaDir/$XX.ana.xml") {
-	`rm -fr $outDir/$outAna`;
-	die "Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
-	die "Can't find $inDir/$ConlDir\n" unless -e "$inDir/$ConlDir";
-	die "Can't find $inDir/$VertDir\n" unless -e "$inDir/$VertDir";
-	`cd $inDir; tar -czf $outAna --mode='a+rwX' $anaDir $ConlDir $VertDir`;
-	move("$inDir/$outAna", $outDir);
+        `rm -fr $outDir/$outAna`;
+        die "Can't find $inDir/$anaDir\n" unless -e "$inDir/$anaDir"; 
+        die "Can't find $inDir/$ConlDir\n" unless -e "$inDir/$ConlDir";
+        die "Can't find $inDir/$VertDir\n" unless -e "$inDir/$VertDir";
+        `cd $inDir; tar -czf $outAna --mode='a+rwX' $anaDir $ConlDir $VertDir`;
+        move("$inDir/$outAna", $outDir);
     }
     else {
-	print STDERR "WARN: No ana root file, skipping\n";
+        print STDERR "WARN: No ana root file, skipping\n";
     }
 }

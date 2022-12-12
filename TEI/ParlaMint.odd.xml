@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-11-10</date>
+        <date>2022-11-23</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-11-10">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
+      <change when="2022-11-23">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -67,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-11-10</docDate>
+        <docDate>2022-11-23</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -135,8 +135,8 @@
           the top level elements and their attributes and the main pointing attributes;</item>
 
           <item><ref target="#sec-metadata">Chapter 4</ref> concentrates on the stucture and
-	  encoding of the corpus metadata, such as the title information, documenting the source
-	  of the corpus, taxonomies used etc.;</item>
+          encoding of the corpus metadata, such as the title information, documenting the source
+          of the corpus, taxonomies used etc.;</item>
           
           <item><ref target="#chp-speaker">Chapter 5</ref> explains how and what information
           must be encoded about the persons giving the speeches and the (political)
@@ -499,10 +499,10 @@
             Section on <ref target="#sec-metadata">Corpus metadata</ref>.
 
             The subordinate elements in the transcription that have an ID (such as
-            utterances and segments), should have the top level <att>xml:id</att> as a
-            prefix and indicate the element name in the ID. For example, if the top
+            utterances and segments), are recommended to have the top level <att>xml:id</att> as a
+            prefix and to indicate the element name in the ID. For example, if the top
             level ID is <val>ParlaMint-GB_2021-01-06</val>, the first utterance
-            should have the ID <val>ParlaMint-GB_2021-01-06-lords.u1</val> and the first
+            would have the ID <val>ParlaMint-GB_2021-01-06-lords.u1</val> and the first
             segment <val>ParlaMint-GB_2021-01-06-lords.seg1</val>. The number of the
             element should not have leading zeros.</item>
             
@@ -1434,15 +1434,15 @@
       <div xml:id="chp-speaker">
         <head>Speakers and their organisations</head>
 
-	<p>ParlaMint places considerable emphasis of including in the corpora significant
-	information about the persons giving the speeches contained in the transcriptions.
-	This is why, even though this information is encoded in the <gi>particDesc</gi> element
-	of the <gi>teiHeader</gi> of the corpus root (cf. the Chapter on <ref
-	target="#sec-particDesc">Participant description</ref>) we treat it here in a separate
-	Chapter. Below we first discuss the information on persons, including how they are
-	affiliated with (political) organisation, and then explain the encoding of these
-	organisations.</p>
-	
+        <p>ParlaMint places considerable emphasis of including in the corpora significant
+        information about the persons giving the speeches contained in the transcriptions.
+        This is why, even though this information is encoded in the <gi>particDesc</gi> element
+        of the <gi>teiHeader</gi> of the corpus root (cf. the Chapter on <ref
+        target="#sec-particDesc">Participant description</ref>) we treat it here in a separate
+        Chapter. Below we first discuss the information on persons, including how they are
+        affiliated with (political) organisation, and then explain the encoding of these
+        organisations.</p>
+        
         <div xml:id="sec-speakers">
           <head>Speakers</head>
           
@@ -1473,30 +1473,30 @@
           <gi>person</gi> should contain another (or, possibly, several)
           <gi>persName</gi> elements, each marked by the <att>from</att> and/or
           <att>to</att> temporal attributes, as shown in the following example:
-	  
+          
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-persName">
             <person xml:id="GlawischnigAnna">
-	      <persName to="2016-06-01">
-		<surname>Glawischnig</surname>
+              <persName to="2016-06-01">
+                <surname>Glawischnig</surname>
                 <forename>Anna</forename>
-	      </persName>
-	      <persName from="2016-06-02">
-		<surname>Glawischnig-Piesczek</surname>
+              </persName>
+              <persName from="2016-06-02">
+                <surname>Glawischnig-Piesczek</surname>
                 <forename>Anna</forename>
-	      </persName>
-	      ...
-	    </person>
+              </persName>
+              ...
+            </person>
           </egXML>
-	  
-	  Note that the <att>to</att>/<att>from</att> dates should not overlap, neither
-	  should they have gaps in them, as this would mean that at certain points in
-	  time the person would have either two sets of names, or none.
-	  </p>
+          
+          Note that the <att>to</att>/<att>from</att> dates should not overlap, neither
+          should they have gaps in them, as this would mean that at certain points in
+          time the person would have either two sets of names, or none.
+          </p>
 
-	  <p>The person must also have the <gi>sex</gi> element, with the
-	  <att>value</att> attribute being one of the controlled values: <val>M</val> for
-	  male, <val>F</val> for female, <val>O</val> for other, <val>N</val> for none or
-	  <val>U</val> for unknown.</p>
+          <p>The person must also have the <gi>sex</gi> element, with the
+          <att>value</att> attribute being one of the controlled values: <val>M</val> for
+          male, <val>F</val> for female, <val>O</val> for other, <val>N</val> for none or
+          <val>U</val> for unknown.</p>
 
           <p>The person element can also contain other optional information, i.e. the
           date and place of <gi>birth</gi> (and <gi>death</gi>), their official Web
@@ -1569,13 +1569,13 @@
             be the ID of the parliament or one of the two houses (cf. the Section on <ref
             target="#sec-parliament">The parliament organisations</ref>).</p>
 
-	    <p>The example above also shows the use of the classification attribute
-	    <att>ana</att>, which points to the specification of the legislative period
-	    in which the person was affiliated with the specified organisation. Such
-	    legislative periods are typically given as <gi>event</gi> elements inside the
-	    government or parliament organisations, as futher explained in the Sections on
-	    the <ref target="#sec-government">government</ref> and <ref
-	    target="#sec-parliament">parliament</ref> organisations.</p>
+            <p>The example above also shows the use of the classification attribute
+            <att>ana</att>, which points to the specification of the legislative period
+            in which the person was affiliated with the specified organisation. Such
+            legislative periods are typically given as <gi>event</gi> elements inside the
+            government or parliament organisations, as futher explained in the Sections on
+            the <ref target="#sec-government">government</ref> and <ref
+            target="#sec-parliament">parliament</ref> organisations.</p>
             
             <p>The affiliation element also has the usual <att>from</att> and
             <att>to</att> attributes, i.e. from and to when the person was affiliated
@@ -1736,15 +1736,15 @@
         <div xml:id="sec-orgs">
           <head>Organisations</head>
           
-	  <p>Information on the the government, parliament, political parties or
-	  parliamentary groups of political parties, as well as other optional
-	  parliamentary structures (e.g. ministries, committees) is given in the corpus
-	  root <gi>listOrg</gi> element of the <gi>particDesc</gi> (cf. the Section on
-	  <ref target="#sec-particDesc">Participant description</ref>).  The
-	  <gi>listOrg</gi> element then contains a series of <gi>org</gi> elements, each
-	  giving information about one organisation. The organisations are followed by
-	  the <gi>listRelations</gi> element giving a list of relations between
-	  organisations:
+          <p>Information on the the government, parliament, political parties or
+          parliamentary groups of political parties, as well as other optional
+          parliamentary structures (e.g. ministries, committees) is given in the corpus
+          root <gi>listOrg</gi> element of the <gi>particDesc</gi> (cf. the Section on
+          <ref target="#sec-particDesc">Participant description</ref>).  The
+          <gi>listOrg</gi> element then contains a series of <gi>org</gi> elements, each
+          giving information about one organisation. The organisations are followed by
+          the <gi>listRelations</gi> element giving a list of relations between
+          organisations:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-listOrg">
             <listOrg>
@@ -1809,39 +1809,43 @@
           by the appropriate values of the <att>xml:lang</att> attribtes on the
           <gi>idno</gi> element.</p>
 
-          <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema
-          (cf. the Section on <ref target="#sec-validate">Validating ParlaMint
-          corpora</ref>) that gives its set of allowed values. Currently, the list is
-          quite long, as we left it up to the partners of ParlaMint I to determine the
-          values, but the main ones are:
+          <p>Returning to the <att>role</att> attribute, it is the ParlaMint schema (cf. the
+          Section on <ref target="#sec-validate">Validating ParlaMint corpora</ref>) that gives
+          its set of allowed values. Currently, the list is quite long, as we left it up to the
+          partners of ParlaMint I to determine the values, however, there are some that are common
+          to all corpora, and, for some, it is obligatory to have organisations with these roles
+          in the organisation list of a corpus. Furthermore, it is recommended that the
+          organisations are listed in the order as given below, with the obligatory roles
+          emphasised:
 
-          <list>
+          <list rend="numbered">
             <item><val>country</val>: the country taken as an organisation, which can be
             used to specify the king or queen of the country as a <gi>person</gi> affiliated
-            with the country organisation with the <att>role</att> <val>head</val>.</item>
+            with the country organisation with the <att>role</att> <val>head</val>;</item>
 
             <item><val>republic</val>: the republic, which can be used to specify the
             president of the country as a <gi>person</gi> affiliated with the republic
-            organisation with the <att>role</att> <val>head</val>.</item>
+            organisation with the <att>role</att> <val>head</val>;</item>
 
-            <item><val>government</val>: the government of the country or region,
-            further exemplified below</item>
+            <item><hi rend="bold"><val>government</val></hi>: the government of the country or
+            region;</item>
 
             <item><val>ministry</val>: a particular ministry, which can be used to specify
             the minister as a <gi>person</gi> affiliated with the ministry 
-            organisation with the <att>role</att> <val>head</val>.</item>
+            organisation with the <att>role</att> <val>head</val>;</item>
 
-            <item><val>parliament</val>: the parliament, upper or lower house of the
-            country or region, further exemplified below</item>
+            <item><hi rend="bold"><val>parliament</val></hi>: the parliament, upper or lower house
+            of the country or region;</item>
 
-            <item><val>parliamentaryGroup</val>: a grouping of political parties for the
-            purpose of acting as one in the government.</item>
+            <item><hi rend="bold"><val>parliamentaryGroup</val></hi>: a grouping of political
+            parties for the purpose of acting as one in the government;</item>
 
             <item><val>politicalParty</val>: a political party.</item>
 
           </list>
 
-          We discuss these types of organisations in the following sections.
+          We discuss the obligatory types of organisations and political parties in the following
+          sections.
           </p>
           
           <div xml:id="sec-government">
@@ -2135,6 +2139,7 @@
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div">
           <text ana="#reference">
             <body>
+              <div type="commentSection">...</div>
               <div type="debateSection">...</div>
               <div type="debateSection">...</div>
               ...
@@ -2154,14 +2159,19 @@
           <p>A text body contains a series of divisions, <gi>div</gi> in cases when the source
           document can be reliably split into sections, which is typically done on the basis of
           headings identified in the source. When this is not possible, the complete body will be
-          just one division. ParlaMint requires that each division has the <att>type</att>
-          attribute with the fixed value <val>debateSection</val>.</p>
+          just one division.</p>
+
+          <p>In ParlaMint we have two types of divisions, which are distinguished by the value of
+          their (required) <att>type</att> attribute. If its value is <val>debateSection</val>,
+          then the divisions must contain at least one speech, while the value
+          <val>commentSection</val> must not contain any speeches, i.e. it contains transcriber
+          (or other) comments only, e.g. the table of contents, references to laws etc.</p>
           
-          <p>Inside a division, the main elements of interest are speeches, encoded as the
-          utterance element, <gi>u</gi>. However, the transcription can also contain headings and
-          notes by the transcribers that serve to structure and comment the speeches, as well as
-          page breaks, and these can also appear directly inside the section(s), as illustrated
-          below:
+          <p>Inside a <val>debateSection</val>-type division, the main elements of interest are
+          speeches, encoded as the utterance element, <gi>u</gi>. However, this type of division
+          can (and the <val>commentSection</val>-type must) also contain headings and notes by
+          the transcribers that serve to structure and comment the speeches, as well as page
+          breaks, as illustrated below:
           
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-div-detail">
             <text ana="#reference">
@@ -2189,11 +2199,11 @@
           </egXML>
           
           It should be noted that the <gi>head</gi> element can appear only at the start of a
-          divisions while notes can be interspersed with speeches anywhere inside a division,
-          and can also appear inside speeches, i.e. <gi>u</gi>. It is also possible to
-          specify the type of note, and, in fact, to use more precise elements than just
-          note, which is further explained in the Section on <ref
-          target="#sec-comments">Transcriber comments</ref>.</p>
+          division while notes can be interspersed with speeches anywhere inside a division, and
+          can also appear inside speeches, i.e. inside <gi>u</gi> elements. It is also possible
+          to specify the type of note, and, in fact, to use more precise elements than just
+          <gi>note</gi>, which is further explained in the Section on
+          <ref target="#sec-comments">Transcriber comments</ref>.</p>
 
           <p>Page breaks, <gi>pb</gi> are an optional element, and can also appear both
           inside divisions and inside speeches or segments (as well as inside the <gi>note</gi>
@@ -2425,12 +2435,12 @@
           contain the omitted text. In this case therefore the description does not give the
           reason for the ommission, but rather the text that has been ommited.
 
-	  The language of the foreign passage should be indicated on the <att>xml:lang</att>
-	  attribute of <gi>desc</gi>. If the language has not been identified, the ISO 639 code
-	  for undetermined language <q>und</q> can be used, while in cases where more than one
-	  language is used in such a passage, the <q>mul</q> code for multiple languages is
-	  used.  All languages used on <gi>desc</gi> should of course be documented in the
-	  <gi>langUsage</gi> element. Below an example:
+          The language of the foreign passage should be indicated on the <att>xml:lang</att>
+          attribute of <gi>desc</gi>. If the language has not been identified, the ISO 639 code
+          for undetermined language <q>und</q> can be used, while in cases where more than one
+          language is used in such a passage, the <q>mul</q> code for multiple languages is
+          used.  All languages used on <gi>desc</gi> should of course be documented in the
+          <gi>langUsage</gi> element. Below an example:
 
           <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-gap-foreign">
             <gap reason="foreign">
