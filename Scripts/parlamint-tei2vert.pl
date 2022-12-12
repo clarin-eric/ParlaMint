@@ -27,18 +27,18 @@ while (<IN>) {
     if (m|</teiHeader>|) {$skip = 0}
     elsif ($skip) {}
     elsif (m|<xi:include |) {
-	($href) = m|href="(.+?)"| or
-	    die "Can't find href in xi:include!\n";
-	push(@inFiles, "$rootDir/$href");
+        ($href) = m|href="(.+?)"| or
+            die "Can't find href in xi:include!\n";
+        push(@inFiles, "$rootDir/$href");
     }
 }
 close IN;
 foreach $inFile (@inFiles) {
     if (($fName) = $inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_[^/]+)\.ana\.xml|) {
-	print STDERR "INFO: Converting $fName\n";
+        print STDERR "INFO: Converting $fName\n";
     }
     elsif (($fName) = $inFile =~ m|(ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_[^/]+)\.xml|) {
-	print STDERR "INFO: Debug conversion of $fName\n";
+        print STDERR "INFO: Debug conversion of $fName\n";
     }
     else {die "Weird input file $inFile\n"}
     my $outFile = "$outDir/$fName.vert";
@@ -46,5 +46,5 @@ foreach $inFile (@inFiles) {
     #print STDERR "\$ $command\n";
     my $status = system($command);
     die "ERROR: Conversion to vert for $inFile failed!\n"
-	if $status;
+        if $status;
 }

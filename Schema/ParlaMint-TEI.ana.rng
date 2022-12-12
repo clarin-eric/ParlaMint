@@ -147,7 +147,7 @@
         <a:documentation>Simple word:</a:documentation>
         <group>
           <ref name="word.atts"/>
-          <ref name="normalized-space.string"/>
+	  <ref name="non-empty.string"/>
         </group>
         <a:documentation>Word with several normalised words:</a:documentation>
         <group>
@@ -167,7 +167,7 @@
           <ref name="word.atts"/>
           <oneOrMore>
             <element name="w">
-              <ref name="normalized-space.string"/>
+	      <ref name="non-empty.string"/>
             </element>
           </oneOrMore>
           <empty/>
@@ -180,7 +180,7 @@
     <a:documentation>A punctuation element.</a:documentation>
     <element name="pc">
       <ref name="token.atts"/>
-      <ref name="normalized-space.string"/>
+      <ref name="non-empty.string"/>
     </element>
   </define>
 
@@ -218,11 +218,11 @@
     </optional>
     <optional>
       <attribute name="norm">
-        <data type="string"/>
+	<ref name="non-empty.string"/>
       </attribute>
     </optional>
     <attribute name="msd">
-      <data type="string"/>
+      <ref name="non-empty.string"/>
     </attribute>
     <optional>
       <attribute name="ana">
@@ -231,7 +231,7 @@
     </optional>
     <optional>
       <attribute name="pos">
-        <data type="string"/>
+	<ref name="non-empty.string"/>
       </attribute>
     </optional>
   </define>
@@ -240,7 +240,7 @@
     <a:documentation>Obligatory attributes of word.</a:documentation>
     <ref name="token.atts"/>
     <attribute name="lemma">
-      <data type="string"/>
+      <ref name="non-empty.string"/>
     </attribute>
   </define>
 
@@ -258,9 +258,7 @@
     <optional>
       <a:documentation>UD PoS and morph.features, e.g. "UPosTag=NUM|NumForm=Digit":</a:documentation>
       <attribute name="msd">
-        <data type="string">
-          <param name="pattern">\S+</param>
-        </data>
+	<ref name="non-empty.string"/>
       </attribute>
     </optional>
     <optional>
@@ -270,9 +268,7 @@
     </optional>
     <optional>
       <attribute name="lemma">
-        <data type="string">
-          <param name="pattern">\S+</param>
-        </data>
+	<ref name="non-empty.string"/>
       </attribute>
     </optional>
   </define>

@@ -53,23 +53,23 @@
 
   <!-- Get country of corpus from filename -->
   <xsl:variable name="corpusCountry"
-		select="replace(base-uri(), 
-			'.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
-			'$1')"/>
+                select="replace(base-uri(), 
+                        '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+                        '$1')"/>
   
   <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName[@full="abb"] -->
   <!-- We still need to take care of doubled Wiki lines and that Wiki URL is given only once! -->
   <xsl:variable name="data">
     <xsl:variable name="temp">
       <listOrg>
-	<xsl:variable name="text" select="unparsed-text($tsv, 'UTF-8')"/>
-	<xsl:for-each select="tokenize($text, '&#10;')">
-	  <xsl:if test="matches(., '\t') and not(matches(., '^COUNTRY', 'i'))">
-	    <xsl:call-template name="parse-line">
-	      <xsl:with-param name="line" select="."/>
-	    </xsl:call-template>
-	  </xsl:if>
-	</xsl:for-each>
+        <xsl:variable name="text" select="unparsed-text($tsv, 'UTF-8')"/>
+        <xsl:for-each select="tokenize($text, '&#10;')">
+          <xsl:if test="matches(., '\t') and not(matches(., '^COUNTRY', 'i'))">
+            <xsl:call-template name="parse-line">
+              <xsl:with-param name="line" select="."/>
+            </xsl:call-template>
+          </xsl:if>
+        </xsl:for-each>
       </listOrg>
     </xsl:variable>
     <xsl:call-template name="uniq-orgs">
@@ -88,26 +88,26 @@
       <xsl:apply-templates select="@*"/>
       <xsl:copy-of select="tei:org[not(@role = 'politicalParty' or @role = 'parliamentaryGroup')]"/>
       <xsl:variable name="parties">
-	<xsl:apply-templates mode="insert"
-			     select="tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']"/>
+        <xsl:apply-templates mode="insert"
+                             select="tei:org[@role = 'politicalParty' or @role = 'parliamentaryGroup']"/>
       </xsl:variable>
       <xsl:message>
-	<xsl:text>INFO: For </xsl:text>
-	<xsl:value-of select="$corpusCountry"/>
-	<xsl:text> </xsl:text>
-	<xsl:value-of select="count($parties/tei:org[tei:state[@type='politicalOrientation']])"/>
-	<xsl:text>/</xsl:text>
-	<xsl:value-of select="count($parties/tei:org)"/>
-	<xsl:text> assigned political orientation: </xsl:text>
-	<xsl:value-of select="count($parties/tei:org
-			      [tei:state[@subtype='CHES'] and tei:state[@subtype='Wikipedia']])"/>
-	<xsl:text> both + </xsl:text>
-	<xsl:value-of select="count($parties/tei:org
-			      [not(tei:state[@subtype='CHES']) and tei:state[@subtype='Wikipedia']])"/>
-	<xsl:text> Wikipedia + </xsl:text>
-	<xsl:value-of select="count($parties/tei:org
-			      [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
-	<xsl:text> CHES</xsl:text>
+        <xsl:text>INFO: For </xsl:text>
+        <xsl:value-of select="$corpusCountry"/>
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="count($parties/tei:org[tei:state[@type='politicalOrientation']])"/>
+        <xsl:text>/</xsl:text>
+        <xsl:value-of select="count($parties/tei:org)"/>
+        <xsl:text> assigned political orientation: </xsl:text>
+        <xsl:value-of select="count($parties/tei:org
+                              [tei:state[@subtype='CHES'] and tei:state[@subtype='Wikipedia']])"/>
+        <xsl:text> both + </xsl:text>
+        <xsl:value-of select="count($parties/tei:org
+                              [not(tei:state[@subtype='CHES']) and tei:state[@subtype='Wikipedia']])"/>
+        <xsl:text> Wikipedia + </xsl:text>
+        <xsl:value-of select="count($parties/tei:org
+                              [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
+        <xsl:text> CHES</xsl:text>
       </xsl:message>
       <xsl:copy-of select="$parties"/>
     </xsl:copy>
@@ -116,26 +116,26 @@
   <!-- Insert <state>s from $data into <org>, mark those covered with @n = $ches_id -->
   <xsl:template mode="insert" match="tei:org">
     <xsl:variable name="abbr" select="lower-case(tei:orgName[@full = 'abb' and 
-				      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1])"/>
+                                      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1])"/>
     <!-- parliamentaryGroup.ANO.1108 -> ano.1108 -->
     <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*?\.', ''))"/>
     <!-- ano.1108 -> ano -->
     <xsl:variable name="abbr-id2" select="replace($abbr-id, '\..*', '')"/>
     <xsl:variable name="found">
       <xsl:choose>
-	<xsl:when test="key('abbr', $abbr, $data)">
-	  <xsl:copy-of select="key('abbr', $abbr, $data)"/>
-	</xsl:when>
-	<xsl:when test="key('abbr', $abbr-id, $data)">
-	  <xsl:copy-of select="key('abbr', $abbr-id, $data)"/>
-	</xsl:when>
-	<xsl:when test="key('abbr', $abbr-id2, $data)">
-	  <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message select="concat('ERROR: For ', $corpusCountry, ' cant find pm_id in TSV for ', 
-			       $abbr, ' with ID ', @xml:id)"/>
-	</xsl:otherwise>
+        <xsl:when test="key('abbr', $abbr, $data)">
+          <xsl:copy-of select="key('abbr', $abbr, $data)"/>
+        </xsl:when>
+        <xsl:when test="key('abbr', $abbr-id, $data)">
+          <xsl:copy-of select="key('abbr', $abbr-id, $data)"/>
+        </xsl:when>
+        <xsl:when test="key('abbr', $abbr-id2, $data)">
+          <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat('ERROR: For ', $corpusCountry, ' cant find pm_id in TSV for ', 
+                               $abbr, ' with ID ', @xml:id)"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:copy>
@@ -164,55 +164,55 @@
     <xsl:param name="line" select="."/>
     <!-- Get rid of quotes left over from Excel or similar -->
     <xsl:variable name="clean-line"
-		  select="replace(
-			  replace(
-			  replace(
-			  replace(
-			  replace(
-			  replace(
-			  replace($line, 
-			  '&#9;&quot;', '&#9;'),
-			  '&quot;&#9;', '&#9;'),
-			  '^&quot;', ''),
-			  '&quot;$', ''),
-			  '&quot;&quot;', '&quot;'),
-			  '&#x00A0;', ' '),
-			  '&#xFEFF;', '')
-			  "/>
+                  select="replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace(
+                          replace($line, 
+                          '&#9;&quot;', '&#9;'),
+                          '&quot;&#9;', '&#9;'),
+                          '^&quot;', ''),
+                          '&quot;$', ''),
+                          '&quot;&quot;', '&quot;'),
+                          '&#x00A0;', ' '),
+                          '&#xFEFF;', '')
+                          "/>
     <xsl:analyze-string select="$clean-line"
-			regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t?([^\t]*)\t?([^\t]*)\t?([^\t]*).*">
+                        regex="^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]*)\t([^\t]*)\t?([^\t]*)\t?([^\t]*)\t?([^\t]*).*">
       <xsl:matching-substring>
-	<xsl:variable name="country" select="regex-group(1)"/>
-	<xsl:variable name="pm_id" select="regex-group(2)"/>
-	<xsl:variable name="ches_id" select="regex-group(3)"/>
-	<xsl:variable name="year" select="regex-group(4)"/>
-	<xsl:variable name="lrgen" select="regex-group(5)"/>
-	<xsl:variable name="lr" select="regex-group(6)"/>
-	<xsl:variable name="url" select="regex-group(7)"/>
-	<xsl:variable name="comment" select="regex-group(8)"/>
-	<xsl:if test = '$country != $corpusCountry'>
-	  <xsl:message terminate="yes"
-		       select="concat('FATAL: TEI corpus country = ', $corpusCountry, 
-			       ' does not match TSV country = ', $country,
-			       ' in TSV line&#10;', .)"/>
-	</xsl:if>
-	<xsl:if test="normalize-space($pm_id) and $pm_id != '0'">
-	  <xsl:call-template name="parse-orientation">
-	    <xsl:with-param name="country" select="normalize-space($country)"/>
-	    <!-- We lower case the pm_id and match on that! -->
-	    <xsl:with-param name="pm_id" select="lower-case(normalize-space($pm_id))"/>
-	    <xsl:with-param name="ches_id" select="normalize-space($ches_id)"/>
-	    <xsl:with-param name="year" select="normalize-space($year)"/>
-	    <xsl:with-param name="lrgen" select="normalize-space($lrgen)"/>
-	    <xsl:with-param name="lr" select="normalize-space($lr)"/>
-	    <xsl:with-param name="url" select="normalize-space($url)"/>
-	    <xsl:with-param name="comment" select="normalize-space($comment)"/>
-	  </xsl:call-template>
-	</xsl:if>
+        <xsl:variable name="country" select="regex-group(1)"/>
+        <xsl:variable name="pm_id" select="regex-group(2)"/>
+        <xsl:variable name="ches_id" select="regex-group(3)"/>
+        <xsl:variable name="year" select="regex-group(4)"/>
+        <xsl:variable name="lrgen" select="regex-group(5)"/>
+        <xsl:variable name="lr" select="regex-group(6)"/>
+        <xsl:variable name="url" select="regex-group(7)"/>
+        <xsl:variable name="comment" select="regex-group(8)"/>
+        <xsl:if test = '$country != $corpusCountry'>
+          <xsl:message terminate="yes"
+                       select="concat('FATAL: TEI corpus country = ', $corpusCountry, 
+                               ' does not match TSV country = ', $country,
+                               ' in TSV line&#10;', .)"/>
+        </xsl:if>
+        <xsl:if test="normalize-space($pm_id) and $pm_id != '0'">
+          <xsl:call-template name="parse-orientation">
+            <xsl:with-param name="country" select="normalize-space($country)"/>
+            <!-- We lower case the pm_id and match on that! -->
+            <xsl:with-param name="pm_id" select="lower-case(normalize-space($pm_id))"/>
+            <xsl:with-param name="ches_id" select="normalize-space($ches_id)"/>
+            <xsl:with-param name="year" select="normalize-space($year)"/>
+            <xsl:with-param name="lrgen" select="normalize-space($lrgen)"/>
+            <xsl:with-param name="lr" select="normalize-space($lr)"/>
+            <xsl:with-param name="url" select="normalize-space($url)"/>
+            <xsl:with-param name="comment" select="normalize-space($comment)"/>
+          </xsl:call-template>
+        </xsl:if>
       </xsl:matching-substring>
       <xsl:non-matching-substring>
-	<xsl:message terminate="yes"
-		     select="concat('FATAL: Bad line in TSV: ', .)"/>
+        <xsl:message terminate="yes"
+                     select="concat('FATAL: Bad line in TSV: ', .)"/>
       </xsl:non-matching-substring>
     </xsl:analyze-string>
   </xsl:template>
@@ -229,55 +229,55 @@
     <xsl:param name="comment"/>
     <org>
       <orgName type="ParlaMint" full="abb">
-	<xsl:value-of select="$pm_id"/>
+        <xsl:value-of select="$pm_id"/>
       </orgName>
       <xsl:if test="normalize-space($ches_id) and $ches_id != '0'">
-	<state type="politicalOrientation" subtype="CHES">
-	  <xsl:attribute name="source">
-	    <xsl:for-each select="$ches-source//tei:label">
-	      <xsl:if test="matches($country, .)">
-		<xsl:value-of select="following-sibling::tei:item[1]"/>
-	      </xsl:if>
-	    </xsl:for-each>
-	  </xsl:attribute>
-	  <xsl:attribute name="n" select="$lrgen"/>
-	  <xsl:attribute name="ana">
-	    <xsl:value-of select="$orientation-prefix"/>
-	    <xsl:value-of select="et:lrgen2orientation(xs:decimal($lrgen))"/>
-	  </xsl:attribute>
-	  <xsl:attribute name="from" select="$year"/>
-	  <xsl:variable name="to" select="$ches-interval/tei:date[@from = $year]/@to"/>
-	  <xsl:if test="normalize-space($to) and $year &lt; $to">
-	    <xsl:attribute name="to" select="$to"/>
-	  </xsl:if>
-	  <label>
-	    <orgName full="abb">
-	      <xsl:value-of select="$ches_id"/>
-	    </orgName>
-	  </label>
-	</state>
+        <state type="politicalOrientation" subtype="CHES">
+          <xsl:attribute name="source">
+            <xsl:for-each select="$ches-source//tei:label">
+              <xsl:if test="matches($country, .)">
+                <xsl:value-of select="following-sibling::tei:item[1]"/>
+              </xsl:if>
+            </xsl:for-each>
+          </xsl:attribute>
+          <xsl:attribute name="n" select="$lrgen"/>
+          <xsl:attribute name="ana">
+            <xsl:value-of select="$orientation-prefix"/>
+            <xsl:value-of select="et:lrgen2orientation(xs:decimal($lrgen))"/>
+          </xsl:attribute>
+          <xsl:attribute name="from" select="$year"/>
+          <xsl:variable name="to" select="$ches-interval/tei:date[@from = $year]/@to"/>
+          <xsl:if test="normalize-space($to) and $year &lt; $to">
+            <xsl:attribute name="to" select="$to"/>
+          </xsl:if>
+          <label>
+            <orgName full="abb">
+              <xsl:value-of select="$ches_id"/>
+            </orgName>
+          </label>
+        </state>
       </xsl:if>
       <xsl:if test="normalize-space($lr) and $lr != '0'">
-	<state type="politicalOrientation" subtype="unknown">
-	  <xsl:if test="normalize-space($url) and $url != '0'">
-	    <!-- Doesn't work?!
-	    <xsl:if test="$check-urls and not(unparsed-text-available(encode-for-uri($url)))">
-		<xsl:message select="concat('ERROR: the URL ', $url, 
-				     ' is not valid for ', $country, '/', $pm_id)"/>
-	    </xsl:if>
-	    -->
-	    <xsl:attribute name="source" select="$url"/>
-	  </xsl:if>
-	  <xsl:attribute name="ana">
-	    <xsl:value-of select="$orientation-prefix"/>
-	    <xsl:value-of select="$lr"/>
-	  </xsl:attribute>
-	  <xsl:if test="normalize-space($comment) and $comment != '0'">
-	    <note xml:lang="en">
-	      <xsl:value-of select="$comment"/>
-	    </note>
-	  </xsl:if>
-	</state>
+        <state type="politicalOrientation" subtype="unknown">
+          <xsl:if test="normalize-space($url) and $url != '0'">
+            <!-- Doesn't work?!
+            <xsl:if test="$check-urls and not(unparsed-text-available(encode-for-uri($url)))">
+                <xsl:message select="concat('ERROR: the URL ', $url, 
+                                     ' is not valid for ', $country, '/', $pm_id)"/>
+            </xsl:if>
+            -->
+            <xsl:attribute name="source" select="$url"/>
+          </xsl:if>
+          <xsl:attribute name="ana">
+            <xsl:value-of select="$orientation-prefix"/>
+            <xsl:value-of select="$lr"/>
+          </xsl:attribute>
+          <xsl:if test="normalize-space($comment) and $comment != '0'">
+            <note xml:lang="en">
+              <xsl:value-of select="$comment"/>
+            </note>
+          </xsl:if>
+        </state>
       </xsl:if>
     </org>
   </xsl:template>
@@ -287,37 +287,37 @@
     <xsl:param name="listOrg"/>
     <listOrg>
       <xsl:for-each select="$listOrg//tei:org">
-	<xsl:variable name="abbrev" select="tei:orgName[@type = 'ParlaMint']"/>
-	<xsl:if test="not(preceding-sibling::tei:org[tei:orgName[@type = 'ParlaMint'] = $abbrev])">
-	  <xsl:variable name="others"
-			select="following-sibling::tei:org[tei:orgName[@type = 'ParlaMint'] = $abbrev]"/>
-	  <xsl:copy>
-	    <xsl:copy-of select="tei:orgName"/>
-	    <!-- Collect CHES -->
-	    <xsl:copy-of select="tei:state[@subtype = 'CHES']"/>
-	    <xsl:copy-of select="$others/tei:state[@subtype = 'CHES']"/>
-	    <!-- Wikis and other sources -->
-	    <xsl:variable name="lr" select="tei:state[@subtype = 'unknown']/@ana"/>
-	    <xsl:variable name="url" select="tei:state[@subtype = 'unknown']/@source"/>
-	    <xsl:variable name="comment" select="tei:state/tei:note"/>
-	    <xsl:if test="normalize-space($lr)">
-	      <state type="politicalOrientation">
-		<xsl:choose>
-		  <xsl:when test="normalize-space($url)">
-		    <xsl:attribute name="subtype">Wikipedia</xsl:attribute>
-		    <xsl:attribute name="source" select="$url"/>
-		    <xsl:attribute name="ana" select="$lr"/>
-		  </xsl:when>
-		  <xsl:otherwise>
-		    <xsl:attribute name="subtype">unknown</xsl:attribute>
-		    <xsl:attribute name="ana" select="$lr"/>
-		  </xsl:otherwise>
-		</xsl:choose>
-		<xsl:copy-of select="$comment"/>
-	      </state>
-	    </xsl:if>
-	  </xsl:copy>
-	</xsl:if>
+        <xsl:variable name="abbrev" select="tei:orgName[@type = 'ParlaMint']"/>
+        <xsl:if test="not(preceding-sibling::tei:org[tei:orgName[@type = 'ParlaMint'] = $abbrev])">
+          <xsl:variable name="others"
+                        select="following-sibling::tei:org[tei:orgName[@type = 'ParlaMint'] = $abbrev]"/>
+          <xsl:copy>
+            <xsl:copy-of select="tei:orgName"/>
+            <!-- Collect CHES -->
+            <xsl:copy-of select="tei:state[@subtype = 'CHES']"/>
+            <xsl:copy-of select="$others/tei:state[@subtype = 'CHES']"/>
+            <!-- Wikis and other sources -->
+            <xsl:variable name="lr" select="tei:state[@subtype = 'unknown']/@ana"/>
+            <xsl:variable name="url" select="tei:state[@subtype = 'unknown']/@source"/>
+            <xsl:variable name="comment" select="tei:state/tei:note"/>
+            <xsl:if test="normalize-space($lr)">
+              <state type="politicalOrientation">
+                <xsl:choose>
+                  <xsl:when test="normalize-space($url)">
+                    <xsl:attribute name="subtype">Wikipedia</xsl:attribute>
+                    <xsl:attribute name="source" select="$url"/>
+                    <xsl:attribute name="ana" select="$lr"/>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:attribute name="subtype">unknown</xsl:attribute>
+                    <xsl:attribute name="ana" select="$lr"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+                <xsl:copy-of select="$comment"/>
+              </state>
+            </xsl:if>
+          </xsl:copy>
+        </xsl:if>
       </xsl:for-each>
     </listOrg>
   </xsl:template>
