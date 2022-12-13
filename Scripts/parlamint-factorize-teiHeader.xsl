@@ -14,6 +14,13 @@
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
 
+  <xsl:variable name="pref">
+    <xsl:choose>
+      <xsl:when test="$prefix"><xsl:value-of select="$prefix"/></xsl:when>
+      <xsl:otherwise><xsl:value-of select="concat(replace(/tei:teiCorpus/@xml:id,'\.ana$',''),'-')"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
     <xsl:text>/</xsl:text>
@@ -52,13 +59,16 @@
           <xsl:value-of select="concat('ParlaMint-',local-name(),@xml:id/concat('-',.))" />
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="concat($prefix,local-name(),@xml:id/concat('-',.))" />
+          <xsl:value-of select="concat($pref,local-name(),@xml:id/concat('-',.))" />
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
     <xsl:variable name="interfix">
-      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml'))) and not(contains($noAna,concat($fileid,'.xml'))) and not($no_id_change)">.ana</xsl:if>
+      <xsl:if test="ends-with(base-uri(),'.ana.xml')
+                   and not(contains($skip,concat($fileid,'.xml')))
+                   and not(contains(concat($noAna,' ',replace($noAna,'ParlaMint-',$pref)),concat($fileid,'.xml')))
+                   and not($no_id_change)">.ana</xsl:if>
     </xsl:variable>
 
     <xsl:variable name="filename" select="concat($fileid,$interfix,'.xml')"/>
