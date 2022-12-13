@@ -9,6 +9,7 @@
   <xsl:param name="outDir"/>
   <xsl:param name="prefix"/>
   <xsl:param name="skip"/>
+  <xsl:param name="noAna"/>
 
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
@@ -57,7 +58,7 @@
     </xsl:variable>
 
     <xsl:variable name="interfix">
-      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml'))) and not($no_id_change)">.ana</xsl:if>
+      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml'))) and not(contains($noAna,concat($fileid,'.xml'))) and not($no_id_change)">.ana</xsl:if>
     </xsl:variable>
 
     <xsl:variable name="filename" select="concat($fileid,$interfix,'.xml')"/>
