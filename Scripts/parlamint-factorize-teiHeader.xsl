@@ -64,11 +64,11 @@
     <xsl:variable name="filename" select="concat($fileid,$interfix,'.xml')"/>
     <xsl:choose>
       <xsl:when test="contains($skip,concat($fileid,'.xml'))">
-        <xsl:message select="concat('Skipping - file should exist: ',$fileid,'.xml')"/>
+        <xsl:message select="concat('INFO: Skipping - file should exist: ',$fileid,'.xml')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="path" select="concat($outDir,'/',$filename)"/>
-        <xsl:message select="concat('Saving ',local-name(), ' to ',$path)"/>
+        <xsl:message select="concat('INFO: Saving ',local-name(), ' to ',$path)"/>
         <xsl:result-document href="{$path}" method="xml">
           <xsl:element name="{name()}">
             <xsl:if test="not(@xml:id = concat($fileid,$interfix))">
