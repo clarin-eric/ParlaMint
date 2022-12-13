@@ -242,8 +242,9 @@ sub factorisations {
     my $inListPerson = "$Dir/$listPerson";
     my $inTaxonomies = "$Dir/$taxonomies";
     my @inTaxonomies = glob($inTaxonomies);
-    
-    my ($prefix) = $Root =~ m|([^/]+)\.xml|;
+
+    # Prefix to put in front of the factorised files.
+    my ($prefix) = $Root =~ m|([^/]+?)\.|;
     $prefix .= '-';
     
     if (-e $inListOrg) {$factorised = 1}
