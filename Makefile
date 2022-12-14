@@ -629,9 +629,10 @@ generate-ministers:
 	$s outDir=Data/Metadata/Ministers2 -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Insert minister affiliations from TSV file into a root file.
-MC = IS
+MC = BE
+TSV = /project/corpora/Parla/ParlaMint/Minister
 insert-ministries-test:
-	$s tsv=../Data/Metadata/Ministers/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	$s tsv=${TSV}/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
 	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
 	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
