@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="de"
      ana="#parla.sitting #reference"
      xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsperiode [ParlaMint]</title>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsperiode [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="de">1. Sitzung des Nationalrates der Republik Österreich, XX. Gesetzgebungsperiode, Montag, 15. Januar 1996</title>
-            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XX [ParlaMint]</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XX [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Sitting Number 1, Legislative period XX, Monday, 15. January 1996</title>
-            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="1">1. Sitzung</meeting>
-            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">XX. Gesetzgebungsperiode</meeting>
-            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="1">Sitting 1</meeting>
-            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">Legislative period XX</meeting>
+            <meeting xml:lang="de"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.sitting"
+                     n="1">1. Sitzung</meeting>
+            <meeting xml:lang="de"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.term #NR.XX"
+                     n="20">XX. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.sitting"
+                     n="1">Sitting 1</meeting>
+            <meeting xml:lang="en"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.term #NR.XX"
+                     n="20">Legislative period XX</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
                <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
@@ -54,7 +67,8 @@
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent><!--DUMMY These numbers do not reflect the size of the sample!--><measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
             <measure unit="speeches" quantity="123" xml:lang="en">136 speeches</measure>
             <measure unit="words" quantity="123" xml:lang="de">12263 Wörter</measure>
             <measure unit="words" quantity="123" xml:lang="en">12263 words</measure>
@@ -75,7 +89,7 @@
             This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.
           </p>
             </availability>
-            <date when="2022-12-13">2022-12-13</date>
+            <date when="2022-12-14">2022-12-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -100,7 +114,8 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
         </p>
          </projectDesc>
-         <tagsDecl><!--DUMMY: These numbers do not reflect the size of the sample!--><namespace name="http://www.tei-c.org/ns/1.0">
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
@@ -129,6 +144,8 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-12-14">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-12-13">
             <name>Hannes Pirker</name>
         : Converted from source HTML to TEI.
@@ -147,7 +164,8 @@
             <note type="time">Beginn der Sitzung:<time when="1996-01-15T10:03:00+01:00">10:03</time>Uhr</note>
             <note type="chairpersons">Präsident Dr. Heinz Fischer</note>
             <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e826"
+            <u who="#PAD_00334"
+               xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e826"
                ana="#chair">
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e195">Bitte Platz zu nehmen. – Ich bitte auch die Photographen, ihre Tätigkeit einzustellen.</seg>
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e197">Ich darf die erste und konstituierende Sitzung des Nationalrates der XX. Gesetzgebungsperiode des Nationalrates eröffnen.</seg>
@@ -161,7 +179,8 @@
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e210">Einberufung der ordentlichen Tagung 1996</seg>
             </u>
             <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e873"
+            <u who="#PAD_00334"
+               xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e873"
                ana="#chair">
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e215">Der Herr Bundespräsident hat mit Entschließung vom 9. Jänner gemäß Artikel 27 Abs. 2 des Bundes-Verfassungsgesetzes den am 17. Dezember 1995 gewählten Nationalrat für den heutigen Tag zur XX. Gesetzgebungsperiode und gemäß Artikel 28 Abs. 1 der Bundesverfassung auch zu seiner ordentlichen Tagung 1996 einberufen.</seg>
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e217">Aufgrund dieser Entschließung des Herrn Bundespräsidenten wurde die heutige Sitzung anberaumt.</seg>
@@ -171,705 +190,11 @@
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e225">1. Punkt</seg>
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e227">Angelobung der Abgeordneten</seg>
             </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e931"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e232">Wir gehen in die Tagesordnung ein und gelangen zum 1. Punkt: Es ist dies die Angelobung der Abgeordneten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e234">Frau Schriftführerin Ludmilla Parfusswird die Angelobungsformel verlesen, sodann werden die Abgeordneten über Namensaufruf durch die Frau Schriftführerin – die dann später von der Kollegin Rosemarie Bauerabgelöst werden wird – die Angelobung mit den Worten "Ich gelobe" zu leisten haben.</seg>
-               <pb n="5"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e237">Ich darf nunmehr Frau Schriftführerin Ludmilla Parfuss bitten, die Angelobungsformel zu verlesen. Ich ersuche Sie, sich von den Sitzen zu erheben.</seg>
-            </u>
-            <note type="comment">(Die Abgeordneten erheben sich von ihren Plätzen.)</note>
-            <note type="speaker">Schriftführerin Ludmilla Parfuss</note>
-            <u who="#PAD_01153" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e966"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e245">"Sie werden geloben unverbrüchliche Treue der Republik Österreich, stete und volle Beobachtung der Verfassungsgesetze und aller anderen Gesetze und gewissenhafte Erfüllung Ihrer Pflichten."</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e247">Über Namensaufruf durch die Schriftführerinnen Parfuss und Rosemarie Bauer leisten die nachstehend angeführten Abgeordneten die Angelobung mit den Worten "Ich gelobe":</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e249">Achs Matthias; Anschober Rudolf; Antoni Dieter, Dr.; Apfelbeck Ute; Auer Jakob; Aumayr Anna Elisabeth</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e251">Barmüller Thomas, Mag.; Bartenstein Martin, Dr.; Bauer Holger, Dkfm.; Bauer Rosemarie; Bauer Sophie; Blünegger Anton; Böhacker Hermann; Bösch Herbert, Mag.; Brauneder Willi, Mag. Dr.; Brix Otmar; Buder Hannelore; Bures Doris</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e253">Cap Josef, Dr.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e255">Dietachmayr Helmut; Ditz Johannes, Dr.; Dolinschek Sigisbert; Donabauer Karl</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e257">Eder Kurt; Ederer Brigitte, Mag.; Edler Josef; Einem Caspar, Dr.; Elmecker Robert</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e259">Fasslabend Werner, Dr.; Fekter Maria, Mag. Dr.; Ferrero-Waldner Benita Maria, Dr.; Feurstein Gottfried, Dr.; Fink Ernst; Firlinger Reinhard, Mag.; Fischer Heinz, Dr.; Freund Karl; Frieser Cordula, Mag.; Frischenschlager Friedhelm, Dr.; Fuchs Brunhilde; Fuhrmann Willi, Dr.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e261">Gaal Anton; Gartlehner Kurt, Ing.; Gatterer Edeltraud; Gehrer Elisabeth; Grabner Arnold; Gradwohl Heinz; Graenitz Ilona, Dkfm.; Graf Martin, Dr.; Gredler Martina, Dr.; Grollitsch Udo, Mag. Dr.; Guggenberger Walter, Mag.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e263">Hagenhofer Marianne; Haider Jörg, Dr.; Haidlmayr Theresia; Haigermoser Helmut; Haller Edith; Haselsteiner Hans Peter, Dr.; Haupt Herbert, Mag.; Hawlicek Hilde, Dr.; Heindl Kurt, Dr.; Hlavac Elisabeth, Dr.; Höchtl Josef, Mag. Dr.; Hofmann Max, Dipl.-Ing.; Horngacher Katharina; Huber Anna; Hums Franz</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e265">Jäger Inge</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e268">Kaipel Erwin, Ing.; Kaufmann Herbert, Mag.; Keppelmüller Peter, Dipl.-Ing. Dr.; Khol Andreas, Dr.; Kier Volker, Dr.; Kiermaier Günter; Kiss Paul; Klima Viktor, Mag.; Koller Franz; König Friedrich, Dkfm. DDr.; Konrad Helga, Dr.; Kopf Karl-Heinz; Koppler Erhard; Kostelka Peter, Dr.; Krammer Christa, Dr.; Kräuter Günther, Dr.; Krüger Michael, Dr.; Kukacka Helmut, Mag.; Kummerer Werner, Dipl.-Ing.; Kurzbauer Johann</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e270">Lafer Franz; Langthaler Monika, Ing.; Leikam Anton; Leiner Günther, Dr.; Leitner Peter; Löschnak Franz, Dr.; Lukas Klaus, Dr.; Lukesch Dieter, Dipl.-Vw. Dr.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e272">Maderthaner Leopold, Ing.; Madl Elfriede; Maitz Karl, Dr.; Marizzi Peter; Meischberger Walter, Ing.; Meisinger Josef; Mentil Hermann; Mertel Ilse, Dr.; Molterer Wilhelm, Mag.; Moser Sonja, Dr.; Motter Klara; Mühlbachler Josef, Dkfm. Mag.; Müller Karl Gerfried; Murauer Walter</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e274">Neisser Heinrich, Dr.; Niederwieser Erwin, DDr.; Nowotny Ewald, Dr.; Nürnberger Rudolf; Nußbaumer Wolfgang, Ing.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e276">Oberhaidinger Georg; Ofner Harald, Dr.; Öllinger Karl; Onodi Heidemaria</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e278">Parfuss Ludmilla; Parnigoni Rudolf; Partik-Pablé Helene, Dr.; Peter Helmut, Mag.; Petrovic Madeleine, Mag. Dr.; Platter Günther; Posch Walter, Mag.; Preisinger Susanne, Dr.; Pumberger Alois, Dr.; Puttinger Günter, Dkfm. Dr.</seg>
-               <pb n="6"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e281">Rack Reinhard, Dr.; Rada Robert, Dr.; Rasinger Erwin, Dr.; Rauch-Kallat Maria; Reichhold Mathias, Ing.; Reitsamer Annemarie; Riepl Franz; Rosenstingl Peter; Rossmann Mares; Rübig Paul, Dr.; Ruthofer Kurt, Dkfm.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e283">Salzl Stefan, Dr.; Sauer Willibald; Schaffenrath Maria; Scheibner Herbert; Schieder Peter; Schierhuber Agnes; Schlögl Karl, Mag.; Schmidt Heide, Mag. Dr.; Schöggl Leopold, Dipl.-Ing.; Schöll Hans; Scholten Rudolf, Dr.; Schrefel Josef; Schreiner Erich, Mag.; Schüssel Wolfgang, Dr.; Schuster Johann; Schwarzböck Rudolf; Schwarzenberger Georg; Schweitzer Karl, Mag.; Schwemlein Emmerich; Schwimmer Walter, Dr.; Seidinger Winfried; Sigl Robert; Silhavy Heidrun; Spindelegger Michael, Dr.; Stadler Johann-Ewald, Mag.; Steibl Ridi; Steindl Franz, Mag.; Stoisits Terezija, Mag.; Stummvoll Günter, Dkfm. Dr.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e285">Tegischer Brigitte; Tichy-Schreder Ingrid; Trattner Gilbert, Mag.; Trinkl Josef, Dr.; Tychtl Gerald, Ing.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e287">Van der Bellen Alexander, Dipl.-Vw. Dr.; Verzetnitsch Fritz; Voggenhuber Johannes; Vranitzky Franz, Dkfm. Dr.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e290">Wabl Andreas; Wallner Kurt; Wenitsch Robert; Wimmer Rainer; Wurm Gisela; Wurmitzer Georg</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e292">Abgeordnete Mag. Terezija Stoisitsleistet nach Aufruf ihres Namens die Angelobung mit den Worten "Zagovaram se" und "Ich gelobe".</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1068"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e297">Danke. Die Angelobung ist damit beendet.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e299">Meine Damen und Herren! Sie haben sich mit Ihrem Gelöbnis zur gesetzestreuen und gewissenhaften Ausübung Ihrer Funktion verpflichtet. Ich darf Ihnen für Ihre Tätigkeit im Dienste der Republik den besten Erfolg wünschen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e301">Damit ist der erste Punkt der Tagesordnung erledigt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e303">2. Punkt</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e305">Wahl des Präsidenten, des Zweiten Präsidenten und des Dritten Präsidenten</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1101"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e310">Wir kommen zum 2. Punkt der Tagesordnung: Es ist dies die Wahl des Präsidenten, des Zweiten Präsidenten und des Dritten Präsidenten des Nationalrates.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e312">Hiezu liegen schriftliche Wahlvorschläge vor, die ich bekanntgebe.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e314">Der Vorschlag für den Präsidenten des Nationalrates lautet auf den Abgeordneten Dr. Heinz Fischer.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e316">Der Vorschlag für den Zweiten Präsidenten lautet auf den Abgeordneten Dr. Heinrich Neisser.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e318">Zur Wahl des Dritten Präsidenten liegen mir drei Wahlvorschläge vor:</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e320">auf Vorschlag des Klubs der Freiheitlichen Partei Österreichs Herr Abgeordneter Mag. Herbert Haupt,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e322">auf Vorschlag des Klubs des Liberalen Forums Frau Abgeordnete Klara Motterund</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e324">auf Vorschlag des Grünen Klubs Herr Abgeordneter Dr. Alexander Van der Bellen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e326">In Übereinstimmung mit der Präsidialkonferenz schlage ich zu diesem Tagesordnungspunkt die Durchführung einer Debatte vor.</seg>
-               <pb n="7"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e329">Ich bitte jene Damen und Herren, die mit diesem Vorschlag auf Durchführung einer Debatte einverstanden sind, um ein Zeichen der Zustimmung. – Danke. Das ist einstimmig so beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e332">Redezeitbeschränkung</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1173"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e337">Gemäß § 57 Abs. 3 der Geschäftsordnung wird für diese Debatte – gleichfalls nach Vereinbarung in der Präsidialkonferenz – eine Redezeit von 10 Minuten pro Fraktion festgelegt. Wie vereinbart kann diese Redezeit auch auf zwei Redner aufgeteilt werden.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e339">Wir gehen nunmehr in die Debatte ein. Die erste Wortmeldung liegt mir von Herrn Abgeordnetem Dr. Kostelka vor. Redezeit: maximal 10 Minuten.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T10:16:00+01:00">10:16</time>
-</note>
-            <note type="speaker">Abgeordneter Dr. Peter Kostelka(SPÖ)</note>
-            <u who="#PAD_00930" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1198"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e347">Herr Präsident! Meine sehr geehrten Damen und Herren! Hohes Haus! Der 17. Dezember 1995 – wie notwendig diese Wahl auch gewesen sein mag – hat klare und neue Verhältnisse geschaffen: Meine Fraktion, die Sozialdemokratische Partei Österreichs, ist gestärkt in dieses Haus eingezogen, die Österreicherinnen und Österreicher haben bei diesen Wahlen meiner Partei 230 000 zusätzliche Stimmen gegeben. Wir sind nun um 500 000 Stimmen stärker als die nächstfolgende Partei.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e349">Das ist eine Auszeichnung, gleichzeitig aber auch eine Verpflichtung. Ich sage Ihnen, daß wir aus dieser Sicht in der vor uns liegenden XX. Legislaturperiode des Nationalrates bemüht sein werden, engagiert, aber auch kompromißbereit zu arbeiten, die notwendigen Reformen in Österreich voranzutreiben, wir werden uns aber auch um breite Mehrheiten bemühen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e351">In diesem Zusammenhang möchte ich feststellen, daß für uns der Verfassungsbogen der demokratischen Kräfte in diesem Haus kein Zufallsprodukt des Wahlergebnisses vom 9. Oktober 1994 war, sondern Verpflichtung und Auftrag, die demokratischen Kräfte auch in der vor uns liegenden Legislaturperiode zusammenzuführen und zu einer Einigkeit zu bewegen.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei der SPÖ.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e356">Wir werden daher in den nächsten – ich hoffe, dabei wird es auch bleiben; meine Fraktion wird das Ihre dazu tun – vier Jahren eine Fülle von politischer Arbeit vor uns haben. Wir haben jene von den Österreicherinnen und Österreichern – lassen Sie es uns in aller Deutlichkeit sagen – mit dem Wahlergebnis in Auftrag gegebenen Reformen, angefangen von einer Konsolidierung des Budgets über alle Themenbereiche bis hin zum Verhältnis Bund, Länder und Gemeinden, in Angriff zu nehmen, und wir haben dies – der Tradition des österreichischen Parlamentes entsprechend – konsensorientiert zu tun.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e358">Lassen Sie mich aber auch hinzufügen, daß Mehrheiten verpflichten. Wir werden die Kompromißbereitschaft nicht nur selbst einzubringen haben, wir werden sie auch zu fordern haben – im Interesse der Lösung der Probleme unseres Landes.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e360">Meine Damen und Herren! Der vor uns liegende Wahlakt ist die erste Entscheidung, die dieses Parlament in der nun beginnenden Legislaturperiode zu treffen hat. Sie hat Signalwirkung und sie ist sowohl im Binnenverhältnis als auch im Verhältnis nach außen von ganz besonderer Bedeutung.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e362">Ich darf daher namens meiner Fraktion auch mit Stolz feststellen, daß wir einen der ausgezeichnetsten Parlamentarier dieser Zweiten Republik zum Präsidenten des Nationalrates vorschlagen: Dr. Heinz Fischer. Und ich lade Sie ein, ich bitte Sie: Geben Sie ihm als dem besten Kandidaten Ihre Stimme!</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei der SPÖ und bei Abgeordneten der ÖVP.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e367">Zum Zweiten Präsidenten wurde Dr. Neisser, der Zweite Präsident der vorangegangenen Legislaturperiode, vorgeschlagen. Ich glaube, er hat in diesem Haus eine breite Unterstützung und Akzeptanz, und ich darf namens meiner Fraktion feststellen, daß wir seiner Wiederwahl positiv gegenüberstehen und auch entsprechende Handlungen setzen werden.</seg>
-               <pb n="8"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e371">Anders ist der Fall beim Dritten Präsidenten. Fürs erste – aber das ist nicht der Grund für die Entscheidung meiner Fraktion – hat es mit kaum einem anderen Präsidenten in der abgelaufenen Legislaturperiode solch sachliche und inhaltliche Auseinandersetzungen wie mit Mag. Haupt gegeben. Ich habe nie zuvor in mehr als 20 Jahren parlamentarischer Erfahrung erlebt, daß einem Präsidenten Parteilichkeit in der Amtsführung vorgeworfen wurde und die Reaktion des auf diese Art und Weise Interpellierten so ruhig und gar nicht dem Amt verpflichtet war.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e373">Ich weiß mich in Übereinstimmung mit vielen in diesem Haus, daß wir aus dieser Perspektive eine Wahl von Mag. Haupt ablehnen. Aber das ist für meine Fraktion nicht das Ausschlaggebende.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e375">
-            Meine Damen und Herren! Die politische Geographie in diesem Land stimmt auch im Nationalrat endlich wieder. Am äußersten, am alleräußersten rechten Rand sitzt in dieser Legislaturperiode die freiheitliche Fraktion – dort, wohin sie gehört.
-            <kinesic type="applause">
-                     <desc>(Beifall bei der SPÖ.)</desc>
-                  </kinesic>
-            Und es stellt sich die Frage, ob diese haarscharfe Trennlinie, die sich hier ergibt, von vielen von Ihnen nicht bereits überschritten wird.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e381">Meine Damen und Herren! Eine Distanzierung von Äußerungen, die eine Gutheißung, eine Akzeptanz von Ewiggestrigen beinhalten soll und die darauf hinausläuft, daß eine pauschale und undifferenzierte Verherrlichung der SS abgelehnt wird, reicht mir nicht, und zwar deswegen nicht, weil ich auch eine differenzierte und teilweise Verherrlichung der SS ablehne. Und das sind Worte aus der Distanzierung, auf die sich viele, vor allem die freiheitliche Fraktion in diesem Haus, beziehen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e383">
-            Unter diesen Voraussetzungen, solange es keine klaren Worte gibt, ist für meine Fraktion ein freiheitlicher Kandidat nicht wählbar.
-            <kinesic type="applause">
-                     <desc>(Beifall bei der SPÖ.)</desc>
-                  </kinesic>
-            Meine Damen und Herren! Zu dieser klaren Haltung sind wir nicht nur dem sozialdemokratischen Gedankengut – auf das wir stolz sein können, weil wir in unserer mehr als hundertjährigen Geschichte nie auf der falschen Seite gestanden sind, immer auf der Seite der Demokratie –, sondern auch Österreich und dem Ansehen unseres Landes im In- und Ausland verpflichtet.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall bei der SPÖ.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T10:24:00+01:00">10:24</time>
-</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1292"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e399">Nächster Redner ist Herr Abgeordneter Dr. Khol. Er hat das Wort. Gleiche Redezeit.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T10:24:00+01:00">10:24</time>
-</note>
-            <note type="speaker">Abgeordneter Dr. Andreas Khol(ÖVP)</note>
-            <u who="#PAD_00799" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1313"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e407">Herr Präsident! Meine Damen und Herren! Wir wählen heute das Präsidium des Nationalrates – eine Funktion, die von hoher Bedeutung für die Republik ist. Das Präsidium des Nationalrates ist neben dem Verfassungsgerichtshof und dem Bundespräsidenten Hüter unserer Verfassung.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e409">Es ist Verfassungspraxis seit 1983, daß die drittstärkste Partei den Dritten Präsidenten, die Zweitstärkste Partei den Zweiten Präsidenten und die stärkste Partei den Ersten Präsidenten stellt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e411">In der Kanzlerschaft von Bruno Kreisky wurde der Freiheitlichen Partei mit 12 Mandaten der Nationalratspräsident zuerkannt. Heute hat die Freiheitliche Partei 40 Mandate. War es damals eine Courtoisie, einer Partei, die nur 12 Mandate hatte, den Dritten Präsidenten durch Wahl zuzugestehen, so ist es heute Ausfluß der Gerechtigkeit, die als Prinzip unsere Bundesverfassung und unsere Wahlgesetze durchzieht: dort ist der Grundsatz der Verhältnismäßigkeit grundgelegt, den wir auch bei allen anderen Fragen hier anwenden: beim Ersten Präsidenten, beim Zweiten Präsidenten, bei den Ausschüssen, bei der Stärke in den Ausschüssen, bei der Vertretung im Europarat und so weiter.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e413">
-            Es hat einen guten Grund, daß die starken Fraktionen im Präsidium des Nationalrats vertreten sind, denn dieses Präsidium ist Krisenmanager; es ist Hausmanager; und es ist Hüter der Verfassung. Und da kommt es darauf an, daß dort der Konsens gefunden werden kann, daß
-            <pb n="9"/>
-            alle großen Kräfte in diesem Land ohne Zensur dort vertreten sind und am Wohl der Republik mitgestalten.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei der ÖVP und bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e420">Meine Damen und Herren! Wir gehen daher von einem politischen Anspruch aus, daß die drittstärkste Partei in diesem Haus das Recht hat, daß die Dritte Präsidentin oder der Dritte Präsident aus ihren Reihen kommt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e422">Ein gewisses Licht des Zweifels ist auf dieses Recht durch die "Krumpendorfer Erklärung" und ihre nachfolgende Erklärung im ORF geworfen worden. Es ging dabei um die glaubwürdige Distanzierung vom Nationalsozialismus. – Für uns sind diese Zweifel behoben, für uns ist diese Distanzierung glaubwürdig erfolgt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e424">Niemand in diesem Land sollte und dürfte ein Interesse daran haben, 1 Million Österreicherinnen und Österreicher durch einen Geschäftsordnungsbeschluß in das Eck des Nationalsozialismus zu stellen. Das verlangt auch der Patriotismus von uns.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei der ÖVP und bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e429">Die Sozialdemokraten – und auch andere – haben vor 13 Monaten bereits das Recht der Freiheitlichen auf den Dritten Präsidenten bestritten; mit den gleichen Worten wie heute. Damals gab es keine "Krumpendorfer Erklärung". In beiden Fällen erklären Gründe der politischen Opportunität das Vorgehen der Sozialisten in diesem Haus. Aber dafür ist uns die Verfassung zu schade, dafür ist uns der Konsens in diesem Land zu schade. Wir wollen ein Österreich, das im Konsens und nicht im Konflikt regiert wird.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei der ÖVP und bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e435">Mein Vorredner hat den Begriff "Verfassungsbogen" herangezogen. Meine Damen und Herren! Damit hier keine Mißverständnisse entstehen! So wie es mein Parteiobmann gestern in der "Pressestunde" definiert hat: Es ist das ein politischer Begriff und kein Rechtsbegriff. Es ist ein Begriff, der zeigt, daß es eine Partei gibt, die im Wege, wie es die Verfassung vorsieht, eine grundlegende Verfassungsänderung anstrebt, mit der wir nicht einverstanden sind. Wir wollen keine "Dritte Republik". Aber es ist in diesem Land jeder Partei unbenommen, die Reform, die Änderung dieser Verfassung mit rechtmäßigen Mitteln anzustreben. Deswegen ist sie nicht rechtswidrig, deswegen ist sie nicht verfassungswidrig, denn es kann keine verfassungswidrigen Parteien geben; sie müßten sofort von Amts wegen verboten sein.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e437">Wenn wir daher heute einem Kandidaten der drittstärksten Partei unsere Stimme geben, so heißt das, daß wir einen Präsidenten oder eine Präsidentin, also ein Staatsorgan, das wichtige Funktionen zu erfüllen hat, wählen. Es heißt das aber nicht, daß wir uns mit den Zielen dieses Mannes oder dieser Frau, mit der politischen Partei, die hinter ihnen steht, identifizieren. Das gilt auch für den Ersten Präsidenten. Wir wollen Zusammenarbeit und Konsens, soweit dies möglich ist, und wir wollen heute nicht ein Parlament konstituieren, das von vornherein von einem ungerechten Konflikt geprägt ist.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e439">Meine Damen und Herren! Wir haben für alle Kandidaten ein Anforderungsprofil: Verfassungstreue, Gesetzestreue, souveräne und objektive Vorsitzführung, Unparteilichkeit, Abstand zur Tagespolitik und Abstand zum Parteienstreit. Dieses Profil legen wir an alle Kandidaten für den Ersten Präsidenten ebenso an wie an den Kandidaten für den Zweiten und für den Dritten Präsidenten. Bei allen gilt hier das gleiche; wir messen alle daran!</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e441">Es ist in unserer Wahlpraxis sehr gut verankert, daß es bei den Präsidentenwahlen keine formellen Wahlvorschläge gibt, sondern daß jede Abgeordnete und jeder Abgeordneter einen Namen seiner/ihrer Wahl hinschreibt. Daher wird es von meiner Fraktion her keine Unterstützungserklärung geben, denn wir respektieren – so wie das Cordula Frieser gestern abend im Fernsehen gesagt hat –, daß wir frei gewählte Abgeordnete sind, die ihrem Gewissen und der Verfassung verpflichtet sind.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e443">
-            Die Volkspartei wird aber prinzipiell so vorgehen, daß wir, entsprechend dem guten Grundsatz aus der Kreisky-Zeit, den Ersten Präsidenten aus den Reihen der stärksten Partei, den Zweiten Präsidenten aus der zweitstärksten Partei und den Dritten Präsidenten aus der drittstärksten
-            <pb n="10"/>
-            Partei wählen. Ich fordere Sie alle auf, diese Grundsätze, die seit vielen Jahren gelten, zu achten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e447">Wir wollen keine neuen Gräben aufreißen, wir wollen keine neuen Verschärfungen, wir wollen keine zusätzlichen Parteiungen und, meine Damen und Herren, wir wollen keine zusätzlichen Ausgrenzungen. Die nächsten vier Jahre Arbeit zum Wohle unserer Heimat beginnen, und hiezu brauchen wir die Zusammenarbeit aller.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall bei ÖVP und SPÖ.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T10:32:00+01:00">10:32</time>
-</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1416"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e458">Nächster Redner ist Herr Abgeordneter Dr. Haider. Er hat das Wort. Gleiche Redezeit.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T10:32:00+01:00">10:32</time>
-</note>
-            <note type="speaker">Abgeordneter Dr. Jörg Haider(Freiheitliche)</note>
-            <u who="#PAD_00490" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1437"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e467">Hohes Haus! Meine Damen und Herren! Die Wahlentscheidung vom 17. Dezember hat nachhaltig unterstrichen, daß es auf Dauer eine dritte Kraft in diesem Lande gibt, die mehr als 1 Million Österreicherinnen und Österreicher als ihre Anhänger bezeichnen kann und die auch bei harter politischer Auseinandersetzung und bei manchem Gegenwind, den die Freiheitlichen aushalten mußten, als eine festgefügte politische Gemeinschaft in diesem Gemeinwesen der Republik Österreich mitgestalten will.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e469">Das ist ein für uns beachtlicher Erfolg, der uns verpflichtet und der letztlich auch bei den demokratischen Kräften dieses Hauses bewirkt hat, daß sie anerkennen, daß diese Freiheitlichen selbstverständlich auch in führender Funktion im Parlamentspräsidium mitgestalten sollten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e471">Wir wollen die Worte des sozialdemokratischen Klubobmannes nicht auf die Waagschale legen, denn er hat schon so oft in seiner Argumentation gegenüber den Freiheitlichen erkennen lassen, daß er dann, wenn es um die Beurteilung einer Partei wie jener von uns Freiheitlichen geht, die es gewagt hat, in den letzten Jahren mehr als 400 000 Stimmen von den Sozialdemokraten als Wähler zu gewinnen, jede Contenance, jeden Überblick, aber auch jede Vornehmheit vermissen läßt.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e476">Meine Damen und Herren! Ich meine daher, daß wir diese Argumente auch nicht beurteilen müssen. Ich sage Ihnen nur eines, Herr Kollege Kostelka: Wenn Sie hier herausgehen und mit einem Untergriff Ihre erste Rede beginnen, indem Sie dem Kollegen Haupt Parteilichkeit unterstellen, nur weil Sie sehr persönlich mit Ihrer Fraktion während seiner Vorsitzführung wiederholt versucht haben, Vorgänge im Parlament zu skandalisieren, so könnten wir mit gleicher Münze zurückzahlen. Auch wir haben Konflikte mit dem von Ihnen genannten Kandidaten als Erstem Präsidenten gehabt. Auch da hat es Sitzungsunterbrechungen gegeben, auch da hat es Diskussionen und Auffassungsunterschiede über die Geschäftsordnung gegeben. Aber wir werden sicherlich nie den Irrtum begehen, Auffassungsunterschiede über die Geschäftsordnung in eine politische Feindschaft ausarten zu lassen, wie Sie das freiheitlichen Kandidaten gegenüber tun.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e481">Wenn Sie das Ganze dann noch "abrunden", indem Sie sagen, jetzt sitzen diese Freiheitlichen endlich dort, wohin sie gehören, nämlich am äußersten rechten Rand, dann darf ich Sie doch daran erinnern, daß bis vor kurzem jene dort gesessen sind, mit denen Sie so gerne eine Koalition machen möchten. Das stimmt also nicht ganz zusammen, aber die Logik des Denkens ist Ihnen schon in der Zeit, in der Sie noch Wissenschafter an der Universität waren, nicht ganz vertraut gewesen.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e486">
-            Meine Damen und Herren! Wenn Sie alle möglichen Vorwände suchen, um die Freiheitlichen zu diskreditieren, und wieder einmal Ihre alte Walze herausnehmen, daß die Freiheitlichen irgendwelche Vergangenheit verherrlichen, so soll auch hier noch einmal klargestellt werden, so wie ich das in meinem Buch, wie ich das auch in jüngsten Interviews getan habe: Es gibt niemanden in der freiheitlichen Bewegung, der sich auch nur eine Sekunde lang mit den Greueltaten, mit den Verbrechen, mit der Menschenverachtung eines nationalsozialistischen Regimes identifizieren würde, aber es gibt viele in unseren Reihen, die selbstverständlich auch das Lebensschicksal der Kriegsgeneration so ernst nehmen, daß sie nicht Kollektivvorwürfe
-            <pb n="11"/>
-            machen, sondern die Menschen nach ihren Taten beurteilen und sie nicht verdammen nur deshalb, weil sie auf der Seite der Verlierer in einem Krieg gestanden sind. Das ist die Realität, mit der Sie sich einmal auseinandersetzen müssen.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e493">Eine Partei, die im Jahr 1971 eine Regierung bildet und wo dann in der "Furche" vom 24. April 1971 über einen Skandal in Holland berichtet wird, weil sich der damalige Minister Gratz vor der holländischen Presse rechtfertigen mußte, weil so viele alte Nazis in der sozialistischen Regierung sitzen und eine holländische Zeitung gefragt hat: "Finden Sie es richtig, daß 25 Jahre nach dem Kriegsende in einem befreiten Land, das Deutschland besiegt und besetzt hatte, fast ein Drittel der Regierungsmitglieder ehemalige Nazis sind? Oskar Weihs, Otto Rösch, Josef Moser, Erwin Frühbauer und Landwirtschaftsminister Öllinger." – Herr Bundesminister Gratz mußte kleinlaut zugeben: Es ist nicht notwendig, daß so viele ehemalige Nazis in einer solchen Regierung vertreten sein müssen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e496">Ich bewerte das nicht. Aber Sie, Herr Kollege Kostelka, sollten endlich einmal vor der eigenen Tür kehren, bevor Sie hier heraußen ständig vernebeln wollen, daß Sie Ihre ganze Macht und Ihren ganzen Einfluß, der seit 25 Jahren in dieser Republik existiert, darauf aufgebaut haben, daß Sie ein Bündnis mit ehemaligen Nationalsozialisten in einer Regierung geschlossen haben, von denen Sie sich bis heute nicht distanziert haben und daher auch zur Kenntnis nehmen müssen, daß Sie sehr unglaubwürdig sind, wenn Sie hier so argumentieren.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Freiheitlichen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e501">Wir werden mit Ihnen auch dort über die Geschichte reden, wo Sie den blinden Fleck haben, weil Sie vergessen wollen, welche Bündnisse Sie in Jahrzehnten geschlossen haben. Wir haben dieser älteren Generation ihre Vergangenheit nie vorgeworfen, wir versuchen gerecht zu sein.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e503">Tun Sie das auch, Herr Kollege Kostelka, tun Sie das auch so wie wir, die wir einen klaren Schlußstrich gegenüber jeder Verleumdung der älteren Generation ziehen wollen, die wir aber auch andererseits eine klare Distanz zu jedem menschenverachtenden System, wie jenes des Nationalsozialismus, beobachten und das auch durch unser Handeln klargemacht haben, damit es nicht wieder passiert, daß junge Menschen in einer Existenznot dazu gebracht werden müssen, gegen ihr eigenes Land aufzustehen. Ersparen wir das der jungen Generation!</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e505">Und deshalb sollten Sie etwas konsensbereiter sein. Auch wenn Sie die Freiheitlichen nicht wollen, Herr Kollege Kostelka, sollten Sie einmal über Ihren Schatten springen und anerkennen, daß es sich hier um eine demokratische Kraft handelt, die man mit Vernadern nicht einfach ständig schlechtmachen kann.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e507">Wir stehen zu den Grundsäulen dieser Republik. Wir akzeptieren die Entscheidungen, die das österreichische Volk getroffen hat – einschließlich jener, zur Europäischen Union beizutreten, wenngleich wir auch an einer Reform der Verfassung der Europäischen Union mitarbeiten wollen, weil wir der Meinung sind, daß Maastricht der falsche Weg ist, daß aber die Entscheidung der Österreicher, in diesem Europa Mitglied zu sein, zu respektieren ist, weil das eine zutiefst demokratische Entscheidung war.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e509">Wir respektieren, daß es in Österreich politische Diskussionen darüber gibt, wie weit Verfassungsreform gehen kann. Wir wollen nicht um den Begriff "Dritte Republik" streiten, aber wir wollen Ihnen sagen, daß es uns um mehr Demokratie geht.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e511">Hiebei geht es nicht um eine Frage des Firmenschildes, sondern um die Frage, ob wir den Mut haben, mehr direkte Demokratie zu wagen, ob wir in diesem Land den Mut haben, mehr Offenheit gegenüber den Bürgern an den Tag zu legen. Wir werden Ihnen den Begriff "Dritte Republik" nicht zum Problem machen, aber wir werden darauf verweisen, daß es im Inhaltlichen darum geht, die direkte Demokratie in unserem Land auszubauen, die Bevölkerung mehr einzubinden und keine Angst vor der Mitsprache des eigenen Volkes zu haben.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e513">
-            Das ist der Weg, den wir Freiheitlichen gehen wollen, der in dieses Hohe Haus paßt. Daher bitten wir die anderen Damen und Herren des Hauses zu Recht, unseren Kandidaten zu unterstützen, denn diese demokratische Bewegung von mehr als 1 Million Österreicherinnen
-            <pb n="12"/>
-            und Österreichern hat ein moralisches Anrecht auf Mitsprache im Hohen Haus dieser Republik Österreich.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall bei den Freiheitlichen.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T10:41:00+01:00">10:41</time>
-</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1548"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e526">Nächster Redner ist Herr Abgeordneter Dr. Kier. Die Redezeit ist die gleiche.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T10:41:00+01:00">10:41</time>
-</note>
-            <note type="speaker">Abgeordneter Dr. Volker Kier(Liberales Forum)</note>
-            <u who="#PAD_02860" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1570"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e534">Herr Präsident! Sehr geehrte Damen und Herren! Hohes Haus! Der Tagesordnungspunkt, der uns beschäftigt, ist kein eingliedriger, sondern ein dreigliedriger.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e536">Ich möchte gleich am Beginn meiner Ausführungen nachdrücklich darauf verweisen, daß wir heute den Ersten, den Zweiten und den Dritten Präsidenten oder Präsidentin wählen – und nicht nur den Dritten Präsidenten. Daher möchte ich eingangs auch eine kurze Bemerkung zum Vorschlag betreffend den Ersten und den Zweiten Präsidenten machen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e538">Ich freue mich, daß beide Herren, die in der letzten Legislaturperiode in diesen Ämtern waren, wieder zur Verfügung stehen. Es wird mir persönlich eine Freude sein, sie in dieses Amt mit meinem freien Mandat mit wählen zu dürfen, so wie wir alle 183 hier bei dieser Wahl unser freies Mandat wahrzunehmen haben und von der persönlichen Verantwortung für die Entscheidung, die wir treffen, nicht entbunden sind. Das nämlich ist unsere Aufgabe als gewählte Volksvertreter – und nicht das Agieren in Blöcken und Fraktionen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e540">Daher gehe ich jetzt gerne und rasch – wegen der kurzen Redezeit – auf die Frage der Wahl des Dritten Präsidenten ein. Ich meine, daß es sich hier und heute um Persönlichkeitswahlen handeln muß, die wir auch auf ihren politischen Gehalt hin zu prüfen haben. Wenn für diese Position drei Vorschläge vorliegen, so entspricht das im wesentlichen dem Grundsatz, daß jeder Abgeordnete dieses Hauses einen Vorschlag machen kann und daß es von der rechtlichen Seite her keinen Zweifel daran gibt, daß das so auch in Ordnung ist und seinen guten Sinn hat.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e542">In diesem Zusammenhang muß man vom Blickwinkel der politischen Kultur und der Usancen eine Unterscheidung treffen: Vom Standpunkt der politischen Kultur und der Usancen aus ist es zweifellos und unwidersprochen so, daß bis zuletzt und auch heute niemand bestritten hat, daß die drittstärkste Fraktion dieses Hauses einen Vorschlag machen darf. Wer das bestreiten würde, hätte tatsächlich ein gestörtes Verhältnis zum Parlamentarismus. Aber das Anerkennen eines Vorschlagsrechtes bedeutet nicht, daß man – wie Kollege Khol hier ausgeführt hat – quasi in einem bedingten Reflex diesem Wahlvorschlag ohne Wenn und Aber zu entsprechen hat. Es ist nämlich durchaus vorstellbar und im vorliegenden Fall auch so, daß der Vorschlag der drittstärksten Fraktion – so sehe ich das – nicht mehrheitsfähig sein kann und darf.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall beim Liberalen Forum und bei den Grünen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e547">Aus diesem Grund handelt es sich hiebei keineswegs um die Mißachtung irgendeines Wählerwillens und auch unter gar keinen Umständen um die allfällige Ausgrenzung von 1 Million anständiger Österreicher. Wir haben jedoch politische Verantwortung wahrzunehmen, wenn wir zu solchen Wahlen hier in diesem Haus schreiten. Diese sind im übrigen auch aus guten Gründen frei, gleich und geheim unter allen Abgeordneten, damit diejenigen Persönlichkeiten, die aus einer solchen Wahl hervorgehen, ihr Amt unbefangen und ausschließlich auf die Mehrheit derer, die sie gewählt haben, gestützt – aber eben auf diese anonyme Mehrheit gestützt – ausüben können.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e549">Daher müssen wir uns rund um die Wahl des Dritten Präsidenten folgende Frage stellen: Gibt es Aspekte in der politischen Kultur, die es abzuwägen gilt gegen die Usance, die übrigens auch ein Element der politischen Kultur ist, daß die drittstärkste Fraktion ein entsprechendes Vorschlagsrecht hat? Im übrigen haben auch die viertstärkste und fünftstärkste Fraktion und jeder einzelne Abgeordnete und jede einzelne Abgeordnete dieses Hauses dieses Vorschlagsrecht.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e551">
-            Wir müssen uns bewußt machen, daß wir hier in das zweithöchste Staatsamt der Republik wählen, in ein Staatsamt von hohem symbolischem Gehalt und von hoher symbolischer
-            <pb n="13"/>
-            Aussagekraft. Es ist daher keineswegs gleichgültig, welche symbolischen Gehalte und welche politischen Botschaften man mit dieser Wahl transportiert, wenn man eine ganz bestimmte Persönlichkeit wählt. In diesem Sinne schließt sich der Bogen zur politischen Kultur.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e555">Wir haben mit der drittstärksten Fraktion dieses Hauses aber nicht erst seit Krumpendorf ein echtes Problem. Wir haben vielmehr das Problem – und Kollege Haider hat das heute ja sehr deutlich abermals wiederholt –, daß eine Scheinabgrenzung von etwas vorgenommen wird, was gar nicht vorgehalten wurde: Es wurde nie behauptet, daß irgend jemand in dem Sinn expressis verbis Verbrechen gelobt oder gutgeheißen habe, wie Kollege Haider das vorgetragen hat. Es wurde aber – und das zu Recht – in den Raum gestellt, daß es sich beim Adressieren von ehemaligen Kriegsverbrechern als "liebe Freunde", beim Adressieren einer ausdrücklichen Kameradschaftsvereinigung der Waffen-SS, die bekanntlich in Nürnberg und auch anderswo als verbrecherische Organisation eingestuft wurde, bei der ausdrücklichen Erwähnung dieser Symbole um eine rückwirkende und leider auch in die Zukunft weisende Verherrlichung einer bestimmten politischen Position handelt, mit der die Republik Österreich nicht in Kontakt gebracht werden darf.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall beim Liberalen Forum, bei der SPÖ und den Grünen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e561">Wenn ich jemanden, der für diese Symbolik steht, in das hohe, zweithöchste Staatsamt der Republik Österreich wähle und entsende, dann bringe ich diese Symbolik sehr wohl in Kontakt mit unserer Republik. Und genau auf dieser Ebene der politischen Kultur spielt sich dieses Problem ab. Daher wende ich mich insbesondere an die Kolleginnen und Kollegen von der Österreichischen Volkspartei: Überlegen Sie sich und vergegenwärtigen Sie sich, was Sie hier mittransportieren, wenn Sie den durchaus vernünftigen Einschätzungen Ihres Klubobmannes Khol bis vor dem Zeitpunkt, als das Thema Steiermark aktuell wurde, plötzlich gedanklich nicht mehr folgen und diese plötzlich nicht mehr akzeptieren.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e563">Denn es wäre tatsächlich für uns alle ein Problem, wenn wir das Amt des Dritten Präsidenten des österreichischen Nationalrates mit einem Angehörigen dieses Hohen Hauses besetzten, der dafür steht, daß sein eigener Parteiobmann unwidersprochen Angehörige der Kameradschaft IV als "liebe Freunde" und als Menschen bezeichnet, die deswegen anständig sind, weil sie 50 Jahre lang ungebrochen die Gesinnung des Dritten Reiches getragen haben. Das halte ich für nicht akzeptabel.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e565">Das ist deutlich davon zu unterscheiden, daß ich akzeptiere, daß aus einer demokratischen Wahl eine Partei, die auch für solche Positionen steht, mit 40 Abgeordneten hervorgegangen ist und daß sie eine Fraktion dieses Hauses ist. Daß sie Nominierungsrechte hat und Wahlvorschläge machen darf, ist eine Sache, das bedeutet aber nicht – ich sage das noch einmal –, daß ich im bedingten Reflex zu wählen habe, was mir hier vorgeschlagen wurde. So wie der "Verfassungsbogen" ein politischer Begriff, ein Element der politischen Kultur in diesem Sinn ist, so ist auch das Wahlverhalten in diesem Haus, in einer solchen Frage ein Ausdruck der persönlichen politischen Kultur.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e567">Wir werden an diesem Wahlergebnis ablesen können, ob das, was ich unter politischer Kultur und ordentlichem Umgang mit der eigenen Vergangenheit verstehe, mehrheitsfähig ist oder nicht. Ich kann nur hoffen, daß sich eine Mehrheit in diesem Haus findet, die an eine Fraktion, die für sich in Anspruch nimmt, daß wir, weil sie ein Nominierungsrecht hat, diesem bedingungslos folgen müssen – vielleicht nach dem Grundsatz "Der Obmann hat das letzte Wort, und wenn er gesprochen hat, dann wissen alle, was sie zu tun haben!" –, eine gebührende Absage erteilt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e569">Wenn Sie hier so abstimmen, wie ich es befürchte, dann sitzt Ihr Obmann – ich adressiere jetzt an die Österreichische Volkspartei – rechts außen. Dann haben Sie Ihren eigenen Obmann desavouiert, der von Demokratie gesprochen hat und von dem ich persönlich weiß, daß er kein gestörtes Verhältnis wie andere zum Dritten Reich hat. Dann hat er sich nämlich unterworfen, und wenn man sich einmal unterwirft, dann bleibt man unten. Das will ich Ihnen wirklich ans Herz legen.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall beim Liberalen Forum, bei den Grünen und bei Abgeordneten der SPÖ.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T10:51:00+01:00">10:51</time>
-</note>
-            <pb n="14"/>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1657"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e582">Nächster Redner ist Herr Abgeordneter Voggenhuber. Er hat das Wort.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T10:51:00+01:00">10:51</time>
-</note>
-            <note type="speaker">Abgeordneter Johannes Voggenhuber(Grüne)</note>
-            <u who="#PAD_01355" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1678"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e590">Herr Präsident! Hohes Haus! "Wenn eine Idee mit einem Interesse zusammenstößt, dann gewinnt fast immer das Interesse." Das sagte der Philosoph Hegel. Ich möchte hinzufügen, daß trotzdem die einzige Hoffnung auf einen Fortschritt in der Geschichte darauf beruht, daß Ideen auch gegen Interessen durchsetzbar sind.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e592">Meine Damen und Herren! Wir haben es heute mit vielen Interessen zu tun, und wir sollten nicht den Eindruck entstehen lassen, als ginge es heute um eine klare, reine, unschuldige Frage. Wann geht es in der Politik denn je um eine solche? – Es gibt Machtspiele und Machtinteressen. Es besteht heute vielleicht die Möglichkeit, eine schwarz-blaue Option zu beschädigen oder einen Koalitionspartner zu bändigen oder zu demütigen. Es gibt die Möglichkeit, die Erpressung der FPÖ bezüglich des steirischen Landeshauptmannes vielleicht aufgehen zu lassen oder zu verhindern. Es gibt vielleicht die Möglichkeit, eine "Ampelkoalition" zu demonstrieren oder jede dahin gehende Absicht zu widerlegen. All das ist heute auch Motiv dessen, was geschieht.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e594">Aber es gibt auch eine Idee heute, um die es geht. Und diese Idee heißt: Es muß in Österreich eine politische Kultur geschaffen werden, in der jede klammheimliche oder offene Bejahung beziehungsweise Bewunderung oder auch nur jeder nachlässige Umgang mit dem Geist des Nationalsozialismus geahndet wird und zum Ausschluß aus allen hohen Staatsämtern führt. – Um diese Idee geht es, und dieses Parlament wird zeigen, ob die Idee, wenn sie mit machtpolitischen Interessen zusammenstößt, untergeht oder nicht.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e596">Herr Klubobmann Haider! Sie haben zu Recht darauf verwiesen, daß die Geschichte der großen Parteien dieses Landes voll ist von klammheimlichen Kumpaneien mit ehemaligen Nationalsozialisten, daß die politische Kultur dieses Landes nicht stark genug war, Menschen aus hohen Staatsämtern auszuschließen, die auch in diesen Parteien mit dem Nationalsozialismus verbunden geblieben sind. Und weil Sie recht haben, Herr Dr. Haider, ist es so wichtig, Ihnen heute diese Absage zu erteilen. Es muß Ihnen klargemacht werden, daß Sie nicht länger recht haben und daß Sie nicht in die Lage versetzt werden, diese unselige Kultur der letzten Jahrzehnte aufrechtzuerhalten.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Grünen und beim Liberalen Forum.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e601">Herr Dr. Haider! Ohne die Großparteien exkulpieren zu wollen, möchte ich Sie an dieser Stelle auch daran erinnern, daß es diese Großparteien waren, die in den letzten Jahren einige wesentliche politische Schritte in Richtung einer neuen politischen Kultur gesetzt haben. Nach 50 Jahren ist die Mitverantwortungserklärung für die Verantwortung Österreichs an den Verbrechen des Nationalsozialismus abgegeben worden. Es gab ein Bedenkjahr, in dem die Parteien dieses Landes keinen Zweifel daran gelassen haben, daß die Geschichte der Verdrängung und des Verschweigens zu Ende ist. Wir haben nach vielen Jahrzehnten die Errichtung eines Fonds zur Entschädigung der NS-Opfer beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e603">Herr Dr. Haider! Es ist heute unser Anliegen, daß diese unselige Kultur der stillschweigenden Kumpanei – der offenen und verdeckten – und des klammheimlichen Spielens mit der Sympathie mit verbrecherischen Organisationen und ihrer Geisteshaltung in unserer Gesellschaft nicht mehr geduldet wird.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e605">Herr Dr. Haider! Das ist kein Heroismus. Heroisch wäre es vielleicht gewesen, wenn die Parteien auf Millionen von Wählern verzichtet hätten, um sich mit ihnen unmittelbar nach dem Krieg nicht alliieren zu müssen. Das wäre vielleicht heroisch gewesen. Heute haben wir nur mehr die Chance, eine selbstverständliche Kultur zu gewinnen. Aber an dieser Selbstverständlichkeit wollen wir festhalten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e607">
-            Wir werden und können es nicht dulden – und die Mehrheit dieses Hauses ist heute dazu aufgerufen, es nicht zu dulden –, daß die Mitglieder einer verbrecherischen Organisation in diesem Land ungestraft und pauschal als "anständige Menschen", ihre Geisteshaltung als "allgemein überlegen" und ihre Unbelehrbarkeit als "Treue" bezeichnet werden können – und
-            <pb n="15"/>
-            das von einem Parteiführer dieses Parlaments, ohne daß ihm und denen, die sich nicht davon distanzieren, der Zugang zu hohen Staatsämtern verwehrt wird, meine Damen und Herren!</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e611">Das ist die Idee, um die es heute geht. Sie haben es in der Hand, zu entscheiden, ob sich irgendwelche Interessen durchsetzen oder diese gemeinsame Idee für eine neue politische Kultur in Österreich gewinnt. Ich und meine Kolleginnen und Kollegen rufen Sie heute dazu auf, die seltene Gelegenheit zu nutzen, zu beweisen, wie notwendig es ist, daß eine Idee über Interessen siegt. – Ich danke Ihnen.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall bei den Grünen und beim Liberalen Forum.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T10:57:00+01:00">10:57</time>
-</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1739"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e622">Nächster Redner ist Herr Abgeordneter Dr. Ofner. Restliche Redezeit: zwei Minuten.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T10:57:00+01:00">10:57</time>
-</note>
-            <note type="speaker">Abgeordneter Dr. Harald Ofner(Freiheitliche)</note>
-            <u who="#PAD_01101" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1760"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e631">
-            Herr Präsident! Meine Damen und Herren! Ich halte die Stunde für ernster, als viele von uns sich das vergegenwärtigen mögen. Es geht ums Grundsätzliche, aber in anderer Richtung, als Taktierer das darstellen wollen. Der Dritte Präsident steht im konkreten Fall den Freiheitlichen zu. <note type="unauthorized_interruption"
-                        xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1768">Abg. Wabl: Warum?</note>Dieses Recht steht uns nicht nur aufgrund von Usancen, sondern auch rechtlich abgestützt auf das d’Hondtsche System zu, das in Wahldingen und im Zusammenhang mit Vorgängen im Parlament immer hilfsweise heranzuziehen ist, wenn es sonst keine geschriebenen Regeln gibt. Es wäre dieses Recht auf den Dritten Präsidenten eine leere Hülse, verstünde man es so, daß man sagt: Ihr dürft vorschlagen, wen immer ihr wollt. Wir wählen, wen wir wollen. – Das bedeutet einen Schlag ins Gesicht des Geistes des demokratischen Parlamentarismus, wie wir ihn erfreulicherweise gewöhnt sind. Ich werde zum Ersten Präsidenten Fischer wählen, und ich werde zum Zweiten Präsidenten Neisser wählen, nicht allein deshalb, weil ich beide respektiere – ich respektiere beide –, sondern weil ich der Meinung bin, daß den jeweiligen Fraktionen nicht nur das Recht zusteht, eine Annonce aufzugeben, sondern auch das Recht zusteht, zu bestimmen, wer das Amt ausüben soll.
-            <kinesic type="applause">
-                     <desc>(Beifall bei den Freiheitlichen.)</desc>
-                  </kinesic>
-            Meine Damen und Herren! Wenn ein Falscher bei dieser Gelegenheit in ein hohes Amt berufen werden sollte, dann wird das auf ihn und auf die Fraktion, die ihn nominiert hat, zurückfallen. Aber es kann nicht Sache der anderen Fraktionen, also der Konkurrenz, sein, hier eine Vorauswahl und auch schon eine Vorverurteilung zu treffen.
-            <kinesic type="signal">
-                     <desc>(Präsident Dr. Fischer gibt das Glockenzeichen.)</desc>
-                  </kinesic>
-            Ich fasse mich sehr kurz: Es ist ein Recht, um das es geht. Und wir sollten uns davor hüten – aus den Bestreben heraus, andere demütigen zu wollen –, zu taktieren.</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1799"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e647">Bitte um den Schlußsatz!</seg>
-            </u>
-            <note type="speaker">Abgeordneter Dr. Harald Ofner</note>
-            <note type="procedural">(fortsetzend)</note>
-            <u who="#PAD_01101" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1814"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e654">Ich bin beim Schlußsatz, Herr Präsident.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e656">Wir sollten uns also davor hüten, aus Hybris ins Taktieren zu verfallen. Denn wir älteren Menschen wissen, wohin das Spielen mit dem Parlamentarismus, vor allem mit dem Präsidium, führen kann. Wir wünschen uns solche Zeiten nicht zurück, meine Damen und Herren!</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall bei den Freiheitlichen.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T11:00:00+01:00">11:00</time>
-</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1847"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e668">Nächster Redner ist Herr Abgeordneter Haselsteiner. Seine Redezeit beträgt eine Minute.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T11:00:00+01:00">11:00</time>
-</note>
-            <note type="speaker">Abgeordneter Dr. Hans Peter Haselsteiner(Liberales Forum)</note>
-            <u who="#PAD_02859" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1869"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e676">
-            Herr Präsident! Sehr geehrte Damen und Herren! Das letzte Stichwort des Herrn Kollegen Ofner war "Spiel".
-            <pb n="16"/>
-            Ich glaube, selbst wenn du, Jörg, einer Fraktion vorsäßest, die seinerzeit unter dem Nationalsozialismus gelitten hätte und wenn du wirklich außer jeglichem Zweifel in dieser Frage stündest, könnte ich deinen Kandidaten heute nicht wählen. Ich könnte ihn deshalb nicht wählen, weil ich glaube, daß man dir auch einmal sagen muß, daß dieses Parlament keine Spielwiese ist. Wenn wir Karten spielen wollen, dann spielen wir Bridge oder von mir aus Stoß, aber nicht in diesem Haus und nicht ein solches Poker.
-            <kinesic type="applause">
-                     <desc>(Beifall beim Liberalen Forum und bei Abgeordneten der Grünen.)</desc>
-                  </kinesic>
-            Meine Damen und Herren! Nehmen Sie zur Kenntnis, daß offensichtlich ist, daß sich hier zwei zum Poker zusammengesetzt und gesagt haben, worum es geht. Herr Khol! Glauben Sie doch nicht, daß wir 183 hier, die Zuschauer und Zuhörer und Ihre Wähler das nicht irgendwie spüren und nicht auch wissen. Daher ist meiner Meinung nach kein Kandidat von der FPÖ – weder dieser, der seine Rücktrittsrede sicher schon vorbereitet hat, noch ein anderer – wählbar.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall beim Liberalen Forum, bei den Grünen und bei Abgeordneten der SPÖ.)</desc>
-            </kinesic>
-            <note type="unauthorized_interruption"
-                  xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1891">Abg. Dr. Haider: Jetzt weiß ich, warum sie dich nicht als Hauptredner genommen haben!</note>
-            <note type="time">
-               <time when="1996-01-15T11:02:00+01:00">11:02</time>
-</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1912"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e695">Zu Wort gelangt Herr Abgeordneter Wabl. Restliche Redezeit: 4 Minuten.</seg>
-            </u>
-            <note type="time">
-               <time when="1996-01-15T11:02:00+01:00">11:02</time>
-</note>
-            <note type="speaker">Abgeordneter Andreas Wabl(Grüne)</note>
-            <u who="#PAD_01375" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1934"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e704">Sehr geehrte Damen und Herren! Herr Präsident! Die Grünen freuen sich ebenso, den Kandidaten für das Amt des Ersten Präsidenten hier wählen zu dürfen, und zwar aus einem einfachen Grund: nämlich weil wir aufgrund der Geschichte in diesem Haus den Eindruck gewonnen haben, daß Herr Präsident Fischer zwar in seinem Amt sicher ein Sozialdemokrat geblieben ist, aber daß er in der kritischen Auseinandersetzung seine eigene Fraktion sehr wohl zurechtweist.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e706">Das kann ich auch für den Zweiten Präsidenten Heinrich Neisser feststellen, der in Konfliktsituationen auch Klubobmann Khol sehr wohl stets klar gesagt hat, welchen Standpunkt er einnimmt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e708">Meine Damen und Herren! Wir haben betreffend den Abgeordneten Haupt vor einem Jahr hier in diesem Haus festgehalten, daß er ein engagierter Abgeordneter ist, der sich hier in diesem Haus redlich bemüht, einen Beitrag zu leisten. Er ist keiner, der die "ordentliche Beschäftigungspolitik" des Dritten Reiches lobt. Er ist aber auch keiner, der sich gegen solche Statements auflehnt. Wir stellen heute fest, daß Herr Abgeordneter Haupt keiner ist, der Lobgesänge auf den Geist der Waffen-SS singt – das tut er nicht, das möchte ich hier ausdrücklich sagen; ich kenne Herrn Haupt lange –, aber es gibt auch keine Garantie dafür, daß er gegen eine solche Haltung auftritt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e710">Meine Damen und Herren! Herr Khol! Nun komme ich zu Ihnen: Sie haben verlangt, daß sich die Freiheitliche Partei und der Parteiobmann der F von seinen unglaublichen Äußerungen, die er bei diesem Treffen gemacht hat, distanzieren. Es ist einfach unvorstellbar, daß Sie tatsächlich meinen, daß es ausreichend ist, wenn die Freiheitlichen und wenn Herr Haider in der Öffentlichkeit erklären: Ich bin gegen die Verbrechen im Nationalsozialismus. Ich distanziere mich klar von diesen Greueltaten. Wenn Ihnen das genügt, dann vergessen Sie, meine Damen und Herren, daß die Verbrechen im Zweiten Weltkrieg mit Gesichtern und mit Namen verbunden waren. Es waren Väter und Mütter. – Herr Haider! Das ist Ihr Problem, damit müssen Sie fertig werden.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e712">Herr Khol! Ihr Problem ist es hingegen, daß Sie in diesem Zusammenhang die Idee verkaufen und verraten, weil Sie Angst haben, daß Sie in diesem Haus den politischen Spielraum verlieren. Ich sage Ihnen: Sie haben kurzfristig recht – auch Sie, Herr Schüssel –, Sie hätten Spielraum verlieren können, aber Sie hätten in diesem Land kulturpolitisch viel gewonnen. Diese Chance haben Sie verwirkt!</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei den Grünen und beim Liberalen Forum.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e717">
-            Ein letztes Wort zur Fraktion der SPÖ und zu den Liberalen: Da wir verschiedene Kandidaten aufgestellt haben, ersuche ich Sie eindringlich, darüber nachzudenken, ob es möglich sein kann, einen gemeinsamen Kandidaten oder eine gemeinsame Kandidatin zu finden. Denn wir haben
-            <pb n="17"/>
-            möglicherweise nicht so bald wieder die Chance, in diesem Haus zumindest ein bißchen etwas von dem kulturpolitischen Terrain zu halten, das wir kurzfristig auch mit Herrn Khol hatten. – Danke schön.</seg>
-            </u>
-            <kinesic type="applause">
-               <desc>(Beifall bei den Grünen, beim Liberalen Forum und bei Abgeordneten der SPÖ.)</desc>
-            </kinesic>
-            <note type="time">
-               <time when="1996-01-15T11:07:00+01:00">11:07</time>
-</note>
-            <pb n="18"/>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e1987"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e731">Zu Wort ist niemand mehr gemeldet. Ich schließe die Debatte.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e733">Es liegt mir das Verlangen vor, die Wahlen nicht nur mittels Stimmzetteln durchzuführen, wie das die Geschäftsordnung vorsieht, sondern auch mittels Wahlzellen. Dieses Verlangen ist ausreichend unterstützt. Ich werde daher so vorgehen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e735">Wahl des Präsidenten</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2011"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e740">Es wird gemäß Artikel 30 der Bundesverfassung als erstes die Wahl des Präsidenten des Nationalrates vorgenommen. Auf den vorliegenden Vorschlag habe ich bereits hingewiesen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e742">Ich mache darauf aufmerksam, daß gemäß § 87 Abs. 3 der Geschäftsordnung auch andere Kandidaten und Kandidatinnen wählbar sind.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e744">Gemäß § 87 Abs. 7 der Geschäftsordnung ist die Wahl des Präsidenten geheim, und zwar mittels Stimmzetteln durchzuführen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e746">Ich unterbreche kurz die Sitzung, um die technischen Voraussetzungen für die Wahl in Wahlzellen zu schaffen.</seg>
-            </u>
-            <note type="procedural">(Die Sitzung wird für kurze Zeit unterbrochen.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2045"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e753">Die Vorbereitungen sind beendet. Ich nehme die unterbrochene Sitzung wieder auf und bitte Frau Schriftführerin Parfuss, sich bereitzuhalten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e755">Meine Damen und Herren! Der Stimmzettel, der zu benützen ist, wird samt Kuvert bei Namensaufruf durch die Frau Schriftführerin von den hiezu bestimmten Bediensteten der Parlamentsdirektion ausgegeben. Für die Wahl ist ausschließlich der amtliche Stimmzettel zu verwenden. Auf diesen ist der Name des gewünschten Kandidaten oder der gewünschten Kandidatin zu schreiben.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e757">Nach dem Ausfüllen des Stimmzettels in der Wahlzelle ist dieser, im Kuvert verschlossen, in die bereitgestellte Urne zu werfen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e759">Ich ersuche nunmehr die Abgeordneten, bei Namensaufruf durch die Frau Schriftführerin Stimmzettel und Kuvert in Empfang zu nehmen und sich sodann in eine der Wahlzellen zu begeben.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e761">Ich bitte die Frau Schriftführerin, mit dem Namensaufruf zu beginnen; Frau Abgeordnete Apfelbeck wird Sie zu gegebener Zeit ablösen.</seg>
-            </u>
-            <note type="procedural">(Über Namensaufruf durch die Schriftführerinnen Parfuss und Apfelbeck begeben sich die Abgeordneten in die Wahlzelle und werfen sodann den Stimmzettel in die Urne.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2085"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e769">Sind alle Stimmen abgegeben? – Ich erkläre die Stimmabgabe für beendet.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e771">Die Bediensteten des Hauses werden jetzt unter Aufsicht der Schriftführer die Stimmenzählung vornehmen. Ich unterbreche für diesen Zweck die Sitzung für die Dauer der Stimmenzählung.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e773">Die Sitzung ist unterbrochen .</seg>
-            </u>
-            <note type="procedural">(Die Sitzung wird um 11.47 Uhr unterbrochen und um 12.03 Uhr wiederaufgenommen.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2115"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e780">Ich bitte, Platz zu nehmen. Ich darf die unterbrochene Sitzung wiederaufnehmen und das Wahlergebnis bekanntgeben.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e782">Abgegeben wurden 183 Stimmen; davon waren 179 Stimmen gültig. Die absolute Mehrheit beträgt somit 90 Stimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e784">Es entfielen auf den Abgeordneten Dr. Heinz Fischer142 Stimmen, auf den Abgeordneten Dr. Löschnak 17 Stimmen, auf andere Abgeordnete 20 Stimmen. Damit ist der Abgeordnete Dr. Fischer – so ist es meine Pflicht, es zu verkünden – zum Präsidenten des Nationalrates gewählt.</seg>
-               <kinesic type="applause">
-                  <desc>(Beifall bei SPÖ, ÖVP, dem Liberalen Forum, den Grünen sowie der Abgeordneten Dr. Haider, Mag. Haupt und Dr. Ofner.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e789">Antrittsrede des Präsidenten</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2155"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e794">Meine Damen und Herren! Ich bin Ihnen noch die Erklärung schuldig, daß ich diese Wahl mit Dankbarkeit annehme und daß ich mich für das zum Ausdruck gebrachte Vertrauen sehr, sehr herzlich bei Ihnen allen bedanken möchte.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e796">Im Sinne dieses Vertrauens werde ich mich auch sehr bemühen, die Aufgaben, die dem Präsidenten des Nationalrates übertragen sind, auf das gewissenhafteste zu erfüllen und dieses Vertrauen damit zu rechtfertigen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e798">Ich darf Sie und uns alle darauf hinweisen, daß die Gesetzgebungsperiode des Nationalrates, die wir heute, am 15. Jänner 1996, beginnen, eine vierjährige Dauer aufweist, also bis zum Jänner des Jahres 2000 reichen kann, wenn wir dies wünschen und wenn wir die Vollmacht, die wir durch die österreichische Bevölkerung erhalten haben, voll ausschöpfen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e800">Das heißt, wir tragen Verantwortung nicht nur für den Rest dieses Jahrzehnts – wenn man will: für den Rest dieses Jahrhunderts –, sondern wir haben auch daran zu arbeiten, in welcher Verfassung wir die Schwelle zum nächsten Jahrhundert überschreiten. Es sind dabei nicht nur jene großen wirtschaftlichen und sozialen Probleme zu lösen, von denen in diesen Tagen und Wochen so viel die Rede ist und für die wir auch in den Koalitionsverhandlungen bemüht sind gemeinsame Lösungen zu finden, sondern wir sind auch in allen anderen Bereichen der Politik – in der Innenpolitik genauso wie in der Außenpolitik – gefordert, Aufgaben zu erfüllen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e802">Während die Bundesregierung in Österreich ihre Entscheidungen nach dem Grundsatz der Einstimmigkeit in einem sehr überschaubaren Personenkreis zu treffen hat, sind die Regeln der Willensbildung des Nationalrates im Kreise von 183 Abgeordneten, die fünf verschiedenen Fraktionen angehören, welche wiederum teilweise als Regierungsparteien, teilweise als Oppositionsparteien tätig sind, natürlich schwieriger und komplexer. Und da kollidiert manchmal die Raschheit von Entscheidungen, die ja erwünscht sein kann, mit der Gründlichkeit der Einbindung aller Abgeordneten, insbesondere der Opposition. Und die Berechenbarkeit der Politik und die Paktfähigkeit einzelner Politiker kann unter Umständen wiederum mit dem verfassungsgesetzlich verankerten und garantierten freien Mandat kollidieren.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e804">
-            All diese Aspekte, nämlich das Kräftespiel zwischen Regierung und Opposition, die Eigenverantwortung des einzelnen Parlamentariers, die Verpflichtung gegenüber den Wählern, aber natürlich auch die Verpflichtung gegenüber dem Staatsganzen, die Verpflichtung gegenüber dem eigenen Gewissen, die Loyalität zu einer Gesinnungsgemeinschaft et cetera auf einen gemeinsamen Nenner zu bringen und auszubalancieren, ist die Kunst des Parlamentarismus und die Kunst der Demokratie, die nicht immer perfekt zu erfüllen und zu verwirklichen ist, sondern der man sich vielfach nur annähern kann. Daher verbinde ich diese Feststellung mit der Bitte, dies alles auch zu berücksichtigen, wenn man den österreichischen Parlamentarismus beurteilt, und zu bedenken, daß wir an den österreichischen Parlamentarismus durchaus kritische, aber vielleicht nicht allzu kritische Maßstäbe anlegen sollten. Zum Beispiel die Präsenz in den Sitzungen des Nationalrates, die ja heute hervorragend und herzeigbar ist, immer und in allen Phasen zum Maßstab für die parlamentarische Arbeit zu machen, ist sicher eine unvollständige
-            <pb n="19"/>
-            Sichtweise. Eher müssen wir uns schon gefallen lassen, die Qualität der Gesetze als Maßstab für die Beurteilung unserer Arbeit zu akzeptieren.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e808">Obwohl man die Qualität von Gesetzen nicht nach Zentimeter, Gramm und Sekunden messen kann, hat sich in letzter Zeit doch ein Konsens in der Richtung entwickelt, daß uns eigentlich zehn Gesetze zuviel mehr Nachdenklichkeit, mehr schlaflose Nächte bescheren sollten als einige Gesetze zuwenig. Dafür jedenfalls das richtige Augenmaß zu entwickeln, ist Sache aller Abgeordneten und Sache gemeinsamer Anstrengungen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e810">Das soeben Gesagte gilt übrigens ganz besonders für Verfassungsgesetze und Verfassungsbestimmungen. Allein das Bemühen, Verfassungsgesetze nach Möglichkeit mit einer größeren Mehrheit zu beschließen, als sie den beiden stärksten Fraktionen des Hauses zur Verfügung steht, könnte in sinnvoller Weise bremsend und mäßigend wirken.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e812">Was ich zuletzt und zum Abschluß sagen will, ist folgendes: Unser politisches System – und darauf wurde heute schon verwiesen – billigt allen Präsidenten und allen Vizepräsidenten unserer gesetzgebenden Körperschaften in Bund und Ländern – ähnlich wie in Deutschland, in Frankreich oder in anderen europäischen Demokratien – die Zugehörigkeit zu einer parlamentarischen Fraktion, die Mitarbeit in einer politischen Partei, die Beibehaltung einer politischen Meinung zu. Aber im Vorsitz einer parlamentarischen Körperschaft, in der Handhabung der Geschäftsordnung und bei der Ausübung der Funktionen des Präsidenten ist absolute Unparteilichkeit und Objektivität erforderlich und unverzichtbar. Und daß ich mich diesem Grundsatz verpflichtet fühle und in diesem Sinne sehr bemühen werde, dessen können Sie gewiß sein.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e814">Ebenso werde ich mich um eine gute Zusammenarbeit mit den noch zu wählenden Mitgliedern des Präsidiums des Nationalrats bemühen, um eine gute Zusammenarbeit mit den parlamentarischen Fraktionen, mit der Bundesregierung, selbstverständlich auch mit dem Bundespräsidenten, mit dem Bundesrat und anderen Institutionen unseres Staates und natürlich mit allen gewählten Mitgliedern dieses Hauses.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e816">In diesem Sinne wünsche ich Ihnen und uns eine erfolgreiche parlamentarische Arbeit, eine in Summe erfolgreiche Gesetzgebungsperiode, eine weitere Stärkung des Gedankens des Parlamentarismus und der Demokratie in Österreich.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e819">Ich darf Ihnen nochmals für die Entscheidung und für das Vertrauen sehr, sehr herzlich danken.</seg>
-               <kinesic type="applause">
-                  <desc>(Anhaltender Beifall bei der SPÖ, der ÖVP, dem Liberalen Forum und den Grünen.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e824">Wahl des Zweiten Präsidenten</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2219"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e829">Meine Damen und Herren! Ich darf nun in der Konstituierung und damit in der Tagesordnung dieser Sitzung fortfahren.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e831">Wir gelangen zur Wahl des Zweiten Präsidenten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e833">Ich habe schon eingangs gesagt, daß mir ein schriftlicher Vorschlag vorliegt, Herrn Abgeordneten Dr. Heinrich Neisserzum Zweiten Präsidenten des Nationalrates zu wählen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e835">Es sind aber auch Stimmen, die auf andere Abgeordnete lauten, ebenso wie bei der vorangegangenen Wahl gültig.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e837">Auch diese Wahl ist mit Stimmzettel, also geheim, durchzuführen; die Benützung der Wahlzellen ist auch dabei beabsichtigt. Es ist also der Wahlvorgang in allen Punkten der gleiche wie vorher.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e839">Frau Abgeordnete Ludmilla Parfusswird in ihrer Eigenschaft als Schriftführerin sogleich mit dem Namensaufruf beginnen, Frau Abgeordneten Rosemarie Bauerwird sie zu gegebener Zeit ablösen.</seg>
-            </u>
-            <pb n="20"/>
-            <note type="procedural">(Über Namensaufruf durch die Schriftführerinnen Parfuss und Rosemarie Bauer begeben sich die Abgeordneten in die Wahlzelle und werfen sodann den Stimmzettel in die Urne.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2267"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e848">Der Namensaufruf ist beendet, die Stimmabgabe ist gleichfalls beendet.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e850">Somit werden nunmehr die zuständigen Bediensteten des Hauses unter Aufsicht der Schriftführer die Stimmenzählung vornehmen. Ich unterbreche die Sitzung für die erforderliche Dauer.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e852">Die Sitzung ist unterbrochen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e854">(Die Sitzung wird um 12.44 Uhr unterbrochen und um 12.56 Uhr wiederaufgenommen.)</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2298"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e859">Ich nehme die unterbrochene Sitzung wieder auf und darf das Abstimmungsergebnis bei der Wahl zum Zweiten Präsidenten bekanntgeben.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e861">Abgegeben wurden 183 Stimmen, davon waren 179 Stimmen gültig. Daher beträgt die absolute Mehrheit der gültigen Stimmen 90 Stimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e863">Es entfielen auf Herrn Abgeordneten Dr. Heinrich Neisser164 Stimmen und auf andere Abgeordnete 15 Stimmen. Somit ist Abgeordneter Dr. Neisser zum Zweiten Präsidenten des Nationalrates gewählt.</seg>
-               <kinesic type="applause">
-                  <desc>(Allgemeiner Beifall.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e868">Ich frage den Gewählten, ob er seine Wahl zum Zweiten Präsidenten des Nationalrates annimmt.</seg>
-            </u>
-            <note type="speaker">Abgeordneter Dr. Heinrich Neisser</note>
-            <u who="#PAD_01018" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2337"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e873">Ich nehme die Wahl an und bedanke mich sehr für das Vertrauen. Das verpflichtet mich, meine Vorsitzführung so weiterzuführen, wie ich es bisher getan habe. – Ich hoffe, das wird nicht als gefährliche Drohung verstanden.</seg>
-            </u>
-            <vocal type="laughter">
-               <desc>(Heiterkeit und allgemeiner Beifall.)</desc>
-            </vocal>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2358"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e881">Es wird nicht als gefährliche Drohung verstanden. Ich gratuliere dir, lieber Kollege Dr. Neisser, und lade dich ein, hier am Präsidium Platz zu nehmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e883">Damit haben wir die Wahl des Zweiten Präsidenten erledigt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e885">Wahl des Dritten Präsidenten</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2383"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e891">Wir kommen als nächstes zur Wahl des Dritten Präsidenten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e893">Hiezu liegen jene Wahlvorschläge vor, die ich am Beginn der Sitzung bekanntgegeben habe. Ich darf sie wiederholen: Kollege Haupt, Kollegin Motter und Kollege Van der Bellen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e895">Gemäß § 87 Abs. 7 der Geschäftsordnung ist auch diese Wahl mit Stimmzetteln durchzuführen. Ich mache darauf aufmerksam, daß gemäß § 87 Abs. 3 der Geschäftsordnung auch Stimmen gültig sind, die auf andere wählbare Kandidaten oder Kandidatinnen entfallen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e897">Der Wahlvorgang ist der gleiche wie bei den vorangegangenen Wahlen. Ich brauche ihn nicht noch einmal zu schildern.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e899">Frau Schriftführerin Ludmilla Parfusswird sogleich mit dem Namensaufruf beginnen. Kollegin Apfelbeck wird sie später ablösen.</seg>
-            </u>
-            <note type="procedural">(Über Namensaufruf durch die Schriftführerinnen Parfuss und Apfelbeck begeben sich die Abgeordneten in die Wahlzelle und werfen sodann den Stimmzettel in die Urne.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2420"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e906">Es haben offenbar alle Damen und Herren ihre Stimme abgegeben. Damit erkläre ich die Stimmabgabe für beendet.</seg>
-               <pb n="21"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e909">Die damit beauftragten Bediensteten des Hauses werden jetzt – wie bei den vorangegangenen Wahlen – die Stimmenzählung vornehmen. Die Sitzung wird zu diesem Zweck für einige Minuten unterbrochen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e911">Die Sitzung ist unterbrochen .</seg>
-            </u>
-            <note type="procedural">(Die Sitzung wird um 13.30 Uhr unterbrochen und um 13.43 Uhr wiederaufgenommen.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2452"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e918">Ich nehme die unterbrochene Sitzung wieder auf und gebe das Wahlergebnis wie folgt bekannt:</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e920">Abgegeben wurden 183 Stimmen. Gültig waren alle 183 Stimmen. Die absolute Mehrheit der gültigen Stimmen beträgt daher 92 Stimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e922">Es entfielen: auf Herrn Abgeordneten Dr. Brauneder 48 Stimmen, auf Herrn Abgeordneten Mag. Haupt 47 Stimmen, auf Herrn Abgeordneten Dr. Van der Bellen 35 Stimmen, auf Frau Abgeordnete Klara Motter28 Stimmen, auf Herrn Abgeordneten Dr. Löschnak 6 Stimmen und auf sonstige Abgeordnete 19 Stimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e924">Damit ist im ersten Wahlgang keine Entscheidung gefallen, weil die erforderliche absolute Mehrheit nicht erreicht wurde.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e926">Nach der Geschäftsordnung ist daher die Durchführung eines zweiten Wahlganges erforderlich.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e928">Es ist an mich von allen Fraktionen der Vorschlag herangetragen worden, zu diesem Zwecke die Sitzung zu unterbrechen, um Beratungen zu ermöglichen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e930">Ich unterbreche die Sitzung für 40 Minuten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e932">Die Sitzung ist unterbrochen .</seg>
-            </u>
-            <note type="procedural">(Die Sitzung wird um 13.45 Uhr unterbrochen und um 14.27 Uhr wiederaufgenommen.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2511"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e939">Meine sehr geehrten Damen und Herren! Ich nehme die unterbrochene Sitzung wieder auf.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e941">Wir befinden uns bei der Wahl des Dritten Nationalratspräsidenten, und wir kommen zum zweiten Wahlgang.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e943">Ich darf bekanntgeben, daß mir folgende Mitteilungen vorliegen:</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e945">Erstens: Der Klub der Freiheitlichen Partei gibt bekannt, daß Herr Abgeordneter Mag. Haupt auf seine Kandidatur verzichtet, und nominiert Herrn Abgeordneten zum Nationalrat Universitätsprofessor Dr. Willi Brauneder für die Wahl zum Dritten Präsidenten des Nationalrates.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e947">Zweitens gibt das Liberale Forum bekannt, daß Frau Abgeordnete Motter auf ihre Kandidatur verzichtet und daß das Liberale Forum für die Wahl zum Dritten Präsidenten des Nationalrates Herrn Abgeordneten Dr. Volker Kiernamhaft macht.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e949">Ich bitte um Kenntnisnahme.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e951">Ansonsten sind die Spielregeln, was die Wählbarkeit betrifft, die gleichen wie beim ersten Wahlgang – mit Ausnahme der Tatsache, daß Kollege Dr. Neisser und ich nicht mehr wählbare Mitglieder für die Funktion des Dritten Präsidenten sind.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e953">Wir können daher zum zweiten Wahlgang schreiten, und ich bitte die Frau Schriftführerin Ludmilla Parfuss, mit der Verlesung der Namensliste zu beginnen. Sie wird dann von Frau Abgeordneter Apfelbeck abgelöst werden.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e955">Die Spielregeln für die Abstimmung sind die gleichen. Ich bitte, die Wahlzellen zu benützen. – Bitte, Frau Schriftführerin.</seg>
-            </u>
-            <pb n="22"/>
-            <note type="procedural">(Über Namensaufruf durch die Schriftführerinnen Parfuss und Apfelbeck begeben sich die Abgeordneten in die Wahlzelle und werfen sodann den Stimmzettel in die Urne.)</note>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2571"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e964">Es haben alle Wahlberechtigten ihre Stimme abgegeben. Die Stimmabgabe ist daher beendet.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e966">Ich bitte nun, wie bei den bisherigen Wahlen, die Stimmenzählung durchzuführen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e968">Ich unterbreche zu diesem Zweck die Sitzung für einige Minuten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e970">Die Sitzung ist unterbrochen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e972">(Die Sitzung wird um 14.58 Uhr unterbrochen und um 15.08 Uhr wiederaufgenommen.)</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2604"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e977">Meine sehr geehrten Damen und Herren! Ich bitte, Platz zu nehmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e979">Ich nehme die unterbrochene Sitzung des Nationalrates wieder auf und darf das Wahlergebnis wie folgt bekanntgeben:</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e981">Bei der Wahl zum Dritten Präsidenten des Nationalrates wurden 183 Stimmen abgegeben. Es waren alle 183 gültig. Die absolute Mehrheit der gültigen Stimmen beträgt somit 92 Stimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e983">Es entfielen auf Herrn Abgeordneten Dr. Willi Brauneder 93 Stimmen, auf Herrn Abgeordneten Dr. Volker Kier80 Stimmen, auf Herrn Abgeordneten Dr. Alexander Van der Bellen10 Stimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e985">Damit ist Herr Abgeordneter Dr. Brauneder mit 93 Stimmen zum Dritten Präsidenten des Nationalrates gewählt, und ich möchte ihm dazu gratulieren.</seg>
-               <kinesic type="applause">
-                  <desc>(Anhaltender Beifall bei den Freiheitlichen und bei Abgeordneten der ÖVP.)</desc>
-               </kinesic>
-               <note type="comment">(Abg. Dr. Haider gratuliert Präsidenten Dr. Brauneder.)</note>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e992">Herr Abgeordneter! Ich frage Sie, ob Sie die Wahl annehmen.</seg>
-            </u>
-            <note type="speaker">Abgeordneter Mag. Dr. Willi Brauneder</note>
-            <u who="#PAD_02833" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2660"
-               ana="#regular">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e997">Herr Präsident! Ich nehme die Wahl an.</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2675"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1002">Dann darf ich Sie bitten, erstmals auf dem Präsidium Platz zu nehmen. Ich bitte auch Kollegen Neisser, hier herauf zu kommen, dann haben wir wenigstens am Beginn dieser Gesetzgebungsperiode alle drei Präsidenten auf dem Präsidium.</seg>
-               <kinesic type="applause">
-                  <desc>(Anhaltender Beifall bei den Freiheitlichen und bei Abgeordneten der ÖVP.)</desc>
-               </kinesic>
-               <note type="comment">(Präsident Dr. Neisser und Präsident Dr. Brauneder nehmen auf dem Präsidium Platz.)</note>
-               <note type="comment">(Auf dem Weg zum Präsidium schütteln Präsident Dr. Brauneder und Abg. Mag. Haupt einander die Hände.)</note>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1011">Ich möchte mich auch an Herrn Kollegen Herbert Haupt wenden, der hiermit aus seiner Funktion ausscheidet. Ich möchte mich für Ihre Tätigkeit als Dritter Präsident des Nationalrates von November 1994 bis heute und für die Zusammenarbeit, für die Abwechslung in der Vorsitzführung bedanken. Ich wünsche Ihnen für Ihre künftige parlamentarische Arbeit und persönlich alles Gute!</seg>
-               <kinesic type="applause">
-                  <desc>(Anhaltender Beifall bei den Freiheitlichen und bei Abgeordneten von SPÖ und ÖVP.)</desc>
-               </kinesic>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1016">Damit haben wir den 2. Punkt der Tagesordnung erledigt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1018">3. Punkt</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1020">Wahl der Schriftführer und Ordner</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2729"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1025">Wir kommen zum 3. Punkt der Tagesordnung: Wahl der Schriftführer und Ordner.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1027">Ich schlage nunmehr vor, die Wahl der Schriftführer und Ordner nicht mehr mittels Stimmzettel und in Wahlzellen vorzunehmen, sondern den normalen Abstimmungsvorgang zu wählen.</seg>
-               <pb n="23"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1030">Erheben sich dagegen Einwendungen? – Dies ist nicht der Fall. Wir werden daher so vorgehen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1032">Wir gelangen zunächst zur Wahl der Schriftführer.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1034">Es liegt mir der Vorschlag vor, die Abgeordneten Ute Apfelbeck, Jakob Auer, Rosemarie Bauer, Ludmilla Parfussund Annemarie Reitsamerzu Schriftführern beziehungsweise Schriftführerinnen des Hohen Hauses zu wählen. Dies ist der Wahlvorschlag jener Fraktionen, die das Recht haben, Vorschläge zu erstatten.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1036">Da eine Debatte nicht vorgesehen ist, bitte ich jene Damen und Herren, die mit diesem Vorschlag einverstanden sind, um ein Zeichen der Zustimmung. – Das ist einstimmig so beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1038">Ich nehme an, daß die Gewählten die Wahl annehmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1040">Damit ist die Wahl der Schriftführer vollzogen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1042">Wir kommen zur Wahl der Ordner.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1044">Es liegt mir der Vorschlag vor, die Abgeordneten Ing. Gerald Tychtl, Ridi Steibl, Dr. Martin Graf, Klara Motterund Karl Öllingerzu Ordnern des Nationalrates zu wählen. Auch hier werden wir die Abstimmung unter einem vornehmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1047">Ich bitte jene Damen und Herren, die mit diesem Wahlvorschlag einverstanden sind, um ein Zeichen der Zustimmung. – Ich stelle die einstimmige Wahl der Ordner fest und gehe auch hier davon aus, daß die Gewählten die Wahl annehmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1049">Damit ist auch diese Wahl vollzogen und der 3. Punkt der Tagesordnung erledigt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1051">4. Punkt</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1053">Wahl des Hauptausschusses</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2839"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1059">Wir gelangen zum 4. Punkt der Tagesordnung: Wahl des Hauptausschusses.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1061">Gemäß § 30 Abs. 1 der Geschäftsordnung wird die Zahl der Mitglieder des Hauptausschusses durch Beschluß des Nationalrates festgesetzt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1063">Die Wahl erfolgt gemäß § 30 Abs. 2 und 3 der Geschäftsordnung aufgrund von Wahllisten, wobei von jeder Liste so viele Abgeordnete als gewählt gelten, wie es dem Verhältnis der Zahl der Abgeordneten entspricht, die die einzelnen Listen unterfertigt haben.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1065">Für den Hauptausschuß sind nunmehr einvernehmlich, entgegen ursprünglich anderen Überlegungen, 29 Mitglieder vorgeschlagen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1067">Ich ersuche jene Damen und Herren, die mit dem Vorschlag einverstanden sind, die Zahl der Mitglieder des Hauptausschusses mit 29 festzusetzen, um ein Zeichen der Zustimmung. – Das ist einstimmig beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1069">Bei einer Anzahl von 29 Mitgliedern entfallen gemäß § 30 Abs. 4 der Geschäftsordnung auf den Klub der SPÖ zwölf Mitglieder, auf den Klub der ÖVP neun Mitglieder, auf den Klub der Freiheitlichen sechs, auf den Klub der Liberalen ein Mitglied und auf den Grünen Klub ebenfalls ein Mitglied.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1071">Gewählt ist man nach der Reihenfolge der Wahllisten, die vorgelegt wurden. Demnach sind folgende Abgeordnete hiemit zu Mitgliedern des Hauptausschusses gewählt:</seg>
-               <pb n="24"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1074">vom Klub der SPÖ: Dr. Dieter Antoni , Mag. Brigitte Ederer , Dr. Heinz Fischer , Dr. Willi Fuhrmann , Dr. Peter Kostelka , Annemarie Reitsamer , Peter Schieder , Ing. Gerald Tychtl , Dr. Josef Cap , Dr. Franz Löschnak , DDr. Erwin Niederwieser und Dr. Ewald Nowotny ;</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1076">vom Klub der ÖVP: Dr. Gottfried Feurstein, Dr. Josef Höchtl, Dr. Heinrich Neisser, Maria Rauch-Kallat, Georg Schwarzenberger, Ingrid Tichy-Schreder, Ing. Leopold Maderthaner, Rudolf Schwarzböckund Ridi Steibl;</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1078">vom Klub der Freiheitlichen: Dr. Harald Ofner, Mag. Herbert Haupt, Ing. Mathias Reichhold, Mag. Johann-Ewald Stadler, Peter Rosenstinglund Mag. Erich Schreiner;</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1081">vom Liberalen Forum: Dr. Heide Schmidt;</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1083">vom Grünen Klub: Johannes Voggenhuber.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1085">Damit sind Wahl und Bestellung der Mitglieder des Hauptausschusses ebenfalls vollzogen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1087">5. Punkt</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1089">Wahl von ständigen Ausschüssen</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e2987"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1094">Wir gelangen zum 5. Punkt der Tagesordnung: Wahl von ständigen Ausschüssen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1096">Es liegt mir der Antrag vor, folgende ständige Ausschüsse im Sinne der Bestimmungen der Geschäftsordnung einzusetzen – ich verlese nur den jeweiligen Namen des Ausschusses –:</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1098">Ausschuß für Arbeit und Soziales,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1100">Außenpolitischer Ausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1102">Bautenausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1104">Budgetausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1106">Familienausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1108">Finanzausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1110">Geschäftsordnungsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1112">Gesundheitsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1114">Gleichbehandlungsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1117">Immunitätsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1119">Industrieausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1121">Ausschuß für innere Angelegenheiten,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1123">Justizausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1125">Kulturausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1127">Landesverteidigungsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1129">Ausschuß für Land- und Forstwirtschaft,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1131">Ausschuß für Petitionen und Bürgerinitiativen,</seg>
-               <pb n="25"/>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1134">Rechnungshofausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1136">Umweltausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1139">Unterrichtsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1141">Unvereinbarkeitsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1143">Verfassungsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1145">Verkehrsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1147">Wirtschaftsausschuß,</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1149">Ausschuß für Wissenschaft und Forschung.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1151">Wir haben darüber zu entscheiden, ob das Hohe Haus mit der Einsetzung dieser Ausschüsse einverstanden ist.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1153">Ich bitte jene Damen und Herren, die damit einverstanden sind, daß diese Ausschüsse gebildet werden, um ein diesbezügliches Zeichen. – Das ist einstimmig so beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1155">Gemäß § 32 Abs. 1 der Geschäftsordnung setzt der Nationalrat die Zahl der Mitglieder der einzelnen Ausschüsse fest. Diese werden dann nach bestimmten proportionalen Verhältnissen – entweder nach dem d’Hondtschen oder nach dem sogenannten Shapleyschen Verfahren – auf die einzelnen Fraktionen verteilt. Die Klubs haben dann die auf sie entfallenden Ausschußmitglieder und die Ersatzmitglieder namhaft zu machen; diese gelten damit als gewählt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1157">Nach Beratung in der Präsidialsitzung ist für die erwähnten Ausschüsse die folgende Zahl von Mitgliedern vorgesehen, deren Aufteilung auf die Fraktionen errechnet wurde: Der Geschäftsordnungsausschuß, der Immunitätsausschuß, der Petitionsausschuß und der Unvereinbarkeitsausschuß sollen aus je 17 Mitgliedern und 17 Ersatzmitgliedern bestehen. Daraus ergibt sich nach dem Shapley-Verfahren folgende Verteilung: Je sechs Mitglieder und Ersatzmitglieder auf die SPÖ, je fünf Mitglieder und Ersatzmitglieder auf die ÖVP, je vier Mitglieder und Ersatzmitglieder auf die Freiheitlichen sowie je ein Mitglied und Ersatzmitglied auf das Liberale Forum und auf den Grünen Klub.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1159">Für alle anderen der vorhin aufgezählten Ausschüsse, mit Ausnahme des Hauptausschusses, über den wir bereits befunden haben, sind je 21 Mitglieder und 21 Ersatzmitglieder vorgeschlagen. Davon entfallen – aufgeteilt nach d’Hondt, gemäß § 30 Abs. 4 der Geschäftsordnung – auf die SPÖ acht, auf die ÖVP sechs, auf die Freiheitlichen fünf Mitglieder, auf das Liberale Forum ein und auf die Grünen ein Mitglied und jeweils die gleiche Zahl von Ersatzmitgliedern.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1162">Wir kommen zur Abstimmung.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1164">Ich bitte jene Damen und Herren, die den vorgeschlagenen Mitgliederzahlen und der vorgeschlagenen Zusammensetzung der Ausschüsse zustimmen, um ein diesbezügliches Zeichen. – Das ist einstimmig so beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1166">Die Namen der von den Klubs dem Präsidenten bekanntgegebenen Mitglieder und Ersatzmitglieder, die damit als gewählt gelten, können Sie unter anderem dem Stenographischen Protokoll der heutigen Sitzung entnehmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1168">Damit ist der 5. Punkt der Tagesordnung erledigt.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1170">6. Punkt</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1172">Wahl der vom Nationalrat zu entsendenden Mitglieder und Ersatzmitglieder des Ständigen gemeinsamen Ausschusses des Nationalrates und des Bundesrates im Sinne des § 9 Finanz-Verfassungsgesetz 1948</seg>
-            </u>
-            <pb n="26"/>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e3144"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1178">Wir gelangen zum 6. Punkt der Tagesordnung: Wahl der vom Nationalrat zu entsendenden Mitglieder und Ersatzmitglieder des Ständigen gemeinsamen Ausschusses des Nationalrates und des Bundesrates im Sinne des § 9 Finanz-Verfassungsgesetz 1948.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1180">Dieser Ausschuß besteht aus insgesamt 26 Mitgliedern, die je zur Hälfte vom Nationalrat und Bundesrat beschickt werden. Es entfallen 13 Mitglieder auf den Bundesrat und 13 Mitglieder auf den Nationalrat.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1182">Was die 13 Mitglieder des Nationalrates betrifft, zu denen noch 13 Ersatzmitglieder hinzukommen, sind sechs von der SPÖ vorzuschlagen, vier von der ÖVP und drei von den Freiheitlichen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1184">Es liegt mir folgender Vorschlag vor:</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1186">Als Mitglieder vom Klub der SPÖ werden nominiert: Kurt Eder, Marianne Hagenhofer, Dr. Peter Kostelka, Anton Leikam, DDr. Erwin Niederwieserund Dr. Willi Fuhrmann.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1188">Mitglieder vom Klub der ÖVP sind: Dipl.-Vw. Dr. Dieter Lukesch, Dkfm. Mag. Josef Mühlbachler, Dkfm. Dr. Günter Stummvollund Georg Wurmitzer.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1190">Mitglieder vom Klub der Freiheitlichen sind: Dkfm. Holger Bauer, Mag. Gilbert Trattner, Mag. Johann-Ewald Stadler.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1192">Ersatzmitglieder vom Klub der SPÖ sind: Emmerich Schwemlein, Kurt Wallner, Dr. Ewald Nowotny, Ing. Erwin Kaipel, Anna Huberund Mag. Herbert Bösch.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1194">Ersatzmitglieder vom Klub der ÖVP sind: Ernst Fink, Johann Kurzbauer, Walter Murauer, Dr. Walter Schwimmer.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1196">Ersatzmitglieder vom Klub der Freiheitlichen sind: Hermann Böhacker, Peter Rosenstinglund Franz Koller.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1198">Sie haben den Vorschlag gehört. Eine Debatte ist nicht beantragt. Ich lasse daher über diese Vorschläge abstimmen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1201">Gibt es einen Einwand dagegen, die Vorschläge im gesamten zur Abstimmung zu bringen? – Das ist nicht der Fall.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1203">Wir gelangen zur Abstimmung.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1205">Ich bitte jene Damen und Herren, die für die Wahl der genannten Abgeordneten sind, wie ich sie verlesen habe, um ein Zeichen der Zustimmung. – Das ist einstimmig so beschlossen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1207">Damit haben wir die Ausschußwahlen für sämtliche Ausschüsse vollzogen.</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1209">7. Punkt</seg>
-               <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1211">Wahl der von Österreich zu entsendenden Abgeordneten zum Europäischen Parlament</seg>
-            </u>
-            <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e3302"
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#PAD_00334"
+               xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e3302"
                ana="#chair">
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1216">Wir kommen nun zum 7. Punkt der heutigen Tagesordnung: Wahl der von Österreich zu entsendenden Abgeordneten zum Europäischen Parlament.</seg>
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1218">Es geht darum, die von Österreich zu entsendenden Abgeordneten zum Europäischen Parlament in ihrem Amt zu bestätigen beziehungsweise im Falle eines Mandatsverzichtes neu zu wählen.</seg>
@@ -892,7 +217,8 @@
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1249">Einlauf</seg>
             </u>
             <note type="speaker">Präsident Dr. Heinz Fischer</note>
-            <u who="#PAD_00334" xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e3430"
+            <u who="#PAD_00334"
+               xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d7e3430"
                ana="#chair">
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1254">Ich darf dem Hohen Haus noch von zwei Schreiben des Herrn Bundeskanzlers vom 19. Dezember und vom 3. Jänner 1996 Mitteilung machen und werde diesen noch kurz einige technische Mitteilungen anfügen.</seg>
                <seg xml:id="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001_d2e1256">Mit Datum vom 19. Dezember 1995 hat der Herr Bundeskanzler an den Präsidenten des Nationalrates folgendes Schreiben gerichtet:</seg>

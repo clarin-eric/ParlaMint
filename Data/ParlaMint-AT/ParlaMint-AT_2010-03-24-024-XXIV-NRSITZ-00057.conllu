@@ -1,0 +1,315 @@
+# newdoc id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d7e8290
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e192
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e192.s1
+# text = Guten Morgen, meine Damen und Herren!
+1	Guten	gut	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=O
+2	Morgen	Morgen	NOUN	_	Gender=Masc|Number=Sing|Person=3	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
+4	meine	mein	PRON	_	Case=Nom|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	NER=O
+5	Damen	Dame	NOUN	_	Gender=Fem|Number=Plur|Person=3	2	conj	_	NER=O
+6	und	und	CCONJ	_	_	7	cc	_	NER=O
+7	Herren	Herr	NOUN	_	Gender=Masc|Number=Plur|Person=3	5	conj	_	NER=O|SpaceAfter=No
+8	!	!	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e192.s2
+# text = Ich eröffne die Sitzung.
+1	Ich	Ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	eröffne	eröffnen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	die	die	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	2	obj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e194
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e194.s1
+# text = Die Amtlichen Protokolle der 55. und 56. Sitzung vom 24. Februar 2010 sind in der Parlamentsdirektion aufgelegen und unbeanstandet geblieben.
+1	Die	Die	DET	_	Case=Nom|Number=Plur|PronType=Art	3	det	_	NER=O
+2	Amtlichen	amtlich	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	NER=O
+3	Protokolle	Protokoll	NOUN	_	Gender=Neut|Number=Plur|Person=3	18	nsubj:pass	_	NER=O
+4	der	der	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER=O
+5	55.	55.	ADJ	_	Person=3	8	amod	_	NER=O
+6	und	und	CCONJ	_	_	7	cc	_	NER=O
+7	56.	56.	ADJ	_	Person=3	5	conj	_	NER=O
+8	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	3	nmod	_	NER=O
+9-10	vom	_	_	_	_	_	_	_	NER=O
+9	von	von	ADP	_	AdpType=Prep|Case=Dat	12	case	_	_
+10	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+11	24.	24.	ADJ	_	Person=3	12	amod	_	NER=O
+12	Februar	Februar	NOUN	_	Gender=Masc|Number=Sing|Person=3	8	nmod	_	NER=O
+13	2010	2010	NUM	_	Number=Plur|NumType=Card|Person=3	12	nmod	_	NER=O
+14	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	NER=O
+15	in	in	ADP	_	AdpType=Prep|Case=Dat	17	case	_	NER=O
+16	der	der	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	17	det	_	NER=O
+17	Parlamentsdirektion	Direktion	NOUN	_	Gender=Fem|Number=Sing|Person=3	18	obl	_	NER=O
+18	aufgelegen	-	ADJ	_	Degree=Pos|Variant=Short	0	root	_	NER=O
+19	und	und	CCONJ	_	_	21	cc	_	NER=O
+20	unbeanstandet	unbeanstandet	ADJ	_	Degree=Pos|Variant=Short	21	xcomp	_	NER=O
+21	geblieben	bleiben	VERB	_	Aspect=Perf|VerbForm=Part	18	conj	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	_	PunctType=Peri	18	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e196
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e196.s1
+# text = Am heutigen Sitzungstag sind folgende Abgeordnete als verhindert gemeldet:
+1-2	Am	_	_	_	_	_	_	_	NER=O
+1	An	an	ADP	_	AdpType=Prep|Case=Dat	4	case	_	_
+2	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	heutigen	heutig	ADJ	_	Degree=Pos|Number=Sing	4	amod	_	NER=O
+4	Sitzungstag	unknown	NOUN	_	Person=3	10	obl	_	NER=O
+5	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	NER=O
+6	folgende	folgen	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	NER=O
+7	Abgeordnete	Abgeordnet	NOUN	_	Number=Plur|Person=3	10	nsubj:pass	_	NER=O
+8	als	als	CCONJ	_	ConjType=Comp	9	mark	_	NER=O
+9	verhindert	verhindern	ADJ	_	Degree=Pos|Variant=Short	10	advcl	_	NER=O
+10	gemeldet	melden	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+11	:	:	PUNCT	_	PunctType=Peri	10	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e196.s2
+# text = Hagenhofer, Dr. Grünewald, Dr. Pilz, Dr. Lichtenecker, Bucher, Windholz und List.
+1	Hagenhofer	Hagenhofer	PROPN	_	Number=Sing|Person=3	0	root	_	NER=B-PER|SpaceAfter=No
+2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
+3	Dr.	Doktor	NOUN	_	Gender=Masc|Number=Sing|Person=3	1	conj	_	NER=O
+4	Grünewald	Grünewald	PROPN	_	Person=3	3	flat:name	_	NER=B-PER|SpaceAfter=No
+5	,	,	PUNCT	_	PunctType=Comm	6	punct	_	NER=O
+6	Dr.	Doktor	NOUN	_	Gender=Masc|Number=Sing|Person=3	1	conj	_	NER=O
+7	Pilz	Pilz	PROPN	_	Case=Nom|Number=Sing|Person=3	6	flat:name	_	NER=B-PER|SpaceAfter=No
+8	,	,	PUNCT	_	PunctType=Comm	9	punct	_	NER=O
+9	Dr.	Doktor	NOUN	_	Gender=Masc|Number=Sing|Person=3	1	conj	_	NER=O
+10	Lichtenecker	Lichtenecker	PROPN	_	Person=3	9	flat:name	_	NER=B-PER|SpaceAfter=No
+11	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
+12	Bucher	Bucher	PROPN	_	Gender=Masc|Number=Sing|Person=3	1	conj	_	NER=B-PER|SpaceAfter=No
+13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	NER=O
+14	Windholz	Windholz	PROPN	_	Person=3	1	conj	_	NER=B-PER
+15	und	und	CCONJ	_	_	16	cc	_	NER=O
+16	List	List	PROPN	_	Number=Sing|Person=3	1	conj	_	NER=B-PER|SpaceAfter=No
+17	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e201
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e201.s1
+# text = Vertretung von Mitgliedern der Bundesregierung
+1	Vertretung	Vertretung	NOUN	_	Gender=Fem|Number=Sing|Person=3	0	root	_	NER=O
+2	von	von	ADP	_	AdpType=Prep|Case=Dat	3	case	_	NER=O
+3	Mitgliedern	Mitglied	NOUN	_	Case=Dat|Gender=Neut|Number=Plur|Person=3	1	nmod	_	NER=O
+4	der	der	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=O
+5	Bundesregierung	Regierung	NOUN	_	Gender=Fem|Number=Sing|Person=3	3	nmod	_	NER=O
+
+# newdoc id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d7e8324
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e206
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e206.s1
+# text = Für diese Sitzung hat das Bundeskanzleramt über Vertretung von Mitgliedern der Bundesregierung folgende Mitteilung gemacht:
+1	Für	Für	ADP	_	AdpType=Prep|Case=Acc	3	case	_	NER=O
+2	diese	dies	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	NER=O
+3	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	15	obl	_	NER=O
+4	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	NER=O
+5	das	das	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Art	6	det	_	NER=O
+6	Bundeskanzleramt	Kanzleramt	NOUN	_	Gender=Neut|Number=Sing|Person=3	15	nsubj	_	NER=B-ORG
+7	über	über	ADP	_	AdpType=Prep|Case=Dat	8	case	_	NER=O
+8	Vertretung	Vertretung	NOUN	_	Gender=Fem|Number=Sing|Person=3	15	obl	_	NER=O
+9	von	von	ADP	_	AdpType=Prep|Case=Dat	10	case	_	NER=O
+10	Mitgliedern	Mitglied	NOUN	_	Case=Dat|Gender=Neut|Number=Plur|Person=3	8	nmod	_	NER=O
+11	der	der	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER=O
+12	Bundesregierung	Regierung	NOUN	_	Gender=Fem|Number=Sing|Person=3	10	nmod	_	NER=O
+13	folgende	folgen	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	NER=O
+14	Mitteilung	Mitteilung	NOUN	_	Gender=Fem|Number=Sing|Person=3	15	obj	_	NER=O
+15	gemacht	machen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+16	:	:	PUNCT	_	PunctType=Peri	15	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e206.s2
+# text = Der Bundesminister für Land- und Forstwirtschaft, Umwelt- und Wasserwirtschaft Dipl.-Ing.
+1	Der	Der	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NER=O
+2	Bundesminister	Minister	NOUN	_	Gender=Masc|Number=Sing|Person=3	0	root	_	NER=B-MISC
+3	für	für	ADP	_	AdpType=Prep|Case=Acc	4	case	_	NER=I-MISC
+4	Land-	Land-	NOUN	_	Hyph=Yes	2	nmod	_	NER=I-MISC
+5	und	und	CCONJ	_	_	6	cc	_	NER=I-MISC
+6	Forstwirtschaft	Wirtschaft	NOUN	_	Gender=Fem|Number=Sing|Person=3	4	conj	_	NER=I-MISC|SpaceAfter=No
+7	,	,	PUNCT	_	PunctType=Comm	8	punct	_	NER=I-MISC
+8	Umwelt-	Umwelt-	NOUN	_	Hyph=Yes	6	conj	_	NER=I-MISC
+9	und	und	CCONJ	_	_	10	cc	_	NER=I-MISC
+10	Wasserwirtschaft	Wirtschaft	NOUN	_	Gender=Fem|Number=Sing|Person=3	6	conj	_	NER=I-MISC
+11	Dipl.-Ing	unknown	NOUN	_	Person=3	2	appos	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e206.s3
+# text = Nikolaus Berlakovich wird durch den Bundesminister für europäische und internationale Angelegenheiten Dr. Michael Spindelegger vertreten.
+1	Nikolaus	Nikolaus	PROPN	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj:pass	_	NER=B-PER
+2	Berlakovich	Berlakovich	PROPN	_	Person=3	1	flat:name	_	NER=I-PER
+3	wird	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	NER=O
+4	durch	durch	ADP	_	AdpType=Prep|Case=Acc	6	case	_	NER=O
+5	den	den	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=O
+6	Bundesminister	Minister	NOUN	_	Gender=Masc|Number=Sing|Person=3	15	obl	_	NER=O
+7	für	für	ADP	_	AdpType=Prep|Case=Acc	11	case	_	NER=O
+8	europäische	europäisch	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	NER=B-MISC
+9	und	und	CCONJ	_	_	10	cc	_	NER=O
+10	internationale	international	ADJ	_	Degree=Pos|Number=Plur	8	conj	_	NER=O
+11	Angelegenheiten	Angelegenheit	NOUN	_	Gender=Fem|Number=Plur|Person=3	6	nmod	_	NER=O
+12	Dr.	Doktor	NOUN	_	Gender=Masc|Number=Sing|Person=3	15	nsubj:pass	_	NER=O
+13	Michael	Michael	PROPN	_	Gender=Masc|Number=Sing|Person=3	12	flat:name	_	NER=B-PER
+14	Spindelegger	Spindelegger	PROPN	_	Person=3	12	flat:name	_	NER=I-PER
+15	vertreten	vertreten	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	PunctType=Peri	15	punct	_	NER=O
+
+# newdoc id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d7e31403
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9186
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9186.s1
+# text = Die Debatte ist geschlossen.
+1	Die	Die	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	Debatte	Debatte	NOUN	_	Gender=Fem|Number=Sing|Person=3	4	nsubj:pass	_	NER=O
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	NER=O
+4	geschlossen	schließen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9188
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9188.s1
+# text = Wir kommen zur Abstimmung über den Antrag der Abgeordneten Ing. Westenthaler, Kolleginnen und Kollegen auf Einsetzung eines Untersuchungsausschusses.
+1	Wir	Wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	kommen	kommen	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3-4	zur	_	_	_	_	_	_	_	NER=O
+3	zu	zu	ADP	_	AdpType=Prep|Case=Dat	5	case	_	_
+4	der	der	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Abstimmung	Abstimmung	NOUN	_	Gender=Fem|Number=Sing|Person=3	2	obl	_	NER=O
+6	über	über	ADP	_	AdpType=Prep|Case=Acc	8	case	_	NER=O
+7	den	den	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=O
+8	Antrag	Antrag	NOUN	_	Gender=Masc|Number=Sing|Person=3	5	nmod	_	NER=O
+9	der	der	DET	_	Case=Gen|Number=Plur|PronType=Art	10	det	_	NER=O
+10	Abgeordneten	Abgeordnet	NOUN	_	Number=Plur|Person=3	8	nmod	_	NER=O
+11	Ing	Ing	PROPN	_	Person=3	10	flat:name	_	NER=B-PER|SpaceAfter=No
+12	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
+13	Westenthaler	Westenthaler	PROPN	_	Person=3	10	appos	_	NER=B-PER|SpaceAfter=No
+14	,	,	PUNCT	_	PunctType=Comm	15	punct	_	NER=O
+15	Kolleginnen	Ginne	NOUN	_	Gender=Neut|Number=Sing|Person=3	13	conj	_	NER=O
+16	und	und	CCONJ	_	_	17	cc	_	NER=O
+17	Kollegen	Kollege	NOUN	_	Gender=Masc|Number=Plur|Person=3	13	conj	_	NER=O
+18	auf	auf	ADP	_	AdpType=Prep|Case=Acc	19	case	_	NER=O
+19	Einsetzung	Einsetzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	8	nmod	_	NER=O
+20	eines	eines	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	21	det	_	NER=O
+21	Untersuchungsausschusses	Ausschuss	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9190
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9190.s1
+# text = Wer dem die Zustimmung gibt, den bitte ich um ein Zeichen.
+1	Wer	Wer	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Int	5	nsubj	_	NER=O
+2	dem	dem	PRON	_	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Dem	5	iobj	_	NER=O
+3	die	die	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	Zustimmung	Zustimmung	NOUN	_	Gender=Fem|Number=Sing|Person=3	5	obj	_	NER=O
+5	gibt	geben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
+7	den	den	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	obj	_	NER=O
+8	bitte	bitten	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+9	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	NER=O
+10	um	um	ADP	_	AdpType=Prep|Case=Acc	12	case	_	NER=O
+11	ein	ein	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	12	det	_	NER=O
+12	Zeichen	Zeichen	NOUN	_	Gender=Neut|Number=Sing|Person=3	8	obl	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9190.s2
+# text = – Das findet keine Mehrheit.
+1	–	–	X	_	_	3	nsubj	_	NER=O
+2	Das	Das	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	NER=O
+3	findet	finden	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+4	keine	kein	DET	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Ind,Neg,Tot	5	det	_	NER=O
+5	Mehrheit	Mehrheit	NOUN	_	Gender=Fem|Number=Sing|Person=3	3	obj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
+
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9190.s3
+# text = Abgelehnt.
+1	Abgelehnt	ablehnen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9192
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9192.s1
+# text = Die Tagesordnung ist erschöpft.
+1	Die	Die	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	Tagesordnung	Ordnung	NOUN	_	Gender=Fem|Number=Sing|Person=3	4	nsubj:pass	_	NER=O
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	NER=O
+4	erschöpft	erschöpfen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9197
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9197.s1
+# text = Einlauf
+1	Einlauf	Einlauf	NOUN	_	Gender=Masc|Number=Sing|Person=3	0	root	_	NER=O
+
+# newdoc id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d7e31443
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9203
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9203.s1
+# text = Ich gebe noch bekannt, dass in der heutigen Sitzung die Selbständigen Anträge 1021/A(E) bis 1062/A(E) eingebracht wurden.
+1	Ich	Ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	gebe	geben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	noch	noch	ADV	_	_	2	advmod	_	NER=O
+4	bekannt	bekannt	ADP	_	PartType=Vbp	2	compound:prt	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	PunctType=Comm	19	punct	_	NER=O
+6	dass	dass	SCONJ	_	_	19	mark	_	NER=O
+7	in	in	ADP	_	AdpType=Prep|Case=Dat	10	case	_	NER=O
+8	der	der	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=O
+9	heutigen	heutig	ADJ	_	Degree=Pos|Number=Sing	10	amod	_	NER=O
+10	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	19	obl	_	NER=O
+11	die	die	DET	_	Case=Nom|Number=Plur|PronType=Art	13	det	_	NER=O
+12	Selbständigen	selbständig	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	NER=O
+13	Anträge	Antrag	NOUN	_	Gender=Masc|Number=Plur|Person=3	19	nsubj:pass	_	NER=O
+14	1021/A(E	unknown	NOUN	_	Person=3	13	appos	_	NER=O|SpaceAfter=No
+15	)	)	PUNCT	_	PunctType=Brck	13	punct	_	NER=O
+16	bis	bis	ADP	_	AdpType=Prep	17	case	_	NER=O
+17	1062/A(E	unknown	NOUN	_	Person=3	13	nmod	_	NER=O|SpaceAfter=No
+18	)	)	PUNCT	_	PunctType=Brck	17	punct	_	NER=O
+19	eingebracht	einbringen	VERB	_	Aspect=Perf|VerbForm=Part	2	ccomp	_	NER=O
+20	wurden	werden	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9205
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9205.s1
+# text = Ferner sind die Anfragen 4907/J bis 4979/J eingelangt.
+1	Ferner	Ferner	ADV	_	_	8	advmod	_	NER=O
+2	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	NER=O
+3	die	die	DET	_	Case=Nom|Number=Plur|PronType=Art	4	det	_	NER=O
+4	Anfragen	Anfrage	NOUN	_	Gender=Fem|Number=Plur|Person=3	8	nsubj:pass	_	NER=O
+5	4907/J	unknown	NOUN	_	Person=3	4	appos	_	NER=O
+6	bis	bis	ADP	_	AdpType=Prep	7	case	_	NER=O
+7	4979/J	unknown	NOUN	_	Person=3	5	nmod	_	NER=O
+8	eingelangt	einlangen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9207
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9207.s1
+# text = Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 0.26 Uhr, das ist gleich im Anschluss an diese Sitzung, ein.
+1	Die	Die	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
+2	nächste	NULL	ADJ	_	Degree=Sup|Gender=Fem|Number=Sing	3	amod	_	NER=O
+3	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	15	obj	_	NER=O
+4	des	des	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=O
+5	Nationalrates	Rat	NOUN	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	NER=B-ORG|SpaceAfter=No
+6	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
+7	die	die	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	12	nsubj	_	NER=O
+8	geschäftsordnungsmäßige	geschäftsordnungsmäßige	ADJ	_	_	9	amod	_	NER=O
+9	Mitteilungen	Mitteilung	NOUN	_	Gender=Fem|Number=Plur|Person=3	12	obj	_	NER=O
+10	und	und	CCONJ	_	_	11	cc	_	NER=O
+11	Zuweisungen	Zuweisung	NOUN	_	Gender=Fem|Number=Plur|Person=3	9	conj	_	NER=O
+12	betreffen	betreffen	VERB	_	VerbForm=Inf	3	acl	_	NER=O
+13	wird	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
+15	berufe	berufen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+16	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	NER=O
+17	für	für	ADP	_	AdpType=Prep|Case=Acc	19	case	_	NER=O
+18	0.26	0.26	NUM	_	Number=Plur|NumType=Card|Person=3	19	nummod	_	NER=O
+19	Uhr	Uhr	NOUN	_	Gender=Fem|Number=Sing|Person=3	15	obl	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	_	PunctType=Comm	22	punct	_	NER=O
+21	das	das	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	22	nsubj	_	NER=O
+22	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	NER=O
+23	gleich	gleich	ADJ	_	Degree=Pos|Variant=Short	22	advmod	_	NER=O
+24-25	im	_	_	_	_	_	_	_	NER=O
+24	in	in	ADP	_	AdpType=Prep|Case=Dat	26	case	_	_
+25	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Anschluss	Anschluss	NOUN	_	Gender=Masc|Number=Sing|Person=3	23	obl	_	NER=O
+27	an	an	ADP	_	AdpType=Prep|Case=Acc	29	case	_	NER=O
+28	diese	dies	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	29	det	_	NER=O
+29	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	26	nmod	_	NER=O|SpaceAfter=No
+30	,	,	PUNCT	_	PunctType=Comm	23	punct	_	NER=O
+31	ein	ein	ADP	_	PartType=Vbp	15	compound:prt	_	NER=O|SpaceAfter=No
+32	.	.	PUNCT	_	PunctType=Peri	15	punct	_	NER=O
+
+# newpar id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9209
+# sent_id = ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057_d2e9209.s1
+# text = Diese Sitzung ist geschlossen.
+1	Diese	dies	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	NER=O
+2	Sitzung	Sitzung	NOUN	_	Gender=Fem|Number=Sing|Person=3	4	nsubj:pass	_	NER=O
+3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	NER=O
+4	geschlossen	schließen	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	NER=O
+
