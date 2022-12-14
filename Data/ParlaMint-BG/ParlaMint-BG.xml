@@ -8,11 +8,11 @@
                 <title type="main" xml:lang="en">Bulgarian parliamentary corpus ParlaMint-BG [ParlaMint SAMPLE]</title>
                 <title type="sub" xml:lang="bg">Стенограми от пленарни заседания на 43-то, 44-то, 45-то, 46-то i 47-то Народно събрание на Република България (2014-10-27 - 2022-07-29)</title>
                 <title type="sub" xml:lang="en">Minutes of the 43th, 44th, 45th, 46th, and 47th National Assemblies of the Republic of Bulgaria (2014-10-27 - 2022-07-29)</title>
-                <meeting ana="#parla.term #BG-NS.43" corresp="#BG-NS" n="43">43. mandat</meeting>
-                <meeting ana="#parla.term #BG-NS.44" corresp="#BG-NS" n="44">44. mandat</meeting>
-                <meeting ana="#parla.term #BG-NS.45" corresp="#BG-NS" n="45">45. mandat</meeting>
-                <meeting ana="#parla.term #BG-NS.46" corresp="#BG-NS" n="46">46. mandat</meeting>
-                <meeting ana="#parla.term #BG-NS.47" corresp="#BG-NS" n="47">47. mandat</meeting>
+                <meeting ana="#parla.uni #parla.term #BG-NS.43" corresp="#BG-NS" n="43">43. mandat</meeting>
+                <meeting ana="#parla.uni #parla.term #BG-NS.44" corresp="#BG-NS" n="44">44. mandat</meeting>
+                <meeting ana="#parla.uni #parla.term #BG-NS.45" corresp="#BG-NS" n="45">45. mandat</meeting>
+                <meeting ana="#parla.uni #parla.term #BG-NS.46" corresp="#BG-NS" n="46">46. mandat</meeting>
+                <meeting ana="#parla.uni #parla.term #BG-NS.47" corresp="#BG-NS" n="47">47. mandat</meeting>
                 <respStmt>
                     <persName xml:lang="bg">Петя Осенова</persName>
                     <persName xml:lang="bg-Latn">Petya Osenova</persName>
@@ -125,19 +125,42 @@
                             <catDesc xml:lang="bg"><term>Парламент</term></catDesc>
                             <category xml:id="parla.uni">
                                 <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
-                                <catDesc xml:lang="bg"><term>Еднокамарен</term></catDesc></category></category>
+                                <catDesc xml:lang="bg"><term>Еднокамарен</term></catDesc>
+                            </category>
+                        </category>
                         <category xml:id="parla.committee">
                             <catDesc xml:lang="en"><term>Committee</term></catDesc>
                             <catDesc xml:lang="bg"><term>Комисия</term></catDesc>
                             <category xml:id="parla.committee.standing">
                                 <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
-                                <catDesc xml:lang="bg"><term>Постоянна комисия</term></catDesc></category>
+                                <catDesc xml:lang="bg"><term>Постоянна комисия</term></catDesc>
+                            </category>
                             <category xml:id="parla.committee.special">
                                 <catDesc xml:lang="en"><term>Special committee</term></catDesc>
-                                <catDesc xml:lang="bg"><term>Временна комисия</term></catDesc></category>
+                                <catDesc xml:lang="bg"><term>Временна комисия</term></catDesc>
+                            </category>
                             <category xml:id="parla.committee.inquiry">
                                 <catDesc xml:lang="en"><term>Committee of inquiry</term></catDesc>
-                                <catDesc xml:lang="bg"><term>Анкетна комисия</term></catDesc></category></category></category>
+                                <catDesc xml:lang="bg"><term>Анкетна комисия</term></catDesc>
+                            </category>
+                        </category>
+                    </category>
+                    <category xml:id="parla.geo-political">
+                        <catDesc xml:lang="en">
+                            <term>Geo-political or administrative units</term>
+                        </catDesc>
+                        <category xml:id="parla.supranational">
+                           <catDesc xml:lang="en">
+                               <term>Supranational legislature</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.national">
+                           <catDesc xml:lang="en">
+                               <term>National legislature</term>
+                           </catDesc>
+                        </category>
+                    </category>
+
                     <category xml:id="parla.term">
                         <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
                         <catDesc xml:lang="bg"><term>Законодателен период</term></catDesc>
@@ -4849,8 +4872,8 @@
                         <occupation>политик</occupation>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Красимир_Каракачанов</idno>
 
-                        <affiliation from="2017" role="member"><roleName xml:lang="bg">Заместник министър-председател по обществения ред и сигурността</roleName></affiliation>
-                        <affiliation from="2017" role="deputyHead"><roleName xml:lang="bg">Заместник министър-председател по обществения ред и сигурността</roleName></affiliation>
+                        <affiliation from="2017" ref="#gov.BGGov" role="member"><roleName xml:lang="bg">Заместник министър-председател по обществения ред и сигурността</roleName></affiliation>
+                        <affiliation from="2017" ref="#gov.BGGov" role="deputyHead"><roleName xml:lang="bg">Заместник министър-председател по обществения ред и сигурността</roleName></affiliation>
 
                         <affiliation from="2017" ref="#gov.BGGov" role="member"><roleName xml:lang="bg">Министър на отбраната</roleName></affiliation>
                         <affiliation from="2005-07-11" ref="#BG-NS" role="member" to="2009-06-25"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
@@ -7516,9 +7539,9 @@
                         <affiliation from="2017-04-19" ref="#BG-NS" role="deputyHead" to="2021-03-26"><roleName xml:lang="bg">временен парламентарен секретар</roleName><roleName xml:lang="en">Temporary Parliamentary Secretary</roleName></affiliation>
 
                         <affiliation from="2014-10-27" ref="#parliamentaryGroup.PF" role="member" to="2017-01-26"><roleName xml:lang="bg">секретар на ПГ</roleName><roleName xml:lang="en">Secretary</roleName></affiliation>
-                        <affiliation from="2017-04-19" ref="#parliamentaryGroup.UP" role="deputyHead" to="2021-03-26"><roleName xml:lang="bg">секретар на ПГ</roleName><roleName xml:lang="en">Secretary</roleName></affiliation>
+                        <affiliation from="2017-04-19" ref="#parliamentaryGroup.UP" role="member" to="2021-03-26"><roleName xml:lang="bg">секретар на ПГ</roleName><roleName xml:lang="en">Secretary</roleName></affiliation>
 
-                        <affiliation from="2014-10-27" ref="#parliamentaryGroup.PF" role="member" to="2017-01-26"><roleName xml:lang="bg">секретар на ПГ</roleName><roleName xml:lang="en">Secretary</roleName></affiliation>
+                        <affiliation from="2014-10-27" ref="#parliamentaryGroup.PF" role="deputyHead" to="2017-01-26"><roleName xml:lang="bg">секретар на ПГ</roleName><roleName xml:lang="en">Secretary</roleName></affiliation>
                         <affiliation from="2017-04-19" ref="#parliamentaryGroup.UP" role="deputyHead" to="2021-03-26"><roleName xml:lang="bg">секретар на ПГ</roleName><roleName xml:lang="en">Secretary</roleName></affiliation>
 </person>
                     <person n="2652" xml:id="PapashimovYuliyan">
