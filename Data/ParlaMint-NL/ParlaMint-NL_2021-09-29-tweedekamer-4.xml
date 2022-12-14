@@ -1,309 +1,362 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid #parla.sitting" xml:lang="nl" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-09-29 [ParlaMint]</title>
-            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-09-29 [ParlaMint]</title>
-            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 5, Session 4 (2021-09-29)</title>
-            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 5, Session 4 (2021-09-29)</title>
-            <meeting ana="#parla.meeting.regular" corresp="#TK" n="5">Meeting 5</meeting>
-            <meeting ana="#parla.session" corresp="#TK" n="4">Session 4</meeting>
-            <meeting ana="#parla.term #TK.29" corresp="#TK" n="29-lower">Meeting of the 29th Tweede Kamer</meeting>
-            <respStmt>
-               <persName>Ruben van Heusden</persName>
-               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
-            </respStmt>
-            <funder>
-               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>2.0</edition>
-         </editionStmt>
-         <extent>
-            <measure unit="speeches" xml:lang="nl" quantity="52">52 toespraken</measure>
-            <measure unit="speeches" xml:lang="en" quantity="52">52 speeches</measure>
-            <measure unit="words" xml:lang="nl" quantity="3847">3847 woorden</measure>
-            <measure unit="words" xml:lang="en" quantity="3847">3847 words</measure>
-         </extent>
-         <publicationStmt>
-            <publisher>
-               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
-               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-            </publisher>
-            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
-            <availability status="free">
-               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
-            </availability>
-            <date when="2021-02-01">2021-02-01</date>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
-               <idno type="URI">https://www.tweedekamer.nl/</idno>
-               <date when="2021-09-29">2021-09-29</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-            </p>
-         </projectDesc>
-         <tagsDecl>
-            <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="seg" occurs="70"/>
-               <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="u" occurs="52"/>
-               <tagUsage gi="note" occurs="52"/>
-            </namespace>
-         </tagsDecl>
-      </encodingDesc>
-      <profileDesc>
-         <settingDesc>
-            <setting>
-               <name type="address">Binnenhof</name>
-               <name type="city">Den Haag</name>
-               <name key="NL" type="country">The Netherlands</name>
-               <date when="2021-09-29">2021-09-29</date>
-            </setting>
-         </settingDesc>
-      </profileDesc>
-   </teiHeader>
-   <text ana="#covid" xml:lang="nl">
-      <body>
-         <div type="debateSection">
-            <head>Niet handhaven door de NVWA op exportverzamelplaatsen</head>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u1">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg1">Dan gaan wij over naar het volgende tweeminutendebat, over niet handhaven door de NVWA op exportverzamelplaatsen. De eerste spreker is daarbij mevrouw Vestering van de Partij voor de Dieren. Ik geef haar graag het woord.</seg>
-            </u>
-            <note type="speaker">Mevrouw Vestering (PvdD)</note><u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u2">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg2">Sinds 2008 wordt er in deze Kamer vaak gesproken over dieren die ernstig gewond dan wel ziek op transport worden gezet naar het buitenland om daar geslacht te worden, en over de NVWA die te allen tijde strikt zou moeten controleren dat er geen dieren op transport worden gezet, maar dat helemaal niet aankan. Maar nog altijd zet de NVWA krulletjes bij transporten van zieke en gewonde dieren, ondanks de herhaaldelijke belofte van beterschap van de minister.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg3">Voorzitter. Veel van deze dieren zijn tot op de laatste cent uitgemolken, hebben tientallen biggetjes gekregen of hebben honderden eieren gelegd, tot ze niet meer kunnen. Ze zijn zo verschrikkelijk uitgebuit dat ze vaak, wanneer ze voor het eerst buitenlucht zien onderweg naar het slachthuis, niet eens meer op hun benen kunnen staan, omdat ze uitgeput, gewond of ziek zijn en toch op transport worden gezet. Het tegen de regels in transporteren van deze dieren, of zoals de minister ze noemt "eindecarrièredieren", is geen incident. Dit is hoe het eruitziet als je op industriële schaal dieren uitbuit. De NVWA keurde dit transport goed. Consumenten in de winkel kopen vlees, zuivel en eieren met op de verpakkingen afbeeldingen van vrolijke, blije dieren, alsof ze vrijwillig geïnsemineerd worden, vrijwillig biggetjes of kalfjes afstonden en huppelend naar het slachthuis gingen.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg4">Voorzitter. Laten we nu eerlijk zijn over de honderden miljoenen dieren die in ons land gebruikt worden in de intensieve veehouderij. Daarom heb ik de volgende motie.</seg>
-               <note type="comment">Motie</note>
-               <note type="comment">De Kamer,</note>
-               <note type="comment">gehoord de beraadslaging,</note>
-               <note type="comment">constaterende dat uitgemolken melkkoeien, uitgelegde leghennen en zeugen die tientallen biggetjes hebben moeten produceren worden gezien als "hoogrisicodieren" voor transport naar het slachthuis omdat ze "per definitie in suboptimale conditie zijn", volgens een auditcommissie die hier onderzoek naar deed;</note>
-               <note type="comment">constaterende dat de minister van Landbouw het belangrijk vindt dat consumenten weten waar hun voedsel vandaan komt;</note>
-               <note type="comment">constaterende dat de overheid er bij tabaksproducten voor heeft gekozen om duidelijk te laten zien wat de gevolgen zijn van roken;</note>
-               <note type="comment">verzoekt de regering te komen met een plan om consumenten te laten zien hoe dieren eruitzien als zij gedurende hun hele leven maximaal zijn uitgebuit voor de productie van vlees, zuivel en eieren,</note>
-               <note type="comment">en gaat over tot de orde van de dag.</note>
-               <note type="comment">Deze motie is voorgesteld door het lid Vestering.</note>
-               <note type="comment">Zij krijgt nr. kst-28286-1220</note>
-            </u>
-            <note type="speaker">Mevrouw Vestering (PvdD)</note><u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u3">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg5">Voorzitter, ik wil de bode graag verzoeken om deze foto's te overhandigen aan de minister, zodat ze die kan gebruiken voor deze campagne.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u4">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg6">Dank u wel. Ik zou u willen verzoeken om in het vervolg, om binnen de tijd te blijven, eerst de motie in te dienen en dan de bijgevoegde tekst uit te spreken. Dank u wel. Dan gaan we naar de volgende spreker, de heer Tjeerd de Groot van D66.</seg>
-            </u>
-            <note type="speaker">De heer Tjeerd de Groot (D66)</note><u who="#TjeerddeGroot" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u5">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg7">Dank u, voorzitter. Het is nog vroeg in de ochtend, dus ik zal niet de beelden beschrijven die onlangs weer naar buiten kwamen over wat er gebeurt op de slachtexportverzamelplaatsen. Tijdens het debat hebben we het ook gehad over slim cameratoezicht, niet alleen in de slachthuizen maar ook op de exportverzamelplaatsen. De minister heeft toegezegd dat zij gaat onderzoeken of dat betrokken kan worden bij het wetsvoorstel dat in verband met het cameratoezicht wordt voorbereid. Krijgen we daar als Kamer bericht over voor het commissiedebat NVWA zodat we dan ook daarover met elkaar van gedachten kunnen wisselen? Dat is de eerste vraag.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg8">Dan de tweede vraag. Er zijn verscherpte maatregelen genomen. Is de minister ook bereid om te kijken of die ook echt effect hebben, bijvoorbeeld door de Kamer te melden hoeveel meldingen van transportonwaardige dieren er uit het buitenland zijn gekomen om ook dan tijdens het commissiedebat over de NVWA met elkaar te kunnen spreken of die verscherpte maatregelen ook echt effect hebben gehad?</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg9">Dank u wel.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u6">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg10">U ook bedankt. Dan komen we bij de volgende spreker en dat is mevrouw Van der Plas van de BBB.</seg>
-            </u>
-            <note type="speaker">Mevrouw Van der Plas (BBB)</note><u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u7">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg11">Dank u wel. Ik heb drie moties. Ik ga proberen die er heel snel doorheen te krijgen.</seg>
-               <note type="comment">Motie</note>
-               <note type="comment">De Kamer,</note>
-               <note type="comment">gehoord de beraadslaging,</note>
-               <note type="comment">constaterende dat niet-transportwaardige varkens volgens de Europese richtsnoeren op het bedrijf achterblijven, terwijl deze wel slachtwaardig zijn en desondanks geëuthanaseerd moeten worden;</note>
-               <note type="comment">constaterende dat vanaf 2022 de MDU, de mobiele dodingsunit, beschikbaar komt voor de rundveehouderij;</note>
-               <note type="comment">overwegende dat de varkenshouderij een dergelijke oplossing niet kent;</note>
-               <note type="comment">overwegende dat euthanasie van slachtwaardige dieren voedselverspilling is;</note>
-               <note type="comment">verzoekt het kabinet om samen met de sector ook voor de varkenshouderij aan een oplossing te werken om voedselverspilling te voorkomen voor slachtwaardige dieren die volgens de Europese richtsnoeren niet-transportwaardig zijn,</note>
-               <note type="comment">en gaat over tot de orde van de dag.</note>
-               <note type="comment">Motie</note>
-               <note type="comment">De Kamer,</note>
-               <note type="comment">gehoord de beraadslaging,</note>
-               <note type="comment">constaterende dat de NVWA bij het constateren van een overtreding in veel gevallen niet overgaat tot het direct melden van de geconstateerde overtreding aan de betrokken ondernemer;</note>
-               <note type="comment">constaterende dat de aankondiging van een bestuurlijke boete gemiddeld zes maanden op zich laat wachten en van een dergelijke lange termijn geen preventie of leereffect uitgaat;</note>
-               <note type="comment">constaterende dat de ondernemer bij een dergelijke lange termijn in zijn rechtspositie wordt aangetast omdat hij pas na een periode van zes maanden bezwaar kan maken;</note>
-               <note type="comment">verzoekt het kabinet de procedure aan te passen waarbij de NVWA bij constatering van een strafbaar feit direct overgaat tot het aan de betrokken ondernemer melden van deze constatering en de NVWA vervolgens binnen een termijn van maximaal vier weken overgaat tot het aankondigen van een bestuurlijke boete, waarna de ondernemer conform de wettelijke termijn gelegenheid heeft om bezwaar te maken,</note>
-               <note type="comment">en gaat over tot de orde van de dag.</note>
-               <note type="comment">Motie</note>
-               <note type="comment">De Kamer,</note>
-               <note type="comment">gehoord de beraadslaging,</note>
-               <note type="comment">constaterende dat klachten van buitenlandse veterinaire autoriteiten vaak pas te laat bij de NVWA worden gemeld;</note>
-               <note type="comment">constaterende dat de NVWA buitenlandse klachten vervolgens niet of erg laat terugkoppelt naar de veehouder;</note>
-               <note type="comment">overwegende dat het ontbreken van een snelle terugkoppeling de ondernemer de mogelijkheid ontneemt om zelf onderzoek te doen, ervan te leren en zo nodig preventieve maatregelen te nemen;</note>
-               <note type="comment">verzoekt het kabinet om samen met de NVWA op zeer korte termijn afspraken te maken met buitenlandse veterinaire autoriteiten om klachten over niet-transportwaardige dieren binnen vier weken terug te koppelen;</note>
-               <note type="comment">verzoekt het kabinet de procedure rond de afhandeling van klachten te wijzigen, waarbij de NVWA een buitenlandse klacht binnen een week na ontvangst doorspeelt naar de betrokken ondernemer, zodat deze zo snel mogelijk zelf onderzoek kan doen en zo nodig maatregelen kan treffen,</note>
-               <note type="comment">en gaat over tot de orde van de dag.</note>
-               <note type="comment">Deze motie is voorgesteld door het lid Van der Plas.</note>
-               <note type="comment">Zij krijgt nr. kst-28286-1221</note>
-               <note type="comment">Deze motie is voorgesteld door het lid Van der Plas.</note>
-               <note type="comment">Zij krijgt nr. kst-28286-1222</note>
-               <note type="comment">Deze motie is voorgesteld door het lid Van der Plas.</note>
-               <note type="comment">Zij krijgt nr. kst-28286-1223</note>
-            </u>
-            <note type="speaker">Mevrouw Van der Plas (BBB)</note><u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u8">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg12">Dank u wel.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u9">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg13">Dank. Dan komen we bij de laatste spreker van vandaag. O, er is een vraag van de heer Graus.</seg>
-            </u>
-            <note type="speaker">De heer Graus (PVV)</note><u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u10">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg14">Ik heb niet kunnen deelnemen aan het commissiedebat, terwijl ik zo'n beetje veertien jaar lang de kar heb getrokken waar het gaat om de problemen met de NVWA, maar ik wilde toch graag een motie indienen. Mevrouw Van der Plas is dat gisteren ook gegund, want ze kan ook niet overal aan deelnemen. Ik wil dus toch de Kamer vragen of ik mijn motie mag indienen, die heel erg noodzakelijk is op dit moment.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u11">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg15">Dan kijk ik even naar uw collega's om te zien of zij daar bezwaren tegen hebben. Ik zie op dit moment geen bezwaren, dus dan mag u straks die motie indienen. Maar voordat we naar u overgaan, gaan we eerst naar uw collega, de heer Van Campen van de VVD-fractie.</seg>
-            </u>
-            <note type="speaker">De heer Van Campen (VVD)</note><u who="#ThomvanCampen" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u12">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg16">Voorzitter, dank u wel. Dank ook aan de minister voor de toezegging tijdens het commissiedebat als het gaat om de handhaving in slachthuizen, ook in het kader van een "three strikes out"-systeem, een puntensysteem. Want als er misstanden plaatsvinden in slachthuizen, willen we dat het aantal waarschuwingen niet eindeloos is, maar dat heel helder is aan welke regels we met elkaar moeten voldoen. Zorgvuldigheid is belangrijk. Het is belangrijk dat de slacht op een nette wijze plaatsvindt voor het dier, maar ook voor de kwaliteit van voedsel. We zien dus uit naar de beantwoording van de minister op dat punt.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg17">De tweede vraag die ik de minister zou willen stellen — mevrouw Van der Plas heeft er zojuist ook al een motie over ingediend — gaat over de Europese richtsnoeren voor het transport van vee. De minister heeft in het debat heel helder aangegeven dat de handhaving plaatsvindt op grond van die Europese richtsnoeren en dat de protocollen van de sector, die daarvoor nodig zijn, een operationele uitwerking daarvan zijn. Dat is geruststellend, want we zouden, denk ik, geen koppen op regels willen die in Europa al zijn opgesteld. Maar toch wordt dit door de sector anders ervaren. Ik zou de minister dus willen vragen hoe het staat met de sectorplannen die zijn opgesteld. Kunnen we, als die straks zijn opgesteld, stoppen met de nultolerantie die de NVWA op dit moment oplegt? Dan weet de sector waar die aan toe is en worden regels die vooraf zijn gesteld helder voor het bedrijfsleven uitgewerkt, zodat — mevrouw Van der Plas gaf het al aan — dieren niet onnodig hoeven te worden geslacht. In het verlengde daarvan ben ik ook benieuwd naar de beantwoording van de minister over de motie die collega Van der Plas daarover heeft ingediend.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u13">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg18">Hartelijk dank. Dan gaan we naar de laatste spreker in dit tweeminutendebat. Dat is de heer Graus van de PVV.</seg>
-            </u>
-            <note type="speaker">De heer Graus (PVV)</note><u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u14">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg19">Dank u wel, mevrouw de voorzitter. Bedankt aan alle collega's. Ik begin met het voorlezen van mijn motie.</seg>
-               <note type="comment">Motie</note>
-               <note type="comment">De Kamer,</note>
-               <note type="comment">gehoord de beraadslaging,</note>
-               <note type="comment">verzoekt de regering in de strijd tegen het extreme dierenleed exportverzamelplaatsen van toezichtcamera's te voorzien die, in verband met privacy, enkel bekeken mogen worden door de dierenpolitie en dierenwelzijnsteams van de NVWA,</note>
-               <note type="comment">en gaat over tot de orde van de dag.</note>
-               <note type="comment">Deze motie is voorgesteld door het lid Graus.</note>
-               <note type="comment">Zij krijgt nr. kst-28286-1224</note>
-            </u>
-            <note type="speaker">De heer Graus (PVV)</note><u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u15">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg20">Ik wil daar iets aan toevoegen, mevrouw de voorzitter. Ik bedoel namelijk het volgende met "enkel bekeken". Je zou zeggen dat het de beelden zijn die bekeken mogen worden. Maar ik vind ook dat die directe camerabeelden enkel door hen bekeken en ook teruggekeken mogen worden. Dan krijgen we daar ook geen problemen over in verband met privacy. Liberale partijen raken helemaal in paniek van camera's en privacy. Maar als ze alleen maar bekeken worden door de dierenpolitie en de dierenwelzijnsteams van de NVWA, dan is er niets aan de hand.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg21">Tot slot. De MDU's waren een idee van mij, ik denk van toen ik net in de Kamer zat in 2008. Toen heb ik gevraagd om die mobiele dodingsunits. Mijn bedoeling daarvan was … Wij zijn voor karkasvervoer. De meeste ellende ontstaat tijdens het laden en lossen, tijdens het transport. Pootfracturen en andere toestanden; het is vaak verschrikkelijk. Ik heb van heel veel dierenartsen die ter zake deskundig zijn begrepen dat je een heleboel leed kan voorkomen als je aan karkasvervoer gaat doen. Dan ga je dieren die als "doeldieren" bestemd zijn dus niet levend transporteren. Dat is een heel naar woord, maar helaas is het zo. Ik maak me er als vegetariër niet schuldig aan. Maar er zijn mensen die dat wel willen en doen, dus er zou toch een goede oplossing voor de dieren moeten komen. Dat wil ik vragen. Ik schaam me dood. Ik heb die mobiele dodingsunits bedacht, al voordat iemand erover gesproken had. Nu wordt daar misbruik van gemaakt. Daar heb ik erg veel moeite mee. Ik wil dat de minister onderzoek doet naar het misbruik daarvan.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg22">Dank u wel.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u16">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg23">U ook bedankt. Dan kijk ik even naar de minister om te zien hoe lang zij nodig heeft.</seg>
-            </u>
-            <note type="time">De vergadering wordt van 10.47 uur tot 10.56 uur geschorst.</note>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u17">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg24">Welkom terug. Ik geef direct het woord aan de minister.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u18">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg25">Dank u wel, voorzitter. Ik ga eerst in op de moties en dan op de vragen. Ik doe het dus even omgekeerd. Dan weten de leden de volgorde.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg26">Als eerste kom ik op de motie op stuk nr. 1220 van mevrouw Vestering. Er komen misstanden voor in de sector, bij alle schakels in de keten. Dat is precies waar we mee bezig zijn: ervoor zorgen dat daar verbeteringen plaatsvinden. Wat mij betreft gaat het er ook over dat we melden wat er misgaat en waar de verbeteringen echt nog nodig zijn. Dat is overigens niet alleen een verantwoordelijkheid van de overheid, maar van de hele keten. Deze motie vraagt om consumenten te laten zien hoe dieren eruitzien. We hebben toezicht, dat ook rapporteert. Wij zijn er echt voor dat steeds meer naar voren komt waar de misstanden zijn en wat er moet gebeuren om die te verbeteren. Daar gaat het uiteindelijk namelijk om. Deze motie vraagt om het alleen inzichtelijk te maken. In het licht van alles wat we aan het doen zijn, moet ik de motie ontraden, maar ik zou wel willen benadrukken dat transparantie, ook vanuit de keten zelf, en eerlijk zijn over wat er allemaal gebeurt wat mij betreft een belangrijk punt is.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u19">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg27">De motie op stuk nr. 1220 wordt ontraden. Daar is een vraag over van mevrouw Vestering van de Partij voor de Dieren.</seg>
-            </u>
-            <note type="speaker">Mevrouw Vestering (PvdD)</note><u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u20">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg28">De minister heeft het erover dat we nu toezicht hebben. We hebben, ook aan de hand van beelden, al gezien hoe dat toezicht in Nederland geregeld is. Nog steeds zijn er zieke en gewonde dieren die op transport naar het buitenland worden gezet. De motie vraagt expliciet om voor iedereen die vlees, zuivel en eieren koopt, inzichtelijk te maken hoe deze dieren eruit hebben gezien voordat ze naar de slacht gingen. Dat is een hele duidelijke vraag. Ik denk dat die heel goed past bij zo'n rokerscampagne: wat je ziet is wat je krijgt. Is de minister bereid om dat mee te nemen?</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u21">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg29">Er staan teksten in de motie over hoe dieren eruitzien als zij gedurende hun hele leven maximaal zijn uitgebuit voor de productie van zuivel, eieren en vlees. Ik ken heel veel boeren die heel goed met hun dieren omgaan. De suggestie van deze motie dat er alleen maar maximale uitbuiting plaatsvindt, vind ik al een reden om deze motie te ontraden.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u22">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg30">Tot slot, mevrouw Vestering.</seg>
-            </u>
-            <note type="speaker">Mevrouw Vestering (PvdD)</note><u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u23">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg31">De auditcommissie heeft gezegd dat deze dieren per definitie, dus altijd, in een suboptimale conditie zijn. Het gaat de Partij voor de Dieren erom dat inzichtelijk te maken in plaats van die stickers met allemaal vrolijke dieren, want dat zijn ze niet.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u24">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg32">Ik plak ook geen stickers met vrolijke dieren.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg33">De motie op stuk nr. 1221 vraagt of wij in de varkenshouderij ook de MDU willen inzetten. Ik schets even het proces. De inzet van een MDU wordt privaat geregeld. Een private partij moet daar een aanvraag voor doen. Die aanvraag ligt er nog niet. Ik begreep wel dat een partij aan het kijken is naar de inzet van de MDU in de varkenshouderij. Op het moment dat zo'n aanvraag komt, kijkt de NVWA of ze daar toezicht op kan organiseren. Het is ook een capaciteitsvraagstuk. Daar hebben we het al eerder over gehad. Deze motie suggereert dat wij dat organiseren. Dat is niet zo. Dat is echt iets wat vanuit de private partijen komt en waarbij de NVWA dan kijkt hoe ze daar de dierenartsen voor beschikbaar kunnen stellen. Dat is de volgorde. In dat licht moet ik deze motie dus ontraden, maar als er een aanvraag komt, zullen we die uiteraard beoordelen.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u25">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg34">De motie op stuk nr. 1221 wordt ontraden. Mevrouw Van der Plas van de BoerBurgerBeweging heeft daar nog een vraag over. Ik geef haar het woord.</seg>
-            </u>
-            <note type="speaker">Mevrouw Van der Plas (BBB)</note><u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u26">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg35">In de motie staat: "verzoekt het kabinet om samen met de sector ook voor de varkenshouderij aan een oplossing te werken om voedselverspilling te voorkomen voor slachtwaardige dieren". Of dat nou via mobiele dodingsunits gaat of niet, het gaat in ieder geval om een oplossing. Varkens of biggetjes worden nu namelijk geëuthanaseerd op het bedrijf als er geconstateerd wordt dat er ook maar iets mee aan de hand is. Een deel van die dieren heeft misschien een abces of iets anders, niets waardoor ze niet getransporteerd zouden kunnen worden, maar die worden nu wel afgekeurd op het bedrijf. Die worden geëuthanaseerd en vervolgens mag dat vlees ...</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u27">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg36">En uw vraag is?</seg>
-            </u>
-            <note type="speaker">Mevrouw Van der Plas (BBB)</note><u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u28">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg37">Sorry, daar kom ik nu op. Vervolgens mag dat vlees, of dat varken, niet worden verwerkt voor consumptie. Dat is toch een ultieme vorm van voedselverspilling. Mijn vraag is dus om de motie zo te lezen dat met varkenshouderijen in gesprek wordt gegaan over hoe dit opgelost kan worden, want ik neem aan dat de minister ook niet wil dat dieren worden geëuthanaseerd en dat daar vervolgens dus niks meer mee gebeurt. Die gaan dan naar Rendac.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u29">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg38">Ten eerste is het de verantwoordelijkheid van de sector zelf om te zorgen dat dieren niet geëuthanaseerd hoeven te worden. Dat kan in sommige gevallen wel zo zijn. Dat kan gebeuren. Daar moeten we ook eerlijk in zijn. Maar dan hebben we wel regels voor hoe daarmee omgegaan moet worden. De MDU is een mogelijkheid om op het bedrijf eventueel de dieren die niet transportwaardig zijn te doden, maar ik zou er echt wel even voor willen gaan zitten: zorg dat ze in zo'n conditie zijn dat ze transportwaardig zijn. Dit is, denk ik, echt een verantwoordelijkheid die de sector zelf kan oppakken. Als zij zelf met voorstellen komen, zullen wij daar altijd naar kijken, maar wel in die volgorde: het ligt eerst bij de sector zelf.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u30">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg39">Een korte vervolgvraag.</seg>
-            </u>
-            <note type="speaker">Mevrouw Van der Plas (BBB)</note><u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u31">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg40">We hebben hier natuurlijk al over gedebatteerd; we hoeven het debat niet over te doen. Stel dat een varken een abces aan de zijkant van het lichaam heeft. Dat kan voorkomen. Dat komt bij heel veel dieren voor en dat komt ook bij mensen voor. Als dat de reden is om het dier te euthanaseren, terwijl een abces er niks mee te maken heeft of het transportwaardig is of niet, ga ik ervan uit dat de minister dat ook vervelend vindt. Dat is mijn laatste vraag.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u32">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg41">Ja, maar ik heb omstandig omschreven hoe we daarmee omgaan en dat het ook aan de sector zelf is om met voorstellen te komen als zij denken dat er andere opties zijn.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg42">Dan de motie op stuk nr. 1222. Op dit moment loopt er een project voor het verbeteren van de doorlooptijd. We zijn er volop mee bezig om die te verbeteren. Ik stel voor dat we hierover in het volgende debat over de NVWA nader komen te spreken. Er worden hier nu echt hele feitelijke termijnen genoemd en we moeten kijken of dat precies lukt. De strekking van de motie ondersteun ik wel. Dan hebben we twee opties. Eén. De motie wordt aangehouden totdat het andere debat hierover heeft plaatsgevonden. Twee. Als mevrouw Van der Plas dat niet wil, dan zou ik de motie zo willen lezen dat het gaat om een verbetering van de doorlooptijden, zonder dat ik helemaal vastzit aan het aantal weken dat hier genoemd wordt, want dat is net wat te strikt. Misschien zou mevrouw Van der Plas de motie kunnen aanpassen en de exacte termijn eruit kunnen halen. Dan zou ik de motie oordeel Kamer kunnen geven.</seg>
-            </u>
-            <note type="speaker">Mevrouw Van der Plas (BBB)</note><u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u33">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg43">Dat ga ik overwegen. Dat hoort u dan nog.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u34">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg44">Omdat de motie zo strikt is over het aantal weken, is zij in deze vorm ontraden.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u35">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg45">Ja, daar moeten we even helder over zijn: tot die tijd is de motie dus ontraden.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u36">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg46">Ja, ontraden. Maar we hebben elkaar goed verstaan, denk ik.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg47">Dan de motie op stuk nr. 1223. Daarvoor geldt hetzelfde. Ook hier is het belangrijk — dat ondersteun ik ook — dat we snel terugkoppeling krijgen. Er is zeer binnenkort een gesprek met de Belgische NVWA, de FAVV, om te kijken hoe je die terugkoppeling sneller kunt doen — dat willen wij ook graag — zodat je er snel op kunt acteren. Ook hier is de motie weer iets te rigide geformuleerd, met "een week" en met een terugkoppeling binnen vier weken. Dat moeten we echt bespreken met de Belgische NVWA. Maar als ik de motie zo mag lezen dat we proberen de processen te verbeteren en als mevrouw Van der Plas bereid is om de termijnen eruit te halen, dan kan ik deze motie ook oordeel Kamer geven.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u37">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg48">Daarvoor geldt voor mevrouw Van der Plas hetzelfde als net, hoor ik haar zeggen. Als de motie niet wordt aangepast, is zij ontraden. Met de genoemde aanpassingen krijgt zij mogelijk oordeel Kamer.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg49">Dan gaan we naar de motie op stuk nr. 1224.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u38">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg50">Ja. Er komt steeds meer cameratoezicht. De heer Graus heeft zich daar ook altijd hard voor gemaakt; dat klopt. In deze motie vraagt hij om de beelden alleen te laten inzien door dierenpolitie en dierenwelzijnsteams van de NVWA. Wij willen juist dat die bedrijven zelf die camerabeelden gaan bekijken om te zien wat er niet goed gaat en wat er beter moet. Wat de motie vraagt, lijkt mij dus niet de bedoeling. Het bedrijf moet daar zelf ook echt actie op ondernemen. Over hoe de NVWA daarmee omgaat, hebben we in het debat al het een en ander gewisseld.</seg>
-            </u>
-            <note type="speaker">De heer Graus (PVV)</note><u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u39">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg51">Er zijn wat problemen met de microfoon, maar hij doet het weer. Ik vond dat knopje altijd handiger; dat mis ik wel.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg52">Dat zinnetje haal ik dan graag weg. Ik heb dat puur toegevoegd zodat mijn motie een grotere kans heeft om door de Kamer te worden aangenomen, want ik weet dat de liberale partijen anders zeggen: nee, dat moet je niet doen; denk aan de privacy. De VVD heeft me daar een paar keer op gepakt. Dus ik zet dat zinnetje er al extra bij, want dan haalt de motie het in de Kamer. Dus ik haal dat natuurlijk graag weg. Als het door meer mensen bekeken moet en mag worden, dan ben ik daar natuurlijk voorstander van. Ik bedoelde het juist goed, mevrouw de voorzitter. Dat zinnetje haal er ik dus uit. Dan krijgt de motie oordeel Kamer en dan ben ik heel gelukkig.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u40">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg53">Laat ik even helder zijn: die camera's hangen in slachthuizen. Dus die camerabeelden zijn formeel juridisch ook eigendom van dat bedrijf. Wij hebben ook een debat gehad over of dat dan het eigendom van een bedrijf is en hoe de NVWA daar dan mee omgaat. Moet de NVWA de beelden kunnen krijgen, ja of nee? Daar heb ik het een en ander over toegezegd. Maar de eerste actie is dat het bedrijf de beelden zelf gaat bekijken, omdat ze daar dan zelf met hun dierenwelzijnsofficer de verbeteringen aanbrengen. Deze motie suggereert alsof die beelden van de NVWA zijn. Dat is niet zo.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u41">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg54">De heer Graus geeft nog een toelichting op zijn motie.</seg>
-            </u>
-            <note type="speaker">De heer Graus (PVV)</note><u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u42">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg55">Nou heb ik weer geen geluid. Wat is die microfoon een rotding, zeg! Het lijkt net zo'n oude DAF van vroeger.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg56">Mevrouw de voorzitter, ik haal dat zinnetje "enkel bekeken mogen worden door de dierenpolitie en dierenwelzijnsteams" eruit. Dat ga ik helemaal laten verdwijnen. Er komt dus een nieuwe motie, die ik rondstuur. Dank u wel.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u43">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg57">Voorzitter, maar dan weet ik niet zo goed meer waar ik een oordeel over moet gaan vellen. Wij hebben echt een heel debat gehad over camera's, over hoe die ingezet worden, over van wie de beelden zijn en over hoe we ervoor kunnen zorgen dat het ook slim cameratoezicht is. Daar zitten allerlei stappen in, waarvan we ook nog hebben gezegd dat het in een wetsvoorstel komt. Ik kom daar zo nog eventjes op terug. Ik weet gewoon niet meer wat de heer Graus hier nu bedoelt. Dus of hij dient een motie is die heel helder is ... Maar ik weet nu niet meer waar ik een oordeel over moet gaan geven.</seg>
-            </u>
-            <note type="speaker">De heer Graus (PVV)</note><u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u44">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg58">Dan wordt de motie gewoon: verzoekt de regering in strijd tegen het extreme dierenleed exportverzamelplaatsen van toezichtcamera's te voorzien. En dan zijn we klaar. Duidelijker kan ik echt niet zijn. Dit is echt klip-en-klaar. Er is echt niks onduidelijks aan.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u45">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg59">Daar hebben we het in het debat ook al over gehad: dat we juist ook gaan kijken hoe we dat kunnen doen. In dat debat heb ik ook al gezegd hoe ik de Kamer daarover informeer. Deze motie loopt daar weer op vooruit. Ik snap dat de heer Graus niet bij het debat kon zijn. Hij kan de motie ook aanhouden. Er komt voor het volgende NVWA-debat nog een brief waarin we hier verder op ingaan. Dan zou ik de heer Graus willen vragen of hij in dat debat zijn punt zou kunnen maken.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u46">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg60">Op verzoek van de heer Graus stel ik voor zijn motie (28286, nr. 1224) aan te houden.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg61">Daartoe wordt besloten.</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u47">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg62">Dan zijn er nog een aantal vragen. Allereerst de vraag van de heer De Groot of wij voor het volgende debat over de NVWA kunnen aangeven hoe we in het wetsvoorstel denken om te gaan met het cameratoezicht. Dat kan ik toezeggen. Ik zal de Kamer daarover informeren.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg63">Dat geldt ook voor zijn tweede vraag over hoeveel meldingen uit het buitenland komen over niet-transportwaardige dieren. Ik zal de informatie die ik dan heb ook naar de Kamer sturen.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg64">De heer Van Campen had nog een vraag over hoe het nu zit met het sectorplan over de operationalisering van de uitwerking van de Europese richtlijn. Er is op 10 september, de dag na het commissiedebat, een gesprek geweest tussen de NVWA en de sector. De uitkomst daarvan was dat de sector een protocol zou uitwerken op basis waarvan dieren die lichtgewond of ziek zijn maar waarvoor het vervoer geen extra lijden veroorzaakt, in de nabije toekomst weer door de NVWA gecertificeerd zouden kunnen worden. Van de inspecteur-generaal en de directeur Keuren van de NVWA heb ik begrepen dat zij gisteren een gesprek hebben gehad met de voorzitter en de directie van Vee &amp; Logistiek Nederland en dat dat een goed gesprek is geweest. Op basis van het verloop van die gesprekken en wat er ook eerder is gewisseld, heb ik er vertrouwen in dat de NVWA en de betrokken partijen hier ook in goed overleg uit zullen komen.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u48">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg65">En daarover is een vraag van de heer Van Campen van de VVD.</seg>
-            </u>
-            <note type="speaker">De heer Van Campen (VVD)</note><u who="#ThomvanCampen" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u49">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg66">Heel kort. Dat klinkt goed. Maar zou de minister misschien dan ook alvast een doorkijkje kunnen geven wat dat betekent voor het hanteren van die nultolerantie als straks inderdaad die protocollen vanuit de sector op tafel liggen?</seg>
-            </u>
-            <note type="speaker">Minister Schouten</note><u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u50">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg67">Op het moment dat die protocollen in overeenstemming zijn met datgene wat besproken is en wat de NVWA nodig heeft, kunnen dus ook dieren vervoerd worden die lichtgewond of ziek zijn maar waarvoor het transport geen extra lijden veroorzaakt. Dan zou je dus op basis daarvan die dieren kunnen vervoeren. Ook hierover kan ik toezeggen dat ik, op het moment dat ik daar meer over weet, de Kamer daar voor het volgende commissiedebat over zal informeren.</seg>
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg68">Dat was het, voorzitter.</seg>
-            </u>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u51">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg69">Dan komen we daarmee aan het einde van dit debat.</seg>
-            </u>
-            <note type="comment">De beraadslaging wordt gesloten.</note>
-            <note type="speaker">De voorzitter</note><u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u52">
-               <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg70">We gaan direct door met het volgende tweeminutendebat.</seg>
-            </u>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-09-29 [ParlaMint]</title>
+        <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-09-29 [ParlaMint]</title>
+        <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 5, Session 4 (2021-09-29)</title>
+        <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 5, Session 4 (2021-09-29)</title>
+        <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="5" xml:lang="en">Meeting 5</meeting>
+        <meeting ana="#parla.lower #parla.session" corresp="#TK" n="4" xml:lang="en">Session 4</meeting>
+        <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+        <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-09-29">Sitting 2021-09-29</meeting>
+        <respStmt>
+          <persName>Ruben van Heusden</persName>
+          <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" xml:lang="nl" quantity="52">52 toespraken</measure>
+        <measure unit="speeches" xml:lang="en" quantity="52">52 speeches</measure>
+        <measure unit="words" xml:lang="nl" quantity="3847">3847 woorden</measure>
+        <measure unit="words" xml:lang="en" quantity="3847">3847 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2021-02-01">2021-02-01</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+          <idno type="URI">https://www.tweedekamer.nl/</idno>
+          <date when="2021-09-29">2021-09-29</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="seg" occurs="70"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="u" occurs="52"/>
+          <tagUsage gi="note" occurs="52"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="address">Binnenhof</name>
+          <name type="city">Den Haag</name>
+          <name key="NL" type="country">The Netherlands</name>
+          <date when="2021-09-29">2021-09-29</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#covid" xml:lang="nl">
+    <body>
+      <div type="debateSection">
+        <head>Niet handhaven door de NVWA op exportverzamelplaatsen</head>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u1">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg1">Dan gaan wij over naar het volgende tweeminutendebat, over niet handhaven door de NVWA op exportverzamelplaatsen. De eerste spreker is daarbij mevrouw Vestering van de Partij voor de Dieren. Ik geef haar graag het woord.</seg>
+        </u>
+        <note type="speaker">Mevrouw Vestering (PvdD)</note>
+        <u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u2">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg2">Sinds 2008 wordt er in deze Kamer vaak gesproken over dieren die ernstig gewond dan wel ziek op transport worden gezet naar het buitenland om daar geslacht te worden, en over de NVWA die te allen tijde strikt zou moeten controleren dat er geen dieren op transport worden gezet, maar dat helemaal niet aankan. Maar nog altijd zet de NVWA krulletjes bij transporten van zieke en gewonde dieren, ondanks de herhaaldelijke belofte van beterschap van de minister.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg3">Voorzitter. Veel van deze dieren zijn tot op de laatste cent uitgemolken, hebben tientallen biggetjes gekregen of hebben honderden eieren gelegd, tot ze niet meer kunnen. Ze zijn zo verschrikkelijk uitgebuit dat ze vaak, wanneer ze voor het eerst buitenlucht zien onderweg naar het slachthuis, niet eens meer op hun benen kunnen staan, omdat ze uitgeput, gewond of ziek zijn en toch op transport worden gezet. Het tegen de regels in transporteren van deze dieren, of zoals de minister ze noemt "eindecarrièredieren", is geen incident. Dit is hoe het eruitziet als je op industriële schaal dieren uitbuit. De NVWA keurde dit transport goed. Consumenten in de winkel kopen vlees, zuivel en eieren met op de verpakkingen afbeeldingen van vrolijke, blije dieren, alsof ze vrijwillig geïnsemineerd worden, vrijwillig biggetjes of kalfjes afstonden en huppelend naar het slachthuis gingen.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg4">Voorzitter. Laten we nu eerlijk zijn over de honderden miljoenen dieren die in ons land gebruikt worden in de intensieve veehouderij. Daarom heb ik de volgende motie.</seg>
+          <note type="comment">Motie</note>
+          <note type="comment">De Kamer,</note>
+          <note type="comment">gehoord de beraadslaging,</note>
+          <note type="comment">constaterende dat uitgemolken melkkoeien, uitgelegde leghennen en zeugen die tientallen biggetjes hebben moeten produceren worden gezien als "hoogrisicodieren" voor transport naar het slachthuis omdat ze "per definitie in suboptimale conditie zijn", volgens een auditcommissie die hier onderzoek naar deed;</note>
+          <note type="comment">constaterende dat de minister van Landbouw het belangrijk vindt dat consumenten weten waar hun voedsel vandaan komt;</note>
+          <note type="comment">constaterende dat de overheid er bij tabaksproducten voor heeft gekozen om duidelijk te laten zien wat de gevolgen zijn van roken;</note>
+          <note type="comment">verzoekt de regering te komen met een plan om consumenten te laten zien hoe dieren eruitzien als zij gedurende hun hele leven maximaal zijn uitgebuit voor de productie van vlees, zuivel en eieren,</note>
+          <note type="comment">en gaat over tot de orde van de dag.</note>
+          <note type="comment">Deze motie is voorgesteld door het lid Vestering.</note>
+          <note type="comment">Zij krijgt nr. kst-28286-1220</note>
+        </u>
+        <note type="speaker">Mevrouw Vestering (PvdD)</note>
+        <u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u3">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg5">Voorzitter, ik wil de bode graag verzoeken om deze foto's te overhandigen aan de minister, zodat ze die kan gebruiken voor deze campagne.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u4">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg6">Dank u wel. Ik zou u willen verzoeken om in het vervolg, om binnen de tijd te blijven, eerst de motie in te dienen en dan de bijgevoegde tekst uit te spreken. Dank u wel. Dan gaan we naar de volgende spreker, de heer Tjeerd de Groot van D66.</seg>
+        </u>
+        <note type="speaker">De heer Tjeerd de Groot (D66)</note>
+        <u who="#TjeerddeGroot" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u5">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg7">Dank u, voorzitter. Het is nog vroeg in de ochtend, dus ik zal niet de beelden beschrijven die onlangs weer naar buiten kwamen over wat er gebeurt op de slachtexportverzamelplaatsen. Tijdens het debat hebben we het ook gehad over slim cameratoezicht, niet alleen in de slachthuizen maar ook op de exportverzamelplaatsen. De minister heeft toegezegd dat zij gaat onderzoeken of dat betrokken kan worden bij het wetsvoorstel dat in verband met het cameratoezicht wordt voorbereid. Krijgen we daar als Kamer bericht over voor het commissiedebat NVWA zodat we dan ook daarover met elkaar van gedachten kunnen wisselen? Dat is de eerste vraag.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg8">Dan de tweede vraag. Er zijn verscherpte maatregelen genomen. Is de minister ook bereid om te kijken of die ook echt effect hebben, bijvoorbeeld door de Kamer te melden hoeveel meldingen van transportonwaardige dieren er uit het buitenland zijn gekomen om ook dan tijdens het commissiedebat over de NVWA met elkaar te kunnen spreken of die verscherpte maatregelen ook echt effect hebben gehad?</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg9">Dank u wel.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u6">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg10">U ook bedankt. Dan komen we bij de volgende spreker en dat is mevrouw Van der Plas van de BBB.</seg>
+        </u>
+        <note type="speaker">Mevrouw Van der Plas (BBB)</note>
+        <u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u7">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg11">Dank u wel. Ik heb drie moties. Ik ga proberen die er heel snel doorheen te krijgen.</seg>
+          <note type="comment">Motie</note>
+          <note type="comment">De Kamer,</note>
+          <note type="comment">gehoord de beraadslaging,</note>
+          <note type="comment">constaterende dat niet-transportwaardige varkens volgens de Europese richtsnoeren op het bedrijf achterblijven, terwijl deze wel slachtwaardig zijn en desondanks geëuthanaseerd moeten worden;</note>
+          <note type="comment">constaterende dat vanaf 2022 de MDU, de mobiele dodingsunit, beschikbaar komt voor de rundveehouderij;</note>
+          <note type="comment">overwegende dat de varkenshouderij een dergelijke oplossing niet kent;</note>
+          <note type="comment">overwegende dat euthanasie van slachtwaardige dieren voedselverspilling is;</note>
+          <note type="comment">verzoekt het kabinet om samen met de sector ook voor de varkenshouderij aan een oplossing te werken om voedselverspilling te voorkomen voor slachtwaardige dieren die volgens de Europese richtsnoeren niet-transportwaardig zijn,</note>
+          <note type="comment">en gaat over tot de orde van de dag.</note>
+          <note type="comment">Motie</note>
+          <note type="comment">De Kamer,</note>
+          <note type="comment">gehoord de beraadslaging,</note>
+          <note type="comment">constaterende dat de NVWA bij het constateren van een overtreding in veel gevallen niet overgaat tot het direct melden van de geconstateerde overtreding aan de betrokken ondernemer;</note>
+          <note type="comment">constaterende dat de aankondiging van een bestuurlijke boete gemiddeld zes maanden op zich laat wachten en van een dergelijke lange termijn geen preventie of leereffect uitgaat;</note>
+          <note type="comment">constaterende dat de ondernemer bij een dergelijke lange termijn in zijn rechtspositie wordt aangetast omdat hij pas na een periode van zes maanden bezwaar kan maken;</note>
+          <note type="comment">verzoekt het kabinet de procedure aan te passen waarbij de NVWA bij constatering van een strafbaar feit direct overgaat tot het aan de betrokken ondernemer melden van deze constatering en de NVWA vervolgens binnen een termijn van maximaal vier weken overgaat tot het aankondigen van een bestuurlijke boete, waarna de ondernemer conform de wettelijke termijn gelegenheid heeft om bezwaar te maken,</note>
+          <note type="comment">en gaat over tot de orde van de dag.</note>
+          <note type="comment">Motie</note>
+          <note type="comment">De Kamer,</note>
+          <note type="comment">gehoord de beraadslaging,</note>
+          <note type="comment">constaterende dat klachten van buitenlandse veterinaire autoriteiten vaak pas te laat bij de NVWA worden gemeld;</note>
+          <note type="comment">constaterende dat de NVWA buitenlandse klachten vervolgens niet of erg laat terugkoppelt naar de veehouder;</note>
+          <note type="comment">overwegende dat het ontbreken van een snelle terugkoppeling de ondernemer de mogelijkheid ontneemt om zelf onderzoek te doen, ervan te leren en zo nodig preventieve maatregelen te nemen;</note>
+          <note type="comment">verzoekt het kabinet om samen met de NVWA op zeer korte termijn afspraken te maken met buitenlandse veterinaire autoriteiten om klachten over niet-transportwaardige dieren binnen vier weken terug te koppelen;</note>
+          <note type="comment">verzoekt het kabinet de procedure rond de afhandeling van klachten te wijzigen, waarbij de NVWA een buitenlandse klacht binnen een week na ontvangst doorspeelt naar de betrokken ondernemer, zodat deze zo snel mogelijk zelf onderzoek kan doen en zo nodig maatregelen kan treffen,</note>
+          <note type="comment">en gaat over tot de orde van de dag.</note>
+          <note type="comment">Deze motie is voorgesteld door het lid Van der Plas.</note>
+          <note type="comment">Zij krijgt nr. kst-28286-1221</note>
+          <note type="comment">Deze motie is voorgesteld door het lid Van der Plas.</note>
+          <note type="comment">Zij krijgt nr. kst-28286-1222</note>
+          <note type="comment">Deze motie is voorgesteld door het lid Van der Plas.</note>
+          <note type="comment">Zij krijgt nr. kst-28286-1223</note>
+        </u>
+        <note type="speaker">Mevrouw Van der Plas (BBB)</note>
+        <u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u8">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg12">Dank u wel.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u9">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg13">Dank. Dan komen we bij de laatste spreker van vandaag. O, er is een vraag van de heer Graus.</seg>
+        </u>
+        <note type="speaker">De heer Graus (PVV)</note>
+        <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u10">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg14">Ik heb niet kunnen deelnemen aan het commissiedebat, terwijl ik zo'n beetje veertien jaar lang de kar heb getrokken waar het gaat om de problemen met de NVWA, maar ik wilde toch graag een motie indienen. Mevrouw Van der Plas is dat gisteren ook gegund, want ze kan ook niet overal aan deelnemen. Ik wil dus toch de Kamer vragen of ik mijn motie mag indienen, die heel erg noodzakelijk is op dit moment.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u11">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg15">Dan kijk ik even naar uw collega's om te zien of zij daar bezwaren tegen hebben. Ik zie op dit moment geen bezwaren, dus dan mag u straks die motie indienen. Maar voordat we naar u overgaan, gaan we eerst naar uw collega, de heer Van Campen van de VVD-fractie.</seg>
+        </u>
+        <note type="speaker">De heer Van Campen (VVD)</note>
+        <u who="#ThomvanCampen" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u12">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg16">Voorzitter, dank u wel. Dank ook aan de minister voor de toezegging tijdens het commissiedebat als het gaat om de handhaving in slachthuizen, ook in het kader van een "three strikes out"-systeem, een puntensysteem. Want als er misstanden plaatsvinden in slachthuizen, willen we dat het aantal waarschuwingen niet eindeloos is, maar dat heel helder is aan welke regels we met elkaar moeten voldoen. Zorgvuldigheid is belangrijk. Het is belangrijk dat de slacht op een nette wijze plaatsvindt voor het dier, maar ook voor de kwaliteit van voedsel. We zien dus uit naar de beantwoording van de minister op dat punt.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg17">De tweede vraag die ik de minister zou willen stellen — mevrouw Van der Plas heeft er zojuist ook al een motie over ingediend — gaat over de Europese richtsnoeren voor het transport van vee. De minister heeft in het debat heel helder aangegeven dat de handhaving plaatsvindt op grond van die Europese richtsnoeren en dat de protocollen van de sector, die daarvoor nodig zijn, een operationele uitwerking daarvan zijn. Dat is geruststellend, want we zouden, denk ik, geen koppen op regels willen die in Europa al zijn opgesteld. Maar toch wordt dit door de sector anders ervaren. Ik zou de minister dus willen vragen hoe het staat met de sectorplannen die zijn opgesteld. Kunnen we, als die straks zijn opgesteld, stoppen met de nultolerantie die de NVWA op dit moment oplegt? Dan weet de sector waar die aan toe is en worden regels die vooraf zijn gesteld helder voor het bedrijfsleven uitgewerkt, zodat — mevrouw Van der Plas gaf het al aan — dieren niet onnodig hoeven te worden geslacht. In het verlengde daarvan ben ik ook benieuwd naar de beantwoording van de minister over de motie die collega Van der Plas daarover heeft ingediend.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u13">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg18">Hartelijk dank. Dan gaan we naar de laatste spreker in dit tweeminutendebat. Dat is de heer Graus van de PVV.</seg>
+        </u>
+        <note type="speaker">De heer Graus (PVV)</note>
+        <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u14">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg19">Dank u wel, mevrouw de voorzitter. Bedankt aan alle collega's. Ik begin met het voorlezen van mijn motie.</seg>
+          <note type="comment">Motie</note>
+          <note type="comment">De Kamer,</note>
+          <note type="comment">gehoord de beraadslaging,</note>
+          <note type="comment">verzoekt de regering in de strijd tegen het extreme dierenleed exportverzamelplaatsen van toezichtcamera's te voorzien die, in verband met privacy, enkel bekeken mogen worden door de dierenpolitie en dierenwelzijnsteams van de NVWA,</note>
+          <note type="comment">en gaat over tot de orde van de dag.</note>
+          <note type="comment">Deze motie is voorgesteld door het lid Graus.</note>
+          <note type="comment">Zij krijgt nr. kst-28286-1224</note>
+        </u>
+        <note type="speaker">De heer Graus (PVV)</note>
+        <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u15">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg20">Ik wil daar iets aan toevoegen, mevrouw de voorzitter. Ik bedoel namelijk het volgende met "enkel bekeken". Je zou zeggen dat het de beelden zijn die bekeken mogen worden. Maar ik vind ook dat die directe camerabeelden enkel door hen bekeken en ook teruggekeken mogen worden. Dan krijgen we daar ook geen problemen over in verband met privacy. Liberale partijen raken helemaal in paniek van camera's en privacy. Maar als ze alleen maar bekeken worden door de dierenpolitie en de dierenwelzijnsteams van de NVWA, dan is er niets aan de hand.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg21">Tot slot. De MDU's waren een idee van mij, ik denk van toen ik net in de Kamer zat in 2008. Toen heb ik gevraagd om die mobiele dodingsunits. Mijn bedoeling daarvan was … Wij zijn voor karkasvervoer. De meeste ellende ontstaat tijdens het laden en lossen, tijdens het transport. Pootfracturen en andere toestanden; het is vaak verschrikkelijk. Ik heb van heel veel dierenartsen die ter zake deskundig zijn begrepen dat je een heleboel leed kan voorkomen als je aan karkasvervoer gaat doen. Dan ga je dieren die als "doeldieren" bestemd zijn dus niet levend transporteren. Dat is een heel naar woord, maar helaas is het zo. Ik maak me er als vegetariër niet schuldig aan. Maar er zijn mensen die dat wel willen en doen, dus er zou toch een goede oplossing voor de dieren moeten komen. Dat wil ik vragen. Ik schaam me dood. Ik heb die mobiele dodingsunits bedacht, al voordat iemand erover gesproken had. Nu wordt daar misbruik van gemaakt. Daar heb ik erg veel moeite mee. Ik wil dat de minister onderzoek doet naar het misbruik daarvan.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg22">Dank u wel.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u16">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg23">U ook bedankt. Dan kijk ik even naar de minister om te zien hoe lang zij nodig heeft.</seg>
+        </u>
+        <note type="time">De vergadering wordt van 10.47 uur tot 10.56 uur geschorst.</note>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u17">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg24">Welkom terug. Ik geef direct het woord aan de minister.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u18">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg25">Dank u wel, voorzitter. Ik ga eerst in op de moties en dan op de vragen. Ik doe het dus even omgekeerd. Dan weten de leden de volgorde.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg26">Als eerste kom ik op de motie op stuk nr. 1220 van mevrouw Vestering. Er komen misstanden voor in de sector, bij alle schakels in de keten. Dat is precies waar we mee bezig zijn: ervoor zorgen dat daar verbeteringen plaatsvinden. Wat mij betreft gaat het er ook over dat we melden wat er misgaat en waar de verbeteringen echt nog nodig zijn. Dat is overigens niet alleen een verantwoordelijkheid van de overheid, maar van de hele keten. Deze motie vraagt om consumenten te laten zien hoe dieren eruitzien. We hebben toezicht, dat ook rapporteert. Wij zijn er echt voor dat steeds meer naar voren komt waar de misstanden zijn en wat er moet gebeuren om die te verbeteren. Daar gaat het uiteindelijk namelijk om. Deze motie vraagt om het alleen inzichtelijk te maken. In het licht van alles wat we aan het doen zijn, moet ik de motie ontraden, maar ik zou wel willen benadrukken dat transparantie, ook vanuit de keten zelf, en eerlijk zijn over wat er allemaal gebeurt wat mij betreft een belangrijk punt is.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u19">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg27">De motie op stuk nr. 1220 wordt ontraden. Daar is een vraag over van mevrouw Vestering van de Partij voor de Dieren.</seg>
+        </u>
+        <note type="speaker">Mevrouw Vestering (PvdD)</note>
+        <u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u20">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg28">De minister heeft het erover dat we nu toezicht hebben. We hebben, ook aan de hand van beelden, al gezien hoe dat toezicht in Nederland geregeld is. Nog steeds zijn er zieke en gewonde dieren die op transport naar het buitenland worden gezet. De motie vraagt expliciet om voor iedereen die vlees, zuivel en eieren koopt, inzichtelijk te maken hoe deze dieren eruit hebben gezien voordat ze naar de slacht gingen. Dat is een hele duidelijke vraag. Ik denk dat die heel goed past bij zo'n rokerscampagne: wat je ziet is wat je krijgt. Is de minister bereid om dat mee te nemen?</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u21">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg29">Er staan teksten in de motie over hoe dieren eruitzien als zij gedurende hun hele leven maximaal zijn uitgebuit voor de productie van zuivel, eieren en vlees. Ik ken heel veel boeren die heel goed met hun dieren omgaan. De suggestie van deze motie dat er alleen maar maximale uitbuiting plaatsvindt, vind ik al een reden om deze motie te ontraden.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u22">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg30">Tot slot, mevrouw Vestering.</seg>
+        </u>
+        <note type="speaker">Mevrouw Vestering (PvdD)</note>
+        <u who="#LeonieVestering" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u23">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg31">De auditcommissie heeft gezegd dat deze dieren per definitie, dus altijd, in een suboptimale conditie zijn. Het gaat de Partij voor de Dieren erom dat inzichtelijk te maken in plaats van die stickers met allemaal vrolijke dieren, want dat zijn ze niet.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u24">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg32">Ik plak ook geen stickers met vrolijke dieren.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg33">De motie op stuk nr. 1221 vraagt of wij in de varkenshouderij ook de MDU willen inzetten. Ik schets even het proces. De inzet van een MDU wordt privaat geregeld. Een private partij moet daar een aanvraag voor doen. Die aanvraag ligt er nog niet. Ik begreep wel dat een partij aan het kijken is naar de inzet van de MDU in de varkenshouderij. Op het moment dat zo'n aanvraag komt, kijkt de NVWA of ze daar toezicht op kan organiseren. Het is ook een capaciteitsvraagstuk. Daar hebben we het al eerder over gehad. Deze motie suggereert dat wij dat organiseren. Dat is niet zo. Dat is echt iets wat vanuit de private partijen komt en waarbij de NVWA dan kijkt hoe ze daar de dierenartsen voor beschikbaar kunnen stellen. Dat is de volgorde. In dat licht moet ik deze motie dus ontraden, maar als er een aanvraag komt, zullen we die uiteraard beoordelen.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u25">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg34">De motie op stuk nr. 1221 wordt ontraden. Mevrouw Van der Plas van de BoerBurgerBeweging heeft daar nog een vraag over. Ik geef haar het woord.</seg>
+        </u>
+        <note type="speaker">Mevrouw Van der Plas (BBB)</note>
+        <u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u26">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg35">In de motie staat: "verzoekt het kabinet om samen met de sector ook voor de varkenshouderij aan een oplossing te werken om voedselverspilling te voorkomen voor slachtwaardige dieren". Of dat nou via mobiele dodingsunits gaat of niet, het gaat in ieder geval om een oplossing. Varkens of biggetjes worden nu namelijk geëuthanaseerd op het bedrijf als er geconstateerd wordt dat er ook maar iets mee aan de hand is. Een deel van die dieren heeft misschien een abces of iets anders, niets waardoor ze niet getransporteerd zouden kunnen worden, maar die worden nu wel afgekeurd op het bedrijf. Die worden geëuthanaseerd en vervolgens mag dat vlees ...</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u27">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg36">En uw vraag is?</seg>
+        </u>
+        <note type="speaker">Mevrouw Van der Plas (BBB)</note>
+        <u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u28">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg37">Sorry, daar kom ik nu op. Vervolgens mag dat vlees, of dat varken, niet worden verwerkt voor consumptie. Dat is toch een ultieme vorm van voedselverspilling. Mijn vraag is dus om de motie zo te lezen dat met varkenshouderijen in gesprek wordt gegaan over hoe dit opgelost kan worden, want ik neem aan dat de minister ook niet wil dat dieren worden geëuthanaseerd en dat daar vervolgens dus niks meer mee gebeurt. Die gaan dan naar Rendac.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u29">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg38">Ten eerste is het de verantwoordelijkheid van de sector zelf om te zorgen dat dieren niet geëuthanaseerd hoeven te worden. Dat kan in sommige gevallen wel zo zijn. Dat kan gebeuren. Daar moeten we ook eerlijk in zijn. Maar dan hebben we wel regels voor hoe daarmee omgegaan moet worden. De MDU is een mogelijkheid om op het bedrijf eventueel de dieren die niet transportwaardig zijn te doden, maar ik zou er echt wel even voor willen gaan zitten: zorg dat ze in zo'n conditie zijn dat ze transportwaardig zijn. Dit is, denk ik, echt een verantwoordelijkheid die de sector zelf kan oppakken. Als zij zelf met voorstellen komen, zullen wij daar altijd naar kijken, maar wel in die volgorde: het ligt eerst bij de sector zelf.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u30">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg39">Een korte vervolgvraag.</seg>
+        </u>
+        <note type="speaker">Mevrouw Van der Plas (BBB)</note>
+        <u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u31">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg40">We hebben hier natuurlijk al over gedebatteerd; we hoeven het debat niet over te doen. Stel dat een varken een abces aan de zijkant van het lichaam heeft. Dat kan voorkomen. Dat komt bij heel veel dieren voor en dat komt ook bij mensen voor. Als dat de reden is om het dier te euthanaseren, terwijl een abces er niks mee te maken heeft of het transportwaardig is of niet, ga ik ervan uit dat de minister dat ook vervelend vindt. Dat is mijn laatste vraag.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u32">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg41">Ja, maar ik heb omstandig omschreven hoe we daarmee omgaan en dat het ook aan de sector zelf is om met voorstellen te komen als zij denken dat er andere opties zijn.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg42">Dan de motie op stuk nr. 1222. Op dit moment loopt er een project voor het verbeteren van de doorlooptijd. We zijn er volop mee bezig om die te verbeteren. Ik stel voor dat we hierover in het volgende debat over de NVWA nader komen te spreken. Er worden hier nu echt hele feitelijke termijnen genoemd en we moeten kijken of dat precies lukt. De strekking van de motie ondersteun ik wel. Dan hebben we twee opties. Eén. De motie wordt aangehouden totdat het andere debat hierover heeft plaatsgevonden. Twee. Als mevrouw Van der Plas dat niet wil, dan zou ik de motie zo willen lezen dat het gaat om een verbetering van de doorlooptijden, zonder dat ik helemaal vastzit aan het aantal weken dat hier genoemd wordt, want dat is net wat te strikt. Misschien zou mevrouw Van der Plas de motie kunnen aanpassen en de exacte termijn eruit kunnen halen. Dan zou ik de motie oordeel Kamer kunnen geven.</seg>
+        </u>
+        <note type="speaker">Mevrouw Van der Plas (BBB)</note>
+        <u who="#CarolinevanderPlas" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u33">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg43">Dat ga ik overwegen. Dat hoort u dan nog.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u34">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg44">Omdat de motie zo strikt is over het aantal weken, is zij in deze vorm ontraden.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u35">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg45">Ja, daar moeten we even helder over zijn: tot die tijd is de motie dus ontraden.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u36">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg46">Ja, ontraden. Maar we hebben elkaar goed verstaan, denk ik.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg47">Dan de motie op stuk nr. 1223. Daarvoor geldt hetzelfde. Ook hier is het belangrijk — dat ondersteun ik ook — dat we snel terugkoppeling krijgen. Er is zeer binnenkort een gesprek met de Belgische NVWA, de FAVV, om te kijken hoe je die terugkoppeling sneller kunt doen — dat willen wij ook graag — zodat je er snel op kunt acteren. Ook hier is de motie weer iets te rigide geformuleerd, met "een week" en met een terugkoppeling binnen vier weken. Dat moeten we echt bespreken met de Belgische NVWA. Maar als ik de motie zo mag lezen dat we proberen de processen te verbeteren en als mevrouw Van der Plas bereid is om de termijnen eruit te halen, dan kan ik deze motie ook oordeel Kamer geven.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u37">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg48">Daarvoor geldt voor mevrouw Van der Plas hetzelfde als net, hoor ik haar zeggen. Als de motie niet wordt aangepast, is zij ontraden. Met de genoemde aanpassingen krijgt zij mogelijk oordeel Kamer.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg49">Dan gaan we naar de motie op stuk nr. 1224.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u38">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg50">Ja. Er komt steeds meer cameratoezicht. De heer Graus heeft zich daar ook altijd hard voor gemaakt; dat klopt. In deze motie vraagt hij om de beelden alleen te laten inzien door dierenpolitie en dierenwelzijnsteams van de NVWA. Wij willen juist dat die bedrijven zelf die camerabeelden gaan bekijken om te zien wat er niet goed gaat en wat er beter moet. Wat de motie vraagt, lijkt mij dus niet de bedoeling. Het bedrijf moet daar zelf ook echt actie op ondernemen. Over hoe de NVWA daarmee omgaat, hebben we in het debat al het een en ander gewisseld.</seg>
+        </u>
+        <note type="speaker">De heer Graus (PVV)</note>
+        <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u39">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg51">Er zijn wat problemen met de microfoon, maar hij doet het weer. Ik vond dat knopje altijd handiger; dat mis ik wel.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg52">Dat zinnetje haal ik dan graag weg. Ik heb dat puur toegevoegd zodat mijn motie een grotere kans heeft om door de Kamer te worden aangenomen, want ik weet dat de liberale partijen anders zeggen: nee, dat moet je niet doen; denk aan de privacy. De VVD heeft me daar een paar keer op gepakt. Dus ik zet dat zinnetje er al extra bij, want dan haalt de motie het in de Kamer. Dus ik haal dat natuurlijk graag weg. Als het door meer mensen bekeken moet en mag worden, dan ben ik daar natuurlijk voorstander van. Ik bedoelde het juist goed, mevrouw de voorzitter. Dat zinnetje haal er ik dus uit. Dan krijgt de motie oordeel Kamer en dan ben ik heel gelukkig.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u40">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg53">Laat ik even helder zijn: die camera's hangen in slachthuizen. Dus die camerabeelden zijn formeel juridisch ook eigendom van dat bedrijf. Wij hebben ook een debat gehad over of dat dan het eigendom van een bedrijf is en hoe de NVWA daar dan mee omgaat. Moet de NVWA de beelden kunnen krijgen, ja of nee? Daar heb ik het een en ander over toegezegd. Maar de eerste actie is dat het bedrijf de beelden zelf gaat bekijken, omdat ze daar dan zelf met hun dierenwelzijnsofficer de verbeteringen aanbrengen. Deze motie suggereert alsof die beelden van de NVWA zijn. Dat is niet zo.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u41">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg54">De heer Graus geeft nog een toelichting op zijn motie.</seg>
+        </u>
+        <note type="speaker">De heer Graus (PVV)</note>
+        <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u42">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg55">Nou heb ik weer geen geluid. Wat is die microfoon een rotding, zeg! Het lijkt net zo'n oude DAF van vroeger.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg56">Mevrouw de voorzitter, ik haal dat zinnetje "enkel bekeken mogen worden door de dierenpolitie en dierenwelzijnsteams" eruit. Dat ga ik helemaal laten verdwijnen. Er komt dus een nieuwe motie, die ik rondstuur. Dank u wel.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u43">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg57">Voorzitter, maar dan weet ik niet zo goed meer waar ik een oordeel over moet gaan vellen. Wij hebben echt een heel debat gehad over camera's, over hoe die ingezet worden, over van wie de beelden zijn en over hoe we ervoor kunnen zorgen dat het ook slim cameratoezicht is. Daar zitten allerlei stappen in, waarvan we ook nog hebben gezegd dat het in een wetsvoorstel komt. Ik kom daar zo nog eventjes op terug. Ik weet gewoon niet meer wat de heer Graus hier nu bedoelt. Dus of hij dient een motie is die heel helder is ... Maar ik weet nu niet meer waar ik een oordeel over moet gaan geven.</seg>
+        </u>
+        <note type="speaker">De heer Graus (PVV)</note>
+        <u who="#DionGraus" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u44">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg58">Dan wordt de motie gewoon: verzoekt de regering in strijd tegen het extreme dierenleed exportverzamelplaatsen van toezichtcamera's te voorzien. En dan zijn we klaar. Duidelijker kan ik echt niet zijn. Dit is echt klip-en-klaar. Er is echt niks onduidelijks aan.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u45">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg59">Daar hebben we het in het debat ook al over gehad: dat we juist ook gaan kijken hoe we dat kunnen doen. In dat debat heb ik ook al gezegd hoe ik de Kamer daarover informeer. Deze motie loopt daar weer op vooruit. Ik snap dat de heer Graus niet bij het debat kon zijn. Hij kan de motie ook aanhouden. Er komt voor het volgende NVWA-debat nog een brief waarin we hier verder op ingaan. Dan zou ik de heer Graus willen vragen of hij in dat debat zijn punt zou kunnen maken.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u46">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg60">Op verzoek van de heer Graus stel ik voor zijn motie (28286, nr. 1224) aan te houden.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg61">Daartoe wordt besloten.</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u47">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg62">Dan zijn er nog een aantal vragen. Allereerst de vraag van de heer De Groot of wij voor het volgende debat over de NVWA kunnen aangeven hoe we in het wetsvoorstel denken om te gaan met het cameratoezicht. Dat kan ik toezeggen. Ik zal de Kamer daarover informeren.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg63">Dat geldt ook voor zijn tweede vraag over hoeveel meldingen uit het buitenland komen over niet-transportwaardige dieren. Ik zal de informatie die ik dan heb ook naar de Kamer sturen.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg64">De heer Van Campen had nog een vraag over hoe het nu zit met het sectorplan over de operationalisering van de uitwerking van de Europese richtlijn. Er is op 10 september, de dag na het commissiedebat, een gesprek geweest tussen de NVWA en de sector. De uitkomst daarvan was dat de sector een protocol zou uitwerken op basis waarvan dieren die lichtgewond of ziek zijn maar waarvoor het vervoer geen extra lijden veroorzaakt, in de nabije toekomst weer door de NVWA gecertificeerd zouden kunnen worden. Van de inspecteur-generaal en de directeur Keuren van de NVWA heb ik begrepen dat zij gisteren een gesprek hebben gehad met de voorzitter en de directie van Vee &amp; Logistiek Nederland en dat dat een goed gesprek is geweest. Op basis van het verloop van die gesprekken en wat er ook eerder is gewisseld, heb ik er vertrouwen in dat de NVWA en de betrokken partijen hier ook in goed overleg uit zullen komen.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u48">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg65">En daarover is een vraag van de heer Van Campen van de VVD.</seg>
+        </u>
+        <note type="speaker">De heer Van Campen (VVD)</note>
+        <u who="#ThomvanCampen" ana="#regular" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u49">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg66">Heel kort. Dat klinkt goed. Maar zou de minister misschien dan ook alvast een doorkijkje kunnen geven wat dat betekent voor het hanteren van die nultolerantie als straks inderdaad die protocollen vanuit de sector op tafel liggen?</seg>
+        </u>
+        <note type="speaker">Minister Schouten</note>
+        <u who="#CarolaSchouten" ana="#guest" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u50">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg67">Op het moment dat die protocollen in overeenstemming zijn met datgene wat besproken is en wat de NVWA nodig heeft, kunnen dus ook dieren vervoerd worden die lichtgewond of ziek zijn maar waarvoor het transport geen extra lijden veroorzaakt. Dan zou je dus op basis daarvan die dieren kunnen vervoeren. Ook hierover kan ik toezeggen dat ik, op het moment dat ik daar meer over weet, de Kamer daar voor het volgende commissiedebat over zal informeren.</seg>
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg68">Dat was het, voorzitter.</seg>
+        </u>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u51">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg69">Dan komen we daarmee aan het einde van dit debat.</seg>
+        </u>
+        <note type="comment">De beraadslaging wordt gesloten.</note>
+        <note type="speaker">De voorzitter</note>
+        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.u52">
+          <seg xml:id="ParlaMint-NL_2021-09-29-tweedekamer-4.seg70">We gaan direct door met het volgende tweeminutendebat.</seg>
+        </u>
+      </div>
+    </body>
+  </text>
 </TEI>
