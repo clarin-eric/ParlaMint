@@ -18,39 +18,39 @@
                     <persName xml:lang="bg-Latn">Petya Osenova</persName>
                     <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
                     <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
-                </respStmt>
+               </respStmt>
                 <respStmt>
                     <persName xml:lang="bg">Кирил Симов</persName>
                     <persName xml:lang="bg-Latn">Kiril Simov</persName>
                     <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
                     <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
-                </respStmt>
+               </respStmt>
                 <respStmt>
                     <persName xml:lang="bg">Владислава Григорова</persName>
                     <persName xml:lang="bg-Latn">Vladislava Grigorova</persName>
                     <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
                     <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
-                </respStmt>
+               </respStmt>
                 <respStmt>
                     <persName xml:lang="bg">Илко Григоров</persName>
                     <persName xml:lang="bg-Latn">Ilko Grigorov</persName>
                     <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
                     <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
-                </respStmt>
+               </respStmt>
                 <funder>
                     <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
                     <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-                </funder>
-            </titleStmt>
+               </funder>
+           </titleStmt>
             <editionStmt>
                 <edition>2.1</edition>
-            </editionStmt>
+           </editionStmt>
             <extent><!--These numbers do not reflect the size of the sample!-->
                 <measure quantity="147428" unit="speeches" xml:lang="bg">203.219 изказвания</measure>
                 <measure quantity="147428" unit="speeches" xml:lang="en">203,219 speeches</measure>
                 <measure quantity="20016839" unit="words" xml:lang="bg">25.884.259 думи</measure>
                 <measure quantity="20016839" unit="words" xml:lang="en">25,884,259 words</measure>
-            </extent>
+           </extent>
             <publicationStmt>
                 <publisher>
                     <orgName xml:lang="bg">Инфраструктурата КЛАРИН</orgName>
@@ -64,18 +64,18 @@
                     <p xml:lang="en">This work is licensed under the 
                         
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
-                </availability>
+               </availability>
                 <date when="2022-11-23">2022-11-23</date>
-            </publicationStmt>
+           </publicationStmt>
             <sourceDesc>
                 <bibl>
                     <title xml:lang="en">Transcripts of plenary sittings of the Parliament of the Republic of Bulgaria</title>
                     <idno type="URI">https://parlametar.bg/</idno>
                     <idno type="URI">https://parliament.bg/bg</idno>
                     <date from="2014-10-27" to="2022-07-29">2014-10-27 - 2022-07-29</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
+               </bibl>
+           </sourceDesc>
+       </fileDesc>
         <encodingDesc>
             <projectDesc>
                 <p xml:lang="bg">ParlaMint</p>
@@ -83,24 +83,24 @@
                     <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the 
                     
                     <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-            </projectDesc>
+           </projectDesc>
             <editorialDecl>
                 <correction>
                     <p xml:lang="en">No correction of source texts was performed.</p>
-                </correction>
+               </correction>
                 <normalization>
                     <p xml:lang="en">Normalisation was performed only on the meta-data, e.g. person names.</p>
-                </normalization>
+               </normalization>
                 <hyphenation>
                     <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
-                </hyphenation>
+               </hyphenation>
                 <quotation>
                     <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
-                </quotation>
+               </quotation>
                 <segmentation>
                     <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
-                </segmentation>
-            </editorialDecl>
+               </segmentation>
+           </editorialDecl>
             <tagsDecl><!--These numbers do not reflect the size of the sample!-->
                 <namespace name="http://www.tei-c.org/ns/1.0">
                     <tagUsage gi="body" occurs="924"></tagUsage>
@@ -112,8 +112,8 @@
                     <tagUsage gi="text" occurs="924"></tagUsage>
                     <tagUsage gi="u" occurs="203219"></tagUsage>
                     <tagUsage gi="vocal" occurs="32159"></tagUsage>
-                </namespace>
-            </tagsDecl><classDecl>
+               </namespace>
+           </tagsDecl><classDecl>
                 <taxonomy xml:id="parla.legislature">
                     <desc xml:lang="en"><term>Legislature</term></desc>
                     <desc xml:lang="bg"><term>Законодателство</term></desc>
@@ -181,7 +181,7 @@
                                 <category xml:id="parla.sitting">
                                     <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
                                     <catDesc xml:lang="bg"><term>заседател ден</term></catDesc></category></category></category></category>
-                </taxonomy>
+               </taxonomy>
                 <taxonomy xml:id="speaker_types">
                     <desc xml:lang="en"><term>Types of speakers</term></desc>
                     <desc xml:lang="bg"><term>Видове изказващи се</term></desc>
@@ -194,7 +194,7 @@
                     <category xml:id="guest">
                         <catDesc xml:lang="bg"><term>Гост</term>: гост на заседание</catDesc>
                         <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc></category>
-                </taxonomy>
+               </taxonomy>
                 <taxonomy xml:id="subcorpus">
                     <desc xml:lang="en"><term>Subcorpora</term></desc>
                     <desc xml:lang="bg"><term>Подкорпус</term></desc>
@@ -204,15 +204,15 @@
                     <category xml:id="covid">
                         <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                         <catDesc xml:lang="bg"><term>COVID</term>: COVID подкорпус, от 2019-11-01 нататък</catDesc></category>
-                </taxonomy></classDecl>
-        </encodingDesc>
+               </taxonomy></classDecl>
+       </encodingDesc>
         <profileDesc>
             <settingDesc><setting>
                     <name type="address">Parliament square</name>
                     <name type="city">Sofia</name>
                     <name key="BG" type="country">Bulgaria</name>
                     <date from="2014-10-27" to="2020-07-31"></date></setting>
-            </settingDesc><textClass><catRef scheme="#parla.legislature" target="#parla.uni"/></textClass>
+           </settingDesc><textClass><catRef scheme="#parla.legislature" target="#parla.uni"/></textClass>
             <particDesc>
                 <listOrg xml:id="ParlaMint-BG-listOrg.xml" xml:lang="bg"><!-- "BG Parliament with the list of legislative periods since 1991-11-04 -->
                     <org ana="#parla.national #parla.uni" role="parliament" xml:id="BG-NS">
@@ -1399,7 +1399,7 @@
                     <person xml:id="StoyanovaNina">
                         <persName><forename>Нина</forename><surname>Стоянова</surname></persName>
                         <sex value="F"></sex>
-                        <birth><placeName>София</placeName></birth>
+                        <!-- <birth><placeName>София</placeName></birth> -->
                         <education>юрист</education>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Нина_Стоянова</idno></person>
                     <person xml:id="AtanasovOgnyan">
@@ -1409,7 +1409,7 @@
                     <person xml:id="SimeonovOgnyan">
                         <persName><forename>Огнян</forename><surname>Георгиев</surname><surname>Симеонов</surname></persName>
                         <sex value="M"></sex>
-                        <education when="1997"></education>
+                        <!-- <education when="1997"></education> -->
                         <occupation>икономист</occupation>
                         <occupation>политик</occupation></person>
                     <person xml:id="AsenovOleg">
@@ -1432,7 +1432,7 @@
                     <person xml:id="DzhelepovPetyr">
                         <persName><forename>Петър</forename><surname>Георгиев</surname><surname>Джелепов</surname></persName>
                         <sex value="M"></sex>
-                        <education when="1987"></education>
+                        <!-- <education when="1987"></education> -->
                         <occupation>политик</occupation></person>
                     <person xml:id="KirovPlamen">
                         <persName><forename>Пламен</forename><surname>Веселинов</surname><surname>Киров</surname></persName>
@@ -1921,7 +1921,7 @@
                         <birth when="1954-09-28"><placeName>Огняново</placeName></birth>
                         <education>юрист</education>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Бойко_Рашков</idno>
-                        <affiliation from="2013" role="chairperson" to="2018"><roleName xml:lang="bg">Председател на Национално бюро за контрол на специални разузнавателни средства</roleName></affiliation>
+                        <!-- <affiliation from="2013" role="head" to="2018"><roleName xml:lang="bg">Председател на Национално бюро за контрол на специални разузнавателни средства</roleName></affiliation> -->
                         <affiliation from="2001-07-05" ref="#BG-NS" role="member" to="2005-06-17"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2022-10-19" ref="#BG-NS" role="member"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2022-10-19" ref="#parliamentaryGroup.WCC" role="member"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation></person>
@@ -1931,9 +1931,9 @@
                         <birth when="1959-06-13"><placeName>София</placeName></birth>
                         <education>инженер</education>
                         <occupation>политик</occupation>
-                        <affiliation from="2009-07-27" ref="#gov.BGGov" role="primeMinister" to="2013-02-21"><roleName xml:lang="bg">Министър-председател</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
-                        <affiliation from="2014-11-07" ref="#gov.BGGov" role="primeMinister" to="2017-01-27"><roleName xml:lang="bg">Министър-председател</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
-                        <affiliation from="2017-05-04" ref="#gov.BGGov" role="primeMinister" to="2021-05-12"><roleName xml:lang="bg">Министър-председател</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
+                        <affiliation from="2009-07-27" ref="#gov.BGGov" role="head" to="2013-02-21"><roleName xml:lang="bg">Министър-председател</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
+                        <affiliation from="2014-11-07" ref="#gov.BGGov" role="head" to="2017-01-27"><roleName xml:lang="bg">Министър-председател</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
+                        <affiliation from="2017-05-04" ref="#gov.BGGov" role="head" to="2021-05-12"><roleName xml:lang="bg">Министър-председател</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Бойко_Борисов</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Boyko_Borisov</idno>
                         <affiliation from="2013-05-21" ref="#BG-NS" role="member" to="2014-08-05"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
@@ -1990,7 +1990,7 @@
                         <sex value="M"></sex>
                         <birth when="1946-10-29"><placeName>София, България</placeName></birth>
                         <affiliation from="2001-07-05" ref="#BG-NS" role="member" to="2005-02-23"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
-                        <affiliation from="2005-02-23" ref="#BG-NS" role="head" to="2005-06-17"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2005-02-23" ref="#BG-NS" role="head" to="2005-06-17"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2005-07-11" ref="#BG-NS" role="member" to="2009-06-25"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#BG-NS" role="member" to="2017-01-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#parliamentaryGroup.RB" role="deputyHead" to="2017-01-26"><roleName xml:lang="bg">зам.-председател на ПГ</roleName><roleName xml:lang="en">Deputy Chairperson of Parliamentary Group</roleName></affiliation></person>
@@ -2179,7 +2179,7 @@
                         <affiliation from="2017-04-19" ref="#BG-NS" role="member" to="2021-03-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2021-04-15" ref="#BG-NS" role="member" to="2021-05-11"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2022-10-19" ref="#BG-NS" role="member" to="2022-10-21"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
-                        <affiliation from="2022-10-21" ref="#BG-NS" role="head"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2022-10-21" ref="#BG-NS" role="head"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2009-07-14" ref="#parliamentaryGroup.GERB" role="member" to="2009-07-27"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2013-05-21" ref="#parliamentaryGroup.GERB" role="member" to="2014-08-05"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#parliamentaryGroup.GERB" role="member" to="2014-11-07"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
@@ -2432,7 +2432,7 @@
                         <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Georgi_Pirinski_Jr.</idno>
                         <affiliation from="2001-07-05" ref="#BG-NS" role="member" to="2005-06-17"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2005-07-11" ref="#BG-NS" role="member" to="2005-07-11"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
-                        <affiliation from="2005-07-11" ref="#BG-NS" role="head" to="2009-06-25"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2005-07-11" ref="#BG-NS" role="head" to="2009-06-25"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2009-07-14" ref="#BG-NS" role="deputyHead" to="2013-03-14"><roleName xml:lang="bg">зам.-председател на НС</roleName><roleName xml:lang="en">Vice-President of the National Assembly</roleName></affiliation></person>
                     <person n="2862" xml:id="StoilovGeorgi">
                         <persName xml:lang="bg"><forename>Георги</forename><surname>Георгиев</surname><surname>Стоилов</surname></persName>
@@ -2513,7 +2513,7 @@
                         <education when="1982">„Право“ в Софийския университет „Климент Охридски“</education>
                         <occupation>Преподавател е в Юридическия факултет на СУ: асистент (1983), доцент (2003), професор (2009) по конституционно право</occupation>
                         <occupation>политик</occupation>
-                        <affiliation from="2014-08-06" ref="#gov.BGGov" role="primeMinister" to="2014-11-07"><roleName xml:lang="bg">53-ти министър-председател на България</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
+                        <affiliation from="2014-08-06" ref="#gov.BGGov" role="head" to="2014-11-07"><roleName xml:lang="bg">53-ти министър-председател на България</roleName><roleName xml:lang="en">Prime Minister</roleName></affiliation>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Георги_Близнашки</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Georgi_Bliznashki</idno>
                         <affiliation from="2005-07-11" ref="#BG-NS" role="member" to="2009-06-25"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation></person>
@@ -3021,7 +3021,7 @@
                         <affiliation from="2014-10-27" ref="#BG-NS" role="member" to="2014-10-27"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#BG-NS" role="deputyHead" to="2017-01-26"><roleName xml:lang="bg">зам.-председател на НС</roleName><roleName xml:lang="en">Vice-President of the National Assembly</roleName></affiliation>
                         <affiliation from="2017-04-19" ref="#BG-NS" role="member" to="2017-04-19"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
-                        <affiliation from="2017-04-19" ref="#BG-NS" role="head" to="2017-11-17"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2017-04-19" ref="#BG-NS" role="head" to="2017-11-17"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2017-11-17" ref="#BG-NS" role="member" to="2021-03-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2021-04-15" ref="#BG-NS" role="member" to="2021-05-11"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2021-07-21" ref="#BG-NS" role="member" to="2021-09-15"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
@@ -4587,7 +4587,7 @@
                         <affiliation from="2005-07-11" ref="#BG-NS" role="member" to="2008-04-24"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2009-07-14" ref="#BG-NS" role="member" to="2013-03-14"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2013-05-21" ref="#BG-NS" role="member" to="2013-05-21"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
-                        <affiliation from="2013-05-21" ref="#BG-NS" role="head" to="2014-08-05"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2013-05-21" ref="#BG-NS" role="head" to="2014-08-05"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#BG-NS" role="member" to="2017-01-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#parliamentaryGroup.BSPLB" role="head" to="2016-05-10"><roleName xml:lang="bg">председател на ПГ</roleName><roleName xml:lang="en">Chairperson of Parliamentary Group</roleName></affiliation>
                         <affiliation from="2016-05-10" ref="#parliamentaryGroup.BSPLB" role="member" to="2017-01-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation></person>
@@ -6076,7 +6076,7 @@
                         <affiliation from="2014-10-27" ref="#BG-NS" role="member" to="2017-01-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2017-04-19" ref="#BG-NS" role="member" to="2017-04-19"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2017-04-19" ref="#BG-NS" role="deputyHead" to="2017-11-17"><roleName xml:lang="bg">зам.-председател на НС</roleName><roleName xml:lang="en">Vice-President of the National Assembly</roleName></affiliation>
-                        <affiliation from="2017-11-17" ref="#BG-NS" role="head" to="2021-03-26"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2017-11-17" ref="#BG-NS" role="head" to="2021-03-26"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2021-04-15" ref="#BG-NS" role="member" to="2021-04-15"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2021-04-15" ref="#BG-NS" role="deputyHead" to="2021-05-11"><roleName xml:lang="bg">зам.-председател на НС</roleName><roleName xml:lang="en">Vice-President of the National Assembly</roleName></affiliation>
                         <affiliation from="2009-07-29" ref="#parliamentaryGroup.GERB" role="member" to="2012-04-23"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
@@ -6127,10 +6127,10 @@
                         <affiliation from="2017-05-04" ref="#gov.BGGov" role="minister" to="2019-04-05"><roleName xml:lang="bg">Министър на правосъдието</roleName></affiliation>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Цецка_Цачева</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Tsetska_Tsacheva</idno>
-                        <affiliation from="2009-07-14" ref="#BG-NS" role="head" to="2013-03-14"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2009-07-14" ref="#BG-NS" role="head" to="2013-03-14"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2013-05-21" ref="#BG-NS" role="member" to="2014-08-05"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#BG-NS" role="member" to="2014-10-27"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
-                        <affiliation from="2014-10-27" ref="#BG-NS" role="head" to="2017-01-26"><roleName xml:lang="bg">председател на НС </roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
+                        <affiliation from="2014-10-27" ref="#BG-NS" role="head" to="2017-01-26"><roleName xml:lang="bg">председател на НС</roleName><roleName xml:lang="en">President of the National Assembly</roleName></affiliation>
                         <affiliation from="2009-07-14" ref="#parliamentaryGroup.GERB" role="member" to="2013-03-14"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2013-05-21" ref="#parliamentaryGroup.GERB" role="member" to="2013-12-12"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2013-12-12" ref="#parliamentaryGroup.GERB" role="deputyHead" to="2014-08-05"><roleName xml:lang="bg">зам.-председател на ПГ</roleName><roleName xml:lang="en">Deputy Chairperson of Parliamentary Group</roleName></affiliation>
@@ -6255,8 +6255,8 @@
                         <affiliation from="2009-07-14" ref="#parliamentaryGroup.MRF" role="member" to="2013-03-14"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2013-05-21" ref="#parliamentaryGroup.MRF" role="member" to="2014-08-05"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation>
                         <affiliation from="2014-10-27" ref="#parliamentaryGroup.MRF" role="member" to="2017-01-26"><roleName xml:lang="bg">член</roleName><roleName xml:lang="en">Member</roleName></affiliation></person>
-                </listPerson>
-            </particDesc>
+               </listPerson>
+           </particDesc>
             <langUsage>
                 <language ident="bg-Latn" xml:lang="en">Bulgarian in Latin script</language>
                 <language ident="bg" xml:lang="bg">български</language>
@@ -6265,13 +6265,13 @@
                 <language ident="en" xml:lang="en">English</language>
                 <language ident="fr" xml:lang="bg">френски</language>
                 <language ident="fr" xml:lang="en">French</language>
-            </langUsage>
-        </profileDesc>
+           </langUsage>
+       </profileDesc>
         <revisionDesc xml:lang="en"><change when="2021-06-17">
                 <name>Tomaž Erjavec</name>: Made sample.</change><change when="2021-06-07">
                 <name>Tomaž Erjavec</name>: Finalize encoding.</change>
-        </revisionDesc>
-    </teiHeader>
+       </revisionDesc>
+   </teiHeader>
     <xi:include href="ParlaMint-bg_2014-10-29.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
     <xi:include href="ParlaMint-bg_2016-01-29.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
     <xi:include href="ParlaMint-bg_2017-06-29.xml" xmlns:xi="http://www.w3.org/2001/XInclude"></xi:include>
