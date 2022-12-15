@@ -199,9 +199,10 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 
 ## root ## Make ParlaMint corpus root
 root:
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
-
+	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
+	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 ## chars ## create character tables
