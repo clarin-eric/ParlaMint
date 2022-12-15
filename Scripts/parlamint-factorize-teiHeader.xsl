@@ -82,7 +82,8 @@
         <xsl:result-document href="{$path}" method="xml">
           <xsl:element name="{name()}">
             <xsl:if test="not(@xml:id = concat($fileid,$interfix))">
-              <xsl:message select="concat('INFO: replacing xml:id ',@xml:id,' with ',concat($fileid,$interfix))"/>
+              <xsl:message select="concat('INFO: replacing xml:id &#34;',
+				   @xml:id,'&#34; with ',concat($fileid,$interfix))"/>
             </xsl:if>
             <xsl:attribute name="xml:id" select="concat($fileid,$interfix)"/>
             <xsl:attribute name="xml:lang">

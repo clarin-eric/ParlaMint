@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # Make ParlaMint corpora ready for distribution:
-# 1. Finalize input corpora stored (release, date, handle, extent)
+# 1. Finalize input corpora stored (release, date, handle, extent + factorisation)
 # 2. Validate corpora
 # 3. Produce derived format
 # License: CC0
@@ -101,6 +101,11 @@ $outDir = File::Spec->rel2abs($outDir);
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
+
+$FactoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
+$FactoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
+$FactoriseFiles .= 'ParlaMint-taxonomy-speaker_types.xml ';
+$FactoriseFiles .= 'ParlaMint-taxonomy-subcorpus.xml ';
 
 $Factor  = "$Bin/parlamint-factorize-teiHeader.xsl";
 $Final   = "$Bin/parlamint2final.xsl";
@@ -259,8 +264,7 @@ sub factorisations {
 	}
 	else {
 	    $tmpOutDir = "$tmpDir/factorise";
-	    print STDERR "NJUT: $Saxon prefix=$prefix outDir=$tmpOutDir -xsl:$Factor $Root\n";
-	    `$Saxon prefix=$prefix outDir=$tmpOutDir -xsl:$Factor $Root`;
+	    `$Saxon noAna=\"$FactoriseFiles\" outDir=$tmpOutDir -xsl:$Factor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;
 	}
     }
