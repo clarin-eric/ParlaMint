@@ -67,7 +67,7 @@ git push
   - check changes
   - merge pull request
 - update ParlaMint repository with data in your repository:
- - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
+  - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
 
 
 ## Install prerequisites
