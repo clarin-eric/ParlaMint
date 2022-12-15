@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA_1999-05-18-0" ana="#parla.term #reference">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA, Mandat 2, Sjednica 04 [ParlaMint SAMPLE]</title>
+				<title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA, Term 2, Session 04 [ParlaMint SAMPLE]</title>
+				<title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, mandat 2, sjednica 04</title>
+				<title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Term 2, Session 04</title>
+				<meeting n="T02S04" corresp="#PS" ana="#parla.term #PS.2">2. mandat, 04. sjednica</meeting>
+				<respStmt>
+					<persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+					<resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+					<resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+				</respStmt>
+				<respStmt>
+					<persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+					<resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+					<resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Peter Rupnik</persName>
+					<resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+					<resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+				</respStmt>
+				<funder>
+					<orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+					<orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+				</funder>
+			</titleStmt>
+			<editionStmt>
+				<edition>0.0a</edition>
+			</editionStmt>
+			<extent>
+				<measure unit="speeches" quantity="11" xml:lang="bs">11 govora</measure>
+				<measure unit="speeches" quantity="11" xml:lang="en">11 speeches</measure>
+				<measure unit="words" quantity="2321" xml:lang="bs">2.321 riječi</measure>
+				<measure unit="words" quantity="2321" xml:lang="en">2,321 words</measure>
+			</extent>
+			<publicationStmt>
+				<publisher>
+					<orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+					<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+					<ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+				</publisher>
+				<idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+				<availability status="free">
+					<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+					<p xml:lang="bs">
+						Ovaj rad je dostupan pod 
+						<ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+					</p>
+					<p xml:lang="en">
+						This work is licensed under the 
+						<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+					</p>
+				</availability>
+				<date when="2021-06-09">2021-06-09</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+					<idno type="URI" subtype="business">https://www.javnarasprava.ba/</idno>
+					<idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p xml:lang="bs">
+					<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+				</p>
+				<p xml:lang="en">
+					<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+				</p>
+			</projectDesc>
+			<tagsDecl>
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="text" occurs="1"/>
+					<tagUsage gi="body" occurs="1"/>
+					<tagUsage gi="div" occurs="1"/>
+					<tagUsage gi="head" occurs="0"/>
+					<tagUsage gi="note" occurs="0"/>
+					<tagUsage gi="u" occurs="11"/>
+					<tagUsage gi="seg" occurs="11"/>
+					<tagUsage gi="vocal" occurs="0"/>
+					<tagUsage gi="desc" occurs="0"/>
+					<tagUsage gi="kinesic" occurs="0"/>
+					<tagUsage gi="gap" occurs="0"/>
+				</namespace>
+			</tagsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<settingDesc>
+				<setting>
+					<name type="address">Trg BiH 1</name>
+					<name type="city">Sarajevo</name>
+					<name type="country" key="BA">Bosnia and Herzegovina</name>
+					<date from="1999-02-10" to="1999-05-18" ana="#parla.session"> 1999-02-10 - 1999-05-18</date>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+		<revisionDesc xml:lang="en">
+			<change when="2022-12-12">
+				<name>Peter Rupnik</name>
+				Compile from source
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text ana="#reference">
+		<body>
+			<div type="debateSection">
+				<u who="#ŠoljićVladimir" ana="#chair" n="ParlaMint-BIH_DN.T2.S04.u177" xml:id="ParlaMint-BA_1999-05-18-0.u177">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u177.seg0">Gospodo, predlažem da počnemo sa radom. Otvaram 4. sjednicu Doma naroda Parlamentarne skupštine BiH. Pozdravljam sve zastupnike i izaslanike, članove Vijeća ministara BiH, predstavnike međunarodne zajednice, predstavnike sredstava informiranja i sve nazočne. Konstatiram da Skupštini nedostaje samo jedan zastupnik srpskog naroda, to je gospodin Đoko Pajić, znači, imamo kvorum i puno više od kvoruma, pa Skupština može normalno raditi i odlučivati. Predlažem dnevni red kao što ste dobili u pozivu. Znate zašto je ovakav dnevni red, zbog zastoja koji je nastao i potrebe da se usvoji Proračun, odnosno, Budžet Bosne i Hercegovine za servisiranje vanjskog duga i opsluživanje institucija, predloženo je kao što ste dobili u materijalu. Dajem dnevni red na raspravu, odnosno na izjašnjavanje. Da li ima primjedbi na dnevni red? Izvolite. Mugdin Herceg.</seg>
+				</u>
+				<u who="#HercegMugdin" ana="#regular" n="ParlaMint-BIH_DN.T2.S04.u178" xml:id="ParlaMint-BA_1999-05-18-0.u178">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u178.seg0">Gospodine predsjedniče, kolege poslanici, kolege zastupnici i cijenjeni gosti. Ja u kontekstu rasprave o predloženom dnevnom redu ne bih ništa dodao ni oduzeo, nego bih izrazio jedno svoje lično razočarenje da smo u ovom periodu, od 18. marta do 18. maja, imali četiri puta sazivanje sjednice Doma naroda Parlamentarne skupštine BiH, da smo u prvom sazivu za 4. sjednicu imali jedan drugi dnevni red, koji je obuhvatao i set zakona visokog predstavnika, gospodina Carlosa Vestendorpa i određene zakone za koje smo se dogovorili na posljednjoj 3. sjedniciv u skladu sa zaključkom o proceduri usvajanje zakona koji ne dolazi od Vijeća ministara BiH, da se nađu na dnevnom redu, evo, danas nisu ovdje. U tom smislu bih želio da postavim pitanje, obzirom na zaključak sa posljednje 3. sjednice, u Zapisniku pod Ad.8. Zašto se danas nije našlo u proceduri usvajanje Okvirnog zakona o privatizaciji preduzeća i banaka u BiH, koji je usvojio Predstavnički dom? Takođe, zašto se nije našao u proceduri, obzirom na zaključak pod tačkom Ad.8. sa prošle sjednice, u proceduri, znači, set zakona koji je vezan za prijedloge koje su dali poslanici, gospodin Lagumdžija, gospodin Tokić i gospodin Ćeman? U tom smislu, ja bih zaista morao da podsjetim na pismo gospodina Vestendorpa od 8. decembra, kada je, uz čestitanje za uspješan rad ovog Doma, ukazao na vrlo kompleksna pitanja koja stoje pred poslanicima Parlamentarne skupštine BiH u sferi provođenja mirovnog procesa, unapređenja mirovnog procesa i donošenja vlastitih unutrašnjih struktura u BiH. Tamo je vrlo lijepo rečeno da smo na određen način svi zajedno na testu odgovornosti za preuzimanje sudbine države Bosne i 2 Hercegovine u vlastite ruke. Čini mi se da smo na tom testu, bar za ovaj period koji je iza nas, ipak, pali. U tom smislu bih ja zamolio da već kod naredne sjednice u obzir uzmemo ono što smo imali u prvom sazivu, za 4. sjednicu ste zakona koji je privremeno stavljen na snagu od Visokog predstavnika međunarodne zajednice, gospodina Carlosa Vestendorpa, kao i zakoni koji su došli od naših cijenjenih poslanika. Hvala lijepo.</seg>
+				</u>
+				<u who="#ŠoljićVladimir" ana="#chair" n="ParlaMint-BIH_DN.T2.S04.u179" xml:id="ParlaMint-BA_1999-05-18-0.u179">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u179.seg0">Hvala, gospodine Herceg. Evo o čemu se radi. Zbog problema do kojih je došlo, mi smo se opredijelili danas za ono što ni po čemu ne bi bilo sporno. Kolege iz Kluba srpskog naroda su bili u obvezi da, glede Prijedloga zakona o privatizaciji banaka i poduzeća, dostave svoj stav, navodno je to bilo, praktički, gotovo i ja još to nisam dobio, ali, da smo dobili, mi smo danas se opredijelili da uradimo prvi korak koji neće biti nimalo sporan, a možemo zakazati sjednicu čim bude materijala dovoljno, a ima ga već dovoljno, to će biti vrlo brzo. Mi ćemo pratiti Zastupnički dom. Nastojat ćemo da, uglavnom, idemo iza njih jedan korak, jer oni su Dom koji prvo razmatra materijale prije nas. To je jedno. Druga stvar, vezano za Vašu drugu primjedbu, ja sam sagledao, kao što ste i Vi sagledali, strukturu vlasti u BiH, ovdje ima distanci kao nigdje u svijetu, više nego u Americi, a kolika je Amerika, više nego u Kini, prema tome, imamo sjednice Vijeća ministara BiH, ovaj parlament zavisi od svih pomalo, od sjednica Vijeća ministara BiH, jer oni su danas ovdje, od Vlade Federacije BiH, od oba doma Federacije BiH, od Skupštine RS i od bezbrojnih vjerskih i ostalih praznika koje mi ovdje imamo, pa ja ponovo od vas tražim da predsjednici klubova dostave bar što mogu, a to je popis praznika za koje jedan narod, jedan klub smatra da ne bi trebalo taj dan raditi. Ja sam isti zahtjev postavio i drugima, da se na neki način dogovorimo, da rezimiramo termine za održavanje skupština, da li je to prva nedjelja, druga, treća ili četvrta, sasvim je svejedno, mi ćemo se prilagoditi drugim, a makar smo mi formalno najviši dom, ali, znamo kad je sjednica Vijeća ministara BiH i Vlade Federacije BiH, pa da pokušamo sinhronizirati i ostale sjednice u Federaciji BiH i RS, tako da imamo jedan prostor rezerviran za rad Doma naroda. Ja se nadam da ćemo taj problem riješiti, to ćemo, ja se nadam, u narednom periodu vrlo brzo riješiti. Zato predlažem, ako nema niko drugi ništa, da usvojimo dnevni red i počnemo sa radom. Tko je za ovakav dnevni red? Koliko vidim, nema nitko ni protiv ni suzdržan, znači, jednoglasno je usvojen dnevni red. Prva točka je Zapisnik. Zapisnik ste dobili. Da li ima primjedbi? Nema. Tko je da se ovakav Zapisnik usvoji? Suzdržanih? Protiv nema nitko, znači, prelazimo na sljedeću točku dnevnog reda, a to je 3 Izvješće o izvršenju Proračuna institucija BiH i međunarodnih obveza BiH u 1998. godini Izvješće ste dobili. Otvaram raspravu. Prije nego neko uzme riječi, sticajem raznih okolnosti, iako se radi o važnim stvarima, mi smo na radnim tijelima to relativno brzo usvojili, jedno je zbog toga što je potreba i probili smo sve rokove, a drugo je što je on sastavljen tako da se ni puno veći stručnjaci u tome ne bi baš mogli puno bolje snaći, pa smo mi zbog toga predložili, nešto ćete kasnije čuti, vezano za Proračun za ovu godinu. Ima li tko primjedbi, odnosno, ima li tko da se javi za diskusiju po pitanju Izvješća? Gospodin Čampara, izvolite.</seg>
+				</u>
+				<u who="#ČamparaAvdo" ana="#regular" n="ParlaMint-BIH_DN.T2.S04.u180" xml:id="ParlaMint-BA_1999-05-18-0.u180">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u180.seg0">Mi smo primili ovaj izvještaj o izvršenju Budžeta za 1998. godinu, a danas ćemo usvajati i Budžet i Zakon o izvršenju Budžeta. Javljam se iz jednog prostog razloga da bi ubuduće, ukoliko želimo da Skupština radi sa svim svojim potrebnim funkcijama koje ona ima, da se mora ubuduće mnogo više voditi računa, kako od strane Vijeća ministara BiH, odnosno Ministarstva za civilna pitanja, tako i od strane vlade entiteta, za normalno pristizanje sredstava koja su odobrena Budžetom Skupštine BiH. Mi u proteklom periodu, s obzirom da od 1.6. primamo ta sredstva preko Vijeća ministara BiH i Centralne banke BiH, nismo redovno primali ta sredstva, a isto tako, prema Privremenoj odluci o finansiranju za prva tri mjeseca za ovu godinu, ta se sredstva redovno ne dostavljaju. Da bismo mi, kao Skupština, mogli ubuduće da izvršavamo sve obaveze kako na teritoriji BiH, tako i u međunarodnim institucijama, mislim da će potrebno biti da se ovim pitanjem u narednom periodu ozbiljno pozabavi Vijeće ministara BiH i Ministarstvo za civilna pitanja i da ono, uglavnom sa vladama entiteta, dogovora da ta sredstava, bar ova sredstva koja su odobrena i koja će biti i u ovoj godini odobrena od strane Skupštine BiH u Budžetu, da se redovno dostavljaju. Moram reći da ni u prošloj godini od entiteta nismo dobivali onolika sredstva koja su bila odobrena u Budžetu, već su primana mnogo manja i zbog toga ne možemo izvršavati neke obaveze koje mi imamo prema raznim međunarodnim institucijama. Javio sam se samo zato da bi ubuduće i Vijeće ministara BiH i Ministarstvo za civilna pitanja, kao i vlade entiteta, o ovom pitanju morale povesti mnogo više računa. Hvala.</seg>
+				</u>
+				<u who="#ŠoljićVladimir" ana="#chair" n="ParlaMint-BIH_DN.T2.S04.u181" xml:id="ParlaMint-BA_1999-05-18-0.u181">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u181.seg0">Hvala, gospodine Čampara. Ima li još netko? Ako nema, dajem na glasovanje Izvješće o izvršenju Proračuna za prošlu godinu. Tko je za? Ima li tko suzdržan? Protiv? Nema nitko, to znači da je jednoglasno usvojeno Izvješće o Proračunu za prošlu godinu. Sljedeća točka dnevnog reda je 4 Proračun institucija BiH i međunarodnih obveza u 1999. godini Prijedlog Proračuna imate pred sobom. Prije nego se netko javi za diskusiju, otvaram raspravu i obavještavam vas da su obje komisije razmatrale Proračun i usvojile ga, uz napomenu da se usvoje i izmjene i zaključci koje je usvojio Zastupnički dom, a koje imate pred sobom. I još jedan zaključak, da Vijeće ministara BiH, odnosno, Ministarstvo vanjske trgovine, dostavi popis krajnjih korisnika, odnosno, nositelja kredita uz napomenu da li izvršavaju obveze ili garancije padaju na teret entiteta. Tko se javlja za diskusiju? Ako nema nitko, ja bih i Proračun institucija BiH, izvolite, Mlaćo.</seg>
+				</u>
+				<u who="#MlaćoDževad" ana="#regular" n="ParlaMint-BIH_DN.T2.S04.u182" xml:id="ParlaMint-BA_1999-05-18-0.u182">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u182.seg0">Gospodine predsjedavajući, poštovana gospodo, Vidimo da su izvori prihoda Budžeta dosta limitirali iznos Budžeta i ja sam dobio odgovor na pitanje – zašto u Budžetu nema stavke kojom bi se finansirao povratak. Međutim, imam i informacije da bi se mogla sredstva u većem obimu pojaviti ukoliko međunarodne institucije, kroz razne vidove pomoći, to učine, pa postoji mogućnost rebalansa Budžeta. Želim da predložim da u slučaju rebalansa Budžeta pitanje finansiranja povratka, a to je pitanje gdje bi i država BiH trebala da se time bavi, bude prioritet i da se određena sredstva, da li je to nekoliko miliona maraka, ili ako može više, obavezno preusmjere u tu svrhu, dakle, ukoliko dođe do tih sredstava. Hvala.</seg>
+				</u>
+				<u who="#ŠoljićVladimir" ana="#chair" n="ParlaMint-BIH_DN.T2.S04.u183" xml:id="ParlaMint-BA_1999-05-18-0.u183">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u183.seg0">Hvala, gospodine Mlaćo. Na klubu je, odnosno, na komisijama, bilo više diskusije, ne vidim neku potrebu da se puno oko toga zamaram, ali je očito da je stavka Troškovi, odnosno, Finansiranje Skupštine BiH, oba doma, zaista preskromna, međutim, šta je tu je, mi se nadamo da će u neko bolje vrijeme Vijeće ministara BiH biti izdašnije, odnosno, da će malo preraspodjelu uraditi drugačije. Mi smo isto tako dobro “prošli kod raspodjele prostora” (?), ali, mi ćemo nastojati da budemo primjer i da pomognemo da sve ovo skupa bolje profunkcionira, ako je to cijena, onda će zastupnici, odnosno, izaslanici, platiti. Ima li još diskutanata? Ako nema, dajem na glasovanje i Proračun institucija BiH za finansiranje međunarodnih obveza BiH za 1999. godinu. Tko je za? Konstatiram da je jednoglasno usvojen Proračun o kojem smo raspravljali. Sljedeća točka dnevnog reda je Zakon o izvršenju Proračuna institucija BiH i međunarodnih obveza BiH u 1999. godini. Zakon imate pred sobom i sitne izmjene koje su bile urađene. Otvaram raspravu. 5 Znam o čemu se radi, Komisija je to uradila, i obzirom da ovaj dom čini svega 15 izaslanika, u komisijama su, praktički, svi, ako je na komisijama usvojeno, onda nema razloga da ne bude usvojeno i ovdje. Zato i ovaj zakon dajem na glasovanje. Tko je za? Ima li tko protiv? Suzdržanih nema. Znači, jednoglasno smo usvojili i ovaj zakon. Sljedeća točka dnevnog reda je Izaslanička pitanja Na Domu iz kojega smo mi delegirani, uvijek je sat vremena malo. Ja se nadam da će nama biti i previše, da ćemo mi, ako imamo pitanja, brzo ih postaviti i na njih dobiti adekvatne odgovore u formi u kojoj se to inače radi. Izvolite. Ja sam očekivao da će ova sjednica trajati kratko, ali nisam očekivao da će baš ovoliko kratko, oni koji sporije pale ove kamere, neće ništa ni zabilježiti. Bez obzira na to, ja smatram da smo danas završili jedan važan posao. Izvoli, Avdo.</seg>
+				</u>
+				<u who="#ČamparaAvdo" ana="#regular" n="ParlaMint-BIH_DN.T2.S04.u184" xml:id="ParlaMint-BA_1999-05-18-0.u184">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u184.seg0">Možda je to moja navika iz proteklog perioda, jer ja uvijek postavljam pitanje, pitanjem idem prema Vijeću ministara BiH, jer smatram da je ono, kao izvršni organ, jedno od najglavnijih organa u BiH za rješavanje mnogobrojnih pitanja. Mislim da bi trebalo, imajući u vidu da smo u dosta skromnom prostoru, Vijeće ministara BiH, koliko je moguće prije, pokrene pitanja bar izgradnje drugog sprata, a po mogućnosti i trećeg sprata ove skupštine i njenu opravku, ali s obzirom da nisu u tu adaptaciju ubrojane i ove sale u kojima bi se održavale sjednice, kako Predstavničkog doma, tako i Doma naroda, i druge sjednice koje imaju. Oni, naročito, koji znaju ovu skupštinu, da bi bilo neophodno da na drugom spratu adaptiramo jednu salu koja je jako podesna za održavanje skupštinskih sjednica, kako Predstavničkog doma, tako i Doma naroda, jer vidite ovo sada novo postavljenje, ono neće biti dovoljno za, tako da kažem, komotan rad Predstavničkog doma, radi toga što je tu mnogo više poslanika i mislim da to nisu toliko velika sredstva da se ta sala ne bi mogla izraditi. A ukoliko bi se ona adaptirala, onda bi to bio sasvim jedan solidan prostor, ne samo za sjednice jednog i drugog doma, već i za druge sjednice zajedničkih institucija koje će se održavati i koje trebaju da se održavaju u ovoj zgradi. I mislim, ja ovo više apelujem, ako mogu tako reći, na Vijeće ministara BiH da se, i kod Evropske unije i kod svih ostalih relevantnih međunarodnih institucija koje nam mogu pomoći, uloži dodatni napor kako bismo što prije došli do adaptacije čitave ove zgrade, a posebno prostora koji nam je neophodno potreban. Hvala.</seg>
+				</u>
+				<u who="#ŠoljićVladimir" ana="#chair" n="ParlaMint-BIH_DN.T2.S04.u185" xml:id="ParlaMint-BA_1999-05-18-0.u185">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u185.seg0">Hvala. Gospodin Silajdžić, izvolite, kopredsjedavajući. 6</seg>
+				</u>
+				<u who="#SilajdžićHaris" ana="#regular" n="ParlaMint-BIH_DN.T2.S04.u186" xml:id="ParlaMint-BA_1999-05-18-0.u186">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u186.seg0">Gospodine predsjedavajući, dame i gospodo, Evo, ispred Vijeća ministara BiH da se zahvalim poslanicima koji su usvojili ove tačke dnevnog reda, kratko, ali vrlo bitno za BiH, naravno, mi smo pripremali Budžet, a Predsjedništvo BiH je predlagač. Što se tiče apela gospodina Čampare, evo, mi smo se ovdje savjetovali dok ste Vi govorili, gospodine Čampara, naravno da mi uvažavamo taj apel, ali da vas obavijestim da smo mi već nešto uradili na tome. Dakle, Evropska unija sva četiri sprata finansira, ima novih 3,800.000, otprilike, eura, što je odobreno. Mi smo, istina, tražili i za ovu drugu zgradu, za sada je to samo na zahtjevima, sugestijama, molbama, itd. Međutim, nadam se da će i to jednog dana biti, i ova druga zgrada koja je u okviru kompleksa da bude osposobljena za funkciju. Sa druge strane, ova dvorana, nažalost, ne ulazi u ovu sumu o kojoj ste govorili, naravno da ćemo u neka bolja vremena pokušati obezbijediti sredstva i za tu dvoranu. Hvala lijepo.</seg>
+				</u>
+				<u who="#ŠoljićVladimir" ana="#chair" n="ParlaMint-BIH_DN.T2.S04.u187" xml:id="ParlaMint-BA_1999-05-18-0.u187">
+					<seg xml:id="ParlaMint-BA_1999-05-18-0.u187.seg0">Hvala, gospodine Silajdžiću. Bit će malo neobično ovima koji prate ove sjednice, jer ovo je jedini dom koji nije utvrđivao dan vremena dnevni red (?), ali imat ćemo prilike. Zahvaljujem na radu, ova sjednica je zaključena. Sjednica je završila sa radom u 14.30 sati. Kraj</seg>
+				</u>
+			</div>
+			</body>
+	</text>
+</TEI>
