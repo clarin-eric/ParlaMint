@@ -1,692 +1,911 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#covid #parla.sitting" xml:lang="nl" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-09 [ParlaMint]</title>
-        <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-09 [ParlaMint]</title>
-        <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 86, Session 3 (2021-06-09)</title>
-        <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 86, Session 3 (2021-06-09)</title>
-        <meeting ana="#parla.lower #parla.meeting.regular" corresp="#TK" n="86" xml:lang="en">Meeting 86</meeting>
-        <meeting ana="#parla.lower #parla.session" corresp="#TK" n="3" xml:lang="en">Session 3</meeting>
-        <meeting ana="#parla.lower #parla.term #TK.29" corresp="#TK" n="29-lower" xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
-        <meeting xml:lang="en" ana="#parla.lower #parla.sitting" corresp="#TK" n="2021-06-09">Sitting 2021-06-09</meeting>
-        <respStmt>
-          <persName>Ruben van Heusden</persName>
-          <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
-        </respStmt>
-        <funder>
-          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-        </funder>
-      </titleStmt>
-      <editionStmt>
-        <edition>2.0</edition>
-      </editionStmt>
-      <extent>
-        <measure unit="speeches" xml:lang="nl" quantity="101">101 toespraken</measure>
-        <measure unit="speeches" xml:lang="en" quantity="101">101 speeches</measure>
-        <measure unit="words" xml:lang="nl" quantity="7175">7175 woorden</measure>
-        <measure unit="words" xml:lang="en" quantity="7175">7175 words</measure>
-      </extent>
-      <publicationStmt>
-        <publisher>
-          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
-          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-        </publisher>
-        <idno type="handle">http://hdl.handle.net/11356/1388</idno>
-        <availability status="free">
-          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
-        </availability>
-        <date when="2021-02-01">2021-02-01</date>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>
-          <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
-          <idno type="URI">https://www.tweedekamer.nl/</idno>
-          <date when="2021-06-09">2021-06-09</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p xml:lang="en">
-          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-        </p>
-      </projectDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="seg" occurs="123"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="u" occurs="101"/>
-          <tagUsage gi="note" occurs="182"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-    <profileDesc>
-      <settingDesc>
-        <setting>
-          <name type="address">Binnenhof</name>
-          <name type="city">Den Haag</name>
-          <name key="NL" type="country">The Netherlands</name>
-          <date when="2021-06-09">2021-06-09</date>
-        </setting>
-      </settingDesc>
-    </profileDesc>
-  </teiHeader>
-  <text ana="#covid" xml:lang="nl">
-    <body>
-      <div type="debateSection">
-        <head>Hersteloperatie kinderopvangtoeslag</head>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u1">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg1">Vanaf vandaag is weer publiek welkom op de tribune. Ik vind het fijn om u hier te zien, zeker ook bij dit debat: een korte afronding van een commissiedebat dat zo belangrijk voor u is. Hartelijk welkom vandaag in deze Kamer. Aan de orde is het debat over de hersteloperatie kinderopvangtoeslag. De leden hebben twee minuten om hun moties in te dienen dan wel hun korte vragen te stellen.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg2">Het woord is als eerste aan de heer Alkaya van de SP. Natuurlijk heet ik ook de staatssecretaris van harte welkom.</seg>
-        </u>
-        <note type="speaker">De heer Alkaya (SP)</note>
-        <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u2">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg3">Voorzitter, dank u wel. Er gaat helaas nog veel mis bij de Uitvoeringsorganisatie Herstel Toeslagen. Er worden verkeerde gegevens gedeeld met gerechtsdeurwaarders. Er worden verkeerde brieven gestuurd. Er is onduidelijke communicatie. We hebben daar urenlang over gedebatteerd. In al die uren heb ik eerlijk gezegd geen seconde het gevoel gehad dat de staatssecretaris de ernst van de situatie inziet. Zij is eigenlijk wel tevreden met hoe het gaat. Ze heeft urenlang aan ons verteld dat het eigenlijk wel meevalt en dat het wel goed gaat. Alle adviezen van de Nationale ombudsman en de Rekenkamer en alle signalen die we hebben overgebracht, leken niet te helpen. Vandaar de volgende motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat zowel de Algemene Rekenkamer als de Nationale ombudsman zich zorgen maakt over de Uitvoeringsorganisatie Herstel Toeslagen;</note>
-          <note type="comment">constaterende dat er veel fouten worden gemaakt in de organisatie, met grote gevolgen voor gedupeerde ouders;</note>
-          <note type="comment">van mening dat de integrale beoordeling en de compensatie voor alle geleden schade door ouders te lang duren, evenals het krijgen van inzage van gedupeerden in hun eigen dossiers met hun persoonlijke gegevens;</note>
-          <note type="comment">betreurt het feit dat er in de uitvoeringsorganisatie onder leiding van de staatssecretaris van Financiën - Toeslagen en Douane zo veel fouten worden gemaakt en dat de integrale beoordeling van gedupeerden zolang duurt;</note>
-          <note type="comment">verzoekt de regering haast te maken met de pilots om gedupeerden binnen één dag op één plek te beoordelen, deze werkwijze versneld te evalueren en voor september 2021 landelijk uit te rollen als die beter blijkt te werken,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Alkaya.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-827</note>
-        </u>
-        <note type="comment">Dank u wel, meneer Alkaya. U mag de motie hier inleveren. Dan vraag ik mevrouw Inge van Dijk van het CDA om vast in de richting van het spreekgestoelte te komen, terwijl dat wordt schoongemaakt.</note>
-        <note type="speaker">Mevrouw Inge van Dijk (CDA)</note>
-        <u who="#IngevanDijk" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u3">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg4">Dank je wel, voorzitter. We hebben twee weken geleden een lang debat gevoerd met de staatssecretaris, maar we hebben toch nog wel een aantal vragen. We begrijpen dat ouders niet door de lichte toets zijn gekomen bij afwezigheid of onvolledigheid van contra-informatie van kinderopvanginstellingen. Klopt dat? Onlangs schreef de staatssecretaris in een brief dat in veel gevallen de oorsprong van vermeldingen in de FSV niet herleidbaar is of vanwege privacyredenen niet gedeeld kan worden met de gedupeerden. Hoe wil de staatssecretaris de werkelijke schade van gedupeerden beoordelen als deze informatie niet bekend is? Hoe staat het met het onderzoek van PwC naar de memo-Palmen? Is de staatssecretaris bereid om tussentijdse bevindingen van het onderzoek naar de Kamer te sturen? En hoe is tot nu toe de opvolging geweest van het onderzoek van de Autoriteit Persoonsgegevens uit 2020, waarvan de conclusie was dat de Belastingdienst heeft gediscrimineerd?</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg5">Dan hebben we ook nog twee moties.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">overwegende dat er een grote instroom is van mensen die zich aanmelden voor de compensatieregeling en de tegemoetkoming opzet/grove schuld, die eveneens is uitgebreid naar andere toeslagen;</note>
-          <note type="comment">overwegende dat mensen zich tot 1 januari 2024 kunnen aanmelden als zij denken in een van deze categorieën te vallen;</note>
-          <note type="comment">constaterende dat de huidige Uitvoeringsorganisatie Herstel Toeslagen, maar ook de Commissie Werkelijke Schade met grote capaciteitsproblemen kampen en de beoordeling van dossiers in verschillende stadia lang duurt;</note>
-          <note type="comment">verzoekt de regering op basis van instroomprognoses een bestcase- en een worstcasescenario-langetermijnplanning te maken, zodat inzicht ontstaat in de benodigde capaciteit voor een zo snel mogelijke behandeling van de instroom en hierop flexibel kan worden aangepast,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Inge van Dijk, Kat, Idsinga en Grinwis.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-828</note>
-        </u>
-        <note type="speaker">Mevrouw Inge van Dijk (CDA)</note>
-        <u who="#IngevanDijk" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u4">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg6">Dan de tweede motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">overwegende dat er een grote maatschappelijke druk ligt op het snel herstellen van het leed dat gedupeerde toeslagouders (inclusief ex-partners en kinderen) en gedupeerden van huur- en zorgtoeslag en kindgebonden budget (niet-KOT) is aangedaan, en regelingen hiervoor van grote betekenis zijn voor de gedupeerden;</note>
-          <note type="comment">constaterende dat de UHT met de Catshuisregeling en de bijna gereedstaande brede schuldenaanpak voor een enorme organisatorische opgave staat waarbij er fouten worden gemaakt;</note>
-          <note type="comment">overwegende dat het komen tot een uitvoerbare en juridisch houdbare brede schuldenaanpak hoge prioriteit heeft en dat daarbij ook oog is voor de verschillende situaties van de ouders;</note>
-          <note type="comment">overwegende dat het onwenselijk is als nieuwe of meer problemen ontstaan bij gedupeerden of uitvoeringsorganisaties;</note>
-          <note type="comment">overwegende dat deze regelingen grote implicaties voor de rijksbegroting kunnen hebben en daarom een integraal beeld van de financiële consequenties van de regelingen wenselijk is;</note>
-          <note type="comment">verzoekt de regering een uitvoerbare en juridisch houdbare brede schuldenaanpak voor gedupeerden als eerste prioriteit te stellen, scenario's of mogelijkheden voor de kindregeling, de ex-partnerregeling en niet-KOT voor het reces met de Kamer te delen en te bespreken, en daaruit volgend alleen zaken ter besluitvorming inzake de kindregeling, de ex-partnerregeling en niet-KOT voor te leggen die voorzien zijn van een grondige uitvoeringstoets bij alle betrokken partijen en een toets op juridische houdbaarheid;</note>
-          <note type="comment">verzoekt de regering daarbij een helder overzicht te geven van de implicaties voor de rijksbegroting voor de komende jaren,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Inge van Dijk, Kat, Idsinga en Grinwis.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-829</note>
-        </u>
-        <note type="comment">Dank. Dan is het woord aan mevrouw Kat. De zaken worden hier nog even schoongemaakt.</note>
-        <note type="speaker">Mevrouw Kat (D66)</note>
-        <u who="#HülyaKat" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u5">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg7">Dank u wel, voorzitter. Geen maidenspeech, maar wel een tweetal moties vandaag. We hebben in het commissiedebat aandacht gevraagd voor de financiële regelingen, maar ook voor ondersteuning van de ouders. Vanuit die gedachtes hebben we twee aandachtspunten. We hebben eerst een motie voor ondersteuning van ouders in het buitenland bij re-integratie op de arbeidsmarkt.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">overwegende dat het kabinet heeft toegezegd om de ondersteuning voor gedupeerde ouders in het buitenland verder uit te werken, bijvoorbeeld om een goede terugkeer naar Nederland mogelijk te maken;</note>
-          <note type="comment">overwegende dat deze ouders door de toeslagenaffaire een gat op hun cv hebben of hun opleiding hebben afgebroken;</note>
-          <note type="comment">verzoekt het kabinet als onderdeel van deze verdere uitwerking te zorgen dat deze ouders extra ondersteuning krijgen bij de re-integratie op de arbeidsmarkt, bijvoorbeeld door extra loopbaanbegeleiding, cursussen, opleidingen en coaching aan te bieden,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Kat, Snels, Idsinga, Inge van Dijk, Van Raan en Grinwis.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-830</note>
-        </u>
-        <note type="speaker">Mevrouw Kat (D66)</note>
-        <u who="#HülyaKat" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u6">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg8">Voorzitter. Dan een andere motie, over een vangnet voor ondersteuning van ouders bij wonen, werken, financiën, zorg en gezin.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">overwegende dat de gedupeerde ouders door gemeenten worden ondersteund op de leefgebieden wonen, werk, financiën, zorg en gezin, bijvoorbeeld bij behoefte aan extra psychosociale hulp;</note>
-          <note type="comment">overwegende dat het belangrijk is dat deze ondersteuning toegankelijk en toereikend is, ook voor ouders die nu in het buitenland zitten;</note>
-          <note type="comment">verzoekt het kabinet om samen met gemeenten in kaart te brengen hoe de ondersteuning bij wonen, werk, financiën, zorg en gezin wordt ingevuld, of deze ondersteuning toegankelijk en toereikend is en tegen welke knelpunten gemeenten, ouders en andere betrokkenen aanlopen;</note>
-          <note type="comment">verzoekt het kabinet om samen met gemeenten te zorgen dat het voor gedupeerde ouders duidelijk is waar ze met vragen, zorgen en klachten over deze ondersteuning terechtkunnen;</note>
-          <note type="comment">verzoekt het kabinet om de Kamer regelmatig over eventuele knelpunten te informeren en samen met gemeenten voorstellen te doen om deze op te lossen,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Kat, Idsinga, Inge van Dijk, Snels, Nijboer en Grinwis.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-831</note>
-        </u>
-        <note type="speaker">Mevrouw Kat (D66)</note>
-        <u who="#HülyaKat" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u7">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg9">Dank u wel.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u8">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg10">U ook bedankt. Dan is nu het woord aan de heer Snels van GroenLinks.</seg>
-        </u>
-        <note type="speaker">De heer Snels (GroenLinks)</note>
-        <u who="#BartSnels" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u9">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg11">Dank u wel, voorzitter. Enkele weken geleden hadden wij een belangrijk debat over de hersteloperatie. Daar zijn grote zorgen over. Het lijkt steeds complexer te worden. Er zijn steeds meer gedupeerde ouders. Daar hebben we veel vragen over gesteld. Er was ook tegelijkertijd enige frustratie omdat we het debat niet af konden maken en we geen tweede termijn meer hadden. Dat betekent dat we meer dan in de commissie voor Financiën gebruikelijk is heel veel moties moeten indienen om ook aan die zorgen tegemoet te komen, maar het is ook goed dat we binnenkort weer een debat hebben.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg12">Voorzitter. Ik heb verschillende moties meegetekend vanuit de verschillende aandachtspunten in het debat. Ik heb één eigen motie. Die gaat over de zorgen die ik heb bij de 10.000 ouders die voorlopig zijn afgewezen voor de Catshuisregeling. Die groep zal inmiddels wel groter zijn.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat ongeveer 10.000 ouders op dit moment niet in aanmerking komen voor de Catshuisregeling van €30.000;</note>
-          <note type="comment">constaterende de signalen van een deel van deze ouders dat zij onterecht niet in aanmerking zijn gekomen voor de Catshuisregeling of dat zij bij andere toeslagen onterecht gedupeerd zijn door de Belastingdienst;</note>
-          <note type="comment">overwegende dat het moratorium van private schulden voor deze gehele groep ouders per direct is afgelopen, en zij nu alweer geconfronteerd wordt met invorderingen en gerechtsdeurwaarders, met in sommige gevallen schrijnende situaties tot gevolg;</note>
-          <note type="comment">verzoekt de regering te bezien hoe de ongeveer 10.000 nu niet in aanmerking komende ouders benaderd kunnen worden en, mocht hun eigen verhaal daar aanleiding toe geven, alsnog een forfaitaire tegemoetkoming uit te keren;</note>
-          <note type="comment">verzoekt de regering te bezien hoe schrijnende gevallen in deze groep van ongeveer 10.000 ouders geholpen kunnen worden, alvorens voor hen via de integrale beoordeling, een compensatieregeling voor andere toeslagen of anderszins, een structurele oplossing wordt gevonden,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Snels, Kat en Grinwis.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-832</note>
-        </u>
-        <note type="comment">Hartelijk dank. Dan komen we bij de heer Grinwis van de ChristenUnie.</note>
-        <note type="speaker">De heer Grinwis (ChristenUnie)</note>
-        <u who="#PieterGrinwis" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u10">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg13">Voorzitter, dank u wel. Ik benijd de staatssecretaris niet, maar haar lot valt natuurlijk in het niet bij dat van de vele gedupeerde ouders en hun kinderen. Hun moet recht worden gedaan. Daarom steun ik een aantal moties van collega's, bijvoorbeeld de motie van collega Snels die hij zojuist indiende. Ik wil dat onterecht niet door de lichte toets gekomen ouders, een heel aantal van de 10.000, een mooie zomer tegemoetgaan, zonder angst voor deurwaarders op de stoep. In lijn met de motie van collega Snels doe ik een oproep aan de staatssecretaris: doe wat nodig is; doe wat u kunt.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg14">Dan mijn moties.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat de Commissie Werkelijke Schade op dit moment geen uitspraken publiceert;</note>
-          <note type="comment">overwegende dat er geen duidelijke indicatoren en beslissingscriteria bekend zijn op basis waarvan de Commissie Werkelijke Schade te werk gaat en schade in beeld brengt;</note>
-          <note type="comment">overwegende dat de schadeafhandeling mede hierdoor erg intransparant is, terwijl juist openheid en inzichtelijkheid in de beoordeling en uitspraken ouders en hun advocaten helpen om een goede afweging te maken of een gang naar de commissie in hun geval nuttig is;</note>
-          <note type="comment">overwegende dat privacybezwaren op dit gebied te ondervangen zijn, zoals blijkt uit het geanonimiseerd publiceren van uitspraken in het faillissementsrecht en de door de Raad voor de rechtspraak hiertoe ontwikkelde software;</note>
-          <note type="comment">spreekt uit dat de uitspraken van de Commissie Werkelijke Schade geanonimiseerd gepubliceerd dienen te worden, bij voorkeur met terugwerkende kracht vanaf de eerste uitspraak;</note>
-          <note type="comment">verzoekt de regering deze uitspraak van de Kamer met klem over te brengen aan de Commissie Werkelijke Schade, en de Kamer over de uitkomst te informeren,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Grinwis, Snels, Inge van Dijk, Idsinga en Kat.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-833</note>
-        </u>
-        <note type="speaker">De heer Grinwis (ChristenUnie)</note>
-        <u who="#PieterGrinwis" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u11">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg15">Dan mijn tweede motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat het voorgestelde besluit ter compensatie van gedupeerden in de toeslagenaffaire in een schuldentraject — SHV en WSNP — alleen ziet op de schulden die nu bekend zijn dan wel geïnventariseerd in de huidige regeling SHV/WSNP;</note>
-          <note type="comment">overwegende dat de gedupeerde ouders nog altijd het risico lopen op schuldeisers die zich op een later moment alsnog melden;</note>
-          <note type="comment">overwegende dat het in lijn is met de aangenomen motie-Wilders (35510, nr. 7) om deze nagekomen schulden uit de periode van de toeslagenaffaire op een later tijdstip alsnog te vergoeden;</note>
-          <note type="comment">verzoekt de regering deze ouders de garantie te geven dat deze nagekomen schulden op eenzelfde manier gecompenseerd en vergoed zullen worden als de nu bekende schulden,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Grinwis, Snels en Kat.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-834</note>
-        </u>
-        <note type="speaker">De heer Grinwis (ChristenUnie)</note>
-        <u who="#PieterGrinwis" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u12">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg16">En voorzitter, ten slotte een oproep om de persoonlijke zaakbehandelaars meer ruimte te geven en ze met minder bureaucratisch gedoe op te zadelen, met meer beslisruimte, en om hen niet alleen te laten kijken of iemand op die FSV-lijst, die fraudelijst, stond of niet, maar ook om ín die lijst te kunnen kijken wat er nou over die mensen in de FSV-lijst stond, zodat we dat ook echt goed kunnen meewegen in het opmaken en opstellen van het dossier. Graag een toezegging.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u13">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg17">Dank u wel. Dan is het woord aan de heer Idsinga van de VVD-fractie.</seg>
-        </u>
-        <note type="speaker">De heer Idsinga (VVD)</note>
-        <u who="#FolkertIdsinga" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u14">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg18">Voorzitter, dank u wel. We hebben een belangrijk debat gehad, en we zijn er nog niet. In mijn bijdrage in het commissiedebat heb ik samen met anderen zorgen geuit over de duur van de hersteloperatie, de gemaakte fouten die pijnlijk waren, maar ook over bottlenecks die zullen ontstaan in het vervolg van de procedure. En dat alles leidt ertoe dat ouders te lang in onzekerheid verblijven. Vandaar de volgende motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat de hersteloperatie kinderopvangtoeslag in de huidige vorm een aantal opeenvolgende stappen bevat, bestaande uit afzonderlijke toets- en beslismomenten;</note>
-          <note type="comment">constaterende dat het huidige proces reeds traag verloopt en gepaard gaat met pijnlijke fouten;</note>
-          <note type="comment">constaterende dat verdere bottlenecks dreigen te ontstaan in de opeenvolgende stappen, waardoor gedupeerden nog langer moeten wachten totdat het hele proces is doorlopen;</note>
-          <note type="comment">verzoekt de regering om zo spoedig mogelijk concreet aan de Kamer voor te leggen wat volgens haar nodig is om de hersteloperatie structureel op te schalen of alternatieven voor te stellen, zoals: het in elkaar schuiven van afzonderlijke processtappen, een meer gedifferentieerde aanpak, verdere mandatering aan partners et cetera, met daarbij uiteraard waarborgen voor een zorgvuldig proces,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Idsinga, Kat, Inge van Dijk en Grinwis.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-835</note>
-        </u>
-        <note type="comment">Dank u wel. Dan gaan we nu naar de heer Edgar Mulder van de PVV-fractie.</note>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u15">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg19">Het oplossen van de problemen van de ouders gaat veel en veel te langzaam. Om er in ieder geval voor te zorgen dat een deel van die ouders binnenkort weer gewoon kan ademhalen, wil de PVV dat de zomermaanden worden besteed aan het in kaart brengen van de schulden die Nederland gaat overnemen. Dus niet opnieuw achter de feiten aan lopen, en vandaar de volgende motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">overwegende dat het kabinet voornemens is om uitvoering te geven aan de aangenomen motie-Wilders (35510, nr. 7) door private schulden over te nemen van gedupeerde ouders;</note>
-          <note type="comment">overwegende dat het kabinet in september 2021 een regeling daartoe wil introduceren;</note>
-          <note type="comment">verzoekt het kabinet onmiddellijk te beginnen met het inventariseren van private schulden van gedupeerde ouders, zodat het mogelijk is om uiterlijk op 1 september 2021 alle private schulden over te nemen,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-836</note>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u16">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg20">Voorzitter. De tweede motie is ook niet onbelangrijk, want het is onacceptabel dat willens en wetens belastinggeld onterecht weggegeven wordt, verspild wordt. Dit moet nu stoppen. Daarom de volgende motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat het ministerie van Financiën zelf heeft vastgesteld dat al vanaf de introductie van de ALO-kop onterecht uitkeringen worden gedaan aan statushouders;</note>
-          <note type="comment">constaterende dat eenzelfde problematiek lijkt te spelen bij andere regelingen, zoals de IACK;</note>
-          <note type="comment">overwegende dat moet worden voorkomen dat door terugvordering van onterecht verstrekt geld een nieuwe toeslagenaffaire ontstaat;</note>
-          <note type="comment">verzoekt de regering om alle onterechte tegemoetkomingen per direct stop te zetten en voor eind 2021 te komen met (reparatie)wetgeving die onbedoelde dan wel onterechte uitkering van belastingen en/of premies tegengaat of voorkomt,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-837</note>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u17">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg21">Hartelijk dank. Dan gaan we nu naar de heer Nijboer van de Partij van de Arbeid.</seg>
-        </u>
-        <note type="speaker">De heer Nijboer (PvdA)</note>
-        <u who="#HenkNijboer" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u18">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg22">Dank u wel, voorzitter. Het debat werd de vorige keer niet afgerond, omdat we tijd tekortkwamen. Sterker nog, we hebben er meer dan een uur bij genomen en toen kwamen we nog niet verder dan de eerste termijn. Ik had daar nog wel één prangende vraag. Er zijn heel veel vragen gesteld, maar één is er wel echt blijven liggen. De staatssecretaris neemt de private schulden over van een groep ouders en scheldt die kwijt. Op zichzelf steunt de PvdA-fractie dat idee. Maar hoe verhoudt dat zich tot de behandeling van de mensen die de afgelopen jaren geen schulden hebben gemaakt of deels schulden hebben gemaakt of ze alweer voor een groot deel hebben terugbetaald? Daar heb ik nog geen antwoord op gehad van de staatssecretaris. Ik heb daar vandaag geen motie over, want we komen er voor de zomer nog een keer over te spreken, maar ik druk de staatssecretaris op het hart dat het wel een beetje uitlegbaar moet zijn naar al die ouders toe. Dat bleek ook uit die hoorzitting. Zelfs de renteverschillen die mensen kregen over de loop der jaren, werden al een groot probleem. Maar dit is nog veel substantiëler. Stel dat je geld hebt geleend van vrienden of dat je ouders hebben bijgesprongen. Dan krijg je helemaal niks, terwijl iemand anders een groot deel kwijtgescholden krijgt. Het gaat over forse bedragen. Dat is echt een probleem, waar de staatssecretaris een fatsoenlijk antwoord op moet hebben. Ik snap best dat dit niet per persoon precies gelijk kan zijn, maar het moet wel een beetje redelijk zijn. Ik heb nog niet het vertrouwen dat dit nu goed geregeld is. Ik vind het wel belangrijk dat dat zo is, ook voor het rechtsgevoel van die ouders. Ik vraag de staatssecretaris om daarop in te gaan.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg23">Dank u wel, voorzitter.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u19">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg24">U ook bedankt. Dan komen we nu bij de heer Azarkan van DENK.</seg>
-        </u>
-        <note type="speaker">De heer Azarkan (DENK)</note>
-        <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u20">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg25">Dank, voorzitter. Ik merk al dat de sfeer toch iets anders is, een beetje terug naar het oude normaal, nu er mensen in de zaal zitten.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat de Commissie Werkelijke Schade vooralsnog een twintigtal zaken heeft kunnen behandelen;</note>
-          <note type="comment">overwegende dat in dit tempo de afhandeling tientallen jaren gaat duren, en de beoogde einddatum van de hersteloperatie in 2024 niet gehaald gaat worden;</note>
-          <note type="comment">verzoekt de staatssecretaris om met een aangepast plan van aanpak te komen om de Commissie Werkelijke Schade in staat te stellen om de hersteloperatie uiterlijk in 2024 af te ronden,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat er een hersteloperatie is ingericht om de gedupeerden van de kinderopvangtoeslag te compenseren voor het aangedane leed;</note>
-          <note type="comment">constaterende dat er ook gastouderbureaus en kinderopvangorganisaties zijn die de dupe zijn van het onrechtmatig handelen van de Belastingdienst;</note>
-          <note type="comment">verzoekt de regering om de ondernemers die aantoonbare schade hebben ondervonden door het onrechtmatig handelen van de Belastingdienst, eveneens financieel te compenseren en ze daar proactief over te informeren,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat de Belastingdienst een geschreven brief voorschrijft als eis om inzage te mogen krijgen in opgenomen persoonsgegevens in de FSV;</note>
-          <note type="comment">overwegende dat het onwenselijk is dat er onnodige belemmeringen opgeworpen worden om inzage te krijgen in iemands eigen gegevens;</note>
-          <note type="comment">verzoekt de staatssecretaris om de inzage in de eigen gegevens op een zo laagdrempelige wijze mogelijk te maken, bijvoorbeeld door dit ook mogelijk te maken door een verzoek aan de Belastingdienst via e-mail of telefonisch of via een gestandaardiseerd digitaal formulier,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat er in 2020 gestart is met een onderzoek naar de zogenaamde fraudelijst FSV, maar dat het tweede deel van dit onderzoek nu al vijftien maanden op zich laat wachten;</note>
-          <note type="comment">overwegende dat dit onderzoek veel te lang duurt en circa 260.000 mensen nu al vijftien maanden in onzekerheid zitten en dat dit leidt tot maatschappelijke onrust;</note>
-          <note type="comment">verzoekt de regering dit onderzoek naar de FSV te versnellen, zodat dit onderzoek uiterlijk op 1 september 2021 opgeleverd kan worden aan de Kamer,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-838</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-839</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-840</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-841</note>
-        </u>
-        <note type="speaker">De heer Azarkan (DENK)</note>
-        <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u21">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg26">Tot slot, voorzitter.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat er tienduizenden burgers zijn die ongekend onrecht is aangedaan door het onrechtmatig handelen van de Belastingdienst;</note>
-          <note type="comment">constaterende dat enkele van deze burgers uit angst voor de Belastingdienst zijn gevlucht naar het buitenland en ze graag zouden willen terugkeren;</note>
-          <note type="comment">verzoekt de regering om voor deze groep een specifiek plan van aanpak te ontwikkelen om deze groep Nederlanders te ondersteunen bij hun terugkeer naar Nederland,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-842</note>
-        </u>
-        <note type="speaker">De heer Azarkan (DENK)</note>
-        <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u22">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg27">Ik heb precies nul seconden over!</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u23">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg28">Ja, het is heel knap hoeveel moties u binnen zo'n korte tijd kunt indienen! Dan komen we bij de laatste spreker van de Kamer vandaag. Dat is de heer Van Raan van de Partij voor de Dieren.</seg>
-        </u>
-        <note type="speaker">De heer Van Raan (PvdD)</note>
-        <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u24">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg29">Voorzitter, dank u wel. We hebben inderdaad een belangrijk debat gehad. Een van de dingen die enorm naar voren kwamen, was natuurlijk de onzekerheid waar die ouders voortdurend in leven. Daarom is het misschien tijd voor een schaalsprong in de hulpverlening en een andere manier van kijken naar hoe we dit probleem gaan aanpakken. Daarom de volgende motie.</seg>
-          <note type="comment">Motie</note>
-          <note type="comment">De Kamer,</note>
-          <note type="comment">gehoord de beraadslaging,</note>
-          <note type="comment">constaterende dat in de toeslagenaffaire groot leed is ontstaan;</note>
-          <note type="comment">constaterende dat het proces van heling van dat leed individueel is en soms jarenlang kan duren;</note>
-          <note type="comment">constaterende dat dit proces inmiddels ook een intergenerationeel karakter heeft;</note>
-          <note type="comment">constaterende dat het voor helingsproces goed is om de gedupeerde ouders de zekerheid te geven dat de overheid naast hen staat en hen niet loslaat (vergelijkbaar, maar niet hetzelfde, als bij de manier waarop voor veteranen wordt gezorgd);</note>
-          <note type="comment">constaterende dat een crisisorganisatie die gericht is op zo snel mogelijk schadevergoeding realiseren misschien minder geschikt is om een individueel en waar nodig intergenerationeel traject te begeleiden;</note>
-          <note type="comment">verzoekt de regering het proces van heling centraal te stellen bij het herstellen van de schade voor de slachtoffers van de toeslagenaffaire, en te onderzoeken welk ander type benadering het beste kan bijdragen aan het proces van heling,</note>
-          <note type="comment">en gaat over tot de orde van de dag.</note>
-          <note type="comment">Deze motie is voorgesteld door de leden Van Raan en Simons.</note>
-          <note type="comment">Zij krijgt nr. kst-31066-843</note>
-        </u>
-        <note type="speaker">De heer Van Raan (PvdD)</note>
-        <u who="#LammertvanRaan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u25">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg30">Voorzitter, dank u wel.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u26">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg31">U ook bedankt. Daarmee komen we aan het eind van deze termijn van de Kamer. We gaan tot 10.45 uur schorsen, zodat alle moties en de vragen die zijn gesteld, even goed kunnen worden bekeken.</seg>
-        </u>
-        <note type="comment">De vergadering wordt enkele ogenblikken geschorst.</note>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u27">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg32">Ik geef het woord aan de staatssecretaris.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u28">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg33">Dank u wel, voorzitter. Net als u vind ik het ongelofelijk fijn om te zien dat er weer mensen op de tribune kunnen zijn, zeker ook ouders die ik al vaker heb ontmoet in het afgelopen jaar. Het is goed om te zien dat jullie er weer live bij kunnen zijn. Ik wil eerst ingaan op de vragen die gesteld zijn en daarna de moties van een oordeel vanuit de regering voorzien.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg34">Ik begin met de vraag van mevrouw Van Dijk van het CDA over contra-informatie. Ik begrijp de vraag als volgt. U zegt: als een ouder in eerste instantie niet door de lichte toets is gekomen en dus niet in aanmerking komt voor de Catshuisregeling, of de €30.000, en daar dan signalen over geeft of extra informatie voor aanbiedt, dan is het van belang dat die worden meegewogen in de herbeoordeling daarvan. Dat is precies wat wij van belang vinden om te doen en wat wij ook zullen doen. We hebben een zogenaamd nazorgteam waar ouders naar kunnen bellen en contact mee kunnen opnemen. Die signalen worden dan ook meegenomen. Mocht u iets anders bedoelen, dan kom ik daar graag op terug in de volgende voortgangsrapportage. Laat mij dan vooral weten wat uw vraag is.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg35">Mevrouw Van Dijk stelde ook een vraag over hoe het staat met het onderzoek dat door PwC wordt uitgevoerd naar de notitie-Palmen. Dat onderzoek loopt op dit moment. Ik heb in de laatste voortgangsrapportage aangegeven dat ik in de volgende iets meer ga vertellen over de planning daarvan. Het is uiteraard aan de onderzoekers om te bepalen hoeveel tijd ze nodig hebben om helderheid te krijgen over de vragen die we hun hebben meegegeven om uit te zoeken. Ik kom daar dus op terug in onze rapportage, die we op 22 juni naar uw Kamer zullen toesturen.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg36">Dan de vraag van mevrouw Van Dijk over de stand van zaken van het onderzoek van de Autoriteit Persoonsgegevens. Ik heb daar op dit moment geen nadere informatie over. Wij wachten nog op een handhavingsbesluit van de Autoriteit Persoonsgegevens. Over alles wat te maken heeft met het onderwerp waar dit AP-onderzoek over gaat, zal ik u op 22 juni meer kunnen vertellen.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg37">Dan was er nog de vraag van mevrouw Van Dijk hoe je werkelijke schade kunt bepalen als een ouder niet weet of hij wel of niet in het FSV is opgenomen. Uiteraard kijkt de Commissie Werkelijke Schade naar alle aspecten. Maar als het specifiek over het FSV gaat — daar zijn vandaag meerdere vragen over gesteld — verwijs ik graag door naar het debat van 22 juni dat daar specifiek over gaat. Dan kunnen we ook meer in detail ingaan op de stand van zaken van alles rondom het thema FSV. Dat zal mijn collega Hans Vijlbrief dan doen.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg38">Dan de vraag van de heer Grinwis van de ChristenUnie. Hij wilde een toezegging over minder onnodige bureaucratie. Nou, daar kan natuurlijk helemaal niemand tegen zijn, en ik als laatste. Het is namelijk ongelofelijk belangrijk dat we in het proces van de beoordeling van de dossiers van alle ouders en de situaties daarbij, zo efficiënt en zo goed mogelijk werken. Tegelijkertijd is dat altijd weer een afweging. Aan de ene kant hebben we het dan over de goede dienstverlening. Ik kom daar straks nog op terug naar aanleiding van de vraag van de heer Van Raan. Maar we willen ook zorgen dat we het zorgvuldig doen en geen fouten maken. Uw Kamer heeft daar vandaag ook een paar keer iets over gezegd. We moeten ook in lijn werken met wat we in de Kamer besproken hebben, namelijk dat er een afweging is tussen snelheid en zorgvuldigheid. Ik kom er zo meteen nog even op terug, maar ik heb eerder ook aangegeven dat wij in het kader van de pilots die we deze zomer gaan doen, ook willen kijken of we bijvoorbeeld onze zaakbehandelaren een wat sterkere rol kunnen geven. Helder is dat ongewenste bureaucratie natuurlijk moet worden vermeden.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u29">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg39">Daarover is een vraag van de heer Grinwis van de ChristenUnie.</seg>
-        </u>
-        <note type="speaker">De heer Grinwis (ChristenUnie)</note>
-        <u who="#PieterGrinwis" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u30">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg40">Ja, twee vragen. Een. Dank allereerst aan de staatssecretaris. Komt er in de volgende voortgangsrapportage dan informatie over die vermindering van bureaucratie, minder lagen en meer beslisruimte, en hoe dat in de praktijk uitwerkt voor de persoonlijk zaakbehandelaars?</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg41">Mijn andere vraag betrof de FSV. Moet ik dan ook bij collega Vijlbrief zijn, of kan de staatssecretaris daar iets over zeggen? Hebben die persoonlijk zaakbehandelaars bij het opstellen van hun integrale beoordeling voortaan dan ook toegang tot wat er in de FSV is opgenomen? Dat is toch wel wezenlijk om een goede schade-inschatting te kunnen maken.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u31">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg42">Even die twee vragen uit elkaar trekken. Wat de persoonlijk zaakbehandelaren en het vraagstuk van onnodige bureaucratie betreft: wij gaan in een de pilots die we aan het uitwerken zijn, kijken of we niet de stap kunnen maken tussen een zaakbehandelaar die met de ouder aan de slag gaat en vervolgens een commissie die nog een oordeel geeft over wat de zaakbehandelaar heeft geconstateerd. We kijken of twee zaakbehandelaren samen tot een oordeel kunnen komen in een dossier en daarmee tempo kunnen bereiken. Vóór 22 juni hebben we die pilot nog niet helemaal uitgevoerd, maar we geven zeker meer informatie over de vormgeving van die pilots en wat we daarmee beogen.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg43">Het andere punt. Ja, een persoonlijk zaakbehandelaar kan voor de ouder — en gaat dat ook voor de ouder doen — opzoeken of iemand geregistreerd stond in de FSV en wat de aard van die registratie is.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u32">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg44">Daarover is nog een korte vervolgvraag.</seg>
-        </u>
-        <note type="speaker">De heer Grinwis (ChristenUnie)</note>
-        <u who="#PieterGrinwis" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u33">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg45">Ja, dank, ook aan de staatssecretaris. Dus die laatste woorden van de staatssecretaris over die aard van de registratie betekenen dat de persoonlijk zaakbehandelaar zelf in de FSV kan kijken wat daar over de cliënt staat?</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u34">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg46">Als het zo heel precies is: we hebben heel duidelijk met uw Kamer afgesproken wie wel en niet in de FSV-voorziening mogen kijken, namelijk dat dat maar heel weinig mensen mogen zijn. We hebben daarvoor een zodanige mogelijkheid gecreëerd dat de zaakbehandelaar de ouder kan informeren, ook over die FSV-registratie. Dat hebben we niet gedaan door iedereen toegang te geven tot het FSV-systeem, maar we hebben daarvoor een oplossing bedacht die ervoor zorgt dat de informatie "stond u in FSV en wat stond er over u in FSV" kan worden gedeeld met de ouder.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg47">Dan de vraag van de heer Nijboer over de aanpak van de schulden en het verschil in behandeling tussen ouders die op dit moment nog wel en ouders die op dit moment geen schulden meer hebben. Dat is natuurlijk een reëel dilemma. Ik ga wat meer aangeven over die schuldenaanpak, ook over hoe we willen omgaan met private schulden, bijvoorbeeld in combinatie met het thema informele schulden waar de heer Nijboer het over had. Dat zijn schulden bij vrienden en familie, naast de schulden die er nog zijn, bijvoorbeeld in de vorm van kredieten bij banken. Daar kom ik graag bij u op terug, maar ik snap het punt dat hij aangeeft heel duidelijk. Want er is nu een aanpak die geldt voor mensen die op dit moment nog schulden hebben, niet voor mensen die inmiddels die schulden al hebben afbetaald.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg48">Dan heb ik volgens mij de vragen die gesteld zijn beantwoord en ga ik naar de moties toe. Ik begin met de motie op stuk nr. 827 van de heer Alkaya, die twee dingen aan de regering vraagt, namelijk haast te maken met de pilots voor gedupeerden om hen in één dag op één plek te beoordelen en daarnaast om die werkwijze zo snel te evalueren dat we die ook voor september landelijk kunnen uitrollen. Met dat eerste deel gaan wij daadwerkelijk aan de slag, want die pilots zijn we aan het uitwerken en opstarten. Daarbij speelt dus ook dat we het op één dag en op één plek doen; zo veel mogelijk op één dag als dat kan, ook afhankelijk van wat de wensen van een ouder zijn. Maar als u vraagt "kunt u dat dan allemaal al uitwerken, evalueren en ook landelijk uitrollen voor september", dan is mijn antwoord dat ik dat niet kan doen. Dus om die reden ga ik deze motie ontraden, hoewel wij dus wel degelijk met deze pilots, ook in deze vorm, aan de slag gaan. Ik wil namelijk zorgen dat we die nieuwe werkwijze ook echt zorgvuldig bekijken. We hebben in dit dossier gemerkt dat het nodig is om goed en zorgvuldig te kijken, ook als je een nieuwe werkmethode introduceert. Daar willen we natuurlijk ook geen onnodige vertraging in, maar alles voor september is wat ons betreft niet een haalbare kaart.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u35">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg49">De motie op stuk nr. 827 krijgt het oordeel ontraden.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u36">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg50">Ja.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg51">Dan de motie-Inge van Dijk c.s. op stuk nr. 828 over de instroomprognoses en een goede langetermijnplanning op basis van alle inzichten die we verkregen hebben en nog steeds krijgen. In het debat heb ik aangegeven dat nog iedere dag vele ouders zich bij ons melden als gedupeerden; inmiddels meer dan 40.000. Die motie geef ik graag oordeel Kamer. Op de details kom ik terug in de voortgangsrapportage.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u37">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg52">De motie op stuk nr. 828 krijgt oordeel Kamer. Er is nog een vraag van de heer Alkaya over de motie op stuk nr. 827.</seg>
-        </u>
-        <note type="speaker">De heer Alkaya (SP)</note>
-        <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u38">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg53">Wil de staatssecretaris überhaupt geen deadline voor zichzelf stellen, of is september net onhaalbaar? Ik denk dat wij het met elkaar eens zijn dat het niet over twee jaar moet zijn en dat we de gedupeerden zo snel mogelijk moeten compenseren. Heel veel mensen, ik ook, zijn ervan overtuigd dat dit de manier is. Als de staatssecretaris zegt "niet september, maar oktober", wil ik daar best over nadenken, maar ik heb het gevoel dat de staatssecretaris überhaupt geen deadline voor zichzelf wil stellen.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u39">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg54">Ik wil voor mezelf in ieder geval geen onhaalbare deadline stellen, want daar heeft helemaal niemand iets aan. In de eerste plaats hebben de ouders daar niets aan, maar ook wij niet in ons debat. Ik vind het van belang dat wij die pilots starten, dat we die goed uitvoeren, dat we die ruim laten zijn en dat we er voldoende mensen aan laten deelnemen, om ervoor te zorgen dat we er ook conclusies uit kunnen trekken. Dan moeten we ze nog verder uitwerken. Ik vind het dus lastig om met u een deadline af te spreken. Ik ga er zeker niet meer tijd voor nemen dan nodig is, maar het is niet verstandig om er nu een deadline aan te hangen. Dat is eigenlijk mijn belangrijkste punt. Ik ga er natuurlijk wel voor zorgen dat uw Kamer goed op de hoogte is van hoe we de pilots gaan vormgeven, wanneer we die uitvoeren en wanneer we verwachten de eerste conclusies te kunnen trekken.</seg>
-        </u>
-        <note type="speaker">De heer Alkaya (SP)</note>
-        <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u40">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg55">De staatssecretaris begint haar beantwoording met "ik wil geen onhaalbare deadline stellen", maar eindigt dan toch met "ik wil überhaupt geen deadline stellen". Ik wil de staatssecretaris de kans bieden om mij ervan te overtuigen dat ik ernaast zit. Laat zij dan met een brief komen waarin staat wat volgens haar een haalbare deadline zou zijn. Dat hoeft niet nu, maar wel deze week. Ik hoef alleen maar een datum te weten, die volgens de staatssecretaris een haalbare deadline zou zijn om die pilots landelijk uit te rollen als ze goed blijken te werken. Dan ben ik best bereid om mijn motie aan te passen, als het een redelijke deadline is voor al die tienduizenden families die op compensatie zitten te wachten.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u41">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg56">Ik snap heel goed wat meneer Alkaya probeert te doen. Wij trekken daarbij precies aan dezelfde kant van het touw: hoe kunnen we ervoor zorgen dat die vele ouders die zich bij ons hebben gemeld, zo snel mogelijk helderheid krijgen? Maar het is wat mij betreft onwenselijk om, voordat we überhaupt een pilot hebben uitgevoerd en voordat we weten of het daadwerkelijk gaat helpen, nu al te zeggen dat we dit daadwerkelijk gaan uitrollen en wanneer we dat precies gaan doen. In de volgende voortgangsrapportage, die u op 22 juni, dus over twee weken, krijgt, komen we hier verder op terug. Het lijkt me goed om dan met elkaar te wisselen wat een goede deadline is. U kunt erop vertrouwen dat ik er totaal niet op uit ben om ervoor te zorgen dat iets langer duurt dan nodig is. Sterker nog, de organisatie en ik zijn ervan overtuigd dat snelheid van belang is. Maar we weten ook dat we het zorgvuldig moeten doen. We weten ook dat we aan dienstverlening moeten doen en we weten ook dat het thema heling, zoals door de heer Van Raan genoemd, een belangrijk onderdeel is van dit traject. Dus als u zegt "ik wil deze motie eventueel aanpassen", zou ik zeggen: laten we even wachten tot we het debat daarover hebben naar aanleiding van de voortgangsrapportage, want dan kunnen we met meer inzicht met elkaar over dit onderwerp spreken.</seg>
-        </u>
-        <note type="speaker">De heer Alkaya (SP)</note>
-        <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u42">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg57">Tot slot. Ik heb niet het gevoel dat de staatssecretaris bewust het proces aan het traineren of vertragen is. Ik heb wel mijn twijfels of zij echt haar uiterste best doet om het proces te versnellen en de fouten die onnodig gemaakt worden, eruit te halen. Nu ook weer vertraagt het proces ...</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u43">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg58">Uw vraag is?</seg>
-        </u>
-        <note type="speaker">De heer Alkaya (SP)</note>
-        <u who="#MahirAlkaya" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u44">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg59">Mijn vraag is dus: is de staatssecretaris bereid om nog deze week met een brief te komen met een haalbare deadline, als september niet haalbaar zou zijn? Als dat niet zo is, moet ik toch echt de conclusie trekken dat de staatssecretaris zich überhaupt niet wil binden aan een deadline en dat dit weer veel te lang gaat duren.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u45">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg60">Het spijt me dat u niet de overtuiging heeft dat ik ongelofelijk m'n best doe om dit dossier zo goed mogelijk op te lossen, want dat doe ik met hart en ziel en met alles wat in mij is. U vraagt aan mij om van nog niet eens uitgevoerde pilots al te zeggen wanneer we ze hebben uitgevoerd en wanneer de uitkomsten, die we nog niet kennen, zijn geïmplementeerd. U vraagt dit voorafgaand aan het feit of we weten wat überhaupt de uitkomst van de pilots zal zijn, hoe effectief ze zijn en hoeveel tijd ze kosten. Neem bijvoorbeeld zo'n behandeling in één dag, want een behandeling in één dag is niet alleen maar één dag met een ouder; er zitten een voor- en een natraject aan vast. Daarover stelt u mij vragen. Als ik daarop deze week een antwoord ga geven, wordt het een antwoord dat nergens op slaat. Ik vind dat onverstandig. Nogmaals, we werken met hart en ziel en met alles wat we hebben om alle ouders te helpen, iedere dag en iedere minuut. Ik zou bijna zeggen "dag en nacht en ook in het weekeinde". U vraagt mij nu iets wat ik niet kan waarmaken. Wat ik wel kan waarmaken is het starten van die pilots, u daar goed over informeren en aangeven wat we aan het doen zijn. Ik kan ook zorgen dat we de conclusies zo snel mogelijk trekken. Maar het voor september uitrollen gaat ons helaas niet lukken.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg61">Dan ga ik naar de motie van mevrouw Van Dijk over de uitvoerbaarheid en de juridische houdbaarheid van de schuldenaanpak. In de komende voortgangsrapportage zullen we met elkaar spreken over de richting van een aantal regelingen die wij aan het uitwerken zijn. Die gaan onder andere over kinderen, ex-partners, niet-KOT en schulden. De richting en de dilemma's die wij als regering kiezen, willen wij graag met de Kamer delen. Sterker nog, dat is een belofte die ik u heb gedaan om te zorgen dat we inzicht bieden in hoe we deze regelingen zouden willen vormgeven. Daarbij is het van belang dat er keuzes te maken zijn. Die keuzes en dilemma's wil ik graag met u delen en daarover met u in gesprek gaan. U zegt dat daarbij ook goede uitvoeringstoetsen nodig zijn. Die zijn natuurlijk ook nodig. We gaan die de komende tijd ook verder uitwerken. We zullen dat niet allemaal voor 22 juni doen, maar we zullen er wel voor zorgen dat we inzicht bieden in de budgettaire consequenties. Deze motie wil ik graag oordeel Kamer geven.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u46">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg62">De motie op stuk nr. 829 krijgt oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u47">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg63">Dan de motie op stuk nr. 830 over ouders in het buitenland en hulp bij re-integratie op de arbeidsmarkt. Dit is een motie van mevrouw Kat en anderen. Die motie gaat over de thematiek van ouders die op dit moment in het buitenland verblijven en daar voor een deel terecht zijn gekomen als gevolg van de problemen met de kinderopvangtoeslag en roept op om hen te helpen en te ondersteunen. Die motie geef ik oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u48">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg64">De motie op stuk nr. 830 krijgt oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u49">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg65">Dan de motie op stuk nr. 831: een vangnet voor de ondersteuning van ouders bij wonen, werk, financiën, zorg en gezin. Dit is ook een motie van mevrouw Kat en anderen. Die motie neem ik graag mee in het gesprek dat ik daarover voer met gemeenten die nauw betrokken zijn bij deze heersteloperatie en ook lid zijn van de ministeriële commissie die we hebben voor het herstel van toeslagen. Ik wil deze motie in dit geval oordeel Kamer geven.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u50">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg66">De motie op stuk nr. 831 krijgt oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u51">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg67">Dan de motie van de heer Snels en anderen over ouders die op dit moment niet in aanmerking komen voor de Catshuisregeling om te kijken of we kunnen zorgen dat we hen in ieder geval nog een keer benaderen zodat zij weten dat ze zich nog kunnen melden voor eventuele extra beoordeling en ook hoe we eventuele schrijnende problematiek kunnen aanpakken, bijvoorbeeld ouders die niet in aanmerking komen voor herstel van de kinderopvangtoeslag maar wel degelijk door iets anders gedupeerd zijn ofwel in schuldenproblematiek zitten. Ik zou die motie graag oordeel Kamer willen geven, want ik ben het eens met de heer Snels en wil daar graag mee aan het werk.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u52">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg68">De motie op stuk nr. 832 krijgt oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u53">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg69">Dan de motie van de heer Grinwis over de Commissie Werkelijke Schade. Een deel van deze motie is een spreekt-uitmotie en daarover laat ik het oordeel aan de Kamer. Ik ga uiteraard het verzoek overbrengen aan de Commissie Werkelijke Schade. Ik deel overigens de achtergrond van deze motie, als ik die goed begrijp, dat het van belang is dat er meer inzicht en helderheid komen en transparantie voor mensen, zowel ouders als juridische ondersteuners, over het werken en de werkwijze van de commissie. Ik weet niet of we precies de intentie zoals die hier staat gaan uitwerken, maar ik zal de commissie vragen om vanuit het licht van die transparantie en helderheid ook een voorstel daarvoor te doen. Ik kom daar graag bij u op terug.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u54">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg70">En dan krijgt de motie op stuk nr. 833 oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u55">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg71">Dan krijgt de motie het oordeel Kamer. Nou ja, "oordeel Kamer" is niet aan de orde, want de motie is een "spreekt-uit"-motie.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u56">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg72">De motie spreekt uit en verzoekt. Dat verzoek geeft u oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u57">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg73">Ja, dat deel krijgt oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u58">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg74">Duidelijk. Oordeel Kamer op dat stuk.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u59">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg75">Dan de motie op stuk nr. 834, ingediend door de heer Grinwis en anderen, waarin de regering wordt verzocht de betrokken ouders de garantie te geven dat de nagekomen schulden op eenzelfde manier gecompenseerd en vergoed zullen worden als de nu bekende schulden. We hebben toegezegd dat wij private schulden gaan compenseren voor ouders in die schuldhulpverlening. Breder heeft het kabinet die intentie uitgesproken, maar het is aan uw Kamer om daar een definitief oordeel over te geven. Ik hoop uiteraard op uw steun.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg76">Het stuk over de ouders in de schuldhulpverlening en de Wsnp is in principe tamelijk theoretisch, want als je in een Wsnp-traject zit, is de kans dat je aanvullende schulden maakt niet zo heel groot. Dat is namelijk niet toegestaan als je in de Wsnp zit. Wij hebben heel simpel gezegd dat alle schulden die ouders gemaakt hebben voor 15 februari van dit jaar, zullen worden meegenomen in die schuldenregeling. Dus ook als er dan buiten de schuldentrajecten nog iets aan de hand blijkt te zijn, kunnen die worden meegenomen. De motie krijgt dus oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u60">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg77">De motie op stuk nr. 834 krijgt oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u61">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg78">Dan de motie op stuk nr. 835, van de heer Idsinga en anderen. In die motie wordt de regering verzocht om te kijken of we kunnen opschalen, versnellen en de hersteloperatie op nieuwe manieren kunnen bekijken, om te zien of we daarmee tempo kunnen maken, zeker ook in het licht van een grotere groep mensen dan we een jaar geleden in deze Kamer bespraken — een jaar geleden zeker, maar ook nog recenter. Uiteraard willen we dat doen. We komen daar in de komende voortgangsrapportage, op 22 juni, op terug. Een beetje een winstwaarschuwing: ondanks het feit dat ik deze motie oordeel Kamer wil geven, moeten we natuurlijk nog steeds het proces zorgvuldig uitvoeren. En inmiddels hebben we te maken met veel ouders die zich bij ons gemeld hebben. Dus dat vraagt ook wel tijd. Maar oordeel Kamer voor deze motie.</seg>
-        </u>
-        <note type="speaker">De heer Idsinga (VVD)</note>
-        <u who="#FolkertIdsinga" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u62">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg79">Dank voor het oordeel Kamer. Ik had nog een aanvullende vraag daarover. In de afgelopen dagen hebben zich een aantal ouders gemeld. Die zijn gekomen met de position papers. Ik zou graag aan de staatssecretaris willen vragen om daar ook naar te kijken en om zich ook te laten inspireren door de oplossingen waar de ouders zelf mee komen.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u63">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg80">Dat doe ik graag. Er zal door de herstelorganisatie ook een gesprek gevoerd worden met de betrokken ouders. Het is ook goed om te weten dat er vanuit vier verschillende kanten inspiratie aan ons wordt toegezonden. Daar kijken wij natuurlijk heel graag naar.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u64">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg81">De motie op stuk nr. 835 krijgt het oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u65">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg82">Ja. Dan de motie op stuk nr. 836, ingediend door de heer Mulder. In die motie wordt het kabinet gevraagd of het kabinet onmiddellijk kan beginnen met het inventariseren van de private schulden, zodat de regeling ook kan worden uitgevoerd voor 1 september. Die motie moet ik helaas ontraden, want we kunnen dat niet waarmaken. Ik zou natuurlijk heel graag zo snel mogelijk willen werken, zodat de schulden van de ouders die daarvoor in aanmerking komen, zo snel mogelijk geïnventariseerd kunnen worden en ook kunnen worden kwijtgescholden. Overigens geldt voor de ouders die daarvoor in aanmerking komen op dit moment het moratorium, dus het is niet zo dat zij op dit moment last hebben van die schuldeisers.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg83">U vraagt ons om alles voor 1 september te regelen, maar dat is onhaalbaar. Wij moeten de regeling natuurlijk nog uitwerken. Die zal meelopen in het Belastingplan. En, niet onbelangrijk, tot op de dag van vandaag melden zich ouders. Ook voor die ouders geldt natuurlijk diezelfde regeling, als uw Kamer — ik ben daar even voorzichtig in, naar aanleiding van de opmerkingen die ook de Rekenkamer hierover heeft gemaakt — instemt met deze regeling.</seg>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u66">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg84">De staatssecretaris heeft aangegeven de motie-Wilders voor het overnemen van private schulden te gaan uitvoeren. Zij heeft in het debat van vorige week ook aangegeven dat er in september een regeling aan de Kamer wordt gestuurd. Ik vraag in mijn motie niet om voor 1 september alles af te ronden. Het verzoek is of het inventariseren van de schulden tijdens de zomer kan plaatsvinden, zodat, als wij in september die regeling krijgen en die goedkeuren, gelijk die private schulden kunnen worden overgenomen. Dat is de vraag.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u67">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg85">Dat staat niet letterlijk in de tekst. Er staat: "... zodat het mogelijk is om uiterlijk op 1 september 2021 alle private schulden over te nemen". Dat kunnen we niet waarmaken. Maar wij gaan wel degelijk een proces uitwerken om die inventarisatie van schulden te maken. Dat doen we overigens samen met gemeenten en andere betrokkenen in de schuldhulpverlening. Met ouders samen kijken we welke schulden er in hun geval spelen. In de schuldhulpverleningstrajecten is dat al gedaan, maar bij ouders die niet in de schuldhulpverlening zitten, gaan we hiermee aan de slag. Het feitelijk al kunnen uitvoeren van deze motie is niet mogelijk, maar dat laat onverlet dat we al wel aan de slag gaan en dat we alvast gaan inventariseren.</seg>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u68">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg86">Dus als ik de tekst zo aanpas dat er staat dat voor 1 september in ieder geval de inventarisatie is afgerond, dan kan de staatssecretaris wel instemmen met deze motie.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u69">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg87">Nee, want dan zouden we ervan uitgaan dat we al een vaste groep ouders hebben. Maar iedere dag melden zich nog ouders die ook weer meedoen in dit traject en ook iedere dag weer kunnen er ouders zijn die in aanmerking komen voor een compensatie. Sterker nog, het zijn er behoorlijk veel. Dus dat gaat niet lukken. Maar u mag ervan overtuigd zijn dat we zo snel mogelijk aan het werk gaan met alle ouders waarvan we al weten dat ze gecompenseerd gaan worden. Ook zij hebben aan mij gevraagd, in allerlei vormen en maten, hoe snel zij écht van hun schulden af kunnen zijn. Zij willen natuurlijk niet alleen een moratorium; zij willen graag dat die schulden worden doorgestreept.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u70">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg88">Tot slot, heel kort op dit punt.</seg>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u71">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg89">Ik probeer heel goed te luisteren. Als ik in de motie in die zin aanpas dat voor 1 september de inventarisatie moet zijn afgerond van ouders die zich voor 1 mei hebben gemeld, dan is deze motie dus wél uit te voeren voor u.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u72">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg90">Nee, want voor lang niet alle ouders zal dat lukken. Ik zou dat heel graag willen, maar helaas lukt dat niet. Overigens dank voor uw pogingen om dit nog scherper te krijgen. Maar het is helaas zo dat wij er echt tijd voor nodig hebben om dit samen met gemeenten te kunnen doen. Ik ga u overigens meer vertellen over hoe we dit proces zullen vormgeven en over wat dan de stappen zijn die we hierin kunnen zetten.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u73">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg91">Daarmee heeft u de motie op stuk nr. 836 ontraden.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u74">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg92">Ja.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg93">De motie-Mulder op stuk nr. 837 gaat over het vaststellen van alle onterechte tegemoetkomingen in het kader van de ALO-kopproblematiek. Het gaat dan vooral over een ALO-kop die achteraf onterecht blijkt te zijn en die dan moet worden teruggevorderd. Dit is inderdaad een naar thema. Het is natuurlijk nooit goed en fijn om eerst toeslagen aan iemand uit te keren en dan uiteindelijk tot de conclusie te komen dat die weer moeten worden teruggevorderd. Maar ik ga graag met uw Kamer wat uitgebreider in gesprek over hoe dit precies werkt en welke gevallen er zijn, en vooral ook over wat we doen om dit te voorkomen. Het per direct stoppen, wat u vraagt, is zeer onterecht, want er zijn ook mensen die wel degelijk terecht een ALO-kopuitkering krijgen. Dan zouden we precies gaan doen wat we nu in de kinderopvangtoeslagproblematiek aan het herstellen zijn.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg94">We zijn heel erg zorgvuldig aan het kijken naar oplossingen. Aan de ene kant zorgen we er natuurlijk voor dat deze problematiek zo veel mogelijk wordt voorkomen. Aan de andere kant gaan we niet direct stopzetten. We gaan kijken hoe we dit op een goede manier kunnen uitwerken. Ik ga hier dus graag met uw Kamer over in gesprek, maar ik moet deze motie helaas ontraden.</seg>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u75">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg95">Maar dit is heel ernstig. De staatssecretaris en het hele ministerie constateren zelf al vanaf 2016 dat de uitkeringen onterecht zijn. Ze weten exact wie het zijn. Er wordt in documenten gesproken over de aantallen. De reden is bekend: het gaat om de vraag of een partner wel of geen bsn-nummer heeft. U weet het exact, maar u weigert het stop te zetten. Daarmee creëren we weer de problemen. Alles waardoor we nu meer dan — wat is het? — twee jaar hiermee bezig zijn, wordt opnieuw in werking gezet, omdat de staatssecretaris weigert in te grijpen op een probleem waarvan zij zelf zegt dat het er is.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u76">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg96">Uw vraag is?</seg>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u77">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg97">Regel het! Stop het! Het kan! Opmerking van meneer Asscher: stop met die idioterie. Meneer Asscher zei dat.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u78">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg98">Meneer Mulder, en wat is nu uw concrete vraag aan de staatssecretaris?</seg>
-        </u>
-        <note type="speaker">De heer Edgar Mulder (PVV)</note>
-        <u who="#EdgarMulder" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u79">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg99">Voer deze motie uit! Zet het onmiddellijk stop. Het kan. Het is bekend waar het probleem ligt. Het kan niet zo zijn dat wij over een jaar weer hier staan, alleen omdat de staatssecretaris niets wil doen.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u80">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg100">De staatssecretaris wil heel graag wat doen, maar dan wel iets wat verstandig is. De kern van het verhaal is dat ik graag met u over dit onderwerp nader in gesprek ga. We zijn heel goed aan het kijken naar oplossingen. Dat doe ik overigens ook samen met mijn collega van Sociale Zaken, beter gezegd inmiddels de minister van Sociale Zaken, want er is daar geen staatssecretaris meer. Wij gaan daarmee aan de slag en komen daar graag op terug. Deze motie moet ik helaas ontraden.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u81">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg101">De motie op stuk nr. 837: ontraden.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u82">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg102">Dan ga ik door naar de motie op stuk nr. 838 van de heer Azarkan, om met een aangepast plan te komen om de Commissie Werkelijke Schade in staat te stellen de hersteloperatie uiterlijk in 2024 te kunnen afronden. Die motie krijgt wat mij betreft oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u83">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg103">De motie op stuk nr. 838: oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u84">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg104">Dan de motie op stuk nr. 839, ook van de heer Azarkan. Die gaat over het actief informeren van ondernemers die in de problemen zijn gekomen. Wij hebben eerder al over dit onderwerp gesproken. Voor bureaus die gedupeerd zijn, staat het civielrecht open. Zij kunnen zich ook bij ons melden wanneer zij problemen hebben ondervonden of in de situatie zijn gekomen dat zij zeggen gedupeerd te zijn door het handelen van de Belastingdienst. Die mogelijkheid is er en wordt door een aantal van deze bureaus ook gebruikt. Daarmee wil ik deze motie dan ook ontraden.</seg>
-        </u>
-        <note type="speaker">De heer Azarkan (DENK)</note>
-        <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u85">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg105">Ik wil wel aangeven dat dit ook exact het antwoord was dat is gegeven op vragen die in 2017 en 2018 gesteld zijn door ouders. Als er ouders zijn die zich gedupeerd voelen, kunnen zij zich melden, civielrechtelijk. Ik vind dat onterecht omdat het gaat om het handelen van de Belastingdienst. Dat was aantoonbaar onrechtmatig. Die bureaus zijn er. Toch houd ik de motie nog even aan. Ik wil toch even kijken of ik de motie iets kan aanpassen, dus ik houd deze motie even aan. Maar het gaat hier echt om een groep bureaus die onrecht is aangedaan.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u86">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg106">Op verzoek van de heer Azarkan stel ik voor zijn motie (31066, nr. 839) aan te houden.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg107">Daartoe wordt besloten.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u87">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg108">Dank u wel, voorzitter. Dan ga ik naar de motie op stuk nr. 840 van de heer Azarkan. Die verzoekt om op een laagdrempelige wijze informatie ter beschikking te stellen. Dat gaat over FSV. Wij spraken daar net al over: op 22 juni is daarover een debat met mijn collega Vijlbrief. Ik begrijp de intentie goed van wat hier staat. De vraag is of het mogelijk is om op een makkelijkere manier informatie te krijgen als je zo'n brief hebt ontvangen dat je geregistreerd bent in FSV. Er lijken nog wat juridische haken en ogen aan te zitten of dat ook daadwerkelijk op deze manier kan, maar mijn collega komt daar graag bij u op terug. Ik zou willen voorstellen om deze motie aan te houden tot het debat van 22 juni, want dan kunnen we er ook voor zorgen dat daar antwoord op komt.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u88">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg109">En anders is het oordeel "ontraden"?</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u89">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg110">Anders is het oordeel op dit moment "ontraden", want ik kan niet zien of dit juridisch ook haalbaar is. Ik snap de intentie, maar we moeten er gewoon even naar kijken of dit ook kan.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u90">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg111">De motie op stuk nr. 840: ontraden.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u91">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg112">Of aanhouden, maar daar gaat de heer Azarkan over.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u92">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg113">Dat is aan de indiener.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u93">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg114">De motie op stuk nr. 841, ook van de heer Azarkan, verzoekt de regering om het onderzoek naar FSV te versnellen, zodat het uiterlijk op 1 september opgeleverd kan worden. We hebben aangegeven dat het onze intentie is om dit onderzoek in september af te ronden. Op dit moment is 1 september dus geen haalbare kaart. Om die reden zou ik deze motie moeten ontraden. Overigens verwijs ik hier ook naar het debat van 22 juni met mijn collega Vijlbrief over dit onderwerp.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u94">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg115">Motie op stuk nr. 841: ontraden. Daarover is er een vraag van de heer Azarkan, die nu naar de interruptiemicrofoon snelt.</seg>
-        </u>
-        <note type="speaker">De heer Azarkan (DENK)</note>
-        <u who="#FaridAzarkan" ana="#regular" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u95">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg116">Voorzitter. Ik houd deze motie aan.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u96">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg117">Op verzoek van de heer Azarkan stel ik voor zijn motie (31066, nr. 841) aan te houden.</seg>
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg118">Daartoe wordt besloten.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u97">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg119">Dan de motie op stuk nr. 842. Die gaat over het ontwikkelen van een specifiek plan van aanpak om Nederlanders die in het kader van deze problematiek naar het buitenland zijn gevlucht, te ondersteunen bij de terugkeer naar Nederland. Ik laat deze motie graag aan het oordeel van de Kamer.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u98">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg120">De motie op stuk nr. 842: oordeel Kamer.</seg>
-        </u>
-        <note type="speaker">Staatssecretaris Van Huffelen</note>
-        <u who="#AlexandravanHuffelen" ana="#guest" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u99">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg121">Dan de motie van de heer Van Raan en mevrouw Simons op stuk nr. 843, de laatste motie, die gaat over het centraal stellen van het proces van heling in het traject van herstel van ouders. Ik denk dat dat een heel belangrijk thema is, dat ook naar voren kwam in de discussies die ik recent, gisteren nog, daarover heb gevoerd, ook met de minister-president. Hoe kun je nou ervoor zorgen dat er straks niet alleen maar financiële compensatie is, er misschien dingen zijn geregeld rondom schulden en er wellicht hulp is geweest bij werk of bij huisvesting, maar creëer je ook een situatie waarin het proces voor ouders kan worden afgerond? Dat wil niet zeggen dat de pijn uit het verleden niet zal blijven. We kunnen veel van wat er gebeurd is, niet herstellen. Maar het is wel van belang dat dat een goed proces is. We voeren daarover ook intensieve gesprekken met deskundigen op dit gebied. We werken eraan om daar een pilot rondom te organiseren. Een van de pilots waar we het over hebben, gaat specifiek over het onderwerp heling. Daar gaan we al op heel korte termijn mee starten. Ik kom dus graag terug op hoe dat vorm zou kunnen krijgen en wil deze motie daarmee dan ook oordeel Kamer geven.</seg>
-        </u>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u100">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg122">De motie op stuk nr. 843: oordeel Kamer. Daarmee komen we aan het eind van dit tweeminutendebat.</seg>
-        </u>
-        <note type="comment">De beraadslaging wordt gesloten.</note>
-        <note type="speaker">De voorzitter</note>
-        <u who="#VeraBergkamp" ana="#chair" xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u101">
-          <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg123">Ik dank de staatssecretaris voor haar beantwoording en de leden voor hun inbreng. Ik schors de vergadering voor enkele ogenblikken. Ik dank ook alle ouders, betrokkenen en familieleden die hier vandaag aanwezig waren of die het thuis hebben gevolgd.</seg>
-        </u>
-        <note type="comment">De vergadering wordt enkele ogenblikken geschorst.</note>
-        <note type="comment"/>
-      </div>
-    </body>
-  </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#covid #parla.sitting"
+     xml:lang="nl"
+     xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-06-09 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-06-09 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 86, Session 3 (2021-06-09)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 86, Session 3 (2021-06-09)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular"
+                     corresp="#TK"
+                     n="86"
+                     xml:lang="en">Meeting 86</meeting>
+            <meeting ana="#parla.lower #parla.session"
+                     corresp="#TK"
+                     n="3"
+                     xml:lang="en">Session 3</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29"
+                     corresp="#TK"
+                     n="29-lower"
+                     xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en"
+                     ana="#parla.lower #parla.sitting"
+                     corresp="#TK"
+                     n="2021-06-09">Sitting 2021-06-09</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="101">101 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="101">101 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="7164">7,164 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="7164">7,164 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2022-12-15">December 15, 2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2021-06-09">2021-06-09</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="282"/>
+               <tagUsage gi="seg" occurs="123"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="101"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-06-09">2021-06-09</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head>Hersteloperatie kinderopvangtoeslag</head>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg1">Vanaf vandaag is weer publiek welkom op de tribune. Ik vind het fijn om u hier te zien, zeker ook bij dit debat: een korte afronding van een commissiedebat dat zo belangrijk voor u is. Hartelijk welkom vandaag in deze Kamer. Aan de orde is het debat over de hersteloperatie kinderopvangtoeslag. De leden hebben twee minuten om hun moties in te dienen dan wel hun korte vragen te stellen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg2">Het woord is als eerste aan de heer Alkaya van de SP. Natuurlijk heet ik ook de staatssecretaris van harte welkom.</seg>
+            </u>
+            <note type="speaker">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg3">Voorzitter, dank u wel. Er gaat helaas nog veel mis bij de Uitvoeringsorganisatie Herstel Toeslagen. Er worden verkeerde gegevens gedeeld met gerechtsdeurwaarders. Er worden verkeerde brieven gestuurd. Er is onduidelijke communicatie. We hebben daar urenlang over gedebatteerd. In al die uren heb ik eerlijk gezegd geen seconde het gevoel gehad dat de staatssecretaris de ernst van de situatie inziet. Zij is eigenlijk wel tevreden met hoe het gaat. Ze heeft urenlang aan ons verteld dat het eigenlijk wel meevalt en dat het wel goed gaat. Alle adviezen van de Nationale ombudsman en de Rekenkamer en alle signalen die we hebben overgebracht, leken niet te helpen. Vandaar de volgende motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat zowel de Algemene Rekenkamer als de Nationale ombudsman zich zorgen maakt over de Uitvoeringsorganisatie Herstel Toeslagen;</note>
+               <note type="comment">constaterende dat er veel fouten worden gemaakt in de organisatie, met grote gevolgen voor gedupeerde ouders;</note>
+               <note type="comment">van mening dat de integrale beoordeling en de compensatie voor alle geleden schade door ouders te lang duren, evenals het krijgen van inzage van gedupeerden in hun eigen dossiers met hun persoonlijke gegevens;</note>
+               <note type="comment">betreurt het feit dat er in de uitvoeringsorganisatie onder leiding van de staatssecretaris van Financiën - Toeslagen en Douane zo veel fouten worden gemaakt en dat de integrale beoordeling van gedupeerden zolang duurt;</note>
+               <note type="comment">verzoekt de regering haast te maken met de pilots om gedupeerden binnen één dag op één plek te beoordelen, deze werkwijze versneld te evalueren en voor september 2021 landelijk uit te rollen als die beter blijkt te werken,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-827</note>
+            </u>
+            <note type="comment">Dank u wel, meneer Alkaya. U mag de motie hier inleveren. Dan vraag ik mevrouw Inge van Dijk van het CDA om vast in de richting van het spreekgestoelte te komen, terwijl dat wordt schoongemaakt.</note>
+            <note type="speaker">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u3">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg4">Dank je wel, voorzitter. We hebben twee weken geleden een lang debat gevoerd met de staatssecretaris, maar we hebben toch nog wel een aantal vragen. We begrijpen dat ouders niet door de lichte toets zijn gekomen bij afwezigheid of onvolledigheid van contra-informatie van kinderopvanginstellingen. Klopt dat? Onlangs schreef de staatssecretaris in een brief dat in veel gevallen de oorsprong van vermeldingen in de FSV niet herleidbaar is of vanwege privacyredenen niet gedeeld kan worden met de gedupeerden. Hoe wil de staatssecretaris de werkelijke schade van gedupeerden beoordelen als deze informatie niet bekend is? Hoe staat het met het onderzoek van PwC naar de memo-Palmen? Is de staatssecretaris bereid om tussentijdse bevindingen van het onderzoek naar de Kamer te sturen? En hoe is tot nu toe de opvolging geweest van het onderzoek van de Autoriteit Persoonsgegevens uit 2020, waarvan de conclusie was dat de Belastingdienst heeft gediscrimineerd?</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg5">Dan hebben we ook nog twee moties.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">overwegende dat er een grote instroom is van mensen die zich aanmelden voor de compensatieregeling en de tegemoetkoming opzet/grove schuld, die eveneens is uitgebreid naar andere toeslagen;</note>
+               <note type="comment">overwegende dat mensen zich tot 1 januari 2024 kunnen aanmelden als zij denken in een van deze categorieën te vallen;</note>
+               <note type="comment">constaterende dat de huidige Uitvoeringsorganisatie Herstel Toeslagen, maar ook de Commissie Werkelijke Schade met grote capaciteitsproblemen kampen en de beoordeling van dossiers in verschillende stadia lang duurt;</note>
+               <note type="comment">verzoekt de regering op basis van instroomprognoses een bestcase- en een worstcasescenario-langetermijnplanning te maken, zodat inzicht ontstaat in de benodigde capaciteit voor een zo snel mogelijke behandeling van de instroom en hierop flexibel kan worden aangepast,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Inge van Dijk, Kat, Idsinga en Grinwis.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-828</note>
+            </u>
+            <note type="speaker">Mevrouw Inge van Dijk (CDA)</note>
+            <u who="#IngevanDijk"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u4">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg6">Dan de tweede motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">overwegende dat er een grote maatschappelijke druk ligt op het snel herstellen van het leed dat gedupeerde toeslagouders (inclusief ex-partners en kinderen) en gedupeerden van huur- en zorgtoeslag en kindgebonden budget (niet-KOT) is aangedaan, en regelingen hiervoor van grote betekenis zijn voor de gedupeerden;</note>
+               <note type="comment">constaterende dat de UHT met de Catshuisregeling en de bijna gereedstaande brede schuldenaanpak voor een enorme organisatorische opgave staat waarbij er fouten worden gemaakt;</note>
+               <note type="comment">overwegende dat het komen tot een uitvoerbare en juridisch houdbare brede schuldenaanpak hoge prioriteit heeft en dat daarbij ook oog is voor de verschillende situaties van de ouders;</note>
+               <note type="comment">overwegende dat het onwenselijk is als nieuwe of meer problemen ontstaan bij gedupeerden of uitvoeringsorganisaties;</note>
+               <note type="comment">overwegende dat deze regelingen grote implicaties voor de rijksbegroting kunnen hebben en daarom een integraal beeld van de financiële consequenties van de regelingen wenselijk is;</note>
+               <note type="comment">verzoekt de regering een uitvoerbare en juridisch houdbare brede schuldenaanpak voor gedupeerden als eerste prioriteit te stellen, scenario's of mogelijkheden voor de kindregeling, de ex-partnerregeling en niet-KOT voor het reces met de Kamer te delen en te bespreken, en daaruit volgend alleen zaken ter besluitvorming inzake de kindregeling, de ex-partnerregeling en niet-KOT voor te leggen die voorzien zijn van een grondige uitvoeringstoets bij alle betrokken partijen en een toets op juridische houdbaarheid;</note>
+               <note type="comment">verzoekt de regering daarbij een helder overzicht te geven van de implicaties voor de rijksbegroting voor de komende jaren,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Inge van Dijk, Kat, Idsinga en Grinwis.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-829</note>
+            </u>
+            <note type="comment">Dank. Dan is het woord aan mevrouw Kat. De zaken worden hier nog even schoongemaakt.</note>
+            <note type="speaker">Mevrouw Kat (D66)</note>
+            <u who="#HülyaKat"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u5">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg7">Dank u wel, voorzitter. Geen maidenspeech, maar wel een tweetal moties vandaag. We hebben in het commissiedebat aandacht gevraagd voor de financiële regelingen, maar ook voor ondersteuning van de ouders. Vanuit die gedachtes hebben we twee aandachtspunten. We hebben eerst een motie voor ondersteuning van ouders in het buitenland bij re-integratie op de arbeidsmarkt.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">overwegende dat het kabinet heeft toegezegd om de ondersteuning voor gedupeerde ouders in het buitenland verder uit te werken, bijvoorbeeld om een goede terugkeer naar Nederland mogelijk te maken;</note>
+               <note type="comment">overwegende dat deze ouders door de toeslagenaffaire een gat op hun cv hebben of hun opleiding hebben afgebroken;</note>
+               <note type="comment">verzoekt het kabinet als onderdeel van deze verdere uitwerking te zorgen dat deze ouders extra ondersteuning krijgen bij de re-integratie op de arbeidsmarkt, bijvoorbeeld door extra loopbaanbegeleiding, cursussen, opleidingen en coaching aan te bieden,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Kat, Snels, Idsinga, Inge van Dijk, Van Raan en Grinwis.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-830</note>
+            </u>
+            <note type="speaker">Mevrouw Kat (D66)</note>
+            <u who="#HülyaKat"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u6">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg8">Voorzitter. Dan een andere motie, over een vangnet voor ondersteuning van ouders bij wonen, werken, financiën, zorg en gezin.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">overwegende dat de gedupeerde ouders door gemeenten worden ondersteund op de leefgebieden wonen, werk, financiën, zorg en gezin, bijvoorbeeld bij behoefte aan extra psychosociale hulp;</note>
+               <note type="comment">overwegende dat het belangrijk is dat deze ondersteuning toegankelijk en toereikend is, ook voor ouders die nu in het buitenland zitten;</note>
+               <note type="comment">verzoekt het kabinet om samen met gemeenten in kaart te brengen hoe de ondersteuning bij wonen, werk, financiën, zorg en gezin wordt ingevuld, of deze ondersteuning toegankelijk en toereikend is en tegen welke knelpunten gemeenten, ouders en andere betrokkenen aanlopen;</note>
+               <note type="comment">verzoekt het kabinet om samen met gemeenten te zorgen dat het voor gedupeerde ouders duidelijk is waar ze met vragen, zorgen en klachten over deze ondersteuning terechtkunnen;</note>
+               <note type="comment">verzoekt het kabinet om de Kamer regelmatig over eventuele knelpunten te informeren en samen met gemeenten voorstellen te doen om deze op te lossen,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Kat, Idsinga, Inge van Dijk, Snels, Nijboer en Grinwis.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-831</note>
+            </u>
+            <note type="speaker">Mevrouw Kat (D66)</note>
+            <u who="#HülyaKat"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u7">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg9">Dank u wel.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u8">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg10">U ook bedankt. Dan is nu het woord aan de heer Snels van GroenLinks.</seg>
+            </u>
+            <note type="speaker">De heer Snels (GroenLinks)</note>
+            <u who="#BartSnels"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u9">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg11">Dank u wel, voorzitter. Enkele weken geleden hadden wij een belangrijk debat over de hersteloperatie. Daar zijn grote zorgen over. Het lijkt steeds complexer te worden. Er zijn steeds meer gedupeerde ouders. Daar hebben we veel vragen over gesteld. Er was ook tegelijkertijd enige frustratie omdat we het debat niet af konden maken en we geen tweede termijn meer hadden. Dat betekent dat we meer dan in de commissie voor Financiën gebruikelijk is heel veel moties moeten indienen om ook aan die zorgen tegemoet te komen, maar het is ook goed dat we binnenkort weer een debat hebben.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg12">Voorzitter. Ik heb verschillende moties meegetekend vanuit de verschillende aandachtspunten in het debat. Ik heb één eigen motie. Die gaat over de zorgen die ik heb bij de 10.000 ouders die voorlopig zijn afgewezen voor de Catshuisregeling. Die groep zal inmiddels wel groter zijn.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat ongeveer 10.000 ouders op dit moment niet in aanmerking komen voor de Catshuisregeling van €30.000;</note>
+               <note type="comment">constaterende de signalen van een deel van deze ouders dat zij onterecht niet in aanmerking zijn gekomen voor de Catshuisregeling of dat zij bij andere toeslagen onterecht gedupeerd zijn door de Belastingdienst;</note>
+               <note type="comment">overwegende dat het moratorium van private schulden voor deze gehele groep ouders per direct is afgelopen, en zij nu alweer geconfronteerd wordt met invorderingen en gerechtsdeurwaarders, met in sommige gevallen schrijnende situaties tot gevolg;</note>
+               <note type="comment">verzoekt de regering te bezien hoe de ongeveer 10.000 nu niet in aanmerking komende ouders benaderd kunnen worden en, mocht hun eigen verhaal daar aanleiding toe geven, alsnog een forfaitaire tegemoetkoming uit te keren;</note>
+               <note type="comment">verzoekt de regering te bezien hoe schrijnende gevallen in deze groep van ongeveer 10.000 ouders geholpen kunnen worden, alvorens voor hen via de integrale beoordeling, een compensatieregeling voor andere toeslagen of anderszins, een structurele oplossing wordt gevonden,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Snels, Kat en Grinwis.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-832</note>
+            </u>
+            <note type="comment">Hartelijk dank. Dan komen we bij de heer Grinwis van de ChristenUnie.</note>
+            <note type="speaker">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u10">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg13">Voorzitter, dank u wel. Ik benijd de staatssecretaris niet, maar haar lot valt natuurlijk in het niet bij dat van de vele gedupeerde ouders en hun kinderen. Hun moet recht worden gedaan. Daarom steun ik een aantal moties van collega's, bijvoorbeeld de motie van collega Snels die hij zojuist indiende. Ik wil dat onterecht niet door de lichte toets gekomen ouders, een heel aantal van de 10.000, een mooie zomer tegemoetgaan, zonder angst voor deurwaarders op de stoep. In lijn met de motie van collega Snels doe ik een oproep aan de staatssecretaris: doe wat nodig is; doe wat u kunt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg14">Dan mijn moties.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de Commissie Werkelijke Schade op dit moment geen uitspraken publiceert;</note>
+               <note type="comment">overwegende dat er geen duidelijke indicatoren en beslissingscriteria bekend zijn op basis waarvan de Commissie Werkelijke Schade te werk gaat en schade in beeld brengt;</note>
+               <note type="comment">overwegende dat de schadeafhandeling mede hierdoor erg intransparant is, terwijl juist openheid en inzichtelijkheid in de beoordeling en uitspraken ouders en hun advocaten helpen om een goede afweging te maken of een gang naar de commissie in hun geval nuttig is;</note>
+               <note type="comment">overwegende dat privacybezwaren op dit gebied te ondervangen zijn, zoals blijkt uit het geanonimiseerd publiceren van uitspraken in het faillissementsrecht en de door de Raad voor de rechtspraak hiertoe ontwikkelde software;</note>
+               <note type="comment">spreekt uit dat de uitspraken van de Commissie Werkelijke Schade geanonimiseerd gepubliceerd dienen te worden, bij voorkeur met terugwerkende kracht vanaf de eerste uitspraak;</note>
+               <note type="comment">verzoekt de regering deze uitspraak van de Kamer met klem over te brengen aan de Commissie Werkelijke Schade, en de Kamer over de uitkomst te informeren,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Grinwis, Snels, Inge van Dijk, Idsinga en Kat.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-833</note>
+            </u>
+            <note type="speaker">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u11">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg15">Dan mijn tweede motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat het voorgestelde besluit ter compensatie van gedupeerden in de toeslagenaffaire in een schuldentraject — SHV en WSNP — alleen ziet op de schulden die nu bekend zijn dan wel geïnventariseerd in de huidige regeling SHV/WSNP;</note>
+               <note type="comment">overwegende dat de gedupeerde ouders nog altijd het risico lopen op schuldeisers die zich op een later moment alsnog melden;</note>
+               <note type="comment">overwegende dat het in lijn is met de aangenomen motie-Wilders (35510, nr. 7) om deze nagekomen schulden uit de periode van de toeslagenaffaire op een later tijdstip alsnog te vergoeden;</note>
+               <note type="comment">verzoekt de regering deze ouders de garantie te geven dat deze nagekomen schulden op eenzelfde manier gecompenseerd en vergoed zullen worden als de nu bekende schulden,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Grinwis, Snels en Kat.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-834</note>
+            </u>
+            <note type="speaker">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u12">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg16">En voorzitter, ten slotte een oproep om de persoonlijke zaakbehandelaars meer ruimte te geven en ze met minder bureaucratisch gedoe op te zadelen, met meer beslisruimte, en om hen niet alleen te laten kijken of iemand op die FSV-lijst, die fraudelijst, stond of niet, maar ook om ín die lijst te kunnen kijken wat er nou over die mensen in de FSV-lijst stond, zodat we dat ook echt goed kunnen meewegen in het opmaken en opstellen van het dossier. Graag een toezegging.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u13">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg17">Dank u wel. Dan is het woord aan de heer Idsinga van de VVD-fractie.</seg>
+            </u>
+            <note type="speaker">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u14">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg18">Voorzitter, dank u wel. We hebben een belangrijk debat gehad, en we zijn er nog niet. In mijn bijdrage in het commissiedebat heb ik samen met anderen zorgen geuit over de duur van de hersteloperatie, de gemaakte fouten die pijnlijk waren, maar ook over bottlenecks die zullen ontstaan in het vervolg van de procedure. En dat alles leidt ertoe dat ouders te lang in onzekerheid verblijven. Vandaar de volgende motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de hersteloperatie kinderopvangtoeslag in de huidige vorm een aantal opeenvolgende stappen bevat, bestaande uit afzonderlijke toets- en beslismomenten;</note>
+               <note type="comment">constaterende dat het huidige proces reeds traag verloopt en gepaard gaat met pijnlijke fouten;</note>
+               <note type="comment">constaterende dat verdere bottlenecks dreigen te ontstaan in de opeenvolgende stappen, waardoor gedupeerden nog langer moeten wachten totdat het hele proces is doorlopen;</note>
+               <note type="comment">verzoekt de regering om zo spoedig mogelijk concreet aan de Kamer voor te leggen wat volgens haar nodig is om de hersteloperatie structureel op te schalen of alternatieven voor te stellen, zoals: het in elkaar schuiven van afzonderlijke processtappen, een meer gedifferentieerde aanpak, verdere mandatering aan partners et cetera, met daarbij uiteraard waarborgen voor een zorgvuldig proces,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Idsinga, Kat, Inge van Dijk en Grinwis.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-835</note>
+            </u>
+            <note type="comment">Dank u wel. Dan gaan we nu naar de heer Edgar Mulder van de PVV-fractie.</note>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u15">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg19">Het oplossen van de problemen van de ouders gaat veel en veel te langzaam. Om er in ieder geval voor te zorgen dat een deel van die ouders binnenkort weer gewoon kan ademhalen, wil de PVV dat de zomermaanden worden besteed aan het in kaart brengen van de schulden die Nederland gaat overnemen. Dus niet opnieuw achter de feiten aan lopen, en vandaar de volgende motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">overwegende dat het kabinet voornemens is om uitvoering te geven aan de aangenomen motie-Wilders (35510, nr. 7) door private schulden over te nemen van gedupeerde ouders;</note>
+               <note type="comment">overwegende dat het kabinet in september 2021 een regeling daartoe wil introduceren;</note>
+               <note type="comment">verzoekt het kabinet onmiddellijk te beginnen met het inventariseren van private schulden van gedupeerde ouders, zodat het mogelijk is om uiterlijk op 1 september 2021 alle private schulden over te nemen,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-836</note>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u16">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg20">Voorzitter. De tweede motie is ook niet onbelangrijk, want het is onacceptabel dat willens en wetens belastinggeld onterecht weggegeven wordt, verspild wordt. Dit moet nu stoppen. Daarom de volgende motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat het ministerie van Financiën zelf heeft vastgesteld dat al vanaf de introductie van de ALO-kop onterecht uitkeringen worden gedaan aan statushouders;</note>
+               <note type="comment">constaterende dat eenzelfde problematiek lijkt te spelen bij andere regelingen, zoals de IACK;</note>
+               <note type="comment">overwegende dat moet worden voorkomen dat door terugvordering van onterecht verstrekt geld een nieuwe toeslagenaffaire ontstaat;</note>
+               <note type="comment">verzoekt de regering om alle onterechte tegemoetkomingen per direct stop te zetten en voor eind 2021 te komen met (reparatie)wetgeving die onbedoelde dan wel onterechte uitkering van belastingen en/of premies tegengaat of voorkomt,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Edgar Mulder.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-837</note>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u17">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg21">Hartelijk dank. Dan gaan we nu naar de heer Nijboer van de Partij van de Arbeid.</seg>
+            </u>
+            <note type="speaker">De heer Nijboer (PvdA)</note>
+            <u who="#HenkNijboer"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u18">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg22">Dank u wel, voorzitter. Het debat werd de vorige keer niet afgerond, omdat we tijd tekortkwamen. Sterker nog, we hebben er meer dan een uur bij genomen en toen kwamen we nog niet verder dan de eerste termijn. Ik had daar nog wel één prangende vraag. Er zijn heel veel vragen gesteld, maar één is er wel echt blijven liggen. De staatssecretaris neemt de private schulden over van een groep ouders en scheldt die kwijt. Op zichzelf steunt de PvdA-fractie dat idee. Maar hoe verhoudt dat zich tot de behandeling van de mensen die de afgelopen jaren geen schulden hebben gemaakt of deels schulden hebben gemaakt of ze alweer voor een groot deel hebben terugbetaald? Daar heb ik nog geen antwoord op gehad van de staatssecretaris. Ik heb daar vandaag geen motie over, want we komen er voor de zomer nog een keer over te spreken, maar ik druk de staatssecretaris op het hart dat het wel een beetje uitlegbaar moet zijn naar al die ouders toe. Dat bleek ook uit die hoorzitting. Zelfs de renteverschillen die mensen kregen over de loop der jaren, werden al een groot probleem. Maar dit is nog veel substantiëler. Stel dat je geld hebt geleend van vrienden of dat je ouders hebben bijgesprongen. Dan krijg je helemaal niks, terwijl iemand anders een groot deel kwijtgescholden krijgt. Het gaat over forse bedragen. Dat is echt een probleem, waar de staatssecretaris een fatsoenlijk antwoord op moet hebben. Ik snap best dat dit niet per persoon precies gelijk kan zijn, maar het moet wel een beetje redelijk zijn. Ik heb nog niet het vertrouwen dat dit nu goed geregeld is. Ik vind het wel belangrijk dat dat zo is, ook voor het rechtsgevoel van die ouders. Ik vraag de staatssecretaris om daarop in te gaan.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg23">Dank u wel, voorzitter.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u19">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg24">U ook bedankt. Dan komen we nu bij de heer Azarkan van DENK.</seg>
+            </u>
+            <note type="speaker">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u20">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg25">Dank, voorzitter. Ik merk al dat de sfeer toch iets anders is, een beetje terug naar het oude normaal, nu er mensen in de zaal zitten.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de Commissie Werkelijke Schade vooralsnog een twintigtal zaken heeft kunnen behandelen;</note>
+               <note type="comment">overwegende dat in dit tempo de afhandeling tientallen jaren gaat duren, en de beoogde einddatum van de hersteloperatie in 2024 niet gehaald gaat worden;</note>
+               <note type="comment">verzoekt de staatssecretaris om met een aangepast plan van aanpak te komen om de Commissie Werkelijke Schade in staat te stellen om de hersteloperatie uiterlijk in 2024 af te ronden,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat er een hersteloperatie is ingericht om de gedupeerden van de kinderopvangtoeslag te compenseren voor het aangedane leed;</note>
+               <note type="comment">constaterende dat er ook gastouderbureaus en kinderopvangorganisaties zijn die de dupe zijn van het onrechtmatig handelen van de Belastingdienst;</note>
+               <note type="comment">verzoekt de regering om de ondernemers die aantoonbare schade hebben ondervonden door het onrechtmatig handelen van de Belastingdienst, eveneens financieel te compenseren en ze daar proactief over te informeren,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de Belastingdienst een geschreven brief voorschrijft als eis om inzage te mogen krijgen in opgenomen persoonsgegevens in de FSV;</note>
+               <note type="comment">overwegende dat het onwenselijk is dat er onnodige belemmeringen opgeworpen worden om inzage te krijgen in iemands eigen gegevens;</note>
+               <note type="comment">verzoekt de staatssecretaris om de inzage in de eigen gegevens op een zo laagdrempelige wijze mogelijk te maken, bijvoorbeeld door dit ook mogelijk te maken door een verzoek aan de Belastingdienst via e-mail of telefonisch of via een gestandaardiseerd digitaal formulier,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat er in 2020 gestart is met een onderzoek naar de zogenaamde fraudelijst FSV, maar dat het tweede deel van dit onderzoek nu al vijftien maanden op zich laat wachten;</note>
+               <note type="comment">overwegende dat dit onderzoek veel te lang duurt en circa 260.000 mensen nu al vijftien maanden in onzekerheid zitten en dat dit leidt tot maatschappelijke onrust;</note>
+               <note type="comment">verzoekt de regering dit onderzoek naar de FSV te versnellen, zodat dit onderzoek uiterlijk op 1 september 2021 opgeleverd kan worden aan de Kamer,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-838</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-839</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-840</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-841</note>
+            </u>
+            <note type="speaker">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u21">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg26">Tot slot, voorzitter.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat er tienduizenden burgers zijn die ongekend onrecht is aangedaan door het onrechtmatig handelen van de Belastingdienst;</note>
+               <note type="comment">constaterende dat enkele van deze burgers uit angst voor de Belastingdienst zijn gevlucht naar het buitenland en ze graag zouden willen terugkeren;</note>
+               <note type="comment">verzoekt de regering om voor deze groep een specifiek plan van aanpak te ontwikkelen om deze groep Nederlanders te ondersteunen bij hun terugkeer naar Nederland,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Azarkan.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-842</note>
+            </u>
+            <note type="speaker">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u22">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg27">Ik heb precies nul seconden over!</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u23">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg28">Ja, het is heel knap hoeveel moties u binnen zo'n korte tijd kunt indienen! Dan komen we bij de laatste spreker van de Kamer vandaag. Dat is de heer Van Raan van de Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u24">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg29">Voorzitter, dank u wel. We hebben inderdaad een belangrijk debat gehad. Een van de dingen die enorm naar voren kwamen, was natuurlijk de onzekerheid waar die ouders voortdurend in leven. Daarom is het misschien tijd voor een schaalsprong in de hulpverlening en een andere manier van kijken naar hoe we dit probleem gaan aanpakken. Daarom de volgende motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat in de toeslagenaffaire groot leed is ontstaan;</note>
+               <note type="comment">constaterende dat het proces van heling van dat leed individueel is en soms jarenlang kan duren;</note>
+               <note type="comment">constaterende dat dit proces inmiddels ook een intergenerationeel karakter heeft;</note>
+               <note type="comment">constaterende dat het voor helingsproces goed is om de gedupeerde ouders de zekerheid te geven dat de overheid naast hen staat en hen niet loslaat (vergelijkbaar, maar niet hetzelfde, als bij de manier waarop voor veteranen wordt gezorgd);</note>
+               <note type="comment">constaterende dat een crisisorganisatie die gericht is op zo snel mogelijk schadevergoeding realiseren misschien minder geschikt is om een individueel en waar nodig intergenerationeel traject te begeleiden;</note>
+               <note type="comment">verzoekt de regering het proces van heling centraal te stellen bij het herstellen van de schade voor de slachtoffers van de toeslagenaffaire, en te onderzoeken welk ander type benadering het beste kan bijdragen aan het proces van heling,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Van Raan en Simons.</note>
+               <note type="comment">Zij krijgt nr. kst-31066-843</note>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u25">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg30">Voorzitter, dank u wel.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u26">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg31">U ook bedankt. Daarmee komen we aan het eind van deze termijn van de Kamer. We gaan tot 10.45 uur schorsen, zodat alle moties en de vragen die zijn gesteld, even goed kunnen worden bekeken.</seg>
+            </u>
+            <note type="comment">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u27">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg32">Ik geef het woord aan de staatssecretaris.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u28">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg33">Dank u wel, voorzitter. Net als u vind ik het ongelofelijk fijn om te zien dat er weer mensen op de tribune kunnen zijn, zeker ook ouders die ik al vaker heb ontmoet in het afgelopen jaar. Het is goed om te zien dat jullie er weer live bij kunnen zijn. Ik wil eerst ingaan op de vragen die gesteld zijn en daarna de moties van een oordeel vanuit de regering voorzien.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg34">Ik begin met de vraag van mevrouw Van Dijk van het CDA over contra-informatie. Ik begrijp de vraag als volgt. U zegt: als een ouder in eerste instantie niet door de lichte toets is gekomen en dus niet in aanmerking komt voor de Catshuisregeling, of de €30.000, en daar dan signalen over geeft of extra informatie voor aanbiedt, dan is het van belang dat die worden meegewogen in de herbeoordeling daarvan. Dat is precies wat wij van belang vinden om te doen en wat wij ook zullen doen. We hebben een zogenaamd nazorgteam waar ouders naar kunnen bellen en contact mee kunnen opnemen. Die signalen worden dan ook meegenomen. Mocht u iets anders bedoelen, dan kom ik daar graag op terug in de volgende voortgangsrapportage. Laat mij dan vooral weten wat uw vraag is.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg35">Mevrouw Van Dijk stelde ook een vraag over hoe het staat met het onderzoek dat door PwC wordt uitgevoerd naar de notitie-Palmen. Dat onderzoek loopt op dit moment. Ik heb in de laatste voortgangsrapportage aangegeven dat ik in de volgende iets meer ga vertellen over de planning daarvan. Het is uiteraard aan de onderzoekers om te bepalen hoeveel tijd ze nodig hebben om helderheid te krijgen over de vragen die we hun hebben meegegeven om uit te zoeken. Ik kom daar dus op terug in onze rapportage, die we op 22 juni naar uw Kamer zullen toesturen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg36">Dan de vraag van mevrouw Van Dijk over de stand van zaken van het onderzoek van de Autoriteit Persoonsgegevens. Ik heb daar op dit moment geen nadere informatie over. Wij wachten nog op een handhavingsbesluit van de Autoriteit Persoonsgegevens. Over alles wat te maken heeft met het onderwerp waar dit AP-onderzoek over gaat, zal ik u op 22 juni meer kunnen vertellen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg37">Dan was er nog de vraag van mevrouw Van Dijk hoe je werkelijke schade kunt bepalen als een ouder niet weet of hij wel of niet in het FSV is opgenomen. Uiteraard kijkt de Commissie Werkelijke Schade naar alle aspecten. Maar als het specifiek over het FSV gaat — daar zijn vandaag meerdere vragen over gesteld — verwijs ik graag door naar het debat van 22 juni dat daar specifiek over gaat. Dan kunnen we ook meer in detail ingaan op de stand van zaken van alles rondom het thema FSV. Dat zal mijn collega Hans Vijlbrief dan doen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg38">Dan de vraag van de heer Grinwis van de ChristenUnie. Hij wilde een toezegging over minder onnodige bureaucratie. Nou, daar kan natuurlijk helemaal niemand tegen zijn, en ik als laatste. Het is namelijk ongelofelijk belangrijk dat we in het proces van de beoordeling van de dossiers van alle ouders en de situaties daarbij, zo efficiënt en zo goed mogelijk werken. Tegelijkertijd is dat altijd weer een afweging. Aan de ene kant hebben we het dan over de goede dienstverlening. Ik kom daar straks nog op terug naar aanleiding van de vraag van de heer Van Raan. Maar we willen ook zorgen dat we het zorgvuldig doen en geen fouten maken. Uw Kamer heeft daar vandaag ook een paar keer iets over gezegd. We moeten ook in lijn werken met wat we in de Kamer besproken hebben, namelijk dat er een afweging is tussen snelheid en zorgvuldigheid. Ik kom er zo meteen nog even op terug, maar ik heb eerder ook aangegeven dat wij in het kader van de pilots die we deze zomer gaan doen, ook willen kijken of we bijvoorbeeld onze zaakbehandelaren een wat sterkere rol kunnen geven. Helder is dat ongewenste bureaucratie natuurlijk moet worden vermeden.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u29">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg39">Daarover is een vraag van de heer Grinwis van de ChristenUnie.</seg>
+            </u>
+            <note type="speaker">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u30">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg40">Ja, twee vragen. Een. Dank allereerst aan de staatssecretaris. Komt er in de volgende voortgangsrapportage dan informatie over die vermindering van bureaucratie, minder lagen en meer beslisruimte, en hoe dat in de praktijk uitwerkt voor de persoonlijk zaakbehandelaars?</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg41">Mijn andere vraag betrof de FSV. Moet ik dan ook bij collega Vijlbrief zijn, of kan de staatssecretaris daar iets over zeggen? Hebben die persoonlijk zaakbehandelaars bij het opstellen van hun integrale beoordeling voortaan dan ook toegang tot wat er in de FSV is opgenomen? Dat is toch wel wezenlijk om een goede schade-inschatting te kunnen maken.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u31">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg42">Even die twee vragen uit elkaar trekken. Wat de persoonlijk zaakbehandelaren en het vraagstuk van onnodige bureaucratie betreft: wij gaan in een de pilots die we aan het uitwerken zijn, kijken of we niet de stap kunnen maken tussen een zaakbehandelaar die met de ouder aan de slag gaat en vervolgens een commissie die nog een oordeel geeft over wat de zaakbehandelaar heeft geconstateerd. We kijken of twee zaakbehandelaren samen tot een oordeel kunnen komen in een dossier en daarmee tempo kunnen bereiken. Vóór 22 juni hebben we die pilot nog niet helemaal uitgevoerd, maar we geven zeker meer informatie over de vormgeving van die pilots en wat we daarmee beogen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg43">Het andere punt. Ja, een persoonlijk zaakbehandelaar kan voor de ouder — en gaat dat ook voor de ouder doen — opzoeken of iemand geregistreerd stond in de FSV en wat de aard van die registratie is.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u32">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg44">Daarover is nog een korte vervolgvraag.</seg>
+            </u>
+            <note type="speaker">De heer Grinwis (ChristenUnie)</note>
+            <u who="#PieterGrinwis"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u33">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg45">Ja, dank, ook aan de staatssecretaris. Dus die laatste woorden van de staatssecretaris over die aard van de registratie betekenen dat de persoonlijk zaakbehandelaar zelf in de FSV kan kijken wat daar over de cliënt staat?</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u34">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg46">Als het zo heel precies is: we hebben heel duidelijk met uw Kamer afgesproken wie wel en niet in de FSV-voorziening mogen kijken, namelijk dat dat maar heel weinig mensen mogen zijn. We hebben daarvoor een zodanige mogelijkheid gecreëerd dat de zaakbehandelaar de ouder kan informeren, ook over die FSV-registratie. Dat hebben we niet gedaan door iedereen toegang te geven tot het FSV-systeem, maar we hebben daarvoor een oplossing bedacht die ervoor zorgt dat de informatie "stond u in FSV en wat stond er over u in FSV" kan worden gedeeld met de ouder.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg47">Dan de vraag van de heer Nijboer over de aanpak van de schulden en het verschil in behandeling tussen ouders die op dit moment nog wel en ouders die op dit moment geen schulden meer hebben. Dat is natuurlijk een reëel dilemma. Ik ga wat meer aangeven over die schuldenaanpak, ook over hoe we willen omgaan met private schulden, bijvoorbeeld in combinatie met het thema informele schulden waar de heer Nijboer het over had. Dat zijn schulden bij vrienden en familie, naast de schulden die er nog zijn, bijvoorbeeld in de vorm van kredieten bij banken. Daar kom ik graag bij u op terug, maar ik snap het punt dat hij aangeeft heel duidelijk. Want er is nu een aanpak die geldt voor mensen die op dit moment nog schulden hebben, niet voor mensen die inmiddels die schulden al hebben afbetaald.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg48">Dan heb ik volgens mij de vragen die gesteld zijn beantwoord en ga ik naar de moties toe. Ik begin met de motie op stuk nr. 827 van de heer Alkaya, die twee dingen aan de regering vraagt, namelijk haast te maken met de pilots voor gedupeerden om hen in één dag op één plek te beoordelen en daarnaast om die werkwijze zo snel te evalueren dat we die ook voor september landelijk kunnen uitrollen. Met dat eerste deel gaan wij daadwerkelijk aan de slag, want die pilots zijn we aan het uitwerken en opstarten. Daarbij speelt dus ook dat we het op één dag en op één plek doen; zo veel mogelijk op één dag als dat kan, ook afhankelijk van wat de wensen van een ouder zijn. Maar als u vraagt "kunt u dat dan allemaal al uitwerken, evalueren en ook landelijk uitrollen voor september", dan is mijn antwoord dat ik dat niet kan doen. Dus om die reden ga ik deze motie ontraden, hoewel wij dus wel degelijk met deze pilots, ook in deze vorm, aan de slag gaan. Ik wil namelijk zorgen dat we die nieuwe werkwijze ook echt zorgvuldig bekijken. We hebben in dit dossier gemerkt dat het nodig is om goed en zorgvuldig te kijken, ook als je een nieuwe werkmethode introduceert. Daar willen we natuurlijk ook geen onnodige vertraging in, maar alles voor september is wat ons betreft niet een haalbare kaart.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u35">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg49">De motie op stuk nr. 827 krijgt het oordeel ontraden.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u36">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg50">Ja.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg51">Dan de motie-Inge van Dijk c.s. op stuk nr. 828 over de instroomprognoses en een goede langetermijnplanning op basis van alle inzichten die we verkregen hebben en nog steeds krijgen. In het debat heb ik aangegeven dat nog iedere dag vele ouders zich bij ons melden als gedupeerden; inmiddels meer dan 40.000. Die motie geef ik graag oordeel Kamer. Op de details kom ik terug in de voortgangsrapportage.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u37">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg52">De motie op stuk nr. 828 krijgt oordeel Kamer. Er is nog een vraag van de heer Alkaya over de motie op stuk nr. 827.</seg>
+            </u>
+            <note type="speaker">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u38">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg53">Wil de staatssecretaris überhaupt geen deadline voor zichzelf stellen, of is september net onhaalbaar? Ik denk dat wij het met elkaar eens zijn dat het niet over twee jaar moet zijn en dat we de gedupeerden zo snel mogelijk moeten compenseren. Heel veel mensen, ik ook, zijn ervan overtuigd dat dit de manier is. Als de staatssecretaris zegt "niet september, maar oktober", wil ik daar best over nadenken, maar ik heb het gevoel dat de staatssecretaris überhaupt geen deadline voor zichzelf wil stellen.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u39">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg54">Ik wil voor mezelf in ieder geval geen onhaalbare deadline stellen, want daar heeft helemaal niemand iets aan. In de eerste plaats hebben de ouders daar niets aan, maar ook wij niet in ons debat. Ik vind het van belang dat wij die pilots starten, dat we die goed uitvoeren, dat we die ruim laten zijn en dat we er voldoende mensen aan laten deelnemen, om ervoor te zorgen dat we er ook conclusies uit kunnen trekken. Dan moeten we ze nog verder uitwerken. Ik vind het dus lastig om met u een deadline af te spreken. Ik ga er zeker niet meer tijd voor nemen dan nodig is, maar het is niet verstandig om er nu een deadline aan te hangen. Dat is eigenlijk mijn belangrijkste punt. Ik ga er natuurlijk wel voor zorgen dat uw Kamer goed op de hoogte is van hoe we de pilots gaan vormgeven, wanneer we die uitvoeren en wanneer we verwachten de eerste conclusies te kunnen trekken.</seg>
+            </u>
+            <note type="speaker">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u40">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg55">De staatssecretaris begint haar beantwoording met "ik wil geen onhaalbare deadline stellen", maar eindigt dan toch met "ik wil überhaupt geen deadline stellen". Ik wil de staatssecretaris de kans bieden om mij ervan te overtuigen dat ik ernaast zit. Laat zij dan met een brief komen waarin staat wat volgens haar een haalbare deadline zou zijn. Dat hoeft niet nu, maar wel deze week. Ik hoef alleen maar een datum te weten, die volgens de staatssecretaris een haalbare deadline zou zijn om die pilots landelijk uit te rollen als ze goed blijken te werken. Dan ben ik best bereid om mijn motie aan te passen, als het een redelijke deadline is voor al die tienduizenden families die op compensatie zitten te wachten.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u41">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg56">Ik snap heel goed wat meneer Alkaya probeert te doen. Wij trekken daarbij precies aan dezelfde kant van het touw: hoe kunnen we ervoor zorgen dat die vele ouders die zich bij ons hebben gemeld, zo snel mogelijk helderheid krijgen? Maar het is wat mij betreft onwenselijk om, voordat we überhaupt een pilot hebben uitgevoerd en voordat we weten of het daadwerkelijk gaat helpen, nu al te zeggen dat we dit daadwerkelijk gaan uitrollen en wanneer we dat precies gaan doen. In de volgende voortgangsrapportage, die u op 22 juni, dus over twee weken, krijgt, komen we hier verder op terug. Het lijkt me goed om dan met elkaar te wisselen wat een goede deadline is. U kunt erop vertrouwen dat ik er totaal niet op uit ben om ervoor te zorgen dat iets langer duurt dan nodig is. Sterker nog, de organisatie en ik zijn ervan overtuigd dat snelheid van belang is. Maar we weten ook dat we het zorgvuldig moeten doen. We weten ook dat we aan dienstverlening moeten doen en we weten ook dat het thema heling, zoals door de heer Van Raan genoemd, een belangrijk onderdeel is van dit traject. Dus als u zegt "ik wil deze motie eventueel aanpassen", zou ik zeggen: laten we even wachten tot we het debat daarover hebben naar aanleiding van de voortgangsrapportage, want dan kunnen we met meer inzicht met elkaar over dit onderwerp spreken.</seg>
+            </u>
+            <note type="speaker">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u42">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg57">Tot slot. Ik heb niet het gevoel dat de staatssecretaris bewust het proces aan het traineren of vertragen is. Ik heb wel mijn twijfels of zij echt haar uiterste best doet om het proces te versnellen en de fouten die onnodig gemaakt worden, eruit te halen. Nu ook weer vertraagt het proces ...</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u43">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg58">Uw vraag is?</seg>
+            </u>
+            <note type="speaker">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u44">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg59">Mijn vraag is dus: is de staatssecretaris bereid om nog deze week met een brief te komen met een haalbare deadline, als september niet haalbaar zou zijn? Als dat niet zo is, moet ik toch echt de conclusie trekken dat de staatssecretaris zich überhaupt niet wil binden aan een deadline en dat dit weer veel te lang gaat duren.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u45">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg60">Het spijt me dat u niet de overtuiging heeft dat ik ongelofelijk m'n best doe om dit dossier zo goed mogelijk op te lossen, want dat doe ik met hart en ziel en met alles wat in mij is. U vraagt aan mij om van nog niet eens uitgevoerde pilots al te zeggen wanneer we ze hebben uitgevoerd en wanneer de uitkomsten, die we nog niet kennen, zijn geïmplementeerd. U vraagt dit voorafgaand aan het feit of we weten wat überhaupt de uitkomst van de pilots zal zijn, hoe effectief ze zijn en hoeveel tijd ze kosten. Neem bijvoorbeeld zo'n behandeling in één dag, want een behandeling in één dag is niet alleen maar één dag met een ouder; er zitten een voor- en een natraject aan vast. Daarover stelt u mij vragen. Als ik daarop deze week een antwoord ga geven, wordt het een antwoord dat nergens op slaat. Ik vind dat onverstandig. Nogmaals, we werken met hart en ziel en met alles wat we hebben om alle ouders te helpen, iedere dag en iedere minuut. Ik zou bijna zeggen "dag en nacht en ook in het weekeinde". U vraagt mij nu iets wat ik niet kan waarmaken. Wat ik wel kan waarmaken is het starten van die pilots, u daar goed over informeren en aangeven wat we aan het doen zijn. Ik kan ook zorgen dat we de conclusies zo snel mogelijk trekken. Maar het voor september uitrollen gaat ons helaas niet lukken.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg61">Dan ga ik naar de motie van mevrouw Van Dijk over de uitvoerbaarheid en de juridische houdbaarheid van de schuldenaanpak. In de komende voortgangsrapportage zullen we met elkaar spreken over de richting van een aantal regelingen die wij aan het uitwerken zijn. Die gaan onder andere over kinderen, ex-partners, niet-KOT en schulden. De richting en de dilemma's die wij als regering kiezen, willen wij graag met de Kamer delen. Sterker nog, dat is een belofte die ik u heb gedaan om te zorgen dat we inzicht bieden in hoe we deze regelingen zouden willen vormgeven. Daarbij is het van belang dat er keuzes te maken zijn. Die keuzes en dilemma's wil ik graag met u delen en daarover met u in gesprek gaan. U zegt dat daarbij ook goede uitvoeringstoetsen nodig zijn. Die zijn natuurlijk ook nodig. We gaan die de komende tijd ook verder uitwerken. We zullen dat niet allemaal voor 22 juni doen, maar we zullen er wel voor zorgen dat we inzicht bieden in de budgettaire consequenties. Deze motie wil ik graag oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u46">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg62">De motie op stuk nr. 829 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u47">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg63">Dan de motie op stuk nr. 830 over ouders in het buitenland en hulp bij re-integratie op de arbeidsmarkt. Dit is een motie van mevrouw Kat en anderen. Die motie gaat over de thematiek van ouders die op dit moment in het buitenland verblijven en daar voor een deel terecht zijn gekomen als gevolg van de problemen met de kinderopvangtoeslag en roept op om hen te helpen en te ondersteunen. Die motie geef ik oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u48">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg64">De motie op stuk nr. 830 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u49">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg65">Dan de motie op stuk nr. 831: een vangnet voor de ondersteuning van ouders bij wonen, werk, financiën, zorg en gezin. Dit is ook een motie van mevrouw Kat en anderen. Die motie neem ik graag mee in het gesprek dat ik daarover voer met gemeenten die nauw betrokken zijn bij deze heersteloperatie en ook lid zijn van de ministeriële commissie die we hebben voor het herstel van toeslagen. Ik wil deze motie in dit geval oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u50">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg66">De motie op stuk nr. 831 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u51">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg67">Dan de motie van de heer Snels en anderen over ouders die op dit moment niet in aanmerking komen voor de Catshuisregeling om te kijken of we kunnen zorgen dat we hen in ieder geval nog een keer benaderen zodat zij weten dat ze zich nog kunnen melden voor eventuele extra beoordeling en ook hoe we eventuele schrijnende problematiek kunnen aanpakken, bijvoorbeeld ouders die niet in aanmerking komen voor herstel van de kinderopvangtoeslag maar wel degelijk door iets anders gedupeerd zijn ofwel in schuldenproblematiek zitten. Ik zou die motie graag oordeel Kamer willen geven, want ik ben het eens met de heer Snels en wil daar graag mee aan het werk.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u52">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg68">De motie op stuk nr. 832 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u53">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg69">Dan de motie van de heer Grinwis over de Commissie Werkelijke Schade. Een deel van deze motie is een spreekt-uitmotie en daarover laat ik het oordeel aan de Kamer. Ik ga uiteraard het verzoek overbrengen aan de Commissie Werkelijke Schade. Ik deel overigens de achtergrond van deze motie, als ik die goed begrijp, dat het van belang is dat er meer inzicht en helderheid komen en transparantie voor mensen, zowel ouders als juridische ondersteuners, over het werken en de werkwijze van de commissie. Ik weet niet of we precies de intentie zoals die hier staat gaan uitwerken, maar ik zal de commissie vragen om vanuit het licht van die transparantie en helderheid ook een voorstel daarvoor te doen. Ik kom daar graag bij u op terug.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u54">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg70">En dan krijgt de motie op stuk nr. 833 oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u55">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg71">Dan krijgt de motie het oordeel Kamer. Nou ja, "oordeel Kamer" is niet aan de orde, want de motie is een "spreekt-uit"-motie.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u56">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg72">De motie spreekt uit en verzoekt. Dat verzoek geeft u oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u57">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg73">Ja, dat deel krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u58">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg74">Duidelijk. Oordeel Kamer op dat stuk.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u59">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg75">Dan de motie op stuk nr. 834, ingediend door de heer Grinwis en anderen, waarin de regering wordt verzocht de betrokken ouders de garantie te geven dat de nagekomen schulden op eenzelfde manier gecompenseerd en vergoed zullen worden als de nu bekende schulden. We hebben toegezegd dat wij private schulden gaan compenseren voor ouders in die schuldhulpverlening. Breder heeft het kabinet die intentie uitgesproken, maar het is aan uw Kamer om daar een definitief oordeel over te geven. Ik hoop uiteraard op uw steun.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg76">Het stuk over de ouders in de schuldhulpverlening en de Wsnp is in principe tamelijk theoretisch, want als je in een Wsnp-traject zit, is de kans dat je aanvullende schulden maakt niet zo heel groot. Dat is namelijk niet toegestaan als je in de Wsnp zit. Wij hebben heel simpel gezegd dat alle schulden die ouders gemaakt hebben voor 15 februari van dit jaar, zullen worden meegenomen in die schuldenregeling. Dus ook als er dan buiten de schuldentrajecten nog iets aan de hand blijkt te zijn, kunnen die worden meegenomen. De motie krijgt dus oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u60">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg77">De motie op stuk nr. 834 krijgt oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u61">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg78">Dan de motie op stuk nr. 835, van de heer Idsinga en anderen. In die motie wordt de regering verzocht om te kijken of we kunnen opschalen, versnellen en de hersteloperatie op nieuwe manieren kunnen bekijken, om te zien of we daarmee tempo kunnen maken, zeker ook in het licht van een grotere groep mensen dan we een jaar geleden in deze Kamer bespraken — een jaar geleden zeker, maar ook nog recenter. Uiteraard willen we dat doen. We komen daar in de komende voortgangsrapportage, op 22 juni, op terug. Een beetje een winstwaarschuwing: ondanks het feit dat ik deze motie oordeel Kamer wil geven, moeten we natuurlijk nog steeds het proces zorgvuldig uitvoeren. En inmiddels hebben we te maken met veel ouders die zich bij ons gemeld hebben. Dus dat vraagt ook wel tijd. Maar oordeel Kamer voor deze motie.</seg>
+            </u>
+            <note type="speaker">De heer Idsinga (VVD)</note>
+            <u who="#FolkertIdsinga"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u62">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg79">Dank voor het oordeel Kamer. Ik had nog een aanvullende vraag daarover. In de afgelopen dagen hebben zich een aantal ouders gemeld. Die zijn gekomen met de position papers. Ik zou graag aan de staatssecretaris willen vragen om daar ook naar te kijken en om zich ook te laten inspireren door de oplossingen waar de ouders zelf mee komen.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u63">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg80">Dat doe ik graag. Er zal door de herstelorganisatie ook een gesprek gevoerd worden met de betrokken ouders. Het is ook goed om te weten dat er vanuit vier verschillende kanten inspiratie aan ons wordt toegezonden. Daar kijken wij natuurlijk heel graag naar.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u64">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg81">De motie op stuk nr. 835 krijgt het oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u65">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg82">Ja. Dan de motie op stuk nr. 836, ingediend door de heer Mulder. In die motie wordt het kabinet gevraagd of het kabinet onmiddellijk kan beginnen met het inventariseren van de private schulden, zodat de regeling ook kan worden uitgevoerd voor 1 september. Die motie moet ik helaas ontraden, want we kunnen dat niet waarmaken. Ik zou natuurlijk heel graag zo snel mogelijk willen werken, zodat de schulden van de ouders die daarvoor in aanmerking komen, zo snel mogelijk geïnventariseerd kunnen worden en ook kunnen worden kwijtgescholden. Overigens geldt voor de ouders die daarvoor in aanmerking komen op dit moment het moratorium, dus het is niet zo dat zij op dit moment last hebben van die schuldeisers.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg83">U vraagt ons om alles voor 1 september te regelen, maar dat is onhaalbaar. Wij moeten de regeling natuurlijk nog uitwerken. Die zal meelopen in het Belastingplan. En, niet onbelangrijk, tot op de dag van vandaag melden zich ouders. Ook voor die ouders geldt natuurlijk diezelfde regeling, als uw Kamer — ik ben daar even voorzichtig in, naar aanleiding van de opmerkingen die ook de Rekenkamer hierover heeft gemaakt — instemt met deze regeling.</seg>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u66">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg84">De staatssecretaris heeft aangegeven de motie-Wilders voor het overnemen van private schulden te gaan uitvoeren. Zij heeft in het debat van vorige week ook aangegeven dat er in september een regeling aan de Kamer wordt gestuurd. Ik vraag in mijn motie niet om voor 1 september alles af te ronden. Het verzoek is of het inventariseren van de schulden tijdens de zomer kan plaatsvinden, zodat, als wij in september die regeling krijgen en die goedkeuren, gelijk die private schulden kunnen worden overgenomen. Dat is de vraag.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u67">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg85">Dat staat niet letterlijk in de tekst. Er staat: "... zodat het mogelijk is om uiterlijk op 1 september 2021 alle private schulden over te nemen". Dat kunnen we niet waarmaken. Maar wij gaan wel degelijk een proces uitwerken om die inventarisatie van schulden te maken. Dat doen we overigens samen met gemeenten en andere betrokkenen in de schuldhulpverlening. Met ouders samen kijken we welke schulden er in hun geval spelen. In de schuldhulpverleningstrajecten is dat al gedaan, maar bij ouders die niet in de schuldhulpverlening zitten, gaan we hiermee aan de slag. Het feitelijk al kunnen uitvoeren van deze motie is niet mogelijk, maar dat laat onverlet dat we al wel aan de slag gaan en dat we alvast gaan inventariseren.</seg>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u68">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg86">Dus als ik de tekst zo aanpas dat er staat dat voor 1 september in ieder geval de inventarisatie is afgerond, dan kan de staatssecretaris wel instemmen met deze motie.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u69">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg87">Nee, want dan zouden we ervan uitgaan dat we al een vaste groep ouders hebben. Maar iedere dag melden zich nog ouders die ook weer meedoen in dit traject en ook iedere dag weer kunnen er ouders zijn die in aanmerking komen voor een compensatie. Sterker nog, het zijn er behoorlijk veel. Dus dat gaat niet lukken. Maar u mag ervan overtuigd zijn dat we zo snel mogelijk aan het werk gaan met alle ouders waarvan we al weten dat ze gecompenseerd gaan worden. Ook zij hebben aan mij gevraagd, in allerlei vormen en maten, hoe snel zij écht van hun schulden af kunnen zijn. Zij willen natuurlijk niet alleen een moratorium; zij willen graag dat die schulden worden doorgestreept.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u70">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg88">Tot slot, heel kort op dit punt.</seg>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u71">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg89">Ik probeer heel goed te luisteren. Als ik in de motie in die zin aanpas dat voor 1 september de inventarisatie moet zijn afgerond van ouders die zich voor 1 mei hebben gemeld, dan is deze motie dus wél uit te voeren voor u.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u72">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg90">Nee, want voor lang niet alle ouders zal dat lukken. Ik zou dat heel graag willen, maar helaas lukt dat niet. Overigens dank voor uw pogingen om dit nog scherper te krijgen. Maar het is helaas zo dat wij er echt tijd voor nodig hebben om dit samen met gemeenten te kunnen doen. Ik ga u overigens meer vertellen over hoe we dit proces zullen vormgeven en over wat dan de stappen zijn die we hierin kunnen zetten.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u73">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg91">Daarmee heeft u de motie op stuk nr. 836 ontraden.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u74">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg92">Ja.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg93">De motie-Mulder op stuk nr. 837 gaat over het vaststellen van alle onterechte tegemoetkomingen in het kader van de ALO-kopproblematiek. Het gaat dan vooral over een ALO-kop die achteraf onterecht blijkt te zijn en die dan moet worden teruggevorderd. Dit is inderdaad een naar thema. Het is natuurlijk nooit goed en fijn om eerst toeslagen aan iemand uit te keren en dan uiteindelijk tot de conclusie te komen dat die weer moeten worden teruggevorderd. Maar ik ga graag met uw Kamer wat uitgebreider in gesprek over hoe dit precies werkt en welke gevallen er zijn, en vooral ook over wat we doen om dit te voorkomen. Het per direct stoppen, wat u vraagt, is zeer onterecht, want er zijn ook mensen die wel degelijk terecht een ALO-kopuitkering krijgen. Dan zouden we precies gaan doen wat we nu in de kinderopvangtoeslagproblematiek aan het herstellen zijn.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg94">We zijn heel erg zorgvuldig aan het kijken naar oplossingen. Aan de ene kant zorgen we er natuurlijk voor dat deze problematiek zo veel mogelijk wordt voorkomen. Aan de andere kant gaan we niet direct stopzetten. We gaan kijken hoe we dit op een goede manier kunnen uitwerken. Ik ga hier dus graag met uw Kamer over in gesprek, maar ik moet deze motie helaas ontraden.</seg>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u75">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg95">Maar dit is heel ernstig. De staatssecretaris en het hele ministerie constateren zelf al vanaf 2016 dat de uitkeringen onterecht zijn. Ze weten exact wie het zijn. Er wordt in documenten gesproken over de aantallen. De reden is bekend: het gaat om de vraag of een partner wel of geen bsn-nummer heeft. U weet het exact, maar u weigert het stop te zetten. Daarmee creëren we weer de problemen. Alles waardoor we nu meer dan — wat is het? — twee jaar hiermee bezig zijn, wordt opnieuw in werking gezet, omdat de staatssecretaris weigert in te grijpen op een probleem waarvan zij zelf zegt dat het er is.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u76">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg96">Uw vraag is?</seg>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u77">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg97">Regel het! Stop het! Het kan! Opmerking van meneer Asscher: stop met die idioterie. Meneer Asscher zei dat.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u78">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg98">Meneer Mulder, en wat is nu uw concrete vraag aan de staatssecretaris?</seg>
+            </u>
+            <note type="speaker">De heer Edgar Mulder (PVV)</note>
+            <u who="#EdgarMulder"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u79">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg99">Voer deze motie uit! Zet het onmiddellijk stop. Het kan. Het is bekend waar het probleem ligt. Het kan niet zo zijn dat wij over een jaar weer hier staan, alleen omdat de staatssecretaris niets wil doen.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u80">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg100">De staatssecretaris wil heel graag wat doen, maar dan wel iets wat verstandig is. De kern van het verhaal is dat ik graag met u over dit onderwerp nader in gesprek ga. We zijn heel goed aan het kijken naar oplossingen. Dat doe ik overigens ook samen met mijn collega van Sociale Zaken, beter gezegd inmiddels de minister van Sociale Zaken, want er is daar geen staatssecretaris meer. Wij gaan daarmee aan de slag en komen daar graag op terug. Deze motie moet ik helaas ontraden.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u81">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg101">De motie op stuk nr. 837: ontraden.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u82">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg102">Dan ga ik door naar de motie op stuk nr. 838 van de heer Azarkan, om met een aangepast plan te komen om de Commissie Werkelijke Schade in staat te stellen de hersteloperatie uiterlijk in 2024 te kunnen afronden. Die motie krijgt wat mij betreft oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u83">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg103">De motie op stuk nr. 838: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u84">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg104">Dan de motie op stuk nr. 839, ook van de heer Azarkan. Die gaat over het actief informeren van ondernemers die in de problemen zijn gekomen. Wij hebben eerder al over dit onderwerp gesproken. Voor bureaus die gedupeerd zijn, staat het civielrecht open. Zij kunnen zich ook bij ons melden wanneer zij problemen hebben ondervonden of in de situatie zijn gekomen dat zij zeggen gedupeerd te zijn door het handelen van de Belastingdienst. Die mogelijkheid is er en wordt door een aantal van deze bureaus ook gebruikt. Daarmee wil ik deze motie dan ook ontraden.</seg>
+            </u>
+            <note type="speaker">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u85">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg105">Ik wil wel aangeven dat dit ook exact het antwoord was dat is gegeven op vragen die in 2017 en 2018 gesteld zijn door ouders. Als er ouders zijn die zich gedupeerd voelen, kunnen zij zich melden, civielrechtelijk. Ik vind dat onterecht omdat het gaat om het handelen van de Belastingdienst. Dat was aantoonbaar onrechtmatig. Die bureaus zijn er. Toch houd ik de motie nog even aan. Ik wil toch even kijken of ik de motie iets kan aanpassen, dus ik houd deze motie even aan. Maar het gaat hier echt om een groep bureaus die onrecht is aangedaan.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u86">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg106">Op verzoek van de heer Azarkan stel ik voor zijn motie (31066, nr. 839) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg107">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u87">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg108">Dank u wel, voorzitter. Dan ga ik naar de motie op stuk nr. 840 van de heer Azarkan. Die verzoekt om op een laagdrempelige wijze informatie ter beschikking te stellen. Dat gaat over FSV. Wij spraken daar net al over: op 22 juni is daarover een debat met mijn collega Vijlbrief. Ik begrijp de intentie goed van wat hier staat. De vraag is of het mogelijk is om op een makkelijkere manier informatie te krijgen als je zo'n brief hebt ontvangen dat je geregistreerd bent in FSV. Er lijken nog wat juridische haken en ogen aan te zitten of dat ook daadwerkelijk op deze manier kan, maar mijn collega komt daar graag bij u op terug. Ik zou willen voorstellen om deze motie aan te houden tot het debat van 22 juni, want dan kunnen we er ook voor zorgen dat daar antwoord op komt.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u88">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg109">En anders is het oordeel "ontraden"?</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u89">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg110">Anders is het oordeel op dit moment "ontraden", want ik kan niet zien of dit juridisch ook haalbaar is. Ik snap de intentie, maar we moeten er gewoon even naar kijken of dit ook kan.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u90">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg111">De motie op stuk nr. 840: ontraden.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u91">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg112">Of aanhouden, maar daar gaat de heer Azarkan over.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u92">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg113">Dat is aan de indiener.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u93">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg114">De motie op stuk nr. 841, ook van de heer Azarkan, verzoekt de regering om het onderzoek naar FSV te versnellen, zodat het uiterlijk op 1 september opgeleverd kan worden. We hebben aangegeven dat het onze intentie is om dit onderzoek in september af te ronden. Op dit moment is 1 september dus geen haalbare kaart. Om die reden zou ik deze motie moeten ontraden. Overigens verwijs ik hier ook naar het debat van 22 juni met mijn collega Vijlbrief over dit onderwerp.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u94">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg115">Motie op stuk nr. 841: ontraden. Daarover is er een vraag van de heer Azarkan, die nu naar de interruptiemicrofoon snelt.</seg>
+            </u>
+            <note type="speaker">De heer Azarkan (DENK)</note>
+            <u who="#FaridAzarkan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u95">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg116">Voorzitter. Ik houd deze motie aan.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u96">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg117">Op verzoek van de heer Azarkan stel ik voor zijn motie (31066, nr. 841) aan te houden.</seg>
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg118">Daartoe wordt besloten.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u97">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg119">Dan de motie op stuk nr. 842. Die gaat over het ontwikkelen van een specifiek plan van aanpak om Nederlanders die in het kader van deze problematiek naar het buitenland zijn gevlucht, te ondersteunen bij de terugkeer naar Nederland. Ik laat deze motie graag aan het oordeel van de Kamer.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u98">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg120">De motie op stuk nr. 842: oordeel Kamer.</seg>
+            </u>
+            <note type="speaker">Staatssecretaris Van Huffelen</note>
+            <u who="#AlexandravanHuffelen"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u99">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg121">Dan de motie van de heer Van Raan en mevrouw Simons op stuk nr. 843, de laatste motie, die gaat over het centraal stellen van het proces van heling in het traject van herstel van ouders. Ik denk dat dat een heel belangrijk thema is, dat ook naar voren kwam in de discussies die ik recent, gisteren nog, daarover heb gevoerd, ook met de minister-president. Hoe kun je nou ervoor zorgen dat er straks niet alleen maar financiële compensatie is, er misschien dingen zijn geregeld rondom schulden en er wellicht hulp is geweest bij werk of bij huisvesting, maar creëer je ook een situatie waarin het proces voor ouders kan worden afgerond? Dat wil niet zeggen dat de pijn uit het verleden niet zal blijven. We kunnen veel van wat er gebeurd is, niet herstellen. Maar het is wel van belang dat dat een goed proces is. We voeren daarover ook intensieve gesprekken met deskundigen op dit gebied. We werken eraan om daar een pilot rondom te organiseren. Een van de pilots waar we het over hebben, gaat specifiek over het onderwerp heling. Daar gaan we al op heel korte termijn mee starten. Ik kom dus graag terug op hoe dat vorm zou kunnen krijgen en wil deze motie daarmee dan ook oordeel Kamer geven.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u100">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg122">De motie op stuk nr. 843: oordeel Kamer. Daarmee komen we aan het eind van dit tweeminutendebat.</seg>
+            </u>
+            <note type="comment">De beraadslaging wordt gesloten.</note>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.u101">
+               <seg xml:id="ParlaMint-NL_2021-06-09-tweedekamer-3.seg123">Ik dank de staatssecretaris voor haar beantwoording en de leden voor hun inbreng. Ik schors de vergadering voor enkele ogenblikken. Ik dank ook alle ouders, betrokkenen en familieleden die hier vandaag aanwezig waren of die het thuis hebben gevolgd.</seg>
+            </u>
+            <note type="comment">De vergadering wordt enkele ogenblikken geschorst.</note>
+            <note type="comment"/>
+         </div>
+      </body>
+   </text>
 </TEI>
