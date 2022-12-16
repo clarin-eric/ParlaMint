@@ -1,5 +1,6 @@
 ## Insert minister affiliations from TSV file into a root file.
-MC = BE
+## Fixed: BE ES HR LT LV PL TR
+MC = TR
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3 = ${V3}/ParlaMint-${MC}/ParlaMint-${MC}.xml
@@ -9,7 +10,6 @@ insert-ministries-v2:
 	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN2} > ${OUT} 2> ParlaMint_ministers-${MC}.log
 	#${vrt} ${OUT}
 	${s} -xsl:${RUN}/check-links.xsl ${OUT}
-	grep '"minister"' ${OUT}
 insert-ministries-v3:
 	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3} > ${OUT}
 	${vrt} ${OUT}

@@ -114,7 +114,7 @@
 			     @xml:id, '&#34;')"/>
         <xsl:for-each select="$minister/tei:affiliation">
           <xsl:message select="concat('INFO: Inserting affiliation &#34;', 
-                               @ana, '&#34; from &#34;', @from, '&#34; to &#34;', 
+                               @role, '&#34; from &#34;', @from, '&#34; to &#34;', 
 			       @to, '&#34;')"/>
           <xsl:copy-of select="."/>
         </xsl:for-each>
