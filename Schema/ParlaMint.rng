@@ -715,6 +715,13 @@
     </mixed>
   </define>
   
+  <define name="non-empty.string">
+    <a:documentation>A string that is non-empty and does not contain white-space.</a:documentation>
+    <data type="string">
+      <param name="pattern">\S+</param>
+    </data>
+  </define>
+  
   <define name="normalized-space.string">
     <a:documentation>A string that is non-empty, does not start or end with white-space, and
     contains only ordinary spaces as spacing characters.</a:documentation>

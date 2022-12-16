@@ -10,7 +10,9 @@
             <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR, session 52 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="el">Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΖ, σύνοδος Α', συνεδρίαση ΝΒ', 2016-01-07</title>
             <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 17, session 1, sitting 52, 2016-01-07</title>
-            <meeting n="ΙΖ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ"/>
+            <meeting n="17" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΖ"/>
+            <meeting n="1" corresp="#PoGR" ana="#parla.uni #parla.session"/>
+            <meeting n="52" corresp="#PoGR" ana="#parla.uni #parla.sitting"/>
             <respStmt>
                <persName>Δημήτρης Γκούμας</persName>
                <persName>Βασίλης Παπαβασιλείου</persName>
@@ -35,8 +37,8 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="35">35 ομιλίες</measure>
             <measure xml:lang="en" unit="speeches" quantity="35">35 speeches</measure>
-            <measure xml:lang="el" unit="words" quantity="6669">6669 λέξεις</measure>
-            <measure xml:lang="en" unit="words" quantity="6669">6669 words</measure>
+            <measure xml:lang="el" unit="words" quantity="6406">6406 λέξεις</measure>
+            <measure xml:lang="en" unit="words" quantity="6406">6406 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -58,7 +60,7 @@
                         .
                     </p>
             </availability>
-            <date when="2022-08-31">2022-08-31</date>
+            <date when="2022-11-28">2022-11-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -83,10 +85,13 @@
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="u" occurs="35"/>
                <tagUsage gi="seg" occurs="154"/>
-               <tagUsage gi="desc" occurs="2"/>
+               <tagUsage gi="desc" occurs="3"/>
+               <tagUsage gi="note" occurs="37"/>
                <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="gap" occurs="1"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -100,17 +105,29 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-08-31">
+         <change when="2022-11-28">
             <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
          <div type="debateSection">
+            <head>ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
+            <head type="term">ΙΖ ΠΕΡΙΟΔΟΣ</head>
+            <head>ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
+            <head type="session">ΣΥΝΟΔΟΣ Α'</head>
+            <head type="sitting">ΣΥΝΕΔΡΙΑΣΗ ΝΒ'</head>
+            <head type="date">Πέμπτη 7 Ιανουαρίου 2016</head>
+            <gap reason="editorial">
+               <desc xml:lang="en">The frontmatter of the document has been removed</desc>
+            </gap>
+            <note>Αθήνα, σήμερα στις 7 Ιανουαρίου 2016, ημέρα Πέμπτη και ώρα 9.35΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Δ΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ.</note>
+            <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
             <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u1"
                ana="#chair"
                who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
                <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg1">Αγαπητοί συνάδελφοι, καλημέρα σας. Αρχίζει η συνεδρίαση.</seg>
+               <note>ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ: Σύμφωνα με την από 22-12-2015 εξουσιοδότηση του Σώματος επικυρώθηκαν με ευθύνη του Προεδρείου τα Πρακτικά της ΝΑ΄ συνεδριάσεώς του, της Τρίτης 22 Δεκεμβρίου 2015, σε ό,τι αφορά α) την ψήφιση στο σύνολο του σχεδίου νόμου «Σύμφωνο συμβίωσης, άσκηση δικαιωμάτων, ποινικές και άλλες διατάξεις» καθώς και β) τα Πρακτικά των συνεδριάσεων της Παρασκευής 23 Οκτωβρίου 2015 και Σαββάτου 24 Οκτωβρίου 2015</note>
                <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg2">Εύχομαι καλή και δημιουργική χρονιά - όχι περίοδο, αλλά χρονιά - στο Κοινοβούλιο.</seg>
                <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg3">Βεβαίως, δεν θα πω ότι ξεκινάμε με τους καλύτερους οιωνούς, διότι πλην του κ. Αλεξιάδη και του κ. Σπίρτζη που είναι παρόντες και θα απαντήσουν στις δύο ερωτήσεις των συναδέλφων κ. Αλέξανδρου Τριανταφυλλίδη και του κ. Βασιλείου Κεγκέρογλου, οι υπόλοιπες επίκαιρες ερωτήσεις αναβάλλονται λόγω κωλύματος των κυρίων Υπουργών. Ας θεωρήσουμε ότι είναι ακόμα το εορταστικό δεκαπενθήμερο και ότι από Δευτέρα θα είναι όλα καλύτερα.</seg>
                <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg4">Έχω την τιμή να ανακοινώσω στο Σώμα το δελτίο επίκαιρων ερωτήσεων της Παρασκευής 8 Ιανουαρίου 2016.</seg>
@@ -128,6 +145,7 @@
                <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg16">Θα συζητηθεί η πρώτη με αριθμό 327/15-12-2015 επίκαιρη ερώτηση πρώτου κύκλου του Βουλευτή Α΄ Θεσσαλονίκης του Συνασπισμού Ριζοσπαστικής Αριστεράς κ. Αλέξανδρου Τριανταφυλλίδη προς τον Υπουργό Οικονομικών, σχετικά με τον σχεδιασμό της πολιτείας για την πάταξη του παράνομου τζόγου και του ηλεκτρονικού στοιχήματος ύψους 5,5 δισεκατομμυρίων ευρώ, ώστε να εισφέρει έσοδα στο Δημόσιο Ταμείο.</seg>
                <seg xml:id="ParlaMint-GR_2016-01-07-S1-commons.seg17">Κύριε Τριανταφυλλίδη, χρόνια πολλά, καλή χρονιά! Έχετε τον λόγο.</seg>
             </u>
+            <note type="speaker">ΑΛΕΞΑΝΔΡΟΣ ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ</note>
             <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u2"
                ana="#regular"
                who="#ΤΡΙΑΝΤΑΦΥΛΛΙΔΗΣ_ΓΕΩΡΓΙΟΥ_ΑΛΕΞΑΝΔΡΟΣ_ΑΛΕΚΟΣ">
@@ -154,6 +172,7 @@
             <vocal type="shouting">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
+            <note type="speaker">ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):</note>
             <u xml:id="ParlaMint-GR_2016-01-07-S1-commons.u35"
                ana="#chair"
                who="#ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ">
