@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!-- Finalize the encoding of a ParlaMint corpus (Source language version) -->
-<!-- Takes root file as input, and outputs it and all finalized component files to outDir:
+<!-- Takes root file as input, and outputs it, any of its factorised pieces 
+     and all finalized component files to outDir:
      - set release date to today
      - set version and handles for 3.0
      - set correct subcorpus
@@ -81,8 +82,14 @@
 
   <!-- Gather URIs of component xi + files and map to new files, incl. .ana files -->
   <xsl:variable name="docs">
-    <xsl:for-each select="/tei:teiCorpus/xi:include">
+    <xsl:for-each select="//xi:include">
       <item>
+	<xsl:attribute name="type">
+	  <xsl:choose>
+	    <xsl:when test="ancestor::tei:teiHeader">factorised</xsl:when>
+	    <xsl:otherwise>component</xsl:otherwise>
+	  </xsl:choose>
+	</xsl:attribute>
         <xi-orig>
           <xsl:value-of select="@href"/>
         </xi-orig>
@@ -101,7 +108,7 @@
   
   <!-- Numbers of words in component .ana files -->
   <xsl:variable name="words">
-    <xsl:for-each select="$docs/tei:item">
+    <xsl:for-each select="$docs/tei:item[@type = 'component']">
       <item n="{tei:xi-orig}">
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
@@ -126,7 +133,7 @@
   
   <!-- Numbers of speeches in component files -->
   <xsl:variable name="speeches">
-    <xsl:for-each select="$docs/tei:item">
+    <xsl:for-each select="$docs/tei:item[@type = 'component']">
       <item>
         <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//
                               tei:extent/tei:measure[@unit = 'speeches'][1]/@quantity"/>
@@ -137,7 +144,7 @@
   <!-- Get tagUsages in component files -->
   <xsl:variable name="tagUsages">
     <xsl:variable name="tUs">
-      <xsl:for-each select="$docs/tei:item/document(tei:url-orig)/
+      <xsl:for-each select="$docs/tei:item[@type = 'component']/document(tei:url-orig)/
                             tei:TEI/tei:teiHeader//tei:tagUsage">
         <xsl:sort select="@gi"/>
         <xsl:copy-of select="."/>
@@ -166,9 +173,18 @@
       <xsl:variable name="this" select="tei:xi-orig"/>
       <xsl:message select="concat('INFO: Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
-        <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
-        <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
-        </xsl:apply-templates>
+	<xsl:choose>
+	  <!-- Copy over factorised parts of corpus root teiHeader -->
+	  <xsl:when test="@type = 'factorised'">
+            <xsl:copy-of select="document(tei:url-orig)"/>
+	  </xsl:when>
+	  <!-- Process component -->
+	  <xsl:when test="@type = 'component'">
+            <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
+              <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
+            </xsl:apply-templates>
+	  </xsl:when>
+	</xsl:choose>
       </xsl:result-document>
     </xsl:for-each>
     <!-- Output Root file -->
@@ -344,13 +360,13 @@
       <xsl:variable name="quant">
         <xsl:choose>
           <xsl:when test="@unit='sessions'">
-            <xsl:value-of select="count($docs/tei:item)"/>
+            <xsl:value-of select="count($docs/tei:item[@type = 'component'])"/>
           </xsl:when>
           <xsl:when test="@unit='speeches'">
-            <xsl:value-of select="sum($speeches/tei:item)"/>
+            <xsl:value-of select="sum($speeches/tei:item[@type = 'component'])"/>
           </xsl:when>
           <xsl:when test="@unit='words'">
-            <xsl:value-of select="sum($words/tei:item)"/>
+            <xsl:value-of select="sum($words/tei:item[@type = 'component'])"/>
           </xsl:when>
         </xsl:choose>
       </xsl:variable>

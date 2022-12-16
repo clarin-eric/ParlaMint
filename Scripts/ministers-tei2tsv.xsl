@@ -39,7 +39,7 @@
       <xsl:message select="concat('INFO: Getting ', $path)"/>
       <xsl:message select="concat('INFO: Creating ', $outFile)"/>
       <xsl:result-document href="{$outFile}" method="text">
-        <xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Name-xx&#9;Name-en&#9;Comment&#10;</xsl:text>
+        <xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Name-xx&#9;Name-en&#9;URL&#9;Comment&#10;</xsl:text>
         <xsl:variable name="content">
           <xsl:variable name="rootHeader">
             <xsl:apply-templates mode="XInclude" select="document($href)//tei:teiHeader"/>
@@ -56,7 +56,7 @@
           <xsl:otherwise>
             <xsl:for-each select="1 to $maxLines">
               <xsl:value-of select="concat($country, '&#9;', '-', '&#9;', 'minister', '&#9;', 
-                '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
+                '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
             </xsl:for-each>
           </xsl:otherwise>
         </xsl:choose>
@@ -123,6 +123,9 @@
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
+    <!-- URL, NOT YET IMPLEMENTED! -->
+    <xsl:text>&#9;</xsl:text>
+    <xsl:text>-</xsl:text>
     <!-- Comment -->
     <xsl:text>&#9;</xsl:text>
     <xsl:text>-</xsl:text>
