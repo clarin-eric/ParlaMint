@@ -626,7 +626,7 @@ insert-orientation-test-val:
 
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
-	$s outDir=Data/Metadata/Ministers2 -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+	$s outDir=Data/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Insert minister affiliations from TSV file into a root file.
 MC = BE
