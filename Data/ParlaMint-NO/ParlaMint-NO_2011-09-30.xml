@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="nob"
+     xml:id="ParlaMint-NO_2011-09-30"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nob">Norsk parlamentarisk korpus ParlaMint-NO, 2011-09-30 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO, 2011-09-30 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2011-2012, møtedag 2011-09-30</title>
+            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2011-2012, Sitting day 2011-09-30</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#ST" n="2011-09-30">Sitting day 2011-09-30</meeting>
+            <meeting ana="#parla.uni #parla.session #ST.2011-2012"
+                     corresp="#ST"
+                     n="2011-2012">Session 2011-2012</meeting>
+            <meeting ana="#parla.uni #parla.term #ST.2009-2013"
+                     corresp="#ST"
+                     n="2009-2013">Term 2009-2013</meeting>
+            <respStmt>
+               <persName>Lars Magne Tungland</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">National Library of Norway</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="2" unit="speeches" xml:lang="en">2 speeches</measure>
+            <measure quantity="2" unit="speeches" xml:lang="nob">2 taler</measure>
+            <measure quantity="349" unit="words" xml:lang="en">349 words</measure>
+            <measure quantity="349" unit="words" xml:lang="nob">349 ord</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2022-12-16">2022-12-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Norwegian Parliament</title>
+               <publisher xml:lang="en">The Norwegian Parliament</publisher>
+               <idno type="URI">https://data.stortinget.no/eksport/publikasjon?publikasjonid=s110930</idno>
+               <date when="2011-09-30">30.09.11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="3"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="150"/>
+               <tagUsage gi="seg" occurs="11"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Stortinget</name>
+               <name type="address">Karl Johans Gate 22</name>
+               <name type="city">0026 Oslo</name>
+               <name type="country" key="NO">Norway</name>
+               <date ana="#parla.sitting" when="2011-09-30">30.09.11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2022-12-16">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2021-01-29">
+            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>Møte fredag den 30. september 2011 kl. 13</head>
+            <note type="comment">Dag Terje Andersen</note>
+            <note type="comment">Dagsorden</note>
+            <note type="comment">(nr. 108):</note>
+            <note type="comment">1.</note>
+            <note type="comment">Referat</note>
+            <u who="#person.DTA"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2011-09-30.ud2525e18"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e19">Da har Arne Arnesen for siste gang vært fremme og bukket for presidenten, i og med at han nå skal gå av med pensjon. Vi takker for at han har telt opp at vi er beslutningsdyktige.<note type="comment">(Applaus i salen)</note>
+               </seg>
+            </u>
+            <note type="comment">Statsråd Lisbeth Berg-Hansen</note>
+            <note type="comment">overbrakte 21 kgl. proposisjoner (se under Referat).</note>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <note type="comment">Sak nr. 1</note>
+            <note type="comment">[13:06:13]</note>
+            <note type="comment">Referat</note>
+            <note type="comment">1.</note>
+            <note type="comment">(395)</note>
+            <note type="comment">Statsministerens kontor melder at</note>
+            <note type="comment">1. lov om endringer i arbeidsmiljøloven og folketrygdloven mv. (raskere oppfølging og sanksjonering av brudd på regelverket ved arbeidstakers sykdom) (Lovvedtak 54 (2010–2011))</note>
+            <note type="comment">2. lov om endringer i introduksjonsloven og statsborgerloven (Lovvedtak 60 (2010–2011))</note>
+            <note type="comment">3. lov om endringar i lov 19. juni 1964 nr. 14 om avgift på arv og visse gaver (Lovvedtak 66 (2010–2011))</note>
+            <note type="comment">4. lov om endringar i lov 12. desember 1975 nr. 59 om dokumentavgift (Lovvedtak 67 (2010–2011))</note>
+            <note type="comment">5. lov om endringar i lov 13. juni 1980 nr. 24 om ligningsforvaltning (Lovvedtak 68 (2010–2011))</note>
+            <note type="comment">6. lov om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (Lovvedtak 69 (2010–2011))</note>
+            <note type="comment">7. lov om endring i lov 12. desember 2003 nr. 108 om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. (Lovvedtak 70 (2010–2011))</note>
+            <note type="comment">8. lov om endring i lov 21. desember 2007 nr. 119 om toll og vareførsel (Lovvedtak 71 (2010–2011))</note>
+            <note type="comment">9. lov om endringar i lov 19. juni 2009 nr. 58 om merverdiavgift (Lovvedtak 72 (2010–2011))</note>
+            <note type="comment">10. lov om endringer i merverdiavgiftsloven mv. (ny og enkel registrerings- og rapporteringsordning for tilbydere som leverer elektroniske tjenester fra utlandet) (Lovvedtak 73 (2010–2011))</note>
+            <note type="comment">11. lov om endringer i pengespilloven (ny revisorordning for Norsk Tipping AS og fordeling av overskudd fra bingoterminaler) (Lovvedtak 65 (2010–2011))</note>
+            <note type="comment">12. lov om folkehelsearbeid (folkehelseloven) (Lovvedtak 64 (2010–2011))</note>
+            <note type="comment">13. lov om kommunale helse- og omsorgstjenester m.m. (helse- og omsorgstjenesteloven) (Lovvedtak 63 (2010–2011))</note>
+            <note type="comment">14. lov om endringer i allmennaksjeloven og aksjeloven mv. (gjennomføring av direktiv 2009/109/EF) (Lovvedtak 57 (2010–2011))</note>
+            <note type="comment">15. lov om endringar i straffeprosesslova mv. (etterforskingsplikt mv.) (Lovvedtak 58 (2010–2011))</note>
+            <note type="comment">16. lov om endringar i aksjelova mv. (Lovvedtak 51 (2010–2011))</note>
+            <note type="comment">17. lov om endringer i lov om overføring av domfelte mv. (avtaler om soningsoverføring og prosedyre ved unntak fra spesialitetsprinsippet) (Lovvedtak 55 (2010–2011))</note>
+            <note type="comment">18. lov om endringer i straffegjennomføringsloven mv. (bøtetjeneste som alternativ til fengsel hvis boten ikke betales) (Lovvedtak 56 (2010–2011))</note>
+            <note type="comment">19. lov om endringer i pengespilloven (ny revisorordning for Norsk Tipping AS og fordeling av overskudd fra bingoterminaler) (Lovvedtak 74 (2010–2011))</note>
+            <note type="comment">20. lov om endringar i opplæringslova og privatskolelova (politiattest m.m.) (Lovvedtak 53 (2010–2011))</note>
+            <note type="comment">21. lov om endringer i petroleumsloven (Lovvedtak 75 (2010–2011))</note>
+            <note type="comment">22. lov om elsertifikater (Lovvedtak 61 (2010–2011))</note>
+            <note type="comment">– er sanksjonert under 24. juni 2011.</note>
+            <note type="comment">2.</note>
+            <note type="comment">(396)</note>
+            <note type="comment">Statsministerens kontor melder at</note>
+            <note type="comment">1. lov om endringer i vegtrafikkloven (gjennomføring av direktiv 2006/126/EF om førerkort) (Lovvedtak 40 (2010–2011))</note>
+            <note type="comment">– er sanksjonert under 26. august 2011.</note>
+            <note type="comment">3.</note>
+            <note type="comment">(397)</note>
+            <note type="comment">Statsministerens kontor melder at</note>
+            <note type="comment">1. endringer i friluftsloven og straffeloven (Lovvedtak 62 (2010–2011))</note>
+            <note type="comment">– er sanksjonert under 16. september 2011.</note>
+            <note type="comment">Enst.: Nr. 1–3 vedlegges protokollen.</note>
+            <note type="comment">4.</note>
+            <note type="comment">(398)</note>
+            <note type="comment">Endringer i arbeidsmarkedsloven (krav om politiattest for ansatte i bedrifter som tilbyr tiltaket varig tilrettelagt arbeid) (Prop. 132 L (2010–2011))</note>
+            <note type="comment">5.</note>
+            <note type="comment">(399)</note>
+            <note type="comment">Lov om arbeidstvister (arbeidstvistloven) og lov om lønnsnemnd i arbeidstvister (lønnsnemndloven) m.m. (Prop. 134 L (2010–2011))</note>
+            <note type="comment">6.</note>
+            <note type="comment">(400)</note>
+            <note type="comment">Felles ansvar for eit godt og anstendig arbeidsliv. Arbeidsforhold, arbeidsmiljø og sikkerheit (Meld. St. 29 (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 4–6 sendes arbeids- og sosialkomiteen.</note>
+            <note type="comment">7.</note>
+            <note type="comment">(401)</note>
+            <note type="comment">Endringer i svalbardmiljøloven (Prop. 147 L (2010–2011))</note>
+            <note type="comment">8.</note>
+            <note type="comment">(402)</note>
+            <note type="comment">En næring for framtida – om petroleumsvirksomheten (Meld. St. 28 (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 7 og 8 sendes energi- og miljøkomiteen.</note>
+            <note type="comment">9.</note>
+            <note type="comment">(403)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Per-Willy Amundsen, Solveig Horne, Robert Eriksson, Gjermund Hagesæter og Åge Starheim om å avgrense rett til kontantstøtte ut fra statsborgerskap (Dokument 8:171 S (2010–2011))</note>
+            <note type="comment">10.</note>
+            <note type="comment">(404)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Linda C. Hofstad Helleland, Sylvi Graham, Sonja Irene Sjøli og Svein Harberg om en bedre barnehage med mer mangfold og kvalitet (Dokument 8:172 S (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 9 og 10 sendes familie- og kulturkomiteen.</note>
+            <note type="comment">11.</note>
+            <note type="comment">(405)</note>
+            <note type="comment">Endringer i betalingssystemloven og finansieringsvirksomhetsloven mv. (gjennomføring av EØS-regler som svarer til direktiv 2009/44/EF og direktiv 2009/110/EF) (Prop. 139 L (2010–2011))</note>
+            <note type="comment">12.</note>
+            <note type="comment">(406)</note>
+            <note type="comment">Samtykke til å sette i kraft en skatteavtale mellom Norge og India, undertegnet i New Delhi 2. februar 2011 (Prop. 140 S (2010–2011))</note>
+            <note type="comment">13.</note>
+            <note type="comment">(407)</note>
+            <note type="comment">Samtykke til at Noreg sluttar seg til reform av styresamansetjing, kvotar og røysterett i IMF (Prop. 142 S (2010–2011))</note>
+            <note type="comment">14.</note>
+            <note type="comment">(408)</note>
+            <note type="comment">Lov om verdipapirfond (verdipapirfondloven) (Prop. 149 L (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 11–14 sendes finanskomiteen.</note>
+            <note type="comment">15.</note>
+            <note type="comment">(409)</note>
+            <note type="comment">Lov om kommunale vass- og avløpsanlegg (Prop. 136 L (2010–2011))</note>
+            <note type="comment">Enst.: Sendes kommunal- og forvaltningskomiteen som forelegger sitt utkast til innstilling for energi- og miljøkomiteen til uttalelse før innstilling avgis.</note>
+            <note type="comment">16.</note>
+            <note type="comment">(410)</note>
+            <note type="comment">Endringer i utlendingsloven (utvidet adgang til fengsling mv.) (Prop. 138 L (2010–2011))</note>
+            <note type="comment">17.</note>
+            <note type="comment">(411)</note>
+            <note type="comment">Endringer i utlendingsloven m.m. (høring av barn mv.) (Prop. 141 L (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 16 og 17 sendes kommunal- og forvaltningskomiteen.</note>
+            <note type="comment">18.</note>
+            <note type="comment">(412)</note>
+            <note type="comment">Riksrevisjonens undersøking av vedlikehald og sikring av kyrkjebygg (Dokument 3:10 (2010–2011))</note>
+            <note type="comment">19.</note>
+            <note type="comment">(413)</note>
+            <note type="comment">Riksrevisjonens undersøkelse av eiendomsforvaltningen i helseforetakene (Dokument 3:11 (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 18 og 19 sendes kontroll- og konstitusjonskomiteen.</note>
+            <note type="comment">20.</note>
+            <note type="comment">(414)</note>
+            <note type="comment">Endringar i sjølova (gjennomføring av direktiv 2009/18/EF om gransking av sjøulykker mv.) (Prop. 143 L (2010–2011))</note>
+            <note type="comment">21.</note>
+            <note type="comment">(415)</note>
+            <note type="comment">SAS AB – konvertible obligasjonslån (Prop. 145 S (2010–2011))</note>
+            <note type="comment">22.</note>
+            <note type="comment">(416)</note>
+            <note type="comment">Oppheving av hermetikkavgiftsloven og endringar i enkelte andre lover (Prop. 151 L (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 20–22 sendes næringskomiteen.</note>
+            <note type="comment">23.</note>
+            <note type="comment">(417)</note>
+            <note type="comment">Endringer i straffeloven, straffeprosessloven, straffegjennomføringsloven, konfliktrådsloven m.fl. (barn og straff) (Prop. 135 L (2010–2011))</note>
+            <note type="comment">24.</note>
+            <note type="comment">(418)</note>
+            <note type="comment">Lov om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre (arrestordreloven) og om samtykke til inngåing av avtale 28. juni 2006 mellom EU, Island og Noreg om overleveringsprosedyre mellom partane (Prop. 137 LS (2010–2011))</note>
+            <note type="comment">25.</note>
+            <note type="comment">(419)</note>
+            <note type="comment">Anskaffelse av nye redningshelikoptre i perioden 2013–2020 (Prop. 146 S (2010–2011))</note>
+            <note type="comment">26.</note>
+            <note type="comment">(420)</note>
+            <note type="comment">Endringer i aksjeloven mv. (nedsettelse av kravet til minste aksjekapital mv.) (Prop. 148 L (2010–2011))</note>
+            <note type="comment">27.</note>
+            <note type="comment">(421)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Anders B. Werp, André Oktay Dahl, Linda C. Hofstad Helleland, Arve Kambe og Ingjerd Schou om bekjempelse av 1 % MC-klubber (Dokument 8:173 S (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 23–27 sendes justiskomiteen.</note>
+            <note type="comment">28.</note>
+            <note type="comment">(422)</note>
+            <note type="comment">Samtykke til tiltredelse av protokoll av 15. mars 2000 om beredskap, aksjon og samarbeid ved forurensingsuhell med farlige og skadelige stoffer, til konvensjon av 30. november 1990 (Prop. 133 S (2010–2011))</note>
+            <note type="comment">29.</note>
+            <note type="comment">(423)</note>
+            <note type="comment">Endringer i vegtrafikklov 18. juni 1965 nr. 4 (utvidet adgang til pålegg om trafikksikkerhetstiltak mv.) (Prop. 144 L (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 28 og 29 sendes transport- og kommunikasjonskomiteen.</note>
+            <note type="comment">30.</note>
+            <note type="comment">(424)</note>
+            <note type="comment">Merutgifter til norske styrkers deltakelse i operasjonen i Libya i perioden 24. juni til 1. august 2011 (Prop. 150 S (2010–2011))</note>
+            <note type="comment">31.</note>
+            <note type="comment">(425)</note>
+            <note type="comment">Hjelp til tørkeofre på Afrikas Horn (Prop. 152 S (2010–2011))</note>
+            <note type="comment">Enst.: Nr. 30 og 31 sendes utenriks- og forsvarskomiteen.</note>
+            <note type="comment">32.</note>
+            <note type="comment">(426)</note>
+            <note type="comment">Saker som Stortinget ikke har behandlet i sesjonen 2010–2011 (Dokument 11 (2010–2011))</note>
+            <note type="comment">Enst.: Vedlegges protokollen.</note>
+            <u who="#person.DTA"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2011-09-30.ud2525e371"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e372">Da har vi kommet til det tidspunktet da vi skal avslutte det 155. storting, det andre storting i inneværende valgperiode. Presidenten vil kort nevne noe informasjon knyttet til den virksomheten vi har hatt i året som gikk.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e374">Stortinget har i løpet av dette året avholdt 107 møter. Fjorten møter ble avsluttet i tidsrommet mellom kl. 16 og 18. I tillegg er det avholdt 28 kveldsmøter. Åtte møter er gått utover den reglementsmessige tid, kl. 22, mens kun fire møter har vart utover kl. 24.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e376">Regjeringen har fremmet 183 saker for Stortinget, fordelt på 100 stortingsproposisjoner og 49 lovproposisjoner samt 4 kombinerte proposisjoner og 30 meldinger. Stortingsrepresentantene har fremmet 173 representantforslag.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e378">Komiteene har lagt fram 446 innstillinger. Regjeringen har bidratt til debattene i Stortinget med 13 redegjørelser i tillegg til trontalen og finanstalen.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e380">Antall spørsmål til den ordinære spørretimen har vært 298, mens det har vært 139 hovedspørsmål i den muntlige spørretimen.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e382">Regjeringen har besvart 124 interpellasjoner, og det er det høyeste antallet som noen gang har vært behandlet i løpet av et stortingsår.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e384">Skriftlige spørsmål til regjeringen er per i dag 1 967, og da er det igjen satt rekord i antall, med en økning på ca. 10 pst. fra forrige storting.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e386">Stortinget gjorde sju såkalte anmodningsvedtak.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e388">Møteavviklingen i Stortinget har gjennomgått noen endringer i løpet av det stortingsåret vi nå har bak oss. Vi har i større grad fullført møter uten å ta pause og sette kveldsmøte. Presidenten har inntrykk av at erfaringene med det er tilfredsstillende, men presidentskapet vil også ta med erfaringene fra denne høsten før vi foretar en endelig evaluering. Så får vi vurdere om det kan bli aktuelt å utvide praksisen med å fjerne pausen mellom formiddagsmøter og kveldsmøter ytterligere.</seg>
+               <seg xml:id="ParlaMint-NO_2011-09-30.segd2525e390">Til slutt vil presidenten takke alle som har vært involvert i Stortingets virksomhet i året som gikk, for innsatsen og erklærer forhandlingene i det 155. storting for avsluttet.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="commentSection">
+            <note type="comment">Møtet hevet kl. 13.09.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
