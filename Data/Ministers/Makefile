@@ -6,7 +6,7 @@ gen-persons-v3:
 
 ## Insert minister affiliations from TSV file into a root file.
 ## Fixed: BE ES HR LT LV PL TR
-MC = TR
+MC = SI
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3 = ${V3}/ParlaMint-${MC}/ParlaMint-${MC}.xml
