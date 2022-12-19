@@ -451,7 +451,7 @@
                         <orgName full="abb">AP</orgName>
                         <event from="2009-07-14" to="2017-01-26"><label xml:lang="en">existence</label></event>
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Атака_(партия)</idno>
-                        <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Attack_(political_party)</idno>
+                        <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Attack_(politicalParty)</idno>
 </org>
 <org role="parliamentaryGroup" xml:id="parliamentaryGroup.GERB" xml:lang="bg">
                         <orgName full="yes" xml:lang="bg">Парламентарна група: Партия ГЕРБ</orgName>
@@ -513,8 +513,10 @@
                         <orgName full="abb">RP</orgName>
                         <event from="2021-12-03"><label xml:lang="en">existence</label></event>
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Възраждане_(партия_в_България)</idno>
-                        <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Revival_(Bulgarian_political_party)</idno>
-</org><!-- party -->
+                        <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Revival_(Bulgarian_politicalParty)</idno>
+</org>
+
+<!-- party -->
 <org role="politicalParty" xml:id="party.GERB">
                         <orgName full="yes" xml:lang="bg">Граждани за европейско развитие на България</orgName>
                         <orgName full="abb" xml:lang="en">GERB</orgName>
@@ -531,6 +533,7 @@
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Българска_социалистическа_партия</idno>
                         <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Bulgarian_Socialist_Party</idno>
 </org>
+
 <org role="politicalParty" xml:id="party.KPB">
                         <orgName full="yes" xml:lang="bg">Комунистическа партия на България</orgName>
                         <orgName full="yes" xml:lang="en">Communist Party of Bulgaria</orgName>
@@ -539,6 +542,7 @@
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Комунистическа_партия_на_България</idno>
                         <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Communist_Party_of_Bulgaria</idno>
 </org>
+
 <org role="politicalParty" xml:id="party.ZS">
                         <orgName full="yes" xml:lang="bg">Земеделски съюз „Александър Стамболийски“</orgName>
                         <orgName full="yes" xml:lang="en">Agrarian Union "Aleksandar Stamboliyski"</orgName>
@@ -547,6 +551,8 @@
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Земеделски_съюз_„Александър_Стамболийски“</idno>
                         <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Agrarian_Union_"Aleksandar_Stamboliyski"</idno>
 </org>
+
+
 <org role="politicalParty" xml:id="party.NZ">
                         <orgName full="yes" xml:lang="bg">Нова зора</orgName>
                         <orgName full="yes" xml:lang="en">New Dawn</orgName>
@@ -561,6 +567,8 @@
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Независимо_сдружение_„Екогласност“</idno>
                         <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Ecoglasnost</idno>
 </org>
+
+
 <org role="politicalParty" xml:id="party.DPS">
                         <orgName full="yes" xml:lang="bg">Движение за права и свободи</orgName>
                         <orgName full="yes" xml:lang="en">Movement for Rights and Freedoms</orgName>
@@ -569,6 +577,7 @@
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Движение_за_права_и_свободи</idno>
                         <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Movement_for_Rights_and_Freedoms</idno>
 </org>
+
 <org role="politicalParty" xml:id="party.VMRO">
                         <orgName full="yes" xml:lang="bg">ВМРО – Българско национално движение</orgName>
                         <orgName full="yes" xml:lang="en">IMRO – Bulgarian National Movement</orgName>
@@ -591,7 +600,7 @@
                         <orgName full="yes" xml:lang="en">Attack</orgName>
                         <event from="2005-04-17"><label xml:lang="en">existence</label></event>
                         <idno subtype="wikimedia" type="URI" xml:lang="bg">https://bg.wikipedia.org/wiki/Атака_(партия)</idno>
-                        <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Attack_(political_party)</idno>
+                        <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Attack_(politicalParty)</idno>
 </org>
 <org role="politicalParty" xml:id="party.VOLYA">
                         <orgName full="abb" xml:lang="bg">ВОЛЯ</orgName>
@@ -638,107 +647,58 @@
 
                     <!-- Партии в Народно събрание -->
                     <!-- Parties in Bulgarian parliament -->
-<org role="political_party" xml:id="party.GERB">
-                        <orgName xml:lang="bg">Граждани за европейско развитие на България</orgName>
-                        <orgName full="init" xml:lang="en">GERB</orgName>
-                        <orgName full="init">ГЕРБ</orgName>
-                        <event from="2006-12-03"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/ГЕРБ</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/GERB</idno>
-</org>
 
-<org role="political_party" xml:id="party.BSP">
-                        <orgName xml:lang="bg">Българска социалистическа партия</orgName>
-                        <orgName xml:lang="en">Bulgarian Socialist Party</orgName>
-                        <orgName full="init">БСП</orgName>
-                        <event from="1891-07-20"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Българска_социалистическа_партия</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Bulgarian_Socialist_Party</idno>
-</org>
 
-<org role="political_party" xml:id="party.DPS">
-                        <orgName xml:lang="bg">Движение за права и свободи</orgName>
-                        <orgName xml:lang="en">Movement for Rights and Freedoms</orgName>
-                        <orgName full="init">ДПС</orgName>
-                        <event from="1990-01-04"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Движение_за_права_и_свободи</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Movement_for_Rights_and_Freedoms</idno>
-</org>
 
-<org role="political_party" xml:id="party.ATAKA">
-                        <orgName xml:lang="bg">Атака</orgName>
-                        <orgName xml:lang="en">Attack</orgName>
-                        <event from="2005-04-17"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Атака_(партия)</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Attack_(political_party)</idno>
-</org>
 
-<org role="political_party" xml:id="party.VMRO">
-                        <orgName xml:lang="bg">ВМРО – Българско национално движение</orgName>
-                        <orgName xml:lang="en">IMRO – Bulgarian National Movement</orgName>
-                        <orgName full="init">ВМРО–БНД</orgName>
-                        <event from="1989"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/ВМРО_–_Българско_национално_движение</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/IMRO_%E2%80%93_Bulgarian_National_Movement</idno>
-</org>
-
-<org role="political_party" xml:id="party.FRONT">
-                        <orgName xml:lang="bg">Национален фронт за спасение на България</orgName>
-                        <orgName xml:lang="en">National Front for the Salvation of Bulgaria</orgName>
-                        <orgName full="init">НФСБ</orgName>
-                        <event from="2011-05-17"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Национален_фронт_за_спасение_на_България</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/National_Front_for_the_Salvation_of_Bulgaria</idno>
-</org>
-
-<org role="political_party" xml:id="party.ITN">
-                        <orgName xml:lang="bg">Има такъв народ</orgName>
-                        <orgName xml:lang="en">There is Such a People</orgName>
-                        <orgName full="init">ITN</orgName>
+<org role="politicalParty" xml:id="party.ITN">
+                        <orgName full="yes" xml:lang="bg">Има такъв народ</orgName>
+                        <orgName full="yes" xml:lang="en">There is Such a People</orgName>
+                        <orgName full="abb">ITN</orgName>
                         <event from="2020-02-16"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Има_такъв_народ</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/There_is_Such_a_People</idno>
 </org>
 
-<org role="political_party" xml:id="party.RUTO">
-                        <orgName xml:lang="bg">Изправи се! Мутри вън!</orgName>
-                        <orgName xml:lang="en">Rise up! Thugs out!</orgName>
-                        <orgName full="init">RUTO</orgName>
+<org role="politicalParty" xml:id="party.RUTO">
+                        <orgName full="yes" xml:lang="bg">Изправи се! Мутри вън!</orgName>
+                        <orgName full="yes" xml:lang="en">Rise up! Thugs out!</orgName>
+                        <orgName full="abb">RUTO</orgName>
                         <event from="2021-02-07" to="2021-07-20"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Коалиция_Изправи_се!_Мутри_вън!</idno>
 </org>
 
-<org role="political_party" xml:id="party.DABG">
-                        <orgName xml:lang="bg">„Да, България“</orgName>
-                        <orgName xml:lang="en">Yes, Bulgaria!</orgName>
-                        <orgName full="init">DABG</orgName>
+<org role="politicalParty" xml:id="party.DABG">
+                        <orgName full="yes" xml:lang="bg">„Да, България“</orgName>
+                        <orgName full="yes" xml:lang="en">Yes, Bulgaria!</orgName>
+                        <orgName full="abb">DABG</orgName>
                         <event from="2017-01-07"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Движение_„Да,_България“</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Yes,_Bulgaria!</idno>
 </org>
 
-<org role="political_party" xml:id="party.DSB">
-                        <orgName xml:lang="bg">Демократи за силна България</orgName>
-                        <orgName xml:lang="en">Democrats for a Strong Bulgaria</orgName>
-                        <orgName full="init">DSB</orgName>
+<org role="politicalParty" xml:id="party.DSB">
+                        <orgName full="yes" xml:lang="bg">Демократи за силна България</orgName>
+                        <orgName full="yes" xml:lang="en">Democrats for a Strong Bulgaria</orgName>
+                        <orgName full="abb">DSB</orgName>
                         <event from="2004-05-30"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Демократи_за_силна_България</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Democrats_for_a_Strong_Bulgaria</idno>
 </org>
 
-<org role="political_party" xml:id="party.GrMov">
-                        <orgName xml:lang="bg">Зелено движение</orgName>
-                        <orgName xml:lang="en">Green Movement</orgName>
-                        <orgName full="init">GrMov</orgName>
+<org role="politicalParty" xml:id="party.GrMov">
+                        <orgName full="yes" xml:lang="bg">Зелено движение</orgName>
+                        <orgName full="yes" xml:lang="en">Green Movement</orgName>
+                        <orgName full="abb">GrMov</orgName>
                         <event from="2004-05-30"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Зелено_движение</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Green_Movement_(Bulgaria)</idno>
 </org>
 
-<org role="political_party" xml:id="party.WCC">
-                        <orgName xml:lang="bg">Продължаваме промяната</orgName>
-                        <orgName xml:lang="en">We Continue the Change</orgName>
-                        <orgName full="init">WCC</orgName>
+<org role="politicalParty" xml:id="party.WCC">
+                        <orgName full="yes" xml:lang="bg">Продължаваме промяната</orgName>
+                        <orgName full="yes" xml:lang="en">We Continue the Change</orgName>
+                        <orgName full="abb">WCC</orgName>
                         <event from="2022-04-15"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Продължаваме_промяната</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/We_Continue_the_Change</idno>
@@ -804,36 +764,6 @@
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/БСП_за_България</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Coalition_for_Bulgaria</idno></org> -->
 
-<org role="political_party" xml:id="party.KPB">
-                        <orgName xml:lang="bg">Комунистическа партия на България</orgName>
-                        <orgName xml:lang="en">Communist Party of Bulgaria</orgName>
-                        <orgName full="init">КПБ</orgName>
-                        <event from="1996"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Комунистическа_партия_на_България</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Communist_Party_of_Bulgaria</idno>
-</org>
-<org role="political_party" xml:id="party.ZS">
-                        <orgName xml:lang="bg">Земеделски съюз „Александър Стамболийски“</orgName>
-                        <orgName xml:lang="en">Agrarian Union "Aleksandar Stamboliyski"</orgName>
-                        <orgName full="init">ЗС „Александър Стамболийски“</orgName>
-                        <event from="1993"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Земеделски_съюз_„Александър_Стамболийски“</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Agrarian_Union_"Aleksandar_Stamboliyski"</idno>
-</org>
-<org role="political_party" xml:id="party.NZ">
-                        <orgName xml:lang="bg">Нова зора</orgName>
-                        <orgName xml:lang="en">New Dawn</orgName>
-                        <orgName full="init">НЗ</orgName>
-                        <event from="1996-03"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Нова_зора_(партия)</idno>
-</org>
-<org role="ngo" xml:id="party.EKO">
-                        <orgName xml:lang="bg">Независимо сдружение „Екогласност“</orgName>
-                        <orgName xml:lang="en">Ecoglasnost</orgName>
-                        <event from="1989-04-11"><label xml:lang="en">existence</label></event>
-                        <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Независимо_сдружение_„Екогласност“</idno>
-                        <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Ecoglasnost</idno>
-</org>
 
 <!-- <org role="coalition" xml:id="party.PATR">
                         <orgName xml:lang="bg">Обединени патриоти</orgName>
@@ -844,14 +774,14 @@
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/United_Patriots</idno>
 </org> -->
 
-<org role="political_party" xml:id="party.VOLYA">
+<org role="politicalParty" xml:id="party.VOLYA">
                         <orgName xml:lang="bg">ВОЛЯ</orgName>
                         <orgName xml:lang="en">Volya Movement</orgName>
                         <event from="2007-07-15"><label xml:lang="en">existence</label></event>
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Воля_(партия)</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Volya_Movement</idno>
 </org>
-<org role="political_party" xml:id="party.ABV">
+<org role="politicalParty" xml:id="party.ABV">
                         <orgName xml:lang="bg">Алтернатива за българско възраждане</orgName>
                         <orgName xml:lang="en">Alternative for Bulgarian Revival</orgName>
                         <orgName full="init">АБВ</orgName>
@@ -859,7 +789,7 @@
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Алтернатива_за_българско_възраждане</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Alternative_for_Bulgarian_Revival</idno>
 </org>
-<org role="political_party" xml:id="party.BGUn">
+<org role="politicalParty" xml:id="party.BGUn">
                         <orgName from="2014-01-25" to="2017-01-07" xml:lang="bg">България без цензура</orgName>
                         <orgName from="2017-01-07" xml:lang="bg">Презареди БГ</orgName>
                         <orgName from="2014-01-25" to="2017-01-07" xml:lang="en">Bulgaria Uncensored</orgName>
@@ -868,7 +798,7 @@
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Презареди_БГ</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Reload_Bulgaria</idno>
 </org>
-<org role="political_party" xml:id="party.RB">
+<org role="politicalParty" xml:id="party.RB">
                         <orgName from="2013-12-20" xml:lang="bg">Реформаторски блок</orgName>
                         <orgName from="2013-12-20" xml:lang="en">Reformist Bloc</orgName>
                         <orgName full="init">РБ</orgName>
@@ -876,7 +806,7 @@
                         <idno type="wikimedia" xml:lang="bg">https://bg.wikipedia.org/wiki/Реформаторски_блок</idno>
                         <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Reformist_Bloc</idno>
 </org>
-<org role="political_party" xml:id="party.PF">
+<org role="politicalParty" xml:id="party.PF">
                         <orgName from="2014-08-03" to="2017-01-27" xml:lang="bg">Патриотичен фронт</orgName>
                         <orgName from="2014-08-03" to="2017-01-27" xml:lang="en">Patriotic Front</orgName>
                         <orgName full="init">ПФ</orgName>
