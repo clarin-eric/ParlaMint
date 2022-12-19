@@ -12,7 +12,6 @@
             <meeting n="7" corresp="#HS" ana="#parla.term #HS.7">7. mandat</meeting>
             <meeting n="8" corresp="#HS" ana="#parla.term #HS.8">8. mandat</meeting>
             <meeting n="9" corresp="#HS" ana="#parla.term #HS.9">9. mandat</meeting>
-            <meeting n="10" corresp="#HS" ana="#parla.term #HS.10">10. mandat</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
@@ -56,7 +55,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2022-12-15">December 15, 2022</date>
+            <date when="2022-12-19">December 19, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -95,15 +94,11 @@
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="11"/>
-               <tagUsage gi="desc" occurs="544"/>
                <tagUsage gi="div" occurs="11"/>
-               <tagUsage gi="gap" occurs="436"/>
-               <tagUsage gi="incident" occurs="1"/>
-               <tagUsage gi="kinesic" occurs="64"/>
+               <tagUsage gi="note" occurs="5364"/>
                <tagUsage gi="seg" occurs="5436"/>
                <tagUsage gi="text" occurs="11"/>
                <tagUsage gi="u" occurs="5364"/>
-               <tagUsage gi="vocal" occurs="43"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -693,66 +688,66 @@
                </org>
                <listRelation>
                   <relation name="coalition"
-                            mutual="#party.IDS #party.DC #party.LS #party.MDS #party.PGS #party.SDP #party.SBHS #party.HSLS #party.HSP #party.LIBRA #party.HNS"
+                            mutual="#party.MDS #party.IDS #party.SBHS #party.SDP #party.HSLS #party.LIBRA #party.PGS #party.LS #party.DC #party.HSP #party.HNS"
                             from="2003-12-22"
                             to="2007-10-12"
                             ana="#HS.5"/>
                   <relation name="opposition"
-                            active="#party.HDSSB #party.SDAH #party.HDZ #party.HSU #party.HSS #party.SDSS"
+                            active="#party.HSS #party.SDAH #party.HSU #party.SDSS #party.HDSSB #party.HDZ"
                             passive="#government.HR"
                             from="2003-12-22"
                             to="2007-10-12"
                             ana="#HS.5"/>
                   <relation name="coalition"
-                            mutual="#party.HSLS #party.HSS #party.HNS"
+                            mutual="#party.HSLS #party.HNS #party.HSS"
                             from="2008-01-11"
                             to="2011-10-28"
                             ana="#HS.6"/>
                   <relation name="opposition"
-                            active="#party.IDS #party.HDSSB #party.SDAH #party.HSU #party.HRVATSKI_LABURISTI #party.SDP #party.HSD #party.HSP #party.HDZ #party.SDSS"
+                            active="#party.IDS #party.SDP #party.SDAH #party.HSU #party.SDSS #party.HDSSB #party.HSD #party.HDZ #party.HSP #party.HRVATSKI_LABURISTI"
                             passive="#government.HR"
                             from="2008-01-11"
                             to="2011-10-28"
                             ana="#HS.6"/>
                   <relation name="coalition"
-                            mutual="#party.HSP_AS #party.IDS #party.DC #party.HSS #party.HSU #party.SDP #party.HGS #party.HDZ #party.HNS"
+                            mutual="#party.IDS #party.SDP #party.HSS #party.HSU #party.HSP_AS #party.HDZ #party.DC #party.HGS #party.HNS"
                             from="2011-12-22"
                             to="2015-09-25"
                             ana="#HS.7"/>
                   <relation name="opposition"
-                            active="#party.ID #party.HDSSB #party.NOVI_VAL #party.BDSH #party.NAPRIJED_HRVATSKA #party.HRVATSKI_LABURISTI #party.ORAH #party.REFORMISTI #party.SDSS"
+                            active="#party.ID #party.NOVI_VAL #party.REFORMISTI #party.BDSH #party.ORAH #party.SDSS #party.HDSSB #party.HRVATSKI_LABURISTI #party.NAPRIJED_HRVATSKA"
                             passive="#government.HR"
                             from="2011-12-22"
                             to="2015-09-25"
                             ana="#HS.7"/>
                   <relation name="coalition"
-                            mutual="#party.HDS #party.HSP_AS #party.BUZ #party.IDS #party.BM365 #party.HSS #party.REFORMISTI #party.HSU #party.HRAST #party.HRVATSKI_LABURISTI #party.SDP #party.HSLS #party.HDZ #party.HNS"
+                            mutual="#party.HRVATSKI_LABURISTI #party.BUZ #party.IDS #party.REFORMISTI #party.SDP #party.HSS #party.HSLS #party.HDZ #party.HSU #party.HRAST #party.HSP_AS #party.BM365 #party.HNS #party.HDS"
                             from="2015-12-03"
                             to="2016-07-15"
                             ana="#HS.8"/>
                   <relation name="opposition"
-                            active="#party.NLSP #party.HDSSB #party.HRID #party.ŽIVI_ZID #party.MOST #party.PH #party.SDSS"
+                            active="#party.MOST #party.PH #party.HRID #party.NLSP #party.SDSS #party.HDSSB #party.ŽIVI_ZID"
                             passive="#government.HR"
                             from="2015-12-03"
                             to="2016-07-15"
                             ana="#HS.8"/>
                   <relation name="coalition"
-                            mutual="#party.HDS #party.IDS #party.HDSSB #party.BM365 #party.SNAGA #party.HSS #party.ŽIVI_ZID #party.REFORMISTI #party.HSU #party.HRAST #party.PH #party.SDP #party.HSLS #party.HDZ #party.HNS"
+                            mutual="#party.IDS #party.REFORMISTI #party.SDP #party.HSS #party.HSLS #party.SNAGA #party.HDZ #party.HSU #party.PH #party.HRAST #party.HDSSB #party.ŽIVI_ZID #party.BM365 #party.HNS #party.HDS"
                             from="2016-10-14"
                             to="2020-05-18"
                             ana="#HS.9"/>
                   <relation name="opposition"
-                            active="#party.MOST #party.SMSH #party.SDSS #party.GLAS"
+                            active="#party.GLAS #party.SDSS #party.MOST #party.SMSH"
                             passive="#government.HR"
                             from="2016-10-14"
                             to="2020-05-18"
                             ana="#HS.9"/>
                   <relation name="coalition"
-                            mutual="#party.HDS #party.IDS #party.FOKUS #party.HDSSB #party.SIP #party.PAMETNO #party.HDZ #party.HSU #party.GLAS #party.SDP #party.DP #party.ZK #party.HSLS #party.HSS"
+                            mutual="#party.IDS #party.SDP #party.HSS #party.HSLS #party.HSU #party.GLAS #party.HDSSB #party.SIP #party.PAMETNO #party.DP #party.FOKUS #party.HDZ #party.ZK #party.HDS"
                             from="2020-07-22"
                             ana="#HS.10"/>
                   <relation name="opposition"
-                            active="#party.MOST #party.REFORMISTI #party.SDSS #party.HNS"
+                            active="#party.REFORMISTI #party.MOST #party.SDSS #party.HNS"
                             passive="#government.HR"
                             from="2020-07-22"
                             ana="#HS.10"/>
@@ -17226,7 +17221,11 @@
       <revisionDesc xml:lang="en">
          <change when="2022-10-18">
             <name>Peter Rupnik</name> Initial commit</change>
-         <change when="2022-12-15">
+         <change when="2022-12-19">
+            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
+         <change when="2022-12-19">
+            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
+         <change when="2022-12-19">
             <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
