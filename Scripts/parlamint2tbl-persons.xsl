@@ -44,7 +44,12 @@
     <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="et:format-name(tei:persName[1])"/>
     <xsl:text>&#9;</xsl:text>
-    <xsl:value-of select="tei:sex/@value"/>
+    <xsl:choose>
+      <xsl:when test="tei:sex/@value">
+	<xsl:value-of select="tei:sex/@value"/>
+      </xsl:when>
+      <xsl:otherwise>-</xsl:otherwise>
+    </xsl:choose>
     <xsl:text>&#10;</xsl:text>
   </xsl:template>
 </xsl:stylesheet>
