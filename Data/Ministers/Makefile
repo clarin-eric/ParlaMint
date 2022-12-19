@@ -5,7 +5,7 @@ gen-persons-v3:
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${IN3} > ${PER}
 
 ## Insert minister affiliations from TSV file into a root file.
-## Fixed: BE ES HR LT LV PL TR
+## Fixed: BE ES HR LT LV PL SI TR
 MC = SI
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml

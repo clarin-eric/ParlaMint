@@ -19,7 +19,7 @@
     <xsl:text>Country&#9;</xsl:text>
     <xsl:text>SpeakerID&#9;</xsl:text>
     <xsl:text>Name&#9;</xsl:text>
-    <xsl:text>Sex&#9;</xsl:text>
+    <xsl:text>Sex</xsl:text>
     <xsl:text>&#10;</xsl:text>
   </xsl:variable>
 
