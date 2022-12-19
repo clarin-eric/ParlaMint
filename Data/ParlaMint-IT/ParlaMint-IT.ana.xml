@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
-            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT [ParlaMint.ana]</title>
             <title type="sub" xml:lang="it">Resoconti del Senato della Repubblica italiana, legislature XVII e XVIII (2013 - 2022)</title>
             <title type="sub" xml:lang="en">Minutes of the Senate of the Italian Republic, terms 17 and 18 (2013 - 2022)</title>
             <meeting ana="#parla.upper #parla.term #LEG.17" corresp="#LEG" n="17-upper">XVII Legislatura</meeting>
@@ -51,11 +51,11 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure quantity="251685" unit="speeches" xml:lang="it">251.685 discorsi</measure>
-            <measure quantity="251685" unit="speeches" xml:lang="en">251,685 speeches</measure>
-            <measure quantity="0" unit="words" xml:lang="it">0 parole</measure>
-            <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
+         <extent>
+            <measure quantity="389" unit="speeches" xml:lang="it">389 discorsi</measure>
+            <measure quantity="389" unit="speeches" xml:lang="en">389 speeches</measure>
+            <measure quantity="23859" unit="words" xml:lang="it">23.859 parole</measure>
+            <measure quantity="23859" unit="words" xml:lang="en">23,859 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -77,7 +77,7 @@
             .
           </p>
             </availability>
-            <date when="2022-11-30">2022-11-30</date>
+            <date when="2022-12-19">December 19, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -117,19 +117,25 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+         <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1388"/>
-               <tagUsage gi="desc" occurs="74054"/>
-               <tagUsage gi="div" occurs="17089"/>
-               <tagUsage gi="head" occurs="13170"/>
-               <tagUsage gi="incident" occurs="1736"/>
-               <tagUsage gi="kinesic" occurs="62851"/>
-               <tagUsage gi="note" occurs="217158"/>
-               <tagUsage gi="seg" occurs="251685"/>
-               <tagUsage gi="text" occurs="1388"/>
-               <tagUsage gi="u" occurs="90617"/>
-               <tagUsage gi="vocal" occurs="9467"/>
+               <tagUsage gi="body" occurs="3"/>
+               <tagUsage gi="desc" occurs="29"/>
+               <tagUsage gi="div" occurs="31"/>
+               <tagUsage gi="head" occurs="27"/>
+               <tagUsage gi="incident" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="22"/>
+               <tagUsage gi="link" occurs="29979"/>
+               <tagUsage gi="linkGrp" occurs="1093"/>
+               <tagUsage gi="name" occurs="1302"/>
+               <tagUsage gi="note" occurs="261"/>
+               <tagUsage gi="pc" occurs="4228"/>
+               <tagUsage gi="s" occurs="1093"/>
+               <tagUsage gi="seg" occurs="389"/>
+               <tagUsage gi="text" occurs="3"/>
+               <tagUsage gi="u" occurs="239"/>
+               <tagUsage gi="vocal" occurs="5"/>
+               <tagUsage gi="w" occurs="27641"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -140,9 +146,9 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-NER.xml"/>
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.xml"/>
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -150,19 +156,21 @@
                <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
          </listPrefixDef>
-          <appInfo>
-			<application version="1" ident="Stanza">
-				<label>Stanza (UD_Italian-ISDT model)</label>
-					<desc xml:lang="en">POS tagging, lemmatization, morphological analysis and dependency parsing done with <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref> using the UD_Italian-ISDT  model (<ref target="https://stanfordnlp.github.io/stanza/available_models.html#available-ud-models">https://stanfordnlp.github.io/stanza/available_models.html#available-ud-models</ref>) based on the italian-isdt-ud-2.5 treebank.</desc>
-			</application>
-			<application version="1" ident="Stanza-NERProcessor">
-				<label>Stanza NERprocessor (FBK model)</label>
-					<desc xml:lang="en">NER is done with the <ref target="https://stanfordnlp.github.io/stanza/ner.html">Stanza NERprocessor</ref>, the named entity recognition (NER) module which recognizes mention spans of a particular entity type (Person, Location, Organization), using the FBK model (<ref target="https://stanfordnlp.github.io/stanza/ner_models.html">https://stanfordnlp.github.io/stanza/ner_models.html</ref>)</desc>
-			</application>
+         <appInfo>
+            <application version="1" ident="app-stanza">
+               <label>Stanza</label>
+               <desc xml:lang="en">
+                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref>: a jointly trained neural tagger, lemmatizer and dependency parser. Pretrained model based on the italian-isdt-ud-2.5 treebank</desc>
+            </application>
+            <application version="1" ident="app-stanza-NER">
+               <label>Stanza NER</label>
+               <desc xml:lang="en">
+                  <ref target="https://stanfordnlp.github.io/stanza/index.html">Stanza</ref> with pretrained NER italian-fbk-1.2.3 model (<ref target="https://stanfordnlp.github.io/stanza/ner_models.html">https://stanfordnlp.github.io/stanza/ner_models.html</ref>)</desc>
+            </application>
             <application version="1" ident="conll-U2TEIXML">
                <label>CoNLL-U 2 TEI XML</label>
                <desc xml:lang="en">
-                  <ref target="https://github.com/cnr-ilc/conllu2Parlamint_TEI">CoNLL-U 2 ParlaMint TEI</ref>: converter from CoNLL-U format to (ParlaClarin/ParlaMint) Tei XML Format</desc>
+                  <ref target="https://github.com/cnr-ilc/LinguisticallyAnnotatedCorpus-TEI-Parlamint-IT">CoNLL-U 2 TEI XML</ref>: converter from CoNLL-U format to (ParlaClarin/ParlaMint) Tei XML Format</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -191,10 +199,6 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change when="2022-11-30">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
-      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.xml"/>

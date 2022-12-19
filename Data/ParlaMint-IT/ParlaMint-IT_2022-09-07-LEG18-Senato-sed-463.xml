@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 463 Senato [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 463 Senate [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 18, Seduta 463 Senato [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 18, Sitting 463 Senate [ParlaMint]</title>
             <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)</title>
             <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)</title>
             <meeting ana="#parla.upper">Senato</meeting>
@@ -61,11 +61,11 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure quantity="38" unit="speeches" xml:lang="it">38 discorsi</measure>
-            <measure quantity="38" unit="speeches" xml:lang="en">38 speeches</measure>
-            <measure quantity="2034" unit="words" xml:lang="it"/>
-            <measure quantity="2034" unit="words" xml:lang="en"/>
+         <extent>
+            <measure quantity="42" unit="speeches" xml:lang="it">42 discorsi</measure>
+            <measure quantity="42" unit="speeches" xml:lang="en">42 speeches</measure>
+            <measure quantity="2100" unit="words" xml:lang="it">2.100 parole</measure>
+            <measure quantity="2100" unit="words" xml:lang="en">2,100 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -79,7 +79,7 @@
                <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2022-11-30">2022-11-30</date>
+            <date when="2022-12-19">December 19, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -100,7 +100,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
-         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+         <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="desc" occurs="8"/>
@@ -108,10 +108,10 @@
                <tagUsage gi="head" occurs="8"/>
                <tagUsage gi="incident" occurs="1"/>
                <tagUsage gi="kinesic" occurs="4"/>
-               <tagUsage gi="note" occurs="28"/>
-               <tagUsage gi="seg" occurs="38"/>
+               <tagUsage gi="note" occurs="26"/>
+               <tagUsage gi="seg" occurs="42"/>
                <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="u" occurs="19"/>
+               <tagUsage gi="u" occurs="23"/>
                <tagUsage gi="vocal" occurs="3"/>
             </namespace>
          </tagsDecl>
@@ -126,24 +126,17 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc>
-         <change when="2022-11-30">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
-      </revisionDesc>
    </teiHeader>
    <text ana="#covid" xml:lang="it">
       <body>
          <div type="debateSection">
-            <note type="president">Presidenza del vice presidente LA RUSSA</note>
+            <note type="speaker">Presidenza del vice presidente LA RUSSA</note>
             <note type="role">PRESIDENTE</note>
             <u ana="#chair"
                who="#LaRussaIgnazio"
                xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u1">
                <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg1">La seduta è aperta (ore 14,33). Si dia lettura del processo verbale. DURNWALDER, segretario, dà lettura del processo verbale della seduta del giorno precedente. PRESIDENTE. Non essendovi osservazioni, il processo verbale è approvato.</seg>
             </u>
-            <gap reason="editorial">
-               <desc xml:lang="en">SAMPLING</desc>
-            </gap>
          </div>
          <div type="debateSection">
             <head>Comunicazioni della Presidenza</head>
@@ -153,15 +146,188 @@
                xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u2">
                <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg2">L'elenco dei senatori in congedo e assenti per incarico ricevuto dal Senato, nonché ulteriori comunicazioni all'Assemblea saranno pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
             </u>
-            <gap reason="editorial">
-               <desc xml:lang="en">SAMPLING</desc>
-            </gap>
          </div>
          <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#LaRussaIgnazio"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u3">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg3">Informo l'Assemblea che all'inizio della seduta il Presidente del Gruppo MoVimento 5 Stelle ha fatto pervenire, ai sensi dell'articolo 113, comma 2, del Regolamento, la richiesta di votazione con procedimento elettronico per tutte le votazioni da effettuare nel corso della seduta. La richiesta è accolta ai sensi dell'articolo 113, comma 2, del Regolamento.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg4">Onorevoli colleghi, l'ordine del giorno di oggi prevede la discussione del disegno di legge di conversione del decreto-legge 9 agosto 2022, n. 115, recante misure urgenti in materia di energia, emergenza idrica, politiche sociali e industriali.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg5">Come sapete, le Commissioni riunite 5ᵃ e 6ᵃ hanno qualche problema nel definire i loro lavori: chiedo pertanto al presidente della 5ᵃ Commissione permanente, senatore Pesco, di riferirci in proposito.</seg>
+            </u>
+            <note type="speaker">PESCO (M5S)</note>
+            <u ana="#regular"
+               who="#PescoDaniele"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u4">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg6">Signor Presidente, i lavori delle Commissione riunite sono ancora in corso di svolgimento. Attualmente la seduta è sospesa, sono in atto interlocuzioni tra i Gruppi e il Governo e penso che non si potrà arrivare in Assemblea prima delle ore 16. Nel caso in cui dovessimo finire prima, sarà nostra premura informare l'Assemblea.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#LaRussaIgnazio"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u5">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg7">Se non ci sono osservazioni, propongo di sospendere la seduta fino alle ore 16.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg8">Onorevoli colleghi, se non dovessi più presiedere la seduta - vi preannunzio infatti, cosicché possiate essere presenti, che alle ore 16 ci sarà il Presidente, per la commemorazione di un parlamentare molto amato e non è dunque corretto che la anticipi io - voglio ringraziarvi per la cortesia con cui avete a volte risposto a un modo di presiedere non sempre ortodosso, ma spero non sgradevole.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg9">Sospendo pertanto la seduta fino alle ore 16. (La seduta, sospesa alle ore 14,37, è ripresa alle ore 16,12).</seg>
+            </u>
+            <note type="speaker">Presidenza del presidente ALBERTI CASELLATI</note>
+         </div>
+         <div type="debateSection">
+            <head>Sulla scomparsa di Niccolò Ghedini</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u6">
+               <incident type="action">
+                  <desc>Il Presidente e l'Assemblea si levano in piedi.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg10">Signori senatori, con grande commozione desidero iniziare questa seduta ricordando uno stimato collega, che dopo una difficile malattia ci ha lasciato lo scorso 17 agosto. Parlo di Niccolò Ghedini. Rievocarne il percorso umano e il percorso professionale è per me particolarmente doloroso, perché Niccolò era per me prima di tutto un caro amico, una di quelle presenze familiari che ho sempre sentito appartenere alla mia storia.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg11">Niccolò era un brillante avvocato e la nostra frequentazione nacque sotto l'egida del diritto. Il suo studio era a pochi metri di distanza dal mio e, pur avendo diverse specializzazioni (io civilista e Niccolò penalista), avevamo sviluppato una forte collaborazione professionale. Pacato e taciturno, grazie alle armi del diritto si trasformava in un autentico combattente. Studiava i suoi casi con cura quasi maniacale, interessandosi sempre ai risvolti umani, al di là degli aspetti giuridici.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg12">Poi venne l'esperienza politica. Coinvolto fin da universitario nell'attivismo giovanile, fu a metà degli anni '90, dopo l'esperienza come segretario della seconda giunta dell'Unione camere penali, che Niccolò scelse la politica come esperienza di vita, aderendo a Forza Italia: deputato nella XIV e nella XVI legislatura, senatore nella XV, nella XVII e nell'attuale legislatura.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg13">La comune passione politica ispirata dalla fede negli stessi ideali rinsaldò molto il mio legame con Niccolò. Ci univa, insieme agli impegni nazionali, lo straordinario rapporto con il territorio e con la comunità padovana e veneta, che ci ha portato spesso a confrontarci sulle piccole come sulle grandi decisioni, anche con accese discussioni.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg14">Quello che a mio parere lo rendeva speciale era che pur stando dietro le quinte, fuori dai riflettori, era l'assoluto protagonista di tutte le scelte strategiche. Sapeva interessarsi, con curiosità intellettuale e sincera passione politica, delle questioni più disparate, ma la giustizia rimaneva sempre il cuore nevralgico della sua attività istituzionale. Il garantismo, la separazione delle carriere, la riforma del CSM, la ragionevole durata dei processi erano i temi cui ha legato indissolubilmente il suo nome con proposte oggi ritornate al centro del dibattito istituzionale. In tutto emergeva la figura di un uomo che dietro l'apparenza severa e lo sguardo impenetrabile aveva in realtà un'umanità autentica, quella dell'impegno costante per i più deboli e per i più bisognosi, coltivato con totale discrezione.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg15">Tanti sono i tratti del senatore e dell'uomo Niccolò che maggiormente mancheranno a tutti coloro che hanno potuto conoscerlo nel profondo. La passione per il diritto, il rapporto viscerale con il territorio, la naturale vocazione per la politica e la capacità di regalare ai meno fortunati autentica felicità, l'acume personale: tanti tasselli, un ritratto umano di rara fattura, dal fascino antico e dalla consapevolezza contemporanea.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg16">Mi auguro che la sua voce autorevole, il suo modo inconfondibile di vivere la politica come arte sussurrata, il suo solido ancoraggio valoriale possano offrire un esempio e una testimonianza per tutti coloro che oggi sono chiamati a proseguirne il cammino istituzionale e politico. Personalmente, porterò gelosamente con me il ricordo di un uomo che ha sempre saputo conquistarmi con la sua ironia, la sua lealtà, la sua coerenza e il suo coraggio.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg17">In commosso ricordo del senatore Ghedini, invito pertanto questa Assemblea ad osservare un minuto di raccoglimento.</seg>
+               <kinesic type="applause">
+                  <desc>L'Assemblea osserva un minuto di silenzio. Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sulla scomparsa di Piero Angela</head>
+            <note type="speaker">CATTANEO (Aut (SVP-PATT, UV))</note>
+            <u ana="#regular"
+               who="#CattaneoElena"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u7">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg18">Domando di parlare.</seg>
+            </u>
+            <note type="speaker">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u8">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg19">Ne ha facoltà.</seg>
+            </u>
+            <u ana="#regular"
+               who="#CattaneoElena"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u9">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg20">CATTANEO (Aut (SVP-PATT, UV)). Signora Presidente, onorevoli colleghi, dopo questo sentito ricordo della Presidente del Senato del senatore Niccolò Ghedini, vorrei con voi ricordare un'altra persona, un illustre cittadino italiano, Piero Angela, scomparso lo scorso 13 agosto. Una persona che più di ogni altro ha svelato al Paese il fascino della conoscenza, soprattutto in ambito scientifico, la meraviglia della scoperta, ma anche quell'inarrestabile viaggio che ci accomuna da migliaia di anni come umanità, ogni volta spinta alla conquista di un nuovo pezzo di ignoto. Con le sue parole, precise e inclusive, Piero Angela ci spiegava che questo viaggio noi possiamo affrontarlo senza paura se ci attrezzeremo con le armi pacifiche del metodo scientifico. È stato bellissimo leggere ed ascoltare le parole che gli sono state indirizzate da ogni parte della società, dalle Istituzioni, da molti di voi, da ogni leader politico. Le immagini di quella fila di persone di ogni età e provenienza che sono andate a salutarlo in occasione della camera ardente, credo siano state la potente testimonianza visiva dell'affetto e della riconoscenza di generazioni di cittadini verso di lui e verso la sua passione, che era soprattutto civile, un vero amore per il Paese. Anche io vorrei aggiungere la mia gratitudine per quel che ha fatto, per come lo ha fatto e continuerà a fare grazie al suo ricordo. Per esprimere questa gratitudine ho atteso la ripresa dei lavori in Senato perché credo che proprio all'Istituzione parlamentare, cuore della democrazia, spetti il compito di onorare la memoria di Piero Angela in modo concreto e fattivo. Spetta al Parlamento, alle forze politiche tutte, ora impegnate nella campagna elettorale, riprendere l'invito, da lui formulato come una sorta di testamento spirituale, a fare la propria parte nell'alimentare con risorse, attenzione e dedizione la conoscenza e il capitale cognitivo di questo difficile Paese. Investire in istruzione, ricerca e innovazione, specie in tempo di crisi, può sembrare poco remunerativo dal punto di vista del consenso elettorale perché i problemi, direbbero alcuni, sono ben altri. Ebbene, preparando questo breve intervento, mi è venuto in mente di quando in piena guerra civile Abraham Lincoln firmò il Morril Act, con il quale fondò l'Accademia delle scienze americane e diede impulso a una serie di iniziative per promuovere le scienze, la tecnologia, l'educazione avanzata per tutti i giovani di talento. Allora molti membri del Congresso erano contrari e si chiedevano perché creare l'Accademia delle scienze in un momento così difficile e lui rispose: per dare un futuro alla Nazione. Piero Angela ci ha insegnato che si può spiegare ai cittadini, che la politica può spiegare, e comunicare ai cittadini in modo affascinante la necessità di investire oggi in istruzione e conoscenza per dare un futuro alla nostra Nazione. Questi investimenti come scriveva Marguerite Yourcenar, autrice di «Memorie di Adriano», equivalgono a costruire granai pubblici, ammassando riserve contro un inverno della ragione che, nostro malgrado, sempre più spesso ci troviamo ad affrontare.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Sull'ordine dei lavori</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u10">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg21">Poiché all'ordine del giorno c'è la conversione in legge del decreto-legge 9 agosto 2022, n. 115, recante misure urgenti in materia di energia, emergenza idrica, politiche sociali e industriali, ha facoltà di intervenire il presidente Pesco per comunicare la situazione attuale in modo da poter decidere quando convocare l'Assemblea.</seg>
+            </u>
+            <note type="speaker">PESCO (M5S)</note>
+            <u ana="#regular"
+               who="#PescoDaniele"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u11">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg22">Signor Presidente, i Gruppi hanno sollevato la necessità di chiedere alla Presidenza la convocazione di una riunione dei Capigruppo per definire i programmi e il calendario dei prossimi giorni. Penso quindi che sia opportuno convocare una Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u12">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg23">Mi riferiva prima il ministro D'Incà che ci sarebbe dovuta essere una riunione informale, per poi convocare la Conferenza dei Capigruppo intorno alle ore 17,30-17,40. Lei mi sta dicendo di convocarla adesso. Da quello che lei mi dice, le discussioni informali sono già terminate. È corretto?</seg>
+            </u>
+            <note type="speaker">PESCO (M5S)</note>
+            <u ana="#regular"
+               who="#PescoDaniele"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u13">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg24">Penso sia necessario convocare la Conferenza dei Capigruppo.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u14">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg25">Convoco immediatamente la Conferenza dei Capigruppo.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">FARAONE (IV-PSI)</note>
+            <u ana="#regular"
+               who="#FaraoneDavide"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u15">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg26">Il Ministro mi ha chiesto di riferirle che sarebbe giunto in Senato alle ore 17,40.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u16">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg27">Come? L'ha detto anche a me.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg28">Fuori dal microfono non sento nulla.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg29">Ho chiesto ai Presidenti di Commissione - c'è anche il senatore D'Alfonso - e mi dicono che i colloqui sono terminati, a differenza di quello che avevo capito precedentemente con la richiesta da parte del Ministro di una convocazione alle ore 17,40, proprio per permettere una prosecuzione delle "trattative". Mi sembra che lei mi sta dicendo una cosa diversa.</seg>
+               <vocal type="speaking">
+                  <desc>Commenti.</desc>
+               </vocal>
+            </u>
+            <note type="speaker">FARAONE (IV-PSI)</note>
+            <u ana="#regular"
+               who="#FaraoneDavide"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u17">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg30">Domando di parlare.</seg>
+            </u>
+            <note type="speaker">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u18">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg31">Ne ha facoltà.</seg>
+            </u>
+            <u ana="#regular"
+               who="#FaraoneDavide"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u19">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg32">FARAONE (IV-PSI). Signor Presidente, abbiamo già fatto una riunione con i Gruppi parlamentari e non è stata individuata una soluzione. Il ministro D'Incà, su richiesta dei Gruppi, le avrebbe dovuto chiedere (ha chiesto a me di farlo, visto che è scappato e non so per quale motivo, non lo ha comunicato) di convocare la Conferenza dei Capigruppo, ma alle ore 17,40, che era l'orario in cui sarebbe tornato in Senato. L'idea è quindi di convocare la Conferenza dei Capigruppo alle ore 17,40. PRESIDENTE. Quindi è un'esigenza sua e non dei Gruppi. FARAONE (IV-PSI). No, la Conferenza dei Capigruppo è un'esigenza dei Gruppi, l'orario è un'esigenza del Ministro, perché noi siamo presenti.</seg>
+            </u>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#AlbertiCasellatiMariaElisabetta"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u20">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg33">Capisco che ci siano delle esigenze del Ministro, ma ci sono anche le esigenze delle altre persone, dei Gruppi e forse - mi permetto di dire - anche della Presidente.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg34">Io avevo capito che la richiesta di convocare la Conferenza dei Capigruppo alle ore 17,40 era determinata dalla necessità di proseguire un dialogo che avrebbe presumibilmente potuto portare a una definizione sulla questione degli emendamenti (che da circa 40-60 sono diventati 400). Trattandosi di una discussione non irrilevante, vorrei capire anch'io.</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg35">Sospendo pertanto la seduta per decidere quando convocare la Conferenza dei Capigruppo.</seg>
+               <kinesic type="applause">
+                  <desc>Applausi. La seduta, sospesa alle ore 16,28, è ripresa alle ore 16,30</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg36">Colleghi, convoco immediatamente la Conferenza dei Capigruppo e sospendo nuovamente la seduta. (La seduta, sospesa alle ore 16,31, è ripresa alle ore 17,42).</seg>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg37">La Conferenza dei Capigruppo ha stabilito che, alla luce dei lavori nelle Commissioni riunite 5ª e 6ª, il decreto-legge aiuti- bis sarà discusso la prossima settimana nella seduta di martedì 13 settembre, con inizio alle ore 12, anche se non concluso in sede referente. Fermi restando i tempi già assegnati per la discussione generale, ciascun Gruppo avrà a disposizione ulteriori dieci minuti per l'esame di tutti gli emendamenti comprensivi di illustrazione, discussione e dichiarazione di voto. Sono fatti salvi i dieci minuti per le dichiarazioni di voto finali.</seg>
+            </u>
+            <note type="speaker">Presidenza del vice presidente CALDEROLI</note>
+         </div>
+         <div type="debateSection">
+            <head>Calendario dei lavori dell'Assemblea</head>
+            <note type="role">PRESIDENTE</note>
             <u ana="#chair"
                who="#CalderoliRoberto"
-               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u18">
-               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg37">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u21">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg38">La Conferenza dei Presidenti dei Gruppi parlamentari con la presenza dei Vice Presidenti del Senato e con l'intervento del rappresentante del Governo, ha adottato - ai sensi dell'articolo 55 del Regolamento - il calendario dei lavori fino al 13 settembre:</seg>
+               <note type="summary">Martedì 13 settembre h. 12 - Disegno di legge n. 2685 - Decreto-legge n. 115, Aiuti- bis</note>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg39">Ripartizione dei tempi per la discussione del disegno di legge n. 2685 (Decreto-legge n. 115, Aiuti- bis ) (escluse dichiarazioni di voto)</seg>
+               <note type="summary">Relatori 10' Discussione generale: M5S 10' L-SP-PSd'Az 5' FIBP-UDC 10' Misto 15' PD 7' FdI 5' IV-PSI 5' UpC-CAL-Alt-PC-AI-Pr.SMART-IdV 21' Ipf-CD 5' Aut (SVP-PATT, UV) -</note>
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg40">Ciascun Gruppo avrà a disposizione ulteriori 10 minuti per l'esame di tutti gli emendamenti, comprensivi di illustrazione, discussione e dichiarazioni di voto.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Atti e documenti, annunzio</head>
+            <note type="role">PRESIDENTE</note>
+            <u ana="#chair"
+               who="#CalderoliRoberto"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u22">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg41">Le mozioni, le interpellanze e le interrogazioni pervenute alla Presidenza, nonché gli atti e i documenti trasmessi alle Commissioni permanenti ai sensi dell'articolo 34, comma 1, secondo periodo, del Regolamento sono pubblicati nell'allegato B al Resoconto della seduta odierna.</seg>
             </u>
          </div>
          <div type="debateSection">
@@ -169,8 +335,8 @@
             <note type="role">PRESIDENTE</note>
             <u ana="#chair"
                who="#CalderoliRoberto"
-               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u19">
-               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg38">Il Senato tornerà a riunirsi in seduta pubblica martedì 13 settembre, alle ore 12, con il seguente ordine del giorno: ( Vedi ordine del giorno ) La seduta è tolta (ore 17,43).</seg>
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.u23">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.seg42">Il Senato tornerà a riunirsi in seduta pubblica martedì 13 settembre, alle ore 12, con il seguente ordine del giorno: ( Vedi ordine del giorno ) La seduta è tolta (ore 17,43).</seg>
             </u>
          </div>
       </body>
