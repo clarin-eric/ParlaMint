@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-PL-listOrg" xml:lang="pl">
-  <org xml:id="government" role="government">
+  <org xml:id="government.PL" role="government">
     <orgName xml:lang="pl" full="yes">Rada Ministrów Rzeczypospolitej Polskiej</orgName>
     <orgName xml:lang="en" full="yes">Government of the Republic of Poland</orgName>
   </org>
@@ -44,4 +44,10 @@
     <orgName full="yes">Koło Poselskie Unia Polityki Realnej</orgName>
     <orgName full="abb">UPR</orgName>
   </org>
+  <listRelation>
+    <relation name="coalition" mutual="#party.PiS" from="2015-11-16" to="2019-11-14" ana="#term9"/>
+    <relation name="opposition" active="#party.KO #party.Kukiz15 #party.KP-PSL #party.Konfederacja #party.PrzywrócićPrawo #party.Teraz #party.UPR" passive="government.PL" from="2015-11-16" to="2018-12-09" ana="#term9"/>
+    <relation name="coalition" mutual="#party.PiS" from="2019-11-15" to="2022-19-14" ana="#term10"/>
+    <relation name="opposition" active="#party.KO #party.Lewica #party.Kukiz15 #party.KP-PSL #party.Konfederacja" passive="government.PL" from="2019-11-15" to="2022-19-12" ana="#term10"/>
+  </listRelation>
 </listOrg>
