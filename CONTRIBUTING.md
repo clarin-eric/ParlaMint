@@ -67,7 +67,7 @@ git push
   - check changes
   - merge pull request
 - update ParlaMint repository with data in your repository:
- - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
+  - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
 
 
 ## Install prerequisites
@@ -126,7 +126,7 @@ also be run.
 
 ## Submitting the completed corpora
 
-Once samples have been validated and incorporated into the ParlaMint GitHub repositroy, and the
+Once samples have been validated and incorporated into the ParlaMint GitHub repository, and the
 complete corpus validates locally, the directory with the complete corpus (e.g. `ParlaMint-XX.TEI`)
 should be compressed (either .zip or .tgz) into one file and put somewhere where the editors of the
 corpus can access it, e.g. on a local web server, WeTransfer or similar. Then the editors

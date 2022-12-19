@@ -199,9 +199,10 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 
 ## root ## Make ParlaMint corpus root
 root:
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
-
+	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
+	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 ## chars ## create character tables
@@ -626,12 +627,13 @@ insert-orientation-test-val:
 
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
-	$s outDir=Data/Metadata/Ministers2 -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+	$s outDir=Data/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Insert minister affiliations from TSV file into a root file.
-MC = IS
+MC = BE
+TSV = /project/corpora/Parla/ParlaMint/Minister
 insert-ministries-test:
-	$s tsv=../Data/Metadata/Ministers/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	$s tsv=${TSV}/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
 	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
 	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
