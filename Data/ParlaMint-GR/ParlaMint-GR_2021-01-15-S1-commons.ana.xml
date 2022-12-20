@@ -10,7 +10,9 @@
             <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR, session 62 [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="el">Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Β', συνεδρίαση ΞΒ', 2021-01-15</title>
             <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 18, session 2, sitting 62, 2021-01-15</title>
-            <meeting n="ΙΗ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ"/>
+            <meeting n="18" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ"/>
+            <meeting n="2" corresp="#PoGR" ana="#parla.uni #parla.session"/>
+            <meeting n="62" corresp="#PoGR" ana="#parla.uni #parla.sitting"/>
             <respStmt>
                <persName>Δημήτρης Γκούμας</persName>
                <persName>Βασίλης Παπαβασιλείου</persName>
@@ -35,8 +37,8 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="107">107 ομιλίες</measure>
             <measure xml:lang="en" unit="speeches" quantity="107">107 speeches</measure>
-            <measure xml:lang="el" unit="words" quantity="56756">56756 λέξεις</measure>
-            <measure xml:lang="en" unit="words" quantity="56756">56756 words</measure>
+            <measure xml:lang="el" unit="words" quantity="54322">54322 λέξεις</measure>
+            <measure xml:lang="en" unit="words" quantity="54322">54322 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -58,7 +60,7 @@
                         .
                     </p>
             </availability>
-            <date when="2022-08-31">2022-08-31</date>
+            <date when="2022-11-28">2022-11-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -83,16 +85,21 @@
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="u" occurs="107"/>
                <tagUsage gi="seg" occurs="953"/>
                <tagUsage gi="s" occurs="3375"/>
+               <tagUsage gi="desc" occurs="47"/>
+               <tagUsage gi="note" occurs="134"/>
                <tagUsage gi="vocal" occurs="2"/>
-               <tagUsage gi="desc" occurs="2"/>
-               <tagUsage gi="w" occurs="56756"/>
+               <tagUsage gi="kinesic" occurs="35"/>
+               <tagUsage gi="incident" occurs="9"/>
+               <tagUsage gi="w" occurs="54322"/>
                <tagUsage gi="pc" occurs="8478"/>
-               <tagUsage gi="name" occurs="1353"/>
+               <tagUsage gi="name" occurs="1320"/>
                <tagUsage gi="linkGrp" occurs="3375"/>
                <tagUsage gi="link" occurs="64017"/>
+               <tagUsage gi="gap" occurs="1"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -106,13 +113,24 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-08-31">
+         <change when="2022-11-28">
             <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
+            <head>ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
+            <head type="term">ΙΗ ΠΕΡΙΟΔΟΣ</head>
+            <head>ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
+            <head type="session">ΣΥΝΟΔΟΣ Β'</head>
+            <head type="sitting">ΣΥΝΕΔΡΙΑΣΗ ΞΒ'</head>
+            <head type="date">Παρασκευή 15 Ιανουαρίου 2021</head>
+            <gap reason="editorial">
+               <desc xml:lang="en">The frontmatter of the document has been removed</desc>
+            </gap>
+            <note>Αθήνα, σήμερα στις 15 Ιανουαρίου 2021, ημέρα Παρασκευή και ώρα 10.42΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Προέδρου αυτής κ. ΚΩΝΣΤΑΝΤΙΝΟΥ ΤΑΣΟΥΛΑ.</note>
+            <note type="speaker">ΠΡΟΕΔΡΟΣ (ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΑΣΟΥΛΑΣ):</note>
             <u xml:id="ParlaMint-GR_2021-01-15-S1-commons.u1"
                ana="#chair"
                who="#ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ">
@@ -138,7 +156,7 @@
                      <pc msd="UPosTag=PUNCT"
                          xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg1.1.5">,</pc>
                      <w lemma="καλημέρα"
-                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
                         pos="NoCm"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg1.1.6">καλημέρα</w>
                      <w join="right"
@@ -174,12 +192,12 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.4"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.5"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.6"/>
+                        <link ana="ud-syn:vocative"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.9 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.6"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.7"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.8"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.8"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg1.1.9"/>
                         <link ana="ud-syn:det"
@@ -191,6 +209,7 @@
                      </linkGrp>
                   </s>
                </seg>
+               <note>ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ: Σύμφωνα με την από 14-1-2021 εξουσιοδότηση του Σώματος, επικυρώθηκαν με ευθύνη του Προεδρείου τα πρακτικά της ΞΑ΄ συνεδριάσεώς του, της Πέμπτης 14 Ιανουαρίου 2021, σε ό,τι αφορά την ψήφιση στο σύνολο του σχεδίου νόμου: «Έγκριση σχεδίων συμβάσεων στον τομέα της άμυνας».</note>
                <seg xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg2">
                   <s xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg2.1">
                      <w lemma="εισέρχομαι"
@@ -208,10 +227,12 @@
                            norm="την"
                            xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg2.1.4"/>
                      </w>
-                     <w lemma="ειδικός"
-                        msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing"
-                        pos="AjBa"
-                        xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg2.1.5">ΕΙΔΙΚΗ</w>
+                     <name type="LOC">
+                        <w lemma="ειδικός"
+                           msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing"
+                           pos="AjBa"
+                           xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg2.1.5">ΕΙΔΙΚΗ</w>
+                     </name>
                      <w lemma="ημερήσιος"
                         msd="UPosTag=ADJ|Case=Acc|Gender=Fem|Number=Sing"
                         pos="AjBa"
@@ -272,7 +293,7 @@
                            xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg3.1.8">Κυριάκου</w>
                         <w join="right"
                            lemma="Μητσοτάκης"
-                           msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Sing"
+                           msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing"
                            pos="NoPr"
                            xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg3.1.9">Μητσοτάκη</w>
                      </name>
@@ -401,12 +422,12 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.5"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.4 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.4 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.7"/>
                         <link ana="ud-syn:flat"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.7"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.7 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.8"/>
                         <link ana="ud-syn:flat"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.8"/>
-                        <link ana="ud-syn:flat"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.6 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.9"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.7 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.9"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.11 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.10"/>
                         <link ana="ud-syn:advmod"
@@ -428,11 +449,11 @@
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.17 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.19"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.11 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.20"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.22 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.20"/>
                         <link ana="ud-syn:case"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.22 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.21"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.22"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.11 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.22"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg3.1.24 #ParlaMint-GR_2021-01-15-S1-commons.seg3.1.23"/>
                         <link ana="ud-syn:acl"
@@ -520,7 +541,7 @@
                         pos="AtDf"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg4.1.13">την</w>
                      <w lemma="Παρασκευή"
-                        msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing"
+                        msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing"
                         pos="NoPr"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg4.1.14">Παρασκευή</w>
                      <w lemma="8"
@@ -688,7 +709,7 @@
                         <link ana="ud-syn:advmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg4.1.32 #ParlaMint-GR_2021-01-15-S1-commons.seg4.1.31"/>
                         <link ana="ud-syn:advcl"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg4.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg4.1.32"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg4.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg4.1.32"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg4.1.34 #ParlaMint-GR_2021-01-15-S1-commons.seg4.1.33"/>
                         <link ana="ud-syn:nsubj"
@@ -896,8 +917,8 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.8 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.6"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.8 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.7"/>
-                        <link ana="ud-syn:obl"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.4 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.8"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.8 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.9"/>
                         <link ana="ud-syn:punct"
@@ -947,12 +968,12 @@
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.34 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.33"/>
                         <link ana="ud-syn:appos"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.25 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.34"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.32 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.34"/>
                         <link ana="ud-syn:case"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.38 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.36"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.38 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.37"/>
-                        <link ana="ud-syn:nmod"
+                        <link ana="ud-syn:obl"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.34 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.38"/>
                         <link ana="ud-syn:cc"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.40 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.39"/>
@@ -962,7 +983,7 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.44 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.42"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.44 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.43"/>
-                        <link ana="ud-syn:nmod"
+                        <link ana="ud-syn:orphan"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.40 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.44"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.1.13 #ParlaMint-GR_2021-01-15-S1-commons.seg5.1.45"/>
@@ -1166,21 +1187,21 @@
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.23 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.22"/>
                         <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.20 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.23"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.15 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.23"/>
                         <link ana="ud-syn:case"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.27 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.25"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.27 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.26"/>
                         <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.23 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.27"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.15 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.27"/>
                         <link ana="ud-syn:cc"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.33 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.28"/>
                         <link ana="ud-syn:case"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.30 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.29"/>
-                        <link ana="ud-syn:nmod"
+                        <link ana="ud-syn:orphan"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.33 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.30"/>
                         <link ana="ud-syn:case"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.32 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.31"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.33 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.31"/>
                         <link ana="ud-syn:nummod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.33 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.32"/>
                         <link ana="ud-syn:conj"
@@ -1189,7 +1210,7 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.37 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.35"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.37 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.36"/>
-                        <link ana="ud-syn:nmod"
+                        <link ana="ud-syn:orphan"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.33 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.37"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg5.2.6 #ParlaMint-GR_2021-01-15-S1-commons.seg5.2.38"/>
@@ -1309,8 +1330,8 @@
                   <s xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg6.1">
                      <w join="right"
                         lemma="ωστόσο"
-                        msd="UPosTag=CCONJ"
-                        pos="CjCo"
+                        msd="UPosTag=ADV"
+                        pos="AdBa"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg6.1.1">Ωστόσο</w>
                      <pc msd="UPosTag=PUNCT"
                          xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg6.1.2">,</pc>
@@ -1473,10 +1494,10 @@
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg6.1.16 #ParlaMint-GR_2021-01-15-S1-commons.seg6.1.17"/>
                         <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg6.1.16 #ParlaMint-GR_2021-01-15-S1-commons.seg6.1.18"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg6.1.17 #ParlaMint-GR_2021-01-15-S1-commons.seg6.1.18"/>
                         <link ana="ud-syn:amod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg6.1.20 #ParlaMint-GR_2021-01-15-S1-commons.seg6.1.19"/>
-                        <link ana="ud-syn:obj"
+                        <link ana="ud-syn:nsubj"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg6.1.10 #ParlaMint-GR_2021-01-15-S1-commons.seg6.1.20"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg6.1.22 #ParlaMint-GR_2021-01-15-S1-commons.seg6.1.21"/>
@@ -1671,7 +1692,7 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.12 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.10"/>
                         <link ana="ud-syn:aux"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.12 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.11"/>
-                        <link ana="ud-syn:parataxis"
+                        <link ana="ud-syn:conj"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.5 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.12"/>
                         <link ana="ud-syn:case"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.15 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.13"/>
@@ -1697,8 +1718,8 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.22 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.23"/>
                         <link ana="ud-syn:nummod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.25 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.24"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.22 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.25"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.12 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.25"/>
                         <link ana="ud-syn:cc"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.26"/>
                         <link ana="ud-syn:case"
@@ -1706,19 +1727,19 @@
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.28"/>
                         <link ana="ud-syn:conj"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.22 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.25 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.30"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.32 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.31"/>
                         <link ana="ud-syn:advmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.35 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.32"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.32"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.32 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.33"/>
                         <link ana="ud-syn:nummod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.35 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.34"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.35"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.12 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.35"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.1.5 #ParlaMint-GR_2021-01-15-S1-commons.seg7.1.36"/>
                      </linkGrp>
@@ -1874,8 +1895,8 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.19 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.17"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.19 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.18"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.16 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.19"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.14 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.19"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.19 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.20"/>
                         <link ana="ud-syn:cc"
@@ -1888,7 +1909,7 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.26 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.24"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.26 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.25"/>
-                        <link ana="ud-syn:nmod"
+                        <link ana="ud-syn:orphan"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.23 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.26"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg7.2.26 #ParlaMint-GR_2021-01-15-S1-commons.seg7.2.27"/>
@@ -1964,7 +1985,7 @@
                         pos="AsPpSp"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg8.1.16">σε</w>
                      <w lemma="αυτός"
-                        msd="UPosTag=DET|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem"
                         pos="PnDm"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg8.1.17">αυτό</w>
                      <w lemma="ένας"
@@ -1973,7 +1994,7 @@
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg8.1.18">μία</w>
                      <w join="right"
                         lemma="ανοχή"
-                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
                         pos="NoCm"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg8.1.19">ανοχή</w>
                      <pc msd="UPosTag=PUNCT"
@@ -2055,14 +2076,14 @@
                         <link ana="ud-syn:acl"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.11 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.14"/>
                         <link ana="ud-syn:cc"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.15"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.17 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.15"/>
                         <link ana="ud-syn:case"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.16"/>
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.17"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.17 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.16"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.14 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.17"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.18"/>
-                        <link ana="ud-syn:obl"
+                        <link ana="ud-syn:nsubj"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.14 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.19"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.2 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.20"/>
@@ -2076,7 +2097,7 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.26 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.24"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.26 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.25"/>
-                        <link ana="ud-syn:nmod"
+                        <link ana="ud-syn:amod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.27 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.26"/>
                         <link ana="ud-syn:obl"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg8.1.21 #ParlaMint-GR_2021-01-15-S1-commons.seg8.1.27"/>
@@ -2150,6 +2171,7 @@
             <vocal type="shouting">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
+            <note type="speaker">ΠΡΟΕΔΡΟΣ (ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΑΣΟΥΛΑΣ):</note>
             <u xml:id="ParlaMint-GR_2021-01-15-S1-commons.u2"
                ana="#chair"
                who="#ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ">
@@ -2380,7 +2402,7 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg951.1.3 #ParlaMint-GR_2021-01-15-S1-commons.seg951.1.2"/>
                         <link ana="ud-syn:conj"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg951.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg951.1.3"/>
-                        <link ana="ud-syn:flat"
+                        <link ana="ud-syn:conj"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg951.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg951.1.4"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg951.1.1 #ParlaMint-GR_2021-01-15-S1-commons.seg951.1.5"/>
@@ -2510,6 +2532,7 @@
             <vocal type="shouting">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
+            <note type="speaker">ΠΡΟΕΔΡΟΣ (ΚΩΝΣΤΑΝΤΙΝΟΣ ΤΑΣΟΥΛΑΣ):</note>
             <u xml:id="ParlaMint-GR_2021-01-15-S1-commons.u107"
                ana="#chair"
                who="#ΤΑΣΟΥΛΑΣ_ΑΝΑΣΤΑΣΙΟΥ_ΚΩΝΣΤΑΝΤΙΝΟΣ">
@@ -2570,7 +2593,7 @@
                         pos="AtDf"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1.13">τη</w>
                      <w lemma="Δευτέρα"
-                        msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing"
+                        msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing"
                         pos="NoPr"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1.14">Δευτέρα</w>
                      <w lemma="18"
@@ -2595,8 +2618,8 @@
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1.19">ώρα</w>
                      <w join="right"
                         lemma="13.00΄"
-                        msd="UPosTag=NUM|NumType=Card"
-                        pos="DIG"
+                        msd="UPosTag=ADV"
+                        pos="AdBa"
                         xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1.20">13.00΄</w>
                      <pc msd="UPosTag=PUNCT"
                          xml:id="ParlaMint-GR_2021-01-15-S1-commons.seg953.1.21">,</pc>
@@ -2664,10 +2687,10 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.3 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.5"/>
                         <link ana="ud-syn:cc"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.7 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.6"/>
-                        <link ana="ud-syn:conj"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.3 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.7"/>
                         <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.7 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.8"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.8 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.7"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.5 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.8"/>
                         <link ana="ud-syn:root"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.9"/>
                         <link ana="ud-syn:det"
@@ -2678,8 +2701,8 @@
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.14 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.12"/>
                         <link ana="ud-syn:det"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.14 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.13"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.11 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.14"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.9 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.14"/>
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.14 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.15"/>
                         <link ana="ud-syn:nmod"
@@ -2689,8 +2712,8 @@
                         <link ana="ud-syn:cc"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.18"/>
                         <link ana="ud-syn:conj"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.9 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.19"/>
-                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.17 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.19"/>
+                        <link ana="ud-syn:advmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.19 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.20"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.23 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.21"/>
@@ -2705,10 +2728,10 @@
                         <link ana="ud-syn:nmod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.24 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.26"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.23 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.27"/>
+                              target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.27"/>
                         <link ana="ud-syn:amod"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.29 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.28"/>
-                        <link ana="ud-syn:appos"
+                        <link ana="ud-syn:parataxis"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.9 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.29"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-GR_2021-01-15-S1-commons.seg953.1.31 #ParlaMint-GR_2021-01-15-S1-commons.seg953.1.30"/>
