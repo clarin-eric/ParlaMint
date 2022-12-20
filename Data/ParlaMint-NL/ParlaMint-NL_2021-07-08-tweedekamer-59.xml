@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#covid #parla.sitting"
+     xml:lang="nl"
+     xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Dutch parliamentary corpus ParlaMint-NL, Lower House 2021-07-08 [ParlaMint]</title>
+            <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL, Tweede Kamer 2021-07-08 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Report of the meeting of the Dutch Lower House, Meeting 99, Session 59 (2021-07-08)</title>
+            <title type="sub" xml:lang="nl">Verslag van de vergadering van de Tweede Kamer, Meeting 99, Session 59 (2021-07-08)</title>
+            <meeting ana="#parla.lower #parla.meeting.regular"
+                     corresp="#TK"
+                     n="99"
+                     xml:lang="en">Meeting 99</meeting>
+            <meeting ana="#parla.lower #parla.session"
+                     corresp="#TK"
+                     n="59"
+                     xml:lang="en">Session 59</meeting>
+            <meeting ana="#parla.lower #parla.term #TK.29"
+                     corresp="#TK"
+                     n="29-lower"
+                     xml:lang="en">Meeting of the 29th Tweede Kamer</meeting>
+            <meeting xml:lang="en"
+                     ana="#parla.lower #parla.sitting"
+                     corresp="#TK"
+                     n="2021-07-08">Sitting 2021-07-08</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" xml:lang="nl" quantity="44">44 toespraken</measure>
+            <measure unit="speeches" xml:lang="en" quantity="44">44 speeches</measure>
+            <measure unit="words" xml:lang="nl" quantity="1819">1,819 woorden</measure>
+            <measure unit="words" xml:lang="en" quantity="1819">1,819 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2022-12-15">December 15, 2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
+               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <date when="2021-07-08">2021-07-08</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="114"/>
+               <tagUsage gi="seg" occurs="53"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="44"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name key="NL" type="country">The Netherlands</name>
+               <date when="2021-07-08">2021-07-08</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid" xml:lang="nl">
+      <body>
+         <div type="debateSection">
+            <head>Luchtvaart</head>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u1">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg1">We beginnen met het tweeminutendebat Luchtvaart met als eerste spreker de heer Van Raan, Partij voor de Dieren.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u2">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg2">Voorzitter, dank u wel. Drie moties om de minister weer te helpen.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de Nederlandse broeikasgasreductiedoelen volledig tekortschieten om in lijn te blijven met het doel om de opwarming van de aarde onder de 1,5°C te houden;</note>
+               <note type="comment">constaterende dat in relatie tot de tekortschietende Nederlandse broeikasgasreductie wetenschappelijk onderzoek heeft aangetoond dat, om het emissiebudget van de luchtvaartsector in balans te brengen met de uitstoot door andere sectoren, dit emissiebudget in 2030 niet hoger zou mogen zijn dan 2,5 megaton CO-equivalenten;</note>
+               <note type="comment">constaterende dat alle uitstoot boven deze 2,5 megaton CO-equivalenten ten koste zal gaan van de emissiebudgetten van andere sectoren, zoals bijvoorbeeld de landbouw en de gebouwde omgeving;</note>
+               <note type="comment">constaterende dat de Luchtvaartnota uitgaat van een emissiebudget voor de luchtvaartsector van circa 11 megaton CO-equivalenten in 2030;</note>
+               <note type="comment">verzoekt de regering de gevolgen van deze onhoudbare claim van de luchtvaartsector op de toekomstige emissiebudgetten van andere sectoren in kaart te brengen,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-861</note>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u3">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg3">Kortom, het grote ruilen tussen sectoren is begonnen. Het is goed als de minister zich daarop voorbereidt. Vandaar die motie.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg4">Dan de volgende motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de minister van IenW bij Rotterdam The Hague Airport het startschot heeft gegeven voor de aanleg van een zonnepark van 37.000 zonnepanelen;</note>
+               <note type="comment">overwegende dat het plaatsen van zonnepanelen niet alleen een reclamestunt zou moeten zijn en/of als greenwashing gebruikt zou moeten worden;</note>
+               <note type="comment">verzoekt de regering te onderzoeken hoeveel zonnepanelen er nodig zijn om de energie op te wekken die nu wordt verbruikt door de luchtvaartsector,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-862</note>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u4">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg5">Want het is ook de intentie van de luchtvaartsector om te vergroenen, met name en mede door zonnepanelen. Dan is het dus belangrijk om te weten hoeveel je nodig hebt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg6">Dan de laatste motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de minister op advies van de Raad voor de leefomgeving en infrastructuur heeft aangekondigd dat ze de luchtvaartsector voortaan zal behandelen als alle andere sectoren;</note>
+               <note type="comment">constaterende dat de conclusies uit de wetenschappelijke factsheet Toekomst verduurzaming luchtvaart zijn dat de luchtvaart in haar huidige vorm te veel uitstoot van broeikasgassen veroorzaakt en dat, om in balans te komen met alle andere vervoerssectoren, er in 2030 nog ruimte is voor maximaal 200.000 vliegtuigbewegingen per jaar;</note>
+               <note type="comment">verzoekt de regering om een krimpscenario voor de luchtvaartsector uit te werken dat de luchtvaart in lijn brengt met het doel om de opwarming van de aarde te beperken tot maximaal 1,5°C,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Van Raan.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-863</note>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u5">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg7">Voorzitter, dank voor uw clementie.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u6">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg8">Dank. Het woord is aan mevrouw Bouchallikh van GroenLinks. Gaat uw gang.</seg>
+            </u>
+            <note type="speaker">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u7">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg9">Dank, voorzitter. Twee moties vandaag.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat ingenieursbureau To70 heeft onderzocht dat er potentieel 70.000 tot 150.000 extra woningen gebouwd kunnen worden wanneer er rondom Schiphol andere keuzes worden gemaakt;</note>
+               <note type="comment">overwegende dat er een enorm woningtekort is;</note>
+               <note type="comment">verzoekt de regering dit onderzoek nader uit te werken en de mogelijkheden te schetsen om dit plan te realiseren,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Bouchallikh en Bromet.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-864</note>
+            </u>
+            <note type="speaker">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u8">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg10">De tweede motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat er onvoldoende onderzoek is gedaan naar de blootstelling van de medewerkers op Schiphol aan ultrafijnstof;</note>
+               <note type="comment">verzoekt de regering snel een onafhankelijk onderzoek op te starten naar de blootstelling aan ultrafijnstof door platformmedewerkers op luchthaven Schiphol, en om maatregelen in kaart brengen die de blootstelling aan ultrafijnstof doen verminderen,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door de leden Bouchallikh en Alkaya.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-865</note>
+            </u>
+            <note type="speaker">Mevrouw Bouchallikh (GroenLinks)</note>
+            <u who="#KautharBouchallikht"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u9">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg11">Dank.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u10">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg12">Dank u wel. Dan is nu het woord aan de heer Bontenbal van het CDA. Aan u het woord.</seg>
+            </u>
+            <note type="speaker">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u11">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg13">Dank, voorzitter. Ik heb één motie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de regering aangeeft dat een klein deel van de laagvliegroutes bij Lelystad Airport niet zal verdwijnen bij het eerste deel van de herziening van het luchtruim in de winter 2021/2022 in verband met de vliegveiligheid;</note>
+               <note type="comment">overwegende dat nog onduidelijk is of Lelystad Airport opengaat, het onderwerp op dit moment controversieel is en Lelystad Airport niet open kan voordat de voorhang door het parlement is afgerond;</note>
+               <note type="comment">van mening dat het van groot belang is dat de laagvliegroutes verdwijnen op zodanige wijze dat de vliegveiligheid geborgd blijft;</note>
+               <note type="comment">verzoekt de regering te onderzoeken hoe het laatste stukje laagvliegroutes toch op een veilige en tijdige wijze kan verdwijnen, en de Kamer hierover voor 1 november 2021 te informeren,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Bontenbal.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-866</note>
+            </u>
+            <note type="speaker">De heer Bontenbal (CDA)</note>
+            <u who="#HenriBontenbal"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u12">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg14">Voorzitter. We gaan het zomerreces in. Dat is ook een tijd van bezinning en van even de waan van de dag ontstijgen. Mijn laatste minuut spreektijd wil ik daarom gebruiken om mijn collega's hier in dit huis een paar gedachten mee te geven van Dag Hammarskjöld. Hammarskjöld was tot 1961 secretaris-generaal van de Verenigde Naties en zette zich daadkrachtig in voor het stichten van vrede in de brandhaarden van de wereld. In 1961 kwam hij om bij een vliegtuigongeluk. Na zijn dood vonden zijn vrienden zijn dagboekaantekeningen, die getuigen van een diep doorleefde spiritualiteit. Hammarskjöld had een sterk gevoel van een roeping die zin geeft aan het leven. Een opdracht om verantwoordelijkheid te nemen en te werken aan een rechtvaardige wereld. In een van zijn toespraken zei Hammarskjöld: ons werk voor vrede moet beginnen in de innerlijke wereld van ieder van ons. Om een wereld zonder angst te bouwen, moeten we zelf zonder vrees zijn. Om een rechtvaardige wereld te bouwen, moeten we zelf rechtvaardig zijn. Als we een wereld van eenheid willen bouwen, zullen we zelf tot een eenheid moeten komen. Hammarskjöld spreekt van een inzet waaraan je trouw bent. Hij schrijft: de inzet zoekt ons. Niet wij de inzet. Daarom ben je er trouw aan. Als je wacht in bereidheid en handelt als de vraag gesteld wordt.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg15">Voorzitter. Ik wens iedereen een goed reces.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u13">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg16">Dank. Dan is het woord aan de heer Alkaya, SP. Ik heb de heer Van Raan net toegelicht dat wij vandaag een ontzettend ongezellig "hernieuwd kerstregime" voeren, waarbij er geen interrupties worden toegestaan, helaas.</seg>
+            </u>
+            <note type="speaker">De heer Alkaya (SP)</note>
+            <u who="#MahirAlkaya"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u14">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg17">Voorzitter. Ik heb in het commissiedebat over de luchtvaart aangegeven dat dit typisch een onderwerp is met heel veel belanghebbenden. Je hebt de werknemers en de mensen die er gebruik van maken en graag op vakantie gaan. Je hebt de omwonenden en dan heb je ook nog abstracte belangen, die wel belangrijk zijn, zoals het klimaat en de economie. Ik heb in dat hele krachtenveld proberen te schetsen dat de werknemers niet het kind van de rekening mogen worden. Zij mogen tussen al die belangen niet vermorzeld worden en zij mogen ook niet in onzekerheid komen met betrekking tot hun baan. In de coronacrisis is dat hier en daar helaas wel gebeurd. Het gaat bijvoorbeeld ook over de veiligheid van werk. Daarom heb ik samen met GroenLinks de motie over ultrafijnstof ingediend.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg18">Ik heb nog een andere motie, die meer gaat over de ontslagen die helaas zijn gevallen in de coronapandemie.</seg>
+               <note type="comment">Motie</note>
+               <note type="comment">De Kamer,</note>
+               <note type="comment">gehoord de beraadslaging,</note>
+               <note type="comment">constaterende dat de luchtvaart hard is geraakt door de coronacrisis;</note>
+               <note type="comment">overwegende dat veel werknemers in de sector hun baan verloren en werden vervangen door onervaren krachten op basis van tijdelijke contracten;</note>
+               <note type="comment">constaterende dat het Europees Agentschap voor de veiligheid van de luchtvaart (EASA) waarschuwt dat hierdoor risicovolle situaties op de werkvloer dreigen;</note>
+               <note type="comment">van mening dat onveilige omstandigheden in de luchtvaart onacceptabel zijn, evenals loondump;</note>
+               <note type="comment">verzoekt de regering om met KLM en Schiphol in gesprek te gaan om haar zorgen te uiten over de waarschuwing van EASA, en de Kamer hierover te informeren,</note>
+               <note type="comment">en gaat over tot de orde van de dag.</note>
+               <note type="comment">Deze motie is voorgesteld door het lid Alkaya.</note>
+               <note type="comment">Zij krijgt nr. kst-31936-867</note>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u15">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg19">Dank u wel. Tot slot is het woord aan de heer Heerema, VVD.</seg>
+            </u>
+            <note type="speaker">De heer Rudmer Heerema (VVD)</note>
+            <u who="#RudmerHeerema"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u16">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg20">Voorzitter. Van mij geen motie, maar een vraag aan de minister. Wij hebben in het commissiedebat gesproken over de technische briefing die we hebben gekregen met een expertopinie van twee mannen die over duurzaam vliegen iets aan ons meegaven. Dat werd direct in twijfel getroffen door bijvoorbeeld de Technische Universiteit Delft. We hebben toen gevraagd of we een soort second opinion kunnen krijgen om die kennis en informatie op twee routes tot ons te kunnen nemen. Vervolgens mailden mensen mij met de opmerking dat we wel heel veel informatie zouden missen van andere technische universiteiten als alleen de TU Delft dat mag doen. Ik heb Technische Universiteit Delft als voorbeeld genomen. Ik heb bedoeld: kunnen we niet voldoende expertise en kennis uit die wereld loslaten op de stellingen die geponeerd waren door de opinie-experts, zodat we een gedegen beeld krijgen van datgene waar wij het meest aan hebben om beslissingen te nemen?</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg21">Hierbij dus eigenlijk de verduidelijkende vraag aan de minister: kan naast de TU Delft ook bijvoorbeeld TU Eindhoven of TU Twente, misschien ook wel Wageningen, meedenken over de juiste informatie en de juiste wetenschappelijke onderbouwing bij de expertopinie die wij tot ons gekregen hebben? De second opinion bedoel ik dan.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u17">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg22">Dank u wel. Ik schors voor enkele ogenblikken en dan gaan we luisteren naar de minister.</seg>
+            </u>
+            <note type="time">De vergadering wordt van 18.43 uur tot 18.48 uur geschorst.</note>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u18">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg23">Ik geef de minister het woord.</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u19">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg24">Dank u wel, voorzitter. Er ligt één vraag en daarna zal ik overgaan op de moties. De vraag was van de heer Heerema en had betrekking op de technische briefing. Hij had verzocht om een second opinion en daarbij werd de TU Delft als voorbeeld genoemd. Zijn verzoek is nu om breder te kijken dan alleen de TU Delft. Dat is iets wat ik zeker graag doe. We zullen geen enkele universiteit uitsluiten en misschien zelfs in het buitenland kijken, om te zorgen dat we zo veel mogelijk expertise verzamelen.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg25">Dan kom ik bij de moties. De motie op stuk nr. 861 van de heer Van Raan wil ik ontraden, want deze verzoekt de regering om een claim van de luchtvaartsector op toekomstige emissiebudgetten van andere sectoren in kaart te brengen. Er komt een heel Fit for 55-proces in Europa. Daar is dit allemaal onderdeel van. Ik verwijs daarnaar en dat is de reden waarom ik de motie ontraad.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u20">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg26">Meneer Van Raan, mag ik u het advies geven om even de oordelen van de andere moties af te wachten? Dan krijgt u daarna van mij de kans om een vraag te stellen.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u21">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg27">Per motie een vraag?</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u22">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg28">Ja.</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u23">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg29">De motie op stuk nr. 862 verzoekt de regering te onderzoeken hoeveel zonnepanelen er nodig zijn om de energie op te wekken die nu wordt verbruikt door de luchtvaartsector. Die motie ontraad ik ook. Dit soort berekeningen doen we ook niet voor andere, normale, sectoren.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg30">Dan kom ik bij de motie op stuk nr. 863. Dat is de classic, de evergreen, zou ik bijna zeggen. Het is een verzoek om het krimpscenario uit te werken. Het zal de heer Van Raan niet verbazen dat ik die ook deze keer weer ontraad.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u24">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg31">U bent denk ik niet verbaasd, maar u gaat per motie één vraag stellen. Het mogen er ook minder zijn.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u25">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg32">Ik ben niet verbaasd, maar ik ben verbitterd. Nee, ook niet.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u26">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg33">Gaat u door.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u27">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg34">De reden om die eerste motie te ontraden, is dat er gekeken wordt naar Fit for 55. Maar dat gaat over Europa. Daar gaat nog van alles gebeuren. Het gaat er hier juist om dat je vast meeneemt wat de wetenschap heeft verteld en hoe groot het budget is voor de sector. Wat de minister erkend heeft, klopt: we gaan de sector als een normale sector behandelen en volgens wat de sector, gesteund door de minister, zelf aangeeft nodig te hebben. Er zit een verschil tussen van 8 megaton in 2030; dat is geen kattenpis. De minister doet er verstandig aan om zich daarop voor te bereiden. Waar ga ik dat vandaan halen, uit welke sectoren?</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u28">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg35">Helder.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u29">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg36">Dan kun je niet zeggen: we gaan naar Fit for 55 kijken. Kan de minister het niet opvatten als steuntje de rug, omdat ze dat scenario toch moet maken?</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u30">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg37">De heer Van Raan probeert creatief te zijn door mij een bepaalde kant op te duwen. Ik heb net in de richting van de heer Heerema aangegeven dat we hier eerst ook nog andere universiteiten, kennis en expertise op loslaten. Laten we dat dan eerst afwachten. Ik blijf dus bij het ontraden.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u31">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg38">Dan gaan we naar de motie op stuk nr. 862. Meneer Van Raan.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u32">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg39">Over de motie op stuk nr. 862 heb ik geen vragen. Dat komt vanzelf aan de orde, want dat gaat toch een keer gebeuren.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u33">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg40">Dan gaan we naar de motie op stuk nr. 863.</seg>
+            </u>
+            <note type="speaker">De heer Van Raan (PvdD)</note>
+            <u who="#LammertvanRaan"
+               ana="#regular"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u34">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg41">De motie op stuk nr. 863 zit in hetzelfde scenario. De minister kan zich maar beter voorbereiden op de krimp die het wetenschappelijke factsheet voorschrijft. Ze kan toch niet zeggen: omdat het een evergreen is, ga ik de motie ontraden? Dat moment komt steeds dichterbij. Eigenlijk stelt de minister zich hier erg roekeloos op. Dat wil ik toch even meegeven.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u35">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg42">Het was geen vraag, maar u mag reageren.</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u36">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg43">Dan toch for the record: het kabinet heeft het standpunt dat krimp op zich nooit een doel kan zijn. Wij sturen op publieke doelen en die staan voorop. Het verkeersvolume op zich is niet een doel.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u37">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg44">Dan de motie op stuk nr. 864.</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u38">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg45">De motie op stuk nr. 864 is van mevrouw Bouchallikh. Daarin wordt verzocht om het onderzoek naar extra woningen, dat is gedaan door To70, nader uit te werken. Die motie ontraad ik ook, want de kaders hiervoor zijn vastgelegd in de Luchtvaartnota. Daarin is ook dit onderdeel aan de orde, in samenspraak met BZK. Ik ontraad dus deze motie.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u39">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg46">De motie op stuk nr. 864 wordt ontraden.</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u40">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg47">Dat doe ik ook ten aanzien van de motie op stuk nr. 865 van mevrouw Bouchallikh. Die ontraad ik ook, want die is overbodig. Ik steun wel het doel dat hierin aan de orde wordt gesteld, maar dit onderzoek wordt op dit moment al gedaan door het RIVM. Daarnaast heeft de staatssecretaris ook al advies gevraagd over ultrafijnstof aan de Gezondheidsraad. Ik kan u dus wel geruststellen dat het onderzoek al loopt.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u41">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg48">Maar de motie op stuk nr. 865 wordt ontraden.</seg>
+            </u>
+            <note type="speaker">Minister Van Nieuwenhuizen-Wijbenga</note>
+            <u who="#CoravanNieuwenhuijzen-Wijbenga"
+               ana="#guest"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u42">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg49">De motie op stuk nr. 866 van de heer Bontenbal verzoekt de regering om te onderzoeken hoe het laatste stukje laagvliegroutes toch op een veilige en tijdige wijze kan verdwijnen. Die motie kan ik het oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg50">Dan kom ik bij de motie op stuk nr. 867 van de hand van de heer Alkaya. Die motie verzoekt om met KLM en Schiphol in gesprek te gaan over de zorgen die EASA heeft geuit. Die motie kan ik ook oordeel Kamer geven.</seg>
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg51">Voorzitter, dan rest mij nog te zeggen dat ik toch met enige weemoed dit pand ga verlaten. Ik heb hier heel wat uren doorgebracht, overigens ook met een aantal van de leden hier vandaag, en niet in de laatste plaats met u, voorzitter. Ik wens iedereen een heel fijn reces. Het is toch een heel bijzondere en gedenkwaardige dag. Ik zal deze omgeving ook wel missen. We zien elkaar na de zomer weer terug in een hele andere setting. Ik wens iedereen een hele fijne zomervakantie.</seg>
+            </u>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u43">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg52">Ik dank de minister voor de mooie woorden en voor haar komst naar de Kamer in dit gebouw. We zien u terug in het andere gebouw.</seg>
+            </u>
+            <note type="comment">De beraadslaging wordt gesloten.</note>
+            <note type="speaker">De voorzitter</note>
+            <u who="#VeraBergkamp"
+               ana="#chair"
+               xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.u44">
+               <seg xml:id="ParlaMint-NL_2021-07-08-tweedekamer-59.seg53">Ik schors de vergadering tot 19.45 uur en dan gaan wij verder.</seg>
+            </u>
+            <note type="time">De vergadering wordt van 18.54 uur tot 19.47 uur geschorst.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
