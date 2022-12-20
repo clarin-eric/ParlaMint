@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU [ParlaMint]</title>
-            <title type="main" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU [ParlaMint]</title>
+            <title type="main" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="hu">A Magyar Országgyűlés ülései, 7., 8. és 9. ciklus (2014 - 2022)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of Hungary, Term 7, 8 and 9 (2014 - 2022)</title>
             <meeting ana="#parla.term #OGY.7" corresp="#OGY" n="7">7. ciklus</meeting>
@@ -34,11 +34,11 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
-            <measure xml:lang="hu" quantity="1098" unit="speeches">1.098 beszéd</measure>
-            <measure xml:lang="en" quantity="1098" unit="speeches">1,098 speeches</measure>
-            <measure xml:lang="hu" quantity="250672" unit="words">250.672 szó</measure>
-            <measure xml:lang="en" quantity="250672" unit="words">250,672 words</measure>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure xml:lang="hu" quantity="650" unit="speeches">650 beszéd</measure>
+            <measure xml:lang="en" quantity="650" unit="speeches">650 speeches</measure>
+            <measure xml:lang="hu" quantity="141894" unit="words">141.894 szó</measure>
+            <measure xml:lang="en" quantity="141894" unit="words">141,894 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -58,7 +58,7 @@
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2022-11-09">November 9, 2022</date>
+            <date when="2022-12-16">2022-12-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -99,18 +99,18 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="6"/>
-               <tagUsage gi="desc" occurs="965"/>
-               <tagUsage gi="div" occurs="6"/>
-               <tagUsage gi="incident" occurs="24"/>
-               <tagUsage gi="kinesic" occurs="539"/>
-               <tagUsage gi="note" occurs="1398"/>
-               <tagUsage gi="seg" occurs="4755"/>
-               <tagUsage gi="text" occurs="6"/>
-               <tagUsage gi="u" occurs="1098"/>
-               <tagUsage gi="vocal" occurs="402"/>
+               <tagUsage gi="body" occurs="4"/>
+               <tagUsage gi="desc" occurs="532"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="incident" occurs="18"/>
+               <tagUsage gi="kinesic" occurs="293"/>
+               <tagUsage gi="note" occurs="846"/>
+               <tagUsage gi="seg" occurs="2755"/>
+               <tagUsage gi="text" occurs="4"/>
+               <tagUsage gi="u" occurs="650"/>
+               <tagUsage gi="vocal" occurs="221"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -175,18 +175,22 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-12-16">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-11-05">xi:include taxonomies and particDesc elements</change>
          <change when="2022-11-09">new sample made after revision</change>
          <change when="2022-11-09">
             <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
+         <change when="2022-12-05">
+            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HU_2014-05-06.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HU_2016-02-15.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HU_2017-11-20.xml"/>
-   <ns:include xmlns:ns="http://www.w3.org/2001/XInclude"
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HU_2022-06-14.xml"/>
 </teiCorpus>

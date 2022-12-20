@@ -31,7 +31,7 @@
 2	έγγραφό	έγγραφο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	NER=O
 3	του	μου	PRON	PnPo	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	NER=O
 4	ο	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=O
-5	Γενικός	γενικός	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	NER=O
+5	Γενικός	Γενικός	PROPN	NoPr	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	NER=O
 6	Γραμματέας	γραμματέας	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	NER=O
 7	Νομικών	νομικός	ADJ	AjBa	Case=Gen|Gender=Neut|Number=Plur	10	amod	_	NER=O
 8	και	και	CCONJ	CjCo	_	9	cc	_	NER=O
@@ -50,7 +50,7 @@
 # text = «Με την παρούσα ενημερώνουμε, σχετικά με τη συζήτηση των επίκαιρων ερωτήσεων στο πλαίσιο του κοινοβουλευτικού ελέγχου τη Δευτέρα 13 Ιανουαρίου 2020, ότι οι επίκαιρες ερωτήσεις που θα συζητηθούν είναι οι εξής:
 1	«	«	PUNCT	_	_	5	punct	_	NER=O|SpaceAfter=No
 2	Με	με	ADP	AsPpSp	_	5	case	_	NER=O
-3	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=O
+3	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
 4	παρούσα	παρών	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	NER=O
 5	ενημερώνουμε	ενημερώνω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	NER=O
@@ -69,11 +69,11 @@
 18	κοινοβουλευτικού	κοινοβουλευτικός	ADJ	AjBa	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	NER=O
 19	ελέγχου	έλεγχος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NER=O
 20	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	NER=O
-21	Δευτέρα	Δευτέρα	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	16	nmod	_	NER=O
+21	Δευτέρα	Δευτέρα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	NER=O
 22	13	13	NUM	DIG	NumType=Card	21	nmod	_	NER=O
 23	Ιανουαρίου	Ιανουάριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	NER=O
 24	2020	2020	NUM	DIG	NumType=Card	23	nmod	_	NER=O|SpaceAfter=No
-25	,	,	PUNCT	_	_	7	punct	_	NER=O
+25	,	,	PUNCT	_	_	35	punct	_	NER=O
 26	ότι	ότι	SCONJ	CjSb	_	35	mark	_	NER=O
 27	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	NER=O
 28	επίκαιρες	επίκαιρος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Plur	29	amod	_	NER=O
@@ -92,8 +92,8 @@
 1	Η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=O
 2	με	με	ADP	AsPpSp	_	3	case	_	NER=O
 3	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	NER=O
-4	352/7-1-2020	352/7-1-2020	NUM	DIG	NumType=Card	6	nummod	_	NER=O
-5	επίκαιρη	επίκαιρος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	NER=O
+4	352/7-1-2020	352/7-1-2020	NUM	DIG	NumType=Card	3	nmod	_	NER=O
+5	επίκαιρη	επίκαιρος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	NER=O
 6	ερώτηση	ερώτηση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	NER=O
 8	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=O
@@ -115,8 +115,8 @@
 1	Η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=O
 2	με	με	ADP	AsPpSp	_	3	case	_	NER=O
 3	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	NER=O
-4	341/7-1-2020	341/7-1-2020	NUM	DIG	NumType=Card	6	nummod	_	NER=O
-5	επίκαιρη	επίκαιρος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	NER=O
+4	341/7-1-2020	341/7-1-2020	NUM	DIG	NumType=Card	3	nmod	_	NER=O
+5	επίκαιρη	επίκαιρος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	NER=O
 6	ερώτηση	ερώτηση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	NER=O
 8	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	10	nsubj:pass	_	NER=O
@@ -136,10 +136,10 @@
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg7
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg7.1
 # text = Οι με αριθμό 343/7-1-2020 και 344/7-1-2020 επίκαιρες ερωτήσεις που θα απαντηθούν από τον Υφυπουργό Πολιτισμού και Αθλητισμού κ. Ελευθέριο Αυγενάκη».
-1	Οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	NER=O
+1	Οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	NER=O
 2	με	με	ADP	AsPpSp	_	3	case	_	NER=O
-3	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	NER=O
-4	343/7-1-2020	343/7-1-2020	NUM	DIG	NumType=Card	3	nmod	_	NER=O
+3	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+4	343/7-1-2020	343/7-1-2020	NUM	DIG	NumType=Card	8	nummod	_	NER=O
 5	και	και	CCONJ	CjCo	_	8	cc	_	NER=O
 6	344/7-1-2020	344/7-1-2020	NUM	DIG	NumType=Card	8	nummod	_	NER=O
 7	επίκαιρες	επίκαιρος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Plur	8	amod	_	NER=O
@@ -155,8 +155,8 @@
 17	Αθλητισμού	αθλητισμός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	15	conj	_	NER=O
 18	κ.	κ.	NOUN	ABBR	Abbr=Yes	14	flat	_	NER=O
 19	Ελευθέριο	Ελευθέριος	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	14	flat	_	NER=B-PER
-20	Αυγενάκη	Αυγενάκης	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	14	flat	_	NER=I-PER|SpaceAfter=No
-21	»	»	PUNCT	_	_	14	punct	_	NER=O|SpaceAfter=No
+20	Αυγενάκη	Αυγενάκης	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	14	flat	_	NER=I-PER|SpaceAfter=No
+21	»	»	PUNCT	_	_	20	punct	_	NER=O|SpaceAfter=No
 22	.	.	PUNCT	_	_	8	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg8
@@ -170,24 +170,24 @@
 6	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=O
 7	δεύτερη	δεύτερος	NUM	NmOd	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	1	obl	_	NER=O
 8	με	με	ADP	AsPpSp	_	9	case	_	NER=O
-9	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	NER=O
-10	341/7-1-2020	341/7-1-2020	NUM	DIG	NumType=Card	9	nmod	_	NER=O
+9	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	NER=O
+10	341/7-1-2020	341/7-1-2020	NUM	DIG	NumType=Card	7	nmod	_	NER=O
 11	επίκαιρη	επίκαιρος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	NER=O
 12	ερώτηση	ερώτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	NER=O
 13	πρώτου	πρώτος	NUM	NmOd	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	14	amod	_	NER=O
 14	κύκλου	κύκλος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	NER=O
 15	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	NER=O
 16	Βουλευτή	βουλευτής	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	NER=O
-17	Αιτωλοακαρνανίας	Αιτωλοακαρνανία	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	16	flat	_	NER=O
+17	Αιτωλοακαρνανίας	Αιτωλοακαρνανία	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	NER=O
 18	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	NER=O
 19	Κινήματος	κίνημα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	NER=B-ORG
 20	Αλλαγής	αλλαγή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	NER=I-ORG
-21	κ.	κ.	NOUN	ABBR	Abbr=Yes	16	flat	_	NER=O
-22	Δημητρίου	Δημήτριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	16	flat	_	NER=B-PER
-23	Κωνσταντόπουλου	Κωνσταντόπουλος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	16	flat	_	NER=I-PER
+21	κ.	κ.	NOUN	ABBR	Abbr=Yes	19	nmod	_	NER=O
+22	Δημητρίου	Δημήτριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	21	flat	_	NER=B-PER
+23	Κωνσταντόπουλου	Κωνσταντόπουλος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	21	flat	_	NER=I-PER
 24	προς	προς	ADP	AsPpSp	_	26	case	_	NER=O
 25	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	NER=O
-26	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	NER=O
+26	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	NER=O
 27	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	NER=O
 28	και	και	CCONJ	CjCo	_	29	cc	_	NER=O
 29	Θρησκευμάτων	θρήσκευμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	27	conj	_	NER=O|SpaceAfter=No
@@ -196,7 +196,7 @@
 32	θέμα	θέμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	NER=O|SpaceAfter=No
 33	:	:	PUNCT	_	_	35	punct	_	NER=O
 34	«	«	PUNCT	_	_	35	punct	_	NER=O|SpaceAfter=No
-35	Λύσεις	λύση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	32	appos	_	NER=O
+35	Λύσεις	λύση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Plur	32	appos	_	NER=O
 36	για	για	ADP	AsPpSp	_	38	case	_	NER=O
 37	τη	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	NER=O
 38	λειτουργία	λειτουργία	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	NER=O
@@ -212,9 +212,9 @@
 48	Πανεπιστημίου	πανεπιστήμιο	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	46	nmod	_	NER=B-ORG
 49	Πατρών	Πάτρα	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Plur	48	nmod	_	NER=I-ORG
 50	με	με	ADP	AsPpSp	_	51	case	_	NER=O
-51	έδρα	έδρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	NER=O
+51	έδρα	έδρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	NER=O
 52	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	53	det	_	NER=O
-53	Αγρίνιο	Αγρίνιο	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	51	acl	_	NER=B-LOC|SpaceAfter=No
+53	Αγρίνιο	Αγρίνιο	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	51	nmod	_	NER=B-LOC|SpaceAfter=No
 54	»	»	PUNCT	_	_	35	punct	_	NER=O|SpaceAfter=No
 55	.	.	PUNCT	_	_	1	punct	_	NER=O
 
@@ -229,9 +229,9 @@
 6	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
 7	κ.	κ.	NOUN	ABBR	Abbr=Yes	4	obl:agent	_	NER=O
 8	Βασίλειο	Βασίλειος	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	7	flat	_	NER=B-PER
-9	Διγαλάκη	Διγαλάκης	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	7	flat	_	NER=I-PER|SpaceAfter=No
+9	Διγαλάκη	Διγαλάκης	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	NER=I-PER|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	NER=O
-11	Υφυπουργό	υφυπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	7	appos	_	NER=O
+11	Υφυπουργό	υφυπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	7	conj	_	NER=O
 12	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NER=O
 13	και	και	CCONJ	CjCo	_	14	cc	_	NER=O
 14	Θρησκευμάτων	θρήσκευμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	12	conj	_	NER=O|SpaceAfter=No
@@ -263,17 +263,17 @@
 # text = Κύριε Υπουργέ, η πανεπιστημιακή κοινότητα, οι τοπικοί φορείς και η κοινωνία της Αιτωλοακαρνανίας θα έλεγα ότι είναι σε αναβρασμό.
 1	Κύριε	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	17	vocative	_	NER=O
 2	Υπουργέ	υπουργός	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	1	flat	_	NER=O|SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	NER=O
+3	,	,	PUNCT	_	_	1	punct	_	NER=O
 4	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=O
 5	πανεπιστημιακή	πανεπιστημιακός	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	NER=O
-6	κοινότητα	κοινότητα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+6	κοινότητα	κοινότητα	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	NER=O
 8	οι	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	NER=O
 9	τοπικοί	τοπικός	ADJ	AjBa	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	NER=O
-10	φορείς	φορέας	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	NER=O
+10	φορείς	φορέας	NOUN	NoCm	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	NER=O
 11	και	και	CCONJ	CjCo	_	13	cc	_	NER=O
 12	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	NER=O
-13	κοινωνία	κοινωνία	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	NER=O
+13	κοινωνία	κοινωνία	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	NER=O
 14	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=O
 15	Αιτωλοακαρνανίας	Αιτωλοακαρνανία	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	NER=B-LOC
 16	θα	θα	AUX	PtFu	_	17	aux	_	NER=O
@@ -301,7 +301,7 @@
 13-14	στην	_	_	_	_	_	_	_	NER=O
 13	σ	σε	ADP	_	_	15	case	_	_
 14	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Αιτωλοακαρνανία	Αιτωλοακαρνανία	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	NER=B-LOC
+15	Αιτωλοακαρνανία	Αιτωλοακαρνανία	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	NER=B-LOC
 16	και	και	CCONJ	CjCo	_	22	cc	_	NER=O
 17	συγκεκριμένα	συγκεκριμένα	ADV	AdBa	_	22	advmod	_	NER=O
 18	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	NER=O
@@ -346,7 +346,7 @@
 1	Με	με	ADP	AsPpSp	_	3	case	_	NER=O
 2	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	NER=O
 3	ν.4610/2019	ν.4610/2019	NUM	DIG	NumType=Card	7	obl	_	NER=O
-4	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=O
+4	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=O
 5	Υπουργείο	υπουργείο	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	NER=B-ORG
 6	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	NER=I-ORG
 7	κατήργησε	καταργώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
@@ -358,8 +358,8 @@
 13	και	και	CCONJ	CjCo	_	15	cc	_	NER=I-ORG
 14	Νέων	νέος	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Plur	15	amod	_	NER=I-ORG
 15	Τεχνολογιών	τεχνολογία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	NER=I-ORG
-16	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	NER=I-ORG
-17	Αγρινίου	Αγρίνιο	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	NER=I-ORG
+16	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	NER=O
+17	Αγρινίου	Αγρίνιο	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	NER=B-LOC
 18	και	και	CCONJ	CjCo	_	19	cc	_	NER=O
 19	ίδρυσε	ιδρύω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	NER=O
 20	με	με	ADP	AsPpSp	_	21	case	_	NER=O
@@ -372,9 +372,9 @@
 27	και	και	CCONJ	CjCo	_	28	cc	_	NER=O
 28	πιέσεις	πίεση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Plur	26	conj	_	NER=O
 29	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	NER=O
-30	Ιστορικό	ιστορικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	26	amod	_	NER=B-ORG
+30	Ιστορικό	ιστορικό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	26	conj	_	NER=B-ORG
 31	-	-	PUNCT	PUNCT	_	32	punct	_	NER=I-ORG
-32	Αρχαιολογικό	αρχαιολογικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	30	conj	_	NER=I-ORG
+32	Αρχαιολογικό	αρχαιολογικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	26	amod	_	NER=I-ORG
 33-34	στην	_	_	_	_	_	_	_	NER=O
 33	σ	σε	ADP	_	_	35	case	_	_
 34	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -390,18 +390,18 @@
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg13
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg13.1
 # text = Όλα αυτά, κύριε Υπουργέ, εν μία νυκτί, με προχειρότητα, χωρίς μελέτη σκοπιμότητας, χωρίς έκφραση γνώμης της ΑΔΙΠ, χωρίς διαβούλευση.
-1	Όλα	όλος	DET	AjBa	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	2	det	_	NER=O
-2	αυτά	αυτός	PRON	PnDm	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Dem	0	root	_	NER=O|SpaceAfter=No
+1	Όλα	όλος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Plur	0	root	_	NER=O
+2	αυτά	αυτός	DET	PnDm	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Dem	1	det	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	NER=O
-4	κύριε	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	2	vocative	_	NER=O
+4	κύριε	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	NER=O
 5	Υπουργέ	υπουργός	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	4	flat	_	NER=O|SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	NER=O
+6	,	,	PUNCT	_	_	4	punct	_	NER=O
 7	εν	εν	ADP	AsPpSp	_	9	case	_	NER=O
 8	μία	ένας	DET	AtId	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=O
-9	νυκτί	νυκτί	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
-10	,	,	PUNCT	_	_	9	punct	_	NER=O
+9	νυκτί	νυκτί	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	NER=O
 11	με	με	ADP	AsPpSp	_	12	case	_	NER=O
-12	προχειρότητα	προχειρότητα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+12	προχειρότητα	προχειρότητα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	NER=O|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	NER=O
 14	χωρίς	χωρίς	ADP	AsPpSp	_	15	case	_	NER=O
 15	μελέτη	μελέτη	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	NER=O
@@ -412,18 +412,18 @@
 20	γνώμης	γνώμη	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	NER=O
 21	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	NER=O
 22	ΑΔΙΠ	ΑΔΙΠ	NOUN	ABBR	Abbr=Yes	20	nmod	_	NER=B-ORG|SpaceAfter=No
-23	,	,	PUNCT	_	_	25	punct	_	NER=O
+23	,	,	PUNCT	_	_	19	punct	_	NER=O
 24	χωρίς	χωρίς	ADP	AsPpSp	_	25	case	_	NER=O
-25	διαβούλευση	διαβούλευση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
-26	.	.	PUNCT	_	_	2	punct	_	NER=O
+25	διαβούλευση	διαβούλευση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	NER=O|SpaceAfter=No
+26	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg13.2
 # text = Απορεί κανείς γιατί όλα αυτά.
 1	Απορεί	απορώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 2	κανείς	κανένας	PRON	PnId	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Neg	1	nsubj	_	NER=O
-3	γιατί	γιατί	SCONJ	CjSb	_	5	mark	_	NER=O
-4	όλα	όλος	DET	AjBa	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot	5	det	_	NER=O
-5	αυτά	αυτός	PRON	PnDm	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Dem	1	advcl	_	NER=O|SpaceAfter=No
+3	γιατί	γιατί	SCONJ	CjSb	_	4	mark	_	NER=O
+4	όλα	όλος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Plur	1	obj	_	NER=O
+5	αυτά	αυτός	DET	PnDm	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Dem	4	det	_	NER=O|SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg13.3
@@ -438,10 +438,10 @@
 8	συμφέροντα	συμφέρον	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	NER=O
 9	και	και	CCONJ	CjCo	_	13	cc	_	NER=O|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	NER=O
-11	συγκεκριμένα	συγκεκριμένος	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Plur	13	advmod	_	NER=O|SpaceAfter=No
+11	συγκεκριμένα	συγκεκριμένα	ADV	AdBa	_	13	advmod	_	NER=O|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	NER=O
-13	μελών	μέλος	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	NER=O
-14	ΔΕΠ	ΔΕΠ	NOUN	ABBR	Abbr=Yes	13	nmod	_	NER=B-ORG|SpaceAfter=No
+13	μελών	μέλος	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	8	conj	_	NER=O
+14	ΔΕΠ	ΔΕΠ	NOUN	ABBR	Abbr=Yes	13	flat	_	NER=B-ORG|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg14
@@ -479,12 +479,12 @@
 15	και	και	CCONJ	CjCo	_	16	cc	_	NER=O
 16	σήμερα	σήμερα	ADV	AdBa	_	14	advmod	_	NER=O
 17	και	και	CCONJ	CjCo	_	18	cc	_	NER=O
-18	πιστοποίηση	πιστοποίηση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	NER=O
+18	πιστοποίηση	πιστοποίηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	NER=O
 19	από	από	ADP	AsPpSp	_	21	case	_	NER=O
 20	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	NER=O
-21	ΑΔΙΠ	ΑΔΙΠ	NOUN	ABBR	Abbr=Yes	18	nmod	_	NER=B-ORG
+21	ΑΔΙΠ	ΑΔΙΠ	NOUN	ABBR	Abbr=Yes	14	obl	_	NER=B-ORG
 22	με	με	ADP	AsPpSp	_	23	case	_	NER=O
-23	ισχύ	ισχύς	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	NER=O
+23	ισχύ	ισχύς	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	NER=O
 24	έως	έως	ADP	AsPpSp	_	27	case	_	NER=O
 25	και	και	CCONJ	CjCo	_	27	cc	_	NER=O
 26	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	NER=O
@@ -496,17 +496,17 @@
 1	Επίσης	επίσης	ADV	AdBa	_	3	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	NER=O
 3	διέθετε	διαθέτω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
-4	δεκαεπτά	δεκαεπτά	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	5	compound	_	NER=O
+4	δεκαεπτά	δεκαεπτά	NUM	NmCd	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	5	nummod	_	NER=O
 5	μέλη	μέλος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	NER=O
-6	ΔΕΠ	ΔΕΠ	NOUN	ABBR	Abbr=Yes	5	nmod	_	NER=B-ORG|SpaceAfter=No
+6	ΔΕΠ	ΔΕΠ	NOUN	ABBR	Abbr=Yes	5	flat	_	NER=B-ORG|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	NER=O
 8	τριακοσίους	τριακόσιος	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Plur	11	amod	_	NER=O
 9	εν	εν	ADP	AsPpSp	_	10	case	_	NER=O
 10	ενεργεία	ενεργεία	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	NER=O
-11	φοιτητές	φοιτητής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	NER=O|SpaceAfter=No
+11	φοιτητές	φοιτητής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	5	appos	_	NER=O|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	NER=O
 13	επτακοσίους	επτακόσιος	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Plur	14	amod	_	NER=O
-14	αποφοίτους	απόφοιτος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	11	conj	_	NER=O|SpaceAfter=No
+14	αποφοίτους	απόφοιτος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	NER=O|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg15
@@ -536,7 +536,7 @@
 12	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	Αγρίνιο	Αγρίνιο	PROPN	NoPr	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	NER=B-LOC
 14	δύο	δύο	NUM	NmCd	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	16	nummod	_	NER=O
-15	παράλληλα	παράλληλα	ADV	AdBa	_	10	advmod	_	NER=O
+15	παράλληλα	παράλληλα	ADV	AdBa	_	16	advmod	_	NER=O
 16	τμήματα	τμήμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	NER=O
 
@@ -545,9 +545,9 @@
 1	Δηλαδή	δηλαδή	ADV	AdBa	_	4	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	NER=O
 3	το	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	NER=O
-4	Ιστορικό	ιστορικός	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=B-ORG
+4	Ιστορικό	ιστορικό	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	0	root	_	NER=B-ORG
 5	-	-	PUNCT	PUNCT	_	6	punct	_	NER=I-ORG
-6	Αρχαιολογικό	αρχαιολογικός	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	NER=I-ORG
+6	Αρχαιολογικό	αρχαιολογικός	ADJ	AjBa	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	NER=I-ORG
 7	για	για	ADP	AsPpSp	_	9	case	_	NER=O
 8	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	NER=O
 9	πρωτοετείς	πρωτοετής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	NER=O
@@ -563,17 +563,17 @@
 19	για	για	ADP	AsPpSp	_	26	case	_	NER=O
 20	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	NER=O
 21	εν	εν	ADP	AsPpSp	_	22	case	_	NER=O
-22	ενεργεία	ενεργεία	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	NER=O
+22	ενεργεία	ενεργεία	NOUN	NoCm	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	NER=O
 23	προπτυχιακούς	προπτυχιακός	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Plur	26	amod	_	NER=O
-24	και	και	CCONJ	CjCo	_	25	cc	_	NER=O
+24	και	και	CCONJ	CjCo	_	26	cc	_	NER=O
 25	μεταπτυχιακούς	μεταπτυχιακός	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Plur	23	conj	_	NER=O
-26	φοιτητές	φοιτητής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	NER=O|SpaceAfter=No
+26	φοιτητές	φοιτητής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	NER=O|SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg16
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg16.1
 # text = Ωστόσο, υπάρχει μία κοινή διαπίστωση.
-1	Ωστόσο	ωστόσο	CCONJ	CjCo	_	3	cc	_	NER=O|SpaceAfter=No
+1	Ωστόσο	ωστόσο	ADV	AdBa	_	3	cc	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	NER=O
 3	υπάρχει	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
 4	μία	ένας	DET	AtId	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	NER=O
@@ -610,7 +610,7 @@
 3	γιατί	γιατί	SCONJ	CjSb	_	6	mark	_	NER=O
 4	με	με	ADP	AsPpSp	_	5	case	_	NER=O
 5	προχειρότητα	προχειρότητα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	NER=O
-6	προσπαθεί	προσπαθώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	NER=O
+6	προσπαθεί	προσπαθώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	NER=O
 7	να	να	AUX	PtSj	_	8	aux	_	NER=O
 8	ενσωματώσει	ενσωματώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	xcomp	_	NER=O
 9	παλιούς	παλιός	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Plur	12	amod	_	NER=O
@@ -646,29 +646,29 @@
 16	αποψιλωθεί	αποψιλώνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	14	xcomp	_	NER=O
 17	από	από	ADP	AsPpSp	_	18	case	_	NER=O
 18	μέλη	μέλος	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	16	obl:agent	_	NER=O
-19	ΔΕΠ	ΔΕΠ	NOUN	ABBR	Abbr=Yes	18	nmod	_	NER=B-ORG|SpaceAfter=No
+19	ΔΕΠ	ΔΕΠ	NOUN	ABBR	Abbr=Yes	18	flat	_	NER=B-ORG|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg17
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg17.1
 # text = Εδώ, κύριε Υπουργέ, πρέπει να τονιστεί ότι δεν υπάρχει καμμία, μα καμμία, πρόβλεψη για την κατοχύρωση των επαγγελματικών δικαιωμάτων των φοιτητών που υπάγονται διοικητικά στο Ιστορικό - Αρχαιολογικό και θα λάβουν πτυχίο από το παλιό τμήμα, ομοίως και για τους αποφοίτους.
-1	Εδώ	εδώ	ADV	AdBa	_	6	advmod	_	NER=O|SpaceAfter=No
+1	Εδώ	εδώ	ADV	AdBa	_	8	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	NER=O
-3	κύριε	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	6	vocative	_	NER=O
+3	κύριε	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	8	vocative	_	NER=O
 4	Υπουργέ	υπουργός	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	3	flat	_	NER=O|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	NER=O
-6	πρέπει	πρέπει	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+6	πρέπει	πρέπει	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	NER=O
 7	να	να	AUX	PtSj	_	8	aux	_	NER=O
-8	τονιστεί	τονίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	6	csubj	_	NER=O
+8	τονιστεί	τονίζω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
 9	ότι	ότι	SCONJ	CjSb	_	11	mark	_	NER=O
 10	δεν	δεν	PART	PtNg	_	11	advmod	_	NER=O
 11	υπάρχει	υπάρχω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj:pass	_	NER=O
-12	καμμία	κανένας	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	NER=O|SpaceAfter=No
+12	καμμία	κανένας	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	11	xcomp	_	NER=O|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	NER=O
-14	μα	μα	CCONJ	CjCo	_	15	cc	_	NER=O
-15	καμμία	κανένας	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	NER=O|SpaceAfter=No
+14	μα	μα	CCONJ	CjCo	_	15	advmod	_	NER=O
+15	καμμία	κανένας	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	NER=O|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	NER=O
-17	πρόβλεψη	πρόβλεψη	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	11	obl	_	NER=O
+17	πρόβλεψη	πρόβλεψη	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	NER=O
 18	για	για	ADP	AsPpSp	_	20	case	_	NER=O
 19	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	NER=O
 20	κατοχύρωση	κατοχύρωση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	NER=O
@@ -678,14 +678,14 @@
 24	των	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	NER=O
 25	φοιτητών	φοιτητής	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	NER=O
 26	που	που	PRON	PnRe	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Rel	27	nsubj:pass	_	NER=O
-27	υπάγονται	υπάγω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	acl:relcl	_	NER=O
+27	υπάγονται	υπάγω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	23	acl:relcl	_	NER=O
 28	διοικητικά	διοικητικά	ADV	AdBa	_	27	advmod	_	NER=O
 29-30	στο	_	_	_	_	_	_	_	NER=O
 29	σ	σε	ADP	_	_	31	case	_	_
 30	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	_
 31	Ιστορικό	ιστορικό	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	NER=B-ORG
 32	-	-	PUNCT	PUNCT	_	33	punct	_	NER=I-ORG
-33	Αρχαιολογικό	αρχαιολογικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	31	amod	_	NER=I-ORG
+33	Αρχαιολογικό	αρχαιολογικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	31	conj	_	NER=I-ORG
 34	και	και	CCONJ	CjCo	_	36	cc	_	NER=O
 35	θα	θα	AUX	PtFu	_	36	aux	_	NER=O
 36	λάβουν	λαμβάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	27	conj	_	NER=O
@@ -693,14 +693,14 @@
 38	από	από	ADP	AsPpSp	_	41	case	_	NER=O
 39	το	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	41	det	_	NER=O
 40	παλιό	παλιός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	41	amod	_	NER=O
-41	τμήμα	τμήμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	37	nmod	_	NER=O|SpaceAfter=No
+41	τμήμα	τμήμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	36	obl	_	NER=O|SpaceAfter=No
 42	,	,	PUNCT	_	_	47	punct	_	NER=O
 43	ομοίως	όμοια	ADV	AdBa	_	47	advmod	_	NER=O
 44	και	και	CCONJ	CjCo	_	47	cc	_	NER=O
 45	για	για	ADP	AsPpSp	_	47	case	_	NER=O
 46	τους	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	NER=O
 47	αποφοίτους	απόφοιτος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	41	conj	_	NER=O|SpaceAfter=No
-48	.	.	PUNCT	_	_	6	punct	_	NER=O
+48	.	.	PUNCT	_	_	8	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg18
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg18.1
@@ -717,8 +717,8 @@
 10	τμήμα	τμήμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	NER=O
 11	βρίσκεται	βρίσκω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	ccomp	_	NER=O
 12	εδώ	εδώ	ADV	AdBa	_	11	advmod	_	NER=O
-13	και	και	CCONJ	CjCo	_	12	cc	_	NER=O
-14	δύο	δύο	NUM	NmCd	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	12	conj	_	NER=O
+13	και	και	CCONJ	CjCo	_	15	cc	_	NER=O
+14	δύο	δύο	NUM	NmCd	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	15	nummod	_	NER=O
 15	μήνες	μήνας	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Plur	12	conj	_	NER=O
 16	σε	σε	ADP	AsPpSp	_	17	case	_	NER=O
 17	κατάληψη	κατάληψη	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	NER=O
@@ -787,18 +787,18 @@
 1	Επίσης	επίσης	ADV	AdBa	_	3	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	NER=O
 3	απαιτείται	απαιτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
-4	και	και	CCONJ	CjCo	_	5	cc	_	NER=O
-5	πρέπει	πρέπει	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	NER=O
+4	και	και	CCONJ	CjCo	_	7	cc	_	NER=O
+5	πρέπει	πρέπει	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	NER=O
 6	να	να	AUX	PtSj	_	7	aux	_	NER=O
-7	συμπεριληφθούν	συμπεριλαμβάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	3	csubj:pass	_	NER=O
+7	συμπεριληφθούν	συμπεριλαμβάνω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	3	conj	_	NER=O
 8	και	και	CCONJ	CjCo	_	11	cc	_	NER=O
 9	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	NER=O
-10	δύο	δύο	NUM	NmCd	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	11	amod	_	NER=O
+10	δύο	δύο	NUM	NmCd	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	11	nummod	_	NER=O
 11	τμήματα	τμήμα	NOUN	NoCm	Case=Nom|Gender=Neut|Number=Plur	7	nsubj:pass	_	NER=O
 12-13	στο	_	_	_	_	_	_	_	NER=O
 12	σ	σε	ADP	_	_	14	case	_	_
 13	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
-14	μηχανογραφικό	μηχανογραφικός	ADJ	AjBa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	NER=O
+14	μηχανογραφικό	μηχανογραφικός	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	NER=O
 15	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	NER=O
 16	2020	2020	NUM	DIG	NumType=Card	14	nmod	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	NER=O
@@ -821,7 +821,7 @@
 # text = Είναι πρόταση που δυναμικά και συλλογικά απαιτεί η τοπική κοινωνία, οι φορείς, η ακαδημαϊκή κοινότητα.
 1	Είναι	είμαι	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	NER=O
 2	πρόταση	πρόταση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=O
-3	που	που	PRON	PnRe	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Rel	7	obj	_	NER=O
+3	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	7	obj	_	NER=O
 4	δυναμικά	δυναμικά	ADV	AdBa	_	7	advmod	_	NER=O
 5	και	και	CCONJ	CjCo	_	6	cc	_	NER=O
 6	συλλογικά	συλλογικά	ADV	AdBa	_	4	conj	_	NER=O
@@ -857,14 +857,14 @@
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg21
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg21.1
 # text = Κατόπιν τούτων, κύριε Υπουργέ, ερωτάστε τα εξής:
-1	Κατόπιν	κατόπιν	ADP	AsPpSp	_	2	case	_	NER=O
-2	τούτων	τούτος	PRON	PnDm	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Dem	7	obl	_	NER=O|SpaceAfter=No
+1	Κατόπιν	κατόπιν	ADV	AdBa	_	7	advmod	_	NER=O
+2	τούτων	τούτος	PRON	PnDm	Case=Gen|Gender=Neut|Number=Plur|Person=3|PronType=Dem	7	obl	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	NER=O
 4	κύριε	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	NER=O
 5	Υπουργέ	υπουργός	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Sing	4	flat	_	NER=O|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	NER=O
-7	ερωτάστε	ερωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
-8	τα	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	NER=O
+7	ερωτάστε	ερωτώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+8	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	NER=O
 9	εξής	εξής	ADV	AdBa	_	7	obj	_	NER=O|SpaceAfter=No
 10	:	:	PUNCT	_	_	7	punct	_	NER=O
 
@@ -874,12 +874,12 @@
 1	Αποδέχεστε	αποδέχομαι	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
 2	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
 3	υποβάθμιση	υποβάθμιση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	NER=O
-4	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	5	nsubj:pass	_	NER=O
+4	που	που	PRON	PnRe	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel	5	nsubj	_	NER=O
 5	συντελέστηκε	συντελώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	NER=O
 6	με	με	ADP	AsPpSp	_	8	case	_	NER=O
 7	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=O
 8	νόμο	νόμος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	NER=O
-9	Γαβρόγλου	Γαβρόγλου	PROPN	NoPr	Case=Acc|Gender=Masc|Number=Sing	8	flat	_	NER=O
+9	Γαβρόγλου	Γαβρόγλου	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER=B-PER
 10-11	στην	_	_	_	_	_	_	_	NER=O
 10	σ	σε	ADP	_	_	13	case	_	_
 11	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -888,7 +888,7 @@
 14-15	στην	_	_	_	_	_	_	_	NER=O
 14	σ	σε	ADP	_	_	16	case	_	_
 15	την	ο	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Αιτωλοακαρνανία	Αιτωλοακαρνανία	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	NER=B-LOC|SpaceAfter=No
+16	Αιτωλοακαρνανία	Αιτωλοακαρνανία	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	NER=B-LOC|SpaceAfter=No
 17	;	;	PUNCT	_	_	1	punct	_	NER=O
 
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg22.2
@@ -900,14 +900,14 @@
 5	εδώ	εδώ	ADV	AdBa	_	4	advmod	_	NER=O
 6	ότι	ότι	SCONJ	CjSb	_	12	mark	_	NER=O
 7	ως	ως	ADV	AdBa	_	8	case	_	NER=O
-8	Αντιπολίτευση	αντιπολίτευση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	NER=O
+8	Αντιπολίτευση	αντιπολίτευση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	12	obl	_	NER=B-ORG
 9	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	NER=O
-10	είχατε	έχω	AUX	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	NER=O
+10	είχατε	έχω	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	NER=O
 11	τότε	τότε	ADV	AdBa	_	12	advmod	_	NER=O
 12	στηλιτεύσει	στηλιτεύω	VERB	VbMn	Aspect=Perf|VerbForm=Inf|Voice=Act	4	ccomp	_	NER=O
 13	και	και	CCONJ	CjCo	_	16	cc	_	NER=O
 14	το	εγώ	PRON	PnPe	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	NER=O
-15	είχατε	έχω	AUX	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	NER=O
+15	είχατε	έχω	AUX	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	NER=O
 16	καταγγείλει	καταγγέλλω	VERB	VbMn	Aspect=Perf|VerbForm=Inf|Voice=Act	12	conj	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	NER=O
 
@@ -926,7 +926,7 @@
 10	και	και	CCONJ	CjCo	_	13	cc	_	NER=O
 11	πώς	πώς	ADV	AdBa	_	13	advmod	_	NER=O
 12	θα	θα	AUX	PtFu	_	13	aux	_	NER=O
-13	επιλύσετε	επιλύω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	NER=O
+13	επιλύσετε	επιλύω	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	NER=O
 14	τα	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	15	det	_	NER=O
 15	προβλήματα	πρόβλημα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	NER=O
 16	που	που	PRON	PnRe	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Rel	18	nsubj:pass	_	NER=O
@@ -948,12 +948,12 @@
 32	φυσικά	φυσικά	ADV	AdBa	_	35	advmod	_	NER=O|SpaceAfter=No
 33	,	,	PUNCT	_	_	32	punct	_	NER=O
 34	τι	τι	PRON	PnIr	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	35	obj	_	NER=O
-35	απαντάτε	απαντώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	NER=O
+35	απαντάτε	απαντώ	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	NER=O
 36-37	στο	_	_	_	_	_	_	_	NER=O
 36	σ	σε	ADP	_	_	38	case	_	_
 37	το	ο	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	38	det	_	_
 38	δίκαιο	δίκαιο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	39	amod	_	NER=O
-39	αίτημα	αίτημα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	35	obj	_	NER=O
+39	αίτημα	αίτημα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	35	obl	_	NER=O
 40	όλων	όλος	DET	AjBa	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	39	det	_	NER=O
 41	για	για	ADP	AsPpSp	_	42	case	_	NER=O
 42	επανίδρυση	επανίδρυση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	39	nmod	_	NER=O
@@ -984,34 +984,34 @@
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg228
 # sent_id = ParlaMint-GR_2020-01-13-S1-commons.seg228.1
 # text = Κυρίες και κύριοι συνάδελφοι, η πρώτη με αριθμό 786/19-9-2019 ερώτηση του κύκλου αναφορών και ερωτήσεων του Βουλευτή Ηρακλείου του Κινήματος Αλλαγής κ. Βασιλείου Κεγκέρογλου προς την Υπουργό Παιδείας και Θρησκευμάτων, με θέμα: «Να εφαρμοστεί το προεδρικό διάταγμα 45 για τα επαγγελματικά δικαιώματα των τμημάτων επιστήμης και τεχνολογίας των υλικών, του Πανεπιστημίου Κρήτης και Πατρών», δεν θα συζητηθεί λόγω έκτακτου κωλύματος της Υπουργού Παιδείας και Θρησκευμάτων.
-1	Κυρίες	κυρία	NOUN	NoCm	Case=Voc|Gender=Fem|Number=Plur	64	vocative	_	NER=O
+1	Κυρίες	κυρία	NOUN	NoCm	Case=Voc|Gender=Fem|Number=Plur	7	vocative	_	NER=O
 2	και	και	CCONJ	CjCo	_	3	cc	_	NER=O
 3	κύριοι	κύριος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	conj	_	NER=O
-4	συνάδελφοι	συνάδελφος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	flat	_	NER=O|SpaceAfter=No
+4	συνάδελφοι	συνάδελφος	NOUN	NoCm	Case=Voc|Gender=Masc|Number=Plur	1	conj	_	NER=O|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	NER=O
 6	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=O
-7	πρώτη	πρώτος	NUM	NmOd	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	NER=O
+7	πρώτη	πρώτος	NUM	NmOd	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	64	nsubj:pass	_	NER=O
 8	με	με	ADP	AsPpSp	_	9	case	_	NER=O
-9	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	NER=O
-10	786/19-9-2019	786/19-9-2019	NUM	DIG	NumType=Card	11	nummod	_	NER=O
-11	ερώτηση	ερώτηση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	64	nsubj:pass	_	NER=O
+9	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	NER=O
+10	786/19-9-2019	786/19-9-2019	NUM	DIG	NumType=Card	9	nmod	_	NER=O
+11	ερώτηση	ερώτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	NER=O
 12	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER=O
 13	κύκλου	κύκλος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NER=O
 14	αναφορών	αναφορά	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	NER=O
 15	και	και	CCONJ	CjCo	_	16	cc	_	NER=O
-16	ερωτήσεων	ερώτηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	13	conj	_	NER=O
+16	ερωτήσεων	ερώτηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	14	conj	_	NER=O
 17	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	NER=O
 18	Βουλευτή	βουλευτής	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NER=O
 19	Ηρακλείου	Ηράκλειο	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	NER=O
 20	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	NER=O
 21	Κινήματος	κίνημα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	NER=B-ORG
-22	Αλλαγής	αλλαγή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	NER=I-ORG
+22	Αλλαγής	αλλαγή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	NER=I-ORG
 23	κ.	κ.	NOUN	ABBR	Abbr=Yes	18	flat	_	NER=O
 24	Βασιλείου	Βασίλειος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	18	flat	_	NER=B-PER
 25	Κεγκέρογλου	Κεγκέρογλου	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	18	flat	_	NER=I-PER
 26	προς	προς	ADP	AsPpSp	_	28	case	_	NER=O
 27	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	NER=O
-28	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	NER=O
+28	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	NER=O
 29	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	NER=O
 30	και	και	CCONJ	CjCo	_	31	cc	_	NER=O
 31	Θρησκευμάτων	θρήσκευμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	29	conj	_	NER=O|SpaceAfter=No
@@ -1039,12 +1039,12 @@
 53	υλικών	υλικό	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	48	nmod	_	NER=O|SpaceAfter=No
 54	,	,	PUNCT	_	_	56	punct	_	NER=O
 55	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	56	det	_	NER=O
-56	Πανεπιστημίου	πανεπιστήμιο	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	48	nmod	_	NER=B-ORG
+56	Πανεπιστημίου	πανεπιστήμιο	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	48	conj	_	NER=B-ORG
 57	Κρήτης	Κρήτη	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	NER=I-ORG
 58	και	και	CCONJ	CjCo	_	59	cc	_	NER=I-ORG
 59	Πατρών	Πάτρα	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Plur	57	conj	_	NER=I-ORG|SpaceAfter=No
 60	»	»	PUNCT	_	_	38	punct	_	NER=O|SpaceAfter=No
-61	,	,	PUNCT	_	_	11	punct	_	NER=O
+61	,	,	PUNCT	_	_	7	punct	_	NER=O
 62	δεν	δεν	PART	PtNg	_	64	advmod	_	NER=O
 63	θα	θα	AUX	PtFu	_	64	aux	_	NER=O
 64	συζητηθεί	συζητώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
@@ -1052,7 +1052,7 @@
 66	έκτακτου	έκτακτος	ADJ	AjBa	Case=Gen|Gender=Neut|Number=Sing	67	amod	_	NER=O
 67	κωλύματος	κώλυμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	64	obl	_	NER=O
 68	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	NER=O
-69	Υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	67	nmod	_	NER=B-ORG
+69	Υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	67	nmod	_	NER=B-ORG
 70	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	69	nmod	_	NER=I-ORG
 71	και	και	CCONJ	CjCo	_	72	cc	_	NER=I-ORG
 72	Θρησκευμάτων	θρήσκευμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	70	conj	_	NER=I-ORG|SpaceAfter=No
@@ -1073,30 +1073,30 @@
 10	και	και	CCONJ	CjCo	_	11	cc	_	NER=O
 11	ερωτήσεων	ερώτηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	9	conj	_	NER=O
 12	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER=O
-13	Βουλευτή	βουλευτής	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NER=O
+13	Βουλευτή	βουλευτής	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER=O
 14	Ηρακλείου	Ηράκλειο	PROPN	NoPr	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	NER=O
 15	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	NER=O
 16	Κινήματος	κίνημα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	NER=B-ORG
-17	Αλλαγής	αλλαγή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	NER=I-ORG
-18	κ.	κ.	NOUN	ABBR	Abbr=Yes	13	flat	_	NER=O
-19	Βασιλείου	Βασίλειος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	13	flat	_	NER=B-PER
-20	Κεγκέρογλου	Κεγκέρογλου	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	13	flat	_	NER=I-PER
+17	Αλλαγής	αλλαγή	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	NER=I-ORG
+18	κ.	κ.	NOUN	ABBR	Abbr=Yes	16	nmod	_	NER=O
+19	Βασιλείου	Βασίλειος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	18	flat	_	NER=B-PER
+20	Κεγκέρογλου	Κεγκέρογλου	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	18	flat	_	NER=I-PER
 21	προς	προς	ADP	AsPpSp	_	23	case	_	NER=O
 22	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=O
-23	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	NER=O
+23	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	NER=O
 24	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	NER=O
 25	και	και	CCONJ	CjCo	_	26	cc	_	NER=O
 26	Θρησκευμάτων	θρήσκευμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	24	conj	_	NER=O|SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	NER=O
 28	με	με	ADP	AsPpSp	_	29	case	_	NER=O
-29	θέμα	θέμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	48	obl	_	NER=O|SpaceAfter=No
-30	:	:	PUNCT	_	_	29	punct	_	NER=O
+29	θέμα	θέμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	NER=O|SpaceAfter=No
+30	:	:	PUNCT	_	_	33	punct	_	NER=O
 31	«	«	PUNCT	_	_	33	punct	_	NER=O|SpaceAfter=No
 32	Άνιση	άνισος	ADJ	AjBa	Case=Nom|Gender=Fem|Number=Sing	33	amod	_	NER=O
-33	μεταχείριση	μεταχείριση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	48	obl	_	NER=O
-34	εκπαιδευτικών	εκπαιδευτικός	ADJ	AjBa	Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	NER=O|SpaceAfter=No
+33	μεταχείριση	μεταχείριση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	29	appos	_	NER=O
+34	εκπαιδευτικών	εκπαιδευτικός	ADJ	AjBa	Case=Gen|Gender=Masc|Number=Plur	33	amod	_	NER=O|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	NER=O
-36	επιτυχόντων	επιτυχών	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Plur	34	conj	_	NER=O
+36	επιτυχόντων	επιτυχών	ADJ	AjBa	Case=Gen|Gender=Masc|Number=Plur	34	conj	_	NER=O
 37	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	NER=O
 38	γραπτού	γραπτός	ADJ	AjBa	Case=Gen|Gender=Masc|Number=Sing	39	amod	_	NER=O
 39	διαγωνισμού	διαγωνισμός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	NER=O
@@ -1105,7 +1105,7 @@
 42	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	43	det	_	NER=O
 43	2008	2008	NUM	DIG	NumType=Card	41	nmod	_	NER=O|SpaceAfter=No
 44	»	»	PUNCT	_	_	33	punct	_	NER=O|SpaceAfter=No
-45	,	,	PUNCT	_	_	33	punct	_	NER=O
+45	,	,	PUNCT	_	_	2	punct	_	NER=O
 46	δεν	δεν	PART	PtNg	_	48	advmod	_	NER=O
 47	θα	θα	AUX	PtFu	_	48	aux	_	NER=O
 48	συζητηθεί	συζητώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
@@ -1113,7 +1113,7 @@
 50	έκτακτου	έκτακτος	ADJ	AjBa	Case=Gen|Gender=Neut|Number=Sing	51	amod	_	NER=O
 51	κωλύματος	κώλυμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	48	obl	_	NER=O
 52	της	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	NER=O
-53	Υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	51	nmod	_	NER=B-ORG
+53	Υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	NER=B-ORG
 54	Παιδείας	παιδεία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	NER=I-ORG
 55	και	και	CCONJ	CjCo	_	56	cc	_	NER=I-ORG
 56	Θρησκευμάτων	θρήσκευμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Plur	54	conj	_	NER=I-ORG|SpaceAfter=No
@@ -1130,7 +1130,7 @@
 6	συζητηθούν	συζητώ	VERB	VbMn	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
 7	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=O
 8	ερχόμενη	ερχόμενος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	NER=O
-9	Δευτέρα	Δευτέρα	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+9	Δευτέρα	Δευτέρα	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	NER=O
 
 # newpar id = ParlaMint-GR_2020-01-13-S1-commons.seg231
@@ -1145,14 +1145,14 @@
 7	συνεννόησης	συνεννόηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	NER=O
 8	Υπουργού	υπουργός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=O
 9	με	με	ADP	AsPpSp	_	10	case	_	NER=O
-10	Βουλευτή	βουλευτής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	NER=O
+10	Βουλευτή	βουλευτής	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	NER=O
 11	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER=O
 12	πρώτη	πρώτος	NUM	NmOd	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	5	nsubj:pass	_	NER=O
 13	με	με	ADP	AsPpSp	_	14	case	_	NER=O
-14	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	NER=O
+14	αριθμό	αριθμός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	NER=O
 15	351/7-1-2020	351/7-1-2020	NUM	DIG	NumType=Card	14	nmod	_	NER=O
 16	επίκαιρη	επίκαιρος	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	NER=O
-17	ερώτηση	ερώτηση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	5	obl	_	NER=O
+17	ερώτηση	ερώτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	NER=O
 18	πρώτου	πρώτος	NUM	NmOd	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	NER=O
 19	κύκλου	κύκλος	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	NER=O
 20	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	NER=O
@@ -1161,19 +1161,19 @@
 23	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	NER=O
 24	Συνασπισμού	συνασπισμός	NOUN	NoCm	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	NER=B-ORG
 25	Ριζοσπαστικής	ριζοσπαστικός	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Sing	26	amod	_	NER=I-ORG
-26	Αριστεράς	Αριστερά	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	NER=I-ORG
-27	κ	κ	NOUN	NBABBR	Abbr=Yes	24	nmod	_	NER=O
+26	Αριστεράς	Αριστερά	PROPN	NoPr	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	NER=I-ORG
+27	κ	κ	NOUN	ABBR	Abbr=Yes	24	flat	_	NER=O
 28	Σωκράτη	Σωκράτης	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	24	flat	_	NER=B-PER
-29	Βαρδάκη	Βαρδάκης	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	24	flat	_	NER=I-PER
+29	Βαρδάκη	Βαρδάκης	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	28	flat	_	NER=I-PER
 30	προς	προς	ADP	AsPpSp	_	32	case	_	NER=O
 31	τον	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	NER=O
-32	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	NER=O
+32	Υπουργό	υπουργός	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	NER=O
 33	Ναυτιλίας	ναυτιλία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	NER=O
 34	και	και	CCONJ	CjCo	_	36	cc	_	NER=O
 35	Νησιωτικής	νησιωτικός	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Sing	36	amod	_	NER=O
 36	Πολιτικής	πολιτική	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Sing	33	conj	_	NER=O
 37	με	με	ADP	AsPpSp	_	38	case	_	NER=O
-38	θέμα	θέμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	NER=O|SpaceAfter=No
+38	θέμα	θέμα	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	NER=O|SpaceAfter=No
 39	:	:	PUNCT	_	_	42	punct	_	NER=O
 40	«	«	PUNCT	_	_	42	punct	_	NER=O|SpaceAfter=No
 41	Να	να	AUX	PtSj	_	42	aux	_	NER=O
@@ -1183,12 +1183,12 @@
 45	εφαρμογή	εφαρμογή	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	42	nsubj:pass	_	NER=O
 46	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	47	det	_	NER=O
 47	προγράμματος	πρόγραμμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	NER=O
-48	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	50	det	_	NER=O
+48	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	NER=O
 49	μεταφορικού	μεταφορικός	ADJ	AjBa	Case=Gen|Gender=Neut|Number=Sing	50	amod	_	NER=O
-50	ισοδύναμου	ισοδύναμος	ADJ	AjBa	Case=Gen|Gender=Neut|Number=Sing	47	nmod	_	NER=O
+50	ισοδύναμου	ισοδύναμος	ADJ	AjBa	Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	NER=O
 51	για	για	ADP	AsPpSp	_	53	case	_	NER=O
 52	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	NER=O
-53	Κρήτη	Κρήτη	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	47	nmod	_	NER=B-LOC|SpaceAfter=No
+53	Κρήτη	Κρήτη	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	50	nmod	_	NER=B-LOC|SpaceAfter=No
 54	»	»	PUNCT	_	_	42	punct	_	NER=O|SpaceAfter=No
 55	.	.	PUNCT	_	_	5	punct	_	NER=O
 
@@ -1233,15 +1233,15 @@
 4	του	ο	DET	AtDf	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=O
 5	Σώματος	σώμα	NOUN	NoCm	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	NER=B-ORG
 6	και	και	CCONJ	CjCo	_	7	cc	_	NER=O
-7	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	NER=O
-8	19.16΄	19.16΄	NUM	DIG	NumType=Card	7	nmod	_	NER=O
+7	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	NER=O
+8	19.16΄	19.16΄	NUM	DIG	NumType=Card	5	conj	_	NER=O
 9	λύεται	λύω	VERB	VbMn	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
 10	η	ο	DET	AtDf	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	NER=O
 11	συνεδρίαση	συνεδρίαση	NOUN	NoCm	Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	NER=O
 12	για	για	ADP	AsPpSp	_	15	case	_	NER=O
 13	την	ο	DET	AtDf	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=O
 14	προσεχή	προσεχής	ADJ	AjBa	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	NER=O
-15	Πέμπτη	Πέμπτη	PROPN	NoPr	Case=Nom|Gender=Fem|Number=Sing	11	nmod	_	NER=O
+15	Πέμπτη	Πέμπτη	PROPN	NoPr	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	NER=O
 16	16	16	NUM	DIG	NumType=Card	15	nmod	_	NER=O
 17	Ιανουαρίου	Ιανουάριος	PROPN	NoPr	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NER=O
 18	2020	2020	NUM	DIG	NumType=Card	17	nmod	_	NER=O
@@ -1249,14 +1249,14 @@
 20	ώρα	ώρα	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	NER=O
 21	9.30΄	9.30΄	NUM	DIG	NumType=Card	20	nmod	_	NER=O
 22	με	με	ADP	AsPpSp	_	23	case	_	NER=O
-23	αντικείμενο	αντικείμενο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	20	nmod	_	NER=O
+23	αντικείμενο	αντικείμενο	NOUN	NoCm	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	NER=O
 24	εργασιών	εργασία	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	NER=O|SpaceAfter=No
 25	:	:	PUNCT	_	_	27	punct	_	NER=O
 26	κοινοβουλευτικό	κοινοβουλευτικός	ADJ	AjBa	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	NER=O
-27	έλεγχο	έλεγχος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	9	appos	_	NER=O|SpaceAfter=No
+27	έλεγχο	έλεγχος	NOUN	NoCm	Case=Acc|Gender=Masc|Number=Sing	9	parataxis	_	NER=O|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	NER=O
 29	συζήτηση	συζήτηση	NOUN	NoCm	Case=Acc|Gender=Fem|Number=Sing	27	conj	_	NER=O
 30	επικαίρων	επίκαιρος	ADJ	AjBa	Case=Gen|Gender=Fem|Number=Plur	31	amod	_	NER=O
-31	ερωτήσεων	ερώτηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	NER=O|SpaceAfter=No
+31	ερωτήσεων	ερώτηση	NOUN	NoCm	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	NER=O|SpaceAfter=No
 32	.	.	PUNCT	_	_	9	punct	_	NER=O
 
