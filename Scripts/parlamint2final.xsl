@@ -122,8 +122,9 @@
                                   tei:extent/tei:measure[@unit='words'][1]/@quantity"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-                                   ': cannot locate .ana file ', tei:url-ana)"/>
+              <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                                   ': cannot locate .ana file ', tei:url-ana, 
+				   ', extents will not be set in TEI!')"/>
               <xsl:value-of select="number('0')"/>
             </xsl:otherwise>
           </xsl:choose>
