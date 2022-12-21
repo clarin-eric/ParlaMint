@@ -21,17 +21,25 @@ CURRENT_COMMIT := $(shell git rev-parse --short HEAD)
 ###### Setup
 ## check-prereq ## test if prerequisities are installed, more about installing prerequisities in CONTRIBUTING.md file
 check-prereq:
-	@test -f /usr/share/java/saxon.jar
-	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'
-	@echo "Saxon: OK"
-	@test -f /usr/share/java/jing.jar
-	@unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng'
-	@echo "Jing: OK"
-	@test -f Scripts/tools/validate.py
-	@python3 -m re
-	@echo "UD tools: OK"
+	@uname -a|grep -iq ubuntu || \
+	  ( echo -n "WARN: not running on ubuntu-derived system: " && uname -a )
+	@echo -n "Saxon: "
+	@test -f /usr/share/java/saxon.jar && \
+	  unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
+	  echo "OK" || echo "FAIL"
+	@echo -n "Jing: "
+	@test -f /usr/share/java/jing.jar && \
+	  unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
+	  echo "OK" || echo "FAIL"
+	@echo -n "UD tools: "
+	@test -f Scripts/tools/validate.py && \
+	  python3 -m re && \
+	  echo "OK" || echo "FAIL"
+	@which parallel > /dev/null && \
+	  echo "parallel: OK" || echo "WARN: command parallel is missing"
 	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)"
 	@java -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
+	@echo "INFO: Setup guide in CONTRIBUTING.md file"
 
 
 setup-parliament:
@@ -627,12 +635,13 @@ insert-orientation-test-val:
 
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 generate-ministers:
-	$s outDir=Data/Metadata/Ministers2 -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
+	$s outDir=Data/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
 
 ## Insert minister affiliations from TSV file into a root file.
-MC = IS
+MC = BE
+TSV = /project/corpora/Parla/ParlaMint/Minister
 insert-ministries-test:
-	$s tsv=../Data/Metadata/Ministers/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
+	$s tsv=${TSV}/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
 	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
 	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
 	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
