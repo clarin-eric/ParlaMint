@@ -36,8 +36,8 @@
             <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="5364" xml:lang="hr">5.364 govora</measure>
-            <measure unit="speeches" quantity="5364" xml:lang="en">5,364 speeches</measure>
+            <measure unit="speeches" quantity="4920" xml:lang="hr">4.920 govora</measure>
+            <measure unit="speeches" quantity="4920" xml:lang="en">4,920 speeches</measure>
             <measure unit="words" quantity="0" xml:lang="hr">0 riječi</measure>
             <measure unit="words" quantity="0" xml:lang="en">0 words</measure>
          </extent>
@@ -55,7 +55,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2022-12-19">December 19, 2022</date>
+            <date when="2022-12-21">December 21, 2022</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -93,12 +93,17 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="11"/>
-               <tagUsage gi="div" occurs="11"/>
-               <tagUsage gi="note" occurs="5364"/>
-               <tagUsage gi="seg" occurs="5436"/>
-               <tagUsage gi="text" occurs="11"/>
-               <tagUsage gi="u" occurs="5364"/>
+               <tagUsage gi="body" occurs="10"/>
+               <tagUsage gi="desc" occurs="511"/>
+               <tagUsage gi="div" occurs="10"/>
+               <tagUsage gi="gap" occurs="411"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="61"/>
+               <tagUsage gi="note" occurs="4920"/>
+               <tagUsage gi="seg" occurs="4984"/>
+               <tagUsage gi="text" occurs="10"/>
+               <tagUsage gi="u" occurs="4920"/>
+               <tagUsage gi="vocal" occurs="38"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -17221,11 +17226,7 @@
       <revisionDesc xml:lang="en">
          <change when="2022-10-18">
             <name>Peter Rupnik</name> Initial commit</change>
-         <change when="2022-12-19">
-            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
-         <change when="2022-12-19">
-            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
-         <change when="2022-12-19">
+         <change when="2022-12-21">
             <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
@@ -17249,6 +17250,4 @@
                href="ParlaMint-HR_2004-02-26-0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-HR_2004-02-27-0.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HR_2004-03-03-0.xml"/>
 </teiCorpus>
