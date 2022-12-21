@@ -121,7 +121,9 @@
             <xsl:text> given as "meta" parameter not found !</xsl:text>
           </xsl:message>
         </xsl:if>
-        <xsl:apply-templates mode="XInclude" select="document($meta)//tei:teiHeader"/>
+        <xsl:apply-templates mode="XInclude" select="document($meta)//tei:teiHeader">
+	  <xsl:with-param name="lang" select="document($meta)/tei:*/@xml:lang"/>
+	</xsl:apply-templates>
       </xsl:when>
       <xsl:when test="/tei:teiCorpus/tei:teiHeader">
         <xsl:apply-templates mode="XInclude" select="/tei:teiCorpus/tei:teiHeader"/>
@@ -129,16 +131,28 @@
     </xsl:choose>
   </xsl:variable>
   
-  <!-- Copy input element to output with XIncluding the files -->
+  <!-- Copy input element to output with XIncluding the files 
+       ALSO: puts @xml:lang on all elements; the value is taken from the closest ancestor 
+       or given as a paramter if the input does not have ancestor with @xml:lang i.e. root -->
   <xsl:template mode="XInclude" match="tei:*">
+    <xsl:param name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+    <xsl:variable name="thisLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:copy>
       <xsl:apply-templates mode="XInclude" select="@*"/>
-      <!-- Copy over langauge, so subsidiary elements know which language they are in -->
-      <xsl:if test="self::tei:teiHeader">
-        <xsl:attribute name="xml:lang"
-                       select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-      </xsl:if>
-      <xsl:apply-templates mode="XInclude"/>
+      <!-- Copy over language to every element, so we can immediatelly know which langauge it is in -->
+      <xsl:attribute name="xml:lang">
+	<xsl:choose>
+	  <xsl:when test="normalize-space($thisLang)">
+            <xsl:value-of select="$thisLang"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+            <xsl:value-of select="$lang"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates mode="XInclude">
+	<xsl:with-param name="lang" select="$lang"/>
+      </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
   <xsl:template mode="XInclude" match="xi:include">
