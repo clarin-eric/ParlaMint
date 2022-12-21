@@ -35,7 +35,7 @@ for parla in $(jq -r '.[]' <<< $1 ); do
 
     echo "CONVERT and VALIDATE CoNLLu format"
     Scripts/parlamint2conllu.pl ${DATADIR}/ParlaMint-$parla $DIR 2>&1 \
-      | perl -pe 'if(/^INFO/){($L) = $_ =~ m/Validating level (\d):/;} $ERROR= $L>1 ? "warning" : "error"; s/^(.*)(\berror\b)/\:\:$ERROR\:\:$1$2/i;' \
+      | perl -pe 'if(/^INFO/){($L) = $_ =~ m/Validating level (\d):/;} $ERROR= $L>1 ? "warning" : "error"; s/^(.*)(\berrors?\b)/\:\:$ERROR\:\:$1$2/i;' \
       | tee $DIR/conllu.log
 
   else

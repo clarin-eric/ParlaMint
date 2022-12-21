@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="nob"
+     xml:id="ParlaMint-NO_2015-04-28"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nob">Norsk parlamentarisk korpus ParlaMint-NO, 2015-04-28 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO, 2015-04-28 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, Stortingsperiode 2013-2017, sesjon 2014-2015, møtedag 2015-04-28</title>
+            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, term 2013-2017, Session 2014-2015, Sitting day 2015-04-28</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#ST" n="2015-04-28">Sitting day 2015-04-28</meeting>
+            <meeting ana="#parla.uni #parla.session #ST.2014-2015"
+                     corresp="#ST"
+                     n="2014-2015">Session 2014-2015</meeting>
+            <meeting ana="#parla.uni #parla.term #ST.2013-2017"
+                     corresp="#ST"
+                     n="2013-2017">Term 2013-2017</meeting>
+            <respStmt>
+               <persName>Lars Magne Tungland</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">National Library of Norway</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="200" unit="speeches" xml:lang="en">200 speeches</measure>
+            <measure quantity="200" unit="speeches" xml:lang="nob">200 taler</measure>
+            <measure quantity="59663" unit="words" xml:lang="en">59,663 words</measure>
+            <measure quantity="59663" unit="words" xml:lang="nob">59,663 ord</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2022-12-16">2022-12-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Norwegian Parliament</title>
+               <publisher xml:lang="en">The Norwegian Parliament</publisher>
+               <idno type="URI">https://data.stortinget.no/eksport/publikasjon?publikasjonid=s150428</idno>
+               <date when="2015-04-28">28.04.15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="21"/>
+               <tagUsage gi="head" occurs="18"/>
+               <tagUsage gi="note" occurs="810"/>
+               <tagUsage gi="seg" occurs="965"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="200"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Stortinget</name>
+               <name type="address">Karl Johans Gate 22</name>
+               <name type="city">0026 Oslo</name>
+               <name type="country" key="NO">Norway</name>
+               <date ana="#parla.sitting" when="2015-04-28">28.04.15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2022-12-16">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2021-01-29">
+            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>Møte tirsdag den 28. april 2015 kl. 10</head>
+            <note type="comment">Olemic Thommessen</note>
+            <note type="comment">Dagsorden</note>
+            <note type="comment">(nr. 65):</note>
+            <note type="comment">1.</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om representantforslag fra stortingsrepresentanten Per Olaf Lundteigen om å legge til rette for at nytiltrådte statsråder etter § 75 h i Grunnloven kan innkalles til høring i Stortinget om yrkesbakgrunnen</note>
+            <note type="comment">(Innst. 186 S (2014–2015), jf. Dokument 8:88 S (2013–2014))</note>
+            <note type="comment">2.</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om representantforslag fra stortingsrepresentantene Martin Kolberg, Per Olaf Lundteigen, Bård Vegar Solhjell, Jette F. Christensen, Marit Arnstad, Karin Andersen og Gunvor Eldegard om ny bestemmelse om opplysningsplikt for statsråder og statssekretærer om tidligere oppdragsgivere og politiske og næringsmessige interesser</note>
+            <note type="comment">(Innst. 185 L (2014–2015), jf. Dokument 8:80 LS (2013–2014))</note>
+            <note type="comment">3.</note>
+            <note type="comment">Innstilling fra Stortingets presidentskap om lov om informasjonsplikt, karantene og saksforbud for politikere, embetsmenn og tjenestemenn (karanteneloven)</note>
+            <note type="comment">(Innst. 220 L (2014–2015), jf. Prop. 44 L (2014–2015))</note>
+            <note type="comment">4.</note>
+            <note type="comment">Innstilling fra næringskomiteen om representantforslag fra stortingsrepresentantene Line Henriette Hjemdal, Geir Jørgen Bekkevold, Rigmor Andersen Eide og Hans Fredrik Grøvan om å styrke den norske reiselivsnæringen</note>
+            <note type="comment">(Innst. 232 S (2014–2015), jf. Dokument 8:45 S (2014–2015))</note>
+            <note type="comment">5.</note>
+            <note type="comment">Innstilling fra næringskomiteen om representantforslag fra stortingsrepresentantene Audun Lysbakken, Ingunn Gjerstad, Kirsti Bergstø, Bård Vegar Solhjell og Karin Andersen om tiltak for å forhindre barnearbeid og uverdige arbeidsforhold</note>
+            <note type="comment">(Innst. 237 S (2014–2015), jf. Dokument 8:51 S (2014–2015))</note>
+            <note type="comment">6.</note>
+            <note type="comment">Innstilling fra energi- og miljøkomiteen om representantforslag fra stortingsrepresentantene Bård Vegar Solhjell og Trygve Slagsvold Vedum om forbud mot omsetning av de genmodifiserte maislinjene T25 og NK603</note>
+            <note type="comment">(Innst. 231 S (2014–2015), jf. Dokument 8:30 S (2014–2015))</note>
+            <note type="comment">7.</note>
+            <note type="comment">Innstilling fra energi- og miljøkomiteen om representantforslag fra stortingsrepresentant Rasmus Hansson om at kjøp av klimakvoter i utviklingsland ikke lenger skal brukes i det norske klimaregnskapet som erstatning for å kutte utslipp i Norge</note>
+            <note type="comment">(Innst. 230 S (2014–2015), jf. Dokument 8:49 S (2014–2015))</note>
+            <note type="comment">8.</note>
+            <note type="comment">Innstilling fra energi- og miljøkomiteen om representantforslag fra stortingsrepresentantene Audun Lysbakken, Ingunn Gjerstad, Snorre Serigstad Valen og Torgeir Knag Fylkesnes om retten til trygg og giftfri luft</note>
+            <note type="comment">(Innst. 229 S (2014–2015), jf. Dokument 8:62 S (2014–2015))</note>
+            <note type="comment">9.</note>
+            <note type="comment">Innstilling fra energi- og miljøkomiteen om endringer i statsbudsjettet for 2015 under Olje- og energidepartementet og Kommunal- og moderniseringsdepartementet (flommen på Vestlandet oktober 2014)</note>
+            <note type="comment">(Innst. 228 S (2014–2015), jf. Prop. 63 S (2014–2015))</note>
+            <note type="comment">10.</note>
+            <note type="comment">Interpellasjon fra representanten Marianne Aasen til kunnskapsministeren:</note>
+            <note type="comment">«Mye tyder på at vi vil få for dårlig tilgang på IKT-kompetanse i Norge i tiden som kommer. Vi vil kanskje mangle folk i én av fire IT-jobber i 2030, ifølge anslag som er forsiktige. Dette vil påvirke hele Norge. Både produktivitets- og konkurranseevnen trues, og nødvendig omstilling og utvikling på viktige samfunnsområder som helse, velferd, forskning, utdanning og miljø vil ikke være mulig uten en god tilgang på IKT-kompetanse.</note>
+            <note type="comment">Hvordan vil regjeringen sikre en økning av kapasiteten til norsk IKT-utdanning for å møte den store etterspørselen i både privat og offentlig sektor?»</note>
+            <note type="comment">11.</note>
+            <note type="comment">Interpellasjon fra representanten Gunnar Gundersen til kunnskapsministeren:</note>
+            <note type="comment">«Forskning viser at det er forskjell i prestasjoner mellom gutter og jenter i skolen. Forskjellen har vært åpenbar og synlig i mange år, den synes dermed å være vedvarende. Mange konstaterer dette, og det synses mye om forskjellene, men vi vet ikke nok om årsakene. Dette får store konsekvenser for mange gutter. Det skal være høye ambisjoner for alle i skolen. Den skal legge fundamentet for at barn får det best mulige grunnlaget for å realisere sitt potensial. Prestasjonsforskjellene tyder på at skolen har en utfordring i å løse dette like godt for gutter som for jenter. Det betyr igjen at mange gutter vil slite, fordi de møter en skole som ikke klarer å stimulere deres kunnskapsiver i tilstrekkelig grad.</note>
+            <note type="comment">Ser statsråden denne utfordringen, og vil han iverksette tiltak slik at vi kan få mer kunnskap om den?»</note>
+            <note type="comment">12.</note>
+            <note type="comment">Innstilling fra finanskomiteen om representantforslag fra stortingsrepresentantene Hans Olav Syversen, Line Henriette Hjemdal og Kjell Ingolf Ropstad om tiltak for å styrke kampen mot svart arbeid</note>
+            <note type="comment">(Innst. 218 S (2014–2015), jf. Dokument 8:7 S (2014–2015))</note>
+            <note type="comment">13.</note>
+            <note type="comment">Innstilling fra finanskomiteen om endringer i tjenestepensjonsloven mv. (uførepensjon)</note>
+            <note type="comment">(Innst. 225 L (2014–2015), jf. Prop. 42 L (2014–2015))</note>
+            <note type="comment">14.</note>
+            <note type="comment">Stortingets vedtak til lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova)</note>
+            <note type="comment">(Lovvedtak 58 (2014–2015), jf. Innst. 223 L (2014–2015) og Prop. 38 L (2014–2015))</note>
+            <note type="comment">15.</note>
+            <note type="comment">Stortingets vedtak til lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova)</note>
+            <note type="comment">(Lovvedtak 59 (2014–2015), jf. Innst. 223 L (2014–2015) og Prop. 38 L (2014–2015))</note>
+            <note type="comment">16.</note>
+            <note type="comment">Stortingets vedtak til lov om Norges nasjonale institusjon for menneskerettigheter</note>
+            <note type="comment">(Lovvedtak 60 (2014–2015), jf. Innst. 216 L (2014–2015) og Dokument 16 (2014–2015))</note>
+            <note type="comment">17.</note>
+            <note type="comment">Stortingets vedtak til lov om endringer i pasient- og brukerrettighetsloven og spesialisthelsetjenesteloven (fritt behandlingsvalg)</note>
+            <note type="comment">(Lovvedtak 61 (2014–2015), jf. Innst. 224 L (2014–2015) og Prop. 56 L (2014–2015))</note>
+            <note type="comment">18.</note>
+            <note type="comment">Referat</note>
+            <note type="comment">Minnetale over tidligere stortingsrepresentant Øyvind Bjorvatn</note>
+            <u who="#person.OLET"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2015-04-28.ud1595e130"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e131">Ærede medrepresentanter!</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e133">Tidligere stortingsrepresentant Øyvind Bjorvatn døde 9. februar, nær 84 år gammel. Han representerte Venstre og Aust-Agder fra 1965 til 1973. I 1972, etter splittelsen av Venstre, var han med og dannet Det Nye Folkepartiet, senere Det Liberale Folkepartiet. Han var med i ledelsen av det nye partiet fra starten, som nestformann fra 1972 til 1974, og fra 1982 til 1986 som formann. På Stortinget var han medlem i kirke- og undervisningskomiteen og i samferdselskomiteen.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e135">Bjorvatn startet sin politiske karriere i lokalpolitikken. Han satt i kommunestyret i hjembyen Tvedestrand i to perioder fra 1963. Han nedla også en betydelig innsats i partiorganisasjonen både i Venstre og Det Liberale Folkepartiet. Han var medlem av sentralstyret i Venstre og var samtidig leder av Aust-Agder Venstre.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e137">Som stortingsrepresentant var han en svært viktig talsmann for sitt fylke, alltid engasjert for enkeltmennesket, for bedriftsetablering og for jernbane- og veiplanlegging. Han var også leder for Landsdelskomiteen for Agder og Rogaland på 1970-tallet. Han la stor vekt på å holde tett kontakt med velgerne. Lørdager hadde han kontordag i sitt valgdistrikt, der han tok imot velgere som hadde noe på hjertet.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e139">Øyvind Bjorvatn tok lærerskoleeksamen i 1954, og ble cand.philol. i 1962. Han virket som lærer ved forskjellige skoler fra 1954 til 1965. Også etter perioden som stortingsrepresentant gikk han tilbake til skoleverket, denne gang som lektor ved videregående skoler i Arendal og Tvedestrand. Han var også bonde på gården Berge i Holt, som han overtok i 1956.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e141">Bjorvatn var også en høyt verdsatt lokalhistoriker, og han var formann for Dypvåg, Holt og Tvedestrand Historielag i 21 år. Han fikk Tvedestrand kommunes og Aust-Agder fylkes kulturpris for sitt lokalhistoriske forfatterskap. Fra han ble pensjonist, kom det minst én bok signert Øyvind Bjorvatn hvert år frem til 80-årsdagen. Han mottok også Kongens fortjenestemedalje.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e143">Øyvind Bjorvatn hadde en sjelden god evne til samarbeid og inspirerende lederskap. Han var en uvurderlig initiativtaker med solid gjennomføringskraft. Han gjorde et sympatisk inntrykk på alle han kom i befatning med. Han vil bli husket både som politiker, forfatter, historiker, foredragsholder og debattant. Han var en samfunnsbygger av de sjeldne, og i 2009 ble Mølledammen midt i Tvedestrand omdøpt til Øyvind Bjorvatns plass.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e145">Bjorvatn hadde to sønner med sin kone Marit.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e147">Vi lyser fred over Øyvind Bjorvatns minne.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e149">Representantene påhørte stående presidentens minnetale.</seg>
+            </u>
+            <u who="#person.OLET"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2015-04-28.ud1595e151"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e152">Representantene Gunnar Gundersen, Sveinung Rotevatn og Martin Henriksen, som har vært permittert, har igjen tatt sete.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e163">Det foreligger to permisjonssøknader:</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e165">– Fra representanten Torgeir Knag Fylkesnes om omsorgspermisjon i tiden fra og med 28. april til og med 11. mai.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e170">– Fra representanten Frank Bakke-Jensen om permisjon i tiden fra og med 28. april til og med 30. april for å delta i NATOs parlamentariske forsamlings reise til Nord-Norge.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e175">Disse søknader foreslås behandlet straks og innvilget. – Det anses vedtatt.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e177">Fra første vararepresentant for Finnmark fylke, Laila Davidsen, foreligger søknad om fritak for å møte i Stortinget under representanten Frank Bakke-Jensens permisjon, på grunn av sykdom.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e182">Etter forslag fra presidenten ble enstemmig besluttet:</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e184">Søknaden behandles straks og innvilges. Følgende vararepresentanter innkalles for å møte i permisjonstiden slik: For Finnmark fylke: Hans-Jacob Bønå 28.–30.april. For Troms fylke: Siv Elin Hansen 28. april–7.mai.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="commentSection">
+            <head>Sak nr. 14 [18:09:13]</head>
+            <note type="comment">Stortingets vedtak til lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova)</note>
+            <note type="comment">(Lovvedtak 58 (2014–2015), jf. Innst. 223 L (2014–2015) og Prop. 38 L (2014–2015))</note>
+         </div>
+         <div type="commentSection">
+            <head>Sak nr. 15 [18:09:16]</head>
+            <note type="comment">Stortingets vedtak til lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova)</note>
+            <note type="comment">(Lovvedtak 59 (2014–2015), jf. Innst. 223 L (2014–2015) og Prop. 38 L (2014–2015))</note>
+         </div>
+         <div type="commentSection">
+            <head>Sak nr. 16 [18:09:19]</head>
+            <note type="comment">Stortingets vedtak til lov om Norges nasjonale institusjon for menneskerettigheter</note>
+            <note type="comment">(Lovvedtak 60 (2014–2015), jf. Innst. 216 L (2014–2015) og Dokument 16 (2014–2015))</note>
+         </div>
+         <div type="debateSection">
+            <u who="#person.SRH"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2015-04-28.ud1595e4011"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e4012">Sakene nr. 14–17 er andre gangs behandling av lovsaker og gjelder lovvedtakene 58–61.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e4014">Det foreligger ingen forslag til anmerkning. Stortingets lovvedtak er dermed bifalt ved andre gangs behandling og blir å sende Kongen i overensstemmelse med Grunnloven.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <note type="comment">Sak nr. 18</note>
+            <note type="comment">[18:27:44]</note>
+            <note type="comment">Referat</note>
+            <note type="comment">1.</note>
+            <note type="comment">(250)</note>
+            <note type="comment">Statsministerens kontor melder at</note>
+            <note type="comment">1. lov om endringer i utlendingsloven (bortvisning på grunn av straff i utlandet)</note>
+            <note type="comment">2. lov om endringer i vegtrafikkloven (tilbakeholdsrett i kjøretøy til sikring av sanksjoner, hjemmel for bruk av innretning til immobilisering av kjøretøy)</note>
+            <note type="comment">– er sanksjonert under 17. april 2015</note>
+            <note type="comment">2.</note>
+            <note type="comment">(251)</note>
+            <note type="comment">Statsministerens kontor melder at</note>
+            <note type="comment">1. lov om endringer i arbeidsmiljøloven og sosialtjenesteloven (adgang til midlertidig ansettelse mv. og vilkår om aktivitet for stønad til livsopphold)</note>
+            <note type="comment">(Lovvedtak 54 (2014–2015))</note>
+            <note type="comment">2. lov om endringer i arbeidsmiljøloven og allmenngjøringsloven (arbeidstid, aldersgrenser, straff mv.)</note>
+            <note type="comment">(Lovvedtak 53 (2014–2015))</note>
+            <note type="comment">3. lov om endringer i utlendingsloven m.m. (utvisning av særreaksjonsdømte utlendinger)</note>
+            <note type="comment">(Lovvedtak 45 (2014–2015))</note>
+            <note type="comment">4. lov om endringar i opplæringslova og privatskolelova (skolebyte i mobbesaker)</note>
+            <note type="comment">(Lovvedtak 56 (2014–2015))</note>
+            <note type="comment">5. lov om endringer i småbåtloven (påbud om bruk av flyteutstyr i fritidsbåter)</note>
+            <note type="comment">(Lovvedtak 55 (2014–1015))</note>
+            <note type="comment">– er sanksjonert under 24. april 2015</note>
+            <note type="comment">Enst.: Nr. 1 og 2 vedlegges protokollen.</note>
+            <note type="comment">3.</note>
+            <note type="comment">(252)</note>
+            <note type="comment">Årsmelding 2014 for pensjonsordninga for stortingsrepresentantar og regjeringsmedlemer (Meld. St. 23 (2014–2015))</note>
+            <note type="comment">4.</note>
+            <note type="comment">(253)</note>
+            <note type="comment">Endringer i folketrygdloven (midlertidig gjenlevendetillegg til ny alderspensjon) (Prop. 95 L (2014–2015))</note>
+            <note type="comment">5.</note>
+            <note type="comment">(254)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Karin Andersen og Kirsti Bergstø om bedre muligheter for Nav til å bruke skjønn og løse feil som oppstår i enkle saker som ikke omhandler trygdesvindel (Dokument 8:93 S (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 3–5 sendes arbeids- og sosialkomiteen.</note>
+            <note type="comment">6.</note>
+            <note type="comment">(255)</note>
+            <note type="comment">Oppdatering av forvaltningsplanen for Barentshavet og havområdene utenfor Lofoten med oppdatert beregning av iskanten (Meld. St. 20 (2014–2015))</note>
+            <note type="comment">7.</note>
+            <note type="comment">(256)</note>
+            <note type="comment">Endringer i lov om elsertifikater (første kontrollstasjon) (Prop. 97 L (2014–2015))</note>
+            <note type="comment">8.</note>
+            <note type="comment">(257)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Per Olaf Lundteigen, Kjersti Toppe, Geir Pollestad og Trygve Slagsvold Vedum om etablering av grønt investeringsselskap for utvikling av teknologibedrifter (grønt karbon) (Dokument 8:97 S (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 6–8 sendes energi- og miljøkomiteen.</note>
+            <note type="comment">9.</note>
+            <note type="comment">(258)</note>
+            <note type="comment">Samtykke til inngåelse av avtale av 8. april 2015 mellom Norge og Sverige om endring av avtale om et felles marked for elsertifikater (Prop. 98 S (2014–2015))</note>
+            <note type="comment">Enst.: Sendes energi- og miljøkomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling avgis.</note>
+            <note type="comment">10.</note>
+            <note type="comment">(259)</note>
+            <note type="comment">Norges største industriprosjekt – utbygging og drift av Johan Sverdrup-feltet med status for olje- og gassvirksomheten (Prop. 114 S (2014–2015))</note>
+            <note type="comment">Enst.: Sendes energi- og miljøkomiteen.</note>
+            <note type="comment">11.</note>
+            <note type="comment">(260)</note>
+            <note type="comment">Rammevilkår for lokalradio i samband med digitaliseringa av radiomediet (Meld. St. 24 (2014–2015))</note>
+            <note type="comment">Enst.: Sendes familie- og kulturkomiteen.</note>
+            <note type="comment">12.</note>
+            <note type="comment">(261)</note>
+            <note type="comment">Lov om gjennomføring av konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn, og endringer i enkelte andre lover, og samtykke til ratifikasjon av konvensjonen (Prop. 102 LS (2014–2015))</note>
+            <note type="comment">Enst.: Sendes familie- og kulturkomiteen, unntatt B, som sendes familie- og kulturkomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling avgis.</note>
+            <note type="comment">13.</note>
+            <note type="comment">(262)</note>
+            <note type="comment">Endringer i ekteskapsloven mv. (myndighet til å behandle ugyldige ekteskap) (Prop. 103 L (2014–2015))</note>
+            <note type="comment">14.</note>
+            <note type="comment">(263)</note>
+            <note type="comment">Oppheving av lov om registrering av innsamlinger (Prop. 104 L (2014–2015))</note>
+            <note type="comment">15.</note>
+            <note type="comment">(264)</note>
+            <note type="comment">Endringar i lov om stadnamn (om høvet grunneigarar har til å fastsetje skrivemåte av bruksnamn m.m.) (Prop. 105 L (2014–2015))</note>
+            <note type="comment">16.</note>
+            <note type="comment">(265)</note>
+            <note type="comment">Endringar i lov om avleveringsplikt for allment tilgjengelege dokument (innsamling av digitale dokument m.m.) (Prop. 106 L (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 13–16 sendes familie- og kulturkomiteen.</note>
+            <note type="comment">17.</note>
+            <note type="comment">(266)</note>
+            <note type="comment">Statsrekneskapen 2014 (Meld. St. 3 (2014–2015))</note>
+            <note type="comment">Enst.: Sendes finanskomiteen.</note>
+            <note type="comment">18.</note>
+            <note type="comment">(267)</note>
+            <note type="comment">Samtykke til godkjenning av EØS-komiteens beslutning nr. 283/2014 av 12. desember 2014 om innlemmelse i EØS-avtalen av forordning (EU) nr. 248/2014 om tekniske krav til kredittoverføringer og direkte debiteringer i euro (Prop. 100 S (2014–2015))</note>
+            <note type="comment">Enst.: Sendes finanskomiteen, som forelegger sitt utkast til innstilling for utenriks- og forsvarskomiteen til uttalelse før innstilling avgis.</note>
+            <note type="comment">19.</note>
+            <note type="comment">(268)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Olaug V. Bollestad, Hans Olav Syversen og Line Henriette Hjemdal om en plan for å sikre retten til livshjelp ved livets slutt (Dokument 8:92 S (2014–2015))</note>
+            <note type="comment">20.</note>
+            <note type="comment">(269)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Kjersti Toppe, Per Olaf Lundteigen og Janne Sjelmo Nordås om å avvikle foretaksmodellen og innføre folkevalgt styring av sykehusene (Dokument 8:96 S (2014–2015))</note>
+            <note type="comment">21.</note>
+            <note type="comment">(270)</note>
+            <note type="comment">Endringer i helsepersonelloven mv. (vilkår for autorisasjon) (Prop. 99 L (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 19–21 sendes helse- og omsorgskomiteen.</note>
+            <note type="comment">22.</note>
+            <note type="comment">(271)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Ingjerd Schou, Helge André Njåstad, Geir S. Toskedal, Ola Elvestuen og Jorodd Asphjell om endring av offentleglova (unnta fra innsynsretten byrådsnotater og drøftingsdokumenter til byrådskonferanser og forberedende byråd i kommuner/fylkeskommuner med parlamentarisk styreform) (Dokument 8:85 L (2014–2015))</note>
+            <note type="comment">23.</note>
+            <note type="comment">(272)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Hadia Tajik, Jorodd Asphjell, Lene Vågslid, Knut Storberget og Kari Henriksen om innhold i kriminalomsorgen (Dokument 8:86 S (2014–2015))</note>
+            <note type="comment">24.</note>
+            <note type="comment">(273)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Kjell Ingolf Ropstad, Olaug V. Bollestad, Line Henriette Hjemdal, Geir Jørgen Bekkevold og Rigmor Andersen Eide om bekjempelse av vår tids slaveri (Dokument 8:91 S (2014–2015))</note>
+            <note type="comment">25.</note>
+            <note type="comment">(274)</note>
+            <note type="comment">Endringer i politiregisterloven mv. (politiattesthjemler – tilpasninger til ny straffelov) (Prop. 94 L (2014–2015))</note>
+            <note type="comment">26.</note>
+            <note type="comment">(275)</note>
+            <note type="comment">Endringar i jordskiftelova 2013 (reglar om saksbehandling mv.) (Prop. 96 L (2014–2015))</note>
+            <note type="comment">27.</note>
+            <note type="comment">(276)</note>
+            <note type="comment">Endringer i statsbudsjettet 2015 under Justis- og beredskapsdepartementet (redusert kostnadsramme for anskaffelse av nye redningshelikoptre mv.) (Prop. 101 S (2014–2015))</note>
+            <note type="comment">28.</note>
+            <note type="comment">(277)</note>
+            <note type="comment">Endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn) (Prop. 110 L (2014–2015))</note>
+            <note type="comment">29.</note>
+            <note type="comment">(278)</note>
+            <note type="comment">Endringer i straffeprosessloven (avhør av barn og andre særlig sårbare fornærmede og vitner) (Prop. 112 L (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 22–29 sendes justiskomiteen.</note>
+            <note type="comment">30.</note>
+            <note type="comment">(279)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Trond Giske, Christian Tynning Bjørnø, Marianne Aasen, Tone Merete Sønsterud og Sigmund Steinnes om å heve opptakskravene for lærerutdanningene (Dokument 8:98 S (2014–2015))</note>
+            <note type="comment">31.</note>
+            <note type="comment">(280)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Trond Giske, Christian Tynning Bjørnø, Marianne Aasen, Tone Merete Sønsterud og Sigmund Steinnes om tidlig innsats i skolen (Dokument 8:99 S (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 30 og 31 sendes kirke-, utdannings- og forskningskomiteen.</note>
+            <note type="comment">32.</note>
+            <note type="comment">(281)</note>
+            <note type="comment">Representantforslag fra stortingsrepresentantene Audun Lysbakken, Bård Vegar Solhjell og Karin Andersen om å ta imot flere syriske flyktninger (Dokument 8:95 S (2014–2015))</note>
+            <note type="comment">Enst.: Sendes kommunal- og forvaltningskomiteen.</note>
+            <note type="comment">33.</note>
+            <note type="comment">(282)</note>
+            <note type="comment">Riksrevisjonens undersøkelse av myndighetenes arbeid for økt oljeutvinning fra modne områder på norsk kontinentalsokkel (Dokument 3:6 (2014–2015))</note>
+            <note type="comment">Enst.: Sendes kontroll- og konstitusjonskomiteen.</note>
+            <note type="comment">34.</note>
+            <note type="comment">(283)</note>
+            <note type="comment">På rett vei – Reformer i veisektoren (Meld. St. 25 (2014–2015))</note>
+            <note type="comment">35.</note>
+            <note type="comment">(284)</note>
+            <note type="comment">Endringer i jernbaneloven (sikring mot tilsiktede uønskede handlinger) (Prop. 107 L (2014–2015))</note>
+            <note type="comment">36.</note>
+            <note type="comment">(285)</note>
+            <note type="comment">Utbygging og finansiering av rv 36 på strekninga Slåttekås – Årnes i kommunane Nome og Sauherad i Telemark og kostnadsramme for E6 Jaktøya – Klett – Sentervegen i Sør-Trøndelag (Prop. 108 S (2014–2015))</note>
+            <note type="comment">37.</note>
+            <note type="comment">(286)</note>
+            <note type="comment">Lov om posttjenester (postloven) (Prop. 109 L (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 34–37 sendes transport- og kommunikasjonskomiteen.</note>
+            <note type="comment">38.</note>
+            <note type="comment">(287)</note>
+            <note type="comment">Representantforslag frå stortingsrepresentantane Liv Signe Navarsete, Marit Arnstad, Bård Vegar Solhjell og Audun Lysbakken om framlegging av rammeverket i TISA-avtala (Dokument 8:90 S (2014–2015))</note>
+            <note type="comment">39.</note>
+            <note type="comment">(288)</note>
+            <note type="comment">Ordningen for militært tilsatte og endringer i forsvarspersonelloven m.m. (militærordningen) (Prop. 111 LS (2014–2015))</note>
+            <note type="comment">40.</note>
+            <note type="comment">(289)</note>
+            <note type="comment">Investeringar i Forsvaret (Prop. 113 S (2014–2015))</note>
+            <note type="comment">Enst.: Nr. 38–40 sendes utenriks- og forsvarskomiteen.</note>
+            <u who="#person.SRH"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2015-04-28.ud1595e4385"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e4386">Dermed er dagens kart ferdigbehandlet.</seg>
+               <seg xml:id="ParlaMint-NO_2015-04-28.segd1595e4388">Forlanger noen ordet før møtet heves? – Møtet er hevet.</seg>
+            </u>
+         </div>
+         <div type="commentSection">
+            <note type="comment">Møtet hevet kl. 18.30.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
