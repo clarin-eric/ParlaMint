@@ -3,14 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-bg (2021-12-22) [ParlaMint]</title>
-                <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-bg (2021-12-22) [ParlaMint]</title>
+                <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-bg (2021-12-22) [ParlaMint SAMPLE]</title>
+                <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-bg (2021-12-22) [ParlaMint SAMPLE]</title>
                 <title type="sub" xml:lang="bg">Стенограмa от 9 пленарнo заседаниe на 1 сесия на 47 Народно събрание на Република България (2021-12-22)</title>
                 <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 47, Session 1, Meeting 9 (2021-12-22)</title>
                 <meeting ana="#parla.sitting" corresp="#BGNS" n="2021-12-22">2021-12-22</meeting>
-                <meeting ana="#parla.meeting.regular" corresp="#NS" n="9">9 пленарно заседание</meeting>
-                <meeting ana="#parla.session" corresp="#NS" n="1">1 парламентарна сесия</meeting>
-                <meeting ana="#parla.term" corresp="#NS" n="47">47 народно събрание</meeting>
+                <meeting ana="#parla.meeting.regular" corresp="#BGNS" n="9">9 пленарно заседание</meeting>
+                <meeting ana="#parla.session" corresp="#BGNS" n="1">1 парламентарна сесия</meeting>
+                <meeting ana="#parla.term" corresp="#BGNS" n="47">47 народно събрание</meeting>
                 <respStmt>
                     <persName xml:lang="bg">Илко Григоров</persName>
                     <persName xml:lang="en">Ilko Grigorov</persName>
@@ -40,6 +40,7 @@
             <extent>
                 <measure quantity="682" unit="speeches" xml:lang="bg">682 изказвания</measure>
                 <measure quantity="682" unit="speeches" xml:lang="en">682 speeches</measure>
+                <measure quantity="332" unit="speeches" xml:lang="en">1111 words</measure>
             </extent>
             <publicationStmt>
                 <publisher>
@@ -49,12 +50,8 @@
                 <idno type="handle">http://hdl.handle.net/11356/1167</idno>
                 <availability status="free"><licence>http://creativecommons.org/licenses/by/4.0/</licence>
                     <p xml:lang="en">This work is licensed under the                         
-                        
-                        
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                     <p xml:lang="bg">Този ресурс е лицензиран под лиценз:                         
-                        
-                        
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                 </availability>
                 <date when="2022-12-20">2022-12-20</date>
@@ -96,9 +93,9 @@
             </settingDesc>
         </profileDesc>
     </teiHeader>
-    <text xml:lang="bg">
+    <text ana="#covid" xml:lang="bg">
         <body>
-            <div type="debateSection" ana="#regular">
+            <div type="debateSection">
                 <u ana="#chair" n="177277" who="#MinchevNikola" xml:id="ParlaMint-BG_2021-12-22.u1">
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg1">Уважаеми колеги, добро утро! Регистрирани са 215 народни представители.</seg>
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg2">Има кворум. Откривам заседанието.</seg>
@@ -488,8 +485,6 @@
                 </u>
                 <u ana="#regular" n="177322" who="#SlavovAtanas" xml:id="ParlaMint-BG_2021-12-22.u46">
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg262">Уважаеми господин Председател, уважаеми колеги! Господин Ганев, имаше проблеми на тези избори, но това не беше проблемът с машините. По оценка на международни наблюдатели и на различни независими български наблюдатели това бяха едни от най-честните избори в страната, заедно с изборите през месец юли. Проблемът обаче за определени партии беше липсата на достатъчно за тях купен и контролиран вот. Това беше проблемът
-                        
-                        
                         <vocal type="exclamat">
                             <desc>(възгласи от ГЕРБ-СДС: „Еее!“)</desc></vocal>– че мерките, които бяха предприети, до голяма степен пресякоха възможността за купен и контролиран вот!</seg>
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg263">Още един проблем обаче видяхме на тези избори и това е не просто масовото гласуване в съседна на нас държава, а участието на правителствени представители на тази държава – разбира се, говоря за Турция, в провеждането на българските избори. Това беше проблем! Видяхме как членове на секционните комисии гласуват вместо гласоподавателите – български граждани. Това беше проблем и това би заслужавало парламентарно проучване и изследване, а не проблемът с машините, защото такъв нямаше. Благодаря Ви.</seg>
@@ -503,12 +498,8 @@
                 </u>
                 <u ana="#regular" n="177324" who="#MitevNikolay" xml:id="ParlaMint-BG_2021-12-22.u48">
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg267">Уважаеми господин Председател, уважаеми дами и господа народни представители. Да, съгласен съм, че виждаме една последователност в действията на ВЪЗРАЖДАНЕ и това е да подкрепят ГЕРБ, защото всички знаем, че това решение е в полза на ГЕРБ
-                        
-                        
                         <kinesic type="applause">
                             <desc>(ръкопляскания от „Продължаваме Промяната“)</desc></kinesic>, в полза на това да има нечестно преброяване на гласовете. Както видяхме онзи ден, те подкрепиха и да няма кворум в залата. Така че виждаме, че сте много последователни в действията си. Благодаря.
-                        
-                        
                         <kinesic type="applause">
                             <desc>(Ръкопляскания от „Продължаваме Промяната“.)</desc></kinesic></seg>
                 </u>
@@ -2058,8 +2049,6 @@
                 <u ana="#regular" n="177599" who="#AtanassovAtanas" xml:id="ParlaMint-BG_2021-12-22.u323">
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg1135">Благодаря Ви, господин Председател.</seg>
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg1136">Няма да си направя отвод
-                        
-                        
                         <vocal type="interruption">
                             <desc>(шум, смях, ръкопляскания и реплики: „Еее!“ от ГЕРБ-СДС)</desc></vocal>и само няколко изречения ще кажа.</seg>
                     <seg xml:id="ParlaMint-BG_2021-12-22.seg1137">Аз не знам в какво статукво ме слагате, но аз никога не съм бил в управляваща позиция и не знам за какво говорите в крайна сметка.</seg>

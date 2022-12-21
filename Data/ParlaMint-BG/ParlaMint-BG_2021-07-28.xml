@@ -3,14 +3,14 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-bg (2021-07-28) [ParlaMint]</title>
-                <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-bg (2021-07-28) [ParlaMint]</title>
+                <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-bg (2021-07-28) [ParlaMint SAMPLE]</title>
+                <title type="main" xml:lang="en">Bulgarian Parliamentary Corpus ParlaMint-bg (2021-07-28) [ParlaMint SAMPLE]</title>
                 <title type="sub" xml:lang="bg">Стенограмa от 4 пленарнo заседаниe на 1 сесия на 46 Народно събрание на Република България (2021-07-28)</title>
                 <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 46, Session 1, Meeting 4 (2021-07-28)</title>
                 <meeting ana="#parla.sitting" corresp="#BGNS" n="2021-07-28">2021-07-28</meeting>
-                <meeting ana="#parla.meeting.regular" corresp="#NS" n="4">4 пленарно заседание</meeting>
-                <meeting ana="#parla.session" corresp="#NS" n="1">1 парламентарна сесия</meeting>
-                <meeting ana="#parla.term" corresp="#NS" n="46">46 народно събрание</meeting>
+                <meeting ana="#parla.meeting.regular" corresp="#BGNS" n="4">4 пленарно заседание</meeting>
+                <meeting ana="#parla.session" corresp="#BGNS" n="1">1 парламентарна сесия</meeting>
+                <meeting ana="#parla.term" corresp="#BGNS" n="46">46 народно събрание</meeting>
                 <respStmt>
                     <persName xml:lang="bg">Илко Григоров</persName>
                     <persName xml:lang="en">Ilko Grigorov</persName>
@@ -40,6 +40,7 @@
             <extent>
                 <measure quantity="332" unit="speeches" xml:lang="bg">332 изказвания</measure>
                 <measure quantity="332" unit="speeches" xml:lang="en">332 speeches</measure>
+                <measure quantity="332" unit="speeches" xml:lang="en">1111 words</measure>
             </extent>
             <publicationStmt>
                 <publisher>
@@ -49,12 +50,8 @@
                 <idno type="handle">http://hdl.handle.net/11356/1167</idno>
                 <availability status="free"><licence>http://creativecommons.org/licenses/by/4.0/</licence>
                     <p xml:lang="en">This work is licensed under the                         
-                        
-                        
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                     <p xml:lang="bg">Този ресурс е лицензиран под лиценз:                         
-                        
-                        
                         <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                 </availability>
                 <date when="2022-12-20">2022-12-20</date>
@@ -96,9 +93,9 @@
             </settingDesc>
         </profileDesc>
     </teiHeader>
-    <text xml:lang="bg">
+    <text ana="#covid" xml:lang="bg">
         <body>
-            <div type="debateSection" ana="#regular">
+            <div type="debateSection">
                 <u ana="#chair" n="166862" who="#MitevaIva" xml:id="ParlaMint-BG_2021-07-28.u1">
                     <seg xml:id="ParlaMint-BG_2021-07-28.seg1">Добър ден, колеги!</seg>
                     <seg xml:id="ParlaMint-BG_2021-07-28.seg2">От днес регистрацията вече е с биометрия.</seg>
@@ -418,16 +415,10 @@
                     <vocal type="interruption">
                         <desc>(Реплики от ГЕРБ-СДС: „Да.“)</desc></vocal>
                     <seg xml:id="ParlaMint-BG_2021-07-28.seg184">Само че сте сбъркали името, уважаеми народни представители. Аз не се казвам Цветан Цветанов.
-                        
-                        
                         <vocal type="interruption">
                             <desc>(Смях и ръкопляскания от ИТН.)</desc></vocal>Извикайте си дясната ръка на таралежа да дойде тук и да чете СРС-та по цели дни
-                        
-                        
                         <vocal type="interruption">
                             <desc>(смях и ръкопляскания от ИТН и ИБГНИ)</desc></vocal>, и да чете тези звукозаписи на лекарите от Горнооряховската болница. Аз не се казвам Цветан Цветанов и такава информация законът не ми позволява да Ви дам. Колкото и да настоявате, това няма да стане! Но ще Ви кажа нещо друго, че в момента става дума за стотици български граждани, подложени на ограничение на техните основни права…
-                        
-                        
                         <vocal type="interruption">
                             <desc>(Реплики от ГЕРБ-СДС.)</desc></vocal></seg>
                 </u>
