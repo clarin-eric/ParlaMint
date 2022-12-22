@@ -635,20 +635,6 @@ insert-orientation-test-val:
 	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
 	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
 
-## Generate TSV files for minister affiliations on the basis of the corpus root files.
-generate-ministers:
-	$s outDir=Data/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
-
-## Insert minister affiliations from TSV file into a root file.
-MC = BE
-TSV = /project/corpora/Parla/ParlaMint/Minister
-insert-ministries-test:
-	$s tsv=${TSV}/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
-	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
-	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
-	${s} ${vlink} Scripts/tmp/ParlaMint-${MC}.xml
-
 ######################VARIABLES
 s = java $(JM) -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
