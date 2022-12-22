@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-11-23</date>
+        <date>2022-12-21</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2022-11-23">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
+      <change when="2022-12-21">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
       <change when="2022-07-27">Tomaž Erjavec: many changes to (explanations of) structure.</change>
@@ -67,7 +67,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-11-23</docDate>
+        <docDate>2022-12-21</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1489,8 +1489,8 @@
           </egXML>
           
           Note that the <att>to</att>/<att>from</att> dates should not overlap, neither
-          should they have gaps in them, as this would mean that at certain points in
-          time the person would have either two sets of names, or none.
+          should they have gaps in them, as this would mean that the person
+	  could have either two names at once, or none.
           </p>
 
           <p>The person must also have the <gi>sex</gi> element, with the
@@ -2284,23 +2284,31 @@
         <div xml:id="sec-comments">
           <head>Transcriber comments</head>
           
-          <p>Transcriber comments encode information such as who spoke, what the time was,
-          interruptions, notes on what is happening in the chamber, results of voting, etc.
+          <p>Transcriber comments give information on who spoke, what the time was,
+          interruptions and the reason for them, what is happening in the chamber, results of voting, etc.
           While section headings can also be taken as a kind of transcriber comments, these
           serve to structure the transcription and are encoded as <gi>head</gi> elements, as
           explained at the start of this chapter, cf. the <ref
-          target="#exa-div">Example</ref> there.</p>
+          target="#exa-div">Example</ref> there. Another type of transcribe comment treated separately
+	  is the presence of gaps in the transcript; these are treated in the
+	  Section on <ref target="#sec-gaps">Gaps</ref>.</p> 
 
-          <p>Apart from head elements, transcriber comments are encoded using the
+          <p xml:id="para-hierarchy-comments">Apart heads and gaps, transcriber comments
+	  are encoded using the
           <gi>note</gi> element or one of several so called <q>incident</q> elements, as
           explained below. These elements can be placed directly inside <gi>div</gi>,
-          <gi>u</gi> or <gi>seg</gi>. It is recommended to place them as far up the
-          hierarchy as possible, and, if possible, avoid having them inside <gi>seg</gi>
+          <gi>u</gi>, <gi>seg</gi> or even <gi>s</gi> in the linguistically annotated version.
+	  They should be placed  as far up the
+          hierarchy as possible, i.e. if they would appear at the start or end of a segment or utterance,
+	  to encode them before the start, or, respectively, after the end of this segment or utterance.
+	  If possible, it is especially conventient not to have them inside <gi>seg</gi>
           (which contains text), as placing these elements there leads to mixed content,
-          which is difficult to process further, in particular when linguistically
-          annotating the corpus. However, if a transcriber comment is placed in the middle
-          of the text, then it needs to be encoded inside the segment, except if the
-          utterance is split, as is further explained in the Section on <ref
+          which is more difficult to process further, in particular when linguistically
+          annotating the corpus. Similary, it is also better to move them outside <gi>s</gi> elements.
+	  However, if a transcriber comments were placed in the middle
+          of the text for good reasons then they can be encoded inside the segment or sentence.
+	  Note, however, that 
+          utterances can also be split on transcriber comments, as is explained in the Section on <ref
           target="#sec-interruptions">Interrupted utterances</ref>.</p>
             
           <div xml:id="sec-notes">

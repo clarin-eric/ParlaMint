@@ -1,0 +1,814 @@
+# newdoc id = ParlaMint-NO_2015-04-28.ana.ud1595e130
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e131
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e131.1
+# text = Ærede medrepresentanter!
+1	Ærede	Ærede	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	NER=O
+2	medrepresentanter	medrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e133
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e133.1
+# text = Tidligere stortingsrepresentant Øyvind Bjorvatn døde 9. februar, nær 84 år gammel.
+1	Tidligere	tidlig	ADJ	_	Degree=Cmp	2	amod	_	NER=O
+2	stortingsrepresentant	stortingsrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	NER=O
+3	Øyvind	Øyvind	PROPN	_	Gender=Masc	5	nsubj	_	NER=B-PER
+4	Bjorvatn	Bjorvatn	PROPN	_	_	3	flat:name	_	NER=I-PER
+5	døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+6	9.	9.	ADJ	_	Number=Plur	7	amod	_	NER=O
+7	februar	februar	NOUN	_	Gender=Masc	5	obl	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	NER=O
+9	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	advmod	_	NER=O
+10	84	84	NUM	_	Number=Plur|NumType=Card	11	nummod	_	NER=O
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	NER=O
+12	gammel	gammel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	acl	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e133.2
+# text = Han representerte Venstre og Aust-Agder fra 1965 til 1973.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	representerte	representere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	Venstre	Venstre	PROPN	_	_	2	obj	_	NER=B-ORG
+4	og	og	CCONJ	_	_	5	cc	_	NER=O
+5	Aust-Agder	Aust-Agder	PROPN	_	_	3	conj	_	NER=B-LOC
+6	fra	fra	ADP	_	_	7	case	_	NER=O
+7	1965	1965	NUM	_	Number=Plur|NumType=Card	2	obl	_	NER=O
+8	til	til	ADP	_	_	9	case	_	NER=O
+9	1973.	1973.	NUM	_	Number=Plur|NumType=Card	7	obl	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e133.3
+# text = I 1972, etter splittelsen av Venstre, var han med og dannet Det Nye Folkepartiet, senere Det Liberale Folkepartiet.
+1	I	i	ADP	_	_	2	case	_	NER=O
+2	1972	1972	NUM	_	Number=Plur|NumType=Card	11	obl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	NER=O
+4	etter	etter	ADP	_	_	5	case	_	NER=O
+5	splittelsen	splittelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	NER=O
+6	av	av	ADP	_	_	7	case	_	NER=O
+7	Venstre	Venstre	PROPN	_	_	5	nmod	_	NER=B-ORG|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	NER=O
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	NER=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	NER=O
+11	med	med	ADP	_	_	0	root	_	NER=O
+12	og	og	CCONJ	_	_	13	cc	_	NER=O
+13	dannet	danne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	NER=O
+14	Det	Det	PROPN	_	_	13	obj	_	NER=B-ORG
+15	Nye	Nye	PROPN	_	_	14	flat:name	_	NER=I-ORG
+16	Folkepartiet	Folkepartiet	PROPN	_	_	14	flat:name	_	NER=I-ORG|SpaceAfter=No
+17	,	,	PUNCT	_	_	14	punct	_	NER=O
+18	senere	sen	ADJ	_	Degree=Cmp	19	advmod	_	NER=O
+19	Det	Det	PROPN	_	_	14	conj	_	NER=B-ORG
+20	Liberale	Liberale	PROPN	_	_	19	flat:name	_	NER=I-ORG
+21	Folkepartiet	Folkepartiet	PROPN	_	_	19	flat:name	_	NER=I-ORG|SpaceAfter=No
+22	.	.	PUNCT	_	_	11	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e133.4
+# text = Han var med i ledelsen av det nye partiet fra starten, som nestformann fra 1972 til 1974, og fra 1982 til 1986 som formann.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	NER=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	NER=O
+3	med	med	ADP	_	_	0	root	_	NER=O
+4	i	i	ADP	_	_	5	case	_	NER=O
+5	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	NER=O
+6	av	av	ADP	_	_	9	case	_	NER=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	NER=O
+8	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	NER=O
+9	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	NER=O
+10	fra	fra	ADP	_	_	11	case	_	NER=O
+11	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	3	punct	_	NER=O
+13	som	som	ADP	_	_	14	mark	_	NER=O
+14	nestformann	nestformann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	acl	_	NER=O
+15	fra	fra	ADP	_	_	16	case	_	NER=O
+16	1972	1972	NUM	_	Number=Plur|NumType=Card	14	obl	_	NER=O
+17	til	til	ADP	_	_	18	case	_	NER=O
+18	1974	1974	NUM	_	Number=Plur|NumType=Card	16	obl	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	_	_	16	punct	_	NER=O
+20	og	og	CCONJ	_	_	22	cc	_	NER=O
+21	fra	fra	ADP	_	_	22	case	_	NER=O
+22	1982	1982	NUM	_	Number=Plur|NumType=Card	3	conj	_	NER=O
+23	til	til	ADP	_	_	24	case	_	NER=O
+24	1986	1986	NUM	_	Number=Plur|NumType=Card	22	obl	_	NER=O
+25	som	som	ADP	_	_	26	case	_	NER=O
+26	formann	formann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e133.5
+# text = På Stortinget var han medlem i kirke- og undervisningskomiteen og i samferdselskomiteen.
+1	På	på	ADP	_	_	2	case	_	NER=O
+2	Stortinget	Stortinget	PROPN	_	Gender=Neut	5	obl	_	NER=B-ORG
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	NER=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	NER=O
+5	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O
+6	i	i	ADP	_	_	7	case	_	NER=O
+7	kirke-	kirke-	NOUN	_	_	5	nmod	_	NER=O
+8	og	og	CCONJ	_	_	9	cc	_	NER=O
+9	undervisningskomiteen	undervisningskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	NER=O
+10	og	og	CCONJ	_	_	12	cc	_	NER=O
+11	i	i	ADP	_	_	12	case	_	NER=O
+12	samferdselskomiteen	samferdselskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e135
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e135.1
+# text = Bjorvatn startet sin politiske karriere i lokalpolitikken.
+1	Bjorvatn	Bjorvatn	PROPN	_	_	2	nsubj	_	NER=B-PER
+2	startet	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	NER=O
+4	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	karriere	karriere	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O
+6	i	i	ADP	_	_	7	case	_	NER=O
+7	lokalpolitikken	lokalpolitikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e135.2
+# text = Han satt i kommunestyret i hjembyen Tvedestrand i to perioder fra 1963.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	satt	sitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	i	i	ADP	_	_	4	case	_	NER=O
+4	kommunestyret	kommunestyre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	NER=O
+5	i	i	ADP	_	_	7	case	_	NER=O
+6	hjembyen	hjemby	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	NER=O
+7	Tvedestrand	Tvedestrand	PROPN	_	Gender=Masc	4	nmod	_	NER=B-LOC
+8	i	i	ADP	_	_	10	case	_	NER=O
+9	to	to	NUM	_	Number=Plur|NumType=Card	10	nummod	_	NER=O
+10	perioder	periode	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	NER=O
+11	fra	fra	ADP	_	_	12	case	_	NER=O
+12	1963.	1963.	NUM	_	Number=Plur|NumType=Card	2	obl	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e135.3
+# text = Han nedla også en betydelig innsats i partiorganisasjonen både i Venstre og Det Liberale Folkepartiet.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	nedla	nedlegge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	også	også	ADV	_	_	2	advmod	_	NER=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=O
+5	betydelig	betydelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	NER=O
+6	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O
+7	i	i	ADP	_	_	8	case	_	NER=O
+8	partiorganisasjonen	partiorganisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	NER=O
+9	både	både	CCONJ	_	_	11	cc	_	NER=O
+10	i	i	ADP	_	_	11	case	_	NER=O
+11	Venstre	Venstre	PROPN	_	_	8	nmod	_	NER=B-ORG
+12	og	og	CCONJ	_	_	13	cc	_	NER=O
+13	Det	Det	PROPN	_	_	11	conj	_	NER=B-ORG
+14	Liberale	Liberale	PROPN	_	_	13	flat:name	_	NER=I-ORG
+15	Folkepartiet	Folkepartiet	PROPN	_	_	13	flat:name	_	NER=I-ORG|SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e135.4
+# text = Han var medlem av sentralstyret i Venstre og var samtidig leder av Aust-Agder Venstre.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	NER=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	NER=O
+3	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	NER=O
+4	av	av	ADP	_	_	5	case	_	NER=O
+5	sentralstyret	sentralstyre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	NER=O
+6	i	i	ADP	_	_	7	case	_	NER=O
+7	Venstre	Venstre	PROPN	_	_	5	nmod	_	NER=B-ORG
+8	og	og	CCONJ	_	_	11	cc	_	NER=O
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	NER=O
+10	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	NER=O
+11	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	NER=O
+12	av	av	ADP	_	_	13	case	_	NER=O
+13	Aust-Agder	Aust-Agder	PROPN	_	_	11	nmod	_	NER=B-ORG
+14	Venstre	Venstre	PROPN	_	_	13	flat:name	_	NER=I-ORG|SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e137
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e137.1
+# text = Som stortingsrepresentant var han en svært viktig talsmann for sitt fylke, alltid engasjert for enkeltmennesket, for bedriftsetablering og for jernbane- og veiplanlegging.
+1	Som	som	SCONJ	_	_	2	mark	_	NER=O
+2	stortingsrepresentant	stortingsrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	acl	_	NER=O
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	NER=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	NER=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=O
+6	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	NER=O
+7	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	NER=O
+8	talsmann	talsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+9	for	for	ADP	_	_	11	case	_	NER=O
+10	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	NER=O
+11	fylke	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	8	punct	_	NER=O
+13	alltid	alltid	ADV	_	_	14	advmod	_	NER=O
+14	engasjert	engasjere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	8	amod	_	NER=O
+15	for	for	ADP	_	_	16	case	_	NER=O
+16	enkeltmennesket	enkeltmenneske	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	NER=O
+18	for	for	ADP	_	_	19	case	_	NER=O
+19	bedriftsetablering	bedriftsetablering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	conj	_	NER=O
+20	og	og	CCONJ	_	_	22	cc	_	NER=O
+21	for	for	ADP	_	_	22	case	_	NER=O
+22	jernbane-	jernbane-	NOUN	_	_	16	conj	_	NER=O
+23	og	og	CCONJ	_	_	24	cc	_	NER=O
+24	veiplanlegging	veiplanlegging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	conj	_	NER=O|SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e137.2
+# text = Han var også leder for Landsdelskomiteen for Agder og Rogaland på 1970-tallet.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	NER=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	NER=O
+3	også	også	ADV	_	_	4	advmod	_	NER=O
+4	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+5	for	for	ADP	_	_	6	case	_	NER=O
+6	Landsdelskomiteen	Landsdelskomiteen	PROPN	_	_	4	nmod	_	NER=B-ORG
+7	for	for	ADP	_	_	6	flat:name	_	NER=I-ORG
+8	Agder	Agder	PROPN	_	_	6	flat:name	_	NER=I-ORG
+9	og	og	CCONJ	_	_	6	flat:name	_	NER=O
+10	Rogaland	Rogaland	PROPN	_	_	6	flat:name	_	NER=B-LOC
+11	på	på	ADP	_	_	12	case	_	NER=O
+12	1970-tallet	1970-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e137.3
+# text = Han la stor vekt på å holde tett kontakt med velgerne.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	la	legge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	NER=O
+4	vekt	vekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	NER=O
+5	på	på	SCONJ	_	_	7	mark	_	NER=O
+6	å	å	PART	_	_	7	mark	_	NER=O
+7	holde	holde	VERB	_	VerbForm=Inf	2	advcl	_	NER=O
+8	tett	tett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	NER=O
+9	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	NER=O
+10	med	med	ADP	_	_	11	case	_	NER=O
+11	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e137.4
+# text = Lørdager hadde han kontordag i sitt valgdistrikt, der han tok imot velgere som hadde noe på hjertet.
+1	Lørdager	lørdager	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	NER=O
+2	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+4	kontordag	kontordag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O
+5	i	i	ADP	_	_	7	case	_	NER=O
+6	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	NER=O
+7	valgdistrikt	valgdistrikt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	NER=O
+9	der	der	SCONJ	_	_	11	mark	_	NER=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	NER=O
+11	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	NER=O
+12	imot	imot	ADP	_	_	11	compound:prt	_	NER=O
+13	velgere	velger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	NER=O
+14	som	som	PRON	_	PronType=Rel	15	nsubj	_	NER=O
+15	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	NER=O
+16	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	15	obj	_	NER=O
+17	på	på	ADP	_	_	18	case	_	NER=O
+18	hjertet	hjerte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e139
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e139.1
+# text = Øyvind Bjorvatn tok lærerskoleeksamen i 1954, og ble cand.philol .
+1	Øyvind	Øyvind	NOUN	_	Gender=Masc	3	nsubj	_	NER=B-PER
+2	Bjorvatn	Bjorvatn	PROPN	_	_	1	flat:name	_	NER=I-PER
+3	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+4	lærerskoleeksamen	lærerskoleeksamen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	NER=O
+5	i	i	ADP	_	_	6	case	_	NER=O
+6	1954	1954	NUM	_	Number=Plur|NumType=Card	3	obl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	NER=O
+8	og	og	CCONJ	_	_	9	cc	_	NER=O
+9	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	NER=O
+10	cand.philol	cand.philol	NOUN	_	Abbr=Yes	9	xcomp	_	NER=O
+11	.	.	PUNCT	_	_	3	parataxis	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e139.2
+# text = i 1962.
+1	i	i	ADP	_	_	2	case	_	NER=O
+2	1962.	1962.	NUM	_	Number=Plur|NumType=Card	0	root	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e139.3
+# text = Han virket som lærer ved forskjellige skoler fra 1954 til 1965.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	virket	virke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	som	som	SCONJ	_	_	4	mark	_	NER=O
+4	lærer	lærer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	NER=O
+5	ved	ved	ADP	_	_	7	case	_	NER=O
+6	forskjellige	forskjellig	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	NER=O
+7	skoler	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	NER=O
+8	fra	fra	ADP	_	_	9	case	_	NER=O
+9	1954	1954	NUM	_	Number=Plur|NumType=Card	2	obl	_	NER=O
+10	til	til	ADP	_	_	11	case	_	NER=O
+11	1965.	1965.	NUM	_	Number=Plur|NumType=Card	9	obl	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e139.4
+# text = Også etter perioden som stortingsrepresentant gikk han tilbake til skoleverket, denne gang som lektor ved videregående skoler i Arendal og Tvedestrand.
+1	Også	også	ADV	_	_	3	advmod	_	NER=O
+2	etter	etter	ADP	_	_	3	case	_	NER=O
+3	perioden	periode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	NER=O
+4	som	som	ADP	_	_	5	case	_	NER=O
+5	stortingsrepresentant	stortingsrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	NER=O
+6	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	NER=O
+8	tilbake	tilbake	ADP	_	_	10	case	_	NER=O
+9	til	til	ADP	_	_	10	case	_	NER=O
+10	skoleverket	skoleverk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	NER=O
+12	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	NER=O
+13	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	NER=O
+14	som	som	SCONJ	_	_	15	mark	_	NER=O
+15	lektor	lektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	NER=O
+16	ved	ved	ADP	_	_	18	case	_	NER=O
+17	videregående	videregående	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	NER=O
+18	skoler	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	NER=O
+19	i	i	ADP	_	_	20	case	_	NER=O
+20	Arendal	Arendal	PROPN	_	_	18	nmod	_	NER=B-LOC
+21	og	og	CCONJ	_	_	22	cc	_	NER=O
+22	Tvedestrand	Tvedestrand	PROPN	_	_	20	conj	_	NER=B-LOC|SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e139.5
+# text = Han var også bonde på gården Berge i Holt, som han overtok i 1956.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	NER=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	NER=O
+3	også	også	ADV	_	_	4	advmod	_	NER=O
+4	bonde	bonde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+5	på	på	ADP	_	_	7	case	_	NER=O
+6	gården	gård	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	NER=O
+7	Berge	Berge	PROPN	_	_	4	nmod	_	NER=B-LOC
+8	i	i	ADP	_	_	9	case	_	NER=O
+9	Holt	Holt	PROPN	_	_	7	nmod	_	NER=B-LOC|SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	NER=O
+11	som	som	PRON	_	PronType=Rel	13	obj	_	NER=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	NER=O
+13	overtok	overta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	NER=O
+14	i	i	ADP	_	_	15	case	_	NER=O
+15	1956.	1956.	NUM	_	Number=Plur|NumType=Card	13	obl	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e141
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e141.1
+# text = Bjorvatn var også en høyt verdsatt lokalhistoriker, og han var formann for Dypvåg, Holt og Tvedestrand Historielag i 21 år.
+1	Bjorvatn	Bjorvatn	PROPN	_	_	7	nsubj	_	NER=B-PER
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	NER=O
+3	også	også	ADV	_	_	7	advmod	_	NER=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
+5	høyt	høy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	NER=O
+6	verdsatt	verdsatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	NER=O
+7	lokalhistoriker	lokalhistoriker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	NER=O
+9	og	og	CCONJ	_	_	12	cc	_	NER=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	NER=O
+11	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	NER=O
+12	formann	formann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=O
+13	for	for	ADP	_	_	14	case	_	NER=O
+14	Dypvåg	Dypvåg	PROPN	_	_	12	nmod	_	NER=B-ORG|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	NER=I-ORG
+16	Holt	Holt	PROPN	_	_	14	conj	_	NER=I-ORG
+17	og	og	CCONJ	_	_	18	cc	_	NER=I-ORG
+18	Tvedestrand	Tvedestrand	PROPN	_	_	14	conj	_	NER=I-ORG
+19	Historielag	Historielag	PROPN	_	_	18	flat:name	_	NER=I-ORG
+20	i	i	ADP	_	_	22	case	_	NER=O
+21	21	21	NUM	_	Number=Plur|NumType=Card	22	nummod	_	NER=O
+22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e141.2
+# text = Han fikk Tvedestrand kommunes og Aust-Agder fylkes kulturpris for sitt lokalhistoriske forfatterskap.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	Tvedestrand	Tvedestrand	PROPN	_	_	8	nmod	_	NER=B-LOC
+4	kommunes	kommune	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	3	flat:name	_	NER=I-LOC
+5	og	og	CCONJ	_	_	6	cc	_	NER=O
+6	Aust-Agder	Aust-Agder	PROPN	_	_	3	conj	_	NER=B-LOC
+7	fylkes	fylke	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	6	flat:name	_	NER=I-LOC
+8	kulturpris	kulturpris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O
+9	for	for	ADP	_	_	12	case	_	NER=O
+10	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	NER=O
+11	lokalhistoriske	lokalhistorisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	NER=O
+12	forfatterskap	forfatterskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e141.3
+# text = Fra han ble pensjonist, kom det minst én bok signert Øyvind Bjorvatn hvert år frem til 80-årsdagen.
+1	Fra	fra	SCONJ	_	_	3	mark	_	NER=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	NER=O
+3	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	NER=O
+4	pensjonist	pensjonist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	NER=O
+6	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	NER=O
+8	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	9	advmod	_	NER=O
+9	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	10	nummod	_	NER=O
+10	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	NER=O
+11	signert	signere	VERB	_	VerbForm=Part	10	acl:relcl	_	NER=O
+12	Øyvind	Øyvind	PROPN	_	Gender=Masc	11	obj	_	NER=B-PER
+13	Bjorvatn	Bjorvatn	PROPN	_	_	12	flat:name	_	NER=I-PER
+14	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	15	det	_	NER=O
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	NER=O
+16	frem	frem	ADP	_	_	18	case	_	NER=O
+17	til	til	ADP	_	_	18	case	_	NER=O
+18	80-årsdagen	80-årsdag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e141.4
+# text = Han mottok også Kongens fortjenestemedalje.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	mottok	motta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	også	også	ADV	_	_	2	advmod	_	NER=O
+4	Kongens	Kongen	PROPN	_	Case=Gen	5	nmod	_	NER=B-MISC
+5	fortjenestemedalje	fortjenestemedalje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=I-MISC|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e143
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e143.1
+# text = Øyvind Bjorvatn hadde en sjelden god evne til samarbeid og inspirerende lederskap.
+1	Øyvind	Øyvind	PROPN	_	Gender=Masc	3	nsubj	_	NER=B-PER
+2	Bjorvatn	Bjorvatn	PROPN	_	_	1	flat:name	_	NER=I-PER
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
+5	sjelden	sjelden	ADJ	_	_	6	advmod	_	NER=O
+6	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	NER=O
+7	evne	evne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	NER=O
+8	til	til	ADP	_	_	9	case	_	NER=O
+9	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	NER=O
+10	og	og	CCONJ	_	_	12	cc	_	NER=O
+11	inspirerende	inspirere	ADJ	_	VerbForm=Part	12	amod	_	NER=O
+12	lederskap	lederskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e143.2
+# text = Han var en uvurderlig initiativtaker med solid gjennomføringskraft.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	NER=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	NER=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=O
+4	uvurderlig	uvurderlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	initiativtaker	initiativtaker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+6	med	med	ADP	_	_	8	case	_	NER=O
+7	solid	solid	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	NER=O
+8	gjennomføringskraft	gjennomføringskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e143.3
+# text = Han gjorde et sympatisk inntrykk på alle han kom i befatning med.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	NER=O
+2	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	NER=O
+4	sympatisk	sympatisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	NER=O
+5	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	NER=O
+6	på	på	ADP	_	_	7	case	_	NER=O
+7	alle	all	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	2	obl	_	NER=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	NER=O
+9	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	NER=O
+10	i	i	ADP	_	_	11	case	_	NER=O
+11	befatning	befatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	NER=O
+12	med	med	ADP	_	_	11	nmod	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e143.4
+# text = Han vil bli husket både som politiker, forfatter, historiker, foredragsholder og debattant.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	NER=O
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+3	bli	bli	AUX	_	VerbForm=Inf	4	aux:pass	_	NER=O
+4	husket	huske	VERB	_	VerbForm=Part	0	root	_	NER=O
+5	både	både	CCONJ	_	_	7	cc	_	NER=O
+6	som	som	SCONJ	_	_	7	mark	_	NER=O
+7	politiker	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	acl	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	NER=O
+9	forfatter	forfatter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	NER=O
+11	historiker	historiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	NER=O
+13	foredragsholder	foredragsholder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=O
+14	og	og	CCONJ	_	_	15	cc	_	NER=O
+15	debattant	debattant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e143.5
+# text = Han var en samfunnsbygger av de sjeldne, og i 2009 ble Mølledammen midt i Tvedestrand omdøpt til Øyvind Bjorvatns plass.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	NER=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	NER=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	NER=O
+4	samfunnsbygger	samfunnsbygger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	NER=O
+5	av	av	ADP	_	_	7	case	_	NER=O
+6	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	NER=O
+7	sjeldne	sjelden	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	NER=O
+9	og	og	CCONJ	_	_	17	cc	_	NER=O
+10	i	i	ADP	_	_	11	case	_	NER=O
+11	2009	2009	NUM	_	Number=Plur|NumType=Card	17	obl	_	NER=O
+12	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	NER=O
+13	Mølledammen	Mølledammen	PROPN	_	_	17	nsubj:pass	_	NER=B-LOC
+14	midt	midt	ADV	_	_	16	advmod	_	NER=O
+15	i	i	ADP	_	_	16	case	_	NER=O
+16	Tvedestrand	Tvedestrand	PROPN	_	_	13	nmod	_	NER=B-LOC
+17	omdøpt	omdøpe	VERB	_	VerbForm=Part	4	conj	_	NER=O
+18	til	til	ADP	_	_	19	case	_	NER=O
+19	Øyvind	Øyvind	PROPN	_	Gender=Masc	17	obl	_	NER=B-PER
+20	Bjorvatns	Bjorvatn	PROPN	_	_	19	flat:name	_	NER=I-PER
+21	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	flat:name	_	NER=I-PER|SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e145
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e145.1
+# text = Bjorvatn hadde to sønner med sin kone Marit.
+1	Bjorvatn	Bjorvatn	PROPN	_	_	2	nsubj	_	NER=B-PER
+2	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	NER=O
+4	sønner	sønn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	NER=O
+5	med	med	ADP	_	_	8	case	_	NER=O
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	NER=O
+7	kone	kone	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	NER=O
+8	Marit	Marit	PROPN	_	Gender=Fem	2	obl	_	NER=B-PER|SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e147
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e147.1
+# text = Vi lyser fred over Øyvind Bjorvatns minne.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	lyser	lyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O
+4	over	over	ADP	_	_	7	case	_	NER=O
+5	Øyvind	Øyvind	NOUN	_	Gender=Masc	7	nmod	_	NER=B-PER
+6	Bjorvatns	Bjorvatn	PROPN	_	Case=Gen	5	flat:name	_	NER=I-PER
+7	minne	minne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e149
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e149.1
+# text = Representantene påhørte stående presidentens minnetale.
+1	Representantene	representant	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	NER=O
+2	påhørte	påhøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+3	stående	stå	ADJ	_	VerbForm=Part	5	amod	_	NER=O
+4	presidentens	president	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	NER=O
+5	minnetale	minnetale	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-NO_2015-04-28.ana.ud1595e151
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e152
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e152.1
+# text = Representantene Gunnar Gundersen, Sveinung Rotevatn og Martin Henriksen, som har vært permittert, har igjen tatt sete.
+1	Representantene	representant	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	NER=O
+2	Gunnar	Gunnar	PROPN	_	Gender=Masc	18	nsubj	_	NER=B-PER
+3	Gundersen	Gundersen	PROPN	_	_	2	flat:name	_	NER=I-PER|SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	NER=O
+5	Sveinung	Sveinung	PROPN	_	_	2	conj	_	NER=B-PER
+6	Rotevatn	Rotevatn	PROPN	_	_	5	flat:name	_	NER=I-PER
+7	og	og	CCONJ	_	_	8	cc	_	NER=O
+8	Martin	Martin	PROPN	_	Gender=Masc	2	conj	_	NER=B-PER
+9	Henriksen	Henriksen	PROPN	_	_	8	flat:name	_	NER=I-PER|SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	NER=O
+11	som	som	PRON	_	PronType=Rel	14	nsubj	_	NER=O
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	NER=O
+13	vært	være	AUX	_	VerbForm=Part	14	aux	_	NER=O
+14	permittert	permittere	VERB	_	VerbForm=Part	8	acl:relcl	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	NER=O
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	NER=O
+17	igjen	igjen	ADV	_	_	18	advmod	_	NER=O
+18	tatt	ta	VERB	_	VerbForm=Part	0	root	_	NER=O
+19	sete	sete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e163
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e163.1
+# text = Det foreligger to permisjonssøknader:
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	NER=O
+2	foreligger	foreligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	NER=O
+4	permisjonssøknader	permisjonssøknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	NER=O|SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e165
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e165.1
+# text = – Fra representanten Torgeir Knag Fylkesnes om omsorgspermisjon i tiden fra og med 28. april til og med 11. mai.
+1	–	–	PUNCT	_	_	4	punct	_	NER=B-ORG
+2	Fra	fra	ADP	_	_	4	case	_	NER=O
+3	representanten	representant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+4	Torgeir	Torgeir	PROPN	_	Gender=Masc	0	root	_	NER=B-PER
+5	Knag	Knag	PROPN	_	_	4	flat:name	_	NER=I-PER
+6	Fylkesnes	Fylkesnes	PROPN	_	_	4	flat:name	_	NER=I-PER
+7	om	om	ADP	_	_	8	case	_	NER=O
+8	omsorgspermisjon	omsorgspermisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	parataxis	_	NER=O
+9	i	i	ADP	_	_	10	case	_	NER=O
+10	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	NER=O
+11	fra	fra	ADP	_	_	10	nmod	_	NER=O
+12	og	og	CCONJ	_	_	15	cc	_	NER=O
+13	med	med	ADP	_	_	15	case	_	NER=O
+14	28.	28.	ADJ	_	Number=Plur	15	amod	_	NER=O
+15	april	april	NOUN	_	Gender=Masc	11	conj	_	NER=O
+16	til	til	ADP	_	_	10	nmod	_	NER=O
+17	og	og	CCONJ	_	_	20	cc	_	NER=O
+18	med	med	ADP	_	_	20	case	_	NER=O
+19	11.	11.	ADJ	_	Number=Plur	20	amod	_	NER=O
+20	mai	mai	NOUN	_	Gender=Masc	16	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e170
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e170.1
+# text = – Fra representanten Frank Bakke-Jensen om permisjon i tiden fra og med 28. april til og med 30. april for å delta i NATOs parlamentariske forsamlings reise til Nord-Norge .
+1	–	–	PUNCT	_	_	4	punct	_	NER=B-ORG
+2	Fra	fra	ADP	_	_	4	case	_	NER=O
+3	representanten	representant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+4	Frank	Frank	PROPN	_	Gender=Masc	0	root	_	NER=B-PER
+5	Bakke-Jensen	Bakke-Jensen	PROPN	_	_	4	flat:name	_	NER=I-PER
+6	om	om	ADP	_	_	7	case	_	NER=O
+7	permisjon	permisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+8	i	i	ADP	_	_	9	case	_	NER=O
+9	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	NER=O
+10	fra	fra	ADP	_	_	9	nmod	_	NER=O
+11	og	og	CCONJ	_	_	14	cc	_	NER=O
+12	med	med	ADP	_	_	14	case	_	NER=O
+13	28.	28.	ADJ	_	Number=Plur	14	amod	_	NER=O
+14	april	april	NOUN	_	Gender=Masc	10	conj	_	NER=O
+15	til	til	ADP	_	_	9	nmod	_	NER=O
+16	og	og	CCONJ	_	_	19	cc	_	NER=O
+17	med	med	ADP	_	_	19	case	_	NER=O
+18	30.	30.	ADJ	_	Number=Plur	19	amod	_	NER=O
+19	april	april	NOUN	_	Gender=Masc	15	conj	_	NER=O
+20	for	for	SCONJ	_	_	22	mark	_	NER=O
+21	å	å	PART	_	_	22	mark	_	NER=O
+22	delta	delta	VERB	_	VerbForm=Inf	4	parataxis	_	NER=O
+23	i	i	ADP	_	_	27	case	_	NER=O
+24	NATOs	NATOs	NOUN	_	Abbr=Yes|Case=Gen	26	nmod	_	NER=B-ORG
+25	parlamentariske	parlamentarisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	NER=O
+26	forsamlings	forsamling	NOUN	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	NER=O
+27	reise	reise	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	NER=O
+28	til	til	ADP	_	_	29	case	_	NER=O
+29	Nord-Norge	Nord-Norge	PROPN	_	_	27	nmod	_	NER=B-LOC
+30	.	.	PUNCT	_	_	4	parataxis	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e175
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e175.1
+# text = Disse søknader foreslås behandlet straks og innvilget.
+1	Disse	disse	DET	_	Number=Plur|PronType=Dem	2	det	_	NER=O
+2	søknader	søknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	NER=O
+3	foreslås	foreslå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	behandlet	behandle	VERB	_	VerbForm=Part	3	ccomp	_	NER=O
+5	straks	straks	ADV	_	_	4	advmod	_	NER=O
+6	og	og	CCONJ	_	_	7	cc	_	NER=O
+7	innvilget	innvilge	VERB	_	VerbForm=Part	4	conj	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e175.2
+# text = – Det anses vedtatt.
+1	–	–	PUNCT	_	_	3	dep	_	NER=B-ORG
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	NER=O
+3	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	vedtatt	vedta	VERB	_	VerbForm=Part	3	parataxis	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e177
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e177.1
+# text = Fra første vararepresentant for Finnmark fylke, Laila Davidsen, foreligger søknad om fritak for å møte i Stortinget under representanten Frank Bakke-Jensens permisjon, på grunn av sykdom.
+1	Fra	fra	ADP	_	_	8	case	_	NER=O
+2	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	NER=O
+3	vararepresentant	vararepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	NER=O
+4	for	for	ADP	_	_	5	case	_	NER=O
+5	Finnmark	Finnmark	PROPN	_	_	3	nmod	_	NER=B-LOC
+6	fylke	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	flat:name	_	NER=I-LOC|SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	NER=O
+8	Laila	Laila	PROPN	_	Gender=Fem	11	obl	_	NER=B-PER
+9	Davidsen	Davidsen	PROPN	_	_	8	flat:name	_	NER=I-PER|SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	NER=O
+11	foreligger	foreligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+12	søknad	søknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	NER=O
+13	om	om	ADP	_	_	14	case	_	NER=O
+14	fritak	fritak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	NER=O
+15	for	for	SCONJ	_	_	17	mark	_	NER=O
+16	å	å	PART	_	_	17	mark	_	NER=O
+17	møte	møte	VERB	_	VerbForm=Inf	14	acl	_	NER=O
+18	i	i	ADP	_	_	19	case	_	NER=O
+19	Stortinget	Stortinget	PROPN	_	Gender=Neut	17	obl	_	NER=B-LOC
+20	under	under	ADP	_	_	24	case	_	NER=O
+21	representanten	representant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	NER=O
+22	Frank	Frank	PROPN	_	Gender=Masc	24	nmod	_	NER=B-PER
+23	Bakke-Jensens	Bakke-Jensen	PROPN	_	Case=Gen	22	flat:name	_	NER=I-PER
+24	permisjon	permisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	_	_	17	punct	_	NER=O
+26	på	på	ADP	_	_	27	case	_	NER=O
+27	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	NER=O
+28	av	av	ADP	_	_	29	case	_	NER=O
+29	sykdom	sykdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	NER=O|SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e182
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e182.1
+# text = Etter forslag fra presidenten ble enstemmig besluttet:
+1	Etter	etter	ADP	_	_	2	case	_	NER=O
+2	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	NER=O
+3	fra	fra	ADP	_	_	4	case	_	NER=O
+4	presidenten	president	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+5	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	NER=O
+6	enstemmig	enstemmig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	NER=O
+7	besluttet	beslutte	VERB	_	VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e184
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e184.1
+# text = Søknaden behandles straks og innvilges.
+1	Søknaden	søknad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj:pass	_	NER=O
+2	behandles	behandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+3	straks	straks	ADV	_	_	2	advmod	_	NER=O
+4	og	og	CCONJ	_	_	5	cc	_	NER=O
+5	innvilges	innvilge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e184.2
+# text = Følgende vararepresentanter innkalles for å møte i permisjonstiden slik: For Finnmark fylke: Hans-Jacob Bønå 28.–30.april.
+1	Følgende	følgende	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	NER=O
+2	vararepresentanter	vararepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj:pass	_	NER=O
+3	innkalles	innkalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	for	for	SCONJ	_	_	6	mark	_	NER=O
+5	å	å	PART	_	_	6	mark	_	NER=O
+6	møte	møte	VERB	_	VerbForm=Inf	3	advcl	_	NER=O
+7	i	i	ADP	_	_	8	case	_	NER=O
+8	permisjonstiden	permisjonstid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	NER=O
+9	slik	slik	ADV	_	_	6	advmod	_	NER=O|SpaceAfter=No
+10	:	:	PUNCT	_	_	3	punct	_	NER=O
+11	For	for	ADP	_	_	12	case	_	NER=O
+12	Finnmark	Finnmark	PROPN	_	_	3	obl	_	NER=B-LOC
+13	fylke	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	flat:name	_	NER=I-LOC|SpaceAfter=No
+14	:	:	PUNCT	_	_	12	punct	_	NER=O
+15	Hans-Jacob	Hans-Jacob	PROPN	_	_	12	flat:name	_	NER=B-PER
+16	Bønå	Bønå	PROPN	_	_	15	flat:name	_	NER=I-PER
+17	28.–30.april	28.–30.april	ADJ	_	Number=Plur	3	dep	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e184.3
+# text = For Troms fylke: Siv Elin Hansen 28. april–7.mai.
+1	For	for	ADP	_	_	2	case	_	NER=O
+2	Troms	Troms	PROPN	_	_	5	obl	_	NER=B-LOC
+3	fylke	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	flat:name	_	NER=I-LOC|SpaceAfter=No
+4	:	:	PUNCT	_	_	2	punct	_	NER=O
+5	Siv	Siv	PROPN	_	_	0	root	_	NER=B-PER
+6	Elin	Elin	NOUN	_	Gender=Fem	5	flat:name	_	NER=I-PER
+7	Hansen	Hansen	PROPN	_	_	5	flat:name	_	NER=I-PER
+8	28.	28.	ADJ	_	Number=Plur	9	amod	_	NER=O
+9	april–7.mai	april–7.mai	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newdoc id = ParlaMint-NO_2015-04-28.ana.ud1595e4011
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e4012
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e4012.1
+# text = Sakene nr. 14–17 er andre gangs behandling av lovsaker og gjelder lovvedtakene 58–61.
+1	Sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	NER=O
+2	nr.	nr.	NOUN	_	Abbr=Yes	3	obl	_	NER=O
+3	14–17	14–17	NUM	_	Number=Plur|NumType=Card	1	nmod	_	NER=O
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	NER=O
+5	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	NER=O
+6	gangs	gang	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	NER=O
+7	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	NER=O
+8	av	av	ADP	_	_	9	case	_	NER=O
+9	lovsaker	lovsak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	NER=O
+10	og	og	CCONJ	_	_	11	cc	_	NER=O
+11	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	NER=O
+12	lovvedtakene	lovvedtak	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	obj	_	NER=O
+13	58–61.	58–61.	NUM	_	Number=Plur|NumType=Card	7	parataxis	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e4014
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e4014.1
+# text = Det foreligger ingen forslag til anmerkning.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	NER=O
+2	foreligger	foreligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	4	det	_	NER=O
+4	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	NER=O
+5	til	til	ADP	_	_	6	case	_	NER=O
+6	anmerkning	anmerkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e4014.2
+# text = Stortingets lovvedtak er dermed bifalt ved andre gangs behandling og blir å sende Kongen i overensstemmelse med Grunnloven.
+1	Stortingets	Stortinget	PROPN	_	Case=Gen|Gender=Neut	2	nmod	_	NER=B-ORG
+2	lovvedtak	lovvedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	NER=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+4	dermed	dermed	ADV	_	_	5	advmod	_	NER=O
+5	bifalt	bifalle	VERB	_	VerbForm=Part	0	root	_	NER=O
+6	ved	ved	ADP	_	_	9	case	_	NER=O
+7	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	NER=O
+8	gangs	gang	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=O
+9	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	NER=O
+10	og	og	CCONJ	_	_	11	cc	_	NER=O
+11	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	NER=O
+12	å	å	PART	_	_	13	mark	_	NER=O
+13	sende	sende	VERB	_	VerbForm=Inf	11	xcomp	_	NER=O
+14	Kongen	Kongen	PROPN	_	_	13	obj	_	NER=B-PER
+15	i	i	ADP	_	_	16	case	_	NER=O
+16	overensstemmelse	overensstemmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	NER=O
+17	med	med	ADP	_	_	18	case	_	NER=O
+18	Grunnloven	Grunnloven	PROPN	_	Gender=Masc	16	nmod	_	NER=B-MISC|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newdoc id = ParlaMint-NO_2015-04-28.ana.ud1595e4385
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e4386
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e4386.1
+# text = Dermed er dagens kart ferdigbehandlet.
+1	Dermed	dermed	ADV	_	_	5	advmod	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+3	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+4	kart	kart	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	NER=O
+5	ferdigbehandlet	ferdigbehandle	VERB	_	VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newpar id = ParlaMint-NO_2015-04-28.ana.segd1595e4388
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e4388.1
+# text = Forlanger noen ordet før møtet heves?
+1	Forlanger	forlange	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+2	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs	1	nsubj	_	NER=O
+3	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	obj	_	NER=O
+4	før	før	SCONJ	_	_	6	mark	_	NER=O
+5	møtet	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj:pass	_	NER=O
+6	heves	heve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	advcl	_	NER=O|SpaceAfter=No
+7	?	?	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_2015-04-28.ana.segd1595e4388.2
+# text = – Møtet er hevet.
+1	–	–	PUNCT	_	_	4	punct	_	NER=B-ORG
+2	Møtet	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	NER=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+4	hevet	heve	VERB	_	VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	NER=O
+
