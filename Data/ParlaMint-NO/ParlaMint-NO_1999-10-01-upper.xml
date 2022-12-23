@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="nob"
+     xml:id="ParlaMint-NO_1999-10-01-upper"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nob">Norsk parlamentarisk korpus ParlaMint-NO, 1999-10-01 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO, 1999-10-01 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="nob">Referat fra møte i Stortinget, Stortingsperiode 1997-2001, sesjon 1999-2000, møtedag 1999-10-01</title>
+            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, term 1997-2001, Session 1999-2000, Sitting day 1999-10-01</title>
+            <meeting ana="#parla.upper #parla.sitting" corresp="#LT" n="1999-10-01">Sitting day 1999-10-01</meeting>
+            <meeting ana="#parla.upper #parla.session #ST.1999-2000"
+                     corresp="#LT"
+                     n="1999-2000">Session 1999-2000</meeting>
+            <meeting ana="#parla.upper #parla.term #ST.1997-2001"
+                     corresp="#LT"
+                     n="1997-2001">Term 1997-2001</meeting>
+            <respStmt>
+               <persName>Lars Magne Tungland</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">National Library of Norway</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="24" unit="speeches" xml:lang="en">24 speeches</measure>
+            <measure quantity="24" unit="speeches" xml:lang="nob">24 taler</measure>
+            <measure quantity="360" unit="words" xml:lang="en">360 words</measure>
+            <measure quantity="360" unit="words" xml:lang="nob">360 ord</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2022-12-16">2022-12-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Norwegian Parliament</title>
+               <publisher xml:lang="en">The Norwegian Parliament</publisher>
+               <idno type="URI">https://data.stortinget.no/eksport/publikasjon?publikasjonid=l991001</idno>
+               <date when="1999-10-01">01.10.99</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="2"/>
+               <tagUsage gi="note" occurs="39"/>
+               <tagUsage gi="seg" occurs="31"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="24"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Stortinget</name>
+               <name type="address">Karl Johans Gate 22</name>
+               <name type="city">0026 Oslo</name>
+               <name type="country" key="NO">Norway</name>
+               <date ana="#parla.sitting" when="1999-10-01">01.10.99</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2022-12-16">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2021-01-29">
+            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="comment">Stortingstidende</note>
+            <note type="comment">inneholdende</note>
+            <note type="comment">144. Stortingets forhandlinger</note>
+            <note type="comment">1999 - 2000</note>
+            <note type="comment">Forhandlinger i Lagtinget</note>
+            <note type="comment">År 1999, fredag den 1. oktober kl. 13.40 trådte Lagtinget sammen.</note>
+            <note type="comment">Representanten Laila</note>
+            <note type="comment">Kaland</note>
+            <note type="comment">tok ordet og uttalte:</note>
+            <note type="comment">Eg vil oppmode den førre lagtingspresidenten, Odd</note>
+            <note type="comment">Holten</note>
+            <note type="comment">, om inntil vidare å leie forhandlingane.</note>
+            <note type="speaker">Odd Holten (KrF) (fra salen):</note>
+            <u who="#person.OH"
+               ana="#regular"
+               xml:id="ParlaMint-NO_1999-10-01-upper.ud949e27"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e32">Hvis ingen har noe å innvende, skal jeg etterkomme anmodningen.</seg>
+            </u>
+            <note type="comment">Odd Holten</note>
+            <note type="comment">inntok deretter presidentplassen.</note>
+            <u who="#person.OH"
+               ana="#chair"
+               xml:id="ParlaMint-NO_1999-10-01-upper.ud949e39"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e40">Fungerende president vil anmode forrige lagtings sekretær, Per Ove Width, om midlertidig å fungere som sekretær.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#person.OH"
+               ana="#chair"
+               xml:id="ParlaMint-NO_1999-10-01-upper.ud949e223"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e224">Einar Olav Skogholt er foreslått som varasekretær. Andre forslag foreligger ikke.</seg>
+            </u>
+            <note type="comment">Votering:</note>
+            <note type="comment">Kirsti Kolle Grøndahls forslag bifaltes enstemmig.</note>
+            <u who="#person.OH"
+               ana="#chair"
+               xml:id="ParlaMint-NO_1999-10-01-upper.ud949e231"
+               xml:lang="nob">
+               <seg xml:id="ParlaMint-NO_1999-10-01-upper.segd949e232">Dermed har Lagtinget konstituert seg, og det vil bli sendt melding til Stortinget og Odelstinget om dette.</seg>
+            </u>
+         </div>
+         <div type="commentSection">
+            <note type="comment">Møtet hevet kl. 13.50.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
