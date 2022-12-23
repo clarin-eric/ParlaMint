@@ -73,7 +73,7 @@ word =
             "Normalised word with several surface words:"
           ]
      | (word.atts,
-        element w { non-empty.string }+,
+        element w { normalized-space.string }+,
         empty))
   }
 
