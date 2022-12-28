@@ -60,7 +60,7 @@
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
 					</p>
         </availability>
-        <date when="2022-12-27">27.12.2022</date>
+        <date when="2022-12-28">28.12.2022</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -118,13 +118,53 @@
         </namespace>
       </tagsDecl>
       <classDecl>
-        <taxonomy xml:id="parla.legislature">
+        <taxonomy xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-taxonomy-parla.legislature" xml:lang="pl">
           <desc xml:lang="pl">
             <term>Władza ustawodawcza</term>
           </desc>
           <desc xml:lang="en">
             <term>Legislature</term>
           </desc>
+          <category xml:id="parla.geo-political">
+            <catDesc xml:lang="pl">
+              <term>Jednostki administracyjne lub geopolityczne</term>
+            </catDesc>
+            <catDesc xml:lang="en">
+              <term>Geo-political or administrative units</term>
+            </catDesc>
+            <category xml:id="parla.supranational">
+              <catDesc xml:lang="pl">
+                <term>Międzynarodowa władza ustawodawcza</term>
+              </catDesc>
+              <catDesc xml:lang="en">
+                <term>Supranational legislature</term>
+              </catDesc>
+            </category>
+            <category xml:id="parla.national">
+              <catDesc xml:lang="pl">
+                <term>Krajowa władza ustawodawcza</term>
+              </catDesc>
+              <catDesc xml:lang="en">
+                <term>National legislature</term>
+              </catDesc>
+            </category>
+            <category xml:id="parla.regional">
+              <catDesc xml:lang="pl">
+                <term>Regionalna władza ustawodawcza</term>
+              </catDesc>
+              <catDesc xml:lang="en">
+                <term>Regional legislature</term>
+              </catDesc>
+            </category>
+            <category xml:id="parla.local">
+              <catDesc xml:lang="pl">
+                <term>Lokalna władza ustawodawcza</term>
+              </catDesc>
+              <catDesc xml:lang="en">
+                <term>Local legislature</term>
+              </catDesc>
+            </category>
+          </category>
           <category xml:id="parla.organization">
             <catDesc xml:lang="pl">
               <term>Organizacja</term>
@@ -224,20 +264,17 @@
           <category xml:id="parla.term">
             <catDesc xml:lang="pl"><term>Kadencja</term>: okres pomiędzy wyborami powszechnymi
 						</catDesc>
-            <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.
-						</catDesc>
+            <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
             <category xml:id="parla.session">
               <catDesc xml:lang="pl">
                 <term>Posiedzenie</term>
               </catDesc>
-              <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.
-							</catDesc>
+              <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
               <category xml:id="parla.meeting">
                 <catDesc xml:lang="pl">
                   <term>Dzień</term>
                 </catDesc>
-                <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.
-								</catDesc>
+                <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
                 <category xml:id="parla.meeting-types">
                   <catDesc xml:lang="pl">
                     <term>Typy posiedzeń</term>
@@ -311,7 +348,7 @@
                   </category>
                   <category xml:id="parla.meeting.public">
                     <catDesc xml:lang="pl">
-                      <term>Posiedzenie publiczne</term>
+                      <term>Posiedzenie wykonawcze</term>
                     </catDesc>
                     <catDesc xml:lang="en">
                       <term>Public meeting</term>
@@ -330,8 +367,7 @@
                   <catDesc xml:lang="pl">
                     <term>Dzień posiedzenia</term>
                   </catDesc>
-                  <catDesc xml:lang="en"><term>Sitting</term>: sitting day
-									</catDesc>
+                  <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
                 </category>
               </category>
             </category>
@@ -406,7 +442,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc xml:lang="en">
-      <change when="2022-12-27"><name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.
+      <change when="2022-12-28"><name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.
 			</change>
     </revisionDesc>
   </teiHeader>
