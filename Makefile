@@ -150,7 +150,7 @@ check-links-XX = $(addprefix check-links-, $(PARLIAMENTS))
 check-links: $(check-links-XX)
 ## check-links-XX ## ...
 $(check-links-XX): check-links-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking links in root:" $${root}; \
 	  ${s} ${vlink} $${root}; \
 	  for component in `echo $${root}| xargs ${getheaderincludes}`; do \
