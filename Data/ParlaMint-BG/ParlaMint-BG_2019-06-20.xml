@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI ana="#reference #parla.sitting" xml:id="ParlaMint-BG_2019-06-20" xml:lang="bg" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" xml:lang="bg">Български парламентарен корпус ParlaMint-BG (2019-06-20) [ParlaMint]</title>
+                <title type="main" xml:lang="en">Bulgarian parliamentary corpus ParlaMint-BG (2019-06-20) [ParlaMint]</title>
+                <title type="sub" xml:lang="bg">Стенограмa от 275 пленарнo заседаниe на 7 сесия на 44 Народно събрание на Република България (2019-06-20)</title>
+                <title type="sub" xml:lang="en">Report of the meeting of the Bulgarian National Assembly, Term 44, Session 7, Meeting 275 (2019-06-20)</title>
+                <meeting ana="#parla.sitting" corresp="#BGNS" n="2019-06-20">2019-06-20</meeting>
+                <meeting ana="#parla.meeting.regular" corresp="#BGNS" n="275">275 пленарно заседание</meeting>
+                <meeting ana="#parla.session" corresp="#BGNS" n="7">7 парламентарна сесия</meeting>
+                <meeting ana="#parla.term" corresp="#BGNS" n="44">Четиридесет и четвърто народно събрание</meeting>
+                <respStmt>
+                    <persName xml:lang="bg">Владислава Григорова</persName>
+                    <persName xml:lang="en">Vladislava Grigorova</persName>
+                    <resp xml:lang="bg">Сваляне, почистване и конвертиране до XML</resp>
+                    <resp xml:lang="en">Download, clean-up converting of the data to XML</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="bg">Петя Осенова</persName>
+                    <persName ref="https://orcid.org/0000-0002-4484-5027" xml:lang="en">Petya Osenova</persName>
+                    <resp xml:lang="bg">Кодиране в Parla-CLARIN TEI XML</resp>
+                    <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="bg">Кирил Симов</persName>
+                    <persName ref="https://orcid.org/0000-0003-3555-0179" xml:lang="en">Kiril Simov</persName>
+                    <resp xml:lang="bg">Валидиране на корпуса Parla-CLARIN TEI XML</resp>
+                    <resp xml:lang="en">Parla-CLARIN TEI XML corpus validation</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>1.0</edition>
+            </editionStmt>
+            <extent>
+                <measure quantity="212" unit="speeches" xml:lang="bg">212 изказвания</measure>
+                <measure quantity="212" unit="speeches" xml:lang="en">212 speeches</measure>
+                <measure quantity="1111" unit="words" xml:lang="en">1111 words</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="bg">Изследователска инфраструктура CLARIN</orgName>
+                    <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref></publisher>
+                <idno type="handle">http://hdl.handle.net/11356/1167</idno>
+                <availability status="free"><licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="en">This work is licensed under the
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+                    <p xml:lang="bg">Този ресурс е лицензиран под лиценз:
+                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+                </availability>
+                <date when="2022-12-20">2022-12-20</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="main">Minutes of the National Assembly of the Republic of Bulgaria</title>
+                    <idno type="URI">https://parliament.bg/bg/plenaryst</idno>
+                    <date when="2019-06-20"></date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="bg">
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref></p>
+                <p xml:lang="en">
+                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref></p>
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="desc" occurs="26"></tagUsage>
+                    <tagUsage gi="div" occurs="1"></tagUsage>
+                    <tagUsage gi="kinesic" occurs="16"></tagUsage>
+                    <tagUsage gi="seg" occurs="771"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="u" occurs="212"></tagUsage>
+                    <tagUsage gi="vocal" occurs="10"></tagUsage>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc><setting>
+                    <name type="address">2 Narodno Sabranie Sq.</name>
+                    <name type="city">Sofia</name>
+                    <name key="BG" type="country">Bulgaria</name>
+                    <date when="2019-06-20"></date></setting>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <text ana="#reference" xml:lang="bg">
+        <body>
+            <div type="debateSection">
+                <u ana="#chair" n="124776" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u1">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg1">Имаме кворум. Откривам заседанието.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg2">Професор Михайлов, имате думата – декларация от името на парламентарната група на „БСП за България“.</seg>
+                </u>
+                <u ana="#regular" n="124777" who="#MihaylovGeorgi" xml:id="ParlaMint-BG_2019-06-20.u2">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg3">Благодаря Ви, господин Председателстващ.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg4">Уважаеми колеги! През последните 24 часа нашето общество стана свидетел на една нелепа смърт на българско дете със сериозно, но лечимо заболяване, което поради нелепи административни безобразия не получи необходимото лечение – възможно на територията на страната. А на всичкото отгоре часове преди смъртта му на неговите близки беше връчена фактура за 14 хил. лв., която ги задължава, видите ли, поради наличие на дарителска сметка, с която искат да подпомогнат лечението на детето извън територията на страната, за което те имат свещено право, да заплатят това лечение в страната!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg5">Като 20 години прекарал съдбата си между тези деца, за мен това не е само нелепо, но и чудовищно. Затова, първо, молим всички с едноминутно мълчание да почетем паметта на това дете…</seg>
+                </u>
+                <u ana="#chair" n="124778" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u3">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg6">Професор Михайлов, може ли…</seg>
+                </u>
+                <u ana="#regular" n="124779" who="#MihaylovGeorgi" xml:id="ParlaMint-BG_2019-06-20.u4">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg7">…и да помоля председателя на заседанието да бъдат извикани тук директорът на НЗОК и директорът на Агенция „Медицински надзор“, за да дадат обяснение на този нелеп случай.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg8">Той не е първият – аз самият съм бил свидетел през последните месеци, след това сливане на отделни агенции в тази мегаагенция за медицински надзор, колко много детските онколози са затруднени при изписването на лечение.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg9">Затова Ви моля, господин Председател, нека да се явят тук директорът на НЗОК и директорът на Агенция „Медицински надзор“ и да дадат обяснение за този случай. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124780" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u5">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg10">Благодаря Ви, професор Михайлов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg11">Доктор Дариткова, заповядайте – от името на парламентарната група на ГЕРБ.</seg>
+                </u>
+                <u ana="#regular" n="124781" who="#DaritkovaDaniela" xml:id="ParlaMint-BG_2019-06-20.u6">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg12">Уважаеми господин Председател, уважаеми госпожи и господа български граждани – народни представители! Извинявам се, но емоцията ми е обяснима, защото, като лекар и като майка, искрено съчувствам и изказвам своите най-искрени и дълбоки съболезнования за загубата на това дете; защото това не се преживява, но то се съпреживява и от лекуващите лекари.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg13">Вие много по-добре от мен го знаете, защото сте с много по-дългогодишен стаж именно в тази област на медицинската наука.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg14">Искам да подчертая, че, за съжаление, се случват смърти в България, има нелечими болести и ние по никакъв начин не може политически да използваме това тук, от тази трибуна! Ако има наистина административни нарушения, те трябва да се разглеждат по надлежния ред.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg15">Аз съм заявила, че ще направя изслушване в Комисията по здравеопазването – това изслушване е в ход, на което ще се изяснят всички подробности – има ли административни нарушения и недоразумения около лечението на това дете. Но съм убедена, че колегите от Клиниката по детска онкохематология в ИСУЛ са положили всички усилия – там работят специалисти, които са на световно ниво, и са оказали всички грижи на това дете! Ако има проблем с администрирането на Фонда за лечение на деца след прехвърлянето му към Националната здравноосигурителна каса, ние трябва да направим анализ и да се търсят решения, защото те са в интерес на българските граждани.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg16">В никакъв случай не може политически да се използват подобни теми – смятам, че това е некоректно, нехуманно и абсолютно в противоречие с всякакви демократични принципи!</seg><kinesic type="applause"><desc>(Ръкопляскания от ГЕРБ.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124782" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u7">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg17">Благодаря Ви, доктор Дариткова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg18">По начина на водене – професор Михайлов, заповядайте. Аз още нищо не водя, но Ви моля, действително по начина на водене – не засягайте никаква друга тема.</seg>
+                </u>
+                <u ana="#regular" n="124783" who="#MihaylovGeorgi" xml:id="ParlaMint-BG_2019-06-20.u8">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg19">Уважаеми господин Председател, ние имахме конкретно предложение в нашата декларация…</seg><vocal type="interruption"><desc>(Реплики от ГЕРБ.)</desc></vocal>
+                </u>
+                <u ana="#chair" n="124784" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u9">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg20">Слушаме Ви.</seg>
+                </u>
+                <u ana="#regular" n="124785" who="#MihaylovGeorgi" xml:id="ParlaMint-BG_2019-06-20.u10">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg21">Нека в този неприятен момент да не си обясняваме непрекъснато процедурни хватки.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg22">Никой, господин Председател, не е поставял под съмнение професионализма на колегите от Клиниката по детска онкохематология.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg23">По начина на водене – това беше нашето предложение: да се гласува да се поканят тук директорът на НЗОК и директорът на Агенция „Медицински надзор“. Това е нашето предложение и за това е моята забележка по начина на водене.</seg>
+                </u>
+                <u ana="#chair" n="124786" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u11">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg24">Разбрах Ви, професор Михайлов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg25">Кога ще извикам и кога ще предложа на хората, които посочихте, да дойдат тук – ще реша аз. Ще се съобразя с това, което сте предложили и което сте казали. Ще се съобразя и с това, че те са поканени в Комисията по здравеопазването.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg26">По начина на водене – доктор Дариткова.</seg>
+                </u>
+                <u ana="#regular" n="124787" who="#DaritkovaDaniela" xml:id="ParlaMint-BG_2019-06-20.u12">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg27">Уважаеми господин Председател, моля Ви да запознаете колегите от „БСП за България“ по какъв механизъм се осъществяват изслушванията в Народното събрание. Припомнете им Правилника за организацията и дейността на Народното събрание, защото това трябва да бъде настолна книга за всеки народен представител. Ние се кълнем да спазваме Конституцията и законите на страната – правилниците също са в този ред на мисли.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg28">Искам да подчертая, че може би тези личности, които посочи професор Михайлов, не са достатъчни за изслушване. За да съберем и анализираме всички подробности по случая, е по-добре да се осъществи изслушване в Комисията по здравеопазването – повтарям, че то е в ход.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg29">Моля Ви, припомнете Правилника и нека той да бъде стриктно спазван. Вероятно заради дългото отсъствие на колегите те са го забравили.</seg><kinesic type="applause"><desc>(Ръкопляскания от ГЕРБ.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124788" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u13">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg30">Благодаря Ви, доктор Дариткова.</seg><vocal type="interruption"><desc>(Шум и реплики от „БСП за България“.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg31">Колеги, запазете тишина и да започнем работа. Мисля, че този случай не е това, което трябва да дебатираме в момента.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg32">Започваме с:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg33">ВТОРО ГЛАСУВАНЕ НА ЗАКОНОПРОЕКТА ЗА ИЗМЕНЕНИЕ И ДОПЪЛНЕНИЕ НА ЗАКОНА ЗА ПОЩЕНСКИТЕ УСЛУГИ с вносител Министерският съвет.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg34">Господин Летифов, заповядайте за представяне на Доклада на Комисията по транспорт, информационни технологии и съобщения.</seg>
+                </u>
+                <u ana="#regular" n="124789" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u14">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg35">Благодаря Ви, господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg36">Позволете ми процедура за допуск в залата на господин Димитър Геновски – заместник-министър на транспорта, информационните технологии и съобщенията, господин Димитър Димитров и госпожа Людмила Василева от дирекция „Съобщения“ в Министерството на транспорта, информационните технологии и съобщенията.</seg>
+                </u>
+                <u ana="#chair" n="124790" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u15">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg37">Благодаря Ви, уважаеми господин Летифов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg38">Подлагам на гласуване направеното процедурно предложение.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg39">Гласували 155 народни представители: за 152, против няма, въздържали се 3.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg40">Предложението е прието.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg41">Квесторите, поканете гостите в залата. Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg42">Моля, продължете с представянето на Законопроекта.</seg>
+                </u>
+                <u ana="#regular" n="124791" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u16">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg43">„Доклад относно Законопроект за изменение и допълнение на Закона за пощенските услуги, № 902-01-19, внесен от Министерския съвет на 11 април 2019 г.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg44">„Закон за изменение и допълнение на Закона за пощенските услуги“.“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg45">Комисията подкрепя текста на вносителя за наименованието на Закона.</seg>
+                </u>
+                <u ana="#chair" n="124792" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u17">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg46">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg47">Подлагам на гласуване текста на вносителя за наименованието на Закона.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg48">Гласували 145 народни представители: за 143, против няма, въздържали се 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg49">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124793" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u18">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg50">Комисията подкрепя текста на вносителя за § 1.</seg>
+                </u>
+                <u ana="#chair" n="124794" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u19">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg51">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg52">Подлагам на гласуване текста на вносителя за § 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg53">Гласували 140 народни представители: за 137, против 1, въздържали се 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg54">Предложението се приема.</seg>
+                </u>
+                <u ana="#regular" n="124795" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u20">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg55">Комисията подкрепя текста на вносителя за § 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg56">Комисията подкрепя текста на вносителя за § 3.</seg>
+                </u>
+                <u ana="#chair" n="124796" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u21">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg57">Благодаря Ви.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg58">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg59">Подлагам на гласуване текста на вносителя за § 2 и текста на вносителя за § 3.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg60">Гласували 147 народни представители: за 144, против няма, въздържали се 3.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg61">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124797" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u22">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg62">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 4:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg63">„§ 4. В чл. 6 се правят следните изменения и допълнения:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg64">1. В ал. 2 думата „секограми“ се заменя с „пратки за незрящи и слабо виждащи лица“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg65">2. Създават се ал. 3 – 6:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg66">„(3) Пощенските пратки по ал. 1 се доставят: лично на получателите; в пощенските кутии на получателите, поставени на адреса на получаване; в пощенските станции; в други звена от пощенската мрежа; в места или съоръжения, договорени между пощенските оператори и потребителите.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg67">(4) Условията за доставянето на пощенските пратки по ал. 1 се определят с общи правила, изготвени от Комисията за регулиране на съобщенията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg68">(5) За извършване на доставката на непрепоръчани пощенски пратки получателите поставят пощенски кутии на подходящи, достъпни и безопасни места на адреса на получаване.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg69">(6) Правото върху пощенската пратка принадлежи на подателя до доставянето ѝ на получателя.“</seg>
+                </u>
+                <u ana="#chair" n="124798" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u23">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg70">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg71">Ще подложа на гласуване редакцията, която Комисията предлага за текста на § 4.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg72">Гласували 132 народни представители: за 131, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg73">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124799" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u24">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg74">Комисията подкрепя текста на вносителя за § 5.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg75">Комисията подкрепя текста на вносителя за § 6.</seg>
+                </u>
+                <u ana="#chair" n="124800" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u25">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg76">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg77">Подлагам на гласуване два текста – текста на вносителя за § 5 и текста на вносителя за § 6.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg78">Гласували 124 народни представители: за 123, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg79">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124801" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u26">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg80">Комисията подкрепя текста на вносителя за § 7.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg81">Комисията подкрепя текста на вносителя за § 8.</seg>
+                </u>
+                <u ana="#chair" n="124802" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u27">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg82">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg83">Подлагам на гласуване два текста – текстовете на вносителя за параграфи 7 и 8, подкрепени от Комисията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg84">Гласували 126 народни представители: за 125, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg85">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124803" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u28">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg86">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 9:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg87">„§ 9. В чл. 15 се правят следните изменения и допълнения:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg88">1. В ал. 1:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg89">а) точка 3 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg90">„3. издава, изменя, допълва, спира, прекратява и отнема индивидуални лицензии в случаите по този закон;“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg91">б) в т. 6 думите „и осъществява контрол по тяхното изпълнение“ се заличават;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg92">в) в т. 7 думите „и ефикасността на обслужване“ се заличават;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg93">г) точка 9 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg94">„9. изисква от пощенските оператори данни и информация, включително финансова, в съответния обем и срок, свързана с изпълнение на регулаторните ѝ функции, като гарантира опазването ѝ, ако тя е търговска тайна на оператора; в мотивите към искането се посочват причините и целите, за които се иска информацията;“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg95">д) в т. 11 след думата „услуга“ се добавя „и за определяне на критерии за наличие на несправедлива финансова тежест“;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg96">е) в т. 12 думите „така че да съответстват по брой и гъстота на нуждите на потребителите“ се заличават;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg97">ж) в т. 15 се създават изречения трето и четвърто: „дава задължителни указания за промени във връзка със системата за разпределение на разходите; съгласува получените от системата резултати;“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg98">з) в т. 16 думите „компенсацията за наличието на несправедлива“ се заменят със „средствата за компенсиране на несправедливата“;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg99">и) в т. 17 след думата „становище“ се добавя „или задължителни указания“;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg100">к) точки 19 и 20 се отменят;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg101">л) създават се т. 22 и 23:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg102">„22. дава задължителни указания на пощенските оператори за изменение и/или допълнение на общите им условия на договора с потребителите; задължителните указания се дават в съответствие с целите по т. 2 и 5;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg103">23. разработва и приема общи правила за приемане, пренасяне и доставяне на пощенски пратки.“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg104">2. Създава се ал. 4:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg105">„(4) Комисията за регулиране на съобщенията е национален регулаторен орган по смисъла на Регламент (ЕС) 2018/644 на Европейския парламент и на Съвета от 18 април 2018 година относно услугите за трансгранична доставка на колетни пратки (OB, L 112/19 от 2 май 2018 г.), наричан по нататък „Регламент (ЕС) 2018/644“.“</seg>
+                </u>
+                <u ana="#chair" n="124804" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u29">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg106">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg107">Подлагам на гласуване редакцията, която Комисията предлага за текста на § 9.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg108">Гласували 128 народни представители: за 128, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg109">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124805" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u30">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg110">Комисията подкрепя текста на вносителя за § 10.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg111">Комисията подкрепя текста на вносителя за § 11.</seg>
+                </u>
+                <u ana="#chair" n="124806" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u31">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg112">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg113">Ще подложа на гласуване два текста – текста на вносителя за § 10 и текста на вносителя за § 11, подкрепени от Комисията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg114">Гласували 103 народни представители: за 103, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg115">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124807" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u32">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg116">Комисията подкрепя текста на вносителя за § 12.</seg>
+                </u>
+                <u ana="#chair" n="124808" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u33">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg117">Изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg118">Подлагам на гласуване текста на вносителя за § 12.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg119">Гласували 96 народни представители: за 96, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg120">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124809" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u34">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg121">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 13:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg122">„§ 13. Член 19 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg123">„Чл. 19. Пощенските оператори извършват пощенски услуги въз основа на:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg124">1. издадени индивидуални лицензни;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg125">2. подадено писмено уведомление за извършване на пощенски услуги по чл. 38, т. 1 – 3.“</seg>
+                </u>
+                <u ana="#chair" n="124810" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u35">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg126">Изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg127">Подлагам на гласуване редакцията за текста на § 13, която Комисията предлага.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg128">Гласували  116 народни представители: за 116, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg129">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124811" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u36">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg130">Комисията подкрепя текста на вносителя за § 14.</seg>
+                </u>
+                <u ana="#chair" n="124812" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u37">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg131">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg132">Подлагам на гласуване текста на вносителя за § 14.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg133">Гласували  110 народни представители: за 110, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg134">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124813" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u38">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg135">Комисията подкрепя текста на вносителя за § 15.</seg>
+                </u>
+                <u ana="#chair" n="124814" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u39">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg136">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg137">Подлагам на гласуване текста на вносителя за § 15.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg138">Гласували 112 народни представители: за 111, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg139">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124815" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u40">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg140">Комисията подкрепя текста на вносителя за § 16.</seg>
+                </u>
+                <u ana="#chair" n="124816" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u41">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg141">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg142">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg143">Подлагам на гласуване текста на вносителя за § 16.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg144">Гласували 111 народни представители: за 111, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg145">Предложението се приема.</seg>
+                </u>
+                <u ana="#regular" n="124817" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u42">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg146">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 17:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg147">„§ 17. В чл. 23 ал. 6 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg148">„(6) В случай че страните по ал. 1 не постигнат съгласие за сключване на договор за достъп, всяка от тях може не по-рано от два месеца и не по-късно от три месеца от датата на предложението за сключване на договора да отправи искане пред Комисията за регулиране на съобщенията за даване на задължителни указания. Комисията за регулиране на съобщенията в двумесечен срок от постъпване на искането с мотивирано решение може да даде задължителни указания на страните.“</seg>
+                </u>
+                <u ana="#chair" n="124818" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u43">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg149">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg150">Ще подложа на гласуване редакцията, която Комисията предлага за текста на § 17.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg151">Гласували 107 народни представители: за 107, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg152">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124819" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u44">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg153">Комисията подкрепя текста на вносителя за § 18.</seg>
+                </u>
+                <u ana="#chair" n="124820" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u45">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg154">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg155">Подлагам на гласуване текста на вносителя за § 18.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg156">Гласували 110 народни представители: за 110, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg157">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124821" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u46">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg158">Комисията подкрепя текста на вносителя за § 19.</seg>
+                </u>
+                <u ana="#chair" n="124822" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u47">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg159">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg160">Подлагам на гласуване текста на вносителя за § 19.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg161">Гласували 111 народни представители: за 111, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg162">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124823" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u48">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg163">Комисията подкрепя текста на вносителя за § 20.</seg>
+                </u>
+                <u ana="#chair" n="124824" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u49">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg164">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg165">Подлагам на гласуване текста на вносителя за § 20.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg166">Гласували 107 народни представители: за 107, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg167">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124825" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u50">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg168">Комисията подкрепя текста на вносителя за § 21, като в ал. 4 накрая се добавя „на страницата на Комисията за регулиране на съобщенията в интернет“.</seg>
+                </u>
+                <u ana="#chair" n="124826" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u51">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg169">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg170">Подлагам на гласуване текста на вносителя за § 21 с предложената от Комисията редакционна поправка в ал. 4.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg171">Гласували 114 народни представители: за 113, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg172">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124827" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u52">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg173">Комисията подкрепя по принцип текста на вносителя  и предлага следната редакция за § 22:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg174">„§ 22. В чл. 29б се създава ал. 6:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg175">„(6) Въз основа на резултатите от проверката по ал. 5 Комисията за регулиране на съобщенията в срока по чл. 29а, ал. 5 се произнася с решение, с което:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg176">1. дава задължителни указания за промени във връзка с</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg177">прилагането на системата за следващия период, и/или</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg178">2. съгласува получените от системата резултати;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg179">3. отказва да съгласува получените резултати.“</seg>
+                </u>
+                <u ana="#chair" n="124828" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u53">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg180">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg181">Подлагам на гласуване редакцията, която Комисията предлага за текста на § 22.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg182">Гласували 114 народни представители: за 113, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg183">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124829" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u54">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg184">Комисията подкрепя текста на вносителя за § 23.</seg>
+                </u>
+                <u ana="#chair" n="124830" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u55">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg185">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg186">Подлагам на гласуване текста на вносителя за § 23.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg187">Гласували 118 народни представители: за 118, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg188">Предложението се приема.</seg>
+                </u>
+                <u ana="#regular" n="124831" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u56">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg189">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 24:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg190">„§ 24. В чл. 33 се правят следните изменения и допълнения:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg191">1. Алинея 3 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg192">„(3) Броят и разположението (гъстотата) на точките за достъп до пощенската мрежа на пощенския оператор със задължение за извършване на универсалната пощенска услуга отчитат нуждите на потребителите и отговарят на нормативите по чл. 15, ал. 1, т. 12, като осигуряват поддържане на:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg193">1.	най-малко една стационарна пощенска станция в населени места с население от 800 до 15 000 жители;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg194">2.	най-малко две стационарни пощенски станции в населени места с население над 15 000 жители и най-малко по една стационарна пощенска станция на всеки следващи 20 000 жители.“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg195">2. В ал. 4 думите „и разположението“ се заличават, а думите „пощенски служби“ се заменят със „стационарни пощенски станции“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg196">3. В ал. 6 думите „и разположението“ се заличават, а думите „пощенски служби“ се заменят със „стационарни пощенски станции“.“</seg>
+                </u>
+                <u ana="#chair" n="124832" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u57">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg197">Да се четат „нормативите по чл. 15“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg198">Изказвания има ли?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg199">Заповядайте, госпожо Янкова.</seg>
+                </u>
+                <u ana="#regular" n="124833" who="#IankovaDora" xml:id="ParlaMint-BG_2019-06-20.u58">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg200">Уважаеми господин Председател, уважаеми госпожи и господа народни представители! Правя редакционна бележка и предложение – т. 1 и т. 2 в ал. 3 да отпаднат, със следните мотиви:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg201">Тук е записано и какво предлагам да отпадне: „най-малко една стационарна пощенска станция в населени места с население от 800 до 15 000 и най-малко две при население от 15 000 до 20 000“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg202">Смятам, че ал. 3 дава един добър ред за отговорни ръководители, които могат според демографската ситуация в страната, отчитайки погранични райони, планински райони, да направят ред къде да има стационарни пощенски станции. Не смятам, че ние трябва да отидем и да бъдем рупорите, да ограничим и да закрием пощенски станции.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg203">Ще дам аргументи, уважаеми членове на парламента, за да може да вземете информирано решение. Моят избирателен район, който е от десет общини, е с 246 населени места. В момента има десет станции, които са в общинските центрове, дори и повече – в отделните квартали в Смолян са три, и има 49 в селата. Само в Смолянска община, ако ще трябва да приложим този законопроект, ще видите как ще се приложи – 86 населени места, от които само две към днешна дата – това са селата Смилян и Момчиловци, са над хиляда жители. Търънският район, където има повече от 13 населени места – самото Търън е по-малко от 800, Широка лъка, която в момента е 507, Гела, Солища, Стикъл, отделните селца, в това число и Стойките, където е в допирателна до курорта „Пампорово“ и зимно време има много хора, и не само зимно време. Тоест в цялата тази локализация по Широколъшка река ние няма да имаме и една станция, ако ще се приложи този законопроект.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg204">Това означава, че няма лекар, няма градски транспорт, няма аптека. В две трети от селата на община Смолян по незнайни причини кметът е съкратил кметските наместници – няма кметски наместник. В момента – да, мои колеги се изказваха, пощенската станция е единственото място на държавата и държавността.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg205">Има много възрастни хора, които са останали и си живеят там. И сега какво? Ще ги вземаме с дронове и ще ги караме до Смолян или до голямото селище?! Как те ще получат услугите, които в момента се предлагат?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg206">Затова категорично възразявам такъв текст да се приеме и моля народните представители да се огледат в избирателните си райони, които представляват.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg207">Нека оставим ал. 3, нека да остане. Нека пощенските служители, ръководството на Министерството да седнат и да мислят, тъй като чувам, че има много финансови проблеми, да мислят, да смятат и да направят предложение как това диференцирано да се случи, но сега ние като сложим рамките, нали знаете какво ще се случи?! В тези рамки ще започне подготовка на закриване на пощенски станции. Един път закрият ли се, няма отваряне.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg208">И тук искам да изкоментирам още един въпрос, тъй като го пропуснах. Вижте, лошо е финансовото състояние на Пощите, защото когато ние ги вкарваме в КЕВР, с регулатор да се съобразяват и с един куп изисквания, които – да, са изисквания, необходими да ги правят, частните пощи се явяват на търг, дават ниска цена, вземат всичко, което е за НАП, вземат всичко, което е за митници, вземат всичко на общините и след това отива държавната поща да бъде подизпълнител на частната поща.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg209">Ето, нека по такива теми да мислим и как можем да ги направим гъвкави – ин хаус възлагането е възможно, когато държавата възлага на държавата. Да направим един такъв дебат, а не ние да отиваме и да бъдем Народното събрание, което ще посегне на Пощите.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg210">Чувам, че ще има предложение и за удължаване на срока. Дадем ли удължаване на срока, даваме право да започне реформа, която ще бъде реформа, благодарение на нас. Аз не искам да участвам и Ви призовавам точки 1 и 2 да отпаднат. Благодаря.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124834" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u59">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg211">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg212">Господин Летифов, имате думата за изказване.</seg>
+                </u>
+                <u ana="#regular" n="124835" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u60">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg213">Благодаря, господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg214">Уважаеми колеги, в Комисията по транспорт, информационни технологии и съобщения тази тема я дискутирахме дълго време. Направихме съответните предложения за отпадане. Тогава те не бяха приети. Имаше и други предложения от колегите от БСП вътре в Комисията, които не бяха приети. В някаква степен имаше резон за това те да не бъдат приети. Създаваше се един императив, който допълнително щеше да утежни състоянието на „Български пощи“ АД, само че по това предложение, което изкоментирахме предварително и ще бъде направено в § 69 от Преходните и заключителните разпоредби, сме поработили сериозно и ще го направим.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg215">Идеята за това предложение е в ал. 3, т. 1 да влезе в сила от 2026 г., което ще рече…</seg><vocal type="interruption"><desc>(Реплики от народния представител Дора Янкова.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg216">Не, напротив, госпожо Янкова! Нищо няма да реже там… В момента с така зададения текст от 800 до 15 000, не става ясно какво се случва с населените места с до 800 жители, а такива са масовите. И там е най-голямата драма със закриването на пощенските станции.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg217">С отпадането на този текст, докато „Български пощи“ АД са носител на универсалната пощенска услуга, срокът, който залагаме от 2026 г., защото в края на 2025 г. изтича договорът за универсалната пощенска услуга, тогава какво ще реши Народното събрание, после какво ще е решението на принципала по отношение на „Български пощи“ АД, това е друг въпрос. Дотогава ние оставяме най-уязвимите райони, каквито са отдалечените, слабо населените, по памет ще кажа, че от около три хиляди пощенски станции, половината са в тези малки населени места, и ако ще се случва на този етап преструктуриране, то да се случи на този конкурентен принцип. В големите населени места има някои от големите оператори, има и „Български пощи“ АД и при условие че има кой да обслужва населението, при условие че няма да липсва тази пощенска услуга, не е чак такава драма, но е драма там, където в малките населени места няма нищо друго, освен пощата.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg218">От друга страна, отпадайки или с друга промяна, която бяхме предложили, ние ще утежним наистина финансовото състояние на Български пощи, но по този начин – с отлагането, ние казваме, че в малките населени места няма да се закриват пощи. Те ще продължават да обслужват гражданите и според нас това е коректният текст, който се надявам да получи подкрепа. Той ще бъде направен, където му е систематичното място – в § 69. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124836" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u61">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg219">Благодаря Ви, господин Летифов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg220">Реплика?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg221">Имате думата, уважаема госпожо Янкова.</seg>
+                </u>
+                <u ana="#regular" n="124837" who="#IankovaDora" xml:id="ParlaMint-BG_2019-06-20.u62">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg222">Уважаеми господин Председател! Уважаеми господин Летифов, аз Ви разбирам, че Вие като председател на Транспортната комисия и като човек, който иска да има ред в държавата, мислите и за финансовото положение, финансовото състояние на Пощите, само че дайте да помислим и за финансовото състояние на хората, които представляваме.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg223">Аз пак казвам, че имам дълбоко притеснение. Да – в § 69 Вие ще предложите 2026 г. И днес в Пловдив има съвещание на Пощите в Южен централен район, за да мислят как да оптимизират структурата, дали ще съкращават или не.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg224">Но държавата трябва да си погледне народа с двете очи! Пак казвам, че живота на хората в тези населени места ние не бива да го правим по-скъп. Те са възрастни, те трудно се придвижват, те нямат транспорт, за да отидат до общинския център редовно, а и да отидат, той трябва да вземе и да плаща от пенсията. Той няма аптека, няма джипи, няма и банкомат и сега, когато и пенсията няма да може да си получи, или друга услуга няма да може да си получи, това е доста сложно.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg225">Аз не бих искала дори да мисля, че ще е от 2026 г., защото понякога има ръководители, които се натягат. Извинете ме за жаргона. И тези ще започнат предварително да отърсват системата, защото, видите ли, за 2026 г. ние трябва да се подготвим.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg226">Ако някой тук излезе, може би министърът, и даде гаранции, че няма да пипа пощенските клонове, аз бих подкрепила такъв текст. Да се извика министърът да дойде и да даде гаранции. В противен случай няма да подкрепим този текст и, колеги, разберете – това не е полезно. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124838" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u63">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg227">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg228">Заповядайте за втора реплика, господин Иванов.</seg>
+                </u>
+                <u ana="#regular" n="124839" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u64">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg229">Благодаря, уважаеми господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg230">Уважаеми колеги, и към момента Български пощи могат да закрият колкото пожелаят пощенски станции, защото в Закона няма задължение за поддържане на пощенски станции спрямо броя на населението, но те не са го направили. Това, от една страна.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg231">От втора страна, задължението за извършване на универсалната пощенска услуга, това е задължение, това не е услуга, е вменено на Български пощи. Български пощи са задължени да извършват универсалната пощенска услуга, да доставят пенсии и така нататък, така че е прав господин Летифов в това, което каза, че след 2026 г. на конкурентен принцип ще се определи новият оператор. Това може отново да е Български пощи, но към момента, отново искам да подчертая, че Български пощи са задължени да извършват универсалната пощенска услуга и към момента имат право да закриват пощенски станции, но те не са го направили, така че предполагам, че няма да го направят и за в бъдеще. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124840" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u65">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg232">Благодаря Ви, уважаеми господин Иванов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg233">Трета реплика – господин Свиленски.</seg>
+                </u>
+                <u ana="#regular" n="124841" who="#SvilenskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u66">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg234">Благодаря, господин Председател!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg235">Уважаеми колеги! Уважаеми господин Летифов, правя Ви реплика.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg236">Аз разбирам Вашето предложение в следващите параграфи за отлагане на влизането на този параграф в действие, и то не малко – от 2026 г. Всички ние доколкото разбирам, сме обединени около това, че е грешно да бъдат вкарвани тези ограничения за населените места за съществуването на пощенски станции.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg237">И се връщам отново на законодателния процес. Колеги, трябва ли да приемаме норма, която да влезе в сила след осем години? Ако всички сме решили, че това нещо не е правилно сега, защо го приемаме и казваме, че то ще влезе в сила през 2026 г.? Колко закона приехме и колко закона променихме именно поради такива непредвидими и неправилно взети решения от нас самите или от колеги преди нас? След като всички сме убедени, че тези клонове са нужни, че те трябва да се развиват, защо трябва да им слагаме някаква граница – 2026 г.? Прави са колегите, които казват, че който и да е ръководител на Български пощи няма да гледа перспективно на тези клонове, тъй като в 2026 г. трябва да приключат.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg238">Тук колеги казват – да, около милион български граждани пенсионери си получават пенсиите в тези клонове, тоест апелът ми към Вас е да не подкрепяме този параграф, за да не се налага след това да подкрепяме и параграф, който отлага Закона след осем години.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg239">Разбирам, че всички сме наясно, че това нещо е вредно за Български пощи, а защо досега Български пощи не са закривали клонове – да, те имат право и могат, но те искат подкрепата на нас, народните избраници. Те на своя глава няма да тръгнат да правят такива съкращения, ако не им е записано в закон, така че още веднъж Ви призовавам да не подкрепяме този текст, а 2026 г., когато изтече договорът, тогава колегите, които ще са в тази залата, да вземат правилното решение. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124842" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u67">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg240">Благодаря Ви, уважаеми господин Свиленски. Времето Ви изтече.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg241">Уважаеми господин Летифов, имате думата за дуплика.</seg>
+                </u>
+                <u ana="#regular" n="124843" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u68">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg242">Благодаря, господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg243">Това, което каза госпожа Янкова, всъщност е така. В Комисията и господин Данчев зададе този въпрос на министъра, аз съм питал Министерството и министъра писмено и имам писмен отговор: имате ли намерение, нямате ли намерение и какво се случва оттам нататък.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg244">Имаме уверението на министъра, имаме и уверението след това, че този текст трябва да бъде по този начин от гледна точка на съществуването или поне така решава ръководството на „Български пощи“ АД.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg245">Предложенията, които тогава направихме, не се приеха. Остана текстът в Комисията, но за да намерим обаче баланс и решение, което да бъде подкрепено, защото идеята не е просто да си правим пиара и говоренето, а идеята е в крайна сметка това да се случи и ние, малко или много, с този текст да гарантираме уязвимите места, а именно малките и отдалечени населени места, за които нямат грижа. В големите градове по един или друг начин конкуренцията ще се справи и хората няма да бъдат лишени от доставяне на пощенска услуга, въпросът е какво правим в малките населени места.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg246">Не е без значение и това, че тук е намерен консенсусът – да бъде подкрепен текстът и той да бъде приет – да, след шест-седем или осем години, но това е, първо, желанието за грижа за малките населени места и след това – достатъчно време, за да се намери решението и на проблемите вътре в Пощите, и на самия този текст, който ние в момента гледаме. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124844" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u69">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg247">Благодаря Ви, уважаеми господин Летифов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg248">Имате думата за изказване, уважаеми господин Шопов.</seg>
+                </u>
+                <u ana="#regular" n="124845" who="#ShopovPavel" xml:id="ParlaMint-BG_2019-06-20.u70">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg249">Уважаеми господин Председател, уважаеми колеги! Наблюдавам тази тема от много години. Това е поредното издание.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg250">Тук е имало драматични мигове по повод на закриването на клонове на Български пощи. Стар мерак! Има още няколко подобни теми, вкарват се периодически. Пробва се температурата в обществото. И за да не са закрити досега клонове и отново да се поставя въпросът, това е благодарение на драматични битки и на голяма съпротива в обществото, включително и на хората от този бранш.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg251">Ние от „Атака“ сме партията, която последователно, от Четиридесето народно събрание воюваме за това да не се закриват клонове на Български пощи. Защо? Защото ние като борци за българската държавност считаме, че „Български пощи“ са учреждение, те са институция, част от държавността и тук въпросът е силно идеологически.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg252">В това отношение либерализмът иска разпарчатосването на тази система, съсипването, унищожаването на тази институция, както и на много други институции. И всичко това се прави под знамето и с добрите намерения: „Дайте да оптимизираме системата! Хайде да направим икономии!“, с аргумента „Няма ефективност, губи се, не са печеливши!“, и така нататък. И днес чух подобни заклинания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg253">Не, уважаеми колеги, тук не става въпрос дали са ефективни, дали печелят и каква е финансовата полза от тези малки клонове. Тук се касае до това, че в малките населени места това е социална услуга. Там Български пощи имат държавническо, символно значение и без тях, без Пощите животът на хората от малките населени места ще стане още по-труден. Колкото е труден, той ще стане още по-труден!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg254">И сега тук какво се играе? Два три пъти е поставен въпросът, включително и при управленията, уважаеми колеги от БСП, Вашите управления, и двете управления, поне веднъж си спомням. Това беше още по времето на Тройната коалиция, проблемът се постави. След осем години – далечна перспектива, целта е обаче да се пробие тук мисленето на хората, да бъдат обречени клоновете в малките места и оттук нататък да започнат да се готвят за закриване. Срокът лесно се променя – ще бъде пробутана една малка поправка, този срок ще бъде намален. Апетитите са ясни.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg255">Ще Ви кажа, в пощенския бранш възникнаха, няма лошо, много частни фирми, които работят успешно, печалбите са високи. Целта е да се съсипе държавното участие, тази ниша да бъде изцяло изчистена, опразнена – това е едното.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg256">Другото е, говорих за дълбоко идеологическите либерални виждания, защото наред с частните затвори, които се готвеха в един момент, това беше едно от нещата, които… Бих продължил този списък от няколко теми, които все искаха закриване, ликвидиране, за да преминат в частни ръце.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg257">Другото, това са хубави имоти на много места в страната, които да бъдат лапнати, да бъдат глътнати от определени хора. Те са си ги разпределили, сигурен съм, и целта оттук нататък е по-бързо да бъдат прибрани, както това се случваше в много други системи и учреждения.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg258">Затова тук призовавам колегите от ГЕРБ – не го правете! Вашият лидер има невероятно чувство за баланс, за онова, което хората искат и къде ще подразни обществото. Сигурен съм, че ще Ви дърпа ушите.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg259">Мога да Ви кажа, че той не е наясно. За този наглед дребен акт ще кажете: голяма работа. Не, това е много важен въпрос. Не го правете, колеги. Не правете това, което преди и НДСВ не направи, и от БСП не направиха. Не го правете Вие от ГЕРБ, призовавам Ви като коалиционни партньори! За мен Вашият авторитет и имидж сред обществото е важен. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124846" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u71">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg260">Благодаря Ви, уважаеми господин Шопов.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg261">Реплики на господин Шопов? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg262">Други изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg263">Заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124847" who="#KolevGeorgi" xml:id="ParlaMint-BG_2019-06-20.u72">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg264">Уважаеми господин Председател, уважаеми колеги! Малките населени места все повече ще обезлюдяват. Ние като парламентаристи и държавата като отговорна за съществуването и за нормалното функциониране на живота в малките населени места ще бъдем длъжни все повече да им обръщаме внимание.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg265">Ако гледаме само през призмата на икономическата логика, никога няма да намерим такава, която да ни накара да поддържаме икономически структури в тези населени места. Все повече социалната функция ще бъде тази, която ще бъде водеща. Все повече тези, които са избрали да живеят в тези населени места, които не са предпочели да се преместят, ще бъдат ощетявани. От тази гледна точка трябва да погледнем през очите на хората. Да видим как ние ще акцентираме, и държавата ще акцентира върху възможността те да бъдат обслужвани. Самите клонове са мястото, средството, инструментариумът, през който те да бъдат обслужвани и обгрижвани.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg266">Може би тази тема ще я обсъждаме и за необходимостта от медицински кадри и за други направления, касаещи малките населени места, така че призовавам много внимателно да подходим по този въпрос. Категорично да не отваряме вратичка, която да води до намаляване на възможностите за нормално обслужване на тези хора. И ако ние зададем въпрос към всички тях: как биха приели това наше решение, което сега готвим, считайте, че отговорът в 99% ще бъде против.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg267">Призовавам Ви да не подкрепяме конкретно това решение. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124848" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u73">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg268">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg269">Има ли реплики?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg270">Други изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg271">Заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124849" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u74">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg272">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg273">Уважаеми господин Председател, уважаеми колеги! Ще бъда максимално кратък, но искам отново да повторя: задължението за извършване на универсална пощенска услуга включва: доставяне на печатни издания, доставяне на пенсии. Всичко останало, което е задължение на Български пощи, вменено чрез Закона за универсалната пощенска услуга, ще остане. Няма да се променят, няма да се закриват клонове. В момента правим едно предложение, което цели да се облече в закон част от наредбата.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg274">До момента, отново искам да кажа, Български пощи можеха да закрият всички клонове, които са под 800 човека, защото това нещо не беше записано в закон. Просто в момента го записваме в закон – това е смисълът, който целим с тази промяна. А това, което се чу тук – че ще се закриват клонове и така нататък, са несъстоятелни твърдения. Просто е някакъв популизъм, на който няма смисъл да се обръща внимание. В момента всички клонове, които са 2700, половината от тях могат да бъдат закрити, защото са в населени места под 800 човека.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg275">Защо Български пощи досега не са закрили тези клонове, уважаеми колеги? Защото си правят баланс и на база на този баланс те продължават да работят, така че моля Ви да подкрепим внесеното предложение от Министерския съвет и да продължим работата нататък. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124850" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u75">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg276">Благодаря, уважаеми господин Иванов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg277">Реплики?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg278">Имате думата, госпожо Янкова.</seg>
+                </u>
+                <u ana="#regular" n="124851" who="#IankovaDora" xml:id="ParlaMint-BG_2019-06-20.u76">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg279">Уважаеми господин Председател! Уважаеми колега, когато говорим за грижа към хората – да имат услуги, категорично възразявам да мислите, че това е популизъм. Аз искам да Ви поканя на събрание, да си уточним датата, в Широка лъка. Искам да Ви поканя, и ще поканим хората от Гела, Солища, Стикъл, Върбово, Заевите и Стойките, да се изправите и да кажете: „И досега можехме да Ви закрием пощата, обаче не сме Ви я закрили, но 2026 г. би могло, като друга универсална услуга.“</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg280">В момента ние представляваме българските граждани. Българските граждани и законите са за това – да регулираме отношенията и услугите, които те получават. Това не е популизъм и никой от нашата група не иска да направи популистко действие. Ние казваме, че има проблем и че не искаме този проблем да се доразвива, а Вие казвате: те и сега могат да ги закрият. Че как ще ги закрият?!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg281">Ние се намираме в парламента и представляваме интересите на гражданите. И когато говорим за техните социални тежести, категорично възразявам Вие да мислите, че това е популизъм.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124852" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u77">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg282">Благодаря, госпожо Янкова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg283">Друга реплика?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg284">Имате думата.</seg>
+                </u>
+                <u ana="#regular" n="124853" who="#BurdzevStefan" xml:id="ParlaMint-BG_2019-06-20.u78">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg285">Уважаеми господин Председател, уважаеми колеги! Уважаеми колега, към Вас да се обърна, освен да се внася едно допълнително притеснение и да се дават възможности да вървят нещата към заличаване на този процес в малките населени места, в пощенските служби, твърдя убедено и като представител на Плевенски регион, че има хиляди души, особено възрастни хора, които са се обръщали към мен. Не само че не трябва да се затварят, а че има нужда и от спешни текущи ремонти на някои пощи. Да се изнесат на по-долни етажи, защото десетки възрастни хора катерят по няколко етажа. Покривите са в плачевно състояние. Почти навсякъде в тези малки населени места са на половин щат и трудно се намират по-активни и                       по-жизнеспособни хора, които да поемат тази дейност за едно населено място.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg286">Призовавам също да се гласува против това предложение. Не само да се гласува против, а да се търсят възможности да се облагородят тези пощенски служби, за да могат хората да имат добра услуга и да се чувстват принадлежни към социалния и обществен живот на страната. Благодаря.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124854" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u79">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg287">Благодаря, господин Бурджев.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg288">И трета реплика.</seg>
+                </u>
+                <u ana="#regular" n="124855" who="#DanchevDimitar" xml:id="ParlaMint-BG_2019-06-20.u80">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg289">Благодаря Ви, господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg290">Уважаеми госпожи и господа народни представители! Уважаеми господин Иванов, не можах наистина да разбера какво имахте предвид, като казахте, че трябва да се облече, или предложението, което сте направили, е всъщност едно обличане на подзаконов нормативен акт – наредбата в закон?! Това, господин Иванов, преведено на по-елементарен парламентарен език, вероятно означава имитиране на дейност. Прилича на нещо, което сякаш сте чули в някой сутрешен блок за някой проблем, решили сте, че с някакво предложение може да решите този проблем, но всъщност това, което правите, не решава проблема. То ще го задълбочи, така че не бива да правите такива преобличания. Благодаря Ви.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124856" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u81">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg291">Благодаря, уважаеми господин Данчев.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg292">Дуплика, уважаеми господин Иванов.</seg>
+                </u>
+                <u ana="#regular" n="124857" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u82">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg293">Благодаря, уважаеми господин Председател!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg294">Уважаема госпожо Янкова, през 2025 г. приключва задължението на Български пощи да извършват универсална пощенска услуга. Ще се избере нов оператор. Може отново да бъдат Български пощи, не се знае кой ще бъде, може да е частен оператор. Затова не виждам смисъл въобще да се коментира Вашето притеснение. Тогава операторът, който ще бъде избран, с колко станции ще разполага никой не знае, и не знае в какви населени места ще бъдат. Ще бъдат от 800 нагоре, ще имат задължение. Мисля, че отговарям на Вашия въпрос.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg295">На втория въпрос, да, допълнителни притеснения има, защото хората са обезпокоени от поведението на част от народните представители, които тръбят пред медиите, че ще закриваме клонове. Не, няма да закриваме клонове. Мисля, че това нещо го обясних нееднократно. Към днешна дата всички клонове могат да бъдат закрити без никакъв проблем, така че не виждам за какво въобще говорим. Че имат нужда от ремонти, това го знаем, но това е тема на друг разговор.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg296">А на третата реплика няма смисъл да отговарям. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124858" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u83">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg297">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg298">Изказване, господин Димитров.</seg>
+                </u>
+                <u ana="#regular" n="124859" who="#SimeonovEmil" xml:id="ParlaMint-BG_2019-06-20.u84">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg299">Благодаря, уважаеми господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg300">Дами и господа народни представители! На практика с тази промяна в текста ние окончателно ще ликвидираме пощите, само че във времето – не днес и не сега.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg301">Като човек, който не може да не е пристрастен, защото трудовият ми стаж е започнал навремето като ревизор в „Пощи и далекосъобщения“ – през 1992 г. започна това нещо. Много отдавна беше, много отдавна. През 1992 г. разделиха далекосъобщенията от пощите. Далекосъобщенията взеха всички сгради, съоръжения и всички финансови средства и активи. За Пощите останаха тук-таме къщичка или първият етаж от големите помещения. Дойдоха едни холандци да ги консултират и казаха: „Ами щом Ви стигат парите за половината от дейността, ще съкратите персонала наполовина.“ В резултат на което в цялата страната се оказа, че има хора, които работят на четири часа, но седят по цял работен ден, изпълняват социални функции.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg302">Да Ви напомня ли, че и боновите книжки бяха там, и земеделските пенсии бяха там, парично преводна дейност имаше, пощенски записи. Те упражняваха една голяма социална дейност в тези малки населени места. В големите е ясно, но в малките населени места?!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg303">Дълги години тези хора работеха на четири часа, получаваха абсолютно мизерни заплати. Мизерни заплати! И кой когато се сети, ходи и ги търси, от вкъщи ги докарва, за да отворят пощата, да работят. Обедняха до такава степен, че започнаха да живеят под наем в селата, да им дават тук стая от кметството, там една каса и решетка на прозореца. Тези хора и до момента са единствената връзка на възрастното население със света.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg304">От 1992 г. започнахме ликвидирането на пощите, на път сме окончателно да ги ликвидираме. На практика това е социална дейност. Да помислим колко ще струва на държавата, но да я запазим до момента, в който не се е намерила алтернатива. Да предрешаваме закриването на тези клонове, и после някой щял, би било, може би, някога да направи нещо.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg305">Кажете ми, кой ще успее да развие такава мрежа в толкова много населени места в страната? Вземете стария каталог на пощенските кодове и ще видите колко кода има, които вече не се използват, защото едно населено място ползва кодовете на няколко други, които вече са закрити. Тези хора мизерстват! Служителите в пощите мизерстват, и мизерстват от 1992 г. Който можа, избяга в далекосъобщенията, сега се опитваме да ликвидираме цялата тази система, защото може би някой оператор ще се яви и ще изпълнява някакви дейности, и те ще са: в петък колата ще дойде на обяд, елате да си вземете писмата от нея.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg306">Колеги, моля Ви, помислете още веднъж дали трябва да изгорим един мост, или трябва да разрушим една къща, без да сме построили другата или без да имаме построен нов мост.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg307">Категорично съм против и призовавам колегите, ако проявят здрав разум, да не подкрепят това предложение, защото все още е твърде ненавременно. Хората и сега изнемогват. Благодаря Ви.</seg><kinesic type="applause"><desc>(Частични ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124860" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u85">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg308">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg309">Има ли реплики? Не виждам.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg310">Изказване – господин Свиленски, имате думата.</seg>
+                </u>
+                <u ana="#regular" n="124861" who="#SvilenskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u86">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg311">Благодаря, господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg312">Уважаеми колеги народни представители! Стана горе-долу ясна задачата и ситуацията – през 2025 г. изтича договорът на Български пощи, и чакаме някой друг, а може и пак Български пощи да си подновят договора, само че не ми става ясно защо трябва да сложим ограничение на нашия, държавния оператор – под 800 жители? Какъв е смисълът изобщо да поставяме ограничения за каквото и да било на нашите, държавните дружества? Не на частен, да не допуснем някакъв друг, да нарушим конкуренцията, а на нашия – българския държавен оператор, ние казваме да няма право. Нека да ги оставим да имат, ако искат и в населено място с един жител те, ако преценят. Затова мениджмънтът е професионален мениджмънт, той ще каже: имаме нужда от два клона, от три клона.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg313">Целта е друга и господин Иванов я каза: през 2025 г. изтича договорът и в 2026 г. да има друг оператор, а през това време Български пощи да ги няма, Български пощи да са излезли от населените места, да са съкратили служителите, да са затворили клоновете на втория етаж, или където може да са ги преместили – на третия, за да са на още по-неудобно място, и тогава всичко ще стане ясно. Но аз пак поставям въпроса: защо трябва в 2019 г. да приемаме законодателство, което ще влезе в сила през 2026 г.?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg314">И тъй като виждам, че в залата има народни представители, които са склонни да не подкрепят такова предложение, призовавам колегите от ГЕРБ: ако имате нужда, дайте почивка десет минути, господин Председател, обмислете го на парламентарна група. Наистина тук става въпрос за държавническа позиция, а не за партийна. Както виждате, няма леви, няма десни, всички се обединяваме около това българската държава да я има в повече населени места.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg315">Колеги, наистина апелът ми е: преосмислете го! Явно тогава мотивите са били едни, сега, както виждате, са други. Прав е господин Шопов като казва, че през всичките години е опитвано да се прокарва това, но не е намирало почва в различните народни събрания. Призовавам Ви да не намери и днес и да не бъдете Вие отговорните за съсипването на Български пощи или поне за създаването на условия за ликвидацията на това българско дружество. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124862" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u87">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg316">Благодаря, уважаеми господин Свиленски.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg317">Има ли реплики? Не виждам.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg318">Изказвания? Не виждам.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg319">Закривам разискванията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg320">Подлагам на гласуване редакционната поправка, предложена от народния представител Дора Янкова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg321">Гласували 165 народни представители: за 89, против 22, въздържали се 54.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg322">Предложението е прието.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg323">Прегласуване – имате думата, уважаеми господин Иванов.</seg><vocal type="interruption"><desc>(Шум и реплики от „БСП за България“.)</desc></vocal>
+                </u>
+                <u ana="#regular" n="124863" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u88">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg324">Уважаеми колеги, правя процедура за прегласуване, тъй като имаше колеги, които не успяха да гласуват – току-що влизат в залата. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124864" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u89">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg325">Благодаря Ви, уважаеми господин Иванов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg326">Подлагам на повторно гласуване редакционната поправка на народния представител Дора Янкова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg327">Гласували 174 народни представители: за 99, против 25, въздържали се 50.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg328">Предложението е прието.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg329">Подлагам на гласуване редакцията, която Комисията предлага за текста на § 24 с приетата редакционна поправка.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg330">Господин Летифов, прочетете текста от трибуната, моля.</seg>
+                </u>
+                <u ana="#regular" n="124865" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u90">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg331">Господин Председател, зачитам текста, който беше в ал. 3: „броят и разположението на точките за достъп до пощенската мрежа на пощенския оператор със задължение за извършване на универсалната пощенска услуга, отчитат нуждите на потребителите и отговарят на нормативите по чл. 15, ал. 1, т. 12…“, като думите „като осигуряват поддържане на“ да отпаднат, тъй като отпадат т. 1 и т. 2.</seg>
+                </u>
+                <u ana="#chair" n="124866" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u91">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg332">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg333">Подлагам на гласуване редакцията на § 24, представен Ви току-що след приетите редакционни поправки на народния представител Дора Янкова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg334">Гласували 164 народни представители: за 160, против няма, въздържали се 4.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg335">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124867" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u92">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg336">По § 25 има предложение от народния представител Иван Вълков:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg337">„В § 25, с който се изменя чл. 34, се създава нова т. 3, както следва:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg338">„Създава се ал. 6:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg339">(6) Извършването на пощенски услуги и съпътстващите ги доставки на стоки, чиито условия са били договорени индивидуално, не представляват извършване на универсална пощенска услуга по този закон.“</seg>
+                </u>
+                <u ana="#chair" n="124868" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u93">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg340">Господин Вълков, заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124869" who="#ValkovIvan" xml:id="ParlaMint-BG_2019-06-20.u94">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg341">Благодаря Ви, госпожо Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg342">Оттеглям направеното от мен предложение.</seg>
+                </u>
+                <u ana="#chair" n="124870" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u95">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg343">Благодаря Ви, господин Вълков.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg344">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg345">Господин Летифов, моля, изчетете следващите изречения.</seg>
+                </u>
+                <u ana="#regular" n="124871" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u96">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg346">След оттеглянето на предложението на господин Вълков за § 25:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg347">Комисията подкрепя текста на вносителя за § 25.</seg>
+                </u>
+                <u ana="#chair" n="124872" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u97">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg348">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg349">Подлагам на гласуване текста на вносителя за § 25.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg350">Гласували 110 народни представители: за 109, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg351">Предложението и параграфът са приети.</seg>
+                </u>
+                <u ana="#regular" n="124873" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u98">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg352">Комисията подкрепя текста на вносителя за § 26.</seg>
+                </u>
+                <u ana="#chair" n="124874" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u99">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg353">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg354">Гласуваме текста на вносителя за § 26.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg355">Гласували 89 народни представители: за 88, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg356">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124875" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u100">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg357">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 27:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg358">„§ 27. Член 36 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg359">„Чл. 36. Пощенските пратки по чл. 34 се доставят на потребителите на местата или съоръженията съгласно чл. 6, ал. 3.“</seg>
+                </u>
+                <u ana="#chair" n="124876" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u101">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg360">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg361">Гласуваме редакцията на Комисията за § 27.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg362">Гласували 85 народни представители: за 85, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg363">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124877" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u102">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg364">Комисията подкрепя текста на вносителя за § 28, като в ал. 2 думите „изискванията по“ се заличават.</seg>
+                </u>
+                <u ana="#chair" n="124878" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u103">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg365">Има ли изказвания? Няма изказвания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg366">Гласуваме текста на вносителя за § 28, като в ал. 2 думите „изискванията по“ се заличават.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg367">Гласували 83 народни представители: за 83, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg368">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124879" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u104">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg369">Комисията подкрепя текста на вносителя за § 29.</seg>
+                </u>
+                <u ana="#chair" n="124880" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u105">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg370">Има ли изказвания? Няма изказвания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg371">Гласуваме текста на вносителя за § 29.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg372">Гласували 78 народни представители: за 77, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg373">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124881" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u106">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg374">Комисията подкрепя текста на вносителя за § 30.</seg>
+                </u>
+                <u ana="#chair" n="124882" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u107">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg375">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg376">Подлагам на гласуване текста на вносителя за § 30.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg377">Гласували 74 народни представители: за 73, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg378">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124883" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u108">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg379">Комисията подкрепя текста на вносителя за § 31.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg380">Комисията подкрепя текста на вносителя за § 32.</seg>
+                </u>
+                <u ana="#chair" n="124884" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u109">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg381">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg382">Подлагам на гласуване текста на вносителя за § 31 и текста на вносителя за § 32.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg383">Гласували 76 народни представители: за 74, против няма, въздържали се 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg384">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124885" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u110">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg385">Комисията подкрепя текста на вносителя за § 33.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg386">Комисията подкрепя текста на вносителя за § 34.</seg>
+                </u>
+                <u ana="#chair" n="124886" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u111">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg387">Има ли изказвания? Няма изказвания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg388">Подлагам на гласуване текста на вносителя за § 33 и текста на вносителя за § 34.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg389">Гласували 70 народни представители: за 69, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg390">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124887" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u112">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg391">Комисията подкрепя текста на вносителя за § 35.</seg>
+                </u>
+                <u ana="#chair" n="124888" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u113">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg392">Има ли изказвания? Няма изказвания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg393">Гласуваме текста на вносителя за § 35.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg394">Гласували 75 народни представители: за 75, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg395">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124889" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u114">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg396">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 36:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg397">„§ 36. В чл. 50, ал. 1 т. 2 се изменя така:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg398">„2. наименование на лицензираното лице и единен идентификационен код съгласно Закона за търговския регистър и регистъра на юридическите лица с нестопанска цел, а за лицензирано лице, установено в държава – членка на Европейския съюз, или държава – страна по Споразумението за Европейското икономическо пространство – наименование на лицензираното лице, регистрационните и адресните данни и идентификационен номер.“</seg>
+                </u>
+                <u ana="#chair" n="124890" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u115">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg399">Благодаря Ви.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg400">Има ли изказвания? Няма изказвания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg401">Подлагам на гласуване редакцията на Комисията за § 36.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg402">Гласували 80 народни представители: за 79, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg403">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124891" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u116">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg404">Комисията подкрепя текста на вносителя за § 37.</seg>
+                </u>
+                <u ana="#chair" n="124892" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u117">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg405">Има ли изказвания? Няма изказвания.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg406">Подлагам на гласуване текста на вносителя за § 37.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg407">Гласували 81 народни представители: за 80, против 1, въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg408">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124893" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u118">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg409">Комисията подкрепя текста на вносителя за § 38.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg410">Госпожо Председател, ако ми позволите една корекция –  предлагаме в т. 8 досегашните точки от 9 до 17 да станат съответно точки от 10 до 18. Тази преномерация е направена вследствие на създаването на т. 7, където се създава нова т. 9. Всъщност тя се създава там, където е отменена т. 9. Не се налага тази преномерация и затова правя предложението т. 8 да отпадне.</seg>
+                </u>
+                <u ana="#chair" n="124894" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u119">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg411">Благодаря Ви, господин Летифов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg412">Има ли реплики към неговото изказване? Едва ли колегите разбраха какво преномерираме, но важното е предложението за отпадане на точка 8.</seg>
+                </u>
+                <u ana="#regular" n="124895" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u120">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg413">Знаем за какво става въпрос.</seg>
+                </u>
+                <u ana="#chair" n="124896" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u121">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg414">Изяснихме ситуацията, всички знаят, разбира се.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg415">Има ли други изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg416">Първо подлагам на гласуване предложението за отпадане на т. 8 в § 38 – предложението, направено от господин Летифов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg417">Гласували 87 народни представители: за 87, против и  въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg418">Поправката по същество е приета.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg419">Сега подлагам на гласуване текста на вносителя за § 38 с гласуваното отпадане на т. 8.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg420">Гласували 80 народни представители: за 80, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg421">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124897" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u122">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg422">Комисията подкрепя текста на вносителя за § 39.</seg>
+                </u>
+                <u ana="#chair" n="124898" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u123">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg423">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg424">Подлагам на гласуване текста на вносителя за § 39.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg425">Гласували 79 народни представители: за 79, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg426">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124899" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u124">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg427">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 40:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg428">„§ 40. В чл. 57, ал. 1 се правят следните изменения и допълнения:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg429">1. В т. 2 думите „чл. 53, т. 2“ се заменят с „чл. 53, т. 3“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg430">2. Създава се т. 3:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg431">„3. при уведомяване по реда на чл. 182, ал. 2, т. 2 и чл. 221, ал. 6 от Данъчно-осигурителния процесуален кодекс.“</seg>
+                </u>
+                <u ana="#chair" n="124900" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u125">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg432">Има ли изказвания, уважаеми народни представители? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg433">Гласуваме редакцията по Доклада на Комисията за § 40.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg434">Гласували 76 народни представители: за 76, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg435">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124901" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u126">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg436">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 41:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg437">„§ 41. В чл. 59 се правят следните изменения и допълнения:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg438">1. В ал. 2 т. 1 се отменя.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg439">2. В ал. 3 думите „в два екземпляра“ се заличават.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg440">3. В ал. 8 изречение второ се заличава.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg441">4. Създава се нова ал. 11:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg442">„(11) Комисията за регулиране на съобщенията може да заличи пощенски оператор от регистъра по ал. 5 в следните случаи:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg443">1. при смърт на пощенския оператор – едноличен търговец, ако в тримесечен срок някой от наследниците не е заявил, че ще продължи да изпълнява неговата дейност;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg444">2. при прекратяване на пощенския оператор – юридическо лице;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg445">3. при подадено от пощенския оператор писмено искане до Комисията за регулиране на съобщенията;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg446">4. ако с влязло в сила съдебно решение на пощенския оператор е забранено да осъществява дейността, за която е вписан в регистъра по ал. 5;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg447">5. ако търговецът бъде заличен от търговския регистър;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg448">6. ако за предходните три календарни години пощенският оператор не е предоставял на комисията информацията по чл. 15, ал. 1, т. 9;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg449">7. ако е налице някое от обстоятелствата по т. 1 – 6 по отношение на чуждестранно лице, което има право да осъществява дейност по предоставяне на пощенски услуги на територията на Република България;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg450">8. в други случаи, предвидени в закона.“</seg>
+                </u>
+                <u ana="#chair" n="124902" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u127">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg451">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg452">Подлагам на гласуване редакцията на Комисията за § 41.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg453">Гласували 76 народни представители: за 76, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg454">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124903" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u128">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg455">Предложение от Станислав Иванов и група народни представители по реда на чл. 83, ал. 5, т. 2 от Правилника за организацията и дейността на Народното събрание.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg456">Комисията подкрепя предложението.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg457">Комисията предлага да се създаде нов § 42:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg458">„§ 42. В чл. 62, ал. 2, т. 3 думите „чл. 47а, ал. 2“ и запетаята след тях се заличават.“</seg>
+                </u>
+                <u ana="#chair" n="124904" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u129">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg459">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg460">Гласуваме текста, току-що прочетен от господин Летифов, за нов § 42.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg461">Гласували 71 народни представители: за 71, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg462">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124905" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u130">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg463">Комисията подкрепя текста на вносителя за § 42, който става § 43.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg464">Комисията подкрепя текста на вносителя за § 43, който става § 44.</seg>
+                </u>
+                <u ana="#chair" n="124906" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u131">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg465">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg466">Гласуваме текста на вносителя за § 42, който става § 43, и текста на вносителя за § 43, който става § 44.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg467">Гласували 72 народни представители: за 72, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg468">Двата параграфа са приети.</seg>
+                </u>
+                <u ana="#regular" n="124907" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u132">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg469">Комисията подкрепя текста на вносителя за § 44, който става § 45.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg470">Комисията подкрепя текста на вносителя за § 45, който става § 46.</seg>
+                </u>
+                <u ana="#chair" n="124908" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u133">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg471">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg472">Гласуваме текста на вносителя за § 44, който става § 45, и текста на вносителя за § 45, който става § 46.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg473">Гласували 80 народни представители: за 80, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg474">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124909" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u134">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg475">Комисията подкрепя текста на вносителя за § 46, който става § 47.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg476">Комисията подкрепя текста на вносителя за § 47, който става § 48.</seg>
+                </u>
+                <u ana="#chair" n="124910" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u135">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg477">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg478">Гласуваме текста на вносителя за § 46, който става § 47, и текста на вносителя за § 47, който става § 48.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg479">Гласували 85 народни представители: за 85, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg480">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124911" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u136">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg481">Комисията подкрепя текста на вносителя за § 48, който става § 49.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg482">Комисията подкрепя текста на вносителя за § 49, който става § 50.</seg>
+                </u>
+                <u ana="#chair" n="124912" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u137">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg483">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg484">Гласуваме текста на вносителя за § 48, който става § 49, и текста на вносителя за § 49, който става § 50.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg485">Гласували 78 народни представители: за 78, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg486">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124913" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u138">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg487">Комисията подкрепя текста на вносителя за § 50, който става § 51.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg488">Комисията подкрепя текста на вносителя за § 51, който става § 52.</seg>
+                </u>
+                <u ana="#chair" n="124914" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u139">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg489">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg490">Подлагам на гласуване текста на вносителя за § 50, който става § 51, и § 51 по вносител, който става § 52.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg491">Гласували 87 народни представители: за 87, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg492">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124915" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u140">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg493">Комисията подкрепя текста на вносителя за § 52, който става § 53.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg494">Комисията подкрепя текста на вносителя за § 53, който става § 54.</seg>
+                </u>
+                <u ana="#chair" n="124916" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u141">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg495">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg496">Гласуваме текста на вносителя за § 52, който става § 53, и текста на вносителя за § 53, който става § 54.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg497">Гласували 78 народни представители: за 78, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg498">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124917" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u142">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg499">Комисията подкрепя текста на вносителя за § 54, който става § 55.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg500">Комисията подкрепя текста на вносителя за § 55, който става § 56.</seg>
+                </u>
+                <u ana="#chair" n="124918" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u143">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg501">Има ли изказвания по параграфи 54 и 55 по вносител? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg502">Гласуваме текста на вносителя за § 54, който става § 55, и текста на вносителя за § 55, който става § 56.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg503">Гласували 88 народни представители: за 88, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg504">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124919" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u144">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg505">Комисията подкрепя текста на вносителя за § 56, който става § 57.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg506">Комисията подкрепя текста на вносителя за § 57, който става § 58.</seg>
+                </u>
+                <u ana="#chair" n="124920" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u145">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg507">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg508">Подлагам на гласуване текста на вносителя за § 56, който става § 57, и текста на вносителя за § 57, който става § 58.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg509">Гласували 88 народни представители: за 88, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg510">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124921" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u146">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg511">Комисията подкрепя текста на вносителя за § 58, който става § 59.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg512">Комисията подкрепя текста на вносителя за § 59, който става § 60.</seg>
+                </u>
+                <u ana="#chair" n="124922" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u147">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg513">Има ли изказвания по тези два параграфа? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg514">Гласуваме § 58, който става § 59, и § 59, който става § 60.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg515">Гласували 88 народни представители: за 88, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg516">Предложенията са приети.</seg>
+                </u>
+                <u ana="#regular" n="124923" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u148">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg517">Комисията подкрепя текста на вносителя за § 60, който става § 61.</seg>
+                </u>
+                <u ana="#chair" n="124924" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u149">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg518">Има ли изказвания? Няма</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg519">Гласуваме текста на вносителя за § 60, който става § 61.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg520">Гласували 90 народни представители: за 90, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg521">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124925" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u150">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg522">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 61, който става § 62:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg523">„§ 62. Създава се чл. 105г:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg524">„Чл. 105г. (1) На пощенски оператор, който не предостави информация по чл. 4, параграф 1 от Регламент (ЕС) № 2018/644, или предостави невярна, непълна или неточна информация, се налага имуществена санкция от 200 до 1000 лв.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg525">(2) За нарушение на чл. 4, параграф 2 от Регламент (ЕС) № 2018/644 се налага имуществена санкция на пощенски оператор от 200 до 1000 лв.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg526">(3) На пощенски оператор, който не предостави информация по чл. 4, параграф 3 от Регламент (ЕС) № 2018/644 или предостави невярна, непълна, неточна или не в срок информация, се налага имуществена санкция от 500 до 2500 лв.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg527">(4) На пощенски оператор, който не изпълни наложените от Комисията за регулиране на съобщенията допълнителни изисквания за информация по чл. 4, параграф 5 от Регламент (ЕС) № 2018/644 или я предостави извън срока, определен с искането, се налага имуществена санкция от 500 до 2500 лв.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg528">(5) На пощенски оператор, който при поискване от Комисията за регулиране на съобщенията не предостави информация по чл. 4, параграф 7 от Регламент (ЕС) № 2018/644, или предостави невярна, непълна, неточна или не в срока, определен с искането, информация, се налага имуществена санкция от 500 до 2500 лв.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg529">(6) На пощенски оператор, който наруши чл. 5, параграф 1 от Регламент (ЕС) № 2018/644, се налага имуществена санкция от 200 до 1000 лв.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg530">(7) На пощенски оператор, който при поискване от Комисията за регулиране на съобщенията не предостави относими допълнителни данни, необходими за извършване на оценка на трансграничните тарифи по чл. 6, параграф 1 от Регламент (ЕС) № 2018/644, или предостави невярна, непълна, неточна или не в срока по чл. 6, параграф 6 от Регламент (ЕС) № 2018/644 информация, се налага имуществена санкция от 500 до 2500 лв.“</seg>
+                </u>
+                <u ana="#chair" n="124926" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u151">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg531">Има ли изказвания по този текст? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg532">Гласуваме редакцията на Комисията за § 61, който става § 62.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg533">Гласували 96 народни представители: за 96, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg534">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124927" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u152">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg535">Комисията подкрепя текста на вносителя за § 62, който става § 63.</seg>
+                </u>
+                <u ana="#chair" n="124928" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u153">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg536">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg537">Гласуваме текста на вносителя за § 62, който става § 63.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg538">Гласували 92 народни представители: за 92, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg539">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124929" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u154">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg540">По § 63 има предложение от Станислав Иванов и група народни представители по реда на чл. 83, ал. 5, т. 2 от Правилника за организацията и дейността на Народното събрание.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg541">Комисията подкрепя предложението.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg542">Комисията подкрепя текста на вносителя за § 63, който става § 64, като в т. 5 думите „т. 2“ се заменят с „т. 1 и 2“.</seg>
+                </u>
+                <u ana="#chair" n="124930" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u155">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg543">Има ли изказвания по този текст? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg544">Подлагам на гласуване текста на вносителя за § 63, който става § 64, като в т. 5 думите „т. 2“ се заменят с „т. 1 и 2“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg545">Гласували 93 народни представители: за 91, против 1, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg546">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124931" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u156">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg547">„Допълнителна разпоредба“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg548">Комисията подкрепя текста на вносителя за наименованието на подразделението.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg549">Комисията подкрепя текста на вносителя за § 64, който става § 65.</seg>
+                </u>
+                <u ana="#chair" n="124932" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u157">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg550">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg551">Гласуваме текста на вносителя за наименованието на подразделението и текста на вносителя за § 64, който става § 65.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg552">Гласували 104 народни представители: за 104, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg553">Предложенията е приети.</seg>
+                </u>
+                <u ana="#regular" n="124933" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u158">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg554">„Преходни и заключителни разпоредби“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg555">Комисията подкрепя текста на вносителя за наименованието на подразделението.</seg>
+                </u>
+                <u ana="#chair" n="124934" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u159">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg556">Има ли изказвания по наименованието на подразделението? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg557">Гласуваме текста на вносителя за наименованието на подразделението.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg558">Гласували 94 народни представители: за 94, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg559">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124935" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u160">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg560">Комисията предлага § 65 да бъде отхвърлен, тъй като е отразен на систематичното му място като § 69.</seg>
+                </u>
+                <u ana="#chair" n="124936" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u161">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg561">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg562">Гласуваме предложението на Комисията за отхвърляне на § 65, тъй като е отразен на систематичното му място като § 69.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg563">Гласували 94 народни представители: за 94, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg564">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124937" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u162">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg565">Комисията подкрепя текста на вносителя за § 66.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg566">Комисията подкрепя текста на вносителя за § 67.</seg>
+                </u>
+                <u ana="#chair" n="124938" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u163">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg567">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg568">Гласуваме текста на вносителя за параграфи 66 и 67.</seg>
+                </u>
+                <u ana="#regular" n="124939" who="#KirilovLalo" xml:id="ParlaMint-BG_2019-06-20.u164">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg569">По § 66!</seg>
+                </u>
+                <u ana="#chair" n="124940" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u165">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg570">Имате изказване?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg571">Отменете гласуването.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg572">Заповядайте за изказване по текста на § 66, господин Кирилов.</seg>
+                </u>
+                <u ana="#regular" n="124941" who="#KirilovLalo" xml:id="ParlaMint-BG_2019-06-20.u166">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg573">Благодаря Ви, госпожо Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg574">По § 66 имам следния въпрос. Записано е, че за 2018 г. и за 2019 г. субсидиите трябва да бъдат изплатени в следващите 5 години. Въпросът ми е следният: 40 милиона са нужни на Български пощи. Това стана ясно от преждеговорившите, както за състоянието на пощенските клонове и за ниските заплати. При такова състояние на Български пощи, редно ли е да отлагаме плащанията през следващите 5 години? Сумата не е нито толкова голяма, нито смятаме, че е непостижима за бюджета, в който има над 2 млрд. 400 млн. лв. излишък.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg575">Ако искаме да нормализираме работата на Български пощи, смятам, че този текст е излишен и това е просто разсрочване във времето, за което няма никаква логика. Благодаря Ви.</seg><kinesic type="applause"><desc>(Единични ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124942" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u167">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg576">Благодаря Ви, господин Кирилов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg577">Има ли реплики към изказването? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg578">Има ли други изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg579">Господин Иванов, заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124943" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u168">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg580">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg581">Уважаема госпожо Председател, уважаеми колеги! Предлагам да остане текстът по вносител за 5 години със следните аргументи. От една страна, в бюджетната прогноза за следващите 3 години е заложено изплащането на тези суми. Тъй като това е бюджетен въпрос, ние нямаме право с този закон да променяме Закона за  бюджета.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg582">От втора страна, което също е важно, в момента Български пощи получават със закъснение сумите, които компенсират задължението за извършване на универсалната пощенска услуга. От тази година Български пощи ще получават авансово – не със закъснение, а авансово – сумите, които се дължат за извършването на универсалната пощенска услуга. Демек те ще си получават парите в началото на годината със Закона за държавния бюджет.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg583">Затова предлагам промяната, която правим – за 5 години, да остане и да не утежняваме допълнително държавния бюджет. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124944" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u169">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg584">Благодаря Ви, господин Иванов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg585">Има ли реплики?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg586">Заповядайте за реплика, господин Кирилов.</seg>
+                </u>
+                <u ana="#regular" n="124945" who="#KirilovLalo" xml:id="ParlaMint-BG_2019-06-20.u170">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg587">Уважаеми господин Иванов, репликата ми е следната. Наистина не може само с отпадането на този параграф да решим проблема. Утре гледаме актуализацията на бюджета. Така набързо решихте, че трябва да орежете партийните субсидии без никаква логика.</seg>
+                </u>
+                <u ana="#regular" n="124946" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u171">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg588">Това не е по темата.</seg>
+                </u>
+                <u ana="#regular" n="124947" who="#KirilovLalo" xml:id="ParlaMint-BG_2019-06-20.u172">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg589">От това спестихте 30 милиона!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg590">Български пощи поне в момента е стратегически важно за страната дружество. Ако смятате, че от излишъка от 2 млрд. 400 млн. лв. или от 30 милиона няма средства, които да бъдат дадени за Български пощи, а те са в размер на 40 милиона, значи дружеството въобще не Ви е приоритет. А както разбрахме, до 2025 г. не се знае дали ще има и договор с държавата. Благодаря Ви.</seg><vocal type="interruption"><desc>(Единично ръкопляскане от „БСП за България“. Реплики извън микрофона на председателя Нигяр Джафер с народния представител Лало Кирилов относно процедурата.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg591">Има ли втора реплика?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg592">Заповядайте, господин Търновалийски.</seg>
+                </u>
+                <u ana="#regular" n="124948" who="#TarnovaliyskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u173">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg593">Уважаеми господин Иванов, точно защото бюджетната процедура и бюджетната прогноза е 3-годишна, няма как срокът тук да бъде 5-годишен.</seg>
+                </u>
+                <u ana="#regular" n="124949" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u174">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg594">Защо?</seg>
+                </u>
+                <u ana="#regular" n="124950" who="#TarnovaliyskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u175">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg595">Защото бюджетната прогноза е 3-годишна. Средносрочната бюджетна прогноза включва следващите три години. Така че това, което каза колегата – срокът е дълъг, да, може би Български пощи – не може би, а е сигурно, че те очакват средствата колкото се може по-бързо, за да се стабилизират. Ако целта не е да се докарат – те вече са докарани до едно състояние, но до още по-лошо, то бюджетът трябва възможно бързо да даде тези средства, които Български пощи е изхарчило.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg596">Тук аз правя предложение за редакционна промяна – „5 години“ да се замени с „3 години“. Благодаря.</seg><kinesic type="applause"><desc>(Ръкопляскания от „БСП за България“.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124951" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u176">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg597">Има ли трета реплика? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg598">Господин Иванов, заповядайте – имате думата за дуплика.</seg>
+                </u>
+                <u ana="#regular" n="124952" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u177">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg599">Благодаря.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg600">Уважаема госпожо Председател, уважаеми колеги! На първата реплика искам да отговоря, че, първо, това не са редакционни промени, които трябва да се извършват в зала единствено и само, а са промени по същество. Това, от една страна.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg601">От втора страна, уважаеми колега, Вие със Закона за държавния бюджет сте внесли промени за 3 милиарда. Демек, ако приемем и това, не знам докъде ще издържи държавният бюджет.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg602">На втората реплика. Уважаеми колега, точно така – Български пощи до момента не са получавали средства. По тази причина ние правим промяна да получават вече авансово дължимите им суми за годината. Защото това нещо считаме, че е правилно, поради причината, че когато се забавяха, имаше задължение за плащане дори до две години назад. Поради тази причина, за да не се случва вече това, задължаваме със закон авансово да се превеждат сумите, които се дължат на Български пощи. Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124953" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u178">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg603">Благодаря, господин Иванов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg604">Има ли други изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg605">Заповядайте, господин Свиленски – имате думата.</seg>
+                </u>
+                <u ana="#regular" n="124954" who="#SvilenskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u179">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg606">Благодаря, госпожо Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg607">Уважаеми колеги, за какво става въпрос? Държавата е задлъжняла към момента на Български пощи за 2 години или с 40 млн. лв. и в проекта на вносителите се предлага тези задължения да бъдат разсрочени за 5 години. Нали разбираме, че Български пощи си е свършила задълженията по договора за тази услуга? Те с какво да платят съответните разходи? И тях ли трябва да ги разсрочат следващите 5 години? Нали разбирате, че е несериозно?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg608">Освен това в Транспортна комисия в минали години нееднократно и предишният министър нееднократно са поемали тези задължения да бъдат изчистени до края на миналата година. Говорим за 2017 г. и за 2018 г. След това от 2019 г. обещанията бяха да се плаща ритмично, както си трябва и както е нормално за всяка една фирма, за всяко едно дружество. Още повече, пак казвам, когато става въпрос за българското държавно дружество „Български пощи“.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg609">Предложението за разсрочено плащане, което се прави, за 3 години, според мен и това даже е много, но все пак нека влезем поне в бюджетните прогнози. Плаща им се авансово за дейността, която трябва да извършват. Нормално е, няма как да свършиш дейност без пари. Искаме да я извършват.</seg>
+                </u>
+                <u ana="#regular" n="124955" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u180">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg610">Авансово, авансово!</seg>
+                </u>
+                <u ana="#regular" n="124956" who="#SvilenskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u181">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg611">Да, точно така.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg612">В същото време задълженията, които държавата има към тях, нека да си ги изпълни.</seg>
+                </u>
+                <u ana="#regular" n="124957" who="#IvanovStanislav" xml:id="ParlaMint-BG_2019-06-20.u182">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg613">За 5 години!</seg>
+                </u>
+                <u ana="#regular" n="124958" who="#SvilenskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u183">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg614">Тук не говорим за даване предварително за 5 години напред пари, а за работа, която е свършена, и държавата, ако става пример за неплащане на задължение, мисля, че не е коректно спрямо всички български граждани.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg615">Така че подкрепям предложението цифрата „5“ да се замени с „3“ – ако може да се вкара някъде, не знам доколко вече е възможно, тъй като сме на второ четене в залата. Да бъде „и на равни вноски“ – това би било още по-добре, за да гарантира на Български пощи съществуването и спокойното развитие на това дружество. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124959" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u184">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg616">Господин Свиленски, Вие и сам знаете, че няма къде да бъде поставена и следващата Ви така наречена редакционна поправка.</seg>
+                </u>
+                <u ana="#regular" n="124960" who="#SvilenskiGeorgi" xml:id="ParlaMint-BG_2019-06-20.u185">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg617">Поне цифрата „5“ да се замени с „3“.</seg>
+                </u>
+                <u ana="#chair" n="124961" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u186">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg618">Благодаря Ви.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg619">Има ли реплики към неговото изказване? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg620">Има ли други изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg621">Уважаеми колеги, ще подложа на гласуване предложението на господин Търновалийски за промяна на „5“ бюджетни години с „3“ бюджетни години.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg622">Няма да подложа на гласуване предложението за отпадане, защото по същество такова нямаше – беше изразено становище, че би било добре текстът да го няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg623">Гласуваме предложението на господин Търновалийски.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg624">Гласували 119 народни представители: за 35, против 46, въздържали се 38.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg625">Предложението не е прието.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg626">Подлагам на гласуване текста на вносителя за § 66.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg627">Гласували 122 народни представители: за 91, против 29, въздържали се 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg628">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124962" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u187">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg629">Комисията подкрепя текста на вносителя за § 67.</seg>
+                </u>
+                <u ana="#chair" n="124963" who="#DzhaferNigyar" xml:id="ParlaMint-BG_2019-06-20.u188">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg630">Има ли изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg631">Гласуваме текста на вносителя за § 67.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg632">Гласували 105 народни представители: за 105, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg633">Предложението е прието.</seg>
+                </u>
+                <u ana="#chair" n="124964" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u189">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg634">Моля, продължете.</seg>
+                </u>
+                <u ana="#regular" n="124965" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u190">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg635">Комисията подкрепя по принцип текста на вносителя и предлага следната редакция за § 68:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg636">„§ 68. (1) Издадените до влизането в сила на този закон подзаконови нормативни актове запазват действието си, доколкото не му противоречат.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg637">(2) Подзаконовите нормативни актове по прилагането на закона се привеждат в съответствие с този закон в 6-месечен срок от влизането му в сила.“</seg>
+                </u>
+                <u ana="#chair" n="124966" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u191">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg638">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg639">Подлагам на гласуване редакцията, която Комисията предлага за текста на § 68.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg640">Гласували 105 народни представители: за 103, против 1, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg641">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124967" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u192">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg642">Комисията предлага § 69 да бъде отхвърлен, тъй като е отразен на систематичното му място като § 68.</seg>
+                </u>
+                <u ana="#chair" n="124968" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u193">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg643">Изказвания има ли? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg644">Подлагам на гласуване предложението на Комисията за отхвърлянето на § 69 по вносител.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg645">Гласували 95 народни представители: за 94, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg646">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124969" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u194">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg647">Параграф 70 – предложение от народните представители Халил Летифов, Станислав Иванов, Клавдия Ганчева и Борис Кърчев по реда на чл. 83, ал. 5, т. 2 от Правилника за организацията и дейността на Народното събрание.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg648">Комисията подкрепя предложението.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg649">Комисията не подкрепя текста на вносителя и предлага § 70 да бъде отхвърлен.</seg>
+                </u>
+                <u ana="#chair" n="124970" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u195">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg650">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg651">Подлагам на гласуване предложението на Комисията за отхвърлянето на § 70 по вносител.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg652">Гласували 100 народни представители: за 99, против няма, въздържал се 1.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg653">Предложението е прието.</seg>
+                </u>
+                <u ana="#regular" n="124971" who="#LetifovHalil" xml:id="ParlaMint-BG_2019-06-20.u196">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg654">Предложение от народните представители Халил Летифов, Станислав Иванов, Клавдия Ганчева и Борис Кърчев по реда на чл. 83, ал. 5, т. 2 от Правилника за организацията и дейността на Народното събрание.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg655">Комисията подкрепя предложението.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg656">Комисията предлага да се създаде нов § 69:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg657">„§ 69. Параграф 20, т. 3 влиза в сила от 1 януари 2020 г.“</seg>
+                </u>
+                <u ana="#chair" n="124972" who="#HristovEmil" xml:id="ParlaMint-BG_2019-06-20.u197">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg658">Изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg659">Подлагам на гласуване предложението на Комисията за създаване на нов § 69 с текст съгласно Доклада на Комисията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg660">Гласували 99 народни представители: за 99, против и въздържали се няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg661">Предложението е прието, а с това завършихме и Законопроекта.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg662">Благодаря Ви, уважаеми господин Летифов!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg663">Уважаеми народни представители, ще Ви прочета съобщения за Парламентарен контрол.</seg><vocal type="interruption"><desc>(Реплики.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg664">Колеги, моля Ви – мога да прочета това нещо по всяко време. Това е съобщение.</seg><vocal type="interruption"><desc>(Реплики.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg665">Ако не искате да слушате и бързате за някъде, мога да се съобразя с Вас.</seg><vocal type="interruption"><desc>(Шум и реплики.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg666">Добре, съобразявам се с Вас.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg667">Обявявам прекъсване на работата за 30 минути.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg668">(След почивката.)</seg>
+                </u>
+                <u ana="#chair" n="124973" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u198">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg669">Уважаеми народни представители, продължаваме със следващата точка за днес:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg670">ПЪРВО ГЛАСУВАНЕ НА ЗАКОНОПРОЕКТА ЗА ИЗМЕНЕНИЕ И ДОПЪЛНЕНИЕ НА ЗАКОНА ЗА КУЛТУРНОТО НАСЛЕДСТВО.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg671">Внесен е от Министерския съвет на 3 юни 2019 г.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg672">Кой ще ни запознае с Доклада за първо четене?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg673">Господин Будинов, имате думата – заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124974" who="#BudinovEvgeni" xml:id="ParlaMint-BG_2019-06-20.u199">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg674">Благодаря Ви.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg675">Уважаеми господин Председател, скъпи колеги народни представители! На основание чл. 49, ал. 2 от Правилника за организацията и дейността на Народното събрание моля в залата да бъде допусната Амелия Гешева – заместник-министър на културата.</seg><kinesic type="applause"><desc>(Ръкопляскания.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124975" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u200">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg676">Гласуваме предложението на господин Будинов за допуск в залата на заместник-министъра госпожа Гешева.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg677">Гласували 78 народни представители: за 76, против няма, въздържали се 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg678">Предложението е прието.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg679">Моля, квесторите, поканете заместник-министъра в залата.</seg>
+                </u>
+                <u ana="#regular" n="124976" who="#BudinovEvgeni" xml:id="ParlaMint-BG_2019-06-20.u201">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg680">Уважаеми господин Председател, уважаеми колеги народни представители!</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg681">„ДОКЛАД</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg682">за първо гласуване относно Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет на 3 юни 2019 г.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg683">На редовно заседание на Комисията по културата и медиите, проведено на 13 юни 2019 г., беше разгледан Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет на 3 юни 2019 г.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg684">В заседанието участваха – от Министерството на културата: Амелия Гешева – заместник-министър, и Татяна Цветанова – директор на дирекция „Правнонормативна дейност и обществени поръчки“; от Камарата на архитектите в България: архитект Петкана Бакалова – заместник-председател на Управителния съвет.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg685">От името на вносителя Законопроектът беше представен от госпожа Амелия Гешева.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg686">Със Законопроекта за изменение и допълнение на Закона за културното наследство се предлага изпълнението на пет мерки от Приложение № 1 за опростяване и привеждане на услугите за бизнеса в съответствие със Закона за ограничаване на административното регулиране и административния контрол върху стопанската дейност към Решение № 704 на Министерския съвет от 5 октомври 2018 г. за приемане на мерки за трансформация на модела на административно обслужване.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg687">Първата мярка се отнася до промени, свързани с издаването на разрешения за извършване на музейна дейност от частни музеи. Регламентират се документите, удостоверяващи наличието на изискванията на Закона за културното наследство и се намалява срокът за издаване на разрешението от министъра на културата за извършване на музейна дейност от частни музеи от три месеца на два месеца.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg688">Втората мярка е свързана с изискванията, при които се извършва съгласуването на планове за опазване и управление, устройствени планове и специфичните правила и нормативи към тях, както и заданията за тяхното изготвяне за защитени територии на недвижимото културно наследство.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg689">Третата мярка регламентира процедурата на съгласуване на инвестиционни проекти и искания за намеси в защитени територии за опазване на културното наследство.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg690">Четвъртата мярка касае разпоредбите по издаването на разрешение за извършване на консервация и реставрация на движими културни ценности национално богатство. Срокът за издаване на разрешението се променя от 14-дневен на 30-дневен, като в този срок е включен и срокът за разглеждане на документите от Специализирания експертен съвет за възпроизвеждане на културни ценности със световно и национално значение и национално богатство в копия или реплики. Изрично са определени необходимите документи за издаване на разрешението и основанията за отказ и за отнемане на издаденото разрешение.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg691">Петата мярка предвижда създаване на законова уредба за изискванията за издаване на разрешение за изработка на копие и реплика на културни ценности със световно и национално значение или национално богатство.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg692">В становището си Камарата на архитектите в България изразява принципна подкрепа по Законопроекта за изменение и допълнение на Закона за културното наследство и предлага той да бъде допълнен, като се гарантира публичност и прозрачност на мерките за териториално-устройствена защита и инвестиционните инициативи, свързани с недвижимите културни ценности. Устройствените планове за защитени територии за опазване на недвижимото културно наследство със специфични правила и нормативи към тях и плановете за опазване и управление на недвижими културни ценности задължително да се подложат на обществено обсъждане. Собствениците на недвижимите културни ценности да бъдат освободени от местни данъци и такси, ако инвестират ежегодно същите по размер средства за реставрация и ремонтни дейности на съответния обект.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg693">В становището си Националното сдружение на общините в Република България изразява отношение относно повторението на конкретни текстове от Наредбата за обхвата, структурата, съдържанието и методологията за изработване на плановете за опазване и управление на единичните или груповите недвижими културни ценности в Законопроекта за изменение и допълнение на Закона за културното наследство. Предлага се да бъде предвидено финансиране от държавния бюджет за възлагане на планове за опазване и управление на археологически резервати.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg694">След проведена дискусия и гласуване народните представители от Комисията по културата и медиите с 12 гласа „за“, без „против“ и 4 гласа „въздържал се“ предлага на Народното събрание да приеме на първо гласуване Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет на 3 юни 2019 г.“ Благодаря.</seg><vocal type="exclamat"><desc>(Ръкопляскания и възгласи „Браво!“)</desc></vocal>
+                </u>
+                <u ana="#chair" n="124977" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u202">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg695">Благодаря, господин Будинов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg696">Доклад по Законопроекта е постъпил и от Комисията по регионална политика, благоустройство и местно самоуправление.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg697">Заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124978" who="#ShishkovMladen" xml:id="ParlaMint-BG_2019-06-20.u203">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg698">Благодаря, господин Председател.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg699">Господин Председател, уважаеми колеги! Признавам, че ще ми бъде много трудно след това изразително четене на колегата Будинов, но ще дам всичко от себе си.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg700">„ДОКЛАД</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg701">относно Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg702">На извънредно заседание, проведено на 12 юни 2019 г., Комисията по регионална политика, благоустройство и местно самоуправление обсъди Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет на 3 юни 2019 г.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg703">В заседанието на Комисията взеха участие: госпожа Амелия Гешева – заместник-министър на културата, и госпожа Татяна Цветанова – директор на дирекция „Правнонормативна дейност и обществени поръчки“ в Министерството на културата.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg704">От името на вносителя Законопроектът бе представен от госпожа Амелия Гешева.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg705">С предлаганите промени се изпълняват пет мерки по Приложение № 1 към Решение № 704 на Министерския съвет от 5 октомври 2018 г. за приемане на мерки за трансформация на модела на административно обслужване в съответствие със Закона за ограничаване на административното регулиране и административния контрол върху стопанската дейност (ЗОАРАКСД).</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg706">Първата мярка се отнася до издаването на разрешение за извършване на музейна дейност от частни музеи. Предвижда се регламентиране на необходимите документи и изискванията при тяхното попълване, като те ще се проверяват служебно и срокът за издаване на разрешението се намалява от три на два месеца.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg707">Втората мярка се отнася до процедурата за съгласуване на плановете за опазване и управление, устройствените планове и специфичните правила и нормативи към тях, както и заданията за тяхното изготвяне за защитени територии на недвижимото културно наследство. Регламентира се съгласуването и отказът за съгласуване въз основа на проверка на съответствието с изискванията на закона и наредбата по чл. 81, ал. 7 и след становище на Специализирания експертен съвет.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg708">Третата мярка се отнася до процедурата за съгласуване на инвестиционни проекти и искания за намеси в защитените територии за опазване на културното наследство. Регламентирани са изискванията за съгласуване или отказ за съгласуване въз основа на проверка на съответствието с изискванията на наредбата по чл. 171 от Закона, съгласуван устройствен план и виза за проектиране или схема за поставяне и с режимите за опазване за съответната територия.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg709">Четвъртата мярка се отнася до издаването на разрешение за извършване на консервация и реставрация на движими културни ценности национално богатство, като се регламентират необходимите документи за издаване на разрешението и основанията за отказ и за отнемане на издаденото разрешение. Предлага се срокът за издаване на разрешението от 14-дневен да стане 30-дневен, в който срок е включено и разглеждането на документите от Специализирания експертен съвет.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg710">Петата мярка се отнася до издаването на разрешение за изработка на копие и реплика на културни ценности със световно и национално значение или национално богатство. Предложението е освен административната процедура по издаването на разрешението да се регламентира и създаването на Специализиран експертен съвет за възпроизвеждане на културните ценности, чиято дейност до момента се основава на наредба.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg711">По всяко от горните производства се предвижда, че при установяване на непълноти по документите заявителят се уведомява писмено, като му се предоставя срок 10 работни дни за тяхното отстраняване, след което производството се прекратява.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg712">В хода на дискусията народните представители подкрепиха необходимостта от предложените промени в Закона. На конкретни въпроси, зададени от членовете на Комисията, представителите на Министерството на културата направиха разяснения по организацията и прилагането на нововъведенията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg713">В резултат на проведеното гласуване Комисията по регионална политика, благоустройство и местно самоуправление с 14 гласа „за“, без „против“ и 4 гласа „въздържал се“ предлага на Народното събрание Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет, да бъде приет на първо гласуване.“ Благодаря за вниманието.</seg><kinesic type="applause"><desc>(Ръкопляскания.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124979" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u204">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg714">Благодаря, господин Шишков.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg715">Преминаваме към обсъждане на предложения законопроект.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg716">Откривам разискванията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg717">Има ли заявки за изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg718">Заповядайте.</seg>
+                </u>
+                <u ana="#regular" n="124980" who="#ChenchevIvan" xml:id="ParlaMint-BG_2019-06-20.u205">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg719">Уважаеми господин Председател, уважаеми колеги, уважаеми гости! Парламентарната група на „БСП за България“ поради много причини ще се въздържи. Ние направихме същото и в ресорната Комисия по културата и медиите. Всички сме на мнение, че подобни предложения и промени са необходими, но според нас те не са прецизирани, а виждаме и много предписания в становищата на Камарата на архитектите в България, на Националното сдружение на общините и, разбира се, между първо и второ четене ще направим своите предложения като парламентарна група, за да може на второ четене всички тук в залата да избистрим, да изчистим текстовете. Така че групата ни ще се въздържи. Благодаря Ви.</seg>
+                </u>
+                <u ana="#chair" n="124981" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u206">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg720">Благодаря Ви, господин Ченчев.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg721">Има ли реплики към изказването? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg722">Други изказвания?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg723">Професор Станилов,  заповядайте за изказване.</seg>
+                </u>
+                <u ana="#regular" n="124982" who="#StanilovStanislav" xml:id="ParlaMint-BG_2019-06-20.u207">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg724">Уважаеми господин Председател, уважаеми колеги! Миналата година, когато приемахме поправки в този смисъл към Закона за културното наследство, които бяха предложени от колегата Красимир Велчев, още тогава казах от тази трибуна, че това нещо трябва да се гласува и като видим как ще работи, можем да нанесем корекции.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg725">Пак ще повторя, че този закон, както и Законът за академичния състав, са в структурата на най-сложното законодателство и трудно разбираемо от гражданството, но все пак това са световни постижения в законодателството и ние не можем да ги избегнем.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg726">Аз призовавам всички да гласуват, включително и групата на БСП – ако гласуват „за“, това не изключва, че те могат да нанасят, да предлагат поправки и прочее, и прочее, и мисля, че там ще стигнем до някакъв консенсус. Въпросът е, че аз моля всички колеги да гласуват тези предложения, за да можем да ги прецизираме за второ четене.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg727">Още поправки могат да се направят, могат да се направят поправки и по смисъла на ново законодателство за старите български столици. Тази година, държавната поръчка за проучвания, консервация и реставрация, където правителството отпуска доста пари, също има какво да се направи.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg728">Така че, уважаеми колеги, гласувайте по съвест, както се казва, тук не можем да правим политика – няма ляво и дясно, няма опозиция – тук имаме рационалитет. Това нещо е много важно за нас, защото, ако един разрушен завод може да се построи отново, един разрушен паметник не може да се построи отново, защото той вече не е паметник. Благодаря Ви за вниманието.</seg><kinesic type="applause"><desc>(Частични ръкопляскания.)</desc></kinesic>
+                </u>
+                <u ana="#chair" n="124983" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u208">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg729">Благодаря, Професоре.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg730">Има ли реплики? Не виждам.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg731">Други изказвания? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg732">Закривам разискванията.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg733">Госпожо Заместник-министър, искате ли да кажете нещо? Не.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg734">Преминаваме към гласуване на Законопроекта.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg735">Подлагам на гласуване Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26, внесен от Министерския съвет на 3 юни 2019 г.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg736">Гласували 95 народни представители: за 74, против няма, въздържали се 21.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg737">Предложението е прието, а с това на първо разглеждане Законопроект за изменение и допълнение на Закона за културното наследство, № 902-01-26.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg738">С това законодателната програма за седмицата приключи.</seg><vocal type="interruption"><desc>(Шум и реплики.)</desc></vocal>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg739">Процедура?</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg740">Заповядайте, господин Будинов, слушаме Ви за процедура.</seg>
+                </u>
+                <u ana="#regular" n="124984" who="#BudinovEvgeni" xml:id="ParlaMint-BG_2019-06-20.u209">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg741">Уважаеми господин Председател, уважаеми колеги народни представители, моля за Вашето внимание! На основание чл. 83, ал. 1 от Правилника за организацията и дейността на Народното събрание, предлагам срокът за писмени предложения за изменение и допълнение на току-що приетия на първо четене Законопроект за изменение и допълнение на Закона за културното наследство да бъде три седмици.</seg>
+                </u>
+                <u ana="#chair" n="124985" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u210">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg742">Благодаря Ви.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg743">Ще подложа на гласуване предложението на господин Будинов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg744">Има ли други предложения? Няма.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg745">Гласуваме предложението на господин Будинов за определяне на срок от три седмици между първо и второ четене на току-що приетия на първо разглеждане Законопроект.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg746">Гласували 81 народни представители: за 78, против 1, въздържали се 2.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg747">Предложението за срок от три седмици е прието.</seg><kinesic type="applause"><desc>(Ръкопляскания.)</desc></kinesic>
+                </u>
+                <u ana="#regular" n="124986" who="#BudinovEvgeni" xml:id="ParlaMint-BG_2019-06-20.u211">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg748">Благодаря.</seg>
+                </u>
+                <u ana="#chair" n="124987" who="#NotevYavor" xml:id="ParlaMint-BG_2019-06-20.u212">
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg749">Уважаеми народни представители, ще Ви запозная със съобщенията за парламентарен контрол на 21 юни 2019 г., петък:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg750">1. Заместник министър-председателят по обществения ред и сигурността и министър на отбраната Красимир Каракачанов ще отговори на три въпроса от народните представители Десислав Чуколов; Георги Вергиев; и Николай Цонков.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg751">2. Министърът на регионалното развитие и благоустройството Петя Аврамова ще отговори на шест въпроса от народните представители Георги Стоилов, Крум Зарков и Пенчо Милков; Георги Гьоков и Драгомир Стойнев; Кристина Сидорова; Милко Недялков; Александър Мацурев – два въпроса.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg752">3. Министърът на здравеопазването Кирил Ананиев ще отговори на 10 въпроса от народните представители Георги Михайлов – три въпроса; Валентина Найденова; Красимир Богданов; Кристина Сидорова; Георги Гьоков, Георги Йорданов, Анелия Клисарова и Илиян Тимчев – два въпроса; Цветан Топчиев, Филип Попов и Валентина Найденова; и Стефан Бурджев – два въпроса; и на две питания от народния представител Антон Кутев.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg753">4. Министърът на културата Боил Банов ще отговори на три въпроса от народните представители Стефан Бурджев; Диана Саватева; и Любомир Бонев.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg754">5. Министърът на труда и социалната политика Бисер Петков ще отговори на един въпрос от народните представители Георги Гьоков и Надя Клисурска-Жекова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg755">На основание чл. 96, ал. 3 и чл. 99, ал. 2 от ПОДНС отлагане на отговори със седем дни са поискали:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg756">- заместник министър-председателят Томислав Дончев – на едно питане от народния представител Крум Зарков;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg757">- министърът на финансите Владислав Горанов – на един въпрос с писмен отговор от народните представители Георги Стоилов и Иван Димов Иванов;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg758">- министърът на енергетиката Теменужка Петкова – на два въпроса с писмен отговор от народния представител Георги Гьоков;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg759">- министърът на образованието и науката Красимир Вълчев – на два въпроса с писмен отговор от народните представители Станислав Станилов; и Анелия Клисарова и Иван Димов Иванов;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg760">- министърът на земеделието, храните и горите Десислава Танева – на два въпроса с писмен отговор от народния представител Кристина Сидорова;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg761">- министърът на вътрешните работи Младен Маринов – на един въпрос от народния представител Антон Кутев;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg762">- министърът на околната среда и водите Нено Димов – на три въпроса от народните представители Димитър Георгиев; Станислав Владимиров; и Джевдет Чакъров;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg763">- министърът на регионалното развитие и благоустройството Петя Аврамова – на пет въпроса от народните представители Любомир Бонев; Джевдет Чакъров – два въпроса; Севим Али; и Ахмед Ахмедов.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg764">Поради отсъствие на народни представители по уважителни причини се отлагат отговорите на:</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg765">- един въпрос от народния представител Иван Валентинов Иванов към заместник министър-председателя по обществения ред и сигурността и министър на отбраната Красимир Каракачанов;</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg766">- три въпроса от народните представители Николай Иванов и Иван Генов; Николай Иванов; и Джевдет Чакъров към министъра на регионалното развитие и благоустройството Петя Аврамова.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg767">В заседанието за парламентарен контрол няма да участва министърът на земеделието, храните и горите Десислава Танева поради служебно пътуване в чужбина, предшествано от неотложен ангажимент в страната.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg768">Поради ползване на отпуск по болест в заседанието за парламентарен контрол няма да участва министърът на младежта и спорта Красен Кралев.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg769">С това Програмата за работа на парламента за днес приключи.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg770">Следващо пленарно заседание – утре, 21 юни, петък, от 9,00 ч.</seg>
+                    <seg xml:id="ParlaMint-BG_2019-06-20.seg771">Закривам заседанието.</seg><kinesic type="ringing"><desc>(Звъни.)</desc></kinesic>
+                </u>
+            </div>
+        </body>
+    </text>
+</TEI>
