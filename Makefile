@@ -4,7 +4,9 @@
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
-
+##$JAVA-MEMORY## Set a java memory maxsize in GB
+JAVA-MEMORY =
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
@@ -21,17 +23,25 @@ CURRENT_COMMIT := $(shell git rev-parse --short HEAD)
 ###### Setup
 ## check-prereq ## test if prerequisities are installed, more about installing prerequisities in CONTRIBUTING.md file
 check-prereq:
-	@test -f /usr/share/java/saxon.jar
-	@unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform'
-	@echo "Saxon: OK"
-	@test -f /usr/share/java/jing.jar
-	@unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng'
-	@echo "Jing: OK"
-	@test -f Scripts/tools/validate.py
-	@python -m re
-	@echo "UD tools: OK"
-	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)"
-	@java -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
+	@uname -a|grep -iq ubuntu || \
+	  ( echo -n "WARN: not running on ubuntu-derived system: " && uname -a )
+	@echo -n "Saxon: "
+	@test -f /usr/share/java/saxon.jar && \
+	  unzip -p /usr/share/java/saxon.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'net.sf.saxon.Transform' && \
+	  echo "OK" || echo "FAIL"
+	@echo -n "Jing: "
+	@test -f /usr/share/java/jing.jar && \
+	  unzip -p /usr/share/java/jing.jar META-INF/MANIFEST.MF|grep 'Main-Class:'| grep -q 'relaxng' && \
+	  echo "OK" || echo "FAIL"
+	@echo -n "UD tools: "
+	@test -f Scripts/tools/validate.py && \
+	  python3 -m re && \
+	  echo "OK" || echo "FAIL"
+	@which parallel > /dev/null && \
+	  echo "parallel: OK" || echo "WARN: command parallel is missing"
+	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)$(JM)"
+	@java $(JM) -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
+	@echo "INFO: Setup guide in CONTRIBUTING.md file"
 
 
 setup-parliament:
@@ -105,12 +115,18 @@ val-schema-ParlaCLARIN: $(val-schema-ParlaCLARIN-XX)
 $(val-schema-ParlaCLARIN-XX): val-schema-ParlaCLARIN-%: val-schema-tei-ParlaCLARIN-% val-schema-ana-ParlaCLARIN-%
 
 $(val-schema-tei-ParlaMint-XX): val-schema-tei-ParlaMint-%: %
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '.ana.' | grep -v '_' | xargs ${vrt}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -v '.ana.' | grep    '_' | xargs ${vct}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | xargs ${vrt}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | grep -v '.ana.' | xargs ${vch_taxonomy}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 $(val-schema-ana-ParlaMint-XX): val-schema-ana-ParlaMint-%: %
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep    '.ana.' | grep -v '_' | xargs ${vra}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep    '.ana.' | grep    '_' | xargs ${vca}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml" | xargs ${vra}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | xargs ${vch_taxonomy}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 
 $(val-schema-tei-ParlaCLARIN-XX): val-schema-tei-ParlaCLARIN-%: % working-dir-%
@@ -134,7 +150,7 @@ check-links-XX = $(addprefix check-links-, $(PARLIAMENTS))
 check-links: $(check-links-XX)
 ## check-links-XX ## ...
 $(check-links-XX): check-links-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking links in root:" $${root}; \
 	  ${s} ${vlink} $${root}; \
 	  for component in `echo $${root}| xargs ${getheaderincludes}`; do \
@@ -152,26 +168,36 @@ $(check-links-XX): check-links-%: %
 ###### Check content
 check-content-XX = $(addprefix check-content-, $(PARLIAMENTS))
 ## check-content ## validate all corpora with Scripts/validate-parlamint.xsl
+#### and Scripts/validate-parlamint-particDesc.xsl
+#### particDesc validation prints line number in messages
 check-content: $(check-content-XX)
 ## check-content-XX ## ...
 $(check-content-XX): check-content-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
+	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP;
+	mkdir ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP;
+	for file2LINE in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint(:?-$<${CORPUSDIR_SUFFIX})?(|\.ana|-taxonomy.*|-list.*).xml"`;	do \
+	  awk '{gsub(/(<[a-zA-Z:]+)/,"& LINE=\"" NR "\"",$$0);print}' "$${file2LINE}" \
+	    > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP/$${file2LINE##*/};\
+	done
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking content in root:" $${root}; \
 	  echo "  - general"; \
 	  ${s} ${vcontent} $${root}; \
 	  echo "  - organisations + persons"; \
-	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl $${root} ;\
+	  ${s} -xsl:Scripts/validate-parlamint-particDesc.xsl "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP/$${root##*/}" ;\
 	  for component in `echo $${root}| xargs ${getcomponentincludes}`; do \
 	    echo "checking content in component:" ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	    ${s} ${vcontent} ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/$${component}; \
 	  done; \
 	done
+	rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/check-content-TMP
 
 
 
 ###### Validate ParlaMint validate-parlamint.pl
 validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
 ## validate-parlamint ## validate all corpora with Scripts/validate-parlamint.pl
+#### (not showing line numbers in messages)
 validate-parlamint: $(validate-parlamint-XX)
 ## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
 $(validate-parlamint-XX): validate-parlamint-%: %
@@ -183,9 +209,10 @@ $(validate-parlamint-XX): validate-parlamint-%: %
 
 ## root ## Make ParlaMint corpus root
 root:
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
-	$s -xsl:Scripts/parlamint2root.xsl Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
-
+	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-template.xml > ${DATADIR}/ParlaMint.xml
+	$s base=../Data -xsl:Scripts/parlamint2root.xsl \
+	Scripts/ParlaMint-template.ana.xml > ${DATADIR}/ParlaMint.ana.xml
 
 chars-XX = $(addprefix chars-, $(PARLIAMENTS))
 ## chars ## create character tables
@@ -283,16 +310,18 @@ $(factorize-teiHeader-XX): factorize-teiHeader-%: %
 	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
 	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
 	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
-	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml || :
-	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
-	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
-	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
 	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml || :
+	SKIP=`echo ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/ParlaMint-$<.xml| xargs ${getheaderincludes}|tr "\n" " " ` \
+	&& $s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader \
+	   prefix="ParlaMint-$<${CORPUSDIR_SUFFIX}-" \
+	   skip="$${SKIP}" \
+	   -xsl:Scripts/parlamint-factorize-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml || :
 
 factorize-teiHeader-INPLACE-XX = $(addprefix factorize-teiHeader-INPLACE-, $(PARLIAMENTS))
 ## factorize-teiHeader-INPLACE ##
 factorize-teiHeader-INPLACE: $(factorize-teiHeader-INPLACE-XX)
-## factorize-teiHeader-XX ##
+## factorize-teiHeader-INPLACE-XX ##
 $(factorize-teiHeader-INPLACE-XX): factorize-teiHeader-INPLACE-%: % factorize-teiHeader-%
 	@echo "modified files:"
 	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml|grep -v 'ParlaMint-$<${CORPUSDIR_SUFFIX}-')
@@ -300,6 +329,39 @@ $(factorize-teiHeader-INPLACE-XX): factorize-teiHeader-INPLACE-%: % factorize-te
 	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}-*.xml ) || :
 	@mv ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader/* ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/
 	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/factorize-teiHeader
+	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
+
+
+composite-teiHeader-XX = $(addprefix composite-teiHeader-, $(PARLIAMENTS))
+## composite-teiHeader ## oposite to factorize-teiHeader
+composite-teiHeader: $(composite-teiHeader-XX)
+## composite-teiHeader-XX ##
+$(composite-teiHeader-XX): composite-teiHeader-%: %
+	rm -rf ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader \
+	   -xsl:Scripts/parlamint-composite-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml 2>&1 \
+	   | tee -a ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log || :
+	$s outDir=${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader \
+	   -xsl:Scripts/parlamint-composite-teiHeader.xsl \
+	   ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml 2>&1 \
+	   | tee -a ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log || :
+
+composite-teiHeader-INPLACE-XX = $(addprefix composite-teiHeader-INPLACE-, $(PARLIAMENTS))
+## composite-teiHeader-INPLACE ##
+composite-teiHeader-INPLACE: $(composite-teiHeader-INPLACE-XX)
+## composite-teiHeader-INPLACE-XX ##
+$(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-teiHeader-%
+	@echo "modified files:"
+	@(cd ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/; ls ParlaMint-$<${CORPUSDIR_SUFFIX}*.xml|grep -v 'ParlaMint-$<${CORPUSDIR_SUFFIX}-')
+	@echo "removed files:"
+	@cat ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log|sed -n 's/^including: //p'|sort|uniq
+	@cat ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/included.log|sed -n 's/^including: //p'|sort|uniq \
+	  | xargs -I {} rm ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{}
+	@mv ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader/*.xml ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/
+	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
+	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
 
 
 
@@ -524,6 +586,14 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 	git -C ${DATA_XX_REP} pull --all
 
 
+##!create-UD-SYN-taxonomy##
+create-taxonomy-UD-SYN:
+	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
+	git -C Scripts/UD-docs checkout pages-source
+	git -C Scripts/UD-docs pull
+	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
+
+
 ######################Generating and ingesting TSV added metadata
 
 ## Generate TSV files for party information on the basis of the corpus root files.
@@ -565,23 +635,10 @@ insert-orientation-test-val:
 	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
 	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
 
-## Generate TSV files for minister affiliations on the basis of the corpus root files.
-generate-ministers:
-	$s outDir=Data/Metadata/Ministers2 -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
-
-## Insert minister affiliations from TSV file into a root file.
-MC = IS
-insert-ministries-test:
-	$s tsv=../Data/Metadata/Ministers/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
-	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
-	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
-	${s} ${vlink} Scripts/tmp/ParlaMint-${MC}.xml
-
 ######################VARIABLES
-s = java -jar /usr/share/java/saxon.jar
+s = java $(JM) -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
-j = java -jar /usr/share/java/jing.jar
+j = java $(JM) -jar /usr/share/java/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
@@ -598,3 +655,6 @@ vct = $j Schema/ParlaMint-TEI.rng		# Corpus component / text
 vra = $j Schema/ParlaMint-teiCorpus.ana.rng	# Corpus root / analysed
 vca = $j Schema/ParlaMint-TEI.ana.rng		# Corpus component / analysed
 vodd = $j TEI/ParlaMint.odd.rng		# validate with rng derived from odd
+vch_taxonomy = $j Schema/ParlaMint-taxonomy.rng # factorized taxonomy
+vch_pers = $j Schema/ParlaMint-listPerson.rng # factorized listPerson
+vch_orgs = $j Schema/ParlaMint-listOrg.rng # factorized listOrg

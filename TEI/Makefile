@@ -43,7 +43,7 @@ val-schema:
 
 # Validate samples
 #DATA = ../Data
-DATA = ../../ParlaMint-v2tov3/Data
+DATA = ../../ParlaMint-data/Data
 val-samples:
 	./validate.pl samples ${DATA}
 

@@ -1,4 +1,4 @@
-<speech id="ParlaMint-IS_2021-12-28-19.u1" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-IS_2021-12-28-19.u1" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-IS_2021-12-28-19.seg1" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg1.1">
 Frú	Frú	frú	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
@@ -91,7 +91,7 @@ sjálf	sjálf	sjálfur	PRON	Case=Nom Gender=Fem Number=Sing PronType=Dem	4	appos
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2021-12-28-19.u2" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="BjarkeyGunnarsdottir" speaker_name="Gunnarsdóttir, Bjarkey Olsen" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1965">
+<speech id="ParlaMint-IS_2021-12-28-19.u2" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="BjarkeyGunnarsdottir" speaker_name="Gunnarsdóttir, Bjarkey Olsen" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1965">
 <p id="ParlaMint-IS_2021-12-28-19.seg4" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg4.1">
 Forseti	Forseti	forseti	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	root	-	-	-	-
@@ -942,7 +942,7 @@ fylgjandi	fylgjandi	fylgjandi	VERB	Case=Nom Definite=Ind Gender=Masc Number=Sing
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IS_2021-12-28-19.u47" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="LineikSaevarsdottir" speaker_name="Sævarsdóttir, Líneik Anna" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1964">
+<speech id="ParlaMint-IS_2021-12-28-19.u47" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="LineikSaevarsdottir" speaker_name="Sævarsdóttir, Líneik Anna" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1964">
 <p id="ParlaMint-IS_2021-12-28-19.seg124" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg124.1">
 Forseti	Forseti	forseti	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	nsubj	þakka	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
@@ -952,7 +952,7 @@ Forseti	Forseti	forseti	PROPN	Case=Nom Definite=Ind Gender=Masc Number=Sing	1	ns
 </s>
 </p>
 </speech>
-<speech id="ParlaMint-IS_2021-12-28-19.u48" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_type="notMP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1976">
+<speech id="ParlaMint-IS_2021-12-28-19.u48" text_id="ParlaMint-IS_2021-12-28-19" subcorpus="COVID" house="" term="23" session="152" meeting="19" sitting="" agenda="" from="2021-12-28" to="2021-12-28" title="Speeches in the national parliament of Iceland, 24. term, regular meeting 152-19, 28.12.2021." speaker_role="Regular" speaker_id="KatrinJakobsdottir" speaker_name="Jakobsdóttir, Katrín" speaker_type="MP" speaker_party="" speaker_party_name="" party_status="" speaker_gender="F" speaker_birth="1976">
 <p id="ParlaMint-IS_2021-12-28-19.seg125" lang="">
 <s id="ParlaMint-IS_2021-12-28-19.seg125.1">
 Frú	Frú	frú	NOUN	Case=Nom Definite=Ind Gender=Neut Number=Sing	1	root	-	-	-	-
