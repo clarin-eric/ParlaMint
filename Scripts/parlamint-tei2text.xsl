@@ -19,7 +19,7 @@
       <xsl:apply-templates/>
     </xsl:variable>
     <xsl:value-of select="concat(@xml:id, '&#9;', 
-			  normalize-space($text), '&#10;')"/>
+                          normalize-space($text), '&#10;')"/>
   </xsl:template>
 
   <xsl:template match="tei:note | tei:gap | tei:vocal | tei:kinesic | tei:incident">
