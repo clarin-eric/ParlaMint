@@ -1,0 +1,162 @@
+<taxonomy xml:lang="mul" xml:id="ParlaMint-taxonomy-UD-SYN.ana-BE">
+    <desc xml:lang="en">
+        <term>UD syntactic relations (BE extensions to the basic ParlaMint UD-SYN taxonomy, mostly for French, based on the French GSD treebank, except for compound:prt which is used for Dutch separable verbs)</term>
+    </desc>
+    <category xml:id="obl_mod">
+        <catDesc xml:lang="en">
+		<term>obl:mod</term>The obl:mod relation is used for a nominal in the ablative-modalis case (see Case) when it is used as an object of an intransitive verb. In this case, the nominal is understood as an indefinite object (c.f. obj). 
+			Example: oui oui je [prends (head)] le métro le [matin] à huit heures et demi
+https://universaldependencies.org/fr/dep/obl-mod.html
+        </catDesc>        
+    </category>
+    <category xml:id="aux_tense">
+        <catDesc xml:lang="en">
+		<term>aux:tense</term>
+aux:tense
+This relation is a language-specific subtype of aux. There are also 2 other language-specific subtypes of aux: aux:caus, aux:pass.
+
+3836 nodes (1%) are attached to their parents as aux:tense.
+
+3829 instances of aux:tense (100%) are right-to-left (child precedes parent). Average distance between parent and child is 1.50651720542231.
+
+The following 9 pairs of parts of speech are connected with aux:tense: VERB-AUX (3691; 96% instances), NOUN-AUX (80; 2% instances), ADJ-AUX (49; 1% instances), PRON-AUX (9; 0% instances), ADP-AUX (2; 0% instances), AUX-AUX (2; 0% instances), ADV-AUX (1; 0% instances), NUM-AUX (1; 0% instances), PROPN-AUX (1; 0% instances).
+
+			Example:  Il [a] également [été (head)] capitaine de l' équipe bruxelloise.
+			Cf. https://universaldependencies.org/treebanks/fr_gsd/fr_gsd-dep-aux-tense.html
+        </catDesc>        
+    </category>
+    <category xml:id="obj_lvc">
+        <catDesc xml:lang="en">
+            <term>obj:lvc</term>obj:lvc: object of a light verb
+		    Only a few light verb constructions are annotated in UD_French-GSD and in UD_French-Spoken. In other cases, the relation obj is used without extension. 
+
+Example: La bataille [a (head)] [lieu] le 5 janvier
+		    Cf https://universaldependencies.org/fr/dep/obj-lvc.html
+        </catDesc>        
+    </category>
+    <category xml:id="goeswith">
+        <catDesc xml:lang="en">
+            <term>goeswith</term>This relation links two or more parts of a word that are separated in text that is not well edited. These parts should be written together as one word according to the orthographic rules of a given language. The head is always the first part, the other parts are attached to it with the goeswith relation (for consistency, similarly as in flat, fixed and conj).
+
+The first part of the word is given the part of speech that the word would have been given if written together, while the later parts of the word are given the POS X. Similarly, only the first part can have a lemma and morphological features. And while the annotation of morphological features is optional, if the treebank does have features, then Typo=Yes must be used with the goeswith head.
+
+		    Note also that only the last word part may be annotated with SpaceAfter=No. 
+
+Example: Nous avons testé le restaurant ce [week] [end (head)]
+		    Cf https://universaldependencies.org/u/dep/goeswith.html
+        </catDesc>        
+    </category>
+    <category xml:id="expl_subj">
+        <catDesc xml:lang="en">
+            <term>expl:subj</term>The expl:subj relation is used for expletive in a surface subject position.  It can be used in case of repeated subject in interrogatives: Ces chiffres [sont (head)]-[ils] élevés?. 
+And for other impersonal subjects: Il existe des variantes dialectales. Cf. https://universaldependencies.org/fr/dep/expl-subj.html
+        </catDesc>        
+    </category>
+    <category xml:id="advcl_cleft">
+        <catDesc xml:lang="en">
+		<term>advcl:cleft</term> 
+
+The advcl:cleft relation is used in four corpora. It is used to link the clefted element and the clause of the cleft sentence. This link is used for every type of cleft element (nominal phrase, prepositional phrase etc.).
+Examples:	
+Les vendanges commencent aujourd'hui. C' est un [vigneron (head)] du coin qui me l'a [dit]; Il y a [Marie (head)] qui [danse] dans la pièce.
+			Cf. https://universaldependencies.org/fr/dep/advcl-cleft.html
+        </catDesc>        
+    </category>
+    <category xml:id="dislocated">
+        <catDesc xml:lang="en">
+		<term>dislocated</term>
+The dislocated relation is used for fronted or postposed elements that do not fulfill the usual core grammatical relations of a sentence. These elements often appear to be in the periphery of the sentence, and may be separated off with a comma intonation.
+
+			It is used for fronted elements that introduce the topic of a sentence, as in the following Japanese and Greek examples. The dislocated element attaches to the head of the clause to which it belongs.
+			Examples: Il faut pas la [manger (head)] , la [plasticine] (French). 
+			[Zoo] wa hana ga [takai (head)] (Japanese).  
+			Cf. https://universaldependencies.org/u/dep/dislocated.html
+        </catDesc>        
+    </category>
+    <category xml:id="expl_comp">
+        <catDesc xml:lang="en">
+            <term>expl:comp</term> expl:comp: expletive
+		    The expl:comp relation is used for passive constructions (with the lemma se for the dependent). A few other lemmas can be used with this relation: y, en and le.
+		    Example: Max [s'] [ennuie (head)].  Max s'en tirait facilement.
+		    Cf. https://universaldependencies.org/fr/dep/expl-comp.html
+        </catDesc>        
+    </category>
+    <category xml:id="nsubj_caus">
+        <catDesc xml:lang="en">
+		<term>nsubj:caus</term> 
+This relation is a language-specific subtype of nsubj. There are also 1 other language-specific subtypes of nsubj: nsubj:pass.
+
+132 nodes (0%) are attached to their parents as nsubj:caus.
+
+131 instances of nsubj:caus (99%) are right-to-left (child precedes parent). Average distance between parent and child is 4.65909090909091.
+
+The following 3 pairs of parts of speech are connected with nsubj:caus: VERB-PRON (63; 48% instances), VERB-NOUN (44; 33% instances), VERB-PROPN (25; 19% instances).
+			Example: [Il (nsubj:caus)] s' est [fait (head)] poser des points de suture
+			Cf. https://universaldependencies.org/treebanks/fr_gsd/fr_gsd-dep-nsubj-caus.html
+        </catDesc>        
+    </category>
+    <category xml:id="aux_caus">
+        <catDesc xml:lang="en">
+		<term>aux:caus</term> aux:caus
+			This relation is a language-specific subtype of aux. 
+			There are also 2 other language-specific subtypes of aux: aux:pass, aux:tense.
+
+250 nodes (0%) are attached to their parents as aux:caus.
+
+250 instances of aux:caus (100%) are right-to-left (child precedes parent). Average distance between parent and child is 1.084.
+
+The following 1 pairs of parts of speech are connected with aux:caus: VERB-AUX (250; 100% instances).
+
+
+Example:
+N' hésitez -pas à la [faire (aux:caus)] [circuler (head)] largement autour de vous
+			Cf. https://universaldependencies.org/treebanks/fr_gsd/fr_gsd-dep-aux-caus.html
+        </catDesc>        
+    </category>
+    <category xml:id="nmod_poss">
+        <catDesc xml:lang="en">
+            <term>nmod:poss</term>
+nmod:poss: possessive nominal modifier
+nmod:poss is used for a nominal modifier which occurs before its head in the specifier position used for ‘s possessives. It is marked with the case ‘s or one of its variant forms. This relation isn’t used for other pre-head modifiers such as noun compounds or quotative phrases.
+		    Example: Marie's book
+		    Cf. https://universaldependencies.org/u/dep/nmod-poss.html
+        </catDesc>        
+    </category>
+    <category xml:id="obj_agent">
+        <catDesc xml:lang="en">
+            <term>obj:agent</term>
+obj:agent: agentive object
+In a causative construction the obj:agent relation attaches the infinitive verb to his agent, when the latter is the syntactical object of the sentence (this initial agent has been demoted and became the object of the causative construction). For example, in the following sentence, ses petits is the true agent of the verb “sauter” (Ses petits ont sauté dans la mare). This nominal phrase can be pronominalized as follows: La cane les a fait sauter dans la mare. The use of the pronoun les clearly shows that ses petits is the syntactical object of the sentence.
+Example: La cane a fait [sauter (head)] ses [petits (obj:agent)] dans la mare.
+Cf. https://universaldependencies.org/fr/dep/obj-agent.html
+        </catDesc>        
+    </category>
+    <category xml:id="obl_agent">
+        <catDesc xml:lang="en">
+		<term>obl:agent</term> 
+obl:agent: agent modifier
+The relation obl:agent is used for agents of passive verbs. In Czech, the agent is a nominal in the instrumental Case.
+			Example: Patrick a fait [boire (head)] du thé à [Micheline] alors qu'elle déteste ça.
+			Cf. https://universaldependencies.org/u/dep/obl-agent.html
+        </catDesc>        
+    </category>
+    <category xml:id="iobj_agent">
+        <catDesc xml:lang="en">
+		<term>iobj:agent</term>
+iobj:agent: agentive indirect object
+			In a causative construction, the iobj:agent relation attaches the infinitive verb to his agent, when the latter is the syntactical indirect object of the sentence (this initial agent has been demoted and became an indirect object in the causative construction). For example, in the following sentences, the use of the pronouns leur and lui shows that these pronouns are indirect objects (see the page on the iobj relation).
+
+			Example: Marie [leur] fait [manger (head)] des épinards pour la première fois
+			Cf. https://universaldependencies.org/fr/dep/iobj-agent.html
+        </catDesc>        
+    </category>
+    <category xml:id="compound_prt">
+        <catDesc xml:lang="en">
+		<term>compound:prt</term>
+compound:prt: phrasal verb particle
+			The phrasal verb particle relation identifies an idiomatic phrasal verb, and holds between the verb and its particle (tagged as ADP). It is a subtype of the compound relation.
+			Example: They [shut (head)] the station [down]
+			Cf. https://universaldependencies.org/u/dep/compound-prt.html
+        </catDesc>        
+    </category>
+</taxonomy>

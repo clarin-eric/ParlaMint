@@ -1,0 +1,1026 @@
+<TEI xml:lang="nl" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x" ana="#parla.sitting #covid" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="nl" type="main">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 02-06-2021 [ParlaMint]</title>
+                <title xml:lang="en" type="main">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 02-06-2021 [ParlaMint]</title>
+                <meeting ana="#parla.meeting.committee" corresp="#be_federal_parliament" n="ic502">Commissievergadering 502 van 02-06-2021</meeting>
+                <meeting ana="#parla.term #period_55" corresp="#be_federal_parliament" n="55">Zittingperiode 55</meeting>
+                <respStmt>
+                    <persName>Henk van der Pol</persName>
+                    <persName>Griet Depoorter</persName>
+                    <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+                    <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">De Europese Commissie</orgName>
+                    <orgName xml:lang="en">The European Commission</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">Taalunie</orgName>
+                    <orgName xml:lang="en">Dutch Language Union</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>0.9</edition>
+            </editionStmt>
+            <extent>
+                <measure unit="speeches" quantity="80" xml:lang="en">80 speeches</measure>
+                <measure unit="speeches" quantity="80" xml:lang="nl">80 spreekbeurten</measure>
+                <measure unit="words" quantity="16414" xml:lang="en">16414 words</measure>
+                <measure unit="words" quantity="16414" xml:lang="nl">16414 woorden</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+                    <orgName xml:lang="en">Dutch Language Institute</orgName>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                </publisher>
+                <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                    <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                </availability>
+                <date when="2022-07-27">2022-07-27</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title xml:lang="fr" type="main">Commission de la Santé et de l'Égalité des chances du Mercredi 2 juin 2021 Après-midi</title>
+                    <title xml:lang="nl" type="main">Commissie voor Gezondheid en Gelijke Kansen van Woensdag 2 juni 2021 Namiddag</title>
+                    <idno type="URI">https://www.dekamer.be/doc/CCRI/html/55/ic502x.html</idno>
+                    <date when="2021-06-02">2021-06-02</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>                
+                <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>                
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="desc" occurs="134"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="u" occurs="80"/>
+                    <tagUsage gi="seg" occurs="277"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="gap" occurs="134"/>
+                    <tagUsage gi="note" occurs="80"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <name type="city">Brussel</name>
+                    <name type="country" key="BE">België</name>
+                    <date ana="#parla.sitting" when="2021-06-02">2021-06-02</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27"><name>Henk van der Pol</name>: initial version.</change>            
+        </revisionDesc>
+    </teiHeader>
+    <text ana="#covid">
+        <body>
+            <div type="debateSection">
+                <gap reason="editorial">
+                    <desc>Content could not be classified: La réunion publique de commission est ouverte à 15 h 19 et présidée par M. Thierry Warmoes.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De openbare commissievergadering wordt geopend om 15.19 uur en voorgezeten door Thierry Warmoes.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Les textes figurant en italique dans le Compte rendu intégral n’ont pas été prononcés et sont la reproduction exacte des textes déposés par les auteurs.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De teksten die in cursief zijn opgenomen in het Integraal Verslag werden niet uitgesproken en steunen uitsluitend op de tekst die de spreker heeft ingediend.</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">Le président:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u1" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg1" xml:lang="fr">Bonjour à tous et bienvenue à Mme la secrétaire d'État. Nous sommes ici pour poser une série de questions orales à Mme Schlitz. Vingt-trois questions figurent à l'ordre du jour.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 01 Vraag van Evita Willaert aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Genderregistratie op formulieren van de overheid&quot; (55015072C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 01 Question de Evita Willaert à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;L'enregistrement du genre dans les formulaires des pouvoirs publics&quot; (55015072C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">01.01 Evita Willaert (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u2" who="#WillaertEvita" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg2" xml:lang="nl">Mijnheer de voorzitter, mevrouw de staatssecretaris, in januari wilde ik me abonneren op de nieuwsbrief van de Federale Pensioendienst. Het verbaasde me dat ik daarvoor eerst moest aanduiden of ik een man of een vrouw ben. Voor het nemen van een abonnement op een nieuwsbrief van een federale overheidsinstantie lijkt die vraag mij totaal irrelevant. Als die vraag dan toch gesteld moet worden, is het minstens even verbazingwekkend dat het niet mogelijk is om een neutrale derde optie aan te duiden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg3" xml:lang="nl">Net voor ik deze vraag stelde, heb ik echter gezien dat het inschrijvingsformulier aangepast is. Dat verheugt mij enorm, mevrouw de staatssecretaris. Men moet dus niet meer invullen of men een man of een vrouw is. Toch wil ik graag nog de volgende vragen stellen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg4" xml:lang="nl">Wat is het beleid van de federale overheid inzake genderregistratie op formulieren?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg5" xml:lang="nl">Bent u het met mij eens dat die vraag niet gesteld dient te worden wanneer ze irrelevant is? In welke gevallen is zo'n vraag overigens wel relevant? In dat geval veronderstel ik dat u het met me eens bent dat het niet alleen mogelijk moet zijn om de binaire optie man-vrouw aan te duiden, maar dat er ook een neutrale derde optie moet zijn. Welke stappen wenst u te zetten ter remediëring?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">01.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u3" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg6" xml:lang="nl">Dank u voor uw vragen, mevrouw Willaert. Ik ben het met u eens dat er bijkomende aandacht moet gaan naar niet-noodzakelijke genderregistratie. Wat u aanhaalt, is daar een goed voorbeeld van. Het is ook belangrijk om een onderscheid te maken tussen de vermelding van het geslacht op officiële documenten, zoals bepaald in het arrest van het Grondwettelijk Hof van 2019, en het verzamelen van gegevens door particuliere of openbare instanties, zoals in het geval dat ons hier bezighoudt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg7" xml:lang="nl">Als staatssecretaris maak ik overheidsinstanties voortdurend bewust van de gevoelige aard van die gegevens, maar ook van het belang van inclusiviteit. Ik bekijk, samen met mijn collega van Justitie, het aspect van de noodzakelijke versus niet-noodzakelijke genderregistratie in het kader van de hervorming van de transwet. In dat kader zal ik nog geen uitspraken doen over de vraag welke categorieën er naast M en V moeten komen. Ik kan u wel al zeggen dat dat debat en de bijhorende wetswijzigingen er zullen komen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg8" xml:lang="nl">We moeten inderdaad minstens afstappen van de binariteit. Daarnaast weet u dat het voor deze regering belangrijk is dat de overheid een voorbeeldrol heeft. Daarom neem ik uw suggestie ter harte om deze aangelegenheid eveneens te bespreken met mijn collega, minister De Sutter, wat het federale overheidsbeleid betreft.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">01.03 Evita Willaert (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u4" who="#WillaertEvita" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg9" xml:lang="nl">Dank u voor uw antwoord, mevrouw de staatssecretaris. Ik weet dat u een oplossing genegen bent en dat u daarover ook bezorgd bent. Ik merk dat er in dit ene geval al beweging was tussen januari en juni. Ik ben verheugd dat u de problematiek met minister De Sutter zult bekijken. Dat is heel goed nieuws. Daarnaast zullen wij in het kader van de hervorming van de transwet de problematiek verder opvolgen. Het lijkt mij logisch dat wij in de 21e eeuw minstens afstappen van de binariteit. Het is daarbij belangrijk het onderscheid in relevantie te maken. Indien het wel relevant is, mag er geen binaire opdeling meer zijn. Ik dank u voor uw engagement, mevrouw de staatssecretaris.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 02 Vraag van Theo Francken aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het groeiende islamisme in België en het CTIB&quot; (55016225C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 02 Question de Theo Francken à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;L'islamisme grandissant en Belgique et le CCIB&quot; (55016225C)</desc>
+                </gap>
+                <note type="speaker">02.01 Theo Francken (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u5" who="#FranckenTheo" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg10" xml:lang="nl">Mijnheer de voorzitter, mevrouw de staatssecretaris, wij hebben de vorige keer een hele discussie gehad over het Collectif contre l'islamophobie en Belgique (CCIB). Dat is een organisatie waarbij ik mij zeer veel vragen stel. Het is een organisatie waarvan de zuster, de moeder of de dochter – ik weet niet hoe ik het moet vertalen – verboden is in Frankrijk.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg11" xml:lang="nl">U zei dat het CCIB niets te maken heeft met het CCIF, het centrum tegen islamofobie in Frankrijk. U zei dat de Belgische poot daarmee niets te maken heeft. Ik heb die vraag ook gesteld aan de heer Van Quickenborne. Hij zei net het omgekeerde, hij zei dat beide heel veel met elkaar te maken hebben en dat duidelijk is dat die twee organisaties dochters, zusters of broeders zijn. Er is daar dus een discordantie in hetgeen de regering aan het Parlement verkondigt. De minister van Justitie zei dat ze broeders zijn en u zei dat ze niets met elkaar te maken hebben. Dat is bijzonder pijnlijk. Hoe zit dat nu juist?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg12" xml:lang="nl">U zei ook dat u helemaal niet akkoord gaat met het stigma van moslimbroederschap en extreme islamisten en dat u met hen vergaderd had. Ze zijn wellicht digitaal op de koffie geweest. Ik neem aan dat deze vergadering digitaal was, ik weet niet of het een fysieke vergadering betrof.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg13" xml:lang="nl">Dat choqueert mij, omdat ik denk dat men van zulke organisaties best ver weg blijft, zeker als overheid. U en ik, wij zullen het nooit eens geraken als het gaat over de positie van de hoofddoek, over de neutraliteit van de overheid. Dat hoeft ook helemaal niet. Ik denk dat wij het er echter wel over eens zijn dat wij samen moeten vechten tegen terreur, tegen alle vormen van terreur, extreemrechtse terreur, maar ook extremistische islamistische terreur en extreemlinkse terreur. Men blijft best ver weg van organisaties waarbij heel wat vragen rijzen, omdat men in Frankrijk maatregelen neemt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg14" xml:lang="nl">Wat is uw agenda tegen het islamisme? Waar en wanneer vond het onderhoud met het CCIB plaats? Wat was de agenda? Wat werd er besproken? Waaruit leidt u af dat het CCIB niets met het CCIF te maken heeft? Zult u blijven samenwerken met het CCIB?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">02.02 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u6" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg15" xml:lang="fr">Monsieur Francken, merci pour votre question et votre présence. C'est enfin l'occasion d'avoir cette discussion.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg16" xml:lang="nl">Ik zal uw vragen beantwoorden in de hoop dat deze informatie voldoende zal zijn om een kleine vereniging als het CCIB, een organisatie die zich constructief inzet tegen discriminatie van moslims en die zonder reden wordt aangevallen, met rust te laten. Voor u is het belangrijk dat buitenlandse radicale ideologieën niet naar België worden geïmporteerd. Importeer dan ook geen buitenlandse politieke problemen die hier niet van toepassing zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg17" xml:lang="nl">Ik heb met het CCIB gesproken in het kader van mijn algemene raadpleging van het maatschappelijk middenveld, maar ook om meer specifiek  te spreken over het project waarvoor het federale subsidies ontvangt. Mijn ontmoeting met het CCIB vond plaats op 5 januari 2021.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg18" xml:lang="nl">Op grond van de informatie die mij bekend is, kan ik enkel besluiten dat het CCIF geen banden heeft met het CCIB, simpelweg omdat, zoals ik u zojuist heb aangegeven, het CCIB op constructieve wijze strijdt tegen islamofobie en al vele jaren partnerschappen opbouwt met een groot aantal organisaties en entiteiten op alle bestuursniveaus. Het CCIB ontvangt niet alleen op federaal niveau subsidies, maar ook op regionaal en Europees niveau. Hieruit blijkt eens te meer dat het CCIB een ernstige vereniging is die goed functioneert.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg19" xml:lang="nl">Nu ik het genoegen heb gehad om wat meer over hun werk te weten te komen, kan ik u zeggen dat het CCIB op twee pistes werkt. Het hecht waarde aan positieve en solidaire acties en stelt mensenrechtenschendingen aan de kaak. Bovendien maakt het hoofdzakelijk gebruik van bemiddeling om conflicten op te lossen. De prioriteit van het CCIB is de verdediging van mensenrechten. Aangezien ik het volledig eens ben met deze uitgangspunten, ondersteun ik de samenwerking met het CCIB en met elke middenveldorganisatie die zich op dezelfde transparante en constructieve wijze inzet voor gelijke kansen.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">02.03 Theo Francken (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u7" who="#FranckenTheo" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg20" xml:lang="nl">Mevrouw de staatssecretaris, u hebt voortdurend de neiging mij op mijn plaats te zetten. Op zich is dat geen probleem, maar als ik me niet vergis, ben ik één keer afwezig geweest en werd mijn vraag toen uitgesteld. Zoiets kan gebeuren. Ik ben blij dat we van gedachten kunnen wisselen en inderdaad, u hebt een drukke agenda, maar geloof me, dat geldt voor mij ook. Toch probeer ik steeds aanwezig te zijn in het Parlement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg21" xml:lang="nl">Als u zegt dat ik geen buitenlandse conflicten mag importeren, dan begrijp ik niet waarover u spreekt. Ik zag u en de uwen voor Palestina protesteren. Ik volg de politiek in Brussel van vrij nabij op, en Ecolo heeft op dat vlak een ware cultuuroorlog ontketend. Daarmee begeeft u zich volgens mij op glad ijs, maar goed, doe vooral zo verder, we zullen wel zien hoe het afloopt. Als er de laatste weken één partij externe problemen importeerde, dan was het wel uw partij.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg22" xml:lang="nl">U zegt dat het CCIB in januari bij u op de koffie is geweest. Ging het hier om een fysieke vergadering of verliep het digitaal? Fysiek, zegt u? Dat vind ik straf. Ik kan me niet voorstellen dat dat de bedoeling was, maar blijkbaar kan dat voor zo'n organisatie dan weer wel.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg23" xml:lang="nl">U zegt ten slotte dat de twee niets met elkaar te maken hebben, maar dat is manifest onjuist. Minister Vincent Van Quickenborne, die ook de Veiligheid van de Staat onder zijn hoede heeft, bevestigt immers aan mijn collega Koen Metsu dat de twee wel degelijk met elkaar te maken hebben en zeer nauw verweven zijn. Ofwel liegt u, ofwel liegt de heer Van Quickenborne, maar in elk geval spreekt de regering hier niet met één stem.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg24" xml:lang="nl">Ik kan u enkel adviseren voorzichtig te zijn met zulke organisaties. Meer kan ik niet vragen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 03 Vraag van Evita Willaert aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De invloed van de coronacrisis op de genderongelijkheid op de arbeidsmarkt&quot; (55016276C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 03 Question de Evita Willaert à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;L'incidence de la crise du coronavirus sur les inégalités de genre sur le marché de l'emploi&quot; (55016276C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">03.01 Evita Willaert (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u8" who="#WillaertEvita" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg25" xml:lang="nl">Mevrouw de staatssecretaris, op 8 maart verscheen er een persbericht van de Nationale Bank over de invloed van de COVID-19-crisis op de genderongelijkheid op de arbeidsmarkt. Tot voor de crisis zagen we dat de werkgelegenheidsgraad van vrouwen al meer dan veertig jaar onafgebroken toenam. De centrale vraag is of de crisis tot een zwakkere positie voor vrouwen zou kunnen leiden op de arbeidsmarkt. In december 2021 verwachten we een studie over het effect van ouderschap op de loopbanen van vrouwen en mannen. U kondigde dat reeds aan in antwoord op een vorige vraag van mij. Het is daarop wachten, maar toch worden in deze studie al enkele interessante kernelementen opgeworpen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg26" xml:lang="nl">We weten allemaal dat loopbaanonderbreking en arbeidsduurvermindering vooral worden opgenomen door vrouwen. Dit werd nog versterkt tijdens de COVID-19-crisis. Ik ondervroeg u al eerder hierover. We zagen dat het coronaouderschapsverlof voor 71 % door vrouwen werd opgenomen. Een positieve noot is dat vaders meer betrokken waren bij de zorg voor de kinderen, hoewel dat nog steeds minder was dan bij vrouwen. Ziet U hierin kansen voor een structurele mentaliteitsverandering, en zo ja, op welke manier wil u deze versterken?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg27" xml:lang="nl">Uit het persbericht blijkt dat de toegang van vrouwen tot telewerk sterk is toegenomen: 42 % van de vrouwen ten opzichte van 37 % van de mannen. Dit brengt een kans om het evenwicht tussen werk en privéleven te verbeteren, maar het kan ook leiden tot grotere psychosociale risico's. Ziet u mogelijkheden om een proactief beleid te voeren om deze psychosociale risico's te beperken, en zo ja, op welke manier? Dit zal uiteraard gebeuren in samenwerking met de minister voor Werk.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg28" xml:lang="nl">Jammer genoeg zullen er na de coronacrisis faillissementen volgen, zo voorspellen ING-economen. Vrouwen hebben tijdens de crisis nog meer dan anders de zorg voor de kinderen opgenomen en waren daardoor ook minder uren aanwezig op de werkvloer. Hierdoor bestaat de vrees dat zij het eerste slachtoffer zullen worden van herstructureringen. Ziet u mogelijkheden om hierover een proactief beleid te voeren? Zo ja, op welke manier?</seg>
+                </u>
+                <note type="speaker">03.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u9" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg29" xml:lang="nl">Mevrouw Willaert, in het kader van het nationaal relanceplan heb ik een project van 3 miljoen euro ingediend, dat zich specifiek richt op de situatie van vrouwen op de post-COVID-19-arbeidsmarkt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg30" xml:lang="nl">Net zoals u ben ik bezorgd over de situatie van vrouwen op de arbeidsmarkt, niet alleen omdat hun situatie door COVID-19 is achteruitgegaan, maar ook omdat we in het relanceplan aandacht moeten hebben voor het feit dat niet alleen de sectoren worden gesteund die de tewerkstelling van mannen verbetert.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg31" xml:lang="nl">Mijn relanceproject bevat een analyse van de gendergelijkheid op de arbeidsmarkt. Het doel is om de problematiek van de gendergelijkheid op de arbeidsmarkt in het algemeen, maar ook de specifieke gevolgen van de covidcrisis, in kaart te brengen en op te volgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg32" xml:lang="nl">Via projectoproepen zal daarnaast gefocust worden op de inclusie van kwetsbare vrouwen op de arbeidsmarkt en de impact van de digitalisering.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg33" xml:lang="nl">Het project voorziet in een valorisatiefase om concrete beleidsaanbevelingen, opleidingsmaterialen, sensibiliseringsinstrumenten en tools te ontwikkelen. Er wordt ook een sensibiliseringscampagne gepland.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg34" xml:lang="nl">Het totale project heeft als doel de specifieke noden van kwetsbare vrouwen te identificeren en tools ter ondersteuning te ontwikkelen, maar ook om te sensibiliseren en een mentaliteitsverandering te verkrijgen. Er zal ook een gendermainstreaming op het totale relanceplan worden toegepast.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg35" xml:lang="nl">Op een transversale manier wordt het geheel van relancemaatregelen bekeken om te verzekeren dat de maatregelen geen genderongelijkheid in de hand werken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg36" xml:lang="nl">Het instituut is lid van de GT Impact op regeringsniveau dat het plan overziet.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">03.03 Evita Willaert (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u10" who="#WillaertEvita" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg37" xml:lang="nl">Mevrouw de staatssecretaris, ik denk dat u een aantal belangrijke zaken hebt gezegd.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg38" xml:lang="nl">De problematiek van de positie van vrouwen op de arbeidsmarkt was er al lang vóór COVID-19. Het is belangrijk om een algemene analyse te maken, met een bijzondere aandacht voor een aantal zaken die potentieel verslechterd zijn op de goede weg die we waren ingeslagen. We moeten daarvoor de nodige aandacht hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg39" xml:lang="nl">Wat u over de inclusie van meer kwetsbare vrouwen hebt gezegd, is ook zeer belangrijk, want er is natuurlijk ook een onderscheid te maken tussen verschillende groepen en verschillende kenmerken bij vrouwen. Het is vanuit een intersectioneel perspectief belangrijk om dat op die manier aan te pakken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg40" xml:lang="nl">Ik hoor ook graag dat er met concrete tools, handvatten en een sensibiliseringscampagne zal worden gewerkt. Heel belangrijk is ook dat gendermainstreaming op het hele beleid en het relanceplan wordt toegepast. Ik heb heel veel vertrouwen in iemand zoals u op die stoel om dat allemaal bijzonder goed in de gaten te houden, mevrouw de staatssecretaris.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 04 Questions jointes de</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Patrick Prévot à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Le dernier rapport du WEF sur l'égalité hommes-femmes&quot; (55016388C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Sophie Rohonyi à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La hausse des inégalités de genre durant la crise et le plan de relance&quot; (55018467C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 04 Samengevoegde vragen van</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Patrick Prévot aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het jongste rapport van het WEF over gendergelijkheid&quot; (55016388C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Sophie Rohonyi aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De toename van de genderongelijkheid tijdens de crisis en het herstelplan&quot; (55018467C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">04.01 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u11" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg41" xml:lang="fr">Madame la secrétaire d'État, le rapport du Forum Économique Mondial (WEF) 2020 sur l'égalité hommes-femmes révèle que la pandémie a ralenti une fois de plus le processus égalitaire. Il faudra aujourd'hui 36 ans de plus pour combler les écarts, ce qui amène au total de 135,6 années pour parvenir à l'égalité à l'échelle mondiale. Au niveau belge, la pandémie semble avoir impacté plus les femmes que les hommes mais dans une moindre mesure. Malheureusement, nous ne sommes que 13è sur cette liste. Si, au niveau de l'éducation et de la santé, nous atteignons une égalité presque parfaite, force est de constater qu'au niveau des opportunités et de la participation économique ainsi qu'au niveau politique, nous avons encore de gros efforts à fournir. Les postes à haute responsabilité restent par exemple majoritairement l'affaire des hommes ainsi que les affaires politiques même si, et il faut le souligner, une avancée importante a été réalisée par ce gouvernement qui est aujourd'hui parfaitement égalitaire.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg42" xml:lang="fr">Madame la secrétaire d'État, avez-vous pris connaissance de ce rapport? Quelles sont vos impressions par rapport à celui-ci? Quels sont, selon vous, les chantiers prioritaires pour parvenir à une meilleure égalité, notamment en termes de participation économique et politique? Quelles initiatives comptez-vous prendre à court et moyen terme dans ce cadre? Je vous remercie pour vos réponses.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: En conséquence, quel suivi donnez-vous à l’implémentation des recommandations du groupe de travail 'Impact' dans le plan de relance fédéral? De quelle façon comptez-vous vous investir dans la demande de contrôle démocratique du Parlement européen de la mise en œuvre des plans de relance nationaux, pour ce qui a trait à la lecture genrée de notre plan? Une étude nationale sur l’impact de la crise sanitaire sur l’égalité des genres en Belgique est-elle ou va-t-elle être menée afin de répondre au mieux à cet impact négatif? Quelles mesures comptez-vous prendre pour pallier la recrudescence des inégalités de genre?</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">04.03 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u12" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg43" xml:lang="fr">Madame Rohonyi, monsieur Prévot, j'ai bien pris connaissance du rapport du Forum Économique Mondial 2020 sur l'égalité hommes-femmes. Cette crise, comme d'autres avant elle dans l'histoire, a un impact bien plus important sur les femmes que sur les hommes, et ce dans tous les domaines de la société.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg44" xml:lang="fr">Comme vous le rappelez dans votre question, madame Rohonyi, dans le cadre du plan de relance, à ma demande, l'Institut pour l'égalité des femmes et des hommes (IEFH) fera partie du GT Impact afin d'évaluer l'impact des projets du plan de relance quant aux inégalités entre les hommes et les femmes. Je me réjouis du cadre qui a été posé lors des négociations pour le plan de relance. C'est mon collègue Thomas Dermine qui a affirmé à plusieurs reprises l'importance de prendre en compte l'égalité entre les hommes et les femmes dans le cadre du plan de relance. Il en est le garant.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg45" xml:lang="fr">La Commission européenne a également rappelé aux États membres l'importance de l'égalité des chances et des genres et les a invités à en tenir compte dans leur plan de relance. Au-delà de la démarche globale, j'ai obtenu qu'un projet spécifique pour l'emploi des femmes soit financé via ce plan.  Doté d'un budget de trois millions d'euros, le projet a pour objectif d'augmenter le taux d'emploi des femmes, en particulier des plus vulnérables.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg46" xml:lang="fr">Pour rappel, en 2019, le taux d'emploi des femmes n'était que de 66,5 %, alors que celui des hommes était de 74,5 %. En 2018, seulement 24 % des 15-64 ans en situation de handicap avaient un emploi. Le taux d'emploi des ressortissants hors UE est quant à lui de 52 %. Les femmes au croisement de ces critères ont donc moins de chances de trouver un emploi. Ce sont vers les groupes les plus vulnérables que je compte diriger le projet. Je m'engage à vous présenter le projet développé au sein de l'IEFH dès que les premiers résultats seront disponibles.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg47" xml:lang="fr">La lutte contre le harcèlement sur le lieu du travail est également l'une de mes priorités. Il ne suffit pas d'entrer sur le marché de l'emploi, encore faut-il pouvoir ou vouloir y rester. Si du harcèlement, sexuel en particulier, est présent dans l'environnement de travail, les femmes qui y sont confrontées vont le quitter pour autant que leur situation économique le permette. Dans ce cadre, il est urgent de ratifier et mettre en œuvre la convention 190 de l'OIT concernant l'élimination de la violence et du harcèlement dans le monde du travail.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg48" xml:lang="fr">Je compte également agir contre le plafond de verre qui empêche les femmes d'accéder à des fonctions de  top management. À cet égard, la loi quotas impose aux entreprises publiques et cotées en bourse de compter un tiers de femmes dans leur CA. Cette loi a fait ses preuves puisque actuellement, les femmes sont trois fois plus nombreuses dans les CA en dix ans, tandis que 80 % des entreprises se sont conformées à cette loi.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg49" xml:lang="fr">Certains défis restent encore à relever. Des chiffres récents ont montré qu'elles ne sont que 5 % à occuper des places de présidentes. Il y a également des bonnes pratiques à favoriser, comme la présence des femmes à des postes à responsabilités, qu'il faut pouvoir développer, notamment à travers l'exemplarité des pouvoirs publics.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">04.04 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u13" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg50" xml:lang="fr">Effectivement, madame la secrétaire d'État, l'égalité femmes-hommes n'a malheureusement pas été épargnée par la pandémie. Merci de nous avoir présenté la situation et d'avoir rappelé les priorités qui sont les vôtres. On vous sait attentive à tout cela, et nul doute que ce gouvernement continuera à œuvrer dans le bon sens, notamment pour accéder à une place un peu plus enviable au niveau européen, même si, comme je l'ai signalé dans ma question, la composition paritaire de ce gouvernement est de nature à faire remonter la Belgique dans le classement. Je ne manquerai pas de revenir vers vous dans les semaines et les mois à venir.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.05 Sophie Rohonyi (DéFI):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u14" who="#RohonyiSophie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg51" xml:lang="fr">Madame la secrétaire d'État, merci pour votre réponse circonstanciée. Il me semble que mon collègue posera tout à l'heure une question sur le  gender mainstreaming. Il faut y veiller dans l'ensemble de nos politiques et aussi intégrer la dimension de genre dans tous les aspects du plan de relance. C'est la volonté de votre gouvernement et je vous en remercie. L'enjeu est vraiment d'éviter que cet après-crise ne continue à creuser les inégalités entre les hommes et les femmes. Je suis donc heureuse d'entendre qu'un budget spécifique est prévu pour augmenter le taux d'emploi des femmes. Je serais néanmoins curieuse de connaître sa ventilation. Comme on le sait, les besoins du secteur sont extrêmement importants. On vient de loin. Je sais que la volonté politique est là. Je vous remercie pour cet engagement car il s'agit non seulement d'une question d'égalité mais aussi d'émancipation et de bon sens économique. Si on veut un plan de relance économique ambitieux et efficace, on se doit de soutenir la moitié de la population.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 05 Vraag van Valerie Van Peel aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Slachtoffers van IFG die terug naar huis worden gestuurd&quot; (55016424C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 05 Question de Valerie Van Peel à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les victimes de VIF renvoyées à leur domicile&quot; (55016424C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">05.01 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u15" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg52" xml:lang="nl">Dit is een vervolgvraag op een schriftelijke vraag die ik u had gesteld en waarop u zeer correct met cijfers hebt geantwoord. Toen ik de cijfers kreeg, had ik echter het gevoel dat ik daarop nog wat verder moest inzoomen. In mijn schriftelijke vraag nr. 47 vroeg ik u naar de cijfergegevens over het aantal meldingen van slachtoffers van intrafamiliaal geweld bij de zorgcentra en op welke manier die slachtoffers worden opgevangen nadat ze de juiste zorg hadden gekregen. Dat is het vervolgtraject.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg53" xml:lang="nl">Uw antwoord ging vooral over de algemene cijfers van slachtoffers van seksueel geweld, dus ook die wanneer de dader niet binnen het huisgezin woont. Het is evident dat slachtoffers van intrafamiliaal geweld, seksueel geweld of misbruik niet kunnen terugkeren naar een veilige thuisomgeving als de dader zich daar ook bevindt. Dat was moeilijk af te leiden uit uw antwoord op mijn vragen, omdat die splitsing niet werd gemaakt. Dat is de enige reden waarom ik een vervolgvraag stel.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg54" xml:lang="nl">Kan u mij ook de cijfergegevens bezorgen over het aantal slachtoffers van intrafamiliaal of seksueel geweld en misbruik dat toch terug naar huis wordt gestuurd? Wat is de reden daarvoor? Worden zij op een andere manier opgevolgd? Hangt er een kostprijs aan vast voor de slachtoffers?</seg>
+                </u>
+                <note type="speaker">05.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u16" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg55" xml:lang="nl">Bedankt voor uw vraag, mevrouw Van Peel. In het antwoord op schriftelijke vraag nr. 47 werden de beschikbare cijfers gecommuniceerd met betrekking tot het aantal slachtoffers waarvan de pleger uit de familiale context afkomstig is, en het aantal slachtoffers dat na een aanmelding in het zorgcentrum niet terugkeert naar huis. Het aantal slachtoffers van intrafamiliaal geweld dat niet kan terugkeren naar huis na een bezoek aan een Zorgcentrum na Seksueel Geweld wordt niet als dusdanig geregistreerd. De veiligheid van alle slachtoffers is een van de grootste bekommernissen van het zorgcentrum. In samenspraak met het slachtoffer wordt er daarom steeds een veiligheidsplan opgemaakt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg56" xml:lang="nl">Daarbij wordt nagegaan of het opportuun is dat een slachtoffer, na haar bezoek aan het zorgcentrum, terugkeert naar huis of dat er andere opties moeten worden bekeken, zoals een vluchthuis. In het model &quot;Zorgcentrum na Seksueel Geweld&quot; wordt bovendien gewerkt met een specifieke meldcode die ZSG-personeelsleden richtlijnen geeft bij het inschatten van een situatie van ernstig en dreigend gevaar voor het slachtoffer, in het bijzonder inzake intrafamiliaal geweld. In functie van de noden van een slachtoffer wordt er bovendien steeds voorzien in een warme doorverwijzing naar specifieke hulpverleningsinstanties. De zorg en opvolging van slachtoffers door de ZSG-personeelsleden zijn steeds een gratis dienstverlening.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">05.03 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u17" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg57" xml:lang="nl">Mevrouw de staatssecretaris, misschien zou dat wel geregistreerd moeten worden, omdat een beleid onderbouwd met reële cijfers altijd opbrengt. Uw antwoord is voor de rest natuurlijk veel belangrijker. U spreekt over een warme doorverwijzing. Daaruit begrijp ik dat er naar een oplossing wordt gezocht, zeker bij financiële problemen, zodat niemand naar huis wordt gestuurd omdat men een bepaalde opvang niet kan betalen. Dat is al heel belangrijk. Als ze wel terug naar huis gaan, ook al zit daar de dader, blijft er een opvolging vanuit het zorgcentrum. Zo heb ik uw antwoord begrepen. Klopt dat? Dan ben ik zeer tevreden met uw antwoord.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 06 Vraag van Valerie Van Peel aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Subsidies en toelagen in het kader van gelijke kansen&quot; (55016662C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 06 Question de Valerie Van Peel à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les subsides et subventions dans le cadre de l'égalité des chances&quot; (55016662C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">06.01 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u18" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg58" xml:lang="nl">Voor het Verslag is het belangrijk te melden dat er een nul te veel geslopen is in het antwoord van de staatssecretaris. Dat kan gebeuren. Geen enkel probleem.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg59" xml:lang="nl">Ik houd mijn vraag aan, maar ik verwijs naar mijn schriftelijke vraag.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het Instituut voor de gelijkheid van vrouwen en mannen geeft structurele werkingssubsidies aan vijf verenigingen die actief zijn op het vlak van gendergelijkheid op basis van artikel 4, 4° uit de oprichtingswet van 16 december 2002. Daarnaast geeft het Instituut ook structurele werkingssubsidies aan zes ziekenhuizen, vijf politiezones en vijf politieopleidingen op basis van artikel 5 van de oprichtingswet van 16 december 2002.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Mevrouw de staatssecretaris, uit gegevens opgevraagd (vraag nr. 44) door mijn collega Kamerlid Sander Loones (N-VA) blijkt dat er voor een totaal van 4.951.414 euro aan middelen richting de uitbouw van de Zorgcentra na Seksueel geweld vloeien. Dit kan ik uiteraard alleen maar aanmoedigen. Uit dezelfde gegevens blijkt echter dat de vzw Amazone, in het kader van gendergelijkheid, 4.500.000 euro aan subsidies ontvangt. Dat vind ik toch wel opvallend. De subsidie voor vzw Amazone is een werkingssubsidie om de personeels- en werkingskosten te ondersteunen die voortvloeien uit hun structurele werking met een continu en permanent karakter. Maar dan nog is het niet geheel duidelijk waarom die zo hoog is.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Kan u verklaren waarom vzw Amazone, die werkt rond gendergelijkheid, bijna evenveel middelen ontvangt als de 16 initiatieven voor de uitbouw van ZSG samen? Welke resultaten worden er precies van vzw Amazone verwacht? Ook in vergelijking met de andere organisaties die werken rond gendergelijkheid is het verschil opmerkelijk. Hoe moeten we dit lezen? Hoe evalueert u de 5 verenigingen rond gendergelijkheid en de 16 initiatieven rond ZSG?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">06.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u19" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg60" xml:lang="nl">Mevrouw Van Peel, eerst en vooral, er is een fout geslopen in de tabel bij het antwoord op vraag nr. 44. De vzw Amazone ontvangt 450.000 euro en geen 4.500.000. Wij zetten deze fout ook recht voor uw collega, de heer Loones.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg61" xml:lang="nl">Het aantal ondersteunde organisaties is tijdens de afgelopen legislaturen ongewijzigd gebleven. Op de bedragen ter ondersteuning van deze organisaties werden tijdens de vorige legislaturen bepaalde besparingen toegepast.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg62" xml:lang="nl">De vzw Amazone heeft drie grote missies waarvoor zij structurele werkingsmiddelen ontvangt. Ten eerste, het ondersteunen van vrouwenverenigingen, onder meer door de verenigingen huisvesting, een congres en een vergaderinfrastructuur aan te bieden. Ten tweede, het ondersteunen van een effectieve en efficiënte werking van de vrouwenverenigingen. Ten derde, het stimuleren van acties en evenementen die synergieën en uitwisselingen tussen vrouwenverenigingen faciliteren.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg63" xml:lang="nl">Elke organisatie moet jaarlijks een begroting en een werkplan met concrete doelstellingen indienen bij het Instituut voor de gelijkheid van vrouwen en mannen. Deze begroting en deze werkplannen worden goedgekeurd door de raad van bestuur van het instituut. Elke subsidie die toegekend wordt, zowel die aan de zorgcentra als die aan de vrouwenorganisaties, wordt grondig nagekeken. Het saldo wordt pas uitbetaald na goedkeuring door de raad van bestuur van het instituut, en dit op basis van een grondige controle van het financieel en inhoudelijk eindverslag van elke organisatie.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">06.03 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u20" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg64" xml:lang="nl">Dank u wel, mevrouw de staatssecretaris. U snapt inderdaad dat mijn vraag iets relevanter zou zijn, mocht dat nulletje correct zijn. Dan ging het over 4.500.000 euro. Het is wel wat minder.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg65" xml:lang="nl">Wat ik u toch wil meegeven, is dat in Vlaanderen een discussie loopt over subsidiestromen, door bepaalde zaken die naar boven gekomen zijn in die stromen. Daarom stellen wij vragen over de controle op subsidiestromen naar allerlei vzw's. Daar komt mijn vraag vandaan.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg66" xml:lang="nl">Als ik die verschillende subsidies op een rij zie, vrees ik dat enorm veel geld verloren gaat aan versnippering. Ik hoop dat het voor u geen taboe is om dat eens van naderbij te bekijken. Moeten de middelen waarover u beschikt om werk te maken van de gelijkheid van vrouwen en mannen niet rechtstreeks bij de onderlaag terechtkomen in de plaats van via tussenliggende structuren? Deze oefening is wat mij betreft niet alleen voor u, maar voor elke minister een uitdaging.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 07 Questions jointes de</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Sophie Rohonyi à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La précarité et l'endettement des familles monoparentales&quot; (55016731C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Els Van Hoof à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les parents isolés et l'impact du Covid-19&quot; (55018441C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 07 Samengevoegde vragen van</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Sophie Rohonyi aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De bestaansonzekerheid en de schuldenlast van eenoudergezinnen&quot; (55016731C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Els Van Hoof aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Alleenstaande ouders en de impact van COVID-19&quot; (55018441C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 07.01 Sophie Rohonyi (DéFI):</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Madame la secrétaire d’État, la précarité et l’endettement des familles monoparentales, composées pour la plupart de mères célibataires, font partie de ces situations qui se sont vues aggravées avec la crise sanitaire. Cette situation concerne une famille sur deux, puisque 45 % des ménages sont constitués de familles monoparentales ou de personnes isolées. Le gouvernement bruxellois a mis en place un groupe de travail chargé d’apporter des réponses à ces familles et ce, en vue de les protéger des violences économiques qu’elles subissent au quotidien, et d’ainsi permettre à leurs enfants de s’émanciper, de pouvoir participer aux voyages scolaires, aux activités extrascolaires, de faire des études...</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De manière générale, le soutien apporté à ces familles est insuffisant et ne répond pas à un problème encore trop récurrent: l’impossibilité pour les mères concernées de récupérer les pensions alimentaires auprès des pères qui ont organisé leur insolvabilité. La condition d’un faible revenu pour pouvoir bénéficier du SECAL a été supprimée afin que ce service soit accessible à toutes les femmes confrontées au refus du père de contribuer à l’entretien des enfants. Cependant, plusieurs dispositions perpétuent des mécanismes qui appauvrissent ces femmes et leurs enfants.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Il est par exemple impossible de récupérer les sommes impayées en raison d’un délai de prescription de 5 ans. Les pensions alimentaires impayées depuis de nombreuses années entraînent ainsi ces mères dans une spirale infernale d’endettement et d’isolement.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Le collectif “Mamans solos” regroupant 200 familles a ainsi publié une carte blanche en vue de formuler des demandes concrètes au gouvernement fédéral, dont la révision de la procédure de règlement collectif de dettes.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Par conséquent, madame la secrétaire d’État, quelles mesures mettez-vous en place pour aider ces familles monoparentales? Avez-vous rencontré le collectif “Mamans solos” et quel suivi leur avez-vous proposé? La task force “Groupes vulnérables” du SPF Intégration sociale tient-elle compte de leur situation dans ses travaux et surtout dans ses propositions? Allez-vous renforcer l’intervention du SECAL auprès des familles monoparentales? Dans l’affirmative, comment? Entendez-vous réformer la procédure de règlement collectif de dettes?</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">07.02 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u21" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg67" xml:lang="fr">Monsieur le président, comme les questions étaient jointes, j'ai préparé une réponse un peu plus longue. Comment peut-on arranger cela?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">Le président:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u22" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg68" xml:lang="fr">Une question n'a effectivement pas été posée. Si vous savez scinder les réponses, vous répondez à Mme Rohonyi. Par contre, s'il s'agit d'une réponse globale, vous nous en donnez lecture. Cela semble plus simple.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">07.03 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u23" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg69" xml:lang="fr">Très bien. Faisons comme cela!</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">07.04 Staatssecretaris Sarah Schlitz :</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u24" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg70" xml:lang="nl">De uitvoering van de wet betreffende gendermainstreaming van 2007 is een van mijn prioriteiten.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg71" xml:lang="fr">Le 24 mars dernier, les politiques du gouvernement qui présentent une dimension de genre significative ont fait l'objet d'une très large consultation de la société civile. Durant cette consultation, plusieurs associations ont attiré l'attention sur la situation des familles monoparentales, notamment en ce qui concerne le paiement des pensions alimentaires, l'intégration sur le marché de l'emploi, les droits individuels, la charge mentale, la santé mentale ou encore la conciliation entre vie privée et vie professionnelle. Ces différentes recommandations ont été transmises aux ministres compétents.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg72" xml:lang="nl">Mijn bijzondere aandacht gaat uit naar eenoudergezinnen, waarbij het in 80 % van de gevallen gaat om alleenstaande moeders.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg73" xml:lang="fr">Le 26 mars dernier, j'ai eu l'occasion d'échanger avec plusieurs membres du collectif des familles monoparentales. Le 31 mars, j'ai également rencontré l'association des Merveilleuses qui est également constituée de mamans solos.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg74" xml:lang="fr">Concrètement, le gouvernement s'est engagé à mettre en œuvre les recommandations de la Cour des comptes en ce qui concerne le SECAL.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg75" xml:lang="fr">Nous prendrons les mesures nécessaires pour accélérer l'octroi d'un accusé de réception au profit du créancier en cas de non-paiement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg76" xml:lang="nl">Ik zal uiteraard samenwerken met minister Van Peteghem om eenoudergezinnen beter te beschermen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg77" xml:lang="fr">Dans le cadre de la  task force &quot;groupes vulnérables&quot;, coordonnée par la ministre Lalieux, des mesures générales peuvent également s'adresser à des familles monoparentales. À titre d'exemple, les CPAS ont reçu une allocation de 10 millions pour développer  de nouvelles actions ou renforcer des projets en matière de santé mentale, de bien-être psychologique et d'accompagnement pédagogique.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg78" xml:lang="fr">Concernant votre question sur la procédure de règlement collectif de dettes, lorsque l'ex-conjoint s'est rendu insolvable, de nombreuses femmes avec enfant se retrouvent seules à devoir rembourser des dettes contractées pendant la vie commune. C'est, bien entendu, une charge économique qui pèse d'autant plus dans les ménages à un seul revenu. La situation s'est aggravée par la baisse ou l'absence de revenu, consécutivement à l'arrêt de l'activité économique en raison des mesures de lutte contre le covid-19.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg79" xml:lang="nl">Met de bevoegde ministers wil ik ook de mogelijkheid onderzoeken om de schulden van ex-partners kwijt te geraken. Ik twijfel er niet aan dat u hen eveneens over deze kwestie zult aanspreken.</seg>
+                </u>
+                <note type="speaker">07.05 Sophie Rohonyi (DéFI):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u25" who="#RohonyiSophie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg80" xml:lang="fr">Merci madame la secrétaire d'État pour votre réponse circonstanciée. Je vous remercie vraiment pour votre engagement à soutenir ces familles monoparentales qui représentent, à Bruxelles, une famille sur trois. Cela démontre l'ampleur de ce phénomène, phénomène qui met une pression financière extrêmement importante sur les femmes, car ce sont principalement des femmes qui sont concernées. Elles me disent très souvent qu'elles ne peuvent pas tomber malades, qu'elles ne peuvent pas avoir un coup de mou, sous peine de crouler sous les dettes et de ne pas pouvoir assumer des frais financiers. Elles se doivent d'assumer ces frais pour elles-mêmes, mais aussi pour leurs enfants. J'entends même que certaines d'entre elles, parce qu'elles n'arrivent pas à joindre les deux bouts, préfèrent faire placer leurs enfants.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg81" xml:lang="fr">Je suis très heureuse de vous entendre dire qu'une concertation existe avec les femmes en question, avec les associations qui les représentent. Mais je pense aussi qu'il faut davantage travailler avec les autres niveaux de pouvoir, puisqu'on touche ici aux questions relatives aux allocations familiales, aux tarifs avantageux pour les services, transports, etc., pour lesquels les entités fédérées sont compétentes. Il y a aussi la question du congé parental, qui relève du fédéral.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg82" xml:lang="fr">J'entends votre volonté de mettre en œuvre les recommandations relatives au Service des créances alimentaires (SECAL), qui nous tiennent fort à cœur car DéFI est à l'origine de ce service qui date de 2004. Cependant, le SECAL est sous-financé et je me demande si l'évaluation de ce service a aussi porté sur son financement. Celui-ci ne tient pas compte des frais extraordinaires, par exemple lorsqu'un enfant a besoin de porter des lunettes.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg83" xml:lang="fr">Je vous invite, à côté de la concertation que vous avez mise en œuvre avec le secteur associatif, à travailler davantage avec vos homologues, dans la Conférence interministérielle groupes vulnérables et dans celle dédiée aux droits des femmes. Pourquoi ne pas regrouper à un moment les travaux de ces conférences interministérielles afin de se saisir de ces questions fondamentales?</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 08 Questions jointes de</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Patrick Prévot à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Le rapport d'Unia et Myria pour le Comité de l'ONU pour l'élimination de la discrimination raciale&quot; (55016836C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Els Van Hoof à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Le plan national de lutte contre le racisme&quot; (55018440C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Sophie Rohonyi à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La mise en place du plan d'action interfédéral de lutte contre le racisme&quot; (55018470C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Eva Platteau à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Le comité des Nations Unies pour l'élimination de la discrimination raciale (CERD)&quot; (55018137C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 08 Samengevoegde vragen van</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Patrick Prévot aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het verslag van Unia en Myria voor het VN-Comité inzake de uitbanning van rassendiscriminatie&quot; (55016836C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Els Van Hoof aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het nationaal actieplan tegen racisme&quot; (55018440C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Sophie Rohonyi aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De totstandkoming van een interfederaal actieplan tegen racisme&quot; (55018470C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Eva Platteau aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het VN-comité voor de uitbanning van rassendiscriminatie (CERD)&quot; (55018137C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 08.01 Patrick Prévot (PS):</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Madame la secrétaire d'État, dans leur rapport parallèle de 2021 pour le Comité des Nations Unies pour l'élimination de la discrimination raciale, les deux organisations dressent un bilan des diverses discriminations et atteintes aux droits humains dans notre pays.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Dans ce texte, UNIA et Myriam formulent après chaque thématique une série de recommandations ayant pour but d'améliorer la situation en Belgique. Deux d'entre elles attirent particulièrement mon attention:</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 1. L'adoption d'un plan d'action interfédéral ambitieux de lutte contre le racisme pour la fin de l'année 2021 et la mise en place d'un organe de suivi de sa mise en œuvre.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 2. La conclusion d'un accord de coopération entre l'État fédéral et les entités fédérées en vue de permettre à l'Institut des droits humains d'avoir une compétence territoriale sur tout le territoire belge et une compétence matérielle couvrant tous les niveaux de pouvoir.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Dans l'accord de gouvernement nous pouvons lire ceci: &quot;un Institut des droits humains performant doté d'un statut international A, sera constitué au cours de cette législature. Nous créerons un institut interfédéral des droits humains disposant d'une procédure de plainte&quot;. Où en sommes-nous dans ce cadre?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Le plan d'action interfédéral national de lutte contre le racisme pourra-t-il effectivement voir le jour d'ici la fin de l'année? Où en sont les consultations avec la société civile? Quel sera l'organe de suivi désigné pour assurer sa mise en œuvre?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 08.02 Sophie Rohonyi (DéFI):</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Madame la secrétaire d’État, voici plus de vingt ans que les gouvernements successifs nous promettent un plan d’action interfédéral de lutte contre le racisme. C’est également l’un de vos engagements, contenu tant dans votre note de politique générale que dans votre exposé d’orientation politique.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Vous le rappeliez également en mars dernier : le but est d’aboutir cette année avec des propositions concrètes, élaborées au sein de la conférence interministérielle chargée de la lutte contre le racisme. Les trois Régions étant présentes au sein de cette Conférence, les différentes visions de l’intégration de celles-ci ont souvent été mises en avant pour expliquer les difficultés d’établir ce plan.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: En 2018, le Conseil de l’Union européenne adoptait la Déclaration sur la lutte contre l'antisémitisme et la mise en place d'une approche commune en matière de sécurité afin de mieux protéger les communautés et institutions juives en Europe. Chez nous aussi, le Sénat a adopté le 14 décembre 2018 une résolution relative à la lutte contre l’antisémitisme qui vise notamment à instituer un coordinateur national chargé de la lutte contre l’antisémitisme, à l’image de ce qui a été instauré aux Pays-Bas.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Au vu de cette déclaration et de cette résolution, il est permis de se demander comment l’antisémitisme sera articulé dans le futur plan d’action de lutte contre le racisme, afin de prendre en considération au mieux ces deux textes. Dans la même lignée, l’on se demande de si les besoins spécifiques de chaque groupe “racisé” seront pris en compte et de quelle manière.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: En conséquence, madame la secrétaire d’État, quel est l’état d’avancement du plan d’action national de lutte contre le racisme? Pourriez-vous avancer une date estimative de clôture des travaux? Les divergences de visions de la notion d’intégration entre les Régions retardent-elles l’élaboration de ce plan? Quel est le suivi donné de façon générale à la résolution adoptée par le Sénat le 14 décembre 2018?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Un coordinateur national chargé de la lutte contre l’antisémitisme sera-t-il nommé? Dans la positive, une telle mesure sera-t-elle prise pour les autres groupes racisés? De quelle façon la forme de racisme que constitue l’antisémitisme sera-t-elle articulée dans le plan? Les besoins spécifiques de chaque groupe racisé seront-ils pris en considération?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">08.03 Eva Platteau (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u26" who="#PlatteauEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg84" xml:lang="nl">Mijnheer de voorzitter, eind april 2021 heeft het VN-Comité inzake de uitbanning van rassendiscriminatie een rapport gepubliceerd waarin de situatie in België onder de loep wordt genomen. Het comité komt met een aantal aanbevelingen. Ik zou graag uw reacties op die aanbevelingen horen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg85" xml:lang="nl">De eerste aanbeveling is om een nationaal actieplan tegen racisme aan te nemen. Naar aanleiding van deze aanbeveling zou ik willen vragen hoever u staat met het interfederaal actieplan tegen racisme. Welke organisaties zijn betrokken bij het ontwerp ervan? Wanneer mogen we het actieplan verwachten?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg86" xml:lang="nl">Het rapport gaat ook in op racistische haatpraat. Welke acties plant u op dat gebied?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg87" xml:lang="nl">Wat de situatie van de Roma betreft, beveelt het rapport aan om een nieuwe strategie voor de integratie van Roma aan te nemen. Heeft u hiervoor in speciale acties voorzien?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">08.04 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u27" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg88" xml:lang="fr">Monsieur Prévot, madame Rohonyi, madame Platteau, le Parlement fédéral a adopté le 25 avril 2019 la loi portant sur la création de l'Institut des droits humains. Le gouvernement actuel s'est fixé pour objectif de doter la Belgique d'un institut à la fois performant et disposant d'un statut international dans le respect des principes de Paris. Cet engagement a été rappelé lors du récent examen périodique universel de la Belgique. Cet Institut devrait être pleinement opérationnel en juillet. L'idée est aussi qu'il soit interfédéral. Les entités fédérées seront donc étroitement associées à cette discussion.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg89" xml:lang="nl">Wat het interfederaal actieplan tegen racisme betreft, is het inderdaad 20 jaar geleden dat België zich geëngageerd heeft in dit verband. Gedurende al die tijd hebben de verschillende regeringen geen vooruitgang geboekt. We kunnen niet langer wachten. Vanuit het besef van urgentie verbind ik mij ertoe alles te doen opdat het plan wordt aangenomen voor het einde van dit jaar. Ik hoop dat mijn collega's binnen de IMC dit urgentiebesef delen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg90" xml:lang="fr">L'objectif ultime est de parvenir à un plan d'action qui ait un impact dans la lutte contre toutes les formes de racisme, comme défini par la loi. Le plan d'action constitue un cadre inclusif de lutte contre le racisme sous toutes ses formes. Le processus d'élaboration de ce plan est interfédéral et participatif. Cela demande donc de l'exigence et du temps, le temps nécessaire pour faire participer toutes les parties prenantes.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg91" xml:lang="nl">Ik heb altijd gepleit voor de participatie van Unia en het middenveld bij de opmaak van het plan.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg92" xml:lang="fr">Des groupes de travail techniques, coordonnés par les administrations fédérales et fédérées concernées, ont élaboré le projet de plan. Unia et la coalition NAPAR y ont participé.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg93" xml:lang="nl">Ondertussen zijn er al concrete tekstvoorstellen die wij op politiek niveau bespreken. Voor mij is het belangrijk dat het middenveld daarna ook betrokken blijft. Wij willen daarom een opvolgingscomité oprichten voor de uitvoering en evaluatie van het plan, waaraan ook het middenveld deelneemt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg94" xml:lang="fr">Ce comité devrait être constitué entre autres des administrations fédérales et fédérées de l'égalité des chances, des organes de promotion de l'égalité tels qu'Unia, des représentants des villes et des communes et d'associations de lutte contre le racisme.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg95" xml:lang="fr">Outre le plan NAPAR, je me consacrerai également, dans le cadre de mes compétences, à des groupes cibles spécifiques dans la lutte contre l'antisémitisme, l'afrophobie, l'islamophobie et la discrimination des personnes roms. La résolution du Sénat du 14 décembre 2018 sera examinée dans ce contexte.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg96" xml:lang="nl">Het CERD-rapport beveelt inderdaad aan noodzakelijke maatregelen te nemen om racistische haatpraat te voorkomen en te bestrijden.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">08.05 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u28" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg97" xml:lang="fr">Madame la secrétaire d'État, je vous remercie pour votre réponse détaillée. En ce qui me concerne, j'ai eu la réponse à toutes mes questions.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.06 Sophie Rohonyi (DéFI):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u29" who="#RohonyiSophie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg98" xml:lang="fr">Madame la secrétaire d'État, je vous remercie pour votre réponse.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg99" xml:lang="fr">J'entends votre volonté de concrétiser ce point très important qui était contenu dans l'accord de gouvernement, et qui mentionnait aussi un calendrier de mise en œuvre et une définition concrète des responsabilités. À ce niveau, je vous avoue que j'y vois un peu moins clair.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg100" xml:lang="fr">Toutefois, je me dois de saluer notamment votre engagement, puisqu'il ne figurait pas dans l'accord de gouvernement, de mettre un accent sur certains groupes cibles, puisque le racisme n'est pas forcément vécu de la même manière selon le groupe cible dans lequel on se trouve. Le racisme ne s'exprime pas de la même manière selon l'ethnie qui est visée.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg101" xml:lang="fr">Je me permets aussi d'attirer votre attention sur la nécessité de traiter ce problème du racisme comme un problème structurel. Je sais que vous en avez conscience. Le racisme s'exprime sur la voie publique, mais aussi dans la sphère virtuelle. Nous devons tenir compte de ce problème de la cyberhaine et, pour cela, tenir compte de l'évolution des technologies. Cela ne sera pas une mince affaire.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg102" xml:lang="fr">Par ailleurs, je souhaite aussi appuyer deux demandes qui sont formulées par Unia en particulier. Comme vous les avez consultés, je ne doute pas que ces demandes seront prises en compte. Il s'agit de la mise en place d'un organe de suivi de la mise en œuvre de ce plan. En effet, après sa mise en œuvre, il faut veiller à sa bonne application et à son efficacité par rapport, notamment, à tous les groupes cibles qu'il convient de protéger contre le racisme. Il s'agit également de garantir la participation de la société civile et d'académiques à toutes les étapes clés de l'élaboration de ce plan d'action. Unia est le partenaire privilégié dans l'élaboration de ce plan, mais je pense que tout un pan de la société civile mérite aussi d'être entendu dans ce contexte.</seg>
+                </u>
+                <note type="speaker">08.07 Eva Platteau (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u30" who="#PlatteauEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg103" xml:lang="nl">Mevrouw de staatssecretaris, dank voor uw antwoord. Het is inderdaad al 20 jaar geleden dat België zich ertoe verbond een interfederaal actieplan tegen racisme op te stellen. Het is problematisch dat dat plan er nog altijd niet is. Toch is het goed dat u de urgentie ervan inziet en dat u er werk van maakt. Racisme is immers een belangrijk maatschappelijk probleem, zoals de actualiteit helaas geregeld aantoont. Ook het rapport van het VN-Comité drukt ons met de neus op de feiten. In de aanbevelingen worden we aangespoord om actie te ondernemen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg104" xml:lang="nl">U zegt dat we het plan mogen verwachten tegen het einde van het jaar. Daar kijken we naar uit. Het middenveld moet sterk worden betrokken bij de opmaak van dat plan, want het zal een belangrijke rol spelen bij de invoering ervan.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg105" xml:lang="nl">Mijn vraag over de situatie van de Roma, waarover ook een aanbeveling werd gepubliceerd, hebt u volgens mij niet beantwoord. Daarop kunnen we wellicht later nog eens terugkomen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 09 Question de Patrick Prévot à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Le gender mainstreaming et le test genre&quot; (55016837C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 09 Vraag van Patrick Prévot aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Gendermainstreaming en gendertests&quot; (55016837C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">09.01 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u31" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg106" xml:lang="fr">Monsieur le président, madame la secrétaire d'État, le Conseil bruxellois de l'Égalité entre les Femmes et les Hommes (CEFH) a publié un rapport sur l'impact du covid sur les inégalités entre les femmes et les hommes. Ce texte, bien que régional, présente des discriminations qui dépassent les frontières de nos niveaux de pouvoir. C'est pourquoi je me permets de vous questionner aujourd'hui à ce sujet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg107" xml:lang="fr">Comme nous le savons, les femmes sont largement plus touchées par la crise que les hommes, que cela soit en termes d'emploi, de salaire, de formation ou de santé mentale. Ce sont majoritairement des métiers féminins qui ont été en première ligne durant la pandémie (soignantes, caissières, aides ménagères, etc.). De plus, ce sont encore elles qui doivent s'occuper majoritairement des enfants, de l'éducation à la maison, cette fameuse charge mentale.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg108" xml:lang="fr">Le CEFH a publié une série de recommandations afin de donner des idées et des pistes aux autorités. L'organe public propose notamment de renforcer l'espace public contre les violences sexistes et sexuelles ou encore de renforcer la mixité des métiers pour contrer les effets de ségrégation et de pénurie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg109" xml:lang="fr">La principale recommandation, transversale à toutes les autres, est d'intégrer le  gender mainstreaming à toutes les lois. Cette attention permet d'incorporer l'égalité entre les femmes et les hommes du début à la fin du processus législatif. Il s'agit d'une approche structurelle et préventive puisqu'elle a pour objectif d'éviter que les pouvoirs publics ne mettent en place des politiques qui créent ou accentuent des inégalités entre les femmes et les hommes. Bref, il s'agit de faire passer chaque loi sous la loupe de ces discriminations de genre.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg110" xml:lang="fr">Madame la secrétaire d'État, avez-vous pris connaissance du rapport du CEFH, qui dépasse d'ailleurs largement le cadre unique de la Région de Bruxelles-Capitale? L'intégration du  gender mainstreaming à toutes nos lois est-elle ou reste-t-elle l'une de vos priorités pour cette législature?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">09.02 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u32" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg111" xml:lang="fr">Monsieur le président, monsieur Prévot, dans mon exposé d'orientation politique, je  me suis engagée à mettre en œuvre la loi de 2007 sur le  gender mainstreaming pour intégrer la dimension de genre dans l'ensemble des politiques, programmes et actions du gouvernement. L'objectif de cette intégration transversale est que toutes les politiques publiques contribuent à renforcer l'égalité entre les femmes et les hommes, tout en s'attaquant aux déséquilibres structurels et historiques. Dans ce cadre, et à mon initiative, le Conseil des ministres du 22 janvier dernier a approuvé la première étape de la mise en œuvre du Plan fédéral  gendermainstreaming. Cette décision implique que chaque membre du gouvernement s'engage à tenir effectivement compte de la dimension de genre lors de l'élaboration et l'exécution de sa politique.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg112" xml:lang="fr">En tant que secrétaire d'État à l'Égalité des genres, j'exerce la responsabilité de centraliser toutes les propositions de mes collègues et de coordonner l'exécution et le suivi du Plan fédéral  gender mainstreaming. Le 18 mars dernier, j'ai mis sur pied le Groupe interdépartemental de coordination (GIC), composé de représentants des cellules stratégiques des différents cabinets fédéraux et des administrations fédérales. Tous les membres de ce groupe ont eu l'occasion de suivre une formation en ce domaine, dispensée par l'IEFH. Ce processus prévoit également la consultation de la société civile.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg113" xml:lang="fr">Du reste, le 24 mars, j'ai réuni plus de 65 associations pour les consulter au sujet des mesures qu'elles estiment prioritaires et auxquelles il faudrait appliquer le  gender mainstreaming. Cette contribution a ensuite été communiquée aux membres du gouvernement. À l'heure où je vous parle, chaque ministre de la Vivaldi a proposé les politiques sur lesquelles il/elle s'engage à opérer une lecture de genre. Le gouvernement les approuvera formellement dans le courant de ce mois. Ce plan constitue un engagement sans précédent, qui montre la détermination du gouvernement à faire de l'égalité entre les hommes et les femmes une réelle priorité sous cette législature.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg114" xml:lang="fr">En ce qui concerne votre question sur l'analyse d'impact de la réglementation (AIR), les membres du gouvernement se sont en effet engagés à y prêter une attention particulière. Je rappelle que cet instrument, évoqué initialement dans la loi  gender mainstreaming de 2007, a ensuite été englobé dans une loi plus étendue, datant de 2013, qui concerne la simplification administrative. L'impact sur l'égalité entre les hommes et les femmes ne constitue donc que l'un des thèmes parmi les 21 repris dans l'AIR. Avec mes collègues qui sont directement concernés par cette analyse – par exemple, le secrétaire d'État chargé de la Simplification administrative, le ministre des PME ou le ministre du Développement durable –, je vais examiner comment rendre cet outil le plus efficace possible.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.03 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u33" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg115" xml:lang="fr">Madame la secrétaire d'État, je vous remercie pour votre réponse détaillée. Lors de votre déclaration de politique générale à laquelle j'étais présent, vous aviez signalé votre volonté de respecter la loi de 2007 et d'intégrer le  gender mainstreaming dans toutes les lois. C'était effectivement votre déclaration de politique générale et il est heureux d'entendre qu'un nouveau cap a été franchi au mois de janvier. Par ailleurs, vos collègues sont actuellement en train de travailler sur les politiques prioritaires de leurs sphères de compétences où le  gender mainstreaming pourrait être intégré et ils devraient dès lors visiblement rendre leurs rapports pour le mois de juin. Madame la secrétaire d'État, je ne manquerai évidemment pas de faire le point avec vous dans les prochains mois mais j'ai l'impression que, pour ce dossier comme pour d'autres, cela avance dans le bon sens et c'est heureux.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">De voorzitter:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u34" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg116" xml:lang="nl">De samengevoegde vragen nrs. 55017489C van mevrouw Van Peel en 55017558C van mevrouw Bury worden omgezet in schriftelijke vragen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 10 Questions jointes de</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Patrick Prévot à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les thérapies de conversion&quot; (55017860C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Karin Jiroflée à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;L'interdiction des thérapies de conversion au Royaume-Uni&quot; (55018342C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 10 Samengevoegde vragen van</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Patrick Prévot aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Therapieën om lhbtqi's te 'genezen'&quot; (55017860C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Karin Jiroflée aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het verbannen van conversietherapie in het VK&quot; (55018342C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">10.01 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u35" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg117" xml:lang="fr">Madame la secrétaire d'État, vous le savez, la Belgique s'est toujours montrée progressiste concernant les droits des homosexuels et nous pouvons en être fiers. Notre législation manque pourtant d'un atout pour continuer à se montrer à l'avant-garde dans la lutte contre l'homophobie. Ce vide juridique a pour sujet les thérapies de conversion.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg118" xml:lang="fr">Les thérapies de conversion visent à convertir la personne issue de la communauté LGBTQI+ vers le chemin de l'hétérosexualité. Ces thérapies peuvent être faites via plusieurs méthodes: méditation forcée, injection de testostérone, électrochocs voire exorcismes – comme cela était le cas en Belgique lorsqu'une personne lesbienne a été brûlée vive en 2014 à Anvers. Il a été prouvé à travers plusieurs témoignages que ces pratiques existaient dans notre pays au sein d'organisations sectaires nuisibles.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg119" xml:lang="fr">Depuis mars 2018, le Parlement européen appelle ses États membres à interdire ce type de thérapie. Plusieurs pays ont déjà légiféré en ce sens, comme l'Allemagne et Malte.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg120" xml:lang="fr">Madame la secrétaire d'État, nous devons suivre l'avis du Parlement européen et inscrire dans la loi l'interdiction des thérapies de conversion pour que la Belgique continue à lutter efficacement contre toute homophobie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg121" xml:lang="fr">Avez-vous pris connaissance de l'appel du Parlement européen de mars 2018 pour l'interdiction des thérapies de conversion? La Belgique va-t-elle suivre cet appel? Comptez-vous légiférer pour l'interdiction des thérapies de conversion?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">10.02 Karin Jiroflée (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u36" who="#JirofléeKarin" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg122" xml:lang="nl">Mijnheer de voorzitter, mevrouw de staatssecretaris, ik zal niet alles herhalen wat collega Prévot heeft verteld, maar homoseksualiteit wordt in heel wat gemeenschappen nog gezien als een ziekte of een aandoening die men moet trachten te genezen. Dat is uiteraard een zeer schadelijke en stigmatiserende benadering en dat is voor Vooruit compleet onaanvaardbaar.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg123" xml:lang="nl">Het Verenigd Koninkrijk zou nu aan de slag gaan met de zogenaamde conversietherapie. Dat stond in The Queen's Speech die wij enkele weken geleden hebben gehoord.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg124" xml:lang="nl">Ik heb hierover de volgende vragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg125" xml:lang="nl">Wat is uw standpunt? Lijkt een verbod ook de weg die België zou moeten bewandelen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg126" xml:lang="nl">Conversietherapie in ons land is een meer onbekend fenomeen. Meer onderzoek hiernaar zou op zijn plaats zijn. In Duitsland heeft men hiernaar al veel onderzoek gedaan en in het Verenigd Koninkrijk is men dat nu blijkbaar van plan. Zijn er plannen om hierover een onderzoek op te starten of lopen er al onderzoeken?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg127" xml:lang="nl">Hebt u de zaak al bekeken met minister van Justitie Van Quickenborne? Kunt u een stand van zaken geven?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">10.03 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u37" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg128" xml:lang="fr">Merci, monsieur Prévot et madame Jiroflée, pour vos questions. En effet, monsieur Prévot, j'ai bien pris connaissance de la résolution du Parlement européen de 2018 qui a permis de mettre l'attention sur la problématique des thérapies de conversion, qui est encore trop peu abordée. Plusieurs pays ont répondu à l'appel de l'Europe et ont légiféré sur ces pratiques inacceptables. La Belgique ne dispose toujours pas de législation visant à interdire les thérapies de conversion, bien que certains actes constituent des infractions pénales comme la fraude, l'abus de faiblesse, le traitement inhumain et dégradant ou encore les coups et blessures volontaires.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg129" xml:lang="nl">Mevrouw Jiroflée, ik zal mij hier inderdaad in verdiepen om tot een oplossing te komen die een einde zal maken aan deze homofobe praktijken. Wij moeten de personen kunnen bereiken die deze behandelingen uitvoeren, evenals diegenen die ze adviseren en diegenen die ervan gebruikmaken. Deze praktijken zijn inderdaad niet het exclusieve domein van bepaalde religieuze groepen, zoals men zou menen, maar zij houden verband met verschillende disciplines, soms zelfs medische.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg130" xml:lang="fr">Les thérapies de conversion ne sont donc pas l'apanage d'une religion ou d'une croyance en particulier et peuvent revêtir des formes multiples. Je suis tout à fait en faveur d'une interdiction de ces pratiques, mais il est nécessaire d'évaluer et mesurer ces phénomènes afin de définir une stratégie efficace pour y mettre un terme. Dans cette optique, je compte coopérer avec les institutions de soins de santé, le SPF Santé publique, la société civile concernée et Unia dans un premier temps. En tant que secrétaire d'État à l'Égalité des chances et des genres, je veux faire passer un message très clair: les thérapies de conversion n'ont pas leur place dans notre pays.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg131" xml:lang="nl">Nogmaals, conversietherapie hoort niet thuis in ons land.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg132" xml:lang="fr">J'entrerai en dialogue avec mon collègue M. Van Quickenborne à ce sujet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg133" xml:lang="fr">Je tiens aussi à vous remercier, madame Jiroflée et monsieur Prévot, ainsi que les autres auteurs de textes relatifs à la question des thérapies de conversion, pour le travail que vous avez déjà réalisé. Il sera très utile dans la recherche d'une solution la plus protectrice pour les personnes LGBTQI+ dans notre pays. Je vous remercie.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">10.04 Patrick Prévot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u38" who="#PrévotPatrick" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg134" xml:lang="fr">Monsieur le président, madame la secrétaire d'État, merci pour votre réponse sans ambiguïté. Les thérapies de conversion sont évidemment inacceptables et d'un autre temps. Un pays progressiste comme le nôtre ne peut pas rester sourd à l'appel du Parlement européen. Nous devons légiférer le plus rapidement possible pour interdire ces thérapies de conversion, qui existent et qui ont existé.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg135" xml:lang="fr">Mais je vous rejoins effectivement: avant de légiférer, il est toujours bon de pouvoir objectiver le phénomène. J'entends que c'est ce que vous souhaitez faire en ayant pris contact avec plusieurs institutions, et que dès lors, lorsque le phénomène sera objectivé, votre volonté est d'aboutir à la suppression et à l'interdiction pure et simple de ces thérapies. Je vous en remercie.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">10.05 Karin Jiroflée (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u39" who="#JirofléeKarin" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg136" xml:lang="nl">Mevrouw de staatssecretaris, ook van mij bijzondere dank voor uw antwoord. Ik ben blij dat u het met ons eens bent, maar ik had eigenlijk ook niet anders verwacht. Uiteraard horen de genoemde praktijken niet thuis in ons land. Ik wilde u nog wijzen op het voorstel van collega Prévot en mijzelf, maar u hebt het er zelf al over gehad. Wij zijn altijd bereid om mee na te denken. Het is goed dat er in de eerste plaats een onderzoek wordt uitgevoerd. Alvast bedankt.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">De voorzitter:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u40" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg137" xml:lang="nl">Vraag nr. 55018223C van mevrouw Jiroflée wordt uitgesteld.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 11 Vraag van Eva Platteau aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Gendergerelateerd geweld en de procedure voor naamsverandering&quot; (55018143C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 11 Question de Eva Platteau à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les violences basées sur le genre et la procédure de changement de nom&quot; (55018143C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">11.01 Eva Platteau (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u41" who="#PlatteauEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg138" xml:lang="nl">Mevrouw de staatssecretaris, ik werd onlangs gecontacteerd door een vrouw die zichzelf Jessica zonder achternaam noemt. Het gaat om een vrouw die jarenlang het slachtoffer is geweest van stalking. Ze heeft een petitie opgestart waarin ze vraagt om beschermingsmaatregelen voor slachtoffers van stalking toegankelijker te maken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg139" xml:lang="nl">Een van de aspecten die zij aankaart is dat mensen die gestalkt worden en hun naam omwille van die reden willen veranderen, dat volgens haar niet kunnen omdat de naamsverandering online gepubliceerd wordt in het  Belgisch Staatsblad. Daardoor is het dus heel gemakkelijk om met onlinezoekmachines de naamsverandering te gaan opzoeken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg140" xml:lang="nl">Ook vraagt ze in haar petitie om de procedures om van naam te veranderen toegankelijker te maken. Er kan aan gedacht worden het kosteloos te maken of de procedure te versoepelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg141" xml:lang="nl">In haar petitie vraagt ze ook concreet om niet meer afhankelijk te zijn van een oordeel van een rechter, maar om de naamsverandering zelf te kunnen motiveren op basis van een eigen oordeel over het gevaar. Zo kan men ook verzaken aan de publicatieplicht in het  Belgisch Staatsblad.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg142" xml:lang="nl">Ik weet dat u gendergerelateerde onderwerpen zeer belangrijk vindt en ze ziet als een ernstig probleem. U werkt ook aan een nationaal actieplan rond gendergerelateerd geweld. Daarom wil ik een aantal vragen aan u voorleggen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg143" xml:lang="nl">Denkt u dat het toegankelijker maken van de procedure voor naamsverandering en het versoepelen van de publicatieplicht een effectieve maatregel is tegen stalking? Waarom wel? Waarom niet?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg144" xml:lang="nl">In welke beschermingsmaatregelen zult u voorzien voor slachtoffers van stalking in het nationaal actieplan ter bestrijding van gendergerelateerd geweld?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u42" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg145" xml:lang="nl">Mevrouw Platteau, bedankt om mijn aandacht te vestigen op dit belangrijke onderwerp. Het is zeker nodig om slachtoffers van stalking een betere bescherming te bieden. Ik sta absoluut open voor de suggesties en ideeën die van burgers of van het middenveld zelf komen. Ik voer mijn beleid voor hen en met hen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg146" xml:lang="nl">De petitie pleit ervoor om een contactverbod of naamsverandering voor iedereen toegankelijk te maken op basis van het eigen oordeel van gevaar en losgekoppeld van het oordeel van een rechter. Dat lijkt mij praktisch mogelijk. Voor bepaalde getuigen is inderdaad in een naamsverandering voorzien, maar daaraan zijn voorwaarden verbonden. Dat verloopt bijvoorbeeld via de minister van Justitie en de getuigenbeschermingscommissie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg147" xml:lang="nl">Met het faciliteren van een naamsverandering wordt de verantwoordelijkheid bovendien opnieuw bij het slachtoffer gelegd. Het zijn niet de slachtoffers die zich onzichtbaar of onvindbaar moeten maken. Ik vrees dat men daarmee voorbijgaat aan het werkelijke probleem.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg148" xml:lang="nl">Alle vormen van gendergerelateerd geweld dienen bij de wortels aangepakt te worden. Bovendien zijn de daders het vaakst mensen uit de nabije omgeving, waarbij een naamsverandering meestal ook geen efficiënte maatregel is. De (…) van het contactverbod waarvan sprake is wel reeds opgenomen in de hervorming van de strafwet bij de minister van justitie, Vincent Van Quickenborne.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg149" xml:lang="nl">Ik bevestig de oproep van de petitie om slachtoffers van geweld beter te beschermen. Dat is voor mij een continu aandachtspunt.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.03 Eva Platteau (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u43" who="#PlatteauEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg150" xml:lang="nl">Mevrouw de staatssecretaris, bedankt voor uw antwoord. Het verheugt me dat u aandacht schenkt aan slachtoffers van geweld en hen een betere bescherming wil bieden. Het is belangrijk dat we praten met mensen die ervaringsdeskundigen zijn. Vanuit hun ervaring kunnen zij het beleid de nodige hefbomen aanreiken om die mensen een veiliger gevoel te geven of om hun veiligheid te garanderen. Ik begrijp wel dat er bezwaren zijn tegen het idee dat hier geopperd werd om een naamsverandering los te koppelen van een rechter. Ik dank u om die hier te duiden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg151" xml:lang="nl">U verwijst naar de getuigenbeschermings­commissie. Het is zo dat veel slachtoffers een grote administratieve last ervaren wanneer ze geweld aankaarten en bescherming zoeken. De bewijslast is ook hoog voor hen. Ik denk dan ook dat er in het actieplan tegen gendergerelateerd geweld moet worden nagegaan hoe die administratieve lasten kunnen worden vereenvoudigd, zodat slachtoffers er niet extra mee worden belast.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg152" xml:lang="nl">Het zijn inderdaad niet de slachtoffers van stalking die zich onzichtbaar moeten maken. De problemen moeten bij de wortel worden aangepakt. In die zin zal een naamsverandering voor veel mensen niet de enige of de meest efficiënte maatregel zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg153" xml:lang="nl">Ik kijk uit naar het nationaal actieplan tegen gendergerelateerd geweld. We zullen het er in deze commissie ook ongetwijfeld nog over hebben.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 12 Vraag van Anja Vanrobaeys aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De discriminatie van ex-kankerpatiënten&quot; (55018171C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 12 Question de Anja Vanrobaeys à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La discrimination à l'égard des personnes ayant souffert d'un cancer&quot; (55018171C)</desc>
+                </gap>
+                <note type="speaker">12.01 Anja Vanrobaeys (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u44" who="#VanrobaeysAnja" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg154" xml:lang="nl">Mevrouw de staatssecretaris, uit nieuw onderzoek van UGent@Work, een koepel van verschillende universiteiten, in opdracht van Kom op tegen Kanker, blijkt dat wie de strijd tegen kanker heeft gewonnen en opnieuw aan de slag wil gaan, toch wel wordt gediscrimineerd. Nieuw in deze studie is dat ook wordt nagegaan wat de rol van de werkgever in die discriminatie is. Werkgevers blijken vooral te discrimineren ofwel uit vrees dat de persoon die kanker overwon opnieuw ziek zal worden, ofwel omdat er te veel redelijke aanpassingen moeten gebeuren in de werkorganisatie of aan de inrichting van de werkvloer.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg155" xml:lang="nl">Ik kom tot een aantal bijkomende, opmerkelijke vaststellingen uit de studie. Een kankerervaring gehad hebben is minder nadelig voor mannelijke sollicitanten. Dat is ook het geval als een vrouw beslist wie wordt aangeworven of als degene die daarover beslist zelf al een kankerervaring achter de rug heeft. Nochtans is de wetgeving daarover vrij duidelijk: sinds 2007 is die discriminatie verboden. Dat wordt bevestigd door diverse rechtspraak, waaruit blijkt dat kanker als een handicap kan worden beschouwd, waardoor werkgevers, als er blijvende letsels zijn, verplicht worden redelijke aanpassingen door te voeren. Die vraag heb ik eerder al gesteld aan de minister van Werk en die heeft mij toen beloofd daarover verder te sensibiliseren en ook de inspectiediensten in te zetten tegen die discriminatie, die niet alleen ex-kankerpatiënten treft, maar iedereen die een ziekte heeft doorgemaakt en daardoor minder kansen krijgt om een job te krijgen of te behouden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg156" xml:lang="nl">Mijn vraag aan u – de minister van Werk verwees trouwens naar u door – is vooral of de antidiscriminatiewet op dat vlak niet verduidelijkt moet worden, zodat mensen na het doormaken van een ziekte het recht hebben om vergeten te worden, zoals dat ook in de verzekeringssector gebeurt, zodat hun kansen afgedwongen kunnen worden op basis van duidelijke wetgeving en dat niet telkens via de rechtbank hoeft te gebeuren.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg157" xml:lang="nl">Kent u die studie? Wat zijn uw bevindingen? Bent u bereid te bekijken of de antidiscriminatiewetgeving op dat vlak niet verduidelijkt moet worden, zodat die mensen alle kansen behouden en ook redelijke aanpassingen kunnen afdwingen? Kunt u ook eens kijken naar de gendergelijkheid, aangezien mannen meer kansen krijgen na zo'n ziektebeeld?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg158" xml:lang="nl">Wat kan er gebeuren voor vrouwen met een kankerervaring of met een ander ziektebeeld, zoals depressie, om hun kansen te verhogen?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">12.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u45" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg159" xml:lang="nl">Mevrouw Vanrobaeys, ik dank u om mijn aandacht te vestigen op deze ernstige problematiek. Het is voor mij essentieel om aandacht te hebben voor alle discriminatiegronden. Ik zal tijdens deze legislatuur de antidiscriminatiewetgeving doeltreffender maken, met behulp van de aanbevelingen van de bevoegde evaluatiecommissie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg160" xml:lang="nl">Ik werk momenteel aan de versterking van de bescherming van getuigen van discriminatie. Daardoor zal een medewerker die op de hoogte is van discriminatie bij een aanwerving dat kunnen melden, zonder zelf voor represailles te moeten vrezen. Ook de discriminatietests spelen daarin een belangrijke rol. Zoals u weet, werd daarover recent een wetsontwerp in eerste lezing goedgekeurd. Die versoepeling zal de test efficiënt inzetbaar maken voor alle discriminatiegronden en dus ook de gezondheidstoestand of een handicap.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg161" xml:lang="nl">Toch blijft sensibiliseren prioritair. Vele werkgevers weten niet welke redelijke aanpassingen mogelijk zijn of wat hun verplichtingen zijn. Ik ben dan ook blij te horen dat u dit reeds met mijn collega, minister Dermagne, hebt besproken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg162" xml:lang="nl">Ten slotte vestigt u terecht de aandacht op het grotere aantal discriminaties ten aanzien van vrouwen. Helaas heeft het patriarchaat een invloed op alle niveaus en in alle domeinen van onze samenleving. Ik heb daarvoor zeker aandacht in mijn beleid. Het is mijn absolute prioriteit om de strijd aan te gaan tegen die patriarchale denkbeelden en discriminaties.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">12.03 Anja Vanrobaeys (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u46" who="#VanrobaeysAnja" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg163" xml:lang="nl">Mevrouw de staatssecretaris, u wil de antidiscriminatiewetgeving doeltreffender maken op basis van aanbevelingen van de commissie. Ik vind dat een belangrijk element, dat zowel door Kom op tegen Kanker als in de jaarverslagen van Unia wordt behandeld. Het gaat dan niet alleen om een bestaande ziekte of handicap, ook een vroegere ziekte kan aanleiding geven tot discriminatie op de arbeidsmarkt. Onderzoek toont immers duidelijk aan dat werkgevers bang zijn dat die mensen zullen hervallen of dat ze zich te sterk zullen moeten aanpassen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg164" xml:lang="nl">Ik meen dat de antidiscriminatiewetgeving in die zin moet worden aangepast, door dat element erin op te nemen. Werkgevers weten dan heel duidelijk dat dit ook een discriminatiegrond is. Ik zal ter zake zelf een initiatief nemen en ik word graag op de hoogte gehouden van uw initiatieven, zodat we goed kunnen samenwerken om die mensen alle kansen te bieden. De minster van Werk heeft mij alvast beloofd dat hij voor een sensibilisering zal zorgen en dat hij ook dit element door de inspectiediensten zal laten bekijken bij de praktijktesten.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 13 Question de Séverine de Laveleye à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Le syndrome d’aliénation parentale&quot; (55018206C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 13 Vraag van Séverine de Laveleye aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Het ouderverstotingssyndroom&quot; (55018206C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">13.01 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u47" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg165" xml:lang="fr">Madame la secrétaire d'État, la date du 25 avril a été récemment choisie comme la journée internationale de l’aliénation parentale.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg166" xml:lang="fr">À ce titre, la société civile et les acteurs de terrain ont rédigé une carte blanche dans laquelle ils dénoncent le fait que les comportements du parent protecteur (souvent la mère) en cas d’inceste, de violence conjugale ou post-séparation sont souvent perçus comme étant aliénants, c’est à dire comme visant à instrumentaliser l’enfant. C’est la théorie dite du syndrome d’aliénation parentale (SAP). Elle a tendance à banaliser, voire invisibiliser les violences en cas de violences conjugales et les considérer comme un conflit de séparation. Les acteurs spécialisés soulignent que cette théorie n’a pas de fondement scientifique. Elle est néanmoins utilisée par les psychologues, avocats, services de protection de la jeunesse et peut être invoquée comme un motif de transfert de garde ou placement par les tribunaux de la jeunesse et de la famille.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg167" xml:lang="fr">Le GREVIO a par ailleurs considéré cette théorie comme problématique dans son rapport concernant la Belgique et a adressé la recommandation consistant à faire reconnaître aux professionnels concernés l'infondé scientifique du syndrome d'aliénation parentale ainsi qu'à sensibiliser l'opinion publique à ce sujet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg168" xml:lang="fr">Je viens d'interroger le ministre de la Justice et selon lui, il faut faire la différence entre le syndrome d'aliénation parentale, qui n'a pas de soutien scientifique, et les mécanismes d'aliénation, qui sont réels dans certains cas. Il a également rappelé qu'une formation avait été organisée en 2019 par l'Institut de formation judiciaire et qu'elle sera à nouveau organisée en 2021, notamment pour les magistrats. Il n'a pas pu me donner à ce stade le contenu de la formation. Il s'est engagé à me l'envoyer dans les semaines qui viennent.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg169" xml:lang="fr">Madame la secrétaire d'État, quelle est votre opinion sur le syndrome d’aliénation parentale? Comment envisagez-vous de suivre les recommandations du GREVIO sur ce sujet en collaboration avec le ministre de la Justice?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">13.02 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u48" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg170" xml:lang="fr">Madame de Laveleye, cette question me tient à cœur puisque, lorsque j'étais parlementaire, je suivais déjà ce sujet avec beaucoup d'intérêt. J'avais d'ailleurs été stupéfaite de découvrir à travers une question parlementaire qu'une formation donnée par l'Institut de formation judiciaire à l'attention des magistrats était dispensée non pas pour déconstruire le syndrome d'aliénation parentale mais bien pour l'ancrer encore davantage dans notre système. Cette formation était intitulée &quot;Risque de perte de lien entre parent et enfant, à savoir l'aliénation parentale&quot;.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg171" xml:lang="fr">Depuis lors, le rapport du GREVIO est sorti et a remis en cause cette approche, jugeant l'usage par la Belgique de la théorie relative au syndrome d'aliénation parentale problématique. Le comité d'experts interroge également la loi du 18 juillet 2006 sur la garde alternée, dont les travaux préparatoires font explicitement référence au syndrome d'aliénation parentale. Il exhorte la Belgique à faire connaître l'absence de fondement scientifique de la notion de syndrome d'aliénation parentale et de sensibiliser les acteurs concernés.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg172" xml:lang="fr">J'ai rencontré très récemment plusieurs associations de familles monoparentales dont l'une des préoccupations centrales reste l'usage problématique de ce syndrome d'aliénation parentale, qu'il soit nommé explicitement ou non dans les jugements afin de retirer la garde d'un enfant à sa mère qui tente de le protéger.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg173" xml:lang="fr">Ce gouvernement s'est engagé à considérer la Convention d'Istanbul comme la ligne directrice de sa politique de lutte contre les violences. Il se doit donc de suivre les recommandations du GREVIO à ce sujet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg174" xml:lang="fr">Des contacts ont été pris entre mon cabinet et l'Institut de formation judiciaire au sujet de cette formation problématique. J'attends la réponse de mon collègue Vincent Van Quickenborne, avec qui je ne manquerai pas de m'entretenir quant à l'approche à donner à cette formation, si elle devait avoir lieu, pour amener à une déconstruction de ce syndrome devant les cours et tribunaux, comme l'Italie et la France l'ont déjà fait depuis longtemps.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg175" xml:lang="fr">On sait que cette théorie n'a pas de fondement scientifique et qu'elle tend à minimiser les violences intrafamiliales envers les femmes et les enfants. Il s'agit donc d'un problème grave auquel je souhaite m'atteler. Cela sera également un des aspects de mon plan national de lutte contre les violences basées sur le genre 2021-2025 qui prévoira plusieurs actions allant dans ce sens.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">13.03 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u49" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg176" xml:lang="fr">Madame la secrétaire d'État, je vous remercie pour votre réponse.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg177" xml:lang="fr">Je ne vous cache pas que j'ai été un peu surprise par la réponse de M. Van Quickenborne que je viens de recevoir. Comme elle est assez complète, elle mérite cependant que l'on s'y attarde un peu plus.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg178" xml:lang="fr">J'entends que vous êtes assez inquiète à propos du contenu de cette formation. En effet, former des magistrats à déconstruire cette notion ou les former à la prendre en considération sont deux choses totalement différentes. J'attends donc le retour de M. Van Quickenborne sur le contenu de cette formation. Mais je suis rassurée de savoir que vous allez également faire une démarche en ce sens. Cela sera probablement plus rapide et plus efficace.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg179" xml:lang="fr">Je vous encourage à poursuivre le travail. Le GREVIO a, selon moi, été clair, comme cela a été également votre cas. Il s'agit de notre ligne directrice. On ne peut pas se défausser de cette question. J'espère que nous obtiendrons des résultats intéressants dans les mois qui viennent, notamment au sujet de cette formation.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 14 Vraag van Maria Vindevoghel aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De bescherming van vrouwen zonder papieren tegen geweld in België&quot; (55018425C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 14 Question de Maria Vindevoghel à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La protection des femmes sans papiers contre la violence en Belgique&quot; (55018425C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">14.01 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u50" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg180" xml:lang="nl">Mijnheer de voorzitter, mevrouw de staatssecretaris, op 11 mei was ik aanwezig op de actie aan de Begijnhofkerk voor de mensen zonder papieren. Het was de tiende verjaardag van de Conventie van Istanbul en die 'vierden' we zo. U was daar trouwens ook.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg181" xml:lang="nl">Voor de mensen zonder papieren was het echter een zure taart. Ze hadden dan ook witloof rond de taart gedaan, om de bittere smaak van de taart weer te geven, want in België helpt de bescherming tegen geweld in de praktijk niet voor vrouwen zonder papieren. België steunt de Conventie wel met woorden, maar is in de praktijk selectief en de bescherming geldt niet voor mensen zonder papieren. Het resultaat is dat daders hun lusten naar hartenlust kunnen botvieren op de weerloze slachtoffers.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg182" xml:lang="nl">De meest kwetsbaren in onze maatschappij genieten hierdoor geen enkele bescherming. De meesten durven geen klacht indienen, omdat ze dan het risico lopen in een gesloten instelling of in de gevangenis terecht te komen, of uitgewezen te worden. Soms wordt er gewoon niets gedaan met de klacht, zoals bij Cristianny. Cristianny Fernandes de Souza is gestorven op 9 mei aan de gevolgen van jarenlang seksueel misbruik door haar werkgever. Zeven maanden voor haar dood had ze nog een klacht ingediend tegen hem, wat al een moedige daad was. Tot op heden loopt de dader nog altijd op vrije voeten, terwijl hij gekend is bij de politie. De man in kwestie zou al meerdere vrouwen verkracht hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg183" xml:lang="nl">Mevrouw de staatssecretaris, welke concrete initiatieven zult u nemen om de bescherming van vrouwen zonder papieren tegen alle vormen van gendergerelateerd en seksueel geweld te garanderen ter uitvoering van de Conventie van Istanbul? Worden er specifieke maatregelen opgenomen in het nieuwe nationaal actieplan tegen gendergerelateerd geweld voor deze groep? Zo ja, welke?</seg>
+                </u>
+                <note type="speaker">14.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u51" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg184" xml:lang="nl">Mijnheer de voorzitter, mevrouw Vindevoghel, deze regering heeft zich ertoe verbonden het Verdrag van Istanbul in zijn geheel uit te voeren. Dit Verdrag is ook de leidraad voor de bescherming van migrantenvrouwen en vrouwen zonder  papieren. Aangezien het om een bijzonder kwetsbare groep gaat, is het voor mij van essentieel belang om op elk beleidsterrein waarvoor ik verantwoordelijk ben, met name in de strijd tegen gendergeweld, op een specifieke manier rekening met hen te houden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg185" xml:lang="nl">Ik wil ook mijn oprechte deelneming betuigen aan de familie van Cristianny Fernandes de Souza. Haar dood is bijzonder schokkend. Mijn kabinet heeft een ontmoeting gehad met het comité van vrouwelijke migranten zonder papieren van ACV-Brussel, met wie mevrouw Fernandes de Souza in contact stond.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg186" xml:lang="nl">Ik heb nota genomen van hun eisen met betrekking tot de toegang tot de rechter voor vrouwen zonder papieren. Het belangrijkste instrument waarover ik beschik om in die zin op te treden, is het nationaal actieplan ter bestrijding van gendergerelateerd geweld. Een van de zes zwaartepunten van dit plan betreft de bescherming van migrantenvrouwen. Aan dit plan wordt momenteel de laatste hand gelegd. Zodra het plan door de federale regering is goedgekeurd, zal ik u meer details kunnen geven.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg187" xml:lang="nl">Ik heb ook de voorzitter van uw commissie gevraagd om na het reces een thematische bijeenkomst te plannen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg188" xml:lang="nl">Ik wil u eveneens laten weten dat ik in het kader van de voorbereidingen van het nationaal actieplan veel aandacht schenk aan de feedback van het maatschappelijk middenveld. Er heeft een grootschalige raadpleging plaatsgevonden van actoren die gespecialiseerd zijn in de bestrijding van geweld. Het comité van vrouwen zonder papieren was ook aanwezig. Ik sta ook in contact met het kantoor van staatssecretaris Sammy Mahdi over deze kwesties.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg189" xml:lang="nl">Naast het nationale actieplan heb ik er ook voor gezorgd dat het Zorgcentrum na Seksueel Geweld (ZSG) toegankelijk is voor vrouwen zonder papieren.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg190" xml:lang="nl">Tot slot maak ik mijn gesprekspartners, wanneer ik maar kan, tijdens vergaderingen of interventies attent op de specifieke problematiek van vrouwen zonder papieren. Dit onderwerp ligt mij bijzonder na aan het hart. Ik beloof dat ik alles zal doen wat in mijn macht ligt om hun situatie tijdens deze legislatuur te verbeteren.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">De voorzitter:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u52" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg191" xml:lang="nl">De staatssecretaris heeft gevraagd om het nationaal actieplan hier eind september of begin oktober te kunnen voorstellen. We kunnen er dan een debat over voeren.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">14.03 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u53" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg192" xml:lang="nl">Mevrouw de minister, ik was aanwezig bij de actie die het ACV en de mensen zonder papieren bij uw kabinet georganiseerd hebben. Ik heb bij die gelegenheid met de aanwezigen gesproken en een van de vrouwen die mee naar de politie was gegaan voor Cristianny is nu zelf bang omdat die man nog steeds vrij rondloopt. Bovendien vertelde ze mij dat er minstens 20 vrouwen naar haar waren gekomen die gelijkaardige problemen met geweld meegemaakt hadden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg193" xml:lang="nl">Vele mensen zonder papieren hebben door deze kwestie hun verhaal gedaan aan de vrouw die getuigd heeft. Hun heel uitdrukkelijke eis is dat ze beschermd worden. Toen we aan het Begijnhof waren, hebt u gezegd dat u dit zou vragen aan de staatssecretaris voor Asiel en Migratie. Als mensen een klacht indienen, moeten ze beschermd worden, want nu zijn ze bang. Een cruciaal punt is dat ze niet uitgewezen kunnen worden als zij een klacht indienen. Ik zal deze vraag vrijdag ook aan de staatssecretaris voor Asiel en Migratie stellen. Wij willen dat er een bescherming komt, zodat die mensen niet meemaken wat Cristianny meegemaakt heeft.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 15 Vraag van Maria Vindevoghel aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De praktijktesten op de arbeidsmarkt&quot; (55018427C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 15 Question de Maria Vindevoghel à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les tests de situation sur le marché du travail&quot; (55018427C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">15.01 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u54" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg194" xml:lang="nl">Mevrouw de staatssecretaris, vorige week werden de resultaten bekendgemaakt van de praktijktesten op de arbeidsmarkt in de stad Antwerpen. Die praktijktesten zijn louter sensibiliserend en er zijn dus geen sancties aan verbonden voor overtreders.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg195" xml:lang="nl">Nochtans zijn de resultaten niet min: 17 % van de sollicitanten met een niet-Vlaams klinkende naam kreeg te maken met discriminatie. Dat is bijna een op de vijf. Dat cijfer fluctueert nog naargelang de origine. Ook 11 % van de oudere werkzoekenden werd gediscrimineerd. Dat is meer dan een op de tien. Die cijfers hoeven eigenlijk niet te verbazen, want ze liggen in de lijn van eerdere experimenten met discriminatietoetsen en academische monitoring. Dat louter sensibiliserende praktijktesten de discriminatie op de arbeidsmarkt zouden verminderen, lijkt minder en minder te kloppen. Intussen tonen de praktijktesten wel aan dat discriminatie de belangrijkste oorzaak is van de etnische kloof op de arbeidsmarkt. Ze bewijzen dus hun nut als bewijsmiddel, maar nu moeten ze nog op grote schaal juridisch worden ingezet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg196" xml:lang="nl">Wat zullen u en uw collega’s in de regering ondernemen om het mogelijk te maken dat praktijktesten op de arbeidsmarkt als volwaardig juridisch bewijsmiddel op grote schaal kunnen worden ingezet en discriminatie op die manier nooit meer ongestraft blijft?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg197" xml:lang="nl">Komen er sanctionerende praktijktesten in het nationaal actieplan tegen racisme?</seg>
+                </u>
+                <note type="speaker">15.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u55" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg198" xml:lang="nl">Na de invoering van praktijktesten op de arbeidsmarkt in 2018 hebben we moeten concluderen dat de uitvoering wordt bemoeilijkt door een restrictieve wetgeving. Samen met de heer Dermagne bereid ik daarom een wetswijziging voor. We willen dat sociaal inspecteurs beter hun werk kunnen doen, zoals afgesproken in het regeerakkoord. We stellen verschillende wijzigingen voor, zoals het facultatief worden van de cumulatieve voorwaarden voor het gebruik van praktijktesten. Eén criterium volstaat dus voor het invoeren van een praktijktest. De praktijktesten kunnen gebruikt worden voor elke vorm van discriminatie, zoals bepaald in de wet. De praktijktesten moeten zo een efficiënter middel worden in de strijd tegen discriminatie op de arbeidsmarkt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg199" xml:lang="nl">Ook in het nationaal actieplan tegen racisme willen we discriminatie op de arbeidsmarkt bestrijden. Momenteel worden hiervoor concrete voorstellen gedaan door de bevoegde administraties. We werken hiervoor ook samen met de deelstaten. Ook praktijktesten op de arbeidsmarkt komen dus aan bod. De precieze tekstvoorstellen van het NAPAR worden momenteel politiek gevalideerd.</seg>
+                </u>
+                <note type="speaker">15.03 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u56" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg200" xml:lang="nl">Mevrouw de staatssecretaris, ik kijk uit naar dat voorstel, want wij weten dat zelfregulering niet werkt. Als men niet sanctionerend optreedt tegen discriminerende werkgevers, dan zal het probleem niet worden opgelost. Daarnaast moet de uitrol op grote schaal gebeuren, niet alleen lokaal.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 16 Vraag van Maria Vindevoghel aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Een naar gender uitgesplitst tijdsbestedingsonderzoek i.h.k.v. het recht op vrije tijd voor vrouwen&quot; (55018426C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 16 Question de Maria Vindevoghel à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Une étude sur l'emploi du temps par genre dans le cadre du droit au temps libre pour les femmes&quot; (55018426C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">16.01 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u57" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg201" xml:lang="nl">Mevrouw de staatssecretaris, in de aanloop naar 1 mei publiceerde Statbel op 30 april gendergerelateerde cijfers over het deeltijds werken in België. Hoewel uit de cijfers blijkt dat deeltijds werken bij mannen populairder wordt, maken vrouwen nog steeds 77 % van de deeltijds werkenden in België uit.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg202" xml:lang="nl">De zorg voor kinderen of afhankelijke personen en andere persoonlijke of familiale redenen zijn voor vrouwen nog steeds de hoofdredenen om deeltijds te gaan werken. Mannen gaan veeleer deeltijds werken omdat ze geen voltijdse job kunnen krijgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg203" xml:lang="nl">Nog een opvallende bevinding is dat het percentage deeltijds werkende vrouwen stijgt met het aantal kinderen dat ze hebben. Bij mannen ziet men die stijging niet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg204" xml:lang="nl">Dit alles wijst op een duidelijke link tussen de onevenwichtige verdeling van reproductieve arbeid tussen mannen en vrouwen en de hoeveelheid betaalde arbeid die vrouwen kunnen doen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg205" xml:lang="nl">Hoe meer vrouwen voor het huishouden en de kinderen moeten instaan, hoe minder betaalde arbeid zij kunnen doen en hoe minder vrije tijd zij hebben. Door de coronacrisis zien we dat nog meer vrouwen reproductieve arbeid doen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg206" xml:lang="nl">Dat toont aan dat het meer dan ooit nodig is om werk te maken van collectieve maatregelen om tot een echt gelijke verdeling van de reproductieve arbeid tussen mannen en vrouwen te komen en om het recht op vrije tijd voor vrouwen te garanderen. Om dat probleem aan te pakken, is een goede monitoring nodig.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg207" xml:lang="nl">Mevrouw de staatssecretaris, wordt er in ons land al een institutioneel en periodiek tijdsbestedingsonderzoek naar gender gedaan? Zo ja, door welke instanties? Waar  kunnen we dat onderzoek raadplegen? Zo neen, bent u van plan om een gendergerelateerd tijdsbestedingsonderzoek te institutionaliseren?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg208" xml:lang="nl">Welke concrete maatregelen worden momenteel in ons land genomen om het recht op vrije tijd voor vrouwen te garanderen door een gelijke verdeling van reproductieve arbeid tussen mannen en vrouwen?</seg>
+                </u>
+                <note type="speaker">16.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u58" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg209" xml:lang="nl">Dank u voor uw vraag, mevrouw Vindevoghel. Net als u constateer ik dat deeltijds werk vooral door vrouwen wordt gedaan.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg210" xml:lang="nl">In 2020 publiceerde de Raad van de Gelijke Kansen voor Mannen en Vrouwen de resultaten van een enquête in vier sectoren die een groot aandeel deeltijdse werknemers in dienst hebben. Dit zijn de handelssector, de verpleegtehuizen, de schoonmaaksector, en de banken en verzekeringsmaatschappijen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg211" xml:lang="nl">Het doel van deze enquête was na te gaan wat de redenen zijn om deeltijds te werken, in een context van een aanzienlijke groei van deze vormen van werkgelegenheid. Een aanzienlijk deel van de respondenten zegt meer te willen werken, terwijl het arbeidsaanbod structureel deeltijds is.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg212" xml:lang="nl">Op de website www.time-use.be kunnen alle gegevens in verband met de verschillende tijdsbestedingen in België worden opgezocht.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg213" xml:lang="nl">In het regeerakkoord heeft de regering zichzelf verplicht tot het hervormen van de verlofstelsels voor ouders, zodat er een evenwichtigere verdeling mogelijk wordt tussen mannen en vrouwen bij de opvang van en de zorg voor kinderen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg214" xml:lang="nl">In vergelijking met voorgaande generaties is het aandeel van de zorgverloven dat wordt opgenomen door mannen gestegen. Dat die evolutie te traag gaat, daarover ben ik het met u eens.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg215" xml:lang="nl">Een meer gelijke verdeling van zorgtaken is ook een noodzakelijke stap op weg naar gendergelijkheid. Het Instituut voor de gelijkheid van vrouwen en mannen coördineert op dit moment een Europees project, Parents at Work, dat specifiek inzet op het promoten van de work-lifebalans op de werkvloer.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg216" xml:lang="nl">Het instituut heeft ook een  toolkit voor werkgevers ontwikkeld. Begin 2021 werd het geboorteverlof door de federale regering opgetrokken van 10 naar 15 dagen. In 2023 zullen dat 22 dagen zijn. Wij gaan de goede kant op.</seg>
+                </u>
+                <note type="speaker">16.03 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u59" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg217" xml:lang="nl">Mevrouw de staatssecretaris, wij hadden liever gehad dat het instituut het onderzoek op zich zou nemen om een beter zicht te krijgen op de verdeling.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg218" xml:lang="nl">U zegt dat we op de goede weg zijn. Het geboorteverlof is inderdaad een stap in de goede richting. U weet dat wij liever hadden gehad dat het verplicht zou zijn. U hebt gezegd dat u na enige tijd zou bekijken of het niet-verplichte karakter ervan een probleem vormt en u zou nagaan of mannen het verlof wel effectief opnemen. Wij vinden zelf dat het nog meer zou moeten zijn. Als men naar gelijkheid wil gaan, moet men er ook voor zorgen dat het verlof gelijk is aan wat vrouwen krijgen. Mannen krijgen in vergelijking nog altijd niet veel.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg219" xml:lang="nl">Voor het overige, wij zijn voorstander van een arbeidsduurvermindering omdat men dan sowieso een betere verdeling van de taken krijgt.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 17 Vraag van Maria Vindevoghel aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De preventie van seksueel geweld en de verspreiding van beelden op social media&quot; (55018428C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 17 Question de Maria Vindevoghel à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La prévention des violences sexuelles et la diffusion d'images sur les réseaux sociaux&quot; (55018428C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">17.01 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u60" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg220" xml:lang="nl">Mevrouw de staatssecretaris, wellicht hebt u ook het verschrikkelijk nieuws gevolgd over een veertienjarig meisje waarvan gisteren bekendgemaakt werd dat zij uit het leven is gestapt nadat zij vijf dagen eerder het slachtoffer was geworden van een groepsverkrachting waarvan de beelden via sociale media werden verspreid. Eerst en vooral wil ik mijn oprechte deelneming aan de familie en de vrienden betuigen. Ik ben zelf moeder van twee dochters en ik moet zeggen dat het bericht hard is aangekomen. Ik kan mij daarom voorstellen dat vele vaders en moeders van tieners zich nu veel zorgen maken. Het is gewoonweg verschrikkelijk dat iemand zoiets moet meemaken, anno 2021. Gelukkig zijn de daders gevat, maar intussen is het meisje er niet meer en blijft de familie met een grote leegte achter.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg221" xml:lang="nl">Seksueel geweld moet beter vervolgd en bestraft worden. Dat is echt wel urgent. Maar daarmee alleen zullen we er niet komen. Het probleem moet ook aan de wortel aangepakt worden. Om die reden leg ik ook u enkele vragen voor.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg222" xml:lang="nl">Mevrouw de staatssecretaris, welke initiatieven zal u met de regering en ook samen met de regio's nemen ter preventie van seksueel geweld? Welke acties worden er gepland in het nieuwe nationaal actieplan tegen gendergerelateerd geweld?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg223" xml:lang="nl">Naast het verschrikkelijke feit van de groepsverkrachting, is het ook verschrikkelijk dat de beelden ervan op sociale media geplaatst werden. Een medewerker van Child Focus verklaarde gisteren dat dit een enorme impact heeft op meisjes die dat meemaken. Zulke feiten kunnen verhinderd worden als wij meer grip krijgen op de sociale media, door meer regels op te leggen ter controle van zulke beelden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg224" xml:lang="nl">Mevrouw de staatssecretaris, hoe zult u socialemediabedrijven ertoe dwingen om de verspreiding van zulke beelden tegen te houden?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg225" xml:lang="nl">Tot slot, ook inzake seponering rijzen er vragen. Wij kunnen de kop niet meer in het zand steken. Er moet echt dringend iets gebeuren.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">17.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u61" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg226" xml:lang="nl">Mijnheer de voorzitter, mevrouw Vindevoghel, de zelfmoord van het meisje en wat zij heeft meegemaakt, is een verschrikkelijke tragedie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg227" xml:lang="nl">Zoals u aangeeft, zijn er in het dossier verschillende problematische elementen, namelijk het seksueel geweld zelf maar ook de verspreiding van de beelden op sociale media.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg228" xml:lang="nl">Inzake de strijd tegen seksueel geweld ben ik samen met minister Van Quickenborne bezig met een hervorming van het Strafwetboek. Het terugdringen van het recidivecijfer staat centraal in die hervorming. Er komen onder andere alternatieve straffen en zwaardere straffen en de notie van instemming wordt ingevoerd. Dat zijn allemaal essentiële verbeteringen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg229" xml:lang="nl">Bovendien is, zoals u weet, een nationaal actieplan inzake gendergerelateerd geweld in opmaak. Seksueel geweld maar ook de verspreiding van intieme beelden zullen prioriteiten in dat plan zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg230" xml:lang="nl">Recent heb ik het middenveld bevraagd over zijn noden en prioriteiten voor het plan. Wij doen dat in samenwerking met de deelstaten. Zij hebben een belangrijke rol in de preventie en sensibilisering. Denk bijvoorbeeld aan het initiatief van Sensoa vorige week om jongeren te sensibiliseren over het stellen van grenzen bij seksuele handelingen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg231" xml:lang="nl">Vanmorgen had mijn kabinet nog een vergadering met de socialemediaplatformen. Wij willen en moeten met hen samenwerken in de strijd. Zij kunnen meer doen op het vlak van preventie, slachtofferonthaal en de verwijdering van dergelijke beelden. Die samenwerking zal de komende tijd verder worden versterkt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg232" xml:lang="nl">U merkt dat die kwesties hoog op mijn politieke agenda staan.</seg>
+                </u>
+                <note type="speaker">17.03 Maria Vindevoghel (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u62" who="#VindevoghelMaria" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg233" xml:lang="nl">Mevrouw de staatssecretaris, ik ben ervan overtuigd dat het voor u ook een heel belangrijke zaak is en dat u er volop in wilt investeren. Gisteren zag ik mevrouw Liesbet Stevens in  De Afspraak, die zei dat mensen voortaan bij het Instituut voor de gelijkheid van vrouwen en mannen zullen terechtkunnen om een klacht over sociale media in te dienen. Het is een goede zaak dat dit onder de bevoegdheid van het instituut valt. Ze deed tegelijk echter ook een oproep aan de regering om ervoor te zorgen dat het instituut hiervoor genoeg middelen en mensen krijgt. Dat wil ik bij dezen nog aan u meegeven. Naast de goede wil om de dingen aan te pakken, is het heel belangrijk dat er genoeg middelen zijn, zodat de mensen die hiermee bezig zijn, hun werk kunnen doen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg234" xml:lang="nl">Ik wil nog een opmerking maken over de pers in de voorbije twee dagen. Het is mij opgevallen dat bijvoorbeeld het telefoonnummer 1712 nog veel te weinig wordt meegegeven. Ik vind het vreemd dat alleen het telefoonnummer van de Zelfmoordlijn telkens werd vermeld, wat natuurlijk ook goed is, terwijl het telefoonnummer waar vrouwen terechtkunnen die te maken hebben met geweld, maar één keer werd vermeld in de voorbije twee dagen. Met het oog op preventie is dat nochtans heel belangrijk. Daarnaast moeten wij ook in het onderwijs investeren om preventief te werken. Ik hoorde gisteravond hallucinante cijfers van mevrouw Stevens: op 100 verkrachtingen wordt slechts 10 keer aangifte gedaan en daar zitten 4 groepsverkrachtingen bij. Dat komt neer op 200 groepsverkrachtingen per jaar. Ik ben daar niet goed van en ik hoop dat wij die problemen serieus zullen aanpakken.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 18 Vraag van Els Van Hoof aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;Vrouwelijke genitale verminking&quot; (55018439C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 18 Question de Els Van Hoof à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;Les mutilations génitales féminines&quot; (55018439C)</desc>
+                </gap>
+                <note type="speaker">18.01 Els Van Hoof (CD&amp;V):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u63" who="#VanHoofEls" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg235" xml:lang="nl">Dit is een problematiek die door de pandemie onder de radar is gebleven. We weten, vooral vanuit ontwikkelingslanden, dat het aantal gevallen van onder andere genitale verminking en kindhuwelijken is toegenomen. Het doet mij vermoeden dat ook de cijfers in België in stijgende lijn dreigen te gaan. Het laatste rapport werd in 2018 gepubliceerd en u werkt aan een actualisering van de cijfers inzake genitale verminking, voor vrouwen die het ondergaan hebben en vrouwen die het risico lopen. Dat is een goed initiatief.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg236" xml:lang="nl">Zelf heb ik er mij ook al een tijd mee beziggehouden, vooral op het vlak van wetgeving, die vorige legislatuur ook goedgekeurd werd. Het spreekrecht werd uitgebreid voor zorgverleners, niet alleen bij kinderen, maar ook bij volwassen slachtoffers, die soms onder druk worden gezet om herinfibulatie te ondergaan bij bijvoorbeeld een bevalling. Dat werd niet geregistreerd in het dossier. Op die manier hadden we ook geen zicht op wat er effectief gebeurt in de ziekenhuizen. De cijfers die u zal krijgen, zullen extrapolaties zijn. Dat zullen geen effectieve cijfers zijn. We moeten werkelijk weten waar de prevalentie in Vlaanderen en Wallonië het hoogste is. Op die manier kunnen we effectief optreden, met acties vanuit de ziekenhuizen, onder andere rond sensibilisering van de volledige familie. Niet alleen de vrouw moet worden gesensibiliseerd, maar vooral ook de familie en de partner.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg237" xml:lang="nl">In de vorige legislatuur hebben uw voorgangers een rol gespeeld inzake het spreekrecht en de meldcode, ook voor de Orde der artsen. Welke acties onderneemt u inzake dit dossier, vooral voor de zorgverleners?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg238" xml:lang="nl">Op welke manier werkt u mee aan de uitvoering van de wetgeving die ter zake is goedgekeurd en ook aan richtlijnen voor registratie in het ziekenhuis?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">18.02 Staatssecretaris Sarah Schlitz:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u64" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg239" xml:lang="nl">Mijnheer de voorzitter, mevrouw Van Hoof, in de eerste plaats wil ik u danken voor uw jarenlange inzet tegen deze vreselijke praktijk. Ik heb de problematiek van een verplichte registratie en spreekrecht rond vrouwelijke genitale verminking (VGV) en de noodzaak aan bijkomende sensibilisering besproken met de GAMS. Ik zal de voorstellen voor concrete acties ter zake in het kader van het ontwerp van een nieuw plan met betrekking tot gendergerelateerd geweld bespreken met mijn collega van Volksgezondheid.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg240" xml:lang="nl">Het verbeteren van statistieken, onder meer in het kader van VGV, is reeds opgenomen als concreet actiepunt in het nieuwe actieplan. Ook plan ik heel binnenkort een sensibilisering van en een nieuwe handleiding voor zorgverstrekkers, uitgewerkt door het IGVM in samenwerking met de Orde der artsen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg241" xml:lang="nl">Ten slotte heb ik eveneens in samenwerking met minister Vandenbroucke, een nieuwe studie besteld over de problematiek van VGV in België.</seg>
+                </u>
+                <note type="speaker">18.03 Els Van Hoof (CD&amp;V):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u65" who="#VanHoofEls" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg242" xml:lang="nl">Mevrouw de staatssecretaris, ik kijk uiteraard uit naar het volumineuze plan met betrekking tot gendergerelateerd geweld, dat er in het najaar komt en waarin heel veel nieuwe acties staan vermeld, onder andere met betrekking tot genitale verminking.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg243" xml:lang="nl">Een handleiding is inderdaad van belang. Het probleem bij zorgverstrekkers is vaak dat ze het verschil niet kennen tussen de verschillende types van genitale verminking. Ik weet dat de GAMS inderdaad opleidingen geeft, maar die vragen ook een financiering. Ik heb gemerkt dat zij door een gebrek aan financiering in diverse ziekenhuizen de opleidingen niet kunnen geven. Toch zijn die enorm van belang om het fenomeen te herkennen en om ervoor te zorgen dat het in de toekomst niet meer gebeurt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg244" xml:lang="nl">Ik kijk uit naar uw acties. Ik hoop dat er in de toekomst een registratie kan gebeuren, want ik stel vast dat dit vandaag geen realiteit is. Ik zal u en uw collega Vandenbroucke daarover blijven ondervragen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 19 Question de Hervé Rigot à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La mise en œuvre de la résolution visant à garantir l'intégrité physique des mineurs intersexes&quot; (55018450C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 19 Vraag van Hervé Rigot aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De uitvoering v.d. resolutie ter vrijwaring v.d. fysieke integriteit van interseksuele minderjarigen&quot; (55018450C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">19.01 Hervé Rigot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u66" who="#RigotHervé" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg245" xml:lang="fr">Monsieur le président, madame la secrétaire d'État, ma question a pour objectif de faire un état des lieux de la mise en œuvre de la résolution que nous avons votée à l'unanimité le 11 février dernier. Je sais que cette résolution vous tient particulièrement à cœur et vous vous y étiez investie lorsque vous étiez députée.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg246" xml:lang="fr">Aujourd'hui, on vous a donné les outils en tant que secrétaire d'État pour avancer dans cet objectif, qui est au cœur même de la résolution, de disposer d'un cadre législatif protégeant l'intégrité physique des mineurs intersexes et garantit, sauf nécessité médicale, l'interdiction de toute décision de modification des caractéristiques sexuelles d'un mineur sans le consentement éclairé de celui-ci. Madame la secrétaire d'État, l'enjeu est important. Comme je le disais à l'époque, ce n'est qu'un premier pas. Plus vite nous ferons le premier pas, plus vite nous avancerons.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg247" xml:lang="fr">Comme vous le disiez vous-même, cette résolution vous permettra de réaliser les avancées législatives tant attendues et de faire de la Belgique le quatrième pays européen, après Malte, le Portugal et l'Albanie, à interdire ces pratiques inacceptables. Aujourd'hui, trois mois plus tard, où en est la réalisation de ces avancées? Des concertations ont-elles déjà eu lieu avec les associations de terrain – notamment mais également avec vos collègues du gouvernement – dans ce cadre? Disposez-vous d'ores et déjà d'un calendrier pour la mise en œuvre de cette résolution?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">19.02 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u67" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg248" xml:lang="fr">Monsieur Rigot, je vous remercie pour cette question fort importante qui, comme vous l'avez dit, me préoccupe depuis longtemps. Cette résolution, qui avait été rédigée par les associations de personnes concernées et l'Equality Law Clinic est un texte précieux. Il s'agit aujourd'hui de rendre hommage à ces auteurs en inscrivant pleinement leurs revendications dans notre législation et d'enfin en finir avec ces pratiques inacceptables. Très concrètement, ma priorité est l'élaboration d'un cadre légal qui soit le plus en adéquation avec le respect du principe d'autodétermination au regard de la législation européenne et internationale, ainsi que selon les revendications des associations de personnes concernées avec lesquelles je suis – comme vous vous en doutez – en dialogue permanent.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg249" xml:lang="fr">En ce moment, je travaille avec mon administration pour avancer des propositions de textes de lois le plus rapidement possible et je collaborerai également avec mes collègues Van Quickenborne et Vandenbroucke dans ces matières pour protéger les droits des personnes intersexe.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">19.03 Hervé Rigot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u68" who="#RigotHervé" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg250" xml:lang="fr">Madame la secrétaire d'État, je n'ai aucun doute sur votre motivation. Vous l'avez démontrée lorsque vous étiez députée et vous la démontrez dans toutes les matières dans lesquelles vous vous investissez aujourd'hui. Les chantiers sont énormes. Tout au long de cette commission, vous avez évoqué tant de points d'attention pour que notre société soit plus juste, plus égalitaire, plus respectueuse de ce qu'est chacune et chacun.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg251" xml:lang="fr">Mais dans le cas présent, j'ose espérer avoir un timing à un moment donné. En effet, j'entends bien votre réponse et je ne doute pas que vous allez avancer, mais je n'ai pas davantage de timing et de certitude sur un avancement à court ou à moyen terme. Je me permettrai donc de revenir vers vous dans les prochains mois. Je vous laisserai le temps de l'été et je reviendrai peut-être vers vous en septembre pour dresser ensemble un état des lieux, si vous me le permettez, à moins que vous ne le fassiez de votre propre initiative d'ici-là.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 20 Questions jointes de</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Denis Ducarme à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La nomination de Mme Ihsane Haouach à la fonction de commissaire du gouvernement&quot; (55018458C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Darya Safai à Sarah Schlitz (Égalité des genres et Égalité des chances) sur &quot;La nomination de la Belgo-Marocaine Ihsane Haouach comme commissaire du gouvernement&quot; (55018472C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 20 Samengevoegde vragen van</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Denis Ducarme aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De benoeming van mevrouw Ihsane Haouach tot regeringscommissaris&quot; (55018458C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: - Darya Safai aan Sarah Schlitz (Gendergelijkheid en Kansengelijkheid) over &quot;De benoeming van de Belgisch-Marokkaanse Ihsane Haouach tot regeringscommissaris&quot; (55018472C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">20.01 Denis Ducarme (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u69" who="#DucarmeDenis" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg252" xml:lang="fr">Monsieur le président, madame la secrétaire d'État, selon la presse, vous avez nommé auprès de l'Institut pour l'égalité des femmes et des hommes Mme Haouach en qualité de commissaire du gouvernement. Sur les réseaux sociaux, Mme Haouach apparaît sur ses photos de profil en affichant très clairement ses préférences religieuses. C'est naturellement son droit le plus strict. Elle doit être respectée dans son choix personnel mais pourriez-vous nous confirmer que Mme Haouach n'affichera pas ostensiblement ses préférences religieuses dans le cadre de ses fonctions de commissaire du gouvernement? Si cela devait être le cas, cela poserait naturellement un problème assez fondamental.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg253" xml:lang="fr">Vous connaissez, comme moi, les dispositions réglementaires impliquant le principe de neutralité lié à toute fonction exercée et liée au pouvoir exécutif. La fonction de commissaire du gouvernement en fait partie. La première mission d'un commissaire du gouvernement, c'est de représenter le gouvernement, tout le gouvernement. C'est évidemment extrêmement différent d'une fonction politique, par exemple la nomination de représentants de partis politiques au sein du conseil d'administration d'une entreprise publique. Ici, c'est bien le gouvernement dans son entièreté qui est représenté.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg254" xml:lang="fr">Quand je dis tout le gouvernement, cela me conduit naturellement à poser une autre question. Vous n'êtes pas toute seule dans ce gouvernement. Vous avez des partenaires qui n'ont pas tous nécessairement les mêmes options ou les mêmes valeurs que vous. Pourriez-vous nous confirmer que ce que  De Standaard indique aujourd'hui est vrai par rapport au fait que vous auriez  consulté Mme la secrétaire d'État De Bleeker à ce sujet?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg255" xml:lang="fr">Plus généralement, pourriez-vous nous confirmer que, pour cette nomination, vous avez consulté l'ensemble de vos partenaires au sein du gouvernement?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">20.02 Darya Safai (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u70" who="#SafaiDarya" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg256" xml:lang="nl">Mijnheer de voorzitter, mevrouw de staatssecretaris, u benoemde een vrouw met hoofddoek tot regeringscommissaris bij het Instituut voor de gelijkheid van vrouwen en mannen (IGVM). Dat instituut moet waken over de gendergelijkheid, terwijl de hoofddoek net de ongelijkheid tussen man en vrouw representeert. Het is niet zomaar een stukje stof, er zit een misogyne filosofie achter. Een vrouw moet zichzelf namelijk bedekken tegen wellustige blikken van mannen. Uw beslissing druist overigens ook in tegen de neutraliteit van de Staat.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg257" xml:lang="nl">Mevrouw de staatssecretaris, kunt u mij garanderen dat mevrouw Haouach een neutrale houding zal aannemen bij het uitoefenen van haar taken als regeringscommissaris en haar religieuze voorkeuren niet zal tonen? Wat denkt u dat het promoten van de hoofddoek in een instituut als het IGVM teweegbrengt bij jonge meisjes en vrouwen die gedwongen worden een hoofddoek te dragen? Wat is uw standpunt daarover?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">20.03 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u71" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg258" xml:lang="fr">Madame Safai, monsieur Ducarme, je tiens à vous dire tout d'abord que vos questions m'étonnent. À vous entendre, une personne portant un foulard n'est pas en mesure d'exercer ses fonctions correctement ou de façon neutre. Ce n'est pas ma conviction.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">20.04 Denis Ducarme (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u72" who="#DucarmeDenis" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg259" xml:lang="fr">Ce n'est pas ce que l'on a dit!</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">20.05 Sarah Schlitz, secrétaire d'État:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u73" who="#SchlitzSarah" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg260" xml:lang="fr">Par ailleurs, je précise qu'une commissaire du gouvernement n'est pas une fonctionnaire de l'État. Elle exerce des missions d'information et de contrôle de la légalité et de l'intérêt général au sein d'un organisme, en l'occurrence l'IEFH.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg261" xml:lang="fr">Mme Haouach possède toutes les compétences requises pour mener à bien cette mission. Diplômée avec grande distinction de la Solvay Business School, elle a démontré de grandes qualités de gestion et des expériences professionnelles probantes, dont une de plusieurs années, dans une grande entreprise reconnue internationalement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg262" xml:lang="nl">Ik heb mevrouw Haouach dan ook aangesteld voor haar competenties inzake gender. Haar hijab heeft haar er niet van weerhouden deze schitterende carrière te leiden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg263" xml:lang="fr">Que Mme Haouach soit privée de cette opportunité en raison de son foulard et que l'IEFH ne puisse profiter de son expertise me paraît aberrant.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg264" xml:lang="fr">Je mentionnerai que ce poste s'inscrit dans le cadre juridique général, la commissaire du gouvernement n'étant pas soumise aux règles spécifiques de la neutralité de l'État. Ne pas la sélectionner parce qu'elle affiche ses convictions religieuses serait dès lors une discrimination au sens de la loi de 2007. Cette désignation relève de ma prérogative comme celle de tous les cabinets désignant un ou une commissaire sans nécessité de consultation. Selon moi, Mme Haouach est la bonne personne au bon endroit.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg265" xml:lang="nl">Mevrouw Haouach is voor mij de juiste persoon op de juiste plaats.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg266" xml:lang="fr">Et je me réjouis de collaborer avec elle dans les prochaines années.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">20.06 Denis Ducarme (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u74" who="#DucarmeDenis" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg267" xml:lang="fr">Madame la secrétaire d'État, je n'accepte pas que l'on caricature mes propos. J'ai parlé de principe de neutralité. Je n'ai pas désigné le foulard, ou cette dame en particulier. Je trouve  que c'est assez indigne de votre part de le suggérer. Voici un premier élément.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg268" xml:lang="fr">Second élément. Je m'inscris en faux par rapport à ce que vous venez de dire sur le commissaire du gouvernement. Il représente le gouvernement. Il doit donc répondre aux exigences en matière de neutralité de l'État. Je suis donc choqué par votre propos, comme bon nombre de députés libéraux faisant partie de cette majorité Vivaldi, qui soutiennent naturellement les politiques du gouvernement. Dans une majorité aussi diverse que la nôtre, différentes valeurs cohabitent. Le tout est que chacun se sente respecté dans les siennes.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg269" xml:lang="fr">Mes valeurs de défense de la neutralité de l'État, de séparation entre l'Église et l'État, de défense d'un socle commun de valeurs qui encouragent le vivre-ensemble plutôt que l'inverse, comme le fait le communautarisme – en divisant, en écartant, en opposant – ces valeurs doivent être respectées. Ce combat libéral et mes valeurs, moi, membre de la majorité, avec cette nomination faite au nom du gouvernement, je trouve que vous les méprisez, que vous les foulez aux pieds, que vous en faites litière, et je ne l'accepte pas! D'autant plus, comme je l'ai dit, que vous négligez les principes fondamentaux qui sont liés à la neutralité de l'État. Cette fonction portée ainsi est incompatible avec le principe de neutralité de l'État.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg270" xml:lang="fr">Comme vous persistez dans ce que je considère être une erreur par rapport au respect des aspects réglementaires, mais également une erreur en matière de respect de certains partenaires de la majorité – écoutez bien ce que je vous dis (…)</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">Le président:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u75" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg271" xml:lang="fr">Je vous demande de conclure, monsieur Ducarme.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">20.07 Denis Ducarme (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u76" who="#DucarmeDenis" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg272" xml:lang="fr">Puisque vous comptez rompre une part de la confiance et indirectement une part de cette solidarité qui nous unit dans cette majorité, sachez bien, madame la secrétaire d'État, que je me sens complètement défait, délié de la responsabilité par rapport à vos projets et à vos politiques! Vous avez passé la ligne rouge. Vous méprisez les valeurs d'un certain nombre de partis qui composent cette majorité. Dorénavant, je vais donc faire comme vous. Vous n'avez plus mon soutien acquis dans le cadre du vote de vos projets. Ce sera à la carte, comme vous avez géré à la carte cette problématique en ignorant les valeurs d'un certain nombre de composantes de la majorité!</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">20.08 Darya Safai (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u77" who="#SafaiDarya" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg273" xml:lang="nl">Mevrouw de staatssecretaris, ik was geshockeerd toen ik vaststelde dat u iemand die een hoofddoek draagt, benoemd heeft tot regeringscommissaris bij het Instituut voor de gelijkheid van vrouwen en mannen. Deze persoon moet de gelijkwaardigheid van vrouwen en mannen kunnen garanderen terwijl zij zelf niet eens in deze gelijkwaardigheid gelooft. Luister goed naar mij als ervaringsdeskundige: de filosofie achter een hoofddoek erkent absoluut geen vrijheid, zelfbeschikkingsrecht of gelijkwaardigheid voor vrouwen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg274" xml:lang="nl">Dat wij vrouwen met hoofddoeken in onze samenleving hebben, is een feit, maar hen promoveren tot een functie die garant moet staan voor de gelijkwaardigheid van vrouw en man is onaanvaardbaar en zelfs cynisch. Deze beslissing druist trouwens ook in tegen de neutraliteit van de Staat en is ingegeven door electorale overwegingen. U heeft blijkbaar geen besef van het aantal kinderen, jonge meisjes en vrouwen dat gedwongen wordt om een hoofddoek te dragen. Ik raad u aan om eens bij onze scholen langs te gaan en er te luisteren naar de schrijnende verhalen over de hoofddoek en keuzevrijheid. Het is ongelooflijk dat deze slachtoffers van het islamisme hier bij ons wederom in de steek gelaten worden.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">De voorzitter:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u78" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg275" xml:lang="nl">Mevrouw Safai, mag ik u vragen om af te ronden? U leest hier een tekst voor.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">20.09 Darya Safai (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u79" who="#SafaiDarya" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg276" xml:lang="nl">Ze worden dan nog in de steek gelaten door de staatssecretaris voor Gendergelijkheid en Kansengelijkheid, door het verkeerde signaal dat u geeft. De reactie van uw kabinet is betreurenswaardig en toont wederom dat u niet op de juiste plaats zit wanneer het gaat om het promoten van de gelijkwaardigheid van vrouw en man en de vrouwenrechten in de islam.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <note type="speaker" xml:lang="fr">Le président:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.u80" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-06-02-definitief-55-commissie-ic502x.seg277" xml:lang="fr">La question n° 55018469C de Mme Sophie Rohonyi est reportée.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: La réunion publique de commission est levée à 17 h 36.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De openbare commissievergadering wordt gesloten om 17.36 uur.</desc>
+                </gap>
+            </div>
+        </body>
+    </text>
+</TEI>
