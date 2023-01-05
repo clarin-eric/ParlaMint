@@ -1,0 +1,830 @@
+<TEI xml:lang="nl" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x" ana="#parla.sitting #covid" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="nl" type="main">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 28-06-2022 [ParlaMint]</title>
+                <title xml:lang="en" type="main">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 28-06-2022 [ParlaMint]</title>
+                <meeting ana="#parla.meeting.committee" corresp="#be_federal_parliament" n="ic831">Commissievergadering 831 van 28-06-2022</meeting>
+                <meeting ana="#parla.term #period_55" corresp="#be_federal_parliament" n="55">Zittingperiode 55</meeting>
+                <respStmt>
+                    <persName>Henk van der Pol</persName>
+                    <persName>Griet Depoorter</persName>
+                    <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+                    <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">De Europese Commissie</orgName>
+                    <orgName xml:lang="en">The European Commission</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">Taalunie</orgName>
+                    <orgName xml:lang="en">Dutch Language Union</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>0.9 - These parliamentary proceedings are pre-final versions, which have yet to be officially approved.</edition>
+            </editionStmt>
+            <extent>
+                <measure unit="speeches" quantity="55" xml:lang="en">55 speeches</measure>
+                <measure unit="speeches" quantity="55" xml:lang="nl">55 spreekbeurten</measure>
+                <measure unit="words" quantity="8408" xml:lang="en">8408 words</measure>
+                <measure unit="words" quantity="8408" xml:lang="nl">8408 woorden</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+                    <orgName xml:lang="en">Dutch Language Institute</orgName>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                </publisher>
+                <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                    <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                </availability>
+                <date when="2022-07-27">2022-07-27</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title xml:lang="fr" type="main">Commission des Finances et du Budget du Mardi 28 juin 2022 Matin</title>
+                    <title xml:lang="nl" type="main">Commissie voor Financiën en Begroting van Dinsdag 28 juni 2022 Voormiddag</title>
+                    <idno type="URI">https://www.dekamer.be/doc/CCRI/html/55/ic831x.html</idno>
+                    <date when="2022-06-28">2022-06-28</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>                
+                <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>                
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="desc" occurs="135"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="u" occurs="55"/>
+                    <tagUsage gi="seg" occurs="154"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="gap" occurs="135"/>
+                    <tagUsage gi="note" occurs="54"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <name type="city">Brussel</name>
+                    <name type="country" key="BE">België</name>
+                    <date ana="#parla.sitting" when="2022-06-28">2022-06-28</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27"><name>Henk van der Pol</name>: initial version.</change>            
+        </revisionDesc>
+    </teiHeader>
+    <text ana="#covid">
+        <body>
+            <div type="debateSection">
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De openbare commissievergadering wordt geopend om 10.07 uur en voorgezeten door Wouter Vermeersch.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: La réunion publique de commission est ouverte à 10 h 07 et présidée par M. Wouter Vermeersch.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De teksten die in cursief zijn opgenomen in het Integraal Verslag werden niet uitgesproken en steunen uitsluitend op de tekst die de spreker heeft ingediend.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Les textes figurant en italique dans le Compte rendu intégral n’ont pas été prononcés et sont la reproduction exacte des textes déposés par les auteurs.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 01 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;Het onder controle houden van de staatsschuld en van de intrestlasten&quot; (55028033C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 01 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;Le maintien sous contrôle de la dette de l'État et des charges d'intérêts&quot; (55028033C)</desc>
+                </gap>
+                <note type="speaker">01.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u1" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg1" xml:lang="nl">Om het vlotte verloop van de vergadering te garanderen, verwijs ik naar de schriftelijke versie van mijn vraag.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De algemene toelichting van de begrotingen over 2022 (DOC 55 2290/001) bevat een sensitiviteitsanalyse die nagaat in hoeverre de schuld gevoelig is voor een wijziging in de intrestvoeten. De analyse wijst uit dat een verhoging van de intrestvoeten met één procentpunt leidt tot een toename van de intrestlasten met 820 miljoen euro (0,16% bbp) voor de gezamenlijke overheid, waarvan 660 miljoen euro (0,13% bbp) voor de federale overheid.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 1.De algemene toelichting van de aanpassingen van de begroting over 2022 (DOC 55 2641/001) bevat enkel een sensitiviteitsanalyse voor entiteit I. De analyse wijst uit dat een verhoging van de intrestvoeten met één procentpunt leidt tot een toename van de intrestlasten over 2022 met 400 miljoen euro (0,07% bbp) en over 2023 met 1 miljard euro (0,18% bbp) voor de federale overheid.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de impact van een stijging van de rentecurve over 2022 en 2023 voor de gezamenlijke overheid?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 2.Op 15 maart 2022 antwoordde de staatssecretaris op mijn vraag over de &quot;De stijging van de tienjaarsrente&quot; (55024449C): 'Ik heb sinds mijn aantreden als staatssecretaris blijven beklemtonen dat eens de urgentie van de coronacrisis achter de rug was, de impact van de noodzakelijke maatregelen kan uitdoven, dat stabiliseren nodig is en dat het stap voor stap terugdringen van de schuldgraad een belangrijke leidraad is en zal zijn voor het begrotingsbeleid'.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe ver staat de staatssecretaris met deze ambitie om de staatsschuld terug te dringen? In hoeverre is het besef van de noodzaak tot het afbouwen van de staatsschuld doorgedrongen in de regering?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 3.Welke plannen heeft de staatssecretaris inzake schuldafbouw? Welke schuldgraad wil de staatsecretaris voor entiteit I en de gezamenlijke overheid bereiken tegen 2024?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 4.In 2009 barstte de Europese staatsschuldencrisis of eurocrisis los nadat Griekenland dreigde zijn schulden niet meer zelfstandig te kunnen financieren. De staatschulden zijn vandaag nog hoger dan toen. Bovendien worden we opnieuw geconfronteerd met grote schulden in combinatie met stijgende rentes.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe schat de staatssecretaris het risico van een nieuwe eurocrisis in?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">01.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u2" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg2" xml:lang="nl">Op basis van een ruwe raming van mijn administratie gebaseerd op de bijdragen van entiteit I en entiteit II in de totale bruto geconsolideerde schuld van 2021, zou de impact voor de gezamenlijke overheid geraamd kunnen worden op ongeveer 500 miljoen euro in 2022 en 1,25 miljard euro in 2023.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg3" xml:lang="nl">Mijn ambitie om de staatsschuld terug te dringen, is nog niet afgenomen. Ik blijf daarom volledig achter dat antwoord staan, maar ik wil wel beklemtonen dat men nog steeds in bijzonder moeilijke economische tijden verkeert. Corona lijkt op de terugweg, maar de oorlog in Oekraïne, de hoogoplopende inflatie, de dreigende tekorten van aanvoer van grondstoffen, die aanleiding geven tot neerwaartse herzieningen van de economische groei, maken de oefening niet gemakkelijk. Daarom heeft de Europese Commissie recent besloten om de  general escape clause met een jaar te verlengen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg4" xml:lang="nl">Ik denk dat alle regeringsleden ervan overtuigd zijn dat men in eerste instantie moet streven naar een stabilisatie van de Belgische schuldgraad. Op basis van het stabiliteitsprogramma 2022-2025 is het de bedoeling om tegen 2024 tot een schuldgraad voor de gezamenlijke overheid van 109,7 % te komen. De doelstelling is uiteraard gebaseerd op de macro-economische parameters die op dat moment in overweging werden genomen. Het stabiliteitsprogramma maakt geen onderscheid tussen de schuldgraad van entiteit I en entiteit II, maar een rudimentaire inschatting van mijn administratie zou de doelstelling voor entiteit I in dat kader op een schuldgraad van 87 % leggen.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">01.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u3" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg5" xml:lang="nl">Dank u voor uw antwoord, mevrouw de staatssecretaris.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg6" xml:lang="nl">U sprak over een schuld van 109 %. Afgaande op de projecties van de Nationale Bank vorige week, zou de staatsschuld afstevenen op 120 % of zelfs 130 %. In het licht van die 130 % is die doelstelling zeker ambitieus. We zullen dus zeker alle zeilen moeten bijzetten. Het Federaal Agentschap van de Schuld heeft gisteren in zijn jaarverslag aangegeven niet meer uit te gaan van een daling van de rentelasten, maar wel van een stijging. Dit jaar zouden de rentelasten nog 1,23 % van het bbp bedragen. In plaats van een daling tot 1,17 % verwacht het agentschap nu een toename tot 1,34 %. Donkere wolken trekken samen boven de Wetstraat, want de schulden van vandaag zijn de belastingen van morgen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 02 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;Het overheidstekort&quot; (55028035C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 02 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;Le déficit public&quot; (55028035C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">02.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u4" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg7" xml:lang="nl">Mevrouw de staatssecretaris, ik verwijs naar de ingediende vraag.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De Europese Commissie stelt in haar economische prognoses dat het overheidstekort van België in 2023 -4,4 procent zal bedragen.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 1. In het stabiliteitsprogramma van België 2022-2025 dat op 30 april 2022 werd ingediend bij de Europese Commissie en in de begrotingscontrole (DOC 55 2641/001) wordt uitgegaan van een vorderingensaldo voor de gezamenlijke overheid van -3,58 procent, een verschil dus van bijna vol procentpunt (0,82 procentpunt) ten opzichte van deze 4,4 procent.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe valt dit grote verschil te verklaren?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 2. De Europese Commissie heeft de begrotingsregels al zeker bevroren tot eind 2022. Maar, landen die grote tekorten vertonen kunnen overeenkomstig de buitensporige tekortprocedure (BTP), het zogeheten 'Europees strafbankje', onder verscherpt toezicht worden geplaatst door de Europese Commissie.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe zal de staatssecretaris voor begroting vermijden dat België op termijn op het 'Europees strafbankje' terecht komt?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 3. De staatssecretaris voor Begroting en de federale regering stelden zichzelf als doelstelling om tegen 2024 af te klokken op een tekort van 3 procent, de maximumgrens die door de Europese Unie wordt bepaald. Acht de staatssecretaris voor Begroting haar doelstelling van 3 procent tekort in 2024 nog haalbaar en realistisch?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 4. De Europese Commissie stelt in haar analyse van het Belgische tekort ook vast: 'In addition, the high government deficit in 2023 also reflects the growth in non-crisis current expenditure, which is notably due to rising ageing costs and to the budgetary impact of recently adopted permanent measures not offset by compensating measures.'</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Is een pensioenhervorming en een aanpak van de overheidsuitgaven niet noodzakelijk om het tekort te kunnen aanpakken?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">02.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u5" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg8" xml:lang="nl">Mijnheer Vermeersch, in de landenspecifieke aanbevelingen van de Europese Commissie van 23 mei geeft de Commissie zelf aan dat het hoger begrotingstekort van de overheid van 2023 voornamelijk het gevolg is van een minder gunstig macro-economisch scenario en van het niet in rekening nemen van nog niet gespecificeerde maatregelen. Het gaat dus onder meer om de variabele inspanning, die een impact heeft van ongeveer 0,3 % in 2023.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg9" xml:lang="nl">Ondertussen heeft de Europese Commissie beslist dat de begrotingsregels voor 2023 eveneens worden opgeschort door de hoge onzekerheid en de neerwaartse bijstellingen van de economische vooruitzichten, ingevolge de oorlog in Oekraïne, de hoge energieprijzen en de aanhoudende problemen inzake grondstoffen en bevoorrading.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg10" xml:lang="nl">Dat neemt echter niet weg dat we waakzaam moeten blijven en ondertussen het nodige moeten doen om onze begroting op orde te stellen. Eind april heeft België zijn stabiliteitsprogramma ingediend bij de Europese Commissie. Daarin zijn ook de doelstellingen opgenomen die wij de komende jaren moeten halen binnen een gegeven macro-economische context. Het is niet alleen een verantwoordelijkheid van de federale overheid, maar ook van de deelstaten, om er samen voor te zorgen dat de daarin opgenomen doelstellingen ook daadwerkelijk worden gerealiseerd.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg11" xml:lang="nl">Ik wil er eerst op wijzen dat de regering zichzelf nooit de doelstelling heeft opgelegd om tegen 2024 af te kloppen op een tekort van 3 %. In de algemene toelichting bij de begrotingsopmaak van 2021, dus bij het aantreden van deze regering, kunt u zien dat het nominaal saldo voor entiteit I voor 2023 werd geraamd op een tekort van 3,3 % van het bruto binnenlands product. De regering nam zich wel voor om een verstandig en dynamisch begrotingsbeleid te voeren en het begrotingstraject tijdens de legislatuur significant te verbeteren. De regering zal elk jaar een vaste inspanning leveren van 0,2 % van het bruto binnenlands product en daarnaast zal zij ook een variabele, structurele inspanning leveren in functie van de economische groei en het economisch herstel.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg12" xml:lang="nl">Binnen de regering zal deze zomer, onder meer met het oog op de opmaak van de begroting voor 2023, bekeken moeten worden welke maatregelen er genomen kunnen worden om het tekort aan te pakken. Op die discussie zal ik niet vooruitlopen. Veel opties zijn mogelijk, zoals de door u aangehaalde pensioenhervorming en het aanpakken van de overheidsuitgaven. Trouwens, voor dat laatste zetten wij bijvoorbeeld in op het uitvoeren van  spending reviews die de efficiëntie en de effectiviteit van bepaalde maatregelen kritisch onder de loep nemen. Ik denk bijvoorbeeld ook aan maatregelen die de werkzaamheidsgraad doen toenemen en de effectieve uitvoering van de arbeidsdeal.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg13" xml:lang="nl">Ik heb al eerder aangegeven dat de uitvoering van deze gerealiseerde arbeidsdeal en de pensioenshervorming voor mij ontzettend belangrijk zijn om te vermijden dat de begroting ontspoort.</seg>
+                </u>
+                <note type="speaker">02.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u6" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg14" xml:lang="nl">Mevrouw de staatssecretaris, als de procedure volledig zou worden toegepast, we geen maatregelen hadden genomen en we de effecten van corona en Oekraïne uit de begroting haalden, zou België vandaag al op het slachtbankje liggen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg15" xml:lang="nl">Wat de 3 % in 2024 betreft, hebt u meermaals in de pers verklaard dat men u daarop mag afrekenen in 2024. U verwijst nu terecht naar het feit dat het niet noodzakelijk in het regeerakkoord staat. Als u echter als staatssecretaris uitspraken doet in de pers en u zegt dat men u daarop mag afrekenen, spreekt u namens de regering. U formuleert dus een doelstelling namens de regering. Niet al uw regeringspartners zitten daarover op dezelfde lijn, daarover hadden we het vorige week. Als wij u als staatssecretaris echter horen zeggen dat we u op het tekort van 3 % in 2024 mogen afrekenen, dan nemen we dat als doelstelling van de regering.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg16" xml:lang="nl">Het is ook duidelijk dat de  spending reviews die u voorstelt niet zullen volstaan om er te geraken, ook al is het een waardevol initiatief. Ook de arbeidsdeal die al in oktober afgesloten werd – het duurde voor deze regering wel negen maanden om haar ei te leggen – zal vast en zeker niet volstaan om de werkzaamheidsgraad van 80 % in dit land te bereiken. Er zal veel meer nodig zijn, zoals ook beschreven in de analyse van de Europese Commissie. Wij kunnen ons daar deels bij aansluiten. De pensioenhervorming is bijvoorbeeld wel noodzakelijk om de pensioenen op lange termijn betaalbaar te houden voor de toekomstige generaties.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 03 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De meeruitgaven in verband met het Oekraïense conflict&quot; (55028042C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 03 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;Les dépenses supplémentaires liées au conflit en Ukraine&quot; (55028042C)</desc>
+                </gap>
+                <note type="speaker">03.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u7" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg17" xml:lang="nl">Mevrouw de staatssecretaris, sinds de beantwoording van een aantal vragen over dit thema zijn een aantal weken verstreken. Inzake de Oekraïne-uitgaven, zoals leeflonen en dergelijke meer, zijn de evoluties best op te volgen op korte termijn. De aantallen evolueren immers sterk: aanvankelijk was er sprake van 200 à 300.000 mensen die naar hier zouden komen, terwijl dat er nu een pak minder blijken te zijn. Ik verwijs naar mijn vraag zoals schriftelijk ingediend.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Op 29 maart 2022 antwoordde de staatssecretaris voor Begroting op mijn vragen over de meeruitgaven voor de oorlog in Oekraïne (55026427C) en de leeflonen aan Oekraïense vluchtelingen (55026228C): 'Op 8 en 10 maart werd een interkabinettenwerkgroep samengeroepen met als doel een voorlopige inventaris te maken van de budgettaire impact op korte termijn. Nagenoeg alle beleidscellen waren hierbij betrokken. Het doel is de kosten in kaart te brengen tot en met eind juli op basis van voorlopige hypotheses inzake de vluchtelingenstroom. Er wordt gewerkt op basis van een hypothetische instroom van 259.000 mensen.'</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Op basis van de ramingen en hypothesen van 24 maart 2022 zou de budgettaire kostprijs kunnen oplopen tot 875 miljoen euro eind juli.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de actuele geraamde budgettaire kostprijs en dat tot eind 2022?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Op 28 maart 2022 werd de kosten verbonden aan de rechtstreekse hulp in het buitenland op 150 miljoen euro geraamd. Dit betreft kosten voor de levering van aardolieproducten, medisch materiaal en humanitaire hulp.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de actuele geraamde budgettaire kostprijs en dat tot eind 2022?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Op 24 maart 2022 werd gewerkt met een vertrekbasis van een totale instroom van 259.000 vluchtelingen in België tot de zomer. Hiervan zou 20 procent nood hebben aan opvang. Dat gaf een geraamde kostprijs van 49 miljoen euro tot eind juli.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de actuele geraamde budgettaire kostprijs en dat tot eind 2022?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Op 24 maart 2022 werd ook verwacht dat 50 procent van de vluchtelingen een aanvraag tot leefloon zou indienen. Dat gaf een geraamde kostprijs 665 miljoen euro tot einde juli.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de actuele geraamde budgettaire kostprijs en dat tot eind 2022?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De instroom vluchtelingen tot 25 maart 2022 betrof 26.157 mensen, waarvan 43 procent minderjarigen. Van deze groep maakte 19 procent of 5.098 mensen gebruik van de federale noodopvang. Met betrekking tot de aanvraag van het equivalent leefloon waren er nog geen gegevens beschikbaar. De inschatting van de instroom varieerde tussen de 80.000 en 287.000. De laatste inschatting van Celeval zou 143.500 mensen zijn.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de actuele inschatting van het aantal mensen? Hoeveel vragen opvang? Hoeveel vragen leefloon? En wat is de kostprijs van de opvang, respectievelijk leefloon tot eind 2022?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Zal de provisie Oekraïne, die werd voorzien bij de begrotingscontrole, volstaan om al deze kosten te dekken? Zullen er extra provisies nodig zijn? Zo ja, wanneer worden deze begrotingsaanpassingen gepland?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">03.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u8" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg18" xml:lang="nl">Mijnheer Vermeersch, in het voorliggend ontwerp van begrotingscontrole 2024 is een provisie opgenomen ten belope van 800 miljoen euro. Dit bedrag is voorzien om de uitgaven te financieren gelinkt aan de gevolgen van de oorlog in Oekraïne tot en met eind augustus. Hiervan werd ongeveer 400 miljoen euro voorzien voor het toekennen van een leefloon en ongeveer 135 miljoen euro voor de bijkomende kosten van OCMW's.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg19" xml:lang="nl">Deze ramingen waren gebaseerd op een totale instroom van 143.000 vluchtelingen tegen eind juni. Van dit totaal aantal vluchtelingen werd aangenomen dat 43 % minderjarig is en dus niet in aanmerking komt voor een leefloon. Met andere woorden, de hypothese was dat 57 %, of 81.510 mensen, een leefloon zouden aanvragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg20" xml:lang="nl">Ondertussen blijkt dat dit aantal voorlopig te hoog is ingeschat. Op 18 mei waren er 42.342 mensen die een attest voor tijdelijke bescherming hebben gekregen. Nieuwe ramingen zijn opgemaakt in het kader van de begrotingsopmaak 2023. Deze ramingen vertrekken nu van de hypothese dat er 78.000 vluchtelingen zullen zijn, waarvan de helft steun zal aanvragen die gemiddeld 1,8 personen dekt.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Voorzitster: Marie-Christine Marghem.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Présidente: Marie-Christine Marghem.</desc>
+                </gap>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u9" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg21" xml:lang="nl">De kosten voor de terugbetaling van het leefloon worden hierdoor geschat op ongeveer 222 miljoen euro. Rekening houdende met de terugbetaling van de kosten aan de OCMW's wordt de impact voor 2022 op jaarbasis geraamd op 290 miljoen euro. Wat de opvang betreft, wordt rekening gehouden met 5.000 opvangplaatsen en een kostprijs van 65 euro per dag. Dit geeft een kostprijs van 10 miljoen euro per maand.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">03.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u10" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg22" xml:lang="nl">Mevrouw de staatssecretaris, dit zijn toch een aantal nieuwe cijfers. Ik hoorde u 78.000 mensen noemen, waarvan de helft een beroep zou doen op het leefloon, met een kostprijs van 222 miljoen euro.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg23" xml:lang="nl">Is de 222 miljoen euro die u vermeldde de kostprijs voor 2022? U zei dat dat in het kader van de begrotingsopmaak 2023 was. Ik vermoed echter dat 222 miljoen euro de kostprijs is van de leeflonen voor 2022.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">03.04 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u11" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg24" xml:lang="nl">Aangezien er meer vluchtelingen komen, bouwt dit aantal zich op. Dat is de raming van de kostprijs in 2022. In 2023 zal de kostprijs afhangen van het aantal vluchtelingen die nog hier verblijven. Hopelijk kunnen ze terug, natuurlijk. Als die oorlog jaren aansleept, zullen zij hier waarschijnlijk langer blijven.</seg>
+                </u>
+                <note type="speaker">03.05 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u12" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg25" xml:lang="nl">222 miljoen euro is dus de kost van de leeflonen voor dit jaar. Laten we inderdaad hopen dat de oorlog daar snel opklaart, zodat de kost voor de begroting ook beperkt kan blijven en dat die mensen uiteraard terug kunnen keren naar hun thuisland. Dat is wat ze uiteindelijk ook het liefste willen. Er worden ongeveer 5.000 opvangplaatsen voorzien. Ik zal de cijfers zeker nog even nakijken in het verslag.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 04 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De economische groei&quot; (55028034C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 04 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La croissance économique&quot; (55028034C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">04.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u13" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg26" xml:lang="nl">Ik verwijs naar de schriftelijke versie van mijn vraag.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Mevrouw de staatssecretaris, de Europese Commissie stelt in haar economische prognoses de groei in de eurozone naar beneden bij. De economische groei in België wordt verwacht te vertragen naar 2 procent in 2022.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Zoals blijkt uit de tabellen bij de begrotingscontrole (DOC 55 2641/001), schatten zowel het Federaal Planbureau als de Nationale Bank van België dat de invasie van Oekraïne door Rusland de groei van het bbp zal afremmen tot een niveau van ongeveer 2,5 procent in plaats van de eerder voorziene 3,0 procent.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Houdt de begrotingscontrole voldoende rekening met een groeivertraging van 0,5 tot 1 procentpunt ten opzichte van de initiële begroting?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De begrotingscontrole bevat ook een raming van de gevoeligheid voor wijzigingen in bbp-groei (DOC 55 2641/001). Het vorderingensaldo na maatregelen werd herberekend rekening houdend met een groeivertraging voor elk jaar van 0,5 % vanaf 2022 ten opzichte van de gehanteerde basishypothesen. Dit zou aanleiding geven tot een verslechtering van het vorderingensaldo met 1,1 miljard EUR (0,2 % van het bbp) in 2022. In de daaropvolgende jaren zou deze verslechtering oplopen tot 7,8 miljard EUR (1,3 % van het bbp) in 2027.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Gezien de Europese Commissie een verdere groeivertraging van 0,5 procent vooropgesteld heeft over 2022 van 2,5 procent naar 2 procent: mogen wij rekening houden met een bijkomende verslechtering van het vorderingensaldo met 1,1 miljard voor entiteit I over 2022? Hoeveel bedraagt het vorderingensaldo dan?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de overeenkomstige gevoeligheid voor wijziging in bbp-groei voor de gezamenlijke overheid van een groeivertraging van 0,5 procent over 2022 (graag in miljard euro)? Hoeveel bedraagt het vorderingensaldo dan (graag in procent bbp)?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">04.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u14" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg27" xml:lang="nl">Mijnheer Vermeersch, ook die vraag hebben wij de voorbije weken al besproken. De begrotingscontrole houdt inderdaad rekening met de eerste technische raming van het Federaal Planbureau naar aanleiding van de inval van Rusland in Oekraïne, waarbij de economie een groeivertraging zou kennen van 0,5 % ten opzichte van de ramingen uit de economische begroting van februari 2022, die een situatie weergaven vóór het uitbreken van de oorlog.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg28" xml:lang="nl">Volgens de technische raming zou de impact op het vorderingensaldo van de gezamenlijke overheid 0,28 % bedragen. Op basis van het aandeel van entiteit I in de cyclische component werd de impact van de groeivertraging op het vorderingensaldo van entiteit I meegenomen als conjunctuurcorrectie ten belope van 1 miljard euro. Aangezien de begrotingscontrole voor 2022 reeds rekening houdt met een groeivertraging van 0,5 %, houden de ramingen dus rekening met een economische groei van 2,5 %.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg29" xml:lang="nl">Tabel 28 in de algemene toelichting geeft de impact weer van een jaarlijkse groeivertraging met 0,5 % ten opzichte van de gehanteerde basishypothese. Dat betekent dat de tabel voor 2022 de impact op het vorderingensaldo weergeeft bij een groei van 2 % in 2022. Het vorderingensaldo voor entiteit I zou dus verslechteren met 0,2 % en zou worden geraamd op een tekort van 4 % van het bruto binnenlands product. Wanneer we rekening houden met een elasticiteitscoëfficiënt van 0,6, zou de impact van een groeivertraging met 0,5 % op het vorderingensaldo voor de gezamenlijke overheid kunnen worden geraamd op 0,3 % of 1,66 miljard euro in 2022. Dat zou het vorderingensaldo voor de gezamenlijke overheid brengen op een tekort van 5,5 % van het bruto binnenlands product.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u15" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg30" xml:lang="nl">Mevrouw de staatssecretaris, bij de begrotingscontrole werd de groei inderdaad reeds aangepast, van 3 naar 2,5 %. De Europese Commissie heeft het over een vermindering van 1 %, dus naar 2 % groei, maar daarmee houdt u geen rekening in de begrotingscontrole. Er staat in de begrotingscontrole een impact van 1,1 miljard op het saldo van 2022. Als wij dat extrapoleren – en dit staat hier ook in de tabel - naar 2027, is die impact reeds bijna 8 miljard euro.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg31" xml:lang="nl">Het zijn uiteraard de cijfers voor entiteit 1. Wij bekijken echter graag de cijfers voor de gezamenlijke overheid, dat is uiteindelijk ook het ijkpunt van de Europese Commissie. Daar zaten wij reeds aan een tekort van 28 miljard euro dit jaar. U zegt dat voor de gezamenlijke overheid het vorderingensaldo dit jaar alleen reeds zou verslechteren met 1,66 miljard euro. Dat betekent, zoals ik ook zei in de plenaire vergadering, dat wij wellicht dit jaar voor de gezamenlijke overheid jammer genoeg kunnen eindigen op een tekort van 30 miljard euro. Dat is de richting waarnaar wij evolueren. Dat is natuurlijk dramatisch. Het gerealiseerde tekort in 2021, wat nog een volledig coronajaar was, bedroeg al 28 miljard. Dat zou betekenen dat wij dit jaar nog een groter tekort hebben dan in 2021.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg32" xml:lang="nl">Alle alarmbellen zouden moeten afgaan in uw regering, maar ik merk dat veel collega's helemaal nog niet wakker liggen van de situatie. Met betere cijfers hadden wij natuurlijk veel meer kunnen doen voor onze bevolking, onder andere op het vlak van koopkrachtmaatregelen. De discussie daarover zou ons hier te ver leiden.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 05 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de factuur voor de vaccins&quot; (55028045C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 05 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de la facture liée aux vaccins&quot; (55028045C)</desc>
+                </gap>
+                <note type="speaker">05.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u16" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg33" xml:lang="nl">Mevrouw de voorzitster, mevrouw de staatssecretaris, ik heb nu een hele reeks vragen over de verdeling van de facturen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg34" xml:lang="nl">U weet dat het Vlaams Belang een communautaire partij is. Dus zeker de discussies tussen de verschillende niveaus, overheden en entiteiten in dit land zijn voor ons heel belangrijk. Op een aantal verdelingen wil ik via een aantal vragen dieper ingaan, met name op de specifieke verzuchtingen of zaken die in de pers zijn verschenen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg35" xml:lang="nl">Ik zal het eerst hebben over de verdeling van de vaccins. Dat punt is voor het eerst naar boven gekomen en becijferd in het rapport van het Monitoringcomité. In het rapport was er sprake van 1,42 miljard euro onverdeelde maatregelen. Het ging onder andere om 527 miljoen euro voor de aankoop van vaccins. In de begroting wordt daarvoor een bedrag van 300 miljoen euro genoemd. Er is daarop een correctie gebeurd.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg36" xml:lang="nl">Wat is het standpunt van de federale regering inzake de factuur van de boosterprik? Welk standpunt schuiven de deelstaten naar voren? Mevrouw de staatssecretaris, is er ondertussen al een akkoord met de deelstaten? Ik heb immers begrepen dat in juni 2022 de zaak verder zou worden beslecht. Zo ja, met welke deelstaten is er een akkoord? Zo nee, wanneer beoogt u een akkoord te bereiken? Graag kreeg ik een concrete datum.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg37" xml:lang="nl">Heel specifiek is in de Vlaamse begroting slechts een provisie ingeschreven van 40 miljoen euro voor preventief gezondheidsbeleid dat te maken heeft met corona. In de media stelde de Vlaamse minister van Begroting, uw collega in de Vlaamse regering Matthias Diependaele, dat de Vlaamse overheid nog 210 miljoen euro verwacht van de federale overheid als afrekening voor de eerste vaccinatiecampagne.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg38" xml:lang="nl">Kan u in uw hoedanigheid van staatssecretaris dat bedrag van 210 miljoen euro bevestigen of weerleggen? Heeft de regering een vordering van 210 miljoen euro ontvangen van de Vlaamse regering? Hebt u in uw hoedanigheid van staatssecretaris kennis van de oorsprong van het bedrag en hoe het is samengesteld? Kan over het bedrag een akkoord worden gevonden met de Vlaamse regering? Wat is de budgettaire impact op het vorderingensaldo van respectievelijk entiteit I en entiteit II voor 2022?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">05.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u17" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg39" xml:lang="nl">De onderhandelingen met de deelstaten over de factuur van de boosterprik lopen nog steeds. Het standpunt van de federale regering is nog steeds dat de gemeenschappen hun bevoegdheid inzake preventie moeten opnemen. Ondertussen werd bij de begrotingscontrole de initieel ingeschreven ontvangst van 527 miljoen euro bijgesteld naar 302 miljoen euro, omdat de tenlasteneming van Covax-vaccins voor de volle honderd procent voor de federale overheid is.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg40" xml:lang="nl">Daarnaast werd er bijkomend 124 miljoen euro ingeschreven als ontvangst vanuit de gemeenschappen voor het testen en andere coronagerelateerde kosten die via het RIZIV worden afgehandeld. Dit brengt het totaal op 426 miljoen euro aan ontvangsten die zijn ingeschreven in de middelenbegroting. In uitvoering van het protocolakkoord en de ingediende facturen werd einde 2021 per gefedereerde entiteit een afrekening gemaakt op basis van het aantal gevaccineerden op 30 november 2021. Voor Vlaanderen ging het om een bedrag ten belope van 213 miljoen euro. Het ging om 5.315.493 gevaccineerden, hetgeen een totale kostprijs opleverde van 462,5 miljoen euro.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg41" xml:lang="nl">Het federale aandeel in deze kosten bedraagt 80 % of 370 miljoen euro, waarvan reeds 160 miljoen euro was geprefinancierd. Het resterende saldo dat nog diende terugbetaald te worden, was dus 210 miljoen euro, wat nog verhoogd werd met 3 miljoen euro voor de kosten inzake vaccins. Deze bedragen werden einde 2021 vastgelegd en vereffend op de begroting van de FOD Volksgezondheid, gebruik makend van de bijkomende kredieten die hiervoor werden ingeschreven via het vijfde bijblad op de begroting 2021.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg42" xml:lang="nl">In de algemene toelichting zijn de kosten van 527 miljoen euro opgenomen als een onverdeelde correctie op het niveau van de gezamenlijke overheid. Met andere woorden, ongeacht of de financiering gebeurt door entiteit I of entiteit II, is er rekening mee gehouden in de raming van het saldo voor de gezamenlijke overheid. Dus afhankelijk van wie het financiert, verslechtert het vorderingensaldo van de desbetreffende entiteit met een zelfde bedrag, maar niet dat van de gezamenlijke overheid.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">05.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u18" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg43" xml:lang="nl">Mevrouw de staatssecretaris, ik noteer dat de onderhandelingen nog altijd lopende zijn. Ik begrijp uit uw antwoord ook dat u geen concrete datum hebt over wanneer dit uiteindelijk opgelost moet zijn. Dat toont toch aan dat die onderhandelingen absoluut niet goed lopen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg44" xml:lang="nl">De federale overheid en de deelstaten slagen er duidelijk niet meer in om akkoorden te sluiten die budgettair nochtans belangrijk zijn. Het gaat hier over zeer aanzienlijke bedragen. Het is duidelijk dat het samenwerkingsfederalisme in dit land helemaal niet werkt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg45" xml:lang="nl">Het simpelweg doorsturen van facturen toont aan dat de verhouding tussen de verschillende niveaus in dit land steeds problematischer wordt, zeker nu de budgettaire situatie nijpend wordt. Men slaagt er alsmaar moeilijker in om die samenwerkingsakkoorden te sluiten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg46" xml:lang="nl">U bevestigt ook het bedrag van 210 miljoen euro, waarvan akte. Wij zullen deze situatie in het Parlement verder blijven opvolgen, want dit is voor ons een interessant thema.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 06 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de factuur over de plastiektaks&quot; (55028048C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 06 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de la facture relative à la taxe sur les plastiques&quot; (55028048C)</desc>
+                </gap>
+                <note type="speaker">06.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u19" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg47" xml:lang="nl">Mevrouw de staatssecretaris, zoals ik daarnet in mijn inleiding zei, als communautaire partij die een hoeksteen maakt van de werking, vinden wij deze verdeling natuurlijk bijzonder interessant, omdat de begroting en het communautaire elkaar hier raken.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg48" xml:lang="nl">In het rapport van 17 maart 2022 van het Monitoringcomité stond nog een andere belangrijke maatregel die onverdeeld was, namelijk de 153 miljoen euro aan kosten voor de plasticbijdrage aan Europa. Ondanks overleg tussen u en de deelstaten, is er nog altijd geen overeenstemming, meen ik, over wie die plasticbijdrage zal betalen. Zolang er geen akkoord met de deelstaten is, zo hebben wij genoteerd tijdens de vorige vragensessies, wordt die plasticbijdrage gewoon gefinancierd door de federale overheid. Zij komt op conto van de federale staatskas.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg49" xml:lang="nl">Ten eerste, hoor ik graag van u het standpunt van de federale regering en dat van de deelstaten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg50" xml:lang="nl">Ten tweede, is er al een akkoord? Zo ja, met welke deelstaten wel en met welke niet? Zo niet, wanneer hoopt u een akkoord te bereiken?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg51" xml:lang="nl">Ten derde, wat is de budgettaire impact op het vorderingensaldo van respectievelijk entiteit I en entiteit II? U hebt het correct geformuleerd, voor de gezamenlijke overheid maakt dat natuurlijk niet uit. Het gaat om facturen die intern verschoven worden, net als bij een consolidatie waarbij de vennootschappen intern facturen naar elkaar sturen. Voor de vorderingensaldo's van de entiteiten maakt het natuurlijk wel uit.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg52" xml:lang="nl">Ten vierde, op welke manier kan deze plasticbijdrage effectief bijdragen aan het verminderen van het produceren en in omloop brengen van plastic? Die vraag dringt zich op, want wat hier gebeurt met die plastictaks is een puur budgettaire maatregel. Wie zal de factuur betalen? Met enig sturend effect op het gebruik van plastic heeft dit helemaal niets te maken, het is gewoon een bijkomende financiering van de Europese Unie.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg53" xml:lang="nl">Tot slot, deze plastictaks kan enkel geld opbrengen voor de Belgische schatkist als er beslist wordt om in dit land meer dan 0,8 euro per kilogram niet-gerecycleerd plastic te heffen. Is dat een optie die overwogen wordt door deze regering?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">06.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u20" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg54" xml:lang="nl">Mijnheer Vermeersch, de positie van de federale regering vloeit voort uit het begrotingsakkoord van 15 januari 2021 met betrekking tot het voorontwerp van wet houdende instemming met het Eigenmiddelenbesluit 2020/2053, waarnaar ook verwezen wordt in de notificatie van de ministerraad van 22 januari 2021.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg55" xml:lang="nl">De federale overheid kan instaan voor de voorfinanciering en de doorstorting aan de Europese Unie, maar de uiteindelijke financiering en de budgettaire lasten zullen bij de Gewesten moeten komen te liggen. Deze conclusie volgt uit het feit dat de bevoegdheden inzake niet-gerecycleerde kunststof, verpakkingafval en meer algemeen het afvalbeleid gewestbevoegdheden zijn. De federale regering moet rekening houden met artikel 2 van de wet van 23 januari 1989 betreffende de in artikel 10, §1 en §2 van de Grondwet bedoelde belastingsbevoegdheid.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg56" xml:lang="nl">De Gewesten stellen echter dat de plasticbijdrage een extra bijdrage is voor de werking van de Europese Unie. Voor hen zijn Europese bijdragen steeds ten laste van de federale overheid geweest. Het betreft voor hen dus een federale verantwoordelijkheid. De federale overheid kan bijgevolg vrij beslissen hoe zij deze bijdrage financiert, vanuit de algemene middelen, met een nieuwe federale heffing of met een wijziging van de bestaande verpakkingsheffing.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg57" xml:lang="nl">De federale overheid en de Gewesten staan dus lijnrecht tegenover elkaar. Elk van deze beleidsniveaus is van mening dat het andere niveau uiteindelijk de budgettaire lasten van de plasticbijdrage op zich moet nemen. De onderhandelingen zijn momenteel nog lopende.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg58" xml:lang="nl">Ik kan u meegeven, dat geldt ook voor de vorige vraag, dat deze zaken tijdens het volgende overleg op 13 juli zullen worden besproken. Ik zeg niet dat er dan al een akkoord zal volgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg59" xml:lang="nl">De budgettaire impact van de plasticbijdrage wordt voor 2022 op 156 miljoen euro geraamd.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg60" xml:lang="nl">Het standpunt van de federale overheid is dat het om een gewestmaterie gaat. Het is dan ook in eerste instantie de bevoegdheid van de Gewesten om de nodige maatregelen te nemen met het oog op het verminderen van het in omloop brengen en produceren van plastic.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg61" xml:lang="nl">Tot slot, ik herhaal nogmaals dat het hier niet om een federale bevoegdheid gaat. Bijgevolg is er momenteel geen enkele optie overwogen.</seg>
+                </u>
+                <note type="speaker">06.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u21" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg62" xml:lang="nl">Mevrouw de staatssecretaris, ik heb het standpunt van de deelstaten goed beluisterd en ik kan hen deels bijtreden. Wie de factuur betaalt, aanvaardt ze ook. Dat is ook in het economisch recht zo. In dit geval betaalt de federale overheid de factuur, dus ze aanvaardt die deels ook. Dat is ook het standpunt dat ik zou verdedigen mocht ik deel uitmaken van één van de regeringen van de deelstaten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg63" xml:lang="nl">Ze hebben immers een punt. Het is namelijk België an sich, de federale overheid dus, dat een lidstaat is van de Europese Unie. Tot nader order zijn Vlaanderen en Wallonië dus geen aparte lidstaten, wat wij uiteraard wel zouden willen. België heeft de rechtstreekse band met Europa, dus moet het federale niveau instaan voor die eigen middelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg64" xml:lang="nl">U hebt nu wel een datum genoemd, 13 juli. Laat ons hopen dat het naderen van 21 juli bij een aantal van uw onderhandelingspartners nationale gevoelens zal opwekken om tot een nationaal akkoord te komen rond te plastictaks en alle andere onverdeelde facturen. Ik vrees er echter voor. We zullen dit dossier dan ook verder opvolgen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 07 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de factuur over de RIZIV-kosten i.v.m. corona&quot; (55028050C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 07 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de la facture des coûts pour l'INAMI liés au coronavirus&quot; (55028050C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">07.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u22" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg65" xml:lang="nl">Ondanks overleg is er nog steeds overeenstemming over de verdeling van de 740 miljoen euro aan RIZIV-kosten voor corona, de derde maatregel uit het rapport van het Monitoringcomité. Dat is 0,7 miljard aan RIZIV-kosten voor corona, een aanzienlijk bedrag.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg66" xml:lang="nl">Wat is uw standpunt hierover? Is er al een akkoord? Wat is de eventuele budgettaire impact van de RIZIV-kosten, eventueel op het vorderingensaldo van de sociale zekerheid en de evenwichtsdotatie?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">07.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u23" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg67" xml:lang="nl">Ook daarover zijn de onderhandelingen nog lopende. De regering heeft tijdens het conclaaf beslist om de coronaprovisie op te trekken met 825 miljoen euro. Hierdoor werd in de algemene toelichting de 740 miljoen euro van in het rapport van het Monitoringcomité als onverdeelde maatregel op het niveau van de gezamenlijke overheid geschrapt. De kosten zijn met andere woorden in rekening genomen op het niveau van entiteit I.</seg>
+                </u>
+                <note type="speaker">07.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u24" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg68" xml:lang="nl">Dat is bijzonder duidelijk. Eigenlijk is er voor dat luik, ten belope van 740 miljoen euro, ondertussen een oplossing: de federale overheid neemt het bedrag voor haar rekening. De factuur zal, wat dat betreft, betaald worden door de federale overheid. De discussie en het bezwaar van de deelstaten worden in dit geval erkend door de federale overheid. De impact op het vorderingensaldo van de sociale zekerheid komt dan waarschijnlijk ten volle op rekening van de sociale zekerheid en zal eventueel worden bijgepast met de evenwichtsdotatie op het einde van dit jaar.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 08 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de misrekening bij de zesde staatshervorming&quot; (55028052C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 08 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de l'erreur de calcul liée à la sixième réforme de l'État&quot; (55028052C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">08.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u25" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg69" xml:lang="nl">Mijn volgende vraag gaat over nog een onverdeelde factuur. Ondertussen is er één weggevallen, die van de RIZIV-kosten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg70" xml:lang="nl">De Vlaamse regering eist dat de misrekening van de zesde staatshervorming wordt rechtgezet. Het kabinet van de Vlaamse minister van Begroting schat dat het om ongeveer 500 miljoen euro gaat, al moet de precieze berekening nog gebeuren volgens  De Standaard. Volgens de Waalse minister van Begroting betwisten de verschillende deelstaten samen een bedrag van 489 miljoen euro.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg71" xml:lang="nl">Kunt u de aangehaalde bedragen bevestigen? Hoeveel eist elke deelstaat terug van het federale niveau?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg72" xml:lang="nl">Het kabinet van de Vlaamse minister van Begroting geeft aan dat de federale regering de misrekening erkent. Klopt dat? Kunt u bevestigen dat u die misrekening erkent?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg73" xml:lang="nl">Wat is het standpunt van de federale regering over de beweerde misrekening? Wat zijn de standpunten van de deelstaten?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg74" xml:lang="nl">Werd er ondertussen al een akkoord gesloten? Wat is de impact ervan op het vorderingensaldo van entiteit I en entiteit II?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u26" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg75" xml:lang="nl">Mijnheer Vermeersch, ik moet verwijzen naar mijn antwoord op uw mondelinge vraag 55027391C. Op het moment kan ik de bedragen bevestigen noch ontkennen. De informatie werd opgevraagd bij de diensten van de minister van Financiën, die bevoegd is voor de ramingen van de afdrachten aan de gemeenschappen en gewesten in het kader van de bijzondere financieringswet.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg76" xml:lang="nl">De vraag werd reeds behandeld op de interministeriële conferentie voor Financiën en Begroting van 17 maart jongstleden. Op die interministeriële conferentie werd een aantal hangende budgettaire dossiers tussen de federale overheid en de gewesten en gemeenschappen besproken als derde agendapunt. Naast onder andere de plasticbijdrage, de kosten inzake de preventiecampagne met betrekking tot corona en het RRF werd als laatste punt ook de kasmatige gevolgen van de overdracht van de RIZIV-bevoegdheden besproken.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg77" xml:lang="nl">In afwachting van een definitieve vastlegging van het bedrag door de betrokken ministers werd er nog geen federaal standpunt ingenomen. Het is de bedoeling om een aantal hangende interfederale dossiers met significante budgettaire impact te bespreken op de volgende bijeenkomst van het Overlegcomité, die gepland is op 13 juli.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg78" xml:lang="nl">Aangezien er nog geen uitsluitsel is over het definitieve bedrag en er nog geen akkoord werd bereikt over de verdeling ervan, is het op heden niet mogelijk om een inschatting te maken van de budgettaire impact op het vorderingensaldo van de betrokken entiteiten.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u27" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg79" xml:lang="nl">Mevrouw de staatssecretaris, wij wachten af wat de uitkomst is na 13 juli.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 09 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de minderinkomsten uit het Europees Herstelfonds&quot; (55028053C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 09 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de la diminution des moyens alloués par le fonds de relance européen&quot; (55028053C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">09.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u28" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg80" xml:lang="nl">Mevrouw de staatssecretaris, achter de schermen is een discussie over miljarden euro's bezig tussen de verschillende regeringen. Van het uiteindelijke bedrag van het Europees herstelfonds van 750 miljard euro – ik denk dat dat bedrag ondertussen is gestegen tot zo'n 800 miljard euro – zou België aanvankelijk 5,9 miljard euro krijgen voor allerlei zogenaamde langetermijninvesteringen, maar doordat België uiteindelijk op een aantal parameters anders functioneerde dan voorzien, krijgen wij uiteindelijk 1,4 miljard euro minder. Er is echter een probleem, de 5,9 miljard euro werd al, na heel wat getouwtrek, verdeeld onder de deelstaten tijdens een interne discussie. De vraag is wie dat verschil van 1,4 miljard euro zal betalen. Er is een Vlaams liedje over &quot;Wie zal dat betalen, wie heeft zoveel poen?&quot; Ik zal uiteraard niet zingen, maar de vraag rijst alleszins.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg81" xml:lang="nl">De Vlaamse en federale regering namen al een provisie op in hun begroting om hun deel van het tekort van 1,4 miljard euro om de plannen uit te voeren, zelf te dragen, maar Wallonië en de Franse Gemeenschap zeggen duidelijk neen. Elio Di Rupo, de Waalse minister-president, wil dat de verdeling van het tekort ook gebeurt volgens de Europese parameters, die volgens hem gunstiger zouden zijn voor Wallonië. Hij doet dus een oproep tot een zogenaamde federale solidariteit.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg82" xml:lang="nl">Mevrouw de staatssecretaris, kunt u het bedrag van 1,4 miljard euro definitief bevestigen? Ik heb begrepen dat u op 8 juni cijfergegevens moest bezorgen aan Eurostat, dus het bedrag zou ondertussen helder moeten zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg83" xml:lang="nl">Welke entiteit zal uiteindelijk de minderinkomsten ten laste nemen? Hoe zullen de minderinkomsten worden verdeeld over de verschillende entiteiten? Gebeurt dat evenredig of via een andere methode? Welke procedure zal hierbij worden gevolgd of werd al gevolgd? Kan de federale regering haar standpunt hierover kenbaar maken?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg84" xml:lang="nl">De Waalse regering doet een oproep tot federale solidariteit – zo noemt men het toch – en wil dat de federale regering de minderinkomsten draagt die Wallonië moet incasseren. Vindt u die vraag naar federale solidariteit gerechtvaardigd?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u29" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg85" xml:lang="nl">Mijnheer Vermeersch, op dit ogenblik is er nog geen zicht op de gegevens die de nationale statistische instellingen aan Eurostat op 8 juni 2022 hebben medegedeeld. Om de berekening te maken, zijn niet alleen de cijfers van België nodig maar ook de cijfers van de andere lidstaten. Normaal gezien, zullen wij op 30 juni 2022, dus over twee dagen, de uiteindelijke berekening van de bedragen verkrijgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg86" xml:lang="nl">Mijn administratie heeft de eerdere berekeningen nog eens overgedaan op basis van de door de Europese Commissie in het kader van de lentevooruitzichten gepubliceerde cijfers. Het resultaat was vergelijkbaar met het eerder gepubliceerde cijfer van 1,35 miljard euro.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg87" xml:lang="nl">De beslissing over de manier waarop de minderontvangsten zullen worden verdeeld over de verschillende entiteiten komt toe aan het Overlegcomité. Dat zal plaatsvinden zodra het finale bedrag is gekend.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u30" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg88" xml:lang="nl">Dank u, mevrouw de staatssecretaris. Ik noteer dat we over twee dagen duidelijkheid zullen krijgen. U verwacht dat dit inderdaad minderinkomsten zullen zijn van ongeveer 1,35 of 1,4 miljard euro. Over de verdeling is absoluut nog geen duidelijkheid en werd nog een standpunt ingenomen. U spreekt zich ook niet uit over de Waalse vraag naar solidariteit.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg89" xml:lang="nl">Ik wil u wel een duidelijke boodschap meegegeven voor de onderhandelingen vanuit een Vlaams perspectief. Gegeven het feit dat Vlaanderen onderbedeeld is in de middelen van het Europees herstelfonds, ga dat gerust even na, dat er vandaag al een aanzienlijke transfer van welvaart is van Vlaanderen naar Wallonië en dat de financiële toestand van Wallonië er bijzonder slecht aan toe is, zou ik toch oproepen om iedereen zijn gelijk deel te laten betalen en daar ook op te staan. Die evenredigheid is het minste wat wij vanuit een Vlaams perspectief zouden mogen verwachten. Ik wens u veel succes en goede onderhandelingsmoed in de komende dagen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 10 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De hervormingen&quot; (55028054C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 10 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;Les réformes&quot; (55028054C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 10.01 Wouter Vermeersch (VB):</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De oorlog in Oekraïne schudt de hele budgettaire huishouding van de federale regering door elkaar. 'Toch mogen we hervormingen niet uit het oog verliezen', liet de staatssecretaris voor Begroting optekenen in De Morgen van 18 maart 2022.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De staatssecretaris voor Begroting hamerde in De Tijd van 24 Maart 2022 ook op het belang van hervormingen om alles betaalbaar te houden. 'Als we werk maken van alle afgesproken hervormingen en maatregelen in het regeerakkoord en de begrotingsopmaak van 2022, zal dat ons land niet alleen sterker maken tijdens deze crisis, maar ook bijdragen aan buffers voor volgende crisissen.'</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Welke hervormingen acht de staatssecretaris prioritair om de begroting terug op de rails te krijgen?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Acht de staatssecretaris deze hervormingen nog mogelijk tijdens deze legislatuur en met deze regering?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">10.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u31" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg90" xml:lang="nl">Mijnheer Vermeersch, zoals ik al aangaf in mijn antwoord op uw vraag over het overheidstekort is voor mij het effectief uitvoeren van de arbeidsdeal en de pensioenhervorming ontzettend belangrijk om te vermijden dat het begrotingstekort ontspoort.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg91" xml:lang="nl">Uiteraard zijn deze hervormingen nog mogelijk tijdens deze legislatuur. Zoals u ongetwijfeld in de pers hebt gelezen, is het de bedoeling om in de komende weken en maanden hierover knopen door te hakken. Ik heb al herhaaldelijk gezegd dat als we zien over welke bedragen we spreken als het gaat over het begrotingstekort, onze schuld die oploopt, dan zal het niet zijn door hier en daar in de marge kleine budgettaire inspanningen te leveren dat we die bedragen zullen halen. Dan zal het afhangen van dergelijke grote hervormingen.</seg>
+                </u>
+                <note type="speaker">10.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u32" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg92" xml:lang="nl">Mevrouw de staatssecretaris, bedankt voor uw antwoord. Ik houd van heel nabij al uw interviews in de gaten en heb ook uw antwoord goed beluisterd. Het valt mij vooral op dat u het steeds hebt over de arbeidsdeal en de pensioenhervorming, maar over één belangrijke hervorming zwijgt u wijselijk, meer bepaald de fiscale hervorming. Inzake de fiscale hervorming zijn er al enkele plannen gelekt en ze worden telkens getorpedeerd van twee zijden. Het recentste lek werd getorpedeerd vanuit de PS, maar tegelijk ook vanuit de MR. Volgende week volgt een studiedag, die wij wellicht allemaal zullen bijwonen, over de fiscale hervorming, maar verder dan een studiedag en een eventuele blauwdruk zal het in deze regering wellicht niet komen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg93" xml:lang="nl">Door de internationale context, waarvoor ik onder meer wijs op de stijgende spreads, moeten we ervoor zorgen te vermijden dat wij onder internationale druk het mes op de keel gezet krijgen om harde saneringen door te voeren. Dat is toch wel een bijzonder groot risico. In die context hoorde ik vorige week in de commissie voor Financiën berichten van de Nationale Bank en gisteren van het Agentschap van de Schuld. Alsmaar worden die berichten negatiever. Ik vrees ook dat wij voor een ongeziene economische crisis staan in het najaar, hopelijk niet, maar de indicatoren staan allemaal op rood. Een land als België met een ontspoorde begroting komt dan al snel in het internationaal vizier. Voorlopig gebeurt dat nog niet, want onze spread ten opzichte van Duitsland valt nog mee, maar in Italië wordt de situatie al ernstiger en het is maar een kwestie van tijd voor ook ons land in het vizier komt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg94" xml:lang="nl">Als wij moeten hervormen terwijl de internationale gemeenschap toekijkt, zal dat bijzonder pijnlijk worden voor een groot deel van de bevolking. Dat scenario moeten we met man en macht proberen te vermijden. Laten we hopen dat de komende maanden niet in die zin evolueren.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 11 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;Buffers in de begroting&quot; (55028059C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 11 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La constitution de marges de sécurité dans le budget&quot; (55028059C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">11.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u33" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg95" xml:lang="nl">Mevrouw de staatssecretaris, de stijgende energieprijzen brengen de Belgische economie maandelijks 1,8 miljard euro schade toe, zo becijferde de Nationale Bank eind 2021 al. Ondertussen is de situatie een pak slechter geworden. Op lange termijn dreigt dus een inflatoire spiraal, waarbij de automatische indexering de loonlasten opdrijft en rentestijgingen de begroting kunnen laten kapseizen. Dat stelde ook de chef Politiek in  De Standaard.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg96" xml:lang="nl">De gouverneur van de Nationale Bank waarschuwde eerder reeds dat als wij geen buffers voorzien, wij in een Grieks scenario komen. Recent heeft hij, voor het rapport van de expertengroep aankwam, ook nog een duidelijke waarschuwing geformuleerd. Hij verwees daarbij effectief naar het feit dat wij helemaal gaan ruimte hebben, dat de tijd van gratis geld voorbij is en dat die intresten onder internationale druk pijlsnel kunnen stijgen. Er is in de begroting echter niets te merken van enige buffer, wel integendeel. De begrotingsparameters zijn momenteel bloedrood.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg97" xml:lang="nl">Mevrouw de staatssecretaris, hoe wil u de noodzakelijke buffers aanleggen? Welke buffers acht u noodzakelijk om toekomstige crisissen de baas te kunnen? Ik denk bijvoorbeeld aan een zware recessie in het najaar. Welke buffers acht u daarvoor noodzakelijk? Acht u het aanleggen van buffers nog mogelijk tijdens deze legislatuur en met deze regering?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u34" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg98" xml:lang="nl">Mijnheer Vermeersch, we hebben dit thema reeds uitgebreid besproken tijdens de begrotingscontrole.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg99" xml:lang="nl">Het pleidooi van de gouverneur van de Nationale Bank, waarnaar u verwijst, dateert nog van eind vorig jaar. Ondertussen is de geopolitieke en economische situatie ingrijpend gewijzigd. Dat neemt echter niet weg dat ik me volledig kan vinden in het feit dat een begrotingsbeleid anticyclisch moet zijn. Als het goed gaat, moeten er buffers opgebouwd worden die kunnen worden aangewend als het minder gaat.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg100" xml:lang="nl">Het feit dat men het begrotingsbeleid moet laten afhangen van de economische situatie wordt weerspiegeld in het onder normale omstandigheden van toepassing zijnde Europese begrotingskader. Dat is ook de basis voor het dynamische begrotingsbeleid dat deze regering toepast. Naast een vaste inspanning wordt er namelijk gewerkt met een variabele inspanning die afhankelijk is van de economische groei. In de Belgische context moet, in de mate van het mogelijke, het overheidstekort en in functie daarvan de schuldgraad worden afgebouwd. Dat zal echter van jaar tot jaar moeten worden vastgesteld in functie van de economische situatie.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg101" xml:lang="nl">Ik ben het dus volkomen eens met de gouverneur van de Nationale Bank die zegt dat zodra de crisis achter de rug is er best een extra inspanning kan worden geleverd om het tekort af te bouwen. Hiervoor kunnen met andere woorden de resultaten van de hogere groei aangewend worden. Dat sluit trouwens ook aan bij de aanbevelingen van de Europese Commissie. We zullen echter in het kader van de begrotingsopmaak voor 2023 de economische toestand moeten evalueren. Op het moment waarop de Europese Commissie voorstelt om de toepassing van de  escape clause nog met een jaar te verlengen door de economische situatie, kunnen we moeilijk van goede tijden spreken.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u35" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg102" xml:lang="nl">Mevrouw de staatssecretaris, ik wil in mijn repliek enkele voorzetten geven om enkele dringende besparingen door te voeren. Wij hebben tijdens het begrotingsdebat gezegd, en wij hebben daarvoor kritiek gekregen van andere partijen, dat wij naast hervormen ook aan besparen denken. Er kan wel degelijk bespaard worden. Denk maar aan de discussie in de plenaire vergadering over de ontwikkelingssamenwerking. In deze tijden van crisis moeten wij toch durven nadenken over het in de eerste plaats inzetten van middelen voor onze eigen bevolking.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg103" xml:lang="nl">Ik denk ook aan het belangrijke bedrag aan transfers dat heen en weer vloeit in dit land. Ook in de migratiefactuur kan uiteraard een belangrijke besparing gerealiseerd worden. Ik denk ook aan de dotaties aan Fedasil, waarover ik u recentelijk een vraag heb gesteld. Er vloeien nu zelfs bijkomende budgetten naar Fedasil.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg104" xml:lang="nl">Ik denk ook aan het Belgische politieke systeem, met de Senaat, het Koningshuis, de provincies en de intercommunales. Ik meen dat er nog heel wat vet op de soep zit, dat wat ons betreft wegbespaard worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg105" xml:lang="nl">Laten wij zeker enkele van deze heilige huisjes, die nu niet besproken worden binnen de regering, in de komende maanden op tafel leggen om de situatie in dit land een beetje beter op orde te krijgen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 12 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;Stagflatie- en recessievrees&quot; (55028060C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 12 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La crainte d'une stagflation et d'une récession&quot; (55028060C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">12.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u36" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg106" xml:lang="nl">Mevrouw de voorzitster, ik verwijs naar de schriftelijke versie van mijn vraag.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg107" xml:lang="nl">De economische groei komt in steeds meer Europese landen tot stilstand en de prijzen van goederen en diensten swingen de pan uit. Economen en financiële experts hebben het steeds vaker over begrippen als “recessie” en ook “stagflatie”.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 1. Hoe schat de staatssecretaris voor Begroting momenteel het risico in op een zware economische recessie of stagflatie in dit land?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 2. Stagflatie, het economisch fenomeen dat wordt gekenmerkt door trage groei en hogere werkloosheid (economische stagnatie) in combinatie met stijgende prijzen (inflatie), is een doemscenario voor de Belgische begroting. De bezorgdheid over deze stagflatie is gestegen tot het hoogste niveau sinds 2008.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Laat de staatssecretaris deze zorgwekkende evolutie nauwgezetter opvolgen door de federale instellingen? Is de staatssecretaris bereid om de impact op de begroting korter op de bal te laten onderzoeken en analyseren door de federale instellingen zodat kan worden geanticipeerd en snel kan worden ingegrepen?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">12.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u37" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg108" xml:lang="nl">Mijnheer Vermeersch, zoals ik reeds in vorige vragen heb gezegd, zal ik zelf geen inschattingen maken over de economische toestand van ons land. Ik laat dat over aan experts ter zake en die publiceren regelmatig rapporten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg109" xml:lang="nl">Het is trouwens op basis van hun inschattingen dat de begroting uiteindelijk wordt opgesteld. Op 17 juni heeft het Federaal Planbureau immers zijn macro-economische vooruitzichten gepubliceerd. Een recessie wordt momenteel nog niet verwacht, maar wel een duidelijke groeivertraging. Op basis van die macro-economische parameters zal het Monitoringcomité een inschatting maken van de budgettaire toestand bij een ongewijzigd beleid.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg110" xml:lang="nl">In september zal dan nog een actualisatie van dat rapport worden gemaakt, op basis van de economische begroting, die het Federaal Planbureau begin september zal publiceren. Ik hoef u niet te herhalen dat het rapport van het Monitoringcomité het vertrekpunt voor het begrotingsconclaaf vormt. Op basis van die rapporten kan de regering dus steeds beslissen om voor het lopende jaar al dan niet een begrotingsaanpassing door te voeren, als dat nodig blijkt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg111" xml:lang="nl">De economische evolutie wordt dus duidelijk nauwgezet opgevolgd.</seg>
+                </u>
+                <note type="speaker">12.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u38" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg112" xml:lang="nl">Mevrouw de staatssecretaris, dat is een duidelijk antwoord.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 13 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;Begrotingsaanpassingen&quot; (55028061C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 13 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;Les ajustements budgétaires&quot; (55028061C)</desc>
+                </gap>
+                <note type="speaker">13.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u39" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg113" xml:lang="nl">Mevrouw de voorzitster, mevrouw de staatssecretaris, mijn vraag gaat over het feit dat er binnen de regering stemmen opgaan, om de begroting in juni of juli 2022, dus nog vóór de zomervakantie, tegen het licht te houden in de hoop dat er ondertussen meer duidelijkheid is over de uitkomst van de oorlog in Oekraïne.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg114" xml:lang="nl">In 2021 hebben wij gezien dat u pas na de zomer met de begrotingsopmaak bent begonnen. Uiteraard zijn de diensten veel vroeger begonnen, maar de regering is pas echt beginnen te onderhandelen in oktober 2021. Daardoor hebt u natuurlijk inzake de inflatie, die al duidelijk was vóór de zomer, achter de feiten aangehold.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg115" xml:lang="nl">De regering heeft het nu begrepen. Onder andere in het zomerakkoord, dat eerst werd vooropgesteld en waarover ondertussen al in delen is onderhandeld, is de begroting opgenomen. Het was alleszins de bedoeling om vóór de zomer ook al aan de begroting 2023 te beginnen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg116" xml:lang="nl">Mevrouw de staatssecretaris, graag kreeg ik even duidelijkheid. Vorige week werd in de Kamer de aanpassing van de begroting 2022 goedgekeurd. Hoe ziet u het verdere verloop? Hoeveel begrotingsaanpassingen meent u nog nodig te hebben? Wanneer verwacht u met een nieuwe begrotingsaanpassing naar het Parlement te kunnen komen?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">13.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u40" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg117" xml:lang="nl">Mijnheer Vermeersch, de regering heeft in 2021 en ook in 2022 reeds gebruikgemaakt van de mogelijkheid die in de wet is opgenomen, om binnen een begrotingsjaar verschillende aanpassingsbladen bij het Parlement in te dienen. Dat hangt uiteraard samen met de onzekere tijden waarin wij leven. In 2021 was er de coronacrisis. In 2022 worden wij geconfronteerd met de oorlog in Oekraïne en de snel stijgende energieprijzen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg118" xml:lang="nl">Wij hebben vorige week het derde aanpassingsblad goedgekeurd. De onzekerheid over de economische situatie en de geopolitieke toestand is groot. Het is dus belangrijk een aantal zaken van dichtbij op te volgen, maar dat betekent niet dat het de bedoeling is om de haverklap nieuwe aanpassingsbladen in te dienen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg119" xml:lang="nl">Het is moeilijk om zeker nu in de tijd vooruit te kijken en een exacte datum of agenda te geven voor de eventuele volgende aanpassingsbladen. Ik heb u vorige week aangegeven dat wij zullen bekijken of wij in het najaar een aanpassingsblad zullen indienen, om de energiemaatregelen die wij zullen hebben beslist, te integreren in onze begroting.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg120" xml:lang="nl">Het ligt ook in de lijn van de verwachtingen dat de projecten uit het herstart- en transitieplan, die na 1 april 2022 aan de ministerraad werden voorgelegd, ook in hetzelfde aanpassingsblad zullen worden opgenomen.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">13.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u41" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg121" xml:lang="nl">Dank u, mevrouw de staatssecretaris. De regering heeft beslist om een aantal energiemaatregelen te verlengen die een significante impact op de begroting hebben. Ik begrijp dat dit in het najaar wordt aangepast. U had het ook over het Europees Herstelfonds. Is dat een aanpassing om die 1,35 miljard euro effectief te integreren of staat dat daar los van?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">13.04 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u42" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg122" xml:lang="nl">Nee, dat is nog iets anders. Dat gaat over het investeringsplan van 1 miljard euro. Dat komt in het aanpassingsblad.</seg>
+                </u>
+                <note type="speaker">13.05 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u43" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg123" xml:lang="nl">Dat is zeer duidelijk. Dank u.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 14 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de factuur van de uitstootrechten&quot; (55028465C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 14 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de la facture des droits d'émission&quot; (55028465C)</desc>
+                </gap>
+                <note type="speaker">14.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u44" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg124" xml:lang="nl">Mevrouw de staatssecretaris, in de commentaren en opmerkingen van het Rekenhof werden er nog twee onverdeelde facturen vermeld. Sommige niet-fiscale ontvangsten zouden niet correct geraamd zijn omdat er geen samenwerkingsakkoorden waren tussen de verschillende overheidsentiteiten over de verdeling van de ontvangsten uit de veiling van de CO2-uitstootrechten en de verkoop van de UMTS-licenties.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg125" xml:lang="nl">De uitstootrechten in het ETS-systeem zouden 430 miljoen euro bedragen. Kan u dat bedrag van het Rekenhof bevestigen? Hoe is dat bedrag verdeeld over de verschillende deelstaten? Wat is het standpunt? Is er al een akkoord? Wat is de budgettaire impact?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">14.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u45" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg126" xml:lang="nl">Mijnheer Vermeersch, op 10 juni 2022 bedroeg het onverdeelde bedrag in verband met de handelsperiode 2021-2030 ongeveer 533 miljoen euro voor de inkomsten met betrekking tot 2021 en ongeveer 406 miljoen euro voor 2022. Bij de begrotingsbesprekingen van oktober 2021 werd beslist om al 42,5 miljoen euro hiervan in te schrijven als federale ontvangst ten behoeve van klimaatgerelateerde uitgaven. De onderhandelingen over een nieuw samenwerkingsakkoord lastenverdeling voor de periode 2021-2030 tussen het federale niveau en de Gewesten lopen nog steeds. Dit akkoord zal de verdeling van de inkomsten over de entiteiten moeten regelen. Een budgettaire verdeling maken per entiteit is dus nog niet mogelijk. Voor het overige moet ik u doorverwijzen naar de minister van Klimaat, mevrouw Khattabi.</seg>
+                </u>
+                <note type="speaker">14.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u46" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg127" xml:lang="nl">Ik zal dat zeker doorgeven aan mijn collega's in de bevoegde commissie, om dat verder op te volgen. Slechts een tiental procent, namelijk 42,5 miljoen, werd al ingeschreven als federale ontvangst. Dit wordt ook verder opgevolgd.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 15 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De verdeling van de factuur van de telecomlicenties&quot; (55028466C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 15 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;La répartition de la facture relative aux licences de télécommunications&quot; (55028466C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 15.01 Wouter Vermeersch (VB):</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: In de commentaar en opmerkingen bij de ontwerpen van aanpassing van staatsbegroting voor het begrotingsjaar 2022 (DOC 55 2642/002) wijst het Rekenhof erop dat, zoals bij de initiële begroting 2022, sommige niet-fiscale ontvangen niet correct geraamd zijn omdat er geen samenwerkingsakkoorden zijn tussen de verschillende overheidsentiteiten over de verdeling van de ontvangsten uit de veiling van de CO2-uitstootrechten en de verkoop van de UMTS-licenties.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het Rekenhof wijst erop dat de onverdeelde van de UMTS-licenties 39 miljoen euro bedragen.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Kan de staatssecretaris dat bedrag bevestigen?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe is dat bedrag verdeeld over de verschillende deelstaten?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is het standpunt van de federale regering inzake de factuur van de telecomlicenties? Welk standpunt schuiven de deelstaten naar voor?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Is er al een akkoord met de deelstaten? Zo ja, met welke deelstaten? Zo nee, wanneer beoogt de staatssecretaris een akkoord te bereiken?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Wat is de budgettaire impact op het vorderingensaldo van respectievelijk entiteit I en entiteit II over 2022?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">15.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u47" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg128" xml:lang="nl">Mijnheer Vermeersch, op 21 juni maakte het BIPT bekend dat de voornaamste fase van de veiling van het nieuwe 5G-spectrum en het bestaande 2G- en 3G-radiospectrum afgesloten werd met een voorlopige opbrengst van 1,2 miljard euro, wat 423 miljoen hoger ligt dan voorzien bij de begrotingsopmaak. Deze opbrengst zal nog hoger liggen gelet op de nog te veilen 1.400 megahertz band.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg129" xml:lang="nl">In ESER-termen dient deze opbrengst te worden gespreid over de looptijd van de rechten, zijnde 20 jaar. Bij de begrotingsopmaak werd voor het jaar 2022 een opbrengst ingeschreven ten belope van 12 miljoen euro, rekening houdend met het tijdstip van de veiling en uitgaande van hypotheses inzake enerzijds de verdeling van de opbrengsten tussen de gemeenschappen en de federale overheid en anderzijds de totale opbrengst van de eenmalige heffing. Vanaf het jaar 2023 werd de opbrengst ingeschreven ten belope van 31 miljoen euro.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg130" xml:lang="nl">Voor de onderhandelingen over de verdeling van de opbrengsten tussen de federale overheid en de gemeenschappen moet ik u doorverwijzen naar minister De Sutter, bevoegd voor telecommunicatie.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">15.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u48" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg131" xml:lang="nl">Mevrouw de staatssecretaris, ik dank u voor uw antwoord dat we zullen doorgeven aan de bevoegde collega's.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">De voorzitster:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u49" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg132" xml:lang="nl">De samengevoegde vragen nr. 55028577C van de heer Raskin en nr. 55028639C van de heer Loones worden omgezet in schriftelijke vragen.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 16 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De waarschuwingen van de Nationale Bank&quot; (55028877C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 16 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;Les avertissements de la Banque nationale&quot; (55028877C)</desc>
+                </gap>
+                <note type="speaker">16.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u50" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg133" xml:lang="nl">Ik verwijs naar de schriftelijke versie van mijn vraag.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Mevrouw de voorzitster, mevrouw de staatssecretaris, de Nationale Bank waarschuwde bij de voorstelling van de halfjaarlijkse economische vooruitzichten dat het Belgisch begrotingstekort structureel hoog blijft, met 4,5 procent in 2022 en 2023 en zelfs 5 procent in 2024 bij ongewijzigd beleid. In het geval van een recessie zou dat tekort zelfs naar 6,5 à 7 procent kunnen stijgen. Bijgevolg blijft ook de staatschuld stijgen. “Zorgwekkend&quot;, aldus Pierre Wunsch, gouverneur van de Nationale Bank. &quot;Op Malta na zijn we de slechtste leerling van de klas in de eurozone.&quot; Dat betekent, volgens de gouverneur, ook dat er geen middelen zijn om een volgende schok op te vangen. Maatregelen dringen zich dan ook op.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe reageert de staatssecretaris voor Begroting op de halfjaarlijkse economische vooruitzichten van de Nationale Bank?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De staatssecretaris liet eerder verstaan dat we haar erop mochten afrekenen als het tekort in 2024 meer dan 3 procent zou zijn.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Acht de staatssecretaris haar doelstelling van 3 procent tekort in 2024 nog realistisch en haalbaar?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Alleen al om de schuld onder controle te krijgen en het tekort met 0,6 procent te verminderen, moet jaarlijks 3 miljard euro worden bespaard.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Welke inspanning is, volgens de staatssecretaris, nodig in de begroting over 2023?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Welke concrete maatregelen stelt de staatssecretaris voor om de structurele tekorten aan te pakken?</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het zijn vooral de bedrijven die opdraaien voor de energieschok en de stijgende prijzen. En dat gaat ten koste van de concurrentiekracht. Ook daarvoor waarschuwt de Nationale Bank.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Hoe ziet de staatssecretaris de concurrentiekracht van onze bedrijven te versterken? Kan en moet de overheid, via de begroting, een deel van de schok voor de bedrijven opvangen?</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">16.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u51" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg134" xml:lang="nl">Mijnheer Vermeersch, uiteraard zijn de economische vooruitzichten niet goed en ben ik net als u enorm bezorgd over de gevolgen voor onze economie en burgers.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg135" xml:lang="nl">Wij moeten echter ook eerlijk zijn, in de huidige omstandigheden blijft het koffiedik kijken hoe de oorlog zal verlopen en wat de weerslag is op de energieprijzen en inflatie. De recente ramingen duiden er allemaal wel op dat de economie aan het vertragen is. In welke mate dat zal gebeuren, blijft echter een vraagteken. De recente economische prognoses gaan verscheidene richtingen uit. De Spring 2022 Economic Forecast raamt een groei van 2 % voor 2022 en van 1,8 % voor 2023. De OESO raamde begin juni dan weer een economische groei van respectievelijk 2,4 % en 1 %. Het Planbureau gaat uit van 2,6 % en 1,3 % en de Nationale Bank gaat uit van 2,4 % en 1,5 %.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg136" xml:lang="nl">Met betrekking tot de doelstelling van een begrotingstekort van 3 %, in het Stabiliteitsprogramma, dat eind april werd ingediend bij de Europese Commissie, werd nog uitgegaan van een traject waarbij voor entiteit I het nominaal saldo voor 2024 een tekort van 2,5 % zou vertonen, en voor de gezamenlijke overheid een nominaal tekort van 3,4 %. Die begrotingsdoelstelling zou gerealiseerd worden bij een gemiddelde economische groei over de periode 2022-2024 van ongeveer 2 %. Hierbij werd wel rekening gehouden met een jaarlijkse bijkomende variabele inspanning van 0,2 % van het bruto binnenlands product bij entiteit I en van een gelijkaardige jaarlijkse inspanning van 0,07 % bij entiteit II. Voor mij blijft die doelstelling nog steeds de ambitie.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg137" xml:lang="nl">Op 14 juli zal het Monitoringcomité zijn rapport publiceren over de begrotingstoestand van ons land voor dit en de komende jaren. Het rapport zal onder meer gebaseerd zijn op de macro-economische parameters van het Federaal Planbureau van juni. Dat rapport vormt voor de regering het vertrekpunt voor het conclaaf.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg138" xml:lang="nl">Ik zal niet vooruitlopen op de zaken. Wij zullen in de regering de verschillende noden afwegen en de nodige maatregelen nemen die de burger ten goede zal komen en onze economie kan ondersteunen. U zult hierover natuurlijk te gepasten tijde, zodra daarover beslist is, geïnformeerd worden.</seg>
+                </u>
+                <note type="speaker">16.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u52" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg139" xml:lang="nl">Dank u voor het duidelijk antwoord, mevrouw de staatssecretaris.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 17 Vraag van Wouter Vermeersch aan Eva De Bleeker (Begroting en Consumentenbescherming) over &quot;De rentekloof in de eurozone&quot; (55028913C)</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: 17 Question de Wouter Vermeersch à Eva De Bleeker (Budget et Protection des consommateurs) sur &quot;L'écart des taux au sein de la zone euro&quot; (55028913C)</desc>
+                </gap>
+                <note type="speaker" xml:lang="nl">17.01 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u53" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg140" xml:lang="nl">Mevrouw de staatssecretaris, mijn laatste vraag van vandaag is misschien de belangrijkste en ook de meeste actuele, aangezien zij feiten betreft die na de bespreking van de begroting in de commissie hebben plaatsgevonden, namelijk de verschillen in de tienjaarsrente die binnen de eurozone beginnen op te lopen. Niet alleen Italië ziet zijn renteverschil met Duitsland oplopen, maar ook landen als Spanje, Griekenland en België zien een aanzienlijke stijging.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg141" xml:lang="nl">Het verschil tussen de Italiaanse en Duitse tienjaarsrente is – toen ik de vraag schreef – toegenomen tot 240 basispunten, het hoogste niveau in ruim twee jaar tijd. Sommige waarnemers spreken van een gevarenzone bij een renteverschil van 250 basispunten. Toen dat niveau werd bereikt, kwam de ECB in spoedzitting samen, omdat dan vragen beginnen te rijzen over de houdbaarheid van de hoge Italiaanse overheidsschuld. Mevrouw de staatssecretaris, deelt u de opvatting over de gevarenzone voor Italië?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg142" xml:lang="nl">Ik citeer Pierre Wunsch, de gouverneur van de Nationale Bank van België: &quot;De overheid heeft geen enkele financiële buffer meer om een volgende schok op te vangen, een recessie bijvoorbeeld. Tegelijk is de periode van het gratis geld voorbij. De overheid moet voorkomen dat op de financiële markten twijfels beginnen te rijzen over de houdbaarheid van de Belgische overheidsfinanciën, want dan dreigt de rente op het Belgisch staatspapier snel omhoog te schieten.&quot; Dat zei de gouverneur van de Nationale Bank van België bij de voorstelling van de halfjaarlijkse economische vooruitzichten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg143" xml:lang="nl">Deelt u de bezorgdheid over de houdbaarheid van de Belgische financiën en het omhoogschieten van de rente op de staatsschuld? Welke acties acht u noodzakelijk om een nieuwe eurocrisis te vermijden?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg144" xml:lang="nl">is in</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">17.02 Staatssecretaris Eva De Bleeker:</note>
+                <u ana="#secretaryOfState" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u54" who="#DeBleekerEva" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg145" xml:lang="nl">Mijnheer Vermeersch, de rentekloof tussen de Italiaanse en de Duitse rente is inderdaad gegroeid na de beslissing van de Europese Centrale Bank om geen extra obligaties meer op te kopen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg146" xml:lang="nl">De Europese Centrale Bank heeft reeds gereageerd op deze evolutie. Zij zal nog de nodige flexibiliteit aan de dag leggen bij de herfinanciering van de portefeuille die de afgelopen jaren werd opgebouwd, en dus mogelijks Duitse obligaties die vervallen, vervangen door Italiaanse obligaties. Daarmee kan zij specifiek een invloed uitoefenen op de rentes van landen waar de rente te veel zou stijgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg147" xml:lang="nl">Ik deel zeker uw bezorgdheid over de situatie, maar ik vertrouw erop dat de Europese Centrale Bank ter zake de juiste beslissingen neemt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg148" xml:lang="nl">Ik deel ook uw bezorgdheid over de Belgische begroting. Ik heb al herhaaldelijk aangegeven dat het belangrijk is de evolutie van de schuldgraad onder controle te houden. De voorbereidingen van de begroting voor 2023 zijn ondertussen opgestart. Zij zullen na de vakantie afgerond worden. Ook in deze context blijf ik mijn bezorgdheden herhalen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg149" xml:lang="nl">Er moet geprobeerd worden de schulden beheersbaar te houden. Verder reken ik op goede internationale samenwerking om een eurocrisis te vermijden.</seg>
+                </u>
+                <note type="speaker">17.03 Wouter Vermeersch (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.u55" who="#VermeerschWouter" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg150" xml:lang="nl">Mevrouw de staatssecretaris, ik zie dat ondertussen de renteverhoging 210 basispunten bedraagt. Na het ingrijpen van de ECB is er toch weer wat kalmte ontstaan.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg151" xml:lang="nl">U raakt in uw antwoord wel een belangrijke politieke kwestie aan. Ik vind dat u bijzonder vlot over het feit stapt dat de ECB uiteraard geen extra obligaties meer aankoopt, maar obligaties van bijvoorbeeld Duitsland niet langer zal vernieuwen en in de plaats haar balans zal vullen met obligaties van pakweg Italië of Griekenland, en wellicht ook België. Al die landen komen nu in het oog van de storm.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg152" xml:lang="nl">Dit is natuurlijk een belangrijke politieke beslissing, die onder vuur ligt van een aantal lidstaten. Ik begrijp uit het gemak waarmee u deze mededeling brengt, dat u het standpunt van de meer zuinige landen niet echt deelt en dat u eerder op de lijn van de Zuid-Europese landen zit, de Club Medlanden, die er alle baat bij hebben dat de ECB hun obligaties opkoopt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg153" xml:lang="nl">Wellicht zal ook België die steun nog nodig hebben. In die zin lees ik uw antwoord wel als een politiek antwoord. U zit niet op de lijn van de strenge lidstaten die terughoudend zijn tegenover de beslissing dat de Europese Centrale Bank haar balans vult met obligaties van landen die hun begroting niet op orde hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.seg154" xml:lang="nl">Waarvan akte. Dit wordt hopelijk niet te vaak vervolgd en blijven de spreads onder controle. Dit is een situatie die wij in de komende maanden zeker zullen opvolgen. Ik dank u voor uw antwoord.</seg>
+                </u>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: Het incident is gesloten.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: L'incident est clos.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: De openbare commissievergadering wordt gesloten om 11.18 uur.</desc>
+                </gap>
+                <gap reason="editorial">
+                    <desc>Content could not be classified: La réunion publique de commission est levée à 11 h 18.</desc>
+                </gap>
+            </div>
+        </body>
+    </text>
+</TEI>

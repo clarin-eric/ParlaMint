@@ -31,13 +31,13 @@
                 <edition>1.0</edition>
             </editionStmt>
             <extent>
-                <measure unit="speeches" quantity="94" xml:lang="en">94
+                <measure unit="speeches" quantity="55" xml:lang="en">55
         speeches</measure>
-                <measure unit="speeches" quantity="94" xml:lang="nl">94
+                <measure unit="speeches" quantity="55" xml:lang="nl">55
         spreekbeurten</measure>
-                <measure unit="words" quantity="20028" xml:lang="en">20028
+                <measure unit="words" quantity="8408" xml:lang="en">8408
         words</measure>
-                <measure unit="words" quantity="20028" xml:lang="nl">20028
+                <measure unit="words" quantity="8408" xml:lang="nl">8408
         woorden</measure>
             </extent>
             <publicationStmt>
@@ -128,14 +128,14 @@
             </editorialDecl>
             <tagsDecl>
                 <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="desc" occurs="237"/>
+                    <tagUsage gi="desc" occurs="135"/>
                     <tagUsage gi="body" occurs="1"/>
-                    <tagUsage gi="u" occurs="94"/>
-                    <tagUsage gi="seg" occurs="668"/>
+                    <tagUsage gi="u" occurs="55"/>
+                    <tagUsage gi="seg" occurs="154"/>
                     <tagUsage gi="div" occurs="1"/>
                     <tagUsage gi="text" occurs="1"/>
-                    <tagUsage gi="gap" occurs="237"/>
-                    <tagUsage gi="note" occurs="78"/>
+                    <tagUsage gi="gap" occurs="135"/>
+                    <tagUsage gi="note" occurs="54"/>
                 </namespace>
             </tagsDecl>
             <classDecl>
@@ -145,7 +145,6 @@
                 <xi:include href="ParlaMint-BE-taxonomy-speaker_types.xml"/>
                 <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
                 <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
-                <xi:include href="ParlaMint-BE-taxonomy-chn_pos_tagging.ana.xml"/>
             </classDecl>
         </encodingDesc>
         <profileDesc>
@@ -161,14 +160,14 @@
                 <xi:include href="ParlaMint-BE-listPerson.xml"/>
             </particDesc>
             <langUsage>
-                <language xml:lang="en" ident="fr" usage="39">French</language>
-                <language xml:lang="nl" ident="fr" usage="39">Frans</language>
                 <language xml:lang="en" ident="en">English</language>
                 <language xml:lang="nl" ident="en">Engels</language>
-                <language xml:lang="en" ident="nl" usage="61">Dutch</language>
-                <language xml:lang="nl" ident="nl" usage="61">Nederlands</language>
+                <language xml:lang="en" ident="fr">French</language>
+                <language xml:lang="nl" ident="fr">Frans</language>
+                <language xml:lang="en" ident="nl" usage="100">Dutch</language>
+                <language xml:lang="nl" ident="nl" usage="100">Nederlands</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
-    <xi:include href="ParlaMint-BE_2021-12-09-voorlopig-55-plenair-ip146x.xml"/>
+    <xi:include href="ParlaMint-BE_2022-06-28-voorlopig-55-commissie-ic831x.xml"/>
 </teiCorpus>
