@@ -35,6 +35,7 @@ $Meta = "$Bin/parlamint2meta.xsl";
 $Valid = "$Bin/tools/validate.py";
 
 $country2lang{'AT'} = 'de';
+$country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
 $country2lang{'BE'} = 'fr, nl';
 $country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
@@ -59,10 +60,11 @@ $country2lang{'NO'} = 'no';
 $country2lang{'PL'} = 'pl';
 $country2lang{'PT'} = 'pt';
 $country2lang{'RO'} = 'ro';
-$country2lang{'RO'} = 'ro';
+$country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
+$country2lang{'UK'} = 'uk';
 
 
 print STDERR "INFO: Converting directory $inDir\n";
