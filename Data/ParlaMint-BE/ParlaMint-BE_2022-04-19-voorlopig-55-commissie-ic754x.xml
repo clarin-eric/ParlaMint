@@ -1,0 +1,872 @@
+<TEI xml:lang="nl" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x" ana="#parla.sitting #covid" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 19-04-2022 [ParlaMint]</title>
+                <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 19-04-2022 [ParlaMint]</title>
+                <meeting corresp="#be_federal_parliament" ana="#parla.meeting.committee" n="ic754">Commissievergadering 754 van 19-04-2022</meeting>
+                <meeting ana="#parla.term #period_55" corresp="#be_federal_parliament" n="55">Zittingperiode 55</meeting>
+                <respStmt>
+                    <persName>Henk van der Pol</persName>
+                    <persName>Griet Depoorter</persName>
+                    <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+                    <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">De Europese Commissie</orgName>
+                    <orgName xml:lang="en">The European Commission</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">Taalunie</orgName>
+                    <orgName xml:lang="en">Dutch Language Union</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>0.9 - These parliamentary proceedings are pre-final versions, which have yet to be officially approved.</edition>
+            </editionStmt>
+            <extent>
+                <measure unit="speeches" quantity="50" xml:lang="en">50 speeches</measure>
+                <measure unit="speeches" quantity="50" xml:lang="nl">50 spreekbeurten</measure>
+                <measure unit="words" quantity="11731" xml:lang="en">11731 words</measure>
+                <measure unit="words" quantity="11731" xml:lang="nl">11731 woorden</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+                    <orgName xml:lang="en">Dutch Language Institute</orgName>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                </publisher>
+                <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                    <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                </availability>
+                <date when="2022-07-27">2022-07-27</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="main" xml:lang="fr">Commission des Affaires sociales, de l'Emploi et des Pensions du Mardi 19 avril 2022 Après-midi</title>
+                    <title type="main" xml:lang="nl">Commissie voor Sociale Zaken, Werk en Pensioenen van Dinsdag 19 april 2022 Namiddag</title>
+                    <idno type="URI">https://www.dekamer.be/doc/CCRI/html/55/ic754x.html</idno>
+                    <date when="2022-04-19">2022-04-19</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>                
+                <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>                
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="desc" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="u" occurs="50"/>
+                    <tagUsage gi="seg" occurs="207"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="gap" occurs="1"/>
+                    <tagUsage gi="note" occurs="152"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <name type="city">Brussel</name>
+                    <name key="BE" type="country">België</name>
+                    <date ana="#parla.sitting" when="2022-04-19">2022-04-19</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27"><name>Henk van der Pol</name>: initial version.</change>            
+        </revisionDesc>
+    </teiHeader>
+    <text ana="#covid">
+        <body>
+            <div type="debateSection">
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    La réunion publique de commission est ouverte à 14 h 05 et présidée par Mme Marie-Colline Leroy.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De openbare commissievergadering wordt geopend om 14.05 uur en voorgezeten door Marie-Colline Leroy.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Les textes figurant en italique dans le Compte rendu intégral n’ont pas été prononcés et sont la reproduction exacte des textes déposés par les auteurs.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De teksten die in cursief zijn opgenomen in het Integraal Verslag werden niet uitgesproken en steunen uitsluitend op de tekst die de spreker heeft ingediend.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    01 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De collectieve arbeidsduurvermindering&quot; (55025903C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Gaby Colebunders aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De evaluatie van de RSZ-bijdragevermindering voor de collectieve arbeidsduurvermindering&quot; (55026510C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    01 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;La réduction collective du temps de travail&quot; (55025903C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Gaby Colebunders à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;L'évaluation de la réduction des cotisations ONSS en cas de réduction collective du temps de travail&quot; (55026510C)
+                </note>
+                <note type="speaker" xml:lang="nl">01.01 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u1" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg1" xml:lang="fr">Madame la présidente, ma question concerne l'évaluation du mécanisme actuel de réduction des cotisations en cas de diminution collective du temps de travail.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg2" xml:lang="fr">Monsieur le ministre, lors de la commission du 8 mars, vous nous informiez qu'une évaluation du mécanisme actuel de réduction des cotisations serait faite pour envisager sa mise en pratique plus large, ce qui faisait d'ailleurs partie de l'accord de gouvernement. Quel est le timing relatif à cette évaluation? De quels autres moyens disposez-vous pour encourager la mise en place de la réduction collective du temps de travail, et ce, sans impacter les caisses de la sécurité sociale? Des pays comme l’Espagne lancent des projets pilotes de grande envergure. Pourquoi ne pas opter pour des processus similaires? La fonction publique fédérale ne pourrait-elle montrer l’exemple en la matière?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">01.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u2" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg3" xml:lang="fr">Madame la présidente, madame la députée, comme vous le savez, les employeurs qui appliquent une réduction du temps de travail en dessous des 38 heures/semaine peuvent bénéficier d'une réduction des cotisations patronales pour les travailleurs concernés. La mesure est importante au regard de la conciliation entre vie professionnelle et vie privée.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg4" xml:lang="fr">Partant du constat que le système est peu appliqué, l'accord de gouvernement prévoit son évaluation. Préalablement à cette évaluation, j'ai demandé à l'ONSS de me fournir certaines données relatives à cette réduction par groupe-cible en vue de procéder à l'évaluation du dispositif. L'évaluation et l'adaptation du système actuel seront effectuées en concertation avec les partenaires sociaux. L'objectif est d'accroître l'utilisation de ce système qui encourage la réduction collective de la durée du travail au niveau des entreprises.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg5" xml:lang="fr">En ce qui concerne la réduction collective de la durée du travail dans la fonction publique fédérale, je vous renvoie vers ma collègue, la ministre de la Fonction publique et des Entreprises publiques autonomes.</seg>
+                </u>
+                <note type="speaker">01.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u3" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg6" xml:lang="fr">Monsieur le ministre, que vous n'ayez pas abandonné complètement cette évaluation est une bonne chose, car parfois l'on peut s'attendre au pire. Malheureusement, nous devons constater que ce gouvernement va beaucoup plus vite pour flexibiliser le temps de travail et allonger la journée de travail que pour procéder à cette évaluation.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg7" xml:lang="fr">Je ne rappellerai pas les effets positifs de la réduction du temps de travail en termes de création d'emploi, de conciliation vie privée/vie professionnelle, de bien-être et de diminution des maladies liées au travail. Nous en profitons pour répéter que nous ne sommes pas d'accord qu'au lieu de vous diriger vers davantage de réductions collectives du temps de travail avec maintien du salaire et  embauches compensatoires, vous ayez permis l'allongement des journées de travail à 10 heures, ce qui n'aidera pas les situations des malades de longue durée. Vous allez à l'encontre de l'histoire de nos grandes luttes sociales.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg8" xml:lang="fr">Nous reviendrons sur ce sujet pour avoir plus d'informations une fois la concertation terminée.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    02 Question de Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Les négociations sectorielles dans le secteur des titres-services et les actions des aides-ménagères&quot; (55025943C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    02 Vraag van Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De sectoronderhandelingen in de dienstenchequesector en de acties van de huishoudhulpen&quot; (55025943C)
+                </note>
+                <note type="speaker" xml:lang="nl">02.01 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u4" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg9" xml:lang="fr">On a déjà eu l'occasion d'en parler plusieurs fois et je dirais que ça commence à bien faire. On répète tout le temps la même chose et j'ai l'impression d'avoir déjà vécu cette séquence ici en commission. Malheureusement, il faut bien que nous revenions sur cet aspect, sur ce secteur dans lequel nous n'avons pas encore pu aboutir à des négociations. Il s'agit de négociations sectorielles. On voit que les aides ménagères et leurs organisations syndicales se mobilisent pour organiser de nombreuses actions, telles que celles des 8 et 17 mars derniers.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg10" xml:lang="fr">Ces travailleurs, qui sont majoritairement des travailleuses, font face à un patronat qui s'obstine à ne rien lâcher.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg11" xml:lang="fr">Pourquoi, selon vous, les négociations sectorielles bloquent-elles dans le secteur des titres-services? N'y voyez-vous pas une responsabilité en lien avec la décision du gouvernement de bloquer les salaires à 0,4 %?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg12" xml:lang="fr">Qu’allez-vous faire pour que les revendications syndicales soient mises en application, notamment – et surtout – pour ce qui concerne le remboursement des frais kilométriques?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg13" xml:lang="fr">Enfin, qu’allez-vous faire à l’avenir pour que le patronat ne puisse plus bloquer les demandes des travailleurs? Qu’envisagez-vous à ce sujet dans le cadre du prochain accord interprofessionnel?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">02.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u5" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg14" xml:lang="fr">Madame la députée, merci pour votre question, qui a effectivement déjà été abordée au sein de cette commission, et notamment sous l'angle des négociations en vue d'un nouvel accord sectoriel dans le secteur des titres-services.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg15" xml:lang="fr">Comme vous le savez, la principale pierre d'achoppement reste le remboursement des frais de transport. C'était déjà un point de discussion important avant le déclenchement de la guerre en Ukraine, et il est bien entendu encore plus d'actualité avec la hausse, voire l'explosion, des prix des carburants. De nombreux travailleurs ou travailleuses du secteur doivent en effet utiliser leur propre véhicule pour se rendre au domicile des usagers des chèques et ont de plus en plus de mal à payer les frais de déplacement croissants uniquement avec leur salaire.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg16" xml:lang="fr">Cela étant, je ne vois pas de lien entre la loi sur la norme salariale et l'élément relatif au remboursement des frais de déplacement. Ce sont deux sujets différents.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg17" xml:lang="fr">Enfin, en ce qui concerne la concertation sociale, vous savez que j'y attache beaucoup d'importance et que je la respecte. Je pense que l'autonomie des partenaires sociaux doit aussi ici être respectée mais j'invite fermement les parties à se remettre autour de la table le plus rapidement possible afin de trouver une solution.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg18" xml:lang="fr">En outre, comme vous le savez, au sein du gouvernement fédéral, nous avons également pris des mesures pour réduire l'impact de l'augmentation des coûts de l'énergie. En ce qui concerne la mobilité, il s'agit de la réduction des accises sur l'essence et le diesel ainsi que la non-application de l'augmentation des tarifs prévue par la SNCB.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg19" xml:lang="fr">Par ailleurs, partant du constat que la contribution financière actuelle des employeurs aux déplacements des travailleurs ou à d'autres déplacements professionnels, et ce dans tous les secteurs, est souvent insuffisante pour couvrir l'augmentation des coûts, nous avons décidé de débloquer une enveloppe de 30 millions d'euros et nous avons invité les partenaires sociaux réunis au sein du Groupe des Dix à venir avec des propositions à cet égard avant la fin de ce mois. L'objectif de ces propositions doit être de compenser l'augmentation du coût du transport pour les travailleurs au cours de cette année 2022. Il s'agit d'une enveloppe spécifique et temporaire mais qui ne remet pas en cause la nécessité d'une solution plus structurelle réclamée par les représentants syndicaux du secteur des titres-services.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">02.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u6" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg20" xml:lang="fr">Monsieur le ministre, quand on n'a rien du tout et qu'on est dans une telle situation, comme le sont les aides ménagères, il est un peu difficile, quand vous proposez quelque chose – même d'insuffisant – de dire que cela ne représente rien, puisqu'on part de rien. J'ai bien entendu ce que vous avez dit: cela ne règle pas le problème de façon structurelle. Ce que vous mettez en avant ne satisfait donc pas du tout les syndicats car ils veulent aller beaucoup plus loin.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg21" xml:lang="fr">Vous savez qu'on partage avec vous le respect de la concertation sociale. Mais ce qui est un peu déroutant, c'est que, dans ce gouvernement, il y a deux poids, deux mesures quant à la façon d'interpréter ce respect de la concertation sociale. Quand cela bloque, on ose prendre des décisions qui vont malheureusement souvent à l'encontre des travailleurs. En l'occurrence, on vous demande d'aller beaucoup plus loin et de débloquer l'affaire.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg22" xml:lang="fr">Je ne dois pas vous rappeler qu'aujourd'hui, des femmes et des hommes dorment dans leur voiture parce qu'ils ne peuvent plus payer l'essence pour se rendre au travail. Ils reçoivent 13 cents du kilomètre. C'est environ trois fois moins que ce qu'on reçoit dans la fonction publique. Je rappelle également que le salaire moyen de ces personnes est de 12,80 euros de l'heure.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg23" xml:lang="fr">Il ne s'agit donc pas d'un combat contre les plus gros salaires du secteur. Nous voulons – à juste titre – obtenir un peu plus de pouvoir d'achat. Nous comptons donc sincèrement sur vous pour débloquer la situation.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03 Interpellation de Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;La clarification relative à la réforme du statut des travailleurs de plateformes&quot; (55000269I)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03 Interpellatie van Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De verduidelijking met betrekking tot de hervorming van het statuut van de platformwerkers&quot; (55000269I)
+                </note>
+                <note type="speaker" xml:lang="nl">03.01 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u7" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg24" xml:lang="fr">Madame la présidente, monsieur le ministre, ici aussi, nous sommes face à un débat que nous avons déjà eu l'occasion de mener plusieurs fois. Il s'agit des travailleurs de plateformes.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg25" xml:lang="fr">Ces travailleurs, dans un des pays les plus riches au monde, sont en fait des sous-travailleurs. Ils n'ont pas les mêmes droits que les autres. Ce sont ces hommes - ce sont majoritairement des hommes, cette fois-ci - que l'on voit circuler dans nos villes, avec leur gros sac à dos réfrigéré, régulièrement sur un vélo, à l'occasion sur une mobylette.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg26" xml:lang="fr">Ces sous-travailleurs n'ont pas du tout le même statut que l'ensemble des travailleurs de ce pays. Il y a deux statuts possibles quand on travaille dans ce secteur. Soit, on est indépendant, soit, on est travailleur des plateformes. Dans les deux cas, ils n'ont pas le même statut que l'ensemble des travailleurs.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg27" xml:lang="fr">Nous avons une proposition de loi qui réclame la présomption réfragable de salariat. Comme vous le savez, monsieur le ministre, en français, cela signifie que ces travailleurs sont d'office soit indépendants, soit travailleurs avec des sous-statuts, et que ce sont les plateformes concernées qui décident du statut de ces travailleurs. Nous, nous voulons inverser cette tendance. Nous voulons faire en sorte que d'office, tous ces travailleurs soient considérés comme des travailleurs salariés. Si la plateforme souhaite que ces travailleurs ne le soient pas, c'est à elle d'en faire la demande. Il faut qu'elle demande l'accord préalable de la Commission administrative de règlement de la relation de travail</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg28" xml:lang="fr">Un projet de loi a été mis sur pied. Monsieur le ministre, confirmez-vous que sur le terrain, cela restera un  statu quo? Dans les faits, le statut sera toujours imposé par les plateformes et ce sont les travailleurs qui, individuellement, devront toujours ester en justice.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg29" xml:lang="fr">Confirmez-vous qu'il n'y aura pas une véritable présomption réfragable de salariat, vu l'absence du rôle préalable de la Commission administrative de règlement de la relation de travail (CRT)?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg30" xml:lang="fr">Dans le cadre des négociations au sein de la Vivaldi, il était pourtant question d'un rôle préalable de la CRT. Dans ces conditions, pourquoi ce point a-t-il été retiré? Nous attendons une réponse de votre part à ce sujet. Selon nous, vous avez botté en touche. En tout cas, ce point figurait dans le projet et ce  n'est plus le cas. La question se pose de savoir pourquoi. Avez-vous subi des pressions? Contre quelle compensation avez-vous accepté de renoncer à ce morceau important?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg31" xml:lang="fr">J'en arrive à ma question relative à l'octroi d'une assurance accident du travail. Aujourd'hui, ces travailleurs n'ont pas droit à cette assurance. Quels seront les travailleurs qui pourront en bénéficier? En effet, durant ces derniers mois, nous avons eu affaire à deux Pierre-Yves Dermagne, et on ne sait pas très bien lequel on doit croire.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg32" xml:lang="fr">En fait, depuis le 15 février, on peut lire ceci sur votre site: &quot;Tous les travailleurs actifs dans l'économie de plateformes seront mieux protégés en cas d'accident du travail.&quot; Or, début mars, l'avant-projet de loi stipulait que seuls les indépendants bénéficieront de l'assurance accident du travail. Le 8 mars, en réponse à une question que nous avions posée dans cette commission, vous avez confirmez à deux reprises que l'ensemble des travailleurs des plateformes auraient bel et bien droit à une assurance accident du travail, y compris les travailleurs de l'économie collaborative. Il y a deux semaines, on pouvait lire ceci sur votre page Facebook: &quot;Je m'assurerai également que les travailleurs des plateformes indépendants puissent bénéficier de l'assurance accident du travail.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg33" xml:lang="fr">Je vous le disais, on ne sait plus quel Dermagne on doit croire! Allez-vous exclure 80 % des travailleurs de plates-formes en n'incluant pas les travailleurs de l'économie collaborative pour qu'ils aient enfin droit à cette assurance accident de travail?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">03.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u8" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg34" xml:lang="fr">Madame la députée, en ce qui concerne la présomption de salariat, je vous rappelle que huit critères, dont cinq inspirés de la proposition de la Commission européenne, ont été déterminés. Il suffira d'apporter la preuve que trois de ces huit critères ou que deux des cinq critères d'inspiration européenne sont remplis pour que la présomption de salariat s'applique. La plate-forme pourra renverser cette présomption, s'agissant d'une présomption réfragable, c'est-à-dire qui peut être renversée, et la charge de la preuve lui incombera pour démontrer l'absence de lien d'autorité. Cette présomption pourra être invoquée par les travailleurs devant la Commission administrative de règlement de la relation de travail (CRT) ou devant les juridictions du travail. Les travailleurs peuvent bien entendu être représentés par un mandataire de leur organisation syndicale devant ces instances. Cette présomption pourra également être utilisée par les services d'inspection compétents.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg35" xml:lang="fr">Concernant votre question spécifique sur l'analyse et l'optimisation éventuelle du fonctionnement des procédures et du rôle de la CRT, une proposition n'a effectivement pas été formulée directement auprès du Conseil national du Travail car avec mes collègues Vandenbroucke et Clarinval, il a été décidé de travailler de concert avec la CRT elle-même et les partenaires sociaux relativement à ces aspects plus procéduraux, et donc à son fonctionnement. Ce travail est en cours avec les partenaires sociaux au sein de la CRT.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg36" xml:lang="fr">Pour ce qui est des accidents de travail, il apparaît nécessaire que je clarifie le projet eu égard à la situation actuelle. Comme vous le savez, le tribunal du travail de Bruxelles a récemment rendu un jugement clair sur le système d'économie collaborative peer-to-peer tel que pratiqué par des plates-formes comme Deliveroo ou Uber Eats. Ces plates-formes, selon le tribunal du travail de Bruxelles, n'ont pas le droit de s'inscrire dans l'économie collaborative en tant que telle. Elles doivent donc travailler soit avec des salariés soit avec des indépendants. L'abus de la réglementation peer-to-peer est bien entendu inacceptable. Il incombe à mon collègue, le ministre des Finances, d'en assurer la supervision. Je réaffirme donc que chaque livreur qui travaille via une plate-forme donneuse d'ordre telles que le sont Deliveroo ou Uber Eats, pour n'en citer que deux, doit et devra être couvert par la loi sur les accidents de travail s'il est considéré comme salarié. S'il est occupé comme indépendant à titre principal ou accessoire, il bénéficiera de l'extension prévue de la loi sur les accidents de travail telle qu'elle figure dans mon avant-projet de loi.</seg>
+                </u>
+                <note type="speaker">03.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u9" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg37" xml:lang="fr">Monsieur le ministre, je ne sais pas quoi vous répondre. J'avais prévu de vous dire dans ma réplique, selon votre réponse, que j'espérais que vous ne noyiez pas le poisson. Mais il va falloir que je le dise. J'ai l'impression que vous noyez le poisson!</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg38" xml:lang="fr">Vous confirmez que c'est toujours le travailleur qui doit lui-même apporter la preuve. Vous ne dites rien de très clair sur les assurances maladie en la matière. Vous ne dites rien non plus sur le fait que cela figurait dans votre projet initial et que cela n'y figure plus. On apprend aujourd'hui que tout cela va être renvoyé au Conseil national du Travail. Y a-t-il eu des pressions pour que cela ne soit plus repris dans le projet? Selon les échos que nous avons reçus, il y a des divergences dans la Vivaldi et le patronat a fait pression sur le cabinet du ministre Clarinval. Vous ne dites rien à ce sujet non plus. On reste avec une réponse de Normand. J'espère que je ne dois pas en déduire que vous avez menti.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg39" xml:lang="fr">En tout cas, pour nous, jusqu'à maintenant – mais vous pouvez encore rattraper le tir –, vous avez raté une occasion historique de changer les règles du jeu en faveur de ces travailleurs. Nous le regrettons. Nous continuons à dire que nous avons une proposition de loi qui aurait pu régler le problème mais vous ne l'avez pas utilisée. Nous reviendrons évidemment sur le sujet et nous continuerons à soutenir les organisations syndicales de tous ces travailleurs dans leur combat pour leur droit à un statut digne de ce nom.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg40" xml:lang="fr">Puisque votre réponse ne nous convient pas, nous déposons une motion de recommandation.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Motions
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Moties
+                </note>
+                <note type="speaker" xml:lang="fr">La présidente:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u10" who="#LeroyMarieColline" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg41" xml:lang="fr">En conclusion de cette discussion les motions suivantes ont été déposées.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg42" xml:lang="nl">Tot besluit van deze bespreking werden volgende moties ingediend.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg43" xml:lang="fr">Une motion de recommandation a été déposée par Mme Nadia Moscufo et est libellée comme suit:</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg44" xml:lang="fr">&quot;La Chambre,</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg45" xml:lang="fr">ayant entendu l'interpellation de Mme Nadia Moscufo</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg46" xml:lang="fr">et la réponse du vice-premier ministre et ministre de l’Économie et du Travail,</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg47" xml:lang="fr">- considérant que la proposition de réforme issue de l'accord sur le travail n'apportera pas une réelle clarification du statut des travailleurs de plateformes;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg48" xml:lang="fr">- considérant que la présomption de salariat ne sera pas effective sur le terrain du fait, notamment, de l'absence de rôle préalable de la commission Règlement des Relations de Travail;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg49" xml:lang="fr">- considérant que ce sera toujours aux travailleurs d'aller individuellement devant les tribunaux pour obtenir une requalification de leur statut, avec les conséquences que l'on connaît (lenteur des procédures, coûts financiers et risques de représailles de la plateforme, pour ne citer que ces éléments);</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg50" xml:lang="fr">- considérant, outre la question de la clarification du statut, que l'extension de l'assurance accident de travail telle qu'exposée dans l'avant-projet de loi n'inclura pas l'ensemble des travailleurs de plateformes;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg51" xml:lang="fr">demande au gouvernement</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg52" xml:lang="fr">d'accorder une véritable présomption réfragable de salariat pour les travailleurs de plateformes en suivant le principe suivant: les travailleurs de plateformes sont de facto des salariés et si la plateforme veut engager une relation indépendante avec tels ou tels travailleurs, elle doit demander au préalable une autorisation de la commission Règlement des Relations de Travail.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg53" xml:lang="nl">Een motie van aanbeveling werd ingediend door mevrouw Nadia Moscufo en luidt als volgt:</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg54" xml:lang="nl">&quot;De Kamer,</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg55" xml:lang="nl">gehoord de interpellatie van mevrouw Nadia Moscufo</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg56" xml:lang="nl">en het antwoord van de vice-eersteminister en minister van Economie en Werk,</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg57" xml:lang="nl">- overwegende dat het uit de arbeidsdeal voortvloeiende hervormingsvoorstel geen werkelijke verduidelijking van het statuut van de platformwerkers zal brengen;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg58" xml:lang="nl">- overwegende dat het vermoeden van loondienst in de praktijk geen gevolgen zal hebben, met name omdat de commissie ter Regeling van de Arbeidsrelatie voorafgaandelijk geen rol toebedeeld wordt;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg59" xml:lang="nl">- overwegende dat de werknemers zich steeds individueel tot de rechter zullen moeten wenden om een herkwalificatie van hun statuut te verkrijgen, met de bekende gevolgen van dien (aanslepende procedures, financiële kosten en risico's van represailles door het platform, om er maar enkele te noemen);</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg60" xml:lang="nl">- overwegende dat, naast de kwestie van de verduidelijking van het statuut, de uitbreiding van de arbeidsongevallenverzekering zoals die in het voorontwerp van wet toegelicht wordt, niet op alle platformwerknemers van toepassing zal zijn;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg61" xml:lang="nl">verzoekt de regering</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg62" xml:lang="nl">een reëel weerlegbaar vermoeden van loondienst toe te kennen aan de platformwerkers volgens het volgende beginsel: de platformwerkers zijn de facto werknemers en als het platform aan bepaalde werknemers het statuut van zelfstandige wil toekennen, moet het eerst toestemming vragen aan de commissie ter Regeling van de Arbeidsrelatie.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg63" xml:lang="fr">Une motion pure et simple a été déposée par Mme Chanelle Bonaventure.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg64" xml:lang="nl">Een eenvoudige motie werd ingediend door mevrouw Chanelle Bonaventure.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg65" xml:lang="fr">Le vote sur les motions aura lieu ultérieurement. La discussion est close.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg66" xml:lang="nl">Over de moties zal later worden gestemd. De bespreking is gesloten.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04 Question de Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Le non-versement des primes dans le secteur de la construction&quot; (55026159C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04 Vraag van Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;Het uitblijven van de betaling van de premies in de bouwsector&quot; (55026159C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04.01 Nadia Moscufo (PVDA-PTB):
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Il nous revient que des centaines de travailleurs de la construction dans le Limbourg n'ont toujours pas reçu leurs primes Corona et les écochèques dont ils ont pourtant droit. Ce montant, pas des moindres, peut atteindre 530 euros nets.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    En cause : certaines des 2 000 entreprises de construction du Limbourg qui n'appliquent pas l'accord sectoriel ou font preuve de laxisme dans son application.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Pourtant, selon les accords sectoriels, les primes auraient normalement dû être accordées en décembre.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Mes questions sont donc les suivantes:
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    1/ Quand ces travailleurs bénéficieront-ils enfin de leurs primes?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    2/ Quels dédommagements pourront-ils bénéficier?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    3/ Connaissez-vous d’autres secteurs qui vivent la même situation? Que faites-vous pour y remédier? Pour quels.lles dédommagements/sanctions pour les travailleurs/employeurs?
+                </note>
+                <note type="speaker" xml:lang="fr">04.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u11" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg67" xml:lang="fr">Merci, madame la députée, pour votre question. L'octroi et le paiement de la prime corona ainsi que de l'écochèque aux salariés relève du domaine exclusif de la relation individuelle de travail que le salarié a avec son employeur. La commission paritaire a convenu des conditions dans lesquelles les travailleurs peuvent avoir droit à une prime corona. La manière dont l'ouvrier a droit à cette prime doit être examinée au cas par cas. C'est l'employeur qui engage une société émettrice pour ces systèmes de primes.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg68" xml:lang="fr">Les partenaires sociaux de la commission paritaire sont conscients des difficultés que vous évoquez dans votre question. Les organisations patronales se sont engagées à rechercher ensemble des solutions et elles ont envoyé des communications supplémentaires à leurs membres sur cette question.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg69" xml:lang="fr">Si les problèmes persistent, l'inspection peut bien entendu être interpellée afin de sauvegarder les droits des travailleurs en vertu de la loi sur la protection de la rémunération des travailleurs. Cela peut se faire, comme vous le savez, sur la base d'une plainte individuelle ou sur la base d'une déclaration des organisations syndicales représentatives. À ce jour, je n'ai pas eu connaissance de problèmes qui se poseraient dans d'autres secteurs.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u12" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg70" xml:lang="fr">Monsieur le ministre, merci. Vous comprendrez qu'avec le prix de l'énergie qui explose et les salaires bloqués, les moindres miettes peuvent devenir très importantes. <gap reason="editorial"><desc>Sentence could not be parsed: J'ai bien entendu les différentes possibilités que vous évoquez pour résoudre le problème.</desc></gap> Nous allons suivre la situation sur le terrain et attendre les retours. Nous reviendrons alors éventuellement vers vous pour voir s'il n'y a pas de possibilité légale pour trouver une solution à ce problème lorsque, sur le terrain, les choses ne se passent pas de manière correcte pour les intérêts des travailleurs.</seg>                    
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    05 Question de Chanelle Bonaventure à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;La situation des travailleurs des snacks pita&quot; (55026235C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    05 Vraag van Chanelle Bonaventure aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De situatie van de werknemers van pitazaken&quot; (55026235C)
+                </note>
+                <note type="speaker" xml:lang="fr">05.01 Chanelle Bonaventure (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u13" who="#BonaventureChanelle" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg71" xml:lang="fr">Monsieur le ministre, le 12 mars dernier, la police de la zone Vesdre effectuait, en partenariat avec le SPF Santé, le SPF Finances, l'ONEM, l'ONSS et l'auditorat du travail, une opération destinée à contrôler le respect des lois sociales dans une série de snacks pitta dans les communes de Verviers, Dison et Pepinster.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg72" xml:lang="fr">Le résultat fut peu glorieux. Sur les neufs commerces visités, un seul se trouvait parfaitement en ordre. Pour les autres, les infractions étaient nombreuses et variées: travailleurs non déclarés, parfois même sans contrat en bonne et due forme, non-respect des horaires définis, et j'en passe...</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg73" xml:lang="fr">La presse se fait régulièrement l'écho de problèmes de ce type rencontrés dans ces établissements, et ce, un peu partout en Belgique. Cette situation nuit non seulement aux droits fondamentaux des employés, mais aussi aux intérêts de tous ceux qui exercent cette activité dans les règles et qui sortent, comme tous les indépendants, d'une période difficile.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg74" xml:lang="fr">Selon les informations en votre possession, les résultats ici évoqués sont-ils à l'image de la moyenne du secteur? Disposons-nous de chiffres globaux pour 2021? Combien de sociétés cela représente-t-il?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg75" xml:lang="fr">Quelles pourraient être les pistes afin d'identifier plus efficacement et plus rapidement les fraudeurs? Je vous remercie.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">05.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u14" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg76" xml:lang="fr">Madame Bonaventure, les activités des snacks à pitas ne relèvent pas d'un code NACE ou d'une commission paritaire spécifique mais de la description plus large des restaurations à service restreint.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg77" xml:lang="fr">Dans le cadre des inspections communes des cellules d'arrondissement, 1 095 entreprises ont été inspectées en 2021, dont 588 se sont révélées en infraction, soit 54 %. Les matières concernées par les différentes infractions sont les suivantes: infraction à la déclaration Dimona (333 entreprises), infraction relative au temps partiel (177 entreprises), infraction relative au chômage (99 entreprises) et infraction relative à l'emploi de main-d'œuvre étrangère (47 entreprises).</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg78" xml:lang="fr">Ces résultats sont conformes à ceux du contrôle que vous avez mentionné, pour lequel plus de 80 % des entreprises contrôlées se sont révélées être en infraction. Il est bien connu des services d'inspection du travail que les restaurations à service restreint - dont les snacks à pitas ne représentent qu'une partie - sont propices à la fraude. Il est important de souligner que les contrôles des services d'inspection sociale sont principalement orientés vers des phénomènes de fraude et des secteurs à risque plutôt que vers tel ou tel type d'entreprise.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg79" xml:lang="fr">La liste des phénomènes de fraude prioritaires - dont le dumping social, le travail non déclaré, la traite des êtres humains - ainsi que les secteurs à risque à traiter en priorité par les services d'inspection sont inclus dans les plans d'action annuels de lutte contre la fraude sociale. Les snacks pitta en font partie, et les phénomènes cités s'y produisent.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg80" xml:lang="fr">Sur le plan de la détection, les inspecteurs recourent aux  data mining et  data matching, afin de cibler de manière plus efficace les entreprises à contrôler, en étant au bon endroit au bon moment.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">05.03 Chanelle Bonaventure (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u15" who="#BonaventureChanelle" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg81" xml:lang="fr">Monsieur le ministre, je vous remercie de votre réponse.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg82" xml:lang="fr">Voici quelques mois, je vous avais posé une question similaire relativement aux travailleurs de  car-wash. La situation présente est quelque peu semblable: celle d'un secteur qui éprouve plus de difficultés que d'autres à respecter certaines règles. Comme pour les  car-wash, c'est ce qui remonte du terrain dans l'exercice de mon mandat de conseillère CPAS. Votre réponse vient de le confirmer.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg83" xml:lang="fr">Je resterai attentive aux activités de ce secteur.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    06 Vraag van Björn Anseeuw aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;Het beperken van de werkloosheidsuitkering in de tijd&quot; (55026372C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    06 Question de Björn Anseeuw à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;La limitation de l'allocation de chômage dans le temps&quot; (55026372C)
+                </note>
+                <note type="speaker" xml:lang="nl">06.01 Björn Anseeuw (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u16" who="#AnseeuwBjörn" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg84" xml:lang="nl">Mevrouw de voorzitster, mijnheer de minister, sinds maart 2020 en de start van heel wat coronamaatregelen zijn werklozen in dit land veel minder gecontroleerd dan voorheen en ook veel minder gesanctioneerd. Dat tweede is logisch, want het volgt uit het eerste.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg85" xml:lang="nl">De maatregelen die werden opgelegd in het kader van de coronacrisis, hebben mede verhinderd dat teams van de bevoegde instanties op volle kracht konden werken. Ik heb daarvoor alle begrip, zeker tijdens de eerste maanden. Nu de controles echter langzaam maar zeker opnieuw opstarten, wordt het gekende probleem opnieuw heel erg duidelijk. Mensen die niet werken in dit land, maar wel zouden kunnen werken, worden niet aangemoedigd om dat toch te doen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg86" xml:lang="nl">U kan opwerpen dat ik hier opnieuw sta met hetzelfde riedeltje. Echter, ik stel dat niet alleen. Ook een heel achtbaar lid van het beheerscomité van Actiris, toch een heel onverdachte bron ter zake, verklaarde onlangs het volgende, ik citeer: &quot;Onze werkloosheid is momenteel een beetje een Win for life. Er is weinig of geen sprake van uitsluiting, vermindering of schorsing. Dit zijn elementen die het tekort aan arbeidskrachten nog vergroten. Gezien de situatie moeten de controles het ritme van voor de pandemie hervatten.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg87" xml:lang="nl">Wij weten allemaal dat dit land vandaag kampt met een ongelooflijk groot tekort en een ongelooflijke krapte op de arbeidsmarkt. Tegelijkertijd worden mensen niet of amper aangemoedigd om aan de slag te gaan. Dat dreigt natuurlijk het probleem van de krapte alleen maar te vergroten, met alle gevolgen van dien.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg88" xml:lang="nl">Mijnheer de minister, dus is mijn vraag aan u de volgende. Ik kan mij niet inbeelden dat het citaat dat ik u heb gegeven, u onberoerd laat. Ik wil dus graag van u het volgende weten. Mijnheer de minister, bent u van plan om effectief te luisteren naar de regio's en het probleem aan te pakken dat zij een Win for life noemen?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg89" xml:lang="nl">U weet het volgende immers bijzonder goed. Het is ook een heel bewuste keuze, die u zeker voorstaat. Over die keuze heb ik u immers eerder al bevraagd. België is nog altijd een van de weinige grote uitzonderingen waar werkloosheidsuitkeringen nog onbeperkt in de tijd gelden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg90" xml:lang="nl">Zal u dat feit aanpakken? Indien u dat niet zal doen, wat zal u dan wel doen, om de krapte op de arbeidsmarkt aan te pakken? Wat zal u wel doen, om zoveel mogelijk mensen te activeren?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg91" xml:lang="nl">Tot op vandaag komt u immers met geen enkele activerende maatregel over de brug. U bent met een arbeidsdeal van de regering naar buiten gekomen. Die arbeidsdeal gaat echter niet over activering maar over het moderniseren van ons arbeidsrecht. Ik ben dus heel erg benieuwd naar de activerende maatregelen die u wel zal treffen.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">06.02 Minister Pierre-Yves Dermagne:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u17" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg92" xml:lang="nl">Mijnheer Anseeuw, ik ben het helemaal niet eens met het lid van het directiecomité van Actiris dat u citeert. Ik denk absoluut niet dat werkzoekenden zich in een comfortabele situatie bevinden. Een gezinshoofd met kinderen ten laste, bijvoorbeeld, ontvangt na twee jaar werkloosheid een uitkering van maar 1.507 euro per maand en dan spreek ik nog niet over samenwonenden, vaak vrouwen, die een uitkering van 634 euro per maand ontvangen, een inkomen dat ver onder de armoedegrens ligt. Zulke lage uitkeringen zijn dus geen Win for Life, mijnheer Anseeuw. Werkloosheidsuitkeringen zijn in België weliswaar onbeperkt in de tijd, maar werkzoekenden moeten zeer regelmatig bewijzen dat zij actief naar werk zoeken, zo niet verliezen zij hun uitkering voor een vrij lange periode. In tegenstelling tot het beeld dat sommigen willen schetsen, zijn werkzoekenden dus geen profiteurs die zitten te wachten tot hun uitkering wordt toegekend.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg93" xml:lang="nl">Het feit dat een lid van het directiecomité van een instelling een ongegronde verklaring aflegt, betekent nog niet dat u dat kunt beschouwen als een verzoek van de regio's. Ik vergader regelmatig met de regionale ministers van Werk en geen van hen heeft mij gevraagd om de werkloosheidsuitkeringen in de tijd te beperken. Ik zou mij daar trouwens sterk tegen verzetten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg94" xml:lang="nl">Wat de krapte op de arbeidsmarkt betreft, worden, zoals ik reeds verschillende keren in het Parlement heb gezegd, teksten voorbereid om werkzoekenden toe te staan een deel van hun werkloosheidsuitkering te combineren met een premie of een salaris wanneer zij een baan vinden in een andere regio in een knelpuntberoep of indien zij een opleiding volgen voor een knelpuntberoep.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">06.03 Björn Anseeuw (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u18" who="#AnseeuwBjörn" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg95" xml:lang="nl">Mijnheer de minister, uit uw antwoord kan ik opmaken dat er eigenlijk weinig nieuws onder de zon is wat het activeren van mensen betreft. Ik wil voor de helderheid toch een aantal dingen verduidelijken.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg96" xml:lang="nl">Bij Win for Life krijgt men elke maand opnieuw een bedrag zonder dat men daar iets voor moet doen. Of men daar gelukkig van wordt, en of men daarmee in een comfortabele positie terechtkomt, dat is een andere zaak. Ik ben het met u eens dat het een stuk comfortabeler zou zijn voor heel veel werkzoekenden, mochten zij wel aan de slag kunnen gaan. Dat zou hun positie wel versterken en wel verbeteren.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg97" xml:lang="nl">Maar ook aan het beperken van de werkloosheid in de tijd – en ik heb het niet over de uitkering, maar wel over het werkloos zijn – doet u met de regering niets. Dat is bijzonder kwalijk, want het zou net getuigen van een bijzonder sterk sociaal beleid als u met deze regering wel alle zeilen zou bijzetten om zoveel mogelijk mensen aan een goede job te helpen. Maar tot vandaag blijft dat voornemen, dat ook in uw regeerakkoord staat, dode letter. Dat is bijzonder asociaal, mijnheer de minister.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    07 Question de Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;L'accord sur le travail et l'incidence de la journée des 10 heures sur les congés&quot; (55026413C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    07 Vraag van Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De arbeidsdeal en de impact van de 10 urenwerkdag op het aantal vakantiedagen&quot; (55026413C)
+                </note>
+                <note type="speaker" xml:lang="nl">07.01 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u19" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg98" xml:lang="fr">Madame la présidente, monsieur le ministre, suite à l'accord du 15 février concernant la semaine des 4 jours (en fait, la journée des 10 heures), vous nous aviez confirmé, le 8 mars dernier, que le dispositif, tel que rédigé actuellement, a bel et bien une incidence négative sur le nombre de congés disponibles, du moins lorsque le travailleur retourne dans une semaine de 5 jours.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg99" xml:lang="fr">Vous nous aviez alors informé que votre administration était en train d’examiner la manière de lutter contre cet effet indésirable.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg100" xml:lang="fr">Monsieur le ministre, où en êtes-vous? Quelle solution avez-vous trouvée pour éviter cette incidence négative sur le nombre de congés? S’il n’y a pas encore de solution, vous engagez-vous, aujourd'hui, à ce qu’il n’y ait, in fine, aucune incidence négative de la semaine des 4 jours sur le nombre de congés?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">07.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u20" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg101" xml:lang="fr">Madame la présidente, madame la députée, votre question me permet de clarifier certains éléments.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg102" xml:lang="fr">Comme vous l'avez rappelé, le suivi de la réglementation relative aux congés annuels est assuré par la cellule &quot;Congés annuels&quot; au sein de la direction générale Coordination des politiques du Service public fédéral Sécurité sociale. J'ai donc interrogé cette administration, comme je m'y étais engagé.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg103" xml:lang="fr">Il ressort des informations reçues de celle-ci qu'elle est d'avis que la mesure proposée concernant la semaine de travail à temps plein répartie sur 4 jours n'a pas d'incidence sur le nombre de jours de congés annuels auxquels le travailleur a droit. Comme le travailleur conserve son statut de travailleur à temps plein dans le cadre de cette mesure, il continuera à avoir droit au minimum légal de 4 semaines de congés payés.</seg>
+                </u>
+                <note type="speaker">07.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u21" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg104" xml:lang="fr">Monsieur le ministre, je me réjouis que la question ait été réglée de la sorte. En effet, avec cette réforme, il est demandé aux travailleurs de travailler durant de longues journées pour finalement perdre des congés l'année suivante. La réponse apportée ne constitue donc que le minimum syndical, si je puis m'exprimer ainsi. Nous attendons maintenant que cette décision soit concrétisée.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    08 Vraag van Hans Verreyt aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De vergoeding voor administratiekosten v.d. uitbetalingsinstellingen voor werkloosheidsuitkeringen&quot; (55026500C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    08 Question de Hans Verreyt à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Les indemnités pour les frais administratifs des organismes de paiement des allocations de chômage&quot; (55026500C)
+                </note>
+                <note type="speaker" xml:lang="nl">08.01 Hans Verreyt (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u22" who="#VerreytHans" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg105" xml:lang="nl">Mijnheer de minister, op 18 maart werd in de Ministerraad op uw voorstel een ontwerp van koninklijk besluit goedgekeurd, dat de vergoeding voor administratiekosten van de uitbetalingsinstellingen belast met de uitbetaling van werkloosheidsuitkeringen, wijzigt. Nu wordt die vergoeding berekend volgens een formule die rekening houdt met een dalende of stijgende werkloosheid. Om de impact daarvan af te vlakken, zult u een structurele aanpassing en de formule wijzigen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg106" xml:lang="nl">Welke aanpassing wordt er precies gedaan?  Wat is de financiële impact op de overheid van de aanpassing? Werd er een prognose gemaakt op basis van de uitbetalingsinstellingen en zo ja, wat is de impact per uitbetalingsinstelling?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.02 Minister Pierre-Yves Dermagne:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u23" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg107" xml:lang="nl">Mijnheer Verreyt, voor de vigerende formule voor de berekening van de vergoedingen voor administratieve kosten wordt een mechanisme van structuursprong gehanteerd, dat verschilt naargelang het aantal aanvaarde gevallen, dus betalingsdossiers, afneemt of toeneemt ten opzichte van het basisjaar 1991. Meer details over de formule zijn te vinden in de bijlage, die ik u zal bezorgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg108" xml:lang="nl">Om het effect van de structuursprong bij een daling van het aantal aanvaarde gevallen af te vlakken, zal de formule vanaf het dienstjaar 2022 worden herzien. De coëfficiënt die van toepassing is op de factor Y bij een daling van het aantal aanvaarde gevallen, wordt afgestemd op de coëfficiënt die van toepassing is bij een stijging van het aantal gevallen ten opzichte van 1991, dat was 0,05.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg109" xml:lang="nl">Opdat de budgettaire impact beperkt zou blijven tot 7.577.000 euro in 2022, 2023 en 2024, zoals werd opgenomen in de notificaties van 20 oktober 2021 van de Ministerraad, werd in het ontwerp van koninklijk besluit een verschillende coëfficiënt bepaald per jaar.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg110" xml:lang="nl">De budgettaire impact werd dus geraamd op 7.577.000 euro aan bijkomende vergoedingen voor administratiekosten van de uitbetalingsinstellingen per jaar vanaf 2022. De kosten worden gedragen door het globaal financieel beheer, stelsel werknemers.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.03 Hans Verreyt (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u24" who="#VerreytHans" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg111" xml:lang="nl">Mijnheer de minister, ik dank u voor het antwoord met tabel.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg112" xml:lang="nl">Als de werkloosheid daalt – dat was ook altijd de bedoeling van de maatregelen -, dan zijn er ook minder  kosten. Als een bedrijf minder goed draait, dan doen zij het nodige opdat hun kosten dalen. Dat is een goede zaak.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg113" xml:lang="nl">Men moet echter ook bepaalde schokken kunnen opvangen. De voorbije twee jaar hadden we te lijden onder een aantal schokken, die niet te voorspellen waren en die we liefst ook niet meer meemaken. Intussen stijgt ook de werkzaamheidgraad. Zeker in Vlaanderen is er een zeer lage werkloosheidsgraad van 4 %. Ik denk dat hiermee ook rekening kan worden gehouden. Ik kijk uit naar uw hervorming.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09 Question de Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;L’application d'une politique asymétrique du marché du travail&quot; (55026536C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09 Vraag van Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De toepassing van een asymmetrisch arbeidsmarktbeleid&quot; (55026536C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09.01 Nadia Moscufo (PVDA-PTB):
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Les Régions ont été invitées à déposer leurs demandes pour mener une politique asymétrique du marché du travail à travers la plateforme interfédérale . Ces demandes sont à l’examen jusqu’au 15 avril. A cette date, le gouvernement fédéral devra trancher et ouvrir la porte aux initiatives régionales.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Mes questions sont donc les suivantes:
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    1/ Quelles politiques a été retenues et quelles autres avez-vous refusé la mise en application?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    2/ Pouvez-vous justifier ces choix?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    3/ Pensez-vous que ces politiques permettront d’atteindre le taux d’emploi de 80 %? D’ailleurs, concernant ce fameux taux de 80 %, comment l’atteindre sachant que si l’entièreté des demandeurs d’emploi retrouve un travail – ce qui est peu probable vu qu’il y a plus de demandeurs d’emploi que de postes vacants - nous n’atteindrions toujours pas 80 %? Quels autres publics allez-vous réactiver? Les personnes âgées, les malades? Il semble que la Flandre veulent s’inscrire dans cette direction. Allez-vous laisser faire ça?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    4/ N’y a-t-il pas un risque, en agissant de la sorte, d’opérer une 7ème réforme de l’état déguisée en matière du marché du travail ? Dans un récent article de l’Echo, nous pouvions lire de la part de la journaliste que « la note flamande parle ici et là d’accords de coopération, mais l’idée sous-jacente à bon nombre de mesures vise à supprimer le cadre normatif fédéral. »
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    5/ De nombreux responsables syndicaux expliquent qu’il n’y a pas pénurie d’emplois, mais pénurie d’emplois de qualité; à l’instar de secteur comme les titres services ou les soins de santé. Comment allez-vous enfin vous attaquer à la qualité de l’emploi, en ce compris les salaires?
+                </note>
+                <note type="speaker" xml:lang="fr">09.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u25" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg114" xml:lang="fr">Merci, madame la députée, pour votre question. Le travail de la plate-forme interfédérale est, comme vous le savez, un travail continu. Il ne s'est pas arrêté au 15 avril dernier, date étape dans le processus. En effet, il s'agit, pour la plate-forme, d'émettre des recommandations et d'analyser les propositions politiques qui lui sont soumises. Dans le cadre de ce travail, la plate-forme a déjà émis plusieurs analyses concernant notamment le suivi des personnes en chômage temporaire ainsi que l'exercice d'une activité de volontaire au regard du concept de disponibilité.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg115" xml:lang="fr">Sur la base de ces analyses, dans le cadre de la Conférence interministérielle avec mes collègues des entités fédérées, nous avons pu avoir des échanges constructifs. Nous avons convenu que je formulerais des propositions concrètes dans les jours à venir concernant le suivi des chômeurs temporaires et nous avons demandé des analyses complémentaires concernant le volontariat.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg116" xml:lang="fr">En ce qui concerne le taux d'emploi, vous aurez constaté que celui-ci a encore augmenté puisque nous sommes désormais à un taux de 71,6 %, ce qui représente, par rapport au premier trimestre 2021, une augmentation considérable de 2,6 %. Le taux d'emploi est désormais 1,2 % supérieur à celui d'avant la crise du corona.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg117" xml:lang="fr">Si les mesures qui seront prises dans le cadre de la plate-forme contribueront à améliorer le taux d'emploi, elles ne sont évidemment pas les seules. Des mesures ont déjà été prises par exemple dans le cadre de la mise en oeuvre de l'accord social et d'autres mesures dans le cadre de mes compétences mais également par mes collègues, que ce soit sur le terrain de la fiscalité, de la fonction publique ou des indépendants.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg118" xml:lang="fr">Les entités fédérées prennent également des mesures importantes pour atteindre cet objectif, ce que je tiens à saluer ici. Le mandat de la plate-forme est quant à lui très clair: il s'agit de travailler dans le cadre institutionnel existant et en aucun cas il ne s'agira d'opérer une réforme de l'État via ce canal.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg119" xml:lang="fr">Enfin, en ce qui concerne les pénuries d'emplois, je suis également d'avis qu'il faut affiner les choses. C'est la seule raison pour laquelle j'ai prévu de mettre en place un monitoring des pénuries au niveau des différents secteurs d'activités. Les partenaires sociaux seront chargés d'identifier de manière objective les métiers où il y a des difficultés et de proposer des mesures pour y remédier. Si nécessaire, ces mesures viseront évidemment à améliorer la qualité de l'emploi.</seg>
+                </u>
+                <note type="speaker">09.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u26" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg120" xml:lang="fr">Monsieur le ministre, je vous remercie de ces précisions. Nous retenons que la date du 15 avril  représentait une étape. Bref, la réflexion se poursuit. Cela nous arrange, parce que vous savez que le PTB est généralement opposé à une politique asymétrique; pas par principe, mais parce que certaines mesures potentielles nous préoccupent. En effet, cette politique nous apparaît comme un facteur de division de la classe des travailleurs, dont l'objectif consisterait à tirer vers le bas les conditions de travail et de rémunération. Or, au contraire, nous avons besoin d'emplois de qualité, notamment dans les secteurs des soins de santé.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg121" xml:lang="fr">Vous avez évoqué l'analyse de la pénurie, que vous allez affiner. Pour nous, cette question semble devoir être mise en parallèle avec celle des emplois à proposer dans une perspective qualitative. Il reste pas mal de travail. Nous avons parlé tout à l'heure des titres-services. Je ne vous ferai pas l'affront de vous expliquer la situation difficile des travailleurs du secteur hospitalier.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg122" xml:lang="fr">Monsieur le ministre, nous reviendrons vers vous pour obtenir plus d'informations quant à la solution que vous aurez choisie.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    10 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Les difficultés des travailleurs, les mobilisations syndicales et les réponses du gouvernement&quot; (55026542C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Anja Vanrobaeys à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Le budget supplémentaire pour les indemnités de déplacement&quot; (55026801C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Hans Verreyt à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Le calendrier de l'indexation des salaires&quot; (55026845C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    10 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De problemen van de werknemers, de vakbondsprotesten en de antwoorden van de regering&quot; (55026542C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Anja Vanrobaeys aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;Extra budget voor verplaatsingsvergoedingen&quot; (55026801C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Hans Verreyt aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;Het tijdstip van indexering van lonen&quot; (55026845C)
+                </note>
+                <note type="speaker">10.01 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u27" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg123" xml:lang="fr">Madame la présidente, le titre exact de ma question est celui-ci: &quot;Les difficultés des travailleurs et les réponses du gouvernement&quot;.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg124" xml:lang="fr">Monsieur le ministre, les semaines passent vite et les congés arrivent, en tout cas pour ceux qui pourront en bénéficier, alors que les difficultés des travailleuses et travailleurs s’amplifient: augmentation des prix de l'énergie, du carburant, des denrées alimentaires, etc. Tout augmente, sauf les salaires.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg125" xml:lang="fr">Du côté des énergies, la guerre en Ukraine n’offre pas de perspectives rassurantes et les aides en matière de carburant n'ont produit aucun effet. En ce qui concerne les denrées alimentaires, je fais référence à l'étude de Test-Achats attestant d'une augmentation des prix à hauteur de 4,3 % en seulement un an.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg126" xml:lang="fr">Comptez-vous améliorer et renforcer notre système d’indexation, notamment en y incluant le prix des carburants? Agirez-vous pour que les travailleurs se voient intégralement indemnisés pour leur trajet domicile-travail? Votre président de parti déclarait sur la RTBF, le 24 mars dernier, qu’il fallait que les employeurs remboursent mieux les frais kilométriques. Il avait raison. Comment traduirez-vous cela?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg127" xml:lang="fr">Agirez-vous pour que les télétravailleurs soient intégralement indemnisés pour leurs frais liés à l’énergie? Que ferez-vous face au blocage des employeurs sur ce dossier? Menez-vous des discussions afin d’augmenter l’indemnité forfaitaire de bureau pour les télétravailleurs - actuellement plafonnée à 134,71 euros/mois?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">10.02 Anja Vanrobaeys (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u28" who="#VanrobaeysAnja" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg128" xml:lang="nl">Mijnheer de minister, het is geen geheim dat veel werknemers het bijzonder zwaar hebben, zeker met de stijgende inflatie en vooral met de stijgende energieprijzen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg129" xml:lang="nl">Het is voor sommige mensen absoluut niet mogelijk om de verplaatsingen van en naar het werk met het openbaar vervoer te doen. Zij moeten dat met de wagen doen. Ik denk daarbij in de eerste plaats aan de huishoudhulpen die van gezin naar gezin gaan. Tussen twee opdrachten is er te weinig tijd, laat staan dat elk gezin dichtbij een bushalte woont. Bovendien hebben zij al hun poetsgerief mee, wat het niet evident maakt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg130" xml:lang="nl">In het kader van de begrotingscontrole heeft de regering 30 miljoen euro vrijgemaakt om de stijgende verplaatsingskosten te verlichten. Ik vind dat heel goed nieuws. Hebt u al een zicht op wat er met die 30 miljoen zal worden gedaan? Waarvoor zal die dienen? Wat zijn de modaliteiten? Wat is de procedure? Wat is de timing? Het is voor de werknemers belangrijk om dat te weten, want het water staat hen al een tijdje aan de lippen. Zij willen weten vanaf wanneer zij beroep zullen kunnen doen op die extra ondersteuning.</seg>
+                </u>
+                <note type="speaker">10.03 Hans Verreyt (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u29" who="#VerreytHans" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg131" xml:lang="nl">Mijnheer de minister, deze samengevoegde vragen hebben alle drie te maken met de portemonnee van de werknemer, maar inhoudelijk zijn ze toch verschillend.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg132" xml:lang="nl">Mijn vraag gaat over de hoogoplopende inflatie die voor een reeks indexverhogingen zorgt voor zowel lonen, pensioenen als vervangingsinkomens. Dat gebeurt op verschillende tijdstippen, wat nu eenmaal eigen is aan het statuut en aan de cao's waaronder de verschillende werknemers vallen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg133" xml:lang="nl">Zeker in jaren waar dat heel snel gaat, zien we evenwel dat dit zorgt voor aanzienlijke ongelijkheden. Sommige werknemers moeten bijna een jaar wachten vooraleer hun loon wordt geïndexeerd, terwijl anderen dit reeds na een maand op hun loonbrief zien. Erkent u dat met het verschillend tijdstip van indexering een ongelijkheid in de hand wordt gewerkt? Zult u een initiatief nemen om de gelijkheid onder de werknemers op dat vlak te herstellen?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">10.04 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u30" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg134" xml:lang="fr">Mesdames les députées, monsieur le député, madame Moscufo, contrairement à ce que vous affirmez, les salaires ont augmenté dans notre pays durant cette période d'inflation, et ce, grâce à l'indexation automatique des salaires et des allocations qui protège le pouvoir d'achat des travailleurs et des travailleuses ainsi que des allocataires sociaux. Je tiens également à rappeler que le salaire minimum a été augmenté de manière historique ce 1er avril et qu'il continuera à augmenter dans les années à venir.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg135" xml:lang="fr">Comme vous le savez, je défends ardemment le mécanisme d'indexation des salaires et des allocations sociales.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg136" xml:lang="nl">Dat is een sociale verworvenheid waarop België trots mag zijn. Ik ben niet van plan daaraan te raken.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg137" xml:lang="fr">Quant aux différences d'indexation entre les travailleurs, c'est une des conséquences de la concertation sociale. Du fait que différentes conventions collectives ont été négociées par les partenaires sociaux, des modalités différentes ont été convenues. Je pourrais vous en citer quelques-unes mais je ne les ai pas sous les yeux. Il y a notamment des différences dans le secteur de l'horeca, dans le secteur bancaire, dans le secteur de la construction. Nous sommes effectivement face à des modalités différentes mais cela relève entièrement et pleinement de la compétence des partenaires sociaux. Je peux néanmoins entendre la préoccupation d'avoir un système plus uniforme.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg138" xml:lang="nl">Het was voor mij belangrijk om meer te kunnen ingrijpen in de beroepsverplaatsingen van de werknemers. Daartoe heeft de regering een budget van 30 miljoen euro beschikbaar gesteld. Dit budget is beschikbaar voor de sociale partners binnen de Groep van Tien die tot taak heeft om concrete en passende voorstellen op dit gebied te doen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg139" xml:lang="nl">De beginsels en het kader voor telewerk zijn uiteengezet in de cao 85 die van essentieel belang is voor de sociale partners. In deze overeenkomst wordt bepaald dat de werkgever de aansluitings- en communicatiekosten in verband met telewerken moet betalen en de werknemer moet vergoeden voor het gebruik van zijn eigen materiaal.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg140" xml:lang="fr">En ce qui concerne les frais d'énergie, le travailleur et l'employeur peuvent également convenir d'une prise en charge. Dans le respect de la concertation sociale, il ne m'appartient évidemment pas de réécrire une convention collective convenue. J'ai néanmoins demandé aux partenaires sociaux d'actualiser celle-ci au regard des crises récentes que nous avons connues et que nous connaissons encore. J'espère que, maintenant que le télétravail n'est plus obligatoire, les partenaires sociaux pourront aboutir rapidement.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg141" xml:lang="fr">Enfin, en ce qui concerne la fiscalité de l'indemnité forfaitaire de bureau, je vous invite à poser la question à mon excellent collègue, le ministre des Finances, qui est compétent en la matière. En ce qui concerne l'application de cette indemnité dans la fonction publique, merci de bien vouloir adresser cette question à mon autre excellente collègue, la ministre de la Fonction publique, compétente en la matière. Je vous remercie.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">10.05 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u31" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg142" xml:lang="fr">Monsieur le ministre, dans la foulée de mes questions, j'avais oublié la dernière, que vous avez vue par écrit. Je voulais en effet savoir si vous comptiez œuvrer en faveur de la réforme de la loi de 1996. Là aussi, votre président avait plaidé pour une hausse des salaires, et il avait encore raison. À cet égard, je fais allusion à la pétition citoyenne qui a déjà récolté 90 000 signatures, et j'en profite pour dire que nous soutiendrons les organisations syndicales qui organiseront des actions sociales. Nous serons à leurs côtés.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg143" xml:lang="fr">Vous dites que vous ne voulez pas intervenir dans la concertation, mais je vous invite une fois de plus à demander à votre président comment il voit les choses. Je répète quand même qu'il a dit qu'il fallait que les employeurs remboursent mieux les frais kilométriques. Il a peut-être une idée qui nous échappe et qui pourrait être créative à ce sujet.</seg>
+                </u>
+                <note type="speaker">10.06 Anja Vanrobaeys (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u32" who="#VanrobaeysAnja" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg144" xml:lang="nl">Mijnheer de minister, dank u voor het antwoord. Ik meen dat de sociale partners wel het best geplaatst zijn om te bepalen welke prioriteiten er gegeven moeten worden bij de invulling van het budget voor de verplaatsingsonkosten. Ik wil er wel op aandringen dat zij daar niet te lang mee talmen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg145" xml:lang="nl">Ik heb het daarnet al gezegd, ik heb geen grote onderzoeken nodig om te weten dat het water sommige mensen aan de lippen staat. Wij zijn hier al dikwijls tussenbeide gekomen voor de huishoudhulpen. Die krijgen geen hogere verplaatsingvergoeding. Dat hangt samen met de regionale subsidies, dat besef ik wel. Toch meen ik dat er voor hen, en zeker ook voor anderen, een tandje bijgezet moet worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg146" xml:lang="nl">Ik hoor hier allerlei zaken zeggen en ik wil benadrukken dat de koopkracht voor ons als socialisten in deze regering heel belangrijk is. Wij doen er alles aan om die te vrijwaren. Ik herinner u aan de indexsprong waartoe in 2014 door een rechtse regering werd beslist. Tegelijkertijd werd het btw-tarief voor energie van 6 % op 21 %  gebracht. Wij kwamen toen met honderdduizend mensen op straat in Brussel, maar er bewoog niets in de regering.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg147" xml:lang="nl">Nu verdedigt de regering de index, die meegaat met de inflatie en waarvan onderzoeken zeggen dat het de beste bescherming is voor de koopkracht van de werknemers. Tegelijkertijd hebben wij het btw-tarief voor energie weer op 6 % gebracht.</seg>
+                </u>
+                <note type="speaker">10.07 Hans Verreyt (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u33" who="#VerreytHans" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg148" xml:lang="nl">Mijnheer de minister, dank u voor uw toelichting. Het verheugt mij dat u erkent dat er verschillen zijn door de verschillende cao's in de verschillende paritaire comités en dat die verschillen meestal niet door een minister worden opgeheven, maar wel door het sociaal overleg dat eigen is aan die paritaire comités.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg149" xml:lang="nl">Ik meen echter dat wij zeker in een periode waarin de inflatie zeer hoog is de grote verschillen tussen werknemers en arbeiders niet enkel moeten betreuren maar dat wij er ook iets aan moeten doen. Ik meen dat wij ervoor moeten zorgen, eventueel via een voorzet aan de sociale partners, dat de verschillen tussen werknemers en arbeiders worden afgevlakt.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    11 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Les conséquences de la guerre en Ukraine sur les travailleurs&quot; (55026545C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Hans Verreyt à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;L'incidence de la crise en Ukraine sur le marché de l'emploi&quot; (55026847C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    11 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De gevolgen van de oorlog in Oekraïne voor de werknemers&quot; (55026545C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Hans Verreyt aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De impact van de crisis in Oekraïne op de arbeidsmarkt&quot; (55026847C)
+                </note>
+                <note type="speaker">11.01 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u34" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg150" xml:lang="fr">Monsieur le ministre, la guerre en Ukraine crée évidemment des catastrophes humaines d'abord en Ukraine. C'est le peuple ukrainien qui paie. Mais il y a aussi des conséquences économiques graves pour les entreprises et les travailleurs belges. Beaucoup de secteurs sont touchés, comme l'aviation, la chimie, le secteur automobile, l'alimentation, la sidérurgie et bien d'autres.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg151" xml:lang="fr">Monsieur le ministre, comment évaluez-vous l'impact de l'invasion russe sur nos entreprises et nos travailleurs? Selon certains, l'effet de la guerre sur l'Europe pourrait être plus dévastateur encore que la crise sanitaire. Que mettez-vous en place pour protéger les travailleurs contre de tels effets?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg152" xml:lang="fr">Au vu des difficultés liées au pouvoir d'achat et à la suite des deux années de crise sanitaire, allez-vous augmenter les indemnités relatives au chômage temporaire? D'ailleurs, qu'en est-il de l'assimilation de ces périodes pour le pécule de vacances de cette année? Que mettez-vous en place pour éviter que les travailleurs subissent l'impact du gel des avoirs russes? Je vous remercie.</seg>
+                </u>
+                <note type="speaker">11.02 Hans Verreyt (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u35" who="#VerreytHans" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg153" xml:lang="nl">Mijnheer de minister, de Russische agressie in Oekraïne heeft in de eerste plaats natuurlijk zeer veel gevolgen voor dat land en zijn inwoners, maar ook in ons land zijn er wel wat gevolgen. Dat zijn dan in de eerste plaats gevolgen voor de economie.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg154" xml:lang="nl">Momenteel zijn de arbeidsindicatoren nog zeer positief, maar de Oekraïnecrisis en de daarmee gepaard gaande problemen kondigen toch problemen aan voor onze arbeidsmarkt. Enerzijds gaat het om problemen met de aanvoer van grondstoffen, met een sterke  prijsstijging tot gevolg, en anderzijds om de explosieve energiekosten die sommige bedrijven doen beslissen hun activiteiten stil te leggen of op een lager pitje te zetten. Sommige bedrijven, bijvoorbeeld in de voedingssector, verlagen hun productie. Dat zal natuurlijk consequenties hebben voor onze arbeidsmarkt en wellicht een sterke stijging van de economische werkloosheid tot gevolg hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg155" xml:lang="nl">Kunnen bedrijven die op eigen initiatief hun productie verlagen of stilleggen uit rentabiliteitsoverwegingen tijdelijke werkloosheid inroepen om economische redenen of vanwege overmacht?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg156" xml:lang="nl">Hoe zullen uw diensten controleren of die economische redenen al dan niet onvoorzien zijn? Kan men zich beroepen op overmacht?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg157" xml:lang="nl">Zult u een taskforce oprichten om de arbeidsmarkt van nabij te monitoren, om te bekijken welke bijkomende maatregelen nodig zijn om de gevolgen van deze crisis op te vangen?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.03 Minister Pierre-Yves Dermagne:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u36" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg158" xml:lang="nl">Het kernkabinet heeft op 14 maart beslist om de vereenvoudigde procedure voor werkloosheid te verlengen tot en met 30 juni 2022. Dit geldt zowel voor de tijdelijke werkloosheid die het gevolg is van de coronapandemie als voor de tijdelijke werkloosheid die verband houdt met het conflict tussen Rusland en Oekraïne. Het betekent dat alle tijdelijke werkloosheid als gevolg van de coronapandemie of de oorlog in Oekraïne tot en met 30 juni 2022 kan worden aangegeven en aanvaard als tijdelijke werkloosheid wegens overmacht, ook als ze economisch van aard is.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg159" xml:lang="nl">De vereenvoudigde procedure voor tijdelijke werkloosheid kan dus zeer ruim worden toegepast, ook door bedrijven die zich vanuit rentabiliteitsoverwegingen genoodzaakt zouden zien om hun productie te beperken of zelfs tijdelijk stop te zetten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg160" xml:lang="fr">Le gouvernement fédéral suit donc de près les conséquences économiques de la guerre en Ukraine. Ainsi, nous avons demandé à la Banque nationale une analyse approfondie de l'impact de la guerre en Ukraine pour la fin du mois d'avril, en partenariat avec le SPF Économie et le Bureau fédéral du Plan.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg161" xml:lang="fr">Le gouvernement a également demandé au Groupe des Dix d'élaborer d'ici peu une proposition afin d'atténuer la hausse des prix de l'énergie pour les entreprises en se fondant sur les résultats de l'étude de la Banque nationale.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg162" xml:lang="fr">Les partenaires sociaux sont consultés quant aux mesures additionnelles à prendre face aux conséquences économiques de la guerre en Ukraine.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg163" xml:lang="fr">Il est bien entendu que toutes les mesures qui seront estimées nécessaires seront prises par le gouvernement, comme nous l'avons fait d'ailleurs pendant la crise du coronavirus.</seg>
+                </u>
+                <note type="speaker">11.04 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u37" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg164" xml:lang="fr">Monsieur le ministre, je vous remercie.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg165" xml:lang="fr">La situation est relativement grave pour un grand nombre de travailleurs, même pour ceux qui pensaient être épargnés par la crise - je ne dois pas faire un dessin pour l'expliquer – à cause de la hausse des prix de l'énergie. On attend une réponse forte de la part du gouvernement, entre autres en assimilant les périodes de chômage temporaire pour les pécules de vacances mais aussi en revoyant l'indemnité de chômage pour éviter une baisse des revenus.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg166" xml:lang="fr">Évidemment, toutes ces mesures coûtent. On a appris récemment que les grands patrons avaient vu leurs salaires progresser de plus de 15 %. Nous pensons aussi que, face à cette guerre, il faut réfléchir à la façon d'aller chercher l'argent chez ces profiteurs de guerre. Je pense principalement au secteur pétrolier, aux marchands d'armes et aux financiers.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.05 Hans Verreyt (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u38" who="#VerreytHans" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg167" xml:lang="nl">Mijnheer de minister, dank u voor de antwoorden op de verschillende vragen. We volgen het duidelijk goed op. U hebt verschillende instanties gevraagd om allerlei berekeningen te maken en na te gaan wat de impact van de crisis in Oekraïne teweeg zal brengen voor onze economie. We kunnen er echter niet rond dat de regering meer moet doen, want er is ook nog de factor van de energieprijzen. U kent onze standpunten daarover: we kunnen daar meer in doen. Dat is immers de belangrijkste factor die ervoor zorgt dat bedrijven het niet meer zien zitten en hun productie stilleggen of verminderen. Als de overheid daar iets aan kan doen, kunnen we meer mensen aan het werk houden. We kunnen er dan ook voor zorgen dat onze voedingssector niet stilvalt en dat de producten beschikbaar blijven in de winkel. Zo kunnen we ook de impact van de Oekraïnecrisis op onze economie verminderen.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    12 Question de Nadia Moscufo à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Les conséquences de la guerre pour les travailleurs d’EuroChem&quot; (55026655C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    12 Vraag van Nadia Moscufo aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De gevolgen van de oorlog voor de werknemers van EuroChem&quot; (55026655C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    12.01 Nadia Moscufo (PVDA-PTB):
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Les travailleurs d’EuroChem font face à de grandes incertitudes suite aux sanctions visant un oligarque russe, Andrey Melnichenko, (ex) propriétaire de l’entreprise.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Mes questions sont donc les suivantes:
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    1/ Qu’allez-vous faire pour que les travailleuses et travailleurs ne soient pas pénalisés par la guerre et ses conséquences? Pouvez-vous nous garantir que le salaire des travailleurs sera bien versé?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    2/ Allez-vous vous assurer que la production d'EuroChem Antwerp reprenne une activité normale et pérenne?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    3/ L’État va-t-il reprendre la supervision de l’entreprise? Quelles perspectives pouvez-vous donner aux travailleurs? A terme, l'État envisage-t-il de reprendre l'entreprise et racheter les actions?
+                </note>
+                <note type="speaker" xml:lang="fr">12.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u39" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg168" xml:lang="fr">Madame la députée, comme vous le savez, j'ai reçu les syndicats d'EuroChem avant les vacances de Pâques. L'emploi et le paiement des salaires suscitaient évidemment beaucoup d'inquiétudes et on peut le comprendre. Immédiatement après cette rencontre, j'ai également contacté la cellule politique du ministre Van Peteghem dont l'administration est responsable de la mise en œuvre des sanctions européennes.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg169" xml:lang="fr">Comme vous avez également pu l'apprendre entre-temps par la presse, après l'accord pour le paiement des salaires, le SPF Finances a accordé une autorisation pour un redémarrage partiel des activités. Il s'agit de la production d'engrais simples et la vente d'engrais encore en stock à l'usine d'Anvers. Les recettes ne peuvent être utilisées que pour les paiements essentiels tels que le paiement des salaires. Il est clair que ce n'est pas un exercice facile que d'appliquer correctement les sanctions européennes, d'une part, et de veiller aux intérêts des travailleurs belges, d'autre part. L'administration de mon collègue le ministre des Finances suit de près ce dossier et examinera bien entendu avec l'entreprise et ses représentants, les possibilités pour la période à venir. À nouveau, je fais état de mon entière disponibilité pour accompagner les représentants syndicaux ainsi que la direction de l'usine afin de trouver des solutions.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">12.03 Nadia Moscufo (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u40" who="#MoscufoNadia" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg170" xml:lang="fr">Monsieur le  ministre, je vous remercie. Face à une telle instabilité et à l'absence de certitude pour ces travailleurs d'EuroChem, il faudrait obtenir des réponses à long terme. On sait qu'il y a eu des accords à court terme et c'est très bien, mais c'est à long terme qu'on règle le problème d'incertitude pour les travailleurs. Qu'en sera-t-il du paiement des salaires dans les prochains mois? Quand la production pourra-t-elle reprendre à plein temps? Qui va reprendre en main l'entreprise à plus long terme? Étant donné que la guerre dure, que les sanctions s'amplifient et que le risque d'escalade est malheureusement bien réel, il faudra mettre en place des solutions pérennes pour préserver l'emploi et faire perdurer la production d'engrais qui sont un point important pour notre production alimentaire. Il serait intéressant de réfléchir dès maintenant à une reprise de la société par l'État à plus long terme.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg171" xml:lang="fr">Nous reviendrons vous interroger sur ce sujet.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    13 Question de Cécile Cornet à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Les chiffres sectoriels relatifs à la prime corona&quot; (55026725C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    13 Vraag van Cécile Cornet aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De sectorale cijfers met betrekking tot de coronapremie&quot; (55026725C)
+                </note>
+                <note type="speaker" xml:lang="fr">13.01 Cécile Cornet (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u41" who="#CornetCécile" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg172" xml:lang="fr">Madame la présidente, monsieur le ministre, le 1er août dernier, comme inscrit dans l'accord interprofessionnel (AIP) 2021-2022, la possibilité a été offerte aux différents secteurs professionnels de prévoir l'octroi d'une prime corona aux travailleurs des entreprises ayant obtenu de bons résultats pendant la pandémie.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg173" xml:lang="fr">Donnée sous la forme de chèques à la consommation, cette prime pouvait atteindre un montant maximal de 500 euros. À charge des secteurs de choisir de l'imposer aux entreprises, d'en fixer plus précisément le montant et de déterminer les critères permettant de constater les &quot;bons résultats&quot; desdites entreprises. Sans décision sectorielle, chaque employeur pouvait conserver la possibilité d'accorder cette prime de sa propre initiative.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg174" xml:lang="fr">Cette prime a bénéficié d'un traitement social et fiscal avantageux pour l'employeur et le travailleur. Elle devait être octroyée pour le 31 décembre 2021. Fin décembre, comme plusieurs secteurs n’étaient pas prêts à conclure un accord, la décision a été prise par arrêté royal de laisser aux employeurs qui le souhaitaient trois mois supplémentaires pour octroyer ces chèques.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg175" xml:lang="fr">Dans un contexte pandémique pénible pour l'ensemble de la population et durant laquelle certaines entreprises ont, malgré tout, enregistré de confortables bénéfices, cette mesure visait à permettre aux travailleurs de profiter des fruits de ces bénéfices qu’ils ont contribué à apporter.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg176" xml:lang="fr">L'heure de l'évaluation de cette mesure est aujourd'hui arrivée. Je souhaiterais donc savoir si elle a permis, conformément à son objectif, de récompenser effectivement les travailleurs des entreprises qui ont prospéré durant ces derniers mois.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg177" xml:lang="fr">Monsieur le ministre, pouvez-vous me communiquer un inventaire des primes corona accordées par les différents secteurs et entreprises? Quels secteurs ont-ils effectivement conclu un accord à cette occasion? À raison de quel montant moyen? Des entreprises qui n’étaient pas concernées par des accords sectoriels ont-elles octroyé la prime? Pour quel montant moyen? Quel est respectivement le pourcentage des entreprises wallonnes, flamandes et bruxelloises qui ont octroyé à leurs travailleurs une prime négociée dans l’AIP?</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">13.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u42" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg178" xml:lang="fr">Madame la présidente, madame Cornet, si vous n'y voyez pas d'objection, je répondrai principalement à votre question par écrit car la réponse à celle-ci est relativement technique, avec beaucoup de chiffres. Il y est également question de beaucoup de commissions et sous-commissions paritaires.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg179" xml:lang="fr">Toutefois, je peux vous dire dans les grandes lignes que, suivant l'estimation qui a été faite, 1,7 million de travailleurs auraient déjà utilisé la prime corona. La valeur totale des primes corona émises s'élève à 483 millions d'euros, avec une valeur moyenne de la prime de 284 euros. Au total, 56 commissions paritaires sont concernées par cette prime corona. Mais, comme vous le savez, il convient également de préciser que l'octroi de la prime corona peut également être organisé au niveau de l'entreprise.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg180" xml:lang="fr">Pour le surplus, je renvoie à la réponse écrite que je vais vous transmettre par l'entremise du secrétariat de la commission.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg181" xml:lang="fr">Enfin, je ne dispose pas, à l'heure actuelle, d'une ventilation Région par Région. Je verrai s'il est possible de l'obtenir dans les jours ou les semaines qui viennent.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">13.03 Cécile Cornet (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u43" who="#CornetCécile" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg182" xml:lang="fr">Monsieur le ministre, je vous remercie pour cette réponse.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg183" xml:lang="fr">J'étudierai le document écrit. Il est évidemment plus facile de communiquer les chiffres par écrit. J'entends toutefois que la valeur moyenne est de 284 euros, ce qui est nettement en deçà des 500 euros qui pouvaient être octroyés. Cela veut dire qu'énormément de travailleurs qui avaient droit à cette prime de 500 euros n'ont pas pu aller chercher le montant maximal de la prime. Je trouve que cela doit vraiment être intégré dans une évaluation globale de l'efficacité de ce type de dispositif.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg184" xml:lang="fr">Même si c'était une bonne solution à ce moment-là dans ce contexte-là pour aller chercher un maximum de partage de la richesse dans le cadre de cette loi de 1996 et de l'augmentation de 0,4 % qui était extrêmement faible, du côté des écologistes, on privilégie évidemment toujours une augmentation du salaire brut. J'aurai certainement l'occasion d'y revenir.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    14 Question de Cécile Cornet à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Le gel de la dégressivité des allocations de chômage durant le congé de maternité&quot; (55026726C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    14 Vraag van Cécile Cornet aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;De bevriezing van de degressiviteit van de werkloosheidsuitkeringen tijdens het moederschapsverlof&quot; (55026726C)
+                </note>
+                <note type="speaker" xml:lang="fr">14.01 Cécile Cornet (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u44" who="#CornetCécile" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg185" xml:lang="fr">Madame la présidente, monsieur le ministre, je souhaite mettre à jour les discussions que nous avons régulièrement sur ce sujet.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg186" xml:lang="fr">Le groupe Ecolo-Groen a déposé en mars 2021 une proposition de loi destinée à geler la dégressivité des allocations de chômage durant le congé de maternité des travailleuses sans emploi.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg187" xml:lang="fr">Celle-ci vise à mettre un terme à une situation flagrante de discrimination à l'égard de femmes qui, bien que momentanément en dehors du marché de l'emploi, subissent les effets d'une dégressivité dont l’objectif est, je le rappelle, d’amener vers l’emploi les personnes qui sont actives.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg188" xml:lang="fr">Le caractère discriminatoire de cette disposition appelle non seulement à y mettre un terme, mais surtout à le faire rapidement.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg189" xml:lang="fr">Le 5 octobre dernier, vous indiquiez, en réponse à une question, qu'une entrée en vigueur de la mesure pouvait être espérée au 1er janvier 2022 et que pour obtenir un gel effectif de la dégressivité des allocations de chômage, une modification de la réglementation INAMI devait aussi être envisagée, et que vous aviez dès lors pris contact avec votre collègue M. Vandenbroucke.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg190" xml:lang="fr">Vous avez enfin confirmé votre engagement sur ce dossier dans votre note de politique générale, parlant d’une mise en œuvre un peu plus tardive. Nous avons eu cet échange au moment de la discussion de la note de politique générale.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg191" xml:lang="fr">Monsieur le ministre, nous sommes maintenant en avril et je voudrais faire le point avec vous. Où en êtes-vous dans la rédaction de ces textes? À quelle date peut-on espérer une entrée en vigueur de la fin de la dégressivité des allocations de chômage pendant le congé de maternité?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg192" xml:lang="fr">Confirmez-vous que le calcul du gel de la dégressivité intégrera chaque semaine d’incapacité et pas seulement les mois complets d'incapacité? Je vous remercie.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">14.02 Pierre-Yves Dermagne, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u45" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg193" xml:lang="fr">Merci, madame Cornet, pour votre question de suivi. Comme vous l'avez rappelé et comme je l'ai indiqué dans ma note de politique générale, il me tient particulièrement à cœur de mettre en œuvre cette mesure. Je sais que vous partagez la même préoccupation et le même engagement. Pour ce faire, des textes réglementaires ont été rédigés et soumis au comité de gestion de l'ONEM.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg194" xml:lang="fr">Le projet d'arrêté modifie la réglementation existante, à savoir l'arrêté royal du 25 novembre 1991 portant réglementation du chômage pour y insérer les périodes de maternité dans les dispositions relatives au gel de la dégressivité. Le texte vise bien la période pendant laquelle une travailleuse bénéficie des indemnités de maternité. Toutefois, comme vous l'avez rappelé, de manière générale, la réglementation chômage prévoit que ce calcul est effectué en mois complets.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg195" xml:lang="fr">S'agissant de l'entrée en vigueur de la mesure, il faut préalablement prévoir les budgets nécessaires pour la mettre en oeuvre. J'espère pouvoir le faire le plus rapidement possible et je vous réitère mon engagement quant à la mise en oeuvre de cette mesure de correction d'une inégalité criante. Je vous remercie.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">14.03 Cécile Cornet (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u46" who="#CornetCécile" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg196" xml:lang="fr">Merci, monsieur le ministre, pour votre réponse. J'entends que vous n'avez pas encore pu avancer mais j'entends aussi votre détermination à continuer. Vous savez, puisque je suis coautrice de ce texte, que je prends ce dossier particulièrement à cœur et que nous vous soutenons dans ce souhait de faire avancer l'égalité.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg197" xml:lang="fr">En effet, dans les avis que nous avons demandés pour notre proposition de loi, la Cour des comptes avait rappelé que la mesure coûterait 2,4 millions par an. Ce montant est extrêmement faible par rapport aux montants que nous avons l'habitude de gérer. Je vous encourage donc à vraiment trouver à la fois la volonté politique et les partenariats pour pouvoir faire avancer les choses vers cet équilibre à retrouver entre les hommes et les femmes. Même si ce combat est symbolique, il est juste et je souhaite vraiment que vous aboutissiez. Je vous remercie.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="speaker" xml:lang="fr">La présidente:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u47" who="#LeroyMarieColline" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg198" xml:lang="fr">La question n° 55026753C de Mme Cécile Cornet est transformée en question écrite.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    15 Vraag van Ellen Samyn aan Pierre-Yves Dermagne (VEM Economie en Werk) over &quot;Het ouderschapsverlof&quot; (55026740C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    15 Question de Ellen Samyn à Pierre-Yves Dermagne (VPM Économie et Travail) sur &quot;Le congé parental&quot; (55026740C)
+                </note>
+                <note type="speaker">15.01 Ellen Samyn (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u48" who="#SamynEllen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg199" xml:lang="nl">Mevrouw de voorzitster, mijnheer de minister, in onze commissie voor Sociale Zaken liggen enkele voorstellen ter bespreking voor over de uitbreiding en verbetering van het ouderschapsverlof. U hebt zelf ook aangegeven de regeling ter zake te willen aanpassen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg200" xml:lang="nl">Enkele weken geleden heeft uw Vlaamse collega-minister, de heer Wouter Beke, over het ouderschapsverlof enkele markante uitspraken gedaan, onder andere over de tijdspanne waarin het ouderschapsverlof opgenomen kan worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg201" xml:lang="nl">Mijnheer de minister, hebt u recent nog met uw collega gesproken over die problematiek? Wat is uw mening over zijn uitspraken alsof het aanbevolen is om het ouderschapsverlof slechts toe te kennen in een korte periode na de geboorte?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg202" xml:lang="nl">Wanneer zult u zelf voorstellen in de commissie voorleggen? Welke zullen de speerpunten zijn van uw beleid?</seg>
+                </u>
+                <note type="speaker">15.02 Minister Pierre-Yves Dermagne:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u49" who="#DermagnePierreYves" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg203" xml:lang="nl">Mevrouw de voorzitster, mevrouw Samyn, zoals u weet, de richtlijn 2019/1158 betreffende het evenwicht tussen werk en privéleven voor ouders en mantelzorgers, de richtlijn  work-life balance, moet uiterlijk op 2 augustus 2022 zijn omgezet. In de komende dagen zullen de ontwerpteksten tot omzetting van die richtlijn aan de ministerraad worden voorgelegd. Elk bestuursniveau zal die richtlijn ook voor zijn eigen overheidsdiensten moeten omzetten. Daarvoor zijn coördinatievergaderingen gepland.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg204" xml:lang="nl">De richtlijn bevat verplichtingen op het gebied van het ouderschapsverlof die al waren opgenomen in vorige richtlijnen tot uitvoering van de herziene raamovereenkomst inzake ouderschapsverlof. De richtlijn  work-life balance bepaalt dat de lidstaten de nodige maatregelen moeten nemen om ervoor te zorgen dat elke werknemer individueel recht heeft op vier maanden ouderschapsverlof, op te nemen voordat het kind een bepaalde leeftijd bereikt. Er wordt gespecificeerd dat die leeftijd zodanig moet worden vastgesteld dat elke ouder zijn of haar recht op ouderschapsverlof daadwerkelijk en onder gelijke voorwaarden kan uitoefenen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg205" xml:lang="nl">In België kan ouderschapsverlof worden opgenomen tot het kind twaalf jaar oud is. Volgens het standstillbeginsel is het niet mogelijk om die leeftijdsgrens te verlagen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg206" xml:lang="nl">Bijkomend werken de sociale partners momenteel aan de vereenvoudiging, optimalisering en harmonisering van de verschillende verlofregelingen. In het regeerakkoord staat dat die oefening gepaard moet gaan met bijzondere aandacht voor verloven omwille van zorg en de combinatie van werk en gezinsleven.</seg>
+                </u>
+                <note type="speaker">15.03 Ellen Samyn (VB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.u50" who="#SamynEllen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-04-19-voorlopig-55-commissie-ic754x.seg207" xml:lang="nl">Mijnheer de minister, het voorstel van uw Vlaamse collega heeft op weinig bijval kunnen rekenen. Het ouderschapsverlof inzetten om de problemen in de kinderopvang op te lossen, helpt de zaak allesbehalve vooruit. Er moet meer worden geïnvesteerd in de kinderopvang. Ik weet dat dit uw bevoegdheid niet is, maar u kunt wel zorgen voor een beter evenwicht tussen werk en gezin door betere verlofstelsels. Ik kijk alvast uit naar de ontwerpteksten over de  work-life balance, die zeker meer dan een debat waard zijn.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De openbare commissievergadering wordt gesloten om 15.28 uur.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    La réunion publique de commission est levée à 15.28 heures.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

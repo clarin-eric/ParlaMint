@@ -1,0 +1,670 @@
+<TEI xml:lang="nl" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x" ana="#parla.sitting #covid" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 04-05-2022 [ParlaMint]</title>
+                <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 04-05-2022 [ParlaMint]</title>
+                <meeting corresp="#be_federal_parliament" ana="#parla.meeting.committee" n="ic774">Commissievergadering 774 van 04-05-2022</meeting>
+                <meeting ana="#parla.term #period_55" corresp="#be_federal_parliament" n="55">Zittingperiode 55</meeting>
+                <respStmt>
+                    <persName>Henk van der Pol</persName>
+                    <persName>Griet Depoorter</persName>
+                    <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+                    <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">De Europese Commissie</orgName>
+                    <orgName xml:lang="en">The European Commission</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">Taalunie</orgName>
+                    <orgName xml:lang="en">Dutch Language Union</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>0.9 - These parliamentary proceedings are pre-final versions, which have yet to be officially approved.</edition>
+            </editionStmt>
+            <extent>
+                <measure unit="speeches" quantity="39" xml:lang="en">39 speeches</measure>
+                <measure unit="speeches" quantity="39" xml:lang="nl">39 spreekbeurten</measure>
+                <measure unit="words" quantity="7961" xml:lang="en">7961 words</measure>
+                <measure unit="words" quantity="7961" xml:lang="nl">7961 woorden</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+                    <orgName xml:lang="en">Dutch Language Institute</orgName>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                </publisher>
+                <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                    <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                </availability>
+                <date when="2022-07-27">2022-07-27</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="main" xml:lang="fr">Commission des Relations extérieures du Mercredi 4 mai 2022 Après-midi</title>
+                    <title type="main" xml:lang="nl">Commissie voor Buitenlandse Betrekkingen van Woensdag 4 mei 2022 Namiddag</title>
+                    <idno type="URI">https://www.dekamer.be/doc/CCRI/html/55/ic774x.html</idno>
+                    <date when="2022-05-04">2022-05-04</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="nl"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>                
+                <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>                
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="u" occurs="39"/>
+                    <tagUsage gi="seg" occurs="137"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="note" occurs="116"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <name type="city">Brussel</name>
+                    <name key="BE" type="country">België</name>
+                    <date ana="#parla.sitting" when="2022-05-04">2022-05-04</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27"><name>Henk van der Pol</name>: initial version.</change>            
+        </revisionDesc>
+    </teiHeader>
+    <text ana="#covid">
+        <body>
+            <div type="debateSection">
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    La réunion publique de commission est ouverte à 14 h 17 et présidée par Mme Séverine de Laveleye.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De openbare commissievergadering wordt geopend om 14.17 uur en voorgezeten door Séverine de Laveleye.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Les textes figurant en italique dans le Compte rendu intégral n’ont pas été prononcés et sont la reproduction exacte des textes déposés par les auteurs.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De teksten die in cursief zijn opgenomen in het Integraal Verslag werden niet uitgesproken en steunen uitsluitend op de tekst die de spreker heeft ingediend.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    01 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Barbara Creemers aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De zesde Syriëconferentie en de Belgische financiële bijdragen&quot; (55027117C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Els Van Hoof aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;Duurzame oplossingen voor de Syrische vluchtelingen&quot; (55027284C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Els Van Hoof aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De Belgische deelname aan de 6de Brusselse Syriëconferentie&quot; (55027285C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Malik Ben Achour aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De conferentie in Brussel over de toekomst van Syrië en de regio&quot; (55027424C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    01 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Barbara Creemers à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;La sixième conférence sur la Syrie et les contributions financières de la Belgique&quot; (55027117C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Els Van Hoof à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;Des solutions durables pour les réfugiés syriens&quot; (55027284C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Els Van Hoof à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;La participation belge à la 6ème Conférence de Bruxelles sur la Syrie&quot; (55027285C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Malik Ben Achour à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;La conférence de Bruxelles sur l’avenir de la Syrie et de la région&quot; (55027424C)
+                </note>
+                <note type="speaker" xml:lang="nl">01.01 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u1" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg1" xml:lang="nl">Mevrouw de minister, op 10 mei 2022 organiseren de Europese Unie en de VN voor de zesde keer een conferentie over de toekomst van Syrië en de regio, hier in Brussel. Het is de bedoeling dat de individuele lidstaten, dus ook België, engagementen aangaan over financiële humanitaire en niet-humanitaire hulp aan Syrië en zijn buurlanden. De commissie keurde een voorstel van resolutie goed waarin de regering wordt gevraagd om zich ertoe te engageren in een financiële bijdrage te blijven voorzien op basis van de evolutie van de specifieke humanitaire noden in de Syriëregio voor de flexibele humanitaire landenfondsen van de Verenigde Naties voor de Syriëregio. Van de voor 2022 begrote recordbedragen tussen 4,4 miljard en 6,1 miljard euro is nog maar een kleine 6 % gefinancierd.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg2" xml:lang="nl">Wat zijn de plannen? Zal er volgende week een verhoging worden aangekondigd? Zo ja, hoeveel zal die bedragen en wat is daarvan de motivering? Zo neen, hoe kadert dat in de resolutie waar ik net naar verwees?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg3" xml:lang="nl">De humanitaire en niet-humantaire financiële ondersteuning van Syrië en zijn buurlanden zal ook de komende jaren helaas nog heel erg nodig zijn, al is de exacte vraag nu nog onduidelijk. Hoe bereidt u dat dossier voor?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">01.02 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u2" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg4" xml:lang="nl">Meer dan elf jaar na het begin van het conflict in Syrië zijn de humanitaire noden in dat land en zijn buurlanden nog altijd enorm groot. Volgens de jongste humanitaire  overview van OCHA hebben 14,6 miljoen mensen in Syrië nood aan humanitaire hulp. 76% van alle gezinnen kan niet in de basisbehoeften voorzien. Zeer verontrustend is ook dat bijna een derde van alle huishoudens aangeeft dat hun kinderen moeten werken om rond te komen. We mogen hen dus niet in de steek laten. Ondanks de enorme toename van de humanitaire noden wereldwijd vind ik het cruciaal om onze solidariteit met de Syrische vluchtelingen te handhaven.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg5" xml:lang="nl">Syrië is een prioritair land voor de Belgische humanitaire hulp. We leveren dan ook een significante bijdrage om de Syrische crisis aan te pakken. Ten eerste dragen wij bij aan de algemene middelen van de multilaterale humanitaire organisaties zoals ICRC, UNHCR en WFP, die in Syrië en zijn buurlanden actief zijn. Daarnaast financieren we de flexibele landenfondsen van OCHA voor in totaal 15 miljoen euro. De projectfinanciering voor dit jaar wordt nog voorbereid, maar ik streef naar continuïteit ten opzichte van de voorbije jaren.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg6" xml:lang="fr">Travailler à des solutions durables à la crise des réfugiés syriens est très important pour moi. Le HCR est l'un de nos principaux partenaires dans ce domaine, c'est pourquoi j'ai décidé l'année dernière d'apporter une contribution annuelle de dix millions d'euros aux ressources générales du HCR jusqu'en 2023. J'ai également l'intention de poursuivre le financement de projets pour le HCR cette année.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg7" xml:lang="nl">De verbintenissen die tijdens de conferentie worden aangegaan, worden opgevolgd via het financieel trackingrapport en een jaarlijkse stand van zaken van de vooruitgang tijdens de confe­renties. Die geven al een heel goed beeld van de uitvoering van de aangegane verbintenissen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg8" xml:lang="nl">Het Resourcing Refugee Leadership Initiative en het Regional Development and Protection Programme betreffen geen humanitaire hulp. Het gaat om structurele initiatieven die onder het initiatiefrecht van de niet-gouvernementele actoren vallen. Financiering van dergelijke initiatieven moet dus worden aangevraagd in het kader van de programmafinanciering van de Belgische ngo's. Bovendien is er in het Resourcing Refugee Leadership Initiative slechts één organisatie actief in de Syrische regio.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg9" xml:lang="nl">Dat betekent echter niet dat België geen steun verleent aan de lokale civiele maatschappij. In Libanon bijvoorbeeld wordt een programma van 11.11.11 gefinancierd dat gericht is op duurzame oplossingen voor Syrische vluchtelingen in dat land. 11.11.11 werkt daarvoor uiteraard samen met lokale organisaties. Ook onze multilaterale partners leveren veel inspanningen om de hulp zoveel mogelijk via lokale ngo's te verlenen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg10" xml:lang="nl">Ten slotte herhaal ik dat het belangrijk is om onze solidariteit met de Syrische vluchtelingen te blijven tonen, maar een echte oplossing zal er pas komen, als er aan politieke oplossingen wordt gewerkt. Pas dan kan er een einde komen aan het conflict, dat al veel te lang geduurd heeft.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">01.03 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u3" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg11" xml:lang="nl">Mevrouw de minister, met dat laatste ben ik het volmondig eens, de beste oplossing bestaat erin dat men een probleem bij de wortels aanpakt. Ik hoop, net als u, dat er snel verandering komt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg12" xml:lang="nl">U streeft naar continuïteit. Ik heb nog geen concrete engagementen gehoord voor volgende week. Ik hoop inderdaad op continuïteit van het beleid. De begrote cijfers bewijzen alvast de noodzaak. Ik hoop dat wij dat allemaal samen zullen kunnen bewerkstelligen, iedereen zal zijn steentje moeten bijdragen. Dankzij de voortzetting van het beleid en zelfs meer van dat kunnen wij in Syrië doen wat nodig is. Wij vergeten immers vaak, door het conflict met Oekraïne op het moment, dat daar 14,6 miljoen mensen onze hulp nodig hebben.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    02 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Séverine de Laveleye à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;Le contrat de gestion d'Enabel&quot; (55027411C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Barbara Creemers à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;Le contrat de gestion d'Enabel&quot; (55027422C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    02 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Séverine de Laveleye aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;Het beheerscontract van Enabel&quot; (55027411C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Barbara Creemers aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;Het beheerscontract van Enabel&quot; (55027422C)
+                </note>
+                <note type="speaker" xml:lang="fr">02.01 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u4" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg13" xml:lang="fr">Madame la ministre, le nouveau contrat de gestion d'ENABEL est en cours de finalisation. C'est l'occasion de renforcer davantage si possible la prise en compte des priorités des pays partenaires, en ce compris les sociétés civiles locales et bénéficiaires finaux.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg14" xml:lang="fr">La question de l'alignement reste compliquée et, pour rappel, le rapport 2020 de la revue par les pairs de l'OCDE soulignait ceci: &quot;L'alignement sur les priorités de développement de ces pays et territoires partenaires, l'appropriation des partenaires et des systèmes nationaux sont en baisse. Cette évolution négative menace les principes d'efficacité de l'aide, chère à la Belgique, et nécessite une réflexion autour du rôle et de l'implication souhaités des pays et territoires partenaires.&quot;</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg15" xml:lang="fr">En outre, d'après le rapport 2019 du partenariat mondial pour une coopération au développement efficace, la part des objectifs des projets belges alignés sur les priorités des pays partenaires a chuté de 94 à 40 % entre 2016 et 2018. Il y a déjà eu pas mal de débats à l'époque en commission sur la pertinence de ces chiffres, mais ils donnent, malgré tout, une indication générale.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg16" xml:lang="fr">Cette tendance se retrouve également dans la moindre utilisation des systèmes des pays partenaires qui a aussi chuté à ce moment-là passant de 53 à 30 %. Cette analyse est confirmée par l'indice CODA du Center for Global Development. Selon ce dernier, &quot;la coopération belge remporte son pire score&quot; dans le domaine de l'appropriation. Elle se retrouve à la 21ème place du classement. L'outil stipule clairement que la Belgique pourrait améliorer son score en améliorant justement l'alignement avec les objectifs des pays partenaires.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg17" xml:lang="fr">Nous connaissons l'engagement d'ENABEL auprès des pays partenaires, sans aucun doute, ainsi que votre engagement à vous, madame la ministre. Je cite un extrait de votre exposé d'orientation générale dans lequel vous avez annoncé &quot;un dialogue sincère et politique avec nos pays partenaires&quot;.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg18" xml:lang="fr">Néanmoins, le contrat d'ENABEL est sûrement une opportunité pour renforcer encore ces engagements.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg19" xml:lang="fr">Une consultation formelle et systématique des autorités nationales du pays partenaire est-elle engagée en amont de la rédaction d'une nouvelle stratégie pays? Une transparence maximale des documents est-elle envisagée vis-à-vis du pays partenaire? On sait que certains éléments des documents sont sensibles et doivent rester confidentiels. Peut-on en partager une partie? Quelles mesures seront-elles prévues dans la consultation des sociétés civiles locales et des bénéficiaires finaux? Pour concrétiser cela, une instruction commune sera-t-elle envoyée à tous les bureaux d'ENABEL dans les pays partenaires pour rappeler ces principes?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">02.02 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u5" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg20" xml:lang="nl">Mevrouw de voorzitster, ik heb nog een aantal bijkomende vragen. In het bijzonder had ik vragen over de voorbereiding van dat nieuwe beheerscontract. Hoe wordt dat georganiseerd? In welke fase van dat proces worden de partnerlanden en de lokale organisaties betrokken? Hoe werkt dat? Op welke manier zal dat nieuwe beheerscontract worden voorgesteld aan de partnerlanden en andere belanghebbenden, zowel in de partnerlanden als in België?</seg>
+                </u>
+                <note type="speaker">02.03 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u6" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg21" xml:lang="nl">Uw vragen zijn niet onbelangrijk want ons werk hangt af van het uitvoeringsagentschap Enabel. Ten eerste neem ik de opmerkingen in het rapport zeer ter harte. Tegelijk heb ik tijdens mijn dienstreizen gemerkt dat Enabel echt wel het verschil maakt met andere landen. We zijn ook gegroeid naar een echt partnerschap: we luisteren naar elkaar, we betrekken elkaar bij de werkzaamheden en er is een echt participatietraject opgestart. Dat is voor mij als minister een fijne ervaring.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg22" xml:lang="nl">Ik heb me inderdaad voorgenomen om de dialoog met het partnerland weer op te waarderen. Het nieuwe beheerscontract met Enabel moet dat voornemen dus ook reflecteren. De dialoog met het partnerland moet continu gevoerd worden. Ook ter voorbereiding van nieuwe landen­strategieën en portefeuilles moet overlegd worden met dat partnerland. Dat zal op een heel transparante manier gebeuren op basis van documenten die gedeeld en besproken worden met het partnerland.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg23" xml:lang="fr">La relation avec la société civile est importante. Déjà, dans le premier contrat de gestion d'Enabel, une plus grande ouverture a été créée pour collaborer avec d'autres acteurs. Je souhaite mieux renforcer cette relation avec la société civile dans le deuxième contrat de gestion et mettre l'accent sur davantage de synergies et de complémentarité.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg24" xml:lang="nl">Op dit moment zijn de gesprekken over de tekstvoorstellen voor het nieuwe beheerscontract nog bezig. Zoals vastgelegd in de wet zal de raad van bestuur van Enabel een voorstel voor het nieuwe beheerscontract overmaken, tegen ten laatste 30 juni. Daarna moet het ook nog goedgekeurd worden in de ministerraad.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg25" xml:lang="fr">Une fois le contrat de gestion en vigueur, les instructions seront rédigées et envoyées aux postes et aux représentations d'Enabel.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">02.04 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u7" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg26" xml:lang="fr">Madame la ministre, je vous remercie pour votre réponse. Vous faites très bien de souligner une fois de plus que notre agence fait la différence sur le terrain. J'espère que c'est une évidence pour chacun et chacune d'entre nous. On peut, en effet, être fier du travail d'Enabel ces dernières années.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg27" xml:lang="fr">Ceci étant, un changement de contrat de gestion est évidemment toujours une opportunité pour réaffirmer nos priorités et les vôtres, celles de votre gouvernement. Je pense qu'il est toujours bon de se rappeler que l'alignement est une des bases clés de l'efficacité de notre travail avec les pays partenaires. C'est non seulement un élément clé d'efficacité mais c'est aussi une marque de respect pour l'autonomie de ces pays que de les traiter comme partenaires. Enabel effectue un excellent travail à ce titre-là.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg28" xml:lang="fr">Je retiens, toutefois, avec satisfaction de votre réponse qu'il y aura une consultation formelle et transparente des pays. J'espère que les documents seront suffisamment publics que pour pouvoir suivre cela. Je pense, par ailleurs, qu'un renforcement de la consultation et de la collaboration avec la société civile est absolument nécessaire pour consolider encore le travail de la Belgique dans les pays partenaires.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg29" xml:lang="fr">Je vous remercie beaucoup pour votre attention. Nous témoignons tout notre soutien à Enabel et à son conseil d'administration pour son travail dans les semaines qui restent avant la clôture du contrat de gestion.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">02.05 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u8" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg30" xml:lang="nl">Mevrouw de minister, ik had die twee punten ook uit uw antwoord gehaald. Het zijn twee heel belangrijke punten waarop u inzet.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg31" xml:lang="nl">Die transparante manier van samenwerken is superbelangrijk in de communicatie en om het draagvlak met betrekking tot ontwikkelings­samenwerking groot te houden en nog te vergroten. Daarvoor is die transparantie zeer belangrijk. Dat u daarvan een speerpunt maakt, is zeer goed.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg32" xml:lang="nl">Ook nog meer samenwerking met het middenveld op dat vlak kan het draagvlak alleen maar vergroten. Wij hebben dat absoluut nodig.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg33" xml:lang="nl">Ik zie 30 juni als deadline en dat het dan naar de ministerraad gaat. Ik stel voor dat wij hierop net voor het zomerreces nog eens terugkomen.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03 Question de Séverine de Laveleye à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;L'aide humanitaire pour l'Ukraine&quot; (55027412C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03 Vraag van Séverine de Laveleye aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De humanitaire hulp voor Oekraïne&quot; (55027412C)
+                </note>
+                <note type="speaker" xml:lang="fr">03.01 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u9" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg34" xml:lang="fr">Madame la ministre, le premier ministre a annoncé il y a quelques jours 800 millions d'euros pour l'aide à l'Ukraine et, de votre côté, vous nous avez confirmé une aide humanitaire de 5 millions d'euros. Parmi les 800 millions annoncés par M. De Croo, combien seront-ils affectés à vos missions? Les 5 millions d'euros déjà annoncés comme aide humanitaire à l'Ukraine sont-ils des moyens additionnels au budget de la Coopération au développement? Ou bien vont-ils être rendus non disponibles pour d'autres crises, comme celles au Yémen, en Afghanistan, dans la région des Grands Lacs, ou encore en Syrie? Des budgets supplémentaires aux 5 millions déjà annoncés vont-ils être affectés? Seront-ils additionnels au budget 2022?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">03.02 Meryame Kitir, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u10" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg35" xml:lang="fr">Madame de Laveleye, les 800 millions d'euros annoncés par le premier ministre pour soutenir l'Ukraine seront utilisés pour financer divers aspects de la réponse belge. La répartition exacte de ce montant est encore à l'étude par le gouvernement afin de répondre au mieux aux besoins actuels.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg36" xml:lang="fr">De mon côté, j'ai demandé des ressources supplémentaires à cette provision interdépar­tementale pour l'aide humanitaire en Ukraine. Les besoins dans le pays continuent de croître rapidement et de plus en plus d'histoires horribles nous parviennent.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg37" xml:lang="fr">Je participerai demain à une conférence internationale de haut niveau rassemblant des donateurs pour l'Ukraine. J'y annoncerai un paquet d'aides supplémentaires pour l'Ukraine, à hauteur de 25 millions d'euros. Un financement de 2 millions d'euros à l'Unicef a déjà été annoncé et sera pris sur ce budget. Les 23 millions d'euros restants seront utilisés à la fois pour l'aide humanitaire d'urgence et le soutien aux services sociaux de base dans le pays.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg38" xml:lang="fr">Les 5 millions d'euros d'aide humanitaire déjà annoncés viennent d'un montant de 7,5 millions d'euros qui a été réaffecté à l'aide humanitaire dans le cadre d'une révision du budget qui date d'avant la crise ukrainienne. Ces 5 millions d'euros ne sont donc pas retirés du budget prévu en 2022 pour les autres régions prioritaires comme la Syrie et la Palestine, ou le Yémen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg39" xml:lang="fr">L'aide supplémentaire qui sera annoncée demain sera financée par la ressource de la provision de 800 millions d'euros. Il s'agit donc bien d'un budget additionnel qui augmentera également l'Aide publique au développement (APD) belge. Il est essentiel pour moi que notre soutien à l'Ukraine ne se fasse pas au détriment d'autres conflits.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">03.03 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u11" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg40" xml:lang="fr">Merci beaucoup, madame la ministre. Si j'ai bien compris, les 5 millions d'euros déjà annoncés proviennent d'une réaffectation sur le budget 2022, sans être au détriment d'autres crises. En attendant, cette somme ne sera quand même pas disponible pour les autres régions en crise.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg41" xml:lang="fr">Par contre, j'apprends aujourd'hui que 23 millions d'euros supplémentaires seront affectés à l'Ukraine de manière additionnelle au budget 2022. C'est une très bonne nouvelle pour la population ukrainienne. Sur les 800 millions d'euros, 23 millions d'euros ne représentent pas une grande part, alors que les besoins qui sont négociés pour l'instant sont énormes. Un focus important a été fait sur la défense. Je ne suis pas en train de remettre en question ce choix, mais je pense que tout ce qu'on investit dans la défense, il faut aussi pouvoir le mettre dans la solidarité. J'espère que ces 23 millions d'euros constitueront un bon signal dans ce sens. Merci d'avoir déjà pu obtenir cela, et nous verrons par la suite comment nous pouvons avoir une meilleure vision de l'emploi de ces 800 millions d'euros.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Séverine de Laveleye à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;L'APD en 2021 et le chemin de croissance&quot; (55027413C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Barbara Creemers à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;La trajectoire de croissance de l'APD&quot; (55027421C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Séverine de Laveleye aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De ODA in 2021 en het groeipad&quot; (55027413C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Barbara Creemers aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;Het groeipad van de ODA&quot; (55027421C)
+                </note>
+                <note type="speaker" xml:lang="nl">04.01 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u12" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg42" xml:lang="fr">Madame la ministre, voici les méchantes questions sur le chemin de croissance et les chiffres de l'aide publique au développement.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg43" xml:lang="fr">L'OCDE vient de publier les chiffres de l'aide au développement pour l'année 2021. C'est tout récent. Je pense que cela date d'il y a trois semaines. Au niveau belge, l'aide a augmenté de 2,3 % en valeur nominale pour atteindre les 2,6 milliards de dollars. Mais elle a diminué en valeur relative de 0,48 % à 0,46 % du revenu national brut. Elle nous éloigne donc encore un peu de notre objectif de 0,7 %, que nous essayons d'atteindre en 2030.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg44" xml:lang="fr">Ce recul est d'autant plus sévère que notre aide publique au développement inclut des montants qui gonflent artificiellement – bien que de façon tout à fait autorisée – nos résultats. En effet, comme pour de nombreux autres pays de l'OCDE, la Belgique a comptabilisé en aide publique au développement les dons de surplus de vaccins anti-covid aux pays en développement. La valeur des surplus donnés et comptabilisés est de 32 millions de dollars et représente ainsi 1,3 % de l'aide belge.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg45" xml:lang="fr">Selon l'OCDE, si la Belgique n'avait pas comptabilisé ces surplus de doses comme de l'aide belge – comme cela a été le cas par exemple de la part des Pays-Bas, des États-Unis ou du Luxembourg –, celle-ci n'aurait augmenté que de 1 % en 2021.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg46" xml:lang="fr">Par ailleurs, comme les autres pays donateurs, la Belgique comptabilise toujours les frais d'accueil des demandeurs d'asile comme de l'aide au développement. Ces frais ont presque doublé en 2021, passant de 134 à 251 millions de dollars. Cela représente plus de 10 % de l'aide belge, le double de la moyenne internationale et le plus haut pourcentage de la classe européenne.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg47" xml:lang="fr">Comme on le sait, la Belgique s'est engagée à atteindre l'objectif des Nations Unies d'affecter 0,7 % de son revenu national brut à l'aide publique au développement. Le mois dernier, vous m'aviez encore confirmé que vous travailliez sur un chemin de croissance comme annoncé dans l'accord de majorité.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg48" xml:lang="fr">Madame la ministre, quelle est l'évolution depuis votre dernière intervention sur ce dossier? Votre administration a-t-elle déjà pu vous proposer un plan de croissance pour atteindre les 0,7 % dès 2030? Quel est le timing plus concret de ce processus?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.02 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u13" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg49" xml:lang="nl">In de vorige mondelinge vragen heb ik gemerkt dat dit een vraag is die regelmatig aan bod komt. We moeten er een goede traditie van maken om elke keer naar een update te vragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg50" xml:lang="nl">Kunt u die update geven? Wanneer zal het voorstel voor het groeipad klaar zijn? Wanneer zal het worden bekendgemaakt? Met welke basisprincipes zal u rekening houden als u dit plan opmaakt?</seg>
+                </u>
+                <note type="speaker">04.03 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u14" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg51" xml:lang="nl">Bedankt voor uw vragen en uw volharding.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg52" xml:lang="nl">De Belgische officiële ontwikkelingshulp heeft standgehouden in 2021. In absolute cijfers gaat onze ODA er meer dan 2 % op vooruit. Het klopt dat dit in relatieve cijfers een lichte daling vertegenwoordigt. Dat is echter het gevolg van de krimp van de economische groei in 2020 ten gevolge van de coronapandemie. Het feit dat we onze solidariteit op dit niveau kunnen houden ondanks de budgettaire moeilijke omstandigheden is toch wel een zeer belangrijk signaal. Om de beloofde doelstelling van 0,7 % van het bni te behalen tegen 2030 zullen bijkomende inspanningen nodig zijn. Dit jaar nog zal er alvast minstens 25 miljoen euro aan bijkomende middelen vrijgemaakt worden voor internationale solidariteit. Deze middelen zijn specifiek bedoeld voor de meest dringende humanitaire en sociale noden in Oekraïne. Op die manier zorgen we er ook voor dat we onze engagementen in andere crisissen, zoals in Jemen of in Ethiopië, kunnen blijven nakomen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg53" xml:lang="fr">En ce qui concerne la trajectoire de croissance vers le 0,7 %, il y a un accord au sein du gouvernement pour en discuter dans le cadre de l'élaboration du budget 2023. Je vais donc prendre mes responsabilités et soumettre une proposition concrète au gouvernement dans les prochaines semaines. Je compte sur mes partenaires du gouvernement pour appuyer cette démarche.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.04 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u15" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg54" xml:lang="fr">Madame la ministre, je vous remercie pour vos réponses. Je compte également sur les partenaires du gouvernement pour appuyer vos démarches.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg55" xml:lang="fr">S'agissant des chiffres, nous sommes dans une situation extrêmement critique. On peut se réjouir du fait que les budgets de l'aide publique au développement sont toujours là. On a pu relativiser les 2,3% d'augmentation car on sait que les vaccins ont joué un rôle important. Vous avez choisi de ne pas utiliser les taux les plus hauts pour comptabiliser les vaccins dans le décompte. Certains pays auraient voulu pouvoir comptabiliser plus. Tant mieux, mais en attenant, cela gonfle de façon relativement artificielle.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg56" xml:lang="fr">On parle de 10 % pour l'accueil des réfugiés. Il est nécessaire d'accueillir correctement les réfugiés sur notre territoire mais cela pose quand même question. Je rappelle que, malgré la crise, certains pays sont au-delà du 0,7 %. Je pense au Danemark (0,7 %), à l'Allemagne (0,74 %), au Luxembourg (0,99 %), à la Norvège (0,93 %) et à la Suède (0,92 %). Ces pays font mieux que nous et doivent nous montrer le chemin. Nous essayerons d'y arriver doucement.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.05 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u16" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg57" xml:lang="nl">Het is natuurlijk goed dat die 25 miljoen voor Oekraïne boven op het budget komt. Hopelijk is de hulp in Oekraïne niet meer nodig in 2023, maar wordt dat extra budget dan alsnog gevonden. Dat groeipad is immers bedoeld om het te bestendigen en niet afhankelijk te zijn van die extra middelen die eenmalig worden uitgegeven. U wilt het groeipad alvast meenemen in de besprekingen voor 2023, zodat we zo vertrokken zijn naar 2024 en zo naar 2030. Dat is de kaap die we zeker moeten bereiken om dat vast te pakken. U rekent op de partners. Collega de Laveleye en ik zullen er alles aan doen om de partners in de regering aan uw kant te krijgen.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    05 Vraag van Kathleen Depoorter aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;Het (opnieuw) ondersteunen van de poliovaccinatieprogramma’s&quot; (55026954C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    05 Question de Kathleen Depoorter à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;Le (renouvellement du) soutien des programmes de vaccination contre la poliomyélite&quot; (55026954C)
+                </note>
+                <note type="speaker" xml:lang="nl">05.01 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u17" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg58" xml:lang="nl">Mevrouw de voorzitster, mevrouw de minister, er is reeds een hele strijd gestreden tegen polio. Een van de bezorgdheden was dat de covidpandemie aanleiding zou geven tot een opflakkering van polio-infecties. Dat blijkt ook het geval te zijn, als we de cijfers bekijken.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg59" xml:lang="nl">Wij hebben heel wat programma's ondersteund in het verleden en ook vandaag nog. Heel wat programma's zijn echter stopgezet vanwege de covidpandemie. Er is vandaag een sterke stijging in bijvoorbeeld Congo en Nigeria.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg60" xml:lang="nl">Het Global Polio Eradication Initiative geeft aan dat het nu echt cruciaal is om in te zetten op poliovaccinatie. Ook Pierre Van Damme heeft gepleit voor het zoeken naar nieuwe vaccins en middelen en voor de heropstart van de vaccinatieprogramma’s, die vandaag meer dan nodig zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg61" xml:lang="nl">Hoe reageert u op die berichtgeving en op de bevestiging van de vrees dat covid het pad voor polio heeft vrijgemaakt?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg62" xml:lang="nl">Onderschrijft u de vraag naar hernieuwde steun voor de vaccinatieprogramma’s?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg63" xml:lang="nl">Wat is de actuele status van de verschillende programma’s inzake polio?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg64" xml:lang="nl">Welke concrete plannen hebt u op korte en op lange termijn?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg65" xml:lang="nl">Hoe verklaart u de stijging in 2019?</seg>
+                </u>
+                <note type="speaker">05.02 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u18" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg66" xml:lang="nl">Mevrouw de voorzitster, mevrouw Depoorter, COVID-19 heeft naast veel individueel menselijk leed ook een enorme impact gehad op het functioneren van de gezond­heidssystemen in vele landen. Een voorbeeld hiervan is inderdaad het opschorten van vaccinatiecampagnes in de lockdownperiodes. Helaas heeft dat een enorme impact gehad op kinderen en andere kwetsbare groepen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg67" xml:lang="nl">Volgens de laatst beschikbare cijfers van de Wereldgezondheidsorganisatie en het Global Polio Eradication Initiative blijft polio endemisch in Pakistan en Afghanistan. In Afrika was de situatie een stukje positiever. Afrika werd in augustus 2020 door de WHO zelfs poliovrij verklaard. Er zijn sindsdien echter opnieuw verontrustende gevallen van polio vastgesteld. In Nigeria en in Congo zijn besmettingen vastgesteld als gevolg van een onvolledige vaccinatie. In Nigeria werden 422 gevallen geteld door de WHO en in Congo 75 gevallen. De WHO roept op tot een nauwkeurige opvolging van de situatie, via de lokale gezondheidssystemen, regionale samen­werkingen en indien nodig het opvragen van dringende toegang tot poliovaccins.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg68" xml:lang="nl">Ik ondersteun die visie om te werken via de lokale systemen. Dat is immers de beste garantie op een langetermijnoplossing.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg69" xml:lang="nl">De Belgische gezondheidsprogramma's zijn dan ook gericht op het versterken van die systemen, om tot een globale, geïntegreerde en continue zorg te komen. In het geval van Congo resulteert dit in de versterking van de onderzoekscapaciteit van nationale laboratoria, aangezien die  een belangrijke rol spelen in de opvolging van dergelijke situaties. Voor polio gebeurt dit in nauwe samenwerking met de Wereldgezondheidsorganisatie, maar ook de Belgische financiering aan Unicef is belangrijk, gelet op de belangrijke rol van deze partnerorganisaties in de nationale vaccinatiecampagnes.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">05.03 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u19" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg70" xml:lang="nl">(…) dan ik dacht. Mevrouw de minister, u geeft aan dat u het zult opvolgen, maar ik meen dat het al het moment is om de alarmbel te luiden. Wij vrezen dat de polemiek in bepaalde landen over de vaccinatie tegen COVID-19 zou kunnen overwaaien naar de vaccinaties tegen kinderziektes, waaronder polio.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg71" xml:lang="nl">Onze administratie en de internationale organisaties, zoals Unicef, waarnaar u verwees, zullen aandachtig moeten zijn. Het zou ontzettend jammer zijn dat belangrijke geleverde inspanningen tot een nieuwe vorm van polio leiden – want dit wordt vanuit wetenschappelijke hoek gevreesd – door de niet uitgevoerde vaccinaties. Op dit ogenblik zijn dat er meer dan 400 gevallen, wat geen gigantisch getal is, maar mogelijkerwijze wel een aanzet. Er zal daarover sowieso moeten worden gewaakt. U geeft aan dat u de lokale onderzoeksteams zult ondersteunen. Dat is inderdaad noodzakelijk, maar het zal wetenschappelijk van nabij opgevolgd moeten worden.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    06 Vraag van Barbara Creemers aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De lokale productie van covidvaccins&quot; (55027420C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    06 Question de Barbara Creemers à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;La production locale de vaccins contre le covid&quot; (55027420C)
+                </note>
+                <note type="speaker" xml:lang="nl">06.01 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u20" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg72" xml:lang="nl">Ook over de covidvaccins is de voorbije maanden al heel wat gezegd en geschreven. Ook daar wou ik even naar een update vragen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg73" xml:lang="nl">Hoe zit het met COVAX, maar ook met de lokale ontwikkeling van vaccins in onze partnerlanden en andere landen in het globale Zuiden? Hoe werkt u concreet mee aan de versterking van het regelgevend kader, de kwaliteitsverbetering van de lokale productie en de opleiding van het personeel? In de vorige vragensessie hebt u gezegd u zich op die drie punten het hardst wilt inzetten. Hoelang zal de donatie van covidvaccins naar andere landen nog duren? Hoever staat het met het zoveel mogelijk vaccineren van rest van de wereld?</seg>
+                </u>
+                <note type="speaker">06.02 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u21" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg74" xml:lang="nl">Sinds mei 2021 heeft België 13,7 miljoen covidvaccins aangeboden via COVAX. Hiervan zijn er iets meer dan 8 miljoen dosissen effectief geleverd. De voorbije maanden is er een gestage terugval in de vraag om vaccins te ontvangen via het COVAX-mechanisme. Tegelijk is er een grotere, algemene beschikbaarheid van vaccins in de wereld. Beide zijn dus gelieerd.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg75" xml:lang="nl">COVAX blijft niettemin covidvaccins beschikbaar maken voor een billijke verdeling in 2022 en 2023. Op dit moment is voorzien dat COVAX tot 2023 actief blijft om in te gaan op mogelijke vragen naar vaccins. Dat kan, als landen hun vaccinatiecampagne aanpassen, bijvoorbeeld om kinderen te vaccineren. Een stijging in de vraag kan er ook komen wanneer nieuw vaccins beschikbaar worden die beter aangepast zijn tegen de laatste covidvarianten.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg76" xml:lang="nl">Zoals ik hier al vaak toegelicht heb steunt België Senegal bij de lokale productie van vaccins, onder andere via het Institut Pasteur in Dakar. Dat gebeurt onder meer door de regelgeving aan te passen. Senegal is door de Wereldgezondheids­organisatie (WHO) ook geselecteerd als een potentiële lokale producent van covidvaccins en zal in het kader van de mRNA-techniek ook kunnen ontvangen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg77" xml:lang="nl">In Rwanda ondersteunt België de Rwanda Food and Drugs Authority om een kwaliteitslabel van niveau 3 van de WHO te verkrijgen. Dat is nodig om het toezicht op de productie van kwaliteitsvolle geneesmiddelen en vaccins in Afrika te kunnen doen. Een belangrijke focus ligt daarbij op de herziening of de ontwikkeling van de standaardprocedures. Er wordt ook een vorming georganiseerd in samenwerking met Belgische experts van Sciensano en het Federaal Agentschap voor Geneesmiddelen en Gezondheidsproducten (FAGG).</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg78" xml:lang="nl">In Zuid-Afrika steunt België via de WHO de ontwikkeling van de  mRNA tech transfer hub. Het voornaamste doel is de mRNA-technologie lokaal en voor andere regio's beschikbaar te maken. Het project vordert zeer goed. Er zijn al replica's van het vaccintype Moderna gemaakt.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg79" xml:lang="nl">Afrigen zal nu klinische proeven uitvoeren, waarna het productieproces overgedragen wordt aan Biovac, dat de capaciteit zal hebben om 250 miljoen dosissen per jaar te produceren. De licentie van dit vaccin zal door de Medicine Patent Pool (MPP) verleend worden aan andere producenten in landen met een laag of gemiddeld inkomen. Deze producenten zullen het vaccin in massaproductie kunnen vervaardigen voor nationaal en regionaal gebruik.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg80" xml:lang="nl">Ik herhaal wat ik al eerder gezegd heb: de mRNA-technologie heeft ook potentieel tegen andere aandoeningen, zoals malaria. De technologiehub die we steunen, is dan ook een breder initiatief dan alleen tegen de huidige pandemie. Het is ook een strategische investering op lange termijn om de Afrikaanse landen minder afhankelijk te maken van rijke landen.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">06.03 Barbara Creemers (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u22" who="#CreemersBarbara" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg81" xml:lang="nl">Met dat laatste kan ik het alleen maar eens zijn. Zo heeft de coronaperiode toch ook goede dingen gebracht. Die landen zullen sterker staan, zodat we in de toekomst geen programma's als COVAX meer nodig zullen hebben. We zijn dus op de goede weg.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg82" xml:lang="nl">Ik hoor u zeggen dat er goede vorderingen zijn. Ik hoop dat ze dan ook snel kunnen inpikken op de aangepaste vaccins tegen de nieuwe varianten, zodat er niet telkens verschuivingen zijn en zij met overschotjes aan de slag moeten gaan, om het oneerbiedig te zeggen.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    07 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Vicky Reynaert aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De seksuele en reproductieve rechten van Oekraïense vrouwen en vluchtelingen&quot; (55027431C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Séverine de Laveleye aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De bescherming van de seksuele en reproductieve rechten van de Oekraïense vluchtelingen&quot; (55027470C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    07 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Vicky Reynaert à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;Les droits sexuels et reproductifs des femmes et des réfugiées ukrainiennes&quot; (55027431C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Séverine de Laveleye à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;La protection des droits sexuels et reproductifs des réfugiés ukrainiens&quot; (55027470C)
+                </note>
+                <note type="speaker" xml:lang="nl">07.01 Vicky Reynaert (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u23" who="#ReynaertVicky" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg83" xml:lang="nl">Mevrouw de minister, het vreselijke fenomeen van verkrachting als oorlogswapen komt wel vaker voor, ook in Oekraïne. Afgelopen week getuigde een arts dat 150 heel jonge meisjes zwanger werden door verkrachting in Oekraïne. Allicht is dat slechts het topje van de ijsberg, want we weten niet wat zich afspeelt in de gebieden in Oekraïne die door de Russische Federatie worden bezet.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg84" xml:lang="nl">De organisaties Women on Waves en Women on Web zetten alles op alles om abortusmedicatie in Oekraïne te krijgen, want in Oekraïne en Molvavië is abortus wettelijk toegestaan. Heel veel vrouwen zijn echter gevlucht naar de buurlanden Polen en Hongarije, waar het zeer moeilijk is om toegang te krijgen tot abortus. In Polen is abortus in principe toegestaan wanneer de zwangerschap het gevolg is van verkrachting. In de praktijk is het echter zeer moeilijk, omdat hulpverleners bang zijn voor vervolging. In een aantal gevallen zijn vrouwen er gestorven, omdat hulpverleners niet op tijd durfden in te grijpen. De leden van de parlementaire agenda 2030 vragen over de partijgrenzen heen om extra aandacht voor de problematiek en voor de seksuele en reproductieve rechten van vluchtelingen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg85" xml:lang="nl">Welke initiatieven neemt België op bilateraal en multilateraal niveau om te pleiten voor toegang tot die rechten voor Oekraïense vluchtelingen en Oekraïners die momenteel onder de bezetting en het oorlogsgeweld van Rusland leven?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg86" xml:lang="nl">Welke initiatieven zal België nemen om er mee voor te zorgen dat die rechten van Oekraïense vluchtelingen ook in de opvanglanden worden gegarandeerd?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">07.02 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u24" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg87" xml:lang="fr">&quot;Madame La Ministre,</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Comme tout conflit, la guerre en Ukraine provoque une réelle crise humanitaire et met en danger les droits les plus fondamentaux auxquels toute personne a droit, notamment les droits sexuels et reproductifs.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    En Ukraine tout d'abord, où les hôpitaux sont empêchés de fonctionner normalement, en ce compris les maternités. Le Fonds des Nations Unie pour la population estime qu’en Ukraine, 80 000 femmes accoucheront au cours des trois prochains mois et que beaucoup d’entre elles n’auront pas accès à des soins essentiels de santé maternelle. Pour certaines femmes, l’accouchement sera même un danger mortel. De plus, l’accès à des plannings familiaux, des contraceptifs ou encore l’avortement est rendu difficile, voire impossible.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Pour les réfugiés et réfugiées ensuite. D’après le HCR, plus de 5.5 millions de réfugiés auraient déjà fui vers les pays voisins depuis le 24 février et plus de 7 millions de personnes seraient déplacées au sein de l’Ukraine. Pour ces personnes, l’accès à des plannings familiaux, des contraceptifs ou encore l’avortement est difficile dans certains pays d’accueil comme la Slovaquie, la Roumanie ou encore la Pologne. Par ailleurs, l’Ukraine compte 250 000 personnes vivant avec le VIH, dont 156 000 sous traitement antirétroviral, des médicaments qui doivent être pris quotidiennement pour pouvoir rester en bonne santé. ONUSIDA estime que le stock de médicaments s’épuisera très rapidement et que de nombreux citoyens qui fuient l’Ukraine éprouveront des difficultés à accéder à ces médicaments indispensables à leur survie.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    A ces problématiques viennent s’ajouter l’augmentation des violences sexuelles, de genre et basées l’orientation sexuelle.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Madame la Ministre, la situation est critique et nécessite que nous y apportions des solutions à la hauteur des problèmes soulevés. Voici mes questions :
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    1.Un budget spécifique est-il prévu dans l’aide humanitaire pour garantir aux Ukrainien.ne.s le respect de leurs droits reproductifs et sexuels (l’accès aux moyens contraceptifs, l’accès à l’avortement dans des conditions sûres, les médicaments vitaux pour les personnes vivant avec le VIH, les ressources humaines et matérielles pour assurer un suivi gynécologique nécessaire au bon déroulement des grossesses et des accouchements)?
+                </note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u25" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg88" xml:lang="fr">2. La mise en place de services d’aide aux survivants de violences (sexuelles) basées sur le genre sera-t-elle financée dans les pays voisins et limitrophes de l’Ukraine pour les réfugié.e.s ?&quot;</seg>
+                </u>
+                <note type="speaker">07.03 Meryame Kitir, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u26" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg89" xml:lang="fr">Chère collègue, je suis très préoccupée par la situation des femmes et des filles en Ukraine. Contraintes de fuir, elles sont très vulnérables et courent un grand risque de violences sexuelles et d'être victimes de trafic d'êtres humains. Les histoires que nous entendons chaque jour me touchent beaucoup. J'espère, comme vous, que cette horreur prendra fin le plus rapidement possible.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg90" xml:lang="nl">In het kader van onze humanitaire financiering is bescherming tegen onder andere seksueel geweld een absolute prioriteit. Om de Oekraïense bevolking te helpen, heeft België in totaal al 7 miljoen euro vrijgemaakt: 2 miljoen voor de activiteiten van Unicef, die onder meer inzetten op medische en psychologische hulp, 3 miljoen ter ondersteuning van de beschermingsactiviteiten van het International Committee of the Red Cross (ICRC) en 2 miljoen voor het Humanitair Fonds voor Oekraïne. Er gebeurt ook veel voor Oekraïense vrouwen en meisjes door de Belgische multipartners, onder meer op basis van onze  core funding. Zo heeft het United Nations Population Fund (UNFPA) al 40 ton aan medisch materiaal en reproductieve middelen uitgedeeld in Oekraïne. De organisatie deelt kits uit aan vrouwen met onder meer menstruatieproducten en vangt zwangere vrouwen op in units om de belangrijkste zorg te verlenen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg91" xml:lang="fr">Dans les pays voisins, le HCR dirige la réponse humanitaire. La Belgique soutient l'organisation avec des  core contributions de dix millions d'euros par an. La protection contre l'exploitation et les abus sexuels est l'une des priorités de leur plan régional d'intervention.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg92" xml:lang="nl">Ook de Wereldgezondheidsorganisatie ondersteunt de gezondheidssystemen van de buurlanden van Oekraïne, waar de ziekenhuizen onder grote druk staan.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg93" xml:lang="nl">Ten slotte wil ik het Hoog Commissariaat voor de Mensenrechten (OHCHR) vermelden, dat aanwezig is op het terrein om oorlogsmisdaden te documenteren, waaronder seksueel geweld. Die misdaden mogen nooit onbestraft blijven.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">07.04 Vicky Reynaert (Vooruit):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u27" who="#ReynaertVicky" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg94" xml:lang="nl">Mevrouw de minister, het is heel belangrijk dat wij daar als land op blijven inzetten. U levert inderdaad al veel inspanningen, maar we moeten een voortrekkersrol spelen, zeker als het gaat om toegang tot anticonceptie en tot abortus. We moeten vaststellen dat het bijvoorbeeld in de Verenigde Staten geen verworven rechten betreffen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg95" xml:lang="nl">Zwanger raken door verkrachting is vreselijk. Wij kunnen steun leveren. Ik vraag u uw inspanningen voort te zetten. We kunnen daarnaast overwegen om organisaties te ondersteunen, zeker als het gaat om het verstrekken van anticonceptie en de toegang tot abortus.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">07.05 Séverine de Laveleye (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u28" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg96" xml:lang="fr">Madame la ministre, je vous remercie pour votre réponse. Mme Reynaert l'a très bien rappelé: ce que vivent les femmes pour l'instant est juste intenable. Comme je l'avais développé dans ma question, nous nous posons aussi beaucoup de questions concernant les droits sexuels et reproductifs des personnes dites LGBT, et aussi des personnes qui ont besoin d'un soutien spécifique sur leur santé sexuelle et reproductive, notamment en termes d'accès aux traitements contre le VIH/sida.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg97" xml:lang="fr">Il est vrai que nous sommes fort préoccupés. Les pays limitrophes, qui sont en première ligne pour l'aide, ne sont pas les plus progressistes en la matière. Or, la Belgique a toujours figuré parmi les pays les plus progressistes à cet égard. J'espère donc que vous serez entendus dans vos démarches internationales, et que vous pourrez continuer à être créatifs, au sein du gouvernement.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg98" xml:lang="fr">Comme nous l'avons déjà été avec les femmes polonaises, continuons à être aussi créatifs que possible pour amener, d'aussi près que nous le pouvons, le soutien pour l'accès aux traitements, l'accès à la sensibilisation et la prise en charge des victimes de cette guerre. Merci pour vos efforts. Et continuons dans cette voie!</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    08 Samengevoegde vragen van
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Kathleen Depoorter aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De ontwikkelingshulp naar landen die Rusland openlijk steunen&quot; (55027447C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Steven De Vuyst aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De wereldwijde voedselonzekerheid en de Belgische ontwikkelingssamenwerking&quot; (55027462C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    08 Questions jointes de
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Kathleen Depoorter à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;L'aide au développement en faveur de pays soutenant ouvertement la Russie&quot; (55027447C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Steven De Vuyst à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;L'insécurité alimentaire mondiale et la coopération belge au développement&quot; (55027462C)
+                </note>
+                <note type="speaker" xml:lang="nl">08.01 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u29" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg99" xml:lang="nl">Mijnheer de voorzitter, ik verwijs naar mijn ingediende vraag</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het conflict in Oekraïne heeft gevolgen voor de internationale diplomatieke verhoudingen maar heel concreet voor voedselbeschikbaarheid. Zowel de Russische Federatie als Oekraïne staan bekend als belangrijke exportlanden in het bijzonder van graan. Dat voedselzekerheid en voedselprijzen gebruikt worden als politiek wapen om druk te zetten is niet nieuw. In Afrika zijn vele problemen rond voedsel het gevolg van politieke conflicten zodat adequate distributie mogelijk is. Met de oorlogssituatie in Oekraïne is de bevoorrading naar deze landen ook verstoord. In deze landen kan dit de aanleiding zijn voor hernieuwde socio-economische spanningen en destabilisatie.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Wel merken we dat de Afrikaanse landen zich veelal niet wensen uit te spreken over het conflict in Oost-Europa – vermoedelijk omwille van politiek-diplomatieke redenen gekoppeld aan investeringen en vooral voedsel. Maar daartegenover staat een aantal (vooral) Afrikaanse landen laten openlijk verstaan dat ze de Russische federatie en haar regime steunen. Dit zijn landen die nu en in het verleden westerse ontwikkelingshulp ontvingen.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Mijn vragen voor de minister:
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    1. Graag verneem ik van de minister hoe zij het ontwikkelingsbeleid aangepast ziet n.a.v. de recente internationale ontwikkelingen.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    2. Hoe wordt lokale productie van eigen levensmiddelen en distributie ondersteund? Hoe wordt de zelfredzaamheid door o.a. lokale (landbouw-)bedrijven gesteund?
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    3. Aan welke voorwaarden wil de minister dan steun koppelen gezien bepaalde Afrikaanse landen openlijk partij kiezen in het conflict tussen de Russische federatie en Oekraïne?
+                </note>
+                <note type="speaker" xml:lang="nl">08.02 Steven De Vuyst (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u30" who="#DeVuystSteven" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg100" xml:lang="nl">Mevrouw de minister, vóór de start van de Russische invasie in Oekraïne was Oekraïne een van de belangrijkste producenten van tarwe en maïs. Oekraïne heeft de bijnaam &quot;graanschuur van Europa&quot; en in zekere zin ook van de wereld.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg101" xml:lang="nl">Volgens cijfers van de Verenigde Naties is er in 2020 30 miljoen ton tarwe en 25 miljoen ton maïs geoogst. Vele landen, ook Afrikaanse landen, zijn afhankelijk van die goedkope tarwe uit Oekraïne. Op dit moment zou ongeveer 4,5 miljoen ton Oekraïens graan vastzitten op schepen en in havens, onder meer omdat die havens geblokkeerd zijn door tal van sanctiemaatregelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg102" xml:lang="nl">De Afrikaanse landen worden nu op tweeërlei manieren getroffen: rechtstreeks, omdat er geen toegang is tot die voorraden, en onrechtstreeks, door de prijsstijgingen. Dat komt boven op de bestaande voedselcrisis, die al voor het conflict aan het opkomen was. Volgens de berekeningen van het Wereldvoedselprogramma zal de kans op acute hongersnood wereldwijd toenemen met 17 %, met de scherpste stijgingen in Oost-, West-, en Zuidelijk Afrika.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg103" xml:lang="nl">Mijn vragen aan u zijn vrij evident.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg104" xml:lang="nl">Welke middelen zal het Belgische departement Ontwikkelingssamenwerking vrijmaken om de impact van de oorlog in Oekraïne op de voedselbevoorrading van Afrika aan te pakken?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg105" xml:lang="nl">Welke extra inspanningen levert ons land op dat gebied voor de sterk blootgestelde landen waarmee Enabel samenwerkt, onder meer Mali, de Centraal-Afrikaanse Republiek, Burundi en Burkina Faso?</seg>
+                </u>
+                <note type="speaker">08.03 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u31" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg106" xml:lang="nl">Deze oorlog toont nog maar eens hoe we allemaal met elkaar verbonden zijn en dat de gevolgen verder gaan dan wat vandaag zichtbaar is. Ik volg de impact van de Oekraïnecrisis in onze partnerlanden van nabij op. Opnieuw zijn het de kwetsbaarste die het zwaarst getroffen worden door de stijgende voedselprijzen en de verstoring van de bevoorradingsketens.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg107" xml:lang="nl">Op korte termijn is het belangrijk om tegemoet te komen aan de grootste noden. Dat doen we via de humanitaire hulp, zowel via onze financiering van de algemene middelen van het Wereldvoedselprogramma als via de flexibele fondsen van SFERA en IRA. SFERA heeft bijvoorbeeld al 500.000 dollar van de Belgische bijdragen vrijgemaakt om 880 Oekraïense boeren te ondersteunen om hun productie te verzekeren. België draagt ook jaarlijks 17 miljoen euro bij aan het noodfonds CERF. Dit fonds maakte recent nog eens 100 miljoen dollar vrij om de strijd tegen de honger in Somalië, Ethiopië, Kenia, Soedan, Zuid-Soedan, Nigeria en Jemen aan te pakken.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg108" xml:lang="nl">Op langere termijn is het echter belangrijk om te blijven inzetten op het versterken van de weerbaarheid van de bevolking in onze partnerlanden. Ten eerste zijn investeringen in een duurzame landbouwsector broodnodig. In verschillende van onze partnerlanden investeren we in kleinschalige boeren en hun lokale waardeketens. In de Sahel, bijvoorbeeld, zetten we in het kader van het Belgische klimaatprogramma in op de ondersteuning van agro-ecologie en landherstel. We blijven vanzelfsprekend de evolutie van de noden opvolgen en zullen waar nodig kijken of er moet worden bijgestuurd.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg109" xml:lang="nl">Vorige week nog was er een overleg met alle betrokken Belgische actoren binnen het Platform voor Landbouw en Voedselzekerheid om deze specifieke problematiek te bespreken. Het is duidelijk dat daarvoor een globale, gecoördineerde aanpak nodig zal zijn. België vraagt bijvoorbeeld ook aandacht voor het probleem bij de multilaterale partners, niet alleen door de effecten op korte termijn op te vangen, maar ook door structureler in te zetten op het uitbouwen van lokale productie en distributie. Het is namelijk duidelijk dat landen als Tanzania, Burkina Faso, Benin en Senegal bijzonder afhankelijk zijn van de import van brandstof en voedsel en dus bijzonder hard getroffen zullen worden. Dat bleek onlangs nog eens uit een Rapid Assessment van het UNDP.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg110" xml:lang="nl">Ik wil het nog even hebben over het stemgedrag van een aantal Afrikaanse landen in de VN met betrekking tot de situatie in Oekraïne en eventuele voorwaarden voor onze internationale solidariteit. De gewone burgers in die landen zouden de grootste slachtoffers hiervan worden. Onze steun is dan ook op die mensen gericht. Uiteraard is het wel de taak van onze diplomatie om met deze landen in dialoog te gaan.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg111" xml:lang="nl">Het moet duidelijk zijn dat de Russische agressie gevolgen heeft op lange termijn, die uiteindelijk voor iedereen nadelig zullen zijn. Ook deze oorlog toont aan dat de uitdagingen groot zullen zijn, dat we niet moeten werken op liefdadigheid, maar op echte partnerschappen. De politieke keuze van België om met de meest fragiele landen samen te werken, is niet altijd de makkelijkste weg, maar wel de belangrijkste om de mensen niet in de steek te laten.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.04 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u32" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg112" xml:lang="nl">Mevrouw de minister, over de eventuele destabilisering van de regimes hebt u het niet gehad. Het is moeilijk om u daarover uit te spreken, maar het zal sowieso een aandachtspunt moeten zijn. Het zijn al heel fragiele landen, waar geen fricties mogen ontstaan. Het stemgedrag in de VN is een heel moeilijke zaak. De burgers mogen er niet het slachtoffer van worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg113" xml:lang="nl">Bij de beleidsnota heb ik al gezegd dat we veel te veel uitgaan van het feit dat we kleinschalige projecten moeten ondersteunen, waar we macro ook heel veel zouden kunnen doen. We zouden ervoor kunnen zorgen dat de lokale landbouwproductie zich op grotere schaal kan ontwikkelen, dat daar zich ook een economisch stelsel achter kan ontwikkelen en dat op die manier de afhankelijkheid van die landen ten opzichte van ons als partnerland, maar ook ten opzichte van de landen waar nu oorlog is, sterk vermindert.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg114" xml:lang="nl">U zegt dat SFERA investeert in Oekraïense landbouwers om hun productie te kunnen verzekeren. Zal u ook zo ver gaan dat u de distributie mee ondersteunt? Dat is blijkbaar een van de grote problemen. Besteed daar voldoende aandacht aan.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.05 Steven De Vuyst (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u33" who="#DeVuystSteven" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg115" xml:lang="nl">Mevrouw de minister, ik leer uit uw antwoord dat u bijkomende inspanningen zult doen, ook op het vlak van humanitaire hulp, op korte termijn en dat u op lange termijn de partnerschappen zult verstevigen. U haalde terecht ook het belang aan van een zekere importsubstitutie, om de landbouw daar weerbaarder te maken en de lokale productie op lange termijn op te schalen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg116" xml:lang="nl">Wij zien echter natuurlijk het volgende, de directeur van de Wereldbank en het Wereld Voedsel Programma zeiden het ook. Wij hebben het einde nog niet gezien. De prijzen gaan nog verder stijgen. Het humanitair leed zal zich jammer genoeg nog verder doorzetten, zolang die oorlog blijft duren. De wederzijdse actie-reactiespiraal en de economische sancties dreigen niet alleen ons maar heel de wereld mee te sleuren. Ik vrees voor heel wat humanitair leed in Sub-Sahara en al die kwetsbare landen. U zegt dat u diplomatieke contacten onderhoudt met die landen, omdat u zeker wilt zijn dat dit geld terechtkomt waar het moet terechtkomen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg117" xml:lang="nl">Dat diplomatieke mis ik echter een beetje van de regering. Ik heb het dan over het conflict tussen Rusland en Oekraïne. Wij zien dat er heel veel aandacht wordt geschonken aan wapen­leveringen, maar dat is natuurlijk niet duurzaam op lange termijn. U ziet in uw beleidsdomein natuurlijk ook dat dit verstrekkende gevolgen begint te krijgen. Hoe langer die oorlog duurt, hoe groter die crisis zal worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg118" xml:lang="nl">Ik kan u alleen maar aanmoedigen om vanuit uw rol uw collega's in de regering aan te moedigen om ook diplomatieke initiatieven te nemen. Heel veel academici zeggen nu ook dat wij dat pad van onderhandelde vrede moeten durven bewandelen, want anders dreigen wij in een volgende fase van escalatie te gaan en zullen de gevolgen alleen maar erger worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg119" xml:lang="nl">Ik zie ook dat men in enkele dagen tijd 1 miljard euro extra heeft gevonden om nog te besteden aan Defensie. Een fractie daarvan zou kunnen vrijgemaakt worden om alvast de effecten van de sancties, waarvan de volkeren in het Zuiden ook de gevolgen voelen, te milderen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg120" xml:lang="nl">Ik zie dus een gebrek aan politieke wil om ook het diplomatieke pad te gaan bewandelen. Ik kan u alleen maar aanraden om dat pleidooi ook te houden ten aanzien van uw collega's in de regering.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09 Vraag van Steven De Vuyst aan Meryame Kitir (Ontwikkelingssamenwerking en Grote Steden) over &quot;De oproep van 12 VN-mensenrechtenexperts om Palestijnse ngo's te beschermen en ondersteunen&quot; (55027463C)
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09 Question de Steven De Vuyst à Meryame Kitir (Coopération au développement et Grandes villes) sur &quot;L'appel de douze experts des droits humains de l'ONU à protéger et soutenir des ONG palestiniennes&quot; (55027463C)
+                </note>
+                <note type="speaker" xml:lang="nl">09.01 Steven De Vuyst (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u34" who="#DeVuystSteven" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg121" xml:lang="nl">Mevrouw de minister, op 25 april riepen twaalf mensenrechtenexperts van de Verenigde Naties de internationale gemeenschap op om onmiddellijk doeltreffende stappen te ondernemen om de zes Palestijnse middenveldorganisaties die in oktober 2021 door de Israëlitische regering als terroristische organisaties werden aangeduid te beschermen en te ondersteunen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg122" xml:lang="nl">We herinneren eraan dat Amnesty International en Human Rights Watch in een gezamenlijk communiqué deze onterechte criminalisering door het apartheidsregime een aanval op mensenrechtenverdedigers wereldwijd genoemd hebben. Die experts merken ook op dat Israël nog steeds geen enkel concreet en geloofwaardig bewijs voor deze beschuldiging publiek heeft gemaakt. Israël is er ook niet in geslaagd een aantal regeringen en internationale organisaties te overtuigen die van oudsher financieringen hebben verstrekt voor het onmisbare werk van deze zes organisaties.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg123" xml:lang="nl">Zoals bekend gaat het om Addameer, Al-Haq, Bisan Center for Research and Development, Defense for Children International - Palestine, Union of Agricultural Work Committees en Union of Palestinian Women's Committees.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg124" xml:lang="nl">Door hen te brandmerken als terroristische organisaties kan Israël hen oprollen, hun bezittingen in beslag nemen, hun werkzaamheden beëindigen en ook hun leiders en personeel aanklagen. Veel van deze zaken zijn ook reeds gebeurd en gebeuren nog steeds. De voorzitster van de Health Work Committees, mevrouw Shatha Odeh, wordt bijvoorbeeld nog steeds vastgehouden in een Israëlische gevangenis.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg125" xml:lang="nl">Ik heb hierover enkele vragen. Heeft België sinds oktober 2021 zijn ontwikkelingssamenwerking met een of meerdere van deze organisaties on hold  gezet? Hebben andere Belgische ontwikkelingsakkoorden hun samenwerking met of financiering van één van deze zes ngo's beëindigd?</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg126" xml:lang="nl">Zal België gehoor geven aan deze oproep en extra inspanningen leveren om het Palestijnse middenveld te ondersteunen? Blijft België de toestand van mevrouw Odeh opvolgen en kunt u ons inlichten over de evolutie en de stand van zaken?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.02 Minister Meryame Kitir:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u35" who="#KitirMeryame" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg127" xml:lang="nl">Mijnheer De Vuyst, ik heb in deze commissie reeds enkele keren aangegeven dat een intern onderzoek door mijn administratie geen informatie heeft opgeleverd die de beschuldigingen bevestigt met betrekking tot de organisaties die Belgische financiering ontvangen. Ik zie dan ook geen redenen om maatregelen te nemen tegen de Palestijnse organisaties in kwestie. Ook de elementen die door de Israëlische autoriteiten werden overgemaakt, zijn niet van die aard dat ik op mijn beslissing terugkom.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg128" xml:lang="nl">Onze steun aan het Palestijnse middenveld wordt dan ook voorgezet. Dat middenveld speelt een cruciale rol in het versterken van de principes van de rechtsstaat en de zoektocht naar een duurzame vrede in de regio. Ik keurde recent het nieuwe vijfjarenprogramma van de niet-gouvernementele actoren goed. In dat kader blijft ons land de programma's van negen Belgische niet-gouvernementele actoren in Palestina en Israël steunen. Op basis van het definitieve financieringsbesluit onderzoeken ze momenteel met wie en op welke manier zij lokaal zullen samenwerken. Het spreekt voor zich dat dit dient te gebeuren met lokale organisaties die zich houden aan de bestaande regels inzake financieel beheer en die geen linken met terroristische organisaties hebben.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg129" xml:lang="nl">De nieuwe financiering zal via de bestaande controlemechanismes van nabij worden opgevolgd. Zoals u weet, werd er trouwens aan de Belgische partnerorganisatie gevraagd om de risico's van de samenwerking met Palestijnse partners in kaart te brengen en een aangepaste strategie te ontwikkelen om die risico's zo veel mogelijk te beperken. Naast de steun via de niet-gouvernementele samenwerking is er vorig jaar bovendien ook financiering aan UNDP toegekend. Die voorziet in een ondersteuning van het Palestijns middenveld in het kader van de lokale verkiezingen die moeten plaatsvinden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg130" xml:lang="nl">Wat uw vraag over mevrouw Odeh betreft, kan ik u zeggen dat onze diplomatieke post in Jeruzalem haar situatie van nabij opvolgt. Mijn collega Wilmès heeft dat in deze commissie op 29 maart toegelicht. Indien u recentere gegevens wil, stel ik voor dat u zich wendt tot de eerste minister, die tijdelijk belast is met de bevoegdheid voor Buitenlandse Zaken.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.03 Steven De Vuyst (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u36" who="#DeVuystSteven" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg131" xml:lang="nl">Mevrouw de minister, het verheugt mij dat u de samenwerking met het Palestijnse middenveldorganisaties nogmaals bevestigt en dat ons land zich niet laat intimideren door de onterechte aantijgingen aan het adres van die middenveldorganisaties. Het verheugt mij dat u de rechtmatige en noodzakelijke rol erkent die deze organisaties op het terrein spelen voor het steunen van de Palestijnse bevolking en voor het documenteren van Israëlische oorlogsmisdaden.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg132" xml:lang="nl">Het siert u dat zich niet laat intimideren, al wordt er heel veel druk uitgeoefend. Wij zien dat er met twee maten en twee gewichten gewerkt wordt als het gaat over Israël en oorlogsmisdaden. We betreuren dat de staat Israël niet wordt gesanctioneerd. Onlangs hebben heel wat mensenrechtenorganisaties Israël nochtans bestempeld als een apartheidsregime.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg133" xml:lang="nl">Er worden geen sancties getroffen en zelfs met moeite veroordelingen uitgesproken. Dat betreuren wij ten zeerste. Dat geldt trouwens ook binnen deze regering. Men heeft het altijd over de universaliteit van mensenrechten en internationaal recht, wat wij voor alle duidelijkheid onder­schrijven, maar er is ook de geopolitieke factor. Wij stellen namelijk vast dat het belang van universaliteit steeds minder hoog wordt als het om bondgenoten gaat en dat het belang ervan stijgt als het gaat om geopolitieke rivalen.</seg>
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg134" xml:lang="nl">Wij hopen dat er binnen de regering met evenveel passie en ijver zal worden gekeken naar wat het Palestijnse volk dagelijks moet verduren. Men moet Israël voor eens en altijd het humanitair en internationaal recht doen respecteren.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="speaker" xml:lang="fr">La présidente:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u37" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg135" xml:lang="fr">Monsieur De Vuyst, je vous signale que vos répliques sont trop longues.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.04 Steven De Vuyst (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u38" who="#DeVuystSteven" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg136" xml:lang="nl">Mevrouw de voorzitster, ik heb misbruik gemaakt van het feit dat het bijna een onderonsje was.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">La présidente:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.u39" who="#deLaveleyeSéverine" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2022-05-04-voorlopig-55-commissie-ic774x.seg137" xml:lang="fr">Signalons que la réunion avec le ministre Clarinval est reportée.</seg>
+                </u>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De openbare commissievergadering wordt gesloten om 15.18 uur.
+                </note>
+                <note type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    La réunion publique de commission est levée à 15 h 18.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>
