@@ -10,6 +10,7 @@
      - calculate extents in component ana files, warn if changed
      - insert word extents from ana into plain version
      - insert tagcounts in root (taken from component files and not changed there!)
+     - fix spaces in text
      - sundry checks and fixes, which give warning messages
 -->
 <xsl:stylesheet 
