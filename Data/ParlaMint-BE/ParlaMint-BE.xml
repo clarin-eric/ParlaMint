@@ -31,13 +31,13 @@
                 <edition>1.0</edition>
             </editionStmt>
             <extent>
-                <measure unit="speeches" quantity="106" xml:lang="en">106
+                <measure unit="speeches" quantity="116" xml:lang="en">116
         speeches</measure>
-                <measure unit="speeches" quantity="106" xml:lang="nl">106
+                <measure unit="speeches" quantity="116" xml:lang="nl">116
         spreekbeurten</measure>
-                <measure unit="words" quantity="23962" xml:lang="en">23962
+                <measure unit="words" quantity="32090" xml:lang="en">32090
         words</measure>
-                <measure unit="words" quantity="23962" xml:lang="nl">23962
+                <measure unit="words" quantity="32090" xml:lang="nl">32090
         woorden</measure>
             </extent>
             <publicationStmt>
@@ -128,12 +128,14 @@
             </editorialDecl>
             <tagsDecl>
                 <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="desc" occurs="1"/>
                     <tagUsage gi="body" occurs="1"/>
-                    <tagUsage gi="u" occurs="106"/>
-                    <tagUsage gi="seg" occurs="429"/>
+                    <tagUsage gi="u" occurs="116"/>
+                    <tagUsage gi="seg" occurs="615"/>
                     <tagUsage gi="div" occurs="1"/>
                     <tagUsage gi="text" occurs="1"/>
-                    <tagUsage gi="note" occurs="300"/>
+                    <tagUsage gi="gap" occurs="1"/>
+                    <tagUsage gi="note" occurs="295"/>
                 </namespace>
             </tagsDecl>
             <classDecl>
@@ -158,14 +160,14 @@
                 <xi:include href="ParlaMint-BE-listPerson.xml"/>
             </particDesc>
             <langUsage>
-                <language xml:lang="en" ident="fr" usage="47">French</language>
-                <language xml:lang="nl" ident="fr" usage="47">Frans</language>
+                <language xml:lang="en" ident="fr" usage="22">French</language>
+                <language xml:lang="nl" ident="fr" usage="22">Frans</language>
                 <language xml:lang="en" ident="en">English</language>
                 <language xml:lang="nl" ident="en">Engels</language>
-                <language xml:lang="en" ident="nl" usage="53">Dutch</language>
-                <language xml:lang="nl" ident="nl" usage="53">Nederlands</language>
+                <language xml:lang="en" ident="nl" usage="78">Dutch</language>
+                <language xml:lang="nl" ident="nl" usage="78">Nederlands</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
-    <xi:include href="ParlaMint-BE_2021-05-05-definitief-55-commissie-ic467x.xml"/>
+    <xi:include href="ParlaMint-BE_2022-07-12-voorlopig-55-commissie-ic858x.xml"/>
 </teiCorpus>
