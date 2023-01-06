@@ -31,13 +31,13 @@
                 <edition>1.0</edition>
             </editionStmt>
             <extent>
-                <measure unit="speeches" quantity="116" xml:lang="en">116
+                <measure unit="speeches" quantity="441" xml:lang="en">441
         speeches</measure>
-                <measure unit="speeches" quantity="116" xml:lang="nl">116
+                <measure unit="speeches" quantity="441" xml:lang="nl">441
         spreekbeurten</measure>
-                <measure unit="words" quantity="32090" xml:lang="en">32090
+                <measure unit="words" quantity="114617" xml:lang="en">114617
         words</measure>
-                <measure unit="words" quantity="32090" xml:lang="nl">32090
+                <measure unit="words" quantity="114617" xml:lang="nl">114617
         woorden</measure>
             </extent>
             <publicationStmt>
@@ -128,14 +128,15 @@
             </editorialDecl>
             <tagsDecl>
                 <namespace name="http://www.tei-c.org/ns/1.0">
-                    <tagUsage gi="desc" occurs="1"/>
-                    <tagUsage gi="body" occurs="1"/>
-                    <tagUsage gi="u" occurs="116"/>
-                    <tagUsage gi="seg" occurs="615"/>
-                    <tagUsage gi="div" occurs="1"/>
-                    <tagUsage gi="text" occurs="1"/>
-                    <tagUsage gi="gap" occurs="1"/>
-                    <tagUsage gi="note" occurs="295"/>
+                    <tagUsage gi="desc" occurs="9"/>
+                    <tagUsage gi="body" occurs="5"/>
+                    <tagUsage gi="u" occurs="441"/>
+                    <tagUsage gi="seg" occurs="2149"/>
+                    <tagUsage gi="div" occurs="5"/>
+                    <tagUsage gi="text" occurs="5"/>
+                    <tagUsage gi="gap" occurs="8"/>
+                    <tagUsage gi="note" occurs="1179"/>
+                    <tagUsage gi="vocal" occurs="1"/>
                 </namespace>
             </tagsDecl>
             <classDecl>
@@ -160,14 +161,18 @@
                 <xi:include href="ParlaMint-BE-listPerson.xml"/>
             </particDesc>
             <langUsage>
-                <language xml:lang="en" ident="fr" usage="22">French</language>
-                <language xml:lang="nl" ident="fr" usage="22">Frans</language>
+                <language xml:lang="en" ident="fr" usage="36">French</language>
+                <language xml:lang="nl" ident="fr" usage="36">Frans</language>
                 <language xml:lang="en" ident="en">English</language>
                 <language xml:lang="nl" ident="en">Engels</language>
-                <language xml:lang="en" ident="nl" usage="78">Dutch</language>
-                <language xml:lang="nl" ident="nl" usage="78">Nederlands</language>
+                <language xml:lang="en" ident="nl" usage="64">Dutch</language>
+                <language xml:lang="nl" ident="nl" usage="64">Nederlands</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
-    <xi:include href="ParlaMint-BE_2022-07-12-voorlopig-55-commissie-ic858x.xml"/>
+    <xi:include href="ParlaMint-BE_2021-05-27-definitief-55-plenair-ip106x.xml"/>
+    <xi:include href="ParlaMint-BE_2021-06-07-definitief-55-commissie-ic504x.xml"/>
+    <xi:include href="ParlaMint-BE_2021-11-16-definitief-55-commissie-ic626x.xml"/>
+    <xi:include href="ParlaMint-BE_2022-01-25-definitief-55-commissie-ic670x.xml"/>
+    <xi:include href="ParlaMint-BE_2022-02-15-voorlopig-55-commissie-ic698x.xml"/>
 </teiCorpus>
