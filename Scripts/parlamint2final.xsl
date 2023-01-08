@@ -67,7 +67,6 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg"/>
 
-
   <!-- Input directory -->
   <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
@@ -102,7 +101,15 @@
           <xsl:value-of select="concat($outDir, '/', $corpusDir, '/', @href)"/>
         </url-new>
         <url-ana>
-          <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
+          <xsl:value-of select="concat($anaDir, '/')"/>
+	  <xsl:choose>
+            <xsl:when test="$type = 'ana'">
+              <xsl:value-of select="@href"/>
+	    </xsl:when>
+            <xsl:when test="$type = 'txt'">
+              <xsl:value-of select="replace(@href, '\.xml', '.ana.xml')"/>
+	    </xsl:when>
+	  </xsl:choose>
         </url-ana>
       </item>
       </xsl:for-each>
@@ -390,6 +397,7 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template match="tei:measure"/>
   <xsl:template match="tei:measure[@unit='sessions' or @unit='speeches' or @unit='words']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -399,15 +407,15 @@
             <xsl:value-of select="count($docs/tei:item[@type = 'component'])"/>
           </xsl:when>
           <xsl:when test="@unit='speeches'">
-            <xsl:value-of select="sum($speeches/tei:item[@type = 'component'])"/>
+            <xsl:value-of select="sum($speeches/tei:item)"/>
           </xsl:when>
           <xsl:when test="@unit='words'">
-            <xsl:value-of select="sum($words/tei:item[@type = 'component'])"/>
+            <xsl:value-of select="sum($words/tei:item)"/>
           </xsl:when>
         </xsl:choose>
       </xsl:variable>
       <xsl:choose>
-        <xsl:when test="normalize-space($quant)">
+        <xsl:when test="normalize-space($quant) and $quant != '0'">
           <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
           <xsl:value-of select="replace(., '.+ ', concat(
                                 et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
@@ -421,7 +429,6 @@
     </xsl:copy>
   </xsl:template>
   
-
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
