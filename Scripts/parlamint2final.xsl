@@ -4,11 +4,13 @@
      and all finalized component files to outDir:
      - set release date to today
      - set version and handles for 3.0
+     - set correct stamp in main titles
      - set correct subcorpus
      - set English project description for ParlaMint II
      - calculate extents in component ana files, warn if changed
      - insert word extents from ana into plain version
      - insert tagcounts in root (taken from component files and not changed there!)
+     - fix spaces in text
      - sundry checks and fixes, which give warning messages
 -->
 <xsl:stylesheet 
@@ -65,7 +67,6 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:preserve-space elements="catDesc seg"/>
 
-
   <!-- Input directory -->
   <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
   <!-- The name of the corpus directory to output to, i.e. "ParlaMint-XX" -->
@@ -100,7 +101,15 @@
           <xsl:value-of select="concat($outDir, '/', $corpusDir, '/', @href)"/>
         </url-new>
         <url-ana>
-          <xsl:value-of select="concat($anaDir, '/', replace(@href, '\.xml', '.ana.xml'))"/>
+          <xsl:value-of select="concat($anaDir, '/')"/>
+	  <xsl:choose>
+            <xsl:when test="$type = 'ana'">
+              <xsl:value-of select="@href"/>
+	    </xsl:when>
+            <xsl:when test="$type = 'txt'">
+              <xsl:value-of select="replace(@href, '\.xml', '.ana.xml')"/>
+	    </xsl:when>
+	  </xsl:choose>
         </url-ana>
       </item>
       </xsl:for-each>
@@ -252,6 +261,9 @@
   </xsl:template>
   
   <!-- Same as for root -->
+  <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type = 'main']">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
     <xsl:apply-templates select="."/>
   </xsl:template>
@@ -268,6 +280,13 @@
                        tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:apply-templates select="."/>
   </xsl:template>
+  <xsl:template mode="comp" match="tei:teiHeader//text()">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:text//text()">
+    <xsl:apply-templates select="."/>
+  </xsl:template>
+
   
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='words']">
     <xsl:param name="words"/>
@@ -308,7 +327,6 @@
     </xsl:copy>
   </xsl:template>
       
-
   <!-- Bug in STANZA, sometimes a word lemma is set to "_" -->
   <!-- We set lemma to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
@@ -354,7 +372,32 @@
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
+
+  <!-- Check if we have a correct stamp, and if it is correct, replace if not -->
+  <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
+    <xsl:variable name="okStamp">
+      <xsl:choose>
+	<xsl:when test="$type = 'txt'">[ParlaMint]</xsl:when>
+	<xsl:when test="$type = 'ana'">[ParlaMint.ana]</xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="stamp" select="replace(., '.+(\[.+\])$', '$1')"/>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:choose>
+	<xsl:when test="$stamp = $okStamp">
+	  <xsl:value-of select="normalize-space(.)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="replace(., '(.+?)\s*\[.+\]$', concat('$1', ' ', $okStamp))"/>
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': replacing title stamp ', $stamp, ' with ', $okStamp)"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
   
+  <xsl:template match="tei:measure"/>
   <xsl:template match="tei:measure[@unit='sessions' or @unit='speeches' or @unit='words']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -364,15 +407,15 @@
             <xsl:value-of select="count($docs/tei:item[@type = 'component'])"/>
           </xsl:when>
           <xsl:when test="@unit='speeches'">
-            <xsl:value-of select="sum($speeches/tei:item[@type = 'component'])"/>
+            <xsl:value-of select="sum($speeches/tei:item)"/>
           </xsl:when>
           <xsl:when test="@unit='words'">
-            <xsl:value-of select="sum($words/tei:item[@type = 'component'])"/>
+            <xsl:value-of select="sum($words/tei:item)"/>
           </xsl:when>
         </xsl:choose>
       </xsl:variable>
       <xsl:choose>
-        <xsl:when test="normalize-space($quant)">
+        <xsl:when test="normalize-space($quant) and $quant != '0'">
           <xsl:attribute name="quantity" select="format-number($quant, '#')"/>
           <xsl:value-of select="replace(., '.+ ', concat(
                                 et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $quant), 
@@ -386,7 +429,6 @@
     </xsl:copy>
   </xsl:template>
   
-
   <xsl:template match="tei:publicationStmt/tei:date">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -438,6 +480,39 @@
     </xsl:copy>
   </xsl:template>
     
+  <xsl:template match="text()">
+    <xsl:choose>
+      <xsl:when test="not(../tei:*)">
+	<xsl:if test="starts-with(., '\s') or ends-with(., '\s')">
+	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
+                               ': removing spurious space from ', .)"/>
+	</xsl:if>
+	<xsl:value-of select="normalize-space(.)"/>
+      </xsl:when>
+      <xsl:when test="preceding-sibling::tei:* and following-sibling::tei:*">
+	<xsl:value-of select="."/>
+      </xsl:when>
+      <xsl:when test="preceding-sibling::tei:*">
+	<xsl:if test="ends-with(., '\s')">
+	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
+                               ': removing trailing space from ', .)"/>
+	</xsl:if>
+	<xsl:value-of select="replace(., '\s+$', '')"/>
+      </xsl:when>
+      <xsl:when test="following-sibling::tei:*">
+	<xsl:if test="starts-with(., '\s')">
+	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
+                               ': removing starting space from ', .)"/>
+	</xsl:if>
+	<xsl:value-of select="replace(., '^\s+', '')"/>
+      </xsl:when>
+      <xsl:otherwise>
+	  <xsl:message terminate="yes" select="concat('FATAL ', /tei:*/@xml:id, 
+                               ': strange situation with ', .)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>
@@ -448,6 +523,7 @@
         <xsl:value-of select="replace($form, ',', ' ')"/>
       </xsl:when>
       <xsl:when test="$lang = 'bg' or 
+                      $lang = 'bs' or
                       $lang = 'cs' or
                       $lang = 'hr' or
                       $lang = 'hu' or
@@ -458,6 +534,7 @@
                       $lang = 'pl' or
                       $lang = 'ro' or
                       $lang = 'sl' or
+                      $lang = 'sr' or
                       $lang = 'tr'
                       ">
         <xsl:value-of select="replace($form, ',', '.')"/>
