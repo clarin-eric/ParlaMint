@@ -57,7 +57,7 @@
     stored in a separate file.</a:documentation>
     <element name="listOrg">
       <optional>
-	<ref name="id.att"/>
+        <ref name="id.att"/>
       </optional>
       <ref name="lang.att"/>
       <zeroOrMore>
@@ -231,7 +231,7 @@
     corpus root or stored in a separate file.</a:documentation>
     <element name="listPerson">
       <optional>
-	<ref name="id.att"/>
+        <ref name="id.att"/>
       </optional>
       <ref name="lang.att"/>
       <zeroOrMore>
@@ -578,7 +578,7 @@
           <attribute name="from">
             <ref name="temporal.val"/>
           </attribute>
-	</optional>
+        </optional>
         <attribute name="to">
           <ref name="temporal.val"/>
         </attribute>
@@ -713,6 +713,13 @@
         <ref name="ref"/>
       </zeroOrMore>
     </mixed>
+  </define>
+  
+  <define name="non-empty.string">
+    <a:documentation>A string that is non-empty and does not contain white-space.</a:documentation>
+    <data type="string">
+      <param name="pattern">\S+</param>
+    </data>
   </define>
   
   <define name="normalized-space.string">

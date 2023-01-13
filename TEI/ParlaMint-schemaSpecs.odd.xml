@@ -103,11 +103,11 @@
                <teiHeader>
             ...TEI header of the corpus...
           </teiHeader>
-	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	              href="2015/ParlaMint-GB_2015-01-05-commons.xml"/&gt;
           &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	              href="2015/ParlaMint-GB_2015-01-06-commons.xml"/&gt;
-	  ...
+                      href="2015/ParlaMint-GB_2015-01-05-commons.xml"/&gt;
+          &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                      href="2015/ParlaMint-GB_2015-01-06-commons.xml"/&gt;
+          ...
         </teiCorpus>
          </egXML>
       </exemplum>
@@ -134,11 +134,11 @@
                <teiHeader>
             ...TEI header of the corpus...
           </teiHeader>
-	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	              href="2015/ParlaMint-GB_2015-01-05-commons.xml"/&gt;
           &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	              href="2015/ParlaMint-GB_2015-01-06-commons.xml"/&gt;
-	  ...
+                      href="2015/ParlaMint-GB_2015-01-05-commons.xml"/&gt;
+          &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                      href="2015/ParlaMint-GB_2015-01-06-commons.xml"/&gt;
+          ...
         </teiCorpus>
          </egXML>
       </exemplum>
@@ -241,8 +241,8 @@
                <body>
                   <div type="debateSection">...</div>
                   <div type="debateSection">...</div>
-	    ...
-	  </body>
+            ...
+          </body>
             </text>
          </egXML>
       </exemplum>
@@ -282,13 +282,13 @@
             <body>
                <div type="debateSection">...</div>
                <div type="debateSection">...</div>
-	  ...
-	</body>
+          ...
+        </body>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="div" module="textstructure" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains a subdivision of the front, body, or back of a text.</desc>
+      <desc versionDate="2022-11-23" xml:lang="en">contains division of the body a corpus component.</desc>
       <content>
          <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
          <alternate minOccurs="1" maxOccurs="unbounded">
@@ -303,12 +303,17 @@
       </content>
       <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
       <attList>
-         <attDef ident="type" mode="replace" usage="rec">
+         <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
                <valItem ident="debateSection">
                   <desc xml:lang="en">General purpose text division for all parts of parliamentary
-            proceedings.  If needed, the @subtype attribute can be used for additional content
-            classification.</desc>
+            proceedings. It should include at least one utterance. If needed, the @subtype
+            attribute can be used for additional content classification.</desc>
+               </valItem>
+               <valItem ident="commentSection">
+                  <desc xml:lang="en">A special purpose text division used as a container for transcriber
+            comments. Should not contain any utterances. If needed, the @subtype attribute can be
+            used for additional content classification.</desc>
                </valItem>
             </valList>
          </attDef>
@@ -350,8 +355,8 @@
                <head>Devolution of Power (Cities)</head>
                <u xml:id="ParlaMint-GB_2015-01-06-commons.u1">...</u>
                <u xml:id="ParlaMint-GB_2015-01-06-commons.u2">...</u>
-	  ...
-	  <note>House adjourned.</note>
+          ...
+          <note>House adjourned.</note>
             </div>
          </egXML>
       </exemplum>
@@ -442,13 +447,13 @@
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <note type="speaker">The president, Dr. Milan Brglez:</note>
-	...
-	<note type="time">The session began at 10 o'clock.</note>
-	...
-	<note type="vote-ayes">84 voted for the adoption of the measure.</note>
-	...
-	<note type="vote-noes">2 voted against the adoption of the measure.</note>
-	...
+        ...
+        <note type="time">The session began at 10 o'clock.</note>
+        ...
+        <note type="vote-ayes">84 voted for the adoption of the measure.</note>
+        ...
+        <note type="vote-noes">2 voted against the adoption of the measure.</note>
+        ...
       </egXML>
       </exemplum>
       <exemplum xml:lang="en">
@@ -465,8 +470,8 @@
                <head>Business Before Questions</head>
                <note>Death of a Member</note>
                <u xml:id="ParlaMint-GB_2019-02-18-commons.u1">...</u>
-	  ...
-	  <note>End of debateSection.</note>
+          ...
+          <note>End of debateSection.</note>
             </div>
          </egXML>
       </exemplum>
@@ -807,12 +812,12 @@
             <vocal type="interruption">
                <desc>sounds from the chamber</desc>
             </vocal>
-	...
-	<kinesic type="signal">
+        ...
+        <kinesic type="signal">
                <desc>signal for end of debate</desc>
             </kinesic>
-	...
-	<incident type="action">
+        ...
+        <incident type="action">
                <desc>minute of silence</desc>
             </incident>
          </egXML>
@@ -827,8 +832,8 @@
                <desc>
                   <term>Legislature</term>
                </desc>
-	  ...
-	</taxonomy>
+          ...
+        </taxonomy>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en" versionDate="2021-03-15">
@@ -898,8 +903,8 @@
                   <catDesc xml:lang="en">
                      <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
                </category>
-	  ...
-	</taxonomy>
+          ...
+        </taxonomy>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
@@ -1001,8 +1006,8 @@
                       n="1"
                       xml:id="ParlaMint-CZ_2014-10-01-ps2013-017-09-003-036.pb1"
                       corresp="#ps2013-017-09-003-036.audio1"/>
-	    ...
-	  </div>
+            ...
+          </div>
             </body>
          </egXML>
       </exemplum>
@@ -1099,6 +1104,7 @@
          <attDef ident="rhyme" mode="delete"/>
          <attDef ident="datcat" mode="delete"/>
          <attDef ident="valueDatcat" mode="delete"/>
+         <attDef ident="targetDatcat" mode="delete"/>
          <attDef ident="part" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -1159,6 +1165,7 @@
          <attDef ident="rhyme" mode="delete"/>
          <attDef ident="datcat" mode="delete"/>
          <attDef ident="valueDatcat" mode="delete"/>
+         <attDef ident="targetDatcat" mode="delete"/>
          <attDef ident="part" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -1217,6 +1224,7 @@
          <attDef ident="rhyme" mode="delete"/>
          <attDef ident="datcat" mode="delete"/>
          <attDef ident="valueDatcat" mode="delete"/>
+         <attDef ident="targetDatcat" mode="delete"/>
          <attDef ident="part" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -1247,7 +1255,7 @@
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <w>abyste
-	<w norm="aby" lemma="aby" msd="UPosTag=SCONJ"/>
+        <w norm="aby" lemma="aby" msd="UPosTag=SCONJ"/>
                <w norm="byste"
                   lemma="být"
                   msd="UPosTag=AUX|Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin"/>
@@ -1305,6 +1313,7 @@
          <attDef ident="rhyme" mode="delete"/>
          <attDef ident="datcat" mode="delete"/>
          <attDef ident="valueDatcat" mode="delete"/>
+         <attDef ident="targetDatcat" mode="delete"/>
          <attDef ident="part" mode="delete"/>
          <attDef ident="type" mode="delete"/>
          <attDef ident="subtype" mode="delete"/>
@@ -1570,13 +1579,13 @@
       It can also have a <att>ref</att> attribute to link it a definition:
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-	...
-	<w lemma="and" msd="UPosTag=CCONJ">and</w>
+        ...
+        <w lemma="and" msd="UPosTag=CCONJ">and</w>
             <name type="ORG" ref="https://en.wikipedia.org/wiki/Westminster">
                <w join="right" lemma="Westminster" msd="UPosTag=PROPN|Number=Sing">Westminster</w>
             </name>
             <w lemma="," msd="UPosTag=PUNCT">,</w>
-	...
+        ...
       </egXML>
       </exemplum>
    </elementSpec>
@@ -1830,10 +1839,9 @@
          <elementRef key="profileDesc"/>
          <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
       </content>
-      <attList>
+      <attList><!--teiHeader/@xml:lang-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -2359,7 +2367,7 @@
                <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
                <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
             </respStmt>
-	...
+        ...
       </egXML>
       </exemplum>
    </elementSpec>
@@ -2558,8 +2566,8 @@
                   <nameLink>i</nameLink>
                   <surname>Azanza</surname>
                </persName>
-	  ...
-	</person>
+          ...
+        </person>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -2734,6 +2742,7 @@
     funding of a project or text.</desc>
       <content>
          <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+         <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
       </content>
       <attList>
          <attDef ident="xml:id" mode="delete"/>
@@ -3033,6 +3042,11 @@
          <attDef ident="subtype" mode="delete"/>
          <attDef ident="unitRef" mode="delete"/>
          <attDef ident="commodity" mode="delete"/>
+         <attDef ident="atLeast" mode="delete"/>
+         <attDef ident="atMost" mode="delete"/>
+         <attDef ident="min" mode="delete"/>
+         <attDef ident="max" mode="delete"/>
+         <attDef ident="confidence" mode="delete"/>
       </attList>
       <exemplum versionDate="2019-07-09" xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -3142,24 +3156,71 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="idno" module="header" mode="change">
-      <desc versionDate="2010-04-30" xml:lang="en">supplies any form of identifier used to identify some object,
-    such as a bibliographic item, a person, a title, an organisation,
-    etc. in a standardized way.</desc>
+      <desc versionDate="2022-11-12" xml:lang="en">supplies an identifier used to identify some object,
+    such as a person or organisation. If it is a URL, it should have <code>@type="URI"</code>.</desc>
       <content>
          <textNode/>
       </content>
       <attList>
-         <attDef ident="type" mode="change" usage="req"/>
-         <attDef ident="subtype" mode="replace" usage="rec">
-            <valList type="semi">
-               <valItem ident="facebook"/>
-               <valItem ident="twitter"/>
-               <valItem ident="wikipedia"/>
-               <valItem ident="wikimedia"/>
-               <valItem ident="wikidata"/>
+         <attDef ident="type" mode="replace" usage="req">
+            <desc versionDate="2022-11-12" xml:lang="en">categorizes the identifier.</desc>
+            <valList type="closed">
+               <valItem ident="URI">
+                  <desc versionDate="2022-11-12" xml:lang="en">Uniform Resource Identifier
+            ParlaMint should be a resolvable URL, with the <att>subtype</att>
+            classifying the type of web site.</desc>
+               </valItem>
+               <valItem ident="VIAF">
+                  <desc versionDate="2022-11-12" xml:lang="en">The URL of the Virtual Internet
+            Authority File assigned to link different names in catalogs around the world
+            for the same entity.</desc>
+               </valItem>
+            </valList>
+         </attDef>
+         <attDef ident="subtype" mode="replace" usage="opt">
+            <valList type="closed">
+               <valItem ident="handle">
+                  <desc versionDate="2022-11-12" xml:lang="en">The permanent identifier of type handle.</desc>
+               </valItem>
+               <valItem ident="government">
+                  <desc versionDate="2022-11-12" xml:lang="en">A governmental web site.</desc>
+               </valItem>
+               <valItem ident="politicalParty">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a political party.</desc>
+               </valItem>
+               <valItem ident="parliament">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site of the parliament.</desc>
+               </valItem>
+               <valItem ident="ministry">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a ministry.</desc>
+               </valItem>
+               <valItem ident="personal">
+                  <desc versionDate="2022-11-12" xml:lang="en">The personal web site of a person.</desc>
+               </valItem>
+               <valItem ident="business">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site belonging to a bussiness.</desc>
+               </valItem>
+               <valItem ident="publicService">
+                  <desc versionDate="2022-11-12" xml:lang="en">The web site of a pubic service.</desc>
+               </valItem>
+               <valItem ident="wikimedia">
+                  <desc versionDate="2022-11-12" xml:lang="en">A web site of Wikimedia, e.g. Wikipedia.</desc>
+               </valItem>
+               <valItem ident="facebook">
+                  <desc versionDate="2022-11-12" xml:lang="en">A Facebook web site.</desc>
+               </valItem>
+               <valItem ident="twitter">
+                  <desc versionDate="2022-11-12" xml:lang="en">A Twitter web site.</desc>
+               </valItem>
+               <valItem ident="tiktok">
+                  <desc versionDate="2022-11-12" xml:lang="en">A TikTok web site.</desc>
+               </valItem>
+               <valItem ident="instagram">
+                  <desc versionDate="2022-11-12" xml:lang="en">An Instagram web site.</desc>
+               </valItem>
             </valList>
             <remarks xml:lang="en">
-               <p>sample values recomended to use with <att>type</att>="<val>URI</val>"</p>
+               <p>this attribute should always be used with <att>type</att>="<val>URI</val>"</p>
             </remarks>
          </attDef>
          <!--idno/@xml:lang-->
@@ -3208,10 +3269,10 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <publicationStmt>
-	   ...
-	   <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
-	   ...
-	 </publicationStmt>
+           ...
+           <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1432</idno>
+           ...
+         </publicationStmt>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
@@ -3219,10 +3280,10 @@
             <sourceDesc>
                <bibl>
                   <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
-	     ...
-	     <idno type="URI">https://www.dz-rs.si</idno>
-	     ...
-	   </bibl>
+             ...
+             <idno type="URI">https://www.dz-rs.si</idno>
+             ...
+           </bibl>
             </sourceDesc>
          </egXML>
       </exemplum>
@@ -3627,8 +3688,8 @@
                          mimeType="audio/mp3"
                          source="https://www.psp.cz/eknih/2017ps/audio/2018/11/13/2018111318281842.mp3"
                          url="2017ps/audio/2018/11/13/2018111318281842.mp3"/>
-	    ...
-	  </recording>
+            ...
+          </recording>
             </recordingStmt>
          </egXML>
       </exemplum>
@@ -3732,8 +3793,8 @@
                       mimeType="audio/mp3"
                       source="https://www.psp.cz/eknih/2013ps/audio/2014/05/07/2014050714181432.mp3"
                       url="2013ps/audio/2014/05/07/2014050714181432.mp3"/>
-	  ...
-	</recording>
+          ...
+        </recording>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -3880,11 +3941,11 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <projectDesc>
                <p xml:lang="sl">Glavni cilji projekta <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> so
-	  (1) izdelati večjezično množico na enak način kodiranih korpusov
-	  zapiskov parlamentarnih sej, ...</p>
+          (1) izdelati večjezično množico na enak način kodiranih korpusov
+          zapiskov parlamentarnih sej, ...</p>
                <p xml:lang="en">The <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-	  project aims to (1) create a multilingual set of uniformly encoded
-	  comparable corpora of parliamentary proceedings, ...</p>
+          project aims to (1) create a multilingual set of uniformly encoded
+          comparable corpora of parliamentary proceedings, ...</p>
             </projectDesc>
          </egXML>
       </exemplum>
@@ -4025,12 +4086,12 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <editorialDecl>
-	  ...
-	  <normalization>
+          ...
+          <normalization>
                   <p xml:lang="en">Text has not been normalised, except for spacing.</p>
                </normalization>
-	  ...
-	</editorialDecl>
+          ...
+        </editorialDecl>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -4073,7 +4134,7 @@
           <hyphenation>
                   <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
                </hyphenation>
-	  ...
+          ...
         </editorialDecl>
          </egXML>
       </exemplum>
@@ -4112,8 +4173,8 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <editorialDecl>
-	  ...
-	  <quotation>
+          ...
+          <quotation>
                   <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
                </quotation>
             </editorialDecl>
@@ -4196,14 +4257,14 @@
       </p>
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <encodingDesc>
-	  ...
-	  <tagsDecl>
+          ...
+          <tagsDecl>
                   <namespace name="http://www.tei-c.org/ns/1.0">
                      <tagUsage gi="text" occurs="414"/>
                      <tagUsage gi="body" occurs="414"/>
                      <tagUsage gi="div" occurs="414"/>
-	      ...
-	    </namespace>
+              ...
+            </namespace>
                </tagsDecl>
             </encodingDesc>
          </egXML>
@@ -4275,7 +4336,7 @@
       <attList>
          <attDef ident="gi" mode="change" usage="req">
             <desc versionDate="2013-11-20" xml:lang="en">specifies the name
-	(generic identifier) of the element indicated by the tag,  within the namespace indicated by the parent
+        (generic identifier) of the element indicated by the tag,  within the namespace indicated by the parent
         <gi>namespace</gi> element. All descendats of <gi>text</gi> element and <gi>text</gi> element counts
         have to be included. </desc>
          </attDef>
@@ -4303,6 +4364,9 @@
          <attDef ident="cert" mode="delete"/>
          <attDef ident="resp" mode="delete"/>
          <attDef ident="source" mode="delete"/>
+         <attDef ident="datcat" mode="delete"/>
+         <attDef ident="valueDatcat" mode="delete"/>
+         <attDef ident="targetDatcat" mode="delete"/>
       </attList>
       <exemplum xml:lang="en" versionDate="2016-12-05">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -4362,11 +4426,11 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <classDecl>
-	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	           href="href="ParlaMint-SI-taxonomy-parla.legislature.xml"/&gt;
-	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	           href="href="ParlaMint-SI-taxonomy.xml-speaker_types"/&gt;
-	  ...
+          &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                   href="href="ParlaMint-SI-taxonomy-parla.legislature.xml"/&gt;
+          &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                   href="href="ParlaMint-SI-taxonomy.xml-speaker_types"/&gt;
+          ...
         </classDecl>
          </egXML>
       </exemplum>
@@ -4458,11 +4522,11 @@
                         <term>National legislature</term>
                      </catDesc>
                   </category>
-	    ...
-	  </category>
+            ...
+          </category>
             </taxonomy>
-	...
-	<org ana="#parla.national #parla.upper" role="parliament" xml:id="LEG">
+        ...
+        <org ana="#parla.national #parla.upper" role="parliament" xml:id="LEG">
                <orgName full="yes" xml:lang="it">Senato della Repubblica Italiana</orgName>
                <orgName full="yes" xml:lang="it">Senate of the Republic of Italy</orgName>
             </org>
@@ -4957,12 +5021,12 @@
                   </textClass>
                </textClass>
                <particDesc>
-	    <!-- listOrg and listPerson are typically stored in separate files -->
-	    &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	             href="href="ParlaMint-SI-listOrg.xml"/&gt;
-	    &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	             href="href="ParlaMint-SI-listPerson.xml"/&gt;
-	  </particDesc>
+            <!-- listOrg and listPerson are typically stored in separate files -->
+            &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                     href="href="ParlaMint-SI-listOrg.xml"/&gt;
+            &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                     href="href="ParlaMint-SI-listPerson.xml"/&gt;
+          </particDesc>
                <langUsage>
                   <langUsage>
                      <language ident="sl" xml:lang="sl">slovenski</language>
@@ -5158,9 +5222,9 @@
                <catRef scheme="#parla.legislature" target="#parla.uni"/>
             </textClass>
         ... elsewhere ...
-	<taxonomy xml:id="parla.legislature">
-	  ...
-	  <category xml:id="parla.uni">
+        <taxonomy xml:id="parla.legislature">
+          ...
+          <category xml:id="parla.uni">
                   <catDesc xml:lang="lt">
                      <term>Vienų rūmų parlamentas</term>
                   </catDesc>
@@ -5217,11 +5281,11 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <particDesc>
-	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	           href="href="ParlaMint-SI-listOrg.xml"/&gt;
-	  &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
-	           href="href="ParlaMint-SI-listPerson.xml"/&gt;
-	</particDesc>
+          &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                   href="href="ParlaMint-SI-listOrg.xml"/&gt;
+          &lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" 
+                   href="href="ParlaMint-SI-listPerson.xml"/&gt;
+        </particDesc>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -5265,18 +5329,18 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <listOrg>
                <org xml:id="government.GB" role="government">
-	    ...
-	  </org>
+            ...
+          </org>
                <org xml:id="PoGB" role="parliament">
-	    ...
+            ...
           </org>
                <org role="parliamentaryGroup" xml:id="party.LI">
-	    ...
+            ...
           </org>
           ...
           <listRelation>
-	    ...
-	  </listRelation>
+            ...
+          </listRelation>
             </listOrg>
          </egXML>
       </exemplum>
@@ -5287,8 +5351,7 @@
       <content>
          <textNode/>
       </content>
-      <attList><!--head/@xml:lang--><!--head/@type-->
-         <attDef ident="xml:id" mode="delete"/>
+      <attList><!--head/@xml:id--><!--head/@xml:lang--><!--head/@type-->
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
@@ -5318,8 +5381,8 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <div type="debateSection">
                <head>Regulation of Health and Social Care Professions Etc. Bill [HL]</head>
-	  ...
-	</div>
+          ...
+        </div>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
@@ -5332,8 +5395,8 @@
                   <label xml:lang="nl">Zittingsperiode 51</label>
                   <label xml:lang="en">Legislative period 51</label>
                </event>
-	  ...
-	</listEvent>
+          ...
+        </listEvent>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -5428,8 +5491,8 @@
                <event from="1831-02-07">
                   <label xml:lang="en">existence</label>
                </event>
-	  ...
-	</org>
+          ...
+        </org>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
@@ -5652,8 +5715,8 @@
                             from="2010-05-06"
                             to="2015-05-07"/>
                   <relation>...</relation>
-	    ...
-	  </listRelation>
+            ...
+          </listRelation>
             </listOrg>
          </egXML>
       </exemplum>
@@ -5919,11 +5982,11 @@
             <listPerson>
                <head>List of speakers</head>
                <person xml:id="SayeedaWarsi">
-	    ...
-	  </person>
+            ...
+          </person>
                <person xml:id="DavidHamilton">
-	    ...
-	  </person>
+            ...
+          </person>
           ...
         </listPerson>
          </egXML>
@@ -5950,6 +6013,7 @@
       <attList><!-- BG uses @n --><!--person/@xml:id--><!--person/@xml:lang--><!--person/@n-->
          <attDef ident="role" mode="delete"/>
          <attDef ident="sex" mode="delete"/>
+         <attDef ident="gender" mode="delete"/>
          <attDef ident="age" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
@@ -6018,7 +6082,6 @@
                <valItem ident="N"/>
             </valList>
          </attDef>
-         <attDef ident="type" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
@@ -6144,7 +6207,7 @@
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <person xml:id="ReinerŽeljko" n="1291">
-	  ...
+          ...
           <birth when="1953-05-28"/>
             </person>
          </egXML>
@@ -6566,8 +6629,8 @@
                </birth>
                <education>инженер</education>
                <occupation>политик</occupation>
-	  ...
-	</person>
+          ...
+        </person>
          </egXML>
       </exemplum>
    </elementSpec>
@@ -6998,9 +7061,9 @@
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
             <equipment>
                <p>"Hi-8" 8 mm NTSC camcorder with integral directional
-	  microphone and windshield and stereo digital sound
-	  recording channel.
-	  </p>
+          microphone and windshield and stereo digital sound
+          recording channel.
+          </p>
             </equipment>
          </egXML>
       </exemplum>

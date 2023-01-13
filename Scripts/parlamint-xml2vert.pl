@@ -12,13 +12,13 @@ while (<>) {
     s|&apos;|'|g;
     s|&amp;|&|g;
     if (/\t/) {
-	s|&lt;|<|g;
-	s|&gt;|>|g;
-	s|&quot;|"|g;
+        s|&lt;|<|g;
+        s|&gt;|>|g;
+        s|&quot;|"|g;
     }
     elsif (/^</) {
-	#Get rid of namespaces
-	s| xmlns(:.*?)?=".*?"||;
+        #Get rid of namespaces
+        s| xmlns(:.*?)?=".*?"||;
     }
     print;
 }
