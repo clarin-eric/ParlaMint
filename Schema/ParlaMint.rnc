@@ -168,7 +168,9 @@ affiliation =
     temporal.atts?,
     ref.att?,
     attribute role { affiliationRole.val },
-    element roleName { lang.att, normalized-space.string }*
+    (element roleName { lang.att, normalized-space.string }*)
+    >> a:documentation [ "Optional note(s)." ],
+    element note { lang.att, normalized-space.string }*
   }
 
 ## The occupation of a person.

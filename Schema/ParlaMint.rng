@@ -373,6 +373,13 @@
           <ref name="normalized-space.string"/>
         </element>
       </zeroOrMore>
+      <a:documentation>Optional note(s).</a:documentation>
+      <zeroOrMore>
+        <element name="note">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </zeroOrMore>
     </element>
   </define>
 
