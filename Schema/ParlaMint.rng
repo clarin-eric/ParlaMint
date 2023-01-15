@@ -373,13 +373,16 @@
           <ref name="normalized-space.string"/>
         </element>
       </zeroOrMore>
-      <a:documentation>Optional note(s).</a:documentation>
-      <zeroOrMore>
+      <a:documentation>Optional note for free-text note of the affiliation period.</a:documentation>
+      <optional>
         <element name="note">
+          <attribute name="type">
+            <value>period</value>
+          </attribute>
           <ref name="lang.att"/>
           <ref name="normalized-space.string"/>
         </element>
-      </zeroOrMore>
+      </optional>
     </element>
   </define>
 

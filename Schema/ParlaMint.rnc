@@ -169,8 +169,14 @@ affiliation =
     ref.att?,
     attribute role { affiliationRole.val },
     (element roleName { lang.att, normalized-space.string }*)
-    >> a:documentation [ "Optional note(s)." ],
-    element note { lang.att, normalized-space.string }*
+    >> a:documentation [
+         "Optional note for free-text note of the affiliation period."
+       ],
+    element note {
+      attribute type { "period" },
+      lang.att,
+      normalized-space.string
+    }?
   }
 
 ## The occupation of a person.
