@@ -4,31 +4,35 @@ gen-persons-v2:
 gen-persons-v3:
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${IN3} > ${PER}
 
-## Insert minister affiliations from TSV file into a root file.
-## Fixed: BE ES HR LT LV PL SI TR
-MC = SI
+## Insert minister affiliations from TSV file into a testing root file.
+## Fixed: 
+## Fixing: BE ES HR LT LV PL SI TR
+MC = BE
+V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
+V3  = /project/corpora/Parla/ParlaMint/ParlaMint-data/Data
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3 = ${V3}/ParlaMint-${MC}/ParlaMint-${MC}.xml
-IN3F = /project/corpora/Parla/ParlaMint/V3/Master/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
-OUT = tmp/ParlaMint-${MC}.xml
-insert-ministries-v2:
-	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN2} > ${OUT} 2> ParlaMint_ministers-${MC}.log
-	#${vrt} ${OUT}
-	${s} -xsl:${RUN}/check-links.xsl ${OUT}
-insert-ministries-v3:
-	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3} > ${OUT}
-	${vrt} ${OUT}
-	${s} -xsl:${RUN}/check-links.xsl ${OUT}
-	-diff -b ${IN3} ${OUT}
-insert-ministries-v3f:
-	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3F} > ${OUT}
-	${vrt} ${OUT}
-	${s} -xsl:${RUN}/check-links.xsl ${OUT}
-	-diff -b ${IN3F} ${OUT}
+IN3F = /project/corpora/Parla/ParlaMint/V3/Master/ParlaMint-${MC}.TEI
+OUT = tmp
 
-V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
-V3  = /project/corpora/Parla/ParlaMint/ParlaMint-data/Data
+insert-ministries-v2:
+	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN2} \
+	> ${OUT}/ParlaMint-${MC}.xml 2> ParlaMint_ministers-${MC}.log
+	#${vrt} ${OUT}/ParlaMint-${MC}.xml
+	${s} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}.xml
+insert-ministries-v3:
+	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3} > ${OUT}/ParlaMint-${MC}.xml
+	${vrt} ${OUT}/ParlaMint-${MC}.xml
+	${s} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}.xml
+	-diff -b ${IN3} ${OUT}/ParlaMint-${MC}.xml
+insert-ministries-v3f:
+	cp ${IN3F}/*.xml ${OUT}/ #copy factorised files
+	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3F}/ParlaMint-${MC}.xml \
+	> ${OUT}/ParlaMint-${MC}.xml
+	${vrt} ${OUT}/ParlaMint-${MC}.xml
+	${s} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}.xml
+	-diff -b ${IN3F}/ParlaMint-${MC}.xml ${OUT}/ParlaMint-${MC}.xml
 
 ## Generate TSV files for minister affiliations on the basis of the corpus root files.
 gen:	genV2 genV3
