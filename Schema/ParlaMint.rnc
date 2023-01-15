@@ -73,10 +73,7 @@ state =
          "The subtype of state gives the source of this information."
        ],
     attribute subtype { stateSubtype.val },
-    
-    ## The URI of the source where this information was taken
-    ##         from.
-    (attribute source { anyURIs }?),
+    source.att,
     
     ## The political orientation if given as a numeric value.
     (attribute n { xsd:decimal }?)
@@ -166,7 +163,8 @@ affiliation =
   element affiliation {
     ana.att?,
     temporal.atts?,
-    ref.att?,
+    ref.att,
+    source.att,
     attribute role { affiliationRole.val },
     (element roleName { lang.att, normalized-space.string }*)
     >> a:documentation [

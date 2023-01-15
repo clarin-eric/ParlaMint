@@ -139,13 +139,7 @@
       <attribute name="subtype">
         <ref name="stateSubtype.val"/>
       </attribute>
-      <optional>
-        <a:documentation>The URI of the source where this information was taken
-        from.</a:documentation>
-        <attribute name="source">
-          <ref name="anyURIs"/>
-        </attribute>
-      </optional>
+      <ref name="source.att"/>
       <optional>
         <a:documentation>The political orientation if given as a numeric value.</a:documentation>
         <attribute name="n">
@@ -361,9 +355,8 @@
       <optional>
         <ref name="temporal.atts"/>
       </optional>
-      <optional>
-        <ref name="ref.att"/>
-      </optional>
+      <ref name="ref.att"/>
+      <ref name="source.att"/>
       <attribute name="role">
         <ref name="affiliationRole.val"/>
       </attribute>
