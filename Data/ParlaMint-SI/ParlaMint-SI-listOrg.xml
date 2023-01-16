@@ -366,19 +366,18 @@
                 active="#party.SAB"
                 passive="#party.ZaSLD"
                 when="2017-10-07"/>
-      <relation name="renaming" mutual="#party.SMC.2 #party.GAS" when="2021-12-04"/>
-      <relation name="coalition"
-                mutual="#party.PS #party.SD #party.DL #party.DeSUS"
-                from="2013-03-20"
-                to="2014-09-18"
-                ana="#GOV.11"/>
+      <relation name="renaming"
+                active="#party.Konkretno"
+                passive="#party.SMC.2 #party.GAS"
+                when="2021-12-04"/>
       <relation name="coalition"
                 mutual="#party.SMC.1 #party.SMC.2 #party.SD #party.DeSUS"
                 from="2014-09-18"
                 to="2018-09-12"
                 ana="#GOV.12"/>
       <relation name="opposition"
-                mutual="#party.SDS.2 #party.IMNS #party.ZaAB #party.NeP #party.NP #party.NSi #party.Levica.1 #party.Levica.2"
+                active="#party.SDS.2 #party.IMNS #party.ZaAB #party.NeP #party.NP #party.NSi #party.Levica.1 #party.Levica.2"
+                passive="#GOV"
                 from="2014-09-18"
                 to="2018-09-12"
                 ana="#GOV.12"/>
@@ -388,7 +387,8 @@
                 to="2020-03-12"
                 ana="#GOV.13"/>
       <relation name="opposition"
-                mutual="#party.SDS.2 #party.Levica.2 #party.NSi #party.NeP #party.NP #party.IMNS #party.SNS"
+                active="#party.SDS.2 #party.Levica.2 #party.NSi #party.NeP #party.NP #party.IMNS #party.SNS"
+                passive="#GOV"
                 from="2018-09-13"
                 to="2020-03-12"
                 ana="#GOV.13"/>
@@ -398,7 +398,8 @@
                 to="2022-06-01"
                 ana="#GOV.14"/>
       <relation name="opposition"
-                mutual="#party.LMŠ #party.SD #party.SAB #party.Levica.2 #party.NeP #party.NP #party.IMNS #party.SNS"
+                active="#party.LMŠ #party.SD #party.SAB #party.Levica.2 #party.NeP #party.NP #party.IMNS #party.SNS"
+                passive="#GOV"
                 from="2020-03-13"
                 to="2022-06-01"
                 ana="#GOV.14"/>
