@@ -1,6 +1,6 @@
-## Edt: BE ES HR LT LV PL SI TR?
-## New: BA BG RS
-## OK:  AT CZ DK GR HU IS NL NO PT SE SI TR
+## Edited, still problems: BE ES HR LT LV PL SI TR?
+## Not yet edited: BA BG RS
+## Corpus already contains ministers: AT CZ DK GR HU IS NL NO PT SE SI TR
 MC = BE
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
