@@ -1,10 +1,13 @@
 # ParlaMint Data samples
 
 This directory contains:
-* *Sample corpus directories* with:
-  * `ParlaMint-XX.xml`: teiCorpus root file of the sample with (e.g. speaker and party) metadata and
-     XIncludes to its component TEI files;
-  * `ParlaMint-XX_*.xml`: sample TEI component, a few speeches from the full text
+* ParlaMint-XX: directories with samples of complete corpora containing:
+  * `ParlaMint-XX.xml`: teiCorpus root file of the sample and XIncludes to other TEI files constituting
+     the sample corpus;
+  * `ParlaMint-XX-listOrg.xml`: the complete list of organisations used by the corpus;
+  * `ParlaMint-XX-listPerson.xml`: the complete list of speaker used by the corpus;
+  * `ParlaMint-taxonomy-*.xml`: common taxonomies used by the corpus;
+  * `ParlaMint-XX_*.xml`: sample TEI components, a few speeches from the full text
     (typically 1 day of speeches);
   * `ParlaMint-XX.ana.xml`: teiCorpus root file for the linguistically (UD and NER) annotated sample,
     including annotation metadata;
@@ -25,4 +28,3 @@ This directory contains:
   and political parties minister affiliations into the ParlaMint corpora
   the ParlaMint corpora
 * [Taxonomies/](Taxonomies/): directory for development of common taxonomies
-
