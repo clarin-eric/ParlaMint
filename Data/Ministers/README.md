@@ -4,9 +4,9 @@ This directory contains the TSV files and build invironment for inserting minist
 the ParlaMint corpora.
 
 The current state of processing is:
-* Source corpus already contains ministers: AT CZ DK GR HU IS NL NO PT SE SI TR
+* Source corpus already contains ministers: AT BG CZ DK GR HU IS NL NO PT SE SI TR
 * Edited files: BE ES HR LT LV PL SI (TR)
-* Not yet edited: BA BG RS
+* Not yet edited: BA RS
 
 The directory contains the following types of files:
 * ParlaMint_speakers-XX.tsv: complete list of speakers
