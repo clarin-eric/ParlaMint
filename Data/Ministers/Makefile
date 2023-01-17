@@ -36,10 +36,10 @@ insert-ministries-v2:
 insert-ministries-v3:
 	cp ${V3}/ParlaMint-${MC}.TEI/*.xml ${OUT}/ #copy factorised files
 	$s meta=${IN3} tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3lp} \
-	> ${OUT}/ParlaMint-${MC}-listPerson.xml 2> ParlaMint_ministers-${MC}.log
+	2> ParlaMint_ministers-${MC}.log | ${RUN}/polish-xml.pl > ${OUT}/ParlaMint-${MC}-listPerson.xml 
 	${vrp} ${OUT}/ParlaMint-${MC}-listPerson.xml
 	${s} meta=${IN3} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}-listPerson.xml
-	-diff -b ${IN3} ${OUT}/ParlaMint-${MC}-listPerson.xml
+	-diff -b ${IN3lp} ${OUT}/ParlaMint-${MC}-listPerson.xml
 
 ######################VARIABLES
 RUN = ../../Scripts
