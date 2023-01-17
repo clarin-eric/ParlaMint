@@ -1,7 +1,7 @@
-## Edited, still problems: BE ES HR LT LV PL SI TR?
+## Edited, still problems: BE ES HR LT LV PL
 ## Not yet edited: BA BG RS
 ## Corpus already contains ministers: AT CZ DK GR HU IS NL NO PT SE SI TR
-MC = BE
+MC = SI
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
 V3  = /project/corpora/Parla/ParlaMint/V3/Master
@@ -11,7 +11,7 @@ IN3lp = ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml
 OUT = tmp
 
 analyse:
-	grep ERROR *.log > ParlaMint_ministers-XX-errors.log
+	grep ERROR ParlaMint_*.log > Ministers-errors.log
 
 ## Generate TSV .auto files for minister affiliations
 genV2:
