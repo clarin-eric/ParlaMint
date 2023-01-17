@@ -4,9 +4,10 @@
 MC = BE
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
-V3  = /project/corpora/Parla/ParlaMint/V3/Data
+V3  = /project/corpora/Parla/ParlaMint/V3/Master
 IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3 = ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
+IN3lp = ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml
 OUT = tmp
 
 analyse:
@@ -34,12 +35,11 @@ insert-ministries-v2:
 	${s} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}.xml
 insert-ministries-v3:
 	cp ${V3}/ParlaMint-${MC}.TEI/*.xml ${OUT}/ #copy factorised files
-	$s tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3} \
-	> ${OUT}/ParlaMint-${MC}.xml 2> ParlaMint_ministers-${MC}.log
+	$s meta=${IN3} tsv=${TSV} -xsl:${RUN}/ministers-tsv2tei.xsl ${IN3lp} \
+	> ${OUT}/ParlaMint-${MC}-listPerson.xml 2> ParlaMint_ministers-${MC}.log
 	${vrp} ${OUT}/ParlaMint-${MC}-listPerson.xml
-	${vrt} ${OUT}/ParlaMint-${MC}.xml
-	${s} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}.xml
-	#-diff -b ${IN3} ${OUT}/ParlaMint-${MC}.xml
+	${s} meta=${IN3} -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}-listPerson.xml
+	-diff -b ${IN3} ${OUT}/ParlaMint-${MC}-listPerson.xml
 
 ######################VARIABLES
 RUN = ../../Scripts
