@@ -9,6 +9,9 @@ IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3 = ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 OUT = tmp
 
+analyse:
+	grep ERROR *.log > ParlaMint_ministers-XX-errors.log
+
 ## Generate TSV .auto files for minister affiliations
 genV2:
 	$s outDir=. -xsl:${RUN}/ministers-tei2tsv.xsl ${V2}/ParlaMint.xml
