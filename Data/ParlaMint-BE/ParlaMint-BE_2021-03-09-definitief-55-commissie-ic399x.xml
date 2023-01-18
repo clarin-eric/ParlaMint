@@ -1,0 +1,830 @@
+<TEI xml:lang="nl" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x" ana="#parla.sitting #covid" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE, commissievergadering van 09-03-2021 [ParlaMint]</title>
+                <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE, committee meeting of 09-03-2021 [ParlaMint]</title>
+                <meeting corresp="#be_federal_parliament" ana="#parla.meeting.committee" n="ic399">Commissievergadering 399 van 09-03-2021</meeting>
+                <meeting ana="#parla.term #period_55" corresp="#be_federal_parliament" n="55">Zittingperiode 55</meeting>
+                <respStmt>
+                    <persName>Henk van der Pol</persName>
+                    <persName>Griet Depoorter</persName>
+                    <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+                    <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+                </respStmt>
+                <funder>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">De Europese Commissie</orgName>
+                    <orgName xml:lang="en">The European Commission</orgName>
+                </funder>
+                <funder>
+                    <orgName xml:lang="nl">Taalunie</orgName>
+                    <orgName xml:lang="en">Dutch Language Union</orgName>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>0.9</edition>
+            </editionStmt>
+            <extent>
+                <measure unit="speeches" quantity="45" xml:lang="en">45 speeches</measure>
+                <measure unit="speeches" quantity="45" xml:lang="nl">45 spreekbeurten</measure>
+                <measure unit="words" quantity="12292" xml:lang="en">12292 words</measure>
+                <measure unit="words" quantity="12292" xml:lang="nl">12292 woorden</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+                    <orgName xml:lang="en">Dutch Language Institute</orgName>
+                    <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+                    <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+                    <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+                </publisher>
+                <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+                    <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                    <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>                    
+                </availability>
+                <date when="2022-07-27">2022-07-27</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="main" xml:lang="fr">Commission de la Santé et de l'Égalité des chances du Mardi 9 mars 2021 Après-midi</title>
+                    <title type="main" xml:lang="nl">Commissie voor Gezondheid en Gelijke Kansen van Dinsdag 9 maart 2021 Namiddag</title>
+                    <idno type="URI">https://www.dekamer.be/doc/CCRI/html/55/ic399x.html</idno>
+                    <date when="2021-03-09">2021-03-09</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p xml:lang="nl">
+      <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+      is een project dat tot doel heeft
+      (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de
+      <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref>
+      en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen;
+      (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen;
+      (3) de corpora beschikbaar te maken via concordancers en Parlameter; en
+      (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>                
+                <p xml:lang="en">
+      <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+      is a project that aims to
+      (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the
+      <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>
+      and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus;
+      (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation;
+      (3) make the corpora available through concordancers and Parlameter; and
+      (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>                
+            </projectDesc>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="u" occurs="45"/>
+                    <tagUsage gi="seg" occurs="202"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="note" occurs="140"/>
+                </namespace>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <name type="city">Brussel</name>
+                    <name key="BE" type="country">België</name>
+                    <date ana="#parla.sitting" when="2021-03-09">2021-03-09</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-07-27"><name>Henk van der Pol</name>: initial version.</change>            
+        </revisionDesc>
+    </teiHeader>
+    <text ana="#covid">
+        <body>
+            <div type="debateSection">
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Le développement des questions et interpellations commence à 15 h 59. La réunion est présidée par M. Thierry Warmoes.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De behandeling van de vragen en interpellaties vangt aan om 15.59 uur. De vergadering wordt voorgezeten door Thierry Warmoes.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Les textes figurant en italique dans le Compte rendu intégral n’ont pas été prononcés et sont la reproduction exacte des textes déposés par les auteurs.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De teksten die in cursief zijn opgenomen in het Integraal Verslag werden niet uitgesproken en steunen uitsluitend op de tekst die de spreker heeft ingediend.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    01 Question de Laurence Zanchetta à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les traitements contre l'obésité&quot; (55013424C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    01 Vraag van Laurence Zanchetta aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;Obesitasbehandelingen&quot; (55013424C)
+                </note>
+                <note type="speaker">01.01 Laurence Zanchetta (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u1" who="#ZanchettaLaurence" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg1" xml:lang="fr">Monsieur le ministre, le Saxenda, un médicament destiné à lutter contre l'obésité, est apparu voici quelques années. Il est extrêmement coûteux avec un prix allant de 120 euros à plusieurs centaines d'euros, selon le dosage et le nombre de stylos dont le patient a besoin. Pourtant, ce traitement ne fait actuellement l'objet d'aucun remboursement en Belgique, tout comme le seul autre médicament disponible contre l'obésité, à savoir l'Orlistat. C'est assez interpellant du fait que l'obésité s'apparente à une maladie chronique et nécessite dès lors un traitement de longue durée.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg2" xml:lang="fr">Par ailleurs, ce médicament permet aussi de réguler la glycémie et certaines personnes atteintes de diabète sont également parfois amenées à le prendre. Ce médicament représente donc de lourdes dépenses sur le long terme, auxquelles les patients n'ont pas toujours la capacité de faire face financièrement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg3" xml:lang="fr">Monsieur le ministre, des demandes de remboursement ont-elles été introduites par les firmes concernées auprès de l'AFMPS? Pour quelles raisons n'y a-t-il aujourd'hui aucun remboursement pour ces traitements? Quelles alternatives s'offrent-elles dès lors aux patients concernés?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg4" xml:lang="fr">Je vous remercie pour votre réponse.</seg>
+                </u>
+                <note type="speaker">01.02 Frank Vandenbroucke,ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u2" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg5" xml:lang="fr">Monsieur le président, chère collègue, le médicament Saxenda a reçu une autorisation de mise sur le marché par la Commission européenne en 2015. En avril 2020, la firme Novo Nordisk a demandé le remboursement auprès de l'INAMI. Selon mes informations, la firme a suspendu la procédure.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg6" xml:lang="fr">Selon les indications thérapeutiques enregistrées, le Saxenda n'est jamais donné seul à des patients souffrant d'obésité. Il s'agit clairement d'un complément lié à un régime hypocalorique et à une augmentation de l'activité physique. Par conséquent, je ne me prononcerai pas sur une procédure en cours à l'INAMI, qu'elle soit favorable ou défavorable au remboursement en Belgique. Je m'excuse pour cette réponse ultra courte.</seg>
+                </u>
+                <note type="speaker">01.03 Laurence Zanchetta (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u3" who="#ZanchettaLaurence" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg7" xml:lang="fr">Monsieur le ministre, je suis assez surprise par cette courte réponse, mais je resterai attentive à la suite du traitement de ce dossier, notamment en ce qui concerne les alternatives pour les personnes concernées. Comme expliqué dans ma question, l'obésité doit être traitée et envisagée comme une maladie chronique.</seg>
+                </u>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    02 Vraag van Evita Willaert aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De automatische toekenning van het recht op een verhoogde tegemoetkoming&quot; (55014498C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    02 Question de Evita Willaert à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;L’octroi automatique du droit à une intervention majorée&quot; (55014498C)
+                </note>
+                <note type="speaker" xml:lang="nl">02.01 Evita Willaert (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u4" who="#WillaertEvita" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg8" xml:lang="nl">Mijnheer de voorzitter, mijnheer de minister, wie bepaalde sociale uitkeringen krijgt, heeft automatisch recht op een verhoogde tegemoetkoming. Ook mensen die onder een bepaalde inkomensgrens vallen, hebben daar recht op maar die moeten het wel aanvragen bij het ziekenfonds. Niet iedereen is daarvan op de hoogte, aangezien het recht niet automatisch toegekend wordt. Er is dus nog zeker een marge om het systeem van die automatische toekenning te verbeteren. De voorbije jaren was er een project, de zogenaamde proactieve flux, waarbij de ziekenfondsen zelf proactief mensen moesten contacteren die mogelijk in aanmerking kwamen voor een verhoogde tegemoetkoming.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg9" xml:lang="nl">Wat is de stand van zaken van dat project? Hoe werd dat geëvalueerd? Gaan de ziekenfondsen daar verder mee aan de slag? Naast de tegemoetkoming op zich zijn er ook bepaalde voordelen aan gekoppeld, zoals een korting op het openbaar vervoer. Wat is de stand van zaken op het vlak van de automatisering van die koppeling? Op welke manier zal u daarvoor samenwerken met de bevoegde ministers om de non-take-up van die rechten en voordelen tegen te gaan?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">02.02 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u5" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg10" xml:lang="nl">Mijnheer de voorzitter, mevrouw Willaert, de proactieve flux is gecreëerd voor het jaar 2015, en u heeft goed omschreven waarover het gaat. De effecten van deze proactieve detectie van de verhoogde tegemoet­koming werden door het RIZIV onderzocht. Bij het afsluiten van die oefening op 1 januari 2018 werd het recht op verhoogde tegemoetkoming toegekend aan 160.553 personen die in 2015 werden doorgegeven via deze proactieve flux. Van hen openden 132.965 personen het recht, na een inkomensonderzoek door het ziekenfonds, en 27.588 personen openden automatisch het recht.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg11" xml:lang="nl">Gelet op de positieve resultaten van de proactieve flux 2015 is beslist om vanaf 2020 het systeem jaarlijks te organiseren.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg12" xml:lang="nl">Ik ben me ervan bewust dat de verhoogde tegemoetkoming niet enkel de toegankelijkheid in de verplichte verzekering voor geneeskundige verzorging verhoogt voor verzekerden met bescheiden inkomens, maar ook een instrument bij uitstek is in de strijd tegen armoede. Ze wordt inderdaad vaak gekoppeld aan andere voordelen buiten de verplichte verzekering voor geneeskundige verzorging zoals kortingen op het openbaar vervoer of een goedkoper gas- en elektriciteitstarief.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg13" xml:lang="nl">Het automatisch toekennen van deze voordelen op basis van de verhoogde tegemoetkoming gebeurt via de Kruispuntbank van de Sociale Zekerheid. De KSZ is ermee belast aan de instanties die aanvullende rechten toekennen een beveiligde, snelle en betrouwbare raadpleging aan te bieden van de gegevens die nodig zijn voor een correcte vaststelling van deze rechten. Het netwerk van de sociale zekerheid biedt toegang tot verschillende authentieke bronnen voor de opzoeking van de nodige informatie. Daarnaast heeft de KSZ een zogenaamde buffergegevensbank aangelegd waarin trimestriële informatie, die vaak wordt gebruikt als basis voor de toekenning van de afgeleide rechten, op een geactualiseerde manier tijdelijk wordt bijgehouden. In dat opzicht neemt het RIZIV als bevoegde instantie voor de verhoogde tegemoetkoming deel aan het project geharmoniseerde sociale statuten, afgeleide rechten van de KSZ, waarin de automatische toekenning van de rechten wordt bevorderd in plaats van toekenning op uitdrukkelijke vraag. Daarbij wordt een vermindering van het aantal gebruikte statuten en de complexiteit ervan beoogt, alsook een harmonisering van de toekenningsvoorwaarden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg14" xml:lang="nl">Daarnaast neemt het RIZIV als stakeholder deel aan verschillende werkgroepen die de non-take-up van sociale rechten en voordelen in het algemeen bestrijden, zoals onder andere het BELMOD-project dat de toegang tot sociale bescherming in België wil verbeteren en dat gefinancierd wordt door de Europese Commissie, en het Take-project dat de oorzaken onderzoekt van non-take-up en georganiseerd wordt door de FOD Sociale Zekerheid, de Universiteit Antwerpen, de universiteit van Luik en het Federale Planbureau. Ik hoop dat deze informatie nuttig is voor u.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">02.03 Evita Willaert (Ecolo-Groen):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u6" who="#WillaertEvita" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg15" xml:lang="nl">Mijnheer de minister, uw antwoord is zeker nuttig. Er waren heel mooie resultaten behaald. Het is heel goed dat dit project jaarlijks door de mutualiteiten zal worden herhaald. In het regeerakkoord staat ook dat men verder aan de optimalisering van de toekenning van de automatische rechten wil werken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg16" xml:lang="nl">Ik merk dat heel wat initiatieven worden genomen en dat het RIZIV aan verschillende werkgroepen deelneemt. Men bekijkt ook hoe de gegevens­uitwisseling nog efficiënter en eenvoudiger kan gebeuren. Ik zou zeggen: nog meer van dat. Het is geen eenvoudige materie. We hebben het niet altijd gemakkelijk gemaakt in dit land. De mensen die bepaalde rechten hebben, mogen hiervan niet het slachtoffer zijn. We moeten ervoor zorgen dat ze deze rechten niet mislopen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg17" xml:lang="nl">Ik wens u succes met verdere initiatieven op dit vlak, mijnheer de minister.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03 Question de Sophie Rohonyi à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Le dépistage de la drépanocytose et l’aide aux familles drépanocytaires&quot; (55013681C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03 Vraag van Sophie Rohonyi aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De screening op sikkelcelziekte en de steun aan de getroffen gezinnen&quot; (55013681C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    03.01 Sophie Rohonyi (DéFI):
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Monsieur le ministre, la drépanocytose est due à une anomalie de l’hémoglobine, principal constituant du globule rouge assurant le transport d’oxygène dans le sang pour le distribuer à tous les organes. Elle dépend de la combinaison de gènes transmis par les parents à l'enfant. Avec plus de 50 millions de personnes atteintes à travers le monde, la drépanocytose est la maladie génétique la plus répandue. La Belgique compte plus de 50.000 personnes atteintes par la maladie, laquelle est pourtant toujours considérée comme honteuse ou perçue comme une fatalité.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Notre groupe a tenté à plusieurs reprises d’alerter la précédente ministre de la Santé, Maggie de Block, sur la problématique de la drépanocytose. Malheureusement, la balle avait alors été renvoyée aux Régions.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Les associations de sensibilisation et d'information sur la drépanocytose ne cessent de militer pour une meilleure formation des médecins au traitement de la maladie. Cette demande est également portée par une partie du corps médical.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Un autre pan de la problématique de la drépanocytose concerne les coûts supplémentaires engendrés par les soins. A l’heure actuelle, les séances de psychomotricité ne sont pas remboursées par la mutuelle, ce qui a un impact sur les finances des familles monoparentales ainsi que sur les familles aux faibles revenus.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    En Belgique où la maladie ne fait pas partie du programme de dépistage néonatal obligatoire, une enquête épidémiologique récente a pourtant montré que la drépanocytose est la maladie génétique la plus fréquente avec des pics d’incidence en zones urbaines (Bruxelles, Anvers, Liège ...) comparables à ceux observés à Londres ou à Paris (1 cas de forme sévère pour 1.000 naissances et 20 porteurs pour 1.000 naissances au CHR de Liège).
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    •Est-il possible de considérer la mise en place d’un code pour permettre un suivi efficient des patients?
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    •Un protocole de coopération entre les entités fédérées et le gouvernement fédéral concernant le dépistage de la drépanocytose pourrait-il être mis en place à l’image de ce qui a été fait pour les vaccins dans le cadre de la crise sanitaire du COVID-19?
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    •Un dépistage néonatal systématique et/ou obligatoire ne devrait-il pas être instauré en Belgique à l’instar de ce qui se fait actuellement au Royaume-Uni et aux Etats-Unis?
+                </note>
+                <note type="speaker" xml:lang="nl">03.02 Frank Vandenbroucke, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u7" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg18" xml:lang="fr">Monsieur le président, le dépistage néonatal relève des compétences des entités fédérées.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg19" xml:lang="fr">Un groupe de travail intercabinets de la Conférence interministérielle de la Santé a examiné pendant la précédente législature les maladies qui devraient être ajoutées au dépistage des nouveau-nés, dont la drépanocytose. Dans une première étape, la priorité a été donnée au dépistage néonatal de la mucoviscidose, qui a été intégré dans le dépistage néonatal organisé par les entités fédérées en 2019. Le dépistage n'est pas obligatoire. Il est important d'informer correctement les groupes cibles afin qu'ils fassent un choix conscient de participer. Les programmes de dépistage néonatal doivent être basés sur des considérations de preuves scientifiques, d'acceptabilité sociale et d'efficacité. Ils ont pour objectif des gains de santé au niveau de la population.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg20" xml:lang="fr">Des recherches approfondies sont donc néces­saires avant la décision au niveau des entités fédérées d'inclure une maladie supplémentaire dans le dépistage néonatal. L'élargissement du dépistage néonatal à d'autres maladies sera examiné en concertation avec les entités fédérées quand la Conférence interministérielle pourra reprendre des thèmes qui ne seront pas en lien avec la crise covid, qui demande hélas toute notre attention pour le moment.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg21" xml:lang="fr">En ce qui concerne la mise en place d'un code pour le suivi des patients, le diagnostic du patient est repris dans le dossier médical, qui peut être consulté par les prestataires de soins qui ont une relation thérapeutique avec le patient.</seg>
+                </u>
+                <note type="speaker">03.03 Sophie Rohonyi (DéFI):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u8" who="#RohonyiSophie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg22" xml:lang="fr">Monsieur le ministre, je vous remercie pour vos réponses.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg23" xml:lang="fr">J'entends que les services et les différents ministres sont extrêmement sollicités par la crise sanitaire. Si je tenais à vous interpeller sur la drépanocytose, c'est parce que c'est une maladie qui continue de toucher énormément les patients. Elle concerne plus de 50 000 personnes en Belgique, soit une naissance sur 2 000.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg24" xml:lang="fr">Au-delà de la question du caractère régional du dépistage néonatal, d'autres questions méritent selon moi d'être traitées et peuvent déjà l'être aujourd'hui, même en temps de crise sanitaire. Je pense à la formation des médecins mais aussi au remboursement des séances de psychomotricité, parce qu'à défaut d'opérer un remboursement correct de ces séances, on renforce finalement la précarité ou en tout cas les difficultés financières de ces familles. Or nous savons précisément que la crise sanitaire a eu pour effet de renforcer leur précarité.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg25" xml:lang="fr">Je pense que c'est vraiment une question à laquelle votre gouvernement doit pouvoir s'atteler parce que, comme pour tout traitement, l'impact budgétaire pour l'État sera nettement moindre si l'on fait en sorte de dépister la maladie au plus tôt et de soutenir les patients dès le plus jeune âge plutôt que de fermer les yeux sur leur réalité et par conséquent de faire en sorte que la maladie s'aggrave et entraîne des complications. C'est plus un choix politique qui s'impose ici qu'un choix dicté par les circonstances actuelles.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04 Question de Sophie Rohonyi à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;La gestion des déchets dans les salles d’opération des hôpitaux&quot; (55014329C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    04 Vraag van Sophie Rohonyi aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;Het beheer van het afval uit de operatiekamers in de ziekenhuizen&quot; (55014329C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    • Quel type de gaz d’anesthésie est utilisé par nos hôpitaux?
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    • Des réflexions sont-elles en cours pour privilégier l’usage de ceux qui sont les moins coûteux et les moins polluants, ainsi qu’en vue d’en diminuer l’usage global?
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    • Nos hôpitaux ont-ils accès au dispositif Deltasorb? A défaut, des réflexions sont-elles en cours pour en acquérir, ou du moins pour recycler les gaz utilisés?
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    • Avez-vous déjà eu des contacts avec cette société belge qui offre une technologie mondialement reconnue dans le traitement des déchets contaminés? Serait-il envisageable de décontaminer les déchets hospitaliers pour réduire le coût et l’impact environnemental de leur incinération? Peut-on même envisager de recycler ces déchets?
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    • Y a-t-il déjà eu des contacts avec les entités fédérées à ce sujet?
+                </note>
+                <note type="speaker" xml:lang="nl">04.02 Frank Vandenbroucke, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u9" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg26" xml:lang="fr">Monsieur le président, madame la députée, l'Agence fédérale des médicaments et des produits de santé (AFMPS) est l'organe responsable de l'autorisation de mise sur le marché des produits de santé, en suivant la législation  medical devices. C'est elle qui décide, conformément à d'autres législations, si un produit ou une famille de produits peut servir dans le domaine de la santé.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg27" xml:lang="fr">Sous l'angle de l'environnement, on ne peut pas parler d'une règle spécifique. Les gaz de la famille des sévofluranes ou des desfluranes sont en effet des gaz à effets fluorés, mais ne sont pas soumis à un encadrement de leur production ou emploi par des traités internationaux tels que le Protocole de Montréal, amendé à Kigali et qui traite de la protection de la couche d'ozone stratosphérique, ou encore la Convention-Cadre des Nations Unies sur le changement climatique.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg28" xml:lang="fr">Par ailleurs, ils ne sont pas repris non plus dans le Règlement européen 517/2014 sur les gaz à effet de serre fluorés (annexes I et II). De plus, étant utilisés en médecine, ils auraient probablement fait l'objet de dérogations.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg29" xml:lang="fr">Quant à votre question relative au dispositif Deltasorb, permettez-moi de ne pas prendre position au sujet d'une technique ou d'une entreprise précise. En outre, je ne puis pas répondre convenablement à votre question portant sur le recyclage des déchets, puisque cet aspect relève des compétences de la ministre de l'Environnement.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">04.03 Sophie Rohonyi (DéFI):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u10" who="#RohonyiSophie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg30" xml:lang="fr">Monsieur le ministre, je vous remercie de votre réponse, à nouveau; claire et succincte.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg31" xml:lang="fr">Pour ce qui concerne l'impact environnemental des gaz utilisés dans les hôpitaux, j'entends qu'il n'est justiciable d'aucune réglementation découlant du droit international et européen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg32" xml:lang="fr">Cela ne peut permettre au gouvernement belge de se dédouaner de sa responsabilité. Pourquoi ne pas procéder à un cadre qui vise justement à encadrer l'utilisation de ces gaz?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg33" xml:lang="fr">Pour le reste, j'entends aussi une certaine fermeture au recours à certaines entreprises qui nous permettraient de nous aider dans le tri des déchets ou encore dans le traitement des déchets contaminés. Je le regrette car c'est une question qui se pose avec une certaine urgence. On a vu que, durant toute cette crise, les hôpitaux n'arrivaient pas à évacuer dans les temps les importantes quantités de déchets pour les incinérer.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg34" xml:lang="fr">Lorsque j'ai rédigé ma question, j'ai aussi constaté que le SPF Santé publique avait émis des recommandations sur son site concernant la gestion des déchets de soins de santé mais ces recommandations datent de 2005. Il serait peut-être temps de les actualiser, d'autant plus que les technologies ont considérablement évolué depuis lors, tant d'un point de vue de leur efficacité que de leur accessibilité financière.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg35" xml:lang="fr">Enfin, je me permets d'insister à nouveau sur la nécessité de travailler sur cette question car il en va de la sécurité du personnel médical. Cela présente aussi une utilité environnementale et budgétaire pour nos hôpitaux. Enfin, le fait de recourir à des sociétés belges qui ont développé des technologies innovantes de décontamination nous permettrait également de favoriser notre économie. C'est non négligeable durant la période de crise que nous vivons actuellement</seg>
+                </u>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    05 Vraag van Frieda Gijbels aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De besparingen in de gezondheidszorg&quot; (55014530C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    05 Question de Frieda Gijbels à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les économies dans le secteur des soins de santé&quot; (55014530C)
+                </note>
+                <note type="speaker" xml:lang="nl">05.01 Frieda Gijbels (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u11" who="#GijbelsFrieda" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg36" xml:lang="nl">Mijnheer de voorzitter, mijnheer de minister, een tijd geleden verscheen een artikel in  De Tijd waarin staatssecretaris voor Begroting Eva De Bleeker aangaf de overheidsuitgaven onder de loep te willen nemen, onder andere de uitgaven in de gezondheids­sector. Zij beoogt een besparing van 40 miljoen euro op een budget van 30 miljard euro, dit door een herziening van de financiering van de ziekenhuizen, meer specifiek verwees zij naar de dagopnames.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg37" xml:lang="nl">Werd dit met u overlegd? Zo ja, wat beoogt de staatssecretaris concreet? Hoe vertaalt zich deze besparing in de praktijk? Wat is het effect hiervan op de ziekenhuizen en de patiënten? Acht u de grootteorde van deze besparing realistisch?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">05.02 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u12" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg38" xml:lang="nl">Mijnheer de voorzitter, mevrouw Gijbels, er zijn mij geen geplande besparingen in de sector van de daghospitalisatie bekend. Er is wel een bedrag van 40 miljoen euro vermeld in het Nationaal akkoord artsen-ziekenfondsen, onder punt 2.3.2. Dat bedrag is echter niet gelinkt aan dagopnames en zal ook worden geherinvesteerd in andere maatregelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg39" xml:lang="nl">Er zijn echter wel werkzaamheden gaande inzake daghospitalisatie, die ik u kan toelichten. De Overeenkomstencommissie ziekenhuizen-verzekeringsinstellingen en de Federale raad voor Ziekenhuisvoorzieningen werkten in 2019 een visienota uit betreffende de herziening van de werking, de organisatie en de financiering van de daghospitalisatie. De nota vertrekt onder meer vanuit de vaststelling dat de verdere ontwikkeling van de daghospitalisatie belemmerd wordt door het financieringssysteem. Dat is ook bevestigd in een studie van het Kenniscentrum uit 2017. Dat brengt met zich met dat veel ingrepen nog in klassieke hospitalisatie gebeuren, terwijl ze ook via daghospitalisatie kunnen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg40" xml:lang="nl">In het tweede deel van de visienota wordt een voorstel van nieuwe definitie voor daghospitalisatie geformuleerd en wordt er ingegaan op organisatorische en financiële aspecten en evoluties. Zo vervaagt medisch gezien het onderscheid tussen chirurgische en niet-chirurgische verstrekkingen en nopen ook ontwikkelingen in de anesthesie tot aanpassingen in de organisatie van de dagziekenhuizen en de financiering.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg41" xml:lang="nl">In het derde deel wordt ingegaan op de essentiële voorwaarden om de daghospitalisatie te stimuleren, zoals kostendekkende financiering die ook rekening houdt met de transfer van klassieke opnames naar daghospitalisatie en de toenemende intensivering van de zorg, een artsen­expertengroep die jaarlijks de lijsten actualiseert in afwachting van een systeem met alternatieve criteria dat de lijsten vervangt, harmonie brengen in de aanverwante honoraria voor toezicht en coördinatie voor patiënten in daghospitalisatie, het in overeenstemming brengen van de kosten ten laste van de patiënt in daghospitalisatie versus klassieke opname, en een systeem van benchmarking waarin ook kwaliteitsparameters betrokken worden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg42" xml:lang="nl">Daarmee heb ik u een lange lijst gegeven van voorwaarden om de daghospitalisatie te stimuleren.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg43" xml:lang="nl">In artikel 14 van de Nationale overeenkomst ziekenhuizen-verzekeringsinstellingen, sinds 1 januari 2020 van kracht, zijn in uitvoering van die visienota engagementen opgenomen voor de evaluatie van de lijsten van de daghospitalisatie. Binnen de schoot van de Technisch Genees­kundige Raad is er daartoe in 2020 een permanente werkgroep daghospitalisatie opgericht. Die werkgroep laat zich voor haar adviezen bijstaan door experts van de beroepsorganisaties van de Belgian Association of Ambulatory Surgery en het Verbond van Belgische Artsen-Specialisten. In 2020 werd op basis van een eerste advies van die werkgroep reeds één verstrekking geschrapt uit de lijst van de daghospitalisatie. In maart 2021 wordt een meer uitgebreid advies verwacht op basis waarvan de overeenkomstencommissie een beslissing zal nemen over de aanpassing van de overeenkomst en een voorstel zal formuleren voor de aanpassing van de lijst A – chirurgische daghospitalisatie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg44" xml:lang="nl">Naast het forum voor de medische experts is er ook een financiële werkgroep daghospitalisatie opgericht. Op voorstel van die werkgroep zal de Federale raad voor ziekenhuisvoorzieningen in 2020 een advies formuleren over onder meer bijsturingen op korte termijn van de financierings­techniek van het budget voor financiële middelen van de chirurgische daghospitalisatie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg45" xml:lang="nl">Ik ben ervan overtuigd dat binnen deze organen en werkgroepen, samengesteld uit vertegen­woordigers van de Overeenkomstencommissie, de Federale raad voor Ziekenhuisvoorzieningen, de Nationale commissie artsen-ziekenfondsen en de Technisch Geneeskundige Raad, voortgang gemaakt wordt voor het afleveren van adviezen die het mogelijk zullen maken in 2021 beslissingen te nemen die de verdere ontwikkeling van de daghospitalisatie zullen versterken.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">05.03 Frieda Gijbels (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u13" who="#GijbelsFrieda" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg46" xml:lang="nl">Dank u, mijnheer de minister.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg47" xml:lang="nl">Als ik het goed begrijp, was wat staatssecretaris De Bleeker aangaf, niet helemaal goed doorgesproken met u. Ik zou mijn budgetten dan maar goed in de gaten houden, voor er iets verdwijnt waar u geen weet van heeft. Het is wel een goed verhaal wat u aangeeft, namelijk dat wordt ingezet op het stimuleren en beter mogelijk maken van daghospitalisatie. De meeste ziekenhuizen lijken mij ook wel vragende partij om de financiering daarrond aan te passen. Ik begrijp dat het nog niet voor morgen is en dat er nog wat werk aan de winkel is, vooraleer verdere stappen kunnen worden gezet.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="speaker" xml:lang="fr">Le président:</note>
+                <u ana="#chair" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u14" who="#WarmoesThierry" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg48" xml:lang="fr">La question n° 55014539C de Piedboeuf est reportée. Les questions nos 55014540C et 55014936C de Jadin sont transformées en questions écrites.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    06 Question de Kattrin Jadin à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;La reconnaissance du traitement à l’immunoglobuline pour le syndrome de l’homme raide&quot; (55014760C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    06 Vraag van Kattrin Jadin aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De erkenning van de behandeling van het Moersch-Woltman­syndroom met immunoglobulines&quot; (55014760C)
+                </note>
+                <note type="speaker" xml:lang="nl">06.01 Kattrin Jadin (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u15" who="#JadinKattrin" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg49" xml:lang="fr">Monsieur le ministre, j'ai récemment fait la connaissance d'une personne atteinte du syndrome de l'homme raide et son histoire me laisse perplexe. Au cours des années, le patient a dû faire de nombreux examens et a essayé plusieurs traitements, sans succès.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg50" xml:lang="fr">Depuis peu, il suit un traitement à l'immunoglobuline et son corps semble bien le tolérer. Il réussit à nouveau à maîtriser ses muscles et retrouve une certaine indépendance. Cependant, la Belgique, contrairement à l'Allemagne et à d'autres pays – j'ai fait mes recherches – ne reconnaît pas ce médicament pour le traitement du syndrome de l'homme raide et donc la mutuelle n'intervient pas dans les frais. Annuellement, les coûts pour ce traitement s'élèveraient à environ 40 000 euros, ce qui est énorme. Ce monsieur et son épouse, ainsi que la famille, sont vraiment confrontés à des problèmes existentiels.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg51" xml:lang="fr">Étant donné que ce traitement est déjà accepté par la mutuelle pour d'autres maladies ou domaines de la médecine en Belgique, comme l'oncologie, ne serait-il pas envisageable de le reconnaître également pour le syndrome de l'homme raide? Dans la négative, pourquoi n'est-ce pas possible? Si vous n'avez pas de réponse ou si la réponse devait être trop succincte, avez-vous des réflexions qui pourraient m'aider à secourir cette personne dont le destin, je l'avoue, m'affecte beaucoup?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">06.02 Frank Vandenbroucke,ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u16" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg52" xml:lang="fr">Chère députée, je ne me prononcerai ni sur le cas médical ni sur le dossier judiciaire individuel en cours à l'Arbeitsgericht (tribunal du travail) d'Eupen mais je vais me prononcer sur les aspects relatifs au remboursement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg53" xml:lang="fr">Je constate seulement certains faits. Le syndrome de l'homme raide ne fait pas partie des indications de mise sur le marché des immunoglobulines. La Commission de remboursement des médicaments de l'INAMI n'a jamais reçu de demande de remboursement pour motif d'absence de risques/bénéfices reconnus.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg54" xml:lang="fr">Une étude de phase 1, le premier pas vers l'autorisation de mise sur le marché a été réalisée avec effet positif dans les années nonante. C'est une étude publiée dans le journal réputé  The New England Journal of Medicine en 2001. Depuis lors, rien de concret. Il faut attendre deux décennies, jusqu'en 2018, pour le lancement d'une étude de phase 3. La Mayo Clinic, un hôpital renommé aux États-Unis, déclare officiellement qu'il veut étudier s'il existe un effet symptomatique dans ce syndrome. Cette étude n'a pas démarré depuis lors pour des raisons non révélées.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg55" xml:lang="fr">L'aspect de la preuve (evidence) ou absence de preuve est un des critères de base que le Collège des médecins directeurs de l'INAMI prend en compte pour accorder une intervention financière de l'INAMI dans des cas particuliers ou non. Il s'agit donc de vérifier si le stade expérimental est dépassé, ce qui n'est pas le cas ici comme je viens de vous l'expliquer.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg56" xml:lang="fr">En général, le KCE recommande de rembourser  of label des immunoglobulines pour des maladies pour lesquelles la preuve (evidence) est nette. La raison en est que la Belgique a connu des problèmes aigus d'approvisionnement d'immunoglobuline. Par conséquent, il est impé­ratif de bien prendre soin du choix de remboursement des immunoglobulines dans les indications de mise sur le marché et en particulier pour les situations hors notice.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg57" xml:lang="fr">Le Conseil Supérieur de la Santé n'a jamais repris, ces vingt dernières années, l'indication Stiff Person sur la liste des maladies pour lesquelles les immunoglobulines sont à prendre en considération. En 2019, le Centre fédéral d'expertise (KCE) cite cette indication mais ne la recommande pas.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg58" xml:lang="fr">J'imagine que ma réponse doit vous paraître quelque peu décevante mais je dois vraiment me baser sur l'évidence scientifique et clinique.</seg>
+                </u>
+                <note type="speaker">06.03 Kattrin Jadin (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u17" who="#JadinKattrin" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg59" xml:lang="fr">Je ne vous en veux pas, monsieur le ministre; je vois que vous vous êtes informé et que vous avez été bien documenté par votre administration. Je vous remercie pour le travail effectué à ce niveau-là.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg60" xml:lang="fr">On n'est pas face à une maladie rare pour laquelle on ne connaît pas de traitement; certains traitements semblent avoir de l'effet mais aucune aide n'est proposée. En tant que simple législateur, je ne comprends pas les choses comme vous venez de me les expliquer. Je reste donc perplexe car  in fine aucune aide ne sera octroyée, si j'ai bien compris, et c'est bien dommage.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note type="speaker" xml:lang="nl">06.04 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u18" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg61" xml:lang="nl">Mijnheer de voorzitter, ik kan slechts tot 17.00 uur blijven, wat waarschijnlijk niet lang genoeg is om mijn vragen nrs. 55014865C en 55014866C te stellen. Indien we zover geraken vandaag, zou ik u willen verzoeken die uit te stellen.</seg>
+                </u>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    07 Vraag van Valerie Van Peel aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De RIZIV-nummers&quot; (55014611C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    07 Question de Valerie Van Peel à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les numéros INAMI&quot; (55014611C)
+                </note>
+                <note type="speaker" xml:lang="nl">07.01 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u19" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg62" xml:lang="nl">Mijnheer de minister, de collega's die tijdens de vorige legislatuur al deel uitmaakten van de commissie voor Volksgezondheid, kunnen het nu al voorspellen dat u mij nog vaak over het onderwerp te horen zult krijgen, tenminste als u mij niet verbaast door het probleem van de RIZIV-nummers eindelijk op te lossen. Tot nu toe zie ik daar echter weinig voor gebeuren. De kwestie sleept al decennia aan, omdat men aan Franstalige zijde eigenlijk de federale wetgeving niet volgt. Veel erger is trouwens dat elke Vlaamse partij, behalve de mijne, dat ook al decennia toelaat.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg63" xml:lang="nl">Vorige zomer werd er een tijdelijke oplossing uitgewerkt voor het overtal aan studenten geneeskunde, via het KB van 16 augustus over de planning van het medisch aanbod. Dat was echter net niet wat er moest gebeuren en zorgde voor toenemende ongerustheid in Vlaanderen. Men vreest nog meer onduidelijkheid over het beschikbare aantal RIZIV-nummers en contingenterings­attesten, zeker indien er de komende zomer opnieuw een dergelijk KB gepubliceerd wordt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg64" xml:lang="nl">Met de uitzondering voor de zes specialisaties wordt bovendien een achterpoortje opengezet, wat de berekening van het quotum zeer moeilijk maakt. Het is ook helemaal niet ondenkbaar dat sommige kandidaten het quotum zullen aanvechten, aangezien de zes uitzonderingen de facto een onbeperkte doorstroming met zich meebrengen, wat natuurlijk aan Franstalige zijde zeer handig is.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg65" xml:lang="nl">Vlaanderen zet zich al jaren in voor een kwaliteitsvolle opleiding geneeskunde en zal dat blijven doen. Daarom werd enkele jaren geleden overgeschakeld op een systeem met een numerus fixus, absoluut de te bewandelen weg om een zo efficiënt mogelijke filter tot stand te brengen. De legitimiteit van dat systeem wordt echter compleet ondergraven door het feit dat er in het Franstalig deel van dit land, ondanks de geldende federale wetgeving, na 20 jaar nog steeds geen werkende filter uitgewerkt werd. De Vlaamse kandidaten voelen zich hierdoor al jaren onrechtvaardig behandeld.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg66" xml:lang="nl">Bent u van plan om ook dit jaar een gelijkaardig KB te publiceren, inclusief de uitzonderingen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg67" xml:lang="nl">Zult u overleggen met minister Désir van de Franse Gemeenschap over de installatie van een werkende filter voor Franstalige kandidaat-studenten geneeskunde? Zult u dat ten minste nog eens proberen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg68" xml:lang="nl">Indien er een opvolg-KB komt, zult u dan maatregelen nemen opdat de uitzonderingen voor bepaalde specialisaties niet leiden tot een onbeperkte uitstroom?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg69" xml:lang="nl">Wat zult u doen aan het al jaren opgebouwde overtal? Daar was immers eigenlijk een afbetalings­plan voor opgesteld, maar dat wordt met de huidige KB's en de jaarlijkse kwijtschelding compleet genegeerd.</seg>
+                </u>
+                <note type="speaker">07.02 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u20" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg70" xml:lang="nl">De Franse Gemeenschap heeft de voorbije jaren inderdaad verschillende filters uitgeprobeerd, zoals de invoering van een examen aan het einde van het eerste jaar, wat werd verworpen door de Raad van State, en sinds 2017 de organisatie van het toegangsexamen in de geneeskundige en tandheelkundige wetenschappen om de instroom te beperken. Op het moment kunnen we moeilijk een uitspraak doen over de vraag of die filter al dan niet voldoende zal zijn. Pas zes jaar later zullen we de doeltreffendheid ervan kunnen evalueren. Met de eerdere  trials and errors heeft men het aantal afgestudeerden niet kunnen beperken. Ik begrijp goed dat dat een sterk gevoel van onrechtvaardigheid teweegbrengt bij de Nederlandstalige bevolking. Daarom onderzoek ik momenteel, zoals ook opgenomen in het regeerakkoord, of er een interfederaal planningsorgaan kan worden opgericht, om ervoor te zorgen dat alle actoren de volle verantwoor­delijkheid van hun daden binnen hun specifieke bevoegdheid opnemen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg71" xml:lang="nl">De gezamenlijke doelstelling moet hierbij zijn een optimale planning van het medisch aanbod, waardoor er kwalitatieve zorg verleend kan worden door gekwalificeerde beroeps­beoefenaars, van wie het aantal geschikt is om aan de noden van de bevolking tegemoet te komen. Planning is inderdaad een complexe materie, waarbij elk beleidsniveau voor een aantal aspecten bevoegd is. Het is dus absoluut nodig dat we samen toezien op de opvolging en de realisatie van die doelstelling. De federale planningscommissie speelt een belangrijke rol bij het bepalen van de behoefte aan medisch aanbod, maar binnenkort zullen de Gemeenschappen ook over een specifieke commissie beschikken. Het wordt dus tijd dat de acties van de verschillende beleidsniveaus samenvallen, opdat er voldoende gekwalificeerde beroepsbeoefenaars zouden zijn om de zorg voor de Belgische bevolking op zich te nemen. De planningscommissie, die het federale adviesorgaan is, legt nu de laatste hand aan een advies over de quota artsen 2027. Op basis daarvan kunnen we het debat voortzetten.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">07.03 Valerie Van Peel (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u21" who="#VanPeelValerie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg72" xml:lang="nl">Mijnheer de minister, ik twijfel er jammer genoeg niet aan dat wij het debat nog zullen voortzetten. Onze partij voert het debat reeds 14 jaar. Men heeft aan Franstalige zijde een paar zaken geprobeerd. Ik weet niet hoe naïef u nog bent in de politiek, maar het is wel heel duidelijk dat het absoluut niet de intentie aan Franstalige zijde is om met een effectieve filter te komen. Ik denk niet dat u dat nog gelooft, daarvoor zit u reeds veel te lang in de politiek.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg73" xml:lang="nl">Bovendien, zolang u de regelingen daar toelaat, waarna u telkens op het einde van de rit overgaat tot kwijtschelding, omdat natuurlijk die arme studenten het slachtoffer zijn van het wanbeleid in Franstalig België, zal het probleem blijven bestaan. U zult dus wat meer moeten doen dan nog maar eens aan tafel te gaan zitten en proberen te praten.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg74" xml:lang="nl">Het wordt hoog tijd dat men aan Franstalige zijde de gevolgen van het wanbeleid alleen draagt en niet het federale niveau, lees met andere woorden, ook Vlaanderen. Vlaanderen zegt reeds 20 jaar als enige aan studenten dat sommigen niet aan die opleiding kunnen beginnen en organiseert als enige nog een kwalitatieve opleiding, met geen te groot aantal studenten in de aula tot gevolg.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg75" xml:lang="nl">Mijnheer de minister, ik raad u aan om het dossier beter ter harte te nemen dan dat ik nu uit uw antwoord kan afleiden, want anders gaat u met mij nog wat miserie tegemoet. Dat kan ik u bij deze alvast zeggen.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    08 Question de Hervé Rigot à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les nouvelles mesures en matière de santé mentale&quot; (55014706C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    08 Vraag van Hervé Rigot aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De nieuwe maatregelen op het stuk van de geestelijke gezondheid&quot; (55014706C)
+                </note>
+                <note type="speaker" xml:lang="nl">08.01 Hervé Rigot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u22" who="#RigotHervé" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg76" xml:lang="fr">Monsieur le président, monsieur le ministre, aujourd'hui encore, un article de Sudpresse nous informe sur la situation terrible des soins psychiatriques, de la santé mentale avec une occupation à 95 % des 1 600 lits psychiatriques de la Région bruxelloise. Dans les 65 centres de santé mentale en Wallonie, les demandes explosent et les services sont saturés. Les 300 lits psychiatriques du CHU de Charleroi sont occupés, etc. C'est toujours le même appel des centres de santé mentale, des psychologues et des psychiatres qui demandent un soutien.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg77" xml:lang="fr">Fort heureusement, monsieur le ministre, vous évoquiez justement un budget de 112 millions d'euros dégagé en vue d'un soutien plus accessible aux étudiants, un renforcement des soins mobiles et une attention accrue aux plus de 65 ans.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg78" xml:lang="fr">Monsieur le ministre, pouvez-vous nous détailler chacune de ces trois mesures? Sur quelle base avez-vous déterminé les publics cibles? Avez-vous déjà fixé un calendrier? Comme vous l'évoquiez, le défi est aujourd'hui de trouver le personnel? Comment comptez-vous relever ce défi?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg79" xml:lang="fr">Vous parlez également de la mise en œuvre d'un grand plan de santé mentale. Quel est-il? Quelles en sont les priorités et les publics cibles principaux? Quel budget sera-t-il dédié à ce plan de grande ampleur?</seg>
+                </u>
+                <note type="speaker">08.02 Frank Vandenbroucke, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u23" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg80" xml:lang="fr">Monsieur le président, monsieur Rigot, les soins en santé mentale sont une priorité absolue pour les années à venir. Nous devons prendre des mesures afin d'éviter, autant que faire se peut, que des personnes développent des problèmes psychiques en les détectant et en intervenant le plus rapidement possible.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg81" xml:lang="fr">J'ai proposé au gouvernement d'investir 112 millions d'euros dans le développement de l'offre de soins psychologiques de première ligne. Comme votre question ne se focalise pas sur ce sujet, je ne développerai pas l'idée que, peut-être, vous connaissez déjà: celle de mettre en place des interventions précoces pour des détections rapides de problèmes en passe de se développer, notamment afin d'éviter que des gens se retrouvent dans l'obligation de se faire hospitaliser ou qu'ils doivent être pris en charge au moyen de soins très spécialisés en soins de santé mentale.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg82" xml:lang="fr">Nous sommes en train de nous concerter et de négocier l'implémentation concrète de ce budget de 112 millions d'euros avec tous les acteurs des soins en santé mentale dans une commission de convention transversale au sein de l'INAMI. Cela prend malheureusement du temps. La concertation est nécessaire, mais c'est un effort de longue haleine.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg83" xml:lang="fr">Comme vous l'avez très justement dit, en raison de la pandémie, nous ne devons pas perdre de temps. C'est la raison pour laquelle je prends des mesures à court terme. Par exemple, à la mi-février, j'ai pris la décision de renforcer les équipes mobiles de crise tant au niveau de leur budget opérationnel que de leur personnel. Par ailleurs, vendredi dernier, le gouvernement a décidé, dans une optique temporaire, de prendre immédiatement trois mesures supplémentaires. Ces mesures d'urgence seront déployées dans les semaines à venir.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg84" xml:lang="fr">La première mesure concerne des séances de groupe dans les universités ou dans les collèges pour les étudiants qui sont en difficulté. L'idée est d'organiser des sessions de groupe à bas seuil pour ces étudiants. Pour l'instant, ces sessions auront lieu en ligne et seront organisées par les universités et les écoles supérieures. Elles s'adresseront à des étudiants qui veulent lutter contre le stress, la morosité ou l'anxiété.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg85" xml:lang="fr">L'objectif est de rembourser les étudiants concernés pour ces sessions. À cette fin, nous prévoyons un montant d'un million et demi d'euros. La coopération passe par les collèges universitaires, les associations d'étudiants et les centres de psychothérapie des universités. Avec le montant prévu, il sera possible d'engager une vingtaine de professionnels qui pourront animer ces sessions de groupe. Pour mettre en place cette mesure, nous nous sommes basés sur des expériences dans d'autres pays qui se sont avérées être très prometteuses.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg86" xml:lang="fr">La deuxième mesure porte sur un investissement complémentaire dans des équipes mobiles. Comme vous l'avez dit, des jeunes et des jeunes adultes peuvent souffrir de troubles psychologiques tels que l'anxiété, un état dépressif, un manque de contacts sociaux ou un sentiment d'insécurité croissant dans ce contexte de confinement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg87" xml:lang="fr">Il ne s'agit donc pas toujours de plaintes très graves. Toutefois, il est important d'offrir un soutien le plus rapidement possible, d'anticiper et de rechercher des solutions à ces problèmes. Il n'est pas ici seulement question de traiter ces plaintes, mais aussi de prévenir le pire en renforçant les équipes mobiles de 50 % pour les jeunes âgés de 16 à 23 ans. Ces équipes viennent à leur domicile. Elles peuvent aussi leur rendre visite à l'école ou au centre PMS. Un montant de 3,7 millions d'euros a été prévu à cet effet.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg88" xml:lang="fr">La troisième mesure concerne le déploiement d'équipes mobiles pour les personnes de plus de 65 ans. Il s'agit d'une innovation importante. En effet, aujourd'hui, il y a peu d'aide disponible pour les personnes de plus de 65 ans qui sont à la recherche d'une aide immédiate. Un montant de 21,7 millions d'euros a été prévu pour étendre les équipes mobiles pour adultes aux personnes ayant plus de 65 ans. Ce segment de la population entre donc dans le champ d'action des équipes mobiles.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg89" xml:lang="fr">Entre-temps, j'ai reçu plusieurs réactions positives des réseaux SMEA au renforcement des équipes mobiles de crise. Les acteurs du réseau sont impatients de se mettre au travail pour renforcer les dispositifs avec différentes qualifications telles que psychologues, assistants sociaux ou éducateurs. Mes collaborateurs continueront à suivre de près ce processus et ne manqueront pas de signaler les goulets d'étranglement dès qu'ils apparaîtront.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg90" xml:lang="fr">Hier encore, j'ai visité les équipes mobiles de Bru-Stars à Bruxelles. J'ai été très impressionné par le dévouement de ces personnes et par la qualité de leurs actions. C'est précisément cela qu'il faut renforcer aujourd'hui, selon moi.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">08.03 Hervé Rigot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u24" who="#RigotHervé" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg91" xml:lang="fr">Merci, monsieur le ministre, pour votre réponse.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg92" xml:lang="fr">Vous avez  raison, la priorité absolue est d'agir en amont, afin d'éviter le recours à des soins de seconde ligne qui sont lourds non seulement pour les patients mais aussi pour notre système de soins de santé, qui risquerait de se retrouver engorgé, comme on le voit actuellement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg93" xml:lang="fr">Vous avez également raison de vous concerter, car l'expertise du terrain est celle qui nous permettra d'être efficients et efficaces. Il faut agir fort. Je me réjouis que vous mettiez l'accent sur les jeunes, qui ne doivent pas être une génération sacrifiée. Il s'agit d'une génération qui est désenchantée, à bout, et il nous appartient donc de mettre en place des actions en amont à leur intention. À cet égard, n'oublions pas non plus nos seniors, qui sont aujourd'hui dans de terribles conditions d'isolement et de difficulté. Vous savez qu'il s'agit là d'un domaine qui me tient à cœur, et je resterai attentif aux mesures qui seront mises en place rapidement, car il y a véritablement urgence.</seg>
+                </u>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09 Vraag van Kathleen Depoorter aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;Het drugsbeleid en het middelengebruik&quot; (55014639C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    09 Question de Kathleen Depoorter à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;La politique en matière de drogue et la consommation de médicaments&quot; (55014639C)
+                </note>
+                <note type="speaker" xml:lang="nl">09.01 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u25" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg94" xml:lang="nl">Mijnheer de minister, eerst en vooral zou ik willen terugkomen op de vraag die de collega daarnet heeft gesteld en ik wil u ook bedanken voor de stappen die u hebt ondernomen. Het is immers belangrijk dat we op korte termijn inzetten op de geestelijke gezondheid van onze studenten en onze ouderen. Dat is zeker een goed punt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg95" xml:lang="nl">Mijn vraag gaat over het middelengebruik tijdens de COVID-19-pandemie. Er werd een analyse gemaakt door de  Artsenkrant van de vraag naar middelengebruik bij de zorgverstrekkers als gevolg van de werkoverlast en de bekommernissen tijdens de covidpandemie. Die had wel degelijk een invloed op onze zorgverstrekkers. Ook Zorgnet-Icuro publiceerde een rapport dat dieper ingaat op de geestelijke gezondheidszorg van de zorgverstrekkers. De conclusie daarvan is dat er vandaag wel degelijk een onderbehandeling is van de psychische stoornissen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg96" xml:lang="nl">Een van de aanbevelingen uit het rapport van Zorgnet-Icuro is in te zetten op vroeginterventie. Dat is volgens mij een heel belangrijke aanbeveling. Welke stappen zult u ondernemen om patiënten sneller te gaan begeleiden bij geestelijkegezondheidsstoornissen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg97" xml:lang="nl">Wat drugsgebruik en psychische stoornissen betreft, kunnen we hier heel duidelijk op weten­schappelijke basis een link leggen. Vroeginterventie bij drugsgebruik kan ook bijdragen tot het minder snel ontwikkelen van psychische stoornissen en afhankelijkheid. Welke stappen zult u ondernemen om sneller signalen rond drugsgebruik bij de volwassen bevolking en de jeugd te kunnen onderscheppen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg98" xml:lang="nl">De huisartsen staan hier heel vaak machteloos tegenover. Ze beschikken niet altijd over de mogelijkheid om heel snel hulp te krijgen in gespecialiseerde centra voor hun patiënten. Een crisisopname op korte termijn is heel moeilijk. Welke stappen kunt u hiervoor ondernemen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg99" xml:lang="nl">Ter gelegenheid van de honderdste verjaardag van de drugswet, werd er opnieuw een oproep gelanceerd voor de legalisering van drugs. Wat is uw mening daarover? Welk is de mening van de regering? Welke gevolgen zou dit volgens u hebben op de geestelijke gezondheidszorg?</seg>
+                </u>
+                <note type="speaker">09.02 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u26" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg100" xml:lang="nl">Mevrouw Depoorter, dank voor uw vriendelijke en aanmoedigende woorden over een paar recente beslissingen. Ik waardeer dat zeer, maar ik besef dat het om tijdelijke en urgente beslissingen gaat en dat er nog veel meer werk op de plank ligt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg101" xml:lang="nl">Uw vraag sluit goed aan bij die van de heer Rigot. U legt ook de nadruk op vroeginterventie, in het algemeen en ook bij drugsgebruik. Ik herhaal dat het geen twijfel lijdt dat de pandemie een ernstige impact heeft op het psychische welzijn van de bevolking. Dat vergt dat we heel snel kunnen reageren wanneer er zich problemen manifesteren. De algemene prioriteit in het beleid, zoals ik daarnet aan de heer Rigot heb gezegd, is een eerstelijns psychologische ondersteuning, die laagdrempelig is en goed ingebouwd en verweven in de eerstelijnszorg in het algemeen, en dus ook vroegdetectie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg102" xml:lang="nl">De 112 miljoen euro is vooral bedoeld voor mensen met lichte tot matig ernstige psychische problemen. Ook de problemen die samenhangen met middelengebruik, zijn natuurlijk belangrijk. We moeten namelijk vermijden dat zij escaleren naar stoornissen, verslaving of afhankelijkheid. U weet dat ik hierover op 2 december een protocol­akkoord heb afgesloten met mijn collega's in de interministeriële conferentie Volksgezond­heid, en dat is ondertussen ook gepubliceerd in het  Belgische Staatsblad.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg103" xml:lang="nl">Ik wil bijkomend ook investeren in de aanpak binnen de huisartsenpraktijk van angst, stress, slaapproblemen, depressieve klachten en alcoholmisbruik door middel van een online en offline vormingsaanbod via e-learnings, LOK-vormingen en hulpmiddelenboeken. Ook de app GePass (General Practioner Assessment Stress) laat huisartsen toe om op een snelle en eenvoudige manier recente en wetenschappelijk gevalideerde informatie te raadplegen over stressgerelateerde psychologische problemen, maar ook over problemen met middelengebruik. Al die hulpmiddelen hebben als doel om de huisartsen te sensibiliseren voor de problematiek, vaardigheden aan te scherpen en bruikbare tools voor hun praktijk aan te bieden.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg104" xml:lang="nl">Uw derde vraag vertrekt van de volgende vaststelling: huisartsen staan vaak machteloos en beschikken niet altijd over de mogelijkheid om snel hulp van gespecialiseerde centra, psychiaters of psychiatrische ziekenhuizen, in te roepen. Wat kunnen we daaraan doen?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg105" xml:lang="nl">Inderdaad, naast het gespecialiseerde, residentiële aanbod, is het belangrijk dat niet alleen de ambulante zorg verder wordt versterkt, maar ook de samenwerking van dit aanbod met de huisartsen. De mobiele crisisteams en de teams voor complexe en langdurige zorg van de Netwerken Geestelijke Gezondheidszorg voor de doelgroep volwassenen zijn twee gespecialiseerde interventies, waar onder meer een huisarts beroep op kan doen. Ik heb u net al gezegd dat ik de mobiele crisisteams van de Netwerken Geestelijke Gezondheidszorg voor kinderen en jongeren een klein beetje versterkt heb. Ik vind dat belangrijk. Ik moet u trouwens zeggen dat ik gisteren, bij mijn bezoek aan Bru-Stars Molenberg, ook uitdrukkelijk heb gevraagd hoe vlot of niet vlot en hoe belangrijk de verwijzing door huisartsen is. Het spontane antwoord op die vraag in de Brusselse context was dat sommige huisartsen de weg naar de mobiele teams zeer goed kennen en andere huisartsen minder goed. Ongetwijfeld hangt dat samen met opleiding en vorming van de huisartsen in kwestie. Het antwoord werd gegeven in de Brusselse context, ik durf het niet extrapoleren naar Vlaanderen of Wallonië. Het doet mij denken dat het één zaak is om de mobiele teams, de eerste lijn, te versterken, maar dat een andere zaak die is van vorming, opleiding, competenties die mensen moeten ontwikkelen om bepaalde problemen en stoornissen vroeg te herkennen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg106" xml:lang="nl">Zoals ik daarnet al heb gezegd in antwoord op de heer Rigot, hebben wij vorige week over nog bijkomende maatregelen beslist. Die moeten nog worden uitgerold, men moet immers ook de gepaste kwalificaties voor deze mobiele teams kunnen rekruteren. Opnieuw denk ik dat het bijzonder belangrijk is dat dit leidt tot betere samenwerking met de huisartsen in de eerste lijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg107" xml:lang="nl">Dan had u het over de legalisering van drugs. Ik wil benadrukken dat het al dan niet legaliseren van drugs een internationaal vraagstuk is, omdat het verbod op recreatief gebruik wordt bepaald in internationale verdragen uit 1961, 1971 en 1988. Die verdragen werden op hun beurt vertaald in Europese wetgeving. Eigenlijk denk ik dat er vele redenen zijn waarom we dat debat op de eerste plaats Europees moeten voeren. Als we een versnipperd beleid voeren, krijgen we ook fenomenen als drugstoerisme, wat we natuurlijk niet willen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg108" xml:lang="nl">Hoewel het enigszins een open deur intrappen is, wil ik opmerken dat het concept drugs een heel brede lading dekt met een uiteenlopende impact op de volksgezondheid, waarbij er ook medicinale toepassingen zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg109" xml:lang="nl">Meer in het algemeen ben ik van mening dat wij ook op dat vlak evidencebased te werk moeten gaan. Als bepaalde maatregelen worden bepleit, al dan niet in het kader van een debat over legalisering, moet toch kunnen worden aangetoond dat die maatregelen een gunstig effect zullen hebben op de volksgezondheid en dat wij er voor kwetsbare groepen, zoals jongeren, een gunstig effect van kunnen verwachten.  Evidence is hier dus belangrijk. Wij moeten eender welke soort vooringenomenheid in eender welke richting vermijden in het debat.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.03 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u27" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg110" xml:lang="nl">Mijnheer de minister, ik dank u voor uw antwoord.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg111" xml:lang="nl">Uiteraard lijken die online tools mij een heel goed idee te zijn, omdat, enerzijds, de huisartsen zelf, die in nood zijn, een snelle weg naar hulp kunnen vinden. Zoals u ook aangeeft, zijn zij, anderzijds, een goede hulp bij het begeleiden van patiënten. Ze mee opnemen in de opleiding is essentieel. Dat geldt zowel voor de permanente opleiding als voor de accreditering nadien, die wel onder uw bevoegdheid valt. De permanente opleiding zal een Vlaamse bevoegdheid zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg112" xml:lang="nl">Uw antwoord dat u plaatst als zou het een antwoord uit Brussel zijn omdat de artsen de weg nog niet altijd vinden, zou ik willen nuanceren. Ik heb al heel wat verhalen gehoord van artsen die met de handen in het haar op zoek zijn naar een crisisopvangplaats voor hun patiënt en hem of haar niet kunnen helpen.</seg>
+                </u>
+                <note type="speaker">09.04 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u28" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg113" xml:lang="nl">Mevrouw Depoorter, ik had het specifiek over de mobiele teams en in die context.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">09.05 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u29" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg114" xml:lang="nl">Mijnheer de minister, het is een werkpunt waaraan in de komende weken, maanden en jaren absoluut moet worden gewerkt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg115" xml:lang="nl">U had het over online tools of online overleg. Voor de huisartsen is het heel moeilijk om deel te nemen aan het overleg rond verslavingen en psychiatrische zorg omdat zij heel weinig gerenumereerd worden. Een herziening van de nomenclatuur ter zake zou dus ook een mogelijkheid zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg116" xml:lang="nl">U had het over de mobiele teams. Er zijn ook de kruispunten, die met de lokale besturen worden georganiseerd. Zij geven aan dat zij vandaag drie tot vier keer meer aanvragen hebben dan vóór de covidperiode. Dat duidt dus nog altijd op een heel hoge nood. Daarom zal ik het dossier blijven opvolgen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg117" xml:lang="nl">Ten slotte, u hebt handig rond het thema van het legaliseren van drugs gefietst. Ik heb het uiteraard over het decriminaliseren van het gebruik en het standpunt van de regering ter zake.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg118" xml:lang="nl">Dat u evidencebased te werk gaat als minister van Volksgezondheid lijkt mij maar evident. Ik kijk dan ook uit naar het moment dat de regering met een opinie daarrond zal komen. De drugsproblematiek in onze maatschappij is groot. Drugs is inderdaad een zeer breed onderwerp, maar ik ben er zeker van dat we dit toch wel in handen moeten nemen in de komende maanden en jaren.</seg>
+                </u>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    10 Vraag van Robby De Caluwé aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De aanbevelingen van Zorgnet-Icuro m.b.t. de geestelijke gezondheidszorg&quot; (55014745C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    10 Question de Robby De Caluwé à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les recommandations de Zorgnet-Icuro en ce qui concerne les soins de santé mentale&quot; (55014745C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    10.01 Robby De Caluwé (Open Vld):
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Zorgnet-Icuro publiceerde afgelopen donderdag een opmerkelijk document met betrekking tot de geestelijke gezondheidszorg “De mythes voorbij. Het public health perspectief als leidraad in de geestelijke gezondheidszorg.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Ze doorprikt een aantal mythes mbt de recepten voor geestelijke gezondheidszorg. Zo heeft het aantal hulpverleners en het aantal bedden geen impact op het verlagen van de toegang tot zorg voor patiënten die nooit eerder zorg zochten. Niet het stigma rond geestelijke gezondheidszorgproblemen of de financiële drempels zijn de belangrijkste factoren waarom mensen geen hulp zoeken. De belangrijkste factor is dat mensen denken dat ze het probleem zelf wel aan kunnen en geen hulp behoeven.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Opmerkelijke vaststelling is dat de adequaatheid van de behandelingen in ons land niet goed is. MAT is een methodiek om de adequaatheid van behandelingen te meten. Bij de volwassen patiënten wordt de MAT voor psychische stoornissen op ongeveer 39% van alle aangeboden behandelingen geschat. Voor depressie ligt dat cijfer maar op 30%. Dat betekent dat slechts 3 op de 10 ingestelde behandelingen voor depressie voldoen aan de WHO-criteria van een minimale adequate behandeling. Voor angststoornissen is de schatting 32%. Dan zijn er paradoxaal genoeg patiënten zonder psychische stoornis die toch worden behandeld door de gespecialiseerde ambulante zorgverlening. In België zou het gaan om 11% van alle psychiatrische ambulante behandelingen. Voor deze groep mensen is te snel gespecialiseerde psychiatrische zorg ingeschakeld.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    1.Hoe evalueert de minister de vaststellingen en aanbevelingen van het rapport?
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    2.Hoe wil de minister remediëren aan de “lage&quot; adequaatheid van behandelingen van patiënten met een psychische aandoening en de overbehandeling van patiënten die helemaal geen psychische aandoening hebben?
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    3.Zal de minister overleg plegen met zijn collega-ministers van volksgezondheid om te bekijken hoe men met deze aanbeveling aan de slag?
+                </note>
+                <note type="speaker" xml:lang="nl">10.02 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u30" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg119" xml:lang="nl">Mijnheer de voorzitter, misschien hadden wij hierover een actualiteitsdebat moeten organiseren, want verschillende vragen sluiten hierbij aan.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg120" xml:lang="nl">Ik ken de brochure van prof.dr. Ronny Bruffaerts:De mythes voorbij. Het public health perspectief als leidraad bij hervormingen in de geestelijke gezondheidszorg. Die insteek staat ook centraal in het overleg van het federaal kabinet van Volksgezondheid in de transversale overeen­komsten­commissie, dat lopende is. Daar denken we samen met de actoren van het terrein na over hoe we die 112 miljoen euro, die we willen inzetten voor de eerstelijnspsychologische hulpverlening, in de praktijk zullen uitrollen. Wij vertrekken helemaal van dit public-healthperspectief.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg121" xml:lang="nl">Ik had het net over het akkoord dat ik heb gesloten met de collega's in de Gemeenschappen, in mijn antwoord aan mevrouw Depoorter. Ik denk dat het protocol dat op 2 december is afgesproken over de versterking van het psychisch zorgaanbod het potentieel heeft om zeer goed te beantwoorden aan dit public-healthinitiatief. We hebben het daar over een geïntegreerd aanbod met alle actoren, populatiegericht enzovoort.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg122" xml:lang="nl">Dit is dus een belangrijk rapport voor mij. We zullen de evidentie meenemen. Er zitten ook een paar zeer innovatieve ideeën in. Ik denk bijvoorbeeld aan het feit dat groepstherapie voor de start van ambulante zorgverstrekking depressieve symptomen verlaagt en de kwaliteit van de hulpverlening op een hoger niveau brengt, maar tijdelijk, niet langdurig.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg123" xml:lang="nl">De brochure wijst op de bijzondere aandacht die nodig is voor kinderen, jongeren en jongvolwassenen, omdat men daarmee niet de  unmet need reduceert, maar ook globale gezondheidswinst boekt want die jongeren worden later misschien volwassenen met psychische stoornissen. Men kan de ernst daarvan voorkomen door spoedig in te grijpen. Wij willen de RIZIV-conventie, die de eerstelijns­psychologische hulpverlening financiert en de terugbetaling regelt, echt wel aanpassen met het oog op deze inzichten.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg124" xml:lang="nl">U vraagt dan zeer uitdrukkelijk of ik daarover overleg pleeg? Ja, inderdaad. Wij staan in permanent contact, en moeten ook in permanent contact staan, met de collega's van de deelregeringen. Alle dossiers inzake geestelijke gezondheidszorg worden door mijn medewerkers voorbereid in de interkabinettenwerkgroep Geestelijke Gezondheidszorg en gaan dan voor de uiteindelijke bespreking naar de interministeriële conferentie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg125" xml:lang="nl">Het public-healthperspectief is wat mij betreft leidend, en de methode die ik toepas, is overleg met de collega's in de interministeriële conferentie.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">10.03 Robby De Caluwé (Open Vld):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u31" who="#DeCaluwéRobby" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg126" xml:lang="nl">Mijnheer de minister, ik ben blij dat u het belang van de geestelijke gezondheidszorg erkent. U hebt dat in het verleden al een aantal keren bevestigd in antwoord op vragen van mij. Ik ben ook blij dat u dat doet in overleg met de regio's. U vertrekt heel duidelijk van het public-healthperspectief, wat uiteraard positief is.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg127" xml:lang="nl">Ik vind het ook lovenswaardig dat u de innovatieve voorstellen die Zorgnet-Icuro doet, wenst mee te nemen en dat er ook aandacht is voor de geestelijke gezondheid van kinderen en jongeren. Zoals u terecht aankaart, kan een vroege detectie later misschien grotere problemen voorkomen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg128" xml:lang="nl">Hartelijk dank voor uw antwoord.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    11 Questions jointes de
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Sofie Merckx à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;La structure de coûts de l'Orkambi et du Symkevi et le remboursement du Kaftrio révolutionnaire&quot; (55014747C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Gitta Vanpeborgh à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Le remboursement d'un certain nombre de médicaments contre la mucoviscidose&quot; (55014874C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Kathleen Depoorter à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les médicaments contre la mucoviscidose&quot; (55014911C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Caroline Taquin à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Des médicaments prometteurs pour aider les patients atteints de la mucoviscidose&quot; (55015065C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    11 Samengevoegde vragen van
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Sofie Merckx aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De kostenstructuur van Orkambi en Symkevi en de terugbetaling van het revolutionaire Kaftrio&quot; (55014747C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Gitta Vanpeborgh aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De terugbetaling van een aantal mucogeneesmiddelen&quot; (55014874C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Kathleen Depoorter aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De mucomedicijnen&quot; (55014911C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    - Caroline Taquin aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;Veelbelovende mucomedicijnen&quot; (55015065C)
+                </note>
+                <note type="speaker">11.01 Sofie Merckx (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u32" who="#MerckxSofie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg129" xml:lang="nl">Mijnheer de minister, eind februari werd er beslist om de geneesmiddelen Orkambi en Symkevi terug te betalen. Dat is enorm positief voor de patiënten, een kwalitatieve stap vooruit. Het gaat hierbij om heel dure medicatie die tot 170.000 euro per jaar per patiënt kost.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg130" xml:lang="nl">Naast deze twee medicijnen heeft de firma Vertex ook een ander veelbelovend medicijn op de markt gebracht, namelijk Kaftrio. Dit medicijn kreeg eind augustus de goedkeuring van het EMA maar is in ons land alleen beschikbaar voor de patiënten via  compassionate use. In het Verenigd Koninkrijk, Ierland, Denemarken en Duitsland wordt het medicijn nochtans al terugbetaald.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg131" xml:lang="nl">Het probleem zou zijn dat Vertex nog steeds geen dossier heeft ingediend voor de terugbetaling van Kaftrio. De vraag rijst dus waarom de firma dat in andere Europese landen wel heeft gedaan maar niet in België. Meent u dat de houding van Vertex verenigbaar is met de wet inzake non-discriminatie en gelijke kansen in de Europese Unie? Wat vindt u van het beleid van Vertex in verband met de terugbetalingsdossiers?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg132" xml:lang="nl">U hebt gezegd dat ongeveer 600 patiënten geholpen zullen worden met Orkambi en Symkevi. Er zijn echter natuurlijk ook patiënten  die op Kaftrio wachten. Hebt u met de producent gesproken over het dossier-Kaftrio? Wat is de stand van zaken?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg133" xml:lang="nl">Als een medicijn wordt terugbetaald, dan krijgt de overheid normaal gezien ook informatie over de productiekost van het geneesmiddel. Kent u de kostenstructuur van de geneesmiddelen Orkambi en Symkevi?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg134" xml:lang="nl">Hoe hebt u dit dossier aangepakt? Hoe gaat u ervoor zorgen dat we geen te hoge prijzen betalen voor innovatieve medicatie?</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.02 Gitta Vanpeborgh (sp.a):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u33" who="#VanpeborghGitta" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg135" xml:lang="nl">Mijnheer de voorzitter, mijnheer de minister, eind februari maakte u bekend dat twee dure maar levensbelangrijke geneesmiddelen, Orkambi en Symkevi, effectief terugbetaald zullen worden door de ziekteverzekering. Dat heeft heel wat gezinnen en patiënten blij gemaakt. Het heeft voor opluchting gezorgd, ook bij Stefan Joris van de Mucovereniging. Hij stelde dat de impact van deze geneesmiddelen op de ziekte en op de levenskwaliteit zeer groot is, zodanig groot dat men hoopt dat muco kan evolueren van een zeldzame ziekte naar een chronische ziekte.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg136" xml:lang="nl">Is reeds in een concrete timing voorzien voor de terugbetaling van die twee geneesmiddelen? Misschien heb ik dat gemist en werd dat reeds meegedeeld.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg137" xml:lang="nl">Wat was de reactie van het bedrijf? Hoopt u met deze doorbraak dat Vertex nu ook een terug­betaling­dossier zal indienen voor het genees­middel Kaftrio bij de Commissie Tegemoetkoming Geneesmiddelen? Dat is een dossier waarop uw administratie reeds heeft aangedrongen bij het bedrijf.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">11.03 Caroline Taquin (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u34" who="#TaquinCaroline" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg138" xml:lang="fr">Monsieur le président, monsieur le ministre, pour aider les patients atteints de mucoviscidose, certains médicaments sont assez prometteurs selon des résultats cliniques déjà répertoriés.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg139" xml:lang="fr">Interrogé en janvier sur le sujet, vous avez récemment précisé les informations concernant la procédure de remboursement en cours pour l'Orkambi et le Symkevi.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg140" xml:lang="fr">C'est un soulagement certain pour ces patients, car ces deux médicaments seront remboursés dès ce 1er avril. Ces deux traitements seront entièrement remboursés pour les patients éligibles, ce qui représente plus de 600 personnes dans notre pays.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg141" xml:lang="fr">Toutefois, des questions persistent concernant cette décision et ces médicaments. Se pose la question de l'Orkambi, qui est limité aux moins de 12 ans. Quel avis l'Agence européenne du médicament a-t-elle émis sur ce sujet, par rapport à la commission de remboursement?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg142" xml:lang="fr">Se pose la question de l'âge des patients qui vont en bénéficier, mais aussi celle du remboursement du Kaftrio. Je vous ai déjà d'ailleurs précisément interrogé à ce sujet. Alors que ce médicament est accessible au Royaume-Uni, en Irlande, au Danemark ou encore en Allemagne, l'entreprise productrice n'avait pas introduit de procédure en Belgique à la suite de l'autorisation européenne de 2020.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg143" xml:lang="fr">Monsieur le ministre, que pensez-vous de la firme qui n'introduit pas de procédure pour ce médicament en Belgique? Est-il juste de dire que l'Orkambi et le Symkevi sont des médicaments moins valables, à ce jour, que le Kaftrio, comme certains témoignages nous l'ont rapporté? Pourquoi ces deux premiers et pas le Kaftrio?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg144" xml:lang="fr">Concernant l'Orkambi, pourquoi ce traitement sera-t-il essentiellement réservé aux enfants âgés de moins de 12 ans? Des études vous ont-elles informé d'effets différents par rapport aux adultes?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg145" xml:lang="fr">À propos du Kaftrio, où en sommes-nous précisément dans la procédure? Aucune demande n'a été introduite par l'entreprise auprès de la Commission de remboursement des médicaments. Quelles mesures alternatives  pouvez-vous ou comptez-vous prendre face à cette situation?</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg146" xml:lang="fr">Vous le savez, certains patients attendent des avancées concrètes depuis des années. Un élargissement du remboursement des traitements est-il à l'étude?</seg>
+                </u>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    11.04 Kathleen Depoorter (N-VA):
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Meneer de minister, de terugbetaling van Symkevi en Orkambi werd aangekondigd door de CTG.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De opluchting bij patiënten met mucoviscidose is groot.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Naast deze twee specialiteiten zijn er nog CFTR modulatoren door het EMA goedgekeurd en in sommige landen al terugbetaald.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Tegen welke datum zal de teurgbetaling van Orkambi en Symkevi voor de patiënten toepasbaar zijn?
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Zal u, zoals ik al vaker heb aangegeven, overgaan tot een terugbetaling van een cluster aan CFTR modulatoren zoals bij bepaalde kankertherapiën het geval is?
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Is er al een aanvraag lopende voor Kaftrio?
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Bij het EMA loopt de goedkeuringsprocedure voor Trikafta. Zal u proactief handelen en de criteria en wetenschappelijke studies en adviezen voor een terugbetaling al doornemen?
+                </note>
+                <note type="speaker">11.05 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u35" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg147" xml:lang="nl">De terugbetaling van Orkambi of Symkevi start vanaf 1 april. Het is inderdaad goed nieuws voor meer dan 600 patiënten.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg148" xml:lang="fr">Pourquoi ce traitement sera-t-il essentiellement réservé aux enfants âgés de moins de 12 ans? En résumé, autant dans les études cliniques que dans des analyses en conditions réelles, Orkambi a en moyenne une efficacité similaire mais une toxicité supérieure au Symkevi. Dans les deux études cliniques randomisées initiales sur des patients homozygotes pour la mutation F508del et âgés de plus de 12 ans, l'Orkambi a surtout montré un effet positif sur le taux d'exacerbation avec une diminution de 39 % (61 % des hospitalisations et 56 % de l'utilisation d'antibiotiques intraveineux) et une légère amélioration de la fonction pulmonaire (2,8 % d'augmentation absolue). Une efficacité similaire (2,4 % d'augmentation absolue de la fonction pulmonaire) a été montrée pour les enfants de 6 à 11 ans et l'autorisation a été élargie pour un traitement à partir de 2 ans sur base des études pharmacocinétiques et de sécurité ayant des résultats d'efficacité supportant cette extrapolation.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg149" xml:lang="fr">En comparaison, le Symkevi a également fait diminuer le nombre d'exacerbations (-35 %) et entraîné une augmentation absolue de la fonction pulmonaire de 4 %.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg150" xml:lang="fr">Au point de vue de la toxicité, les effets secondaires, principalement respiratoires, sont supérieurs avec l'Orkambi. Les effets secondaires de l'Orkambi augmentent en cas de fonction pulmonaire réduite (moins de 40 % de la valeur normale) et de diabète associés à la mucoviscidose. Il y a eu deux présentations cliniques liées à l'âge. Pour ordre de grandeur de cette population, 14 % des adultes belges (non transplantés et tous profils de mutation confondus) ont une fonction pulmonaire inférieure à 40 % et 29 % ont un diabète.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg151" xml:lang="fr">De plus, dans des études plus longues, certaines personnes traitées par l'Orkambi connaissent une augmentation de leur pression artérielle. Ces effets secondaires n'ont pas été signalés pour le Symkevi.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg152" xml:lang="fr">La demande de remboursement pour l'Orkambi ne concernait que la tranche d'âge des 2 à 11 ans. La demande de remboursement qui était en cours en parallèle pour le Symkevi concernait la population des 12 ans et plus. Voici donc le pourquoi de cette césure d'âge.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg153" xml:lang="nl">Wat betreft Kaftrio, of Trikafta in de Verenigde Staten, daarvoor werd tot op heden inderdaad geen terugbetalingsdossier ingediend door Vertex. Zodra de firma de stappen onderneemt om een dossier in te dienen, zal dit het daartoe voorziene terugbetalingsproces volgen. U weet wat dat is: grondige evaluatie door de CTG, waarbij verschillende aspecten in rekening zullen worden genomen, zoals therapeutische waarde, belang in de medische praktijk, prijs, budget en impact. Daarna zal deze commissie een advies formuleren betreffende de terugbetaling, waarop een beslissing zal worden gebaseerd.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg154" xml:lang="nl">Ik heb daarover op dit moment geen verdere informatie. Wel zijn we wachtende en klaar voor een aanvraag. Ik deel het gevoel van veel commissieleden dat het absoluut noodzakelijk is dat een dossier wordt ingediend en dat het eigenlijk problematisch is dat dit niet gebeurt.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg155" xml:lang="nl">Wat betreft de introductie in andere Europese landen, de Europese regelgeving bepaalt dat de terugbetaling van geneesmiddelen een nationale bevoegdheid is, waarbij elk land andere criteria hanteert die passen binnen de specifieke nationale systemen van sociale zekerheid. Daarnaast hebben de farmaceutische firma's de mogelijkheid om zelf te bepalen in welke landen ze wanneer op de markt wensen te komen. Dat maakt vaak deel uit van de lanceringsstrategie van bedrijven, wat helaas leidt tot discrepanties tussen nationale terugbetalingssituaties.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg156" xml:lang="nl">Kaftrio is een voorbeeld daarvan, maar helaas niet het enige. Wij proberen onder andere via het BeNeLuxA Initiative binnen het bestaande Europese kader zoveel mogelijk te overleggen, samen te werken en informatie uit te wisselen met andere landen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg157" xml:lang="nl">Mevrouw Merckx, u vraagt mij wat de reële productiekosten van deze geneesmiddelen zijn. Ik moet u helaas kort antwoorden. Wij kennen die niet. Dat is in het algemeen een internationale discussie. Wij zullen mogelijke maatregelen om de kosten van innovatieve geneesmiddelen te drukken, onderzoeken wanneer we met de farmaceutische industrie discussiëren over het in het regeerakkoord aangekondigde farmapact. Belangrijk is dat die maatregelen niet individueel worden bekeken, maar deel uitmaken van een globaal geneesmiddelenbeleid. We moeten ervoor zorgen dat het beleid hier parallel aan en coherent met andere hervormingen wordt uitgerold. Pistes zoals de terugbetaling van een cluster van CFTR-modulatoren, zoals bij bepaalde kankertherapieën het geval is, zijn het onderzoeken waard, niet alleen voor deze klasse van geneesmiddelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg158" xml:lang="nl">Hierbij zullen de resultaten van de  horizon scanning, waarvoor we in een internationaal kader een tender hebben uitgeschreven, samen met de andere partners van het International Horizon Scanning Initiative, en waarvoor we verwachten dat later dit jaar het contract zal kunnen worden getekend, zeker nuttig zijn.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg159" xml:lang="nl">Ik ben het ermee eens dat dit belangrijke en gevoelige maatschappelijke debatten zijn. Ik leg hier nu geen zeer grote verklaringen over af, maar het is voor mij een zeer belangrijke werf van deze regering.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.06 Sofie Merckx (PVDA-PTB):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u36" who="#MerckxSofie" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg160" xml:lang="nl">Mijnheer de minister, u zegt het zelf: het is eigenlijk wel eigenaardig dat u niet meer informatie over Kaftrio hebt. Als ik het immers goed begrepen heb, gaat het in het kader van de terugbetaling van Orkambi en Symkevi over hetzelfde bedrijf, Vertex. U of uw vertegenwoordigers hebben met deze firma aan tafel gezeten om het geheime contract over de terugbetaling te sluiten. Is het Kaftrio-dossier dan niet besproken, want u zegt zelf dat het feit dat in sommige landen een dossier voor terugbetaling wordt ingediend en in andere niet, deel uitmaakt van een lanceringstrategie? Met andere woorden, patiënten worden uitgespeeld tegen elkaar. Men gaat sommige patiënten redden en andere niet. Zo wordt de prijs opgedreven en gaat de chantage voort. Het is eigenaardig dat u daar niet meer informatie over hebt gevraagd.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg161" xml:lang="nl">Het verbaast mij ook dat u zegt dat de reële productiekosten puur internationale materie zijn, want normaal gezien, moet het bedrijf ook informatie leveren als het een dossier voor terugbetaling indient. De farmaceutische industrie zegt althans dat zij steeds informatie moet geven over wat de reële productiekosten zijn. U zegt nu echter dat u zelf beslist over de terugbetaling, zonder dat u enig idee hebt over de reële productiekosten.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg162" xml:lang="nl">U wilt hier anders mee omgaan in de toekomst, maar het is natuurlijk ook belangrijk om in concrete dossiers vooruitgang te boeken en bijvoorbeeld te strijden voor meer transparantie en de juiste vragen te stellen aan de firma's.</seg>
+                </u>
+                <note type="speaker">11.07 Gitta Vanpeborgh (sp.a):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u37" who="#VanpeborghGitta" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg163" xml:lang="nl">Mijnheer de minister, de datum, 1 april, is duidelijk. Dat was mij ontgaan. De zaak van Kaftrio is spijtig, maar ik noteer ook wel wat u zegt over de lanceringstrategieën. Ik kan mij wel voorstellen dat dit meespeelt. We kunnen dat betreuren, maar het is wat het is. Hopelijk komt er toch een lichtje in de duisternis voor Kaftrio.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">11.08 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u38" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg164" xml:lang="nl">Mijnheer de minister, het is inderdaad een hele stap vooruit voor onze mucopatiënten dat ze nu toegang hebben tot die CFTR-modulatoren. Dat was absoluut noodzakelijk. De knoop is ook heel laat doorgehakt. Vandaar kan ik niet helemaal enthousiast zijn met uw antwoord. U zegt dat Kaftrio geen aanvraag heeft ingediend. Dat klopt. Proactief denken, is in dezen ook wel heel belangrijk voor onze patiënten. Ik heb u daar in deze commissie al een paar keer over aangesproken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg165" xml:lang="nl">Waarom gaat u niet over tot het terugbetalen in cluster, dus de cluster van de verschillende CFTR-modulatoren in een  pay for performance? Hier worden dan heel duidelijke criteria afgesproken met de firma, u overlegt met artsen welke farmaco-economische resultaten we moeten hebben. Zo kan er ook veel sneller geschakeld worden van de ene combinatie van molecules naar de andere. Dat gebeurt ook bij bepaalde kankertherapieën. Het zou voor onze mucopatiënten echt wel een heel groot verschil kunnen maken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg166" xml:lang="nl">De procedure is vandaag vrij langdurig. Zelfs als de firma overgaat tot het indienen van die aanvraag, zal het weer wachten zijn en zullen onze patiënten weer niet de eersten in de rij zijn voor de terugbetalingen. U verwijst naar het BeNeLuxA Initiative.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg167" xml:lang="nl">Dat is allemaal goed en wel, maar zoveel succesverhalen hebben we vanuit die hoek nog niet. Vooraleer wij daarop echt ten volle kunnen inzetten, zullen wij moeten zorgen voor een optimalisering van de werking voor de onder­handelingen over die innoverende geneesmiddelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg168" xml:lang="nl">Deze terugbetaling is in ieder geval een stap in de goede richting. Ik nodig u ertoe uit om te werken aan een proactief systeem, zodat we sneller antwoord kunnen bieden aan onze patiënten.</seg>
+                </u>
+                <note type="speaker" xml:lang="fr">11.09 Caroline Taquin (MR):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u39" who="#TaquinCaroline" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg169" xml:lang="fr">Monsieur le ministre, j'entends vos réponses ainsi que votre sensibilité et votre souhait d'avancer pour les patients atteints de mucoviscidose.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg170" xml:lang="fr">Je comprends la complexité pour les autorités ainsi que pour l'administration. Mais j'entends aussi que le chantier est capital pour ce gouvernement.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg171" xml:lang="fr">Si de bonnes nouvelles sont annoncées, il restera le point noir de Kaftrio. Il faut tenter de mettre une pression supplémentaire compte tenu des résultats de ce médicament et d'engager, si nécessaire, des pistes alternatives. J'espère que vous pourrez avancer rapidement conjointement avec d'autres pays européens - vous parliez du BeNeLuxA. Je vous encourage à activer tout cela et à durcir le ton.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    12 Vraag van Kathleen Depoorter aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De medische kosten van de meest kwetsbaren&quot; (55014755C)
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    12 Question de Kathleen Depoorter à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;Les frais médicaux des plus vulnérables&quot; (55014755C)
+                </note>
+                <note type="speaker" xml:lang="nl">12.01 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u40" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg172" xml:lang="nl">Mijnheer de minister, na de overheveling van een aantal bevoegdheden naar de regio's golden er overgangsmaatregelen voor tussenkomsten in de medische kosten van kwetsbare patiënten. De periode van die overgangsmaatregelen is intussen afgelopen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg173" xml:lang="nl">Mijnheer de minister, wat is de visie van uw departement? Hoe zult u ervoor zorgen dat de kwetsbare patiënten niet onnodig persoonlijk moeten bijdragen voor gezondheidskosten?</seg>
+                </u>
+                <note type="speaker">12.02 Minister Frank Vandenbroucke:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u41" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg174" xml:lang="nl">Mevrouw Depoorter, een duurzame regeling om de kosten voor prestaties die naar de Gemeenschappen werden overgedragen, in aanmerking te blijven nemen voor de toepassing van de federale maatregelen inzake financiële toegankelijkheid vereist in principe het sluiten van een samenwerkingsakkoord tussen de federale overheid en de Gemeenschappen. Momenteel is er nog geen dergelijk akkoord gesloten voor de periode na 2019.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg175" xml:lang="nl">De federale ministerraad van 22 november 2019 heeft een oplossing voorgesteld voor de maximumfactuur, die erin bestaat erin te voorzien dat de federale overheid en de Gemeenschappen gegevens uitwisselen, die toelaten dat de Gemeenschappen met de toegekende middelen een compensatie­mechanisme kunnen realiseren voor de betrokken verzekerden met een verblijf in een revalidatie-instelling of met persoonlijke aandelen in overgehevelde revalidatie­overeenkomsten. In de loop van 2020 vonden er contacten plaats tussen het RIZIV en de gezondheidsadministraties van de Gemeen­schappen om de voorgestelde oplossing en de principes voor de verdeling van de kosten nader uit te werken.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg176" xml:lang="nl">Er wordt vanaf 2020 voorzien in een interfederaal samengestelde MAF-teller. De persoonlijke aandelen voor federale prestaties en de persoonlijke aandelen die werden overgedragen naar de Gemeenschappen, worden samen­gevoegd, opdat voor de patiënten continuïteit in de toekenning van rechten kan worden gegarandeerd. De voorgestelde oplossing zal nog worden voorgelegd aan de interministeriële conferentie met het oog op de validering van de operationele uitwerking en een akkoord over de verdeling van de kosten en de financiële afrekening.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg177" xml:lang="nl">Voor het statuut van personen met een chronische aandoening en de forfaitaire toelage voor chronisch zieken zal het RIZIV binnenkort een overleg organiseren, dat tevens moet uitmonden in ontwerpakkoorden die kunnen worden voorgesteld aan de interministeriële conferentie. In afwachting worden uitgaven voor de naar de Gemeenschappen overgedragen prestaties voort in aanmerking genomen voor de federale maatregelen.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg178" xml:lang="nl">Voor mij is het belangrijk dat het algemene standstillprincipe betreffende de sociale rechten gevrijwaard wordt. Dat stipuleert dat de overdracht van bevoegdheden geen negatieve gevolgen voor de rechthebbenden mag inhouden en dat het niveau van sociale rechten behouden moet blijven.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">12.03 Kathleen Depoorter (N-VA):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u42" who="#DepoorterKathleen" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg179" xml:lang="nl">Mijnheer de voorzitter, het belangrijkste is uiteraard dat een en ander geen negatieve gevolgen mag hebben voor onze patiënten. Hoe dan ook vraag ik u met aandrang om een duurzaam antwoord te bieden. De onzekerheid weegt immers. Het persoonlijke aandeel in verband met gezondheidszorg is niet procentueel maar wel in totaliteit voor de patiënt gestegen en net kwetsbare gezinnen hebben het soms heel moeilijk om de kostprijs van het eigen aandeel in de gezondheidszorg te dragen. Ik ga ervan uit dat de regering de kwestie ter harte neemt en snel een antwoord biedt.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    13 Question de Hervé Rigot à Frank Vandenbroucke (VPM Affaires sociales et Santé publique) sur &quot;La répartition des centres de traitement de la mucoviscidose&quot; (55014869C)
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    13 Vraag van Hervé Rigot aan Frank Vandenbroucke (VEM Sociale Zaken en Volksgezondheid) over &quot;De spreiding van de mucocentra over het Belgische grondgebied&quot; (55014869C)
+                </note>
+                <note type="speaker" xml:lang="nl">13.01 Hervé Rigot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u43" who="#RigotHervé" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg180" xml:lang="fr">Monsieur le président, monsieur le ministre, l'enjeu de cette question est important.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg181" xml:lang="fr">Le 24 février 2020, je questionnais déjà Mme De Block alors ministre de la Santé sur les conséquences désastreuses du choix de l'INAMI de ne pas reconnaître le centre CHC comme un centre de référence pour la mucoviscidose.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg182" xml:lang="fr">Aujourd'hui, force est de constater que les cris de détresse de nombreux parents et patients dont je me suis fait l'écho n'ont pas été entendus.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg183" xml:lang="fr">Seul le centre de la Citadelle est désormais reconnu en Wallonie. Cette décision est terrible. Aujourd'hui, on dispose de six centres répartis sur huit sites en Flandre et à Bruxelles, avec un seul centre en Wallonie.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg184" xml:lang="fr">Les deux centres sont effectivement proches l'un de l'autre. Ils sont tous les deux à Liège. Néanmoins, cette décision amène le patient à devoir faire un choix horrible: renoncer à pour­suivre l'accompagnement mis en place au CHC  ou assumer financièrement la continuité de la prise en charge.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg185" xml:lang="fr">La question est urgente car le 31 mars prochain, les médecins du CHC ne seront plus repris comme médecins prescripteurs sur la convention du CHR de la Citadelle. Nous allons là droit dans le mur!</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg186" xml:lang="fr">Il serait raisonnable, responsable et humain de garder le modèle tel qu'il avait été mis en place avec une accréditation du CHR, une activité sur le site du CHC et des synergies.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg187" xml:lang="fr">Monsieur le ministre, afin d'améliorer la qualité de vie des patients, ne pensez-vous pas qu'une nouvelle répartition géographique devrait être envisagée? Afin de maintenir une certaine qualité de vie pour ces patients, ne pensez-vous pas qu'il serait opportun de reconsidérer l'accréditation du CHC? Je vous pose ces questions notamment au nom d'Enoah, de Julie, d'Éline, d'Élodie et de Camille.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">13.02 Frank Vandenbroucke, ministre:</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u44" who="#VandenbrouckeFrank" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg188" xml:lang="fr">Monsieur le président, monsieur Rigot, je comprends que vous posiez cette question avec une certaine urgence. Je sais en effet qu'il y a eu des réactions et manifestations qui soulignent qu'il s'agit d'une question délicate et difficile.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg189" xml:lang="fr">Je tiens tout d'abord à confirmer que la convention pour la prise en charge des patients atteints de mucoviscidose a été conclue depuis longtemps avec sept centres de référence en Belgique: trois hôpitaux à Bruxelles, trois hôpitaux en Flandre et un hôpital en Wallonie, le CHR de la Citadelle à Liège. Si on tient compte des sites sur lesquels étaient proposées également les activités dans le cadre de la convention de mucoviscidose jusqu'à présent, le nombre de sites du côté francophone (CHR inclus) est égal au nombre de sites du côté néérlandophone, à savoir cinq sites de chaque côté.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg190" xml:lang="fr">Pour répondre à votre première question visant à savoir si nous pensons qu'une nouvelle répartition géographique des centres de référence de la mucoviscidose devrait être envisagée, nous estimons que la répartition actuelle des centres de référence en Belgique permet d'offrir une accessibilité suffisante aux patients atteints de la mucoviscidose, tant du côté francophone que du côté néerlandophone du pays.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg191" xml:lang="fr">Il est également à signaler que, le plus souvent, il n'est pas nécessaire que les patients se rendent quotidiennement dans le centre de référence pour s'y voir dispenser des soins. Une partie des soins et de l'accompagnement peuvent en effet être dispensés au plus proche de leur domicile. Dès lors, pour la plupart des patients, par an, un nombre de contacts assez restreints avec un centre de référence suffit.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg192" xml:lang="fr">De plus, au regard des données d'enregistrement qui ressortent du rapport 2018 de Sciensano, il est à constater que les centres de référence existants parviennent à capter les patients qui n'habitent pas tout près d'un centre de référence. Par ailleurs, ces données ne donnent pas l'impression que certaines régions ne seraient pas atteintes. Que du contraire!</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg193" xml:lang="fr">Il est clair que la répartition géographique est à considérer comme un des éléments importants dont il y a lieu de tenir compte, mais il nous semble également primordial de pouvoir garantir à nos patients atteints de la mucoviscidose une expertise suffisante et les qualités d'une équipe médicale et paramédicale. Cela ne peut se faire qu'en concentrant l'expertise dans les mains de quelques centres de référence, surtout au regard du faible nombre de patients atteints de cette maladie héréditaire rare en Belgique. Il s'agit de 1 320 patients.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg194" xml:lang="fr">Je tiens à signaler également qu'une surveillance de la qualité dans les centres de référence mucoviscidose est mise en place depuis de nombreuses années en collaboration avec Sciensano.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg195" xml:lang="fr">Pour répondre à votre deuxième question visant à savoir si nous pensons qu'il serait opportun de reconsidérer l'accréditation du CHC, je vous répondrai qu'étant donné qu'il existe déjà un centre de référence pour la prise en charge des patients atteints de mucoviscidose dans la région de Liège, il n'est pas opportun de conclure une convention supplémentaire avec un autre centre liégeois. Cela n'améliorerait pas non plus fondamentalement l'accessibilité géographique de la prise en charge multidisciplinaire et de l'accompagnement des patients.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg196" xml:lang="fr">En outre, la conclusion d'une convention supplémentaire avec un centre de référence irait à l'encontre des différents principes énoncés dans le Plan belge pour les maladies rares lancé en décembre 2013 en ce qui concerne, notamment, la nécessité de concentrer l'expertise. La conclusion de la convention pour la prise en charge des patients atteints de mucoviscidose avec le CHC à Liège signifierait aussi qu'une telle convention serait alors conclue avec un hôpital ne disposant pas d'une fonction maladies rares, ni d'un centre de génétique humaine. De plus, cela irait à l'encontre de la politique suivie depuis la mise en place du Plan belge pour les maladies rares.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg197" xml:lang="fr">L'impossibilité pour le CHC, après le 31 mars, de suivre les patients dans le cadre de la convention conclue avec le CHR de la Citadelle et l'INAMI résulte principalement, hélas, de problèmes de collaboration entre les deux hôpitaux. C'est dans ce contexte que le CHR de la Citadelle a déjà décidé, aux premières semaines de 2020, d'arrêter cette collaboration commencée en 2002.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg198" xml:lang="fr">En l'occurrence, monsieur Rigot, cela n'est plus vraiment de mon ressort. En effet, je ne peux pas forcer une collaboration. Je me suis bien rendu compte du problème, mais il ne m'appartient pas de le gérer. L'INAMI avait entrepris une médiation, à la suite de laquelle le CHC a encore pu poursuivre temporairement ses activités dans le cadre de la convention conclue avec le CHR de la Citadelle, en attendant l'installation d'un centre de référence unique et intégré sur son site, prévue pour le 1er  avril.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg199" xml:lang="fr">Toutefois, étant donné que les négociations entre les deux hôpitaux entreprises à cette fin n'ont pu aboutir, leur collaboration restreinte prendra fin au 31 mars. Je comprends donc le ressentiment qu'éprouvent les patients et les familles et dont vous témoignez. Cependant, il s'agit d'un problème de collaboration entre hôpitaux que je ne puis résoudre par mes propres moyens. De même, il ne me semble pas envisageable de revoir la répartition des centres de référence aux fins d'y remédier.</seg>
+                </u>
+                <note type="speaker" xml:lang="nl">13.03 Hervé Rigot (PS):</note>
+                <u ana="#regular" xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.u45" who="#RigotHervé" xml:lang="nl">
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg200" xml:lang="fr">Monsieur le ministre, je vous remercie de votre réponse.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg201" xml:lang="fr">Je comprends votre raisonnement. En dépit de votre pouvoir ministériel, il est, en tout cas, un domaine dans lequel vous ne pouvez pas agir. Je l'entends bien, mais je le regrette au nom des patients et de leurs familles qui en subiront les conséquences. Par conséquent, j'espère que la situation pourra s'améliorer dans ces deux institutions hospitalières de grande qualité. Aujourd'hui, le perdant est malheureusement le patient.</seg>
+                    <seg xml:id="ParlaMint-BE_2021-03-09-definitief-55-commissie-ic399x.seg202" xml:lang="fr">Vous le savez encore mieux que moi, le patient a besoin de la confiance et du soutien de celui qui le guide depuis des années dans ses souffrances et là, il va malheureusement le perdre. Je comprends votre position. Je la regrette évidemment. J'en suis attristé mais je sais que vous êtes allé à la limite de ce que vous pouviez faire. J'espère que le bon sens reviendra et que les patients pourront être pris en charge avec une bonne qualité de soins.</seg>
+                </u>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    L'incident est clos.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    Het incident is gesloten.
+                </note>
+                <note xml:lang="fr" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    La réunion publique de commission est levée à 17 h 44.
+                </note>
+                <note xml:lang="nl" type="editorial">
+                    <?uncertain_content_classification Could be possibly be speaker text?>
+                    De openbare commissievergadering wordt gesloten om 17.44 uur.
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>
