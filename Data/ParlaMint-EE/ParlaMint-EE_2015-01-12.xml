@@ -3,8 +3,12 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="en">Estonian parliamentary corpus ParlaMint-EE, 2015-01-12 [ParlaMint SAMPLE]</title>
-        <meeting ana="#parla.meeting.regular">Korraline istung</meeting>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2015-01-12 [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="sub">XII Parliament term, IX Session, Plenary Assembly regular meeting on Monday, 12.01.2015, 15:00</title>
+        <title xml:lang="et" type="sub">XII Riigikogu, IX Istungjärk, täiskogu korraline istung Esmaspäev, 12.01.2015, 15:00</title>
+        <meeting ana="#parla.uni #parla.sitting" n="2015-01-12">2015-01-12</meeting>
+        <meeting ana="#parla.uni #parla.session" n="rs9">IX regular session</meeting>
+        <meeting ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
         <respStmt>
           <persName>Martin Mölder</persName>
           <persName>Neeme Kahusk</persName>
@@ -33,7 +37,7 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
         </availability>
-        <date when="2021-06-10">2021-06-10</date>
+        <date when="2023-01-19">2023-01-19</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -57,6 +61,8 @@
     <profileDesc>
       <settingDesc>
         <setting>
+          <name type="org">Riigikogu</name>
+          <name type="address">Lossi plats 1a</name>
           <name type="city">Tallinn</name>
           <name type="country" key="EE">Estonia</name>
           <date ana="#parla.meeting" when="2015-01-12">2015-01-12</date>
