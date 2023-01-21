@@ -314,6 +314,15 @@
         <interleave>
           <oneOrMore>
             <element name="surname">
+	      <optional>
+		<attribute name="type">
+		  <choice>
+		    <value>birth</value>
+		    <value>patronym</value>
+		    <value>marriage</value>
+		  </choice>
+		</attribute>
+	      </optional>
               <ref name="personal.att"/>
               <ref name="normalized-space.string"/>
             </element>

@@ -151,7 +151,11 @@ persName =
     ## Special persons (like 'group') have their name in term. This possibility
     ##         might have to be revisited.
     (element term { normalized-space.string }
-     | (element surname { personal.att, normalized-space.string }+
+     | (element surname {
+          attribute type { "birth" | "patronym" | "marriage" }?,
+          personal.att,
+          normalized-space.string
+        }+
         & element forename { personal.att, normalized-space.string }+
         & element addName { personal.att, normalized-space.string }*
         & element roleName { personal.att, normalized-space.string }*
