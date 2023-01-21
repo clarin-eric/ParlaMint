@@ -128,9 +128,10 @@ sub chars {
 	if (ord($c) == hex('00A0') or  #NO-BREAK SPACE
 	    ord($c) == hex('2011') or  #NON-BREAKING HYPHEN
 	    ord($c) == hex('00AD') or  #SOFT HYPHEN
+	    ord($c) == hex('FFFD') or  #REPLACEMENT CHAR
 	    (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
-	    (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))
-	    ) {  #PUA
+	    (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
+	    ) {
 	    $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
 	    push(@bad, $message)
 	}
