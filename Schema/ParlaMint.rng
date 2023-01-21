@@ -319,7 +319,7 @@
 		  <choice>
 		    <value>birth</value>
 		    <value>patronym</value>
-		    <value>marriage</value>
+		    <value>married</value>
 		  </choice>
 		</attribute>
 	      </optional>
@@ -329,6 +329,15 @@
           </oneOrMore>
           <oneOrMore>
             <element name="forename">
+	      <optional>
+		<attribute name="type">
+		  <choice>
+		    <value>first</value>
+		    <value>middle</value>
+		    <value>unused</value>
+		  </choice>
+		</attribute>
+	      </optional>
               <ref name="personal.att"/>
               <ref name="normalized-space.string"/>
             </element>

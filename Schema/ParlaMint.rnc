@@ -152,11 +152,15 @@ persName =
     ##         might have to be revisited.
     (element term { normalized-space.string }
      | (element surname {
-          attribute type { "birth" | "patronym" | "marriage" }?,
+          attribute type { "birth" | "patronym" | "married" }?,
           personal.att,
           normalized-space.string
         }+
-        & element forename { personal.att, normalized-space.string }+
+        & element forename {
+            attribute type { "first" | "middle" | "unused" }?,
+            personal.att,
+            normalized-space.string
+          }+
         & element addName { personal.att, normalized-space.string }*
         & element roleName { personal.att, normalized-space.string }*
         & element nameLink { normalized-space.string }*))
