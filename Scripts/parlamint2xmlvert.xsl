@@ -119,6 +119,9 @@
           <xsl:when test="@reason">
             <xsl:value-of select="concat(name(), '::', @reason)"/>
           </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat(name(), ':-')"/> 
+	  </xsl:otherwise>	  
         </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="content">
