@@ -69,7 +69,8 @@
               <xsl:attribute name="speaker_name" select="et:format-name-chrono(
                                                          $speaker//tei:persName, 
                                                          $at-date)"/>
-              <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
+              <xsl:attribute name="speaker_mp" select="et:speaker-mp($speaker)"/>
+              <xsl:attribute name="speaker_minister" select="et:speaker-minister($speaker)"/>
               <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
               <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
               <xsl:attribute name="party_status" select="et:party-status($speaker)"/>

@@ -49,7 +49,8 @@
     <xsl:text>Agenda&#9;</xsl:text>
     <xsl:text>Subcorpus&#9;</xsl:text>
     <xsl:text>Speaker_role&#9;</xsl:text>
-    <xsl:text>Speaker_type&#9;</xsl:text>
+    <xsl:text>Speaker_MP&#9;</xsl:text>
+    <xsl:text>Speaker_Minister&#9;</xsl:text>
     <xsl:text>Speaker_party&#9;</xsl:text>
     <xsl:text>Speaker_party_name&#9;</xsl:text>
     <xsl:text>Party_status&#9;</xsl:text>
@@ -95,7 +96,8 @@
             <xsl:value-of select="@xml:id"/>
           </xsl:message>
         </xsl:if>
-        <xsl:value-of select="concat(et:speaker-type($speaker), '&#9;')"/>
+        <xsl:value-of select="concat(et:speaker-mp($speaker), '&#9;')"/>
+        <xsl:value-of select="concat(et:speaker-minister($speaker), '&#9;')"/>
         <xsl:value-of select="concat(et:speaker-party($speaker, 'abb'), '&#9;')"/>
         <xsl:value-of select="concat(et:speaker-party($speaker, 'yes'), '&#9;')"/>
         <xsl:value-of select="concat(et:party-status($speaker), '&#9;')"/>

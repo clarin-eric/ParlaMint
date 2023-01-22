@@ -14,9 +14,13 @@
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
 
-  <!-- Output label for MPs and non-MPs (in vertical or metadata output) --> 
+  <!-- Output label for MPs and non-MPs (in vertical and metadata output) --> 
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="nonmp-label">notMP</xsl:param>
+  
+  <!-- Output label for Ministers and non-Ministers (in vertical and metadata output) --> 
+  <xsl:param name="minister-label">Minister</xsl:param>
+  <xsl:param name="nonminister-label">notMinister</xsl:param>
   
   <!-- Output label for a coalition and opposition party (in vertical or metadata output) --> 
   <xsl:param name="coalition-label">Coalition</xsl:param>
@@ -304,7 +308,7 @@
   </xsl:function>
 
   <!-- Output appropriate label if the speaker is (not) an MP when speaking -->
-  <xsl:function name="et:speaker-type" as="xs:string">
+  <xsl:function name="et:speaker-mp" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
     <xsl:variable name="mp">
       <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
@@ -318,6 +322,20 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$nonmp-label"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
+  <!-- Output appropriate label if the speaker is (not) a Minister when speaking -->
+  <xsl:function name="et:speaker-minister" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <xsl:choose>
+      <xsl:when test="$speaker/tei:affiliation[@role = 'minister']
+		      [et:between-dates($at-date, @from, @to)]">
+        <xsl:value-of select="$minister-label"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$nonminister-label"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
