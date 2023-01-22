@@ -32,41 +32,16 @@
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   
-  <!-- $date-from and $date-to of a corpus component (assumed at XML root) -->
-  <!-- Typically are identical, but not necessarily -->
-  <xsl:variable name="date-from">
-    <xsl:variable name="d" select="/tei:TEI/tei:teiHeader//tei:settingDesc//tei:date"/>
-    <xsl:choose>
-      <xsl:when test="$d/@when">
-        <xsl:value-of select="$d/@when"/>
-      </xsl:when>
-      <xsl:when test="$d/@from">
-        <xsl:value-of select="$d/@from"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:message terminate="yes">
-          <xsl:text>FATAL: Can't find TEI date-from in settingDesc of input file </xsl:text>
-          <xsl:value-of select="/tei:TEI/@xml:id"/>
-        </xsl:message>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:variable>
-  <xsl:variable name="date-to">
-    <xsl:variable name="d" select="/tei:TEI/tei:teiHeader//tei:settingDesc//tei:date"/>
-    <xsl:choose>
-      <xsl:when test="$d/@when">
-        <xsl:value-of select="$d/@when"/>
-      </xsl:when>
-      <xsl:when test="$d/@to">
-        <xsl:value-of select="$d/@to"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:message terminate="yes">
-          <xsl:text>FATAL: Can't find TEI date-to in settingDesc of input file </xsl:text>
-          <xsl:value-of select="/tei:TEI/@xml:id"/>
-        </xsl:message>
-      </xsl:otherwise>
-    </xsl:choose>
+  <!-- Date of a corpus component -->
+  <xsl:variable name="at-date">
+    <xsl:variable name="date" select="/tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
+    <xsl:if test="not($date/@when)">
+      <xsl:message terminate="yes">
+        <xsl:text>FATAL: Can't find TEI date/@when in setting of input file </xsl:text>
+        <xsl:value-of select="/tei:TEI/@xml:id"/>
+      </xsl:message>
+    </xsl:if>
+    <xsl:value-of select="$date/@when"/>
   </xsl:variable>
   
   <!-- Parliamentary body, term, session, meeting, sitting, agenda number or label of a corpus compoment -->
@@ -364,8 +339,7 @@
         <!-- Relation in the correct time-frame, should be only 1 -->
         <xsl:variable name="relation">
           <xsl:for-each select="$relations/self::tei:relation">
-            <xsl:if test="et:between-dates($date-from, @from, @to) and
-                          et:between-dates($date-to,   @from, @to)">
+            <xsl:if test="et:between-dates($at-date, @from, @to)">
               <xsl:copy-of select="."/>
             </xsl:if>
           </xsl:for-each>
@@ -406,7 +380,7 @@
               <xsl:text>ERROR: multiple party statuses for </xsl:text>
               <xsl:value-of select="$speaker/@xml:id"/>
               <xsl:text> on </xsl:text>
-              <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ',
+              <xsl:value-of select="concat($at-date, ': ',
                                     normalize-space($in-relation))"/>
             </xsl:message>
             <xsl:value-of select="substring-before($in-relation, ' ')"/>
@@ -464,8 +438,7 @@
       <xsl:for-each select="$speaker/tei:affiliation
                             [@role='member' or @role='candidateMP' or
                             @role='president' or @role='vicePresident' or @role='secretary']">
-        <xsl:if test="et:between-dates($date-from, @from, @to) and
-                      et:between-dates($date-to, @from, @to)">
+        <xsl:if test="et:between-dates($at-date, @from, @to)">
           <xsl:value-of select="@ref"/>
           <xsl:text>&#32;</xsl:text>
         </xsl:if>
@@ -476,7 +449,7 @@
         <xsl:text>WARN: more than one party for </xsl:text>
         <xsl:value-of select="$speaker/@xml:id"/>
         <xsl:text> on </xsl:text>
-        <xsl:value-of select="concat($date-from, ' - ', $date-to, ': ', $tmp)"/>
+        <xsl:value-of select="concat($at-date, ': ', $tmp)"/>
         </xsl:message>
         </xsl:if-->
     <xsl:value-of select="normalize-space($refs)"/>
