@@ -57,7 +57,7 @@
           <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
           <speech id="{$speech_id}" text_id="{$text_id}"
                   subcorpus="{$subcorpus}"
-                  house="{$house}" term="{$term}" session="{$session}"
+                  body="{$body}" term="{$term}" session="{$session}"
                   meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
                   from="{$date-from}" to="{$date-to}" title="{$title}">
             <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>

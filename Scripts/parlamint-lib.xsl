@@ -69,9 +69,9 @@
     </xsl:choose>
   </xsl:variable>
   
-  <!-- House, term, session, meeting, sitting, agenda number or label of a corpus compoment -->
-  <xsl:variable name="house">
-    <xsl:call-template name="house"/>
+  <!-- Parliamentary body, term, session, meeting, sitting, agenda number or label of a corpus compoment -->
+  <xsl:variable name="body">
+    <xsl:call-template name="body"/>
   </xsl:variable>
   <xsl:variable name="term">
     <xsl:call-template name="meeting">
@@ -164,41 +164,27 @@
 
   <!-- NAMED TEMPLATES -->
 
-  <!-- Get the name (Lower House, Upper house, -) of the house from meeting element, e.g.
-       <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
-       <meeting corresp="#PoGB" ana="#parla.upper #parla.meeting.regular"/>
-       <meeting ana="#parla.meeting.regular" corresp="#NS" n="394">394 пленарно заседание</meeting>
+  <!-- Get the name of the parliamentary body from meeting elements, e.g. from this series:
+       <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
+       <meeting ana="#parla.meeting #parla.lower" n="ps2013/001">ps2013/001</meeting>
+       <meeting ana="#parla.sitting #parla.lower" n="ps2013/001/01">ps2013/001/01</meeting>
+       <meeting ana="#parla.agenda #parla.lower" n="ps2013/001/000">ps2013/001/000</meeting>
   -->
-  <xsl:template name="house">
-    <xsl:param name="lower">Lower house</xsl:param>
-    <xsl:param name="upper">Upper house</xsl:param>
-    <xsl:param name="none"></xsl:param>
+  <xsl:template name="body">
     <xsl:variable name="titleStmt" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-    <xsl:variable name="is_lower">
+    <xsl:variable name="references">
       <xsl:for-each select="$titleStmt/tei:meeting">
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="key('idr', ., $rootHeader)/tei:catDesc[tei:term = $lower]">X</xsl:if>
-        </xsl:for-each>
+	<xsl:value-of select="concat(@ana, ' ')"/>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:variable name="is_upper">
-      <xsl:for-each select="$titleStmt/tei:meeting">
-        <xsl:for-each select="tokenize(@ana, ' ')">
-          <xsl:if test="key('idr', ., $rootHeader)/tei:catDesc[tei:term = $upper]">X</xsl:if>
-        </xsl:for-each>
-      </xsl:for-each>
-    </xsl:variable>
-    <xsl:choose>
-      <xsl:when test="normalize-space($is_lower)">
-        <xsl:value-of select="$lower"/>
-      </xsl:when>
-      <xsl:when test="normalize-space($is_upper)">
-        <xsl:value-of select="$upper"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="$none"/>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
+      <xsl:if test="key('idr', ., $rootHeader)
+		    [ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]">
+	<xsl:value-of select="key('idr', ., $rootHeader)/
+			      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
+			      tei:term"/>
+      </xsl:if>
+    </xsl:for-each>
   </xsl:template>
   
   <!-- Get @n from appropriate meeting type, e.g.

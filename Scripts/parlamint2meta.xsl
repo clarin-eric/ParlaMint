@@ -42,7 +42,7 @@
     <xsl:text>Title&#9;</xsl:text>
     <xsl:text>From&#9;</xsl:text>
     <xsl:text>To&#9;</xsl:text>
-    <xsl:text>House&#9;</xsl:text>
+    <xsl:text>Body&#9;</xsl:text>
     <xsl:text>Term&#9;</xsl:text>
     <xsl:text>Session&#9;</xsl:text>
     <xsl:text>Meeting&#9;</xsl:text>
@@ -68,7 +68,7 @@
     <xsl:value-of select="concat($title, '&#9;')"/>
     <xsl:value-of select="concat($date-from, '&#9;')"/>
     <xsl:value-of select="concat($date-to, '&#9;')"/>
-    <xsl:value-of select="concat($house, '&#9;')"/>
+    <xsl:value-of select="concat($body, '&#9;')"/>
     <xsl:value-of select="concat($term, '&#9;')"/>
     <xsl:value-of select="concat($session, '&#9;')"/>
     <xsl:value-of select="concat($meeting, '&#9;')"/>
