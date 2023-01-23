@@ -1,10 +1,9 @@
-## Edited, still problems: RS
-## Not yet edited: BA
+## Edited, still problems: RS BA
+## Not yet edited: 
 ## Edited, problems because of old corpus: LV LT PL ES
 ## Edited, OK: BE HR
-## Corpus already contains ministers: AT BG CZ DK GR HU IS NL NO PT SE SI TR
-## New: IT
-MC = RS
+## Corpus already contains ministers: AT BG CZ DK GR HU IS IT NL NO PT SE SI TR
+MC = BA
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
 V3  = /project/corpora/Parla/ParlaMint/V3/Master
