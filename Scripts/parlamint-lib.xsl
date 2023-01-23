@@ -18,9 +18,10 @@
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="nonmp-label">notMP</xsl:param>
   
-  <!-- Output label for Ministers and non-Ministers (in vertical and metadata output) --> 
+  <!-- Output label for Ministers and non-Ministers (in vertical and metadata output) -->
+  <!-- Non-minister set to -, as not all corpora have ministers encoded yet -->
   <xsl:param name="minister-label">Minister</xsl:param>
-  <xsl:param name="nonminister-label">notMinister</xsl:param>
+  <xsl:param name="nonminister-label">-</xsl:param>
   
   <!-- Output label for a coalition and opposition party (in vertical or metadata output) --> 
   <xsl:param name="coalition-label">Coalition</xsl:param>
