@@ -11,6 +11,7 @@
      - insert word extents from ana into plain version
      - insert tagcounts in root (taken from component files and not changed there!)
      - fix spaces in text
+     - if necessary, change div/@type for divs without utterances
      - sundry checks and fixes, which give warning messages
 -->
 <xsl:stylesheet 
@@ -291,6 +292,19 @@
     </xsl:copy>
   </xsl:template>  
 
+  <!-- Fix div/@type="debateSection" to ="commentSection" if div contains not utterances -->
+  <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': no utterances in div/@type=debateSection, ',
+			 'replacing with commentSection')"/>
+
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="type">commentSection</xsl:attribute>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
