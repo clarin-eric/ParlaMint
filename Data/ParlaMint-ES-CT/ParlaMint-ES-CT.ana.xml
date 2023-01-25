@@ -31,13 +31,13 @@
             </respStmt>
             <funder>
                <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
-			   <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="315" xml:lang="ca">315 intervencions</measure>
             <measure unit="speeches" quantity="315" xml:lang="en">315 speeches</measure>
             <measure unit="words" quantity="11796666" xml:lang="ca">11796666 paraules</measure>
@@ -55,7 +55,7 @@
                <p xml:lang="ca">Aquesta obra està subjecta a la llicència internacional Creative Commons Attribution 4.0</p>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2022-11-04">2022-11-04</date>
+            <date when="2023-01-25">2023-01-25</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,7 +92,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="211"/>
                <tagUsage gi="body" occurs="211"/>
@@ -140,15 +140,15 @@
                <label>Freeling 4.2 (catalan model)</label>
                <desc>Tokenisation, POS tagging, lemmatization and NER done with Freeling 4.2</desc>
             </application>
-			<application ident="Freeling" version="4.2">
+            <application ident="Freeling" version="4.2">
                <label>Freeling 4.2 (spanish model)</label>
                <desc>Tokenisation, POS tagging, lemmatization and NER done with Freeling 4.2</desc>
             </application>
-			<application ident="UDPipe" version="2">
+            <application ident="UDPipe" version="2">
                <label>UDPipe 2 (catalan-ancora-ud-2.10-220711 model)</label>
                <desc>dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with catalan-ancora-ud-2.10-220711 model</desc>
             </application>
-			<application ident="UDPipe" version="2">
+            <application ident="UDPipe" version="2">
                <label>UDPipe 2 (spanish-ancora-ud-2.10-220711 model)</label>
                <desc>dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with spanish-ancora-ud-2.10-220711 model</desc>
             </application>
@@ -163,7 +163,7 @@
                <date from="2015-10-26" to="2022-07-21">2015-10-26 - 2022-07-21</date>
             </setting>
          </settingDesc>
-		 <textClass>
+         <textClass>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
          </textClass>
          <particDesc>
@@ -185,6 +185,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2023-01-25">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-11-04">
             <name>GitHub Action</name>: Made sample.
 		</change>
