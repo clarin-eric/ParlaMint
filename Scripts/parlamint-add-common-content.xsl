@@ -138,8 +138,11 @@
         <term>Lower house</term>
       </xsl:when>
       <xsl:otherwise>
+        <!--
         <xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id,
                                              ': BAD COUNTRY!')"/>
+                                           -->
+        <xsl:message>WARN: country without houses info</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
@@ -307,16 +310,14 @@
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
-    <xsl:variable name="date-from">
+    <xsl:variable name="at-date">
       <xsl:choose>
         <xsl:when test="$date/@when">
           <xsl:value-of select="$date/@when"/>
         </xsl:when>
-        <xsl:when test="$date/@from">
-          <xsl:value-of select="$date/@from"/>
-        </xsl:when>
         <xsl:otherwise>
           <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
+	  <xsl:text></xsl:text>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -324,17 +325,15 @@
       <xsl:variable name="ref">
         <xsl:for-each select="tokenize(., ' ')">
           <xsl:choose>
-            <xsl:when test=". = '#reference' and
-                            $covid-date &lt;= $date-from">
+            <xsl:when test=". = '#reference' and $covid-date &lt;= $at-date">
               <xsl:text>#covid</xsl:text>
               <xsl:message select="concat('WARN ', $id,
-                               ': fixing subcorpus to covid for date ', $date-from)"/>
+                               ': fixing subcorpus to covid for date ', $at-date)"/>
             </xsl:when>
-            <xsl:when test=". = '#covid' and
-                            $covid-date &gt; $date-from">
+            <xsl:when test=". = '#covid' and $covid-date &gt; $at-date">
               <xsl:text>#reference</xsl:text>
               <xsl:message select="concat('WARN ', $id,
-                               ': fixing subcorpus to reference for date ', $date-from)"/>
+                               ': fixing subcorpus to reference for date ', $at-date)"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:value-of select="."/>
@@ -566,35 +565,43 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Add textClass if missing -->
+  <!-- Add textClass if missing and houses information is present-->
   <xsl:template match="tei:settingDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
     </xsl:copy>
     <xsl:if test="not(../tei:textClass)">
-      <xsl:message>
-        <xsl:value-of select="concat('INFO ', /tei:*/@xml:id,
-                              ': inserting textClass for')"/>
-        <xsl:for-each select="$houses/tei:term">
-          <xsl:value-of select="concat(' ', .)"/>
-        </xsl:for-each>
-      </xsl:message>
-      <textClass>
-        <catRef scheme="{$house-refs/tei:ref[. = 'Legislature']/@target}">
-          <xsl:attribute name="target">
-            <xsl:variable name="targets">
-              <xsl:for-each select="$house-refs/tei:ref">
-                <xsl:if test=". != 'Legislature'">
-                  <xsl:value-of select="@target"/>
-                  <xsl:text>&#32;</xsl:text>
-                </xsl:if>
-              </xsl:for-each>
-            </xsl:variable>
-            <xsl:value-of select="normalize-space($targets)"/>
-          </xsl:attribute>
-        </catRef>
-      </textClass>
+      <xsl:choose>
+        <xsl:when test="$houses/tei:term">
+          <xsl:message>
+            <xsl:value-of select="concat('INFO ', /tei:*/@xml:id,
+                                  ': inserting textClass for')"/>
+            <xsl:for-each select="$houses/tei:term">
+              <xsl:value-of select="concat(' ', .)"/>
+            </xsl:for-each>
+          </xsl:message>
+          <textClass>
+            <catRef scheme="{$house-refs/tei:ref[. = 'Legislature']/@target}">
+              <xsl:attribute name="target">
+                <xsl:variable name="targets">
+                  <xsl:for-each select="$house-refs/tei:ref">
+                    <xsl:if test=". != 'Legislature'">
+                      <xsl:value-of select="@target"/>
+                      <xsl:text>&#32;</xsl:text>
+                    </xsl:if>
+                  </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="normalize-space($targets)"/>
+              </xsl:attribute>
+            </catRef>
+          </textClass>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message>WARN: missing textClass and unable to add it automaticaly</xsl:message>
+          <xsl:comment>textClass</xsl:comment>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
   </xsl:template>
 

@@ -45,8 +45,18 @@
                                            $outFilePrefix, $country, $outFileSuffix)"/>
       <xsl:message select="concat('INFO: Creating ', $outFile)"/>
       <xsl:result-document href="{$outFile}" method="text">
-        <xsl:text>Country&#9;PersonID&#9;Role&#9;From&#9;To&#9;Gov.&#9;Ministry&#9;Name-xx&#9;Name-en&#9;URL&#9;Comment&#10;</xsl:text>
-        <xsl:variable name="content">
+        <xsl:text>Country&#9;</xsl:text>
+	<xsl:text>PersonID&#9;</xsl:text>
+	<xsl:text>Role&#9;</xsl:text>
+	<xsl:text>From&#9;</xsl:text>
+	<xsl:text>To&#9;</xsl:text>
+	<xsl:text>GovtTermID&#9;</xsl:text>
+	<xsl:text>MinistryID&#9;</xsl:text>
+	<xsl:text>Name-xx&#9;</xsl:text>
+	<xsl:text>Name-en&#9;</xsl:text>
+	<xsl:text>URL&#9;</xsl:text>
+	<xsl:text>Comment&#10;</xsl:text>
+        <xsl:variable name="row">
           <xsl:variable name="rootHeader">
             <xsl:apply-templates mode="XInclude" select="document($href)//tei:teiHeader"/>
           </xsl:variable>
@@ -61,8 +71,19 @@
           </xsl:when>
           <xsl:otherwise>
             <xsl:for-each select="1 to $maxLines">
-              <xsl:value-of select="concat($country, '&#9;', '-', '&#9;', 'minister', '&#9;', 
-                '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#9;', '-', '&#10;')"/>
+              <xsl:value-of
+		  select="concat($country, 
+			  '&#9;', '-',
+			  '&#9;', 'minister',
+			  '&#9;', '-',
+			  '&#9;', '-',
+			  '&#9;', '-',
+			  '&#9;', '-',
+			  '&#9;', '-',
+			  '&#9;', '-',
+			  '&#9;', '-',
+			  '&#9;', '-', 
+			  '&#10;')"/>
             </xsl:for-each>
           </xsl:otherwise>
         </xsl:choose>
@@ -156,7 +177,7 @@
 	</xsl:choose>
       </xsl:when>
       <!-- How it is done in ParlaMint 2.* -->
-      <xsl:when test="normalize-space(.) and ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang">
+      <xsl:when test="normalize-space(.) and @xml:lang = $lang">
         <xsl:value-of select="."/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
@@ -167,28 +188,26 @@
       <!-- How it is done in ParlaMint 3.* -->
       <xsl:when test="tei:roleName">
 	<xsl:choose>
-	  <xsl:when test="tei:roleName[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']">
-            <xsl:value-of select="tei:roleName[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+	  <xsl:when test="tei:roleName[@xml:lang = 'en']">
+            <xsl:value-of select="tei:roleName[@xml:lang = 'en']"/>
 	  </xsl:when>
 	  <xsl:otherwise>-</xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
       <!-- How it is done in ParlaMint 2.* -->
-      <xsl:when test="normalize-space(.) and ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en'">
+      <xsl:when test="normalize-space(.) and @xml:lang = 'en'">
         <xsl:value-of select="."/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
+    <!-- URL -->
     <xsl:choose>
       <xsl:when test="@source">
         <xsl:value-of select="@source"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
-    <!-- URL, NOT YET IMPLEMENTED! -->
-    <xsl:text>&#9;</xsl:text>
-    <xsl:text>-</xsl:text>
     <!-- Comment -->
     <xsl:text>&#9;</xsl:text>
     <xsl:text>-</xsl:text>
