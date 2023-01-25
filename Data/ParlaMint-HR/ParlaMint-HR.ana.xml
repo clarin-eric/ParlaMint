@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR [ParlaMint.ana]</title>
-            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR [ParlaMint.ana]</title>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat 5-9(2003-12-22 - 2022-07-15)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 5-9(2003-12-22 - 2022-07-15)</title>
             <meeting n="5" corresp="#HS" ana="#parla.term #HS.5">5. mandat</meeting>
@@ -37,7 +37,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1356" xml:lang="hr">1.356 govora</measure>
             <measure unit="speeches" quantity="1356" xml:lang="en">1,356 speeches</measure>
             <measure unit="words" quantity="218666" xml:lang="hr">218.666 riječi</measure>
@@ -57,7 +57,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2022-12-23">December 23, 2022</date>
+            <date when="2023-01-25">2023-01-25</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -93,7 +93,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="6"/>
                <tagUsage gi="desc" occurs="239"/>
@@ -649,10 +649,10 @@
             </prefixDef>
          </listPrefixDef>
          <appInfo>
-           <application version="1.0" ident="classla">
-             <label>CLASSLA-StanfordNLP</label>
-             <desc xml:lang="en">Linguistic processing with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
-           </application>
+            <application version="1.0" ident="classla">
+               <label>CLASSLA-StanfordNLP</label>
+               <desc xml:lang="en">Linguistic processing with CLASSLA-StanfordNLP trained for Slovene, available from <ref target="https://github.com/clarinsi/classla">https://github.com/clarinsi/classla</ref>.</desc>
+            </application>
          </appInfo>
       </encodingDesc>
       <profileDesc>
@@ -17464,6 +17464,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
+         <change when="2023-01-25">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-10-18">
             <name>Peter Rupnik</name> Initial commit</change>
          <change when="2022-12-22">
