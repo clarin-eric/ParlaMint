@@ -138,8 +138,11 @@
         <term>Lower house</term>
       </xsl:when>
       <xsl:otherwise>
+        <!--
         <xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id,
                                              ': BAD COUNTRY!')"/>
+                                           -->
+        <xsl:message>WARN: country without houses info</xsl:message>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
@@ -566,35 +569,43 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Add textClass if missing -->
+  <!-- Add textClass if missing and houses information is present-->
   <xsl:template match="tei:settingDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>
     </xsl:copy>
     <xsl:if test="not(../tei:textClass)">
-      <xsl:message>
-        <xsl:value-of select="concat('INFO ', /tei:*/@xml:id,
-                              ': inserting textClass for')"/>
-        <xsl:for-each select="$houses/tei:term">
-          <xsl:value-of select="concat(' ', .)"/>
-        </xsl:for-each>
-      </xsl:message>
-      <textClass>
-        <catRef scheme="{$house-refs/tei:ref[. = 'Legislature']/@target}">
-          <xsl:attribute name="target">
-            <xsl:variable name="targets">
-              <xsl:for-each select="$house-refs/tei:ref">
-                <xsl:if test=". != 'Legislature'">
-                  <xsl:value-of select="@target"/>
-                  <xsl:text>&#32;</xsl:text>
-                </xsl:if>
-              </xsl:for-each>
-            </xsl:variable>
-            <xsl:value-of select="normalize-space($targets)"/>
-          </xsl:attribute>
-        </catRef>
-      </textClass>
+      <xsl:choose>
+        <xsl:when test="$houses/tei:term">
+          <xsl:message>
+            <xsl:value-of select="concat('INFO ', /tei:*/@xml:id,
+                                  ': inserting textClass for')"/>
+            <xsl:for-each select="$houses/tei:term">
+              <xsl:value-of select="concat(' ', .)"/>
+            </xsl:for-each>
+          </xsl:message>
+          <textClass>
+            <catRef scheme="{$house-refs/tei:ref[. = 'Legislature']/@target}">
+              <xsl:attribute name="target">
+                <xsl:variable name="targets">
+                  <xsl:for-each select="$house-refs/tei:ref">
+                    <xsl:if test=". != 'Legislature'">
+                      <xsl:value-of select="@target"/>
+                      <xsl:text>&#32;</xsl:text>
+                    </xsl:if>
+                  </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="normalize-space($targets)"/>
+              </xsl:attribute>
+            </catRef>
+          </textClass>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message>WARN: missing textClass and unable to add it automaticaly</xsl:message>
+          <xsl:comment>textClass</xsl:comment>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:if>
   </xsl:template>
 
