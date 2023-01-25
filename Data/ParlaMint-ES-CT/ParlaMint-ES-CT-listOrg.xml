@@ -21,7 +21,7 @@
             <label xml:lang="ca">Legislatura XII</label>
             <label xml:lang="en">Term 12</label>
          </event>
-         <event xml:id="PC.13" from="2011-03-12" to="2021-06-03">
+         <event xml:id="PC.13" from="2021-03-12" to="2021-06-03">
             <label xml:lang="ca">Legislatura XIII</label>
             <label xml:lang="en">Term 12</label>
          </event>
@@ -54,11 +54,15 @@
          </event>
       </listEvent>
    </org>
+   <org role="politicalParty" xml:id="party.Independent">
+      <orgName full="abb">Independent</orgName>
+      <orgName full="yes">Independent</orgName>
+   </org>
    <org role="politicalParty" xml:id="party.JuntsPelSí">
       <orgName full="abb">JuntsPelSí</orgName>
       <orgName full="yes">Junts pel Sí</orgName>
    </org>
-   <org role="politicalParty" xml:id="party.Cs">
+   <org role="politicalParty" xml:id="party.C's">
       <orgName full="abb">Cs</orgName>
       <orgName full="yes">Ciudadanos</orgName>
    </org>
@@ -78,18 +82,6 @@
       <orgName full="abb">CSQP</orgName>
       <orgName full="yes">Catalunya Sí que es Pot</orgName>
    </org>
-   <org role="politicalParty" xml:id="party.PSOE">
-      <orgName full="abb">PSOE</orgName>
-      <orgName full="yes">Partido Socialista Obrero Español</orgName>
-   </org>
-   <org role="politicalParty" xml:id="party.PODEMOS">
-      <orgName full="abb">PODEMOS</orgName>
-      <orgName full="yes">Podemos</orgName>
-   </org>
-   <org role="politicalParty" xml:id="party.ICV">
-      <orgName full="abb">ICV</orgName>
-      <orgName full="yes">Iniciativa per Catalunya Verds</orgName>
-   </org>
    <org role="politicalParty" xml:id="party.PDECAT">
       <orgName full="abb">PDECAT</orgName>
       <orgName full="yes">Partit Demòcrata Europeu Català</orgName>
@@ -98,22 +90,6 @@
       <orgName full="abb">ERC</orgName>
       <orgName full="yes">Esquerra Republicana de Catalunya</orgName>
    </org>
-   <org role="politicalParty" xml:id="party.DC">
-      <orgName full="abb">DC</orgName>
-      <orgName full="yes">Demòcrates de Catalunya</orgName>
-   </org>
-   <org role="politicalParty" xml:id="party.EUiA">
-      <orgName full="abb">EUiA</orgName>
-      <orgName full="yes">Esquerra Unida i Alternativa</orgName>
-   </org>
-   <org role="politicalParty" xml:id="party.MES">
-      <orgName full="abb">MES</orgName>
-      <orgName full="yes">Moviment d'Esquerres</orgName>
-   </org>
-   <org role="politicalParty" xml:id="party.AVANCEM">
-      <orgName full="abb">AVANCEM</orgName>
-      <orgName full="yes">Avancem</orgName>
-   </org>
    <org role="politicalParty" xml:id="party.CatenCumú-PODEM">
       <orgName full="abb">CCP</orgName>
       <orgName full="yes">Catalunya en Comú-Podem</orgName>
@@ -121,10 +97,6 @@
    <org role="politicalParty" xml:id="party.JxCAT">
       <orgName full="abb">JxCAT</orgName>
       <orgName full="yes">Junts per Catalunya</orgName>
-   </org>
-   <org role="politicalParty" xml:id="party.Units">
-      <orgName full="abb">Units</orgName>
-      <orgName full="yes">Units per Avançar</orgName>
    </org>
    <org role="politicalParty" xml:id="party.Independent">
       <orgName full="abb">Independent</orgName>
@@ -146,97 +118,120 @@
       <orgName full="abb">ECP</orgName>
       <orgName full="yes">En Comú Podem</orgName>
    </org>
-   <org xml:id="PG.PSCUA" role="parliamentaryGroup">
+   <org role="politicalParty" xml:id="party.SCC">
+      <orgName full="abb">SCC</orgName>
+      <orgName full="yes">SCC</orgName>
+   </org>
+   <org xml:id="PG.PSCUA-XII" role="parliamentaryGroup">
       <orgName full="abb">Grup Parlamentari PSC-UNITS</orgName>
       <orgName xml:lang="ca" full="yes">Grup Parlamentari Socialistes i Units per Avançar</orgName>
    </org>
-   <org xml:id="PG.ERC" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari ERC</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari Esquerra Republicana de Catalunya</orgName>
+   <org xml:id="PG.PSCUA-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari PSC-UNITS</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari Socialistes i Units per Avançar</orgName>
    </org>
-   <org xml:id="PG.JxCAT" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari JxCAT</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Junts per Catalunya</orgName>
+   <org xml:id="PG.PSC-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari PSC-UNITS</orgName>
+	  <orgName xml:lang="ca" full="yes">Grup Parlamentari Socialistes i Units per Avançar</orgName>
    </org>
-   <org xml:id="PG.VOX" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari VOX</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari de VOX en Cataluña</orgName>
-   </org>
-   <org xml:id="PG.CUP" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari CUP</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar</orgName>
-   </org>
-   <org xml:id="PG.ECP" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari ECP</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari d'En Comú Podem</orgName>
-   </org>
-   <org xml:id="PG.Cs" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari Cs</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Ciutadans</orgName>
-   </org>
-   <org xml:id="PG.GM" role="parliamentaryGroup">
-      <orgName xml:lang="ca" full="yes">Grup Mixt</orgName>
-   </org>
-   <org xml:id="PG.JxSi" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari JxSi</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Junts pel Sí</orgName>
-   </org>
-   <org xml:id="PG.PSC" role="parliamentaryGroup">
+   <org xml:id="PG.PSC-XI" role="parliamentaryGroup">
       <orgName full="abb">Grup Parlamentari PSC</orgName>
       <orgName xml:lang="ca" full="yes">Grup Parlamentari Socialista</orgName>
-   </org>
-   <org xml:id="PG.CSP" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari CSP</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari Catalunya sí que es Pot</orgName>
-   </org>
-   <org xml:id="PG.PPC" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari PPC</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari del Partit Popular de Catalunya</orgName>
-   </org>
-   <org xml:id="PG.CUP-CC" role="parliamentaryGroup">
-      <orgName full="abb">Grup Parlamentari CUP</orgName>
-      <orgName xml:lang="ca" full="yes">Grup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent</orgName>
    </org>
    <org xml:id="PG.REP" role="parliamentaryGroup">
       <orgName full="abb">Grup Parlamentari REP</orgName>
       <orgName xml:lang="ca" full="yes">Grup Parlamentari Republicà</orgName>
    </org>
-   <org xml:id="PG.CCP" role="parliamentaryGroup">
+   <org xml:id="PG.ERC-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari ERC</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari Esquerra Republicana de Catalunya</orgName>
+   </org>
+   <org xml:id="PG.JxCAT-XII" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari JxCAT</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Junts per Catalunya</orgName>
+   </org>
+   <org xml:id="PG.JxCAT-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari JxCAT</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Junts per Catalunya</orgName>
+   </org>
+   <org xml:id="PG.JxSi-XI" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari JxSi</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Junts pel Sí</orgName>
+   </org>
+   <org xml:id="PG.VOX-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari VOX</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de VOX en Cataluña</orgName>
+   </org>
+   <org xml:id="PG.CUP-NCPG-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari CUP</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar</orgName>
+   </org>
+   <org xml:id="PG.CUP-XI" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari CUP</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent</orgName>
+   </org>
+   <org xml:id="PG.CUP-XII" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari CUP</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent</orgName>
+   </org>
+   <org xml:id="PG.ECP-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari ECP</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari d'En Comú Podem</orgName>
+   </org>
+   <org xml:id="PG.CSP-XI" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari CSP</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari Catalunya sí que es Pot</orgName>
+   </org>
+   <org xml:id="PG.CECP-XII" role="parliamentaryGroup">
       <orgName full="abb">Grup Parlamentari CCP</orgName>
       <orgName xml:lang="ca" full="yes">Grup Parlamentari de Catalunya en Comú-Podem</orgName>
    </org>
+   <org xml:id="PG.Cs-XI" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari Cs</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Ciutadans</orgName>
+   </org>
+   <org xml:id="PG.Cs-XII" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari Cs</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Ciutadans</orgName>
+   </org>
+   <org xml:id="PG.Cs-XIV" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari Cs</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari de Ciutadans</orgName>
+   </org>
+   <org xml:id="PG.GM" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari GM</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Mixt</orgName>
+   </org>
+   <org xml:id="PG.PPC-XI" role="parliamentaryGroup">
+      <orgName full="abb">Grup Parlamentari PPC</orgName>
+      <orgName xml:lang="ca" full="yes">Grup Parlamentari del Partit Popular de Catalunya</orgName>
+   </org>
    <listRelation>
       <relation name="opposition"
-                active="#PG.CUP-CC #PG.Cs #PG.PPC #PG.CSP #PG.PSC"
+                active="#PG.CUP-XI #PG.Cs-XI #PG.PPC-XI #PG.CSP-XI #PG.PSC-XI"
                 passive="#GOV"
 				from="2015-10-26"
                 to="2017-10-27"
                 ana="#PC.11"/>
       <relation name="coalition"
-                mutual="#PG.JxCAT #PG.REP"
+                mutual="#PG.JxCAT-XII #PG.REP"
                 from="2018-01-17"
                 to="2020-12-21"
                 ana="#PC.12"/>
       <relation name="opposition"
-                active="#PG.Cs #PG.CCP #PG.CUP-CC #PG.PPC #PG.PSC"
+         active="#PG.Cs-XII #PG.CECP-XII #PG.CUP-XII #PG.PSCUA-XII"
 				passive="#GOV"
-                from="2015-10-26"
-                to="2017-10-27"
+				from="2018-01-17"
+				to="2020-12-21"
                 ana="#PC.12"/>
-      <relation name="coalition"
-                mutual="#PG.ERC #PG.JxCAT"
-                from="2011-03-12"
-                to="2021-06-03"
-                ana="#PC.13"/>
       <relation name="opposition"
-                active="#PG.Cs #PG.ECP #PG.CUP #PG.PSCUA #PG.VOX"
+         active="#PG.Cs-XIV #PG.ECP-XIV #PG.CUP-NCPG-XIV #PG.PSC-XIV #PG.VOX-XIV"
 				passive="#GOV"
-                from="2011-03-12"
-                to="2021-06-04"
+				from="2021-03-16"
                 ana="#PC.13 #PC.14"/>
       <relation name="coalition"
-                mutual="#PG.ERC #PG.JxCAT"
-                from="2021-06-04"
-                ana="#PC.14"/>
+                mutual="#PG.ERC-XIV #PG.JxCAT-XIV"
+                from="2021-03-16"
+                ana="#PC.13 #PC.14"/>
    </listRelation>
 </listOrg>
