@@ -14,7 +14,6 @@
   <!-- Directory relative to location of this script, where the ParlaMint corpora are found -->
   <xsl:param name="base">../Data</xsl:param>
   
-  <xsl:variable name="today" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
   <xsl:output method="xml" indent="yes"/>
   
   <xsl:variable name="docs">
@@ -243,6 +242,7 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- This will not work with factorised taxonomies! -->
   <xsl:template match="tei:taxonomy">
     <xsl:variable name="id" select="@xml:id"/>
     <xsl:copy>
@@ -253,7 +253,7 @@
                                     tei:taxonomy[@xml:id = $id]/tei:category"
                             group-by="@xml:id">
           <xsl:variable name="country-code" select="substring-after(
-                                            ancestor::tei:teiCorpus/@xml:id, '-')"/> <!-- TODO: not working for translated version with language suffix -->
+                                            ancestor::tei:teiCorpus/@xml:id, '-')"/>
           <category xml:id="{current-grouping-key()}">
             <xsl:for-each select="current-group()/tei:catDesc">
               <xsl:copy>

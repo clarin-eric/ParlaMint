@@ -24,6 +24,8 @@ elsif ($what eq 'master') {
 else {
     die "First parameter must be 'samples' or 'master'\n"
 }
+$black = '(taxonomy|list)';
+
 $inDir = shift;
 unless (-d $inDir) {
     die "Second parameter must be top level input directory\n"
@@ -32,6 +34,7 @@ unless (-d $inDir) {
 $Jing   = "java -jar /usr/share/java/jing.jar";
 $Schema = "$Bin/ParlaMint.odd.rng";
 foreach my $inFile (glob "$inDir/$mask") {
+    next if $inFile =~ /$black/;
     ($fName) = $inFile =~ m|([^/]+\.xml)|;
     print STDERR "INFO: Validating $fName\n";
     #`$Jing $Schema $inFile`;
