@@ -1,13 +1,16 @@
-<?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-FR.ana" xml:lang="fr">
+<?xml version="1.0" encoding="utf-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ParlaMint-FR" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main" xml:lang="fr">Corpus parlementaire français ParlaMint-FR [ParlaMint]</title>
         <title type="main" xml:lang="en">French parliamentary corpus ParlaMint-FR [ParlaMint]</title>
-        <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, 15e législature (2017 - 2017)</title>
-        <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, 15th legislature (2017 - 2017)</title>
-        <meeting n="15-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term">15e législature</meeting>
+        <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale (2017 - 2022)</title>
+        <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale (2017 - 2022)</title>
+        <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, 16e législature (2022)</title>
+        <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, 16th legislature (2022)</title>
+        <meeting n="15-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parl-lower-15">15e législature</meeting>
+        <meeting n="16-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parl-lower-16">16e législature</meeting>
         <respStmt>
           <persName>Sascha Diwersy</persName>
           <resp xml:lang="fr">Annotation linguistique</resp>
@@ -23,13 +26,13 @@
         </funder>
       </titleStmt>
       <editionStmt>
-        <edition>2.2</edition>
+        <edition>3.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="184761" xml:lang="en">184,761 speeches</measure>
-        <measure unit="words" quantity="12967782" xml:lang="en">12,967,782 words</measure>
-        <measure unit="speeches" quantity="184761" xml:lang="fr">184 761 interventions</measure>
-        <measure unit="words" quantity="12967782" xml:lang="fr">12 967 782 mots</measure>
+        <measure unit="speeches" quantity="481603" xml:lang="en">481,603 speeches</measure>
+        <measure unit="words" quantity="37439944" xml:lang="en">37,439,944 words</measure>
+        <measure unit="speeches" quantity="481603" xml:lang="fr">481 603 interventions</measure>
+        <measure unit="words" quantity="37439944" xml:lang="fr">37 439 944 mots</measure>
       </extent>
       <publicationStmt>
         <publisher>CLARIN research infrastructure</publisher>
@@ -54,8 +57,7 @@
           <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
         </p>
         <p xml:lang="en">
-        <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the 
-        <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
       </projectDesc>
       <editorialDecl>
         <correction>
@@ -76,18 +78,18 @@
       </editorialDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="text" occurs="1015" />
-          <tagUsage gi="body" occurs="1015" />
-          <tagUsage gi="desc" occurs="62709" />
-          <tagUsage gi="div" occurs="12574" />
-          <tagUsage gi="gap" occurs="0" />
-          <tagUsage gi="head" occurs="12498" />
-          <tagUsage gi="incident" occurs="4387" />
-          <tagUsage gi="kinesic" occurs="47708" />
-          <tagUsage gi="note" occurs="12498" />
-          <tagUsage gi="seg" occurs="805091" />
-          <tagUsage gi="u" occurs="481604" />
-          <tagUsage gi="vocal" occurs="10614" />
+          <tagUsage gi="text" occurs="1015"/>
+          <tagUsage gi="body" occurs="1015"/>
+          <tagUsage gi="desc" occurs="62709"/>
+          <tagUsage gi="div" occurs="12574"/>
+          <tagUsage gi="gap" occurs="0"/>
+          <tagUsage gi="head" occurs="12498"/>
+          <tagUsage gi="incident" occurs="4387"/>
+          <tagUsage gi="kinesic" occurs="47708"/>
+          <tagUsage gi="note" occurs="12498"/>
+          <tagUsage gi="seg" occurs="805091"/>
+          <tagUsage gi="u" occurs="481604"/>
+          <tagUsage gi="vocal" occurs="10614"/>
         </namespace>
       </tagsDecl>
       <classDecl>
@@ -215,6 +217,16 @@
               </catDesc>
               <catDesc xml:lang="en">
               <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+              <category xml:id="parl-lower-15">
+                <catDesc xml:lang="fr">
+                  <term>15e législature</term>
+                </catDesc>
+              </category>
+              <category xml:id="parl-lower-16">
+                <catDesc xml:lang="fr">
+                  <term>16e législature</term>
+                </catDesc>
+              </category>
               <category xml:id="parla.session">
                 <catDesc xml:lang="fr">
                   <term>Session parlementaire</term>
@@ -701,7 +713,7 @@
         <setting>
           <name type="city">Paris</name>
           <name type="country" key="FR">France</name>
-          <date from="2017-09-25" to="2017-10-31">25/09/2017 - 31/10/2017</date>
+          <date from="2017-06-27" to="2022-06-29">27/06/2017 - 29/06/2022</date>
         </setting>
       </settingDesc>
       <particDesc>
@@ -716,30 +728,79 @@
             <idno type="URI" subtype="wikimedia" xml:lang="fr">https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique_(France)</idno>
             <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/French_Fifth_Republic</idno>
             <listEvent>
-              <event xml:id="PO1111" from="1959-01-09" to="2017-06-19">
+              <event xml:id="PO1121" from="2007-05-17" to="2007-06-18">
+                <label xml:lang="fr">Gouvernement Fillon</label>
+                <label xml:lang="en">First Fillon government</label>
+              </event>
+              <event xml:id="PO1120" from="2007-06-18" to="2010-11-13">
+                <label xml:lang="fr">Gouvernement Fillon 2</label>
+                <label xml:lang="en">Second Fillon government</label>
+              </event>
+              <event xml:id="PO1119" from="2010-11-14" to="2012-05-10">
+                <label xml:lang="fr">Gouvernement Fillon 3</label>
+                <label xml:lang="en">Third Fillon government</label>
+              </event>
+              <event xml:id="PO1118" from="2012-05-16" to="2012-06-18">
+                <label xml:lang="fr">Gouvernement Ayrault</label>
+                <label xml:lang="en">First Ayrault government</label>
+              </event>
+              <event xml:id="PO1117" from="2012-06-19" to="2014-03-31">
+                <label xml:lang="fr">Gouvernement Ayrault 2</label>
+                <label xml:lang="en">Second Ayrault government</label>
+              </event>
+              <event xml:id="PO1116" from="2014-04-01" to="2014-08-25">
+                <label xml:lang="fr">Gouvernement Valls</label>
+                <label xml:lang="en">First Valls government</label>
+              </event>
+              <event xml:id="PO1115" from="2014-08-26" to="2016-12-06">
+                <label xml:lang="fr">Gouvernement Valls 2</label>
+                <label xml:lang="en">Second Valls government</label>
+              </event>
+              <event xml:id="PO1114" from="2016-12-07" to="2017-05-17">
+                <label xml:lang="fr">Gouvernement Cazeneuve</label>
+                <label xml:lang="en">Cazeneuve government</label>
+              </event>
+              <event xml:id="PO1111" from="2017-05-18" to="2017-06-19">
                 <label xml:lang="fr">Gouvernement Philippe</label>
                 <label xml:lang="en">First Philippe government</label>
               </event>
-              <event xml:id="PO1112" from="1959-01-09" to="2020-07-06">
+              <event xml:id="PO1112" from="2017-06-20" to="2020-07-06">
                 <label xml:lang="fr">Gouvernement Philippe 2</label>
                 <label xml:lang="en">Second Philippe government</label>
               </event>
-              <event xml:id="PO1113" from="1959-01-09" to="2022-05-16">
+              <event xml:id="PO1113" from="2020-07-07" to="2022-05-16">
                 <label xml:lang="fr">Gouvernement Castex</label>
                 <label xml:lang="en">Castex government</label>
+              </event>
+              <event xml:id="PO1122" from="2022-05-17">
+                <label xml:lang="fr">Gouvernement Borne</label>
+                <label xml:lang="en">First Borne government</label>
               </event>
             </listEvent>
           </org>
           <org xml:id="ParlaMint-FR-LOWER" role="parliament" ana="#parla.national #parla.lower">
-            <orgName full="yes" xml:lang="fr">Assemblée nationale de la 15ème législature</orgName>
+            <orgName full="yes" xml:lang="fr">Assemblée nationale de la République française</orgName>
             <orgName full="abb">AN</orgName>
             <orgName xml:lang="en" full="yes">National Assembly of the 15th legislature of the French Fifth Republic</orgName>
             <idno type="URI" subtype="wikimedia" xml:lang="fr">https://fr.wikipedia.org/wiki/XVe_l%C3%A9gislature_de_la_Cinqui%C3%A8me_R%C3%A9publique_fran%C3%A7aise</idno>
             <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/15th_legislature_of_the_French_Fifth_Republic</idno>
             <listEvent>
-              <event xml:id="parl-lower-15" from="2017-06-21" to="2022-06-21">
-                <label xml:lang="fr">XVe législature de la Cinquième République française (21 juin 2017 - 21 juin 2022)</label>
-                <label xml:lang="en">15th legislature of the French Fifth Republic (21 June 2017 - 21 June 2022)</label>
+              <head xml:lang="fr">Législatures</head>
+              <head xml:lang="en">Legislative periods</head>
+              <event xml:id="PO230434" from="2002-06-19" to="2007-06-19">
+                <label xml:lang="fr">Assemblée nationale de la 12ème législature</label>
+              </event>
+              <event xml:id="PO384266" from="2007-06-20" to="2012-06-19">
+                <label xml:lang="fr">Assemblée nationale de la 13ème législature</label>
+              </event>
+              <event xml:id="PO644420" from="2012-06-20" to="2017-06-20">
+                <label xml:lang="fr">Assemblée nationale de la 14ème législature</label>
+              </event>
+              <event xml:id="PO717460" from="2017-06-21" to="2022-06-21">
+                <label xml:lang="fr">Assemblée nationale de la 15ème législature</label>
+              </event>
+              <event xml:id="PO791932" from="2022-06-22">
+                <label xml:lang="fr">Assemblée nationale de la 16ème législature</label>
               </event>
             </listEvent>
           </org>
@@ -16672,16 +16733,19 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-02-01">
-      <name>Giancarlo Luxardo</name>: Initial version.</change>
+      <change when="2022-12-26"><name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
     </revisionDesc>
   </teiHeader>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-25-E2001.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-25-E2002.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-26-E2003.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-26-E2004.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-27-E2005.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-27-E2006.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-28-E2007.ana.xml" />
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017-18-ana/ParlaMint-FR_2017-09-28-E2008.ana.xml" />
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-FR_2017-06-28-O1125.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-FR_2018-01-16-O1111.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-FR_2019-09-10-E2001.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-FR_2020-01-07-O1114.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-FR_2021-01-12-O1125.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-FR_2022-03-23-O1168.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-FR_2017-06-28-O1125.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-FR_2018-01-16-O1111.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-FR_2019-09-10-E2001.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-FR_2020-01-07-O1114.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-FR_2021-01-12-O1125.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-FR_2022-03-23-O1168.ana.xml"/>
 </teiCorpus>
