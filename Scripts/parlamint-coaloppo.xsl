@@ -19,30 +19,30 @@
       <xsl:variable name="href" select="concat('../', @href)"/>
       <xsl:variable name="country" select="replace(@href, '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', '$1')"/>
       <xsl:variable name="coalition">
-	<xsl:apply-templates select="document($href)//tei:relation[@name = 'coalition']">
-	  <xsl:with-param name="country" select="$country"/>
-	</xsl:apply-templates>
+        <xsl:apply-templates select="document($href)//tei:relation[@name = 'coalition']">
+          <xsl:with-param name="country" select="$country"/>
+        </xsl:apply-templates>
       </xsl:variable>
       <xsl:choose>
-	<xsl:when test="$coalition != ''">
-	  <xsl:value-of select="$coalition"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:value-of select="concat($country, '&#9;coalition&#9;-&#9;-&#9;-&#10;')"/>
-	</xsl:otherwise>
+        <xsl:when test="$coalition != ''">
+          <xsl:value-of select="$coalition"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="concat($country, '&#9;coalition&#9;-&#9;-&#9;-&#10;')"/>
+        </xsl:otherwise>
       </xsl:choose>
       <xsl:variable name="opposition">
-	<xsl:apply-templates select="document($href)//tei:relation[@name = 'opposition']">
-	  <xsl:with-param name="country" select="$country"/>
-	</xsl:apply-templates>
+        <xsl:apply-templates select="document($href)//tei:relation[@name = 'opposition']">
+          <xsl:with-param name="country" select="$country"/>
+        </xsl:apply-templates>
       </xsl:variable>
       <xsl:choose>
-	<xsl:when test="$opposition != ''">
-	  <xsl:value-of select="$opposition"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:value-of select="concat($country, '&#9;opposition&#9;-&#9;-&#9;-&#10;')"/>
-	</xsl:otherwise>
+        <xsl:when test="$opposition != ''">
+          <xsl:value-of select="$opposition"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="concat($country, '&#9;opposition&#9;-&#9;-&#9;-&#10;')"/>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>
@@ -55,14 +55,14 @@
     <xsl:text>&#9;</xsl:text>
     <xsl:choose>
       <xsl:when test="@from">
-	<xsl:value-of select="@from"/>
+        <xsl:value-of select="@from"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#9;</xsl:text>
     <xsl:choose>
       <xsl:when test="@to">
-	<xsl:value-of select="@to"/>
+        <xsl:value-of select="@to"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>

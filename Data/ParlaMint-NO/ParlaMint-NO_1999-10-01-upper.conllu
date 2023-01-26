@@ -1,0 +1,86 @@
+# newdoc id = ParlaMint-NO_1999-10-01-upper.ana.ud949e27
+# newpar id = ParlaMint-NO_1999-10-01-upper.ana.segd949e32
+# sent_id = ParlaMint-NO_1999-10-01-upper.ana.segd949e32.1
+# text = Hvis ingen har noe å innvende, skal jeg etterkomme anmodningen.
+1	Hvis	hvis	SCONJ	_	_	3	mark	_	NER=O
+2	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	3	nsubj	_	NER=O
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	NER=O
+4	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	3	obj	_	NER=O
+5	å	å	PART	_	_	6	mark	_	NER=O
+6	innvende	innvende	VERB	_	VerbForm=Inf	4	acl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	NER=O
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	NER=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	NER=O
+10	etterkomme	etterkomme	VERB	_	VerbForm=Inf	0	root	_	NER=O
+11	anmodningen	anmodning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	NER=O
+
+# newdoc id = ParlaMint-NO_1999-10-01-upper.ana.ud949e39
+# newpar id = ParlaMint-NO_1999-10-01-upper.ana.segd949e40
+# sent_id = ParlaMint-NO_1999-10-01-upper.ana.segd949e40.1
+# text = Fungerende president vil anmode forrige lagtings sekretær, Per Ove Width, om midlertidig å fungere som sekretær.
+1	Fungerende	Fungerende	ADJ	_	VerbForm=Part	2	amod	_	NER=O
+2	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	NER=O
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+4	anmode	anmode	VERB	_	VerbForm=Inf	0	root	_	NER=O
+5	forrige	forrige	DET	_	Definite=Def|PronType=Dem	6	det	_	NER=O
+6	lagtings	lagting	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	NER=O
+7	sekretær	sekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	NER=O
+9	Per	Per	PROPN	_	Gender=Masc	4	obj	_	NER=B-PER
+10	Ove	Ove	PROPN	_	Gender=Masc	9	flat:name	_	NER=I-PER
+11	Width	Width	PROPN	_	_	9	flat:name	_	NER=I-PER|SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	NER=O
+13	om	om	SCONJ	_	_	16	mark	_	NER=O
+14	midlertidig	midlertidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	NER=O
+15	å	å	PART	_	_	16	mark	_	NER=O
+16	fungere	fungere	VERB	_	VerbForm=Inf	4	advcl	_	NER=O
+17	som	som	SCONJ	_	_	18	mark	_	NER=O
+18	sekretær	sekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	xcomp	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# newdoc id = ParlaMint-NO_1999-10-01-upper.ana.ud949e223
+# newpar id = ParlaMint-NO_1999-10-01-upper.ana.segd949e224
+# sent_id = ParlaMint-NO_1999-10-01-upper.ana.segd949e224.1
+# text = Einar Olav Skogholt er foreslått som varasekretær.
+1	Einar	Einar	PROPN	_	Gender=Masc	5	nsubj	_	NER=B-PER
+2	Olav	Olav	PROPN	_	Gender=Masc	1	flat:name	_	NER=I-PER
+3	Skogholt	Skogholt	PROPN	_	_	1	flat:name	_	NER=I-PER
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+5	foreslått	foreslå	VERB	_	VerbForm=Part	0	root	_	NER=O
+6	som	som	SCONJ	_	_	7	mark	_	NER=O
+7	varasekretær	varasekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-NO_1999-10-01-upper.ana.segd949e224.2
+# text = Andre forslag foreligger ikke.
+1	Andre	annen	DET	_	Number=Plur|PronType=Dem	2	det	_	NER=O
+2	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	NER=O
+3	foreligger	foreligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newdoc id = ParlaMint-NO_1999-10-01-upper.ana.ud949e231
+# newpar id = ParlaMint-NO_1999-10-01-upper.ana.segd949e232
+# sent_id = ParlaMint-NO_1999-10-01-upper.ana.segd949e232.1
+# text = Dermed har Lagtinget konstituert seg, og det vil bli sendt melding til Stortinget og Odelstinget om dette.
+1	Dermed	dermed	ADV	_	_	4	advmod	_	NER=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+3	Lagtinget	Lagtinget	NOUN	_	Gender=Neut	4	nsubj	_	NER=B-ORG
+4	konstituert	konstituere	VERB	_	VerbForm=Part	0	root	_	NER=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	NER=O
+7	og	og	CCONJ	_	_	11	cc	_	NER=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	NER=O
+9	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	NER=O
+10	bli	bli	AUX	_	VerbForm=Inf	11	aux:pass	_	NER=O
+11	sendt	sende	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	conj	_	NER=O
+12	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	NER=O
+13	til	til	ADP	_	_	14	case	_	NER=O
+14	Stortinget	Stortinget	NOUN	_	Gender=Neut	11	obl	_	NER=B-ORG
+15	og	og	CCONJ	_	_	16	cc	_	NER=O
+16	Odelstinget	Odelstinget	NOUN	_	Gender=Neut	14	conj	_	NER=B-ORG
+17	om	om	ADP	_	_	18	case	_	NER=O
+18	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	NER=O
+

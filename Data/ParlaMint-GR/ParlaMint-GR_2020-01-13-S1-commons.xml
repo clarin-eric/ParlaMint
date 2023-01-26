@@ -10,7 +10,9 @@
             <title type="main" xml:lang="en">Greek parliamentary corpus ParlaMint-GR, session 78 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="el">Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΟΗ', 2020-01-13</title>
             <title type="sub" xml:lang="en">Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 78, 2020-01-13</title>
-            <meeting n="ΙΗ" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ"/>
+            <meeting n="18" corresp="#PoGR" ana="#parla.uni #parla.term #PoGR.ΙΗ"/>
+            <meeting n="1" corresp="#PoGR" ana="#parla.uni #parla.session"/>
+            <meeting n="78" corresp="#PoGR" ana="#parla.uni #parla.sitting"/>
             <respStmt>
                <persName>Δημήτρης Γκούμας</persName>
                <persName>Βασίλης Παπαβασιλείου</persName>
@@ -35,8 +37,8 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure xml:lang="el" unit="speeches" quantity="43">43 ομιλίες</measure>
             <measure xml:lang="en" unit="speeches" quantity="43">43 speeches</measure>
-            <measure xml:lang="el" unit="words" quantity="9504">9504 λέξεις</measure>
-            <measure xml:lang="en" unit="words" quantity="9504">9504 words</measure>
+            <measure xml:lang="el" unit="words" quantity="9063">9063 λέξεις</measure>
+            <measure xml:lang="en" unit="words" quantity="9063">9063 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -58,7 +60,7 @@
                         .
                     </p>
             </availability>
-            <date when="2022-08-31">2022-08-31</date>
+            <date when="2022-11-28">2022-11-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -83,10 +85,14 @@
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="6"/>
                <tagUsage gi="u" occurs="43"/>
                <tagUsage gi="seg" occurs="234"/>
-               <tagUsage gi="desc" occurs="2"/>
+               <tagUsage gi="desc" occurs="4"/>
+               <tagUsage gi="note" occurs="46"/>
                <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="gap" occurs="1"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -100,13 +106,24 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-08-31">
+         <change when="2022-11-28">
             <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
          <div type="debateSection">
+            <head>ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ</head>
+            <head type="term">ΙΗ ΠΕΡΙΟΔΟΣ</head>
+            <head>ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ</head>
+            <head type="session">ΣΥΝΟΔΟΣ Α'</head>
+            <head type="sitting">ΣΥΝΕΔΡΙΑΣΗ ΟΗ'</head>
+            <head type="date">Δευτέρα 13 Ιανουαρίου 2020</head>
+            <gap reason="editorial">
+               <desc xml:lang="en">The frontmatter of the document has been removed</desc>
+            </gap>
+            <note>Αθήνα, σήμερα στις 13 Ιανουαρίου 2020, ημέρα Δευτέρα και ώρα 18.07΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία της Η΄ Αντιπροέδρου αυτής κ. ΣΟΦΙΑΣ ΣΑΚΟΡΑΦΑ.</note>
+            <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
             <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u1"
                ana="#chair"
                who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
@@ -121,6 +138,7 @@
                <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg9">Η ερώτηση θα απαντηθεί από τον κ. Βασίλειο Διγαλάκη, Υφυπουργό Παιδείας και Θρησκευμάτων.</seg>
                <seg xml:id="ParlaMint-GR_2020-01-13-S1-commons.seg10">Κύριε Κωνσταντόπουλε, έχετε τον λόγο για δύο λεπτά για να αναπτύξετε την ερώτησή σας.</seg>
             </u>
+            <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ</note>
             <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u2"
                ana="#regular"
                who="#ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΣ_ΧΡΗΣΤΟΥ_ΔΗΜΗΤΡΙΟΣ">
@@ -156,6 +174,7 @@
             <vocal type="shouting">
                <desc>Μάλιστα, μάλιστα.</desc>
             </vocal>
+            <note type="speaker">ΠΡΟΕΔΡΕΥΟΥΣΑ (ΣΟΦΙΑ ΣΑΚΟΡΑΦΑ):</note>
             <u xml:id="ParlaMint-GR_2020-01-13-S1-commons.u43"
                ana="#chair"
                who="#ΣΑΚΟΡΑΦΑ_ΗΛΙΑ_ΣΟΦΙΑ">
