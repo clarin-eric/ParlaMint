@@ -1170,7 +1170,9 @@
       <elementRef key="profileDesc"/>
       <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
     </content>
-    <attList/>
+    <attList>
+      <pm:attPreserve ident="xml:lang"/>
+    </attList>
     <exemplum xml:lang="en">
       <p>Basic structure of the <gi>teiHeader</gi>:</p>
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -1720,6 +1722,7 @@
     funding of a project or text.</desc>
     <content>
       <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+      <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
     </content>
     <attList/>
     <exemplum xml:lang="en">
@@ -3230,6 +3233,7 @@
       <textNode/>
     </content>
     <attList>
+      <pm:attPreserve ident="xml:id"/>
       <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="type"/>
     </attList>

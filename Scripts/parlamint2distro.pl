@@ -76,7 +76,7 @@ GetOptions
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
-     'factorise!' => \$procFactorise,
+     'factorise!' => \$procFactor,
      'ana!'       => \$procAna,
      'tei!'       => \$procTei,
      'sample!'    => \$procSample,
@@ -253,12 +253,12 @@ sub factorisations {
     $prefix .= '-';
     
     if (-e $inListOrg) {$factorised = 1}
-    elsif (not $procFactorise) {print STDERR "WARN: $inListOrg not found\n"}
+    elsif (not $procFactor) {print STDERR "WARN: $inListOrg not found\n"}
     if (-e $inListPerson) {$factorised = 1}
-    elsif (not $procFactorise) {print STDERR "WARN: $inListPerson not found\n"}
+    elsif (not $procFactor) {print STDERR "WARN: $inListPerson not found\n"}
     if (@inTaxonomies) {$factorised = 1}
-    elsif (not $procFactorise) {print STDERR "WARN: $inTaxonomies not found\n"}
-    if ($procFactorise) {
+    elsif (not $procFactor) {print STDERR "WARN: $inTaxonomies not found\n"}
+    if ($procFactor) {
 	if ($factorised) {
 	    print STDERR "INFO: $Dir already factorised\n"
 	}
