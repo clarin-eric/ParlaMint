@@ -52,7 +52,6 @@ foreach my $inDir (glob "$inDirs") {
     if ($rootFile) {
         print STDERR "INFO: Validating TEI root $rootFile\n";
 	&chars($rootFile);
-	die;
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
         &run("$Saxon -xsl:$Valid", $rootFile);
         &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
