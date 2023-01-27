@@ -5,8 +5,9 @@
          <titleStmt>
             <title type="main" xml:lang="sl">Slovenski parlamentarni korpus ParlaMint-SI [ParlaMint]</title>
             <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint]</title>
-            <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, 7. in 8. mandat (2014 — 2022)</title>
-            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Terms 7 and 8 (2014 — 2022)</title>
+            <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, od 3. do 8. mandata (2000 — 2022)</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Terms 3 and 8 (2000 — 2022)</title>
+            <meeting n="3" corresp="#DZ" ana="#parla.term #DZ.3 #parla.lower">3. mandat</meeting>
             <meeting n="7" corresp="#DZ" ana="#parla.term #DZ.7 #parla.lower">7. mandat</meeting>
             <meeting n="8" corresp="#DZ" ana="#parla.term #DZ.8 #parla.lower">8. mandat</meeting>
             <respStmt>
@@ -39,10 +40,10 @@
             <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure unit="words" quantity="112632" xml:lang="sl">112.632 besed</measure>
-            <measure unit="words" quantity="112632" xml:lang="en">112,632 words</measure>
-            <measure unit="speeches" quantity="443" xml:lang="sl">443 govorov</measure>
-            <measure unit="speeches" quantity="443" xml:lang="en">443 speeches</measure>
+            <measure unit="words" quantity="123048" xml:lang="sl">123.048 besed</measure>
+            <measure unit="words" quantity="123048" xml:lang="en">123,048 words</measure>
+            <measure unit="speeches" quantity="490" xml:lang="sl">490 govorov</measure>
+            <measure unit="speeches" quantity="490" xml:lang="en">490 speeches</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -56,14 +57,14 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-01-16">January 16, 2023</date>
+            <date when="2023-01-27">January 27, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije</title>
                <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia</title>
                <idno type="URI" subtype="parliament">https://www.dz-rs.si</idno>
-               <date from="2014-08-01" to="2022-05-13">1.8.2014 — 13.5.2022</date>
+               <date from="2000-10-27" to="2022-05-13">27.10.2000 — 13.5.2022</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -94,16 +95,16 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="3"/>
-               <tagUsage gi="desc" occurs="59"/>
-               <tagUsage gi="div" occurs="3"/>
-               <tagUsage gi="gap" occurs="37"/>
-               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="body" occurs="4"/>
+               <tagUsage gi="desc" occurs="66"/>
+               <tagUsage gi="div" occurs="4"/>
+               <tagUsage gi="gap" occurs="44"/>
+               <tagUsage gi="head" occurs="12"/>
                <tagUsage gi="kinesic" occurs="15"/>
-               <tagUsage gi="note" occurs="515"/>
-               <tagUsage gi="seg" occurs="1732"/>
-               <tagUsage gi="text" occurs="3"/>
-               <tagUsage gi="u" occurs="443"/>
+               <tagUsage gi="note" occurs="602"/>
+               <tagUsage gi="seg" occurs="1918"/>
+               <tagUsage gi="text" occurs="4"/>
+               <tagUsage gi="u" occurs="490"/>
                <tagUsage gi="vocal" occurs="7"/>
             </namespace>
          </tagsDecl>
@@ -121,7 +122,7 @@
             <setting>
                <name type="city">Ljubljana</name>
                <name type="country" key="SI">Slovenija</name>
-               <date from="2014-08-01" to="2022-05-13">1.8.2014 — 13.5.2022</date>
+               <date from="2000-10-27" to="2022-05-13">27.10.2000 — 13.5.2022</date>
             </setting>
          </settingDesc>
          <textClass>
@@ -145,10 +146,12 @@
             <name>Tomaž Erjavec</name>: Small fixes of ParlaMint data</change>
          <change when="2022-12-08">
             <name>Katja Meden</name>: Made TEI sample </change>
-         <change when="2023-01-16">
+         <change when="2023-01-27">
             <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-SI_2000-11-16-SDZ3-Izredna-01.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
