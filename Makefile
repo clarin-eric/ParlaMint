@@ -4,7 +4,9 @@
 PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
-
+##$JAVA-MEMORY## Set a java memory maxsize in GB
+JAVA-MEMORY =
+JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
@@ -37,8 +39,8 @@ check-prereq:
 	  echo "OK" || echo "FAIL"
 	@which parallel > /dev/null && \
 	  echo "parallel: OK" || echo "WARN: command parallel is missing"
-	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)"
-	@java -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
+	@echo "INFO: Maximum java heap size (saxon needs 5-times more than the size of processed xml file)$(JM)"
+	@java $(JM) -XX:+PrintFlagsFinal -version 2>&1| grep " MaxHeapSize"|sed "s/^.*= *//;s/ .*$$//"|awk '{print "\t" $$1/1024/1024/1024 " GB"}'
 	@echo "INFO: Setup guide in CONTRIBUTING.md file"
 
 
@@ -148,7 +150,7 @@ check-links-XX = $(addprefix check-links-, $(PARLIAMENTS))
 check-links: $(check-links-XX)
 ## check-links-XX ## ...
 $(check-links-XX): check-links-%: %
-	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|ana).xml"`;	do \
+	for root in `find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*.xml" | grep -P "ParlaMint-$<${CORPUSDIR_SUFFIX}(|\.ana).xml"`;	do \
 	  echo "checking links in root:" $${root}; \
 	  ${s} ${vlink} $${root}; \
 	  for component in `echo $${root}| xargs ${getheaderincludes}`; do \
@@ -633,24 +635,10 @@ insert-orientation-test-val:
 	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
 	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
 
-## Generate TSV files for minister affiliations on the basis of the corpus root files.
-generate-ministers:
-	$s outDir=Data/Ministers -xsl:Scripts/ministers-tei2tsv.xsl ${DATADIR}/ParlaMint.xml
-
-## Insert minister affiliations from TSV file into a root file.
-MC = BE
-TSV = /project/corpora/Parla/ParlaMint/Minister
-insert-ministries-test:
-	$s tsv=${TSV}/ParlaMint_ministers-${MC}.tsv -xsl:Scripts/ministers-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml > Scripts/tmp/ParlaMint-${MC}.xml
-	-diff -b ${DATADIR}/ParlaMint-${MC}/ParlaMint-${MC}.xml Scripts/tmp/ParlaMint-${MC}.xml
-	${vrt} Scripts/tmp/ParlaMint-${MC}.xml
-	${s} ${vlink} Scripts/tmp/ParlaMint-${MC}.xml
-
 ######################VARIABLES
-s = java -jar /usr/share/java/saxon.jar
+s = java $(JM) -jar /usr/share/java/saxon.jar
 P = parallel --gnu --halt 2
-j = java -jar /usr/share/java/jing.jar
+j = java $(JM) -jar /usr/share/java/jing.jar
 copy = -I % $s -xi:on -xsl:Scripts/copy.xsl -s:% -o:%.all-in-one.xml
 vlink = -xsl:Scripts/check-links.xsl
 listlink = -xsl:Scripts/list-links.xsl
