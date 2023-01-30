@@ -345,6 +345,24 @@
     </xsl:attribute>
   </xsl:template>
   
+  <!-- Bug in STANZA, sometimes several tokens have root dependency -->
+  <!-- We set those that have root but do not point to sentence ID to "dep" -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:root']">
+    <xsl:copy>
+      <xsl:variable name="root-ref" select="concat('#', ancestor::tei:s/@xml:id)"/>
+      <xsl:attribute name="ana">
+	<xsl:choose>
+	  <xsl:when test="$root-ref = substring-before(@target, ' ')">ud-syn:root</xsl:when>
+	  <xsl:otherwise>
+            <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:root with ud-syn:dep for non-root dependency')"/>
+	    <xsl:text>ud-syn:dep</xsl:text>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates select="@target"/>
+    </xsl:copy>
+  </xsl:template>
 
   <!-- Finalizing ROOT -->
   
