@@ -263,7 +263,7 @@ sub factorisations {
 	    print STDERR "INFO: $Dir already factorised\n"
 	}
 	else {
-	    print STDERR "INFO: Factorising $Root\n"
+	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
 	    `$Saxon noAna=\"$FactoriseFiles\" outDir=$tmpOutDir -xsl:$Factor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;
