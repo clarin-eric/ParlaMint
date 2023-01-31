@@ -67,7 +67,7 @@ git push
   - check changes
   - merge pull request
 - update ParlaMint repository with data in your repository:
- - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
+  - create a pull request: https://github.com/clarin-eric/ParlaMint/compare/data...USER-ORG:data
 
 
 ## Install prerequisites
@@ -126,20 +126,24 @@ also be run.
 
 ## Submitting the completed corpora
 
-Once samples have been validated and incorporated into the ParlaMint GitHub repositroy, and the
-complete corpus validates locally, the directory with the complete corpus (e.g. `ParlaMint-XX.TEI`)
-should be compressed (either .zip or .tgz) into one file and put somewhere where the editors of the
-corpus can access it, e.g. on a local web server, WeTransfer or similar. Then the editors
-(@TomazErjavec and @matyaskopp) should be sent an email with instructions on how to download the
-corpus.
+Once samples have been validated and incorporated into the ParlaMint GitHub repository the
+complete corpus can be processed and submitted.
 
-The corpus should be structured according to the rules of ParlaMint, as explained in the [Section on
-Filenames and directory structure](https://clarin-eric.github.io/ParlaMint/#sec-files) of the
+First, pls. note that the samples in GitHub use a flat directory structure, while the complete
+corpus is structure differently. First, the linguistically non-annotated corpus should be stored
+in the directory named ParlaMint-XX.TEI/, while the linguistically annotated corpus should be
+stored separately, in the directory named ParlaMint-XX.TEI.ana/. Second, the component files
+should be stored in subdirectories, one for each year. Note that this is explained in the [Section
+on Filenames and directory structure](https://clarin-eric.github.io/ParlaMint/#sec-files) of the
 Guidelines.
 
-Note that ParlaMint distinguishes two version of the corpus, the "plain text" one (stored in the
-`ParlaMint-XX.TEI` directory), and the linguistically annotated one (stored in the
-`ParlaMint-XX.TEI.ana` directory), where the root and component files and are marked with the `.ana`
-suffix. The two versions should be submitted separately, i.e. each in it own compressed file.
+Once the corpus is stored in the recommended way, it can be validated localy, and then the
+complete TEI and TEI.ana versions of the corpus should be compressed (either .zip or .tgz) into
+two files and put somewhere where the ParlaMint editors can access it. Preferably this is a web
+(http) server or any other location, where the files can be dowloaded via the command line. If
+this is not possible then the corpus can also be made available on the cloud, WeTransfer or
+similar. Then the editors (@TomazErjavec and @matyaskopp) should be sent an email with
+instructions on how to download the corpus, and they will send feedback on whether the corpus
+passed validation and let you have the validation and conversion log file.
 
 
