@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_2020-12-22-20201-M43" ana="#parla.sitting #covid">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="da"
+     xml:id="ParlaMint-DK_2020-12-22-20201-M43"
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">The Danish parliamentary corpus ParlaMint-DK, Session 20201, Sitting M43 [ParlaMint]</title>
+            <title type="main" xml:lang="en">The Danish parliamentary corpus ParlaMint-DK, Session 20201, Sitting M43 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20201, M43 (2020-12-22), preliminary version</title>
             <meeting ana="#parla.session">20201</meeting>
             <meeting ana="#parla.sitting">M43</meeting>
@@ -26,7 +29,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="26" xml:lang="en">26 speeches</measure>
             <measure unit="words" quantity="1271" xml:lang="en">1271 words</measure>
          </extent>
@@ -40,7 +43,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
             </availability>
-            <date when="2022-10-31">2022-10-31</date>
+            <date when="2023-01-31">2023-01-31</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -57,7 +60,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
@@ -80,138 +83,47 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
+         <change when="2023-01-31">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-10-31">
             <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
-    <text xml:lang="da" ana="#covid">
-        <body>
-            <div type="debateSection">
+   <text xml:lang="da" ana="#covid">
+      <body>
+         <div type="debateSection">
             <head>Punkt 0</head>
             <note type="agendaItem">2020-12-22-0</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191005" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191005.seg1">Mødet er åbnet.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191010" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191010.seg2">De punkter, som er opført som nr. 6, 7, 8 og 9 på dagsordenen, kan kun med Tingets samtykke behandles i dette møde. Og hvis ingen gør indsigelse, betragter jeg samtykket som givet. Det er givet.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>Fortsættelse [afstemning] af F 19: Om den politiske situation i Hong Kong.</head>
-            <note type="agendaItem">2020-12-22-1</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191029" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191029.seg3">Forhandlingen er sluttet, og vi går til afstemning om de fremsatte forslag til vedtagelse. Og inden jeg starter afstemningen, skal man endnu en gang sikre, at der står det rigtige navn på displayet. Der foreligger to forslag til vedtagelse. Der stemmes først om forslag til vedtagelse nr. V 44 af Annette Lind (S), Michael Aastrup Jensen (V), Alex Ahrendtsen (DF), Martin Lidegaard (RV), Karsten Hønge (SF), Naser Khader (KF), Peter Seier Christensen (NB) og Henrik Dahl (LA). Og der kan stemmes. Afstemningen slutter. For stemte 84 (S, V, DF, RV, SF, KF, NB og LA), imod stemte 0, hverken for eller imod stemte 10 (EL, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)). Forslag til vedtagelse nr. V 44 er dermed vedtaget. Herefter er forslag til vedtagelse nr. V 43 af Uffe Elbæk (UFG), Søren Søndergaard (EL) og Torsten Gejl (ALT) bortfaldet. Hermed er forespørgslen afsluttet.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>Fortsættelse [afstemning] af F 27: Om regeringens fremtidige klimapolitiske initiativer set i lyset af redegørelsen om klimaeffe</head>
-            <note type="agendaItem">2020-12-22-2</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191139" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191139.seg4">Forhandlingen er sluttet, og vi går til afstemning. Der foreligger fire forslag til vedtagelse. Der stemmes først om forslag til vedtagelse nr. V 39 af Anne Paulin (S), og der kan stemmes. Afstemningen slutter. For stemte 26 (S), imod stemte 61 (V, DF, RV, EL, KF, NB, LA, ALT, Uffe Ellebæk (UFG), Susanne Zimmer (UFG) og 1 (SF) (ved en fejl)), hverken for eller imod stemte 7 (SF). Forslag til vedtagelse nr. V 39 er forkastet. Herefter stemmes om forslag til vedtagelse nr. V 40 af Tommy Ahlers (V) og Mona Juul (KF), og der kan stemmes. Afstemningen slutter. For stemte 30 (V og KF), imod stemte 65 (S, DF, RV, SF, EL, NB, LA, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), hverken for eller imod stemte 0. Forslag til vedtagelse nr. V 40 er forkastet. Der stemmes herefter om forslag til vedtagelse nr. V 41 af Morten Messerschmidt (DF), og der kan stemmes. Afstemningen slutter. For stemte 14 (DF og KF), imod stemte 81 (S, V, RV, SF, EL, NB, LA, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), hverken for eller imod stemte 0. Forslag til vedtagelse nr. V 41 er forkastet. Endelig stemmes der om forslag til vedtagelse nr. V 42 af Ruben Kidde (RV), Signe Munk (SF), Mai Villadsen (EL) og Torsten Gejl (ALT), og der kan stemmes. Afstemningen slutter. For stemte 25 (RV, SF, EL og ALT), imod stemte 70 (S, V, DF, KF, NB, LA, Uffe Elbæk (UFG) Susanne Zimmer (UFG)), hverken for eller imod stemte 0. Forslag til vedtagelse nr. V 42 er forkastet. Hermed er forespørgslen afsluttet.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling, 2. del, af L 1: Om finanslov for finansåret 2021.</head>
-            <note type="agendaItem">2020-12-22-3</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191356" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191356.seg5">Forhandlingen er åbnet. Og jeg giver hermed ordet til formanden for Finansudvalget, hr. Jens Joel, for en mundtlig indstilling. Værsgo, hr. Jens Joel.</seg>
-                </u>
-                <u who="#JoelJens" xml:id="ParlaMint-DK_20201222191413" ana="#regular">
-                    <seg xml:id="ParlaMint-DK_20201222191413.seg6">Tak for det. Jeg skal blot meddele, at Finansudvalget mødtes her i pausen og gennemgik de ændringsforslag, der har været til afstemning. Og jeg kan på vegne af et enigt udvalg meddele, at gennemgangen hverken har givet anledning til bemærkninger eller yderligere ændringsforslag. Så udvalget indstiller lovforslaget til videre behandling. Tak.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191434" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191434.seg7">Det var dejligt. Der er ikke stillet ændringsforslag. Ønsker nogen at udtale sig? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191449" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191449.seg8">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 89 (S, V, DF, RV, SF, EL, KF og ALT), imod stemte 6 (NB, LA, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 2: Om fastsættelse af udgiftslofter for stat, kommuner og regioner for finansåret 2024.</head>
-            <note type="agendaItem">2020-12-22-4</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191510" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191510.seg9">Forhandlingen drejer sig i første omgang om det stillede ændringsforslag. Er der nogen, der ønsker at udtale sig? Da det ikke er tilfældet, er forhandlingen om ændringsforslaget sluttet, og vi går til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191530" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191530.seg10">Hvis ikke afstemning begæres, betragter jeg ændringsforslag nr. 1 af finansministeren som vedtaget. Det er vedtaget.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191536" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191536.seg11">Forhandlingen drejer sig herefter om lovforslaget som helhed. Er der nogen, der ønsker at udtale sig? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191543" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191543.seg12">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 82 (S, V, DF, RV, SF, KF og ALT), imod stemte 13 (EL, NB, LA, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 3: Om konsekvenser af ny 2025-ramme og regeringens forslag til finanslov for 2021.</head>
-            <note type="agendaItem">2020-12-22-5</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191604" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191604.seg13">Først drejer det sig om de stillede ændringsforslag. Er der nogen, der ønsker at udtale sig? Hvis det ikke er tilfældet, er forhandlingen om ændringsforslagene sluttet, og vi går til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191633" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191633.seg14">Hvis afstemning ikke begæres, betragter jeg ændringsforslag nr. 1-3 af finansministeren som vedtaget. De er vedtaget.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191643" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191643.seg15">Forhandlingen drejer sig herefter om lovforslaget som helhed. Ønsker nogen at udtale sig om lovforslaget? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191649" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191649.seg16">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 91 (S, V, DF, RV, SF, EL, KF, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 4 (NB og LA), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver nu sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 48: Om praktikpladsafhængigt arbejdsgiverbidrag for 2021 m.v.</head>
-            <note type="agendaItem">2020-12-22-6</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191708" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191708.seg17">Der er ikke stillet ændringsforslag. Ønsker nogen at udtale sig? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191723" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191723.seg18">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 93 (S, V, DF, RV, SF, EL, KF, LA, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 2 (NB), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver nu sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 120: Om justering af det praktikpladsafhængige arbejdsgiverbidrag og indførelse af fleksibelt udda</head>
-            <note type="agendaItem">2020-12-22-7</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191746" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191746.seg19">Der er ikke stillet ændringsforslag. Ønsker nogen at udtale sig? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191807" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191807.seg20">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 93 (S, V, DF, RV, SF, EL, KF, LA, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 0, hverken for eller imod stemte 2 (NB). Lovforslaget er vedtaget og bliver nu sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 123: Om forlængelse af den midlertidige periode med ret til sygedagpenge for lønmodtagere, der er</head>
-            <note type="agendaItem">2020-12-22-8</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191831" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191831.seg21">Der er ikke stillet ændringsforslag. Ønsker nogen at udtale sig? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191847" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191847.seg22">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 95 (S, V, DF, RV, SF, EL, KF, NB, LA, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 0, hverken for eller imod stemte 0. Lovforslaget er enstemmigt vedtaget og bliver nu sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20201222191005"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20201222191005.seg1">Mødet er åbnet.</seg>
+            </u>
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20201222191010"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20201222191010.seg2">De punkter, som er opført som nr. 6, 7, 8 og 9 på dagsordenen, kan kun med Tingets samtykke behandles i dette møde. Og hvis ingen gør indsigelse, betragter jeg samtykket som givet. Det er givet.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20201222192005"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20201222192005.seg25">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 91 (S, V, DF, RV, SF, EL, KF, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 0, hverken for eller imod stemte 4 (NB og LA). Lovforslaget er vedtaget og vil nu blive sendt til statsministeren.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
             <head>Punkt 0</head>
             <note type="agendaItem">2020-12-22-0</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191907" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191907.seg23">Før vi stemmer om det sidste lovforslag, vil jeg gerne have lov at sige tak. Det har på alle måder været et ekstraordinært år. Alt har næsten været anderledes end det normale, men det er lykkedes os at holde Folketinget kørende, også under de uvante forhold. Det har krævet både omstilling og fleksibilitet af os alle, og vi har vedtaget mange og vigtige love for det danske samfund og som oftest i stor enighed. Det synes jeg der er grund til at sige tak for. Tilbage er der så bare at ønske alle medlemmer og medarbejdere i huset en rigtig glædelig jul og et godt nytår. Og pas nu rigtig godt på hinanden.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 16: Om retten til individuel tilpasning i dagtilbud til børn og folkeskolen.</head>
-            <note type="agendaItem">2020-12-22-9</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222191945" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222191945.seg24">Så er vi nået til det sidste lovforslag i denne omgang. Der er ikke stillet ændringsforslag. Ønsker nogen at udtale sig? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222192005" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222192005.seg25">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 91 (S, V, DF, RV, SF, EL, KF, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 0, hverken for eller imod stemte 4 (NB og LA). Lovforslaget er vedtaget og vil nu blive sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>Punkt 0</head>
-            <note type="agendaItem">2020-12-22-0</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20201222192040" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20201222192040.seg26">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes den 12. januar 2021, kl. 13.00. Kan I komme godt hjem. Tak.</seg>
-                </u>
-            </div>
-        </body>
-    </text>
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20201222192040"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20201222192040.seg26">Der er ikke mere at foretage i dette møde. Folketingets næste møde afholdes den 12. januar 2021, kl. 13.00. Kan I komme godt hjem. Tak.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
 </TEI>

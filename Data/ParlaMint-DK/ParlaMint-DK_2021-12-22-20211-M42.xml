@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da" xml:id="ParlaMint-DK_2021-12-22-20211-M42" ana="#parla.sitting #covid">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="da"
+     xml:id="ParlaMint-DK_2021-12-22-20211-M42"
+     ana="#parla.sitting #covid">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">The Danish parliamentary corpus ParlaMint-DK, Session 20211, Sitting M42 [ParlaMint]</title>
+            <title type="main" xml:lang="en">The Danish parliamentary corpus ParlaMint-DK, Session 20211, Sitting M42 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20211, M42 (2021-12-22), preliminary version</title>
             <meeting ana="#parla.session">20211</meeting>
             <meeting ana="#parla.sitting">M42</meeting>
@@ -26,7 +29,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="13" xml:lang="en">13 speeches</measure>
             <measure unit="words" quantity="661" xml:lang="en">661 words</measure>
          </extent>
@@ -40,7 +43,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>. </p>
             </availability>
-            <date when="2022-10-31">2022-10-31</date>
+            <date when="2023-01-31">2023-01-31</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -57,7 +60,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
@@ -80,75 +83,54 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
+         <change when="2023-01-31">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-10-31">
             <name>Dorte Haltrup Hansen</name>Generated corpus in ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
-    <text xml:lang="da" ana="#covid">
-        <body>
-            <div type="debateSection">
+   <text xml:lang="da" ana="#covid">
+      <body>
+         <div type="debateSection">
             <head>Punkt 0</head>
             <note type="agendaItem">2021-12-22-0</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193502" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193502.seg1">Mødet er åbnet. Vi har nogle ganske få afstemninger tilbage. Da det er et nyt møde, skal man logge ind igen, og jeg beder om, at man lige kontrollerer, at det stadig væk er ens navn, der står i afstemningspanelet.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20211222193502"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20211222193502.seg1">Mødet er åbnet. Vi har nogle ganske få afstemninger tilbage. Da det er et nyt møde, skal man logge ind igen, og jeg beder om, at man lige kontrollerer, at det stadig væk er ens navn, der står i afstemningspanelet.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
             <head>Indstilling fra Udvalget til Valgs Prøvelse</head>
             <note type="agendaItem">2021-12-22-1</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193530" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193530.seg2">Fra Udvalget til Valgs Prøvelse har jeg modtaget indstilling om, at 1. stedfortræder for Venstre  i Vestjyllands Storkreds, Gitte Willumsen, godkendes som ordinært medlem af Folketinget fra og med den 21. december 2021, da Inger Støjbergs (UFG) mandat som medlem af Folketinget er bortfaldet, som følge af at hun har mistet sin valgbarhed. Er der nogen, der ønsker ordet? Da det ikke er tilfældet, går vi til afstemning. Jeg ser rundt for at se, om alle har styr på det; det har man.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193603" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193603.seg3">Vi stemmer om udvalgets indstilling, og der kan stemmes. Afstemningen slutter. Udvalgets indstilling er enstemmigt vedtaget med 100 stemmer. Det bemærkes, at jeg af Gitte Willumsen og Det Konservative Folkepartis folketingsgruppe har fået oplyst, at Gitte Willumsen vil indgå i Det Konservative Folkepartis folketingsgruppe.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>Fortsættelse [afstemning] af F 17: Om regeringens fremtidige klimapolitiske initiativer set i lyset af redegørelsen for klimaeff</head>
-            <note type="agendaItem">2021-12-22-2</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193632" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193632.seg4">Forhandlingen er sluttet, og vi går til afstemning om de fremsatte forslag til vedtagelse. Der foreligger tre forslag. Der stemmes først om forslag til vedtagelse nr. V 22 af Anne Paulin (S), Karsten Filsø (SF), Rasmus Helveg Petersen (RV) og Søren Egge Rasmussen (EL), og der kan stemmes. Afstemningen slutter. For stemte 85 (S, V, SF, RV, EL, KF, LA og IA), imod stemte 15 (DF, NB, FG og ALT), hverken for eller imod stemte 0. Forslag til vedtagelse nr. V 22 er vedtaget. Herefter er forslag til vedtagelse nr. V 23 af Marie Bjerre (V), Mona Juul (KF) og Ole Birk Olesen (LA) og forslag til vedtagelse nr. V 24 af Sikandar Siddique (FG) og Torsten Gejl (ALT) bortfaldet. Dermed er forespørgslen afsluttet.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling, 2. del, af L 1: Om finanslov for finansåret 2022.</head>
-            <note type="agendaItem">2021-12-22-3</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193738" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193738.seg5">Forhandlingen er åbnet. Og den første, der får ordet, er formanden for Finansudvalget, Jens Joel, for at give en mundtlig indstilling. Hr. Jens Joel, Socialdemokratiet.</seg>
-                </u>
-                <u who="#JoelJens" xml:id="ParlaMint-DK_20211222193755" ana="#regular">
-                    <seg xml:id="ParlaMint-DK_20211222193755.seg6">Tak for det, formand. Jeg skal blot meddele, at Finansudvalget efter afstemningerne om ændringsforslagene tidligere i dag har holdt et møde, hvor vi har gennemgået afstemningsresultaterne. Og jeg kan herefter på et enigt udvalgs vegne meddele, at denne gennemgang ikke har givet anledning til bemærkninger eller til, at der stilles yderligere ændringsforslag. Så det betyder, at finanslovsforslaget indstilles til fortsat behandling. Tak.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193817" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193817.seg7">Tak for det. Er der flere, der ønsker ordet? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193822" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193822.seg8">Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes. Afstemningen slutter. For stemte 94 (S, V, DF, SF, RV, EL, KF, ALT og IA), imod stemte 6 (NB, LA og FG), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
-            <head>3. behandling af L 2: Om fastsættelse af udgiftslofter for stat, kommuner og regioner for finansåret 2025.</head>
-            <note type="agendaItem">2021-12-22-4</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193844" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193844.seg9">Forhandlingen drejer sig i første omgang om det stillede ændringsforslag. Er der nogen, der ønsker at udtale sig? Da det ikke er tilfældet, er forhandlingen om ændringsforslaget afsluttet, og vi går til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193905" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193905.seg10">Hvis ikke afstemning begæres, betragter jeg ændringsforslag nr. 1 af finansministeren som vedtaget. Ændringsforslaget er vedtaget.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193911" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193911.seg11">Forhandlingen drejer sig herefter om lovforslaget som helhed. Ønsker nogen at udtale sig om lovforslaget? Da det ikke er tilfældet, går vi til afstemning.</seg>
-                </u>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193919" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193919.seg12">Der stemmes om lovforslagets endelige vedtagelse. Afstemningen slutter. For stemte 87 (S, V, DF, SF, RV, KF, ALT og IA), imod stemte 13 (EL, NB, LA og FG), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver sendt til statsministeren.</seg>
-                </u>
-            </div>
-            <div type="debateSection">
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20211222193530"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20211222193530.seg2">Fra Udvalget til Valgs Prøvelse har jeg modtaget indstilling om, at 1. stedfortræder for Venstre  i Vestjyllands Storkreds, Gitte Willumsen, godkendes som ordinært medlem af Folketinget fra og med den 21. december 2021, da Inger Støjbergs (UFG) mandat som medlem af Folketinget er bortfaldet, som følge af at hun har mistet sin valgbarhed. Er der nogen, der ønsker ordet? Da det ikke er tilfældet, går vi til afstemning. Jeg ser rundt for at se, om alle har styr på det; det har man.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20211222193919"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20211222193919.seg12">Der stemmes om lovforslagets endelige vedtagelse. Afstemningen slutter. For stemte 87 (S, V, DF, SF, RV, KF, ALT og IA), imod stemte 13 (EL, NB, LA og FG), hverken for eller imod stemte 0. Lovforslaget er vedtaget og bliver sendt til statsministeren.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
             <head>Punkt 0</head>
             <note type="agendaItem">2021-12-22-0</note>
-                <u who="#KristensenHenrikDam" xml:id="ParlaMint-DK_20211222193940" ana="#chair">
-                    <seg xml:id="ParlaMint-DK_20211222193940.seg13">Så vil jeg gerne benytte lejligheden til at sige tak til samtlige Folketingets medlemmer for indsatsen i den første halvdel af dette folketingsår. Det har på mange måder været udfordrende, men det, at vi er kommet igennem på en, synes jeg, ordentlig og anstændig måde, skal I alle sammen have tak for. Nu ønsker jeg jer en god juleferie. Husk at lægge iPad og mobiltelefon lidt til side, nyd det med familie og venner, og pas godt på hinanden. Glædelig jul og godt nytår. Så skal jeg bare sige, at Folketingets næste møde afholdes tirsdag den 11. januar 2022, kl. 13.00. Kom godt hjem.</seg>
-                </u>
-            </div>
-        </body>
-    </text>
+            <u who="#KristensenHenrikDam"
+               xml:id="ParlaMint-DK_20211222193940"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20211222193940.seg13">Så vil jeg gerne benytte lejligheden til at sige tak til samtlige Folketingets medlemmer for indsatsen i den første halvdel af dette folketingsår. Det har på mange måder været udfordrende, men det, at vi er kommet igennem på en, synes jeg, ordentlig og anstændig måde, skal I alle sammen have tak for. Nu ønsker jeg jer en god juleferie. Husk at lægge iPad og mobiltelefon lidt til side, nyd det med familie og venner, og pas godt på hinanden. Glædelig jul og godt nytår. Så skal jeg bare sige, at Folketingets næste møde afholdes tirsdag den 11. januar 2022, kl. 13.00. Kom godt hjem.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
 </TEI>
