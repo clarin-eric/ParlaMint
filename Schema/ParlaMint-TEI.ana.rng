@@ -147,7 +147,10 @@
         <a:documentation>Simple word:</a:documentation>
         <group>
           <ref name="word.atts"/>
-	  <ref name="non-empty.string"/>
+	  <a:documentation>A non-empty string without white-space, or a number, possibly with spaces</a:documentation>
+	  <data type="string">
+	    <param name="pattern">(\S+)|(\d[\.,\d ]*\d)</param>
+	  </data>
         </group>
         <a:documentation>Word with several normalised words:</a:documentation>
         <group>
