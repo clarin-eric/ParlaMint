@@ -61,7 +61,11 @@ word =
   element w {
     
     ## Simple word:
-    ((word.atts, non-empty.string)
+    ((word.atts
+      >> a:documentation [
+           "A non-empty string without white-space, or a number, possibly with spaces"
+         ],
+      xsd:string { pattern = "(\S+)|(\d[\.,\d ]*\d)" })
      >> a:documentation [ "Word with several normalised words:" ]
      | (word-optional.atts,
         # This doesn't work: error: group of "string" or "data" element
@@ -73,7 +77,7 @@ word =
             "Normalised word with several surface words:"
           ]
      | (word.atts,
-        element w { non-empty.string }+,
+        element w { normalized-space.string }+,
         empty))
   }
 

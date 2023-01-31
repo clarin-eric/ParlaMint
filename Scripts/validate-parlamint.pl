@@ -14,6 +14,7 @@ sub usage
 {
     print STDERR ("Usage: validate-parlamint.pl <SchemaDirectory> '<InputDirectories>'\n");
     print STDERR ("       Produces a validation report on ParlaMint XML files in the <InputDirectories>:\n");
+    print STDERR ("       * validation for illegal characters (like soft hyphen, PUA)\n");
     print STDERR ("       * validation against ParlaMint RNG schemas in <SchemaDirectory> (with jing)\n");
     print STDERR ("       * link (IDREF) checking (with saxon, check-links.xsl)\n");
     print STDERR ("       * content checking (with saxon, validate-parlamint.xsl)\n");
@@ -46,10 +47,11 @@ foreach my $inDir (glob "$inDirs") {
     }
     $/ = '>';
     if (not $rootFile and not $rootAnaFile) {
-        die "FATAL: Cannot file root file in $inDir!\n"
+        die "FATAL: Cannot find root file in $inDir!\n"
     }
     if ($rootFile) {
         print STDERR "INFO: Validating TEI root $rootFile\n";
+	&chars($rootFile);
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
         &run("$Saxon -xsl:$Valid", $rootFile);
         &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
@@ -60,9 +62,11 @@ foreach my $inDir (glob "$inDirs") {
             if (-e $file) {
                 if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
                     print STDERR "INFO: Validating file included in teiHeader $file\n";
+		    &chars($file);
                     &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
                 } else {
                     print STDERR "INFO: Validating component TEI file $file\n";
+		    &chars($file);
                     &run("$Jing $schemaDir/ParlaMint-TEI.rng", $file);
                     &run("$Saxon -xsl:$Valid", $file);
                     &run("$Saxon meta=$rootFile -xsl:$Links", $file);
@@ -76,6 +80,7 @@ foreach my $inDir (glob "$inDirs") {
     }
     if ($rootAnaFile) {
         print STDERR "INFO: Validating TEI.ana root $rootAnaFile\n";
+	&chars($rootAnaFile);
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.ana.rng", $rootAnaFile);
         &run("$Saxon -xsl:$Valid", $rootAnaFile);
         &run("$Saxon -xsl:$Valid_particDesc", $rootAnaFile);
@@ -86,10 +91,12 @@ foreach my $inDir (glob "$inDirs") {
             if (-e $file) {
                 if($file =~ m/ParlaMint-(?:[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?)?.?(taxonomy|listPerson|listOrg).*\.xml/){
                     print STDERR "INFO: Validating file included in teiHeader $file\n";
+		    &chars($file);
                     &run("$Jing $schemaDir/ParlaMint-$1.rng", $file);
                     &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
                 } else {
                     print STDERR "INFO: Validating component TEI.ana file $file\n";
+		    &chars($file);
                     &run("$Jing $schemaDir/ParlaMint-TEI.ana.rng", $file);
                     &run("$Saxon -xsl:$Valid", $file);
                     &run("$Saxon meta=$rootAnaFile -xsl:$Links", $file);
@@ -103,6 +110,35 @@ foreach my $inDir (glob "$inDirs") {
     }
 }
 
+# Check if $file contains bad characters
+sub chars {
+    my $file = shift;
+    my %c;
+    my @bad = ();
+    my ($fName) = $file =~ m|([^/]+)$|
+        or die "Bad file '$file'\n";
+    print STDERR "INFO: Char validation for $fName\n";
+    open(IN, '<:utf8', $file);
+    undef $/;
+    my $txt = <IN>;
+    undef %c;
+    for $c (split(//, $txt)) {$c{$c}++}
+    for $c (sort keys %c) {
+	if (ord($c) == hex('00A0') or  #NO-BREAK SPACE
+	    ord($c) == hex('2011') or  #NON-BREAKING HYPHEN
+	    ord($c) == hex('00AD') or  #SOFT HYPHEN
+	    ord($c) == hex('FFFD') or  #REPLACEMENT CHAR
+	    (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
+	    (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
+	    ) {
+	    $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
+	    push(@bad, $message)
+	}
+    }
+    print STDERR "ERROR: File $fName contains bad chars: " . join('; ', @bad) . "\n"
+	if @bad
+}
+   
 sub run {
     my $command = shift;
     my $file = shift;
