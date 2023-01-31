@@ -139,13 +139,7 @@
       <attribute name="subtype">
         <ref name="stateSubtype.val"/>
       </attribute>
-      <optional>
-        <a:documentation>The URI of the source where this information was taken
-        from.</a:documentation>
-        <attribute name="source">
-          <ref name="anyURIs"/>
-        </attribute>
-      </optional>
+      <ref name="source.att"/>
       <optional>
         <a:documentation>The political orientation if given as a numeric value.</a:documentation>
         <attribute name="n">
@@ -320,12 +314,30 @@
         <interleave>
           <oneOrMore>
             <element name="surname">
+	      <optional>
+		<attribute name="type">
+		  <choice>
+		    <value>birth</value>
+		    <value>patronym</value>
+		    <value>married</value>
+		  </choice>
+		</attribute>
+	      </optional>
               <ref name="personal.att"/>
               <ref name="normalized-space.string"/>
             </element>
           </oneOrMore>
           <oneOrMore>
             <element name="forename">
+	      <optional>
+		<attribute name="type">
+		  <choice>
+		    <value>first</value>
+		    <value>middle</value>
+		    <value>unused</value>
+		  </choice>
+		</attribute>
+	      </optional>
               <ref name="personal.att"/>
               <ref name="normalized-space.string"/>
             </element>
@@ -361,9 +373,8 @@
       <optional>
         <ref name="temporal.atts"/>
       </optional>
-      <optional>
-        <ref name="ref.att"/>
-      </optional>
+      <ref name="ref.att"/>
+      <ref name="source.att"/>
       <attribute name="role">
         <ref name="affiliationRole.val"/>
       </attribute>
@@ -373,6 +384,16 @@
           <ref name="normalized-space.string"/>
         </element>
       </zeroOrMore>
+      <a:documentation>Optional note for free-text note of the affiliation period.</a:documentation>
+      <optional>
+        <element name="note">
+          <attribute name="type">
+            <value>period</value>
+          </attribute>
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </optional>
     </element>
   </define>
 
