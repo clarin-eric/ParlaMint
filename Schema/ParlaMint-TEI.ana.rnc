@@ -61,7 +61,7 @@ word =
   element w {
     
     ## Simple word:
-    ((word.atts, non-empty.string)
+    ((word.atts, normalized-space.string)
      >> a:documentation [ "Word with several normalised words:" ]
      | (word-optional.atts,
         # This doesn't work: error: group of "string" or "data" element
@@ -73,7 +73,7 @@ word =
             "Normalised word with several surface words:"
           ]
      | (word.atts,
-        element w { non-empty.string }+,
+        element w { normalized-space.string }+,
         empty))
   }
 
@@ -105,7 +105,7 @@ token.atts =
 ## Obligatory attributes of word.
 word.atts =
   token.atts,
-  attribute lemma { non-empty.string }
+  attribute lemma { normalized-space.string }
 
 ## Optional attributes of word.
 word-optional.atts =
@@ -116,4 +116,4 @@ word-optional.atts =
   ## UD PoS and morph.features, e.g. "UPosTag=NUM|NumForm=Digit":
   (attribute msd { non-empty.string }?),
   attribute ana { anyURIs }?,
-  attribute lemma { non-empty.string }?
+  attribute lemma { normalized-space.string }?

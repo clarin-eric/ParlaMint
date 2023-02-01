@@ -52,7 +52,6 @@ foreach my $inDir (glob "$inDirs") {
     if ($rootFile) {
         print STDERR "INFO: Validating TEI root $rootFile\n";
 	&chars($rootFile);
-	die;
         &run("$Jing $schemaDir/ParlaMint-teiCorpus.rng", $rootFile);
         &run("$Saxon -xsl:$Valid", $rootFile);
         &run("$Saxon -xsl:$Valid_particDesc", $rootFile);
@@ -132,11 +131,11 @@ sub chars {
 	    (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
 	    (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
 	    ) {
-	    $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
+	    $message = sprintf("%s[U+%X](%dx)", chr($c), ord($c), $c{$c});
 	    push(@bad, $message)
 	}
     }
-    print STDERR "ERROR: File $fName contains bad chars: " . join('; ', @bad) . "\n"
+    print STDERR "WARN: File $fName contains bad chars: " . join('; ', @bad) . "\n"
 	if @bad
 }
    

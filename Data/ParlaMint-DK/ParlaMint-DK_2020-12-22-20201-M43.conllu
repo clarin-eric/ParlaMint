@@ -1,0 +1,192 @@
+# newdoc id = ParlaMint-DK_20201222191005
+# newpar id = ParlaMint-DK_20201222191005.seg1
+# sent_id = ParlaMint-DK_20201222191005.seg1.1
+# text = Mødet er åbnet.
+1	Mødet	møde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	åbnet	åbne	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newdoc id = ParlaMint-DK_20201222191010
+# newpar id = ParlaMint-DK_20201222191010.seg2
+# sent_id = ParlaMint-DK_20201222191010.seg2.1
+# text = De punkter, som er opført som nr. 6, 7, 8 og 9 på dagsordenen, kan kun med Tingets samtykke behandles i dette møde.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	NER=O
+2	punkter	punkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	NER=O
+4	som	som	PRON	_	PartType=Inf	6	nsubj	_	NER=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	NER=O
+6	opført	opføre	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	NER=O
+7	som	som	ADP	_	PartType=Inf	8	case	_	NER=O
+8	nr.	nr.	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	NER=O
+9	6	6	NUM	_	NumType=Card	14	nummod	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	NER=O
+11	7	7	NUM	_	NumType=Card	9	list	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	NER=O
+13	8	8	NUM	_	NumType=Card	11	list	_	NER=O
+14	og	og	CCONJ	_	_	15	dep	_	NER=O
+15	9	9	NUM	_	NumType=Card	8	conj	_	NER=O
+16	på	på	ADP	_	AdpType=Prep	17	case	_	NER=O
+17	dagsordenen	dagsorden	NOUN	_	Definite=Def|Gender=Com|Number=Sing	15	nmod	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	_	_	6	punct	_	NER=O
+19	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	NER=O
+20	kun	kun	ADV	_	_	23	advmod	_	NER=O
+21	med	med	ADP	_	AdpType=Prep	20	case	_	NER=O
+22	Tingets	ting	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	23	nmod:poss	_	NER=O
+23	samtykke	samtykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nsubj	_	NER=O
+24	behandles	behandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+25	i	i	ADP	_	AdpType=Prep	27	case	_	NER=O
+26	dette	denne	DET	_	Gender=Neut|Number=Sing|PronType=Dem	27	det	_	NER=O
+27	møde	møde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	_	_	24	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222191010.seg2.2
+# text = Og hvis ingen gør indsigelse, betragter jeg samtykket som givet.
+1	Og	og	CCONJ	_	_	7	cc	_	NER=O
+2	hvis	hvis	SCONJ	_	_	4	mark	_	NER=O
+3	ingen	ingen	PRON	_	Gender=Com|Number=Sing|PronType=Ind	4	nsubj	_	NER=O
+4	gør	gøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	advmod	_	NER=O
+5	indsigelse	indsigelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	NER=O
+7	betragter	betragte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+8	jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	NER=O
+9	samtykket	samtykke	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	NER=O
+10	som	som	ADP	_	PartType=Inf	11	mark	_	NER=O
+11	givet	give	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222191010.seg2.3
+# text = Det er givet.
+1	Det	den	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	givet	give	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newdoc id = ParlaMint-DK_20201222192005
+# newpar id = ParlaMint-DK_20201222192005.seg25
+# sent_id = ParlaMint-DK_20201222192005.seg25.1
+# text = Der stemmes om lovforslagets endelige vedtagelse, og der kan stemmes.
+1	Der	der	ADV	_	PartType=Inf	2	expl	_	NER=O
+2	stemmes	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+3	om	om	ADP	_	AdpType=Prep	6	case	_	NER=O
+4	lovforslagets	lovforslag	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod:poss	_	NER=O
+5	endelige	endelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	NER=O
+6	vedtagelse	vedtagelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	NER=O
+8	og	og	CCONJ	_	_	11	cc	_	NER=O
+9	der	der	ADV	_	PartType=Inf	11	expl	_	NER=O
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	NER=O
+11	stemmes	stemme	VERB	_	VerbForm=Inf|Voice=Pass	2	conj	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222192005.seg25.2
+# text = Afstemningen slutter.
+1	Afstemningen	afstemning	NOUN	_	Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	NER=O
+2	slutter	slutte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222192005.seg25.3
+# text = For stemte 91 (S, V, DF, RV, SF, EL, KF, ALT, Uffe Elbæk (UFG) og Susanne Zimmer (UFG)), imod stemte 0, hverken for eller imod stemte 4 (NB og LA).
+1	For	for	ADP	_	AdpType=Prep	2	case	_	NER=O
+2	stemte	stemme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	91	91	NUM	_	NumType=Card	5	nummod	_	NER=O
+4	(	(	PUNCT	_	_	5	punct	_	NER=O|SpaceAfter=No
+5	S	S	PROPN	_	_	2	appos	_	NER=B-ORG|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	NER=O
+7	V	V	PROPN	_	_	5	flat	_	NER=B-ORG|SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	NER=O
+9	DF	DF	PROPN	_	_	5	conj	_	NER=B-ORG|SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	NER=O
+11	RV	RV	PROPN	_	_	9	flat	_	NER=B-ORG|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	NER=O
+13	SF	SF	PROPN	_	_	5	conj	_	NER=B-ORG|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	NER=O
+15	EL	EL	PROPN	_	_	5	conj	_	NER=B-ORG|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	NER=O
+17	KF	KF	PROPN	_	_	5	conj	_	NER=B-ORG|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	NER=O
+19	ALT	ALT	PROPN	_	_	5	conj	_	NER=B-ORG|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	NER=O
+21	Uffe	Uffe	PROPN	_	_	5	conj	_	NER=B-PER
+22	Elbæk	Elbæk	PROPN	_	_	21	flat	_	NER=I-PER
+23	(	(	PUNCT	_	_	24	punct	_	NER=O|SpaceAfter=No
+24	UFG	UFG	PROPN	_	_	5	flat	_	NER=B-ORG|SpaceAfter=No
+25	)	)	PUNCT	_	_	5	punct	_	NER=O
+26	og	og	CCONJ	_	_	27	cc	_	NER=O
+27	Susanne	Susanne	PROPN	_	_	2	obj	_	NER=B-PER
+28	Zimmer	Zimmer	PROPN	_	_	27	flat	_	NER=I-PER
+29	(	(	PUNCT	_	_	30	punct	_	NER=O|SpaceAfter=No
+30	UFG	UFG	PROPN	_	_	27	flat	_	NER=B-ORG|SpaceAfter=No
+31	))	))	PUNCT	_	_	30	punct	_	NER=O|SpaceAfter=No
+32	,	,	PUNCT	_	_	30	punct	_	NER=O
+33	imod	imod	ADP	_	AdpType=Prep	34	mark	_	NER=O
+34	stemte	stemme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	NER=O
+35	0	0	NUM	_	NumType=Card	34	obj	_	NER=O|SpaceAfter=No
+36	,	,	PUNCT	_	_	34	punct	_	NER=O
+37	hverken	hverken	ADV	_	_	2	advmod	_	NER=O
+38	for	for	ADP	_	AdpType=Prep	37	case	_	NER=O
+39	eller	eller	CCONJ	_	_	41	cc	_	NER=O
+40	imod	imod	ADV	_	_	41	advmod	_	NER=O
+41	stemte	stemme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	NER=O
+42	4	4	NUM	_	NumType=Card	44	nummod	_	NER=O
+43	(	(	PUNCT	_	_	44	punct	_	NER=O|SpaceAfter=No
+44	NB	NB	PROPN	_	_	41	obj	_	NER=B-ORG
+45	og	og	CCONJ	_	_	46	cc	_	NER=O
+46	LA	LA	PROPN	_	_	44	conj	_	NER=B-ORG|SpaceAfter=No
+47	)	)	PUNCT	_	_	44	punct	_	NER=O|SpaceAfter=No
+48	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222192005.seg25.4
+# text = Lovforslaget er vedtaget og vil nu blive sendt til statsministeren.
+1	Lovforslaget	lovforslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	vedtaget	vedtage	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O
+4	og	og	CCONJ	_	_	8	cc	_	NER=O
+5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	NER=O
+6	nu	nu	ADV	_	_	8	advmod	_	NER=O
+7	blive	blive	AUX	_	VerbForm=Inf|Voice=Act	8	aux	_	NER=O
+8	sendt	sende	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	NER=O
+9	til	til	ADP	_	AdpType=Prep	10	case	_	NER=O
+10	statsministeren	statsminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	8	obl	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# newdoc id = ParlaMint-DK_20201222192040
+# newpar id = ParlaMint-DK_20201222192040.seg26
+# sent_id = ParlaMint-DK_20201222192040.seg26.1
+# text = Der er ikke mere at foretage i dette møde.
+1	Der	der	ADV	_	PartType=Inf	4	nsubj	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	NER=O
+3	ikke	ikke	ADV	_	_	4	advmod	_	NER=O
+4	mere	mere	ADV	_	Degree=Cmp	0	root	_	NER=O
+5	at	at	PART	_	PartType=Inf	6	mark	_	NER=O
+6	foretage	foretage	VERB	_	VerbForm=Inf|Voice=Act	4	acl:relcl	_	NER=O
+7	i	i	ADP	_	AdpType=Prep	9	case	_	NER=O
+8	dette	denne	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	NER=O
+9	møde	møde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222192040.seg26.2
+# text = Folketingets næste møde afholdes den 12. januar 2021, kl. 13.00. Kan I komme godt hjem.
+1	Folketingets	Folketing	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	NER=B-ORG
+2	næste	næste	ADJ	_	Degree=Pos	3	amod	_	NER=O
+3	møde	møde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	NER=O
+4	afholdes	afholde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+5	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	7	det	_	NER=O
+6	12.	12.	ADJ	_	NumType=Ord	7	amod	_	NER=O
+7	januar	januar	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obj	_	NER=O
+8	2021	2021	NUM	_	NumType=Card	7	nmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	NER=O
+10	kl.	kl.	NOUN	_	Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	NER=O
+11	13.00.	13.00.	NUM	_	NumType=Card	10	nmod	_	NER=O
+12	Kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	NER=O
+13	I	i	PRON	_	Case=Nom|Gender=Com|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	NER=O
+14	komme	komme	VERB	_	VerbForm=Inf|Voice=Act	7	acl:relcl	_	NER=O
+15	godt	godt	ADV	_	Degree=Pos	16	advmod	_	NER=O
+16	hjem	hjem	ADV	_	_	14	obl:loc	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20201222192040.seg26.3
+# text = Tak.
+1	Tak	tak	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	NER=O
+

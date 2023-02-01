@@ -1,15 +1,24 @@
 <?xml version="1.0"?>
-<!-- Finalize the encoding of a ParlaMint corpus (Source language version) -->
-<!-- Takes root file as input, and outputs it, any of its factorised pieces 
-     and all finalized component files to outDir:
-     - set release date to today
-     - set version and handles for 3.0
-     - set correct stamp in main titles
-     - set correct subcorpus
-     - set English project description for ParlaMint II
+<!-- Finalize the encoding of a ParlaMint corpus (source language version) -->
+<!-- Input is plain text (.TEI) or lingustically analysed (.TEI.ana) corpus root file 
+     with XIncludes for all corpus components
+     Output is corresponding (.TEI or .TEI.ana) 
+     - corpus root, 
+     - factorised metadata (taxonomies, person and organisation list) 
+     - components
+     All are in their final form for a particular release.
+     STDERR gives detailed log of actions.
+     The inserted or fixed data is either given as parameters with default values or 
+     computed from the corpus.
+     The program:
+     - sets release date, default = today
+     - sets version and handles, default = 3.0
+     - set correct ParlaMint stamp in main titles
+     - set correct reference / COVID subcorpus, default > 2019-11-01
+     - set English project description, default = ParlaMint II
      - calculate extents in component ana files, warn if changed
      - insert word extents from ana into plain version
-     - insert tagcounts in root (taken from component files and not changed there!)
+     - insert tagCounts in root (taken from component files and not changed there!)
      - fix spaces in text
      - if necessary, change div/@type for divs without utterances
      - sundry checks and fixes, which give warning messages
@@ -225,12 +234,12 @@
       <xsl:variable name="ref">
         <xsl:for-each select="tokenize(., ' ')">
           <xsl:choose>
-            <xsl:when test=". = '#reference' and $covid-date &lt;= $date">
+            <xsl:when test=". = '#reference' and $covid-date &lt; $date">
               <xsl:text>#covid</xsl:text>
               <xsl:message select="concat('WARN ', $id, 
                                ': fixing subcorpus to covid for date ', $date)"/>
             </xsl:when>
-            <xsl:when test=". = '#covid' and $covid-date &gt; $date">
+            <xsl:when test=". = '#covid' and $covid-date &gt;= $date">
               <xsl:text>#reference</xsl:text>
               <xsl:message select="concat('WARN ', $id, 
 				   ': fixing subcorpus to reference for date ', $date)"/>
@@ -345,6 +354,24 @@
     </xsl:attribute>
   </xsl:template>
   
+  <!-- Bug in STANZA, sometimes several tokens have root dependency -->
+  <!-- We set those that have root but do not point to sentence ID to "dep" -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:root']">
+    <xsl:copy>
+      <xsl:variable name="root-ref" select="concat('#', ancestor::tei:s/@xml:id)"/>
+      <xsl:attribute name="ana">
+	<xsl:choose>
+	  <xsl:when test="$root-ref = substring-before(@target, ' ')">ud-syn:root</xsl:when>
+	  <xsl:otherwise>
+            <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:root with ud-syn:dep for non-root dependency')"/>
+	    <xsl:text>ud-syn:dep</xsl:text>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates select="@target"/>
+    </xsl:copy>
+  </xsl:template>
 
   <!-- Finalizing ROOT -->
   
