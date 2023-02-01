@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="ParlaMint-EE_2021-01-19" ana="#covid">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2021-01-19 [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="sub">XIV Parliament term, V istungjärk, Plenary Assembly meeting on Tuesday, 19.01.2021, 10:00</title>
+        <title xml:lang="et" type="sub">XIV Riigikogu, V istungjärk, täiskogu istung Teisipäev, 19.01.2021, 10:00</title>
+        <meeting ana="#parla.uni #parla.sitting" n="2021-01-19">2021-01-19</meeting>
+        <meeting ana="#parla.uni #parla.session" n="rs5">V regular session</meeting>
+        <meeting ana="#parla.uni #parla.term #parliament.RK14">XIV Riigikogu</meeting>
+        <respStmt>
+          <persName>Martin Mölder</persName>
+          <persName>Neeme Kahusk</persName>
+          <persName>Kadri Vider</persName>
+          <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.1</edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
+        <measure quantity="1000" unit="words" xml:lang="en">1000 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </publisher>
+        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2023-01-04">2023-01-04</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201609261500</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="org">Riigikogu</name>
+          <name type="address">Lossi plats 1a</name>
+          <name type="city">Tallinn</name>
+          <name type="country" key="EE">Estonia</name>
+          <date ana="#parla.meeting" when="2021-01-19">2021-01-19</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#covid">
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Siim Kallas</note>
+        <u who="#s_kallas_19481002" xml:id="ParlaMint-EE_2021-01-19_U1" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2021-01-19_U1-P1">Tere hommikust, lugupeetud kolleegid siin saalis ja ekraanide taga! Alustame Riigikogu täiskogu V istungjärgu 2. töönädala teisipäevast istungit. Kõigepealt eelnõude ja arupärimiste üleandmise võimalus. Ei näe soovi üle anda arupärimisi ja eelnõusid. Siis järelikult kohaloleku kontroll.</seg>
+        </u>
+        <note type="speaker">Siim Kallas</note>
+        <u who="#s_kallas_19481002" xml:id="ParlaMint-EE_2021-01-19_U2" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2021-01-19_U2-P1">Kohalolijaks registreerus 74 Riigikogu liiget, puudub 27.</seg>
+          <seg xml:id="ParlaMint-EE_2021-01-19_U2-P2">Ja mis seal teha, austatud Riigikogu, tänase istungi päevakorras ühtegi punkti ei ole ja istung on sellega lõppenud.</seg>
+          <seg xml:id="ParlaMint-EE_2021-01-19_U2-P3">Aga mul on ka teadaanne. Natuke aega pärast seda istungit tuleb siia pulti tehnikapealik Ahto Saks ja siis on võimalik testida oma [arvuti] ühendusi, et kaugtöö sujuks edukalt. Kõik saavad kontrollida oma arvutite ja muu – mikrofonide ja ekraanide – toimimist. Nii et niisugune teadaanne. Kas me teeme seda kohe? Ühesõnaga, see hakkab pihta kuskil kaheksa minuti pärast ehk 10.10. Suur tänu!</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>

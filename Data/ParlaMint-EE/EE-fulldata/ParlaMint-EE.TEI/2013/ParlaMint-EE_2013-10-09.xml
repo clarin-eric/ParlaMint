@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="ParlaMint-EE_2013-10-09" ana="#reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2013-10-09 [ParlaMint SAMPLE]</title>
+        <title xml:lang="en" type="sub">XII Parliament term, VI Session, information session Wensday, 09.10.2013, 13:00</title>
+        <title xml:lang="et" type="sub">XII Riigikogu, VI Istungjärk, infotund Kolmapäev, 09.10.2013, 13:00</title>
+        <meeting ana="#parla.uni #parla.sitting" n="2013-10-09">2013-10-09</meeting>
+        <meeting ana="#parla.uni #parla.session" n="rs6">VI regular session</meeting>
+        <meeting ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
+        <respStmt>
+          <persName>Martin Mölder</persName>
+          <persName>Neeme Kahusk</persName>
+          <persName>Kadri Vider</persName>
+          <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.1</edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
+        <measure quantity="1000" unit="words" xml:lang="en">1000 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </publisher>
+        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2023-01-04">2023-01-04</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201609261500</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="org">Riigikogu</name>
+          <name type="address">Lossi plats 1a</name>
+          <name type="city">Tallinn</name>
+          <name type="country" key="EE">Estonia</name>
+          <date ana="#parla.meeting" when="2013-10-09">2013-10-09</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U1" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U1-P1">Tere päevast, lugupeetud Riigikogu! Tere päevast, austatud peaminister ja ministrid! Alustame tänast infotundi. Palun teeme kõigepealt kohaloleku kontrolli!</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U1-P2">Kohalolijaks registreerus 40 Riigikogu liiget, puudub 61. Tänases infotunnis osalevad järgmised valitsusliikmed: peaminister Andrus Ansip, haridus- ja teadusminister Jaak Aaviksoo, välisminister Urmas Paet. Läheme küsimuste juurde. Kuna täna on kuus registreeritud küsimust, siis, head kolleegid, saan lubada kohapealt kaks küsimust esitada.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U2" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U2-P1">Läheme esimese küsimuse juurde. Kolleeg Sven Mikseril on küsimus peaminister Andrus Ansipile.</seg>
+        </u>
+        <note type="speaker">Sven Mikser</note>
+        <u who="#s_mikser_19731108" xml:id="ParlaMint-EE_2013-10-09_U3" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U3-P1">Härra peaminister! Jätkan vajaduspõhise õppetoetuse teemal sealt, kus meil septembrikuus mõttevahetus pooleli jäi. Kui vajaduspõhine õppetoetus seaduses sätestati, oli haridus- ja teadusministri prognoos, et seda toetust hakkab saama 37% nendest tudengitest, kes oma õpinguid alustavad. Tegelikkuses on taotluse esitanuid ja toetuse saajaid üle kahe korra vähem. Võib ju öelda, et see on parem tulemus kui näiteks vajaduspõhise peretoetuse puhul, mida saab vaid umbes kümnendik algselt eeldatust. Aga tegelikkuses on muidugi ka õppetoetuste puhul asi naljast kaugel, sest me pidevalt kuuleme ja loeme tudengitest, kes kipaka seaduse tõttu ei saa toetust, mida nad vajaksid. Eesti Päevalehele antud intervjuus te möönsite, et reformikava tuleb täiendada, et leida lahendus nendele üksikjuhtumitele, nagu te ütlesite. Kas te avaksite pisut lähemalt, milliseid muudatusi selles reformis te silmas peate?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U4" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U4-P1">Eesti Päevalehele antud intervjuus oli minu poolt tegemist üldise lähenemisega, et kui mingisugust reformi läbi viiakse, siis ideaalsel juhtumil saab kõik esimese eelnõuga korda, aga praktikas tähendab ühe reformi läbiviimine siiski seda, et algstaadiumis tuleb tingimusi kohandada. Ka meie eelmises infotunnis oli juttu ühest probleemist, mis kindlasti vajab lahendamist. Kui üks tudeng, kes oleks õigustatud saama vajaduspõhist õppetoetust, ei saa seda pelgalt sellepärast, et tema gümnaasiumis õppiv õde või vend on saanud täisealiseks, siis on halvasti. Kindlasti pole see olnud ei valitsuse tahe ega ka seadusandja tahe. Nii et minu meelest vajab seadus selles osas korrigeerimist.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U4-P2">Aga üldiselt olen ma veendunud, et põhimõte maksta toetust nendele, kes seda kõige rohkem vajavad, on õige. Meil on ju ka varem siin jutuks olnud, et sisuliselt tähendab see reform tudengitele lisaraha. Seni kulus tudengitele toetuse maksmiseks 8,8 miljonit eurot, nüüd läheb juurde 3,3 miljonit eurot. See 3,3 miljonit on väga selgelt täiendav raha, mis aitab tudengite olukorda parandada.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U5" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U5-P1">Palun, kolleeg Sven Mikser, esimene täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Sven Mikser</note>
+        <u who="#s_mikser_19731108" xml:id="ParlaMint-EE_2013-10-09_U6" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U6-P1">Härra peaminister! Septembris küsis kolleeg Ossinovski teilt siin saalis, kui kaugele on jõutud seaduse vastuvõtmisel lubatud n-ö eritoetusfondi loomisega, mis võimaldaks toetust maksta ka nendele tudengitele, kelle majanduslik olukord on võrreldes eelneva aastaga halvemaks muutunud, kuid kes seaduses sätestatud pika viiteaja tõttu vajaduspõhist toetust ei saa. See küsimus siis selget vastust ei saanud. On teada, et Haridus- ja Teadusministeerium nägi ette, et eritoetuste fondi võiksid hakata administreerima ülikoolid. Ülikoolid on olnud sellele vastu. Nad on soovinud, et seda teeks ministeerium. Selle hammasrataste vahele aga jäävad tudengid, kes ootavad lubatud abi. Kas võiksite öelda, kas teie arusaama järgi on lubatud eritoetuste fondi süsteem rakendunud? Kui ei ole, siis millal ja mil viisil see võiks rakenduda?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U7" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U7-P1">Esmalt tuleks muidugi ära oodata esimese taotlusvooru tulemused, neid põhjalikult analüüsida ja siis mõelda, kui suures ulatuses on eritoetuste fond vajalik. Minu meelest see, kes seda fondi haldama hakkab, on teisejärguline küsimus. Aga olgu öeldud, et mitmes Eesti ülikoolis on juba praegu oma abifondid olemas, küllap üldine vajaduspõhise õppetoetuse süsteem kohaneb tulevikus paremini tegelike vajadustega. Igatahes valitsus on kõigi süsteemi paremaks muutvate ettepanekute suhtes väga avatud.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U8" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U8-P1">Palun, kolleeg Sven Mikser, teine täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Sven Mikser</note>
+        <u who="#s_mikser_19731108" xml:id="ParlaMint-EE_2013-10-09_U9" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U9-P1">Härra peaminister! Üks väga konkreetne probleem, millele tudengid on oma kirjades viidanud, on see, et praeguse seaduse järgi arvestatakse üliõpilase leibkonna hulka ka tema vanemad, sh lahus elavad vanemad, kes mõnel juhul oma last rahaga üldse ei toeta, ja samuti õed-vennad, poolõed ja poolvennad. Tudengi jaoks võib olukord muutuda problemaatiliseks juhul, kui tema lahus elaval emal või isal on uus pere, kus on ka alla 24-aastaseid vanematega koos elavaid, kuid tööl käivaid ja sissetulekut saavaid lapsi. Kui üliõpilase lahus elaval vanemal on vähemasti moraalne kohustus oma last toetada, siis tema vanemate uude peresse sündinud lastel ei saa seda kohustust kuidagi olla. Kas te näete vajadust seadust selles osas parandada?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U10" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U10-P1">Kui üliõpilase perest lahus elaval vanemal on kohustus oma last ehk üliõpilast toetada, siis tema sissetulekute arvestamine üliõpilase pere liikmete sissetulekute hulka on täiesti kohane. Ma möönan veel kord, et praktika võib tuua välja mingisuguseid asjaolusid, mida arvestades tuleb tulevikus reformikava täiendada, kuid põhimõtteliselt ei saa toetuste süsteem olla selline, mis täiesti suvaliselt arvab pere liikmetest ülalpidamiskohustusega pere liikmeid välja.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U11" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U11-P1">Nüüd kaks kohapeal registreeritud küsimust. Palun, kolleeg Marika Tuus-Laul!</seg>
+        </u>
+        <note type="speaker">Marika Tuus-Laul</note>
+        <u who="#m_tuus_laul_19510512" xml:id="ParlaMint-EE_2013-10-09_U12" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U12-P1">Austatud härra peaminister! Torkab silma, et alati, kui meil seadusi muudetakse ja tehakse toetusi n-ö vajaduspõhiseks, siis tegelikult inimesed, kes toetust kõige rohkem vajavad, ei hakka neid saama. Lastetoetuste puhul on lood niimoodi, et sätestati naeruväärne peretoetus, mille saamiseks peab oma vaesust tõestamas käima, ja nüüd on üliõpilastega samuti. Kas selle seaduse rakendamine ei võiks operatiivsem olla? Kui me näeme, et inimene on töötu, siis määrame talle operatiivselt toetuse! Kui me vaatame ainult eelmise aasta seisu, mil tal võib-olla oli töö, siis see töötab nagu inimese vastu. Meil on reforme palju tehtud, seekord on küll niimoodi välja tulnud, et hädas inimene endal hinge sees hoidmiseks seda justkui ettenähtud rahanatukest ei saa. Kas me ei võiks operatiivsemad olla?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U13" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U13-P1">Ka sel teemal me rääkisime juba eelmises infotunnis. Jah, alati saab olla operatiivsem, aga operatiivsem süsteem on suuremate kuludega seotud. See eeldab enamat administreerimist ja ka suurema tõendamiskohustuse panekut toetuse taotlejale. Tegu on seadusandja valikute küsimusega, milleks raha kulutada: kas kulutada raha toetuse maksmiseks nendele, kes toetust hädasti vajavad, või kulutada maksumaksja raha bürokraatiaaparaadi loomiseks. Operatiivsus peaks olema tagatud nendesamade erijuhtumite lahendamiseks mõeldud fondide loomisega. Ma loodan, et see süsteem saab lõppkokkuvõttes tudengitele olema märksa parem kui seni kehtinud süsteem. Olgu veel kord öeldud, et senisele 8,8 miljonile eurole lisab vajaduspõhiste õppetoetuste süsteem 3,3 miljonit eurot. See on väga suur üliõpilaste toetuste mahu kasv.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U14" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U14-P1">Palun viimane kohapeal registreeritud küsimus, kolleeg Arto Aas!</seg>
+        </u>
+        <note type="speaker">Arto Aas</note>
+        <u who="#a_aas_19800609" xml:id="ParlaMint-EE_2013-10-09_U15" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U15-P1">Austatud peaminister! Kas teie hinnangul on suurem probleem see, et üliõpilastele ei jagata piisavalt sotsiaaltoetusi, või õppejõudude madal palk, mis ei võimalda Eestisse tööle saada kõrgel tasemel õppejõude, et meie ülikooliharidus oleks tõepoolest maailmaklassist?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U16" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U16-P1">Ma ütleksin, et mõlemad on probleemid. Tudengite toimetulekutoetus elementaarsel tasemel tuleb riigil tagada ja selleks ongi loodud vajaduspõhiste õppetoetuste süsteem. Ka väljastpoolt Eestit õppejõudude toomisele on riik mõelnud. Selleks on spetsiaalsed summad, mida saab kasutada väga heal tasemel tippspetsialistide Eestisse toomiseks ja neid ongi meil palgatud. Tihtipeale ei ole küsimus ainult palgas, vaid küsimus on laiem: küsimus on keskkonnas, sh õppejõudude lastele hariduse andmise võimalustes. Neid probleeme pelgalt rahasummade suurendamisega lahendada võimalik ei ole. Aga ma olen veendunud, et ka keskkonna välisõppejõudude jaoks paremaks, atraktiivsemaks muutmises on viimastel aastatel edu saavutatud. Näiteks seesama välisõppejõudude lastele hariduse andmise küsimus on lahenduseni jõudmas nii Tallinnas kui ka Tartus.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U17" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U17-P1">Suur tänu, härra peaminister! Lõpetan selle küsimuse käsitlemise.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U18" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U18-P1">Järgmine küsimus on kolleeg Mailis Repsilt haridus- ja teadusminister Jaak Aaviksoole. Palun!</seg>
+        </u>
+        <note type="speaker">Mailis Reps</note>
+        <u who="#m_reps_19750113" xml:id="ParlaMint-EE_2013-10-09_U19" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U19-P1">Lugupeetud haridus- ja teadusminister! Meil on ees järgmise aasta riigieelarve menetlus ja kindlasti iga valdkond saab eraldi tähelepanu osaliseks. Küsin teie käest loomulikult hariduse eelarvest õpetajate palkade maksmise kohta. Seda mitte ainult sellepärast, et see on väga oluline teema, vaid ka sellepärast, et nii peaminister kui teie ministrina olete rõhutanud, et järgmise aasta eelarve üks olulisi eesmärke on õpetajate palku tõsta. Samal ajal on nii, et mitte ainult Riigikogu liikmed, vaid ka avalikkus on Riigikogule üleantud eelarvet uurides näinud, et õpetajate palkadeks on raha veidikene üle 5% rohkem. Kuidas te kavatsete tõsta õpetajate palga 800 euroni, kui tõusuks on tegelikult märksa vähem raha?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U20" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U20-P1">Hea küsija! Loomulikult on eelarve koostamisel haridus prioriteediks olnud, ja seda nii haridusministeeriumis kui ka Vabariigi Valitsuses. Tehtud otsused on võimaldanud tõsta mitte lihtsalt õpetajate palka, nagu te ekslikult arvate – te võiksite siiski teada, et õpetajate miinimumpalk ja reaalne palk on kaks eri asja –, vaid tõsta miinimumpalk 715 eurolt 800 eurole. See on rohkem kui 10%-line kasv, mis on pea kaks korda suurem kui ülejäänud avalikul sektoril ja kui riigis keskmiselt. Eelarvesse on raha selliseks tõusuks planeeritud, lähtudes EHIS-esse kantud õpetajate arvust ning kohalikele omavalitsustele ja teistele koolipidajatele eraldatud summadest.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U21" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U21-P1">Palun, kolleeg Mailis Reps, esimene täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Mailis Reps</note>
+        <u who="#m_reps_19750113" xml:id="ParlaMint-EE_2013-10-09_U22" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U22-P1">Hea minister! Kui me võtame EHIS-es kajastuva õpetajate arvu ja korrutame selle võimaliku uue rahastamismudeliga, mida ministeerium välja töötab, vaatame üle ka õpetajate koormused, siis võib-olla tuleb olemasoleva fondiga välja. Praegu kehtiva rahastamise juures me näeme tõusu 5%. Võib-olla te selgitate avalikkusele, kuidas saab 5%-st veidi üle 11%?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U23" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U23-P1">Hea küsija, mul on väga raske aru saada, mis 5%-st te räägite. Teatavasti kasvatati keskmiselt kõikide valitsemisalade üleselt personalikulusid 5,1%. See ei tähenda kaugeltki seda, et kohalikele omavalitsustele ja teistele koolipidajatele eraldatavad summad kasvavad ka 5,1%. Need kasvavad vastavalt sellele, kui palju on vaja, tagamaks õpetajate miinimumpalka 800 eurot ning keskmist palka vähemalt 960 eurot kuus.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U24" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U24-P1">Palun, kolleeg Mailis Reps, teine täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Mailis Reps</note>
+        <u who="#m_reps_19750113" xml:id="ParlaMint-EE_2013-10-09_U25" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U25-P1">Hea minister! Kindlasti on teil võimalik edaspidigi sellise sisuga artikleid kirjutada ja intervjuusid anda. Meil on aga käes eelarve, kus summad ei ole nii optimistlikud, nagu te püüate meid veenda. Ma küsin nüüd teema kohta, mida praegu kodanikualgatuse koosolekul konverentsisaalis arutatakse, nimelt erivajadustega inimeste hooldamise kohta, aga kindlasti puudutab see laiemalt ka haridussüsteemi ja selle tugiteenuseid. Kas järgmise aasta eelarves on kohalike omavalitsuste koolides ja riigikoolides logopeedile, eripedagoogile, sotsiaalpedagoogile ja koolipsühholoogile maksmiseks raha ette nähtud?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U26" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U26-P1">Hea küsija! Endise haridusministri ja praeguse Riigikogu kultuurikomisjoni liikmena peaksite teadma, et seadusandja niisuguseid eraldisi kahjuks ei ole ette näinud. Ma loodan, et me saame seda arutelu jätkata seadusandluse võtmes. Kui selline ettepanek arutlusele tuleb ja seadus vastu võetakse, siis loomulikult täidesaatev võim vastavad vahendid riigieelarvest eraldab.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U27" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U27-P1">Nüüd kaks kohapeal registreeritud küsimust. Alustab kolleeg Heimar Lenk.</seg>
+        </u>
+        <note type="speaker">Heimar Lenk</note>
+        <u who="#h_lenk_19460917" xml:id="ParlaMint-EE_2013-10-09_U28" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U28-P1">Härra minister! Ma natuke laiendan teemat. Jutt on riigigümnaasiumist, konkreetselt Valga linnast. Teie esindajad eesotsas härra Küttisega käisid seal aasta tagasi järjest iga nädal kiitmas riigigümnaasiumi häid külgi. Kui lõpuks saadi linnavõimudelt nõusolek riigigümnaasium teha, siis tuli välja, et raha ei antagi. Sama juhtus Põlva linnas: kui otsustati, et teeme riigigümnaasiumi, siis tuli välja, et raha ei anta. Küsimus on, millal hakkab riigigümnaasiumi raha tulema. Kas selle aasta eelarvest? Eelarve on nii segaselt kirjutatud, et välja seda ei loe.</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U29" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U29-P1">Hea küsija! Kindlasti on Haridus- ja Teadusministeeriumil kavas need riigigümnaasiumid, mille osas on kohalike omavalitsustega kokkulepe saavutatud, renoveerida ja viia need niisugusse seisukorda, nagu 21. sajandil üks Eesti gümnaasium välja nägema peab, sh Valga linnas. Üksikobjektideni tõepoolest riigieelarve detailsus ei ulatu. Mis puutub Valgasse, Põlvasse ja teistesse kohalikesse omavalitsustesse, kes jäid sellest taotlusvoorust välja, kuna raha sai enne otsa, siis nende koolide renoveerimine on kavas aastatel 2014–2020. See on formaalne vastus, mida ma anda saan. Aga mis puutub minu isiklikku usku selle asja edasisse käekäiku, siis ma usun, et eurooplased saavad oma eelarve vastu võetud ja Eestigi saab tarvilised seadused vastu võetud veel enne järgmist suurt suve. Tõenäoline on ehitust alustada kui mitte 2014. aasta teises pooles, siis 2015. aastal.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U30" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U30-P1">Ja nüüd viimane kohapeal registreeritud küsimus. Palun, kolleeg Jevgeni Ossinovski!</seg>
+        </u>
+        <note type="speaker">Jevgeni Ossinovski</note>
+        <u who="#j_ossinovski_19860315" xml:id="ParlaMint-EE_2013-10-09_U31" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U31-P1">Lugupeetud haridusminister! Te ütlesite, et õpetaja alampalga määral ja tegelikul palgal on vahe, et need on eri asjad. Samas ütlesite ka, et valitsus maksab kohalikele omavalitsustele toetust, et nad saaksid selle alampalga välja maksta. Selles kontekstis on mul küsimus Narva Kreenholmi Gümnaasiumi kohta. Nimelt on selgunud tõsiasi, et selle kooli direktori Gennadi Bõkovi abikaasa, kes samas koolis algklassiõpetajana töötab, saab palka 1928 eurot kuus, samas kui selle kooli õpetajate keskmine palk on alla 800. Kindlasti nõustute, et selline ebavõrdsus tekitab halba tunnet kogu personalis. Kuidas te üldiselt sellesse suhtute, kui alammäära ja tegeliku palga vahed on nii suured? Kas Haridus- ja Teadusministeeriumil on võimalik kuidagi sellesse olukorda sekkuda?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U32" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U32-P1">Hea küsija! Ühest küljest võiks ju rõõmustada, kui Eestis on headele või väga headele õpetajatele võimalik maksta niisugust korralikku palka. Ma väga loodan, et antud juhul ongi tegemist äärmiselt hea pedagoogiga. Tõsiasi on aga see, et palgad kooliti erinevad. On koole, kus palgapoliitika on ühtlustav, kus püütakse maksta kõikidele enam-vähem ühesugust palka, aga on ka koole, kus on kooli pidajaga kokku lepitud palgapoliitika, mis motiveerib rohkem tugevamaid õpetajaid. Tõepoolest on poliitiline küsimus, kas kasutada võrdsustavat või ma ütleksin, kommunistlikku rahastamissüsteemi, või siiski motiveerida tugevamaid õpetajaid veelgi rohkem pingutama ja anda koolile selles osas vabamad käed.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U32-P2">Haridus- ja Teadusministeerium on riigi raha eraldamisel lähtunud põhimõttest, mida ma olen ka siin saalis korduvalt üle kinnitanud: riik arvestab õpetaja ametikoha kohta miinimumpalga pluss 20%, millest on võimalik katta klassijuhatamise tasu ja ka kõrgemaid palku, mis on täiesti iseenesestmõistetavad õpetaja-metoodikutel ja vanemõpetajatel, aga ka teistel silmapaistvatel pedagoogidel vastavalt koolis kehtestatud palgakorraldusele. Kooli palgakorraldus ei ole mitte ainult direktori personaalne suva, vaid päris kindlasti koolisisene kokkulepe ning selle mõistlikkuse, otstarbekuse ja sihipärasuse üle peab järele valvama kooli pidaja. Ma loodan, et tulevane Narva Linnavalitsus suudab selles osas oma ülesandeid paremini täita kui senine.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U33" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U33-P1">Suur tänu, härra minister! Lõpetan selle küsimuse käsitlemise.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U34" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U34-P1">Järgmine küsimus on kolleeg Marianne Mikkolt välisminister Urmas Paetile. Palun!</seg>
+        </u>
+        <note type="speaker">Marianne Mikko</note>
+        <u who="#m_mikko_19610926" xml:id="ParlaMint-EE_2013-10-09_U35" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U35-P1">Kuu aja eest väisas välisminister Paet Moldovat. Moldova Vabariik on Eesti välispoliitiline prioriteet koos Gruusia, Ukraina ja Afganistaniga. Kui meie välispoliitika on väärtuspõhine ja Moldova on prioriteetide hulgas, siis on loogiline, et meie jõud on mobiliseeritud ja käib kibe diplomaatiline töö Chisinaus. Ent Eesti n-ö katab oma prioriteeti Kiievist, mis on sama, kui mõni riik teataks, et Eesti suund on talle tähtis, aga me katame Eestit kas Haagist, Kopenhaagenist või Oslost. Moldova saatkond Tallinnas seevastu on tegutsenud juba viis aastat. Millal avab Eesti oma saatkonna Chisinaus?</seg>
+        </u>
+        <note type="speaker">Urmas Paet</note>
+        <u who="#u_paet_19740420" xml:id="ParlaMint-EE_2013-10-09_U36" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U36-P1">Seni ei ole tehtud otsust, et Eesti avab saatkonna Chisinaus. Vastab tõele, et me n-ö katame Moldovat oma saatkonnast Kiievis. Aga meie diplomaadid sõidavad Kiievist Chisinausse mitu korda kuus. Mis puutub viisade väljastamisse Eestisse reisimiseks, siis selleks on meil osalus Ungari juhitavas viisakeskuses. Meil on kohapeal ka väga aktiivne aukonsul ning väga tihedalt tehakse eri valdkondade esindajate visiite Eestist Moldovasse. See kõik on taustaks, aga otsust avada Moldovas saatkond ei ole me teinud.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U37" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U37-P1">Palun, kolleeg Marianne Mikko, esimene täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Marianne Mikko</note>
+        <u who="#m_mikko_19610926" xml:id="ParlaMint-EE_2013-10-09_U38" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U38-P1">On igati tervitatav, et Eesti püüab toetada Moldovat nii vabakaubanduse kui ka viisavabaduse osas. Välisminister on oma pressiteates märkinud, et Eesti innustab teisi riike Moldovat aitama. Ma küsingi, kuidas nimelt Eesti innustab teisi riike Moldovat aitama. Millised on olnud konkreetsed kahepoolsed kohtumised, kus välisminister on tõstatanud Moldovale nõu andmise teiste Euroopa Liidu riikide poolt?</seg>
+        </u>
+        <note type="speaker">Urmas Paet</note>
+        <u who="#u_paet_19740420" xml:id="ParlaMint-EE_2013-10-09_U39" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U39-P1">Viimased sellised üritused olid ÜRO Peaassamblee nädala raames septembris New Yorgis toimunud euroliidu välisministrite kohtumine ja septembri algul Vilniuses toimunud Euroopa Liidu välisministrite kohtumine. Täna õhtul aga on Riias Baltimaade ja Beneluxi riikide välisministrite kohtumine, kus osaleb ka Moldova välisminister.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U40" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U40-P1">Palun nüüd teine küsimus, kolleeg Marianne Mikko!</seg>
+        </u>
+        <note type="speaker">Marianne Mikko</note>
+        <u who="#m_mikko_19610926" xml:id="ParlaMint-EE_2013-10-09_U41" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U41-P1">Ma püüdsin leida Välisministeeriumi avaldust Eesti välispoliitilise prioriteedi Moldova kohta, milles välisminister on võtnud seisukoha Venemaa kehtestatud Moldova veini embargo kohta. Paraku otsing 'vein, Moldova, embargo, Paet' tulemust ei andnud. Mida arvab Eestisse teid importiv minister Moldovale kehtestatud veiniembargost?</seg>
+        </u>
+        <note type="speaker">Urmas Paet</note>
+        <u who="#u_paet_19740420" xml:id="ParlaMint-EE_2013-10-09_U42" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U42-P1">Ma olen Välisministeeriumi pressiteadete kaudu korduvalt väljendanud selget seisukohta, et idapartnerluse riikidel, teiste hulgas Moldoval peab olema vaba valik oma tuleviku osas. Kolmandate riikide surve, mis Moldova puhul väljendub ka veiniekspordi peatamises Venemaa suunal, ei ole vastuvõetav. Seda olen ma öelnud korduvalt ka avalikult nendesamade ürituste järel, mida ma enne nimetasin.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U43" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U43-P1">Suur tänu, härra minister! Lõpetan selle küsimuse käsitlemise.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U44" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U44-P1">Palun järgmine küsimus kolleeg Jaak Allikult peaminister Andrus Ansipile!</seg>
+        </u>
+        <note type="speaker">Jaak Allik</note>
+        <u who="#j_allik_19461008" xml:id="ParlaMint-EE_2013-10-09_U45" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U45-P1">Lugupeetud härra peaminister! Ajalehtedest võis lugeda, et valitsus kavatseb lammutada Rahandusministeeriumi hoone, mida on 20 aasta jooksul üsna suure raha eest rekonstrueeritud. See tahetakse ehitada uuesti üles ja selle kõrvale veel teine samasugune ning paigutada sinna neli ministeeriumi. Ehitis olevat kavas püstitada kontsessioonilepingu abil erakapitali osalusega, aga nagu Reformierakond on meid õpetanud, tasuta lõunaid pole. Kogu see ehitus tähendab ikkagi aastatepikkust küllalt suurt koormust riigieelarvele. Miks te pole pidanud vajalikuks selle plaani üle nõu pidada Riigikoguga ja saavutada konsensus ka opositsiooniga, kes tõenäoliselt selle eest maksma peab hakkama? 1997. aastal valitsus ju seda tegi, kui kavandati Eesti Kunstimuuseumi ja Eesti Rahva Muuseumi ehitust, mille aluseks oli Riigikogu otsus.</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U46" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U46-P1">Põhimõtteliselt me ju praegu arutame seda küsimust teiega. Teie küsite, mina vastan. Ja minu meelest ei ole see siin mitte esimene kord sel tasemel debatti selle nelja ministeeriumi uue hoone üle pidada. Kui Riigikogu liikmetel, ka teil isiklikult on midagi kaalukat selle hoone kohta öelda, siis ma usun, et need, kes projekti kavandavad, kuulavad teid tänutundega. Aga üldjoontes on tegemist maksumaksja raha kokku hoidva projektiga. Teadupärast saavutataks uues hoones kokkuhoid pindalalt 26%. Praegu kasutavad ministeeriumid osa ruume ilmselgelt liiga vähe, uues hoones saab ruume märksa intensiivsemalt kasutada, kuna osa neist on ühiskasutuses. Nii et on oluline pindala kokkuhoid, aga energiasääst on veel märgatavalt suurem kui kokkuhoid pindalalt. Energiasäästuks on rehkendatud koguni 76%, sest praegune hoone ja energiasääst on antagonistlikud vastandid, neil mitte midagi ühist ei ole. Ka praeguste hoonete remontimine on üks võimalus, kuid ma usun, et see ei ole kõige efektiivsem maksumaksja raha kasutamine. Tuleks kulutada umbes 10 miljonit eurot, ilma et me saavutaksime samasuguse efekti nagu uue hoone ehitamisega.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U47" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U47-P1">Palun, kolleeg Jaak Allik, esimene täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Jaak Allik</note>
+        <u who="#j_allik_19461008" xml:id="ParlaMint-EE_2013-10-09_U48" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U48-P1">Paraku algas see debatt parlamendis küll minu algatusel, mitte valitsuse. Aga hea küll. Ministrid tulevad ja lähevad, kuid ametnikud jäävad. Sääst säästuks, aga kas valitsus on tundnud huvi ka nende inimeste arvamuse vastu, kes sellesse suurde sipelgapessa tööle paigutatakse, kuuldavasti kasutades ka avatud ruumi printsiipi, mis mujal maailmas hakkab juba moest minema?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U49" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U49-P1">Keegi Riigi Kinnisvara Aktsiaseltsist ei kavatse riigi palgal olevatele inimestele töötingimuste osas midagi dikteerida. Ruumide kasutamise kontseptuaalsed lähtekohad on ikkagi olnud ministeeriumide otsustada. Ma küll eeldan, et kui ministrid ja kantslerid on Riigi Kinnisvara AS-ile esitanud ruumide kasutamise kontseptuaalsed lähtetingimused, siis nad on väga tõsiselt kaalunud, kas need lahendused on töö tulemusi silmas pidades ikka kõige paremad. Mul pole mitte mingisugust põhjust arvata, et kontseptsioon, mille alusel uued hooned tahetakse ehitada, ei pea parimaid töötulemusi üldse mitte silmas.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U50" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U50-P1">Palun, kolleeg Jaak Allik, teine täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Jaak Allik</note>
+        <u who="#j_allik_19461008" xml:id="ParlaMint-EE_2013-10-09_U51" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U51-P1">Härra peaminister! Ajaloost on teada, et lahkuvad juhid soovivad tihti oma mälestust jäädvustada kolossaalsete ehitistega, kuid tavaliselt on nendeks olnud templid, raamatukogud või muuseumid. Valitsuspaleede ehitamine oli omane kommunistlikule režiimile ja Tallinna ähvardas selline nn nõukogude maja viimati Stalini käsul 1950. aastate algul. Viimane grandioosne valitsuspalee võeti ette teatavasti Ceausescu suuniste järgi Rumeenias. Kui teie valitsus sellise ajaloolise otsuse tegi, kas oli kaalumisel ka muid alternatiive, olgu või ooperiteatri ehitamine, mille võiks samuti kontsessiooni abil teostada ja mis erinevalt bürokraatiapaleest toodab isegi teatavat omatulu?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U52" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U52-P1">Mind suisa hämmastab teie soov näha igas maksumaksja raha efektiivse kasutamise algatuses midagi pompoosset ja rahvavaenulikku. Nagu juba öeldud, energiasääst saab olema koguni 76%, pindalasääst veerandi ulatuses. Kokku tähendab see esimese kümne aasta jooksul praeguste rehkenduste järgi 9,8 miljonit eurot kokku hoitud maksumaksja raha. Minu meelest on see asi, mille nimel tasub pingutada. Järgmiseks, töötajate töötingimused paranevad märgatavalt. See teie poolt Ceausescu paleega võrreldud praegune Rahandusministeeriumi hoone on ikka hale küll. Teil tasuks seal ära käia ja vaadata ja mõelda, kas peagi 100. sünnipäeva tähistav Eesti Vabariik tõesti peab oma ametnikke sellistes tingimustes tööl hoidma või mitte. Ma arvan, et elementaarsed töötingimused on vajalikud nii Riigikogu liikmetele kui ka kõigile teistele riigieelarvest palka saavatele inimestele täpselt samamoodi nagu erasektoris töötajatele.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U53" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U53-P1">Palun nüüd kaks kohapeal registreeritud küsimust! Alustame kolleeg Lembit Kaljuveest.</seg>
+        </u>
+        <note type="speaker">Lembit Kaljuvee</note>
+        <u who="#l_kaljuvee_19521229" xml:id="ParlaMint-EE_2013-10-09_U54" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U54-P1">Hea peaminister! Minule küll see idee meeldib ja majandusinimesena ma tõesti pooldan seda, nähes selles pikaajalist ja väga vajalikku kokkuhoidu. Mis puutub vanasse hoonesse, siis arhitektuuriliselt see midagi erilist ei ole. Kindlasti on see majanduslikult ennast juba tasa teeninud. Pidades silmas uue hoone n-ö helget tulevikku, tahan küsida, kes selle ideega välja tuli.</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U55" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U55-P1">Ma arvan, et see idee on juba üksjagu vana. See ei ulatu küll tagasi Ceausescu aegadesse, aga nendele aegadele küllalt lähedale. Praegune Rahandusministeeriumi hoone ammendas end küllalt kiiresti ja ma võin kinnitada, et viimased kümme aastat ei ole see üldse olnud see, mis ta olema peaks. Töötingimused on enamikus selle maja kabinettides allpool igasugust arvustust ja ajal, kui me kõik pürgime säästlikuma energiakasutuse poole, Rahandusministeeriumis, kes peaks kõigile olema eeskujuks, energiaga laristatakse. Idee on arenenud pikka aega, konkreetset algust vaevalt et ongi võimalik dateerida. Igal juhul mina selleks võimeline ei ole.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U56" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U56-P1">Nüüd viimane kohapeal registreeritud küsimus. Palun, kolleeg Kajar Lember!</seg>
+        </u>
+        <note type="speaker">Kajar Lember</note>
+        <u who="#k_lember_19760916" xml:id="ParlaMint-EE_2013-10-09_U57" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U57-P1">Hea peaminister! Idee on kindlasti üllas ja eesmärk tundub ka matemaatilises mõttes hea. Aga meedias on väidetud, et Siseministeerium loobus sellest, kuna neil justkui ei ole raha. Kuidas teie seda kommenteerite? Kas Siseministeeriumi inimesed arvutavad kuidagi teistmoodi kulusid-tulusid kui RKAS, kes seda ettevõtmist positiivseks peab?</seg>
+        </u>
+        <note type="speaker">Andrus Ansip</note>
+        <u who="#a_ansip_19561001" xml:id="ParlaMint-EE_2013-10-09_U58" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U58-P1">Spekulatsioonid, et efektiivsuseesmärke ei saavutata, põhinevad suures osas praeguse olukorra valel hindamisel. Teadupärast riigile kuuluva kinnisvara puhul ei rehkendata bilansis amortisatsiooni. Rehkendustes ei arvestata ka tegelikku kulumit, mida erasektoris arvestatakse näiteks rendikulude real. Ma põhimõtteliselt ei pea seda õigeks, aga nii on see väga paljudes riikides ja ka Eesti Vabariigis kogu aeg olnud, et hoone ehitatakse valmis – see kajastub ka Eurostati statistikas – ning kui hoone valmis saab, siis kogu selle maksumus kantakse kuludesse ja edasi rõõmsalt kasutatakse neid ruume järgmised 30 või ka 50 aastat ilma amortisatsiooni rehkendamata. Siis korraga tõuseb suur hädakisa, väidetakse, et maja kukub kokku, sooja üldse ei pea, töötingimused on ebainimlikud, on vaja uut suurt investeeringut. Ja tehakse jälle üks uus suur investeering, mis on ühekordne kulu.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U58-P2">Mul oleks väga hea meel, kui ükskord ka meie riigis oleks võimalik rehkendada hoonete tegelikku kulumit iga-aastaselt. Nii oleks raamatupidamine märksa konservatiivsem ning jooksvatest kuludest-tuludest oleks hoopis parem ülevaade ka maksumaksjal. Küllap me ükskord selleni jõuame. Riigi Kinnisvara AS on igatahes selles suunas väga-väga suure sammu edasi astunud.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U59" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U59-P1">Suur tänu, härra peaminister! Lõpetan ka selle küsimuse käsitlemise.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U60" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U60-P1">Järgmine küsimus on kolleeg Tarmo Tammelt haridus- ja teadusminister Jaak Aaviksoole. Palun!</seg>
+        </u>
+        <note type="speaker">Tarmo Tamm</note>
+        <u who="#t_tamm_19531203" xml:id="ParlaMint-EE_2013-10-09_U61" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U61-P1">Lugupeetud minister! Te juba andsite väikese ülevaate, kuidas riigigümnaasiumide ehitamisega edasi minnakse. Aga minu küsimus on konkreetne. Eelmises taotlusvoorus oli esimene, kes välja jäi, Põlva linn. Kas vana pingerida säilib ja millal saab Põlva linn tegelikult riigigümnaasiumi ehitama hakata?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U62" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U62-P1">Hea küsija! Formaalses mõttes see pingerida säilida ei saa. Seda põhjusel, et Euroopa Liidu raha kasutamiseks tuleb välja töötada uued reeglid ja nende reeglite korral ei saa kindlasti formaalselt üle võtta varasemate dokumentide alusel koostatud pingeridasid. Aga sisulises mõttes see pingerida kindlasti säilib. Päris kindlasti võetakse Põlva ja Valga gümnaasiumihoone esmajärjekorras renoveerimisele, et need koolid riigigümnaasiumidena käivitada. Ma ei kujuta ette, mis võiks seda järjekorda oluliselt muuta. Haridusministeerium soovib Euroopa Liidu raha n-ö käibesse võtta nii ruttu kui võimalik. Siin mingeid viivitusi kavandatud ei ole. Ning see ei ole ainult ministeeriumi huvi, kogu Eesti majanduse ja eriti ehitussektori seisukohast on kiire edasiliikumine Euroopa Liidu investeeringutoetuse kasutamisel mõistlik lahendus. Enne ma nimetasin optimistlikult aastat 2015 ja usutavasti ei pea ma oma sõnu sööma ka Põlva puhul, mitte ainult Valga puhul.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U63" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U63-P1">Palun, kolleeg Tarmo Tamm, esimene täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Tarmo Tamm</note>
+        <u who="#t_tamm_19531203" xml:id="ParlaMint-EE_2013-10-09_U64" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U64-P1">Härra minister! Ma küsin, kas praeguse perioodi raha on kõik otsas ja kas sinna ei mahu veel ühte kooli.</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U65" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U65-P1">Päris nii öelda ei saa, et kogu raha on ära kulutatud. Aga niisuguse meetme tarvis, nagu on gümnaasiumivõrgu rekonstrueerimine, vajalikus mahus vahendeid ei ole võimalik ette näha või, ütleme, et see tõenäosus on peaaegu olematu. Projektid, mis raha said, on kõik käivitunud ja väga suure tõenäosusega viiakse ettenähtud aja jooksul lõpuni. Nii et ma kahjuks ei näe võimalust mingite erakorraliste asjaolude taustal midagi varem ette võtta.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U65-P2">Tahan aga kasutada võimalust, et kommenteerida seisu, kus me praegu oleme. Valga ja Põlva valmisolek riigigümnaasiumi rajamiseks maakonnas on saavutatud. Küll mitte kiiresti, aga kohalike omavalitsustega läbirääkimiste tulemusena oleme jõudnud olukorrani, kus riigigümnaasiumide idee kui niisugune levib üsna kiiresti ja kogub toetust. Sel sügisel uues hoones alustanud riigigümnaasiumid Viljandis, Jõgeval ja Haapsalus on kindlasti heaks eeskujuks. Mul ei ole ühtegi põhjust arvata, et praegu juba ehitatavad või renoveeritavad hooned sinna lisa ei anna. Nii et ma usun, et vaadates seda protsessi laiemalt, tuleb tõdeda, et riigigümnaasiumide asutamine on olnud mõistlik otsus. See on olnud mõistlik ilmselt ka selles mõttes, et seda ei tehtud mitte seaduse jõuga ja käsu korras, vaid pärast läbirääkimisi kohalike omavalitsustega. Veel kord: need, kes lootsid võib-olla kiiremini lahenduse saada, peavad ühe aasta või kaks aastat ootama, aga lahenduse need probleemid kindlasti leiavad.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U66" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U66-P1">Palun, kolleeg Tarmo Tamm, teine täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Tarmo Tamm</note>
+        <u who="#t_tamm_19531203" xml:id="ParlaMint-EE_2013-10-09_U67" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U67-P1">Lugupeetud minister! Kas riigigümnaasiumide ehitamisega ei satu omavalitsused väga ebavõrdsesse olukorda? Munitsipaalgümnaasium ei suuda rahaliselt riigigümnaasiumiga võistelda. Kas te näete selles probleemi?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U68" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U68-P1">Ma arvan, et gümnaasiumide omavaheline võistlemine on hea juhul, kui see toimub õiglastel ja võrdsetel alustel ning kontsentreerub eelkõige hariduse kvaliteedile. Te küsite, kas munitsipaalgümnaasiumid saavad ja võivad konkureerida riigigümnaasiumidega. Ma arvan, et nii ja naa. On kindlasti piirkondi, kus riigigümnaasiumi kõrval munitsipaalgümnaasiumide elus hoidmine ei ole otstarbekas, aga kindlasti on suuremaid linnu, kus see mitte ainult ei ole otstarbekas, vaid ka soovitatav. Kuidas see kõik kujuneb, selles me saame selguse lähemate aastate jooksul. Nagu ma ütlesin, mul on hea meel, et me valisime niisuguse evolutsioonilise tee. Seetõttu ei tehta midagi käsu korras ja sujuv üleminek annab meile võimaluse jooksvalt kohendada seda, mis kohendamist vajab. Kui munitsipaalgümnaasiumi on vaja, aga selle arendamisel on objektiivseid takistusi, siis kindlasti on võimalik konstruktiivselt läbi rääkida, muutes vajaduse korral seadusi või suunates sinna investeeringuid. Praegu ma ei leia, et põhimõtteliselt oleks põhjust muretseda. Enamik küsimusi on siiani läbirääkimiste teel lahenduse leidnud ja ma usun, et leiavad ka tulevikus.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U69" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U69-P1">Palun nüüd kaks kohapeal registreeritud küsimust! Alustame kolleeg Jaak Allikust.</seg>
+        </u>
+        <note type="speaker">Jaak Allik</note>
+        <u who="#j_allik_19461008" xml:id="ParlaMint-EE_2013-10-09_U70" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U70-P1">Lugupeetud haridus- ja teadusminister! Ma jätkan Mailis Repsi tõstatatud teemat, aga riigigümnaasiumide osas. Teatavasti meile esitatud riigieelarve projektis on riigigümnaasiumide toetust ette nähtud suurendada 8,6%, samal ajal lisanduvad sinna potti järgmisel aastal kaks riigigümnaasiumi: Jõgeva ja Haapsalu omad. Järelikult on kasv veelgi väiksem. Millise nõksuga siis riigigümnaasiumid saavad tagada selle 11,2%-se palgatõusu, mida alampalga tõus 715 eurolt 800 eurole peaks tähendama?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U71" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U71-P1">Hea küsija! Vastus koosneb kahest poolest. Esiteks ma natuke selgitan, kuidasmoodi asutuste kulud kokku liidetakse. Nimelt, lisaks töötasule on tegevuskulude hulka arvestatud ka muud kulud ja tuleb kahetsusega nentida, et õpetajate keskmine palk Eesti riigis moodustab ainult 40% õppeasutuste kuludest. See on üks põhjus, miks Eestis on õpetajate palgad madalad. Koolipidajad ei ole suutnud kärpida muid kulusid ja suurendada õpetajate palka, nagu seda on tehtud teistes arenenud riikides. Ma usun, et Haridus- ja Teadusministeeriumi jõupingutused aitavad seda disproportsiooni vähendada, kasvatades eelistatult õpetajate palka. Sellepärast ongi nii, et kui üldsumma kasvab 8,6%, siis ei ütle see midagi täpset õpetajate palgafondi kasvu kohta, mida riigieelarves eraldi välja toodud ei ole.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U71-P2">Lisaks sellele on riigieelarves ette nähtud summad, mida eelarve menetluse käigus saab veel täiendavalt õpetajate palkadeks suunata. See sõltub natukene sellest, mismoodi kulgevad läbirääkimised kohalike omavalitsuste toetusfondi ja selle raha laialijagamise üle, ja natukene sellest, kas Riigikogu toetab ettepanekuid, millega Haridus- ja Teadusministeerium lubas PGS-i menetlemise käigus Riigikogusse sel sügisel tagasi tulla. Nii et on veel lahtisi otsi, aga järelejäänud aja jooksul saavad kõik probleemid usutavasti ühel või teisel viisil lahenduse. Ma veel kord kinnitan: miinimumpalk pluss 20% ehk 960 eurot õpetaja ametikoha kohta on garanteeritud.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U72" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U72-P1">Palun viimane kohapeal registreeritud küsimus, kolleeg Mailis Reps!</seg>
+        </u>
+        <note type="speaker">Mailis Reps</note>
+        <u who="#m_reps_19750113" xml:id="ParlaMint-EE_2013-10-09_U73" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U73-P1">Kui garanteeritud see on, me näeme üsna varsti. 1. jaanuarist märtsini läheb aeg suhteliselt kiiresti ja märtsiks on kõik palgad välja makstud. Eelmise aasta kogemus oli see, et päris nii ilus see lugu ei olnud, nagu te räägite. Aga mis puutub gümnaasiumihariduse reformi, siis võime meenutada enam kui kümme aastat tagasi teoks tehtud kutsehariduse reformi, kui lisaks kutsekoolide ehitamisele, sulgemisele ja koondumisele räägiti ka muudest küsimustest: transpordist, ühiselamutest ja õppetoetustest. Nüüdseks juurdunud kutsehariduse õppetoetuste süsteem pidi kunagi ühe arengukava järgi jõudma ka gümnaasiumidesse, kui gümnaasiumid on maakonnakeskustesse koondunud. Kas teil on endiselt selline plaan?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U74" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U74-P1">Hea küsija! Olen ka ise seda meelt, et keskharidust peaks käsitlema palju ühtsematel alustel kui seni. Mina sellest kunagisest plaanist ei tea suurt midagi, kuulsin sellest teie käest esimest korda, ent kui see on omal ajal läbi töötatud, siis tasub seda kaaluda.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U74-P2">Kasutan aga mulle vastamiseks antud aega natuke ka selleks, et kutsuda teid üles mõtlema teistelegi erisustele, mis kutsekoolide ja gümnaasiumide vahel on. Näiteks kestab kutseõppeasutustes õppeaasta 40 nädalat, gümnaasiumides 35 nädalat. Siis veel ühiselamukohad, millele te viitasite. Mis puutub transporti, siis see on juba üsna ühtsetel alustel lahendatud või lahendamisel. Iga aasta vaadatakse maakondlikud liinid üle, arvestades ka haridusvõrgus toimunud muutusi. Me ei ole seda meelt, et Eesti-suguses riigis on mõistlik juurutada eraldi õpilastransport, analüüside põhjal ei ole see otstarbekas.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U74-P3">Tulles ringiga tagasi õppetoetuste juurde, kordan, nagu ma ka alguses ütlesin, et seda tasuks kaaluda. Olen veendunud, et eelkõige peaks toetused olema suunatud vajaduspõhiselt nendele peredele ja nendele noortele, kellel tõepoolest abi vaja on. Nii et see teema ei ole kaugemas perspektiivis päevakorralt maas. Aga 2014. aasta eelarves seda ei ole. Lähitulevikus kahjuks need erisused kutseõppeasutuste ja gümnaasiumide vahel jäävad.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U75" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U75-P1">Suur tänu, härra minister! Lõpetan selle küsimuse käsitlemise.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U76" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U76-P1">Järgmine küsimus on kolleeg Helmen Kütilt haridus- ja teadusminister Jaak Aaviksoole. Palun!</seg>
+        </u>
+        <note type="speaker">Helmen Kütt</note>
+        <u who="#h_kütt_19610728" xml:id="ParlaMint-EE_2013-10-09_U77" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U77-P1">Lugupeetud haridus- ja teadusminister! Kutsehariduse nn baaspearaha igapäevaseks koolitöö korraldamiseks ei kata tegelikult õppekavast tulenevaid kulutusi. Kas järgmisel aastal on plaanis baaspearaha suurendada ja kas arvestatakse ka sellega, et kutsehariduse andmine on märksa kulukam kui üldkeskhariduse andmine?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U78" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U78-P1">Tõsi ta on, et kutsehariduse andmine on arusaadavatel põhjustel kulukam kui üldhariduse andmine. Aga siin saalis tasuks mõelda ka sellele, miks nad Eestis praegu enam-vähem sama palju raha nõuavad. Sellele on hästi lihtne selgitus. Kutsehariduses me oleme koolivõrgu õppekavade reformi läbi viinud ja jõudnud teisele ringile, mis kontsentreerub eelkõige suuremale efektiivsusele ja õppekavade suunamisele vastavalt tööturu vajadustele. Raha kokkuhoid, mis saavutati kutseõppeasutuste võrgu reorganiseerimisega, ulatus 30–40%-ni ja see on umbes sama suur sääst, mis on võimalik saada üldharidusvõrgu mõistlikuma korraldamisega – nii võrgu mõistlikuma korraldamisega kui ka asutusesiseste kulude mõistlikuma planeerimisega. On tõsi, et kutseõppes sisemisi reserve enam ei ole. Samas pean tunnistama, et kahetsusväärselt me ei ole suutnud üldhariduses efektiivsust samamoodi kasvatada nagu kutsehariduses. Nii oleme sunnitud katma üldhariduse suuri kulusid ja see paraku pidurdab kutsekoolide rahastamise kasvu. Teie tähelepanujuhtimine on igati asjakohane ja me oleme püüdnud sellest prioriteedist kinni hoida. Kindlasti tõusevad ka kutseõppeasutuste õpetajate palgad vähemalt sama palju kui üldhariduskoolides, selleks on raha olemas. Aga see, et me jõuame lõpuks mõistlike proportsioonideni – hinnanguliselt 30–40% kallim õppenädal ühe õpilase kohta kutsehariduses –, võtab ilmselt aega sama kaua, kui võtavad aega struktuurireformid.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U79" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U79-P1">Palun, kolleeg Helmen Kütt, esimene täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Helmen Kütt</note>
+        <u who="#h_kütt_19610728" xml:id="ParlaMint-EE_2013-10-09_U80" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U80-P1">Suur tänu, lugupeetud haridus- ja teadusminister, selle vastuse eest! Ma saan aru, et põhimõtteliselt järgmisel eelarveaastal baaspearaha ei kasva, aga õpetajate palgad siiski tõusevad. Aga kas teie meelest on kutsehariduses õppijate ja kõrghariduses õppijate suhe optimaalne ja tööturu vajadustele vastav?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U81" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U81-P1">Hea küsija! Sellele küsimusele vastamiseks läheks aega vähemasti pool tundi, aga kahe minutiga võin öelda, et ei vasta. Ei vasta! Me vajame märksa rohkem praktilisema suunitlusega õpetajaid kõikides õppeasutustes. See oleks kõige lühem vastus, mis ma oskan anda. Olen üsna veendunud, et ka kõrgharidussüsteem on sellest aru saanud ja pöörab senisest palju rohkem tähelepanu tööturule orienteeritud väljundite arendamisele, olgu tegu bakalaureuseõppe, rakenduskõrghariduse või mõne muu tähtsa õppega. Veel lisan siia, et teatavasti võttis Riigikogu hiljuti vastu uue kutseõppeasutuse seaduse. Selle seadusega me sisuliselt taastasime Eestis tehnikumihariduse. Tehnikumid, kus valmistati ette keskastme juhte erinevatel tehnilistel ja mitte ainult tehnilistel erialadel, olid väga hinnatud koolid, mille mõju kestab praegugi. 1990. aastatel me kergitasime kõik tehnikumid kõrgkoolideks. Mõned nendest kõrgkoolidest on endale veel pikemad tiivad kasvatanud ja nimetavad ennast akadeemiateks, aga vajadus kesktaseme juhtide, kesktaseme tehnikute järele ei ole kuskile kadunud ning mul on hea meel, et me selle sammu suutsime astuda. Loodetavasti täidame selle otsuse ka mõistliku sisuga.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U82" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U82-P1">Palun, kolleeg Helmen Kütt, teine täpsustav küsimus!</seg>
+        </u>
+        <note type="speaker">Helmen Kütt</note>
+        <u who="#h_kütt_19610728" xml:id="ParlaMint-EE_2013-10-09_U83" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U83-P1">Minu viimane küsimus on Euroopa Liidu vahendite kohta, mis eraldatakse perioodiks 2014–2020. Tõepoolest, kutseharidusse on palju investeeritud, täiustades selle materiaal-tehnilist baasi ja hooneid ning arendades kõike muudki. Kas on ka aastail 2014–2020 Euroopa Liidu rahaga võimalik seda jätkata? Tõepoolest, kutseharidus on äärmiselt oluline võimalus nendele noortele, kes pärast põhihariduse omandamist ei ole võimelised gümnaasiumi minema, rääkimata kõrgkoolist.</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U84" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U84-P1">Aitäh küsimast! Telliseid ja betooni on meil juba piisavalt, vähemasti kutsehariduses. Peaaegu sama võib väita kõrghariduse kohta. Ka teaduse infrastruktuur on saanud suuri investeeringuid. Me oleme poolel teel üldhariduses ja eriti hariduslike erivajadustega lastele mõeldud koolivõrgu korrastamisega. Omal ajal tehti selle võrgu strateegilisel planeerimisel ilmselt vigu. Seepärast ei ole eelseisva perioodi prioriteet kutsehariduses investeerida hoonetesse ja rajatistesse, aga kutseharidusega kaudsemalt seotud nn pehmete tegevuste huvides tuleb raha eraldada palju rohkem kui seni. Mõtlen kõike seda, mis toimub kutseõppeasutuste ja esimese või teise töökoha vahepeal, samuti inimesi, kes ühel või teisel põhjusel ei ole omandanud kvalifikatsiooni, mis võimaldaks üha moodsamaks kujunevas majanduses rakendust leida. Nii et püüame arendada pehmeid meetmeid, eelkõige tugevalt tööturule orienteeritud meetmeid.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U85" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U85-P1">Nüüd on võimalus esitada kohapeal registreeritud küsimusi. Palun, kolleeg Mailis Reps!</seg>
+        </u>
+        <note type="speaker">Mailis Reps</note>
+        <u who="#m_reps_19750113" xml:id="ParlaMint-EE_2013-10-09_U86" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U86-P1">Lugupeetud minister! Kindlasti on kutsehariduses olnud raskemaid ja kergemaid aegu. Kui meenutada, siis lausa kaks aastat kestis üks periood, kui meie üldhariduse ja kutsehariduse kulude suhe oli üle 1,3, aga siis tuli kriisiaeg, mil kärbiti igalt poolt ja ka kutseharidus jäi loomulikult jänni ning baasmaksumust pidi kokku tõmbama. Esitan teile küsimuse järgmise aasta eelarve valguses. Millisena te näete kutsehariduses järgmist aastat? Kas see eelarve suudab vastata nii erinevatele väljakutsetele, nagu need on uue seadusega esitatud, alates üsna raskete erivajadustega laste õpetamisest ning lõpetades rakendusliku kõrghariduse tasemel haridusega? Kas eelarves on piisavalt raha, et kõikidele väljakutsetele vastata?</seg>
+        </u>
+        <note type="speaker">Jaak Aaviksoo</note>
+        <u who="#j_aaviksoo_19540111" xml:id="ParlaMint-EE_2013-10-09_U87" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U87-P1">On ja ei ole. Mulle teeb muret, et paljud kutseõppeasutused, selle asemel et pühendada põhitähelepanu kutseõppe andmisele teisel, kolmandal, neljandal ja viiendal tasemel, püüavad saada kõrgkoolideks. Ma ei usu, et see lahendaks mingeidki strateegilisi probleeme koolide endi või tööturu seisukohalt. Natukene võib kritiseerida ka seda, et meil on praegugi kutseõppeasutustes liiga palju dubleerimist. Õppekavade arv ühe kooli kohta on natukene liiga suur ja seetõttu on vahendid, millesse on investeeritud, alakasutatud. Need ei ole piisavat arvu tunde õpilaste ja õpetajate käsutuses. Meil on seega teatud piirini ka sisemisi reserve ning mõistlik vahendite koondamine ja prioriteetide seadmine on ka kutseõppeasutustes vajalik.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U87-P2">Aga veel kord, kui lähiaastatel – ja ma pean siin silmas ka juba 2014. aastat, kui jutt on eelkõige struktuurifondide rahast – on haridusvaldkonnas ette näha proportsioonide muutumist, siis kindlasti peaks see väljenduma ka selles, et kutsehariduse osakaal ehk kutsehariduse tordilõik oleks suurem kui seni. See on üsna konsensuslik arusaam ja selle poole me püüame liikuda. Aga tähelepanu juhtimine ressursside piiratusele on asjakohane, vahendeid on kindlasti juurde vaja.</seg>
+        </u>
+        <note type="speaker">Ene Ergma</note>
+        <u who="#e_ergma_19440229" xml:id="ParlaMint-EE_2013-10-09_U88" ana="#chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U88-P1">Suur tänu, härra minister! Lõpetan selle küsimuse käsitlemise. Meie infotunni aeg saab kohe läbi. Head kolleegid, palju tänu küsimuste esitamise eest! Suur tänu valitsusliikmetele küsimustele vastamise eest! Infotund on lõppenud.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U89" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P1">Austatud Riigikogu, tere päevast! Alustame Riigikogu täiskogu VI istungjärgu neljanda töönädala kolmapäevast istungit. Kõigepealt on võimalik üle anda eelnõusid ja arupärimisi. Eelnõusid ja arupärimisi üle anda ei soovita.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P2">Läheme teadete juurde. Riigikogu juhatus on võtnud menetlusse järgmised eelnõud ja määranud neile juhtivkomisjonid: esiteks, Vabariigi Valitsuse s. a 7. oktoobril algatatud ühistranspordiseaduse muutmise seaduse eelnõu, juhtivkomisjon – majanduskomisjon; teiseks, Vabariigi Valitsuse s. a 7. oktoobril algatatud väärteomenetluse seadustiku eelnõu, juhtivkomisjon – õiguskomisjon; kolmandaks, Vabariigi Valitsuse s. a 7. oktoobril algatatud investeerimisfondide seaduse ja kogumispensionide seaduse muutmise seaduse eelnõu, juhtivkomisjon – rahanduskomisjon.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P3">Riigikogu esimees on edastanud Riigikogu liikmete arupärimise rahandusminister Jürgen Ligile.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P4">Head kolleegid, teeme kohaloleku kontrolli.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P5">Kohalolijaks on registreerunud 74 Riigikogu liiget, puudub 27.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P6">Täpsustan ka päevakorda. Tänase esimese päevakorrapunkti juures, milleks on Vabariigi Valitsuse algatatud vedelkütusevaru seaduse muutmise seaduse eelnõu 472 esimene lugemine, teeb majandus- ja kommunikatsiooniminister Juhan Partsi asemel eelnõu algataja nimel ettekande kaitseminister Urmas Reinsalu.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P7">Ja veel on teatada, et tänase kolmanda päevakorrapunkti juures, milleks on Vabariigi Valitsuse algatatud vanemahüvitise seaduse muutmise seaduse eelnõu 470 esimene lugemine, teeb sotsiaalkomisjoni esimehe Margus Tsahkna asemel juhtivkomisjoni nimel ettekande sotsiaalkomisjoni liige Maret Maripuu.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U89-P8">Nüüd läheme päevakorra juurde.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U90" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U90-P1">Esimene päevakorrapunkt on Vabariigi Valitsuse algatatud vedelkütusevaru seaduse muutmise seaduse eelnõu 472 esimene lugemine. Palun ettekandeks kõnetooli kaitseminister Urmas Reinsalu!</seg>
+        </u>
+        <note type="speaker">Urmas Reinsalu</note>
+        <u who="#u_reinsalu_19750622" xml:id="ParlaMint-EE_2013-10-09_U91" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U91-P1">Austatud istungi juhataja! Austatud parlamendiliikmed! Valitsus on esitanud parlamendile arutamiseks vedelkütusevaru seaduse muutmise seaduse eelnõu, mille eesmärk on üks: viia Eestis kehtiv vedelkütusevaru seadus kooskõlla Euroopa Liidu direktiiviga 2009. aastast, millega kohustatakse liikmesriike säilitama toornafta ja/või naftatoodete miinimumvarusid. Meil kehtiv vedelkütusevaru seadus on kooskõlas nõukogu direktiiviga 2006. aastast, kuid Euroopa Ülemkogu suuniste alusel on Euroopa Liit vastu võtnud uue direktiivi, mis peaks parandama euroliidu varustuskindlust nii liidus tervikuna kui liikmesriikides.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U91-P2">See eelnõu ei too kaasa lisakulusid riigieelarvele. Need riigid, kes ei ole Rahvusvahelise Energiaagentuuri liikmed, on iseenesest kohustatud selle direktiivi täies mahus üle võtma 31. detsembriks 2014. aastal. Eesti peab praegu läbirääkimisi, et Rahvusvahelise Energiaagentuuri liikmeks saada. Seetõttu on otstarbekas viia meie riigi õigus venituseta 2009. aasta direktiiviga kooskõlla. Selle direktiivi implementeerimisega meie õigusesse muid küsimusi, mis on seotud vedelkütusevaru, muu hulgas varumakse haldusmenetluse teemaga, ei reguleerita. Valitsus on seisukohal, et selle eelnõu seaduseks saamisel teostub ainuüksi direktiivi ülevõtmine. Muud küsimused, mis vedelkütusevarusse sisuliselt puutuvad, tulevad lahendamisele teistes eelnõudes. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U92" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U92-P1">Suur tänu! Teile on küsimus. Palun, Lembit Kaljuvee!</seg>
+        </u>
+        <note type="speaker">Lembit Kaljuvee</note>
+        <u who="#l_kaljuvee_19521229" xml:id="ParlaMint-EE_2013-10-09_U93" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U93-P1">Hea minister, eile kahjuks komisjonis ...</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U94" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U94-P1">Vabandust korraks! Saal on natukene liiga lärmakas, me ei kuule küsimust. Palun!</seg>
+        </u>
+        <note type="speaker">Lembit Kaljuvee</note>
+        <u who="#l_kaljuvee_19521229" xml:id="ParlaMint-EE_2013-10-09_U95" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U95-P1">Eile komisjonis kahjuks minister kiirustas minema ja ma ei saanud seda küsimust talle esitada. Kuidas ikkagi on? 90 päeva asemel peab nüüd 60 päeva varu olema ja te ütlesite, et eelarvele see lisakulu ei too. Tegelikult peaks kulud vähenema, kui 90 päeva varu asemel on ainult 60 päeva varu. Kui suur see summa on? Kas te oskate öelda, palju me siis kokkuhoidu saame? Või on see lihtsalt teoreetiline hüpotees ja tegelikult varud ei vähene?</seg>
+        </u>
+        <note type="speaker">Urmas Reinsalu</note>
+        <u who="#u_reinsalu_19750622" xml:id="ParlaMint-EE_2013-10-09_U96" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U96-P1">Valitsuse seisukoht, mis on väljendatud ka seletuskirjas, on, et seaduse rakendamine ei nõua täiendavaid riigieelarvelisi kulutusi, samuti ei prognoosita tulusid. Õige on, et direktiiv kohustab liikmesriiki hoidma varu pidevalt nii suure, et see vastab vähemalt 90 päeva varudele keskmise päevase puhasimpordi alusel või vähemalt 61 päeva varudele keskmise päevase sisetarbimise alusel, olenevalt sellest, kumb kogus on suurem. See metoodika on ära toodud direktiivi lisades. Sellest lähtuvalt on valitsus seisukohal, et täiendavaid tulusid ega kulusid juurde ei tule.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U97" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U97-P1">Aitäh! Palun, Mihhail Stalnuhhin!</seg>
+        </u>
+        <note type="speaker">Mihhail Stalnuhhin</note>
+        <u who="#m_stalnuhhin_19610915" xml:id="ParlaMint-EE_2013-10-09_U98" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U98-P1">Lugupeetud ettekandja! See varu võib olla teise liikmesriigi kontrolli all kuskil tema territooriumil, nagu ma aru saan. Kas on ka selliseid pretsedente, et mingit liiki varu pole mitte Eesti territooriumil, vaid väljaspool meie riiki?</seg>
+        </u>
+        <note type="speaker">Urmas Reinsalu</note>
+        <u who="#u_reinsalu_19750622" xml:id="ParlaMint-EE_2013-10-09_U99" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U99-P1">Vedelkütusevaru tsentraalse hoidmise haldamisega tegeleb Eesti Vedelkütusevaru Agentuur, kes tegutseb aktsiaseltsina. Kogu selle agentuuri tegevus lähtub euroliidu 2006. aasta direktiivi alusel vastu võetud vedelkütusevaru seadusest. Nende konkreetsete tootekategooriate kohta, mida peab varuna hoidma, ja selle kohta, kus neid varusid säilitatakse, saab eelnõu menetluse käigus anda täpsemaid seletusi, kaasates vedelkütusevaru agentuuri töötajaid.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U100" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U100-P1">Suur tänu! Palun, Mihhail Stalnuhhin, teine küsimus!</seg>
+        </u>
+        <note type="speaker">Mihhail Stalnuhhin</note>
+        <u who="#m_stalnuhhin_19610915" xml:id="ParlaMint-EE_2013-10-09_U101" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U101-P1">Lugupeetud ettekandja! Mul oli üsna konkreetne küsimus. Kui te ei oska sellele vastata, siis võiksite öelda, et loovutate selle au komisjoni esindajale, milleks siin ette lugeda mingeid pealkirju. Kas Eestil on praegu olemas mingi strateegiline varu mõne teise liikmesriigi territooriumil või ei ole? See on lihtne küsimus ja vastus võiks ka lihtne olla.</seg>
+        </u>
+        <note type="speaker">Urmas Reinsalu</note>
+        <u who="#u_reinsalu_19750622" xml:id="ParlaMint-EE_2013-10-09_U102" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U102-P1">Nendele küsimustele, mis puudutasid varude asumist teistes liikmesriikides, ma vastasin väga lühidalt: selgitusi varude praeguse olemi kohta suudavad arutelu käigus anda vedelkütusevaru agentuuri esindajad.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U103" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U103-P1">Palun, Valeri Korb!</seg>
+        </u>
+        <note type="speaker">Valeri Korb</note>
+        <u who="#v_korb_19540703" xml:id="ParlaMint-EE_2013-10-09_U104" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U104-P1">Lugupeetud härra minister! Siin lipsas läbi sõna 'biokütus'. Kui palju on biokütust vaja varuda, et oleks selle seadusega kooskõlas?</seg>
+        </u>
+        <note type="speaker">Urmas Reinsalu</note>
+        <u who="#u_reinsalu_19750622" xml:id="ParlaMint-EE_2013-10-09_U105" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U105-P1">Kohustuslike koguste arvutamise metoodika on kirjas direktiivis. Mis puutub asjaomastesse mahtudesse, sellesse, kui suured varud on vaja tagada 2009. aasta direktiivi järgi, siis ütleks nõnda, et eelnõu järgi võetakse varude rehkendamisel arvesse kogu kütusekogus, olenemata sellest, kas see sisaldab ka näiteks standardiga lubatud 7% biokütust. Kütust, mis on 100% puhas biokütus ning mida ei ole kavas kasutada transpordis, arvesse ei võeta. See on sätestatud §-s 3.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U106" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U106-P1">Ettekandjale rohkem küsimusi ei ole. Suur tänu, minister Urmas Reinsalu! Kaasettekandeks palun kõnetooli majanduskomisjoni liikme Olga Sõtniku!</seg>
+        </u>
+        <note type="speaker">Olga Sõtnik</note>
+        <u who="#o_sõtnik_19801202" xml:id="ParlaMint-EE_2013-10-09_U107" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U107-P1">Lugupeetud proua juhataja! Head kolleegid! See seaduseelnõu oli majanduskomisjonis arutusel eile ehk 8. oktoobril. Seda tutvustasid majandus- ja kommunikatsiooniminister Juhan Parts, ministeeriumi energeetika osakonna ekspert Rein Vaks ja AS-i Eesti Vedelkütusevaru Agentuur juhatuse liige Priit Enok. Kutsutud külalised andsid ülevaate eelnõust ja selgitasid, miks on see vajalik. Üldiselt komisjoni liikmetel erilisi küsimusi ei olnud. Komisjon otsustas konsensusega teha ettepaneku esimene lugemine tänasel istungil lõpetada ja määrata muudatusettepanekute tähtajaks 14. oktoober 2013 kell 17. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U108" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U108-P1">Aitäh! Palun, Enn Eesmaa!</seg>
+        </u>
+        <note type="speaker">Enn Eesmaa</note>
+        <u who="#e_eesmaa_19460607" xml:id="ParlaMint-EE_2013-10-09_U109" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U109-P1">Austatud ettekandja! Minister jäi pisut hätta ühele küsimusele vastamisega. Ennevanasti oli osa meie kütusevarust Rootsi hoidlates. Kas praegu on olukord samasugune või kas komisjoni liikmetel on täpsemalt teada, kus seda varu hoitakse?</seg>
+        </u>
+        <note type="speaker">Olga Sõtnik</note>
+        <u who="#o_sõtnik_19801202" xml:id="ParlaMint-EE_2013-10-09_U110" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U110-P1">Seda me komisjoni istungil ei arutanud, küll aga arutasime töörühmas, kui eelnõu ette valmistasime. Tõepoolest, osa meie varust asub väljaspool Eestit: seda hoitakse Rootsis, Taanis ja ka Soomes, kui ma ei eksi. Üldiselt seis, kus meie varud asuvad, muutub pidevalt, sest kogu aeg tehakse uusi hankeid. See info on olemas Eesti Vedelkütusevaru Agentuuri koduleheküljel, sealt saab täpsemalt teada, mis kus asub.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U111" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U111-P1">Aitäh! Palun, Mati Raidma!</seg>
+        </u>
+        <note type="speaker">Mati Raidma</note>
+        <u who="#m_raidma_19650407" xml:id="ParlaMint-EE_2013-10-09_U112" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U112-P1">Lihtsalt tehniline täpsustus. Te tegite eile komisjonis otsuse. Kas te tegite eile ka otsuse suunata see eelnõu esimesele lugemisele täna, aga juba üleeile sattus see punkt nädala päevakavva?</seg>
+        </u>
+        <note type="speaker">Olga Sõtnik</note>
+        <u who="#o_sõtnik_19801202" xml:id="ParlaMint-EE_2013-10-09_U113" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U113-P1">Tänan küsimuse eest! See otsus oli tehtud juba eelmisel nädalal.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U114" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U114-P1">Rohkem küsimusi ei ole. Aitäh Olga Sõtnikule! Kas soovitakse avada läbirääkimisi? Kõnesoove ei ole, läbirääkimisi ei avata. Juhtivkomisjoni ettepanek on eelnõu 472 esimene lugemine lõpetada. Esimene lugemine on lõppenud. Määran eelnõu 472 muudatusettepanekute esitamise tähtajaks s. a 14. oktoobri kell 17.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U115" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U115-P1">Meie teine päevakorrapunkt on Vabariigi Valitsuse algatatud tervishoiuteenuste korraldamise seaduse muutmise seaduse eelnõu 465 esimene lugemine. Ettekandeks palun kõnetooli sotsiaalminister Taavi Rõivase!</seg>
+        </u>
+        <note type="speaker">Taavi Rõivas</note>
+        <u who="#t_rõivas_19790926" xml:id="ParlaMint-EE_2013-10-09_U116" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U116-P1">Austatud juhataja! Lugupeetud Riigikogu liikmed! Tutvustan teile tervishoiuteenuste korraldamise seaduse muutmise seaduse eelnõu, mille põhieesmärk on luua õiguslik alus, et teha senisest paremaid tervisepoliitika juhtimiseks vajaminevaid ülevaateid, analüüse ja tervisestatistikat. Selleks soovime kasutusele võtta tervise infosüsteemis olevad andmed. Samuti aitaks see seadus senisest paremini täita rahvusvaheliselt võetud kohustusi andmete esitamisel. Tervise infosüsteemi loomisel nähti ette, et sealseid andmeid kasutatakse muu hulgas ka tervishoiu juhtimiseks, kuid praktikas on see alles üks esimesi samme selles suunas.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U116-P2">Eelnõuga antakse Sotsiaalministeeriumi terviseinfo ja analüüsi osakonna ametnikele ning Tervise Arengu Instituudi tervisestatistika osakonna tervisestatistikat tegevatele töötajatele juurdepääs tervise infosüsteemis olevatele isikuandmetele. Nendele antavate andmete hulgas ei ole isikute nimesid, isikukoode ega sünniaegasid, see info automaatselt kodeeritakse. Nii ministeeriumi ametnikud kui ka Tervise Arengu Instituudi töötajad näevad vaid isikukoodile vastavat juhuarvu ning isiku vanust vastaval ajahetkel. Eesti E-tervise Sihtasutusel, kes on tervise infosüsteemi volitatud töötleja, on ainsana ligipääs isikute kodeerimistabelile. Ligipääs kodeerimistabelile registreeritakse ja sinna pääseb turvajuhi loa alusel ning ainult konkreetsete probleemide lahendamiseks. Samuti rakendatakse Sotsiaalministeeriumi ja TAI töökohtadel andmete kaitseks vajalikke turbe- ja konfidentsiaalsuse nõudeid.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U116-P3">Kui eelnõus pakutavad muudatused ellu viiakse, muutub meie tervisestatistika kvaliteetsemaks, andmete kogumine hakkab olema kiirem, detailsem ja paindlikum ning suureneb pakutavate näitajate hulk. Samuti saab Eesti täita rahvusvaheliste organisatsioonide ees võetud kohustusi andmete esitamisel. Kaugemas tulevikus väheneb tervishoiuteenuste osutajate halduskoormus, kuna välditakse riigipoolset andmete topeltkogumist. Palun seda eelnõu toetada! Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U117" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U117-P1">Suur tänu! Kas ettekandjale on küsimusi? Küsimusi ei ole. Palju tänu, minister Taavi Rõivas! Kaasettekandjaks palun kõnetooli sotsiaalkomisjoni liikme Maret Maripuu!</seg>
+        </u>
+        <note type="speaker">Maret Maripuu</note>
+        <u who="#m_maripuu_19740716" xml:id="ParlaMint-EE_2013-10-09_U118" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U118-P1">Austatud istungi juhataja! Head kolleegid! Sotsiaalkomisjon arutas tervishoiuteenuste korraldamise seaduse muutmise seaduse eelnõu oma istungil 16. septembril. Istungil osalesid Sotsiaalministeeriumi õigusnõunik Kersti Berendsen-Koržets ning terviseinfo ja analüüsi osakonna vanemanalüütik Kristina Köhler. Eelnõu tutvustas Kersti Berendsen-Koržets.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U118-P2">Minister juba andis väga hea ülevaate eelnõust ning seda ma ei korda, vaid mõne sõnaga küsimustest, mis komisjonis tõusetusid. Seaduse jõustumise ajaks on pakutud 1. jaanuar 2014. Tunti huvi, kas see on ka IT-lahenduste seisukohalt realistlik aeg ja mis on see motiiv, et tervishoiuteenuse osutajad hakkaksid andmeid uues infosüsteemis edastama. Ministeeriumi esindaja selgitas, et plaanis on hakata järk-järgult loobuma mitmesugustest sotsiaalministri tervisestatistika määruse alusel esitatavatest aruannetest. Kui teenuse osutajad esitavad andmeid tervise infosüsteemis, siis me ei nõua enam ministri määruse alusel andmete andmist ning see vähendab tervishoiuteenuste osutajate halduskoormust.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U118-P3">Tõusetus ka küsimus, kui turvaline uus infosüsteem on. Ministeeriumi esindaja selgitas, et isikuandmete konfidentsiaalsuse nõuete tagamiseks on Sotsiaalministeeriumi terviseinfo ja analüüsi osakonna ametnikel ametijuhendis nõue hoida teenistusülesannete täitmisega seoses teatavaks saanud isikuandmete ning juurdepääsupiiranguga teabe kohta käivat informatsiooni konfidentsiaalsena. Samasugune nõue on Tervise Arengu Instituudi tervisestatistika osakonna töötajate töölepingutes. Samuti on oluline, millised inimesed on valitud seda tööd tegema.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U118-P4">Komisjon tegi järgmised konsensuslikud otsused: teha ettepanek saata eelnõu täiskogu istungi päevakorda 9. oktoobriks, teha ettepanek esimene lugemine lõpetada ja määrata muudatusettepanekute esitamise tähtajaks Riigikogu kodu- ja töökorra seaduses sätestatud kümme tööpäeva ning määrata ettekandjaks Maret Maripuu. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U119" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U119-P1">Suur tänu! Palun, Mihhail Stalnuhhin, teie küsimus!</seg>
+        </u>
+        <note type="speaker">Mihhail Stalnuhhin</note>
+        <u who="#m_stalnuhhin_19610915" xml:id="ParlaMint-EE_2013-10-09_U120" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U120-P1">Lugupeetud ettekandja! Kui tegemist on andmetega, mida on vaja tervishoiuteenuste paremaks korraldamiseks, siis on arusaadav üks või teine või kolmas punkt siin § 593 lõikes 51, aga andmed patsiendi isiku kohta – kas need tõesti peavad seal olema? Me iga aasta kuuleme, kuidas imbuvad isikuandmed välja kord politseist, kord kuskilt ministeeriumist ja alati on see väga ebameeldiv. Kas seda arutati, kas ikka kõike, mis siin loetelus on, on vaja töötlemiseks anda?</seg>
+        </u>
+        <note type="speaker">Maret Maripuu</note>
+        <u who="#m_maripuu_19740716" xml:id="ParlaMint-EE_2013-10-09_U121" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U121-P1">Komisjon seda otseselt ei arutanud, aga andmetöötlusse minevaid andmeid ei ole võimalik n-ö isikuti tuvastada. Küll aga on oluline, kui vana on inimene, tema pikkus jms. See on analüüside seisukohalt vajalik.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U122" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U122-P1">Kas on veel küsimusi? Rohkem küsimusi ei ole. Suur tänu, Maret Maripuu! Kas soovitakse avada läbirääkimisi? Läbirääkimisi avada ei soovita. Juhtivkomisjoni ettepanek on eelnõu 465 esimene lugemine lõpetada. Esimene lugemine on lõppenud. Määran eelnõu 465 muudatusettepanekute esitamise tähtajaks s. a 23. oktoobri kell 17.15.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U123" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U123-P1">Meie tänane kolmas päevakorrapunkt on Vabariigi Valitsuse algatatud vanemahüvitise seaduse muutmise seaduse eelnõu 470 esimene lugemine. Palun ettekandeks kõnetooli sotsiaalminister Taavi Rõivase!</seg>
+        </u>
+        <note type="speaker">Taavi Rõivas</note>
+        <u who="#t_rõivas_19790926" xml:id="ParlaMint-EE_2013-10-09_U124" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P1">Austatud Riigikogu juhataja! Lugupeetud Riigikogu liikmed! Tutvustan teile vanemahüvitise seaduse muutmise seaduse eelnõu nr 470. Järgmise aasta jaanuaris on vanemahüvitis Eestis kehtinud täpselt kümme aastat. Ma usun, et te nõustute minuga, kui ma ütlen, et see hüvitis on toiminud väga hästi. See on algusest peale suurendanud noorte perede kindlustunnet sel ajal, mil peredel kindlustunnet kõige rohkem vaja on, ehk siis, kui vanemad väikese lapsega kodus olles töölt eemal viibivad.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P2">Niisama kaua, kui on Eestis kehtinud vanemahüvitis, on kehtinud ka põhimõte, et isa või ema võib lapse tõttu kas osa- või täisajaga kodus olles selle kõrvalt tööd teha. Me teame, et on lisandunud kõikvõimalikke paindlikke töövorme ja teatud ametikohtadel on võimalik töötada ka kodust lahkumata. Sellisel puhul rakendub üks valem, mis alguses töötas väga hästi, aga kuna kümne aastaga on summad kiiresti kasvanud, ei ole ta enam andnud selliseid tulemusi, mis oleksid kõikidel juhtudel loogilised. Nimelt on juhtunud ka seda (mitte küll väga sageli, aga siiski 77 juhul), et kui lapsevanem tööle läks, siis vähendati vanemahüvitise summat sedavõrd palju, et töötasu ja vanemahüvitis kokku olid väiksemad kui tööleminekueelne vanemahüvitis. Ma usun, et te mõistate, et tegemist ei ole mõistliku olukorraga. Sellele on tähelepanu juhtinud ka õiguskantsler, kelle hinnangul on selline olukord põhiseadusvastane.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P3">Valitsuse hinnangul ei ole loogiline ka see olukord, kus inimene läheb lapsega kodusoleku kõrvalt kas või väga väikese koormusega tööle, aga ei teeni selle eest mitte ühtegi eurot juurde. Õigemini, palka ta küll teenib, aga tema hüvitist vähendatakse kogu juurdeteenitud palga ulatuses. Ka selliseid olukordi on praktikas tekkinud, mitte ka väga palju, aga iga selline juhtum väärib tähelepanu.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P4">Seetõttu oleme valmis saanud uue valemi. Selle seadusmuudatusega, mida ma palun teil toetada, tagatakse vanemahüvitise saajatele töötamise korral alati suurem kogusissetulek kui vanemahüvitis ehk vanemahüvitis ja tulu kokku on alati suurem summa kui lihtsalt vanemahüvitis. Samas tuleb muidugi arvestada, et kui inimene töötab ja on samal ajal lapsega kodus, siis sajaprotsendilist hüvitist saab ta ainult üksikutel juhtudel, siis, kui ta teenib alla riigi alampalga.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P5">Eelnõuga ei muudeta olulisel määral vanemahüvitise maksmise ega määramise põhimõtteid. Ma toon välja mõne põhilise asja, mida selle seadusmuudatusega pakutakse. Uus valem toetab kõige rohkem sellist varianti, kui pere soovib oma elu korraldada nii, et vanemahüvitise saamise ajal käib ka hüvitist saav vanem osaajaga tööl. Teiseks, kehtiv vanemahüvitise valem, nagu ma ütlesin, ei ole mitte ainult põhiseadusega teatud väikeses aspektis vastuolus, vaid ta on ka väga ebaühtlane. Ta võib anda tulemuse, kus hüvitise saaja kogusissetulek töötasu saamise korral teatud juhtudel kas väheneb või ei suurene üldse, kuigi inimene on vahepeal tööl käinud või kodus tööd teinud. Muudatused tagavad, et vanemahüvitise saajal säilib alati vähemalt hüvitise määra suurune vanemahüvitis. Hüvitise määr on teadupärast see alampiir, mis on tagatud kõigile vanemahüvitise saajatele, ka neile, kes enne lapsega koju jäämist tööl ei käinud. Tüüpiline näide on tudengid, aga ka koduperenaised, kellel enne ei olnud sotsiaalmaksuga maksustatavat sissetulekut. See hüvitise määr on eelmise aasta töötasu alammäär ehk järgmise aasta algusest on vanemahüvitise määr 320 eurot.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P6">Kui pereliige, olgu ta siis ema või isa, läheb vanemahüvitise saamise ajal tööle, siis uue valemi järgi ei saa vanemahüvitist vähendada alla hüvitise määra. See puudutab otseselt näiteks neid, kes olid enne lapse saamist tudengid. Samuti ei tohi hüvitis väheneda rohkem kui poole määratud hüvitise võrra. Näiteks jääb alla kahekordse määra suuruse hüvitise korral minimaalseks vähendatud hüvitiseks hüvitise määr. Kehtiva regulatsiooni kohaselt vanemahüvitist ei maksta, kui vanem teenib hüvitisega samal ajal enam kui viiekordset hüvitise määra ehk rohkem kui 1450 eurot kuus. Ka see toob valemisse väga tugeva jõnksu. Uus korraldus kaotab ka selle piiri ära ja kehtima jääb põhimõte, et vanemahüvitist ei vähendata, kui tulu saadakse hüvitise määra ulatuses ehk kuni 320 eurot kuus. See on mõeldav näiteks sellisel puhul, kui töötatakse tõesti väga väikese koormusega. Samuti jääb tulu alla hüvitise määra kuus nendel vanematel – see on täiesti praktiline kaasus –, kes kirjutavad võib-olla mõne artikli ja saavad selle eest honorari, mis on sotsiaalmaksuga maksustatav. Ma usun, et olete nõus, et sellisel puhul ei peaks selle ema või isa vanemahüvitist vähendama.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U124-P7">Võrreldes kehtiva seadusega suurenevad riigieelarve kulutused vanemahüvitisele hinnanguliselt 299 000 euro võrra aastas, see summa moodustab ligikaudu 0,19% vanemahüvitise kuludest. Loomulikult kaetakse need vanemahüvitise eelarvest. Sotsiaalmaksuga maksustatava tulu saamise soodustamine avaldab mõju ka riigieelarve tuludele, sest laekub rohkem tulu- ja sotsiaalmaksu. Seadus on planeeritud jõustuma järgmise aasta 1. jaanuarist. See tagab ka selle, et meil on võimalik IT-lahendused õigel ajal valmis saada. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U125" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U125-P1">Suur tänu! Kas ettekandjale on küsimusi? Küsimusi ei ole. Ma palun kaasettekandeks kõnetooli sotsiaalkomisjoni liikme Maret Maripuu!</seg>
+        </u>
+        <note type="speaker">Maret Maripuu</note>
+        <u who="#m_maripuu_19740716" xml:id="ParlaMint-EE_2013-10-09_U126" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U126-P1">Austatud istungi juhataja! Head kolleegid! Riigikogu sotsiaalkomisjon arutas vanemahüvitise seaduse muutmise seaduse eelnõu 470 s. a 19. septembril ja 7. oktoobril. Ülevaate vanemahüvitise seaduse muutmise seaduse eelnõust tegi sotsiaalminister Taavi Rõivas. Nagu ta siin mainis, on seaduseelnõu eesmärk lahendada vanemahüvitise ümberarvutamisel tekkinud probleeme, kui hüvitise saaja saab samal ajal töist tulu. Eelnõuga kaotatakse töötasu ülempiir, mille saamisest alates vanemahüvitist ei maksta. Vanemahüvitise saajale säilib alati vähemalt hüvitise määra suurune vanemahüvitis.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U126-P2">Komisjoni liikmetele andis selgitusi ja vastas küsimustele Sotsiaalministeeriumi hüvitiste ja toetuste poliitika juht Katre Pall. Komisjonis arutleti selle üle, kas vanemahüvitist ei peaks rakendama paindlikult, kuid leiti, et selle teema juurde tullakse tagasi siis, kui hakatakse arutama sotsiaaldemokraatide eelnõu, mille nad selle teema kohta esitanud on.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U126-P3">Komisjon tegi järgmised otsused: saata eelnõu täiskogu päevakorda 9. oktoobriks (otsus tehti konsensusega), teha ettepanek esimene lugemine lõpetada (poolt oli 5 komisjoni liiget ja vastu 1, ka erapooletuks jäi 1) ja määrata muudatusettepanekute esitamise tähtajaks 23. oktoober kell 17.15 (otsus tehti konsensusega). Esialgu otsustati määrata komisjoni kaasettekandjaks komisjoni esimees Margus Tsahkna, kuid see otsus vaadati 7. oktoobril üle ja konsensusega otsustati määrata kaasettekandjaks Maret Maripuu. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U127" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U127-P1">Suur tänu! Kas ettekandjale on küsimusi? Küsimusi ei ole. Kas soovitakse läbirääkimisi pidada? Kõnesoove ei ole. Juhtivkomisjoni ettepanek on, et eelnõu 470 esimene lugemine tuleks lõpetada.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U127-P2">Esimene lugemine on lõpetatud. Määran eelnõu 470 muudatusettepanekute esitamise tähtajaks s. a 23. oktoobri kell 17.15.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U128" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U128-P1">Meie tänane neljas päevakorrapunkt on Vabariigi Valitsuse algatatud vandetõlgi seaduse eelnõu 460 esimene lugemine. Ma palun ettekandeks kõnetooli justiitsminister Hanno Pevkuri!</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U129" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U129-P1">Austatud istungi juhataja! Head Riigikogu liikmed! Nagu ikka, on ka praegu tegemist väga hea eelnõuga, mis väärib kindlasti Riigikogu toetust. Vabariigi Valitsus on toonud teie ette eelnõu, millega soovime korrastada vandetõlgi kutsetegevust puudutavaid sätteid ning luua selge ja ajakohase regulatsiooni. Eelnõu eesmärk on tagada kvaliteetne ja usaldusväärne dokumentide tõlkimise teenus Eestis ning aidata kaasa Eesti dokumentide probleemideta tunnustamisele välisriikides.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U129-P2">Lubage mul peatuda eelnõus pakutud olulisematel muudatustel. Eelnõu kaotab vandetõlgi õigusliku seisundi ebaselguse ja määratleb vandetõlgi avalik-õigusliku ameti kandja asemel vaba elukutse esindajana, nagu seda on kohtutäiturid, notarid või advokaadid. Eelnõu kohaselt on vandetõlk isik, kes osutab kutsetegevusena dokumentide tõlkimise teenust ja seaduses sätestatud juhtudel täidab muid tõlkimisega seotud ülesandeid. Samuti muudetakse eelnõuga oluliselt vandetõlgi tasu ja vastutuse põhimõtteid ning kaotatakse vandetõlgi tegutsemisvormi piirangud. Eelnõu asendab vandetõlgi tasu tõlke õigsuse kinnitamise eest kokkuleppelise tasuga. Kuna tasu hakatakse maksma teenuse eest, siis saab vandetõlk nagu ka teised ettevõtjad valida edaspidi teenuse osutamiseks sobivaima tegutsemisvormi. Riigivastutuse seadusel põhinev vastutus asendatakse eraõigusliku vastutusega.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U129-P3">Lisaks eelnevale täpsustatakse eelnõuga vandetõlgi eksamit, atesteerimist ja järelevalvet puudutavaid sätteid ning vandetõlgi kutse andmise, kutsetegevuse peatamise ja kutse äravõtmise aluseid. Samuti luuakse regulatsioon, et välisriigis vandetõlgi kutse omandanud isikutel oleks Eestis võimalik välisriigi kutsekvalifikatsiooni tunnustamise seaduse alusel vandetõlgina tegutseda. Uuendatakse tõlgete kinnitamise süsteemi. Kehtiva seaduse järgi peavad vandetõlgid ka iseenda tõlke õigsust kinnitama. Eelnõu kohaselt see nõue kaotatakse ja enda tehtud tõlkega tagab vandetõlk ka tõlke õigsuse. Muudatus seisneb seega uues vormistamise korras ja mõiste 'vandetõlgi kinnitatud tõlge' asendamises mõistega 'vandetõlgi tõlge'. Lisaks äsja mainitud muudatustele kaotatakse eelnõuga tõlgete kinnitamine notari poolt ehk kaob tõlkija allkirja õigsuse kinnitamine ja tõlke õigsuse kinnitamine ametiteenuse vormis. Kõiki dokumente, mille tõlge peab välisriigi või Eesti õigusakti kohaselt olema ametlik või kinnitatud, tõlgivad Eestis edaspidi üksnes vandetõlgid. Isikule jääb võimalus lasta oma dokumendid tõlkida ka välisriigis vastava pädevusega ametiisikul.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U129-P4">Vabariigi Valitsus toetab kindlasti õiguskomisjoni ettepanekuid eelnõu edasise menetlemise kohta, et eelnõu esimene lugemine lõpetataks ja eelnõu lõpuks seadusena vastu võetaks. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U130" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U130-P1">Suur tänu! Palun, Valeri Korb, teie küsimus!</seg>
+        </u>
+        <note type="speaker">Valeri Korb</note>
+        <u who="#v_korb_19540703" xml:id="ParlaMint-EE_2013-10-09_U131" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U131-P1">Aitäh! Lugupeetud härra minister! Huvi pärast küsin, kui paljud inimesed võivad ennast vandetõlgiks nimetada.</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U132" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U132-P1">Aitäh! Eestis ei saa keegi ise ennast vandetõlgiks nimetada, vandetõlgid nimetab ametisse justiitsminister. Ma kohe vaatan, kas me kirjutasime ka vandetõlkide arvu seletuskirja. Seletuskirjas seda vist ei ole, aga meil on praegu 30 vandetõlki, kes seda teenust pakuvad. See peaks olema täiesti piisav. Aastas teevad vandetõlgid umbes 10 000 tõlget.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U133" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U133-P1">Aitäh! Palun, Väino Linde!</seg>
+        </u>
+        <note type="speaker">Väino Linde</note>
+        <u who="#v_linde_19590131" xml:id="ParlaMint-EE_2013-10-09_U134" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U134-P1">Aitäh, hea istungi juhataja! Hea minister! Sellest küll täna veidi juttu oli, aga ma siiski küsin. Praegu on olemas kehtiv vandetõlgi seadus. Millised on eelnõu ja kehtiva seaduse olulised erinevused ning mis muutub eelnõu tõttu sellel isikul, kes näiteks vandetõlgiteenust tellima peaks?</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U135" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U135-P1">Aitäh! Seda saab kindlasti stenogrammist üle lugeda, aga ma püüan selle kokku võtta. Esiteks, vandetõlk on edaspidi samasugune vaba elukutse esindaja, nagu on notarid, advokaadid või kohtutäiturid. Teiseks, inimestele on kindlasti oluline, et enam ei pea käima notari juures tõlget topelt kinnitamas. Kui vandetõlk on ühe tõlke teinud ja kirjutanud sinna peale, et see on vandetõlgi tõlge, siis n-ö lisakinnitust pole enam vaja. Inimesel läheb elu selgemaks ja lihtsamaks.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U136" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U136-P1">Palun, Väino Linde, teine küsimus!</seg>
+        </u>
+        <note type="speaker">Väino Linde</note>
+        <u who="#v_linde_19590131" xml:id="ParlaMint-EE_2013-10-09_U137" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U137-P1">Aitäh! Kui ma juba sõna sain, siis küsin veel. Eelnõu seletuskirja leheküljel 2 on punkt 1.3 'Märkused': 'Eelnõu vastuvõtmiseks Riigikogus on vajalik poolthäälte enamus. ' Ma saan aru, et see tähendab seda, et kui näiteks 7 Riigikogu liiget on poolt, 5 vastu ja ülejäänud erapooletud, siis see eelnõu võiks olla seadusena vastu võetud. Aga kui ma vaatan eelnõu ennast, siis näiteks leheküljel 8 on § 33 'Halduskohtumenetluse seadustiku muutmine' ja § 39 'Kohtute seaduse muutmine'. Senine arusaam on selline, et kui mingi eelnõu muudab ka mõne kohtumenetluse seaduse sätteid, siis nõuab selle eelnõu seadusena vastuvõtmine märksa enam hääli kui poolthäälteenamus, see peaks nõudma kvalifitseeritud häälteenamust. Kas ma olen õigesti aru saanud?</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U138" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U138-P1">Aitäh väga asjakohase küsimuse eest! Ma usun, et me peame selle komisjonis üle vaatama. Me oleme küll praegu aru saanud nii, et nende muudatuste tegemiseks piisab poolthäälteenamusest, aga kui on vaja koosseisu häälteenamust, siis kindlasti vaadatakse komisjonis see väike detail üle.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U139" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U139-P1">Suur tänu! Rohkem küsimusi ei ole. Ma palun kaasettekandeks kõnetooli õiguskomisjoni liikme Kalle Jentsi!</seg>
+        </u>
+        <note type="speaker">Kalle Jents</note>
+        <u who="#k_jents_19570622" xml:id="ParlaMint-EE_2013-10-09_U140" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U140-P1">Lugupeetud istungi juhataja! Head kolleegid! Õiguskomisjon arutas seda eelnõu esmaspäeval, 23. septembril. Komisjoni koosolekul osalesid justiitsminister Hanno Pevkur ja tema nõunikud ning muidugi õiguskomisjoni liikmed. Minister selgitas arusaadavalt, nagu ta tegi ka täna siin suures saalis, selle eelnõu kõige olulisemaid põhimõtteid. Diskussiooni tulemusel tegi komisjon konsensuslikult järgmised otsused: saata eelnõu täiskogu päevakorda 9. oktoobriks ning teha ettepanek esimene lugemine lõpetada ja määrata muudatusettepanekute esitamise tähtajaks 23. oktoober kell 17.15.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U140-P2">Komisjon ei olnud nii tähelepanelik nagu kolleeg Väino Linde põhiseaduskomisjonist. Me saame selle informatsiooni põhjal esimese ja teise lugemise vahel kindlasti üle vaadata, missugune häälteenamus selle eelnõu seadusena vastuvõtmisel peab olema. Nii et aitäh kolleegile!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U141" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U141-P1">Suur tänu! Kas ettekandjale on küsimusi? Küsimusi ei ole. Kas soovitakse läbirääkimisi pidada? Kõnesoove ei ole. Juhtivkomisjoni ettepanek on, et eelnõu 460 esimene lugemine tuleks lõpetada.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U141-P2">Esimene lugemine on lõpetatud. Määran eelnõu 460 muudatusettepanekute esitamise tähtajaks s. a 23. oktoobri kell 17.15.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U142" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U142-P1">Me läheme tänase viienda päevakorrapunkti juurde. Algab Vabariigi Valitsuse algatatud karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seaduse eelnõu 468 esimene lugemine. Ma palun ettekandeks kõnetooli justiitsminister Hanno Pevkuri!</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U143" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P1">Austatud istungi juhataja! Head Riigikogu liikmed! Kahe järgmise eelnõuga muudame karistusseadustikku. Eelnõu 468 on kindlasti väga hea eelnõu, sest see aitab meil praegusega võrreldes tõhusamalt kuritegevusega võidelda.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P2">Alustan eelnõu eesmärkidest. Eelnõul on kolm eesmärki. Esiteks teeme ettepaneku muuta karistusseadustiku laiendatud konfiskeerimise kohaldamist puudutavaid sätteid, teiseks soovime laiendada võimalust kohaldada vangistuse asemel sõltuvusravi ja kolmandaks on meie soov täpsustada karistusjärgse käitumiskontrolli kohaldamise regulatsiooni. Nüüd räägin nendest kolmest põhimõttest täpsemalt.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P3">Laiendatud konfiskeerimise regulatsioon on Eestis kehtinud kuus aastat ning selle aja jooksul on tekkinud mõned praktilised probleemid. Praktikutega arutades ongi tekkinud ettepanek leevendada laiendatud konfiskeerimise kohaldamise eeldusi, et need oleksid vastavuses vajadustega. Esiteks ei ole rakendunud laiendatud konfiskeerimise regulatsioon, mille eeltingimuseks on seatud kolmeaastase vangistuse mõistmise nõue. See on laiendatud konfiskeerimise kohaldamise eeldusena liiga range. Teiseks on probleeme kolmanda isiku omandisse antud vara konfiskeerimisega, kuna kolmandalt isikult vara konfiskeerimiseks ettenähtud aeg on praktikas liiga lühikeseks osutunud. Seetõttu ongi ettepanek kohaldada edaspidi laiendatud konfiskeerimist ka juhul, kui isikule on laiendatud konfiskeerimist võimaldavasse n-ö kuritegude kataloogi kuuluvas kuriteos süüdimõistmise korral mõistetud vähemalt üheaastane vangistus senise üle kolmeaastase vangistuse asemel. See puudutab eelkõige organiseeritud kuritegevust, näiteks narko- ja inimkaubandust, samuti riigivastaseid, ameti- või majandusalaseid kuritegusid. See omakorda peaks kaasa tooma kriminaaltulu laialdasema konfiskeerimise ja raskendama ebaseadusliku päritoluga raha legaliseerimist. Muudatused peaksid andma õigusrikkujatele väga selge signaali, et kuritegude toimepanemise abil rikastumist ei aktsepteerita. Ebaseaduslikult saadud vara kantimine lähedastele peaks muutuma senisest raskemaks ja keerulisem peaks olema ka ebaseadusliku päritoluga vara legaliseerida seadusliku ja ebaseadusliku vara segamise teel.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P4">Seaduse teine eesmärk on efektiivistada narkomaania sõltuvusravi regulatsiooni. Võimalus asendada vangistus narkomaania sõltuvusraviga on Eesti õiguskorras kehtinud kaks aastat. Selle aja jooksul on selgunud, et sõltuvusravi eeltingimused on liiga jäigad ja seetõttu ei ole olnud paljudel juhtudel võimalik sõltuvusravi reaalselt kohaldada. Edaspidi on ettepaneku kohaselt narkomaania sõltuvusravi kohaldamise eeltingimus see, et isikut ei ole varem vangistusega karistatud.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P5">Seaduse kolmas eesmärk on täpsustada karistusjärgse käitumiskontrolli kohaldamise regulatsiooni. Eelnõuga antakse kohtule suurem diskretsioonivabadus karistusjärgse käitumiskontrolli rakendamise otsustamisel. Kuna karistusjärgne käitumiskontroll kujutab endast mitme olulise põhiõiguse riivet, tuleb riigil tagada, et seda meetodit ei kohaldataks kergekäeliselt.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P6">Lisaks ütlen, et kriminaalmenetluse seadustiku muutmisega võimaldatakse konfiskeerimise, konfiskeerimise asendamise, tsiviilhagi või varalise karistuse tagamiseks kasutada vara arestimise kõrval ka muid hagi tagamise abinõusid.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P7">Kolme üldisemat eesmärki lahti seletades tuleks kavandatavad muudatused täpsemalt üle käia. Püüan seda teha.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P8">Esiteks, nagu ma ütlesin, leevendatakse laiendatud konfiskeerimise kohaldamise eeldusi. Kui kehtiva õiguse kohaselt on laiendatud konfiskeerimist võimalik kohaldada ainult juhul, kui isikule on karistusena mõistetud rohkem kui kolmeaastane vangistus, siis edaspidi piisaks vähemalt üheaastase vangistuse mõistmisest.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P9">Teine muudatus puudutas segapäritoluga vara konfiskeerimist. Kehtiva õiguse kohaselt ei konfiskeerita vara, kui isik tõendab, et see on omandatud õiguspäraselt saadud vahendite abil. Tulevikus ei räägitaks enam omandamise faktist, vaid vara eest tasumisest. Vara ei konfiskeeritaks, kui isik tõendab, et ta on selle eest tasunud täielikult või olulises osas õiguspäraselt saadud vahenditega.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P10">Kolmas muudatus võimaldab kohaldada laiendatud konfiskeerimist ka juriidilise isiku varale. Kehtiva õiguse kohaselt saab juriidiliselt isikult konfiskeerida otseselt kuriteoga saadud vara või kolmandale isikule kuuluv vara.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P11">Neljanda muudatusega seotakse kolmandalt isikult konfiskeerimise ajalised piirid loogiliselt kuritegude aegumise tähtaegadega. Ajaline raamistik sõltub sellest, millise raskusastmega kuriteo menetlemisel laiendatud konfiskeerimist kohaldatakse. Nii ei saaks edaspidi kohaldada laiendatud konfiskeerimist kolmanda isiku varale, mis on omandatud varem kui kümme aastat enne esimese astme kuriteo toimepanemist. Teise astme kuriteo puhul jääb tähtaeg endiselt viie aasta peale.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P12">Viienda muudatusega suurendatakse kohtu otsustuspädevust. See tähendab, et kohus saab igal konkreetsel juhul otsustada, kas laiendatud konfiskeerimist kohaldada või mitte. Seejuures peab kohus hindama asjaolusid, mis annavad alust arvata, et isiku tegelik elatustase või elustandard ei ole vastavuses tema legaalsete sissetulekutega, või on toimepandud kuriteo või varasemate kuritegude olemus selline, mis võimaldab saada varalist kasu. Seega peab kohus konkreetsel juhul esinevatest asjaoludest lähtuvalt ise hindama, kas esineb vajadus kohaldada laiendatud konfiskeerimist või mitte. Samas on ka edaspidi iga juhtumi puhul kohustuslik konfiskeerida otseselt kuriteo abil saadud vara.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P13">Kuuendana toon esile, et edaspidi saab sõltumata varasemast karistusest narkomaania sõltuvusravi kohaldada kõigile kuuekuulise kuni kaheaastase vangistusega karistatud süüdimõistetuile, kes on toime pannud kuriteo narkomaania tõttu ja vajaksid narkomaaniaravi. Muudatus võimaldab sõltuvusravi rakendada tunduvalt laiemalt, mis omakorda aitab loodetavasti kaasa sõltuvusprobleemidega kurjategijate ümberkasvamisele ning kuritegevuse vähenemisele. Senine praktika on näidanud, et valdav osa kuriteo toimepanemise eest kohtu all olnud ning sõltuvusravi vajavateks kvalifitseerunud uimastisõltlastest pole soovinud vangistust asendada sõltuvusraviga. Seda eeskätt põhjusel, et süüdimõistetud ei ole niisuguses faasis veel olnud sõltuvusraviks motiveeritud ja ka tegelik vanglakogemus on neil puudunud.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P14">Seitsmendana toon välja karistusjärgset käitumiskontrolli puudutava muudatuse. Edaspidi on seaduses sõnaselgelt öeldud, et karistusjärgse käitumiskontrolli kohaldamine on kohtuniku diskretsiooniotsus. Samuti on kohtunikul seaduse järgi kohustus hinnata tagajärgi, mida toob süüdimõistetule kaasa karistuse järel käitumiskontrolli kohaldamine.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P15">Viimase olulise muudatusena toon esile, et kriminaalmenetluse seadustikku muudetakse selliselt, et vara arestimise kõrval oleks võimalik kohaldada teisi hagi tagamise vahendeid. Igasugune põhiõiguste piirang peab olema proportsionaalne. Seetõttu ei ole vara arestimine alati kõige sobivam meede, sageli piisaks leebemate meetmete kohaldamisest, näiteks kohtuliku hüpoteegi seadmisest.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U143-P16">Seega olen peamisi muudatusi teile tutvustanud. Valitsuse esindajana toetan õiguskomisjoni otsust eelnõu esimene lugemine lõpetada ja eelnõu menetlemisega edasi liikuda. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U144" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U144-P1">Suur tänu! Kas ettekandjale on küsimusi? Küsimusi ei ole. Ma palun kaasettekandeks kõnetooli õiguskomisjoni aseesimehe Kalle Laaneti!</seg>
+        </u>
+        <note type="speaker">Kalle Laanet</note>
+        <u who="#k_laanet_19650925" xml:id="ParlaMint-EE_2013-10-09_U145" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U145-P1">Austatud juhataja! Head kolleegid! Hea minister! Õiguskomisjon arutas seda valitsuse esitatud eelnõu esmaspäeval, 23. septembril. Õiguskomisjoni koosolekust võtsid osa Kalle Laanet, Andres Anvelt alates kella 11.12-st, Margus Hanson, kes asendas Igor Gräzinit, Kalle Jents, Marika Tuus-Laul, Neeme Suur, Peeter Võsa, Siim Kabrits ja Valdo Randpere ning nõunikud Linnar Liivamägi ja Raini Laide. Kutsututena osalesid justiitsminister Hanno Pevkur, ministri nõunik Kätlin Ots, õigusloome ja arenduse talituse nõunik Angelika Sarapuu, järelevalve ja õigusteeninduse talituse nõunik Liisi Pars, ministri nõunik Madis Timpson ning eraõiguse talituse juhataja Indrek Niklus ja sama talituse nõunik Vaike Murumets.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U145-P2">Minister tutvustas meile seaduseelnõu põhjalikult. Eelnõu peaks minu ja teiste komisjoni liikmete arvates aitama kaasa võitlusele kuritegevuse vastu, eriti just organiseeritud kuritegevuse vastu. Samuti on tal teatud ennetav mõju, sest meetmed, mis on siin sisse toodud, panevad kindlasti inimesi mõtlema, kas minna kuritegelikule teele või mitte.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U145-P3">Komisjon otsustas saata eelnõu tänaseks täiskogu päevakorda (poolt oli 8 komisjoni liiget, vastuolijaid ega erapooletuid ei olnud). Meil on ettepanek esimene lugemine lõpetada (poolt oli 8 komisoni liiget, vastuolijaid ega erapooletuid ei olnud) ja määrata muudatusettepanekute esitamise tähtajaks 23. oktoober 2013 kell 17.15 (poolt oli 8 komisjoni liiget, vastuolijaid ega erapooletuid ei olnud). Viimasena otsustati määrata ettekandjaks Kalle Laanet (otsus oli konsensuslik). Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U146" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U146-P1">Suur tänu! Kas on küsimusi? Küsimusi ei ole. Kas soovitakse läbirääkimisi pidada? Kõnesoove ei ole. Juhtivkomisjoni ettepanek on, et eelnõu 468 esimene lugemine tuleks lõpetada.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U146-P2">Esimene lugemine on lõpetatud. Määran eelnõu 468 muudatusettepanekute esitamise tähtajaks s. a 23. oktoobri kell 17.15.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U147" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U147-P1">Meie tänane kuues ja viimane päevakorrapunkt on Vabariigi Valitsuse algatatud karistusseadustiku muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 469 esimene lugemine. Palun ettekandeks kõnetooli justiitsminister Hanno Pevkuri!</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U148" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P1">Austatud istungi juhataja! Head Riigikogu liikmed! Tegemist on küll ühe direktiivi ülevõtmisega, aga kindlasti on see eelnõu juba debatti tekitanud ja tekitab edaspidigi. Kõigepealt lubage teile ette kanda eelnõu üldine eesmärk. Kui proovida seda hästi lühidalt teha, siis võib öelda, et eelnõu eesmärk on tulemuslikumalt tõkestada laste vastu suunatud seksuaalkuritegude toimepanemist ning juurdepääsu lastepornole. Eelnõu peab lapsi paremini kaitsma seksuaalse väärkohtlemise eest ning aitama sedasi tagada nende heaolu ja tervist, suurendades riigi sisejulgeolekut ja isikute turvalisust. Vormilise poole pealt, nagu ma ütlesin, viiakse Eesti seadused selle eelnõuga kooskõlla Euroopa Parlamendi ja nõukogu direktiiviga 2011/92/EL, mis käsitleb laste seksuaalse kuritarvitamise ja ärakasutamise ning lasteporno vastast võitlust ja millega asendatakse nõukogu üks varasem raamotsus. Direktiiv kehtestab laste seksuaalse väärkohtlemise kuriteokoosseisude ja karistuste miinimumnõuded ning sätted selliste kuritegude tõkestamiseks ja ohvrite kaitseks.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P2">Järgnevalt peatun peamistel muudatustel, mis selle eelnõuga kaasnevad. Esiteks, eelnõuga laiendatakse perekondliku sõltuvuse kui raskendava asjaolu mõistet selliselt, et perekondlik sõltuvus võib tähendada ka lihtsalt kooselamist ilma majanduslikku toetust või ülalpidamist pakkumata. Näiteks, lapse vanemad on lahutatud ja lapse ema elab koos uue elukaaslasega, kes kuritarvitab last seksuaalselt. Eelnõu lubab sellises olukorras ohvriga ühise elamispinna jagamise lugeda raskendavaks asjaoluks ning mõista sellest tulenevalt rangema karistuse.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P3">Teiseks, eelnõuga ühendatakse karistusseadustiku §-d 141 ja 142 (§ 141 käsitleb vägistamist ja § 142 inimese tahte vastaselt tema kaasamist sugulise kire rahuldamisele suguühtest erineval viisil). Kehtiv seadus teeb vahet kahel asjal: inimese tahte vastaselt temaga suguühtesse astumine ning inimese tahte vastaselt tema kaasamine sugulise kire rahuldamisele suguühtest erineval viisil. Selline vahetegu ei ole aga põhjendatud. Mõlemal juhul on tegemist isiku sugulise vabaduse jõhkra rikkumisega. Eelnõu kohaselt olekski vägistamine nii inimese tahte vastaselt temaga suguühtesse astumine kui ka muu sugulise iseloomuga vägivaldne tegu. Seega, kehtiv vägistamise termin muutub laiemaks. Ühendsäte hõlmab kõiki selliseid tegusid, ka neid, mida varem käsitleti §-des 141 ja 142.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P4">Kolmandaks, samamoodi on ettepanek ühendada § 143, mis käsitleb suguühtele sundimist, ja § 1431, mis käsitleb sugulise kire rahuldamisele sundimist. Täisealise isiku poolt alaealise suhtes toimepandud tegevus, mis on praegu sätestatud kvalifitseeriva koosseisuna ehk § 143 lõike 2 punktis 1 ja § 1431 lõike 2 punktis 1, on jäetud kvalifitseerivate asjaolude hulgast välja ning on sätestatud eraldi koosseis uue koosseisuna §-s 1432 'Suguühe või muu sugulise iseloomuga tegu mõjuvõimu kasutades', kuna laste seksuaalse väärkohtlemise vastane direktiiv nõuab kõnealuse teo puhul täiendavate koosseisuelementide kaetust. Näiteks peab lisaks sõltuvusseisundi ärakasutamisele olema karistatav ka saavutatud mõjuvõimu või usalduse ärakasutamine. Eelnõu kohaselt karistatakse täisealise isiku poolt noorema kui 18-aastase isikuga suguühtesse astumise või muu sugulise iseloomuga teo eest, kasutades ära kannatanu sõltuvust süüdlasest või kuritarvitades saavutatud mõjuvõimu või usaldust, kahe- kuni kaheksa-aastase vangistusega. Kui tegu on korduvusega, karistatakse sama teo eest kolme- kuni kaheksa-aastase vangistusega ehk alampiir on kahe asemel kolm aastat.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P5">Neljas muudatus. Laste seksuaalse väärkohtlemise vastane direktiiv näeb ette juriidilise isiku vastutuse kõigi direktiiviga hõlmatud süütegude puhul. Sellest tulenevalt lisatakse eelnõuga juriidilise isiku vastutus järgmistesse karistusseadustiku paragrahvidesse: 141, 143, 1432, 145, 1451 ja 1751. Ka karistusseadustiku revisjoni eelnõus, mis on Justiitsministeeriumis valmimas, lähtutakse eeldusest, et põhimõtteliselt on juriidilise isiku vastutus võimalik kõigi süütegude puhul, mistõttu see lõige on lisatud nendesse paragrahvidesse, kus see praegu puudub. Kõnealuste süütegude toimepanemine juriidilise isiku poolt on ilmselgelt erandlik ning ebatõenäoline, samas, kui see on teoreetiliselt võimalik, siis peaks ka sanktsioon olema ette nähtud.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P6">Viies muudatus. Eelnõuga karmistatakse mitmeid laste vastu suunatud seksuaalkuritegude eest mõistetavaid karistusmääri. Näiteks karistatakse eelnõu kohaselt vanema, kasuvanema või vanavanema poolt lapse või lapselapsega suguühtesse astumise või muu seksuaalse iseloomuga teo eest senise kõige rohkem viieaastase vangistuse asemel kuni kaheksa-aastase vangistusega.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P7">Kuues muudatus. Laste seksuaalse väärkohtlemise vastase direktiivi üks eesmärk on kriminaliseerida lasteprostitutsiooni raames lapsega seksuaaltegevuses osalemine. Sellel sättel on oluline roll lasteprostitutsiooni vastu võitlemises tervikuna, kuna seksi ostmise kriminaliseerimise korral väheneb eri uuringute andmetel ka nõudlus. Sõnaselgelt sätestatakse keeld astuda suguühtesse või teha sugulise iseloomuga tegusid lasteprostitutsiooni raames alla 18-aastase isikuga. Sellise teo eest karistatakse kuni kolmeaastase vangistusega. Sama teo eest, kui see on toime pandud noorema kui 14-aastase isiku suhtes, karistatakse kuni viieaastase vangistusega. Seega ei tohi kasutada ega osta mingeid sugulise iseloomuga teenuseid, mida osutab alla 18-aastane prostituut. Prostituudi vanuses veendumine või selle väljaselgitamine on tema teenuseid osta sooviva isiku vastutusel.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P8">Seitsmes muudatus. Täiesti uue kuriteokoosseisuna lisatakse karistusseadustikku lastepornole teadvalt juurdepääsu taotlemine. Sellega kriminaliseeritakse näiteks interneti vahendusel lastepornot sisaldavatele lehekülgedele sisenemine ning seal piltide ja filmide vaatamine, sealjuures ka siis, kui neid ei tõmmata enda arvutisse. Inimest saab nimetatud teo eest vastutusele võtta juhul, kui ta teab, et sellel netilehel saab näha lasteporno materjale, aga ta sellegipoolest siseneb sinna. Sellist teadlikkust võib järeldada näiteks korduvatest lehele sisenemistest, kasutajakonto olemasolust või rahalistest ülekannetest teenuse pakkujale. Seega, kogemata või juhuslikult sellisele lehele sattujaid ei karistata. Samuti ei ole selle sätte näol mingil juhul tegemist sooviga internetti kuidagimoodi tsenseerida.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P9">Kaheksas muudatus. Eelnõuga laiendatakse lastega töötavate inimeste ringi, kelle puhul peab enne töölevõtmist veenduma, et neid ei ole karistatud seksuaalkuritegude eest. Sätte eesmärk on piirata teatud kindla karistusega isikute ligipääsu lastele ja võimalikku üksijäämist nendega. Siia gruppi kuuluvad näiteks lastekaitsetöötajad ja muud oma töös lastega vahetult kokkupuutuvad isikud, samuti vabatahtlikud ning lastega töötavad praktikandid. Niisamuti kuuluvad siia isikud, kellel ametijuhendi või töö iseloomu tõttu tuleb lastega vahetult kokku puutuda, nagu kohaliku omavalitsuse lastekaitsetöötajad või sotsiaaltöötajad, samuti teistes, mitte ainult lastele mõeldud asutustes lastega vahetult kokkupuutuvad isikud, näiteks haigla sotsiaaltöötajad. Samamoodi on sellised isikud politseiametnikud, kelle ametijuhend eeldab tööd lastega, ehk noorsoopolitseinikud.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P10">Ma rõhutan siinkohal, et seaduseelnõu ei hõlma kõiki lastega kokkupuutuvaid isikuid, vaid silmas peetakse neid, kelle puhul ametijuhend, seadus või töö iseloom sellist kontrolli eeldab. Kindlasti ei laiene kõnealune nõue isikutele, kes tööülesannete täitmisel teiste hulgas lapsi teenindavad, näiteks müüjatele või juuksuritele. Nende karistatust ei pea karistusregistrist kontrollima. Lastega töötamise piirang, mis tagab, et kutsealadele, kus lastega kokku puututakse, ei pääseks töötama isikud, keda on karistatud või kes on sundravile määratud inimkaubanduse, seksuaalse enesemääramise vastaste kuritegude, prostitutsiooni või lastepornoga seotud kuritegude eest, kehtib Eestis alates 2007. aasta 20. juulist. Tegu on alalise keeluga.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P11">Praegu on lastega töötamise õigust piiratud mitmes seaduses. See on loonud olukorra, kus lastega töötavatele isikutele seatud piiranguid on eri õigusaktides sõnastatud erinevalt ning puudub üheselt arusaadav lähenemine. Samuti ei piisa olemasolevast loendist, mis sisaldab ametikohti või teenuseid, millele piirangud on kehtestatud. Eri valdkondade ekspertide arvates on mõistlik need piirangud selguse huvides ühte seadusesse koondada. Selleks pakuti välja lastekaitse seadus. Minule teadaolevalt on uue lastekaitse seaduse jõustumise eeldatav tähtaeg planeeritud 2015. aasta jaanuarisse. Eks Riigikogu saab selle üle täpsemalt arutleda. Aga selleks, et tagada laste seksuaalse väärkohtlemise vastase direktiivi ülevõtmine õigel ajal, tuleb lastega töötavate isikute töötamispiirangud kehtestada varem. Sellepärast eelnõus sellest juttu ongi.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U148-P12">Ma usun, et siinkohal on paslik lõpetada, tänada õiguskomisjoni asjaliku arutelu eest ja esimene lugemine täna lõpetada, et oleks võimalik esimese ja teise lugemise vahel selle eelnõuga edasi tööd teha. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U149" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U149-P1">Suur tänu! Palun, Marko Pomerants, teie küsimus!</seg>
+        </u>
+        <note type="speaker">Marko Pomerants</note>
+        <u who="#m_pomerants_19640924" xml:id="ParlaMint-EE_2013-10-09_U150" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U150-P1">Aitüma! Ma olen küll eelnõu arutelu juures olnud ja seetõttu tean ka nüansse, aga pean siiski küsima. Viimasel paaril nädalal on Eesti meedias levinud arusaam, et Riigikogus on menetluses üks eelnõu, millega kavatsetakse muuta seksuaalse enesemääramise ea piiri. Ole hea, vasta väga lihtsalt: kas selles eelnõus, mille valitsus meile saatis, on seda küsimust kuidagi käsitletud?</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U151" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U151-P1">Aitäh! Väga lihtsalt ei saa vastata, ma püüan pisut seletada. Seksuaalse enesemääramise iga Eesti Vabariigis on 14 aastat. Mida see eelnõu teeb? Toob sisse diferentsi, teisisõnu, eristab teod, mille puhul kehtib üldine seksuaalse enesemääramise iga, ja teod, mille puhul üldine iga ei kehti ja kehtib kõrgendatud seksuaalse enesemääramise iga. Ma oma ettekandes lugesin täpselt ette, millisel puhul ei ole seksuaalse enesemääramise iga mitte 14, vaid 18 aastat. See eelnõu toob sisse vahe üldise seksuaalse enesemääramise ea ja erijuhtumite vahel. Need erijuhtumid on karistusseadustikus edaspidi täpselt üles loetud.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U152" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U152-P1">Suur tänu! Palun, Helmen Kütt!</seg>
+        </u>
+        <note type="speaker">Helmen Kütt</note>
+        <u who="#h_kütt_19610728" xml:id="ParlaMint-EE_2013-10-09_U153" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U153-P1">Tänan, proua eesistuja! Lugupeetud justiitsminister! Sotsiaaldemokraatlik Erakond on selle koosseisu jooksul andnud Riigikogu menetlusse eelnõu, mis kriminaliseerib seksi ostmise alaealiselt. Eelnõu on läbi teinud esimese lugemise ja seisab nüüd tõenäoliselt kuskil riiulil. Kas selle, valitsuse algatatud eelnõu seadusena vastuvõtmine lahendab ära kõik need probleemid, mis olid toodud sotsiaaldemokraatide eelnõus?</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U154" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U154-P1">Aitäh! Vastamiseks peaks kahte eelnõu korralikult kõrvutama. Ma ei saa lubada, et iga detail, mis teie eelnõus on, selle eelnõuga kaetakse. Küll ütleb see eelnõu väga selgelt, millisel puhul (ma ka eelmisele küsimusele vastates tõin selle vahe välja) me käsitleme 14-aastase ja noorema isiku suhtes toimepandud tegusid, ning millisel puhul 18-aastase ja noorema isiku suhtes toimepandud tegusid. Eelnõu pakub lahenduse, mis on direktiiviga kooskõlas. Eesti õiguskaitseorganid peavad teatud juhtudel käsitlema seksuaalse enesemääramise iga kõrgemana kui 14 aastat.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U155" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U155-P1">Aitäh! Palun, Väino Linde!</seg>
+        </u>
+        <note type="speaker">Väino Linde</note>
+        <u who="#v_linde_19590131" xml:id="ParlaMint-EE_2013-10-09_U156" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U156-P1">Aitäh, hea istungi juhataja! Hea ettekandja, minister! Muidugi on tegevjuristi praktilisel mõistusel küllalt raske mõista, et selle eelnõu seaduseks muutumise korral võib edaspidi näiteks juriidiline isik või äriühing saada kriminaalsüüdistuse füüsilise isiku vägistamise eest. Aga hea küll, kui see nii on, ju siis on. Kuid miks on selle sätte puhul juriidilisele isikule ette nähtud rahaline karistus, aga ei ole täiendavat valikuvõimalust, näiteks sundlõpetamist, arvestades just selle toimepandud teo erilaadsust ja võimalikku raskust?</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U157" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U157-P1">Aitäh! See on kindlasti väga hea debati teema õiguskomisjonile. Hea meel on tõdeda, et õiguskomisjoni esimees on ka karistusõiguse revisjoni töörühmas, kus koos teadlaste ja ekspertidega otsitakse lahendusi karistusseadustiku kitsakohtadele. Üks kitsaskoht on juriidilise isiku vastutus laiemalt ja see, millisel puhul saaks karistusmeetmena kasutada juriidilise isiku lõpetamist. Üldine arusaam on see, et juriidilise isiku sundlõpetamine kui karistuslik meede ei ole efektiivne. Sellest tulenevalt pakutakse suure tõenäosusega välja, et selline karistuslik meede kui juriidilise isiku sundlõpetamine tuleks üldse ära kaotada. Tulles tagasi küsimuse alguse juurde, peab möönma, et näiteks on võimalik juriidilise isiku kaudu rahastada äripartneri tütre vägistamise tellimist. Sel juhul on võimalik selgelt tuvastada ka juriidilise isiku vastutuse koosseis. See ei ole pelgalt teoreetiline võimalus. Juriidilise isiku vastutus peab olema sätestatud näiteks selliseks puhuks, kui mängus on isiku mõjutamine ja selleks kasutatakse lähedase inimese vägistamist: äriühingu taga seisvad inimesed kasutavad oma või kellegi teise äriühingut, et kuritegu tellida ja maksta mingeid vahendeid kellelegi kolmandale isikule, võib-olla ka juriidilisele isikule, ja sealt omakorda liigub raha teo toimepanijale. See on põhjus, miks tuleb juriidilise isiku vastutus sätestada. Rahaline karistus on valitud pigem sellepärast, et sundlõpetamine kui karistuslik meede ei ole efektiivne.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U158" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U158-P1">Suur tänu! Palun, Andres Anvelt!</seg>
+        </u>
+        <note type="speaker">Andres Anvelt</note>
+        <u who="#a_anvelt_19690930" xml:id="ParlaMint-EE_2013-10-09_U159" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U159-P1">Aitäh, proua juhataja! Ma olen küll kaasettekandja, aga kasutan võimalust ja küsin ministrilt tema arvamust. Alaealiselt seksi ostmise kontekstis on sisse toodud selline mõiste nagu lasteprostitutsioon, seletuskirjas räägitakse väga selgelt lapsprostituutidest. Kas sellega ei peaks kaasnema hirm, et me tegelikult neid alaealisi, kes kindlasti ei tegele selliste asjadega suurest rõõmust või õnnest, juba kohtusse minekul sildistame prostituutideks? Ega nad tihtipeale ei tegele sellega väga teadlikult, vaid elu sunnil. Kas väljendi 'lapsprostituut' kasutamine on ikka päris õige?</seg>
+        </u>
+        <note type="speaker">Hanno Pevkur</note>
+        <u who="#h_pevkur_19770402" xml:id="ParlaMint-EE_2013-10-09_U160" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U160-P1">Aitäh! Küsimus on kindlasti kohane. Nagu ma sissejuhatuses ütlesin, siis selle eelnõu vormiline peaeesmärk – see on ka põhjus, miks näiteks praegu arutatav ja eelmine päevakorrapunkt ei ole ühendatud – on see, et selle eelnõuga võetakse üle üks direktiiv, lasteporno vastu võitlemise direktiiv. Me oleme Eestis kokku leppinud, et püüame direktiivi üle võttes jääda üldjuhul direktiivi raamidesse. Direktiivi sõnastust on eelnõusse üsna palju üle võetud ja nendest mõistetest on siin lähtutud. Ma väga loodan, et me mitte kedagi ei sildista, sest me võtame vastutusele isiku, kes alaealiselt seda teenust ostab, mitte alaealise enda. Me ei lähe kohtusse mitte lapsprostituudi vastu, vaid isiku vastu, kes lapsprostituudi teenust on kasutanud. Vajaduse korral saab kohtuistungi kinniseks kuulutada. Seaduse sõnastuse koha pealt oleme sunnitud vaatama, mida ütleb direktiiv, ja kui mõisteid on võimalik ühtlustada, siis seda debatti ei peaks kartma. Aga selle eelnõu puhul peame siiski jääma direktiivi sõnastuse ja seal toodud ettepanekute juurde.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U161" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U161-P1">Suur tänu! Kas on veel küsimusi? Küsimusi ei ole. Ma palun kaasettekandeks kõnetooli õiguskomisjoni liikme Andres Anvelti!</seg>
+        </u>
+        <note type="speaker">Andres Anvelt</note>
+        <u who="#a_anvelt_19690930" xml:id="ParlaMint-EE_2013-10-09_U162" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U162-P1">Proua juhataja! Lugupeetud minister! Head kolleegid! Mul on au olla eelnõu 469 esimesel lugemisel kaasettekandja. Seda eelnõu arutati õiguskomisjonis 23. septembril 2013. Arutelust võtsid osa rahvasaadikud Kalle Laanet, Andres Anvelt, Margus Hanson, Kalle Jents, Marika Tuus-Laul, Neeme Suur, Peeter Võsa, Siim Kabrits ja Valdo Randpere. Selle päevakorrapunkti arutelul andis minister ülevaate eelnõu käekäigust. Eelnõuga viiakse mitmed meie seadused kooskõlla Euroopa Parlamendi ja nõukogu 2011. aasta direktiiviga, millega kehtestatakse miinimumnõuded laste seksuaalse väärkohtlemise kuriteokoosseisudele ja karistustele ning sätted selliste kuritegude tõkestamiseks ja kuriteoohvrite kaitseks. Komisjonis oli sel teemal ka diskussioon. Minister oma ettekandes sellel peatus. Paljud siin saalis esitatud küsimused olid sarnase iseloomuga nagu komisjonis kõlanud küsimused.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U162-P2">Arutati ka eelnõu ja nn Lanzarote konventsiooni seost ning kooskõla käimasoleva karistusõiguse revisjoniga. Otsustati saata eelnõu tänaseks täiskogu päevakorda (poolt hääletas 8 rahvasaadikut, vastu ei olnud keegi, erapooletuks jäi Peeter Võsa) ning teha ettepanek esimene lugemine lõpetada (sama hääletustulemus) ja määrata muudatusettepanekute esitamise tähtajaks 23. oktoober kell 17.15. Konsensuslikult tehti ettepanek määrata ettekandjaks Andres Anvelt. Aitäh!</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U163" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U163-P1">Suur tänu! Palun, Marianne Mikko, teie küsimus!</seg>
+        </u>
+        <note type="speaker">Marianne Mikko</note>
+        <u who="#m_mikko_19610926" xml:id="ParlaMint-EE_2013-10-09_U164" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U164-P1">Suur tänu! Nagu kolleeg Helmen Kütt juba mainis, Sotsiaaldemokraatlik Erakond on andnud Riigikogu menetlusse eelnõu, mis kriminaliseerib seksi ostmise alaealiselt. Meie naiskogu Kadri oleks aga veelgi kaugemale läinud ja oleks tahtnud kriminaliseerida seksi ostmise kui sellise üldse. Ent asjast. Seaduseelnõus 469 on säte, mis räägib lasteprostitutsioonist, seletuskirjas räägitakse lapsprostituutidest. Milline on sinu isiklik arvamus, kas selline lähenemine ei tekita olukorda, kus alaealisest kannatanust, et mitte öelda ohvrist, tehakse sellise sõnastusega süüdlane? Kas see on mõistlik ja kasulik?</seg>
+        </u>
+        <note type="speaker">Andres Anvelt</note>
+        <u who="#a_anvelt_19690930" xml:id="ParlaMint-EE_2013-10-09_U165" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U165-P1">Aitäh! Minister mingil määral juba vastas sellele küsimusele. Minu arvamus on natukene teistsugune. Ma arvan, et kui me võtame üle selle väga olulise direktiivi, siis me ei võta seda üle ju mitte ainult vormiliselt, vaid ka sisuliselt. Seksi ostmise subjekt on ka selle seaduse mõistes igal juhul prostituut. Küll arvan ma seda (kindlasti me õiguskomisjonis sellest ka räägime), et eriti alaealiste puhul peaks selle väljendi välistama juba sellepärast, et kohtunikul on küll õigus kuulutada istung kinniseks, aga tahes-tahtmata on meedial selliste asjade vastu huvi. Isegi väiksed vormilised ebatäpsused või vihjed seaduses annavad võimaluse pöörata seda olukorda mitte süüdistatava, vaid sellesama alaealise kahjuks, kuna ta osaleb sellel kohtuprotsessil eelnõu praegusest tekstist tulenevalt ikkagi lapsprostituudina. See ei mõju kindlasti hästi tema tulevikule. Eriti peab seda arvestama siis, kui tegemist on ühekordse juhtumiga. Nagu me teame, tasu võib olla ükskõik milline, alaealine ei pea olema professionaalne prostituut ja tegu võis tõesti olla ühekordse juhtumiga. Kindlasti tuleks alaealise kahjustamist vältida.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U165-P2">Ma loodan, et kui me õiguskomisjonis arutame meie fraktsiooni eelnõu, kus me räägime seksi hankimisest või muul viisil sugulise kire rahuldamisest, selle eest alaealistele, ka vanuse poolest alaealistele isikutele tasu pakkudes või üle andes, siis me leiame konsensuse ja need kaks eelnõu saab ühendada. Me võtame praegu üle Euroopa direktiivi ja ma olen aru saanud, et Eesti riigi agarus sellistel puhkudel on alati väga suur. Aga kui me teeme seda heal moel ja meie inimeste huvides, siis ma küll ei usu, et Euroopa Komisjon hakkab meile selle eest trahvi määrama.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U166" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U166-P1">Aitäh! Palun, Kalle Jents!</seg>
+        </u>
+        <note type="speaker">Kalle Jents</note>
+        <u who="#k_jents_19570622" xml:id="ParlaMint-EE_2013-10-09_U167" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U167-P1">Aitäh, lugupeetud istungi juhataja! Hea ettekandja! Ma korra veel küsin sinu käest selle teema kohta, mis siin saalis täna juba tõstatus ja mis ka komisjonis arutlusel oli. See on ikkagi see juriidilise isiku vastutus. Kindlasti ei saa ju juriidiline isik olla näiteks vägistamise toimepanija, ta saab olla kaasaaitaja. Sellest lähtudes me tõesti võime seda konstruktsiooni kuidagi punuda. Kui võrdlus tuua, siis võiks juriidilise isiku panna täpselt samuti vastutama varguse puhul. Äkki piisaks üldisest vastutusest kuriteole kaasaaitamise eest? Kas peab ikka igas konkreetses paragrahvis olema juriidilise isiku vastutus niimoodi sätestatud? Kuidas sul endal menetlejana tunne on, kas võiks selle üle veel komisjonis debateerida?</seg>
+        </u>
+        <note type="speaker">Andres Anvelt</note>
+        <u who="#a_anvelt_19690930" xml:id="ParlaMint-EE_2013-10-09_U168" ana="#regular">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U168-P1">Aitäh! See on väga hea küsimus. Me oleme sellest õiguskomisjonis ka enne rääkinud. Juriidilise isiku vastutus on tõesti kuidagi väga abstraktne teema. Majanduskuriteo puhul on see muidugi väga lihtne ja selge, kui hiilitakse kõrvale maksudest jne, kuigi ka seal panevad kuriteo toime ikkagi füüsilised isikud. Ma arvan, et juriidilise isiku üldine mõiste kuriteokoosseisus tuleks meie komisjoni selle koosseisu olulisima debati ehk karistusseadustiku uue redaktsiooni debati käigus selgelt läbi vaielda. Ei saa jääda lootma selle peale, et vastuse annavad meile menetlejad, kohtunikud. Me tihtipeale anname õiguskomisjonis oma arvamuse, kuidas asjasse suhtuda, pärast seda, kui asi on jõudnud Riigikohtusse. See näitab, et me peame selle asja endale väga selgeks tegema, et mitte tekitada vastupidist olukorda, kus me tõesti tunnetame, et juriidiline isik on selle, ütleme niimoodi, kogumi taga, näiteks terve hulga kuritegude või organiseeritud tegevuse taga, aga me ei suuda sellele koosseisule tuginedes kaasust kohtus menetleda. See on palju hullem. Me peame selle teema õiguskomisjonis endale väga selgeks tegema. Ma arvan, et meil on sellega veel üksjagu tegemist. Kindlasti tasub kuulata tegevjuriste. Tuleks küsida prokuröridelt ja advokaatidelt, kuidas nad üldse näevad juriidilise isiku rolli kuritegude puhul.</seg>
+        </u>
+        <note type="speaker">Laine Randjärv</note>
+        <u who="#l_randjärv_19640730" xml:id="ParlaMint-EE_2013-10-09_U169" ana="#deputy_chair">
+          <seg xml:id="ParlaMint-EE_2013-10-09_U169-P1">Aitäh! Kas on veel küsimusi? Rohkem küsimusi ei ole. Kas soovitakse läbirääkimisi pidada? Läbirääkimisi pidada ei soovita. Juhtivkomisjoni ettepanek on, et eelnõu 469 esimene lugemine tuleks lõpetada. Esimene lugemine on lõpetatud. Määran eelnõu 469 muudatusettepanekute esitamise tähtajaks s. a 23. oktoobri kell 17.15.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U169-P2">Tänane päevakord on ammendatud.</seg>
+          <seg xml:id="ParlaMint-EE_2013-10-09_U169-P3">Istungi lõpp kell 15.19.</seg>
+        </u>
+      </div>
+    </body>
+  </text>
+</TEI>
