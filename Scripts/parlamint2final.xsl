@@ -11,6 +11,7 @@
      - insert word extents from ana into plain version
      - insert tagcounts in root (taken from component files and not changed there!)
      - fix spaces in text
+     - if necessary, change div/@type for divs without utterances
      - sundry checks and fixes, which give warning messages
 -->
 <xsl:stylesheet 
@@ -219,35 +220,20 @@
 
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
-    <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
-    <xsl:variable name="date-from">
-      <xsl:choose>
-        <xsl:when test="$date/@when">
-          <xsl:value-of select="$date/@when"/>
-        </xsl:when>
-        <xsl:when test="$date/@from">
-          <xsl:value-of select="$date/@from"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
+    <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
     <xsl:attribute name="ana">
       <xsl:variable name="ref">
         <xsl:for-each select="tokenize(., ' ')">
           <xsl:choose>
-            <xsl:when test=". = '#reference' and 
-                            $covid-date &lt;= $date-from">
+            <xsl:when test=". = '#reference' and $covid-date &lt;= $date">
               <xsl:text>#covid</xsl:text>
               <xsl:message select="concat('WARN ', $id, 
-                               ': fixing subcorpus to covid for date ', $date-from)"/>
+                               ': fixing subcorpus to covid for date ', $date)"/>
             </xsl:when>
-            <xsl:when test=". = '#covid' and 
-                            $covid-date &gt; $date-from">
+            <xsl:when test=". = '#covid' and $covid-date &gt; $date">
               <xsl:text>#reference</xsl:text>
               <xsl:message select="concat('WARN ', $id, 
-                               ': fixing subcorpus to reference for date ', $date-from)"/>
+				   ': fixing subcorpus to reference for date ', $date)"/>
             </xsl:when>
             <xsl:otherwise>
               <xsl:value-of select="."/>
@@ -306,6 +292,19 @@
     </xsl:copy>
   </xsl:template>  
 
+  <!-- Fix div/@type="debateSection" to ="commentSection" if div contains not utterances -->
+  <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': no utterances in div/@type=debateSection, ',
+			 'replacing with commentSection')"/>
+
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:attribute name="type">commentSection</xsl:attribute>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
@@ -346,6 +345,24 @@
     </xsl:attribute>
   </xsl:template>
   
+  <!-- Bug in STANZA, sometimes several tokens have root dependency -->
+  <!-- We set those that have root but do not point to sentence ID to "dep" -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:root']">
+    <xsl:copy>
+      <xsl:variable name="root-ref" select="concat('#', ancestor::tei:s/@xml:id)"/>
+      <xsl:attribute name="ana">
+	<xsl:choose>
+	  <xsl:when test="$root-ref = substring-before(@target, ' ')">ud-syn:root</xsl:when>
+	  <xsl:otherwise>
+            <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:root with ud-syn:dep for non-root dependency')"/>
+	    <xsl:text>ud-syn:dep</xsl:text>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates select="@target"/>
+    </xsl:copy>
+  </xsl:template>
 
   <!-- Finalizing ROOT -->
   
