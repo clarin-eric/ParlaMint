@@ -1,8 +1,4 @@
 <note type="head" content="REPUBLIKA SLOVENIJA DRŽAVNI ZBOR"/>
-<note type="head" content="1. izredna seja"/>
-<note type="head" content="Sejo sta vodila predsednik Državnega zbora dr. Milan Brglez in podpredsednik Janko Veber."/>
-<note type="time" content="Seja se je začela ob 10. uri."/>
-<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
 <speech id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.u1" text_id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01" subcorpus="Reference" body="Lower house" term="7" session="" meeting="1" sitting="" agenda="" date="2014-08-25" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Extraordinary Session 1, (25. 08. 2014)" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="-" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="" speaker_gender="M" speaker_birth="1967">
 <p id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2014-08-25-SDZ7-Izredna-01.ana.seg1.1">

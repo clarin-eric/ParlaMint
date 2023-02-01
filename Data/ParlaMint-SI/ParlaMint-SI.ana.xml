@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="sl">Slovenski parlamentarni korpus ParlaMint-SI [ParlaMint]</title>
-            <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint]</title>
+            <title type="main" xml:lang="sl">Slovenski parlamentarni korpus ParlaMint-SI [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Slovenian parliamentary corpus ParlaMint-SI [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="sl">Zapisi sej Državnega zbora Republike Slovenije, od 3. do 8. mandata (2000 — 2022)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Slovenia, Terms 3 and 8 (2000 — 2022)</title>
             <meeting n="3" corresp="#DZ" ana="#parla.term #DZ.3 #parla.lower">3. mandat</meeting>
@@ -51,7 +51,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="words" quantity="3595" xml:lang="sl">3.595 besed</measure>
             <measure unit="words" quantity="3595" xml:lang="en">3,595 words</measure>
             <measure unit="speeches" quantity="490" xml:lang="sl">490 govorov</measure>
@@ -69,7 +69,7 @@
                <p xml:lang="sl">To delo je ponujeno pod <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-02-01">February 1, 2023</date>
+            <date when="2023-02-01">2023-02-01</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -105,7 +105,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="4"/>
                <tagUsage gi="desc" occurs="10"/>
@@ -179,6 +179,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2023-02-01">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2023-01-11">
             <name>Katja Meden</name>: Made ana sample</change>
          <change when="2023-01-10">
