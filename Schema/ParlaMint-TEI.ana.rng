@@ -147,10 +147,7 @@
         <a:documentation>Simple word:</a:documentation>
         <group>
           <ref name="word.atts"/>
-	  <a:documentation>A non-empty string without white-space, or a number, possibly with spaces</a:documentation>
-	  <data type="string">
-	    <param name="pattern">(\S+)|(\d[\.,\d ]*\d)</param>
-	  </data>
+	  <ref name="normalized-space.string"/>
         </group>
         <a:documentation>Word with several normalised words:</a:documentation>
         <group>
@@ -243,7 +240,7 @@
     <a:documentation>Obligatory attributes of word.</a:documentation>
     <ref name="token.atts"/>
     <attribute name="lemma">
-      <ref name="non-empty.string"/>
+      <ref name="normalized-space.string"/>
     </attribute>
   </define>
 
@@ -271,7 +268,7 @@
     </optional>
     <optional>
       <attribute name="lemma">
-	<ref name="non-empty.string"/>
+	<ref name="normalized-space.string"/>
       </attribute>
     </optional>
   </define>
