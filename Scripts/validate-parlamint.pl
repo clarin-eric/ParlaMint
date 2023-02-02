@@ -131,7 +131,7 @@ sub chars {
 	    (ord($c) >= hex('2000') and ord($c) <= hex('200A')) or #NON-STANDARD SPACES
 	    (ord($c) >= hex('E000') and ord($c) <= hex('F8FF'))    #PUA
 	    ) {
-	    $message = sprintf("%s[U+%X](%dx)", chr($c), ord($c), $c{$c});
+	    $message = sprintf("U+%X (%dx)", ord($c), $c{$c});
 	    push(@bad, $message)
 	}
     }
