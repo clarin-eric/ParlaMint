@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="de"
+     ana="#parla.sitting #covid"
      xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.ana">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint.ana]</title>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT, Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XXVII. Gesetzgebungsperiode [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="de">159. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 19. Mai 2022</title>
-            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="en">Sitting Number 159, Legislative period XXVII, Thursday, 19. May 2022</title>
-            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="159">159. Sitzung</meeting>
-            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
-            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="159">Sitting 159</meeting>
-            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <meeting xml:lang="de"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.sitting"
+                     n="159">159. Sitzung</meeting>
+            <meeting xml:lang="de"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.term #NR.XXVII"
+                     n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.sitting"
+                     n="159">Sitting 159</meeting>
+            <meeting xml:lang="en"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.term #NR.XXVII"
+                     n="27">Legislative period XXVII</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
                <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
@@ -53,7 +67,8 @@
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent><!--DUMMY These numbers do not reflect the size of the sample!--><measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
             <measure unit="speeches" quantity="123" xml:lang="en">136 speeches</measure>
             <measure unit="words" quantity="123" xml:lang="de">12263 Wörter</measure>
             <measure unit="words" quantity="123" xml:lang="en">12263 words</measure>
@@ -74,7 +89,7 @@
             This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.
           </p>
             </availability>
-            <date when="2022-11-30">2022-11-30</date>
+            <date when="2022-12-14">2022-12-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -99,7 +114,8 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
         </p>
          </projectDesc>
-         <tagsDecl><!--DUMMY: These numbers do not reflect the size of the sample!--><namespace name="http://www.tei-c.org/ns/1.0">
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
@@ -128,6 +144,8 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-12-14">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2022-11-30">
             <name>Hannes Pirker</name>
             : Converted from source HTML to TEI.
@@ -151,10 +169,12 @@
                <time when="2022-05-19T19:28:34+02:00">19:28:34</time>
             </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
-            <u who="#PAD_35521" xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e395"
+            <u who="#PAD_35521"
+               xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e395"
                ana="#chair">
                <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1"><!-- Die 159. Sitzung des Nationalrates ist eröffnet. --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1.w1"
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1">
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1.w1"
                         lemma="Die"
                         msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1.w2"
@@ -201,7 +221,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1"><!-- Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc, Johann Höfinger, Melanie Erasim, MSc, MMag. --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1.w1"
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1">
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1.w1"
                         lemma="Als"
                         msd="UPosTag=CCONJ|ConjType=Comp">Als</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1.w2"
@@ -321,7 +342,8 @@
                               target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1.w3 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1.w21"/>
                      </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s2"><!-- DDr. --><name type="LOC" xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.ne8">
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s2">
+                     <name type="LOC" xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.ne8">
                         <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s2.w1"
                            lemma="DDr"
                            msd="UPosTag=PROPN|Number=Sing|Person=3"
@@ -336,7 +358,8 @@
                               target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s2.w1 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s2.w2"/>
                      </linkGrp>
                   </s>
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s3"><!-- Hubert Fuchs, Herbert Kicklund Dipl.-Ing. Olga Voglauer. --><name xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.ne9" type="PER">
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s3">
+                     <name xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.ne9" type="PER">
                         <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s3.w1"
                            lemma="Hubert"
                            msd="UPosTag=PROPN|Gender=Masc|Number=Sing|Person=3">Hubert</w>
@@ -392,7 +415,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1"><!-- Einlauf und Zuweisungen --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1.w1"
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1">
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1.w1"
                         lemma="Einlauf"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Einlauf</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1.w2"
@@ -413,10 +437,12 @@
                </seg>
             </u>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
-            <u who="#PAD_35521" xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e441"
+            <u who="#PAD_35521"
+               xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e441"
                ana="#chair">
                <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1"><!-- Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung. --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w1"
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1">
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w1"
                         lemma="Hinsichtlich"
                         msd="UPosTag=ADP|AdpType=Prep|Case=Gen">Hinsichtlich</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w2"
@@ -446,7 +472,8 @@
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w10"
                         lemma="gemäß"
                         msd="UPosTag=ADP|AdpType=Prep|Case=Dat">gemäß</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w11" lemma="§"
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w11"
+                        lemma="§"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">§</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w12"
                         lemma="23"
@@ -454,7 +481,8 @@
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w13"
                         lemma="Absatz"
                         msd="UPosTag=NOUN|Person=3">Abs.</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w14" lemma="4"
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w14"
+                        lemma="4"
                         msd="UPosTag=NUM|Number=Plur|NumType=Card|Person=3">4</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1.w15"
                         lemma="der"
@@ -542,7 +570,8 @@
                   </s>
                </seg>
                <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1"><!-- Die schriftliche Mitteilung hat folgenden Wortlaut: --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1.w1"
+                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1">
+                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1.w1"
                         lemma="Die"
                         msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
                      <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1.w2"
@@ -586,268 +615,10 @@
                   <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
                </gap>
             </u>
-            <note type="speaker">Präsident Ing. Norbert Hofer</note>
-            <u who="#PAD_35521" xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e994"
-               ana="#chair">
-               <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1"><!-- Den Antrag 2601/A(E) weise ich dem Ausschuss für Menschenrechte zu. --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w1"
-                        lemma="Den"
-                        msd="UPosTag=DET|Case=Acc|Gender=Masc|Number=Sing|PronType=Art">Den</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w2"
-                        lemma="Antrag"
-                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Antrag</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w3"
-                        lemma="unknown"
-                        msd="UPosTag=NOUN|Person=3"
-                        join="right">2601/A(E</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w4"
-                         msd="UPosTag=PUNCT|PunctType=Brck">)</pc>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5"
-                        lemma="weisen"
-                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">weise</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w6"
-                        lemma="ich"
-                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">ich</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w7"
-                        lemma="dem"
-                        msd="UPosTag=DET|Case=Dat|Gender=Masc|Number=Sing|PronType=Art">dem</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w8"
-                        lemma="Ausschuss"
-                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Ausschuss</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w9"
-                        lemma="für"
-                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc">für</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w10"
-                        lemma="Menschenrecht"
-                        msd="UPosTag=NOUN|Gender=Neut|Number=Plur|Person=3">Menschenrechte</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w11"
-                        lemma="zu"
-                        msd="UPosTag=ADP|PartType=Vbp"
-                        join="right">zu</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w12"
-                         msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <linkGrp targFunc="head argument" type="UD-SYN">
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w2 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w1"/>
-                        <link ana="ud-syn:obj"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w2"/>
-                        <link ana="ud-syn:appos"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w2 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w3"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w2 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w4"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5"/>
-                        <link ana="ud-syn:nsubj"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w6"/>
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w8 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w7"/>
-                        <link ana="ud-syn:iobj"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w8"/>
-                        <link ana="ud-syn:case"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w10 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w9"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w8 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w10"/>
-                        <link ana="ud-syn:compound_prt"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w11"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w5 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e219.s1.w12"/>
-                     </linkGrp>
-                  </s>
-               </seg>
-               <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1"><!-- Die nächste Sitzung des Nationalrates, die für Dienstag, den 14. Juni 2022, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden. --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w1"
-                        lemma="Die"
-                        msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w2"
-                        lemma="NULL"
-                        msd="UPosTag=ADJ|Degree=Sup|Gender=Fem|Number=Sing">nächste</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w3"
-                        lemma="Sitzung"
-                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Sitzung</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w4"
-                        lemma="des"
-                        msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Sing|PronType=Art">des</w>
-                     <name type="ORG" xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.ne12">
-                        <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w5"
-                           lemma="Rat"
-                           msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing|Person=3"
-                           join="right">Nationalrates</w>
-                     </name>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w6"
-                         msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w7"
-                        lemma="die"
-                        msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Rel">die</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w8"
-                        lemma="für"
-                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc">für</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w9"
-                        lemma="Dienstag"
-                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3"
-                        join="right">Dienstag</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w10"
-                         msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w11"
-                        lemma="den"
-                        msd="UPosTag=DET|Case=Acc|Gender=Masc|Number=Sing|PronType=Art">den</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w12"
-                        lemma="14."
-                        msd="UPosTag=ADJ|Person=3">14.</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13"
-                        lemma="Juni"
-                        msd="UPosTag=NOUN|Gender=Masc|Number=Sing|Person=3">Juni</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w14"
-                        lemma="2022"
-                        msd="UPosTag=NUM|Number=Plur|NumType=Card|Person=3"
-                        join="right">2022</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w15"
-                         msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w16" lemma="9"
-                        msd="UPosTag=NUM|Number=Plur|NumType=Card|Person=3">9</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w17"
-                        lemma="Uhr"
-                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3"
-                        join="right">Uhr</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w18"
-                         msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w19"
-                        lemma="in"
-                        msd="UPosTag=ADP|AdpType=Prep|Case=Acc">in</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w20"
-                        lemma="Aussicht"
-                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Aussicht</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21"
-                        lemma="nehmen"
-                        msd="UPosTag=VERB|Aspect=Perf|VerbForm=Part">genommen</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w22"
-                        lemma="sein"
-                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-                        join="right">ist</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w23"
-                         msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w24"
-                        lemma="werden"
-                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">wird</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w25"
-                        lemma="auf"
-                        msd="UPosTag=ADP|AdpType=Prep|Case=Dat">auf</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w26"
-                        lemma="schriftlich"
-                        msd="UPosTag=ADJ|Case=Dat|Degree=Pos|Number=Sing">schriftlichem</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w27"
-                        lemma="Weg"
-                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing|Person=3">Wege</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28"
-                        lemma="einberufen"
-                        msd="UPosTag=VERB|Aspect=Perf|VerbForm=Part">einberufen</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w29"
-                        lemma="werden"
-                        msd="UPosTag=AUX|VerbForm=Inf"
-                        join="right">werden</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w30"
-                         msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <linkGrp targFunc="head argument" type="UD-SYN">
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w3 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w1"/>
-                        <link ana="ud-syn:amod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w3 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w2"/>
-                        <link ana="ud-syn:nsubj_pass"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w3"/>
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w5 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w4"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w3 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w5"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w6"/>
-                        <link ana="ud-syn:nsubj_pass"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w7"/>
-                        <link ana="ud-syn:case"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w9 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w8"/>
-                        <link ana="ud-syn:obl"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w9"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w10"/>
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w11"/>
-                        <link ana="ud-syn:amod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w12"/>
-                        <link ana="ud-syn:appos"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w9 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13"/>
-                        <link ana="ud-syn:nmod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w14"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w17 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w15"/>
-                        <link ana="ud-syn:nummod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w17 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w16"/>
-                        <link ana="ud-syn:appos"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w13 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w17"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w17 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w18"/>
-                        <link ana="ud-syn:case"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w20 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w19"/>
-                        <link ana="ud-syn:obl"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w20"/>
-                        <link ana="ud-syn:acl"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w3 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21"/>
-                        <link ana="ud-syn:aux_pass"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w22"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w21 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w23"/>
-                        <link ana="ud-syn:aux"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w24"/>
-                        <link ana="ud-syn:case"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w27 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w25"/>
-                        <link ana="ud-syn:amod"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w27 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w26"/>
-                        <link ana="ud-syn:obl"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w27"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28"/>
-                        <link ana="ud-syn:aux_pass"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w29"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w28 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e221.s1.w30"/>
-                     </linkGrp>
-                  </s>
-               </seg>
-               <seg xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223">
-                  <s xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1"><!-- Die Sitzung ist geschlossen. --><w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w1"
-                        lemma="Die"
-                        msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|PronType=Art">Die</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w2"
-                        lemma="Sitzung"
-                        msd="UPosTag=NOUN|Gender=Fem|Number=Sing|Person=3">Sitzung</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w3"
-                        lemma="sein"
-                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin">ist</w>
-                     <w xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w4"
-                        lemma="schließen"
-                        msd="UPosTag=VERB|Aspect=Perf|VerbForm=Part"
-                        join="right">geschlossen</w>
-                     <pc xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <linkGrp targFunc="head argument" type="UD-SYN">
-                        <link ana="ud-syn:det"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w2 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w1"/>
-                        <link ana="ud-syn:nsubj_pass"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w4 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w2"/>
-                        <link ana="ud-syn:aux_pass"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w4 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w3"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w4"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w4 #ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e223.s1.w5"/>
-                     </linkGrp>
-                  </s>
-               </seg>
-            </u>
-            <note type="time">
-               <time when="2022-05-19T19:29:09+02:00">19:29:09</time>
-            </note>
-            <note type="time">Schluss der Sitzung:<time when="2022-05-19T19:29:00+02:00">19:29</time>Uhr</note>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
          </div>
       </body>
-      <!--
-        Impressum: Parlamentsdirektion 1017 Wien
-      --></text>
+   </text>
 </TEI>

@@ -9,9 +9,17 @@
   <xsl:param name="outDir"/>
   <xsl:param name="prefix"/>
   <xsl:param name="skip"/>
+  <xsl:param name="noAna"/>
 
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
+
+  <xsl:variable name="pref">
+    <xsl:choose>
+      <xsl:when test="$prefix"><xsl:value-of select="$prefix"/></xsl:when>
+      <xsl:otherwise><xsl:value-of select="concat(replace(/tei:teiCorpus/@xml:id,'\.ana$',''),'-')"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
 
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
@@ -51,27 +59,31 @@
           <xsl:value-of select="concat('ParlaMint-',local-name(),@xml:id/concat('-',.))" />
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="concat($prefix,local-name(),@xml:id/concat('-',.))" />
+          <xsl:value-of select="concat($pref,local-name(),@xml:id/concat('-',.))" />
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
     <xsl:variable name="interfix">
-      <xsl:if test="ends-with(base-uri(),'.ana.xml') and not(contains($skip,concat($fileid,'.xml'))) and not($no_id_change)">.ana</xsl:if>
+      <xsl:if test="ends-with(base-uri(),'.ana.xml')
+                   and not(contains($skip,concat($fileid,'.xml')))
+                   and not(contains(concat($noAna,' ',replace($noAna,'ParlaMint-',$pref)),concat($fileid,'.xml')))
+                   and not($no_id_change)">.ana</xsl:if>
     </xsl:variable>
 
     <xsl:variable name="filename" select="concat($fileid,$interfix,'.xml')"/>
     <xsl:choose>
       <xsl:when test="contains($skip,concat($fileid,'.xml'))">
-        <xsl:message select="concat('Skipping - file should exist: ',$fileid,'.xml')"/>
+        <xsl:message select="concat('INFO: Skipping - file should exist: ',$fileid,'.xml')"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="path" select="concat($outDir,'/',$filename)"/>
-        <xsl:message select="concat('Saving ',local-name(), ' to ',$path)"/>
+        <xsl:message select="concat('INFO: Saving ',local-name(), ' to ',$path)"/>
         <xsl:result-document href="{$path}" method="xml">
           <xsl:element name="{name()}">
             <xsl:if test="not(@xml:id = concat($fileid,$interfix))">
-              <xsl:message select="concat('INFO: replacing xml:id ',@xml:id,' with ',concat($fileid,$interfix))"/>
+              <xsl:message select="concat('INFO: replacing xml:id &#34;',
+				   @xml:id,'&#34; with ',concat($fileid,$interfix))"/>
             </xsl:if>
             <xsl:attribute name="xml:id" select="concat($fileid,$interfix)"/>
             <xsl:attribute name="xml:lang">

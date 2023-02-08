@@ -1,182 +1,187 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" xml:id="ParlaMint-AT">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title xml:lang="de" type="main">Österreichisches Parlamentskorpus ParlaMint-AT [ParlaMint]</title>
-        <title xml:lang="en" type="main">Austrian parliamentary corpus ParlaMint-AT [ParlaMint]</title>
-        <title xml:lang="de" type="sub">Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsberiode - XXVII. Gesetzgebungsperiode (1996 - 2022)</title>
-        <title xml:lang="en" type="sub">Shorthand records of the plenary sittings of the National Council of the Austrian parliament, terms 20 - terms 27 (1996 - 2022)</title>
-        <meeting n="27" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII">XXVII. Gesetzgebungsperiode</meeting>
-        <meeting n="26" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI">XXVI. Gesetzgebungsperiode</meeting>
-        <meeting n="25" corresp="#NR" ana="#parla.lower #parla.term #NR.XXV">XXV. Gesetzgebungsperiode</meeting>
-        <meeting n="24" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIV">XXIV. Gesetzgebungsperiode</meeting>
-        <meeting n="23" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIII">XXIII. Gesetzgebungsperiode</meeting>
-        <meeting n="22" corresp="#NR" ana="#parla.lower #parla.term #NR.XXII">XXII. Gesetzgebungsperiode</meeting>
-        <meeting n="21" corresp="#NR" ana="#parla.lower #parla.term #NR.XXI">XXI. Gesetzgebungsperiode</meeting>
-        <meeting n="20" corresp="#NR" ana="#parla.lower #parla.term #NR.XX">XX. Gesetzgebungsperiode</meeting>
-        <respStmt>
-          <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
-          <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
-          <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
-          <resp xml:lang="de">Projektplanung und Methode</resp>
-          <resp xml:lang="en">Project set-up and methodology</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Hannes Pirker</persName>
-          <resp xml:lang="de">Datenbeschaffung und Korpuskodierung in TEI</resp>
-          <resp xml:lang="en">Data retrieval, TEI corpus encoding</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Daniel Schopper</persName>
-          <resp xml:lang="de">XSLT Transformationen</resp>
-          <resp xml:lang="en">XSLT transformations</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Martin Kirnbauer</persName>
-          <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
-          <resp xml:lang="en">Some of the manual curation</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Tanja Wissik</persName>
-          <resp xml:lang="de">Metadaten und Übersetzung</resp>
-          <resp xml:lang="en">Metadata and translation</resp>
-        </respStmt>
-        <funder>
-          <orgName xml:lang="de">CLARIN-ERIC</orgName>
-          <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
-          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-        </funder>
-        <funder>
-          <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
-          <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
-          <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
-        </funder>
-      </titleStmt>
-      <editionStmt>
-        <edition>2.1</edition>
-      </editionStmt>
-      <extent>
-        <!--These numbers do not reflect the size of the sample!-->
-        <measure unit="speeches" quantity="1234">1234 speeches</measure>
-        <measure unit="tokens" quantity="1234">1234 words</measure>
-        <measure unit="words" quantity="1234">1234 words</measure>
-      </extent>
-      <publicationStmt>
-        <publisher>
-          <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
-          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-        </publisher>
-        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
-        <availability status="free">
-          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="de" type="main">Österreichisches Parlamentskorpus ParlaMint-AT [ParlaMint SAMPLE]</title>
+            <title xml:lang="en" type="main">Austrian parliamentary corpus ParlaMint-AT [ParlaMint SAMPLE]</title>
+            <title xml:lang="de" type="sub">Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsberiode - XXVII. Gesetzgebungsperiode (1996 - 2022)</title>
+            <title xml:lang="en" type="sub">Shorthand records of the plenary sittings of the National Council of the Austrian parliament, terms 20 - terms 27 (1996 - 2022)</title>
+            <meeting n="27" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting n="26" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI">XXVI. Gesetzgebungsperiode</meeting>
+            <meeting n="25" corresp="#NR" ana="#parla.lower #parla.term #NR.XXV">XXV. Gesetzgebungsperiode</meeting>
+            <meeting n="24" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIV">XXIV. Gesetzgebungsperiode</meeting>
+            <meeting n="23" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIII">XXIII. Gesetzgebungsperiode</meeting>
+            <meeting n="22" corresp="#NR" ana="#parla.lower #parla.term #NR.XXII">XXII. Gesetzgebungsperiode</meeting>
+            <meeting n="21" corresp="#NR" ana="#parla.lower #parla.term #NR.XXI">XXI. Gesetzgebungsperiode</meeting>
+            <meeting n="20" corresp="#NR" ana="#parla.lower #parla.term #NR.XX">XX. Gesetzgebungsperiode</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
+               <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
+               <persName ref="https://orcid.org/0000-0002-1631-4560">Tanja Wissik</persName>
+               <resp xml:lang="de">Projektplanung und Methode</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="de">Datenbeschaffung und Korpuskodierung in TEI</resp>
+               <resp xml:lang="en">Data retrieval, TEI corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Daniel Schopper</persName>
+               <resp xml:lang="de">XSLT Transformationen</resp>
+               <resp xml:lang="en">XSLT transformations</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Martin Kirnbauer</persName>
+               <resp xml:lang="de">Einige der manuellen Korrekturen</resp>
+               <resp xml:lang="en">Some of the manual curation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tanja Wissik</persName>
+               <resp xml:lang="de">Metadaten und Übersetzung</resp>
+               <resp xml:lang="en">Metadata and translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="de">CLARIN-ERIC</orgName>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium)</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.1</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="1234">1234 speeches</measure>
+            <measure unit="tokens" quantity="1234">1234 words</measure>
+            <measure unit="words" quantity="1234">1234 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="de">Die CLARIN Forschungsinfrastruktur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="de">
             Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.
           </p>
-          <p xml:lang="en">
+               <p xml:lang="en">
             This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.
           </p>
-        </availability>
-        <date when="2022-11-25">2022-11-25</date>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>
-          <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
-          <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
-          <publisher>
+            </availability>
+            <date when="2022-12-14">2022-12-14</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
+               <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
+               <publisher>
             Parlamentsdirektion
           </publisher>
-          <idno type="URI">https://www.parlament.gv.at/PAKT/STPROT</idno>
-          <date from="1996-01-15" to="2022-05-19">15.01.1996 - 19.05.2022</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p xml:lang="de">
-          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+               <idno type="URI">https://www.parlament.gv.at/PAKT/STPROT</idno>
+               <date from="1996-01-15" to="2022-05-19">15.01.1996 - 19.05.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
         </p>
-        <p xml:lang="en">
-          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-        </p>
-      </projectDesc>
-      <editorialDecl>
-        <correction>
-          <p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>
             No correction of source texts was performed.
           </p>
-        </correction>
-        <normalization>
-          <p>
+            </correction>
+            <normalization>
+               <p>
             Text has not been normalised, except for spacing. Printed matter quoted in the protocols was removed
           </p>
-        </normalization>
-        <hyphenation>
-          <p>
+            </normalization>
+            <hyphenation>
+               <p>
             No end-of-line hyphens were present in the source.
           </p>
-        </hyphenation>
-        <quotation>
-          <p>
+            </hyphenation>
+            <quotation>
+               <p>
             Quotation marks have been left in the text and are not explicitly marked up.
           </p>
-        </quotation>
-        <segmentation>
-          <p>
+            </quotation>
+            <segmentation>
+               <p>
             The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).
           </p>
-        </segmentation>
-      </editorialDecl>
-      <tagsDecl>
-        <!--These numbers do not reflect the size of the sample!-->
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="body" occurs="1234"/>
-          <tagUsage gi="div" occurs="1234"/>
-          <tagUsage gi="head" occurs="1234"/>
-          <tagUsage gi="note" occurs="1234"/>
-          <tagUsage gi="seg" occurs="1234"/>
-          <tagUsage gi="text" occurs="1234"/>
-          <tagUsage gi="u" occurs="1234"/>
-        </namespace>
-      </tagsDecl>
-      <classDecl>
-        <!-- One or more optional taxonomies, with which we further classify the content and structure of parliamentary debates -->
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
-      </classDecl>
-    </encodingDesc>
-    <profileDesc>
-      <settingDesc>
-        <setting>
-          <!-- Location (posible values: city, street, address) of parliamentary sessions -->
-          <name type="city" xml:lang="de">Wien</name>
-          <name type="city" xml:lang="en">Vienna</name>
-          <!-- In which country the parliament is located: in attribute @key use ISO 3166 country code -->
-          <name type="country" xml:lang="de" key="AT">Österreich</name>
-          <name type="country" xml:lang="en" key="AT">Austria</name>
-          <!-- Time range of the whole corpus of parliamentary debates -->
-          <date from="1996-01-15" to="2022-04-27"/>
-        </setting>
-      </settingDesc>
-      <textClass>
-        <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower"/>
-      </textClass>
-      <particDesc>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT-listOrg.xml"/>
-        <!-- List of speakers with their metadata -->
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT-listPerson.xml"/>
-      </particDesc>
-      <langUsage>
-        <language ident="de" xml:lang="de">Deutsch</language>
-        <language ident="de" xml:lang="en">German</language>
-        <language ident="en" xml:lang="de">Englisch</language>
-        <language ident="en" xml:lang="en">English</language>
-      </langUsage>
-    </profileDesc>
-  </teiHeader>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057.xml"/>
-  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.xml"/>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1234"/>
+               <tagUsage gi="div" occurs="1234"/>
+               <tagUsage gi="head" occurs="1234"/>
+               <tagUsage gi="note" occurs="1234"/>
+               <tagUsage gi="seg" occurs="1234"/>
+               <tagUsage gi="text" occurs="1234"/>
+               <tagUsage gi="u" occurs="1234"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" xml:lang="de" key="AT">Österreich</name>
+               <name type="country" xml:lang="en" key="AT">Austria</name>
+               <date from="1996-01-15" to="2022-04-27"/>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.bi #parla.lower"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-AT-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-AT-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="de" xml:lang="de">Deutsch</language>
+            <language ident="de" xml:lang="en">German</language>
+            <language ident="en" xml:lang="de">Englisch</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-14">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.xml"/>
 </teiCorpus>

@@ -51,26 +51,26 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:for-each select="tei:text/tei:body/tei:div/tei:*">
+    <xsl:for-each select="tei:text/tei:body/tei:div[tei:u]/tei:*">
       <xsl:choose>
         <xsl:when test="self::tei:u">
           <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
           <speech id="{$speech_id}" text_id="{$text_id}"
                   subcorpus="{$subcorpus}"
-                  house="{$house}" term="{$term}" session="{$session}"
+                  body="{$body}" term="{$term}" session="{$session}"
                   meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
-                  from="{$date-from}" to="{$date-to}" title="{$title}">
+                  date="{$at-date}" title="{$title}">
             <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
             <xsl:choose>
             <xsl:when test="@who">
               <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
               <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
               <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
-              <!-- If they change name between $date-from and $date-to, we fake it -->
               <xsl:attribute name="speaker_name" select="et:format-name-chrono(
                                                          $speaker//tei:persName, 
-                                                         $date-from)"/>
-              <xsl:attribute name="speaker_type" select="et:speaker-type($speaker)"/>
+                                                         $at-date)"/>
+              <xsl:attribute name="speaker_mp" select="et:speaker-mp($speaker)"/>
+              <xsl:attribute name="speaker_minister" select="et:speaker-minister($speaker)"/>
               <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
               <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
               <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
@@ -94,9 +94,13 @@
           </speech>
           <xsl:text>&#10;</xsl:text>
         </xsl:when>
-        <xsl:otherwise>
+	<!-- Process transcriber note only if last in the series, 
+	     as they are empty elements in vert -->
+        <xsl:when test="not(preceding::tei:*[1]
+			[self::tei:head | self::tei:note | self::tei:gap |
+			self::tei:vocal | self::tei:incident | self::tei:kinesic])">
           <xsl:apply-templates select="."/>
-        </xsl:otherwise>
+	</xsl:when>
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>
@@ -119,6 +123,9 @@
           <xsl:when test="@reason">
             <xsl:value-of select="concat(name(), '::', @reason)"/>
           </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat(name(), ':-')"/> 
+	  </xsl:otherwise>	  
         </xsl:choose>
       </xsl:attribute>
       <xsl:attribute name="content">
