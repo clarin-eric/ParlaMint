@@ -13,6 +13,7 @@
      The program:
      - sets release date, default = today
      - sets version and handles, default = 3.0
+     - sets top level @xml:id so it is the same as the filename
      - set correct ParlaMint stamp in main titles
      - set correct reference / COVID subcorpus, default > 2019-11-01
      - set English project description, default = ParlaMint II
@@ -227,6 +228,15 @@
     <xsl:copy/>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:TEI/@xml:id">
+    <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
+    <xsl:attribute name="xml:id" select="$id"/>
+    <xsl:if test=". != $id">
+      <xsl:message select="concat('WARN ', @xml:id, 
+                               ': fixing TEI/@xml:id to ', $id)"/>
+    </xsl:if>
+  </xsl:template>
+  
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
@@ -399,6 +409,15 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="tei:teiCorpus/@xml:id">
+    <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
+    <xsl:attribute name="xml:id" select="$id"/>
+    <xsl:if test=". != $id">
+      <xsl:message select="concat('WARN ', @xml:id, 
+                               ': fixing teiCorpus/@xml:id to ', $id)"/>
+    </xsl:if>
+  </xsl:template>
+  
   <!-- Check if we have a correct stamp, and if it is correct, replace if not -->
   <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
     <xsl:variable name="okStamp">
