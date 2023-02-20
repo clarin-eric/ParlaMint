@@ -147,7 +147,7 @@
         <a:documentation>Simple word:</a:documentation>
         <group>
           <ref name="word.atts"/>
-	  <ref name="non-empty.string"/>
+	  <ref name="normalized-space.string"/>
         </group>
         <a:documentation>Word with several normalised words:</a:documentation>
         <group>
@@ -167,7 +167,7 @@
           <ref name="word.atts"/>
           <oneOrMore>
             <element name="w">
-	      <ref name="non-empty.string"/>
+	      <ref name="normalized-space.string"/>
             </element>
           </oneOrMore>
           <empty/>
@@ -240,7 +240,7 @@
     <a:documentation>Obligatory attributes of word.</a:documentation>
     <ref name="token.atts"/>
     <attribute name="lemma">
-      <ref name="non-empty.string"/>
+      <ref name="normalized-space.string"/>
     </attribute>
   </define>
 
@@ -268,7 +268,7 @@
     </optional>
     <optional>
       <attribute name="lemma">
-	<ref name="non-empty.string"/>
+	<ref name="normalized-space.string"/>
       </attribute>
     </optional>
   </define>
