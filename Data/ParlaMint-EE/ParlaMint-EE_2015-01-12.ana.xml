@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="ParlaMint-EE_2015-01-12.ana" ana="#parla.sitting #reference">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="ParlaMint-EE_2015-01-12" ana="#parla.sitting #reference">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2015-01-12 [ParlaMint.ana SAMPLE]</title>
-        <title xml:lang="en" type="sub">XII Parliament term, IX Session, Plenary Assembly regular meeting on Monday, 12.01.2015, 15:00</title>
         <title xml:lang="et" type="sub">XII Riigikogu, IX Istungjärk, täiskogu korraline istung Esmaspäev, 12.01.2015, 15:00</title>
-        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2015-01-12">2015-01-12</meeting>
-        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs9">IX regular session</meeting>
+        <title xml:lang="en" type="sub">XII Parliament term, IX Session, Plenary Assembly regular meeting on Monday, 12.01.2015, 15:00</title>
         <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs9">IX regular session</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2015-01-12">2015-01-12</meeting>
         <respStmt>
-          <persName>Martin Mölder</persName>
-          <persName>Neeme Kahusk</persName>
-          <persName>Kadri Vider</persName>
+          <persName ref="https://orcid.org/0000-0002-9701-1771">Martin Mölder</persName>
+          <persName ref="https://orcid.org/0000-0003-0511-5854">Neeme Kahusk</persName>
+          <persName ref="https://orcid.org/0000-0003-0966-8341">Kadri Vider</persName>
           <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
         </respStmt>
         <funder>
@@ -23,10 +23,7 @@
       <editionStmt>
         <edition>2.1</edition>
       </editionStmt>
-      <extent>
-        <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
-        <measure quantity="1000" unit="words" xml:lang="en">1000 words</measure>
-      </extent>
+      <extent/>
       <publicationStmt>
         <publisher>
           <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
@@ -37,12 +34,12 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
         </availability>
-        <date when="2023-02-01">2023-02-01</date>
+        <date when="2023-02-15">2023-02-15</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
-          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201501121500</idno>
+          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201104041500</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -55,6 +52,9 @@
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="note" occurs="84"/>
+          <tagUsage gi="u" occurs="84"/>
+          <tagUsage gi="seg" occurs="124"/>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -65,7 +65,7 @@
           <name type="address">Lossi plats 1a</name>
           <name type="city">Tallinn</name>
           <name type="country" key="EE">Estonia</name>
-          <date ana="#parla.meeting" when="2015-01-12">2015-01-12</date>
+          <date when="2015-01-12">2015-01-12</date>
         </setting>
       </settingDesc>
     </profileDesc>

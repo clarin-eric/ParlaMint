@@ -4,15 +4,15 @@
     <fileDesc>
       <titleStmt>
         <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE, 2022-01-13 [ParlaMint SAMPLE]</title>
-        <title xml:lang="en" type="sub">XIV Parliament term, VII istungjärk, Plenary Assembly meeting on Thursday, 13.01.2022, 10:00</title>
         <title xml:lang="et" type="sub">XIV Riigikogu, VII istungjärk, täiskogu istung Neljapäev, 13.01.2022, 10:00</title>
-        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2022-01-13">2022-01-13</meeting>
-        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs7">VII regular session</meeting>
+        <title xml:lang="en" type="sub">XIV Parliament term, VII istungjärk, Plenary Assembly meeting on Thursday, 13.01.2022, 10:00</title>
         <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK14">XIV Riigikogu</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.session" n="rs7">VII regular session</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.sitting" n="2022-01-13">2022-01-13</meeting>
         <respStmt>
-          <persName>Martin Mölder</persName>
-          <persName>Neeme Kahusk</persName>
-          <persName>Kadri Vider</persName>
+          <persName ref="https://orcid.org/0000-0002-9701-1771">Martin Mölder</persName>
+          <persName ref="https://orcid.org/0000-0003-0511-5854">Neeme Kahusk</persName>
+          <persName ref="https://orcid.org/0000-0003-0966-8341">Kadri Vider</persName>
           <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
         </respStmt>
         <funder>
@@ -23,10 +23,7 @@
       <editionStmt>
         <edition>2.1</edition>
       </editionStmt>
-      <extent>
-        <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
-        <measure quantity="1000" unit="words" xml:lang="en">1000 words</measure>
-      </extent>
+      <extent/>
       <publicationStmt>
         <publisher>
           <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
@@ -37,12 +34,12 @@
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
           <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
         </availability>
-        <date when="2023-02-01">2023-02-01</date>
+        <date when="2023-02-15">2023-02-15</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
           <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
-          <idno type="URI">https://stenogrammid.riigikogu.ee/et/202201131000</idno>
+          <idno type="URI">https://stenogrammid.riigikogu.ee/et/201104041500</idno>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -55,6 +52,9 @@
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="note" occurs="74"/>
+          <tagUsage gi="u" occurs="62"/>
+          <tagUsage gi="seg" occurs="83"/>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -65,7 +65,7 @@
           <name type="address">Lossi plats 1a</name>
           <name type="city">Tallinn</name>
           <name type="country" key="EE">Estonia</name>
-          <date ana="#parla.meeting" when="2022-01-13">2022-01-13</date>
+          <date when="2022-01-13">2022-01-13</date>
         </setting>
       </settingDesc>
     </profileDesc>
@@ -79,7 +79,7 @@
         </u>
         <note type="speaker">Heljo Pikhof</note>
         <u who="#h_pikhof_19581020" xml:id="ParlaMint-EE_2022-01-13_U2" ana="#regular">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U2-P1">Aitäh, austatud juhataja! Head Riigikogu liikmed! Mul on hea meel (Juhataja helistab kella.) sotsiaaldemokraatide poolt üle anda pühade ja tähtpäevade seaduse muutmise eelnõu, mille eesmärk on anda inimestele nädalavahetusele langenud rahvuspüha või riigipüha eest täiendav puhkepäev. (Juhataja helistab kella.) Kui nüüd võrrelda Euroopaga, siis Eestis tehakse keskmisest enam nii tööpäevi kui ka töötunde ja meie inimesed ...</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U2-P1">Aitäh, austatud juhataja! Head Riigikogu liikmed! Mul on hea meel <note>(Juhataja helistab kella.)</note> sotsiaaldemokraatide poolt üle anda pühade ja tähtpäevade seaduse muutmise eelnõu, mille eesmärk on anda inimestele nädalavahetusele langenud rahvuspüha või riigipüha eest täiendav puhkepäev. <note>(Juhataja helistab kella.)</note> Kui nüüd võrrelda Euroopaga, siis Eestis tehakse keskmisest enam nii tööpäevi kui ka töötunde ja meie inimesed ...</seg>
         </u>
         <note type="speaker">Jüri Ratas</note>
         <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-01-13_U3" ana="#chair">
@@ -87,7 +87,7 @@
         </u>
         <note type="speaker">Heljo Pikhof</note>
         <u who="#h_pikhof_19581020" xml:id="ParlaMint-EE_2022-01-13_U4" ana="#regular">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U4-P1">Ma proovisin küll hästi kõvasti rääkida, aga ei rääkinud ikka üle. Kui võrrelda Euroopaga, siis Eestis tehakse keskmisest enam nii tööpäevi kui ka töötunde ehk meie inimesed saavad vähem puhata. Aastate lõikes on puhkepäevade arv erinev. Alanud aastal jäävad meie tööinimesed ilma lausa viiest vabast päevast, kuna riigipüha on sattunud kas laupäevale või pühapäevale. Igati mõistlik on muuta seadust nii, et inimesed saaksid pisut pikemalt puhata. (Juhataja helistab kella.) Sotsiaaldemokraatide eelnõu annab nädalavahetusele sattuva riigipüha eest lisapuhkepäeva järgmisel tööpäeval. Ja vaba päeva muidugi ei saa riigipüha eest, mis on alati pühapäeval ehk ülestõusmispühade esimest püha ei hüvitata.</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U4-P1">Ma proovisin küll hästi kõvasti rääkida, aga ei rääkinud ikka üle. Kui võrrelda Euroopaga, siis Eestis tehakse keskmisest enam nii tööpäevi kui ka töötunde ehk meie inimesed saavad vähem puhata. Aastate lõikes on puhkepäevade arv erinev. Alanud aastal jäävad meie tööinimesed ilma lausa viiest vabast päevast, kuna riigipüha on sattunud kas laupäevale või pühapäevale. Igati mõistlik on muuta seadust nii, et inimesed saaksid pisut pikemalt puhata. <note>(Juhataja helistab kella.)</note> Sotsiaaldemokraatide eelnõu annab nädalavahetusele sattuva riigipüha eest lisapuhkepäeva järgmisel tööpäeval. Ja vaba päeva muidugi ei saa riigipüha eest, mis on alati pühapäeval ehk ülestõusmispühade esimest püha ei hüvitata.</seg>
           <seg xml:id="ParlaMint-EE_2022-01-13_U4-P2">Võib-olla ka mõned näited. Lisapuhkepäevi nädalavahetusel sattunud riigipüha eest antakse näiteks Belgias, Bulgaarias, Hispaanias, Iirimaal ja Luksemburgis. Maltal kompenseeritakse nädalavahetusele sattunud riigipühad osaliselt. Oleme ka kindlad, et see kuidagi ei ohusta meie majandust. Kui inimesed on välja puhanud, siis on neil ka suurem töötahe ja tööviljakus. Aitäh! Elektrooniliselt on üle antud.</seg>
         </u>
         <note type="speaker">Jüri Ratas</note>
@@ -120,7 +120,7 @@
         </u>
         <note type="speaker">Mart Helme</note>
         <u who="#m_helme_19491031" xml:id="ParlaMint-EE_2022-01-13_U12" ana="#regular">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U12-P1">Aitäh, härra eesistuja! Mul on põhimõtteliselt samateemaline ... (Juhataja helistab kella.) ... küsimus. Oleks palve Riigikogu esimehele ja juhatusele, et me järgmist nädalat ei alustaks täpselt samasuguse protseduuriliste küsimuste tulevärgiga, nagu me käesolevat nädalat alustasime. Praegu on nädalalõpp, neljapäev-reede on tööpäevad, võib-olla teil õnnestub välja selgitada ikkagi järgmise nädala kontekstis, et peaminister tuleks siia spetsiaalselt arutama hinnatõusude – mitte ainult elektri hinna tõusu, vaid hinnatõusude –, nende kompenseerimise ja inimeste sissetulekute küsimust. Me ju näeme, kuidas ühiskond praegu sõna otseses mõttes keeb, ja ma olen täiesti nõus Argo Ideoniga, kes kirjutab tänases Maalehes, et kõigil on juhtmed koos ja akud tühjad. Katsume need juhtmed lahti harutada ja akud ära täita, aga selleks on meil vaja peaministrit ja peaministri selgeid sõnumeid ja visioone ja nägemusi, mis siis ikkagi saama hakkab. Panen teile südamele, et te välja selgitate ... (Juhataja helistab kella.) ... et järgmisel nädalal oleks tõepoolest peaminister meie ees ja mitte ei täidaks oma rutiinset kohustust infotunni näol, vaid tuleks spetsiaalselt.</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U12-P1">Aitäh, härra eesistuja! Mul on põhimõtteliselt samateemaline ... <note>(Juhataja helistab kella.)</note> ... küsimus. Oleks palve Riigikogu esimehele ja juhatusele, et me järgmist nädalat ei alustaks täpselt samasuguse protseduuriliste küsimuste tulevärgiga, nagu me käesolevat nädalat alustasime. Praegu on nädalalõpp, neljapäev-reede on tööpäevad, võib-olla teil õnnestub välja selgitada ikkagi järgmise nädala kontekstis, et peaminister tuleks siia spetsiaalselt arutama hinnatõusude – mitte ainult elektri hinna tõusu, vaid hinnatõusude –, nende kompenseerimise ja inimeste sissetulekute küsimust. Me ju näeme, kuidas ühiskond praegu sõna otseses mõttes keeb, ja ma olen täiesti nõus Argo Ideoniga, kes kirjutab tänases Maalehes, et kõigil on juhtmed koos ja akud tühjad. Katsume need juhtmed lahti harutada ja akud ära täita, aga selleks on meil vaja peaministrit ja peaministri selgeid sõnumeid ja visioone ja nägemusi, mis siis ikkagi saama hakkab. Panen teile südamele, et te välja selgitate ... <note>(Juhataja helistab kella.)</note> ... et järgmisel nädalal oleks tõepoolest peaminister meie ees ja mitte ei täidaks oma rutiinset kohustust infotunni näol, vaid tuleks spetsiaalselt.</seg>
         </u>
         <note type="speaker">Jüri Ratas</note>
         <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-01-13_U13" ana="#chair">
@@ -224,7 +224,7 @@
         </u>
         <note type="speaker">Peeter Ernits</note>
         <u who="#p_ernits_19530611" xml:id="ParlaMint-EE_2022-01-13_U36" ana="#regular">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U36-P1">Hea juhataja! Jah, see eelmine jutt sobib minu jutu alguseks. Erakorraline aeg nõuab erakorralisi samme, ja kas see on nüüd protseduuriliste laviiniga, aga ma vaatan saali ja uskumatult palju kolleege istub siin, kuigi meil midagi teha ametlikult ei ole, kuna menüüd ei ole. Istuvad siin kolleegid Eesmaa ja Mihkelson ja Ligi ja Repinski ja Everaus ja Signe Kivi ütles, et on, ja Akkermann (Juhataja helistab kella.) ja kõik lugupeetud inimesed istuvad siin, Viidik-saadik ja nii edasi. Kõik tahaksid tööd teha. Opositsioonist rääkimata: Heljo Pikhof, Igor Kravtšenko, ja kõik tahaksid. Ja meil on korraga multikriisid või kobarkriisid: energiakriis, koroonakriis, julgeolekukriis. Kohe tuleb või on juba alanud majanduskriis. Ja kõik kolleegid tahaksid tööd teha, aga protseduurid ei luba. Ja nagu te ütlesite, me võiksime ka pimedas siin rääkida. Võib-olla peaks kasutama seda võimalust? Kas te ei saaks kasutada? Erakorraline aeg nõuab erakorralisi samme. Me läheme kohe laiali praegu ja meie valijatega kohtumisel öeldakse, mida te seal molutate, sööte kalamarja ja, ma ei tea, mida iganes, onju. Aga maa põleb jalge all. Kas ei võiks praegu seda potentsiaali, mida ma näen, kolleegidel, kasutada ära? Kõnepult võiks lahti olla. Kordan: erakorraline aeg nõuab erakorralisi samme. Või me oleme protseduuride vangid?</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U36-P1">Hea juhataja! Jah, see eelmine jutt sobib minu jutu alguseks. Erakorraline aeg nõuab erakorralisi samme, ja kas see on nüüd protseduuriliste laviiniga, aga ma vaatan saali ja uskumatult palju kolleege istub siin, kuigi meil midagi teha ametlikult ei ole, kuna menüüd ei ole. Istuvad siin kolleegid Eesmaa ja Mihkelson ja Ligi ja Repinski ja Everaus ja Signe Kivi ütles, et on, ja Akkermann <note>(Juhataja helistab kella.)</note> ja kõik lugupeetud inimesed istuvad siin, Viidik-saadik ja nii edasi. Kõik tahaksid tööd teha. Opositsioonist rääkimata: Heljo Pikhof, Igor Kravtšenko, ja kõik tahaksid. Ja meil on korraga multikriisid või kobarkriisid: energiakriis, koroonakriis, julgeolekukriis. Kohe tuleb või on juba alanud majanduskriis. Ja kõik kolleegid tahaksid tööd teha, aga protseduurid ei luba. Ja nagu te ütlesite, me võiksime ka pimedas siin rääkida. Võib-olla peaks kasutama seda võimalust? Kas te ei saaks kasutada? Erakorraline aeg nõuab erakorralisi samme. Me läheme kohe laiali praegu ja meie valijatega kohtumisel öeldakse, mida te seal molutate, sööte kalamarja ja, ma ei tea, mida iganes, onju. Aga maa põleb jalge all. Kas ei võiks praegu seda potentsiaali, mida ma näen, kolleegidel, kasutada ära? Kõnepult võiks lahti olla. Kordan: erakorraline aeg nõuab erakorralisi samme. Või me oleme protseduuride vangid?</seg>
         </u>
         <note type="speaker">Jüri Ratas</note>
         <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-01-13_U37" ana="#chair">
@@ -278,7 +278,7 @@
         </u>
         <note type="speaker">Peeter Ernits</note>
         <u who="#p_ernits_19530611" xml:id="ParlaMint-EE_2022-01-13_U48" ana="#regular">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U48-P1">Hea juhataja! Ma lähen edasi sellest minu viimasest küsimusest. Ma näen praegu, et meie read on täienenud järjest, kohale on saabunud kolleeg Michael, kes on Reformierakonna fraktsiooni esimees ja kes tuli välja väga suurepärase ideega. (Hääled saalist.) Ei ole või? (Juhataja helistab kella.) Aga igal juhul väga huvitava ideega.</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U48-P1">Hea juhataja! Ma lähen edasi sellest minu viimasest küsimusest. Ma näen praegu, et meie read on täienenud järjest, kohale on saabunud kolleeg Michael, kes on Reformierakonna fraktsiooni esimees ja kes tuli välja väga suurepärase ideega. <note>(Hääled saalist.)</note> Ei ole või? <note>(Juhataja helistab kella.)</note> Aga igal juhul väga huvitava ideega.</seg>
         </u>
         <note type="speaker">Jüri Ratas</note>
         <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-01-13_U49" ana="#chair">
@@ -286,13 +286,13 @@
         </u>
         <note type="speaker">Peeter Ernits</note>
         <u who="#p_ernits_19530611" xml:id="ParlaMint-EE_2022-01-13_U50" ana="#regular">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U50-P1">Jaa, et ma lihtsalt juhin tähelepanu, et kolleeg Michal on saabunud siia selle kõikide meie ... (Hääled saalis.) ... raskekahurväe Enn Eesmaa ja härra Mihkelsoni ja nende kõrvale. Ja kõik tahaksid nagu tööd teha ja arutada. Miks me ei luba seda kõnetooli praegu kasutada? Erakorraline aeg nõuab erakorralisi meetmeid.</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U50-P1">Jaa, et ma lihtsalt juhin tähelepanu, et kolleeg Michal on saabunud siia selle kõikide meie ... <note>(Hääled saalis.)</note> ... raskekahurväe Enn Eesmaa ja härra Mihkelsoni ja nende kõrvale. Ja kõik tahaksid nagu tööd teha ja arutada. Miks me ei luba seda kõnetooli praegu kasutada? Erakorraline aeg nõuab erakorralisi meetmeid.</seg>
         </u>
         <note type="speaker">Jüri Ratas</note>
         <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-01-13_U51" ana="#chair">
           <seg xml:id="ParlaMint-EE_2022-01-13_U51-P1">Aitäh! Minu meelest see on tore, et me, et te toetate üksteist ja see positiivne sõnum ametikaaslase Kristen Michali suunas on igati tervitatav, et te annate ka teada, kes siia saabub. See on väga hea. Nüüd ma pean küll ühe täpsustuse tegema stenogrammi huvides. Vähemalt 15.30-ni on minu teada registreeritud Reformierakonna fraktsiooni esimees Mart Võrklaev. Kui siin mingeid muutusi on toimunud, minul ei ole seda infot täna, nii et selles mõttes ma lükkan tagasi. Aga 15.30 juhatus koguneb, ma ei tea, mis kirjad tulevad fraktsioonidest. Me vaatame alati kõik kirjad kiiresti läbi. Nii. Rohkem protseduurilisi küsimusi ei ole.</seg>
-          <seg xml:id="ParlaMint-EE_2022-01-13_U51-P2">Nüüd ma korraks vabandan, ametikaaslased, ma pean pöörduma korraks protseduur ... (Hääl saalist.) Ahah, meil ei olnud, infoks lihtsalt, meil ei olnud, kui Heljo Pikhof andis üle eelnõu, ta ütles, et see on edastatud elektrooniliselt, seda polnud. Ma oleks palunud, et ta annaks üle siit kõnetoolist selle. Aga nüüd tuli info, et see ikkagi nüüd just saabus elektrooniliselt. Nii et, head ametikaaslased, ma olen Riigikogu juhatuse nimel vastu võtnud ühe eelnõu ning vastavalt meie kodu- ja töökorra seadusele juhatus arutab tõsiselt selle eelnõu edasist menetlemist.</seg>
-          <seg xml:id="ParlaMint-EE_2022-01-13_U51-P3">Head ametikaaslased! Teated. Aga nii nagu on selleks, ütleme, traditsiooniks saanud jah, protseduuriline küsimus, Priit Sibul, palun! (Naer saalis.)</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U51-P2">Nüüd ma korraks vabandan, ametikaaslased, ma pean pöörduma korraks protseduur ... <note>(Hääl saalist.)</note> Ahah, meil ei olnud, infoks lihtsalt, meil ei olnud, kui Heljo Pikhof andis üle eelnõu, ta ütles, et see on edastatud elektrooniliselt, seda polnud. Ma oleks palunud, et ta annaks üle siit kõnetoolist selle. Aga nüüd tuli info, et see ikkagi nüüd just saabus elektrooniliselt. Nii et, head ametikaaslased, ma olen Riigikogu juhatuse nimel vastu võtnud ühe eelnõu ning vastavalt meie kodu- ja töökorra seadusele juhatus arutab tõsiselt selle eelnõu edasist menetlemist.</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U51-P3">Head ametikaaslased! Teated. Aga nii nagu on selleks, ütleme, traditsiooniks saanud jah, protseduuriline küsimus, Priit Sibul, palun! <note>(Naer saalis.)</note></seg>
         </u>
         <note type="speaker">Priit Sibul</note>
         <u who="#p_sibul_19771231" xml:id="ParlaMint-EE_2022-01-13_U52" ana="#regular">
@@ -339,7 +339,7 @@
         </u>
         <note type="speaker">Jüri Ratas</note>
         <u who="#j_ratas_19780702" xml:id="ParlaMint-EE_2022-01-13_U62" ana="#chair">
-          <seg xml:id="ParlaMint-EE_2022-01-13_U62-P1">Aitäh teile, härra Grünthal! Jaa, siin kohaloleku kontrolli eel ei ole meil nõutav kutsung. Nii et minu meelest see on vist esmakordne, ma ei mäleta küll, et teie oleksite eksinud, aga siin on väike eksimus teil praegu protseduurilise küsimuse sees, kutsungit pole vaja. (Naerab.)</seg>
+          <seg xml:id="ParlaMint-EE_2022-01-13_U62-P1">Aitäh teile, härra Grünthal! Jaa, siin kohaloleku kontrolli eel ei ole meil nõutav kutsung. Nii et minu meelest see on vist esmakordne, ma ei mäleta küll, et teie oleksite eksinud, aga siin on väike eksimus teil praegu protseduurilise küsimuse sees, kutsungit pole vaja. <note>(Naerab.)</note></seg>
           <seg xml:id="ParlaMint-EE_2022-01-13_U62-P2">Head ametikaaslased, kuna täna on meil päevakorda ei ole, siis istung on lõppenud. Turvalist koduteed ja jõudu tööle!</seg>
         </u>
       </div>
