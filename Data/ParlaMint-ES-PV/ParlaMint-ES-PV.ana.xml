@@ -1,0 +1,4022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eu" xml:id="ParlaMint-ES-PV.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="eu">Eusko Legebiltzarreko corpusa ParlaMint-ES-PV</title>
+	          <title type="main" xml:lang="es">Corpus del Parlamento Vasco ParlaMint-ES-PV</title>
+            <title type="main" xml:lang="en">Basque parliamentary corpus ParlaMint-ES-PV</title>
+            <title type="sub" xml:lang="eu">Eusko Legebiltzarraren aktak, X., XI. eta XII. legegintzaldiak (2015 - 2022)</title>
+	          <title type="sub" xml:lang="es">Actas del Parlamento Vasco, legislaturas X, XI y XII (2015 - 2022)</title>
+            <title type="sub" xml:lang="en">Minutes of the Basque Parliament, Term X, XI and XII (2015 - 2022)</title>
+            <meeting ana="#parla.lower #parla.term" n="10">10. agintaldia</meeting>
+            <meeting ana="#parla.lower #parla.term" n="11">11. agintaldia</meeting>
+            <meeting ana="#parla.lower #parla.term" n="12">12. agintaldia</meeting>
+            <respStmt>
+              <persName ref="https://orcid.org/0000-0002-6121-3902">Mikel Iruskieta</persName>
+              <resp xml:lang="en">Data retrieval and curation</resp>
+            </respStmt>
+            <respStmt>
+              <persName>Kike Fernandez</persName>
+              <resp xml:lang="en">Technical aupport and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+              <persName>Matyáš Kopp</persName>
+              <resp xml:lang="en">Technical aupport and support for bilingual analysis</resp>
+            </respStmt>
+            <respStmt>
+              <persName>Jon Alkorta</persName>
+	      <resp xml:lang="eu">Parla-CLARIN TEI XML corpusaren kodeketa</resp>
+	      <resp xml:lang="es">Codificación de corpus XML Parla-CLARIN TEI</resp>
+              <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="eu">CLARIN ikerketa azpiegitura</orgName>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+           <orgName xml:lang="eu">HiTZ - Ixa Taldea (UPV/EHU)</orgName>
+	         <orgName xml:lang="es">HiTZ - Grupo Ixa (UPV/EHU)</orgName>
+           <orgName xml:lang="en">HiTZ - Ixa Group (UPV/EHU)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>
+              <measure unit="speeches" quantity="75122" xml:lang="eu">75122 hitzaldiak</measure>
+            <measure unit="speeches" quantity="75122" xml:lang="es">75122 charlas</measure>
+            <measure unit="speeches" quantity="75122" xml:lang="en">75122 speeches</measure>
+            <measure unit="words" quantity="20190034" xml:lang="eu">20190034 hitzak</measure>
+	           <measure unit="words" quantity="20190034" xml:lang="es">20190034 palabras</measure>
+            <measure unit="words" quantity="20190034" xml:lang="en">20190034 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="eu">CLARIN ikerketa azpiegitura</orgName>
+	              <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="handle">https://hdl.handle.net/11356/1345</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="eu">Lan hau <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Aitortu 4.0 Nazioarteko Lizentzia</ref>pean dago.</p>
+	              <p xml:lang="es">Este trabajo tiene la licencia de <ref target ="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+               <p xml:lang="en">This work is licensed under the <ref target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2022-11-24">2022-11-24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="eu">Eusko Legebiltzarreko aktak</title>
+	              <title type="main" xml:lang="es">Actas del Parlamento Vasco</title>
+               <title type="main" xml:lang="en">Minutes of the the Basque Parliament</title>
+               <idno type="URI" subtype="parliament">https://www.legebiltzarra.eus/portal/eu</idno>
+               <date from="2015-02-01" to="2022-07-01">2015-02-01 - 2022-07-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="eu">
+              <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            proiektuaren helburuak honakoak dira: (1) corpus konparagarrien multzo eleaniztun bat sortzea
+             legebiltzarretako testuekin, kodetzeko prozedura komun eta uniformeak erabiliz
+             (ikus <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN gomendioak</ref>)
+              COVID-19 pandemiaren garaiko testuak bilduz, 2019ko azarotik aurrera. Horrez gain,
+              2015 ondoren aldia ere bildu da, erreferentziazko corpus gisa erabiltzeko;
+              (2) corpus guztiak modu berean analizatu dira informazio sintaktikoa erantsiz
+              (Universal Dependencies hurbilpena erabiliz) eta baita izen berezien informazioa erantsiz;
+              (3) testuak Parlameter tresnan eta web ingurune batean jarri dira eskuragarri
+               konkordantzia bilaketak egiteko
+              eta (4) Humanitateetarako eta Politika Zientzietarako erabilera-kasuak eraiki nahi dira
+              legebiltzarretako corpuseko datuetan oinarrituta.
+           </p>
+            <p xml:lang="es">
+              <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            es un proyecto que tiene como objetivo
+            (1) crear un conjunto multilingüe de corpus comparables
+             de procedimientos parlamentarios codificados uniformemente de acuerdo con
+             las <ref target="https://github.com/clarin-eric/parla-clarin">recomendaciones Parla-CLARIN</ref>
+             y cubriendo la época de la pandemia del COVID-19, desde noviembre de 2019,
+              así como el período anterior desde el año 2015 para que pueda servir como corpus de referencia;
+              (2) procesar todos los corpus lingüísticamente de la misma forma incluyendo la información sintáctica
+              (Universal Dependencies) y la información de nombres propios (o entidades nombradas);
+              (3) poner disponibles con la herramienta Parlameter y un entorno web para realizar búsquedas de concordancias
+              y (4) construir casos de uso para las Humanidades y las Ciencias Políticas
+              basados ​​en los datos del corpus. </p>
+            <p xml:lang="en">
+              <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to
+              (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded
+              according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>
+              and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015
+              to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies
+              syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter;
+               and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="https://www.tei-c.org/ns/1.0"> <!--        ONDO JARRI KONTAKETAK                -->
+               <tagUsage gi="body" occurs="414"/>
+               <tagUsage gi="div" occurs="414"/>
+               <tagUsage gi="head" occurs="826"/>
+               <tagUsage gi="link" occurs="1"/>
+               <tagUsage gi="linkGrp" occurs="1"/>
+               <tagUsage gi="name" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+               <tagUsage gi="pc" occurs="1"/>
+               <tagUsage gi="s" occurs="1"/>
+               <tagUsage gi="seg" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="w" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature">
+               <desc xml:lang="eu"><term>Legealdia</term></desc>
+	              <desc xml:lang="es"><term>Legislatura</term></desc>
+               <desc xml:lang="en"><term>Legislature</term></desc>
+               <category xml:id="parla.geo-political">
+                  <catDesc xml:lang="eu"><term>Unitate geopolitikoak edo administratiboak</term></catDesc>
+		           <catDesc xml:lang="es"><term>Unidades geopolíticas o administrativas</term></catDesc>
+                <catDesc xml:lang="en"><term>Geo-political or administrative units</term></catDesc>
+            <category xml:id="parla.supranational">
+                  <catDesc xml:lang="eu"><term>Nazioz gaindiko legealdia</term></catDesc>
+		              <catDesc xml:lang="es"><term>Legislatura supranacional</term></catDesc>
+                  <catDesc xml:lang="en"><term>Supranational legislature</term></catDesc>
+            </category>
+            <category xml:id="parla.national">
+                     <catDesc xml:lang="eu"><term>Legealdi nazionala</term></catDesc>
+		                 <catDesc xml:lang="es"><term>Legislatura nacional</term></catDesc>
+                     <catDesc xml:lang="en"><term>National legislature</term></catDesc>
+            </category>
+            <category xml:id="parla.regional">
+                     <catDesc xml:lang="eu"><term>Eskualde legegintzaldia</term></catDesc>
+		                   <catDesc xml:lang="es"><term>Legislatura regional</term></catDesc>
+                     <catDesc xml:lang="en"><term>Regional legislature</term></catDesc>
+            </category>
+            <category xml:id="parla.local">
+                     <catDesc xml:lang="eu"><term>Tokiko legealdia</term></catDesc>
+		                   <catDesc xml:lang="es"><term>Legislatura local</term></catDesc>
+                     <catDesc xml:lang="en"><term>Local legislature</term></catDesc>
+            </category>
+            </category>
+               <category xml:id="parla.organization">
+                  <catDesc xml:lang="eu"><term>Antolaketa</term></catDesc>
+		                <catDesc xml:lang="es"><term>Organización</term></catDesc>
+                  <catDesc xml:lang="en"><term>Organization</term></catDesc>
+                  <category xml:id="parla.chambers">
+                     <catDesc xml:lang="eu"><term>Ganberak</term></catDesc>
+		     <catDesc xml:lang="es"><term>Cámaras</term></catDesc>
+                     <catDesc xml:lang="en"><term>Chambers</term></catDesc>
+                </category>
+                     <category xml:id="parla.uni">
+                        <catDesc xml:lang="eu"><term>Unikameralismoa</term></catDesc>
+			<catDesc xml:lang="es"><term>Unicameralismo</term></catDesc>
+                        <catDesc xml:lang="en"><term>Unicameralism</term></catDesc>
+                     </category>
+ <!--
+                     <category xml:id="parla.bi">
+                        <catDesc xml:lang="eu"><term>Bikameralismoa</term></catDesc>
+      <catDesc xml:lang="es"><term>Bicameralismo</term></catDesc>
+                        <catDesc xml:lang="en"><term>Bicameralism</term></catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc xml:lang="eu"><term>Goi ganbera</term></catDesc>
+         <catDesc xml:lang="es"><term>Cámara Alta</term></catDesc>
+                           <catDesc xml:lang="en"><term>Upper house</term></catDesc>
+                        </category>
+                        <category xml:id="parla.multi">
+                           <catDesc xml:lang="eu"><term>Kamera anitzekoa</term></catDesc>
+   			<catDesc xml:lang="es"><term>Multicameralismo</term></catDesc>
+                           <catDesc xml:lang="en"><term>Multicameralism</term></catDesc>
+                           <category xml:id="parla.chamber">
+                              <catDesc xml:lang="eu"><term>Ganbera</term></catDesc>
+   			   <catDesc xml:lang="es"><term>Cámara</term></catDesc>
+                              <catDesc xml:lang="en"><term>Chamber</term></catDesc>
+                           </category>
+                       </category>
+
+ -->
+                        <category xml:id="parla.lower">
+                           <catDesc xml:lang="eu"><term>Behe ganbera</term></catDesc>
+			   <catDesc xml:lang="es"><term>Cámara Baja</term></catDesc>
+                           <catDesc xml:lang="en"><term>Lower house</term></catDesc>
+                        </category>
+                  </category>
+                  <category xml:id="parla.committee">
+                     <catDesc xml:lang="eu"><term>Batzordea</term></catDesc>
+		     <catDesc xml:lang="es"><term>Comité</term></catDesc>
+                     <catDesc xml:lang="en"><term>Committee</term></catDesc>
+                   </category>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc xml:lang="eu"><term>Batzorde iraunkorra</term></catDesc>
+  			<catDesc xml:lang="es"><term>Comité Permanente</term></catDesc>
+                        <catDesc xml:lang="en"><term>Standing committee</term></catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc xml:lang="eu"><term>Batzorde berezia</term></catDesc>
+			<catDesc xml:lang="es"><term>Comité especial</term></catDesc>
+                        <catDesc xml:lang="en"><term>Special committee</term></catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc xml:lang="eu"><term>Ikerketa batzordea</term></catDesc>
+			<catDesc xml:lang="es"><term>Comisión de investigación</term></catDesc>
+                        <catDesc xml:lang="en"><term>Committee of inquiry</term></catDesc>
+                     </category>
+               <category xml:id="parla.term">
+                  <catDesc xml:lang="eu"><term>Legealdia</term>: parlamentuaren agintaldia hauteskunde orokorren artean.</catDesc>
+		  <catDesc xml:lang="es"><term>Periodo legislativo</term>: término del parlamento entre elecciones generales.</catDesc>
+                  <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  </category>
+                  <category xml:id="parla.session">
+                      <catDesc xml:lang="eu"><term>Legegintzaldi saioa</term>: legegintzaldia legegintzaldia egiteko deitzen den aldia, normalean bi hauteskundeen arteko denbora osoko bi banaketa txikiago edo gehiagoren bat izaten da. Saioa negozio, programa, agenda edo iragarritako helburu bakar bati eskainitako bilera edo bilera konektatuen multzoa da.</catDesc>
+		     <catDesc xml:lang="es"><term>Sesión legislativa</term>: el período de tiempo en el que se convoca una legislatura con el propósito de legislar, generalmente una de dos o más divisiones más pequeñas del tiempo completo entre dos elecciones. Una sesión es una reunión o una serie de reuniones conectadas dedicadas a un solo orden de trabajo, programa, agenda o propósito anunciado.</catDesc>
+                     <catDesc xml:lang="en"><term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     </category>
+                     <category xml:id="parla.meeting">
+                        <catDesc xml:lang="eu"><term>Bilera</term>: Bilera bakoitza saio bereizi bat edo saio bat osatzen duten bilera talde bateko zati bat izan daiteke. Saioak edo bilerak egun bat edo gehiago iraun dezake. Egun batean bi saio ere egin izan dira.</catDesc>
+			<catDesc xml:lang="es"><term>Reunión</term>: Cada reunión puede ser una sesión separada o parte de un grupo de reuniones que constituyen una sesión. La sesión o reunión puede durar uno o más días. En algunos casos puede haber más de una sesión.</catDesc>
+                        <catDesc xml:lang="en"><term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session or meeting may take one or more days. In some cases there are more than one session in a day.</catDesc>
+                        </category>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc xml:lang="eu"><term>Bilera motak</term></catDesc>
+			   <catDesc xml:lang="es"><term>Tipos de reuniones</term></catDesc>
+                           <catDesc xml:lang="en"><term>Types of meetings</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc xml:lang="eu"><term>Ohiko bilera</term></catDesc>
+			      <catDesc xml:lang="es"><term>Reunión regular</term></catDesc>
+                              <catDesc xml:lang="en"><term>Regular meeting</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc xml:lang="eu"><term>Bilera berezia</term></catDesc>
+			      <catDesc xml:lang="es"><term>Reunión especial</term></catDesc>
+                              <catDesc xml:lang="en"><term>Special meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc xml:lang="eu"><term>Ezohiko bilera</term></catDesc>
+				 <catDesc xml:lang="es"><term>Reunión extraordinaria</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Extraordinary meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc xml:lang="eu"><term>Premiazko bilera</term></catDesc>
+				 <catDesc xml:lang="es"><term>Reunión urgente</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Urgent meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc xml:lang="eu"><term>Ekitaldi bilera</term></catDesc>
+				 <catDesc xml:lang="es"><term>Reunión ceremonial</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Ceremonial meeting</term></catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc xml:lang="eu"><term>Gogoetarako bilera</term></catDesc>
+				 <catDesc xml:lang="es"><term>Encuentro conmemorativo</term></catDesc>
+                                 <catDesc xml:lang="en"><term>Commemorative meeting</term></catDesc>
+                              </category>
+                        <category xml:id="parla.meeting.opinions">
+                         <catDesc xml:lang="eu"><term>Iritzien aurkezpen publikoa</term></catDesc>
+				                 <catDesc xml:lang="es"><term>Presentación pública de opiniones</term></catDesc>
+                         <catDesc xml:lang="en"><term>Public presentation of opinions</term></catDesc>
+                        </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc xml:lang="eu"><term>Bilera jarraitua</term></catDesc>
+			                        <catDesc xml:lang="es"><term>Reunión continuada</term></catDesc>
+                              <catDesc xml:lang="en"><term>Continued meeting</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc xml:lang="eu"><term>Bilera publikoa</term></catDesc>
+		 	      <catDesc xml:lang="es"><term>Reunión pública</term></catDesc>
+                              <catDesc xml:lang="en"><term>Public meeting</term></catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc xml:lang="eu"><term>Zuzendaritza bilera</term></catDesc>
+			      <catDesc xml:lang="es"><term>Reunión ejecutiva</term></catDesc>
+                              <catDesc xml:lang="en"><term>Executive meeting</term></catDesc>
+                           </category>
+                        <category xml:id="parla.sitting">
+                         <catDesc xml:lang="en"><term>Eserita</term>: eseritako eguna</catDesc>
+			                    <catDesc xml:lang="es"><term>Sentada</term>: día sentado</catDesc>
+                         <catDesc xml:lang="en"><term>Sitting</term>: sitting day</catDesc>
+                        </category>
+             </taxonomy>               <!-- ZALANTZA HEMEN JARRI BEHAR DEN -->
+            <taxonomy xml:id="speaker_types">
+               <desc xml:lang="eu"><term>Hiztun motak</term></desc>
+	              <desc xml:lang="es"><term>Tipos de hablantes</term></desc>
+               <desc xml:lang="en"><term>Types of speakers</term></desc>
+               <category xml:id="chair">
+                  <catDesc xml:lang="eu"><term>Mahaiburua</term>: bilera bateko burua</catDesc>
+		                <catDesc xml:lang="es"><term>Presidenta</term>: presidente de una reunión</catDesc>
+                  <catDesc xml:lang="en"><term>Chairperson</term>: chairman of a meeting</catDesc>
+               </category>
+               <category xml:id="regular">
+                  <catDesc xml:lang="eu"><term>Erregularra</term>: bilera bateko ohiko hizlaria</catDesc>
+		                <catDesc xml:lang="es"><term>Regular</term>: un orador habitual en una reunión</catDesc>
+                  <catDesc xml:lang="en"><term>Regular</term>: a regular speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="guest">
+                  <catDesc xml:lang="eu"><term>Gonbidatua</term>: bilera bateko hizlari gonbidatua</catDesc>
+		                <catDesc xml:lang="es"><term>Invitada</term>: una oradora invitada en una reunión</catDesc>
+                  <catDesc xml:lang="en"><term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+            </taxonomy>
+
+
+            <taxonomy xml:id="subcorpus">
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
+               <desc xml:lang="eu">
+                  <term>Subcorpora</term>
+               </desc>
+               <category xml:id="covid">
+                  <catDesc xml:lang="en">
+                     <term>Covid</term>
+                  </catDesc>
+                  <catDesc xml:lang="eu">
+                     <term>Covid</term>
+                  </catDesc>
+               </category>
+               <category xml:id="reference">
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>
+                  </catDesc>
+                  <catDesc xml:lang="eu">
+                     <term>Erreferentziazkoa</term>
+                  </catDesc>
+               </category>
+            </taxonomy>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-ES-PV-taxonomy-NER.cnec2.0.ana.xml"/>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+            </prefixDef>
+            <prefixDef ident="ne" matchPattern="(.+)" replacementPattern="#NER.cnec2.0.$1">
+               <p>Taxonomy for named entities (cnec2.0)</p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="UDPipe" version="2">
+               <label>UDPipe 2 (czech-pdt-ud-2.10-220711 model)</label>
+               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with czech-pdt-ud-2.10-220711 model</desc>
+            </application>
+            <application ident="NameTag" version="2">
+               <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
+               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with czech-cnec2.0-200831 model (<ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+
+      <profileDesc>
+         <settingDesc>
+            <setting>
+              <name type="org">Eusko Legebiltzarra</name>
+               <name type="address">Becerro de Bengoa kalea</name>
+               <name type="city">Vitoria-Gasteiz</name>
+               <name key="EU" type="country">Basque Country, Spain</name>
+               <date from="2015-02-01" to="2022-07-01"> 2015eko otsailetik 2022eko uztailera</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.lower"/>
+         </textClass>
+         <particDesc>
+            <listOrg>											<!-- ##PARTIDOS POLITICOS -->
+              <org xml:id="government.PV" role="government">
+                 <orgName xml:lang="eu" full="yes">Eusko Jaurlaritza</orgName>
+              </org>
+
+               <org ana="#parla.regional #parla.lower"
+                 role="parliament"
+                 xml:id="DZ">			<!-- ##EUSKO LEGEBILTZARRA - PARLAMENTO VASCO -->
+                  <orgName xml:lang="eu" full="yes">Eusko Legebiltzarra</orgName>
+		                <orgName xml:lang="es" full="yes">Parlamento Vasco</orgName>
+                  <orgName xml:lang="en" full="yes">Basque Parliament</orgName>
+                  <event from="1980-03-11">
+                     <label xml:lang="en">existence</label>
+                  </event>
+
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Eusko_Legebiltzarra</idno>
+		                <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Parlamento_Vasco</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Basque_Parliament</idno>
+                  <listEvent>
+                    <head xml:lang="eu">Legegintzaldia</head>
+	  	              <head xml:lang="es">Periodo legislativo</head>
+                    <head xml:lang="en">Legislative period</head>
+                    <event xml:id="DZ.10" from="2012-11-20" to="2016-10-20">
+                    <label xml:lang="eu">10. agintaldia</label>
+			              <label xml:lang="es">Mandato 10</label>
+                    <label xml:lang="en">Term 10</label>
+                    </event>
+                        <event xml:id="DZ.11" from="2016-10-21" to="2020-08-03">
+                        <label xml:lang="eu">11. agintaldia</label>
+			                  <label xml:lang="es">Mandato 11</label>
+                        <label xml:lang="en">Term 11</label>
+                     </event>
+			                  <event xml:id="DZ.12" from="2020-08-03" to="2022-07-01">
+                        <label xml:lang="eu">12. agintalia</label>
+			                  <label xml:lang="es">Mandato 12</label>
+                        <label xml:lang="en">Term 12</label>
+                     </event>
+                  </listEvent>
+               </org>
+
+	       <org xml:id="EAJ-PNV" role="politicalParty">						<!-- ##1- EAJ/PNV -->
+                  <orgName full="yes" xml:lang="eu">Euzko Alderdi Jeltzalea</orgName>
+                  <orgName full="abb">EAJ/PNV</orgName>
+                  <event from="1895-07-31">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Euzko_Alderdi_Jeltzalea</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Partido_Nacionalista_Vasco</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Basque_Nationalist_Party</idno>
+               </org>
+               <org xml:id="EHBildu" role="politicalParty">						<!-- ##2- EH BILDU -->
+                  <orgName full="yes" xml:lang="eu">Euskal Herria Bildu</orgName>
+                  <orgName full="abb">EH Bildu</orgName>
+                  <event from="2012-06-12">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Euskal_Herria_Bildu</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Euskal_Herria_Bildu</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/EH_Bildu</idno>
+               </org>
+               <org xml:id="PSE-EE" role="politicalParty">						<!-- ##3- PSE-EE -->
+                  <orgName full="yes" xml:lang="eu">Euskadiko Alderdi Sozialista - Euskadiko Ezkerra</orgName>
+                  <orgName full="abb">PSE-EE</orgName>
+                  <event from="1993">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/PSE-EE</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Partido_Socialista_de_Euskadi-Euskadiko_Ezkerra</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Socialist_Party_of_the_Basque_Country%E2%80%93Basque_Country_Left</idno>
+               </org>
+               <org xml:id="EP-IU" role="politicalParty">						<!-- ##4- ELKARREKIN PODEMOS -->
+                  <orgName full="yes" xml:lang="eu">Elkarrekin Podemos - IU</orgName>
+                  <orgName full="abb">EP-IU</orgName>
+                  <event from="2016-08-11">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Elkarrekin_Podemos</idno>
+		                <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Elkarrekin_Podemos</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Elkarrekin_Podemos</idno>
+               </org>
+	              <org xml:id="PP" role="politicalParty">						<!-- ##5- PP+CS -->
+                  <orgName full="yes" xml:lang="eu">Alderdi Popularra</orgName>
+                  <orgName full="abb">PP</orgName>
+                  <event from="1990-01-01">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/PP%2BCs</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/PP%2BCs</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/PP%2BCs</idno>
+               </org>
+               <org xml:id="PP-Cs" role="politicalParty">						<!-- ##5- PP+CS -->
+                  <orgName full="yes" xml:lang="eu">Alderdi Popularra + Ciudadanos</orgName>
+                  <orgName full="abb">PP+Cs</orgName>
+                  <event from="2020-02-21">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/PP%2BCs</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/PP%2BCs</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/PP%2BCs</idno>
+               </org>
+               <org xml:id="EzAn-IU" role="parliamentaryGroup">						<!-- ##6- EZKER ANITZA -->
+                  <orgName full="yes" xml:lang="eu">Ezker Anitza</orgName>
+                  <orgName full="abb">EzAn-IU</orgName>
+                  <event from="2012-01-28">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Ezker_Anitza</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Ezker_Anitza</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Ezker_Anitza</idno>
+               </org>
+               <org xml:id="Vox" role="parliamentaryGroup">						<!-- ##7- VOX -->
+                  <orgName full="yes" xml:lang="eu">Vox</orgName>
+                  <orgName full="abb">Vox</orgName>
+                  <event from="2013-12-17">
+                    <label xml:lang="en">existence</label>
+		  </event>
+	       </org>
+               <org xml:id="UPyD" role="politicalParty">						<!-- ##8- UPyD -->
+		  <orgName full="yes" xml:lang="es">Unión, Progreso y Democracia</orgName>
+                  <orgName full="abb">UPyD</orgName>
+                  <event from="2007-09-26" to="2020-12-06">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Batasuna,_Aurrerapena_eta_Demokrazia</idno>
+		  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Uni%C3%B3n_Progreso_y_Democracia</idno>
+                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Union,_Progress_and_Democracy</idno>
+               </org>
+
+               <listRelation>
+                 <relation name="coalition"
+                           mutual="#EAJ-PNV"
+                           from="2012-11-20"
+                           to="2016-10-20"/>
+                 <relation name="opposition"
+                           active="#EHBildu #PSE-EE #PP #UPyD"
+                           passive="#government.PV"
+                           from="2016-10-21"
+                           to="2020-08-03"/>
+                <relation name="coalition"
+                           mutual="#EAJ-PNV #PSE-EE"
+                           from="2016-10-21"
+                           to="2020-08-03"/>
+                <relation name="opposition"
+                           active="#EHBildu #EP-IU #PP"
+                           passive="#government.PV"
+                           from="2016-10-21"
+                           to="2020-08-03"/>
+                <relation name="coalition"
+                          mutual="#EAJ-PNV #PSE-EE"
+                          from="2020-08-03"
+                          to="2022-07-01"/>
+                <relation name="opposition"
+                          active="#EHBildu #EP-IU #PP-Cs #Vox"
+                          passive="#government.PV"
+                          from="2020-08-03"
+                          to="2022-07-01"/>
+               </listRelation>
+            </listOrg>
+
+            <listPerson> 										<!-- ## LISTA DE PARLAMENTARIOS -->
+               <head xml:lang="eu">Legebiltzarkideak</head>
+               <head xml:lang="es">Relación alfabética de parlamentarias y parlamentarios</head>
+               <head xml:lang="en">List of speakers</head>
+
+							<!-- PARLAMENTARIOAK NOIZTIK NORAINO JARTZEA FALTA DA -->
+
+              <person xml:id="Anonymous">
+                 <persName>
+                    <forename>An</forename>
+                    <surname>Onymus</surname>
+                 </persName>
+              </person>
+               <person xml:id="AgirreGaritaonandia">									<!-- ##1 -->
+                  <persName>
+                     <surname>Agirre</surname>
+		                  <surname>Garitaonandia</surname>
+                     <forename>Jasone</forename>
+                  </persName>
+                  <sex value="F"></sex>
+   		             <birth when="1968-05-27">
+                     <placeName>Abadino</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#DZ"
+                               to="2021"
+                               from="2017"/>
+                    <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jasone_Agirre</idno>
+               </person>
+
+               <person xml:id="AguirreArizmendi">									<!-- ##2 -->
+                  <persName>
+                     <surname>Aguirre</surname>
+		                   <surname>Arizmendi</surname>
+                     <forename>Iñaki</forename>
+                  </persName>
+                  <sex value="M"></sex>
+		                <birth when="1957-03-17">
+                     <placeName>Anberes</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2013" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/I%C3%B1aki_Agirre_Arizmendi</idno>
+               </person>
+
+               <person xml:id="AiartzaZallo">										<!-- ##3 -->
+                  <persName>
+                     <surname>Aiartza</surname>
+		     <surname>Zallo</surname>
+                     <forename>Jon</forename>
+                  </persName>
+                  <sex value="M"></sex>
+		  <birth when="1964">
+                     <placeName>Derio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/><affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jon_Aiartza_Zallo</idno>
+               </person>
+
+               <person xml:id="AldasoroIturbe">										<!-- ##4 -->
+                  <persName>
+                     <surname>Aldasoro</surname>
+                     <surname>Iturbe</surname>
+                     <forename>Aitor</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1967-10-23">
+                     <placeName>Beasain</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                                <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="AlonsoMartín">										<!-- ##5 -->
+                  <persName>
+                     <surname>Alonso</surname>
+                     <surname>Martín</surname>
+		                 <forename>Alberto</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1976">
+                     <placeName>Oñati</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Alberto_Alonso_Mart%C3%ADn</idno>
+               </person>
+
+               <person xml:id="ÁlvarezMartínez">									<!-- ##6 -->
+                  <persName>
+                     <surname>Álvarez</surname>
+	             <surname>Martínez</surname>
+                     <forename>Gorka</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1988-08-02">
+                     <placeName>Sestao</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2015-06-13" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Gorka_%C3%81lvarez</idno>
+               </person>
+
+               <person xml:id="AnduezaLorenzo">										<!-- ##7 -->
+                  <persName>
+                     <surname>Andueza</surname>
+		                 <surname>Lorenzo</surname>
+                     <forename>Eneko</forename>
+                  </persName>
+		                <sex value="M"></sex>
+                  <birth when="1979-06-04">
+                     <placeName>Eibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2011-06-13" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Eneko_Andueza</idno>
+               </person>
+
+              <person xml:id="AnguloGarcía">										<!-- ##8 -->
+                  <persName>
+                     <surname>Angulo</surname>
+		                  <surname>García</surname>
+                     <forename>Gustavo</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1979">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EP-IU" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Gustavo_Angulo_Garc%C3%ADa</idno>
+               </person>
+
+               <person xml:id="ArreseOtegi">										<!-- ##9 -->
+                  <persName>
+                     <surname>Arrese</surname>
+		                   <surname>Otegi</surname>
+                     <forename>Ikoitz</forename>
+                  </persName>
+		                <sex value="M"></sex>
+                    <affiliation role="member"
+                                  ref="#DZ"
+                                  to="2022-07-01"
+                                  from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2020-08-03" ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="ArrizabalagaArruza">									<!-- ##10 -->
+                  <persName>
+                     <surname>Arrizabalaga</surname>
+		                   <surname>Arruza</surname>
+                     <forename>Leixuri</forename>
+                  </persName>
+                 <sex value="F"></sex>
+                  <birth when="1981-04-25">
+                     <placeName>Gatika</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2012-12-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Leixuri_Arrizabalaga</idno>
+               </person>
+
+               <person xml:id="ArrizabalagaOlaizola">									<!-- ##11 -->
+                  <persName>
+                     <surname>Arrizabalaga</surname>
+                     <surname>Olaizola</surname>
+                     <forename>María Eugenia</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1967-01-15">
+                     <placeName>Zumaia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1996" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Maria_Eugenia_Arrizabalaga</idno>
+               </person>
+
+               <person xml:id="ArruabarrenaAzpitarte">									<!-- ##12 -->
+                  <persName>
+                     <surname>Arruabarrena</surname>
+		                   <surname>Azpitarte</surname>
+                     <forename>Mikel</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2015" ana="#DZ">
+                  </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9772/mikel-arruabarrena</idno>
+               </person>
+
+               <person xml:id="ArzuagaGumuzio">										<!-- ##13 -->
+                  <persName>
+                     <surname>Arzuaga</surname>
+                     <surname>Gumuzio</surname>
+                     <forename>Julen</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1972">
+                     <placeName>Laudio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2012-11-20" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Julen_Arzuaga</idno>
+               </person>
+
+               <person xml:id="AtutxaSainz">										<!-- ##14 -->
+                  <persName>
+                     <surname>Atutxa</surname>
+		                 <surname>Sainz</surname>
+                     <forename>Jon Andoni</forename>
+                  </persName>
+                     <sex value="M"></sex>
+                  <birth when="1970">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1992" ana="#DZ">
+                  </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9773/jon-andoni-atutxa</idno>
+               </person>
+
+               <person xml:id="BarrioBaroja">										<!-- ##15 -->
+                  <persName>
+                     <surname>Barrio</surname>
+		                   <surname>Baroja</surname>
+                     <forename>Carmelo</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1960-07-06">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PP" from="1990-10-28" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Carmelo_Barrio</idno>
+               </person>
+
+               <person xml:id="BerasaluzeLazkano">									<!-- ##16 -->
+                  <persName>
+                     <surname>Berasaluze</surname>
+		     <surname>Lazkano</surname>
+                     <forename>Irune</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1968">
+                     <placeName>Mendaro</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2007" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Irune_Berasaluze</idno>
+               </person>
+
+               <person xml:id="BerrojalbizZabala">									<!-- ##17 -->
+                  <persName>
+                     <surname>Berrojalbiz</surname>
+		     <surname>Zabala</surname>
+                     <forename>Itxaso</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1986">
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="BlancoDeAngulo">										<!-- ##18 -->
+                  <persName>
+                     <surname>Blanco</surname>
+		     <surname>De Angulo</surname>
+                     <forename>Eva</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1973">
+                     <placeName>Amurrio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Eba_Blanco</idno>
+               </person>
+
+               <person xml:id="CasanovaAlonso">										<!-- ##19 -->
+                  <persName>
+                     <surname>Casanova</surname>
+		     <surname>Alonso</surname>
+                     <forename>Iker</forename>
+                  </persName>
+		  <sex value="M"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="CorcueraLeunda">										<!-- ##20 -->
+                  <persName>
+                     <surname>Corcuera</surname>
+		     <surname>Leunda</surname>
+                     <forename>Susana</forename>
+                  </persName>
+        	  <sex value="F"></sex>
+                  <birth when="1963">
+                     <placeName>Donostia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="1993" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Susana_Corcuera</idno>
+               </person>
+
+               <person xml:id="DíezAntxustegi">										<!-- ##21 -->
+                  <persName>
+                     <surname>Díez</surname>
+                     <forename>Antxustegi</forename>
+                     <roleName>Joseba</roleName>
+                  </persName>
+        	  <sex value="M"></sex>
+                  <birth when="1992-10-11">
+                     <placeName>Araia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2019" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Joseba_D%C3%ADez_Antxustegi</idno>
+               </person>
+
+               <person xml:id="EgibarArtola">										<!-- ##22 -->
+                  <persName>
+                     <surname>Egibar</surname>
+		     <surname>Artola</surname>
+                     <forename>Joseba</forename>
+		  </persName>
+  		  <sex value="M"></sex>
+                  <birth when="1959-11-23">
+                     <placeName>Andoain</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1990-12-18" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Joseba_Egibar</idno>
+               </person>
+
+               <person xml:id="ErkorekaGervasio">									<!-- ##23 -->
+                  <persName>
+                     <surname>Erkoreka</surname>
+		     <surname>Gervasio</surname>
+                     <forename>Josu</forename>
+		  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1960-07-03">
+                     <placeName>Bermeo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2004-04-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Josu_Erkoreka</idno>
+               </person>
+
+ 	       <person xml:id="EstarronaElizondo">									<!-- ##24 -->
+                  <persName>
+                     <surname>Estarrona</surname>
+                     <surname>Elizondo</surname>
+                     <forename>Josu</forename>
+                  </persName>
+  		  <sex value="M"></sex>
+                  <birth when="1981">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2016-06-01" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Josu_Estarrona_Elizondo</idno>
+               </person>
+
+               <person xml:id="EtxebarriaAstondoa">									<!-- ##25 -->
+                  <persName>
+                     <surname>Etxebarria</surname>
+	             <surname>Astondoa</surname>
+                     <forename>Itxaso</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1973-03-01">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2019-05-26" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Itxaso_Etxebarria_Astondoa</idno>
+               </person>
+
+               <person xml:id="EtxebarrietaLegrand">									<!-- ##26 -->
+                  <persName>
+                     <surname>Etxebarrieta</surname>
+                     <surname>Legrand</surname>
+                     <forename>Oihana</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1987-06-10">
+                     <placeName>Hondarribia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Oihana_Etxebarrieta</idno>
+               </person>
+
+               <person xml:id="FernandezDeBetoñoSaenzDeLacuesta">							<!-- ##27 -->
+                  <persName>
+                     <surname>Fernandez de Betoño</surname>
+		     <surname>Saenz de Lacuesta</surname>
+                     <forename>Unai</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1977">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Unai_Fernandez_de_Beto%C3%B1o</idno>
+               </person>
+
+               <person xml:id="GallasteguiOyarzábal">									<!-- ##28 -->
+                  <persName>
+                 <surname>Gallástegui</surname>
+		              <surname>Oyarzábal</surname>
+                  <forename>Miren</forename>
+                  </persName>
+		                <sex value="F"></sex>
+                  <birth when="1961">
+                   <placeName>Eibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="1995" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Miren_Gallastegi</idno>
+               </person>
+
+               <person xml:id="GarciaOrtega">										<!-- ##29 -->
+                  <persName>
+                     <surname>Garcia</surname>
+		     <surname>Ortega</surname>
+                     <forename>Pazis</forename>
+                  </persName>
+		  <sex value="F"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+</affiliation>
+               </person>
+
+               <person xml:id="GardeRamirez">										<!-- ##30 -->
+                  <persName>
+		     <surname>Garde</surname>
+                     <surname>Ramirez</surname>
+                     <forename>Maria</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1990">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Maria_Garde_Ramirez</idno>
+               </person>
+
+               <person xml:id="GarridoKnörr">										<!-- ##31 -->
+                  <persName>
+                     <surname>Garrido</surname>
+		     <surname>Knörr</surname>
+                     <forename>Laura</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1970-12-25">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PP" from="1999-07-04" ana="#DZ">
+                  </affiliation>
+                  <affiliation role="member" ref="#PP-Cs" from="2020-02-21" ana="#DZ"/>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Laura_Garrido</idno>
+               </person>
+
+               <person xml:id="GilVegas">										<!-- ##32 -->
+                  <persName>
+                     <surname>Gil</surname>
+		     <surname>Vegas</surname>
+                     <forename>José Manuel</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1959">
+                     <placeName>Aranda de Duero</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PP-Cs" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jos%C3%A9_Manuel_Gil_Vegas</idno>
+               </person>
+
+               <person xml:id="GonzálezRodríguez">									<!-- ##33 -->
+                  <persName>
+                     <surname>González</surname>
+	             <surname>Rodríguez</surname>
+                     <forename>Isabel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+                  <affiliation role="member" ref="#EP-IU" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="GordilloPérez">										<!-- ##34 -->
+                  <persName>
+                     <surname>Gordillo</surname>
+		     <surname>Pérez</surname>
+                     <forename>Luis Ignacio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1980">
+                     <placeName>Sayalonga</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PP-Cs" from="2020-08-03" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Luis_Gordillo_P%C3%A9rez</idno>
+               </person>
+
+               <person xml:id="GorrotxategiAzurmendi">									<!-- ##35 -->
+                  <persName>
+                     <surname>Gorrotxategi</surname>
+		     <surname>Azurmendi</surname>
+                     <forename>Miren</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1967-09-18">
+                     <placeName>Abadiño</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EP-IU" from="2016-08-11" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Miren_Gorrotxategi_Azurmendi</idno>
+               </person>
+
+               <person xml:id="GrajalesRodríguez">									<!-- ##36 -->
+                  <persName>
+                     <surname>Grajales</surname>
+		     <surname>Rodríguez</surname>
+                     <forename>Unai</forename>
+                  </persName>
+ 		  <sex value="M"></sex>
+                  <birth when="1978">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Unai_Grajales</idno>
+               </person>
+
+               <person xml:id="GurrutxagaUranga">									<!-- ##37 -->
+                  <persName>
+                     <surname>Gurrutxaga</surname>
+		     <surname>Uranga</surname>
+                     <forename>Maialen</forename>
+                  </persName>
+  		  <sex value="F"></sex>
+                  <birth when="1992">
+                     <placeName>Elgoibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2015" ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="HernándezHidalgo">									<!-- ##38 -->
+                  <persName>
+                     <surname>Hernández</surname>
+		     <surname>Hidalgo</surname>
+                     <forename>Jon</forename>
+                  </persName>
+  		  <sex value="M"></sex>
+                  <birth when="1978-07-28">
+                     <placeName>Irun</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EzAn-IU" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jon_Hern%C3%A1ndez</idno>
+               </person>
+
+               <person xml:id="IpiñazarMiranda">									<!-- ##39 -->
+                  <persName>
+                     <surname>Ipiñazar</surname>
+	  	     <surname>Miranda</surname>
+                     <forename>Maitane</forename>
+                  </persName>
+  		              <sex value="F"></sex>
+                  <birth when="1990">
+                     <placeName>Arratia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="IriarteOkiñena">										<!-- ##40 -->
+                  <persName>
+                     <surname>Iriarte</surname>
+                     <surname>Okiñena</surname>
+                     <forename>Maddalen</forename>
+                  </persName>
+		                <sex value="F"></sex>
+                  <birth when="1963-01-23">
+                     <placeName>Donostia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Maddalen_Iriarte</idno>
+               </person>
+
+               <person xml:id="IriarteSanVicente">									<!-- ##41 -->
+                  <persName>
+                     <surname>Iriarte</surname>
+                     <surname>San Vicente</surname>
+                     <forename>Ibai</forename>
+                  </persName>
+		                <sex value="M"></sex>
+                  <birth when="1983">
+                     <placeName>Tolosa</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Ibai_Iriarte</idno>
+               </person>
+
+               <person xml:id="IturgaizAngulo">										<!-- ##42 -->
+                  <persName>
+                     <surname>Iturgaiz</surname>
+		                   <surname>Angulo</surname>
+                     <forename>Carlos</forename>
+                  </persName>
+		                <sex value="M"></sex>
+                  <birth when="1965-10-20">
+                     <placeName>Santurtzi</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PP" from="1991-06-17" ana="#DZ">
+                  </affiliation>
+                  <affiliation role="member" ref="#PP-Cs" from="2020-02-21" ana="#DZ"/>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Carlos_Iturgaiz</idno>
+               </person>
+
+               <person xml:id="IturrateIbarra">										<!-- ##43 -->
+                  <persName>
+                     <surname>Iturrate</surname>
+		                   <surname>Ibarra</surname>
+                     <forename>Iñigo</forename>
+                  </persName>
+		                <sex value="M"></sex>
+                  <birth when="1963-01-20">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1991-06-17" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/I%C3%B1igo_Iturrate</idno>
+               </person>
+
+               <person xml:id="JuezGarmendia">										<!-- ##44 -->
+                  <persName>
+                     <surname>Juez</surname>
+		     <surname>Garmendia</surname>
+                     <forename>Eva</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1976">
+                     <placeName>Eibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+               </person>
+
+               <person xml:id="KortajarenaIbañez">									<!-- ##45 -->
+                  <persName>
+                     <surname>Kortajarena</surname>
+		     <surname>Ibañez</surname>
+                     <forename>Nerea</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1974">
+                     <placeName>Donostia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Nerea_Kortajarena</idno>
+               </person>
+
+               <person xml:id="LarrauriAranguren">									<!-- ##46 -->
+                  <persName>
+                     <surname>Larrauri</surname>
+		     <surname>Aranguren</surname>
+                     <forename>Estibaliz</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1981">
+                     <placeName>Amurrio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Estibaliz_Larrauri</idno>
+               </person>
+
+               <person xml:id="LarreaLaso">										<!-- ##47 -->
+                  <persName>
+                     <surname>Larrea</surname>
+		     <surname>Laso</surname>
+                     <forename>Muriel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1982">
+                     <placeName>Irun</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PP-Cs" from="2020-02-21" ana="#DZ"/>
+               </person>
+
+               <person xml:id="LupardoAtutxa">										<!-- ##48 -->
+                  <persName>
+                     <surname>Lupardo</surname>
+                     <surname>Atutxa</surname>
+                     <forename>Nerea</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1968-12-16">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1994" ana="#DZ">
+                  </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9777/nerea-lupardo</idno>
+               </person>
+
+               <person xml:id="MartinezAxpe">										<!-- ##49 -->
+                  <persName>
+                     <surname>Martinez</surname>
+		     <surname>Axpe</surname>
+                     <forename>Lore</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1971-10-15">
+                     <placeName>Aretxabaleta</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Lore_Martinez_Axpe</idno>
+               </person>
+
+               <person xml:id="MartínezGrisaleña">									<!-- ##50 -->
+                  <persName>
+                     <surname>Martínez</surname>
+		     <surname>Grisaleña</surname>
+                     <forename>Amaia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1968">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2020-07-12"/>
+                  <affiliation role="member" ref="#Vox" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Amaia_Mart%C3%ADnez</idno>
+               </person>
+
+               <person xml:id="MartínezZatón">										<!-- ##51 -->
+                  <persName>
+                     <surname>Martínez</surname>
+		     <surname>Zatón</surname>
+                     <forename>Iñigo</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1987">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/I%C3%B1igo_Mart%C3%ADnez_Zat%C3%B3n</idno>
+               </person>
+
+               <person xml:id="DolinšekMarjan">										<!-- ##52 -->
+                  <persName>
+                     <surname>Molina</surname>
+		     <surname>Pérez</surname>
+                     <forename>Rakel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1987">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EP-IU" from="2020-07-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/I%C3%B1igo_Mart%C3%ADnez_Zat%C3%B3n</idno>
+               </person>
+
+               <person xml:id="OrbegozoUribe">										<!-- ##53 -->
+                  <persName>
+                     <surname>Orbegozo</surname>
+		     <surname>Uribe</surname>
+                     <forename>Kerman</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1979">
+                     <placeName>Donostia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9801/kerman-orbegozo</idno>
+               </person>
+
+               <person xml:id="OteroGabirondo">										<!-- ##54 -->
+                  <persName>
+                     <surname>Otero</surname>
+		     <surname>Gabirondo</surname>
+                     <forename>Mikel</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1972-08-17">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Mikel_Otero</idno>
+               </person>
+
+               <person xml:id="PastorGarrido">										<!-- ##55 -->
+                  <persName>
+                     <surname>Pastor</surname>
+                     <forename>Garrido</forename>
+                     <forename>José Antonio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1959-08-03">
+                     <placeName>Ortuella</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="1993-01-01" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jos%C3%A9_Antonio_Pastor</idno>
+               </person>
+
+               <person xml:id="PérezBorinaga">										<!-- ##56 -->
+                  <persName>
+                     <surname>Pérez</surname>
+		     <surname>Borinaga</surname>
+                     <forename>Laura</forename>
+                  </persName>
+ 		  <sex value="F"></sex>
+                  <birth when="1971-06-18">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2015-06" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Laura_P%C3%A9rez_Borinaga</idno>
+               </person>
+
+               <person xml:id="PérezEzquerra">										<!-- ##57 -->
+                  <persName>
+                     <surname>Pérez</surname>
+		     <surname>Ezquerra</surname>
+                     <forename>Sonia</forename>
+                  </persName>
+ 		  <sex value="F"></sex>
+                  <birth when="1976">
+                     <placeName>Barakaldo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2019-02-28" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Sonia_P%C3%A9rez_Ezquerra</idno>
+               </person>
+
+               <person xml:id="PinedoBustamante">									<!-- ##58 -->
+                  <persName>
+                     <surname>Pinedo</surname>
+		     <surname>Bustamante</surname>
+                     <forename>Leire</forename>
+                  </persName>
+ 		  <sex value="F"></sex>
+                  <birth when="1976">
+                     <placeName>Sopela</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Leire_Pinedo</idno>
+               </person>
+
+               <person xml:id="PrietoSanVicente">									<!-- ##59 -->
+                  <persName>
+                     <surname>Prieto</surname>
+		     <surname>San Vicente</surname>
+                     <forename>Txarli</forename>
+                  </persName>
+ 		  <sex value="M"></sex>
+                  <birth when="1957-03-29">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="1993-01-01" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Txarli_Prieto</idno>
+               </person>
+
+               <person xml:id="RodriguezLejarza">									<!-- ##60 -->
+                  <persName>
+                     <surname>Rodriguez</surname>
+		     <surname>Lejarza</surname>
+                     <forename>Ander</forename>
+                  </persName>
+ 		  <sex value="M"></sex>
+                  <birth when="1982">
+                     <placeName>Arrasate</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Ander_Rodriguez</idno>
+               </person>
+
+               <person xml:id="RodriguezTorres">									<!-- ##61 -->
+                  <persName>
+                     <surname>Rodriguez</surname>
+                     <surname>Torres</surname>
+                     <forename>Arkaitz</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1979-02-01">
+                     <placeName>Donostia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2016-07" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Arkaitz_Rodriguez</idno>
+               </person>
+
+               <person xml:id="RicoLezama">										<!-- ##62 -->
+                  <persName>
+                     <surname>Rico</surname>
+		     <surname>Lezama</surname>
+                     <forename>Ekain</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1979">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE"  ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Arkaitz_Rodriguez</idno>
+               </person>
+
+               <person xml:id="RuizDeAlegriaMaestu">									<!-- ##63 -->
+                  <persName>
+                     <surname>Ruiz de Alegria</surname>
+		     <surname>Maestu</surname>
+                     <forename>Ana</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1966">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                  </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9745/ana-ruiz-de-alegria</idno>
+               </person>
+
+               <person xml:id="SaezDeEgilazRamos">									<!-- ##64 -->
+                  <persName>
+                     <surname>Saez de Egilaz</surname>
+		     <surname>Ramos</surname>
+                     <forename>Eraitz</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1996-11-06">
+                     <placeName>Beasain</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2017" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Eraitz_Saez_de_Egilaz</idno>
+               </person>
+
+               <person xml:id="SanJoséLópez">										<!-- ##65 -->
+                  <persName>
+                     <surname>San José</surname>
+		     <surname>López</surname>
+                     <forename>María Jesus</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1966">
+                     <placeName>Sestao</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2020-08-03"
+                               from="2016-10-21"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2016-11-28" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Maria_Jesus_San_Jose</idno>
+               </person>
+
+               <person xml:id="SánchezMartín">										<!-- ##66 -->
+                  <persName>
+                     <surname>Sánchez</surname>
+		     <surname>Martín</surname>
+                     <forename>Gloria</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1959-06-26">
+                     <placeName>Madril</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2004" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Gloria_S%C3%A1nchez_Mart%C3%ADn</idno>
+               </person>
+
+               <person xml:id="SotoRodríguez">										<!-- ##67 -->
+                  <persName>
+                     <surname>Soto</surname>
+		     <surname>Rodríguez</surname>
+                     <forename>David</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1990-06-07">
+                     <placeName>Irun</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                    <affiliation role="member" ref="#EP-IU" from="2016-08-11" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/David_Soto</idno>
+               </person>
+
+               <person xml:id="SusoPérezDeArenaza">									<!-- ##68 -->
+                  <persName>
+		     <surname>Suso</surname>
+                     <surname>Pérez de Arenaza</surname>
+                     <forename>José Antonio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1961-02">
+                     <placeName>Arraia-Maeztu</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="1982" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jos%C3%A9_Antonio_Suso</idno>
+               </person>
+
+               <person xml:id="TejeriaOtermin">										<!-- ##69 -->
+                  <persName>
+                     <surname>Tejeria</surname>
+		     <surname>Otermin</surname>
+                     <forename>Bakartxo</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1971-03-28">
+                     <placeName>Larraul</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV" from="1999-07-04" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Bakartxo_Tejeria</idno>
+               </person>
+
+               <person xml:id="TelleríaOrriols">									<!-- ##70 -->
+                  <persName>
+                     <surname>Tellería</surname>
+		     <surname>Orriols</surname>
+                     <forename>Luis Javier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1957">
+                     <placeName>Antzuola</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="1990" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Luis_Javier_Telleria</idno>
+               </person>
+
+               <person xml:id="UberaAranzeta">										<!-- ##71 -->
+                  <persName>
+                     <surname>Ubera</surname>
+		     <surname>Aranzeta</surname>
+                     <forename>Rebeka</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1972-01-19">
+                     <placeName>Elgeta</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Rebeka_Ubera</idno>
+               </person>
+
+               <person xml:id="UrkulluRenteria">									<!-- ##72 -->
+                  <persName>
+                     <surname>Urkullu</surname>
+		     <surname>Renteria</surname>
+                     <forename>Iñigo</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1961-09-18">
+                     <placeName>Alonsotegi</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+		  <affiliation role="member" ref="#EAJ-PNV" from="1984-02-06"/>
+                <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/I%C3%B1igo_Urkullu</idno>
+               </person>
+
+               <person xml:id="UrrutiaOianguren">									<!-- ##73 -->
+                  <persName>
+                     <surname>Urrutia</surname>
+		     <surname>Oianguren</surname>
+                     <forename>Aitor</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1978">
+                     <placeName>Eskoriatza</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9804/aitor-urrutia</idno>
+               </person>
+
+               <person xml:id="ZabalaZarate">										<!-- ##74 -->
+                  <persName>
+                     <surname>Zabala</surname>
+		     <surname>Zarate</surname>
+                     <forename>Alaitz</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1981">
+                     <placeName>Derio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV" from="2019" ana="#DZ">
+      </affiliation>
+                  <idno type="eaj-pnv-web" xml:lang="eu">https://euskolegebiltzarra.eaj-pnv.eus/eu/legebiltzar-taldea/9769/alaitz-zabala</idno>
+               </person>
+
+               <person xml:id="ZuluagaZamalloa">									<!-- ##75 -->
+                  <persName>
+                     <surname>Zuluaga</surname>
+		     <surname>Zamalloa</surname>
+                     <forename>Irune</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1963">
+                     <placeName>Derio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+	   	<person xml:id="OrtuzarArruabarrena">									<!-- ##76 -->
+                  <persName>												<!-- 2012-2016 artekoak -->
+                     <surname>Ortuzar</surname>
+		     <surname>Arruabarrena</surname>
+                     <forename>Andoni</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1962-07-13">
+                     <placeName>Abanto-Zierbena</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV" from="2012" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Andoni_Ortuzar</idno>
+               </person>
+
+		<person xml:id="AurrekoetxeaBilbao">									<!-- ##77 -->
+                  <persName>
+                     <surname>Aurrekoetxea</surname>
+		     <surname>Bilbao</surname>
+                     <forename>Arantza</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1951">
+                     <placeName>Zamudio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2012" ana="#DZ">
+        </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Arantza_Aurrekoetxea</idno>
+               </person>
+
+		<person xml:id="GatzagaetxebarriaBastida">								<!-- ##78 -->
+                  <persName>
+                     <surname>Gatzagaetxebarria</surname>
+		     <surname>Bibao</surname>
+                     <forename>Ricardo</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1960-07-25">
+                     <placeName>Ondarroa</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2016-10-20"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2016-10-20"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="1992" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Ricardo_Gatzagaetxebarria</idno>
+               </person>
+
+		<person xml:id="AgirreMunoa">										<!-- ##79 -->
+                  <persName>
+                     <surname>Agirre</surname>
+		     <surname>Muñoa</surname>
+                     <forename>Amaia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1976">
+                     <placeName>Getxo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="AnsotegiElordi">									<!-- ##80 -->
+                  <persName>
+                     <surname>Ansotegi</surname>
+		     <surname>Elordi</surname>
+                     <forename>Fatima</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1971-05-10">
+                     <placeName>Gernika-Lumo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+      <affiliation role="member" ref="#EAJ-PNV" from="2008" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Fatima_Ansotegi</idno>
+               </person>
+
+		<person xml:id="CorralesGoti">										<!-- ##81 -->
+                  <persName>
+                     <surname>Corrales</surname>
+		     <surname>Goti</surname>
+                     <forename>Leire</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1975-10-06">
+                     <placeName>Sestao</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2001" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Leire_Corrales</idno>
+               </person>
+
+		<person xml:id="Arieta-AraunabenaIbarzabal">								<!-- ##82 -->
+                  <persName>
+                     <surname>Arieta-Araunabeña</surname>
+		     <surname>Ibarzabal</surname>
+                     <forename>Juan Antonio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2001-09-27" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Juan_Antonio_Arieta-Araunabe%C3%B1a</idno>
+               </person>
+
+		<person xml:id="HernaezLaviña">										<!-- ##83 -->
+                  <persName>
+                     <surname>Hernaez</surname>
+		     <surname>Laviña</surname>
+                     <forename>Estibaliz</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1969">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2005-07-28" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Estibaliz_Hernaez</idno>
+               </person>
+
+		<person xml:id="GorospeElezkano">									<!-- ##84 -->
+                  <persName>
+                     <surname>Gorospe</surname>
+		     <surname>Elezkano</surname>
+                     <forename>Miren Josune</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1969-04-16">
+                     <placeName>Dima</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2010-02-01" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Josune_Gorospe</idno>
+               </person>
+
+		<person xml:id="MintegiLakarra">									<!-- ##85 -->
+                  <persName>												<!-- EH BILDU -->
+                     <surname>Mintegi</surname>
+		     <surname>Lakarra</surname>
+                     <forename>Laura</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1955-10-26">
+                     <placeName>Lizarra</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Laura_Mintegi</idno>
+               </person>
+
+		<person xml:id="UgarteburuMarkuerkiaga">									<!-- ##86 -->
+                  <persName>
+                     <surname>Ugarteburu</surname>
+		     <surname>Markuerkiaga</surname>
+                     <forename>Maribi</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1968-11-09">
+                     <placeName>Lekeitio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Maribi_Ugarteburu</idno>
+               </person>
+
+		<person xml:id="MaeztuPerez">											<!-- ##87 -->
+                  <persName>
+                     <surname>Maeztu</surname>
+		     <surname>Perez</surname>
+                     <forename>Dani</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1947">
+                     <placeName>Durango</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Dani_Maeztu</idno>
+               </person>
+
+		<person xml:id="MatuteGarcíaDeJalón">											<!-- ##89 -->
+                  <persName>
+                  <surname>Matute</surname>
+		              <surname>García de Jalón</surname>
+                  <forename>Oskar</forename>
+                  </persName>
+		              <sex value="M"></sex>
+                  <birth when="1972-10-05">
+                  <placeName>Barakaldo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Oskar_Matute</idno>
+                  </person>
+
+		<person xml:id="MuñozAranguren">											<!-- ##90 -->
+                  <persName>
+                  <surname>Muñoz</surname>
+		              <surname>Aranguren</surname>
+                  <forename>Arturo</forename>
+                  </persName>
+		              <sex value="M"></sex>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+    <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+                  </affiliation>
+                  </person>
+
+		           <person xml:id="CelaáDiéguez">											<!-- ##92 -->
+                  <persName>
+                  <surname>Celaá</surname>
+		              <surname>Diéguez</surname>
+                   <forename>María Isabel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1949-05-23">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PSE-EE" from="1998-11-25" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Isabel_Cela%C3%A1</idno>
+               </person>
+
+		<person xml:id="AresTaboada">											<!-- ##93 -->
+                  <persName>
+                   <surname>Ares</surname>
+		   <surname>Taboada</surname>
+                   <forename>Rodolfo</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1954-06-25">
+                     <placeName>Pena de Souto</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#PSE-EE" from="1994-11-30" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Rodolfo_Ares</idno>
+               </person>
+
+		<person xml:id="ReyesMartín">											<!-- ##94 -->
+                  <persName>
+                   <surname>Reyes</surname>
+		   <surname>Martín</surname>
+                   <forename>Vicente</forename>
+                  </persName>
+		  <sex value="M"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+<affiliation role="member" ref="#PSE-EE"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="CasteloDeSa">											<!-- ##95 -->
+                  <persName>
+                   <surname>Castelo de Sa</surname>
+                   <forename>Alexia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1969">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PSE-EE" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Alexia_Castelo</idno>
+               </person>
+
+		<person xml:id="BasagoitiPastor">										<!-- ##96 -->
+                  <persName>													<!-- PP -->
+                   <surname>Basagoiti</surname>
+		   <surname>Pastor</surname>
+                   <forename>Antonio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1969-10-25">
+                     <placeName>Madril</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PP" from="2009-04" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Antonio_Basagoiti_Garc%C3%ADa-Tu%C3%B1%C3%B3n</idno>
+               </person>
+
+		<person xml:id="DamboreneaBasterrechea">									<!-- ##97 -->
+                  <persName>
+                   <surname>Damborenea</surname>
+		   <surname>Basterretxea</surname>
+                   <forename>Antonio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1960">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#PP" from="1994-11-30" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Antonio_Damborenea</idno>
+               </person>
+
+		<person xml:id="LlanosGómez">											<!-- ##97 -->
+                  <persName>
+                   <surname>Llanos</surname>
+		   <surname>Gómez</surname>
+                   <forename>Inés Nerea</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1967">
+                     <placeName>Basauri</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PP" from="1995" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="IsasiBalanzategi">										<!-- ##98 -->
+                  <persName>
+                   <surname>Isasi</surname>
+		   <surname>Balantzategi</surname>
+                   <forename>Xabier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1956-09-06">
+                     <placeName>Deustu</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-11-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Xabier_Isasi</idno>
+               </person>
+
+		<person xml:id="UrizarKaretxe">											<!-- ##99 -->
+                  <persName>
+                   <surname>Urizar</surname>
+		   <surname>Karetxe</surname>
+                   <forename>Pello</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1968">
+                     <placeName>Arrasate</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Pello_Urizar</idno>
+               </person>
+
+		<person xml:id="BeitialarrangoitiaLizarralde">									<!-- ##100 -->
+                  <persName>
+                   <surname>Beitialarrangoitia</surname>
+		   <surname>Lizarralde</surname>
+                   <forename>Maria Angeles</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1968-04-20">
+                     <placeName>Legazpi</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Marian_Beitialarrangoitia</idno>
+               </person>
+
+    <person xml:id="AgirrezabalaMantxola">											<!-- ##101 -->
+                  <persName>
+                   <surname>Agirrezabala</surname>
+                  <surname>Mantxola</surname>
+                   <forename>Juanjo</forename>
+                  </persName>
+		               <sex value="M"></sex>
+                  <birth when="1959">
+                  <placeName>Legazpi</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EHBildu"  from="2012-11-20" ana="#DZ">
+                  </affiliation>
+               </person>
+
+		<person xml:id="LazarobasterBadiola">										<!-- ##102 -->
+                  <persName>
+                   <surname>Lazarobaster</surname>
+		   <surname>Badiola</surname>
+                   <forename>Iñaki</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1977">
+                     <placeName>Elgoibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="UrruzunoUrresti">										<!-- ##104 -->
+                  <persName>
+                   <surname>Urruzuno</surname>
+		   <surname>Urresti</surname>
+                   <forename>Unai</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1972-06-27">
+                     <placeName>Ondarroa</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-11-20" ana="#DZ">
+      </affiliation>
+               </person>
+
+	       <person xml:id="UrreaHerrera">											<!-- ##105 -->
+                  <persName>
+                   <surname>Urrea</surname>
+		   <surname>Herrera</surname>
+                   <forename>Diana Carolina</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1987-08-05">
+                     <placeName>Armenia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-11-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Diana_Urrea</idno>
+               </person>
+
+	       <person xml:id="Etxebarria">											<!-- ##106 -->
+                  <persName>													<!-- EAJ-PNV -->
+                   <surname>Etxebarria</surname>
+                   <forename>Alex</forename>
+                  </persName>
+		  <sex value="M"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="VaqueroMontero">										<!-- ##107 -->
+                  <persName>
+                   <surname>Vaquero</surname>
+		   <surname>Montero</surname>
+                   <forename>Maribel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1970-05-26">
+                     <placeName>Urnieta</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2007-07-16" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Maribel_Vaquero</idno>
+               </person>
+
+		<person xml:id="UrkiolaAlustiza">										<!-- ##109 HEMENDIK JARRAITU -->
+                  <persName>
+                   <surname>Urkiola</surname>
+		   <surname>Alustiza</surname>
+                   <forename>Ane</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1967-04-05">
+                     <placeName>Legazpi</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+		  <affiliation role="member" ref="#EAJ-PNV" from="2009-04-03" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Ane_Urkiola</idno>
+               </person>
+
+		<person xml:id="MendizabalMendizabal">										<!-- ##110 -->
+                  <persName>
+                   <surname>Mendizabal</surname>
+		   <surname>Mendizabal</surname>
+                   <forename>Garbiñe</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1961-08-28">
+                     <placeName>Tolosa</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV" from="2009-04-03" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Garbi%C3%B1e_Mendizabal</idno>
+               </person>
+
+		<person xml:id="Uribe-EtxebarriaApalategi">									<!-- ##111 -->
+                  <persName>
+                   <surname>Uribe-Etxebarria</surname>
+		   <surname>Apalategi</surname>
+                   <forename>Luke</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1965-06-25">
+                     <placeName>Beasain</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+<affiliation role="member" ref="#EAJ-PNV" from="2001-12-31" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Luke_Uribe-Etxebarria</idno>
+               </person>
+
+		<person xml:id="ArriolaLópez">											<!-- ##112 -->
+                  <persName>													<!-- PSE-EE -->
+                   <surname>Arriola</surname>
+		   <surname>López</surname>
+                   <forename>Iñaki</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1959-10-07">
+                     <placeName>Eibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2016-10-21"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+      <affiliation role="member" ref="#PSE-EE" from="1993-01-01" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Luke_Uribe-Etxebarria</idno>
+               </person>
+
+		<person xml:id="RoncalAzanza">											<!-- ##113 -->
+                  <persName>
+                   <surname>Roncal</surname>
+		   <surname>Azanza</surname>
+                   <forename>Blanca</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1950-10-31">
+                     <placeName>Auritz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PSE-EE" from="2001-06-28" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Blanca_Roncal</idno>
+               </person>
+
+		<person xml:id="ItxasoGonzález">										<!-- ##114 -->
+                  <persName>
+                   <surname>Itxaso</surname>
+		   <surname>González</surname>
+                   <forename>Bixen</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1957">
+                     <placeName>Pasaia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PSE-EE" from="2009-04-03" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Bixen_Itxaso</idno>
+               </person>
+
+		<person xml:id="QuirogaCia">											<!-- ##115 -->
+                  <persName>													<!-- PP -->
+                   <surname>Quiroga</surname>
+		   <surname>Cia</surname>
+                   <forename>Arantza</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1973-07-26">
+                     <placeName>Irun</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PP" from="1995" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Arantza_Quiroga</idno>
+               </person>
+
+		<person xml:id="SémperPascual">											<!-- ##116 -->
+                  <persName>
+                   <surname>Sémper</surname>
+		   <surname>Pascual</surname>
+                   <forename>Francisco de Borja</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1976-01-10">
+                     <placeName>Irun</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#PP" from="2003-01-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Borja_S%C3%A9mper</idno>
+               </person>
+
+		<person xml:id="AgirreLópez">											<!-- ##117 -->
+                  <persName>													<!-- EAJ-PNV -->
+                   <surname>Agirre</surname>
+		   <surname>Lóopez</surname>
+                   <forename>Xabier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1951-04-28">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2004-01-01" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Xabier_Agirre_Lopez</idno>
+               </person>
+
+		<person xml:id="BerriozabalBóveda">										<!-- ##118 -->
+                  <persName>
+                   <surname>Berriozabal</surname>
+		   <surname>Bóveda</surname>
+                   <forename>Jone</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1982">
+                     <placeName>Durango</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2008-04-02" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jone_Berriozabal</idno>
+               </person>
+
+		<person xml:id="CarroIglesias">												<!-- ##119 -->
+                  <persName>
+                   <surname>Carro</surname>
+                   <surname>Iglesias</surname>
+                   <forename>Francisco Javier</forename>
+                  </persName>
+		               <sex value="M"></sex>
+                   <birth when="1969">
+                   <placeName>Izarra-Urkabustaiz</placeName>
+                   </birth>
+                   <affiliation role="member"
+                                 ref="#DZ"
+                                 to="2022-07-01"
+                                 from="2012-10-20"/>
+		               <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+                   </affiliation>
+                  <idno type="wikimedia" xml:lang="eu"> https://eu.wikipedia.org/wiki/Javier_Carro</idno>
+               </person>
+
+		<person xml:id="BeltrándeHerediaArroniz">									<!-- ##120 -->
+                  <persName>
+                   <surname>Beltrán de Heredia</surname>
+		   <surname>Arroniz</surname>
+                   <forename>Estefania</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1960-03-28">
+                     <placeName>Uribarri-Harana</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2020-08-03"
+                               from="2016-10-20"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2020-08-03"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="1998-11-25" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Estefania_Beltran_de_Heredia</idno>
+               </person>
+
+		<person xml:id="AldaiturriagaZorrozua">										<!-- ##121 -->
+                  <persName>
+                   <surname>Aldaiturriaga</surname>
+		   <surname>Zorrozua</surname>
+                   <forename>Norberto</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1955">
+                     <placeName>Laudio</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2009-04-03" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Norberto_Aldaiturriaga_Zorrozua</idno>
+               </person>
+
+		<person xml:id="OregiBastarrika">										<!-- ##122 -->
+                  <persName>
+                   <surname>Oregi</surname>
+		   <surname>Bastarrika</surname>
+                   <forename>Ana Isabel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1965">
+                     <placeName>Eibar</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2016-10-20"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2012-11-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Ana_Oregi</idno>
+               </person>
+
+		<person xml:id="ArrondoAldasoro">										<!-- ##123 -->
+                  <persName>													<!-- EH Bildu -->
+                   <surname>Arrondo</surname>
+		   <surname>Aldasoro</surname>
+                   <forename>Belen</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1956">
+                     <placeName>Beasain</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-11-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Belen_Arrondo</idno>
+               </person>
+
+		<person xml:id="ArraizBarbadillo">										<!-- ##124 -->
+                  <persName>
+                   <surname>Arraiz</surname>
+		   <surname>Barbadillo</surname>
+                   <forename>Hasier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1973-06-13">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu" from="2012-11-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Hasier_Arraiz</idno>
+               </person>
+
+		<person xml:id="LópezDeMunainGanuza">										<!-- ##127 -->
+                  <persName>
+                   <surname>Lopez de Muniain</surname>
+                   <forename>Igor</forename>
+                  </persName>
+		  <sex value="M"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+      </affiliation>
+		</person>
+
+		<person xml:id="BreñasGonzálezDeZárate">											<!-- ##128 -->
+                  <persName>
+                   <surname>Breñas</surname>
+                   <surname>González de Zárate</surname>
+                   <forename>Estitxu</forename>
+                  </persName>
+		  <sex value="F"></sex>
+      <affiliation role="member"
+                    ref="#DZ"
+                    to="2022-07-01"
+                    from="2012-10-20"/>
+      <affiliation role="member" ref="#EHBildu"  ana="#DZ">
+      </affiliation>
+		</person>
+
+		<person xml:id="OyarzabalDeMiguel">											<!-- ##129 -->
+                  <persName>														<!-- PP -->
+                   <surname>OyarzábaL</surname>
+		   <surname>de Miguel</surname>
+                   <forename>Iñaki</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1966-06-19">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+              ref="#DZ"
+              to="2022-07-01"
+              from="2012-10-20"/>
+              <affiliation role="member" ref="#PP" from="1998-11-25" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/I%C3%B1aki_Oyarz%C3%A1bal</idno>
+               </person>
+		<person xml:id="MarotoAranzábal">											<!-- ##130 -->
+                  <persName>
+                   <surname>Maroto</surname>
+		   <surname>Aranzabal</surname>
+                   <forename>Javier Ignacio</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1972-01-06">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+              ref="#DZ"
+              to="2022-07-01"
+              from="2012-10-20"/>
+<affiliation role="member" ref="#PP" from="1999-07-04" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Javier_Maroto</idno>
+               </person>
+
+	       <person xml:id="LópezDeOcarizLópezDeMunain">										<!-- ##131 -->
+                  <persName>
+                   <surname>López de Okariz</surname>
+		   <surname>López de Munain</surname>
+                   <forename>Maria del Carmen</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1957-05-12">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+              ref="#DZ"
+              to="2022-07-01"
+              from="2012-10-20"/>
+              <affiliation role="member" ref="#PP" from="1998-11-25" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Mari_Carmen_L%C3%B3pez_de_Okariz</idno>
+               </person>
+
+		<person xml:id="LópezÁlvarez">											<!-- ##132 -->
+                  <persName>													<!-- PSE-EE -->
+                   <surname>López</surname>
+		   <surname>Álvarez</surname>
+                   <forename>Francisco Javier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1959-10-04">
+                     <placeName>Barakaldo</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PSE-EE" from="1993-01-01" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Patxi_L%C3%B3pez</idno>
+               </person>
+
+    <person xml:id="SarasuaDíaz">											<!-- ##133 -->
+      <persName>
+      <surname>Sarasua</surname>
+      <surname>Díaz</surname>
+      <forename>Txaro</forename>
+      </persName>
+		  <sex value="F"></sex>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PSE-EE"  ana="#DZ">
+      </affiliation>
+      <idno type="wikimedia" xml:lang="eu">https://www.wikidata.org/wiki/Q106557630</idno>
+      </person>
+
+	       <person xml:id="RojoSolana">											<!-- ##134 -->
+                  <persName>
+                   <surname>Rojo</surname>
+		   <surname>Solana</surname>
+                   <forename>Natalia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1977-05-25">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PSE-EE" from="2005-05-25" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Natalia_Rojo</idno>
+               </person>
+
+	       <person xml:id="UnzaluHermosa">											<!-- ##135 -->
+                  <persName>
+                   <surname>Unzalu</surname>
+		   <surname>Hermosa</surname>
+                   <forename>Mikel</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1956">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PSE-EE" from="2009-05-18" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Mikel_Unzalu</idno>
+               </person>
+
+	       <person xml:id="ManeiroLabayen">											<!-- ##136 -->
+                  <persName>														<!-- UPYD -->
+                   <surname>Maneiro</surname>
+		   <surname>Labayen</surname>
+                   <forename>Gorka</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1974-11-11">
+                     <placeName>Donostia</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#UPyD" from="2009-04-03" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Gorka_Maneiro</idno>
+               </person>
+
+		<person xml:id="Ramírez-EscuderoIsusi">											<!-- ##138 -->
+                  <persName>
+                   <surname>Ramírez-Escudero</surname>
+		   <surname>Isusi</surname>
+                   <forename>Juan Carlos</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1956">
+                     <placeName>Gaubea</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member"
+ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="OtaolaUrkijo">												<!-- ##139 -->
+                  <persName>
+                   <surname>Otaola</surname>
+		   <surname>Urkijo</surname>
+                   <forename>Almudena</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1973-08-27">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Almudena_Otaola</idno>
+               </person>
+
+		<person xml:id="MolinaPérez">												<!-- ##140 -->
+                  <persName>
+                   <surname>Molina</surname>
+		   <surname>Pérez</surname>
+                   <forename>Rakel</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1989">
+                     <placeName>Villabuena</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="2017-01-04" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Rakel_Molina_P%C3%A9rez</idno>
+               </person>
+
+		<person xml:id="AlonsoAranegui">												<!-- ##141 -->
+                  <persName>														<!-- PP -->
+                   <surname>Alonso</surname>
+		   <surname>Aranegui</surname>
+                   <forename>Alfonso</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1967-04-14">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PP" from="1999-07-04" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Alfonso_Alonso</idno>
+               </person>
+
+		<person xml:id="deAndrésGuerra">												<!-- ##143 -->
+                  <persName>
+                   <surname>de Andrés</surname>
+		   <surname>Guerra</surname>
+                   <forename>Javier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1967-10-03">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PP" from="2007-06-20" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Javier_de_Andr%C3%A9s</idno>
+               </person>
+
+		<person xml:id="RuizDeArbuloCerio">												<!-- ##145 -->
+                  <persName>
+                   <surname>Ruiz de Arbulo</surname>
+		   <surname>Cerio</surname>
+                   <forename>Javier</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1968">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PP"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="LarrionRuizDeGauna">												<!-- ##146 -->
+                  <persName>															<!-- EH Bildu -->
+                   <surname>Larrion</surname>
+		   <surname>Ruiz de Gauna</surname>
+                   <forename>Miren</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1969-02-28">
+                     <placeName>Legazpi</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EHBildu" from="2015-06-09" ana="#DZ">
+      </affiliation>
+               </person>
+
+	       <person xml:id="SanSaturninoMurua">												<!-- ##147 -->
+                  <persName>
+                   <surname>San Saturnino</surname>
+		   <surname>Murua</surname>
+                   <forename>Ibon</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1975">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EHBildu" from="2015-06-09" ana="#DZ">
+      </affiliation>
+               </person>
+
+	       <person xml:id="LópezDeArroyabeSaezDeMaturana">											<!-- ##148 -->
+                  <persName>
+                   <surname>López de Arroyabe</surname>
+		   <surname>Saez de Maturana</surname>
+                   <forename>Eva</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1973-12-10">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="MacazagaSáenz">													<!-- ##149 -->
+                  <persName>															<!-- PODEMOS -->
+                   <surname>Macazaga</surname>
+		   <surname>Sáenz</surname>
+                   <forename>Cristina</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1974-04-27">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU"  from="2016-08-11" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="GarcíaLarrimbe">												<!-- ##150 -->
+                  <persName>
+                   <surname>García</surname>
+		   <surname>Larrimbe</surname>
+                   <forename>Edurne</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1983-10-27">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU"  from="2016-08-11" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="BecerraCarollo">												<!-- ##151 -->
+                  <persName>
+                   <surname>Becerra</surname>
+		   <surname>Carollo</surname>
+                   <forename>Jose Ramon</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1969">
+                     <placeName>Urduña</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jose_Ramon_Becerra</idno>
+               </person>
+
+		<person xml:id="OtaloraAriño">													<!-- ##152 -->
+                  <persName>															<!-- EAJ-PNV -->
+                   <surname>Otalora</surname>
+		   <surname>Ariño</surname>
+                   <forename>Begoña</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1966">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="1999" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/Bego%C3%B1a_Otalora</idno>
+               </person>
+
+		<person xml:id="ArregiRomarate">												<!-- ##154 -->
+                  <persName>
+                   <surname>Arregi</surname>
+		   <surname>Romarate</surname>
+                   <forename>Amaia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1970">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="ZorrillaIbañez">												<!-- ##156 -->
+                  <persName>
+                   <surname>Zorrilla</surname>
+		   <surname>Ibáñez</surname>
+                   <forename>Joseba Mirena</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1967-07-14">
+                     <placeName>Balmaseda</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="1999-06-13" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="LatxagaUgartemendia">												<!-- ##157 -->
+                  <persName>
+                   <surname>Latxaga</surname>
+		   <surname>Ugartemendia</surname>
+                   <forename>David</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1961-01-19">
+                     <placeName>Mundaka</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="2003-05-15" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="es">https://es.wikipedia.org/wiki/David_Latxaga_Ugartemendia</idno>
+               </person>
+
+		<person xml:id="SagarduiGoikoetxea">												<!-- ##158 -->
+                  <persName>
+                   <surname>Sagardui</surname>
+		   <surname>Goikoetxea</surname>
+                   <forename>Miren Gotzone</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1966-03-15">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2020-08-03"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Gotzone_Sagardui</idno>
+               </person>
+
+		<person xml:id="BetolazaSanMiguel">												<!-- ##159 -->
+                  <persName>
+                   <surname>Betolaza</surname>
+		   <surname>San Miguel</surname>
+                   <forename>Amaia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1965">
+                     <placeName>Galdakao</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="GoirizelaiaOrdorika">												<!-- ##160 -->
+                  <persName>															<!-- EH Bildu -->
+                   <surname>Goirizelaia</surname>
+		   <surname>Ordorika</surname>
+                   <forename>Jone</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1956-10-30">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EHBildu" from="2012-06-12" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jone_Goirizelaia</idno>
+               </person>
+
+		<person xml:id="MartínezHierro">												<!-- ##161 -->
+                  <persName>															<!-- ELKARREKIN PODEMOS -->
+                   <surname>Martínez</surname>
+		   <surname>Hierro</surname>
+                   <forename>Lander</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1989-11-06">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Lander_Mart%C3%ADnez</idno>
+               </person>
+
+		<person xml:id="AranaVaras">													<!-- ##162 -->
+                  <persName>
+                   <surname>Arana</surname>
+		   <surname>Varas</surname>
+                   <forename>Eukene</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1971-06-08">
+                     <placeName>Barakaldo</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Eukene_Arana</idno>
+               </person>
+
+		<person xml:id="UriaSerrano">													<!-- ##163 -->
+                  <persName>
+                   <surname>Uria</surname>
+		   <surname>Serrano</surname>
+                   <forename>Juan Luis</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1952-12-12">
+                     <placeName>Sestao</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="GuancheSuárez">													<!-- ##164 -->
+                  <persName>
+                   <surname>Guanche</surname>
+		   <surname>Suárez</surname>
+                   <forename>Tinixara</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1982-03-11">
+                     <placeName>Santa Cruz de Tenerife</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="RuizChico">													<!-- ##165 -->
+                  <persName>
+                   <surname>Ruiz</surname>
+		   <surname>Chico</surname>
+                   <forename>Yahcov</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1980">
+                     <placeName>Madril</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU"  from="2016-08-11" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="MendiaCueva">													<!-- ##166 -->
+                  <persName>															<!-- PSE-EE -->
+                   <surname>Mendia</surname>
+		   <surname>Cueva</surname>
+                   <forename>Idoia</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1965-10-27">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2020-08-03"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+      <affiliation role="member" ref="#PSE-EE" from="2001-06-08" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Idoia_Mendia</idno>
+               </person>
+
+		<person xml:id="TapiaOtaegui">													<!-- ##167 -->
+                  <persName>															<!-- EAJ-PNV -->
+                   <surname>Tapia</surname>
+		   <surname>Otaegui</surname>
+                   <forename>Miren Arantzazu</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1963-09-24">
+                     <placeName>Astigarraga</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+      <affiliation role="member" ref="#EAJ-PNV" from="2011-12-02" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Arantxa_Tapia</idno>
+               </person>
+
+		<person xml:id="SolorzanoSanchez">												<!-- ##169 -->
+                  <persName>
+                   <surname>Solorzano</surname>
+		   <surname>Sanchez</surname>
+                   <forename>Carmen</forename>
+                  </persName>
+		  <sex value="F"></sex>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV"  ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="UgarteZubizarreta">												<!-- ##170 -->
+                  <persName>															<!-- EH Bildu -->
+                   <surname>Ugarte</surname>
+		   <surname>Zubizarreta</surname>
+                   <forename>Larraitz</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1976">
+                     <placeName>Oñati</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Larraitz_Ugarte</idno>
+               </person>
+
+		<person xml:id="OtamendiTolosa">												<!-- ##171 -->
+                  <persName>
+                   <surname>Otamendi</surname>
+		   <surname>Tolosa</surname>
+                   <forename>Maider</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1976">
+                     <placeName>Orendain</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+      </affiliation>
+               </person>
+
+		<person xml:id="ZabalaArtano">													<!-- ##172 -->
+                  <persName>															<!-- ELKARREKIN PODEMOS -->
+                   <surname>Zabala</surname>
+		   <surname>Artano</surname>
+                   <forename>Pilar</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1968-05-07">
+                     <placeName>Tolosa</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Pili_Zabala</idno>
+               </person>
+
+		<person xml:id="BollainUrbieta">												<!-- ##173 -->
+                  <persName>
+                   <surname>Bollain</surname>
+		   <surname>Urbieta</surname>
+                   <forename>Julen</forename>
+                  </persName>
+		  <sex value="M"></sex>
+                  <birth when="1990-03-28">
+                     <placeName>Eibar</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EP-IU" from="2016-10-21" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Julen_Bollain</idno>
+               </person>
+
+		<person xml:id="RomeroPozo">													<!-- ##174 -->
+                  <persName>															<!-- PSE-EE -->
+                   <surname>Romero</surname>
+		   <surname>Pozo</surname>
+                   <forename>Rafaela</forename>
+                  </persName>
+		  <sex value="F"></sex>
+                  <birth when="1972-02-01">
+                     <placeName>Quintana de la Serena</placeName>
+                  </birth>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PSE-EE" from="1995-06-23" ana="#DZ">
+      </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Rafaela_Romero</idno>
+               </person>
+
+		<person xml:id="GuerraAlonso">													<!-- ##175 -->
+                  <persName>															<!-- PP -->
+                   <surname>Guerra</surname>
+		   <surname>Alonso</surname>
+                   <forename>Asunción</forename>
+                  </persName>
+		  <sex value="F"></sex>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PP"  ana="#DZ">
+      </affiliation>
+               </person>
+
+               <person xml:id="RuizBujedo">													<!-- ##17XX -->
+               <persName>															<!-- PP -->
+               <surname>Ruiz</surname>
+         		   <surname>Bujedo</surname>
+               <forename>Cristina</forename>
+               </persName>
+           		  <sex value="F"></sex>
+           		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PP"  ana="#DZ">
+                </affiliation>
+                <idno type="wikimedia" xml:lang="eu">https://www.wikidata.org/wiki/Q106557628</idno>
+              </person>
+
+		<person xml:id="DeBengoecheaEstrade">												<!-- ##176 -->
+                  <persName>
+                   <surname>De Bengoechea</surname>
+		   <surname>Estrade</surname>
+                   <forename>Juana</forename>
+                  </persName>
+		  <sex value="F"></sex>
+		  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#PP" ana="#DZ">
+      </affiliation>
+		</person>
+
+		<person xml:id="GaramendiLanda">
+                  <persName>
+                     <surname>Garamendi</surname>
+                     <surname>Landa</surname>
+                     <forename>Olatz</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1968">
+                     <placeName>Ea</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2020-08-03"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2012" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Olatz_Garamendi</idno>
+               </person>
+
+               <person xml:id="AzpiazuUriarte">
+                  <persName>
+                     <surname>Azpiazu</surname>
+                     <surname>Uriarte</surname>
+                     <forename>Pedro</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1957-04-28">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2016-10-21"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2000" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Pedro_Azpiazu</idno>
+               </person>
+
+               <person xml:id="BildarratzSorron">
+                  <persName>
+                     <surname>Bildarratz</surname>
+                     <surname>Sorron</surname>
+                     <forename>Jokin</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1963-03-15">
+                     <placeName>Tolosa</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2020-08-03"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+                  <affiliation role="member" ref="#EAJ-PNV" from="2001" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Jokin_Bildarratz</idno>
+               </person>
+
+               <person xml:id="ArtolazabalAlbeniz">
+                  <persName>
+                     <surname>Artolazabal</surname>
+                     <surname>Albeniz</surname>
+                     <forename>Beatriz</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1970-04-03">
+                     <placeName>Gasteiz</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2016-10-21"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1991" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/Beatriz_Artolazabal</idno>
+               </person>
+
+               <person xml:id="ZupiriaGorostidi">
+                  <persName>
+                     <surname>Zupiria</surname>
+                     <surname>Gorostidi</surname>
+                     <forename>Bingen</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1961">
+                     <placeName>Hernani</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2016-10-21"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="1989" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Bingen_Zupiria</idno>
+               </person>
+
+               <person xml:id="HurtadoDominguez">
+                  <persName>
+                     <surname>Hurtado</surname>
+                     <surname>Dominguez</surname>
+                     <forename>Javier</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1981-03-28">
+                     <placeName>Madril</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2022-07-01"
+                               from="2020-08-03"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2011" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://en.wikipedia.org/wiki/Javier_Hurtado</idno>
+               </person>
+
+               <person xml:id="ToñaGuenaga">
+                  <persName>
+                     <surname>Toña</surname>
+                     <surname>Guenaga</surname>
+                     <forename>Angel</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1952">
+                     <placeName>Ondarroa</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2015"
+                               from="2016-10-20"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+                  <affiliation role="member" ref="#EAJ-PNV" from="2015" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/%C3%81ngel_To%C3%B1a</idno>
+               </person>
+
+               <person xml:id="UriarteToledo">
+                  <persName>
+                     <surname>Uriarte</surname>
+                     <surname>Toledo</surname>
+                     <forename>Cristina</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1961">
+                     <placeName>Hondarribia</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2020-08-03"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+                  <affiliation role="member" ref="#EAJ-PNV" from="2012" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/Cristina_Uriarte</idno>
+               </person>
+
+               <person xml:id="DarpónSierra">
+                  <persName>
+                     <surname>Darpón</surname>
+                     <surname>Sierra</surname>
+                     <forename>Jon</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1959">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2019-03-14"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#EAJ-PNV" from="2012" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/Jon_Darp%C3%B3n</idno>
+               </person>
+
+               <person xml:id="AburtoRike">
+                  <persName>
+                     <surname>Aburto</surname>
+                     <surname>Rike</surname>
+                     <forename>Juan María</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1961-03-27">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2015"
+                               from="2015-02-01"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+
+                  <affiliation role="member" ref="#EAJ-PNV" from="1991" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/Juan_Mari_Aburto</idno>
+               </person>
+
+               <person xml:id="RetortilloPaniagua ">
+                  <persName>
+                     <surname>Retortillo</surname>
+                     <surname>Paniagua</surname>
+                     <forename>Alfredo</forename>
+                  </persName>
+                  <sex value="M"></sex>
+                  <birth when="1965">
+                     <placeName>Zürich</placeName>
+                  </birth>
+                  <affiliation role="member"
+                               ref="#government.PV"
+                               to="2020-08-20"
+                               from="2016-10-21"/>
+                  <affiliation role="member"
+                                ref="#DZ"
+                                to="2022-07-01"
+                                from="2012-10-20"/>
+                  <affiliation role="member" ref="#PSE-EE" from="2016" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/Alfredo_Retortillo</idno>
+               </person>
+
+               <person xml:id="MurgaEizagaechevarria">
+                  <persName>
+                     <surname>Murga</surname>
+                     <surname>Eizagaechevarria</surname>
+                     <forename>Nekane</forename>
+                  </persName>
+                  <sex value="F"></sex>
+                  <birth when="1963">
+                     <placeName>Bilbo</placeName>
+                  </birth>
+
+                  <affiliation role="member"
+        ref="#DZ"
+        to="2022-07-01"
+        from="2012-10-20"/>
+        <affiliation role="member" ref="#EAJ-PNV" from="2017" ana="#DZ">
+                  </affiliation>
+                  <idno type="wikimedia" xml:lang="eu">https://es.wikipedia.org/wiki/Nekane_Murga</idno>
+               </person>
+
+               <person xml:id="FresnoAsensio">													<!-- ##111111 -->
+                             <persName>															<!-- partidua -->
+                              <surname>Fresno</surname>
+           		                <surname>Asensio</surname>
+                              <forename>Rosa</forename>
+                             </persName>
+           		                <sex value="F"></sex>
+                             <birth when="1963-03-15">
+                                <placeName>Araba</placeName>
+                             </birth>
+           		  <affiliation role="member" ref="#PSE-EE" ana="#DZ">
+                </affiliation>
+                             <idno type="wikimedia" xml:lang="eu">https://eu.wikipedia.org/wiki/Rosa_Fresno</idno>
+                          </person>
+
+
+<person xml:id="ZulaikaPortillo">													<!-- ##111111 -->
+  <persName>															<!-- partidua -->
+    <surname>Zulaika</surname>
+    <surname>Portillo</surname>
+    <forename>Ilargi-</forename>
+  </persName>
+  <sex value="F"></sex>
+  <affiliation role="member"
+          ref="#DZ"
+          to="2022-07-01"
+          from="2012-10-20"/>
+          <affiliation role="member" ref="#EHBildu" from="2016-10-21" ana="#DZ">
+  </affiliation>
+</person>
+
+</listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="eu" xml:lang="eu">Euskara</language>
+	    <language ident="es" xml:lang="eu">Gaztelania</language>
+            <language ident="en" xml:lang="eu">Ingelesa</language>
+	    <language ident="eu" xml:lang="es">Euskera</language>
+	    <language ident="es" xml:lang="es">Castellano</language>
+            <language ident="es" xml:lang="es">Inglés</language>
+            <language ident="eu" xml:lang="en">Basque</language>
+ 	    <language ident="es" xml:lang="en">Spanish</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-12">
+            <name>Jon Alkorta</name>: Small fixes for ParlaMint.
+	 </change>
+	 <change when="2022-11-25">
+            <name>Mikel Iruskieta</name>: Fix errors. Made sample. Finalize encoding.
+	 </change>
+      </revisionDesc>
+   </teiHeader>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2015-02-05.ana.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2015-02-12.ana.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2015-02-13.ana.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2015-02-19.ana.xml"/>
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-PV_2015-02-27.ana.xml"/>
+</teiCorpus>
