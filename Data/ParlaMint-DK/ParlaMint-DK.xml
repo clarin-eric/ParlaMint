@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Danish parliamentary corpus ParlaMint-DK [ParlaMint]</title>
-            <title type="main" xml:lang="da">Det danske korpus ParlaMint-DK [ParlaMint]</title>
+            <title type="main" xml:lang="en">Danish parliamentary corpus ParlaMint-DK [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="da">Det danske korpus ParlaMint-DK [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Hansards of the Danish Parliament, Folketinget, session 20141 to 20211 (2014-2022)</title>
             <title type="sub" xml:lang="da">Referater fra folketingssalen, folketingsårene 20141 til 20211 (2014-2022)</title>
             <meeting xml:lang="en"
@@ -66,7 +66,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="1114" xml:lang="en">1,114 speeches</measure>
             <measure unit="words" quantity="91466" xml:lang="en">91,466 words</measure>
          </extent>
@@ -80,7 +80,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-02-27">February 27, 2023</date>
+            <date when="2023-02-28">2023-02-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -113,7 +113,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to one utterance).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="3"/>
                <tagUsage gi="div" occurs="46"/>
@@ -5852,6 +5852,10 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-02-28">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-DK_2014-10-07-20141-M1.xml"/>
