@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-UA_2013-12-04-m0.ana"
+     xml:lang="uk"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA, term 7, session 3, sitting day 2013-12-04, n0 [ParlaMint.ana]</title>
+            <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA, 7 скликання, 3 сесія, дата пленарного засідання 2013-12-04, номер засідання №0 [ParlaMint.ana]</title>
+            <meeting ana="#parla.term #parla.uni" n="7" corresp="#ВРУ">7</meeting>
+            <meeting ana="#parla.session #parla.uni" n="3" corresp="#ВРУ">3</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2013-12-04" corresp="#ВРУ">2013-12-04</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Data retrieval</resp>
+               <resp xml:lang="uk">Збирання даних</resp>
+               <resp xml:lang="en">TEI XML corpus encoding</resp>
+               <resp xml:lang="uk">Програмування корпусу у форматі TEI XML</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+               <resp xml:lang="uk">Мовна розмітка</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Anna Kryvenko</persName>
+               <resp xml:lang="en">Manual metadata retrieval</resp>
+               <resp xml:lang="uk">Ручне збирання метаданих</resp>
+               <resp xml:lang="en">Translations</resp>
+               <resp xml:lang="uk">Переклад</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN ERIC</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Slovenian Research Agency</orgName>
+               <orgName xml:lang="uk">Державне дослідницьке агентство Республіки Словенія</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="2" xml:lang="en">2 speeches</measure>
+            <measure unit="speeches" quantity="2" xml:lang="uk">2 виступів</measure>
+            <measure unit="words" quantity="62" xml:lang="en">62 words</measure>
+            <measure unit="words" quantity="62" xml:lang="uk">62 слів</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="uk">Цей твір ліцензовано на умовах <ref target="http://creativecommons.org/licenses/by/4.0/">"Міжнародної ліцензії Creative Commons 4.0 із зазначенням авторства"</ref>.</p>
+            </availability>
+            <date when="2023-03-01">2023-03-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="uk">Верховна Рада України</title>
+               <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/show/5127.html</idno>
+               <date when="2013-12-04">2013-12-04</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="uk">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>  — проєкт, цілями якого є: (1) створення багатомовної групи порівняльних корпусів стенограм парламентських пленарних засідань, які охоплюють період між 2015 роком і серединою 2022 року та які було розроблено відповідно до спільних для всіх інструкцій <ref target="https://clarin-eric.github.io/ParlaMint/">Інструкції щодо програмування ParlaMint</ref>; (2) лінгвістичне анотування корпусів текстів та їх машинний переклад англійською мовою; (3) забезпечення вільного доступу до корпусів через конкордансери; і (4) створення на основі корпусних даних варіантів використання в галузях політичних наук і цифрових гуманітарних наук.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="2"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="link" occurs="75"/>
+               <tagUsage gi="linkGrp" occurs="8"/>
+               <tagUsage gi="note" occurs="7"/>
+               <tagUsage gi="pc" occurs="13"/>
+               <tagUsage gi="s" occurs="8"/>
+               <tagUsage gi="seg" occurs="3"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="2"/>
+               <tagUsage gi="vocal" occurs="2"/>
+               <tagUsage gi="w" occurs="62"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Верховна Рада України</name>
+               <name type="address">вулиця Михайла Грушевського, 5</name>
+               <name type="city">Київ</name>
+               <name key="UA" type="country">Україна</name>
+               <date when="2013-12-04">2013-12-04</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="date">Стенограма пленарного засідання 04 грудня 2013</note>
+            <note type="comment">ЗАСІДАННЯ ТРИДЦЯТЬ П'ЯТЕ</note>
+            <note type="comment">Сесійний зал Верховної Ради України</note>
+            <note type="time">04 грудня 2013 року, 10.15 година</note>
+            <note type="narrative">Веде засідання Голова Верховної Ради України В.В.РИБАК</note>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-12-04-m0.u1"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1" xml:lang="uk">
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w1"
+                        lemma="шановний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Voc|Number=Plur">Шановні</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w2"
+                        lemma="народний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Voc|Number=Plur">народні</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w3"
+                        lemma="депутат"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur"
+                        join="right">депутати</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w4"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w5"
+                        lemma="ранковий"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Acc|Gender=Neut|Number=Sing">ранкове</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w6"
+                        lemma="засідання"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing">засідання</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w7"
+                        lemma="верховний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing">Верховної</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w8"
+                        lemma="рада"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing">Ради</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w9"
+                        lemma="Україна"
+                        pos="PROPN"
+                        msd="UPosTag=PROPN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing">України</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w10"
+                        lemma="я"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">я</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w11"
+                        lemma="оголошувати"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">оголошую</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w12"
+                        lemma="відкритий"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass"
+                        join="right">відкритим</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w13"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w1"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w2"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w11 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w6 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w4"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w6 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w5"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w6"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w8 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w6 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w8 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w9"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w11 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w10"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w11"/>
+                        <link ana="ud-syn:xcomp_pred"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w11 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w12"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w11 #ParlaMint-UA_2013-12-04-m0.u1.p1.s1.w13"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w1"
+                        lemma="просити"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">Прошу</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w2"
+                        lemma="керівник"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur">керівників</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w3"
+                        lemma="фракція"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur">фракцій</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w4"
+                        lemma="зайти"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf">зайти</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w5"
+                        lemma="у"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Acc">у</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w6"
+                        lemma="кабінет"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing">кабінет</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w7"
+                        lemma="голова"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing">Голови</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w8"
+                        lemma="верховний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing">Верховної</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w9"
+                        lemma="рада"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing"
+                        join="right">Ради</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w10"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w1 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w2 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w3"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w1 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w4"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w6 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w5"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w4 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w6 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w7"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w9 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w7 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w1 #ParlaMint-UA_2013-12-04-m0.u1.p1.s2.w10"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w1"
+                        lemma="і"
+                        pos="CCONJ"
+                        msd="UPosTag=CCONJ">І</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w2"
+                        lemma="я"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">я</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3"
+                        lemma="оголошувати"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">оголошую</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w4"
+                        lemma="для"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Gen">для</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w5"
+                        lemma="депутат"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur">депутатів</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w6"
+                        lemma="перерва"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing"
+                        join="right">перерву</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w7"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w1"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w5 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w4"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w3 #ParlaMint-UA_2013-12-04-m0.u1.p1.s3.w7"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <vocal type="shouting">
+               <desc>ГОЛОСИ ІЗ ЗАЛУ. Закрити, закрити засідання. Закрити засідання.</desc>
+            </vocal>
+            <note type="speaker">ГОЛОВУЮЧИЙ.</note>
+            <u xml:id="ParlaMint-UA_2013-12-04-m0.u2"
+               who="#ВолодимирВасильовичРибак.1946"
+               ana="#chair">
+               <seg xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1" xml:lang="uk">
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w1"
+                        lemma="ити"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin">Иди</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w2"
+                        lemma="отсюда"
+                        pos="ADV"
+                        msd="UPosTag=ADV"
+                        join="right">отсюда</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w3"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w4"
+                        lemma="не"
+                        pos="PART"
+                        msd="UPosTag=PART|Polarity=Neg">не</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w5"
+                        lemma="крити"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin"
+                        join="right">кричи</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w6"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p1.s1 #ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w1 #ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w5 #ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w3"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w5 #ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w4"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w1 #ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w1 #ParlaMint-UA_2013-12-04-m0.u2.p1.s1.w6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+               <vocal type="noise">
+                  <desc>(Шум у залі)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2" xml:lang="uk">
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w1"
+                        lemma="шановний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Voc|Number=Plur">Шановні</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w2"
+                        lemma="народний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Nom|Number=Plur">народні</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w3"
+                        lemma="депутат"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur"
+                        join="right">депутати</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w4"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w5"
+                        lemma="у"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Loc">у</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6"
+                        lemma="зв’язок"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing">зв'язку</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w7"
+                        lemma="із"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Ins">із</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w8"
+                        lemma="ситуація"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing"
+                        join="right">ситуацією</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w9"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w10"
+                        lemma="з"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Ins">з</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w11"
+                        lemma="неможливість"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing">неможливістю</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w12"
+                        lemma="зараз"
+                        pos="ADV"
+                        msd="UPosTag=ADV|PronType=Dem">зараз</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w13"
+                        lemma="провести"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf">провести</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w14"
+                        lemma="сесія"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing">сесію</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w15"
+                        lemma="верховний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing">Верховної</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w16"
+                        lemma="рада"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing"
+                        join="right">Ради</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w17"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w18"
+                        lemma="я"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs">я</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w19"
+                        lemma="ранковий"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Acc|Gender=Neut|Number=Sing">ранкове</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w20"
+                        lemma="засідання"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing">засідання</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21"
+                        lemma="оголошувати"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin">оголошую</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w22"
+                        lemma="закритий"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Aspect=Perf|Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass"
+                        join="right">закритим</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w23"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w3 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w1"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w3 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w2"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w4"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w5"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w8 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w11 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w9"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w11 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w10"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w11"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w13 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w12"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w11 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w13"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w13 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w14"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w16 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w15"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w14 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w16"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w17"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w18"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w20 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w19"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w20"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21"/>
+                        <link ana="ud-syn:xcomp_pred"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w22"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w21 #ParlaMint-UA_2013-12-04-m0.u2.p2.s1.w23"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w1"
+                        lemma="завтра"
+                        pos="ADV"
+                        msd="UPosTag=ADV">Завтра</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w2"
+                        lemma="о"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Loc">о</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w3"
+                        lemma="10ий"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing|NumType=Ord">10-й</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w4"
+                        lemma="година"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing">годині</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w5"
+                        lemma="ми"
+                        pos="PRON"
+                        msd="UPosTag=PRON|Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs">ми</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6"
+                        lemma="продовжити"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin">продовжимо</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w7"
+                        lemma="засідання"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing">засідання</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w8"
+                        lemma="верховний"
+                        pos="ADJ"
+                        msd="UPosTag=ADJ|Case=Gen|Gender=Fem|Number=Sing">Верховної</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w9"
+                        lemma="рада"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing">Ради</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w10"
+                        lemma="Україна"
+                        pos="PROPN"
+                        msd="UPosTag=PROPN|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing"
+                        join="right">України</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w11"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w1"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w4 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w2"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w4 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w3"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w4"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w5"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w7"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w9 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w7 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w9"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w9 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w6 #ParlaMint-UA_2013-12-04-m0.u2.p2.s2.w11"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s3">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s3.w1"
+                        lemma="домовитися"
+                        pos="VERB"
+                        msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin"
+                        join="right">Домовились</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s3.w2"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">?</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s3 #ParlaMint-UA_2013-12-04-m0.u2.p2.s3.w1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s3.w1 #ParlaMint-UA_2013-12-04-m0.u2.p2.s3.w2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s4">
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w1"
+                        lemma="до"
+                        pos="ADP"
+                        msd="UPosTag=ADP|Case=Gen">До</w>
+                     <w xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w2"
+                        lemma="побачення"
+                        pos="NOUN"
+                        msd="UPosTag=NOUN|Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing"
+                        join="right">побачення</w>
+                     <pc xml:id="ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w3"
+                         pos="PUNCT"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w2 #ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s4 #ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w2 #ParlaMint-UA_2013-12-04-m0.u2.p2.s4.w3"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
