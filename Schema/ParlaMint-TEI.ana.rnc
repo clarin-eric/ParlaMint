@@ -78,7 +78,7 @@ word =
   }
 
 ## A punctuation element.
-punct = element pc { token.atts, normalized-space.string }
+punct = element pc { token.atts, non-empty.string }
 
 ## Dependency syntax as a link group (inside a sentence).
 syntax =
@@ -97,15 +97,15 @@ token.atts =
   id.att,
   lang.att,
   attribute join { "right" }?,
-  attribute norm { xsd:string }?,
-  attribute msd { xsd:string },
+  attribute norm { non-empty.string }?,
+  attribute msd { non-empty.string },
   attribute ana { anyURIs }?,
-  attribute pos { xsd:string }?
+  attribute pos { non-empty.string }?
 
 ## Obligatory attributes of word.
 word.atts =
   token.atts,
-  attribute lemma { xsd:string }
+  attribute lemma { normalized-space.string }
 
 ## Optional attributes of word.
 word-optional.atts =
@@ -114,10 +114,6 @@ word-optional.atts =
   attribute join { "right" }?,
   
   ## UD PoS and morph.features, e.g. "UPosTag=NUM|NumForm=Digit":
-  (attribute msd {
-     xsd:string { pattern = "\S+" }
-   }?),
+  (attribute msd { non-empty.string }?),
   attribute ana { anyURIs }?,
-  attribute lemma {
-    xsd:string { pattern = "\S+" }
-  }?
+  attribute lemma { normalized-space.string }?
