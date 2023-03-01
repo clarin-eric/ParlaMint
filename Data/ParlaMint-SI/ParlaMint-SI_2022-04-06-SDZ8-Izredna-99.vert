@@ -1,8 +1,4 @@
 <note type="head" content="REPUBLIKA SLOVENIJA DRŽAVNI ZBOR"/>
-<note type="head" content="Nadaljevanje 99. izredne seje"/>
-<note type="head" content="Sejo so vodili predsednik Igor Zorčič in podpredsedniki Tina Heferle, Branko Simonovič in Jože Tanko."/>
-<note type="time" content="Seja se je začela ob 9. uri."/>
-<note type="speaker" content="PODPREDSEDNIK BRANKO SIMONOVIČ:"/>
 <speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Chairperson" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="-" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1.1">

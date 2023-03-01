@@ -1,8 +1,4 @@
 <note type="head" content="DRŽAVNI ZBOR REPUBLIKE SLOVENIJE"/>
-<note type="head" content="1. izredna seja"/>
-<note type="head" content="Sejo je vodil Borut Pahor, predsednik državnega zbora."/>
-<note type="time" content="Seja se je pričela ob 16.04 uri."/>
-<note type="speaker" content="PREDSEDNIK BORUT PAHOR:"/>
 <speech id="ParlaMint-SI_2000-11-16-SDZ3-Izredna-01.u1" text_id="ParlaMint-SI_2000-11-16-SDZ3-Izredna-01" subcorpus="Reference" body="Lower house" term="3" session="" meeting="1" sitting="" agenda="" date="2000-11-16" title="Minutes of the National Assembly of the Republic of Slovenia, Term 3, Extraordinary Session 1, (16. 11. 2000)" speaker_role="Chairperson" speaker_id="PahorBorut" speaker_name="Pahor, Borut" speaker_mp="MP" speaker_minister="-" speaker_party="ZLSD" speaker_party_name="Združena lista socialnih demokratov" party_status="" speaker_gender="M" speaker_birth="1963">
 <p id="ParlaMint-SI_2000-11-16-SDZ3-Izredna-01.ana.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2000-11-16-SDZ3-Izredna-01.ana.seg1.1">
