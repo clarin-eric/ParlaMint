@@ -4,7 +4,9 @@
       <fileDesc>
          <titleStmt>
             <title type="main" xml:lang="en">Danish parliamentary corpus ParlaMint-DK [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="en">Hansards of the Danish Parliament, Folketinget, session 20141 to 20211 (2015-2022)</title>
+            <title type="main" xml:lang="da">Det danske korpus ParlaMint-DK [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Hansards of the Danish Parliament, Folketinget, session 20141 to 20211 (2014-2022)</title>
+            <title type="sub" xml:lang="da">Referater fra folketingssalen, folketingsårene 20141 til 20211 (2014-2022)</title>
             <meeting xml:lang="en"
                      n="20141"
                      corresp="#FT"
@@ -65,20 +67,20 @@
             <edition>3.0a</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="287144" xml:lang="en">287,144 speeches</measure>
-            <measure unit="words" quantity="29510762" xml:lang="en">29,510,762 words</measure>
+            <measure unit="speeches" quantity="1114" xml:lang="en">1,114 speeches</measure>
+            <measure unit="words" quantity="91466" xml:lang="en">91,466 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-01-31">2023-01-31</date>
+            <date when="2023-02-28">2023-02-28</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -92,7 +94,7 @@
       <encodingDesc>
          <projectDesc>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the<ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -113,13 +115,13 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="688"/>
-               <tagUsage gi="body" occurs="688"/>
-               <tagUsage gi="div" occurs="10544"/>
-               <tagUsage gi="head" occurs="10544"/>
-               <tagUsage gi="note" occurs="10544"/>
-               <tagUsage gi="u" occurs="287144"/>
-               <tagUsage gi="seg" occurs="287144"/>
+               <tagUsage gi="body" occurs="3"/>
+               <tagUsage gi="div" occurs="46"/>
+               <tagUsage gi="head" occurs="46"/>
+               <tagUsage gi="note" occurs="46"/>
+               <tagUsage gi="seg" occurs="1114"/>
+               <tagUsage gi="text" occurs="3"/>
+               <tagUsage gi="u" occurs="1114"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -307,11 +309,11 @@
                </desc>
                <category xml:id="reference">
                   <catDesc xml:lang="en">
-                     <term>Reference</term>: reference subcorpus, until 2019-09-12</catDesc>
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
                </category>
                <category xml:id="covid">
                   <catDesc xml:lang="en">
-                     <term>COVID</term>: COVID subcorpus, from 2019-10-01 onwards</catDesc>
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
          </classDecl>
@@ -325,6 +327,9 @@
                <date from="2014-10-07" to="2022-06-07">7.10.2014 - 7.06.2022</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#parla.legislature" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <listOrg>
                <org xml:id="ParlaMint-DK-GOV" role="government">
@@ -420,6 +425,13 @@
                      <label xml:lang="en">existence</label>
                   </event>
                </org>
+               <org xml:id="party.KD" role="parliamentaryGroup">
+                  <orgName full="yes" xml:lang="da">Kristendemokraterne</orgName>
+                  <orgName full="abb">KD</orgName>
+                  <event from="1970-04-13">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
                <org xml:id="party.IA" role="parliamentaryGroup">
                   <orgName full="yes" xml:lang="da">Inuit Ataqatigiit</orgName>
                   <orgName full="abb">IA</orgName>
@@ -451,7 +463,7 @@
                <org xml:id="party.NB" role="parliamentaryGroup">
                   <orgName full="yes" xml:lang="da">Nye Borgerlige</orgName>
                   <orgName full="abb">NB</orgName>
-                  <event from="2015">
+                  <event from="2015-10-19">
                      <label xml:lang="en">existence</label>
                   </event>
                </org>
@@ -538,6 +550,25 @@
                             mutual="#party.S"
                             from="2019-06-27"
                             ana="#FT.19"/>
+                  <relation name="opposition"
+                            active="#party.V #party.KF #party.LA #party.DF"
+                            passive="#FT.14"
+                            from="2014-02-03"
+                            to="2015-06-27"/>
+                  <relation name="opposition"
+                            active="#party.S #party.RV #party.SF #party.EL #party.ALT"
+                            passive="#FT.15"
+                            from="2015-06-28"
+                            to="2016-11-27"/>
+                  <relation name="opposition"
+                            active="#party.S #party.RV #party.SF #party.EL #party.ALT"
+                            passive="#FT.16"
+                            from="2016-11-28"
+                            to="2019-06-26"/>
+                  <relation name="opposition"
+                            active="#party.V #party.KF #party.LA #party.DF #party.NB"
+                            passive="#FT.19"
+                            from="2019-06-27"/>
                </listRelation>
             </listOrg>
             <listPerson>
@@ -2349,7 +2380,12 @@
                   </persName>
                   <birth when="1970-04-18"/>
                   <sex value="M"/>
-                  <affiliation role="member" ref="#party.RV"/>
+                  <affiliation role="member" ref="#party.KD" from="2021-04-27"/>
+                  <affiliation role="member"
+                               ref="#party.UFG"
+                               from="2021-01-27"
+                               to="2021-04-26"/>
+                  <affiliation role="member" ref="#party.RV" from="2019-06-05" to="2021-01-26"/>
                   <affiliation role="member" ref="#FT" from="2019-06-05"/>
                </person>
                <person xml:id="BruusJeppe">
@@ -3134,7 +3170,7 @@
                   </persName>
                   <birth when="1975-05-21"/>
                   <sex value="M"/>
-                  <affiliation role="member" ref="#party.NB"/>
+                  <affiliation role="member" ref="#party.NB" from="2019-06-05"/>
                   <affiliation role="member" ref="#FT" from="2019-06-05"/>
                </person>
                <person xml:id="LilleholtLarsChristian">
@@ -3972,7 +4008,7 @@
                   </persName>
                   <birth when="1981-12-20"/>
                   <sex value="F"/>
-                  <affiliation role="member" ref="#party.NB"/>
+                  <affiliation role="member" ref="#party.NB" from="2019-06-05"/>
                   <affiliation role="member" ref="#FT" from="2019-06-05"/>
                </person>
                <person xml:id="JensenMichaelAastrup">
@@ -4544,7 +4580,7 @@
                   </persName>
                   <birth when="1975-12-03"/>
                   <sex value="F"/>
-                  <affiliation role="member" ref="#party.NB"/>
+                  <affiliation role="member" ref="#party.NB" from="2019-06-05"/>
                   <affiliation role="member" ref="#FT" from="2019-06-05"/>
                </person>
                <person xml:id="BaggePernilleVigsø">
@@ -4719,7 +4755,7 @@
                   </persName>
                   <birth when="1967-12-30"/>
                   <sex value="M"/>
-                  <affiliation role="member" ref="#party.NB"/>
+                  <affiliation role="member" ref="#party.NB" from="2019-06-05"/>
                   <affiliation role="member" ref="#FT" from="2019-06-05"/>
                </person>
                <person xml:id="SkaarupPeter">
@@ -5817,14 +5853,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-01-31">
+         <change when="2023-02-28">
             <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-DK_2020-12-22-20201-M43.xml"/>
+               href="ParlaMint-DK_2014-10-07-20141-M1.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-DK_2021-12-22-20211-M42.xml"/>
+               href="ParlaMint-DK_2016-01-13-20151-M37.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-DK_2022-06-07-20211-M121.xml"/>
+               href="ParlaMint-DK_2022-03-02-20211-M70.xml"/>
 </teiCorpus>
