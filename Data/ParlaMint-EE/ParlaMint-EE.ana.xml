@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-EE.ana" xml:lang="et">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en" type="main">Estonian parliamentary corpus ParlaMint-EE [ParlaMint.ana SAMPLE]</title>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK12">XII Riigikogu</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK13">XIII Riigikogu</meeting>
+        <meeting corresp="#ee_parliament" ana="#parla.uni #parla.term #parliament.RK14">XIV Riigikogu</meeting>
+        <respStmt>
+          <persName>Martin Mölder</persName>
+          <persName>Neeme Kahusk</persName>
+          <persName>Kadri Vider</persName>
+          <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.1</edition>
+      </editionStmt>
+      <extent>
+        <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
+        <measure quantity="3052716" unit="words" xml:lang="en">3052716 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
+          <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
+        </publisher>
+        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+        </availability>
+        <date when="2021-06-10">2021-06-10</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
+          <idno type="URI">https://stenogrammid.riigikogu.ee</idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <taxonomy xml:id="subcorpus">
+          <desc xml:lang="et">
+            <term>Allkorpused</term>
+          </desc>
+          <desc xml:lang="en">
+            <term>Subcorpora</term>
+          </desc>
+          <category xml:id="reference">
+            <catDesc xml:lang="et"><term>Referents</term>: referentskorpus, kuni 2019-10-31</catDesc>
+            <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+          </category>
+          <category xml:id="covid">
+            <catDesc xml:lang="et"><term>COVID</term>: COVIDi allkorpus, alates 2019-11-01</catDesc>
+            <catDesc xml:lang="en"><term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+          </category>
+        </taxonomy>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+	<xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                    href="ParlaMint-taxonomy-NER.ana.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                    href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+	
+      </classDecl>
+      <listPrefixDef>
+	<prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+	  <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+	</prefixDef>
+      </listPrefixDef>
+      <appInfo>
+        <application ident="EstNLTK" version="1.6.9b">
+          <label>EstNLTK</label>
+          <desc>Sentence splitting and NER tagging done with EstNLTK ver. 1.6.9b</desc>
+        </application>
+        <application ident="Stanza" version="1.3.0">
+          <label>Stanza</label>
+          <desc>POS tagging, lemmatization and dependency parsing done with Stanza  ver. 1.3.0</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+	  <name type="org">Riigikogu</name>
+	  <name type="address">Lossi plats 1a</name>
+          <name type="city">Tallinn</name>
+          <name type="country" key="EE">Estonia</name>
+          <date from="2011-04-04" to="2022-06-17">2011-04-04 - 2022-06-17</date>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE-listOrg.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE-listPerson.xml"/>
+      </particDesc>
+      <langUsage>
+        <language ident="et" xml:lang="et">eesti</language>
+        <language ident="en" xml:lang="et">inglise</language>
+        <language ident="et" xml:lang="en">Estonian</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE_2015-01-12.ana.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE_2022-01-13.ana.xml"/>
+</teiCorpus>
