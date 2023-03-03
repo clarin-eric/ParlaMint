@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI ana="#parla.sitting #reference" xml:id="ParlaMint-FI_2015-05-28-ps-9" xml:lang="fi" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.sitting #reference"
+     xml:id="ParlaMint-FI_2015-05-28-ps-9"
+     xml:lang="fi">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,7 +10,9 @@
             <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 9 [ParlaMint]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary session 9/2015, 2015-05-28</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistunnon 9/2015 pöytäkirja, 2015-05-28</title>
-            <meeting ana="#parla.uni #parla.sitting #parl_session.2015" corresp="#fi_parliament" n="9">Täysistunto 9</meeting>
+            <meeting ana="#parla.uni #parla.sitting #parl_session.2015"
+                     corresp="#fi_parliament"
+                     n="9">Täysistunto 9</meeting>
             <respStmt>
                <persName>Laura Sinikallio</persName>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
@@ -19,7 +24,7 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition/>
+            <edition>3.0a</edition>
          </editionStmt>
          <extent/>
          <publicationStmt>
@@ -31,16 +36,12 @@
             <idno subtype="handle" type="URI"/>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">
-                  This work is licensed under the
-                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
-               <p xml:lang="fi">
-                  Tämä aineisto on saatavilla lisenssillä
-                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date/>
+            <date when="2023-03-03">March 3, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,14 +66,14 @@
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="u" occurs="1"/>
-               <tagUsage gi="seg" occurs="1"/>
                <tagUsage gi="note" occurs="1"/>
                <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="seg" occurs="1"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -92,8 +93,11 @@
          <div type="debateSection">
             <head>Pääministerin valinta</head>
             <note type="relatedDocument">Muu asia M 1/2015 vp</note>
-            <pb n="1" source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_9+2015+2.aspx"/>
-            <u ana="#chair" who="#JuhaSipilä" xml:id="ParlaMint-FI_2015-05-28-ps-9.u1">
+            <pb n="1"
+                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_9+2015+2.aspx"/>
+            <u ana="#chair"
+               who="#JuhaSipilä"
+               xml:id="ParlaMint-FI_2015-05-28-ps-9.u1">
                <seg xml:id="ParlaMint-FI_2015-05-28-ps-9.seg1">Päiväjärjestyksen 2. asiana on pääministerin valinta. Tasavallan presidentti on 28.5.2015 päivätyllä kirjelmällään antanut eduskunnalle Suomen perustuslain 61 §:n 2 momentissa tarkoitetun tiedon pääministeriehdokkaasta. Kirjelmä on saatettu eduskunnan tietoon jakamalla se edustajille. Työjärjestyksen 65 §:n 1 momentin mukaan asia on pantava pöydälle johonkin seuraavaan täysistuntoon. Puhemiesneuvosto ehdottaa, että asia pannaan pöydälle tänään pidettävään toiseen täysistuntoon.</seg>
             </u>
          </div>
