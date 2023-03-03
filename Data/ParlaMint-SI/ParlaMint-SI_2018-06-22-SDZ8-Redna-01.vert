@@ -1,8 +1,4 @@
 <note type="head" content="REPUBLIKA SLOVENIJA DRŽAVNI ZBOR"/>
-<note type="head" content="1. seja"/>
-<note type="head" content="Sejo je vodil predsedujoči Peter Jožef Česnik."/>
-<note type="time" content="Seja se je začela ob 11. uri."/>
-<note type="speaker" content="PREDSEDUJOČI PETER JOŽEF ČESNIK:"/>
 <speech id="ParlaMint-SI_2018-06-22-SDZ8-Redna-01.u1" text_id="ParlaMint-SI_2018-06-22-SDZ8-Redna-01" subcorpus="Reference" body="Lower house" term="8" session="" meeting="1" sitting="" agenda="" date="2018-06-22" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Regular Session 1, (22. 06. 2018)" speaker_role="Chairperson" speaker_id="ČesnikPeterJožef" speaker_name="Česnik, Peter Jožef" speaker_mp="MP" speaker_minister="-" speaker_party="SAB" speaker_party_name="Stranka Alenke Bratušek" party_status="" speaker_gender="M" speaker_birth="1945">
 <p id="ParlaMint-SI_2018-06-22-SDZ8-Redna-01.ana.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2018-06-22-SDZ8-Redna-01.ana.seg1.1">
