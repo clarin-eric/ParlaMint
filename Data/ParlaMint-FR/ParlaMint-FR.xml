@@ -8,9 +8,8 @@
         <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale (2017 - 2022)</title>
         <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale (2017 - 2022)</title>
         <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, 16e législature (2022)</title>
-        <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, 16th legislature (2022)</title>
-        <meeting n="15-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parl-lower-15">15e législature</meeting>
-        <meeting n="16-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parl-lower-16">16e législature</meeting>
+        <meeting n="15-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parla.legis.15">15e législature</meeting>
+        <meeting n="16-lower" corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parla.legis.16">16e législature</meeting>
         <respStmt>
           <persName>Sascha Diwersy</persName>
           <resp xml:lang="fr">Annotation linguistique</resp>
@@ -29,10 +28,10 @@
         <edition>3.0</edition>
       </editionStmt>
       <extent>
-        <measure unit="speeches" quantity="481603" xml:lang="en">481,603 speeches</measure>
-        <measure unit="words" quantity="37439944" xml:lang="en">37,439,944 words</measure>
-        <measure unit="speeches" quantity="481603" xml:lang="fr">481 603 interventions</measure>
-        <measure unit="words" quantity="37439944" xml:lang="fr">37 439 944 mots</measure>
+        <measure unit="speeches" quantity="714831" xml:lang="en">714,831 speeches</measure>
+        <measure unit="words" quantity="52511559" xml:lang="en">52,511,559 words</measure>
+        <measure unit="speeches" quantity="714831" xml:lang="fr">714 831 interventions</measure>
+        <measure unit="words" quantity="52511559" xml:lang="fr">52 511 559 mots</measure>
       </extent>
       <publicationStmt>
         <publisher>CLARIN research infrastructure</publisher>
@@ -215,14 +214,13 @@
               <catDesc xml:lang="fr">
                 <term>Période législative</term>
               </catDesc>
-              <catDesc xml:lang="en">
-                <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
-              <category xml:id="parl-lower-15">
+              <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+              <category xml:id="parla.legis.15">
                 <catDesc xml:lang="fr">
                   <term>15e législature</term>
                 </catDesc>
               </category>
-              <category xml:id="parl-lower-16">
+              <category xml:id="parla.legis.16">
                 <catDesc xml:lang="fr">
                   <term>16e législature</term>
                 </catDesc>
@@ -565,13 +563,6 @@
             <orgName full="yes" xml:lang="fr">Commission des lois constitutionnelles, de la législation et de l'administration générale de la République</orgName>
             <orgName full="abb">CION_LOIS</orgName>
             <event from="1958-12-09">
-              <label xml:lang="en">existence</label>
-            </event>
-          </org>
-          <org xml:id="PO723569" role="parliamentaryGroup">
-            <orgName full="yes" xml:lang="fr">Non inscrit</orgName>
-            <orgName full="abb">NI</orgName>
-            <event from="2017-06-21">
               <label xml:lang="en">existence</label>
             </event>
           </org>
@@ -1443,13 +1434,6 @@
               <label xml:lang="en">existence</label>
             </event>
           </org>
-          <org xml:id="PO791580" role="ministry">
-            <orgName full="yes" xml:lang="fr">Première ministre</orgName>
-            <orgName full="abb">PRM</orgName>
-            <event from="2022-05-17">
-              <label xml:lang="en">existence</label>
-            </event>
-          </org>
           <org xml:id="PO781407" role="commission">
             <orgName full="yes" xml:lang="fr">Commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion de la proposition de loi relative à la réforme du courtage de l’assurance et du courtage en opérations de banque et en services de paiement</orgName>
             <orgName full="abb">2581</orgName>
@@ -1606,13 +1590,13 @@
           </org>
           <listRelation>
             <relation name="coalition" mutual="#PO730964 #PO730970 #PO771923" from="2017-06-21" to="2022-05-16" ana="#parl-lower-15"/>
-            <!--<relation name="minority" mutual="#PO723569 #PO759900 #PO767217 #PO771789" from="2017-06-21" to="2022-05-16" ana="#parl-lower-15"/>-->
+            <!--<relation name="minority" mutual="#PO759900 #PO767217 #PO771789" from="2017-06-21" to="2022-05-16" ana="#parl-lower-15"/>-->
             <relation name="opposition" active="#PO730934 #PO730940 #PO730946 #PO730952 #PO730958 #PO744425 #PO765636" passive="#ParlaMint-FR-GOV" from="2017-06-21" to="2022-05-16" ana="#parl-lower-15"/>
             <!--<relation name="minority" mutual="#PO771889" from="2020-05-26" to="2020-12-31" ana="#parl-lower-15"/>-->
             <relation name="opposition" active="#PO771889" passive="#ParlaMint-FR-GOV" from="2021-01-01" ana="#parl-lower-15"/>
           </listRelation>
         </listOrg>
-       <listPerson>
+        <listPerson>
           <person xml:id="PA-100799">
             <persName>
               <forename>Bruno</forename>
@@ -1651,7 +1635,7 @@
               <surname>Guillaume</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1959-05-11" />
+            <birth when="1959-05-11"/>
             <affiliation from="2018-10-17" to="2020-07-06" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -1685,7 +1669,7 @@
               <surname>Adnot</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1945-08-25" />
+            <birth when="1945-08-25"/>
           </person>
           <person xml:id="PA-106189">
             <persName>
@@ -1693,7 +1677,7 @@
               <surname>Capo-Canellas</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1967-05-04" />
+            <birth when="1967-05-04"/>
           </person>
           <person xml:id="PA-107289">
             <persName>
@@ -1754,7 +1738,7 @@
               <surname>Laurent</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1957-07-01" />
+            <birth when="1957-07-01"/>
           </person>
           <person xml:id="PA-116609">
             <persName>
@@ -1762,7 +1746,7 @@
               <surname>Collin</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1944-04-10" />
+            <birth when="1944-04-10"/>
           </person>
           <person xml:id="PA-118019">
             <persName>
@@ -1792,7 +1776,7 @@
               <surname>Capus</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1974-06-23" />
+            <birth when="1974-06-23"/>
           </person>
           <person xml:id="PA-118769">
             <persName>
@@ -1800,7 +1784,7 @@
               <surname>Requier</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1947-10-04" />
+            <birth when="1947-10-04"/>
           </person>
           <person xml:id="PA-119559">
             <persName>
@@ -1822,7 +1806,7 @@
               <surname>Courteau</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1943-02-24" />
+            <birth when="1943-02-24"/>
           </person>
           <person xml:id="PA-120269">
             <persName>
@@ -1830,7 +1814,7 @@
               <surname>Cukierman</surname>
             </persName>
             <sex value="F"/>
-            <birth when="1976-04-26" />
+            <birth when="1976-04-26"/>
           </person>
           <person xml:id="PA-121199">
             <persName>
@@ -1928,7 +1912,7 @@
               <surname>Moati</surname>
             </persName>
             <sex value="F"/>
-            <birth when="1954-06-26" />
+            <birth when="1954-06-26"/>
           </person>
           <person xml:id="PA-1260">
             <persName>
@@ -2038,14 +2022,10 @@
             <birth when="1961-03-07">
               <placeName>Paris, Paris</placeName>
             </birth>
-            <occupation xml:lang="fr">Administrateur civil</occupation>
-            <affiliation from="2017-06-21" ref="#ParlaMint-FR-LOWER" role="member">
+            <occupation xml:lang="fr">Administrateur de l'Etat</occupation>
+            <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA1276">
@@ -2131,10 +2111,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-10-01" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA1630">
             <persName>
@@ -2211,10 +2187,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2020-01-29" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-01-30" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -2263,18 +2235,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-11-07" to="2018-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2018-10-01" to="2019-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2019-10-01" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA1960">
             <persName>
@@ -2297,14 +2257,6 @@
             <affiliation from="2017-11-29" to="2019-01-09" ref="#PO744425" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2018-07-17" to="2018-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2018-10-01" to="2019-01-09" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
             </affiliation>
             <affiliation from="2010-11-14" to="2012-05-10" role="member" ref="#ParlaMint-FR-GOV">
               <roleName xml:lang="fr">membre</roleName>
@@ -2348,7 +2300,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" ref="#PO730958" role="member" />
           </person>
           <person xml:id="PA2155">
             <persName>
@@ -2394,7 +2345,7 @@
               <surname>Gourault</surname>
             </persName>
             <sex value="F"/>
-            <birth when="1950-11-20" />
+            <birth when="1950-11-20"/>
             <affiliation from="2017-06-22" to="2018-10-16" role="head" ref="#PO730004">
               <roleName xml:lang="fr">ministre</roleName>
               <roleName xml:lang="en">Minister</roleName>
@@ -2413,9 +2364,9 @@
               <roleName xml:lang="fr">ministre</roleName>
               <roleName xml:lang="en">Minister</roleName>
             </affiliation>
-            <affiliation from="2020-07-07" role="member" ref="#PO773390" />
-            <affiliation role="minister" ref="#ParlaMint-FR-GOV" from="2020-07-07" />
-            <affiliation role="member" ref="#ParlaMint-FR-GOV" from="2020-07-07" />
+            <affiliation from="2020-07-07" to="2022-03-05" role="member" ref="#PO773390"/>
+            <affiliation role="minister" ref="#ParlaMint-FR-GOV" from="2020-07-07" to="2022-03-05"/>
+            <affiliation role="member" ref="#ParlaMint-FR-GOV" from="2020-07-07" to="2022-03-05"/>
           </person>
           <person xml:id="PA2377">
             <persName>
@@ -2830,7 +2781,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1966-03-15">
-              <placeName>Le Mans , Sarthe</placeName>
+              <placeName>Le Mans, Sarthe</placeName>
             </birth>
             <occupation xml:lang="fr">Avocat</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -3093,10 +3044,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-01-15" to="2019-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
             <affiliation from="2019-06-11" to="2019-09-27" ref="#PO765636" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -3301,10 +3248,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2018-01-18" to="2018-07-15" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
             <affiliation from="2008-03-18" to="2009-06-23" role="member" ref="#ParlaMint-FR-GOV">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -3317,7 +3260,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1959-03-23">
-              <placeName>Sada, Mayotte</placeName>
+              <placeName>SADA, Mayotte</placeName>
             </birth>
             <occupation xml:lang="fr">Avocat</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -3428,7 +3371,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1965-10-22">
-              <placeName>Villers-Semeuse, Ardennes</placeName>
+              <placeName>Villers Semeuse, Ardennes</placeName>
             </birth>
             <occupation xml:lang="fr">Directeur de mutuelle</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -3858,16 +3801,11 @@
               <placeName>Nantes, Loire-Atlantique</placeName>
             </birth>
             <occupation xml:lang="fr">Assistant parlementaire</occupation>
-            <affiliation from="2017-06-21" to="2018-10-05" ref="#ParlaMint-FR-LOWER" role="member">
+            <affiliation from="2017-06-21" to="2018-09-04" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2018-09-04" ref="#ParlaMint-FR-LOWER" role="head">
-              <roleName xml:lang="fr">président</roleName>
-              <roleName xml:lang="en">President</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2018-09-04" ref="#ParlaMint-FR-LOWER" role="member" />
-            <affiliation from="2017-06-27" to="2018-10-05" ref="#PO730964" role="member">
+            <affiliation from="2017-06-27" to="2018-09-04" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -3880,7 +3818,7 @@
               <roleName xml:lang="en">Minister Of State</roleName>
             </affiliation>
             <affiliation from="2018-09-05" to="2019-07-16" role="member" ref="#PO758787"/>
-            <affiliation role="minister" ref="#ParlaMint-FR-GOV" from="2018-09-05" to="2019-07-16"/>
+            <affiliation role="member" ref="#ParlaMint-FR-GOV" from="2018-09-05" to="2019-07-16"/>
             <affiliation from="2019-08-17" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -3983,7 +3921,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1949-05-13">
-              <placeName>Estrée-Blanche, Pas-de-Calais</placeName>
+              <placeName>Estrée Blanche, Pas-de-Calais</placeName>
             </birth>
             <occupation xml:lang="fr">Directrice de mission</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -4191,17 +4129,9 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2018-05-03" to="2020-05-19" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-05-20" to="2020-10-16" ref="#PO771789" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA336175">
@@ -4216,10 +4146,6 @@
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2018-10-18" to="2021-07-06" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -4270,10 +4196,6 @@
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2018-06-16" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA337483">
@@ -4423,7 +4345,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1963-04-10">
-              <placeName>Paramé-Saint-Malo, Ille-et-Vilaine</placeName>
+              <placeName>Paramé Saint-Malo, Ille-et-Vilaine</placeName>
             </birth>
             <occupation xml:lang="fr">Agriculteur</occupation>
             <affiliation from="2020-08-01" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -4800,10 +4722,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2017-08-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA588884">
             <persName>
@@ -4812,7 +4730,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1973-05-26">
-              <placeName>Saint-Cloud, Hauts-de-Seine</placeName>
+              <placeName>Saint Cloud, Hauts-de-Seine</placeName>
             </birth>
             <occupation xml:lang="fr">Journaliste et autre média</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -4962,7 +4880,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-09-10" ref="#PO730964" role="member" />
             <affiliation from="2017-06-21" to="2017-07-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -4998,16 +4915,12 @@
             </persName>
             <sex value="M"/>
             <birth when="1972-03-27">
-              <placeName>Rochefort-sur-Mer, Charente-Maritime</placeName>
+              <placeName>rochefort-sur-mer, Charente-Maritime</placeName>
             </birth>
             <occupation xml:lang="fr">Professeur du secondaire</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -5051,14 +4964,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-11-07" to="2018-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2018-10-01" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA606098">
             <persName>
@@ -5097,11 +5002,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2018-09-12" ref="#ParlaMint-FR-LOWER" role="head">
-              <roleName xml:lang="fr">président</roleName>
-              <roleName xml:lang="en">President</roleName>
-            </affiliation>
-            <affiliation from="2018-09-12" ref="#ParlaMint-FR-LOWER" role="member" />
             <affiliation from="2017-05-18" to="2017-06-19" role="member" ref="#ParlaMint-FR-GOV">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -5149,10 +5049,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2019-07-01" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA606507">
             <persName>
@@ -5161,7 +5057,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1973-09-22">
-              <placeName>Sainte-Foy-la-Grande, Gironde</placeName>
+              <placeName>Sainte-Foy-la-Grance, Gironde</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre supérieur du secteur public</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -5301,7 +5197,7 @@
             <birth when="1969-10-12">
               <placeName>Carentan, Manche</placeName>
             </birth>
-            <occupation xml:lang="fr">Cadre commercial</occupation>
+            <occupation xml:lang="fr">Cadre secteur privé</occupation>
             <affiliation from="2017-06-22" to="2018-10-16" role="head" ref="#PO730006">
               <roleName xml:lang="fr">ministre</roleName>
               <roleName xml:lang="en">Minister</roleName>
@@ -5367,7 +5263,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1962-05-21">
-              <placeName>Ploërmel, Morbihan</placeName>
+              <placeName>Ploermel, Morbihan</placeName>
             </birth>
             <occupation xml:lang="fr">Professeur du secondaire</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -5501,7 +5397,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1964-10-06">
-              <placeName>Saint-Georges-de-Mons, Puy-de-Dôme</placeName>
+              <placeName>Saint Georges de Mons, Puy-de-Dôme</placeName>
             </birth>
             <occupation xml:lang="fr">Fonctionnaire de catégorie A</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -5530,10 +5426,6 @@
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -5736,7 +5628,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1973-04-25">
-              <placeName>L'hay les Roses, Val-de-Marne</placeName>
+              <placeName>L'Hay les Roses, Val-de-Marne</placeName>
             </birth>
             <occupation xml:lang="fr">Ingénieure</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -5751,7 +5643,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2018-09-12" ref="#PO758835" role="member" />
           </person>
           <person xml:id="PA609726">
             <persName>
@@ -5779,7 +5670,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1965-05-15">
-              <placeName>Fort-de-France, Martinique</placeName>
+              <placeName>FORT DE FRANCE, Martinique</placeName>
             </birth>
             <occupation xml:lang="fr">Collaborateur parlementaire</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6046,7 +5937,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1976-04-28">
-              <placeName>Strasbourg, Bas-Rhin, FRANCE</placeName>
+              <placeName>Strasbourg, Bas-Rhin</placeName>
             </birth>
             <occupation xml:lang="fr">Magistrat</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6100,7 +5991,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1969-06-26">
-              <placeName>Paris, Paris</placeName>
+              <placeName>Paris 14ème, Paris</placeName>
             </birth>
             <occupation xml:lang="fr">Avocat</occupation>
             <affiliation from="2018-07-16" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6157,7 +6048,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1962-01-20">
-              <placeName>Le Puy-en-Velay, Haute-Loire</placeName>
+              <placeName>Le Puy en Velay, Haute-Loire</placeName>
             </birth>
             <occupation xml:lang="fr">Salariée agricole</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6199,7 +6090,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1960-08-14">
-              <placeName>Saint-Denis de la Réunion, Réunion</placeName>
+              <placeName>St Denis Réunion, Réunion</placeName>
             </birth>
             <occupation xml:lang="fr">Inspecteur assurance-vie</occupation>
             <affiliation from="2020-07-14" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6292,7 +6183,7 @@
               <surname>Lecornu</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1986-06-11" />
+            <birth when="1986-06-11"/>
             <affiliation from="2017-06-22" to="2018-10-16" role="head" ref="#PO730033">
               <roleName xml:lang="fr">secrétaire d'état</roleName>
               <roleName xml:lang="en">Secretary Of State</roleName>
@@ -6337,7 +6228,7 @@
               <roleName xml:lang="fr">président</roleName>
               <roleName xml:lang="en">President</roleName>
             </affiliation>
-            <affiliation from="2017-06-30" to="2019-09-30" ref="#PO59046" role="member" />
+            <affiliation from="2017-06-30" to="2019-09-30" ref="#PO59046" role="member"/>
           </person>
           <person xml:id="PA677483">
             <persName>
@@ -6503,7 +6394,7 @@
               <surname>Lemoyne</surname>
             </persName>
             <sex value="M"/>
-            <birth when="1977-09-15" />
+            <birth when="1977-09-15"/>
             <affiliation from="2017-06-22" to="2020-07-06" role="head" ref="#PO730021">
               <roleName xml:lang="fr">secrétaire d'état</roleName>
               <roleName xml:lang="en">Secretary Of State</roleName>
@@ -6552,7 +6443,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1966-06-21">
-              <placeName>Watermael-Boitsfort, Belgique</placeName>
+              <placeName>Watermael Boitsfort, Belgique</placeName>
             </birth>
             <occupation xml:lang="fr">Professeur</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6587,7 +6478,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1985-05-21">
-              <placeName>Saint-Quentin, Aisne</placeName>
+              <placeName>Saint Quentin, Aisne</placeName>
             </birth>
             <occupation xml:lang="fr">Chef de projet dans l'industrie</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6772,7 +6663,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1981-10-17">
-              <placeName>Saint-Germain-en-Laye, Yvelines</placeName>
+              <placeName>Saint-Germain-En-Laye, Yvelines</placeName>
             </birth>
             <occupation xml:lang="fr">Ingénieure aéronautique</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -6938,10 +6829,6 @@
             <affiliation from="2020-05-20" to="2020-10-16" ref="#PO771789" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA718756">
@@ -7179,7 +7066,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1969-10-31">
-              <placeName>Romilly-sur-Seine, Aube</placeName>
+              <placeName>Romilly sur seine, Aube</placeName>
             </birth>
             <occupation xml:lang="fr">Commerçante</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -7587,7 +7474,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1986-03-04">
-              <placeName>Barbezieux-Saint-Hilaire, Charente</placeName>
+              <placeName>Barbezieux Saint Hilaire, Charente</placeName>
             </birth>
             <occupation xml:lang="fr">Médecin</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -7640,17 +7527,9 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-02-08" to="2020-05-19" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-12-01" to="2021-11-08" ref="#PO774834" role="associateMember">
               <roleName xml:lang="fr">membre apparenté</roleName>
               <roleName xml:lang="en">Associate Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2020-11-30" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2021-11-09" to="2022-06-21" ref="#PO774834" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -7683,7 +7562,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1968-10-17">
-              <placeName>Cirey-sur-Vezouze, Meurthe-et-Moselle</placeName>
+              <placeName>Cirey sur Vezouze, Meurthe-et-Moselle</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre supérieur (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -7740,16 +7619,12 @@
             </persName>
             <sex value="M"/>
             <birth when="1945-09-28">
-              <placeName>Bastia, Haute-Corse</placeName>
+              <placeName>Bastia, Corse</placeName>
             </birth>
             <occupation xml:lang="fr">Professeur des Universités</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -7769,10 +7644,6 @@
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -7882,10 +7753,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-10-17" to="2021-01-20" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2021-01-21" to="2022-06-21" ref="#PO774834" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -7940,7 +7807,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1990-01-15">
-              <placeName>Madanzh-Buhimga, Rwanda</placeName>
+              <placeName>Madanzh Buhimga, Rwanda</placeName>
             </birth>
             <occupation xml:lang="fr">Autre cadre (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -8084,10 +7951,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -8157,7 +8020,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1964-07-02">
-              <placeName>Saint-Vallier, Drôme</placeName>
+              <placeName>Saint Vallier, Drôme</placeName>
             </birth>
             <occupation xml:lang="fr">Avocate</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -8413,16 +8276,12 @@
             </persName>
             <sex value="M"/>
             <birth when="1983-12-22">
-              <placeName>Nîmes, Gard</placeName>
+              <placeName>Nimes, Gard</placeName>
             </birth>
             <occupation xml:lang="fr">Ingénieur en informatique</occupation>
             <affiliation from="2020-02-01" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-02-01" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA719440">
@@ -8512,10 +8371,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2018-12-22" to="2020-05-19" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-05-20" to="2020-10-16" ref="#PO771789" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -8523,10 +8378,6 @@
             <affiliation from="2021-03-03" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2021-03-02" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA719472">
@@ -8565,10 +8416,6 @@
             <affiliation from="2017-06-27" to="2020-05-12" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-05-13" to="2021-06-26" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA719484">
@@ -8742,7 +8589,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1967-03-12">
-              <placeName>Pancevo, SERBIE</placeName>
+              <placeName>Pancevo, Serbie</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre supérieur du secteur public</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -8870,10 +8717,6 @@
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA719616">
@@ -9273,7 +9116,7 @@
           <person xml:id="PA719756">
             <persName>
               <forename>Christine</forename>
-              <surname>Cloarec-Le Nabour</surname>
+              <surname>Le Nabour</surname>
             </persName>
             <sex value="F"/>
             <birth when="1964-10-28">
@@ -9538,7 +9381,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1976-09-07">
-              <placeName>Saint-Martin-d'Hères, Isère, FRANCE</placeName>
+              <placeName>Saint Martin D'Heres, Isère</placeName>
             </birth>
             <occupation xml:lang="fr">Industriel-Chef entreprise</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -9580,7 +9423,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1982-09-30">
-              <placeName>Échirolles, Isère</placeName>
+              <placeName>Echirolles, Isère</placeName>
             </birth>
             <occupation xml:lang="fr">Conseillère en stratégie des organisations</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -9606,11 +9449,7 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-28" to="2017-11-07" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" ref="#PO730964" role="member">
+            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -9668,8 +9507,8 @@
             <birth when="1976-04-15">
               <placeName>Arcachon, Gironde</placeName>
             </birth>
-            <occupation xml:lang="fr">Commercial</occupation>
-            <affiliation from="2017-07-22" ref="#ParlaMint-FR-LOWER" role="member">
+            <occupation xml:lang="fr">Cadre commercial bâtiment</occupation>
+            <affiliation from="2017-07-22" to="2022-06-20" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -9708,7 +9547,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1975-07-25">
-              <placeName>Beyrouth , Liban</placeName>
+              <placeName>Beyrouth, Liban</placeName>
             </birth>
             <occupation xml:lang="fr">Fonctionnaire de catégorie A</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -9733,7 +9572,7 @@
             <birth when="1971-01-11">
               <placeName>Paris, Paris</placeName>
             </birth>
-            <occupation xml:lang="fr">Directeur d'un institut de formation</occupation>
+            <occupation xml:lang="fr">Ministre</occupation>
             <affiliation from="2017-06-21" to="2018-11-16" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -9813,7 +9652,7 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" ref="#PO730964" role="member">
+            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -9870,7 +9709,7 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" ref="#PO730964" role="member">
+            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -9889,7 +9728,7 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" ref="#PO730964" role="member">
+            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -9901,7 +9740,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1989-03-16">
-              <placeName>, Loir-et-Cher</placeName>
+              <placeName>Romorantin-Lanthenay, Loir-et-Cher</placeName>
             </birth>
             <occupation xml:lang="fr">Autre cadre (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2020-08-26" ref="#ParlaMint-FR-LOWER" role="member">
@@ -10216,10 +10055,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-10-01" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720146">
             <persName>
@@ -10457,7 +10292,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1962-02-12">
-              <placeName>Sézanne, Marne</placeName>
+              <placeName>Sezanne, Marne</placeName>
             </birth>
             <occupation xml:lang="fr">Industriel-Chef d'entreprise</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -10609,10 +10444,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-02-15" to="2019-09-27" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-05-20" to="2020-10-16" ref="#PO771789" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -10620,10 +10451,6 @@
             <affiliation from="2019-09-28" to="2020-05-19" ref="#PO759900" role="associateMember">
               <roleName xml:lang="fr">membre apparenté</roleName>
               <roleName xml:lang="en">Associate Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720286">
@@ -10670,10 +10497,6 @@
             <affiliation from="2020-05-20" to="2020-10-16" ref="#PO771789" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720310">
@@ -10868,8 +10691,8 @@
             <birth when="1986-08-23">
               <placeName>Sarrebourg, Moselle</placeName>
             </birth>
-            <occupation xml:lang="fr">Cadre du secteur privé</occupation>
-            <affiliation from="2017-06-21" ref="#ParlaMint-FR-LOWER" role="member">
+            <occupation xml:lang="fr">Ancien cadre du secteur privé</occupation>
+            <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -10976,7 +10799,7 @@
               <roleName xml:lang="fr">président</roleName>
               <roleName xml:lang="en">President</roleName>
             </affiliation>
-            <affiliation from="2020-01-15" to="2020-09-02" ref="#PO769010" role="member" />
+            <affiliation from="2020-01-15" to="2020-09-02" ref="#PO769010" role="member"/>
           </person>
           <person xml:id="PA720438">
             <persName>
@@ -11053,10 +10876,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720480">
             <persName>
@@ -11065,7 +10884,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1977-07-17">
-              <placeName>Pointe-à-Pitre, Guadeloupe</placeName>
+              <placeName>Pointe à Pitre, Guadeloupe</placeName>
             </birth>
             <occupation xml:lang="fr">Industriel-Chef d'entreprise</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11245,10 +11064,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-11-27" to="2020-05-19" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-10-17" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -11337,10 +11152,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-06-27" to="2020-06-22" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2020-06-23" to="2022-06-21" ref="#PO771889" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -11372,7 +11183,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1967-08-21">
-              <placeName>Saint-Quentin, Aisne</placeName>
+              <placeName>Saint Quentin, Aisne</placeName>
             </birth>
             <occupation xml:lang="fr">Permanent politique</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11444,10 +11255,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2021-04-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720610">
             <persName>
@@ -11461,10 +11268,6 @@
             <affiliation from="2021-04-22" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2021-04-22" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720614">
@@ -11480,10 +11283,6 @@
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720622">
@@ -11504,14 +11303,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2019-01-15" to="2019-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2018-10-01" to="2019-01-14" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720630">
             <persName>
@@ -11520,7 +11311,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1987-07-20">
-              <placeName>Clermont-de-l'Oise, Oise</placeName>
+              <placeName>Clermont de l'Oise, Oise</placeName>
             </birth>
             <occupation xml:lang="fr">Employé (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11542,7 +11333,7 @@
               <placeName>Valence, Drôme</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre de la fonction publique</occupation>
-            <affiliation from="2017-06-21" ref="#ParlaMint-FR-LOWER" role="member">
+            <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -11593,10 +11384,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2022-01-07" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720668">
             <persName>
@@ -11611,10 +11398,6 @@
             <affiliation from="2022-01-07" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2022-01-11" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720672">
@@ -11643,7 +11426,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1987-10-07">
-              <placeName>Grande-Synthe, Nord</placeName>
+              <placeName>Grande Synthe, Nord</placeName>
             </birth>
             <occupation xml:lang="fr">Collaborateur parlementaire</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11662,7 +11445,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1969-04-16">
-              <placeName>Béthune, Pas-de-Calais</placeName>
+              <placeName>Bethune, Pas-de-Calais</placeName>
             </birth>
             <occupation xml:lang="fr">Attaché parlementaire</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11716,7 +11499,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1955-02-05">
-              <placeName>Boulogne-Billancourt, Hauts-de-Seine</placeName>
+              <placeName>Boulogne, Hauts-de-Seine</placeName>
             </birth>
             <occupation xml:lang="fr">Magistrat</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11743,7 +11526,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1954-01-13">
-              <placeName>Paris 4ème, Paris</placeName>
+              <placeName>paris 04, Paris</placeName>
             </birth>
             <occupation xml:lang="fr">Retraitée de la fonction publique (hors enseignement)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11766,7 +11549,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1954-03-21">
-              <placeName>SAARBURG, ALLEMAGNE</placeName>
+              <placeName>Saarburg, Allemagne</placeName>
             </birth>
             <occupation xml:lang="fr">Notaire</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -11781,8 +11564,8 @@
               <roleName xml:lang="fr">président</roleName>
               <roleName xml:lang="en">President</roleName>
             </affiliation>
-            <affiliation from="2020-06-03" to="2020-08-08" ref="#PO771964" role="member" />
-            <affiliation from="2020-09-24" ref="#PO774834" role="member">
+            <affiliation from="2020-06-03" to="2020-08-08" ref="#PO771964" role="member"/>
+            <affiliation from="2020-09-24" to="2022-06-21" ref="#PO774834" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
@@ -11977,10 +11760,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-27" to="2020-08-02" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720802">
             <persName>
@@ -11995,10 +11774,6 @@
             <affiliation from="2020-08-03" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-08-03" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720806">
@@ -12052,10 +11827,6 @@
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-06-27" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA720830">
@@ -12202,7 +11973,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1974-04-21">
-              <placeName>paris 15, Paris, france</placeName>
+              <placeName>paris 15, Paris</placeName>
             </birth>
             <occupation xml:lang="fr">Profession rattachée à l'enseignement</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -12250,10 +12021,6 @@
             <affiliation from="2017-06-27" to="2021-01-05" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2021-01-06" to="2021-06-28" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2021-06-29" to="2022-06-21" ref="#PO730964" role="associateMember">
               <roleName xml:lang="fr">membre apparenté</roleName>
@@ -12374,10 +12141,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA720960">
             <persName>
@@ -12386,7 +12149,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1974-06-21">
-              <placeName>Pointe-à-Pitre , Guadeloupe</placeName>
+              <placeName>Pointe-à-Pitre, Guadeloupe</placeName>
             </birth>
             <occupation xml:lang="fr">Expert comptable</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -12466,7 +12229,7 @@
               <roleName xml:lang="fr">membre apparenté</roleName>
               <roleName xml:lang="en">Associate Member</roleName>
             </affiliation>
-            <affiliation from="2019-10-02" ref="#PO758835" role="associateMember">
+            <affiliation from="2019-10-02" to="2022-06-21" ref="#PO758835" role="associateMember">
               <roleName xml:lang="fr">membre apparenté</roleName>
               <roleName xml:lang="en">Associate Member</roleName>
             </affiliation>
@@ -12492,10 +12255,6 @@
             <affiliation from="2017-06-27" to="2017-09-05" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-09-06" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
             <affiliation from="2018-10-18" to="2020-05-26" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -12551,7 +12310,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1963-04-20">
-              <placeName>Neuilly sur seine, Paris</placeName>
+              <placeName>Neuilly sur seine, Hauts-de-Seine</placeName>
             </birth>
             <occupation xml:lang="fr">Médecin</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -12631,7 +12390,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1967-06-25">
-              <placeName>Saint-Benoît, Réunion</placeName>
+              <placeName>Saint-Benoit, Réunion</placeName>
             </birth>
             <occupation xml:lang="fr">Employé (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -12739,7 +12498,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1969-10-22">
-              <placeName>Papeete, Polynésie Française</placeName>
+              <placeName>Papeete Polynésie Française, Polynésie Française</placeName>
             </birth>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
@@ -12776,7 +12535,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1966-11-26">
-              <placeName>Paris 11ème, Paris</placeName>
+              <placeName>Paris, Paris</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre supérieur (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -12825,10 +12584,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA721150">
             <persName>
@@ -12856,7 +12611,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1986-11-02">
-              <placeName>Paris 16, Paris</placeName>
+              <placeName>Paris, Paris</placeName>
             </birth>
             <occupation xml:lang="fr">Agent contractuel au Parlement européen</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -12943,10 +12698,6 @@
             <affiliation from="2019-09-29" to="2019-12-18" ref="#PO767217" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2019-12-19" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA721182">
@@ -13123,10 +12874,6 @@
             <affiliation from="2020-05-20" to="2020-10-16" ref="#PO771789" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA721254">
@@ -13570,7 +13317,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1970-01-12">
-              <placeName>Chamonix, Haute-Savoie</placeName>
+              <placeName>chamonix mont blanc, Haute-Savoie</placeName>
             </birth>
             <occupation xml:lang="fr">Commerçant</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -13608,7 +13355,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1969-10-14">
-              <placeName>Épinal, Vosges</placeName>
+              <placeName>Epinal, Vosges</placeName>
             </birth>
             <occupation xml:lang="fr">Avocat</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -13662,7 +13409,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1982-05-14">
-              <placeName>Paris 15ème, Paris</placeName>
+              <placeName>Paris, Paris</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre supérieur (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-20" ref="#ParlaMint-FR-LOWER" role="member">
@@ -13723,7 +13470,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1976-12-26">
-              <placeName>Créteil, Val-de-Marne, FRANCE</placeName>
+              <placeName>Creteil, Val-de-Marne</placeName>
             </birth>
             <occupation xml:lang="fr">Autre cadre (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -13742,7 +13489,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1967-08-18">
-              <placeName>Melun, Seine-et-Marne, FRANCE</placeName>
+              <placeName>Melun, Seine-et-Marne</placeName>
             </birth>
             <occupation xml:lang="fr">Autre profession</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -14011,7 +13758,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1961-12-30">
-              <placeName>Enghien-les-Bains, Val-d'Oise</placeName>
+              <placeName>Enghien-Les-Bains, Val-d'Oise</placeName>
             </birth>
             <occupation xml:lang="fr">Directrice de cabinet</occupation>
             <affiliation from="2018-11-17" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -14226,7 +13973,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1961-07-22">
-              <placeName>Nîmes, Gard</placeName>
+              <placeName>Nimes, Gard</placeName>
             </birth>
             <occupation xml:lang="fr">Autre cadre (secteur privé)</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -14348,7 +14095,7 @@
             </persName>
             <sex value="F"/>
             <birth when="1979-04-06">
-              <placeName>Saint-Maur-des-Fossés, Val-de-Marne</placeName>
+              <placeName>Saint-Maur des Fossés, Val-de-Marne</placeName>
             </birth>
             <occupation xml:lang="fr">Directrice générale adjointe d'une agence de communication</occupation>
             <affiliation from="2021-01-13" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -14553,18 +14300,6 @@
             <affiliation from="2017-06-27" to="2022-06-21" ref="#PO730964" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2019-01-15" to="2019-09-30" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2018-10-01" to="2019-01-14" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2019-10-01" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
             </affiliation>
           </person>
           <person xml:id="PA721832">
@@ -14895,10 +14630,6 @@
             <affiliation from="2017-08-22" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2017-08-22" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA721946">
@@ -15247,7 +14978,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1991-11-26">
-              <placeName>Fontenay-le-Comte, Vendée</placeName>
+              <placeName>Fontenay le Comte, Vendée</placeName>
             </birth>
             <occupation xml:lang="fr">Professeur du secondaire et technique</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -15454,10 +15185,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA722134">
             <persName>
@@ -15515,14 +15242,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2017-06-28" to="2017-11-07" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
-            <affiliation from="2017-11-08" to="2018-01-16" ref="#ParlaMint-FR-LOWER" role="deputyHead">
-              <roleName xml:lang="fr">vice-président</roleName>
-              <roleName xml:lang="en">Vice President</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA722162">
             <persName>
@@ -15531,7 +15250,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1972-07-26">
-              <placeName>Tours, Indre-et-Loire, france</placeName>
+              <placeName>Tours, Indre-et-Loire</placeName>
             </birth>
             <occupation xml:lang="fr">Agriculteur-propriétaire exploitant</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -15815,10 +15534,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA722268">
             <persName>
@@ -15845,10 +15560,6 @@
             <affiliation from="2020-09-24" to="2021-07-19" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
-            </affiliation>
-            <affiliation from="2021-07-20" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
             </affiliation>
           </person>
           <person xml:id="PA722280">
@@ -16029,10 +15740,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2020-10-17" to="2022-06-21" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA722358">
             <persName>
@@ -16041,7 +15748,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1981-05-21">
-              <placeName>Saint-Symphorien-sur-Coise, Rhône</placeName>
+              <placeName>Saint Symphorien Sur Coise, Rhône</placeName>
             </birth>
             <occupation xml:lang="fr">Industriel-Chef d'entreprise</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -16083,7 +15790,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1958-04-30">
-              <placeName>Lyon 6, Rhône, FR</placeName>
+              <placeName>Lyon 06, Rhône</placeName>
             </birth>
             <occupation xml:lang="fr">Médecin</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -16106,7 +15813,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1979-01-25">
-              <placeName>Villefranche-sur-Saone , Rhône</placeName>
+              <placeName>Villefranche-sur-Saone, Rhône</placeName>
             </birth>
             <occupation xml:lang="fr">Industriel-Chef d'entreprise</occupation>
             <affiliation from="2017-06-21" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -16277,10 +15984,6 @@
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
             </affiliation>
-            <affiliation from="2018-04-16" to="2018-10-17" ref="#PO723569" role="nonAttachedMember">
-              <roleName xml:lang="fr">député non-inscrit</roleName>
-              <roleName xml:lang="en">Non Attached Member</roleName>
-            </affiliation>
             <affiliation from="2018-10-18" to="2022-06-21" ref="#PO759900" role="member">
               <roleName xml:lang="fr">membre</roleName>
               <roleName xml:lang="en">Member</roleName>
@@ -16420,10 +16123,6 @@
             <birth when="1965-06-25">
               <placeName>Vic-Fezensac, Gers</placeName>
             </birth>
-            <affiliation from="2020-07-03" to="2022-05-16" role="member" ref="#ParlaMint-FR-GOV">
-              <roleName xml:lang="fr">membre</roleName>
-              <roleName xml:lang="en">Member</roleName>
-            </affiliation>
           </person>
           <person xml:id="PA773443">
             <persName>
@@ -16554,7 +16253,7 @@
             </persName>
             <sex value="M"/>
             <birth when="1960-08-15">
-              <placeName>Le Mesnil-Esnard, Seine-Maritime</placeName>
+              <placeName>Le Mesnil Esnard, Seine-Maritime</placeName>
             </birth>
             <occupation xml:lang="fr">Cadre d'entreprise / enseignant universitaire</occupation>
             <affiliation from="2020-09-28" to="2022-06-21" ref="#ParlaMint-FR-LOWER" role="member">
@@ -16782,7 +16481,7 @@
             </affiliation>
           </person>
         </listPerson>
-       </particDesc>
+      </particDesc>
       <langUsage>
         <language ident="fr" xml:lang="fr">français</language>
         <language ident="en" xml:lang="fr">anglais</language>
