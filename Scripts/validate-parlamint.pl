@@ -135,7 +135,7 @@ sub chars {
 	    push(@bad, $message)
 	}
     }
-    print STDERR "ERROR: File $fName contains bad chars: " . join('; ', @bad) . "\n"
+    print STDERR "WARN: File $fName contains bad chars: " . join('; ', @bad) . "\n"
 	if @bad
 }
    
