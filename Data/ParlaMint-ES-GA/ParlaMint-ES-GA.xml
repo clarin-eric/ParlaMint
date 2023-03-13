@@ -3,8 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title type="main" xml:lang="gl"> Corpus parlamentario galego ParlaMint-ES-GA [ParlaMint]</title>
-			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA [ParlaMint]</title>
+			<title type="main" xml:lang="gl"> Corpus parlamentario galego ParlaMint-ES-GA [ParlaMint SAMPLE]</title>
+			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA [ParlaMint SAMPLE]</title>
 			<title type="sub" xml:lang="gl"> Actas do Parlamento de Galicia, Lexislaturas IX-XI (2015 - 2021)</title>
 			<title type="sub" xml:lang="en">Minutes of the Galician Parliament, Terms 9-11 (2015 - 2021)</title>
 			<meeting n="9" corresp="#PG" ana="#parla.uni #parla.term #PG.9">IX Lexislatura (16 novembro 2015 - 1 agosto 2016)</meeting>
@@ -22,7 +22,7 @@
 				<resp xml:lang="en">TEI XML corpus encoding</resp>
 			</respStmt>
 			<respStmt>
-				<orgName ref="https://www.nlpgo.com">NLPgo Technologies, S.L.</orgName>
+				<pesName ref="https://www.nlpgo.com">NLPgo Technologies, S.L.</persName>
 				<persName ref="http://www.mario.barcala.name/">Mario Barcala</persName>
 				<resp xml:lang="gl">Anotación lingüística automática</resp>
 				<resp xml:lang="en">Automatic linguistic annotation</resp>
@@ -139,7 +139,7 @@
 				<p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
 			</segmentation>
 		</editorialDecl>
-		<tagsDecl>
+		<tagsDecl><!--These numbers do not reflect the size of the sample!-->
 			<namespace name="http://www.tei-c.org/ns/1.0">
 				<tagUsage gi="body" occurs="000"/>
 				<tagUsage gi="desc" occurs="00000"/>
@@ -190,6 +190,9 @@
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
+		<change when="2023-03-13">
+			<name>GitHub Action</name>: Made sample.
+		</change>
 	</revisionDesc>
 </teiHeader>
 <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-GA_2015-12-23-DSPG136.xml"/>
