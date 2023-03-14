@@ -235,7 +235,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
 }
 
-#Take care of factorised files
+# Factorise teiHeader if necessary
 sub factorisations {
     my $Root = shift;
     my $Dir = shift;
@@ -263,6 +263,7 @@ sub factorisations {
 	    print STDERR "INFO: $Dir already factorised\n"
 	}
 	else {
+	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
 	    `$Saxon noAna=\"$FactoriseFiles\" outDir=$tmpOutDir -xsl:$Factor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;
