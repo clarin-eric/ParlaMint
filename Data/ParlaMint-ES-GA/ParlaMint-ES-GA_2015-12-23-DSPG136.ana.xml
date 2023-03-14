@@ -29,7 +29,7 @@
          <editionStmt>
             <edition>3.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="7"/>
             <measure unit="words" quantity="547"/>
          </extent>
@@ -57,7 +57,7 @@
          <projectDesc>
             <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
-         <tagsDecl><!--These numbers do not reflect the size of the sample!--><!--These numbers do not reflect the size of the sample!-->
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
             </namespace>
@@ -73,6 +73,10 @@
             </setting>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-14">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <text ana="#reference">
       <body>
@@ -1129,7 +1133,7 @@
                         <link ana="ud-syn:nmod" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w13 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w17"/>
                         <link ana="ud-syn:acl" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w17 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w18"/>
                         <link ana="ud-syn:nsubj" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w21 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w19"/>
-                        <link ana="ud-syn:flat:name" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w19 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w20"/>
+                        <link ana="ud-syn:flat_name" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w19 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w20"/>
                         <link ana="ud-syn:xcomp" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w18 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w21"/>
                         <link ana="ud-syn:punct" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w23 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w22"/>
                         <link ana="ud-syn:nummod" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w25 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg17.s1.w23"/>
@@ -1258,7 +1262,7 @@
                         <link ana="ud-syn:nsubj" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w26 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w25"/>
                         <link ana="ud-syn:acl" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w24 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w26"/>
                         <link ana="ud-syn:nsubj" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w29 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w27"/>
-                        <link ana="ud-syn:flat:name" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w27 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w28"/>
+                        <link ana="ud-syn:flat_name" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w27 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w28"/>
                         <link ana="ud-syn:xcomp" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w26 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w29"/>
                         <link ana="ud-syn:punct" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w31 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w30"/>
                         <link ana="ud-syn:obj" target="#ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w29 #ParlaMint-ES-GA_2015-12-23-DSPG136.seg18.s1.w31"/>

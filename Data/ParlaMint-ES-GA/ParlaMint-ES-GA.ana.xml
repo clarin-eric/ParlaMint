@@ -3,9 +3,9 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title type="main" xml:lang="gl"> Corpus parlamentario galego ParlaMint-ES-GA [ParlaMint.ana SAMPLE]</title>
+			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA [ParlaMint.ana SAMPLE]</title>
 			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA [ParlaMint.ana SAMPLE]</title>
-			<title type="sub" xml:lang="gl"> Actas do Parlamento de Galicia, Lexislaturas IX-XI (2015 - 2021)</title>
+			<title type="sub" xml:lang="gl">Actas do Parlamento de Galicia, Lexislaturas IX-XI (2015 - 2021)</title>
 			<title type="sub" xml:lang="en">Minutes of the Galician Parliament, Terms 9-11 (2015 - 2021)</title>
 			<meeting n="9" corresp="#PG" ana="#parla.uni #parla.term #PG.9">IX Lexislatura (16 novembro 2015 - 1 agosto 2016)</meeting>
 			<meeting n="10" corresp="#PG" ana="#parla.uni #parla.term #PG.10">X Lexislatura (21 outubro 2016 - 10 febreiro 2020)</meeting>
@@ -67,7 +67,7 @@
 		<editionStmt>
 			<edition>3.0</edition>
 		</editionStmt>
-		<extent>
+		<extent><!--These numbers do not reflect the size of the sample!-->
 			<measure unit="speeches" quantity="00000" xml:lang="gl">00.000 intervencións</measure>
 			<measure unit="speeches" quantity="00000" xml:lang="en">00,000 speeches</measure>
 			<measure unit="words" quantity="00000000" xml:lang="gl">00.000.000 palabras</measure>
@@ -200,7 +200,7 @@
 			</setting>
 		</settingDesc>
 		<textClass>
-			<catRef scheme="#Parliament" target="#parla.uni"/>
+			<catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
 		</textClass>
 		<particDesc>
 			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-GA-listOrg.xml"/>
@@ -212,7 +212,7 @@
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
-		<change when="2023-03-13">
+		<change when="2023-03-14">
 			<name>GitHub Action</name>: Made sample.
 		</change>
 	</revisionDesc>

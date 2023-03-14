@@ -32,7 +32,7 @@
 		<extent>
 			<measure unit="speeches" quantity="166"/>
 			<measure unit="words" quantity="4157"/>
-		</extent>
+		</extent><!--These numbers do not reflect the size of the sample!-->
 		<publicationStmt>
 			<publisher>
 				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -73,6 +73,10 @@
 			</setting>
 		</settingDesc>
 	</profileDesc>
+	<revisionDesc>
+		<change when="2023-03-14">
+			<name>GitHub Action</name>: Made sample.</change>
+	</revisionDesc>
 </teiHeader>
 <text ana="#covid">
 	<body>
@@ -184,464 +188,14 @@
 			</u>
 			<note>(Os membros da Mesa do Parlamento ocupan os seus postos na Presidencia.)</note>
 			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u15">
-				<kinesic>(Aplausos.)</kinesic>
+				<kinesic type="applause"> 
+					<desc>(Aplausos.)</desc> 
+				</kinesic>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg68">Prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia</seg>
 			</u>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u16">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg69">Corresponde, en primeiro lugar, que xure ou prometa o presidente, e vouno facer a continuación, se os membros da Mesa se poñen de pé, por favor.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg70">Señoras deputadas e señores deputados, ante o pobo de Galicia representado aquí polo seu Parlamento, prometo... —perdón—, xuro acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg71">Moitas grazas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg72">E agora vou tomar xuramento aos membros da Mesa.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg73">Don Diego Calvo Pouso, vicepresidente primeiro, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
-			</u>
-			<u who="#CalvoDiego" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u17">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg74">Si, juro.</seg>
-			</u>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u18">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg75">Moitas grazas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg76">Señora vicepresidenta segunda, dona Monserrat Prado Cores, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
-			</u>
-			<u who="#PradoMaríaMontserrat" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u19">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg77">Comprométome a ser fiel a Galiza e a defender os dereitos sociais e nacionais dos galegos e das galegas e a súa liberdade. E, por imperativo legal, prometo.</seg>
-			</u>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u20">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg78">Grazas pola súa promesa.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg79">Señora secretaria, dona María Corina Porro Martínez, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u21">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg80">Si, xuro.</seg>
-			</u>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u22">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg81">Moitas grazas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg82">Señora vicesecretaria, dona Marina Ortega Otero, ¿xura ou promete acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
-			</u>
-			<u who="#OrtegaMarina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u23">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg83">Si, prometo.</seg>
-			</u>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u24">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg84">Moitas grazas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg85">De seguido, a secretaria, constituídos xa todos como Mesa do Parlamento, procederá ao chamamento das señoras e señores deputados para que, dende o propio escano, contesten a pregunta que se lles formula para todos dende esta Presidencia, que é: ¿señoras deputadas ou señores deputados, xuran ou prometen acatar e gardar fidelidade á Constitución e ao Estatuto de Galicia?</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg86">Señora secretaria, cando queira.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u25">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg87">Ben.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg88">Abelairas Rodríguez, María Isaura.</seg>
-			</u>
-			<u who="#AbelairasMaríaIsaura" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u26">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg89">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u27">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg90">Aira Díaz, María del Carmen.</seg>
-			</u>
-			<u who="#AiraMaríadelCarmen" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u28">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg91">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e das galegas e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u29">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg92">Alén Castro, Gabriel.</seg>
-			</u>
-			<u who="#AlénGabriel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u30">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg93">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u31">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg94">Álvarez Martínez, Luis Manuel.</seg>
-			</u>
-			<u who="#ÁlvarezLuisManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u32">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg95">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u33">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg96">Amigo Díaz, María Encarnación.</seg>
-			</u>
-			<u who="#AmigoMaríaEncarnación" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u34">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg97">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u35">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg98">Arangüena Fernández, Pablo.</seg>
-			</u>
-			<u who="#ArangüenaPablo" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u36">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg99">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u37">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg100">Arias Rodríguez, Raquel.</seg>
-			</u>
-			<u who="#AriasRaquel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u38">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg101">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u39">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg102">Armada Pérez, José Antonio.</seg>
-			</u>
-			<u who="#ArmadaJoséAntonio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u40">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg103">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u41">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg104">Balseiro Orol, José Manuel.</seg>
-			</u>
-			<u who="#BalseiroJoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u42">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg105">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u43">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg106">Bará Torres, Xosé Luís.</seg>
-			</u>
-			<u who="#BaráXoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u44">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg107">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u45">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg108">Caballero Míguez, Gonzalo.</seg>
-			</u>
-			<u who="#CaballeroGonzalo" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u46">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg109">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u47">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg110">Candia López, María Elena.</seg>
-			</u>
-			<u who="#CandiaMaríaElena" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u48">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg111">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u49">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg112">Carballo Páez, Ramón.</seg>
-			</u>
-			<u who="#CarballoRamón" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u50">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg113">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u51">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg114">Carreira Pazos, Iria.</seg>
-			</u>
-			<u who="#CarreiraIria" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u52">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg115">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e a súa liberdade. E, por imperativo legal, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u53">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg116">Castro García, Daniel.</seg>
-			</u>
-			<u who="#CastroDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u54">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg117">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u55">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg118">Castro Rey, Paloma.</seg>
-			</u>
-			<u who="#CastroPaloma" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u56">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg119">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u57">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg120">Conde López, Francisco José.</seg>
-			</u>
-			<u who="#CondeFranciscoJosé" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u58">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg121">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u59">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg122">Cores Tourís, José Manuel.</seg>
-			</u>
-			<u who="#CoresJoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u60">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg123">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u61">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg124">Díaz Mouteira, María Sol.</seg>
-			</u>
-			<u who="#DíazMaríaSol" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u62">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg125">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u63">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg126">Díaz Varela, Noa Susana.</seg>
-			</u>
-			<u who="#DíazNoaSusana" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u64">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg127">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u65">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg128">Fernández Alfonzo, Ramón.</seg>
-			</u>
-			<u who="#FernándezRamón" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u66">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg129">Comprométome a ser fiel a Galiza e a defender os intereses nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u67">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg130">Fernández Gómez, Alexandra.</seg>
-			</u>
-			<u who="#FernándezAlexandra" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u68">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg131">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u69">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg132">Fernández Prado, Martín.</seg>
-			</u>
-			<u who="#FernándezMartín" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u70">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg133">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u71">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg134">Fernández-Tapias Núñez, Marta María.</seg>
-			</u>
-			<u who="#Fernández-TapiasMartaMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u72">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg135">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u73">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg136">Francisco Rivera, Juan Carlos.</seg>
-			</u>
-			<u who="#FranciscoJuanCarlos" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u74">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg137">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u75">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg138">Gallego Sanromán, María Leticia.</seg>
-			</u>
-			<u who="#GallegoLeticia" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u76">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg139">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u77">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg140">García Martínez, Fabiola.</seg>
-			</u>
-			<u who="#GarcíaFabiola" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u78">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg141">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u79">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg142">González Albert, María:</seg>
-			</u>
-			<note>(Ausente.)</note>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u80">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg143">González Iglesias, María do Carme.</seg>
-			</u>
-			<u who="#GonzálezMaríadoCarme" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u81">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg144">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u82">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg145">González Vázquez, José.</seg>
-			</u>
-			<u who="#GonzálezJosé" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u83">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg146">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u84">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg147">Lourenzo Sobral, Manuel Antonio.</seg>
-			</u>
-			<u who="#LourenzoManuelAntonio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u85">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg148">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u86">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg149">Martínez García, Valeriano.</seg>
-			</u>
-			<u who="#MartínezValeriano" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u87">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg150">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u88">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg151">Murillo Solís, María Guadalupe.</seg>
-			</u>
-			<u who="#MurilloMaríaGuadalupe" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u89">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg152">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u90">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg153">Nóvoa Iglesias, Marta.</seg>
-			</u>
-			<u who="#NóvoaMarta" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u91">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg154">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u92">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg155">Núñez Feijóo, Alberto.</seg>
-			</u>
-			<u who="#NúñezAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u93">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg156">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u94">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg157">Otero Rodríguez, Patricia.</seg>
-			</u>
-			<u who="#OteroPatricia" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u95">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg158">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u96">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg159">Pazos Couñago, José Alberto.</seg>
-			</u>
-			<u who="#PazosAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u97">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg160">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u98">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg161">Pérez Fernández, Rosana.</seg>
-			</u>
-			<u who="#PérezRosana" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u99">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg162">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos e a súa liberdade. Por imperativo legal, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u100">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg163">Pérez López, Álvaro.</seg>
-			</u>
-			<u who="#PérezÁlvaro" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u101">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg164">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u102">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg165">Pérez López, Daniel.</seg>
-			</u>
-			<u who="#PérezDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u103">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg166">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u104">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg167">Pérez López, Noelia.</seg>
-			</u>
-			<u who="#PérezNoelia" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u105">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg168">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u106">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg169">Pomar Tojo, Carmen María.</seg>
-			</u>
-			<u who="#PomarCarmenMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u107">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg170">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u108">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg171">Pontón Mondelo, Ana.</seg>
-			</u>
-			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u109">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg172">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e galegas e a súa liberdade. E, por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u110">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg173">Prado del Río, Paula.</seg>
-			</u>
-			<u who="#PradoPaula" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u111">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg174">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u112">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg175">Presas Bergantiños, Noa.</seg>
-			</u>
-			<u who="#PresasNoa" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u113">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg176">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e galegas e a súa liberdade. E, por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u114">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg177">Puy Fraga, Pedro.</seg>
-			</u>
-			<u who="#PuyPedro" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u115">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg178">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u116">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg179">Queixas Zas, Mercedes.</seg>
-			</u>
-			<u who="#QueixasMercedes" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u117">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg180">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos e a súa liberdade. E, por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u118">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg181">Quintana Carballo, Rosa María.</seg>
-			</u>
-			<u who="#QuintanaRosaMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u119">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg182">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u120">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg183">Rey Varela, José Manuel.</seg>
-			</u>
-			<u who="#ReyJoséManuel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u121">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg184">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u122">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg185">Ríos Santomé, Paulo.</seg>
-			</u>
-			<u who="#RíosPaulo" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u123">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg186">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u124">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg187">Rivas Cruz, Xosé Luís.</seg>
-			</u>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u125">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg188">Comprométome a ser fiel a Galicia e a defender os dereitos nacionais e sociais dos galegos e das galegas, así como a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u126">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg189">Rodeiro Tato, Ovidio.</seg>
-			</u>
-			<u who="#RodeiroOvidio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u127">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg190">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u128">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg191">Rodil Fernández, Olalla.</seg>
-			</u>
-			<u who="#RodilOlalla" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u129">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg192">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais das galegas e dos galegos e a súa liberdade. Por imperativo legal, si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u130">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg193">Rodríguez Dacosta, María del Carmen.</seg>
-			</u>
-			<u who="#RodríguezMaríadelCarmen" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u131">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg194">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u132">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg195">Rodríguez González, Román.</seg>
-			</u>
-			<u who="#RodríguezRomán" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u133">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg196">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u134">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg197">Rodríguez Miranda, Antonio.</seg>
-			</u>
-			<u who="#RodríguezAntonio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u135">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg198">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u136">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg199">Rodríguez Rumbo, Matilde Begoña.</seg>
-			</u>
-			<u who="#RodríguezMatildeBegoña" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u137">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg200">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u138">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg201">Rueda Valenzuela, Alfonso.</seg>
-			</u>
-			<u who="#RuedaAlfonso" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u139">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg202">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u140">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg203">Sanz Arias, Cristina.</seg>
-			</u>
-			<u who="#SanzCristina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u141">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg204">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u142">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg205">Seco García, Martín.</seg>
-			</u>
-			<u who="#SecoMartín" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u143">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg206">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u144">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg207">Suárez Sarmiento, María Elena.</seg>
-			</u>
-			<u who="#SuárezMaríaElena" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u145">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg208">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u146">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg209">Tabarés Pérez-Piñeiro, Iago.</seg>
-			</u>
-			<u who="#TabarésIago" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u147">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg210">Comprométome a ser fiel a Galiza e a defender os dereitos nacionais e sociais dos galegos e das galegas e a súa liberdade. Por imperativo legal, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u148">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg211">Tellado Filgueira, Miguel Ángel.</seg>
-			</u>
-			<u who="#TelladoMiguelÁngel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u149">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg212">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u150">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg213">Torrado Quintela, Julio.</seg>
-			</u>
-			<u who="#TorradoJulio" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u151">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg214">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u152">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg215">Vázquez Almuíña, Jesús.</seg>
-			</u>
-			<u who="#VázquezAlmuíñaJesús" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u153">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg216">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u154">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg217">Vázquez Domínguez, Sandra.</seg>
-			</u>
-			<u who="#VázquezSandra" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u155">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg218">Si, prometo.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u156">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg219">Vázquez Mejuto, María Ángeles.</seg>
-			</u>
-			<u who="#VázquezMaríaÁngeles" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u157">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg220">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u158">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg221">Vázquez Mourelle, Ethel María.</seg>
-			</u>
-			<u who="#VázquezEthelMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u159">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg222">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u160">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg223">Vega Pérez, Daniel.</seg>
-			</u>
-			<u who="#VegaDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u161">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg224">Si, xuro.</seg>
-			</u>
-			<u who="#PorroMaríaCorina" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u162">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg225">Verea Fraiz, Borja.</seg>
-			</u>
-			<u who="#VereaBorja" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u163">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg226">Si, prometo.</seg>
-			</u>
+			<gap reason="editorial">
+				<desc xml:lang="en">SAMPLING</desc>
+			</gap>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u164">
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg227">Moitas grazas.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg228">Pódense sentar os membros da Mesa. Grazas.</seg>
@@ -655,7 +209,9 @@
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg236">Sei tamén o orgullo que é ser deputado, e vostedes, sobre todo os que se incorporan hoxe, vano sentir; e tamén lles digo por experiencia propia ―e é unha idea que lles transmito― que calan os discursos que teñen contido e os que teñen unha argumentación sólida e que non cala a estridencia ―acábase de ver, acabámolo de comprobar non hai moito tempo―. Polo tanto, eu pídolles que nese sentido vaiamos todos, desde as discrepancias lóxicas que pode haber, pero sempre mantendo, por suposto, a dignidade da Cámara.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg237">Esta ha de ser a lexislatura das persoas, estou convencido; estano pasando mal e aquí estamos nós para tratar de axudar, para tratar de facer cousas en que poidamos axudalos. E eu —e con isto xa remato— só pido unha cousa: poder estar á altura da confianza que se depositou en min. E tamén pido por vostedes, por todos os deputados e deputadas, para que poidan estar á altura da confianza que os electores depositaron en todos vostedes. Ese é o desexo que hoxe pido.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg238">Nada máis e moitas grazas por escoitarme nesta toma de posesión. Moitas grazas.</seg>
-				<kinesic>(Aplausos.)</kinesic>
+				<kinesic type="applause"> 
+					<desc>(Aplausos.)</desc> 
+				</kinesic>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg239">Polo tanto, en cumprimento do artigo 5 do Regulamento, declaro constituído o Parlamento de Galicia na súa XI lexislatura.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg240">Unha vez máis, antes de que escoitemos o himno, convídoos a todos vostedes, que adquiriron xa a condición plena de deputadas e deputados do Parlamento de Galicia, e antes de levantar esta sesión, a gardar un minuto de silencio en memoria das vítimas da covid-19 e de todas as persoas falecidas por diferentes causas durante este tempo sen poder ser despedidas polos seus seres queridos; minuto de silencio tamén como mostra de afecto, solidariedade e cercanía coas familias afectadas, con todas as persoas enfermas e, por suposto, de agradecemento a todos os profesionais sanitarios e aos restantes servizos esenciais para a sociedade.</seg>
 			</u>
@@ -666,9 +222,13 @@
 			</u>
 			<note>(As señoras deputadas e os señores deputados e demais asistentes á sesión, postos en pé, cantan o himno galego.)</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u166">
-				<kinesic>(Aplausos.)</kinesic>
+				<kinesic type="applause"> 
+					<desc>(Aplausos.)</desc> 
+				</kinesic>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg243">Moitas grazas. Quedou constituído o Parlamento. Grazas a todos.</seg>
-				<kinesic>(Aplausos.)</kinesic>
+				<kinesic type="applause"> 
+					<desc>(Aplausos.)</desc> 
+				</kinesic>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg244">Remata a sesión ás doce e trinta e oito minutos do mediodía.</seg>
 			</u>
 		</div>
