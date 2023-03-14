@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     ana="#parla.sitting #reference"
      xml:id="ParlaMint-FR_2022-03-23-O1168.ana"
+     ana="#parla.sitting #reference"
      xml:lang="fr">
    <teiHeader>
       <fileDesc>
@@ -10,19 +10,30 @@
             <title type="main" xml:lang="en">French parliamentary corpus ParlaMint-FR, ordinary session [ParlaMint.ana]</title>
             <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 168, 23/03/2022</title>
             <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 168, 23/03/2022</title>
-            <meeting ana="#parla.session #PO717460" corresp="#PO717460" n="O1">session ordinaire</meeting>
-            <meeting ana="#parla.sitting #PO717460" corresp="#PO717460" n="168">168. séance</meeting>
+            <meeting n="O1"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.session #ParlaMint-FR-LOWER"
+                     xml:lang="fr">Session ordinaire 2021-2022 (CRSANR5L15S2022O1N168)</meeting>
+            <meeting n="168"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.sitting #ParlaMint-FR-LOWER"
+                     xml:lang="fr">168. séance</meeting>
             <respStmt>
                <persName>Sascha Diwersy</persName>
+               <resp xml:lang="fr">Annotation linguistique</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
                <persName>Giancarlo Luxardo</persName>
-               <resp>ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
             <funder>
                <orgName>The CLARIN research infrastructure</orgName>
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.2</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent>
             <measure unit="speeches" quantity="5" xml:lang="en">5 speeches</measure>
@@ -44,6 +55,7 @@
                <title type="main" xml:lang="fr">Travaux parlementaires (Assemblée nationale)</title>
                <title type="sub" xml:lang="fr">Débats en séance publique - Comptes rendus au format XML</title>
                <idno type="URI">http://data.assemblee-nationale.fr/travaux-parlementaires/debats</idno>
+               <idno type="URI" subtype="handle">https://data.assemblee-nationale.fr/dyn/opendata/CRSANR5L15S2022O1N168.xml</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -75,24 +87,24 @@
          <settingDesc>
             <setting>
                <name type="city">Paris</name>
-               <name key="FR" type="country">France</name>
+               <name type="country" key="FR">France</name>
                <date when="2022-03-23">23/03/2022</date>
             </setting>
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2021-02-01">
-            <name>Giancarlo Luxardo</name>: Initial version.</change>
+         <change when="2022-12-26">
+            <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="#reference" xml:lang="fr">
+   <text xml:lang="fr" ana="#reference">
       <body>
-         <div n="1"
-              type="debateSection"
-              xml:id="ParlaMint-FR_2022-03-23-O1168.d3_1">
+         <div xml:id="ParlaMint-FR_2022-03-23-O1168.d3_1"
+              n="1"
+              type="debateSection">
             <head>Intervention de M. Volodymyr Zelensky, président de l’Ukraine</head>
             <note type="debate">DISC_ARTICLES_2_4</note>
-            <u ana="#unknown" xml:id="ParlaMint-FR_2022-03-23-O1168.u1">
+            <u xml:id="ParlaMint-FR_2022-03-23-O1168.u1" ana="#unknown">
                <seg>
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s1">
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s1.w1"
@@ -106,7 +118,8 @@
                         lemma="président">président</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s1.w4"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s1.w5"
                            msd="UPosTag=PROPN"
@@ -128,7 +141,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s1.w11"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s1.w12"
                            msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -364,7 +378,8 @@
                         lemma="président">président</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w14"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w15"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -381,7 +396,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w19" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w20"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w21"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -419,7 +435,8 @@
                         lemma="redoubler">redoublent</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w33"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s2.w34"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="intensité">intensité</w>
@@ -524,7 +541,8 @@
                         lemma="car">Car</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s3.w2"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s3.w3"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="inadmissible">inadmissible</w>
@@ -580,7 +598,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s3.w20"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s3.w21"
                            msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -691,7 +710,8 @@
                         lemma="président">président</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s5.w7"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s5.w8"
                            msd="UPosTag=PROPN"
@@ -704,7 +724,8 @@
                         lemma="forcer">force</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s5.w11"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s5.w12"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="admiration"
@@ -745,7 +766,8 @@
                         lemma="alors">Alors</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w2"
                         msd="UPosTag=SCONJ"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w3"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
                         lemma="il">il</w>
@@ -760,7 +782,8 @@
                         lemma="cible">cible</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w7"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w8"
                         msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
                         lemma="un">une</w>
@@ -789,7 +812,8 @@
                         lemma="alors">alors</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w17"
                         msd="UPosTag=SCONJ"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w18"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
                         lemma="il">il</w>
@@ -804,7 +828,8 @@
                         lemma="victime">victime</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w22"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w23"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -863,7 +888,8 @@
                         lemma="alors">alors</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w42"
                         msd="UPosTag=SCONJ"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s6.w43"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
                         lemma="il">il</w>
@@ -1074,13 +1100,15 @@
                         lemma="résister">résistent</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s7.w9"
                         msd="UPosTag=ADP"
-                        lemma="jusque">jusqu'</w>
+                        lemma="jusque"
+                        join="right">jusqu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s7.w10"
                         msd="UPosTag=ADP"
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s7.w11"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s7.w12"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="héroïsme">héroïsme</w>
@@ -1133,7 +1161,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s7.w28"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s7.w29"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -1266,7 +1295,8 @@
                      </w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s8.w11"
                         msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
-                        lemma="je">j'</w>
+                        lemma="je"
+                        join="right">j'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s8.w12"
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
                         lemma="associer">associe</w>
@@ -1543,7 +1573,8 @@
                         lemma="temps">temps</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s9.w10"
                         msd="UPosTag=ADV|Polarity=Neg"
-                        lemma="ne">n'</w>
+                        lemma="ne"
+                        join="right">n'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s9.w11"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="être">est</w>
@@ -1558,7 +1589,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s9.w15"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s9.w16"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="émotion"
@@ -1619,7 +1651,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s10.w6"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s10.w7"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="action"
@@ -1676,7 +1709,8 @@
                         lemma="président">président</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s11.w11"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s11.w12"
                            msd="UPosTag=PROPN"
@@ -1771,7 +1805,8 @@
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s12">
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s12.w1"
                         msd="UPosTag=VERB|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
-                        lemma="permettre">Permettez</w>
+                        lemma="permettre"
+                        join="right">Permettez</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s12.w2"
                         msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
                         lemma="soi">-moi</w>
@@ -1786,7 +1821,8 @@
                         lemma="remercier">remercier</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s12.w6"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s12.w7"
                         msd="UPosTag=AUX|VerbForm=Inf"
                         lemma="avoir">avoir</w>
@@ -1890,7 +1926,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s12.w38"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s12.w39"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -2031,7 +2068,8 @@
                         lemma="pour">pour</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s13.w12"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s13.w13"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="avenir"
@@ -2082,7 +2120,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s14.w4"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s14.w5"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="institution">institution</w>
@@ -2162,7 +2201,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s15.w8" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s15.w9"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s15.w10"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -2201,7 +2241,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s15.w22"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s15.w23"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="humanisme"
@@ -2315,7 +2356,8 @@
                         lemma="que">que</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s16.w5"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s16.w6"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -2464,9 +2506,9 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular"
-               who="#PA606171"
-               xml:id="ParlaMint-FR_2022-03-23-O1168.u2">
+            <u who="#PA606171"
+               xml:id="ParlaMint-FR_2022-03-23-O1168.u2"
+               ana="#regular">
                <seg>
                   <kinesic type="applause">
                      <desc xml:lang="fr">Mmes et MM. les députés se lèvent et applaudissent longuement</desc>
@@ -2486,7 +2528,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w5"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w6"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -2576,7 +2619,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w32" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w33"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem"
-                        lemma="ce">c'</w>
+                        lemma="ce"
+                        join="right">c'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w34"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="être">est</w>
@@ -2618,7 +2662,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w46"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s18.w47"
                            msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -2785,7 +2830,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s19.w18"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s19.w19"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="étranger">étranger</w>
@@ -2809,7 +2855,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s19.w26"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s19.w27"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -2987,13 +3034,15 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s21.w11"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s21.w12"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="ambassadeur">ambassadeur</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s21.w13"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s21.w14"
                            msd="UPosTag=PROPN"
@@ -3081,7 +3130,8 @@
                         lemma="près">près</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s22.w4"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s22.w5"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -3130,7 +3180,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s22.w20"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s22.w21"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="agression">agression</w>
@@ -3230,7 +3281,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s23.w13"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s23.w14"
                         msd="UPosTag=ADJ|Gender=Fem|Number=Sing"
                         lemma="entier">entière</w>
@@ -3347,13 +3399,15 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w17" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w18"
                         msd="UPosTag=SCONJ"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w19"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
                         lemma="il">il</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w20"
                         msd="UPosTag=PRON|Person=3|PronType=Prs|Reflex=Yes"
-                        lemma="se">s'</w>
+                        lemma="se"
+                        join="right">s'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w21"
                         msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="agir">agisse</w>
@@ -3362,7 +3416,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w23"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w24"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="adoption">adoption</w>
@@ -3380,7 +3435,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w29"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w30"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="encontre">encontre</w>
@@ -3389,7 +3445,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w32"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w33"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="agresseur">agresseur</w>
@@ -3407,7 +3464,8 @@
                         lemma="fourniture">fourniture</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w38"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s24.w39"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -3724,7 +3782,8 @@
                         lemma="devoir">doit</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s27.w3"
                         msd="UPosTag=PRON|Person=3|PronType=Prs|Reflex=Yes"
-                        lemma="se">s'</w>
+                        lemma="se"
+                        join="right">s'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s27.w4"
                         msd="UPosTag=VERB|VerbForm=Inf"
                         lemma="arrêter">arrêter</w>
@@ -3854,7 +3913,8 @@
                         lemma="preuve">preuve</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s28.w11"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s28.w12"
                         msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
                         lemma="un">une</w>
@@ -4030,7 +4090,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s31.w5"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s31.w6"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -4081,7 +4142,7 @@
                   </s>
                </seg>
             </u>
-            <u ana="#unknown" xml:id="ParlaMint-FR_2022-03-23-O1168.u3">
+            <u xml:id="ParlaMint-FR_2022-03-23-O1168.u3" ana="#unknown">
                <seg>
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s32">
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s32.w1"
@@ -4099,7 +4160,8 @@
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s33">
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s33.w1"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem"
-                        lemma="ce">C'</w>
+                        lemma="ce"
+                        join="right">C'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s33.w2"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="être">est</w>
@@ -4125,7 +4187,8 @@
                         lemma="pour">pour</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s33.w10"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s33.w11"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -4250,7 +4313,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s34.w24"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s34.w25"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="honneur">honneur</w>
@@ -4259,7 +4323,8 @@
                         lemma="qui">qui</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s34.w27"
                         msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
-                        lemma="me">m'</w>
+                        lemma="me"
+                        join="right">m'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s34.w28"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="être">est</w>
@@ -4271,7 +4336,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s34.w31"
                         msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs"
-                        lemma="me">m'</w>
+                        lemma="me"
+                        join="right">m'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s34.w32"
                         msd="UPosTag=VERB|VerbForm=Inf"
                         lemma="adresser">adresser</w>
@@ -4528,7 +4594,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s36.w30"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s36.w31"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="argent">argent</w>
@@ -4621,7 +4688,8 @@
                         lemma="il">Je</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s37.w2"
                         msd="UPosTag=PRON|Number=Sing|Person=1|PronType=Prs|Reflex=Yes"
-                        lemma="me">m'</w>
+                        lemma="me"
+                        join="right">m'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s37.w3"
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
                         lemma="adresser">adresse</w>
@@ -4902,7 +4970,8 @@
                         lemma="sur">sur</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s40.w14"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s40.w15"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="hôpital">hôpital</w>
@@ -4966,7 +5035,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s40.w34"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s40.w35"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -5057,7 +5127,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w2" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w3"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Dem"
-                        lemma="ce">c'</w>
+                        lemma="ce"
+                        join="right">c'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w4"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
                         lemma="être">était</w>
@@ -5075,13 +5146,15 @@
                         lemma="paisible">paisible</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w9"
                         msd="UPosTag=ADP"
-                        lemma="jusque">jusqu'</w>
+                        lemma="jusque"
+                        join="right">jusqu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w10"
                         msd="UPosTag=ADP"
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w11"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w12"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="arrivée">arrivée</w>
@@ -5107,7 +5180,8 @@
                         lemma="qui">qui</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w19"
                         msd="UPosTag=PRON|Number=Sing|Person=3|PronType=Prs"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s41.w20"
                         msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="avoir">ont</w>
@@ -5364,7 +5438,8 @@
                         lemma="plupart">plupart</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s43.w3"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s43.w4"
                         msd="UPosTag=ADP"
                         lemma="entre">entre</w>
@@ -5586,7 +5661,8 @@
                         lemma="alors">Alors</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s45.w2"
                         msd="UPosTag=SCONJ"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s45.w3"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Ind"
                         lemma="on">on</w>
@@ -5647,7 +5723,8 @@
                         lemma="pas">pas</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s45.w22"
                         msd="UPosTag=PRON|Number=Sing|Person=3|PronType=Prs"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s45.w23"
                         msd="UPosTag=VERB|VerbForm=Inf"
                         lemma="aider">aider</w>
@@ -5935,7 +6012,8 @@
                         lemma="demander">demande</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w4"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w5"
                         msd="UPosTag=VERB|VerbForm=Inf"
                         lemma="observer">observer</w>
@@ -5956,7 +6034,8 @@
                         lemma="en">en</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w11"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w12"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="honneur">honneur</w>
@@ -5986,7 +6065,8 @@
                         lemma="millier">milliers</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w20"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="MISC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w21"
                            msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
@@ -5997,7 +6077,8 @@
                         lemma="et">et</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w23"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="MISC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w24"
                            msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
@@ -6029,7 +6110,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w33"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s48.w34"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="invasion">invasion</w>
@@ -6163,7 +6245,8 @@
                         lemma="semaine">semaines</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s50.w4"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s50.w5"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="invasion">invasion</w>
@@ -6182,7 +6265,8 @@
                         lemma="et">et</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s50.w10"
                         msd="UPosTag=DET|Definite=Ind|Number=Plur|PronType=Art"
-                        lemma="un">d'</w>
+                        lemma="un"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s50.w11"
                         msd="UPosTag=ADJ|Gender=Fem|Number=Plur"
                         lemma="autre">autres</w>
@@ -6200,7 +6284,8 @@
                         lemma="par">par</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s50.w16"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s50.w17"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="occupant">occupant</w>
@@ -6316,7 +6401,8 @@
                         lemma="avoir">eu</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w15"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w16"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="occasion">occasion</w>
@@ -6330,7 +6416,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w19" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w20"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w21"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="armée">armée</w>
@@ -6354,7 +6441,8 @@
                         lemma="objet">objets</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w28"
                         msd="UPosTag=PRON|PronType=Rel"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s51.w29"
                         msd="UPosTag=PRON|Gender=Fem|Number=Sing|Person=3|PronType=Prs"
                         lemma="elle">elle</w>
@@ -6859,7 +6947,8 @@
                         lemma="réfugié">réfugiés</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s56.w29"
                         msd="UPosTag=PRON|PronType=Rel"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s56.w30"
                         msd="UPosTag=PRON|Gender=Masc|Number=Plur|Person=3|PronType=Prs"
                         lemma="il">ils</w>
@@ -6885,7 +6974,8 @@
                         lemma="journaliste">journalistes</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s56.w38"
                         msd="UPosTag=PRON|PronType=Rel"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s56.w39"
                         msd="UPosTag=PRON|Gender=Masc|Number=Plur|Person=3|PronType=Prs"
                         lemma="il">ils</w>
@@ -6950,7 +7040,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s56.w60"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s56.w61"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="holocauste">holocauste</w>
@@ -7178,7 +7269,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s57.w7" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s57.w8"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s57.w9"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -7189,7 +7281,8 @@
                         lemma="ne">ne</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s57.w11"
                         msd="UPosTag=PRON|Number=Sing|Person=3|PronType=Prs"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s57.w12"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
                         lemma="avoir">avait</w>
@@ -7462,7 +7555,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s60.w13"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s60.w14"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="est">est</w>
@@ -7471,7 +7565,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s60.w16"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s60.w17"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -7587,7 +7682,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w9" msd="UPosTag=PUNCT">–</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w10"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w11"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -7607,7 +7703,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w15" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w16"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w17"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -7639,7 +7736,8 @@
                         lemma="représenter">représentaient</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w26"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s61.w27"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="ensemble">ensemble</w>
@@ -7816,7 +7914,8 @@
                         lemma="que">que</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s62.w8"
                         msd="UPosTag=DET|Definite=Ind|PronType=Art"
-                        lemma="un">d'</w>
+                        lemma="un"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s62.w9"
                         msd="UPosTag=PRON|Number=Plur|Person=3|PronType=Ind"
                         lemma="autre">autres</w>
@@ -7899,7 +7998,8 @@
                         lemma="important">important</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s63.w5"
                         msd="UPosTag=SCONJ"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s63.w6"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -7914,7 +8014,8 @@
                         lemma="continuer">continue</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s63.w10"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s63.w11"
                         msd="UPosTag=VERB|VerbForm=Inf"
                         lemma="exister"
@@ -8044,7 +8145,8 @@
                         lemma="bouffée">bouffée</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w34"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w35"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="air">air</w>
@@ -8065,7 +8167,8 @@
                         lemma="lueur">lueur</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w41"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w42"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="espoir"
@@ -8073,7 +8176,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w43" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w44"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s64.w45"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="espoir">espoir</w>
@@ -8445,7 +8549,8 @@
                         lemma="et">et</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s67.w10"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s67.w11"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="expérience">expérience</w>
@@ -8538,7 +8643,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s68.w7"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s68.w8"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="histoire">histoire</w>
@@ -8608,7 +8714,8 @@
                         lemma="par">par</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s69.w13"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s69.w14"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="artillerie">artillerie</w>
@@ -8695,7 +8802,8 @@
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s70">
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s70.w1"
                         msd="UPosTag=ADV|Polarity=Neg"
-                        lemma="ne">N'</w>
+                        lemma="ne"
+                        join="right">N'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s70.w2"
                         msd="UPosTag=AUX|Tense=Pres|VerbForm=Part"
                         lemma="avoir">ayant</w>
@@ -8818,7 +8926,8 @@
                         lemma="il">nous</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s71.w5"
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-                        lemma="rester">reste</w>
+                        lemma="rester"
+                        join="right">reste</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s71.w6"
                         msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
                         lemma="il">-t-il</w>
@@ -9072,7 +9181,8 @@
                         lemma="bouffée">bouffées</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s73.w3"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s73.w4"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="air">air</w>
@@ -9156,7 +9266,8 @@
                         lemma="pour">pour</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s74.w13"
                         msd="UPosTag=PRON|Number=Sing|Person=3|PronType=Prs"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s74.w14"
                         msd="UPosTag=VERB|VerbForm=Inf"
                         lemma="inciter">inciter</w>
@@ -9217,9 +9328,9 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular"
-               who="#PA720124"
-               xml:id="ParlaMint-FR_2022-03-23-O1168.u4">
+            <u who="#PA720124"
+               xml:id="ParlaMint-FR_2022-03-23-O1168.u4"
+               ana="#regular">
                <seg>
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s75">
                      <name type="MISC">
@@ -9265,7 +9376,8 @@
                         lemma="ukrainien">ukrainien</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s75.w15"
                         msd="UPosTag=PRON|Person=3|PronType=Prs|Reflex=Yes"
-                        lemma="se">s'</w>
+                        lemma="se"
+                        join="right">s'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s75.w16"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="être">est</w>
@@ -9324,7 +9436,8 @@
                         lemma="il">nous</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s76.w4"
                         msd="UPosTag=ADV|Polarity=Neg"
-                        lemma="ne">n'</w>
+                        lemma="ne"
+                        join="right">n'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s76.w5"
                         msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
                         lemma="avoir">avons</w>
@@ -9401,7 +9514,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s76.w28"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s76.w29"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="opposition">opposition</w>
@@ -9481,7 +9595,8 @@
                         lemma="penser">pensons</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s77.w4"
                         msd="UPosTag=ADV|Polarity=Neg"
-                        lemma="que">qu'</w>
+                        lemma="que"
+                        join="right">qu'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s77.w5"
                         msd="UPosTag=ADP"
                         lemma="à">à</w>
@@ -9626,7 +9741,8 @@
                         lemma="preuve">preuve</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s78.w27"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s78.w28"
                         msd="UPosTag=DET|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
                         lemma="un">un</w>
@@ -9849,7 +9965,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s81.w8" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s81.w9"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s81.w10"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="égalité">égalité</w>
@@ -10088,7 +10205,8 @@
                      <pc xml:id="ParlaMint-FR_2022-03-23-O1168.s83.w30" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s83.w31"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s83.w32"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="égalité">égalité</w>
@@ -10123,7 +10241,8 @@
                         lemma="rendre">rendu</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s83.w43"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s83.w44"
                            msd="UPosTag=PROPN|Gender=Fem|Number=Sing"
@@ -10290,7 +10409,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s84.w14"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s84.w15"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="intégrité">intégrité</w>
@@ -10302,7 +10422,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s84.w18"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s84.w19"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -10448,7 +10569,8 @@
                         lemma="peuple">peuples</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s86.w22"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s86.w23"
                            msd="UPosTag=PROPN"
@@ -10538,7 +10660,8 @@
                            lemma="de">de</w>
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w9"
                            msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                           lemma="le">l'</w>
+                           lemma="le"
+                           join="right">l'</w>
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w10"
                            msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                            lemma="union">Union</w>
@@ -10574,7 +10697,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w21"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w22"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="adhésion">adhésion</w>
@@ -10583,7 +10707,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w24"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w25"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -10594,7 +10719,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w27"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s87.w28"
                            msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
@@ -10726,7 +10852,8 @@
                         lemma="dans">dans</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s88.w20"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s88.w21"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="histoire">histoire</w>
@@ -10892,7 +11019,8 @@
                         lemma="armée">armée</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s89.w28"
                         msd="UPosTag=PRON|Person=3|PronType=Prs|Reflex=Yes"
-                        lemma="se">s'</w>
+                        lemma="se"
+                        join="right">s'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s89.w29"
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="opposer">oppose</w>
@@ -11015,7 +11143,8 @@
                         lemma="besoin">besoin</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s90.w4"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s90.w5"
                         msd="UPosTag=ADV"
                         lemma="encore">encore</w>
@@ -11024,7 +11153,8 @@
                         lemma="plus">plus</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s90.w7"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s90.w8"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="aide">aide</w>
@@ -11322,7 +11452,8 @@
                         lemma="contre">contre</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s93.w19"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s93.w20"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="agresseur"
@@ -11506,7 +11637,8 @@
                         lemma="cesser">cesser</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s95.w23"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s95.w24"
                         msd="UPosTag=AUX|VerbForm=Inf"
                         lemma="être">être</w>
@@ -11638,7 +11770,8 @@
                         lemma="et">et</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s96.w11"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s96.w12"
                         msd="UPosTag=NOUN|Number=Plur"
                         lemma="enfant"
@@ -11775,7 +11908,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s98.w6"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s98.w7"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="avenir"
@@ -12042,7 +12176,8 @@
                         lemma="personne">personne</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s100.w28"
                         msd="UPosTag=ADV|Polarity=Neg"
-                        lemma="ne">n'</w>
+                        lemma="ne"
+                        join="right">n'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s100.w29"
                         msd="UPosTag=VERB|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="avoir">ait</w>
@@ -12124,7 +12259,8 @@
                         lemma="milieu">milieu</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s100.w55"
                         msd="UPosTag=ADP"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s100.w56"
                         msd="UPosTag=DET|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
                         lemma="un">une</w>
@@ -12365,7 +12501,8 @@
                      </name>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s101.w21"
                         msd="UPosTag=PRON|Number=Sing|Person=3|PronType=Prs"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s101.w22"
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
                         lemma="avoir">a</w>
@@ -12484,7 +12621,8 @@
                         lemma="à">à</w>
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s103.w3"
                         msd="UPosTag=DET|Definite=Def|Number=Sing|PronType=Art"
-                        lemma="le">l'</w>
+                        lemma="le"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-FR_2022-03-23-O1168.s103.w4"
                            msd="UPosTag=PROPN|Number=Sing"
@@ -12506,9 +12644,9 @@
                   </s>
                </seg>
             </u>
-            <u ana="#regular"
-               who="#PA606171"
-               xml:id="ParlaMint-FR_2022-03-23-O1168.u5">
+            <u who="#PA606171"
+               xml:id="ParlaMint-FR_2022-03-23-O1168.u5"
+               ana="#regular">
                <seg>
                   <s xml:id="ParlaMint-FR_2022-03-23-O1168.s104">
                      <w xml:id="ParlaMint-FR_2022-03-23-O1168.s104.w1"
