@@ -73,10 +73,7 @@ state =
          "The subtype of state gives the source of this information."
        ],
     attribute subtype { stateSubtype.val },
-    
-    ## The URI of the source where this information was taken
-    ##         from.
-    (attribute source { anyURIs }?),
+    source.att,
     
     ## The political orientation if given as a numeric value.
     (attribute n { xsd:decimal }?)
@@ -154,8 +151,16 @@ persName =
     ## Special persons (like 'group') have their name in term. This possibility
     ##         might have to be revisited.
     (element term { normalized-space.string }
-     | (element surname { personal.att, normalized-space.string }+
-        & element forename { personal.att, normalized-space.string }+
+     | (element surname {
+          attribute type { "birth" | "patronym" | "married" }?,
+          personal.att,
+          normalized-space.string
+        }+
+        & element forename {
+            attribute type { "first" | "middle" | "unused" }?,
+            personal.att,
+            normalized-space.string
+          }+
         & element addName { personal.att, normalized-space.string }*
         & element roleName { personal.att, normalized-space.string }*
         & element nameLink { normalized-space.string }*))
@@ -166,9 +171,18 @@ affiliation =
   element affiliation {
     ana.att?,
     temporal.atts?,
-    ref.att?,
+    ref.att,
+    source.att,
     attribute role { affiliationRole.val },
-    element roleName { lang.att, normalized-space.string }*
+    (element roleName { lang.att, normalized-space.string }*)
+    >> a:documentation [
+         "Optional note for free-text note of the affiliation period."
+       ],
+    element note {
+      attribute type { "period" },
+      lang.att,
+      normalized-space.string
+    }?
   }
 
 ## The occupation of a person.
