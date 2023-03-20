@@ -36,7 +36,7 @@
 
   <xsl:import href="parlamint-lib.xsl"/>
   
-  <!-- Directories must have absolute paths! -->
+  <!-- Directories must have absolute paths or relative to the location of this script -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
   
@@ -155,9 +155,8 @@
   <!-- Numbers of speeches in component files -->
   <xsl:variable name="speeches">
     <xsl:for-each select="$docs/tei:item[@type = 'component']">
-      <item>
-        <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//
-                              tei:extent/tei:measure[@unit = 'speeches'][1]/@quantity"/>
+      <item n="{tei:xi-orig}">
+        <xsl:value-of select="document(tei:url-orig)/count(//tei:u)"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -202,6 +201,7 @@
 	  <!-- Process component -->
 	  <xsl:when test="@type = 'component'">
             <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
+              <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
               <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
             </xsl:apply-templates>
 	  </xsl:when>
@@ -216,10 +216,12 @@
   </xsl:template>
 
   <xsl:template mode="comp" match="*">
+    <xsl:param name="speeches"/>
     <xsl:param name="words"/>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
+        <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="words" select="$words"/>
       </xsl:apply-templates>
     </xsl:copy>
@@ -293,7 +295,27 @@
   </xsl:template>
 
   
+  <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='speeches']">
+    <xsl:param name="speeches"/>
+    <xsl:param name="words"/>
+    <xsl:variable name="old-speeches" select="@quantity"/>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="normalize-space($speeches) and $speeches != '0'">
+        <xsl:attribute name="quantity" select="$speeches"/>
+        <xsl:if test="$old-speeches != $speeches">
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': replacing speeches ', $old-speeches, ' with ', $speeches)"/>
+        </xsl:if>
+        <xsl:value-of select="replace(., '.+ ', concat(
+                              et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $speeches), 
+                              ' '))"/>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>  
+
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='words']">
+    <xsl:param name="speeches"/>
     <xsl:param name="words"/>
     <xsl:variable name="old-words" select="@quantity"/>
     <xsl:copy>
@@ -305,12 +327,12 @@
                                ': replacing words ', $old-words, ' with ', $words)"/>
         </xsl:if>
         <xsl:value-of select="replace(., '.+ ', concat(
-                            et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
-                            ' '))"/>
+                              et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
+                              ' '))"/>
       </xsl:if>
     </xsl:copy>
   </xsl:template>  
-
+  
   <!-- Fix div/@type="debateSection" to ="commentSection" if div contains not utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
@@ -378,6 +400,19 @@
 	    <xsl:text>ud-syn:dep</xsl:text>
 	  </xsl:otherwise>
 	</xsl:choose>
+      </xsl:attribute>
+      <xsl:apply-templates select="@target"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Bug in STANZA, sometimes synt. relation is "<PAD>" -->
+  <!-- We set it to general dependency "dep" -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:&lt;PAD&gt;']">
+    <xsl:copy>
+      <xsl:attribute name="ana">
+        <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:&lt;PAD&gt; with ud-syn:dep')"/>
+	<xsl:text>ud-syn:dep</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates select="@target"/>
     </xsl:copy>
@@ -564,9 +599,11 @@
     <xsl:param name="quant"/>
     <xsl:variable name="form" select="format-number($quant, '###,###,###,###')"/>
     <xsl:choose>
+      <!-- Spaces for thousands separator -->
       <xsl:when test="$lang = 'fr'">
         <xsl:value-of select="replace($form, ',', ' ')"/>
       </xsl:when>
+      <!-- Period for thousands separator -->
       <xsl:when test="$lang = 'bg' or 
                       $lang = 'bs' or
                       $lang = 'cs' or
@@ -584,6 +621,7 @@
                       ">
         <xsl:value-of select="replace($form, ',', '.')"/>
       </xsl:when>
+      <!-- Comma for thousands separator -->
       <xsl:otherwise>
         <xsl:value-of select="$form"/>
       </xsl:otherwise>
