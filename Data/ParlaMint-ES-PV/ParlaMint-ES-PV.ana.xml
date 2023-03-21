@@ -389,14 +389,16 @@
                </category>
             </taxonomy>
 
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
+
+
          </classDecl>
 
-       <classDecl>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
-         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                     href="ParlaMint-taxonomy-NER.ana.xml"/>
-       </classDecl>
+
+
 
        <listPrefixDef>
           <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
@@ -406,7 +408,7 @@
 
 
        </listPrefixDef>
-       
+
 
       </encodingDesc>
 
