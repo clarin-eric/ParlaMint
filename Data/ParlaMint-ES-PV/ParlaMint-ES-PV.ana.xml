@@ -390,11 +390,29 @@
             </taxonomy>
 
          </classDecl>
+
+       <classDecl>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                     href="ParlaMint-taxonomy-NER.ana.xml"/>
+       </classDecl>
+
+       <listPrefixDef>
+          <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+             <p xml:lang="en"> Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+          </prefixDef>
+
+
+
+       </listPrefixDef>
+       
+
       </encodingDesc>
 
       <profileDesc>
          <settingDesc>
-            <setting>
+              <setting>
               <name type="org">Eusko Legebiltzarra</name>
                <name type="address">Becerro de Bengoa kalea</name>
                <name type="city">Vitoria-Gasteiz</name>
