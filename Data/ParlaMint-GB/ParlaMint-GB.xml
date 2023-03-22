@@ -3,7 +3,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Great Britain parliamentary corpus ParlaMint-GB [ParlaMint]</title>
+            <title type="main">Great Britain parliamentary corpus ParlaMint-GB [ParlaMint SAMPLE]</title>
             <title type="sub">Minutes of the House of Commons and the House of Lords, Daily Sessions</title>
             <meeting ana="#parla.upper #parla.lower #parla.term #PoGB.55"/>
             <meeting ana="#parla.upper #parla.lower #parla.term #PoGB.56"/>
@@ -20,7 +20,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="6" unit="speeches">6 speeches</measure>
             <measure quantity="3441" unit="words">3,441 words</measure>
          </extent>
@@ -37,7 +37,7 @@
                                 <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-03-21">March 21, 2023</date>
+            <date when="2023-03-22">2023-03-22</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -75,7 +75,7 @@
                <p>The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="2"/>
                <tagUsage gi="div" occurs="2"/>
@@ -5563,6 +5563,10 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-22">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-GB_2021-04-12-commons.xml"/>

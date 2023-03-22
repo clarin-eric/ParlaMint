@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Commons, 2021-04-12 [ParlaMint]</title>
+            <title type="main">Great Britain parliamentary corpus ParlaMint-GB, Commons, 2021-04-12 [ParlaMint SAMPLE]</title>
             <title type="sub">Minutes of the House of Commons, Daily Session 2021-04-12</title>
             <meeting corresp="#parliament.HC" ana="#parla.lower #parla.meeting.regular"/>
             <meeting n="58"
@@ -24,7 +24,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="3">3 speeches</measure>
             <measure unit="words" quantity="1942">1,942 words</measure>
          </extent>
@@ -39,7 +39,7 @@
                <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p>This work is also licensed under the <ref target="https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/">Open Parliament Licence v3.0</ref>.</p>
             </availability>
-            <date when="2023-03-21">March 21, 2023</date>
+            <date when="2023-03-22">2023-03-22</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -55,7 +55,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
          </projectDesc>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
@@ -78,6 +78,10 @@
             </setting>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-22">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <text ana="#covid">
       <body>
@@ -100,20 +104,9 @@
                <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg8">In March 2011, the Duke accompanied the Queen to Parliament for the diamond jubilee celebrations. I had the pleasure of introducing him to groups of Members waiting to greet him. I remember his interest in ties that Members were wearing, particularly if they showed a connection with the armed forces. He also had a special ability to put people at ease</seg>
                <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg9">As we reflect on a life well lived, we should not forget the wide-ranging achievements of Prince Philip: the ambassador, serviceman, scientist, artist, naturalist, committee chairman, traveller and loyal supporter of the United Kingdom, the overseas territories and the Commonwealth. But we should always remember him as a family man: a devoted husband, a father, a grandfather and a great-grandfather. He was, without doubt, the father of the nation. He will surely be missed and impossible to replace.</seg>
             </u>
-            <u xml:id="ParlaMint-GB_2021-04-12-commons.u3"
-               ana="#regular"
-               who="#AlexanderJohnson">
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg10">I beg to move, That an Humble Address be presented to Her Majesty expressing the deepest sympathies of this House on the death of His Royal Highness The Prince Philip, Duke of Edinburgh, and the heartfelt thanks of this House and this nation for his unfailing dedication to this Country and the Commonwealth exemplified in his distinguished service in the Royal Navy in the Second World War; his commitment to young people in setting up the Duke of Edinburgh’s Award, a scheme which has touched the lives of millions across the globe; his early, passionate commitment to the environment; and his unstinting support to Your Majesty throughout his life. It is fitting that on Saturday, His Royal Highness the Duke of Edinburgh will be conveyed to his final resting place in a Land Rover which Prince Philip designed himself, with a long wheelbase and capacious rear cabin, because that vehicle’s unique and idiosyncratic silhouette reminds the world that he was above all a practical man, who could take something very traditional, whether a machine or, indeed, a great national institution, and find a way, by his own ingenuity, to improve it, to adapt it for the 20th and 21st centuries</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg11">That gift for innovation was apparent from his earliest career in the Navy. When he served in the second world war, he was mentioned in dispatches for his “alertness and appreciation of the situation” during the battle of Cape Matapan, and he played a crucial role in helping to sink two enemy cruisers. But it was later, during the invasion of Sicily, that he was especially remembered by his crewmates for what he did to save their own ship. In a moment of high danger, at night, when HMS Wallace was vulnerable to being blown up by enemy planes, he improvised a floating decoy, complete with fires to make it look like a stricken British vessel, so that the Wallace was able to slip away and the enemy took out the decoy</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg12">He was there at Tokyo bay in 1945, barely 200 yards from the Japanese surrender on the deck of USS Missouri, but he was not content just to watch history through his binoculars. It seemed that he used the lull to get on with repainting the hull of HMS Whelp, and throughout his life—a life that was of necessity wrapped from such a young age in symbol and ceremony—one can see that same instinct to look for what was most useful and most practical and what would take things forward</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg13">He was one of the first people in this country to use a mobile phone. In the 1970s, he was driving an electric taxi on the streets of London—the forerunner of the modern low-carbon fleet—again, a vehicle of his own specifications. He was not content just to be a carriage driver. He played a large part in pioneering and codifying the sport of competitive carriage driving. If it is true that carriage driving is not a mass-participation sport—not yet—he had other novel ideas that touched the lives of millions, and developed their character and confidence, their teamwork and self-reliance</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg14">It was amazing and instructive to listen on Friday to the Cabinet’s tributes to the Duke and to hear how many Ministers were proud to say that they or their children had benefited from taking part in his Duke of Edinburgh Award schemes. I will leave it to the House to speculate on who claimed to have got a gold award, and who a bronze, but I believe that those Ministers spoke for millions around the world and across this country who felt that the Duke had in some way touched their lives—people whose work he supported in the course of an astonishing 22,219 public engagements; people he encouraged and people, yes, whom he amused. It is true that he occasionally drove a coach and horses through the finer points of diplomatic protocol, and he coined a new word—dontopedalogy—for the experience of putting your foot in your mouth. It is also true that, among his more parliamentary expressions, he commented adversely on the French concept of breakfast; he told a British student in Papua New Guinea that he was lucky not to be eaten, and the people of the Cayman Islands that they were descended from pirates; and he said that he would like to go to Russia except that, as he put it, “the bastards murdered half my family.” But the world did not hold it against him. On the contrary, they overwhelmingly understood that he was trying to break the ice, to get things moving and to get people laughing and forget their nerves. To this day, there is a community in the Pacific Islands that venerates Prince Philip as a god, or a volcano spirit—a conviction that was actually strengthened when a group came to London to have tea with him in person. When he spoke so feelingly about the problems of overpopulation, humanity’s relentless incursion on the natural world and the consequent destruction of habitat and species, he contrived to be at once politically incorrect and also ahead of his time</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg15">In a quite unparalleled career of advice, encouragement and support, he provided one particular service that I believe we in the House know in our hearts was the very greatest of all. In the constant love he gave to Her Majesty the Queen as her “liege man of life and limb”, in the words he spoke at the coronation, he sustained her throughout this extraordinary second Elizabethan age—now the longest reign of any monarch in our history. It was typical of him that, in wooing Her Majesty —famously not short of a jewel or two—he offered jewellery of his own design. He dispensed with the footmen in powdered wigs. He introduced television cameras, and at family picnics in Balmoral, he would barbecue the sausages on a large metal contraption that all Prime Ministers must have goggled at for decades, complete with rotisserie and compartments for the sauces, and that was, once again, a product of his own invention and creation</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg16">Indeed, as an advocate of skills, craft, science and technology, this country has had no royal champion to match him since Prince Albert, and I know that in due course, the House and the country will want to consider a suitable memorial to Prince Philip. It is with that same spirit of innovation that, as co-gerent of the royal family, he shaped and protected the monarchy through all the vicissitudes of the last seven decades and helped to modernise and continually to adapt an institution that is above politics, that incarnates our history and that is indisputably vital to the balance and happiness of our national life</seg>
-               <seg xml:id="ParlaMint-GB_2021-04-12-commons.seg17">By his tireless, unstinting service to the Queen, the Commonwealth, the armed forces, the environment, millions of young people and not so young people around the world and countless other causes, he gave us and gives us all a model of selflessness and of putting others before ourselves. Though I suspect that he might be embarrassed or even faintly exasperated to receive these tributes, he made this country a better place, and for that he will be remembered with gratitude and with fondness for generations to come.</seg>
-            </u>
-            <note>House adjourned.</note>
-            <note>End of debateSection.</note>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
          </div>
       </body>
    </text>
