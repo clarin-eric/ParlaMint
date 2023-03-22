@@ -153,26 +153,7 @@
             </namespace>
          </tagsDecl>
 
-         <appInfo corresp="#ParlaMint-ES-PV.ana">
-            <application ident="UDPipe" version="2">
-               <label>UDPipe 2 (basque-hdt-ud-2.10-220711 model)</label>
-               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with basque-hdt-ud-2.10-220711 model</desc>
-            </application>
-            <application ident="NameTag" version="2">
-               <label>NameTag 2 ...</label>
-               <desc>Name entity recognition done with....</desc>
-            </application>
-         </appInfo>
-         <appInfo corresp="#ParlaMint-ES-PV.ana">
-            <application ident="UDPipe" version="2">
-               <label>UDPipe 2 (spanish-hdt-ud-2.10-220711 model) </label>
-               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 </desc>
-            </application>
-            <application ident="NameTag" version="2">
-               <label>NameTag 2 ...)</label>
-               <desc>Name entity recognition done with .....</desc>
-            </application>
-         </appInfo>
+
 
 
          <classDecl>
@@ -395,22 +376,28 @@
                         href="ParlaMint-taxonomy-NER.ana.xml"/>
 
 
-         </classDecl>
+
+                                 </classDecl>
+                                 <listPrefixDef>
+                                    <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+                                       <p xml:lang="en"> Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+                                    </prefixDef>
 
 
 
+                                 </listPrefixDef>
+                                 <appInfo>
+                                    <application ident="UDPipe" version="2">
+                                       <label>UDPipe 2 (czech-pdt-ud-2.10-220711 model)</label>
+                                       <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with czech-pdt-ud-2.10-220711 model</desc>
+                                    </application>
+                                    <application ident="NameTag" version="2">
+                                       <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
+                                       <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with czech-cnec2.0-200831 model (<ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
+                                    </application>
+                                 </appInfo>
+                              </encodingDesc>
 
-       <listPrefixDef>
-          <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
-             <p xml:lang="en"> Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
-          </prefixDef>
-
-
-
-       </listPrefixDef>
-
-
-      </encodingDesc>
 
       <profileDesc>
          <settingDesc>
