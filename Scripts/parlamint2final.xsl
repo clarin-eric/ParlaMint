@@ -502,7 +502,7 @@
                                 ' '))"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+          <xsl:message select="concat('ERROR ', /tei:*/@xml:id, 
                                ': no count for measure ', @unit)"/>
         </xsl:otherwise>
       </xsl:choose>
