@@ -1,0 +1,902 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-RO_2018-03-05-id7900" xml:lang="ro" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ro">Corpus parlamentar român ParlaMint-RO, ședința Camerei Deputaților din 5 martie 2018 [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, March 5 2018 [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 5 martie 2018</title>
+        <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, March 5 2018</title>
+        <meeting n="20180305" corresp="#CD" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Definirea etapelor proiectului și elaborarea caietului de sarcini.</resp>
+          <resp xml:lang="en">Project set-up and methodology.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Colectare de date.</resp>
+          <resp xml:lang="en">Data retrieval.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <resp xml:lang="ro">Definirea etapelor de procesare.</resp>
+          <resp xml:lang="en">Defining data processing pipeline.</resp>
+          <resp xml:lang="ro">Implementarea procesului de procesare a datelor și codarea corpusului în format TEI.</resp>
+          <resp xml:lang="en">Data processing pipeline implementation, and encoding corpus in TEI format.</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="46" xml:lang="ro">46 discursuri</measure>
+        <measure unit="speeches" quantity="46" xml:lang="en">46 speeches</measure>
+        <measure unit="words" quantity="18781" xml:lang="ro">18781 cuvinte</measure>
+        <measure unit="words" quantity="18781" xml:lang="en">18781 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref></p>
+        </availability>
+        <date when="2021-01-08">2021-01-08</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="en">Meeting minutes of the Romanian Parliament</title>
+          <title type="main" xml:lang="ro">Stenograme ale şedinţelor din Parlamentul României</title>
+          <idno type="URI">http://www.cdep.ro/pls/steno/steno2015.stenograma?ids=7900&amp;idl=1</idno>
+          <date when="2018-03-05">05.03.2018</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="ro">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="head" occurs="2"/>
+          <tagUsage gi="note" occurs="55"/>
+          <tagUsage gi="u" occurs="46"/>
+          <tagUsage gi="seg" occurs="636"/>
+          <tagUsage gi="kinesic" occurs="0"/>
+          <tagUsage gi="desc" occurs="0"/>
+          <tagUsage gi="gap" occurs="0"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="city">Bucharest</name>
+          <name type="country" key="RO">Romania</name>
+          <date when="2018-03-05" ana="#parla.sitting">05.03.2018</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-01-23">
+        <name>Petru Rebeja</name>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <head>ROMÂNIA CAMERA DEPUTAȚILOR</head>
+        <head type="session">Ședinta Camerei Deputaților din 5 martie 2018</head>
+        <note type="editorial">SUMAR</note>
+        <note type="summary">Informare privind distribuirea unor documente la casetele deputaţilor, potrivit prevederilor art.94 din Regulamentul Camerei Deputaţilor.</note>
+        <note type="summary">Prezentarea şi dezbaterea moţiunii simple intitulate "Educaţi România, nu o psdizaţi!", iniţiate de parlamentari membri ai Grupului parlamentar al Partidului Naţional Liberal. (rămasă pentru votul final)</note>
+        <note type="summary">Primirea de răspunsuri la interpelările adresate membrilor Guvernului.</note>
+        <note type="summary">3.1 Corneliu Bichineţ</note>
+        <note type="editorial">Sedinta Camerei Deputatilor din 5 martie     2018</note>
+        <note type="time">Şedinţa a început la ora 16,07.</note>
+        <note type="chairman">Lucrările şedinţei au fost conduse de domnul deputat Florin Iordache, vicepreşedinte al Camerei Deputaţilor, asistat de domnul deputat Georgian Pop şi de domnul deputat Cristian-Gabriel Seidler, secretari ai Camerei Deputaţilor.</note>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u1">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg1">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg2">Vă rog să luaţi loc, să putem începe şedinţa de astăzi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg3">Bună ziua, stimaţi colegi!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg4">Declar deschisă şedinţa noastră de astăzi şi vă anunţ că, din totalul celor 329 de deputaţi, şi-au înregistrat prezenţa un număr de 219.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg5">La primul punct al ordinii de zi, în conformitate cu prevederile art. 94 din Regulamentul Camerei Deputaţilor, vă informez că au fost distribuite următoarele documente: ordinea de zi pentru şedinţele Camerei Deputaţilor din zilele de 5 şi 7 martie 2018; programul de lucru pentru perioada 5 - 10 martie 2018; lista rapoartelor depuse în perioada 28 februarie - 5 martie 2018; lista cu legile pentru care se poate exercita dreptul de sesizare a Curţii Constituţionale; informarea cu privire la iniţiativele legislative înregistrate la Camera Deputaţilor şi care urmează să fie avizate de comisiile permanente.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg6">În continuare, la punctul 2 al ordinii de zi, avem înscrisă moţiunea simplă, iniţiată de 67 de deputaţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg7">Întreb, potrivit art. 190 din Regulament, dacă vreunul dintre semnatari îşi retrage adeziunea la moţiune? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg8">Pentru dezbaterea moţiunii, Biroul permanent şi Comitetul liderilor grupurilor parlamentare vă propun următoarele: moţiunea simplă va fi citită de unul dintre semnatari; Guvernului i se rezervă 50 de minute, care vor fi utilizate de domnul ministru la începutul şi la încheierea dezbaterilor; pentru dezbateri - luându-se în calcul câte 10 secunde pentru fiecare deputat - timpul se prezintă astfel: Grupul PSD - 26 de minute, Grupul PNL - 11 minute, Grupul USR - 5 minute, Grupul UDMR - 4 minute, Grupul ALDE - 3 minute, Grupul PMP - 3 minute, tot 3 minute Grupul minorităţilor naţionale, două minute deputaţii neafiliaţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg9">Vă întreb dacă sunt obiecţii faţă de această procedură şi timpul stabilit? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg10">Vă rog să vă pregătiţi cartelele de vot, pentru a vota aceste propuneri prezentate. Sunt pregătite, da?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u1.seg11">Să înceapă votul.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u2">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u2.seg1">Rog liderii de grup să depună la secretarul de şedinţă, la domnul Georgian Pop, numele colegilor care vor fi înscrişi la dezbateri.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u2.seg2">Pentru început, dau cuvântul domnului deputat Pîrtea Marilen-Gabriel, pentru a da citire moţiunii simple.</seg>
+        </u>
+        <note type="speaker">Domnul Marilen-Gabriel Pirtea:</note>
+        <u ana="#regular" who="#Marilen-Gabriel-Pirtea" xml:id="ParlaMint-RO_2018-03-05-id7900.u3">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg1">Pirtea, domnule preşedinte de şedinţă!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg2">Domnule preşedinte de şedinţă,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg3">Stimaţi colegi deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg4">Domnule ministru Valentin Popa,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg5">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg6">Prezenta moţiune nu este despre lupta politică. Această moţiune nu este despre câtă putere şi susţinere are un partid în Parlament. Nu este nici măcar despre apariţiile în media a partidelor politice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg7">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg8">Această moţiune a venit ca răspuns la nepăsarea cu care este tratată şcoala românească.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg9">Există cel puţin două fapte care îi îngrijorează pe toţi angajaţii din educaţie, şi nu numai: întârzierile la plata salariilor şi lipsa banilor, care pot duce la demisii, comasări şi închideri de şcoli.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg10">De două luni de zile, salariile profesorilor întârzie la plată. Ştiţi foarte bine din ce cauză s-a întâmplat acest lucru - aţi descentralizat sistemul plăţii, prin mai multă centralizare; acum nu se mai pot da banii prin autorităţile locale, ci direct, prin minister.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg11">În luna ianuarie, profesorii au aşteptat salariile în data de 5, dar au venit după ziua de 15, iar luna trecută, din cauza încurcăturilor fiscale şi a blocării Programului contabil EduSal, lefurile au fost procesate iar după data de 15. Sunt categorii de profesori care vor aştepta banii şi după două săptămâni.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg12">Aţi umilit profesorii fără jenă! Le-aţi arătat "cine este jupânul"!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg13">În acelaşi timp, există mari suspiciuni că banii pentru plata salariilor se vor termina după primele nouă luni din an. Adică, din toamnă, plata salariilor va fi pusă în pericol. Am primit tot mai multe semnale de la cadrele didactice că, din acest motiv, în inspectorate se caută soluţii disperate de a reduce costurile în fiecare şcoală, prin comasări de clase, restructurări de posturi, generalizarea învăţământului simultan şi chiar desfiinţarea de şcoli.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg14">Stimaţi colegi de la PSD şi ALDE,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg15">Aţi promis că educaţia va fi o prioritate. O să vă demonstrăm că nu este aşa!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg16">Trebuie să înţelegeţi că, dacă doriţi să ajutăm România, într-un moment simbolic al naţiunii române - Anul Centenarului -, trebuie să-i oferim o şansă, prin educaţie. Soluţia nu este să reduci cheltuielile, ci să creşti finanţarea pentru şcoli şi să soliciţi calitate în actul educaţional.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg17">Astfel, trebuie să angajăm mai mulţi profesori, nu să comasaţi clase, în care să fie cuprinşi chiar şi 40 de elevi!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg18">Trebuie să desfiinţăm învăţământul simultan, nu să-l generalizaţi!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg19">Trebuie să angajăm şi să plătim mai bine paznicii şi personalul auxiliar nedidactic, pentru creşterea siguranţei în şcoli, nu să desfiinţaţi posturile acestora!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg20">Iată încă o dovadă că în România învăţământul nu este gratuit, aşa cum prevede Constituţia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg21">Comisia Europeană confirmă că în proporţie de 40% din cheltuielile cu educaţia, în România, sunt suportate din buzunarele părinţilor. Părinţii aduc de acasă aproape 15 miliarde de lei anual, timp în care statul alocă 3% din PIB pentru educaţie, bani insuficienţi pentru reparaţii, cretă, manuale, căldură sau transport.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg22">De altfel, chiar fostul ministru al educaţiei, domnul Liviu Pop, afirma - ştiţi replica-i celebră -"Statul asigură o parte de gratuitate, părinţii asigură cealaltă parte de gratuitate".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg23">Dar, ce facem cu copiii părinţilor fără resurse? Dar cu copiii fără părinţi, doamnelor şi domnilor, aflaţi, vremelnic, la guvernare?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg24">Să fim realişti! Am ajuns cu toţii la un moment în care nu mai avem voie să permitem continuarea acestei politici educaţionale, fără niciun viitor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg25">Dacă aveţi curiozitatea să vorbiţi cu oamenii din sistem, cu dascălii dedicaţi, nu cu cei care vânează posturi şi poziţii, veţi vedea că ei sunt dezamăgiţi nu de ministru, ci mult mai dezamăgiţi sunt de modul în care PSD-ul tratează şcoala românească.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg26">Primii vinovaţi, în ochii dascălilor, şi a societăţii, în ansamblu, sunt chiar cei pentru care aceste poziţii ministeriale sunt simple pătrăţele pe o tablă de şah. Pe aceste pătrăţele se plasează pioni, de regulă persoane fidele liderului suprem, dispuse să treacă peste orice linie roşie, pentru a-i face pe plac acestuia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg27">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg28">Este foarte clar, pentru tot românul, că PSD nu a respectat cerinţa legală de a aloca 6% din PIB pentru educaţie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg29">PSD se întreţine din taxele plătite de contribuabili, de români, susţinând funcţionarea a 28 de ministere, cu peste 130 de secretari de stat, dar şi a unei lungi liste de agenţii guvernamentale, practic cea mai stufoasă reţea de funcţionari publici, din cele 28 de ţări membre ale Uniunii Europene.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg30">Nu ne este frică să spunem: educaţia nu primeşte bani, pentru că acest portofoliu nu este atractiv pentru greii partidului, cei care se bat pe ministerele spre care se scurge cea mai mare parte a bugetului public.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg31">Iată prin ce se exprimă punctual caracteristicile critice ale stării educaţiei româneşti astăzi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg32">Analfabetismul şi absenteismul ridicat, dificultăţile de învăţare, motivaţia redusă pentru activităţile şcolare, sunt doar câţiva dintre factorii menţionaţi cu cea mai mare frecvenţă în documente şi studii educaţionale, invocate în analizele instituţiilor cu activitate specializată în acest domeniu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg33">Salarizarea total nestimulativă şi bătaia de joc la adresa cadrelor didactice pune adeseori presiune pe umerii acelor oameni care ar trebui să formeze caracterele viitorului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg34">În lipsa unei soluţii, unii apelează la meditaţii şi încearcă să se descurce cum pot, alţii, foarte mulţi, pleacă din sistem.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg35">Aşa se face că, în anul 2015, din 20.570 de candidaţi la titularizare, doar 7.649 au obţinut media 7. Aproape 5.400 din numărul total de candidaţi au obţinut note între 1 şi 4,99. Şi asta nu se întâmplă numai din cauza salariului mic, ci mai ales din cauza viziunii inexistente, dincolo de interesele meschine de partid, exprimate în politizarea conducerii şcolilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg36">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg37">Iată o altă problemă care va avea grave consecinţe pe termen mediu şi lung: "manualul unic, adoptat prin lege", pentru fiecare disciplină, evident, editat de o singură editură, de stat. Acesta va uniformiza actul didactic, va inhiba gândirea alternativă şi gândirea critică şi va aduce un manual slab din punct de vedere educaţional, iar preţul va fi stabilit din pixul ministrului. Un astfel de manual unic ne condamnă mai degrabă la închiderea minţii, decât la colaborare şi asigurarea unui viitor pentru români.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg38">Într-o lume globală, modernă şi dinamică, apelarea la sintagme de genul "aşa era pe vremea mea şi era bine", reflectă o gândire anacronică, retrogradă, dar mai ales neprofesionistă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg39">În locul introducerii unui manual unic, "osificat", "prăfuit" şi care uniformizează, PNL vă propune:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg40">licitaţii corecte şi organizate la timp, fără schimbarea condiţiilor peste noapte;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg41">o programă şcolară stabilă şi predictibilă în timp, iar în funcţie de specificul claselor, profesorii să aleagă manualul potrivit intereselor şi competenţelor elevilor;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg42">o evaluare, monitorizare şi un control al calităţii manualelor mult mai riguros şi o actualizare continuă a conţinutului acestora.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg43">Trebuie să păstrăm dreptul profesorilor de a alege manualul şi modul de predare. Profesorul trebuie să fie cel mai important în actul didactic, şi nu manualul.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg44">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg45">Ne pleacă profesorii, şi nu unul-doi, pleacă cu miile! Iar tinerii absolvenţi merituoşi de învăţământ superior nu se înghesuie să vină la catedră.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg46">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg47">Masteratul didactic va fi aplicat, sau veţi încălca şi dumneavoastră Legea educaţiei naţionale?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg48">Dacă nu veţi înţelege că o "şcoală de formare a profesorilor" este vitală pentru supravieţuirea învăţământului românesc, priviţi statisticile şi o să vedeţi dimensiunea dezastrului anunţat!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg49">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg50">În mandatul dumneavoastră se vor închide şcoli? Vor exista clase comasate în care să se înghesuie şi 40 de elevi? Veţi generaliza învăţământul simultan, pentru a reduce cheltuielile?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg51">Aşa cum vă cunosc eu, ca rector, nu veţi face asta. Rămâne de văzut, ca ministru, ce veţi face?!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg52">Să ştiţi că modificarea costului standard per elev a fost operată prin O.U.G. nr. 90/2017, ceea ce va duce la închiderea de şcoli şi presupune comasări pompieristice făcute din pix, sau, mai grav, din "şoaptele" partidului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg53">Nu toate şcolile se pot încadra în această finanţare. Ce veţi face cu multele şcoli din mediul rural, din sate izolate, care au câteva zeci de elevi? E clar că alocarea aceasta nu le poate asigura funcţionarea. Le desfiinţaţi?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg54">Şi dacă transportul elevilor în comune apropiate nu se poate asigura, din lipsă de microbuze sau din cauza terenului accidentat, ce se va întâmpla cu acei elevi? Îi abandonaţi? Le închideţi şi preferaţi să lăsaţi elevi neşcolarizaţi, deşi Constituţia României garantează dreptul la educaţie? Vă reamintesc că este vorba de aproape 1.000 de şcoli în această situaţie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg55">Toată această tărăşenie se traduce în pierderi de locuri de muncă, blocarea unor posturi în şcoli, pensionări forţate, comasări de clase, neplata sporurilor legale - o serie de cheltuieli decise fără nicio analiză riguroasă sau fără a avea o idee despre impactul acestor măsuri şi utilitatea lor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg56">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg57">Veţi continua procesul de centralizare şi politizare a sistemului educaţional?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg58">Sub guvernarea PSD, a devenit discutabilă inclusiv utilitatea inspectoratelor şcolare. Putem, cu siguranţă, discuta despre restructurarea tuturor inspectoratelor, pentru a pune în poziţii strategice oameni cu viziune, aptitudini şi cunoştinţe relevante. Ceea ce nu putem face însă, este să acceptam alba-neagra în inspectorate, să acceptăm ţinerea în şah a inspectorilor, sub ameninţarea cu schimbarea, dacă nu execută ordine şi directive de partid.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg59">În ce ţară civilizată aţi mai văzut să organizezi un concurs serios pentru inspectori şcolari generali, iar apoi să vină partidul şi să îi "decapiteze", să îi schimbe cu oameni fideli şefilor din partid, într-un dispreţ total faţă de tot ceea ce înseamnă competenţă şi meritocraţie?! După care vine un alt ministru, al aceluiaşi partid, sensibil la presiunea publică a PNL, şi schimbă schimbarea făcută de predecesorul său, sperăm nu doar pentru un exerciţiu de rotire şi fidelizare a cadrelor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg60">Managementul educaţional ar trebui să fie aşezat pe baze raţionale, impersonale, să curgă în mod coerent, organic dinspre minister înspre inspectorate şi, de aici, înspre directorii de unităţi şcolare, fără slugărnicia şi despotismul cu care acestea se desfăşoară în prezent.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg61">Realitatea ce transpare din rezultatele la testele internaţionale: România ocupă locul 48 din 72 ţări participante, iar rata şomajului în rândul tinerilor sub 25 de ani este peste 20%. Ce viitor vor avea aceşti tineri, într-o lume tot mai globalizată şi competitivă?!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg62">Un alt record - care nu ne face deloc cinste - este locul doi, în Uniunea Europeană, la obezitate infantilă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg63">În anul de graţie 2018, aniversarea a 100 de ani de România Mare ne găseşte încă sperând la un sistem educaţional care să ofere şanse egale pentru toată lumea, pentru viitorul nostru, al tuturor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg64">Peste 2.000 de şcoli au încă toaleta în curte, conform declaraţiei ministrului educaţiei, din ianuarie 2018. Tot acel ministru mai zicea că doar Programul de guvernare al PSD-ALDE poate rezolva această problemă, şi nu într-un cincinal, mult mai repede, în 3 ani. Revoltător!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg65">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg66">Iată care sunt rezultatele aplicării Programului de guvernare al PSD-ALDE asupra învăţământului preuniversitar românesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg67">Sistemul de învăţământ românesc este discriminatoriu, sărăcit şi, de multe ori, încremenit în metehnele trecutului şi profund dependent de politic. Copiii noştri nu sunt vinovaţi cu nimic şi nu merită să se irosească într-un sistem care, în loc să-i înveţe să zboare, le frânge aripile.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg68">Se vorbeşte despre nevoia de învăţământ profesional şi tehnic de calitate, dar atelierele şcolilor pun la dispoziţie elevilor instrumente de lucru utilizate acum câteva zeci de ani, ce nu mai au nicio legătură cu producţia modernă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg69">Noul Program de guvernare, propus de PSD-ALDE la începutul anului 2018, a eliminat măsura prin care Guvernul îşi propunea să sprijine, prin programe de calificare, tinerii ce nu au reuşit să promoveze examenul de bacalaureat. Astfel, sute de mii de tineri sunt lăsaţi să se descurce pe cont propriu, după ce şcoala a eşuat să le ofere acele competenţe fundamentale necesare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg70">PSD se pregăteşte să închidă din nou şcoli, dar, în schimb, a eliminat, din actualul Program de guvernare, măsura ce prevedea asigurarea de microbuze şcolare pentru transportul elevilor din comunităţile în care nu vor mai exista unităţi de învăţământ.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg71">Elevii cu cerinţe educaţionale speciale sunt, de asemenea, lăsaţi de izbelişte, în continuare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg72">Programul "Şcoală după şcoală", atât de necesar pentru mulţi elevi şi familiile lor, nu are nicio finanţare, funcţionând doar izolat, din banii părinţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg73">Rata de părăsire timpurie a şcolii este în creştere, România fiind departe de a-şi atinge ţintele pe care şi le-a propus, prin Strategia "Europa 2020".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg74">Planurile-cadru sunt învechite, iar orice încercare de schimbare se blochează în "a reforma, dar să nu se schimbe nimic", neştiind că această "revoluţie", pe care ne-o dorim, întârzie să apară.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg75">Ca şi când nu ar fi fost suficient, în 2018, Guvernul PSD pune sub semnul întrebării însăşi legalitatea examenului de bacalaureat. Explicaţiile publice ale celor răspunzători pentru organizarea acestui examen nu sunt convingătoare pentru întrebările legitime: "Se respectă sau nu Legea educaţiei? Se aplică art. 77 şi art. 78, în spiritul şi litera legii?".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg76">Nu există absolvenţi de liceu în luna februarie, doamnelor şi domnilor de la PSD!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg77">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg78">Ca să demonstrăm bune intenţii pentru dezvoltarea educaţiei şi să eliminăm tendinţele de subjugare a ei, în formă continuată, avem nevoie cel puţin de:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg79">o legislaţie coerentă şi predictibilă;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg80">să stopăm ordonanţele de urgenţă care schimbă peste noapte sistemul din temelii;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg81">punerea în practică a masteratului didactic;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg82">implicarea specialiştilor ce doresc să sprijine educaţia. Ministerul Educaţiei trebuie să fie unul deschis spre societate şi comunităţile locale;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg83">consolidarea învăţământului;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg84">reducerea abandonului. Nu putem lăsa pradă abandonului şcolar şi, în consecinţă, sărăciei peste 60% dintr-o generaţie;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg85">recunoaşterea competenţelor şi a experienţei, printr-un sistem de bonificaţie menit să încurajeze iniţiativa la nivelul de bază, respectiv prin salarizarea cadrelor didactice, la nivel competitiv cu alte domenii similare de pe piaţa muncii şi studii;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg86">descentralizarea reală a managementului şcolar. Să stopăm odată politizarea învăţământului!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg87">creşterea finanţării pentru educaţie şi cercetare;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg88">corectarea legislaţiei, în ceea ce priveşte examenul de bacalaureat, pentru a-i aduce în legalitate şi pe cei care sunt în acest proces, în anul 2018.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg89">Nu uitaţi, dragi colegi, că sunt mulţi copii români care au nevoie de şcoală în limba română şi care nu trăiesc în România! Unii dintre ei se află în această situaţie din conjuncturi istorice pe care le cunoaştem cu toţii, dar alţii datorită Guvernelor PSD, în diferitele lui avataruri. Oferiţi-le ceea ce Constituţia le garantează - învăţământ în limba română!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg90">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg91">În anul Centenarului Marii Uniri, discutăm despre educaţie, discutăm despre viitorul României!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg92">Dar educaţia începe astăzi! Este despre prezent, despre ceea ce facem azi pentru a avea un viitor mai bun. Un popor care astăzi se educă, mâine va inova, iar inovarea aduce progres, iar progresul va genera prosperitate, o viaţă mai bună pentru noi toţi, un viitor pentru copiii noştri, aici, în România.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg93">Stimate domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg94">Partidul nu poate "fi în toate". Dumneavoastră aţi depus un jurământ şi v-aţi asumat că veţi contribui la creşterea calităţii şcolii româneşti, v-aţi asumat respectarea Constituţiei României şi a Legii educaţiei naţionale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg95">Partidul Naţional Liberal vă solicită să aduceţi garanţii că:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg96">nu se vor închide şcoli;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg97">nu se vor comasa clase;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg98">nu se va generaliza învăţământul simultan;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg99">nu vor fi disponibilizări în sistem şi nu vor mai fi întârzieri la plata salariilor şi banii de salarii vor ajunge până la finalul anului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg100">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg101">Dacă aveţi cumva aceste probleme în circumscripţiile dumneavoastră, nu ezitaţi să daţi o bilă neagră ministerului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg102">Domnul Dragnea nu vă va lua fotoliile şi nici nu vă va închide cabinetele parlamentare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg103">Votaţi moţiunea, dacă vă respectaţi profesorii, dacă doriţi binele propriilor copii!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u3.seg104">Mulţumesc.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u4">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u4.seg1">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u4.seg2">În continuare, îl invit la tribună pe domnul ministru al învăţământului, domnul Valentin Popa.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u4.seg3">Vă rog, domnule ministru.</seg>
+        </u>
+        <note type="speaker">Domnul Valentin Popa (ministrul educaţiei naţionale):</note>
+        <u ana="#regular" who="#Valentin-Popa" xml:id="ParlaMint-RO_2018-03-05-id7900.u5">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg2">Doamnelor şi domnilor deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg3">Am citit atent moţiunea simplă, depusă în Camera Deputaţilor de grupul deputaţilor liberali.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg4">Am sperat că voi putea găsi o analiză realistă, pertinentă, cu privire la problemele învăţământului şi, eventual, şi câteva soluţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg5">Am fost surprins să citesc o moţiune simplistă, cuprinzând atacuri şi etichetări la adresa sistemului de învăţământ şi, desigur, la adresa conducerii acestuia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg6">Absenţa argumentelor analitice este suplinită prin violenţa de limbaj, una improprie educaţiei, şi prin politicianism.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg7">Ţinta autorilor moţiunii nu este soluţionarea problemelor din învăţământ, ci identificarea cu orice preţ a unor situaţii particulare, care generalizate pripit şi forţat să poată deveni reproşuri la adresa modului în care actuala guvernare, PSD-ALDE, abordează învăţământul. Această ţintă este exprimată prin chiar tendenţiosul titlu al moţiunii: "Educaţi România, nu o psdizaţi!".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg8">Autorii textului nu operează cu date şi informaţii verificate, ci doar cu supoziţii luate din vulgata antipesedistă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg9">Nu am văzut analize pertinente, ci doar acuzaţii la întâmplare, plecând de la aşa-zise semnale, culese din sistemul de învăţământ, până la speculaţii contradictorii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg10">Sursa tuturor aspectelor presupus negative ar fi, în concepţia autorilor moţiunii, Partidul Social Democrat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg11">După părerea mea, educaţia este chiar modul prin care putem depăşi nivelul cel mai de jos al retoricii politicianiste, propunând argumente valabile şi soluţii adecvate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg12">Să dăm, deci, la o parte speculaţiile politicianiste şi să inventariem împreună problemele reale ale învăţământului, asupra cărora trebuie să ne aplecăm.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg13">Autorii moţiunii afirmă că actuala conducere a Ministerului Educaţiei Naţionale este lipsită de viziune şi de specialişti.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg14">Înainte de toate, trebuie să vă spun că, în construcţia şi adoptarea politicilor din educaţie, Ministerul Educaţiei Naţionale pleacă de la valori naţionale şi europene şi urmăreşte ca beneficiarii săi să ajungă la excelenţă, creativitate şi cunoaştere, la competenţe şi abilităţi de dezvoltare personală şi antreprenorială, la spirit cetăţenesc şi incluziune socială, şi dezvoltare profesională.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg15">Ministerul Educaţiei Naţionale are în vedere:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg16">reducerea şi prevenirea abandonului timpuriu a şcolii, prin promovarea accesului egal la educaţie incluzivă şi de calitate;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg17">dezvoltarea învăţământului terţiar, capabil să impulsioneze dezvoltarea economică şi să promoveze coeziunea socială;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg18">dezvoltarea unui sistem de învăţământ profesional şi tehnic, adaptat la cerinţele pieţei muncii şi ale beneficiarilor direcţi ai educaţiei;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg19">încurajarea învăţării pe tot parcursul vieţii;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg20">valorificarea deplină a capitalului uman, în direcţia unei dezvoltări inteligente şi sustenabile;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg21">consolidarea capacităţii administrative;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg22">ascensiunea universităţilor româneşti în clasamentele internaţionale şi finanţarea excelenţei în instituţiile de învăţământ superior;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg23">susţinerea domeniilor strategice şi a domeniilor prioritare ale României.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg24">Politicile publice ale Ministerului Educaţiei Naţionale se concretizează în patru strategii sectoriale, elaborate şi validate de Comisia Europeană, şi în concordanţă cu Strategia "Europa 2020".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg25">Cele patru strategii abordează:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg26">Părăsirea timpurie a şcolii;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg27">Învăţământul terţiar;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg28">Învăţământul profesional şi tehnic;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg29">Şi 4. Formarea continuă, învăţarea pe tot parcursul vieţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg30">Este în curs de finalizare cea de-a cincea strategie sectorială privind modernizarea infrastructurii educaţionale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg31">Strategiile menţionate sunt complementare şi cuprind măsuri şi acţiuni care să asigure accesul egal şi participarea la educaţie, relevanţa competenţelor dobândite, precum şi eficienţa şi performanţa sistemului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg32">În ceea ce priveşte aşa-zisele experimente pe elevi, menţionăm că în actele normative s-au operat doar acele modificări necesare pentru corectarea disfuncţionalităţilor introduse de Legea educaţiei naţionale nr. 1/2011 sau pentru adaptarea acestor prevederi legale care nu corespundeau nevoilor reale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg33">De exemplu, introducerea învăţământului profesional şi tehnic cu durata de doi ani nu a fost în deplină concordanţă cu cerinţele angajatorilor, astfel încât a fost necesar să operăm mai multe modificări şi completări ale legii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg34">În acest sens, s-a mărit durata şcolii profesionale, de la doi ani, la trei ani, s-a introdus învăţământul dual, s-au stabilit tipurile de cheltuieli suportate de operatorii economici care finanţează învăţământul profesional, deductibile din veniturile acestora şi aşa mai departe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg35">Măsurile din Programul de guvernare PSD-ALDE, Capitolul "Educaţie", pe care le invocaţi ca nefiind realizate, au fost, probabil, numărate de către o distinsă colegă a dumneavoastră, semnatara prezentei moţiuni, celebră în felul în care a numărat voturile deputaţilor la Legea pensiilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg36">Evaluarea dumneavoastră ne arată, de fapt, că nu aţi citit cu atenţie Programul nostru de guvernare. Nu vă fac un reproş în acest sens! Nu sunteţi obligaţi să citiţi acel program, atât timp cât nu vă exprimaţi critic împotriva lui!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg37">Dar, dacă aţi decis să depuneţi o moţiune pe acest subiect, atunci, din respect pentru cei care v-au votat, ar fi trebuit să faceţi minimul efort de a citi cu atenţie ceea ce criticaţi. Este o chestiune care ţine de prestanţa dumneavoastră politică, dar şi intelectuală, pentru că este total neserios să critici ceea ce nu cunoşti, sau lucruri despre care ai doar o cunoaştere superficială.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg38">În fapt, în Programul de guvernare sunt prevăzute 53 de măsuri, a căror realizare necesită eforturi şi resurse importante - financiare, umane şi de timp - pentru a putea rezolva, măcar într-o anumită proporţie, problemele cronice ale sistemului de învăţământ românesc, acumulate ani în şir.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg39">Pentru corecta dumneavoastră informare, vă comunic că 45 de măsuri din Programul de guvernare sunt în curs de realizare, opt sunt îndeplinite, şi alte opt se realizează prin abordare integrată cu alte ministere.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg40">Autorii moţiunii afirmă că accesul la educaţie nu este o prioritate pentru PSD.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg41">Chiar este ridicol să afirmaţi aşa ceva, în condiţiile în care Ministerul Educaţiei Naţionale asigură accesul egal şi participarea şcolară, prin numeroase programe sociale pe care le derulează: "Rechizite şcolare", "Bani de liceu", "Euro 200", "Bursa profesională", "Decontarea transportului", Programul-pilot de acordare a unei mese calde, acordarea de burse, Programul pentru şcoli al României, în perioada 2007-2023, care include Programul de încurajare a consumului de fructe şi legume în şcoli şi Programul "Laptele şi cornul".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg42">Numai primele patru programe menţionate, finanţate din bugetul ministerului, însumează în total peste 240 de milioane de lei, celelalte programe fiind finanţate din bugetele locale. Unele se adresează doar elevilor defavorizaţi, altele îi cuprind pe toţi elevii din sistemul de învăţământ preuniversitar.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg43">În vederea suplimentării sumei alocate anual din bugetul naţional pentru rechizite şcolare, ministerul a semnat contractul de finanţare pentru Proiectul "Rechizite pentru preşcolari şi elevi", "Şanse egale la educaţie", finanţat prin Programul operaţional "Ajutorarea persoanelor defavorizate", cu un buget de peste 17 milioane de lei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg44">Având în vedere alocarea de la Comisia Europeană, prin acest program pentru educaţie, a sumei de 27 de milioane de euro, până în anul 2023, Ministerul Educaţiei Naţionale va depune anual câte o cerere de finanţare pentru rechizitele elevilor şi preşcolarilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg45">În aceste condiţii, stimaţi parlamentari ai Grupului PNL, cum puteţi afirma că accesul la şcoală nu este o prioritate pentru ministerul pe care-l conduc?!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg46">Nu cred că este deloc în avantajul dumneavoastră, dacă aş începe acum să fac o comparaţie cu ceea ce au făcut în această privinţă guvernele pe care le-aţi susţinut.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg47">Autorii moţiunii afirmă că sistemul de educaţie este politizat şi subfinanţat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg48">Concursul de ocupare a funcţiilor de directori şi directori-adjuncţi din unităţile de învăţământ preuniversitar, sesiunea iunie-august 2017, a fost organizat în baza metodologiei privind organizarea şi desfăşurarea concursului pentru ocuparea funcţiilor de directori şi directori adjuncţi din unităţile de învăţământ preuniversitar, aprobate prin Ordinul ministrului nr. 3.969 din 2017, după modificarea Legii educaţiei naţionale nr. 1 din 2011.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg49">Astfel, concursul pentru ocuparea funcţiilor de directori şi directori adjuncţi a căpătat caracter de concurs naţional, eliminând ingerinţele politice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg50">Prin noua metodologie, componenţa comisiilor de concurs şi contestaţii a fost diferită; s-au susţinut trei probe de concurs; grila de evaluare a fost foarte detaliată şi a permis o evaluare riguroasă şi obiectivă; la proba de interviu nu s-au admis diferenţe mai mari de un punct între membrii comisiei şi aşa mai departe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg51">În anul şcolar 2017-2018, în reţeaua naţională funcţionează un număr de 6.234 de unităţi de învăţământ preuniversitar, cu personalitate juridică.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg52">Astfel, din totalul de 8.632 de funcţii de conducere, directori, directori adjuncţi, sunt ocupate, prin concurs, 7.164 de funcţii. O astfel de legitimitate, a 83% din funcţiile de conducere ale unităţilor de învăţământ preuniversitar, asigură stabilitatea şi continuitatea activităţii manageriale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg53">Vă spun, sincer, că nu vă înţeleg!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg54">În guvernarea PDL am avut numeroase situaţii cu doi sau chiar trei directori pe acelaşi post, ca urmare a destituirilor abuzive operate de cei de atunci, în încercarea de a-şi impune favoriţii politici în aceste funcţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg55">Astfel, cum puteţi, chiar dumneavoastră, să acuzaţi politizarea sistemului de educaţie, în condiţiile în care, acum, peste 80% din funcţiile de conducere sunt ocupate prin concurs?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg56">Organizarea acestor concursuri, după opt ani în care n-au mai fost organizate, trebuie continuată şi poate fi îmbunătăţită. Din cele două sesiuni pentru organizarea concursurilor de directori, prima dintre ele a fost organizată în timpul guvernării tehnocrate şi cealaltă în timpul guvernării PSD.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg57">În prima sesiune de concurs, organizată în septembrie-decembrie 2016, 61% din totalul posturilor de directori şi directori adjuncţi au fost ocupate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg58">Deci, despre ce fel de politizare putem vorbi sau despre ce politizare este vorba, atât timp cât concursurile pentru ocuparea funcţiilor de conducere, îndrumare şi control din inspectoratele şcolare se desfăşoară în baza metodologiilor elaborate în baza Legii educaţiei din 2011 şi aprobate tot în anul 2011, adică în timpul guvernării liberale, de culoare portocalie?!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg59">Vă reamintesc că despre concursurile pentru inspectori şcolari generali şi inspectori şcolari, desfăşurate în perioada 2015-2017, aţi vorbit numai de bine, ele desfăşurându-se cu respectarea aceleiaşi metodologii menţionate mai sus.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg60">Deci, care este problema reală care vă deranjează? Dacă aceste concursuri au fost bune în timpul guvernării Cioloş, ele nu mai sunt bune în timpul guvernării PSD-ALDE?!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg61">Atunci când vorbiţi despre "Decizii care s-au dovedit greşite şi profund dăunătoare şcolii, ca întreg", daţi câteva exemple care - spuneţi tot dumneavoastră - "au marcat ultimii 28 de ani". Citez: "Concursurile pentru ocuparea posturilor de directori şi inspectori şcolari au fost viciate şi politizate".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg62">Să înţelegem că, în perioada 2006-2008, concursurile de inspectori şcolari generali şi inspectori şcolari, organizate de dumneavoastră, doamnelor şi domnilor liberali, au fost viciate şi politizate?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg63">Autorii moţiunii afirmă că Ministerul Educaţiei Naţionale nu asigură bugetul necesar educaţiei şi că întârzie plata salariilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg64">Bugetul Ministerului Educaţiei Naţionale, pentru plata salariilor, asigură fondurile necesare până la sfârşitul anului 2018. Plata salariilor, prin Ministerul Educaţiei Naţionale, inspectorate, unităţi de învăţământ, a fost făcută la solicitarea directă a reprezentanţilor beneficiarilor, federaţiile sindicale reprezentative din învăţământ.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg65">Aşadar, dacă aveţi ceva de obiectat în această privinţă, vă rog să vă adresaţi acestor federaţii sindicale, care ne-au făcut această propunere, pe care noi am luat-o în considerare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg66">Data de plată a salariilor pentru Ministerul Educaţiei Naţionale şi pentru toate unităţile de învăţământ şi unităţile din subordine sau coordonare este stabilită la nivel naţional pentru ziua de 14 a fiecărei luni.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg67">În luna februarie, salariile au fost plătite la termen, mai puţin în Municipiul Bucureşti, unde, din cauza volumului mare de lucru, au fost întârzieri de una-două zile, la unele unităţi de învăţământ.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg68">În niciun caz profesorii nu au fost umiliţi! Umiliţi au fost atunci când li s-au tăiat salariile, şi aşa foarte mici, cu 25%, de către guvernarea portocalie, astăzi integrată pe deplin în PNL.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg69">Referitor la analfabetism, Ministerul Educaţiei Naţionale implementează Strategia privind reducerea părăsirii timpurii a şcolii, care cuprinde măsuri de prevenire, intervenţie şi compensare, înscrise în planurile de acţiuni anuale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg70">Principalele programe şi măsuri propuse, pentru a atinge obiectivele acestei strategii, sunt grupate în patru piloni strategici: asigurarea accesului la educaţie şi la o educaţie de calitate pentru toţi copiii; asigurarea finalizării învăţământului obligatoriu de către toţi copiii; reintegrarea în sistemul de educaţie a persoanelor care au părăsit timpuriu şcoala şi dezvoltarea sprijinului instituţional adecvat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg71">Ministerul Educaţiei Naţionale este preocupat de accesul şi participarea la educaţie a principalelor grupuri educaţionale vulnerabile, şi anume: populaţia din mediul rural şi din zonele defavorizate socio-economic, populaţia de etnie romă, copii cu nevoi speciale de educaţie, alte grupuri vulnerabile.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg72">Pe lângă cadrul legislativ, care garantează dreptul la educaţie, ministerul a elaborat şi implementează planuri naţionale şi strategii de incluziune socială şi a pus în aplicare programe de intervenţie destinate diverselor grupuri ţintă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg73">De asemenea, se va finaliza Proiectul "Strategie de educaţie parentală" şi analiza din cadrul Proiectului "Sistem de avertizare timpurie pentru reducerea părăsirii timpurii a şcolii".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg74">În urma punerii în aplicare a noilor programe, cadrele didactice participă la cursuri de formare, pentru abordarea unor metode noi de predare-învăţare-evaluare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg75">Vor fi consolidate standardele de învăţare, pentru a încuraja modificări, în viziunea profesorului, privind actul de predare, în vederea combaterii analfabetismului şi dificultăţilor de învăţare ale elevilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg76">În acelaşi scop, se urmăreşte îmbunătăţirea programelor de tip "a doua şansă", astfel încât acestea să fie accesibile şi cursanţilor adulţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg77">Fondurile europene structurale şi de investiţii finanţează dezvoltarea profesională continuă, în scopul formării profesorilor, pentru a preda noile programe de învăţământ, bazate pe crearea de competenţe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg78">Referitor la profesori, care ar fi slab pregătiţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg79">Îmi prezint scuze, în numele dumneavoastră, stimate doamne şi stimaţi domni parlamentari ai PNL, faţă de corpul profesoral al acestei ţări, pe care l-aţi jignit, scriind că majoritatea cadrelor didactice sunt analfabete şi au dificultăţi de învăţare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg80">Vă amintesc că media minimă pentru obţinerea definitivatului în învăţământ este 8. La formarea iniţială a profesorilor contribuie atât unităţile de învăţământ preuniversitar, cât şi instituţiile de învăţământ superior.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg81">Este greu de crezut că sistemul nostru de învăţământ pregăteşte majoritar absolvenţi slab pregătiţi, analfabeţi, aşa cum îi numiţi dumneavoastră!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg82">Pentru a înlătura posibilitatea ocupării unui post didactic de către profesori slab pregătiţi, legislaţia secundară privind organizarea concursului de ocupare a posturilor didactice şi a catedrelor vacante a fost modificată; aceasta prezenta unele dezavantaje.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg83">De exemplu, fie existau centre de concurs la care nu se înscriau suficienţi candidaţi pentru toate posturile, fie existau centre de concurs la care se înscriau prea mulţi candidaţi, raportat la numărul de posturi existente, iar, în plus, nu se realiza o evaluare unitară a tuturor candidaţilor care participau la concurs.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg84">Actuala organizare, prin concurs naţional, organizat prin Inspectoratul Şcolar, conduce la eliminarea dezavantajelor prezentate, asigurând o evaluare unitară a tuturor candidaţilor care participă la concurs, egalitate de şanse, participare şi promovare, candidaţii având acces la toate posturile vacante rezervate, existente la nivel judeţean sau naţional, în ordinea descrescătoare a mediilor obţinute la concurs.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg85">Pentru formarea continuă a cadrelor didactice, în vederea creşterii calităţii educaţiei, Ministerul Educaţiei Naţionale implementează Proiectul "Curriculum relevant, educaţie deschisă pentru toţi", cu un buget de peste 196 de milioane de lei, finanţat din fondurile europene.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg86">Prin intermediul activităţilor incluse, se are în vedere creşterea relevanţei educaţiei în şcolile aflate în zone cu populaţie vulnerabilă, ţinta fiind reducerea ratei de părăsire timpurie a învăţământului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg87">Proiectul are în vedere un grup ţintă de cel puţin 2.500 de elevi. În cadrul proiectului se va realiza abilitarea curriculară a peste 55.000 de cadre didactice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg88">Autorii moţiunii afirmă că introducerea manualului unic va avea consecinţe grave.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg89">Anul trecut, pentru manualele de clasa a V-a, din totalul de 120 de titluri, editurile particulare au depus oferte doar pentru 26 dintre acestea.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg90">Procesul de dezvoltare al noului curriculum naţional este un exemplu de măsură care a avut continuitate, indiferent cine a condus ministerul. Nu întâmplător, întârzierile din anii trecuţi, cu manualele şcolare, au apărut chiar la prima generaţie, care a aplicat noul curriculum, dată fiind complexitatea acestui proces de schimbare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg91">Referitor la propunerile pentru evitarea - citez - "...introducerii unui manual osificat, prăfuit şi care uniformizează", precizăm următoarele:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg92">- Procedurile pentru achiziţionarea manualelor şcolare s-au derulat cu respectarea strictă a legislaţiei specifice, în vigoare, în prezenţa observatorilor din cadrul Agenţiei Naţionale pentru Achiziţii Publice;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg93">- Proiectele de manuale şcolare sunt supuse unui proces de evaluare a calităţii ştiinţifice;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg94">- Numărul de evaluatori a crescut de la trei, la patru, dintre care unul este specialist extern în domeniul ştiinţelor educaţiei, iar proiectele de manuale şcolare care vor obţine peste 85 de puncte din 100, la evaluarea calităţii, vor fi supuse unui proces de avizare ştiinţifică, realizată de către un specialist extern, cadru didactic din învăţământul superior.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg95">Aşa cum este deja anunţat pe pagina web a Editurii Didactice şi Pedagogice şi pe cea a Centrului Naţional de Evaluare şi Examinare, drepturile de autor vor fi preluate pentru cele mai bune trei manuscrise, acolo unde vor exista suficiente manuscrise, care obţin, în urma evaluării, peste 85 de puncte.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg96">Cadrele didactice vor putea, astfel, să aleagă, pentru a fi tipărite, oricare din cele trei manuale. Deci nu poate fi, aşadar, vorba, în această procedură, de manualul unic. Iar faptul că nu cunoaşteţi toate aceste aspecte şi vă lansaţi în speculaţii politice, după zvonurile apărute în spaţiul public, ridică un mare semn de întrebare asupra seriozităţii celor care au redactat această moţiune.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg97">Referitor la şcolile care ar fi fost închise.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg98">Trebuie să avem în vedere că reţeaua şcolară evoluează odată cu populaţia şcolară, de aceea, aceasta trebuie analizată, ca atare - legislativ, demografic, geografic, socioeconomic.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg99">Dacă ne uităm la evoluţia reţelei şcolare, în ultimii opt ani, observăm că în anul şcolar 2011-2012 s-a înregistrat o scădere a numărului de unităţi şcolare, cu 2.127 de unităţi, comparativ cu anul şcolar precedent, 2010-2011. Această scădere este înregistrată - să nu uităm - în perioada guvernării dumneavoastră!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg100">Pe de altă parte, în anii şcolari 2014-2015 şi 2015-2016 s-a înregistrat o creştere a numărului acestor unităţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg101">În anul şcolar prezent, 2017-2018, numărul de unităţi care nu au şcolarizat este de 159, iar pentru anul şcolar următor, 2018-2019, se estimează că doar 121 de unităţi nu vor şcolariza din lipsă de elevi, sau din cauza numărului prea mic de elevi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg102">Stimaţi semnatari ai moţiunii,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg103">Iată, aşadar, că, de fapt, sunt 38 de şcoli care se reactivează în următorul an şcolar, comparativ cu cel în curs. De fapt, redeschidem şcoli, nu închidem şcoli!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg104">Acolo unde copiii învaţă în afara localităţii de domiciliu, aceştia beneficiază de profesori calificaţi, de o bază materială mai bună şi învaţă în clase compacte, care le oferă o mai bună calitate a educaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg105">Pentru aceşti elevi, care se deplasează în altă localitate, în anul 2015 s-a completat parcul auto cu microbuze şcolare, care se înlocuiesc treptat, în funcţie de uzura acestora.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg106">O unitate şcolară se închide dacă nu mai are niciun elev sau dacă are un număr mic de preşcolari sau elevi, cărora, în acord cu Consiliul Local, în această situaţie li se va asigura transportul la o şcoală apropiată. Aceste modificări sunt, în primul rând, rezultatul procesului de reorganizare, iniţiat de autorităţile publice locale, împuternicite, prin lege, să asigure reţeaua şcolară, cu avizul conform al inspectoratelor şcolare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg107">Subliniez că unităţile de învăţământ în care, într-un anumit an şcolar, nu s-a organizat activitate didactică îşi pot relua activitatea în anii şcolari următori, în baza unei analize şi utilizând criteriile menţionate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg108">În anul şcolar 2018-2019, conform proiectelor planurilor de şcolarizare, înaintate de către inspectoratele şcolare, învăţământul simultan va înregistra o creştere de doar 0,03%, faţă de anul şcolar în curs.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg109">Aţi uitat, doamnelor şi domnilor parlamentari din opoziţie, că există zone izolate, în care elevii trebuie să aibă şansa de a învăţa? Învăţământul simultan le oferă această şansă!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg110">Ca atare, ministerul nu generalizează învăţământul simultan, ci ia în considerare studii recente, inclusiv cele realizate de Institutul de Ştiinţe ale Educaţiei, în parteneriat cu UNICEF, care arată că este posibilă şi devine o prioritate formarea adecvată a profesorilor, pentru a proiecta ocazii relevante de învăţare, ce valorifică specificul acestor clase de elevi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg111">Referitor la costul standard per elev.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg112">Afirmaţia că O.U.G. nr. 90 din 2017 a dus la modificarea costului standard per elev preşcolar este neadevărată, deoarece în art. 39 alin. (1) se prevede că: "Prin derogare de la prevederile art. 104 alin. (2) din Legea educaţiei naţionale, începând cu anul 2018, din bugetul de stat, prin bugetul Ministerului Educaţiei Naţionale, se asigură, pentru unităţile de învăţământ preuniversitar de stat, finanţarea cheltuielilor cu salariile, sporurile, indemnizaţiile şi alte drepturi salariale, în bani, stabilite prin lege, inclusiv plata sumelor prevăzute prin hotărâri judecătoreşti".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg113">Încă din anul 2011 finanţarea per elev a fost reglementată prin Legea educaţiei naţionale nr. 1 din 2011, cu modificările şi completările ulterioare, conform art. 104 alin. (2).</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg114">În anul 2013 s-a realizat o metodologie de calcul pentru determinarea costului standard per elev preşcolar.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg115">În anul 2018, Consiliul Naţional pentru Finanţarea Învăţământului Preuniversitar a propus majorarea costului standard şi, prin Hotărârea Guvernului nr. 30 din 2018, s-a aprobat majorarea coeficientului 1, de la 3.740 lei per elev sau preşcolar, la 4.413 lei per elev sau preşcolar.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg116">Deci nu ştiu cine v-a dezinformat că scade costul standard per elev, când, de fapt, el creşte cu aproape 18%?!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg117">În fapt, costul standard per elev este folosit doar pentru plata salariilor personalului din învăţământul preuniversitar. Costul standard diferă foarte mult, în funcţie de mediul urban/rural, profil sau filieră, fiind cuprins între 2.926 lei şi 13.840 lei, în cazul elevilor din categoria: profil muzică, liceu, minorităţi. La acestea se adaugă o sumă cuprinsă între 290 lei şi 471 lei per elev sau preşcolar, reprezentând cheltuieli cu bunuri şi servicii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg118">Foarte important de ştiut este faptul că din bugetul învăţământului se va cheltui în anul 2018 o sumă medie de aproximativ 6.650 lei per elev sau preşcolar, sumă ce include, pe lângă cheltuielile cu salariile, cu bunurile şi serviciile, cheltuieli cu bursele elevilor, naveta elevilor, manuale, rechizite, cheltuieli operaţionale, cămine, cantine, cluburi sportive şcolare şi palatele copiilor, activităţi extraşcolare şi alte costuri operaţionale. Este cea mai mare sumă pe care a cheltuit-o un Guvern al României vreodată per elev sau preşcolar!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg119">Referitor la utilitatea inspectoratelor şcolare şi la aşa-zisa lor politizare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg120">Utilitatea şi mai ales funcţionalitatea inspectoratelor şcolare nu ţin doar de o persoană, chiar dacă este vorba de funcţia ce mai înaltă 
+a instituţiei, o dinamică a schimbărilor la nivelul conducerii inspectoratelor şcolare a existat şi în perioadele anterioare guvernării PSD, iar un concurs asigură un mandat de patru ani, doar în condiţiile unui management de calitate şi ale respectării prevederilor contractuale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg121">Funcţionalitatea inspectoratelor şcolare, în termeni de calitate şi eficienţă, este şi va fi preocuparea şi datoria noastră. A fost şi argumentul schimbărilor menţionate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg122">Mai mult decât atât, monitorizarea şi evaluarea periodică a activităţii inspectorilor şcolari generali nu sunt măsuri inventate de PSD sau pentru a susţine sau nu o persoană sau alta, ci sunt o necesitate, tocmai pentru asigurarea unui management coerent, fără sincope şi fără disfuncţionalităţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg123">Nu înţelegem cum este şcoala ruptă de comunitate, atât timp cât în consiliile de administraţie ale unităţilor de învăţământ se află şi reprezentanţi ai comunităţilor locale, aceştia constituind liantul între şcoală şi comunitate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg124">Referitor la digitalizarea educaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg125">Vă aduc la cunoştinţă, stimaţi semnatari ai moţiunii, că a fost deja introdusă disciplina "Tehnologia Informaţiei şi Comunicaţiilor", inclusiv "Programare", în trunchiul comun al studiilor de gimnaziu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg126">Astăzi, la ora la care dezbatem această moţiune, peste 90.000 de elevi studiază la profilul de matematică-informatică.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg127">În noiembrie 2017 a avut loc primul act de asumare oficială, la nivel de minister, pentru susţinerea resurselor educaţionale deschise.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg128">Inspectoratele centralizează aceste resurse educaţionale deschise, care apoi vor fi puse la dispoziţie în spaţiul virtual, urmând să fie şi centralizate în Platforma Naţională pentru Educaţie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg129">Ministerul Educaţiei Naţionale şi-a asumat dezvoltarea sistemului de evaluare online la examenele naţionale, iar acest lucru va fi inclus în sistemul integrat de management al şcolarităţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg130">Cele "2.000 de şcoli, 2.418 unităţi", la care se referă moţiunea, sunt, de fapt, clădiri, structuri aflate în sate în care nu există canalizare. Sunt peste 1.000 de comune care încă nu au canalizare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg131">Din păcate, din totalul de aproape 3 milioane de elevi şi preşcolari, 3% studiază în şcoli care au toaleta în curte. An de an, ministerul, prin inspectoratele şcolare, monitorizează şi face demersuri, pe lângă autorităţile locale, în vederea rezolvării acestor situaţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg132">Iar dacă nu aţi aflat încă, vă informez că, aşa cum a anunţat şi doamna prim-ministru, până în anul 2020 nu va mai exista nicio unitate şcolară cu toaleta în curte. Vom asigura apă, canalizare şi toalete moderne în toate şcolile din România.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg133">Referitor la rezultatele obţinute de elevii români la Programul pentru Evaluarea Internaţională a Elevilor - PISA, România, alături de Portugalia, a înregistrat cea mai bună creştere a performanţelor, raportată la prima administrare, cea din anul 2001. Rezultatele de la testarea PISA, din anul 2015, arată că, prin raportare la administrările anterioare, din anii 2012, 2009 şi 2006, România se poziţionează pe un trend uşor crescător.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg134">Aceste rezultate reflectă nivelul de competenţă atins de elevii cu vârsta de 15 ani, iar responsabilitatea este a tuturor celor care au însoţit procesul de formare a copiilor, încă de la vârsta preşcolară.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg135">România a fost printre puţinele ţări care au înregistrat un progres, aşa cum subliniază şi Raportul OECD 2017, însă este nevoie de efortul conjugat al tuturor factorilor de decizie, atât la nivel naţional, cât şi la nivel local, pentru a face din reducerea analfabetismului funcţional o prioritate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg136">Referitor la construirea a 2.500 de creşe şi de grădiniţe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg137">Prin Programul Naţional de Dezvoltare Locală se finanţează lucrări de investiţii la unităţile de învăţământ preuniversitar de stat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg138">În cele două etape ale programului au fost incluse un număr de 3.386 de unităţi de învăţământ preuniversitar de stat, printre care şi creşe şi grădiniţe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg139">Prin POR, Axele prioritare 4 şi 10, se depun proiecte pentru construcţia, reabilitarea, modernizarea, extinderea, echiparea infrastructurii educaţionale antepreşcolare şi preşcolare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg140">Totodată, ministerul, prin Proiectul "Reforma educaţiei timpurii", urmăreşte construirea a 380 de grădiniţe noi şi dotarea cu mobilier a acestora. Deja 177 de grădiniţe sunt executate. Valoarea lor depăşeşte 37 de milioane de euro.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg141">Referitor la copiii cu cerinţe educaţionale speciale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg142">Şcolarizarea şi integrarea copiilor cu CES în unităţile de învăţământ de masă constituie o preocupare permanentă a Ministerului Educaţiei Naţionale, dovadă fiind şi creşterea, de la an la an, a numărului de copii integraţi în învăţământul de masă, comparativ cu numărul copiilor şcolarizaţi în unităţi de învăţământ special.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg143">Integrarea presupune dezvoltarea de competenţe educaţionale în aceste unităţi şcolare. Copiii beneficiază atât de servicii calificate din partea profesorului de sprijin sau a celui itinerant, cât şi de terapii specifice, acordate de profesorii psihopedagogi din centrele de resurse.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg144">Din anul şcolar 2017-2018, copiii cu cerinţe educaţionale speciale, integraţi în sistemul de învăţământ preuniversitar, beneficiază de rechizite şi alocaţie zilnică de hrană, precum şi de alte drepturi specifice sistemului de protecţie a copilului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg145">Referitor la Programul "Şcoală după şcoală".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg146">În cadrul unui proiect POCA, beneficiar fiind Secretariatul General al Guvernului, Ministerul Educaţiei Naţionale elaborează Regulamentul privind organizarea şi desfăşurarea programelor de tip "Şcoală după şcoală", după ce a inventariat intervenţiile de acest tip, derulate la nivel naţional, şi a revizuit metodologia de organizare a acestui program.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg147">Apelul de proiecte "Şcoala pentru toţi", cu finanţare din POCU, este în curs de contractare, 133 de proiecte fiind deja finanţate, cu o valoare totală de peste 173 de milioane de euro.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg148">După perioada de implementare a proiectelor, ministerul va studia oportunitatea finanţării Programului "Şcoală după şcoală" din resurse bugetare naţionale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg149">Referitor la existenţa unor planuri-cadru învechite.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg150">Acest proces a acoperit conduceri diferite, fiind iniţiat în anul 2012.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg151">Atât pentru învăţământul primar, cât şi pentru cel gimnazial, în premieră, planurile-cadru au fost elaborate în urma unor ample procese de consultare şi de validare, din partea principalelor organizaţii sindicale, universităţi, Academie şi alte părţi interesate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg152">În ceea ce priveşte legalitatea programului de bacalaureat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg153">Începând cu anul 2011 şi până în prezent, examenul de bacalaureat naţional se organizează în baza aceleiaşi metodologii - cea aprobată în anul 2011 - şi în baza Ordinului ministrului educaţiei din 2010.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg154">Anual, prin ordin de ministru, s-a aprobat calendarul examenului de bacalaureat pentru anul şcolar respectiv, s-au făcut precizări cu privire la programele de bacalaureat, în concordanţă cu actualizarea acestora, precum şi cu privire la aspectele organizatorice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg155">Elementele de bază în organizarea şi desfăşurarea examenului de bacalaureat au rămas neschimbate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg156">Probele de evaluare a competenţelor lingvistice şi digitale prevăzute la art. 77 alin. (4) din Legea educaţiei naţionale, cu modificările şi completările ulterioare, din cadrul primei sesiuni de bacalaureat naţional a anului 2018, s-au desfăşurat în luna februarie, în acord cu prevederile art. 78 alin. (7) din Legea educaţiei, potrivit cărora, citez - "Evaluările a), b), c) şi d) prevăzute la art. 77 alin. (4) se organizează şi se desfăşoară la nivelul unităţii de învăţământ, în timpul anului şcolar, pe parcursul semestrului al doilea".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg157">În baza dispoziţiilor art. 78 alin. (3) din Legea educaţiei, precum şi a prevederilor art. 78-81 din Metodologia privind organizarea şi desfăşurarea examenului de bacalaureat, valabilă şi pentru anul 2018, conform prevederilor Ordinului ministrului nr. 4792 din 2017 privind organizarea şi desfăşurarea examenului de bacalaureat naţional în acest an, certificatele care atestă nivelul de competenţă lingvistică în comunicare orală în limba română, în comunicare orală în limba maternă, de competenţă lingvistică într-o limbă de circulaţie internaţională şi nivelul competenţelor digitale, însoţite de suplimentele descriptive, se eliberează doar absolvenţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg158">Potrivit metodologiei menţionate, după încheierea cursurilor claselor terminale, comisia de bacalaureat din unitatea de învăţământ actualizează tabelele de înscriere, prin eliminarea candidaţilor corigenţi, repetenţi, cu situaţia neîncheiată, exmatriculaţi, care nu vor participa la probele scrise ale sesiunii iunie-iulie 2018, de bacalaureat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg159">Acestor candidaţi nu li se vor elibera certificatele de competenţă pentru probele susţinute, decât după ce vor dobândi statutul de absolvenţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg160">Totodată, în formularul-tip al cererii de înscriere, anexă la o procedură privind înscrierea la examenul de bacalaureat naţional 2018, s-a avut în vedere că dreptul de participare la probele scrise ale sesiunii de bacalaureat îl au doar absolvenţii claselor terminale. Certificatele de competenţă se eliberează doar absolvenţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg161">În mod similar s-a procedat şi în anii trecuţi, când înscrierea s-a efectuat tot în timpul semestrului al doilea.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg162">Referitor la consolidarea învăţământului profesional şi tehnic.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg163">Ministerul Educaţiei Naţionale promovează învăţământul profesional, inclusiv învăţământul dual.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg164">Dezvoltarea învăţământului profesional şi tehnic în perioada 2016-2020 are la bază Strategia educaţiei şi formării profesionale 2016-2020, aprobată prin Hotărârea Guvernului nr. 317 din 2016.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg165">Ca formă a învăţământului profesional, învăţământul dual pentru nivelul 3 de calificare este organizat la iniţiativa operatorilor economici interesaţi, în calitate de potenţiali angajatori şi parteneri de practică.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg166">În prezentul an şcolar sunt înscrişi în învăţământul dual un număr de aproximativ 2.500 de elevi, cuprinşi în 106 clase, într-un număr de 68 de unităţi de învăţământ, pentru care s-au încheiat un număr de 227 de contracte de parteneriat cu operatorii economici şi cu autorităţile locale. În clasa a IX-a sunt înscrişi, la învăţământul profesional, aproximativ 30.500 de elevi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg167">A fost lansat apelul "Stagii de practică pentru elevi şi studenţi, în sectorul agroalimentar, industrie şi servicii", prin care se vor finanţa 89 de proiecte în valoare de aproape 90 de milioane de euro.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg168">Doamnelor şi domnilor parlamentari,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg169">În pofida modului superficial în care a fost redactată Moţiunea simplă adresată Ministerului Educaţiei Naţionale, eu consider că un astfel de demers politic este legitim.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg170">Aveţi, fără îndoială, dreptul de a ridica întrebări, de a critica activitatea ministerului. În ce măsură aceste critici sunt întemeiate sau nu, asta va decide opinia publică.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg171">Acuzaţiile nesusţinute şi observaţiile superficiale din moţiunea dumneavoastră poate că nu sunt sesizate de cei din afara sistemului de educaţie. Dar vă asigur că dascălii şi cei care sunt interesaţi de evoluţiile din acest domeniu le sesizează cu uşurinţă. Dar asta este problema dumneavoastră.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg172">Eu cred însă că, dincolo de aceste neajunsuri ale moţiunii simple, un astfel de demers politic trebuie să aibă şi o latură constructivă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u5.seg173">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u6">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u6.seg1">Şi eu vă mulţumesc, domnule ministru.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u6.seg2">Începem dezbaterile.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u6.seg3">În continuare, o invit din partea Grupului PSD, pe doamna deputat Huncă Mihaela.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u6.seg4">Vă rog, doamnă deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Mihaela Huncă:</note>
+        <u ana="#regular" who="#Mihaela-Hunca" xml:id="ParlaMint-RO_2018-03-05-id7900.u7">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg2">Stimate colege,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg3">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg4">Stimaţi invitaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg5">Permiteţi-mi, mai întâi, să-mi exprim o nedumerire. Cu tot respectul pentru PNL, vă spun că nu am înţeles deloc raţiunea politică de a înainta o astfel de moţiune pe educaţie, exact în momentul în care au intrat în vigoare unele dintre cele mai consistente majorări de salarii pe care le-au primit cadrele didactice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg6">La fel aţi făcut şi cu moţiunea împotriva Ministerului Muncii, exact atunci când creşteau salariile bugetarilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg7">Pe această logică, ne aşteptăm să depuneţi o moţiune pe Legea pensiilor, chiar de 1 iulie, când va creşte din nou punctul de pensie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg8">Vreau să vă spun că am citit cu mare atenţie Moţiunea simplă a Grupului PNL, adresată Ministerului Educaţiei Naţionale, şi am constatat că în listă - în lista de susţinere - se află 10 semnături care, din punct de vedere moral, nu ar fi trebuit să se afle pe acest document.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg9">Sunt 10 semnatari care s-au aflat în această sală, în anul 2010, şi au susţinut, prin votul şi atitudinea lor politică, tăierea cu 25% a salariilor personalului din învăţământ, decisă în timpul guvernării Boc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg10">Mai grav decât atât mi se pare faptul că una dintre aceste semnături aparţine chiar liderului Grupului PNL, care deschide lista semnatarilor moţiunii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg11">Mie îmi vine greu să înţeleg această piruetă politică.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg12">Îmi vine greu să înţeleg cum cei 10 PDL-işti care au votat pentru tăierea salariilor profesorilor vin astăzi să reproşeze unui Guvern PSD, care tocmai a majorat salariile dascălilor cu 20%, că, citez - "Salarizarea total nestimulativă şi bătaia de joc la adresa cadrelor didactice pun adeseori presiune pe umerii acelor oameni care ar trebui să formeze caracterele viitorului".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg13">Dar cât de stimulativă era salarizarea profesorilor, stimaţi colegi liberali, foşti PDL-işti, când aţi tăiat cu 25% salariile deja foarte mici ale celor pe care îi deplângeţi astăzi?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg14">Să ştiţi că ce aţi făcut atunci, când aţi tăiat salariile cu 25%, tuturor bugetarilor, şi implicit tuturor cadrelor didactice, nu se uită, chiar dacă v-aţi schimbat sigla de partid.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg15">Vă spun eu care este realitatea. Salariile din educaţie sunt încă departe de nivelul profesorilor din Uniunea Europeană.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg16">Dar vă reamintesc, totodată, că un Guvern PSD a dat înapoi ceea ce aţi tăiat dumneavoastră. Şi tot PSD a majorat semnificativ aceste salarii, după venirea sa la guvernare, după alegerile din 2016.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg17">Vă informez, stimaţi deputaţi, foşti PDL-işti, care aţi semnat moţiunea, că, din momentul preluării guvernării de coaliţia PSD-ALDE, salariile cadrelor didactice au crescut, pe net, cu 44%. Este vorba de majorarea de 15% din ianuarie 2017, la care PNL s-a opus, în Parlament; de majorarea de 4,3% de la începutul acestui an şi de majorarea de 20%, care tocmai a intrat în vigoare, în urmă cu câteva zile, la 1 martie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg18">Stimaţi colegi liberali, foşti PDL-işti,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg19">Mai este un aspect din moţiune care mi-a atras atenţia în mod deosebit. Citez: "Există suspiciuni că banii pentru plata salariilor se vor termina după primele 9 luni".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg20">De ce m-a surprins această afirmaţie?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg21">Dincolo de faptul că este o minciună şi o dezinformare grosolană, m-a surprins asemănarea acestei afirmaţii cu o altă declaraţie venită din partea PNL, în luna septembrie, anul trecut. Citez: "Pensiile care sunt promise acum multor oameni şi care, din nefericire, nu pot fi susţinute, se pare, dincolo de luna noiembrie...". Declaraţia îi aparţine doamnei deputat Raluca Turcan, liderul Grupului PNL din Camera Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg22">Aşadar, ce avem comun în aceste două declaraţii?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg23">În primul rând, speculaţia. În septembrie, PNL spunea că "se pare că nu vor mai fi bani de pensii"; iar acum, în martie, PNL spune că "există suspiciuni că nu vor mai fi bani de salarii pentru dascăli".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg24">Care este realitatea de fapt?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg25">Pensiile au crescut şi vor continua să crească. CASS a fost eliminat pentru toate pensiile şi sunt scutite de impozit pensiile sub 2.000 de lei. La fel, cu salariile profesorilor. Am arătat că tocmai au crescut cu 20% pe net, de la 1 martie, şi cu 44%, tot pe net, de la începutul acestei guvernări.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg26">Este absolut jenant ca un partid istoric - aşa cum spuneţi că este PNL - să se joace cu astfel de dezinformări şi să se facă atât de rău de râs în faţa realităţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg27">Altă chestiune din moţiune, care se încadrează în categoria "Dacă tăceai, filozof rămâneai!".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg28">Spuneţi că PSD a politizat sistemul de educaţie din România. Tocmai dumneavoastră spuneţi acest lucru! Tocmai dumneavoastră, stimaţi foşti PDL-işti, care, atunci când aţi fost la guvernare, aţi dat afară, abuziv, mii de directori de şcoală şi inspectori şcolari, pentru a-i înlocui cu "pilele" de partid.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg29">Am ajuns atunci în situaţia absolut jenantă să avem doi directori pe acelaşi post, cel de la PDL şi cel care luase postul prin concurs şi care şi-a recâştigat funcţia în instanţa de judecată.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg30">Eu eram inspector şcolar în acea vreme şi ştiu bine ce s-a întâmplat. Guvernarea PDL mi-a desfăcut abuziv contractul de management pentru postul pe care îl câştigasem prin concurs. Am câştigat în instanţă, un an mai târziu. Iar ca mine au fost mii de cadre didactice, cu diverse funcţii câştigate prin concurs.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg31">Este de-a dreptul revoltător ca dumneavoastră, doamnă Raluca Turcan, dumneavoastră, doamnă Roberta Anastase, ca dumneavoastră, domnule Cezar Preda, dumneavoastră, domnule Gheorghe Tinel, şi toţi ceilalţi foşti PDL-işti de atunci, să ne vorbiţi nouă de politizarea sistemului de educaţie!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg32">Şi mai revoltător este că o faceţi tocmai acum, când sistemul de educaţie a ajuns la un grad de depolitizare, când peste 83% dintre funcţiile de conducere din şcoli şi din inspectorate au fost ocupate prin concurs.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg33">Nu voi intra acum în toate acuzaţiile hazardate din moţiune. Vreau doar să vă arăt cum vă contraziceţi singuri, chiar în textul moţiunii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg34">În aceeaşi pagină, în două paragrafe consecutive, faceţi următoarele două afirmaţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg35">Pe de o parte, spuneţi că manualul unic este un dezastru şi că îngrijorează familiile şi întregul sistem de învăţământ, iar pe de altă parte, un paragraf mai jos, spuneţi că în ultimii 5 ani nu a existat toamnă în care elevii să înceapă şcoala cu toate manualele pe bancă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg36">Trec peste faptul că în ultimii 5 ani am avut şi un ministru al educaţiei susţinut chiar de dumneavoastră, Grupul PNL, ministrul din Guvernul Cioloş.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg37">Ceea ce cred însă că este semnificativ aici este faptul că admiteţi chiar dumneavoastră că modul în care sunt realizate manualele în actualul sistem este total deficitar. Dar în acelaşi timp ne spuneţi că nu este bine să-l schimbăm.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg38">Deci este rău acum, dar să nu se schimbe nimic. Aceasta e propunerea dumneavoastră.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg39">Nu mai intru în detalii. Vreau să subliniez doar două lucruri în legătură cu manualele şcolare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg40">În primul rând, vă informez că vor fi de fapt 3 manuale, pentru care se vor cumpăra drepturile de autor. Deci nu au un manual unic, ci 3 manuale, iar profesorii vor avea libertatea să aleagă între cele mai bune dintre acestea.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg41">În al doilea rând, aşa cum aţi spus şi dumneavoastră, în textul moţiunii, de la început lucrurile nu au funcţionat bine în ceea ce priveşte actualul sistem de editare al manualelor. Deci nu este o problemă care ţine de un guvern anume, ci de sistemul însuşi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg42">În aceste condiţii, ecuaţia este foarte simplă. Dacă în septembrie elevii vor începe şcoala cu toate manualele pe bănci, atunci înseamnă că decizia Guvernului a fost cea corectă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg43">Iar eu sunt convinsă că aşa se va întâmpla!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u7.seg44">Vă mulţumesc.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u8">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u8.seg1">Şi eu vă mulţumesc, doamnă deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u8.seg2">În continuare, din partea Grupului PNL, doamna deputat Florica Cherecheş.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u8.seg3">Vă rog, doamnă deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Florica Cherecheş:</note>
+        <u ana="#regular" who="#Florica-Chereches" xml:id="ParlaMint-RO_2018-03-05-id7900.u9">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg1">Stimate domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg3">Stimate domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg4">Învăţământul nu a fost într-un impas mai mare ca anul acesta. Şi când spun aceasta nu fac o declaraţie politică, ci o constatare tristă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg5">Şcoala, în foarte multe situaţii, a încetat să mai fie o instituţie care formează caractere şi care creează profesionişti. În loc să fie corelată cu cerinţele pieţei muncii, să aibă o finalitate concretă, şcoala devine adesea o risipă de bani şi resurse umane, o iluzie frumoasă servită tinerei generaţii, care se va transforma, la finalul studiilor, într-o cruntă dezamăgire.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg6">Tot mai mulţi tineri aleg în mod conştient să nu-şi continue studiile, deoarece diploma de absolvire nu le certifică nişte competenţe şi cunoştinţe, ci doar faptul că s-au plimbat printr-o şcoală.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg7">Dumneavoastră, prin politicile PSD, impuse în ultimii 20 de ani, cât aţi avut sub gestiune acest minister, aţi transformat o parte din diplome în simple cartoane colorate. Păcat!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg8">Toţi miniştrii aflaţi temporar la conducerea acestui minister au ales să ignore apelul disperat al agenţilor economici, care au semnalat mereu că nu găsesc meseriaşi şi tehnicieni pe care să-i angajeze.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg9">Astăzi România caută forţă de muncă în Vietnam, Filipine, Nepal sau Sri Lanka. Astăzi am pierdut singurul atu pe care îl aveam acum 10 ani - forţa de muncă bine calificată.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg10">În tot acest timp, rata abandonului şcolar ne situează pe un loc fruntaş în Europa. Din păcate, mulţi abandonează nu doar şcoala, dar şi ţara, pentru că avem peste 3,4 milioane de români plecaţi la muncă în străinătate sau stabiliţi definitiv acolo, cu tot cu familii, ceea ce plasează România pe a doua poziţie într-un top mondial al migraţiei, după Siria, ţară măcinată de un război civil.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg11">O forţă de muncă calificată înseamnă produse de înaltă calitate, salarii mai mari pentru angajaţi, o colectare mai ridicată a taxelor şi impozitelor, şi duce la dezvoltarea comunităţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg12">Realitatea însă este una catastrofală. Avem comunităţi întregi care supravieţuiesc cu ajutoare sociale, angajatori disperaţi, în căutare de forţă de muncă calificată, şi comunităţi îmbătrânite.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg13">Am căutat cu mare interes, în Programul de guvernare, să descopăr puţină preocupare pentru dezvoltarea învăţământului profesional şi tehnic, pentru că, la nivel declarativ, toţi liderii partidului au spus că este foarte important. Am găsit doar câteva enunţuri generale, lozinci, nimic concret, nicio ţintă asumată, nicio alocare bugetară.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg14">Rezultatele la evaluările naţionale din ultimii ani indică probleme referitoare la calitatea scăzută a educaţiei în învăţământul gimnazial, orientarea profesională aproape inexistentă a elevilor din gimnaziu şi slaba pregătire a elevilor care urmează învăţământul profesional, susţinută de o lipsă de motivare a parcurgerii acestei rute.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg15">Nu ştiu ce este statul paralel pe care îl tot invocaţi în ultima vreme, dar îmi închipui că este acea lume minunată în care dumneavoastră trăiţi, ignorând realitatea, desconsiderând şi alungând din ţară întreprinzătorii, care trebuie să facă faţă sutelor de modificări ale Codului fiscal şi care aleargă înnebuniţi după meseriaşi, pentru că vor să producă şi să vă trimită bani la buget.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg16">De 5 ani, de când sunt în Comisia pentru învăţământ, am tot insistat să faceţi ceva pentru dezvoltarea învăţământului profesional. Dar, din păcate, întrebările, audierile, declaraţiile, amendamentele sau iniţiativele legislative depuse s-au lovit de acelaşi zid al indiferenţei şi al nepăsării.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg17">Suntem în situaţia incredibilă de a vorbi elogios despre învăţământul profesional dual, dar blocaţi orice iniţiativă legislativă în acest sens.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg18">Avem Ordonanţa nr. 94 din 2014, care de 3 ani zace fără suflare în sertarul Comisiei pentru învăţământ din Senat. Tot acolo este şi Ordonanţa nr. 81 din 2016.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg19">Anul 2017, declarat "Anul învăţământului profesional şi tehnic", a strălucit prin absenţa oricăror evenimente care să promoveze acest tip de învăţământ. Ba mai mult, ştiţi că elevii din învăţământul profesional şi tehnic nu au şi nu au avut niciodată manuale pentru modulele de specialitate?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg20">Iată de ce, domnule ministru, este nevoie să oferiţi trasee educaţionale flexibile, evaluări vocaţionale, şi să luaţi urgent măsuri pentru promovarea şi dezvoltarea învăţământului profesional şi tehnic în România. Vă dăm şi soluţii. Iată-le!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg21">Promovaţi învăţământul profesional şi tehnic prin caravane ale meseriilor, mai ales în mediul rural;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg22">Alocaţi resurse pentru a creşte masiv capacitatea de a oferi elevilor de gimnaziu consiliere pentru orientarea în carieră;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg23">Realizaţi corelarea necesarului de forţă de muncă pe judeţe, cu specializările din şcolile profesionale;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg24">Creşteţi masiv cifra de şcolarizare în învăţământul profesional atât de afectat de dezastrul produs de desfiinţarea de către ministrul Ecaterina Andronescu a şcolilor profesionale, în 2009. Aveam atunci 115.000 de elevi cuprinşi în această formă de învăţământ, iar după 3 ani, la reînfiinţare, doar puţin peste 12.000. Iar acum spuneţi că avem 30.000 în clasa a IX-a. Mult sub cererea reală;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg25">Sprijiniţi încheierea de parteneriate între unităţile şcolare şi agenţii economici şi stimulaţi agenţii economici parteneri prin facilităţi fiscale;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg26">Majoraţi finanţarea învăţământului profesional şi tehnic, a costului standard pentru aceşti elevi;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg27">Susţineţi internatele cu cazare şi masă gratuită pentru elevii din învăţământul dual;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg28">Investiţi în pregătirea profesională continuă a cadrelor didactice care predau în acest tip de învăţământ.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg29">Nu aţi realizat mare lucru din Programul de guvernare, dar aţi reuşit pe deplin să ne dovediţi lipsa totală de acţiune şi viziune în ceea ce priveşte educaţia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u9.seg30">Pentru asta, românii nu vă vor ierta. Iar generaţiile viitoare nici atât.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u10">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u10.seg1">Mulţumesc, doamnă deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u10.seg2">În continuare, dau cuvântul doamnei deputat Cristina Iurişniţi, Grupul USR.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u10.seg3">Aveţi 5 minute, doamnă deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Cristina-Ionela Iurişniţi:</note>
+        <u ana="#regular" who="#Cristina-Ionela-Iurisniti" xml:id="ParlaMint-RO_2018-03-05-id7900.u11">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg2">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg3">Stimaţi colegi deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg4">După mai bine de un an de când coaliţia de guvernare PSD-ALDE a preluat puterea, sistemul educaţional din România este în continuare Cenuşăreasa de serviciu a societăţii, subfinanţarea sistemului fiind cronică, prin continua nerespectare a legii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg5">După mai bine de un an de guvernare haotică, cu schimbări intempestive, decizii nefondate, strategii lipsite de orice predictibilitate pe termen mediu şi lung, pentru a consolida un sistem care se află la baza tuturor societăţilor prospere şi avansate, învăţământul românesc se află într-o continuă stare de asediu, date fiind politicile iresponsabile, ilegale şi extrem de periculoase pentru dimensiunea europeană a şcolii româneşti.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg6">În acelaşi timp, niciunul dintre cei trei miniştri care s-au succedat, în cele 14 luni, la conducerea Ministerului Educaţiei, nu a reuşit să pună în aplicare Programul de guvernare şi să prezinte un plan de acţiune coerent, eficient şi predictibil pentru mandatul pe care şi l-a asumat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg7">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg8">Dacă privim retrospectiv, pentru că trebuie să privim retrospectiv, nu ce veţi face de-acum înainte, actul de guvernare întreprins în domeniul educaţiei, vom observa o profundă lipsă de viziune, acţiuni întreprinse doar de dragul acţiunii şi, cel mai grav, o încălcare constantă a principiilor legalităţii, transparenţei şi al interesului superior al copilului, şi mai ales o îndepărtare de la valorile democratice europene, fundamentale consolidării statului de drept din România.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg9">Vorbind despre transparenţă, vă reamintesc că aţi început mandatul, domnule ministru, prin susţinerea plagiatului. Nu vă mai amintesc acel mesaj celebru pe care l-aţi dat, despre legea care nu prevede exact unde se pun ghilimelele. Şi printr-o manipulare politică - o listă de susţinători pentru învestirea dumneavoastră ca ministru, unii rectori negând faptul că şi-au exprimat susţinerea, ulterior.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg10">În acest sens, aduc atenţiei dumneavoastră un singur exemplu. "Nu l-am susţinut şi nu-l voi susţine pe domnul Popa. Dacă vor continua aşa, va fi un dezastru. În direcţia aia ne îndreptăm cu tot ce face PSD. N-am semnat şi nici nu se punea problema să o fac. Eu nu-l susţin pe domnul Popa" - a declarat Ioan-Aurel Pop, rectorul Universităţii Babeş-Bolyai pentru "Adevărul".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg11">În continuare, voi face o scurtă diagnoză, enumerând doar câteva dintre ultimele măsuri care au agravat criza din învăţământ, care suferă de peste 20 de ani de prea multe schimbări dictate de interese politice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg12">Legea manualului şi editura unică. În ultimul an, domnule ministru, atât dumneavoastră, cât şi colegii dumneavoastră aţi atacat constant principiul concurenţei şi al pieţei libere a editurilor din România, prin impunerea abuzivă a unei legi a manualului, care nu face altceva decât să releve incompetenţa şi lipsa capacităţii Ministerului Educaţiei de a avea un calendar finalizat cu cel puţin un an înainte de a organiza licitaţii eficiente, transparente şi corecte.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg13">Aţi încercat să induceţi opinia publică în eroare, prin utilizarea sintagmei "mafia manualelor", blamând editurile şi atacând piaţa concurenţială.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg14">Dar de ce nu le spuneţi cetăţenilor de bună-credinţă că aproape 90% din contestaţiile făcute de edituri, cauzele întârzierii manualelor pe băncile şcolii, au fost soluţionate de Consiliul Naţional de Soluţionare a Contestaţiilor, în favoarea editurilor?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg15">Mizaţi pe înfiinţarea societăţii pe acţiuni a Editurii Didactice şi Pedagogice, însă Legea manualului, care a intrat deja în circuit la Camera Deputaţilor, nu are alt scop decât să monopolizeze informaţia, alterând calitatea actului educaţional, prin uniformizare şi imposibilitatea oferirii unei palete largi de manuale, raportate la specificul şi nivelul de dezvoltare cognitiv şi psiho-emoţional al elevilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg16">Într-adevăr, săptămâna trecută a apărut pe site-ul Ministerului un mesaj prin care se prevedea că vor fi trei variante la manual. Acest lucru l-am susţinut printr-o declaraţie politică, la începutul lunii octombrie, şi, în întâlnirea pe care am avut-o, prin prezenţa directoarei Editurii Didactice şi Pedagogice, s-a agreat această flexibilitate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg17">Deci vă felicit măcar pentru un minim pas de flexibilitate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg18">Dar vă întreb, în continuare: cum se va reuşi să se editeze 255 de titluri, să se tipărească 4,3 milioane de manuale necesare în sistem, de o singură editură care deţine doar 5% din piaţa manualelor?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg19">Este evident că în septembrie copiii de clasa a VI-a nu vor avea manualele pe bănci. Şi va urma Compendiul nr. 2.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg20">Uniunea Editorilor Europeni a tras un semnal de alarmă, încă de anul trecut, printr-un mesaj de delimitare şi condamnare a acestei iniţiative abuzive.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg21">În Comisia pentru învăţământ, USR a votat împotriva înfiinţării editurii unice.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg22">Comasarea unităţilor de învăţământ. În sistem, profesorii susţin că urmează să comasaţi un număr de şcoli din România, pe motivul nesustenabilităţii financiare. Aţi explicat deja motivele.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg23">Ceea ce este cu adevărat grav este că nu aţi reuşit nici până astăzi să veniţi cu un răspuns la întrebarea: ce vom face cu elevii care nu vor mai avea pe raza localităţii lor o unitate şcolară? Cum se va asigura legalitatea acestei măsuri, în contextul în care Constituţia, la art. 32, vorbeşte despre accesul neîngrădit la educaţie, al copiilor?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u11.seg24">Educaţia este un drept al fiecărui copil, domnule ministru...</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u12">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u12.seg1">Concluzionaţi, doamnă deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Cristina-Ionela Iurişniţi:</note>
+        <u ana="#regular" who="#Cristina-Ionela-Iurisniti" xml:id="ParlaMint-RO_2018-03-05-id7900.u13">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u13.seg1">... nu o afacere pe care dumneavoastră s-o puteţi evalua ca fiind profitabilă sau nu.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u14">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u14.seg1">Concluzionaţi, v-am rugat.</seg>
+        </u>
+        <note type="speaker">Doamna Cristina-Ionela Iurişniţi:</note>
+        <u ana="#regular" who="#Cristina-Ionela-Iurisniti" xml:id="ParlaMint-RO_2018-03-05-id7900.u15">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u15.seg1">Bacalaureatul ilegal - o premieră naţională în România. Ştim foarte bine că în perioada 12-22 februarie s-au derulat probele de competenţe lingvistice şi digitale. Fără o bază legală.(Vociferări.)Nu în baza acelui ordin de ministru, ci ar fi trebuit în baza art. 77 şi 78. Pentru că ştim foarte bine, nu avem de-a face cu absolvenţi, ci sunt nişte elevi care nu au situaţia şcolară încheiată.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u16">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u16.seg1">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Doamna Cristina-Ionela Iurişniţi:</note>
+        <u ana="#regular" who="#Cristina-Ionela-Iurisniti" xml:id="ParlaMint-RO_2018-03-05-id7900.u17">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg1">Doresc totuşi să prezint concluzia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg2">În concluzie, soluţia pe care USR o propune este aceasta. Clientelismul politic nu are ce căuta în sistemul de învăţământ. Educaţia nu trebuie să aibă culoare politică. Nu totul trebuie să fie unic şi controlat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg3">USR vă cere să asiguraţi de urgenţă următoarele:</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg4">infrastructură şcolară care să respecte normele sanitare şi de siguranţă pentru copiii noştri;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg5">profesori competenţi şi responsabili, prin formare iniţială şi continuă de calitate;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg6">educaţie pentru sănătate şi reproducere în şcoli. Suntem primii în Europa, cu peste 9.200 de mame minore;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg7">digitalizarea actului educaţional şi susţinerea învăţării a cel puţin două limbi străine, în planurile-cadru pentru liceu;</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u17.seg8">şi, în ultimul rând, corelarea imperios necesară a sistemului cu realităţile socio-economice impuse de globalizarea şi informatizarea pieţei muncii...</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u18">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u18.seg1">Vă mulţumesc, doamnă deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Cristina-Ionela Iurişniţi:</note>
+        <u ana="#regular" who="#Cristina-Ionela-Iurisniti" xml:id="ParlaMint-RO_2018-03-05-id7900.u19">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u19.seg1">... secolului XXI.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u19.seg2">Vrem să avem o ţară educată şi europeană din care să nu ne mai dorim să emigrăm.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u19.seg3">Mulţumesc.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u20">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u20.seg1">Şi eu vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u20.seg2">Dar chiar nu ne putem încadra în timp?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u20.seg3">Domnul deputat Szabó Ödön, vă rog. Aveţi 4 minute, domnule deputat.</seg>
+        </u>
+        <note type="speaker">Domnul Szabó Ödön:</note>
+        <u ana="#regular" who="#Odon-Szabo" xml:id="ParlaMint-RO_2018-03-05-id7900.u21">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg1">Stimate domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg2">Stimate domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg3">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg4">Daţi-mi voie să spun că o discuţie, o dezbatere despre învăţământ este bine-venită. Nu cred că ea trebuie, în schimb, să realizeze o polemică doar politică. Dintr-un motiv foarte simplu, pentru că, într-adevăr, sunt probleme în învăţământ, dar aceste probleme nu au fost create doar în ultimii ani, doar în ultimul an, şi, cu atât mai mult, nu în ultima lună, de când domnul ministru deţine această funcţie. Deci problemele nu sunt de o lună, ca să realizăm un asemenea repertoriu de probleme pe care să le punem în cârca unui singur om.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg5">Cu toate acestea, trebuie să spun că sunt câteva chestiuni pe care aş dori să vi le aduc în faţă şi care pot fi rezolvate destul de uşor, nu neapărat toate la nivelul modificării legislaţiei, dintr-un motiv foarte simplu. O problemă enormă este că întotdeauna încercăm să schimbăm legislaţia. Niciodată nu am lăsat să existe cel puţin un ciclu sau două cicluri electorale în care să nu ne atingem de o lege a educaţiei naţionale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg6">Nici Legea nr. 1 nu şi-a produs efectele până în momentul de faţă, cu toate articolele care au fost adoptate. Sunt măsuri care au fost suspendate, sunt măsuri care nu au fost aplicate niciodată şi sunt măsuri care, deşi sunt în vigoare, sau anumite aspecte sunt în vigoare, nici măcar acum nu sunt puse în aplicare.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg7">Să vă dau doar un singur exemplu. De al treilea an consecutiv realizăm bugetarea Centrului pentru perfecţionare continuă în limbile minorităţilor. Bugetul există, dar nu este pusă în aplicare această măsură prevăzută încă din 2011 în lege.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg8">Dar hai să vă dau două sau trei probleme pe care eu cred că împreună putem să le rezolvăm.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg9">Costul standard. Nu putem să spunem că acest cost standard este acoperitor, şi acoperă întreaga gamă de probleme, şi este diversificat, atâta timp cât...</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg10">Să vă dau doar două exemple. Costul standard per elev într-un colegiu naţional, la Satu Mare, Colegiul "Kölcsey Ferenc", unde sunt peste 1.000 de copii, nu acoperă decât în proporţie de 80% sau 90% cheltuielile. Dintr-un motiv foarte simplu: majoritatea profesorilor sunt gradul didactic I, majoritatea profesorilor au peste 50 de ani, şi o bună parte dintre copii locuiesc în internatul şcolii respective, subfinanţat de sistem. Şi deşi sunt 1.000 de copii, cu efective maxime în clasă, nu se acoperă întregul cost al acestei şcoli.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg11">Şi trebuie să regândim şi să lucrăm împreună pentru a flexibiliza şi pentru a gândi ca într-adevăr costul standard să acopere necesităţile.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg12">Numărul de elevi - nu putem gândi un pat al lui Procust. Pentru că trebuie să spun, mai ales în zona minoritară, există cazuri în care pentru o întreagă regiune sau pentru întreg judeţul există o singură şcoală. Nu există altă şcoală!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg13">În acest context, să vă dau exemplul din judeţul Cluj, la Gherla, unde pentru 55 de copii de clasa a IX-a a fost aprobată doar o singură clasă de a IX-a. Nu cred că este normal. Deci trebuie să avem o colaborare în acest sens.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg14">Programul PNDL prevede construirea de şcoli. Şi nu s-a coroborat Programul PNDL cu normativele Ministerului Educaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg15">Vă dau din nou un caz concret. În judeţul Sălaj, la Pericei, primarul nu a semnat încă acest contract, pentru că va avea o şcoală nouă, dar i-au fost tăiate costurile pentru dotare şi acestea acoperă doar pentru 10% necesarul din normativul Ministerului Educaţiei. Deci cele două ministere nu au coroborat cele două acte normative.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u21.seg16">Cu toate acestea, eu cred că este prematur să discutăm că nu putem rezolva împreună aceste probleme.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u22">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u22.seg1">Vă...</seg>
+        </u>
+        <note type="speaker">Domnul Szabó Ödön:</note>
+        <u ana="#regular" who="#Odon-Szabo" xml:id="ParlaMint-RO_2018-03-05-id7900.u23">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u23.seg1">Şi există un decalaj - şi cu acesta o să închei - enorm şi care începe să crească din ce în ce mai mult, între mediul rural şi mediul urban. În mediul rural, majoritatea - sau în bună parte - sunt profesori care sunt suplinitori, pentru că se tot pleacă din acest mediu şi nu sunt atractive aceste zone. Şi există un decalaj enorm sau începe să existe un decalaj enorm între şansele unui copil născut într-o sărăcie extremă din zona rurală şi un copil născut în reşedinţă de judeţ, de exemplu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u23.seg2">Cu toate acestea, eu cred că trebuie să conlucrăm.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u23.seg3">Şi vă felicit, domnule ministru, pentru Legea educaţiei. Şi inclusiv pentru propunerea pe care aţi realizat-o acum, că modificând partea iniţială, veţi finanţa cele trei manuale şi se va da posibilitatea ca toate cele trei manuale să fie tipărite.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u23.seg4">Eu cred că printr-un asemenea dialog vor fi rezolvate şi celelalte probleme.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u23.seg5">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u24">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u24.seg1">Şi eu vă mulţumesc, domnule coleg.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u24.seg2">În continuare, Grupul parlamentar ALDE, domnul Ştefan-Alexandru Băişanu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u24.seg3">Vă rog, aveţi 3 minute, domnule deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u24.seg4">Vă rog să vă încadraţi în timp.</seg>
+        </u>
+        <note type="speaker">Domnul Ştefan-Alexandru Băişanu:</note>
+        <u ana="#regular" who="#Stefan-Alexandru-Baisanu" xml:id="ParlaMint-RO_2018-03-05-id7900.u25">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg3">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg4">Aş vrea să încep spunându-vă că nu voi vorbi despre actualul ministru al învăţământului, despre domnul profesor Popa Valentin, pentru că suntem colegi în aceeaşi universitate - Universitatea "Ştefan cel Mare", Suceava -, iar contestatarii de astăzi ar putea spune că sunt subiectiv.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg5">Am să-i rog, în schimb, pe cei care au făcut această moţiune simplă, să-mi permită să fac vorbire despre ministrul Funeriu, care a început trimiterea învăţământului românesc în colaps.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg6">Şi o să-l rog pe actualul ministru să facă trei lucruri pe care le-a făcut prost PDL-ul şi ministrul lor de atunci, şi îi garantez actualului domn ministru că va ajunge în categoria miniştrilor care au făcut bine învăţământului românesc, şi nu cel mai mare rău.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg7">Colapsul învăţământului românesc a plecat din momentul în care domnul Funeriu, prin Legea din 2011, a spus: "Vom finanţa învăţământul pe sistemul per capita, per elev".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg8">Domnilor, învăţământul românesc nu este o iesle, nu se vorbeşte de furajare, nu se vorbeşte de umplerea unei iesle sau de umplerea unei găleţi, ci se doreşte aprinderea unei flăcări.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg9">Cu 33 de milioane de lei vechi/an/elev nu vom reuşi niciodată să ţinem învăţământul românesc pe linia de plutire. Se dau mai mulţi bani pe an pentru deţinuţi şi imigranţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg10">Şi, iată, vedem că răul a fost făcut atunci, de cei care astăzi se plâng că lucrurile nu merg bine în învăţământ.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg11">O a doua problemă e aceea că elevii de gimnaziu au foarte multe ore şi foarte, foarte multe informaţii. Îi îndopăm cu informaţii şi nu le mai lăsăm timp să gândească. Nu mai înţeleg care este viitorul lor. Nu le explică nimeni pe ce drum să o ia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg12">Şi ultima, domnule ministru, cu permisiunea dumneavoastră şi a colegilor din PSD, e următoarea.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg13">În Primăria Suceava, un angajat astăzi pe funcţia de poliţist local, doar cu liceul, cu zero vechime, primeşte salariul cel mai mic - 27 de milioane de lei vechi, net, în mână. Un profesor cu 20 de ani vechime, din învăţământul românesc, cu gradul I luat, primeşte 25 de milioane de lei vechi, bani în mână. O diferenţă de la 27 la 25, pentru acela doar cu liceul, poliţist local şi fără nicio zi de muncă, şi un profesor cu 20 de ani de vechime, cu facultate, cu gradul I luat, de două milioane de lei. Nu mi se pare normal. Trebuie să găsiţi, domnule ministru, soluţii pentru a rezolva aceste probleme majore.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg14">Şi acum, pentru a încheia, am să-i dau şi doamnei deputat Huncă, de la PSD, un sfat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg15">Am observat, cei de la USR şi de la PNL, când vorbesc de Alianţa PSD-ALDE, lovesc şi în PSD şi în ALDE. Dumneavoastră, unii din PSD, când vorbiţi de marile realizări ale acestui Guvern, vorbiţi doar de PSD.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg16">Haideţi să vedem. Suntem împreună la bine şi la rău sau, când e bine, e vorba numai de PSD şi, când e rău, e vorba şi de unii şi de alţii?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u25.seg17">Vă mulţumesc.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u26">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u26.seg1">Şi eu vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u26.seg2">În continuare... da... în continuare, domnul deputat Robert Turcescu, din partea Grupului PMP.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u26.seg3">Aveţi 3 minute, domnule deputat.</seg>
+        </u>
+        <note type="speaker">Domnul Robert-Nicolae Turcescu:</note>
+        <u ana="#regular" who="#Robert-Nicolae-Turcescu" xml:id="ParlaMint-RO_2018-03-05-id7900.u27">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg1">Năstase, Pop şi Popa. Nu e vreun trio formidabil, e o tripletă în faţa căreia ajungi să scuipi în sân când te gândeşti că toţi trei, Doamne, şi, toţi trei, s-au perindat în doar un an de zile la conducerea Ministerului Educaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg2">Şi abia ce am păşit, atenţie, în anul doi al Guvernării PSD-iste, stuchi-o-ar mâţele, ferească Sfântul să o ţină în ritmul acesta, că la aşa rotaţie a cadrelor, tare mi-e teamă că după Pop şi Popa urmează unul sau mai mulţi proto-popi la conducerea pe ultimul drum a rămăşiţelor educaţiei naţionale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg3">Ce au făcut Năstase, Pop şi Popa? Nimic din Programul de guvernare pasat cu copy-paste de la unul la altul, ca un cartof fierbinte pe care numai minţile încinse în campania electorală l-ar fi putut coace.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg4">Aţi promis manuale, salarii, construcţii de şcoli şi grădiniţe, marea cu sarea pentru învăţământul românesc. De un an de zile schimbaţi miniştri şi măcelăriţi ce a mai rămas de măcelărit din Legea educaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg5">Brambureala din vremea Abramburicăi pare azi o dulce amintire, când ne uităm că Năstase, Pop şi Popa nici de o brambureală nu sunt în stare. Măcar să vină cu o idee. Bună, proastă, o idee să fie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg6">Ei n-au avut şi n-au idei, pentru că mandatul înseamnă punerea în practică a unor ordine de partid. Aşa s-a ajuns la situaţia stupidă în care directorii de şcoli care n-au promovat examenul pentru ocuparea postului să fie totuşi numiţi în funcţie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg7">Educaţie marca PSD - cu legea în mână le arătăm elevilor că indiferent de nota pe care o obţii la un examen, dacă faci parte din partidul care trebuie, vei obţine funcţia pe care o doreşti, chiar dacă n-o meriţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg8">Apropo, domnule ministru, v-aţi atins de doctoratele plagiate sau nu vă lasă "Daddy" să loviţi chiar aşa de tare în inimioara statului paralel? Bine că vă ocupaţi de reînfiinţarea editurii unice, vestita Editură Pedagogică din vremea lui Ceauşescu!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u27.seg9">De fapt, domnilor, sunteţi paraleli şi la ani-lumină distanţă de ceea ce înseamnă un sistem de educaţie pentru secolul XXI. Pentru generaţii întregi de elevi şi de studenţi e un ghinion teribil că trebuie să facă şcoală sub conducerea unor miniştri care în vremea lui Spiru Haret ar fi fost buni la dat cu sapa sau, hai, fie, şi la cărat mapa, dar în niciun caz la conducerea învăţământului românesc.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u28">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u28.seg1">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u28.seg2">Începem cea de-a doua tură.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u28.seg3">Din partea Grupului PSD, doamna Camelia Gavrilă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u28.seg4">Vă rog, doamnă deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Camelia Gavrilă:</note>
+        <u ana="#regular" who="#Camelia-Gavrila" xml:id="ParlaMint-RO_2018-03-05-id7900.u29">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg2">Doamnelor şi domnilor deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg3">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg4">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg5">Doamnă secretar de stat,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg6">Domnilor secretari de stat,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg7">Da, ne-am spune, ca Montaigne, că lumea este o şcoală pentru întrebări.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg8">Vorbim despre spiritul interogativ al fiinţei umane, despre nevoia de şcoală, de educaţie, de temeiuri ale fiinţei şi de interogaţii care ar trebui să ne însoţească pe traseul vieţii; cu atât mai mult legat de şcoală.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg9">Este firesc, din timp în timp, să avem moţiuni, care pot fi, dincolo de retorica politică, pot fi un prilej de dezbatere, dacă nu ar fi încărcate stilistic, îngroşate cu neadevăruri sau cu adevăruri parţiale, dacă nu ar apăsa, prin hiperbolizare, pe anumite probleme, dacă nu ar pune în paranteză lucruri care sunt legate tocmai de o istorie mai îndepărtată sau mai apropiată a celor care au scris moţiunea respectivă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg10">Dincolo de toate este însă important să ne gândim că educaţia are multe probleme în faţă, că acestea înseamnă şi chestiuni de infrastructură, şi de conţinuturi, şi de inserţia absolvenţilor pe o piaţă a muncii dinamică, fluidă şi deseori imprevizibilă, şi de arhitectură curriculară, şi de absenteism şi abandon şcolar.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg11">Le cunoaştem pe toate, le cunoaşteţi şi dumneavoastră, stimaţi colegi de la PNL sau PDL, pentru că undeva, între 12 şi 14 ani, aţi guvernat, într-o formă sau alta, aţi avut ocazia să schimbaţi. Nu ştiu câte schimbări notabile s-au produs, care să aducă îmbunătăţiri sau să rezolve parţial probleme care s-au adunat şi s-au acutizat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg12">Revenind la ceea ce se întâmplă acum, eu aş aborda constructiv ceea ce ne propunem să facem prin Guvernul PSD-ALDE, prin uniunea parlamentară pe care o avem, prin demersuri administrative, parlamentare, legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg13">Vorbim de chestiuni curriculare care de fapt reprezintă esenţa învăţământului. Şi aceasta înseamnă planuri de învăţământ. Ne aflăm acum în faţa unor dezbateri şi a unei consultări publice interesante, legate de planurile-cadru pentru liceu, cu variante, cu o transparenţă totală, cu un proces decizional extrem de modern şi democratic. Planuri-cadru care oferă uneori şi un anumit conservatorism. Pe de altă parte, şi deschidere spre un curriculum diferenţiat şi un curriculum la decizia şcolii, incitant şi atractiv, de secol XXI.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg14">Şi ne aflăm şi în faţa unor decizii importante legate de manuale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg15">Polemica pe tema manualelor este extrem de importantă. Şi ar fi fost greu, într-adevăr, ca orice pedagog - nu mai spun, de formaţie umanistă - să susţină utilitatea unui manual unic.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg16">Noi vorbim însă aici de manuale alternative. Vorbim de diversitate, în continuare. Opţiunea PSD-ALDE este pentru un traseu individualizat al studiului, al educaţiei. Vorbim de faptul că încercăm să facem o ordine în dezordinea manualelor, să începem anul şcolar cu manuale în faţa elevilor, să adăugăm şi o platformă în care resursele educaţionale deschise să se constituie, să se adune, să adăugăm şi suportul bibliografic şi, probabil, domnule ministru, şi biblioteci mai bine dotate. Ne trebuie şi acest lucru, dincolo de mediul virtual pe care îl explorează elevii noştri.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg17">Plecând din zona manualelor, să mergem spre infrastructură, pe care aţi comentat-o, stimaţi colegi. O infrastructură care este în proces de devenire, de finalizare, de realizare. 2.500 de creşe, grădiniţe, şcoli înseamnă de fapt un program de guvernare de patru ani, înseamnă un cumul de intervenţii ministeriale, fie de la nivelul Ministerului Dezvoltării, fie de la nivelul Ministerului Educaţiei sau pe programe europene.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg18">Toate acestea se realizează odată şi cu Strategia legată de infrastructura modernă, educaţională.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg19">Şi, cu siguranţă, ceea ce acum înseamnă clădiri mai puţin moderne, mai puţin reabilitate, ceea ce înseamnă absenţa autorizaţiilor sanitare de funcţionare sau avizelor ISU, toate acestea se corectează treptat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg20">Citându-l pe Titulescu, aş spune că "idealul este o realitate în devenire". Sigur că idealurile educaţionale sunt multe. Sigur că este greu să asiguri la un nivel extrem de susţinut tot ceea ce are nevoie un elev, un student. Dar, în acelaşi timp, etapele înseamnă drumul spre acest ideal.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg21">Pentru noi, pentru Partidul Social Democrat, profesorii sunt preţioşi, sunt respectaţi, sunt valorizaţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg22">Iar dacă vorbim de salarizare, din 2013-2014, ne străduim să corectăm ceea ce a fost dărâmat dramatic în anii anteriori. Am refăcut salarizarea. S-au pus în aplicare hotărâri judecătoreşti ignorate. S-au mărit salariile, treptat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg23">Acum suntem în luna martie, când va urma această semnificativă creştere. Poate nu pe cât ne dorim, cu siguranţă nu pe cât merită colegii noştri. Dar există o preocupare, există o prioritate pe care Ministerul Educaţiei o are în atenţie şi pe care Partidul Social Democrat, alături de colegii de coaliţie, o vor urmări treptat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg24">Abordăm clişee, abordăm mituri - "pesedizare", "profesori, directori, inspectori - aserviţi", "tentativa de politizare a sistemului". Dacă dăm deoparte metafora, ne dăm seama că am parcurs, din 2015, concursuri pentru inspectori, concursuri pentru directori, participarea sindicatelor, deci o multitudine de deschideri spre societatea civilă, şi de transparenţă, încercând să aşezăm într-o matcă temeinică, serioasă, educaţia şi nenumăratele probleme ale acesteia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg25">În esenţă, şi în final, o să vă spun cu amărăciune că am fi putut să discutăm constructiv. Am fi putut să ne focalizăm pe anumite chestiuni dilematice, într-adevăr, ale educaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg26">Dar o să termin cu ideea pe care şi Eleanor Roosevelt o avea cândva, legată de faptul că: "Fă ceea ce simţi că este bine, pentru că oricum vei fi criticat!".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u29.seg27">Asumându-ne critici, dezbateri, polemici, noi mergem mai departe, încercând să construim o educaţie de secol XXI.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u30">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u30.seg1">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u30.seg2">Îl invit, în continuare, la cuvânt, pe domnul deputat Florin Roman, din partea Grupului PNL.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u30.seg3">Mai aveţi 5 minute, domnule deputat.</seg>
+        </u>
+        <note type="speaker">Domnul Florin-Claudiu Roman:</note>
+        <u ana="#regular" who="#Florin-Claudiu-Roman" xml:id="ParlaMint-RO_2018-03-05-id7900.u31">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg2">Doamnelor şi domnilor colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg3">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg4">V-am adus o foaie A4, un pix. Poate veţi avea decenţa şi onoarea ca până la sfârşitul acestei întâlniri din Parlament, să vă daţi demisia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg5">Am văzut astăzi în faţa Parlamentului un politruc, un demagog şi un visător. Nici dumneavoastră nu credeţi în ceea ce spuneţi, domnule ministru. Visaţi!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg6">Şi ca să vă las să visaţi în continuare, v-am adus şi o banderolă, să v-o puneţi pe ochi şi să dormiţi, că poate e cel mai bun lucru pe care îl puteţi face pentru învăţământ. (Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg7">Domnule ministru, aţi distrus tot ce era bun în învăţământ, într-un termen foarte, foarte scurt.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg8">Domnule ministru, aţi scos profesorii în stradă. Când dumneavoastră visaţi, la tribună, profesorii protestau, profesorii boicotau examenele.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg9">Domnule ministru, am văzut astăzi un om fără suflet, un om pentru care copiii înseamnă cifre.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg10">Domnule ministru, aţi reuşit să supăraţi părinţii, să supăraţi copiii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg11">Să ştiţi că acei copii suferă. Ei ştiu că nu-şi vor mai vedea colegii, din toamnă. Se întreabă cu ce au supărat-o pe doamna învăţătoare. Şi dumneavoastră veniţi şi le spuneţi poveşti.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg12">Domnule ministru, vreau să vă spun că doar în judeţul Alba, Inspectoratul Şcolar Judeţean, condus de o PSD-istă de-a dumneavoastră, demnă urmaşă a Partidului Comunist Român, a anunţat oficial că închide 44 de unităţi şcolare cu personalitate juridică şi structuri arondate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg13">Vă mulţumim pentru cadoul pe care ni-l faceţi, celor din Alba, capitala Marii Uniri, în Anul Centenarului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg14">În Anul Centenarului, PSD, urmaşul Partidului Comunist Român, se pregăteşte să închidă 1.000 de şcoli şi grădiniţe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg15">În acelaşi An al Centenarului, PSD-ul, urmaşul Partidului Comunist Român, se pregăteşte să reducă 6.000 de norme.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg16">Promiteţi măriri de salarii, dar tăiaţi sporuri şi cheltuieli, fără un studiu de impact, după cum aţi tăiat "pamblici".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg17">Nu degeaba sindicatele sunt astăzi în stradă. În timp ce şcolile româneşti se închid pe bandă rulantă, spre ruşinea Guvernului PSD, Guvernul de la Budapesta finanţează înfiinţarea de şcoli în Transilvania.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg18">În Anul Centenarului, elevii săraci din familiile româneşti sunt dezrădăcinaţi, fiind maghiarizaţi forţat, cu o masă caldă sau cu o bursă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg19">Nu-i acuz pe cei de la UDMR, foarte bine fac. Vă acuz pe dumneavoastră, că vindeţi viitorul copiilor, în Anul Centenarului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg20">V-am auzit cât v-aţi plâns de ce-au făcut alţii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg21">Haideţi să facem puţin recurs la memorie - şi citez din Programul dumneavoastră de guvernare - "Reducerea abandonului şcolar, inclusiv prin redeschiderea şcolilor care au fost închise în mod abuziv".</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg22">Aceasta spuneaţi în Programul dumneavoastră de guvernare!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg23">Îi spun unei doamne care a vorbit înaintea mea şi care a fost membră a Partidului Naţional Liberal şi astăzi a venit la microfon să-şi facă autocritica. Nu cred că în Partidul Social Democrat nu se găsesc oameni care să vorbească despre învăţământ şi că trebuie să vină un traseist să vă spună cum este cu învăţământul!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg24">Faptele PSD sunt: subfinanţarea unităţilor de învăţământ, legiferarea în premieră a claselor peste efectiv, nerespectarea sistematică a drepturilor copiilor, mutarea salariilor de la UAT-uri, la ISJ-uri, pentru control politic, închideţi şcoli pentru interese imobiliare, cum este cazul de la Vâlcea, promiteţi microbuze care nu au şoferi şi nu au nici motorină!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg25">Improvizaţia şi cârpeala sunt principalele instrumente ale Partidului Social Democrat, urmaşul Partidului Comunist Român!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg26">Nepăsarea PSD a dus România pe un loc fruntaş în privinţa abandonului şcolar! 18,5, faţă de media europeană, de 11!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg27">În învăţământ, prin manualul unic, PSD ne întoarce la partidul unic. Citez: "Este una dintre laturile întoarcerii la comunism. Şi aiureala unui politruc bolnav la genunche", a spus Mircea Cărtărescu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg28">Aţi închis, din 2012, peste 600 de şcoli cu personalitate juridică şi structuri arondate, a spus-o "Genunche", ministrul dumneavoastră! Acum, puneţi lacăt pe alte 1.000 de şcoli şi grădiniţe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg29">Stimate domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg30">Aţi rămas corigent la educaţie şi, prin urmare, vă îndemn la onoare!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u31.seg31">O să vă înmânez o coală albă, un pix şi sper, din suflet, să arătaţi profesorilor că în fruntea ministerului se află un om care încă mai are demnitate!(Îi înmânează domnului ministru al educaţiei naţionale, Valentin Popa, o coală albă şi un pix. Vociferări.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u32">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u32.seg1">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u32.seg2">Are cuvântul, în continuare, domnul ministru Popa.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u32.seg3">Vă rog, domnule ministru.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u32.seg4">Domnule ministru, v-am invitat la cuvânt!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u32.seg5">Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Valentin Popa:</note>
+        <u ana="#regular" who="#Valentin-Popa" xml:id="ParlaMint-RO_2018-03-05-id7900.u33">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg1">Stimaţi parlamentari,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg2">Am ascultat luările de cuvânt şi primul lucru pe care l-am remarcat a fost faptul că sunt 20 de ani de guvernare PSD, din care 12 ani n-au aparţinut PSD.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg3">Aş vrea să-i mulţumesc doamnei Cristina Iurişniţi pentru felicitări şi aş vrea să clarificăm puţin şi chestiunea plagiatului, din prima mea intervenţie în faţa presei.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg4">Din păcate, declaraţia mea a fost interpretată într-un sens total opus. Oricine a analizat-o cu atenţie ar fi putut observa că doresc cu ardoare întărirea legislaţiei primare în această privinţă, pentru ca nimeni să nu o poată exploata în instanţă şi să anuleze, astfel, deciziile unor consilii şi comisii.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg5">Din păcate - poate şi din cauza unei deficitare comunicări din partea mea, fiind la început şi emoţiile spunându-şi cuvântul -, declaraţia nu a fost foarte bine interpretată.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg6">Reafirm, încă o dată, toleranţa zero pentru doctorat şi vă reamintesc că primul meu ordin, în calitate de ministru, a fost legat de introducerea Normelor de etică şi deontologie la masterat şi doctorat, în universităţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg7">Aş fi vrut să-i spun şi domnului Turcescu că ne-am întâlnit cu CNATDCU vineri, 2 martie, şi am discutat aspectele pe care le-a invocat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg8">Reprezentanţi ai Consiliului CNATDCU, împreună cu membri ai Corpului de control, vor vizita universităţile şi, printre punctele pe care le vor verifica, vor fi şi problemele de etică şi deontologie profesională, sesizate în şcolile doctorale.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg9">Domnule Florin Roman,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg10">M-aţi acuzat că sunt un visător.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg11">Vă invit, domnule Florin Roman, să vizitaţi Universitatea "Ştefan cel Mare" din Suceava, să-i cunoaşteţi pe acei oameni de acolo, pe cercetătorii din marile universităţi din lume, care au revenit în România şi lucrează acolo, şi să vedeţi un vis aproape împlinit. Peste trei ani vă asigur că şi în România vom vedea un vis împlinit!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg12">Doamnelor şi domnilor deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg13">Am făcut o prezentare a problemelor sistemului de învăţământ românesc şi, de asemenea, am arătat care sunt soluţiile acestor probleme.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg14">Înţeleg că o moţiune simplă este, în primul rând, un instrument politic aflat la îndemâna partidelor din opoziţie. Politica, însă, nu poate să ignore situaţia reală a sistemului, şi nici acţiunile pe care le întreprinde ministerul.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg15">Nu ne putem permite să abordăm din condei învăţământul românesc şi numai pentru a bifa o nouă acţiune parlamentară.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg16">Sunt convins că nu aşa trebuie să se desfăşoare dialogul democratic dintre putere şi opoziţie!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg17">Ca ministru, sunt deschis criticilor, vă declar că nu sunt deţinătorul adevărului absolut, precum şi propunerilor venite din partea dumneavoastră, a celor din opoziţie.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg18">Sper că în viitor vom lăsa deoparte retorica politicianistă şi vom colabora în interesul oamenilor. Problematica învăţământului necesită chiar această colaborare, căci învăţământul nu aparţine unui partid.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg19">Învăţământul este al României şi numai prin el putem spune că România are un viitor!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg20">Am reţinut sugestiile dumneavoastră şi vă invit, deci, să lucrăm împreună, pentru acest viitor!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u33.seg21">Vă mulţumesc.(Aplauze.)</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u34">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u34.seg1">Şi eu vă mulţumesc, domnule ministru.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u34.seg2">Dezbaterile au fost finalizate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u34.seg3">Exprimarea votului se va face în şedinţa de vot final, miercuri, 7 martie 2018.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u34.seg4">Vă mulţumesc mult.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u34.seg5">Am încheiat prima parte a dezbaterilor noastre.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u34.seg6">La revedere!</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u35">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg1">Prima interpelare este adresată de domnul deputat Lovin Dumitru, Ministerului Turismului.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg2">Doamna secretar de stat Cristina Ionela Tărteaţă a trimis, înţeleg, domnului deputat...</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg3">L-aţi primit? L-aţi primit, domnule deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg4">Vizavi de situaţia domeniului schiabil de la Voineasa.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg5">Cea de-a doua interpelare este adresată Ministerului Muncii şi Justiţiei Sociale, de către doamna deputat Camelia Gavrilă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg6">Este prezentă doamna secretar de stat Drăghici Aurelia.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg7">Vă rog, doamnă deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u35.seg8">Aţi primit răspunsul?</seg>
+        </u>
+        <note type="speaker">Doamna Camelia Gavrilă (din sală):</note>
+        <u ana="#regular" who="#Camelia-Gavrila" xml:id="ParlaMint-RO_2018-03-05-id7900.u36">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u36.seg1">Nu l-am primit în scris!</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u37">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg1">Nu l-aţi primit în scris.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg2">Doamnă secretar de stat, daţi-i doamnei preşedinte Gavrilă răspunsul în scris. Înţeleg de la doamna deputat că nu mai trebuie să-l prezentaţi.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg3">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg4">Mergem mai departe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg5">Tot pentru doamna Camelia Gavrilă, Ministerul Comunicaţiilor...</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg6">Da, doamnă secretar de stat. Doamna Carmen Elian.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg7">Aţi transmis doamnei deputat Gavrilă răspunsul dumneavoastră, tot în scris.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg8">Din partea Ministerului Dezvoltării, domnul subsecretar de stat Angel Gheorghiu, pentru domnul Lovin.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u37.seg9">Aţi primit, domnule Lovin? Sunteţi mulţumit?</seg>
+        </u>
+        <note type="speaker">Domnul Lovin Dumitru (din sală):</note>
+        <u ana="#regular" who="#Lovin-Dumitru" xml:id="ParlaMint-RO_2018-03-05-id7900.u38">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u38.seg1">Da, mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u39">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u39.seg1">Şi eu vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u39.seg2">Mai departe.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u39.seg3">Din partea Ministerului Finanţelor Publice, tot pentru domnul Lovin.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u39.seg4">Aţi primit răspunsul de la domnul secretar de stat Attila György, da?</seg>
+        </u>
+        <note type="speaker">Domnul Lovin Dumitru (din sală):</note>
+        <u ana="#regular" who="#Lovin-Dumitru" xml:id="ParlaMint-RO_2018-03-05-id7900.u40">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u40.seg1">Da, mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u41">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u41.seg1">Vă mulţumesc şi eu.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u41.seg2">Din partea Ministerului Educaţiei Naţionale, este prezent domnul secretar de stat, fostul nostru coleg, domnul Petru Andea. Are răspuns pentru doamna deputat Bîzgan Oana.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u41.seg3">I-aţi dat răspunsul, da? Nu este în sală doamna deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u41.seg4">Vă rog, domnule secretar de stat, să-i lăsaţi doamnei deputat şi...</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u42">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u42.seg1">Domnule deputat, vreţi să vă prezinte?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u42.seg2">Vă rog, domnule secretar de stat. Foarte pe scurt, pentru că oricum o să-i daţi şi răspunsul domnului Bichineţ.</seg>
+        </u>
+        <note type="speaker">Domnul Dan Dumitrescu (secretar de stat, Ministerul Sănătăţii):</note>
+        <u ana="#regular" who="#Dan-Dumitrescu" xml:id="ParlaMint-RO_2018-03-05-id7900.u43">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg1">Bună ziua!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg2">Bună ziua, stimate domnule deputat!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg3">Referitor la întrebarea dumneavoastră privind redeschiderea Spitalului orăşenesc din Negreşti-Vaslui, vă comunicăm următoarele.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg4">Spitalul orăşenesc Negreşti este o unitate sanitară care se regăseşte în Anexa nr. 2 a Hotărârii de Guvern nr. 212/2011, prin care a fost aprobat Programul de interes naţional "Dezvoltarea reţelei naţionale de cămine pentru persoanele vârstnice", care s-a derulat în perioada 1 aprilie 2011 - 31 decembrie 2013, şi pe lista unităţilor sanitare cu paturi, din Hotărârea Guvernului nr. 345/2011.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg5">Aceste unităţi sanitare se puteau reorganiza în cămine pentru persoane vârstnice sau se puteau desfiinţa, în funcţie de opţiunea administraţiei publice locale, care a preluat şi managementul acestora.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg6">Din anul 2011 au fost făcute mai multe solicitări, dintre care, una de mutare a unor structuri ale spitalului judeţean în clădirea fostului Spital Negreşti, alta de înfiinţare a unui centru de sănătate multifuncţional în locaţia fostului Spital orăşenesc Negreşti, fără personalitate juridică. O a treia, de înfiinţare a unei secţii exterioare, în structura Spitalului judeţean de urgenţă Vaslui. Şi a patra, de înfiinţare a unui compartiment de îngrijiri paliative, cu 20 de paturi, şi a unui compartiment de psihiatrie cronici, cu 20 de paturi, în oraşul Negreşti, menţionându-se că, printr-o hotărâre de consiliu local, o clădire din domeniul privat - UAT Negreşti - a fost dată în administrarea Spitalului judeţean de urgenţă Vaslui.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg7">Au fost transmise mai multe adrese, în care s-a precizat că solicitarea de înfiinţare, în Negreşti, a oricărei structuri care să ofere servicii medicale, va putea fi analizată la propunerea factorilor implicaţi, ulterior desfiinţării spitalului din localitate.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg8">În ceea ce priveşte solicitarea de redeschidere a spitalului din această localitate, având în vedere că au trecut şapte ani de la închiderea acestuia, considerăm că este necesar ca factorii locali implicaţi să facă o analiză a situaţiei spaţiilor, numărului clădirilor, regimul lor de înălţime, dacă sunt în aceeaşi curte sau gradul de degradare, dacă necesită reabilitare sau nu, ce posibilităţi de asigurare cu personal există în zona respectivă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u43.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u44">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u44.seg1">Şi eu vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u44.seg2">Domnule Bichineţ, dacă vreţi să interveniţi? Aveţi un minut.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u44.seg3">Oricum, să-i daţi şi răspunsul în scris.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u44.seg4">Vă rog, domnule Bichineţ.</seg>
+        </u>
+        <note type="speaker">Domnul Corneliu Bichineţ:</note>
+        <u ana="#regular" who="#Corneliu-Bichinet" xml:id="ParlaMint-RO_2018-03-05-id7900.u45">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg1">Domnule ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg2">Eu cred că aici nu este un formalism.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg3">Nu că n-aş avea eu altă treabă decât odată la două săptămâni să trimit întrebări, interpelări, miniştrilor sănătăţii, de la Bănicioiu încoace!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg4">Toate răspunsurile mă nemulţumesc! Dar n-are nicio importanţă că mă nemulţumesc pe mine, ci pe cei 50.000 de oameni din jurul Negreştiului, care aveau posibilitatea să se vindece şi să se îndrepte spre spitalul orăşenesc despre care vorbim noi, aici.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg5">Domnule secretar de stat,</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg6">Sunteţi un om corect, aţi venit să-mi prezentaţi răspunsul în scris.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg7">Eu nu voi renunţa, pentru că Primăria Negreşti nu are bani pentru finanţarea spitalului, aşa cum a fost dintotdeauna, de 150 de ani. Consiliul Judeţean se opune, nu are nicio dorinţă ca acel spital să prindă viaţă din nou. S-au făcut cheltuieli de câteva milioane de euro, milioane de euro bune, din bani europeni, pentru reabilitarea spitalului şi, prin decizia aceea aberantă din 2010, a fost închis.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg8">Mie, ca parlamentar al opoziţiei nu-mi... Aceasta este arma mea - să vin aici şi să încerc să vă conving pe dumneavoastră, cei de la Ministerul Sănătăţii!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg9">Nu sunt de acord cu mişcările protestatare, cu adunarea oamenilor în faţa primăriilor, blocări de străzi sau ceva şi mai spectaculos! Nu sunt de acord cu chestiunile acestea. Dar nu determinaţi oamenii din Negreşti să recurgă la astfel de metode.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg10">Deci ceea ce mi-aţi prezentat dumneavoastră astăzi, aici, nu mă mulţumeşte absolut deloc!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg11">Am trimis un memoriu noului ministru al sănătăţii, semnat de 5.300 de oameni!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg12">Câţi trebuie să semneze pentru a se încerca redeschiderea acestui spital?</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u45.seg13">Vă mulţumesc, domnule ministru, că m-aţi lăsat mai mult de...</seg>
+        </u>
+        <note type="speaker">Domnul Florin Iordache:</note>
+        <u ana="#chair" who="#Florin-Iordache" xml:id="ParlaMint-RO_2018-03-05-id7900.u46">
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg1">Sigur, sigur, era importantă această situaţie, de aceea v-am lăsat mai mult!</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg2">Şi eu vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg3">Tot din partea Ministerului Sănătăţii, domnul secretar de stat Dumitrescu are un răspuns pentru doamna Cristina Prună.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg4">Vă rog, lăsaţi-i staffului tehnic, să fie distribuit.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg5">Pentru celelalte s-a solicitat amânarea, cele care vizau Ministerul Transporturilor.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg6">Acestea fiind spuse, declar şedinţa închisă.</seg>
+          <seg xml:id="ParlaMint-RO_2018-03-05-id7900.u46.seg7">La revedere!</seg>
+        </u>
+        <note type="time">Şedinţa s-a încheiat la ora 18,17.</note>
+      </div>
+    </body>
+  </text>
+</TEI>
