@@ -159,8 +159,8 @@
     <xsl:variable name="title-prefix">[^ ]+( [^ ]+)? parliamentary corpus <xsl:value-of select="$idTemplate"/></xsl:variable>
     <xsl:variable name="title-suffix">
       <xsl:choose>
-        <xsl:when test="/tei:teiCorpus and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when>
-        <xsl:when test="/tei:teiCorpus and $type = 'ana'"> \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
+        <xsl:when test="not(/tei:TEI) and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when> <!-- teiHeader context when testing teiCorpus header -->
+        <xsl:when test="not(/tei:TEI) and $type = 'ana'"> \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
         <xsl:when test="/tei:TEI and $type = 'txt'">,? .+ \[ParlaMint( SAMPLE)?\]$</xsl:when>
         <xsl:when test="/tei:TEI and $type = 'ana'">,? .+ \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
       </xsl:choose>

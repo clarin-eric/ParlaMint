@@ -241,8 +241,7 @@
         <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
       </xsl:when>
       <xsl:when test="not($persName/tei:persName)">
-        <xsl:message select="concat('ERROR: empty persName ',
-                             'on ', $when)"/>
+        <xsl:message select="concat('ERROR: empty persName', ' on ', $when)"/>
         <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
