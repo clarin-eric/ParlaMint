@@ -71,9 +71,13 @@
             <label xml:lang="lt">17 Lietuvos Respublikos vyriausybė (2016-11-22 - 2020-12-11)</label>
             <label xml:lang="en">17 Government of the Lithuanian Republic (2016-11-22 - 2020-12-11)</label>
          </event>
+         <event from="2020-12-11" xml:id="government.LT.18">
+            <label xml:lang="lt">18 Lietuvos Respublikos vyriausybė (2020-12-11 - )</label>
+            <label xml:lang="en">18 Government of the Lithuanian Republic (2020-12-11 - )</label>
+         </event>
       </listEvent>
    </org>
-   <org ana="#parla.national #parla.lower" role="parliament" xml:id="S">
+   <org ana="#parla.national #parla.uni" role="parliament" xml:id="S">
       <orgName full="yes" xml:lang="lt">Lietuvos Respublikos Seimas</orgName>
       <orgName full="yes" xml:lang="en">The Seimas of the Republic of Lithuania</orgName>
       <event from="1990-03-10">
@@ -117,7 +121,7 @@
             <label xml:lang="lt">8-oji kadencija</label>
             <label xml:lang="en">Term 8</label>
          </event>
-         <event from="2020-11-13" to="2024-11-14" xml:id="S.9">
+         <event from="2020-11-13" xml:id="S.9">
             <label xml:lang="lt">9-oji kadencija</label>
             <label xml:lang="en">Term 9</label>
          </event>
@@ -1522,10 +1526,11 @@
       <orgName full="yes" xml:lang="lt">Seimo narys, neįsiregistravęs į frakciją</orgName>
    </org>
    <listRelation>
-      <relation ana="#S.2"
+      <relation active="#parliamentaryGroup.JSF.19922 #parliamentaryGroup.KDF.19923 #parliamentaryGroup.LTSF.19925 #parliamentaryGroup.LLSF.19927 #parliamentaryGroup.LSDPF.19928 #parliamentaryGroup.MSNG.19929 #parliamentaryGroup.NF.19931 #parliamentaryGroup.PCF.19932 #parliamentaryGroup.PKTLF.19933 #parliamentaryGroup.SCF.19934 #parliamentaryGroup.SF.19935 #parliamentaryGroup.SSF.19936 #parliamentaryGroup.TPF.19937 #parliamentaryGroup.TSKF.19938"
+                ana="#S.2"
                 from="1992-11-24"
-                mutual="#parliamentaryGroup.JSF.19922 #parliamentaryGroup.KDF.19923 #parliamentaryGroup.LTSF.19925 #parliamentaryGroup.LLSF.19927 #parliamentaryGroup.LSDPF.19928 #parliamentaryGroup.MSNG.19929 #parliamentaryGroup.NF.19931 #parliamentaryGroup.PCF.19932 #parliamentaryGroup.PKTLF.19933 #parliamentaryGroup.SCF.19934 #parliamentaryGroup.SF.19935 #parliamentaryGroup.SSF.19936 #parliamentaryGroup.TPF.19937 #parliamentaryGroup.TSKF.19938"
                 name="opposition"
+                passive="#government.LT"
                 to="1996-11-22"/>
       <relation ana="#S.2"
                 from="1992-11-24"
@@ -1559,80 +1564,88 @@
                 mutual="#parliamentaryGroup.NSSF.795 #parliamentaryGroup.LF.8701 #parliamentaryGroup.JCSMKDSLLRAF.796"
                 name="coalition"
                 to="2001-06-20"/>
-      <relation ana="#S.4"
+      <relation active="#parliamentaryGroup.TSKF.792 #parliamentaryGroup.TSLKF.49 #parliamentaryGroup.NF.5791 #parliamentaryGroup.LDF.5790 #parliamentaryGroup.JLF.8703 #parliamentaryGroup.LCF.870 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.VNDPF.7971 #parliamentaryGroup.SDKF.793"
+                ana="#S.4"
                 from="2000-10-19"
-                mutual="#parliamentaryGroup.TSKF.792 #parliamentaryGroup.TSLKF.49 #parliamentaryGroup.NF.5791 #parliamentaryGroup.LDF.5790 #parliamentaryGroup.JLF.8703 #parliamentaryGroup.LCF.870 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.VNDPF.7971 #parliamentaryGroup.SDKF.793"
                 name="opposition"
+                passive="#government.LT"
                 to="2001-06-20"/>
       <relation ana="#S.4"
                 from="2001-06-20"
                 mutual="#parliamentaryGroup.NSSF.795"
                 name="coalition"
                 to="2001-07-04"/>
-      <relation ana="#S.4"
+      <relation active="#parliamentaryGroup.JCSMKDSLLRAF.796 #parliamentaryGroup.LF.8701 #parliamentaryGroup.TSKF.792 #parliamentaryGroup.TSLKF.49 #parliamentaryGroup.NF.5791 #parliamentaryGroup.LDF.5790 #parliamentaryGroup.JLF.8703 #parliamentaryGroup.LCF.870 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.VNDPF.7971 #parliamentaryGroup.SDKF.793"
+                ana="#S.4"
                 from="2001-06-20"
-                mutual="#parliamentaryGroup.JCSMKDSLLRAF.796 #parliamentaryGroup.LF.8701 #parliamentaryGroup.TSKF.792 #parliamentaryGroup.TSLKF.49 #parliamentaryGroup.NF.5791 #parliamentaryGroup.LDF.5790 #parliamentaryGroup.JLF.8703 #parliamentaryGroup.LCF.870 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.VNDPF.7971 #parliamentaryGroup.SDKF.793"
                 name="opposition"
+                passive="#government.LT"
                 to="2001-07-04"/>
       <relation ana="#S.4"
                 from="2001-07-04"
                 mutual="#parliamentaryGroup.NSSF.795 #parliamentaryGroup.SDKF.793"
                 name="coalition"
                 to="2004-11-14"/>
-      <relation ana="#S.4"
+      <relation active="#parliamentaryGroup.JCSMKDSLLRAF.796 #parliamentaryGroup.LF.8701 #parliamentaryGroup.TSKF.792 #parliamentaryGroup.TSLKF.49 #parliamentaryGroup.NF.5791 #parliamentaryGroup.LDF.5790 #parliamentaryGroup.JLF.8703 #parliamentaryGroup.LCF.870 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.VNDPF.7971"
+                ana="#S.4"
                 from="2001-07-04"
-                mutual="#parliamentaryGroup.JCSMKDSLLRAF.796 #parliamentaryGroup.LF.8701 #parliamentaryGroup.TSKF.792 #parliamentaryGroup.TSLKF.49 #parliamentaryGroup.NF.5791 #parliamentaryGroup.LDF.5790 #parliamentaryGroup.JLF.8703 #parliamentaryGroup.LCF.870 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.VNDPF.7971"
                 name="opposition"
+                passive="#government.LT"
                 to="2004-11-14"/>
       <relation ana="#S.5"
                 from="2004-11-15"
                 mutual="#parliamentaryGroup.DPF.874 #parliamentaryGroup.NSSF.795 #parliamentaryGroup.SDKF.793 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.PDF.980 #parliamentaryGroup.VLPDF.1000 #parliamentaryGroup.VNDF.7970 #parliamentaryGroup.VLPDF.1000 #parliamentaryGroup.VLF.797"
                 name="coalition"
                 to="2006-06-01"/>
-      <relation ana="#S.5"
+      <relation active="#parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LF.794 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LDF.5792 #parliamentaryGroup.LF.8701 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TTLDF.579 #parliamentaryGroup.FTT.579 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.TSF.7920"
+                ana="#S.5"
                 from="2004-11-15"
-                mutual="#parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LF.794 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LDF.5792 #parliamentaryGroup.LF.8701 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TTLDF.579 #parliamentaryGroup.FTT.579 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.TSF.7920"
                 name="opposition"
+                passive="#government.LT"
                 to="2006-06-01"/>
       <relation ana="#S.5"
                 from="2006-06-01"
                 mutual="#parliamentaryGroup.NSSF.795 #parliamentaryGroup.SDKF.793 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.PDF.980 #parliamentaryGroup.VLPDF.1000 #parliamentaryGroup.VNDF.7970 #parliamentaryGroup.VLPDF.1000 #parliamentaryGroup.VLF.797"
                 name="coalition"
                 to="2006-07-06"/>
-      <relation ana="#S.5"
+      <relation active="#parliamentaryGroup.DPF.874 #parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LF.794 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LDF.5792 #parliamentaryGroup.LF.8701 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TTLDF.579 #parliamentaryGroup.FTT.579 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.TSF.7920"
+                ana="#S.5"
                 from="2006-06-01"
-                mutual="#parliamentaryGroup.DPF.874 #parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LF.794 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LDF.5792 #parliamentaryGroup.LF.8701 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TTLDF.579 #parliamentaryGroup.FTT.579 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.TSF.7920"
                 name="opposition"
+                passive="#government.LT"
                 to="2006-07-06"/>
       <relation ana="#S.5"
                 from="2006-07-06"
                 mutual="#parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LCF.870 #parliamentaryGroup.SDKF.793 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.PDF.980 #parliamentaryGroup.VLPDF.1000 #parliamentaryGroup.VNDF.7970 #parliamentaryGroup.VLPDF.1000 #parliamentaryGroup.VLF.797"
                 name="coalition"
                 to="2008-11-16"/>
-      <relation ana="#S.5"
+      <relation active="#parliamentaryGroup.NSSF.795 #parliamentaryGroup.DPF.874 #parliamentaryGroup.LF.794 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LDF.5792 #parliamentaryGroup.LF.8701 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TTLDF.579 #parliamentaryGroup.FTT.579 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.TSF.7920"
+                ana="#S.5"
                 from="2006-07-06"
-                mutual="#parliamentaryGroup.NSSF.795 #parliamentaryGroup.DPF.874 #parliamentaryGroup.LF.794 #parliamentaryGroup.LCF.870 #parliamentaryGroup.LDF.5792 #parliamentaryGroup.LF.8701 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TTLDF.579 #parliamentaryGroup.FTT.579 #parliamentaryGroup.MSNG.47 #parliamentaryGroup.TSF.7920"
                 name="opposition"
+                passive="#government.LT"
                 to="2008-11-16"/>
       <relation ana="#S.6"
                 from="2008-11-17"
                 mutual="#parliamentaryGroup.TPPF.10211 #parliamentaryGroup.AF.10260 #parliamentaryGroup.JLCSTPPF.1033 #parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TS_LKDF.1022"
                 name="coalition"
                 to="2009-07-16"/>
-      <relation ana="#S.6"
+      <relation active="#parliamentaryGroup.DPF.874 #parliamentaryGroup.FTT.579 #parliamentaryGroup.FVL.1021 #parliamentaryGroup.KPF.10210 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.MSNG.20080 #parliamentaryGroup.NSSF.795 #parliamentaryGroup.VLF.797"
+                ana="#S.6"
                 from="2008-11-17"
-                mutual="#parliamentaryGroup.DPF.874 #parliamentaryGroup.FTT.579 #parliamentaryGroup.FVL.1021 #parliamentaryGroup.KPF.10210 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.MSNG.20080 #parliamentaryGroup.NSSF.795 #parliamentaryGroup.VLF.797"
                 name="opposition"
+                passive="#government.LT"
                 to="2009-07-16"/>
       <relation ana="#S.6"
                 from="2009-07-16"
                 mutual="#parliamentaryGroup.AF.10260 #parliamentaryGroup.JLCSTPPF.1033 #parliamentaryGroup.LCSF.10330 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TS_LKDF.1022"
                 name="coalition"
                 to="2012-11-16"/>
-      <relation ana="#S.6"
+      <relation active="#parliamentaryGroup.TPPF.10211 #parliamentaryGroup.DPF.874 #parliamentaryGroup.FTT.579 #parliamentaryGroup.FVL.1021 #parliamentaryGroup.KPF.10210 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.MSNG.20080 #parliamentaryGroup.NSSF.795 #parliamentaryGroup.VLF.797"
+                ana="#S.6"
                 from="2009-07-16"
-                mutual="#parliamentaryGroup.TPPF.10211 #parliamentaryGroup.DPF.874 #parliamentaryGroup.FTT.579 #parliamentaryGroup.FVL.1021 #parliamentaryGroup.KPF.10210 #parliamentaryGroup.LSDPF.793 #parliamentaryGroup.MSNG.20080 #parliamentaryGroup.NSSF.795 #parliamentaryGroup.VLF.797"
                 name="opposition"
+                passive="#government.LT"
                 to="2012-11-16"/>
       <relation ana="#S.7"
                 from="2012-11-16"
@@ -1747,13 +1760,11 @@
       <relation ana="#S.9"
                 from="2020-11-13"
                 mutual="#parliamentaryGroup.LF.1154 #parliamentaryGroup.LSF.8700 #parliamentaryGroup.TS_LKDF.1022"
-                name="coalition"
-                to="2024-11-14"/>
+                name="coalition"/>
       <relation active="#parliamentaryGroup.DFVL.1322 #parliamentaryGroup.DPF.874 #parliamentaryGroup.LLRA_KSSF.1051 #parliamentaryGroup.LRF.577 #parliamentaryGroup.LSDDF.1098 #parliamentaryGroup.LSDPF.19928 #parliamentaryGroup.LVZSF.1070 #parliamentaryGroup.MSNG.20080"
                 ana="#S.9"
                 from="2020-11-13"
                 name="opposition"
-                passive="#government.LT"
-                to="2024-11-14"/>
+                passive="#government.LT"/>
    </listRelation>
 </listOrg>
