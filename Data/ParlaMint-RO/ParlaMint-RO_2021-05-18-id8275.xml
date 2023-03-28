@@ -7,7 +7,7 @@
         <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, May 18 2021 [ParlaMint SAMPLE]</title>
         <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 18 mai 2021</title>
         <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, May 18 2021</title>
-        <meeting n="20210518" corresp="#CD" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
+        <meeting n="20210518" corresp="#RoParl" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
         <respStmt>
           <persName>Petru Rebeja</persName>
           <persName>Mădălina Chitez</persName>
@@ -54,8 +54,8 @@
         <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
-          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
         </availability>
         <date when="2021-01-08">2021-01-08</date>
       </publicationStmt>
@@ -83,11 +83,11 @@
           <tagUsage gi="body" occurs="1"/>
           <tagUsage gi="div" occurs="1"/>
           <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="note" occurs="260"/>
+          <tagUsage gi="note" occurs="261"/>
           <tagUsage gi="u" occurs="199"/>
           <tagUsage gi="seg" occurs="694"/>
           <tagUsage gi="kinesic" occurs="0"/>
-          <tagUsage gi="desc" occurs="0"/>
+          <tagUsage gi="desc" occurs="7"/>
           <tagUsage gi="gap" occurs="0"/>
         </namespace>
       </tagsDecl>
@@ -102,9 +102,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-01-23">
-        <name>Petru Rebeja</name>
-      </change>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
     </revisionDesc>
   </teiHeader>
   <text ana="#reference">
@@ -302,9 +300,9 @@
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg1">Vă mulţumesc şi eu.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg2">Nemaiavând alte intervenţii, propunerea rămâne la votul final.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg3">Domnul deputat Feodorov voia să intervină?</seg>
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg4">Vreţi să interveniţi?(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg4">Vreţi să interveniţi?<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg5">Vă rog, dacă vreţi.</seg>
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg6">Aţi apăsat târziu, după ce am...(Vociferări.)...dar, vă rog.</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u16.seg6">Aţi apăsat târziu, după ce am...<vocal type="shouting"><desc>(Vociferări.)</desc></vocal>...dar, vă rog.</seg>
         </u>
         <note type="speaker">Domnul Lucian Feodorov:</note>
         <u ana="#regular" who="#Lucian-Feodorov" xml:id="ParlaMint-RO_2021-05-18-id8275.u17">
@@ -457,7 +455,9 @@
         <u ana="#chair" who="#Laurentiu-Dan-Leoreanu" xml:id="ParlaMint-RO_2021-05-18-id8275.u43">
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u43.seg1">Nu.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u43.seg2">Mă gândeam că, până atunci, poate...</seg>
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u43.seg3">(Domnul deputat Ovidiu Victor Ganţ solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u43.seg3">
+            <note type="editorial">(Domnul deputat Ovidiu Victor Ganţ solicită să ia cuvântul.)</note>
+          </seg>
         </u>
         <note type="speaker">Domnul Ovidiu Victor Ganţ:</note>
         <u ana="#regular" who="#Ovidiu-Victor-Gant" xml:id="ParlaMint-RO_2021-05-18-id8275.u44">
@@ -630,11 +630,11 @@
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg6">Şi ar trebui făcute în toate locurile în care aceşti oameni au suferit şi au biruit. Nu doar la Jilava, ci şi la Piteşti, la Aiud, Gherla, Periprava şi multe, multe altele. Pentru că, în aceste locuri, esenţa identităţii noastre naţionale, duhovniceşti şi culturale, dar nu numai, a fost sub un asediu trupesc, dar nu doar trupesc, ci mai ales duhovnicesc, esenţa şi scopul fiind distrugerea noastră interioară.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg7">Ca atare, prin faptul că aceşti oameni au biruit, chiar dacă trupeşte au cedat, funcţional au cedat, sufleteşte au biruit şi ei reprezintă cheia renaşterii noastre naţionale din acest marasm în care ne aflăm.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg8">Însă noi ce facem? La Piteşti, clădirile se înstrăinează, s-au înstrăinat, s-au dărâmat, osemintele s-au aruncat la gunoi.</seg>
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg9">La Târgu Ocna...(Vociferări.)...cimitirul s-a extins peste vechile gropi, osemintele au fost aruncate la gunoi.</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg9">La Târgu Ocna...<vocal type="shouting"><desc>(Vociferări.)</desc></vocal>...cimitirul s-a extins peste vechile gropi, osemintele au fost aruncate la gunoi.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg10">La Aiud, cimitirul s-a extins peste vechile morminte, neidentificate osemintele, construindu-se peste ele coteţe pentru porci.</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg11">Asta facem noi cu martirii, mărturisitorii, eroii şi sfinţii noştri!</seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg12">Ca atare, AUR îşi asumă politic înfiinţarea unor muzee în toate aceste locuri.</seg>
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg13">Mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u67.seg13">Mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Laurenţiu-Dan Leoreanu:</note>
         <u ana="#chair" who="#Laurentiu-Dan-Leoreanu" xml:id="ParlaMint-RO_2021-05-18-id8275.u68">
@@ -666,7 +666,7 @@
         </u>
         <note type="speaker">Domnul Laurenţiu-Dan Leoreanu:</note>
         <u ana="#chair" who="#Laurentiu-Dan-Leoreanu" xml:id="ParlaMint-RO_2021-05-18-id8275.u72">
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u72.seg1">Haideţi acum, nu mai...(Vociferări.)...lungim deja mai mult decât trebuie!</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u72.seg1">Haideţi acum, nu mai...<vocal type="shouting"><desc>(Vociferări.)</desc></vocal>...lungim deja mai mult decât trebuie!</seg>
         </u>
         <note type="speaker">Domnul Iulian Bulai:</note>
         <u ana="#regular" who="#Iulian-Bulai" xml:id="ParlaMint-RO_2021-05-18-id8275.u73">
@@ -710,7 +710,7 @@
         <note type="speaker">Domnul Laurenţiu-Dan Leoreanu:</note>
         <u ana="#chair" who="#Laurentiu-Dan-Leoreanu" xml:id="ParlaMint-RO_2021-05-18-id8275.u77">
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u77.seg1">Comisia sesizată în fond, Comisia pentru buget, finanţe şi bănci, prezentarea raportului, vă rog.</seg>
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u77.seg2">Domnul preşedinte Bogdan Huţucă?(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u77.seg2">Domnul preşedinte Bogdan Huţucă?<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u77.seg3">PL-x 173, raportul.</seg>
         </u>
         <note type="speaker">Domnul Bogdan-Iulian Huţucă:</note>
@@ -1301,7 +1301,7 @@
         </u>
         <note type="speaker">Domnul Iulian Bulai:</note>
         <u ana="#regular" who="#Iulian-Bulai" xml:id="ParlaMint-RO_2021-05-18-id8275.u165">
-          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u165.seg1">Vă mulţumesc mult pentru atenţie.(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-05-18-id8275.u165.seg1">Vă mulţumesc mult pentru atenţie.<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Laurenţiu-Dan Leoreanu:</note>
         <u ana="#chair" who="#Laurentiu-Dan-Leoreanu" xml:id="ParlaMint-RO_2021-05-18-id8275.u166">

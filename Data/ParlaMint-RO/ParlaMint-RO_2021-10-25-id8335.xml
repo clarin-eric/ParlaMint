@@ -7,7 +7,7 @@
         <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, October 25 2021 [ParlaMint SAMPLE]</title>
         <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 25 octombrie 2021</title>
         <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, October 25 2021</title>
-        <meeting n="20211025" corresp="#CD" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
+        <meeting n="20211025" corresp="#RoParl" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
         <respStmt>
           <persName>Petru Rebeja</persName>
           <persName>Mădălina Chitez</persName>
@@ -54,8 +54,8 @@
         <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
-          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
         </availability>
         <date when="2021-01-08">2021-01-08</date>
       </publicationStmt>
@@ -83,11 +83,11 @@
           <tagUsage gi="body" occurs="1"/>
           <tagUsage gi="div" occurs="1"/>
           <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="note" occurs="152"/>
+          <tagUsage gi="note" occurs="156"/>
           <tagUsage gi="u" occurs="129"/>
           <tagUsage gi="seg" occurs="620"/>
           <tagUsage gi="kinesic" occurs="0"/>
-          <tagUsage gi="desc" occurs="0"/>
+          <tagUsage gi="desc" occurs="4"/>
           <tagUsage gi="gap" occurs="0"/>
         </namespace>
       </tagsDecl>
@@ -102,9 +102,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-01-23">
-        <name>Petru Rebeja</name>
-      </change>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
     </revisionDesc>
   </teiHeader>
   <text ana="#reference">
@@ -168,7 +166,9 @@
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg5">Dacă nu, atunci considerăm propunerea liderului PSD însuşită de plen şi rugăm preşedinţii celor două comisii - Comisia pentru industrii şi Comisia pentru muncă - să adune colegii din comisii, şi mâine, după ora 9.00, să pornească dezbaterile, în speranţa că vom avea un raport cât mai rapid, astfel încât de la 1 noiembrie aceste măsuri să intre în vigoare.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg6">Stimaţi colegi,</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg7">Intrăm în ordinea de zi.</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg8">(Domnul deputat Csoma Botond solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg8">
+            <note type="editorial">(Domnul deputat Csoma Botond solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg9">Vă rog, iertaţi-mă!</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u3.seg10">Liderul Grupului UDMR, domnul Botond, vă rog.</seg>
         </u>
@@ -179,7 +179,7 @@
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u4.seg3">Vă cer acest lucru pentru că acest proiect de lege nu are raport, dar se împlineşte termenul pentru adoptare tacită şi, potrivit Regulamentului, art. 86 alin. (4) din Regulamentul Camerei, există această posibilitate, ca un proiect de lege să fie discutat şi în condiţiile în care nu are raport, dacă există un motiv întemeiat.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u4.seg4">Cred că motivul privind împlinirea termenului constituţional este un motiv întemeiat.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u4.seg5">Este un proiect de lege important şi nu cred că ar trebui să mergem pe adoptare tacită.</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u4.seg6">Deci, vă rog, el se află la punctul 8, să discutăm şi, în condiţiile în care...(Vociferări.)...sau 7 - îmi spune colegul Simonis -, să discutăm acest proiect de lege, avem prevedere regulamentară.</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u4.seg6">Deci, vă rog, el se află la punctul 8, să discutăm şi, în condiţiile în care...<vocal type="shouting"><desc>(Vociferări.)</desc></vocal>...sau 7 - îmi spune colegul Simonis -, să discutăm acest proiect de lege, avem prevedere regulamentară.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u4.seg7">Mulţumesc.</seg>
         </u>
         <note type="speaker">Domnul Florin-Claudiu Roman:</note>
@@ -197,10 +197,12 @@
         <note type="speaker">Domnul Florin-Claudiu Roman:</note>
         <u ana="#chair" who="#Florin-Claudiu-Roman" xml:id="ParlaMint-RO_2021-10-25-id8335.u8">
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg1">Vă mulţumesc şi eu, domnule lider.</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg2">O să rog liderii de grup să vină până la prezidiu.(Consultări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg2">O să rog liderii de grup să vină până la prezidiu.<note type="editorial">(Consultări.)</note></seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg3">Domnul Rodeanu!</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg4">Domnul Simion, dacă sunteţi amabil să mai reveniţi puţin?</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg5">(Consultări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg5">
+            <note type="editorial">(Consultări.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg6">Bun.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg7">Stimaţi colegi,</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u8.seg8">În urma consultărilor cu liderii de grup, am constatat că acest raport nu are semnătura preşedintelui de comisie şi nici a secretarului de comisie.</seg>
@@ -329,7 +331,7 @@
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u25.seg6">Vreau să vă spun tuturor un singur lucru - când un stat îşi cheamă cetăţenii să depună un jurământ militar, prin care aceştia se angajează să-şi apere ţara chiar cu preţul vieţii, niciodată statul respectiv nu pune problema dacă cetăţeanul respectiv are sau nu avere.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u25.seg7">Prin votul pe care noi îl dăm acestei legi facem o reparaţie.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u25.seg8">Şi profit de faptul de a vă aduce la cunoştinţă, distinşi colegi, că marea majoritate dintre dumneavoastră sunt convins că în zilele următoare veţi fi parte la un proiect de modificare a acestei legi, mai amplu, care să termine cu toate asperităţile la această categorie de personal.</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u25.seg9">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u25.seg9">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Florin-Claudiu Roman:</note>
         <u ana="#chair" who="#Florin-Claudiu-Roman" xml:id="ParlaMint-RO_2021-10-25-id8335.u26">
@@ -571,7 +573,9 @@
         <u ana="#chair" who="#Florin-Claudiu-Roman" xml:id="ParlaMint-RO_2021-10-25-id8335.u57">
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u57.seg1">Termenul pentru dezbatere şi vot final fiind depăşit, proiectul de lege se consideră adoptat, în conformitate cu prevederile art. 75 alin. (2) din Constituţia României şi ale art. 113 din Regulamentul Camerei Deputaţilor.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u57.seg2">Punctul 8 de pe ordinea de zi, Propunerea legislativă pentru modificarea Legii nr. 176/2010 privind integritatea...</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u57.seg3">(Domnul deputat Sorin-Dan Moldovan solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u57.seg3">
+            <note type="editorial">(Domnul deputat Sorin-Dan Moldovan solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u57.seg4">Pe procedură.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u57.seg5">Vă rog.</seg>
         </u>
@@ -678,7 +682,7 @@
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u72.seg5">Eu cred că Parlamentul poate şi trebuie să aibă o contribuţie mult mai semnificativă în ceea ce priveşte sportul, mai mare decât bifarea unor zile aniversare.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u72.seg6">Noi ne vom abţine.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u72.seg7">Şi profit de ocazie să vă lansez o invitaţie. Avem 75 de federaţii sportive, aşa că vă rog, haideţi să nu facem 74 de zile aniversare şi cu asta să credem că am rezolvat problemele sportului românesc.</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u72.seg8">Mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u72.seg8">Mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Florin-Claudiu Roman:</note>
         <u ana="#chair" who="#Florin-Claudiu-Roman" xml:id="ParlaMint-RO_2021-10-25-id8335.u73">
@@ -692,7 +696,7 @@
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u74.seg3">Suntem pentru investiţii în sport, suntem pentru mărirea bazei de selecţie şi pentru oferirea unei şanse tinerilor să se afirme, pentru că nu toţi pot deveni savanţi, matematicieni, buni fizicieni sau medici de renume. Tineretul nostru are nevoie de cât mai multe oportunităţi pentru a se afirma, şi una din aceste oportunităţi este sportul.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u74.seg4">Grupul AUR nu poate susţine o asemenea enormitate legislativă, nu are nicio legătură cu tradiţiile înotului din România, este o invenţie.</seg>
           <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u74.seg5">Şi haideţi să fim un pic mai serioşi şi să nu mai facem proiecte de lege, că s-ar putea, peste vreo două-trei luni, să vedem la vot un proiect privind ziua naţională a gărgăriţei, a muşeţelului sau a florii de soc.</seg>
-          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u74.seg6">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-10-25-id8335.u74.seg6">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Florin-Claudiu Roman:</note>
         <u ana="#chair" who="#Florin-Claudiu-Roman" xml:id="ParlaMint-RO_2021-10-25-id8335.u75">

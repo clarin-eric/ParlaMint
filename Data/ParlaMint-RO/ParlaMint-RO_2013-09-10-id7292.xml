@@ -7,7 +7,7 @@
         <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, September 10 2013 [ParlaMint SAMPLE]</title>
         <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 10 septembrie 2013</title>
         <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, September 10 2013</title>
-        <meeting n="20130910" corresp="#CD" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
+        <meeting n="20130910" corresp="#RoParl" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
         <respStmt>
           <persName>Petru Rebeja</persName>
           <persName>Mădălina Chitez</persName>
@@ -54,8 +54,8 @@
         <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
-          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
         </availability>
         <date when="2021-01-08">2021-01-08</date>
       </publicationStmt>
@@ -83,11 +83,11 @@
           <tagUsage gi="body" occurs="1"/>
           <tagUsage gi="div" occurs="1"/>
           <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="note" occurs="443"/>
+          <tagUsage gi="note" occurs="447"/>
           <tagUsage gi="u" occurs="284"/>
           <tagUsage gi="seg" occurs="1825"/>
           <tagUsage gi="kinesic" occurs="0"/>
-          <tagUsage gi="desc" occurs="0"/>
+          <tagUsage gi="desc" occurs="6"/>
           <tagUsage gi="gap" occurs="0"/>
         </namespace>
       </tagsDecl>
@@ -102,9 +102,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-01-23">
-        <name>Petru Rebeja</name>
-      </change>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
     </revisionDesc>
   </teiHeader>
   <text ana="#reference">
@@ -2519,7 +2517,7 @@
         </u>
         <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u219">
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u219.seg1">Mulţumesc. Nu există deputaţi independenţi.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u219.seg1">Mulţumesc. Nu există deputaţi independenţi.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u219.seg2">Există deputaţi neafiliaţi, conform Statutului deputatului şi senatorului votat de dumneavoastră, lege organică. Urmează ca în viitor să modificăm şi articolele din regulamentul nostru care, aşa cum a ieşit Decizia Curţii, multe nu mai sunt... Drept la replică, la final, domnule deputat. Bun.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u219.seg3">Punctul 26. Obiecţii, comentarii, articolul III? Nu. Admis.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u219.seg4">Punctul 27, articolul IV. Obiecţii, comentarii? Nu. Admis.</seg>
@@ -2563,7 +2561,7 @@
         <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u224">
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u224.seg1">Mulţumesc.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u224.seg2">Înainte de a începe dezbaterile generale, o să rog liderii grupurilor politice parlamentare să se apropie de prezidiu pentru o discuţie.(Consultări.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u224.seg2">Înainte de a începe dezbaterile generale, o să rog liderii grupurilor politice parlamentare să se apropie de prezidiu pentru o discuţie.<note type="editorial">(Consultări.)</note></seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u224.seg3">Bun. Este, m-am înţeles cu... m-am reînţeles cu colegii mei, liderii grupurilor politice parlamentare, pe formula pe care o avem.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u224.seg4">Dacă la dezbateri generale colegii doresc să ia cuvântul sau mergem direct în... doriţi să luaţi cuvântul la dezbateri generale.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u224.seg5">Aveţi cuvântul, domnule deputat.</seg>
@@ -2706,7 +2704,9 @@
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u252">
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg1">Păi ăsta este şi dreptul domnului Marian Neacşu. Păi de ce trebuie să veniţi la microfon să-l certaţi pe domnul Neacşu şi să vă daţi mare în faţa viceliderului grupului parlamentar, dacă eu i-am permis să ia cuvântul şi nu am văzut nimic. Dacă era o jignire la adresa domnului Tinel Gheorghe, îi atrăgeam atenţia domnului Neacşu.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg2">Aţi venit la microfon să spuneţi că n-are voie să ia cuvântul domnul Neacşu, dar are voie să ia cuvântul domnul Tinel Gheorghe. Păi, vă rog frumos să interpretaţi altfel. Eu vă dau cuvântul şi de şapte ori. Dacă un coleg consider că aduce jigniri altui coleg, îi opresc microfonul, ştiţi foarte bine. Şi aţi văzut că nu s-au mai întâmplat astfel de cazuri, nu am mai avut cazuri de acest gen în ultima perioadă. Mai ales din partea guvernanţilor.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg3">(Domnul deputat Emil Niţă, din partea Grupului parlamentar al PSD, doreşte să intervină.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg3">
+            <note type="editorial">(Domnul deputat Emil Niţă, din partea Grupului parlamentar al PSD, doreşte să intervină.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg4">Domnule deputat, nu vă dau cuvântul, pentru că vreau să mergem mai departe la amendamentele admise.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg5">Grupurile parlamentare au luat cuvântul pe tot ce trebuie.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u252.seg6">Să-i urăm la mulţi ani doamnei Vass pentru că a venit de ziua domniei sale astăzi. După Sfânta Maria... v-aţi aşezat foarte bine în luna septembrie. Ca orice Fecioară, am înţeles.</seg>
@@ -2830,14 +2830,18 @@
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u267.seg8">Partidul Democrat Liberal a susţinut şi atunci şi a votat şi astăzi pentru acest act normativ şi sperăm ca începând de astăzi cei ce sunt mandataţi în temeiul actului normativ să facă ordine în acest domeniu atât de important să o facă.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u267.seg9">Sper ca începând de astăzi expresia distinsului coleg de dimineaţă că nu mor oamenii când vor câinii să fie o realitate şi în România de acum încolo şi pentru totdeauna. Evident că acest lucru nu înseamnă să nu avem grijă de animale. Va trebui să ştim să îmbinăm grija pentru animale cu grija pentru om, protecţia animalelor cu protecţia pentru oameni. Şi acest act normativ care astăzi a fost adoptat va crea acest cadru legal prin care în primul rând omul să fie protejat şi pe urmă şi animalul.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u267.seg10">Eu mă bucur că astăzi am avut ocazia cu toţii să votăm în sfârşit acest act normativ şi sper el să fie de bun augur în ce priveşte interesul general care trebuie să unească toţi oamenii politici.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u267.seg11">Vă mulţumesc.(Aplauze. Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u267.seg11">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze. Vociferări.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u268">
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u268.seg1">Vă mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u268.seg2">Domnule deputat Daniel Fenechiu, aveţi cuvântul.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u268.seg3">O să vă rog frumos să păstraţi liniştea, dacă nu, vă evacuăm din sală. Asta este rugămintea mea. Asta este obligaţia dumneavoastră.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u268.seg4">(Invitaţii continuă să vocifereze împotriva votului dat de parlamentari.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u268.seg4">
+            <vocal type="shouting">
+              <desc>(Invitaţii continuă să vocifereze împotriva votului dat de parlamentari.)</desc>
+            </vocal>
+          </seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u268.seg5">Domnule deputat, aveţi cuvântul.</seg>
         </u>
         <note type="speaker">Domnul Cătălin-Daniel Fenechiu:</note>
@@ -2845,7 +2849,7 @@
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u269.seg1">Domnule preşedinte,</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u269.seg2">Doamnelor şi domnilor colegi,</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u269.seg3">Este regretabil că am ajuns în situaţia în care să fie nevoie să avem pe rolul Parlamentului o lege prin care să omorâm în masă animalele ca să putem masca incompetenţa primarului municipiului Bucureşti şi a altor primari care nu şi-au făcut treaba, nici ei, nici predecesorii lor, şi am ajuns în această situaţie.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u269.seg4">Neîndoielnic, trebuie luate măsuri.(Vociferări de la balcoane.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u269.seg4">Neîndoielnic, trebuie luate măsuri.<vocal type="shouting"><desc>(Vociferări de la balcoane.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u270">
@@ -2854,7 +2858,7 @@
         <note type="speaker">Domnul Cătălin-Daniel Fenechiu:</note>
         <u ana="#regular" who="#Catalin-Daniel-Fenechiu" xml:id="ParlaMint-RO_2013-09-10-id7292.u271">
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u271.seg1">Dar credem că de regulă măsurile totalitare, măsurile care prevăd exterminarea în masă nu sunt măsuri care să facă cinste unui popor european în secolul XXI. PP-DD s-a abţinut şi a votat împotrivă. Colegii mei au fost liberi să aleagă cum doresc ei, pentru că aceste măsuri nu sunt măsuri care să crească prestigiul naţiei române.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u271.seg2">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u271.seg2">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u272">
@@ -2910,7 +2914,9 @@
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u280">
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg1">Vă mulţumesc şi eu.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg2">Am să fac şi eu o singură scurtă consideraţie.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg3">(coboară la tribună.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg3">
+            <note type="editorial">(coboară la tribună.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg4">Doamnelor şi domnilor colegi,</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg5">Acum, pentru că presa este ocupată de organizaţiile neguvernamentale, eu aş vrea să vă mulţumesc tuturor că aţi luat o decizie rapidă, ceea ce nu au fost în stare fostele parlamente în 7 ani, cu alte majorităţi, să decidă.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg6">Aş vrea să vă spun că acest proiect de lege este unul mult mai corect şi pentru animale şi protejează omul, aşa cum suntem obligaţi prin Constituţie.</seg>
@@ -2920,8 +2926,10 @@
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg10">Responsabilitatea autorităţilor locale era şi până la aprobarea acestui proiect de lege. Pentru că aveam Legea din 2001 care era în vigoare pentru câinii comunitari, cei fără stăpân. pentru cei cu stăpân era Legea de protecţie a animalelor, în care era scris foarte clar, fiecare articole începe cu "deţinătorul de animal". Asta înseamnă cel care este proprietar.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg11">Şi vreau să fim corecţi cu noi înşine, acest Parlament mare, de 407 parlamentari, dacă promitem un lucru în ultimele 7 luni de zile şi spunem că în săptămâna X sau în luna Y vom face acel lucru, spre deosebire de alte parlamente, în care eu am fost membru, ca şi dumneavoastră, stând în bănci, ne-am ţinut de cuvânt. Şi acesta este un pas important în restabilirea poziţiei Parlamentului României şi al parlamentarismului între instituţiile fundamentale ale statului român. Şi cu ocazia aceasta, este un moment, vreau să le mulţumesc tuturor, de la PDL, UDMR, până la PP-DD şi deputaţilor neafiliaţi.</seg>
           <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg12">În momentul în care trebuie să luăm decizii, suntem prezenţi şi ne facem treaba.</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg13">Vă mulţumesc foarte mult.(Aplauze.)</seg>
-          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg14">(Îşi reia locul la prezidiu.)</seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg13">Vă mulţumesc foarte mult.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
+          <seg xml:id="ParlaMint-RO_2013-09-10-id7292.u280.seg14">
+            <note type="editorial">(Îşi reia locul la prezidiu.)</note>
+          </seg>
         </u>
         <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
         <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2013-09-10-id7292.u281">

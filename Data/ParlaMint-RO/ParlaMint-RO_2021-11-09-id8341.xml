@@ -7,7 +7,7 @@
         <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, November 9 2021 [ParlaMint SAMPLE]</title>
         <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 9 noiembrie 2021</title>
         <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, November 9 2021</title>
-        <meeting n="20211109" corresp="#CD" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
+        <meeting n="20211109" corresp="#RoParl" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
         <respStmt>
           <persName>Petru Rebeja</persName>
           <persName>Mădălina Chitez</persName>
@@ -54,8 +54,8 @@
         <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
-          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
         </availability>
         <date when="2021-01-08">2021-01-08</date>
       </publicationStmt>
@@ -83,11 +83,11 @@
           <tagUsage gi="body" occurs="1"/>
           <tagUsage gi="div" occurs="1"/>
           <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="note" occurs="332"/>
+          <tagUsage gi="note" occurs="336"/>
           <tagUsage gi="u" occurs="245"/>
           <tagUsage gi="seg" occurs="1413"/>
           <tagUsage gi="kinesic" occurs="0"/>
-          <tagUsage gi="desc" occurs="0"/>
+          <tagUsage gi="desc" occurs="44"/>
           <tagUsage gi="gap" occurs="0"/>
         </namespace>
       </tagsDecl>
@@ -102,9 +102,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-01-23">
-        <name>Petru Rebeja</name>
-      </change>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
     </revisionDesc>
   </teiHeader>
   <text ana="#reference">
@@ -486,7 +484,7 @@
         <note type="speaker">Domnul Mihai Ioan Lasca:</note>
         <u ana="#regular" who="#Mihai-Ioan-Lasca" xml:id="ParlaMint-RO_2021-11-09-id8341.u39">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u39.seg1">Aşa să ne ajute Dumnezeu!</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u39.seg2">Deputat independent Mihai Lasca.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u39.seg2">Deputat independent Mihai Lasca.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Doamna Cristina-Mădălina Prună:</note>
         <u ana="#chair" who="#Cristina-Madalina-Pruna" xml:id="ParlaMint-RO_2021-11-09-id8341.u40">
@@ -756,7 +754,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u70.seg9">După primul pas al unicului spaţiu telefonic, să creăm un unic spaţiu energetic, un spaţiu unic de învăţământ, sănătate etc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u70.seg10">Sprijinul financiar şi politic al Bucureştiului pentru Chişinău trebuie orientat cu prioritate către proiecte de interes direct pentru cetăţenii Republicii Moldova şi pentru proiecte strategice de natură să sprijine conectarea acestora la spaţiul european de valori şi dezvoltare, spaţiu care începe cu România. Pentru Chişinău, toate drumurile către Europa duc, cum este şi firesc, prin Bucureşti.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u70.seg11">Vă mulţumesc.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u70.seg12">Boris Volosatîi, deputat AUR, Circumscripţia nr. 43 pentru cetăţenii români din afara ţării.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u70.seg12">Boris Volosatîi, deputat AUR, Circumscripţia nr. 43 pentru cetăţenii români din afara ţării.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Doamna Cristina-Mădălina Prună:</note>
         <u ana="#chair" who="#Cristina-Madalina-Pruna" xml:id="ParlaMint-RO_2021-11-09-id8341.u71">
@@ -1291,11 +1289,11 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u114.seg1">Vă mulţumesc, domnule preşedinte.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u114.seg2">Aş dori să cer, de pe punctul 44, PL-x 323/2021 - Proiectul de Lege pentru modificarea alin. (7) al art. 4 din Ordonanţa de urgenţă a Guvernului nr. 60/2020 privind unele măsuri financiare în vederea implementării proiectelor de infrastructură fazate din perioada de programare 2007-2013, finanţate din fondurile Uniunii Europene aferente perioadei de programare 2014-2020 -, să-l aduc în faţă, pe poziţia 12.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u114.seg3">Am discutat cu colegii; sunt de acord.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u114.seg4">Vă mulţumesc.(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u114.seg4">Vă mulţumesc.<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u115">
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u115.seg1">Dacă şi ceilalţi lideri sunt de acord?(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u115.seg1">Dacă şi ceilalţi lideri sunt de acord?<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u115.seg2">Neexistând consens, supun votului propunerea domnului deputat Benedek.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u115.seg3">Începem votul.</seg>
         </u>
@@ -1419,7 +1417,9 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u131.seg1">Şi eu vă mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u131.seg2">Nemaifiind nimeni înscris pentru dezbateri generale, trecem la dezbaterea proiectului de lege.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u131.seg3">Sunt 17 amendamente admise.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u131.seg4">(Domnul deputat Dan Tanasă solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u131.seg4">
+            <note type="editorial">(Domnul deputat Dan Tanasă solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u131.seg5">Domnul deputat Tanasă doreşte la dezbateri generale?</seg>
         </u>
         <note type="speaker">Domnul Dan Tanasă (din sală):</note>
@@ -1454,16 +1454,16 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg20">Sigur, au fost atâtea legi adoptate în această încăpere şi toate par inofensive.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg21">AUR nu susţine acest demers. Nu pentru că este împotriva acestui mecanism care a dus la dezvoltarea unor zone din România.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg22">AUR nu susţine acest PL-x pentru că, repet, conţine nişte chestiuni cu care nu ar trebui să fim cu toţii de acord.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg23">A, suntem de acord să meargă bani în Harghita şi Covasna, sigur că suntem de acord. Pentru că, spre deosebire de colegii de la UDMR, noi nu suntem anti nimeni, noi suntem pentru.(Râsete.)</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg24">Susţinem doar alocarea fondurilor, nu pe criterii etnice, aşa cum v-aţi obişnuit şi aţi fost toleraţi de 30 de ani în Harghita şi Covasna.(Aplauze.)</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg25">Când trebuie să construiţi spitale, săli de sport...(Aplauze.)...când trebuie să asfaltaţi...(Aplauze.)...veniţi tot timpul la Bucureşti, dar când trebuie să alocaţi bani pentru proiecte culturale, pentru dezvoltarea tuturor cetăţenilor din Harghita şi Covasna o faceţi exclusiv pe criterii etnice.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg26">Dacă în loc de unguri şi maghiari, în Harghita şi Covasna aveam negri şi albi, aţi fi fost nişte rasişti, pentru felul în care împărţiţi banii în Harghita şi Covasna.(Aplauze.)</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg27">Dar aşa...(Aplauze.)...domnule, dacă e vorba despre români...(Aplauze.)...e vorba despre românii aceia din Harghita şi Covasna, care oricum nu contează în calculele politice de la Bucureşti, şi, atunci... nici pentru PSD, nici pentru PNL, nici pentru USR, şi, atunci, nu ne interesează.</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg23">A, suntem de acord să meargă bani în Harghita şi Covasna, sigur că suntem de acord. Pentru că, spre deosebire de colegii de la UDMR, noi nu suntem anti nimeni, noi suntem pentru.<vocal type="laughter"><desc>(Râsete.)</desc></vocal></seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg24">Susţinem doar alocarea fondurilor, nu pe criterii etnice, aşa cum v-aţi obişnuit şi aţi fost toleraţi de 30 de ani în Harghita şi Covasna.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg25">Când trebuie să construiţi spitale, săli de sport...<vocal type="noise"><desc><vocal type="noise"><desc>(Aplauze.)</desc></vocal></desc></vocal>...când trebuie să asfaltaţi...(Aplauze.)...veniţi tot timpul la Bucureşti, dar când trebuie să alocaţi bani pentru proiecte culturale, pentru dezvoltarea tuturor cetăţenilor din Harghita şi Covasna o faceţi exclusiv pe criterii etnice.</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg26">Dacă în loc de unguri şi maghiari, în Harghita şi Covasna aveam negri şi albi, aţi fi fost nişte rasişti, pentru felul în care împărţiţi banii în Harghita şi Covasna.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg27">Dar aşa...<vocal type="noise"><desc><vocal type="noise"><desc>(Aplauze.)</desc></vocal></desc></vocal>...domnule, dacă e vorba despre români...(Aplauze.)...e vorba despre românii aceia din Harghita şi Covasna, care oricum nu contează în calculele politice de la Bucureşti, şi, atunci... nici pentru PSD, nici pentru PNL, nici pentru USR, şi, atunci, nu ne interesează.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg28">Noi, cei de la AUR, susţinem că şi românii din Harghita şi Covasna merită să beneficieze de aceste fonduri.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg29">Iar dacă... în 30 de ani UDMR n-a oferit niciodată garanţia că românii din Harghita şi Covasna beneficiază de un tratament nediscriminatoriu.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg30">Iar eu am, din păcate, zeci de decizii ale Consiliului Naţional pentru Combaterea Discriminării, care confirmă ceea ce spun eu.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg31">AUR va vota împotriva acestui PL-x.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg32">Mulţumesc frumos.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u134.seg32">Mulţumesc frumos.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u135">
@@ -1474,7 +1474,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u136.seg1">Vă mulţumesc, domnule preşedinte.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u136.seg2">Am un amendament introdus de mine în această propunere legislativă, în care am introdus Asociaţia de Dezvoltare "Monte Făgăraş Bîlea", care atinge judeţele şi va dezvolta judeţele - Sibiu, Braşov, Argeş şi Vâlcea. În toate aceste judeţe, maghiarii sunt majoritari, oare?</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u136.seg3">Avem ITI Bacău, introdus tot de mine, unde, într-adevăr, maghiarii sunt "majoritari"!</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u136.seg4">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u136.seg4">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u137">
@@ -1495,7 +1495,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u138.seg10">Nu mă interesează cum o să se cheme domeniul acesta schiabil, însă aş vrea să-l văd făcut şi o să fie un avantaj pentru toţi românii.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u138.seg11">Există un ITI, în acest proiect, de la Buzău, unul din Munţii Apuseni, unul de la Bacău şi aşa mai departe. Se deschid nişte porţi, nişte oportunităţi de dezvoltare.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u138.seg12">Proiectul spune că ADR-urile trebuie să dea bani pentru asistenţă tehnică pentru dezvoltarea strategiei pentru fiecare dintre aceste ITI-uri şi de acolo încolo este treaba oamenilor gospodari şi corecţi să facă să se întâmple aceste lucruri.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u138.seg13">Deci noi vom vota pentru.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u138.seg13">Deci noi vom vota pentru.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u139">
@@ -1511,8 +1511,8 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg5">Deci să vă mai documentaţi, ori pe Google, ori pe Wikipedia, e foarte uşor şi o să vă daţi seama ce prostii vorbiţi de la acest microfon.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg6">Stimaţi colegi, "şopârlele" le băgaţi sau le introduceţi dumneavoastră, noi nu dorim nicio "şopârlă", dorim să avem o Românie stabilă, care se dezvoltă.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg7">Ţin să vă anunţ că la Balvanyos vin foarte mulţi turişti români, inclusiv de la Bucureşti, şi se simt foarte bine în Ţinutul Secuiesc.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg8">Deci aceste prostii pe care le susţineţi şi vreţi să contribuiţi în mod artificial la crearea unor tensiuni între români şi maghiari nu mai ţin. Oamenii s-au prins...(Vociferări.) ....oamenii s-au prins că vorbiţi prostii.(Vociferări.)</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg9">Mulţumesc.(Aplauze. Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg8">Deci aceste prostii pe care le susţineţi şi vreţi să contribuiţi în mod artificial la crearea unor tensiuni între români şi maghiari nu mai ţin. Oamenii s-au prins...<vocal type="shouting"><desc><vocal type="shouting"><desc>(Vociferări.)</desc></vocal> ....</desc></vocal>oamenii s-au prins că vorbiţi prostii.(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u140.seg9">Mulţumesc.<vocal type="noise"><desc>(Aplauze. Vociferări.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u141">
@@ -1540,7 +1540,7 @@
         <note type="speaker">Domnul Dan Tanasă:</note>
         <u ana="#regular" who="#Dan-Tanasa" xml:id="ParlaMint-RO_2021-11-09-id8341.u144">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg1">Da.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg2">Voiam doar să spun că "Ţinutul Secuiesc" există doar în mintea celor care vor "Ungaria Mare". În realitate, "Ţinutul Secuiesc" nu există, iar cei care susţin că "Ţinutul Secuiesc" există...(Aplauze.)...sunt nişte nostalgici ai "Ungariei Mari"...(Aplauze.)...şi, ca atare, nişte duşmani ai României, fără doar şi poate.</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg2">Voiam doar să spun că "Ţinutul Secuiesc" există doar în mintea celor care vor "Ungaria Mare". În realitate, "Ţinutul Secuiesc" nu există, iar cei care susţin că "Ţinutul Secuiesc" există...<vocal type="noise"><desc><vocal type="noise"><desc>(Aplauze.)</desc></vocal></desc></vocal>...sunt nişte nostalgici ai "Ungariei Mari"...(Aplauze.)...şi, ca atare, nişte duşmani ai României, fără doar şi poate.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg3">Şi a doua chestiune. Denumirea acestei asociaţii care urmează să fie cuprinsă acolo este Asociaţia de Dezvoltare Intercomunitară Csomad-Balvanyos - să ne înţelegem foarte bine, ca să ştie toţi parlamentarii.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg4">Iar, domnule ministru Budăi, sigur că mâine o să propună colegii de la UDMR dezvoltarea României sub sintagma "Proiectul de Dezvoltare Naţională a României «Ungaria Mare»". Şi, la fel, veţi ridica mâna şi o să votaţi, că doar e pentru dezvoltarea României, domnule, cum să nu votez?!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg5">Sau vor pune mâine "Proiectul de Dezvoltare a României «Wass Albert»". Şi o să-l votaţi şi pe acela. De ce? Păi, pentru că e pentru dezvoltarea României, nu contează că poartă denumirea unui criminal de război vinovat de moartea unor români şi evrei! Nu contează, e pentru dezvoltare!</seg>
@@ -1549,7 +1549,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg8">Trebuia să le spuneţi colegilor de la UDMR, domnilor, vă susţinem, sigur, susţinem, să meargă bani şi acolo, dar hai să găsim o asociaţie cu un nume care să respecte atât, nu să respecte ce vrea AUR sau Dan Tanasă, să respecte Constituţia României, unde este prevăzută o singură limbă oficială de stat.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg9">Până acum le-aţi permis la nivel local şi şi-au bătut joc peste tot. Şi-au bătut joc şi au făcut, în Harghita şi Covasna, din limba maghiară au făcut, practic, prima limbă oficială de stat.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg10">Sunt nişte detalii care ţin... nu ţin de ceea ce vreau eu sau ce vrea AUR, ţin de respectarea Constituţiei României şi de respectarea limbii oficiale de stat.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg11">Mulţumesc frumos.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u144.seg11">Mulţumesc frumos.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u145">
@@ -1578,13 +1578,13 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg2">Nu aveam de gând să intervin în această întâlnire, însă ce am văzut m-a supărat şi m-a revoltat efectiv.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg3">Ca director de unitate, la Revoluţie am primit nu ştiu câţi ingineri stagiari în unitatea în care am lucrat, pentru că au fost fugăriţi efectiv din Ardeal, sub diferite moduri. Chemaţi la cimitir şi întrebaţi: "Ăsta e locul vostru? Aveţi aici morţi? Nu. Valea!". Aşa li s-a spus. Şi aşa mai departe.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg4">Spun acest lucru nu în ideea unei revanşe, ci în ideea unei raţiuni ulterioare care să ne permită să coexistăm. Asta e situaţia. Suntem împreună şi atunci haideţi să nu fim machiavelici şi să spunem adevărul în faţă. Şi nu cu ură, ci cu înţelegere, cu minte şi cu un mod de a acţiona care să permită dezvoltarea acestei ţări.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg5">Întâmplător eu sunt din Botoşani, am trecut de multe ori munţii şi mi s-a întâmplat de multe ori la Târgu Secuiesc sau în alte locuri în care să mi se spună că: "Nu ştim limba română".(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg5">Întâmplător eu sunt din Botoşani, am trecut de multe ori munţii şi mi s-a întâmplat de multe ori la Târgu Secuiesc sau în alte locuri în care să mi se spună că: "Nu ştim limba română".<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg6">Nu v-am întrerupt!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg7">Deci eu vă spun să tragem învăţămintele, nu spun pentru altceva! Ştiţi? Am iertat, dar n-am uitat! Şi trebuie să fim foarte atenţi ca în etapa următoare să nu se mai întâmple ce s-a întâmplat.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg8">Mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg9">Sănătate!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg10">Nu voi vota acest proiect.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg11">Sănătate!(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u148.seg11">Sănătate!<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u149">
@@ -1601,7 +1601,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u150.seg6">Cei care sunt patrioţi poate cunosc şi ceea ce a scris Ion Neculce şi cei care sunt cărturarii moldoveni.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u150.seg7">Dacă o să citească aceste opere din nou, atunci o să vadă că acolo vorbeşte de secui şi de Ţinutul Secuiesc, care au luptat alături de Ştefan cel Mare.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u150.seg8">Dacă domnul coleg vrea să-i rescrie pe cărturarii moldoveni nu are decât, dar eu am învăţat la şcoală despre aceste lucruri. Că lui îi lipsesc aceste acţiuni şi vorbeşte împotriva unei comunităţi, care chiar dacă este negată de dumnealui, există şi a existat, şi există în literatura de specialitate, există în istoriografia românească, aceasta nu face nimic altceva decât că denotă o cultură cu multe lipsuri.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u150.seg9">Vă mulţumesc mult.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u150.seg9">Vă mulţumesc mult.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u151">
@@ -1620,7 +1620,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u152.seg8">Nu contează ce naţionalitate are omul din Braşov, Harghita, Covasna, contează că prin acest proiect de lege avem un instrument în plus să accesăm bani europeni. Restul e doar demagogie şi temă falsă care folosesc doar unui partid sau altuia.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u152.seg9">Vă mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u152.seg10">Votăm acest proiect de lege cu inima deschisă.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u152.seg11">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u152.seg11">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u153">
@@ -1764,7 +1764,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u168.seg4">Ca atare, ne întrebăm dacă nu va exista o problemă de respectare a principiului bicameralismului.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u168.seg5">Nu putem fi împotriva formei din raport, care prevede, pe de o parte, eliminarea unor articole, iar, pe de altă parte, adăugarea altora, care nu au legătură cu forma iniţială a legii.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u168.seg6">Ca atare, probabil ne vom abţine.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u168.seg7">Mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u168.seg7">Mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u169">
@@ -1787,9 +1787,9 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg6">Nu puteţi, deputaţii... Da? Toate mandatele noastre sunt egale.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg7">Dacă doi deputaţi se adună la o masă nu pot ei să hotărască cum îmi pot eu exercita, al treilea deputat, mandatul.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg8">Fac un apel la raţiune. Eu zic să ne calmăm şi să nu împingem demenţa asta într-o zonă în care mai târziu vă va fi ruşine.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg9">O hotărâre de Birouri permanente prin care interziceţi accesul în plen şi în clădirea Parlamentului deputaţilor care nu sunt vaccinaţi va fi o hotărâre nazistă. Şi fac un apel la voi să vă calmaţi şi să înţelegeţi că toate mandatele noastre sunt egale, nu sunt unii mai egali decât alţii.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg9">O hotărâre de Birouri permanente prin care interziceţi accesul în plen şi în clădirea Parlamentului deputaţilor care nu sunt vaccinaţi va fi o hotărâre nazistă. Şi fac un apel la voi să vă calmaţi şi să înţelegeţi că toate mandatele noastre sunt egale, nu sunt unii mai egali decât alţii.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg10">Şi vă rog eu frumos să înţelegem că Birourile permanente reunite pot adopta anumite hotărâri, dar nu pot adopta orice hotărâre le trece prin cap membrilor Birourilor permanente reunite.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg11">Mulţumesc frumos.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u170.seg11">Mulţumesc frumos.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u171">
@@ -1917,12 +1917,12 @@
         <u ana="#regular" who="#Ionel-Danca" xml:id="ParlaMint-RO_2021-11-09-id8341.u186">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg1">Mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg2">Stimaţi colegi,</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg3">Vreau să explic votul acordat de grupul dezafiliaţilor din Grupul parlamentar al PNL...(Vociferări.) ...dezafiliaţilor de la PNL...(Aplauze.)...sau, mai simplu, pe româneşte spus, grupul parlamentarilor liberi din Partidul Naţional Liberal, votul pe care l-am dat pentru acest proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg3">Vreau să explic votul acordat de grupul dezafiliaţilor din Grupul parlamentar al PNL...<vocal type="shouting"><desc>(Vociferări.) ...</desc></vocal>dezafiliaţilor de la PNL...<vocal type="noise"><desc>(Aplauze.)</desc></vocal>...sau, mai simplu, pe româneşte spus, grupul parlamentarilor liberi din Partidul Naţional Liberal, votul pe care l-am dat pentru acest proiect de lege.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg4">Aş vrea să fac o precizare, pentru că am văzut la dezbaterile generale doi colegi, unul de la PSD, unul de la PNL - tot PSD-ist, "după vorbă, după port" - clamând revoluţia care începe în autorităţile de management ale Programului Operaţional Regional odată cu adoptarea acestei legi. Un fel de impostură prin care cei doi colegi vor să arate că noua frăţie, PNL-PSD, face reforme.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg5">Adevărul este simplu, stimaţi colegi, şi oamenii îl cunosc. Cu atât mai mult mă surprinde de la doi parlamentari care nu sunt la primul mandat. Vorbim de un proiect de lege pentru aprobarea unei ordonanţe de urgenţă. Prin urmare, acea revoluţie este deja în desfăşurare şi acea revoluţie a fost începută de Guvernul Orban.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg6">Ordonanţa nr. 122/2020...(Vociferări.)...este ordonanţa care descentralizează managementul Programului Operaţional Regional la nivelul autorităţilor de management şi este o reformă începută de Guvernul Orban, chiar în condiţii de pandemie, chiar cu un Guvern minoritar.</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg6">Ordonanţa nr. 122/2020...<vocal type="shouting"><desc>(Vociferări.)</desc></vocal>...este ordonanţa care descentralizează managementul Programului Operaţional Regional la nivelul autorităţilor de management şi este o reformă începută de Guvernul Orban, chiar în condiţii de pandemie, chiar cu un Guvern minoritar.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg7">Aşa încât cei care caută acum scuze pentru a nu face reforme într-o majoritate stabilă cu PSD nu fac decât să trădeze încrederea românilor.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg8">Se poate, dragi colegi de la PNL, ca împreună cu USR, cu UDMR, să facem în continuare reforme.(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u186.seg8">Se poate, dragi colegi de la PNL, ca împreună cu USR, cu UDMR, să facem în continuare reforme.<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u187">
@@ -1937,7 +1937,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u188.seg4">Nu există grup al neafiliaţilor, nu există grup al dezafiliaţilor, există doar deputaţi neafiliaţi.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u188.seg5">Domnule preşedinte,</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u188.seg6">Am marea rugăminte ca atunci când cineva vine la microfon şi prezintă lucruri care nu au legătură cu realitatea parlamentară regulamentară să îi atrageţi atenţia să se prezinte corespunzător.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u188.seg7">Mulţumesc mult.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u188.seg7">Mulţumesc mult.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u189">
@@ -1950,14 +1950,16 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u190.seg2">Mulţumesc frumos, domnule preşedinte.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u190.seg3">PL-x 507 - Legea pentru aprobarea Ordonanţei de urgenţă a Guvernului nr. 122/2020 privind unele măsuri pentru asigurarea eficientizării procesului decizional al fondurilor externe nerambursabile destinate dezvoltării regionale în România, reexaminată la cererea Preşedintelui României.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u190.seg4">Voiam doar să informez plenul că AUR a votat pentru, a votat în favoarea... pentru că, aşa cum am explicat şi în intervenţiile mele anterioare, AUR, contrar afirmaţiilor colegilor, nu este împotriva dezvoltării României şi, iată, am dovedit-o la vot, votând acest PL-x care se referă la acele ADR-uri şi ITI, da, deci suntem pentru dezvoltarea României - pentru cine înţelege limba română.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u190.seg5">Mulţumesc frumos.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u190.seg5">Mulţumesc frumos.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u191">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u191.seg1">Vă mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u191.seg2">Legea a fost adoptată.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u191.seg3">Punctul 2...</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u191.seg4">(Domnul deputat Florin-Claudiu Roman solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u191.seg4">
+            <note type="editorial">(Domnul deputat Florin-Claudiu Roman solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u191.seg5">Vă rog, domnule...</seg>
         </u>
         <note type="speaker">Domnul Florin-Claudiu Roman:</note>
@@ -2002,7 +2004,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u196.seg13">Şi pe această cale vreau să-l felicit pe domnul ministru pentru performanţa obţinută la Olimpiada Paralimpică de la Tokyo de anul acesta!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u196.seg14">Şi aş vrea să vă felicit, domnilor colegi, şi pe dumneavoastră, pentru că aţi votat acest proiect!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u196.seg15">Cred că astăzi am votat un proiect foarte util ţării, am votat pentru viitorul României.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u196.seg16">Mulţumesc mult.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u196.seg16">Mulţumesc mult.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u197">
@@ -2023,7 +2025,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u198.seg9">Dacă în '84 România era a treia ţară pe naţiuni în lume ca număr de medalii, şi a doua în lume ca număr de medalii de aur, obţinând cred că vreo 46 de medalii sau 40 de medalii, anul acesta, la Tokyo, România a fost pe locul 46, obţinând o singură medalie de aur şi 3 de argint.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u198.seg10">Iar acest lucru... am ajuns la acest lucru din cauza faptului că acest domeniu este subfinanţat.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u198.seg11">De aceea, astăzi, dumneavoastră, prin votul pe care l-aţi dat, aţi demonstrat că vă gândiţi foarte serios la viitorul olimpismului românesc şi la viitorul ambasadorilor României pe mapamond.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u198.seg12">Vă mulţumesc încă o dată şi vă felicit!(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u198.seg12">Vă mulţumesc încă o dată şi vă felicit!<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u199">
@@ -2103,7 +2105,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u206.seg2">Aici s-a discutat foarte bine de bani alocaţi pentru performanţă, de infrastructură, însă antevorbitorul meu a punctat un lucru foarte important - nişte politici prin care copiii noştri să ajungă într-adevăr la această infrastructură, la aceşti antrenori, la aceşti bani. Pentru că, în prezent, problema principală care există între copii şi sport este complexă.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u206.seg3">Sunt necesare măsuri prin care copiii noştri să fie scoşi, protejaţi de digitalizarea excesivă, deci de ecran, care îi scoate din zona sportului, de hipersexualizare, de o lipsă de repere adevărate.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u206.seg4">Doar scoţându-i pe copii din aceste influenţe nocive putem să-i aducem în zona sportului şi să avem o bază de selecţie şi numeroasă şi calitativă.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u206.seg5">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u206.seg5">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u207">
@@ -2150,7 +2152,7 @@
         <u ana="#regular" who="#Ilie-Alin-Colesa" xml:id="ParlaMint-RO_2021-11-09-id8341.u214">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u214.seg1">... pentru familiile cu mulţi copii.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u214.seg2">Deci închei. Atât.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u214.seg3">Mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u214.seg3">Mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u215">
@@ -2163,7 +2165,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u216.seg2">Şi USR a votat acest proiect de lege. Considerăm că reducerea de fiscalitate pentru lemnul de foc este o măsură foarte bună.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u216.seg3">Însă aş vrea să fac apel la memoria dumneavoastră şi să vă spun că acum două săptămâni am votat un proiect de lege pentru compensarea facturilor la energie. Şi vă spuneam atunci că noi, USR, am propus un proiect de lege care venea ca alternativă la acel proiect de lege şi care prevedea tocmai această măsură foarte simplă pe care marea majoritate a dumneavoastră aţi votat-o şi astăzi, anume reducerea TVA-ului la 5% pentru energie electrică şi gaze naturale.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u216.seg4">Ce vreau să vă spun este că, din păcate, văd o lipsă de consecvenţă astăzi, în rândul dumneavoastră, şi că aşa cum pentru lemnul de foc am putut să reducem TVA-ul la 5%, am fi putut să acţionăm în mod similar şi pentru energia electrică şi gaze naturale. Ar fi fost o măsură extrem de simplă, care s-ar fi văzut imediat în factură, de acum, de la 1 noiembrie. Aţi ales, din păcate, calea complicată. Şi vă mai spun încă o dată că sper ca aceasta să se poată aplica şi românii chiar să vadă acea diferenţă de preţ în factură, chiar dacă n-aţi vrut să mergeţi pe soluţia USR.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u216.seg5">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u216.seg5">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u217">
@@ -2174,7 +2176,7 @@
         <u ana="#regular" who="#Alfred-Robert-Simonis" xml:id="ParlaMint-RO_2021-11-09-id8341.u218">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u218.seg1">Mulţumesc, domnule preşedinte.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u218.seg2">Evident, mă bucură faptul că iniţiativele PSD sunt votate de toţi colegii în Parlament, inclusiv de Grupul USR. Mulţumim pentru asta. Însă nu e niciun fel de lipsă de consecvenţă.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u218.seg3">E foarte simplu. Iniţiativele PSD sunt bune şi sunt votate şi de USR, iar cele ale USR-ului nu pot fi votate, pentru că nu sunt bune!(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u218.seg3">E foarte simplu. Iniţiativele PSD sunt bune şi sunt votate şi de USR, iar cele ale USR-ului nu pot fi votate, pentru că nu sunt bune!<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u219">
@@ -2196,7 +2198,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u222.seg1">Mulţumesc, domnule preşedinte.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u222.seg2">În numele Grupului PNL, vreau să mulţumesc tuturor colegilor pentru votul pe acest proiect de lege care reduce TVA-ul de la 19% la 5% pentru populaţie, o măsură bine-venită şi aşteptată de populaţie, în condiţiile unei crize şi pe zona energetică, dar şi pe cea a unei ierni care se anunţă destul de dificilă şi în condiţiile în care preţul lemnelor de foc practic s-a dublat în ultima perioadă.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u222.seg3">Vreau să transmit mulţumirea colegului deputat Corneliu Olar, cel care a iniţiat acest proiect de lege în 2018, care a insistat, a fost consecvent, şi astăzi el devine lege.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u222.seg4">Vă mulţumim pentru votul dumneavoastră.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u222.seg4">Vă mulţumim pentru votul dumneavoastră.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u223">
@@ -2208,7 +2210,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u224.seg1">Mulţumesc, domnule preşedinte.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u224.seg2">E puţin ridicol ce se întâmplă acum. Practic sunt două proiecte de lege care reglementează acelaşi Cod fiscal, acelaşi aspect, dar o să mă întrebaţi de ce sunt două, de ce nu sunt contopite într-unul singur. Ca amândouă partidele să poată să spună că ele au făcut un anumit lucru.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u224.seg3">Da, domnule Simonis, într-adevăr, USR a votat şi va vota pentru aceste partide şi va vota întotdeauna în interesul României. Şi asta este exact ceea ce vom face şi ne-am dori să vedem acelaşi lucru şi de la dumneavoastră. Pentru că atunci când USR propunea fix aceeaşi soluţie pe care o aveţi dumneavoastră acum pentru lemnele de foc şi pe care noi o susţinem tocmai pentru că e bună pentru România, PSD şi PNL s-au opus. Şi aceasta este o lipsă de consecvenţă. Doar pentru că ideea a venit de la USR, v-aţi opus. Chiar dacă ea era bună pentru România, şi vedeţi şi dumneavoastră acum că e bună pentru România, în cazul lemnelor de foc şi în atâtea alte cazuri care au treabă cu energia electrică.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u224.seg4">Mulţumesc frumos.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u224.seg4">Mulţumesc frumos.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u225">
@@ -2221,7 +2223,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u226.seg2">Pe de altă parte, vă mulţumesc şi eu pentru votul dat pe aceste două proiecte. Important e că reducem TVA-ul la lemne.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u226.seg3">În ceea ce priveşte acuzaţia că n-am votat ceea ce propune USR-ul, este falsă.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u226.seg4">Se întâmplă rareori să votăm şi iniţiative ale USR.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u226.seg5">Dacă le-aţi face mai bune, mai eficiente, mai elaborate, am vota mai des. Din păcate, nu sunteţi capabili de asta!(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u226.seg5">Dacă le-aţi face mai bune, mai eficiente, mai elaborate, am vota mai des. Din păcate, nu sunteţi capabili de asta!<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u227">
@@ -2237,7 +2239,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u228.seg4">Proiectele se discută împreună, pentru că tratează acelaşi subiect, cu diferenţe că la unul se acordă şi societăţilor comerciale, şi la celălalt nu, dar este acelaşi subiect şi dumneavoastră ştiţi acest lucru.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u228.seg5">Haideţi să fim serioşi, pentru că se uită o întreagă ţară la noi!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u228.seg6">Grupul neafiliaţilor la PNL, domnule Andronache, că asta suntem cei care am plecat din Grupul parlamentar al PNL - puteţi să o spuneţi până la finalul mandatului - în mod evident a făcut ceea ce era de bun-simţ. A votat proiectul la care, ca liberali, am contribuit, pentru că nu putem să ne facem de râs să votăm două proiecte care se referă la acelaşi lucru.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u228.seg7">Vă mulţumesc.(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u228.seg7">Vă mulţumesc.<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u229">
@@ -2263,7 +2265,7 @@
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u232.seg3">Totodată ne-aţi plictisit lăsându-l pe Cîţu în continuare prim-ministru. Vă jucaţi de-a guvernarea!</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u232.seg4">Săptămâna viitoare o să avem şi noi un guvern funcţional sau o lăsaţi după 1 decembrie, şi după 1 decembrie vă prefaceţi că nu v-aţi înţeles şi tot îl ţineţi pe domnul Cîţu acolo, la Palatul Victoria, că "dulapul" este cel mai fericit om în momentul acesta. Probabil a văzut piramidele şi pregăteşte un safari, undeva în Africa.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u232.seg5">Haideţi, gata, v-aţi pupat, v-aţi plăcut, v-aţi... pe români...</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u232.seg6">Haideţi, mai repede!(Aplauze.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u232.seg6">Haideţi, mai repede!<vocal type="noise"><desc>(Aplauze.)</desc></vocal></seg>
         </u>
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u233">
@@ -2295,7 +2297,9 @@
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u237">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u237.seg1">Vă mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u237.seg2">Punctul 6 pe ordinea de zi, Proiectul de Lege pentru modificarea Ordonanţei de urgenţă a Guvernului nr. 60/2020 privind unele măsuri financiare în vederea implementării proiectelor de infrastructură fazate din perioada de programare 2007-2013, finanţate din fondurile Uniunii Europene aferente perioadei de programare 2014-2020; PL-x 323/2021.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u237.seg3">(Domnul deputat Benedek Zacharie solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u237.seg3">
+            <note type="editorial">(Domnul deputat Benedek Zacharie solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u237.seg4">Domnule Benedek, doriţi la explicarea votului?</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u237.seg5">Vă rog.</seg>
         </u>
@@ -2311,7 +2315,7 @@
         <note type="speaker">Domnul Sorin Mihai Grindeanu:</note>
         <u ana="#regular" who="#Sorin-Mihai-Grindeanu" xml:id="ParlaMint-RO_2021-11-09-id8341.u239">
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u239.seg1">Mulţumesc.</seg>
-          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u239.seg2">Invit liderii la tribună.(Consultări.)</seg>
+          <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u239.seg2">Invit liderii la tribună.<note type="editorial">(Consultări.)</note></seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u239.seg3">A fost un consens al liderilor. Mai greu s-a ajuns, dar s-a ajuns.</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u239.seg4">Retrimitem această...</seg>
           <seg xml:id="ParlaMint-RO_2021-11-09-id8341.u239.seg5">Deşi ne aflăm în sesiunea de vot final, retrimitem acest proiect la comisie, cu termen de o săptămână.</seg>

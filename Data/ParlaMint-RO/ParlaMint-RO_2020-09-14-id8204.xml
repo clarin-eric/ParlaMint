@@ -7,7 +7,7 @@
         <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, September 14 2020 [ParlaMint SAMPLE]</title>
         <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 14 septembrie 2020</title>
         <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, September 14 2020</title>
-        <meeting n="20200914" corresp="#CD" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
+        <meeting n="20200914" corresp="#RoParl" ana="#parla.lower #parla.meeting.regular">Camera Deputaților</meeting>
         <respStmt>
           <persName>Petru Rebeja</persName>
           <persName>Mădălina Chitez</persName>
@@ -54,8 +54,8 @@
         <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
         <availability status="free">
           <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref></p>
-          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref></p>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
         </availability>
         <date when="2021-01-08">2021-01-08</date>
       </publicationStmt>
@@ -83,11 +83,11 @@
           <tagUsage gi="body" occurs="1"/>
           <tagUsage gi="div" occurs="1"/>
           <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="note" occurs="180"/>
+          <tagUsage gi="note" occurs="189"/>
           <tagUsage gi="u" occurs="168"/>
           <tagUsage gi="seg" occurs="474"/>
           <tagUsage gi="kinesic" occurs="0"/>
-          <tagUsage gi="desc" occurs="0"/>
+          <tagUsage gi="desc" occurs="4"/>
           <tagUsage gi="gap" occurs="0"/>
         </namespace>
       </tagsDecl>
@@ -102,9 +102,7 @@
       </settingDesc>
     </profileDesc>
     <revisionDesc>
-      <change when="2021-01-23">
-        <name>Petru Rebeja</name>
-      </change>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
     </revisionDesc>
   </teiHeader>
   <text ana="#reference">
@@ -139,7 +137,9 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg12">La articolul unic? Nu. Adoptat.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg13">Dezbaterile sunt finalizate, iar proiectul de hotărâre rămâne la votul final.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg14">Mai avem Proiectul de Lege...</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg15">(Domnul deputat Nicolae Bănicioiu solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg15">
+            <note type="editorial">(Domnul deputat Nicolae Bănicioiu solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg16">Da.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u1.seg17">Domnul vicelider, nu? Poftiţi. Membru al Biroului permanent.</seg>
         </u>
@@ -169,7 +169,7 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u5.seg6">Proiectul de lege face parte din categoria legilor organice.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u5.seg7">Am o singură chestiune procedurală. În cuprinsul raportului, acolo unde apar birourile electorale, mai puţin Biroul Electoral Central, în loc de cifra 7 este de fapt 8. Adică, pentru corelare. Stafful Comisiei juridice nu a corelat în tot cuprinsul legii.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u5.seg8">Astfel încât, repet, rog Secretariatul General, acolo unde apare cifra 7, de fapt este cifra 8, în toate birourile electorale de circumscripţii.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u5.seg9">Mulţumesc.(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u5.seg9">Mulţumesc.<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u5.seg10">Şi oficii, bineînţeles. Peste tot.</seg>
         </u>
         <note type="speaker">Domnul Ion-Marcel Ciolacu:</note>
@@ -328,7 +328,7 @@
         <u ana="#chair" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2020-09-14-id8204.u28">
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg1">Şi eu vă mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg2">Intrăm pe amendamente admise.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg3">Le luăm...(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg3">Le luăm...<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg4">Nu, nu sărim.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg5">Deci, pe urmă, intrăm pe respinse şi presupun că acolo doriţi să interveniţi, nu?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u28.seg6">De la 1 la 10 dacă sunt intervenţii? Nu.</seg>
@@ -351,7 +351,9 @@
         <note type="speaker">Domnul Ion-Marcel Ciolacu:</note>
         <u ana="#chair" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2020-09-14-id8204.u30">
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u30.seg1">Mulţumesc.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u30.seg2">(Domnul deputat Gabriel Andronache solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u30.seg2">
+            <note type="editorial">(Domnul deputat Gabriel Andronache solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u30.seg3">Domnul...</seg>
         </u>
         <note type="speaker">Domnul Gabriel Andronache (din sală):</note>
@@ -411,7 +413,9 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg1">Mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg2">Deci pregătiţi procedura de vot, da?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg3">Vot, vă rog.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg4">(Vot electronic la distanţă.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg4">
+            <note type="editorial">(Vot electronic la distanţă.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg5">Liderii de grup, să anunţaţi grupurile.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg6">Cine nu are tabletă, vă rog, la microfon, să vă exprimaţi votul.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u38.seg7">Nume, prenume şi votul.</seg>
@@ -576,7 +580,9 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u70.seg3">Deci avem 145 de voturi pentru şi cu... deci 160, da?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u70.seg4">160 de voturi pentru, 10 voturi împotrivă, 5 abţineri.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u70.seg5">Mulţumesc.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u70.seg6">(Domnul deputat Cătălin Drulă solicită să ia cuvântul.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u70.seg6">
+            <note type="editorial">(Domnul deputat Cătălin Drulă solicită să ia cuvântul.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u70.seg7">Vă rog.</seg>
         </u>
         <note type="speaker">Domnul Cătălin Drulă (de la tribună):</note>
@@ -596,7 +602,7 @@
         </u>
         <note type="speaker">Domnul Ion-Marcel Ciolacu:</note>
         <u ana="#chair" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2020-09-14-id8204.u74">
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u74.seg1">Vă rog, liderii, să vă vedeţi şi să luaţi o decizie.(Consultări.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u74.seg1">Vă rog, liderii, să vă vedeţi şi să luaţi o decizie.<note type="editorial">(Consultări.)</note></seg>
         </u>
         <note type="speaker">Domnul Cătălin Drulă (de la tribună):</note>
         <u ana="#regular" who="#Catalin-Drula" xml:id="ParlaMint-RO_2020-09-14-id8204.u75">
@@ -689,7 +695,9 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg1">Mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg2">Supun votului dumneavoastră amendamentul respins.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg3">Vot, vă rog.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg4">(Vot electronic la distanţă.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg4">
+            <note type="editorial">(Vot electronic la distanţă.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg5">Din sală, dacă doreşte cineva să-şi exprime votul?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u88.seg6">Aceeaşi procedură, numele şi votul.</seg>
         </u>
@@ -847,7 +855,9 @@
         <u ana="#chair" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2020-09-14-id8204.u120">
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg1">Mergem pe consens? Modificare? Mergem pe vot, da?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg2">Vot, vă rog.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg3">(Vot electronic la distanţă.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg3">
+            <note type="editorial">(Vot electronic la distanţă.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg4">Vă rog, din sală, cine este?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg5">Îmi cer scuze, domnule doctor.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u120.seg6">Domnule doctor Bănicioiu, îmi cer scuze. Va trebui să vă ridicaţi, să vă exprimaţi votul şi să-l luaţi şi pe domnul Mocioalcă. Vă rog.</seg>
@@ -923,7 +933,9 @@
         <u ana="#chair" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2020-09-14-id8204.u135">
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u135.seg1">Se adoptă cu votul majorităţii deputaţilor prezenţi.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u135.seg2">Vot, vă rog.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u135.seg3">(Vot electronic la distanţă.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u135.seg3">
+            <note type="editorial">(Vot electronic la distanţă.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u135.seg4">Vă rog, domnule Bănicioiu.</seg>
         </u>
         <note type="speaker">Domnul Nicolae Bănicioiu (de la tribună):</note>
@@ -1041,7 +1053,7 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg1">Mulţumesc.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg2">Secretariatul, vă rog.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg3">178 am eu înregistrate.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg4">Câte aveţi?(Vociferări.)27 telefonice?</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg4">Câte aveţi?<vocal type="shouting"><desc>(Vociferări.)</desc></vocal>27 telefonice?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg5">Domnule Iordache, vă rog.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg6">Am înţeles.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u159.seg7">Daţi-i drumul!</seg>
@@ -1055,7 +1067,9 @@
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg1">2. Proiectul de Lege privind modificarea şi completarea unor legi în materie electorală; PL-x 559/2020.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg2">Comisia juridică propune adoptarea cu amendamentele admise care au fost completate în plen.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg3">Să înceapă votul.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg4">(Vot electronic la distanţă.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg4">
+            <note type="editorial">(Vot electronic la distanţă.)</note>
+          </seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg5">Rog colegii din sală.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u161.seg6">Domnul Ionescu.</seg>
         </u>
@@ -1079,7 +1093,7 @@
         <u ana="#regular" who="#Florin-Iordache" xml:id="ParlaMint-RO_2020-09-14-id8204.u165">
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u165.seg1">Era pentru, da?</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u165.seg2">Mulţumesc.</seg>
-          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u165.seg3">Domnul Botez?(Vociferări.)</seg>
+          <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u165.seg3">Domnul Botez?<vocal type="shouting"><desc>(Vociferări.)</desc></vocal></seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u165.seg4">Au anunţat colegii deja la primul vot.</seg>
           <seg xml:id="ParlaMint-RO_2020-09-14-id8204.u165.seg5">Domnul Botez.</seg>
         </u>
