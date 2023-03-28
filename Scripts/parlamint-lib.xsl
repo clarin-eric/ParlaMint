@@ -15,7 +15,7 @@
   <xsl:param name="meta"/>
 
   <!-- Separator for multi-valued (parliamentary) "body" attribute; must have only one char --> 
-  <xsl:param name="body-separator">\|</xsl:param>
+  <xsl:param name="body-separator">|</xsl:param>
   
   <!-- Output label for MPs and non-MPs (in vertical and metadata output) --> 
   <xsl:param name="mp-label">MP</xsl:param>
@@ -181,7 +181,8 @@
 	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:value-of select="replace($bodies, concat($body-separator, '$'), '')"/>
+    <!-- Backslash only if body-separator must be an escaped char! -->
+    <xsl:value-of select="replace($bodies, concat('\', $body-separator, '$'), '')"/>
   </xsl:template>
   
   <!-- Get @n from appropriate meeting type, e.g.
