@@ -25,12 +25,16 @@
 				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
 				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
 			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
 		</titleStmt>
 		<editionStmt>
 			<edition>3.0</edition>
 		</editionStmt>
 		<extent><!--These numbers do not reflect the size of the sample!-->
-			<measure unit="speeches" quantity="197"/>
+			<measure unit="speeches" quantity="196"/>
 			<measure unit="words" quantity="37707"/>
 		</extent>
 		<publicationStmt>
@@ -42,13 +46,13 @@
 				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
 				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
 			</availability>
-			<date when="2023-03-01">01.03.2023</date>
+			<date when="2023-03-31">31.03.2023</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
 				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
 				<publisher>Parlamento de Galicia</publisher>
-				<idno type="URI">https://www.es.parlamentodegalicia.es/Actividade/DiariosSesions</idno>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100008.pdf</idno>
 				<date when="2016-12-14">14.12.2016</date>
 			</bibl>
 		</sourceDesc>
@@ -57,9 +61,9 @@
 		<projectDesc>
 			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
 		</projectDesc>
-		<tagsDecl><!--These numbers do not reflect the size of the sample!-->
+		<tagsDecl>
 			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="body" occurs="1"/>
+				<tagUsage gi="body" occurs="1"/><!--These numbers do not reflect the size of the sample!-->
 			</namespace>
 		</tagsDecl>
 	</encodingDesc>
@@ -74,21 +78,30 @@
 		</settingDesc>
 	</profileDesc>
 	<revisionDesc>
-		<change when="2023-03-14">
+		<change when="2023-03-28">
 			<name>GitHub Action</name>: Made sample.</change>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
 	</revisionDesc>
 </teiHeader>
 <text ana="#reference">
 	<body>
 		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100008.pdf"/>
+			<note type="time">Retómase a sesión ás dez da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u1">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg1">Bos días.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg2">Reiniciamos a sesión co punto quinto da orde do día, que se corresponde co de preguntas para resposta oral do presidente da Xunta.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg3">Pregunta ao Sr. presidente da Xunta de Galicia de D. Xoaquín Fernández Leiceaga, do G. P. dos Socialistas de Galicia, sobre os resultados que o Goberno galego pretende obter para Galicia na revisión do modelo de financiamento autonómico</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u2">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg4">Ten a palabra o señor Leiceaga.</seg>
 			</u>
+			<note type="speaker">O señor FERNÁNDEZ LEICEAGA:</note>
 			<u who="#FernándezXoaquínMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u3">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg5">Señor Núñez Feijóo, imos hoxe debater de financiamento autonómico. Normalmente este é un debate —digamos— árido e pouco interesante, pero, non obstante, para os cidadáns debería de ser un debate de enorme importancia, porque ao final o financiamento autonómico é o que nos di canta actividade vai ser capaz de soportar establemente a Xunta de Galicia, é dicir, cantos servizos básicos imos poñer á disposición dos cidadáns, en que medida somos capaces de investir en actividades produtivas ou en infraestrutura necesaria.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg6">Como ben sabe vostede, este modelo debía de estar revisado ao cabo de cinco anos, por tanto, en 2014. Non se fixo. O ministro do ramo explicou que había dificultades económicas evidentes e dificultades políticas, seguramente tamén evidentes, para que isto se producira.</seg>
@@ -100,14 +113,16 @@
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg12">E, para isto, é moi importante tamén ser capaz de tecer complicidades, complicidades externas e internas en Galicia, políticas e da sociedade civil. O seu grupo, coa súa maioría, pois dixo que non á comisión parlamentaria especial sobre isto que nos propoñiamos, pero estou seguro de que vostede terá algún elemento para establecer un consenso político e social en Galicia que defenda a nosa posición.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg13">Por iso lle pregunto: ¿que resultados espera obter da revisión deste modelo?</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg14">Moitas grazas.</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u4">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg15">Grazas, señor Fernández Leiceaga.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg16">Resposta do presidente da Xunta.</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA XUNTA DE GALICIA (Núñez Feijóo):</note>
 			<u who="#NúñezAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u5">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg17">Moitas grazas, señor presidente.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg18">Señor Leiceaga, estou de acordo co contido da súa exposición, empezando por subliñar a importancia dun modelo de financiamento autonómico para Galicia.</seg>
@@ -119,27 +134,31 @@
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg24">Por tanto, señoría, o modelo, en definitiva, non pode estar ao arbitrio de presións derivadas de xogos arbitrarios nin de posicionamentos políticos ou ideolóxicos por parte dos gobernos de turno de cada comunidade autónoma.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg25">En definitiva, señoría, o modelo ten que falar do custo efectivo dos servizos que prestamos ––ese é o plantexamento que me gustaría compartir con vostede––, o custo real dos servizos que prestan as comunidades autónomas, e o custo real ten moito que ver —moitísimo que ver–– coa dispersión, ten moitísimo que ver co avellentamento da poboación e ten moito que ver coa evolución demográfica, que hoxe volvemos coñecer en relación con España e en relación con Galicia.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg26">Señoría, ¿por que o custo real? Porque xa en Galicia temos máis do 24 % da poboación maior de 65 anos, cinco puntos máis que a media de España.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg27">O custo efectivo, porque a dispersión poboacional en Galicia conta por exemplo co 14 % dos centros de saúde de toda España, tendo unha poboación do 6 %. </seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg27">O custo efectivo, porque a dispersión poboacional en Galicia conta por exemplo co 14 % dos centros de saúde de toda España, tendo unha poboación do 6 %.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg28">O custo real, señoría, porque, sen saír da sanidade, un facultativo de atención primaria atende quince entidades singulares en Galicia, e en España, dúas entidades singulares. Un custo real, señoría, porque o avellentamento e a dispersión da poboación en Galicia xera uns custos dende o punto de vista sanitario importantísimos. Un custo real, señoría, porque o transporte escolar en Galicia é catro veces máis que a media de España. E un custo real porque, por exemplo, en Galicia temos o 8 % do total dos centros escolares de España, mentres que temos un 6 % do total dos alumnos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg29">Polo tanto, señoría, estamos ante un debate técnico, certamente, pero tamén ante un debate político, e aí si me gustaría ter unha posición reforzada, e aí vostedes teñen un papel, e gustaríame contar con vostedes para esa posición reforzada. </seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg29">Polo tanto, señoría, estamos ante un debate técnico, certamente, pero tamén ante un debate político, e aí si me gustaría ter unha posición reforzada, e aí vostedes teñen un papel, e gustaríame contar con vostedes para esa posición reforzada.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg30">Señoría, o debate de financiamento nada ten que ver con plantexamentos soberanistas e independentistas. Gustaríame que vostede estea de acordo con isto.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg31">Señoría, o debate do financiamento nada ten que ver coas hectáreas dos territorios nin cos principios identitarios dos territorios. Co financiamento imos falar de maiores e de nenos, de cidades e de aldeas. </seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg31">Señoría, o debate do financiamento nada ten que ver coas hectáreas dos territorios nin cos principios identitarios dos territorios. Co financiamento imos falar de maiores e de nenos, de cidades e de aldeas.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg32">E, por último, señoría, creo que no debate de financiamento ten unha peza separada cada vez máis importante o sistema do financiamento da sanidade pública. O 42 % do gasto das comunidades autónomas é sanidade pública.</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u6">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg33">Remate, por favor.</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA XUNTA DE GALICIA (Núñez Feijóo):</note>
 			<u who="#NúñezAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u7">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg34">Se non facemos unha peza separada do gasto sanitario, ao final non estaremos nos plantexamentos que vostede e eu de momento defendemos.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg35">Máis nada e moitas grazas.</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u8">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg36">Grazas, presidente.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg37">Réplica, señor Fernández Leiceaga.</seg>
 			</u>
+			<note type="speaker">O señor FERNÁNDEZ LEICEAGA:</note>
 			<u who="#FernándezXoaquínMaría" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u9">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg38">Si, señor presidente da Xunta, espero que non o deducira das miñas palabras, eu dende logo non vexo de onde pode deducirse que o meu plantexamento ten algo que ver cos asuntos identitarios; máis ben o meu plantexamento claramente ten que ver coas necesidades de gasto, que vostede chama custo efectivo e eu chamo necesidades de gasto. Pero non me quedou claro se vostede aspira a que mellore a posición de Galicia nos seus resultados co novo modelo en termo de financiamento por unidade de gasto ou non, porque iso é decisivo.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg39">Algunhas das cousas que plantexa sóanme ben. Nós temos feito tamén unha avaliación do modelo, e cremos que hai que mellorar o equilibrio vertical entre o Estado e as comunidades en favor das comunidades, xustamente porque soportamos os servizos básicos dende as finanzas autonómicas.</seg>
@@ -149,14 +168,16 @@
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg43">E, en segundo lugar, está ben tender a man para o consenso. ¿Que procedementos quere poñer en marcha? Vostedes dixeron que non a unha comisión parlamentaria, podo entendelo, pero díganme cal é o instrumento, e se ese instrumento é un instrumento equilibrado e sensato, inclusivo, no que esteamos todos os grupos políticos e despois podemos trasladalo á sociedade civil, sen dúbida tamén imos estar de acordo.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg44">Non temos un plantexamento excluínte, nin moito menos, pero si queremos saber, antes de empezar, cales son os obxectivos que se plantea o Goberno da Xunta en relación con este tema.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg45">Moitas grazas.</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u10">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg46">Grazas, señor Fernández Leiceaga.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg47">Turno de peche, señor presidente.</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA XUNTA DE GALICIA (Núñez Feijóo):</note>
 			<u who="#NúñezAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u11">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg48">Moitas grazas, señor presidente.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg49">Señoría, en ningún caso eu dixen que o seu plantexamento tiña que ver cos principios identitarios, o que si intentei translucir é que no seu partido si que hai eses plantexamentos, e eu vou sentarme alí cos presidentes das distintas comunidades autónomas, algúns deles do seu partido, e, en consecuencia, señoría, non tería moito sentido, para non enganar a ninguén, que vostede aquí me diga unha cousa pero que despois no Consello de Política Fiscal e Financeira o seu partido defenda xustamente a contraria, porque iso non sería útil para ninguén.</seg>
@@ -169,17 +190,20 @@
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg56">Mire, señoría, do que se trata é de cambiar o actual modelo, imposto bilateralmente entre o tripartito da Generalitat de Cataluña, o Partido Socialista de Cataluña e o Partido Socialista Obreiro Español en Madrid, imposto unilateralmente a todos.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg57">Mire, ¿Galicia é responsable? Si. ¿Galicia cumpre? Si. ¿Galicia vai defender a igualdade? Si. ¿Galicia defende a unidade do país? Si. ¿Galicia é unha comunidade seria? Si. ¿Somos bos? Si. Pero non somos parvos, señor Leiceaga.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg58">Máis nada e moitas grazas.</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u12">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg59">Grazas, señor presidente.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg60">Pregunta ao Sr. presidente da Xunta de Galicia de Dª Ana Belén Pontón Mondelo, do G. P. do Bloque Nacionalista Galego, sobre os acordos do país anunciados polo Sr. presidente da Xunta de Galicia</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u13">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg61">Ten a palabra a señora Pontón.</seg>
 			</u>
+			<note type="speaker">A señora PONTÓN MONDELO:</note>
 			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u14">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg62">Señor Feijóo, durante o debate de investidura fíxenlle unha pregunta que hoxe vou repetirlla. Non sei se sente vostede nalgún momento algún reparo ao comprobar que a súa palabra non vale nada. Pregúntollo ante incumprimentos tan escandalosos como cando falamos do AVE, de Pemex ou cando falamos da AP-9.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg63">No 2012 vostede anunciounos, por terra, mar e aire, unha alianza estratéxica con Pemex —non sei se lembra— nese ano electoral as súas promesas; iamos construír catorce remolcadores, floteis; a petroleira ía ter a súa base loxística en Punta Langosteira; falou de quimiqueiros... En fin, isto era jauja, señor Feijóo. A realidade foi moi diferente —e pode crerme que ben que o sinto—. Todo quedou en dous floteis e na venda a prezo de saldo dun estaleiro histórico para este país. As rías de Vigo e Pontevedra si están cheas, cheas de mentiras e de miles de persoas defraudadas, porque vostede estivo xogando coa súa esperanza.</seg>
@@ -189,69 +213,101 @@
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg67">A conclusión, señor Feijóo, desta inmensa tomadura de pelo é que ou ben vostede toma a pitorreo os galegos e as galegas e a Galiza ou ben a vostede o toman a pitorreo no seu partido.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg68">E eu hoxe pregúntolle se vostede vai seguir pola liña de culpabilizarme a min de todos os males habidos ou por haber ou realmente vai empezar a exercer como presidente deste país, dar a cara polos nosos intereses e demostrarnos, aínda que só sexa por unha vez, que a súa palabra vale para algo.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg69">Moitas grazas.</seg>
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc>
-				</kinesic>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u15">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg70">Grazas, señora Pontón.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg71">Resposta do presidente da Xunta.</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA XUNTA DE GALICIA (Núñez Feijóo):</note>
 			<u who="#NúñezAlberto" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u16">
 				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg72">Moitas grazas, señor presidente.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg73">Señoría, fagamos un pouco de memoria. Alá por 1976-1977...</seg>
-				<vocal type="laughter"> 
-					<desc>(Risos.)</desc>
-				</vocal>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg73">
+					Señoría, fagamos un pouco de memoria. Alá por 1976-1977...
+					<vocal type="laughter">
+						<desc>(Risos.)</desc>
+					</vocal>
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					, si, señoría, aprobabamos a Lei de reforma política e despois a Constitución; por certo, a norma que nos permite estar hoxe aquí e que vostede sexa a portavoz dun grupo parlamentario e que eu sexa o presidente da Xunta de Galicia, a norma que nos permite ter un Parlamento e ter un Estatuto de autonomía.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg74">O nacionalismo daquela mostrábase en contra da Constitución e o nacionalismo daquela mostrábase en contra da autoestrada do Atlántico. O nacionalismo segue en contra da Constitución —aí non variou moito— pero agora o nacionalismo parece ser que está a favor da autoestrada do Atlántico. Polo tanto, señoría, quero felicitarlle porque vostedes pouco a pouco vanse movendo na dirección correcta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg75">
+					Mire, señoría, nós temos claros os nosos plantexamentos, non mudamos en función de quen estea no Goberno.
+					<vocal type="murmuring">
+						<desc>(Pronúncianse palabras que non se perciben.)</desc>
+					</vocal>
+					Eu son bastante máis serio co Goberno do meu partido do que vostede era co Goberno do Partido Socialista en Madrid cando gobernaba o PSOE.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Por iso, señoría, non hai ningún problema en falar do posicionamento da autoestrada do Atlántico; para nós a transferencia da autoestrada do Atlántico segue sendo un plantexamento irrenunciable.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg76">
+					Segundo punto, señoría. Nos últimos quince días —dende que tiven ocasión de desfrutar da súa pregunta e vostede da miña resposta—
+					<vocal type="laughter">
+						<desc>(Risos.)</desc>
+					</vocal>
+					en Galicia pasaron cousas en relación coa autoestrada do Atlántico, houbo efectivamente unha reunión co ministro de Fomento. Mire, voulle comentar o que había antes e o que hai agora. Ata agora, dende 1973 —data da concesión—, Galicia non tivo ningunha opinión na autoestrada do Atlántico. Agora, señoría, hai unha comisión bilateral —da que estamos concretando o alcance e contido— para a xestión conxunta da autoestrada do Atlántico. Primeiro cambio.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg77">Segundo cambio. Señoría, de momento, ata o de agora, na autoestrada do Atlántico —titularidade estatal cando vostede estaba no Goberno— pagaban —e asinaron o convenio— 6 millóns de euros para financiar as peaxes dunha autoestrada estatal. Agora, señoría, Galicia non pagará un euro. Iso significa un aforro de 186 millóns de euros en favor do patrimonio da Comunidade Autónoma.</seg>
 				<kinesic type="applause">
 					<desc>(Aplausos.)</desc>
 				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg74">, si, señoría, aprobabamos a Lei de reforma política e despois a Constitución; por certo, a norma que nos permite estar hoxe aquí e que vostede sexa a portavoz dun grupo parlamentario e que eu sexa o presidente da Xunta de Galicia, a norma que nos permite ter un Parlamento e ter un Estatuto de autonomía.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg75">O nacionalismo daquela mostrábase en contra da Constitución e o nacionalismo daquela mostrábase en contra da autoestrada do Atlántico. O nacionalismo segue en contra da Constitución —aí non variou moito— pero agora o nacionalismo parece ser que está a favor da autoestrada do Atlántico. Polo tanto, señoría, quero felicitarlle porque vostedes pouco a pouco vanse movendo na dirección correcta.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg76">Mire, señoría, nós temos claros os nosos plantexamentos, non mudamos en función de quen estea no Goberno.</seg>
-				<vocal type="murmuring">
-					<desc>(Pronúncianse palabras que non se perciben.)</desc>
-				</vocal>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg77">Eu son bastante máis serio co Goberno do meu partido do que vostede era co Goberno do Partido Socialista en Madrid cando gobernaba o PSOE.</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg78">Por iso, señoría, non hai ningún problema en falar do posicionamento da autoestrada do Atlántico; para nós a transferencia da autoestrada do Atlántico segue sendo un plantexamento irrenunciable.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg79">Segundo punto, señoría. Nos últimos quince días —dende que tiven ocasión de desfrutar da súa pregunta e vostede da miña resposta—</seg>
-				<vocal type="laughter"> 
-					<desc>(Risos.)</desc> 
-				</vocal>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg80">en Galicia pasaron cousas en relación coa autoestrada do Atlántico, houbo efectivamente unha reunión co ministro de Fomento. Mire, voulle comentar o que había antes e o que hai agora. Ata agora, dende 1973 —data da concesión—, Galicia non tivo ningunha opinión na autoestrada do Atlántico. Agora, señoría, hai unha comisión bilateral —da que estamos concretando o alcance e contido— para a xestión conxunta da autoestrada do Atlántico. Primeiro cambio.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg81">Segundo cambio. Señoría, de momento, ata o de agora, na autoestrada do Atlántico —titularidade estatal cando vostede estaba no Goberno— pagaban —e asinaron o convenio— 6 millóns de euros para financiar as peaxes dunha autoestrada estatal. Agora, señoría, Galicia non pagará un euro. Iso significa un aforro de 186 millóns de euros en favor do patrimonio da Comunidade Autónoma.</seg>
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc>
-				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg82">Señoría, en quince días pasamos da xestión unilateral do Estado á xestión conxunta entre o Goberno central e a Comunidade Autónoma. E pasamos de pagar 6 millóns de euros —levamos pagados 52 millóns de euros dende que vostedes asinaron o convenio— a Galicia aforrar 186 millóns de euros. Xa sei, señoría, que a vostede iso lle parece pouco, pero, dende logo, con 186 millóns de euros case se pode facer unha ponte nova.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg83">Polo tanto, ¿cal é o plantexamento dos nacionalistas? O plantexamento nacionalista, señora Pontón, é votar en contra de solicitar a transferencia da autoestrada do Atlántico, como fixo vostede. Segundo, firmar con Madrid financiar as peaxes dunha autoestrada estatal, como fixeron vostedes, e nós tivemos que seguir co convenio ata que o denunciamos. E terceiro, señoría, a xestión compartida da autoestrada do Atlántico, o aforro de 186 millóns de euros en peaxes da Comunidade Autónoma de Galicia e o plantexamento irrenunciable da transferencia da autoestrada do Atlántico é o posicionamento deste grupo maioritario e deste goberno.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg84">Máis nada, moitas grazas, señoría.</seg>
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc> 
-				</kinesic>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg78">Señoría, en quince días pasamos da xestión unilateral do Estado á xestión conxunta entre o Goberno central e a Comunidade Autónoma. E pasamos de pagar 6 millóns de euros —levamos pagados 52 millóns de euros dende que vostedes asinaron o convenio— a Galicia aforrar 186 millóns de euros. Xa sei, señoría, que a vostede iso lle parece pouco, pero, dende logo, con 186 millóns de euros case se pode facer unha ponte nova.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg79">Polo tanto, ¿cal é o plantexamento dos nacionalistas? O plantexamento nacionalista, señora Pontón, é votar en contra de solicitar a transferencia da autoestrada do Atlántico, como fixo vostede. Segundo, firmar con Madrid financiar as peaxes dunha autoestrada estatal, como fixeron vostedes, e nós tivemos que seguir co convenio ata que o denunciamos. E terceiro, señoría, a xestión compartida da autoestrada do Atlántico, o aforro de 186 millóns de euros en peaxes da Comunidade Autónoma de Galicia e o plantexamento irrenunciable da transferencia da autoestrada do Atlántico é o posicionamento deste grupo maioritario e deste goberno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg80">Máis nada, moitas grazas, señoría.</seg>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="speaker">O señor PRESIDENTE:</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u17">
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg81">Grazas, presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg82">Réplica, señora Pontón.</seg>
+			</u>
+			<note type="speaker">A señora PONTÓN MONDELO:</note>
+			<u who="#PontónAnaBelén" ana="#regular" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u18">
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg83">A verdade é que, señor Feijóo, vostede sempre se supera a si mesmo cando se trata, si, si, de ser servil aos intereses de Madrid. E teño que dicirlle que nalgunhas ocasións o grave é que vostede roza o ridículo, e isto preocúpame, porque vostede é presidente da Xunta de Galiza.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg84">Di que vostede non cambia de criterio. Mire, no ano 2012 o señor Núñez Feijóo dicía: &quot;No consentiré que el AVE se retrase más allá de 2018&quot;. Isto é destes días, señor Feijóo: &quot;Si ponen el dinero, tendremos un AVE con un corrimiento de fecha razonable&quot;. É vostede, señor, o rei do eufemismo e é o rei das traizóns a este país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg85">Mire, vostede fala de histórico unha comisión que ¿en que consiste exactamente? ¿En que vai vostede negociar con Audasa como se arreglan as fochancas? Pero, señor Feijóo, tómese a vostede mesmo un pouquiño máis en serio, porque creo que cando falamos da xestión da AP-9 estamos falando de algo moi importante. E vostede aceptou non só que o seu ministro —ese ministro amigo del norte— lle dea carpetazo á transferencia da AP-9, senón que tamén aceptou que a ex-ministra, deputada do seu partido, rompa a reclamación unánime deste Parlamento co veto da vergoña. ¿Vai vostede facer algo, señor Feijóo? ¿Ou vai simplemente quedar de brazos cruzados pensando que con propaganda e eufemismo dá igual o que pase neste país?</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg86">Pois, mire, eu anúnciolle que desde o Bloque Nacionalista Galego imos seguir traballando para que se consiga a modernización do ferrocarril no noso país e para que consigamos unha AP-9 galega e libre de peaxes.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg87">
+					E dígolle tamén —e podo dicirlle— que imos facer dúas propostas moi concretas: a primeira, o BNG vai traer a esta Cámara a presentación dun recurso ante o Tribunal Constitucional polo veto ante o debate da lei que aprobaramos por unanimidade.
+					<kinesic type="applause">
+						<desc>(Aplausos.)</desc>
+					</kinesic>
+					Agardo, señor Feijóo, ter o apoio de todos os grupos nesta Cámara para facelo.
+				</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg88">E, en segundo lugar, ¿vai vostede facer algo ante o ridículo que está facendo, que nin tan sequera ten peso suficiente para que as leis que aprobamos aquí se respecten en Madrid? Pois eu xa lle digo: se non hai unha rectificación inmediata, desde o Grupo Parlamentario do BNG solicitaremos a reprobación da presidenta do Congreso pola aldraxe a este país, por cometer a irresponsabilidade e a soberbia de dicir &quot;non&quot; a unha lei que é beneficiosa para os galegos e para as galegas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg89">Señor Feijóo, ten que escoller de que lado quere estar: do lado de Galiza ou do lado daqueles que rompen cos acordos deste país.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg90">Moitas grazas.</seg>
+			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
 			<gap reason="editorial">
 				<desc xml:lang="en">SAMPLING</desc>
 			</gap>
+			<note type="speaker">O señor PRESIDENTE:</note>
 			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u196">
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg757">E antes de dar por finalizada esta sesión teño a ben ler unha declaración institucional que me fan chegar os grupos e que leo textualmente:</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg758">&quot;Dende hai máis de dous anos convócanse en Vigo mobilizacións e concentracións para pedir o indulto de Carlos Rivas e Serafín Rodríguez, traballadores que hoxe nos acompañan, que foron condenados a tres anos de prisión ao aplicárselles o artigo 315.3 do Código Penal, atentando contra os dereitos da clase traballadora, cando estaban a participar nun piquete informativo legal nunha folga do sector do transporte en 2008.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg759">En decembro de 2013, o Consello de Ministros denegoulles a Carlos e Serafín a concesión de indulto que solicitaran as centrais sindicais CIG, UGT e CCOO, xunto co aval de milleiros de sinaturas da cidadanía galega, o que motivou unha nova petición de indulto, que recibiu o apoio unánime do Parlamento de Galicia en febreiro de 2014.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg760">Carlos Rivas e Serafín Rodríguez seguen condenados e pendentes de que se resolva a segunda petición de indulto, polo que o Parlamento de Galicia reitera a súa solidariedade con eles e coas súas familias e pronúnciase a favor de que o Consello de Ministros tome en consideración inmediatamente a petición de indulto parcial para Carlos Rivas e Serafín Rodríguez coa finalidade de evitar o seu ingreso en prisión.&quot;</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg761">Esta é a lectura.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg762">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg723">E antes de dar por finalizada esta sesión teño a ben ler unha declaración institucional que me fan chegar os grupos e que leo textualmente:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg724">&quot;Dende hai máis de dous anos convócanse en Vigo mobilizacións e concentracións para pedir o indulto de Carlos Rivas e Serafín Rodríguez, traballadores que hoxe nos acompañan, que foron condenados a tres anos de prisión ao aplicárselles o artigo 315.3 do Código Penal, atentando contra os dereitos da clase traballadora, cando estaban a participar nun piquete informativo legal nunha folga do sector do transporte en 2008.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg725">En decembro de 2013, o Consello de Ministros denegoulles a Carlos e Serafín a concesión de indulto que solicitaran as centrais sindicais CIG, UGT e CCOO, xunto co aval de milleiros de sinaturas da cidadanía galega, o que motivou unha nova petición de indulto, que recibiu o apoio unánime do Parlamento de Galicia en febreiro de 2014.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg726">Carlos Rivas e Serafín Rodríguez seguen condenados e pendentes de que se resolva a segunda petición de indulto, polo que o Parlamento de Galicia reitera a súa solidariedade con eles e coas súas familias e pronúnciase a favor de que o Consello de Ministros tome en consideración inmediatamente a petición de indulto parcial para Carlos Rivas e Serafín Rodríguez coa finalidade de evitar o seu ingreso en prisión.&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg727">Esta é a lectura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg728">Moitas grazas.</seg>
 				<kinesic type="applause">
 					<desc>(Aplausos.)</desc>
 				</kinesic>
+				<note>(Apróbase por asentimento.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg729">Levántase a sesión. Isto xa rematou.</seg>
 			</u>
-			<note>(Apróbase por asentimento.)</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.u197">
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg763">Levántase a sesión. Isto xa rematou.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2016-12-14-DSPG008.seg764">Remata a sesión ás dúas e oito minutos da tarde.</seg>
-			</u>
+			<note type="time">Remata a sesión ás dúas e oito minutos da tarde.</note>
 		</div>
 	</body>
 </text>

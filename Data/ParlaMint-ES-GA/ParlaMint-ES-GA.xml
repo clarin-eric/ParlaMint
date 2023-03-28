@@ -5,8 +5,8 @@
 		<titleStmt>
 			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA [ParlaMint SAMPLE]</title>
 			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA [ParlaMint SAMPLE]</title>
-			<title type="sub" xml:lang="gl">Actas do Parlamento de Galicia, Lexislaturas IX-XI (2015 - 2021)</title>
-			<title type="sub" xml:lang="en">Minutes of the Galician Parliament, Terms 9-11 (2015 - 2021)</title>
+			<title type="sub" xml:lang="gl">Actas do Parlamento de Galicia, Lexislaturas IX-XI (2015 - 2022)</title>
+			<title type="sub" xml:lang="en">Minutes of the Galician Parliament, Terms 9-11 (2015 - 2022)</title>
 			<meeting n="9" corresp="#PG" ana="#parla.uni #parla.term #PG.9">IX Lexislatura (16 novembro 2015 - 1 agosto 2016)</meeting>
 			<meeting n="10" corresp="#PG" ana="#parla.uni #parla.term #PG.10">X Lexislatura (21 outubro 2016 - 10 febreiro 2020)</meeting>
 			<meeting n="11" corresp="#PG" ana="#parla.uni #parla.term #PG.11">XI Lexislatura (07 agosto 2020 - )</meeting>
@@ -68,15 +68,19 @@
 				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
 				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
 			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
 		</titleStmt>
 		<editionStmt>
 			<edition>3.0</edition>
 		</editionStmt>
-		<extent>
-			<measure unit="speeches" quantity="00000" xml:lang="gl">00.000 intervencións</measure>
-			<measure unit="speeches" quantity="00000" xml:lang="en">00,000 speeches</measure>
-			<measure unit="words" quantity="00000000" xml:lang="gl">00.000.000 palabras</measure>
-			<measure unit="words" quantity="00000000" xml:lang="en">00,000,000 words</measure>
+		<extent><!--These numbers do not reflect the size of the sample!-->
+			<measure unit="speeches" quantity="00000" xml:lang="gl">00000 intervencións</measure>
+			<measure unit="speeches" quantity="00000" xml:lang="en">00000 speeches</measure>
+			<measure unit="words" quantity="00000000" xml:lang="gl">00000000 palabras</measure>
+			<measure unit="words" quantity="00000000" xml:lang="en">00000000 words</measure>
 		</extent>
 		<publicationStmt>
 			<publisher>
@@ -88,15 +92,15 @@
 			<availability status="free">
 				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
 				<p xml:lang="gl">
-					Esta obra está dispoñible baixo unha licenza 
+				Esta obra está dispoñible baixo unha licenza 
 					<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atribución 4.0 Internacional.</ref>
 				</p>
 				<p xml:lang="en">
-					This work is licensed under the 
+				This work is licensed under the 
 					<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</ref>
 				</p>
 			</availability>
-			<date when="2023-01-18">2023-01-18</date>
+			<date when="2023-03-31">2023-03-31</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
@@ -111,15 +115,15 @@
 		<projectDesc>
 			<p xml:lang="gl">
 				<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-				 é un proxecto cuxos obxectivos son (1) a creación dun corpus de sesións parlamentarias multilingües comparables e homologadas, empregando as recomendacións de codificación 
+			 é un proxecto cuxos obxectivos son (1) a creación dun corpus de sesións parlamentarias multilingües comparables e homologadas, empregando as recomendacións de codificación 
 				<ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN</ref>
-				 e cubrindo tanto o periodo da pandemia de COVID-19 (a partir de novembro de 2019) como o periodo anterior, desde 2015 ata ese punto, a modo de corpus de referencia; (2) levar a cabo o procesamento lingüístico do corpus para engadir anotación referente ás estruturas sintácticas de dependencias universais e ás entidades nomeadas; (3) dispoñibilizar o corpus a través de programas de concordancias e o Parlameter; e (4) desenvolver casos de uso en Ciencias Políticas e Humanidades Dixitais a partir dos datos do corpus.
+			 e cubrindo tanto o periodo da pandemia de COVID-19 (a partir de novembro de 2019) como o periodo anterior, desde 2015 ata ese punto, a modo de corpus de referencia; (2) levar a cabo o procesamento lingüístico do corpus para engadir anotación referente ás estruturas sintácticas de dependencias universais e ás entidades nomeadas; (3) dispoñibilizar o corpus a través de programas de concordancias e o Parlameter; e (4) desenvolver casos de uso en Ciencias Políticas e Humanidades Dixitais a partir dos datos do corpus.
 			</p>
 			<p xml:lang="en">
 				<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-				 is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the 
+			 is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the 
 				<ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>
-				 and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
+			 and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
 			</p>
 		</projectDesc>
 		<editorialDecl>
@@ -190,8 +194,11 @@
 		</langUsage>
 	</profileDesc>
 	<revisionDesc>
-		<change when="2023-03-14">
+		<change when="2023-03-28">
 			<name>GitHub Action</name>: Made sample.
+		</change>
+		<change when="2023-03-24">
+			<name>Resp</name> : Made XML-TEI.
 		</change>
 	</revisionDesc>
 </teiHeader>

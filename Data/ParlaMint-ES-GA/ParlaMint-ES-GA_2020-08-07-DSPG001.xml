@@ -25,14 +25,18 @@
 				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
 				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
 			</funder>
+			<funder>
+				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+			</funder>
 		</titleStmt>
 		<editionStmt>
 			<edition>3.0</edition>
 		</editionStmt>
-		<extent>
-			<measure unit="speeches" quantity="166"/>
+		<extent><!--These numbers do not reflect the size of the sample!-->
+			<measure unit="speeches" quantity="159"/>
 			<measure unit="words" quantity="4157"/>
-		</extent><!--These numbers do not reflect the size of the sample!-->
+		</extent>
 		<publicationStmt>
 			<publisher>
 				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
@@ -42,13 +46,13 @@
 				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
 				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
 			</availability>
-			<date when="2023-03-01">01.03.2023</date>
+			<date when="2023-03-31">31.03.2023</date>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
 				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
 				<publisher>Parlamento de Galicia</publisher>
-				<idno type="URI">https://www.es.parlamentodegalicia.es/Actividade/DiariosSesions</idno>
+				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110001.pdf</idno>
 				<date when="2020-08-07">07.08.2020</date>
 			</bibl>
 		</sourceDesc>
@@ -57,9 +61,9 @@
 		<projectDesc>
 			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
 		</projectDesc>
-		<tagsDecl><!--These numbers do not reflect the size of the sample!-->
+		<tagsDecl>
 			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="body" occurs="1"/>
+				<tagUsage gi="body" occurs="1"/><!--These numbers do not reflect the size of the sample!-->
 			</namespace>
 		</tagsDecl>
 	</encodingDesc>
@@ -74,163 +78,165 @@
 		</settingDesc>
 	</profileDesc>
 	<revisionDesc>
-		<change when="2023-03-14">
+		<change when="2023-03-28">
 			<name>GitHub Action</name>: Made sample.</change>
+		<change when="2023-03-24">
+			<name>Resp</name>
+			: Made XML-TEI.
+		</change>
 	</revisionDesc>
 </teiHeader>
 <text ana="#covid">
 	<body>
 		<div type="debateSection">
+			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110001.pdf"/>
+			<note type="speaker">O señor LETRADO OFICIAL MAIOR (Sarmiento Méndez):</note>
 			<u who="#SarmientoXoséAntón" ana="#guest" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u1">
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg1">Bo día.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg2">Señorías, rógolles que ocupen os seus escanos.</seg>
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg3">Constitución da Mesa de Idade</seg>
 			</u>
+			<note type="speaker">O señor LETRADO OFICIAL MAIOR (Sarmiento Méndez):</note>
 			<u who="#SarmientoXoséAntón" ana="#guest" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u2">
 				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg4">Verificadas as declaracións presentadas por cada un dos deputados e das deputadas proclamados electos, a composición da Mesa de Idade resulta ser: don Xosé Luís Rivas Cruz, don Daniel Castro García e don Paulo Ríos Santomé. Prégolles que comparezan na Presidencia co fin de constituír a Mesa de Idade.</seg>
 			</u>
 			<note>(Os señores Rivas Cruz, Castro García e Ríos Santomé pasan a ocupar os seus postos na Presidencia.)</note>
-			<u who="#SarmientoXoséAntón" ana="#guest" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u3">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg5">Ábrese a sesión ás once e nove minutos da mañá.</seg>
+			<note type="time">Ábrese a sesión ás once e nove minutos da mañá.</note>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u3">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg5">Ábrese a sesión.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg6">Bos días, señorías.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg7">Lémbrolles que teñen á súa disposición o xel hidroalcohólico para o seu uso.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg8">Rógolle ao señor secretario, don Daniel Castro García, que dea lectura aos artigos 1 a 5 do Decreto de convocatoria de eleccións e á relación de deputados e deputadas electos, así como á comunicación sobre os recursos contencioso-electorais interpostos, se é que os houber.</seg>
 			</u>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u4">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg6">Ábrese a sesión.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg7">Bos días, señorías.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg8">Lémbrolles que teñen á súa disposición o xel hidroalcohólico para o seu uso.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg9">Rógolle ao señor secretario, don Daniel Castro García, que dea lectura aos artigos 1 a 5 do Decreto de convocatoria de eleccións e á relación de deputados e deputadas electos, así como á comunicación sobre os recursos contencioso-electorais interpostos, se é que os houber.</seg>
+			<note type="speaker">O señor SECRETARIO DA MESA DE IDADE (Castro García):</note>
+			<u who="#CastroDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u4">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg9">Decreto 72/2020, do 18 de maio, de convocatoria de eleccións ao Parlamento de Galicia (DOG número 96 do 19-05-2020):</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg10">&quot;Disposicións xerais</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg11">Presidencia da Xunta de Galicia. Decreto 72/2020, do 18 de maio, de convocatoria de eleccións ao Parlamento de Galicia.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg12">DISPOÑO:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg13">Artigo 1. Convócanse eleccións ao Parlamento de Galicia, que terán lugar o 12 de xullo de 2020.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg14">Artigo 2. En aplicación do artigo 9 da Lei 8/1985, do 13 de agosto, de eleccións ao Parlamento de Galicia, o número de deputados correspondente a cada circunscrición é o seguinte:</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg15">A Coruña: vinte e cinco.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg16">Lugo: catorce.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg17">Ourense: catorce.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg18">Pontevedra: vinte e dous.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg19">Artigo 3. A campaña electoral, por imperativo do disposto no artigo 51.2 da Lei orgánica 5/1985, do 19 de xuño, do réxime electoral xeral, durará quince días; comezará ás cero horas do venres día 26 de xuño, e finalizará ás vinte e catro horas do venres día 10 de xullo de 2020.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg20">Artigo 4. Celebradas as eleccións convocadas por este decreto, a Cámara resultante reunirase para a súa sesión constitutiva o día 7 de agosto de 2020 ás once horas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg21">Artigo 5. As eleccións convocadas por este decreto rexeranse pola Lei orgánica 5/1985, do 19 de xuño, do réxime electoral xeral; así como pola Lei 8/1985, do 13 de agosto, de eleccións ao Parlamento de Galicia; polo Decreto 13/2020, do 10 de febreiro, polo que se establecen as normas sobre os medios materiais que se utilizarán nas eleccións ao Parlamento de Galicia de 2020; polo Decreto 14/2020, do 10 de febreiro, polo que se fixan as gratificacións e indemnizacións que percibirán os membros da Administración electoral en Galicia e o persoal ao seu servizo, os/as xuíces/xuízas de primeira instancia ou de paz, representantes da Administración da comunidade autónoma nas mesas electorais, así como o persoal da Xunta de Galicia, co gallo das eleccións ao Parlamento de Galicia de 2020; e pola demais normativa de desenvolvemento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg22">Santiago de Compostela, 18 de maio de 2020</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg23">Alberto Núñez Feijóo</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg24">Presidente&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg25">Relación de deputadas e deputados electos. Acordo da Xunta Electoral de Galicia do 27 de xullo de 2020 (DOG número 151, do 29 de xullo de 2020):</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg26">&quot;Provincia da Coruña (vinte e cinco).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg27">Polo Partido Popular (PP): María Ángeles Vázquez Mejuto, Diego Calvo Pouso, Martín Fernández Prado, José Manuel Rey Varela, Ethel María Vázquez Mourelle, Miguel Ángel Tellado Filgueira, Pedro Puy Fraga, Fabiola García Martínez, Rosa María Quintana Carballo, Álvaro Pérez López, Borja Verea Fraiz, Paula Prado del Río, Carmen María Pomar Tojo, Ovidio Rodeiro Tato.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg28">Polo Bloque Nacionalista Galego (BNG): Ana Pontón Mondelo, Xosé Luís Rivas Cruz, Mercedes Queixas Zas, Rosana Pérez Fernández, Ramón Fernández Alfonzo, Daniel Pérez López, Iria Carreira Pazos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg29">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Pablo Arangüena Fernández, Noa Susana Díaz Varela, Martín Seco García, Matilde Begoña Rodríguez Rumbo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg30">Provincia de Lugo (catorce).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg31">Polo Partido Popular (PP): María Elena Candia López, Francisco José Conde López, Cristina Sanz Arias, Raquel Arias Rodríguez, José Manuel Balseiro Orol, Ramón Carballo Páez, Sandra Vázquez Domínguez, María Encarnación Amigo Díaz, Daniel Vega Pérez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg32">Polo Bloque Nacionalista Galego (BNG): Olalla Rodil Fernández, Daniel Castro García, María del Carmen Aira Díaz.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg33">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Patricia Otero Rodríguez, Luis Manuel Álvarez Martínez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg34">Provincia de Ourense (catorce).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg35">Polo Partido Popular (PP): María Sol Díaz Mouteira, Miguel Ángel Santalices Vieira, José González Vázquez, Marta Nóvoa Iglesias, Antonio Rodríguez Miranda, Noelia Pérez López, Gabriel Alén Castro, José Antonio Armada Pérez.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg36">Polo Bloque Nacionalista Galego (BNG): Noa Presas Bergantiños, Iago Tabarés Pérez Piñeiro, María González Albert.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg37">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Marina Ortega Otero, Juan Carlos Francisco Rivera, María del Carmen Rodríguez Dacosta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg38">Provincia de Pontevedra (vinte e dous).</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg39">Polo Partido Popular (PP): Alberto Núñez Feijóo, María Corina Porro Martínez, Alfonso Rueda Valenzuela, Jesús Vázquez Almuíña, María Guadalupe Murillo Solís, Román Rodríguez González, Valeriano Martínez García, José Manuel Cores Tourís, Marta María Fernández-Tapias Núñez, María Elena Suárez Sarmiento, José Alberto Pazos Couñago.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg40">Polo Bloque Nacionalista Galego (BNG): Xosé Luís Bará Torres, María Monserrat Prado Cores, Alexandra Fernández Gómez, Manuel Antonio Lourenzo Sobral, María do Carme González Iglesias, Paulo Ríos Santomé.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg41">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Gonzalo Caballero Míguez, María Isaura Abelairas Rodríguez, Paloma Castro Rei, Julio Torrado Quintela, María Leticia Gallego Sanromán.&quot;</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg42">Información sobre a presentación, se é o caso, de recursos contencioso-electorais.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg43">Infórmase, ao abeiro da lexislación electoral vixente, que ata o día de hoxe non consta a presentación de recursos contencioso-electorais.</seg>
 			</u>
-			<u who="#CastroDaniel" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u5">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg10">Decreto 72/2020, do 18 de maio, de convocatoria de eleccións ao Parlamento de Galicia (DOG número 96 do 19-05-2020):</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg11">&quot;Disposicións xerais</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg12">Presidencia da Xunta de Galicia. Decreto 72/2020, do 18 de maio, de convocatoria de eleccións ao Parlamento de Galicia.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg13">DISPOÑO:</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg14">Artigo 1. Convócanse eleccións ao Parlamento de Galicia, que terán lugar o 12 de xullo de 2020.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg15">Artigo 2. En aplicación do artigo 9 da Lei 8/1985, do 13 de agosto, de eleccións ao Parlamento de Galicia, o número de deputados correspondente a cada circunscrición é o seguinte: </seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg16">A Coruña: vinte e cinco.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg17">Lugo: catorce. </seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg18">Ourense: catorce.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg19">Pontevedra: vinte e dous.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg20">Artigo 3. A campaña electoral, por imperativo do disposto no artigo 51.2 da Lei orgánica 5/1985, do 19 de xuño, do réxime electoral xeral, durará quince días; comezará ás cero horas do venres día 26 de xuño, e finalizará ás vinte e catro horas do venres día 10 de xullo de 2020.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg21">Artigo 4. Celebradas as eleccións convocadas por este decreto, a Cámara resultante reunirase para a súa sesión constitutiva o día 7 de agosto de 2020 ás once horas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg22">Artigo 5. As eleccións convocadas por este decreto rexeranse pola Lei orgánica 5/1985, do 19 de xuño, do réxime electoral xeral; así como pola Lei 8/1985, do 13 de agosto, de eleccións ao Parlamento de Galicia; polo Decreto 13/2020, do 10 de febreiro, polo que se establecen as normas sobre os medios materiais que se utilizarán nas eleccións ao Parlamento de Galicia de 2020; polo Decreto 14/2020, do 10 de febreiro, polo que se fixan as gratificacións e indemnizacións que percibirán os membros da Administración electoral en Galicia e o persoal ao seu servizo, os/as xuíces/xuízas de primeira instancia ou de paz, representantes da Administración da comunidade autónoma nas mesas electorais, así como o persoal da Xunta de Galicia, co gallo das eleccións ao Parlamento de Galicia de 2020; e pola demais normativa de desenvolvemento.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg23">Santiago de Compostela, 18 de maio de 2020</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg24">Alberto Núñez Feijóo</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg25">Presidente&quot;</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg26">Relación de deputadas e deputados electos. Acordo da Xunta Electoral de Galicia do 27 de xullo de 2020 (DOG número 151, do 29 de xullo de 2020):</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg27">&quot;Provincia da Coruña (vinte e cinco).</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg28">Polo Partido Popular (PP): María Ángeles Vázquez Mejuto, Diego Calvo Pouso, Martín Fernández Prado, José Manuel Rey Varela, Ethel María Vázquez Mourelle, Miguel Ángel Tellado Filgueira, Pedro Puy Fraga, Fabiola García Martínez, Rosa María Quintana Carballo, Álvaro Pérez López, Borja Verea Fraiz, Paula Prado del Río, Carmen María Pomar Tojo, Ovidio Rodeiro Tato.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg29">Polo Bloque Nacionalista Galego (BNG): Ana Pontón Mondelo, Xosé Luís Rivas Cruz, Mercedes Queixas Zas, Rosana Pérez Fernández, Ramón Fernández Alfonzo, Daniel Pérez López, Iria Carreira Pazos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg30">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Pablo Arangüena Fernández, Noa Susana Díaz Varela, Martín Seco García, Matilde Begoña Rodríguez Rumbo.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg31">Provincia de Lugo (catorce).</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg32">Polo Partido Popular (PP): María Elena Candia López, Francisco José Conde López, Cristina Sanz Arias, Raquel Arias Rodríguez, José Manuel Balseiro Orol, Ramón Carballo Páez, Sandra Vázquez Domínguez, María Encarnación Amigo Díaz, Daniel Vega Pérez.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg33">Polo Bloque Nacionalista Galego (BNG): Olalla Rodil Fernández, Daniel Castro García, María del Carmen Aira Díaz.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg34">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Patricia Otero Rodríguez, Luis Manuel Álvarez Martínez.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg35">Provincia de Ourense (catorce).</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg36">Polo Partido Popular (PP): María Sol Díaz Mouteira, Miguel Ángel Santalices Vieira, José González Vázquez, Marta Nóvoa Iglesias, Antonio Rodríguez Miranda, Noelia Pérez López, Gabriel Alén Castro, José Antonio Armada Pérez.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg37">Polo Bloque Nacionalista Galego (BNG): Noa Presas Bergantiños, Iago Tabarés Pérez Piñeiro, María González Albert.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg38">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Marina Ortega Otero, Juan Carlos Francisco Rivera, María del Carmen Rodríguez Dacosta.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg39">Provincia de Pontevedra (vinte e dous).</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg40">Polo Partido Popular (PP): Alberto Núñez Feijóo, María Corina Porro Martínez, Alfonso Rueda Valenzuela, Jesús Vázquez Almuíña, María Guadalupe Murillo Solís, Román Rodríguez González, Valeriano Martínez García, José Manuel Cores Tourís, Marta María Fernández-Tapias Núñez, María Elena Suárez Sarmiento, José Alberto Pazos Couñago.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg41">Polo Bloque Nacionalista Galego (BNG): Xosé Luís Bará Torres, María Monserrat Prado Cores, Alexandra Fernández Gómez, Manuel Antonio Lourenzo Sobral, María do Carme González Iglesias, Paulo Ríos Santomé.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg42">Polo Partido dos Socialistas de Galicia-PSOE (PSdeG-PSOE): Gonzalo Caballero Míguez, María Isaura Abelairas Rodríguez, Paloma Castro Rei, Julio Torrado Quintela, María Leticia Gallego Sanromán.&quot;</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg43">Información sobre a presentación, se é o caso, de recursos contencioso-electorais.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg44">Infórmase, ao abeiro da lexislación electoral vixente, que ata o día de hoxe non consta a presentación de recursos contencioso-electorais.</seg>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
+			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u5">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg44">Señoras deputadas, señores deputados, imos proceder á elección da Mesa do Parlamento en votacións separadas para o presidente ou presidenta, os vicepresidentes ou as vicepresidentas e o secretario ou a secretaria e o vicesecretario ou a vicesecretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg45">Elección da Mesa do Parlamento</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
 			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u6">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg45">Señoras deputadas, señores deputados, imos proceder á elección da Mesa do Parlamento en votacións separadas para o presidente ou presidenta, os vicepresidentes ou as vicepresidentas e o secretario ou a secretaria e o vicesecretario ou a vicesecretaria.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg46">Elección da Mesa do Parlamento</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg46">A elección efectuarase conforme o previsto no artigo 91 do Regulamento, é dicir, mediante papeletas, tras o chamamento nominal das deputadas e dos deputados pola secretaría da Mesa de Idade.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg47">Os servizos da Cámara procederon con anterioridade á repartición das papeletas de diferente cor para cada cargo: a branca será para a presidencia, a verde será para as vicepresidencias e a amarela para a secretaría e vicesecretaría.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg48">A expresión do voto efectuarase consignando no recadro correspondente de cada papeleta un só nome. Considerarase voto en branco aquela papeleta na que non conste ningún nome. Considerarase voto nulo toda papeleta que conteña máis dun nome, algún risco ou sinal.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg49">Procedemos á elección de presidente ou presidenta.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg50">Elección de presidenta ou presidente</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
 			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u7">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg47">A elección efectuarase conforme o previsto no artigo 91 do Regulamento, é dicir, mediante papeletas, tras o chamamento nominal das deputadas e dos deputados pola secretaría da Mesa de Idade.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg48">Os servizos da Cámara procederon con anterioridade á repartición das papeletas de diferente cor para cada cargo: a branca será para a presidencia, a verde será para as vicepresidencias e a amarela para a secretaría e vicesecretaría.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg49">A expresión do voto efectuarase consignando no recadro correspondente de cada papeleta un só nome. Considerarase voto en branco aquela papeleta na que non conste ningún nome. Considerarase voto nulo toda papeleta que conteña máis dun nome, algún risco ou sinal. </seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg50">Procedemos á elección de presidente ou presidenta. </seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg51">Elección de presidenta ou presidente</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg51">Prégolle ao señor secretario que efectúe o chamamento correspondente para que os deputados e deputadas depositen na urna as papeletas de cor branca. Lémbrolles que se escribirá só un nome na papeleta e que resultará elixido ou elixida o deputado ou a deputada que obteña o voto da maioría absoluta dos membros da Cámara. Comeza, pois, a votación.</seg>
+				<note>(O señor secretario da Mesa de Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
+				<note>(Procédese ao escrutinio.)</note>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg52">Señorías, o resultado da votación é o seguinte: don Miguel Ángel Santalices Vieira, 42 votos; en branco, 32 votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg53">Elección de vicepresidentas ou vicepresidentes</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
 			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u8">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg52">Prégolle ao señor secretario que efectúe o chamamento correspondente para que os deputados e deputadas depositen na urna as papeletas de cor branca. Lémbrolles que se escribirá só un nome na papeleta e que resultará elixido ou elixida o deputado ou a deputada que obteña o voto da maioría absoluta dos membros da Cámara. Comeza, pois, a votación.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg54">Procedemos á elección simultánea das vicepresidentas ou dos vicepresidentes, segundo dispón o artigo 36.2 do Regulamento.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg55">Prégolle ao señor secretario que efectúe o chamamento correspondente para que as deputadas e os deputados depositen na urna as papeletas de cor verde. Lémbrolles que se escribirá só un nome na papeleta e que resultarán elixidos ou elixidas os deputados ou as deputadas que acaden maior número de votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg56">Comeza a votación.</seg>
+				<note>(O señor secretario da Mesa de Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
+				<note>(Procédese ao escrutinio.)</note>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg57">O resultado da votación é o seguinte: don Diego Calvo Pouso, 42; dona Monserrat Prado Cores, 32.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg58">Quedan, polo tanto, elixidos, e proclámase vicepresidente primeiro a don Diego Calvo Pouso e vicepresidenta segunda a dona Monserrat Prado Cores.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg59">Elección de secretaria ou secretario e de vicesecretaria ou vicesecretario</seg>
 			</u>
-			<note>(O señor secretario da Mesa de Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
-			<note>(Procédese ao escrutinio.)</note>
-			<note>(Pausa.)</note>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
 			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u9">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg53">Señorías, o resultado da votación é o seguinte: don Miguel Ángel Santalices Vieira, 42 votos; en branco, 32 votos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg54">Elección de vicepresidentas ou vicepresidentes</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg60">Procedemos á elección simultánea do secretario ou da secretaria e do vicesecretario ou vicesecretaria.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg61">Prégolle ao señor secretario que efectúe o chamamento correspondente para que as deputadas e os deputados depositen na urna as papeletas de cor amarela. Lémbrolles que se escribirá só un nome na papeleta e que resultarán elixidos ou elixidas os dous deputados ou deputadas que acaden maior número de votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg62">Comeza a votación.</seg>
+				<note>(O señor secretario da Mesa e Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
+				<note>(Procédese ao escrutinio.)</note>
+				<note>(Pausa.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg63">O resultado da votación é o seguinte: dona María Corina Porro Martínez, 42 votos; e dona Marina Ortega Otero, 32 votos.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg64">Constitución da Mesa do Parlamento</seg>
 			</u>
+			<note type="speaker">O señor PRESIDENTE DA MESA DE IDADE (Rivas Cruz):</note>
 			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u10">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg55">Procedemos á elección simultánea das vicepresidentas ou dos vicepresidentes, segundo dispón o artigo 36.2 do Regulamento.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg56">Prégolle ao señor secretario que efectúe o chamamento correspondente para que as deputadas e os deputados depositen na urna as papeletas de cor verde. Lémbrolles que se escribirá só un nome na papeleta e que resultarán elixidos ou elixidas os deputados ou as deputadas que acaden maior número de votos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg57">Comeza a votación.</seg>
-			</u>
-			<note>(O señor secretario da Mesa de Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
-			<note>(Procédese ao escrutinio.)</note>
-			<note>(Pausa.)</note>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u11">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg58">O resultado da votación é o seguinte: don Diego Calvo Pouso, 42; dona Monserrat Prado Cores, 32.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg59">Quedan, polo tanto, elixidos, e proclámase vicepresidente primeiro a don Diego Calvo Pouso e vicepresidenta segunda a dona Monserrat Prado Cores.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg60">Elección de secretaria ou secretario e de vicesecretaria ou vicesecretario</seg>
-			</u>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u12">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg61">Procedemos á elección simultánea do secretario ou da secretaria e do vicesecretario ou vicesecretaria.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg62">Prégolle ao señor secretario que efectúe o chamamento correspondente para que as deputadas e os deputados depositen na urna as papeletas de cor amarela. Lémbrolles que se escribirá só un nome na papeleta e que resultarán elixidos ou elixidas os dous deputados ou deputadas que acaden maior número de votos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg63">Comeza a votación.</seg>
-			</u>
-			<note>(O señor secretario da Mesa e Idade, Castro García, procede a efectuar o chamamento, por orde alfabética, das señoras e dos señores deputados, que depositan o seu voto na urna.)</note>
-			<note>(Procédese ao escrutinio.)</note>
-			<note>(Pausa.)</note>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u13">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg64">O resultado da votación é o seguinte: dona María Corina Porro Martínez, 42 votos; e dona Marina Ortega Otero, 32 votos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg65">Constitución da Mesa do Parlamento</seg>
-			</u>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u14">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg66">Por tanto, a composición da Mesa do Parlamento, como consecuencia destas eleccións, queda da seguinte maneira: presidente, don Miguel Ángel Santalices Vieira; vicepresidente primeiro, don Diego Calvo Pouso; vicepresidenta segunda, dona Monserrat Prado Cores; secretaria, dona María Corina Porro Martínez; e vicesecretaria, dona Marina Ortega Otero.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg67">Prego aos señores e señoras deputados elixidos e elixidas que tomen posesión dos seus cargos.</seg>
-			</u>
-			<note>(Os membros da Mesa do Parlamento ocupan os seus postos na Presidencia.)</note>
-			<u who="#RivasJoséLuis" ana="#regular" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u15">
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc> 
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg65">Por tanto, a composición da Mesa do Parlamento, como consecuencia destas eleccións, queda da seguinte maneira: presidente, don Miguel Ángel Santalices Vieira; vicepresidente primeiro, don Diego Calvo Pouso; vicepresidenta segunda, dona Monserrat Prado Cores; secretaria, dona María Corina Porro Martínez; e vicesecretaria, dona Marina Ortega Otero.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg66">Prego aos señores e señoras deputados elixidos e elixidas que tomen posesión dos seus cargos.</seg>
+				<note>(Os membros da Mesa do Parlamento ocupan os seus postos na Presidencia.)</note>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
 				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg68">Prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg67">Prestación de promesa ou xuramento de acatar e gardar fidelidade á Constitución e ao Estatuto de autonomía de Galicia</seg>
 			</u>
 			<gap reason="editorial">
 				<desc xml:lang="en">SAMPLING</desc>
 			</gap>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u164">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg227">Moitas grazas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg228">Pódense sentar os membros da Mesa. Grazas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg229">Aquí pon o guión: &quot;discurso do novo presidente&quot;. Farei un discurso estilo &quot;ourensanía&quot;, vanmo permitir. Será un discurso breve. Xa saben que nos discursos eu sigo as recomendacións que me deron dende hai moitos anos: se tes que falar en público, ponte de pé para que te vexan, fala alto para que te escoiten e fala pouco para que che aplaudan.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg230">Entón, o primeiro que quero facer é saudar os novos membros, as persoas que me van acompañar na Mesa. Debemos de ser institucionais; penso que imos seguir esa liña que tivemos sempre neste Parlamento. Tamén quero saudar a todos os deputados e deputadas que hoxe acaban de tomar posesión neste Parlamento e tamén a todos os invitados, que non os podemos ver, pero que sabemos que están aquí.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg231">Estoulle moi agradecido ao meu grupo por propoñerme unha vez máis para ser presidente do Parlamento. Espero poder cumprir. Desde logo, ese é o sentimento que teño neste momento, e reitero as grazas polo seu apoio.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg232">Tamén ao conxunto da Cámara lle agradezo a súa cordial actitude neste momento que se acaba de elixir a Mesa e, por ende, o presidente.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg233">Quero tamén pedir desculpas por este escenario; asumín toda a responsabilidade, pero sei que o tiña que facer así. Non é o día máis agradable para que teñamos o pleno así. Gustaríame ter isto cheo de invitados, pero hei de ser responsable ―algo bo ten ser médico―. E fíxeno tamén por dúas cousas: primeiro, por prudencia, e, segundo, porque tamén quero trasladar unha mensaxe á cidadanía do cumprimento das normativas e dos consellos sanitarios. Só así poderemos saír ben disto.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg234">Pido a súa colaboración, a colaboración de todos os deputados e deputadas. Vostedes son elixidos por eles. As súas frases, os seus comentarios han de ter unha incidencia positiva niso. Pido a súa colaboración para iso: medidas de seguridade sempre, coa máxima prudencia. Iso é o que hoxe pido. E por iso pido desculpas, porque non teñamos este hemiciclo como se merecía.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg235">É a miña sétima lexislatura xa, coñezo esta casa mellor ca ninguén. Xa dixen na miña anterior toma de posesión que poucas persoas pode haber que lle queiran tanto ao Parlamento. Eu quéroo moito. Coñezo os seus traballadores, sei o que fan e, dende logo, sei que a súa única función é estar aí para que nós fagamos ben o noso traballo parlamentario. Polo tanto, hoxe tamén quero ter un recordo para eles e agradecérllelo.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg236">Sei tamén o orgullo que é ser deputado, e vostedes, sobre todo os que se incorporan hoxe, vano sentir; e tamén lles digo por experiencia propia ―e é unha idea que lles transmito― que calan os discursos que teñen contido e os que teñen unha argumentación sólida e que non cala a estridencia ―acábase de ver, acabámolo de comprobar non hai moito tempo―. Polo tanto, eu pídolles que nese sentido vaiamos todos, desde as discrepancias lóxicas que pode haber, pero sempre mantendo, por suposto, a dignidade da Cámara.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg237">Esta ha de ser a lexislatura das persoas, estou convencido; estano pasando mal e aquí estamos nós para tratar de axudar, para tratar de facer cousas en que poidamos axudalos. E eu —e con isto xa remato— só pido unha cousa: poder estar á altura da confianza que se depositou en min. E tamén pido por vostedes, por todos os deputados e deputadas, para que poidan estar á altura da confianza que os electores depositaron en todos vostedes. Ese é o desexo que hoxe pido.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg238">Nada máis e moitas grazas por escoitarme nesta toma de posesión. Moitas grazas.</seg>
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc> 
+			<note type="speaker">O señor PRESIDENTE (Santalices Vieira):</note>
+			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u159">
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg226">Moitas grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg227">Pódense sentar os membros da Mesa. Grazas.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg228">Aquí pon o guión: &quot;discurso do novo presidente&quot;. Farei un discurso estilo &quot;ourensanía&quot;, vanmo permitir. Será un discurso breve. Xa saben que nos discursos eu sigo as recomendacións que me deron dende hai moitos anos: se tes que falar en público, ponte de pé para que te vexan, fala alto para que te escoiten e fala pouco para que che aplaudan.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg229">Entón, o primeiro que quero facer é saudar os novos membros, as persoas que me van acompañar na Mesa. Debemos de ser institucionais; penso que imos seguir esa liña que tivemos sempre neste Parlamento. Tamén quero saudar a todos os deputados e deputadas que hoxe acaban de tomar posesión neste Parlamento e tamén a todos os invitados, que non os podemos ver, pero que sabemos que están aquí.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg230">Estoulle moi agradecido ao meu grupo por propoñerme unha vez máis para ser presidente do Parlamento. Espero poder cumprir. Desde logo, ese é o sentimento que teño neste momento, e reitero as grazas polo seu apoio.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg231">Tamén ao conxunto da Cámara lle agradezo a súa cordial actitude neste momento que se acaba de elixir a Mesa e, por ende, o presidente.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg232">Quero tamén pedir desculpas por este escenario; asumín toda a responsabilidade, pero sei que o tiña que facer así. Non é o día máis agradable para que teñamos o pleno así. Gustaríame ter isto cheo de invitados, pero hei de ser responsable ―algo bo ten ser médico―. E fíxeno tamén por dúas cousas: primeiro, por prudencia, e, segundo, porque tamén quero trasladar unha mensaxe á cidadanía do cumprimento das normativas e dos consellos sanitarios. Só así poderemos saír ben disto.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg233">Pido a súa colaboración, a colaboración de todos os deputados e deputadas. Vostedes son elixidos por eles. As súas frases, os seus comentarios han de ter unha incidencia positiva niso. Pido a súa colaboración para iso: medidas de seguridade sempre, coa máxima prudencia. Iso é o que hoxe pido. E por iso pido desculpas, porque non teñamos este hemiciclo como se merecía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg234">É a miña sétima lexislatura xa, coñezo esta casa mellor ca ninguén. Xa dixen na miña anterior toma de posesión que poucas persoas pode haber que lle queiran tanto ao Parlamento. Eu quéroo moito. Coñezo os seus traballadores, sei o que fan e, dende logo, sei que a súa única función é estar aí para que nós fagamos ben o noso traballo parlamentario. Polo tanto, hoxe tamén quero ter un recordo para eles e agradecérllelo.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg235">Sei tamén o orgullo que é ser deputado, e vostedes, sobre todo os que se incorporan hoxe, vano sentir; e tamén lles digo por experiencia propia ―e é unha idea que lles transmito― que calan os discursos que teñen contido e os que teñen unha argumentación sólida e que non cala a estridencia ―acábase de ver, acabámolo de comprobar non hai moito tempo―. Polo tanto, eu pídolles que nese sentido vaiamos todos, desde as discrepancias lóxicas que pode haber, pero sempre mantendo, por suposto, a dignidade da Cámara.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg236">Esta ha de ser a lexislatura das persoas, estou convencido; estano pasando mal e aquí estamos nós para tratar de axudar, para tratar de facer cousas en que poidamos axudalos. E eu —e con isto xa remato— só pido unha cousa: poder estar á altura da confianza que se depositou en min. E tamén pido por vostedes, por todos os deputados e deputadas, para que poidan estar á altura da confianza que os electores depositaron en todos vostedes. Ese é o desexo que hoxe pido.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg237">Nada máis e moitas grazas por escoitarme nesta toma de posesión. Moitas grazas.</seg>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
 				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg239">Polo tanto, en cumprimento do artigo 5 do Regulamento, declaro constituído o Parlamento de Galicia na súa XI lexislatura.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg240">Unha vez máis, antes de que escoitemos o himno, convídoos a todos vostedes, que adquiriron xa a condición plena de deputadas e deputados do Parlamento de Galicia, e antes de levantar esta sesión, a gardar un minuto de silencio en memoria das vítimas da covid-19 e de todas as persoas falecidas por diferentes causas durante este tempo sen poder ser despedidas polos seus seres queridos; minuto de silencio tamén como mostra de afecto, solidariedade e cercanía coas familias afectadas, con todas as persoas enfermas e, por suposto, de agradecemento a todos os profesionais sanitarios e aos restantes servizos esenciais para a sociedade.</seg>
-			</u>
-			<note>(As señoras deputadas e os señores deputados e demais asistentes a esta sesión, postos en pé, gardan un minuto de silencio.)</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u165">
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg241">E agora si, escoitamos o himno.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg242">Moitas grazas.</seg>
-			</u>
-			<note>(As señoras deputadas e os señores deputados e demais asistentes á sesión, postos en pé, cantan o himno galego.)</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.u166">
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc> 
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg238">Polo tanto, en cumprimento do artigo 5 do Regulamento, declaro constituído o Parlamento de Galicia na súa XI lexislatura.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg239">Unha vez máis, antes de que escoitemos o himno, convídoos a todos vostedes, que adquiriron xa a condición plena de deputadas e deputados do Parlamento de Galicia, e antes de levantar esta sesión, a gardar un minuto de silencio en memoria das vítimas da covid-19 e de todas as persoas falecidas por diferentes causas durante este tempo sen poder ser despedidas polos seus seres queridos; minuto de silencio tamén como mostra de afecto, solidariedade e cercanía coas familias afectadas, con todas as persoas enfermas e, por suposto, de agradecemento a todos os profesionais sanitarios e aos restantes servizos esenciais para a sociedade.</seg>
+				<note>(As señoras deputadas e os señores deputados e demais asistentes a esta sesión, postos en pé, gardan un minuto de silencio.)</note>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg240">E agora si, escoitamos o himno.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg241">Moitas grazas.</seg>
+				<note>(As señoras deputadas e os señores deputados e demais asistentes á sesión, postos en pé, cantan o himno galego.)</note>
+				<kinesic type="applause">
+					<desc>(Aplausos.)</desc>
 				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg243">Moitas grazas. Quedou constituído o Parlamento. Grazas a todos.</seg>
-				<kinesic type="applause"> 
-					<desc>(Aplausos.)</desc> 
-				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg244">Remata a sesión ás doce e trinta e oito minutos do mediodía.</seg>
+				<seg xml:id="ParlaMint-ES-GA_2020-08-07-DSPG001.seg242">Moitas grazas. Quedou constituído o Parlamento. Grazas a todos.</seg>
 			</u>
+			<kinesic type="applause">
+				<desc>(Aplausos.)</desc>
+			</kinesic>
+			<note type="time">Remata a sesión ás doce e trinta e oito minutos do mediodía.</note>
 		</div>
 	</body>
 </text>
