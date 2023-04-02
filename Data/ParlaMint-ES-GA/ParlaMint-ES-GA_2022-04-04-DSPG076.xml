@@ -1,269 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gl" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076" ana="#parla.sitting #covid">
-<teiHeader>
-	<fileDesc>
-		<titleStmt>
-			<title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2022-04-04-DSPG076 [ParlaMint SAMPLE]</title>
-			<title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2022-04-04-DSPG076 [ParlaMint SAMPLE]</title>
-			<title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
-			<title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
-			<meeting ana="#parla.term #PG.11 #parla.uni" n="011">XI Lexislatura</meeting>
-			<meeting ana="#parla.meeting #parla.uni" n="076">Número 076</meeting>
-			<meeting ana="#parla.sitting #parla.uni" n="2022-04-04">04.04.2022</meeting>
-			<respStmt>
-				<persName>Adina Vladu</persName>
-				<persName>Carmen Magariños</persName>
-				<persName>Daniel Bardanca</persName>
-				<persName>Elisa Fernández Rei</persName>
-				<resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
-			</respStmt>
-			<funder>
-				<orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
-				<orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
-			</funder>
-			<funder>
-				<orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
-				<orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
-			</funder>
-			<funder>
-				<orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
-				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
-			</funder>
-		</titleStmt>
-		<editionStmt>
-			<edition>3.0</edition>
-		</editionStmt>
-		<extent><!--These numbers do not reflect the size of the sample!-->
-			<measure unit="speeches" quantity="212"/>
-			<measure unit="words" quantity="64420"/>
-		</extent>
-		<publicationStmt>
-			<publisher>
-				<orgName xml:lang="en">CLARIN research infrastructure</orgName>
-			</publisher>
-			<idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
-			<availability status="free">
-				<licence>http://creativecommons.org/licenses/by/4.0/</licence>
-				<p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
-			</availability>
-			<date when="2023-03-31">31.03.2023</date>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl>
-				<title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
-				<publisher>Parlamento de Galicia</publisher>
-				<idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110076.pdf</idno>
-				<date when="2022-04-04">04.04.2022</date>
-			</bibl>
-		</sourceDesc>
-	</fileDesc>
-	<encodingDesc>
-		<projectDesc>
-			<p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
-		</projectDesc>
-		<tagsDecl>
-			<namespace name="http://www.tei-c.org/ns/1.0">
-				<tagUsage gi="body" occurs="1"/><!--These numbers do not reflect the size of the sample!-->
-			</namespace>
-		</tagsDecl>
-	</encodingDesc>
-	<profileDesc>
-		<settingDesc>
-			<setting>
-				<name type="address">Rúa do Hórreo, 63</name>
-				<name type="city">Santiago de Compostela</name>
-				<name type="country" key="ES-GA">Galicia</name>
-				<date when="2022-04-04">04.04.2022</date>
-			</setting>
-		</settingDesc>
-	</profileDesc>
-	<revisionDesc>
-		<change when="2023-03-28">
-			<name>GitHub Action</name>: Made sample.</change>
-		<change when="2023-03-24">
-			<name>Resp</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="gl"
+     xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA, 2022-04-04-DSPG076 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA, 2022-04-04-DSPG076 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+            <title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+            <meeting ana="#parla.term #PG.11 #parla.uni" n="011">XI Lexislatura</meeting>
+            <meeting ana="#parla.meeting #parla.uni" n="076">Número 076</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2022-04-04">04.04.2022</meeting>
+            <respStmt>
+               <persName>Adina Vladu</persName>
+               <persName>Carmen Magariños</persName>
+               <persName>Daniel Bardanca</persName>
+               <persName>Elisa Fernández Rei</persName>
+               <resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+               <orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+               <orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="212"/>
+            <measure unit="words" quantity="64420"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2023-04-02">2023-04-02</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+               <publisher>Parlamento de Galicia</publisher>
+               <idno type="URI">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110076.pdf</idno>
+               <date when="2022-04-04">04.04.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Rúa do Hórreo, 63</name>
+               <name type="city">Santiago de Compostela</name>
+               <name type="country" key="ES-GA">Galicia</name>
+               <date when="2022-04-04">04.04.2022</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-04-02">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-03-28">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-03-24">
+            <name>Resp</name>
 			: Made XML-TEI.
 		</change>
-	</revisionDesc>
-</teiHeader>
-<text ana="#covid">
-	<body>
-		<div type="debateSection">
-			<pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110076.pdf"/>
-			<note type="time">Ábrese a sesión ás dez da mañá.</note>
-			<note type="speaker">O señor PRESIDENTE:</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u1">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg1">Bos días.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg2">Ábrese a sesión.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg3">A orde do día está publicada no Boletín Oficial do Parlamento, polo que no procedemos á súa lectura. Non se xustifican inasistencias e entramos sen máis na orde do día.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg4">Como punto primeiro, un texto lexislativo, que é o debate de toma en consideración da proposición de lei do Grupo Parlamentario Socialista para a mellora da asistencia primaria no sistema público de saúde de Galicia.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg5">Debate de toma en consideración da proposición de lei, do G. P. dos Socialistas de Galicia, para a mellora da asistencia primaria no sistema público de saúde de Galicia</seg>
-			</u>
-			<note type="speaker">O señor PRESIDENTE:</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u2">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg6">Para a presentación da proposición de lei ten a palabra, polo Grupo Parlamentario Socialista, o señor Torrado.</seg>
-			</u>
-			<note type="speaker">O señor TORRADO QUINTELA:</note>
-			<u who="#TorradoJulio" ana="#regular" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u3">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg7">Bo día a todos e a todas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg8">Bo día e grazas, señor presidente.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg9">Neste pleno de luns, agardo que tiveran unha fin de semana boa para poder estudar a proposta de lei que traemos. Estou seguro de que a estiveron todos estudando concienzudamente, celebro a atención que puxeron a isto e estou seguro de que imos ser capaces de sacar un debate moi propositivo.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg10">Dende o noso punto de vista, a atención primaria en Galicia merece unha atención tan especial como moitos outros debates, pero no que corresponde ao plano sanitario, se cadra, de maneira moi particular. Porque, ante a situación que vivimos no ámbito sanitario, merece que repensemos non só por partes senón por completo o modelo asistencial que ofrecemos. A atención primaria, en realidade, é probablemente o espazo do sistema que necesita repensarse de maneira máis clara.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg11">Hai, dende o noso punto de vista, un problema en atención primaria en Galicia, non exclusivo de Galicia, pero que ten os seus feitos diferenciais en Galicia. Seguramente estes feitos diferenciais sexan interpretados, como así o vemos habitualmente, en termos moi positivos polo Goberno e o grupo que o sustenta, pero tamén é certo que hai moitas eivas que nós cremos que hai que sinalar e intentar mellorar.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg12">Hai un problema de atención primaria en dous planos fundamentais, dende logo. Seguro que se imos ao concreto hai moitas cuestións, pero hai dous planos fundamentais: en termos de recursos e en termos de modelo asistencial.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg13">O modelo asistencial xa non vale. Pretendemos atender a nosa poboación, a atención primaria, cun modelo dos anos 80, dos anos 90, moi exitoso, moi exitoso, pero que non é suficiente para a realidade de hoxe en día, ¿por que? Pois por todas esas argumentacións que todos coñecemos e repetimos, pero que seica é necesario repetir constantemente porque parece que non se afrontan as solucións. Pero teñen que ver co envellecemento da poboación, coa dispersión territorial que existe en Galicia, coa capilaridade da atención primaria, que é unha das moitísimas virtudes que pode ter, pero non podemos afrontalo como un modelo que está xa sobrepasado. A cronicidade evidencia a necesidade de afrontar a mellora, posibilidade que temos de externalizar dos centros sanitarios aos pacientes, atendelos noutro plano, facer moitísima prevención, se tiveramos recursos suficientes. Por iso temos un problema, entre outras cousas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg14">Hoxe, o sistema é médico-centrista. Se un pasa pola atención primaria é practicamente imposible, por non dicir imposible, practicamente imposible, que non pase case de primeira maneira, como se fose un nó de botella, pola consulta do médico ou da médica. E isto é ineficiente, absolutamente ineficiente. Non se trata de que os profesionais sanitarios... os facultativos non teñen esa capacidade, por suposto, senón que se trata de que, en realidade, estamos sobrecargando as consultas para que fagan un labor moitas veces de distribución e, noutras moitas ocasións, para resolver urxencia constante tras urxencia constante, e convértense ao final, os profesionais, en pasantes de pacientes. Isto evita ou imposibilita calquera outra acción. Ou hai intentos tibios de solución, collidos por separado certos parches, pero que non afrontan a realidade dun modelo.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg15">Os profesionais demandan dende hai tempo un sistema que poida asemellarse á triaxe para a atención primaria. Agora implántase o coñecido como sistema XIDE,  pero que é moito máis tibio e incluso non se quere recoñecer que é un sistema de triaxe, hoxe debateremos tamén sobre el.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg16">É necesario e imprescindible conectar a saúde mental coa atención primaria, pero este goberno, basicamente, o que implantou foi un sistema no que o que concibe como conexión de atención primaria coa saúde mental é un psicólogo por cada 400.000 habitantes. Probablemente poida resolver algún problema, pero todo apunta a que é imposible resolvelos de maneira global.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg17">As capacitacións dos nosos profesionais son enormes, pero non se desenvolven correctamente porque o sistema non lles permite esa oportunidade. Galicia é unha das últimas comunidades que incorporou as melloras sobre o decreto de enfermaría, que potencia e dá máis capacitacións a enfermeiros e enfermeiras.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg18">Poderiamos falar da necesidade de incorporar tamén persoal de xestión e servizos ¿Por que? Moitísimo traballo que fai un médico ou unha médica nunha consulta é administrativo, todos aqueles que pasamos —probablemente todos os que estamos aquí pasamos, máis recente ou menos recentemente, pero non hai moito tempo— por unha consulta dun médico ou médica de atención primaria, e vemos como moita parte do tempo a pasan diante do ordenador connosco diante, non porque queiran, senón porque o necesitan. Nós temos unha capacidade de sobrecargar de burocracia os profesionais que fai que o último que poidan facer ao final sexa clínica. Por tanto,  necesitamos tamén profesionais de xestión e servizos administrativos formados, persoal capaz de colaborar no sistema, que non hai ningunha maneira de xustificar que aí non hai persoal. O debate de que falta persoal noutros planos ímolo deixar por un momento, pero aí é imposible xustificar que falta persoal, o que non hai é vontade de contratar. Temos, polo tanto, un problema na atención primaria que focaliza todo nos médicos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg19">¿Que propoñemos? Nós propoñemos que o sistema sexa verdadeiramente multidisciplinar, isto é: a atención primaria ―os centros de saúde― non é o lugar onde están os médicos de primaria, que tamén, pero é un espazo onde temos unha atención que, sendo moi relevante a presenza dos médicos e médicas, necesita de moitísimos outros profesionais. Sabemos que a atención primaria ten fisioterapeutas, ¿vostedes saben canto é a media de espera para un fisioterapeuta en Galicia? Non pensen nunha semana, non pensen en dúas semanas, non pensen en tres semanas, non pensen nun mes... É improbable, por tanto, ter unha capacidade asistencial. Non temos nunca os suficientes, nunca imos ter, a este ritmo de contratación que vemos nos últimos anos, sobre todo porque pasamos en Galicia oito anos sen contratar nin un só fisioterapeuta. Houbo despois unha gran contratación, presumiuse moito, pero son oito anos seguidos sen contratar e, polo tanto, non temos unha multidisciplinariedade real. Podiamos falar da necesidade de incorporar podólogos ao sistema, como están facendo outras comunidades, Galicia non. Poderiamos falar da necesidade de incorporar moitas máis traballadoras sociais, en Galicia isto parece unha quimera. Poderiamos falar de incorporar profesionais de distintas ramas, ¿por que? Porque esa é a nosa atención primaria. Non se trata unicamente da consulta do médico, este era o modelo nos oitenta, pero que van 40 anos aló e, por tanto, necesitamos mudar.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg20">Nós defendemos a multidisciplinariedade, que sexa real e efectiva. Hai para iso un problema de recursos, un problema claro de recursos. Temos debatido sobre isto en moitas ocasións, e os datos, a verdade, é que son contundentes, bastante contundentes.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg21">
-					Miren, en termos globais, Galicia é das comunidades autónomas de España que está na metade inferior no seu gasto en investimento por habitante en sanidade. O investimento por persoa que temos en Galicia está na franxa inferior. Podemos reinterpretar este dato como cada un queira, pero esta é a realidade, hai máis comunidades, algunhas, bastantes máis, por riba que por debaixo. Permítanme que llelo ensine nun gráfico
-					<note>(O señor Torrado amosa un gráfico.)</note>
-					e, ademais, permítanme que o faga porque hai un detalle aí que me parece moi interesante. Este é o gráfico de investimento por habitante para os orzamentos de 2022 en España. Vostedes poden ver as máis altas, están aquí sinaladas en verde: Euskadi, Asturias e Navarra; e poden ver Galicia na metade inferior, e poden ver as últimas tres.
-				</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg22">Permítanme que me parece un momento nas últimas tres só por un detalle, non lles vou facer perder moito tempo. ¿Lembran cando vostedes soben aquí a dicir que non hai que facer política coa sanidade? Escoitámolo moitas veces ¿Saben cales son as últimas tres comunidades autónomas de España que invisten por habitante en sanidade pública?: Murcia, Andalucía e Madrid; non haberá que facer política, pero Murcia, Andalucía e Madrid. Casualmente, casualmente, coincidencia pura, isto en estatística seguro que se considera unha casualidade, seguro que se considera tres de tres gobernadas polo Partido Popular. ¿Saben en cantas goberna o Partido Popular a sanidade nas que máis inviste? En ningunha. Cando din vostedes que non hai que facer política en sanidade, vostedes o que non queren é que os demais fagan política, queren facer a vosa, si, si, non, a súa si, esa si, as demais non.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg23">E, por tanto, iso é o que defendemos, hai unha política de priorización ou non sobre a sanidade pública. Vostedes defenden reducir ese investimento, nós demandamos aumentalo. ¿En quere resulta isto en atención primaria en Galicia? Estar nese nivel de investimento. En que os orzamentos..., todos os datos que me dean despois sobre persoal, por favor, cítenme as fontes, porque se non é imposible. Os orzamentos que os gobernos publican, e que se supoñen válidos, din que temos 976 profesionais menos hoxe en primaria que no ano 2009, ¡976 menos!, voulles dar o dato exacto: 9.610, orzamento de 2009; 8.634, orzamento de 2022. Este é o dato, os demais datos vostedes saberán de onde saen.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg24">Deixamos de formar 151 profesionais de medicina familiar e comunitaria en Galicia nos últimos dez anos. Renunciáronse, ¿por que? Non o sabemos, ninguén é capaz de dar unha explicación. Nos últimos cinco anos, preguntados por iso polo Barómetro Sanitario, os cidadáns de Galicia afirmaban, hai cinco anos, un 13 % que, de poderen escoller, escollerían ser atendidos na privada; hoxe xa están no 19 %, pero a realidade é que no último ano aumentou un 20 % aqueles que contrataron un seguro privado. Menos persoal, menos investimento, aumento do paso das persoas á sanidade privada. Estes son os datos, vostedes interprétenos como queiran, pero estes son os datos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg25">¿Que propoñemos a través desta proposición de lei? Modificar a lexislación sanitaria, ¿para que? ¿Para resolvelo todo? Non. Non estamos propoñendo unha hiperrevolución, cremos que iso necesitaría dun debate moito máis profundo, que as sociedades científicas xa dan, que os representantes dos traballadores xa dan, que as asociacións de usuarios colaboran e participan, que os sistemas en xeral están dando e que vostedes, en realidade, están escoitando pero nunca facendo. Sempre estamos abrindo comisións para falar o que, como di todo o mundo, xa está falado e, polo tanto, sabemos o que hai que facer. O que propoñemos non é unha revolución enorme, pero si propoñemos equiparar en certa maneira a atención primaria ao resto do sistema asistencial, e para iso obrigarnos a ser mellores. Porque se está claro algo é que con vontade hai algo que non está funcionando. Polo tanto, obriguémonos a ser mellores.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg26">Nós non propoñemos algo que resolva todo, pero si que contribúa á mellora para os profesionais e á mellora para os usuarios, ¿como? Aumentando a calidade do servizo e ¿isto como se fai? A nosa proposta ten, basicamente, un eixo, un eixo, é certo, simbólico en canto á imaxe que ten que é limitar o tempo de espera por unha atención en atención primaria, por unha consulta, por unha asistencia. ¿Por que? Porque ata o de agora, en atención hospitalaria, a Lei de garantías, que é unha das que nós propoñemos modificar, si garantía, si garante que un cidadán ten dereito a unha espera tope, en cirurxía, en probas diagnósticas, en primeira consulta, pero nada para os centros de saúde, nada para a nosa atención primaria. ¿Que propoñemos? Topar a atención primaria, ao límite. Nós marcamos dous días, é flexible, podemos debater sobre iso ¿Por que dous días? Porque nesta sala o PP o ten repetido, o señor conselleiro o ten dito moitas veces que esta é basicamente a media de espera que temos na atención primaria en Galicia. É certo que dende a oposición atopamos sempre ―casualidade― en moitísimos casos que o elevan, pero o Goberno dá datos, que non hai por que desconfiar deles a priori, que din que existen moitos outros sitios onde se cumpre perfectamente coas demoras e, polo tanto, a media queda —vamos tomar os datos do Goberno— en dous días aproximadamente. Ben, pois isto é o que tiñamos tamén, certamente, antes da pandemia. ¿Nós que propoñemos? Limitar eses dous días, dous días de máximo. Sabemos que con pedilo non é suficiente, non vale só con facer un desiderátum, é certo, entón hai que modificar algunhas cousas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg27">¿Que propoñemos modificar a través desta proposición de lei?</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg28">En primeiro lugar, evitar algo que si fai a Lei de garantías que promoveu o PP e que nós cremos que non hai que facer e, dende logo, na nosa proposición limitámolo en atención primaria. Que non podemos resolver as demoras con derivación á concertada, ¿por que? Porque é un pouco trampa que o sistema apunte para si, normativamente, que se se demora vai resolver derivándoo á privada. Isto para nós é un pouco trampa, porque ao final o sistema é o que decide canto queremos derivar e canto non queremos derivar. E nós cremos que con isto hai que intentar ―como dicimos― obrigarse a ser mellores. Nós defendemos: non imos derivar, non imos usar ese sistema, ¿e que imos utilizar? Algo, iso si, revolucionario. ¿Necesitamos atender máis rápido e mellor? Contratemos máis persoal. Isto é unha política extraordinaria, isto non o haberá noutro lugar, pero isto é así, nós defendemos que, en vez de derivar, contratemos máis profesionais.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg29">Ademais, defendemos que a contratación de profesionais non vaia dirixida aleatoriamente, propoñemos algo sorprendente como avaliar as políticas públicas. Se topamos dous días de atención primaria como límite, ¿que decidimos? Alí onde estes dous días se superen con frecuencia, sinalemos eses centros como prioritarios de reforzo de persoal, porque asumindo como certo que os datos que ofrece a Consellería limitan máis ou menos a media de espera a dous días, será que hai sitios que cumpren perfectamente e outros que non tanto; isto é o que din as medias, basicamente. Polo tanto, nós defendemos: non contratemos aleatoriamente, nin decidamos aleatoriamente, avaliemos e poñamos os recursos onde os necesitamos.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg30">¿Que establecemos ademais? Que para contratar teñamos en conta estas demoras; e ademais unha ratio, non de profesionais por habitante, que, como sabemos, se truquea bastante aquí porque logo non se conta coas baixas e as non substitucións, senón de procesos asistenciais por profesional. Porque a clave de todo isto, o que defenden todos os profesionais, é o tempo, necesitan tempo para atender correctamente. E, por tanto, determinamos, a través desta proposta, que se estableza regulamentariamente unha ratio: ¿cantas persoas pode atender un profesional por xornada? Isto para nós é avaliar, decidir e, por tanto, fomentar a calidade. E isto é o que propoñemos a través desta normativa.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg31">Hai outras propostas, como, por exemplo, incluír na lei un certo equilibrio entre a capacidade de influencia nos entornos de xestión da atención primaria e hospitalaria. Que a reforma que propuxo o Goberno do Partido Popular —que propuxo este Goberno e o partido que o apoia— eliminou a atención primaria dos eixos de decisión; e nós cremos de verdade que a atención primaria non é unha compañía do resto do sistema, senón que debe ser o eixo de verdade integrador. E, por tanto, necesitamos equilibrar.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg32">Propoñemos que aqueles cadros de persoal que teñan que delimitar cantos profesionais de PAC teñen que estar en cada centro non sexa unha cuestión que sexa máis difícil de consultar que onde está o botón nuclear, senón que sexamos capaces de entender cal é o cadro de persoal e poñamos unha regulación que o determine. Nós necesitamos iso.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg33">Ademais, propoñemos aumentar a capacitación dos profesionais. Por iso diciamos que hai un problema sinalado no sistema. ¿Como o facemos? Propoñendo un novo catálogo de probas diagnósticas, é dicir, que os profesionais de primaria teñan máis capacidade de pedir probas e non estean sometidos a un sistema que os obriga case moitas veces a pedir permiso para facer ou para demandar probas que ata o de agora nós cremos —polo menos, sen que ninguén nos poida dicir o contrario— que están perfectamente capacitados.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg34">Polo tanto, defendemos unha capacidade de ter maior garantía de calidade, profesionais e usuarios. E isto é o que propoñemos, a necesidade de entender, por tanto, que a atención primaria é un eixo e non unha compañía.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg35">Nós defendemos esta proposta, non é a revolución pero cremos que é unha proposta que pode mellorar o sistema. Equiparar a atención primaria co resto da atención no que supón a garantía de calidade e no que supón o compromiso de establecer recursos para que encamiñemos un novo modelo. E isto é basicamente non deixar isto á vontade...</seg>
-			</u>
-			<note type="speaker">O señor PRESIDENTE:</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u4">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg36">Remate, por favor.</seg>
-			</u>
-			<note type="speaker">O señor TORRADO QUINTELA:</note>
-			<u who="#TorradoJulio" ana="#regular" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u5">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg37">...—termino xa, presidente— nin ao albur de que cada goberno que exista poida defender os datos como lle vén, senón que nos obriguemos a ser mellores. Porque se nos obrigamos a ser mellores como lexisladores obrigaremos os gobernos a ser mellores no desenvolvemento das políticas sanitarias; e, por tanto, garantiremos a calidade. E isto é o que nos propoñemos. ¿Queremos ser mellores en atención primaria, si ou non? Para evitar que isto sexa unha cuestión de vontade e de palabras, nós propoñémolo levar á lei. E isto é o que lles propoñemos, votar a favor disto, que é o que lles pedimos, para que poidamos entre todos reformulalo no que sexa mellorable para ter unha maior calidade na nosa asistencia en atención primaria.</seg>
-			</u>
-			<note type="speaker">O señor PRESIDENTE:</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u6">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg38">Grazas.</seg>
-			</u>
-			<note type="speaker">O señor TORRADO QUINTELA:</note>
-			<u who="#TorradoJulio" ana="#regular" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u7">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg39">Isto é o que propoñemos e desexamos que nos voten a favor.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg40">Moitas grazas.</seg>
-			</u>
-			<kinesic type="applause">
-				<desc>(Aplausos.)</desc>
-			</kinesic>
-			<note type="speaker">O señor PRESIDENTE:</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u8">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg41">Grazas, señor Torrado.</seg>
-				<note>(Pausa.)</note>
-				<note>(Unha persoa dos servizos de limpeza da Cámara procede a desinfectar o estrado.)</note>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg42">Grupo Parlamentario do Bloque Nacionalista Galego. Señora Prado.</seg>
-			</u>
-			<note type="speaker">A señora PRADO CORES:</note>
-			<u who="#PradoMaríaMontserrat" ana="#regular" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u9">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg43">Grazas, presidente.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg44">Moi bo día a todos e a todas.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg45">Moi bo día, señor conselleiro.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg46">Infelizmente, a sanidade segue sendo un dos elementos de máis preocupación dos galegos e as galegas, xunto coa situación económico-laboral, e por algo será. Cando unha cuestión non supón ningún problema a xente non está preocupada, se está preocupada é porque ve que non ten a asistencia que precisa.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg47">E a estas alturas temos que seguir constatando que o Partido Popular na Xunta de Galiza, respecto da sanidade, nos 13 anos de Goberno da era Feixóo, nin planificou, nin anticipou nin deu solucións. E o resultado está aí á vista: a atención primaria, exhausta tras estes 13 anos de facer de trincheira do sistema sanitario, con menos recursos e con menos profesionais. E a atención primaria baseada na proximidade, na accesibilidade, no contacto directo profesionais-doente, na continuidade da asistencia, saltada polos aires, aínda que vostede pretenda negalo, señor conselleiro. Porque no momento en que cada día hai moitos galegos e galegas que non teñen un médico asignado porque non hai cupo; no momento en que cada día o atende unha persoa diferente, no momento en que os profesionais non teñen tempo para atender a poboación, estes alicerces están totalmente dinamitados, queira vostede recoñecelo ou non. Consecuencia —insisto— de non planificar e de 12 anos de tomar como decisión a deterioración da sanidade pública e, dun xeito especial, a atención primaria como auténtico alicerce do sistema sanitario. Temos que volver repetir que máis do 80 % dos procesos de saúde dos galegos e galegas se resolve en atención primaria, e isto tería que significar que tiña que ser a auténtica prioridade do Goberno: unha atención primaria ben dotada e resolutiva na que a poboación estivera ben atendida. Porque iso acaba sendo beneficioso para esa atención que recibe a poboación e, ademais, acaba aforrando moitos cartos ao sistema. Se hai unha atención primaria ben dotada, unha boa atención das persoas crónicas e todas as necesidades, acábaslle aforrando moitos cartos ao sistema porque a xente non acaba en urxencias, porque a xente non ten que acabar na atención hospitalaria. Iso é así, mais a folla de ruta do Partido Popular vai na dirección contraria. E as probas están aí, neste momento xa non hai ninguén por dicirlle ao Partido Popular que as cousas non están ben na sanidade pública e, especialmente, na atención primaria. Profesionais e poboación por todos os lados mobilizada reclamando profesionais, reclamando atención e reclamando non espera para ser atendidos en atención primaria.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg48">¿E cal é a situación? Pois unha grandísima sobrecarga en atención primaria, falta de tempo dos profesionais para dar esa atención. ¿Lémbrase de que non hai tanto os profesionais estaban reclamando 10 minutos para atender a poboación, 4 días? E hoxe estamos na situación de que non hai atención, xa non é que non haxa nin 5 nin 3, é que moita poboación está sen atención. Entón, non teñen tempo para explorar, pensar, falar, interactuar, escoitar, propor probas diagnósticas, analizar as probas diagnósticas, recollelas e sistematizalas no sistema. Para iso necesítanse profesionais e tempo e non o teñen, e non o teñen porque non hai eses profesionais.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg49">¿E cal é a situación da atención primaria? Totalmente secundarizada. Vostedes eliminaron as direccións da atención primaria, eliminaron as xerencias de atención primaria; co cal esa capacidade resolutiva, esa capacidade de decidir, esa capacidade de poñer a atención primaria en primeiro termo vostedes eliminárona cando crearon as EOXI e eliminaron as xerencias de atención primaria.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg50">E os avances tecnolóxicos e as melloras das infraestruturas, realmente mínimas. Por moito que vostedes fagan anuncios de escaparate son mínimas. E non hai máis que ir a moitísimos centros de saúde onde practicamente está o médico e o persoal coa mesa e o fonendo. Non, hai algúns centros que melloraron, na maioría non houbo ese avance acorde coas necesidades por moito que pretendan dicir o contrario. Pecharon os consultorios, a inmensa maioría, coa escusa da crise, e non os abriron. E podiamos seguir aquí dicindo cal é a situación.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg51">
-					E podemos falar dos PAC, onde podo poñerlle un exemplo, señor conselleiro. Esta fin de semana, na área sanitaria Pontevedra, O Salnés, de 8 PAC, 6 con problemas. En Caldas sen médico, literalmente sen médico; tivo que saír a enfermeira soa a atender unha urxencia.
-					<kinesic type="applause">
-						<desc>(Aplausos.)</desc>
-					</kinesic>
-					Logo esa é a atención que vostedes lle están dando á poboación,
-					<kinesic type="applause">
-						<desc>(Aplausos.)</desc>
-					</kinesic>
-					¡Esa é atención que lle están dando á poboación!
-				</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg52">E, polo tanto, evidentemente, hai que tomar en serio a defensa da sanidade pública, hai que tomar en serio a defensa da atención primaria, porque é o alicerce do sistema. E por iso o BNG vai votar a favor desta proposición de lei que trae hoxe aquí o Partido Socialista. E tamén xa digo de entrada que, de admitirse a trámite, presentariamos emendas a respecto de cuestións que contén coas que non coincidimos exactamente, e outras que non contén e que cremos que son fundamentais á hora de abordar os problemas da atención primaria.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg53">E esta proposición de lei, que fai unha proposta de modificar dúas leis, por un lado, a 12/2013, de garantías, é dicir, dos tempos de prestación sanitaria, dos tempos de espera; e, por outro, a Lei de saúde de Galiza.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg54">Entón, hai cuestións coas que non coincidimos exactamente no enfoque. A atención primaria se nalgo se ten que caracterizar é porque non pode haber listas de espera porque ten que ser inmediato, porque ten que haber esa proximidade e inmediatez. Polo tanto, cremos que non hai que poñer ningún tempo de espera. A atención primaria non pode ter esperas e entón cremos que non hai que poñer tempos de espera. Ou algunha cuestión, como unha cuestión que establece que substituír o número máximo de usuarios por profesional é poñer exclusivamente o número de usuarios diarios. Cremos que hai que poñer as dúas cousas, que ten que haber un máximo diario pero que ten que haber un máximo de persoas adscritas a cada profesional. Que non pode servir exclusivamente con que haxa un tope diario, son cuestións que cremos que habería que matizar. Igual que que o tema de establecer criterios non debe facelos unilateralmente a Xunta de Galiza —calquera Goberno que estea—, senón que hai que facelo en combinación e escoitando os profesionais e os seus representantes. Os criterios para pedir probas diagnósticas, os criterios para que tipo de profesionais, que debe facerse tendo en conta tamén a voz dos profesionais que son os que están alí e tamén son os que saben.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg55">E logo hai cuestións que non se contemplan nesta proposta de lei e que cremos que son fundamentais.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg56">
-					O primeiro, é o tema orzamentario. Cremos que é fundamental que a atención primaria chegue ao 25 % do orzamento, porque co 12 % actual non é posible. O 12 % actual, que está 2 puntos e medio por debaixo da media do Estado, significa que a atención primaria hoxe en Galiza ten, aplicándolle o IPC, 277 millóns de euros menos que hai trece anos. E así non é posible, hai que chegar ao 25 %, non pode estar 262 millóns por debaixo da media do Estado.
-					<kinesic type="applause">
-						<desc>(Aplausos.)</desc>
-					</kinesic>
-					Así non é posible.
-					<kinesic type="applause">
-						<desc>(Aplausos.)</desc>
-					</kinesic>
-					¡Así non é posible!
-					<kinesic type="applause">
-						<desc>(Aplausos.)</desc>
-					</kinesic>
-					Entón, cremos que hai que regular por lei tamén o tema do orzamento.
-				</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg57">A recuperación das xerencias. Hai que recuperar a capacidade e a dirección das xerencias, e que debe regularse por lei para que non se chegue a esta situación. Estamos, efectivamente, no século XXI, no ano 2022, e ese non é un sistema onde haxa un médico e unha enfermeira que era considerada auxiliar. Temos profesionais —non me vou cansar de repetilo—, novas categorías, novas especialidades, formados e con capacidade. E por iso nós cremos que hai introducir esas novas categorías e que debe quedar dun xeito explícito, levámolo demandando dende hai moito tempo. Psicólogos clínicos, a empezar por iso, a atención á saúde mental ten que ser unha prioridade absoluta e necesítanse profesionais para facer esa atención. E podólogos, terapeutas ocupacionais, logopedas..., é dicir, profesionais que axuden a ter unha atención primaria realmente de máis calidade.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg58">E é preciso que as carteiras de servizos se activen dunha vez por todas, que un poida pedir directamente consulta co fisioterapeuta. E iso hai que facelo xa, señor conselleiro, non seguir demorando e dicir que estamos en ello, hai que facelo xa e por iso cremos que debe constar aquí.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg59">
-					Igual que o de garantir a presencialidade. Cremos que por lei hai que garantir a presencialidade en atención primaria para toda aquela persoa que o precise e o solicite. E cremos que debería tamén —e nós presentariamos emendas en caso de que se admita a trámite— nesa dirección igual que con respecto á Lei de garantías, garantir a atención nun centro público. Cremos que iso ten que quedar por lei, xa que se modifica, nun centro público; e que unha persoa que se negue a que a atendan nun centro privado non pode quedar a súa petición, a súa necesidade, metida nun caixón. Como está pasando nestes momentos, que os que se negan a ser atendidos en centros privados pasan meses agardando no caixón do Sergas.
-					<kinesic type="applause">
-						<desc>(Aplausos.)</desc>
-					</kinesic>
-					Iso é o que está pasando, si, é o que está pasando, e non pode ser.
-				</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg60">Igual que a cuestión como a participación cidadá. A participación cidadá non pode quedar reflectida na lei sen que logo se cumpra e ademais dun xeito non concentrado nas cabeceiras na área sanitaria, senón tamén nos distritos para acercar esa proximidade. Entón serían cuestións que desde o BNG cremos que debería incluírse nunha modificación da lei, que recollera medidas para esa mellora da atención primaria. Que é un clamor na cidadanía, que é un clamor nos profesionais e é un clamor porque a atención primaria, é ese alicerce. E se falla a atención primaria, falla todo; a partir de aí falla todo como un dominó, como un castelo de naipes. E non podemos permitir, señor conselleiro, señores deputados e deputadas do Partido Popular, que sigan levando a atención primaria cara ao precipicio.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg61">Por iso é preciso a rectificación. E por iso imos votar a favor desta proposición de lei; á que, se se admite a trámite —insisto—, presentariamos emendas para a súa mellora.</seg>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg62">Moitas grazas.</seg>
-			</u>
-			<kinesic type="applause">
-				<desc>(Aplausos.)</desc>
-			</kinesic>
-			<note type="speaker">O señor PRESIDENTE:</note>
-			<u who="#SantalicesMiguelÁngel" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u10">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg63">Grazas, señora Prado.</seg>
-				<note>(Pausa.)</note>
-				<note>(Unha persoa dos servizos de limpeza da Cámara procede a desinfectar o estrado.)</note>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg64">Grupo Parlamentario Popular, señora Amigo.</seg>
-			</u>
-			<gap reason="editorial">
-				<desc xml:lang="en">SAMPLING</desc>
-			</gap>
-			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
-			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u208">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg955">Remate, por favor.</seg>
-			</u>
-			<note type="speaker">A señora AMIGO DÍAZ:</note>
-			<u who="#AmigoMaríaEncarnación" ana="#regular" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u209">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg956">Nós imos someter o texto a votación, ao BNG invítoo a facer unha proposición, porque o que nos trae na súa emenda non o podemos aceptar, e da emenda que trae o Partido Socialista poderiamos aceptarlle: &quot;Ofrecer á poboación, a través da publicación periódica dos datos, información sobre a dispoñibilidade de profesionais de todas as categorías involucradas na atención primaria desagregada por área ou distritos sanitarios&quot;. Ata aí poderiamos aceptala.</seg>
-			</u>
-			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
-			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u210">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg957">Moitas grazas, señora Amigo.</seg>
-			</u>
-			<note type="speaker">A señora AMIGO DÍAZ:</note>
-			<u who="#AmigoMaríaEncarnación" ana="#regular" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u211">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg958">Como votamos mañá podemos […].</seg>
-			</u>
-			<note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
-			<u who="#CalvoDiego" ana="#chair" xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u212">
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg959">Se finalmente aceptan a transacción, eu  prégolles que nola pasen.</seg>
-				<kinesic type="applause">
-					<desc>(Aplausos.)</desc>
-				</kinesic>
-				<seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg960">E suspendemos a sesión ata mañá ás dez da mañá.</seg>
-			</u>
-			<note type="time">Suspéndese a sesión ás sete e trinta e dous minutos do serán.</note>
-		</div>
-	</body>
-</text>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D110076.pdf"/>
+            <note type="time">Ábrese a sesión ás dez da mañá.</note>
+            <note type="speaker">O señor PRESIDENTE:</note>
+            <u who="#SantalicesMiguelÁngel"
+               ana="#chair"
+               xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u1">
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg1">Bos días.</seg>
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg2">Ábrese a sesión.</seg>
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg3">A orde do día está publicada no Boletín Oficial do Parlamento, polo que no procedemos á súa lectura. Non se xustifican inasistencias e entramos sen máis na orde do día.</seg>
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg4">Como punto primeiro, un texto lexislativo, que é o debate de toma en consideración da proposición de lei do Grupo Parlamentario Socialista para a mellora da asistencia primaria no sistema público de saúde de Galicia.</seg>
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg5">Debate de toma en consideración da proposición de lei, do G. P. dos Socialistas de Galicia, para a mellora da asistencia primaria no sistema público de saúde de Galicia</seg>
+            </u>
+            <note type="speaker">O señor PRESIDENTE:</note>
+            <u who="#SantalicesMiguelÁngel"
+               ana="#chair"
+               xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u2">
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg6">Para a presentación da proposición de lei ten a palabra, polo Grupo Parlamentario Socialista, o señor Torrado.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#AmigoMaríaEncarnación"
+               ana="#regular"
+               xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u211">
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg958">Como votamos mañá podemos […].</seg>
+            </u>
+            <note type="speaker">O señor PRESIDENTE (Calvo Pouso):</note>
+            <u who="#CalvoDiego"
+               ana="#chair"
+               xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.u212">
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg959">Se finalmente aceptan a transacción, eu  prégolles que nola pasen.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplausos.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-GA_2022-04-04-DSPG076.seg960">E suspendemos a sesión ata mañá ás dez da mañá.</seg>
+            </u>
+            <note type="time">Suspéndese a sesión ás sete e trinta e dous minutos do serán.</note>
+         </div>
+      </body>
+   </text>
 </TEI>
