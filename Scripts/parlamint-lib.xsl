@@ -14,6 +14,9 @@
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
 
+  <!-- Separator for multi-valued (parliamentary) "body" attribute; must have only one char --> 
+  <xsl:param name="body-separator">|</xsl:param>
+  
   <!-- Output label for MPs and non-MPs (in vertical and metadata output) --> 
   <xsl:param name="mp-label">MP</xsl:param>
   <xsl:param name="nonmp-label">notMP</xsl:param>
@@ -149,6 +152,10 @@
        <meeting ana="#parla.meeting #parla.lower" n="ps2013/001">ps2013/001</meeting>
        <meeting ana="#parla.sitting #parla.lower" n="ps2013/001/01">ps2013/001/01</meeting>
        <meeting ana="#parla.agenda #parla.lower" n="ps2013/001/000">ps2013/001/000</meeting>
+       or from this:
+       <meeting corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parla.term.15">15e législature</meeting>
+       <meeting corresp="#ParlaMint-FR-LOWER" ana="#parla.session #ParlaMint-FR-LOWER">Session ordinaire 2016-2017</meeting>
+       <meeting corresp="#ParlaMint-FR-LOWER" ana="#parla.sitting #ParlaMint-FR-LOWER">124. séance</meeting>
   -->
   <xsl:template name="body">
     <xsl:variable name="titleStmt" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
@@ -157,14 +164,25 @@
 	<xsl:value-of select="concat(@ana, ' ')"/>
       </xsl:for-each>
     </xsl:variable>
-    <xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
-      <xsl:if test="key('idr', ., $rootHeader)
-		    [ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]">
-	<xsl:value-of select="key('idr', ., $rootHeader)/
-			      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
-			      tei:term"/>
-      </xsl:if>
-    </xsl:for-each>
+    <xsl:variable name="bodies">
+      <xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
+	<xsl:if test="key('idr', ., $rootHeader)
+		      [ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]">
+	  <xsl:variable name="body" select="key('idr', ., $rootHeader)/
+					    tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
+					    tei:term"/>
+	  <xsl:if test="normalize-space($body)">
+	    <xsl:if test="contains($body, $body-separator)">
+              <xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
+	    </xsl:if>
+	    <xsl:value-of select="$body"/>
+	    <xsl:value-of select="$body-separator"/>
+	  </xsl:if>
+	</xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <!-- Backslash only if body-separator must be an escaped char! -->
+    <xsl:value-of select="replace($bodies, concat('\', $body-separator, '$'), '')"/>
   </xsl:template>
   
   <!-- Get @n from appropriate meeting type, e.g.
@@ -191,13 +209,16 @@
         <xsl:for-each select="tokenize(@ana, ' ')">
           <xsl:if test="starts-with(., $idref)">
             <xsl:value-of select="$n"/>
+	    <xsl:text>///</xsl:text>
           </xsl:if>
         </xsl:for-each>
       </xsl:for-each>
     </xsl:variable>
     <xsl:choose>
       <xsl:when test="normalize-space($result)">
-        <xsl:value-of select="$result"/>
+        <xsl:for-each select="distinct-values(tokenize(replace($result, '///$', ''), '///'))">
+          <xsl:value-of select="."/>
+	</xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text></xsl:text>
