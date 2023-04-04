@@ -1,0 +1,3129 @@
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+namespace eg = "http://www.tei-c.org/ns/Examples"
+namespace egXML = "http://www.tei-c.org/ns/Examples"
+namespace ns1 = "http://www.w3.org/1999/xhtml"
+namespace pm = "ParlaMint"
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+namespace sch = "http://purl.oclc.org/dsdl/schematron"
+default namespace tei = "http://www.tei-c.org/ns/1.0"
+namespace teix = "http://www.tei-c.org/ns/Examples"
+namespace xi = "http://www.w3.org/2001/XInclude"
+namespace xlink = "http://www.w3.org/1999/xlink"
+namespace xsl = "http://www.w3.org/1999/XSL/Transform"
+
+# Schema generated from ODD source 2022-12-21T20:46:05Z. 2022-12-21.
+# TEI Edition: Version 4.5.0a. Last updated on
+#         25th October 2022, revision 5406e8d10
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
+#
+
+# This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.
+tei_att.ascribed.attributes = tei_att.ascribed.attribute.who
+tei_att.ascribed.attribute.who =
+  
+  ## indicates the person, or group of people, to whom the element content is ascribed.
+  attribute who {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.canonical.attributes =
+  tei_att.canonical.attribute.key, tei_att.canonical.attribute.ref
+tei_att.canonical.attribute.key =
+  
+  ## provides an externally-defined means of identifying the entity (or entities) being named, using a coded value of some kind.
+  attribute key { xsd:string }?
+tei_att.canonical.attribute.ref =
+  
+  ## (reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
+  attribute ref {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.ranging.attribute.atLeast =
+  
+  ## gives a minimum estimated value for the approximate measurement.
+  attribute atLeast {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.atMost =
+  
+  ## gives a maximum estimated value for the approximate measurement.
+  attribute atMost {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.min =
+  
+  ## where the measurement summarizes more than one observation or a range, supplies the minimum value observed.
+  attribute min {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.max =
+  
+  ## where the measurement summarizes more than one observation or a range, supplies the maximum value observed.
+  attribute max {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+tei_att.ranging.attribute.confidence =
+  [
+    a:documentation [
+      "specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by "
+      ns1:code [ "@min" ]
+      " and "
+      ns1:code [ "@max" ]
+      ", or the proportion of observed values that fall within that range."
+    ]
+  ]
+  attribute confidence { xsd:double }?
+tei_att.datable.w3c.attribute.when =
+  
+  ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
+  attribute when {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+tei_att.datable.w3c.attribute.notBefore =
+  
+  ## specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.
+  attribute notBefore {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+tei_att.datable.w3c.attribute.notAfter =
+  
+  ## specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.
+  attribute notAfter {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+tei_att.datable.w3c.attribute.from =
+  
+  ## indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.
+  attribute from {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+tei_att.datable.w3c.attribute.to =
+  
+  ## indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.
+  attribute to {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+  }?
+sch:pattern [
+  id =
+    "parlamint-att.datable.w3c-att-datable-w3c-when-constraint-rule-1"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@when]"
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test = "@notBefore|@notAfter|@from|@to"
+      role = "nonfatal"
+      "The @when attribute cannot be used with any other att.datable.w3c attributes."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+sch:pattern [
+  id =
+    "parlamint-att.datable.w3c-att-datable-w3c-from-constraint-rule-2"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@from]"
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test = "@notBefore"
+      role = "nonfatal"
+      "The @from and @notBefore attributes cannot be used together."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+sch:pattern [
+  id = "parlamint-att.datable.w3c-att-datable-w3c-to-constraint-rule-3"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@to]"
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test = "@notAfter"
+      role = "nonfatal"
+      "The @to and @notAfter attributes cannot be used together."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+sch:pattern [
+  id = "parlamint-att.datable-calendar-calendar-constraint-rule-4"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@calendar]"
+    "\x{a}" ~
+    "         "
+    sch:assert [
+      test = "string-length( normalize-space(.) ) gt 0"
+      " @calendar indicates one or more\x{a}" ~
+      "            systems or calendars to which the date represented by the content of this element belongs,\x{a}" ~
+      "            but this "
+      sch:name [ ]
+      " element has no textual content."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+tei_att.datcat.attribute.datcat =
+  [
+    a:documentation [
+      "provides a pointer to a definition of, and/or general information about, (a) an information container (element or attribute) or (b) a value of an information container (element content or attribute value), by referencing an external taxonomy or ontology. If "
+      ns1:code [ "@valueDatcat" ]
+      " is present in the immediate context, this attribute takes on role (a), while "
+      ns1:code [ "@valueDatcat" ]
+      " performs role (b)."
+    ]
+  ]
+  attribute datcat {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.datcat.attribute.valueDatcat =
+  [
+    a:documentation [
+      "provides a definition of, and/or general information about a value of an information container (element content or attribute value), by reference to an external taxonomy or ontology. Used especially where a contrast with "
+      ns1:code [ "@datcat" ]
+      " is needed."
+    ]
+  ]
+  attribute valueDatcat {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.datcat.attribute.targetDatcat =
+  [
+    a:documentation [
+      "provides a definition of, and/or general information about, information structure of an object referenced or modeled by the containing element, by reference to an external taxonomy or ontology. This attribute has the characteristics of the "
+      ns1:code [ "@datcat" ]
+      " attribute, except that it addresses not its containing element, but an object that is being referenced or modeled by its containing element."
+    ]
+  ]
+  attribute targetDatcat {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.declarable.attribute.default =
+  
+  ## indicates whether or not this element is selected by default when its parent is selected.
+  [ a:defaultValue = "false" ]
+  attribute default {
+    
+    ## This element is selected if its parent is selected
+    "true"
+    | 
+      ## This element can only be selected explicitly, unless it is the only one of its kind, in which case it is selected if its parent is selected.
+      "false"
+  }?
+tei_att.fragmentable.attribute.part =
+  
+  ## specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.
+  [ a:defaultValue = "N" ]
+  attribute part {
+    
+    ## (yes) the element is fragmented in some (unspecified) respect
+    "Y"
+    | 
+      ## (no) the element is not fragmented, or no claim is made as to its completeness
+      "N"
+    | 
+      ## (initial) this is the initial part of a fragmented element
+      "I"
+    | 
+      ## (medial) this is a medial part of a fragmented element
+      "M"
+    | 
+      ## (final) this is the final part of a fragmented element
+      "F"
+  }?
+tei_att.duration.w3c.attributes = tei_att.duration.w3c.attribute.dur
+tei_att.duration.w3c.attribute.dur =
+  
+  ## (duration) indicates the length of this element in time.
+  attribute dur { xsd:duration }?
+tei_att.global.rendition.attributes =
+  tei_att.global.rendition.attribute.rend,
+  tei_att.global.rendition.attribute.style,
+  tei_att.global.rendition.attribute.rendition
+tei_att.global.rendition.attribute.rend =
+  
+  ## (rendition) indicates how the element in question was rendered or presented in the source text.
+  attribute rend {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.global.rendition.attribute.style =
+  
+  ## contains an expression in some formal style definition language which defines the rendering or presentation used for this element in the source text
+  attribute style { xsd:string }?
+tei_att.global.rendition.attribute.rendition =
+  
+  ## points to a description of the rendering or presentation used for this element in the source text.
+  attribute rendition {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.media.attribute.scale =
+  
+  ## Where the media are displayed, indicates a scale factor to be applied when generating the desired display size
+  attribute scale {
+    xsd:double
+    | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+    | xsd:decimal
+  }?
+sch:pattern [
+  id =
+    "parlamint-att.spanning-spanTo-spanTo-points-to-following-constraint-rule-5"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@spanTo]"
+    "\x{a}" ~
+    "         "
+    sch:assert [
+      test =
+        "id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]"
+      "\x{a}" ~
+      "The element indicated by @spanTo ("
+      sch:value-of [ select = "@spanTo" ]
+      ") must follow the current element "
+      sch:name [ ]
+      "\x{a}" ~
+      "         "
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+tei_model.nameLike.agent = tei_name | tei_orgName | tei_persName
+tei_model.nameLike.agent_alternation =
+  tei_name | tei_orgName | tei_persName
+tei_model.nameLike.agent_sequence = tei_name, tei_orgName, tei_persName
+tei_model.nameLike.agent_sequenceOptional =
+  tei_name?, tei_orgName?, tei_persName?
+tei_model.nameLike.agent_sequenceOptionalRepeatable =
+  tei_name*, tei_orgName*, tei_persName*
+tei_model.nameLike.agent_sequenceRepeatable =
+  tei_name+, tei_orgName+, tei_persName+
+tei_model.segLike = tei_seg | tei_s | tei_w | tei_pc
+tei_model.segLike_alternation = tei_seg | tei_s | tei_w | tei_pc
+tei_model.segLike_sequence = tei_seg, tei_s, tei_w, tei_pc
+tei_model.segLike_sequenceOptional = tei_seg?, tei_s?, tei_w?, tei_pc?
+tei_model.segLike_sequenceOptionalRepeatable =
+  tei_seg*, tei_s*, tei_w*, tei_pc*
+tei_model.segLike_sequenceRepeatable = tei_seg+, tei_s+, tei_w+, tei_pc+
+tei_model.hiLike = notAllowed
+tei_model.hiLike_alternation = notAllowed
+tei_model.hiLike_sequence = empty
+tei_model.hiLike_sequenceOptional = empty
+tei_model.hiLike_sequenceOptionalRepeatable = empty
+tei_model.hiLike_sequenceRepeatable = notAllowed
+tei_model.emphLike = tei_term | tei_title
+tei_model.emphLike_alternation = tei_term | tei_title
+tei_model.emphLike_sequence = tei_term, tei_title
+tei_model.emphLike_sequenceOptional = tei_term?, tei_title?
+tei_model.emphLike_sequenceOptionalRepeatable = tei_term*, tei_title*
+tei_model.emphLike_sequenceRepeatable = tei_term+, tei_title+
+tei_model.highlighted = tei_model.hiLike | tei_model.emphLike
+tei_model.highlighted_alternation =
+  tei_model.hiLike_alternation | tei_model.emphLike_alternation
+tei_model.highlighted_sequence =
+  tei_model.hiLike_sequence, tei_model.emphLike_sequence
+tei_model.highlighted_sequenceOptional =
+  tei_model.hiLike_sequenceOptional?,
+  tei_model.emphLike_sequenceOptional?
+tei_model.highlighted_sequenceOptionalRepeatable =
+  tei_model.hiLike_sequenceOptionalRepeatable*,
+  tei_model.emphLike_sequenceOptionalRepeatable*
+tei_model.highlighted_sequenceRepeatable =
+  tei_model.hiLike_sequenceRepeatable+,
+  tei_model.emphLike_sequenceRepeatable+
+tei_model.dateLike = tei_date | tei_time
+tei_model.dateLike_alternation = tei_date | tei_time
+tei_model.dateLike_sequence = tei_date, tei_time
+tei_model.dateLike_sequenceOptional = tei_date?, tei_time?
+tei_model.dateLike_sequenceOptionalRepeatable = tei_date*, tei_time*
+tei_model.dateLike_sequenceRepeatable = tei_date+, tei_time+
+tei_model.measureLike = tei_num | tei_measure | tei_unit
+tei_model.measureLike_alternation = tei_num | tei_measure | tei_unit
+tei_model.measureLike_sequence = tei_num, tei_measure, tei_unit
+tei_model.measureLike_sequenceOptional =
+  tei_num?, tei_measure?, tei_unit?
+tei_model.measureLike_sequenceOptionalRepeatable =
+  tei_num*, tei_measure*, tei_unit*
+tei_model.measureLike_sequenceRepeatable =
+  tei_num+, tei_measure+, tei_unit+
+tei_model.egLike = notAllowed
+tei_model.egLike_alternation = notAllowed
+tei_model.egLike_sequence = empty
+tei_model.egLike_sequenceOptional = empty
+tei_model.egLike_sequenceOptionalRepeatable = empty
+tei_model.egLike_sequenceRepeatable = notAllowed
+tei_model.graphicLike = tei_media | tei_graphic
+tei_model.graphicLike_alternation = tei_media | tei_graphic
+tei_model.graphicLike_sequence = tei_media, tei_graphic
+tei_model.graphicLike_sequenceOptional = tei_media?, tei_graphic?
+tei_model.graphicLike_sequenceOptionalRepeatable =
+  tei_media*, tei_graphic*
+tei_model.graphicLike_sequenceRepeatable = tei_media+, tei_graphic+
+tei_model.offsetLike = notAllowed
+tei_model.offsetLike_alternation = notAllowed
+tei_model.offsetLike_sequence = empty
+tei_model.offsetLike_sequenceOptional = empty
+tei_model.offsetLike_sequenceOptionalRepeatable = empty
+tei_model.offsetLike_sequenceRepeatable = notAllowed
+tei_model.pPart.msdesc = notAllowed
+tei_model.pPart.msdesc_alternation = notAllowed
+tei_model.pPart.msdesc_sequence = empty
+tei_model.pPart.msdesc_sequenceOptional = empty
+tei_model.pPart.msdesc_sequenceOptionalRepeatable = empty
+tei_model.pPart.msdesc_sequenceRepeatable = notAllowed
+tei_model.pPart.editorial = notAllowed
+tei_model.pPart.editorial_alternation = notAllowed
+tei_model.pPart.editorial_sequence = empty
+tei_model.pPart.editorial_sequenceOptional = empty
+tei_model.pPart.editorial_sequenceOptionalRepeatable = empty
+tei_model.pPart.editorial_sequenceRepeatable = notAllowed
+tei_model.pPart.transcriptional = notAllowed
+tei_model.pPart.transcriptional_alternation = notAllowed
+tei_model.pPart.transcriptional_sequence = empty
+tei_model.pPart.transcriptional_sequenceOptional = empty
+tei_model.pPart.transcriptional_sequenceOptionalRepeatable = empty
+tei_model.pPart.transcriptional_sequenceRepeatable = notAllowed
+tei_model.pPart.edit =
+  tei_model.pPart.editorial | tei_model.pPart.transcriptional
+tei_model.pPart.edit_alternation =
+  tei_model.pPart.editorial_alternation
+  | tei_model.pPart.transcriptional_alternation
+tei_model.pPart.edit_sequence =
+  tei_model.pPart.editorial_sequence,
+  tei_model.pPart.transcriptional_sequence
+tei_model.pPart.edit_sequenceOptional =
+  tei_model.pPart.editorial_sequenceOptional?,
+  tei_model.pPart.transcriptional_sequenceOptional?
+tei_model.pPart.edit_sequenceOptionalRepeatable =
+  tei_model.pPart.editorial_sequenceOptionalRepeatable*,
+  tei_model.pPart.transcriptional_sequenceOptionalRepeatable*
+tei_model.pPart.edit_sequenceRepeatable =
+  tei_model.pPart.editorial_sequenceRepeatable+,
+  tei_model.pPart.transcriptional_sequenceRepeatable+
+tei_model.ptrLike = tei_ref
+tei_model.ptrLike_alternation = tei_ref
+tei_model.ptrLike_sequence = tei_ref
+tei_model.ptrLike_sequenceOptional = tei_ref?
+tei_model.ptrLike_sequenceOptionalRepeatable = tei_ref*
+tei_model.ptrLike_sequenceRepeatable = tei_ref+
+tei_model.lPart = notAllowed
+tei_model.lPart_alternation = notAllowed
+tei_model.lPart_sequence = empty
+tei_model.lPart_sequenceOptional = empty
+tei_model.lPart_sequenceOptionalRepeatable = empty
+tei_model.lPart_sequenceRepeatable = notAllowed
+tei_model.global.meta = tei_link | tei_linkGrp
+tei_model.global.meta_alternation = tei_link | tei_linkGrp
+tei_model.global.meta_sequence = tei_link, tei_linkGrp
+tei_model.global.meta_sequenceOptional = tei_link?, tei_linkGrp?
+tei_model.global.meta_sequenceOptionalRepeatable =
+  tei_link*, tei_linkGrp*
+tei_model.global.meta_sequenceRepeatable = tei_link+, tei_linkGrp+
+tei_model.milestoneLike = tei_pb
+tei_model.milestoneLike_alternation = tei_pb
+tei_model.milestoneLike_sequence = tei_pb
+tei_model.milestoneLike_sequenceOptional = tei_pb?
+tei_model.milestoneLike_sequenceOptionalRepeatable = tei_pb*
+tei_model.milestoneLike_sequenceRepeatable = tei_pb+
+tei_model.oddDecl = notAllowed
+tei_model.oddDecl_alternation = notAllowed
+tei_model.oddDecl_sequence = empty
+tei_model.oddDecl_sequenceOptional = empty
+tei_model.oddDecl_sequenceOptionalRepeatable = empty
+tei_model.oddDecl_sequenceRepeatable = notAllowed
+tei_model.phrase.xml = notAllowed
+tei_model.phrase.xml_alternation = notAllowed
+tei_model.phrase.xml_sequence = empty
+tei_model.phrase.xml_sequenceOptional = empty
+tei_model.phrase.xml_sequenceOptionalRepeatable = empty
+tei_model.phrase.xml_sequenceRepeatable = notAllowed
+tei_model.specDescLike = notAllowed
+tei_model.specDescLike_alternation = notAllowed
+tei_model.specDescLike_sequence = empty
+tei_model.specDescLike_sequenceOptional = empty
+tei_model.specDescLike_sequenceOptionalRepeatable = empty
+tei_model.specDescLike_sequenceRepeatable = notAllowed
+tei_model.biblLike = tei_bibl
+tei_model.biblLike_alternation = tei_bibl
+tei_model.biblLike_sequence = tei_bibl
+tei_model.biblLike_sequenceOptional = tei_bibl?
+tei_model.biblLike_sequenceOptionalRepeatable = tei_bibl*
+tei_model.biblLike_sequenceRepeatable = tei_bibl+
+tei_model.labelLike = tei_desc | tei_label
+tei_model.labelLike_alternation = tei_desc | tei_label
+tei_model.labelLike_sequence = tei_desc, tei_label
+tei_model.labelLike_sequenceOptional = tei_desc?, tei_label?
+tei_model.labelLike_sequenceOptionalRepeatable = tei_desc*, tei_label*
+tei_model.labelLike_sequenceRepeatable = tei_desc+, tei_label+
+tei_model.listLike =
+  tei_listOrg | tei_listEvent | tei_listPerson | tei_listRelation
+tei_model.listLike_alternation =
+  tei_listOrg | tei_listEvent | tei_listPerson | tei_listRelation
+tei_model.listLike_sequence =
+  tei_listOrg, tei_listEvent, tei_listPerson, tei_listRelation
+tei_model.listLike_sequenceOptional =
+  tei_listOrg?, tei_listEvent?, tei_listPerson?, tei_listRelation?
+tei_model.listLike_sequenceOptionalRepeatable =
+  tei_listOrg*, tei_listEvent*, tei_listPerson*, tei_listRelation*
+tei_model.listLike_sequenceRepeatable =
+  tei_listOrg+, tei_listEvent+, tei_listPerson+, tei_listRelation+
+tei_model.noteLike = tei_note
+tei_model.noteLike_alternation = tei_note
+tei_model.noteLike_sequence = tei_note
+tei_model.noteLike_sequenceOptional = tei_note?
+tei_model.noteLike_sequenceOptionalRepeatable = tei_note*
+tei_model.noteLike_sequenceRepeatable = tei_note+
+tei_model.stageLike = notAllowed
+tei_model.stageLike_alternation = notAllowed
+tei_model.stageLike_sequence = empty
+tei_model.stageLike_sequenceOptional = empty
+tei_model.stageLike_sequenceOptionalRepeatable = empty
+tei_model.stageLike_sequenceRepeatable = notAllowed
+tei_model.global.edit = tei_gap
+tei_model.global.edit_alternation = tei_gap
+tei_model.global.edit_sequence = tei_gap
+tei_model.global.edit_sequenceOptional = tei_gap?
+tei_model.global.edit_sequenceOptionalRepeatable = tei_gap*
+tei_model.global.edit_sequenceRepeatable = tei_gap+
+tei_model.placeNamePart = tei_placeName
+tei_model.placeNamePart_alternation = tei_placeName
+tei_model.placeNamePart_sequence = tei_placeName
+tei_model.placeNamePart_sequenceOptional = tei_placeName?
+tei_model.placeNamePart_sequenceOptionalRepeatable = tei_placeName*
+tei_model.placeNamePart_sequenceRepeatable = tei_placeName+
+tei_model.placeStateLike = tei_model.placeNamePart | tei_state
+tei_model.placeStateLike_alternation =
+  tei_model.placeNamePart_alternation | tei_state
+tei_model.placeStateLike_sequence =
+  tei_model.placeNamePart_sequence, tei_state
+tei_model.placeStateLike_sequenceOptional =
+  tei_model.placeNamePart_sequenceOptional?, tei_state?
+tei_model.placeStateLike_sequenceOptionalRepeatable =
+  tei_model.placeNamePart_sequenceOptionalRepeatable*, tei_state*
+tei_model.placeStateLike_sequenceRepeatable =
+  tei_model.placeNamePart_sequenceRepeatable+, tei_state+
+tei_model.quoteLike = notAllowed
+tei_model.quoteLike_alternation = notAllowed
+tei_model.quoteLike_sequence = empty
+tei_model.quoteLike_sequenceOptional = empty
+tei_model.quoteLike_sequenceOptionalRepeatable = empty
+tei_model.quoteLike_sequenceRepeatable = notAllowed
+tei_model.attributable = tei_model.quoteLike
+tei_model.attributable_alternation = tei_model.quoteLike_alternation
+tei_model.attributable_sequence = tei_model.quoteLike_sequence
+tei_model.attributable_sequenceOptional =
+  tei_model.quoteLike_sequenceOptional?
+tei_model.attributable_sequenceOptionalRepeatable =
+  tei_model.quoteLike_sequenceOptionalRepeatable*
+tei_model.attributable_sequenceRepeatable =
+  tei_model.quoteLike_sequenceRepeatable+
+tei_model.addressLike = tei_email | tei_affiliation
+tei_model.addressLike_alternation = tei_email | tei_affiliation
+tei_model.addressLike_sequence = tei_email, tei_affiliation
+tei_model.addressLike_sequenceOptional = tei_email?, tei_affiliation?
+tei_model.addressLike_sequenceOptionalRepeatable =
+  tei_email*, tei_affiliation*
+tei_model.addressLike_sequenceRepeatable = tei_email+, tei_affiliation+
+tei_model.nameLike =
+  tei_model.nameLike.agent
+  | tei_model.offsetLike
+  | tei_model.placeStateLike
+  | tei_idno
+  | tei_model.persNamePart
+tei_model.nameLike_alternation =
+  tei_model.nameLike.agent_alternation
+  | tei_model.offsetLike_alternation
+  | tei_model.placeStateLike_alternation
+  | tei_idno
+  | tei_model.persNamePart_alternation
+tei_model.nameLike_sequence =
+  tei_model.nameLike.agent_sequence,
+  tei_model.offsetLike_sequence,
+  tei_model.placeStateLike_sequence,
+  tei_idno,
+  tei_model.persNamePart_sequence
+tei_model.nameLike_sequenceOptional =
+  tei_model.nameLike.agent_sequenceOptional?,
+  tei_model.offsetLike_sequenceOptional?,
+  tei_model.placeStateLike_sequenceOptional?,
+  tei_idno?,
+  tei_model.persNamePart_sequenceOptional?
+tei_model.nameLike_sequenceOptionalRepeatable =
+  tei_model.nameLike.agent_sequenceOptionalRepeatable*,
+  tei_model.offsetLike_sequenceOptionalRepeatable*,
+  tei_model.placeStateLike_sequenceOptionalRepeatable*,
+  tei_idno*,
+  tei_model.persNamePart_sequenceOptionalRepeatable*
+tei_model.nameLike_sequenceRepeatable =
+  tei_model.nameLike.agent_sequenceRepeatable+,
+  tei_model.offsetLike_sequenceRepeatable+,
+  tei_model.placeStateLike_sequenceRepeatable+,
+  tei_idno+,
+  tei_model.persNamePart_sequenceRepeatable+
+tei_model.pPart.data =
+  tei_model.dateLike
+  | tei_model.measureLike
+  | tei_model.addressLike
+  | tei_model.nameLike
+tei_model.pPart.data_alternation =
+  tei_model.dateLike_alternation
+  | tei_model.measureLike_alternation
+  | tei_model.addressLike_alternation
+  | tei_model.nameLike_alternation
+tei_model.pPart.data_sequence =
+  tei_model.dateLike_sequence,
+  tei_model.measureLike_sequence,
+  tei_model.addressLike_sequence,
+  tei_model.nameLike_sequence
+tei_model.pPart.data_sequenceOptional =
+  tei_model.dateLike_sequenceOptional?,
+  tei_model.measureLike_sequenceOptional?,
+  tei_model.addressLike_sequenceOptional?,
+  tei_model.nameLike_sequenceOptional?
+tei_model.pPart.data_sequenceOptionalRepeatable =
+  tei_model.dateLike_sequenceOptionalRepeatable*,
+  tei_model.measureLike_sequenceOptionalRepeatable*,
+  tei_model.addressLike_sequenceOptionalRepeatable*,
+  tei_model.nameLike_sequenceOptionalRepeatable*
+tei_model.pPart.data_sequenceRepeatable =
+  tei_model.dateLike_sequenceRepeatable+,
+  tei_model.measureLike_sequenceRepeatable+,
+  tei_model.addressLike_sequenceRepeatable+,
+  tei_model.nameLike_sequenceRepeatable+
+tei_att.duration.iso.attributes = tei_att.duration.iso.attribute.dur-iso
+tei_att.duration.iso.attribute.dur-iso =
+  
+  ## (duration) indicates the length of this element in time.
+  attribute dur-iso {
+    xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+tei_p =
+  
+  ## (paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]
+  element p {
+    ((tei_ref | text)+)
+    >> sch:pattern [
+         id =
+           "parlamint-p-abstractModel-structure-p-in-ab-or-p-constraint-report-4"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "(ancestor::tei:ab or ancestor::tei:p) and not( ancestor::tei:floatingText |parent::tei:exemplum |parent::tei:item |parent::tei:note |parent::tei:q |parent::tei:quote |parent::tei:remarks |parent::tei:said |parent::tei:sp |parent::tei:stage |parent::tei:cell |parent::tei:figure )"
+             "\x{a}" ~
+             "        Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "parlamint-p-abstractModel-structure-p-in-l-or-lg-constraint-report-5"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "(ancestor::tei:l or ancestor::tei:lg) and not( ancestor::tei:floatingText |parent::tei:figure |parent::tei:note )"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_desc =
+  
+  ## (description) contains a short description of the purpose, function, or use of its parent element, or when the parent is a documentation element, describes or defines the object being documented.  [22.4.1. Description of Components]
+  element desc {
+    (tei_term?, (text | tei_ref)+)
+    >> sch:pattern [
+         id =
+           "parlamint-desc-deprecationInfo-only-in-deprecated-constraint-rule-6"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:desc[ @type eq 'deprecationInfo']"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "../@validUntil"
+             "Information about a\x{a}" ~
+             "        deprecation should only be present in a specification element\x{a}" ~
+             "        that is being deprecated: that is, only an element that has a\x{a}" ~
+             "        @validUntil attribute should have a child <desc\x{a}" ~
+             '        type="deprecationInfo">.'
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_term =
+  
+  ## (term) contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.4.1. Terms and Glosses]
+  element term { text }
+tei_gap =
+  
+  ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]
+  element gap {
+    tei_desc+,
+    
+    ##
+    attribute reason {
+      
+      ##
+      "inaudible"
+      | 
+        ##
+        "editorial"
+      | 
+        ##
+        "foreign"
+    }?,
+    empty
+  }
+tei_name =
+  
+  ## (name, proper noun) contains a proper noun or noun phrase. [3.6.1. Referring Strings]
+  element name {
+    (tei_w | tei_pc | tei_name | tei_date | tei_num | tei_pb | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.personal.attribute.full,
+    tei_att.canonical.attribute.key,
+    tei_att.canonical.attribute.ref,
+    tei_att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ##
+      "PER"
+      | 
+        ##
+        "LOC"
+      | 
+        ##
+        "ORG"
+      | 
+        ##
+        "MISC"
+      | 
+        ##
+        "city"
+      | 
+        ##
+        "country"
+      | 
+        ##
+        "address"
+      | 
+        ##
+        "org"
+      | 
+        ##
+        "place"
+    }?,
+    empty
+  }
+tei_email =
+  
+  ## (electronic mail address) contains an email address identifying a location to which email messages can be delivered. [3.6.2. Addresses]
+  element email {
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    empty
+  }
+tei_num =
+  
+  ## (number) contains a number, written in any form. [3.6.3. Numbers and
+  ## Measures]
+  element num {
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.typed.attribute.subtype,
+    
+    ## indicates the type of numeric value.
+    ## Suggested values include: 1] cardinal; 2] ordinal; 3] fraction; 4] percentage
+    attribute type {
+      
+      ## absolute number, e.g. 21, 21.5
+      "cardinal"
+      | 
+        ## ordinal number, e.g. 21st
+        "ordinal"
+      | 
+        ## fraction, e.g. one half or three-quarters
+        "fraction"
+      | 
+        ## a percentage
+        "percentage"
+      | xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+    }?,
+    empty
+  }
+tei_measure =
+  
+  ## (measure) contains a word or phrase referring to some quantity of an object or commodity, usually comprising a number, a unit, and a commodity name. [3.6.3. Numbers and
+  ## Measures]
+  element measure {
+    text,
+    tei_att.global.attribute.xmllang,
+    
+    ##
+    attribute unit {
+      
+      ##
+      "speeches"
+      | 
+        ##
+        "words"
+      | 
+        ## optional value
+        "tokens"
+    },
+    
+    ## (quantity) specifies the number of the specified units that comprise the measurement
+    attribute quantity {
+      xsd:double
+      | xsd:token { pattern = "(\-?[\d]+/\-?[\d]+)" }
+      | xsd:decimal
+    },
+    empty
+  }
+tei_unit =
+  
+  ## contains a symbol, a word or a phrase referring to a unit of measurement in any kind of formal or informal system. [3.6.3. Numbers and
+  ## Measures]
+  element unit {
+    (tei_w
+     | tei_pc
+     | tei_name
+     | tei_date
+     | tei_time
+     | tei_num
+     | tei_unit
+     | tei_email
+     | tei_ref
+     | tei_note
+     | tei_gap
+     | tei_kinesic
+     | tei_incident
+     | tei_vocal)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    empty
+  }
+tei_date =
+  
+  ## (date) contains a date in any format. [3.6.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.4. Dates]
+  element date {
+    (tei_w | tei_pc | tei_date | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.typed.attributes,
+    empty
+  }
+tei_time =
+  
+  ## (time) contains a phrase defining a time of day in any format. [3.6.4. Dates and Times]
+  element time {
+    (tei_w | tei_pc | text)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.typed.attributes,
+    empty
+  }
+tei_ref =
+  
+  ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.7. Simple Links and Cross-References 16.1. Links]
+  element ref {
+    text
+    >> sch:pattern [
+         id = "parlamint-ref-refAtts-constraint-report-6"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ref"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@target and @cRef"
+             "Only one of the\x{a}" ~
+             "	attributes @target' and @cRef' may be supplied on "
+             sch:name [ ]
+             "\x{a}" ~
+             "               "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    
+    ## specifies the destination of the reference by supplying one or more URI References
+    attribute target {
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
+    }?,
+    empty
+  }
+tei_label =
+  
+  ## (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists]
+  element label {
+    (text | tei_orgName), tei_att.global.attribute.xmllang, empty
+  }
+tei_head =
+  
+  ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]
+  element head {
+    text,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.type,
+    empty
+  }
+tei_note =
+  
+  ## (note) contains a note or annotation. [3.9.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.12.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
+  element note {
+    (text | tei_pb | tei_time)*,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
+    
+    ## 
+    ## Sample values include: 1] narrative; 2] summary; 3] speaker; 4] vote; 5] location; 6] date; 7] president; 8] comment; 9] time; 10] quorum; 11] debate
+    attribute type { text }?,
+    empty
+  }
+tei_media =
+  
+  ## indicates the location of any form of external media such as an audio or video clip etc. [3.10. Graphics and Other Non-textual Components]
+  element media {
+    empty,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.source.attribute.source,
+    tei_att.resourced.attributes,
+    
+    ## (MIME media type) specifies the applicable multimedia internet mail extension (MIME) media type
+    attribute mimeType {
+      list {
+        xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+      }
+    },
+    empty
+  }
+tei_graphic =
+  
+  ## (graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components 11.1. Digital Facsimiles]
+  element graphic {
+    empty,
+    tei_att.media.attribute.scale,
+    tei_att.resourced.attributes,
+    empty
+  }
+tei_pb =
+  
+  ## (page beginning) marks the beginning of a new page in a paginated document. [3.11.3. Milestone
+  ## Elements]
+  element pb {
+    empty,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.linking.attribute.corresp,
+    tei_att.global.source.attribute.source,
+    empty
+  }
+tei_respStmt =
+  
+  ## (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organisations which have played a role in the production or distribution of a bibliographic work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
+  element respStmt { tei_persName+, tei_resp+ }
+tei_resp =
+  
+  ## (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organisation's role in the production or distribution of a work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.2. The Edition Statement 2.2.5. The Series Statement]
+  element resp { text, tei_att.global.attribute.xmllang, empty }
+tei_title =
+  
+  ## (title) contains a title for any kind of work. [3.12.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
+  element title {
+    text,
+    tei_att.global.attribute.xmllang,
+    
+    ##
+    attribute type {
+      
+      ##
+      "main"
+      | 
+        ##
+        "sub"
+    }?,
+    empty
+  }
+tei_meeting =
+  
+  ## contains the formalized descriptive title for a meeting or conference, for use in a bibliographic description for an item derived from such a meeting, or as a heading or preamble to publications emanating from it. [3.12.2.2. Titles, Authors, and Editors]
+  element meeting {
+    text,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.corresp,
+    tei_att.global.analytic.attribute.ana,
+    empty
+  }
+tei_publisher =
+  
+  ## (publisher) provides the name of the organisation responsible for the publication or distribution of a bibliographic item. [3.12.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
+  element publisher {
+    ((tei_orgName+, tei_ref?) | text),
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_pubPlace =
+  
+  ## (publication place) contains the name of the place where a bibliographic item was published. [3.12.2.4. Imprint, Size of a Document, and Reprint Information]
+  element pubPlace { tei_ref | text }
+tei_bibl =
+  
+  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
+  element bibl {
+    tei_title+, (tei_edition? | tei_publisher? | tei_idno* | tei_date)+
+  }
+tei_teiCorpus =
+  [
+    a:documentation [
+      "(TEI corpus) contains one whole corpus, stored in the corpus root file comprising the corpus header and XInclude references to corpus component files, each containing a "
+      ns1:code [ "<TEI>" ]
+      " element. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+    ]
+  ]
+  element teiCorpus {
+    tei_teiHeader,
+    (tei_TEI | tei_include)+,
+    
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute xml:lang {
+      xsd:language
+      | (
+         ##
+         "")
+    },
+    empty
+  }
+tei_teiHeader =
+  
+  ## (TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]
+  element teiHeader {
+    tei_fileDesc,
+    tei_encodingDesc,
+    tei_profileDesc,
+    tei_revisionDesc?,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_fileDesc =
+  
+  ## (file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]
+  element fileDesc {
+    tei_titleStmt,
+    tei_editionStmt,
+    tei_extent,
+    tei_publicationStmt,
+    tei_sourceDesc
+  }
+tei_titleStmt =
+  
+  ## (title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]
+  element titleStmt {
+    tei_title+, tei_meeting+, tei_respStmt*, tei_funder*
+  }
+tei_funder =
+  
+  ## (funding body) specifies the name of an individual, institution, or organisation responsible for the funding of a project or text. [2.2.1. The Title Statement]
+  element funder { tei_orgName+, tei_ref? }
+tei_editionStmt =
+  
+  ## (edition statement) groups information relating to one edition of a text. [2.2.2. The Edition Statement 2.2. The File Description]
+  element editionStmt { tei_edition }
+tei_edition =
+  
+  ## (edition) describes the particularities of one edition of a text. [2.2.2. The Edition Statement]
+  element edition { text, tei_att.global.attribute.xmllang, empty }
+tei_extent =
+  
+  ## (extent) describes the approximate size of a text stored on some carrier medium or of some other object, digital or non-digital, specified in any convenient units. [2.2.3. Type and Extent of File 2.2. The File Description 3.12.2.4. Imprint, Size of a Document, and Reprint Information 10.7.1. Object Description]
+  element extent { tei_measure+ }
+tei_publicationStmt =
+  
+  ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
+  element publicationStmt {
+    tei_publisher, tei_idno, tei_pubPlace?, tei_availability, tei_date
+  }
+tei_idno =
+  
+  ## (identifier) supplies an identifier used to identify some object, such as a person or organisation. If it is a URL, it should have `@type="URI"`. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.12.2.4. Imprint, Size of a Document, and Reprint Information]
+  element idno {
+    text,
+    tei_att.global.attribute.xmllang,
+    
+    ## categorizes the identifier.
+    attribute type {
+      [
+        a:documentation [
+          "Uniform Resource Identifier ParlaMint should be a resolvable URL, with the "
+          ns1:code [ "@subtype" ]
+          " classifying the type of web site."
+        ]
+      ]
+      "URI"
+      | 
+        ## The URL of the Virtual Internet Authority File assigned to link different names in catalogs around the world for the same entity.
+        "VIAF"
+    },
+    
+    ##
+    attribute subtype {
+      
+      ## The permanent identifier of type handle.
+      "handle"
+      | 
+        ## A governmental web site.
+        "government"
+      | 
+        ## The web site of a political party.
+        "politicalParty"
+      | 
+        ## A web site of the parliament.
+        "parliament"
+      | 
+        ## The web site of a ministry.
+        "ministry"
+      | 
+        ## The personal web site of a person.
+        "personal"
+      | 
+        ## A web site belonging to a bussiness.
+        "business"
+      | 
+        ## The web site of a pubic service.
+        "publicService"
+      | 
+        ## A web site of Wikimedia, e.g. Wikipedia.
+        "wikimedia"
+      | 
+        ## A Facebook web site.
+        "facebook"
+      | 
+        ## A Twitter web site.
+        "twitter"
+      | 
+        ## A TikTok web site.
+        "tiktok"
+      | 
+        ## An Instagram web site.
+        "instagram"
+    }?,
+    empty
+  }
+tei_availability =
+  
+  ## (availability) supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution, Licensing, etc.]
+  element availability {
+    tei_licence,
+    tei_p+,
+    
+    ##
+    attribute status {
+      
+      ##
+      "free"
+    },
+    empty
+  }
+tei_licence =
+  
+  ## contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution, Licensing, etc.]
+  element licence { xsd:anyURI }
+tei_sourceDesc =
+  
+  ## (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]
+  element sourceDesc { tei_bibl+, tei_recordingStmt? }
+tei_encodingDesc =
+  
+  ## (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]
+  element encodingDesc {
+    tei_projectDesc,
+    tei_editorialDecl?,
+    tei_tagsDecl,
+    tei_classDecl?,
+    tei_listPrefixDef?,
+    tei_appInfo?
+  }
+tei_projectDesc =
+  
+  ## (project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected. [2.3.1. The Project Description 2.3. The Encoding Description 15.3.2. Declarable Elements]
+  element projectDesc { tei_p+ }
+tei_editorialDecl =
+  
+  ## (editorial practice declaration) provides details of editorial principles and practices applied during the encoding of a text. [2.3.3. The Editorial Practices Declaration 2.3. The Encoding Description 15.3.2. Declarable Elements]
+  element editorialDecl {
+    (tei_correction
+     | tei_normalization
+     | tei_hyphenation
+     | tei_quotation
+     | tei_segmentation)+
+  }
+tei_correction =
+  
+  ## (correction principles) states how and under what circumstances corrections have been made in the text. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  element correction { tei_p+ }
+tei_normalization =
+  
+  ## (normalization) indicates the extent of normalization or regularization of the original source carried out in converting it to electronic form. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  element normalization { tei_p+ }
+tei_quotation =
+  
+  ## (quotation) specifies editorial practice adopted with respect to quotation marks in the original. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  element quotation {
+    (tei_p+)
+    >> sch:pattern [
+         id =
+           "parlamint-quotation-quotationContents-constraint-report-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:quotation"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "not(@marks) and not (tei:p)"
+             "\x{a}" ~
+             "On "
+             sch:name [ ]
+             ", either the @marks attribute should be used, or a paragraph of description provided"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+  }
+tei_hyphenation =
+  
+  ## (hyphenation) summarizes the way in which hyphenation in a source text has been treated in an encoded version of it. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  element hyphenation { tei_p+ }
+tei_segmentation =
+  
+  ## (segmentation) describes the principles according to which the text has been segmented, for example into sentences, tone-units, graphemic strata, etc. [2.3.3. The Editorial Practices Declaration 15.3.2. Declarable Elements]
+  element segmentation { tei_p+ }
+tei_tagsDecl =
+  
+  ## (tagging declaration) provides detailed information about the tagging applied to a document. [2.3.4. The Tagging Declaration 2.3. The Encoding Description]
+  element tagsDecl { tei_namespace }
+tei_tagUsage =
+  
+  ## (element usage) documents the usage of a specific element within a specified document. [2.3.4. The Tagging Declaration]
+  element tagUsage {
+    empty,
+    [
+      a:documentation [
+        "(generic identifier) specifies the name (generic identifier) of the element indicated by the tag, within the namespace indicated by the parent "
+        ns1:code [ "<namespace>" ]
+        " element. All descendats of "
+        ns1:code [ "<text>" ]
+        " element and "
+        ns1:code [ "<text>" ]
+        " element counts have to be included."
+      ]
+    ]
+    attribute gi { xsd:Name },
+    
+    ## specifies the number of occurrences of this element within the text.
+    attribute occurs { xsd:nonNegativeInteger },
+    empty
+  }
+tei_namespace =
+  
+  ## (namespace) supplies the formal name of the namespace to which the elements documented by its children belong. [2.3.4. The Tagging Declaration]
+  element namespace {
+    tei_tagUsage+,
+    
+    ##
+    attribute name {
+      
+      ##
+      "http://www.tei-c.org/ns/1.0"
+    },
+    empty
+  }
+tei_prefixDef =
+  
+  ## (prefix definition) defines a prefixing scheme used in teidata.pointer values, showing how abbreviated URIs using the scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]
+  element prefixDef {
+    tei_p+,
+    
+    ## specifies a regular expression against which the values of other attributes can be matched.
+    attribute matchPattern { xsd:token },
+    [
+      a:documentation [
+        "specifies a replacement pattern, that is, the skeleton of a relative or absolute URI containing references to groups in the "
+        ns1:code [ "@matchPattern" ]
+        " which, once subpattern substitution has been performed, complete the URI."
+      ]
+    ]
+    attribute replacementPattern { text },
+    
+    ## supplies a name which functions as the prefix for an abbreviated pointing scheme such as a private URI scheme. The prefix constitutes the text preceding the first colon.
+    attribute ident {
+      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
+    },
+    empty
+  }
+tei_listPrefixDef =
+  
+  ## (list of prefix definitions) contains a list of definitions of prefixing schemes used in teidata.pointer values, showing how abbreviated URIs using each scheme may be expanded into full URIs. [16.2.3. Using Abbreviated Pointers]
+  element listPrefixDef { tei_prefixDef+ }
+tei_classDecl =
+  
+  ## (classification declarations) contains taxonomies defining classificatory codes used elsewhere in the text. Note that the taxonomies are in ParlaMint typically stored in separate files. [2.3.7. The Classification Declaration 2.3. The Encoding Description]
+  element classDecl { (tei_taxonomy | tei_include)+ }
+tei_taxonomy =
+  
+  ## (taxonomy) defines a typology explicitly by a structured taxonomy. [2.3.7. The Classification Declaration]
+  element taxonomy {
+    tei_desc+,
+    tei_category+,
+    tei_att.global.attribute.xmllang,
+    
+    ## (identifier) provides a unique identifier for the element bearing the attribute.
+    attribute xml:id { xsd:ID },
+    empty
+  }
+tei_category =
+  
+  ## (category) contains an individual descriptive category, possibly nested within a superordinate category, within a user-defined taxonomy. [2.3.7. The Classification Declaration]
+  element category {
+    tei_catDesc+,
+    tei_category*,
+    
+    ## (identifier) provides a unique identifier for the element bearing the attribute.
+    attribute xml:id { xsd:ID },
+    [
+      a:documentation [
+        "(analysis) indicates one or more elements containing interpretations of the element on which the "
+        ns1:code [ "@ana" ]
+        " attribute appears."
+      ]
+    ]
+    attribute ana {
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
+    }?,
+    empty
+  }
+tei_catDesc =
+  [
+    a:documentation [
+      "(category description) describes some category within a taxonomy or text typology, either in the form of a brief prose description or in terms of the situational parameters used by the TEI formal "
+      ns1:code [ "<textDesc>" ]
+      ". [2.3.7. The Classification Declaration]"
+    ]
+  ]
+  element catDesc {
+    (tei_term, (text | tei_ref)+),
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_appInfo =
+  
+  ## (application information) records information about an application which has edited the TEI file. [2.3.11. The Application Information Element]
+  element appInfo { tei_application+ }
+tei_application =
+  
+  ## provides information about an application which has acted upon the document. [2.3.11. The Application Information Element]
+  element application {
+    tei_label,
+    tei_desc+,
+    
+    ## supplies an identifier for the application, independent of its version number or display name.
+    attribute ident { xsd:Name },
+    
+    ## supplies a version number for the application, independent of its identifier or display name.
+    attribute version {
+      xsd:token {
+        pattern = "[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}"
+      }
+    },
+    empty
+  }
+tei_profileDesc =
+  
+  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
+  element profileDesc {
+    tei_settingDesc, tei_textClass?, tei_particDesc?, tei_langUsage?
+  }
+tei_langUsage =
+  
+  ## (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements]
+  element langUsage { tei_language+ }
+tei_language =
+  
+  ## (language) characterizes a single language or sublanguage used within a text. [2.4.2. Language Usage]
+  element language {
+    text,
+    tei_att.global.attribute.xmllang,
+    [
+      a:documentation [
+        "(identifier) Supplies a language code constructed as defined in "
+        ns1:a [ href = "https://tools.ietf.org/html/bcp47" "BCP 47" ]
+        " which is used to identify the language documented by this element, and which is referenced by the global "
+        ns1:code [ "@xml:lang" ]
+        " attribute."
+      ]
+    ]
+    attribute ident {
+      xsd:language
+      | (
+         ##
+         "")
+    },
+    
+    ## specifies the approximate percentage (by volume) of the text which uses this language.
+    attribute usage { xsd:nonNegativeInteger }?,
+    empty
+  }
+tei_textClass =
+  
+  ## (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3. The Text Classification]
+  element textClass { tei_catRef }
+tei_catRef =
+  
+  ## (category reference) specifies one or more defined categories within some taxonomy or text typology. [2.4.3. The Text Classification]
+  element catRef {
+    empty,
+    
+    ## specifies the destination of the reference by supplying one or more URI References
+    attribute target {
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
+    },
+    [
+      a:documentation [
+        "identifies the classification scheme within which the set of categories concerned is defined, for example by a "
+        ns1:code [ "<taxonomy>" ]
+        " element, or by some other resource."
+      ]
+    ]
+    attribute scheme {
+      xsd:anyURI { pattern = "\S+" }
+    },
+    empty
+  }
+tei_revisionDesc =
+  
+  ## (revision description) summarizes the revision history for a file [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
+  element revisionDesc {
+    tei_change+, tei_att.global.attribute.xmllang, empty
+  }
+tei_change =
+  
+  ## (change) documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Identifying Changes and Revisions]
+  element change {
+    (tei_name | text)+, tei_att.datable.w3c.attribute.when, empty
+  }
+tei_TEI =
+  [
+    a:documentation [
+      "(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple "
+      ns1:code [ "<TEI>" ]
+      " elements may be combined within a "
+      ns1:code [ "<TEI>" ]
+      " (or "
+      ns1:code [ "<teiCorpus>" ]
+      ") element. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+    ]
+  ]
+  element TEI {
+    tei_teiHeader,
+    tei_text
+    >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
+    >> sch:ns [ prefix = "xs" uri = "http://www.w3.org/2001/XMLSchema" ]
+    >> sch:ns [
+         prefix = "rng"
+         uri = "http://relaxng.org/ns/structure/1.0"
+       ],
+    
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute xml:lang {
+      xsd:language
+      | (
+         ##
+         "")
+    },
+    
+    ##
+    attribute ana {
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
+    },
+    empty
+  }
+tei_text =
+  
+  ## (text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  element text {
+    tei_body,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
+    empty
+  }
+tei_body =
+  
+  ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]
+  element body { tei_div+ }
+tei_div =
+  
+  ## (text division) contains division of the body a corpus component. [4.1. Divisions of the Body]
+  element div {
+    tei_head*,
+    ((tei_note
+      | tei_vocal
+      | tei_kinesic
+      | tei_incident
+      | tei_gap
+      | tei_pb
+      | tei_u)+)
+    >> sch:pattern [
+         id =
+           "parlamint-div-abstractModel-structure-div-in-l-or-lg-constraint-report-8"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "parlamint-div-abstractModel-structure-div-in-ab-or-p-constraint-report-9"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)"
+             "\x{a}" ~
+             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ## General purpose text division for all parts of parliamentary proceedings. It should include at least one utterance. If needed, the @subtype attribute can be used for additional content classification.
+      "debateSection"
+      | 
+        ## A special purpose text division used as a container for transcriber comments. Should not contain any utterances. If needed, the @subtype attribute can be used for additional content classification.
+        "commentSection"
+    },
+    empty
+  }
+tei_particDesc =
+  
+  ## (participation description) describes the identifiable speakers and organisations in a ParlaMint corpus. This informations is given in the corpus root teiHeder. Note that the listPerson and listOrg elements are typically stored in separate files. [15.2. Contextual Information]
+  element particDesc {
+    (tei_listOrg | tei_include), (tei_listPerson | tei_include)
+  }
+tei_settingDesc =
+  
+  ## (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information 2.4. The Profile Description]
+  element settingDesc { tei_setting+ }
+tei_setting =
+  
+  ## describes one particular setting in which a language interaction takes place. [15.2.3. The Setting Description]
+  element setting { tei_name+, tei_date }
+tei_model.global.spoken = tei_vocal | tei_kinesic | tei_incident
+tei_model.global.spoken_alternation =
+  tei_vocal | tei_kinesic | tei_incident
+tei_model.global.spoken_sequence = tei_vocal, tei_kinesic, tei_incident
+tei_model.global.spoken_sequenceOptional =
+  tei_vocal?, tei_kinesic?, tei_incident?
+tei_model.global.spoken_sequenceOptionalRepeatable =
+  tei_vocal*, tei_kinesic*, tei_incident*
+tei_model.global.spoken_sequenceRepeatable =
+  tei_vocal+, tei_kinesic+, tei_incident+
+tei_recordingStmt =
+  
+  ## (recording statement) describes a set of recordings used as the basis for transcription of a spoken text. [8.2. Documenting the Source of Transcribed Speech 2.2.7. The Source Description]
+  element recordingStmt { tei_recording+ }
+tei_recording =
+  
+  ## (recording event) provides details of an audio or video recording event used as the source of a spoken text, either directly or from a public broadcast. [8.2. Documenting the Source of Transcribed Speech 15.3.2. Declarable Elements]
+  element recording {
+    tei_media+,
+    
+    ## the kind of recording.
+    [ a:defaultValue = "audio" ]
+    attribute type {
+      
+      ## audio recording
+      "audio"
+      | 
+        ## audio and video recording
+        "video"
+    }?,
+    empty
+  }
+tei_u =
+  
+  ## (utterance) contains a stretch of speech usually preceded and followed by silence or by a change of speaker. [8.3.1. Utterances]
+  element u {
+    (tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb
+     | tei_seg)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.linking.attribute.next,
+    tei_att.global.linking.attribute.prev,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.global.source.attribute.source,
+    tei_att.ascribed.attribute.who,
+    empty
+  }
+tei_vocal =
+  
+  ## (vocal) marks any vocalized but not necessarily lexical phenomenon, for example voiced pauses, non-lexical backchannels, etc. [8.3.3. Vocal, Kinesic, Incident]
+  element vocal {
+    tei_desc+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.ascribed.attribute.who,
+    tei_att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ##
+      "greeting"
+      | 
+        ##
+        "question"
+      | 
+        ##
+        "clarification"
+      | 
+        ##
+        "speaking"
+      | 
+        ##
+        "interruption"
+      | 
+        ##
+        "exclamat"
+      | 
+        ##
+        "laughter"
+      | 
+        ##
+        "shouting"
+      | 
+        ##
+        "murmuring"
+      | 
+        ##
+        "noise"
+      | 
+        ##
+        "signal"
+    }?,
+    empty
+  }
+tei_kinesic =
+  
+  ## (kinesic) marks any communicative phenomenon, not necessarily vocalized, for example a gesture, frown, etc. [8.3.3. Vocal, Kinesic, Incident]
+  element kinesic {
+    tei_desc+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
+    tei_att.ascribed.attribute.who,
+    
+    ##
+    attribute type {
+      
+      ##
+      "kinesic"
+      | 
+        ##
+        "applause"
+      | 
+        ##
+        "ringing"
+      | 
+        ##
+        "signal"
+      | 
+        ##
+        "playback"
+      | 
+        ##
+        "gesture"
+      | 
+        ##
+        "smiling"
+      | 
+        ##
+        "laughter"
+      | 
+        ##
+        "snapping"
+      | 
+        ##
+        "noise"
+    }?,
+    empty
+  }
+tei_incident =
+  
+  ## (incident) marks any phenomenon or occurrence, not necessarily vocalized or communicative, for example incidental noises or other events affecting communication. [8.3.3. Vocal, Kinesic, Incident]
+  element incident {
+    tei_desc+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.typed.attribute.subtype,
+    tei_att.ascribed.attributes,
+    
+    ##
+    attribute type {
+      
+      ##
+      "action"
+      | 
+        ##
+        "incident"
+      | 
+        ##
+        "leaving"
+      | 
+        ##
+        "entering"
+      | 
+        ##
+        "break"
+      | 
+        ##
+        "pause"
+      | 
+        ##
+        "sound"
+      | 
+        ##
+        "editorial"
+    }?,
+    empty
+  }
+tei_att.datable.custom.attribute.when-custom =
+  
+  ## supplies the value of a date or time in some custom standard form.
+  attribute when-custom {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.datable.custom.attribute.notBefore-custom =
+  
+  ## specifies the earliest possible date for the event in some custom standard form.
+  attribute notBefore-custom {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.datable.custom.attribute.notAfter-custom =
+  
+  ## specifies the latest possible date for the event in some custom standard form.
+  attribute notAfter-custom {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.datable.custom.attribute.from-custom =
+  
+  ## indicates the starting point of the period in some custom standard form.
+  attribute from-custom {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.datable.custom.attribute.to-custom =
+  
+  ## indicates the ending point of the period in some custom standard form.
+  attribute to-custom {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.datable.custom.attribute.datingPoint =
+  
+  ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
+  attribute datingPoint {
+    xsd:anyURI { pattern = "\S+" }
+  }?
+tei_att.datable.custom.attribute.datingMethod =
+  [
+    a:documentation [
+      "supplies a pointer to a "
+      ns1:code [ "<calendar>" ]
+      " element or other means of interpreting the values of the custom dating attributes."
+    ]
+  ]
+  attribute datingMethod {
+    xsd:anyURI { pattern = "\S+" }
+  }?
+tei_model.persNamePart =
+  tei_surname | tei_forename | tei_nameLink | tei_addName | tei_roleName
+tei_model.persNamePart_alternation =
+  tei_surname | tei_forename | tei_nameLink | tei_addName | tei_roleName
+tei_model.persNamePart_sequence =
+  tei_surname, tei_forename, tei_nameLink, tei_addName, tei_roleName
+tei_model.persNamePart_sequenceOptional =
+  tei_surname?,
+  tei_forename?,
+  tei_nameLink?,
+  tei_addName?,
+  tei_roleName?
+tei_model.persNamePart_sequenceOptionalRepeatable =
+  tei_surname*,
+  tei_forename*,
+  tei_nameLink*,
+  tei_addName*,
+  tei_roleName*
+tei_model.persNamePart_sequenceRepeatable =
+  tei_surname+,
+  tei_forename+,
+  tei_nameLink+,
+  tei_addName+,
+  tei_roleName+
+tei_att.datable.iso.attribute.when-iso =
+  
+  ## supplies the value of a date or time in a standard form.
+  attribute when-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+tei_att.datable.iso.attribute.notBefore-iso =
+  
+  ## specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.
+  attribute notBefore-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+tei_att.datable.iso.attribute.notAfter-iso =
+  
+  ## specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.
+  attribute notAfter-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+tei_att.datable.iso.attribute.from-iso =
+  
+  ## indicates the starting point of the period in standard form.
+  attribute from-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+tei_att.datable.iso.attribute.to-iso =
+  
+  ## indicates the ending point of the period in standard form.
+  attribute to-iso {
+    xsd:date
+    | xsd:gYear
+    | xsd:gMonth
+    | xsd:gDay
+    | xsd:gYearMonth
+    | xsd:gMonthDay
+    | xsd:time
+    | xsd:dateTime
+    | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
+  }?
+tei_orgName =
+  
+  ## (organization name) contains an organisational name. [13.2.2. Organizational Names]
+  element orgName {
+    text,
+    tei_att.global.attribute.xmllang,
+    tei_att.canonical.attribute.ref,
+    
+    ## indicates the starting point of the period in standard form, e.g. yyyy-mm-dd.
+    attribute from {
+      xsd:date
+      | xsd:gYear
+      | xsd:gMonth
+      | xsd:gDay
+      | xsd:gYearMonth
+      | xsd:gMonthDay
+      | xsd:time
+      | xsd:dateTime
+    }?,
+    
+    ## indicates the ending point of the period in standard form, e.g. yyyy-mm-dd.
+    attribute to {
+      xsd:date
+      | xsd:gYear
+      | xsd:gMonth
+      | xsd:gDay
+      | xsd:gYearMonth
+      | xsd:gMonthDay
+      | xsd:time
+      | xsd:dateTime
+    }?,
+    
+    ##
+    attribute full {
+      
+      ##
+      "yes"
+      | 
+        ##
+        "abb"
+    }?,
+    empty
+  }
+tei_persName =
+  
+  ## (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]
+  element persName {
+    ((tei_forename+
+      | tei_addName*
+      | tei_nameLink?
+      | tei_roleName*
+      | tei_surname+)+
+     | (tei_term)+
+     | (text)),
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.canonical.attribute.ref,
+    empty
+  }
+tei_surname =
+  
+  ## (surname) contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]
+  element surname { text }
+tei_forename =
+  
+  ## (forename) contains a forename, given or baptismal name. [13.2.1. Personal Names]
+  element forename {
+    text,
+    tei_att.global.attributes,
+    tei_att.personal.attributes,
+    tei_att.typed.attributes,
+    empty
+  }
+tei_nameLink =
+  
+  ## (name link) contains a connecting phrase or link used within a name but not regarded as part of it, such as van der or of. [13.2.1. Personal Names]
+  element nameLink { text }
+tei_addName =
+  
+  ## (additional name) contains an additional name component, such as a nickname, epithet, or alias, or any other descriptive phrase used within a personal name. [13.2.1. Personal Names]
+  element addName { text }
+tei_roleName =
+  
+  ## (role name) contains a name component which indicates that the referent has a particular role or position in society, such as an official title or rank. [13.2.1. Personal Names]
+  element roleName {
+    text,
+    
+    ##
+    attribute xml:lang {
+      xsd:language
+      | (
+         ##
+         "")
+    }?,
+    empty
+  }
+tei_placeName =
+  
+  ## (place name) contains an absolute or relative place name. [13.2.3. Place Names]
+  element placeName {
+    (tei_name? | text), tei_att.canonical.attribute.ref, empty
+  }
+tei_affiliation =
+  
+  ## (affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example an employer or sponsor. [15.2.2. The Participant Description]
+  element affiliation {
+    tei_roleName*,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    tei_att.canonical.attribute.ref,
+    
+    ##
+    attribute role {
+      
+      ##
+      "academician"
+      | 
+        ##
+        "alternateOfDelegation"
+      | 
+        ##
+        "associateMember"
+      | 
+        ##
+        "candidateChairman"
+      | 
+        ##
+        "constitutionalJudge"
+      | 
+        ##
+        "deputyHead"
+      | 
+        ##
+        "deputyMinister"
+      | 
+        ##
+        "head"
+      | 
+        ##
+        "member"
+      | 
+        ##
+        "minister"
+      | 
+        ##
+        "ministerDelegate"
+      | 
+        ##
+        "nonAttachedMember"
+      | 
+        ##
+        "observer"
+      | 
+        ##
+        "ombudsman"
+      | 
+        ##
+        "prosecutorGeneral"
+      | 
+        ##
+        "publicDefenderOfRights"
+      | 
+        ##
+        "replacement"
+      | 
+        ##
+        "representative"
+      | 
+        ##
+        "secretary"
+      | 
+        ##
+        "secretaryGeneral"
+      | 
+        ##
+        "secretaryOfState"
+      | 
+        ##
+        "verifier"
+      | 
+        ##
+        "vicePublicDefenderOfRights"
+    },
+    empty
+  }
+tei_birth =
+  
+  ## (birth) contains information about a person's birth, such as its date and place. [15.2.2. The Participant Description]
+  element birth {
+    (tei_placeName?),
+    
+    ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
+    attribute when {
+      xsd:date
+      | xsd:gYear
+      | xsd:gMonth
+      | xsd:gDay
+      | xsd:gYearMonth
+      | xsd:gMonthDay
+      | xsd:time
+      | xsd:dateTime
+    },
+    empty
+  }
+tei_death =
+  
+  ## (death) contains information about a person's death, such as its date and place. [15.2.2. The Participant Description]
+  element death {
+    (tei_placeName?),
+    
+    ## supplies the value of the date or time in a standard form, e.g. yyyy-mm-dd.
+    attribute when {
+      xsd:date
+      | xsd:gYear
+      | xsd:gMonth
+      | xsd:gDay
+      | xsd:gYearMonth
+      | xsd:gMonthDay
+      | xsd:time
+      | xsd:dateTime
+    },
+    empty
+  }
+tei_education =
+  
+  ## (education) contains a description of the educational experience of a person. [15.2.2. The Participant Description]
+  element education {
+    text,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    empty
+  }
+tei_event =
+  
+  ## (event) contains data relating to any kind of significant event associated with a person, place, or organisation. [13.3.1. Basic Principles]
+  element event {
+    tei_label+,
+    tei_att.global.attribute.xmlid,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    empty
+  }
+tei_listOrg =
+  
+  ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organisation. [13.2.2. Organizational Names]
+  element listOrg {
+    (tei_head*, tei_org+, tei_listRelation?),
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_listEvent =
+  
+  ## (list of events) contains a list of descriptions, each of which provides information about an identifiable event. [13.3.1. Basic Principles]
+  element listEvent { tei_head*, tei_event* }
+tei_listPerson =
+  
+  ## (list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]
+  element listPerson {
+    (tei_head*, tei_person+),
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_listRelation =
+  
+  ## provides information about relationships identified amongst people, places, and organisations, either informally as prose or as formally expressed relation links. [13.3.2.3. Personal Relationships]
+  element listRelation { tei_relation+ }
+tei_occupation =
+  
+  ## (occupation) contains an informal description of a person's trade, profession or occupation. [15.2.2. The Participant Description]
+  element occupation {
+    text,
+    tei_att.global.attribute.xmllang,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    empty
+  }
+tei_org =
+  
+  ## (organization) provides information about an identifiable organisation such as a business, a tribe, or any other grouping of people. [13.3.3. Organizational Data]
+  element org {
+    (tei_head*,
+     tei_orgName+,
+     tei_event*,
+     tei_idno*,
+     tei_desc?,
+     tei_listEvent?,
+     tei_state*),
+    tei_att.global.analytic.attribute.ana,
+    
+    ## (identifier) provides a unique identifier for the element bearing the attribute.
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute role {
+      
+      ##
+      "country"
+      | 
+        ##
+        "republic"
+      | 
+        ##
+        "government"
+      | 
+        ##
+        "ministry"
+      | 
+        ##
+        "parliament"
+      | 
+        ##
+        "politicalParty"
+      | 
+        ##
+        "parliamentaryGroup"
+      | 
+        ##
+        "conferenceOfChairs"
+      | 
+        ##
+        "boardOfParliament"
+      | 
+        ##
+        "ngo"
+      | 
+        ##
+        "institution"
+      | 
+        ##
+        "senate"
+      | 
+        ##
+        "committee"
+      | 
+        ##
+        "subcommittee"
+      | 
+        ##
+        "commission"
+      | 
+        ##
+        "delegation"
+      | 
+        ##
+        "supervisoryBoard"
+      | 
+        ##
+        "workingGroup"
+      | 
+        ##
+        "interparliamentaryFriendshipGroup"
+      | 
+        ##
+        "nationalCouncil"
+      | 
+        ##
+        "chamberOfThePeople"
+      | 
+        ##
+        "chamberOfTheNations"
+      | 
+        ##
+        "europeanCommission"
+      | 
+        ##
+        "europeanParliament"
+      | 
+        ##
+        "europeanInstitution"
+      | 
+        ##
+        "internationalOrganisation"
+      | 
+        ##
+        "boardOfDirectors"
+      | 
+        ##
+        "ethnicCommunity"
+    },
+    empty
+  }
+tei_person =
+  
+  ## (person) provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]
+  element person {
+    (tei_persName+,
+     (tei_sex?
+      | tei_birth?
+      | tei_death?
+      | tei_affiliation*
+      | tei_occupation*
+      | tei_education*
+      | tei_idno*
+      | tei_figure*)*),
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_relation =
+  
+  ## (relationship) describes a relationship between two organisations. [13.3.2.3. Personal Relationships]
+  element relation {
+    empty
+    >> sch:pattern [
+         id = "parlamint-relation-reforkeyorname-constraint-assert-4"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:relation"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "@ref or @key or @name"
+             "One of the attributes  'name', 'ref' or 'key' must be supplied"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "parlamint-relation-activemutual-constraint-report-10"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:relation"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@active and @mutual"
+             "Only one of the attributes @active and @mutual may be supplied"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "parlamint-relation-activepassive-constraint-report-11"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:relation"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "@passive and not(@active)"
+             "the attribute 'passive' may be supplied only if the attribute 'active' is supplied"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    tei_att.global.analytic.attribute.ana,
+    tei_att.datable.w3c.attribute.when,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    
+    ##
+    attribute name {
+      
+      ##
+      "coalition"
+      | 
+        ##
+        "opposition"
+      | 
+        ##
+        "renaming"
+      | 
+        ##
+        "successor"
+      | 
+        ##
+        "representing"
+    },
+    (
+     ## identifies the active participants in a non-mutual relationship, or all the participants in a mutual one.
+     attribute active {
+       list {
+         xsd:anyURI { pattern = "\S+" }+
+       }
+     }?
+     | 
+       ## supplies a list of participants amongst all of whom the relationship holds equally.
+       attribute mutual {
+         list {
+           xsd:anyURI { pattern = "\S+" }+
+         }
+       }?),
+    
+    ## identifies the passive participants in a non-mutual relationship.
+    attribute passive {
+      list {
+        xsd:anyURI { pattern = "\S+" }+
+      }
+    }?,
+    empty
+  }
+tei_sex =
+  
+  ## (sex) specifies the sex of a person. [13.3.2.1. Personal Characteristics]
+  element sex {
+    empty,
+    
+    ##
+    attribute value {
+      
+      ##
+      "M"
+      | 
+        ##
+        "F"
+      | 
+        ##
+        "U"
+      | 
+        ##
+        "O"
+      | 
+        ##
+        "N"
+    },
+    empty
+  }
+tei_state =
+  
+  ## (state) defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source. [13.3.1. Basic Principles 13.3.2.1. Personal Characteristics]
+  element state {
+    (tei_label | tei_note*),
+    tei_att.global.attribute.n,
+    tei_att.global.source.attribute.source,
+    tei_att.datable.w3c.attribute.from,
+    tei_att.datable.w3c.attribute.to,
+    [
+      a:documentation [
+        "(analysis) indicates one or more elements containing interpretations of the element on which the "
+        ns1:code [ "@ana" ]
+        " attribute appears."
+      ]
+    ]
+    attribute ana {
+      xsd:anyURI { pattern = "\S+" }
+    },
+    
+    ##
+    attribute type {
+      
+      ##
+      "politicalOrientation"
+    },
+    
+    ##
+    attribute subtype {
+      
+      ##
+      "CHES"
+      | 
+        ##
+        "Wikipedia"
+      | 
+        ##
+        "unknown"
+    },
+    empty
+  }
+tei_link =
+  
+  ## (link) defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]
+  element link {
+    empty
+    >> sch:pattern [
+         id = "parlamint-link-linkTargets3-constraint-assert-5"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:link"
+           "\x{a}" ~
+           "               "
+           sch:assert [
+             test = "contains(normalize-space(@target),' ')"
+             "You must supply at least two values for @target or  on "
+             sch:name [ ]
+             "\x{a}" ~
+             "               "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    
+    ##
+    attribute ana {
+      xsd:anyURI { pattern = "\S+" }
+    },
+    
+    ##
+    attribute target {
+      list {
+        xsd:anyURI { pattern = "\S+" },
+        xsd:anyURI { pattern = "\S+" }?
+      }
+    },
+    empty
+  }
+tei_linkGrp =
+  
+  ## (link group) defines a collection of associations or hypertextual links. [16.1. Links]
+  element linkGrp {
+    tei_link+,
+    
+    ##
+    attribute targFunc {
+      
+      ##
+      "head argument"
+    },
+    
+    ##
+    attribute type {
+      
+      ##
+      "UD-SYN"
+    },
+    empty
+  }
+tei_seg =
+  
+  ## (arbitrary segment) represents any segmentation of text below the chunk level. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
+  element seg {
+    (tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb
+     | (text | tei_s)*)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_figure =
+  
+  ## (figure) groups elements representing or containing graphic information such as an illustration, formula, or figure. [14.4. Specific Elements for Graphic Images]
+  element figure { tei_head?, tei_graphic }
+tei_s =
+  
+  ## (s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]
+  element s {
+    (tei_w
+     | tei_pc
+     | tei_name
+     | tei_num
+     | tei_date
+     | tei_time
+     | tei_note
+     | tei_vocal
+     | tei_kinesic
+     | tei_incident
+     | tei_gap
+     | tei_pb)+,
+    tei_linkGrp
+    >> sch:pattern [
+         id = "parlamint-s-noNestedS-constraint-report-12"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:s"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "tei:s"
+             "You may not nest one s element within\x{a}" ~
+             "      another: use seg instead"
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
+    empty
+  }
+tei_w =
+  
+  ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories 17.4.2. Lightweight Linguistic Annotation]
+  element w {
+    (text | tei_w)+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.linguistic.attributes,
+    empty
+  }
+tei_pc =
+  
+  ## (punctuation character) contains a character or string of characters regarded as constituting a single punctuation mark. [17.1.2. Below the Word Level 17.4.2. Lightweight Linguistic Annotation]
+  element pc {
+    text,
+    tei_att.global.attribute.xmllang,
+    tei_att.global.analytic.attribute.ana,
+    tei_att.linguistic.attribute.pos,
+    tei_att.linguistic.attribute.join,
+    tei_att.lexicographic.normalized.attribute.norm,
+    
+    ##
+    attribute xml:id { xsd:ID },
+    
+    ##
+    attribute msd { xsd:string },
+    empty
+  }
+tei_att.global.attributes =
+  tei_att.global.rendition.attributes,
+  tei_att.global.linking.attributes,
+  tei_att.global.analytic.attributes,
+  tei_att.global.responsibility.attributes,
+  tei_att.global.source.attributes,
+  tei_att.global.attribute.xmlid,
+  tei_att.global.attribute.n,
+  tei_att.global.attribute.xmllang,
+  tei_att.global.attribute.xmlbase,
+  tei_att.global.attribute.xmlspace
+tei_att.global.attribute.xmlid =
+  
+  ## (identifier) provides a unique identifier for the element bearing the attribute.
+  attribute xml:id { xsd:ID }?
+tei_att.global.attribute.n =
+  
+  ## (number) gives a number (or other label) for an element, which is not necessarily unique within the document.
+  attribute n { xsd:string }?
+tei_att.global.attribute.xmllang =
+  [
+    a:documentation [
+      "(language) indicates the language of the element content using a tag generated according to "
+      ns1:a [
+        href = "http://www.rfc-editor.org/rfc/bcp/bcp47.txt"
+        "BCP 47"
+      ]
+      "."
+    ]
+  ]
+  attribute xml:lang {
+    xsd:language
+    | (
+       ##
+       "")
+  }?
+tei_att.global.attribute.xmlbase =
+  
+  ## provides a base URI reference with which applications can resolve relative URI references into absolute URI references.
+  attribute xml:base {
+    xsd:anyURI { pattern = "\S+" }
+  }?
+tei_att.global.attribute.xmlspace =
+  
+  ## signals an intention about how white space should be managed by applications.
+  attribute xml:space {
+    
+    ## signals that the application's default white-space processing modes are acceptable
+    "default"
+    | 
+      ## indicates the intent that applications preserve all white space
+      "preserve"
+  }?
+tei_att.global.analytic.attributes =
+  tei_att.global.analytic.attribute.ana
+tei_att.global.analytic.attribute.ana =
+  [
+    a:documentation [
+      "(analysis) indicates one or more elements containing interpretations of the element on which the "
+      ns1:code [ "@ana" ]
+      " attribute appears."
+    ]
+  ]
+  attribute ana {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.global.linking.attributes =
+  tei_att.global.linking.attribute.corresp,
+  tei_att.global.linking.attribute.synch,
+  tei_att.global.linking.attribute.next,
+  tei_att.global.linking.attribute.prev
+tei_att.global.linking.attribute.corresp =
+  
+  ## (corresponds) points to elements that correspond to the current element in some way.
+  attribute corresp {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.global.linking.attribute.synch =
+  
+  ## (synchronous) points to elements that are synchronous with the current element.
+  attribute synch {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.global.linking.attribute.next =
+  
+  ## points to the next element of a virtual aggregate of which the current element is part.
+  attribute next {
+    xsd:anyURI { pattern = "\S+" }
+  }?
+tei_att.global.linking.attribute.prev =
+  
+  ## (previous) points to the previous element of a virtual aggregate of which the current element is part.
+  attribute prev {
+    xsd:anyURI { pattern = "\S+" }
+  }?
+tei_att.global.responsibility.attributes =
+  tei_att.global.responsibility.attribute.resp
+tei_att.global.responsibility.attribute.resp =
+  
+  ## (responsible party) indicates the agency responsible for the intervention or interpretation, for example an editor or transcriber.
+  attribute resp {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.global.source.attributes =
+  tei_att.global.source.attribute.source
+tei_att.global.source.attribute.source =
+  
+  ## specifies the source from which some aspect of this element is drawn.
+  attribute source {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+sch:pattern [
+  id =
+    "parlamint-att.global.source-source-only_1_ODD_source-constraint-rule-7"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@source]"
+    "\x{a}" ~
+    "         "
+    sch:let [
+      name = "srcs"
+      value = "tokenize( normalize-space(@source),' ')"
+    ]
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test =
+        "( self::tei:classRef               | self::tei:dataRef               | self::tei:elementRef               | self::tei:macroRef               | self::tei:moduleRef               | self::tei:schemaSpec )               and               $srcs[2]"
+      "\x{a}" ~
+      "              When used on a schema description element (like\x{a}" ~
+      "              "
+      sch:value-of [ select = "name(.)" ]
+      "), the @source attribute\x{a}" ~
+      "              should have only 1 value. (This one has "
+      sch:value-of [ select = "count($srcs)" ]
+      ".)\x{a}" ~
+      "            "
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+tei_att.internetMedia.attribute.mimeType =
+  
+  ## (MIME media type) specifies the applicable multimedia internet mail extension (MIME) media type
+  attribute mimeType {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.lexicographic.normalized.attributes =
+  tei_att.lexicographic.normalized.attribute.norm
+tei_att.lexicographic.normalized.attribute.norm =
+  
+  ## (normalized) provides the normalized/standardized form of information present in the source text in a non-normalized form
+  attribute norm { xsd:string }?
+tei_att.linguistic.attributes =
+  tei_att.lexicographic.normalized.attributes,
+  tei_att.linguistic.attribute.lemma,
+  tei_att.linguistic.attribute.pos,
+  tei_att.linguistic.attribute.msd,
+  tei_att.linguistic.attribute.join
+tei_att.linguistic.attribute.lemma =
+  
+  ## provides a lemma (base form) for the word, typically uninflected and serving both as an identifier (e.g. in dictionary contexts, as a headword), and as a basis for potential inflections.
+  attribute lemma { xsd:string }?
+tei_att.linguistic.attribute.pos =
+  
+  ## (part of speech) indicates the part of speech assigned to a token (i.e. information on whether it is a noun, adjective, or verb), usually according to some official reference vocabulary (e.g. for German: STTS, for English: CLAWS, for Polish: NKJP, etc.).
+  attribute pos { xsd:string }?
+tei_att.linguistic.attribute.msd =
+  [
+    a:documentation [
+      "(morphosyntactic description) supplies morphosyntactic information for a token, usually according to some official reference vocabulary (e.g. for German: "
+      ns1:a [
+        href =
+          "http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-1999.pdf"
+        "STTS-large tagset"
+      ]
+      "; for a feature description system designed as (pragmatically) universal, see "
+      ns1:a [
+        href = "http://universaldependencies.org/u/feat/index.html"
+        "Universal Features"
+      ]
+      ")."
+    ]
+  ]
+  attribute msd { xsd:string }?
+tei_att.linguistic.attribute.join =
+  
+  ## when present, provides information on whether the token in question is adjacent to another, and if so, on which side.
+  attribute join {
+    
+    ## (the token is not adjacent to another) 
+    "no"
+    | 
+      ## (there is no whitespace on the left side of the token) 
+      "left"
+    | 
+      ## (there is no whitespace on the right side of the token) 
+      "right"
+    | 
+      ## (there is no whitespace on either side of the token) 
+      "both"
+    | 
+      ## (the token overlaps with another; other devices (specifying the extent and the area of overlap) are needed to more precisely locate this token in the character stream) 
+      "overlap"
+  }?
+sch:pattern [
+  id =
+    "parlamint-att.measurement-att-measurement-unitRef-constraint-rule-8"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@unitRef]"
+    "\x{a}" ~
+    "         "
+    sch:report [
+      test = "@unit"
+      role = "info"
+      "The @unit attribute may be unnecessary when @unitRef is present."
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+tei_att.naming.attributes =
+  tei_att.canonical.attributes, tei_att.naming.attribute.role
+tei_att.naming.attribute.role =
+  
+  ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
+  attribute role {
+    list {
+      xsd:token { pattern = "[^\p{C}\p{Z}]+" }+
+    }
+  }?
+tei_att.personal.attributes =
+  tei_att.naming.attributes, tei_att.personal.attribute.full
+tei_att.personal.attribute.full =
+  
+  ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
+  [ a:defaultValue = "yes" ]
+  attribute full {
+    
+    ## (yes) the name component is spelled out in full.
+    "yes"
+    | 
+      ## (abbreviated) the name component is given in an abbreviated form.
+      "abb"
+    | 
+      ## (initial letter) the name component is indicated only by one initial.
+      "init"
+  }?
+tei_att.pointing.attribute.target =
+  
+  ## specifies the destination of the reference by supplying one or more URI References
+  attribute target {
+    list {
+      xsd:anyURI { pattern = "\S+" }+
+    }
+  }?
+tei_att.resourced.attributes = tei_att.resourced.attribute.url
+tei_att.resourced.attribute.url =
+  
+  ## (uniform resource locator) specifies the URL from which the media concerned may be obtained.
+  attribute url {
+    xsd:anyURI { pattern = "\S+" }
+  }
+tei_att.typed.attributes =
+  tei_att.typed.attribute.type, tei_att.typed.attribute.subtype
+tei_att.typed.attribute.type =
+  
+  ## characterizes the element in some sense, using any convenient classification scheme or typology.
+  attribute type {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
+tei_att.typed.attribute.subtype =
+  
+  ## (subtype) provides a sub-categorization of the element, if needed
+  attribute subtype {
+    xsd:token { pattern = "[^\p{C}\p{Z}]+" }
+  }?
+sch:pattern [
+  id = "parlamint-att.typed-subtypeTyped-constraint-rule-9"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@subtype]"
+    "\x{a}" ~
+    "         "
+    sch:assert [
+      test = "@type"
+      "The "
+      sch:name [ ]
+      " element should not be categorized in detail with @subtype unless also categorized in general with @type"
+    ]
+    "\x{a}" ~
+    "      "
+  ]
+  "\x{a}" ~
+  "   "
+]
+tei_include =
+  [
+    a:documentation [
+      "is an element from the XML namespace of the "
+      ns1:a [
+        href = "https://www.w3.org/TR/xinclude-11/"
+        "XML Inclusions (XInclude)"
+      ]
+      " W3C recommendation. It is used to include, into a ParlaMint "
+      ns1:code [ "<teiCorpus>" ]
+      " root file the elements of the corpus that are stored as separate files. These are the "
+      ns1:code [ "<TEI>" ]
+      " corpus components and parts of the corpus root "
+      ns1:code [ "<teiHeader>" ]
+      ". Inside "
+      ns1:code [ "<particDesc>" ]
+      " these are "
+      ns1:code [ "<listPerson>" ]
+      " & "
+      ns1:code [ "<listOrg>" ]
+      ", and "
+      ns1:code [ "<taxonomy>" ]
+      " inside "
+      ns1:code [ "<classDecl>" ]
+      "."
+    ]
+  ]
+  element xi:include {
+    empty,
+    
+    ##
+    attribute href {
+      xsd:anyURI { pattern = "\S+" }
+    }?,
+    empty
+  }
+start = tei_TEI | tei_teiCorpus
