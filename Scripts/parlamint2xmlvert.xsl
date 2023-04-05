@@ -56,9 +56,8 @@
         <xsl:when test="self::tei:u">
           <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
           <speech id="{$speech_id}" text_id="{$text_id}"
-                  subcorpus="{$subcorpus}"
-                  body="{$body}" term="{$term}" session="{$session}"
-                  meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
+                  subcorpus="{$subcorpus}" body="{$body}"
+		  term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
                   date="{$at-date}" title="{$title}">
             <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
             <xsl:choose>
