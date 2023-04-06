@@ -61,12 +61,10 @@ orgName =
     normalized-space.string
   }
 
-## Element defining the political orientation of a politicalParty or
-##     parliamentaryGroup.
+## Element defining the political orientation of a politicalParty or parliamentaryGroup.
 state =
   
-  ## The type of state is fixed, as we use state only for political
-  ##       orientation.
+  ## The type of state is fixed, as we use state only for political orientation.
   element state {
     attribute type { stateType.val }
     >> a:documentation [
@@ -78,7 +76,7 @@ state =
     ## The political orientation if given as a numeric value.
     (attribute n { xsd:decimal }?)
     >> a:documentation [ "From - to when this information holds." ],
-    temporal.atts
+    (temporal.atts?)
     >> a:documentation [
          "Pointer to category of a political orientation."
        ],
