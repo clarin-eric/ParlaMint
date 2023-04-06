@@ -280,7 +280,7 @@
   <xsl:template mode="comp" match="tei:projectDesc/tei:p[@xml:lang = 'en']">
     <xsl:apply-templates select="."/>
   </xsl:template>
-  <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
+  <xsl:template mode="comp" match="tei:idno">
     <xsl:apply-templates select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
@@ -539,18 +539,34 @@
       <change when="{$today-iso}"><name>parlamint2final.xsl</name>: Finalize corpus.</change>
     </xsl:copy>
   </xsl:template>
-
-  <xsl:template match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
-    <idno subtype="handle" type="URI">
+  
+  <xsl:template match="tei:idno">
+    <xsl:copy>
       <xsl:choose>
-        <xsl:when test="$type = 'txt'">
-          <xsl:value-of select="$handle-txt"/>
-        </xsl:when>
-        <xsl:when test="$type = 'ana'">
-          <xsl:value-of select="$handle-ana"/>
-        </xsl:when>
+	<xsl:when test="contains(., 'hdl.handle.net/11356/')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">handle</xsl:attribute>
+	  <xsl:choose>
+            <xsl:when test="$type = 'txt'">
+              <xsl:value-of select="$handle-txt"/>
+            </xsl:when>
+            <xsl:when test="$type = 'ana'">
+              <xsl:value-of select="$handle-ana"/>
+            </xsl:when>
+	  </xsl:choose>
+	</xsl:when>
+	<xsl:when test="@type = 'URI' and @subtype = 'contact' and contains(., 'parliament')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">parliament</xsl:attribute>
+          <xsl:value-of select="normalize-space(.)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:attribute name="type" select="@type"/>
+	  <xsl:attribute name="subtype" select="@subtype"/>
+          <xsl:value-of select="normalize-space(.)"/>
+	</xsl:otherwise>
       </xsl:choose>
-    </idno>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template match="tei:tagsDecl/tei:namespace">
