@@ -365,7 +365,7 @@
   </define>
   
   <define name="affiliation">
-    <a:documentation>The affiliation of a person, with temoral attributes and its type.</a:documentation>
+    <a:documentation>The affiliation of a person, with temporal attributes, its type and possibly some content.</a:documentation>
     <element name="affiliation">
       <optional>
         <ref name="ana.att"/>
@@ -378,13 +378,21 @@
       <attribute name="role">
         <ref name="affiliationRole.val"/>
       </attribute>
+      <a:documentation>The written out name of the role.</a:documentation>
       <zeroOrMore>
         <element name="roleName">
           <ref name="lang.att"/>
           <ref name="normalized-space.string"/>
         </element>
       </zeroOrMore>
-      <a:documentation>Optional note for free-text note of the affiliation period.</a:documentation>
+      <a:documentation>The name of the organisation they are affiliated with.</a:documentation>
+      <zeroOrMore>
+        <element name="orgName">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </zeroOrMore>
+      <a:documentation>Optional note for free-text description of the affiliation period.</a:documentation>
       <optional>
         <element name="note">
           <attribute name="type">

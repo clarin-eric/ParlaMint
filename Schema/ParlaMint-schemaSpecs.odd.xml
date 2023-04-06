@@ -6372,10 +6372,11 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="affiliation" module="namesdates" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organisation, for example an employer or sponsor.</desc>
+      <desc versionDate="2023-04-06" xml:lang="en">contains an informal description of a person's present or past affiliation with some
+    organisation, for example a political party or ministry.</desc>
       <content>
          <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
+         <elementRef key="orgName" minOccurs="0" maxOccurs="unbounded"/>
       </content>
       <attList>
          <attDef ident="role" mode="replace" usage="req">

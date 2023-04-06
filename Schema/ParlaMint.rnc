@@ -166,17 +166,22 @@ persName =
         & element nameLink { normalized-space.string }*))
   }
 
-## The affiliation of a person, with temoral attributes and its type.
+## The affiliation of a person, with temporal attributes, its type and possibly some content.
 affiliation =
   element affiliation {
     ana.att?,
     temporal.atts?,
     ref.att,
     source.att,
-    attribute role { affiliationRole.val },
+    attribute role { affiliationRole.val }
+    >> a:documentation [ "The written out name of the role." ],
     (element roleName { lang.att, normalized-space.string }*)
     >> a:documentation [
-         "Optional note for free-text note of the affiliation period."
+         "The name of the organisation they are affiliated with."
+       ],
+    (element orgName { lang.att, normalized-space.string }*)
+    >> a:documentation [
+         "Optional note for free-text description of the affiliation period."
        ],
     element note {
       attribute type { "period" },

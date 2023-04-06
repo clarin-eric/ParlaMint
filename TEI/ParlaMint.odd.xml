@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2022-12-21</date>
+        <date>2023-04-06</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2023-04-06">Tomaž Erjavec: allow orgName in affiliation.</change>
       <change when="2022-12-21">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
       <change when="2022-10-04">Tomaž Erjavec: reorganise sect. on organizations, add state.</change>
@@ -67,7 +68,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2022-12-21</docDate>
+        <docDate>2023-04-06</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1624,7 +1625,7 @@
             exact name of the affiliation role for a particular country or region using the
             <gi>roleName</gi> element, preferably both in the local language, as well as in
             English, as illustrated in the following example, which specifies that somebody
-            is a minister, and also what they are a minster of:
+            is a minister, and also what they are a minister of:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-roleName">
               <affiliation role="minister" ref="#GOV" from="2020-08-01">
@@ -1634,6 +1635,22 @@
               <affiliation role="head" ref="#MinistryOfDefence" from="2020-08-01">
                 <roleName xml:lang="sl">Minister za obrambo</roleName>
                 <roleName xml:lang="en">Minister of Defence</roleName>
+              </affiliation>
+            </egXML>
+            </p>
+            
+            <p>Finally, it is also possible to specify the name of the organisation that the person is affilated with 
+            directly inside the <gi>affiliation</gi> element, using the <gi>orgName</gi> element<note>The typical situation
+	    is that the organisation somebody is affiliated with is specificed as a organisation, using the <gi>org</gi>
+	    element (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) but if this is not the case, using
+	    <gi>orgName</gi> directly in the <gi>affiliation</gi> is an alternative encoding.</note> again, preferably
+	    both in the local language, as well as in English, as illustrated in the following example, which specifies
+	    that somebody is a minister of a certain ministry:
+            
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation-orgName">
+              <affiliation role="minister" ref="#GOV" from="2020-08-01">
+                <orgName xml:lang="sl">Ministrstvo za obrambo</orgName>
+                <orgName xml:lang="en">Ministry of Defence</orgName>
               </affiliation>
             </egXML>
             </p>

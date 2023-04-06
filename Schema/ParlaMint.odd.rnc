@@ -11,10 +11,10 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2022-12-21T20:46:05Z. 2022-12-21.
-# TEI Edition: Version 4.5.0a. Last updated on
-#         25th October 2022, revision 5406e8d10
-# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.5.0a./
+# Schema generated from ODD source 2023-04-06T16:06:34Z. 2023-04-06.
+# TEI Edition: Version 4.6.0a. Last updated on
+#         5th January 2023, revision 9074b9038
+# TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
 #
 
 # This file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions.
@@ -2145,9 +2145,10 @@ tei_placeName =
   }
 tei_affiliation =
   
-  ## (affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example an employer or sponsor. [15.2.2. The Participant Description]
+  ## (affiliation) contains an informal description of a person's present or past affiliation with some organisation, for example a political party or ministry. [15.2.2. The Participant Description]
   element affiliation {
     tei_roleName*,
+    tei_orgName*,
     tei_att.global.analytic.attribute.ana,
     tei_att.datable.w3c.attribute.when,
     tei_att.datable.w3c.attribute.from,
