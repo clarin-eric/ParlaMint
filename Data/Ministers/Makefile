@@ -1,4 +1,4 @@
-MC = UA
+MC = PL
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
 V3  = /project/corpora/Parla/ParlaMint/V3/Master

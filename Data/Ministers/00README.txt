@@ -1,4 +1,8 @@
 STATUS:
+JURE:
+GB
+Translate "Ministry" to "Minister"? However, LT, LV, PL, ...
+
 AT 	corpus
 BA 	V3
 BE 	V3
@@ -13,13 +17,14 @@ HR 	V3
 HU 	corpus
 IS 	corpus
 IT 	corpus
-LV  	corpus + V2
+LV  	corpus + V3
 NL 	corpus
 NO 	corpus
 PL 	V3
 PT 	corpus
-RS 	V3  (except now no ŠarčevićMladen	Šarčević, Mladen)
+RS 	V3  (except now no "ŠarčevićMladen	Šarčević, Mladen")
 SE 	corpus
-SI 	corpus + V2
-TR 	corpus + V2
+SI 	corpus + V3
+TR 	corpus + V3
 UA 	corpus
+
