@@ -555,8 +555,8 @@
             </xsl:when>
 	  </xsl:choose>
 	</xsl:when>
-	<!-- For GB -->
-	<xsl:when test="@type = 'URI' and contains(., 'parliament')">
+	<!-- For GB and ES-GA -->
+	<xsl:when test="@type = 'URI' and matches(., 'parli?ament')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
           <xsl:value-of select="normalize-space(.)"/>
