@@ -342,12 +342,12 @@
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
-      <xsl:when test="@name = opposition'">
+      <xsl:when test="@name = 'opposition'">
 	<xsl:if test="@mutual or not(@active) or not(@passive)">
 	  <xsl:call-template name="error">
             <xsl:with-param name="msg">
 	      <xsl:text>Opposition relation should have the attributes </xsl:text>
-	      <xsl:text>@active (list of references to opposition parties and </xsl:text>
+	      <xsl:text>@active (list of references to opposition parties) and </xsl:text>
 	      <xsl:text>@passive (reference to the government organisation)</xsl:text>
 	    </xsl:with-param>
 	  </xsl:call-template>
@@ -355,7 +355,7 @@
       </xsl:when>
     </xsl:choose>
   </xsl:template>
-  
+
   <xsl:template match="tei:u">
     <xsl:choose>
       <xsl:when test="not(@who)">
