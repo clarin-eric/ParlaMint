@@ -555,14 +555,21 @@
             </xsl:when>
 	  </xsl:choose>
 	</xsl:when>
-	<xsl:when test="@type = 'URI' and @subtype = 'contact' and contains(., 'parliament')">
+	<!-- For GB -->
+	<xsl:when test="@type = 'URI' and contains(., 'parliament')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
           <xsl:value-of select="normalize-space(.)"/>
 	</xsl:when>
-	<xsl:otherwise>
+	<xsl:when test="@type and @subtype">
 	  <xsl:attribute name="type" select="@type"/>
 	  <xsl:attribute name="subtype" select="@subtype"/>
+          <xsl:value-of select="normalize-space(.)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
+                               ': idno without subtype, content is ', .)"/>
+	  <xsl:attribute name="type" select="@type"/>
           <xsl:value-of select="normalize-space(.)"/>
 	</xsl:otherwise>
       </xsl:choose>
