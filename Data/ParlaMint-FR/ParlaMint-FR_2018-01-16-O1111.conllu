@@ -1,0 +1,115 @@
+# newdoc id = ParlaMint-FR_2018-01-16-O1111.u1
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s1
+# text = L'ordre du jour appelle les questions au Gouvernement.
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	NER=O|SpaceAfter=No
+2	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	NER=O
+3-4	du	_	_	_	_	_	_	_	NER=O
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	jour	jour	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	NER=O
+6	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	NER=O
+8	questions	question	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	NER=O
+9-10	au	_	_	_	_	_	_	_	NER=O
+9	à	à	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	NER=B-MISC|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# newdoc id = ParlaMint-FR_2018-01-16-O1111.u2
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s2
+# text = La parole est à M. Jean-François Parigi, pour le groupe Les Républicains.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	parole	parole	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	NER=O
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	NER=O
+4	à	à	ADP	_	_	5	case	_	NER=O
+5	M.	Monsieur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	NER=B-PER
+6	Jean-François	Jean-François	PROPN	_	_	5	flat:name	_	NER=I-PER
+7	Parigi	Parigi	PROPN	_	_	5	flat:name	_	NER=I-PER|SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	NER=O
+9	pour	pour	ADP	_	_	11	case	_	NER=O
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	NER=O
+11	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	NER=O
+12	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	NER=B-ORG
+13	Républicains	républicain	NOUN	_	Gender=Masc|Number=Plur	11	appos	_	NER=I-ORG|SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	NER=O
+
+# newdoc id = ParlaMint-FR_2018-01-16-O1111.u398
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s1969
+# text = La séance de questions sur la politique nationale du logement est terminée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	séance	séance	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	NER=O
+3	de	de	ADP	_	_	4	case	_	NER=O
+4	questions	question	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	NER=O
+5	sur	sur	ADP	_	_	7	case	_	NER=O
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=O
+7	politique	politique	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	NER=O
+8	nationale	national	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	NER=O
+9-10	du	_	_	_	_	_	_	_	NER=O
+9	de	de	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	logement	logement	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	NER=O
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	NER=O
+13	terminée	terminer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	NER=O
+
+# newdoc id = ParlaMint-FR_2018-01-16-O1111.u399
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s1970
+# text = Prochaine séance, ce soir, à vingt et une heures trente :
+1	Prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	NER=O
+2	séance	séance	NOUN	_	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	NER=O
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	NER=O
+5	soir	soir	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	NER=O
+7	à	à	ADP	_	_	11	case	_	NER=O
+8	vingt	vingt	NUM	_	Number=Plur	11	nummod	_	NER=O
+9	et	et	CCONJ	_	_	10	cc	_	NER=O
+10	une	une	NUM	_	Gender=Fem|Number=Sing	8	conj	_	NER=O
+11	heures	heure	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	NER=O
+12	trente	trente	NUM	_	Number=Plur	11	nmod	_	NER=O
+13	:	:	PUNCT	_	_	2	punct	_	NER=O
+
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s1971
+# text = Questions sur la politique environnementale du Gouvernement ;
+1	Questions	question	NOUN	_	Gender=Fem|Number=Plur	0	root	_	NER=O
+2	sur	sur	ADP	_	_	4	case	_	NER=O
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	politique	politique	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	NER=O
+5	environnementale	environnemental	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	NER=O
+6-7	du	_	_	_	_	_	_	_	NER=O
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	NER=B-ORG
+9	;	;	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s1972
+# text = Questions sur l'éducation et le recrutement des enseignants.
+1	Questions	question	NOUN	_	Gender=Fem|Number=Plur	0	root	_	NER=B-MISC
+2	sur	sur	ADP	_	_	4	case	_	NER=O
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	NER=O|SpaceAfter=No
+4	éducation	éducation	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	NER=O
+5	et	et	CCONJ	_	_	7	cc	_	NER=O
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
+7	recrutement	recrutement	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	NER=O
+8-9	des	_	_	_	_	_	_	_	NER=O
+8	de	de	ADP	_	_	10	case	_	_
+9	le	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
+10	enseignants	enseignant	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# newpar id = 
+# sent_id = ParlaMint-FR_2018-01-16-O1111.s1973
+# text = La séance est levée.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	séance	séance	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	NER=O
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	NER=O
+4	levée	lever	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	NER=O
+
