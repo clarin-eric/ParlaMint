@@ -100,7 +100,7 @@ $outDir = File::Spec->rel2abs($outDir);
 #$Parallel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
-$SaxonX  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
+$SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
 $FactoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
 $FactoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
