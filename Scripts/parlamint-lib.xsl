@@ -82,16 +82,28 @@
     </xsl:call-template>
   </xsl:variable>
   
-  <!-- COVID / reference subcorpus -->
+  <!-- Subcorpus -->
   <xsl:variable name="subcorpus">
-    <xsl:for-each select="tokenize(/tei:TEI/@ana, ' ')">
-      <xsl:if test="key('idr', ., $rootHeader)/
-                    ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
-        <xsl:value-of select="key('idr', ., $rootHeader)//tei:catDesc
-                              [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-                              /tei:term"/>
-      </xsl:if>
-    </xsl:for-each>
+    <xsl:variable name="subcorpora">
+      <xsl:for-each select="tokenize(/tei:TEI/@ana, ' ')">
+	<xsl:if test="key('idr', ., $rootHeader)/
+                      ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
+          <xsl:value-of select="key('idr', ., $rootHeader)//tei:catDesc
+				[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
+				/tei:term"/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <!-- If component belongs to several subcorpora, retain only last one -->
+    <xsl:choose>
+      <xsl:when test="matches(normalize-space($subcorpora), '&#32;')">
+	<xsl:value-of select="substring-after(normalize-space($subcorpora), '&#32;')"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="normalize-space($subcorpora)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:variable>
   
   <xsl:variable name="rootHeader">
