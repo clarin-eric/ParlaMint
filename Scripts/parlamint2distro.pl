@@ -176,6 +176,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $outConlDir = "$outDir/$XX.conllu";
     my $outVertDir = "$outDir/$XX.vert";
     my $vertRegi   = $regiPrefix . lc $countryCode . '.' . $regiExt;
+    $vertRegi =~ s/-/_/g;  #e.g. parlamint30_es-ct.regi to parlamint30_es_ct.regi
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
