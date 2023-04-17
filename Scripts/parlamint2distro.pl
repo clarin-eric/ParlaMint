@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # Make ParlaMint corpora ready for distribution:
-# 1. Finalize input corpora stored (release, date, handle, extent + factorisation)
+# 1. Finalize input corpora (version, date, handle, extent + factorisation)
 # 2. Validate corpora
 # 3. Produce derived format
 # License: CC0
@@ -36,6 +36,7 @@ sub usage {
     
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
     print STDERR ("    * -factorise: puts taxonomies and listOrg/Person in separate files\n");
+    print STDERR ("    * -common: used common taxonomies, rather than corpus-specific ones\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
     print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
     print STDERR ("    * -sample: produces samples (from TEI.ana and TEI output)\n");
@@ -59,6 +60,7 @@ use File::Copy::Recursive qw(dircopy);
 
 my $procAll    = 0;
 my $procFactor = 2;
+my $procCommon = 2;
 my $procAna    = 2;
 my $procTei    = 2;
 my $procSample = 2;
@@ -77,6 +79,7 @@ GetOptions
      'out=s'      => \$outDir,
      'all'        => \$procAll,
      'factorise!' => \$procFactor,
+     'common!'    => \$procCommon,
      'ana!'       => \$procAna,
      'tei!'       => \$procTei,
      'sample!'    => \$procSample,
@@ -85,6 +88,9 @@ GetOptions
      'conll!'     => \$procConll,
      'vert!'      => \$procVert,
 );
+
+#We need $procFactor of $procCommon is set!
+if ($procCommon) {$procFactor = $procCommon}
 
 if ($help) {
     &usage;
@@ -107,6 +113,16 @@ $FactoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
 $FactoriseFiles .= 'ParlaMint-taxonomy-speaker_types.xml ';
 $FactoriseFiles .= 'ParlaMint-taxonomy-subcorpus.xml ';
 
+# We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
+$taxonomyDir = "$Bin/../Data/Taxonomies";
+# Currently we do it only for subcorpus
+$taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+#$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
+#$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
+#$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+#$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
+#$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
+  
 $Factor  = "$Bin/parlamint-factorize-teiHeader.xsl";
 $Final   = "$Bin/parlamint2final.xsl";
 $Polish  = "$Bin/polish-xml.pl";
@@ -160,6 +176,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $outConlDir = "$outDir/$XX.conllu";
     my $outVertDir = "$outDir/$XX.vert";
     my $vertRegi   = $regiPrefix . lc $countryCode . '.' . $regiExt;
+    $vertRegi =~ s/-/_/g;  #e.g. parlamint30_es-ct.regi to parlamint30_es_ct.regi
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
@@ -251,26 +268,30 @@ sub factorisations {
     # Prefix to put in front of the factorised files.
     my ($prefix) = $Root =~ m|([^/]+?)\.|;
     $prefix .= '-';
-    
+
     if (-e $inListOrg) {$factorised = 1}
     elsif (not $procFactor) {print STDERR "WARN: $inListOrg not found\n"}
     if (-e $inListPerson) {$factorised = 1}
     elsif (not $procFactor) {print STDERR "WARN: $inListPerson not found\n"}
     if (@inTaxonomies) {$factorised = 1}
     elsif (not $procFactor) {print STDERR "WARN: $inTaxonomies not found\n"}
-    if ($procFactor) {
-	if ($factorised) {
-	    print STDERR "INFO: $Dir already factorised\n"
-	}
+    if ($procFactor or $procCommon) {
+	if ($factorised) {print STDERR "INFO: $Dir already factorised\n"}
 	else {
 	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
 	    `$Saxon noAna=\"$FactoriseFiles\" outDir=$tmpOutDir -xsl:$Factor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;
 	}
+	if ($procCommon) {
+	    foreach my $taxonomy (sort keys %taxonomy) {
+		#Eventually we will need an XSLT to extract from common taxonomies catDesc with relevant @xml:lang(s)!
+		`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	    }
+	}
     }
     elsif (not $factorised) {
-	print STDERR "ERROR: $Dir not factorised, but -factorise flag not set!\n"
+	print STDERR "ERROR: $Dir not factorised, but -factorise or -common flag not set!\n"
     }
     return 1;
 }

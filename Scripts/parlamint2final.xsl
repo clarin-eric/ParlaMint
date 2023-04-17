@@ -1,27 +1,26 @@
 <?xml version="1.0"?>
 <!-- Finalize the encoding of a ParlaMint corpus (source language version) -->
-<!-- Input is plain text (.TEI) or lingustically analysed (.TEI.ana) corpus root file 
+<!-- Input is "plain text" (.TEI) or lingustically analysed (.TEI.ana) corpus root file 
      with XIncludes for all corpus components
-     Output is corresponding (.TEI or .TEI.ana) 
+     Output is the corresponding (.TEI or .TEI.ana):
      - corpus root, 
-     - factorised metadata (taxonomies, person and organisation list) 
      - components
      All are in their final form for a particular release.
-     STDERR gives detailed log of actions.
+     STDERR gives a detailed log of actions.
      The inserted or fixed data is either given as parameters with default values or 
      computed from the corpus.
      The program:
      - sets release date, default = today
      - sets version and handles, default = 3.0
+     - set date-dependent subcorpora to 'reference' 'COVID', 'War'
      - sets top level @xml:id so it is the same as the filename
-     - set correct ParlaMint stamp in main titles
-     - set correct reference / COVID subcorpus, default > 2019-11-01
-     - set English project description, default = ParlaMint II
-     - calculate extents in component ana files, warn if changed
-     - insert word extents from ana into plain version
-     - insert tagCounts in root (taken from component files and not changed there!)
-     - fix spaces in text
-     - if necessary, change div/@type for divs without utterances
+     - sets correct ParlaMint stamp in main titles
+     - sets English project description, default = ParlaMint II
+     - calculates extents in component ana files, warn if changed
+     - inserts word extents from ana into plain version
+     - inserts tagCounts in root (taken from component files and not changed there!)
+     - change div/@type for divs without utterances
+     - fixes spaces in text
      - sundry checks and fixes, which give warning messages
 -->
 <xsl:stylesheet 
@@ -40,12 +39,14 @@
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
   
+  <xsl:param name="reference-date" as="xs:date">2020-01-30</xsl:param>
+  <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
+  <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
+  
   <!-- Version and handle of the release -->
   <xsl:param name="version">3.0</xsl:param>
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/1486</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/1488</xsl:param>
-  
-  <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
 
   <!-- Type of corpus is 'txt' or 'ana' -->
   <xsl:param name="type">
@@ -239,31 +240,29 @@
     </xsl:if>
   </xsl:template>
   
+  <!-- Set subcorpus or subcorpora info for component -->
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
+    <!-- Set subcorpus or subcorpora (needs to be space normalised!) -->
+    <xsl:variable name="subcorpora">
+      <xsl:if test="$reference-date &gt;= $date"> #reference </xsl:if>
+      <xsl:if test="$covid-date &lt;= $date"> #covid </xsl:if>
+      <xsl:if test="$war-date &lt;= $date"> #war </xsl:if>
+    </xsl:variable>
+    <xsl:variable name="ana">
+      <!-- Ignore old sucorpus labels and insert new ones -->
+      <xsl:for-each select="tokenize(., ' ')">
+        <xsl:if test=". != '#reference' and  . != '#covid'">
+	  <xsl:value-of select="."/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
+      <xsl:value-of select="normalize-space($subcorpora)"/>
+    </xsl:variable>
     <xsl:attribute name="ana">
-      <xsl:variable name="ref">
-        <xsl:for-each select="tokenize(., ' ')">
-          <xsl:choose>
-            <xsl:when test=". = '#reference' and $covid-date &lt; $date">
-              <xsl:text>#covid</xsl:text>
-              <xsl:message select="concat('WARN ', $id, 
-                               ': fixing subcorpus to covid for date ', $date)"/>
-            </xsl:when>
-            <xsl:when test=". = '#covid' and $covid-date &gt;= $date">
-              <xsl:text>#reference</xsl:text>
-              <xsl:message select="concat('WARN ', $id, 
-				   ': fixing subcorpus to reference for date ', $date)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:text>&#32;</xsl:text>
-        </xsl:for-each>
-      </xsl:variable>
-      <xsl:value-of select="normalize-space($ref)"/>
+      <xsl:message select="concat('INFO: ', $id, ': setting references ', $ana, ' for ', $date)"/>
+      <xsl:value-of select="$ana"/>
     </xsl:attribute>
   </xsl:template>
   
@@ -293,7 +292,6 @@
   <xsl:template mode="comp" match="tei:text//text()">
     <xsl:apply-templates select="."/>
   </xsl:template>
-
   
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='speeches']">
     <xsl:param name="speeches"/>
@@ -555,8 +553,8 @@
             </xsl:when>
 	  </xsl:choose>
 	</xsl:when>
-	<!-- For GB -->
-	<xsl:when test="@type = 'URI' and contains(., 'parliament')">
+	<!-- For GB and ES-GA -->
+	<xsl:when test="@type = 'URI' and matches(., 'parli?ament')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
           <xsl:value-of select="normalize-space(.)"/>
