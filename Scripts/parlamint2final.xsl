@@ -134,8 +134,10 @@
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
           <xsl:when test="$type = 'ana'">
+	    <!-- We count only surface words -->
+	    <!-- We also need to take into account that we change "words" to punctuation -->
             <xsl:value-of select="document(tei:url-orig)/
-                                  count(//tei:w[not(parent::tei:w)])"/>
+                                  count(//tei:w[not(parent::tei:w)][not(contains(@msd, 'UPosTag=PUNCT'))])"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
           <xsl:when test="doc-available(tei:url-ana)">
@@ -365,6 +367,26 @@
     </xsl:copy>
   </xsl:template>
       
+  <!-- Bug in ES-CT processing, often punctuation is encoded as a word -->
+  <xsl:template mode="comp" match="tei:w[contains(@msd, 'UPosTag=PUNCT')]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': changing word ', ., ' to punctuation for ', @xml:id)"/>
+    <pc>
+      <xsl:apply-templates mode="comp" select="@*[name() != 'lemma']"/>
+      <xsl:apply-templates mode="comp"/>
+    </pc>
+  </xsl:template>
+  
+  <!-- Bug in ES-CT processing, sometimes a UPosTag is set to "-" -->
+  <!-- We set it to 'X' -->
+  <xsl:template mode="comp" match="tei:w/@msd[contains(., 'UPosTag=-')]">
+    <xsl:attribute name="msd">
+      <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                           ': changing UPosTag=- to UPosTag=X for ', ../@xml:id)"/>
+      <xsl:value-of select="replace(., 'UPosTag=.', 'UPosTag=X')"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <!-- Bug in STANZA, sometimes a word lemma is set to "_" -->
   <!-- We set lemma to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
@@ -553,8 +575,9 @@
             </xsl:when>
 	  </xsl:choose>
 	</xsl:when>
-	<!-- For GB and ES-GA -->
-	<xsl:when test="@type = 'URI' and matches(., 'parli?ament')">
+	<!-- For GB, ES-GA, PL -->
+	<xsl:when test="@type = 'URI' and 
+			(matches(., 'parli?ament') or matches(., '\.sejm\.'))">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
           <xsl:value-of select="normalize-space(.)"/>
