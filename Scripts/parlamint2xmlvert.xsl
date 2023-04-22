@@ -80,7 +80,6 @@
               <xsl:attribute name="speaker_role"/>
               <xsl:attribute name="speaker_id"/>
               <xsl:attribute name="speaker_name"/>
-              <xsl:attribute name="speaker_type"/>
               <xsl:attribute name="speaker_party"/>
               <xsl:attribute name="speaker_party_name"/>
               <xsl:attribute name="party_status"/>
