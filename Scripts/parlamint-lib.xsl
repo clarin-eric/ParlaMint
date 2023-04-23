@@ -168,6 +168,9 @@
        <meeting corresp="#ParlaMint-FR-LOWER" ana="#parla.national #parla.lower #parla.term #parla.term.15">15e législature</meeting>
        <meeting corresp="#ParlaMint-FR-LOWER" ana="#parla.session #ParlaMint-FR-LOWER">Session ordinaire 2016-2017</meeting>
        <meeting corresp="#ParlaMint-FR-LOWER" ana="#parla.sitting #ParlaMint-FR-LOWER">124. séance</meeting>
+
+       We compute the set of all references in meeting/@ana and type to match them with the taxonomy category that has
+       parla.organization as the ancestor category ID.
   -->
   <xsl:template name="body">
     <xsl:variable name="titleStmt" select="//tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
@@ -177,24 +180,35 @@
       </xsl:for-each>
     </xsl:variable>
     <xsl:variable name="bodies">
-      <xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
-	<xsl:if test="key('idr', ., $rootHeader)
-		      [ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]">
-	  <xsl:variable name="body" select="key('idr', ., $rootHeader)/
-					    tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
-					    tei:term"/>
-	  <xsl:if test="normalize-space($body)">
-	    <xsl:if test="contains($body, $body-separator)">
-              <xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
+      <xsl:variable name="bods">
+	<xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
+	  <xsl:if test="key('idr', ., $rootHeader)[ancestor::tei:category[@xml:id = 'parla.organization']]">
+	    <xsl:variable name="body" select="key('idr', ., $rootHeader)/
+					      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
+					      tei:term"/>
+	    
+	    <xsl:if test="normalize-space($body)">
+	      <xsl:if test="contains($body, $body-separator)">
+		<xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
+	      </xsl:if>
+	      <xsl:value-of select="$body"/>
+	      <xsl:value-of select="$body-separator"/>
 	    </xsl:if>
-	    <xsl:value-of select="$body"/>
-	    <xsl:value-of select="$body-separator"/>
 	  </xsl:if>
-	</xsl:if>
-      </xsl:for-each>
+	</xsl:for-each>
+      </xsl:variable>
+      <!-- Backslash only if body-separator must be an escaped char (as is pipe)! -->
+      <xsl:value-of select="replace($bods, concat('\', $body-separator, '$'), '')"/>
     </xsl:variable>
-    <!-- Backslash only if body-separator must be an escaped char! -->
-    <xsl:value-of select="replace($bodies, concat('\', $body-separator, '$'), '')"/>
+    <xsl:choose>
+      <xsl:when test="normalize-space($bodies)">
+	<xsl:value-of select="$bodies"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message terminate="yes" select="concat('ERROR: cannot determine of which body the component ', 
+					     replace(base-uri(), '.+/', ''), ' is a meeting of!')"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Get @n from appropriate meeting type, e.g.
