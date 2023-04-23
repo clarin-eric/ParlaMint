@@ -137,7 +137,9 @@
 	    <!-- We count only surface words -->
 	    <!-- We also need to take into account that we change "words" to punctuation -->
             <xsl:value-of select="document(tei:url-orig)/
-                                  count(//tei:w[not(parent::tei:w)][not(contains(@msd, 'UPosTag=PUNCT'))])"/>
+                                  count(//tei:w[not(parent::tei:w)]
+				  [not(contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$'))]
+				  )"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
           <xsl:when test="doc-available(tei:url-ana)">
