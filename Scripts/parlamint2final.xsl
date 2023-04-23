@@ -330,18 +330,15 @@
 	  <xsl:text>&#32;</xsl:text>
 	</xsl:for-each>
       </xsl:variable>
-      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-				 ': ana this is ', $ana-this)"/>
-      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-				 ': ana all is ', $ana-all)"/>
+      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ana this is ', $ana-this)"/-->
+      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ana all is ', $ana-all)"/-->
       <xsl:variable name="ok">
 	<xsl:for-each select="distinct-values(tokenize(normalize-space($ana-all), ' '))">
 	  <xsl:value-of select="key('idr', ., $rootHeader)
 				[ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]/@xml:id"/>
 	</xsl:for-each>
       </xsl:variable>
-      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
-				 ': ok is ', $ok)"/>
+      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ok is ', $ok)"/-->
       <xsl:if test="not(normalize-space($ok))">
 	<xsl:variable name="body">
 	  <xsl:choose>
