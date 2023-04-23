@@ -314,6 +314,62 @@
     </xsl:copy>
   </xsl:template>  
 
+  <!-- Some corpora are missing reference to the parliamentary body of the meeting -->
+  <xsl:template mode="comp" match="tei:meeting/@ana">
+    <!-- BE uses their own special category for this, change to common category -->
+    <xsl:attribute name="ana">
+      <xsl:variable name="ana-this" select="replace(., '#parla.meeting.committee', '#parla.committee')"/>
+      <xsl:variable name="ana-all">
+	<xsl:variable name="all">
+	  <xsl:for-each select="../../tei:meeting">
+	    <xsl:value-of select="concat(@ana, ' ')"/>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:for-each select="distinct-values(tokenize(normalize-space($all), ' '))">
+	  <xsl:value-of select="replace(., '#parla.meeting.committee', '#parla.committee')"/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+				 ': ana this is ', $ana-this)"/>
+      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+				 ': ana all is ', $ana-all)"/>
+      <xsl:variable name="ok">
+	<xsl:for-each select="distinct-values(tokenize(normalize-space($ana-all), ' '))">
+	  <xsl:value-of select="key('idr', ., $rootHeader)
+				[ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]/@xml:id"/>
+	</xsl:for-each>
+      </xsl:variable>
+      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id, 
+				 ': ok is ', $ok)"/>
+      <xsl:if test="not(normalize-space($ok))">
+	<xsl:variable name="body">
+	  <xsl:choose>
+	    <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
+	    <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'LV'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'SI'">#parla.lower</xsl:when>
+	    <xsl:when test="$country-code = 'TR'">#parla.uni</xsl:when>
+	  </xsl:choose>
+	</xsl:variable>
+	<xsl:choose>
+	  <xsl:when test="$body">
+	    <xsl:value-of select="concat($body, '&#32;')"/>
+	    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+				 ': adding ', $body, ' to meeting/@ana')"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+				 ': meeting/@ana without organisation reference!')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:if>
+      <xsl:value-of select="$ana-this"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='words']">
     <xsl:param name="speeches"/>
     <xsl:param name="words"/>
@@ -368,7 +424,7 @@
   </xsl:template>
       
   <!-- Bug in ES-CT processing, often punctuation is encoded as a word -->
-  <xsl:template mode="comp" match="tei:w[contains(@msd, 'UPosTag=PUNCT')]">
+  <xsl:template mode="comp" match="tei:w[contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$')]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': changing word ', ., ' to punctuation for ', @xml:id)"/>
     <pc>
