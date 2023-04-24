@@ -316,7 +316,7 @@
     </xsl:copy>
   </xsl:template>  
 
-  <!-- Some corpora are missing reference to the parliamentary body of the meeting -->
+  <!-- Some corpora are missing reference to the parliamentary body of the meeting, add it -->
   <xsl:template mode="comp" match="tei:meeting/@ana">
     <!-- BE uses their own special category for this, change to common category -->
     <xsl:attribute name="ana">
@@ -652,6 +652,47 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Some corpora are missing textClass in root, add it before particDesc-->
+  <xsl:template match="tei:particDesc">
+    <xsl:if test="not(../tei:textClass)">
+      <xsl:variable name="target">
+	<xsl:choose>
+	  <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
+	  <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
+	  <!--xsl:when test="$country-code = 'CZ'">#parla.lower</xsl:when-->
+	  <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'FR'">#parla.lower</xsl:when>
+	  <xsl:when test="$country-code = 'GB'">#parla.lower #parla.upper</xsl:when>
+	  <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'IS'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'LV'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'PL'">#parla.lower #parla.upper</xsl:when>
+	  <xsl:when test="$country-code = 'SE'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'SI'">#parla.lower</xsl:when>
+	  <xsl:when test="$country-code = 'TR'">#parla.uni</xsl:when>
+	</xsl:choose>
+      </xsl:variable>
+	<xsl:choose>
+	  <xsl:when test="$target">
+	    <textClass>
+              <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="{$target}"/>
+	    </textClass>
+	    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+				 ': adding textClass for ', $target)"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+				 ': no textClass, and no value found to fix!')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+    </xsl:if>
+    <!-- Now process particDesc -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+    
   <xsl:template match="tei:tagsDecl/tei:namespace">
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@*"/>
