@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="ParlaMint-LT.ana"
+           xml:lang="lt">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT [ParlaMint.ana]</title>
+            <title type="sub" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos (1993-2022)</title>
+            <title type="sub" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania (1993-2022)</title>
+            <meeting ana="#parla.term #S.1" corresp="#S" n="1" xml:lang="lt">Seimo Kadencija 1</meeting>
+            <meeting ana="#parla.term #S.2" corresp="#S" n="2" xml:lang="lt">Seimo Kadencija 2</meeting>
+            <meeting ana="#parla.term #S.3" corresp="#S" n="3" xml:lang="lt">Seimo Kadencija 3</meeting>
+            <meeting ana="#parla.term #S.4" corresp="#S" n="4" xml:lang="lt">Seimo Kadencija 4</meeting>
+            <meeting ana="#parla.term #S.5" corresp="#S" n="5" xml:lang="lt">Seimo Kadencija 5</meeting>
+            <meeting ana="#parla.term #S.6" corresp="#S" n="6" xml:lang="lt">Seimo Kadencija 6</meeting>
+            <meeting ana="#parla.term #S.7" corresp="#S" n="7" xml:lang="lt">Seimo Kadencija 7</meeting>
+            <meeting ana="#parla.term #S.8" corresp="#S" n="8" xml:lang="lt">Seimo Kadencija 8</meeting>
+            <meeting ana="#parla.term #S.9" corresp="#S" n="9" xml:lang="lt">Seimo Kadencija 9</meeting>
+            <respStmt>
+               <persName>Andrius Utka</persName>
+               <persName>Mindaugas Petkevičius</persName>
+               <persName>Monika Briedienė</persName>
+               <persName>Tomas Krilavičius</persName>
+               <persName>Vaidas Morkevičius</persName>
+               <resp xml:lang="lt">Duomenų atsisiuntimas ir konvertavimas į Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="lt">„CLARIN ERIC“ tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN ERIC research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="2211" unit="speeches" xml:lang="lt">2211 pasisakymų</measure>
+            <measure quantity="2211" unit="speeches" xml:lang="en">2211 speeches</measure>
+            <measure quantity="135564" unit="words" xml:lang="lt">135564 žodžių</measure>
+            <measure quantity="135564" unit="words" xml:lang="en">135564 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="lt">CLARIN tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1405</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="lt">Šis kūrinys yra licencijuojamas pagal
+            <ref target="http://creativecommons.org/licenses/by/4.0/">„Creative Commons“ Priskyrimo Tarptautinę Viešąją Licenciją</ref>
+            .</p>
+               <p xml:lang="en">This work is licensed under the
+            <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+            .</p>
+            </availability>
+            <date when="2021-03-31">2021-03-31</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos</title>
+               <title type="main" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania</title>
+               <publisher>Lietuvos Seimo kanceliarija</publisher>
+               <idno type="URI">https://www.lrs.lt/sip/portal.show?p_r=35727</idno>
+               <date from="1993-01-04" to="2022-12-23">04.01.1993 - 23.12.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="lt">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to
+                        paragraphs in the source transcription).
+                    </p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="8"/>
+               <tagUsage gi="body" occurs="8"/>
+               <tagUsage gi="div" occurs="8"/>
+               <tagUsage gi="head" occurs="0"/>
+               <tagUsage gi="note" occurs="2408"/>
+               <tagUsage gi="u" occurs="2211"/>
+               <tagUsage gi="seg" occurs="3106"/>
+               <tagUsage gi="vocal" occurs="161"/>
+               <tagUsage gi="desc" occurs="161"/>
+               <tagUsage gi="kinesic" occurs="0"/>
+               <tagUsage gi="s" occurs="12276"/>
+               <tagUsage gi="name" occurs="5797"/>
+               <tagUsage gi="w" occurs="135564"/>
+               <tagUsage gi="pc" occurs="32917"/>
+               <tagUsage gi="linkGrp" occurs="12276"/>
+               <tagUsage gi="link" occurs="168481"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
+         </classDecl>
+         <listPrefixDef>
+            <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document
+                        they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI
+                        header.
+                    </p>
+            </prefixDef>
+         </listPrefixDef>
+         <appInfo>
+            <application ident="spacy" version="1.0">
+               <label>Spacy</label>
+               <desc xml:lang="en">Parsing, tokenization and sentence segmentation also MSD tagging and
+                        lemmatisation with Spacy, available from
+            <ref target="https://spacy.io/">https://spacy.io/</ref>
+            .</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Gedimino pr. 53</name>
+               <name type="city">Vilnius</name>
+               <name key="LT" type="country">Lithuania</name>
+               <date from="1993-01-04" to="2022-12-23">04.01.1993 - 23.12.2022</date>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-LT-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-LT-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="lt" xml:lang="lt">Lietuvių</language>
+            <language ident="en" xml:lang="en">Anglų</language>
+            <language ident="lt" xml:lang="en">Lithuanian</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2021-05-03">
+            <name>Mindaugas Petkevičius</name>: Fixes for Version 2.</change>
+         <change when="2021-03-11">
+            <name>Mindaugas Petkevičius</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_1993-01-04-seimas-1-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_1996-11-05-seimas-2-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_2001-04-10-seimas-3-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_2004-01-20-seimas-4-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_2007-05-17-seimas-5-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_2010-06-08-seimas-6-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_2016-02-25-seimas-7-1.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-LT_2020-05-21-seimas-8-1.ana.xml"/>
+</teiCorpus>
