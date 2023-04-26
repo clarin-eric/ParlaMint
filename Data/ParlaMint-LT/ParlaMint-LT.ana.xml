@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT [ParlaMint.ana]</title>
-            <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT [ParlaMint.ana]</title>
+            <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos (1993-2022)</title>
             <title type="sub" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania (1993-2022)</title>
             <meeting ana="#parla.term #S.1" corresp="#S" n="1" xml:lang="lt">Seimo Kadencija 1</meeting>
@@ -35,7 +35,7 @@
          <editionStmt>
             <edition>2.0</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure quantity="2211" unit="speeches" xml:lang="lt">2211 pasisakymų</measure>
             <measure quantity="2211" unit="speeches" xml:lang="en">2211 speeches</measure>
             <measure quantity="135564" unit="words" xml:lang="lt">135564 žodžių</measure>
@@ -57,7 +57,7 @@
             <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
             .</p>
             </availability>
-            <date when="2021-03-31">2021-03-31</date>
+            <date when="2023-04-26">2023-04-26</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -97,7 +97,7 @@
                     </p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="text" occurs="8"/>
                <tagUsage gi="body" occurs="8"/>
@@ -169,6 +169,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
+         <change when="2023-04-26">
+            <name>GitHub Action</name>: Made sample.</change>
          <change when="2021-05-03">
             <name>Mindaugas Petkevičius</name>: Fixes for Version 2.</change>
          <change when="2021-03-11">
@@ -176,19 +178,11 @@
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_1993-01-04-seimas-1-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-LT_1996-11-05-seimas-2-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_2001-04-10-seimas-3-1.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-LT_2004-01-20-seimas-4-1.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_2007-05-17-seimas-5-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-LT_2010-06-08-seimas-6-1.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-LT_2016-02-25-seimas-7-1.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-LT_2020-05-21-seimas-8-1.ana.xml"/>
 </teiCorpus>

@@ -1,1034 +1,172 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI ana="#parla.meeting #reference" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1" xml:lang="lt" xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt> <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT, 7 eilinė sesija ,2004-01-20 [ParlaMint]</title>
-        <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT, Non Regular ,2004-01-20 [ParlaMint]</title>
-        <title type="sub" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos, 4 kadencija, 7 eilinė sesija (2004-01-20)</title>
-        <title type="sub" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 4, Non Regular (2004-01-20)</title>
-        <meeting ana="#parla.uni">Seimas</meeting>
-        <meeting ana="#parla.uni #parla.term #S.4" corresp="#S" n="4">4 kadencija</meeting>
-        <meeting ana="#parla.uni #parla.session #S.4" corresp="#S" n="7">7 eilinė sesija</meeting>
-        <meeting ana="#parla.uni #parla.meeting" n="57">57 </meeting>
-        <respStmt>
-          <persName>Andrius Utka</persName>
-          <persName>Mindaugas Petkevičius</persName>
-          <persName>Monika Briedienė</persName>
-          <persName>Tomas Krilavičius</persName>
-          <persName>Vaidas Morkevičius</persName>
-          <resp xml:lang="lt">Duomenų atsisiuntimas ir konvertavimas į Parla-CLARIN TEI XML</resp>
-          <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
-        </respStmt>
-        <funder>
-          <orgName xml:lang="lt">„CLARIN ERIC“ tyrimų infrastruktūra</orgName>
-          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
-        </funder>
-        <funder>
-          <orgName xml:lang="lt">CLARIN-LT</orgName>
-          <orgName xml:lang="en">CLARIN-LT</orgName>
-        </funder>
-      </titleStmt>
-      <editionStmt>
-        <edition>2.0</edition>
-      </editionStmt>
-      <extent>
-        <measure quantity="203" unit="speeches" xml:lang="lt">203 pasisakymų</measure>
-        <measure quantity="203" unit="speeches" xml:lang="en">203 speeches</measure>
-        <measure quantity="12229" unit="words" xml:lang="lt">12229 žodžių</measure>
-        <measure quantity="12229" unit="words" xml:lang="en">12229 words</measure>
-      </extent>
-      <publicationStmt>
-        <publisher>
-          <orgName xml:lang="lt">CLARIN tyrimų infrastruktūra</orgName>
-          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
-          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
-        </publisher>
-        <idno type="URI">https://github.com/clarin-eric/ParlaMint</idno>
-        <availability status="free">
-          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-          <p xml:lang="lt">Šis kūrinys yra licencijuojamas pagal
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.meeting #reference"
+     xml:id="ParlaMint-LT_2004-01-20-seimas-4-1"
+     xml:lang="lt">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="lt">Lietuvos parlamento debatų tekstynas ParlaMint-LT, 7 eilinė sesija ,2004-01-20 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Lithuanian parliamentary corpus ParlaMint-LT, Non Regular ,2004-01-20 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos, 4 kadencija, 7 eilinė sesija (2004-01-20)</title>
+            <title type="sub" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania, Term 4, Non Regular (2004-01-20)</title>
+            <meeting ana="#parla.uni">Seimas</meeting>
+            <meeting ana="#parla.uni #parla.term #S.4" corresp="#S" n="4">4 kadencija</meeting>
+            <meeting ana="#parla.uni #parla.session #S.4" corresp="#S" n="7">7 eilinė sesija</meeting>
+            <meeting ana="#parla.uni #parla.meeting" n="57">57 </meeting>
+            <respStmt>
+               <persName>Andrius Utka</persName>
+               <persName>Mindaugas Petkevičius</persName>
+               <persName>Monika Briedienė</persName>
+               <persName>Tomas Krilavičius</persName>
+               <persName>Vaidas Morkevičius</persName>
+               <resp xml:lang="lt">Duomenų atsisiuntimas ir konvertavimas į Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Data retrieval and conversion to Parla-CLARIN TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="lt">„CLARIN ERIC“ tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="lt">CLARIN-LT</orgName>
+               <orgName xml:lang="en">CLARIN-LT</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="203" unit="speeches" xml:lang="lt">203 pasisakymų</measure>
+            <measure quantity="203" unit="speeches" xml:lang="en">203 speeches</measure>
+            <measure quantity="12229" unit="words" xml:lang="lt">12229 žodžių</measure>
+            <measure quantity="12229" unit="words" xml:lang="en">12229 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="lt">CLARIN tyrimų infrastruktūra</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI">https://github.com/clarin-eric/ParlaMint</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="lt">Šis kūrinys yra licencijuojamas pagal
             <ref target="http://creativecommons.org/licenses/by/4.0/">C„Creative Commons“ priskyrimo tarptautinę viešąją licenciją</ref>
             .</p>
-          <p xml:lang="en">This work is licensed under the
+               <p xml:lang="en">This work is licensed under the
             <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
             .</p>
-        </availability>
-        <date when="2023-04-02">2023-04-02</date>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>
-          <title type="main" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos</title>
-          <title type="main" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania</title>
-          <edition xml:lang="lt">Galutinis variantas</edition>
-          <edition xml:lang="en">Final version</edition>
-          <idno type="URI">https://e-seimas.lrs.lt/portal/legalAct/lt/TAK/TAIS.225600</idno>
-          <date when="2004-01-20">2004-01-20</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-    <encodingDesc>
-      <projectDesc>
-        <p xml:lang="lt">
-          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-        </p>
-        <p xml:lang="en">
-          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-        </p>
-      </projectDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="note" occurs="227"/>
-          <tagUsage gi="pb" occurs="0"/>
-          <tagUsage gi="u" occurs="203"/>
-          <tagUsage gi="seg" occurs="264"/>
-          <tagUsage gi="kinesic" occurs="0"/>
-          <tagUsage gi="vocal" occurs="6"/>
-          <tagUsage gi="incident" occurs="0"/>
-          <tagUsage gi="gap" occurs="0"/>
-          <tagUsage gi="desc" occurs="6"/>
-          <tagUsage gi="time" occurs="0"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-    <profileDesc>
-      <settingDesc>
-        <setting>
-          <name type="org">Lietuvos respublikos seimas</name>
-          <name type="address">Gedimino pr. 53</name>
-          <name type="city">Vilnius</name>
-          <name key="LT" type="country">Lithuania</name>
-          <date ana="#parla.meeting" when="2004-01-20">2004-01-20</date>
-        </setting>
-      </settingDesc>
-    </profileDesc>
-    <revisionDesc xml:lang="en">
-      <change when="2021-05-03">
-        <name>Mindaugas Petkevičius</name>: Fixes for Version 2.</change>
-      <change when="2021-03-31">
-        <name>Mindaugas Petkevičius</name>: Fixes for Version 1.</change>
-      <change when="2021-03-11">
-        <name>Mindaugas Petkevičius</name>: Corpus generated for ParlaMint.</change>
-    </revisionDesc>
-  </teiHeader>
-  <text ana="#reference">
-    <body>
-      <div type="debateSection">
-        <note>Penkiasdešimt septintasis (467) posėdis</note>
-        <note>2004 m. sausio 20 d.</note>
-        <note>Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas V.P.ANDRIUKAITIS</note>
-        <note type="legislative">Akcinės bendrovės &quot;Alytaus tekstilė&quot; veiklos gaivinimo įstatymo projektas Nr.IXP-3195 (pateikimas) (Vyriausybė siūlo svarstyti skubos tvarka)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u907">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u907.p1174">Laba diena, pradėsime šios dienos popietinį plenarinį posėdį. Kolegos, kol registruojamės, iš rytinio posėdžio liko neapsvarstyti 13 ir 14 klausimai. Tačiau norint juos svarstyti reikėtų, kad Seimo salėje būtų pakankamai Seimo narių. Jeigu nebus mažiausiai 37, mes negalėsime svarstyti. Tada mes tuos klausimus nukelsime, kolegos, į kitą dieną. Taigi užsiregistravo 19 Seimo narių. Dabar kviesčiau į tribūną ūkio ministrą arba jo įgaliotą viceministrą Nerijų Eidukevičių. Prašom. Pradėsime popietinės darbotvarkės pirmąjį klausimą - Akcinės bendrovės &quot;Alytaus tekstilė&quot; veiklos gaivinimo įstatymo projekto pateikimą. Prašome, viceministre, jums žodis.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1175">Ačiū, gerbiamasis pirmininke. Gerbiamieji Seimo nariai, Vyriausybė teikia Lietuvos Respublikos akcinės bendrovės &quot;Alytaus tekstilė&quot; veiklos gaivinimo įstatymo projektą. Šio įstatymo tikslas yra nustatyti bendrovei gyventojų pajamų mokesčio, valstybinio socialinio draudimo įmokų mokėjimo terminus, kurie skiriasi nuo dabar nustatytų pagal galiojančius įstatymus, taip pat suteikti galimybę ir įgaliojimus Vyriausybei daryti specifinius veiksmus, susijusius su valstybės suteikta paskola &quot;Alytaus tekstilei&quot; arba jos negrąžinta dalimi. Pagal teikiamą įstatymo projektą akcinė bendrovė &quot;Alytaus tekstilė&quot; gyventojų pajamų mokesčio, išskaičiuoto iš su darbo santykiais susijusių išmokų, kurios būtų sumokėtos per 6 mėnesius nuo šio įstatymo įsigaliojimo, galėtų nemokėti, o tą grąžinimą galėtų pradėti 2005 m. gegužės 1 d. ir grąžinti vienodomis dalimis iki 2007 m. gegužės 1 dienos. Tas pat siūlomame įstatymo projekte susiję ir su valstybinio socialinio draudimo įmokomis, kurios būtų apskaičiuotos per 6 mėnesius nuo šio įstatymo įsigaliojimo datos, ir ta suma, sukaupta suma, vėlgi kaip įsiskolinimas būtų grąžinamas Valstybinio socialinio draudimo fondui nuo 2005 m. gegužės 1 d. iki 2007 m. gegužės 1 d., mokant tas įmokas kas mėnesį lygiomis dalimis.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1176">Apie paskolą, kuri administruojama Turto banko. Šiuo metu jos dydis siekia 12 mln. litų. Įstatyme siūlomos alternatyvos, kad Vyriausybė galėtų konvertuoti paskolą į naujai išleidžiamas akcijas arba kapitalizuoti tą paskolą. Jeigu nepavyktų to padaryti, numatoma kita alternatyva - kad būtų galima priimti sprendimą nurašyti šią paskolą ir su ja susijusias nesumokėtas palūkanas. Siūloma, kad šis įstatymas įsigaliotų ir pradėtų veikti tada, kai valstybė &quot;Alytaus tekstilės&quot; akcininkų susirinkime perims daugiau negu pusę balsų.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1177">Trumpai apie įmonę. Šiuo metu &quot;Alytaus tekstilės&quot; veikla yra nuostolinga dėl susiklosčiusios finansinės padėties. Tai priskirčiau prastam valdymui. Įmonė nesugeba laiku tenkinti finansinių įsipareigojimų ir savo kreditoriams, ir valstybinio socialinio draudimo įstaigai, ir biudžetui. 2003 metais grynasis nuostolis sudarė 4,75 mln. Lt, o sukaupto nuostolio balansas yra apie 78 mln. litų. Įmonė turėjo daugiau negu 60 mln. Lt įsiskolinimų, iš kurių didžioji dalis, be jokios abejonės, yra finansinėms institucijoms, bankams. Kitos skolos yra energetikams, elektrikams - 3 mln., už šilumos tiekimą - 1,5 mln., už vandenį - 1 milijonas. Taip pat, kaip minėjau, biudžetui bendrovė skolinga nesumokėtų mokesčių 1,6 mln. Lt, &quot;Sodrai&quot; yra nesumokėta apie 900 tūkst. litų. Jeigu kalbėtume apie darbuotojus, metų pabaigoje &quot;Alytaus tekstilėje&quot; dirbo 2457 darbuotojai. Metų pabaigoje jiems pavyko sumokėti atlyginimus tik už rugsėjo mėnesį, taigi įsiskolinimas darbuotojams - 4,5 milijonų litų.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1178">Priėmus šį įstatymą, mūsų nuomone, būtų sukurtos prielaidos, aš noriu pabrėžti, prielaidos, &quot;Alytaus tekstilei&quot; susitvarkyti finansinę situaciją, susitvarkyti pinigų srautus, investuoti į gamybą, sutvarkyti gamybos efektyvumą. Tuo būdu Alytuje būtų išvengta neigiamų socialinių, ekonominių ir užimtumo pasekmių. Ačiū.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u909">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u909.p1179">Dėkoju, gerbiamasis viceministre. Jūsų nori paklausti 6 Seimo nariai. Pirmasis klausia V.Simulik. Prašom.</seg>
-        </u>
-        <note type="speaker">V.SIMULIK.</note>
-        <u ana="#regular" who="#SimulikValerijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u910">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u910.p1180">Ačiū, pirmininke. Gerbiamasis viceministre, norėčiau paklausti. Iš karto galiu pasakyti, kad pritariu šiam įstatymo projektui 100%, už jį balsuosiu, bet norėčiau paklausti. Jeigu aš, atstovaudamas Šiaulių miestui, pateikčiau kokios nors Šiaulių įmonės gelbėjimo planą, ar Ūkio ministerija jam pritartų? Ačiū.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u911">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u911.p1181">Man labai sunku atsakyti. Ačiū už tokį bendrą klausimą. Iš tikrųjų mes vertiname ne pačius Šiaulius, ne Alytų, ne Mažeikius, ne Akmenę, ne dar ką nors, bet iš tikrųjų pasekmes.</seg>
-          <vocal type="noise">
-            <desc xml:lang="lt">Balsai salėje</desc>
-          </vocal>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u912">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u912.p1182">Gerbiamasis Seimo nary, yra klausimas, sulaukite atsakymo.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u913">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u913.p1183">Atsižvelgiant į galimas pasekmes, atsižvelgiant į regiono situaciją, būtų kalbama apie vienokį arba kitokį sprendimą ir vienokio arba kitokio dydžio valstybės pagalbą.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u914">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u914.p1184">Gerbiamieji kolegos, noriu priminti, kad Seime nagrinėti ir &quot;Pagirių šiltnamių&quot;, ir Mažeikių &quot;Oruvos&quot;, ir Kauno &quot;Inkaro&quot;, ir daugelio kitų įmonių dalykai. Taigi ne pirmas kartas, kai nagrinėjama ši tema. Klausia E.Klumbys.</seg>
-        </u>
-        <note type="speaker">E.KLUMBYS.</note>
-        <u ana="#regular" who="#KlumbysEgidijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u915">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u915.p1185">Gerbiamasis pranešėjau, Lietuvoje buvo ir yra daug bankrutuojančių įmonių. Kodėl būtent tik dėl šios įmonės siūloma Seimui priimti įstatymo projektą? Ar jums neatrodo, kad tai yra politinis, o ne ekonominis problemų sprendimo būdas? Ačiū</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u916">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u916.p1186">Prašom atsakyti.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u917">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u917.p1187">Iš tiesų turbūt taip nėra. Jeigu žinote, Lietuvoje yra daug probleminių regionų, į kuriuos kreipiamas padidintas dėmesys. Valstybė, šiuo atveju Vyriausybė, pagal savo kompetenciją dažnai sprendžia tiek įmonių, tiek paties regiono problemas, įvairiais metodais, įvairiais instrumentais suteikdama valstybės pagalbą, investuodama tiek į regionų plėtrą, tiek kurdama papildomą infrastruktūrą, tiek suteikdama lengvatas, be to, ir pačios savivaldybės taip daro. Šiuo atveju mes kalbame apie Alytaus miestui svarbią įmonę, didelės įtakos Lietuvos miestui turinčią įmonę, kurios bankrotas Alytuje sukeltų iš esmės socialinį sprogimą, nes beveik padvigubėtų nedarbas. Jis išaugtų iki tokio lygio, kuriam esant mes priskiriame probleminiam regionui. Iš esmės bet kokiu atveju be valstybės pagalbos mes neišsiverstume. Šiuo atveju manoma, kad, suteikus galimybę &quot;Alytaus tekstilei&quot; sutvarkyti savo finansines, ekonomines problemas, ši problema būtų išspręsta gerokai mažesnėmis lėšomis.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u918">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u918.p1188">Dėkoju. Klausia A.Matulevičius.</seg>
-        </u>
-        <note type="speaker">A.MATULEVIČIUS.</note>
-        <u ana="#regular" who="#MatulevičiusAlgimantas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u919">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u919.p1189">Ačiū. Gerbiamasis pranešėjau, aš suprantu, kad kai kuriems mano kolegoms gal ir sudėtinga suprasti tai, kas šiandien kalbama ir teikiama. Aš manau, kad jeigu dėl bet kurio regiono - Šiaulių ar kito, būtų pateiktas protingas planas gelbėti įmonę, kad būtų išvengta nedarbo, tai, matyt, būtų jam pritarta. Ūkio ministerija pirmoji turi tai daryti. Bet paklausti aš norėčiau dėl kitos aplinkybės, kuri gal ne tiek susijusi su jūsų ministerijos veikla. Ar jums nesusidaro įspūdis, kad Valstybės turto fondas, labai beatodairiškai &quot;parceliuodamas&quot; turtą anksčiau ir dabar, dabar, žinoma, mažiau jau liko ką &quot;parceliuoti&quot;, ir toliau vykdo tą nusikalstama politiką valstybės atžvilgiu, pavyzdžiui, trukdo kad ir &quot;Alytaus tekstilės&quot; atžvilgiu normaliai sutvarkyti problemą? Jiems absoliučiai, mano supratimu, nesvarbu, kiek bedarbių yra Lietuvoje, atskirame jos regione ar mieste. Ar jūs nemanote, kad galbūt reiktų tam Turto fondui nustatyti kažkokius saugiklius, kad vieną kartą jie turėtų mažiau teisių. Iš tikrųjų paskui padarinius reikia spręsti ir Vyriausybei, ir ministerijai, ir mūsų Seimui. Gal būt tas neigiamas santykis...</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u920">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u920.p1190">Kolega, viena minutė klausti.</seg>
-        </u>
-        <note type="speaker">A.MATULEVIČIUS.</note>
-        <u ana="#regular" who="#MatulevičiusAlgimantas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u921">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u921.p1191">išlikęs ir dabar, ir gal reikia čia truputį sureguliuoti, kaip jūs manote?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u922">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u922.p1192">Viena minutė klausti, kolegos. Prašom atsakyti.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u923">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u923.p1193">Ačiū už klausimą. Aš labai trumpai. Aš manau, kad Turto fondas šiuo atveju, kaip ir visais atvejais, veikia savo kompetencijos ribose, kurios nurodytos Valstybės turto fondo įstatyme. Jis vykdo tą funkciją, kuri jiems nurodyta, ir, be jokios abejonės, numato tuos saugiklius dėl privatizavimo sutarčių, kurie yra numatyti įstatymų. Matyt, žinote, yra privaloma tokia sąlyga, kad metus nebūtų atleidžiama daugiau negu 30% darbuotojų ir panašiai. Šiuos rodiklius, kiek jie nekenkia pardavimo sandoriams ir kiek juos įmanoma subalansuoti su egzistuojančia įmonėje situacija, be jokios abejonės, siekiama gerinti. Kaip tai pasiseka ir kaip po to įgyvendinama, matyt, reikėtų žiūrėti šiek tiek į sutarčių ginčijimo praktiką ir kas iš to išeina, t.y. ar Turto fondas laimi, ar ne, bet kol kas, jeigu žinote, &quot;Alytaus tekstilės&quot; byloje yra laimėti du teismai ir mes manome, kad ir toliau sutarties teisėtumas bus įrodytas Turto fondo naudai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u924">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u924.p1194">Klausia S. Lapėnas. Viena minutė klausti.</seg>
-        </u>
-        <note type="speaker">S.LAPĖNAS.</note>
-        <u ana="#regular" who="#LapėnasSaulius" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u925">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u925.p1195">Gerbiamasis pranešėjau, pasižiūrėjus į teikiamą projektą, vis dėlto aš pasigendu konkrečių priemonių, kaip bus užtikrintas šios įmonės gyvybingumas. Tai, kad nurašomos skolos, padengiami įmonės įsipareigojimai, yra gerai, bet vis dėlto šiame įstatymo projekte neatskleidžiama, kokios realios šios įmonės perspektyvos. Jau dabar tekstilininkai reikalauja iš Vyriausybės leisti pripažinti tekstilės pramonę prioritetine šaka ir taip padėti apsiginti nuo to pigios produkcijos, kuri ateina iš trečiųjų šalių. Kaip jūs matote realiai, ar šios mokestinės lengvatos sudarys prielaidas tam, kad pavyktų atgaivinti šią įmonę? Aš sutinku, gryno oro gurkšnis bus duotas, bet vis dėlto šiame įstatyme aš pasigendu konkretesnės perspektyvos, kuri leistų tikėtis, kad šios lengvatos bus prasmingos, nes gyvenimas įrodo priešingai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u926">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u926.p1196">Kolegos, dar kartą prašyčiau klausti iki vienos minutės, nes po to užtempsime. Dar iš priešpietinio posėdžio turime klausimų. Prašom atsakyti.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u927">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u927.p1197">Be jokios abejonės, mes turbūt teikiamame įstatymo projekte neatspindime visų aspektų, nes tai turbūt ir nelabai išeina. Čia teikiamos tos nuostatos, kurios būtinos bendram planui, susijusiam su &quot;Alytaus tekstile&quot;, įgyvendinti. Kalbant apskritai apie tekstilės pramonę iš tikrųjų tekstilės pramonė visoje Europoje pergyvena labai sunkų laikotarpį. Kalbėdami apie tekstilės pramonę, turime turbūt prisiminti, kad tekstilės pramonė yra viena iš daugiausia eksportuojančių pramonės šakų Lietuvoje. Tai yra labai svarbu Lietuvos ekonomikai. Ir, matyt, žiūrint į bendrą kontekstą šita šaka bus viena iš prioritetinių ir palaikomų Vyriausybės pramonės šakų. Vis dėlto konkrečiai kalbant apie &quot;Alytaus tekstilę&quot;, be jokios abejonės, jums niekas negali duoti garantijos, kad šitos priemonės, ne tik numatytos įstatyme, bet ir kitos, kurias rengiamasi įgyvendinti pagal veiksmų planą, patvirtintą tiek Vyriausybės, tiek Ūkio ministerijos, bus iki galo veiksmingos. Šiuo atveju mes kuriame prielaidas ir sudarome galimybę bendrovės vadovybei išeiti iš tos situacijos ir sutvarkyti savo finansinę ir ekonominę būklę. Tai nėra garantija, tai nėra valstybės pagalba, kai pastatoma nauja įmonė ir suteikiama galimybė labai lengvai konkuruoti. Tai yra tos priemonės, kurios suteikia galimybę vadybai pasiekti to, ko yra siekiama.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u928">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u928.p1198">Klausia K.Rimšelis.</seg>
-        </u>
-        <note type="speaker">K.RIMŠELIS.</note>
-        <u ana="#regular" who="#RimšelisKlemensas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u929">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u929.p1199">Ačiū, pirmininke. Gerbiamasis ministre, ar čia yra įmonės gaivinimo planas, ar išimčių planas tai įmonei? Norėčiau paklausti, ar Ūkio ministerija ir Vyriausybė, teidamos šį įstatymo projektą Seimui, yra visiems ūkio subjektams lygiai teisingos ir baigdamas norėčiau paklausti, ar gerbiamojo Seimo Pirmininko pavaduotojo V.Andriukaičio pateikti pavyzdžiai apie jau tradiciškai nusistovėjusią tvarką ir įmonių gaivinimą per visą Lietuvos nepriklausomybės istoriją buvo sėkmingi?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u930">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u930.p1200">Prašom, viceministre, atsakyti į klausimą.</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u931">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u931.p1201">Atsakydamas į pirmąją klausimo dalį aš jau minėjau, kad šiuo atveju yra žiūrima į ūkio subjekto svarbą regionui ir tas problemas, kurios būtų sukurtos regione socialine prasme, ekonomine prasme, būtinos valstybės pagalbos dydžio prasme, jeigu atsitiktų tai, kas galėtų atsitikti, t.y. yra jeigu bendrovė bankrutuotų. Mūsų manymu, jeigu papildomai beveik neinvestuojant į bendrovę galima sukurti prielaidas, kad tas socialinis sprogimas regione neįvyktų, kad įmonė toliau plėstųsi, kad ji susitvarkytų savo ekonominę būklę ir toliau įneštų savo indėlį į Lietuvos ekonomiką tiek produkto sukūrimo, tiek eksporto balanso prasme, tai, mūsų nuomone, ir yra tos priemonės, kurias valstybė sau gali šiuo atveju leisti. Jos yra būtinos, kad būtų suteikta galimybė minimizuoti tas išlaidas, kurios galėtų būti sukurtos, jeigu bendrovė bankrutuotų. Be jokios abejonės, yra daugybė pavyzdžių, kur valstybės pagalba buvo nepakankama arba įmonės nesugebėjo pasinaudoti ta pagalba, nesugebėjo pasinaudoti tomis galimybėmis, kurias suteikė valstybė, bet aš dabar nenorėčiau to dalyko analizuoti, nes kiekvienas atvejis yra skirtingas, ir į jį reikėtų žiūrėti atskirai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u932">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u932.p1202">Kadangi čia buvo minima mano, kaip vicepirmininko, pavardė, siūlau nuvažiuoti į Pagirių šiltnamius. Klausia V.Fiodorov.</seg>
-        </u>
-        <note type="speaker">V.FIODOROV.</note>
-        <u ana="#regular" who="#FiodorovVasilij" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u933">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u933.p1203">Ačiū, pirmininke. Aiškinamajame rašte rašoma, kad nepadengtas nuostolis viršija 83 mln. litų. Bendrovės apmokestintos sumos ir įsipareigojimai siekia 65 mln., kurių didžiausią dalį sudarė negrąžintos paskolos bankams, iš jų ir akcinei bendrovei &quot;Turto bankas&quot;. Aš norėčiau kolegai V.Simulikui pasakyti, kad buvo tokia &quot;Žalgirio&quot; staklių gamykla. Ten įsiskolinimas buvo tiktai 22 mln. Pusė iš jų buvo skirta darbuotojų atlyginimams. Kiek rašė darbininkai, jų atstovai, kiek aš pats su kolega E.Šablinsku rašiau ir Seimo Pirmininkui, ir Ministrui Pirmininkui, ir finansų ministrei, atsakymas buvo neigiamas: įstatymai nenumato ir nieko nebus, nieko nepadėsime. Taigi, aš manau, Šiauliams irgi nepadės.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u933.p1204">Aš norėčiau tiktai jūsų paklausti, ar nėra čia prielaida, kad atsiras ir daugiau tokių įmonių, prašys: padenkite ir mums, padėkite ir mums, ir po to ar nesikreips jie į teismą? Mes padėsime &quot;Alytaus tekstilei&quot;, o kodėl mes negalime padėti, sakykime, &quot;Klaipėdos tekstilei&quot; ar dar kokiai įmonei? Ar nekils po šito nepasitenkinimo banga?</seg>
-        </u>
-        <note type="speaker">N.EIDUKEVIČIUS.</note>
-        <u ana="#guest" who="#EidukevičiusN" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u934">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u934.p1205">Ačiū. Aš atsakyčiau taip, kad iš tiesų mes nuolat teikiame valstybės pagalbą tiek ūkio subjektams, tiek atskirai regionams, kur kuriama aplinka, kad ūkio subjektai galėtų geriau dirbti. Tą patį daro savivaldybės, kurios kai kuriuos ūkio subjektus atleidžia nuo turto mokesčio, sumažina pajamų mokestį, žemės mokestį ir panašiai. Šios schemos egzistuoja, jos egzistuos dar daugiau tada, kai Lietuva pradės naudoti struktūrinius fondus. Tai irgi yra valstybės pagalbos schemos, išskyrus kai kuriuos atvejus, kai valstybės pagalbos schemos nukrypsta nuo bendrųjų normų, tada reikia kitokių instrumentų panaudojimo, kitokių priemonių. Šiuo atveju mes ir kalbame apie kai kurių specialių priemonių panaudojimą tam, kad valstybės pagalba būtų efektyvi ir įgyvendinama.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u935">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u935.p1206">Dėkoju, gerbiamasis viceministre, jūs atsakėte į visus klausimus. Gerbiamieji kolegos, dabar ar galėtume pritarti bendru sutarimu? Negalime, taip? Motyvai už - A.Skardžius.</seg>
-        </u>
-        <note type="speaker">A.SKARDŽIUS.</note>
-        <u ana="#regular" who="#SkardžiusArtūras" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u936">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u936.p1207">Gerbiamieji kolegos, aš norėčiau pailiustruoti keliais pavyzdžiais, kad tai yra tikrai ne politinis, o ekonominis sprendimas. 2002 metais įvairūs biudžetai gavo 36 mln. įplaukų iš šios nuostolingai dirbančios įmonės. 2003 metais - 26 milijonus. Dabar šios išimtys, kurios reikalingos, kad Vyriausybei būtų suteikta galimybė efektyviai parengti ir įgyvendinti įmonės gelbėjimo planą, prieš tai susigrąžinus valstybės nuosavybę, šiai įmonei, ką mes suteikiame įstatymu... ir kur dabar vyksta teisminis procesas, kuris nebaigtas, gal net ir šio milijono nereikės, kurį mes skiriame akcijoms įsigyti iš &quot;Asean Interests&quot; investuotojo. Tai yra išimtys, kurios sudaro galimybę pusei metų atidėti gyventojų pajamų mokesčio, socialinio draudimo mokesčio mokėjimą. Tas sudarytų iki 9 mln. litų, bet, primenu, kiekvienais metais biudžetas už tai gauna daugiau kaip 20-30 milijonų. Ši įmonė labai svarbi Alytaus miestui ir regionui, nes ji yra didžiausias šilumos vartotojas, elektros energijos vartotojas ir vandens vartotojas. Be abejo, pakiltų tiek šilumos, tiek vandens kainos Alytaus mieste.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u936.p1208">Beje, šioje įmonėje dirba 2475 darbuotojai. Nedarbas Alytaus mieste nėra didelis, užregistruota per 3000 bedarbių. Kaip matote, nedarbas padidėtų beveik du kartus. Vadinasi, reikėtų skirti lėšų socialinei rūpybai negaunant į biudžetus mano minėtų 20-30 milijonų.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u936.p1209">Aš manau, jūs puikiai suprantate, kad tai ekonominis sprendimas, kad tai šeimininkiškas požiūris žvelgiant į šios įmonės problemas. Nešeimyniškai buvo pasielgta privatizuojant šią įmonę, buvo sudarytos tokios sąlygos, kad investuotojas už nieką nebuvo atsakingas, jis neišlaikė 3500 darbuotojų vietų, jis neinvestavo 230 mln., nors tas buvo sutartyje. Manau, imdamiesi šių priemonių mes pasielgsime šeimininkiškai ir išgelbėsimą šią įmonę ir Alytaus miestą, o Vyriausybei sudarysime galimybes parengti tikrai veiksmingą gelbėjimo planą. Tad siūlau paremti šį gelbėjimo projektą.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u937">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u937.p1210">Kolegos, motyvams už ir prieš po dvi minutes. Motyvai prieš. K.Rimšelis.</seg>
-        </u>
-        <note type="speaker">K.RIMŠELIS.</note>
-        <u ana="#regular" who="#RimšelisKlemensas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u938">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u938.p1211">Gerbiamieji Seimo nariai, nėra tokio mygtuko, kad galima būtų abejones pasakyti, yra arba už, arba prieš. Aš suprantu, kad Alytuje gali susidaryti įtempta socialinė situacija, man viskas aišku. Bet yra tik vienas paprastas dalykas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u938.p1212">Mūsų Seimas yra priėmęs tam tikrą bankroto procedūrų supaprastinimą, kad įmonė nesužlugtų, kad ji bankroto atveju galėtų pritraukti investicijas ir pradėtų normaliai dirbti. Mes parengiame planą, kuris irgi kelia daug abejonių, mes nesame tikri, ar tai duos gerų rezultatų, ar vėl bus kaip tradiciškai būna pagal tą animacinį filmą, kai asiliukas norėjo visus gelbėti, bet, pasirodo, niekam nereikia to gelbėjimo. Visą laiką išeina tokia situacija, mes po to kitame Seime, ko gero, svarstysime, kaip nepasisekė. Niekas mūsų nuo tokios situacijos negali apsaugoti. Taigi mes, Liberalų ir centro sąjunga, vis dėlto rezervuotai žiūrime į šio klausimo sprendimą ir susilaikysime.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u939">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u939.p1213">Ačiū. Kolegos, kadangi vieningos nuomonės nėra, dabar registruosimės ir balsuosime. Kas mano, kad reikia pritarti po pateikimo, balsuoja už, kas mano kitaip - prieš arba susilaiko.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u939.p1214">Užsiregistravo 67 Seimo nariai. 48 balsavus už, nė vienam nebalsavus prieš, 17 susilaikius, šiam įstatymui po pateikimo yra pritarta.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u939.p1215">Kolegos, Vyriausybė siūlo taikyti skubos tvarką. Ar galime pritarti? Pritariame. Kolegos, pagrindinis komitetas - Ekonomikos komitetas, papildomas - Biudžeto ir finansų komitetas. Ir aš matau Socialinių reikalų ir darbo komiteto pirmininką.</seg>
-        </u>
-        <note type="speaker">A.SYSAS.</note>
-        <u ana="#regular" who="#SysasAlgirdas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u940">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u940.p1216">Ačiū, pirmininke. Aš norėčiau paprašyti, kad mes šį įstatymą pirmiausia svarstytume normalia tvarka, nes reikėtų rimtai pažiūrėti dėl tam tikrų garantijų, kurios būtų išsaugotos darbuotojams, nors ir lengvatos daromos. Vienas dalykas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u940.p1217">Ir antras. Kadangi čia kalbama apie socialinio draudimo įmokas, aš prašyčiau, kad mūsų komitetas irgi būtų papildomas. Tokiu atveju mes galėtume rimčiau pažiūrėti į valstybinio socialinio draudimo klausimus.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u941">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u941.p1218">Dėkoju. Kolegos, manau, jeigu būtų įrašytas kaip papildomas Socialinių reikalų ir darbo komitetas, tikrai niekas neprieštarautų. Kaip matote, bus du papildomi - Biudžeto ir finansų komitetas, Socialinių reikalų ir darbo komitetas. Motyvai iš tikrųjų rimti.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u941.p1219">Dėl to, kad skubos tvarka, nieko ypatingo nematau. Kiekvienas komitetas galės nagrinėti, nes yra ilgesnis terminas nei esant ypatingai skubai. O po to Seniūnų sueiga galės nuspręsti, kada įtraukti į plenarinius posėdžius darbo tvarka. Taigi ar galime pritarti? Dėl vedimo tvarkos - A.Kubilius.</seg>
-        </u>
-        <note type="speaker">A.KUBILIUS.</note>
-        <u ana="#regular" who="#KubiliusAndrius" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u942">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u942.p1220">Pirmininke, aš norėjau repliką. Bet visų pirma noriu pasakyti, kad tikrai norėjau balsuoti už, ir balsavau už, o yra parodyta, kad aš susilaikiau. Noriu keletą komentarų pasakyti ta tema. Gal K.Rimšelis savo abejonėmis sudrumstė mano mąstymą. Bet aš irgi kelias labai nedideles abejones replikos teise norėčiau pasakyti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u943">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u943.p1221">Kolegos, baikime ir aš...</seg>
-        </u>
-        <note type="speaker">A.KUBILIUS.</note>
-        <u ana="#regular" who="#KubiliusAndrius" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u944">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u944.p1222">Gerai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u945">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u945.p1223">Kolegos, tuomet pritariame komitetams, pritariame skubos tvarkai. Apsispręsime Seniūnų sueigoje dėl datos, kada įtraukti. Komitetai dabar turi pirmumo teise nagrinėti šį įstatymą.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u945.p1224">Dabar replika po visų svarstymų. Prašom. A.Kubilius.</seg>
-        </u>
-        <note type="speaker">A.KUBILIUS.</note>
-        <u ana="#regular" who="#KubiliusAndrius" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u946">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u946.p1225">Gerbiamieji kolegos, iš tiesų, žvelgiant į šį įstatymą, man atrodo, jis yra reikalingas. Paskutinėmis dienomis man teko bendrauti su Alytaus žmonėmis ir Alytaus miesto vadovybe. Iš tiesų tą problemą reikia spręsti, bet yra du klausimai.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u946.p1226">Vienas - įstatymas vadinasi &quot;Alytaus tekstilės&quot; veiklos gaivinimo įstatymo projektas. Iš tikrųjų tai yra &quot;Alytaus tekstilės&quot; oro įkvėpimo įstatymo projektas, nes įmonei leidžiama įkvėpti oro. Nors ir kaip keista, oro leidžiama įkvėpti tik per tą laikotarpį, kol įvyks rinkimai. Norėčiau žiūrėdamas į kolegas raginti, nes yra (...), kad problemos būtų vien atidedamos tik rinkimų laikotarpiu. Problemas reikia spręsti rimtai.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u946.p1227">Antras dalykas. Visiškai nematome ir nežinia, kas bus su ta įmone, kai jai bus duota įkvėpti oro. Ar yra koks nors konkretus planas gamybai atkurti, jos rinkai atkurti ir taip toliau? Raginčiau Ekonomikos komitetą prašyti iš Vyriausybės ir iš tų, kas rengiasi įmonę valdyti, daug tikslesnių planų, kaipgi ta įmonė veiks toliau.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u947">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u947.p1228">Dėkoju, kolega. Čia buvo daugiau motyvai, bet įskaitysime kaip repliką.</seg>
-        </u>
-        <note type="legislative">Valstybinių pensijų įstatymo 1 straipsnio pakeitimo įstatymo projektas Nr.IXP-2592 (svarstymas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u948">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u948.p1229">Taigi dabar, kolegos, norėčiau paprašyti. Iš rytinės darbotvarkės liko neišspręsti du klausimai, nes atmetimui reikia tam tikro balsų skaičiaus, dabar mes turime pakankamai - 67. Gal jūs nesupyksite, jeigu dabar pakviesčiau turbūt A.Sakalą Teisės ir teisėtvarkos komiteto vardu pateikti Valstybinių pensijų įstatymo 1 straipsnio pakeitimo įstatymą, nes J.Sabatausko aš nematau. Bet komiteto pirmininkas lyg ir kalba telefonu, ir nenori eiti į tribūną. Pirmininke, prašom, nes...</seg>
-        </u>
-        <note type="speaker">A.SAKALAS.</note>
-        <u ana="#regular" who="#SakalasAloyzas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u949">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u949.p1230">Gerbiamieji kolegos, mes svarstėme Valstybinių pensijų įstatymo 1 straipsnio pakeitimo įstatymo projektą. Komitetas siūlo jį atmesti štai dėl tokių motyvų.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u949.p1231">Pirmas motyvas. Turėtų būti priimtas konceptualus politinis sprendimas valstybinių pensijų reformos klausimu.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u949.p1232">Antras motyvas. Ši reforma turėtų būti vykdoma nuosekliai, sistemiškai, tik priėmus politinį sprendimą dėl valstybinių pensijų reformos bei šios reformos koncepcijos, būtų pasiūlyta Vyriausybei ar pavesta Seimo komitetams ar darbo grupėms parengti tam tikrų įstatymų pakeitimus, o ne fragmentiškai, kaip dabar siūloma, po vieną nuostatą keisti Valstybinių pensijų įstatymą ar kitus valstybines pensijas reglamentuojančius įstatymus.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u949.p1233">Trečias motyvas. Būtų pasiūlyta nustatyti įstatymuose arba įstatyme labai nusipelniusiems valstybei asmenims alternatyvią skatinimo ar padėkos sistemą. Tai gali būti, pavyzdžiui, ir vienkartinis premijos skyrimas, ir panašiai. Balsavimo rezultatai buvo tokie: 6 - už, 2 - prieš, 1 susilaikė.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u950">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u950.p1234">Dėkoju. Gerbiamieji kolegos, kadangi komitetas siūlo atmesti, tai mes pirmiausiai turėsime apsispęsti dėl to. Tai dabar vienas kalba už atmetimą, vienas - prieš. Matau, motyvus prieš nori išsakyti A.Melianas. Prašom.</seg>
-        </u>
-        <note type="speaker">A.MELIANAS.</note>
-        <u ana="#regular" who="#MelianasArtūras" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u951">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u951.p1235">Ačiū, pirmininke. O iš tribūnos dabar neleisite kalbėti?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u952">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u952.p1236">Ne, kolegos, Statutas nenumato. Šiuo atveju tiktai motyvai už ir prieš.</seg>
-        </u>
-        <note type="speaker">A.MELIANAS.</note>
-        <u ana="#regular" who="#MelianasArtūras" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u953">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u953.p1237">Ką gi, ačiū. Išties argumentai Teisės ir teisėtvarkos komiteto man yra keisti. Tokiu atveju mes negalėtume priimti beveik jokių įstatymo pasiūlymų ir pataisų, nes tada reikėtų į kiekvieną įstatymą konceptualiai žiūrėti ir priimti iš naujo. Tai būtų pirmas mano argumentas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u953.p1238">Antras argumentas yra tas, kad jau daug metų kalbame apie tai, kad valstybines pensijas reikia peržiūrėti. Noriu priminti, kad daugiau nei prieš metus, jau beveik pusantrų metų, sukurta darbo grupė dėl valstybinių pensijų peržiūrėjimo dirbo, aktyviai dirbo, ir net birželio mėnesį yra padariusi savo išvadas. Viena iš jų skamba būtent taip, kad pirmiausia reikia atsisakyti ir nustoti skirti naujas I ir II laipsnio valstybines pensijas. Tai yra įvairių frakcijų atstovai, manęs toje darbo grupėje, beje, nebuvo, priėmė vis dėlto tokį bendrą sprendimą, tokia nuomonė buvo pasakyta birželio mėnesį. Taigi, mielieji mano daugumos atstovai, kiek metų jūs dar vilkinsite ir mokėsite tas privilegijuotas, iš esmės nomenklatūrines pensijas?</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u953.p1239">Per pateikimą Seimas beveik vienbalsiai pritarė šiam įstatymo projektui. Šiandien jis siūlomas atmesti. Aš manau, tai yra mažiausia nekorektiškas siūlymas. Drįstu manyti, kad visuomenė mūsų visų nesupras. Todėl kategoriškai esu prieš tai, kad jis būtų atmestas. Galbūt jį reikia nagrinėti, galbūt susieti su kitomis šio įstatymo ir kitų valstybinių pensijų rūšių nuostatomis, tačiau vieną kartą baikime tą žaidimą. Vieną kartą pradėkime vykdyti ir Vyriausybės programą, kurioje numatyta, kad reikia peržiūrėti ir sumažinti valstybinių pensijų skyrimą. Ačiū.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u954">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u954.p1240">Motyvai už - Valentinas Indriūnas.</seg>
-        </u>
-        <note type="speaker">A.V.INDRIŪNAS.</note>
-        <u ana="#regular" who="#IndriūnasAlgimantasValentinas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u955">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u955.p1241">Algimantas, gerbiamasis pirmininke.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u956">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u956.p1242">Algimantas Indriūnas.</seg>
-        </u>
-        <note type="speaker">A.V.INDRIŪNAS.</note>
-        <u ana="#regular" who="#IndriūnasAlgimantasValentinas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u957">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u957.p1243">Ačiū už suteiktą žodį. Gerbiamieji kolegos, vis dėlto pagrindinio komiteto pirmininkas gana pagrįstai įrodė, kad šio klausimo negalima spręsti fragmentiškai, reikia spręsti sistemiškai. Tą patvirtino ir pats A.Melianas, todėl siūlau pritarti pagrindinio komiteto sprendimui ir grįžti prie šio, kai subręs kitos sąlygos ir iš esmės leis kompleksiškai išspręsti šią problemą. Ačiū už dėmesį.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u958">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u958.p1244">Dėkoju, kolegos. Motyvai išsakyti. Prašome apsispręsti balsuojant. Kas manote, kad reikia paremti pagrindinio komiteto siūlymą atmesti, balsuojate už, kad manote kitaip, balsuojate prieš arba susilaikote. Kas už atmetimą, balsuojate už, kolegos, kas prieš, balsuojate prieš arba susilaikote.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u958.p1245">Už - 38, prieš - 6, susilaikė 12. Atmestas.</seg>
-        </u>
-        <note type="legislative">Policijos rėmėjų įstatymo 2, 4, 5, 6, 8, 15 ir 16 straipsnių pakeitimo, šeštojo skirsnio pavadinimo pakeitimo bei Įstatymo papildymo 51 straipsniu įstatymo projektas Nr.IXP-2985 (svarstymas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u959">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u959.p1246">Dabar, kolegos, kitas kompleksinis klausimas. Čia trys klausimai. Kviesčiau į tribūną E.Klumbį dėl Policijos rėmėjų įstatymo daugelio straipsnių svarstymo. Prašome pateikti Teisės ir teisėtvarkos komiteto išvadą.</seg>
-        </u>
-        <note type="speaker">E.KLUMBYS.</note>
-        <u ana="#regular" who="#KlumbysEgidijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u960">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u960.p1247">Gerbiamas Seimo vicepirmininke, gerbiamieji kolegos, Teisės ir teisėtvarkos komitetas kaip pagrindinis nagrinėjo Lietuvos Respublikos policijos rėmėjų įstatymo 2, 4, 5, 6, 8, 15 ir 16 straipsnių pakeitimo, šeštojo skirsnio pavadinimo pakeitimo bei įstatymo papildymo 51 straipsniu įstatymo projektą. Po rimtų diskusijų, po klausymų buvo nuspręsta šį įstatymo projektą grąžinti iniciatoriams tobulinti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u961">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u961.p1248">Dėkoju pranešėjui. Kolegos, gal galėtume bendru?..</seg>
-        </u>
-        <note type="speaker">E.KLUMBYS.</note>
-        <u ana="#regular" who="#KlumbysEgidijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u962">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u962.p1249">Beje, komiteto sprendimas buvo priimtas bendru sutarimu.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u963">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u963.p1250">Gal tuomet yra sutarimas pritarti šiai komiteto išvadai, kolegos, nereikėtų balsuoti?
-            <vocal type="noise">
-              <desc xml:lang="lt">Balsai salėje: taip.</desc></vocal>Ačiū, kolegos. Grąžinta iniciatoriams tobulinti.</seg>
-        </u>
-        <note type="legislative">Viešojo administravimo įstatymo 3 straipsnio pakeitimo įstatymo projektas Nr.IXP-2986 (svarstymas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u964">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u964.p1251">Dabar kviesčiau A.Indriūną pateikti išvadą dėl Viešojo administravimo įstatymo 3 straipsnio pakeitimo įstatymo. Prašome, pranešėjau.</seg>
-        </u>
-        <note type="speaker">A.V.INDRIŪNAS.</note>
-        <u ana="#regular" who="#IndriūnasAlgimantasValentinas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u965">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u965.p1252">Ačiū, pirmininke. Gerbiamieji kolegos, šis svarstomas įstatymo projektas lydi ką tik pateiktą Policijos rėmėjų įstatymo projektą. Mūsų Valstybės valdymo ir savivaldybių komitetas priėjo prie išvados, kad šis Viešojo administravimo įstatymo pakeitimo projektas yra nereikalingas, nes ir be jo visus tuos klausimus galima išspręsti. Jis yra perteklinis, todėl bendru sutarimu nutarėme šį projektą atmesti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u966">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u966.p1253">Dėkoju pranešėjui. Kolegos, ar yra bendras sutarimas, kad galėtume atmesti?
-            <vocal type="noise">
-              <desc xml:lang="lt">Balsai salėje</desc></vocal>Siūlote balsuoti? Yra prieštaraujančių. Gerai, kolegos. Tuomet motyvai prieš, motyvai už. Norinčių kalbėti nematau, tuomet balsuojame, kolegos. Kas už pagrindinio komiteto išvadą atmesti, balsuojate už, kas manote kitaip, - prieš arba susilaikote. Primenu, kolegos, kad čia reikia ne mažiau kaip 36 balsų.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u966.p1254">Už - 50, 2 - prieš, 4 susilaikė. Atmesta.</seg>
-        </u>
-        <note type="legislative">Baudžiamojo kodekso 30 ir 230 straipsnių pakeitimo įstatymo projektas Nr.IXP-2987 (svarstymas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u967">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u967.p1255">Kviečiu E.Klumbį pateikti išvadą dėl Baudžiamojo kodekso dviejų straipsnių. Prašome kalbėti Teisės ir teisėtvarkos komiteto vardu.</seg>
-        </u>
-        <note type="speaker">E.KLUMBYS.</note>
-        <u ana="#regular" who="#KlumbysEgidijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u968">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u968.p1256">Lietuvos Respublikos baudžiamojo kodekso 30 ir 230 straipsnių pakeitimo įstatymo projektas yra lydintis. Komitetas jį irgi bendru sutarimu už siūlo grąžinti tobulinti iniciatoriams.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u969">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u969.p1257">Dėkoju, kolegos. Ar galėtume bendru sutarimu pritarti šiai išvadai grąžinti iniciatoriam tobulinti, nes su pagrindiniu taip pat padarėme? Ačiū, kolegos, grąžinta.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Konvencijos dėl kovos su korupcija, susijusia su Europos Bendrijų pareigūnais ar Europos Sąjungos valstybių narių pareigūnais, parengtos vadovaujantis Europos Sąjungos sutarties K.3 straipsnio 2 dalies C punktu, ratifikavimo projektas Nr.IXP-3184ES (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u970">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u970.p1258">Dabar kviesčiau teisingumo ministrą arba jo vardu ministerijos sekretorių, viceministrą Gintarą Švedą. Prašome pateikti įstatymo &quot;Dėl Konvencijos dėl kovos su korupcija, susijusia su Europos Bendrijų pareigūnais ar Europos Sąjungos valstybių narių pareigūnais&quot; ir t.t. Prašome.</seg>
-        </u>
-        <note type="speaker">G.ŠVEDAS.</note>
-        <u ana="#guest" who="#ŠvedasG" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u971">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u971.p1259">Laba diena, gerbiamieji Seimo nariai. Prezidento dekretu jums teikiama ratifikuoti viena Europos Sąjungos konvencija, t.y. Konvencija dėl kovos su korupcija. Šios konvencijos esmė yra ta, kad visos Europos Sąjungos valstybės narės turi numatyti baudžiamąją atsakomybę už korupcinius nusikaltimus. O svarbiausia, tai turi liesti ne vien nacionalinius pareigūnus, bet ir Europos Sąjungos institucijų pareigūnus. Konvencija pateikia labai aiškų ir labai tikslų Europos Sąjungos institucijų pareigūnų sampratą, jie taip būtų traukiami baudžiamojon atsakomybės už korupcinius nusikaltimus. Galiu pasakyti tik tiek, kad mūsų baudžiamieji įstatymai jau seniai atitinka šios konvencijos reikalavimus. Ir šios konvencijos ratifikavimas mums tikrai nekeltų jokios problemos. Tradiciškai yra daroma viena išlyga. Išlyga yra dėl jurisdikcijos klausimų. Pati konvencija suteikia teisę valstybei pasirinkti, kokias jurisdikcines taisykles jinai taikys konkrečiais atvejais. Lietuva šiuo atveju sieja savo jurisdikciją su veikos padarymo vieta. Tai yra jeigu korupcinis nusikaltimas yra padaromas Lietuvoje, tuomet mes imamės jurisdikcijos tokią nusikalstamą veiką tirti ir vykdyti teisingumą, taip pat tais atvejais, kai veiką padaręs asmuo yra Lietuvos pilietis. Lietuva taip pat pagal įstatymo projektą pareiškia, kad pripažįsta Teisingumo teismo kompetenciją preliminariai aiškinti šios konvencijos nuostatas.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u972">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u972.p1260">Dėkoju, kolega. Jūs pristatėte projektą. Norinčių klausti nėra. Ar galime pritarti bendru sutarimu po pateikimo? Pritarta, kolegos. Tuomet pagrindinis komitetas - Užsienio reikalų komitetas, papildomi - Nacionalinio saugumo ir gynybos komitetas ir Teisės ir teisėtvarkos komitetas. Aš manau, kad ir Europos reikalų komitetas galėtų būti papildomas. Aš sutariame, kolegos? Sutariame. Tuomet siūloma svarstyti pratęstoje sesijoje. Komitetai įveiks? Įveiks. Ačiū, kolegos.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Protokolo prieš neteisėtą šaunamųjų ginklų, jų dalių ir komponentų bei šaudmenų gamybą ir prekybą jais, papildančio Jungtinių Tautų konvenciją prieš tarptautinį organizuotą nusikalstamumą, ratifikavimo projektas Nr.IXP-3185ES (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u973">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u973.p1261">Dabar kitas - įstatymo dėl Protokolo prieš neteisėtą šaunamųjų ginklų, jų dalių ir t.t. Konvencija. Prašome.</seg>
-        </u>
-        <note type="speaker">G.ŠVEDAS.</note>
-        <u ana="#guest" who="#ŠvedasG" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u974">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u974.p1262">Gerbiamieji Seimo nariai, Prezidento dekretu jums taip pat teikiamas papildomas protokolas prie Jungtinių Tautų konvencijos prieš tarptautinį organizuotą nusikalstamumą. Šio papildomo protokolo esmė yra neteisėtos šaunamųjų ginklų, šaudmenų gamybos ir prekybos kontrolė. Tai reiškia, kad visos valstybės, šio protokolo dalyvės, turi kriminalizuoti neteisėtą šaunamųjų ginklų prekybą ir gamybą. Mūsų baudžiamieji įstatymai, nustatantys baudžiamąją atsakomybę, visiškai atitinka šios konvencijos reikalavimus, tačiau atkreipsiu jūsų dėmesį, kad pagal šį protokolą tam tikrų rūšių šaunamieji ginklai turi būti žymimi. Kadangi mūsų ginklų ir šaudmenų kontrolė šiuo aspektu neatitinka ratifikuojamo protokolo, todėl yra siūloma ratifikuojant pasakyti, kad šis protokolas mums įsigalios tiktai nuo kitų metų sausio 1 dienos. Praėjusią savaitę, kas pamenate, pateikiau Ginklų ir šaudmenų kontrolės įstatymo pataisą, kaip tik suderinančią mūsų nacionalinius įstatymus su šio protokolo reikalavimais. Atsižvelgiant į tai, kad būtina nustatyti centrinę instituciją, kuri palaikytų ryšius su kitomis valstybėmis vykdant šį protokolą, yra siūloma tokia institucija paskirti Policijos departamentą prie Vidaus reikalų ministerijos. Kadangi Lietuva dar nei pagal vieną tarptautinę sutartį nėra prisiėmusi įsipareigojimo ginčus spręsti Tarptautiniame teisingumo teisme, todėl ir šiame protokole yra daroma atitinkama išlyga.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u975">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u975.p1263">Dėkoju. Klausti niekas nenori. Ar galime pritarti po pateikimo bendru sutarimu? Pritarta, kolegos. Pagrindinis - Užsienio reikalų komitetas, papildomi - Nacionalinio saugumo ir gynybos komitetas bei Teisės ir teisėtvarkos komitetas. Taip pat siūloma svarstyti pratęstoje rudens sesijoje. Dėkui.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Konvencijos dėl Europos Bendrijų finansinių interesų apsaugos, parengtos vadovaujantis Europos Sąjungos sutarties K.3 straipsniu, ir jos protokolų, parengtų vadovaujantis Europos Sąjungos sutarties K.3 straipsniu, ratifikavimo projektas Nr.IXP-3186ES (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u976">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u976.p1264">Dabar kitas darbotvarkės klausimas - įstatymo dėl Konvencijos dėl Europos bendrijų finansinių interesų apsaugos, parengtos vadovaujantis Europos Sąjungos sutarties K.3 straipsniu ir t.t. Prašome, viceministre.</seg>
-        </u>
-        <note type="speaker">G.ŠVEDAS.</note>
-        <u ana="#guest" who="#ŠvedasG" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u977">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u977.p1265">Gerbiamieji Seimo nariai, Prezidento dekretu jums yra teikiama ratifikuoti Konvencija dėl Europos bendrijų finansinių interesų apsaugos ir šios konvencijos du papildomieji protokolai. Konvencijos ir protokolų esmę sudaro tai, kad kiekviena valstybė, ratifikavusi šią konvenciją ir papildomus protokolus, turi numatyti baudžiamąją atsakomybę už Europos bendrijų finansinių interesų apsaugą, t.y. sukčiavimą, korupcijos atvejus, taip pat pinigų plovimo nusikaltimus, kurie yra nukreipti prieš Europos bendrijų fondų pinigines lėšas. Mūsų baudžiamieji įstatymai šiandien dar nėra visiškai suderinti, tačiau Baudžiamojo kodekso pakeitimų ir papildymų projektas, kuriuo bus visiškai suderinama su šių konvencijų ratifikavimu, jau yra perėjęs svarstymo stadiją ir Seimas yra pritaręs tiems pakeitimams, todėl manau, kad kai ateis šios konvencijos ratifikavimo laikas, baudžiamieji įstatymai jau bus visiškai suderinti su šios konvencijos ir jos papildomų protokolų ratifikavimu.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u978">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u978.p1266">Jūsų nori paklausti Seimo narys V.Popovas. Prašom.</seg>
-        </u>
-        <note type="speaker">V.POPOVAS.</note>
-        <u ana="#regular" who="#PopovasVasilijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u979">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u979.p1267">Ačiū, posėdžio pirmininke. Gerbiamas viceministre, kadangi pateikėte tris konvencijas, pirma ir trečia šiek tiek susijusios, ir paminėjote pinigų plovimą, tame kontekste, atsimenu, neseniai Seimas priėmė Pinigų plovimo prevencijos įstatymą. Tai ar ratifikavus šią konvenciją tas mūsų priimtas įstatymas atitiks, nereikės jo taisyti? Ir antras klausimas. Ar palengvės mūsų institucijoms darbas toje srityje? Ačiū.</seg>
-        </u>
-        <note type="speaker">G.ŠVEDAS.</note>
-        <u ana="#guest" who="#ŠvedasG" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u980">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u980.p1268">Į pirmą jūsų klausimą aš galiu atsakyti, kad iš tikrųjų Pinigų plovimo prevencijos įstatymas šiandien visiškai atitinka Europos Sąjungos reikalavimus, o šiame protokole yra tiktai bendra nuostata, reikalaujanti kriminalizuoti pinigų plovimą. O pačią pinigų plovimo sąvoką atskleidžia kitos direktyvos. Tai tas direktyvas mūsų Pinigų plovimo prevencijos įstatymas tikrai visiškai atitinka ir tokią išvadą yra padariusi pati Europos Komisija.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u980.p1269">Antra dalis. Visais atvejais, kai Lietuva ratifikuoja tam tikrą tarptautinę sutartį, yra tikimybė, kad visi tokių nusikalstamų veikų tyrimo atvejai Lietuvai palengvės, ypač kai reikia teisinės pagalbos iš užsienio valstybių. Šių konvencijų pagrindu mes kaip tik galime tikėtis visų Europos Sąjungos narių aktyvios teisinės pagalbos.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u981">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u981.p1270">Dėkoju, jūs atsakėte į klausimus. Gerbiamieji kolegos, ar galėtume pritarti po pateikimo bendru sutarimu? Pritarta. Dabar pagrindinis - Užsienio reikalų komitetas, papildomi - Nacionalinio saugumo ir gynybos komitetas ir Teisės ir teisėtvarkos komitetas. Aš taip pat siūlyčiau prijungti ir Europos reikalų komitetą. Galime sutarti? Sutarta. Svarstymas pratęstoje rudens sesijoje. Ačiū.</seg>
-        </u>
-        <note type="legislative">Kardomojo kalinimo įstatymo 18 straipsnio papildymo įstatymo projektas Nr.IXP-3194 (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u982">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u982.p1271">Dabar penktasis popietinės darbotvarkės klausimas - Kardomojo kalinimo įstatymo 18 straipsnio papildymo įstatymo projektas. Prašome pristatyti.</seg>
-        </u>
-        <note type="speaker">G.ŠVEDAS.</note>
-        <u ana="#guest" who="#ŠvedasG" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u983">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u983.p1272">Gerbiamieji Seimo nariai, Vyriausybė jums teikia labai trumpą Kardomojo kalinimo įstatymo pakeitimo įstatymo projektą. Jo esmę sudaro tai, kad šiandien suimtų asmenų mitybos ir materialinio buitinio aprūpinimo normas nustato Vyriausybė. Tuo tarpu laisvės atėmimo ir laisvės atėmimo iki gyvos galvos bausmę atliekančių asmenų materialinio buitinio aprūpinimo ir mitybos normas nustato Vyriausybė arba jos įgaliota institucija. Siekiant išvengti iš esmės vienodos teisinės padėties asmenų teisinio reguliavimo tokių dviprasmybių, yra siūloma suvienodinti teisinį pagrindą. Šiuo atveju reikėtų tikėtis, kad Vyriausybė kaip ir nuteistųjų atveju pavestų tokias mitybos normas nustatyti Teisingumo ministerijai kartu su Finansų ministerija. Todėl prašyčiau pritarti šiam įstatymo projektui.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u984">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u984.p1273">Dėkoju. Norinčių paklausti nėra. Gerbiamieji kolegos, pritariame bendru sutarimu? Pritarta. Pagrindinis komitetas - Teisės ir teisėtvarkos komitetas, papildomų Seniūnų sueiga nesiūlo. Svarstysime pavasario sesijoje. Ačiū. Sutarta.</seg>
-        </u>
-        <note type="legislative">Administracinių teisės pažeidimų kodekso 110, 1862, 18814, 198, 225, 233, 2411, 2591, 314, 320 straipsnių pakeitimo ir papildymo bei Kodekso papildymo 1673, 2381 straipsniais įstatymo projektas Nr.IXP-3172 (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u985">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u985.p1274">Prašome, viceministre. Administracinių teisės pažeidimų kodekso kai kurių straipsnių pakeitimai ir papildymai.</seg>
-        </u>
-        <note type="speaker">G.ŠVEDAS.</note>
-        <u ana="#guest" who="#ŠvedasG" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u986">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u986.p1275">Vyriausybės nutarimu Seimui yra teikiamas Administracinių teisės pažeidimų kodekso kai kurių straipsnių pakeitimo ir papildymo įstatymo projektas. Šio įstatymo projekto esmė yra suderinti su jau Seimo priimtais kai kuriais įstatymais administracinės atsakomybės klausimais. Pirmas dalykas, yra siūloma suderinti Administracinių teisės pažeidimų kodekso 110 straipsnį, kuris numato administracinę atsakomybę už gyvūnų laikymo taisyklių pažeidimus, nes Seimas yra priėmęs Gyvūnų globos, laikymo ir naudojimo įstatymo pakeitimo įstatymą, kur buvo pavesta nustatyti agresyvių šunų laikymo taisykles. Todėl yra būtina šiek tiek patikslinti administracinės atsakomybės pagrindą ir sąlygas. Taip pat Seimas yra priėmęs Sprogmenų apyvartos kontrolės įstatymą. Įstatymas numato bendrą nuostatą, kad turi būti nustatyta administracinė atsakomybė už šio įstatymo sąlygų pažeidimą, todėl yra siūloma nustatyti tokią administracinę atsakomybę atsižvelgiant į tai, kaip tai reglamentuoja Sprogmenų apyvartos kontrolės įstatymas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u986.p1276">Yra suderinamos kelios sąvokos. Dėl pavadinimo. Anksčiau yra buvę teismo antstoliai, dabar yra tiktai antstoliai. Tai yra su Antstolių įstatymu suderinamas administracinis kodeksas bei suderinamos su Saugaus eismo įstatymu &quot;autotransporto&quot; ir &quot;automobilių transporto&quot; sąvokos. Tai tokie esminiai šio įstatymo pakeitimo dalykai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u987">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u987.p1277">Ačiū, viceministre. Jūsų paklausti niekas nenori. Pritariame bendru sutarimu? Pritarta. Pagrindinis komitetas - Teisės ir teisėtvarkos komitetas ir svarstysime pavasario sesijoje. Ačiū.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Konvencijos dėl privačių įdarbinimo agentūrų ratifikavimo projektas Nr.IXP-3187ES (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u988">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u988.p1278">Kviečiu į tribūną ministrę Viliją Blinkevičiūtę pristatyti Įstatymo dėl Konvencijos dėl privačių įdarbinimo agentūrų ratifikavimo projektą. Prašome, ministre, jums žodis.</seg>
-        </u>
-        <note type="speaker">V.BLINKEVIČIŪTĖ.</note>
-        <u ana="#regular" who="#BlinkevičiūtėVilija" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u989">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u989.p1279">Gerbiamasis pirmininke, gerbiamieji Seimo nariai, dėkoju už galimybė pristatyti Konvenciją dėl privačių įdarbinimo agentūrų, kurios tikslas yra leisti veikti privačioms įdarbinimo agentūroms ir ginti jų paslaugomis besinaudojančius darbuotojus tiek, kiek tai numatyta šios konvencijos nuostatose. Konvencija yra taikoma visoms privačioms įdarbinimo agentūroms, visoms darbuotojų kategorijoms ir visoms ekonominėms veiklos šakoms. Ji nustato, kokia apsauga ir teisės turi būti garantuotos privačių įdarbinimo agentūrų įdarbintiems darbuotojams, taip pat reglamentuoja privačių įdarbinimo agentūrų ir įmonių atsakomybę.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u989.p1280">Konvencijos ratifikavimas paskatintų imtis priemonių reglamentuoti Lietuvos darbo rinkoje veikiančių įdarbinimo, tarpininkavimo agentūrų veiklą, užtikrinti darbdaviams bei darbo ieškantiems asmenims teikiamų paslaugų kokybę, pagerinti įdarbinimo agentūrų veiklos kontrolę, privačių įdarbinimo agentūrų ir Valstybinės darbo biržos apsikeitimą informacija, kuri būtų naudinga apskritai bendrai darbo rinkos politikai. Konvencija numato, kad agentūros negali imti užmokesčio iš daro ieškančio asmens. Įteisinus šią nuostatą, tokių agentūrų paslaugos ieškantiems darbo asmenims turės būti nemokamos ir daug daugiau asmenų galės pasinaudoti šiomis paslaugomis. Taip pat bus sukurtas efektyvesnis privačių įdarbinimo agentūrų veiklos priežiūros, kontrolės bei piliečių skundų nagrinėjimo mechanizmas ir procedūros. Ir be to, ratifikavus konvenciją, Lietuvoje atsirastų, būtų įteisintos personalo nuomos paslaugos. Tokios agentūros galėtų priimti darbuotojus ir atitinkamai po to tuos darbuotojus įdarbinti pas kitus darbdavius.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u989.p1281">Tos konvencijos ratifikavimo reikalingumą aptarėme Trišalėje taryboje. Trišalė taryba tam pritarė, todėl prašyčiau ir Seimo narius pritarti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u990">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u990.p1282">Dėkoju ministrei. Jūsų nori paklausti du Seimo nariai. Pirmasis klausia A.Sysas.</seg>
-        </u>
-        <note type="speaker">A.SYSAS.</note>
-        <u ana="#regular" who="#SysasAlgirdas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u991">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u991.p1283">Ačiū, pirmininke. Gerbiamoji ministre, jau buvo šiek tiek spaudoje privačių agentūrų diskusija, kad kaip čia galės dirbti neimdamos atlygio už teigiamą darbą. Mano klausimas būtų, ar rengiant įstatymą kokių nors kontaktų su privačiomis agentūromis buvo ar nebuvo? Ar mes paprasčiausiai paimame konvenciją ir bandysime ją įgyvendinti? Jeigu tokią nuostatą patvirtinsime ir patvirtinsime konvenciją, kaip jūs manote, kaip mes galėsime užtikrinti šitą vartotojo teisę, kad jis gautų informaciją nemokamai iš tokios agentūros?</seg>
-        </u>
-        <note type="speaker">V.BLINKEVIČIŪTĖ.</note>
-        <u ana="#regular" who="#BlinkevičiūtėVilija" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u992">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u992.p1284">Labai jums ačiū, gerbiamasis komiteto pirmininke, už šį klausimą. Žinote, šiuo atveju aš manau, kad mes turėjome diskutuoti tą klausimą ne su dabar veikiančiomis privačiomis įdarbinimo agentūromis, ar ratifikuoti šią konvenciją, ar ne. Matyt, būtų logiška, kad kai kurios iš jų tikrai pasisakytų, kad nereikia jos ratifikuoti, nes būtent ši konvencija daugiau apgina tų darbuotojų teises neimant iš jų atlygio. Štai šiandien iki pietų priiminėjau žmones, ir kaip tik sutapo su Konvencijos pateikimu. Atėjo vienas žmogus ir man sako (iš Alytaus atvažiavo): &quot;Ministre, aš sumokėjau privačiai įdarbinimo agentūrai dėl įdarbinimo užsienyje 800 Lt. Dingo ir ta agentūra, ir nuplaukė ir mano pinigai&quot;. Todėl aš manau, kad kaip tik šios konvencijos ratifikavimas uždraus tokių keistų įdarbinimo agentūrų darbą. Ir kai pinigus už agentūrų darbą, darbo paiešką, darbuotojų suradimą užsienyje galės mokėti darbdavys, kuriam reikalingas tas darbuotojas, tokių piktnaudžiavimų tikrai nebus. Nes darbdavys daugiau žiūrės, kur jis pinigus ir kam moka, negu kad patiklus darbuotojas, kuris suviliotas labai gero uždarbio kur nors Airijoje, Didžiojoje Britanijoje ar dar kur nors panašiai ir apgautas. Tai aš manau, kad mes einame žmogaus teisių užgarantavimo linkme, kad jis nebūtų apgautas.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u993">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u993.p1285">Dėkoju. Klausia M.Pronckus.</seg>
-        </u>
-        <note type="speaker">M.PRONCKUS.</note>
-        <u ana="#regular" who="#PronckusMykolas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u994">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u994.p1286">Ačiū. Spaudoje dabar pasigirsta tokių samprotavimų, kad lyg ir bankrutuoja stambiausia Europoje, Šveicarijoje esanti įdarbinimo agentūra. Kitaip sakant, tas bankrotas sukels didžiulį judėjimą visoje Europoje. Lyg taip aiškina. Tai matote - konvencijos yra, viskas yra, ir staiga niekas neapsaugotas nuo visų šitų neigiamų dalykų. Tai kaip šita konvencija saugos nuo tokių dalykų pas mus? Kaip jums atrodo?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u995">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u995.p1287">Prašom.</seg>
-        </u>
-        <note type="speaker">V.BLINKEVIČIŪTĖ.</note>
-        <u ana="#regular" who="#BlinkevičiūtėVilija" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u996">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u996.p1288">Pirmiausia man atrodo, kad tą konvenciją ratifikavus ir priderinus mūsų visą teisinę bazę prie šitos konvencijos reikalavimų, kaip tik bus daugiau apsaugotos pačios agentūros ir patys darbuotojai, ir patys žmonės, kurie naudosis tomis paslaugomis. Todėl, kad pagal šią konvenciją yra nustatytas ir kontrolės mechanizmas, ir Darbo inspekcijos vaidmuo, ir socialinių partnerių - darbdavių ir profsąjungų - vaidmuo steigiant, prižiūrint tokias agentūras ir panašiai. Ir dar kartą sakau - darbdavių pasinaudojimo galimybė tų agentūrų veikla. Ir dar kartą noriu pasakyti. Mano galva, agentūrų turi būti tiek (kaip tam tikra biznio šaka), kiek jų iš tikrųjų reikia. Ir rinka turi atsirinkti, o ne prisisteigti apgaudinėjant žmones tiek, kad paskui dingtų žmonių pinigai. Na, o nuo bankroto, žinoma, niekas nėra apsaugotas, įdarbinimo agentūros taip pat. Tačiau tai bus tikrai geresnis mechanizmas, negu kaip dabar kad yra. Tos konvencijos neratifikavus, dar kartą sakau, surenka pinigus iš žmonių, o darbo nesuteikia. Tai nuo šito, aš manau, mums leistų apsaugoti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u997">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u997.p1289">Dėkoju, ministre. Jeigu mes suskubsime, galbūt išspręsime ir tuos kitus klausimus, kuriuos norite pateikti. Ar galime bendru sutarimu pritarti po pateikimo, kolegos? Pritarta. Pagrindinis - Užsienio reikalų komitetas, papildomi - Sveikatos reikalų ir darbo komitetas ir aš siūlau Europos reikalų komitetą. Pritarta. Svarstysime pratęstoje rudens sesijoje.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Konvencijos dėl pareigų šeimai turinčių darbuotojų - vyrų ir moterų - lygių galimybių ir vienodo požiūrio į juos ratifikavimo projektas Nr.IXP-3189 (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u998">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u998.p1290">Prašome, ministre, kitą Įstatymo dėl Konvencijos dėl pareigų šeimai turinčių darbuotojų - vyrų ir moterų - lygių galimybių ir vienodo požiūrio į juos ratifikavimo projektas. Prašome, ministre, trumpai, ir mes pavysime grafiką.</seg>
-        </u>
-        <note type="speaker">V.BLINKEVIČIŪTĖ.</note>
-        <u ana="#regular" who="#BlinkevičiūtėVilija" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u999">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u999.p1291">Gerai. Labai ačiū. Konvencija taikoma moterims ir vyrams, darbuotojams, kurie turi pareigų savo išlaikomiems vaikams, tai pat kitiems artimiausiems giminaičiams, kuriems reikalinga globa ir parama, ir kai tokios pareigos riboja jų galimybes užsiimti ūkine veikla. Kitaip sakant, ratifikavę konvenciją mes dar labiau užgarantuosime teises ir pareigas tiems darbuotojams, tiek vyrams, tiek moterims, kurie turi vaikų, kitų išlaikytinių, kad dėl to, jog jie turi šeimą ir turi teikti paramą kitiems, kad jie nebūtų atleisti iš darbo, kad nebūtų ribojamas jų priėmimas į darbą, kad jiems būtų suteiktos papildomos garantijos. Tokia yra konvencijos esmė. Prašyčiau ją ratifikuoti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1000">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1000.p1292">Dėkoju. Klausia G.Purvaneckienė.</seg>
-        </u>
-        <note type="speaker">G.PURVANECKIENĖ.</note>
-        <u ana="#regular" who="#PurvaneckienėGiedrė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1001">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1001.p1293">Ačiū, gerbiamasis pirmininke. Faktiškai aš klausimo neturiu. Aš turiu tik prašymą, kad šis įstatymas būtų paskirtas Šeimos ir vaiko reikalų komisijai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1002">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1002.p1294">Gerai. Sutarėme. Gerbiamoji ministre, jis priklauso eurointegraciniams, ar ne?</seg>
-        </u>
-        <note type="speaker">V.BLINKEVIČIŪTĖ.</note>
-        <u ana="#regular" who="#BlinkevičiūtėVilija" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1003">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1003.p1295">Na, pirmas tai tikrai priklauso.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1004">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1004.p1296">Ne, antrasis? Nesusijęs. Gerai. Dėkoju. Tai Šeimos ir vaiko reikalų. Kolegos, pagrindinis - Užsienio reikalų komitetas, papildomi - Socialinių reikalų ir darbo komitetas, Žmogaus teisių komitetas ir Šeimos ir vaiko reikalų komisija. Sutinkame, sutariame? Ačiū. Svarstysime pavasario sesijoje.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Konvencijos muitinės administracijų tarpusavio pagalbos ir bendradarbiavimo, parengtos vadovaujantis Europos Sąjungos sutarties K.3 straipsniu, ratifikavimo projektas Nr.IXP-3188ES (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1005">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1005.p1297">Kolegos, turėčiau atsiprašyti. Jeigu keletą minučių mes užgaištume? Aš čia žiūriu į gerbiamąjį Romą Pakalnį. Mes tada išspręstume ir likusį vienintelį klausimą prieš jūsų. Tada kviesčiau viceministrą poną Vitą Vasiliauską. Įstatymo dėl Konvencijos muitinės administracijų tarpusavio pagalbos ir bendradarbiavimo, parengtos vadovaujantis Europos Sąjungos sutarties K.3 straipsniu, ratifikavimo projekto pateikimas. Labai trumpai, viceministre, prašom.</seg>
-        </u>
-        <note type="speaker">V.VASILIAUSKAS.</note>
-        <u ana="#regular" who="#VasiliauskasValdas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1006">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1006.p1298">Ačiū. Gerbiamasis posėdžio pirmininke, gerbiamieji Seimo nariai, teikiama ratifikuoti Konvencija dėl muitinės administracijų tarpusavio pagalbos. Prie šios konvencijos yra prisijungusios 10 Europos Sąjungos valstybių. Kad ji įsigaliotų, reikia 15, bet galima taikyti ir dar neįsigaliojusią konvenciją, jeigu šalys, prisijungusios prie konvencijos, apie tai pareiškia. Kol kas tai yra padariusios 6 valstybės, tarp jų svarbiausios Europos Sąjungos narės. Mes taip pat norėtume prisijungti prie šios konvencijos ir taip pat iš savo pusės taikyti šią konvenciją. Mūsų nuomone, jinai padėtų kovojant su muitinės pažeidimais, visų pirma kontrabanda, ginklų gabenimu ir t.t. Tai tiek trumpai. Prašytume pritarti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1007">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1007.p1299">Dėkoju. Jūsų klausti niekas nenori. Kolegos, pritariame bendru sutarimu? Pritarta. Pagrindinis komitetas - Užsienio reikalų komitetas, papildomi - Biudžeto ir finansų komitetas ir aš siūlyčiau Europos reikalų komitetą. Svarstysime pavasario sesijoje.</seg>
-        </u>
-        <note type="narrative">Lietuvos nacionalinio radijo ir televizijos tarybos pirmininko Romo Pakalnio atsakymai į Seimo narių klausimus</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1008">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1008.p1300">Gerbiamieji kolegos, dabar pradėsime Lietuvos nacionalinio radijo ir televizijos tarybos pirmininko Romo Pakalnio atsakymus į Seimo narių klausimus. Kol gerbiamasis R.Pakalnis ateis, mes registruojamės. Prašome, gerbiamasis pirmininke.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1009">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1009.p1301">Ačiū. Gerbiamasis...</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1010">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1010.p1302">atsakymus. Gal taip paprašyčiau: iki 15 minučių, jeigu galima, kad po to dar būtų galima palikti laiko tiesiogiai klausimams.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1303">Be abejo, gerai. Ačiū. Gerbiamasis posėdžio pirmininke, gerbiamieji Seimo nariai, ačiū jums už tai, kad Lietuvos Respublikos Seime skirtas laikas nacionalinio transliuotojo reikalams.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1304">Kaip atrodė LRT 2003 metais? Praėjusieji metai Lietuvos nacionaliniam transliuotojui buvo sudėtingi. Kovo mėnesį atsistatydinus generaliniam direktoriui Valentinui Milakniui, buvo surengtas konkursas ir per kelis etapus sudaryta nauja LRT vadovybė: generalinis direktorius Kęstutis Petrauskis, televizijos direktorius Šarūnas Kalinauskas ir radijo direktorius Rimgaudas Geleževičius. Nepaisant nestabilumo pasitraukus vadovams, ėjusiems pareigas vos pusantrų metų, nacionalinis transliuotojas itin atsakingai dirbo gegužės 10-11 dienomis, referendumo dėl stojimo į Europos Sąjungą metu, informavo ir dabar informuoja Lietuvos gyventojus apie narystės Europos Sąjungoje privalumus ir iššūkius. 2003 m. gegužės mėnesį kadenciją baigę atsistatydino LRT tarybos pirmininkas Marcelijus Martinaitis ir jo pavaduotojas Vytautas Ališauskas. Taryba rinkimuose naujuoju tarybos pirmininku išrinko Romą Pakalnį, o pavaduotoja - Dianą Vilytę.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1305">Visuomeninis transliuotojas atsakingai pasirengė Mindaugo karūnavimo 750-ųjų metinių minėjimui (esu užtikrintas, kad jūs visi pamenate). Sklandus Dainų šventės transliavimas sustiprino šventės įspūdį, LTV žinių laidos buvo perkeltos į renginių vietas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1306">Aktyvinant ryšius su lietuvių diaspora kitose Europos šalyse ir pasaulyje, nuo 2003 m. vasario 16 d. pradėta transliuoti antroji Lietuvos televizijos programa. Jos signalas perduodamas &quot;Sirijaus&quot; palydovu. Tokiu būdu televizijos antroji programa pasiekia ne tik mūsų šalies gyventojus, bet ir lietuvius, gyvenančius Europos valstybėse. LRT gauna daugybę ambasadų, užsienyje gyvenančių lietuvių atsiliepimų, padėkų už transliuojamą programą.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1307">2003 metais buvo kokybiškai atnaujinta, išplėsta LRT interneto svetainė. Šiuo metu realiu laiku galima klausyti Lietuvos radijo I ir II programas iš esmės visame pasaulyje. Išplėtus archyvo galimybes, bet kada LRT svetainėje galima susirasti norimą radijo ar televizijos laidą.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1308">Dar vienas darbas, kuris praeitais metais buvo padarytas, tai buvo sustiprinti Biržų siųstuvo galingumai ir Lietuvos radijo ir televizijos laidos tapo girdimos ir matomos Latvijos pasienio rajonuose, besiribojančiuose su Lietuva, kur gyvena daug lietuvių. Šiais metais, turiu pasakyti, bus išplėsti Kalvarijos ir Dieveniškių siųstuvai. Tai leis Baltarusijos ir Lenkijos lietuviams matyti LTV programas bei klausytis Lietuvos radijo. Tai irgi, manyčiau, rimtas ir kokybiškai labai reikalingas žingsnis. Šie pokyčiai yra dalis pertvarkymų, vykdomų LRT nuo 2001 metų pabaigos.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1309">Restruktūrizavus Lietuvos radiją ir televiziją, ypatingas dėmesys buvo skirtas visuomeniniam transliuotojui modernizuoti. Praėjusiais metais suremontavus nemažą dalį Radijo ir televizijos patalpų, darbuotojams sukurtos patogios ir šiuolaikiškos darbo vietos. Nelabai seniai dviejų Seimo komitetų atstovai, beveik visi komitetų nariai, buvo ir matė Radijo ir televizijos naująsias patalpas. Vien į pastatų remontą investuota 1,5 mln. litų. Jie, žinoma, gauti iš komercinių pajamų, ne iš valstybės biudžeto. Darbus priėmė valstybinė komisija, ir dabar Radijo namų pastatas atiduotas eksploatuoti. Jame ištisą dešimtmetį iki šiol buvo įšaldyta daugiau kaip 9 mln. Lt valstybės lėšų. Dabar jie jau pradės duoti naudą.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1310">Praėjusiais metais į televizijos ir radijo techniką buvo investuota 3 mln. litų. Norint, kad būtų įveiktas techninis atsilikimas, reikėtų investuoti bent 10 mln. Lt (tokie yra minimalūs poreikiai). Tačiau valstybė, kaip žinia, šiuo metu negali skirti tiek lėšų. Technika atnaujinama iš esmės tik iš komercinių lėšų. LRT stinga ne tik sudėtingos aparatūros, bet net ir personalinių kompiuterių žurnalistams. Visą šį metų metais susikaupusį atsilikimą tikimasi įveikti per kelis ateinančius dešimtmečius. Kita vertus, atsižvelgiant į tai, kad Lietuva jau šiemet taps visateise Europos Sąjungos nare, būtina atkreipti dėmesį į visuomeninio transliuotojo finansavimą. Aš čia noriu apgailestaudamas pasakyti, kad LRT yra blogiausiai finansuojamas visuomeninis transliuotojas ne tik tarp Vakarų, bet ir Rytų bei Vidurio Europos šalių. Pavyzdžiui, Slovakijos visuomeninio transliuotojo biudžetas yra 3 kartus, Slovėnijos - 9, Airijos - 21, o Švedijos - 30 kartų didesni negu LRT. Minėtos šalys savo dydžiu yra panašios į Lietuvą, gal, žinoma, išskyrus Švediją. Mūsų kaimyninės Latvijos televizijos biudžetas yra 1,5 karto didesnis nei Lietuvos. Estijoje vien visuomeninės televizijos biudžetas yra apie 45 mln. litų. Lietuvos radijas ir televizija gauna apie 37 mln., nors iš šių lėšų yra rengiamos ne tik dvi televizijos, bet ir dvi radijo programos, išlaikomas LRT lengvosios muzikos orkestras, vaikų choras, archyvai.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1311">Šie skaičiai rodo, kad LRT, pirma, labai efektyviai ir racionaliai panaudoja turimus resursus, antra, ypač taupant kenčia ir bendra visuomeninio transliuotojo teikiamų paslaugų kokybė. Tai, kad tiek radijo, tiek televizijos laidoms kartais pristinga profesionalumo, kelia nerimą tiek LRT tarybai, tiek ir administracijai. Dar labiau taupyti, mažinti darbuotojų skaičių nebeįmanoma. Reformos metu LRT darbuotojų skaičius buvo sumažintas nuo 1200 iki 650. Beje, dar pasakysiu, kad tai mažiausias žmonių, dirbančių visuomeniniame transliuotojuje, skaičius Europoje.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1312">Būtina atkreipti dėmesį į neišspręstą nepriklausomo finansavimo modelio įgyvendinimo problemą. Nors buvo kelios komisijos (viena iš jų veikė ir 2003 metais turėjo parengti abonentinio mokesčio už visuomeninio transliuotojo teikiamas paslaugas įstatymą), politinis sprendimas iki šiol nepriimtas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1313">Nematant bendresnio konteksto, vis pasigirsta nauji raginimai keisti Lietuvos radijo ir televizijos įstatymą ir LRT tarybos formavimo principus. Turiu pasakyti, kad per 13 nepriklausomybės metų tai jau buvo padaryta 4 kartus. Iš viso 56 meno, kultūros, švietimo žmonės dirbo LRT tarybose. 14 generalinių direktorių buvo paskirti vadovauti LRT ir nė vienas, kaip žinoma, neišbuvo šiame poste visos skirtos penkerių metų kadencijos. Toks politinis nestabilumas, įstatymo, LRT tarybos bei vadovų kaita neigiamai veikia bendrą LRT darbo klimatą. Dėl to kenčia eterio kokybė, formuojamas visuomenės požiūris, kad visuomeninis transliuotojas yra tik vienos ar kitos politinės valdžios įrankis. Tiesa, pastaraisiais metais žmonių požiūris į LRT keičiasi.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1314">2003 m. gruodžio mėnesį atlikta reprezentatyvi visuomenės apklausa parodė, kad Lietuvos televizija tenkina 67% žmonių poreikius. Daugiausia teigiančių, kad Lietuvos televizija patenkina jų, kaip Lietuvos piliečių, lūkesčius yra tarp 30 metų ir vyresnių žmonių, net 70%. Apklausoje dalyvavę Lietuvos gyventojai naująjį Lietuvos televizijos sezoną vertina kaip įdomų - 65%, pateikusią teigiamų naujovių - vėl 60%, daugiau informacinio (73%) nei pramoginio (23%) pobūdžio. Kad naujasis televizijos sezonas atitinka Lietuvos gyventojų poreikius, teigia 56% respondentų. Beje, &quot;Respublikos&quot; dienraščio &quot;TV antena&quot; priedo rengiama apklausa rodo, kad LTV yra tarp objektyviausių transliuotojų.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1315">Trumpai norėčiau pasakyti, ką veikiame dabar. Dabar mes analizuojame 2003 metų veiklos rezultatus, kitą savaitę tvirtinsime praeitų metų finansinės veiklos rezultatus ir 2004 metų pajamų išlaidų sąmatas. Rengiame ir kovo mėnesį nustatyta tvarka pateiksime Seimui metinę mūsų veiklos ataskaitą.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1316">Trečia. Pradėjome rengti LRT strateginį veiklos planą, kuriame bus užfiksuota LRT strategija penkeriems metams ir detalus veiksmų planas artimiausiems metams. Tikimės, kad kovo mėnesį užbaigtas darbas padės Lietuvos Respublikos Seimui apsispręsti dėl abonentinio mokesčio įvedimo, nes bus parodyti realūs poreikiai ir jų patenkinimo galimybės. Rengiamės vasario mėnesį atnaujinti kai kurias televizijos laidas, kurių kokybė pripažįstame, yra nepakankama.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1317">Daug laiko atima ir nemažą įtampą sukelia politiniai procesai, susiję su Lietuvos Respublikos Prezidento apkalta. Gavę Ekscelencijos paklausimą, kodėl Naujųjų metų sveikinimas nebuvo transliuojamas per pirmąją LTV programą, atsakyti pavedėme LRT administracijai, nes būtent ji parinko sveikinimo, transliavimo laiką ir būdą. Po savaitės gavome Prezidento pakartotinį raginimą, taip pat Seimo Švietimo, mokslo ir kultūros komiteto pirmininko, profesoriaus R.Pavilionio paklausimą, ar taryba nemano, kad nacionalinis transliuotojas pažeidė Lietuvos nacionalinio radijo įstatymo 5 straipsnį ir Lietuvos Respublikos Prezidento įstatymo 9 straipsnį. Turiu pasakyti, kad kvalifikuotam atsakymui neužtenka LRT tarybos kompetencijos ir mums akivaizdžiai reikalinga kvalifikuotų profesionalių teisininkų pagalba. Norėdami atsakyti į šiuos klausimus, mes kreipėmės į Lietuvos teisės universiteto specialistus ir tik gavę jų išvadas galėsime atsakyti, ar buvo pažeista, ar nebuvo.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1011.p1318">Toliau. Šeštas dalykas, kuris dar jaudina ir kurį norėčiau, kad išgirstų Seimo nariai yra tas, kad 2000 metais Seimas, priimdamas Visuomenės informavimo įstatymo 29 straipsnio pakeitimo įstatymą, patvirtino tokią LRT tarybos formavimo tvarką. Aukščiausioji LRT valdymo institucija yra taryba, atstovaujanti visuomenės interesams. Ji sudaroma...</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1012">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1012.p1319">Gerbiamasis pranešėjau, gerbiamieji kolegos Seimo nariai, truputį tyliau, labai garsiai.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1013">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1013.p1320">Man nedaug reikia, kokių poros minučių ir aš baigsiu savo kalbą.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1014">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1014.p1321">Jūs dar turite porą minučių. Gerbiamieji kolegos, posėdžio pradžioje, atsiklausiau, suteikiau žodį iki 15 minučių ir po to 15 minučių klausimams. Prašom, nes yra parengtas atsakymas, klausykite, tuoj bus baigtas atsakymas...</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1015">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1015.p1322">Tokia tvarka patvirtinta. Aukščiausioji LRT valdymo institucija taryba, atstovaujanti visuomenės interesams. Ji sudaroma šešerių metų laikotarpiui iš 12 asmenų. Aš žinau, yra žmonių, kurie nežino ir kalba apie tai, kad reikia pakeisti vieną ar kitą tarybos narį. Tai...</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1016">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1016.p1323">Gerbiamasis pranešėjau, gerbiamieji Seimo nariai, dabar nevyksta diskusija. Dar keletas jūsų minčių ir pradėsime klausimus. Prašom.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1017">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1017.p1324">Tai aš tada baigsiu ir bus normali diskusija. Pirmajai tarybos kadencijai keturis tarybos narius šešerių metų laikotarpiui skiria Lietuvos Respublikos Prezidentas, keturis narius keturių metų laikotarpiui skiria Lietuvos Respublikos Seimas, du nariai - iš opozicinių frakcijų pasiūlytų kandidatų ir keturis narius deleguoja po vieną keturios visuomeninės arba valstybinės organizacijos. Kodėl šitą reikia sakyti dabar Seimo nariams, nepaisant to, kad tai gal ir žinomi dalykai. Todėl, kad būtent šių metų gegužės mėnesį baigiasi keturių tarybos narių kadencija. Tai yra Vlado Bagdono, Petro Dirgėlos ir dviejų jau anksčiau atsistatydinusių iš tarybos - Eduardo Eigirdo ir Vidmanto Valiušaičio kadencija. Vadinasi, Seimas... iš tikrųjų LRT tarybos vardu aš prašau Seimo, kad būtų paskirti nauji nariai arba patvirtinti anksčiau buvusieji ir kad būtų priimti bet kokie sprendimai, nes ne visa tarybos sudėtis mums trukdo darbui.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1018">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1018.p1325">Pranešėjau, jūsų laikas jau baigėsi. Dabar klausimai ir atsakymai.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1019">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1019.p1326">Ačiū už dėmesį.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1020">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1020.p1327">Gerbiamieji kolegos, kadangi nėra užsirašiusių opozicinių frakcijų seniūnų ar opozicijos lyderių, tokių nėra, tai pagal Statutą pradės klausti didžiausios frakcijos atstovus. Klausia E.Kaniava.</seg>
-        </u>
-        <note type="speaker">E.KANIAVA.</note>
-        <u ana="#regular" who="#KaniavaEdvardas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1021">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1021.p1328">Ačiū, gerbiamasis pirmininke. Tikrai buvo labai reikalingas mūsų susitikimas Radijo ir televizijos komitete, taryboje, buvo išgirstos įvairios nuomonės. Aš nebūsiu šiuo atveju toks skeptikas, kad teigčiau, jog mūsų nacionalinis transliuotojas netobulėja, kad nevykdo visuomeninės misijos. Tikrai pagausėjo kultūrinių laidų, gerėja ir kultūrinių laidų kokybė. Žinoma, būtų galima papriekaištauti dėl tų kultūrinių laidų transliavimo laiko, nes išties visas geriausias laikas yra atiduodamas komercinėms laidoms, o 17.30 val. ar 23.30 val. yra ne pats geriausias laikas rodyti gana neblogas, o kai kada net ir geras kultūrines laidas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1021.p1329">Bet mano galvos skausmas (ir ne tik mano, bet daugelio mūsų šalies atlikėjų, muzikantų) mūsų Lengvosios muzikos orkestro egzistencijos klausimas. Man labai įdomu, kokį vaidmenį atlieka taryba ir kaip dabar, kai yra raikomas tas biudžeto pyragas, kokia dalis yra skiriama orkestrui, nes žinau, kad situacija, ypač orkestrui tapus viešąja įstaiga, nėra per geriausia. Labai ačiū.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1022">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1022.p1330">Dėkoju. Primenu, kad klausimams viena minutė, kolegos. Prašom atsakyti, jeigu galima irgi trumpai.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1023">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1023.p1331">Labai ačiū už klausimą. Tai iš tikrųjų vienas iš svarbiausių klausimų, kuriuos dabar mes svarstome ir artimiausiame posėdyje sausio 27 d. mes grįšime prie orkestro problemų. Ir aš turiu pasakyti, kad ir taryboje yra dvi nuomonės šiuo klausimu- pritarti administracijos siūlymui ar nepritarti. Vienas variantas yra toks, kad Lengvosios muzikos orkestras galėtų būti reorganizuotas į bigbendo džiazo orkestrą, kita dalis tarybos narių mano, kad to daryti nereikėtų. Iš tikrųjų mūsų laukia diskusija, svarstymas, mes turime daugybės meno žmonių raštus šiuo klausimu ir aš galiu tik pažadėti, kad mes spręsime šitą dalyką atsakingai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1024">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1024.p1332">Klausia E.Klumbys, ruošiasi A.Gricius.</seg>
-        </u>
-        <note type="speaker">E.KLUMBYS.</note>
-        <u ana="#regular" who="#KlumbysEgidijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1025">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1025.p1333">Gerbiamasis pirmininke, tuoj po Naujųjų metų mirė signataras Petras Poškus. Buvo kreiptasi į Radijo ir televizijos generalinį direktorių Kęstutį Petrauskį, kad apie tai būtų pranešta &quot;Panoramoje&quot;. Ir ką jis atsakė: signataras mirė, ar tai žinia? Ir atsisakė pranešti. Po to į jį kreipėsi ir Seimo vicepirmininkas Č.Juršėnas, ir komiteto pirmininkas R.Pavilionis, bet buvo atsakyta. Po kelių dienų buvo parodytas reportažas, kad Prezidento patarėjas Gintaras Šurkus praleido kelis Alytaus tarybos posėdžius. Tai jau žinia Lietuvai. Ar jūs manote, gerbiamasis pirmininke, kad radijui ir televizijai toliau gali vadovauti valstybingumo svarbos nesuprantantis žmogus?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1026">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1026.p1334">Prašom atsakyti.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1027">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1027.p1335">Aš pabandysiu atsakyti štai kaip. Apie velionio signataro mirtį per Lietuvos radiją ir televiziją buvo perskaityta 16 informacinių pranešimų. Atsiprašau, vienuolika, suklydau. Dešimt per radiją: 5 dieną, 6 dieną ir 7 dieną, ir vieną kartą per televiziją. Tiesa, ne &quot;Panoramoje&quot;, per 18.30 val. vakaro žinias. Štai visa informacija, kurią aš turiu šiandien. Mes 27 dieną susirinkę diskutuosime, ar administracija padarė viską, ko buvo prašoma, tačiau per radiją ir televiziją buvo perskaityta vienuolika informacinių pranešimų. Per radiją dešimt, vienuoliktasis per televiziją.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1028">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1028.p1336">Klausia A.Gricius.</seg>
-        </u>
-        <note type="speaker">A.GRICIUS.</note>
-        <u ana="#regular" who="#GriciusAlgirdas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1029">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1029.p1337">Dėkui. Gerbiamasis pirmininke, mes puikiai suprantame, kad kiekviena politinė partija, kiekviena politinė jėga stengiasi parodyti savo galimą įtaką kokiu nors būdu prisikasti iki mūsų radijo ir televizijos. Tai visiškai suprantami norai, niekur nuo jų nedingsi. Matome mes ir politinių partijų, ir Švietimo, mokslo ir kultūros komiteto, ir kai kuriuos Prezidentūros veiksmus, kaip jūs minėjote. Ar jums neatrodo, kad to būtų galima išvengti, jeigu Seimui užtektų jėgų ir valios priimti tokį sprendimą, kad į tą komisiją, tarybą vieną kandidatą deleguotų Prezidentas, daugiausia du nuo daugumos ir mažumos Seimas, o likusius deleguotų kultūros, mokslo, švietimo, žiniasklaidos, tai yra įvairios visuomeninės organizacijos, ir deleguotų demokratišku būdu, o ne taip, kad viršininkas nutartų, ką deleguoti. Ir tada mes turėtume ilgalaikę, stabiliai dirbančią tarybą, kuri galėtų prisidėti prie mūsų visuomeninės televizijos tolesnio tobulinimo.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1030">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1030.p1338">Prašom atsakyti.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1031">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1031.p1339">Aš taip nemanau, nes mūsų taryba, nepaisant to, kas į ją yra delegavę, dirba konstruktyviai. Sunkiai dirba, bet konstruktyviai. Diskusijos kitą kartą užima daug laiko, bet neracionalių sprendimų mes nepriimame. Aš nematau tiesioginės partinių struktūrų įtakos tiems tarybos nariams, kurie dirba LRT taryboje. Nematau. Iš tiesų taip yra. Mes daugiausia diskutuojame tol, kol priimame bendru sutarimu arba vienbalsiai.</seg>
-          <vocal type="noise">
-            <desc xml:lang="lt">Balsas salėje, negirdėti</desc>
-          </vocal>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1032">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1032.p1340">Kolega suprato klausimą, tik patvirtino, kad dabartinės tarybos skyrimo proporcijos yra racionalios.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1033">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1033.p1341">Visiškai normalios.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1034">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1034.p1342">Klausia J.Čiulevičius.</seg>
-        </u>
-        <note type="speaker">J.ČIULEVIČIUS.</note>
-        <u ana="#regular" who="#ČiulevičiusJonas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1035">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1035.p1343">Dėkoju. Gerbiamasis pirmininke, sakykite, kodėl praėjus beveik mėnesiui jūs tik dabar kreipėtės į universiteto juristus, kaip jūs sakėte, dėl dviejų įstatymų, t.y. Radijo ir Prezidento įstatymų pažeidimo, ir kada galima tikėtis atsakymo, kada juos sužinos visuomenė?</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1036">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1036.p1344">Mes paprašėme, kad mums būtų atsakyta kaip įmanoma greičiau, ir kai tik mes gausime išaiškinimą, tuoj pat atsakysime. Iš tiesų mums nepakanka teisinio išsilavinimo, mes jo neturime. Kur yra problema? Jeigu administracija pažeidė įstatymus, mes juos nubaudžiame. Kas bus tada, kai administracija su LRT taryba pradės vaikščioti po teismus ir aiškinsis, kas teisėtai nubaudė, kas neteisėtai? Čia yra problema. Aš manau, kad vasario viduryje mes turėsime atsakymą.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1037">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1037.p1345">Klausia A.Kunčinas.</seg>
-        </u>
-        <note type="speaker">A.KUNČINAS.</note>
-        <u ana="#regular" who="#KunčinasAlgirdas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1038">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1038.p1346">Gerbiamasis pranešėjau, aš norėjau paklausti, ar Radijo ir televizijos taryba retkarčiais analizuoja visuomenines politines laidas, ir aš norėčiau paklausti konkrečiai. Man kartais susidaro vaizdas, kad kai kurių, o ypač radijo, visuomeninių politinių laidų vedėjai ne tik veda tas laidas, tačiau kitose laidose dalyvauja kaip tam tikrų vienų ar kitų politinių linijų šalininkai. Susiklosto gana keistas vaizdas, kai ir veda laidą, ir kitoje laidoje pasireiškia kaip politikas. Ar jūs manote, kad tokia padėtis yra normali?</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1039">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1039.p1347">Aš nemanyčiau, kad tai yra visiškai normali padėtis. Būtų gerai, kad mes sugebėtume išgirsti kuo daugiau žmonių nuomonę. Man taip pat, kaip tarybos pirmininkui, atrodo, kad laidose labai dažnai mes matome tuos pačius ir tuos pačius veidus, kai galėtume išgirsti platesnio žmonių spektro, platesnio politikų spektro nuomonę, ir tai galėtų būti naudinga mūsų visos visuomenės ugdymui. Aš manau, kad situacija palaipsniui susitvarkys.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1040">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1040.p1348">Klausia R.Pavilionis.</seg>
-        </u>
-        <note type="speaker">R.PAVILIONIS.</note>
-        <u ana="#regular" who="#PavilionisRolandas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1041">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1041.p1349">Labai ačiū. Gerbiamasis pirmininke, aš taip supratau iš mūsų gerbiamojo kolegos, kad taryba iš tikrųjų sudaryta iš labai politiškai nešališkų žmonių, ir niekas nekelia abejonių, kad, pavyzdžiui, Rimvydas Valatka yra tiesiog to nešališkumo etalonas. Dėl to niekam nekyla abejonių. Taip pat niekam nekyla abejonių, kad tarybos nariai atstovauja toms institucijoms, kurios jau seniai yra baigusios savo galiojimo laiką. Nei tam Seimui, kuris šiandien yra, nei tam Prezidentui, kuris šiandien yra.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1041.p1350">Bet aš norėjau paklausti jūsų kito dalyko. Susidaro labai objektyvus įspūdis, kad esant dabartinei sudėtingai situacijai jūsų vadovaujama taryba niekaip nepajėgia užtikrinti, kad būtų vykdomos principinės Radijo ir televizijos įstatymo nuostatos, kurios apibrėžia jo misiją. Užuot teikęs objektyvią, nešališką informaciją apie šalyje vykstančius labai sudėtingus politinius procesus, šis kanalas, ar šis transliuotojas, aiškiai užėmė atvirą šališką poziciją, ne tik telkiančią, bet kiršinančią visuomenę, ir tokių pavyzdžių yra labai daug. Į raštus, kuriuos mes siuntėme, jūs neatsakėte. Jūs sakote, kad reikia teisininkų pagalbos. Bet yra įstatymai, kurie įpareigoja atsakyti per tam tikrą laiką, ir mes negalime laukti iki vasario ar kovo, ar kitų metų vasaros.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1041.p1351">Todėl vis dėlto norėtume išgirsti atsakymą, ar jūs ketinate laikytis šių įstatymų? Kita vertus, nereikia, matyt, ypatingo teisinio išsilavinimo žmogui, kad jis suvoktų, kad jūsų veiklą reglamentuojančio įstatymo 5 straipsnis ir 9 straipsnis labai aiškiai sako, kam ir kada suteikiama teisė naudotis eterio laiku. Kokių dar reikia teisinių paslaugų jums, kurias mes galėtume suteikti galbūt pasitelkę Seimo Teisės departamento žmones? Nors žmogui su minimaliu išsilavinimu tai yra visiškai akivaizdu. Ar tai nėra šališkumas? Kaip jūs tai suprantate?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1042">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1042.p1352">Gerbiamasis kolega, vis tiek klausti viena minutė, o ne dvi.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1043">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1043.p1353">Ne, tai nėra šališkumas. Jūs, pone profesoriau, klausiate, ar mes nemanome, ar pažeidė. Jeigu mes atsakysime, kad manome, kad pažeidė ir po to bylinėsimės su administracija, ir jeigu juos nubausime neturėdami įstatymų išaiškinimo, tada mes būsime nuėję ne visai tuo keliu. Sutrikdysime darbą tos organizacijos, kuri dar šiaip taip dirba ir transliuoja laidas. Aš tik taip galiu atsakyti. Tikrai reikia kvalifikuotos teisininkų išvados ir tik po to galima priimti sprendimą. Jeigu bus išaiškinta, kad administracija pasielgė neteisėtai, ji bus nubausta. Antruoju kanalu buvo transliuojama, ir čia yra tam tikri spąstai teisiniu požiūriu. Taip yra.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1044">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1044.p1354">Klausia S.Lapėnas.</seg>
-        </u>
-        <note type="speaker">S.LAPĖNAS.</note>
-        <u ana="#regular" who="#LapėnasSaulius" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1045">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1045.p1355">Gerbiamasis pirmininke, iš tiesų stebinantis Švietimo, mokslo ir kultūros komiteto pirmininko tiesmukas kišimasis į Lietuvos televiziją, kuris akivaizdžiai prieštarauja valdžių atskyrimo principui. Vargu ar tai galima būtų paaiškinti netgi parlamentinės kontrolės idėja. Jūsų nuomone, kaip vis dėlto reikėtų atsiriboti nuo tokios galimos įtakos ir nuo tokio nuolatinio pirštu parodymo, kas leistų normaliai tarybos veiklai užtikrinti darbą?</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1046">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1046.p1356">Aš galėčiau atsakyti šiek tiek plačiau. Iš viso, man atrodo, kartais ir radijas, ir televizija, ir apskritai mūsų visuomenė pernelyg sureikšmina kai kuriuos dalykus. Na, atsitiko šitaip su naujametiniu sveikinimu. Dabar reikėtų labai normaliai pažiūrėti, konstruktyviai pasitarti, o kas sveikins tautą Vasario 16-osios proga, kad neišeitų stumdymasis, kas dabar turi sveikinti. Aš norėčiau agituoti nesureikšminti dalykų, kurie kartais įvyksta, kaip dabar dėl signataro mirties. 10 pranešimų per radiją, vienas per televiziją, šito yra maža. Na, administracija pasimokė, kitą kartą darys kitaip. Čia nėra tragedija, tai normalus darbo procesas, na, ką padarysi. Tragedija yra žmogaus netektis, o informacija apie tai nėra tragedija.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1047">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1047.p1357">Klausia J.Raistenskis.</seg>
-        </u>
-        <note type="speaker">J.RAISTENSKIS.</note>
-        <u ana="#regular" who="#RaistenskisJuozas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1048">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1048.p1358">Ačiū, pirmininke. Gerbiamasis profesoriau, esate žymus aplinkosaugininkas, tarptautinių premijų laureatas, jūsų švietėjiška veikla žinoma ne tik Europoje, bet ir pasaulyje. Mano klausimas būtų toks. Žinodamas, kad jūs esate drąsus žmogus, klausiu, ar artimiausiu metu planuojate respublikinio kanalo programas keisti mokslo populiarinimo, švietėjiškų laidų link, nes ta veikla būdinga jūsų gyvenimui, būdinga jums. Ar jūs darysite įtaką, būdamas pirmininkas, ir nebijosite tam tikros apkaltos ir tam tikrų priekaištų po to? Ačiū.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1049">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1049.p1359">Ne, aš nebijosiu, nes dar nėra tokios struktūros, kuri galėtų pakeisti mano įsitikinimus. Tai pirma tezė. Bet aš niekada nenorėsiu primesti tarybai ar administracijai vien savo nuomonės. Aš sakiau pranešime, kad rengiame strateginį veiklos planą. Jame bus sužymėti prioritetai. Neabejoju, kad vienas iš prioritetų bus švietimas, įvairiapusis visuomenės švietimas, įskaitant aplinkosauginį švietimą. Na, sakysime, kad ir toks dalykas. Darnaus vystymosi strategija yra patvirtinta, Lietuva ją įgyvendins, prie to dirbs 20 metų, vadinasi, ne viena karta. Apie tą reikia labai daug kalbėti ir labai normaliai kalbėti su žmonėmis. Manau, mes laipsniškai keisime ir programa darysis įdomesnė.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1050">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1050.p1360">Kolegos, laikui baigiantis paskutinysis klausia E.Šablinskas.</seg>
-        </u>
-        <note type="speaker">E.ŠABLINSKAS.</note>
-        <u ana="#regular" who="#ŠablinskasEduardas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1051">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1051.p1361">Aš tada trumpą klausimą, nes kitą turėjau ilgesnį. Dėl lietuvių pageidavimo Vokietijoje. Vasario 16-ąją jie vis dėlto norėtų matyti LTV laidą, lietuvių ten gausėja ir tas didžiulis centras, kur yra gimnazijos dalis. Kodėl iki šiol negali matyti ir kada, kokios galimybės?</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1052">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1052.p1362">Tai antroji televizijos programa turėtų...</seg>
-        </u>
-        <note type="speaker">E.ŠABLINSKAS.</note>
-        <u ana="#regular" who="#ŠablinskasEduardas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1053">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1053.p1363">Yra, pirmosios reikia.</seg>
-        </u>
-        <note type="speaker">R.PAKALNIS.</note>
-        <u ana="#guest" who="#PakalnisR" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1054">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1054.p1364">Dėl pirmosios yra techninių nesklandumų ir pinigų dalykai. Aš manau, mes kada nors pasieksime, gal per porą metų pasieksime, kad būtų galima matyti pirmąją programą per televiziją. Kitas dalykas, dar reikia labai pagerinti kokybę rodant platesnei auditorijai.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1055">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1055.p1365">Gerbiamieji kolegos, 16.03 val. pradėjome, 16.36 val. baigėme, klausimui skirtas pusės valandos laikas baigėsi. Kolegos, dėkojame pranešėjui, vis tiek nesuspėtų, nes dar yra daug norinčių klausti. Dabar imsimės kitų darbotvarkės klausimų. Prieš darbotvarkės klausimus repliką E.Klumbys.</seg>
-        </u>
-        <note type="speaker">E.KLUMBYS.</note>
-        <u ana="#regular" who="#KlumbysEgidijus" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1056">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1056.p1366">Gerbiamasis Seimo vicepirmininke, išklausęs šį pranešimą, atsakymus, aš galiu pasakyti, kad vis dėlto mūsų radijo ir televizijos valdžios tragedija ta, kad reikia kreiptis į Teisės universitetą ir išsiaiškinti, ar buvo pažeistas įstatymas, kai Prezidentui nebuvo leista kalbėti, pasveikinti tautą Naujųjų metų proga, ir neturi tie žmonės elementaraus moralinio supratimo, kad tą reikia padaryti, kai į juos kreipiasi aukščiausias valstybės pareigūnas.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1057">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1057.p1367">Ir repliką Seimo narys V.Einoris.</seg>
-        </u>
-        <note type="speaker">V.EINORIS.</note>
-        <u ana="#regular" who="#EinorisVytautas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1058">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1058.p1368">Gerbiamieji kolegos, aš labai gerbiu tarybos pirmininką ir generalinį direktorių. Norėčiau kreiptis kaip pilietis. Neleiskite iš mūsų vadovo, Prezidento (neaišku, kas bus pabaigoje) šaipytis ir niekinti. Juk niekiname patys save. Aš noriu pasakyti, kas susiję su Rita Miliūte. Jūs paklausykite, kaip ji veda programą. Neleiskite, tai nedaro garbės niekam iš mūsų, tuo labiau jums. Jūs gerbiami žmonės. Tiesiog gėda klausyti. Ieško nepamestų dalykų, būtinai grįžta specialiai prie tos temos, pradeda, pabaigoje vėl grįžta. Kaip atrodo? Kaip mes atrodome? Jūs nemanykite, kad žmonės, kurie klauso, vadinami &quot;runkeliai&quot;... Ir jie supranta, skambučiai ir skambučiai. Kada baigsis ši nesąmonė? Neleiskite. Jūs garbingi žmonės. Jūs turite didžiulę atsakomybę. Nereikia šitaip daryti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1059">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1059.p1369">Dėkoju, kolegos, visos replikos išsakytos. Dabar, kolegos, norėčiau pasakyti, kad darbotvarkėje liko daug klausimų. Jeigu pranešėjas Z.Balčytis ir gerbiamasis Jonas Gečas nesupyktų, aš pakviesčiau prieš juos Č.Juršėną, jis paprašė pirmumo. Ar gerbiamasis ministras nesupyks? Tuomet kviečiu Č.Juršėną dėl rezervinių, nes jie buvo planuoti 13 valandą. Pirmoji dienos pusė buvo labai apkrauta. Prašom, gerbiamasis Seimo Pirmininko pirmasis pavaduotojau. Seimo nutarimas dėl Seimo komitetų sudėties.</seg>
-        </u>
-        <note type="legislative">Seimo nutarimo &quot;Dėl Seimo nutarimo &quot;Dėl Seimo komitetų sudėties patvirtinimo&quot; 3 ir 14 straipsnių pakeitimo&quot; projektas Nr.IXP-3179 (svarstymas ir priėmimas)</note>
-        <note type="speaker">Č.JURŠĖNAS.</note>
-        <u ana="#regular" who="#JuršėnasČeslovas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1060">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1060.p1370">Dėkoju, gerbiamasis pirmininke, ir dėkoju kolegoms už supratimą, taip pat ir ministrui. Klausimas iš tikro yra labai paprastas. Čia vienos frakcijos apsisprendimas, kaip dviejų komitetų žmones sukeisti vietomis. Štai ir viskas. Kviečiu patvirtinti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1061">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1061.p1371">Ar mes galėtume pritarti? Siūloma išbraukti M.Bastį, įrašyti J.Utovką. Gal vis dėlto pavardes siūloma išbraukti, bet ne pačius žmones. Taigi, kolegos, ar galėtume priimti šį Seimo nutarimą? Ar norinčių kalbėti dėl motyvų yra? Nėra. Kolegos, tuomet registruojamės ir balsuojame dėl Seimo nutarimo &quot;Dėl Seimo nutarimo &quot;Dėl Seimo komitetų sudėties patvirtinimo&quot; 3 ir 14 straipsnių pakeitimo&quot;. Balsavimas pradėtas.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1061.p1372">Kolegos, 44 užsiregistravus, 44 balsavus už, nė vienam nebalsavus prieš ir nesusilaikius, Seimo nutarimas priimtas. Dėkui.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl 1996 m. tarptautinės konvencijos dėl atsakomybės ir kompensacijos už žalą, susijusią su pavojingų ir kenksmingų medžiagų vežimu jūra, ratifikavimo projektas Nr.IXP-3190ES (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1062">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1062.p1373">Dabar kviečiu gerbiamąjį ministrą Z.Balčytį pateikti Įstatymo dėl 1996 metų tarptautinės konvencijos dėl atsakomybės ir kompensacijos už žalą, susijusią su pavojingų ir kenksmingų medžiagų vežimu jūra, ratifikavimo projektą. Pateikimas. Prašome, ministre.</seg>
-        </u>
-        <note type="speaker">Z.BALČYTIS.</note>
-        <u ana="#regular" who="#BalčytisZigmantas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1063">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1063.p1374">Gerbiamasis posėdžio pirmininke, gerbiamieji kolegos, pagrindinis konvencijos ratifikavimo tikslas - pirmiausia suderinti Lietuvos Respublikos teisės normas su tarptautinėmis teisės normomis pavojingų ir kenksmingų medžiagų vežimo jūra srityje.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1063.p1375">Antra, taikyti tarptautines taisykles, reglamentuojančias atsakomybę ir kompensaciją už žalą, susijusią su pavojingų ir kenksmingų medžiagų vežimu jūra. Ir trečia, užtikrinti geresnę asmenų, nukentėjusių nuo, kaip minėjau, šių veikų, apsaugą.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1063.p1376">Atsakomybės ir kompensacijos už žalą, susijusią su minimu pavojingų ir kenksmingų medžiagų vežimu jūra, klausimai šiuo metu reglamentuojami bendrosiomis žalos atlyginimą reglamentuojančiomis teisės normomis, kurios yra įtvirtintos Civiliniame kodekse ir Prekybinės laivybos įstatyme, tai mes priėmėme praeitais metais. Skirtingai nei Lietuvos Respublikos įstatymuose konvencijoje yra įtvirtinamos specialiosios teisės normos, skirtos reglamentuoti žalos, susijusios su pavojingų ir kenksmingų medžiagų vežimu jūra, atlyginimą. Kitaip sakant, šioje konvencijoje numatytos procedūros užtikrins veiksmingesnę kompensaciją asmenims, patyrusiems žalą dėl incidentų, susijusių su nurodytų pavojingų ir kenksmingų medžiagų vežimu. Be to, yra sprendžiamas žalos atlyginimo klausimas, bus vadovaujamasi tarptautinės teisinėmis normomis, reglamentuojančiomis civilinės atsakomybės nustatymo ir žalos atlyginimo procedūras.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1063.p1377">Taip pat norėčiau pažymėti, kad ši konvencija yra neįsigaliojusi, tačiau užpraeitų metų lapkričio 18 dieną Europos Tarybos specialaus sprendimo 3 straipsnis Europos Sąjungos valstybes nares įpareigojo imtis priemonių, kad šios konvencijos ratifikavimo arba prisijungimo prie jos dokumentai per tam tikrą laikotarpį būtų pateikti Tarptautinės jūrų organizacijos generaliniam sekretoriui, kuris juos turėtų deponuoti. Tokia galbūt būtų labai trumpai esmė dėl labai svarbios konvencijos.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1064">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1064.p1378">Ačiū, ministre, jūs pristatėte. Niekas nenori jūsų paklausti. Ar galime pritarti bendru sutarimu po pateikimo? Pritarta. Pagrindinis komitetas - Užsienio reikalų komitetas, papildomi - Aplinkos apsaugos komitetas ir Ekonomikos komitetas. Ministras siūlo svarstyti pratęstoje rudens sesijoje. Pritariame? Pritariame. Dėkoju.</seg>
-        </u>
-        <note type="legislative">Įstatymo dėl Valstybių, dalyvaujančių Daugianacionalinėje nuolatinės parengties greitojo reagavimo brigadoje Jungtinių Tautų operacijoms, susitarimo dėl jų pajėgų statuso ratifikavimo projektas Nr.IXP-3191 (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1065">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1065.p1379">Kviečiu į tribūną gerbiamąjį Joną Gečą pateikti įstatymo &quot;Dėl valstybių, dalyvaujančių Daugianacionalinėje nuolatinės parengties greitojo reagavimo brigadoje Jungtinių Tautų operacijoms, susitarimo dėl jų pajėgų statuso ratifikavimo&quot; projektą. Prašom, viceministre.</seg>
-        </u>
-        <note type="speaker">J.GEČAS.</note>
-        <u ana="#guest" who="#GečasJ" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1066">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1066.p1380">Gerbiamasis pirmininke, gerbiamieji Seimo nariai, 1998 metų (...) dieną Lietuvos Respublika sudarė sutartį, memorandumą, su Jungtinėmis Tautomis ir pagal jį tam tikras mūsų karinių pajėgų dalis priskyrė Jungtinių Tautų greitojo reagavimo brigadai. Kopenhagoje praėjusių metų spalio 29 dieną Lietuvos nepaprastasis ir įgaliotasis ambasadorius Deividas Matulionis pasirašė memorandumą dėl tų pajėgų statuso. Tai yra šiame memorandume numatoma, kaip vienoje ar kitoje šalyje esantys tie padaliniai bus traktuojami, finansuojami, kokia teisė jiems bus taikoma. Šias sutartis yra pasirašiusios Danija, Italija, Nyderlandai, Norvegija, Rumunija, Švedija ir šiuo metu vyksta derybos dar su daugeliu šalių. Todėl Seimą prašytume ratifikuoti šį sutarimą.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1067">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1067.p1381">Dėkoju. Jūsų nori paklausti A.Gricius.</seg>
-        </u>
-        <note type="speaker">A.GRICIUS.</note>
-        <u ana="#regular" who="#GriciusAlgirdas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1068">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1068.p1382">Dėkui. Jungtinių Tautų neefektyvumas ar palaikant taiką, ar bandant net kai kur įvesti taiką yra visam pasauliui žinomas dalykas. Daugiausia į tą klausimą atsakoma, kad nėra pinigų. Todėl dabar aš norėčiau naudodamasis proga (gal netiesiogiai dėl pateikiamo ratifikavimo, aš suprantu), kad gal jūs galėtumėte pasakyti vis dėlto dėl tos praktikos, jeigu mes pradėsime aktyviai ten reikštis, kas mums mokės pinigus? Ačiū.</seg>
-        </u>
-        <note type="speaker">J.GEČAS.</note>
-        <u ana="#guest" who="#GečasJ" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1069">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1069.p1383">Šiame memorandume yra numatoma, kad dalį pinigų padengia Jungtinės Tautos, dalį išlaidų padengia valstybė, kuri siunčia. Visos Jungtinių Tautų operacijos iš esmės yra finansuojamos iš Jungtinių Tautų biudžeto. Problema yra tik ta, kad tas biudžetas yra grąžinamas su dvejų trejų metų vėlavimu. Pavyzdžiui, Lietuvos atveju jis jau nepatektų krašto apsaugai, nors ir iš mūsų būtų finansuojama, bet patektų valstybei, nes toks yra įstatymas. Mes esame delegavę labai nedidelį skaičių į Jungtinių Tautų greitojo reagavimo pajėgas, tai yra aštuonis medikus ir dvi ambulatorines mašinas.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1070">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1070.p1384">Dėkoju pranešėjui. Kolegos, ar galime pritarti bendru sutarimu po pateikimo? Pritarta.
-            <vocal type="noise">
-              <desc xml:lang="lt">Balsas salėje: balsuojame</desc></vocal>Yra prieštaraujančių? Ar tik dėl užsiregistravimo? Yra prieštaraujančių. Kolegos, prašome išreikšti savo valią balsavimu.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1070.p1385">Kolegos, 34 balsavus už, 1 - prieš, 5 susilaikius, užsiregistravus 43 Seimo nariams, po pateikimo pritarta. Pagrindinis komitetas - Užsienio reikalų komitetas, papildomas - Nacionalinio saugumo ir gynybos komitetas. Siūloma svarstyti pavasario sesijoje. Sutariam? Sutarta.</seg>
-        </u>
-        <note type="legislative">Seimo nutarimo &quot;Dėl Seimo Operatyvinės veiklos parlamentinės kontrolės komisijos nuostatų patvirtinimo&quot; projektas Nr.IXP-3151 (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1071">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1071.p1386">Kolegos, kviečiu N.Medvedevą pateikti Seimo nutarimo &quot;Dėl Seimo Operatyvinės veiklos parlamentinės kontrolės komisijos nuostatų patvirtinimo&quot; projektą. Prašome Seimo narį į tribūną.</seg>
-        </u>
-        <note type="speaker">N.MEDVEDEV.</note>
-        <u ana="#regular" who="#MedvedevNikolaj" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1072">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1072.p1387">Šis projektas buvo apsvarstytas kelis kartus komisijoje, paskui pateiktas Teisės departamentui, departamentas pateikė pastabas, tas pastabas įvertinome. Dabar šis nutarimas ir šie nuostatai jums pateikti. Prašyčiau pritarti. Tai yra beveik tipiniai nuostatai, bet juose įvertintos šios komisijos ypatybės. Tiek.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1073">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1073.p1388">Dėkoju. Jūsų nori paklausti V.Rinkevičius. Prašom.</seg>
-        </u>
-        <note type="speaker">V.RINKEVIČIUS.</note>
-        <u ana="#regular" who="#RinkevičiusViktoras" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1074">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1074.p1389">Ačiū. Aš šiek tiek kitokį klausimą. Ar jūs, komisija galėtų pateikti Seimo nariams informaciją apie &quot;plonųjų&quot; operatyvinių priemonių vykdymą Lietuvoje, pavyzdžiui, telefonų pasiklausymus? Kokie mastai? Kiek tokių atvejų yra Lietuvoje per metus, kad turėtume supratimą, kokiais mastais čia viskas vyksta? Iš tų paskutinių įvykių, kurie yra Lietuvoje, iš Prezidento tų visų skandalų, kiek tos informacija buvo teikta, susidaro toks įspūdis, kad čia yra didžiuliai mastai visų operatyvinių priemonių taikymo, pasiklausymo ir t.t. Tai rodo, kad demokratinėje valstybėje galbūt neturėtų tokiais didžiuliais mastais būti vykdomos tos priemonės. Kad turėtume tokią išsamesnę informaciją, gal ją galėtumėte pateikti Seimo nariams? Ar jūs patys bent turite galimybę apie tai sužinoti?</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1075">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1075.p1390">Palaukite, gerbiamasis pranešėjau, vieną minutę. Gerbiamasis Seimo nary, kaip jūs žinote, negalima užduoti klausimų ne į temą. Šiuo atveju Seimo nutarimas yra dėl Operatyvinės veiklos parlamentinės kontrolės komisijos nuostatų patvirtinimo.</seg>
-        </u>
-        <note type="speaker">V.RINKEVIČIUS.</note>
-        <u ana="#regular" who="#RinkevičiusViktoras" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1076">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1076.p1391">Bet aš labai norėčiau...</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1077">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1077.p1392">Gerbiamasis pranešėjau, labai trumpai, nes iš tikro man Statutas neleidžia daryti tai...</seg>
-        </u>
-        <note type="speaker">N.MEDVEDEV.</note>
-        <u ana="#regular" who="#MedvedevNikolaj" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1078">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1078.p1393">Noriu pasakyti, kad pasiklausymų kiekis vienam tūkstančiui gyventojų, palyginti su Anglija, Jungtinėmis Amerikos Valstijomis ir kitomis Europos valstybės, yra kur kas mažesnis. Mūsų VSD neturi nei lėšų, nei tokios technikos, kad visa tai atliktų. Ir tie, kurie neužsiima jokiais abejotinais dalykais, tikrai, manau, kol kas, mes įsitikinę, gali būti ramūs. Jie nėra įdomūs VSD ir kitoms tarnyboms.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1079">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1079.p1394">Gerbiamasis pranešėjau, manau, kad dėl to, ko klausė Seimo narys, jūs patvirtinę nuostatus padarysite pranešimą, Seimui tai reikalinga.</seg>
-        </u>
-        <note type="speaker">N.MEDVEDEV.</note>
-        <u ana="#regular" who="#MedvedevNikolaj" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1080">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1080.p1395">Būtinai. Pagal tuos nuostatus.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1081">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1081.p1396">Nes tam jūsų komisija ir sukurta.</seg>
-        </u>
-        <note type="speaker">N.MEDVEDEV.</note>
-        <u ana="#regular" who="#MedvedevNikolaj" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1082">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1082.p1397">Būtent tam.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1083">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1083.p1398">Kol kas, kolegos, ar galime pritarti bendru sutarimu siūlomam nutarimui? Pritariam. Ačiū.</seg>
-        </u>
-        <note type="speaker">N.MEDVEDEV.</note>
-        <u ana="#regular" who="#MedvedevNikolaj" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1084">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1084.p1399">Labai dėkingas.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1085">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1085.p1400">Pagrindinis komitetas - Nacionalinio saugumo ir gynybos komitetas, papildomas - Teisės ir teisėtvarkos komitetas. Sutariam? Sutariam. Siūloma svarstyti... Gerbiamasis pranešėjau, gerbiamieji kolegos, prašyčiau dėmesio! Gerbiamasis pranešėjau! Jūs, pristatydamas projektą, nepasiūlėte datos, kada svarstyti. Kadangi Seniūnų sueiga taip pat nepasiūlė datos, tai ar galime kreiptis į Nacionalinio saugumo ir gynybos komitetą, kad šis projektas būtų išnagrinėtas dar šioje, pratęstoje, rudens sesijoje? Galime.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1085.p1401">Ačiū, kolegos. Tuomet Seimo seniūnų sueiga galutinai patvirtins datą, o dabar įrašome, kad šioje pratęstoje rudens sesijoje. Dėkui.</seg>
-        </u>
-        <note type="legislative">Mokesčių administravimo įstatymo 29 ir 38 straipsnių pakeitimo įstatymo projektas Nr.IXP-3178(2*) (svarstymas) (taikoma skubos tvarka)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1086">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1086.p1402">Kolegos, mes jau aplenkėme laiką, dabar imamės dviejų rezervinių klausimų. Kviesčiau į tribūną B.Bradauską pateikti svarstyti Mokesčių administravimo įstatymo 29 ir 38 straipsnių pakeitimo įstatymo projekto rezultatus. Šis projektas buvos svarstytas Biudžeto ir finansų komitete. Prašom.</seg>
-        </u>
-        <note type="speaker">B.BRADAUSKAS.</note>
-        <u ana="#regular" who="#BradauskasBronius" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1087">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1087.p1403">Gerbiamasis posėdžio pirmininke, gerbiamieji kolegos, teikiu svarstyti Mokesčių administravimo įstatymo 29, 38 straipsnių papildymus, kuriais yra išaiškinama beviltiška skola arba beviltiška nepriemoka ir kada ji yra įskaitoma. Biudžeto ir finansų komitetas šį klausimą apsvarstė ir bendru sutarimu jam pritarė. Gerbiamieji kolegos, siūlau pritarti.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1088">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1088.p1404">Gerbiamieji kolegos, norinčių dalyvauti diskusijoje nematau. Ar galime pritarti po svarstymo šiam įstatymo projektui bendru sutarimu? Pritarta. Kadangi taikoma skubos tvarka, aš kreipiuosi į Č.Juršėną, kad būtų numatyta priėmimo data dar šioje pratęstoje sesijoje. Ačiū.</seg>
-        </u>
-        <note type="legislative">Seimo nutarimo &quot;Dėl nuosavybės teisių į žemę miestuose atkūrimo problemų&quot; projektas Nr.IXP-3153 (pateikimas)</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1089">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1089.p1405">Paskutinysis darbotvarkės klausimas. Kviečiu J.Juozaitienę pateikti Seimo nutarimo &quot;Dėl nuosavybės teisių į žemę miestuose atkūrimo problemų&quot; projektą. Prašom. Pateikimas.</seg>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1090">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1090.p1406">Garbusis Seime, teikiu jums nutarimo &quot;Dėl nuosavybės teisių į žemę miestuose atkūrimo problemų&quot; projektą. Pabrėždami būtinumą baigti nuosavybės grąžinimą 2004 metais ir atsižvelgdami į Seimo Laikinosios komisijos nuosavybės teisių į žemę atkūrimo tvarkos pažeidimams Vilniaus apskrityje tirti stebėsenos metu gautą informaciją, iš kurios matyti, kad dėl miestų politikų veiksmų žemės grąžinimas miestuose pagal Lietuvos Respublikos piliečių nuosavybės teisių į išlikusį nekilnojamąjį turtą atkūrimo įstatymą ir nustatytą tvarką vyksta nepakankamai, nutariame: &quot;Siūlyti miesto savivaldybėms ir apskričių administracijoms parengti bendrus priemonių planus dėl greitesnio nuosavybės teisių atkūrimo teisėtiems savininkams, vykdant Konstitucinio Teismo 2001 m. balandžio 2 d. nutarimą. Siūlyti Vyriausybei išnagrinėti priežastis, dėl kurių yra blogai vykdomas Vyriausybės 2002 m. rugsėjo 19 d. nutarimas Nr.1475 dėl Lietuvos Respublikos Vyriausybės 1997 m. rugsėjo 29 d. nutarimo Nr. 1057 dėl Lietuvos Respublikos piliečių nuosavybės teisių į išlikusį nekilnojamąjį turtą atkūrimo įstatymo įgyvendinimo tvarkos ir sąlygų pakeitimo nuostatos, skirtos Konstitucinio Teismo nutarimo įgyvendinimui, ir apsvarstant galimybę tobulinti minėtus nutarimus, šalinant prieštaravimus kompetencijos klausimais tarp savivaldybių ir apskričių administracijų&quot;.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1090.p1407">Noriu priminti, kad anksčiau dėl žemės nuosavybės klausimų pagrindinis klausimas iškildavo pasiaiškinant, kad nėra pinigų, o dabar pagrindinė priežastis yra kompetencijos nepasidalijimas tarp savivaldybės ir apskričių. Aš manau, kad būtų galima patobulinti Vyriausybės nutarimą labai aiškiai sukonkretinus, kokios kompetencijos sritys yra apskritims, kokios yra savivaldybėms, kad dokumentai nebūtų mėtomi iš vienos vietos į kitą, ir ką reikėtų daryti tuo atveju, jeigu ir vieni, ir kiti atsisako spręsti klausimą, kad tai yra ne jų kompetencijos klausimas.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1091">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1091.p1408">Dėkoju. Jūsų nori paklausti trys Seimo nariai. Klausia E.Karečka.</seg>
-        </u>
-        <note type="speaker">E.KAREČKA.</note>
-        <u ana="#regular" who="#KarečkaEdvardas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1092">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1092.p1409">Ačiū. Teikiamas labai svarbus klausimas. Man norėtųsi teikėjos paklausti, ar buvo kur nors parengti bendri priemonių planai?</seg>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1093">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1093.p1410">Buvo. Buvo Vilniaus apskrityje sukurta bendra darbo grupė iš savivaldybės ir apskrities narių. Pasakyčiau, kad tikrai klausimų sprendimas, bent jau sprendimo tempas tikrai padidėjo.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1094">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1094.p1411">Klausia A.Poplavski.</seg>
-        </u>
-        <note type="speaker">A.POPLAVSKI.</note>
-        <u ana="#regular" who="#PoplavskiAleksander" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1095">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1095.p1412">Ačiū, pirmininke. Gerbiamoji pranešėja, mes žinome, kad piliečių teisių į išlikusį nekilnojamąjį turtą ir žemę klausimas yra labai ilgai eskaluojamas ir, deja, ryškių poslinkių būtent šioje srityje mes nematome. Ar jums neatrodo, kad reikėtų kokių nors radikalesnių priemonių, išaiškinant pažeidimus, išaiškinant tuos galbūt mūsų valstybės aukščiausius pareigūnus, ir galbūt reikėtų imtis pačių drastiškiausių priemonių, kad šis klausimas pajudėtų iš vietos, galbūt būtent ne tobulinant ryšį tarp savivaldybių ir apskričių, bet gal reikėtų daug drastiškesnių priemonių. Jūs esate pirmininkė laikinosios komisijos, kuri tiria tas negeroves Vilniaus krašte, ir aš norėčiau išgirsti jūsų nuomonę.</seg>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1096">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1096.p1413">Aš manau, kad mes jau ėmėmės drastiškesnių priemonių, nes šiaip jau Seimas dažniausiai nesiūlo Vyriausybei koreguoti jos pačios nutarimų. O dabar mes iš esmės prašome labai aiškiai ir labai konkrečiai, kad būtų sukonkretinta tiek datos, tiek atsakomybės klausimas ir kad būtų pateiktas labai konkretus ir artimiausiu laiku Seimui jų priemonių planas, ką jie rengiasi padaryti, kad vis dėlto šis klausimas pajudėtų iš mirties taško.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1097">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1097.p1414">Ir paskutinysis klausia V.Tomaševski.</seg>
-        </u>
-        <note type="speaker">V.TOMAŠEVSKI.</note>
-        <u ana="#regular" who="#TomaševskiValdemar" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1098">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1098.p1415">Gerbiamoji pranešėja, žemės grąžinimas kaimo rajonuose atrodo maždaug taip: visu šiuo darbu užsiima apskrities administracija, o sklypus projektuoja samdyti apskrities matininkai. Vyriausybės nutarimai miestuose numato kitaip: žemės grąžinimu lyg ir užsiima apskritys, bet žemės sklypus projektuoja tik miestų savivaldybės. Čia yra tam tikra problema, nes miestų savivaldybės nenori šito sklypo projektuoti grąžinimui, o projektuoja tik pardavimui aukcionuose už pinigus. Ir klausimas būtų toks. Ar jūs nemanote, kad reikia dėl to pildyti Vyriausybės nutarimą ir kiek laiko reikėtų Vyriausybei papildyti šį nutarimą, numatant išeitį iš šios pato situacijos, nes dabar išeina taip, kad savivaldybė neprojektuoja ir niekas negali priversti, kad ji projektuotų žemę grąžinimui, kaip numato įstatymas ir Konstitucinio Teismo sprendimai.</seg>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1099">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1099.p1416">Aš manau, kad mūsų Vyriausybė tai sugebėtų padaryti ir per mėnesį. Reikia tik noro.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1100">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1100.p1417">Dėkoju pranešėjai. Jūs atsakėte į visus klausimus. Dabar toks formalus klausimas. Yra Teisės departamento išvada, kurioje yra nemažai pastabų. Ar jūs manytumėte, kad galima bus dar patobulinti, atsižvelgiant į pastabas.</seg>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1101">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1101.p1418">Mes buvome susirinkę per pietų pertrauką, peržiūrėjome visas Teisės departamento pastabas. Su redakcinėmis pastabomis komisija sutinka, bet komisija norėtų ir prašytų, kad Teisės departamentas nesilaikytų tokios tvarkos, jog savo išvadas paduoda tiesiai prieš svarstymą. Mums vis tiek reikia su tuo susipažinti ir visa tai apsvarstyti. Aš manau, kad su redakcinėmis pastabomis mes sutinkame. Su pastaba dėl kišimosi į teismų darbą mes taip pat sutinkame ir mes tą pastraipą apie administracinį teismą išbrauksime.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1102">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1102.p1419">Dėkoju. Gerbiamoji pranešėja, gerbiamieji kolegos, ar galime pritarti po pateikimo bendru sutarimu? Pritariame. Dabar, kolegos, turėtume apsispręsti, kokį komitetą siūlysime pagrindiniu ir kokius papildomais. Kokia būtų pranešėjos nuomonė? Gerbiamoji pranešėja! Kažkodėl šiandien manęs pranešėjai negirdi. Jūs nebaigėte savo darbo, aš dar nepaprašiau... Aš norėčiau paklausti, kokį komitetą jūs siūlytumėte pagrindiniu, nes Seniūnų sueiga šiuo atveju paliko jums laisvas rankas.</seg>
-          <vocal type="noise">
-            <desc xml:lang="lt">Balsai salėje</desc>
-          </vocal>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1103">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1103.p1420">Ne, ne.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1104">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1104.p1421">Valstybės valdymo ir savivaldybių komitetą, Aplinkos apsaugos, ką siūlysite?</seg>
-        </u>
-        <note type="speaker">J.JUOZAITIENĖ.</note>
-        <u ana="#regular" who="#JuozaitienėJūratė" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1105">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1105.p1422">Valstybės valdymo ir savivaldybių komitetą, manau, ir Teisės ir teisėtvarkos komitetą.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1106">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1106.p1423">Kolegos, gal tada padarykime taip, pagrindiniu pranešėja siūlo Valstybės valdymo ir savivaldybių komitetą, o aš papildomus siūlyčiau Aplinkos apsaugos komitetą ir Teisės ir teisėtvarkos komitetą. Sutariame? Ačiū, kolegos. Sutariame ir tuomet siūloma svarstyti dar šioje pratęstoje sesijoje, atsižvelgiant į Teisės departamento pastabas. Ačiū, kolegos, pritarta po pateikimo ir sutarta dėl komitetų.</seg>
-        </u>
-        <note type="debate">Seimo narių pareiškimai</note>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1107">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1107.p1424">Kolegos, mes aplenkėme laiką ir dabar aš kviesčiau Seimo narį R.Pavilionį perskaityti pranešimą, nors mes šiek tiek ir anksčiau baigėme. Jūs gal neprieštarausite dabar skaityti? Taip, pareiškimą. Prašome, kolegos, mes anksčiau laiko kviečiame perskaityti pareiškimą</seg>
-        </u>
-        <note type="speaker">R.PAVILIONIS.</note>
-        <u ana="#regular" who="#PavilionisRolandas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1425">Dėkoju, gerbiamasis posėdžio pirmininke.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1426">Gerbiamieji kolegos, aš norėčiau pasakyti keletą žodžių apie vienos nuomonės žavesį. Tiesiog kaip tokią intelektualinę atgaivą, kad jūs trupučiuką pailsėtumėte, jeigu jums tai įdomu.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1427">Iš tikrųjų, rimtai kalbant, aš noriu atkreipti jūsų dėmesį į daug ką pasakančią ir mus visus labai pamokančią pastarųjų mėnesių Lietuvos politinę raidą ir jos atspindį Seime. Pradžioje, kaip ir dera epochinės reikšmės įvykiams, buvo žodis. Saugumo departamento pažyma apie galimas, t.y. virtualias grėsmes nacionaliniam saugumui, dar tiksliau, apie tokių grėsmių tendencijas. Po to žodis pradėjo virsti kūnu. Paaiškėjo, kad iš tikrųjų kalbama apie grėsmes, realias ar virtualias, konkrečiam kūnui - Respublikos Prezidentui. Taip mums teisingai, tikrai teisingai paaiškino Seimo Pirmininkas ir pakvietė visus telktis ir saugoti Respublikos Prezidentą nuo aplink jį susitelkusių grėsmių.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1428">Tačiau trečiajame grėsmių žygyje per Lietuvą įvyko neįtikėtina, lemtinga grėsmių metamorfozė, jų savotiška transformacija. Laikinoji tyrimo komisija, leiskite ją pavadinti ypatingąja grėsmių komisija, nustatė, kad jau ne Prezidentas, ne jo aplinka, t.y. ne aplinka, o pats Prezidentas yra didžiausia grėsmė nacionaliniam, t.y. visų mūsų saugumui.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1429">Tada buvo sudaryta kita, dar specialesnė tyrimų komisija, kuri praėjusį penktadienį nustatė, o jos vicepirmininkas ponas J.Sabatauskas visai tautai paskelbė, kad šalia jau įrodytų grėsmių iškilo grėsmė pačiai komisijai. Mat atsirado keistų Seimo narių, kurie panoro be leidimo, atvirai, ne už uždarų durų, laisvai diskutuoti apie realias grėsmes nacionaliniam saugumui, demokratijai, laisvei ir žmogaus orumui, nesikėsinant nei į komisijos atsakomybę, nei į jos įgaliojimus, nei į jos kompetenciją, o tuo labiau į jos autoritetą. Atsirado keistų Seimo narių, kurie kažkodėl galvoja, kad kaip tik parlamente galima ir būtina laisvai ir plačiai, ypač žvelgiant į ateitį, kalbėti apie grėsmes laisvei, demokratijai ir teisingumui. Trumpai tariant, atsirado keistų Seimo narių, kurių nekausto baimė susidaryti ir turėti savo nuomonę. Tačiau komisijai, matyt, tai nėra suvokiama.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1430">Dar daugiau, susidarė įspūdis, jog komisiją sukaustė baimė išgirsti kitą nuomonę. Baimė, jog galutinį sprendimą dėl apkaltos darys ne komisija ir net ne Konstitucinis Teismas, o kiekvienas Seimo narys savo protu ir savo sąžine, lygiai taip, kaip kiekvienas rinkėjas savo protu ir savo sąžine darys sprendimą dėl kiekvieno Seimo nario.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1431">Todėl grėsmių komisija kreipėsi į Etikos komisiją, kad ši paaiškintų, ar toks nenormalus kai kurių Seimo narių noras laisvai diskutuoti, kai reikia tylėti ir laukti galutinio ir neginčijamo komisijos sprendimo, neprieštarauja etikai, ar iš viso nepažeidžia Konstitucijos ir Seimo nario priesaikos. Šiuo pareiškimu aš tik noriu atkreipti jūsų dėmesį, kad toks specialiosios grėsmių komisijos kreipimasis į Etikos komisiją yra pernelyg kuklus ir švelnus.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1432">Visų pirma tokiame kreipimesi turėtų būti mažų mažiausiai šeši, o dar geriau - vienuolika kaltinimų. Kiekvienas jų turėtų būti pagrįstas kitos, ankstesnės komisijos išvadomis, o tos išvados būtinai turėtų baigtis žodžiais &quot;todėl šiurkščiai pažeidė Konstituciją ir priesaiką ir privalo atsistatydinti&quot;. Tačiau ir tai būtų pernelyg kuklu ir švelnu. Trūktų svarbiausio akcento, pamokančio visus dabartinio Seimo ir būsimų seimų narius: kol neturi specialiosios komisijos leidimo, privalai tylėti, nereikšti jokios savo nuomonės iki tavo nuomonę, tavo nuomonę suformuluos komisija. Ji tam ir sukurta. Tam ji ir dirba, kad sudarytų vieną vienintelę nuomonę iš 137.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1433">Tai juodas alinantis darbas, kurio niekam neleistina trikdyti. Tai milžiniškas krūvis, kurio nepakeltų joks britų, prancūzų ar net Europos Parlamentas, net neįsivaizduojantis, jog pasistengęs, rimtai pasistengęs ir jis galėtų apsieiti be jokių diskusijų ir iš kokių 500 ar 600 nuomonių sudaryti vieną vienintelę. Esu įsitikinęs, kaip tik šiuo unikaliu sugebėjimu suglausti visas nuomones į vieną, mes, mūsų jauna demokratija, jau nuo gegužės 1 d. iš esmės praturtinsime senąją Europą, Europos Sąjungą, Europos Parlamentą ir, atvirai šnekant, šiek tiek jau priplėkusią Europos parlamentarizmo tradiciją. Ir niekas, joks parlamentaras Briuselyje ar Strasbūre, savo nevaržomu, neleistinai laisvu kalbėjimu nedrįs trikdyti tylos, kai ten mūsų unikaliu pavyzdžiu, kaip ir pas mus, pradės dirbti kokia nors speciali grėsmių komisija, grėsmių šį kartą Europai, o po to paties Prezidento kaip grėsmės Europai, galiausiai grėsmių pačiai grėsmių komisijai komisija.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1434">Pradžioje visa tai įgyvendinti bus nelengva. Bijau, kad be mūsų Etikos komisijos talkos šis milžiniškos atsakomybės darbas apskritai nepajudės. Bet pradžia visuomet sunki. Ir mums ji buvo sunki. Kita vertus, kai pagalvoji apie taip ilgai lauktą, išsvajotą, tokį trokštamą rezultatą, apie tą vieną vienintelę galutinę, jau niekur nebeskundžiamą ir nebekomentuojamą nuomonę, taip palengvėja, kad, kaip visai neseniai Seime sakė vienas patriarchas, kalbėdamas iš karto su dviem angelais, atrodo, kad ir pats su jais į debesis pakyli.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1435">Dėkui už dėmesį.</seg>
-        </u>
-        <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
-        <u ana="#chair" who="#AndriukaitisVytenisPovilas" xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1109">
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1109.p1436">Dėkoju Seimo nariui. Ačiū. Gerbiamieji kolegos, daugiau pareiškimų nėra. Taigi dabar, kolegos, registruojamės.</seg>
-          <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1109.p1437">Gerbiamieji kolegos, ačiū. Užsiregistravo 40 Seimo narių. Šios dienos posėdis baigtas. Gero jums vakaro.</seg>
-        </u>
-      </div>
-    </body>
-  </text>
+            </availability>
+            <date when="2023-04-26">2023-04-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="lt">Lietuvos Respublikos Seimo posėdžių stenogramos</title>
+               <title type="main" xml:lang="en">Transcripts of the Meetings of the Seimas of the Republic of Lithuania</title>
+               <edition xml:lang="lt">Galutinis variantas</edition>
+               <edition xml:lang="en">Final version</edition>
+               <idno type="URI">https://e-seimas.lrs.lt/portal/legalAct/lt/TAK/TAIS.225600</idno>
+               <date when="2004-01-20">2004-01-20</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="lt">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="227"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="203"/>
+               <tagUsage gi="seg" occurs="264"/>
+               <tagUsage gi="kinesic" occurs="0"/>
+               <tagUsage gi="vocal" occurs="6"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="6"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Lietuvos respublikos seimas</name>
+               <name type="address">Gedimino pr. 53</name>
+               <name type="city">Vilnius</name>
+               <name key="LT" type="country">Lithuania</name>
+               <date ana="#parla.meeting" when="2004-01-20">2004-01-20</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2023-04-26">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2021-05-03">
+            <name>Mindaugas Petkevičius</name>: Fixes for Version 2.</change>
+         <change when="2021-03-31">
+            <name>Mindaugas Petkevičius</name>: Fixes for Version 1.</change>
+         <change when="2021-03-11">
+            <name>Mindaugas Petkevičius</name>: Corpus generated for ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note>Penkiasdešimt septintasis (467) posėdis</note>
+            <note>2004 m. sausio 20 d.</note>
+            <note>Pirmininkauja Lietuvos Respublikos Seimo Pirmininko pavaduotojas V.P.ANDRIUKAITIS</note>
+            <note type="legislative">Akcinės bendrovės "Alytaus tekstilė" veiklos gaivinimo įstatymo projektas Nr.IXP-3195 (pateikimas) (Vyriausybė siūlo svarstyti skubos tvarka)</note>
+            <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
+            <u ana="#chair"
+               who="#AndriukaitisVytenisPovilas"
+               xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u907">
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u907.p1174">Laba diena, pradėsime šios dienos popietinį plenarinį posėdį. Kolegos, kol registruojamės, iš rytinio posėdžio liko neapsvarstyti 13 ir 14 klausimai. Tačiau norint juos svarstyti reikėtų, kad Seimo salėje būtų pakankamai Seimo narių. Jeigu nebus mažiausiai 37, mes negalėsime svarstyti. Tada mes tuos klausimus nukelsime, kolegos, į kitą dieną. Taigi užsiregistravo 19 Seimo narių. Dabar kviesčiau į tribūną ūkio ministrą arba jo įgaliotą viceministrą Nerijų Eidukevičių. Prašom. Pradėsime popietinės darbotvarkės pirmąjį klausimą - Akcinės bendrovės "Alytaus tekstilė" veiklos gaivinimo įstatymo projekto pateikimą. Prašome, viceministre, jums žodis.</seg>
+            </u>
+            <note type="speaker">N.EIDUKEVIČIUS.</note>
+            <u ana="#guest"
+               who="#EidukevičiusN"
+               xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908">
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1175">Ačiū, gerbiamasis pirmininke. Gerbiamieji Seimo nariai, Vyriausybė teikia Lietuvos Respublikos akcinės bendrovės "Alytaus tekstilė" veiklos gaivinimo įstatymo projektą. Šio įstatymo tikslas yra nustatyti bendrovei gyventojų pajamų mokesčio, valstybinio socialinio draudimo įmokų mokėjimo terminus, kurie skiriasi nuo dabar nustatytų pagal galiojančius įstatymus, taip pat suteikti galimybę ir įgaliojimus Vyriausybei daryti specifinius veiksmus, susijusius su valstybės suteikta paskola "Alytaus tekstilei" arba jos negrąžinta dalimi. Pagal teikiamą įstatymo projektą akcinė bendrovė "Alytaus tekstilė" gyventojų pajamų mokesčio, išskaičiuoto iš su darbo santykiais susijusių išmokų, kurios būtų sumokėtos per 6 mėnesius nuo šio įstatymo įsigaliojimo, galėtų nemokėti, o tą grąžinimą galėtų pradėti 2005 m. gegužės 1 d. ir grąžinti vienodomis dalimis iki 2007 m. gegužės 1 dienos. Tas pat siūlomame įstatymo projekte susiję ir su valstybinio socialinio draudimo įmokomis, kurios būtų apskaičiuotos per 6 mėnesius nuo šio įstatymo įsigaliojimo datos, ir ta suma, sukaupta suma, vėlgi kaip įsiskolinimas būtų grąžinamas Valstybinio socialinio draudimo fondui nuo 2005 m. gegužės 1 d. iki 2007 m. gegužės 1 d., mokant tas įmokas kas mėnesį lygiomis dalimis.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1176">Apie paskolą, kuri administruojama Turto banko. Šiuo metu jos dydis siekia 12 mln. litų. Įstatyme siūlomos alternatyvos, kad Vyriausybė galėtų konvertuoti paskolą į naujai išleidžiamas akcijas arba kapitalizuoti tą paskolą. Jeigu nepavyktų to padaryti, numatoma kita alternatyva - kad būtų galima priimti sprendimą nurašyti šią paskolą ir su ja susijusias nesumokėtas palūkanas. Siūloma, kad šis įstatymas įsigaliotų ir pradėtų veikti tada, kai valstybė "Alytaus tekstilės" akcininkų susirinkime perims daugiau negu pusę balsų.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1177">Trumpai apie įmonę. Šiuo metu "Alytaus tekstilės" veikla yra nuostolinga dėl susiklosčiusios finansinės padėties. Tai priskirčiau prastam valdymui. Įmonė nesugeba laiku tenkinti finansinių įsipareigojimų ir savo kreditoriams, ir valstybinio socialinio draudimo įstaigai, ir biudžetui. 2003 metais grynasis nuostolis sudarė 4,75 mln. Lt, o sukaupto nuostolio balansas yra apie 78 mln. litų. Įmonė turėjo daugiau negu 60 mln. Lt įsiskolinimų, iš kurių didžioji dalis, be jokios abejonės, yra finansinėms institucijoms, bankams. Kitos skolos yra energetikams, elektrikams - 3 mln., už šilumos tiekimą - 1,5 mln., už vandenį - 1 milijonas. Taip pat, kaip minėjau, biudžetui bendrovė skolinga nesumokėtų mokesčių 1,6 mln. Lt, "Sodrai" yra nesumokėta apie 900 tūkst. litų. Jeigu kalbėtume apie darbuotojus, metų pabaigoje "Alytaus tekstilėje" dirbo 2457 darbuotojai. Metų pabaigoje jiems pavyko sumokėti atlyginimus tik už rugsėjo mėnesį, taigi įsiskolinimas darbuotojams - 4,5 milijonų litų.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u908.p1178">Priėmus šį įstatymą, mūsų nuomone, būtų sukurtos prielaidos, aš noriu pabrėžti, prielaidos, "Alytaus tekstilei" susitvarkyti finansinę situaciją, susitvarkyti pinigų srautus, investuoti į gamybą, sutvarkyti gamybos efektyvumą. Tuo būdu Alytuje būtų išvengta neigiamų socialinių, ekonominių ir užimtumo pasekmių. Ačiū.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular"
+               who="#PavilionisRolandas"
+               xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108">
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1425">Dėkoju, gerbiamasis posėdžio pirmininke.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1426">Gerbiamieji kolegos, aš norėčiau pasakyti keletą žodžių apie vienos nuomonės žavesį. Tiesiog kaip tokią intelektualinę atgaivą, kad jūs trupučiuką pailsėtumėte, jeigu jums tai įdomu.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1427">Iš tikrųjų, rimtai kalbant, aš noriu atkreipti jūsų dėmesį į daug ką pasakančią ir mus visus labai pamokančią pastarųjų mėnesių Lietuvos politinę raidą ir jos atspindį Seime. Pradžioje, kaip ir dera epochinės reikšmės įvykiams, buvo žodis. Saugumo departamento pažyma apie galimas, t.y. virtualias grėsmes nacionaliniam saugumui, dar tiksliau, apie tokių grėsmių tendencijas. Po to žodis pradėjo virsti kūnu. Paaiškėjo, kad iš tikrųjų kalbama apie grėsmes, realias ar virtualias, konkrečiam kūnui - Respublikos Prezidentui. Taip mums teisingai, tikrai teisingai paaiškino Seimo Pirmininkas ir pakvietė visus telktis ir saugoti Respublikos Prezidentą nuo aplink jį susitelkusių grėsmių.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1428">Tačiau trečiajame grėsmių žygyje per Lietuvą įvyko neįtikėtina, lemtinga grėsmių metamorfozė, jų savotiška transformacija. Laikinoji tyrimo komisija, leiskite ją pavadinti ypatingąja grėsmių komisija, nustatė, kad jau ne Prezidentas, ne jo aplinka, t.y. ne aplinka, o pats Prezidentas yra didžiausia grėsmė nacionaliniam, t.y. visų mūsų saugumui.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1429">Tada buvo sudaryta kita, dar specialesnė tyrimų komisija, kuri praėjusį penktadienį nustatė, o jos vicepirmininkas ponas J.Sabatauskas visai tautai paskelbė, kad šalia jau įrodytų grėsmių iškilo grėsmė pačiai komisijai. Mat atsirado keistų Seimo narių, kurie panoro be leidimo, atvirai, ne už uždarų durų, laisvai diskutuoti apie realias grėsmes nacionaliniam saugumui, demokratijai, laisvei ir žmogaus orumui, nesikėsinant nei į komisijos atsakomybę, nei į jos įgaliojimus, nei į jos kompetenciją, o tuo labiau į jos autoritetą. Atsirado keistų Seimo narių, kurie kažkodėl galvoja, kad kaip tik parlamente galima ir būtina laisvai ir plačiai, ypač žvelgiant į ateitį, kalbėti apie grėsmes laisvei, demokratijai ir teisingumui. Trumpai tariant, atsirado keistų Seimo narių, kurių nekausto baimė susidaryti ir turėti savo nuomonę. Tačiau komisijai, matyt, tai nėra suvokiama.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1430">Dar daugiau, susidarė įspūdis, jog komisiją sukaustė baimė išgirsti kitą nuomonę. Baimė, jog galutinį sprendimą dėl apkaltos darys ne komisija ir net ne Konstitucinis Teismas, o kiekvienas Seimo narys savo protu ir savo sąžine, lygiai taip, kaip kiekvienas rinkėjas savo protu ir savo sąžine darys sprendimą dėl kiekvieno Seimo nario.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1431">Todėl grėsmių komisija kreipėsi į Etikos komisiją, kad ši paaiškintų, ar toks nenormalus kai kurių Seimo narių noras laisvai diskutuoti, kai reikia tylėti ir laukti galutinio ir neginčijamo komisijos sprendimo, neprieštarauja etikai, ar iš viso nepažeidžia Konstitucijos ir Seimo nario priesaikos. Šiuo pareiškimu aš tik noriu atkreipti jūsų dėmesį, kad toks specialiosios grėsmių komisijos kreipimasis į Etikos komisiją yra pernelyg kuklus ir švelnus.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1432">Visų pirma tokiame kreipimesi turėtų būti mažų mažiausiai šeši, o dar geriau - vienuolika kaltinimų. Kiekvienas jų turėtų būti pagrįstas kitos, ankstesnės komisijos išvadomis, o tos išvados būtinai turėtų baigtis žodžiais "todėl šiurkščiai pažeidė Konstituciją ir priesaiką ir privalo atsistatydinti". Tačiau ir tai būtų pernelyg kuklu ir švelnu. Trūktų svarbiausio akcento, pamokančio visus dabartinio Seimo ir būsimų seimų narius: kol neturi specialiosios komisijos leidimo, privalai tylėti, nereikšti jokios savo nuomonės iki tavo nuomonę, tavo nuomonę suformuluos komisija. Ji tam ir sukurta. Tam ji ir dirba, kad sudarytų vieną vienintelę nuomonę iš 137.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1433">Tai juodas alinantis darbas, kurio niekam neleistina trikdyti. Tai milžiniškas krūvis, kurio nepakeltų joks britų, prancūzų ar net Europos Parlamentas, net neįsivaizduojantis, jog pasistengęs, rimtai pasistengęs ir jis galėtų apsieiti be jokių diskusijų ir iš kokių 500 ar 600 nuomonių sudaryti vieną vienintelę. Esu įsitikinęs, kaip tik šiuo unikaliu sugebėjimu suglausti visas nuomones į vieną, mes, mūsų jauna demokratija, jau nuo gegužės 1 d. iš esmės praturtinsime senąją Europą, Europos Sąjungą, Europos Parlamentą ir, atvirai šnekant, šiek tiek jau priplėkusią Europos parlamentarizmo tradiciją. Ir niekas, joks parlamentaras Briuselyje ar Strasbūre, savo nevaržomu, neleistinai laisvu kalbėjimu nedrįs trikdyti tylos, kai ten mūsų unikaliu pavyzdžiu, kaip ir pas mus, pradės dirbti kokia nors speciali grėsmių komisija, grėsmių šį kartą Europai, o po to paties Prezidento kaip grėsmės Europai, galiausiai grėsmių pačiai grėsmių komisijai komisija.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1434">Pradžioje visa tai įgyvendinti bus nelengva. Bijau, kad be mūsų Etikos komisijos talkos šis milžiniškos atsakomybės darbas apskritai nepajudės. Bet pradžia visuomet sunki. Ir mums ji buvo sunki. Kita vertus, kai pagalvoji apie taip ilgai lauktą, išsvajotą, tokį trokštamą rezultatą, apie tą vieną vienintelę galutinę, jau niekur nebeskundžiamą ir nebekomentuojamą nuomonę, taip palengvėja, kad, kaip visai neseniai Seime sakė vienas patriarchas, kalbėdamas iš karto su dviem angelais, atrodo, kad ir pats su jais į debesis pakyli.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1108.p1435">Dėkui už dėmesį.</seg>
+            </u>
+            <note type="speaker">PIRMININKAS (V.P.ANDRIUKAITIS).</note>
+            <u ana="#chair"
+               who="#AndriukaitisVytenisPovilas"
+               xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1109">
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1109.p1436">Dėkoju Seimo nariui. Ačiū. Gerbiamieji kolegos, daugiau pareiškimų nėra. Taigi dabar, kolegos, registruojamės.</seg>
+               <seg xml:id="ParlaMint-LT_2004-01-20-seimas-4-1.u1109.p1437">Gerbiamieji kolegos, ačiū. Užsiregistravo 40 Seimo narių. Šios dienos posėdis baigtas. Gero jums vakaro.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
 </TEI>
