@@ -175,9 +175,35 @@
             </category>
           </category>
           <category xml:id="parla.term">
-            <catDesc><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+            <catDesc xml:lang="ro"><term>Termen legislativ</term>: perioadă dintre două alegeri parlamentare.</catDesc>
+            <catDesc xml:lang="en"><term>Legislative period</term>: term of the parliament between general elections.</catDesc>
             <category xml:id="parla.session">
-              <catDesc><term>Legislative session</term>: a period of time in which a legislature is convened, typically one year.</catDesc>
+              <catDesc xml:lang="ro"><term>Sesiune parlamentară</term>: perioadă a anului în care parlamentul este convocat.</catDesc>
+              <catDesc xml:lang="en"><term>Legislative session</term>: a period of time in which a legislature is convened, typically one year.</catDesc>
+              <category xml:id="parla.session-types">
+                <catDesc xml:lang="ro">
+                  <term>Tipuri de sesiuni parlamentare</term>
+                </catDesc>
+                <catDesc xml:lang="en">
+                  <term>Types of parliamentary sessions</term>
+                </catDesc>
+                <category xml:id="parla.session.regular">
+                  <catDesc xml:lang="ro">
+                    <term>Sesiune ordinară</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                    <term>Regular session</term>
+                  </catDesc>
+                </category>
+                <category xml:id="parla.session.extraordinary">
+                  <catDesc xml:lang="ro">
+                    <term>Sesiune extraordinară</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                    <term>Extraordinary session</term>
+                  </catDesc>
+                </category>
+              </category>
               <category xml:id="parla.meeting">
                 <catDesc><term>Meeting</term>: Each meeting will be a constitute part of a parliamentary session.</catDesc>
                 <category xml:id="parla.meeting-types">
@@ -1233,7 +1259,6 @@
               <surname>Boc</surname>
             </persName>
             <sex value="M"/>
-            <affiliation ana="#RoGov.119" ref="#RoGov" role="member" from="2009-12-24" to="2012-02-09"/>
             <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
@@ -1988,7 +2013,6 @@
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2008/mari/Chitoiu_Daniel.jpg"/>
             </figure>
-            <affiliation ana="#RoGov.121" ref="#RoGov" role="member" from="2012-05-08" to="2012-12-21"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
           <person xml:id="Filonas-Chis">
@@ -2630,7 +2654,6 @@
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Cimpeanu_Sorin.JPG"/>
             </figure>
-            <affiliation ana="#RoGov.124" ref="#RoGov" role="member" from="2014-12-18" to="2015-11-17"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
           <person xml:id="Ion-Cirstoiu">
@@ -3287,8 +3310,6 @@
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2008/mari/Dusa_Mircea.jpg"/>
             </figure>
-            <affiliation ana="#RoGov.121" ref="#RoGov" role="member" from="2012-05-08" to="2012-12-21"/>
-            <affiliation ana="#RoGov.124" ref="#RoGov" role="member" from="2014-12-18" to="2015-11-17"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
@@ -6032,40 +6053,7 @@
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
-            <affiliation ana="#RoGov.128" ref="#RoGov" role="member" from="2018-01-30" to="2019-11-04"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
-          </person>
-          <person xml:id="Andras-Gyorgy-Kiraly">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Mircea-Octavian-Purceld">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Catalin-Doica">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Anton-Niculescu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
           <person xml:id="Iuian-Iancu">
             <persName>
@@ -6078,7 +6066,23 @@
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
           </person>
+          <person xml:id="Catalin-Doica">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
           <person xml:id="Mircea-Alexandru">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Andras-Gyorgy-Kiraly">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6094,13 +6098,13 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Mihai-Dobre">
+          <person xml:id="Anton-Niculescu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
-            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
           <person xml:id="Ion-Carstoiu">
             <persName>
@@ -6110,22 +6114,13 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
           </person>
-          <person xml:id="Mihai-Catalin-Botez-">
+          <person xml:id="Mihai-Dobre">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
-            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
-            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
-          </person>
-          <person xml:id="Andrei-Rudolf-Corlan">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
           </person>
           <person xml:id="Maria-Stefania-Manea">
             <persName>
@@ -6143,23 +6138,24 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
-          <person xml:id="Gabriel-Marius-Muresan">
+          <person xml:id="Andrei-Rudolf-Corlan">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Mihai-Catalin-Botez-">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
             <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
           <person xml:id="Irinel-Ionel-Scriosteanu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
-          </person>
-          <person xml:id="Daniela-Anda-Grigore-Gitman">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6174,6 +6170,22 @@
             </persName>
             <sex value="U"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Gabriel-Marius-Muresan">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniela-Anda-Grigore-Gitman">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
             <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
           <person xml:id="Ion-Aurel-Stanciu">
@@ -6216,7 +6228,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
-          <person xml:id="George-Dan-Vuscan">
+          <person xml:id="Anca-Magdalena-Chiser">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6224,7 +6236,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
-          <person xml:id="Anca-Magdalena-Chiser">
+          <person xml:id="George-Dan-Vuscan">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6240,23 +6252,6 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
-          <person xml:id="Ion-Ghizdeanu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
-            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
-          </person>
-          <person xml:id="Cristian-Anton-Irimie">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
-          </person>
           <person xml:id="Octavian-Liviu-Bumbu">
             <persName>
               <forename>Necunoscut</forename>
@@ -6265,15 +6260,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
-          <person xml:id="Jozsef-Koto">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
-          </person>
-          <person xml:id="Dumitru-Nicu-Cornoiu">
+          <person xml:id="Cristian-Anton-Irimie">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6289,6 +6276,31 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
+          <person xml:id="Jozsef-Koto">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
+          </person>
+          <person xml:id="Ion-Ghizdeanu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Dumitru-Nicu-Cornoiu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
+          </person>
           <person xml:id="Karoly-Borbely">
             <persName>
               <forename>Necunoscut</forename>
@@ -6297,7 +6309,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
-          <person xml:id="Bodgan-Nicolae-Niculescu-Duvaz">
+          <person xml:id="Nicolae-Grigoras">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6305,7 +6317,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
           </person>
-          <person xml:id="Nicolae-Grigoras">
+          <person xml:id="Bodgan-Nicolae-Niculescu-Duvaz">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6331,7 +6343,7 @@
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
           </person>
-          <person xml:id="Simina-Geanina-DanielaTulbure">
+          <person xml:id="Mihai-Pasca">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6339,7 +6351,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
-          <person xml:id="Mihai-Pasca">
+          <person xml:id="Simina-Geanina-DanielaTulbure">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6355,23 +6367,15 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
-          <person xml:id="Nicolae-Flaviu-Lazin">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Nicolae-Badalau">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
           <person xml:id="Mara-Ramniceanu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mircea-Giurgiu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6395,14 +6399,6 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Mircea-Giurgiu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
           <person xml:id="Sebastian-Bodu">
             <persName>
               <forename>Necunoscut</forename>
@@ -6411,7 +6407,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Alexandros-Galiatatos">
+          <person xml:id="Nicolae-Flaviu-Lazin">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6419,15 +6415,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Alexandru-Cristian-Strenc">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Cornelia-Ardelean">
+          <person xml:id="Nicolae-Badalau">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6443,6 +6431,30 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
+          <person xml:id="Jean-Catalin-Sandu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Cornelia-Ardelean">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Alexandros-Galiatatos">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
           <person xml:id="Alexandru-Mircea">
             <persName>
               <forename>Necunoscut</forename>
@@ -6451,7 +6463,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Jean-Catalin-Sandu">
+          <person xml:id="Alexandru-Cristian-Strenc">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6491,23 +6503,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
-          <person xml:id="Florin-Bejan">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
           <person xml:id="Monalisa-Galateanu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Septimiu-Buzasu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6523,14 +6519,6 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Dan-Cristian-Stoica">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
           <person xml:id="Catalin-Ionel-Danila">
             <persName>
               <forename>Necunoscut</forename>
@@ -6539,7 +6527,31 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Damian-Brudascu">
+          <person xml:id="Florin-Bejan">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Dan-Cristian-Stoica">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Septimiu-Buzasu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Andrei-Popescu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6547,7 +6559,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
           </person>
-          <person xml:id="Andrei-Popescu">
+          <person xml:id="Damian-Brudascu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6579,23 +6591,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
           </person>
-          <person xml:id="Carmen-Ileana-Mihalcescu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
-          </person>
-          <person xml:id="Ionel-Palar-">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
-          </person>
-          <person xml:id="Ioana-Bran-Voinea">
+          <person xml:id="Rozalia-Ibolya-Biro-">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6611,15 +6607,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
           </person>
-          <person xml:id="Rozalia-Ibolya-Biro-">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
-          </person>
-          <person xml:id="Ovidiu-Sandor">
+          <person xml:id="Ionel-Palar-">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6635,23 +6623,31 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
           </person>
-          <person xml:id="Constantin-Arsenie">
+          <person xml:id="Ioana-Bran-Voinea">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Carmen-Ileana-Mihalcescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Ovidiu-Sandor">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
           </person>
           <person xml:id="Pavel-Abraham">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="Mihai-Malaimare">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6675,6 +6671,30 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
           </person>
+          <person xml:id="Cristina-Luzescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Mihai-Malaimare">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Constantin-Arsenie">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
           <person xml:id="Maria-Manolescu">
             <persName>
               <forename>Necunoscut</forename>
@@ -6683,13 +6703,13 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
           </person>
-          <person xml:id="Cristina-Luzescu">
+          <person xml:id="Virgil-Crecana">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
           <person xml:id="Katalin-Barbara-Kibedi">
             <persName>
@@ -6707,22 +6727,6 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Dan-Ion-Ghergut">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
-          <person xml:id="Virgil-Crecana">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
-          </person>
           <person xml:id="Ioan-Andreica">
             <persName>
               <forename>Necunoscut</forename>
@@ -6731,7 +6735,15 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Bogdan-Adrian-Panait">
+          <person xml:id="Dan-Ion-Ghergut">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Adrian-Viorel-Nicolaescu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6739,7 +6751,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
-          <person xml:id="Adrian-Viorel-Nicolaescu">
+          <person xml:id="Bogdan-Adrian-Panait">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6787,15 +6799,6 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
-          <person xml:id="Vlad-Vasile-Voiculescu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoGov.131" ref="#RoGov" role="member" from="2020-12-24" to="2021-11-25"/>
-            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
-          </person>
           <person xml:id="Mihaela-Catalina-Badoiu">
             <persName>
               <forename>Necunoscut</forename>
@@ -6804,23 +6807,23 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
-          <person xml:id="Teodor-Codrin-Scutaru">
+          <person xml:id="Vlad-Vasile-Voiculescu">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
             </persName>
             <sex value="U"/>
-            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
-          </person>
-          <person xml:id="Sirma-Caraman">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
           </person>
           <person xml:id="Bogdan-Tohaneanu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Teodor-Codrin-Scutaru">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6852,55 +6855,15 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
+          <person xml:id="Sirma-Caraman">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
           <person xml:id="Alexe-Costache-Ivanov">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="Gheorghe-Ciotlos">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="Aurel-Sorin-Encutescu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="George-Pavelescu">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="Laurentiu-Tanase">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="Dumitru-Balaet">
-            <persName>
-              <forename>Necunoscut</forename>
-              <surname>Necunoscut</surname>
-            </persName>
-            <sex value="U"/>
-            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
-          </person>
-          <person xml:id="Decebal-Ilina">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6916,7 +6879,55 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
           </person>
-          <person xml:id="Daniela-Popa-si-Aurelia-Vasile">
+          <person xml:id="Dumitru-Balaet">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Gheorghe-Ciotlos">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Laurentiu-Tanase">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Decebal-Ilina">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="George-Pavelescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Aurel-Sorin-Encutescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.51" ref="#RoParl" role="member" from="2000-12-15" to="2004-11-30"/>
+          </person>
+          <person xml:id="Ioana-Liana-Pop">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6940,7 +6951,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
-          <person xml:id="Ioana-Liana-Pop">
+          <person xml:id="Oana-Niculescu-Mizil-Stefanescu-Tohme">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -6956,7 +6967,7 @@
             <sex value="U"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
           </person>
-          <person xml:id="Oana-Niculescu-Mizil-Stefanescu-Tohme">
+          <person xml:id="Daniela-Popa-si-Aurelia-Vasile">
             <persName>
               <forename>Necunoscut</forename>
               <surname>Necunoscut</surname>
@@ -7098,7 +7109,6 @@
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Nicolaescu_Gheorghe_Eugen.jpg"/>
             </figure>
-            <affiliation ana="#RoGov.116" ref="#RoGov" role="member" from="2004-12-29" to="2007-04-05"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
             <affiliation ana="#RoParl.53" ref="#RoParl" role="member" from="2008-12-19" to="2012-12-20"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
@@ -7357,7 +7367,6 @@
               <surname>Oprea</surname>
             </persName>
             <sex value="M"/>
-            <affiliation ana="#RoGov.124" ref="#RoGov" role="member" from="2014-12-18" to="2015-11-17"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
           </person>
           <person xml:id="Mihai-Doru-Opriscan">
@@ -7381,7 +7390,6 @@
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Orban_Ludovic.jpg"/>
             </figure>
-            <affiliation ana="#RoGov.130" ref="#RoGov" role="member" from="2020-03-15" to="2020-12-23"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
           </person>
@@ -7689,7 +7697,6 @@
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Ponta_Victor.jpg"/>
             </figure>
-            <affiliation ana="#RoGov.124" ref="#RoGov" role="member" from="2014-12-18" to="2015-11-17"/>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
             <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
             <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
@@ -8032,6 +8039,17 @@
             <sex value="M"/>
             <figure>
               <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PupezaViorel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mircea-Octavian-Purceld">
+            <persName>
+              <forename>Octavian-Mircea</forename>
+              <surname>Purceld</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PurceldOctavianMircea.jpg"/>
             </figure>
             <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
           </person>
