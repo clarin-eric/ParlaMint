@@ -618,7 +618,7 @@
   <xsl:template match="tei:idno">
     <xsl:copy>
       <xsl:choose>
-	<xsl:when test="contains(., 'hdl.handle.net/11356/')">
+	<xsl:when test="contains(., 'hdl.handle.net')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">handle</xsl:attribute>
 	  <xsl:choose>
@@ -630,9 +630,8 @@
             </xsl:when>
 	  </xsl:choose>
 	</xsl:when>
-	<!-- For GB, ES-GA, PL -->
-	<xsl:when test="@type = 'URI' and 
-			(matches(., 'parli?ament') or matches(., '\.sejm\.'))">
+	<!-- For GB, ES-GA, PL, EE -->
+	<xsl:when test="ancestor::tei:sourceDesc">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
           <xsl:value-of select="normalize-space(.)"/>
