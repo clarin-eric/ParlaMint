@@ -658,8 +658,8 @@
 	<xsl:choose>
 	  <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
 	  <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
-	  <!--xsl:when test="$country-code = 'CZ'">#parla.lower</xsl:when-->
 	  <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'EE'">#parla.uni</xsl:when>
 	  <xsl:when test="$country-code = 'FR'">#parla.lower</xsl:when>
 	  <xsl:when test="$country-code = 'GB'">#parla.lower #parla.upper</xsl:when>
 	  <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
@@ -672,7 +672,7 @@
 	</xsl:choose>
       </xsl:variable>
 	<xsl:choose>
-	  <xsl:when test="$target">
+	  <xsl:when test="normalize-space($target)">
 	    <textClass>
               <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="{$target}"/>
 	    </textClass>
