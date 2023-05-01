@@ -21,17 +21,6 @@ include "ParlaMint-teiCorpus.rnc" {
     }
 }
 
-## Prefix definition for extended TEI pointers.
-prefixDef =
-  element prefixDef {
-    attribute ident {
-      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
-    },
-    attribute matchPattern { xsd:token },
-    attribute replacementPattern { xsd:token },
-    paras
-  }
-
 ## Description of an applications used to linguistically annotate the
 ##     corpus.
 application =

@@ -8,6 +8,24 @@
   <a:documentation>RelaxNG XML schema for ParlaMint corpora: common definitions and ParlaMint
   mandated vocabularis of attributes.</a:documentation>
 
+  <define name="prefixDef">
+    <a:documentation>Prefix definition for extended TEI pointers.</a:documentation>
+    <element name="prefixDef">
+      <attribute name="ident">
+        <data type="token">
+          <param name="pattern">[a-z][a-z0-9\+\.\-]*</param>
+        </data>
+      </attribute>
+      <attribute name="matchPattern">
+        <data type="token"/>
+      </attribute>
+      <attribute name="replacementPattern">
+        <data type="token"/>
+      </attribute>
+      <ref name="paras"/>
+    </element>
+  </define>
+  
   <define name="taxonomy">
     <a:documentation>Taxonomy element included directly in the teiHeader of corpus root or stored
     in a separate file.</a:documentation>

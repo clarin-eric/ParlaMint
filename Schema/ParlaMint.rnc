@@ -7,6 +7,17 @@ a:documentation [
   "  mandated vocabularis of attributes."
 ]
 
+## Prefix definition for extended TEI pointers.
+prefixDef =
+  element prefixDef {
+    attribute ident {
+      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
+    },
+    attribute matchPattern { xsd:token },
+    attribute replacementPattern { xsd:token },
+    paras
+  }
+
 ## Taxonomy element included directly in the teiHeader of corpus root or stored
 ##     in a separate file.
 taxonomy =

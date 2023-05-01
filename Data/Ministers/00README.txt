@@ -1,7 +1,6 @@
 STATUS:
 JURE:
-GB
-Translate "Ministry" to "Minister"? However, LT, LV, PL, ...
+GB: translate "Ministry" to "Minister"? However, LT, LV, PL, ...
 
 AT 	corpus
 BA 	V3
