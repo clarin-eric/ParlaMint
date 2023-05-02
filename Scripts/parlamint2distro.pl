@@ -25,12 +25,14 @@ $regiExt    = 'regi';
 sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("$0 -help\n");
-    print STDERR ("$0 [<procFlags>] -codes '<Codes>' -schema [<Schema>] -docs [<Docs>]");
-    print STDERR (" -in <Input> -out <Output>\n");
+    print STDERR ("$0 [<procFlags>] -codes '<Codes>' -version <Version> -teihandle <TeiHandle> -anahandle <AnaHandle>");
+    print STDERR (" -schema [<Schema>] -docs [<Docs>] -in <Input> -out <Output>\n");
     print STDERR ("    Prepares ParlaMint corpora for distribution.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Schema> is the directory where ParlaMint RNG schemas are.\n");
     print STDERR ("    <Docs> is the directory where ParlaMint README files are.\n");
+    print STDERR ("    <TeiHandle> is the handle of the plain text corpus.\n");
+    print STDERR ("    <AnaHandle> is the handle of the linguistically annotated (.ana) corpus.\n");
     print STDERR ("    <Input> is the directory where ParlaMint-XX.TEI/ and ParlaMint-XX.TEI.ana/ are.\n");
     print STDERR ("    <Output> is the directory where output directories are written.\n");
     
@@ -75,6 +77,8 @@ GetOptions
      'codes=s'    => \$countryCodes,
      'schema=s'   => \$schemaDir,
      'docs=s'     => \$docsDir,
+     'teihandle=s' => \$handleTEI,
+     'anahandle=s' => \$handleAna,
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
@@ -141,10 +145,11 @@ unless ($countryCodes) {
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Converting $countryCode\n";
-    if($countryCode =~ m/-[a-z]{2,3}$/){
-      print STDERR "ERROR: Script should process original (not translated version) of corpus\n";
-      next;
-    }
+
+    # Is this an MTed corpus?
+    if ($countryCode =~ m/-([a-z]{2,3})$/) {$MT = $1}
+    else {$MT = 0}
+
     my $XX = $XX_template;
     $XX =~ s|XX|$countryCode|g;
 
@@ -181,24 +186,30 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
 	die "Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
+	die "No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
-	&cp_readme($countryCode, "$docsDir/README.TEI.ana.txt", "$outAnaDir/00README.txt");
+	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
+	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
+	&cp_readme($countryCode, $handleAna, $inReadme, "$outAnaDir/00README.txt");
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
-	`$SaxonX outDir=$outDir -xsl:$Final $inAnaRoot`;
+	`$SaxonX handle=$handleAna outDir=$outDir -xsl:$Final $inAnaRoot`;
 	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
 	die "Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
+	die "No handle given for TEI distribution\n" unless $handleTEI;
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
-	&cp_readme($countryCode, "$docsDir/README.TEI.txt", "$outTeiDir/00README.txt");
+	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
+	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
+	&cp_readme($countryCode, $handleTei, $inReadme, "$outTeiDir/00README.txt");
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
-	`$SaxonX anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+	`$SaxonX handle=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
 	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
     }
@@ -213,9 +224,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `$Verts $outSmpDir $outSmpDir`;
 	    `$Conls $outSmpDir $outSmpDir`
 	}
-	else {
-	    print STDERR "WARN: No .ana files for $countryCode samples\n";
-	}
+	else {print STDERR "WARN: No .ana files for $countryCode samples\n"}
 	`$Texts $outSmpDir $outSmpDir`;
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
@@ -228,24 +237,33 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: *Making $countryCode text\n";
 	die "Can't find output tei dir $outTeiDir\n" unless -e $outTeiDir; 
+	die "No handle given for TEI distribution\n" unless $handleTei;
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
-	&cp_readme($countryCode, "$docsDir/README.txt.txt", "$outTxtDir/00README.txt");
+	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
+	else {$inReadme = "$docsDir/README.txt.txt"}
+	&cp_readme($countryCode, $handleTei, $inReadme, "$outTxtDir/00README.txt");
 	`$Texts $outTeiDir $outTxtDir`;
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
 	die "Can't find output ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outConlDir; mkdir $outConlDir`;
-	&cp_readme($countryCode, "$docsDir/README.conll.txt", "$outConlDir/00README.txt");
+	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
+	else {$inReadme = "$docsDir/README.conll.txt"}
+	&cp_readme($countryCode, $handleTei, $inReadme, "$outTxtDir/00README.txt");
 	`$Conls $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: *Making $countryCode vert\n";
 	die "Can't find output ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outVertDir; mkdir $outVertDir`;
-	&cp_readme($countryCode, "$docsDir/README.vert.txt", "$outVertDir/00README.txt");
+	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
+	else {$inReadme = "$docsDir/README.vert.txt"}
+	&cp_readme($countryCode, $handleAna, $inReadme, "$outVertDir/00README.txt");
 	`cp "$docsDir/$vertRegi" $outVertDir`;
 	`$Verts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
@@ -324,12 +342,14 @@ sub dirify {
 #Read in the appropriate $inFile README, change XX in it to country code, and output it $outFile
 sub cp_readme {
     my $country = shift;
-    my $inFile = shift;
+    my $handle  = shift;
+    my $inFile  = shift;
     my $outFile = shift;
     open IN, '<:utf8', $inFile or die "Can't open input README $inFile\n";
     open OUT,'>:utf8', $outFile or die "Can't open output README $outFile\n";
     while (<IN>) {
 	s/XX/$country/g;
+	s/YY/$handle/g;
 	print OUT
     }
     close IN;

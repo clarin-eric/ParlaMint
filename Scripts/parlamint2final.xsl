@@ -11,7 +11,7 @@
      computed from the corpus.
      The program:
      - sets release date, default = today
-     - sets version and handles, default = 3.0
+     - sets version (default = 3.0) and handle (must be given as parameter)
      - set date-dependent subcorpora to 'reference' 'COVID', 'War'
      - sets top level @xml:id so it is the same as the filename
      - sets correct ParlaMint stamp in main titles
@@ -45,8 +45,7 @@
   
   <!-- Version and handle of the release -->
   <xsl:param name="version">3.0</xsl:param>
-  <xsl:param name="handle-txt">http://hdl.handle.net/11356/1486</xsl:param>
-  <xsl:param name="handle-ana">http://hdl.handle.net/11356/1488</xsl:param>
+  <xsl:param name="handle"/>
 
   <!-- Type of corpus is 'txt' or 'ana' -->
   <xsl:param name="type">
@@ -63,6 +62,13 @@
                                          tei:fileDesc/tei:titleStmt/
                                          tei:title[@type='main' and @xml:lang='en'],
                                          '([^ ]+) .*', '$1')"/>
+  
+  <!-- Is this an MTed corpus? Set $mt to name of MTed language (or empty, if not) -->
+  <xsl:param name="mt">
+    <xsl:if test="matches($country-code, '-[a-z]{2,3}$')">
+      <xsl:value-of select="replace($country-code, '.+-([a-z]{2,3})$', '$1')"/>
+    </xsl:if>
+  </xsl:param>
   
   <!-- Project description for ParlaMint II -->
   <xsl:variable name="projectDesc-en">
@@ -528,13 +534,15 @@
     </xsl:if>
   </xsl:template>
   
-  <!-- Check if we have a correct stamp, and if it is correct, replace if not -->
+  <!-- Check if we have a correct stamp, and replace if not -->
   <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
     <xsl:variable name="okStamp">
-      <xsl:choose>
-	<xsl:when test="$type = 'txt'">[ParlaMint]</xsl:when>
-	<xsl:when test="$type = 'ana'">[ParlaMint.ana]</xsl:when>
-      </xsl:choose>
+      <xsl:text>[ParlaMint</xsl:text>
+      <xsl:if test="normalize-space($mt)">
+	<xsl:value-of select="concat('-', $mt)"/>
+      </xsl:if>
+      <xsl:if test="$type = 'ana'">.ana</xsl:if>
+      <xsl:text>]</xsl:text>
     </xsl:variable>
     <xsl:variable name="stamp" select="replace(., '.+(\[.+\])$', '$1')"/>
     <xsl:copy>
@@ -621,16 +629,8 @@
 	<xsl:when test="contains(., 'hdl.handle.net')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">handle</xsl:attribute>
-	  <xsl:choose>
-            <xsl:when test="$type = 'txt'">
-              <xsl:value-of select="$handle-txt"/>
-            </xsl:when>
-            <xsl:when test="$type = 'ana'">
-              <xsl:value-of select="$handle-ana"/>
-            </xsl:when>
-	  </xsl:choose>
+          <xsl:value-of select="$handle"/>
 	</xsl:when>
-	<!-- For GB, ES-GA, PL, EE -->
 	<xsl:when test="ancestor::tei:sourceDesc">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
