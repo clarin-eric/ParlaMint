@@ -53,16 +53,12 @@
     </xsl:if>
     <xsl:if test="$type = 'txt' and not(matches($id, $idTemplate))">
       <xsl:call-template name="error">
-        <xsl:with-param name="msg">
-          <xsl:text>teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?</xsl:text>
-        </xsl:with-param>
+        <xsl:with-param name="msg">teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:if test="$type = 'ana' and not(matches($id, concat($idTemplate,'\.ana')))">
       <xsl:call-template name="error">
-        <xsl:with-param name="msg">
-          <xsl:text>teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?.ana</xsl:text>
-        </xsl:with-param>
+        <xsl:with-param name="msg">teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?.ana</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:variable name="rootHeader">
@@ -159,8 +155,8 @@
     <xsl:variable name="title-prefix">[^ ]+( [^ ]+)? parliamentary corpus <xsl:value-of select="$idTemplate"/></xsl:variable>
     <xsl:variable name="title-suffix">
       <xsl:choose>
-        <xsl:when test="/tei:teiCorpus and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when>
-        <xsl:when test="/tei:teiCorpus and $type = 'ana'"> \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
+        <xsl:when test="not(/tei:TEI) and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when> <!-- teiHeader context when testing teiCorpus header -->
+        <xsl:when test="not(/tei:TEI) and $type = 'ana'"> \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
         <xsl:when test="/tei:TEI and $type = 'txt'">,? .+ \[ParlaMint( SAMPLE)?\]$</xsl:when>
         <xsl:when test="/tei:TEI and $type = 'ana'">,? .+ \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
       </xsl:choose>
@@ -337,6 +333,29 @@
     </xsl:call-template>
   </xsl:template>
   
+  <xsl:template match="tei:relation">
+    <xsl:choose>
+      <xsl:when test="@name = 'coalition'">
+	<xsl:if test="not(@mutual) or @active or @passive">
+	  <xsl:call-template name="error">
+            <xsl:with-param name="msg">Coalition relation should have the @mutual attribute</xsl:with-param>
+	  </xsl:call-template>
+	</xsl:if>
+      </xsl:when>
+      <xsl:when test="@name = 'opposition'">
+	<xsl:if test="@mutual or not(@active) or not(@passive)">
+	  <xsl:call-template name="error">
+            <xsl:with-param name="msg">
+	      <xsl:text>Opposition relation should have the attributes </xsl:text>
+	      <xsl:text>@active (list of references to opposition parties) and </xsl:text>
+	      <xsl:text>@passive (reference to the government organisation)</xsl:text>
+	    </xsl:with-param>
+	  </xsl:call-template>
+	</xsl:if>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template match="tei:u">
     <xsl:choose>
       <xsl:when test="not(@who)">
