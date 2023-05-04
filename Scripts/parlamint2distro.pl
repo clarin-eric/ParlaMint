@@ -112,10 +112,10 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
-$FactoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
-$FactoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
-$FactoriseFiles .= 'ParlaMint-taxonomy-speaker_types.xml ';
-$FactoriseFiles .= 'ParlaMint-taxonomy-subcorpus.xml ';
+$factoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
+$factoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
+$factoriseFiles .= 'ParlaMint-taxonomy-speaker_types.xml ';
+$factoriseFiles .= 'ParlaMint-taxonomy-subcorpus.xml ';
 
 # We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
 $taxonomyDir = "$Bin/../Data/Taxonomies";
@@ -127,14 +127,14 @@ $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-t
 #$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
-$Factor  = "$Bin/parlamint-factorize-teiHeader.xsl";
-$Final   = "$Bin/parlamint2final.xsl";
-$Polish  = "$Bin/polish-xml.pl";
-$Valid   = "$Bin/validate-parlamint.pl";
-$Sample  = "$Bin/corpus2sample.xsl";
-$Texts   = "$Bin/parlamintp-tei2text.pl";
-$Verts   = "$Bin/parlamintp-tei2vert.pl";
-$Conls   = "$Bin/parlamintp2conllu.pl";
+$scriptFactor  = "$Bin/parlamint-factorize-teiHeader.xsl";
+$scriptFinal   = "$Bin/parlamint2final.xsl";
+$scriptPolish  = "$Bin/polish-xml.pl";
+$scriptValid   = "$Bin/validate-parlamint.pl";
+$scriptSample  = "$Bin/corpus2sample.xsl";
+$scriptTexts   = "$Bin/parlamintp-tei2text.pl";
+$scriptVerts   = "$Bin/parlamintp-tei2vert.pl";
+$scriptConls   = "$Bin/parlamintp2conllu.pl";
 
 $XX_template = "ParlaMint-XX";
 
@@ -185,8 +185,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
-	die "Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
-	die "No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
+	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
@@ -194,14 +194,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
-	`$SaxonX handle=$handleAna outDir=$outDir -xsl:$Final $inAnaRoot`;
+	`$SaxonX handle=$handleAna outDir=$outDir -xsl:$scriptFinal $inAnaRoot`;
 	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: *Finalizing $countryCode TEI\n";
-	die "Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
-	die "No handle given for TEI distribution\n" unless $handleTEI;
+	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
+	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
@@ -209,63 +209,71 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
-	`$SaxonX handle=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$Final $inTeiRoot`;
+	`$SaxonX handle=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptFinal $inTeiRoot`;
 	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: *Making $countryCode samples\n";
-	die "Can't find output tei root $outTeiRoot\n" unless -e $outTeiRoot; 
-	`rm -fr $outSmpDir`;
-	`$Saxon outDir=$outSmpDir -xsl:$Sample $outTeiRoot`;
-	if (-e $outAnaRoot) {
-	    `$Saxon outDir=$outSmpDir -xsl:$Sample $outAnaRoot`;
-	    #Make also derived files
-	    `$Verts $outSmpDir $outSmpDir`;
-	    `$Conls $outSmpDir $outSmpDir`
+	if (-e $outTeiRoot) {
+	    `rm -fr $outSmpDir`;
+	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	}
-	else {print STDERR "WARN: No .ana files for $countryCode samples\n"}
-	`$Texts $outSmpDir $outSmpDir`;
+	else {print STDERR "ERROR: No TEI files for $countryCode samples\n"}
+	if (-e $outAnaRoot) {
+	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
+	    #Make also derived files
+	    `$scriptVerts $outSmpDir $outSmpDir`;
+	    `$scriptConls $outSmpDir $outSmpDir`
+	}
+	else {print STDERR "ERROR: No .ana files for $countryCode samples\n"}
+	if (-e $outTeiRoot) {
+	    `$scriptTexts $outSmpDir $outSmpDir`;
+	}
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: *Validating $countryCode TEI\n";
-	die "Can't find schema directory $schemaDir\n" unless -e $schemaDir;
-	`$Valid $schemaDir $outSmpDir`;
-	`$Valid $schemaDir $outTeiDir`;
-	`$Valid $schemaDir $outAnaDir`;
+	die "FATAL: Can't find schema directory $schemaDir\n" unless -e $schemaDir;
+	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
+	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
+	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: *Making $countryCode text\n";
-	die "Can't find output tei dir $outTeiDir\n" unless -e $outTeiDir; 
-	die "No handle given for TEI distribution\n" unless $handleTei;
+	if    ($handleTei) {$handleTxt = $handleTei}
+	elsif ($handleAna) {$handleTxt = $handleAna}
+	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
-	&cp_readme($countryCode, $handleTei, $inReadme, "$outTxtDir/00README.txt");
-	`$Texts $outTeiDir $outTxtDir`;
+	# We have an oportinistic handle!
+	&cp_readme($countryCode, $handleTxt, $inReadme, "$outTxtDir/00README.txt");
+	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
+	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
+	else {die "FATAL: Neither $outTeiDir nor $outAnaDir exits\n"}
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
-	die "Can't find output ana dir $outAnaDir\n" unless -e $outAnaDir; 
-	die "No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
 	&cp_readme($countryCode, $handleTei, $inReadme, "$outTxtDir/00README.txt");
-	`$Conls $outAnaDir $outConlDir`;
+	`$scriptConls $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: *Making $countryCode vert\n";
-	die "Can't find output ana dir $outAnaDir\n" unless -e $outAnaDir; 
-	die "No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
 	&cp_readme($countryCode, $handleAna, $inReadme, "$outVertDir/00README.txt");
 	`cp "$docsDir/$vertRegi" $outVertDir`;
-	`$Verts $outAnaDir $outVertDir`;
+	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
 }
@@ -298,7 +306,7 @@ sub factorisations {
 	else {
 	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
-	    `$Saxon noAna=\"$FactoriseFiles\" outDir=$tmpOutDir -xsl:$Factor $Root`;
+	    `$Saxon noAna=\"$factoriseFiles\" outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;
 	}
 	if ($procCommon) {
@@ -318,7 +326,7 @@ sub factorisations {
 sub polish {
     my $dir = shift;
     foreach my $file (glob("$dir/*.xml $dir/*/*.xml")) {
-	`$Polish < $file > $file.tmp`;
+	`$scriptPolish < $file > $file.tmp`;
 	rename("$file.tmp", $file); 
     }
 }
@@ -345,8 +353,8 @@ sub cp_readme {
     my $handle  = shift;
     my $inFile  = shift;
     my $outFile = shift;
-    open IN, '<:utf8', $inFile or die "Can't open input README $inFile\n";
-    open OUT,'>:utf8', $outFile or die "Can't open output README $outFile\n";
+    open IN, '<:utf8', $inFile or die "FATAL: Can't open input README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "FATAL: Can't open output README $outFile\n";
     while (<IN>) {
 	s/XX/$country/g;
 	s/YY/$handle/g;
