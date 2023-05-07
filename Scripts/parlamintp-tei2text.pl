@@ -34,7 +34,7 @@ foreach $inFile (@corpusFiles) {
     $ok = 1;
     if ($inFile =~ /(.+)\.ana\./) {
 	my $teiFile = "$1.xml";
-	foreach my $f (@corpusFile) {$ok = 0 if $f eq $teiFile}
+	foreach my $f (@corpusFiles) {$ok = 0 if $f eq $teiFile}
     }
     print TMP "$inFile\n" if $ok;
 }

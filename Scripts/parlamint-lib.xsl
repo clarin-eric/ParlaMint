@@ -667,7 +667,15 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:sequence select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats, '&#9;', $n)"/>
+    <xsl:choose>
+      <!-- Output token ID only if there is one -->
+      <xsl:when test="normalize-space($n)">
+	<xsl:sequence select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats, '&#9;', $n)"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:sequence select="concat($lemma, '&#9;', $ud-pos, '&#9;', $ud-feats)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
 
 </xsl:stylesheet>

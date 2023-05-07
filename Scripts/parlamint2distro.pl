@@ -144,7 +144,7 @@ unless ($countryCodes) {
     exit
 }
 foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
-    print STDERR "INFO: ***Converting $countryCode\n";
+    print STDERR "INFO: *****Converting $countryCode\n";
 
     # Is this an MTed corpus?
     if ($countryCode =~ m/-([a-z]{2,3})$/) {$MT = $1}
@@ -184,7 +184,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $vertRegi =~ s/-/_/g;  #e.g. parlamint30_es-ct.regi to parlamint30_es_ct.regi
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
-	print STDERR "INFO: *Finalizing $countryCode TEI.ana\n";
+	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
 	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
 	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
@@ -199,7 +199,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
-	print STDERR "INFO: *Finalizing $countryCode TEI\n";
+	print STDERR "INFO: ***Finalizing $countryCode TEI\n";
 	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
@@ -214,39 +214,40 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
-	print STDERR "INFO: *Making $countryCode samples\n";
+	print STDERR "INFO: ***Making $countryCode samples\n";
 	if (-e $outTeiRoot) {
 	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	}
 	else {print STDERR "ERROR: No TEI files for $countryCode samples\n"}
+	if (-e $outTeiRoot) {
+	    `$scriptTexts $outSmpDir $outSmpDir`;
+	}
 	if (-e $outAnaRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
 	    #Make also derived files
+	    `$scriptTexts $outSmpDir $outSmpDir` unless $outTeiRoot;
 	    `$scriptVerts $outSmpDir $outSmpDir`;
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples\n"}
-	if (-e $outTeiRoot) {
-	    `$scriptTexts $outSmpDir $outSmpDir`;
-	}
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
-	print STDERR "INFO: *Validating $countryCode TEI\n";
+	print STDERR "INFO: ***Validating $countryCode TEI\n";
 	die "FATAL: Can't find schema directory $schemaDir\n" unless -e $schemaDir;
 	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
 	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
 	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
-	print STDERR "INFO: *Making $countryCode text\n";
+	print STDERR "INFO: ***Making $countryCode text\n";
 	if    ($handleTei) {$handleTxt = $handleTei}
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
-	# We have an oportinistic handle!
+	# We have an oportunistic handle!
 	&cp_readme($countryCode, $handleTxt, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
@@ -254,7 +255,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
-	print STDERR "INFO: *Making $countryCode CoNLL-U\n";
+	print STDERR "INFO: ***Making $countryCode CoNLL-U\n";
 	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
 	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outConlDir; mkdir $outConlDir`;
@@ -265,7 +266,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&dirify($outConlDir);
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
-	print STDERR "INFO: *Making $countryCode vert\n";
+	print STDERR "INFO: ***Making $countryCode vert\n";
 	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
 	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outVertDir; mkdir $outVertDir`;

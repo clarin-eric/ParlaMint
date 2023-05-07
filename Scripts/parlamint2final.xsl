@@ -43,7 +43,7 @@
   <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
   <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
   
-  <!-- Version and handle of the release -->
+  <!-- Version and handle of the release; handle should be given as run-time parameter! -->
   <xsl:param name="version">3.0</xsl:param>
   <xsl:param name="handle"/>
 
