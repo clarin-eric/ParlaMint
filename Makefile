@@ -585,55 +585,12 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 .update_DATA_XX_REP:
 	git -C ${DATA_XX_REP} pull --all
 
-
 ##!create-UD-SYN-taxonomy##
 create-taxonomy-UD-SYN:
 	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
 	git -C Scripts/UD-docs checkout pages-source
 	git -C Scripts/UD-docs pull
 	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
-
-
-######################Generating and ingesting TSV added metadata
-
-## Generate TSV files for party information on the basis of the corpus root files.
-generate-parties:
-	$s path=../${DATADIR} outDir=Data/Metadata/Parties -xsl:Scripts/parties-tei2tsv.xsl \
-	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
-
-## Insert political orientation of parties from TSV file into a root file.
-insert-orientation-test-all:
-	make insert-orientation-test OC=BE DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=BG DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=CZ DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=DK DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=ES DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=FR DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=GB DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IS DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=LT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=LV DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=NL DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=PL DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=SI DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=TR DATADIR=../ParlaMint-v2tov3/Data
-
-OC = DK
-insert-orientation-test-new:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}-listOrg.xml > Scripts/tmp/ParlaMint-${OC}-listOrg.xml
-insert-orientation-test:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-insert-orientation-test-val:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-	#-diff -b ${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml Scripts/tmp/ParlaMint-${OC}.xml
-	#${pc} Scripts/tmp/ParlaMint-${OC}.xml
-	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
-	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
 
 ######################VARIABLES
 s = java $(JM) -jar /usr/share/java/saxon.jar

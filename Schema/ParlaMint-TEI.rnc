@@ -17,7 +17,9 @@ start =
     >> a:documentation [
          "Obligatory @ana determining what scope this document has."
        ],
-    attribute ana { anyURIs },
+    attribute ana { anyURIs }
+    >> a:documentation [ "Optional @corresp for MTed corpora." ],
+    corresp.att,
     teiHeader,
     text-body
   }
@@ -220,7 +222,9 @@ text-body =
 ## The definition of the div element.
 \div =
   element div {
-    global.atts,
+    global.atts
+    >> a:documentation [ "Optional @corresp for MTed corpora." ],
+    corresp.att,
     
     ## A standard div with utterances.
     ((attribute type { "debateSection" },
@@ -249,14 +253,18 @@ u =
          "Utterance has obligatory @ana, for the role of the speaker."
        ],
     ana.att,
-    attribute source { anyURIs }?,
+    (attribute source { anyURIs }?)
+    >> a:documentation [ "Optional @corresp for MTed corpora." ],
+    corresp.att,
     (seg | comment | pb)+
   }
 
 ## A segment (i.e paragraph) inside a speech.
 seg =
   element seg {
-    global.atts,
+    global.atts
+    >> a:documentation [ "Optional @corresp for MTed corpora." ],
+    corresp.att,
     (comment
      | pb
      | text

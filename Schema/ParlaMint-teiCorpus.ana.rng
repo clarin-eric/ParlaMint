@@ -42,24 +42,6 @@
     </define>
   </include>
   
-  <define name="prefixDef">
-    <a:documentation>Prefix definition for extended TEI pointers.</a:documentation>
-    <element name="prefixDef">
-      <attribute name="ident">
-        <data type="token">
-          <param name="pattern">[a-z][a-z0-9\+\.\-]*</param>
-        </data>
-      </attribute>
-      <attribute name="matchPattern">
-        <data type="token"/>
-      </attribute>
-      <attribute name="replacementPattern">
-        <data type="token"/>
-      </attribute>
-      <ref name="paras"/>
-    </element>
-  </define>
-  
   <define name="application">
     <a:documentation>Description of an applications used to linguistically annotate the
     corpus.</a:documentation>

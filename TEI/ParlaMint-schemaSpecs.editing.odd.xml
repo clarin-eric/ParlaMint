@@ -3260,11 +3260,8 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="org" module="namesdates" mode="change">
-    <desc
-        versionDate="2007-06-14"
-        xml:lang="en">provides information
-    about an identifiable organisation such as a business, a tribe, or
-    any other grouping of people.</desc>
+    <desc versionDate="2023-04-06" xml:lang="en">provides information about an identifiable organisation such as the
+    government, political party, ministry etc.</desc>
     <content>
       <sequence>
         <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
@@ -3310,6 +3307,7 @@
           <valItem ident="ethnicCommunity"/>
         </valList>
       </attDef>
+      <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="ana"/>
     </attList>
     <exemplum xml:lang="en">
@@ -3773,12 +3771,11 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="affiliation" module="namesdates" mode="change">
-    <desc
-        versionDate="2005-01-14"
-        xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organisation, for example an employer or sponsor.</desc>
+    <desc versionDate="2023-04-06" xml:lang="en">contains an informal description of a person's present or past affiliation with some
+    organisation, for example a political party or ministry.</desc>
     <content>
       <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
+      <elementRef key="orgName" minOccurs="0" maxOccurs="unbounded"/>
     </content>
     <attList>
       <attDef ident="role" mode="replace" usage="req">
