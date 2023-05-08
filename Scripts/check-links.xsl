@@ -76,7 +76,7 @@
     <xsl:for-each select="tokenize(., ' ')">
       <xsl:if test="not(normalize-space(.))">
         <xsl:call-template name="error">
-          <xsl:with-param name="msg" select="concat('ERROR: two spaces in ', $idrefs)"/>
+          <xsl:with-param name="msg" select="concat('ERROR: extra space in IDREFS ', $idrefs)"/>
         </xsl:call-template>
       </xsl:if>
       <xsl:variable name="prefix" select="substring-before(., ':')"/>
