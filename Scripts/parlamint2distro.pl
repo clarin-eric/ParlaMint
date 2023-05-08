@@ -93,7 +93,7 @@ GetOptions
      'vert!'      => \$procVert,
 );
 
-#We need $procFactor of $procCommon is set!
+#We need $procFactor if $procCommon is set!
 if ($procCommon) {$procFactor = $procCommon}
 
 if ($help) {

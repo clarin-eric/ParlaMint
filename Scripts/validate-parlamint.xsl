@@ -252,7 +252,8 @@
           <xsl:with-param name="msg">Missing 'Named entities' taxonomy</xsl:with-param>
         </xsl:call-template>
       </xsl:if>
-      <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'])">
+      <!-- Machine translated corpora do not have syntacitc parses -->
+      <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'] or normalize-space($mt))">
         <xsl:call-template name="error">
           <xsl:with-param name="msg">Missing 'UD syntactic relations' taxonomy</xsl:with-param>
         </xsl:call-template>
