@@ -202,10 +202,6 @@ name-header =
     normalized-space.string
   }
 
-## A series of paragraphs. Paragrapgs are only used in the
-##     teiHeader.
-paras = element p { global.atts, annotated.text }+
-
 ## A series of anonymous blocks. Anonymous blocks are only used in the
 ##     teiHeader.
 abs = element ab { global.atts, normalized-space.string }+
