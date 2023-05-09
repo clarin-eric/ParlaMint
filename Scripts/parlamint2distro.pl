@@ -219,7 +219,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	}
-	else {print STDERR "ERROR: No TEI files for $countryCode samples\n"}
+	else {print STDERR "ERROR: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outTeiRoot) {
 	    `$scriptTexts $outSmpDir $outSmpDir`;
 	}
@@ -230,7 +230,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `$scriptVerts $outSmpDir $outSmpDir`;
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
-	else {print STDERR "ERROR: No .ana files for $countryCode samples\n"}
+	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
