@@ -22,7 +22,9 @@ The Estonian data included in ParlaMint II covers a time period from 2011-04-04 
 
 ### Data encoding process
 
-The starting file for data encoding was a single json file that contained the processed transcripts as well as all the information about the speakers. As a first stage, the json file was chunked according to date, next all date files were processed individually. A special tool was developed for processing json files, see https://gitlab.keeleressursid.ee/ekrk/clarin/parlamint (NB! The link will probably change!) Linguistic annotation and NER tagging was done with EstNLTK (ver. 1.6.9b) using Stanza (ver. 1.3.0) see https://github.com/estnltk/estnltk/.
+The starting file for data encoding was a single json file that contained the processed transcripts as well as all the information about the speakers. As a first stage, the json file was chunked according to date, next all date files were processed individually. A special tool was developed for processing json files, see
+https://github.com/nemeek/parlamintee .
+Linguistic annotation and NER tagging was done with EstNLTK (ver. 1.6.9b) using Stanza (ver. 1.3.0) see https://github.com/estnltk/estnltk/.
 
 ### Corpus-specific metadata
 
