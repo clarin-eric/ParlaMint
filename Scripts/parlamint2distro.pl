@@ -100,7 +100,7 @@ $outDir = File::Spec->rel2abs($outDir);
 #$Parallel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
-$SaxonX  = "java -Xmx120g -jar /usr/share/java/saxon.jar";
+$SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
 $FactoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
 $FactoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
@@ -235,7 +235,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
 }
 
-#Take care of factorised files
+# Factorise teiHeader if necessary
 sub factorisations {
     my $Root = shift;
     my $Dir = shift;
@@ -263,6 +263,7 @@ sub factorisations {
 	    print STDERR "INFO: $Dir already factorised\n"
 	}
 	else {
+	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
 	    `$Saxon noAna=\"$FactoriseFiles\" outDir=$tmpOutDir -xsl:$Factor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;

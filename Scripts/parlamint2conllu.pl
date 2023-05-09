@@ -55,11 +55,11 @@ $country2lang{'NO'} = 'no';
 $country2lang{'PL'} = 'pl';
 $country2lang{'PT'} = 'pt';
 $country2lang{'RO'} = 'ro';
-$country2lang{'RO'} = 'ro';
 $country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
+$country2lang{'UA'} = 'uk, ru';
 
 print STDERR "INFO: Converting directory $inDir\n";
 my $rootAnaFile = '';

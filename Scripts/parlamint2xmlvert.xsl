@@ -51,14 +51,13 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:for-each select="tei:text/tei:body/tei:div/tei:*">
+    <xsl:for-each select="tei:text/tei:body/tei:div[tei:u]/tei:*">
       <xsl:choose>
         <xsl:when test="self::tei:u">
           <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
           <speech id="{$speech_id}" text_id="{$text_id}"
-                  subcorpus="{$subcorpus}"
-                  body="{$body}" term="{$term}" session="{$session}"
-                  meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
+                  subcorpus="{$subcorpus}" body="{$body}"
+		  term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
                   date="{$at-date}" title="{$title}">
             <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
             <xsl:choose>
@@ -94,9 +93,13 @@
           </speech>
           <xsl:text>&#10;</xsl:text>
         </xsl:when>
-        <xsl:otherwise>
+	<!-- Process transcriber note only if last in the series, 
+	     as they are empty elements in vert -->
+        <xsl:when test="not(preceding::tei:*[1]
+			[self::tei:head | self::tei:note | self::tei:gap |
+			self::tei:vocal | self::tei:incident | self::tei:kinesic])">
           <xsl:apply-templates select="."/>
-        </xsl:otherwise>
+	</xsl:when>
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>

@@ -1,15 +1,25 @@
 <?xml version="1.0"?>
-<!-- Finalize the encoding of a ParlaMint corpus (Source language version) -->
-<!-- Takes root file as input, and outputs it, any of its factorised pieces 
-     and all finalized component files to outDir:
-     - set release date to today
-     - set version and handles for 3.0
-     - set correct stamp in main titles
-     - set correct subcorpus
-     - set English project description for ParlaMint II
+<!-- Finalize the encoding of a ParlaMint corpus (source language version) -->
+<!-- Input is plain text (.TEI) or lingustically analysed (.TEI.ana) corpus root file 
+     with XIncludes for all corpus components
+     Output is corresponding (.TEI or .TEI.ana) 
+     - corpus root, 
+     - factorised metadata (taxonomies, person and organisation list) 
+     - components
+     All are in their final form for a particular release.
+     STDERR gives detailed log of actions.
+     The inserted or fixed data is either given as parameters with default values or 
+     computed from the corpus.
+     The program:
+     - sets release date, default = today
+     - sets version and handles, default = 3.0
+     - sets top level @xml:id so it is the same as the filename
+     - set correct ParlaMint stamp in main titles
+     - set correct reference / COVID subcorpus, default > 2019-11-01
+     - set English project description, default = ParlaMint II
      - calculate extents in component ana files, warn if changed
      - insert word extents from ana into plain version
-     - insert tagcounts in root (taken from component files and not changed there!)
+     - insert tagCounts in root (taken from component files and not changed there!)
      - fix spaces in text
      - if necessary, change div/@type for divs without utterances
      - sundry checks and fixes, which give warning messages
@@ -26,7 +36,7 @@
 
   <xsl:import href="parlamint-lib.xsl"/>
   
-  <!-- Directories must have absolute paths! -->
+  <!-- Directories must have absolute paths or relative to the location of this script -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
   
@@ -145,9 +155,8 @@
   <!-- Numbers of speeches in component files -->
   <xsl:variable name="speeches">
     <xsl:for-each select="$docs/tei:item[@type = 'component']">
-      <item>
-        <xsl:value-of select="document(tei:url-orig)/tei:TEI/tei:teiHeader//
-                              tei:extent/tei:measure[@unit = 'speeches'][1]/@quantity"/>
+      <item n="{tei:xi-orig}">
+        <xsl:value-of select="document(tei:url-orig)/count(//tei:u)"/>
       </item>
     </xsl:for-each>
   </xsl:variable>
@@ -192,6 +201,7 @@
 	  <!-- Process component -->
 	  <xsl:when test="@type = 'component'">
             <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
+              <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
               <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
             </xsl:apply-templates>
 	  </xsl:when>
@@ -206,10 +216,12 @@
   </xsl:template>
 
   <xsl:template mode="comp" match="*">
+    <xsl:param name="speeches"/>
     <xsl:param name="words"/>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
+        <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="words" select="$words"/>
       </xsl:apply-templates>
     </xsl:copy>
@@ -218,6 +230,15 @@
     <xsl:copy/>
   </xsl:template>
 
+  <xsl:template mode="comp" match="tei:TEI/@xml:id">
+    <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
+    <xsl:attribute name="xml:id" select="$id"/>
+    <xsl:if test=". != $id">
+      <xsl:message select="concat('WARN ', @xml:id, 
+                               ': fixing TEI/@xml:id to ', $id)"/>
+    </xsl:if>
+  </xsl:template>
+  
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
@@ -225,12 +246,12 @@
       <xsl:variable name="ref">
         <xsl:for-each select="tokenize(., ' ')">
           <xsl:choose>
-            <xsl:when test=". = '#reference' and $covid-date &lt;= $date">
+            <xsl:when test=". = '#reference' and $covid-date &lt; $date">
               <xsl:text>#covid</xsl:text>
               <xsl:message select="concat('WARN ', $id, 
                                ': fixing subcorpus to covid for date ', $date)"/>
             </xsl:when>
-            <xsl:when test=". = '#covid' and $covid-date &gt; $date">
+            <xsl:when test=". = '#covid' and $covid-date &gt;= $date">
               <xsl:text>#reference</xsl:text>
               <xsl:message select="concat('WARN ', $id, 
 				   ': fixing subcorpus to reference for date ', $date)"/>
@@ -259,7 +280,7 @@
   <xsl:template mode="comp" match="tei:projectDesc/tei:p[@xml:lang = 'en']">
     <xsl:apply-templates select="."/>
   </xsl:template>
-  <xsl:template mode="comp" match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
+  <xsl:template mode="comp" match="tei:idno">
     <xsl:apply-templates select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
@@ -274,7 +295,27 @@
   </xsl:template>
 
   
+  <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='speeches']">
+    <xsl:param name="speeches"/>
+    <xsl:param name="words"/>
+    <xsl:variable name="old-speeches" select="@quantity"/>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="normalize-space($speeches) and $speeches != '0'">
+        <xsl:attribute name="quantity" select="$speeches"/>
+        <xsl:if test="$old-speeches != $speeches">
+          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                               ': replacing speeches ', $old-speeches, ' with ', $speeches)"/>
+        </xsl:if>
+        <xsl:value-of select="replace(., '.+ ', concat(
+                              et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $speeches), 
+                              ' '))"/>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>  
+
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='words']">
+    <xsl:param name="speeches"/>
     <xsl:param name="words"/>
     <xsl:variable name="old-words" select="@quantity"/>
     <xsl:copy>
@@ -286,12 +327,12 @@
                                ': replacing words ', $old-words, ' with ', $words)"/>
         </xsl:if>
         <xsl:value-of select="replace(., '.+ ', concat(
-                            et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
-                            ' '))"/>
+                              et:format-number(ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang, $words), 
+                              ' '))"/>
       </xsl:if>
     </xsl:copy>
   </xsl:template>  
-
+  
   <!-- Fix div/@type="debateSection" to ="commentSection" if div contains not utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
@@ -364,6 +405,19 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Bug in STANZA, sometimes synt. relation is "<PAD>" -->
+  <!-- We set it to general dependency "dep" -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:&lt;PAD&gt;']">
+    <xsl:copy>
+      <xsl:attribute name="ana">
+        <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:&lt;PAD&gt; with ud-syn:dep')"/>
+	<xsl:text>ud-syn:dep</xsl:text>
+      </xsl:attribute>
+      <xsl:apply-templates select="@target"/>
+    </xsl:copy>
+  </xsl:template>
+
   <!-- Finalizing ROOT -->
   
   <xsl:template match="*">
@@ -390,6 +444,15 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="tei:teiCorpus/@xml:id">
+    <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
+    <xsl:attribute name="xml:id" select="$id"/>
+    <xsl:if test=". != $id">
+      <xsl:message select="concat('WARN ', @xml:id, 
+                               ': fixing teiCorpus/@xml:id to ', $id)"/>
+    </xsl:if>
+  </xsl:template>
+  
   <!-- Check if we have a correct stamp, and if it is correct, replace if not -->
   <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
     <xsl:variable name="okStamp">
@@ -439,7 +502,7 @@
                                 ' '))"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+          <xsl:message select="concat('ERROR ', /tei:*/@xml:id, 
                                ': no count for measure ', @unit)"/>
         </xsl:otherwise>
       </xsl:choose>
@@ -476,18 +539,41 @@
       <change when="{$today-iso}"><name>parlamint2final.xsl</name>: Finalize corpus.</change>
     </xsl:copy>
   </xsl:template>
-
-  <xsl:template match="tei:idno[contains(., 'http://hdl.handle.net/11356/')]">
-    <idno subtype="handle" type="URI">
+  
+  <xsl:template match="tei:idno">
+    <xsl:copy>
       <xsl:choose>
-        <xsl:when test="$type = 'txt'">
-          <xsl:value-of select="$handle-txt"/>
-        </xsl:when>
-        <xsl:when test="$type = 'ana'">
-          <xsl:value-of select="$handle-ana"/>
-        </xsl:when>
+	<xsl:when test="contains(., 'hdl.handle.net/11356/')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">handle</xsl:attribute>
+	  <xsl:choose>
+            <xsl:when test="$type = 'txt'">
+              <xsl:value-of select="$handle-txt"/>
+            </xsl:when>
+            <xsl:when test="$type = 'ana'">
+              <xsl:value-of select="$handle-ana"/>
+            </xsl:when>
+	  </xsl:choose>
+	</xsl:when>
+	<!-- For GB and ES-GA -->
+	<xsl:when test="@type = 'URI' and matches(., 'parli?ament')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">parliament</xsl:attribute>
+          <xsl:value-of select="normalize-space(.)"/>
+	</xsl:when>
+	<xsl:when test="@type and @subtype">
+	  <xsl:attribute name="type" select="@type"/>
+	  <xsl:attribute name="subtype" select="@subtype"/>
+          <xsl:value-of select="normalize-space(.)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
+                               ': idno without subtype, content is ', .)"/>
+	  <xsl:attribute name="type" select="@type"/>
+          <xsl:value-of select="normalize-space(.)"/>
+	</xsl:otherwise>
       </xsl:choose>
-    </idno>
+    </xsl:copy>
   </xsl:template>
 
   <xsl:template match="tei:tagsDecl/tei:namespace">
@@ -536,9 +622,11 @@
     <xsl:param name="quant"/>
     <xsl:variable name="form" select="format-number($quant, '###,###,###,###')"/>
     <xsl:choose>
+      <!-- Spaces for thousands separator -->
       <xsl:when test="$lang = 'fr'">
         <xsl:value-of select="replace($form, ',', ' ')"/>
       </xsl:when>
+      <!-- Period for thousands separator -->
       <xsl:when test="$lang = 'bg' or 
                       $lang = 'bs' or
                       $lang = 'cs' or
@@ -556,6 +644,7 @@
                       ">
         <xsl:value-of select="replace($form, ',', '.')"/>
       </xsl:when>
+      <!-- Comma for thousands separator -->
       <xsl:otherwise>
         <xsl:value-of select="$form"/>
       </xsl:otherwise>
