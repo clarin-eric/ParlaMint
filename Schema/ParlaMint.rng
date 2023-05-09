@@ -536,6 +536,16 @@
     </element>
   </define>
   
+  <define name="paras">
+    <a:documentation>A series of paragraphs. Paragraphs are only used in the teiHeader.</a:documentation>
+    <oneOrMore>
+      <element name="p">
+        <ref name="global.atts"/>
+        <ref name="annotated.text"/>
+      </element>
+    </oneOrMore>
+  </define>
+
   <define name="idno">
     <a:documentation>The identification number element identifies a corpus element with an URI,
     and specifies its type and subtype.</a:documentation>

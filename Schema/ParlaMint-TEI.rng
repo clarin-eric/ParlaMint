@@ -378,17 +378,6 @@
     </element>
   </define>
   
-  <define name="paras">
-    <a:documentation>A series of paragraphs. Paragrapgs are only used in the
-    teiHeader.</a:documentation>
-    <oneOrMore>
-      <element name="p">
-        <ref name="global.atts"/>
-        <ref name="annotated.text"/>
-      </element>
-    </oneOrMore>
-  </define>
-
   <define name="abs">
     <a:documentation>A series of anonymous blocks. Anonymous blocks are only used in the
     teiHeader.</a:documentation>

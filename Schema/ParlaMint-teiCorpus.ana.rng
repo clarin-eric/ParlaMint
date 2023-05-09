@@ -28,11 +28,14 @@
             </choice>
           </oneOrMore>
         </element>
-        <element name="listPrefixDef">
-          <oneOrMore>
-            <ref name="prefixDef"/>
-          </oneOrMore>
-        </element>
+	<a:documentation>MTed corpora do not (necessarily) have prefix definitions in root.</a:documentation>
+	<optional>
+          <element name="listPrefixDef">
+            <oneOrMore>
+              <ref name="prefixDef"/>
+            </oneOrMore>
+          </element>
+	</optional>
         <element name="appInfo">
           <oneOrMore>
             <ref name="application"/>
