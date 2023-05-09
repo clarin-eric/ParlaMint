@@ -5,7 +5,8 @@ the ParlaMint corpora.
 
 The current state of processing is:
 * Source corpus already contains ministers: AT BG CZ DK GR HU IS NL NO PT SE SI TR
-* Edited files: BE ES HR LT LV PL SI (TR)
+* Edited files, V2.1: BE ES HR LT LV PL SI (TR)
+* Additions V3.0: BE HR LV SI (not yet)
 * Not yet edited: BA RS
 
 The directory contains the following types of files:

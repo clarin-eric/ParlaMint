@@ -7,6 +7,17 @@ a:documentation [
   "  mandated vocabularis of attributes."
 ]
 
+## Prefix definition for extended TEI pointers.
+prefixDef =
+  element prefixDef {
+    attribute ident {
+      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
+    },
+    attribute matchPattern { xsd:token },
+    attribute replacementPattern { xsd:token },
+    paras
+  }
+
 ## Taxonomy element included directly in the teiHeader of corpus root or stored
 ##     in a separate file.
 taxonomy =
@@ -61,12 +72,10 @@ orgName =
     normalized-space.string
   }
 
-## Element defining the political orientation of a politicalParty or
-##     parliamentaryGroup.
+## Element defining the political orientation of a politicalParty or parliamentaryGroup.
 state =
   
-  ## The type of state is fixed, as we use state only for political
-  ##       orientation.
+  ## The type of state is fixed, as we use state only for political orientation.
   element state {
     attribute type { stateType.val }
     >> a:documentation [
@@ -78,7 +87,7 @@ state =
     ## The political orientation if given as a numeric value.
     (attribute n { xsd:decimal }?)
     >> a:documentation [ "From - to when this information holds." ],
-    temporal.atts
+    (temporal.atts?)
     >> a:documentation [
          "Pointer to category of a political orientation."
        ],
@@ -166,17 +175,22 @@ persName =
         & element nameLink { normalized-space.string }*))
   }
 
-## The affiliation of a person, with temoral attributes and its type.
+## The affiliation of a person, with temporal attributes, its type and possibly some content.
 affiliation =
   element affiliation {
     ana.att?,
     temporal.atts?,
     ref.att,
     source.att,
-    attribute role { affiliationRole.val },
+    attribute role { affiliationRole.val }
+    >> a:documentation [ "The written out name of the role." ],
     (element roleName { lang.att, normalized-space.string }*)
     >> a:documentation [
-         "Optional note for free-text note of the affiliation period."
+         "The name of the organisation they are affiliated with."
+       ],
+    (element orgName { lang.att, normalized-space.string }*)
+    >> a:documentation [
+         "Optional note for free-text description of the affiliation period."
        ],
     element note {
       attribute type { "period" },
@@ -249,6 +263,9 @@ head =
     # </oneOrMore
     
   }
+
+## A series of paragraphs. Paragraphs are only used in the teiHeader.
+paras = element p { global.atts, annotated.text }+
 
 ## The identification number element identifies a corpus element with an URI,
 ##     and specifies its type and subtype.

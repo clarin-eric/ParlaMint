@@ -8,6 +8,24 @@
   <a:documentation>RelaxNG XML schema for ParlaMint corpora: common definitions and ParlaMint
   mandated vocabularis of attributes.</a:documentation>
 
+  <define name="prefixDef">
+    <a:documentation>Prefix definition for extended TEI pointers.</a:documentation>
+    <element name="prefixDef">
+      <attribute name="ident">
+        <data type="token">
+          <param name="pattern">[a-z][a-z0-9\+\.\-]*</param>
+        </data>
+      </attribute>
+      <attribute name="matchPattern">
+        <data type="token"/>
+      </attribute>
+      <attribute name="replacementPattern">
+        <data type="token"/>
+      </attribute>
+      <ref name="paras"/>
+    </element>
+  </define>
+  
   <define name="taxonomy">
     <a:documentation>Taxonomy element included directly in the teiHeader of corpus root or stored
     in a separate file.</a:documentation>
@@ -127,11 +145,9 @@
   </define>
   
   <define name="state">
-    <a:documentation>Element defining the political orientation of a politicalParty or
-    parliamentaryGroup.</a:documentation>
+    <a:documentation>Element defining the political orientation of a politicalParty or parliamentaryGroup.</a:documentation>
     <element name="state">
-      <a:documentation>The type of state is fixed, as we use state only for political
-      orientation.</a:documentation>
+      <a:documentation>The type of state is fixed, as we use state only for political orientation.</a:documentation>
       <attribute name="type">
         <ref name="stateType.val"/>
       </attribute>
@@ -147,7 +163,9 @@
         </attribute>
       </optional>
       <a:documentation>From - to when this information holds.</a:documentation>
-      <ref name="temporal.atts"/>
+      <optional>
+	<ref name="temporal.atts"/>
+      </optional>
       <a:documentation>Pointer to category of a political orientation.</a:documentation>
       <attribute name="ana">
         <data type="anyURI"/>
@@ -365,7 +383,7 @@
   </define>
   
   <define name="affiliation">
-    <a:documentation>The affiliation of a person, with temoral attributes and its type.</a:documentation>
+    <a:documentation>The affiliation of a person, with temporal attributes, its type and possibly some content.</a:documentation>
     <element name="affiliation">
       <optional>
         <ref name="ana.att"/>
@@ -378,13 +396,21 @@
       <attribute name="role">
         <ref name="affiliationRole.val"/>
       </attribute>
+      <a:documentation>The written out name of the role.</a:documentation>
       <zeroOrMore>
         <element name="roleName">
           <ref name="lang.att"/>
           <ref name="normalized-space.string"/>
         </element>
       </zeroOrMore>
-      <a:documentation>Optional note for free-text note of the affiliation period.</a:documentation>
+      <a:documentation>The name of the organisation they are affiliated with.</a:documentation>
+      <zeroOrMore>
+        <element name="orgName">
+          <ref name="lang.att"/>
+          <ref name="normalized-space.string"/>
+        </element>
+      </zeroOrMore>
+      <a:documentation>Optional note for free-text description of the affiliation period.</a:documentation>
       <optional>
         <element name="note">
           <attribute name="type">
@@ -510,6 +536,16 @@
     </element>
   </define>
   
+  <define name="paras">
+    <a:documentation>A series of paragraphs. Paragraphs are only used in the teiHeader.</a:documentation>
+    <oneOrMore>
+      <element name="p">
+        <ref name="global.atts"/>
+        <ref name="annotated.text"/>
+      </element>
+    </oneOrMore>
+  </define>
+
   <define name="idno">
     <a:documentation>The identification number element identifies a corpus element with an URI,
     and specifies its type and subtype.</a:documentation>
