@@ -15,8 +15,11 @@ include "ParlaMint-teiCorpus.rnc" {
       element projectDesc { paras },
       editorialDecl,
       tagsDecl,
-      element classDecl { (taxonomy | XInclude)+ },
-      element listPrefixDef { prefixDef+ },
+      element classDecl { (taxonomy | XInclude)+ }
+      >> a:documentation [
+           "MTed corpora do not (necessarily) have prefix definitions in root."
+         ],
+      element listPrefixDef { prefixDef+ }?,
       element appInfo { application+ }
     }
 }
