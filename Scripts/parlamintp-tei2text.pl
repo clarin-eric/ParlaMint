@@ -47,7 +47,7 @@ $command = "$Saxon -xsl:$scriptText {} > $outDir/{/.}.txt";
 
 print STDERR "INFO: Making metadata files\n";
 opendir(CORPUSDIR, $inDir);
-@rootFile = grep {/ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.xml$/} readdir(CORPUSDIR);
+@rootFile = grep {/ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?(\.ana)?\.xml$/} readdir(CORPUSDIR);
 closedir(CORPUSDIR);
 $command = "$Saxon meta=".File::Spec->catfile($inDir,$rootFile[0])." -xsl:$scriptMeta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
