@@ -15,22 +15,14 @@ include "ParlaMint-teiCorpus.rnc" {
       element projectDesc { paras },
       editorialDecl,
       tagsDecl,
-      element classDecl { (taxonomy | XInclude)+ },
-      element listPrefixDef { prefixDef+ },
+      element classDecl { (taxonomy | XInclude)+ }
+      >> a:documentation [
+           "MTed corpora do not (necessarily) have prefix definitions in root."
+         ],
+      element listPrefixDef { prefixDef+ }?,
       element appInfo { application+ }
     }
 }
-
-## Prefix definition for extended TEI pointers.
-prefixDef =
-  element prefixDef {
-    attribute ident {
-      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
-    },
-    attribute matchPattern { xsd:token },
-    attribute replacementPattern { xsd:token },
-    paras
-  }
 
 ## Description of an applications used to linguistically annotate the
 ##     corpus.
