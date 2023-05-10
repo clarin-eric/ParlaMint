@@ -219,7 +219,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	}
-	else {print STDERR "ERROR: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
+	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outTeiRoot) {
 	    `$scriptTexts $outSmpDir $outSmpDir`;
 	}
