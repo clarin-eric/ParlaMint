@@ -12,7 +12,9 @@ include "ParlaMint-TEI.rnc" {
   start =
     element teiCorpus {
       id.att >> a:documentation [ "Obligatory @xml:lang." ],
-      attribute xml:lang { lang.val },
+      attribute xml:lang { lang.val }
+      >> a:documentation [ "Optional @corresp for MTed corpora." ],
+      corresp.att,
       teiHeader,
       XInclude+
     }

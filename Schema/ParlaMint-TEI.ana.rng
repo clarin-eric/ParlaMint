@@ -14,11 +14,30 @@
 
   <include href="ParlaMint-TEI.rng">
     
+    <define name="encodingDesc">
+      <a:documentation>Encoding description linguistically annotated corpus compoment.</a:documentation>
+      <element name="encodingDesc">
+        <ref name="global.atts"/>
+        <element name="projectDesc">
+          <ref name="paras"/>
+        </element>
+        <ref name="tagsDecl"/>
+	<a:documentation>Definition of listPrefix for MTed corpora.</a:documentation>
+	<optional>
+          <element name="listPrefixDef">
+            <ref name="prefixDef"/>
+          </element>
+	</optional>
+      </element>
+    </define>
+    
     <define name="seg">
       <a:documentation>The only element that contains analysed text is the segment. It can,
       however, contain transcription commentary.</a:documentation>
       <element name="seg">
         <ref name="global.atts"/>
+	<a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+	<ref name="corresp.att"/>
         <oneOrMore>
           <choice>
             <ref name="comment"/>
@@ -35,6 +54,8 @@
     <a:documentation>A sentence.</a:documentation>
     <element name="s">
       <ref name="global.atts"/>
+      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+      <ref name="corresp.att"/>
       <oneOrMore>
         <choice>
           <ref name="comment"/>
@@ -44,7 +65,9 @@
           <ref name="punct"/>
         </choice>
       </oneOrMore>
-      <ref name="syntax"/>
+      <optional>
+	<ref name="syntax"/>
+      </optional>
     </element>
   </define>
 
@@ -209,7 +232,9 @@
 
   <define name="token.atts">
     <a:documentation>Attributes of token elements.</a:documentation>
-    <ref name="id.att"/>
+    <optional>
+      <ref name="id.att"/>
+    </optional>
     <ref name="lang.att"/>
     <optional>
       <attribute name="join">

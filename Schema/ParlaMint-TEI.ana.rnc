@@ -12,15 +12,37 @@ a:documentation [
 ]
 include "ParlaMint-TEI.rnc" {
   
+  ## Encoding description linguistically annotated corpus compoment.
+  encodingDesc =
+    element encodingDesc {
+      global.atts,
+      element projectDesc { paras },
+      tagsDecl
+      >> a:documentation [
+           "Definition of listPrefix for MTed corpora."
+         ],
+      element listPrefixDef { prefixDef }?
+    }
+  
   ## The only element that contains analysed text is the segment. It can,
   ##       however, contain transcription commentary.
-  seg = element seg { global.atts, (comment | pb | sentence)+ }
+  seg =
+    element seg {
+      global.atts
+      >> a:documentation [ "Optional @corresp for MTed corpora." ],
+      corresp.att,
+      (comment | pb | sentence)+
+    }
 }
 
 ## A sentence.
 sentence =
   element s {
-    global.atts, (comment | pb | ner | word | punct)+, syntax
+    global.atts
+    >> a:documentation [ "Optional @corresp for MTed corpora." ],
+    corresp.att,
+    (comment | pb | ner | word | punct)+,
+    syntax?
   }
 
 ## Named entity element
@@ -94,7 +116,7 @@ syntax =
 
 ## Attributes of token elements.
 token.atts =
-  id.att,
+  id.att?,
   lang.att,
   attribute join { "right" }?,
   attribute norm { non-empty.string }?,
