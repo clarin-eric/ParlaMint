@@ -273,7 +273,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
 	&cp_readme($countryCode, $handleAna, $inReadme, "$outVertDir/00README.txt");
-	`cp "$docsDir/$vertRegi" $outVertDir`;
+	if (-e $docsDir/$vertRegi) {`cp "$docsDir/$vertRegi" $outVertDir`}
+	else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
