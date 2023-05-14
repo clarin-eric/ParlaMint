@@ -261,7 +261,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
-	&cp_readme($countryCode, $handleTei, $inReadme, "$outTxtDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $inReadme, "$outTxtDir/00README.txt");
 	`$scriptConls $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
