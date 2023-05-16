@@ -7,6 +7,11 @@ PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
+LANG-CODE-LIST =
+
+TAXONOMIES-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES = $(addsuffix .xml, $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-INTERF)))
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
@@ -73,6 +78,21 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Galicia' PARLIAMENT-CODE='ES-GA' LANG-LIST='gl (Galician)'
 	make setup-parliament PARLIAMENT-NAME='Bosnia and Herzegovina' PARLIAMENT-CODE='BA' LANG-LIST='bs (Bosnian)'
 	make setup-parliament PARLIAMENT-NAME='Serbia' PARLIAMENT-CODE='RS' LANG-LIST='sr (Serbian)'
+
+
+## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
+#### parameter LANG-CODE-LIST can contain space separated list of languages
+initTaxonomies-XX = $(addprefix initTaxonomies-, $(PARLIAMENTS))
+$(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMIES))
+	cp ${DATADIR}/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/
+
+# initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(foreach Y,$(TAXONOMIES), initTaxonomy-$X-$Y))
+initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES) ) )
+$(initTaxonomy-XX-tt): initTaxonomy-%:
+	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
+	@${s} langs="$(LANG-CODE-LIST)" -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	  ${DATADIR}/Taxonomies/`echo -n '$*' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*' | sed 's/^.*--//'`
 
 
 ###### Validate with Relax NG schema

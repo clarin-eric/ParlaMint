@@ -15,9 +15,9 @@
   <xsl:variable name="idTemplate" select="'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?(-[a-z]{2,3})?'"/>
   
   <!-- Is this an MTed corpus? Set $mt to name of MTed language (or empty, if not) -->
-  <xsl:variable name="mt">
-    <xsl:if test="matches($id, '-[a-z]{2,3}$')">
-      <xsl:value-of select="replace($id, '.+-([a-z]{2,3})$', '$1')"/>
+  <xsl:variable name="MT">
+    <xsl:if test="matches($id, 'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?-[a-z]{2,3}')">
+      <xsl:value-of select="replace($id, 'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?-([a-z]{2,3}).*', '$2')"/>
     </xsl:if>
   </xsl:variable>
   
@@ -253,7 +253,7 @@
         </xsl:call-template>
       </xsl:if>
       <!-- Machine translated corpora do not have syntacitc parses -->
-      <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'] or normalize-space($mt))">
+      <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'] or normalize-space($MT))">
         <xsl:call-template name="error">
           <xsl:with-param name="msg">Missing 'UD syntactic relations' taxonomy</xsl:with-param>
         </xsl:call-template>
@@ -264,7 +264,7 @@
 
   <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
   <xsl:template match="tei:listPrefixDef">
-    <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($mt))">
+    <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
       <xsl:call-template name="error">
         <xsl:with-param name="msg">Missing UD prefixDef</xsl:with-param>
       </xsl:call-template>
