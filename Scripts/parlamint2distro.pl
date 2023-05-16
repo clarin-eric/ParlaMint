@@ -195,7 +195,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
 	`$SaxonX handle=$handleAna outDir=$outDir -xsl:$scriptFinal $inAnaRoot`;
-	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies);
+	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies,$inTeiRoot);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -219,7 +219,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	}
-	else {print STDERR "ERROR: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
+	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outTeiRoot) {
 	    `$scriptTexts $outSmpDir $outSmpDir`;
 	}
@@ -261,7 +261,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
-	&cp_readme($countryCode, $handleTei, $inReadme, "$outTxtDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $inReadme, "$outTxtDir/00README.txt");
 	`$scriptConls $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
@@ -273,7 +273,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
 	&cp_readme($countryCode, $handleAna, $inReadme, "$outVertDir/00README.txt");
-	`cp "$docsDir/$vertRegi" $outVertDir`;
+	if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outVertDir`}
+	else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
@@ -286,12 +287,19 @@ sub factorisations {
     my $listOrg = shift;
     my $listPerson = shift;
     my $taxonomies = shift;
+    my $teiRootPath = shift // '';
     my $factorised = 0;
     my $inListOrg    = "$Dir/$listOrg";
     my $inListPerson = "$Dir/$listPerson";
     my $inTaxonomies = "$Dir/$taxonomies";
     my @inTaxonomies = glob($inTaxonomies);
-
+    my $teiRootTaxonomies='';
+    if(-e $teiRootPath){
+        # setting teiRoot param, which is used for determining which taxonomies has been used in TEI version
+        # and .ana interfix shouldnt be added
+        print STDERR "INFO: using (TEI+TEI.ana)-shared taxonomies from $teiRootPath\n";
+        $teiRootTaxonomies=" teiRoot=\"$teiRootPath\" "
+    }
     # Prefix to put in front of the factorised files.
     my ($prefix) = $Root =~ m|([^/]+?)\.|;
     $prefix .= '-';
@@ -307,7 +315,7 @@ sub factorisations {
 	else {
 	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
-	    `$Saxon noAna=\"$factoriseFiles\" outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
+	    `$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
 	    `mv $tmpOutDir/*.xml $Dir`;
 	}
 	if ($procCommon) {
