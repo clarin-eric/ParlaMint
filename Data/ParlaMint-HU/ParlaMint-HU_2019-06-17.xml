@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="hu"
+     ana="#parla.sitting #reference"
+     xml:id="ParlaMint-HU_2019-06-17">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU, 2019-06-17 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU, 2019-06-17 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU, 2019. nyári rendkívüli ülésszak 26. ülés, 1. ülésnap, 2019-06-17 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2019 summer extraordinary, meeting 26, day 1, 2019-06-17 [ParlaMint]</title>
+            <meeting corresp="#OGY" n="8" ana="#parla.uni #parla.term #OGY.8">8. ciklus</meeting>
+            <meeting corresp="#OGY"
+                     n="26"
+                     ana="#parla.uni #parla.meeting.extraordinary #OGY.8">26. ülés</meeting>
+            <meeting corresp="#OGY" n="1" ana="#parla.uni #parla.sitting #OGY.8">1. ülésnap</meeting>
+            <respStmt>
+               <persName>Noémi Ligeti-Nagy</persName>
+               <resp xml:lang="hu">ParlaMint TEI XML korpuszépítés</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Réka Dodé</persName>
+               <persName>Kinga Jelencsik-Mátyus</persName>
+               <persName>Zsófia Varga</persName>
+               <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
+               <resp xml:lang="en">Metadata collection and organizing</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN Research Infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="hu">Nyelvtudományi Kutatóközpont</orgName>
+               <orgName xml:lang="en">Hungarian Research Centre for Linguistics</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure xml:lang="hu" quantity="273" unit="speeches">273 beszéd</measure>
+            <measure xml:lang="en" quantity="273" unit="speeches">273 speeches</measure>
+            <measure xml:lang="hu" quantity="61552" unit="words">61.552 szó</measure>
+            <measure xml:lang="en" quantity="61552" unit="words">61,552 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN research infrastucture</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hu">Ez a munka az alábbi licensz alapján használható: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-04-26">2023-04-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="hu">A Magyar Országgyűlés ülései</title>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of Hungary</title>
+               <idno type="URI" subtype="parliament">https://www.parlament.hu/</idno>
+               <date when="2019-06-17">2019.06.17</date>
+            </bibl>
+            <recordingStmt>
+               <recording type="video">
+                  <media xml:id="video-2019-06-17"
+                         mimeType="video/mp4"
+                         source="https://sgis.parlament.hu/archive/playseq.php?date1=20190617&amp;time1=123232&amp;offset1=002251.144&amp;date2=20190617&amp;time2=123232&amp;offset2=090825.76&amp;type=real"
+                         url="https://sgis.parlament.hu/archive/playseq.php?date1=20190617&amp;time1=123232&amp;offset1=002251.144&amp;date2=20190617&amp;time2=123232&amp;offset2=090825.76&amp;type=real"/>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hu">A <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+                     projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="0"/>
+               <tagUsage gi="u" occurs="273"/>
+               <tagUsage gi="seg" occurs="1021"/>
+               <tagUsage gi="note" occurs="339"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="vocal" occurs="152"/>
+               <tagUsage gi="incident" occurs="8"/>
+               <tagUsage gi="kinesic" occurs="122"/>
+               <tagUsage gi="desc" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Kossuth tér 1-3.</name>
+               <name type="city">Budapest</name>
+               <name type="country" key="HU">Hungary</name>
+               <date when="2019-06-17"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-04-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker">ELNÖK</note>
+            <u xml:id="u2019-06-17-0" who="#KoverLaszlo" ana="#chair">
+               <kinesic>
+                  <desc>A teremben lévők felállnak, és ezzel köszöntik a választópolgárok közösségét. Amikor az ülést vezető elnök helyet foglal, a teremben lévők is leülnek.</desc>
+               </kinesic>
+               <seg xml:id="u2019-06-17-0.1">Tisztelt Képviselőtársaim! Az Országgyűlés nyári rendkívüli ülésének első ülésnapját megnyitom. Tájékoztatom önöket, hogy az ülés vezetésében Hiszékeny Dezső és Szűcs Lajos jegyző urak lesznek segítségemre.Köszöntöm kedves vendégeinket és mindenkit, aki figyelemmel kíséri munkánkat.</seg>
+               <seg xml:id="u2019-06-17-0.2">Tisztelt Ház! Bejelentem, hogy Semjén Zsolt miniszterelnök-helyettes úr a kormány nevében az Országgyűlésről szóló 2012. évi XXXVI. törvény 35. § (1) bekezdésében foglaltak alapján az Országgyűlés rendkívüli ülésének összehívását kezdeményezte a 2019. június 17e és 21e közötti időszakra. Levelének mellékletében megjelölte mindazokat az előterjesztéseket, amelyeknek megtárgyalását kezdeményezi a kormány az Országgyűlés rendkívüli ülésén. A levelet és annak mellékletét a honlapon megismerhetik a képviselők.</seg>
+               <seg xml:id="u2019-06-17-0.3">Tisztelt Országgyűlés! Napirend előtti felszólalásra jelentkezett „Az önkormányzati választás tétje” címmel Gréczy Zsolt, a DK képviselője. Parancsoljon!</seg>
+            </u>
+            <note type="speaker">GRÉCZY ZSOLT (DK)</note>
+            <u xml:id="u2019-06-17-1" who="#GreczyZsolt" ana="#regular">
+               <seg xml:id="u2019-06-17-1.1">Köszönöm a szót. Tisztelt Ház! Az európai parlamenti választás megmozdította az országot, elvette a Fidesztől a kétharmadot</seg>
+               <vocal type="interruption">
+                  <desc>Derültség és közbeszólások a kormánypártok soraiban.</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.2">és Budapesten és Budapesten kívül számos más nagyvárosban is olyan arányok és irányok alakultak ki</seg>
+               <vocal type="interruption">
+                  <desc>Dr. Rétvári Bence: Arányok és irányok?</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.3">, amelyek a Demokratikus Koalíció számára és mindenki számára, akik a kormányváltásban érdekeltek, igen pozitívak. Erre azért van szükség, hogy a szabadság rozsdás kapui előbb-utóbb újra megnyíljanak. Az Orbán-kormány ma kitaszított és pária az Európai Unióban. Törvényt vonat vissza, és titkos leveleket írogatnak amelyek persze kiszivárognak annak érdekében, hogy valahogyan mégiscsak visszakuncsorogják magukat az Európai Néppártba, és ne valahol az Európai Parlament jobb szélén, nácik és mindenféle gyanús, korrupciós külsejű figurák és pártok között kelljen leledzeni, hanem mégiscsak valahogyan az európai fősodorhoz kéne tartozni; ez is egyébként az európai parlamenti választás eredménye.</seg>
+               <seg xml:id="u2019-06-17-1.4">Ugyanakkor azt is le kell szögeznünk, hogy nemcsak abban üzen nekünk az európai parlamenti választás, hogy önkormányzatok egész sorában a fővárosban és a kerületekben is olyan szavazati arányok alakultak ki, amelyek lehetőséget kínálnak arra, hogy ősszel nagyon sok helyet és pozíciót vegyünk el a Fidesztől, hanem Európa is üzent Magyarországnak azzal, hogy az Európa-párti erők kerültek túlnyomó többségbe az Európai Parlamentben, és mindazok, akikre Orbán Viktor még néhány nappal korábban is hősként emlékezett, és boldogan parádézott velük a karmelita kolostorban, azok most nagyjából pártjaikkal az Európai Parlament tíz százalékát képviselik.</seg>
+               <seg xml:id="u2019-06-17-1.5">A Demokratikus Koalíció itt és most is szeretné leszögezni, hogy messzemenően támogatja az önkormányzati választásokra születő ellenzéki megállapodásokat, egyúttal azt is szeretném jelezni, hogy ez azért is örömteli és pozitív fordulat, mert még akár fél évvel ezelőtt is ki gondolta volna, hogy olyan szövetségek jönnek létre az ország különböző pontjain, amelyekben a DK, az MSZP, az LMP, a Momentum és a Jobbik is részt tud venni.</seg>
+               <vocal type="interruption">
+                  <desc>Dr. Rétvári Bence: Hát ki gondolta volna? Ti tagadtátok, hogy ez sose lesz!</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.6">Mi ezt rendkívül fontosnak tartjuk, mert nincs annál fontosabb ma Magyarországon, mint tovább gyengíteni az orbáni rezsimet, az orbáni diktatúrát, és ehhez az önkormányzati választás újabb lehetőséget fog nekünk biztosítani. Se szeri, se száma már az olyan városoknak, ahol ezek a megállapodások megszülettek, és nemcsak a polgármesterekről születnek ezek a megállapodások hozzáteszem, Budapesten is , hanem az egyéni körzetekre is kibomlik ez a fajta együttműködés.</seg>
+               <seg xml:id="u2019-06-17-1.7">Ezért aztán a Demokratikus Koalíció azt is üdvözli, hogy az LMP úgy döntött a múlt pénteken, hogy részt vesz a budapesti együttműködésben. Nincs olyan, Orbánra elvesztegetett szavazat vagy esetleg nem a Fidesz oldalán hasznosuló szavazat, amit el lehetne vesztegetni. Minden szavazatot be kell gyűjteni annak érdekében, hogy az országban a változást mihamarabb elindíthassuk. Erre azért van szükség, hogy a szabadság rozsdás kapui újra megnyílhassanak.</seg>
+               <seg xml:id="u2019-06-17-1.8">Azért is van szükség erre a fajta együttműködésre, mert ha az önkormányzatokban azon a bizonyos estén megszületik a változás, ott hirtelen és nagyon gyorsan lásd szombathelyi események</seg>
+               <vocal type="interruption">
+                  <desc>Dr. Rétvári Bence: A migrációs bizottság Szombathelyen?</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.9">országos méretű változást is lehet elérni. Hirtelen megoszlanak erőforrások, hirtelen megoszlik, hirtelen vissza lehet venni a párttájékoztatású helyi médiákat vagy médiumokat a Fidesztől</seg>
+               <vocal type="interruption">
+                  <desc>Dr. Rétvári Bence: Olyanokat mond! Elképesztő! Berúgott? Szanyi Tiborral nyitotta a reggelt?</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.10">és ezek is mind segíthetnék az ellenzéket abban, hogy közelebb vigyük az országot ahhoz, amire egyébként az ország többsége vár a szavazatok szerint, ez pedig a kormányváltás, vagyis hogy a szabadság rozsdás kapui újra megnyílhassanak.</seg>
+               <vocal type="interruption">
+                  <desc>Dr. Rétvári Bence: Még egyszer mondd el ezt!</desc>
+               </vocal>
+               <note type="time">13.10</note>
+               <seg xml:id="u2019-06-17-1.11">A Demokratikus Koalíció tehát támogatja ezeket az együttműködéseket, és abban bízunk, hogy ezek tovább fognak szélesedni. A DK megnövekedett felelősségével, amelyet az európai parlamenti választás ruházott rá, minden módon próbálja segíteni majd ezeket az együttműködéseket akár a fővárosról, akár a kerületekről van szó, akár megyeszékhelyekről vagy kisebb városokról.</seg>
+               <seg xml:id="u2019-06-17-1.12">És erre azért van szükség, hogy a szabadság rozsdás kapui minél hamarabb megnyílhassanak.</seg>
+               <vocal type="interruption">
+                  <desc>Dr. Rétvári Bence: Még egyszer belefér! Ötödszörre!</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.13">És erre azért van szükség, mert ez a rendszer, amit önök fenntartanak, a Fidesz fenntart most éppen Jeszenszky Gézát idézem, tudják, az önök volt nagykövetét, aki azt mondja, hogy mindenki, aki ennek a rendszernek a fenntartásában részt vesz, bűnös</seg>
+               <vocal type="interruption">
+                  <desc>Cseresnyés Péter: A fia is!</desc>
+               </vocal>
+               <seg xml:id="u2019-06-17-1.14">és az az érdekes helyzet állt elő, hogy egyet is értek vele. Köszönöm a figyelmet.</seg>
+               <kinesic type="applause">
+                  <desc>Szórványos taps az ellenzéki sorokban.</desc>
+               </kinesic>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u xml:id="u2019-06-17-271"
+               who="#KeresztesLaszloLorant"
+               ana="#regular">
+               <seg xml:id="u2019-06-17-271.1">Köszönöm szépen a szót. Tisztelt Elnök Úr! Tisztelt Országgyűlés! Azért ezt a címet adtam a napirend utáni felszólalásomnak, mert valóban az összeomlás szélére kerültek a legfontosabb közszolgáltatások. Ugye, ez ügyben az elmúlt egy évben rengeteget beszéltünk a parlamentben, illetve különböző más fórumokon, államtitkár urakat interpelláltuk ezekben az ügyekben. Nagyon fontosnak tartottuk mindig leszögezni, hogy nem az ellenzéki felszólalásokat akartuk szaporítani, hanem a szakma irányából érkező vészjelzéseket szerettük volna továbbítani. Ennek megfelelően alátámasztottuk megfelelő szakértői anyagokkal, szakmai elemzésekkel és statisztikai adatokkal ezeket a felszólalásokat, és benyújtottuk a megfelelő, szintén a szakma által kitermelt és megalkotott különböző törvényjavaslatokat. Ezeket a magyar Országgyűlés kormánypárti többsége rendre leszavazta, lesöpörte.</seg>
+               <note type="time">21.50</note>
+               <seg xml:id="u2019-06-17-271.2">Ez rendben is való lenne, ha ehelyett benyújtottak volna saját javaslatot és megoldották volna ezeket a problémákat, de ezt elmulasztották.</seg>
+               <seg xml:id="u2019-06-17-271.3">Ha most megnézzük a jövő évi költségvetés tervezetét, akkor láthatjuk, hogy a kormány továbbra sem kíván szembenézni ezekkel a legfontosabb problémákkal, ezekkel az alapvető rendszerproblémákkal. Sajnálom, néhány perccel ezelőtt még itt ült Banai államtitkár úr, és éppen egy ilyen problémát említett a vidék helyzete kapcsán, most már nem várta meg ezt a lehetőséget, hogy válaszoljak neki. Rengeteg ilyen problémát és rengeteg ilyen összeomlás szélére került közszolgáltatást említhetnék, de én magam mint vidéki képviselő, engedjék meg, hogy két, konkrétan a vidéki térségeket nagyon erőteljesen érintő problémával és néhány konkrét számmal támasszam alá ezt a rendkívül súlyos állítást.</seg>
+               <seg xml:id="u2019-06-17-271.4">A retorikában a magát nemzetinek hazudó kormány fontosnak tartja a vidéki térségek fejlesztését, és bevezetnek vagy indítványoztak néhány olyan javaslatot, ami valóban ezt célozná. A „Magyar falvak” programot említette államtitkár úr is, a mai napon több kormánypárti képviselőtársam, de beszéltünk korábban a falusi CSOK-ról is. Ezek önmagukban fontos intézkedések lehetnek, csak önmagukban elégtelenek, tehát érdemben a problémák súlyához nem mérhetők. Államtitkár úr említette, hogy a vidék legfontosabb infrastruktúrája az úthálózat, az alsóbbrendű úthálózat, hogy az rendkívül rossz állapotban van, de a „Magyar falvak” programon belül a megfelelő költségvetési sor majd megoldja ezt a problémát. A költségvetés valóságtartalmát aláhúzza az, hogy a „Magyar falvak” programban 50 milliárd forint értékben 430 kilométer összekötő és bekötőút fejlesztése szerepel, ehhez képest a hivatalos statisztikák szerint 16 ezer kilométernyi rossz, illetve nem megfelelő állapotú vidéki, alsóbbrendű út várja az azonnali felújítást. Ebből látszik az, hogy a kormány gyakorlatilag, mondhatni, szinte semmit nem tesz a vidék felzárkóztatása érdekében, és ennek megfelelően mind a „Magyar falvak” program, mind a falusi CSOK csak egyfajta retorikai elemként értelmezhető, de azt senki ne gondolja, hogy ilyen módon, hogy tönkremegy, gyakorlatilag szétesik az úthálózat, bármilyen módon lehet érdemben tenni a vidék népességmegtartó ereje megteremtése érdekében.</seg>
+               <seg xml:id="u2019-06-17-271.5">Egy másik vidéki példa, a vidéki térségeket különösen sújtó példa a vízügyek helyzete, erről is már több körben vitatkoztunk itt a magyar Országgyűlésben, itt el tudok mondani szintén néhány sokkoló statisztikai adatot. Ma a víziközmű-rendszerek tekintetében, az ivóvízhálózat tekintetében 25 százalék a hálózati veszteség, tehát a megtermelt ivóvíz 25 százaléka el sem jut a fogyasztókhoz a különböző hálózati hibák miatt. 20 százalék alá csökkent a megfelelő minősítésű vízrendszerek aránya, ez szintén szakmai dokumentumokban szereplő statisztikai adat, tehát nem egy ellenzéki fantazmagória terméke. 2012 óta szintén hivatalos statisztikák alapján duplájára nőtt a meghibásodások száma a víziközmű-rendszereket érintően, és az önkormányzatoknak, az ellátásért felelős önkormányzatoknak pedig nincs forrás, hogy ezeket a megfelelő karbantartásokat elvégeztessék, ugyanis olyan kormányzati intézkedéseknek voltunk tanúi, ami az elmúlt időszakban különösen nehéz helyzetbe hozta a szolgáltatásokért felelős, a szolgáltatásokat bonyolító víziközmű-cégeket, ezek jelentős része veszteségesen működik, néhány közülük a csőd szélére került. A Magyar Víziközmű Szövetség szerint 1500 milliárd forintra lenne szükség 15 éves távlatban a legfontosabb karbantartási és pótlási munkák elvégzéséhez. A Megyei Jogú Városok Szövetségének becslése még félelmetesebb, ők 3000 milliárd forintra teszik a forrásigényeket 15 éves távlatban azért, hogy a legfontosabb közszolgáltatás, az ivóvíz-szolgáltatás működjön. Ehhez képest a kormány egy másfél milliárdos karbantartási alapot hozott létre, és ennek megfelelő összeg látható a jövő évi költségvetésben is.</seg>
+               <seg xml:id="u2019-06-17-271.6">Ez két példa, többre nem is lenne időm, de hosszan sorolhatnám még azokat a statisztikai adatokat és szakmai jelzéseket, ami alapján megállapítható, hogy valóban nem túlzás azt mondani, hogy az összeomlás szélére kerültek a legfontosabb közszolgáltatások. Ezt a napirend utáni felszólalást nem azért mondtam el, hogy majd nekem válaszoljanak a kormánypárti képviselők vagy az államtitkárok, nem, az embereknek, a közszolgáltatásokra számító embereknek válaszoljanak, illetve a közszolgáltatások fenntartásáért felelős önkormányzatoknak adjanak választ, hogy milyen módon kívánják megoldani ezt a problémát. Köszönöm szépen.</seg>
+            </u>
+            <note type="speaker">ELNÖK</note>
+            <u xml:id="u2019-06-17-272" who="#LezsakSandor" ana="#chair">
+               <seg xml:id="u2019-06-17-272.1">Köszönöm szépen, Keresztes László Lóránt képviselő úr.Tisztelt Országgyűlés! A napirend utáni felszólalások végére értünk. Megköszönöm munkájukat.</seg>
+               <seg xml:id="u2019-06-17-272.2">Az Országgyűlés reggel 9 órakor folytatja ülését. Nyugodalmas jó éjszakát kívánok! Az ülésnapot bezárom.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

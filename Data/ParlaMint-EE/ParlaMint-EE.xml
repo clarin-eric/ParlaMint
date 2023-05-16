@@ -19,36 +19,35 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.1</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure quantity="10" unit="speeches" xml:lang="en">10 speeches</measure>
-            <measure quantity="3052716" unit="words" xml:lang="en">3052716 words</measure>
+            <measure quantity="227872" unit="speeches" xml:lang="en">227,872 speeches</measure>
+            <measure quantity="22874712" unit="words" xml:lang="en">22,874,712 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="et">CLARIN ERIC teadustaristu</orgName>
                <orgName xml:lang="en">CLARIN ERIC research infrastructure</orgName>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1431</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-05-10">2023-05-10</date>
+            <date when="2023-05-07">2023-05-07</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="et">Riigikogu stenogrammid</title>
-               <idno type="URI">https://stenogrammid.riigikogu.ee</idno>
+               <idno type="URI" subtype="parliament">https://stenogrammid.riigikogu.ee</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -69,30 +68,15 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="note" occurs="233814"/>
+               <tagUsage gi="seg" occurs="359685"/>
+               <tagUsage gi="text" occurs="1317"/>
+               <tagUsage gi="u" occurs="227872"/>
             </namespace>
          </tagsDecl>
          <classDecl>
-            <taxonomy xml:id="subcorpus">
-               <desc xml:lang="et">
-                  <term>Allkorpused</term>
-               </desc>
-               <desc xml:lang="en">
-                  <term>Subcorpora</term>
-               </desc>
-               <category xml:id="reference">
-                  <catDesc xml:lang="et">
-                     <term>Referents</term>: referentskorpus, kuni 2019-10-31</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
-               </category>
-               <category xml:id="covid">
-                  <catDesc xml:lang="et">
-                     <term>COVID</term>: COVIDi allkorpus, alates 2019-11-01</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
-               </category>
-            </taxonomy>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-parla.legislature.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -109,6 +93,9 @@
                <date from="2011-04-04" to="2022-06-17">2011-04-04 - 2022-06-17</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-EE-listOrg.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -122,14 +109,18 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-05-10">
-            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-05-07">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2023-03-01">
             <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-05-07">
+            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-EE_2015-01-12.xml"/>
+               href="ParlaMint-EE_2014-12-02.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-EE_2022-01-13.xml"/>
+               href="ParlaMint-EE_2018-10-11.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-EE_2022-06-17.xml"/>
 </teiCorpus>

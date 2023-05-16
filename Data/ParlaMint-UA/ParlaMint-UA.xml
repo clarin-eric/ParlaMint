@@ -5,8 +5,8 @@
          <titleStmt>
             <title type="main" xml:lang="en">Ukrainian parliamentary corpus ParlaMint-UA [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="uk">Корпус Верховної Ради України ParlaMint-UA [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="en">Ukrainian parliament 2012-12-12 - 2022-12-01</title>
-            <title type="sub" xml:lang="uk">Стенограми пленарних засідань Верховної Ради України за період з 2012-12-12 по 2022-12-01</title>
+            <title type="sub" xml:lang="en">Ukrainian parliament 2012-12-04 - 2023-02-24</title>
+            <title type="sub" xml:lang="uk">Стенограми пленарних засідань Верховної Ради України за період з 2012-12-04 по 2023-02-24</title>
             <meeting ana="#parla.term #parla.uni" n="7" corresp="#ВРУ">7</meeting>
             <meeting ana="#parla.term #parla.uni" n="8" corresp="#ВРУ">8</meeting>
             <meeting ana="#parla.term #parla.uni" n="9" corresp="#ВРУ">9</meeting>
@@ -33,13 +33,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0a</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="1051" xml:lang="en">1051 speeches</measure>
-            <measure unit="speeches" quantity="1051" xml:lang="uk">1051 виступів</measure>
-            <measure unit="words" quantity="116466" xml:lang="en">116466 words</measure>
-            <measure unit="words" quantity="116466" xml:lang="uk">116466 слів</measure>
+            <measure unit="speeches" quantity="195685" xml:lang="en">195,685 speeches</measure>
+            <measure unit="speeches" quantity="195685" xml:lang="uk">195,685 виступів</measure>
+            <measure unit="words" quantity="18408299" xml:lang="en">18,408,299 words</measure>
+            <measure unit="words" quantity="18408299" xml:lang="uk">18,408,299 слів</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -47,7 +47,7 @@
                <orgName xml:lang="uk">Дослідницька інфраструктура CLARIN</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
@@ -59,7 +59,7 @@
             <bibl>
                <title type="main" xml:lang="uk">Верховна Рада України</title>
                <idno type="URI" subtype="parliament">https://www.rada.gov.ua/meeting/stenogr/</idno>
-               <date from="2012-12-12" to="2022-12-01">2012-12-12 - 2022-12-01</date>
+               <date from="2012-12-04" to="2023-02-24">2012-12-04 - 2023-02-24</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -89,18 +89,18 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="11"/>
-               <tagUsage gi="desc" occurs="210"/>
-               <tagUsage gi="div" occurs="11"/>
-               <tagUsage gi="gap" occurs="3"/>
-               <tagUsage gi="incident" occurs="7"/>
-               <tagUsage gi="kinesic" occurs="148"/>
-               <tagUsage gi="note" occurs="1938"/>
-               <tagUsage gi="seg" occurs="4239"/>
-               <tagUsage gi="text" occurs="11"/>
-               <tagUsage gi="time" occurs="770"/>
-               <tagUsage gi="u" occurs="1051"/>
-               <tagUsage gi="vocal" occurs="52"/>
+               <tagUsage gi="body" occurs="1091"/>
+               <tagUsage gi="desc" occurs="16546"/>
+               <tagUsage gi="div" occurs="1091"/>
+               <tagUsage gi="gap" occurs="574"/>
+               <tagUsage gi="incident" occurs="400"/>
+               <tagUsage gi="kinesic" occurs="5719"/>
+               <tagUsage gi="note" occurs="336392"/>
+               <tagUsage gi="seg" occurs="667258"/>
+               <tagUsage gi="text" occurs="1091"/>
+               <tagUsage gi="time" occurs="127454"/>
+               <tagUsage gi="u" occurs="195685"/>
+               <tagUsage gi="vocal" occurs="9853"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -121,7 +121,7 @@
                <name type="address">вулиця Михайла Грушевського, 5</name>
                <name type="city">Київ</name>
                <name key="UA" type="country">Україна</name>
-               <date from="2012-12-12" to="2022-12-01">2012-12-12 - 2022-12-01</date>
+               <date from="2012-12-04" to="2023-02-24">2012-12-04 - 2023-02-24</date>
             </setting>
          </settingDesc>
          <textClass>
@@ -133,23 +133,23 @@
                         href="ParlaMint-UA-listPerson.xml"/>
          </particDesc>
          <langUsage>
-            <language xml:lang="en" ident="uk" usage="100">ukrainian</language>
-            <language xml:lang="uk" ident="uk" usage="100">українська</language>
-            <language xml:lang="en" ident="ru" usage="0">russian</language>
-            <language xml:lang="uk" ident="ru" usage="0">російська</language>
+            <language xml:lang="en" ident="uk" usage="98">ukrainian</language>
+            <language xml:lang="uk" ident="uk" usage="98">українська</language>
+            <language xml:lang="en" ident="ru" usage="2">russian</language>
+            <language xml:lang="uk" ident="ru" usage="2">російська</language>
             <language xml:lang="en" ident="en" usage="0">english</language>
             <language xml:lang="uk" ident="en" usage="0">aнглійська</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change when="2023-05-12">
-            <name>GitHub Action</name>: Made sample.</change>
+            <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-UA_2014-12-02-m0.xml"/>
+               href="ParlaMint-UA_2016-04-21-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-UA_2017-12-06-m1.xml"/>
+               href="ParlaMint-UA_2019-03-22-m0.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-UA_2020-12-02-m0.xml"/>
+               href="ParlaMint-UA_2023-02-07-m0.xml"/>
 </teiCorpus>
