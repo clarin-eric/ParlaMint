@@ -18,7 +18,7 @@
      - sets English project description, default = ParlaMint II
      - calculates extents in component ana files, warn if changed
      - inserts word extents from ana into plain version
-     - inserts tagCounts in root (taken from component files and not changed there!)
+     - calculates tagUsage of component and root files
      - change div/@type for divs without utterances
      - fixes spaces in text
      - sundry checks and fixes, which give warning messages
@@ -172,31 +172,25 @@
     </xsl:for-each>
   </xsl:variable>
 
-  <!-- Get tagUsages in component files -->
+  <!-- calculate tagUsages in component files -->
   <xsl:variable name="tagUsages">
-    <xsl:variable name="tUs">
-      <xsl:for-each select="$docs/tei:item[@type = 'component']/document(tei:url-orig)/
-                            tei:TEI/tei:teiHeader//tei:tagUsage">
-        <xsl:sort select="@gi"/>
-        <xsl:copy-of select="."/>
-      </xsl:for-each>
-    </xsl:variable>
-    <xsl:for-each select="$tUs/tei:tagUsage">
-      <xsl:variable name="gi" select="@gi"/>
-      <xsl:if test="not(following-sibling::tei:tagUsage[@gi = $gi])">
-        <xsl:variable name="occurences">
-          <xsl:for-each select="$tUs/tei:tagUsage[@gi = $gi]">
-            <item>
-              <xsl:value-of select="@occurs"/>
-            </item>
-          </xsl:for-each>
-        </xsl:variable>
-        <tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="{$gi}"
-                  occurs="{format-number(sum($occurences/tei:item), '#')}"/>
-      </xsl:if>
+    <xsl:for-each select="$docs/tei:item">
+      <item n="{tei:xi-orig}">
+        <xsl:variable name="context-node" select="."/>
+        <xsl:for-each select="document(tei:url-orig)/
+                            distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
+          <xsl:sort select="."/>
+          <xsl:variable name="elem-name" select="."/>
+          <xsl:element name="tagUsage">
+            <xsl:attribute name="gi" select="$elem-name"/>
+            <xsl:attribute name="occurs" select="$context-node/document(tei:url-orig)/
+                                    count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
+          </xsl:element>
+        </xsl:for-each>
+      </item>
     </xsl:for-each>
   </xsl:variable>
-  
+
   <xsl:template match="/">
     <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
     <!-- Process component files -->
@@ -214,6 +208,7 @@
             <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
               <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
               <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
+              <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
             </xsl:apply-templates>
 	  </xsl:when>
 	</xsl:choose>
@@ -229,11 +224,13 @@
   <xsl:template mode="comp" match="*">
     <xsl:param name="speeches"/>
     <xsl:param name="words"/>
+    <xsl:param name="tagUsages"/>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
         <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="words" select="$words"/>
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -290,10 +287,6 @@
     <xsl:apply-templates select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:idno">
-    <xsl:apply-templates select="."/>
-  </xsl:template>
-  <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
-                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:apply-templates select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:teiHeader//text()">
@@ -394,7 +387,7 @@
     </xsl:copy>
   </xsl:template>  
   
-  <!-- Fix div/@type="debateSection" to ="commentSection" if div contains not utterances -->
+  <!-- Fix div/@type="debateSection" to ="commentSection" if div contains no utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': no utterances in div/@type=debateSection, ',
@@ -407,6 +400,17 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template mode="comp" match="tei:encodingDesc">
+    <xsl:param name="tagUsages"/>
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:call-template name="add-tagsDecl">
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
+      </xsl:call-template>
+    </xsl:copy>
+  </xsl:template>
+
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
@@ -431,7 +435,8 @@
   <!-- Bug in IS, sometimes a name contains no words, but only a transcriber comment -->
   <xsl:template mode="comp" match="tei:name[not(tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                         ': removing name tag as name ', ., 'contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+                         ': removing name tag as name ', normalize-space(.), 
+			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
     <xsl:apply-templates mode="comp"/>
   </xsl:template>
   
@@ -625,8 +630,8 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="*"/>
       <change when="{$today-iso}"><name>parlamint2final.xsl</name>: Finalize corpus.</change>
+      <xsl:apply-templates select="*"/>
     </xsl:copy>
   </xsl:template>
   
@@ -655,6 +660,37 @@
           <xsl:value-of select="normalize-space(.)"/>
 	</xsl:otherwise>
       </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="tei:publicationStmt[tei:idno]/
+                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
+    <xsl:message select="concat('INFO ', /tei:teiCorpus/@xml:id, 
+                         ': deleting redundant pubPlace')"/>
+  </xsl:template>
+
+  <xsl:template match="tei:encodingDesc">
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:apply-templates select="./tei:editorialDecl"/>
+
+      <xsl:call-template name="add-tagsDecl">
+        <xsl:with-param name="tagUsages">
+          <xsl:for-each select="distinct-values($tagUsages//@gi)">
+            <xsl:sort select="."/>
+            <xsl:variable name="elem-name" select="."/>
+            <xsl:element name="tagUsage">
+              <xsl:attribute name="gi" select="$elem-name"/>
+              <xsl:attribute name="occurs" select="sum($tagUsages//*[@gi=$elem-name]/@occurs)"/>
+            </xsl:element>
+          </xsl:for-each>
+         </xsl:with-param>
+      </xsl:call-template>
+
+      <xsl:apply-templates select="./tei:classDecl"/>
+      <xsl:apply-templates select="./tei:listPrefixDef"/>
+      <xsl:apply-templates select="./tei:appInfo"/>
     </xsl:copy>
   </xsl:template>
 
@@ -739,6 +775,41 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="add-tagsDecl">
+    <xsl:param name="tagUsages"/>
+    <xsl:variable name="context" select="./tei:tagsDecl/tei:namespace[@name='http://www.tei-c.org/ns/1.0']"/>
+    <xsl:element name="tagsDecl">
+      <xsl:element name="namespace">
+        <xsl:attribute name="name">http://www.tei-c.org/ns/1.0</xsl:attribute>
+        <xsl:for-each select="distinct-values(($tagUsages//@gi,$context//@gi))">
+          <xsl:sort select="."/>
+          <xsl:variable name="elem-name" select="."/>
+          <xsl:variable name="new" select="$tagUsages//*:tagUsage[@gi=$elem-name]"/>
+          <xsl:variable name="old" select="$context//*:tagUsage[@gi=$elem-name]"/>
+          <xsl:choose>
+            <xsl:when test="$new and not($old)">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': addinf ',$elem-name,' tagUsage ', $new/@occurs)"/>
+            </xsl:when>
+            <xsl:when test="not($new) and $old">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': removing ',$elem-name,' tagUsage ', $old/@occurs)"/>
+            </xsl:when>
+            <xsl:when test="not($new/@occurs = $old/@occurs)">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': replacing ',$elem-name,' tagUsage ', $old/@occurs, ' with ', $new/@occurs)"/>
+            </xsl:when>
+            <xsl:when test="$new/@occurs = $old/@occurs">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': preserving ',$elem-name,' tagUsage ', $new/@occurs)"/>
+            </xsl:when>
+          </xsl:choose>
+          <xsl:copy-of copy-namespaces="no" select="$new"/>
+        </xsl:for-each>
+      </xsl:element>
+    </xsl:element>
+  </xsl:template>
+  
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>
