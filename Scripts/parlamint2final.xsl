@@ -192,11 +192,11 @@
   </xsl:variable>
 
   <xsl:template match="/">
-    <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
+    <xsl:message select="concat('INFO Starting to process ', tei:teiCorpus/@xml:id)"/>
     <!-- Process component files -->
     <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO: Processing ', $this)"/>
+      <xsl:message select="concat('INFO Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
 	<xsl:choose>
 	  <!-- Copy over factorised parts of corpus root teiHeader -->
@@ -215,7 +215,7 @@
       </xsl:result-document>
     </xsl:for-each>
     <!-- Output Root file -->
-    <xsl:message>INFO: processing root </xsl:message>
+    <xsl:message>INFO processing root </xsl:message>
     <xsl:result-document href="{$outRoot}">
       <xsl:apply-templates/>
     </xsl:result-document>
@@ -268,7 +268,7 @@
       <xsl:value-of select="normalize-space($subcorpora)"/>
     </xsl:variable>
     <xsl:attribute name="ana">
-      <xsl:message select="concat('INFO: ', $id, ': setting references ', $ana, ' for ', $date)"/>
+      <xsl:message select="concat('INFO ', $id, ': setting references ', $ana, ' for ', $date)"/>
       <xsl:value-of select="$ana"/>
     </xsl:attribute>
   </xsl:template>
