@@ -428,6 +428,13 @@
     </xsl:copy>
   </xsl:template>
       
+  <!-- Bug in IS, sometimes a name contains no words, but only a transcriber comment -->
+  <xsl:template mode="comp" match="tei:name[not(tei:w)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing name tag as name ', ., 'contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <xsl:apply-templates mode="comp"/>
+  </xsl:template>
+  
   <!-- Bug in ES-CT processing, often punctuation is encoded as a word -->
   <xsl:template mode="comp" match="tei:w[contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$')]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
