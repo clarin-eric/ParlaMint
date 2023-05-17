@@ -1,5 +1,5 @@
 <note type="head" content="REPUBLIKA SLOVENIJA DRŽAVNI ZBOR"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Chairperson" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="-" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" speaker_gender="M" speaker_birth="1953">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u1" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="War" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Chairperson" speaker_id="SimonovičBranko" speaker_name="Simonovič, Branko" speaker_mp="MP" speaker_minister="-" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" speaker_gender="M" speaker_birth="1953">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1" lang="Slovenian">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg1.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -279,7 +279,7 @@ Izvolite	Izvolite	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	roo
 </p>
 </speech>
 <note type="speaker" content="IGOR ZORČIČ (PS NP):"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u2" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Regular" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="-" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u2" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="War" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Regular" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="-" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8" lang="Slovenian">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg8.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
@@ -1044,7 +1044,7 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u229" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Regular" speaker_id="SiterPrimož" speaker_name="Siter, Primož" speaker_mp="MP" speaker_minister="-" speaker_party="Levica" speaker_party_name="Levica" party_status="Opposition" speaker_gender="M" speaker_birth="1979">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u229" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="War" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Regular" speaker_id="SiterPrimož" speaker_name="Siter, Primož" speaker_mp="MP" speaker_minister="-" speaker_party="Levica" speaker_party_name="Levica" party_status="Opposition" speaker_gender="M" speaker_birth="1979">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955" lang="Slovenian">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg955.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
@@ -1385,7 +1385,7 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK IGOR ZORČIČ:"/>
-<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u230" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="COVID" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Chairperson" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="-" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="" speaker_gender="M" speaker_birth="1978">
+<speech id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.u230" text_id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99" subcorpus="War" body="Lower house" term="8" session="" meeting="99" sitting="" agenda="" date="2022-04-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 8, Extraordinary Session 99, (06. 04. 2022)" speaker_role="Chairperson" speaker_id="ZorčičIgor" speaker_name="Zorčič, Igor" speaker_mp="MP" speaker_minister="-" speaker_party="NP" speaker_party_name="Poslanska skupina nepovezanih poslancev" party_status="" speaker_gender="M" speaker_birth="1978">
 <p id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960" lang="Slovenian">
 <s id="ParlaMint-SI_2022-04-06-SDZ8-Izredna-99.ana.seg960.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-

@@ -25,8 +25,15 @@ my @compAnaFiles = ();
 $inDir =~ s|[^/]+\.xml$||; # If a specific filename is given, get rid of it
 $corpusFiles = "$inDir/*.ana.xml $inDir/*/*.ana.xml";
 foreach $inFile (glob($corpusFiles)) {
-    if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
-    elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
+    if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {
+	#Is this a machine translated corpus? If so, $mt will be the langauge it was translated to.
+	if ($inFile =~ m/-([a-z]{2,3})\.ana/) {$MT = $1}
+	else {$MT = 0}
+	$rootAnaFile = $inFile
+    }
+    elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {
+	push(@compAnaFiles, $inFile)
+    }
 }
 
 die "Cannot find root file in $inDir!\n"
@@ -45,6 +52,9 @@ foreach $inFile (@compAnaFiles) {
 }
 close TMP;
 
-$command = "$Saxon meta=$rootAnaFile -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
+if ($MT) {$noSytaxFlag = 'nosyntax=true'}
+else {$noSytaxFlag = ''}
+
+$command = "$Saxon meta=$rootAnaFile $noSytaxFlag -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*.vert`;

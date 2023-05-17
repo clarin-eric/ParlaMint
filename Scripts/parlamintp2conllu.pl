@@ -76,9 +76,10 @@ foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
-my ($country, $langs) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
+my ($country, $translation_lang) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
     or die "Can't find country code in root file $rootAnaFile!\n";
-$langs = $country2lang{$country} unless defined $langs;
+if (defined $translation_lang) {$langs = $translation_lang}
+else {$langs = $country2lang{$country}}
 die "ERROR: Language is not defined for $country" unless defined $langs;
 
 #Store all files to be processed in $fileFile
@@ -103,7 +104,8 @@ if ($langs !~ /,/) {
     `rename 's/\.ana//' $outDir/*.conllu`;
     $command = "python3 $Valid --lang $langs --level 1 {}";
     `ls $outDir/*.conllu | $Para '$command'`;
-    $command = "python3 $Valid --lang $langs --level 2 {}";
+    $command = "python3 $Valid --lang $langs --level 2 {}"
+	unless defined $translation_lang; #MTed corpora do not have syntactic parses
     `ls $outDir/*.conllu | $Para '$command'`;
 }
 else {

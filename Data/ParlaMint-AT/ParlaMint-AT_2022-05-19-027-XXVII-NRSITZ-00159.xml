@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xml:lang="de"
-     ana="#parla.sitting #covid"
+     ana="#parla.sitting #covid #war"
      xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159">
    <teiHeader xml:lang="en">
       <fileDesc>
@@ -65,13 +65,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
-            <measure unit="speeches" quantity="123" xml:lang="en">136 speeches</measure>
-            <measure unit="words" quantity="123" xml:lang="de">12263 Wörter</measure>
-            <measure unit="words" quantity="123" xml:lang="en">12263 words</measure>
+            <measure unit="speeches" quantity="3" xml:lang="de">3 Äußerungen</measure>
+            <measure unit="speeches" quantity="3" xml:lang="en">3 speeches</measure>
+            <measure unit="words" quantity="99" xml:lang="de">99 Wörter</measure>
+            <measure unit="words" quantity="99" xml:lang="en">99 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -79,17 +79,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="de">
-            Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.
-          </p>
-               <p xml:lang="en">
-            This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.
-          </p>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2022-12-14">2022-12-14</date>
+            <date when="2023-04-23">2023-04-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -97,10 +93,8 @@
                <title type="sub" xml:lang="de">Plenarsitzung des Nationalrates, Stenographisches Protokoll, 159. Sitzung des Nationalrates der Republik Österreich, Donnerstag, 19. Mai 2022</title>
                <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
                <title type="sub" xml:lang="en">Shorthand record, Sitting Number 159, Legislative period XXVII, Thursday, 19. May 2022</title>
-               <publisher>
-            Parlamentsdirektion
-          </publisher>
-               <idno type="URI">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00159/fnameorig_1481169.html</idno>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00159/fnameorig_1481169.html</idno>
                <date when="2022-05-19">2022-05-19</date>
             </bibl>
          </sourceDesc>
@@ -111,8 +105,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-        </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -144,15 +137,14 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-12-14">
-            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-04-23">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-13">
             <name>Hannes Pirker</name>
-        : Converted from source HTML to TEI.
-      </change>
+        : Converted from source HTML to TEI.</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="#covid">
+   <text ana="#covid #war">
       <body>
          <div xml:id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e178"
               type="debateSection">

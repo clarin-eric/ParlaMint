@@ -623,8 +623,8 @@
           <desc xml:lang="sl"><term>Podkorpusi</term></desc>
           <desc xml:lang="en"><term>Subcorpora</term></desc>
           <category xml:id="reference">
-            <catDesc xml:lang="sl"><term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
-            <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+            <catDesc xml:lang="sl"><term>Referenca</term>: referenčni podkorpus, do 2020-10-30</catDesc>
+            <catDesc xml:lang="en"><term>Reference</term>: reference subcorpus, until 2020-01-30</catDesc>
           </category>
           ...
         </taxonomy>
@@ -2653,8 +2653,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="taxonomy" module="header" mode="change">
-    <desc versionDate="2022-11-10" xml:lang="en">defines a typology explicitly by a structured
-    taxonomy.</desc>
+    <desc versionDate="2022-11-10" xml:lang="en">defines a typology explicitly by a structured taxonomy.</desc>
     <content>
       <elementRef key="desc" minOccurs="1" maxOccurs="unbounded"/>
       <elementRef key="category" minOccurs="1" maxOccurs="unbounded"/>
@@ -2674,15 +2673,15 @@
           </desc>
           <category xml:id="reference">
             <catDesc xml:lang="sl">
-            <term>Referenca</term>: referenčni podkorpus, do 2019-10-31</catDesc>
+            <term>Referenca</term>: referenčni podkorpus, do 2020-01-30</catDesc>
             <catDesc xml:lang="en">
-            <term>Reference</term>: reference subcorpus, until 2019-10-31</catDesc>
+            <term>Reference</term>: reference subcorpus, until 2020-01-30</catDesc>
           </category>
           <category xml:id="covid">
             <catDesc xml:lang="sl">
-            <term>COVID</term>: COVID podkorpus, od 2019-11-01 dalje</catDesc>
+            <term>COVID</term>: COVID podkorpus, od 2020-01-31 dalje</catDesc>
             <catDesc xml:lang="en">
-            <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+            <term>COVID</term>: COVID subcorpus, from 2020-01-31 onwards</catDesc>
           </category>
         </taxonomy>
       </egXML>
@@ -2731,9 +2730,7 @@
     </exemplum>    
   </elementSpec>
   <elementSpec ident="category" module="header" mode="change">
-    <desc
-        versionDate="2005-01-14"
-        xml:lang="en">contains an individual descriptive category, possibly nested within a superordinate
+    <desc versionDate="2005-01-14" xml:lang="en">contains an individual descriptive category, possibly nested within a superordinate
     category, within a user-defined taxonomy.</desc>
     <content>
       <elementRef key="catDesc" minOccurs="1" maxOccurs="unbounded"/>
@@ -3263,11 +3260,8 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="org" module="namesdates" mode="change">
-    <desc
-        versionDate="2007-06-14"
-        xml:lang="en">provides information
-    about an identifiable organisation such as a business, a tribe, or
-    any other grouping of people.</desc>
+    <desc versionDate="2023-04-06" xml:lang="en">provides information about an identifiable organisation such as the
+    government, political party, ministry etc.</desc>
     <content>
       <sequence>
         <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
@@ -3313,6 +3307,7 @@
           <valItem ident="ethnicCommunity"/>
         </valList>
       </attDef>
+      <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="ana"/>
     </attList>
     <exemplum xml:lang="en">
@@ -3776,12 +3771,11 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="affiliation" module="namesdates" mode="change">
-    <desc
-        versionDate="2005-01-14"
-        xml:lang="en">contains an informal description of a person's present or past affiliation with some
-    organisation, for example an employer or sponsor.</desc>
+    <desc versionDate="2023-04-06" xml:lang="en">contains an informal description of a person's present or past affiliation with some
+    organisation, for example a political party or ministry.</desc>
     <content>
       <elementRef key="roleName" minOccurs="0" maxOccurs="unbounded"/>
+      <elementRef key="orgName" minOccurs="0" maxOccurs="unbounded"/>
     </content>
     <attList>
       <attDef ident="role" mode="replace" usage="req">

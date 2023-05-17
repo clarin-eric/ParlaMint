@@ -25,8 +25,8 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="words" quantity="23891824" xml:lang="en">23891824 words</measure>
-            <measure unit="speeches" quantity="74132" xml:lang="en">74132 speeches</measure>
+            <measure unit="words" quantity="31190804" xml:lang="en">31,190,804 words</measure>
+            <measure unit="speeches" quantity="95286" xml:lang="en">95,286 speeches</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -34,19 +34,19 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="is">Þessi texti er gefinn út með <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2022-11-10">2022-11-10</date>
+            <date when="2023-05-12">2023-05-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title xml:lang="is">Þingræður haldnar á Alþingi Íslendinga</title>
                <title xml:lang="en">Parliament speeches in the national parliament of Iceland</title>
-               <idno type="URI">https://www.althingi.is</idno>
+               <idno type="URI" subtype="parliament">https://www.althingi.is</idno>
                <date from="2015-01-01" to="2022-07-01">2015-01-01 - 2022-07-01</date>
             </bibl>
          </sourceDesc>
@@ -54,7 +54,7 @@
       <encodingDesc>
          <projectDesc>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the<ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref>and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -75,15 +75,16 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage occurs="3" gi="text"/>
-               <tagUsage occurs="3" gi="body"/>
-               <tagUsage occurs="3" gi="div"/>
-               <tagUsage occurs="535" gi="u"/>
-               <tagUsage occurs="1474" gi="seg"/>
-               <tagUsage occurs="418" gi="kinesic"/>
-               <tagUsage occurs="548" gi="desc"/>
-               <tagUsage occurs="129" gi="vocal"/>
-               <tagUsage occurs="1" gi="incident"/>
+               <tagUsage gi="body" occurs="928"/>
+               <tagUsage gi="desc" occurs="49810"/>
+               <tagUsage gi="div" occurs="928"/>
+               <tagUsage gi="incident" occurs="64"/>
+               <tagUsage gi="kinesic" occurs="40193"/>
+               <tagUsage gi="note" occurs="137"/>
+               <tagUsage gi="seg" occurs="334424"/>
+               <tagUsage gi="text" occurs="928"/>
+               <tagUsage gi="u" occurs="95286"/>
+               <tagUsage gi="vocal" occurs="9553"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -92,7 +93,7 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-parla.legislature.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-IS-taxonomy-parla.subcorpus.xml"/>
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-IS-taxonomy-parla.categories.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -112,6 +113,9 @@
                <date from="2015-01-01" to="2022-07-01"/>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-IS-listOrg.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -123,16 +127,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-11-10">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2022-11-04">
-            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-05-12">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IS_2015-01-22-55.xml"/>
+               href="ParlaMint-IS_2017-03-20-44.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IS_2018-11-26-38.xml"/>
+               href="ParlaMint-IS_2019-12-17-48.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-IS_2021-12-28-19.xml"/>
+               href="ParlaMint-IS_2022-06-15.xml"/>
 </teiCorpus>

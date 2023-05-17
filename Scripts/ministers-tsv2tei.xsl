@@ -209,14 +209,14 @@
           <xsl:attribute name="source" select="$url"/>
         </xsl:if>
         <xsl:if test="et:has-content($name-xx)">
-          <roleName>
+          <orgName>
             <xsl:value-of select="$name-xx"/>
-          </roleName>
+          </orgName>
         </xsl:if>
         <xsl:if test="et:has-content($name-en)">
-          <roleName xml:lang="en">
+          <orgName xml:lang="en">
             <xsl:value-of select="$name-en"/>
-          </roleName>
+          </orgName>
         </xsl:if>
 	<xsl:if test="et:has-content($govtTermID) and not(normalize-space($govtEvent))">
 	  <note type="period">

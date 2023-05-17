@@ -14,14 +14,14 @@
             <meeting ana="#parla.term #OGY.9" corresp="#OGY" n="9">9. ciklus</meeting>
             <respStmt>
                <persName>Noémi Ligeti-Nagy</persName>
-               <resp xml:lang="hu">A ParlaMint TEI XML formátum előállítása</resp>
+               <resp>ParlaMint TEI XML corpus encoding</resp>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
             </respStmt>
             <respStmt>
                <persName>Réka Dodé</persName>
                <persName>Kinga Jelencsik-Mátyus</persName>
                <persName>Zsófia Varga</persName>
-               <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
+               <resp>Metaadatok gyűjtése és rendszerezése</resp>
                <resp xml:lang="en">Metadata collection and organization</resp>
             </respStmt>
             <funder>
@@ -34,55 +34,42 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0a</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure xml:lang="hu" quantity="650" unit="speeches">650 beszéd</measure>
-            <measure xml:lang="en" quantity="650" unit="speeches">650 speeches</measure>
-            <measure xml:lang="hu" quantity="141894" unit="words">141.894 szó</measure>
-            <measure xml:lang="en" quantity="141894" unit="words">141,894 words</measure>
+            <measure xml:lang="hu" quantity="104521" unit="speeches">104.521 beszéd</measure>
+            <measure xml:lang="en" quantity="104521" unit="speeches">104,521 speeches</measure>
+            <measure xml:lang="hu" quantity="27506879" unit="words">27.506.879 szó</measure>
+            <measure xml:lang="en" quantity="27506879" unit="words">27,506,879 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
-               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
-               <orgName xml:lang="en">CLARIN research infrastucture</orgName>
+               <orgName xml:lang="hu">ClARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">ClARIN research infrastucture</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="hu">
-                        Ez a munka az alábbi licensz alapján használható: 
-                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-               </p>
-               <p xml:lang="en">
-                        This work is licensed under the 
-                        <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-               </p>
+               <p xml:lang="hu">Ez a munka az alábbi licensz alapján használható: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2022-12-21">2022-12-21</date>
+            <date when="2023-04-26">2023-04-26</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="hu">A Magyar Országgyűlés ülései</title>
                <title type="main" xml:lang="en">Minutes of the National Assembly of Hungary</title>
-               <idno type="URI" subtype="parliament">https://www.parlament.hu/</idno>
+               <idno type="URI" subtype="parliament">https://https://www.parlament.hu/</idno>
                <date from="2014-05-06" to="2022-06-14">2014.05.06 - 2022.06.14.</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="hu">
-                    A 
-                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                     projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.
-                </p>
+            <p xml:lang="hu">A <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.</p>
             <p xml:lang="en">
-                    The 
-                    <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                     project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in PoliticalSciences and Digital Humanities based on the corpus data.
-                </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -103,22 +90,18 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="4"/>
-               <tagUsage gi="desc" occurs="532"/>
-               <tagUsage gi="div" occurs="4"/>
-               <tagUsage gi="incident" occurs="18"/>
-               <tagUsage gi="kinesic" occurs="293"/>
-               <tagUsage gi="link" occurs="166574"/>
-               <tagUsage gi="linkGrp" occurs="8596"/>
-               <tagUsage gi="name" occurs="4689"/>
-               <tagUsage gi="note" occurs="846"/>
-               <tagUsage gi="pc" occurs="24680"/>
-               <tagUsage gi="s" occurs="8596"/>
-               <tagUsage gi="seg" occurs="2755"/>
-               <tagUsage gi="text" occurs="4"/>
-               <tagUsage gi="u" occurs="650"/>
-               <tagUsage gi="vocal" occurs="221"/>
-               <tagUsage gi="w" occurs="141894"/>
+               <tagUsage gi="body" occurs="515"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="div" occurs="515"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="head" occurs="0"/>
+               <tagUsage gi="incident" occurs="3422"/>
+               <tagUsage gi="kinesic" occurs="44602"/>
+               <tagUsage gi="note" occurs="135812"/>
+               <tagUsage gi="seg" occurs="427187"/>
+               <tagUsage gi="text" occurs="515"/>
+               <tagUsage gi="u" occurs="104521"/>
+               <tagUsage gi="vocal" occurs="43088"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -141,11 +124,7 @@
          <appInfo>
             <application version="0.5.1" ident="huspacy">
                <label>HuSpaCy</label>
-               <desc xml:lang="en">
-                        HuSpaCy is a spaCy library providing industrial-strength Hungarian language processing facilities through spaCy models. The released pipelines consist of a tokenizer, sentence splitter, lemmatizer, tagger (predicting morphological features as well), dependency parser and a named entity recognition module. It is available from 
-                        <ref target="https://github.com/huspacy/huspacy">https://github.com/huspacy/huspacy</ref>
-                        .
-                    </desc>
+               <desc xml:lang="en">HuSpaCy is a spaCy library providing industrial-strength Hungarian language processing facilities through spaCy models. The released pipelines consist of a tokenizer, sentence splitter, lemmatizer, tagger (predicting morphological features as well), dependency parser and a named entity recognition module. It is available from <ref target="https://github.com/huspacy/huspacy">https://github.com/huspacy/huspacy</ref>.</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -202,24 +181,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-12-21">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2022-12-16">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2022-11-05">xi:include taxonomies and particDesc elements</change>
-         <change when="2022-11-09">new sample made after revision</change>
-         <change when="2022-11-09">
-            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
-         <change when="2022-12-05">
-            <name>Tomaž Erjavec</name>, <name>Matyáš Kopp</name>: Adding common content.</change>
+         <change when="2023-04-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2014-05-06.ana.xml"/>
+               href="ParlaMint-HU_2016-10-10.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2016-02-15.ana.xml"/>
+               href="ParlaMint-HU_2019-06-17.ana.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2017-11-20.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-HU_2022-06-14.ana.xml"/>
+               href="ParlaMint-HU_2022-06-08.ana.xml"/>
 </teiCorpus>
