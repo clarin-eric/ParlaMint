@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xml:lang="nl"
+           xml:id="ParlaMint-BE">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Belgian Federal Parliament: Plenary sessions and committee meetings (2014-06-19 - 2022-07-13)</title>
+            <title type="sub" xml:lang="nl">Belgisch Federaal Parlement: Plenaire zittingen en commissievergaderingen (2014-06-19 - 2022-07-13)</title>
+            <meeting n="54" ana="#parla.lower #parla.term">54-ste zittingsperiode</meeting>
+            <meeting n="55" ana="#parla.lower #parla.term">55-ste zittingsperiode</meeting>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">de Europese Commissie</orgName>
+               <orgName xml:lang="en">the European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="199305" xml:lang="en">199305 199,305 speeches</measure>
+            <measure unit="speeches" quantity="199305" xml:lang="nl">199305 199,305 spreekbeurten</measure>
+            <measure unit="words" quantity="44372160" xml:lang="en">45919472 44,372,160 words</measure>
+            <measure unit="words" quantity="44372160" xml:lang="nl">45919472 44,372,160 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-04-24">2023-04-24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="nl">Federaal Parlement van België: Plenaire zittingen</title>
+               <title type="main" xml:lang="en">Belgian Federal Parliament: Plenary sessions</title>
+               <publisher>Kamer van volksvertegenwoordigers</publisher>
+               <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;amp;language=nl&amp;amp;cfm=dcricra.cfm?type=plen&amp;amp;cricra=cri&amp;amp;count=all</idno>
+               <date from="2014-06-19" to="2022-07-13">2014-06-19 - 2022-07-13</date>
+            </bibl>
+            <bibl>
+               <title type="main" xml:lang="nl">Federaal Parlement van België: Commissievergaderingen</title>
+               <title type="main" xml:lang="en">Belgian Federal Parliament: committee meetings</title>
+               <publisher>Kamer van volksvertegenwoordigers</publisher>
+               <idno type="URI">https://www.dekamer.be/kvvcr/showpage.cfm?section=/cricra&amp;amp;language=nl&amp;amp;cfm=dcricra.cfm?type=plen&amp;amp;cricra=cri&amp;amp;count=all</idno>
+               <date from="2014-06-19" to="2022-07-13">2014-06-19 - 2022-07-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="nl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+      is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref>
+      en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">Hyphenation has not been altered with respect to the source files.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+               <p xml:lang="en">Non-speaker text (voting results, ...) has been left out</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="2349"/>
+               <tagUsage gi="desc" occurs="5527"/>
+               <tagUsage gi="div" occurs="2349"/>
+               <tagUsage gi="gap" occurs="4535"/>
+               <tagUsage gi="incident" occurs="40"/>
+               <tagUsage gi="kinesic" occurs="388"/>
+               <tagUsage gi="note" occurs="509020"/>
+               <tagUsage gi="seg" occurs="966345"/>
+               <tagUsage gi="text" occurs="2349"/>
+               <tagUsage gi="u" occurs="199305"/>
+               <tagUsage gi="vocal" occurs="564"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-BE-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-taxonomy-politicalOrientation.xml"/>
+            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name key="BE" type="country">België</name>
+               <date from="2014-06-19" to="2022-07-13">2014-06-19 - 2022-07-13</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.lower"/>
+         </textClass>
+         <particDesc>
+            <xi:include href="ParlaMint-BE-listOrg.xml"/>
+            <xi:include href="ParlaMint-BE-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language xml:lang="en" ident="und">Undetermined</language>
+            <language xml:lang="nl" ident="und">Onbepaald</language>
+            <language xml:lang="en" ident="fr">French</language>
+            <language xml:lang="nl" ident="fr">Frans</language>
+            <language xml:lang="en" ident="nl">Dutch</language>
+            <language xml:lang="nl" ident="nl">Nederlands</language>
+            <language xml:lang="en" ident="de">German</language>
+            <language xml:lang="nl" ident="de">Duits</language>
+            <language xml:lang="en" ident="en">English</language>
+            <language xml:lang="nl" ident="en">Engels</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-04-24">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include href="ParlaMint-BE_2017-04-27-54-plenair-ip165x.xml"/>
+   <xi:include href="ParlaMint-BE_2020-06-17-55-commissie-ic210x.xml"/>
+   <xi:include href="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.xml"/>
+</teiCorpus>

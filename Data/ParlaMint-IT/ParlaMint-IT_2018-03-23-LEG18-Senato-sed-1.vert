@@ -1,6 +1,4 @@
 <note type="speaker" content="Presidenza del presidente provvisorio NAPOLITANO"/>
-<note type="-" content="(Il senatore Napolitano, presidente provvisorio ai sensi dell'articolo 2, comma 1, del Regolamento, sale al banco presidenziale)."/>
-<note type="speaker" content="PRESIDENTE"/>
 <speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" lang="Italian">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1">
@@ -21,7 +19,6 @@ ore	ore	ora	NOUN	Gender=Fem Number=Plur	6	obl	aprire	VERB	Gender=Fem Number=Sing
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Per l'apertura della XVIII legislatura"/>
-<note type="speaker" content="PRESIDENTE"/>
 <speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
 <note type="incident:action" content="Si leva in piedi."/>
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" lang="Italian">
@@ -1570,7 +1567,6 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	23	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di sabato 24 marzo 2018"/>
-<note type="speaker" content="PRESIDENTE"/>
 <speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
 <p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" lang="Italian">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1">

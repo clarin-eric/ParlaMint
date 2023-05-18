@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="lv"
+     ana="#parla.sitting #covid"
+     xml:id="ParlaMint-LV_2021-02-11-PT13-2193.ana">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="lv">Latvijas parlamenta corpus ParlaMint-LV, 13. Saeima, 2021-02-11 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Latvian parliamentary corpus ParlaMint-LV, 13th Term, 2021-02-11 [ParlaMint.ana SAMPLE]</title>
+            <meeting corresp="#PT" ana="#parla.uni #parla.meeting.regular">Regulārā</meeting>
+            <meeting n="13" corresp="#PT" ana="#parla.uni #parla.term #PT.13">13. sasaukums</meeting>
+            <meeting n="2021-02-11" corresp="#PT" ana="#parla.uni #parla.sitting">2021-02-11</meeting>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="69" xml:lang="en">69 speeches</measure>
+            <measure unit="words" quantity="3318" xml:lang="en">3,318 words</measure>
+            <measure unit="tokens" quantity="4209" xml:lang="en">4209 tokens</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-04-26">2023-04-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="lv">Saeimas sēžu stenogrammas</title>
+               <idno type="URI">https://www.saeima.lv/lv/transcripts/view/2193</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="note" occurs="70"/>
+               <tagUsage gi="u" occurs="69"/>
+               <tagUsage gi="seg" occurs="172"/>
+               <tagUsage gi="name" occurs="119"/>
+               <tagUsage gi="s" occurs="324"/>
+               <tagUsage gi="w" occurs="3318"/>
+               <tagUsage gi="pc" occurs="891"/>
+               <tagUsage gi="linkGrp" occurs="324"/>
+               <tagUsage gi="link" occurs="4209"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Rīga</name>
+               <name type="country" key="LV">Latvija</name>
+               <date when="2021-02-11" ana="#parla.sitting">2021-02-11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-04-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <note type="speaker">Sēdes vadītāja.</note>
+            <u who="#Beitnere-LeGallaDagmāra"
+               xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1"
+               ana="#chair">
+               <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1">
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.1"
+                        pos="vmnpdmpnpsypn"
+                        lemma="godāt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part">Godātie</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.2"
+                        pos="ncmsa2"
+                        lemma="kolēģis"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        join="right">kolēģi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.3"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.1.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.1"
+                        pos="vmnipt31pan"
+                        lemma="turpināt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Turpinām</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.2"
+                        pos="xo"
+                        lemma="2021."
+                        msd="UPosTag=ADJ|NumType=Ord">2021.</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.3"
+                        pos="ncmsg1"
+                        lemma="gads"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">gada</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.4"
+                        pos="xo"
+                        lemma="28."
+                        msd="UPosTag=ADJ|NumType=Ord">28.</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.5"
+                        pos="ncmsg2"
+                        lemma="janvāris"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">janvāra</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.6"
+                        pos="vmnpdmsapsypn"
+                        lemma="attālināt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">attālināto</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.7"
+                        pos="ncfv_g"
+                        lemma="ārkārtas"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Coll">ārkārtas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.8"
+                        pos="vmnipi32san"
+                        lemma="sēdēt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">sēdi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.9"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.1"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.3 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.5 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.5 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.5"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.6"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.7"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.2.9"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.1"
+                        pos="ncmpn2"
+                        lemma="kolēģis"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur"
+                        join="right">Kolēģi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.2"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">!</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.3.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.1"
+                        pos="vmnist21san"
+                        lemma="informēt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act">Informēju</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.2"
+                        pos="pp20pnn"
+                        lemma="jūs"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs"
+                        join="right">jūs</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.3"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.4"
+                        pos="cs"
+                        lemma="ka"
+                        msd="UPosTag=SCONJ">ka</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.5"
+                           pos="ncfsg4"
+                           lemma="Saeima"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">Saeimas</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.6"
+                           pos="ncmsn1"
+                           lemma="prezidijs"
+                           msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">Prezidijs</w>
+                     </name>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.7"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8"
+                        pos="vmnpdmsnasnpn"
+                        lemma="saņemt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">saņēmis</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.9"
+                        pos="ncmsg1"
+                        lemma="budžets"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">Budžeta</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.10"
+                        pos="cc"
+                        lemma="un"
+                        msd="UPosTag=CCONJ">un</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.11"
+                        pos="ncfdg5"
+                        lemma="finanses"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Ptan">finanšu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.12"
+                         pos="zb"
+                         msd="UPosTag=PUNCT">(</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.13"
+                        pos="ncmpg2"
+                        lemma="nodoklis"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur"
+                        join="right">nodokļu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.14"
+                         pos="zb"
+                         msd="UPosTag=PUNCT">)</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.15"
+                        pos="ncfsg4"
+                        lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">komisijas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.16"
+                        pos="ncmsa1"
+                        lemma="lūgums"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing">lūgumu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.17"
+                        pos="vmnn0t1000n"
+                        lemma="izslēgt"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf">izslēgt</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.18"
+                        pos="spsg"
+                        lemma="no"
+                        msd="UPosTag=ADP">no</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.19"
+                        pos="pd3msgn"
+                        lemma="šis"
+                        msd="UPosTag=PRON|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Dem">šā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.20"
+                        pos="ncmsg1"
+                        lemma="gads"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">gada</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.21"
+                        pos="xo"
+                        lemma="28."
+                        msd="UPosTag=ADJ|NumType=Ord">28.</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.22"
+                        pos="ncmsg2"
+                        lemma="janvāris"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">janvāra</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.23"
+                        pos="ncfsg5"
+                        lemma="sēde"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">sēdes</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.24"
+                        pos="ncmsg1"
+                        lemma="darbs"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">darba</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.25"
+                        pos="ncfsg4"
+                        lemma="kārtība"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">kārtības</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.26"
+                        pos="ncmsa1"
+                        lemma="likumprojekts"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing">likumprojektu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.27"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">“</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28"
+                        pos="ncmpn1"
+                        lemma="grozījums"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur">Grozījumi</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.29"
+                        pos="ncfsg4"
+                        lemma="revīzija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">Revīzijas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.30"
+                        pos="ncmpg1"
+                        lemma="pakalpojums"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">pakalpojumu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.31"
+                        pos="ncmsl1"
+                        lemma="likums"
+                        msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing"
+                        join="right">likumā</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.32"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">”</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.33"
+                        pos="spsd"
+                        lemma="līdz"
+                        msd="UPosTag=ADP">līdz</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.34"
+                        pos="afmsdnp"
+                        lemma="turpmāks"
+                        msd="UPosTag=ADJ|Case=Dat|Degree=Pos|Gender=Masc|Number=Sing">turpmākam</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.35"
+                        pos="ncfsg4"
+                        lemma="komisija"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">komisijas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.36"
+                        pos="ncmsd1"
+                        lemma="lēmums"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing"
+                        join="right">lēmumam</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.37"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.3"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.6 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.5"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.6"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.7"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.15 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.9"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.11 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.10"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.9 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.11"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.13 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.12"/>
+                        <link ana="ud-syn:parataxis"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.9 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.13"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.13 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.14"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.16 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.15"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.16"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.16 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.17"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.25 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.18"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.20 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.19"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.22 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.20"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.22 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.21"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.23 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.22"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.25 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.23"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.25 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.24"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.17 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.25"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.26"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.27"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.17 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.29"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.30"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.31"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.32"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.36 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.33"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.36 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.34"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.36 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.35"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.28 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.36"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.4.37"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.1"
+                        pos="vmnipt11san"
+                        lemma="lūgt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Lūdzu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.2"
+                        pos="vmnn0t1000n"
+                        lemma="atvērt"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf">atvērt</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.3"
+                        pos="ncfsa4"
+                        lemma="sadaļa"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">sadaļu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.4"
+                        pos="spsa"
+                        lemma="par"
+                        msd="UPosTag=ADP">par</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.5"
+                        pos="ncfsa4"
+                        lemma="procedūra"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        join="right">procedūru</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.6"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.1"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.2"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.2 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.3"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.5 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.3 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.5.6"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.1"
+                        pos="i"
+                        lemma="lūdzu"
+                        msd="UPosTag=INTJ"
+                        join="right">Lūdzu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.2"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.3"
+                           pos="npmsv2"
+                           lemma="Krišjānis"
+                           msd="UPosTag=PROPN|Case=Voc|Gender=Masc|Number=Sing">Krišjāni</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.4"
+                           pos="xf"
+                           lemma="Feldman"
+                           msd="UPosTag=X|Foreign=Yes"
+                           join="right">Feldman</w>
+                     </name>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.5"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.6"
+                        pos="cc"
+                        lemma="vai"
+                        msd="UPosTag=CCONJ">vai</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.7"
+                        pos="pp20pnn"
+                        lemma="jūs"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=2|PronType=Prs">jūs</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8"
+                        pos="vmnifi22pan"
+                        lemma="runāt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">runāsiet</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.9"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">“</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.10"
+                        pos="spsa"
+                        lemma="par"
+                        msd="UPosTag=ADP"
+                        join="right">par</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.11"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">”</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.12"
+                        pos="cc"
+                        lemma="vai"
+                        msd="UPosTag=CCONJ">vai</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.13"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">“</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.14"
+                        pos="spsa"
+                        lemma="pret"
+                        msd="UPosTag=ADP"
+                        join="right">pret</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.15"
+                         pos="zq"
+                         msd="UPosTag=PUNCT"
+                         join="right">”</pc>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.16"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">?</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:discourse"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.1 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.2"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.3"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.3 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.3 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.5"/>
+                        <link ana="ud-syn:discourse"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.6"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.7"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.9"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.11 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.10"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.11"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.13 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.12"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.11 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.13"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.13 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.14"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.14 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.15"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.8 #ParlaMint-LV_2021-02-11-PT13-2193-U1-P1.6.16"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker">K. Feldmans (JK).</note>
+            <u who="#FeldmansKrišjānis"
+               xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2"
+               ana="#regular">
+               <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1">
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.1"
+                        pos="pp10snn"
+                        lemma="es"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">Es</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2"
+                        pos="vmnifi21san"
+                        lemma="runāt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">runāšu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.3"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">“</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.4"
+                        pos="spsa"
+                        lemma="pret"
+                        msd="UPosTag=ADP"
+                        join="right">pret</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.5"
+                         pos="zq"
+                         msd="UPosTag=PUNCT"
+                         join="right">”</pc>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.6"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1 #ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.3"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.4"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U2-P1.1.6"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#ZariņšIvars"
+               xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68"
+               ana="#regular">
+               <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1">
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.1"
+                        pos="vmnpu0000000n"
+                        lemma="zināt"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Conv"
+                        join="right">Zinot</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.2"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.3"
+                        pos="cs"
+                        lemma="kā"
+                        msd="UPosTag=SCONJ">kā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.4"
+                        pos="pp10pgn"
+                        lemma="mēs"
+                        msd="UPosTag=PRON|Case=Gen|Number=Plur|Person=1|PronType=Prs">mūsu</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.5"
+                           pos="ncfsg4"
+                           lemma="veselība"
+                           msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">Veselības</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.6"
+                           pos="ncfsd4"
+                           lemma="ministrija"
+                           msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing">ministrijai</w>
+                     </name>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.7"
+                        pos="vmnipii30an"
+                        lemma="iet"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">iet</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.8"
+                        pos="spsa"
+                        lemma="ar"
+                        msd="UPosTag=ADP">ar</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.9"
+                        pos="y"
+                        lemma="IT"
+                        msd="UPosTag=X|Abbr=Yes">IT</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.10"
+                        pos="ncmpd1"
+                        lemma="projekts"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Plur">projektiem</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.11"
+                         pos="zb"
+                         msd="UPosTag=PUNCT">(</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.12"
+                        pos="xx"
+                        lemma="e"
+                        msd="UPosTag=SYM"
+                        join="right">e</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.13"
+                         pos="zd"
+                         msd="UPosTag=PUNCT"
+                         join="right">‑</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.14"
+                        pos="ncfsn4"
+                        lemma="veselība"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">veselība</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.15"
+                        pos="pd3msdn"
+                        lemma="tas"
+                        msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Dem">tam</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.16"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.17"
+                        pos="vmnpdmsnppnpn"
+                        lemma="uzskatīt"
+                        msd="UPosTag=VERB|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass">uzskatāms</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18"
+                        pos="ncmsn1"
+                        lemma="piemērs"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        join="right">piemērs</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.19"
+                         pos="zb"
+                         msd="UPosTag=PUNCT"
+                         join="right">)</pc>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.20"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.21"
+                        pos="pp10pnn"
+                        lemma="mēs"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">mēs</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.22"
+                        pos="r0_"
+                        lemma="jau"
+                        msd="UPosTag=ADV">jau</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.23"
+                        pos="r0_"
+                        lemma="laikus"
+                        msd="UPosTag=ADV">laikus</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24"
+                        pos="vpnift11pan"
+                        lemma="sākt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">sāksim</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.25"
+                        pos="vmnn0i2000n"
+                        lemma="sekot"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf">sekot</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.26"
+                        pos="r0_"
+                        lemma="līdzi"
+                        msd="UPosTag=ADV">līdzi</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.27"
+                        pos="pd3msdn"
+                        lemma="tas"
+                        msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+                        join="right">tam</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.28"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.29"
+                        pos="cs"
+                        lemma="lai"
+                        msd="UPosTag=SCONJ">lai</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.30"
+                        pos="pd3msnn"
+                        lemma="šis"
+                        msd="UPosTag=DET|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem">šis</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.31"
+                        pos="r0_"
+                        lemma="ļoti"
+                        msd="UPosTag=ADV">ļoti</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.32"
+                        pos="afmsnyp"
+                        lemma="svarīgs"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">svarīgais</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.33"
+                        pos="ncmsn1"
+                        lemma="projekts"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        join="right">projekts</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.34"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.35"
+                        pos="r0_"
+                        lemma="kā"
+                        msd="UPosTag=ADV|PronType=Int">kā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.36"
+                        pos="pp10snn"
+                        lemma="es"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs">es</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.37"
+                        pos="vmnipt11san"
+                        lemma="saprast"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">saprotu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.38"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.39"
+                        pos="spsg"
+                        lemma="no"
+                        msd="UPosTag=ADP">no</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.40"
+                        pos="pr0msgn"
+                        lemma="kurš"
+                        msd="UPosTag=PRON|Case=Gen|Gender=Masc|Number=Sing|PronType=Rel">kura</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.41"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42"
+                        pos="affsnnp"
+                        lemma="atkarīgs"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing">atkarīga</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.43"
+                        pos="affsnnp"
+                        lemma="veiksmīgs"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing">veiksmīga</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.44"
+                        pos="ncfsn4"
+                        lemma="vakcinācija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        join="right">vakcinācija</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.45"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.46"
+                        pos="pr000nn"
+                        lemma="kas"
+                        msd="UPosTag=PRON|Case=Nom|PronType=Rel">kas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.47"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.48"
+                        pos="afmsnyp"
+                        lemma="vienīgs"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">vienīgais</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.49"
+                        pos="pd3fsgn"
+                        lemma="šī"
+                        msd="UPosTag=DET|Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Dem">šīs</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.50"
+                        pos="ncfsg4"
+                        lemma="valdība"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">valdības</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51"
+                        pos="ncmsn1"
+                        lemma="risinājums"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">risinājums</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.52"
+                        pos="ncfsl4"
+                        lemma="cīņa"
+                        msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing">cīņā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.53"
+                        pos="spsa"
+                        lemma="ar"
+                        msd="UPosTag=ADP">ar</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.54"
+                        pos="ncmsg1"
+                        lemma="kovids"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">kovida</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.55"
+                        pos="ncfsa5"
+                        lemma="krīze"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        join="right">krīzi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.56"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.57"
+                        pos="cs"
+                        lemma="lai"
+                        msd="UPosTag=SCONJ">lai</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.58"
+                        pos="pp10pdn"
+                        lemma="mēs"
+                        msd="UPosTag=PRON|Case=Dat|Number=Plur|Person=1|PronType=Prs">mums</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59"
+                        pos="vmyc0_100an"
+                        lemma="beigties"
+                        msd="UPosTag=VERB|Mood=Cnd|Polarity=Pos|Reflex=Yes|VerbForm=Fin|Voice=Act">beigtos</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.60"
+                        pos="pd3fsnn"
+                        lemma="šī"
+                        msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem">šī</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.61"
+                        pos="affsnyp"
+                        lemma="milzīgs"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing">milzīgā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.62"
+                        pos="ncfsn4"
+                        lemma="bezjēdzība"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        join="right">bezjēdzība</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.63"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.64"
+                        pos="pr000an"
+                        lemma="kas"
+                        msd="UPosTag=PRON|Case=Acc|PronType=Rel">ko</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.65"
+                        pos="pd3fsnn"
+                        lemma="šī"
+                        msd="UPosTag=DET|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem">šī</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.66"
+                        pos="ncfsn4"
+                        lemma="valdība"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing">valdība</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.67"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.68"
+                        pos="vmnpdfsnasnpn"
+                        lemma="ievārīt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part"
+                        join="right">ievārījusi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.69"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">...</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.2"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.3"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.6 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.4"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.6 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.5"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.6"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.7"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.10 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.8"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.10 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.9"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.11"/>
+                        <link ana="ud-syn:dep"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.12"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.12 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.13"/>
+                        <link ana="ud-syn:flat"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.12 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.14"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.15"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.16"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.17"/>
+                        <link ana="ud-syn:parataxis"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.10 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.19"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.20"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.21"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.23 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.22"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.23"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.25"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.25 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.26"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.25 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.27"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.27 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.28"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.29"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.33 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.30"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.32 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.31"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.33 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.32"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.33"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.34"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.35"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.36"/>
+                        <link ana="ud-syn:discourse"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.37"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.38"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.40 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.39"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.40"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.41"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.33 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.44 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.43"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.44"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.42 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.45"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.46"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.47"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.48"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.50 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.49"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.50"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.33 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.51 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.52"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.55 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.53"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.55 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.54"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.52 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.55"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.56"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.57"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.58"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.62 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.60"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.62 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.61"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.59 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.62"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.68 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.63"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.68 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.64"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.66 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.65"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.68 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.66"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.68 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.67"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.62 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.68"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.24 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.1.69"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.1"
+                        pos="pp10pnn"
+                        lemma="mēs"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs">mēs</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.2"
+                        pos="r0_"
+                        lemma="jau"
+                        msd="UPosTag=ADV">jau</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.3"
+                        pos="r0_"
+                        lemma="laikus"
+                        msd="UPosTag=ADV">laikus</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.4"
+                        pos="vpnift11pan"
+                        lemma="sākt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">sāksim</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.5"
+                        pos="vmnn0i2000n"
+                        lemma="sekot"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf">sekot</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.6"
+                        pos="pd3msdn"
+                        lemma="tas"
+                        msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Dem">tam</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.7"
+                        pos="r0_"
+                        lemma="līdzi"
+                        msd="UPosTag=ADV"
+                        join="right">līdzi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.8"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.1"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.3 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.2"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.3"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.4"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.5"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.5 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.6"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.6 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.7"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.2.8"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.1"
+                        pos="q"
+                        lemma="arī"
+                        msd="UPosTag=PART">Arī</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.2"
+                        pos="r0_"
+                        lemma="šeit"
+                        msd="UPosTag=ADV|PronType=Dem">šeit</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.3"
+                        pos="vmnip_i1pan"
+                        lemma="būt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">esam</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4"
+                        pos="vmnpdmpnasnpn"
+                        lemma="uzdot"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part">uzdevuši</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.5"
+                        pos="afmpanp"
+                        lemma="kompetents"
+                        msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur"
+                        join="right">kompetentus</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.6"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.7"
+                        pos="vmnpdmpaapnpn"
+                        lemma="atbilst"
+                        msd="UPosTag=VERB|Aspect=Imp|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass">atbilstošus</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.8"
+                        pos="ncmpa1"
+                        lemma="jautājums"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur">jautājumus</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.9"
+                        pos="spsa"
+                        lemma="par"
+                        msd="UPosTag=ADP">par</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.10"
+                        pos="pg0msan"
+                        lemma="viss"
+                        msd="UPosTag=DET|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot">visu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.11"
+                        pos="pd3msan"
+                        lemma="šis"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Dem">šo</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.12"
+                        pos="ncmsa1"
+                        lemma="process"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        join="right">procesu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.13"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.14"
+                        pos="cs"
+                        lemma="lai"
+                        msd="UPosTag=SCONJ">lai</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.15"
+                        pos="vmnc0t300an"
+                        lemma="varēt"
+                        msd="UPosTag=VERB|Mood=Cnd|Polarity=Pos|VerbForm=Fin|Voice=Act">varētu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.16"
+                        pos="pd3msdn"
+                        lemma="tas"
+                        msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Dem">tam</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.17"
+                        pos="r0_"
+                        lemma="jau"
+                        msd="UPosTag=ADV">jau</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.18"
+                        pos="r0_"
+                        lemma="laikus"
+                        msd="UPosTag=ADV">laikus</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.19"
+                        pos="vmnn0i2000n"
+                        lemma="sekot"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Inf">sekot</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.20"
+                        pos="r0_"
+                        lemma="līdzi"
+                        msd="UPosTag=ADV">līdzi</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.21"
+                        pos="cc"
+                        lemma="un"
+                        msd="UPosTag=CCONJ">un</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.22"
+                        pos="vmyn0_3000n"
+                        lemma="pārliecināties"
+                        msd="UPosTag=VERB|Polarity=Pos|Reflex=Yes|VerbForm=Inf"
+                        join="right">pārliecināties</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.23"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.24"
+                        pos="cs"
+                        lemma="ka"
+                        msd="UPosTag=SCONJ">ka</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.25"
+                        pos="r0_"
+                        lemma="jau"
+                        msd="UPosTag=ADV">jau</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.26"
+                        pos="pg0msln"
+                        lemma="pats"
+                        msd="UPosTag=PRON|Case=Loc|Gender=Masc|Number=Sing|PronType=Tot">pašā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.27"
+                        pos="ncmsl1"
+                        lemma="sākums"
+                        msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing">sākumā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.28"
+                        pos="pd3msnn"
+                        lemma="tas"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem">tas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.29"
+                        pos="vcnipii30ay"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act">nav</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30"
+                        pos="vmnpdmsnpsnpn"
+                        lemma="salaist"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">salaists</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.31"
+                        pos="rp_"
+                        lemma="pilnīgi"
+                        msd="UPosTag=ADV|Degree=Pos">pilnīgi</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.32"
+                        pos="rp_"
+                        lemma="greizi"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        join="right">greizi</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.33"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.34"
+                        pos="r0_"
+                        lemma="kā"
+                        msd="UPosTag=ADV|PronType=Int">kā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.35"
+                        pos="pd3msnn"
+                        lemma="tas"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Dem">tas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.36"
+                        pos="vanisi130an"
+                        lemma="tikt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act">tika</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.37"
+                        pos="vmnpdmsnpsnpn"
+                        lemma="izdarīt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">izdarīts</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.38"
+                        pos="spsa"
+                        lemma="ar"
+                        msd="UPosTag=ADP">ar</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.39"
+                        pos="ncfsa4"
+                        lemma="e-veselība"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        join="right">e-veselību</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.40"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.41"
+                        pos="vmnpu0000000n"
+                        lemma="ņemt"
+                        msd="UPosTag=VERB|Polarity=Pos|VerbForm=Conv">ņemot</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.42"
+                        pos="r0_"
+                        lemma="vērā"
+                        msd="UPosTag=ADV"
+                        join="right">vērā</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.43"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.44"
+                        pos="cs"
+                        lemma="ka"
+                        msd="UPosTag=SCONJ">ka</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.45"
+                        pos="affpnyp"
+                        lemma="atbildīgs"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur">atbildīgās</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.46"
+                        pos="ncfpn4"
+                        lemma="amatpersona"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Plur">amatpersonas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.47"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48"
+                        pos="pd3fpnn"
+                        lemma="tā"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Dem">tās</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.49"
+                        pos="pg0fpnn"
+                        lemma="pati"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Plur|PronType=Tot"
+                        join="right">pašas</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.50"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.51"
+                        pos="pr0fpnn"
+                        lemma="kura"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Plur|PronType=Rel">kuras</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.52"
+                        pos="vmnist330an"
+                        lemma="taisīt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act">taisīja</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.53"
+                        pos="ncfsa4"
+                        lemma="e-veselība"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        join="right">e-veselību</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.54"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:discourse"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.2 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.2"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.3"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.8 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.7 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.6"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.5 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.7"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.8"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.12 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.9"/>
+                        <link ana="ud-syn:det"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.12 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.10"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.12 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.11"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.8 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.12"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.15 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.13"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.15 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.14"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.15"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.19 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.16"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.18 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.17"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.19 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.18"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.15 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.19"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.19 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.20"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.22 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.21"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.19 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.22"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.23"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.24"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.27 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.25"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.27 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.26"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.27"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.28"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.29"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.22 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30"/>
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.32 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.31"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.32"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.33"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.34"/>
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.35"/>
+                        <link ana="ud-syn:aux_pass"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.36"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.37"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.39 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.38"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.37 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.39"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.41 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.40"/>
+                        <link ana="ud-syn:advcl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.30 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.41"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.41 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.42"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.43"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.44"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.46 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.45"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.46"/>
+                        <link ana="ud-syn:cop"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.47"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.41 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.49"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.52 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.50"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.52 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.51"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.48 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.52"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.52 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.53"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.3.54"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1"
+                        pos="vmnipt31pan"
+                        lemma="novēlēt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">Novēlam</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.2"
+                        pos="ncfsa5"
+                        lemma="veiksme"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">veiksmi</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.3"
+                        pos="ncmsd1"
+                        lemma="ministrs"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing">ministram</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.4"
+                        pos="cc"
+                        lemma="un"
+                        msd="UPosTag=CCONJ">un</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.5"
+                        pos="vmnif_31pan"
+                        lemma="gaidīt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">gaidīsim</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.6"
+                        pos="ncfpa5"
+                        lemma="atbilde"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur"
+                        join="right">atbildes</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.7"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.2"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.3"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.5 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.4"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.5 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.4.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.1"
+                        pos="i"
+                        lemma="paldies"
+                        msd="UPosTag=INTJ"
+                        join="right">Paldies</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.2"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.1 #ParlaMint-LV_2021-02-11-PT13-2193-U68-P1.5.2"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker">Sēdes vadītāja.</note>
+            <u who="#Beitnere-LeGallaDagmāra"
+               xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69"
+               ana="#chair">
+               <seg xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1">
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.1"
+                        pos="afmsnyp"
+                        lemma="pēdējais"
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing">Pēdējais</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.2"
+                        pos="ncmpg1"
+                        lemma="deputāts"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">deputātu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.3"
+                        pos="ncmsn1"
+                        lemma="jautājums"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        join="right">jautājums</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.4"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.5"
+                        pos="pr000an"
+                        lemma="kas"
+                        msd="UPosTag=PRON|Case=Acc|PronType=Rel">ko</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.6"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7"
+                        pos="vmnpdmpnasnpn"
+                        lemma="iesniegt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part">iesnieguši</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.8"
+                        pos="ncmpn1"
+                        lemma="deputāts"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur">deputāti</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9"
+                           pos="npmsn1"
+                           lemma="Ivars"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Ivars</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.10"
+                           pos="ncmsn1"
+                           lemma="Zariņš"
+                           msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                           join="right">Zariņš</w>
+                     </name>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.11"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.12"
+                           pos="npmsn1"
+                           lemma="Artūrs"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Artūrs</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.13"
+                           pos="ncmsn1"
+                           lemma="Rubiks"
+                           msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                           join="right">Rubiks</w>
+                     </name>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.14"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.15"
+                           pos="npmsn1"
+                           lemma="Valērijs"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Valērijs</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.16"
+                           pos="ncmsn1"
+                           lemma="Agešins"
+                           msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                           join="right">Agešins</w>
+                     </name>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.17"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.18"
+                           pos="npmsn1"
+                           lemma="Edgars"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Edgars</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.19"
+                           pos="ncmsn1"
+                           lemma="Kucins"
+                           msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">Kucins</w>
+                     </name>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.20"
+                        pos="cc"
+                        lemma="un"
+                        msd="UPosTag=CCONJ">un</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.21"
+                           pos="npmsn1"
+                           lemma="Ivans"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing">Ivans</w>
+                        <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.22"
+                           pos="ncmsn1"
+                           lemma="Klementjevs"
+                           msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                           join="right">Klementjevs</w>
+                     </name>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.23"
+                         pos="zc"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.24"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.25"
+                        pos="vmnpdmsnpsnpn"
+                        lemma="adresēt"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">adresēts</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.26"
+                        pos="ncfsg5"
+                        lemma="satiksme"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">satiksmes</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.27"
+                        pos="ncmsd1"
+                        lemma="ministrs"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing">ministram</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.28"
+                        pos="npmsd2"
+                        lemma="Tālis"
+                        msd="UPosTag=PROPN|Case=Dat|Gender=Masc|Number=Sing">Tālim</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.29"
+                        pos="ncmsd1"
+                        lemma="Linkaits"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing">Linkaitam</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.30"
+                         pos="zq"
+                         msd="UPosTag=PUNCT">“</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.31"
+                        pos="spsa"
+                        lemma="par"
+                        msd="UPosTag=ADP">Par</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.32"
+                        pos="mcsfpg"
+                        lemma="četri"
+                        msd="UPosTag=NUM|Case=Gen|Gender=Fem|Number=Plur|NumType=Card">četru</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.33"
+                        pos="ncfpg4"
+                        lemma="josla"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur">joslu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.34"
+                        pos="ncfv_g"
+                        lemma="ātrgaitas"
+                        msd="UPosTag=NOUN|Gender=Fem|Number=Coll">ātrgaitas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.35"
+                        pos="ncmpg1"
+                        lemma="autoceļš"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">autoceļu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.36"
+                        pos="ncmsg1"
+                        lemma="maršruts"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">maršruta</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.37"
+                        pos="xx"
+                        lemma="E67"
+                        msd="UPosTag=SYM">E67</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.38"
+                        pos="ncmsg1"
+                        lemma="posms"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing">posma</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.39"
+                        pos="ncfsa5"
+                        lemma="izpēte"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing">izpēti</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.40"
+                        pos="cc"
+                        lemma="un"
+                        msd="UPosTag=CCONJ">un</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.41"
+                        pos="ncfsa4"
+                        lemma="realizācija"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing"
+                        join="right">realizāciju</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.42"
+                         pos="zq"
+                         msd="UPosTag=PUNCT"
+                         join="right">”</pc>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.43"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.2"/>
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.25 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.4"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.5"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.6"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.8"/>
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.10"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.12 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.11"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.12"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.12 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.13"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.15 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.14"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.15"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.16"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.17"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.18"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.18 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.19"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.21 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.20"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.9 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.21"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.21 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.22"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.23"/>
+                        <link ana="ud-syn:aux_pass"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.25 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.24"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.25"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.27 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.26"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.28 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.27"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.25 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.28"/>
+                        <link ana="ud-syn:flat_name"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.28 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.29"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.39 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.30"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.39 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.31"/>
+                        <link ana="ud-syn:compound"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.33 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.32"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.36 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.33"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.36 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.34"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.36 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.35"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.38 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.36"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.38 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.37"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.39 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.38"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.28 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.39"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.41 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.40"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.39 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.41"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.28 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.42"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.25 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.1.43"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.1"
+                        pos="ncmsn1"
+                        lemma="jautājums"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing">Jautājums</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.2"
+                        pos="vanifi130an"
+                        lemma="tikt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act">tiks</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.3"
+                        pos="vmnpdmsnpsnpn"
+                        lemma="nodot"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part">nodots</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.4"
+                        pos="ncfsg5"
+                        lemma="satiksme"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">satiksmes</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.5"
+                        pos="ncmsd1"
+                        lemma="ministrs"
+                        msd="UPosTag=NOUN|Case=Dat|Gender=Masc|Number=Sing"
+                        join="right">ministram</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.6"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj_pass"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.2"/>
+                        <link ana="ud-syn:xcomp"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.3"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.5 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.4"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.5"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.2.6"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.1"
+                        pos="i"
+                        lemma="paldies"
+                        msd="UPosTag=INTJ"
+                        join="right">Paldies</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.2"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.1"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.1 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.3.2"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.1"
+                        pos="r0_"
+                        lemma="vēl"
+                        msd="UPosTag=ADV">Vēl</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.2"
+                        pos="ncmpg1"
+                        lemma="deputāts"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur">deputātu</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.3"
+                        pos="ncfsg5"
+                        lemma="klātbūtne"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">klātbūtnes</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.4"
+                        pos="ncfsn4"
+                        lemma="reģistrācija"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing"
+                        join="right">reģistrācija</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.5"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:orphan"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.4 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.1"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.2"/>
+                        <link ana="ud-syn:nmod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.4 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.3"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.4 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.4.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.1"
+                        pos="pd3fsnn"
+                        lemma="tā"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem">Tā</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.2"
+                        pos="vcnipii30an"
+                        lemma="būt"
+                        msd="UPosTag=AUX|Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act">ir</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.3"
+                        pos="vmypdfsnasnpn"
+                        lemma="noslēgties"
+                        msd="UPosTag=VERB|Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Part"
+                        join="right">noslēgusies</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.4"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.1"/>
+                        <link ana="ud-syn:discourse"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.3 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.5.4"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.1"
+                        pos="q"
+                        lemma="Paldies"
+                        msd="UPosTag=PART">Paldies</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.2"
+                        pos="spsa"
+                        lemma="par"
+                        msd="UPosTag=ADP">par</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.3"
+                        pos="ncfsg4"
+                        lemma="šodiena"
+                        msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing">šodienas</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.4"
+                        pos="ncmsa1"
+                        lemma="darbs"
+                        msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Sing"
+                        join="right">darbu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.5"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.1"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.4 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.2"/>
+                        <link ana="ud-syn:amod"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.4 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.3"/>
+                        <link ana="ud-syn:iobj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.1 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.4"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.1 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.6.5"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7">
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.1"
+                        pos="vmnm0i32san"
+                        lemma="sēdēt"
+                        msd="UPosTag=VERB|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin|Voice=Act">Sēdi</w>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.2"
+                        pos="vmnist11san"
+                        lemma="slēgt"
+                        msd="UPosTag=VERB|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act"
+                        join="right">slēdzu</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.3"
+                         pos="zs"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.7.3"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8">
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.1"
+                         pos="zb"
+                         msd="UPosTag=PUNCT">(</pc>
+                     <w xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.2"
+                        pos="ncmsn1"
+                        lemma="pārtraukums"
+                        msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing"
+                        join="right">Pārtraukums</w>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.3"
+                         pos="zs"
+                         msd="UPosTag=PUNCT"
+                         join="right">.</pc>
+                     <pc xml:id="ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.4"
+                         pos="zb"
+                         msd="UPosTag=PUNCT">)</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.1"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.2"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.3"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.2 #ParlaMint-LV_2021-02-11-PT13-2193-U69-P1.8.4"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
