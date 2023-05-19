@@ -183,8 +183,8 @@
           <xsl:variable name="elem-name" select="."/>
           <xsl:element name="tagUsage">
             <xsl:attribute name="gi" select="$elem-name"/>
-            <xsl:attribute name="occurs" select="$context-node/document(tei:url-orig)/
-                                    count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name])"/>
+            <xsl:attribute name="occurs" select="number($context-node/document(tei:url-orig)/
+                                    count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name]))"/>
           </xsl:element>
         </xsl:for-each>
       </item>
@@ -682,7 +682,7 @@
             <xsl:variable name="elem-name" select="."/>
             <xsl:element name="tagUsage">
               <xsl:attribute name="gi" select="$elem-name"/>
-              <xsl:attribute name="occurs" select="sum($tagUsages//*[@gi=$elem-name]/@occurs)"/>
+              <xsl:attribute name="occurs" select="number(sum($tagUsages//*[@gi=$elem-name]/@occurs))"/>
             </xsl:element>
           </xsl:for-each>
          </xsl:with-param>
