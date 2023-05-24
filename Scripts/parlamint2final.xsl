@@ -405,12 +405,24 @@
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:apply-templates select="./tei:editorialDecl"/>
+
       <xsl:call-template name="add-tagsDecl">
         <xsl:with-param name="tagUsages" select="$tagUsages"/>
       </xsl:call-template>
+      
+      <xsl:apply-templates select="./tei:classDecl"/>
+      <xsl:apply-templates select="./tei:listPrefixDef"/>
+      <xsl:apply-templates select="./tei:appInfo"/>
     </xsl:copy>
   </xsl:template>
 
+  <!-- Remove empty notes -->
+  <xsl:template mode="comp" match="tei:note[not(normalize-space(.))]">
+    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+                         ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+      
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
@@ -781,7 +793,7 @@
     <xsl:element name="tagsDecl">
       <xsl:element name="namespace">
         <xsl:attribute name="name">http://www.tei-c.org/ns/1.0</xsl:attribute>
-        <xsl:for-each select="distinct-values(($tagUsages//@gi,$context//@gi))">
+        <xsl:for-each select="distinct-values(($tagUsages//@gi, $context//@gi))">
           <xsl:sort select="."/>
           <xsl:variable name="elem-name" select="."/>
           <xsl:variable name="new" select="$tagUsages//*:tagUsage[@gi=$elem-name]"/>
@@ -789,7 +801,7 @@
           <xsl:choose>
             <xsl:when test="$new and not($old)">
               <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
-                               ': addinf ',$elem-name,' tagUsage ', $new/@occurs)"/>
+                               ': adding ',$elem-name,' tagUsage ', $new/@occurs)"/>
             </xsl:when>
             <xsl:when test="not($new) and $old">
               <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
@@ -797,14 +809,19 @@
             </xsl:when>
             <xsl:when test="not($new/@occurs = $old/@occurs)">
               <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
-                               ': replacing ',$elem-name,' tagUsage ', $old/@occurs, ' with ', $new/@occurs)"/>
+                               ': replacing ',$elem-name,' tagUsage ', $old/@occurs, ' with ', 
+			       format-number($new/@occurs, '#'))"/>
             </xsl:when>
             <xsl:when test="$new/@occurs = $old/@occurs">
-              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
-                               ': preserving ',$elem-name,' tagUsage ', $new/@occurs)"/>
+              <!--xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': preserving ',$elem-name,' tagUsage ', $new/@occurs)"/-->
             </xsl:when>
           </xsl:choose>
-          <xsl:copy-of copy-namespaces="no" select="$new"/>
+	  <xsl:if test="$new">
+	    <tagUsage gi="{$new/@gi}">
+	      <xsl:attribute name="occurs" select="format-number($new/@occurs, '#')"/>
+	    </tagUsage>
+	  </xsl:if>
         </xsl:for-each>
       </xsl:element>
     </xsl:element>
