@@ -419,7 +419,7 @@
 
   <!-- Remove empty notes -->
   <xsl:template mode="comp" match="tei:note[not(normalize-space(.))]">
-    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
       
