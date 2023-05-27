@@ -118,6 +118,12 @@
         <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
         <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
       </classDecl>
+      <listPrefixDef>
+        <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
+          <p xml:lang="ro">URI-urile private cu acest prefix fac referință la elementele care le dau numele. În acest document, acestea sunt pur și simplu referințe locale la categoriile taxonomice UD-SYN din antetul TEI rădăcină al corpusului.</p>
+          <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+        </prefixDef>
+      </listPrefixDef>
     </encodingDesc>
     <profileDesc>
       <settingDesc>
