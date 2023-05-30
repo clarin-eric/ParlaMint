@@ -1,12 +1,17 @@
 .DEFAULT_GOAL := help
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS UA
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
+
+LANG-CODE-LIST =
+
+TAXONOMIES-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES = $(addsuffix .xml, $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-INTERF)))
 ##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
 DATADIR = Data
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
@@ -75,6 +80,21 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Serbia' PARLIAMENT-CODE='RS' LANG-LIST='sr (Serbian)'
 
 
+## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
+#### parameter LANG-CODE-LIST can contain space separated list of languages
+initTaxonomies-XX = $(addprefix initTaxonomies-, $(PARLIAMENTS))
+$(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMIES))
+	cp ${DATADIR}/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/
+
+# initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(foreach Y,$(TAXONOMIES), initTaxonomy-$X-$Y))
+initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES) ) )
+$(initTaxonomy-XX-tt): initTaxonomy-%:
+	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
+	@${s} langs="$(LANG-CODE-LIST)" -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	  ${DATADIR}/Taxonomies/`echo -n '$*' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*' | sed 's/^.*--//'`
+
+
 ###### Validate with Relax NG schema
 val-schema-XX = $(addprefix val-schema-, $(PARLIAMENTS))
 val-schema-tei-XX = $(addprefix val-schema-tei-, $(PARLIAMENTS))
@@ -116,14 +136,14 @@ $(val-schema-ParlaCLARIN-XX): val-schema-ParlaCLARIN-%: val-schema-tei-ParlaCLAR
 
 $(val-schema-tei-ParlaMint-XX): val-schema-tei-ParlaMint-%: %
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | xargs ${vrt}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | grep -v '.ana.' | xargs ${vch_taxonomy}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 $(val-schema-ana-ParlaMint-XX): val-schema-ana-ParlaMint-%: %
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml" | xargs ${vra}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | xargs ${vch_taxonomy}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
@@ -238,7 +258,7 @@ text: $(text-XX)
 ## text-XX ## convert tei files to text
 $(text-XX): text-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 
@@ -249,7 +269,7 @@ meta: $(meta-XX)
 ## meta-XX ## ...
 $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
 
@@ -585,55 +605,12 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 .update_DATA_XX_REP:
 	git -C ${DATA_XX_REP} pull --all
 
-
 ##!create-UD-SYN-taxonomy##
 create-taxonomy-UD-SYN:
 	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
 	git -C Scripts/UD-docs checkout pages-source
 	git -C Scripts/UD-docs pull
 	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
-
-
-######################Generating and ingesting TSV added metadata
-
-## Generate TSV files for party information on the basis of the corpus root files.
-generate-parties:
-	$s path=../${DATADIR} outDir=Data/Metadata/Parties -xsl:Scripts/parties-tei2tsv.xsl \
-	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
-
-## Insert political orientation of parties from TSV file into a root file.
-insert-orientation-test-all:
-	make insert-orientation-test OC=BE DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=BG DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=CZ DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=DK DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=ES DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=FR DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=GB DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IS DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=LT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=LV DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=NL DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=PL DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=SI DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=TR DATADIR=../ParlaMint-v2tov3/Data
-
-OC = DK
-insert-orientation-test-new:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}-listOrg.xml > Scripts/tmp/ParlaMint-${OC}-listOrg.xml
-insert-orientation-test:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-insert-orientation-test-val:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-	#-diff -b ${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml Scripts/tmp/ParlaMint-${OC}.xml
-	#${pc} Scripts/tmp/ParlaMint-${OC}.xml
-	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
-	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
 
 ######################VARIABLES
 s = java $(JM) -jar /usr/share/java/saxon.jar

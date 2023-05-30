@@ -1,9 +1,4 @@
-## Edited, still problems: RS BA
-## Not yet edited: 
-## Edited, problems because of old corpus: LV LT PL ES
-## Edited, OK: BE HR
-## Corpus already contains ministers: AT BG CZ DK GR HU IS IT NL NO PT SE SI TR
-MC = BA
+MC = PL
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
 V3  = /project/corpora/Parla/ParlaMint/V3/Master
@@ -26,7 +21,9 @@ PER = ParlaMint_speakers-${MC}.tsv
 gen-persons-v2:
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${IN2} > ${PER}
 gen-persons-v3:
+	#mv ${PER} ${PER}.v2
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${IN3} > ${PER}
+	#diff ${PER} ${PER}.v2
 
 
 ## Insert minister affiliations from TSV file into a testing root file.

@@ -41,13 +41,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>1.0</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="493" xml:lang="pl">493 wypowiedzi</measure>
-            <measure unit="speeches" quantity="493" xml:lang="en">493 speeches</measure>
-            <measure unit="words" quantity="64901" xml:lang="pl">64 901 słów</measure>
-            <measure unit="words" quantity="64901" xml:lang="en">64,901 words</measure>
+            <measure unit="speeches" quantity="228326" xml:lang="pl">228.326 wypowiedzi</measure>
+            <measure unit="speeches" quantity="228326" xml:lang="en">228,326 speeches</measure>
+            <measure unit="words" quantity="36064778" xml:lang="pl">36.064.778 słów</measure>
+            <measure unit="words" quantity="36064778" xml:lang="en">36,064,778 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -55,7 +55,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="handle">http://hdl.handle.net/11356/1345</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>
@@ -63,14 +63,14 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-03-22">2023-03-22</date>
+            <date when="2023-04-27">2023-04-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
                <title type="main" xml:lang="en">Minutes of the Sejm of the Republic of Poland</title>
                <publisher>Kancelaria Sejmu Rzeczypospolitej Polskiej</publisher>
-               <idno type="URI">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
+               <idno type="URI" subtype="parliament">http://www.sejm.gov.pl/Sejm9.nsf/page.xsp/archiwum</idno>
                <date from="2015-11-12" to="2022-06-30">12.11.2015 - 30.06.2022</date>
             </bibl>
             <bibl>
@@ -88,7 +88,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -109,335 +109,23 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="note" occurs="501"/>
-               <tagUsage gi="u" occurs="493"/>
-               <tagUsage gi="seg" occurs="2008"/>
-               <tagUsage gi="vocal" occurs="239"/>
-               <tagUsage gi="desc" occurs="588"/>
-               <tagUsage gi="kinesic" occurs="224"/>
+               <tagUsage gi="body" occurs="686"/>
+               <tagUsage gi="desc" occurs="250002"/>
+               <tagUsage gi="div" occurs="686"/>
+               <tagUsage gi="gap" occurs="1606"/>
+               <tagUsage gi="head" occurs="686"/>
+               <tagUsage gi="kinesic" occurs="94217"/>
+               <tagUsage gi="note" occurs="241406"/>
+               <tagUsage gi="seg" occurs="1097269"/>
+               <tagUsage gi="text" occurs="686"/>
+               <tagUsage gi="u" occurs="228326"/>
+               <tagUsage gi="vocal" occurs="106762"/>
             </namespace>
          </tagsDecl>
          <classDecl>
-            <taxonomy xml:id="ParlaMint-taxonomy-parla.legislature" xml:lang="pl">
-               <desc xml:lang="pl">
-                  <term>Władza ustawodawcza</term>
-               </desc>
-               <desc xml:lang="en">
-                  <term>Legislature</term>
-               </desc>
-               <category xml:id="parla.geo-political">
-                  <catDesc xml:lang="pl">
-                     <term>Jednostki administracyjne lub geopolityczne</term>
-                  </catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Geo-political or administrative units</term>
-                  </catDesc>
-                  <category xml:id="parla.supranational">
-                     <catDesc xml:lang="pl">
-                        <term>Międzynarodowa władza ustawodawcza</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>Supranational legislature</term>
-                     </catDesc>
-                  </category>
-                  <category xml:id="parla.national">
-                     <catDesc xml:lang="pl">
-                        <term>Krajowa władza ustawodawcza</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>National legislature</term>
-                     </catDesc>
-                  </category>
-                  <category xml:id="parla.regional">
-                     <catDesc xml:lang="pl">
-                        <term>Regionalna władza ustawodawcza</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>Regional legislature</term>
-                     </catDesc>
-                  </category>
-                  <category xml:id="parla.local">
-                     <catDesc xml:lang="pl">
-                        <term>Lokalna władza ustawodawcza</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>Local legislature</term>
-                     </catDesc>
-                  </category>
-               </category>
-               <category xml:id="parla.organization">
-                  <catDesc xml:lang="pl">
-                     <term>Organizacja</term>
-                  </catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Organization</term>
-                  </catDesc>
-                  <category xml:id="parla.chambers">
-                     <catDesc xml:lang="pl">
-                        <term>Izby</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>Chambers</term>
-                     </catDesc>
-                     <category xml:id="parla.uni">
-                        <catDesc xml:lang="pl">
-                           <term>Unikameralizm</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Unicameralism</term>
-                        </catDesc>
-                     </category>
-                     <category xml:id="parla.bi">
-                        <catDesc xml:lang="pl">
-                           <term>Bikameralizm</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Bicameralism</term>
-                        </catDesc>
-                        <category xml:id="parla.upper">
-                           <catDesc xml:lang="pl">
-                              <term>Senat</term>
-                           </catDesc>
-                           <catDesc xml:lang="en">
-                              <term>Upper house</term>
-                           </catDesc>
-                        </category>
-                        <category xml:id="parla.lower">
-                           <catDesc xml:lang="pl">
-                              <term>Sejm</term>
-                           </catDesc>
-                           <catDesc xml:lang="en">
-                              <term>Lower house</term>
-                           </catDesc>
-                        </category>
-                     </category>
-                     <category xml:id="parla.multi">
-                        <catDesc xml:lang="pl">
-                           <term>Multikameralizm</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Multicameralism</term>
-                        </catDesc>
-                        <category xml:id="parla.chamber">
-                           <catDesc xml:lang="pl">
-                              <term>Izba</term>
-                           </catDesc>
-                           <catDesc xml:lang="en">
-                              <term>Chamber</term>
-                           </catDesc>
-                        </category>
-                     </category>
-                  </category>
-                  <category xml:id="parla.committee">
-                     <catDesc xml:lang="pl">
-                        <term>Komisja</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>Committee</term>
-                     </catDesc>
-                     <category xml:id="parla.committee.standing">
-                        <catDesc xml:lang="pl">
-                           <term>Komisja stała</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Standing committee</term>
-                        </catDesc>
-                     </category>
-                     <category xml:id="parla.committee.special">
-                        <catDesc xml:lang="pl">
-                           <term>Komisja specjalna</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Special committee</term>
-                        </catDesc>
-                     </category>
-                     <category xml:id="parla.committee.inquiry">
-                        <catDesc xml:lang="pl">
-                           <term>Komisja śledcza</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Committee of inquiry</term>
-                        </catDesc>
-                     </category>
-                  </category>
-               </category>
-               <category xml:id="parla.term">
-                  <catDesc xml:lang="pl">
-                     <term>Kadencja</term>: okres pomiędzy wyborami powszechnymi
-						</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
-                  <category xml:id="parla.session">
-                     <catDesc xml:lang="pl">
-                        <term>Posiedzenie</term>
-                     </catDesc>
-                     <catDesc xml:lang="en">
-                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
-                     <category xml:id="parla.meeting">
-                        <catDesc xml:lang="pl">
-                           <term>Dzień</term>
-                        </catDesc>
-                        <catDesc xml:lang="en">
-                           <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
-                        <category xml:id="parla.meeting-types">
-                           <catDesc xml:lang="pl">
-                              <term>Typy posiedzeń</term>
-                           </catDesc>
-                           <catDesc xml:lang="en">
-                              <term>Types of meetings</term>
-                           </catDesc>
-                           <category xml:id="parla.meeting.regular">
-                              <catDesc xml:lang="pl">
-                                 <term>Posiedzenie plenarne</term>
-                              </catDesc>
-                              <catDesc xml:lang="en">
-                                 <term>Regular meeting</term>
-                              </catDesc>
-                           </category>
-                           <category xml:id="parla.meeting.special">
-                              <catDesc xml:lang="pl">
-                                 <term>Posiedzenie specjalne</term>
-                              </catDesc>
-                              <catDesc xml:lang="en">
-                                 <term>Special meeting</term>
-                              </catDesc>
-                              <category xml:id="parla.meeting.extraordinary">
-                                 <catDesc xml:lang="pl">
-                                    <term>Posiedzenie nadzwyczajne</term>
-                                 </catDesc>
-                                 <catDesc xml:lang="en">
-                                    <term>Extraordinary meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.urgent">
-                                 <catDesc xml:lang="pl">
-                                    <term>Posiedzenie pilne</term>
-                                 </catDesc>
-                                 <catDesc xml:lang="en">
-                                    <term>Urgent meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.ceremonial">
-                                 <catDesc xml:lang="pl">
-                                    <term>Posiedzenie uroczyste</term>
-                                 </catDesc>
-                                 <catDesc xml:lang="en">
-                                    <term>Ceremonial meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.commemorative">
-                                 <catDesc xml:lang="pl">
-                                    <term>Posiedzenie okolicznościowe</term>
-                                 </catDesc>
-                                 <catDesc xml:lang="en">
-                                    <term>Commemorative meeting</term>
-                                 </catDesc>
-                              </category>
-                              <category xml:id="parla.meeting.opinions">
-                                 <catDesc xml:lang="pl">
-                                    <term>Publiczna prezentacja opinii</term>
-                                 </catDesc>
-                                 <catDesc xml:lang="en">
-                                    <term>Public presentation of opinions</term>
-                                 </catDesc>
-                              </category>
-                           </category>
-                           <category xml:id="parla.meeting.continued">
-                              <catDesc xml:lang="pl">
-                                 <term>Kontynuacja posiedzenia</term>
-                              </catDesc>
-                              <catDesc xml:lang="en">
-                                 <term>Continued meeting</term>
-                              </catDesc>
-                           </category>
-                           <category xml:id="parla.meeting.public">
-                              <catDesc xml:lang="pl">
-                                 <term>Posiedzenie wykonawcze</term>
-                              </catDesc>
-                              <catDesc xml:lang="en">
-                                 <term>Public meeting</term>
-                              </catDesc>
-                           </category>
-                           <category xml:id="parla.meeting.executive">
-                              <catDesc xml:lang="pl">
-                                 <term>Posiedzenie wykonawcze</term>
-                              </catDesc>
-                              <catDesc xml:lang="en">
-                                 <term>Executive meeting</term>
-                              </catDesc>
-                           </category>
-                        </category>
-                        <category xml:id="parla.sitting">
-                           <catDesc xml:lang="pl">
-                              <term>Dzień posiedzenia</term>
-                           </catDesc>
-                           <catDesc xml:lang="en">
-                              <term>Sitting</term>: sitting day</catDesc>
-                        </category>
-                     </category>
-                  </category>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="speaker_types">
-               <desc xml:lang="pl">
-                  <term>Typy mówców</term>
-               </desc>
-               <desc xml:lang="en">
-                  <term>Types of speakers</term>
-               </desc>
-               <category xml:id="chair">
-                  <catDesc xml:lang="pl">
-                     <term>Przewodniczący</term>: przewodniczący posiedzenia
-						</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Chairperson</term>: chairman of a meeting
-						</catDesc>
-               </category>
-               <category xml:id="regular">
-                  <catDesc xml:lang="pl">
-                     <term>Parlamentarzysta</term>: zwykły uczestnik posiedzenia
-						</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Regular</term>: a regular speaker at a meeting
-						</catDesc>
-               </category>
-               <category xml:id="guest">
-                  <catDesc xml:lang="pl">
-                     <term>Gość</term>: zewnętrzny uczestnik posiedzenia
-						</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Guest</term>: a guest speaker at a meeting
-						</catDesc>
-               </category>
-            </taxonomy>
-            <taxonomy xml:id="subcorpus">
-               <desc xml:lang="pl">
-                  <term>Podkorpusy</term>
-               </desc>
-               <desc xml:lang="en">
-                  <term>Subcorpora</term>
-               </desc>
-               <category xml:id="reference">
-                  <catDesc xml:lang="pl">
-                     <term>Referencyjny</term>: podkorpus referencyjny, do 2019-10-31
-						</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>Reference</term>: reference subcorpus, until 2019-10-31
-						</catDesc>
-               </category>
-               <category xml:id="covid">
-                  <catDesc xml:lang="pl">
-                     <term>COVID</term>: podkorpus COVID, od 2019-11-01
-						</catDesc>
-                  <catDesc xml:lang="en">
-                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards
-						</catDesc>
-               </category>
-            </taxonomy>
+            <xi:include href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include href="ParlaMint-taxonomy-subcorpus.xml"/>
          </classDecl>
       </encodingDesc>
       <profileDesc>
@@ -446,9 +134,13 @@
                <name type="address">ul. Wiejska 4/6/8</name>
                <name type="city">Warszawa</name>
                <name type="country" key="PL">Poland</name>
-               <date from="2015-11-06" to="2020-08-18">12.11.2015 - 14.8.2020</date>
+               <date from="2015-11-06" to="2022-06-30">12.11.2015 - 30.6.2022</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.lower #parla.upper"/>
+         </textClass>
          <particDesc>
             <xi:include href="ParlaMint-PL-listOrg.xml"/>
             <xi:include href="ParlaMint-PL-listPerson.xml"/>
@@ -461,12 +153,15 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-03-22">
-            <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-03-14">
-            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.
-			</change>
+         <change when="2023-04-27">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-03-28">
+            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
+         <change when="2023-04-27">
+            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
       </revisionDesc>
    </teiHeader>
-   <xi:include href="ParlaMint-PL_2015-12-16-sejm-05-2.xml"/>
+   <xi:include href="ParlaMint-PL_2017-07-20-sejm-46-3.xml"/>
+   <xi:include href="ParlaMint-PL_2020-01-17-senat-03-3.xml"/>
+   <xi:include href="ParlaMint-PL_2022-06-23-sejm-57-2.xml"/>
 </teiCorpus>
