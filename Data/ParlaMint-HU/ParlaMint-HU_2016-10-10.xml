@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="hu"
+     ana="#parla.sitting #reference"
+     xml:id="ParlaMint-HU_2016-10-10">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016-10-10 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU, 2016-10-10 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hu">A Magyar Országgyűlés Korpusza ParlaMint-HU, 2016. őszi ülésszak 65. ülés, 1. ülésnap, 2016-10-10 [ParlaMint]</title>
+            <title type="sub" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU, legislative session of 2016 autumn, meeting 65, day 1, 2016-10-10 [ParlaMint]</title>
+            <meeting corresp="#OGY" n="7" ana="#parla.uni #parla.term #OGY.7">7. ciklus</meeting>
+            <meeting corresp="#OGY"
+                     n="65"
+                     ana="#parla.uni #parla.meeting.regular #OGY.7">65. ülés</meeting>
+            <meeting corresp="#OGY" n="1" ana="#parla.uni #parla.sitting #OGY.7">1. ülésnap</meeting>
+            <respStmt>
+               <persName>Noémi Ligeti-Nagy</persName>
+               <resp xml:lang="hu">ParlaMint TEI XML korpuszépítés</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Réka Dodé</persName>
+               <persName>Kinga Jelencsik-Mátyus</persName>
+               <persName>Zsófia Varga</persName>
+               <resp xml:lang="hu">Metaadatok gyűjtése és rendszerezése</resp>
+               <resp xml:lang="en">Metadata collection and organizing</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN Research Infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="hu">Nyelvtudományi Kutatóközpont</orgName>
+               <orgName xml:lang="en">Hungarian Research Centre for Linguistics</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure xml:lang="hu" quantity="319" unit="speeches">319 beszéd</measure>
+            <measure xml:lang="en" quantity="319" unit="speeches">319 speeches</measure>
+            <measure xml:lang="hu" quantity="53548" unit="words">53.548 szó</measure>
+            <measure xml:lang="en" quantity="53548" unit="words">53,548 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="hu">CLARIN Kutatási Infrastruktúra</orgName>
+               <orgName xml:lang="en">CLARIN research infrastucture</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="hu">Ez a munka az alábbi licensz alapján használható: <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-04-26">2023-04-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="hu">A Magyar Országgyűlés ülései</title>
+               <title type="main" xml:lang="en">Minutes of the National Assembly of Hungary</title>
+               <idno type="URI" subtype="parliament">https://www.parlament.hu/</idno>
+               <date when="2016-10-10">2016.10.10</date>
+            </bibl>
+            <recordingStmt>
+               <recording type="video">
+                  <media xml:id="video-2016-10-10"
+                         mimeType="video/mp4"
+                         source="https://sgis.parlament.hu/archive/playseq.php?date1=20161010&amp;time1=125033&amp;offset1=001129.134&amp;date2=20161010&amp;time2=125033&amp;offset2=074410.76&amp;type=real"
+                         url="https://sgis.parlament.hu/archive/playseq.php?date1=20161010&amp;time1=125033&amp;offset1=001129.134&amp;date2=20161010&amp;time2=125033&amp;offset2=074410.76&amp;type=real"/>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="hu">A <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+                     projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.</p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="0"/>
+               <tagUsage gi="u" occurs="319"/>
+               <tagUsage gi="seg" occurs="948"/>
+               <tagUsage gi="note" occurs="381"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="vocal" occurs="160"/>
+               <tagUsage gi="incident" occurs="7"/>
+               <tagUsage gi="kinesic" occurs="141"/>
+               <tagUsage gi="desc" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Kossuth tér 1-3.</name>
+               <name type="city">Budapest</name>
+               <name type="country" key="HU">Hungary</name>
+               <date when="2016-10-10"/>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-04-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <note type="speaker">ELNÖK</note>
+            <u xml:id="u2016-10-10-0" who="#LatorcaiJanos" ana="#chair">
+               <vocal type="interruption">
+                  <desc>Dr. Szél Bernadett, dr. Hadházy Ákos és Schmuck Erzsébet Népszabadságot oszt az ülésteremben a képviselőknek. Kónya Péter pólóján és laptopján a következő felirat szerepel: „Népszabadság Diktatúra miatt felfüggesztve”. Az MSZP kép­viselői gyászszalagot viselnek. A teremben lé­vők felállnak, és ezzel köszöntik a választópolgárok közösségét. Amikor az ülést vezető elnök helyet foglal, a teremben lévők is leülnek.</desc>
+               </vocal>
+               <seg xml:id="u2016-10-10-0.1">Tisztelt Országgyűlés! Kedves Képviselőtársaim! Nagy szeretettel köszöntöm valamennyiüket.</seg>
+               <seg xml:id="u2016-10-10-0.2">Az Országgyűlés őszi ülésszakának 8. ülésnapját megnyitom. Tájékoztatom önöket, hogy az ülés vezetésében Szűcs Lajos és Hiszékeny Dezső jegyző urak lesznek a segítségemre. Köszöntöm a kedves vendégeinket is, és mindenkit, aki figyelemmel kíséri a munkánkat.</seg>
+               <seg xml:id="u2016-10-10-0.3">Tisztelt Országgyűlés! Napirend előtti felszólalásra jelentkezett: „Visszatérés a való világba” címmel az MSZP képviselőcsoportjából Tóth Bertalan frakcióvezető úr. Parancsoljon, frakcióvezető úr!</seg>
+            </u>
+            <note type="speaker">DR. TÓTH BERTALAN (MSZP)</note>
+            <u xml:id="u2016-10-10-1" who="#TothBertalan" ana="#regular">
+               <seg xml:id="u2016-10-10-1.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! A kormány és a Fidesz szemmel láthatóan még mindig nem érti, hogy mi történt október 2-án. Segítek: az emberek többségének elege lett a Fidesz gyűlöletkeltéséből, átláttak a szitán, és nemet mondtak a Fidesz és a Jobbik politikájára.</seg>
+               <seg xml:id="u2016-10-10-1.2">Önöknek tudomásul kellene venniük, hogy sokan voltak, de nem elegen. Tudomásul kellene venniük, hogy egy érvénytelen népszavazásból nem következik alaptörvény-módosítás. Egy érvénytelen népszavazás hasonló ahhoz - az interneten láttam egy ilyen hasonlatot -, mint amikor egy esküvőn az egyik fél jelenik meg. Mert az ő igenje hiába a jelen lévők száz százaléka, nem eredményez házasságot, se politikai, se közjogi, se semmilyen szempontból, a távolmaradás pedig ebben az esetben sem jelenti azt, hogy a másik fél átadta volna a döntés jogát. És elég nagy a baj, ha a násznép ezért ünneplésbe kezd.</seg>
+               <seg xml:id="u2016-10-10-1.3">Tisztelt Képviselőtársaim! Ideje befejezniük a látványpolitizálást és a pótcselekvéseket. Egy alaptörvény-módosítás pont olyan értelmetlen a menekültválság kezelésében, mint egy népszavazás. Navracsics Tibor, az önök volt frakcióvezetője megerősítette, hogy eddig sem volt csoportos betelepülés, eddig is a tagállamok döntöttek, ellenükre nem lehetett betelepíteni senkit a területekre, és nem is lehet. Mivel érvénytelen népszavazásból nem következik alaptörvény-módosítás, ezért itt bejelentem, hogy az MSZP frakciója nem vesz részt az alaptörvény-módosítás folyamatában, sem az ötpárti egyeztetésen, sem a vitában, sem pedig a szavazáson.</seg>
+               <seg xml:id="u2016-10-10-1.4">Tisztelt Képviselőtársaim! Csalárd az alaptörvény-módosítás, mert az Alaptörvényben benne van a sajtószabadság is.</seg>
+               <kinesic>
+                  <desc>Az MSZP képviselői felmutatják a Népszabadságot.</desc>
+               </kinesic>
+               <seg xml:id="u2016-10-10-1.5">De áttételesen az Alaptörvény több helyen rögzíti, hogy nem szabad a közpénzt ellopni. A fideszes korrupciót nem lehet eltakarni sem alaptörvény-módosítással, sem úgy, ha elhallgattatnak egy újságot.</seg>
+               <seg xml:id="u2016-10-10-1.6">Önök a hétvégén újabb szöget vertek a sajtószabadság koporsójába.</seg>
+               <vocal type="interruption">
+                  <desc>Kunhalmi Ágnes: Szégyen!</desc>
+               </vocal>
+               <seg xml:id="u2016-10-10-1.7">Mert senkinek ne legyen illúziója: ahol a közszolgálati média a Fidesz pártszócsöve, ahol a közpénzből felhizlalt fideszes oligarchák felvásárolhatják a kormánytól független médiumokat, és az írásaik miatt bezárhatják, ahol munkájukat végző újságírókat tilthatnak ki a Parlamentből, ott sajtószabadságról nem beszélhetünk.</seg>
+               <vocal type="interruption">
+                  <desc>Közbeszólás az MSZP soraiból: Szégyen!</desc>
+               </vocal>
+               <seg xml:id="u2016-10-10-1.8">Tegnap az Origo, a vs.hu, a TV2, ma a Népszabadság - ki a következő?</seg>
+               <vocal type="interruption">
+                  <desc>Soltész Miklós: A Népszava!</desc>
+               </vocal>
+               <seg xml:id="u2016-10-10-1.9">Tisztelt Képviselőtársaim! A Fidesznek és a kormánynak el kell számolnia az értelmetlenül és feleslegesen elköltött 17 milliárd forintnyi közpénzzel. Ez a pénz hiányzik a hazai egészségügyből és oktatásból. Az elszámolást pedig egy országgyűlési eseti bizottságnak kell kivizsgálnia, erre a mai napon benyújtottunk egy javaslatot. Ideje visszatérni a hétköznapok politikájához, a napi gondokhoz és a Fidesz botrányos ügyeihez. Márpedig botrányos ügyekből nincs hiány, mert ne legyen kétségünk: Rogán Antal helikopterét Orbán Viktor repteti; Habony Árpád arcátlan meggazdagodását és kivagyiságát Orbán Viktor garantálja; a nem stróman gázszerelője példátlan karrierjét és vagyonosodását Orbán Viktor biztosítja.</seg>
+               <seg xml:id="u2016-10-10-1.10">Tisztelt Képviselőtársaim! Orbán Viktor kleptokráciájának megszüntetése érdekében kidolgoztuk az úgynevezett antikorrupciós javaslatcsomagunkat, melyet a héten véleményezésre megküldünk</seg>
+               <vocal type="interruption">
+                  <desc>Németh Szilárd István közbeszól.</desc>
+               </vocal>
+               <seg xml:id="u2016-10-10-1.11">a jogvédő és civil szervezeteknek. Szeretnénk, ha a javaslatok úgy kerülnének az Országgyűlés elé, hogy azok találkozzanak a jogvédő szervezetek szakmai álláspontjával is.</seg>
+               <seg xml:id="u2016-10-10-1.12">Tisztelt Országgyűlés! A fideszes pénzszivattyúval történő leszámolást követően olyan Magyarországot kívánunk építeni, ahol a törvények nem a korrupciót szolgálják, hanem rendszerszinten akadályozzák meg a közpénzek szétlopását; olyan Magyarországot, ahol a korrupciót elkövetőket zárják be, és nem az erről beszámoló újságokat. Jó, ha minden diktátor megtanulja: újságok betiltásával nem lehet elnyomni a szabadság hangját. Ez Orbán Viktornak és a Fidesznek nem fog sikerülni - ezért fogunk dolgozni. Köszönöm, hogy meghallgattak.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u xml:id="u2016-10-10-317" who="#AnderBalazs" ana="#regular">
+               <seg xml:id="u2016-10-10-317.1">Köszönöm a szót, elnök úr. Tisztelt Képviselőtársaim! Néhány órával ezelőtt egy szóbeli kérdés formájában a cigányútra ment integráció kapcsán a bentlakásos iskolák kérdését vetettem fel, amit kormánypárti oldalról teljesen kiforgattak, és valamiféle ördögtől való szélsőséges dolognak kívántak beállítani a válaszban.</seg>
+               <note type="time">20.30</note>
+               <seg xml:id="u2016-10-10-317.2">Holott ez egyáltalán nem így van. Csak néhány példával szeretném megvilágítani, hogy a bentlakásos iskoláknak igenis van létjogosultságuk. Gondoljunk csak a világ legjobb bentlakásos iskolájára, a svájci Alpok kellős közepén, tulajdonképpen minden településtől távol létesített Aiglon nevezetű magániskolára, ahol az éves tandíj mintegy 25 millió forint. A világ 60 országából várják ide a diákokat 9 és 18 éves kor között, és bizony-bizony a fegyelemre nagy hangsúlyt fektetnek az oktatás és a nevelés során. Vagy ott van India leghíresebb magániskolája, a Bishop Cotton School, egy 155 éves iskola az indiai Shimlában, ahol 1,2 millió forintnak megfelelő összeg az éves tandíj. Horribile dictu: a reggeli ébresztő fél hatkor van, kötelező beágyazni a diákoknak, és a fegyelmet, a rendet itt is nagyon fontos célnak tartják.</seg>
+               <seg xml:id="u2016-10-10-317.3">Vagy beszélhetnék az erdélyi ferencesek missziójáról. 1993 óta mintegy ötezer gyermeket fogadott be a dévai Szent Ferenc Alapítvány Böjte Csaba vezetésével. Jelen állás szerint is 82 településen több mint 2000 gyermeket gondoznak, ápolnak, vigyáznak rájuk, óvják őket. De említhetném a pécsi Gandhi Gimnáziumot is, ahol bizony a diákok 85 százaléka kollégista, és érettségi után az itteni diákoknak körülbelül a fele a felsőoktatásban tanul tovább. Be kell látnunk azt, hogy ha nem lenne ilyen formában megteremtve számukra a tanulás lehetősége, akkor ezektől a lehetőségektől elesnének.</seg>
+               <seg xml:id="u2016-10-10-317.4">Azt a kérdést is fel kell tenni, hogy mi a helyzet akkor, ha nem megfelelő a családi háttér, nincs megfelelő családi szocializáció. Nyilvánvalóan az államnak mindent meg kell tenni, hogy ezt korrigálja. Munkahelyeket kell létrehozni, megfelelően felkészült pedagógusokat kell odarakni az iskolába, és őket meg is kellene fizetni. Vagy éppen gondolhatunk a tanodák rendszerére, amit most kíván vagy készül kiírni a kormányzat azzal, hogy nagyon sok, nagyon jól működő tanodától megvonta az életmentő forrásokat. Viszont azt is meg kell említeni, hogy van egy olyan szint, amikor már mindez kevés. Kevés mindenféle ilyen állami beavatkozás és korrekció, legalábbis ezen a szinten, amikor a szülők egy olyan antiszociális szinten vannak és ezeket a mintákat adják tovább a gyermekeiknek, amikor a kívülállás kultúrájába helyezkedve tulajdonképpen egyfajta ellenséges törzsi mentalitást valósítanak meg, amikor igenis, hogy súlyosabb formában kell beavatkozni.</seg>
+               <seg xml:id="u2016-10-10-317.5">Ilyen hely például a Zita Speciális Gyermekotthon Kaposváron. A vér szerinti családjukban vagy éppen a gyermekvédelmi rendszerben olyan viselkedési sémákat elsajátító fiatalok számára hozták ezt létre, amely fiatalok bizony szemben állnak a társadalom vagy éppen a többségi kultúra, vagy mondjuk, az iskola értékeivel, és ezt ide is merték írni egyébként az alapító okiratukban. A probléma az, hogy ez az iskola, ez az intézmény három megye ilyenféle nehéz problémákkal küszködő fiataljainak kell hogy megoldást nyújtson, Somogy, Tolna és Baranya megyékről van szó, és mindössze 32 férőhellyel bír. Tehát ki kell mondani azt, hogy túl kevés, ráadásul túl későn kerülnek oda ezek a fiatalok az ott dolgozó pedagógusok véleménye szerint; 14-15-16 éves korukban ezekkel a gyerekekkel már vajmi keveset lehet kezdeni.</seg>
+               <seg xml:id="u2016-10-10-317.6">Hogy miért kevés ez a hely? Az oktatási hivatal számára 2014-ben készült jelentés szerint több mint 8 ezer magántanuló van Magyarországon. Ezeknek a magántanulóknak több mint 10 százaléka olyan, tehát majdnem ezer diák, akiket magatartási problémák miatt tanácsoltak el az iskolából. Sok esetben éppen azért, mert a szülő is partner ebben, és ellenségnek tekinti a tanárt, vagy pedig ő maga is azt mondja, hogy nem tud a saját gyermekével mit kezdeni. Csak abban az esetben, amikor három gyermek miatt 23 másiknak a tanítása válik lehetetlenné egy-egy osztályon belül, akkor szerintem teljesen jogos az a kérdés, hogy hol van a többi diák joga. Aki tönkreteszi a normális menetrendet, aki tönkreteszi a normális munkát és veszélyezteti a többiek fejlődését, azt igenis el kell távolítani, különben jön a spontán szegregáció, amit sajnos sok esetben tapasztalhatunk Magyarországon.</seg>
+               <seg xml:id="u2016-10-10-317.7">Nyilvánvaló egyébként, hogy a bentlakásos iskola nagyon forrásigényes dolog, nem lehet ez egy tömegintézmény, mert akkor elszabadul a „legyek ura” effektus. Nem célunk az, nekünk sem egyébként, hogy valamiféle prostituált- vagy bűnözőképzőket hozzunk ilyen formában létre.</seg>
+               <seg xml:id="u2016-10-10-317.8">A másik kérdés: honnét lenne forrás? Tisztelt kormánypárti urak, nem kellene ellopni az integrációs pénzeket. Ennyi az egész. Köszönöm a figyelmet.</seg>
+               <kinesic type="applause">
+                  <desc>Taps a Jobbik padsoraiból.</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">ELNÖK</note>
+            <u xml:id="u2016-10-10-318" who="#JakabIstvan" ana="#chair">
+               <seg xml:id="u2016-10-10-318.1">Köszönöm, képviselő úr. Tisztelt Országgyűlés! A napirend utáni felszólalások végére értünk. Megköszönöm munkájukat.</seg>
+               <seg xml:id="u2016-10-10-318.2">Az Országgyűlés reggel 9 órakor folytatja ülését. Az ülésnapot bezárom. Jó éjszakát!</seg>
+               <note type="time">Az ülésnap 20 óra 34 perckor ért véget.</note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
