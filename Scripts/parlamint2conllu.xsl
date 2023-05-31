@@ -270,8 +270,8 @@
     <xsl:variable name="link" select="$links//tei:link[matches(@target,concat(' #',$id,'$'))]"/>
     <xsl:variable name="head_id" select="substring-before($link/@target,' ')"/>
     <xsl:choose>
-      <xsl:when test="key('idr', $head_id)/name()= 's'">0</xsl:when>
-      <xsl:when test="key('idr', $head_id)[name()='pc' or name()='w']">
+      <xsl:when test="key('idr', $head_id)/local-name()= 's'">0</xsl:when>
+      <xsl:when test="key('idr', $head_id)[local-name()='pc' or local-name()='w']">
         <xsl:apply-templates mode="number" select="key('idr', $head_id)"/>
       </xsl:when>
       <xsl:otherwise>
