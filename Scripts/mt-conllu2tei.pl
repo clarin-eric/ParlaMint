@@ -49,7 +49,7 @@ foreach $yearDir (glob "$tmpTEI/*") {
 	$tmpFile1 = "$tmpDir/$fName.body.xml";
 	$tmpFile2 = "$tmpDir/$fName.note.xml";
 	$conllFile = "$conllDir/$year/$fName.conllu";
-	$conllFile =~ s|-en||;
+	$conllFile =~ s|-en_|_|;
 	die "Cant find ConLL-U file $conllFile\n" unless -e $conllFile;
 	$outFile = "$outDir/$year/$fName.ana.xml";
 	print STDERR "INFO: Processing $year/$fName\n";

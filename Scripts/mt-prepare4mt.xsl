@@ -149,7 +149,7 @@
   
   <xsl:template match="/">
     <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
-    <xsl:message>INFO: processing root </xsl:message>
+    <xsl:message>INFO: preparing root </xsl:message>
     <xsl:result-document href="{$outRoot}">
       <xsl:apply-templates>
 	<!-- Corresponding file in original language -->
@@ -159,7 +159,7 @@
     <!-- Process component files -->
     <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO: Processing ', @type, ' ', $this)"/>
+      <xsl:message select="concat('INFO: Preparing ', @type, ' ', $this)"/>
       <!-- We do not need the UD taxonomy -->
       <xsl:if test="not(contains(tei:xi-orig, 'UD-SYN'))">
 	<xsl:result-document href="{tei:url-new}">
