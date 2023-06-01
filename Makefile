@@ -262,9 +262,9 @@ $(text-XX): text-%: %
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
-## text ## create text version from TEI.ana files
+## text.ana ## create text version from TEI.ana files
 text.ana: $(text.ana-XX)
-## text-XX ## convert TEI.ana files to text
+## text.ana-XX ## convert TEI.ana files to text
 $(text.ana-XX): text.ana-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
@@ -392,6 +392,28 @@ $(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-te
 	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
 	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
 
+
+###### Useful conversions and scripts
+
+text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI files - each line contains one segment
+text.seg: $(text.seg-XX)
+## text-XX ## convert TEI files to text
+$(text.seg-XX): text.seg-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+
+text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI.ana files - each line contains one segment
+text.seg.ana: $(text.seg.ana-XX)
+## text.seg.ana-XX ## convert TEI.seg.ana files to text
+$(text.seg.ana-XX): text.seg.ana-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
 
 
 ######---------------

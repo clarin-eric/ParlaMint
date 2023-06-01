@@ -9,12 +9,15 @@
 
   <xsl:output method="text"/>
   
+  <!-- element correspond to one line -->
+  <xsl:param name="element">u</xsl:param>
+
   <xsl:template match="/">
     <!--xsl:message select="concat('INFO: converting ', tei:TEI/@xml:id, ' to text')"/-->
-    <xsl:apply-templates select="//tei:u"/>
+    <xsl:apply-templates select="//tei:*[local-name() = $element]"/>
   </xsl:template>
   
-  <xsl:template match="tei:u">
+  <xsl:template match="tei:*[local-name() = $element]">
     <xsl:variable name="text">
       <xsl:apply-templates/>
     </xsl:variable>
