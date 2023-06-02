@@ -36,7 +36,8 @@ $tmpTEI = "$tmpDir/ParlaMint-XX.tmp";
 mkdir $tmpTEI unless -d $tmpTEI;
 # In $tmpTEI/ make corpus with empty sentences
 `$saxon outDir=$tmpTEI -xsl:$scriptStripSents $inTEI`;
-mkdir $outDir unless -d $outDir;
+`mkdir -p $outDir` unless -d $outDir;
+`rm -r $outDir/*`;
 `cp $tmpTEI/*.xml $outDir`;
 
 foreach $yearDir (glob "$tmpTEI/*") {

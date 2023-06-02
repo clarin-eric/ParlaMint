@@ -169,6 +169,14 @@ sub conllu2tei {
         push @deps, "$link\t$n\t$role" #Only if we have a parse
             if $role ne '_';
     }
+    # If we still have elements left over
+    if (@toks) {
+	$element = shift @toks;
+	$tei .= "$element\n";
+    }
+    if ($ner_prev and $ner_prev ne 'O') {
+        push(@toks, '</name>')
+    }
     #Give IDs to tokens
     foreach my $id (@ids) {
 	$element = '';
@@ -180,14 +188,6 @@ sub conllu2tei {
 	}
 	$element =~ s| | xml:id="$id" |;
 	$tei .= "$element" if $element;
-    }
-    # If we still have elements left over
-    if (@toks) {
-	$element = shift @toks;
-	$tei .= "$element\n";
-    }
-    if ($ner_prev and $ner_prev ne 'O') {
-        push(@toks, '</name>')
     }
     if (@deps) {
         $tei .= "<linkGrp type=\"$ud_type\" targFunc=\"head argument\" corresp=\"#$id\">\n";
