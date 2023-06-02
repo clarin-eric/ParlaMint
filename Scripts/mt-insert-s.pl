@@ -1,8 +1,5 @@
 #!/usr/bin/perl
-# Insert annotated sentences into skeleton TEI
-# Tomaž Erjavec <tomaz.erjavec@ijs.si>
-# License: GNU GPL
-
+# For MTed corpora, insert annotated sentences into skeleton TEI
 use warnings;
 use utf8;
 binmode(STDIN, ':utf8');

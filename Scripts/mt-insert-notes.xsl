@@ -106,6 +106,7 @@
     <xsl:variable name="factor">3</xsl:variable>
     <xsl:choose>
       <xsl:when test="string-length($str2) &gt; ($factor * string-length($str1))">
+	<xsl:message select="concat('WARN: Shortening too long translation ', $trans2)"/>
 	<xsl:value-of select="replace(substring($str2, 1, ($factor * string-length($str1))),
 			      '(.+) .+', '$1 ……')"/>
       </xsl:when>
