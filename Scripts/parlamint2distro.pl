@@ -77,8 +77,9 @@ GetOptions
      'codes=s'    => \$countryCodes,
      'schema=s'   => \$schemaDir,
      'docs=s'     => \$docsDir,
-     'teihandle=s' => \$handleTEI,
-     'anahandle=s' => \$handleAna,
+     'version=s'  => \$Version,
+     'teihandle=s'=> \$handleTEI,
+     'anahandle=s'=> \$handleAna,
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
@@ -101,10 +102,10 @@ if ($help) {
     exit;
 }
 
-$schemaDir = File::Spec->rel2abs($schemaDir);
-$docsDir = File::Spec->rel2abs($docsDir);
-$inDir = File::Spec->rel2abs($inDir);
-$outDir = File::Spec->rel2abs($outDir);
+$schemaDir = File::Spec->rel2abs($schemaDir) if $schemaDir;
+$docsDir = File::Spec->rel2abs($docsDir) if $docsDir;
+$inDir = File::Spec->rel2abs($inDir) if $inDir;
+$outDir = File::Spec->rel2abs($outDir) if $outDir;
 
 #Execution
 #$Parallel = "parallel --gnu --halt 2 --jobs 15";
@@ -128,7 +129,8 @@ $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-t
 #$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
 $scriptFactor  = "$Bin/parlamint-factorize-teiHeader.xsl";
-$scriptFinal   = "$Bin/parlamint2final.xsl";
+$scriptRelease = "$Bin/parlamint2release.xsl";
+$scriptCommon  = "$Bin/parlamint-add-common-content.xsl";
 $scriptPolish  = "$Bin/polish-xml.pl";
 $scriptValid   = "$Bin/validate-parlamint.pl";
 $scriptSample  = "$Bin/corpus2sample.xsl";
@@ -185,31 +187,48 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
+	die "FATAL: Need version\n" unless $Version;
 	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
 	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
+	die "FATAL: No handle given for TEI.ana distribution\n" unless $handleAna;
 	&cp_readme($countryCode, $handleAna, $inReadme, "$outAnaDir/00README.txt");
+	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
-	`$SaxonX handle=$handleAna outDir=$outDir -xsl:$scriptFinal $inAnaRoot`;
-	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies,$inTeiRoot);
+	$tmpOutDir = "$tmpDir/release.ana";
+	$tmpAnaRoot = "$tmpOutDir/$anaRoot";
+	print STDERR "INFO: *Fixing corpus for release\n";
+	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
+	print STDERR "INFO: *Adding common content to corpus\n";
+	`$SaxonX version=$Version handle-ana=$handleAna outDir=$outAnaDir -xsl:$scriptCommon $tmpAnaRoot`;
+	print STDERR "INFO: *Factorising corpus\n";
+	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiRoot);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI\n";
+	die "FATAL: Need version\n" unless $Version;
 	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
-	&cp_readme($countryCode, $handleTei, $inReadme, "$outTeiDir/00README.txt");
+	&cp_readme($countryCode, $handleTEI, $inReadme, "$outTeiDir/00README.txt");
+	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
-	`$SaxonX handle=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptFinal $inTeiRoot`;
+	$tmpOutDir = "$tmpDir/release.tei";
+	$tmpTeiRoot = "$tmpOutDir/$teiRoot";
+	print STDERR "INFO: *Fixing corpus for release\n";
+	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
+	print STDERR "INFO: *Adding common content to corpus\n";
+	`$SaxonX version=$Version handle-txt=$handleTEI outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
+	print STDERR "INFO: *Factorising corpus\n";
 	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
     }
@@ -234,14 +253,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
-	die "FATAL: Can't find schema directory $schemaDir\n" unless -e $schemaDir;
+	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
 	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
 	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
-	if    ($handleTei) {$handleTxt = $handleTei}
+	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
