@@ -28,7 +28,9 @@
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
   <xsl:param name="version">3.0a</xsl:param>
-  <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
+  <xsl:param name="reference-date" as="xs:date">2020-01-30</xsl:param>
+  <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
+  <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="type">
@@ -307,6 +309,35 @@
     <xsl:copy/>
   </xsl:template>
 
+  <!-- Set subcorpus or subcorpora info for component -->
+  <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
+    <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
+    <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
+    <!-- Set subcorpus or subcorpora (needs to be space normalised!) -->
+    <xsl:variable name="subcorpora">
+      <xsl:if test="$reference-date &gt;= $date"> #reference </xsl:if>
+      <xsl:if test="$covid-date &lt;= $date"> #covid </xsl:if>
+      <xsl:if test="$war-date &lt;= $date"> #war </xsl:if>
+    </xsl:variable>
+    <xsl:variable name="ana">
+      <!-- Ignore old sucorpus labels and insert new ones -->
+      <xsl:for-each select="tokenize(., ' ')">
+        <xsl:if test=". != '#reference' and  . != '#covid'">
+	  <xsl:value-of select="."/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
+      <xsl:value-of select="normalize-space($subcorpora)"/>
+    </xsl:variable>
+    <xsl:if test="not(normalize-space($date)">
+      <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
+    </xsl:if>
+    <xsl:attribute name="ana">
+      <xsl:message select="concat('INFO ', $id, ': setting references ', $ana, ' for ', $date)"/>
+      <xsl:value-of select="$ana"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
