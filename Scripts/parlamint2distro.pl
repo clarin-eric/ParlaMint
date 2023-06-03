@@ -201,11 +201,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -f $outAnaDir/Schema/nohup.*`;
 	$tmpOutDir = "$tmpDir/release.ana";
 	$tmpAnaRoot = "$tmpOutDir/$anaRoot";
-	print STDERR "INFO: *Fixing corpus for release\n";
+	print STDERR "INFO: *Fixing TEI.ana corpus for release\n";
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
-	print STDERR "INFO: *Adding common content to corpus\n";
+	print STDERR "INFO: *Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	print STDERR "INFO: *Factorising corpus\n";
+	print STDERR "INFO: *Factorising TEI.ana corpus\n";
 	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiRoot);
     	&polish($outAnaDir);
     }
@@ -224,11 +224,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -f $outTeiDir/Schema/nohup.*`;
 	$tmpOutDir = "$tmpDir/release.tei";
 	$tmpTeiRoot = "$tmpOutDir/$teiRoot";
-	print STDERR "INFO: *Fixing corpus for release\n";
+	print STDERR "INFO: *Fixing TEI corpus for release\n";
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
-	print STDERR "INFO: *Adding common content to corpus\n";
+	print STDERR "INFO: *Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	print STDERR "INFO: *Factorising corpus\n";
+	print STDERR "INFO: *Factorising TEI corpus\n";
 	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
     }
@@ -335,7 +335,7 @@ sub factorisations {
 	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
 	    `$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
-	    `mv $tmpOutDir/*.xml $Dir`;
+	    `cp $tmpOutDir/*.xml $Dir`;
 	}
 	if ($procCommon) {
 	    foreach my $taxonomy (sort keys %taxonomy) {
