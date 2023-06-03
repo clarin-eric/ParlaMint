@@ -204,7 +204,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Fixing corpus for release\n";
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: *Adding common content to corpus\n";
-	`$SaxonX version=$Version handle-ana=$handleAna outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
+	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
 	print STDERR "INFO: *Factorising corpus\n";
 	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiRoot);
     	&polish($outAnaDir);
@@ -227,7 +227,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	print STDERR "INFO: *Fixing corpus for release\n";
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: *Adding common content to corpus\n";
-	`$SaxonX version=$Version handle-txt=$handleTEI outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
+	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
 	print STDERR "INFO: *Factorising corpus\n";
 	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
