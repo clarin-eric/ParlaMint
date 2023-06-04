@@ -38,7 +38,7 @@ sub usage {
     
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
     print STDERR ("    * -factorise: puts taxonomies and listOrg/Person in separate files\n");
-    print STDERR ("    * -common: used common taxonomies, rather than corpus-specific ones\n");
+    print STDERR ("    * -common: use common taxonomies, rather than corpus-specific ones\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
     print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
     print STDERR ("    * -sample: produces samples (from TEI.ana and TEI output)\n");
@@ -205,7 +205,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: *Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	print STDERR "INFO: *Factorising TEI.ana corpus\n";
 	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiRoot);
     	&polish($outAnaDir);
     }
@@ -228,7 +227,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: *Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	print STDERR "INFO: *Factorising TEI corpus\n";
 	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
     }
@@ -313,7 +311,7 @@ sub factorisations {
     my $inTaxonomies = "$Dir/$taxonomies";
     my @inTaxonomies = glob($inTaxonomies);
     my $teiRootTaxonomies='';
-    if(-e $teiRootPath){
+    if (-e $teiRootPath) {
         # setting teiRoot param, which is used for determining which taxonomies has been used in TEI version
         # and .ana interfix shouldnt be added
         print STDERR "INFO: using (TEI+TEI.ana)-shared taxonomies from $teiRootPath\n";
@@ -334,6 +332,7 @@ sub factorisations {
 	else {
 	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
+	    #Doesn't work!
 	    `$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
 	    `cp $tmpOutDir/*.xml $Dir`;
 	}

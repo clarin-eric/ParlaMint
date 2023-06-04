@@ -320,7 +320,7 @@
       <xsl:if test="$war-date &lt;= $date"> #war </xsl:if>
     </xsl:variable>
     <xsl:variable name="ana">
-      <!-- Ignore old sucorpus labels and insert new ones -->
+      <!-- Ignore old subcorpus labels (but preserve the other labels) and insert new ones -->
       <xsl:for-each select="tokenize(., ' ')">
         <xsl:if test=". != '#reference' and  . != '#covid'">
 	  <xsl:value-of select="."/>
@@ -329,7 +329,7 @@
       </xsl:for-each>
       <xsl:value-of select="normalize-space($subcorpora)"/>
     </xsl:variable>
-    <xsl:if test="not(normalize-space($date)">
+    <xsl:if test="not(normalize-space($date))">
       <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
     </xsl:if>
     <xsl:attribute name="ana">
@@ -338,46 +338,6 @@
     </xsl:attribute>
   </xsl:template>
   
-  <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
-    <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
-    <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
-    <xsl:variable name="at-date">
-      <xsl:choose>
-        <xsl:when test="$date/@when">
-          <xsl:value-of select="$date/@when"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:message select="concat('ERROR ', $id, ': no date in setting!')"/>
-	  <xsl:text></xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:attribute name="ana">
-      <xsl:variable name="ref">
-        <xsl:for-each select="tokenize(., ' ')">
-          <xsl:choose>
-            <xsl:when test=". = '#reference' and $covid-date &lt;= $at-date">
-              <xsl:text>#covid</xsl:text>
-              <xsl:message select="concat('WARN ', $id,
-                               ': fixing subcorpus to covid for date ', $at-date)"/>
-            </xsl:when>
-            <xsl:when test=". = '#covid' and $covid-date &gt; $at-date">
-              <xsl:text>#reference</xsl:text>
-              <xsl:message select="concat('WARN ', $id,
-                               ': fixing subcorpus to reference for date ', $at-date)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:text>&#32;</xsl:text>
-        </xsl:for-each>
-      </xsl:variable>
-      <xsl:value-of select="normalize-space($ref)"/>
-    </xsl:attribute>
-  </xsl:template>
-  
-    
   <!-- Same as for root -->
   <xsl:template mode="comp" match="tei:publicationStmt/tei:date">
     <xsl:apply-templates select="."/>

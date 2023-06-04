@@ -15,7 +15,6 @@
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
      Changes to component files:
-     - set references to subcorpora ('reference' 'COVID', 'War')
      - add reference to parliamentary body of the meeting, if missing
      - change div/@type for divs without utterances
      - remove empty notes
@@ -43,10 +42,6 @@
   <!-- Directories must have absolute paths or relative to the location of this script -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
-  
-  <xsl:param name="reference-date" as="xs:date">2020-01-30</xsl:param>
-  <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
-  <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
   
   <!-- Type of corpus is 'txt' or 'ana' -->
   <xsl:param name="type">
@@ -311,32 +306,6 @@
     <xsl:if test=". != $id">
       <xsl:message select="concat('WARN ', @xml:id, ': fixing TEI/@xml:id to ', $id)"/>
     </xsl:if>
-  </xsl:template>
-  
-  <!-- Set subcorpus or subcorpora info for component -->
-  <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
-    <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
-    <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
-    <!-- Set subcorpus or subcorpora (needs to be space normalised!) -->
-    <xsl:variable name="subcorpora">
-      <xsl:if test="$reference-date &gt;= $date"> #reference </xsl:if>
-      <xsl:if test="$covid-date &lt;= $date"> #covid </xsl:if>
-      <xsl:if test="$war-date &lt;= $date"> #war </xsl:if>
-    </xsl:variable>
-    <xsl:variable name="ana">
-      <!-- Ignore old subcorpus labels (but preserve the other labels) and insert new ones -->
-      <xsl:for-each select="tokenize(., ' ')">
-        <xsl:if test=". != '#reference' and  . != '#covid'">
-	  <xsl:value-of select="."/>
-	  <xsl:text>&#32;</xsl:text>
-	</xsl:if>
-      </xsl:for-each>
-      <xsl:value-of select="normalize-space($subcorpora)"/>
-    </xsl:variable>
-    <xsl:if test=". != $ana">
-      <xsl:message select="concat('INFO ', $id, ': setting references ', $ana, ' for ', $date)"/>
-    </xsl:if>
-    <xsl:attribute name="ana" select="$ana"/>
   </xsl:template>
   
   <xsl:template mode="comp" match="text()">
