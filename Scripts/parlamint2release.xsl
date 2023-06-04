@@ -174,45 +174,11 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <change when="{$today-iso}"><name>parlamint2release.xsl</name>: Fix possible identifiably errros for release.</change>
+      <change when="{$today-iso}">parlamint2release script: Fix some identifiable erros for the release.</change>
       <xsl:apply-templates select="*"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:idno">
-    <xsl:copy>
-      <xsl:choose>
-	<xsl:when test="contains(., 'hdl.handle.net')">
-	  <xsl:attribute name="type">URI</xsl:attribute>
-	  <xsl:attribute name="subtype">handle</xsl:attribute>
-          <xsl:value-of select="."/>
-	</xsl:when>
-	<xsl:when test="ancestor::tei:sourceDesc">
-	  <xsl:attribute name="type">URI</xsl:attribute>
-	  <xsl:attribute name="subtype">parliament</xsl:attribute>
-          <xsl:value-of select="normalize-space(.)"/>
-	</xsl:when>
-	<xsl:when test="@type and @subtype">
-	  <xsl:attribute name="type" select="@type"/>
-	  <xsl:attribute name="subtype" select="@subtype"/>
-          <xsl:value-of select="normalize-space(.)"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
-                               ': idno without subtype, content is ', .)"/>
-	  <xsl:attribute name="type" select="@type"/>
-          <xsl:value-of select="normalize-space(.)"/>
-	</xsl:otherwise>
-      </xsl:choose>
-    </xsl:copy>
-  </xsl:template>
-
-  <xsl:template match="tei:publicationStmt[tei:idno]/
-                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
-    <xsl:message select="concat('INFO ', /tei:teiCorpus/@xml:id, 
-                         ': deleting redundant pubPlace')"/>
-  </xsl:template>
-
   <!-- Some corpora are missing textClass in root, add it before particDesc-->
   <xsl:template match="tei:particDesc">
     <xsl:if test="not(../tei:textClass)">
@@ -409,7 +375,7 @@
     </xsl:copy>
   </xsl:template>
       
-  <!-- Bug in IS, sometimes a name contains no words, but only a transcriber comment -->
+  <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
   <xsl:template mode="comp" match="tei:body//tei:name[not(tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing name tag as name ', normalize-space(.), 
@@ -417,28 +383,46 @@
     <xsl:apply-templates mode="comp"/>
   </xsl:template>
   
-  <!-- Bug in various corpora, where punctuation is often encoded as a word -->
-  <xsl:template mode="comp" match="tei:w[contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$')]">
-    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                         ': changing word ', ., ' to punctuation for ', @xml:id)"/>
-    <pc>
-      <xsl:apply-templates mode="comp" select="@*[name() != 'lemma']"/>
-      <xsl:apply-templates mode="comp"/>
-    </pc>
+  <!-- Processing tools also make various formal mistakes on words, here we try to fix them -->
+  <xsl:template mode="comp" match="tei:w">
+    <xsl:choose>
+      <!-- Bug where punctuation is encoded as a word: change <w> to <pc> -->
+      <xsl:when test="contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$')">
+	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                             ': changing word ', ., ' to punctuation for ', @xml:id)"/>
+	<pc>
+	  <xsl:apply-templates mode="comp" select="@*[name() != 'lemma']"/>
+	  <xsl:apply-templates mode="comp"/>
+	</pc>
+      </xsl:when>
+      <!-- Bug where syntactic word contains just one word: remove outer word and preserve annotations -->
+      <xsl:when test="tei:w[tei:w] and not(tei:w[tei:*[2]])">
+        <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
+                             ': removing useless syntactic word ', @xml:id)"/>
+        <xsl:copy>
+          <xsl:apply-templates mode="comp" select="tei:w/@*[name() != 'norm']"/>
+          <xsl:value-of select="normalize-space(.)"/>
+        </xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:copy>
+          <xsl:apply-templates mode="comp" select="@*"/>
+          <xsl:apply-templates mode="comp"/>
+        </xsl:copy>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
-  <!-- Bug in ES-CT processing, sometimes a UPosTag is set to "-" -->
-  <!-- We set it to 'X' -->
+  <!-- Bug where UPosTag is set to "-": change to "X" -->
   <xsl:template mode="comp" match="tei:w/@msd[contains(., 'UPosTag=-')]">
     <xsl:attribute name="msd">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                            ': changing UPosTag=- to UPosTag=X for ', ../@xml:id)"/>
-      <xsl:value-of select="replace(., 'UPosTag=.', 'UPosTag=X')"/>
+      <xsl:value-of select="replace(., 'UPosTag=-', 'UPosTag=X')"/>
     </xsl:attribute>
   </xsl:template>
   
-  <!-- Bug in STANZA, sometimes a word lemma is set to "_" -->
-  <!-- We set lemma to @norm, if it exists, else to text() of the word -->
+  <!-- Bug where word lemma is set to "_": chang to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
     <xsl:attribute name="lemma">
       <xsl:choose>
