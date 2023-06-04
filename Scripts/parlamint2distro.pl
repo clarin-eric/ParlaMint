@@ -333,8 +333,8 @@ sub factorisations {
 	    print STDERR "INFO: Factorising $Root\n";
 	    $tmpOutDir = "$tmpDir/factorise";
 	    #Doesn't work!
-	    `$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
-	    `cp $tmpOutDir/*.xml $Dir`;
+	    #$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
+	    #`cp $tmpOutDir/*.xml $Dir`;
 	}
 	if ($procCommon) {
 	    foreach my $taxonomy (sort keys %taxonomy) {
