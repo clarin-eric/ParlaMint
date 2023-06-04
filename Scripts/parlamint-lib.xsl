@@ -554,6 +554,37 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- Format number-->
+  <xsl:function name="et:format-number" as="xs:string">
+    <xsl:param name="lang" as="xs:string"/>
+    <xsl:param name="quant"/>
+    <xsl:variable name="form" select="format-number($quant, '###,###,###,###')"/>
+    <xsl:choose>
+      <xsl:when test="$lang = 'fr'">
+        <xsl:value-of select="replace($form, ',', ' ')"/>
+      </xsl:when>
+      <xsl:when test="$lang = 'bg' or 
+                      $lang = 'cs' or
+                      $lang = 'hr' or
+                      $lang = 'hu' or
+                      $lang = 'is' or
+                      $lang = 'it' or
+                      $lang = 'lt' or
+                      $lang = 'lv' or
+                      $lang = 'pl' or
+                      $lang = 'ro' or
+                      $lang = 'sl' or
+                      $lang = 'tr'
+                      ">
+        <xsl:value-of select="replace($form, ',', '.')"/>
+      </xsl:when>
+      <!-- Comma for thousands separator by default -->
+      <xsl:otherwise>
+        <xsl:value-of select="$form"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
   <!-- Is the first date between the following two? -->
   <xsl:function name="et:between-dates" as="xs:boolean">
     <xsl:param name="date" as="xs:string"/>
