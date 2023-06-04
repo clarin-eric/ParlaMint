@@ -15,6 +15,8 @@
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
 
+  <xsl:import href="parlamint-lib.xsl"/>
+
   <xsl:variable name="pref">
     <xsl:choose>
       <xsl:when test="$prefix"><xsl:value-of select="$prefix"/></xsl:when>
@@ -117,6 +119,21 @@
       </xsl:attribute>
     </xsl:element>
   </xsl:template>
+
+  <xsl:template match="tei:classDecl/xi:include | tei:particDesc/xi:include">
+    <xsl:variable name="path" select="concat($outDir,'/',@href)"/>
+    <xsl:message select="concat('INFO: Copying ',@href, ' to ',$path)"/>
+    <xsl:result-document href="{$path}" method="xml">
+      <xsl:apply-templates mode="XInclude" select="document(@href)"/>
+    </xsl:result-document>
+    <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
+      <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
+      <xsl:attribute name="href">
+        <xsl:value-of select="./@href"/>
+      </xsl:attribute>
+    </xsl:element>
+  </xsl:template>
+
 
   <xsl:template match="@scheme[. = '#parla.legislature']">
     <xsl:attribute name="scheme">#ParlaMint-taxonomy-parla.legislature</xsl:attribute>

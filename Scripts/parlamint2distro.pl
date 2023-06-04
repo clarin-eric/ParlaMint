@@ -328,14 +328,11 @@ sub factorisations {
     if (@inTaxonomies) {$factorised = 1}
     elsif (not $procFactor) {print STDERR "WARN: $inTaxonomies not found\n"}
     if ($procFactor or $procCommon) {
-	if ($factorised) {print STDERR "INFO: $Dir already factorised\n"}
-	else {
-	    print STDERR "INFO: Factorising $Root\n";
-	    $tmpOutDir = "$tmpDir/factorise";
-	    #Doesn't work!
-	    #$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
-	    #`cp $tmpOutDir/*.xml $Dir`;
-	}
+	if ($factorised) {print STDERR "INFO: $Dir already (fully/partially) factorised\n"}
+	print STDERR "INFO: Factorising $Root\n";
+	$tmpOutDir = "$tmpDir/factorise";
+	`$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
+	`cp $tmpOutDir/*.xml $Dir`;
 	if ($procCommon) {
 	    foreach my $taxonomy (sort keys %taxonomy) {
 		#Eventually we will need an XSLT to extract from common taxonomies catDesc with relevant @xml:lang(s)!
