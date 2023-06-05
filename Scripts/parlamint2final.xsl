@@ -1,27 +1,26 @@
 <?xml version="1.0"?>
 <!-- Finalize the encoding of a ParlaMint corpus (source language version) -->
-<!-- Input is plain text (.TEI) or lingustically analysed (.TEI.ana) corpus root file 
+<!-- Input is "plain text" (.TEI) or lingustically analysed (.TEI.ana) corpus root file 
      with XIncludes for all corpus components
-     Output is corresponding (.TEI or .TEI.ana) 
+     Output is the corresponding (.TEI or .TEI.ana):
      - corpus root, 
-     - factorised metadata (taxonomies, person and organisation list) 
      - components
      All are in their final form for a particular release.
-     STDERR gives detailed log of actions.
+     STDERR gives a detailed log of actions.
      The inserted or fixed data is either given as parameters with default values or 
      computed from the corpus.
      The program:
      - sets release date, default = today
-     - sets version and handles, default = 3.0
+     - sets version (default = 3.0) and handle (must be given as parameter)
+     - set date-dependent subcorpora to 'reference' 'COVID', 'War'
      - sets top level @xml:id so it is the same as the filename
-     - set correct ParlaMint stamp in main titles
-     - set correct reference / COVID subcorpus, default > 2019-11-01
-     - set English project description, default = ParlaMint II
-     - calculate extents in component ana files, warn if changed
-     - insert word extents from ana into plain version
-     - insert tagCounts in root (taken from component files and not changed there!)
-     - fix spaces in text
-     - if necessary, change div/@type for divs without utterances
+     - sets correct ParlaMint stamp in main titles
+     - sets English project description, default = ParlaMint II
+     - calculates extents in component ana files, warn if changed
+     - inserts word extents from ana into plain version
+     - calculates tagUsage of component and root files
+     - change div/@type for divs without utterances
+     - fixes spaces in text
      - sundry checks and fixes, which give warning messages
 -->
 <xsl:stylesheet 
@@ -40,12 +39,13 @@
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
   
-  <!-- Version and handle of the release -->
-  <xsl:param name="version">3.0</xsl:param>
-  <xsl:param name="handle-txt">http://hdl.handle.net/11356/1486</xsl:param>
-  <xsl:param name="handle-ana">http://hdl.handle.net/11356/1488</xsl:param>
+  <xsl:param name="reference-date" as="xs:date">2020-01-30</xsl:param>
+  <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
+  <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
   
-  <xsl:param name="covid-date" as="xs:date">2019-11-01</xsl:param>
+  <!-- Version and handle of the release; handle should be given as run-time parameter! -->
+  <xsl:param name="version">3.0</xsl:param>
+  <xsl:param name="handle"/>
 
   <!-- Type of corpus is 'txt' or 'ana' -->
   <xsl:param name="type">
@@ -62,6 +62,13 @@
                                          tei:fileDesc/tei:titleStmt/
                                          tei:title[@type='main' and @xml:lang='en'],
                                          '([^ ]+) .*', '$1')"/>
+  
+  <!-- Is this an MTed corpus? Set $mt to name of MTed language (or empty, if not) -->
+  <xsl:param name="mt">
+    <xsl:if test="matches($country-code, '-[a-z]{2,3}$')">
+      <xsl:value-of select="replace($country-code, '.+-([a-z]{2,3})$', '$1')"/>
+    </xsl:if>
+  </xsl:param>
   
   <!-- Project description for ParlaMint II -->
   <xsl:variable name="projectDesc-en">
@@ -133,8 +140,12 @@
         <xsl:choose>
           <!-- For .ana files, compute number of words -->
           <xsl:when test="$type = 'ana'">
+	    <!-- We count only surface words -->
+	    <!-- We also need to take into account that we change "words" to punctuation -->
             <xsl:value-of select="document(tei:url-orig)/
-                                  count(//tei:w[not(parent::tei:w)])"/>
+                                  count(//tei:w[not(parent::tei:w)]
+				  [not(contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$'))]
+				  )"/>
           </xsl:when>
           <!-- For plain files, take number of words from .ana files -->
           <xsl:when test="doc-available(tei:url-ana)">
@@ -161,37 +172,31 @@
     </xsl:for-each>
   </xsl:variable>
 
-  <!-- Get tagUsages in component files -->
+  <!-- calculate tagUsages in component files -->
   <xsl:variable name="tagUsages">
-    <xsl:variable name="tUs">
-      <xsl:for-each select="$docs/tei:item[@type = 'component']/document(tei:url-orig)/
-                            tei:TEI/tei:teiHeader//tei:tagUsage">
-        <xsl:sort select="@gi"/>
-        <xsl:copy-of select="."/>
-      </xsl:for-each>
-    </xsl:variable>
-    <xsl:for-each select="$tUs/tei:tagUsage">
-      <xsl:variable name="gi" select="@gi"/>
-      <xsl:if test="not(following-sibling::tei:tagUsage[@gi = $gi])">
-        <xsl:variable name="occurences">
-          <xsl:for-each select="$tUs/tei:tagUsage[@gi = $gi]">
-            <item>
-              <xsl:value-of select="@occurs"/>
-            </item>
-          </xsl:for-each>
-        </xsl:variable>
-        <tagUsage xmlns="http://www.tei-c.org/ns/1.0" gi="{$gi}"
-                  occurs="{format-number(sum($occurences/tei:item), '#')}"/>
-      </xsl:if>
+    <xsl:for-each select="$docs/tei:item">
+      <item n="{tei:xi-orig}">
+        <xsl:variable name="context-node" select="."/>
+        <xsl:for-each select="document(tei:url-orig)/
+                            distinct-values(tei:TEI/tei:text/descendant-or-self::tei:*/name())">
+          <xsl:sort select="."/>
+          <xsl:variable name="elem-name" select="."/>
+          <xsl:element name="tagUsage">
+            <xsl:attribute name="gi" select="$elem-name"/>
+            <xsl:attribute name="occurs" select="number($context-node/document(tei:url-orig)/
+                                    count(tei:TEI/tei:text/descendant-or-self::tei:*[name()=$elem-name]))"/>
+          </xsl:element>
+        </xsl:for-each>
+      </item>
     </xsl:for-each>
   </xsl:variable>
-  
+
   <xsl:template match="/">
-    <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
+    <xsl:message select="concat('INFO Starting to process ', tei:teiCorpus/@xml:id)"/>
     <!-- Process component files -->
     <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO: Processing ', $this)"/>
+      <xsl:message select="concat('INFO Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
 	<xsl:choose>
 	  <!-- Copy over factorised parts of corpus root teiHeader -->
@@ -203,13 +208,14 @@
             <xsl:apply-templates mode="comp" select="document(tei:url-orig)/tei:TEI">
               <xsl:with-param name="speeches" select="$speeches/tei:item[@n = $this]"/>
               <xsl:with-param name="words" select="$words/tei:item[@n = $this]"/>
+              <xsl:with-param name="tagUsages" select="$tagUsages/tei:item[@n = $this]"/>
             </xsl:apply-templates>
 	  </xsl:when>
 	</xsl:choose>
       </xsl:result-document>
     </xsl:for-each>
     <!-- Output Root file -->
-    <xsl:message>INFO: processing root </xsl:message>
+    <xsl:message>INFO processing root </xsl:message>
     <xsl:result-document href="{$outRoot}">
       <xsl:apply-templates/>
     </xsl:result-document>
@@ -218,11 +224,13 @@
   <xsl:template mode="comp" match="*">
     <xsl:param name="speeches"/>
     <xsl:param name="words"/>
+    <xsl:param name="tagUsages"/>
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:apply-templates mode="comp">
         <xsl:with-param name="speeches" select="$speeches"/>
         <xsl:with-param name="words" select="$words"/>
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -239,31 +247,29 @@
     </xsl:if>
   </xsl:template>
   
+  <!-- Set subcorpus or subcorpora info for component -->
   <xsl:template mode="comp" match="tei:TEI/@ana | tei:text/@ana">
     <xsl:variable name="id" select="ancestor::tei:TEI/@xml:id"/>
     <xsl:variable name="date" select="ancestor::tei:TEI/tei:teiHeader//tei:setting/tei:date/@when"/>
+    <!-- Set subcorpus or subcorpora (needs to be space normalised!) -->
+    <xsl:variable name="subcorpora">
+      <xsl:if test="$reference-date &gt;= $date"> #reference </xsl:if>
+      <xsl:if test="$covid-date &lt;= $date"> #covid </xsl:if>
+      <xsl:if test="$war-date &lt;= $date"> #war </xsl:if>
+    </xsl:variable>
+    <xsl:variable name="ana">
+      <!-- Ignore old sucorpus labels and insert new ones -->
+      <xsl:for-each select="tokenize(., ' ')">
+        <xsl:if test=". != '#reference' and  . != '#covid'">
+	  <xsl:value-of select="."/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:if>
+      </xsl:for-each>
+      <xsl:value-of select="normalize-space($subcorpora)"/>
+    </xsl:variable>
     <xsl:attribute name="ana">
-      <xsl:variable name="ref">
-        <xsl:for-each select="tokenize(., ' ')">
-          <xsl:choose>
-            <xsl:when test=". = '#reference' and $covid-date &lt; $date">
-              <xsl:text>#covid</xsl:text>
-              <xsl:message select="concat('WARN ', $id, 
-                               ': fixing subcorpus to covid for date ', $date)"/>
-            </xsl:when>
-            <xsl:when test=". = '#covid' and $covid-date &gt;= $date">
-              <xsl:text>#reference</xsl:text>
-              <xsl:message select="concat('WARN ', $id, 
-				   ': fixing subcorpus to reference for date ', $date)"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="."/>
-            </xsl:otherwise>
-          </xsl:choose>
-          <xsl:text>&#32;</xsl:text>
-        </xsl:for-each>
-      </xsl:variable>
-      <xsl:value-of select="normalize-space($ref)"/>
+      <xsl:message select="concat('INFO ', $id, ': setting references ', $ana, ' for ', $date)"/>
+      <xsl:value-of select="$ana"/>
     </xsl:attribute>
   </xsl:template>
   
@@ -283,17 +289,12 @@
   <xsl:template mode="comp" match="tei:idno">
     <xsl:apply-templates select="."/>
   </xsl:template>
-  <xsl:template mode="comp" match="tei:publicationStmt[tei:idno]/
-                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
-    <xsl:apply-templates select="."/>
-  </xsl:template>
   <xsl:template mode="comp" match="tei:teiHeader//text()">
     <xsl:apply-templates select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:text//text()">
     <xsl:apply-templates select="."/>
   </xsl:template>
-
   
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='speeches']">
     <xsl:param name="speeches"/>
@@ -314,6 +315,59 @@
     </xsl:copy>
   </xsl:template>  
 
+  <!-- Some corpora are missing reference to the parliamentary body of the meeting, add it -->
+  <xsl:template mode="comp" match="tei:meeting/@ana">
+    <!-- BE uses their own special category for this, change to common category -->
+    <xsl:attribute name="ana">
+      <xsl:variable name="ana-this" select="replace(., '#parla.meeting.committee', '#parla.committee')"/>
+      <xsl:variable name="ana-all">
+	<xsl:variable name="all">
+	  <xsl:for-each select="../../tei:meeting">
+	    <xsl:value-of select="concat(@ana, ' ')"/>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:for-each select="distinct-values(tokenize(normalize-space($all), ' '))">
+	  <xsl:value-of select="replace(., '#parla.meeting.committee', '#parla.committee')"/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ana this is ', $ana-this)"/-->
+      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ana all is ', $ana-all)"/-->
+      <xsl:variable name="ok">
+	<xsl:for-each select="distinct-values(tokenize(normalize-space($ana-all), ' '))">
+	  <xsl:value-of select="key('idr', ., $rootHeader)
+				[ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]/@xml:id"/>
+	</xsl:for-each>
+      </xsl:variable>
+      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ok is ', $ok)"/-->
+      <xsl:if test="not(normalize-space($ok))">
+	<xsl:variable name="body">
+	  <xsl:choose>
+	    <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
+	    <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'LV'">#parla.uni</xsl:when>
+	    <xsl:when test="$country-code = 'SI'">#parla.lower</xsl:when>
+	    <xsl:when test="$country-code = 'TR'">#parla.uni</xsl:when>
+	  </xsl:choose>
+	</xsl:variable>
+	<xsl:choose>
+	  <xsl:when test="$body">
+	    <xsl:value-of select="concat($body, '&#32;')"/>
+	    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+				 ': adding ', $body, ' to meeting/@ana')"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+				 ': meeting/@ana without organisation reference!')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:if>
+      <xsl:value-of select="$ana-this"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='words']">
     <xsl:param name="speeches"/>
     <xsl:param name="words"/>
@@ -333,7 +387,7 @@
     </xsl:copy>
   </xsl:template>  
   
-  <!-- Fix div/@type="debateSection" to ="commentSection" if div contains not utterances -->
+  <!-- Fix div/@type="debateSection" to ="commentSection" if div contains no utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': no utterances in div/@type=debateSection, ',
@@ -346,6 +400,29 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template mode="comp" match="tei:encodingDesc">
+    <xsl:param name="tagUsages"/>
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:apply-templates select="./tei:editorialDecl"/>
+
+      <xsl:call-template name="add-tagsDecl">
+        <xsl:with-param name="tagUsages" select="$tagUsages"/>
+      </xsl:call-template>
+      
+      <xsl:apply-templates select="./tei:classDecl"/>
+      <xsl:apply-templates select="./tei:listPrefixDef"/>
+      <xsl:apply-templates select="./tei:appInfo"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Remove empty notes -->
+  <xsl:template mode="comp" match="tei:note[not(normalize-space(.))]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+      
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
@@ -367,6 +444,34 @@
     </xsl:copy>
   </xsl:template>
       
+  <!-- Bug in IS, sometimes a name contains no words, but only a transcriber comment -->
+  <xsl:template mode="comp" match="tei:body//tei:name[not(tei:w)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing name tag as name ', normalize-space(.), 
+			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <xsl:apply-templates mode="comp"/>
+  </xsl:template>
+  
+  <!-- Bug in ES-CT processing, often punctuation is encoded as a word -->
+  <xsl:template mode="comp" match="tei:w[contains(@msd, 'UPosTag=PUNCT') and matches(., '^\p{P}+$')]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': changing word ', ., ' to punctuation for ', @xml:id)"/>
+    <pc>
+      <xsl:apply-templates mode="comp" select="@*[name() != 'lemma']"/>
+      <xsl:apply-templates mode="comp"/>
+    </pc>
+  </xsl:template>
+  
+  <!-- Bug in ES-CT processing, sometimes a UPosTag is set to "-" -->
+  <!-- We set it to 'X' -->
+  <xsl:template mode="comp" match="tei:w/@msd[contains(., 'UPosTag=-')]">
+    <xsl:attribute name="msd">
+      <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                           ': changing UPosTag=- to UPosTag=X for ', ../@xml:id)"/>
+      <xsl:value-of select="replace(., 'UPosTag=.', 'UPosTag=X')"/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <!-- Bug in STANZA, sometimes a word lemma is set to "_" -->
   <!-- We set lemma to @norm, if it exists, else to text() of the word -->
   <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
@@ -453,13 +558,15 @@
     </xsl:if>
   </xsl:template>
   
-  <!-- Check if we have a correct stamp, and if it is correct, replace if not -->
+  <!-- Check if we have a correct stamp, and replace if not -->
   <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
     <xsl:variable name="okStamp">
-      <xsl:choose>
-	<xsl:when test="$type = 'txt'">[ParlaMint]</xsl:when>
-	<xsl:when test="$type = 'ana'">[ParlaMint.ana]</xsl:when>
-      </xsl:choose>
+      <xsl:text>[ParlaMint</xsl:text>
+      <xsl:if test="normalize-space($mt)">
+	<xsl:value-of select="concat('-', $mt)"/>
+      </xsl:if>
+      <xsl:if test="$type = 'ana'">.ana</xsl:if>
+      <xsl:text>]</xsl:text>
     </xsl:variable>
     <xsl:variable name="stamp" select="replace(., '.+(\[.+\])$', '$1')"/>
     <xsl:copy>
@@ -535,28 +642,20 @@
   <xsl:template match="tei:revisionDesc">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="*"/>
       <change when="{$today-iso}"><name>parlamint2final.xsl</name>: Finalize corpus.</change>
+      <xsl:apply-templates select="*"/>
     </xsl:copy>
   </xsl:template>
   
   <xsl:template match="tei:idno">
     <xsl:copy>
       <xsl:choose>
-	<xsl:when test="contains(., 'hdl.handle.net/11356/')">
+	<xsl:when test="contains(., 'hdl.handle.net')">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">handle</xsl:attribute>
-	  <xsl:choose>
-            <xsl:when test="$type = 'txt'">
-              <xsl:value-of select="$handle-txt"/>
-            </xsl:when>
-            <xsl:when test="$type = 'ana'">
-              <xsl:value-of select="$handle-ana"/>
-            </xsl:when>
-	  </xsl:choose>
+          <xsl:value-of select="$handle"/>
 	</xsl:when>
-	<!-- For GB and ES-GA -->
-	<xsl:when test="@type = 'URI' and matches(., 'parli?ament')">
+	<xsl:when test="ancestor::tei:sourceDesc">
 	  <xsl:attribute name="type">URI</xsl:attribute>
 	  <xsl:attribute name="subtype">parliament</xsl:attribute>
           <xsl:value-of select="normalize-space(.)"/>
@@ -576,6 +675,78 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template match="tei:publicationStmt[tei:idno]/
+                       tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
+    <xsl:message select="concat('INFO ', /tei:teiCorpus/@xml:id, 
+                         ': deleting redundant pubPlace')"/>
+  </xsl:template>
+
+  <xsl:template match="tei:encodingDesc">
+    <xsl:copy copy-namespaces="no">
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates select="./tei:projectDesc"/>
+      <xsl:apply-templates select="./tei:editorialDecl"/>
+
+      <xsl:call-template name="add-tagsDecl">
+        <xsl:with-param name="tagUsages">
+          <xsl:for-each select="distinct-values($tagUsages//@gi)">
+            <xsl:sort select="."/>
+            <xsl:variable name="elem-name" select="."/>
+            <xsl:element name="tagUsage">
+              <xsl:attribute name="gi" select="$elem-name"/>
+              <xsl:attribute name="occurs" select="number(sum($tagUsages//*[@gi=$elem-name]/@occurs))"/>
+            </xsl:element>
+          </xsl:for-each>
+         </xsl:with-param>
+      </xsl:call-template>
+
+      <xsl:apply-templates select="./tei:classDecl"/>
+      <xsl:apply-templates select="./tei:listPrefixDef"/>
+      <xsl:apply-templates select="./tei:appInfo"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Some corpora are missing textClass in root, add it before particDesc-->
+  <xsl:template match="tei:particDesc">
+    <xsl:if test="not(../tei:textClass)">
+      <xsl:variable name="target">
+	<xsl:choose>
+	  <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
+	  <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'EE'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'FR'">#parla.lower</xsl:when>
+	  <xsl:when test="$country-code = 'GB'">#parla.lower #parla.upper</xsl:when>
+	  <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'IS'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'LV'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'PL'">#parla.lower #parla.upper</xsl:when>
+	  <xsl:when test="$country-code = 'SE'">#parla.uni</xsl:when>
+	  <xsl:when test="$country-code = 'SI'">#parla.lower</xsl:when>
+	  <xsl:when test="$country-code = 'TR'">#parla.uni</xsl:when>
+	</xsl:choose>
+      </xsl:variable>
+	<xsl:choose>
+	  <xsl:when test="normalize-space($target)">
+	    <textClass>
+              <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="{$target}"/>
+	    </textClass>
+	    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+				 ': adding textClass for ', $target)"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
+				 ': no textClass, and no value found to fix!')"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+    </xsl:if>
+    <!-- Now process particDesc -->
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+    
   <xsl:template match="tei:tagsDecl/tei:namespace">
     <xsl:copy copy-namespaces="no">
       <xsl:apply-templates select="@*"/>
@@ -616,6 +787,46 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="add-tagsDecl">
+    <xsl:param name="tagUsages"/>
+    <xsl:variable name="context" select="./tei:tagsDecl/tei:namespace[@name='http://www.tei-c.org/ns/1.0']"/>
+    <xsl:element name="tagsDecl">
+      <xsl:element name="namespace">
+        <xsl:attribute name="name">http://www.tei-c.org/ns/1.0</xsl:attribute>
+        <xsl:for-each select="distinct-values(($tagUsages//@gi, $context//@gi))">
+          <xsl:sort select="."/>
+          <xsl:variable name="elem-name" select="."/>
+          <xsl:variable name="new" select="$tagUsages//*:tagUsage[@gi=$elem-name]"/>
+          <xsl:variable name="old" select="$context//*:tagUsage[@gi=$elem-name]"/>
+          <xsl:choose>
+            <xsl:when test="$new and not($old)">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': adding ',$elem-name,' tagUsage ', $new/@occurs)"/>
+            </xsl:when>
+            <xsl:when test="not($new) and $old">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': removing ',$elem-name,' tagUsage ', $old/@occurs)"/>
+            </xsl:when>
+            <xsl:when test="not($new/@occurs = $old/@occurs)">
+              <xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': replacing ',$elem-name,' tagUsage ', $old/@occurs, ' with ', 
+			       format-number($new/@occurs, '#'))"/>
+            </xsl:when>
+            <xsl:when test="$new/@occurs = $old/@occurs">
+              <!--xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
+                               ': preserving ',$elem-name,' tagUsage ', $new/@occurs)"/-->
+            </xsl:when>
+          </xsl:choose>
+	  <xsl:if test="$new">
+	    <tagUsage gi="{$new/@gi}">
+	      <xsl:attribute name="occurs" select="format-number($new/@occurs, '#')"/>
+	    </tagUsage>
+	  </xsl:if>
+        </xsl:for-each>
+      </xsl:element>
+    </xsl:element>
+  </xsl:template>
+  
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>

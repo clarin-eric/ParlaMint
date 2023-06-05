@@ -29,4 +29,12 @@
     <xsl:value-of select="concat('[[', normalize-space($text), ']]')"/>
   </xsl:template>
 
+  <xsl:template match="tei:s/text()"/>
+  <xsl:template match="tei:w | tei:pc">
+    <xsl:value-of select="."/>
+    <xsl:if test="not(@join = 'right')">
+      <xsl:text>&#32;</xsl:text>
+    </xsl:if>
+  </xsl:template>
+  
 </xsl:stylesheet>

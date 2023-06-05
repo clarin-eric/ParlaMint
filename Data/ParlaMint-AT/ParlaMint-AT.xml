@@ -54,12 +54,11 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.1</edition>
+            <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="1234">1234 speeches</measure>
-            <measure unit="tokens" quantity="1234">1234 words</measure>
-            <measure unit="words" quantity="1234">1234 words</measure>
+            <measure unit="speeches" quantity="227991">227,991 speeches</measure>
+            <measure unit="words" quantity="59916338">59,916,338 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -67,26 +66,20 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="de">
-            Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.
-          </p>
-               <p xml:lang="en">
-            This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.
-          </p>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2022-12-14">2022-12-14</date>
+            <date when="2023-04-23">2023-04-23</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="de">Stenographische Protokolle der Plenarsitzungen des Nationalrats der Republik Österreich</title>
                <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
-               <publisher>
-            Parlamentsdirektion
-          </publisher>
-               <idno type="URI">https://www.parlament.gv.at/PAKT/STPROT</idno>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/STPROT</idno>
                <date from="1996-01-15" to="2022-05-19">15.01.1996 - 19.05.2022</date>
             </bibl>
          </sourceDesc>
@@ -97,45 +90,40 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-        </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
-               <p>
-            No correction of source texts was performed.
-          </p>
+               <p>No correction of source texts was performed.</p>
             </correction>
             <normalization>
-               <p>
-            Text has not been normalised, except for spacing. Printed matter quoted in the protocols was removed
-          </p>
+               <p>Text has not been normalised, except for spacing. Printed matter quoted in the protocols was removed</p>
             </normalization>
             <hyphenation>
-               <p>
-            No end-of-line hyphens were present in the source.
-          </p>
+               <p>No end-of-line hyphens were present in the source.</p>
             </hyphenation>
             <quotation>
-               <p>
-            Quotation marks have been left in the text and are not explicitly marked up.
-          </p>
+               <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
             </quotation>
             <segmentation>
-               <p>
-            The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).
-          </p>
+               <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1234"/>
-               <tagUsage gi="div" occurs="1234"/>
-               <tagUsage gi="head" occurs="1234"/>
-               <tagUsage gi="note" occurs="1234"/>
-               <tagUsage gi="seg" occurs="1234"/>
-               <tagUsage gi="text" occurs="1234"/>
-               <tagUsage gi="u" occurs="1234"/>
+               <tagUsage gi="body" occurs="1197"/>
+               <tagUsage gi="desc" occurs="1197"/>
+               <tagUsage gi="div" occurs="1197"/>
+               <tagUsage gi="gap" occurs="1197"/>
+               <tagUsage gi="incident" occurs="1197"/>
+               <tagUsage gi="kinesic" occurs="1197"/>
+               <tagUsage gi="note" occurs="1197"/>
+               <tagUsage gi="pb" occurs="1197"/>
+               <tagUsage gi="seg" occurs="1197"/>
+               <tagUsage gi="text" occurs="1197"/>
+               <tagUsage gi="time" occurs="1197"/>
+               <tagUsage gi="u" occurs="1197"/>
+               <tagUsage gi="vocal" occurs="1197"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -174,14 +162,14 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-12-14">
-            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-04-23">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.xml"/>
+               href="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-AT_2010-03-24-024-XXIV-NRSITZ-00057.xml"/>
+               href="ParlaMint-AT_2014-09-24-025-XXV-NRSITZ-00042.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159.xml"/>
 </teiCorpus>

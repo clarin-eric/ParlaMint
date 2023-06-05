@@ -10,6 +10,7 @@
   <xsl:param name="prefix"/>
   <xsl:param name="skip"/>
   <xsl:param name="noAna"/>
+  <xsl:param name="teiRoot"/>
 
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
@@ -25,6 +26,17 @@
     <xsl:value-of select="$outDir"/>
     <xsl:text>/</xsl:text>
     <xsl:value-of select="replace(base-uri(), '.*/(.+)$', '$1')"/>
+  </xsl:variable>
+
+  <xsl:variable name="seenInTeiRoot">
+    <xsl:if test="$teiRoot">
+      <xsl:variable name="teiRootDoc" select="document($teiRoot)"/>
+      <xsl:value-of select="concat(
+                              string-join($teiRootDoc//tei:classDecl/xi:include/@href,' '),
+                              ' ',
+                              string-join($teiRootDoc//tei:classDecl/tei:taxonomy/@xml:id/concat(.,'.xml'),' '),
+                              ' ')"/>
+    </xsl:if>
   </xsl:variable>
 
   <xsl:template match="/">
@@ -68,6 +80,7 @@
       <xsl:if test="ends-with(base-uri(),'.ana.xml')
                    and not(contains($skip,concat($fileid,'.xml')))
                    and not(contains(concat($noAna,' ',replace($noAna,'ParlaMint-',$pref)),concat($fileid,'.xml')))
+                   and not(contains($seenInTeiRoot,replace(concat($fileid,'.xml '),'^.*taxonomy-','' )))
                    and not($no_id_change)">.ana</xsl:if>
     </xsl:variable>
 

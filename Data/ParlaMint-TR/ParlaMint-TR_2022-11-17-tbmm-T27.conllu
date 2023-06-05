@@ -1,0 +1,60 @@
+# newdoc id = tbmm-2022-11-17sit01spe0001par0001
+# newpar id = tbmm-2022-11-17sit01spe0001par0001.seg0
+# sent_id = tbmm-2022-11-17sit01spe0001par0001-000010
+# text = Türkiye Büyük Millet Meclisinin 22’nci Birleşimini açıyorum.
+1	Türkiye	Türkiye	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	NER=B-ORG
+2	Büyük	büyük	ADJ	_	_	3	amod	_	NER=I-ORG
+3	Millet	millet	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	NER=I-ORG
+4	Meclisinin	meclis	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	NER=I-ORG
+5	22’nci	22	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	4	case	_	NER=O
+6	Birleşimini	birleşim	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	det	_	NER=O
+7	açıyorum	aç	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# newpar id = tbmm-2022-11-17sit01spe0001par0002.seg1
+# sent_id = tbmm-2022-11-17sit01spe0001par0002-000010
+# text = Başkanlık Divanı teşekkül etmediğinden çalışmalarımıza başlayamıyoruz.
+1	Başkanlık	başkanlık	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	NER=B-ORG
+2	Divanı	divan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	NER=I-ORG
+3	teşekkül	teşekkül	NOUN	_	Case=Nom|Number=Sing	6	advcl	_	NER=O
+4	etmediğinden	et	VERB	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	5	compound:lvc	_	NER=O
+5	çalışmalarımıza	çalışma	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Plur|Person[psor]=1	6	obj	_	NER=O
+6	başlayamıyoruz	başla	VERB	_	Aspect=Prog|Evident=Fh|Mood=Pot|Number=Plur|Person=1|Polarity=Neg|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# newpar id = tbmm-2022-11-17sit01spe0001par0003.seg2
+# sent_id = tbmm-2022-11-17sit01spe0001par0003-000010
+# text = Bu nedenle, alınan karar gereğince kanun teklifleri ile komisyonlardan gelen diğer işleri sırasıyla görüşmek için 22 Kasım 2022 Salı günü saat 15.
+1	Bu	bu	DET	_	_	2	det	_	NER=O
+2	nedenle	neden	NOUN	_	Case=Ins|Number=Sing	23	obl	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	23	punct	_	NER=O
+4	alınan	alın	VERB	_	Tense=Pres|VerbForm=Part	5	obl	_	NER=O
+5	karar	karar	NOUN	_	Case=Nom|Number=Sing	7	acl	_	NER=O
+6	gereğince	gereğince	ADV	_	_	7	nmod	_	NER=O
+7	kanun	kanun	NOUN	_	Case=Nom|Number=Sing	11	nmod	_	NER=O
+8	teklifleri	teklif	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	11	obl	_	NER=O
+9	ile	ile	CCONJ	_	_	8	case	_	NER=O
+10	komisyonlardan	komisyon	NOUN	_	Case=Abl|Number=Plur	11	obj	_	NER=O
+11	gelen	gel	VERB	_	Tense=Pres|VerbForm=Part	15	obl	_	NER=O
+12	diğer	diğer	DET	_	_	13	amod	_	NER=O
+13	işleri	iş	NOUN	_	Case=Acc|Number=Plur	14	nmod	_	NER=O
+14	sırasıyla	sıra	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obj	_	NER=O
+15	görüşmek	görüş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	21	acl	_	NER=O
+16	için	için	ADP	_	_	15	case	_	NER=O
+17	22	22	NUM	_	_	18	nummod	_	NER=B-ORG
+18	Kasım	kasım	NOUN	_	Case=Nom|Number=Sing	20	obj	_	NER=I-ORG
+19	2022	2022	NUM	_	_	18	case	_	NER=I-ORG
+20	Salı	salı	NOUN	_	Case=Nom|Number=Sing	21	nmod	_	NER=I-ORG
+21	günü	günü	NOUN	_	Case=Nom|Number=Sing	23	obl	_	NER=I-ORG
+22	saat	saat	NOUN	_	Case=Nom|Number=Sing	23	nsubj	_	NER=I-ORG
+23	15.	15	ADJ	_	Case=Nom|Number=Sing|NumType=Ord	0	root	_	NER=I-ORG
+
+# sent_id = tbmm-2022-11-17sit01spe0001par0003-000020
+# text = 00’te toplanmak üzere birleşimi kapatıyorum.
+1	00’te	00’te	X	_	_	2	nmod	_	NER=B-LOC
+2	toplanmak	toplan	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	5	nmod	_	NER=O
+3	üzere	üzere	ADP	_	_	2	case	_	NER=O
+4	birleşimi	birleşim	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	det	_	NER=O
+5	kapatıyorum	kapat	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	NER=O
+

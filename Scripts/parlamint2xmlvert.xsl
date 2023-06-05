@@ -17,6 +17,8 @@
   
   <xsl:output method="xml" indent="no" omit-xml-declaration="yes"/>
   
+  <xsl:param name="nosyntax"/>
+  
   <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
@@ -80,7 +82,6 @@
               <xsl:attribute name="speaker_role"/>
               <xsl:attribute name="speaker_id"/>
               <xsl:attribute name="speaker_name"/>
-              <xsl:attribute name="speaker_type"/>
               <xsl:attribute name="speaker_party"/>
               <xsl:attribute name="speaker_party_name"/>
               <xsl:attribute name="party_status"/>
@@ -235,28 +236,33 @@
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="et:join-annotations($toks)"/>
-        <xsl:variable name="deps">
-          <xsl:for-each select="tei:w | tei:pc">
-            <list>
-              <xsl:variable name="annots">
-                <xsl:call-template name="deps">
-                  <xsl:with-param name="id" select="@xml:id"/>
-                </xsl:call-template>
-              </xsl:variable>
-              <xsl:for-each select="tokenize($annots, '&#9;')">
-                <item>
-                  <xsl:value-of select="."/>
-                </item>
-              </xsl:for-each>
-            </list>
-          </xsl:for-each>
-        </xsl:variable>
-        <xsl:text>&#9;</xsl:text>
-        <xsl:value-of select="et:join-annotations($deps)"/>
+	<xsl:if test="not(normalize-space($nosyntax))">
+          <xsl:variable name="deps">
+            <xsl:for-each select="tei:w | tei:pc">
+              <list>
+		<xsl:variable name="annots">
+                  <xsl:call-template name="deps">
+                    <xsl:with-param name="id" select="@xml:id"/>
+                  </xsl:call-template>
+		</xsl:variable>
+		<xsl:for-each select="tokenize($annots, '&#9;')">
+                  <item>
+                    <xsl:value-of select="."/>
+                  </item>
+		</xsl:for-each>
+              </list>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="et:join-annotations($deps)"/>
+	</xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="concat(., '&#9;', et:output-annotations(.), '&#9;')"/>
-        <xsl:call-template name="deps"/>
+        <xsl:value-of select="concat(., '&#9;', et:output-annotations(.))"/>
+	<xsl:if test="not(normalize-space($nosyntax))">
+	  <xsl:text>&#9;</xsl:text>
+          <xsl:call-template name="deps"/>
+	</xsl:if>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#10;</xsl:text>
