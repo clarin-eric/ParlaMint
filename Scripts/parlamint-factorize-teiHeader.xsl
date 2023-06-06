@@ -41,6 +41,8 @@
     </xsl:if>
   </xsl:variable>
 
+  <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
+
   <xsl:template match="/">
     <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
     <!-- Output Root file -->
@@ -121,10 +123,11 @@
   </xsl:template>
 
   <xsl:template match="tei:classDecl/xi:include | tei:particDesc/xi:include">
-    <xsl:variable name="path" select="concat($outDir,'/',@href)"/>
-    <xsl:message select="concat('INFO: Copying ',@href, ' to ',$path)"/>
-    <xsl:result-document href="{$path}" method="xml">
-      <xsl:apply-templates mode="XInclude" select="document(@href)"/>
+    <xsl:variable name="pathIn" select="concat($inDir,'/',@href)"/>
+    <xsl:variable name="pathOut" select="concat($outDir,'/',@href)"/>
+    <xsl:message select="concat('INFO: Copying ',$pathIn, ' to ',$pathOut)"/>
+    <xsl:result-document href="{$pathOut}" method="xml">
+      <xsl:apply-templates mode="XInclude" select="document($pathIn)"/>
     </xsl:result-document>
     <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
       <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
