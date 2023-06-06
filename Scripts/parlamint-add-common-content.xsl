@@ -381,9 +381,13 @@
     </xsl:result-document>
   </xsl:template>
 
+  <xsl:template match="* | @*">
+    <xsl:message terminate="yes">ILLEGAL TEMPLATE USED</xsl:message>
+  </xsl:template>
+  
   <!-- PROCESSING COMPONENTS -->
   
-  <xsl:template mode="comp" match="*">
+  <xsl:template mode="comp" match="tei:*">
     <xsl:param name="speeches"/>
     <xsl:param name="words"/>
     <xsl:param name="tagUsages"/>
@@ -886,7 +890,7 @@
   <xsl:template mode="root" match="tei:listOrg">
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
-      <xsl:if test="not(ancestor::tei:particDesc//tei:org[@role = 'government'])">
+      <xsl:if test="not(.//tei:org[@role = 'government'])">
         <xsl:variable name="government-id" select="concat('government.' , $country-code)"/>
         <xsl:variable name="government-name" select="concat($country-name, ' Government')"/>
         <xsl:message select="concat('WARN ', /tei:teiCorpus/@xml:id,
