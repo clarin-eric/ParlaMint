@@ -209,7 +209,7 @@
   </xsl:variable>
   
   <xsl:variable name="house-refs">
-    <xsl:variable name="taxos" select="//tei:taxonomy"/>
+    <xsl:variable name="taxos" select="$rootHeader//tei:taxonomy"/>
     <xsl:for-each select="$houses/tei:term">
       <xsl:variable name="term" select="."/>
       <xsl:variable name="term-id">
@@ -1032,7 +1032,7 @@
             <xsl:choose>
               <xsl:when test="$new and not($old)">
 		<xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
-				     ': addinf ',$elem-name,' tagUsage ', $new/@occurs)"/>
+				     ': adding ',$elem-name,' tagUsage ', $new/@occurs)"/>
               </xsl:when>
               <xsl:when test="not($new) and $old">
 		<xsl:message select="$context/concat('INFO ', /tei:*/@xml:id,
