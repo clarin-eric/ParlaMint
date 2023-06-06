@@ -12,7 +12,7 @@ use open ':utf8';
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
-my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 0);
 
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
@@ -200,12 +200,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
 	$tmpOutDir = "$tmpDir/release.ana";
+	$tmpOutAnaDir = "$tmpDir/$anaDir";
 	$tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: *Fixing TEI.ana corpus for release\n";
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: *Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiRoot);
+	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $tmpOutAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -222,12 +223,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
 	$tmpOutDir = "$tmpDir/release.tei";
+	$tmpOutTeiDir = "$tmpDir/$teiDir";
 	$tmpTeiRoot = "$tmpOutDir/$teiRoot";
 	print STDERR "INFO: *Fixing TEI corpus for release\n";
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: *Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
+	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies, $tmpOutTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
@@ -312,7 +314,7 @@ sub factorisations {
     my @inTaxonomies = glob($inTaxonomies);
     my $teiRootTaxonomies='';
     if (-e $teiRootPath) {
-        # setting teiRoot param, which is used for determining which taxonomies has been used in TEI version
+        # setting teiRoot param, which is used for determining which taxonomies have been used in TEI version
         # and .ana interfix shouldnt be added
         print STDERR "INFO: using (TEI+TEI.ana)-shared taxonomies from $teiRootPath\n";
         $teiRootTaxonomies=" teiRoot=\"$teiRootPath\" "

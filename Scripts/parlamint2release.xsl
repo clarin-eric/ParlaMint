@@ -127,7 +127,6 @@
       <xsl:result-document href="{tei:url-new}">
 	<xsl:choose>
 	  <!-- Copy over factorised parts of corpus root teiHeader -->
-	  <!-- !!! THIS IS NOT A GOOD IDEA, as we could fix spacing errors here -->
 	  <xsl:when test="@type = 'factorised'">
             <xsl:copy-of select="document(tei:url-orig)"/>
 	  </xsl:when>
