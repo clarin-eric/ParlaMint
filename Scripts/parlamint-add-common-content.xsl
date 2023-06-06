@@ -257,7 +257,7 @@
 
   <!-- Gather URIs of XIncluded files map to new URIs incl. .ana files -->
   <xsl:variable name="docs">
-    <xsl:for-each select="/tei:teiCorpus/xi:include">
+    <xsl:for-each select="//xi:include">
       <item>
 	<xsl:attribute name="type">
 	  <xsl:choose>
