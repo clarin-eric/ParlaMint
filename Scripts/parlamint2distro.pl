@@ -206,8 +206,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: *Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	#Doesn't work, as last argument should be $tmpOutTeiDir, but this one doesn't yet exist!
-	#&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $tmpOutAnaDir);
 	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiDir);
     	&polish($outAnaDir);
     }
@@ -231,8 +229,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: *Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	# &factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies, $tmpOutTeiDir);
-	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies, $inTeiDir);
+	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
