@@ -361,7 +361,7 @@
 	<xsl:choose>
 	  <!-- Process factorised parts of corpus root teiHeader as if they were root (to fix spacing) -->
 	  <xsl:when test="@type = 'factorised'">
-            <xsl:apply-templates select="document(tei:url-orig)"/>
+            <xsl:apply-templates mode="root" select="document(tei:url-orig)"/>
 	  </xsl:when>
 	  <!-- Process component -->
 	  <xsl:when test="@type = 'component'">
@@ -377,7 +377,7 @@
     <!-- Output Root file -->
     <xsl:message>INFO: processing root </xsl:message>
     <xsl:result-document href="{$outRoot}">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root"/>
     </xsl:result-document>
   </xsl:template>
 
@@ -440,32 +440,32 @@
   
   <!-- Same as for root -->
   <xsl:template mode="comp" match="tei:teiHeader//text()">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:titleStmt/tei:title[@type = 'main']">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:publicationStmt">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:editionStmt">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:idno">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:projectDesc">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   <xsl:template mode="comp" match="tei:meeting">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   
   <xsl:template mode="comp" match="tei:extent/tei:measure[@unit='speeches']">
     <xsl:param name="speeches"/>
     <xsl:variable name="old-speeches" select="@quantity"/>
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:if test="normalize-space($speeches) and $speeches != '0'">
         <xsl:attribute name="quantity" select="$speeches"/>
         <xsl:if test="$old-speeches != $speeches">
@@ -483,7 +483,7 @@
     <xsl:param name="words"/>
     <xsl:variable name="old-words" select="@quantity"/>
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:if test="normalize-space($words) and $words != '0'">
         <xsl:attribute name="quantity" select="$words"/>
         <xsl:if test="$old-words != $words">
@@ -504,7 +504,7 @@
 			 'replacing with commentSection')"/>
 
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:attribute name="type">commentSection</xsl:attribute>
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
@@ -513,15 +513,15 @@
   <xsl:template mode="comp" match="tei:encodingDesc">
     <xsl:param name="tagUsages"/>
     <xsl:copy copy-namespaces="no">
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="./tei:projectDesc"/>
-      <xsl:apply-templates select="./tei:editorialDecl"/>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:apply-templates mode="comp" select="./tei:projectDesc"/>
+      <xsl:apply-templates mode="comp" select="./tei:editorialDecl"/>
       <xsl:call-template name="add-tagsDecl">
         <xsl:with-param name="tagUsages" select="$tagUsages"/>
       </xsl:call-template>
-      <xsl:apply-templates select="./tei:classDecl"/>
-      <xsl:apply-templates select="./tei:listPrefixDef"/>
-      <xsl:apply-templates select="./tei:appInfo"/>
+      <xsl:apply-templates mode="comp" select="./tei:classDecl"/>
+      <xsl:apply-templates mode="comp" select="./tei:listPrefixDef"/>
+      <xsl:apply-templates mode="comp" select="./tei:appInfo"/>
     </xsl:copy>
   </xsl:template>
 
@@ -548,20 +548,20 @@
       
   <!-- PROCESSING ROOT -->
   
-  <xsl:template match="*">
+  <xsl:template mode="root" match="*">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="@*">
+  <xsl:template mode="root" match="@*">
     <xsl:copy/>
   </xsl:template>
   
-  <xsl:template match="tei:teiCorpus">
+  <xsl:template mode="root" match="tei:teiCorpus">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="tei:*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root" select="tei:*"/>
       <xsl:for-each select="xi:include">
         <!-- Don't sort just by date, as otherwise if one date has more than one file,
              the order inside the date will be random; rather, just sort on @href -->
@@ -572,7 +572,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:teiCorpus/@xml:id">
+  <xsl:template mode="root" match="tei:teiCorpus/@xml:id">
     <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
     <xsl:attribute name="xml:id" select="$id"/>
     <xsl:if test=". != $id">
@@ -582,7 +582,7 @@
   </xsl:template>
   
   <!-- Check main title if it has the correct stamp, and replace if not -->
-  <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
+  <xsl:template mode="root" match="tei:titleStmt/tei:title[@type = 'main']">
     <xsl:variable name="okStamp">
       <xsl:text>[ParlaMint</xsl:text>
       <xsl:if test="normalize-space($mt)">
@@ -593,7 +593,7 @@
     </xsl:variable>
     <xsl:variable name="stamp" select="replace(., '.+(\[.+\])$', '$1')"/>
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:choose>
 	<xsl:when test="$stamp = $okStamp">
 	  <xsl:value-of select="normalize-space(.)"/>
@@ -607,9 +607,9 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:extent">
+  <xsl:template mode="root" match="tei:extent">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <!-- Schema does not allow "sessions", and it is not clear if this is the right term to use for the number of files anyway! -->
       <!--xsl:if test="not(tei:measure[@unit='sessions'])">
 	<xsl:message select="concat('WARN ', /tei:teiCorpus/@xml:id, 
@@ -635,19 +635,19 @@
 	  <xsl:with-param name="lang">en</xsl:with-param>
 	</xsl:call-template>
       </xsl:if>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:measure[@unit='sessions' or @unit='speeches' or @unit='words']">
+  <xsl:template mode="root" match="tei:measure[@unit='sessions' or @unit='speeches' or @unit='words']">
     <xsl:call-template name="add-measure"/>
   </xsl:template>
 
   <!-- Add textClass if missing and houses information is present-->
-  <xsl:template match="tei:settingDesc">
+  <xsl:template mode="root" match="tei:settingDesc">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
     <xsl:if test="not(../tei:textClass)">
       <xsl:choose>
@@ -693,9 +693,9 @@
   <!-- Insert lower and/or upper (house) for bicameral ones -->
   <!-- $house-refs give info on which is which and what they contain -->
   <!-- GB and NL have both, here we decide on the basis of the main title -->
-  <xsl:template match="tei:meeting">
+  <xsl:template mode="root" match="tei:meeting">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:if test="$house-refs/tei:ref[. = 'Bicameralism'] and 
                     not(contains(@ana, 'parla.lower') or contains(@ana, 'parla.upper'))">
         <xsl:variable name="house">
@@ -762,21 +762,21 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:if>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:publicationStmt/tei:date">
+  <xsl:template mode="root" match="tei:publicationStmt/tei:date">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:attribute name="when" select="$today-iso"/>
       <xsl:value-of select="$today-iso"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:editionStmt/tei:edition">
+  <xsl:template mode="root" match="tei:editionStmt/tei:edition">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:if test="$version != .">
         <xsl:message select="concat('INFO ', /tei:*/@xml:id,
                              ': replacing version ', ., ' with ', $version)"/>
@@ -785,9 +785,9 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:projectDesc">
+  <xsl:template mode="root" match="tei:projectDesc">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:choose>
 	<xsl:when test="tei:p[@xml:lang = 'en']">
           <xsl:message select="concat('INFO ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id,
@@ -799,19 +799,19 @@
 	</xsl:otherwise>
       </xsl:choose>
       <xsl:copy-of select="$projectDesc-en"/>
-      <xsl:apply-templates select="tei:*[not(self::tei:p[@xml:lang = 'en'])]"/>
+      <xsl:apply-templates mode="root" select="tei:*[not(self::tei:p[@xml:lang = 'en'])]"/>
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="tei:revisionDesc">
+  <xsl:template mode="root" match="tei:revisionDesc">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root" select="*"/>
       <change when="{$today-iso}">parlamint-add-common-content script: Adding common content.</change>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:idno">
+  <xsl:template mode="root" match="tei:idno">
     <xsl:copy>
       <xsl:choose>
 	<xsl:when test="ancestor::tei:publicationStmt and contains(., 'hdl.handle.net')">
@@ -851,19 +851,19 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:publicationStmt[tei:idno]/
+  <xsl:template mode="root" match="tei:publicationStmt[tei:idno]/
                        tei:pubPlace[tei:ref[matches(@target, 'hdl.handle.net')]]">
     <xsl:message select="concat('WARN ', /tei:teiCorpus/@xml:id, 
                          ': deleting redundant pubPlace')"/>
   </xsl:template>
 
-  <xsl:template match="tei:encodingDesc">
+  <xsl:template mode="root" match="tei:encodingDesc">
     <xsl:variable name="tagUsagesSum">
     </xsl:variable>
     <xsl:copy copy-namespaces="no">
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="./tei:projectDesc"/>
-      <xsl:apply-templates select="./tei:editorialDecl"/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root" select="./tei:projectDesc"/>
+      <xsl:apply-templates mode="root" select="./tei:editorialDecl"/>
       <xsl:call-template name="add-tagsDecl">
         <xsl:with-param name="tagUsages">
           <xsl:for-each select="distinct-values($tagUsages//@gi)">
@@ -876,15 +876,16 @@
           </xsl:for-each>
          </xsl:with-param>
       </xsl:call-template>
-      <xsl:apply-templates select="./tei:classDecl"/>
-      <xsl:apply-templates select="./tei:listPrefixDef"/>
-      <xsl:apply-templates select="./tei:appInfo"/>
+      <xsl:apply-templates mode="root" select="./tei:classDecl"/>
+      <xsl:apply-templates mode="root" select="./tei:listPrefixDef"/>
+      <xsl:apply-templates mode="root" select="./tei:appInfo"/>
     </xsl:copy>
   </xsl:template>
 
   <!-- Insert government organisation if missing -->
-  <xsl:template match="tei:listOrg">
+  <xsl:template mode="root" match="tei:listOrg">
     <xsl:copy>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:if test="not(ancestor::tei:particDesc//tei:org[@role = 'government'])">
         <xsl:variable name="government-id" select="concat('government.' , $country-code)"/>
         <xsl:variable name="government-name" select="concat($country-name, ' Government')"/>
@@ -897,8 +898,7 @@
           </orgName>
         </org>
       </xsl:if>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
   </xsl:template>
 
@@ -912,18 +912,18 @@
          <orgName full="init">LS</orgName>
        </org>
   -->
-  <xsl:template match="tei:org[@role='politicalParty']">
+  <xsl:template mode="root" match="tei:org[@role='politicalParty']">
     <xsl:if test="$country-code != 'GB' or (@xml:id != 'party.S' and @xml:id != 'party.LS')">
       <xsl:copy>
         <xsl:apply-templates select="@*"/>
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="root"/>
       </xsl:copy>
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="tei:affiliation[@role='member']">
+  <xsl:template mode="root" match="tei:affiliation[@role='member']">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:if test="$country-code = 'GB' and (@ref = '#party.S' or @ref = '#party.LS')">
         <xsl:attribute name="role">speaker</xsl:attribute>
         <xsl:attribute name="ref">
@@ -935,7 +935,7 @@
   </xsl:template>
 
   <!-- Remove leading, trailing and multiple spaces -->
-  <xsl:template match="text()[normalize-space(.)]">
+  <xsl:template mode="root" match="text()[normalize-space(.)]">
     <xsl:variable name="str">
       <xsl:variable name="s" select="replace(., '\s+', ' ')"/>
       <xsl:choose>
