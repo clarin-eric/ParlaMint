@@ -48,6 +48,20 @@ test1:
 	perl ../Scripts/parlamint2distro.pl -tei -ana -val -codes ${CORPUS} -in Test/In -out Test/Out \
 	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
 
+test-factorize:
+	rm -fr Test/Factorized/ParlaMint-${CORPUS}*
+	mkdir Test/Factorized || :
+	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI \
+	   prefix="ParlaMint-${CORPUS}-" \
+	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
+	   Test/In/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
+	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI.ana \
+	   prefix="ParlaMint-${CORPUS}-" \
+	   teiRoot=`pwd`"/Test/Factorized/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml" \
+	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
+	   Test/In/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
+
+
 errs1:
 	grep -i error Logs/*.log | \
 	grep -v '...suppressing' | grep -v 'Format errors' | grep -v 'Syntax errors' | grep -v 'FAILED'
