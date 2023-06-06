@@ -45,7 +45,7 @@ FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${
 #Tests
 test1:
 	rm -fr Test/Out/ParlaMint-${CORPUS}*
-	perl ../Scripts/parlamint2distro.pl -common -tei -ana -val -codes ${CORPUS} -in Test/In -out Test/Out \
+	perl ../Scripts/parlamint2distro.pl -tei -ana -val -codes ${CORPUS} -in Test/In -out Test/Out \
 	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
 
 errs1:

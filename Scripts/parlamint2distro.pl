@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 # Make ParlaMint corpora ready for distribution:
-# 1. Finalize input corpora (version, date, handle, extent + factorisation)
+# 1. Finalize input corpora (version, date, handle, extent)
 # 2. Validate corpora
-# 3. Produce derived format
-# License: CC0
-# Uses proper command line options.
-#
+# 3. Produce derived formats
+# For help on parameters do
+# $ parlamint2distro.pl -h
+# 
 use warnings;
 use utf8;
 use open ':utf8';
@@ -37,8 +37,6 @@ sub usage {
     print STDERR ("    <Output> is the directory where output directories are written.\n");
     
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
-    print STDERR ("    * -factorise: puts taxonomies and listOrg/Person in separate files\n");
-    print STDERR ("    * -common: use common taxonomies, rather than corpus-specific ones\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
     print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
     print STDERR ("    * -sample: produces samples (from TEI.ana and TEI output)\n");
@@ -61,8 +59,6 @@ use File::Copy;
 use File::Copy::Recursive qw(dircopy);
 
 my $procAll    = 0;
-my $procFactor = 2;
-my $procCommon = 2;
 my $procAna    = 2;
 my $procTei    = 2;
 my $procSample = 2;
@@ -83,8 +79,6 @@ GetOptions
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
-     'factorise!' => \$procFactor,
-     'common!'    => \$procCommon,
      'ana!'       => \$procAna,
      'tei!'       => \$procTei,
      'sample!'    => \$procSample,
@@ -93,9 +87,6 @@ GetOptions
      'conll!'     => \$procConll,
      'vert!'      => \$procVert,
 );
-
-#We need $procFactor if $procCommon is set!
-if ($procCommon) {$procFactor = $procCommon}
 
 if ($help) {
     &usage;
@@ -113,11 +104,6 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
-$factoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
-$factoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
-$factoriseFiles .= 'ParlaMint-taxonomy-speaker_types.xml ';
-$factoriseFiles .= 'ParlaMint-taxonomy-subcorpus.xml ';
-
 # We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
 $taxonomyDir = "$Bin/../Data/Taxonomies";
 # Currently we do it only for subcorpus
@@ -128,7 +114,6 @@ $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-t
 #$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
-$scriptFactor  = "$Bin/parlamint-factorize-teiHeader.xsl";
 $scriptRelease = "$Bin/parlamint2release.xsl";
 $scriptCommon  = "$Bin/parlamint-add-common-content.xsl";
 $scriptPolish  = "$Bin/polish-xml.pl";
@@ -202,11 +187,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutDir = "$tmpDir/release.ana";
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
-	print STDERR "INFO: *Fixing TEI.ana corpus for release\n";
+	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
-	print STDERR "INFO: *Adding common content to TEI.ana corpus\n";
+	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiDir);
+	&commonTaxonomies($outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -225,11 +210,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	my $tmpOutDir = "$tmpDir/release.tei";
 	my $tmpOutTeiDir = "$tmpDir/$teiDir";
 	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
-	print STDERR "INFO: *Fixing TEI corpus for release\n";
+	print STDERR "INFO: ***Fixing TEI corpus for release\n";
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
-	print STDERR "INFO: *Adding common content to TEI corpus\n";
+	print STDERR "INFO: ***Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
+	&commonTaxonomies($outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
@@ -299,51 +284,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
 }
 
-# Factorise teiHeader if necessary
-sub factorisations {
-    my $Root = shift;
+# Substitute local with common taxonomies
+sub commonTaxonomies {
     my $Dir = shift;
-    my $listOrg = shift;
-    my $listPerson = shift;
-    my $taxonomies = shift;
-    my $teiRootPath = shift // '';
-    my $factorised = 0;
-    my $inListOrg    = "$Dir/$listOrg";
-    my $inListPerson = "$Dir/$listPerson";
-    my $inTaxonomies = "$Dir/$taxonomies";
-    my @inTaxonomies = glob($inTaxonomies);
-    my $teiRootTaxonomies='';
-    if (-e $teiRootPath) {
-        # setting teiRoot param, which is used for determining which taxonomies have been used in TEI version
-        # and .ana interfix shouldnt be added
-        print STDERR "INFO: using (TEI+TEI.ana)-shared taxonomies from $teiRootPath\n";
-        $teiRootTaxonomies=" teiRoot=\"$teiRootPath\" "
-    }
-    # Prefix to put in front of the factorised files.
-    my ($prefix) = $Root =~ m|([^/]+?)\.|;
-    $prefix .= '-';
-
-    if (-e $inListOrg) {$factorised = 1}
-    elsif (not $procFactor) {print STDERR "WARN: $inListOrg not found\n"}
-    if (-e $inListPerson) {$factorised = 1}
-    elsif (not $procFactor) {print STDERR "WARN: $inListPerson not found\n"}
-    if (@inTaxonomies) {$factorised = 1}
-    elsif (not $procFactor) {print STDERR "WARN: $inTaxonomies not found\n"}
-    if ($procFactor or $procCommon) {
-	if ($factorised) {print STDERR "INFO: $Dir already (fully/partially) factorised\n"}
-	print STDERR "INFO: Factorising $Root\n";
-	$tmpOutDir = "$tmpDir/factorise";
-	`$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
-	`cp $tmpOutDir/*.xml $Dir`;
-	if ($procCommon) {
-	    foreach my $taxonomy (sort keys %taxonomy) {
-		#Eventually we will need an XSLT to extract from common taxonomies catDesc with relevant @xml:lang(s)!
-		`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
-	    }
-	}
-    }
-    elsif (not $factorised) {
-	print STDERR "ERROR: $Dir not factorised, but -factorise or -common flag not set!\n"
+    foreach my $taxonomy (sort keys %taxonomy) {
+	`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
     }
     return 1;
 }
