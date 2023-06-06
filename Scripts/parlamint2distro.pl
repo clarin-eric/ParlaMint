@@ -199,14 +199,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
-	$tmpOutDir = "$tmpDir/release.ana";
-	$tmpOutAnaDir = "$tmpDir/$anaDir";
-	$tmpAnaRoot = "$tmpOutDir/$anaRoot";
+	my $tmpOutDir = "$tmpDir/release.ana";
+	my $tmpOutAnaDir = "$tmpDir/$anaDir";
+	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
 	print STDERR "INFO: *Fixing TEI.ana corpus for release\n";
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: *Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $tmpOutAnaDir);
+	#Doesn't work, as last argument should be $tmpOutTeiDir, but this one doesn't yet exist!
+	#&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $tmpOutAnaDir);
+	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies, $inTeiDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -222,14 +224,15 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
-	$tmpOutDir = "$tmpDir/release.tei";
-	$tmpOutTeiDir = "$tmpDir/$teiDir";
-	$tmpTeiRoot = "$tmpOutDir/$teiRoot";
+	my $tmpOutDir = "$tmpDir/release.tei";
+	my $tmpOutTeiDir = "$tmpDir/$teiDir";
+	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
 	print STDERR "INFO: *Fixing TEI corpus for release\n";
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: *Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies, $tmpOutTeiDir);
+	# &factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies, $tmpOutTeiDir);
+	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies, $inTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
