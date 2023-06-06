@@ -40,12 +40,12 @@ web:
 	rsync -av Packed/*.tgz ${WEB}/Repo
 
 ###### Targets for producing releasable version of ParlaMint corpora
-FINALIZE = ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs 
+FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
 
 #Tests
 test1:
 	rm -fr Test/Out/ParlaMint-${CORPUS}*
-	../Scripts/parlamint2distro.pl -common -tei -ana -val -codes ${CORPUS} -in Test/In -out Test/Out \
+	perl ../Scripts/parlamint2distro.pl -common -tei -ana -val -codes ${CORPUS} -in Test/In -out Test/Out \
 	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
 
 errs1:
@@ -69,9 +69,9 @@ nohup:
 all:	final verts pack
 
 pack:
-	../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
+	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
 verts:
-	../Scripts/join-verts.pl -codes '${CORPORA}' -in Master -out Verts
+	perl ../Scripts/join-verts.pl -codes '${CORPORA}' -in Master -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
@@ -90,12 +90,12 @@ final:
 
 ### Make joint vert for all ParlaMint corpora - Still neet to think aout this!
 all-verts:
-	../Scripts/join-all-verts.pl -in 'Corpora/ParlaMint-B*.vert/*/*.vert' -out Verts/ParlaMint-XX.3.0.vert.gz
+	perl ../Scripts/join-all-verts.pl -in 'Corpora/ParlaMint-B*.vert/*/*.vert' -out Verts/ParlaMint-XX.3.0.vert.gz
 
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT = ../Scripts/parlamint2distro.pl -anahandle ${HANDLE-MT} -schema ${DOC}/Schema -docs ${HERE}/Docs 
+FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -anahandle ${HANDLE-MT} -schema ${DOC}/Schema -docs ${HERE}/Docs
 
 # Targets
 mt-nohup:
@@ -104,12 +104,12 @@ mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack
 
 mt-pack:
-	../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
+	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
 mt-verts:
-	../Scripts/join-mt-verts.pl -codes '${CORPORA}' -in Master -out Verts
+	perl ../Scripts/join-mt-verts.pl -codes '${CORPORA}' -in Master -out Verts
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
-	../Scripts/mt-conllu2tei.pl \
+	perl ../Scripts/mt-conllu2tei.pl \
 	${SOURCE}/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCE-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCE-MT}/ParlaMint-$${CORPUS}-en.conllu \
@@ -136,7 +136,7 @@ mt-test5:
 	${vra} Test/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml
 	${vca} Test/ParlaMint-AT-en.TEI.ana/1996/*.xml
 mt-test4:
-	../Scripts/mt-insert-s.pl \
+	perl ../Scripts/mt-insert-s.pl \
 	  Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.body.xml \
 	< Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.ana.xml
@@ -146,7 +146,7 @@ mt-test3:
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml
 mt-test2:
-	../Scripts/conllu2tei.pl \
+	perl ../Scripts/conllu2tei.pl \
 	< taja/ParlaMint-AT.conllu.translated/1996/ParlaMint-AT_1996-01-30-020-XX-NRSITZ-00004.conllu \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.body.xml
 mt-test1:
@@ -157,7 +157,7 @@ mt-test1:
 mt-prep-nohup:
 	nohup time make mt-prep-cnv > Logs/ParlaMint-${CORPUS}-mt2tei.log &
 mt-prep-cnv:
-	../Scripts/mt-conllu2tei.pl \
+	perl ../Scripts/mt-conllu2tei.pl \
 	${SOURCE}/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml \
 	${SOURCE-MT}/ParlaMint-${CORPUS}-en-notes.tsv \
 	${SOURCE-MT}/ParlaMint-${CORPUS}-en.conllu \
