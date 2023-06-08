@@ -919,7 +919,7 @@
   <xsl:template mode="root" match="tei:org[@role='politicalParty']">
     <xsl:if test="$country-code != 'GB' or (@xml:id != 'party.S' and @xml:id != 'party.LS')">
       <xsl:copy>
-        <xsl:apply-templates select="@*"/>
+        <xsl:apply-templates  mode="root" select="@*"/>
         <xsl:apply-templates mode="root"/>
       </xsl:copy>
     </xsl:if>
