@@ -563,7 +563,11 @@
     <xsl:variable name="noteOut2" select="replace($noteOut1,'^\s*\[\s*([^\[\]]*?)\s*\][\s\.]*$','$1')"/>
     <xsl:variable name="noteOut3" select="replace($noteOut2,'^\s*/\s*([^/]*?)\s*/[\s\.]*$','$1')"/>
     <xsl:variable name="noteOut4" select="replace($noteOut3,'^\s*\(\s*([^\(\)]*?)\s*\)[\s\.]*$','$1')"/>
-    <xsl:value-of select="$noteOut4"/>
+    <xsl:choose>
+      <xsl:when test="$noteIn = $noteOut4"><xsl:value-of select="$noteOut4"/></xsl:when>
+      <!-- make it recursive to make sure that double normalization has the same result -->
+      <xsl:otherwise><xsl:value-of select="mk:normalize-note($noteOut4)"/></xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
 
   <!-- Format number-->
