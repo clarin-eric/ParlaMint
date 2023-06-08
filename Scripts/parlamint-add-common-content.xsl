@@ -384,7 +384,7 @@
   </xsl:template>
 
   <xsl:template match="* | @*">
-    <xsl:message terminate="yes">ILLEGAL TEMPLATE USED</xsl:message>
+    <xsl:message terminate="yes">All templates must have mode comp or root!</xsl:message>
   </xsl:template>
   
   <!-- PROCESSING COMPONENTS -->

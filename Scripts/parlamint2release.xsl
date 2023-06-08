@@ -126,9 +126,9 @@
       <xsl:message select="concat('INFO Processing ', $this)"/>
       <xsl:result-document href="{tei:url-new}">
 	<xsl:choose>
-	  <!-- Copy over factorised parts of corpus root teiHeader -->
+	  <!-- Process factorised parts of corpus root teiHeader as if they were root -->
 	  <xsl:when test="@type = 'factorised'">
-            <xsl:copy-of select="document(tei:url-orig)"/>
+            <xsl:apply-templates mode="root" select="document(tei:url-orig)"/>
 	  </xsl:when>
 	  <!-- Process component -->
 	  <xsl:when test="@type = 'component'">
@@ -140,42 +140,46 @@
     <!-- Output Root file -->
     <xsl:message>INFO processing root </xsl:message>
     <xsl:result-document href="{$outRoot}">
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root"/>
     </xsl:result-document>
   </xsl:template>
 
+  <xsl:template match="* | @*">
+    <xsl:message terminate="yes">All templates must have mode comp or root!</xsl:message>
+  </xsl:template>
+  
   <!-- Finalizing root file -->
   
-  <xsl:template match="*">
+  <xsl:template mode="root" match="*">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
   </xsl:template>
-  <xsl:template match="@*">
+  <xsl:template mode="root" match="@*">
     <xsl:copy/>
   </xsl:template>
   
-  <xsl:template match="tei:teiCorpus">
+  <xsl:template mode="root" match="tei:teiCorpus">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates select="tei:*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root" select="tei:*"/>
       <xsl:for-each select="xi:include">
         <xsl:copy-of select="."/>
       </xsl:for-each>
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:revisionDesc">
+  <xsl:template mode="root" match="tei:revisionDesc">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <change when="{$today-iso}">parlamint2release script: Fix some identifiable erros for the release.</change>
-      <xsl:apply-templates select="*"/>
+      <xsl:apply-templates mode="root" select="*"/>
     </xsl:copy>
   </xsl:template>
   
   <!-- Some corpora are missing textClass in root, add it before particDesc-->
-  <xsl:template match="tei:particDesc">
+  <xsl:template mode="root" match="tei:particDesc">
     <xsl:if test="not(../tei:textClass)">
       <xsl:variable name="target">
 	<xsl:choose>
@@ -210,8 +214,8 @@
     </xsl:if>
     <!-- Now process particDesc -->
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:apply-templates/>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:apply-templates mode="root"/>
     </xsl:copy>
   </xsl:template>
     
@@ -225,18 +229,18 @@
          <orgName full="init">LS</orgName>
        </org>
   -->
-  <xsl:template match="tei:org[@role='politicalParty']">
+  <xsl:template mode="root" match="tei:org[@role='politicalParty']">
     <xsl:if test="$country-code != 'GB' or (@xml:id != 'party.S' and @xml:id != 'party.LS')">
       <xsl:copy>
-        <xsl:apply-templates  select="@*"/>
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="root" select="@*"/>
+        <xsl:apply-templates mode="root"/>
       </xsl:copy>
     </xsl:if>
   </xsl:template>
   
-  <xsl:template match="tei:idno">
+  <xsl:template mode="root" match="tei:idno">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <!-- AT: <idno type="parlament.gv.at" xml:lang="de">https://www.parlament.gv.at/WWER/PAD_01018/index.shtml</idno> -->
       <xsl:if test="contains(@type, 'parlament')">
 	<xsl:attribute name="type">URI</xsl:attribute>
@@ -248,9 +252,9 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="tei:affiliation[@role='member']">
+  <xsl:template mode="root" match="tei:affiliation[@role='member']">
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:if test="$country-code = 'GB' and (@ref = '#party.S' or @ref = '#party.LS')">
         <xsl:attribute name="role">speaker</xsl:attribute>
         <xsl:attribute name="ref">
@@ -261,7 +265,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="text()">
+  <xsl:template mode="root" match="text()">
     <xsl:choose>
       <xsl:when test="not(../tei:*)">
 	<xsl:if test="starts-with(., '\s') or ends-with(., '\s')">
@@ -316,7 +320,7 @@
   </xsl:template>
   
   <xsl:template mode="comp" match="text()">
-    <xsl:apply-templates select="."/>
+    <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   
   <!-- Some corpora are missing reference to the parliamentary body of the meeting, add it -->
@@ -383,7 +387,7 @@
 			 'replacing with commentSection')"/>
 
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:attribute name="type">commentSection</xsl:attribute>
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
@@ -408,7 +412,7 @@
                          ': comment normalization ',$textIn,' to ', $textOut, '')"/>
     </xsl:if>
     <xsl:copy>
-      <xsl:apply-templates select="@*"/>
+      <xsl:apply-templates mode="root" select="@*"/>
       <xsl:value-of select="$textOut"/>
     </xsl:copy>
   </xsl:template>
@@ -521,7 +525,7 @@
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:attribute>
-      <xsl:apply-templates select="@target"/>
+      <xsl:apply-templates mode="root" select="@target"/>
     </xsl:copy>
   </xsl:template>
 
@@ -534,7 +538,7 @@
                                ': replacing ud-syn:&lt;PAD&gt; with ud-syn:dep')"/>
 	<xsl:text>ud-syn:dep</xsl:text>
       </xsl:attribute>
-      <xsl:apply-templates select="@target"/>
+      <xsl:apply-templates mode="comp" select="@target"/>
     </xsl:copy>
   </xsl:template>
 
