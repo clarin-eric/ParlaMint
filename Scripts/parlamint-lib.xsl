@@ -7,7 +7,8 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0" 
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:et="http://nl.ijs.si/et" 
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
+  xmlns:et="http://nl.ijs.si/et"
   exclude-result-prefixes="#all"
   version="2.0">
 
@@ -554,6 +555,17 @@
     </xsl:choose>
   </xsl:template>
   
+  <!-- Notes and incidents normalization - removing brackets and normalize spces-->
+  <xsl:function name="mk:normalize-note" as="xs:string">
+    <xsl:param name="noteIn" as="xs:string"/>
+    <xsl:variable name="noteOut1" select="normalize-space($noteIn)"/>
+    <!-- plain notes without any inner brackets of the same type-->
+    <xsl:variable name="noteOut2" select="replace($noteOut1,'^\s*\[\s*([^\[\]]*?)\s*\][\s\.]*$','$1')"/>
+    <xsl:variable name="noteOut3" select="replace($noteOut2,'^\s*/\s*([^/]*?)\s*/[\s\.]*$','$1')"/>
+    <xsl:variable name="noteOut4" select="replace($noteOut3,'^\s*\(\s*([^\(\)]*?)\s*\)[\s\.]*$','$1')"/>
+    <xsl:value-of select="$noteOut4"/>
+  </xsl:function>
+
   <!-- Format number-->
   <xsl:function name="et:format-number" as="xs:string">
     <xsl:param name="lang" as="xs:string"/>

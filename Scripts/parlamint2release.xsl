@@ -32,6 +32,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:et="http://nl.ijs.si/et" 
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="xsl tei et xs xi"
@@ -352,7 +353,31 @@
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
-      
+
+  <!-- Normalize nonempty notes and incidents -->
+  <xsl:template mode="comp" match="tei:note[normalize-space(.)
+                                            and not(./element())]
+                                    |
+                                    tei:incident/tei:desc | tei:kinesic/tei:desc | tei:vocal/tei:desc
+                                    ">
+    <xsl:variable name="textIn" select="./text()"/>
+    <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
+    <xsl:if test="not($textIn = $textOut)">
+      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id,
+                         ': note/incident normalization ',$textIn,' to ', $textOut, '')"/>
+    </xsl:if>
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:value-of select="$textOut"/>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:note[./element()] ">
+    <!-- notes can contain mixed content (text - time - text) -->
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
+                         ': skipping note/element() normalization ',copy-of(.),' ancestor:', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <xsl:copy-of select="."/>
+  </xsl:template>
+
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
