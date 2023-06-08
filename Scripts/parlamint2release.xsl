@@ -8,7 +8,6 @@
      STDERR gives a detailed log of changes.
 
      Changes to root file:
-     - give correct type and subtype to idno
      - delete old and now redundant pubPlace
      - insert textClass if missing
      - fix some corpus-dependent (GB) orgs and affiliations 
@@ -235,6 +234,20 @@
     </xsl:if>
   </xsl:template>
   
+  <xsl:template match="tei:idno">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <!-- AT: <idno type="parlament.gv.at" xml:lang="de">https://www.parlament.gv.at/WWER/PAD_01018/index.shtml</idno> -->
+      <xsl:if test="contains(@type, 'parlament')">
+	<xsl:attribute name="type">URI</xsl:attribute>
+	<xsl:attribute name="subtype">parliament</xsl:attribute>
+	<xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                             ': fixing idno (sub)type for parliament for ', .)"/>
+      </xsl:if>
+      <xsl:value-of select="normalize-space(.)"/>
+    </xsl:copy>
+  </xsl:template>
+
   <xsl:template match="tei:affiliation[@role='member']">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -252,7 +265,7 @@
     <xsl:choose>
       <xsl:when test="not(../tei:*)">
 	<xsl:if test="starts-with(., '\s') or ends-with(., '\s')">
-	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
                                ': removing spurious space from ', .)"/>
 	</xsl:if>
 	<xsl:value-of select="normalize-space(.)"/>
@@ -403,7 +416,7 @@
     <!-- Comments can contain mixed content (text - time - text) -->
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
-			 ' skipping comment normalization ', normalize-space(.),' ancestor:', )"/>
+			 ' skipping comment normalization ', normalize-space(.))"/>
     <xsl:copy-of select="."/>
   </xsl:template>
 

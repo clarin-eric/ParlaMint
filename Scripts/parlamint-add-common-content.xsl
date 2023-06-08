@@ -12,6 +12,7 @@
      - sets main title ParlaMint stamp
      - sets correct references to date-dependent subcorpora (#reference, #COVID, #War)
      - sets ParlaMint II English projectDesc
+     - gives correct type and subtype to idno
      - calculates speech and word extents
      - calculates tagUsage
      - inserts bi- or uni-cameralism if missing
