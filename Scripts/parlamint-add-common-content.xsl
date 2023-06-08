@@ -11,7 +11,7 @@
      - sets correct top level ID so it is the same as filename
      - sets main title ParlaMint stamp
      - sets correct references to date-dependent subcorpora (#reference, #COVID, #War)
-     - set ParlaMint II English projectDesc
+     - sets ParlaMint II English projectDesc
      - calculates speech and word extents
      - calculates tagUsage
      - inserts bi- or uni-cameralism if missing
@@ -19,6 +19,7 @@
      - changes div/@type="debateSection" to ="commentSection" if div contains no utterances
      - removes spurious handle ref
      - removes spurious spaces
+     - sorts XIncluded component files
 -->
 <xsl:stylesheet 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -567,9 +568,6 @@
       <xsl:apply-templates mode="root" select="@*"/>
       <xsl:apply-templates mode="root" select="tei:*"/>
       <xsl:for-each select="xi:include">
-        <!-- Don't sort just by date, as otherwise if one date has more than one file,
-             the order inside the date will be random; rather, just sort on @href -->
-        <!--xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/-->
         <xsl:sort select="@href"/>
         <xsl:copy-of select="."/>
       </xsl:for-each>
@@ -696,7 +694,7 @@
   
   <!-- Insert lower and/or upper (house) for bicameral ones -->
   <!-- $house-refs give info on which is which and what they contain -->
-  <!-- GB and NL have both, here we decide on the basis of the main title -->
+  <!-- Some have both, here we decide on the basis of the main title -->
   <xsl:template mode="root" match="tei:meeting">
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
@@ -903,38 +901,6 @@
         </org>
       </xsl:if>
       <xsl:apply-templates mode="root"/>
-    </xsl:copy>
-  </xsl:template>
-
-  <!-- Remove the two "speaker" parties from GB, i.e. 
-       <org role="politicalParty" xml:id="party.S">
-         <orgName full="yes">Speaker</orgName>
-         <orgName full="init">S</orgName>
-       </org>
-       <org role="politicalParty" xml:id="party.LS">
-         <orgName full="yes">Lord Speaker</orgName>
-         <orgName full="init">LS</orgName>
-       </org>
-  -->
-  <xsl:template mode="root" match="tei:org[@role='politicalParty']">
-    <xsl:if test="$country-code != 'GB' or (@xml:id != 'party.S' and @xml:id != 'party.LS')">
-      <xsl:copy>
-        <xsl:apply-templates  mode="root" select="@*"/>
-        <xsl:apply-templates mode="root"/>
-      </xsl:copy>
-    </xsl:if>
-  </xsl:template>
-  
-  <xsl:template mode="root" match="tei:affiliation[@role='member']">
-    <xsl:copy>
-      <xsl:apply-templates mode="root" select="@*"/>
-      <xsl:if test="$country-code = 'GB' and (@ref = '#party.S' or @ref = '#party.LS')">
-        <xsl:attribute name="role">speaker</xsl:attribute>
-        <xsl:attribute name="ref">
-          <xsl:if test="@ref = '#party.S'">#parla.lower</xsl:if>
-          <xsl:if test="@ref = '#party.LS'">#parla.upper</xsl:if>
-        </xsl:attribute>
-      </xsl:if>
     </xsl:copy>
   </xsl:template>
 

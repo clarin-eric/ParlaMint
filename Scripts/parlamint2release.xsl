@@ -8,10 +8,10 @@
      STDERR gives a detailed log of changes.
 
      Changes to root file:
-     - sort XIncluded component files
      - give correct type and subtype to idno
      - delete old and now redundant pubPlace
      - insert textClass if missing
+     - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
      Changes to component files:
@@ -162,10 +162,6 @@
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates select="tei:*"/>
       <xsl:for-each select="xi:include">
-        <!-- Don't sort by date, as otherwise if one date has more than one file,
-             the order inside the date will be random; rather, just sort on @href -->
-        <!--xsl:sort select="replace(@href, '.+?_(\d\d\d\d-\d\d-\d\d).*', '$1')"/-->
-        <xsl:sort select="@href"/>
         <xsl:copy-of select="."/>
       </xsl:for-each>
     </xsl:copy>
@@ -220,6 +216,38 @@
     </xsl:copy>
   </xsl:template>
     
+  <!-- Remove the two "speaker" parties from GB, i.e. 
+       <org role="politicalParty" xml:id="party.S">
+         <orgName full="yes">Speaker</orgName>
+         <orgName full="init">S</orgName>
+       </org>
+       <org role="politicalParty" xml:id="party.LS">
+         <orgName full="yes">Lord Speaker</orgName>
+         <orgName full="init">LS</orgName>
+       </org>
+  -->
+  <xsl:template match="tei:org[@role='politicalParty']">
+    <xsl:if test="$country-code != 'GB' or (@xml:id != 'party.S' and @xml:id != 'party.LS')">
+      <xsl:copy>
+        <xsl:apply-templates  select="@*"/>
+        <xsl:apply-templates/>
+      </xsl:copy>
+    </xsl:if>
+  </xsl:template>
+  
+  <xsl:template match="tei:affiliation[@role='member']">
+    <xsl:copy>
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="$country-code = 'GB' and (@ref = '#party.S' or @ref = '#party.LS')">
+        <xsl:attribute name="role">speaker</xsl:attribute>
+        <xsl:attribute name="ref">
+          <xsl:if test="@ref = '#party.S'">#parla.lower</xsl:if>
+          <xsl:if test="@ref = '#party.LS'">#parla.upper</xsl:if>
+        </xsl:attribute>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>
+
   <xsl:template match="text()">
     <xsl:choose>
       <xsl:when test="not(../tei:*)">
@@ -360,11 +388,11 @@
                                     |
                                     tei:incident/tei:desc | tei:kinesic/tei:desc | tei:vocal/tei:desc
                                     ">
-    <xsl:variable name="textIn" select="./text()"/>
+    <xsl:variable name="textIn" select="."/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
     <xsl:if test="not($textIn = $textOut)">
       <xsl:message select="concat('INFO ', /tei:TEI/@xml:id,
-                         ': note/incident normalization ',$textIn,' to ', $textOut, '')"/>
+                         ': comment normalization ',$textIn,' to ', $textOut, '')"/>
     </xsl:if>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
@@ -372,9 +400,10 @@
     </xsl:copy>
   </xsl:template>
   <xsl:template mode="comp" match="tei:note[./element()] ">
-    <!-- notes can contain mixed content (text - time - text) -->
+    <!-- Comments can contain mixed content (text - time - text) -->
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
-                         ': skipping note/element() normalization ',copy-of(.),' ancestor:', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+                         ': for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+			 ' skipping comment normalization ', normalize-space(.),' ancestor:', )"/>
     <xsl:copy-of select="."/>
   </xsl:template>
 
