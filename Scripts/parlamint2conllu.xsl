@@ -26,6 +26,7 @@
   <xsl:variable name="listPrefix" select="$rootHeader//tei:listPrefixDef"/>
 
   <!-- Is this a multilingual CoNLL-U? -->
+  <!-- Variable not needed 
   <xsl:variable name="multiLang" as="xs:boolean">
     <xsl:choose>
       <xsl:when test="normalize-space($seg-lang)">
@@ -39,7 +40,8 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
-
+  -->
+  
   <xsl:template match="text()"/>
 
   <!-- A speech corresponds to a document -->
@@ -61,9 +63,9 @@
       <xsl:when test="tei:s">
         <xsl:if test="not(normalize-space($seg-lang)) or $lang = $seg-lang">
           <xsl:value-of select="concat('# newpar id = ', @xml:id, '&#10;')"/>
-	  <xsl:if test="$multiLang">
-            <xsl:value-of select="concat('# lang = ', $lang, '&#10;')"/>
-	  </xsl:if>
+	  <!--xsl:if test="$multiLang"-->
+          <xsl:value-of select="concat('# lang = ', $lang, '&#10;')"/>
+	  <!--/xsl:if-->
           <xsl:apply-templates select="tei:s"/>
         </xsl:if>
       </xsl:when>
