@@ -1,6 +1,6 @@
 MC = BE
 HERE = /project/corpora/Parla/ParlaMint/ParlaMint-documentation/Data/Orientations/
-V3  = /project/corpora/Parla/ParlaMint/V3/Master
+V3  = /project/corpora/Parla/ParlaMint/ParlaMint-full/Data/Corpora/
 RUN = ../../Scripts
 SCH = ../../Schema
 OUT = tmp
