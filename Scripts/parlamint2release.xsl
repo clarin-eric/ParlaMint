@@ -14,7 +14,7 @@
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
      Changes to component files:
-     - add reference to parliamentary body of the meeting, if missing
+     - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change div/@type for divs without utterances
      - remove empty notes
      - assign IDs to segments without them
@@ -178,47 +178,6 @@
     </xsl:copy>
   </xsl:template>
   
-  <!-- Some corpora are missing textClass in root, add it before particDesc-->
-  <xsl:template mode="root" match="tei:particDesc">
-    <xsl:if test="not(../tei:textClass)">
-      <xsl:variable name="target">
-	<xsl:choose>
-	  <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
-	  <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'EE'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'FR'">#parla.lower</xsl:when>
-	  <xsl:when test="$country-code = 'GB'">#parla.lower #parla.upper</xsl:when>
-	  <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'IS'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'LV'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'PL'">#parla.lower #parla.upper</xsl:when>
-	  <xsl:when test="$country-code = 'SE'">#parla.uni</xsl:when>
-	  <xsl:when test="$country-code = 'SI'">#parla.lower</xsl:when>
-	  <xsl:when test="$country-code = 'TR'">#parla.uni</xsl:when>
-	</xsl:choose>
-      </xsl:variable>
-	<xsl:choose>
-	  <xsl:when test="normalize-space($target)">
-	    <textClass>
-              <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="{$target}"/>
-	    </textClass>
-	    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-				 ': adding textClass for ', $target)"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-				 ': no textClass, and no value found to fix!')"/>
-	  </xsl:otherwise>
-	</xsl:choose>
-    </xsl:if>
-    <!-- Now process particDesc -->
-    <xsl:copy>
-      <xsl:apply-templates mode="root" select="@*"/>
-      <xsl:apply-templates mode="root"/>
-    </xsl:copy>
-  </xsl:template>
-    
   <!-- Remove the two "speaker" parties from GB, i.e. 
        <org role="politicalParty" xml:id="party.S">
          <orgName full="yes">Speaker</orgName>
@@ -260,6 +219,23 @@
     </xsl:copy>
   </xsl:template>
 
+  <xsl:template mode="root" match="tei:meeting">
+    <xsl:copy>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:if test="not(contains(@ana, 'parla.upper') or contains(@ana, 'parla.lower') or contains(@ana, 'parla.committee'))">
+	<xsl:choose>
+          <xsl:when test="$country-code = 'GB' and
+                          contains(/tei:TEI/tei:teiHeader//tei:titleStmt
+                          /tei:title[@type='main'],
+                          'Commons')">
+	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
+	  </xsl:when>
+	</xsl:choose>
+	<xsl:apply-templates mode="root"/>
+      </xsl:if>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template mode="root" match="tei:affiliation[@role='member']">
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
@@ -331,61 +307,38 @@
     <xsl:apply-templates mode="root" select="."/>
   </xsl:template>
   
-  <!-- Some corpora are missing reference to the parliamentary body of the meeting, add it -->
-  <xsl:template mode="comp" match="tei:meeting/@ana">
-    <!-- BE uses their own special category for this, change to common category -->
-    <xsl:attribute name="ana">
-      <xsl:variable name="ana-this" select="replace(., '#parla.meeting.committee', '#parla.committee')"/>
-      <xsl:variable name="ana-all">
-	<xsl:variable name="all">
-	  <xsl:for-each select="../../tei:meeting">
-	    <xsl:value-of select="concat(@ana, ' ')"/>
-	  </xsl:for-each>
-	</xsl:variable>
-	<xsl:for-each select="distinct-values(tokenize(normalize-space($all), ' '))">
-	  <xsl:value-of select="replace(., '#parla.meeting.committee', '#parla.committee')"/>
-	  <xsl:text>&#32;</xsl:text>
-	</xsl:for-each>
-      </xsl:variable>
-      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ana this is ', $ana-this)"/-->
-      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ana all is ', $ana-all)"/-->
-      <xsl:variable name="ok">
-	<xsl:for-each select="distinct-values(tokenize(normalize-space($ana-all), ' '))">
-	  <xsl:value-of select="key('idr', ., $rootHeader)
-				[ancestor::tei:category[tei:catDesc/tei:term = 'Organization']]/@xml:id"/>
-	</xsl:for-each>
-      </xsl:variable>
-      <!--xsl:message select="concat('INFO ', /tei:TEI/@xml:id, ': ok is ', $ok)"/-->
-      <xsl:if test="not(normalize-space($ok))">
-	<xsl:variable name="body">
-	  <xsl:choose>
-	    <xsl:when test="$country-code = 'AT'">#parla.lower</xsl:when>
-	    <xsl:when test="$country-code = 'BA'">#parla.uni</xsl:when>
-	    <xsl:when test="$country-code = 'BE'">#parla.lower</xsl:when>
-	    <xsl:when test="$country-code = 'BG'">#parla.uni</xsl:when>
-	    <xsl:when test="$country-code = 'CZ'">#parla.lower</xsl:when>
-	    <xsl:when test="$country-code = 'DK'">#parla.uni</xsl:when>
-	    <xsl:when test="$country-code = 'ES-PV'">#parla.uni</xsl:when>
-	    <xsl:when test="$country-code = 'HU'">#parla.uni</xsl:when>
-	    <xsl:when test="$country-code = 'LV'">#parla.uni</xsl:when>
-	    <xsl:when test="$country-code = 'SI'">#parla.lower</xsl:when>
-	    <xsl:when test="$country-code = 'TR'">#parla.uni</xsl:when>
-	  </xsl:choose>
-	</xsl:variable>
-	<xsl:choose>
-	  <xsl:when test="$body">
+  <!-- Some specific corpora are missing reference to the parliamentary body of the meeting, add it -->
+  <!-- Note that add-common-content takes care of this too in a more general setting -->
+  <xsl:template mode="comp" match="tei:meeting">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:variable name="ana" select="replace(@ana, 'parla\.meeting\.committee', 'parla.committee')"/>
+      <xsl:attribute name="ana">
+	<!-- BE uses their own special category for commitee meetings, change to common category -->
+	<xsl:if test="not(contains($ana, 'parla.upper') or contains($ana, 'parla.lower') or contains($ana, 'parla.committee'))">
+	  <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
+					     tei:title[@type='main']
+					     [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang='en']"/>
+	  <xsl:variable name="body">
+	    <xsl:choose>
+              <xsl:when test="$country-code = 'GB' and contains($title, 'Commons')">#parla.lower</xsl:when>
+              <xsl:when test="$country-code = 'GB' and contains($title, 'Lords')">#parla.upper</xsl:when>
+              <xsl:when test="contains($title, 'Lower House')">#parla.lower</xsl:when>
+              <xsl:when test="contains($title, 'Upper House')">#parla.upper</xsl:when>
+	      <!-- Should be taken care of by add-commmon-content -->
+	      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:variable>
+	  <xsl:if test="normalize-space($body)">
+            <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+				 ': inserting ', $body, ' into meeting/@ana ', $ana)"/>
 	    <xsl:value-of select="concat($body, '&#32;')"/>
-	    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-				 ': adding ', $body, ' to meeting/@ana')"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id, 
-				 ': meeting/@ana without organisation reference!')"/>
-	  </xsl:otherwise>
-	</xsl:choose>
-      </xsl:if>
-      <xsl:value-of select="$ana-this"/>
-    </xsl:attribute>
+	  </xsl:if>
+	</xsl:if>
+	<xsl:value-of select="$ana"/>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
   </xsl:template>
   
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
