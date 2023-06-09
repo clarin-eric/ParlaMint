@@ -905,6 +905,14 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Remove @xml:lang from term (not needed, as superordiante catDesc should have @xml:lang -->
+  <xsl:template mode="root" match="tei:catDesc/tei:term">
+    <xsl:copy>
+      <xsl:apply-templates mode="root" select="@*[name() != 'xml:lang']"/>
+      <xsl:apply-templates mode="root"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="root" match="text()[normalize-space(.)]">
     <xsl:variable name="str">

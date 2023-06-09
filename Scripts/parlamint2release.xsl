@@ -407,17 +407,13 @@
                          ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
 
-  <!-- Normalize nonempty notes and incidents -->
-  <xsl:template mode="comp" match="tei:note[normalize-space(.)
-                                            and not(./element())]
-                                    |
-                                    tei:incident/tei:desc | tei:kinesic/tei:desc | tei:vocal/tei:desc
-                                    ">
-    <xsl:variable name="textIn" select="."/>
+  <!-- Normalize nonempty notes and (description of) incidents -->
+  <xsl:template mode="comp" match="tei:note[normalize-space(.) and not(./element())] | tei:desc">
+    <xsl:variable name="textIn" select="normalize-space(.)"/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
-    <xsl:if test="not($textIn = $textOut)">
+    <xsl:if test="$textIn != $textOut">
       <xsl:message select="concat('INFO ', /tei:TEI/@xml:id,
-                         ': comment normalization ',$textIn,' to ', $textOut, '')"/>
+                         ': comment normalization ',$textIn,' to ', $textOut)"/>
     </xsl:if>
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
@@ -425,11 +421,18 @@
     </xsl:copy>
   </xsl:template>
   <xsl:template mode="comp" match="tei:note[./element()] ">
-    <!-- Comments can contain mixed content (text - time - text) -->
-    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
-                         ': for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
-			 ' skipping comment normalization ', normalize-space(.))"/>
-    <xsl:copy-of select="."/>
+    <xsl:variable name="textIn" select="normalize-space(.)"/>
+    <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
+    <xsl:if test="$textIn != $textOut">
+      <!-- Comments can contain mixed content (text - time - text) -->
+      <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
+                           ': for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+			   ' skipping comment normalization ', normalize-space(.))"/>
+    </xsl:if>
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
   </xsl:template>
 
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
