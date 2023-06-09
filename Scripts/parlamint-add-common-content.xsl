@@ -840,14 +840,14 @@
           <xsl:value-of select="normalize-space(.)"/>
 	</xsl:when>
 	<xsl:when test="@type">
-	  <xsl:message select="concat('ERROR ', /tei:*/@xml:id, 
+	  <xsl:message select="concat('WARN ', /tei:*/@xml:id, 
                                ': idno without subtype, content is ', .)"/>
 	  <xsl:attribute name="type" select="@type"/>
           <xsl:value-of select="normalize-space(.)"/>
 	</xsl:when>
 	<xsl:otherwise>
 	  <xsl:message select="concat('ERROR ', /tei:*/@xml:id, 
-                               ': idno without type and subtype, content is ', .)"/>
+                               ': idno without type, content is ', .)"/>
           <xsl:value-of select="normalize-space(.)"/>
 	</xsl:otherwise>
       </xsl:choose>

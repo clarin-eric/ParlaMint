@@ -241,13 +241,21 @@
   <xsl:template mode="root" match="tei:idno">
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
-      <!-- AT: <idno type="parlament.gv.at" xml:lang="de">https://www.parlament.gv.at/WWER/PAD_01018/index.shtml</idno> -->
-      <xsl:if test="contains(@type, 'parlament')">
-	<xsl:attribute name="type">URI</xsl:attribute>
-	<xsl:attribute name="subtype">parliament</xsl:attribute>
-	<xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
-                             ': fixing idno (sub)type for parliament for ', .)"/>
-      </xsl:if>
+      <xsl:choose>
+	<!-- AT: <idno type="parlament.gv.at" xml:lang="de">https://www.parlament.gv.at/WWER/PAD_01018/index.shtml</idno> -->
+	<xsl:when test="contains(@type, 'parlament')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">parliament</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno (sub)type for parliament for ', .)"/>
+	</xsl:when>
+	<xsl:when test="contains(., 'wikipedia') and not(@type = 'URI' and @subtype = 'wikimedia')">
+	  <xsl:attribute name="type">URI</xsl:attribute>
+	  <xsl:attribute name="subtype">wikimedia</xsl:attribute>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': fixing idno (sub)type for wikipedia for ', .)"/>
+	</xsl:when>
+      </xsl:choose>
       <xsl:value-of select="normalize-space(.)"/>
     </xsl:copy>
   </xsl:template>
