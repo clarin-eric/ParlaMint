@@ -34,7 +34,7 @@
   xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:et="http://nl.ijs.si/et" 
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  exclude-result-prefixes="xsl tei et xs xi"
+  exclude-result-prefixes="xsl tei et mk xs xi"
   version="2.0">
 
   <xsl:import href="parlamint-lib.xsl"/>
