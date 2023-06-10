@@ -366,8 +366,17 @@
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
     <xsl:if test="$textIn != $textOut">
       <xsl:message select="concat('INFO ', /tei:TEI/@xml:id,
-                         ': comment normalization ',$textIn,' to ', $textOut)"/>
+                         ': ',
+                         parent::tei:*/local-name(),'/',local-name(),
+                         ' normalization &quot;',$textIn,'&quot; to &quot;', $textOut,'&quot;')"/>
     </xsl:if>
+    <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))">
+      <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
+                         ': ',
+                         parent::tei:*/local-name(),'/',local-name(),
+                         ' in ',ancestor-or-self::tei:*[@xml:id][1]/@xml:id,' has strange content &quot;',$textIn,'&quot;')"/>
+    </xsl:if>
+
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
       <xsl:value-of select="$textOut"/>
