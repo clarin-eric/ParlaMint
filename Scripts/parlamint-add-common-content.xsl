@@ -16,7 +16,7 @@
      - calculates speech and word extents
      - calculates tagUsage
      - inserts bi- or uni-cameralism if missing
-     - inserts lower/upper house into bicameral meeting elements if missing
+     - adds meeting reference to parliamentary body of the meeting, if missing
      - changes div/@type="debateSection" to ="commentSection" if div contains no utterances
      - removes spurious handle ref
      - removes spurious spaces
@@ -687,81 +687,64 @@
     </xsl:if>
   </xsl:template>
 
-  <!-- This template deserves another think, it shuld be extened to any parmilamentary body of the meeting, not just house.
-       - WHAT ABOUT BE, WHO HAVE ALSO COMMITTEES AND USE #parla.meeting.committee INSTEAD OF #parla.committee
-       - DO ANY OTHERS HAVE COMMITTEES BUT ARE NOT MARKED IN MEETINGS?
-       - WHAT ABOUT UNICAMERAL, THEY SHOULD HAVE THIS INFO TOO IN MEETINGS?
-  -->
-  
-  <!-- Insert lower and/or upper (house) for bicameral ones -->
+  <!-- If necessary, insert information on which parliamentary body having the meeting: 
+       unicameralism, lower and/or upper (house), committe -->
   <!-- $house-refs give info on which is which and what they contain -->
-  <!-- Some have both, here we decide on the basis of the main title -->
+  <!-- Some corpora have both houses, here we decide on the basis of the main title -->
   <xsl:template mode="root" match="tei:meeting">
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
-      <xsl:if test="$house-refs/tei:ref[. = 'Bicameralism'] and 
-                    not(contains(@ana, 'parla.lower') or contains(@ana, 'parla.upper'))">
+      <!-- We need to collect all meeting/@ana values, so we wouldn't put the wrong body ref into one that is missing it
+           as we can have e.g.
+           <meeting corresp="#be_federal_parliament" ana="#parla.meeting.committee" n="ic001">Commissievergadering 001 van 17-07-2014</meeting>
+           <meeting ana="#parla.term #period_54" corresp="#be_federal_parliament" n="54">Zittingperiode 54</meeting>
+      -->
+      <xsl:variable name="anas">
+	<xsl:for-each select="../tei:meeting">
+	  <xsl:value-of select="@ana"/>
+	  <xsl:text>&#32;</xsl:text>
+	</xsl:for-each>
+      </xsl:variable>
+      <!-- Note that we don't make any provision for instering reference to commitee meeting! -->
+      <xsl:if test="not(
+		    contains($anas, 'parla.uni') or 
+		    contains($anas, 'parla.upper') or contains($anas, 'parla.lower') or 
+		    contains($anas, 'parla.committee')
+		    )">
         <xsl:variable name="house">
           <xsl:choose>
-            <xsl:when test="not($house-refs/tei:ref[. = 'Lower house']) and
-                            not($house-refs/tei:ref[. = 'Upper house'])">
-              <xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id,
-                                                   ': NO HOUSES FOR COUNTRY IN THIS SCRIPT!')"/>
+	    <xsl:when test="$house-refs/tei:ref[. = 'Unicameralism']">
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Unicameralism']"/>
             </xsl:when>
             <xsl:when test="$house-refs/tei:ref[. = 'Lower house'] and
                             not($house-refs/tei:ref[. = 'Upper house'])">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
             </xsl:when>
             <xsl:when test="$house-refs/tei:ref[. = 'Upper house'] and
                             not($house-refs/tei:ref[. = 'Lower house'])">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
+	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
             </xsl:when>
-            <xsl:when test="$country-code = 'GB' and /tei:teiCorpus">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
-            </xsl:when>
-            <xsl:when test="$country-code = 'GB' and
-                            contains(/tei:TEI/tei:teiHeader//tei:titleStmt
-                            /tei:title[@type='main'],
-                            'Commons')">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
-            </xsl:when>
-            <xsl:when test="$country-code = 'GB' and
-                            contains(/tei:TEI/tei:teiHeader//tei:titleStmt
-                            /tei:title[@type='main'],
-                            'Lords')">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
-            </xsl:when>
-            <xsl:when test="$country-code = 'NL' and
-                            contains(/tei:TEI/tei:teiHeader//tei:titleStmt
-                            /tei:title[@type='main' and @xml:lang='en'],
-                            'Lower House')">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Lower house']"/>
-            </xsl:when>
-            <xsl:when test="$country-code = 'NL' and
-                            contains(/tei:TEI/tei:teiHeader//tei:titleStmt
-                            /tei:title[@type='main' and @xml:lang='en'],
-                            'Upper House')">
-              <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
-            </xsl:when>
+            <xsl:otherwise>
+	      <xsl:message terminate="yes" select="concat('FATAL ', ancestor::tei:*[@xml:id][1]/@xml:id,
+                                                   ': BAD HOUSES FOR COUNTRY IN THIS SCRIPT!')"/>
+	    </xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
         <xsl:choose>
           <xsl:when test="normalize-space($house)">
             <xsl:variable name="refs">
-              <xsl:for-each select="$house/tei:ref">
+	      <xsl:for-each select="$house/tei:ref">
                 <xsl:value-of select="@target"/>
                 <xsl:text>&#32;</xsl:text>
-              </xsl:for-each>
+	      </xsl:for-each>
             </xsl:variable>
-            <xsl:message select="concat('INFO ', /tei:*/@xml:id,
-                             ': inserting ', $refs, 'into meeting/@ana')"/>
-
+            <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+				 ': inserting ', $refs, 'into meeting/@ana ', @ana)"/>
             <xsl:attribute name="ana" select="concat($refs, @ana)"/>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:message select="concat('ERROR ', /tei:TEI/@xml:id,
-                                 ': dont know how to insert houses!')"/>
+            <xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id,
+						 ': COULD NOT FIND HOUSES FOR MEETING ELEMENT!')"/>
           </xsl:otherwise>
         </xsl:choose>
       </xsl:if>
@@ -905,6 +888,14 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Remove @xml:lang from term (not needed, as superordiante catDesc should have @xml:lang -->
+  <xsl:template mode="root" match="tei:catDesc/tei:term">
+    <xsl:copy>
+      <xsl:apply-templates mode="root" select="@*[name() != 'xml:lang']"/>
+      <xsl:apply-templates mode="root"/>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Remove leading, trailing and multiple spaces -->
   <xsl:template mode="root" match="text()[normalize-space(.)]">
     <xsl:variable name="str">
