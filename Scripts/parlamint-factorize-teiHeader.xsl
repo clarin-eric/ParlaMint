@@ -127,7 +127,7 @@
     <xsl:variable name="pathOut" select="concat($outDir,'/',@href)"/>
     <xsl:message select="concat('INFO: Copying ',$pathIn, ' to ',$pathOut)"/>
     <xsl:result-document href="{$pathOut}" method="xml">
-      <xsl:apply-templates mode="XInclude" select="document($pathIn)"/>
+      <xsl:copy-of select="document($pathIn)"/>
     </xsl:result-document>
     <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
       <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
