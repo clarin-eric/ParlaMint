@@ -92,7 +92,7 @@ sub conllu2tei {
     my @ids = ();
     my @toks = ();
     my @deps = ();
-    $tei = "<s xml:id=\"$id\" n=\"$n\">";
+    $tei = "<s xml:id=\"$id\" n=\"$n\">\n";
     foreach my $line (split(/\n/, $conllu)) {
         next unless $line =~ /^\d+\t/;
         chomp;
@@ -169,11 +169,7 @@ sub conllu2tei {
         push @deps, "$link\t$n\t$role" #Only if we have a parse
             if $role ne '_';
     }
-    # If we still have elements left over
-    if (@toks) {
-	$element = shift @toks;
-	$tei .= "$element\n";
-    }
+    # If we haven't closed the last name
     if ($ner_prev and $ner_prev ne 'O') {
         push(@toks, '</name>')
     }
@@ -189,6 +185,8 @@ sub conllu2tei {
 	$element =~ s| | xml:id="$id" |;
 	$tei .= "$element" if $element;
     }
+    # If tags left over, e.g. </name>
+    while (@toks) {$tei .= shift @toks}
     if (@deps) {
         $tei .= "<linkGrp type=\"$ud_type\" targFunc=\"head argument\" corresp=\"#$id\">\n";
         foreach $dep (@deps) {

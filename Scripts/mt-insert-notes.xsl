@@ -5,11 +5,14 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
   xmlns:et="http://nl.ijs.si/et" 
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  exclude-result-prefixes="xsl tei et xs xi"
+  exclude-result-prefixes="xsl tei et mk xs xi"
   version="2.0">
 
+  <xsl:import href="parlamint-lib.xsl"/>
+  
   <xsl:param name="notesFile"/>
   <xsl:param name="target-lang">en</xsl:param>
   
@@ -33,8 +36,8 @@
             <!--xsl:variable name="trans" select="et:prep(regex-group(6))"/-->
             <xsl:variable name="trans" select="regex-group(6)"/>
 	    <xsl:if test="$orig != 'content'"> <!-- Skip header row -->
-	      <item n="{replace($orig, '\s', '')}">
-		<xsl:value-of select="et:cut($orig, $trans)"/>
+	      <item n="{replace(mk:normalize-note($orig), '\s', '')}">
+		<xsl:value-of select="mk:normalize-note(et:cut($orig, $trans))"/>
 	      </item>
 	    </xsl:if>
 	  </xsl:matching-substring>
@@ -106,7 +109,7 @@
     <xsl:variable name="factor">3</xsl:variable>
     <xsl:choose>
       <xsl:when test="string-length($str2) &gt; ($factor * string-length($str1))">
-	<xsl:message select="concat('WARN: Shortening too long translation ', $trans2)"/>
+	<xsl:message select="concat('WARN: Shortening too long translation ', $str2)"/>
 	<xsl:value-of select="replace(substring($str2, 1, ($factor * string-length($str1))),
 			      '(.+) .+', '$1 ……')"/>
       </xsl:when>

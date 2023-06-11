@@ -105,6 +105,10 @@
         <term>Bicameralism</term>
         <term>Lower house</term>
       </xsl:when>
+      <xsl:when test="$country-code = 'DK'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
+      </xsl:when>
       <xsl:when test="$country-code = 'EE'">
         <term>Legislature</term>
         <term>Unicameralism</term>
@@ -126,14 +130,12 @@
         <term>Legislature</term>
         <term>Unicameralism</term>
       </xsl:when>
+      <xsl:when test="$country-code = 'FI'">
+      </xsl:when>
       <xsl:when test="$country-code = 'FR'">
         <term>Legislature</term>
         <term>Bicameralism</term>
         <term>Lower house</term>
-      </xsl:when>
-      <xsl:when test="$country-code = 'DK'">
-        <term>Legislature</term>
-        <term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'GB'">
         <term>Legislature</term>
@@ -176,11 +178,35 @@
         <term>Lower house</term>
         <term>Upper house</term>
       </xsl:when>
+      <!-- NO had two houses until 2009, then became unicameral; 
+           If lower and upper house had a join meeting, this is also marked as unicameral (arguably wrong)
+           Note that the titles do not distinguish between the three bodies, only the filename do: -lower.xml, -upper.xml, .xml
+      -->
+      <xsl:when test="$country-code = 'NO'">
+        <term>Legislature</term>
+        <term>Bicameralism</term>
+        <term>Lower house</term>
+        <term>Upper house</term>
+        <term>Unicameralism</term>
+      </xsl:when>
       <xsl:when test="$country-code = 'PL'">
         <term>Legislature</term>
         <term>Bicameralism</term>
         <term>Lower house</term>
         <term>Upper house</term>
+      </xsl:when>
+      <xsl:when test="$country-code = 'PT'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
+      </xsl:when>
+      <xsl:when test="$country-code = 'RO'">
+        <term>Legislature</term>
+        <term>Bicameralism</term>
+        <term>Lower house</term>
+      </xsl:when>
+      <xsl:when test="$country-code = 'RS'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'RO'">
         <term>Legislature</term>
