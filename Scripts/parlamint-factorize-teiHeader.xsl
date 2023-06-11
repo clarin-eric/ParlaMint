@@ -37,6 +37,10 @@
                               string-join($teiRootDoc//tei:classDecl/xi:include/@href,' '),
                               ' ',
                               string-join($teiRootDoc//tei:classDecl/tei:taxonomy/@xml:id/concat(.,'.xml'),' '),
+                              ' ',
+                              string-join($teiRootDoc//tei:particDesc/xi:include/@href,' '),
+                              ' ',
+                              string-join($teiRootDoc//tei:particDesc/tei:*/@xml:id/concat(.,'.xml'),' '),
                               ' ')"/>
     </xsl:if>
   </xsl:variable>
