@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2023-04-06</date>
+        <date>2023-06-13</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2023-06-13">Tomaž Erjavec: Start work on section for MT.</change>
       <change when="2023-04-06">Tomaž Erjavec: allow orgName in affiliation.</change>
       <change when="2022-12-21">Tomaž Erjavec: reorganise, fix errors, add explanations.</change>
       <change when="2022-10-17">Tomaž Erjavec: add description for new XIncludes, reorganise</change>
@@ -68,7 +69,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2023-04-06</docDate>
+        <docDate>2023-06-13</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -261,31 +262,31 @@
           
           <list>
             <item>The corpus root file name should start with the string
-            <code>ParlaMint-</code>, followed by the country or region code as mandated by ISO
-            3166 (cf. Section on <ref target="#sec-standard">Standard values</ref>)
-            e.g.<code>ParlaMint-NL.xml</code> or <code>ParlaMint-ES-CT</code>.</item>
+            <code>ParlaMint-</code>, followed by the ISO
+            3166 country (or automous region) code
+	    (cf. Section on <ref target="#sec-standard">Standard values</ref>)
+            e.g. <code>ParlaMint-NL.xml</code> or <code>ParlaMint-ES-CT</code>.</item>
             
-            <item>For special cases, such as a corpus that has been (machine-)translated to a
-            language different from the original language, we also require the ISO 639 code of
-            the language (again, cf. Section on <ref target="#sec-standard">Standard
-            values</ref>) to follow the country code, e.g. <code>ParlaMint-NL-en.xml</code>.
+            <item>For machine-translated corpora the ISO 639 code of
+            the language (cf. Section on <ref target="#sec-standard">Standard
+            values</ref>) should follow the country code, e.g. <code>ParlaMint-NL-en.xml</code>.
             </item>
 
             <item>A corpus component filename should start with the name of the root, followed
             by an underscore and the ISO 8601 formatted date of the transcript, for example
             <code>ParlaMint-IS_2015-01-21-54.xml</code>. In case a corpus component is further
-            distinguished, so that there are qare several components with the same date, the
-            corpus compilers are free to extend the file name by a hyphen and any suffix, which
-            should, however, contain only ASCII letters and numbers and the hyphen character,
+            distinguished, so that there are are several components with the same date, the
+            corpus compilers are free to extend the file name by a hyphen and any suffix containing
+	    only ASCII letters and numbers and the hyphen character,
             e.g. <code>ParlaMint-NL_2018-10-30-eerstekamer-4.xml</code> or
             <code>ParlaMint-CZ_2016-04-13-ps2013-044-02-016-098.xml</code></item>
 
-            <item>A few elements from the corpus root <gi>teiHeader</gi> are also separated
-            into their own files, in particular the list of speakers, <gi>listPerson</gi>,
+            <item>Certain metadata elements from the corpus root <gi>teiHeader</gi> are stored
+            in separate files, in particular the list of speakers, <gi>listPerson</gi>,
             the list of political parties and other organisations, <gi>listOrg</gi>, and
-            the various ParlaMint taxonomies, i.e. <gi>taxonomy</gi> elements. The
-            filesnames for such metadata start with the name of the corpus root, followed
-            by a hyphen, and then the name of the element,
+            the ParlaMint structural and linguistic taxonomies, i.e. <gi>taxonomy</gi> elements.
+	    The file names for such metadata files start with the name of the corpus root,
+	    followed by a hyphen, and then the name of the element,
             e.g. <code>ParlaMint-BE-listPerson.xml</code>. Where there are more files for
             instances of the same element name, as is the case for taxonomies, the filename
             should end with another hypen, followed by the ID of the particular element,
@@ -303,7 +304,7 @@
             target="#sec-conversion">Conversions</ref>.</item>
 
             <item>As discussed in the Chapter on <ref target="#chp-linguistic">Linguistic
-            annotation</ref> we distinguish the lingistically annotated version of the
+            annotation</ref> we distinguish the linguistically annotated version of the
             corpus from the <q>plain-text</q> one, with the linguistic annotated version
             having the additional suffix <code>.ana</code> on the corpus root and
             components, e.g. <code>ParlaMint-ES-CT.ana.xml</code> or
@@ -2548,20 +2549,20 @@
       <div xml:id="chp-linguistic">
         <head>Linguistic annotation</head>
 
-        <p>This section introduces the linguistic annotation that is required by
-        ParlaMint. An important note is that a linguistically annotated ParlaMint corpus is
+        <p>This section introduces the ParlaMint linguistic annotation.
+        An important note is that a linguistically annotated ParlaMint corpus is
         stored separately from its base (or <term>plain-text</term>) version, i.e. the
-        version that has been discussed in the preceding sections. The linguistically
-        annotated version differs from the plain-text one in the following respects:
+        version that has been discussed in the preceding sections.
+	The encoding of the linguistically annotated version differs from the plain-text one in the following:
         
         <list>
-          <item>All the file names (so, the corpus root and all the corpus components) have
-          the added extension <code>.ana</code>, which comes before the <code>.xml</code>
-          file extension. For example, if the plain-text root has the file name
-          <code>ParlaMint-CZ.xml</code>, the linguistically annotated one will be
-          <code>ParlaMint-CZ.ana.xml</code>, and if a plain-text component is
-          <code>ParlaMint-CZ_2016-04-13.xml</code> the linguistically annotated one will
-          be <code>ParlaMint-CZ_2016-04-13.ana.xml</code></item>
+          <item>All  the corpus root and components file names 
+          the extension <code>.ana.xml</code>.
+	  For example, if the plain-text root has the file name
+          <code>ParlaMint-CZ.xml</code>, the linguistically annotated one should be
+          <code>ParlaMint-CZ.ana.xml</code>, or 
+          <code>ParlaMint-CZ_2016-04-13.xml</code> and 
+          <code>ParlaMint-CZ_2016-04-13.ana.xml</code></item>
           
           <item>Because the file ID (i.e. the value of the top level element attribute
           <att>xml:id</att>, as explained in the Section on <ref
@@ -2824,16 +2825,15 @@
           <div xml:id="sec-parses">
             <head>Syntactic parses</head>
             
-            <p>The final ParlaMint annotation level is that of dependency syntax, more
-            precisely, the syntactic analysis according to the <ref
-            target="https://universaldependencies.org/u/overview/syntax.html">Universal
-            Dependencies</ref> for the particular language. These analyses are encoded inside
-            their sentence mark-up, although in a stand-off manner. This means that each
-            token must be given an ID, while the syntactic analysis is stored in the link
-            group, <gi>linkGrp</gi> element, which is then composed of <gi>link</gi>
-            elements, which join two tokens according to their syntactic dependency. The
-            example below illustrating this is given, for readability, without the word-level
-            linguistic attributes and with shortened IDs:
+            <p>Sentences are accompanied by a
+	    <ref target="https://universaldependencies.org/u/overview/syntax.html">Universal
+            Dependencies</ref> parse.
+	    These analyses are encoded inside their sentence mark-up, although in a stand-off manner.
+	    This means that each token must be given an ID, while the syntactic analysis is stored in the link
+            group, <gi>linkGrp</gi> element containing a series of <gi>link</gi>
+            elements.
+	    Each is labeled by a dependency label and joins two tokens.
+	    The example below illustrating the syntactic encoding:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-analysis-syn">
               <s xml:id="ParlaMint-GB_2021-01-06.seg393.8">
@@ -2862,9 +2862,10 @@
             <p>The link elements then give, via the value of their <att>target</att>
             attribute, references the head and argument tokens of the syntactic relation,
             which is specified in the <att>ana</att> attribute. By convention, the links are
-            ordered so that the argument token references follow the ordering of the tokens
-            in the sentence. Note that for the top level <code>root</code> relation, the head
-            is the sentence ID.</p>
+            ordered so that the argument references follow the ordering of the tokens
+            in the sentence, i.e. all the tokens in the sentence should appear in order in the second position.
+	    Note that for the top level <code>root</code> relation (of which there should be only one in the sentence),
+	    the head is the reference to the sentence ID.</p>
             
             <p>The relations themselves are pointers which use the <code>ud:</code> prefix that
             is, via the TEI extended pointer syntax as defined in the TEI header (cf. the Section
@@ -3066,6 +3067,105 @@
         </div>
       </div>
       
+      <div xml:id="sec-mt">
+        <head>Translations of corpora</head>
+	
+        <p>The ParlaMint machine translated corpora are encoded simliarly to corpora in their
+        source language, i.e. they have an identically structured corpus root and components.
+	The most obvious differences are the following:
+
+	<list>
+	  <item>The filenames are extended with the target language code, as described in the
+	  Section on <ref target="#sec-files">Filenames</ref>, e.g. the linguistically analysed
+	  English translation of the Latvian corpus would have the root filename
+	  <code>ParlaMint-LV-en.ana.xml</code> and a component filename from could be
+	  <code>ParlaMint-LV_2014-11-04.ana.xml</code>.</item>
+	  <item>The top-level <att>xml:id</att> of the corpus root and of components must also be changed
+	  accordingly to e.g. <code>ParlaMint-LV-en.ana</code> or 
+	  <code>ParlaMint-LV_2014-11-04.ana</code>.</item>
+	  <item>The stamp in the main titles should be changed too by adding the target langauge
+	  suffix, e.g. to <code>[ParlaMint-en.ana]</code>.</item>
+	  <item>The top level <att>xml:lang</att> in the root and components should be set to
+	  the target language, e.g. <code>xml:id="en"</code>.</item>
+	</list>
+        </p>
+	
+	<p>The structure of the <gi>text</gi>, inluding the transcriber comments and
+	the linguistic analysis is encoded the same as as for the corpora in the source
+	language, with the only difference being that the aligned elements are linked
+	to their corresponding elements in the source corpus. In the current machine translted corpora
+	this alignment is very simple, as we have only sentence alignments, which have, furthermore,
+	always a 1-1 mapping to corresponding source sentences. Therefore the alignment is
+	trivial, simply specifiying the same <att>xml:id</att> value of the sentence in the source corpus,
+	as illustrated in the following example:
+	
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt">
+	  <div type="debateSection" xml:lang="en">
+	    <note type="speaker" xml:lang="en">Head of the sitting.</note>
+	    <u who="#ĀboltiņaSolvita" xml:id="ParlaMint-LV_2014-11-04-PT12-264-U1"
+	       ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11-04-PT12-264-U1">
+	      <seg xml:id="ParlaMint-LV_2014-11-04" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11-04">
+		<s xml:id="ParlaMint-LV_2014-11-04.1" corresp="mt-src:ParlaMint-LV_2014-11-04.1">
+		  <w xml:id="ParlaMint-LV_2014-11-04.1.t1" msd="UPosTag=PROPN|Number=Sing" lemma="Mr.">Mr.</w>
+		  <w xml:id="ParlaMint-LV_2014-11-04.1.t2" msd="UPosTag=PROPN|Number=Sing" lemma="President" join="right">President</w>
+		  ...
+		</s>
+		...
+	      </seg>
+	      ...
+	    </u>
+	    ...
+	  </div>
+        </egXML>
+
+	As can be seen above, the alignment is specified on the <att>corresp</att> attibute on sentences
+	(<gi>s</gi>), as well as on segments (<gi>seg</gi>) and utterances (<gi>u</gi>).
+	The alignment reference makes use of the TEI extended pointer syntax (cf. the Section on
+	<ref target="#sec-ana-prefixDef">Prefix definitions</ref>), to define the <val>mt-src</val> prefix
+	which must resolve to the correct component file of the corpus in the source language.</p>
+	
+        <p>In contrast to other linguistic annotations that specify one prefix definition for the complete
+	corpus (so, inside the corpus root <gi>teiHeader</gi>), the translated corpora should specify a
+	prefix definition inside each corpora component because its definition depends on the component file.
+	For example, the prefix definition of the corpus component file <code>ParlaMint-LV-en_2014-11-04.ana.xml</code>
+	should be as in the following example:
+        
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt-prefixDef">
+	  <listPrefixDef>
+            <prefixDef ident="mt-src"
+		       matchPattern="(.+)"
+		       replacementPattern="../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.ana.xml#$1">
+              <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+	  </listPrefixDef>
+        </egXML>
+
+	The assumption above is that the two corpora are available in the same directory
+	(so, <code>./ParlaMint-LV.TEI.ana/</code> and <code>./ParlaMint-LV-en.TEI.ana/</code>), so that <att>corresp</att> values
+	of the file <code>ParlaMint-LV-en.TEI.ana/2014/ParlaMint-LV-en_2014-11-04.ana.xml</code> with the <code>mt-src</code>
+	prefix will point to
+	<code>ParlaMint-LV-en.TEI.ana/2014/../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014.ana.xml</code>
+	i.e. to <code>./ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.xml</code>.</p>
+	
+	<p>The final additional element of the transated corpora is the information on the application (<gi>application</gi>),
+	i.e. on the program that was used to translate the corpora, as illustrated by the following example:
+	
+        <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt-appInfo">
+          <application ident="EasyNMT" version="2.0">
+            <label>EasyNMT (OPUS-MT model)</label>
+            <desc>Translation to English done with EasyNMT
+	    (<ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>)
+	    with OPUS-MT model bat
+	    (<ref target="https://github.com/Helsinki-NLP/Opus-MT">https://github.com/Helsinki-NLP/Opus-MT</ref>)</desc>
+            </application>
+        </egXML>
+
+	This element should be given in the corpus root, together with all the other information on applications
+	inside the application information (<gi>appInfo</gi>) element.</p>
+	
+    </div>
+      
+	  
       <!--div xml:id="sec-audio">
           <head>Audio</head>
           
