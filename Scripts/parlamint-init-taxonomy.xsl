@@ -45,7 +45,6 @@
                                                       and @xml:lang = $lang
                                                       and normalize-space(.)
                                                       ]"/>
-      <xsl:message><xsl:copy-of select="$elem"/><xsl:copy-of select="$translated-elem"/></xsl:message>
       <xsl:choose>
         <!-- skipping english -->
         <xsl:when test=". = 'en'"/>
