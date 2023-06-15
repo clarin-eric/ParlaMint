@@ -8,7 +8,7 @@
      All are in their text-less form (empty <s> elements) ready for insertion of translated sentences
      STDERR gives a detailed log of actions.
      The program:
-     - changes the filenames, top-level IDs and title stamps
+     - changes the filenames, top-level IDs and main titles
      - adds MT-related respStmt, appInfo, prefixDef, change
      - moves notes and incidents out of sentences
      - removes text from sentences
@@ -65,7 +65,7 @@
 	  <xsl:text>Translation to English done with EasyNMT (</xsl:text>
 	  <ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>
 	  <xsl:text>) with OPUS-MT model </xsl:text>
-	<!-- Used OPUS.MT models: -->
+	<!-- Used OPUS.MT models used: -->
 	<xsl:choose>
 	  <xsl:when test="$country-code = 'AT'">gmw</xsl:when>
 	  <xsl:when test="$country-code = 'BA'">zls</xsl:when>
@@ -104,7 +104,7 @@
     
   <!-- We need to set prefixDef for root, and a different one for each component.
        For root it will be e.g. ../ParlaMint-XX.TEI.ana/ParlaMint-XX.ana.xml#$1
-       For component it will be e.g. ../ParlaMint-XX.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.ana.xml#$1
+       For component it will be e.g. ../../ParlaMint-XX.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.ana.xml#$1
   -->
   <xsl:variable name="prefixDef">
     <prefixDef ident="{$mt-prefix}" matchPattern="(.+)" replacementPattern="../XXX#$1">
@@ -384,10 +384,16 @@
   
   <!-- Give stamp for MTed corpus -->
   <xsl:template match="tei:titleStmt/tei:title[@type = 'main']">
-    <xsl:variable name="okStamp" select="concat('[ParlaMint-', $target-lang, '.ana]')"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <xsl:value-of select="replace(., '(.+?)\s*\[.+\]$', concat('$1', ' ', $okStamp))"/>
+      <xsl:value-of select="replace(
+			    replace(., 
+			    '(.+?)\[.+\]$', 
+			    concat('$1', '[ParlaMint-', $target-lang, '.ana]')
+			    ),
+			    concat('(.+?)', 'ParlaMint-', $country-code),
+			    concat('$1', 'ParlaMint-', $country-code, '-en')
+			    )"/>
     </xsl:copy>
   </xsl:template>
   
