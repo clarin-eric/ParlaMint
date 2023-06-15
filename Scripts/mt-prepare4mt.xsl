@@ -107,7 +107,7 @@
        For component it will be e.g. ../../ParlaMint-XX.TEI.ana/1996/ParlaMint-AT_1996-01-15-020-XX-NRSITZ-00001.ana.xml#$1
   -->
   <xsl:variable name="prefixDef">
-    <prefixDef ident="{$mt-prefix}" matchPattern="(.+)" replacementPattern="../XXX#$1">
+    <prefixDef ident="{$mt-prefix}" matchPattern="(.+)" replacementPattern="XXX#$1">
       <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
     </prefixDef>
   </xsl:variable>
