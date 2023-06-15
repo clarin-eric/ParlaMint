@@ -159,9 +159,9 @@
     <!-- Process component files -->
     <xsl:for-each select="$docs//tei:item">
       <xsl:variable name="this" select="tei:xi-orig"/>
-      <xsl:message select="concat('INFO: Preparing ', @type, ' ', $this)"/>
-      <!-- We do not need the UD taxonomy -->
-      <xsl:if test="not(contains(tei:xi-orig, 'UD-SYN'))">
+      <!-- We do not need the .ana taxonomies except ParlaMint-taxonomy-NER.ana.xml -->
+      <xsl:if test="not(matches(tei:xi-orig, 'taxonomy.*\.ana')) or contains(tei:xi-orig, 'ParlaMint-taxonomy-NER.ana')">
+	<xsl:message select="concat('INFO: Preparing ', @type, ' ', $this)"/>
 	<xsl:result-document href="{tei:url-new}">
 	  <xsl:choose>
 	    <!-- Copy over factorised parts of corpus root teiHeader -->
