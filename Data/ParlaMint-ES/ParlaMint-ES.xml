@@ -1,0 +1,3263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="ParlaMint-ES">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
+            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
+            <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
+            <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
+            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
+            <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
+            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Term 14</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="1442" xml:lang="es">1.442 intervenciones</measure>
+            <measure unit="speeches" quantity="1442" xml:lang="en">1,442 speeches</measure>
+            <measure quantity="13039185" unit="words" xml:lang="es">13.039.185 palabras</measure>
+            <measure quantity="13039185" unit="words" xml:lang="en">13,039,185 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-06-15">June 15, 2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">Cortes generales diario de sesiones del congreso de los diputados pleno y diputación permanente</title>
+               <title type="main" xml:lang="en">National assembly of Spain daily sessions</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="10"/>
+               <tagUsage gi="div" occurs="50"/>
+               <tagUsage gi="head" occurs="49"/>
+               <tagUsage gi="seg" occurs="5256"/>
+               <tagUsage gi="note" occurs="1907"/>
+               <tagUsage gi="pb" occurs="628"/>
+               <tagUsage gi="u" occurs="1442"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="parla.legislature">
+               <desc xml:lang="es">
+                  <term>Legislatura</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Legislature</term>
+               </desc>
+               <category xml:id="parla.geo-political">
+                  <catDesc xml:lang="es">
+                     <term>Entidades geopolíticas o administrativas</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Geo-political or administrative units</term>
+                  </catDesc>
+                  <category xml:id="parla.supranational">
+                     <catDesc xml:lang="es">
+                        <term>Ámbito legislativo supranacional</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Supranational legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.national">
+                     <catDesc xml:lang="es">
+                        <term>Ámbito legislativo nacional</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>National legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.regional">
+                     <catDesc xml:lang="es">
+                        <term>Ámbito legislativo regional</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Regional legislature</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.local">
+                     <catDesc xml:lang="es">
+                        <term>Ámbito legislativo local</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Local legislature</term>
+                     </catDesc>
+                  </category>
+               </category>
+               <category xml:id="parla.organization">
+                  <catDesc xml:lang="es">
+                     <term>Organización</term>
+                  </catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Organization</term>
+                  </catDesc>
+                  <category xml:id="parla.chambers">
+                     <catDesc xml:lang="es">
+                        <term>Cámaras</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Chambers</term>
+                     </catDesc>
+                     <category xml:id="parla.uni">
+                        <catDesc xml:lang="es">
+                           <term>Unicameralismo</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Unicameralism</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.bi">
+                        <catDesc xml:lang="es">
+                           <term>Bicameralismo</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Bicameralism</term>
+                        </catDesc>
+                        <category xml:id="parla.upper">
+                           <catDesc xml:lang="es">
+                              <term>Cámara Alta</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Upper house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.lower">
+                           <catDesc xml:lang="es">
+                              <term>Cámara Baja</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Lower house</term>
+                           </catDesc>
+                        </category>
+                        <category xml:id="parla.multi">
+                           <catDesc xml:lang="es">
+                              <term>Multicameralismo</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Multicameralism</term>
+                           </catDesc>
+                           <category xml:id="parla.chamber">
+                              <catDesc xml:lang="es">
+                                 <term>Cámara</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Chamber</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+                  <category xml:id="parla.committee">
+                     <catDesc xml:lang="es">
+                        <term>Comisión</term>
+                     </catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Committee</term>
+                     </catDesc>
+                     <category xml:id="parla.committee.standing">
+                        <catDesc xml:lang="es">
+                           <term>Comisión permanente</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Standing committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.special">
+                        <catDesc xml:lang="es">
+                           <term>Comisión no permanente</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Special committee</term>
+                        </catDesc>
+                     </category>
+                     <category xml:id="parla.committee.inquiry">
+                        <catDesc xml:lang="es">
+                           <term>Comisión de investigación</term>
+                        </catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Committee of inquiry</term>
+                        </catDesc>
+                     </category>
+                  </category>
+               </category>
+               <category xml:id="parla.term">
+                  <catDesc xml:lang="es">
+                     <term>Legislatura</term>: mandato parlamentario entre elecciones.</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
+                  <category xml:id="parla.session">
+                     <catDesc xml:lang="es">
+                        <term>Periodo de sesiones</term>: periodo en el que se celebran las sesiones parlamentarias con propósitos legislativos. Generalmente, durante la legislatura hay uno o dos periodos de sesiones. Una sesión, por su parte, se convocan para abordar un orden del día en uno o varios encuentros parlamentarios.</catDesc>
+                     <catDesc xml:lang="en">
+                        <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc xml:lang="es">
+                           <term>Sesión</term>: reunión de un órgano parlamentario (en uno o varios encuentros) vinculado a un orden del día.</catDesc>
+                        <catDesc xml:lang="en">
+                           <term>Meeting</term>: each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+                        <category xml:id="parla.meeting-types">
+                           <catDesc xml:lang="es">
+                              <term>Tipos de sesión</term>
+                           </catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Types of meetings</term>
+                           </catDesc>
+                           <category xml:id="parla.meeting.regular">
+                              <catDesc xml:lang="es">
+                                 <term>Sesión ordinaria</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Regular meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.special">
+                              <catDesc xml:lang="es">
+                                 <term>Sesión especial</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Special meeting</term>
+                              </catDesc>
+                              <category xml:id="parla.meeting.extraordinary">
+                                 <catDesc xml:lang="es">
+                                    <term>Sesión extraordinaria</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Extraordinary meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.urgent">
+                                 <catDesc xml:lang="es">
+                                    <term>Sesión extraordinaria urgente</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Urgent meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.ceremonial">
+                                 <catDesc xml:lang="es">
+                                    <term>--</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Ceremonial meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.commemorative">
+                                 <catDesc xml:lang="es">
+                                    <term>Sesión conmemorativa</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Commemorative meeting</term>
+                                 </catDesc>
+                              </category>
+                              <category xml:id="parla.meeting.opinions">
+                                 <catDesc xml:lang="es">
+                                    <term>Exposición pública</term>
+                                 </catDesc>
+                                 <catDesc xml:lang="en">
+                                    <term>Public presentation of opinions</term>
+                                 </catDesc>
+                              </category>
+                           </category>
+                           <category xml:id="parla.meeting.continued">
+                              <catDesc xml:lang="es">
+                                 <term>Reanudación de la sesión</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Continued meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.public">
+                              <catDesc xml:lang="es">
+                                 <term>Sesión pública</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Public meeting</term>
+                              </catDesc>
+                           </category>
+                           <category xml:id="parla.meeting.executive">
+                              <catDesc xml:lang="es">
+                                 <term>Sesión secreta</term>
+                              </catDesc>
+                              <catDesc xml:lang="en">
+                                 <term>Executive meeting</term>
+                              </catDesc>
+                           </category>
+                        </category>
+                        <category xml:id="parla.sitting">
+                           <catDesc xml:lang="es">
+                              <term>Sesión plenaria</term>: día del pleno</catDesc>
+                           <catDesc xml:lang="en">
+                              <term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="speaker_types">
+               <desc xml:lang="es">
+                  <term>Tipos de oradores</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Types of speakers</term>
+               </desc>
+               <category xml:id="chair">
+                  <catDesc xml:lang="es">
+                     <term>Presidencia</term>: persona que preside la sesion</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Chairman</term>: chairperson of a meeting</catDesc>
+               </category>
+               <category xml:id="regular">
+                  <catDesc xml:lang="es">
+                     <term>Diputado/a</term>: representante en el Congreso</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Regular</term>: a regular speaker at a meeting</catDesc>
+               </category>
+               <category xml:id="guest">
+                  <catDesc xml:lang="es">
+                     <term>Orador/a invitado/a</term>: persona invitada a hablar ante el Pleno</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Guest</term>: a guest speaker at a meeting</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy xml:id="subcorpus">
+               <desc xml:lang="es">
+                  <term>Subcorpus</term>
+               </desc>
+               <desc xml:lang="en">
+                  <term>Subcorpora</term>
+               </desc>
+               <category xml:id="reference">
+                  <catDesc xml:lang="es">
+                     <term>Corpus de referencia</term>: aquel que incluye todos los textos compilados hasta el 31 de octubre de 2019.</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>Reference</term>: reference subcorpus, until 2019-10-31.</catDesc>
+               </category>
+               <category xml:id="covid">
+                  <catDesc xml:lang="es">
+                     <term>Corpus COVID</term>: Aquel que incluye todos los textos compilados a partir del 1 de noviembre de 2019.</catDesc>
+                  <catDesc xml:lang="en">
+                     <term>COVID</term>: COVID subcorpus, from 2019-11-01 onwards</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+            </setting>
+         </settingDesc>
+         <particDesc>
+            <listOrg>
+               <org xml:id="CD" role="parliament" ana="#parla.national #parla.lower">
+                  <orgName xml:lang="es" full="yes">Congreso de los Diputados de España</orgName>
+                  <orgName xml:lang="en" full="yes">National Assembly of Spain</orgName>
+                  <event from="1978-12-29">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" xml:lang="es" subtype="wikimedia">https://es.wikipedia.org/wiki/Congreso_de_los_Diputados</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Congress_of_Deputies</idno>
+                  <listEvent>
+                     <head xml:lang="es">Legislatura</head>
+                     <head xml:lang="en">Legislative period</head>
+                     <event xml:id="CD.10" from="2011-12-13" to="2016-01-12">
+                        <label xml:lang="es">Legislatura X</label>
+                        <label xml:lang="en">Term 10</label>
+                     </event>
+                     <event xml:id="CD.11" from="2016-01-13" to="2016-07-18">
+                        <label xml:lang="es">Legislatura XI</label>
+                        <label xml:lang="en">Term 11</label>
+                     </event>
+                     <event xml:id="CD.12" from="2016-07-19" to="2019-05-20">
+                        <label xml:lang="es">Legislatura XII</label>
+                        <label xml:lang="en">Term 12</label>
+                     </event>
+                     <event xml:id="CD.13" from="2019-05-21" to="2019-12-02">
+                        <label xml:lang="es">Legislatura XIII</label>
+                        <label xml:lang="en">Term 13</label>
+                     </event>
+                     <event xml:id="CD.14" from="2019-12-03">
+                        <label xml:lang="es">Legislatura XIV</label>
+                        <label xml:lang="en">Term 14</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org xml:id="GOV" role="government">
+                  <orgName xml:lang="es" full="yes">Gobierno de España</orgName>
+                  <orgName xml:lang="en" full="yes">Government of Spain</orgName>
+                  <event from="1978-12-29">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" xml:lang="es" subtype="wikimedia">https://es.wikipedia.org/wiki/Gobierno_de_España</idno>
+                  <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Spain</idno>
+                  <listEvent>
+                     <event xml:id="GOV.6" from="2011-12-21" to="2018-06-01">
+                        <label xml:lang="es">Séptimo Gobierno de España (21.12.2011 - 02.06-2018)</label>
+                        <label xml:lang="en">7th Government of Spain (21.12.2011 - 02.06-2018)</label>
+                     </event>
+                     <event xml:id="GOV.7" from="2018-06-02">
+                        <label xml:lang="es">Octavo Gobierno de España (02.06.2018-)</label>
+                        <label xml:lang="es">8th Government of Spain (02.06.2018-)</label>
+                     </event>
+                  </listEvent>
+               </org>
+               <org role="politicalParty" xml:id="party.PSCPSCPSOE">
+                  <orgName full="init">PSC(PSC-PSOE)</orgName>
+                  <orgName full="yes">Partido de los Socialistas de Cataluña</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSOEdeAndalucía">
+                  <orgName full="init">PSOEdeAndalucía</orgName>
+                  <orgName full="yes">Partido Socialista Obrero Español de Andalucía</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PPEU">
+                  <orgName full="init">PP-EU</orgName>
+                  <orgName full="yes">Partido Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EUiA">
+                  <orgName full="init">EUiA</orgName>
+                  <orgName full="yes">Esquerra Unida i Alternativa</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CCNCPNC">
+                  <orgName full="init">CC-NC-PNC</orgName>
+                  <orgName full="yes">Coalición Canaria-Nueva Canaria-Partido Nacionalista Canario</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.COMPROMÍSQ">
+                  <orgName full="init">Compromís-Q</orgName>
+                  <orgName full="yes">Comprommís-Q</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ERCRIcat">
+                  <orgName full="init">ERC-RI.cat</orgName>
+                  <orgName full="yes">Esquerra Republicana de Catalunya - Reagrupament Independentista</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EUPV">
+                  <orgName full="init">EUPV</orgName>
+                  <orgName full="yes">Esquerra Unida del País Valencià</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.GB">
+                  <orgName full="init">GB</orgName>
+                  <orgName full="yes">Geroa Bai</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ICV">
+                  <orgName full="init">ICV</orgName>
+                  <orgName full="yes">Iniciativa per Catalunya Verds</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.UPN">
+                  <orgName full="init">UPN</orgName>
+                  <orgName full="yes">Unión del Pueblo Navarro</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.AMAIUR">
+                  <orgName full="init">Amaiur</orgName>
+                  <orgName full="yes">Amaiur</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CiU">
+                  <orgName full="init">CiU</orgName>
+                  <orgName full="yes">Convergència i Unió</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.IZQPLU">
+                  <orgName full="init">IZQ-PLU</orgName>
+                  <orgName full="yes">Izquierda Plural</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.DL">
+                  <orgName full="init">DL</orgName>
+                  <orgName full="yes">Democràcia i Llibertat</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.UPyD">
+                  <orgName full="init">UPyD</orgName>
+                  <orgName full="yes">Unión Progreso y Democracia</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSOENCa">
+                  <orgName full="init">PSOE-NCa</orgName>
+                  <orgName full="yes">Partido Socialista Obrero Español - Nueva Canarias</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSdGPSOE">
+                  <orgName full="init">PSdG-PSOE</orgName>
+                  <orgName full="yes">Partido dos Socialistas de Galicia - Partido Socialista Obrero Español</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PPPAR">
+                  <orgName full="init">PP-PAR</orgName>
+                  <orgName full="yes">Partido Popular - Partido Aragonés</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EMPAEU">
+                  <orgName full="init">EM-P-A-EU</orgName>
+                  <orgName full="yes">En Marea - Podemos - Anova - Esquerda Unida</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CPEUPV">
+                  <orgName full="init">C-P-EUPV</orgName>
+                  <orgName full="yes">Compromís - Podemos - Esquerra Unida del País Valencià</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CDC">
+                  <orgName full="init">CDC</orgName>
+                  <orgName full="yes">Convergècia Democràtica de Catalunya</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.UPNPP">
+                  <orgName full="init">UPN-PP</orgName>
+                  <orgName full="yes">Unión Pueblo Navarro - Partido Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ERCCATSÍ">
+                  <orgName full="init">ERC-CATSÍ</orgName>
+                  <orgName full="yes">Esquerra Republicana de Catalunya - Catalunya Sí</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.UPM">
+                  <orgName full="init">UPM</orgName>
+                  <orgName full="yes">Unión por un Movimiento Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CCaPNC">
+                  <orgName full="init">CCa-PNC</orgName>
+                  <orgName full="yes">Coalición Canaria - Partido Nacionalista Canario</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ECP">
+                  <orgName full="init">ECP</orgName>
+                  <orgName full="yes">En Comú Podem</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CCaPNCNC">
+                  <orgName full="init">CCa-PNC-NC</orgName>
+                  <orgName full="yes">Coalición Canaria - Partido Nacionalista Canario - Nueva Canarias</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ECUP">
+                  <orgName full="init">EC-UP</orgName>
+                  <orgName full="yes">En Comú Podem - Unidas Podemos</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.CUPPR">
+                  <orgName full="init">CUP-PR</orgName>
+                  <orgName full="yes">Candidatura d'Unitat Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSEEEPSOE">
+                  <orgName full="init">PSE-EE-PSOE</orgName>
+                  <orgName full="yes">Partido Socialista de Euskadi - Euskadiko Ezkerra - Partido Socialista Obrero Español</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.TeruelExiste">
+                  <orgName full="init">TE</orgName>
+                  <orgName full="yes">¡Teruel Existe!</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.BNG">
+                  <orgName full="init">BNG</orgName>
+                  <orgName full="yes">Bloque Nacionalista Galego</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Cs">
+                  <orgName full="init">Cs</orgName>
+                  <orgName full="yes">Ciudadanos</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EAJPNV">
+                  <orgName full="init">EAJ-PNV</orgName>
+                  <orgName full="yes">Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ECPGUAYEMELCANVI">
+                  <orgName full="init">ECP-GeC</orgName>
+                  <orgName full="yes">En Comú Podem - Guayem el Canvi</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.EHBildu">
+                  <orgName full="init">EH Bildu</orgName>
+                  <orgName full="yes">Euskal Herria Bildu</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.ERCS">
+                  <orgName full="init">ERC-S</orgName>
+                  <orgName full="yes">Esquerra Republicana de Catalunya - Sobiranistes</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.JxCatJUNTS">
+                  <orgName full="init">JxCat-Junts</orgName>
+                  <orgName full="yes">Junts per Catalunya</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.MÁSPAÍSEQUO">
+                  <orgName full="init">Más País-Equo</orgName>
+                  <orgName full="yes">Más País - Equo</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.MÉSCOMPROMÍS">
+                  <orgName full="init">Més Compromís</orgName>
+                  <orgName full="yes">Més Compromís</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.NCCCaPNC">
+                  <orgName full="init">NC-CCa-PNC</orgName>
+                  <orgName full="yes">Nueva Canarias - Coalición Canaria - Partido Nacionalista Canario</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PP">
+                  <orgName full="init">PP</orgName>
+                  <orgName full="yes">Partido Popular</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PPFORO">
+                  <orgName full="init">PP-Foro</orgName>
+                  <orgName full="yes">Partido Popular - Foro Asturias</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PRC">
+                  <orgName full="init">PRC</orgName>
+                  <orgName full="yes">Partido Regionalista de Cantabria</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSCPSOE">
+                  <orgName full="init">PSC-PSOE</orgName>
+                  <orgName full="yes">Partido Socialista de Cataluya - Partido Socialista Obrero Español</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PSOE">
+                  <orgName full="init">PSOE</orgName>
+                  <orgName full="yes">Partido Socialista Obrero Español</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.PsdeGPSOE">
+                  <orgName full="init">PsdeG-PSOE</orgName>
+                  <orgName full="yes">Partido dos Socialistas de Galicia - Partido Socialista Obrero Español</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.UP">
+                  <orgName full="init">UP</orgName>
+                  <orgName full="yes">Unidas Podemos</orgName>
+               </org>
+               <org role="politicalParty" xml:id="party.Vox">
+                  <orgName full="init">Vox</orgName>
+                  <orgName full="yes">Vox</orgName>
+               </org>
+            </listOrg>
+            <listPerson>
+               <head xml:lang="es">Lista de Oradores/Oradoras</head>
+               <head xml:lang="en">List of speakers</head>
+               <person xml:id="AnguloMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Teresa</forename>
+                     <surname>Angulo</surname>
+                     <surname>Romero</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1968-05-17"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PPEU"/>
+               </person>
+               <person xml:id="ArnaizMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Del</forename>
+                     <forename>Mar</forename>
+                     <surname>Arnaiz</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref=""/>
+               </person>
+               <person xml:id="AsianMatilde">
+                  <persName>
+                     <forename>Matilde</forename>
+                     <forename>Pastora</forename>
+                     <surname>Asian</surname>
+                     <surname>González</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1955-09-01"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="AzpiazuPedro">
+                  <persName>
+                     <forename>Pedro</forename>
+                     <forename>María</forename>
+                     <surname>Azpiazu</surname>
+                     <surname>Uriarte</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1957-04-28"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.EAJPNV"/>
+               </person>
+               <person xml:id="BaldovíJoan">
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Baldoví</surname>
+                     <surname>Roda</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1958-08-07">
+                     <placeName>Sueca (Valencia)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2023-02-23"/>
+                  <affiliation role="member"
+                               ref="#party.COMPROMÍSQ"
+                               from="2015-01-20"
+                               to="2015-01-20"/>
+                  <affiliation role="member"
+                               ref="#party.MÉSCOMPROMÍS"
+                               from="2017-01-31"
+                               to="2023-02-23"/>
+               </person>
+               <person xml:id="BoschAlfred">
+                  <persName>
+                     <forename>Alfred</forename>
+                     <surname>Bosch</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Pascual</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1961-04-17">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.ERCRIcat"/>
+               </person>
+               <person xml:id="BáñezMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Fátima</forename>
+                     <surname>Báñez</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1967-01-06">
+                     <placeName>San Juan del Puerto (Huelva)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2017-01-31"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="CampuzanoCarles">
+                  <persName>
+                     <forename>Carles</forename>
+                     <surname>Campuzano</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Canadés</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1964-07-12">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2019-01-22"/>
+                  <affiliation role="member"
+                               ref="#party.CDC"
+                               from="2017-01-31"
+                               to="2019-01-22"/>
+                  <affiliation role="member"
+                               ref="#party.CiU"
+                               from="2015-01-20"
+                               to="2015-01-20"/>
+               </person>
+               <person xml:id="CentellaJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>Luis</forename>
+                     <surname>Centella</surname>
+                     <surname>Gómez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1958-07-31"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.IZQPLU"/>
+               </person>
+               <person xml:id="CorralLucila">
+                  <persName>
+                     <forename>Lucila</forename>
+                     <surname>Corral</surname>
+                     <surname>Ruiz</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1947-11-25">
+                     <placeName>Torrelavega (Cantabria)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="CoscubielaJoan">
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Coscubiela</surname>
+                     <surname>Conesa</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1954-08-16">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.ICV"/>
+               </person>
+               <person xml:id="CuadraSabino">
+                  <persName>
+                     <forename>Sabino</forename>
+                     <surname>Cuadra</surname>
+                     <surname>Lasarte</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1949-05-24">
+                     <placeName>Amurrio-Azaba</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.AMAIUR"/>
+               </person>
+               <person xml:id="FernándezMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Olaia</forename>
+                     <surname>Fernández</surname>
+                     <surname>Davila</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1954-01-28"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.BNG"/>
+               </person>
+               <person xml:id="HernándezPatricia">
+                  <persName>
+                     <forename>Patricia</forename>
+                     <surname>Hernández</surname>
+                     <surname>Gutiérrez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1980-02-21">
+                     <placeName>Santa Cruz de Tenerife</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="JanéJordi">
+                  <persName>
+                     <forename>Jordi</forename>
+                     <surname>Jané</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Guasch</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1963-11-26">
+                     <placeName>L'Arboç (Tarragona)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.CiU"/>
+               </person>
+               <person xml:id="MataríJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>José</forename>
+                     <surname>Matarí</surname>
+                     <surname>Sáez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1959-12-24">
+                     <placeName>Almería</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="MontoroCristóbal">
+                  <persName>
+                     <forename>Cristóbal</forename>
+                     <forename>Ricardo</forename>
+                     <surname>Montoro</surname>
+                     <surname>Romero</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1950-07-28"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="OlabarríaEmilio">
+                  <persName>
+                     <forename>Emilio</forename>
+                     <surname>Olabarría</surname>
+                     <surname>Muñoz</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1954-04-02"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.EAJPNV"/>
+               </person>
+               <person xml:id="OramasAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <forename>María</forename>
+                     <surname>Oramas</surname>
+                     <surname>González-moro</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1955-07-17"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2023-01-24"/>
+                  <affiliation role="member"
+                               ref="#party.CCNCPNC"
+                               from="2015-01-20"
+                               to="2015-01-20"/>
+                  <affiliation role="member"
+                               ref="#party.CCaPNCNC"
+                               from="2017-01-31"
+                               to="2023-01-24"/>
+               </person>
+               <person xml:id="OñateSilvia">
+                  <persName>
+                     <forename>Silvia</forename>
+                     <surname>Oñate</surname>
+                     <surname>Moya</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1971-03-31">
+                     <placeName>Alicante/Alacant</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="PicóAntoni">
+                  <persName>
+                     <forename>Antoni</forename>
+                     <surname>Picó</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Azanza</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-05-05">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.CiU"/>
+               </person>
+               <person xml:id="PérezJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>Vicente</forename>
+                     <surname>Pérez</surname>
+                     <surname>Aras</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1963-11-13">
+                     <placeName>Benisanó (Valencia/València)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="QuevedoPedro">
+                  <persName>
+                     <forename>Pedro</forename>
+                     <surname>Quevedo</surname>
+                     <surname>Iturbe</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1956-03-11"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2022-01-25"/>
+                  <affiliation role="member"
+                               ref="#party.CCNCPNC"
+                               from="2015-01-20"
+                               to="2015-01-20"/>
+                  <affiliation role="member"
+                               ref="#party.NCCCaPNC"
+                               from="2017-01-31"
+                               to="2022-01-25"/>
+               </person>
+               <person xml:id="SauraPedro">
+                  <persName>
+                     <forename>Pedro</forename>
+                     <surname>Saura</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-04-26">
+                     <placeName>Torre Pacheco (Murcia)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="SimancasRafael">
+                  <persName>
+                     <forename>Rafael</forename>
+                     <surname>Simancas</surname>
+                     <surname>Simancas</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1966-07-01"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="SixtoRicardo">
+                  <persName>
+                     <forename>Ricardo</forename>
+                     <surname>Sixto</surname>
+                     <surname>Iglesias</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1967-01-07"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.EUPV"/>
+               </person>
+               <person xml:id="SánchezJosep">
+                  <persName>
+                     <forename>Josep</forename>
+                     <surname>Sánchez</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Llibre</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1949-05-26">
+                     <placeName>Vilassar de Mar (Barcelona)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2015-01-20"/>
+                  <affiliation role="member" ref="#party.CiU"/>
+               </person>
+               <person xml:id="TardàJoan">
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Tardà</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Coma</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1953-09-26"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2018-02-06"/>
+                  <affiliation role="member"
+                               ref="#party.ERCCATSÍ"
+                               from="2018-02-06"
+                               to="2018-02-06"/>
+                  <affiliation role="member"
+                               ref="#party.ERCRIcat"
+                               from="2015-01-20"
+                               to="2015-01-20"/>
+               </person>
+               <person xml:id="VillalobosCelia">
+                  <persName>
+                     <forename>Celia</forename>
+                     <surname>Villalobos</surname>
+                     <surname>Talero</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1949-04-18"/>
+                  <affiliation ref="#CD" role="MP" from="2015-01-20" to="2016-01-13"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="CapellaEster">
+                  <persName>
+                     <forename>Ester</forename>
+                     <surname>Capella</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Farré</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1963-04-03"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.ERCCATSÍ"/>
+               </person>
+               <person xml:id="ElizoMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Gloria</forename>
+                     <surname>Elizo</surname>
+                     <surname>Serrano</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1966-12-11"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="ExpósitoMarcelo">
+                  <persName>
+                     <forename>Marcelo</forename>
+                     <surname>Expósito</surname>
+                     <surname>Prieto</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1966-05-29"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2016-01-13"/>
+                  <affiliation role="member" ref="#party.ECP"/>
+               </person>
+               <person xml:id="LaraMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Teresa</forename>
+                     <nameLink>De</nameLink>
+                     <surname>Lara</surname>
+                     <surname>Carbó</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1944-12-13">
+                     <placeName>Gerona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2016-01-13"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="LópezPatxi">
+                  <persName>
+                     <forename>Patxi</forename>
+                     <surname>López</surname>
+                     <surname>Álvarez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1959-10-04">
+                     <placeName>Barakaldo</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2016-01-13"/>
+                  <affiliation role="member" ref="#party.PSEEEPSOE"/>
+               </person>
+               <person xml:id="NavarroMicaela">
+                  <persName>
+                     <forename>Micaela</forename>
+                     <surname>Navarro</surname>
+                     <surname>Garzón</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1956-09-02"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="PrendesJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>Ignacio</forename>
+                     <surname>Prendes</surname>
+                     <surname>Prendes</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1965-02-22">
+                     <placeName>Gijón (Asturias)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="ReyesPatricia">
+                  <persName>
+                     <forename>Patricia</forename>
+                     <surname>Reyes</surname>
+                     <surname>Rivera</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1973-12-22"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2016-01-13"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="RomeroRosa">
+                  <persName>
+                     <forename>Rosa</forename>
+                     <forename>María</forename>
+                     <surname>Romero</surname>
+                     <surname>Sánchez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1970-02-14"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="SuchMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <surname>Such</surname>
+                     <surname>Palomares</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1990-06-23"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2016-01-13"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="SánchezcamachoAlicia">
+                  <persName>
+                     <forename>Alicia</forename>
+                     <surname>Sánchez-camacho</surname>
+                     <surname>Pérez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1967-04-22"/>
+                  <affiliation ref="#CD" role="MP" from="2016-01-13" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="AlliÍñigo">
+                  <persName>
+                     <forename>Íñigo</forename>
+                     <forename>Jesús</forename>
+                     <surname>Alli</surname>
+                     <surname>Martínez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1973-04-21">
+                     <placeName>Pamplona (Navarra)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.UPNPP"/>
+               </person>
+               <person xml:id="BarandiaranÍñigo">
+                  <persName>
+                     <forename>Íñigo</forename>
+                     <surname>Barandiaran</surname>
+                     <surname>Benito</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1959-02-19"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.EAJPNV"/>
+               </person>
+               <person xml:id="BeitialarrangoitiaMarian">
+                  <persName>
+                     <forename>Marian</forename>
+                     <surname>Beitialarrangoitia</surname>
+                     <surname>Lizarralde</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1968-01-20"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.EHBildu"/>
+               </person>
+               <person xml:id="BelFerran">
+                  <persName>
+                     <forename>Ferran</forename>
+                     <surname>Bel</surname>
+                     <surname>Accensi</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1965-06-01">
+                     <placeName>Tortosa</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTS"/>
+               </person>
+               <person xml:id="CampoSergio">
+                  <persName>
+                     <forename>Sergio</forename>
+                     <nameLink>Del</nameLink>
+                     <surname>Campo</surname>
+                     <surname>Estaún</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1981-10-23"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="CandelaIgnasi">
+                  <persName>
+                     <forename>Ignasi</forename>
+                     <surname>Candela</surname>
+                     <surname>Serna</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1987-06-06"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.CPEUPV"/>
+               </person>
+               <person xml:id="CapdevilaJoan">
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Capdevila</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Esteve</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1965-07-12"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ERCS"/>
+               </person>
+               <person xml:id="DíazYolanda">
+                  <persName>
+                     <forename>Yolanda</forename>
+                     <surname>Díaz</surname>
+                     <surname>Pérez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1971-05-06"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ECUP"/>
+               </person>
+               <person xml:id="FerrerSonia">
+                  <persName>
+                     <forename>Sonia</forename>
+                     <surname>Ferrer</surname>
+                     <surname>Tesoro</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1973-02-04"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2017-01-31"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="GirautaJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>Carlos</forename>
+                     <surname>Girauta</surname>
+                     <surname>Vidal</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1961-03-12"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="GuindosLuis">
+                  <persName>
+                     <forename>Luis</forename>
+                     <nameLink>De</nameLink>
+                     <surname>Guindos</surname>
+                     <surname>Jurado</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1960-01-16">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref=""/>
+               </person>
+               <person xml:id="HoyoBelén">
+                  <persName>
+                     <forename>Belén</forename>
+                     <surname>Hoyo</surname>
+                     <surname>Juliá</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1984-05-05"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="LucioMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Pilar</forename>
+                     <surname>Lucio</surname>
+                     <surname>Carrasco</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1972-10-11"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2017-01-31"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="MariscalGuillermo">
+                  <persName>
+                     <forename>Guillermo</forename>
+                     <surname>Mariscal</surname>
+                     <surname>Anaya</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1974-05-09"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2017-01-31"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="MartínezIsidro">
+                  <persName>
+                     <forename>Isidro</forename>
+                     <forename>Manuel</forename>
+                     <surname>Martínez</surname>
+                     <surname>Oblanca</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1956-11-12"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PPFORO"/>
+               </person>
+               <person xml:id="MatuteOskar">
+                  <persName>
+                     <forename>Oskar</forename>
+                     <surname>Matute</surname>
+                     <surname>García</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Jalón</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-10-05">
+                     <placeName>Baracaldo</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.EHBildu"/>
+               </person>
+               <person xml:id="MonteroAlberto">
+                  <persName>
+                     <forename>Alberto</forename>
+                     <surname>Montero</surname>
+                     <surname>Soler</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-02-01">
+                     <placeName>Cornellá (Barcelona)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="NadalÁlvaro">
+                  <persName>
+                     <forename>Álvaro</forename>
+                     <forename>María</forename>
+                     <surname>Nadal</surname>
+                     <surname>Belda</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-01-30">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2017-01-31"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="PalmerTeresa">
+                  <persName>
+                     <forename>Teresa</forename>
+                     <surname>Palmer</surname>
+                     <surname>Tous</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1969-09-05">
+                     <placeName>Palma de Mallorca (Baleares)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="RoblesMargarita">
+                  <persName>
+                     <forename>Margarita</forename>
+                     <surname>Robles</surname>
+                     <surname>Fernández</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1956-11-10">
+                     <placeName>León</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2017-01-31"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="RodríguezMelisa">
+                  <persName>
+                     <forename>Melisa</forename>
+                     <surname>Rodríguez</surname>
+                     <surname>Hernández</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1986-07-09"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="SagastizabalIdoia">
+                  <persName>
+                     <forename>Idoia</forename>
+                     <surname>Sagastizabal</surname>
+                     <surname>Unzetabarrenetxea</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1972-09-22"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.EAJPNV"/>
+               </person>
+               <person xml:id="SalvadorCarlos">
+                  <persName>
+                     <forename>Carlos</forename>
+                     <forename>Casimiro</forename>
+                     <surname>Salvador</surname>
+                     <surname>Armendáriz</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1966-04-14">
+                     <placeName>Pamplona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.UPNPP"/>
+               </person>
+               <person xml:id="SalvadorJordi">
+                  <persName>
+                     <forename>Jordi</forename>
+                     <surname>Salvador</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Duch</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1964-07-23"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.ERCS"/>
+               </person>
+               <person xml:id="SorlíMarta">
+                  <persName>
+                     <forename>Marta</forename>
+                     <surname>Sorlí</surname>
+                     <surname>Fresquet</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1986-06-16"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.CPEUPV"/>
+               </person>
+               <person xml:id="VendrellJosep">
+                  <persName>
+                     <forename>Josep</forename>
+                     <surname>Vendrell</surname>
+                     <surname>Gardeñes</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1968-07-11"/>
+                  <affiliation ref="#CD" role="MP" from="2017-01-31" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.ECP"/>
+               </person>
+               <person xml:id="BarrachinaMiguel">
+                  <persName>
+                     <forename>Miguel</forename>
+                     <surname>Barrachina</surname>
+                     <surname>Ros</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1969-01-30"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="BatallerEnric">
+                  <persName>
+                     <forename>Enric</forename>
+                     <surname>Bataller</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Ruiz</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1965-05-30"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.CPEUPV"/>
+               </person>
+               <person xml:id="ElorzaOdón">
+                  <persName>
+                     <forename>Odón</forename>
+                     <surname>Elorza</surname>
+                     <surname>González</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1955-05-31"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PSEEEPSOE"/>
+               </person>
+               <person xml:id="EspañaCarolina">
+                  <persName>
+                     <forename>Carolina</forename>
+                     <surname>España</surname>
+                     <surname>Reina</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1969-08-24"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="EstebanAitor">
+                  <persName>
+                     <forename>Aitor</forename>
+                     <surname>Esteban</surname>
+                     <surname>Bravo</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-06-21"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.EAJPNV"/>
+               </person>
+               <person xml:id="EstellerMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Ángeles</forename>
+                     <surname>Esteller</surname>
+                     <surname>Ruedas</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1963-02-12"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="FrancoIsabel">
+                  <persName>
+                     <forename>Isabel</forename>
+                     <surname>Franco</surname>
+                     <surname>Carmona</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1985-11-27"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="FranquisSebastián">
+                  <persName>
+                     <forename>Sebastián</forename>
+                     <surname>Franquis</surname>
+                     <surname>Vera</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1961-10-31"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PSOENCa"/>
+               </person>
+               <person xml:id="GuillaumesFeliujoan">
+                  <persName>
+                     <forename>Feliu-joan</forename>
+                     <surname>Guillaumes</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Ràfols</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-12-05">
+                     <placeName>Camprodon (Girona)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.CDC"/>
+               </person>
+               <person xml:id="GutiérrezMiguel">
+                  <persName>
+                     <forename>Miguel</forename>
+                     <forename>Ángel</forename>
+                     <surname>Gutiérrez</surname>
+                     <surname>Vivas</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1964-02-03"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="GómezRodrigo">
+                  <persName>
+                     <forename>Rodrigo</forename>
+                     <surname>Gómez</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1980-12-01"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="JordàTeresa">
+                  <persName>
+                     <forename>Teresa</forename>
+                     <surname>Jordà</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Roura</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1972-06-19"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.ERCCATSÍ"/>
+               </person>
+               <person xml:id="LamuàMarc">
+                  <persName>
+                     <forename>Marc</forename>
+                     <surname>Lamuà</surname>
+                     <surname>Estañol</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1980-05-19">
+                     <placeName>Castell-Platja d'Aro (Girona)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PSCPSOE"/>
+               </person>
+               <person xml:id="LegardaMikel">
+                  <persName>
+                     <forename>Mikel</forename>
+                     <surname>Legarda</surname>
+                     <surname>Uriarte</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1956-12-12"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.EAJPNV"/>
+               </person>
+               <person xml:id="MadrazoAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <forename>María</forename>
+                     <surname>Madrazo</surname>
+                     <surname>Díaz</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1961-09-28"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="MateuJaime">
+                  <persName>
+                     <forename>Jaime</forename>
+                     <forename>Miguel</forename>
+                     <surname>Mateu</surname>
+                     <surname>Istúriz</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1957-06-05"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="NavarroFernando">
+                  <persName>
+                     <forename>Fernando</forename>
+                     <surname>Navarro</surname>
+                     <surname>Fernández-rodríguez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-06-08"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="OlòrizJoan">
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Olòriz</surname>
+                     <surname>Serra</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1954-01-23"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.ERCCATSÍ"/>
+               </person>
+               <person xml:id="PalacínGonzalo">
+                  <persName>
+                     <forename>Gonzalo</forename>
+                     <surname>Palacín</surname>
+                     <surname>Guarné</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1984-02-09"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="PeñaEsther">
+                  <persName>
+                     <forename>Esther</forename>
+                     <surname>Peña</surname>
+                     <surname>Camarero</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1980-07-12"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="RamosAlicia">
+                  <persName>
+                     <forename>Alicia</forename>
+                     <surname>Ramos</surname>
+                     <surname>Jordán</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1974-12-01"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.ECP"/>
+               </person>
+               <person xml:id="RayaMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Tamara</forename>
+                     <surname>Raya</surname>
+                     <surname>Rodríguez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1972-08-27"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="RodríguezAlberto">
+                  <persName>
+                     <forename>Alberto</forename>
+                     <surname>Rodríguez</surname>
+                     <surname>Rodríguez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1981-12-11"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="RoldánAntonio">
+                  <persName>
+                     <forename>Antonio</forename>
+                     <surname>Roldán</surname>
+                     <surname>Monés</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1983-05-14">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="SurraAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <forename>María</forename>
+                     <surname>Surra</surname>
+                     <surname>Spadea</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1952-07-10"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.ERCCATSÍ"/>
+               </person>
+               <person xml:id="TorreFrancisco">
+                  <persName>
+                     <forename>Francisco</forename>
+                     <nameLink>De</nameLink>
+                     <nameLink>la</nameLink>
+                     <surname>Torre</surname>
+                     <surname>Díaz</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-07-22"/>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="ValidoCarmen">
+                  <persName>
+                     <forename>Carmen</forename>
+                     <surname>Valido</surname>
+                     <surname>Pérez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1963-07-14">
+                     <placeName>Ingenio (Gran Canaria)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2018-02-06" to="2018-02-06"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="ArribaBienvenido">
+                  <persName>
+                     <forename>Bienvenido</forename>
+                     <nameLink>De</nameLink>
+                     <surname>Arriba</surname>
+                     <surname>Sánchez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1973-04-29"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="BatetMeritxell">
+                  <persName>
+                     <forename>Meritxell</forename>
+                     <surname>Batet</surname>
+                     <surname>Lamaña</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1973-03-19"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSCPSOE"/>
+               </person>
+               <person xml:id="BlanquerPatricia">
+                  <persName>
+                     <forename>Patricia</forename>
+                     <surname>Blanquer</surname>
+                     <surname>Alcaraz</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1973-05-12">
+                     <placeName>Alcoi (Alicante)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="CarcedoMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Luisa</forename>
+                     <surname>Carcedo</surname>
+                     <surname>Roces</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1953-08-30"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="EritjaFrancesc">
+                  <persName>
+                     <forename>Francesc</forename>
+                     <forename>Xavier</forename>
+                     <surname>Eritja</surname>
+                     <surname>Ciuró</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-03-26"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.ERCS"/>
+               </person>
+               <person xml:id="FlorianoCarlos">
+                  <persName>
+                     <forename>Carlos</forename>
+                     <forename>Javier</forename>
+                     <surname>Floriano</surname>
+                     <surname>Corrales</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1967-02-12"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="GarauletMiguel">
+                  <persName>
+                     <forename>Miguel</forename>
+                     <forename>Ángel</forename>
+                     <surname>Garaulet</surname>
+                     <surname>Rodríguez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1968-08-07"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="GonzálezSegundo">
+                  <persName>
+                     <forename>Segundo</forename>
+                     <surname>González</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1988-02-26"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="GuiraoJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <surname>Guirao</surname>
+                     <surname>Cabrera</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1959-06-09">
+                     <placeName>Pulpí (Almería)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="HerreroJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>Alberto</forename>
+                     <surname>Herrero</surname>
+                     <surname>Bono</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1978-07-02"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="HonoratoMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Auxiliadora</forename>
+                     <surname>Honorato</surname>
+                     <surname>Chulián</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1974-11-30">
+                     <placeName>Cádiz</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="LorenzoMiguel">
+                  <persName>
+                     <forename>Miguel</forename>
+                     <surname>Lorenzo</surname>
+                     <surname>Torres</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1961-09-25"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="LópezSusana">
+                  <persName>
+                     <forename>Susana</forename>
+                     <surname>López</surname>
+                     <surname>Ares</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1967-12-08"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PPFORO"/>
+               </person>
+               <person xml:id="MarcelloAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <surname>Marcello</surname>
+                     <surname>Santos</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1984-05-19">
+                     <placeName>León</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="MargallJoan">
+                  <persName>
+                     <forename>Joan</forename>
+                     <surname>Margall</surname>
+                     <surname>Sastre</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1975-11-02">
+                     <placeName>Torroella de Montgrí (Girona)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ERCS"/>
+               </person>
+               <person xml:id="MartínLucía">
+                  <persName>
+                     <forename>Lucía</forename>
+                     <surname>Martín</surname>
+                     <surname>González</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1979-01-15"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.ECP"/>
+               </person>
+               <person xml:id="MauraEduardo">
+                  <persName>
+                     <forename>Eduardo</forename>
+                     <forename>Javier</forename>
+                     <surname>Maura</surname>
+                     <surname>Zorita</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1981-04-18"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="MiquelSergi">
+                  <persName>
+                     <forename>Sergi</forename>
+                     <surname>Miquel</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Valentí</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1989-12-24"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTS"/>
+               </person>
+               <person xml:id="MonteroMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Jesús</forename>
+                     <surname>Montero</surname>
+                     <surname>Cuadrado</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1966-02-04">
+                     <placeName>Sevilla</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="MoralejaTristana">
+                  <persName>
+                     <forename>Tristana</forename>
+                     <forename>María</forename>
+                     <surname>Moraleja</surname>
+                     <surname>Gómez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1971-08-17">
+                     <placeName>Lugo</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="NúñezAndrés">
+                  <persName>
+                     <forename>Andrés</forename>
+                     <surname>Núñez</surname>
+                     <surname>Jiménez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1981-05-25"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="PaniaguaMiguel">
+                  <persName>
+                     <forename>Miguel</forename>
+                     <forename>Ángel</forename>
+                     <surname>Paniagua</surname>
+                     <surname>Núñez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1964-09-02">
+                     <placeName>Palencia</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="PascualSergio">
+                  <persName>
+                     <forename>Sergio</forename>
+                     <surname>Pascual</surname>
+                     <surname>Peña</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1977-06-10">
+                     <placeName>Plasencia (Cáceres)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="PereaMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Mercè</forename>
+                     <surname>Perea</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Conillas</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1966-11-22"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSCPSOE"/>
+               </person>
+               <person xml:id="RamosCésar">
+                  <persName>
+                     <forename>César</forename>
+                     <forename>Joaquín</forename>
+                     <surname>Ramos</surname>
+                     <surname>Esteban</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1975-03-01"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="RiberaTeresa">
+                  <persName>
+                     <forename>Teresa</forename>
+                     <surname>Ribera</surname>
+                     <surname>Rodríguez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1969-05-19"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="RomingueraMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Del</forename>
+                     <forename>Mar</forename>
+                     <surname>Rominguera</surname>
+                     <surname>Salazar</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1966-06-18">
+                     <placeName>Ceuta</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="SerranoMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Jesús</forename>
+                     <surname>Serrano</surname>
+                     <surname>Jiménez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1970-11-24"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="SánchezSol">
+                  <persName>
+                     <forename>Sol</forename>
+                     <surname>Sánchez</surname>
+                     <surname>Maroto</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1970-04-01"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="TenVicente">
+                  <persName>
+                     <forename>Vicente</forename>
+                     <surname>Ten</surname>
+                     <surname>Oliver</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1966-04-19"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="TorresJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>Andrés</forename>
+                     <surname>Torres</surname>
+                     <surname>Mora</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1960-01-01"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="UrquizuIgnacio">
+                  <persName>
+                     <forename>Ignacio</forename>
+                     <surname>Urquizu</surname>
+                     <surname>Sancho</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1978-11-21"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="ValerioMagdalena">
+                  <persName>
+                     <forename>Magdalena</forename>
+                     <surname>Valerio</surname>
+                     <surname>Cordero</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1959-09-27">
+                     <placeName>Torremocha (Cáceres)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="XuclàiJordi">
+                  <persName>
+                     <forename>Jordi</forename>
+                     <surname>Xuclài</surname>
+                     <surname>Costa</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1973-05-13"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2019-01-22"/>
+                  <affiliation role="member" ref="#party.CDC"/>
+               </person>
+               <person xml:id="ZuritaAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <forename>María</forename>
+                     <surname>Zurita</surname>
+                     <surname>Expósito</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1963-11-03"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="ÁbalosJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>Luis</forename>
+                     <surname>Ábalos</surname>
+                     <surname>Meco</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1959-12-09"/>
+                  <affiliation ref="#CD" role="MP" from="2019-01-22" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="AbascalSantiago">
+                  <persName>
+                     <forename>Santiago</forename>
+                     <surname>Abascal</surname>
+                     <surname>Conde</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1976-04-14"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="AlonsocuevillasJaume">
+                  <persName>
+                     <forename>Jaume</forename>
+                     <surname>Alonso-cuevillas</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Sayrol</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1961-11-22"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTS"/>
+               </person>
+               <person xml:id="ArrimadasInés">
+                  <persName>
+                     <forename>Inés</forename>
+                     <surname>Arrimadas</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1981-07-03">
+                     <placeName>Jerez de la Frontera (Cádiz)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="AsensJaume">
+                  <persName>
+                     <forename>Jaume</forename>
+                     <surname>Asens</surname>
+                     <surname>Llodrà</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-03-29">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ECPGUAYEMELCANVI"/>
+               </person>
+               <person xml:id="BorràsLaura">
+                  <persName>
+                     <forename>Laura</forename>
+                     <surname>Borràs</surname>
+                     <surname>Castanyer</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1970-10-05">
+                     <placeName>Barcelona</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTS"/>
+               </person>
+               <person xml:id="CasadoPablo">
+                  <persName>
+                     <forename>Pablo</forename>
+                     <surname>Casado</surname>
+                     <surname>Blanco</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1981-02-01">
+                     <placeName>Palencia</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2020-01-04"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="GarzónAlberto">
+                  <persName>
+                     <forename>Alberto</forename>
+                     <surname>Garzón</surname>
+                     <surname>Espinosa</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1985-10-09"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2020-01-04"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="GuitarteTomás">
+                  <persName>
+                     <forename>Tomás</forename>
+                     <surname>Guitarte</surname>
+                     <surname>Gimeno</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1961-03-07"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.TeruelExiste"/>
+               </person>
+               <person xml:id="GómezreinoAntonio">
+                  <persName>
+                     <forename>Antonio</forename>
+                     <surname>Gómez-reino</surname>
+                     <surname>Varela</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1980-03-07"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ECUP"/>
+               </person>
+               <person xml:id="IglesiasPablo">
+                  <persName>
+                     <forename>Pablo</forename>
+                     <surname>Iglesias</surname>
+                     <surname>Turrión</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1978-10-17"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2020-01-04"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="MazónJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>María</forename>
+                     <surname>Mazón</surname>
+                     <surname>Ramos</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1951-07-23"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PRC"/>
+               </person>
+               <person xml:id="PisarelloGerardo">
+                  <persName>
+                     <forename>Gerardo</forename>
+                     <surname>Pisarello</surname>
+                     <surname>Prados</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-08-10">
+                     <placeName>Tucumán (Argentina)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.ECPGUAYEMELCANVI"/>
+               </person>
+               <person xml:id="RegoNéstor">
+                  <persName>
+                     <forename>Néstor</forename>
+                     <surname>Rego</surname>
+                     <surname>Candamil</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-04-02"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.BNG"/>
+               </person>
+               <person xml:id="RodríguezAlfonso">
+                  <persName>
+                     <forename>Alfonso</forename>
+                     <surname>Rodríguez</surname>
+                     <surname>Gómez</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Celis</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-07-29">
+                     <placeName>Sevilla</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="RufiánGabriel">
+                  <persName>
+                     <forename>Gabriel</forename>
+                     <surname>Rufián</surname>
+                     <surname>Romero</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1982-02-08"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ERCS"/>
+               </person>
+               <person xml:id="SabanésInés">
+                  <persName>
+                     <forename>Inés</forename>
+                     <surname>Sabanés</surname>
+                     <surname>Nadal</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1953-06-24"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.MÁSPAÍSEQUO"/>
+               </person>
+               <person xml:id="SánchezPedro">
+                  <persName>
+                     <forename>Pedro</forename>
+                     <surname>Sánchez</surname>
+                     <surname>Pérez-castejón</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-02-29"/>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="ÁlvarezCayetana">
+                  <persName>
+                     <forename>Cayetana</forename>
+                     <surname>Álvarez</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Toledo</surname>
+                     <surname>Peralta-ramos</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1974-10-15">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2020-01-04" to="2020-01-04"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="AlmodóbarAgustín">
+                  <persName>
+                     <forename>Agustín</forename>
+                     <surname>Almodóbar</surname>
+                     <surname>Barceló</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1977-12-01"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="ArandaFrancisco">
+                  <persName>
+                     <forename>Francisco</forename>
+                     <surname>Aranda</surname>
+                     <surname>Vargas</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1977-06-30"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSCPSOE"/>
+               </person>
+               <person xml:id="BalEdmundo">
+                  <persName>
+                     <forename>Edmundo</forename>
+                     <surname>Bal</surname>
+                     <surname>Francés</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1967-07-02"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="CalvoCarmen">
+                  <persName>
+                     <forename>Carmen</forename>
+                     <surname>Calvo</surname>
+                     <surname>Poyato</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1957-06-09">
+                     <placeName>Cabra (Córdoba)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="CasaresPedro">
+                  <persName>
+                     <forename>Pedro</forename>
+                     <surname>Casares</surname>
+                     <surname>Hontañón</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1983-10-05"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="CañizaresInés">
+                  <persName>
+                     <forename>Inés</forename>
+                     <forename>María</forename>
+                     <surname>Cañizares</surname>
+                     <surname>Pacheco</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1970-09-27"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="ErrejónÍñigo">
+                  <persName>
+                     <forename>Íñigo</forename>
+                     <surname>Errejón</surname>
+                     <surname>Galván</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1983-12-14"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.MÁSPAÍSEQUO"/>
+               </person>
+               <person xml:id="EspinosaIván">
+                  <persName>
+                     <forename>Iván</forename>
+                     <surname>Espinosa</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Los</surname>
+                     <surname>Monteros</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Simón</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1971-01-03">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="GarcésMario">
+                  <persName>
+                     <forename>Mario</forename>
+                     <surname>Garcés</surname>
+                     <surname>Sanagustín</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1967-04-29">
+                     <placeName>Jaca</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="GarcíaCarlos">
+                  <persName>
+                     <forename>Carlos</forename>
+                     <surname>García</surname>
+                     <surname>Adanero</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1967-02-07"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-02-23"/>
+                  <affiliation role="member" ref=""/>
+               </person>
+               <person xml:id="GarridoPilar">
+                  <persName>
+                     <forename>Pilar</forename>
+                     <surname>Garrido</surname>
+                     <surname>Gutiérrez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1966-04-15"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="GiménezSara">
+                  <persName>
+                     <forename>Sara</forename>
+                     <surname>Giménez</surname>
+                     <surname>Giménez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1977-01-19">
+                     <placeName>Huesca</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="GonzálezMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Aránzazu</forename>
+                     <surname>González</surname>
+                     <surname>Laya</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1969-05-22">
+                     <placeName>San Sebastián</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref=""/>
+               </person>
+               <person xml:id="GuijarroTxema">
+                  <persName>
+                     <forename>Txema</forename>
+                     <surname>Guijarro</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1975-04-15"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="HonrubiaPedro">
+                  <persName>
+                     <forename>Pedro</forename>
+                     <forename>Antonio</forename>
+                     <surname>Honrubia</surname>
+                     <surname>Hurtado</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1980-09-25"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="IllamolaMariona">
+                  <persName>
+                     <forename>Mariona</forename>
+                     <surname>Illamola</surname>
+                     <surname>Dausà</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1967-01-11"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTS"/>
+               </person>
+               <person xml:id="JoverAntonia">
+                  <persName>
+                     <forename>Antonia</forename>
+                     <surname>Jover</surname>
+                     <surname>Díaz</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1958-12-13">
+                     <placeName>Palma de Mallorca</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="LópezCristina">
+                  <persName>
+                     <forename>Cristina</forename>
+                     <surname>López</surname>
+                     <surname>Zamora</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1989-03-25"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="MarotoReyes">
+                  <persName>
+                     <forename>Reyes</forename>
+                     <surname>Maroto</surname>
+                     <surname>Illera</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1973-12-19">
+                     <placeName>Medina del Campo (Valladolid)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="MartínMarta">
+                  <persName>
+                     <forename>Marta</forename>
+                     <surname>Martín</surname>
+                     <surname>Llaguno</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1972-07-14"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="MartínezMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Valentina</forename>
+                     <surname>Martínez</surname>
+                     <surname>Ferro</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1976-06-21">
+                     <placeName>Santiago de Compostela</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.Cs" from="2022-01-25" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PP" from="2021-01-28" to="2021-01-28"/>
+               </person>
+               <person xml:id="MayoralRafael">
+                  <persName>
+                     <forename>Rafael</forename>
+                     <surname>Mayoral</surname>
+                     <surname>Perales</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1974-03-26"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="MuñozMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <surname>Muñoz</surname>
+                     <surname>Vidal</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1978-04-27">
+                     <placeName>Valencia</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="MínguezMontse">
+                  <persName>
+                     <forename>Montse</forename>
+                     <surname>Mínguez</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1976-07-02"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PSCPSOE"/>
+               </person>
+               <person xml:id="OlonaMacarena">
+                  <persName>
+                     <forename>Macarena</forename>
+                     <surname>Olona</surname>
+                     <surname>Choclán</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1979-05-14"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="OrtegaFrancisco">
+                  <persName>
+                     <forename>Francisco</forename>
+                     <forename>Javier</forename>
+                     <surname>Ortega</surname>
+                     <surname>Smith-molina</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1968-08-28">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="PastorAna">
+                  <persName>
+                     <forename>Ana</forename>
+                     <forename>María</forename>
+                     <surname>Pastor</surname>
+                     <surname>Julián</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1957-11-11">
+                     <placeName>Cubillos</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="PonsPere">
+                  <persName>
+                     <forename>Pere</forename>
+                     <forename>Joan</forename>
+                     <surname>Pons</surname>
+                     <surname>Sampietro</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-07-24">
+                     <placeName>Palma de Mallorca</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="ProhensMargarita">
+                  <persName>
+                     <forename>Margarita</forename>
+                     <surname>Prohens</surname>
+                     <surname>Rigo</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1982-05-24"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="RodríguezMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Elvira</forename>
+                     <surname>Rodríguez</surname>
+                     <surname>Herrer</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1949-05-15"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="RojasCarlos">
+                  <persName>
+                     <forename>Carlos</forename>
+                     <surname>Rojas</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-09-23"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="RuedaPatricia">
+                  <persName>
+                     <forename>Patricia</forename>
+                     <surname>Rueda</surname>
+                     <surname>Perelló</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1976-10-20"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="SayasSergio">
+                  <persName>
+                     <forename>Sergio</forename>
+                     <surname>Sayas</surname>
+                     <surname>López</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1979-07-06">
+                     <placeName>Buñuel</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref=""/>
+               </person>
+               <person xml:id="SánchezJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>María</forename>
+                     <surname>Sánchez</surname>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1963-03-11">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2021-01-28"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="VehíMireia">
+                  <persName>
+                     <forename>Mireia</forename>
+                     <surname>Vehí</surname>
+                     <surname>Cantenys</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1985-02-09"/>
+                  <affiliation ref="#CD" role="MP" from="2021-01-28" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.CUPPR"/>
+               </person>
+               <person xml:id="BorrásMireia">
+                  <persName>
+                     <forename>Mireia</forename>
+                     <surname>Borrás</surname>
+                     <surname>Pabón</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1986-10-14"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="BotranAlbert">
+                  <persName>
+                     <forename>Albert</forename>
+                     <surname>Botran</surname>
+                     <surname>Pahissa</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1984-01-14"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.CUPPR"/>
+               </person>
+               <person xml:id="CaballeroHelena">
+                  <persName>
+                     <forename>Helena</forename>
+                     <surname>Caballero</surname>
+                     <surname>Gutiérrez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1959-07-13"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="FernándezSofía">
+                  <persName>
+                     <forename>Sofía</forename>
+                     <surname>Fernández</surname>
+                     <surname>Castañón</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1983-11-01"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="FigaredoJosé">
+                  <persName>
+                     <forename>José</forename>
+                     <forename>María</forename>
+                     <surname>Figaredo</surname>
+                     <surname>Álvarez-sala</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1988-09-26">
+                     <placeName>Gijón</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="FuentesJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>Bernardo</forename>
+                     <surname>Fuentes</surname>
+                     <surname>Curbelo</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-04-22"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="GarcíaBolaños">
+                  <persName>
+                     <forename>Bolaños</forename>
+                     <surname>García</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1975-12-17">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2023-01-24"/>
+                  <affiliation role="member" ref=""/>
+               </person>
+               <person xml:id="LedesmaSebastián">
+                  <persName>
+                     <forename>Sebastián</forename>
+                     <forename>Jesús</forename>
+                     <surname>Ledesma</surname>
+                     <surname>Martín</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1964-01-14">
+                     <placeName>Puerto de la Cruz (Santa Cruz de Tenerife)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="LópezJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>Antonio</forename>
+                     <surname>López</surname>
+                     <nameLink>De</nameLink>
+                     <surname>Uralde</surname>
+                     <surname>Garmendia</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1963-09-08"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="RequenaJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>Diego</forename>
+                     <surname>Requena</surname>
+                     <surname>Ruiz</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1980-11-24">
+                     <placeName>Santiesteban del Puerto</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="RodríguezAndrés">
+                  <persName>
+                     <forename>Andrés</forename>
+                     <forename>Alberto</forename>
+                     <surname>Rodríguez</surname>
+                     <surname>Almeida</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1978-02-22"/>
+                  <affiliation ref="#CD" role="MP" from="2022-01-25" to="2022-01-25"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="AizcorbeJuan">
+                  <persName>
+                     <forename>Juan</forename>
+                     <forename>José</forename>
+                     <surname>Aizcorbe</surname>
+                     <surname>Torra</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1959-07-09"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="AizpuruaMertxe">
+                  <persName>
+                     <forename>Mertxe</forename>
+                     <surname>Aizpurua</surname>
+                     <surname>Arzallus</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1960-01-08"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.EHBildu"/>
+               </person>
+               <person xml:id="CalvoPilar">
+                  <persName>
+                     <forename>Pilar</forename>
+                     <surname>Calvo</surname>
+                     <surname>Gómez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1963-05-03"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="DíazGuillermo">
+                  <persName>
+                     <forename>Guillermo</forename>
+                     <surname>Díaz</surname>
+                     <surname>Gómez</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1978-04-29"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.Cs"/>
+               </person>
+               <person xml:id="EcheniquePablo">
+                  <persName>
+                     <forename>Pablo</forename>
+                     <surname>Echenique</surname>
+                     <surname>Robba</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1978-08-28"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="GamarraConcepción">
+                  <persName>
+                     <forename>Concepción</forename>
+                     <surname>Gamarra</surname>
+                     <surname>Ruiz-clavijo</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1974-12-23">
+                     <placeName>Logroño (La Rioja)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="GarcíaMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Del</forename>
+                     <forename>Mar</forename>
+                     <surname>García</surname>
+                     <surname>Puig</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1977-08-28"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ECPGUAYEMELCANVI"/>
+               </person>
+               <person xml:id="LópezMaría">
+                  <persName>
+                     <forename>María</forename>
+                     <forename>Teresa</forename>
+                     <surname>López</surname>
+                     <surname>Álvarez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1980-05-14">
+                     <placeName>Ceuta</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.Vox"/>
+               </person>
+               <person xml:id="OlanoJaime">
+                  <persName>
+                     <forename>Jaime</forename>
+                     <nameLink>De</nameLink>
+                     <surname>Olano</surname>
+                     <surname>Vela</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1970-07-06">
+                     <placeName>Coruña (A)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+               <person xml:id="PagèsJosep">
+                  <persName>
+                     <forename>Josep</forename>
+                     <surname>Pagès</surname>
+                     <nameLink>i</nameLink>
+                     <surname>Massó</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1972-06-28"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.JxCatJUNTSJunts"/>
+               </person>
+               <person xml:id="SantiagoEnrique">
+                  <persName>
+                     <forename>Enrique</forename>
+                     <forename>Fernando</forename>
+                     <surname>Santiago</surname>
+                     <surname>Romero</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1964-07-18">
+                     <placeName>Madrid</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.UP"/>
+               </person>
+               <person xml:id="VidalAina">
+                  <persName>
+                     <forename>Aina</forename>
+                     <surname>Vidal</surname>
+                     <surname>Sáez</surname>
+                  </persName>
+                  <sex value="F"/>
+                  <birth when="1985-03-22"/>
+                  <affiliation ref="#CD" role="MP" from="2023-01-24" to="2023-01-24"/>
+                  <affiliation role="member" ref="#party.ECPGUAYEMELCANVI"/>
+               </person>
+               <person xml:id="CerdánSantos">
+                  <persName>
+                     <forename>Santos</forename>
+                     <surname>Cerdán</surname>
+                     <surname>León</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1969-05-04">
+                     <placeName>Milagro (Navarra)</placeName>
+                  </birth>
+                  <affiliation ref="#CD" role="MP" from="2023-02-23" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.PSOE"/>
+               </person>
+               <person xml:id="ElorriagaGabriel">
+                  <persName>
+                     <forename>Gabriel</forename>
+                     <surname>Elorriaga</surname>
+                     <surname>Pisarik</surname>
+                  </persName>
+                  <sex value="M"/>
+                  <birth when="1962-06-11"/>
+                  <affiliation ref="#CD" role="MP" from="2023-02-23" to="2023-02-23"/>
+                  <affiliation role="member" ref="#party.PP"/>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="es" xml:lang="es">Español</language>
+            <language ident="es" xml:lang="en">Spanish</language>
+            <language ident="en" xml:lang="es">Inglés</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-15">
+            <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2015-01-20-CD150120.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2016-01-13-CD160113.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2017-01-31-CD170131.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2018-02-06-CD180206.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2019-01-22-CD190122.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2020-01-04-CD200104.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2021-01-28-CD210128.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2022-01-25-CD220125.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-ES_2023-01-24-CD230124.xml"/>
+</teiCorpus>
