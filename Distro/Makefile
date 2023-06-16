@@ -1,15 +1,32 @@
+samples:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
+	grep -a -i error Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
+	grep -a -i warn  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
+	done;
+
+
 ############### Makefile for making a distributable version of the ParlaMint corpora #################
 
 ### VARIABLES
-# Which corpora to process, takes cca 1 day per corpus!
-CORPORA =  AT
+# Which corpora to process, takes cca 1 day per corpus, depending on the size
+# DONE = EE ES-GA ES-CT PT
+
+# DONE = AT BA BE BG CZ DK EE ES-CT ES-GA IT LV NL PT
+# DOING1 = FR GR HR HU SE TR 
+# DOING2 = IS NO PL RS SI UA 
+#CORPORA = HU SE TR
+CORPORA = RS SI UA
+
 # Submitted corpora
-#CORPORA = AT BA BE BG CZ DK ES-CT FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+#CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+
+# Missing corpora: ES ES-PV FI LT RO
 # All ParlaMint II corpora
 #ALL_CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
+CORPORA = LV
 
 # Used for testing scripts
-#CORPUS = BA
 CORPUS = LV
 
 #Where things are, as we use several branches: this one (most likely dev) and documentation
@@ -25,6 +42,8 @@ SOURCE-MT = ${HERE}/Source-MT
 
 # Version number
 VERSION = 3.0
+# Shall MT version be 3.0 or 1.0??
+VERSION-MT = 3.0
 # PID of TEI and TEI.ana ParlaMint-en release
 HANDLE-TEI = http://hdl.handle.net/11356/1486
 HANDLE-ANA = http://hdl.handle.net/11356/1810
@@ -39,58 +58,32 @@ web:
 	rsync -av Logs/*.log ${WEB}/Logs
 	rsync -av Packed/*.tgz ${WEB}/Repo
 
+###### Factorisation of source corpora; needs to be run only once
+factor-all:
+	../Scripts/parlamint-factorize-corpora.pl ${SOURCE}
+
 ###### Targets for producing releasable version of ParlaMint corpora
 FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
 
-#Tests
-test1:
-	rm -fr Test/Out/ParlaMint-${CORPUS}*
-	perl ../Scripts/parlamint2distro.pl -tei -ana -val -codes ${CORPUS} -in Test/In -out Test/Out \
-	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
-
-test-factorize:
-	rm -fr Test/Factorized/ParlaMint-${CORPUS}*
-	mkdir Test/Factorized || :
-	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI \
-	   prefix="ParlaMint-${CORPUS}-" \
-	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
-	   Test/In/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
-	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI.ana \
-	   prefix="ParlaMint-${CORPUS}-" \
-	   teiRoot=`pwd`"/Test/Factorized/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml" \
-	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
-	   Test/In/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
-
-
-errs1:
-	grep -i error Logs/*.log | \
-	grep -v '...suppressing' | grep -v 'Format errors' | grep -v 'Syntax errors' | grep -v 'FAILED'
-
-### Some idea, need to think about it!
-#REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
-REGIS=ua
-QUERY=https://dev:alfabetagama@www.clarin.si/noske-beta/parlamint.cgi/wordlist?
-TAIL=wlmaxitems=1000;wlattr=speech.body;wlminfreq=1;include_nonwords=1;wlsort=f;wlnums=docf;format=xml
-body:
-	rm -f body.xml
-	for REGI in ${REGIS} ; do \
-	curl "${QUERY}corpname=parlamint30_$${REGI};${TAIL}" | grep -v xml >> body.xml ; \
-	done
-
 ### For real
 nohup:
-	nice nohup time make all > Logs/ParlaMint.log &
-all:	final verts pack
+	nice nohup time make all > Logs/ParlaMint.1.log &
+# Second nohup, in case we want to process several corpora at once
+# In which case CORPORA variable needs to be changed!
+nohup2:
+	nice nohup time make all > Logs/ParlaMint.2.log &
+all:	final
+xall:	final verts pack
 
 pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
+	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Packed
 verts:
 	perl ../Scripts/join-verts.pl -codes '${CORPORA}' -in Master -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
-	grep -a -i error Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
-	grep -a -i warn  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
+	grep -a -i 'error ' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	echo "$${CORPUS}.warn"; \
 	cat Logs/ParlaMint-$${CORPUS}.warn.log | wc -l;  \
 	cat Logs/ParlaMint-$${CORPUS}.warn.log | sort | uniq | wc -l;  \
@@ -109,7 +102,7 @@ all-verts:
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -anahandle ${HANDLE-MT} -schema ${DOC}/Schema -docs ${HERE}/Docs
+FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahandle ${HANDLE-MT} -schema ${DOC}/Schema -docs ${HERE}/Docs
 
 # Targets
 mt-nohup:
@@ -124,7 +117,7 @@ mt-verts:
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl ../Scripts/mt-conllu2tei.pl \
-	${SOURCE}/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
+	${HERE}/Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
 	${SOURCE-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCE-MT}/ParlaMint-$${CORPUS}-en.conllu \
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
@@ -159,23 +152,60 @@ mt-test3:
 	$s noteFile=../taja/Notes-translated/ParlaMint-AT.notes.translated.tsv -xsl:../Scripts/mt-insert-notes.xsl \
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml
+mt-test2a:
+	perl ../Scripts/conllu2tei.pl < Test/0.conllu > Test/0.body.xml
 mt-test2:
 	perl ../Scripts/conllu2tei.pl \
-	< taja/ParlaMint-AT.conllu.translated/1996/ParlaMint-AT_1996-01-30-020-XX-NRSITZ-00004.conllu \
-	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.body.xml
+	< Source-MT/ParlaMint-LV-en.conllu/2015/ParlaMint-LV_2015-11-12-PT12-329.conllu \
+	> Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
+	xmllint --noout Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 mt-test1:
-	#rm -fr Test/ParlaMint-AT.tmp/*
-	$s outDir=Test/ParlaMint-AT.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${SOURCE}/ParlaMint-AT.TEI.ana/ParlaMint-AT.ana.xml 
+	rm -fr Test/ParlaMint-CZ.tmp/*
+	$s outDir=Test/ParlaMint-CZ.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-CZ.TEI.ana/ParlaMint-CZ.ana.xml
 
 # Producing almost XX-en, uses CORPUS variable
 mt-prep-nohup:
 	nohup time make mt-prep-cnv > Logs/ParlaMint-${CORPUS}-mt2tei.log &
 mt-prep-cnv:
 	perl ../Scripts/mt-conllu2tei.pl \
-	${SOURCE}/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml \
+	${HERE}/Master/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml \
 	${SOURCE-MT}/ParlaMint-${CORPUS}-en-notes.tsv \
 	${SOURCE-MT}/ParlaMint-${CORPUS}-en.conllu \
 	Test/ParlaMint-${CORPUS}-en.TEI.ana
+
+#Tests for original corpora
+test1:
+	rm -fr Test/Out/ParlaMint-${CORPUS}*
+	perl ../Scripts/parlamint2distro.pl -tei -codes ${CORPUS} -in Test/In -out Test/Out \
+	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
+
+test-factorize:
+	rm -fr Test/Factorized/ParlaMint-${CORPUS}*
+	mkdir Test/Factorized || :
+	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI \
+	   prefix="ParlaMint-${CORPUS}-" \
+	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
+	   ${SOURCE}/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
+	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI.ana \
+	   prefix="ParlaMint-${CORPUS}-" \
+	   teiRoot=`pwd`"/Test/Factorized/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml" \
+	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
+	   ${SOURCE}/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
+
+errs1:
+	grep -i error Logs/*.log | \
+	grep -v '...suppressing' | grep -v 'Format errors' | grep -v 'Syntax errors' | grep -v 'FAILED'
+
+### Some idea, need to think about it!
+#REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
+REGIS=ua
+QUERY=https://dev:alfabetagama@www.clarin.si/noske-beta/parlamint.cgi/wordlist?
+TAIL=wlmaxitems=1000;wlattr=speech.body;wlminfreq=1;include_nonwords=1;wlsort=f;wlnums=docf;format=xml
+body:
+	rm -f body.xml
+	for REGI in ${REGIS} ; do \
+	curl "${QUERY}corpname=parlamint30_$${REGI};${TAIL}" | grep -v xml >> body.xml ; \
+	done
 
 ###################### SCRIPT VARIABLES
 #s = java -jar -Xmx240g /usr/share/java/saxon.jar
