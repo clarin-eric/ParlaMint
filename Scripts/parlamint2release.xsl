@@ -75,6 +75,8 @@
   <xsl:variable name="corpusDir" select="replace(base-uri(), 
                                          '.*?([^/]+)/[^/]+\.[^/]+$', '$1')"/>
 
+  <!-- note's content that do not produce warning -->
+  <xsl:variable name="allowedNotes" select="tokenize('.. ... .... … ? !')"/>
   <!-- Output root file -->
   <xsl:variable name="outRoot">
     <xsl:value-of select="$outDir"/>
@@ -370,7 +372,8 @@
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
     </xsl:if>
-    <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))">
+    <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
+                 and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': ',
                          parent::tei:*/local-name(),'/',local-name(),
