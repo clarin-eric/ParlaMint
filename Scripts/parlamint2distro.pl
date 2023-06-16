@@ -1,18 +1,18 @@
 #!/usr/bin/perl
 # Make ParlaMint corpora ready for distribution:
-# 1. Finalize input corpora (version, date, handle, extent + factorisation)
+# 1. Finalize input corpora (version, date, handle, extent)
 # 2. Validate corpora
-# 3. Produce derived format
-# License: CC0
-# Uses proper command line options.
-#
+# 3. Produce derived formats
+# For help on parameters do
+# $ parlamint2distro.pl -h
+# 
 use warnings;
 use utf8;
 use open ':utf8';
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
-my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 0);
 
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
@@ -37,8 +37,6 @@ sub usage {
     print STDERR ("    <Output> is the directory where output directories are written.\n");
     
     print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
-    print STDERR ("    * -factorise: puts taxonomies and listOrg/Person in separate files\n");
-    print STDERR ("    * -common: used common taxonomies, rather than corpus-specific ones\n");
     print STDERR ("    * -ana: finalizes the TEI.ana directory\n");
     print STDERR ("    * -tei: finalizes the TEI directory (needs TEI.ana output)\n");
     print STDERR ("    * -sample: produces samples (from TEI.ana and TEI output)\n");
@@ -61,8 +59,6 @@ use File::Copy;
 use File::Copy::Recursive qw(dircopy);
 
 my $procAll    = 0;
-my $procFactor = 2;
-my $procCommon = 2;
 my $procAna    = 2;
 my $procTei    = 2;
 my $procSample = 2;
@@ -77,13 +73,12 @@ GetOptions
      'codes=s'    => \$countryCodes,
      'schema=s'   => \$schemaDir,
      'docs=s'     => \$docsDir,
-     'teihandle=s' => \$handleTEI,
-     'anahandle=s' => \$handleAna,
+     'version=s'  => \$Version,
+     'teihandle=s'=> \$handleTEI,
+     'anahandle=s'=> \$handleAna,
      'in=s'       => \$inDir,
      'out=s'      => \$outDir,
      'all'        => \$procAll,
-     'factorise!' => \$procFactor,
-     'common!'    => \$procCommon,
      'ana!'       => \$procAna,
      'tei!'       => \$procTei,
      'sample!'    => \$procSample,
@@ -93,29 +88,21 @@ GetOptions
      'vert!'      => \$procVert,
 );
 
-#We need $procFactor if $procCommon is set!
-if ($procCommon) {$procFactor = $procCommon}
-
 if ($help) {
     &usage;
     exit;
 }
 
-$schemaDir = File::Spec->rel2abs($schemaDir);
-$docsDir = File::Spec->rel2abs($docsDir);
-$inDir = File::Spec->rel2abs($inDir);
-$outDir = File::Spec->rel2abs($outDir);
+$schemaDir = File::Spec->rel2abs($schemaDir) if $schemaDir;
+$docsDir = File::Spec->rel2abs($docsDir) if $docsDir;
+$inDir = File::Spec->rel2abs($inDir) if $inDir;
+$outDir = File::Spec->rel2abs($outDir) if $outDir;
 
 #Execution
 #$Parallel = "parallel --gnu --halt 2 --jobs 15";
 $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
-
-$factoriseFiles  = 'ParlaMint-listOrg.xml ParlaMint-listPerson.xml ';
-$factoriseFiles .= 'ParlaMint-taxonomy-parla.legislature.xml ';
-$factoriseFiles .= 'ParlaMint-taxonomy-speaker_types.xml ';
-$factoriseFiles .= 'ParlaMint-taxonomy-subcorpus.xml ';
 
 # We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
 $taxonomyDir = "$Bin/../Data/Taxonomies";
@@ -127,8 +114,8 @@ $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-t
 #$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
-$scriptFactor  = "$Bin/parlamint-factorize-teiHeader.xsl";
-$scriptFinal   = "$Bin/parlamint2final.xsl";
+$scriptRelease = "$Bin/parlamint2release.xsl";
+$scriptCommon  = "$Bin/parlamint-add-common-content.xsl";
 $scriptPolish  = "$Bin/polish-xml.pl";
 $scriptValid   = "$Bin/validate-parlamint.pl";
 $scriptSample  = "$Bin/corpus2sample.xsl";
@@ -185,32 +172,49 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
+	die "FATAL: Need version\n" unless $Version;
 	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
 	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
+	die "FATAL: No handle given for TEI.ana distribution\n" unless $handleAna;
 	&cp_readme($countryCode, $handleAna, $inReadme, "$outAnaDir/00README.txt");
+	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
-	`$SaxonX handle=$handleAna outDir=$outDir -xsl:$scriptFinal $inAnaRoot`;
-	&factorisations($outAnaRoot, $outAnaDir, $listOrg, $listPerson, $taxonomies,$inTeiRoot);
+	my $tmpOutDir = "$tmpDir/release.ana";
+	my $tmpOutAnaDir = "$tmpDir/$anaDir";
+	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
+	print STDERR "INFO: ***Fixing TEI.ana corpus for release\n";
+	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
+	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
+	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
+	&commonTaxonomies($outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI\n";
+	die "FATAL: Need version\n" unless $Version;
 	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
-	&cp_readme($countryCode, $handleTei, $inReadme, "$outTeiDir/00README.txt");
+	&cp_readme($countryCode, $handleTEI, $inReadme, "$outTeiDir/00README.txt");
+	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
-	`$SaxonX handle=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptFinal $inTeiRoot`;
-	&factorisations($outTeiRoot, $outTeiDir, $listOrg, $listPerson, $taxonomies);
+	my $tmpOutDir = "$tmpDir/release.tei";
+	my $tmpOutTeiDir = "$tmpDir/$teiDir";
+	my $tmpTeiRoot = "$tmpOutDir/$teiRoot";
+	print STDERR "INFO: ***Fixing TEI corpus for release\n";
+	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
+	print STDERR "INFO: ***Adding common content to TEI corpus\n";
+	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
+	&commonTaxonomies($outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
@@ -234,14 +238,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
-	die "FATAL: Can't find schema directory $schemaDir\n" unless -e $schemaDir;
+	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
 	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
 	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
-	if    ($handleTei) {$handleTxt = $handleTei}
+	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
@@ -280,53 +284,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
 }
 
-# Factorise teiHeader if necessary
-sub factorisations {
-    my $Root = shift;
+# Substitute local with common taxonomies
+sub commonTaxonomies {
     my $Dir = shift;
-    my $listOrg = shift;
-    my $listPerson = shift;
-    my $taxonomies = shift;
-    my $teiRootPath = shift // '';
-    my $factorised = 0;
-    my $inListOrg    = "$Dir/$listOrg";
-    my $inListPerson = "$Dir/$listPerson";
-    my $inTaxonomies = "$Dir/$taxonomies";
-    my @inTaxonomies = glob($inTaxonomies);
-    my $teiRootTaxonomies='';
-    if(-e $teiRootPath){
-        # setting teiRoot param, which is used for determining which taxonomies has been used in TEI version
-        # and .ana interfix shouldnt be added
-        print STDERR "INFO: using (TEI+TEI.ana)-shared taxonomies from $teiRootPath\n";
-        $teiRootTaxonomies=" teiRoot=\"$teiRootPath\" "
-    }
-    # Prefix to put in front of the factorised files.
-    my ($prefix) = $Root =~ m|([^/]+?)\.|;
-    $prefix .= '-';
-
-    if (-e $inListOrg) {$factorised = 1}
-    elsif (not $procFactor) {print STDERR "WARN: $inListOrg not found\n"}
-    if (-e $inListPerson) {$factorised = 1}
-    elsif (not $procFactor) {print STDERR "WARN: $inListPerson not found\n"}
-    if (@inTaxonomies) {$factorised = 1}
-    elsif (not $procFactor) {print STDERR "WARN: $inTaxonomies not found\n"}
-    if ($procFactor or $procCommon) {
-	if ($factorised) {print STDERR "INFO: $Dir already factorised\n"}
-	else {
-	    print STDERR "INFO: Factorising $Root\n";
-	    $tmpOutDir = "$tmpDir/factorise";
-	    `$Saxon noAna=\"$factoriseFiles\" $teiRootTaxonomies outDir=$tmpOutDir -xsl:$scriptFactor $Root`;
-	    `mv $tmpOutDir/*.xml $Dir`;
-	}
-	if ($procCommon) {
-	    foreach my $taxonomy (sort keys %taxonomy) {
-		#Eventually we will need an XSLT to extract from common taxonomies catDesc with relevant @xml:lang(s)!
-		`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
-	    }
-	}
-    }
-    elsif (not $factorised) {
-	print STDERR "ERROR: $Dir not factorised, but -factorise or -common flag not set!\n"
+    foreach my $taxonomy (sort keys %taxonomy) {
+	`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
     }
     return 1;
 }

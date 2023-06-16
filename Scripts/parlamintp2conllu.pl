@@ -98,17 +98,20 @@ $command = "$Saxon meta=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
 
-if ($langs !~ /,/) {
-    $command = "$Saxon meta=$rootAnaFile -xsl:$Convert {} > $outDir/{/.}.conllu";
-    `cat $fileFile | $Para '$command'`;
-    `rename 's/\.ana//' $outDir/*.conllu`;
-    $command = "python3 $Valid --lang $langs --level 1 {}";
-    `ls $outDir/*.conllu | $Para '$command'`;
-    $command = "python3 $Valid --lang $langs --level 2 {}"
-	unless defined $translation_lang; #MTed corpora do not have syntactic parses
-    `ls $outDir/*.conllu | $Para '$command'`;
-}
-else {
+# First produce common CoNLL-U, even if we have more languages in a corpus
+if ($langs !~ /,/) {$checkLang = $langs}
+else {($checkLang) = $langs =~ /(.+?),/}
+$command = "$Saxon meta=$rootAnaFile -xsl:$Convert {} > $outDir/{/.}.conllu";
+`cat $fileFile | $Para '$command'`;
+`rename 's/\.ana//' $outDir/*.conllu`;
+$command = "python3 $Valid --lang $checkLang --level 1 {}";
+`ls $outDir/*.conllu | $Para '$command'`;
+$command = "python3 $Valid --lang $checkLang --level 2 {}"
+    unless defined $translation_lang; #MTed corpora do not have syntactic parses
+`ls $outDir/*.conllu | $Para '$command'`;
+
+# Now produce CoNLL-Us for separate langauges, if we have them
+if ($langs =~ /,/) {
     foreach $lang (split(/,\s*/, $langs)) {
         $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
         `cat $fileFile | $Para '$command'`;
