@@ -180,7 +180,7 @@
       </xsl:when>
       <!-- NO had two houses until 2009, then became unicameral; 
            If lower and upper house had a join meeting, this is also marked as unicameral (arguably wrong)
-           Note that the titles do not distinguish between the three bodies, only the filename do: -lower.xml, -upper.xml, .xml
+           Note that the titles do not distinguish between the three bodies, only the filenames do: -lower.xml, -upper.xml, .xml
       -->
       <xsl:when test="$country-code = 'NO'">
         <term>Legislature</term>
