@@ -342,18 +342,27 @@
     </xsl:call-template>
   </xsl:template>
   
+  <xsl:template match="tei:listRelation">
+    <xsl:if test="not(tei:relation[@name = 'coalition'])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="msg">No coalition relation found in listOrg</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
+    <xsl:if test="not(tei:relation[@name = 'opposition'])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="severity">WARN</xsl:with-param>
+        <xsl:with-param name="msg">No opposition relation found in listOrg</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
   <xsl:template match="tei:relation">
     <xsl:choose>
       <xsl:when test="@name = 'coalition'">
 	<xsl:if test="not(@mutual) or @active or @passive">
 	  <xsl:call-template name="error">
             <xsl:with-param name="msg">Coalition relation should have the @mutual attribute</xsl:with-param>
-	  </xsl:call-template>
-	</xsl:if>
-	<xsl:if test="not(../tei:relation[@name = 'opposition'])">
-	  <xsl:call-template name="error">
-          <xsl:with-param name="severity">WARN</xsl:with-param>
-            <xsl:with-param name="msg">No opposition relation found in the corpus</xsl:with-param>
 	  </xsl:call-template>
 	</xsl:if>
       </xsl:when>
