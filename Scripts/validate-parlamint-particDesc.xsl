@@ -6,7 +6,7 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
-  exclude-result-prefixes="tei xi">
+  exclude-result-prefixes="tei mk xi">
 
   <xsl:import href="parlamint-lib.xsl"/>
   

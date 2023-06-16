@@ -15,6 +15,8 @@
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
 
+  <xsl:import href="parlamint-lib.xsl"/>
+
   <xsl:variable name="pref">
     <xsl:choose>
       <xsl:when test="$prefix"><xsl:value-of select="$prefix"/></xsl:when>
@@ -35,9 +37,15 @@
                               string-join($teiRootDoc//tei:classDecl/xi:include/@href,' '),
                               ' ',
                               string-join($teiRootDoc//tei:classDecl/tei:taxonomy/@xml:id/concat(.,'.xml'),' '),
+                              ' ',
+                              string-join($teiRootDoc//tei:particDesc/xi:include/@href,' '),
+                              ' ',
+                              string-join($teiRootDoc//tei:particDesc/tei:*/@xml:id/concat(.,'.xml'),' '),
                               ' ')"/>
     </xsl:if>
   </xsl:variable>
+
+  <xsl:variable name="inDir" select="replace(base-uri(), '(.*)/.*', '$1')"/>
 
   <xsl:template match="/">
     <xsl:message select="concat('INFO: Starting to process ', tei:teiCorpus/@xml:id)"/>
@@ -117,6 +125,22 @@
       </xsl:attribute>
     </xsl:element>
   </xsl:template>
+
+  <xsl:template match="tei:classDecl/xi:include | tei:particDesc/xi:include">
+    <xsl:variable name="pathIn" select="concat($inDir,'/',@href)"/>
+    <xsl:variable name="pathOut" select="concat($outDir,'/',@href)"/>
+    <xsl:message select="concat('INFO: Copying ',$pathIn, ' to ',$pathOut)"/>
+    <xsl:result-document href="{$pathOut}" method="xml">
+      <xsl:copy-of select="document($pathIn)"/>
+    </xsl:result-document>
+    <xsl:element name="xi:include" namespace="http://www.w3.org/2001/XInclude">
+      <xsl:namespace name="xi" select="'http://www.w3.org/2001/XInclude'"/>
+      <xsl:attribute name="href">
+        <xsl:value-of select="./@href"/>
+      </xsl:attribute>
+    </xsl:element>
+  </xsl:template>
+
 
   <xsl:template match="@scheme[. = '#parla.legislature']">
     <xsl:attribute name="scheme">#ParlaMint-taxonomy-parla.legislature</xsl:attribute>
