@@ -140,7 +140,7 @@
       </xsl:result-document>
     </xsl:for-each>
     <!-- Output Root file -->
-    <xsl:message>INFO processing root </xsl:message>
+    <xsl:message select="concat('INFO processing root ', tei:teiCorpus/@xml:id)"/>
     <xsl:result-document href="{$outRoot}">
       <xsl:apply-templates mode="root"/>
     </xsl:result-document>
@@ -225,12 +225,21 @@
     <xsl:copy>
       <xsl:apply-templates mode="root" select="@*"/>
       <xsl:if test="not(contains(@ana, 'parla.upper') or contains(@ana, 'parla.lower') or contains(@ana, 'parla.committee'))">
+	<!-- In NO corpus each meeting contains yearFrom-yearTo info, which we need -->
+	<xsl:variable name="toYear-NO" select="substring-after(., '-')"/>
 	<xsl:choose>
           <xsl:when test="$country-code = 'GB' and
                           contains(/tei:TEI/tei:teiHeader//tei:titleStmt
                           /tei:title[@type='main'],
                           'Commons')">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
+	  </xsl:when>
+	  <!-- Quasi-bicameral to 2009, then unicameral -->
+          <xsl:when test="$country-code = 'NO' and $toYear-NO &lt;= '2009'">
+	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
+	  </xsl:when>
+          <xsl:when test="$country-code = 'NO'">
+	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.uni ', @ana))"/>
 	  </xsl:when>
 	</xsl:choose>
 	<xsl:apply-templates mode="root"/>
