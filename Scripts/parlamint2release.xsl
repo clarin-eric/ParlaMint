@@ -365,10 +365,10 @@
     <xsl:variable name="textIn" select="normalize-space(.)"/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
     <xsl:if test="$textIn != $textOut">
-      <xsl:message select="concat('INFO ', /tei:TEI/@xml:id,
-                         ': ',
+      <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
+                         ': de-bracketing ',
                          parent::tei:*/local-name(),'/',local-name(),
-                         ' normalization &quot;',$textIn,'&quot; to &quot;', $textOut,'&quot;')"/>
+                         ' &quot;',$textIn,'&quot;')"/>
     </xsl:if>
     <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
