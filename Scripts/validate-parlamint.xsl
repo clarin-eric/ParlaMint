@@ -350,6 +350,12 @@
             <xsl:with-param name="msg">Coalition relation should have the @mutual attribute</xsl:with-param>
 	  </xsl:call-template>
 	</xsl:if>
+	<xsl:if test="not(../tei:relation[@name = 'opposition'])">
+	  <xsl:call-template name="error">
+          <xsl:with-param name="severity">WARN</xsl:with-param>
+            <xsl:with-param name="msg">No opposition relation found in the corpus</xsl:with-param>
+	  </xsl:call-template>
+	</xsl:if>
       </xsl:when>
       <xsl:when test="@name = 'opposition'">
 	<xsl:if test="@mutual or not(@active) or not(@passive)">
