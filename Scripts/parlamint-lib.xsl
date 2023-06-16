@@ -392,15 +392,17 @@
   <xsl:function name="et:party-status" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
     <xsl:variable name="relations" select="$rootHeader//tei:relation
-                                           [@name='coalition' or @name='opposition']"/>
+                                           [@name = 'coalition' or @name = 'opposition']"/>
     <xsl:choose>
       <xsl:when test="not($relations/self::tei:relation[@name='coalition'])">
         <xsl:message>ERROR: no coalition info found in corpus</xsl:message>
         <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:if test="not($relations/self::tei:relation[@name='opposition'])">
-          <xsl:message>WARN: no opposition info found in corpus</xsl:message>
+        <xsl:if test="not($relations/self::tei:relation[@name = 'opposition'])">
+	  <!-- We do not output warning here, as otherwise a huge number of such warnings our output.
+	       Instead, validate-parlamint gives this warning only once for corpus
+          <xsl:message>WARN: no opposition info found in corpus</xsl:message-->
         </xsl:if>
         <!-- Relation in the correct time-frame, should be only 1 -->
         <xsl:variable name="relation">
