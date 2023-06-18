@@ -179,7 +179,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
 	die "FATAL: No handle given for TEI.ana distribution\n" unless $handleAna;
-	&cp_readme($countryCode, $handleAna, $inReadme, "$outAnaDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outAnaDir/00README.txt");
 	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	`rm -f $outAnaDir/Schema/.gitignore`;
@@ -202,7 +202,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
-	&cp_readme($countryCode, $handleTEI, $inReadme, "$outTeiDir/00README.txt");
+	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
 	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
@@ -252,7 +252,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
 	# We have an oportunistic handle!
-	&cp_readme($countryCode, $handleTxt, $inReadme, "$outTxtDir/00README.txt");
+	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
 	else {die "FATAL: Neither $outTeiDir nor $outAnaDir exits\n"}
@@ -265,7 +265,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
-	&cp_readme($countryCode, $handleAna, $inReadme, "$outConlDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outConlDir/00README.txt");
 	`$scriptConls $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
@@ -276,7 +276,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
-	&cp_readme($countryCode, $handleAna, $inReadme, "$outVertDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
 	if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outVertDir`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	`$scriptVerts $outAnaDir $outVertDir`;
@@ -322,13 +322,18 @@ sub dirify {
 sub cp_readme {
     my $country = shift;
     my $handle  = shift;
+    my $version = shift;
     my $inFile  = shift;
     my $outFile = shift;
+    die "FATAL: No country for cp_readme\n" unless $country;
+    die "FATAL: No handle for cp_readme\n" unless $handle;
+    die "FATAL: No version for cp_readme\n" unless $version;
     open IN, '<:utf8', $inFile or die "FATAL: Can't open input README $inFile\n";
     open OUT,'>:utf8', $outFile or die "FATAL: Can't open output README $outFile\n";
     while (<IN>) {
 	s/XX/$country/g;
 	s/YY/$handle/g;
+	s/ZZ/$version/g;
 	print OUT
     }
     close IN;
