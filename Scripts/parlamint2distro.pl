@@ -12,7 +12,7 @@ use open ':utf8';
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
-my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 0);
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
