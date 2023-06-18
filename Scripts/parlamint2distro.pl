@@ -201,7 +201,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
-	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
+	else {$inReadme = "$docsDir/README.TEI.txt"}
 	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
 	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
