@@ -5,13 +5,12 @@
          <titleStmt>
             <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
             <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
-            <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas XI-XII (2015 - 2020)</title>
-            <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015 - 2020)</title>
-            <meeting n="10" corresp="#CD" ana="#parla.term #CD.10">Term 10</meeting>
-            <meeting n="11" corresp="#CD" ana="#parla.term #CD.11">Term 11</meeting>
-            <meeting n="12" corresp="#CD" ana="#parla.term #CD.12">Term 12</meeting>
-            <meeting n="13" corresp="#CD" ana="#parla.term #CD.13">Term 13</meeting>
-            <meeting n="14" corresp="#CD" ana="#parla.term #CD.14">Term 14</meeting>
+            <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas X-XIV (2015-2023)</title>
+            <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015-2023)</title>
+            <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
+            <meeting n="11" corresp="#CD" ana="#parla.lower #parla.term #CD.11">Legislatura XI</meeting>
+            <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
                <resp xml:lang="en">Data retrieval and conversion to XML</resp>
@@ -35,8 +34,8 @@
          <extent>
             <measure unit="speeches" quantity="1442" xml:lang="es">1.442 intervenciones</measure>
             <measure unit="speeches" quantity="1442" xml:lang="en">1,442 speeches</measure>
-            <measure quantity="13039185" unit="words" xml:lang="es">13.039.185 palabras</measure>
-            <measure quantity="13039185" unit="words" xml:lang="en">13,039,185 words</measure>
+            <measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
+            <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -50,14 +49,14 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-06-16">June 16, 2023</date>
+            <date when="2023-06-19">June 19, 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title xml:lang="es" type="main">Cortes generales diario de sesiones del congreso de los diputados pleno y diputación permanente</title>
                <title type="main" xml:lang="en">National assembly of Spain daily sessions</title>
                <idno type="URI">http://www.congreso.es</idno>
-               <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+               <date from="2015-01-20" to="2023-02-23">2015-01-20 - 2023-02-23</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -112,7 +111,7 @@
                <name type="address">Calle Floridablanca, s/n. 28071</name>
                <name type="city">Madrid</name>
                <name type="country" key="ES">Spain</name>
-               <date from="2015-01-20" to="2020-12-15">20.1.2015 - 15.12.2020</date>
+               <date from="2015-01-20" to="2023-02-23">2015-01-20 - 2023-02-23</date>
             </setting>
          </settingDesc>
          <particDesc>
@@ -128,7 +127,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-16">
+         <change when="2023-06-19">
             <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
       </revisionDesc>
    </teiHeader>
