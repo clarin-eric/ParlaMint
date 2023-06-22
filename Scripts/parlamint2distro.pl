@@ -289,6 +289,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
+    print STDERR "INFO: ***Finished processing $countryCode corpus.\n";
 }
 
 # Substitute local with common taxonomies
