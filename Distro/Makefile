@@ -1,3 +1,17 @@
+root:
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
+
+fixhandle:
+	for CORPUS in ${CORPORA}; do \
+	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
+	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
+	done;
+readmes:
+	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -docs Docs -out ${HERE}/Master
+
 samples:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
@@ -10,24 +24,20 @@ samples:
 
 ### VARIABLES
 # Which corpora to process, takes cca 1 day per corpus, depending on the size
-# DONE = EE ES-GA ES-CT PT
+# DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# DOING2 = GB
+# CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+CORPORA = 
 
-# DONE = AT BA BE BG CZ DK EE ES-CT ES-GA IT LV NL PT
-# DOING1 = FR GR HR HU SE TR 
-# DOING2 = IS NO PL RS SI UA 
-#CORPORA = HU SE TR
-CORPORA = RS SI UA
-
-# Submitted corpora
-#CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# All submitted corpora
+# CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Missing corpora: ES ES-PV FI LT RO
 # All ParlaMint II corpora
-#ALL_CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-CORPORA = LV
+# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
 
 # Used for testing scripts
-CORPUS = LV
+CORPUS = NO
 
 #Where things are, as we use several branches: this one (most likely dev) and documentation
 PARLAMINT = /project/corpora/Parla/ParlaMint
@@ -40,14 +50,12 @@ TEMP = ${HERE}/Temp
 SOURCE = ${HERE}/Source
 SOURCE-MT = ${HERE}/Source-MT
 
-# Version number
+# Version number and PID of TEI and TEI.ana ParlaMint release
 VERSION = 3.0
-# Shall MT version be 3.0 or 1.0??
-VERSION-MT = 3.0
-# PID of TEI and TEI.ana ParlaMint-en release
 HANDLE-TEI = http://hdl.handle.net/11356/1486
-HANDLE-ANA = http://hdl.handle.net/11356/1810
-# PID of MTed (.ana) ParlaMint-en release
+HANDLE-ANA = http://hdl.handle.net/11356/1488
+# Version number and PID of MTed ParlaMint-en.ana release
+VERSION-MT = 3.0
 HANDLE-MT = http://hdl.handle.net/11356/1810
 
 #Where the produced corpora are put for inspection
@@ -121,7 +129,7 @@ mt-convert:
 	${SOURCE-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
 	${SOURCE-MT}/ParlaMint-$${CORPUS}-en.conllu \
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
-	${FINALIZE-MT} -all -notei -noconllu -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
+	${FINALIZE-MT} -all -notei -noconll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
 	done;
 
@@ -176,7 +184,7 @@ mt-prep-cnv:
 #Tests for original corpora
 test1:
 	rm -fr Test/Out/ParlaMint-${CORPUS}*
-	perl ../Scripts/parlamint2distro.pl -tei -codes ${CORPUS} -in Test/In -out Test/Out \
+	perl ../Scripts/parlamint2distro.pl -all -codes ${CORPUS} -in Test/In -out Test/Out \
 	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
 
 test-factorize:
