@@ -1,3 +1,10 @@
+### Fixes
+
+# Merge per-language translated CoNLL-Us to joint CoNLL-Us
+mrg-conll:
+	bin/merge-conllu.pl Master/ParlaMint-BE.conllu Source-MT/ParlaMint-BE-en.conllu
+	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu Source-MT/ParlaMint-ES-CT-en.conllu
+	bin/merge-conllu.pl Master/ParlaMint-UA.conllu Source-MT/ParlaMint-UA-en.conllu
 root:
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
@@ -24,14 +31,11 @@ samples:
 
 ### VARIABLES
 # Which corpora to process, takes cca 1 day per corpus, depending on the size
-# DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# DOING2 = GB
-# CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-CORPORA = 
+# DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# CORPORA = LV ES-CT BE UA # for MT!
 
 # All submitted corpora
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-
 # Missing corpora: ES ES-PV FI LT RO
 # All ParlaMint II corpora
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
@@ -157,7 +161,6 @@ mt-test4:
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.ana.xml
 mt-test3:
 	$s noteFile=Test/ParlaMint-AT.notes.translated.tsv -xsl:../Scripts/mt-insert-notes.xsl \
-	$s noteFile=../taja/Notes-translated/ParlaMint-AT.notes.translated.tsv -xsl:../Scripts/mt-insert-notes.xsl \
 	Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.null.xml \
 	> Test/ParlaMint-AT-en_1996-01-30-020-XX-NRSITZ-00004.notes.xml
 mt-test2a:
