@@ -242,6 +242,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    #Make also derived files
 	    `$scriptTexts $outSmpDir $outSmpDir` unless $outTeiRoot;
 	    `$scriptVerts $outSmpDir $outSmpDir`;
+	    if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outSmpDir`}
+	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
