@@ -1,24 +1,25 @@
-### Fixes
+### Fixes for 3.0:
 
-# Merge per-language translated CoNLL-Us to joint CoNLL-Us
+# Merge per-language translated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
+mrg-conll-nohup:
+	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
 mrg-conll:
 	bin/merge-conllu.pl Master/ParlaMint-BE.conllu Source-MT/ParlaMint-BE-en.conllu
 	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu Source-MT/ParlaMint-ES-CT-en.conllu
 	bin/merge-conllu.pl Master/ParlaMint-UA.conllu Source-MT/ParlaMint-UA-en.conllu
-root:
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
 
-fixhandle:
+# Fix a mistek with handle in corpora
+fix-handle:
 	for CORPUS in ${CORPORA}; do \
 	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
 	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/*/*.ana.xml"; \
 	done;
-readmes:
+
+# Copy READMEs to master
+cp-readmes:
 	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -docs Docs -out ${HERE}/Master
 
+# Make samples only
 samples:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
@@ -29,10 +30,21 @@ samples:
 
 ############### Makefile for making a distributable version of the ParlaMint corpora #################
 
+# Make overall root(.ana) for ParlaMint
+make-root:
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
+
+make-samples:
+	bin/cp-samples.pl 'Master/Sample-ParlaMint-*' ../Data
+
 ### VARIABLES
 # Which corpora to process, takes cca 1 day per corpus, depending on the size
 # DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# CORPORA = LV ES-CT BE UA # for MT!
+# CORPORA = LV ES-CT UA # done for for MT
+CORPORA = AT BA BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # All submitted corpora
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
@@ -118,7 +130,7 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 
 # Targets
 mt-nohup:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.2.log &
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack
 
@@ -135,6 +147,8 @@ mt-convert:
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	${FINALIZE-MT} -all -notei -noconll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
+	grep -a -i 'error ' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
 ### Various tests for debugging MT processing
