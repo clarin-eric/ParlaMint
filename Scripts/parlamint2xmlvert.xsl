@@ -57,10 +57,11 @@
       <xsl:choose>
         <xsl:when test="self::tei:u">
           <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
+	  <xsl:variable name="wordcount" select="count(.//tei:w[not(parent::tei:w)])"/>
           <speech id="{$speech_id}" text_id="{$text_id}"
                   subcorpus="{$subcorpus}" body="{$body}"
 		  term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
-                  date="{$at-date}" title="{$title}">
+                  date="{$at-date}" title="{$title}" wordcount="{$wordcount}">
             <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
             <xsl:choose>
             <xsl:when test="@who">
