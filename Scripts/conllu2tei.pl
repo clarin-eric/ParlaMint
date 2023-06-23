@@ -65,7 +65,7 @@ while (<>) {
         if ($s_id =~ /^\d/) {
             $s_id = "$p_id.$s_prefix$s_n";
         }
-	print STDERR "ERROR: sentence $s_id was has bad language!\n"
+	print STDERR "ERROR: sentence $s_id has bad language code!\n"
 	    if m|# source_lang = xx|
     }
     else {
