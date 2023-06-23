@@ -48,29 +48,29 @@
          </extent>
          <publicationStmt>
             <publisher>CLARIN research infrastructure</publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-04-25">2023-04-25</date>
+            <date when="2023-06-14">2023-06-14</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="fr">Travaux parlementaires (Assemblée nationale)</title>
                <title type="sub" xml:lang="fr">Débats en séance publique - Comptes rendus au format XML</title>
-               <idno type="URI">http://data.assemblee-nationale.fr/travaux-parlementaires/debats</idno>
-               <idno type="URI" subtype="handle">https://data.assemblee-nationale.fr/dyn/opendata/CRSANR5L15S2019O1N119.xml</idno>
+               <idno type="URI" subtype="parliament">http://data.assemblee-nationale.fr/travaux-parlementaires/debats</idno>
+               <idno type="URI" subtype="parliament">https://data.assemblee-nationale.fr/dyn/opendata/CRSANR5L15S2019O1N119.xml</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="fr">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -80,8 +80,14 @@
                <tagUsage gi="head" occurs="26"/>
                <tagUsage gi="incident" occurs="3"/>
                <tagUsage gi="kinesic" occurs="85"/>
+               <tagUsage gi="link" occurs="45784"/>
+               <tagUsage gi="linkGrp" occurs="1746"/>
+               <tagUsage gi="name" occurs="1228"/>
                <tagUsage gi="note" occurs="26"/>
+               <tagUsage gi="pc" occurs="4511"/>
+               <tagUsage gi="s" occurs="1746"/>
                <tagUsage gi="seg" occurs="808"/>
+               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="u" occurs="417"/>
                <tagUsage gi="vocal" occurs="5"/>
                <tagUsage gi="w" occurs="42518"/>
@@ -98,7 +104,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-04-25">
+         <change when="2023-06-14">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-26">
             <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>

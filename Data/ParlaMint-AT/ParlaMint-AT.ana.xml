@@ -9,14 +9,14 @@
             <title xml:lang="en" type="main">Austrian parliamentary corpus ParlaMint-AT [ParlaMint.ana SAMPLE]</title>
             <title xml:lang="de" type="sub">Stenographische Protokolle der Plenarsitzungen des Österreichischen Nationalrats, XX. Gesetzgebungsberiode - XXVII. Gesetzgebungsperiode (1996 - 2022)</title>
             <title xml:lang="en" type="sub">Shorthand records of the plenary sittings of the National Council of the Austrian parliament, terms 20 - terms 27 (1996 - 2022)</title>
-            <meeting n="27" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII">XXVII. Gesetzgebungsperiode</meeting>
-            <meeting n="26" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI">XXVI. Gesetzgebungsperiode</meeting>
-            <meeting n="25" corresp="#NR" ana="#parla.lower #parla.term #NR.XXV">XXV. Gesetzgebungsperiode</meeting>
-            <meeting n="24" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIV">XXIV. Gesetzgebungsperiode</meeting>
-            <meeting n="23" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIII">XXIII. Gesetzgebungsperiode</meeting>
-            <meeting n="22" corresp="#NR" ana="#parla.lower #parla.term #NR.XXII">XXII. Gesetzgebungsperiode</meeting>
-            <meeting n="21" corresp="#NR" ana="#parla.lower #parla.term #NR.XXI">XXI. Gesetzgebungsperiode</meeting>
-            <meeting n="20" corresp="#NR" ana="#parla.lower #parla.term #NR.XX">XX. Gesetzgebungsperiode</meeting>
+            <meeting n="27" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII"/>
+            <meeting n="26" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVI"/>
+            <meeting n="25" corresp="#NR" ana="#parla.lower #parla.term #NR.XXV"/>
+            <meeting n="24" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIV"/>
+            <meeting n="23" corresp="#NR" ana="#parla.lower #parla.term #NR.XXIII"/>
+            <meeting n="22" corresp="#NR" ana="#parla.lower #parla.term #NR.XXII"/>
+            <meeting n="21" corresp="#NR" ana="#parla.lower #parla.term #NR.XXI"/>
+            <meeting n="20" corresp="#NR" ana="#parla.lower #parla.term #NR.XX"/>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
                <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
@@ -59,8 +59,9 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="227991">227,991 speeches</measure>
-            <measure unit="words" quantity="59916338">59,916,338 words</measure>
+            <measure unit="speeches" quantity="227991" xml:lang="de">227,991 speeches</measure>
+            <measure unit="tokens" quantity="1234">1234 words</measure>
+            <measure unit="words" quantity="59916338" xml:lang="de">59,916,338 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -68,13 +69,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-04-23">2023-04-23</date>
+            <date when="2023-06-11">2023-06-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -88,11 +89,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="de">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -114,18 +115,23 @@
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1197"/>
-               <tagUsage gi="desc" occurs="1197"/>
+               <tagUsage gi="desc" occurs="361060"/>
                <tagUsage gi="div" occurs="1197"/>
-               <tagUsage gi="gap" occurs="1197"/>
-               <tagUsage gi="incident" occurs="1197"/>
-               <tagUsage gi="kinesic" occurs="1197"/>
-               <tagUsage gi="note" occurs="1197"/>
-               <tagUsage gi="pb" occurs="1197"/>
-               <tagUsage gi="seg" occurs="1197"/>
+               <tagUsage gi="gap" occurs="14864"/>
+               <tagUsage gi="kinesic" occurs="248599"/>
+               <tagUsage gi="link" occurs="70128613"/>
+               <tagUsage gi="linkGrp" occurs="3919672"/>
+               <tagUsage gi="name" occurs="1597459"/>
+               <tagUsage gi="note" occurs="668670"/>
+               <tagUsage gi="pb" occurs="116913"/>
+               <tagUsage gi="pc" occurs="9358051"/>
+               <tagUsage gi="s" occurs="3919672"/>
+               <tagUsage gi="seg" occurs="662401"/>
                <tagUsage gi="text" occurs="1197"/>
-               <tagUsage gi="time" occurs="1197"/>
-               <tagUsage gi="u" occurs="1197"/>
-               <tagUsage gi="vocal" occurs="1197"/>
+               <tagUsage gi="time" occurs="184662"/>
+               <tagUsage gi="u" occurs="227991"/>
+               <tagUsage gi="vocal" occurs="82733"/>
+               <tagUsage gi="w" occurs="61624786"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -183,7 +189,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-04-23">
+         <change when="2023-06-11">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>

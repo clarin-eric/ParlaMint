@@ -48,16 +48,15 @@
             <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-            .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2023-04-18">2023-04-18</date>
+            <date when="2023-06-17">2023-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Hansards of the Norwegian Parliament</title>
                <publisher xml:lang="en">The Norwegian Parliament</publisher>
-               <idno type="URI">https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202122-05-10</idno>
+               <idno type="URI" subtype="parliament">https://data.stortinget.no/eksport/publikasjon?publikasjonid=refs-202122-05-10</idno>
                <date when="2022-05-10">10.05.22</date>
             </bibl>
          </sourceDesc>
@@ -69,7 +68,13 @@
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="seg" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="12"/>
+               <tagUsage gi="head" occurs="9"/>
+               <tagUsage gi="note" occurs="423"/>
+               <tagUsage gi="seg" occurs="629"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="165"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -85,11 +90,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-18">
+         <change when="2023-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2021-01-29">
-            <name>Lars Magne Tungland</name>
-            : Generated corpus in ParlaMint.</change>
+            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -156,7 +160,7 @@
             <note type="comment">Dokument 8:142 S (2021–2022) – Representantforslag fra stortingsrepresentant Mímir Kristjánsson om harmonisering av rentesatser ved etterbetaling av ytelser og tilbakekreving av feilutbetalinger fra Nav – vedtas ikke.</note>
             <note type="comment">Votering:</note>
             <note type="comment">Ved alternativ votering mellom komiteens innstilling og forslaget fra Rødt ble innstillingen bifalt med 92 mot 5 stemmer.</note>
-            <note type="comment">(Voteringsutskrift kl. 15.20.04)</note>
+            <note type="comment">Voteringsutskrift kl. 15.20.04</note>
          </div>
          <div type="debateSection">
             <head>Sak nr. 9 [15:20:16] Referat</head>

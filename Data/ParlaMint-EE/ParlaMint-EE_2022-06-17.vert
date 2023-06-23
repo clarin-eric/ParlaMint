@@ -358,7 +358,7 @@ hinnatase	hinnatase	hinna_tase	NOUN	Case=Nom Number=Sing	12	nsubj:cop	milline	AD
 Ka	Ka	ka	ADV		1	advmod	täna	ADV		2
 täna	täna	täna	ADV		2	advmod	hommik	NOUN	Case=Ade Number=Sing	3
 hommikul	hommikul	hommik	NOUN	Case=Ade Number=Sing	3	obl	vaatama	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	4
-<note type="-" content="(Juhataja helistab kella.)"/>
+<note type="-" content="Juhataja helistab kella."/>
 vaatasin	vaatasin	vaatama	VERB	Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	4	root	-	-	-	-
 <g/>
 :	:	:	PUNCT		5	punct	megama	VERB	Mood=Qot Tense=Pres VerbForm=Fin Voice=Act	12

@@ -386,11 +386,15 @@ náměstka	náměstka	náměstek	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=S
 ministra	ministra	ministr	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w4	nmod	náměstek	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w3
 životního	životního	životní	ADJ	Case=Gen Degree=Pos Gender=Neut Number=Sing Polarity=Pos	w5	amod	prostředí	NOUN	Case=Gen Gender=Neut Number=Sing Polarity=Pos	w6
 prostředí	prostředí	prostředí	NOUN	Case=Gen Gender=Neut Number=Sing Polarity=Pos	w6	nmod	ministr	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w4
-<name type="PER">
+<name>
 Ing	Ing	Ing	NOUN	Abbr=Yes Animacy=Anim Gender=Masc Polarity=Pos	w7	nmod	náměstek	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w3
 <g/>
 .	.	.	PUNCT		w8	punct	Ing	NOUN	Abbr=Yes Animacy=Anim Gender=Masc Polarity=Pos	w7
+</name>
+<name>
 Vladislava	Vladislava	Vladislav	PROPN	Animacy=Anim Case=Gen Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w9	flat	náměstek	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w3
+</name>
+<name>
 Smrže	Smrže	Smrž	PROPN	Animacy=Anim Case=Gen Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w10	flat	náměstek	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w3
 <g/>
 </name>
@@ -398,8 +402,10 @@ Smrže	Smrže	Smrž	PROPN	Animacy=Anim Case=Gen Gender=Masc NameType=Sur Number=
 zpravodajské	zpravodajské	zpravodajský	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Sing Polarity=Pos	w12	amod	zpráva	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w13
 zprávy	zprávy	zpráva	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w13	conj	náměstek	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w3
 poslance	poslance	poslanec	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w14	nmod	zpráva	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w13
-<name type="PER">
+<name>
 Pavla	Pavla	Pavel	PROPN	Animacy=Anim Case=Gen Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w15	flat	poslanec	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w14
+</name>
+<name>
 Holíka	Holíka	Holík	PROPN	Animacy=Anim Case=Gen Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w16	flat	poslanec	NOUN	Animacy=Anim Case=Gen Gender=Masc Number=Sing Polarity=Pos	w14
 </name>
 a	a	a	CCONJ		w17	cc	rozprava	NOUN	Case=Loc Gender=Fem Number=Sing Polarity=Pos	w19

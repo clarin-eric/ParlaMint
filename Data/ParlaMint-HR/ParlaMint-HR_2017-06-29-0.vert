@@ -95,13 +95,13 @@ stanku	stanku	stanka	NOUN	Case=Acc Gender=Fem Number=Sing	13	obj	raditi	VERB	Moo
 …	…	…	PUNCT		15	punct	krenuti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	5
 </s>
 <s id="ParlaMint-HR_2017-06-29-0.u38725.seg0.6">
-<note type="gap::inaudible" content="/Upadica se ne čuje./"/>
+<note type="gap::inaudible" content="Upadica se ne čuje."/>
 Molim	Molim	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT		2	punct	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-HR_2017-06-29-0.u38725.seg0.7">
-<note type="vocal:interruption" content="/Upadica Bulj: 10 minuta stanke./"/>
+<note type="vocal:interruption" content="Upadica Bulj: 10 minuta stanke."/>
 Molim	Molim	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT		2	punct	moliti	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1

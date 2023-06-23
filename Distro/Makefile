@@ -37,7 +37,7 @@ make-root:
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
 
-make-samples:
+cp-samples:
 	bin/cp-samples.pl 'Master/Sample-ParlaMint-*' ../Data
 
 ### VARIABLES

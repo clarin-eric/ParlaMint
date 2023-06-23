@@ -1051,5 +1051,5 @@
 .	.	.	PUNCT		3	punct	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing" content="(Звъни.)"/>
+<note type="kinesic:ringing" content="Звъни."/>
 </speech>

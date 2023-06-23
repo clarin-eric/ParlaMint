@@ -246,7 +246,7 @@ despropósito	despropósito	despropósito	NOUN	Gender=Masc Number=Sing	w13	obl o
 !	!	!	PUNCT		w15	punct	despropósito	NOUN	Gender=Masc Number=Sing	w13
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w16	punct	despropósito	NOUN	Gender=Masc Number=Sing	w18
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 tal	tal	tal	DET	Definite=Ind Gender=Com Number=Sing PronType=Art	w17	det det:adj det:clf det:noun det:numgov det:nummod det:pmod det:poss det:predet det:pron det:rel	despropósito	NOUN	Gender=Masc Number=Sing	w18
 despropósito	despropósito	despropósito	NOUN	Gender=Masc Number=Sing	w18	conj conj:expl conj:extend conj:redup conj:svc	despropósito	NOUN	Gender=Masc Number=Sing	w13
 <g/>
@@ -290,7 +290,7 @@ Barreras	Barreras	barrer	VERB	Mood=Ind Number=Sing Person=2 Tense=Pqp	w13	conj c
 <g/>
 </name>
 ,	,	,	PUNCT	PunctType=Comm	w14	punct	barrer	VERB	Mood=Ind Number=Sing Person=2 Tense=Pqp	w13
-<note type="-" content="(Aplausos.)"/>
+<note type="-" content="Aplausos."/>
 ou	ou	ou	CCONJ		w15	cc cc:nc cc:preconj	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w16
 vén	vén	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w16	conj conj:expl conj:extend conj:redup conj:svc	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 aquí	aquí	aquí	ADV		w17	advmod advmod:adj advmod:arg advmod:cau advmod:cmp advmod:deg advmod:det advmod:df advmod:dir advmod:emph advmod:eval advmod:fixed advmod:foc advmod:freq advmod:lfrom advmod:lmod advmod:lmp advmod:loc advmod:locy advmod:lto advmod:mmod advmod:mode advmod:neg advmod:obl advmod:que advmod:tfrom advmod:tlocy advmod:tmod advmod:to advmod:tto	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w16
@@ -305,7 +305,7 @@ ningures	ningures	ningures	ADV		w24	advmod advmod:adj advmod:arg advmod:cau advm
 .	.	.	PUNCT	PunctType=Peri	w25	punct	vir	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w2
 </s>
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3">
-<note type="-" content="(Aplausos.)"/>
+<note type="-" content="Aplausos."/>
 Porque	Porque	porque	SCONJ		w1	mark mark:adv mark:advmod mark:aff mark:pcomp mark:plur mark:prt mark:q mark:rel	bará	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	bará	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut	w7
@@ -520,7 +520,7 @@ responsabilidade	responsabilidade	responsabilidade	NOUN	Gender=Fem Number=Sing	w
 ?	?	?	PUNCT		w8	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
 </s>
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9">
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 ¿	¿	¿	PUNCT		w1	punct	quen	PRON	PronType=Rel	w3
 <g/>
 A	A	a	ADP	AdpType=Prep	w2	case case:acc case:adv case:det case:gen case:loc case:pred case:voc	quen	PRON	PronType=Rel	w3
@@ -529,7 +529,7 @@ quen	quen	quen	PRON	PronType=Rel	w3	root	-	-	-	-
 ?	?	?	PUNCT		w4	punct	quen	PRON	PronType=Rel	w3
 </s>
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10">
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 Eu	Eu	eu	PRON	Case=Nom Gender=Com Number=Sing Person=1 PronType=Prs	w1	nsubj nsubj:advmod nsubj:aff nsubj:bfoc nsubj:caus nsubj:cleft nsubj:cop nsubj:expl nsubj:ifoc nsubj:lfoc nsubj:lvc nsubj:nc nsubj:nn nsubj:obj nsubj:outer nsubj:pass nsubj:periph nsubj:pred nsubj:quasi nsubj:x nsubj:xsubj	lle	PRON	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t2
 funlles	fun|lles	ser|lle	AUX|PRON	Mood=Ind Number=Sing Person=1 Tense=Past|Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs	t1|t2	cop cop:expl cop:locat cop:outer cop:own|root	lle|-	PRON|-	Case=Dat Gender=Com Number=Plur Person=3 PronType=Prs|-	t2|-
 totalmente	totalmente	total	ADV		w3	advmod advmod:adj advmod:arg advmod:cau advmod:cmp advmod:deg advmod:det advmod:df advmod:dir advmod:emph advmod:eval advmod:fixed advmod:foc advmod:freq advmod:lfrom advmod:lmod advmod:lmp advmod:loc advmod:locy advmod:lto advmod:mmod advmod:mode advmod:neg advmod:obl advmod:que advmod:tfrom advmod:tlocy advmod:tmod advmod:to advmod:tto	sincero	ADJ		w4
@@ -586,7 +586,7 @@ nacionalicemos	nacionalicemos	nacionalizar	VERB	Mood=Sub Number=Plur Person=1 Te
 ?	?	?	PUNCT		w10	punct	nacionalizar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres	w9
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w11	punct	nacionalizar	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres	w9
-<note type="-" content="(Pronúncianse palabras que non se perciben.)"/>
+<note type="-" content="Pronúncianse palabras que non se perciben."/>
 ¿	¿	¿	PUNCT		w12	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	t1
 <g/>
 quéreo	quere|o	querer|o	VERB|PRON	Mood=Ind Number=Sing Person=3 Tense=Pres|Case=Acc Gender=Masc Number=Sing Person=3 PronType=Prs	t1|t2	advcl advcl:abs advcl:cau advcl:cleft advcl:cmp advcl:cmpr advcl:cond advcl:coverb advcl:eval advcl:lcl advcl:lto advcl:mcl advcl:objective advcl:pred advcl:relcl advcl:svc advcl:tcl|obj obj:advmod obj:advneg obj:agent obj:appl obj:cau obj:caus obj:lvc obj:obl obj:periph	nacionalizar|querer	VERB	Mood=Sub Number=Plur Person=1 Tense=Pres|Mood=Ind Number=Sing Person=3 Tense=Pres	w9|t1
@@ -594,12 +594,12 @@ quéreo	quere|o	querer|o	VERB|PRON	Mood=Ind Number=Sing Person=3 Tense=Pres|Case
 ?	?	?	PUNCT		w14	punct	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w3
 </s>
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4">
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 Ao	A|o	a|o	ADP|DET	AdpType=Prep|Definite=Def Gender=Masc Number=Sing PronType=Art	t1|t2	case case:acc case:adv case:det case:gen case:loc case:pred case:voc|det det:adj det:clf det:noun det:numgov det:nummod det:pmod det:poss det:predet det:pron det:rel	mellor	ADJ	|	w2
 mellor	mellor	mellor	ADJ		w2	amod amod:att amod:attlvc amod:flat	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w5
 <g/>
 ...	...	.	PUNCT		w3	punct	mellor	ADJ		w2
-<note type="-" content="(Pronúncianse palabras que non se perciben.)"/>
+<note type="-" content="Pronúncianse palabras que non se perciben."/>
 ¿	¿	¿	PUNCT		w4	punct	mellor	ADJ		w2
 <g/>
 Quere	Quere	querer	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w5	root	-	-	-	-
@@ -634,7 +634,7 @@ produtivos	produtivos	produtivo	ADJ		w17	amod amod:att amod:attlvc amod:flat	sec
 .	.	.	PUNCT	PunctType=Peri	w18	punct	xestionar	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres	w7
 </s>
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7">
-<note type="-" content="(Aplausos.)"/>
+<note type="-" content="Aplausos."/>
 E	E	e	CCONJ		w1	mark mark:adv mark:advmod mark:aff mark:pcomp mark:plur mark:prt mark:q mark:rel	partir	VERB	VerbForm=Inf	w3
 a	a	a	ADP	AdpType=Prep	w2	mark mark:adv mark:advmod mark:aff mark:pcomp mark:plur mark:prt mark:q mark:rel	partir	VERB	VerbForm=Inf	w3
 partir	partir	partir	VERB	VerbForm=Inf	w3	advcl advcl:abs advcl:cau advcl:cleft advcl:cmp advcl:cmpr advcl:cond advcl:coverb advcl:eval advcl:lcl advcl:lto advcl:mcl advcl:objective advcl:pred advcl:relcl advcl:svc advcl:tcl	se	PRON	Gender=Com Person=3 PronType=Prs	w9
@@ -729,7 +729,7 @@ públicas	públicas	público	ADJ		w38	amod amod:att amod:attlvc amod:flat	finanz
 .	.	.	PUNCT	PunctType=Peri	w39	punct	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres	w4
 </s>
 </p>
-<note type="vocal:murmuring" content="(Murmurios.)"/>
+<note type="vocal:murmuring" content="Murmurios."/>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559" lang="Galician">
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1">
 A	A	a	ADP	AdpType=Prep	w1	mark mark:adv mark:advmod mark:aff mark:pcomp mark:plur mark:prt mark:q mark:rel	partir	VERB	VerbForm=Inf	w2
@@ -956,7 +956,7 @@ ninguén	ninguén	ninguén	PRON	Gender=Neut PronType=Ind	w33	obj obj:advmod obj:
 .	.	.	PUNCT	PunctType=Peri	w34	punct	esperar	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres	w4
 </s>
 </p>
-<note type="kinesic:applause" content="(Aplausos.)"/>
+<note type="kinesic:applause" content="Aplausos."/>
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561" lang="Galician">
 <s id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1">
 Nada	Nada	nada	PRON	Gender=Neut PronType=Ind	w1	root	-	-	-	-
@@ -969,7 +969,7 @@ grazas	grazas	graza	NOUN	Gender=Fem Number=Plur	w5	conj conj:expl conj:extend co
 </s>
 </p>
 </speech>
-<note type="kinesic:applause" content="(Aplausos.)"/>
+<note type="kinesic:applause" content="Aplausos."/>
 <note type="speaker" content="O señor PRESIDENTE (Calvo Pouso):"/>
 <speech id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462" text_id="ParlaMint-ES-GA_2019-10-08-DSPG130" subcorpus="Reference" body="Unicameralism" term="010" session="" meeting="130" sitting="2019-10-08" agenda="" date="2019-10-08" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="CalvoDiego" speaker_name="Calvo Pouso, Diego" speaker_mp="MP" speaker_minister="-" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562" lang="Galician">

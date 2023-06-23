@@ -443,7 +443,7 @@
 .	.	.	PUNCT		w9	punct	привітати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
 </p>
-<note type="kinesic:applause" content="(Оплески)"/>
+<note type="kinesic:applause" content="Оплески"/>
 <p id="ParlaMint-UA_2016-04-21-m0.u1.p7" lang="ukrainian">
 <s id="ParlaMint-UA_2016-04-21-m0.u1.p7.s1">
 І	І	і	CCONJ		w1	cc cc:nc cc:preconj	починати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w6

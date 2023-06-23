@@ -4764,7 +4764,7 @@ efter	efter	efter	PART		i-7KsbV4R69WMWixY7Sk9148	dep	följa	VERB	Mood=Ind Tense=
 </s>
 </p>
 </speech>
-<note type="kinesic:applause" content="( Applåder )"/>
+<note type="kinesic:applause" content="Applåder"/>
 <note type="speaker" content="Anf . 96 JENS HOLM ( V ) :"/>
 <speech id="i-ba85b049978249cc-782" text_id="ParlaMint-SE_2017-12-12-prot-201718--48" subcorpus="Reference" body="Unicameralism" term="201718" session="" meeting="" sitting="201718--48" agenda="" date="2017-12-12" title="Riksdagens protokoll 2017/18 nr. 48" speaker_role="Regular" speaker_id="Q946708" speaker_name="Holm, Jens" speaker_mp="MP" speaker_minister="-" speaker_party="V" speaker_party_name="Vänsterpartiet" party_status="" speaker_gender="M" speaker_birth="">
 <p id="i-SoFUrxP6xGmw2jnmoLNaPz" lang="Swedish">
@@ -6304,5 +6304,5 @@ reservationer	reservationer	reservation	NOUN	Case=Nom Definite=Ind Gender=Com Nu
 </s>
 </p>
 </speech>
-<note type="kinesic:applause" content="( Applåder )"/>
+<note type="kinesic:applause" content="Applåder"/>
 <note type="-" content="Överläggningen var härmed avslutad ."/>

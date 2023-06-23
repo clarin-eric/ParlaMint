@@ -137,14 +137,18 @@ Navrhuji	Navrhuji	navrhovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polari
 abychom	aby|bychom	aby|být	SCONJ|AUX	|Mood=Cnd Number=Plur Person=1 VerbForm=Fin	w4|w5	mark|aux	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w6
 určili	určili	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w6	ccomp	navrhovat	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 poslankyni	poslankyni	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w7	obj	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w6
-<name type="PER">
+<name>
 Barboru	Barboru	Barbora	PROPN	Case=Acc Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w8	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w7
+</name>
+<name>
 Urbanovou	Urbanovou	Urbanová	PROPN	Case=Acc Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w9	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w7
 </name>
 a	a	a	CCONJ		w10	cc	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w11
 poslankyni	poslankyni	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w11	conj	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w7
-<name type="PER">
+<name>
 Renátu	Renátu	Renáta	PROPN	Case=Acc Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w12	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w11
+</name>
+<name>
 Zajíčkovou	Zajíčkovou	Zajíčková	PROPN	Case=Acc Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w13	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w11
 <g/>
 </name>
@@ -185,8 +189,10 @@ abychom	aby|bychom	aby|být	SCONJ|AUX	|Mood=Cnd Number=Plur Person=1 VerbForm=Fi
 určili	určili	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w11	advcl	hlasovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w6
 paní	paní	paní	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w12	nmod	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w13
 poslankyni	poslankyni	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w13	obj	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w11
-<name type="PER">
+<name>
 Barboru	Barboru	Barbora	PROPN	Case=Acc Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w14	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w13
+</name>
+<name>
 Urbanovou	Urbanovou	Urbanová	PROPN	Case=Acc Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w15	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w13
 </name>
 a	a	a	CCONJ		w16	cc	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w17
@@ -274,14 +280,18 @@ sněmovny	sněmovny	sněmovna	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	
 </name>
 určili	určili	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w11	ccomp	konstatovat	VERB	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin Voice=Act	w1
 poslankyni	poslankyni	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w12	obj	určit	VERB	Animacy=Anim Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w11
-<name type="PER">
+<name>
 Barboru	Barboru	Barbora	PROPN	Case=Acc Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w13	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w12
+</name>
+<name>
 Urbanovou	Urbanovou	Urbanová	PROPN	Case=Acc Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w14	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w12
 </name>
 a	a	a	CCONJ		w15	cc	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w16
 poslankyni	poslankyni	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w16	conj	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w12
-<name type="PER">
+<name>
 Renátu	Renátu	Renáta	PROPN	Case=Acc Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w17	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w16
+</name>
+<name>
 Zajíčkovou	Zajíčkovou	Zajíčková	PROPN	Case=Acc Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w18	flat	poslankyně	NOUN	Case=Acc Gender=Fem Number=Sing Polarity=Pos	w16
 <g/>
 </name>
@@ -334,8 +344,10 @@ a	a	a	CCONJ		w16	cc	poslankyně	NOUN	Case=Nom Gender=Fem Number=Plur Polarity=Po
 poslankyně	poslankyně	poslankyně	NOUN	Case=Nom Gender=Fem Number=Plur Polarity=Pos	w17	conj	poslanec	NOUN	Animacy=Anim Case=Nom Gender=Masc Number=Plur Polarity=Pos	w15
 <g/>
 :	:	:	PUNCT		w18	punct	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
-<name type="PER">
+<name>
 Heller	Heller	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19	dep	požádat	VERB	Animacy=Anim Aspect=Perf Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w7
+</name>
+<name>
 Šimon	Šimon	Šimon	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w20	flat	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
 </name>
 do	do	do	ADP	AdpType=Prep Case=Gen	w21	case	hodina	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w23
@@ -346,8 +358,10 @@ pracovní	pracovní	pracovní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc N
 důvody	důvody	důvod	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w26	conj	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
 <g/>
 ,	,	,	PUNCT		w27	punct	Munzar	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w28
-<name type="PER">
+<name>
 Munzar	Munzar	Munzar	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w28	conj	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
+</name>
+<name>
 Vojtěch	Vojtěch	Vojtěch	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w29	flat	Munzar	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w28
 </name>
 do	do	do	ADP	AdpType=Prep Case=Gen	w30	case	hodina	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w32
@@ -372,8 +386,10 @@ pracovní	pracovní	pracovní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc N
 důvody	důvody	důvod	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w44	dep	hodina	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w41
 <g/>
 ,	,	,	PUNCT		w45	punct	Šimek	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w46
-<name type="PER">
+<name>
 Šimek	Šimek	Šimek	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w46	conj	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
+</name>
+<name>
 David	David	David	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w47	flat	Šimek	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w46
 </name>
 do	do	do	ADP	AdpType=Prep Case=Gen	w48	case	14.30	NUM	NumForm=Digit NumType=Card	w49
@@ -397,8 +413,10 @@ pracovní	pracovní	pracovní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc N
 důvody	důvody	důvod	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w61	dep	Voborská	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w54
 <g/>
 ,	,	,	PUNCT		w62	punct	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
-<name type="PER">
+<name>
 Vondrák	Vondrák	Vondrák	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w63	conj	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
+</name>
+<name>
 Ivo	Ivo	Ivo	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w64	flat	Vondrák	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w63
 </name>
 do	do	do	ADP	AdpType=Prep Case=Gen	w65	case	hodina	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w67
@@ -409,8 +427,10 @@ pracovní	pracovní	pracovní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc N
 důvody	důvody	důvod	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w70	conj	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
 <g/>
 ,	,	,	PUNCT		w71	punct	Zajíčková	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w72
-<name type="PER">
+<name>
 Zajíčková	Zajíčková	Zajíčková	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w72	conj	Heller	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w19
+</name>
+<name>
 Renáta	Renáta	Renáta	PROPN	Case=Nom Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w73	flat	Zajíčková	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w72
 </name>
 do	do	do	ADP	AdpType=Prep Case=Gen	w74	case	15.15	NUM	NumForm=Digit NumType=Card	w75
@@ -444,8 +464,10 @@ pracovní	pracovní	pracovní	ADJ	Animacy=Inan Case=Nom Degree=Pos Gender=Masc N
 důvody	důvody	důvod	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Plur Polarity=Pos	w13	conj	Fiala	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w7
 <g/>
 ,	,	,	PUNCT		w14	punct	Baxa	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w15
-<name type="PER">
+<name>
 Baxa	Baxa	Baxa	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w15	conj	Fiala	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w7
+</name>
+<name>
 Martin	Martin	Martin	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Giv Number=Sing Polarity=Pos	w16	flat	Baxa	PROPN	Animacy=Anim Case=Nom Gender=Masc NameType=Sur Number=Sing Polarity=Pos	w15
 </name>
 do	do	do	ADP	AdpType=Prep Case=Gen	w17	case	14.30	NUM	NumForm=Digit NumType=Card	w18
@@ -793,7 +815,7 @@ pořad	pořad	pořad	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing Polarity
 .	.	.	PUNCT		w7	punct	lze	VERB	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w3
 </s>
 </p>
-<note type="vocal:noise" content="(V sále velký hluk.)"/>
+<note type="vocal:noise" content="V sále velký hluk."/>
 <p id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p14" lang="Czech">
 <s id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p14.s1">
 Nyní	Nyní	nyní	ADV	PronType=Dem	w1	advmod	hlasovat	VERB	Animacy=Anim Aspect=Imp Gender=Masc Number=Plur Polarity=Pos Tense=Past VerbForm=Part Voice=Act	w4

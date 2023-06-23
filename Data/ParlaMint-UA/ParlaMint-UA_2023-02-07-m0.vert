@@ -417,7 +417,7 @@
 .	.	.	PUNCT		w10	punct	розпочній	VERB	Aspect=Perf Mood=Imp Number=Plur Person=1 VerbForm=Fin	w1
 </s>
 </p>
-<note type="incident:action" content="(Лунає Державний Гімн України)"/>
+<note type="incident:action" content="Лунає Державний Гімн України"/>
 <p id="ParlaMint-UA_2023-02-07-m0.u1.p13" lang="ukrainian">
 <s id="ParlaMint-UA_2023-02-07-m0.u1.p13.s1">
 Шановні	Шановні	шановний	ADJ	Case=Voc Number=Plur	w1	amod amod:att amod:attlvc amod:flat	депутат	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w3
@@ -559,7 +559,7 @@
 .	.	.	PUNCT		w22	punct	висловлювати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w6
 </s>
 </p>
-<note type="incident:action" content="(Хвилина мовчання)"/>
+<note type="incident:action" content="Хвилина мовчання"/>
 <p id="ParlaMint-UA_2023-02-07-m0.u1.p16" lang="ukrainian">
 <s id="ParlaMint-UA_2023-02-07-m0.u1.p16.s1">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-
@@ -1069,10 +1069,8 @@
 разом	разом	разом	ADV		w10	advmod advmod:adj advmod:arg advmod:cau advmod:cmp advmod:deg advmod:det advmod:df advmod:dir advmod:emph advmod:eval advmod:fixed advmod:foc advmod:freq advmod:lfrom advmod:lmod advmod:lmp advmod:loc advmod:locy advmod:lto advmod:mmod advmod:mode advmod:neg advmod:obl advmod:que advmod:tfrom advmod:tlocy advmod:tmod advmod:to advmod:tto	боротися	VERB	Aspect=Imp VerbForm=Inf	w9
 пліч	пліч	пліч	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w11	obj obj:advmod obj:advneg obj:agent obj:appl obj:cau obj:caus obj:lvc obj:obl obj:periph	боротися	VERB	Aspect=Imp VerbForm=Inf	w9
 <g/>
-<name type="MISC">
 -о-пліч	-о-пліч	-	PUNCT		w12	punct	пліч	NOUN	Animacy=Inan Case=Nom Gender=Masc Number=Sing	w11
 <g/>
-</name>
 .	.	.	PUNCT		w13	punct	треба	ADV		w7
 </s>
 <s id="ParlaMint-UA_2023-02-07-m0.u2.p1.s6">
