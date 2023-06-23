@@ -185,8 +185,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outAnaDir/00README.txt");
 	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
+	# Remove unwanted files
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
+	`rm -f $outAnaDir/Schema/*.log`;
+	`rm -f $outAnaDir/Schema/Makefile`;
 	my $tmpOutDir = "$tmpDir/release.ana";
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
@@ -368,7 +371,7 @@ sub cp_readme_top {
     while (<IN>) {
 	if (m|^# ParlaMint|) {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
-	    die "Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
+	    die "FATAL: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type eq 'sample') {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type eq 'TEI')    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type eq 'ana')    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
