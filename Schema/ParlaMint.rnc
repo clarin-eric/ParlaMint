@@ -162,16 +162,16 @@ persName =
     (element term { normalized-space.string }
      | (element surname {
           attribute type { "birth" | "patronym" | "married" }?,
-          personal.att,
+          name.att,
           normalized-space.string
         }+
         & element forename {
             attribute type { "first" | "middle" | "unused" }?,
-            personal.att,
+            name.att,
             normalized-space.string
           }+
-        & element addName { personal.att, normalized-space.string }*
-        & element roleName { personal.att, normalized-space.string }*
+        & element addName { name.att, normalized-space.string }*
+        & element roleName { name.att, normalized-space.string }*
         & element nameLink { normalized-space.string }*))
   }
 
@@ -291,7 +291,9 @@ date-simple = element date { when.att, text }
 
 ## Attribute for the form of a person or organisation name,
 ##     cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
-personal.att = attribute full { "yes" | "abb" | "init" }?
+name.att =
+  lang.att,
+  attribute full { "yes" | "abb" | "init" }?
 
 ## Attributes giving temporal information on the current
 ##     element.
