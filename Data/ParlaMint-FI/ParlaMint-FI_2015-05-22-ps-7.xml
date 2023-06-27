@@ -26,14 +26,14 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-<extent><measure unit="speeches" quantity="123" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="123" xml:lang="en">speeches</measure><measure unit="words" quantity="4742" xml:lang="fi">sanat</measure><measure unit="words" quantity="4742" xml:lang="en">words</measure></extent>
+<extent><measure unit="speeches" quantity="47" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="47" xml:lang="en">speeches</measure><measure unit="words" quantity="4742" xml:lang="fi">sanat</measure><measure unit="words" quantity="4742" xml:lang="en">words</measure></extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -41,28 +41,30 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-05-31">May 31, 2023</date>
+            <date when="2023-06-27">2023-06-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the plenary session 7/2015 of the Finnish Parliament</title>
                <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 7/2015 pöytäkirja</title>
-               <idno type="URI">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_7+2015.aspx</idno>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_7+2015.aspx</idno>
                <date when="2015-05-22">22.05.2015</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="fi">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-               -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.
-            </p>
             <p xml:lang="en">
-               The 
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                 project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -142,9 +144,13 @@
             <u ana="#regular"
                who="#MariaTolppanen"
                xml:id="ParlaMint-FI_2015-05-22-ps-7.u8">
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg13">Arvoisa puhemies! Mielenkiinnolla kuuntelen tässä. Huomaan, että oppositio tietää todella hyvin hallitusneuvottelut ja tietää sen, mitä siellä on neuvoteltu <vocal type="interruption">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg13">
+                  Arvoisa puhemies! Mielenkiinnolla kuuntelen tässä. Huomaan, että oppositio tietää todella hyvin hallitusneuvottelut ja tietää sen, mitä siellä on neuvoteltu 
+                  <vocal type="interruption">
                      <desc>Välihuuto</desc>
-                  </vocal> — tai ne, jotka eivät ole olleet neuvottelemassa, tietävät todella hyvin. Täytyy sanoa, että me emme kyllä tiedä ihan noin hyvin kaikkia asioita, mitä sieltä tulee, mutta olen ymmärtänyt, että hallitusneuvottelut ovat edenneet todella hyvin, ja olen hyvin luottavainen sen suhteen, että maahan saadaan toimintakykyinen hallitus ja saadaan varmaan huomattavasti ripeämmässä tahdissa kuin viime vuonna, jolloinka te olitte siellä neuvottelemassa.</seg>
+                  </vocal>
+                  — tai ne, jotka eivät ole olleet neuvottelemassa, tietävät todella hyvin. Täytyy sanoa, että me emme kyllä tiedä ihan noin hyvin kaikkia asioita, mitä sieltä tulee, mutta olen ymmärtänyt, että hallitusneuvottelut ovat edenneet todella hyvin, ja olen hyvin luottavainen sen suhteen, että maahan saadaan toimintakykyinen hallitus ja saadaan varmaan huomattavasti ripeämmässä tahdissa kuin viime vuonna, jolloinka te olitte siellä neuvottelemassa.
+               </seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg14">Olen ymmärtänyt, että siellä on aikamoinen konsensus tällä hetkellä menossa monista asioista. Mitä tulee Nuivaan manifestiin — itse en sitä tunne — niin minulle oli todellakin yllättävää tämä tieto, että se on ollut jopa hallitusneuvotteluissa. Tämähän on niin kuin suorastaan uutinen, jos näin on ollut. Mutta en voi ottaa asiaan kantaa, koska en ole ollut tässä asiassa mukana.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg15">Mutta jos mennään ihan siihen, mistä tällä hetkellä nyt keskustellaan, elikkä kansanterveyden vaarantamiseen, niin tässähän nyt oli tosiaankin kysymys tämmöisestä teknisluontoisesta korjauksesta lainsäädäntöön. Tässä yhteydessä sanon sen, että minä toivoisin, että tämä eduskunta, joka nyt sitten aloittaa toden teolla työnsä, ja valiokunnat kiinnittäisivät huomiota siihen, että lainsäädäntömme olisi sellaista, mikä on helposti tulkittavaa, että sinne ei jäisi niitä tulkinnanvaraisuuksia, koska mitä selkeämpi lainsäädäntö on, sen selkeämmin voidaan esimerkiksi tuomioistuimissa tehdä päätökset ja sitä vähemmän tarvitaan erilaisia valitusteitä. Valitustiet ovat pitkiä, maksavat paljon. Ne maksavat koko yhteiskunnalle paljon.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg16">Mutta jos me jatkamme samaa, mitä viime kaudella tehtiin, että teemme pelkkiä puitelakeja, joiden sisältö sitten haetaan varsinaisissa istunnoissa tuomioistuimissa — ei siis täällä — niin olemme tuommoisessa aika vellovassa suossa. Toivotaan, että me pystymme hyvään yhteistyöhön kaikki.</seg>
@@ -160,7 +166,7 @@
                who="#JukkaGustafsson"
                xml:id="ParlaMint-FI_2015-05-22-ps-7.u10">
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg20">Puhemies! Tämä on mielenkiintoinen keskustelu. Hetken ajan mietin, onko oikea paikka puhua nyt vai sitten, kun hallitusohjelma tulee saliin käsittelyyn.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg21">Mutta edustaja Lindtman on oikeassa: perussuomalaiset tekivät takinkäännön, joka on historiallisen nopea. Minä olen selvittämässä itselleni, miten tehdään ehdotus Guinnessin Ennätysten kirjaan maailman nopeimmasta takinkäännöksestä, ja tulen kertomaan tämän asian ja aikataulun ja tilanteen sitten varsinaisessa hallituksen ohjelman tiedonantokeskustelussa. Ja kenen nimiin tämä takinkäännöksen nopeus pannaan? Pannaanko se Soinin vai edustaja Tolppasen? Sekin varmaan selviää tässä vielä.</seg>
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg21">Mutta edustaja Lindtman on oikeassa: perussuomalaiset tekivät takinkäännön, joka on historiallisen nopea. Minä olen selvittämässä itselleni, miten tehdään ehdotus Guinnessin Ennätysten kirjaan maailman nopeimmasta takinkäännöksestä, ja tulen kertomaan tämän asian ja aikataulun ja tilanteen sitten varsinaisessa hallituksen ohjelman tiedonantokeskustelussa. Ja kenen nimiin tämä takinkäännöksen nopeus pannaan? Pannaanko se Soinin vai edustaja Tolppasen? Sekin varmaan selviää tässä vielä. </seg>
             </u>
             <u ana="#regular"
                who="#HannuHoskonen"
@@ -183,7 +189,7 @@
                who="#MariaTolppanen"
                xml:id="ParlaMint-FI_2015-05-22-ps-7.u14">
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg27">Arvoisa puhemies! Näin olen todellakin ymmärtänyt, että veroasioissa on päästy aika lailla yhteisymmärrykseen. Sehän jo aika alkumetreillä kerrottiin, että verokanta ei tässä maassa muutu. Sehän on ihan selkeätä suomea, siinä olemme kaiketi kaikki samaa mieltä. Se, mitä sisällä tapahtuu, on sitten eri asia. Se tapahtuu erilaisissa huoneissa, eri ovien takana. Siellä ovat neuvottelijat, siellä ovat eri puolueista ammattitaitoiset neuvottelijat ja hyvät neuvottelijat, jotka siellä tällä hetkellä ovat neuvottelemassa ja varmastikin pääsevät niistä jonkinlaiseen lopputulokseen, koska ei hallitusta maahan saada, jos ei lopputulosta tule. Näinhän se on. Mutta nyt vaikuttaa todellakin hyvältä, että tähän maahan saadaan hallitus ja saadaan hallitus ripeässä tahdissa, jotta eduskunta pääsee tekemään työtään.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg28">Maahanmuutto ja takinkääntö: Minusta on hyvä asia, jos meillä on takki kääntynyt, koska tämän käännöksen mukana nyt vihdoinkin selvitetään maahanmuuttokustannukset. Tähänhän saakka näitten kustannusten selvittäminen on ollut täysin mahdotonta, ja sen on estänyt meidän lainsäädäntömme. Me emme pysty selvittämään esimerkiksi harkinnanvaraisia sosiaalitukia millään tavalla, koska meidän lainsäädäntömme estää sen. Me emme pysty määrittelemään sitä, kenelle on maksettu, mitä on maksettu, milloin on maksettu ja miksi on maksettu. Nyt, jos olemme yhteisesti sopineet — niin kuin olemme — sen, että nämä kustannukset selvitetään, sen jälkeen jokainen voi ihan tykönänsä katsoa, mitkä ovat todelliset kustannukset ja mihinkä meidän rahkeemme riittävät, mihin tämän maan työtä tekevän kansan veromarkat riittävät, kuinka pitkälle voidaan mennä. Sehän on se kaiken a ja o. Tehdäänpä sitä tai tätä, niin täytyy tietää, kuinka paljon on resursseja käyttää siihen, koska se on se vanha totuus, että kakkua ei voi yhtä aikaa säästää ja syödä. Ei vain voi. Jompikumpi täytyy tehdä, mutta ensin täytyy päättää, kumpi tehdään.</seg>
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg28">Maahanmuutto ja takinkääntö: Minusta on hyvä asia, jos meillä on takki kääntynyt, koska tämän käännöksen mukana nyt vihdoinkin selvitetään maahanmuuttokustannukset. Tähänhän saakka näitten kustannusten selvittäminen on ollut täysin mahdotonta, ja sen on estänyt meidän lainsäädäntömme. Me emme pysty selvittämään esimerkiksi harkinnanvaraisia sosiaalitukia millään tavalla, koska meidän lainsäädäntömme estää sen. Me emme pysty määrittelemään sitä, kenelle on maksettu, mitä on maksettu, milloin on maksettu ja miksi on maksettu. Nyt, jos olemme yhteisesti sopineet — niin kuin olemme — sen, että nämä kustannukset selvitetään, sen jälkeen jokainen voi ihan tykönänsä katsoa, mitkä ovat todelliset kustannukset ja mihinkä meidän rahkeemme riittävät, mihin tämän maan työtä tekevän kansan veromarkat riittävät, kuinka pitkälle voidaan mennä. Sehän on se kaiken a ja o. Tehdäänpä sitä tai tätä, niin täytyy tietää, kuinka paljon on resursseja käyttää siihen, koska se on se vanha totuus, että kakkua ei voi yhtä aikaa säästää ja syödä. Ei vain voi. Jompikumpi täytyy tehdä, mutta ensin täytyy päättää, kumpi tehdään. </seg>
             </u>
             <u ana="#regular"
                who="#OlaviAlaNissilä"
@@ -270,11 +276,17 @@
                xml:id="ParlaMint-FI_2015-05-22-ps-7.u29">
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg53">Arvoisa puhemies! Tämä ulkomaalaislain 36 §:n muutoshan on luonteeltaan tekninen, niin kuin täällä on todettu, mutta ainakin itse halusin kuulla myös tämän jälkiosan keskustelua, koska tämä asiakokonaisuus liittyen ulkomaalaispolitiikkaan ja maahanmuuttoasiaan on tavattoman tärkeä. Se on aidosti iso osa meidän yhteiskuntamme menestystä ja myös kansakunnan koossa pysymistä, ja sillä, miten ulkomaalaiset otetaan vastaan, miten he sijoittautuvat Suomeen ja kuinka he kokevat olonsa täällä tervetulleiksi ja tasa-arvoisiksi yhteiskunnan kansalaisiksi, on iso periaatteellinen merkitys.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg54">Tästä on kymmenen vuotta väännetty kättä, ja luulenpa, että tämä taitaa olla kymmenen vuoden ajanjaksolla ensimmäinen ulkomaalaislain käsittely, joka voidaan tehdä yksimielisesti, ja se on minusta hieno asia. Kun edustaja Kurvinen sanoi, että ei saa vielä hallitusta kehua, kun ei ole varmaa, syntyykö se, ja pitää ottaa sitten vasta kantaa, kun koko ohjelma on tiedossa, niin kyllä minä sanoisin, edustaja Kurvinen, tässä aikaisemmalla kokemuksella, että nämä hallituksen kehut ovat niin harvinaisia, että ne kannattaa aina ottaa vastaan. Luulen, että sitä, että oppositiosta annetaan tunnustusta hallitusneuvottelijoille, ei tulla kovin usein tässä salissa kuulemaan eikä kokemaan, niin että tästä kannattaa nauttia koko rahalla.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg55">Meillä on syntynyt ilmeisestikin jo hyvin merkittävä uusi yhteisymmärrys siitä, miten maahanmuuttopolitiikkaa tehdään. Ei se täydellinen ole, ja siihen varmasti jää joitakin aukkokohtia, ja siinä on varmaan puutteita, ja joistakin asioista ollaan ehkä eri mieltäkin. Huomasin, että eri mieltä ehkä vielä ollaan siitä, mitä tämä pakolaispolitiikka täsmälleen ottaen tarkoittaa, koska siitähän tekstissä taisi lukea niin, että pakolaiskiintiö säilytetään vähintään viime vuosien tasolla. Ja nyt sitten, kun Facebook-maailmaa seuraa, niin ehdin huomata, että siinä näytti olevan kaksi eri tulkintaa: onko se se <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg55">
+                  Meillä on syntynyt ilmeisestikin jo hyvin merkittävä uusi yhteisymmärrys siitä, miten maahanmuuttopolitiikkaa tehdään. Ei se täydellinen ole, ja siihen varmasti jää joitakin aukkokohtia, ja siinä on varmaan puutteita, ja joistakin asioista ollaan ehkä eri mieltäkin. Huomasin, että eri mieltä ehkä vielä ollaan siitä, mitä tämä pakolaispolitiikka täsmälleen ottaen tarkoittaa, koska siitähän tekstissä taisi lukea niin, että pakolaiskiintiö säilytetään vähintään viime vuosien tasolla. Ja nyt sitten, kun Facebook-maailmaa seuraa, niin ehdin huomata, että siinä näytti olevan kaksi eri tulkintaa: onko se se 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> vanha viime vuosien 750, vai onko tämä kiintiö se Syyrian tilanteen johdosta korotettu toistatuhatta henkeä. <vocal type="interruption">
+                  </kinesic>
+                   vanha viime vuosien 750, vai onko tämä kiintiö se Syyrian tilanteen johdosta korotettu toistatuhatta henkeä. 
+                  <vocal type="interruption">
                      <desc>Puhemies: 2 minuuttia!</desc>
-                  </vocal> Mutta oli se nyt kumpi tahansa, niin se on pieni, ja siksi esittäisin, että tunnustetaan, että nyt neljä vuotta tästä ollaan aika lailla yhtä mieltä, ja minusta se on hieno asia.</seg>
+                  </vocal>
+                  Mutta oli se nyt kumpi tahansa, niin se on pieni, ja siksi esittäisin, että tunnustetaan, että nyt neljä vuotta tästä ollaan aika lailla yhtä mieltä, ja minusta se on hieno asia.
+               </seg>
             </u>
             <u ana="#regular"
                who="#VilleTavio"
@@ -317,9 +329,13 @@
                xml:id="ParlaMint-FI_2015-05-22-ps-7.u36">
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg68">Arvoisa puhemies! Edustaja Aalto peräänkuulutti perussuomalaisten kehitysapurahojen logiikkaa. Jos haluamme leikata huomattavasti maahanmuuttoa, niin miksi haluamme leikata myös sitten kehitysavun määrärahojen määrää — tätä varmaan tarkoititte tässä kysymyksessänne. No, tähän on hyvin helppo vastaus. Me kannatamme Kepan 107 miljoonan euron kehitysmäärärahan käyttöä, ja se lukee meidän varjobudjeteissamme, on lukenut monena vuotena, koska se on läpinäkyvää, tehokasta ja erittäin hyvää, kannattavaa suomalaista työtä, jolla me voimme lievittää hätää ja tuskaa. Sen lisäksi perussuomalaiset kannattaa varjobudjeteissaan ja muissa myös kriisinhallintaan ja muihin tämmöisiin äkillisiin katastrofeihin liittyvää apua.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg69">Me olemme inhimillisiä samalla tavalla kuin kaikki muutkin. Me haluamme auttaa näitä ihmisiä. Se, mitä me emme halua taas sitten tehdä, on esimerkiksi antaa vaikka Afganistanille kahdenvälistä rahaa — muistaakseni noin 8 miljoonaa euroa tänäkin vuonna annetaan ja viime vuonna annettiin rahaa automaattisesti. Kahdenvälistä kehitysapurahaa me annamme noin 300 miljoonaa muistaakseni vuodessa, ja hyvin suuri osa niistä rahoista valuu Kankkulan kaivoon. Afganistanissa pankit jäivät kiinni, kun siellä varastettiin 900 miljoonaa dollaria vuonna 2010, ja siitä saatiin vain murto-osa takaisin, vaikka lupasivat tehdä kaikkensa. Ja siitä huolimatta Suomi edelleen jatkaa tällaisten valtioitten tukemista suoralla käteiskaupalla. Siellä on Palestiinaa, siellä on monta muuta maata. Kun me tiedämme, mihin ne rahat on käytetty, me haluamme tämmöisen holtittoman niin sanotun kehitysapurahan käytön lopettaa kokonaan, ja sen sijaan haluamme kannustaa suomalaisia kehitysapujärjestöjä, jotka aidosti käyttävät sen rahan siihen, mihin se on tarkoitettu. Jos me emme uskalla puuttua tällaisiin väärinkäytöksiin edes tässä eduskunnassa, menetetään kehitysaputyön uskottavuus.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg70">Itse puolueen päämäärähän meillä on saada kehitysaputyö vapaaehtoiseksi. Tämä on kyllä se meidän pitkän linjan juttu, <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg70">
+                  Itse puolueen päämäärähän meillä on saada kehitysaputyö vapaaehtoiseksi. Tämä on kyllä se meidän pitkän linjan juttu, 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> että se menisi vapaaehtoiseksi suurilta osin.</seg>
+                  </kinesic>
+                  että se menisi vapaaehtoiseksi suurilta osin.
+               </seg>
             </u>
             <u ana="#regular"
                who="#EeroHeinäluoma"
@@ -327,9 +343,13 @@
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg71">Arvoisa puhemies! Kun olemme edustaja Zyskowiczin kanssa vaihtaneet paikkoja, niin täytyy nauttia nyt koko rahan edestä tästä mahdollisuudesta, että neljän vuoden tauon jälkeen pääsee puhumaan, ja sen takia käytän vielä tähän loppukeskusteluun hetken aikaa.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg72">Kun tässä edustaja Niikko ja eräät muutkin perussuomalaisten edustajat ovat puhuneet siitä, mitä perussuomalaiset ajattelevat tai tekevät, niin oikeastaan siitähän nyt enää ei ole kysymys, vaan on sovittu hallitukselle yhteinen linja, ja perussuomalaiset hallituspuolueena varmastikin puolustavat tätä hallituksen yhteistä linjaa. Tätä nyt julkistettua linjaa haluan tukea ja antaa siitä tunnustuksen. Se on kohtuullisen järkevä linja, ei täydellinen, mutta kohtuullisen järkevä, ja sen puolesta voi kyllä mainesanoja antaa sekä täällä että ulkomailla. Kiistatta tämä lopputulos, joka on julkistettu, on poistanut paljon sellaista huolta, joka on liittynyt juuri tämän hallituspohjan syntymiseen.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg73">Kun sitten edustaja Niikko sanoi nyt, että perussuomalaiset haluaa humanitääristä maahanmuuttoa vähentää, niin semmoista kohtaahan tässä julkistetussa tekstissä ei ollut. Eli te olette luvanneet jatkaa pakolaiskiintiöitä vähintään nykyisellä tasolla. Sitten on auki se, onko se se 750 vai onko se se vähän toistatuhatta, ja sekin varmaan selviää, kun päästään askel pidemmälle.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg74">Eli perusteiltaan tämä on menossa hyvään suuntaan, ja minusta tämä osoittaa, että suomalainen tapa toimia myös hallituksen koostamisessa on oikea, eli kun ihmiset antavat kannatusta, niin sitten puolueelle annetaan mahdollisuus hallitusneuvottelujen kautta ja hallitukseen osallistumisella vaikuttaa asioihin. Sitä kautta tämä yhteiskunta kehittyy ja myös muuttuu ja elää, mutta tärkeätä on, että näyttäisi siltä, että nyt siinä asiassa, josta kymmenen vuotta on käyty valtaisaa vääntöä, hallitus ja oppositio tulevat olemaan hyvin lähellä toisiansa: <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg74">
+                  Eli perusteiltaan tämä on menossa hyvään suuntaan, ja minusta tämä osoittaa, että suomalainen tapa toimia myös hallituksen koostamisessa on oikea, eli kun ihmiset antavat kannatusta, niin sitten puolueelle annetaan mahdollisuus hallitusneuvottelujen kautta ja hallitukseen osallistumisella vaikuttaa asioihin. Sitä kautta tämä yhteiskunta kehittyy ja myös muuttuu ja elää, mutta tärkeätä on, että näyttäisi siltä, että nyt siinä asiassa, josta kymmenen vuotta on käyty valtaisaa vääntöä, hallitus ja oppositio tulevat olemaan hyvin lähellä toisiansa: 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> ei ole suuria erimielisyyden aiheita.</seg>
+                  </kinesic>
+                  ei ole suuria erimielisyyden aiheita.
+               </seg>
             </u>
             <u ana="#regular"
                who="#OzanYanar"
@@ -354,13 +374,21 @@
                xml:id="ParlaMint-FI_2015-05-22-ps-7.u41">
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg81">Kiitos, puhemies, puheenvuorosta taas! Edustaja Aalto, esitit kysymyksen. Voisinko minä esittää tämän minun vastauksen tällä tavalla: Suomen valtion ydintehtävä on joku muu kuin kehitysaputyö, eikö totta? Suomen valtion ydintoimintaa on maanpuolustus. Suomen valtion ydintoimintaa on terveydenhuollosta ja koulutuksesta ja monesta muusta asiasta huolehtiminen ennen kaikkea heille, jotka ovat Suomen kansalaisia ja jotka Suomessa asuvat. Siinä tehdään sitten rajanvetoja, kelle kuuluu se taloudellinen hyvä, jota me jaamme täällä.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg82">Kehitysapuyhteistyö ei ole valtion ydintoimintaa. Se on meidän hyväntahtoisuudestamme nousevaa toimintaa, ja tällöin, kun puhutaan kehitysyhteistyömäärärahojen käytöstä, jos meillä on 1 100 miljoonaa euroa rahaa, joista vain 100 miljoonaa käytetään omien kehitysapujärjestöjen kautta, Kepan kautta, niin minä en ymmärrä sitä politiikkaa, että me tuhat miljoonaa heitämme silmät kiinni ja toivomme, että YK:ssa tapahtuu hyviä asioita sen rahan kautta, vaikka me tiedämme, että hallintoon menee valtava määrä rahaa, tai sitten kahdenvälisissä, valtioiden välisissä asioissa tapahtuu hyvää, kun pannaan silmät kiinni ja tungetaan rahaa. Me olemme tehneet vuosikymmenet näin, ja nyt me olemme halunneet muuttaa tätä kehitystä, että meidän on aidosti otettava vastuu myös siitä, miten se raha käytetään. Tämä on se a ja o. Sen tähden me jouduimme esittämään hyvinkin radikaaleja toimenpiteitä, koska niin sanotut vanhat puolueet eivät ole kuulleet meidän ääntämme. Me olemme esittäneet, että tehdään sitten vapaaehtoiseksi koko homma, kerran te ette halua muuttaa tätä linjaa. Mielestäni se on erinomainen vaihtoehto. Kerätkää sitten jostain, vaikka Cheekin konsertista, ne rahat sinne, jos kerran linja ei muutu mihinkään.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg83">Arvoisa puhemies! Vielä edustaja Heinäluomalle siitä, että totta kai perussuomalaiset joutuvat hallituksessa ajamaan sitä yhteistä linjaa, oli sitten kysymys maahanmuutosta tai vaikka europolitiikasta. Mutta muistutan sen, että me emme ole vielä sopineet yhtään mitään. Yksityiskohdista sovitaan aina tapauskohtaisesti. Suuret linjat on kyllä sovittu, ja sen mukaan mennään, <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg83">
+                  Arvoisa puhemies! Vielä edustaja Heinäluomalle siitä, että totta kai perussuomalaiset joutuvat hallituksessa ajamaan sitä yhteistä linjaa, oli sitten kysymys maahanmuutosta tai vaikka europolitiikasta. Mutta muistutan sen, että me emme ole vielä sopineet yhtään mitään. Yksityiskohdista sovitaan aina tapauskohtaisesti. Suuret linjat on kyllä sovittu, ja sen mukaan mennään, 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> mutta ei se tarkoita sitä, että me olisimme muuttaneet mielipiteemme. <kinesic type="signal">
+                  </kinesic>
+                   mutta ei se tarkoita sitä, että me olisimme muuttaneet mielipiteemme. 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> Me ymmärrämme, että kompromisseja pitää politiikassa tehdä ja yksikään puolue <vocal type="interruption">
+                  </kinesic>
+                   Me ymmärrämme, että kompromisseja pitää politiikassa tehdä ja yksikään puolue 
+                  <vocal type="interruption">
                      <desc>Puhemies: 2 minuuttia!</desc>
-                  </vocal> ei saa kaikkea. Tämän me ymmärrämme.</seg>
+                  </vocal>
+                  ei saa kaikkea. Tämän me ymmärrämme.
+               </seg>
             </u>
             <u ana="#regular"
                who="#OzanYanar"

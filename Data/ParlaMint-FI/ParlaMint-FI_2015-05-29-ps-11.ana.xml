@@ -32,8 +32,8 @@
             <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="123" xml:lang="fi">puheet</measure>
-            <measure unit="speeches" quantity="123" xml:lang="en">speeches</measure>
+            <measure unit="speeches" quantity="10" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="10" xml:lang="en">speeches</measure>
             <measure unit="words" quantity="611" xml:lang="fi">sanat</measure>
             <measure unit="words" quantity="611" xml:lang="en">words</measure>
          </extent>
@@ -43,7 +43,7 @@
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -51,28 +51,30 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-05-31">May 31, 2023</date>
+            <date when="2023-06-27">2023-06-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the plenary session 11/2015 of the Finnish Parliament</title>
                <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 11/2015 pöytäkirja</title>
-               <idno type="URI">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_11+2015.aspx</idno>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_11+2015.aspx</idno>
                <date when="2015-05-29">29.05.2015</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="fi">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-               -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.
-            </p>
             <p xml:lang="en">
-               The 
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                 project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -155,7 +157,8 @@
                         msd="UPosTag=ADJ|Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord">ensimmäinen</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg1.1.13"
                         lemma="varapuhemies"
-                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">varapuhemies</w>
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">varapuhemies</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg1.1.14" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nmod_poss"
@@ -212,7 +215,8 @@
                         msd="UPosTag=ADJ|Case=Ine|Derivation=Inen|Number=Sing|NumType=Ord">toisessa</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg1.2.22"
                         lemma="täysistunto"
-                        msd="UPosTag=NOUN|Case=Ine|Number=Sing">täysistunnossa</w>
+                        msd="UPosTag=NOUN|Case=Ine|Number=Sing"
+                        join="right">täysistunnossa</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg1.2.23" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nummod"
@@ -259,7 +263,8 @@
                         msd="UPosTag=NOUN|Case=Gen|Number=Sing">puhemiehen</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.1.4"
                         lemma="vaali"
-                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">vaali</w>
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">vaali</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.1.5" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.1.6"
                         lemma="joka"
@@ -311,7 +316,8 @@
                         msd="UPosTag=NOUN|Abbr=Yes|Case=Gen|Number=Sing">§:n</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.1.22"
                         lemma="säännös"
-                        msd="UPosTag=NOUN|Case=Par|Number=Plur">säännöksiä</w>
+                        msd="UPosTag=NOUN|Case=Par|Number=Plur"
+                        join="right">säännöksiä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.1.23" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:advmod"
@@ -374,7 +380,8 @@
                         msd="UPosTag=ADV">siis</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.2.27"
                         lemma="umpilippu"
-                        msd="UPosTag=NOUN|Case=Ins|Number=Plur">umpilipuin</w>
+                        msd="UPosTag=NOUN|Case=Ins|Number=Plur"
+                        join="right">umpilipuin</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.2.28" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:obj"
@@ -407,7 +414,8 @@
                         msd="UPosTag=NOUN|Case=Gen|Number=Sing">nimenhuudon</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.3.34"
                         lemma="mukaan"
-                        msd="UPosTag=ADP|AdpType=Post">mukaan</w>
+                        msd="UPosTag=ADP|AdpType=Post"
+                        join="right">mukaan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.3.35" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.3.36"
                         lemma="joka"
@@ -417,7 +425,8 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">toimitetaan</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.3.38"
                         lemma="aakkonenjärjestys"
-                        msd="UPosTag=NOUN|Case=Ine|Number=Sing">aakkosjärjestyksessä</w>
+                        msd="UPosTag=NOUN|Case=Ine|Number=Sing"
+                        join="right">aakkosjärjestyksessä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.3.39" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
@@ -450,7 +459,8 @@
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">Pyydän</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.4.41"
                         lemma="huomauttaa"
-                        msd="UPosTag=VERB|InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act">huomauttaa</w>
+                        msd="UPosTag=VERB|InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act"
+                        join="right">huomauttaa</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.4.42" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.4.43"
                         lemma="että"
@@ -484,7 +494,8 @@
                         msd="UPosTag=NOUN|Case=Par|Number=Sing">etunimeä</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.4.53"
                         lemma="käyttää"
-                        msd="UPosTag=VERB|Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act">käyttäen</w>
+                        msd="UPosTag=VERB|Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act"
+                        join="right">käyttäen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.4.54" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -534,7 +545,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">av</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.5.59"
                         lemma="talma"
-                        msd="UPosTag=PROPN|Case=Gen|Number=Sing">talman</w>
+                        msd="UPosTag=PROPN|Case=Gen|Number=Sing"
+                        join="right">talman</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.5.60" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.5.61"
                         lemma="vilket"
@@ -638,7 +650,8 @@
                         msd="UPosTag=X|Foreign=Yes">för</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.6.79"
                         lemma="riksdagen"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">riksdagen</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">riksdagen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.6.80" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -671,7 +684,8 @@
                         msd="UPosTag=X|Foreign=Yes">slutna</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.7.86"
                         lemma="röstsedlar"
-                        msd="UPosTag=X|Foreign=Yes">röstsedlar</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">röstsedlar</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.7.87" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -723,7 +737,8 @@
                         msd="UPosTag=ADJ|NumType=Ord">i</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.8.98"
                         lemma="urna"
-                        msd="UPosTag=PROPN|Case=Gen|Number=Sing">urnan</w>
+                        msd="UPosTag=PROPN|Case=Gen|Number=Sing"
+                        join="right">urnan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.8.99" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -785,7 +800,8 @@
                         msd="UPosTag=X|Foreign=Yes">tillräckligt</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.9.110"
                         lemma="tydligt"
-                        msd="UPosTag=X|Foreign=Yes">tydligt</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">tydligt</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.9.111" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -832,7 +848,8 @@
                         msd="UPosTag=X|Foreign=Yes">förnamnet</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.10.117"
                         lemma="anges"
-                        msd="UPosTag=X|Foreign=Yes">anges</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">anges</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.10.118" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -881,7 +898,8 @@
                         msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur">seuraavat</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.128"
                         lemma="edustaja"
-                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ja|Number=Plur">edustajat</w>
+                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ja|Number=Plur"
+                        join="right">edustajat</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.129" msd="UPosTag=PUNCT">:</pc>
                      <name type="PER">
                         <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.130"
@@ -889,7 +907,8 @@
                            msd="UPosTag=PROPN|Case=Nom|Number=Sing">Timo</w>
                         <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.131"
                            lemma="Kalli"
-                           msd="UPosTag=PROPN|Case=Nom|Number=Sing">Kalli</w>
+                           msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                           join="right">Kalli</w>
                      </name>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.132" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.133"
@@ -897,7 +916,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">Juho</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.134"
                         lemma="Eerola"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">Eerola</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">Eerola</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.135" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.136"
                         lemma="Arto"
@@ -913,7 +933,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">Antti</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.140"
                         lemma="Lindtman"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">Lindtman</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">Lindtman</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.11.141" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:xcomp_ds"
@@ -997,7 +1018,8 @@
                         msd="UPosTag=X|Foreign=Yes">vid</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.152"
                         lemma="valet"
-                        msd="UPosTag=X|Foreign=Yes">valet</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">valet</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.153" msd="UPosTag=PUNCT">:</pc>
                      <name type="PER">
                         <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.154"
@@ -1005,7 +1027,8 @@
                            msd="UPosTag=PROPN|Case=Nom|Number=Sing">Timo</w>
                         <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.155"
                            lemma="Kalli"
-                           msd="UPosTag=PROPN|Case=Nom|Number=Sing">Kalli</w>
+                           msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                           join="right">Kalli</w>
                      </name>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.156" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.157"
@@ -1013,7 +1036,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">Juho</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.158"
                         lemma="Eerola"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">Eerola</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">Eerola</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.159" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.160"
                         lemma="Arto"
@@ -1029,7 +1053,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">Antti</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.164"
                         lemma="Lindtman"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">Lindtman</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">Lindtman</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.12.165" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1085,7 +1110,8 @@
                   <s xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.13">
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.13.166"
                         lemma="todeta"
-                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">Totean</w>
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">Totean</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.13.167" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.13.168"
                         lemma="että"
@@ -1101,7 +1127,8 @@
                         msd="UPosTag=AUX|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act">ei</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.13.172"
                         lemma="julkilua"
-                        msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">julkilueta</w>
+                        msd="UPosTag=VERB|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass"
+                        join="right">julkilueta</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2.13.173" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1196,7 +1223,8 @@
                         msd="UPosTag=NOUN|Case=Nom|Number=Sing">tulos</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg3.1.3"
                         lemma="lukea"
-                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">luetaan</w>
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass"
+                        join="right">luetaan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg3.1.4" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nmod_poss"
@@ -1251,7 +1279,8 @@
                         msd="UPosTag=VERB|Case=Ela|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass">hyväksytyistä</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.1.12"
                         lemma="ääni"
-                        msd="UPosTag=NOUN|Case=Ela|Number=Plur">äänistä</w>
+                        msd="UPosTag=NOUN|Case=Ela|Number=Plur"
+                        join="right">äänistä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.1.13" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.1.14"
                         lemma="olla"
@@ -1287,7 +1316,8 @@
                         msd="UPosTag=VERB|Case=Tra|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act">olevaksi</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.1.24"
                         lemma="aika"
-                        msd="UPosTag=NOUN|Case=Tra|Number=Sing">ajaksi</w>
+                        msd="UPosTag=NOUN|Case=Tra|Number=Sing"
+                        join="right">ajaksi</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.1.25" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:mark"
@@ -1384,7 +1414,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">godkända</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.2.39"
                         lemma="rösterna"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">rösterna</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">rösterna</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.2.40" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.2.41"
                         lemma="har"
@@ -1421,7 +1452,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Plur">riksmötet</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.2.52"
                         lemma="2015"
-                        msd="UPosTag=NUM|NumType=Card">2015</w>
+                        msd="UPosTag=NUM|NumType=Card"
+                        join="right">2015</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.2.53" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1485,11 +1517,13 @@
                   <s xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.3">
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.3.54"
                         lemma="onnitella"
-                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">Onnittelen</w>
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">Onnittelen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.3.55" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.3.56"
                         lemma="gratulerar"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">gratulerar</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">gratulerar</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4.3.57" msd="UPosTag=PUNCT">!</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1545,7 +1579,8 @@
                         msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing">juhlallisen</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg5.1.10"
                         lemma="vakuutus"
-                        msd="UPosTag=NOUN|Case=Gen|Number=Sing">vakuutuksen</w>
+                        msd="UPosTag=NOUN|Case=Gen|Number=Sing"
+                        join="right">vakuutuksen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg5.1.11" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1657,7 +1692,8 @@
                         msd="UPosTag=X|Foreign=Yes">i</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg5.3.28"
                         lemma="arbetsordninge"
-                        msd="UPosTag=PROPN|Case=Gen|Number=Sing">arbetsordningen</w>
+                        msd="UPosTag=PROPN|Case=Gen|Number=Sing"
+                        join="right">arbetsordningen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg5.3.29" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1686,7 +1722,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">Lohela</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.1.4"
                         lemma="vakuuttaa"
-                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">vakuutan</w>
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">vakuutan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.1.5" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.1.6"
                         lemma="että"
@@ -1726,7 +1763,8 @@
                         msd="UPosTag=NOUN|Case=Gen|Number=Sing">valtiosäännön</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.1.18"
                         lemma="mukaan"
-                        msd="UPosTag=ADP|AdpType=Post">mukaan</w>
+                        msd="UPosTag=ADP|AdpType=Post"
+                        join="right">mukaan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.1.19" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:det"
@@ -1832,7 +1870,8 @@
                         msd="UPosTag=X|Foreign=Yes">enligt</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.2.40"
                         lemma="konstitutionen"
-                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">konstitutionen</w>
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">konstitutionen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6.2.41" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1916,7 +1955,8 @@
                         msd="UPosTag=VERB|Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act">ryhtymään</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg7.1.9"
                         lemma="toimi"
-                        msd="UPosTag=NOUN|Case=Ill|Number=Sing|Person[psor]=3">toimeensa</w>
+                        msd="UPosTag=NOUN|Case=Ill|Number=Sing|Person[psor]=3"
+                        join="right">toimeensa</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg7.1.10" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -1980,7 +2020,8 @@
                         msd="UPosTag=X|Foreign=Yes">sin</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg7.2.23"
                         lemma="befattning"
-                        msd="UPosTag=X|Foreign=Yes">befattning</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">befattning</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg7.2.24" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -2025,14 +2066,16 @@
                         msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur">Arvoisat</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.1.2"
                         lemma="kansanedustaja"
-                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ja|Number=Plur">kansanedustajat</w>
+                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ja|Number=Plur"
+                        join="right">kansanedustajat</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.1.3" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.1.4"
                         lemma="ärade"
                         msd="UPosTag=X|Case=Nom|Number=Sing">ärade</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.1.5"
                         lemma="riksdagsledamöter"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">riksdagsledamöter</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">riksdagsledamöter</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.1.6" msd="UPosTag=PUNCT">!</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:amod"
@@ -2058,7 +2101,8 @@
                         msd="UPosTag=VERB|Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act">osoittamastanne</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.2.9"
                         lemma="luottamus"
-                        msd="UPosTag=NOUN|Case=Ela|Number=Sing">luottamuksesta</w>
+                        msd="UPosTag=NOUN|Case=Ela|Number=Sing"
+                        join="right">luottamuksesta</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.2.10" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -2086,7 +2130,8 @@
                         msd="UPosTag=VERB|Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act">tekemään</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.3.15"
                         lemma="kaikkaa"
-                        msd="UPosTag=NOUN|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">kaikkemme</w>
+                        msd="UPosTag=NOUN|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">kaikkemme</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.3.16" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.3.17"
                         lemma="että"
@@ -2122,7 +2167,8 @@
                         msd="UPosTag=ADJ|Case=Ade|Degree=Pos|Derivation=Llinen|Number=Sing">mahdollisella</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.3.27"
                         lemma="tapa"
-                        msd="UPosTag=NOUN|Case=Ade|Number=Sing">tavalla</w>
+                        msd="UPosTag=NOUN|Case=Ade|Number=Sing"
+                        join="right">tavalla</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.3.28" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -2190,7 +2236,8 @@
                         msd="UPosTag=X|Case=Nom|Number=Plur">visat</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.4.37"
                         lemma="mig"
-                        msd="UPosTag=X|Foreign=Yes">mig</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">mig</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.4.38" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -2287,7 +2334,8 @@
                         msd="UPosTag=NOUN|Case=Ade|Number=Sing">ansvarsfulla</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.5.62"
                         lemma="uppgift"
-                        msd="UPosTag=X|Foreign=Yes">uppgift</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">uppgift</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.5.63" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -2348,7 +2396,8 @@
                         msd="UPosTag=NOUN|Case=Nom|Number=Sing">Maailma</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.65"
                         lemma="ympärillä"
-                        msd="UPosTag=ADV|Number[psor]=Plur|Person[psor]=1">ympärillämme</w>
+                        msd="UPosTag=ADV|Number[psor]=Plur|Person[psor]=1"
+                        join="right">ympärillämme</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.66" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.67"
                         lemma="lähempänä"
@@ -2358,7 +2407,8 @@
                         msd="UPosTag=CCONJ">ja</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.69"
                         lemma="kauempana"
-                        msd="UPosTag=ADV">kauempana</w>
+                        msd="UPosTag=ADV"
+                        join="right">kauempana</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.70" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.71"
                         lemma="ei"
@@ -2368,14 +2418,16 @@
                         msd="UPosTag=AUX|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin">ole</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.73"
                         lemma="yksinkertaistua"
-                        msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act">yksinkertaistunut</w>
+                        msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act"
+                        join="right">yksinkertaistunut</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.74" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.75"
                         lemma="vaan"
                         msd="UPosTag=CCONJ">vaan</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.76"
                         lemma="monimutkaistua"
-                        msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act">monimutkaistunut</w>
+                        msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act"
+                        join="right">monimutkaistunut</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.6.77" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
@@ -2426,7 +2478,8 @@
                         msd="UPosTag=CCONJ">ja</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.83"
                         lemma="haaste"
-                        msd="UPosTag=NOUN|Case=Par|Number=Plur">haasteita</w>
+                        msd="UPosTag=NOUN|Case=Par|Number=Plur"
+                        join="right">haasteita</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.84" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.85"
                         lemma="joka"
@@ -2439,14 +2492,16 @@
                         msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass">kyettävä</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.88"
                         lemma="ratkaista"
-                        msd="UPosTag=VERB|Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act">ratkaisemaan</w>
+                        msd="UPosTag=VERB|Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act"
+                        join="right">ratkaisemaan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.89" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.90"
                         lemma="joskus"
                         msd="UPosTag=ADV">joskus</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.91"
                         lemma="nopeasti"
-                        msd="UPosTag=ADV|Derivation=Sti">nopeasti</w>
+                        msd="UPosTag=ADV|Derivation=Sti"
+                        join="right">nopeasti</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.7.92" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
@@ -2493,7 +2548,8 @@
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">auttaa</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.8.96"
                         lemma="rohkeus"
-                        msd="UPosTag=NOUN|Case=Nom|Derivation=Vs|Number=Sing">rohkeus</w>
+                        msd="UPosTag=NOUN|Case=Nom|Derivation=Vs|Number=Sing"
+                        join="right">rohkeus</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.8.97" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.8.98"
                         lemma="avoimuus"
@@ -2503,7 +2559,8 @@
                         msd="UPosTag=CCONJ">ja</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.8.100"
                         lemma="periksiantamattomuus"
-                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ton,Vs|Number=Sing">periksiantamattomuus</w>
+                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ton,Vs|Number=Sing"
+                        join="right">periksiantamattomuus</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.8.101" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:obl"
@@ -2550,7 +2607,8 @@
                         msd="UPosTag=VERB|Case=Par|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass">päätettäviä</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.9.109"
                         lemma="asia"
-                        msd="UPosTag=NOUN|Case=Par|Number=Plur">asioita</w>
+                        msd="UPosTag=NOUN|Case=Par|Number=Plur"
+                        join="right">asioita</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.9.110" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -2588,7 +2646,8 @@
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">on</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.10.115"
                         lemma="vakava"
-                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing">vakava</w>
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing"
+                        join="right">vakava</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.10.116" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nmod_poss"
@@ -2620,7 +2679,8 @@
                         msd="UPosTag=VERB|InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act">elää</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.11.121"
                         lemma="loputon"
-                        msd="UPosTag=ADJ|Case=Ill|Degree=Pos|Derivation=Ton|Number=Plur">loputtomiin</w>
+                        msd="UPosTag=ADJ|Case=Ill|Degree=Pos|Derivation=Ton|Number=Plur"
+                        join="right">loputtomiin</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.11.122" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:obl"
@@ -2652,7 +2712,8 @@
                         msd="UPosTag=ADJ|Case=Tra|Degree=Pos|Number=Sing">kalliiksi</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.12.127"
                         lemma="yhteiskunta"
-                        msd="UPosTag=NOUN|Case=All|Number=Sing">yhteiskunnalle</w>
+                        msd="UPosTag=NOUN|Case=All|Number=Sing"
+                        join="right">yhteiskunnalle</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.12.128" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.12.129"
                         lemma="ei"
@@ -2677,7 +2738,8 @@
                         msd="UPosTag=VERB|InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act">mitata</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.12.136"
                         lemma="raha"
-                        msd="UPosTag=NOUN|Case=Ine|Number=Sing">rahassa</w>
+                        msd="UPosTag=NOUN|Case=Ine|Number=Sing"
+                        join="right">rahassa</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.12.137" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:amod"
@@ -2745,7 +2807,8 @@
                         msd="UPosTag=ADP|AdpType=Post">yli</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.13.148"
                         lemma="se"
-                        msd="UPosTag=PRON|Case=Par|Number=Plur|PronType=Dem">niitä</w>
+                        msd="UPosTag=PRON|Case=Par|Number=Plur|PronType=Dem"
+                        join="right">niitä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.13.149" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.13.150"
                         lemma="joka"
@@ -2758,7 +2821,8 @@
                         msd="UPosTag=PRON|Case=Gen|Number=Plur|PronType=Rcp">toisten</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.13.153"
                         lemma="apu"
-                        msd="UPosTag=NOUN|Case=Par|Derivation=U|Number=Sing">apua</w>
+                        msd="UPosTag=NOUN|Case=Par|Derivation=U|Number=Sing"
+                        join="right">apua</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.13.154" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:advmod"
@@ -2812,7 +2876,8 @@
                         msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act">laatinut</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.14.159"
                         lemma="ohjelma"
-                        msd="UPosTag=NOUN|Case=Gen|Number=Sing">ohjelman</w>
+                        msd="UPosTag=NOUN|Case=Gen|Number=Sing"
+                        join="right">ohjelman</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.14.160" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.14.161"
                         lemma="joka"
@@ -2834,7 +2899,8 @@
                         msd="UPosTag=ADJ|Case=Ill|Degree=Cmp|Number=Sing">parempaan</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.14.167"
                         lemma="suunta"
-                        msd="UPosTag=NOUN|Case=Ill|Number=Sing">suuntaan</w>
+                        msd="UPosTag=NOUN|Case=Ill|Number=Sing"
+                        join="right">suuntaan</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.14.168" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:amod"
@@ -2893,7 +2959,8 @@
                         msd="UPosTag=ADJ">ensi</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.15.176"
                         lemma="viikko"
-                        msd="UPosTag=NOUN|Case=Ade|Number=Sing">viikolla</w>
+                        msd="UPosTag=NOUN|Case=Ade|Number=Sing"
+                        join="right">viikolla</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.15.177" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
@@ -2952,7 +3019,8 @@
                         msd="UPosTag=CCONJ">ja</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.16.189"
                         lemma="esitys"
-                        msd="UPosTag=NOUN|Case=Ade|Number=Plur|Person[psor]=3">esityksillään</w>
+                        msd="UPosTag=NOUN|Case=Ade|Number=Plur|Person[psor]=3"
+                        join="right">esityksillään</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.16.190" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nmod_poss"
@@ -2992,7 +3060,8 @@
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">on</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.193"
                         lemma="pohdiskella"
-                        msd="UPosTag=VERB|Case=Gen|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass">pohdiskeltujen</w>
+                        msd="UPosTag=VERB|Case=Gen|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass"
+                        join="right">pohdiskeltujen</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.194" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.195"
                         lemma="perustella"
@@ -3014,7 +3083,8 @@
                         msd="UPosTag=NOUN|Case=Gen|Number=Plur">ajatusten</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.201"
                         lemma="ilmaisuken"
-                        msd="UPosTag=NOUN|Case=Par|Number=Sing">ilmaisukenttä</w>
+                        msd="UPosTag=NOUN|Case=Par|Number=Sing"
+                        join="right">ilmaisukenttä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.202" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.203"
                         lemma="joka"
@@ -3030,7 +3100,8 @@
                         msd="UPosTag=ADJ|Case=Par|Degree=Pos|Number=Plur">vääriä</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.207"
                         lemma="mielipide"
-                        msd="UPosTag=NOUN|Case=Par|Number=Plur">mielipiteitä</w>
+                        msd="UPosTag=NOUN|Case=Par|Number=Plur"
+                        join="right">mielipiteitä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.17.208" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj_cop"
@@ -3083,7 +3154,8 @@
                         msd="UPosTag=ADV">paljon</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.18.212"
                         lemma="vartija"
-                        msd="UPosTag=NOUN|Case=Ess|Derivation=Ja|Number=Plur">vartijoina</w>
+                        msd="UPosTag=NOUN|Case=Ess|Derivation=Ja|Number=Plur"
+                        join="right">vartijoina</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.18.213" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj_cop"
@@ -3122,7 +3194,8 @@
                         msd="UPosTag=VERB|Case=Ela|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act">koskevista</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.19.221"
                         lemma="asia"
-                        msd="UPosTag=NOUN|Case=Ela|Number=Plur">asioista</w>
+                        msd="UPosTag=NOUN|Case=Ela|Number=Plur"
+                        join="right">asioista</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.19.222" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"
@@ -3166,7 +3239,8 @@
                         msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Dem">sen</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.20.229"
                         lemma="arvoinen"
-                        msd="UPosTag=ADJ|Case=Par|Degree=Pos|Derivation=Inen|Number=Plur">arvoisia</w>
+                        msd="UPosTag=ADJ|Case=Par|Degree=Pos|Derivation=Inen|Number=Plur"
+                        join="right">arvoisia</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.20.230" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3193,7 +3267,8 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">Kunnioitetaan</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.21.232"
                         lemma="toinen"
-                        msd="UPosTag=PRON|Case=Par|Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Rcp">toisiamme</w>
+                        msd="UPosTag=PRON|Case=Par|Number=Plur|Number[psor]=Plur|Person[psor]=1|PronType=Rcp"
+                        join="right">toisiamme</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.21.233" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.21.234"
                         lemma="sillä"
@@ -3218,7 +3293,8 @@
                         msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">on</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.21.241"
                         lemma="tärkeä"
-                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing">tärkeä</w>
+                        msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Sing"
+                        join="right">tärkeä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.21.242" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3268,7 +3344,8 @@
                         msd="UPosTag=X|Foreign=Yes">att</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.22.249"
                         lemma="axla"
-                        msd="UPosTag=X|Foreign=Yes">axla</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">axla</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.22.250" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3319,7 +3396,8 @@
                         msd="UPosTag=PROPN|Case=Nom|Number=Sing">miljoner</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.23.260"
                         lemma="människor"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">människor</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">människor</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.23.261" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3382,7 +3460,8 @@
                         msd="UPosTag=X|Foreign=Yes">till</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.24.273"
                         lemma="förväntningarna"
-                        msd="UPosTag=X|Foreign=Yes">förväntningarna</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">förväntningarna</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.24.274" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3461,7 +3540,8 @@
                         msd="UPosTag=X|Foreign=Yes">gemensamma</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.25.290"
                         lemma="frågor"
-                        msd="UPosTag=X|Foreign=Yes">frågor</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">frågor</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.25.291" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3506,14 +3586,16 @@
                         msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Number=Plur">Arvoisat</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.26.293"
                         lemma="kansanedustaja"
-                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ja|Number=Plur">kansanedustajat</w>
+                        msd="UPosTag=NOUN|Case=Nom|Derivation=Ja|Number=Plur"
+                        join="right">kansanedustajat</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.26.294" msd="UPosTag=PUNCT">,</pc>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.26.295"
                         lemma="ärade"
                         msd="UPosTag=X|Case=Nom|Number=Sing">ärade</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.26.296"
                         lemma="riksdagsledamöter"
-                        msd="UPosTag=PROPN|Case=Nom|Number=Sing">riksdagsledamöter</w>
+                        msd="UPosTag=PROPN|Case=Nom|Number=Sing"
+                        join="right">riksdagsledamöter</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.26.297" msd="UPosTag=PUNCT">!</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:amod"
@@ -3566,7 +3648,8 @@
                         msd="UPosTag=X|Foreign=Yes">Finlands</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.27.309"
                         lemma="bästa"
-                        msd="UPosTag=X|Foreign=Yes">bästa</w>
+                        msd="UPosTag=X|Foreign=Yes"
+                        join="right">bästa</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.27.310" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3627,7 +3710,8 @@
                         msd="UPosTag=PROPN|Case=Gen|Number=Sing">Suomen</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.28.320"
                         lemma="puolesta"
-                        msd="UPosTag=ADP|AdpType=Post">puolesta</w>
+                        msd="UPosTag=ADP|AdpType=Post"
+                        join="right">puolesta</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8.28.321" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3691,7 +3775,8 @@
                         msd="UPosTag=VERB|Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act">osoittama</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg9.1.7"
                         lemma="kirjelmä"
-                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">kirjelmä</w>
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">kirjelmä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg9.1.8" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:root"
@@ -3727,7 +3812,8 @@
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act">puoltaa</w>
                      <w xml:id="ParlaMint-FI_2015-05-29-ps-11.seg10.1.3"
                         lemma="eronpyyntö"
-                        msd="UPosTag=NOUN|Case=Par|Number=Sing">eronpyyntöä</w>
+                        msd="UPosTag=NOUN|Case=Par|Number=Sing"
+                        join="right">eronpyyntöä</w>
                      <pc xml:id="ParlaMint-FI_2015-05-29-ps-11.seg10.1.4" msd="UPosTag=PUNCT">.</pc>
                      <linkGrp targFunc="head argument" type="UD-SYN">
                         <link ana="ud-syn:nsubj"

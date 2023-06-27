@@ -26,14 +26,14 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-<extent><measure unit="speeches" quantity="123" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="123" xml:lang="en">speeches</measure><measure unit="words" quantity="54" xml:lang="fi">sanat</measure><measure unit="words" quantity="54" xml:lang="en">words</measure></extent>
+<extent><measure unit="speeches" quantity="1" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="1" xml:lang="en">speeches</measure><measure unit="words" quantity="54" xml:lang="fi">sanat</measure><measure unit="words" quantity="54" xml:lang="en">words</measure></extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -41,28 +41,30 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-05-31">May 31, 2023</date>
+            <date when="2023-06-27">2023-06-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the plenary session 9/2015 of the Finnish Parliament</title>
                <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 9/2015 pöytäkirja</title>
-               <idno type="URI">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_9+2015.aspx</idno>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_9+2015.aspx</idno>
                <date when="2015-05-28">28.05.2015</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="fi">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-               -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.
-            </p>
             <p xml:lang="en">
-               The 
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                 project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">

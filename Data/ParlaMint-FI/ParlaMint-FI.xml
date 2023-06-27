@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI [ParlaMint]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 to parliamentary session 2021</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat valtiopäivistä 2015 valtiopäiviin 2021</title>
             <meeting ana="#parla.uni #parla.term #parl_session.2015 #GOV.73 #GOV.74"
@@ -41,47 +41,48 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-<extent><measure unit="speeches" quantity="615" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="615" xml:lang="en">speeches</measure><measure unit="words" quantity="14910" xml:lang="fi">sanat</measure><measure unit="words" quantity="14910" xml:lang="en">words</measure></extent>
+         <extent>
+            <measure unit="speeches" quantity="111" xml:lang="en">111 speeches</measure>
+            <measure unit="words" quantity="14910" xml:lang="en">14,910 words</measure>
+         </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">
-                  This work is licensed under the
-                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
-               <p xml:lang="fi">
-                  Tämä aineisto on saatavilla lisenssillä
-                  <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-05-31">May 31, 2023</date>
+            <date when="2023-06-27">2023-06-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the plenary sessions of the Finnish Parliament</title>
                <title type="main" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat</title>
-               <idno type="URI">https://avoindata.eduskunta.fi/#/fi/home</idno>
+               <idno type="URI" subtype="parliament">https://avoindata.eduskunta.fi/#/fi/home</idno>
                <date from="2015-04-28" to="2022-01-28">28.4.2015-28.1.2022</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="fi">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-               -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.
-            </p>
             <p xml:lang="en">
-               The 
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                 project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -264,25 +265,19 @@
                      <term>Vaalikausi</term>
                   </catDesc>
                   <catDesc xml:lang="en">
-                     <term>Legislative period</term>
-                     : term of the parliament between general elections.
-                  </catDesc>
+                     <term>Legislative period</term> : term of the parliament between general elections.</catDesc>
                   <category xml:id="parla.session">
                      <catDesc xml:lang="fi">
                         <term>Valtiopäivät</term>
                      </catDesc>
                      <catDesc xml:lang="en">
-                        <term>Legislative session</term>
-                        : the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.
-                     </catDesc>
+                        <term>Legislative session</term> : the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
                      <category xml:id="parla.meeting">
                         <catDesc xml:lang="fi">
                            <term>Täysistunto</term>
                         </catDesc>
                         <catDesc xml:lang="en">
-                           <term>Meeting</term>
-                           : Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.
-                        </catDesc>
+                           <term>Meeting</term> : Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
                         <category xml:id="parla.meeting-types">
                            <catDesc xml:lang="fi">
                               <term>Kokoustyypit</term>
@@ -376,9 +371,7 @@
                               <term>Täysistunto</term>
                            </catDesc>
                            <catDesc xml:lang="en">
-                              <term>Sitting</term>
-                              : sitting day
-                           </catDesc>
+                              <term>Sitting</term> : sitting day</catDesc>
                         </category>
                      </category>
                   </category>
@@ -393,33 +386,21 @@
                </desc>
                <category xml:id="chair">
                   <catDesc xml:lang="fi">
-                     <term>Puhemies</term>
-                     : Istunnon puhemies
-                  </catDesc>
+                     <term>Puhemies</term> : Istunnon puhemies</catDesc>
                   <catDesc xml:lang="en">
-                     <term>Chairperson</term>
-                     : chairman of a meeting
-                  </catDesc>
+                     <term>Chairperson</term> : chairman of a meeting</catDesc>
                </category>
                <category xml:id="regular">
                   <catDesc xml:lang="fi">
-                     <term>Tavallinen</term>
-                     : Tavallinen puhuja istunnossa 
-                  </catDesc>
+                     <term>Tavallinen</term> : Tavallinen puhuja istunnossa</catDesc>
                   <catDesc xml:lang="en">
-                     <term>Regular</term>
-                     : a regular speaker at a meeting
-                  </catDesc>
+                     <term>Regular</term> : a regular speaker at a meeting</catDesc>
                </category>
                <category xml:id="guest">
                   <catDesc xml:lang="fi">
-                     <term>Vieras</term>
-                     : puhuja vieraana istunnossa
-                  </catDesc>
+                     <term>Vieras</term> : puhuja vieraana istunnossa</catDesc>
                   <catDesc xml:lang="en">
-                     <term>Guest</term>
-                     : a guest speaker at a meeting
-                  </catDesc>
+                     <term>Guest</term> : a guest speaker at a meeting</catDesc>
                </category>
             </taxonomy>
             <taxonomy xml:id="subcorpus">
@@ -431,23 +412,15 @@
                </desc>
                <category xml:id="reference">
                   <catDesc xml:lang="fi">
-                     <term>Viite</term>
-                     : viitekorpus, 2019-10-31 asti
-                  </catDesc>
+                     <term>Viite</term> : viitekorpus, 2019-10-31 asti</catDesc>
                   <catDesc xml:lang="en">
-                     <term>Reference</term>
-                     : reference subcorpus, until 2019-10-31
-                  </catDesc>
+                     <term>Reference</term> : reference subcorpus, until 2019-10-31</catDesc>
                </category>
                <category xml:id="covid">
                   <catDesc xml:lang="fi">
-                     <term>COVID</term>
-                     : COVID osakorpus, 2019-11-01 alkaen
-                  </catDesc>
+                     <term>COVID</term> : COVID osakorpus, 2019-11-01 alkaen</catDesc>
                   <catDesc xml:lang="en">
-                     <term>COVID</term>
-                     : COVID subcorpus, from 2019-11-01 onwards
-                  </catDesc>
+                     <term>COVID</term> : COVID subcorpus, from 2019-11-01 onwards</catDesc>
                </category>
             </taxonomy>
          </classDecl>
@@ -474,8 +447,8 @@
                   <event from="1959-02-09" to="2003-08-12">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_Maaseudun_Puolue</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Finnish_Rural_Party</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_Maaseudun_Puolue</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Finnish_Rural_Party</idno>
                </org>
                <org role="politicalParty" xml:id="party.KP">
                   <orgName full="yes" xml:lang="fi">Suomen Kansanpuolue</orgName>
@@ -484,8 +457,8 @@
                   <event from="1951-02-03" to="1965">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_Kansanpuolue</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/People%27s_Party_of_Finland_(1951)</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_Kansanpuolue</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/People%27s_Party_of_Finland_(1951)</idno>
                </org>
                <org role="government" xml:id="GOV">
                   <orgName full="yes" xml:lang="fi">Suomen valtioneuvosto</orgName>
@@ -493,8 +466,8 @@
                   <event from="1917-11-27">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_valtioneuvosto</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Finnish_Government</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_valtioneuvosto</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Finnish_Government</idno>
                   <listEvent>
                      <event from="2014-06-24" to="2015-05-29" xml:id="GOV.73">
                         <label xml:lang="fi">Suomen 73. hallitus (24.6.2014 - 29.5.2015)</label>
@@ -522,8 +495,8 @@
                   <event from="1907-05-23">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno type="wikimedia" xml:lang="fi">https://fi.wikipedia.org/wiki/Eduskunta</idno>
-                  <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Parliament_of_Finland</idno>
+                  <idno type="wikimedia">https://fi.wikipedia.org/wiki/Eduskunta</idno>
+                  <idno type="wikimedia">https://en.wikipedia.org/wiki/Parliament_of_Finland</idno>
                   <listEvent>
                      <head xml:lang="fi">Valtiopäivät</head>
                      <head xml:lang="en">Legislative session</head>
@@ -564,8 +537,8 @@
                   <event from="2020-06-05" to="2020-06-09">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
                </org>
                <org role="parliamentaryGroup" xml:id="party.EJUV">
                   <orgName full="yes" xml:lang="fi">Edustaja Juvonen</orgName>
@@ -582,8 +555,8 @@
                   <event from="2018-12-06" to="2018-06-17">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Paavo_V%C3%A4yrynen</idno>
                </org>
                <org role="politicalParty" xml:id="party.VKK">
                   <orgName full="yes" xml:lang="fi">Valta kuuluu kansalle</orgName>
@@ -592,8 +565,8 @@
                   <event from="2021-06-11">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Valta_kuuluu_kansalle</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Power_Belongs_to_the_People</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Valta_kuuluu_kansalle</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Power_Belongs_to_the_People</idno>
                </org>
                <org role="politicalParty" xml:id="party.TL">
                   <orgName full="yes" xml:lang="fi">Seitsemän tähden liike</orgName>
@@ -602,8 +575,8 @@
                   <event from="2018-06-28">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Seitsem%C3%A4n_t%C3%A4hden_liike</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Seven_Star_Movement</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Seitsem%C3%A4n_t%C3%A4hden_liike</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Seven_Star_Movement</idno>
                </org>
                <org role="politicalParty" xml:id="party.LIIK">
                   <orgName full="yes" xml:lang="fi">Liike Nyt</orgName>
@@ -612,8 +585,8 @@
                   <event from="2018-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Liike_Nyt</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Movement_Now</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Liike_Nyt</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Movement_Now</idno>
                </org>
                <org role="politicalParty" xml:id="party.SIN">
                   <orgName full="yes" xml:lang="fi">Sininen tulevaisuus</orgName>
@@ -625,8 +598,8 @@
                   <event from="2022-04-12">
                      <label xml:lang="en">Changed Finnish name to: Korjausliike</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Korjausliike</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Blue_Reform</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Korjausliike</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Blue_Reform</idno>
                </org>
                <org role="politicalParty" xml:id="party.VAS">
                   <orgName full="yes" xml:lang="fi">Vasemmistoliitto</orgName>
@@ -635,8 +608,8 @@
                   <event from="1990-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Vasemmistoliitto</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Left_Alliance_(Finland)</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Vasemmistoliitto</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Left_Alliance_(Finland)</idno>
                </org>
                <org role="politicalParty" xml:id="party.VIHR">
                   <orgName full="yes" xml:lang="fi">Vihreä liitto</orgName>
@@ -645,8 +618,8 @@
                   <event from="1987-02-28">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Vihre%C3%A4_liitto</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Green_League</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Vihre%C3%A4_liitto</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Green_League</idno>
                </org>
                <org role="politicalParty" xml:id="party.RKP">
                   <orgName full="yes" xml:lang="fi">Suomen ruotsalainen kansanpuolue</orgName>
@@ -655,8 +628,8 @@
                   <event from="1906-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_ruotsalainen_kansanpuolue</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Swedish_People%27s_Party_of_Finland)</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_ruotsalainen_kansanpuolue</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Swedish_People%27s_Party_of_Finland)</idno>
                </org>
                <org role="politicalParty" xml:id="party.KD">
                   <orgName full="yes" xml:lang="fi">Suomen Kristillisdemokraatit</orgName>
@@ -665,8 +638,8 @@
                   <event from="1958-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_Kristillisdemokraatit</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Christian_Democrats_(Finland)</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_Kristillisdemokraatit</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Christian_Democrats_(Finland)</idno>
                </org>
                <org role="politicalParty" xml:id="party.SDP">
                   <orgName full="yes" xml:lang="fi">Suomen Sosialidemokraattinen Puolue</orgName>
@@ -675,8 +648,8 @@
                   <event from="1899-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_Sosialidemokraattinen_Puolue</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Finland</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_Sosialidemokraattinen_Puolue</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Finland</idno>
                </org>
                <org role="politicalParty" xml:id="party.PS">
                   <orgName full="yes" xml:lang="fi">Perussuomalaiset</orgName>
@@ -685,8 +658,8 @@
                   <event from="1995-05-11">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Perussuomalaiset</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Finns_Party</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Perussuomalaiset</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Finns_Party</idno>
                </org>
                <org role="politicalParty" xml:id="party.KESK">
                   <orgName full="yes" xml:lang="fi">Suomen Keskusta</orgName>
@@ -695,8 +668,8 @@
                   <event from="1906-01-01">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Suomen_Keskusta</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/Centre_Party_(Finland)</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Suomen_Keskusta</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Centre_Party_(Finland)</idno>
                </org>
                <org role="politicalParty" xml:id="party.KOK">
                   <orgName full="yes" xml:lang="fi">Kansallinen kokoomus</orgName>
@@ -705,8 +678,8 @@
                   <event from="1918-12-09">
                      <label xml:lang="en">existence</label>
                   </event>
-                  <idno subtype="wikimedia" type="URI" xml:lang="fi">https://fi.wikipedia.org/wiki/Kansallinen_Kokoomus</idno>
-                  <idno subtype="wikimedia" type="URI" xml:lang="en">https://en.wikipedia.org/wiki/National_Coalition_Party</idno>
+                  <idno type="URI" subtype="wikimedia">https://fi.wikipedia.org/wiki/Kansallinen_Kokoomus</idno>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/National_Coalition_Party</idno>
                </org>
                <listRelation>
                   <relation ana="#GOV.73"

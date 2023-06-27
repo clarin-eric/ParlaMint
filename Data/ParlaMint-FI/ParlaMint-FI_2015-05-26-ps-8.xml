@@ -26,14 +26,14 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-<extent><measure unit="speeches" quantity="123" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="123" xml:lang="en">speeches</measure><measure unit="words" quantity="9366" xml:lang="fi">sanat</measure><measure unit="words" quantity="9366" xml:lang="en">words</measure></extent>
+<extent><measure unit="speeches" quantity="50" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="50" xml:lang="en">speeches</measure><measure unit="words" quantity="9366" xml:lang="fi">sanat</measure><measure unit="words" quantity="9366" xml:lang="en">words</measure></extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/XXXX</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
@@ -41,28 +41,30 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-05-31">May 31, 2023</date>
+            <date when="2023-06-27">2023-06-27</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the plenary session 8/2015 of the Finnish Parliament</title>
                <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 8/2015 pöytäkirja</title>
-               <idno type="URI">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_8+2015.aspx</idno>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_8+2015.aspx</idno>
                <date when="2015-05-26">26.05.2015</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="fi">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-               -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.
-            </p>
             <p xml:lang="en">
-               The 
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                 project aims to (1) create a multilingual set of uniformly encoded comparable corpora of parliamentary proceedings (2) process the corpora linguistically; (3) make the corpora available for download and through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -106,7 +108,7 @@
             </u>
          </div>
          <div type="debateSection">
-            <head>Hallituksen esitys eduskunnalle laeiksi eräiden maistraatin toimivallan määräytymistä koskevien säännösten muuttamisesta</head>
+            <head>Hallituksen esitys eduskunnalle laeiksi eräiden  maistraatin  toimivallan  määräytymistä koskevien säännösten muuttamisesta</head>
             <note type="relatedDocument">Hallituksen esitys HE 6/2015 vp</note>
             <pb n="1"
                 source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_8+2015+3.aspx"/>
@@ -171,9 +173,13 @@
                who="#MarkkuRossi"
                xml:id="ParlaMint-FI_2015-05-26-ps-8.u8">
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg29">Arvoisa herra puhemies! Edustaja Meri otti puheenvuorossaan esille erittäin tärkeän tietohallintoasian, ja hän mainitsi tämän Ritu-ohjelman. Vastaavanlaisia onnettomia järjestelmiä on kehitetty aika paljon. Yksi sellainen on muun muassa Salama, joka on omalta osaltaan ollut etanan vauhdilla tukkimassa monia järjestelmiä. Siksi onkin ihan syytä oikeasti miettiä, ovatko valtion tietohallinto ja nämä järjestelmät ihan sillä tasolla, millä niiden tulisi olla.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg30">Ja jos ajatellaan tulevaisuutta, kun nimenomaan tältä ict-sektorilta on ajateltu, että saadaan myös suuria säästöjä, niin nyt on kyllä varmaan paikallaan pohtia, pitäisikö meidän jopa jäädyttää tällä hetkellä toteutettavia menoja, investointeja, hankintoja, ohjelmahankintoja, jos ne eivät ole tehtäviensä tasolla elikkä aikaansaa sitä palvelua, mikä niiden tulisi todellisuudessa tehdä. Nyt monella hallinnonalalla on tapahtunut noita vastaavankaltaisia ongelmia, joissa on syntynyt tukoksia <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg30">
+                  Ja jos ajatellaan tulevaisuutta, kun nimenomaan tältä ict-sektorilta on ajateltu, että saadaan myös suuria säästöjä, niin nyt on kyllä varmaan paikallaan pohtia, pitäisikö meidän jopa jäädyttää tällä hetkellä toteutettavia menoja, investointeja, hankintoja, ohjelmahankintoja, jos ne eivät ole tehtäviensä tasolla elikkä aikaansaa sitä palvelua, mikä niiden tulisi todellisuudessa tehdä. Nyt monella hallinnonalalla on tapahtunut noita vastaavankaltaisia ongelmia, joissa on syntynyt tukoksia 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> ja asiat ovat jääneet jumiin, ja tässä mielessä kyllä tähän on syytä kiinnittää todella huomiota.</seg>
+                  </kinesic>
+                  ja asiat ovat jääneet jumiin, ja tässä mielessä kyllä tähän on syytä kiinnittää todella huomiota.
+               </seg>
             </u>
             <u ana="#chair"
                who="#BenZyskowicz"
@@ -211,14 +217,16 @@
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg48">Vaikka viime hallituskauden alussa tehtiin myönteisiä päätöksiä, kuten perusturvan tasokorotus ja puolison tulojen vaikutuksen poistaminen työmarkkinatuen osalta, päätti hallitus kehysriihessään vuoden 2014 alussa leikata indeksikorotukset perusturvaan ja eläkkeisiin. Tämä leikkaus heikensi siten jo valmiiksi pienituloisten opiskelijoiden, työttömien ja eläkeläisten taloudellista asemaa. Sen lisäksi, että tämä päätös heikensi pienituloisten ostovoimaa, oli se ilmiselvästi ristiriidassa köyhyyden, eriarvoisuuden ja syrjäytymisen ehkäisemisen kanssa. Euroopan sosiaalisten oikeuksien komitea ilmoittikin helmikuussa käsiteltyään aiheeseen liittyvän kantelun, että sosiaaliturvaetuuksien vähimmäistaso Suomessa on riittämätön. Samaan lopputulokseen tuli Terveyden ja hyvinvoinnin laitos vuoden alussa julkaistussa omassa perusturvan riittävyyttä koskevassa arvioinnissaan. Sen mukaan perusturva Suomessa on edelleen riittämätön suhteessa kohtuulliseen minimikulutukseen.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg49">Julkisen talouden vakauttamisen osalta vuosikertomus puhuu puolestaan: niin alijäämä, työttömyys kuin velkaantuminen jatkoivat kasvuaan.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg50">Kestävän talouskasvun ja parantuneen työllisyyden sijaan supistui kokonaistuotanto vuonna 2014, kun hallituksen talousarvioesityksessä syksyllä 2013 vielä arvioitiin sen kasvavan 1,2 prosenttia. Niin yksityinen, kotimainen kuin ulkomainen kysyntä supistui.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg51">Arvoisa puhemies! Vuoden 2014 hallituksen vuosikertomuksesta käy hyvin ilmi, kuinka silloista talouspoliittista linjaa on vaivannut ennen kaikkea kaksi asiaa: toistuvat liian optimistiset arviot talouskasvun ja taloustilanteen kehityksestä sekä suhdannepolitiikan puute ja sopeutuksen jatkaminen taloustilanteen jatkuvasta heikentymisestä huolimatta. <vocal type="interruption">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg51">Arvoisa puhemies! Vuoden 2014 hallituksen vuosikertomuksesta käy hyvin ilmi, kuinka silloista talouspoliittista linjaa on vaivannut ennen kaikkea kaksi asiaa: toistuvat liian optimistiset arviot talouskasvun ja taloustilanteen kehityksestä sekä suhdannepolitiikan puute ja sopeutuksen jatkaminen taloustilanteen jatkuvasta heikentymisestä huolimatta. 
+       <vocal type="interruption">
                      <desc>Olavi Ala-Nissilä: Mikä on edustajan vaihtoehto?</desc>
                   </vocal>
                </seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg53">Siitä huolimatta, että mitään talouspolitiikalle asetetuista tavoitteista ei ole saavutettu, perustellaan lisäsopeutusta ja veronkevennyksiä yleensä sillä, ettei ole sopeutettu ja kevennetty veroja tarpeeksi. Mutta kuinka pitkään oikein tulisi odottaa ennen kuin voi vaatia edes jotain luvatuista tuloksista? Kuinka paljon hyvinvointipalvelujen rahoituspohjaa pitää heikentää mahdollisesti ehkä joskus syntyviä dynaamisia vaikutuksia odotellessa?</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg54">Muun muassa talouspolitiikan arviointineuvosto totesi vuoden alussa julkaistussa raportissaan, että finanssipolitiikan kiristys vuodelle 2015 oli suhdannetilanteeseen nähden huomattavan suuri, ja lisäsi vielä omana suosituksenaan kehotuksen välttää talouspolitiikan lisäkiristämistä vallitsevassa suhdannetilanteessa, koska se todennäköisesti johtaisi työttömyyden kasvuun.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg55">Kuten hallituksen vuoden 2014 vuosikertomuksessa kerrotaan, supistuivat niin yksityinen kulutus, yksityiset investoinnit kuin rakennus- ja laiteinvestoinnit. Ilman julkista kysyntää, joka viime vuonna lisääntyi, olisimme todennäköisesti vielä syvemmissä taloudellisissa ongelmissa.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg56">Arvoisa puhemies! Nämä ovat muutamia tosiasioita, jotka pitää ottaa huomioon, kun talouden tilannekuvasta puhutaan. Ehkä heikot tulokset johtuvatkin siitä, että tilannekuva on väärä. <vocal type="interruption">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg56">Arvoisa puhemies! Nämä ovat muutamia tosiasioita, jotka pitää ottaa huomioon, kun talouden tilannekuvasta puhutaan. Ehkä heikot tulokset johtuvatkin siitä, että tilannekuva on väärä. 
+	       <vocal type="interruption">
                      <desc>Olavi Ala-Nissilä: Lisää velkaa!</desc>
                   </vocal>
                </seg>
@@ -294,9 +302,13 @@
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg95">Arvoisa puhemies! Edustaja Heinonen tässä halusi esittää hallitukselle kiitosta; nyt täytyy esittää sitten hieman kritiikkiä. Edustaja Saarakkala erinomaisesti toi esille niitä asioita, mitkä liittyvät nyt Suomen kasvaneeseen valtionvelkaan ja taloustilanteeseen, ja mitä keinoja vaaditaan.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg96">Tästä sanotaanko varsin tuhdista vuosikertomuksesta haluan erityisesti ottaa esille tosiaan tämän valtionvelan. Sivulla 71 on se kaikkein tärkein kuvio, jos ajattelee tavallista suomalaista, sanotaanko perussuomalaista. Täällä näkyy, että valtionvelka vuoden 2014 lopussa oli noin 95 miljardia euroa, joka on 47 prosenttia bruttokansantuotteesta, ja lisäystä edelliseen vuoteen oli lähes 5,5 miljardia euroa.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg97">Kun tätä kuviota katsoo, näkee sokea Reettakin, että huonoon suuntaan ollaan menossa, sellaiseen suuntaan, jossa, niin kuin edustaja Saarakkala sanoi, Kreikan tie odottaa. Tällä hetkellä Suomen talouskasvu on EU-maista samalla tasolla kuin on esimerkiksi Kreikalla ja Italialla. Meidän pitäisi ottaa mallia sellaisista maista kuin Iso-Britannia, jossa konservatiivihallitus juuri sai sanotaanko rökälevaalivoiton. Miksi se vaalivoitto tuli? Oltiin tehty kliseisesti sanottuna vastuullista talouspolitiikkaa, saatu sopeutettua valtion menoja, ja äänestäjät huomasivat sen, huomasivat, että työtä oli syntynyt, ja palkitsivat sen uudella viisivuotiskaudella. Viiden vuoden aikana Britanniassa syntyi enemmän työpaikkoja kuin muissa EU-maissa yhteensä. Siinä on niitä maita, joista meidän pitää oppia ottaa.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg98">Kun katsotaan vielä sivua 72 tästä vuosikertomuksesta, niin voidaan nähdä, että neljän vuoden aikana Suomen valtionvelan nimellisarvo on kasvanut 20 miljardia euroa. Ei tällaisella tiellä voida missään tapauksessa jatkaa. Tulevan hallituksen täytyy tässä, kliseisesti sanottuna, kantaa vastuunsa, ja oli se kokoonpano mikä tahansa, lähteä taloutta rankallakin kädellä sopeuttamaan. Muuten minun sukupolveni <vocal type="interruption">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg98">
+                  Kun katsotaan vielä sivua 72 tästä vuosikertomuksesta, niin voidaan nähdä, että neljän vuoden aikana Suomen valtionvelan nimellisarvo on kasvanut 20 miljardia euroa. Ei tällaisella tiellä voida missään tapauksessa jatkaa. Tulevan hallituksen täytyy tässä, kliseisesti sanottuna, kantaa vastuunsa, ja oli se kokoonpano mikä tahansa, lähteä taloutta rankallakin kädellä sopeuttamaan. Muuten minun sukupolveni 
+                  <vocal type="interruption">
                      <desc>Puhemies: 2 minuuttia!</desc>
-                  </vocal> ja minun lapseni maksavat sen laskun, arvoisa puhemies, mikä tästä tulee.</seg>
+                  </vocal>
+                  ja minun lapseni maksavat sen laskun, arvoisa puhemies, mikä tästä tulee.
+               </seg>
             </u>
             <u ana="#regular"
                who="#IlkkaKantola"
@@ -418,11 +430,17 @@
                who="#VilleVähämäki"
                xml:id="ParlaMint-FI_2015-05-26-ps-8.u38">
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg147">Puhemies! Niin, kyllähän se on yleisesti tiedossa, että valtiontaloutta tulee hoitaa toisella tavalla kuin kotitalouksia tai sitten puolueiden talouksia. Mutta itse asiassa valtioiden tulisikin joka vuosi velkaantua hiukan lisää, ja se optimaalinen velanottoaste on noin puolet bkt:n kasvusta. Tämähän itse asiassa kääntää laskuun tämän velka—bkt-suhteen. Eli siis toisin sanoen: jos Suomi pääsee sille talouskasvun tielle, jossa bkt lähtee nousemaan, niin me tiedämme sen optimaalisen velanottoasteen myöskin silloin. Mutta nyt ongelma on vain siinä, että jos me elvytämme liiaksi, niin kuin vaikka silloin vuonna 2008 kävi — mehän elvytimme kansantaloutena noin puolet liikaa kuin meidän olisi oikeasti pitänyt elvyttää — niin silloin me velkaannumme kansantaloutena liikaa emmekä saa sitä elvytyshyötyä niinkään kansantalouteen, vaan lähinnä vain meidän tuotantopotentiaali kasvaa.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg148">Tässä on itse asiassa tosi hyvää keskustelua ollut sekä vasemmistoliitolta että myöskin muualta siitä, mitkä nämä Suomen kansantalouden pahimmat ongelmat ovat. Omasta mielestäni meidän pahin ongelma on se, että meillä työn tuottavuus on vuodesta 2008 lähtien pysynyt samalla tasolla, kun se kasvoi 1980-luvun alkupuolesta tasaisesti vuoteen 2008 asti. Nyt itse asiassa, jos vielä katsotaan niitä työtunteja, mitä yhteiskuntaan on tehty, ne ovat pysyneet aika lailla samalla tasolla 1980-luvun alusta lähtien poislukien tietenkin 90-luvun alun lama, <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg148">
+                  Tässä on itse asiassa tosi hyvää keskustelua ollut sekä vasemmistoliitolta että myöskin muualta siitä, mitkä nämä Suomen kansantalouden pahimmat ongelmat ovat. Omasta mielestäni meidän pahin ongelma on se, että meillä työn tuottavuus on vuodesta 2008 lähtien pysynyt samalla tasolla, kun se kasvoi 1980-luvun alkupuolesta tasaisesti vuoteen 2008 asti. Nyt itse asiassa, jos vielä katsotaan niitä työtunteja, mitä yhteiskuntaan on tehty, ne ovat pysyneet aika lailla samalla tasolla 1980-luvun alusta lähtien poislukien tietenkin 90-luvun alun lama, 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> jolloin työtunnit tipahtivat huomattavasti. Mutta mielestäni työn tuottavuus on se Suomen pahin ongelma, <vocal type="interruption">
+                  </kinesic>
+                   jolloin työtunnit tipahtivat huomattavasti. Mutta mielestäni työn tuottavuus on se Suomen pahin ongelma, 
+                  <vocal type="interruption">
                      <desc>Puhemies: 2 minuuttia!</desc>
-                  </vocal> ja tähän, puhemies, onneksi meidän uusi hallitus on ottanut hyvän linjan. — Kiitos.</seg>
+                  </vocal>
+                  ja tähän, puhemies, onneksi meidän uusi hallitus on ottanut hyvän linjan. — Kiitos.
+               </seg>
             </u>
             <u ana="#regular"
                who="#LiAndersson"
@@ -437,9 +455,13 @@
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg152">Arvoisa puhemies! Mielenkiintoista keskustelua on tässä käyty hallituksen vuosikertomuksen yhteydessä edelliseltä vuodelta.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg153">Tässä nostaisin esille, kun tässä nyt kerran vaaleistakin käytiin keskustelua, että minkälaiset vaaliohjelmat milläkin puolueella on ollut, ja kun tässä syytettiin, että vasemmistoliitto on halunnut työllisyyttä parantaa elvyttämällä ja että se ei ole oikea tie eikä oikea linja joidenkin mielestä: Meidän puolueemme on nähnyt tässä, mihin leikkaukset ovat johtaneet. Ostovoima on supistunut, työllisyysluvut ovat karmeaa luettavaa, massatyöttömyys uhkaa. Meidän mielestämme meidän tärkein tehtävämme on turvata riittävät peruspalvelut kaikille ja myös se, että olisi perusturva riittävällä tasolla. Sen takia nämä leikkauslistat eivät kuuluneet, ihan oikein, meidän vaaliohjelmaamme.</seg>
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg154">Mutta sen sijaan kysyisin perussuomalaisten edustajilta, kun tehän lupasitte äänestäjillenne, että autovero poistetaan. Onko näin, että Suomella tosiaan on varaa tällaisiin verohelpotuksiin tässä taloudellisessa tilanteessa? Ja entäs valtionosuuksien leikkaukset, jotka kohdistuvat suoraan kuntiin ja kuntatalouteen? Kunnat joutuvat sitten sopeuttamaan ja nostamaan niin sanottua kunnallisveroaan, joka on tasavero, ja sitä kautta sitten leikkaamaan peruspalveluista. Vanhuspalveluista tullaan todennäköisesti leikkaamaan, jos esimerkiksi henkilöstömitoituksista lähdetään tinkimään. Miten käy meidän peruskoulujärjestelmän, opetuksen laadun ja sisällön? Näihin vastauksia saamme todennäköisesti huomisissa, mutta myös teillä oli tällaisia suuria lupauksia äänestäjillenne, että verotusta tältä osin kevennettäisiin.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg155">Lisäksi sitten tämä varallisuusvero: Täällä on paljon puhuttu tällaisista talkoista, että nyt vaaditaan kaikilta tällaista kriisitietoisuutta ja että myös pienituloiset pistetään kyykkyyn, kun indeksit jäädytetään. Mutta entäs suurituloiset, ovatko he tulossa vastaan? Kiristetäänkö suurituloisten verotusta, palautetaanko varallisuusvero? Saapa nähdä. Perussuomalaiset ainakin ovat kovasti kentällä huutaneet, että <kinesic type="signal">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg155">
+                  Lisäksi sitten tämä varallisuusvero: Täällä on paljon puhuttu tällaisista talkoista, että nyt vaaditaan kaikilta tällaista kriisitietoisuutta ja että myös pienituloiset pistetään kyykkyyn, kun indeksit jäädytetään. Mutta entäs suurituloiset, ovatko he tulossa vastaan? Kiristetäänkö suurituloisten verotusta, palautetaanko varallisuusvero? Saapa nähdä. Perussuomalaiset ainakin ovat kovasti kentällä huutaneet, että 
+                  <kinesic type="signal">
                      <desc>Puhemies koputtaa</desc>
-                  </kinesic> me tarvitsemme varallisuusveron takaisin.</seg>
+                  </kinesic>
+                  me tarvitsemme varallisuusveron takaisin.
+               </seg>
             </u>
             <u ana="#regular"
                who="#OzanYanar"
@@ -484,13 +506,17 @@
                who="#VesaMattiSaarakkala"
                xml:id="ParlaMint-FI_2015-05-26-ps-8.u47">
                <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg171">Arvoisa herra puhemies! Edustaja Räsänen peräänkuulutti linjan pitävyyttä suhteessa edelliseen vaalikauteen. Edustaja Räsäselle tiedoksi, että teidän puolueen johdolla on tosiaan solmittu tämä talouskurisopimus tässä viime vaalikaudella. Nyt jos olette seurannut tosiaan mediaa, niin sieltä on nyt ilmoitettu, että Suomen tuleva hallitus joutuu ne sotkut, mitä teidän puolueen hallituksessaoloaikana on syntynyt, nyt siivoamaan. Tällainen pieni tapahtuma tässä on nyt tämän toimivallan siirron seurauksena tullut, jonka teidän puolueenne on hoitanut eteenpäin, ja siitä kyllä seuraa tietty vastuu aivan riippumatta siitä, mitä mieltä viime vaalikaudella on ollut, pitää kiinni niistä kansainvälisistä sopimuksista, mitä Suomi on tältä osin solminut, jotka ovat aivan olennaisia.</seg>
-               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg172">Pelkään kyllä, että tämä EKP:n mandaatin muuttaminen vasemmistoliiton ehdottamalla ja esittämällä tavalla olisi se lopullinen moraalikadon tie, että nyt olisi niin kuin piikki auki sitten maille, sillä lailla että suoraan maitten omia velkakirjoja ostettaisiin tuosta, että me voisimme laskea niitä liikkeelle. En kyllä pidä sitä hyvänä. Se on eri asia, jos olisi oma itsenäinen rahapolitiikka. Silloin siinä olisi se demokraattinen ohjaus. <vocal type="interruption">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg172">
+                  Pelkään kyllä, että tämä EKP:n mandaatin muuttaminen vasemmistoliiton ehdottamalla ja esittämällä tavalla olisi se lopullinen moraalikadon tie, että nyt olisi niin kuin piikki auki sitten maille, sillä lailla että suoraan maitten omia velkakirjoja ostettaisiin tuosta, että me voisimme laskea niitä liikkeelle. En kyllä pidä sitä hyvänä. Se on eri asia, jos olisi oma itsenäinen rahapolitiikka. Silloin siinä olisi se demokraattinen ohjaus. 
+                  <vocal type="interruption">
                      <desc>Välihuuto</desc>
-                  </vocal> Silloin on demokraattinen ohjaus ja kansa pääsee rankaisemaan, jos politiikka on huonoa, mutta tästä eurotasolla tapahtuvasta moraalikadosta ei päästä edes rankaisemaan. Mutta tosin jonkun sortin rangaistushan tässä on sinänsä ollut tämä, että vasemmistoliiton kannatus ei kyllä viime vaaleissa tälle teidän linjallenne ollut kovin kaksinen, niin että onneksi meillä on sellainen asia kuin kansanvalta vielä.</seg>
+                  </vocal>
+                  Silloin on demokraattinen ohjaus ja kansa pääsee rankaisemaan, jos politiikka on huonoa, mutta tästä eurotasolla tapahtuvasta moraalikadosta ei päästä edes rankaisemaan. Mutta tosin jonkun sortin rangaistushan tässä on sinänsä ollut tämä, että vasemmistoliiton kannatus ei kyllä viime vaaleissa tälle teidän linjallenne ollut kovin kaksinen, niin että onneksi meillä on sellainen asia kuin kansanvalta vielä.
+               </seg>
             </u>
          </div>
          <div type="debateSection">
-            <head>Valtiontalouden tarkastusviraston kertomus eduskunnalle puoluerahoituksen valvonnasta 2014</head>
+            <head>Valtiontalouden tarkastusviraston kertomus  eduskunnalle   puoluerahoituksen valvonnasta 2014</head>
             <note type="relatedDocument">Kertomus K 4/2015 vp</note>
             <pb n="1"
                 source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_8+2015+5.aspx"/>
@@ -513,7 +539,7 @@
             </u>
          </div>
          <div type="debateSection">
-            <head>Hallituksen esitys eduskunnalle laeiksi luottolaitosten ja sijoituspalveluyritysten kriisinratkaisusta annetun lain 8 luvun muuttamisesta, sijoituspalvelulain 6 luvun 2 §:n muuttamisesta sekä rahoitusvakausviranomaisesta annetun lain 5 luvun muuttamisesta</head>
+            <head>Hallituksen esitys eduskunnalle laeiksi luottolaitosten ja sijoituspalveluyritysten kriisinratkaisusta annetun lain 8 luvun muuttamisesta,  sijoituspalvelulain 6 luvun 2 §:n muuttamisesta sekä rahoitusvakausviranomaisesta annetun lain 5 luvun muuttamisesta</head>
             <note type="relatedDocument">Hallituksen esitys HE 1/2015 vp</note>
             <note type="relatedDocument">Valiokunnan mietintö TaVM 1/2015 vp</note>
             <pb n="1"
