@@ -27,6 +27,12 @@ samples:
 	grep -a -i warn  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	done;
 
+# Make vertical files only
+make-verts:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.vert.log; \
+	done;
+	make verts
 
 ############### Makefile for making a distributable version of the ParlaMint corpora #################
 
@@ -43,8 +49,8 @@ cp-samples:
 ### VARIABLES
 # Which corpora to process, takes cca 1 day per corpus, depending on the size
 # DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# CORPORA = LV ES-CT UA # done for for MT
-CORPORA = AT BA BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# CORPORA = AT BA BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA # for MT
+CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # All submitted corpora
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
@@ -119,9 +125,13 @@ final:
 ###### Targets for producing MTed corpora
 ###### Input are a) original TEI.ana corpus, b) CoNLL-U of speech translations and c) list of translated notes
 
-### Make joint vert for all ParlaMint corpora - Still neet to think aout this!
+### Make joint vert for all ParlaMint corpora - Still neet to think about this!
 all-verts:
-	perl ../Scripts/join-all-verts.pl -in 'Corpora/ParlaMint-B*.vert/*/*.vert' -out Verts/ParlaMint-XX.3.0.vert.gz
+	perl ../Scripts/join-all-verts.pl -codes 'AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS' \
+	-in 'Master' -out Verts/ParlaMint-XX.3.0.vert
+	perl ../Scripts/join-all-verts.pl -en -codes 'BA ES-CT' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
+	zcat Verts/ParlaMint-XX.3.0.vert.gz | grep -c '</s>' 
+	zcat Verts/ParlaMint-XX-en.3.0.vert.gz | grep -c '</s>' 
 
 ### Make MTed corpora
 

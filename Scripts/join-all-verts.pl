@@ -56,7 +56,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 }
 open(OUT, '>:utf8', $outFile) or die "FATAL: Can't open $outFile!\n";
 $oldYear = '0';
-foreach $key (sort keys %files) {
+# Sorting in reverse order!
+foreach $key (reverse sort keys %files) {
     ($year, $countryCode) = $key =~ /(\d\d\d\d).*_(.+)/;
     $inFile = $files{$key};
     if ($oldYear != $year) {
@@ -74,5 +75,6 @@ foreach $key (sort keys %files) {
     close IN;
 }
 close OUT;
-print STDERR "\n";
+print STDERR "INFO: Compressing $outFile\n";
+`rm -f $outFile.gz`;
 `gzip $outFile`;
