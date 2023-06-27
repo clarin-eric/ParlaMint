@@ -7,27 +7,12 @@
             <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 to parliamentary session 2021</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat valtiopäivistä 2015 valtiopäiviin 2021</title>
-            <meeting ana="#parla.uni #parla.term #parl_session.2015 #GOV.73 #GOV.74"
-                     corresp="#fi_parliament"
-                     n="114">Valtiopäivät 2015</meeting>
-            <meeting ana="#parla.uni #parla.term #parl_session.2016 #GOV.74"
-                     corresp="#fi_parliament"
-                     n="115">Valtiopäivät 2016</meeting>
-            <meeting ana="#parla.uni #parla.term #parl_session.2017 #GOV.74"
-                     corresp="#fi_parliament"
-                     n="116">Valtiopäivät 2017</meeting>
-            <meeting ana="#parla.uni #parla.term #parl_session.2018 #GOV.74"
-                     corresp="#fi_parliament"
-                     n="117">Valtiopäivät 2018</meeting>
-            <meeting ana="#parla.uni #parla.term #parl_session.2019 #GOV.74 #GOV.75 #GOV.76"
-                     corresp="#fi_parliament"
-                     n="118">Valtiopäivät 2019</meeting>
-            <meeting ana="#parla.uni #parla.term #parl_session.2020 #GOV.76"
-                     corresp="#fi_parliament"
-                     n="119">Valtiopäivät 2020</meeting>
-            <meeting ana="#parla.uni #parla.term #parl_session.2021 #GOV.76"
-                     corresp="#fi_parliament"
-                     n="120">Valtiopäivät 2021</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2015"
+                     n="2015"
+                     corresp="#fi_parliament">2015</meeting>
+            <meeting ana="#parla.term #parla.uni #parl_term.2019"
+                     n="2019"
+                     corresp="#fi_parliament">2019</meeting>
             <respStmt>
                <persName>Laura Sinikallio</persName>
                <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
@@ -498,35 +483,15 @@
                   <idno type="wikimedia">https://fi.wikipedia.org/wiki/Eduskunta</idno>
                   <idno type="wikimedia">https://en.wikipedia.org/wiki/Parliament_of_Finland</idno>
                   <listEvent>
-                     <head xml:lang="fi">Valtiopäivät</head>
-                     <head xml:lang="en">Legislative session</head>
-                     <event from="2015-04-22" to="2016-02-01" xml:id="parl_session.2015">
-                        <label xml:lang="fi">Valtiopäivät 2015 (22.4.2015 - 1.2.2016)</label>
-                        <label xml:lang="en">Parliamentary session 2015 (22.4.2015 - 1.2.2016)</label>
+                     <head xml:lang="fi">Vaalikausi</head>
+                     <head xml:lang="en">Legislative period</head>
+                     <event from="2015-04-22" to="2019-04-16" xml:id="parl_term.2015">
+                        <label xml:lang="fi">Vaalikausi 2015 (22.4.2015 - 16.4.2019)</label>
+                        <label xml:lang="en">Legislative period 2015 (22.4.2015 - 16.4.2019)</label>
                      </event>
-                     <event from="2016-02-02" to="2017-01-31" xml:id="parl_session.2016">
-                        <label xml:lang="fi">Valtiopäivät 2016 (2.2.2016 - 31.1.2017)</label>
-                        <label xml:lang="en">Parliamentary session 2016 (2.2.2016 - 31.1.2017)</label>
-                     </event>
-                     <event from="2017-02-01" to="2018-02-04" xml:id="parl_session.2017">
-                        <label xml:lang="fi">Valtiopäivät 2017 (1.2.2017 - 4.2.2018)</label>
-                        <label xml:lang="en">Parliamentary session 2017 (1.2.2017 - 4.2.2018)</label>
-                     </event>
-                     <event from="2018-02-05" to="2019-04-16" xml:id="parl_session.2018">
-                        <label xml:lang="fi">Valtiopäivät 2018 (5.2.2018 - 16.4.2019)</label>
-                        <label xml:lang="en">Parliamentary session 2018 (5.2.2018 - 16.4.2019)</label>
-                     </event>
-                     <event from="2019-04-17" to="2020-02-03" xml:id="parl_session.2019">
-                        <label xml:lang="fi">Valtiopäivät 2019 (17.4.2019 - 3.2.2020)</label>
-                        <label xml:lang="en">Parliamentary session 2019 (17.4.2019 - 3.2.2020)</label>
-                     </event>
-                     <event from="2020-04-02" to="2021-02-01" xml:id="parl_session.2020">
-                        <label xml:lang="fi">Valtiopäivät 2020 (2.4.2020 - 1.2.2021)</label>
-                        <label xml:lang="en">Parliamentary session 2020 (2.4.2020 - 1.2.2021)</label>
-                     </event>
-                     <event from="2021-02-02" to="2022-01-31" xml:id="parl_session.2021">
-                        <label xml:lang="fi">Valtiopäivät 2021 (2.2.2021 - 31.1.2022)</label>
-                        <label xml:lang="en">Parliamentary session 2021 (2.2.2021 - 31.1.2022)</label>
+                     <event from="2019-04-17" to="2023-04-04" xml:id="parl_term.2019">
+                        <label xml:lang="fi">Vaalikausi 2019 (17.4.2019 - 4.4.2023)</label>
+                        <label xml:lang="en">Legislative period 2023 (17.4.2019 - 4.4.2023)</label>
                      </event>
                   </listEvent>
                </org>
