@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-RO_2015-10-12-id7569" xml:lang="ro" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ro">Corpus parlamentar român ParlaMint-RO, ședința Camerei Deputaților din 12 octombrie 2015 [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, October 12 2015 [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 12 octombrie 2015</title>
+        <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, October 12 2015</title>
+        <meeting corresp="#RoParl" ana="#parla.lower #parla.term" n="54">Legislatura LIV</meeting>
+        <meeting corresp="#RoParl" ana="#parla.lower #parla.session #parla.meeting.regular" n="2">Sesiunea ordinară 2</meeting>
+        <meeting corresp="#RoParl" ana="#parla.lower #parla.sitting" n="20151012">2015-10-12</meeting>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Definirea etapelor proiectului și elaborarea caietului de sarcini.</resp>
+          <resp xml:lang="en">Project set-up and methodology.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Colectare de date.</resp>
+          <resp xml:lang="en">Data retrieval.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <resp xml:lang="ro">Definirea etapelor de procesare.</resp>
+          <resp xml:lang="en">Defining data processing pipeline.</resp>
+          <resp xml:lang="ro">Implementarea procesului de procesare a datelor și codarea corpusului în format TEI.</resp>
+          <resp xml:lang="en">Data processing pipeline implementation, and encoding corpus in TEI format.</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="164" xml:lang="ro">164 discursuri</measure>
+        <measure unit="speeches" quantity="164" xml:lang="en">164 speeches</measure>
+        <measure unit="words" quantity="17408" xml:lang="ro">17408 cuvinte</measure>
+        <measure unit="words" quantity="17408" xml:lang="en">17408 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+        </availability>
+        <date when="2021-01-08">2021-01-08</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="en">Meeting minutes of the Romanian Parliament</title>
+          <title type="main" xml:lang="ro">Stenograme ale şedinţelor din Parlamentul României</title>
+          <idno type="URI">http://www.cdep.ro/pls/steno/steno2015.stenograma?ids=7569&amp;idl=1</idno>
+          <date when="2015-10-12">12.10.2015</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="ro">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="desc" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="gap" occurs="0"/>
+          <tagUsage gi="head" occurs="2"/>
+          <tagUsage gi="kinesic" occurs="0"/>
+          <tagUsage gi="note" occurs="202"/>
+          <tagUsage gi="seg" occurs="670"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="u" occurs="164"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="country" key="RO">Romania</name>
+          <name type="city">Bucharest</name>
+          <name type="place">Palace of the Parliament</name>
+          <date when="2015-10-12" ana="#parla.sitting">12.10.2015</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <head>ROMÂNIA CAMERA DEPUTAȚILOR</head>
+        <head type="session">Ședinta Camerei Deputaților din 12 octombrie 2015</head>
+        <note type="editorial">SUMAR</note>
+        <note type="summary">Informare privind distribuirea unor documente la casetele deputaţilor, potrivit prevederilor art.94 din Regulamentul Camerei Deputaţilor.</note>
+        <note type="summary">Dezbaterea Proiectului de Hotărâre privind vacantarea unui loc de deputat (ca urmare a demisiei domnului deputat Ghiveciu Marian) (PH CD 81/2015) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea art. 17 din Legea nr. 148/2000 privind publicitatea şi pentru modificarea Legii nr. 504/2002 a audiovizualului (Pl-x 450/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 189/2008 privind managementul instituţiilor publice de cultură, cu modificările şi completările ulterioare (Pl-x 35/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru completarea art. 34 din Legea serviciilor comunitare de utilităţi publice nr. 51/2006 (Pl-x 272/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind achiziţionarea de la persoanele fizice a deşeurilor metalice feroase şi neferoase ce provin din sectorul de îmbunătăţiri funciare (Pl-x 499/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea Legii 46/2008 - Codul silvic (Pl-x 378/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Proiectului de Lege pentru completarea art. 17 alin. (2) din Legea nr. 46/2008 privind Codul silvic (PL-x 585/2014) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea Ordonanţei de urgenţă a Guvernului nr. 57 din 20 iunie 2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei şi faunei sălbatice (Pl-x 62/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind transmiterea, cu titlu gratuit, a unor imobile din proprietatea Autorităţii Naţionale pentru Administrare şi Reglementare în Comunicaţii în domeniul public al unor unităţi administrativ-teritoriale (Pl-x 379/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea Legii societăţilor nr. 31/1990 (Pl-x 371/2014);- Propunerii legislative pentru modificarea şi completarea art. 11 din Legea nr. 31 din 16 noiembrie 1990 privind societăţile comerciale (Pl-x 542/2014) (rămase pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea art. 179 din Legea nr. 263/2010 privind sistemul unitar de pensii publice (Pl-x 591/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea alin. (1) al art. 35 din Legea nr. 53/2003 - Codul muncii (Pl-x 33/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea Ordonanţei de urgenţă nr. 103 din 14 noiembrie 2013 privind salarizarea personalului plătit din fonduri publice în anul 2014, precum şi alte măsuri în domeniul cheltuielilor publice (Pl-x 111/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru introducerea disciplinei "Istoria Totalitarismului în România" în ciclul superior al liceului (Pl-x 525/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea Capitolului IV din Legea nr. 329/2009 privind reorganizarea unor autorităţi şi instituţii publice, raţionalizarea cheltuielilor publice, susţinerea mediului de afaceri şi respectarea acordurilor-cadru cu Comisia Europeană şi Fondul Monetar Internaţional (Pl-x 47/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind modificarea alin. (11) al art. III din Legea nr. 169/1997 pentru modificarea şi completarea Legii fondului funciar nr. 18/1991 (Pl-x 454/2013) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind instituirea unor drepturi pentru personalul care a participat la acţiuni militare în afara teritoriului statului român (Pl-x 163/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind modificarea şi completarea Legii nr. 273 din 21 iunie 2004 privind procedura adopţiei (Pl-x 592/2014) (retrimisă comisiei)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea Legii nr. 33/2007 privind organizarea şi desfăşurarea alegerilor pentru Parlamentul European (Pl-x 590/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Proiectului de Lege privind reglementarea contractelor de împrumut cu ipotecă (PL-x 714/2011) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru modificarea şi completarea OUG nr. 75/1999 privind activitatea de audit financiar (Pl-x 77/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Proiectului de Lege pentru modificarea alin. (2) al art. 15 din Ordonanţa de urgenţă a Guvernului nr. 77/2009 privind organizarea şi exploatarea jocurilor de noroc (PL-x 179/2015) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Proiectului de Lege pentru completarea art. 5 din Ordonanţa Guvernului nr. 105/1999 privind acordarea unor drepturi persoanelor persecutate de către regimurile instaurate în România cu începere de la 6 septembrie 1940 până la 6 martie 1945 din motive etnice (PL-x 137/2015) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Proiectului de Lege pentru modificarea Decretului-lege nr. 118/1990 privind acordarea unor drepturi persoanelor persecutate din motive politice de dictatura instaurată cu începere de la 6 martie 1945, precum şi celor deportate în străinătate ori constituite în prizonieri (PL-x 130/2015) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative pentru completarea art. 4 şi 5 din Legea nr. 571/2003 privind Codul fiscal (Pl-x 545/2014) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Proiectului de Lege pentru modificarea şi completarea unor acte normative din domeniul fiscal şi al protecţiei sociale (PL-x 170/2015) (rămas pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind combaterea faptelor, declaraţiilor şi acţiunilor de leznaţiune (Pl-x 46/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Dezbaterea Propunerii legislative privind combaterea şi prevenirea actelor cu caracter pedofil şi a infracţiunilor contra libertăţii şi integrităţii sexuale ale persoanelor (Pl-x 44/2015) (rămasă pentru votul final)</note>
+        <note type="summary">Primirea de răspunsuri la întrebările adresate membrilor Guvernului.</note>
+        <note type="summary">30.1 Gheorghe Marin</note>
+        <note type="summary">30.2 Lucia-Ana Varga</note>
+        <note type="summary">30.3 Lucia-Ana Varga</note>
+        <note type="editorial">Sedinta Camerei Deputatilor din 12 octombrie  2015</note>
+        <note type="time">Şedinţa a început la ora 16,06.</note>
+        <note type="narrative">Lucrările şedinţei au fost conduse de domnul deputat Valeriu Ştefan Zgonea, preşedintele Camerei Deputaţilor, înlocuit de domnul deputat Petru Gabriel Vlase, vicepreşedinte al Camerei Deputaţilor, asistaţi de domnii deputaţi Laurenţiu Chirvăsuţă şi Niculae Mircovici, secretari ai Camerei Deputaţilor.</note>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u1">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u1.seg1">O să rog liderii grupurilor parlamentare să-şi invite colegii în sală.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u1.seg2">Bun. Liderii grupurilor parlamentare, începem de la poziţia 14, după care trecem direct la poziţia 44, cum v-aţi înţeles. Da?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u1.seg3">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u1.seg4">Deschid şedinţa de astăzi a Camerei Deputaţilor şi vă informez că, din totalul celor 383 de parlamentari, 194 şi-au înregistrat prezenţa la această şedinţă, bineînţeles, inclusiv membrii Biroului permanent.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u1.seg5">În conformitate cu prevederile art. 94, vă informez că aveţi la casetă următoarele documente: programul de lucru pentru săptămâna aceasta, lista rapoartelor din perioada 7-12 octombrie de la comisiile permanente sesizate în fond, lista cu legile pentru care se poate exercita dreptul de sesizare la Curtea Constituţională şi informare cu privire la iniţiativele legislative înregistrate la Camera Deputaţilor şi care urmează să fie avizate la comisiile permanente.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u1.seg6">Bun. Primul proiect de hotărâre este vacantarea unui loc de deputat.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u2">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u2.seg1">Potrivit art. 237 din Regulament, proiectul de hotărâre a fost întocmit, după cum ştiţi, de către Comisia juridică.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u2.seg2">Doamna deputat Cătăniciu, chestorul Camerei Deputaţilor, are cuvântul pentru a prezenta proiectul de hotărâre.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u2.seg3">Doamnă deputat, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u3">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg2">În şedinţa din data de 6 octombrie 2015, membrii Comisiei juridice, de disciplină şi imunităţi prezenţi la şedinţa comisiei, conform listei de prezenţă, au analizat adresa sus-menţionată şi documentele anexate, respectiv adresa nr. 1237/30 octombrie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg3">În baza solicitării Biroului permanent, precum şi a art.236- 237 din Regulamentul Camerei Deputaţilor, republicat, Comisia juridică, de disciplină şi imunităţi a întocmit Proiectul de Hotărâre privind vacantarea unui loc de deputat, pe care îl supune votului plenului Camerei Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg4">Hotărâre privind vacantarea unui loc de deputat</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg5">Având în vedere demisia din calitatea de deputat a domnului deputat Ghiveciu Marian, începând cu data de 29 septembrie 2015, în temeiul art. 70 alin. (2) din Constituţia României, republicată, al art. 7 alin. (1) lit. b) şi alin. (3) din Legea nr. 96/2006 privind Statutul deputaţilor şi al senatorilor, republicată, cu modificările ulterioare, precum şi al art. 236 alin. (1) şi art.237 din Regulamentul Camerei Deputaţilor, republicat,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg6">Constatând că preşedintele Camerei Deputaţilor a luat act de încetarea mandatului domnului Ghiveciu Marian, deputat ales în Parlamentului României în Circumscripţia electorală nr. 10 Buzău, Colegiul uninominal nr. 5,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg7">Camera Deputaţilor adoptă prezenta Hotărâre:</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg8">Articol unic - Camera Deputaţilor constată încetarea calităţii de deputat a domnului Ghiveciu Marian, începând cu data de 29 septembrie 2015 şi declară vacant locul de deputat deţinut de domnul Ghiveciu Marian în Circumscripţia electorală nr. 10, Colegiul uninominal nr. 5.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg9">Această hotărâre a fost adoptată de Camera Deputaţilor în prezenta şedinţă cu respectarea art. 76 alin. (2) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u3.seg10">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u4">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg1">Mulţumesc, doamnă deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg2">Proiectul de hotărâre a fost distribuit, l-aţi auzit.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg3">Dacă sunt obiecţii? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg4">La titlu, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg5">La preambul, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg6">La articolul unic, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u4.seg7">Am luat act de această demisie, proiectul de hotărâre merge la votul final, de vacantare, bineînţeles, a unui mandat de parlamentar la Camera Deputaţilor.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u5">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u5.seg1">Are caracter organic.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u5.seg2">Dacă iniţiatorii... iniţiatorul, scuzaţi-mă, doreşte să ia cuvântul? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u5.seg3">Din partea comisiilor sesizate în fond?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u5.seg4">Domnule deputat, aveţi cuvântul, în numele Comisiilor pentru sănătate şi familie şi pentru cultură, arte şi mijloace de informare în masă.</seg>
+        </u>
+        <note type="speaker">Domnul Florin-Alexandru Alexe:</note>
+        <u ana="#regular" who="#Florin-Alexandru-Alexe" xml:id="ParlaMint-RO_2015-10-12-id7569.u6">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg2">Raport comun asupra propunerii legislative pentru modificarea şi completarea art. 17 din Legea nr. 148/2000 privind publicitatea şi pentru modificarea Legii nr. 504/2002 a audiovizualului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg3">Camera Deputaţilor este prima Cameră sesizată în conformitate cu dispoziţiile art. 75 din Constituţia României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg4">În temeiul dispoziţiilor art. 95 şi 115 din Regulamentul Camerei Deputaţilor, republicat, cu modificările şi completările ulterioare, Comisia pentru cultură, arte, mijloace de informare în masă şi Comisia pentru sănătate şi familie au fost sesizate spre dezbatere în fond în procedura obişnuită.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg5">În urma dezbaterilor şi a opiniilor exprimate, membrii celor două comisii sesizate în fond în temeiul dispoziţiilor art. 61 şi 63 din Regulamentul Camerei Deputaţilor au hotărât, cu majoritate de voturi, să propună plenului Camerei Deputaţilor, spre dezbatere şi adoptare, un raport comun de respingere al propunerii legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg6">În raport de obiectul şi conţinutul său, propunerea legislativă face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg7">Motivaţia respingerii se întemeiază pe următoarele considerente: prevederile prezentei propuneri legislative se află parţial reglementat în legislaţia naţională, prin Titlul XVII - Medicamentul, din Legea nr. 95/2006 privind reforma în domeniul sănătăţii şi de asemenea, în conţinutul Ordinului 194 din 23 februarie 2015 privind aplicarea normelor pentru evaluarea şi avizarea publicităţii la medicamentele de uz uman emis de Ministerul Sănătăţii se află înscrisă şi o secţiune, secţiunea a III-a a Capitolului IV, Publicitatea medicamentelor în domeniul audiovizaul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u6.seg8">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u7">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u7.seg1">Vă mulţumesc şi eu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u7.seg2">Dezbateri generale? Nu sunt luări de cuvânt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u7.seg3">Vă reamintesc că, prin raportul comisiilor sesizate în fond, se propune respingerea acestei iniţiative. Conform art. 104 din Regulament, merge la votul final.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u8">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u8.seg1">Iniţiatorii? Cine doreşte să ia cuvântul? Nimeni.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u8.seg2">Din partea Comisiei pentru cultură, cine prezintă?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u8.seg3">Domnule deputat, tot dumneavoastră, aveţi cuvântul. Raportul.</seg>
+        </u>
+        <note type="speaker">Domnul Florin-Alexandru Alexe:</note>
+        <u ana="#regular" who="#Florin-Alexandru-Alexe" xml:id="ParlaMint-RO_2015-10-12-id7569.u9">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg1">Raport asupra propunerii legislative pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 189/2008 privind managementul instituţiilor publice de cultură, cu modificările şi completările ulterioare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg2">Propunerea legislativă pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 189/2008 privind managementul instituţiilor publice de cultură, cu modificările şi completările ulterioare, a fost transmisă comisiei cu nr. Pl-x 35/2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg3">În redactarea raportului, comisia a avut în vedere avizul favorabil, cu observaţii şi propuneri, emis de Consiliul Legislativ, care nu susţine adoptarea acestei iniţiative legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg4">Prin obiectul de reglementare şi conţinutul său, propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg5">În calitate de primă Cameră sesizată, Senatul a respins iniţiativa legislativă în şedinţa din 5 februarie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg6">În urma dezbaterilor, Comisia pentru cultură, arte, mijloace de informare în masă propune plenului respingerea propunerii legislative pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 189/2008 privind managementul instituţiilor publice de cultură, cu modificările şi completările ulterioare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg7">Motivaţia respingerii se întemeiază pe faptul că, pe de o parte, unele dintre soluţiile legislative preconizate prin prezenta iniţiativă legislativă au fost reglementate prin intermediul Legii nr. 185/2014 privind aprobarea Ordonanţei de urgenţă a Guvernului nr. 68/2013 pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 189/2008 privind managementul instituţiilor publice de cultură, iar pe de altă parte, membrii comisiei au avut în vedere faptul că în prezent există cadru legislativ optim de organizare, exercitare şi control al managementului instituţiilor publice de cultură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u9.seg8">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u10">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u10.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u10.seg2">Dezbateri generale. Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u10.seg3">Bun. Conform art. 104, merge la votul final, caracter ordinar.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u11">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u11.seg1">Iniţiatorii? Nu doresc să ia cuvântul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u11.seg2">Din partea Comisiei pentru industrii şi servicii specifice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u11.seg3">Domnule deputat, aveţi cuvântul. Domnule vicepreşedinte, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Gheorghe Marin:</note>
+        <u ana="#regular" who="#Gheorghe-Marin" xml:id="ParlaMint-RO_2015-10-12-id7569.u12">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg3">Raport asupra propunerii legislative privind completarea art. 34 din Legea serviciilor comunitare de utilităţi publice nr. 51/2006.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg4">Comisia pentru industrii şi servicii a fost sesizată, spre dezbatere în fond, cu această propunere legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg5">Senatul, în calitate de primă Cameră sesizată, a respins această iniţiativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg6">Consiliul Concurenţei a transmis un punct de vedere negativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg7">Guvernul nu susţine această propunere legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg8">În urma dezbaterilor, membrii comisiei au hotărât, cu majoritate de voturi, să supună plenului Camerei Deputaţilor respingerea propunerii legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg9">Prin obiectul de reglementare şi conţinutul său, proiectul de lege face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg10">Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u12.seg11">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u13">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u13.seg1">Bun. Dezbateri generale? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u13.seg2">Conform art. 104, având raportul, vă reamintesc, are raport de respingere, caracterul ordinar, merge la votul final.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u14">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u14.seg1">Iniţiatorii? Nu vor să ia cuvântul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u14.seg2">Din partea comisiei, tot dumneavoastră, domnule deputat. Sunt comisiile reunite pentru industrie şi servicii şi juridică, de disciplină şi imunităţi.</seg>
+        </u>
+        <note type="speaker">Domnul Gheorghe Marin:</note>
+        <u ana="#regular" who="#Gheorghe-Marin" xml:id="ParlaMint-RO_2015-10-12-id7569.u15">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg3">Raport comun asupra propunerii legislative privind achiziţionarea de la persoanele fizice a deşeurilor metalice feroase şi neferoase ce provin din sectorul de îmbunătăţiri funciare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg4">Comisia juridică, de disciplină şi imunităţi şi Comisia pentru industrii şi servicii au fost sesizate, spre dezbatere în fond, cu această propunere legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg5">Senatul, în calitate de primă Cameră sesizată, a respins iniţiativa legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg6">Guvernul, prin punctul de vedere transmis, nu susţine adoptarea acestei iniţiative legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg7">Propunerea legislativă are ca obiect de reglementare interzicerea achiziţionării de la persoanele fizice a deşeurilor metalice feroase şi neferoase provenite din sectorul de îmbunătăţiri funciare, şi anume irigaţii şi desecări.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg8">În urma dezbaterilor, membrii comisiilor au hotărât, cu unanimitate de voturi, să propună plenului Camerei Deputaţilor respingerea propunerii legislative privind achiziţionarea de la persoanele fizice a deşeurilor metalice feroase şi neferoase.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg9">În raport cu obiectul său, propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u15.seg10">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u16">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u16.seg1">Şi eu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u16.seg2">Dezbateri generale? Unul dintre dumneavoastră. Cinci minute. Care este primul, nu ştiu pe care să-l aleg.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u16.seg3">Domnule deputat, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Paul Dumbrăvanu:</note>
+        <u ana="#regular" who="#Paul-Dumbravanu" xml:id="ParlaMint-RO_2015-10-12-id7569.u17">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u17.seg1">Proiectul de lege adoptat cuprinde soluţii legislative similare celor prevăzute de prezenta propunere legislativă şi în ceea ce priveşte exceptarea, în anumite condiţii, de la interdicţia achiziţionării deşeurilor metalice feroase şi neferoase. Deja este reglementat în Proiectul de Lege pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 31/2011, deci Grupul PNL va vota pentru respingere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u17.seg2">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u18">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u18.seg1">Şi eu vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u18.seg2">Nu mai doriţi. Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u18.seg3">Dezbateri generale? Alte luări de cuvânt? Nu mai sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u18.seg4">Merge la votul final, conform art. 104 din Regulament, nu sunt amendamente.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u19">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u19.seg1">Iniţiatorii? Nu doresc să ia cuvântul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u19.seg2">Din partea Comisiei pentru agricultură?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u19.seg3">Domnule vicepreşedinte, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Liviu Harbuz:</note>
+        <u ana="#regular" who="#Liviu-Harbuz" xml:id="ParlaMint-RO_2015-10-12-id7569.u20">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u20.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u20.seg2">Comisia pentru agricultură, silvicultură, industrie alimentară şi servicii specifice a fost sesizată, spre dezbatere în fond, cu propunerea legislativă pentru modificarea şi completarea Legii nr. 46/2008 - Codul silvic, transmisă cu adresa nr. Pl-x 378.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u20.seg3">În urma dezbaterilor, Comisia pentru agricultură, silvicultură, industrie alimentară şi servicii specifice a hotărât, cu unanimitate de voturi, respingerea propunerii legislative din următorul motiv: soluţiile legislative propuse de iniţiator sunt detalii tehnice, specifice activităţii de transport şi distribuţia energiei electrice, care nu se justifică a fi înserate în Legea nr. 46/2008.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u20.seg4">În raport cu obiectul şi conţinutul reglementării, propunerea legislativă face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u20.seg5">Proiectul legislativ este de competenţa decizională a Camerei Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u20.seg6">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u21">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u21.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u21.seg2">Luări de cuvânt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u21.seg3">Domnule deputat, aveţi cuvântul. Vă rog frumos, la dezbateri generale.</seg>
+        </u>
+        <note type="speaker">Domnul Ioan-Cristian Chirteş:</note>
+        <u ana="#regular" who="#Ioan-Cristian-Chirtes" xml:id="ParlaMint-RO_2015-10-12-id7569.u22">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u22.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u22.seg2">Grupul parlamentar al PNL este de acord cu acest proiect de respingere, deoarece, cum spuneam şi în raport, oferă doar detalii tehnice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u22.seg3">Dacă ceva este de modificat, trebuie să ne aplecăm asupra Legii nr. 123 din 2012, Legea energiei electrice şi a gazelor naturale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u22.seg4">Acest punct de vedere l-am avut şi atunci când am dezbătut modificările la noul Cod silvic. Deci, repet, PNL va vota în favoarea raportului de respingere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u22.seg5">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u23">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u23.seg1">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u23.seg2">Alte luări de cuvânt în dezbaterea generală? Nu mai sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u23.seg3">Bun. Nefiind amendamente, merge la votul final.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u23.seg4">Vă amintesc că are caracter organic.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u24">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u24.seg1">Iniţiatorii? Nu doresc să ia cuvântul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u24.seg2">Din partea Comisiilor reunite pentru mediu şi echilibru ecologic şi pentru agricultură, tot domnul vicepreşedinte al Comisiei pentru agricultură. Aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Liviu Harbuz:</note>
+        <u ana="#regular" who="#Liviu-Harbuz" xml:id="ParlaMint-RO_2015-10-12-id7569.u25">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u25.seg1">Comisia pentru agricultură, silvicultură, industrie alimentară şi servicii specifice şi Comisia pentru mediu şi echilibru ecologic au fost sesizate spre dezbatere în fond, cu Proiectul de Lege pentru completarea art. 17 alin. (2) din Legea nr. 46/2008 privind Codul silvic.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u25.seg2">Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u25.seg3">Proiectul de lege are ca obiect de reglementare completarea art. 17 alin. (2) din Legea nr. 46/2008 - Codul silvic, cu modificările şi completările ulterioare, cu o nouă literă, litera k).</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u25.seg4">Se preconizează ca proprietarul fondului forestier să aibă obligaţia de a permite, la solicitarea titularilor licenţelor de distribuire a energiei electrice, defrişarea arborilor aflaţi în culoarul de siguranţă a liniilor electrice, urmând ca pentru liniile electrice aeriene cu tensiune de 110 kW acest culoar să fie de 32 de metri, iar pentru cele de tensiune medie acesta să fie de 24 de metri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u25.seg5">În urma examinării proiectului de lege şi a punctelor de vedere transmise de Consiliul Legislativ şi de Guvern, membrii celor două comisii au hotărât, cu unanimitate de voturi, să propună plenului Camerei Deputaţilor respingerea.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u25.seg6">În raport cu obiectul şi conţinutul reglementării, proiectul de lege face parte din categoria legilor organice.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u26">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u26.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u26.seg2">Alte luări de cuvânt?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u26.seg3">Domnul deputat Tinel Gheorghe. Aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Tinel Gheorghe:</note>
+        <u ana="#regular" who="#Tinel-Gheorghe" xml:id="ParlaMint-RO_2015-10-12-id7569.u27">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u27.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u27.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u27.seg3">Problematica asta, a scoaterii din fondul forestier pentru liniile electrice de înaltă tensiune şi pentru magistralele de baze, eu vă spun că până în '89 era reglementată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u27.seg4">Acum, dacă noi n-am vrut după '90 s-o mai impunem ca soluţie legislativă în Codul silvic, este altă treabă. Însă, în practică, în teren, lucrurile erau clare. Se ştia care este lăţimea liniilor electrice de înaltă tensiune şi cele de siguranţă, 24 - 32. Erau reglementări foarte clare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u27.seg5">Eu mă aştept ca Guvernul - şi îmi pare rău că nu e Guvernul aici - să stabilească aceste lucruri, măcar prin norme tehnice şi prin hotărâre de Guvern. Ele nu pot fi lăsate la latitudinea administratorului şi a celor care se ocupă de administrarea fondului forestier naţional, fie el de stat sau fie privat, pentru că înţelegerile acolo sunt diferite. Discutăm de capacităţile de transport a energiei electrice şi a magistralei de gaze şi aici lucrurile ar trebui să fie foarte clare. Îmi pare rău că n-am găsit o soluţie, în aşa fel încât măcar la definiţii, la anexă la Codul silvic, să fi explicat ce înseamnă liniile de înaltă tensiune şi magistralele de gaze.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u27.seg6">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u28">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u28.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u28.seg2">Alte luări de cuvânt? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u28.seg3">Nu sunt amendamente, merge la votul final.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-10-12-id7569.u29">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u29.seg1">Iniţiatorii? Aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Anton Doboş:</note>
+        <u ana="#regular" who="#Anton-Dobos" xml:id="ParlaMint-RO_2015-10-12-id7569.u30">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg3">Această iniţiativă a luat naştere ca urmare a masacrării arborilor pe Bulevardul Ştefan cel Mare din Iaşi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg4">Toţi teii de pe aliniamentul bulevardului au fost doborâţi cu drujbele de angajaţii primăriei, şi asta doar pentru că primăria a stabilit, fără consultarea ieşenilor, că în zonă trebuie să crească doar copaci în miniatură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg5">Consecinţele negative nu s-au lăsat aşteptate. Pe lângă pagubele ecoprotective, a fost distrus şi un potenţial brand al Iaşiului, acela de oraş al teilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg6">Efectele ecologice negative ale tăierii de arbori din centrul Iaşiului sunt confirmate de specialişti. Aceştia afirmă că abia 500 de salcâmi japonezi pot egala performanţa ecologică a unui singur tei. Mai precis, teii acţionează pentru protecţia mediului înconjurător, prin faptul că la 50 de ani teiul încă manifestă o creştere activă. Realizează anual un număr de peste 300 de mii de frunze, care însumează o suprafaţă verde de aproximativ 600 de m2.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg7">În ciuda acestui fapt, Primăria a tăiat 141 de tei argintii la vârsta medie de 50 de ani, cu un volum total de 47 m3, în care se află stocată cantitatea de 11,6 tone de carbon.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg8">Un alt motiv ar fi că, la umbra acestor tei, temperatura era cu trei până la cinci grade mai coborâtă; aerul mai umed cu 10%, datorită transpiraţiei plantelor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg9">Teii mai contribuiau la atenuarea poluării fonice şi a poluării radioactive.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg10">Semnul de alarmă a fost tras de foarte mulţi cetăţeni ai Iaşiului, printre care numeroase cadre universitare, la care se adaugă doi membri ai Academiei Române. Lor li se adaugă domnul Mandache Leocov, un botanist reputat, fost director al Grădinii botanice Iaşi, considerat - pe vremea Domniei Sale - unul dintre cei mai mari specialişti în domeniu din partea de Sud-Est a Europei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg11">Declaraţiile Domniei Sale sunt susţinute de raportările municipalităţii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg12">Primăria a tăiat peste 639 de copaci de la începutul anului şi mai are programat încă alţi 240.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg13">S-a ajuns ca zeci de locuitori din aproape toate cartierele Iaşiului să reclame tot mai des tăierile de copaci din oraş. Oamenii sunt scandalizaţi că arborii de pe aliniament se usucă pe capete, iar cei de la primărie nu-şi fac datoria să-i îngrijească.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg14">Prin acest proiect de lege se propune ca aceste parcuri să devină arie naturală protejată de interes naţional.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg15">Prin obţinerea acestui statut se permite instituirea unui regim special de protecţie şi utilizare şi asigurarea unor măsuri speciale de protecţie şi conservare a bunurilor de patrimoniu natural.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u30.seg16">Drept pentru care, susţinem acest proiect.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u31">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u31.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u31.seg2">Comisia?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u31.seg3">Domnul Iane.</seg>
+        </u>
+        <note type="speaker">Domnul Ovidiu-Cristian Iane:</note>
+        <u ana="#regular" who="#Ovidiu-Cristian-Iane" xml:id="ParlaMint-RO_2015-10-12-id7569.u32">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg2">Am să citesc eu raportul comisiei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg3">În conformitate cu prevederile art. 95 din Regulamentul Camerei Deputaţilor, republicat, cu modificările şi completările ulterioare, Comisia pentru mediu şi echilibru ecologic a fost sesizată, spre dezbatere în fond, cu Propunerea legislativă pentru modificarea Ordonanţei de urgenţă a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei şi faunei sălbatice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg4">Propunerea legislativă are ca obiect modificarea Ordonanţei de urgenţă a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale a florei şi faunei sălbatice, aprobată cu modificări şi completări prin Legea nr. 49/2011, cu modificările şi completările ulterioare, în sensul că parcurile şi grădinile ce conţin elemente sau bunuri ale patrimoniului natural, de interes comunitar, socio-economic sau socio-cultural să dobândească statutul de arii naturale protejate de interes naţional, în scopul instituirii unui regim special de protecţie şi utilizare, prin asigurarea unor măsuri speciale de protecţie şi conservare a bunurilor aparţinând patrimoniului natural.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg5">Senatul a respins propunerea.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg6">Comisia a avut în vedere avizul favorabil al Consiliului Legislativ şi avizul negativ al Comisiei pentru agricultură, silvicultură, industrie alimentară şi servicii specifice, precum şi punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg7">În urma examinării, membrii comisiei au hotărât, cu unanimitate de voturi, să propună plenului Camerei Deputaţilor respingerea propunerii legislative, întrucât, din punct de vedere al prevederilor legale în vigoare, propunerea legislativă excede domeniului de reglementare a Ordonanţei de urgenţă a Guvernului nr. 57/2007, respectiv al ariilor naturale protejate şi al florei şi faunei sălbatice. Reglementarea şi administrarea regimului proiectiv aplicabil parcurilor şi grădinilor publice sau private de agrement din intravilanul localităţilor fac obiectul unei alte legi, şi anume Legea nr. 24/2007 privind reglementarea şi administrarea spaţiilor verzi din intravilanul localităţilor, republicată, cu modificările şi completările ulterioare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg8">Totodată, din expunerea de motive nu rezultă interesul public major şi, deopotrivă, interesul naţional care să justifice instituirea regimului de arie naturală protejată de interes naţional pentru parcurile şi grădinile publice sau private de agrement, care au elemente sau bunuri de patrimoniu natural aflate în intravilanul localităţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg9">În raport cu obiectul şi conţinutul reglementării, proiectul de lege face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u32.seg10">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u33">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u33.seg1">Vă rog.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u33.seg2">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u33.seg3">Dezbateri generale. Domnul Cernea.</seg>
+        </u>
+        <note type="speaker">Domnul Remus-Florinel Cernea:</note>
+        <u ana="#regular" who="#Remus-Florinel-Cernea" xml:id="ParlaMint-RO_2015-10-12-id7569.u34">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u34.seg1">Vă mulţumesc, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u34.seg2">Într-adevăr, tăierea copacilor din Iaşi, tăierea teilor, toaletarea brutală a multor altor copaci în nenumărate localităţi din România cer sau ar cere o astfel de reglementare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u34.seg3">Eu voi susţine proiectul şi cred că ideea lui este perfect legitimă, spaţiile verzi, astfel de şiruri de copaci pe marginea străzilor şi aleilor ar trebui să fie considerate de importanţă naţională, pentru că schimbările climatice sunt deja o problemă globală gravă, se va agrava probabil în absenţa unor măsuri energice din partea guvernelor şi orice măsură de întărire a protecţiei unor spaţii verzi, a unor copaci, în oraşe sau a mediului în general, orice astfel de măsură, aşadar, este bine-venită.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u34.seg4">Dacă, într-adevăr proiectul nu ar fi trebuit să vizeze o ordonanţă, ci o lege, dacă într-adevăr a existat această scăpare, îi îndemn pe iniţiatori să revină, în cazul în care proiectul va fi respins, să revină cu aceleaşi amendamente la legea care ar trebui de fapt modificată şi să explice poate mai clar ce înţeleg ei prin acordarea acestui statut de spaţii, spaţiilor verzi, acordarea unui statut de importanţă naţională, de interes naţional.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u34.seg5">Sper foarte mult ca Parlamentul să aprobe, până la urmă, o astfel de lege, poate va fi trecută şi în regim de urgenţă, pentru că realmente, dacă în continuare diverşi primari îşi vor exercita autoritatea în mod arbitrar şi abuziv, distrugând spaţii verzi şi tăind copacii din oraşe, acest lucru se va face în dauna interesului naţional şi a interesului cetăţenilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u34.seg6">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u35">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u35.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u35.seg2">Alte intervenţii, dacă mai sunt? Nu mai sunt. Mulţumesc frumos.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u36">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u36.seg1">Iniţiatorii? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u36.seg2">Comisia? Comisia juridică? Sau domnul Oajdea, preşedintele Comisiei pentru tehnologia informaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u36.seg3">Doamna chestor, din partea Comisiei.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u37">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg1">O citim noi, dacă nu este cealaltă comisie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg2">În conformitate cu prevederile art. 95 din Regulamentul Camerei Deputaţilor, republicat, precum şi în acord cu art. 75 alin. (1) din Constituţia României, republicată, Comisia juridică, de disciplină şi imunităţi şi Comisia pentru tehnologia informaţiei şi comunicaţiilor au fost sesizate spre dezbatere în fond cu Propunerea legislativă privind transmiterea, cu titlu gratuit, a unor imobile din proprietatea Autorităţii Naţionale pentru Administrare şi Reglementare în Comunicaţii în domeniul public al unor unităţi administrativ-teritoriale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg3">Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg4">Senatul a respins propunerea legislativă în şedinţa din 24 iunie 2014, în calitate de primă Cameră sesizată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg5">Consiliul Legislativ a avizat negativ proiectul prezentului act normativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg6">Propunerea legislativă are ca obiect de reglementare transmiterea, cu titlu gratuit, a unor imobile din proprietatea Autorităţii Naţionale pentru Administrare şi Reglementare în Comunicaţii în domeniul public al unor unităţi administrativ-teritoriale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg7">În urma dezbaterilor propunerii legislative, membrii Comisiei pentru tehnologia informaţiei şi comunicaţiilor, reuniţi în şedinţa din data de 17 septembrie 2014 şi 19 noiembrie 2014, au transmis Comisiei juridice, de disciplină şi imunităţi raportul preliminar de respingere a Propunerii legislative privind transmiterea, cu titlu gratuit, a unor imobile din proprietatea Autorităţii Naţionale pentru Administrare şi Reglementare în Comunicaţii în domeniu public al unor unităţi administrativ-teritoriale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg8">Membrii Comisiei juridice, de disciplină şi imunităţi au examinat propunerea legislativă în şedinţa din data de 3 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg9">În urma opiniilor formulate şi a finalizării dezbaterilor, membrii celor două comisii sesizate în fond au hotărât, cu majoritate de voturi, să propună plenului Camerei Deputaţilor, respingerea Propunerii legislative privind transmiterea, cu titlu gratuit, a unor imobile din proprietatea Autorităţii Naţionale pentru Administrare şi Reglementare în Comunicaţii în domeniul public al unor unităţi administrativ-teritoriale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg10">În raport cu obiectul şi conţinutul reglementării, propunerea legislativă face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u37.seg11">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u38">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u38.seg1">Dezbateri generale? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u38.seg2">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u39">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u39.seg1">Iniţiatorii? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u39.seg2">Comisia? Domnul Itu.</seg>
+        </u>
+        <note type="speaker">Domnul Cornel Itu:</note>
+        <u ana="#regular" who="#Cornel-Itu" xml:id="ParlaMint-RO_2015-10-12-id7569.u40">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u40.seg1">Propunerea legislativă pentru modificarea şi completarea Legii nr. 31/1990 privind societăţile comerciale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u40.seg2">Senatul a respins această propunere. Consiliul Legislativ a avizat favorabil. Guvernul nu susţine adoptarea.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u40.seg3">Comisia pentru industrii şi servicii a avizat negativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u40.seg4">În urma examinării iniţiativelor legislative, a punctelor de vedere ale Guvernului şi a avizelor Consiliului Legislativ, s-a constatat că propunerile legislative nu se justifică, întrucât în acest moment, la nivel european sunt state care au optat pentru un capital social modic ca valoare, iar România a adoptat o soluţie care să asigure accesul facil la această formă în societate, cu scopul de a încuraja mediul de afaceri şi de a încuraja întreprinzătorii privaţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u40.seg5">Faţă de aceste considerente, membrii celor două comisii au hotărât, cu majoritate de voturi, să propună plenului Camerei Deputaţilor respingerea acestei propuneri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u40.seg6">În raport cu obiectul şi conţinutul său, cele două propuneri legislative fac parte din categoria legilor ordinare.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u41">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u41.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u41.seg2">Dezbateri generale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u41.seg3">Domnul deputat.</seg>
+        </u>
+        <note type="speaker">Domnul Virgil Guran:</note>
+        <u ana="#regular" who="#Virgil-Guran" xml:id="ParlaMint-RO_2015-10-12-id7569.u42">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg1">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg2">Acest proiect de lege prevede creşterea capitalului social minim pentru SRL-uri la 2000 de lei. Ciudat este un lucru: iniţiator era, printre altele, senatorul Darius Vâlcov, care a venit cu această iniţiativă, dar când a ajuns în Guvern, când a ajuns ministru n-a mai fost de acord cu iniţiativa lui. Încă o dovadă că, totuşi, în acest moment, Parlamentul este o anexă a Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg3">Privind realitatea acestei iniţiative, noi nu suntem de acord să existe un capital de 2000 de lei, dar, în schimb, credeţi-mă, cei care trec prin acest proces de a înfiinţa o societate, plătesc mult mai mult de 2000 de lei, pentru că sunt taxe la Registrul Comerţului, pentru că sunt taxe de autorizare, începând de la DSV, DSP, Pompieri ş.a.m.d., şi sunt atâtea formalităţi şi este atâta birocraţie, încât de multe ori îţi trece să mai faci acea firmă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg4">Partidul Naţional Liberal are în vedere examinarea acestor lucruri şi sper ca împreună să reuşim să modificăm aceste reglementări care impun tot felul de taxe şi oprelişti, pentru că, de fapt, aşa putem să ajutăm pe cei care vor să realizeze o societate comercială, să ajungem şi noi, până la urmă, după modelul ţărilor dezvoltate în care online poţi să-ţi realizezi această societate în două-trei ore şi pe proprie răspundere să funcţionezi, urmând să fii verificat de către acele organisme, organe de control ş.a.m.d.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg5">Cred că aşa putem să stimulăm înfiinţarea de societăţi comerciale, nu doar gândindu-ne la acest capital social.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg6">Birocraţia şi formalismul sunt de cu totul altă natură în România. Sperăm să reuşim să rezolvăm acest lucru şi atunci, într-adevăr, ajutăm viitorii oameni de afaceri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg7">Partidul Naţional Liberal, în consecinţă, este de acord cu respingerea acestui proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u42.seg8">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u43">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u43.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u43.seg2">Alte intervenţii? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u43.seg3">Legea merge la votul final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u44">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u44.seg1">Iniţiatorii?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u44.seg2">Comisia?</seg>
+        </u>
+        <note type="speaker">Domnul Mihai Baltă:</note>
+        <u ana="#regular" who="#Mihai-Balta" xml:id="ParlaMint-RO_2015-10-12-id7569.u45">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg2">Comisia pentru muncă şi protecţie socială a fost sesizată prin adresa Pl-x 591 cu dezbaterea pe fond, în procedură obişnuită, a Propunerii legislative pentru modificarea şi completarea art. 179 din Legea nr. 263/2010 privind sistemul unitar de pensii publice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg3">La întocmirea prezentului raport comisia a avut în vedere: avizul favorabil al Consiliului Legislativ, avizul Consiliului Economic şi Social, avizul negativ al Comisiei pentru drepturile omului, culte şi problemele minorităţilor naţionale, avizul negativ al Comisiei juridice, de disciplină şi imunităţi, punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg4">Propunerea legislativă are ca obiect de reglementare modificarea şi completarea art. 179 din Legea nr. 263/2010 privind sistemul unitar de pensii publice, în sensul ca sumele cu titlu de prestaţii de asigurări sociale plătite din motive neimputabile beneficiarilor şi încasate necuvenit de către aceştia, să nu mai fie recuperate.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg5">Propunerea legislativă face parte din categoria legilor organice, conform prevederilor art. 73 alin. (3) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg6">Propunerea legislativă a fost respinsă de Senat, în şedinţa din 9 decembrie 2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg7">Camera Deputaţilor este Cameră decizională, potrivit prevederilor art. 75 din Constituţia României şi art. 92 din Regulamentul Camerei Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg8">În urma finalizării dezbaterilor, comisia propune plenului Camerei Deputaţilor respingerea iniţiativei legislative, întrucât aceasta a rămas fără obiect prin apariţia Legii nr. 125/2014 privind scutirea de la plată a unor debite provenite din pensii, care se aplică de la 1 octombrie 2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u45.seg9">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u46">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u46.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u46.seg2">Dezbateri generale? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u46.seg3">Respingere, vot final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u47">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u47.seg1">Iniţiatori? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u47.seg2">Comisia?</seg>
+        </u>
+        <note type="speaker">Domnul Mihai Baltă:</note>
+        <u ana="#regular" who="#Mihai-Balta" xml:id="ParlaMint-RO_2015-10-12-id7569.u48">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg2">Comisia pentru muncă şi protecţie socială a fost sesizată prin adresa Pl-x 33/2015, din 9 februarie 2015, cu dezbaterea pe fond, în procedură obişnuită, a Propunerii legislative pentru modificarea şi completarea alin. (1) al art. 35 din Legea nr. 53/2002 - Codul muncii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg3">La întocmirea prezentului raport, comisia a avut în vedere: avizul favorabil al Consiliului Legislativ, avizul negativ al Consiliului Economic şi Social, avizul favorabil al Comisiei juridice, de disciplină şi imunităţi, avizul negativ al Comisiei pentru drepturile omului, culte şi problemele minorităţilor naţionale, avizul negativ al Comisiei pentru egalitate de şanse pentru femei şi bărbaţi, punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg4">Propunerea legislativă are ca obiect de reglementare completarea prevederilor alin. (1) al art. 35 din Legea nr. 53/2003 - Codul muncii, republicată, cu modificările şi completările ulterioare, prin înserarea unei noi teze care stabileşte ca durata maximă legală a timpului de muncă, în cazul salariaţilor care deţin mai multe contracte individuale de muncă, să nu poată depăşi, de regulă, 12 ore pe zi, şi 48 de oră pe săptămână, inclusiv orele suplimentare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg5">Propunerea legislativă face parte din categoria legilor organice, conform prevederilor art. 73 alin. (3) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg6">Propunerea legislativă a fost respinsă de Senat, în şedinţa din 5 februarie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg7">Camera Deputaţilor este Cameră decizională, potrivit prevederilor art. 75 din Constituţia României şi art. 92 din Regulamentul Camerei Deputaţilor, republicat, cu modificările şi completările ulterioare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg8">În urma finalizării dezbaterilor, comisia propune plenului Camerei Deputaţilor respingerea iniţiativei legislative, întrucât sediul materiei privind durata maximă legală a timpului de muncă se regăseşte în art. 114, 115, 121 din Codul muncii, iar prin adoptarea iniţiativei legislative s-ar încălca normele de tehnică legislativă prevăzute de Legea nr. 24/2000.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg9">Totodată, s-a reţinut în susţinerea soluţiei aprobate că Directiva 2003/88 CE a Parlamentului European şi a Consiliului, din 4 noiembrie 2003 privind anumite aspecte ale organizării timpului de lucru nu conţine dispoziţii exprese care să indice faptul că durata maximă a timpului de muncă şi a perioadelor de repaus stabilite în textul acesteia au caracter de limite absolute, în sensul că, orele de muncă şi situaţia cumulului de contracte se însumează în vederea respectării limitelor impuse de actul normativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg10">Legislaţia naţională nu conţine prevederi exprese cu privire la modul de calcul al timpului de muncă în situaţia în care un salariat deţine mai mult de un contract de muncă, în sensul însumării perioadei de muncă lucrate pe fiecare dintre contracte, cum de altfel nici Directiva 2003 nu conţine nicio prevedere expresă cu privire la modul de calcul al timpului de muncă pentru un lucrător care are mai multe contracte simultan.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u48.seg11">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u49">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u49.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u49.seg2">Dezbateri generale? Doamna Boghicevici, vă rog.</seg>
+        </u>
+        <note type="speaker">Doamna Claudia Boghicevici:</note>
+        <u ana="#regular" who="#Claudia-Boghicevici" xml:id="ParlaMint-RO_2015-10-12-id7569.u50">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u50.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u50.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u50.seg3">Am analizat prezentul proiect de lege; este un proiect social-democrat, atât din punct de vedere al apartenenţei iniţiatorilor, dar şi prin prisma principiilor care sunt susţinute aici. El nu este agreat de Guvernul condus de un premier social-democrat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u50.seg4">Salut preocuparea colegilor din PSD pentru bunăstarea celor care lucrează în prezent, însă, le atrag atenţia că avem mari probleme în ceea ce priveşte ocuparea forţei de muncă în România şi că există foarte multe persoane care nu-şi găsesc un loc de muncă. Avem ca indicativ pe planul naţional de reformă un procent de 70% în ceea ce priveşte ocuparea şi suntem departe de atingerea acestui obiectiv.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u50.seg5">Grupul PNL din Camera Deputaţilor va vota pentru respingerea acestui proiect.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u50.seg6">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u51">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u51.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u51.seg2">Alte intervenţii, dacă sunt la dezbateri generale? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u51.seg3">Respingere, vot final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u52">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u52.seg1">Iniţiatori? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u52.seg2">Comisia?</seg>
+        </u>
+        <note type="speaker">Domnul Florin Gheorghe:</note>
+        <u ana="#regular" who="#Florin-Gheorghe" xml:id="ParlaMint-RO_2015-10-12-id7569.u53">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg1">Raport comun asupra Propunerii legislative pentru modificarea Ordonanţei de urgenţă nr.103 din 2013 privind salarizarea personalului plătit din fonduri publice în anul 2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg2">În conformitate cu prevederile art. 95 din Regulamentul Camerei Deputaţilor, Comisia pentru muncă şi Comisia pentru buget au fost sesizate prin adresa Pl-x 111/2015 cu dezbaterea pe fond a acestei iniţiative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg3">La întocmirea prezentului raport comun, comisiile au avut în vedere avizul favorabil al Consiliului Legislativ, avizul negativ al Consiliului Economic şi Social şi punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg4">Propunerea legislativă are ca obiect de reglementare modificarea şi completarea Ordonanţei de urgenţă nr. 103/2013 privind salarizarea personalului plătit din fonduri publice în anul 2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg5">Propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg6">În conformitate cu prevederile art. 61 şi art. 63 din Regulamentul Camerei Deputaţilor comisiile au dezbătut propunerea legislativă în şedinţa comună din 10 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg7">Raportul comun a fost adoptat cu unanimitate de voturi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg8">Propunerea legislativă a fost respinsă de Senat în şedinţa din 25 februarie 2015, iar Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg9">În urma finalizării dezbaterilor, membrii celor două comisii propun plenului Camerei Deputaţilor respingerea iniţiativei legislative, întrucât aceasta a rămas fără obiect de reglementare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u53.seg10">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u54">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u54.seg1">Dezbateri generale?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u54.seg2">Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Vasile Horga:</note>
+        <u ana="#regular" who="#Vasile-Horga" xml:id="ParlaMint-RO_2015-10-12-id7569.u55">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u55.seg1">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u55.seg2">Iniţiativa legislativă a colegilor noştri reprezintă mai mult o reparaţie morală a celor care sunt în România oameni de ştiinţă, de cultură, de artă, personalităţi marcante, pentru că nu este vorba de o reparaţie materială, pentru că nu este vorba de o sumă consistentă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u55.seg3">Este vorba de faptul că în Ordonanţa de urgenţă nr. 103/2014 era prevăzută plafonarea indemnizaţiilor de merit - 1650 de indemnizaţii - care reprezintă un lucru minor pentru bugetul de stat, iar prin iniţiativa pe care colegii noştri au făcut-o, a fost eliminată această plafonare a indemnizaţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u55.seg4">Ea a rămas fără obiect, pentru că Guvernul a venit cu Ordonanţa nr. 58/2014 abrogând art. 14 lit. k) din Ordonanţa nr. 103, astfel încât Grupul nostru parlamentar va vota pentru respingerea acestei iniţiative legislative, rămânând fără obiect.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u55.seg5">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u56">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u56.seg1">Alte intervenţii? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u56.seg2">Respingere, vot final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u57">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u57.seg1">Iniţiatori?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u57.seg2">Comisia?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u57.seg3">Comisia pentru învăţământ.</seg>
+        </u>
+        <note type="speaker">Domnul Adrian-Nicolae Diaconu:</note>
+        <u ana="#regular" who="#Adrian-Nicolae-Diaconu" xml:id="ParlaMint-RO_2015-10-12-id7569.u58">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg3">În baza prevederilor art. 95 din Regulamentul Camerei Deputaţilor, republicat, cu adresa Pl-x 525 din 2 decembrie 2014, Comisia pentru învăţământ, ştiinţă, tineret şi sport a primit spre dezbatere, în fond, Propunerea legislativă pentru introducerea disciplinei "Istoria totalitarismului în România", în ciclul superior al liceului - Pl-x 525/2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg4">Propunerea legislativă are ca obiect de reglementare introducerea disciplinei, ca disciplină obligatorie în programa de învăţământ pentru clasa a XII-a.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg5">Propunerea legislativă face parte din categoria legilor ordinare, Camera Deputaţilor fiind Cameră Decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg6">În urma dezbaterilor, în şedinţa din 10 martie 2015, Comisia a propus cu unanimitate de voturi respingerea propunerii legislative din următoarele considerente: soluţia legislativă propusă este contradictorie, având în vedere faptul că nu se precizează clar dacă disciplina "Istoria totalitarismului în România" este o disciplină nouă în programa şcolară sau modifică conţinutul disciplinei "Istorie".</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg7">Planurile-cadru şi programa şcolară, precum şi conţinutul disciplinelor studiate în învăţământul preuniversitar se stabilesc prin ordin al ministrului educaţiei, făcând parte din legislaţia subsecventă, nu prin lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u58.seg8">Programa şcolară pentru disciplina "Istora românilor", care se studiază în clasa a XII-a, este acoperitoare, având în vedere că aceasta cuprinde la capitolul "Statul şi politica" şi capitolul "Relaţii internaţionale în perioada ultimului deceniu", aspecte referitoare la istoria totalitarismului.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u59">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u59.seg1">Dezbateri generale?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u59.seg2">Domnul deputat. Domnul deputat de la PNL. Domnul Zlati.</seg>
+        </u>
+        <note type="speaker">Domnul Radu Zlati:</note>
+        <u ana="#regular" who="#Radu-Zlati" xml:id="ParlaMint-RO_2015-10-12-id7569.u60">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u60.seg1">Mulţumesc, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u60.seg2">Stimaţi colegi parlamentari,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u60.seg3">Propunerea legislativă, deşi teoretic este pe placul sufletului oricărui om de dreapta, respectiv oricărui liberal, din păcate, contrazice în text Legea învăţământului, care spune următoarele: planurile-cadru şi programele şcolare pentru disciplinele, domeniile de studiu, respectiv modulele de pregătire obligatorii din învăţământul preuniversitar sunt elaborate de către instituţiile şi organismele abilitate ale Ministerului Educaţiei, Cercetării, Tineretului şi Sportului şi se aprobă, prin ordin al ministrului educaţiei, cercetării, tineretului şi sportului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u60.seg4">Cu alte cuvinte, dacă am fi dorit să introducem o oră în programa de liceu ar fi însemnat să încălcăm înseşi spiritul şi litera Legii învăţământului, care, deocamdată, reglementează activitatea din învăţământul preuniversitar românesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u60.seg5">Din acest considerent, deşi propunerea aparţine unui onorat membru al Grupului parlamentar al PNL, Grupul PNL nu poate susţine o astfel de iniţiativă legislativă, sperând că poate viitoarea Lege a învăţământului va fi mai permisivă în legătură cu modificarea curricumului naţional. Până atunci, Grupul PNL va vota împotriva acestei iniţiative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u60.seg6">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u61">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u61.seg1">Domnul Iacoban.</seg>
+        </u>
+        <note type="speaker">Domnul Sorin-Avram Iacoban:</note>
+        <u ana="#regular" who="#Sorin-Avram-Iacoban" xml:id="ParlaMint-RO_2015-10-12-id7569.u62">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u62.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u62.seg2">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u62.seg3">Şi Grupul PSD susţine respingerea acestei legi şi aş vrea să vin în completarea colegului meu, domnul Zlati, prin faptul că titlul acestei legi nu este în concordanţă cu partea care legiferează, deoarece dacă în titlul actului normativ se face referire la introducerea unei noi discipline, din expunerea de motive, cât şi din partea dispozitivă reiese faptul că, în speţă, se doreşte modificarea domeniului de conţinut al unei discipline deja existente în programa de învăţământ şi anume disciplina "Istorie".</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u62.seg4">Mai mult, aşa cum am reţinut şi din dezbaterile care au avut loc la Comisia pentru învăţământ, ştiinţă, tineret şi sport, programa şcolară pentru disciplina "Istoria românilor" care se studiază în clasa a XII-a este acoperitoare, având în vedere că aceasta cuprinde la capitolul "Statul şi politica" şi la capitolul "Relaţii internaţionale în perioada ultimului deceniu" aspecte referitoare la istoria totalitarismului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u62.seg5">Prin urmare, vă cer să nu votăm acest proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u62.seg6">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u63">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u63.seg1">Domnul Cernea.</seg>
+        </u>
+        <note type="speaker">Domnul Remus-Florinel Cernea:</note>
+        <u ana="#regular" who="#Remus-Florinel-Cernea" xml:id="ParlaMint-RO_2015-10-12-id7569.u64">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg1">Vă mulţumesc foarte mult, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg2">Stimaţi colegi, fie liberali, fie social-democraţi, fie din partea altor partide,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg3">În România, începând cu 1938 până în 1989, am avut regimuri totalitariste de extremă dreapta, de extremă stânga. A fost dictatura lui Carol al II-lea, a fost dictatura legionară, dictatura lui Antonescu şi dictatura comunistă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg4">Cred că despre astfel de lucruri ar trebui studiat în profunzime în învăţământul preuniversitar. Ideea de a avea o disciplină sau, de fapt, un an de istorie consacrat istoriei totalitarismului cred că este o idee foarte bună, şi nu e neapărat liberală sau de stânga, de dreapta sau ecologistă, sau de un altfel.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg5">Istoria trebuie cunoscută, ororile istoriei trebuie privite în faţă, trebuie înţelese, examinate pentru a încerca să nu le repetăm. Uitaţi-vă ce provocări avem astăzi, generaţiile de astăzi. Ne confruntăm cu terorism, ne confruntăm cu războaie, inclusiv la graniţa României, în Ucraina, criza refugiaţilor. Sunt foarte multe probleme şi cred că a-i ajuta pe tineri să-şi dezvolte o viziune, o gândire istorică, o punere în ansamblu a lucrurilor, în devenirea lor istorică, ar fi deosebit de util.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg6">Cred că legea, dacă unul dintre liderii de grup parlamentar ar retrimite-o la comisii, ar putea fi uşor ajustată, astfel încât să facă faţă cerinţelor unei astfel de iniţiative legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg7">Şi vă spun că mai există discipline care sunt adoptate prin lege, practic. Chiar dacă e vorba de o prevedere a Legii educaţiei - "Religia". Religia, ora de religie este normată prin Legea educaţiei. Aşadar, există deja un precedent.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg8">Poate că această lege ar fi trebuit să fie un amendament la Legea învăţământului şi, prin excepţie la prevederile citate mai devreme de antevorbitori, care spun că trebuie ordin de ministru, prin excepţie de la acel articol ar fi putut fi adoptată o astfel de iniţiativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg9">Eu o susţin. La Comisia pentru drepturile omului am avut vot unanim în sprijinul acestei iniţiative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u64.seg10">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u65">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u65.seg1">Alte intervenţii? Nu sunt. Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u65.seg2">Respingere. Merge la votul final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u66">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u66.seg1">Iniţiatorii? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u66.seg2">Comisia?</seg>
+        </u>
+        <note type="speaker">Domnul Florin Gheorghe:</note>
+        <u ana="#regular" who="#Florin-Gheorghe" xml:id="ParlaMint-RO_2015-10-12-id7569.u67">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg1">În conformitate cu prevederile art. 95 din Regulamentul Camerei Deputaţilor, Comisia pentru buget şi Comisia pentru muncă au fost sesizate pentru dezbaterea pe fond cu Propunerea legislativă pentru modificarea Capitolului IV din Legea nr. 329/2009 privind reorganizarea unor autorităţi şi instituţii publice, raţionalizarea cheltuielilor publice, susţinerea mediului de afaceri şi respectarea acordurilor-cadru cu Comisia Europeană şi Fondul Monetar Internaţional, transmisă cu adresa Pl-x 47/2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg2">Conform prevederilor art. 75 din Constituţia României, Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg3">La întocmirea prezentului raport comisiile au avut în vedere avizele favorabile ale Consiliului Legislativ şi Comisiei pentru egalitatea de şanse pentru femei şi bărbaţi, avizele negative ale Consiliului Economic şi Social şi Comisiei juridice şi punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg4">Senatul, în calitate de primă Cameră sesizată, a respins propunerea în şedinţa din 5 februarie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg5">Propunerea legislativă a fost dezbătută în şedinţă comună în data de 10 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg6">Din partea Comisiei de muncă şi-au înregistrat prezenţa 23 de deputaţi din 24 de membri, iar din partea Comisiei de buget au fost prezenţi 31 de deputaţi din totalul de 34.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg7">În urma examinării propunerii legislative şi a opiniilor exprimate, deputaţii prezenţi la lucrări au hotărât cu unanimitate de voturi să propună plenului Camerei Deputaţilor respingerea acesteia.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg8">În raport cu obiectul şi conţinutul său, propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u67.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u68">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u68.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u68.seg2">Dezbateri generale. Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Vasile Horga:</note>
+        <u ana="#regular" who="#Vasile-Horga" xml:id="ParlaMint-RO_2015-10-12-id7569.u69">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u69.seg1">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u69.seg2">Dreptul la muncă, aşa după cum ştim, este un drept constituţional. Pe cale de consecinţă, dreptul de a fi retribuit şi de a primi o pensie pentru contribuţie este, de asemenea, un drept constituţional. Prin emiterea Legii nr. 329 în 2009, acest drept de cumul al pensiei cu salariul a fost întrerupt, fapt pentru care o serie de persoane care îşi desfăşurau munca şi după vârsta de pensie nu au putut să opteze decât pentru pensie sau pentru salariu, în funcţie de mărimea şi de felul în care persoana respectivă opta. Acest lucru colegii noştri l-au sesizat şi propunerea legislativă pe care au făcut-o este în sensul cumulării dreptului de pensie cu cel de salariu. Faptul că Guvernul prin Ordonanţa nr. 134/2014 a eliminat Capitolul IV din Legea nr. 329/2009, a făcut ca această iniţiativă să rămână fără obiect, fapt pentru care vom vota pentru respingerea ei.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u70">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u70.seg1">Alte intervenţii? Nu mai sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u70.seg2">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u70.seg3">Respingere. Vot final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u71">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u71.seg1">Iniţiatori.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u71.seg2">Comisia de agricultură, domnul Harbuz.</seg>
+        </u>
+        <note type="speaker">Domnul Liviu Harbuz:</note>
+        <u ana="#regular" who="#Liviu-Harbuz" xml:id="ParlaMint-RO_2015-10-12-id7569.u72">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u72.seg1">În conformitate cu prevederile art. 70 şi ale art. 104 alin. (3) din Regulamentul Camerei Deputaţilor, republicat, plenul Camerei Deputaţilor a hotărât în şedinţa din 3 iunie 2014 retrimiterea Propunerii legislative privind modificarea alin. (11) al art. III din Legea nr. 169/1997 pentru modificarea şi completarea Legii fondului funciar nr. 18/1991 Comisiei juridice, de disciplină şi imunităţi şi Comisiei pentru agricultură, silvicultură, industrie alimentară şi servicii specifice, cu adresa Pl-x 454/2013 din 11 noiembrie 2013, în vederea reexaminării şi depunerii unui nou raport.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u72.seg2">Senatul, în calitate de prima Cameră sesizată, a respins propunerea legislativă în şedinţa din 6 noiembrie 2013.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u72.seg3">În urma dezbaterilor, membrii celor două comisii au hotărât cu unanimitate de voturi să propună plenului Camerei Deputaţilor spre dezbatere şi adoptare raportul de respingere a Propunerii legislative privind modificarea alin. (11) al art. III din Legea nr. 169/1997 pentru modificarea şi completarea Legii fondului funciar nr. 18/1991, întrucât reglementarea propusă nu serveşte scopului cuprins în expunerea de motive şi, totodată, excede domeniului Legii nr. 169/1997.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u72.seg4">În raport cu obiectul şi conţinutul reglementării, proiectul de lege face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u72.seg5">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u73">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u73.seg1">Dezbateri generale? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u73.seg2">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u73.seg3">Va fi trimisă la votul final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u74">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u74.seg1">Iniţiator? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u74.seg2">Comisia. Comisia pentru apărare. Domnul Benga.</seg>
+        </u>
+        <note type="speaker">Domnul Ioan Benga:</note>
+        <u ana="#regular" who="#Ioan-Benga" xml:id="ParlaMint-RO_2015-10-12-id7569.u75">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg1">În conformitate cu prevederile art. 95 din Regulamentul Camerei Deputaţilor, republicat, Comisia pentru apărare, ordine publică şi siguranţă naţională a fost sesizată spre dezbatere pe fond în procedură obişnuită cu Propunerea legislativă privind instituirea unor drepturi pentru personalul care a participat la acţiuni militare în afara teritoriului statului român.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg2">Propunerea legislativă are ca obiect de reglementare instituirea pe o perioadă de doi ani a unor facilităţi de ordin financiar-fiscal în beneficiul personalului militar care a participat la acţiunile militare în afara graniţelor cel puţin 12 luni neîntrerupt sau cumulativ şi a celui civil retras din viaţa militară din instituţii publice de apărare, ordine publică şi siguranţă naţională, care a participat la acţiuni militare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg3">Consiliul Legislativ a avizat favorabil această propunere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg4">Propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg5">Potrivit prevederilor art. 54 şi 55 din Regulamentul Camerei Deputaţilor, republicat, la lucrările comisiei a participat în calitate de invitat doamna Otilia Sava, secretar de stat pentru relaţia cu Parlamentul din Ministerul Apărării.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg6">În urma dezbaterilor, în şedinţa din 17 martie 2015, membrii comisiei au hotărât cu unanimitate de voturi întocmirea unui raport de respingere a acestei iniţiative legislative, din următoarele motive: propunerea legislativă implică modificarea cheltuielilor prevăzute în bugetul de stat potrivit dispoziţiilor art. 111 alin. (1) teza a II-a din Constituţie, fiind necesar a se solicita punctul de vedere al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg7">Totodată, trebuie respectate prevederile art. 7 din Legea responsabilităţii fiscale nr. 69/2010, precum şi prevederile art. 33 din Legea nr. 24/2000, republicată, care reglementează obligativitatea efectuării studiului de impact.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg8">De asemenea, facilităţile fiscale prevăzute la art. 3 ar trebui să se regăsească în Legea nr. 571/2003 privind Codul fiscal, cu modificările şi completările ulterioare, nu într-un act normativ paralel, pentru a se evita o dublă reglementare, sediul materiei acestei reglementări ar trebui să fie OUG nr. 82/2006 privind recunoaşterea meritelor personalului armatei participant la acţiunile militare şi acordarea unor drepturi acestora şi urmaşilor celui decedat, aşa cum a fost aceasta modificată şi completată prin Legea nr. 150/2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u75.seg9">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u76">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u76.seg1">Dezbateri generale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u76.seg2">Vă rog. Domnul deputat de la PNL şi după aia...</seg>
+        </u>
+        <note type="speaker">Domnul Iulian-Radu Surugiu:</note>
+        <u ana="#regular" who="#Iulian-Radu-Surugiu" xml:id="ParlaMint-RO_2015-10-12-id7569.u77">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u77.seg1">Bună ziua, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u77.seg2">Noi, Grupul Partidului Naţional Liberal, nu considerăm această idee în esenţă rea. Credem că anumite facilităţi pentru oamenii care pleacă în numele Armatei României în afara graniţelor ar trebui acordate în ţară, dar, aşa cum s-a spus şi în raportul comisiei, nu putem avea un proiect de lege paralel cu Codul fiscal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u77.seg3">Din acest motiv, Grupul Partidului Naţional Liberal susţine respingerea acestui proiect.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u77.seg4">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u78">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u78.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u78.seg2">Domnul Iacoban.</seg>
+        </u>
+        <note type="speaker">Domnul Sorin-Avram Iacoban:</note>
+        <u ana="#regular" who="#Sorin-Avram-Iacoban" xml:id="ParlaMint-RO_2015-10-12-id7569.u79">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u79.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u79.seg2">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u79.seg3">Nici Grupul PSD din Camera Deputaţilor nu susţine acest proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u79.seg4">Aşa cum se spunea şi în raport şi colegii noştri... e vorba de un paralelism legislativ cu Ordonanţa nr. 82/2006, modificată de Legea nr. 150/2014 privind recunoaşterea meritelor personalului armatei participant la acţiuni militare şi acordarea unor drepturi acestora şi urmaşilor celui decedat. De asemenea, este în neconcordanţă şi cu noul Cod fiscal pe care l-am elaborat de curând. De asemenea, putem intra şi într-o zonă neconstituţională privind nerespectarea art. 138 alin. (5) din Constituţia României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u79.seg5">Prin urmare vă propun să dăm un vot negativ pe acest proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u79.seg6">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u80">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u80.seg1">Alte intervenţii?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u80.seg2">Domnul Mircovici.</seg>
+        </u>
+        <note type="speaker">Domnul Niculae Mircovici:</note>
+        <u ana="#regular" who="#Niculae-Mircovici" xml:id="ParlaMint-RO_2015-10-12-id7569.u81">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u81.seg1">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u81.seg2">Fără a supăra pe nimeni, aş vrea să vă aduc aminte de reflecţia unui cetăţean al unuia din statele importante din punct de vedere militar ale lumii, şi anume Mark Twain. Mark Twain spunea că trebuie să-i mulţumim lui Dumnezeu pentru existenţa proştilor, pentru că datorită acestui fapt noi, ceilalţi, părem altfel.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u81.seg3">De multe ori m-am gândit la ce a vrut să spună acest om, care în niciun caz nu putea să fie esenţa a ceea ce exprima.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u81.seg4">De 10-11 ani sunt în Comisia de apărare, ordine publică şi siguranţă naţională şi poate mai mult ca altă dată, când am fost militar, urmăresc fenomenul politico-militar global, şi observ tot mai mult că instituţia militară într-un stat dezvoltat din punct de vedere militar, şi nu într-unul care nu mai este partener strategic al unui stat de genul acesta, este sub formă de armonică. Sunt momente în care o dezvolţi şi chemi rezervişti, sunt momente în care o restrângi şi rămâi cu cei activi, şi tot aşa se întâmplă în funcţie de evoluţia fenomenului global.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u81.seg5">Acelaşi lucru se va întâmpla în perspectivă şi de fapt va trebui să se întâmple şi în armata română. Nu-mi pun problema şi sigur că voi vota respingerea acestui proiect de lege pentru faptul că doi colegi de la cele mai importante partide ale României au fost de acord. Asta m-a făcut să mă uit de curiozitate la iniţiatori. Doi dintre cei mai importanţi lideri ai Partidului Social Democrat şi Partidului Social Liberal au fost promotorii, iniţiatorii acestei legi. Şi dacă dumneavoastră aţi fost împotriva opiniei lor, e firesc şi eu, ca umil reprezentant al Grupului minorităţilor naţionale, să fiu de partea dumneavoastră. Dar trebui să ne gândim că n-are nicio legătură prevederea din Codul penal cu prevederea dintr-o lege specială care se referă la cineva care are un alt statut. Pentru că altfel vom ajunge la concluzia că toată lumea trebuie să fie în uniformă. Oamenii ăia care sunt în uniformă, care sunt singurii care au onoarea să poarte stema Republicii pe frunte şi care jură să moară pentru ţară, au un alt statut decât orice funcţionăraş public din ţara românească a cărui prevedere financiară, drepturi şi obligaţii se găsesc în Codul fiscal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u81.seg6">Vă mulţumesc. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u82">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u82.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u82.seg2">Alte intervenţii? Nu.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u83">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u83.seg1">Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Victor Paul Dobre:</note>
+        <u ana="#regular" who="#Victor-Paul-Dobre" xml:id="ParlaMint-RO_2015-10-12-id7569.u84">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u84.seg1">Domnule preşedinte de şedinţă,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u84.seg2">Conform înţelegerii, vă solicit retrimiterea la comisie a acestui proiect de lege.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u85">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u85.seg1">Care proiect, domnule deputat?</seg>
+        </u>
+        <note type="speaker">Domnul Victor-Paul Dobre:</note>
+        <u ana="#regular" who="#Victor-Paul-Dobre" xml:id="ParlaMint-RO_2015-10-12-id7569.u86">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u86.seg1">Poziţia 59 din ordinea de zi pe care o aveţi.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u87">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u87.seg1">Am înţeles. Dar n-o citisem.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u87.seg2">Vot.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u88">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u88.seg1">Termen, domnule deputat?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u88.seg2">Trei săptămâni.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u88.seg3">Trebuia făcută propunerea înaintea votului, domnule vicelider.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u89">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u89.seg1">Iniţiatorul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u89.seg2">Comisia. Vă rog.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u90">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg1">În conformitate cu prevederile art. 95 din Regulamentul Camerei Deputaţilor, republicat, şi în acord cu art. 75 alin. (1) din Constituţia României, republicată, Comisia juridică, de disciplină şi imunităţi a fost sesizată spre dezbatere în fond cu Propunerea legislativă pentru modificarea şi completarea Legii nr. 33/2007 privind organizarea şi desfăşurarea alegerilor pentru Parlamentul European.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg2">Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg3">Senatul, în calitate de primă Cameră sesizată, a respins propunerea legislativă în şedinţa din data de 9 decembrie 2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg4">Propunerea are ca obiect de reglementare modificarea Legii nr. 33/2007 privind organizarea şi desfăşurarea alegerilor pentru Parlamentul European, cu modificările şi completările ulterioare, în sensul reducerii numărului de semnături necesare susţinerii unei candidaturi independente de la 100 de mii la 5 mii de susţinători.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg5">Consiliul Legislativ a avizat favorabil proiectul prezentului act normativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg6">Guvernul a transmis Parlamentului punctul său de vedere prin care nu susţine adoptarea acestei propuneri legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg7">Comisia pentru drepturile omului, culte şi problemele minorităţilor naţionale a avizat favorabil.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg8">În conformitate cu prevederile art. 61 din Regulamentul Camerei Deputaţilor, republicat, membrii Comisiei juridice, de disciplină şi imunităţi au examinat proiectul de lege şi avizele accesorii în şedinţa din data de 10 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg9">În urma dezbaterilor, membrii Comisiei juridice, de disciplină şi imunităţi au hotărât în unanimitate să propună plenului Camerei Deputaţilor un raport de respingere a Propunerii legislative pentru modificarea Legii nr. 33/2007 privind organizarea şi desfăşurarea alegerilor pentru Parlamentul European.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg10">În raport cu obiectul şi conţinutul reglementării, proiectul de lege face parte din categoria legilor organice, fiind incidente prevederile art. 73 alin. (3) lit. a) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u90.seg11">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u91">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u91.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u91.seg2">Dezbateri generale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u91.seg3">Domnul deputat...</seg>
+        </u>
+        <note type="speaker">Domnul Gabriel Andronache:</note>
+        <u ana="#regular" who="#Gabriel-Andronache" xml:id="ParlaMint-RO_2015-10-12-id7569.u92">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u92.seg1">Vă mulţumesc, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u92.seg2">Grupul parlamentar al Partidului Naţional Liberal va vota pentru respingerea acestei iniţiative legislative, deoarece considerăm că în raport cu demnitatea de europarlamentar, actuala reglementare este optimă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u92.seg3">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u93">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u93.seg1">Domnul Márton Árpád.</seg>
+        </u>
+        <note type="speaker">Domnul Márton Árpád-Francisc:</note>
+        <u ana="#regular" who="#Arpad-Francisc-Marton" xml:id="ParlaMint-RO_2015-10-12-id7569.u94">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u94.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u94.seg2">Doamnelor şi domnilor deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u94.seg3">Se pare că prin reforma sistemului electoral din România am reuşit să avem o reglementare comună pentru toate sistemele de vot, deci, locale, parlamentare, europarlamentare, ceea ce consideră pentru toate aceste sisteme ca o listă de candidaţi, respectiv candidaţi independenţi, să depună o listă de susţinători egală cu un procent fix din numărul de electori înscrişi în listele electorale din circumscripţia electorală respectivă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u94.seg4">La europarlamentare avem circumscripţie electorală cea naţională, cu circa 18 milioane de persoane înregistrate. 5 mii de semnături de susţinere nu sunt nici cu 1, nici cu 0,5% egale. Ca atare, nu poate fi acceptată această modificare.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u95">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u95.seg1">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Sorin-Avram Iacoban:</note>
+        <u ana="#regular" who="#Sorin-Avram-Iacoban" xml:id="ParlaMint-RO_2015-10-12-id7569.u96">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg2">Nici acest proiect de lege Grupul PSD din Camera Deputaţilor nu-l poate susţine. Aspectul avut în vedere de proiectul de act normativ are în vedere Decizia nr. 2002/772 a Consiliului Europei şi Directiva 93/109, ambele transpuse în legislaţia românească prin Legea nr. 33/2007 privind organizarea şi desfăşurarea alegerilor pentru Parlamentul European.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg3">Acest aspect vizat este o problematică care se înscrie în sfera exclusivă de reglementare a statelor membre ale Uniunii Europene, propunerea de micşorare a numărului de semnături nefiind restricţionată de niciun impediment european, dar scăderea numărului de semnături de la 100 de mii la 5 mii, din punctul meu de vedere, este un aspect exagerat şi nesusţinut de argumente. Deoarece, conform Curţii Constituţionale, a unei Decizii nr. 61/2010, lista de susţinători nu reprezintă o îngrădire a dreptului de a candida, ci o modalitate de a asigura un anumit grad de reprezentativitate în rândul electoratului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg4">De asemenea, există Decizia nr. 782/2009 a Curţii Constituţionale care statuează faptul că lista de susţinători reprezintă o prevedere a exercitării abuzive a dreptului de a fi ales, dar pe de altă parte, lista asigură accesul efectiv la exercitarea acestui drept persoanelor eligibile comunitare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg5">Condiţia numărului de semnături nu reprezintă o condiţie restrictivă şi datorită faptului că România este constituită ca o singură circumscripţie electorală din punctul de vedere al alegerilor europarlamentare, iar la alegerile din 2014 care s-au derulat anul trecut au participat 8 candidaţi independenţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg6">Prin urmare, Grupul PSD nu susţine acest proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u96.seg7">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u97">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u97.seg1">Domnul Cernea.</seg>
+        </u>
+        <note type="speaker">Domnul Remus-Florinel Cernea:</note>
+        <u ana="#regular" who="#Remus-Florinel-Cernea" xml:id="ParlaMint-RO_2015-10-12-id7569.u98">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u98.seg1">Vă mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u98.seg2">Legislaţia electorală din România a fost şi este cea mai restrictivă din rândul ţărilor considerate democratice. Această prevedere de colectare a unui număr atât de mare de semnături, în cazul partidelor, aproximativ 200 de mii, în cazul independenţilor, 100 de mii, este una extrem de restrictivă şi fără niciun corespondent în nicio democraţie europeană, membră a Uniunii Europene. Mai mult, astfel de semnături nu pot fi şi nu sunt verificate. Or, s-a citat mai devreme Codul bunelor practici electorale, elaborat de Comisia de la Veneţia, unde se spune foarte clar că trebuie să existe o procedură de verificare, cu reguli clare. În legea noastră nu este prevăzut acest lucru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u98.seg3">Şi foarte bine ştiţi, şi aici voi spune adevărul, că de cele mai multe ori astfel de liste sunt falsificate. Sunt folosite baze de date, sunt angajaţi, nu ştiu, tineri, care stau să completeze nume, adrese, CNP-uri, şi să falsifice semnături. Sunt depuse sute de mii, milioane de semnături. La europarlamentare au fost depuse 7-8 milioane, la prezidenţiale la fel. Cu toţii ştiţi că nu au semnat o treime dintre cetăţenii cu drept de vot, ci, pur şi simplu, au fost falsificate date. Iar partidele principale au făcut şi ele, la rândul lor, astfel de falsuri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u98.seg4">Neexistând o procedură de verificare, această prevedere îi elimină de fapt din competiţie tocmai pe candidaţii cinstiţi, care aş vrea să-şi strângă în mod cinstit aceste semnături. Numai că efortul este uriaş, pentru un independent fără structuri în teritoriu este uriaş şi ar presupune foarte mulţi voluntari, cheltuieli foarte mari.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u98.seg5">De aceea, o relaxare a acestor condiţii ar fi necesară pentru a avea într-adevăr un dinamism electoral şi o competiţie reală. Fără competiţie, nu putem visa la reformarea clasei politice, iar legile pe care le-aţi făcut sunt legi care prezervă monopolul PSD, PNL şi, din păcate, şi UDMR, atât în ce priveşte alegerile parlamentare, cât şi locale, europarlamentare sau prezidenţiale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u98.seg6">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u99">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u99.seg1">Alte intervenţii? Nu mai sunt.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u100">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u100.seg1">Iniţiatorii?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u100.seg2">Comisia.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u101">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg1">Raport asupra Proiectului de Lege privind reglementarea contractelor de împrumut cu ipotecă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg2">Comisia juridică, de disciplină şi imunităţi a fost sesizată spre dezbatere în fond cu Proiectul de Lege privind reglementarea contractelor de împrumut cu ipotecă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg3">Potrivit art. 75 din Constituţia României, republicată, Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg4">Senatul, în calitate de primă Cameră sesizată, a adoptat iniţiativa legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg5">Comisia pentru buget, finanţe şi bănci a avizat negativ acest proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg6">Guvernul, prin punctul de vedere transmis cu adresa nr. 2053 din 2 septembrie 2011 nu susţine adoptarea acestei iniţiative legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg7">Consiliul Legislativ a avizat favorabil proiectul de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg8">Banca Naţională a României a transmis punctul său de vedere, cu nr. 172 din 27 februarie 2012, prin care nu susţine adoptarea acestui proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg9">Proiectul de lege are ca obiect de reglementare stabilirea regimului contractelor de credit ipotecar, urmărind instituirea unui cadru legal armonizat în această materie, de natură să realizeze o protecţie corespunzătoare a debitelor care contractează un împrumut cu ipotecă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg10">În acest sens, iniţiatorii propun ca, în cazul în care bunul ipotecat a fost distrus, deteriorat ori valoarea sa a fost diminuată, creditorul ipotecar să nu mai poată cere debitorului să constituie o nouă ipotecă pentru garantarea aceleiaşi obligaţii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg11">În urma examinării iniţiativei legislative şi a opiniilor exprimate de către membrii comisiei, s-a hotărât cu unanimitate de voturi să supună plenului Camerei Deputaţilor respingerea Proiectului de Lege privind reglementarea contractelor de împrumut cu ipotecă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg12">În raport cu obiectul şi conţinutul său, proiectul de lege face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u101.seg13">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u102">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u102.seg1">Dezbateri generale. Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Vasile-Cătălin Drăguşanu:</note>
+        <u ana="#regular" who="#Vasile-Catalin-Dragusanu" xml:id="ParlaMint-RO_2015-10-12-id7569.u103">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u103.seg1">Vă mulţumesc, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u103.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u103.seg3">Acest proiect de lege este un proiect de lege foarte bun. Efectele pozitive pe care le-ar putea avea sunt aşteptate şi astăzi de zeci de mii de români, care sunt împrumutaţi la bănci pentru a-şi achiziţiona o locuinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u103.seg4">Acest proiect este încă din 2011, deci, zace în Parlamentul României de 4 ani şi ceva şi vreau să spun că o temă similară este semnată de peste 140 de parlamentari, senatori şi deputaţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u103.seg5">Să sperăm, stimaţi colegi, că nu va sta la fel, în sertarul Parlamentului, încă 4 ani şi jumătate, pentru că sunt zeci de mii de români care aşteaptă din partea noastră o măsură de protecţie de acest gen.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u103.seg6">Vă mulţumesc frumos.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u104">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u104.seg1">Alte intervenţii? Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u105">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u105.seg1">Iniţiatorul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u105.seg2">Comisia pentru buget, finanţe şi bănci.</seg>
+        </u>
+        <note type="speaker">Domnul Florin Gheorghe:</note>
+        <u ana="#regular" who="#Florin-Gheorghe" xml:id="ParlaMint-RO_2015-10-12-id7569.u106">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg1">Comisia pentru buget, finanţe şi bănci a fost sesizată, spre dezbatere în fond, cu Propunerea legislativă pentru modificarea şi completarea Ordonanţei de urgenţă a Guvernului nr. 75/1999 privind activitatea de audit financiar.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg2">Conform prevederilor art. 75 din Constituţia României, Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg3">Senatul, în calitate de primă Cameră sesizată, a respins propunerea legislativă în şedinţa din 18 februarie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg4">La dezbaterea propunerii legislative s-au avut în vedere avizele favorabile ale Consiliului Legislativ, Comisiei juridice, de disciplină şi imunităţi şi punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg5">Membrii comisiei au examinat propunerea legislativă menţionată mai sus în şedinţa din 17 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg6">La lucrările comisiei şi-au înregistrat prezenţa 30 de deputaţi din totalul de 35.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg7">În urma examinării propunerii legislative şi a opiniilor exprimate, deputaţii prezenţi la lucrări au hotărât, cu unanimitate de voturi, să supună plenului Camerei Deputaţilor respingerea propunerii legislative, deoarece, atât Ordonanţa de urgenţă a Guvernului nr. 90/2008 privind auditul statutar al situaţiilor financiare anuale şi al situaţiilor financiare anuale consolidate, cât şi Ordonanţa de urgenţă a Guvernului nr. 75/1999 privind activitatea de audit financiar vor face obiectul unui proces de revizuire în scopul transpunerii Directivei 2014/56 a Uniunii Europene.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg8">În raport cu obiectul şi conţinutul său, propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u106.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u107">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u107.seg1">Dezbateri generale. Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Vasile Horga:</note>
+        <u ana="#regular" who="#Vasile-Horga" xml:id="ParlaMint-RO_2015-10-12-id7569.u108">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u108.seg1">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u108.seg2">Prin propunerea făcută de către colegii noştri, activitatea de audit financiar ar trebui să aibă noi activităţi în portofoliul său, activităţi care se suprapun, din păcate, cu cele ale altor instituţii de audit, cum ar fi Corpul Experţilor Contabili, sau cel al evaluatorilor, iar modificările pe care colegii le propun prin această ordonanţă, în sensul că ROF-ul să fie aprobat numai de către Conferinţa Corpului Auditorilor Financiari, sau membrii Corpului Auditorilor Financiari să fie numiţi pe o perioadă nelimitată de timp, nu este în concordanţă nici cu Directiva Uniunii Europene 56/2014 şi nu este nici în concordanţă cu atribuţiile pe care le are Conferinţa de supraveghere de interes public a profesiei contabile. Fapt pentru care noi nu vom susţine această iniţiativă legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u108.seg3">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u109">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u109.seg1">Alte intervenţii? Nu sunt. Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u110">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u110.seg1">Iniţiatorul? Comisia?</seg>
+        </u>
+        <note type="speaker">Domnul Florin Gheorghe:</note>
+        <u ana="#regular" who="#Florin-Gheorghe" xml:id="ParlaMint-RO_2015-10-12-id7569.u111">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg1">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg2">Raport asupra Proiectului de Lege pentru modificarea alin. (2) al art. 15 din Ordonanţa de urgenţă a Guvernului nr. 77/2009 privind organizarea şi exploatarea jocurilor de noroc</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg3">Comisia pentru buget, finanţe şi bănci a fost sesizată, spre dezbatere în fond, cu proiectul de lege mai sus menţionat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg4">Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg5">Senatul, în calitate de primă Cameră, a adoptat proiectul de lege în şedinţa din 3 martie 2015, în condiţiile art. 75 alin. (2) teza III din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg6">La dezbaterea proiectului de lege, s-au avut în vedere avizul favorabil al Consiliului Legislativ şi punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg7">Membrii comisiei au examinat proiectul de lege menţionat mai sus în şedinţa din 17 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg8">În urma examinării Proiectului de Lege pentru modificarea alin. (2) al art. 15 din Ordonanţa de urgenţă a Guvernului nr. 77/2009, deputaţii prezenţi la lucrări au hotărât, cu unanimitate de voturi, să supună plenului Camerei Deputaţilor respingerea proiectului de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg9">În raport cu obiectul şi conţinutul său, proiectul de lege face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u111.seg10">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u112">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u112.seg1">Dezbateri generale.</seg>
+        </u>
+        <note type="speaker">Domnul Vasile Horga:</note>
+        <u ana="#regular" who="#Vasile-Horga" xml:id="ParlaMint-RO_2015-10-12-id7569.u113">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u113.seg1">Nici această iniţiativă legislativă nu va fi votată de către Grupul PNL, pentru că prevederile acestea au fost preluate de o lege care s-a discutat în Comisia pentru buget, finanţe şi bănci şi care este astăzi în funcţiune şi este, credem noi, suficient de bine fundamentată pentru reglementarea jocurilor de noroc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u113.seg2">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u114">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u114.seg1">Domnul Iacoban.</seg>
+        </u>
+        <note type="speaker">Domnul Sorin-Avram Iacoban:</note>
+        <u ana="#regular" who="#Sorin-Avram-Iacoban" xml:id="ParlaMint-RO_2015-10-12-id7569.u115">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u115.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u115.seg2">Aş vrea să-l completez pe colegul meu. Da, este adevărat, este vorba despre Legea de aprobare a Ordonanţei nr. 94/2014, ordonanţă prin care am instituit faptul că minorii nu au dreptul să intre în sălile de jocuri de noroc nici măcar însoţiţi de către majori.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u115.seg3">Prin urmare, obiectul prezentului proiect de lege privind protejarea minorilor de influenţa negativă a dependenţei de jocurile de noroc, prin instituirea unei distanţe minime faţă de unităţile de învăţământ unde pot fi amplasate spaţiile în care se desfăşoară acest tip de activităţi, este redundantă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u115.seg4">Prin urmare, şi noi, Grupul social-democrat din Camera Deputaţilor, propunem respingerea acestui proiect de lege.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u115.seg5">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u116">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u116.seg1">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u117">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u117.seg1">Iniţiatorii. Comisia.</seg>
+        </u>
+        <note type="speaker">Domnul Mihai Baltă:</note>
+        <u ana="#regular" who="#Mihai-Balta" xml:id="ParlaMint-RO_2015-10-12-id7569.u118">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg2">Comisia pentru muncă şi protecţie socială a fost sesizată cu dezbaterea pe fond, în procedură obişnuită, a Proiectului de Lege pentru completarea art. 5 din Ordonanţa Guvernului nr. 105/1999 privind acordarea unor drepturi persoanelor persecutate de către regimurile instaurate în România cu începere de la 6 septembrie 1940 până la 6 martie 1945 din motive etnice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg3">La întocmirea prezentului raport, comisia a avut în vedere avizul favorabil al Consiliului Legislativ, avizul favorabil al Comisiei juridice, de disciplină şi imunităţi, avizul favorabil al Comisiei pentru drepturile omului, culte şi problemele minorităţilor naţionale, avizul negativ al Comisiei pentru buget, finanţe şi bănci.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg4">Proiectul de lege are ca obiect de reglementare completarea art. 5 din Ordonanţa Guvernului nr. 105, în sensul acordării posibilităţii persoanelor prevăzute la art. 1 şi 3 de a ceda tichetele de călătorie gratuite soţului, sau soţiei, sau altor persoane mandatate să le reprezinte interesele, nefiind necesară prezenţa titularului la momentul efectuării călătoriei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg5">Proiectul de lege face parte din categoria legilor ordinare, conform prevederilor art. 73 alin. (1) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg6">Proiectul de lege a fost adoptat de Senat în şedinţa din 25 februarie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg7">Camera Deputaţilor este Cameră decizională, potrivit prevederilor art. 75 din Constituţia României şi ale art. 92 din Regulamentul Camerei Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg8">În urma finalizării dezbaterilor, comisia propune plenului Camerei Deputaţilor respingerea iniţiativei legislative, întrucât iniţiatorii nu precizează sursele financiare necesare aplicării măsurilor propuse, încălcându-se, astfel, atât dispoziţiile art. 138 alin. (5) din Constituţia României, republicată, cât şi cele ale art. 7 alin. (1) din Legea responsabilităţii fiscal-bugetare nr. 69/2010.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u118.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u119">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u119.seg1">Dezbateri generale. Domnul Pâslaru.</seg>
+        </u>
+        <note type="speaker">Domnul Florin-Costin Pâslaru:</note>
+        <u ana="#regular" who="#Florin-Costin-Paslaru" xml:id="ParlaMint-RO_2015-10-12-id7569.u120">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u120.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u120.seg2">Grupul PSD va vota respingerea acestui raport, întrucât nu considerăm necesar a se ceda tichetele de călătorie gratuite către soţ sau soţie şi, aşa cum spunea şi colegul care a vorbit mai înainte, nici nu se prevede în prezenta ordonanţă sursa de finanţare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u120.seg3">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u121">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u121.seg1">Alte intervenţii? Doamna Boghicevici.</seg>
+        </u>
+        <note type="speaker">Doamna Claudia Boghicevici:</note>
+        <u ana="#regular" who="#Claudia-Boghicevici" xml:id="ParlaMint-RO_2015-10-12-id7569.u122">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u122.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u122.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u122.seg3">În condiţiile în care, pentru drepturile acordate persoanelor persecutate de regimul comunist după 6 martie 1945, se aplică o prevedere similară, pe principiul nediscriminării, cred că ar trebui aplicată aceeaşi regulă şi în cazul persoanelor persecutate de regimurile opresive din perioada 1940-1945, mai ales că vorbim de un număr redus de persoane, oricum aflate în situaţii dificile datorită vârstei înaintate şi cred că ar fi un minim gest de reparaţie morală care nu ar avea un impact bugetar semnificativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u122.seg4">Grupul PNL va vota împotriva respingerii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u122.seg5">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u123">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u123.seg1">Alte intervenţii? Vă rog, domnule deputat.</seg>
+        </u>
+        <note type="speaker">Domnul Kerekes Károly:</note>
+        <u ana="#regular" who="#Karoly-Kerekes" xml:id="ParlaMint-RO_2015-10-12-id7569.u124">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u124.seg1">Exact aşa cum a spus doamna deputat, şi noi susţinem această iniţiativă legislativă, pentru motive de similitudine, pentru că şi în alte legi de reparaţii există această prevedere, aşa că şi în cazul acestor persoane persecutate trebuie să introducem această prevedere.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u125">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u125.seg1">Vă mulţumesc. alte intervenţii? Vot final.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u126">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u126.seg1">Iniţiator. Comisia.</seg>
+        </u>
+        <note type="speaker">Domnul Mihai Baltă:</note>
+        <u ana="#regular" who="#Mihai-Balta" xml:id="ParlaMint-RO_2015-10-12-id7569.u127">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg2">Comisia pentru muncă şi protecţie socială a fost sesizată cu dezbaterea pe fond, în procedură obişnuită, a Proiectului de Lege pentru modificarea Decretului-lege nr. 118/1990 privind acordarea unor drepturi persoanelor persecutate din motive politice de dictatura instaurată cu începere de la 6 martie 1945, precum şi celor deportate în străinătate ori constituite în prizonieri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg3">La întocmirea prezentului raport, comisia a avut în vedere avizul favorabil al Consiliului Legislativ, avizul favorabil al Comisiei juridice, de disciplină şi imunităţi, avizul favorabil al Comisiei pentru drepturile omului, culte şi problemele minorităţilor naţionale, avizul negativ al Comisiei pentru buget, finanţe şi bănci, punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg4">Proiectul de lege are ca obiect de reglementare modificarea Decretului-lege nr. 118/1990, în sensul majorării cuantumului indemnizaţiilor compensatorii ce revin deţinuţilor politici din închisorile comuniste, persoanelor persecutate politic sau deportate.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg5">Proiectul de lege face parte din categoria legilor organice, conform prevederilor art. 73 alin. (3) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg6">Proiectul de lege a fost adoptat de Senat în şedinţa din 25 februarie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg7">Camera Deputaţilor este Cameră decizională, potrivit prevederilor art. 75 din Constituţia României şi ale art. 92 din Regulamentul Camerei Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg8">În urma finalizării dezbaterilor, comisia propune plenului Camerei Deputaţilor respingerea iniţiativei legislative, întrucât aceasta a rămas fără obiect, ca urmare a adoptării de către Camera Deputaţilor în data de 11 martie 2015 a unui proiect de lege care prevedea dublarea indemnizaţiei beneficiarilor Decretului-lege nr. 118/1990 - PL-x nr.596/2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u127.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u128">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u128.seg1">Dezbateri. Nu. Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u129">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u129.seg1">Iniţiatorii? Comisia? Vă rog.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u130">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg1">Raport comun asupra Propunerii legislative pentru completarea art. 4 şi 5 din Legea nr. 571/2003 privind Codul fiscal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg2">Comisia juridică, de disciplină şi imunităţi şi Comisia pentru buget, finanţe şi bănci au fost sesizate spre dezbatere în fond cu Propunerea legislativă pentru completarea art. 4 şi 5 din Legea nr. 571/2003 privind Codul fiscal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg3">Senatul, în calitate de primă Cameră sesizată, a respins această iniţiativă legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg4">Consiliul Legislativ a avizat favorabil, cu observaţii şi propuneri, iniţiativa legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg5">Guvernul a transmis punctul de vedere negativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg6">Consiliul Economic şi Social a transmis că nu poate fi avizată iniţiativa legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg7">Propunerea legislativă supusă dezbaterii are ca obiect de reglementare modificarea Codului fiscal, în sensul instituirii interdicţiei modificării acestuia prin ordonanţă sau ordonanţă de urgenţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg8">În urma examinării iniţiativei legislative, a expunerii de motive, a avizului Consiliului Legislativ, a punctului de vedere al Guvernului, a avizului Consiliului Economic şi Social, precum şi a opiniilor exprimate, membrii ambelor comisii au hotărât respingerea Propunerii legislative pentru completarea art. 4 şi 5 din Legea nr. 571/2003 privind Codul fiscal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg9">În raport cu obiectul şi conţinutul reglementării, propunerea legislativă face parte din categoria legilor ordinare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u130.seg10">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u131">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u131.seg1">Dezbateri generale. Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Anton Doboş:</note>
+        <u ana="#regular" who="#Anton-Dobos" xml:id="ParlaMint-RO_2015-10-12-id7569.u132">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u132.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u132.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u132.seg3">Având în vedere că la Codul fiscal a fost adusă o modificare şi s-a introdus un amendament prin care a fost şi aprobat principiul predictibilităţii, amendament introdus de subsemnatul, care prevede că nu se pot face modificări, majorări de impozite şi taxe timp de un an de zile, ca atare, în aceste condiţii, nu mai are sens această modificare şi noi vom vota respingerea.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u132.seg4">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u133">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u133.seg1">Vă rog, alte intervenţii? Nu sunt. Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u134">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u134.seg1">Iniţiatorii? Comisia?</seg>
+        </u>
+        <note type="speaker">Domnul Mihai Baltă:</note>
+        <u ana="#regular" who="#Mihai-Balta" xml:id="ParlaMint-RO_2015-10-12-id7569.u135">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg2">Comisia pentru muncă şi protecţie socială şi Comisia pentru buget, finanţe şi bănci au fost sesizate cu dezbaterea pe fond a Proiectului de Lege pentru modificarea şi completarea unor acte normative din domeniul fiscal şi al protecţiei sociale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg3">La întocmirea prezentului raport comun, comisiile au avut în vedere avizul favorabil al Consiliului Legislativ, avizul negativ al Comisiei juridice, de disciplină şi imunităţi, avizul favorabil al Comisiei pentru sănătate şi familie, avizul favorabil al Comisiei pentru egalitate de şanse pentru femei şi bărbaţi, punctul de vedere negativ al Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg4">Proiectul de lege are ca obiect de reglementare completarea art. 26 din Legea nr. 448/2006, republicată, cu modificările şi completările ulterioare, precum şi ale art. 284 din Legea nr. 571/2003 privind Codul fiscal, cu modificările şi completările ulterioare, în sensul scutirii reprezentanţilor legali ai copiilor cu handicap grav sau accentuat de la plata impozitului pe clădire şi teren, precum şi cea de la plata taxei asupra autoturismelor, motocicletelor cu ataş şi mototriciclurilor adaptate handicapului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg5">Proiectul face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg6">Propunerea legislativă a fost adoptată de Senat în şedinţa din 3 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg7">Camera Deputaţilor este Cameră decizională, potrivit prevederilor art. 75 din Constituţia României, republicată, şi ale art. 92 din Regulamentul Camerei Deputaţilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg8">În urma finalizării dezbaterilor, comisiile propun plenului Camerei Deputaţilor respingerea propunerii legislative, având în vedere faptul că aceste propuneri au fost analizate şi au fost adoptate în prevederile Codului fiscal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u135.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u136">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u136.seg1">Dezbateri generale. Doamna Boghicevici.</seg>
+        </u>
+        <note type="speaker">Doamna Claudia Boghicevici:</note>
+        <u ana="#regular" who="#Claudia-Boghicevici" xml:id="ParlaMint-RO_2015-10-12-id7569.u137">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg1">Vă mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg3">Prezentul proiect vine să completeze o lacună legislativă, pentru că nu este drept ca acei părinţi care, oricum, fac faţă cu greu asigurării condiţiilor necesare pentru copii, să nu beneficieze de aceste facilităţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg4">Guvernul ne anunţă sec că va avea un impact bugetar această prevedere, deşi vorbim aproximativ de 60 de mii de copii cu dizabilităţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg5">Ni se spune, cu alte ocazii, că avem excedent bugetar, că avem creştere economică record şi acordarea acestor facilităţi minimale ar trebui să fie o prioritate pentru un aşa-zis guvern social-democrat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg6">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg7">Am asistat, în ultima perioadă, la respingerea a peste 60 de proiecte ale parlamentarilor, indiferent de culoarea politică, legate de modificări la Legea nr. 448, pe motiv că actualul Guvern va veni cu propria viziune în ceea ce priveşte problematica persoanelor cu dizabilităţi, dar, din păcate, nici până astăzi nu am asistat la o dezbatere publică, măcar, legată de această temă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg8">Noi vom vota împotriva proiectului de respingere, pentru că considerăm că acest proiect este necesar pentru familiile aflate în dificultate.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u137.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u138">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u138.seg1">Alte intervenţii? Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u139">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u139.seg1">Iniţiatorul. Comisia.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u140">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg1">Comisia juridică, de disciplină şi imunităţi a fost sesizată spre dezbatere în fond cu Propunerea legislativă privind combaterea faptelor, declaraţiilor şi acţiunilor de leznaţiune.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg2">Senatul, în calitate de primă Cameră sesizată, a respins propunerea legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg3">Consiliul Legislativ a avizat negativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg4">Guvernul României nu susţine adoptarea propunerii legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg5">Propunerea legislativă are ca obiect de reglementare instituirea răspunderii contravenţionale pentru declaraţia de leznaţiune, precum şi a răspunderii penale pentru faptele şi acţiunile de leznaţiune.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg6">În conformitate cu prevederile art. 61 din Regulamentul Camerei Deputaţilor, membrii comisiei au avizat iniţiativa legislativă în şedinţa din 17 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg7">În urma dezbaterilor, membrii Comisiei juridice, de disciplină şi imunităţi au hotărât să supună plenului Camerei Deputaţilor respingerea propunerii legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg8">În raport cu obiectul şi conţinutul reglementării, propunerea legislativă face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u140.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u141">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u141.seg1">Dezbateri generale. Vă rog, domnule Cernea.</seg>
+        </u>
+        <note type="speaker">Domnul Remus-Florinel Cernea:</note>
+        <u ana="#regular" who="#Remus-Florinel-Cernea" xml:id="ParlaMint-RO_2015-10-12-id7569.u142">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg1">Vă mulţumesc foarte mult, domnule preşedinte de şedinţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg2">Acest proiect de lege eu îl calific ca fiind populist, naţionalist şi antidemocratic, întrucât vizează restricţionarea libertăţii de exprimare prin introducerea unor pedepse, inclusiv privative de libertate, pentru opinii. Or, atunci când este vorba de critici sau chiar ofense aduse unor abstracţiuni, nu cred că legea ar trebui să fie una atât de dură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg3">Mai mult, iniţiativa doreşte să sancţioneze chestiuni care au fost eliminate din Codul penal, în urmă cu mulţi ani - 8 ani, 10 ani, de la caz la caz. Aşadar, progresele în materie de legislaţie penală ar fi cumva anulate - progresele din ultimii ani - şi această abordare, viziune mult mai deschisă şi mai democratică ar fi afectată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg4">Mă tem că vom asista la tot felul de astfel de iniţiative populiste, mai ales în apropierea alegerilor de anul viitor. Şi vedem, de fapt, ca o probă a interesului iniţiatorului pentru acest proiect de lege este şi realitatea că, pur şi simplu, nu a venit să şi-l apere în plen, sau la comisii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg5">Dar, sunt idei, după părerea mea, populiste şi periculoase, care mi-e teamă că vor fi utilizate cu vehemenţă în campaniile electorale de anul viitor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg6">De aceea, sper ca politicienii responsabili să critice şi să sancţioneze ferm astfel de încercări de a derapa democraţia românească spre o zonă extrem de periculoasă şi restrictivă cu privire la libertăţile individuale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u142.seg7">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u143">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u143.seg1">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u144">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u144.seg1">Iniţiator. Comisia.</seg>
+        </u>
+        <note type="speaker">Doamna Steluţa-Gustica Cătăniciu:</note>
+        <u ana="#regular" who="#Steluta-Gustica-Cataniciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u145">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg1">Comisia juridică, de disciplină şi imunităţi a fost sesizată, spre dezbatere în fond, cu Propunerea legislativă privind combaterea şi prevenirea actelor cu caracter pedofil şi a infracţiunilor contra libertăţii şi integrităţii sexuale ale persoanelor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg2">Camera Deputaţilor este Cameră decizională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg3">Senatul, în calitate de primă Cameră, a respins propunerea legislativă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg4">Consiliul Legislativ a avizat negativ.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg5">Guvernul României nu susţine adoptarea propunerii legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg6">Propunerea legislativă are ca obiect de reglementare instituirea unor măsuri pentru combaterea şi prevenirea abuzurilor sexuale ale minorilor, prin reglementarea, drept măsură de siguranţă, a tratamentului de castrare chimică.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg7">În conformitate cu prevederile art. 61 din Regulamentul Camerei Deputaţilor, republicat, membrii comisiei au examinat iniţiativa legislativă în şedinţa din 17 martie 2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg8">În urma dezbaterilor, membrii Comisiei juridice, de disciplină şi imunităţi au hotărât, cu majoritate de voturi, să supună plenului Camerei Deputaţilor respingerea propunerii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg9">În raport cu obiectul şi conţinutul reglementării, propunerea legislativă face parte din categoria legilor organice.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u145.seg10">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u146">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u146.seg1">Vă rog, domnule Cernea.</seg>
+        </u>
+        <note type="speaker">Domnul Remus-Florinel Cernea:</note>
+        <u ana="#regular" who="#Remus-Florinel-Cernea" xml:id="ParlaMint-RO_2015-10-12-id7569.u147">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u147.seg1">Vă mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u147.seg2">Desigur, cred că este o unanimitate dorinţa noastră de a pedepsi ferm abuzurile sexuale, mai ales cele îndreptate împotriva minorilor. Dar, dacă sistemul juridic din România ar accepta pedepse corporale, precum castrarea chimică, acesta ar fi un imens pas înapoi pentru civilizaţie, pentru că sistemul juridic nu cred că trebuie să-şi propună un soi de răzbunare sau de afectare a integrităţii fizice şi psihice, chiar şi a unui infractor; chiar şi un infractor este om şi ar trebui să-i fie respectate anumite drepturi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u147.seg3">De aceea, văd şi această iniţiativă legislativă ca fiind una populistă, una care ar face apel la resentimente şi la ură. Desigur, cu toţii putem fi revoltaţi şi am fost revoltaţi în privinţa multor abuzuri sexuale care au avut loc în România, sunt mult prea multe astfel de situaţii şi sunt de acord că legislaţia trebuie să fie dură, dar nu cu pedepse corporale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u147.seg4">Mă bucur că acest proiect este trecut la lista proiectelor cu raport de respingere. Sper să fie un vot larg împotriva lui şi sper ca, atunci când avem o problemă în societate, să încercăm să o tratăm cu înţelepciune, cu rezonabilitate, cu responsabilitate şi să nu ne lăsăm copleşiţi de emoţie şi de dorinţă de răzbunare. Nu prin astfel de sentimente putem crea o legislaţie într-adevăr democratică şi la standarde înalte europene.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u147.seg5">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u148">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u148.seg1">Domnul Benga.</seg>
+        </u>
+        <note type="speaker">Domnul Ioan Benga:</note>
+        <u ana="#regular" who="#Ioan-Benga" xml:id="ParlaMint-RO_2015-10-12-id7569.u149">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u149.seg1">Şi Grupul parlamentar al Partidului Social Democrat va respinge acest proiect. Într-adevăr, ar fi un pas înapoi pentru o Românie pe care vrem să o considerăm că este componentă a Uniunii Europene şi este o Românie modernă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u149.seg2">Cred că în şcoala românească şi pe toată media românească ar trebui făcută mai multă educaţie, în sensul prevenirii acestor acte decât în sensul cultivării şi transmiterii lor pe piaţă, lucruri care influenţează negativ tânăra generaţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u149.seg3">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Petru Gabriel Vlase:</note>
+        <u ana="#regular" who="#Petru-Gabriel-Vlase" xml:id="ParlaMint-RO_2015-10-12-id7569.u150">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u150.seg1">Vă mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u150.seg2">Declar închisă şedinţa de astăzi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u150.seg3">Urmează şedinţa consacrată răspunsurilor la interpelări, la ora 18,00.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u151">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u151.seg1">Bună seara!</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u151.seg2">Deschid şedinţa noastră de plen consacrată răspunsurilor orale la interpelări.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u152">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u152.seg1">Aveţi cuvântul, domnule ministru.</seg>
+        </u>
+        <note type="speaker">Domnul Ion Aurel Stanciu (secretar de stat, Ministerul Transporturilor):</note>
+        <u ana="#regular" who="#Ion-Aurel-Stanciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u153">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg1">Mulţumesc frumos, doamna preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg2">Domnilor deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg3">Domnule deputat,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg4">Referitor la interpelarea dumneavoastră înregistrată cu nr. 2381B/2015, am onoarea să vă informez următoarele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg5">Conform contractului de servicii publice pentru perioada 2012-2015, în vigoare din 6 februarie 2012, Hotărârea Guvernului nr. 74/2012, Societatea Naţională de Transport Feroviar de Călători - CFR Călători S.A. introduce în circulaţie cu prioritate numărul şi categoria de trenuri incluse pe pachetul minim social aprobat, structurat pe servicii tip regio şi interregio, pentru care primeşte compensaţie de la bugetul de stat şi/sau bugetele locale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg6">Pentru anul 2015, SNCFR Călători S.A. are alocată o compensaţie pentru susţinerea transportului feroviar de călători cu 20% mai mică decât compensaţia alocată în anul 2014.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg7">Cu toate acestea, vă informez că pentru a veni în sprijinul cetăţenilor din localităţile situate pe relaţia de circulaţie Parc Kretzulescu - Câmpulung - Goleşti, începând cu data de 15 luna aceasta, octombrie, CFR Călători va introduce în circulaţie patru trenuri, câte două pe fiecare sens.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg8">Acestea vor asigura transportul cetăţenilor din aceste localităţi înspre şi dinspre municipiul Bucureşti, având în compunere vagoane directe.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u153.seg9">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u154">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u154.seg1">Vă mulţumim şi noi.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u155">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u155.seg1">Vă rog.</seg>
+        </u>
+        <note type="speaker">Domnul Ion Aurel Stanciu:</note>
+        <u ana="#regular" who="#Ion-Aurel-Stanciu" xml:id="ParlaMint-RO_2015-10-12-id7569.u156">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg1">Mulţumesc, doamna preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg2">Stimată doamnă deputat,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg3">La interpelarea dumneavoastră, înregistrată la Camera Deputaţilor cu nr. 2374B/2015, am onoarea să vă informez următoarele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg4">Referitor la întrebarea: care este stadiul lucrărilor de construcţie a variantei de ocolire Aleşd - Centura Aleşd Sud-Aleşd Nord şi Ştei. În ceea ce priveşte proiectele la varianta de ocolire, vă informăm că în urma testării acestora, modelul matematic al Masterplanului General de Transport, a rezultat că nu îndeplinesc criteriile pentru finanţare din fondurile Uniunii Europene cu prioritate în perioada imediat următoare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg5">În acest sens, ţinând cont de lista proiectelor incluse în Masterplanul General de Transport şi de limitele bugetului destinat investiţiilor în domeniul infrastructurii de transport, demersurile pentru implementarea acestor proiecte au fost suspendate.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg6">La a doua întrebare: care este stadiul DN 76 Oradea - Beiuş - Deva. Stadiile fizice pentru contractele aferente tronsonului DN 76 Deva - Oradea, KM 0 la KM 84 + 390 sunt:</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg7">Tronsonul DN 76 Şoimuş - Brad, Km 0 - Km 30 + 436 are un stadiu fizic de 41%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg8">Tronsonul DN 76 Brad - Ioneşti, Km 35 + 431 la KM 55 + 425 are un stadiu fizic de 90%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg9">Tronsonul DN 76 Ioneşti - Vârfurile, KM 55 + 425 la KM 69 + 350 a fost reziliat în data de 24 septembrie. Progresul fizic realizat pentru acest contract, la data rezilierii, este de 29,76%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg10">Tronsonul DN 76 Vârfurile - Ştei, KM 69 + 350 la KM 79 + 300 are un stadiu fizic de 45,2%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg11">Tronsonul DN 76 Ştei - Beiuş, KM 102 + 660 la KM 133 + 660 are un stadiu fizic de 50%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg12">Tronsonul DN 76 Beiuş - Oradea, KM 133 + 600 la KM 184 + 390 a fost reziliat, în data de 25 mai anul acesta, progresul fizic realizat pentru acest contract la data rezilierii este de 7,39%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg13">Contractul 5R11 - DN 76 Ioneşti - Vârfurile, KM 55 + 425 la KM 69 + 350 a fost reziliat în data de 24 septembrie din cauza neîndeplinirii obligaţiilor contractuale de către antreprenor. Progresul fizic realizat pentru acest contract la data rezilierii este de 29,76%. Acest contract va fi relicitat în primul trimestru al anului 2016.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg14">Contractul 5R14 - DN 76 Beiuş-Oradea, KM 133 + 660 la KM 184 + 390 a fost reziliat în data de 25 mai. Acest contract va fi relicitat în primul trimestru al anului 2016.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg15">Întrebarea nr. 3, referitoare la Aeroportul Oradea. Aşa cum cunoaşteţi şi dumneavoastră, Aeroportul Oradea este în subordinea Consiliului Judeţean. Cu toate acestea, dorim să vă aducem la cunoştinţă următoarele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg16">Proiectul de extindere şi modernizare suprafeţe aeroportuare la Aeroportul Oradea, derulat de Aeroportul Internaţional Oradea, este finanţat din Programul Operaţional Sectorial Transport 2007-2013, coordonat de Ministerul Fondurilor Europene. Valoarea proiectului este de 129.709.555 de lei. Anexăm şi în răspunsul scris pe care vi l-am dat şi pe care probabil urmează să îl primiţi în zilele următoare, v-am anexat o fişă tehnică unde aveţi exact: denumirea proiectului, perioada de derulare, valoarea proiectului, sursa de finanţare, actele adiţionale, contractele de supervizare, execuţie, faza de proiectare-execuţie lucrări, ordinul de începere, data efectivă de demarare, precum şi alte date tehnice pe care vi le-am anexat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u156.seg17">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u157">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u157.seg1">Doriţi să interveniţi, doamnă deputat? Aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Doamna Lucia-Ana Varga:</note>
+        <u ana="#regular" who="#Lucia-Ana-Varga" xml:id="ParlaMint-RO_2015-10-12-id7569.u158">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg1">Doamnă preşedinte de şedinţă,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg3">Nu sunt mulţumită de răspunsul pe care l-am primit. Aşteptam să-mi spună foarte clar reprezentantul ministerului de ce s-au sistat investiţiile la şoseaua de centură a Aleşdului. De ce? Am înţeles că s-au sistat, dar de ce?</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg4">Şi al doilea lucru pe care vreau să-l întreb: totuşi, când se porneşte? Am înţeles că s-a derulat o investiţie la aeroportul de la Oradea, dar când este în funcţiune acest aeroport? Pentru că este extrem de greu pentru toţi cei care locuiesc în Oradea, care au afaceri în Oradea, să facă naveta la Cluj sau la Timişoara pentru a putea să vină înspre Bucureşti.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg5">După aceea, vă rog să veniţi, de curiozitate să veniţi de la Oradea la Deva şi să vedeţi cum arată, care este starea drumului de acolo, este cel mai rău drum naţional din toată România. Şi nu am primit un răspuns. Am înţeles că au fost reziliate contracte, ce se întâmplă cu investiţia respectivă? O aveţi ca prioritate? O veţi introduce ca finanţare în bugetul de anul viitor? Ce se întâmplă? Pentru că acolo totuşi sunt comunităţi care, în fiecare zi când ne ducem în teritoriu, ne întreabă ce se întâmplă cu stadiul investiţiei respective.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg6">Deci aştept un răspuns. O să reiau interpelarea cu întrebări şi mai punctuale, pentru că nu sunt mulţumită de acest răspuns.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u158.seg7">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u159">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u159.seg1">Vă mulţumim şi noi.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u160">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u160.seg1">Aveţi cuvântul, domnule secretar de stat.</seg>
+        </u>
+        <note type="speaker">Domnul Dan Popescu (secretar de stat, Ministerul Mediului, Apelor şi Pădurilor):</note>
+        <u ana="#regular" who="#Dan-Popescu" xml:id="ParlaMint-RO_2015-10-12-id7569.u161">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg1">Mulţumesc frumos, doamnă preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg2">Stimată doamnă deputat,</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg3">Referitor la interpelarea dumneavoastră, înregistrată la Camera Deputaţilor cu nr. 2375B/2015, având ca obiect Inventarul forestier naţional, vă comunicăm următoarele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg4">Datele privind volumul de lemn tăiat ilegal din fondul forestier naţional şi din vegetaţia forestieră de pe terenurile din afara acestuia, calculate prin inventarul forestier naţional, au fost prezentate în şedinţa Consiliului Suprem de Apărare a Ţării din data de 9.06.2015. Astfel, pentru totalul arborilor identificaţi ca fiind tăiaţi s-a calculat volumul de masă lemnoasă pe baza informaţiilor despre aceşti arbori, colectate în primul ciclu IFN, respectiv specie, diametru, înălţime, rezultând un nivel mediu anual de 26,69 milioane m.c. În acest volum nu este inclus volumul arborilor tăiaţi ale căror cioturi nu se mai regăsesc în teren.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg5">Având în vedere că între raportările Institutului Naţional de Statistică şi Inventarul forestier naţional se constată o diferenţă medie de circa 8,8 milioane m.c. anual, există suspiciunea că acest volum de masă lemnoasă a fost recoltat ilegal. Precizia datelor din Inventarul forestier naţional este de ą11%.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg6">Pentru prevenirea şi combaterea tăierilor ilegale, dar şi pentru realizarea obligaţiilor stabilite prin Hotărârea Consiliului Suprem de Apărare a Ţării, Ministerul Mediului, Apelor şi Pădurilor a adoptat un set de măsuri, după cum urmează.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg7">Pe plan legislativ s-a urmărit asigurarea unui cadru normativ actualizat şi adecvat care să suprime caracterul lacunar, permisiv ori interpretabil al reglementărilor actuale în domeniu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg8">Au fost aprobate următoarele acte normative:</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg9">Ordonanţa de urgenţă a Guvernului nr. 32/2015 privind înfiinţarea Gărzilor forestiere;</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg10">Hotărârea Guvernului nr. 743/2015 privind aprobarea Regulamentului de organizare şi funcţionare a Gărzilor forestiere;</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg11">Ordinul nr. 1323/2015 privind aprobarea metodelor dendrometrice pentru evaluarea volumului de lemn destinat valorificării şi evaluările necesare calculului volumului de lemn destinat valorificării;</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg12">Ordinul nr. 1330/2015 pentru aprobarea Regulamentului privind organizarea, funcţionarea şi componenţa Comisiei de atestare a operatorilor economici pentru activitatea de exploatări forestiere, precum şi criteriile de atestare pentru activitatea de exploatări forestiere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg13">b) Au fost elaborate şi se află în procedură de avizare următoarele proiecte de acte normative:</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg14">Hotărârea Guvernului privind instituirea schemei de ajutor de stat pentru acordarea de compensaţii reprezentând contravaloarea masei lemnoase pe care proprietarii nu o recoltează datorită funcţiilor de protecţie stabilite prin amenajamentele silvice;</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg15">De asemenea, Hotărârea Guvernului pentru aprobarea Regulamentului de valorificare a masei lemnoase care se recoltează anual din fondul forestier proprietate publică;</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg16">Ordin pentru aprobarea Regulamentului privind atestarea persoanelor juridice care realizează lucrări de regenerare, întreţinere a seminţişurilor şi plantaţiilor, lucrări de îngrijire a arboretelor, precum şi atestarea persoanelor fizice şi juridice care efectuează proiectarea şi/ sau execută lucrări de îmbunătăţiri funciare în domeniul silvic.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg17">Pe plan instituţional s-a urmărit întărirea capacităţii de acţiune a nou-înfiinţatelor Gărzi forestiere, prin extinderea, atât în ceea ce priveşte atribuţiile, cât şi în ceea ce priveşte numărul de personal şi logistică, a Comisariatelor teritoriale de regim silvic şi cinegetic. Personalul din cadrul acestor noi structuri urmează să fie selectat după criterii riguroase de performanţă şi integritate, iar nivelul superior de salarizare prevăzut în actul normativ este menit să stimuleze performanţa şi să elimine actele de corupţie din sistemul de control al aplicării regimului silvic şi cinegetic.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg18">Asigurarea fondurilor financiare necesare reîmpăduririi suprafeţelor de teren forestier de pe care s-a recoltat masă lemnoasă şi care nu au fost reîmpădurite în termenul legal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg19">Şi, de asemenea, dezvoltarea sistemului informatic integrat de urmărire a materialelor lemnoase SUMAL, operaţionalizarea sistemului FMI-MS şi dezvoltarea sistemului "Radarul pădurilor".</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u161.seg20">În speranţa că informaţiile furnizate vă sunt utile, vă asigurăm, stimată doamnă deputat, de sprijinul nostru şi totodată vă stăm la dispoziţie pentru eventuale informaţii suplimentare.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u162">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u162.seg1">Vă mulţumim.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u162.seg2">Aşteptăm intervenţia doamnei deputat.</seg>
+        </u>
+        <note type="speaker">Doamna Lucia-Ana Varga:</note>
+        <u ana="#regular" who="#Lucia-Ana-Varga" xml:id="ParlaMint-RO_2015-10-12-id7569.u163">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u163.seg1">Îi mulţumesc domnului secretar de stat pentru răspunsul pe care l-am primit.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u163.seg2">Cifrele citite de dumnealui, şi anume că 8,8 milioane de metri cubi anual sunt tăiaţi ilegal - sunt îngrijorătoare şi confirmă încă o dată că acest Cod silvic aprobat în Parlament de majoritatea PSD - UNPR nu produce efectele aşteptate, şi anume, nu reduce tăierile ilegale. Iar, pe de altă parte, legislaţia modificată până în acest moment de către minister se pare că nu reuşeşte să stopeze acest fenomen al tăierilor ilegale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u163.seg3">De aceea, sper din tot sufletul că ministerul va susţine acele modificări de acte normative, cum este modificarea Legii siguranţei naţionale, astfel încât să implicăm şi mai multe instituţii care sunt responsabile privind securitatea cetăţenilor şi securitatea naţională în stoparea acestui fenomen.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u163.seg4">Am să fac şi eu o propunere Comisiei pentru mediu, să vină doamna ministru la Comisia pentru mediu, să ne prezinte aceste iniţiative legislative pe care le aveţi în dezbatere publică, să le discutăm şi, de ce nu, să le îmbunătăţim.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u163.seg5">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Doamna Rodica Nassar:</note>
+        <u ana="#regular" who="#Rodica-Nassar" xml:id="ParlaMint-RO_2015-10-12-id7569.u164">
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u164.seg1">Vă mulţumim şi noi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u164.seg2">Ultima interpelare este adresată de către colegul nostru, Niculescu Dumitru, Ministerului Educaţiei şi Cercetării Ştiinţifice. Are ca titlu Gratuitatea manualelor şcolare pentru elevii claselor a XI-a şi a XII-a - limitată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u164.seg3">Din partea Ministerului Educaţiei şi Cercetării, am primit o solicitare de amânare a răspunsului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-10-12-id7569.u164.seg4">Şi, cu aceasta, declar închisă şedinţa noastră de astăzi.</seg>
+        </u>
+        <note type="time">Şedinţa s-a încheiat la ora 18,22.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

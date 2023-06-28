@@ -1,0 +1,774 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-RO_2015-09-29-id7560" xml:lang="ro" ana="#parla.sitting #reference">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ro">Corpus parlamentar român ParlaMint-RO, ședința Camerei Deputaților din 29 septembrie 2015 [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO, Regular Session, Chamber of Deputies, September 29 2015 [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="ro">Stenograma ședinței Camerei Deputaților din România din 29 septembrie 2015</title>
+        <title type="sub" xml:lang="en">Minutes of the session of the Chamber of Deputies of Romania, September 29 2015</title>
+        <meeting corresp="#RoParl" ana="#parla.lower #parla.term" n="54">Legislatura LIV</meeting>
+        <meeting corresp="#RoParl" ana="#parla.lower #parla.session #parla.meeting.regular" n="2">Sesiunea ordinară 2</meeting>
+        <meeting corresp="#RoParl" ana="#parla.lower #parla.sitting" n="20150929">2015-09-29</meeting>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Definirea etapelor proiectului și elaborarea caietului de sarcini.</resp>
+          <resp xml:lang="en">Project set-up and methodology.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Colectare de date.</resp>
+          <resp xml:lang="en">Data retrieval.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <resp xml:lang="ro">Definirea etapelor de procesare.</resp>
+          <resp xml:lang="en">Defining data processing pipeline.</resp>
+          <resp xml:lang="ro">Implementarea procesului de procesare a datelor și codarea corpusului în format TEI.</resp>
+          <resp xml:lang="en">Data processing pipeline implementation, and encoding corpus in TEI format.</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="61" xml:lang="ro">61 discursuri</measure>
+        <measure unit="speeches" quantity="61" xml:lang="en">61 speeches</measure>
+        <measure unit="words" quantity="18297" xml:lang="ro">18297 cuvinte</measure>
+        <measure unit="words" quantity="18297" xml:lang="en">18297 words</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno type="URL">https://github.com/clarin-eric/ParlaMint</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+          <p xml:lang="ro">Acest cod este supus drepturilor de autor prin <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Priznanje avtorstva 4.0 mednarodna licenca</ref>.</p>
+        </availability>
+        <date when="2021-01-08">2021-01-08</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="en">Meeting minutes of the Romanian Parliament</title>
+          <title type="main" xml:lang="ro">Stenograme ale şedinţelor din Parlamentul României</title>
+          <idno type="URI">http://www.cdep.ro/pls/steno/steno2015.stenograma?ids=7560&amp;idl=1</idno>
+          <date when="2015-09-29">29.09.2015</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="ro">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+        <p xml:lang="en">
+          <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+        </p>
+      </projectDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="desc" occurs="51"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="gap" occurs="0"/>
+          <tagUsage gi="head" occurs="2"/>
+          <tagUsage gi="kinesic" occurs="0"/>
+          <tagUsage gi="note" occurs="70"/>
+          <tagUsage gi="seg" occurs="455"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="u" occurs="61"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="country" key="RO">Romania</name>
+          <name type="city">Bucharest</name>
+          <name type="place">Palace of the Parliament</name>
+          <date when="2015-09-29" ana="#parla.sitting">29.09.2015</date>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-01-23"><name>Petru Rebeja</name>: Created file.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text ana="#reference">
+    <body>
+      <div type="debateSection">
+        <head>ROMÂNIA CAMERA DEPUTAȚILOR</head>
+        <head type="session">Ședinta Camerei Deputaților din 29 septembrie 2015</head>
+        <note type="editorial">SUMAR</note>
+        <note type="summary">Aprobarea ordinii de zi şi a programului de lucru.</note>
+        <note type="summary">Dezbaterea şi adoptarea Propunerii legislative pentru modificarea şi completarea articolelor 21 şi 24 din Legea nr. 96/2006 privind Statutul deputaţilor şi senatorilor. (Pl-x 79/2015).</note>
+        <note type="summary">Dezbaterea şi respingerea moţiunii de cenzură intitulate "Alege între România şi Ponta, un premier compromis. Demite-l pe Victor Ponta!", iniţiată de 183 de senatori şi deputaţi.</note>
+        <note type="summary">Informare privind depunerea la secretarii generali ai Camerei Deputaţilor şi Senatului, în vederea exercitării de către deputaţi şi senatori a dreptului de a sesiza Curtea Constituţională, a următoarelor legi:- Legea pentru modificarea art. 45 din Legea nr. 96/2006 privind Statutul deputaţilor şi al senatorilor (Pl-x 79/2015)(adoptată în procedură de drept comun);- Legea pentru ratificarea Acordului între Guvernul României şi Guvernul Republicii Cipru privind protecţia reciprocă a informaţiilor clasificate, semnat la Nicosia la 31 octombrie 2014 (PL-x 471/2015)(adoptată în procedură de drept comun).</note>
+        <note type="editorial">Sedinta comuna a Camerei Deputatilor si Senatului din 29 septembrie 2015</note>
+        <note type="time">Şedinţa a început la ora 10,20.</note>
+        <note type="narrative">Lucrările au fost conduse de domnul deputat Valeriu Ştefan Zgonea, preşedintele Camerei Deputaţilor, asistat de domnul deputat Ion-Marcel Ciolacu, secretar al Camerei Deputaţilor, şi de domnul senator Alexandru Pereş, secretar al Senatului.</note>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#chair" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u1">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg1">Liderii parlamentari, o să vă rog să vă ocupaţi locurile pentru a începe şedinţa comună a Camerei Deputaţilor şi Senatului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg2">Domnul Solomon, doamna Creţu, vă rog frumos să începem şedinţa. Vă mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg3">Domnilor miniştri, vă rog frumos să luaţi loc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg4">Domnul Sturzu, vă rog eu frumos, haideţi să ne ocupăm de ce avem fiecare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg5">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg6">Liderii grupurilor parlamentare, rog frumos să-şi invite colegii în sală.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg7">Domnul Solomon, vă rog eu frumos.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg8">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg9">Domnilor miniştri,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg10">Doamnelor şi domnilor deputaţi şi senatori,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg11">Declar deschisă şedinţa de astăzi a Camerei Deputaţilor şi Senatului şi vă anunţ că, din totalul celor 549 de parlamentari, şi-au înregistrat prezenţa 309.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg12">Potrivit Regulamentului şedinţelor comune, proiectul ordinii de zi şi al programului de lucru pentru şedinţa comună de astăzi au fost adoptate de către Birourile permanente ale celor două Camere în forma în care au fost distribuite şi supuse aprobării Parlamentului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg13">Dacă sunt comentarii cu privire la ordinea de zi? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg14">Supun votului ordinea de zi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg15">Cine este pentru?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg16">Secretarii, vă rog frumos să număraţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg17">304 voturi pentru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg18">Abţineri? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg19">Voturi împotrivă? Nu avem.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg20">Adoptat în unanimitate.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg21">Dacă în legătură cu programul de lucru sunt comentarii?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg22">Cine este pentru? 306 voturi pentru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg23">Abţineri? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg24">Voturi împotrivă? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u1.seg25">Adoptat în unanimitate.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u2">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u2.seg1">Raportul Comisiei permanente a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u2.seg2">Dacă de la iniţiatori doreşte cineva să ia cuvântul? Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u2.seg3">Domnule preşedinte al comisiei, vă rog frumos să prezentaţi raportul.</seg>
+        </u>
+        <note type="speaker">Domnul Bogdan Nicolae Niculescu Duvăz:</note>
+        <u ana="#regular" who="#Bogdan-Nicolae-Niculescu-Duvaz" xml:id="ParlaMint-RO_2015-09-29-id7560.u3">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg1">Domnilor preşedinţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg2">Stimate colege şi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg3">Raport asupra propunerii legislative pentru modificarea şi completarea Legii nr.96/2006 privind Statutul deputaţilor şi al senatorilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg4">În conformitate cu prevederile art.21 din Regulamentul activităţilor comune ale Camerei Deputaţilor şi Senatului, Comisia permanentă a Camerei Deputaţilor şi Senatului privind Statutul deputaţilor şi al senatorilor, organizarea şi funcţionarea şedinţelor comune ale Camerei Deputaţilor şi Senatului a fost sesizată spre dezbatere în fond cu propunerea legislativă pentru modificarea art. 21 şi 24 din Legea nr. 96/2006 privind Statutul deputaţilor şi al senatorilor, trimisă de Camera Deputaţilor cu adresa Pl-x 79/2015 din 23 februarie 2015, înregistrată cu nr. 72/16.02.2015 şi de Senat cu adresa nr. L 132/2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg5">Iniţiativa legislativă are ca obiect de reglementare modificarea art. 21 şi 24 din Legea nr. 96 privind Statutul deputaţilor şi al senatorilor, republicată, în sensul prevederii exprese a modalităţii de exercitare a votului membrilor Camerelor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg6">Potrivit prevederilor art. 73 alin. (3) lit. c) din Constituţia României republicată, propunerea legislativă face parte din categoria legilor organice şi urmează a fi dezbătută şi adoptată de cele două Camere ale Parlamentului în şedinţă comună conform dispoziţiilor art. 65 alin. (2) lit. j) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg7">Consiliul Legislativ a avizat favorabil iniţiativa legislativă conform avizului nr. 2/1591/20.03.2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg8">Membrii comisiei au examinat propunerea legislativă menţionată mai sus în şedinţa din 28.09.2015.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg9">La lucrările comisiei au participat şase din totalul de opt membri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg10">În urma dezbaterilor şi a opiniilor exprimate, membrii comisiei au hotărât cu unanimitate de voturi adoptarea cu amendamentele prezentate în anexă a propunerii legislative pentru modificarea art. 21 şi art. 24 din Legea nr. 96/2006 privind Statutul deputaţilor şi al senatorilor, republicată, în conformitate cu dispoziţiile art. 65 alin. (2) lit. j) din Constituţia României, republicată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg11">Comisia a adoptat raport de admitere cu amendamente a propunerii legislative.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg12">În raport cu obiectul şi conţinutul său ce vizează modificarea unei legi organice, iniţiativa legislativă face parte din categoria legilor organice privind art. 73 alin. (3) lit. c) din Constituţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u3.seg13">Vă mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u4">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg1">Dezbateri generale? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg2">Luări de cuvânt?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg3">Urmează să dezbatem proiectul de lege pe articole. Sunt şapte amendamente ale comisiei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg4">Dacă la primul amendament al comisiei sunt obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg5">Cel de al doilea, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg6">Cel de al treilea, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg7">Cel de al patrulea, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg8">Cel de al cincilea amendament al comisiei, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg9">Cel de al şaselea amendament al comisiei, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg10">Cel de al şaptelea amendament al comisiei, obiecţii, comentarii? Nu. Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg11">Urmează votul final.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg12">Comisia pentru statut vă propune adoptarea acestei iniţiative legislative cu amendamente.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg13">Cine este pentru? Vă rog, ridicaţi mâna. 293 de voturi pentru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg14">Abţineri?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg15">Nu vă supăraţi pe mine, aţi votat şi aşa, şi aşa.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg16">Grupul UDMR a votat pentru şi acum a votat abţinere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg17">O voce din sală:</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u4.seg18">Nu, în faţă nu.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u5">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg1">În faţă nu, dar în spate da. OK! Nicio problemă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg2">Număraţi, vă rog frumos.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg3">Ca întotdeauna.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg4">31 de abţineri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg5">Voturi împotrivă? Un vot împotrivă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg6">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg7">Două voturi împotrivă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg8">293 pentru, 31 de abţineri, două voturi împotrivă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u5.seg9">Proiectul de lege a fost adoptat.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u6">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u6.seg1">Vă informez că, după prezentarea moţiunii de cenzură a Camerei Deputaţilor şi Senatului din ziua de miercuri, 23 septembrie, nu au fost înregistrate cereri de retragere a semnăturii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u6.seg2">Întreb în plenul celor două Camere dacă există. Nu. Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u6.seg3">Pentru dezbaterea moţiunii de cenzură, Birourile permanente...</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u6.seg4">Pe procedură, vă rog frumos.</seg>
+        </u>
+        <note type="speaker">Domnul Gheorghe-Eugen Nicolăescu:</note>
+        <u ana="#regular" who="#Gheorghe-Eugen-Nicolaescu" xml:id="ParlaMint-RO_2015-09-29-id7560.u7">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u7.seg1">Domnule preşedinte de şedinţă,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u7.seg2">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u7.seg3">Domnul preşedinte Zgonea, pe bună dreptate, regulamentar a întrebat dacă sunt colegi care-şi retrag sau nu semnătura.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u7.seg4">Dar, în acelaşi timp, domnul preşedinte Zgonea a fost informat în scris că sunt trei colegi de la PNL care n-au semnat moţiunea, dar care, ulterior, şi-au exprimat dorinţa de a o semna. Este vorba de domnul deputat Alexandru Băişanu, domnul deputat Marian Avram şi domnul deputat Victor Manea.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u7.seg5">Fac această precizare pentru stenogramă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u7.seg6">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u8">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg1">Mulţumesc foarte mult, domnule lider de grup.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg2">Cine semnează o moţiune de cenzură după depunerea ei de către grupul parlamentar sau grupurile parlamentare este o chestiune doar de stenogramă, pe care aţi spus-o în fiecare şedinţă şi aţi trimis-o şi Biroului permanent. Ea nu are nicio relevanţă în ceea ce priveşte numărul de semnături stabilit de Regulament şi de Regulamentul şedinţelor comune. Să fie foarte clar pentru toată lumea. Da?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg3">Bun! Întreb încă o dată dacă există deputaţi sau senatori care doresc să-şi retragă semnătura. Nu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg4">Pentru dezbaterea moţiunii de cenzură, Birourile permanente împreună cu liderii grupurilor parlamentare au hotărât să propună timpul maxim alocat. Guvernul 60 de minute; grupurile parlamentare, după cum urmează: PSD 44, PNL 29, ALDE şase minute, UDMR patru minute, Grupul minorităţilor naţionale trei minute, Grupul parlamentar naţional democrat două minute, deputaţii şi senatorii neafiliaţi patru minute.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg5">Dacă sunt obiecţii? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg6">Supun votului aceste propuneri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg7">Cine este pentru? Rog secretarii să numere. 312 voturi pentru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg8">Abţineri? O abţinere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg9">Voturi împotrivă? Nu sunt.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg10">Aprobat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg11">Bun! Rog liderii grupurilor parlamentare, conform procedurilor, să depună la secretarii de şedinţă ai celor două Camere reunite lista cu membrii grupurilor parlamentare care doresc să ia cuvântul la această moţiune de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg12">În conformitate cu prevederile art.95 din Regulamentul şedinţelor comune, dau cuvântul domnului deputat Eugen Nicolăescu pentru prezentarea moţiunii de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u8.seg13">Domnule Nicolăescu, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Gheorghe-Eugen Nicolăescu:</note>
+        <u ana="#regular" who="#Gheorghe-Eugen-Nicolaescu" xml:id="ParlaMint-RO_2015-09-29-id7560.u9">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg1">Domnilor preşedinţi ai celor două Camere ale Parlamentului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg2">Doamnelor şi domnilor senatori şi deputaţi ai României,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg3">Parlamentul este primul for democratic care are datoria să reprezinte interesele poporului român şi să sancţioneze situaţiile în care puterea nu mai guvernează pentru cetăţeni.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg4">Am cerut convocarea Parlamentului pentru a discuta despre cum vrem, dar, în primul rând, despre cum doresc românii să arate România mâine. Constatăm cu toţii că suntem singura ţară din lume în care există un prim-ministru inculpat trimis în judecată şi aflat încă în funcţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg5">Îşi permite România să fie reprezentată la nivel de prim-ministru de un inculpat trimis în judecată? Cetăţeni, politicieni, ne mai permitem să tolerăm minciuna, corupţia şi impostura actualului prim-ministru? Sunt întrebări la care trebuie să răspundem acum! Cei mai mulţi concetăţeni au făcut-o deja, au semnat pentru demiterea lui Victor Ponta, în sondajele de opinie îşi exprimă nemulţumirea faţă de un asemenea premier, după ce l-au respins la prezidenţiale.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg6">Partidul Naţional Liberal a decis să depună de îndată această moţiune de cenzură împotriva Guvernului, pentru că situaţia actuală, cu un premier trimis în judecată, compromite o naţiune întreagă. În orice altă ţară din Uniunea Europeană premierul şi-ar fi dat demisia în momentul următor începerii urmăririi penale, adică acum mai bine de trei luni de zile.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg7">În acest moment, România are un prim-ministru care în orice cancelarie europeană este privit doar ca un inculpat. Au apărut chiar exemple concrete de miniştri luaţi în derâdere de omologii lor din cauza acestui politician care se vrea de neînlocuit. Toţi oficialii europeni ştiu că Victor Ponta se află în boxa acuzaţilor. PNL este partidul care apără prezumţia de nevinovăţie, dar această prezumţie nu poate fi folosită ca pretext pentru discreditarea totală a poziţiei de prim-ministru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg8">Aşadar, stimaţi parlamentari, dragi români, Victor Ponta trebuie să plece din fruntea Guvernului, pentru că:</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg9">un premier acuzat de fals în înscrisuri nu poate semna acte normative ale României;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg10">un premier acuzat de complicitate la evaziune fiscală în formă continuată nu poate gira bugetul României;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg11">un premier aflat în faţa judecătorilor pentru spălarea banilor nu poate avea pe mână taxele şi contribuţiile românilor;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg12">un premier acuzat de fapte legate de corupţie nu va putea garanta românilor un scrutin corect în 2016;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg13">un astfel de premier va negocia cu FMI doar de pe treptele tribunalului, între două înfăţişări.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg14">În ciuda propriilor sale laude, acest prim-ministru lasă o economie cu probleme structurale, plină de incertitudini. Guvernul Ponta este guvernul care a tăiat masiv investiţiile şi a blocat construcţia de autostrăzi, de noi spitale şi şcoli. A făcut praf marile privatizări, abandonându-le, bineînţeles, în mari anchete de corupţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg15">Vă cerem astăzi, doamnelor şi domnilor senatori şi deputaţi, să puneţi capăt, în al doisprezecelea ceas, acestei situaţii ruşinoase în care ne aflăm.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg16">Domnule Gabriel Oprea,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg17">Vrem să ne spuneţi tuturor, acum, care este interesul naţional care reclamă menţinerea lui Victor Ponta cu preţul decredibilizării acestei ţări? Puneţi în balanţă promisiunea făcută lui Ponta şi interesul acestui popor. Ce alegeţi?!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg18">Domnule Liviu Dragnea,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg19">Vorbeaţi recent de resetarea clasei politice, de o nouă politică. Sprijinindu-l pe Ponta, nu faceţi decât să vindeţi iluzii românilor. Menţinerea PSD la guvernare nu poate fi un scop în sine. Nu mai confundaţi România cu partidul! Dacă vi-l doriţi pe Ponta şi nu puteţi scăpa de el, folosiţi-l la PSD, dar nu la Palatul Victoria. PSD-ul ce alege, România sau Victor Ponta?!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg20">Dacă sunteţi alături de Ponta, sunteţi complicii lui. Dar, în această situaţie, sunteţi poate chiar mai vinovaţi decât el. Distrugeţi iremediabil imaginea României, imaginea noastră. Uitaţi-vă în presa internaţională! Cu un astfel de precedent toxic, arătăm ca un stat care tolerează corupţia sau care acceptă corupţi la vârful celor mai importante instituţii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg21">Doamnelor şi domnilor senatori şi deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg22">Vă cerem să analizaţi cu înţelepciune şi în folosul României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg23">Cei care v-au votat şi v-au trimis în Parlament nu v-au cerut să ţineţi în funcţia de premier un inculpat urmărit penal. Dacă veţi vota împotriva acestei moţiuni de cenzură, veţi trăda speranţa românilor care mai cred că viitorul aparţine celor cinstiţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg24">Este timpul ca, din banii cetăţenilor, să nu mai plătim dezonoarea. Ne aflăm acum, mai mult ca oricând, în situaţia în care aveţi obligaţia să spuneţi că vă pasă de această ţară.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg25">Dacă veţi fi de acord cu demersul nostru, înseamnă că veţi considera că România este mai importantă decât interesul PSD de a guverna oricum, inclusiv cu un prim-ministru inculpat trimis în judecată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg26">Votul de astăzi îl acordaţi pentru sau împotriva decenţei, corectitudinii şi responsabilităţii în exercitarea funcţiei publice. Numai aşa putem reclădi o Românie demnă, şi aceasta este posibilă numai "fără Victor Ponta".</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u9.seg27">Mulţumesc. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u10">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u10.seg1">Mulţumesc foarte mult pentru intervenţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u10.seg2">Îl invit la tribună pe prim-ministrul României, domnul Victor Ponta, pentru prezentarea poziţiei Guvernului cu privire la moţiunea de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u10.seg3">Domnule prim-ministru, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Victor-Viorel Ponta prim-ministrul Guvernului României:</note>
+        <u ana="#regular" who="#Victor-Viorel-Ponta" xml:id="ParlaMint-RO_2015-09-29-id7560.u11">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg2">Guvernul munceşte, de asta şi parlamentarii sunt acolo.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg3">Domnule preşedinte al Senatului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg4">Domnule preşedinte al Camerei Deputaţilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg5">Stimaţi colegi deputaţi şi senatori,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg6">Astăzi trebuia să mă aflu în faţa dumneavoastră, conform prevederilor constituţionale, pentru o moţiune de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg7">Din păcate, cred că este datoria iniţiatorilor de a lămuri ce anume se întâmplă astăzi, pentru că dincolo de o serie de jigniri, invective - cu care m-am obişnuit, de altfel - nu există azi, în faţa dumneavoastră, niciun fel de critică adusă actului de guvernare. Nu există astăzi, în faţa dumneavoastră, niciun fel de opinie a opoziţiei despre cum se desfăşoară actul de guvernare şi, bineînţeles, nu există în faţa dumneavoastră nicio soluţie în cazul, sigur, improbabil, în care moţiunea ar trece.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg8">Cred că este o confuzie stârnită în rândul Parlamentului - şi nu doar - de iniţiatori. Este nevoie de lămuriri şi pentru oamenii aduşi cu autobuze în faţă, în ploaie. Probabil că ei credeau că vin să protesteze împotriva celor care le-au tăiat pensiile şi salariile. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Însă, ca să fiu sincer, nici domnul Blaga nu mai e ce-a fost odată. Sunt mai mulţi jandarmi şi jurnalişti decât protestatari, dar asta e, timpul ne marchează pe toţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg9">O moţiune de cenzură, în sensul în care a fost introdusă în Constituţia României, se referă, repet, la activitatea Guvernului, la măsurile economice, sociale, la problemele populaţiei. Nu există aşa ceva.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg10">Vreau să vă dau un citat de ieri, cu care sunt cu totul de acord şi sunt convins că şi colegii de la PNL-PDL nu pot să-l contrazică: "Economia României beneficiază de avantaje importante: creştere economică susţinută, stabilitate financiară şi monetară, datorie publică redusă, forţă de muncă bine pregătită, numeroase resurse. România reprezintă un element de stabilitate pentru întreaga regiune." A spus ieri preşedintele Iohannis investitorilor americani. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Aşa e. Aşa este şi, din acest motiv, trebuie să continuăm în această direcţie pe care o prezentăm cu toţii partenerilor internaţionali.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg11">Cred, ca şi dumneavoastră, ca şi toţi analiştii, că demersul de astăzi al opoziţiei este doar o şmecherie politică prin care să spui: asta e, nu mai avem ce face până la anul, îi lăsăm pe ceilalţi să guverneze. Cam cum a fost şi la Primăria capitalei: nu e bun Oprescu, dar noi nu vrem să conducem Primăria capitalei. Când e de muncă, când e de făcut treabă, cei de la PNL-PDL, sigur, nu se pricep şi e bine că acceptă acest lucru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg12">Vă aduc aminte tuturor că, în 27 aprilie 2012, atunci când Uniunea Social-Liberală s-a prezentat în faţa Parlamentului pentru o moţiune de cenzură, s-a prezentat cu un program de guvernare alternativ, s-a prezentat cu un guvern format, cu o idee foarte clară despre ceea ce făcea rău acel guvern şi ce trebuia îndreptat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg13">Astăzi evident că nu există aşa ceva. Nu există o alternativă la actualul guvern şi mă bucur că se invocă sondajele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg14">Am văzut şi eu ieri un sondaj făcut de PNL, în care 50% din populaţie spunea să-şi vadă de treabă, să lase guvernul în funcţie. Sunt de acord cu oamenii care au acest bun simţ. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg15">Eram pregătit pentru o moţiune de cenzură cu cifre, date economice, sociale, măsuri legislative. Având în vedere că opoziţia nu are de făcut nicio critică la adresa guvernării, nu cred că are rost să le prezint din nou, astăzi, şi, de altfel, apreciez faptul că opoziţia nu vorbeşte despre pensii, despre salarii, despre locuri de muncă, despre situaţia economică, având în rândurile sale exact foştii PDL-işti care au distrus România, în perioada 2010-2012. Ar fi ca şi când vorbeşti de frânghie stând în casă cu spânzuraţii. Şi e un lucru de bun-simţ că nu discutaţi despre problemele guvernării.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg16">Cred, cred că intenţia PNL-PDL de a se ascunde mereu în spatele procurorului, procurorilor, de a aştepta ca aceştia să facă opoziţie în locul lor este o intenţie fundamental greşită, care nu are legătură cu principiile democratice şi cred în continuare că în Parlament trebuie să se facă politică, şi nu justiţie, în justiţie trebuie să se exercite doar drepturile şi libertăţile fundamentale şi responsabilităţile în faţa judecătorilor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg17">Noi, astăzi, aici, suntem în faţa Parlamentului, cel care are dreptul şi obligaţia de a cenzura activitatea Guvernului, şi neexistând o cenzură sau o critică la adresa Guvernului, nu pot decât să mulţumesc coaliţiei de guvernare pentru sprijinul pe care-l acordă în continuare actului de guvernare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg18">Mai vreau să mulţumesc în mod special celor care în continuare au rămas fideli programului cu care toţi cei prezenţi aici, mai puţin, sigur, cei de la PDL, am candidat în 2012: Programul Uniunii Social-Liberale, un program de reforme economice şi sociale care ne-a adus votul oamenilor şi celor de la PSD, şi celor de la UNPR, şi celor de la PC sau PNL, la care se adăuga un sigur lucru, apropo de moralitate şi angajamente. Mi-aduc aminte exact acea frază din acordul USL şi din Programul USL pe care am redactat-o împreună cu fostul preşedinte, domnul Antonescu, că niciodată nu vom face alianţă cu PDL-ul. După cum vedeţi s-au ţinut de cuvânt, cum se ţin ei de obicei. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg19">Vreau încă o dată să spun că este datoria noastră, a celor care am candidat în 2012 pentru un program pe care majoritatea covârşitoare a românilor l-a votat: social-democraţi, progresişti, adevăraţi liberali, conservatori să ducem acest program la bun sfârşit, să ne facem datoria şi anul viitor să ne prezentăm, să vă prezentaţi în faţa alegătorilor cu lucrurile foarte clare pe care le-aţi făcut şi pe care le-aţi îndeplinit.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg20">Mulţumesc şi Grupului minorităţilor naţionale care a sprijinit actuala coaliţie în toate proiectele importante şi care, alături de Guvern şi de Parlament dă un semnal, în această perioadă dificilă de toleranţă, de bună convieţuire între majoritate şi minoritate, de combatere a xenofobiei şi şovinismului care şi-a găsit şi în România imediat reprezentanţi de marcă, pe care trebuie să-i combatem împreună.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg21">Chiar dacă Uniunea Democrată a Maghiarilor din România a decis să voteze moţiunea, respect acest drept al lor, însă cred că există, totuşi, o fractură logică. UDMR-ul a fost întotdeauna constant în a combate implicarea juridicului în politică şi a politicului în justiţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg22">Cred că textul de astăzi este exact invers decât ceea ce aţi afirmat de fiecare dată, şi atunci, repet: respect dreptul dumneavoastră de a vota moţiunea, dar cred că sunteţi obligaţi să spuneţi care este poziţia faţă de ceea ce cer colegii liberali. Şi fiindcă veni vorba despre colegii liberali, sunt convins că n-aţi uitat că în decembrie 2012 au spus că nu sunteţi buni să guvernaţi, acum, când au nevoie de voturile voastre o să spună că sunteţi buni, mâine iar nu vor spune că sunteţi buni, dar este o metodă pe care o aplică în toate cazurile. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Şi domnul preşedinte Dragnea e foarte bun dacă votează, dacă convinge PSD-ul să dea jos Guvernul, dacă nu, e un penal, un baron, un om condamnat pentru faptul că a organizat referendumul pe care dumneavoastră l-aţi votat şi pentru care dumneavoastră aţi făcut campanie alături de noi. Asta e! Si domnul Oprea e un om foarte serios, dacă trădează Guvernul. Dacă nu, e un om foarte rău care trădează interesul naţional şi tot aşa. Ideea este simplă, stimaţi colegi, trădarea şi schimbarea, din păcate, sunt o marcă înregistrată pentru partidul care a candidat în 2014 ca reprezentant ALDE, şi luni dimineaţă s-a trezit la PPE.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg23">Din punctul acesta de vedere staţi într-o companie foarte bună. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg24">Mai cred un lucru, dincolo de ceea ce face Guvernul, că atunci când se dau lecţii de moralitate, trebuie să vedem cine dă acele lecţii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg25">În sfârşit, în sfârşit după ani mulţi, aflăm de milioane, miliarde de euro furate în 2010, 2011, 2012, de colegi aflaţi aici care au semnat moţiunea, exact în perioada în care se tăiau salariile şi pensiile sau se mărea TVA-ul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg26">Cred, totuşi, că cei care au făcut acele lucruri trebuie să spună, în primul rând, dacă s-au schimbat, dacă le pare rău pentru ce-au făcut. Vedeam un fost membru al Guvernului Boc, un PDL-ist, băsist, liberal, domnul Predoiu, chemând oamenii în stradă. Din fericire, n-au venit, pentru că dacă ar fi venit l-ar fi întrebat: de ce a semnat ordonanţele prin care s-au închis spitale, de ce aţi semnat ordonanţele prin care s-au tăiat pensiile şi salariile sau s-a mărit TVA-ul, de ce aţi semnat ca aviz de legalitate pe ordonanţa cu Gala Bute, pe care doar doamna Udrea acum o plăteşte, nu ministrul justiţiei, cel care a îndeplinit ordinul de a semna o hotărâre ilegală, o hotărâre prin care milioane de euro din bani publici s-au folosit în mod greşit.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg27">Mă bucur că oamenii n-au venit în piaţă, că l-aş întreba pe Predoiu toate aceste lucruri. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Mai cred, de asemenea, că dacă vorbiţi de principii pentru alţii, ar trebui să le aplicaţi şi dumneavoastră.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg28">Nu aduc aminte, pentru că nu am condamnat şi nu condamn nici acum insistenţa Partidului Naţional Liberal de a-l avea în Guvern pe domnul Fenechiu, care era trimis în judecată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg29">Faptul că v-aţi răzgândit e un semn de inconsecvenţă şi de imoralitate, dar, totuşi, acum în sală vor vota moţiunea de cenzură o serie de oameni care sunt trimişi în judecată, condamnaţi... Îmi pare rău pentru Dan Motreanu, asta-i viaţa! Dacă tot susţii un lucru, trebuie să-l susţii până la capăt. Dar, ştiţi ce? Stimaţi colegi, deputaţi, în special, dar şi senatori, îl aud pe domnul Predoiu, fost candidat la Buzău, în 2008, vorbind despre legalitate şi statul de drept şi despre cum o să-i ia pe PSD-işti dubele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg30">Mai ţineţi minte cine zicea chestia asta? Cred că domnul George Scutaru, nu? Tot de la Buzău. Poate aude, poate aude totuşi, domnul Predoiu!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg31">În final, pentru a da satisfacţie celor care au conceput acest text, chiar dacă nu are legătură cu activitatea Guvernului şi a Parlamentului, să mă refer un pic şi la obiectul moţiunii sau al textului</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg32">prezentat de distinşii colegi de la PNL-PDL.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg33">Se vorbeşte acolo despre contracte. N-am semnat niciodată niciun fel de contract cu vreo societate cu capital de stat. Ştiu că a semnat domnul Şova cu societăţi din portofoliul AVAS, condus atunci de către domnul Teodor Atanasiu. Deci, dumneavoastră vreţi acum să-mi dau eu demisia pentru că Atanasiu cu Şova au semnat nişte contracte. Care-i logica? <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Sau poate, sau poate domnul Atanasiu a fost sfătuit greşit de către o consilieră a Domniei Sale care era şi avocat şi care ştia foarte bine ce înseamnă contracte cu statul. Dacă cumva le-a uitat, doamna consilier-avocat Gorghiu am în faţă aşa:</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg34">Contract "Gorghiu, Pop şi asociaţii" - AVAS : 25.000 de euro plus TVA;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg35">"Gorghiu, Pop şi asociaţii" - AVAS: 10.000 de euro plus TVA; <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg36">"Gorghiu, Pop şi asociaţii" - AVAS: 6.000 de euro plus TVA; Sunteţi cam scumpă, doamnă Gorghiu! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg37">"Gorghiu, Pop şi asociaţii" - AVAS: 15.000 de euro plus TVA; <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg38">"Gorghiu, Pop şi asociaţii": 10.000 de euro plus TVA. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg39">Dar nu vreţi să vă citesc, totuşi, şi din Corpul de Control al primului-ministru Emil Boc, care zice aşa: "Institutul Naţional al Lemnului, aflat în subordinea AVAS, bineînţeles, va solicita întocmirea unui raport de activitate de către Societatea civilă "Gorghiu, Pop şi asociaţii" pentru perioada cuprinsă în contractul de asistenţă, deoarece nu şi-a îndeplinit obligaţiile contractuale şi să procedeze la recuperarea onorariului achitat".</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg40">Şi am vrut să văd ce-a făcut, domnule, aşa de rău? Nimic grav: Societatea civilă "Gorghiu, Pop şi asociaţii", reprezentanta unei societăţi de stat, nu s-a prezentat în instanţă la procesul cu Baaklini Said, îl cunoaşteţi, nu?, <vocal type="noise"><desc>(Aplauze.)</desc></vocal> motiv pentru care Baaklini Said a câştigat procesul împotriva statului român.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg41">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg42">Când vă uitaţi la paiul din ochiul cuiva, să nu vă încurce bârnele! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg43">Şi vreau să spun un lucru: mai credeau şi alte doamne că dacă au protecţie n-o să păţească niciodată nimic. Şi vreau să vă aduc aminte, doamna Gorghiu, de colegul dumneavoastră, Teo îi ziceaţi dumneavoastră, Teo Nicolescu, nu? Care de aici, de la tribună, venea şi spunea: să-i pedepsim pe corupţi. Cred că e un pic afară acum, înainte de a intra din nou acolo.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg44">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg45">Cred că rolul Parlamentului este de a dezbate activitatea Guvernului, de a critica atunci când Guvernul greşeşte şi de a sprijini atunci când avem împreună proiecte importante. M-am întâlnit ieri, întâmplător, ca să nu... pe holul Parlamentului cu domnul deputat Tomac, din Republica Moldova, colegul nostru, şi i-am zis: "Domnule deputat, dacă votaţi moţiunea şi n-avem Guvern, n-o să putem ajuta Moldova, o să intre în faliment" . Şi mi-a zis: "Hai, domnule, că nu trece moţiunea, ce naiba!". "Păi, şi atunci de ce aţi mai făcut-o?". <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg46">Vreau să spun un singur lucru. Vor fi alegeri anul viitor şi oamenii vor decide. Sunt convins că vor alege oameni buni, mult mai buni decât cei care au făcut azi moţiunea de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u11.seg47">Vă mulţumesc! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u12">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u12.seg1">Are cuvântul doamna deputat...</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u12.seg2">La sfârşit, toată lumea va primi dreptul la replică, conform Regulamentului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u12.seg3">Doamna deputat Alina Gorghiu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u12.seg4">Doamna preşedinte, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Doamna Alina-Ştefania Gorghiu:</note>
+        <u ana="#regular" who="#Alina-Stefania-Gorghiu" xml:id="ParlaMint-RO_2015-09-29-id7560.u13">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg1">Stimaţi parlamentari,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg2">Stimaţi membri ai Guvernului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg3">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg4">După intervenţia domnului Victor Ponta, să ştiţi că înţeleg un singur lucru: Domnia Sa trăieşte în cu totul şi cu totul altă realitate, care-i doar a Domniei Sale şi a nimănui din România. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg5">Şi mai înţeleg un lucru, doamnelor şi domnilor. Că nimic din ce i se întâmplă nu înţelege. Este într-o situaţie în care niciunul dintre noi n-ar vrea să fie. Numai că Domnia Sa n-o recunoaşte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg6">Acum o să vă spun aşa: că am să vă dau o veste bună şi o veste proastă. Vestea bună este că primul-ministru mai are 3-4 cetăţeni români care-l susţin. Vestea proastă însă este că aceştia sunt liderii partidelor de guvernare. Vestea şi mai proastă, însă, este că aceştia din urmă au un interes. Unul dintre dânşii vrea să se aşeze de pe locul de pe care Victor Ponta s-a ridicat în partid, altul îşi doreşte să rămână primul senator al ţării, iar altul confundă, din păcate, puterea cu interesul naţional. Iar toţi confundă interesul naţional cu interesul personal.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg7">Nu le pasă nici măcar de dumneavoastră, dragilor, care astăzi staţi în sală, pentru că dacă v-ar considera suficient de maturi, v-ar lăsa să vă exercitaţi dreptul de vot. Nu le pasă nici de partidele din care faceţi parte, pentru că dacă le-ar păsa nu v-ar compromite. Odată cu Victor Ponta vă compromiteţi toţi. Şi cel mai grav, însă, este faptul că nu dă doi bani pe cetăţenii României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg8">Şi am să vă spun de ce afară, în afara zidurilor acestui Parlament sunt câteva mii de oameni. Ştiu! Contează doar miile de oameni pe care Victor Ponta le strânge de ziua lui pe stadion. Alţi oameni nu contează, doar aceia sunt importanţi în România. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg9">Dar în afara acestor ziduri ale Parlamentului sunt câteva mii de români care au venit să susţină o moţiune de cenzură în stradă şi mai sunt peste un milion de români, stimaţi colegi parlamentari, care au semnat pentru demisia lui Victor Ponta, în momentul în care acesta era doar cercetat penal, şi nu inculpat trimis în judecată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg10">Sunt, în acelaşi timp, în toată ţara milioane de români revoltaţi de ceea ce se întâmplă la vârful puterii guvernamentale. Ştiu, îi ignoraţi, dar va veni momentul în care n-o să mai puteţi să-i ignoraţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg11">Vă invit, astăzi, şi demersul meu este cât se poate de serios, să vă solidarizaţi nu cu şefii de partid, solidarizaţi-vă cu cei din Parcul Izvor, solidarizaţi-vă cu românii şi daţi-i lui Victor Ponta un singur mesaj şi simplu: Lasă-ne! Pleacă! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg12">Vreau să fie foarte clar. Pentru mine şi pentru colegii mei din Partidul Naţional Liberal, Victor Ponta este nevinovat până când justiţia va hotărî într-un fel sau altul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg13">Noi, politicienii, n-avem dreptul nici să judecăm, nici să condamnăm, însă, n-aş fi vrut să spun de la microfon, dar vă dau un exemplu. Pe biroul meu, de ieri, se află demisia lui Dan Motreanu. Vedeţi undeva, pe biroul cuiva, demisia lui Victor Ponta? <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg14">Domnule Ponta,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg15">Am să termin într-o singură frază, pentru că e nefiresc să vă răspund în Parlamentul României bâlciului pe care-l faceţi, dar am să închid într-o singură frază acuzele pe care dumneavoastră le aduceţi în faţa colegilor noştri. Aţi căutat tot ce-aţi putut să găsiţi şi aţi găsit nimic. Mi-aţi făcut plângeri, l-aţi pus pe domnul Cazanciuc să mă ameninţe, aţi făcut tot felul de lucruri care nu stau bine unui om politic. Eu vă spun atât: dacă găsiţi cel mai mic argument pentru care să se spună despre mine că există o urmă de suspiciune că am încălcat legea, vă rog să demonstraţi acest lucru. De acuze m-am săturat. Dumneavoastră sunteţi în instanţă, dar vorbiţi despre toţi alţii din plenul Parlamentului că sunt corupţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg16">Uitaţi-vă în oglindă, domnule Ponta! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg17">Avem în acest moment un prim-ministru care pur şi simplu nu mai poate reprezenta cu onoare Guvernul României, nici în raport cu cetăţenii români, nici în raport cu demnitarii din statele civilizate pentru Occident în acest moment. Şi asta este o realitate. Victor Ponta este un prim-ministru inculpat, trimis în judecată; nimic mai mult, nimic mai puţin. Nimeni nu-l mai sună, ce credeţi, nimeni nu-l mai ascultă şi nimeni nu-l mai primeşte în vizită.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg18">Asta fără ca Victor Ponta să aibă vreo restricţie de călătorie. Nu mai ajunge nicăieri, din păcate. Tot nicăieri ajunge şi România, atâta vreme cât Victor Ponta, lipsit de credibilitate, insistă să rămână prim-ministru. Toată lumea aşteaptă o schimbare pentru că România se află în avarie. Ştiţi ce face Ponta? Nu lasă zeci de kilometri de autostrăzi sau munţi de reforme în urma lui, ci lasă tone de invective, de jigniri, tone de minciuni şi lasă o mare pată pe imaginea României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg19">Vorba cuiva de acum vreo 2000 de ani: "Ştiţi, singura datorie a unui lider de partid este să se autodepăşească, determinându-i pe alţii să-i urmeze exemplul".</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg20">Vi se pare că este coadă în spatele lui Victor Ponta, vi se pare că este vreun exemplu pentru cineva? <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg21">Şi vă mai amintesc o vorbă a cuiva de acum câţiva ani de zile: "Un Guvern cu susţinere zero, este..., haideţi, domnule Ponta, că vă aduceţi sigur aminte, un Guvern cu susţinere zero..., haideţi, stimaţi colegi de la PSD..., este un Guvern zero!" Autorul afirmaţiei este actualul prim-ministru al României, iar afirmaţia este perfect valabilă şi astăzi, pentru că Guvernul său, în condiţiile în care parlamentarii puterii sunt împiedicaţi să voteze, este un Guvern zero.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg22">De când nu mai conduce Guvernul, Victor Ponta este asistat, este dirijat, este controlat de la sediile celor trei partide. Singurul lux, evident, pe care şi-l mai poate permite, şi-l simţim mult pe pielea noastră, este să se mai răstească la opoziţie, să se mai certe cu preşedintele, să mai jignească presa, că doar ce să facă altceva?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg23">Îl ţineţi astăzi, însă, pe Victor Ponta la Palatul Victoria ca pe o haină veche pusă, aşa, într-un umeraş, pe care parcă nici n-aţi arunca-o, dar parcă nici n-aţi mai purta-o. Trebuie să ştiţi, însă, că din dorinţa dumneavoastră de a rămâne la putere faceţi un rău imens imaginii României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg24">E adevărat, conform Constituţiei României, premierul nu poate fi schimbat decât dacă-şi dă demisia sau prin demitere. Prin demisie ne-am lămurit cu toţii că nu se poate şi, fără o aluzie la problema cuiva de sănătate, Victor Ponta mai degrabă şi-ar tăia un picior decât să renunţe la funcţie, indiferent de câte multe pagube ar crea României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg25">Astăzi avem posibilitatea şi, totodată, şansa, stimaţi colegi, să-l demitem printr-o moţiune de cenzură pe care cei care au semnat-o o consideră oportună, legitimă, necesară.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg26">Victor Ponta va pleca mai devreme sau mai târziu de la Palatul Victoria, şi până la alegerile locale vom avea un alt prim-ministru, pentru că nu veţi putea să-l ţineţi în braţe la nesfârşit. Veţi fi obligaţi, până la urmă, de greutatea balastului pe care-l aduce cu sine, să-l eliberaţi din funcţie. Dar vă îndemn, eu şi colegii mei care am semnat moţiunea, să o faceţi acum, să o faceţi astăzi, să o faceţi aici, atâta vreme cât încă rănile pot fi cusute.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg27">Sigur, menţinerea în funcţie a lui Victor Ponta, o să-mi spuneţi şi dumneavoastră, cei din PSD, UNPR şi ALDE, că este una cât se poate de democratică şi curat constituţională. Da, dar este, în acelaşi timp, profund imorală şi deloc dreaptă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg28">Colegii mei au făcut zilele trecute o analiză şi vreau să vă spun câteva concluzii. Vi le spun pentru că menţinerea în funcţie a lui Victor Ponta este o gravă inechitate faţă de alţi bugetari şi faţă de români, în general.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg29">Probabil că ştiţi că sunt peste o sută de funcţionari publici, sunt zeci de mii de angajaţi ai Ministerului de Interne, cadre militare, mii de magistraţi care-şi dedică viaţa profesională apărării interesului public, respectă legea şi se supun acesteia atunci când greşesc. Ştiţi că aceşti funcţionari publici, cadre militare, magistraţi, poliţişti sunt suspendaţi din funcţie, stimaţi parlamentari, în momentul în care se declanşează acţiunea penală sau sunt trimişi în judecată? Ştiţi că prezumţia de nevinovăţie nu este înfrântă, dar interesul cetăţeanului primează atunci când suspendaţi din funcţie?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg30">Arătaţi-mi şi mie cum se va uita Victor Ponta la oricare funcţionar din aceste categorii enumerate, amărâţi care rămân fără funcţie, fără loc de muncă, însă Victor Ponta nici pomeneală, e înţepenit pe scaunul de la Palatul Victoria.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg31">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg32">Concluzia este următoarea: această moţiune să ştiţi că nu este despre Victor Ponta, chiar dacă îi este adresată, este despre realitatea din România, despre România şi despre clasa politică pe care o are, pentru că astăzi aveţi de ales, stimaţi colegi din partidele aflate la guvernare, între a continua sfidarea şi a face nu cine ştie ce act de bravură istorică, ci un gest cât se poate de normal şi de firesc, pe care un om normal, cu minimă morală politică şi civică le-ar face.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg33">Aveţi de ales între a renunţa la ameţeala puterii şi a transmite populaţiei că până şi parlamentarii care susţin un Guvern au momentele lor de luciditate. Aveţi de ales între a sta în genunchi în bănci şi a vă ridica la înălţimea aşteptărilor publice, şi aveţi de ales, până una-alta, între Victor Ponta şi România.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u13.seg34">Vă mulţumesc! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u14">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u14.seg1">Domnul preşedinte al Senatului, domnul Călin Popescu- Tăriceanu, din partea Grupului ALDE.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u14.seg2">Domnule preşedinte, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Călin-Constantin-Anton Popescu-Tăriceanu:</note>
+        <u ana="#regular" who="#Calin-Constantin-Anton-Popescu-Tariceanu" xml:id="ParlaMint-RO_2015-09-29-id7560.u15">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg1">Domnule preşedinte al Camerei Deputaţilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg2">Doamnelor şi domnilor senatori şi deputaţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg3">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg4">Stimaţi membri ai Guvernului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg5">Din considerente de colegialitate şi pentru a scurta aşteptarea poate tensionată a semnatarilor moţiunii, am decis să-mi încep discursul cu concluzia: Grupurile ALDE nu vor vota moţiunea. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg6">Indiscutabil, însă, este dreptul constituţional al parlamentarilor care doresc căderea unui Guvern să depună o moţiune de cenzură, şi noi respectăm cu sfinţenie acest drept.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg7">După cum ştiţi, moţiune este glonţul de aur cu care opoziţia poate să încerce o singură dată pe parcursul unei sesiuni parlamentare demiterea Guvernului prin mijloace democratice. Totuşi, vreau să remarc faptul că în îndelungata mea activitate parlamentară nu am mai întâlnit o situaţie asemănătoare. Şi am să vă explic şi de ce.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg8">În acest text al moţiunii şi din modul în care moţiunea a fost pregătită mi se pare că acest glonţ a fost tras cu multă, multă nonşalanţă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg9">Nu ştiu dacă este vorba de nepricepere, poate de diletantism, mă feresc să folosesc cuvinte mai dure, sau pur şi simplu poate să fie dorinţa de a scăpa cât mai repede de această obligaţie, de această povară pe care o aveţi - de a încerca demiterea Guvernului, sau de toate la un loc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg10">Toată lumea a observat că opoziţia, din păcate, nu are niciun program real, alternativ la Guvern, nici persoane competente care să preia conducerea Executivului, iar, din păcate, noul PNL, o spun cu mult regret, este în realitate vechiul PDL, nu are ideologie, <vocal type="noise"><desc>(Aplauze.)</desc></vocal> nu mai are nicio legătură cu liberalismul - şi vă daţi seama cu cât regret spun acest lucru - dar are o legătură certă. Doamna Paul, legătura de care vreau să vă vorbesc o ştiţi: e legătura cu băsismul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg11">Nu aş vrea să se înţeleagă cumva că regret inoportunitatea acestei moţiuni sau că aş fi preferat ca ea să fie depusă într-un moment, poate, cu sorţi de izbândă. Nu, dimpotrivă, mă bucur că ameninţarea cu o moţiune de cenzură nu mai este posibilă şi Guvernul se poate concentra pe îndeplinirea programului său.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg12">Mă voi opri însă aici cu aceste consideraţii, dar voi continua cu ceea ce consider a fi centrul de greutate al discursului meu, şi anume: dezechilibru puterilor în statul român, care este strâns legat de textul moţiunii dumneavoastră de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg13">De fapt, astăzi, dacă sunteţi de acord cu mine, poate discutăm despre statul de drept. Moţiunea de cenzură pe care o dezbatem azi are legătură cu statul de drept şi are la bază un singur argument: realitatea că primul-ministru a fost trimis în judecată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg14">În ţările cu tradiţie democratică şi în care noţiunea de stat de drept nu este doar o lozincă nici nu se ajungea la moţiune, premierul şi-ar fi dat demisia din primul moment, pentru că singurul argument al trimiterii în judecată era mai mult decât suficient. La noi, din păcate, unele componente ale autorităţii judecătoreşti s-au remarcat nu doar prin succese indiscutabile în lupta cu corupţia, ci şi prin transformarea pe alocuri a actului de justiţie în armă politică, prin abuzuri rămase nesancţionate, care se perpetuează din cauza lipsei oricărui control din partea celorlalte puteri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg15">Evident că nu voi face greşeala să mă pronunţ în privinţa vinovăţiei sau nevinovăţiei primului ministru, aceasta este sarcina constituţională a instanţelor competente, dar îmi voi permite să aduc în discuţie câteva adevăruri notorii despre justiţia română, care mă determină să spun că în România statul de drept este, din păcate, încă un deziderat îndepărtat. De aceea, voi evita să fiu câtuşi de puţin incisiv la adresa opoziţiei şi a moţiunii pe care o prezint. Dar, în schimb, vă invit pe dumneavoastră, toţi din această aulă, în egală măsură, putere şi opoziţie, la un serios proces de analiză şi reflecţie asupra noţiunii statului de drept în România.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg16">Din argumentele şi faptele pe care le voi prezenta, aş dori să ajungeţi şi dumneavoastră la concluzia că este esenţial ca în primul rând să reechilibrăm puterile în statul român prin legislaţie şi atitudine la nivelul Parlamentului, aşa încât să nu ajungem în viitor la situaţia să cerem permisiune procurorilor în legătură cu oportunitatea vreunei decizii politice. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg17">Separaţia puterilor proclamată de Constituţie înseamnă întâi de toate controlul lor reciproc şi echilibrul dintre puteri şi mă întreb, dacă nu cumva, astăzi, puterea judecătorească nu s-a transformat într-o supraputere, dincolo de ceea ce doreşte Constituţia şi regulile simple şi clare ale democraţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg18">Cu caracter prealabil, toată lumea sper că este de acord că puterea judecătorească înseamnă numai judecători şi instanţe judecătoreşti. Ministerul Public nu face parte, potrivit Constituţiei, decât din autoritatea judecătorească, dar nu din puterea judecătorească. Procurorii, după cum ştim, sunt sub autoritatea ministrului justiţiei, iar capul Ministerului Public nu este procurorul general, ci este ministrul justiţiei. Deci procurorii sunt agenţi ai statului şi sunt putere executivă. Din păcate, viciul porneşte chiar de la Constituţie, prin crearea acestei cooperative - nu am găsit poate un nume mai bun - care se cheamă Consiliul Superior al Magistraturii, unde avem de-a valma judecători şi procurori. E drept că sunt două secţii, numai că atribuţiile secţiilor pot fi exercitate după aceea pe căi de contestaţie de către plen şi totul, evident, s-a terminat. Numirea judecătorilor la Înalta Curte, de exemplu, se face de plen, adică şi de procurori, nu numai de secţia pentru judecători.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg19">Procedura în materie deontologică - dacă un judecător este sancţionat deontologic de secţia din care face parte, depune o contestaţie la plen, adică inclusiv la procurori. Păi, unde este independenţa judecătorului? Unde este inamovibilitatea judecătorului, care ne spune că el nu poate fi cercetat sau sancţionat doar de egalii săi?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg20">Potrivit Constituţiei, procurorul nu este egal cu judecătorul, pentru că numai judecătorul e independent şi este supus numai legii. Procurorul este doar imparţial, dar este sub autoritatea ministrului justiţiei şi el serveşte interesul general al societăţii, adică statul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg21">După cum vedeţi, viciul pleacă întâi de toate de la Constituţie, pe care ne-am propus s-o revizuim, dar evident toate lucrurile importante par să treacă pe planul doi. Că s-a transformat puterea judecătorească într-o supraputere, din păcate, este o realitate, la care uneori asistăm şi cu aşa-zise încercări doctrinare. Am să vă citesc din declaraţiile unui judecător, membru în CSM, pe un site politic, vă rog să nu râdeţi, care încerca să dovedească de ce puterea judecătorească este deasupra celorlalte, cu argumente de genul: "(...) ştiţi judecătorii trebuie să aibă facultate, pentru deputaţi şi senatori nu este obligatoriu (...)" Şi nu vreau să dau tot citatul. Niciodată nu am văzut însă argumentul legitimităţii democratice care există la puterea legiuitoare şi prin intermediul puterii legiuitoare la puterea executivă, dar care, după cum ştiţi, din păcate, nu există la sistemul judecătoresc român, unde atât judecătorii, cât şi procurorii sunt numiţi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg22">Întâi de toate, din păcate, eu consider aici că vinovate pentru această supraputere pe care şi-a atribuit-o puterea judecătorească sunt celelalte puteri ale statului, tocmai pentru că nu-şi mai îndeplinesc rolul de a se controla reciproc şi de a asigura acest echilibru - după cum ştiţi - orice putere va avea tendinţa naturală să abuzeze de ea, iar Parlamentul ce face? Nu modifică legile. Avem nenumărate articole din Codul de procedură penală, declarate neconstituţionale, pentru că încalcă drepturile omului, inclusiv egalitatea de arme dintre acuzare şi apărare. Şi nu s-a întâmplat nimic în Parlament, pentru că mi se pare că s-a dat un caz, să nu ne atingem cumva de coduri, deşi există, repet, decizii ale Curţii Constituţionale şi măcar acestea ar fi trebuit să fie puse în acord cu solicitările Curţii în ceea ce priveşte codurile. Avem mai departe, constat, un amalgam incredibil între noţiunea de serviciu de informaţii şi noţiunea de poliţie judiciară.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg23">După cum ştiţi, într-o ţară civilizată, Serviciul de Informaţii nu adună probe pentru justiţie. Serviciul de Informaţii dă informaţii. Probele pentru justiţie le dă poliţia judiciară.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg24">Prin urmare, dacă eu vreau să ascult telefoanele ca să obţin informaţii, trebuie să mă duc la un serviciu de informaţii, dar dacă vreau să ascult telefoanele ca să obţin probe în justiţie, într-o anchetă, acest lucru ar trebui să-l facă poliţia judiciară. Iar la noi, după cum ştiţi, vă aduc aminte, SRI-ul are un monopol vădit care contravine principiilor separaţiei între noţiunea de serviciu de informaţii şi noţiunea de poliţie judiciară.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg25">Mai mult decât atât, într-o ţară civilizată nu există raporturi directe ale procurorului cu un serviciu de informaţii. După cum citiţi tot timpul, şi pare să fie un motiv de laudă, DNA-ul spune că a rezolvat diferite dosare cu sprijinul SRI-ului. Este absurd. DNA-ul trebuie să se bazeze pe poliţia judiciară şi nu pe serviciile de informaţii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg26">Am să menţionez acum o chestiune legată de Legea privind revocarea membrilor CSM. Textul a fost declarat neconstituţional de câţiva ani. Nu se întâmplă nimic şi de aceea membrii CSM-ului nu pot fi recuzaţi de egalii lor, pentru că Parlamentul, din păcate, nu şi-a făcut această treabă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg27">Legile privind numirea procurorilor la DNA şi la DIICOT- Procurorii DNA şi ai DIICOT, după cum ştiţi, au grad de procuror de Înaltă Curte, cel mai înalt grad de procuror, fără să dea vreun examen. Este un simplu interviu, aşa cum este prevăzut de lege. Un magistrat obişnuit, fie el judecător, fie el procuror, porneşte de la nivelul de bază, judecătorie sau parchet de pe lângă judecătorie, şi trebuie să dea examen pentru ca să treacă la tribunal, dă examen dur ca să treacă la Curtea de Apel şi apoi un examen şi mai exigent, pentru ca să treacă la Înalta Curte. Numai la DNA şi la DIICOT cu câţiva ani vechime de la un parchet local, de undeva, de pe lângă o judecătorie dintr-un orăşel, poţi să devii mare procuror, de Înaltă Curte, cu grad de Parchet de Înaltă Curte, într-un singur interviu, şi devii, bineînţeles, şi mare specialist în combaterea corupţiei sau în procese antimafie, da, şi după aceea ne mirăm că avem abuzuri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg28">Ce se întâmplă dacă acel procuror care a promovat atât de sus nu răspunde la comenzi sau nu intuieşte dezideratele şefilor? Păi, vă spun eu ce se întâmplă. I se retrage avizul şi revine de unde a plecat, la parchetul de comună. Da? Bun. Nu mai are după aia, bineînţeles, nici gradul de procuror de Înaltă Curte, nu mai are nici salariul respectiv şi atunci noi continuăm să vorbim de independenţa procurorilor? Nu este, pentru că cel puţin cei din DNA şi DIICOT sunt stricţi, după cum vedeţi, la discreţia şefilor lor. Şi vă întrebaţi atunci de ce sunt posibile abuzurile. Poate acesta să fie un răspuns, pentru că, din păcate, legea le permite. Şi cred că aici este obligaţia puterii legiuitoare să intervină.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg29">Ce ar mai trebui să facă Parlamentul în afară de a legifera? Cred că ar trebui în mod normal să-şi exercite rolul de control parlamentar. Ştiu că inclusiv Curtea Constituţională este foarte reticentă pe această chestiune. Bineînţeles şi CSM-ul este foarte reticent. Au adoptat inclusiv o hotărâre prin care interzice procurorilor să vină în faţa comisiilor de anchetă parlamentare. Dar, dragi colegi, în toată lumea, şi uitaţi-vă la Statele Unite, modelul de democraţie, poate cea mai modernă şi avansată, noţiunea de comisie de anchetă, comisie parlamentară de anchetă, ţine de esenţa oricărui regim democratic.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg30">În fine, am să ajung într-o altă zonă, considerată de mulţi sensibilă. Vine un director din SRI, pe care îl cunoaşteţi cu toţii, şi face o declaraţie publică. Citez: "Noi veghem ca judecătorii să nu-şi uite menirea să servească interesele statului". Felicitări. Păi, parcă judecătorii trebuiau să fie independenţi. Într-un proces penal, avocatul care-l apără pe acuzat se luptă cu statul, că acuzarea e statul, da, e procurorul. Şi dacă judecătorul trebuie să servească interesele statului, atunci înseamnă că avocatul apărării poate să se ducă acasă liniştit. În procesele de contencios administrativ, avocatul se luptă tot cu statul, că statul emite actele de putere.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg31">În procesele de contencios fiscal avocatul se luptă cu statul. Dacă în toate aceste procese judecătorul nu trebuie să uite că-l supraveghează SRI-ul, că el serveşte interesele statului, atunci sigur că vă propun - şi aici avem o serie de avocaţi - în comun, să desfiinţăm avocatura. Nu s-a întrebat nimeni la comisiile de anchetă de ce avem în fiecare an mii şi mii de mandate de ascultare, de siguranţă naţională. Suntem o ţară, înţeleg, plină de trădători, de spioni, de terorişti, tot ce înseamnă ameninţare la siguranţa naţională. Nu se întreabă nimeni dacă nu cumva este o deturnare a instituţiei şi dacă legea nu ar trebui modificată, dacă nu ar trebui poate făcută o anchetă parlamentară, ca să vedem de ce sunt necesare mii şi mii de mandate de ascultare pe siguranţă naţională.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg32">Vă aduc aminte că au mai existat nişte scurgeri, aşa-numitele WikiLeaks. În România, au existat scurgeri WikiLeaks potrivit cărora, la Ambasada Statelor Unite, se duc diverşi şefi din parchete, membri ai CSM-ului, vorbesc, s-a spus şi ce vorbesc, dar nimeni nu a avut nicio reacţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u15.seg33">În fine, nu s-a făcut niciun fel de cercetare la nivelul Parlamentului, de investigaţie...</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u16">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u16.seg1">Domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u16.seg2">Îmi cer scuze, vă rog frumos...</seg>
+        </u>
+        <note type="speaker">Domnul Călin-Constantin-Anton Popescu-Tăriceanu:</note>
+        <u ana="#regular" who="#Calin-Constantin-Anton-Popescu-Tariceanu" xml:id="ParlaMint-RO_2015-09-29-id7560.u17">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u17.seg1">Termin imediat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u17.seg2">Puterea judecătorească în România, înţeleg că este independentă doar de Parlament şi de Guvern. În fine, autoritatea ministrului justiţiei, prevăzută de Constituţie, asupra procurorului este o vorbă goală. Dacă ministrul justiţiei încearcă ceva, imediat o să sară lumea în capul lui, pentru că încalcă independenţa justiţiei.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u17.seg3">Dragi colegi, toate aceste probleme, pe care le-am relevat aici, nu sunt propria mea observaţie sau creaţie. Săptămâna trecută Senatul a organizat o conferinţă pe tema separaţiei puterilor în stat şi a guvernării reprezentative. Din păcate, ar fi fost poate util să veniţi la această dezbatere, unde aţi fi aflat din vocea participanţilor, diferitelor puteri ale statului, toate aceste lucruri, toate aceste adevăruri pe care vi le-am spus astăzi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u17.seg4">Ei bine, fac un apel la vechii penelişti, dacă mai sunt sensibili oare şi preocupaţi de apărarea drepturilor şi libertăţilor individului. Vă readuc aminte că statul de drept nu se bazează pe instituţii represive şi pe întărirea lor nelimitată, statul de drept este cel care este capabil să apere întâi de toate drepturile şi libertăţile cetăţenilor şi ordinea democratică. Poate acest apel al meu are darul să vă trezească, chiar dacă mai târziu.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u17.seg5">Vă mulţumesc. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u18">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u18.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u18.seg2">Grupul parlamentar al UDMR, preşedintele partidului, domnul deputat Kelemen Hunor.</seg>
+        </u>
+        <note type="speaker">Domnul Kelemen Hunor:</note>
+        <u ana="#regular" who="#Hunor-Kelemen" xml:id="ParlaMint-RO_2015-09-29-id7560.u19">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg1">Domnule preşedinte al Senatului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg2">Domnule preşedinte al Camerei Deputaţilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg3">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg4">Doamnelor şi domnilor miniştri,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg5">Doamnelor şi domnilor deputaţi şi senatori,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg6">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg7">Voi începe şi eu scurta mea intervenţie cu ceea ce suntem obişnuiţi să spunem în astfel de situaţii, la încheierea discursului. Membrii grupurilor politice parlamentare ale UDMR, de data aceasta, vor vota împotriva Guvernului. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg8">În acelaşi timp, votul nostru nu este şi nu trebuie considerat un vot pentru susţinerea textului moţiunii de cenzură. Ştiu că trăim vremuri când nuanţele nu, sau doar foarte greu îşi găsesc locul, lucrurile se văd în alb şi negru, mesajele politice sunt extrem de simplificate fără nuanţe, fără detalii, dar realitatea niciodată nu este aşa.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg9">Moţiunea de cenzură, ca instrument constituţional şi democratic, trebuie să se îndrepte împotriva Guvernului şi nu împotriva unui singur membru, fie el primul dintre miniştri. Este de dorit să fie o critică la adresa activităţii sau inactivităţii Guvernului, şi nu îndreptată împotriva unor presupuse fapte care nu au nicio legătură cu munca din Guvern. Sigur se poate şi altfel. Nu există interdicţie. Rămâne doar modul cum înţelegem şi cum interpretăm instituţia moţiunii de cenzură. Noi considerăm că Parlamentul, prin votul său politic, nu poate nici măcar sugera că ar da o interpretare a unui dosar care se află în faţa judecătorilor. Şi ar fi şi un pretext periculos dacă noi am accepta, că doar din cauza unor acuzaţii, fără nicio legătură cu activitatea guvernamentală, se poate schimba un guvern.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg10">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg11">Votul nostru va fi împotriva Guvernului, fiindcă avem nenumărate motive pentru a spune că acest Guvern ar trebui să lase locul unui executiv nou, unei echipe noi. Dacă aş avea timp să fac inventarul tuturor domeniilor economice şi sociale, greu aş găsi un sector unde lucrurile merg bine. Investiţiile sunt ca şi inexistente, administraţia centrală parcă şi-a pierdut busola, Guvernul permanent creează discrepanţe uriaşe şi tensiuni între diferite categorii sociale, în loc de descentralizare, permanent ne trezim cu măsuri şi decizii care îşi bat joc de administraţiile locale, ordonanţele de urgenţă dezechilibrează raportul între legislativ şi executiv, articole esenţiale din diferite legi nu sunt puse în aplicare, ceea ce denotă ori incapacitatea Guvernului, ori voinţa discreţionară. Unii membri ai Guvernului, în loc să arate un echilibru necesar în această perioadă, găsesc tot felul de pretexte şi au devenit porta vocea extremismului şi a unui naţionalism orb.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg12">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg13">Ştim că soarta Guvernului nu este în mâna noastră. Ştim că în această sesiune parlamentară altă moţiune de cenzură nu poate fi iniţiată. Poate în sesiunea de primăvară, vom avea o moţiune care va critica activitatea Guvernului, dar care ne va şi arăta ce va urma a doua zi, după moţiune. Şi totuşi, cetăţenii aşteaptă de la noi, de la noi toţi, consecvenţă şi o acţiune logică, o formaţiune politică aflată în opoziţie nu are cum să voteze altfel, decât împotriva Guvernului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg14">Câţiva colegi m-au întrebat, stimaţi miniştri, domnule prim-ministru, dacă votul nostru va avea consecinţe negative asupra noastră, asupra electoratului nostru. Eu vreau să cred că nu vor exista astfel de consecinţe. Vreau să cred că după 25 de ani nu se pune problema sancţiunilor. Vreau să cred că relaţiile între majoritate şi minorităţile etnice nu se văd doar prin prisma votului din Parlament. Vreau să cred că nu se pune problema răzbunării politice din cauza unui vot exprimat în Parlamentul României.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u19.seg15">Vă mulţumesc pentru atenţia de astăzi. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u20">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u20.seg1">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u20.seg2">Domnul Radu Popa, Grupul parlamentar al Partidului Naţional Democrat, dacă nu mă înşel, nu?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u20.seg3">Domnule deputat, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Radu Mihai Popa:</note>
+        <u ana="#regular" who="#Radu-Mihai-Popa" xml:id="ParlaMint-RO_2015-09-29-id7560.u21">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg1">Mulţumesc, domnule preşedinte,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg2">Stimate doamne şi stimaţi colegi deputaţi, senatori,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg3">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg4">Domnilor miniştri,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg5">Nu am să insist prea mult pe rezultate, pe cifre şi pe analiza comparată Guvernul PDL-Boc - Guvernul Victor Ponta, de teamă să nu încurc proiecţiile economice făcute de economistul-şef al PSD, domnul Dragnea, şi să dăm totul peste cap.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg6">Am să vă spun în schimb de ce nu putem să votăm moţiunea. Pentru că moţiunea eludează în primul rând tocmai ceea ce ar trebui să amendeze, şi anume activitatea Guvernului. Suntem chemaţi astăzi aici să votăm sau nu, stimate coleg, modul în care Guvernul Ponta a înţeles să-şi facă treaba, dumneavoastră considerând, desigur, că Guvernul Boc şi-a făcut treaba. Acuma, ştim cu toţii ce a făcut Guvernul Boc. A crescut TVA-ul ca să aibă "Mexicanul" bani la ANRP, a închis spitalele ca să vină Bănicioiu să le deschidă. Şi dacă vreţi, vă dau exemple până mâine-dimineaţă. <vocal type="shouting"><desc>(Vociferări.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg7">În schimb, calm... în schimb, domnule Nicolăescu şi stimaţi colegi, aş vrea să ne lămuriţi şi pe noi, parlamentarii mai tineri, cei care suntem la primul mandat, dacă nu cumva, inclusiv pentru el, dacă nu cumva cel care face, cel care are dreptul constituţional să dea un guvern jos e Parlamentul, şi nu Înalta Curte şi nu DNA-ul. Eu cred că un guvern se dă jos cu voturile parlamentarilor printr-o moţiune de cenzură. Dumneavoastră aţi făcut o moţiune de cenzură şi ştiind că nu aveţi voturile, nu aţi iniţiat niciun dialog politic. Şi probabil că astăzi vă aşteptaţi ca noi, restul, să vă votăm moţiunea. Îmi pare rău, n-o să putem face asta.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg8">Pe de altă parte, doamnelor şi domnilor din marele Partid Naţional Liberal, nu vă puteţi transforma păcatele în profit. Gala "Pute", care nu mai e Gala Bute, EADS-ul, ANRP-ul şi chiar Dosarul Rovinari sunt tot atâtea motive pentru o moţiune de cenzură. Nu uitaţi că cel mai important e faptul că aici, în Parlament, noi cu toţii ar trebui să stabilim dacă un guvern pleacă sau rămâne. Dumneavoastră aţi înţeles un pic diferit asta şi nu aţi înţeles că votul cetăţeanului stabilit prin Parlament, prin reprezentanţii lui în Parlament, e cel care dă jos Guvernul, asta pentru că nu aveţi puterea de la cetăţeni, ci o aveţi de la un cetăţean.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg9">N-am să vă reţin prea mult, ştiu că sunteţi ocupaţi cu zecile de mii de oameni din piaţă, da, da, ştiu, n-am să vă reţin prea mult, sunteţi ocupaţi, trebuie să mergeţi în piaţă. Am să vă spun însă, am să vă reamintesc însă, cu voia dumneavoastră, că niciodată un guvern n-ar trebui să cadă în urma acţiunilor DNA, ale Înaltei Curţi sau ale altor instituţii ale statului, ci prin votul Parlamentului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u21.seg10">Vă mulţumesc. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u22">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u22.seg1">Mulţumesc, domnule deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u22.seg2">Domnul deputat Negruţ Clement.</seg>
+        </u>
+        <note type="speaker">Domnul Clement Negruţ:</note>
+        <u ana="#regular" who="#Clement-Negrut" xml:id="ParlaMint-RO_2015-09-29-id7560.u23">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg2">Domnule preşedinte al Camerei Deputaţilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg3">Domnule preşedinte al Senatului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg4">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg5">Doamnelor şi domnilor miniştri,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg6">Doamnelor şi domnilor deputaţi şi senatori,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg7">Mărturisesc că sunt un parlamentar la al doilea mandat. Am trecut peste vreo 12 sau 14 moţiuni de cenzură, dacă nu mă înşel. Însă nu pot să spun nu de la această tribună că este prima dată când am un document, o moţiune de cenzură care să nu trateze acţiunea guvernamentală.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg8">Dar ce vreau să spun de la început, ca să nu se piardă, de fapt, importanţa prezenţei mele la acest microfon. Sunt parlamentar neafiliat, membru al Mişcării Populare şi împreună cu colegii mei vom vota această moţiune de cenzură, chiar dacă colegii noştri liberali au ţinut să nu ne solicite semnătura sau nici cel puţin să ne întrebe dacă vom vota această moţiune de cenzură. Îi asigurăm că o vom face. O vom face, pentru că suntem parlamentari de opoziţie, facem parte dintr-un partid care încă de la început s-a manifestat ca un partid de opoziţie faţă de PSD şi faţă de Guvernul Ponta. Aş face o mică paranteză, să-i spun doamnei preşedinte, că în momentul când arătam noi Guvernul zero sau acţiune zero, acum vreo doi ani de zile, da, îmi cer scuze, cred că şi Domniile Lor erau în acel Guvern la momentul respectiv. Mai mult decât atât, am auzit în discursul anterior că s-a depus o moţiune de cenzură de îndată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg9">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg10">Am ratat un moment sau am ratat momentul din această sesiune, când se putea face o moţiune de cenzură care cu adevărat să treacă. De ce am ratat acest moment? Experienţa politică a liderilor PNL şi PDL din noul PNL mă face să cred că n-a fost, să spun aşa, folosită la cel mai înalt nivel, mai ales că PNL-ul avea experienţa doborârii Guvernului Ungureanu. Păi, cum dobori un guvern cu o asemenea abordare, fără să ai o negociere bob cu bob, când ai o majoritate destul de slabă, aş putea spune, fără să ai un program politic, fără să ai un program de guvernare acceptabil, o majoritate cât de cât largă, fără să vii cu o nominalizare de prim-ministru?</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg11">A, sigur, probabil ăia din PDL... şi încă vă ţineţi de nas. Am înţeles. Bun.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg12">Dragii mei colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg13">Închei, pentru că nu vreau să fiu mai critic decât ar trebui să fiu, dar să ştiţi că aveţi nevoie de voturile noastre a celor 5,6 parlamentari de la Mişcarea Populară. Aţi salvat PSD-ul în 2012, când aţi făcut USL-ul, îi salvaţi şi acum, asta înseamnă că USL-ul încă trăieşte să înţeleg, da? Îmi pare rău s-o spun, închei spunând că noi cei din Mişcarea Populară vom vota moţiunea de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u23.seg14">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u24">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg1">Mulţumesc, domnule deputat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg2">Dragi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg3">Daţi-mi voie, în numele dumneavoastră, să-l salut pe preşedintele Comitetului Parlamentar pentru Securitatea Republicii din Parlamentul Republicii Italiene, domnul doctor Giacomo Stucchi, şi delegaţia italiană.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg4">
+            <vocal type="noise">
+              <desc>(Aplauze.)</desc>
+            </vocal>
+          </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg5">Domniile Lor efectuează o vizită oficială la invitaţia domnului Georgian Pop, preşedintele Comisiei pentru controlul Serviciului Român de Informaţii.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg6">Are cuvântul domnul deputat Liviu Dragnea, din partea Partidului Social Democrat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u24.seg7">Domnul preşedinte, aveţi cuvântul, în numele PSD.</seg>
+        </u>
+        <note type="speaker">Domnul Nicolae-Liviu Dragnea:</note>
+        <u ana="#regular" who="#Nicolae-Liviu-Dragnea" xml:id="ParlaMint-RO_2015-09-29-id7560.u25">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg1">Domnilor preşedinţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg2">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg3">Domnilor miniştri,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg4">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg5">Onoraţi oaspeţi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg6">Recunosc că am urmărit cu atenţie şi toate zicerile publice din ultima săptămână de când s-a depus moţiunea de cenzură şi cu mai mare atenţie ce s-a rostit astăzi aici, de la acest microfon. Eu îmi păstrez abordarea dialogului, nu vreau să cert pe nimeni, numai încerc în nişte limite să constat câteva lucruri.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg7">În primul rând, din fericire pentru poporul român, Caragiale încă n-a murit. Şi asta este important, pentru că este vorba de spiritualitatea noastră.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg8">Am văzut, de asemenea, foarte multe acuzaţii, chiar reciproce. Am văzut ieşiri publice în care s-au folosit cuvinte care nu au ce să caute în limbajul unui parlamentar sau a unor parlamentari, indiferent că e domn sau doamnă, care mai au şi pretenţia să vorbească despre un nivel ridicat de civilizaţie în politica românească.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg9">Am văzut astăzi aici, recunosc, cu foarte mare mirare, certuri între cei care susţin moţiunea de cenzură. Se ceartă între ei. Am văzut poziţii referitore la faptul că nu sunt de acord cu textul moţiunii, nu sunt de acord cu faptul că s-a depus, se şi ceartă între ei că de ce a fost depusă, că n-a fost experienţă, că n-au avut strategie, dar o votează prin definiţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg10">Am constatat, fără patimă, în discursul domnului preşedinte de la UDMR că ar fi fost mult mai bine ca textul moţiunii să cuprindă critici la adresa guvernării, care este foarte proastă. În acelaşi timp, au zis ca nu cumva să apară răzbunări. Dar ce răzbunări să apară? Asta chiar n-am înţeles-o.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg11">Am fost foarte atent, n-am înţeles exact dacă atunci când critica guvernarea, acum câteva minute, aici, se referea la toţi cei care sunt în guvernare, în actul de guvernare, sau cu excepţia membrilor UDMR, care încă ocupă posturi importante în structurile guvernamentale. Asta era singura întrebare, la care pot primi răspuns sau nu. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Bineînţeles că n-are nicio legătură cu o eventuală răzbunare. Sunt oameni care-şi fac treaba foarte bine. Se pare că sunt singurii, din păcate.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg12">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg13">Am fost criticaţi că suntem prezenţi şi nu votăm. Eu înţeleg ceva: când cineva porneşte o acţiune înseamnă că are şi oamenii necesari pentru a susţine acea acţiune. Adică, ţi-ai făcut un calcul şi ştii că ai numărul de voturi suficient ca să treacă moţiunea, ai şi echipa guvernamentală care să vină imediat după ce pică guvernul respectiv, ai şi propunere de prim-ministru, ca să arăţi ţării întregi, şi nu numai ţării, şi partenerilor noştri strategici cu care toţi vreţi să vă aveţi bine, că de a doua zi România nu intră într-o aventură, fără nici un orizont, într-o zonă de instabilitate. Nu, susţineţi-ne nouă moţiunea de cenzură, că avem noi o chestiune personală cu Victor Ponta, şi vedem ce facem de-a doua zi. Aşa ceva nu se face. E ca şi cum ne-aţi cere nouă, pe de o parte, să vă aducem parlamentari să vă susţină această acţiune, iar pe de altă parte, să aducem nişte cetăţeni, membri de-ai noştri, eventual, ca să vă mărească rândurile de la miting. Aşa ceva nu se poate face. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg14">Şi nu o spun cu rea-credinţă, doar mă mir de unde brusc a apărut această lipsă de experienţă politică şi de viziune politică.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg15">În final, după discuţiile de astăzi, după împunsături reciproce, jigniri reciproce, vreau să vă dau o veste foarte bună: de mâine noi avem de discutat: despre soarta TVR-ului, despre Legea salarizării bugetarilor, despre Legea bugetului, despre Legea achiziţiilor publice şi alte legi importante pe care, într-adevăr, cetăţenii, despre care vorbiţi toţi, aşteaptă cu interes să le adoptăm, într-o largă dezbatere, pentru ca viaţa lor să fie mai bună. Pentru că scene de genul celor care s-au întâmplat astăzi aici se văd pe multe posturi, pe care nu vreau să le spun astăzi aici, posturi generaliste, şi telenovele, şi "Acces direct", şi indirect, şi "Mireasă pentru fiul meu", şi foarte multe emisiuni de genul ăsta.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg16">În Parlament, cetăţenii români aşteaptă să se voteze legi, pentru ca această ţară să rămână în continuare stabilă şi efectele bune ale unei guvernări bune să fie întărite.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u25.seg17">Vă mulţumesc mult. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u26">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u26.seg1">Mulţumesc foarte mult, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u26.seg2">Domnul senator Vasile Blaga, din partea Grupului parlamentar al PNL.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u26.seg3">Domnule senator, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Vasile Blaga:</note>
+        <u ana="#regular" who="#Vasile-Blaga" xml:id="ParlaMint-RO_2015-09-29-id7560.u27">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg1">Domnule preşedinte al Senatului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg2">Domnule preşedinte al Camerei Deputaţilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg3">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg4">Doamnelor şi domnilor miniştri,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg5">Doamnelor şi domnilor parlamentari,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg6">Onorată asistenţă,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg7">Nu mă bucur, şi am spus-o de mai multe ori, de răul nimănui, fie el cel mai aprig adversar politic. Nu-mi face nicio plăcere situaţia dificilă a domnului Ponta. Nu-l consider nici vinovat, nici nevinovat. Doar justiţia va hotărî asta şi nu-l judec eu în locul justiţiei, deşi l-aţi văzut cu câtă aroganţă, şi astăzi, a dat verdicte asupra unor colegi, uitând situaţia în care se află. Şi, apropo, poate vă uitaţi mai atent câţi oameni sunt în stradă. Şi, domnule Ponta, ce-am fost v-am demonstrat cu vârf şi îndesat în noiembrie anul trecut când v-am scos din politica înaltă. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> Ce o să fiu eu şi Partidul Naţional Liberal, o să vedeţi anul viitor, când o să câştigăm toate alegerile. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg8">Omeneşte, îl pot înţelege pe domnul Ponta, nu e uşor să faci faţă situaţiei în care se găseşte Domnia Sa, dar politica la vârf într-o ţară democrată are reguli clare şi dure, unele scrise, altele nescrise, iar prima regulă este că nu ai voie să te pui pe tine în faţa intereselor ţării, ci tu îţi serveşti ţara, nu ţara te serveşte pe tine. Or, când un înalt demnitar ajunge într-o situaţie personală care face rău poziţiei sale în stat, ţării sale şi fiecărui cetăţean, trebuie să plece imediat din acea demnitate. Şi aici sunt de acord cu domnul preşedinte al Senatului, Călin Popescu-Tăriceanu, că în orice stat democratic primul-ministru ar fi trebuit să-şi dea demisia.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg9">Politicianul ajuns într-o înaltă demnitate are mai multe obligaţii decât orice cetăţean, pentru că prezumţia de nevinovăţie nu se aplică funcţiei, ea se aplică doar cetăţeanului obişnuit, dezbrăcat de acea funcţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg10">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg11">Din nefericire, domnul Victor Ponta a ales dezonoarea şi dezonorează România în fiecare zi. Trebuia să demisioneze imediat după ce a fost pus sub urmărire penală. N-a făcut-o şi nu demisionează nici după ce a fost trimis în judecată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg12">Moţiunea noastră nu este despre un om, noi nu am făcut obsesie pentru Victor Ponta. Dumnealui a făcut obsesie în a minţi şi a se agăţa de putere, deşi se află într-o situaţie incompatibilă cu înalta sa poziţie în stat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg13">De la domnul Ponta nu mai este nimic de aşteptat. De aceea, ne adresăm dumneavoastră, majorităţii parlamentare, care aţi continuat să-l cauţionaţi şi în aceste ultime trei luni. Moţiunea este pentru separarea apelor. Alegeţi să puneţi capăt acestei situaţii sau să fiţi până la capăt cu Victor Ponta într-o politică fără onoare, într-o guvernare fără perspectivă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg14">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg15">Sunt peste 100 de zile de când România are un premier cu probleme penale care se încăpăţânează să rămână în funcţie. Este, aşa cum am spus, o situaţie unică în Uniunea Europeană şi, probabil, unică în lume. Or, consecinţele sunt îngrijorătoare atât pe plan intern, cât şi pe plan extern.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg16">Modelul oferit sutelor de mii de funcţionari şi sutelor de mii de tineri la început de carieră este clar: se poate şi aşa. Dacă premierul poate, eu de ce să nu pot? Rezultatul este erodarea şi degradarea morală a actului de guvernare şi a actului de administraţie.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg17">Pe plan extern, consecinţele sunt la fel de serioase. Credibilitatea domnului Ponta în faţa partenerilor noştri occidentali este de trei luni egală cu zero, şi asta exact într-o perioadă foarte dificilă pe plan global, european şi regional, marcată de multiple crize.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg18">În fine, dar nu în ultimul rând, să nu uităm şi comportamentul domnului Ponta din ultima sută de zile de guvernare. Nu a stat cu mâinile în sân, a făcut tot ce se poate ca să fie uitată situaţia şi să mute atenţia în altă parte. A plecat din ţară pe nepusă masă, ignorând regulile de transparenţă şi protocol, a aruncat cu populisme şi a încercat să transforme Codul fiscal în arma politică personală, a ajuns să provoace şi să întreţină o dispută cu o ţară vecină apelând la retorica şi tertipurile vechi ale unor modele depăşite de politicieni aflaţi în dificultate şi lipsă de orizont pe plan intern. Şi ripostele oficialilor din ţara vecină au fost deplorabile, inadmisibile, dar rămâne gestul gratuit şi singular al unui premier disperat şi fără autoritate, în căutare de subiecte populare şi populiste.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg19">Vă reamintesc că am reparat împreună, prin negocieri, excesele populiste ale premierului Ponta la Codul fiscal, dar nu putem să ne adunăm în conclav de fiecare dată ca să corectăm excesele şi nesăbuinţele unui politician disperat aflat în cădere liberă şi rămas, totuşi, la maneta Guvernului. Cea mai la îndemână soluţie ca ţara să răsufle uşurată este un vot pentru moţiunea de cenzură de astăzi.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg20">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg21">Argumentul cel mai folosit în apărarea domnului Ponta de către unii lideri ai majorităţii cu voci tot mai slabe şi neconvingătoare este că are rezultate economice bune. Şi dacă le-ar fi avut, şi dacă ar fi fost salvatorul economiei, tot ar fi trebuit să plece imediat în situaţia în care se află, dar este o minciună propagandistică.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg22">Guvernul Ponta a făcut tot ce se putea împotriva bunului mers al economiei: a pus zeci de taxe şi impozite mărite în cele mai nepotrivite momente, a sacrificat locuri de muncă şi dezvoltarea unor comunităţi şi regiuni întregi prin tăierea sălbatică a investiţiilor, a înregistrat un eşec de proporţii în absorbţia fondurilor europene şi e pe cale să piardă 7 miliarde de euro din exerciţiul bugetar 2007-2013, a eşuat în privatizarea unor companii de stat, amplificând pierderile acestora, plătite de fiecare român, s-a încurcat în desenarea de autostrăzi pe hârtie, a inaugurat în pripă şi electoral bucăţi de autostrăzi neconsolidate şi n-a început nici măcar un kilometru de autostradă. Iar lista poate continua până diseară.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg23">Doamnelor şi domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg24">Decizia, din păcate, nu este la PNL. Partidul Naţional Liberal nu deţine majoritatea în Parlament. Noi ne-am făcut datoria şi am tras mai multe semnale de alarmă. V-am oferit ocazia să curmaţi această guvernare nefastă chiar acum trei luni. Nu aţi făcut-o şi au urmat trei luni penibile de agonie politică şi guvernamentală în care se zbate domnul Ponta.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg25">Astăzi, v-am oferit soluţia acestei moţiuni de cenzură. Responsabilitatea deciziei este fie la domnul Victor Ponta, fie la dumneavoastră, majoritatea parlamentară ce susţine Guvernul. Domnul Ponta s-a pronunţat. De la dumnealui, din nefericire, nicio speranţă în raţiune, luciditate şi onoare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg26">Prin urmare, doamnelor şi domnilor, de la majoritate vine responsabilitatea unei decizii în favoarea României, în acest moment extrem de complicat. Este un moment care nu va fi uitat de români la alegerile de anul viitor.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg27">PNL va vota astăzi pentru această moţiune care-i va da României şansa să respire uşurată şi perspectiva unui viitor mult mai bun.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u27.seg28">Dumnezeu să vă dea gândul cel bun pentru România şi nu pentru domnul Ponta! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u28">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u28.seg1">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u28.seg2">Doamna senator Cristiana Anghel. <vocal type="noise"><desc>(Aplauze; rumoare.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Doamna Cristiana-Irina Anghel:</note>
+        <u ana="#regular" who="#Cristiana-Irina-Anghel" xml:id="ParlaMint-RO_2015-09-29-id7560.u29">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg1">Dacă tot sunt primită atât de bine, să începem cu o glumă. Dem Rădulescu avea într-un film o replică: "Mamă, ce vezi tu nu e adevărat!" Aşa şi la mine: ce vedeţi aici nu este adevărat.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg2">Nu înseamnă că dacă cineva se îmbracă cu haina liberală a ajuns şi liberal. Lupu-şi schimbă părul, dar năravul ba!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg3">
+            <vocal type="noise">
+              <desc>(Aplauze.)</desc>
+            </vocal>
+          </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg4">Şi acum,revenons ŕ nos moutons!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg5">Doamnă Alina Gorghiu, sunteţi tânără, sunteţi frumoasă, sunteţi deşteaptă. Păcat că doar atât şi păcat că n-aţi înţeles nimic din lecţia doamnei Udrea care, în anumite momente, era considerată idolul Dreptei, veneau oamenii şi luau lumină de la dumneaei, era extraordinarul luptător al Dreptei drepte. Ce s-a întâmplat după aceea? Au considerat-o... ce? Ţapul ispăşitor? Şi au stat până la miezul nopţii să voteze şase propuneri ale Parchetului, de parc-ar fi fost inamicul public numărul 1!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg6">Doamnă, am mai spus-o, o repet şi o voi repeta până când veţi înţelege un lucru: ce faci ţie-ţi faci, ce dai, ţie-ţi dai!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg7">Şi încă un lucru elementar şi esenţial: statul de drept trebuie să aibă la bază Constituţia unei ţări. Este legea fundamentală. Citim art.23 alin.(11): "Până la rămânerea definitivă a hotărârii judecătoreşti de condamnare, persoana este considerată nevinovată." Este principiul constituţional, doamnă, care este prezent şi în Declaraţia universală a drepturilor omului şi în Convenţia europeană a drepturilor omului.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg8">Prin urmare, până când o instanţă - instanţă, nu un procuror - nu spune dreptul printr-o hotărâre definitivă, domnul Ponta, la fel ca dumneavoastră, la fel ca domnul Blaga, la fel ca toţi cei acuzaţi din această sală sau din ţară, este nevinovat, şi are tot dreptul moral de a rămâne în fruntea acestui guvern. Cu tot respectul!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u29.seg9">Mulţumesc. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Călin-Constantin-Anton Popescu-Tăriceanu:</note>
+        <u ana="#regular" who="#Calin-Constantin-Anton-Popescu-Tariceanu" xml:id="ParlaMint-RO_2015-09-29-id7560.u30">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u30.seg1">Urmează la cuvânt domnul senator Puiu Haşotti, din partea Grupului PNL.</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u31">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg2">Domnule preşedinte al Senatului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg3">Domnule prim-ministru,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg4">Doamnelor, domnilor,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg5">A remarcat foarte corect domnul deputat Dragnea că au fost critici şi dintr-o parte, şi din cealaltă a spectrului politic referitoare la această moţiune, într-o zonă nebuloasă, zic eu, totuşi, reprezentanţii a două partide, îi respect, respect tot ceea ce au spus, dar au mai spus de la această tribună că şoriceii când stau în acelaşi bazin cu elefanţii au tot dreptul să spună: "uite ce valuri frumoase facem!".</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg6">Mi-a plăcut ce frumos şi-au zâmbit domnul Dragnea şi domnul prim-ministru Ponta, erau nişte zâmbete sincere, prieteneşti... <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg7">Şi eu am pentru început o veste să vă dau, stimaţi colegi, una bună pentru dumneavoastră, una proastă pentru dumneavoastră, asta-i viaţa. Luni, senatorii PNL au depus o propunere legislativă de completarea Legii plagiatului, prin care spunem că orice lucrare care se va dovedi plagiat să fie nulă de drept. Eu nu doream să intervin, dar am fost inspirat de tot felul de luări de cuvânt. N-am să dau replică doamnei senator venită astăzi îmbrăcată în galben, data trecută a venit în Mickey Mouse, dacă v-aduceţi aminte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg8">Am fost inspirat, cum vă spuneam, de o serie de afirmaţii. În primul rând, domnule prim-ministru, de data aceasta nu vă mai pot acuza că v-a inspirat cineva, că aţi plagiat, nu. Aţi repetat însă cu obstinaţie, cu obstinaţie, ca o flaşnetă defectă, aceleaşi lucruri pe care le spuneţi de luni de zile. Noi am înţeles de la început, noi, liberalii, am înţeles de la început ce vreţi să spuneţi. Dar această repetare la nesfârşit, sigur, mă face să mă gândesc: repetiţia este mama învăţăturii, e adevărat, dar când se repetă atât de des, nu pentru noi, pentru dumneavoastră, înseamnă că e o problemă cu coeficientul de inteligenţă. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg9">A fost o laudă pentru domnul viceprim-ministru Gabriel Oprea, şi ministru de interne, şi preşedinte al UNPR, şi îndrumător de doctorate. Am să vă spun o chestiune care pe mine m-a uimit, referitor la domnul viceprim-ministru Gabriel Oprea: a parcurs treptele militare, gradele militare, mai repede decât Mareşalul Averescu. O fi, n-o fi firesc? Vă las pe dumneavoastră să vedeţi. Cum nu sunt de acord cu Domnia Sa când a spus în 2010 că, în ciuda faptului că i-a botezat un copil domnului Victor Ponta, a spus că acesta nu are nimic sfânt. Este o declaraţie cu totul şi cu totul deplasată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg10">Sigur, domnule prim-ministru, vechii PDL-işti sunt în PDL, tot aşa cum foştii comunişti sunt în PSD!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg11">Din sală:</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u31.seg12">Dumneavoastră de unde sunteţi?</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u32">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u32.seg1">Da. Da. Păi ştiţi de ce? Păi vă spun şi de ce. Vă spun şi de ce, stimaţi colegi. Pentru că domnul - eu i-am zis o dată într-o declaraţie politică tov-domnul - Ion Iliescu nu stă între Alina Gorghiu şi Vasile Blaga, stă între Victor Dragnea... între Liviu Dragnea şi Victor Ponta.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u32.seg2">Din sală:</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u32.seg3">I-aţi cam încurcat!</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u33">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg1">Şi Liviu Ponta merge!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg2">Imediat, aveţi răbdare, domnule prim-ministru!</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg3">Tot aşa cum actualul PNL... şi o spun pentru cineva care a afirmat aici totalmente gratuit că are vreo legătură cu domnul Traian Băsescu. Nu, domnul Traian Băsescu nu are absolut nicio legătură cu actualul PNL, are legătură cu altceva, are legătură cu scandalul veşnic în România, are legătură cu toate diversiunile politice care se pot imagina.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg4">Moţiunea de cenzură pe care am depus-o astăzi, şi aici lucrurile trebuie lămurite, stimaţi colegi, este o moţiune pe care nu aveam cum să nu o depunem şi este o moţiune strict politică. Nicăieri în Constituţie nu se spune că atunci când se depune o moţiune de cenzură trebuie să venim şi cu un plan de guvernare. Nicăieri! Este o moţiune care-l vizează pe primul-ministru, şi primul-ministru dacă-şi dă demisia sau este demis, cade întregul Guvern. Aşa scrie în Constituţie. Deci era o obligaţie politică pe care noi trebuia să o facem şi vreau să vă mai aduc aminte că în ultimii 25 de ani au fost peste 50 de moţiuni de cenzură, pentru că s-au depus moţiuni de cenzură şi când Guvernul îşi angaja răspunderea.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg5">Moţiunea de cenzură, sigur, vizează căderea Guvernului, dar vizează, în acelaşi timp, şi o amplă dezbatere asupra unei chestiuni deosebit de importante, pe care o consideră opoziţia, şi este dreptul nostru s-o considerăm aşa, cum foarte bine s-a arătat şi aici.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg6">A nu ştiu câta oară, domnule prim-ministru, pentru că-mi şopteaţi, aşa, din spate, că încă nu v-am impresionat... Nici nu am de gând! Dar, uite, poate răspundeţi şi la această întrebare, de fapt nu este o întrebare: domnule prim-ministru, aţi spus de nenumărate ori că PDL a făcut cu PNL o fuziune, o alianţă, vorbiţi în continuare de PNL şi de PDL. Şi aţi spus că niciodată nu vom face alianţă cu PDL. Bine, dar în 2009, sfârşitul lui 2008, cine a făcut Guvernul cu PDL? Domnule prim-ministru, aţi fost în Guvernul Boc ministru? Aţi fost. Nu, a fost ministru pentru relaţia cu Parlamentul, doamnă, şi să ştiţi că ministru pentru relaţia cu Parlamentul este un post foarte, foarte important.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u33.seg7">Aţi spus că Predoiu nu ştiu ce a făcut... a închis spitale. Dar dumneavoastră aţi făcut vreunul, aţi făcut vreunul nou? Nu. N-aţi făcut niciunul nou. Vă rog frumos, încă o dată, cu tot respectul, şi pe dumneavoastră, şi pe ceilalţi colegi de la PSD, încetaţi să vorbiţi despre Uniunea Social Liberală. Încetaţi să vorbiţi, pentru că dacă vorbiţi, nu avem cum să nu vă acuzăm de fraudă...</seg>
+        </u>
+        <note type="speaker">Domnul Victor-Viorel Ponta:</note>
+        <u ana="#regular" who="#Victor-Viorel-Ponta" xml:id="ParlaMint-RO_2015-09-29-id7560.u34">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u34.seg1">...de plagiat!</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u35">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u35.seg1">Nu, fraudă politică. Sunteţi obişnuit şi cu frauda, trebuie să recunosc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u35.seg2">Trebuie, de asemenea, să-mi exprim uimirea, regretul faţă de domnul ministru Cazanciuc, care a procedat precum Traian Băsescu. Ceea ce a făcut ieri, ameninţarea grosolană pe care a făcut-o la adresa doamnei Gorghiu este incalificabilă.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u36">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u36.seg1">Domnule senator...</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u37">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u37.seg1">Şi voi încheia...</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u38">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u38.seg1">Da. Vă rog. Vă rog frumos. Ce spuneaţi, aţi spus bine.</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u39">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u39.seg1">Vă rog frumos. Păi sunt un tip politicos, domnule.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u40">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u40.seg1">Aţi zis că veţi încheia.</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u41">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u41.seg1">Voi încheia, dar trebuie să remarc că un anumit partid politic aliat cu dumneavoastră a vorbit 20 de minute în loc de 6.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u42">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u42.seg1">Domnule senator,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u42.seg2">Grupurile politice parlamentare, dumneavoastră aţi inventat acest lucru când aţi fost la guvernare, care sunt în cadrul coaliţiei îşi împart minutele între ele cu acordul liderilor de grup. Dumneavoastră aţi depăşit minutele Grupului parlamentar al PNL cu 5, şi aveaţi 29. Asta eu v-am rugat frumos, nu... puteţi să vorbiţi şi o oră. Este o rugăminte ţinând cont de rigoarea pe care dumneavoastră aţi iniţiat-o în Parlamentul României şi care mie mi-a plăcut totdeauna.</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u43">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u43.seg1">Conform acestei rigori la care dumneavoastră aţi făcut vorbire, domnule preşedinte, voi încheia cu un citat, nu cu un plagiat: "Vom contracara prin orice metodă gestul laş şi iresponsabil de a-şi lua prizonieri propriii parlamentari. Interdicţia aceasta de a vota la moţiunea de cenzură este un gest de laşitate, de dispreţ faţă de oameni şi este o ticăloşie". Am încheiat citatul. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u44">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u44.seg1">Domnul senator Atanasiu, dreptul la replică.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u44.seg2">Domnule senator, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Teodor Atanasiu:</note>
+        <u ana="#regular" who="#Teodor-Atanasiu" xml:id="ParlaMint-RO_2015-09-29-id7560.u45">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u45.seg1">Domnilor preşedinţi ai celor două Camere,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u45.seg2">Doamnelor şi domnilor membri ai Guvernului,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u45.seg3">Doamnelor şi domnilor parlamentari,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u45.seg4">Ca drept la replică vreau să-i spun domnului Victor Ponta că astăzi a ratat ultima şansă de a scăpa de eticheta de penibil. O să rămâneţi, domnule prim-ministru, în istoria României, ca un obscur om politic contemporan cu Simona Halep. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u46">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u46.seg1">Vă mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u46.seg2">Domnule prim-ministru, aveţi cuvântul.</seg>
+        </u>
+        <note type="speaker">Domnul Victor-Viorel Ponta:</note>
+        <u ana="#regular" who="#Victor-Viorel-Ponta" xml:id="ParlaMint-RO_2015-09-29-id7560.u47">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg1">Stimaţi colegi,</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg2">Ca să preiau un termen al antevorbitorului meu, să terminăm mai repede această moţiune, ca să-i scăpăm de penibil pe colegii de la PNL-PDL, <vocal type="noise"><desc>(aplauze)</desc></vocal> deoarece critica Guvernului o face UDMR-ul şi cu Partidul Naţional Democrat. De votat, trebuie să votaţi dumneavoastră, cei de la PSD şi de adus oameni în piaţă, bănuiesc că tot noi...</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg3">Astăzi PNL-ul a devenit PDL. Nu face nimic decât ia de la alţii. Ia de la alţii, ia din munca altora. În rest, au fost momente şi vesele şi triste. La momente vesele, ca întotdeauna, colegul meu distins, domnul Haşotti, care a zis că cineva care repetă ceva tot timpul, probabil că are ceva la cap. Vedeţi că aveţi o doamnă care în fiecare zi îmi cere demisia... <vocal type="noise"><desc>(Aplauze.)</desc></vocal> ... şi dimineaţa şi seara.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg4">Momentul trist a fost reprezentat de domnul Blaga, din păcate, care a zis că dânsul m-a scos din politică. Cu tot respectul, am şi eu un Labrador acasă, care mereu se crede tigru. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg5">Cei care m-au scos pe mine din politică, din păcate, cred că vă vor scoate şi pe dumneavoastră. Şi nu este corect, nici pentru mine, nici pentru dumneavoastră. Să ţineţi minte acest lucru! <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg6">În rest, stimaţi colegi, cred că astăzi, încă o dată, s-a dovedit că guvernarea actuală are nevoie în continuare de multe lucruri de îmbunătăţit. Sunt departe de a spune că este o guvernare perfectă, ideală. Dimpotrivă. Sunt foarte multe lucruri pe care trebuie să le facem mai bine. Nu există alternativă azi la actuala guvernare, există însă posibilitatea ca împreună cu coaliţia şi cu opoziţia să guvernăm mai bine în perioada următoare, pentru cei care, în 2012, ne-au trimis, ne-au votat aici ca să punem în aplicare programul USL şi să nu ne aliem niciodată cu PDL-ul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u47.seg7">Vă mulţumesc. <vocal type="noise"><desc>(Aplauze.)</desc></vocal> </seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u48">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u48.seg1">Mă aşteptam, domnule senator.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u48.seg2">Vă rog frumos.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u48.seg3">Domnul senator Haşotti, dreptul la replică.</seg>
+        </u>
+        <note type="speaker">Domnul Puiu Haşotti:</note>
+        <u ana="#regular" who="#Puiu-Hasotti" xml:id="ParlaMint-RO_2015-09-29-id7560.u49">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u49.seg1">Domnul prim-ministru, ca de obicei, îmi face onoarea... şi vorbesc serios... onoarea de a-mi pomeni şi la această moţiune de cenzură numele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u49.seg2">Păi ce spuneam eu, domnule prim-ministru, că tot repetaţi, repetaţi, repetaţi de prea mult... noi am înţeles de prima dată.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u49.seg3">Şi doamna Alina Gorghiu, păi tot repetă, repetă, repetă demisia, ca să înţelegeţi o dată.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u50">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u50.seg1">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u50.seg2">Da. Bun. Acum urmează să ne exprimăm votul pe această moţiune de cenzură.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u50.seg3">Vă reamintesc că potrivit art.113 din Constituţia României, moţiunea de cenzură se adoptă cu votul majorităţii deputaţilor şi senatorilor: 275 de voturi pentru. Votul este secret, se exprimă cu bile, conform art.88 şi 95 din Regulamentul şedinţelor comune.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u50.seg4">Vă reamintesc că art.48 din Regulamentul nostru stabileşte foarte clar că fiecare parlamentar primeşte o bilă albă şi o bilă neagră. Bila albă introdusă în urna albă şi bila neagră introdusă în urna neagră înseamnă vot pentru. Bila albă introdusă în urna neagră şi bila neagră introdusă în urna albă înseamnă vot contra.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u50.seg5">Îi invit pe cei doi chestori ai Camerei Deputaţilor să ocupe locurile destinate pentru a înmâna bilele.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u50.seg6">Domnul secretar Ciolacu, prezenţa pentru membrii Camerei Deputaţilor.</seg>
+        </u>
+        <note type="speaker">Domnul Ion-Marcel Ciolacu:</note>
+        <u ana="#regular" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2015-09-29-id7560.u51">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u51.seg1">Domnul prim-ministru al României Ponta Victor-Viorel prezentBănicioiu Nicolae prezentConstantin Daniel prezentDuşa Mircea prezentGavrilescu Graţiela Leocadia prezentăGerea Andrei Dominic prezentGrindeanu Sorin prezentNicolicea Eugen prezentPlumb Rovana prezentăTîlvăr Angel prezentTudose Mihai prezentVulpescu Ioan prezentOprea Gabriel prezentTeodorovici Eugen-Orlando prezentLiviu-Marian Pop prezentChiru Gigi Christian - senator prezentAdam Luminiţa-Pachel absentăAdăscăliţei Constantin prezentAlexe Costel prezentAlexe Florin-Alexandru prezentAlmăjanu Marin absentAmet Varol absentAnastase Roberta Alma prezentăAndea Petru prezentAndronache Gabriel prezentAnghel Gabriela-Lola absentăAntal István prezentAnton Marin absentAnuşca Roxana-Florentina prezentăArdeleanu Sanda-Maria prezentăArsene Ionel prezentAvram Constantin prezentAvram Marian prezentAxente Ioan prezentBabuş Radu prezentBalan Ioan prezentBaltă Mihai prezentBăişanu Ştefan-Alexandru prezentBălan Ion absentBărbulescu Daniel-Ionuţ absentBejinariu Eugen prezentBenga Ioan prezentBerci Vasile prezentBirchall Ana prezentăBîrsăşteanu Florică prezentBlăjuţ Viorel-Ionel absentBlănariu Valentin absentBoboc Valentin Gabriel prezentBode Lucian Nicolae prezentBogdan Gheorghe-Dănuţ absentBogdănici Camelia-Margareta prezentăBoghicevici Claudia prezentăBónis István prezentBorbély László absentBordeianu Dan prezentBucur Constantin-Alin absentBucura-Oprescu Simona prezentăBudurescu Daniel-Stamate prezentBuican Cristian prezentBuicu Corneliu-Florin prezentBurlacu Ştefan absentCalimente Mihăiţă prezentCaloianu Mario-Ernest prezentCalotă Florică Ică prezentCanacheu Costică prezentCazan Mircea-Vasile prezentCălin Ion prezentCăprar Dorel-Gheorghe prezentCătăniciu Steluţa-Gustica prezentăCernea Remus-Florinel prezentChebac Eugen prezentCherecheş Florica prezentăChiriţă Dumitru absentChirteş Ioan-Cristian prezentChirvăsuţă Laurenţiu prezentChiţoiu Daniel era prezentCioată Cezar prezentCiobanu Liliana prezentăCiocan Dan absentCiofu Tamara-Dorina prezentăCiolacu Ion-Marcel prezentCiubotaru Lucian-Manuel prezentCiucă Liviu-Bogdan absentCiuhodaru Tudor absentCiurariu Florin prezentCocei Erland prezentCodîrlă Liviu absentComşa Cornel-George prezentCondurăţeanu Andrei-Răzvan absentCosma Vlad-Alexandru absentCostin Gheorghe prezentCovaci Dorel prezentCozmanciuc Corneliu-Mugurel era prezentCrăciunescu Grigore prezentCristea Aurelia prezentăCristea Victor prezentCristian Horia prezentCseke Attila-Zoltán prezentCupă Ion prezentCupşa Ioan prezentDaea Petre prezentDalca Ştefan-Petru absentDascălu Constantin prezentDeaconu Mihai prezentDelureanu Virgil prezentCondurăţeanu?Condurăţeanu Andrei-Răzvan, prezent.Diaconu Adrian-Nicolae prezentDiaconu Mihai-Bogdan prezentDima Toader prezentDîrzu Ioan prezentDoboş Anton prezentDobre Mircea-Titus prezentDobre Victor Paul prezentDobrinescu Traian prezentDolha Mircea prezentDolha Nechita-Stelian prezentDolineaschi Andrei prezentDonţu Mihai-Aurel prezentDragnea Nicolae-Liviu prezentDragomir Gheorghe prezentDragomir Maria prezentDragomir Viorel Marian absent, deplasare externăDrăghici Mircea-Gheorghe prezentDrăghici Sonia-Maria prezentăDrăguşanu Vasile-Cătălin prezentDumbrăvanu Paul prezentDumitrache Ileana Cristina prezentDumitru Georgică absentDumitru Ioana-Jenica absentăDumitru Ovidiu-Ioan prezentDuşa Mircea prezentEmacu Gheorghe prezentEnache Marian prezentEnea Constantin-Cosmin absentEparu Ion prezentErdei Dolóczki István prezentFejér László-Ődőn prezentFenechiu Cătălin-Daniel absent, deplasare externăFirczak Gheorghe absentFlorea Damian absentFlorea Daniel absent, deplasare externăFonta Nuţu prezentFrăticiu Gheorghe prezentGalan Constantin absentGanţ Ovidiu Victor prezentGavrilescu Graţiela Leocadia prezentăGăină Mihăiţă prezentGeantă Florian Daniel absentGerea Andrei Dominic prezentGheorghe Andrei Daniel prezentGheorghe Florin absentGheorghe Tinel prezentGhera Giureci-Slobodan absentGhiţă Sebastian-Aurelian absentGhiveciu Marian absentGireadă Dumitru-Verginel prezentGliga Vasile Ghiorghe prezentGorghiu Alina-Ştefania prezentăGrama Horia prezentGrecea Maria prezentăGrindeanu Sorin Mihai prezentGudu Vasile prezentGunia Dragoş-Ionel prezentGuran Virgil prezentGurzău Adrian prezentGust Băloşin Florentin prezentFirczak Gheorghe prezentGvozdenovici Slavomir absentHarbuz Liviu prezentHărău Eleonora-Carmen prezentăHolban Titi prezentHorga Vasile prezentHulea Ioan absentIacoban Sorin-Avram prezentIalomiţianu Gheorghe prezentIancu Iulian prezentIane Daniel prezentIane Ovidiu-Cristian prezentIbram Iusein absentIgnat Miron prezentIliuţă Vasile parcă era prezentIntotero Natalia-Elena prezentăIonescu Aurelian absent, deplasare externăIonescu George prezentIordache Florin prezentIrimie Vicenţiu-Mircea prezentIriza Scarlat prezentIspir Raluca-Cristina prezentăItu Cornel prezentKelemen Atilla-Béla-László prezentKelemen Hunor prezentKerekes Károly prezent, nu, absentKereskényi Gábor prezentKhraibani Camelia prezentăKorodi Attila absent, deplasare externăLaza-Matiuţa Liviu prezentLongher Ghervazen prezentLubanovici Mircea prezentLupu Mihai prezentMan Mircea prezentManda Iulian Claudiu prezentManea Victor-Gheorghe prezentManolache Marius absentManolescu Oana absentăMarcoci Vlad prezentMarcu Viorica prezentăMarian Ion Cristinel absentMarica Petru-Sorin prezentMarin Gheorghe prezentMarin Laura prezentăMarocico Ion absentMartin Eduard-Stelian absentMárton Árpád-Francisc prezentMáté András-Levente prezentMatei Călin-Vasile-Andrei prezentMazilu Constantin absentMăduţa Flavius-Luigi prezentMelinte Ion prezentMerka Adrian-Miroslav absent, deplasare externăMihai Aurelian prezentMihăilă Ioan absentMihăilescu Ion-Bogdan prezentMilitaru Lucian prezentMincă Liliana absentăMircovici Niculae prezentMironescu Răzvan Horia prezentMitrea Manuela absentăMîrza Gavril prezentMocanu Adrian absentMocioalcă Ion prezentMocioi Niculina prezentăMoisii Constantin absentMoldovan Carmen Ileana prezentăMoldovan Ioan prezentMoldovan Iosif prezentMolnar Zsolt deplasare externă... prezentMotreanu Dan-Ştefan prezentMoţ Constantin-Stelian-Emil absentMovilă Petru prezentMuntean Mircia prezentMunteanu Ioan prezentMurgu Neagu absentNassar Rodica prezentăNazare Alexandru prezentNeacşu Marian prezentNecula Cosmin prezentNegruţ Clement prezentNegruţ Cornelia prezentăNica Nicolae-Ciprian prezentNichita Cristina absentăNicoară Romeo Florin prezentNicolae Alexandri prezentNicolae Florian prezentNicolăescu Gheorghe-Eugen prezentNicolicea Eugen prezentNiculae Aurel prezentNiculescu Dumitru absentNiculescu Duvăz Bogdan Nicolae prezentNistor Gheorghe-Vlad prezentNistor Laurenţiu prezentNistor Marioara absentăNiţă Constantin absent, concediuNiţă Emil prezentNosa Iuliu prezentOajdea Daniel Vasile absentOltean Ioan prezentOrban Ludovic prezentOros Nechita-Adrian prezentPalaşcă Viorel prezentPalăr Ionel prezentPaleologu Theodor prezentPambuccian Varujan absentPană Adriana-Doina prezentăPardău Dumitru prezentPaul Maria-Andreea prezentăPăun Nicolae absentPalaşcă Viorel prezentPăun Nicolae absentPârgaru Ion prezentPâslaru Florin-Costin absent, deplasare externăPeia Ninel absent, deplasare externăPetrea Dorin Silviu absentPetrescu Petre prezentPetric Octavian prezentPistru-Popa Eusebiu-Manea prezentPlumb Rovana prezentăPocora Cristina-Ancuţa prezentăPodaşcă Gabriela-Maria prezentăPop Georgian prezentPopa Octavian-Marius prezentPopa Radu Mihai prezentPopeangă Vasile prezentPopescu Dan-Cristian prezentPopescu Dumitru-Iulian absentPopescu Florin Aurelian absentPopoviciu Alin Augustin Florin prezentPotor Călin prezentPreda Cezar-Florin prezentPuşcaş Iacob absentRaeţchi Ovidiu Alexandru prezentRăducanu Ion absentRădulescu Cătălin-Marian absentRădulescu Constantin absentRădulescu Romeo prezentRăţoi Neculai prezentResmeriţă Cornel-Cristian prezentRizea Cristian prezentRoman Cristian-Constantin prezentRoman Gheorghe prezentRoman Ioan Sorin prezentRoman Victor prezentRoşca Lucreţia prezentăRoşca Mircea prezentRotaru Răzvan prezentRusu Valentin absentSava Andrei-Valentin prezentSămărtinean Cornel-Mircea prezentSăpunaru Nini prezentSăvoiu Ionuţ-Cristian prezentScarlat George era prezentSchelean Valeria-Diana prezentăSecară Florin Mihail prezentSefer Cristian-George absentSeres Dénes prezentSilaghi Ovidiu Ioan prezentSimedru Dan Coriolan prezentSimionescu Adrian Constantin prezentSmarandache Miron Alexandru prezentSolomon Adrian prezentStan Ioan prezentStan Ion prezentStanciu Anghel prezentStanciu Zisu absentStancu Ionel absentStativă Irinel Ioan prezentStănescu Alexandru prezentSteriu Valeriu-Andrei era prezentStoica Mihaela absentăStragea Sorin Constantin prezentStroe Ionuţ-Marian prezentStroe Radu absentSturzu Mihai-Răzvan prezentSuciu Vasile-Daniel prezentSurdu Raluca prezentăSurugiu Iulian-Radu prezentSzabó Ödön prezentŞcheau Ion prezentŞimon Gheorghe prezentŞoptică Costel prezentŞova Lucian prezentMocanu Adrian prezentŞtefan Viorel prezentŞtefănescu Elena Cătălina absentăŞtirbu Gigel-Sorinel prezentTabugan Ion absentTaloş Gheorghe-Mirel absentTararache Mihai prezentTămâian Ioan prezentTănase Răzvan-Ionuţ prezentTănăsescu Claudiu-Andrei prezentTătaru Florin-Cristian absentTeju Sorin prezentTeodorescu Cătălin-Florin prezentTeodorescu Ioan Viorel absentThuma Hubert Petru Ştefan prezentTiuch Cătălin prezentTîlvăr Angel prezentToader Mircea-Nicu prezentTocuţ Dan-Laurenţiu prezentTomac Eugen prezentTraicu Rodin prezentTudorache Daniel prezentTudorie Violeta prezentăTudose Mihai prezentTurcan Raluca prezentăTuşa Adriana Diana prezentăŢigăeru Roşca Laurenţiu absentŢîmpău Radu Bogdan prezentUdrea Elena Gabriela prezentăUdrişte Gheorghe prezentUioreanu Elena-Ramona prezentăUrcan Ionaş-Florin absent, deplasare externăUricec Eugen Constantin prezentUrsărescu Dorinel absentVainer Aurel prezentVarga Lucia-Ana prezentăVarga Vasile absentVasilică Radu Costin absentVizitiu Sergiu-Constantin absentVladu Iulian prezentVlase Petru Gabriel absent, deplasare externăVoicu Mădălin-Ştefan prezentVoicu Mihai Alexandru prezentVreme Valerian absentVulpescu Ioan prezentWeber Mihai prezentZaharcu Neviser prezentăZamfir Daniel-Cătălin prezentZisopol Dragoş Gabriel prezentZgonea Valeriu Ştefan prezentZlati Radu prezent</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u51.seg2">Domnule preşedinte, urmează Senatul.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u51.seg3">Iacoban Sorin-Avram prezent</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u52">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u52.seg1">Domnule senator Pereş, aveţi cuvântul, vă rog frumos, pentru a citi lista cu membrii Senatului.</seg>
+        </u>
+        <note type="speaker">Domnul Alexandru Pereş:</note>
+        <u ana="#regular" who="#Alexandru-Peres" xml:id="ParlaMint-RO_2015-09-29-id7560.u53">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u53.seg1">Mulţumesc, domnule preşedinte.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u53.seg2">Agrigoroaei Ionel prezentAndronescu Ecaterina prezentăGeoană Mircea-Dan prezentAnghel Adrian prezentAnghel Cristiana-Irina prezentă, nu voteazăAntonescu George-Crin-Laurenţiu prezentArcaş Viorel prezentArdelean Ben-Oni prezentAriton Ion prezentAtanasiu Teodor prezentBadea Leonardo prezentBadea Viorel-Riceard prezentBanias Mircea-Marius prezentBarbu Daniel-Constantin prezentBarbu Tudor prezentBădălău Niculae prezentBălu Marius prezentBelacurencu Trifon prezentBereanu Neculai prezentBiró Rozalia-Ibolya prezentăBlaga Vasile prezentBoagiu Anca-Daniela prezentăBoboc Cătălin prezentBodea Cristian-Petru prezentBodog Florian-Dorel prezentBoeriu Valeriu-Victor prezentBota Marius-Sorin-Ovidiu prezentBujor Dumitru-Marcel absentBumbu Octavian-Liviu absentBurlea Marin absentButnaru Florinel absentButunoi Ionel-Daniel prezentCadăr Leonard prezentCalcan Valentin-Gigel absentCâmpeanu Mariana prezentăChelaru Ioan prezentChiriac Viorel prezentChiru Gigi Christian a votat, prezentChiuariu Tudor-Alexandru absentCoca Laurenţiu Florian prezentConstantinescu Florin prezentCordoş Alexandru prezentCorlăţean Titus absentCoste Marius prezentCostoiu Mihnea-Cosmin absentCotescu Marin Adrănel prezentCreţu Gabriela prezentăCristache Iulian absentCristina Ioan prezentCroitoru Cătălin prezentDeneş Ioan prezentDincă Mărinică prezentDobra Dorin-Mircea prezentBiró Rozalia prezentăDobriţoiu Corneliu prezentDonţu Ovidiu-Liviu prezentDumitrescu Cristian-Sorin absentDumitrescu Florinel prezentDumitrescu Iulian prezentDurbacă Eugen prezentDuruţ Aurel prezentEhegartner Petru prezentFederovici Doina-Elena prezentăFifor Mihai-Viorel prezentFilip Petru absentFirea Gabriela prezentăFlorian Daniel Cristian prezentFlutur Gheorghe prezentFrătean Petru-Alexandru prezentGeoană Mircea-Dan prezent, a votatGhilea Găvrilă prezentGhişe Ioan absentGrapă Sebastian absentGrigoraş Viorel prezentHaşotti Puiu prezentIchim Paul prezentIgaş Traian-Constantin prezent şi la mulţi ani!Iliescu Lucian prezentIlieşiu Sorin absentIoniţă Dan-Aurel prezentIovescu Ioan absentIsăilă Marius Ovidiu absentJipa Florina-Ruxandra absentăKlárik László-Attila prezentLászló Attila prezentLazăr Sorin-Constantin absentLuchian Dragoş prezentLuchian Ion prezentMarian Dan-Mihai prezentMarian Valer prezentMarin Nicolae prezentMarkó Béla prezentMazăre Alexandru absentMihai Alfred-Laurenţiu-Antonio absentMihai Cristian-Dănuţ prezentMihai Neagu absentMihăilescu Petru-Şerban absentMiron Vasilica-Steliana prezentăMitu Augustin-Constantin prezentMocanu Victor absentMoga Nicolae prezentMohanu Nicolae prezentMotoc Octavian prezentMutu Gabriel prezentNasta Nicolae absentNăstase Ilie absentNeagu Nicolae prezentNeculoiu Marius prezentNicoară Marius-Petre prezentNicolae Şerban prezentNistor Vasile prezentNiţă Mihai prezentNiţu Remus-Daniel absentObreja Marius-Lucian prezentOprea Dumitru prezentOprea Mario-Ovidiu prezentOprea Ştefan-Radu prezentPaşca Liviu-Titus prezentPaşcan Emil-Marius prezentPataki Csaba prezentPavel Marian prezentPăran Dorin prezentPăunescu Teiu absentPelican Dumitru absentPereş Alexandru prezentPop Gheorghe prezentPop Liviu-Marian a votatPopa Constantin prezentPopa Florian prezentPopa Ion prezentPopa Mihaela prezentăPopa Nicolae Vlad prezentPopescu Corneliu prezentPopescu Dumitru-Dian prezentPopescu-Tăriceanu Călin-Constantin-Anton prezent, nu voteazăPurec Ion-Simeon absentRădulescu Cristian prezentRogojan Mihai-Ciprian absentRotaru Ion prezentSaghian Gheorghe prezentSavu Daniel absentSârbu Ilie absentSeverin Georgică prezentSilistru Doina prezentăStuparu Timotei prezentSuciu Matei absentŞova Dan-Coman absentTánczos Barna prezentTămagă Constantin prezentTătaru Dan prezentTătaru Nelu prezentTeodorovici Eugen-Orlando a votat, prezentTişe Alin-Păunel prezentToma Ion absentTodiraşcu Valeriu prezentTomoiagă Ştefan-Liviu prezentTudor Doina-Anca prezentăŢapu Nazare-Eugen prezentValeca Şerban-Constantin absentVasiliev Marian absentVegh Alexandru prezentVerestóy Attila absentVochiţoiu Haralambie prezentVoinea Florea absentVolosevici Andrei-Liviu prezentVosganian Varujan absentZisu Ionuţ-Elie prezent</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u53.seg3">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u54">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u54.seg1">Domnule Ciolacu, am înţeles că mai există o colegă de la Cameră care a venit un pic mai târziu şi....</seg>
+        </u>
+        <note type="speaker">Domnul Alexandru Pereş:</note>
+        <u ana="#regular" who="#Alexandru-Peres" xml:id="ParlaMint-RO_2015-09-29-id7560.u55">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u55.seg1">Doamna?</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u56">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u56.seg1">Doamna Stoica. Doamna deputat Stoica. Vă rog frumos să votaţi şi dumneavoastră.</seg>
+        </u>
+        <note type="speaker">Domnul Alexandru Pereş:</note>
+        <u ana="#regular" who="#Alexandru-Peres" xml:id="ParlaMint-RO_2015-09-29-id7560.u57">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u57.seg1">Doamna Stoica Mihaela, da?</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u58">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u58.seg1">Domnul Drăghici, ca un adevărat gentleman o să vă dea şi bila neagră. Vă rog frumos.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u58.seg2">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u58.seg3">Doamna Stoica, vă rog frumos, lăsaţi-l pe domnul Pereş. E bine, e bine aşa! Albă la neagră şi neagră la albă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u58.seg4">Mulţumesc foarte mult.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u58.seg5">Membrii Biroului permanent... Stafful tehnic să ia cele două urne. Membrii Biroului permanent, ne vedem în sala Biroului permanent de la Camera Deputaţilor pentru a scrie procesul-verbal în urma verificării prezenţei şi numărării bilelor din cele două urne.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u59">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u59.seg1">Până când se va citi procesul-verbal, daţi-mi voie să vă informez, doamnă deputat şi domnilor deputaţi şi senatori, că în conformitate cu prevederile art. 15 din Legea nr. 47/1992 privind organizarea şi funcţionarea Curţii Constituţionale, s-au depus la secretarii generali ai celor două Camere astăzi, în vederea exercitării dreptului dumneavoastră de a sesiza Curtea Constituţională, următoarele proiecte de lege: Legea pentru modificarea art. 45 din Legea nr. 96/2006 privind Statutul deputaţilor şi al senatorilor - procedura este de drept comun; Legea pentru ratificarea Acordului între Guvernul României şi Guvernul Republicii Cipru privind protecţia reciprocă a informaţiilor clasificate - procedura este de drept comun.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u59.seg2">Domnule Ciolacu, vă rog frumos să citiţi rezultatul votului.</seg>
+        </u>
+        <note type="speaker">Domnul Ion-Marcel Ciolacu:</note>
+        <u ana="#regular" who="#Ion-Marcel-Ciolacu" xml:id="ParlaMint-RO_2015-09-29-id7560.u60">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg1">Proces-verbal referitor la rezultatul votului exprimat de către deputaţi şi senatori asupra moţiunii de cenzură iniţiate de 183 de deputaţi şi senatori.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg2">Birourile permanente ale celor două Camere ale Parlamentului, în temeiul art. 44 alin. (4) din Regulamentul activităţilor comune ale Camerei Deputaţilor şi Senatului, procedând la verificarea şi numărarea voturilor exprimate de către deputaţi şi senatori prin vot secret cu bile asupra moţiunii de cenzură iniţiate de 183 de deputaţi şi senatori, au constatat următoarele:</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg3">numărul total al deputaţilor şi senatorilor: 549;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg4">numărul deputaţilor şi senatorilor prezenţi: 413;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg5">numărul total de voturi exprimate: 215;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg6">numărul de voturi anulate: 0;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg7">numărul total de voturi valabil exprimate, din care:voturi pentru adoptarea moţiunii de cenzură: 207;voturi contra moţiunii de cenzură: 8.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg8">voturi pentru adoptarea moţiunii de cenzură: 207;</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg9">voturi contra moţiunii de cenzură: 8.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg10">Potrivit prevederilor art. 113 alin. (1) din Constituţia României, moţiunea de cenzură se adoptă cu votul majorităţii deputaţilor şi senatorilor, ceea ce reprezintă în prezent minimum 275 de voturi pentru.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg11">Ca urmare a faptului că, din totalul de 549 de parlamentari, au fost prezenţi 413, din care 207 au votat pentru moţiunea de cenzură, se constată că nu a fost întrunită majoritatea voturilor cerută de Constituţia României pentru adoptare.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u60.seg12">Mulţumesc.</seg>
+        </u>
+        <note type="speaker">Domnul Valeriu Ştefan Zgonea:</note>
+        <u ana="#regular" who="#Valeriu-Stefan-Zgonea" xml:id="ParlaMint-RO_2015-09-29-id7560.u61">
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u61.seg1">Mulţumesc.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u61.seg2">Deci, moţiunea de cenzură a fost respinsă.</seg>
+          <seg xml:id="ParlaMint-RO_2015-09-29-id7560.u61.seg3">Declar şedinţa comună a Camerei Deputaţilor şi Senatului de astăzi închisă. Vă urez o zi frumoasă.</seg>
+        </u>
+        <note type="time">Şedinţa s-a încheiat la ora 13,00.</note>
+      </div>
+    </body>
+  </text>
+</TEI>

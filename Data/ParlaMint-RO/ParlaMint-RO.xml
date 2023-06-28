@@ -1,0 +1,2898 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="ro" xml:id="ParlaMint-RO">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ro">Corpus parlamentar în limba română ParlaMint-RO [ParlaMint SAMPLE]</title>
+        <title type="main" xml:lang="en">Romanian parliamentary corpus ParlaMint-RO [ParlaMint SAMPLE]</title>
+        <title type="sub" xml:lang="ro">Stenogramele ședințelor parlamentului României, 2000-10-24 - 2021-11-09</title>
+        <title type="sub" xml:lang="en">Meeting minutes of the Romanian parliament, 2000-10-24 - 2021-11-09</title>
+        <meeting ana="#parla.term #parla.lower #RoParl.50"/>
+        <meeting ana="#parla.term #parla.lower #RoParl.51"/>
+        <meeting ana="#parla.term #parla.lower #RoParl.52"/>
+        <meeting ana="#parla.term #parla.lower #RoParl.53"/>
+        <meeting ana="#parla.term #parla.lower #RoParl.54"/>
+        <meeting ana="#parla.term #parla.lower #RoParl.55"/>
+        <meeting ana="#parla.term #parla.lower #RoParl.56"/>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Definirea etapelor proiectului și elaborarea caietului de sarcini.</resp>
+          <resp xml:lang="en">Project set-up and methodology.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <persName>Mădălina Chitez</persName>
+          <persName>Roxana Rogobete</persName>
+          <persName>Andreea Dincă</persName>
+          <resp xml:lang="ro">Colectare de date.</resp>
+          <resp xml:lang="en">Data retrieval.</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Petru Rebeja</persName>
+          <resp xml:lang="ro">Definirea etapelor de procesare.</resp>
+          <resp xml:lang="en">Defining data processing pipeline.</resp>
+          <resp xml:lang="ro">Implementarea procesului de procesare a datelor și codarea corpusului în format TEI.</resp>
+          <resp xml:lang="en">Data processing pipeline implementation, and encoding corpus in TEI format.</resp>
+        </respStmt>
+        <funder>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+        </funder>
+      </titleStmt>
+      <editionStmt>
+        <edition>2.0</edition>
+      </editionStmt>
+      <extent>
+        <measure unit="speeches" quantity="1238" xml:lang="en">1238 speeches</measure>
+        <measure unit="words" quantity="183431" xml:lang="en">183431 words</measure>
+        <measure unit="speeches" quantity="1238" xml:lang="ro">1238 discursuri</measure>
+        <measure unit="words" quantity="183431" xml:lang="ro">183431 cuvinte</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:lang="ro">Infrastructura de cercetare CLARIN</orgName>
+          <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+          <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+        </publisher>
+        <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
+        <availability status="free">
+          <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+          <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+        </availability>
+        <date when="2021-05-29">2021-05-29</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title type="main" xml:lang="en">Meeting minutes of the Romanian Parliament</title>
+          <title type="main" xml:lang="ro">Stenograme ale şedinţelor din Parlamentul României</title>
+          <idno type="URI">http://www.parlament.ro/</idno>
+          <date from="2000-10-24" to="2021-11-09">2000-10-24 - 2021-11-09</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data. </p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p xml:lang="en">No correction of source texts was performed.</p>
+        </correction>
+        <normalization>
+          <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+        </normalization>
+        <hyphenation>
+          <p xml:lang="en">Hyphenation has not been altered with respect to the source files.</p>
+        </hyphenation>
+        <quotation>
+          <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+        </quotation>
+        <segmentation>
+          <p xml:lang="en">The texts are segmented into utterances (contributions) and segments (corresponding to paragraphs in the source transcription).</p>
+        </segmentation>
+      </editorialDecl>
+      <tagsDecl>
+        <!--These numbers do not reflect the size of the sample!-->
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="body" occurs="10"/>
+          <tagUsage gi="div" occurs="10"/>
+          <tagUsage gi="head" occurs="20"/>
+          <tagUsage gi="note" occurs="1555"/>
+          <tagUsage gi="seg" occurs="6931"/>
+          <tagUsage gi="text" occurs="10"/>
+          <tagUsage gi="u" occurs="1238"/>
+          <tagUsage gi="kinesic" occurs="0"/>
+          <tagUsage gi="desc" occurs="140"/>
+          <tagUsage gi="gap" occurs="0"/>
+        </namespace>
+      </tagsDecl>
+      <classDecl>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker-types.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-political-orientation.xml"/>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <settingDesc>
+        <setting>
+          <name type="country" key="RO">Romania</name>
+          <name type="city">Bucharest</name>
+          <name type="place">Palace of the Parliament</name>
+          <date from="2000-10-24" to="2021-11-09"/>
+        </setting>
+      </settingDesc>
+      <particDesc>
+        <listOrg>
+          <org xml:id="RoParl" role="parliament" ana="#parla.national #parla.lower">
+            <orgName full="yes" xml:lang="en">Parliament of Romania</orgName>
+            <orgName full="yes" xml:lang="ro">Parlamentul României</orgName>
+            <listEvent>
+              <event xml:id="RoParl.50" from="1996-11-27" to="2000-11-30">
+                <label xml:lang="en">L legislative term</label>
+                <label xml:lang="ro">Legislatura L</label>
+              </event>
+              <event xml:id="RoParl.51" from="2000-12-15" to="2004-11-30">
+                <label xml:lang="en">LI legislative term</label>
+                <label xml:lang="ro">Legislatura LI</label>
+              </event>
+              <event xml:id="RoParl.52" from="2004-12-19" to="2008-12-13">
+                <label xml:lang="en">LII legislative term</label>
+                <label xml:lang="ro">Legislatura LII</label>
+              </event>
+              <event xml:id="RoParl.53" from="2008-12-19" to="2012-12-20">
+                <label xml:lang="en">LIII legislative term</label>
+                <label xml:lang="ro">Legislatura LIII</label>
+              </event>
+              <event xml:id="RoParl.54" from="2012-12-20" to="2016-12-21">
+                <label xml:lang="en">LIV legislative term</label>
+                <label xml:lang="ro">Legislatura LIV</label>
+              </event>
+              <event xml:id="RoParl.55" from="2016-12-21" to="2020-12-20">
+                <label xml:lang="en">LV legislative term</label>
+                <label xml:lang="ro">Legislatura LV</label>
+              </event>
+              <event xml:id="RoParl.56" from="2020-12-22">
+                <label xml:lang="en">LVI legislative term</label>
+                <label xml:lang="ro">Legislatura LVI</label>
+              </event>
+            </listEvent>
+          </org>
+          <org xml:id="RoGov" role="government">
+            <orgName xml:lang="en" full="yes">Government of Romania</orgName>
+            <orgName xml:lang="ro" full="yes">Guvernul României</orgName>
+            <listEvent>
+              <event xml:id="RoGov.114" from="1999-12-22" to="2000-12-27">
+                <label xml:lang="en">Cabinet of Ministers 114</label>
+                <label xml:lang="ro">Cabinetul 114</label>
+              </event>
+              <event xml:id="RoGov.115" from="2000-12-28" to="2004-12-28">
+                <label xml:lang="en">Cabinet of Ministers 115</label>
+                <label xml:lang="ro">Cabinetul 115</label>
+              </event>
+              <event xml:id="RoGov.116" from="2004-12-29" to="2007-04-05">
+                <label xml:lang="en">Cabinet of Ministers 116</label>
+                <label xml:lang="ro">Cabinetul 116</label>
+              </event>
+              <event xml:id="RoGov.117" from="2007-04-06" to="2008-12-22">
+                <label xml:lang="en">Cabinet of Ministers 117</label>
+                <label xml:lang="ro">Cabinetul 117</label>
+              </event>
+              <event xml:id="RoGov.118" from="2008-12-23" to="2009-12-23">
+                <label xml:lang="en">Cabinet of Ministers 118</label>
+                <label xml:lang="ro">Cabinetul 118</label>
+              </event>
+              <event xml:id="RoGov.119" from="2009-12-24" to="2012-02-09">
+                <label xml:lang="en">Cabinet of Ministers 119</label>
+                <label xml:lang="ro">Cabinetul 119</label>
+              </event>
+              <event xml:id="RoGov.120" from="2012-02-10" to="2012-05-07">
+                <label xml:lang="en">Cabinet of Ministers 120</label>
+                <label xml:lang="ro">Cabinetul 120</label>
+              </event>
+              <event xml:id="RoGov.121" from="2012-05-08" to="2012-12-21">
+                <label xml:lang="en">Cabinet of Ministers 121</label>
+                <label xml:lang="ro">Cabinetul 121</label>
+              </event>
+              <event xml:id="RoGov.122" from="2012-12-22" to="2014-02-26">
+                <label xml:lang="en">Cabinet of Ministers 122</label>
+                <label xml:lang="ro">Cabinetul 122</label>
+              </event>
+              <event xml:id="RoGov.123" from="2014-03-05" to="2014-12-17">
+                <label xml:lang="en">Cabinet of Ministers 123</label>
+                <label xml:lang="ro">Cabinetul 123</label>
+              </event>
+              <event xml:id="RoGov.124" from="2014-12-18" to="2015-11-17">
+                <label xml:lang="en">Cabinet of Ministers 124</label>
+                <label xml:lang="ro">Cabinetul 124</label>
+              </event>
+              <event xml:id="RoGov.125" from="2015-11-17" to="2017-01-04">
+                <label xml:lang="en">Cabinet of Ministers 125</label>
+                <label xml:lang="ro">Cabinetul 125</label>
+              </event>
+              <event xml:id="RoGov.126" from="2017-01-05" to="2017-06-29">
+                <label xml:lang="en">Cabinet of Ministers 126</label>
+                <label xml:lang="ro">Cabinetul 126</label>
+              </event>
+              <event xml:id="RoGov.127" from="2017-06-29" to="2018-01-29">
+                <label xml:lang="en">Cabinet of Ministers 127</label>
+                <label xml:lang="ro">Cabinetul 127</label>
+              </event>
+              <event xml:id="RoGov.128" from="2018-01-30" to="2019-11-04">
+                <label xml:lang="en">Cabinet of Ministers 128</label>
+                <label xml:lang="ro">Cabinetul 128</label>
+              </event>
+              <event xml:id="RoGov.129" from="2019-11-05" to="2020-03-14">
+                <label xml:lang="en">Cabinet of Ministers 129</label>
+                <label xml:lang="ro">Cabinetul 129</label>
+              </event>
+              <event xml:id="RoGov.130" from="2020-03-15" to="2020-12-23">
+                <label xml:lang="en">Cabinet of Ministers 130</label>
+                <label xml:lang="ro">Cabinetul 130</label>
+              </event>
+              <event xml:id="RoGov.131" from="2020-12-24" to="2021-11-25">
+                <label xml:lang="en">Cabinet of Ministers 131</label>
+                <label xml:lang="ro">Cabinetul 131</label>
+              </event>
+              <event xml:id="RoGov.132" from="2021-11-26">
+                <label xml:lang="en">Cabinet of Ministers 132</label>
+                <label xml:lang="ro">Cabinetul 132</label>
+              </event>
+            </listEvent>
+          </org>
+          <org xml:id="RoParl.All" role="parliamentaryGroup">
+            <orgName xml:lang="en" full="yes">Placeholder parliamentary group</orgName>
+            <orgName xml:lang="ro" full="yes">Grupul parlamentar comun</orgName>
+          </org>
+        </listOrg>
+        <listPerson>
+          <head xml:lang="ro">Lista vorbitorilor</head>
+          <head xml:lang="en">List of speakers</head>
+          <person xml:id="Acsinte-Gaspar">
+            <persName>
+              <forename>Acsinte</forename>
+              <surname>Gaspar</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Adrian-Alda">
+            <persName>
+              <forename>Adrian</forename>
+              <surname>Alda</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AldaAdrian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Adrian-Miroslav-Merka">
+            <persName>
+              <forename>Adrian-Miroslav</forename>
+              <surname>Merka</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/MerkaAdrianMiroslav.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Adrian-Moisoiu">
+            <persName>
+              <forename>Adrian</forename>
+              <surname>Moisoiu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/MoisoiuAdrian.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Adrian-Nicolae-Diaconu">
+            <persName>
+              <forename>Adrian-Nicolae</forename>
+              <surname>Diaconu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Diaconu_Adrian_Nicolae.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Akos-Derzsi">
+            <persName>
+              <forename>Ákos</forename>
+              <surname>Derzsi</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2008/mari/Derzsi_Akos.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Alexandra-Hutu">
+            <persName>
+              <forename>Alexandra</forename>
+              <surname>Huţu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/HutuAlexandra.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Alexandru-Peres">
+            <persName>
+              <forename>Alexandru</forename>
+              <surname>Pereș</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Alexandru-Popa">
+            <persName>
+              <forename>Alexandru</forename>
+              <surname>Popa</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PopaAlexandru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Alfred-Robert-Simonis">
+            <persName>
+              <forename>Alfred-Robert</forename>
+              <surname>Simonis</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Alina-Elena-Tanasescu">
+            <persName>
+              <forename>Alina-Elena</forename>
+              <surname>Tănăsescu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TanasescuAlinaElena.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Alina-Stefania-Gorghiu">
+            <persName>
+              <forename>Alina-Ștefania</forename>
+              <surname>Gorghiu</surname>
+            </persName>
+            <sex value="F"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Andi-Gabriel-Grosaru">
+            <persName>
+              <forename>Andi-Gabriel</forename>
+              <surname>Grosaru</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/GrosaruAndiGabriel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Andras-Gyorgy-Kiraly">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Andrei-Daniel-Gheorghe">
+            <persName>
+              <forename>Andrei</forename>
+              <forename>Daniel</forename>
+              <surname>Gheorghe</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/GheorgheAndreiDaniel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Andrei-Ioan-Chiliman">
+            <persName>
+              <forename>Andrei</forename>
+              <forename>Ioan</forename>
+              <surname>Chiliman</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Andrei-Razvan-Lupu">
+            <persName>
+              <forename>Andrei-Răzvan</forename>
+              <surname>Lupu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/LupuAndreiRazvan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Andrei-Rudolf-Corlan">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Anghel-Stanciu">
+            <persName>
+              <forename>Anghel</forename>
+              <surname>Stanciu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/StanciuAnghel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Anquetil-Karoly-Kolcsar">
+            <persName>
+              <forename>Anquetil-Károly</forename>
+              <surname>Kolcsár</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/KolcsarAnquetilKaroly.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Anton-Dobos">
+            <persName>
+              <forename>Anton</forename>
+              <surname>Doboș</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Dobos_Anton.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Anton-Niculescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Antonio-Andrusceac">
+            <persName>
+              <forename>Antonio</forename>
+              <surname>Andrușceac</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AndrusceacAntonio.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Arpad-Francisc-Marton">
+            <persName>
+              <forename>Árpád-Francisc</forename>
+              <surname>Márton</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Marton_Arpad_Francisc.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Atilla-Bela-Laszlo-Kelemen">
+            <persName>
+              <forename>Atilla-Béla-László</forename>
+              <surname>Kelemen</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/KelemenAttilaBelaLadislau.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Beniamin-Todosiu">
+            <persName>
+              <forename>Beniamin</forename>
+              <surname>Todosiu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TodosiuBeniamin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Bogdan-Alexandru-Bola">
+            <persName>
+              <forename>Bogdan-Alexandru</forename>
+              <surname>Bola</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BolaBogdanAlexandru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Bogdan-Gheorghe-Trif">
+            <persName>
+              <forename>Bogdan</forename>
+              <forename>Gheorghe</forename>
+              <surname>Trif</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TrifBogdanGheorghe.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Bogdan-Ionel-Rodeanu">
+            <persName>
+              <forename>Bogdan-Ionel</forename>
+              <surname>Rodeanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/RodeanuBogdanIonel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Bogdan-Iulian-Hutuca">
+            <persName>
+              <forename>Bogdan-Iulian</forename>
+              <surname>Huţucă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/HutucaBogdanIulian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Bogdan-Nicolae-Niculescu-Duvaz">
+            <persName>
+              <forename>Bogdan</forename>
+              <forename>Nicolae</forename>
+              <surname>Niculescu</surname>
+              <surname>Duvăz</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Niculescu_Duvaz.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Boris-Volosatii">
+            <persName>
+              <forename>Boris</forename>
+              <surname>Volosatîi</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/VolosatiiBoris.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Botond-Csoma">
+            <persName>
+              <forename>Botond</forename>
+              <surname>Csoma</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CsomaBotond.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Calin-Constantin-Anton-Popescu-Tariceanu">
+            <persName>
+              <forename>Călin</forename>
+              <forename>Constantin</forename>
+              <forename>Anton</forename>
+              <surname>Popescu-Tăriceanu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Calin-Constantin-Balabasciuc">
+            <persName>
+              <forename>Călin-Constantin</forename>
+              <surname>Balabașciuc</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BalabasciucCalinConstantin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Camelia-Gavrila">
+            <persName>
+              <forename>Camelia</forename>
+              <surname>Gavrilă</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Gavrila_Camelia.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Catalin-Doica">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Catalin-Zamfir-Manea">
+            <persName>
+              <forename>Cătălin-Zamfir</forename>
+              <surname>Manea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/ManeaCatalinZamfir.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Claudia-Boghicevici">
+            <persName>
+              <forename>Claudia</forename>
+              <surname>Boghicevici</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Boghicevici_Claudia.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Claudiu-Iulius-Gavril-Nasui">
+            <persName>
+              <forename>Claudiu-Iulius-Gavril</forename>
+              <surname>Năsui</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/NasuiClaudiuIuliusGavril.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Claudiu-Manta">
+            <persName>
+              <forename>Claudiu</forename>
+              <surname>Manta</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MantaClaudiu.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Clement-Negrut">
+            <persName>
+              <forename>Clement</forename>
+              <surname>Negruţ</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Negrut_Clement.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Constantin-Birca">
+            <persName>
+              <forename>Constantin</forename>
+              <surname>Bîrcă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BircaConstantin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Constantin-Eremia-Cotrutz">
+            <persName>
+              <forename>Constantin</forename>
+              <forename>Eremia</forename>
+              <surname>Cotrutz</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Constantin-Sovaiala">
+            <persName>
+              <forename>Constantin</forename>
+              <surname>Șovăială</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SovaialaConstantin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cornel-Itu">
+            <persName>
+              <forename>Cornel</forename>
+              <surname>Itu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Itu_Cornel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Corneliu-Bichinet">
+            <persName>
+              <forename>Corneliu</forename>
+              <surname>Bichineţ</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Bichinet_Corneliu.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Corneliu-Mugurel-Cozmanciuc">
+            <persName>
+              <forename>Corneliu-Mugurel</forename>
+              <surname>Cozmanciuc</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CozmanciucCorneliuMugurel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cosmin-Gabriel-Popp">
+            <persName>
+              <forename>Cosmin</forename>
+              <forename>Gabriel</forename>
+              <surname>Popp</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/CosminPopp.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Costache-Mircea">
+            <persName>
+              <forename>Costache</forename>
+              <surname>Mircea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/MirceaCostache.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Costel-Neculai-Dunava">
+            <persName>
+              <forename>Costel</forename>
+              <forename>Neculai</forename>
+              <surname>Dunava</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/DunavaCostelNeculai.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Costel-Soptica">
+            <persName>
+              <forename>Costel</forename>
+              <surname>Șoptică</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SopticaCostel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cristian-Brian">
+            <persName>
+              <forename>Brian</forename>
+              <surname>Cristian</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CristianBrian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cristian-Paul-Ichim">
+            <persName>
+              <forename>Cristian-Paul</forename>
+              <surname>Ichim</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/IchimCristianPaul.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cristiana-Irina-Anghel">
+            <persName>
+              <forename>Cristiana-Irina</forename>
+              <surname>Anghel</surname>
+            </persName>
+            <sex value="F"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Cristina-Burciu">
+            <persName>
+              <forename>Cristina</forename>
+              <surname>Burciu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BurciuCristina.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cristina-Camelia-Rizea">
+            <persName>
+              <forename>Cristina</forename>
+              <forename>Camelia</forename>
+              <surname>Rizea</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/RizeaCristinaCamelia.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Cristina-Ionela-Iurisniti">
+            <persName>
+              <forename>Cristina-Ionela</forename>
+              <surname>Iurișniţi</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Iurisniti_Cristina.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Cristina-Madalina-Pruna">
+            <persName>
+              <forename>Cristina-Mădălina</forename>
+              <surname>Prună</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PrunaCristinaMadalina.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dan-Constantin-Slincu">
+            <persName>
+              <forename>Dan-Constantin</forename>
+              <surname>Șlincu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SlincuDanConstantin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dan-Coriolan-Simedru">
+            <persName>
+              <forename>Dan</forename>
+              <forename>Coriolan</forename>
+              <surname>Simedru</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Dan-Dumitrescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Dan-Popescu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Dan-Tanasa">
+            <persName>
+              <forename>Dan</forename>
+              <surname>Tanasă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TanasaDan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniel-Codrut-Blaga">
+            <persName>
+              <forename>Daniel-Codruţ</forename>
+              <surname>Blaga</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BlagaDanielCodrut.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniel-Florea">
+            <persName>
+              <forename>Daniel</forename>
+              <surname>Florea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/FloreaDaniel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniel-Gheorghe-Rusu">
+            <persName>
+              <forename>Daniel-Gheorghe</forename>
+              <surname>Rusu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/RusuDanielGheorghe.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniel-Tudorache">
+            <persName>
+              <forename>Daniel</forename>
+              <surname>Tudorache</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TudoracheDaniel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniela-Anda-Grigore-Gitman">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Daniela-Otesanu">
+            <persName>
+              <forename>Daniela</forename>
+              <surname>Oteșanu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/OtesanuDaniela.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Danut-Aelenei">
+            <persName>
+              <forename>Dănuţ</forename>
+              <surname>Aelenei</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AeleneiDanut.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Denisa-Elena-Neagu">
+            <persName>
+              <forename>Denisa-Elena</forename>
+              <surname>Neagu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/NeaguDenisaElena.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dezso-Kalman-Becsek-Garda">
+            <persName>
+              <forename>Dezső-Kálmán</forename>
+              <surname>Becsek-Garda</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Dorel-Gheorghe-Acatrinei">
+            <persName>
+              <forename>Dorel-Gheorghe</forename>
+              <surname>Acatrinei</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AcatrineiDorelGheorghe.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dragos-Catalin-Tenita">
+            <persName>
+              <forename>Dragoș-Cătălin</forename>
+              <surname>Teniţă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TenitaDragosCatalin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dragos-Gabriel-Zisopol">
+            <persName>
+              <forename>Dragoș</forename>
+              <forename>Gabriel</forename>
+              <surname>Zisopol</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/ZisopolDragosGabriel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dragos-Petre-Dumitriu">
+            <persName>
+              <forename>Dragoș</forename>
+              <forename>Petre</forename>
+              <surname>Dumitriu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/DumitriuDragos.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Dumitrina-Mitrea">
+            <persName>
+              <forename>Dumitrina</forename>
+              <surname>Mitrea</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MitreaDumitrina.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dumitrita-Gliga">
+            <persName>
+              <forename>Dumitriţa</forename>
+              <surname>Gliga</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/GligaDumitrita.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dumitru-Coarna">
+            <persName>
+              <forename>Dumitru</forename>
+              <surname>Coarnă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CoarnaDumitru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dumitru-Flucus">
+            <persName>
+              <forename>Dumitru</forename>
+              <surname>Flucuș</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/FlucusDumitru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Dumitru-Viorel-Focsa">
+            <persName>
+              <forename>Dumitru-Viorel</forename>
+              <surname>Focșa</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/FocsaDumitruViorel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Eliza-Madalina-Peta-Stefanescu">
+            <persName>
+              <forename>Eliza-Mădălina</forename>
+              <surname>Peţa-Ștefănescu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PetaStefanescuElizaMadalina.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ervin-Molnar">
+            <persName>
+              <forename>Ervin</forename>
+              <surname>Molnar</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MolnarErvin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Eugen-Bejinariu">
+            <persName>
+              <forename>Eugen</forename>
+              <surname>Bejinariu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BejinariuEugen.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Florea-Buga">
+            <persName>
+              <forename>Florea</forename>
+              <surname>Buga</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Florica-Chereches">
+            <persName>
+              <forename>Florica</forename>
+              <surname>Cherecheș</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Chereches_Florica.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Florin-Alexandru-Alexe">
+            <persName>
+              <forename>Florin-Alexandru</forename>
+              <surname>Alexe</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AlexeFlorinAlexandru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Florin-Claudiu-Roman">
+            <persName>
+              <forename>Florin-Claudiu</forename>
+              <surname>Roman</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/RomanFlorinClaudiu.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Florin-Costin-Paslaru">
+            <persName>
+              <forename>Florin-Costin</forename>
+              <surname>Pâslaru</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Paslaru_Florin_Costin.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Florin-Gheorghe">
+            <persName>
+              <forename>Florin</forename>
+              <surname>Gheorghe</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Gheorghe_Florin.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Florin-Iordache">
+            <persName>
+              <forename>Florin</forename>
+              <surname>Iordache</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Iordache_Florin2.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Florin-Piper-Savu">
+            <persName>
+              <forename>Florin</forename>
+              <surname>Piper-Savu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PiperSavuFlorin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Gabor-Hajdu">
+            <persName>
+              <forename>Gábor</forename>
+              <surname>Hajdu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/HajduGabor.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Gabriel-Andronache">
+            <persName>
+              <forename>Gabriel</forename>
+              <surname>Andronache</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AndronacheGabriel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Gabriel-Ioan-Avramescu">
+            <persName>
+              <forename>Gabriel-Ioan</forename>
+              <surname>Avrămescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AvramescuGabrielIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Gabriel-Marius-Muresan">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="George-Adrian-Paladi">
+            <persName>
+              <forename>George-Adrian</forename>
+              <surname>Paladi</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PaladiGeorgeAdrian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="George-Nicolae-Simion">
+            <persName>
+              <forename>George-Nicolae</forename>
+              <surname>Simion</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SimionGeorgeNicolae.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="George-Siscu">
+            <persName>
+              <forename>George</forename>
+              <surname>Șișcu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SiscuGeorge.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Georgel-Badiu">
+            <persName>
+              <forename>Georgel</forename>
+              <surname>Badiu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Georgeta-Carmen-Holban">
+            <persName>
+              <forename>Georgeta-Carmen</forename>
+              <surname>Holban</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/HolbanGeorgetaCarmen.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Gheorghe-Dan-Nicolae-Ceausescu">
+            <persName>
+              <forename>Gheorghe</forename>
+              <forename>Dan</forename>
+              <forename>Nicolae</forename>
+              <surname>Ceaușescu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Gheorghe-Eugen-Nicolaescu">
+            <persName>
+              <forename>Gheorghe-Eugen</forename>
+              <surname>Nicolăescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Nicolaescu_Gheorghe_Eugen.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Gheorghe-Marin">
+            <persName>
+              <forename>Gheorghe</forename>
+              <surname>Marin</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Marin_Gheorghe.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Gheorghe-Nacov">
+            <persName>
+              <forename>Gheorghe</forename>
+              <surname>Nacov</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/NacovGheorghe.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Gigel-Sorinel-Stirbu">
+            <persName>
+              <forename>Gigel-Sorinel</forename>
+              <surname>Știrbu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/StirbuGigelSorinel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Horia-Vasioiu">
+            <persName>
+              <forename>Horia</forename>
+              <surname>Văsioiu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/VasioiuHoria.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Hunor-Kelemen">
+            <persName>
+              <forename>Hunor</forename>
+              <surname>Kelemen</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Kelemen_Hunor.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ilie-Alin-Colesa">
+            <persName>
+              <forename>Ilie-Alin</forename>
+              <surname>Coleșa</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/ColesaIlieAlin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ilie-Toma">
+            <persName>
+              <forename>Ilie</forename>
+              <surname>Toma</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TomaIlie.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ioan-Aurel-Rus">
+            <persName>
+              <forename>Ioan</forename>
+              <forename>Aurel</forename>
+              <surname>Rus</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/RusIoanAurel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Ioan-Balan">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Balan</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BalanIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ioan-Benga">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Benga</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Benga_Ioan.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ioan-Bivolaru">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Bivolaru</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/BivolaruIoan.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Ioan-Cezar-Coraci">
+            <persName>
+              <forename>Ioan</forename>
+              <forename>Cezar</forename>
+              <surname>Corâci</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Ioan-Cristian-Chirtes">
+            <persName>
+              <forename>Ioan-Cristian</forename>
+              <surname>Chirteș</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Chirtes_Ioan_Cristian.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ioan-Cupsa">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Cupșa</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CupsaIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ioan-Mang">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Mang</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MangIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ioan-Munteanu">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Munteanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/MunteanuIon.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Ioan-Oltean">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Oltean</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Oltean_Ioan.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ioan-Vulpescu">
+            <persName>
+              <forename>Ioan</forename>
+              <surname>Vulpescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/VulpescuIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ion-Aurel-Stanciu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ion-Berciu">
+            <persName>
+              <forename>Ion</forename>
+              <surname>Berciu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Ion-Carstoiu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Ion-Marcel-Ciolacu">
+            <persName>
+              <forename>Ion-Marcel</forename>
+              <surname>Ciolacu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CiolacuIonMarcel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ionel-Danca">
+            <persName>
+              <forename>Ionel</forename>
+              <surname>Dancă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/DancaIonel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ionut-Marian-Stroe">
+            <persName>
+              <forename>Ionuţ-Marian</forename>
+              <surname>Stroe</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/StroeIonutMarian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Irinel-Ionel-Scriosteanu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Istvan-Toke">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Iuian-Iancu">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Iulian-Alexandru-Badea">
+            <persName>
+              <forename>Iulian-Alexandru</forename>
+              <surname>Badea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BadeaIulianAlexandru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Iulian-Bulai">
+            <persName>
+              <forename>Iulian</forename>
+              <surname>Bulai</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BulaiIulian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Iulian-Radu-Surugiu">
+            <persName>
+              <forename>Iulian-Radu</forename>
+              <surname>Surugiu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/SurugiuIulianRadu.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Iuliu-Ioan-Furo">
+            <persName>
+              <forename>Iuliu</forename>
+              <forename>Ioan</forename>
+              <surname>Furo</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Janos-Kiss">
+            <persName>
+              <forename>János</forename>
+              <surname>Kiss</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/KissJanos.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Karoly-Kerekes">
+            <persName>
+              <forename>Károly</forename>
+              <surname>Kerekes</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Kerekes_Karoly.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Laszlo-Zsolt-Ladanyi">
+            <persName>
+              <forename>László-Zsolt</forename>
+              <surname>Ladányi</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Laurentiu-Dan-Leoreanu">
+            <persName>
+              <forename>Laurenţiu-Dan</forename>
+              <surname>Leoreanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/LeoreanuLaurentiuDan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Lazar-Ladariu">
+            <persName>
+              <forename>Lazăr</forename>
+              <surname>Lădariu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Levente-Vass">
+            <persName>
+              <forename>Levente</forename>
+              <surname>Vass</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Vass_Levente.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Lia-Olguta-Vasilescu">
+            <persName>
+              <forename>Lia</forename>
+              <forename>Olguţa</forename>
+              <surname>Vasilescu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/VasilescuLiaOlguta.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Liviu-Harbuz">
+            <persName>
+              <forename>Liviu</forename>
+              <surname>Harbuz</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Harbuz_Liviu.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Liviu-Ioan-Balint">
+            <persName>
+              <forename>Liviu-Ioan</forename>
+              <surname>Balint</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BalintLiviuIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Liviu-Ionut-Mosteanu">
+            <persName>
+              <forename>Liviu-Ionuţ</forename>
+              <surname>Moșteanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MosteanuLiviuIonut.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Lovin-Dumitru">
+            <persName>
+              <forename>Dumitru</forename>
+              <surname>Lovin</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Lovin_Dumitru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Lucia-Ana-Varga">
+            <persName>
+              <forename>Lucia-Ana</forename>
+              <surname>Varga</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/VargaLuciaAna.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Lucian-Feodorov">
+            <persName>
+              <forename>Lucian</forename>
+              <surname>Feodorov</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/FeodorovLucian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Lucian-Ovidiu-Heius">
+            <persName>
+              <forename>Lucian-Ovidiu</forename>
+              <surname>Heiuș</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Heius_Lucian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Maria-Stefania-Manea">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Marian-Crusoveanu">
+            <persName>
+              <forename>Marian</forename>
+              <surname>Crușoveanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CrusoveanuMarian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Marian-Florian-Saniuta">
+            <persName>
+              <forename>Marian-Florian</forename>
+              <surname>Săniuţă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/SaniutaMarianFlorian.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Marian-Sorin-Paveliu">
+            <persName>
+              <forename>Marian</forename>
+              <forename>Sorin</forename>
+              <surname>Paveliu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PaveliuMarianSorin.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Marilen-Gabriel-Pirtea">
+            <persName>
+              <forename>Marilen-Gabriel</forename>
+              <surname>Pirtea</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Marius-Balu">
+            <persName>
+              <forename>Marius</forename>
+              <surname>Bălu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/BaluMarius.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Marius-Constantin-Budai">
+            <persName>
+              <forename>Marius-Constantin</forename>
+              <surname>Budăi</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BudaiMariusConstantin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Marius-Rogin">
+            <persName>
+              <forename>Marius</forename>
+              <surname>Rogin</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/RoginMarius.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mihaela-Hunca">
+            <persName>
+              <forename>Mihaela</forename>
+              <surname>Huncă</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Hunca_Mihaela.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Mihai-Alexandru-Badea">
+            <persName>
+              <forename>Mihai-Alexandru</forename>
+              <surname>Badea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BadeaMihaiAlexandru.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Mihai-Balta">
+            <persName>
+              <forename>Mihai</forename>
+              <surname>Baltă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Balta_Mihai.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Mihai-Catalin-Botez-">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Mihai-Dobre">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Mihai-Ioan-Lasca">
+            <persName>
+              <forename>Mihai</forename>
+              <forename>Ioan</forename>
+              <surname>Lasca</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/LascaMihaiIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Mihai-Nicolae-Tanasescu">
+            <persName>
+              <forename>Mihai</forename>
+              <forename>Nicolae</forename>
+              <surname>Tănăsescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/TanasescuMihaiNicolae.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mihail-Albisteanu">
+            <persName>
+              <forename>Mihail</forename>
+              <surname>Albișteanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AlbisteanuMihail.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Mihail-Gabriel-Ionita">
+            <persName>
+              <forename>Mihail-Gabriel</forename>
+              <surname>Ioniţă</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Mircea-Alexandru">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mircea-Fechet">
+            <persName>
+              <forename>Mircea</forename>
+              <surname>Fechet</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/FechetMircea.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Mircea-Octavian-Purceld">
+            <persName>
+              <forename>Octavian-Mircea</forename>
+              <surname>Purceld</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PurceldOctavianMircea.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mircea-Valer-Pusca">
+            <persName>
+              <forename>Mircea</forename>
+              <forename>Valer</forename>
+              <surname>Pușcă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PuscaMirceaValer.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Mircia-Giurgiu">
+            <persName>
+              <forename>Mircia</forename>
+              <surname>Giurgiu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/GiurgiuMircia.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Natalia-Elena-Intotero">
+            <persName>
+              <forename>Natalia-Elena</forename>
+              <surname>Intotero</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/IntoteroNataliaElena.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Nicolae-Bud">
+            <persName>
+              <forename>Nicolae</forename>
+              <surname>Bud</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Nicolae-Georgescu">
+            <persName>
+              <forename>Nicolae</forename>
+              <surname>Georgescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/GeorgescuNicolae.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Nicolae-Giugea">
+            <persName>
+              <forename>Nicolae</forename>
+              <surname>Giugea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/GiugeaNicolae.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Nicolae-Liviu-Dragnea">
+            <persName>
+              <forename>Nicolae-Liviu</forename>
+              <surname>Dragnea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Dragnea_Liviu_Nicolae.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Nicolae-Miroslav-Petretchi">
+            <persName>
+              <forename>Nicolae-Miroslav</forename>
+              <surname>Petreţchi</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PetretchiNicolaeMiroslav.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Nicolae-Popa">
+            <persName>
+              <forename>Nicolae</forename>
+              <surname>Popa</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PopaNicolae.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Nicolae-Roman">
+            <persName>
+              <forename>Nicolae</forename>
+              <surname>Roman</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/RomanNicolae.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Nicu-Nita">
+            <persName>
+              <forename>Nicu</forename>
+              <surname>Niţă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/NitaNicu.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Niculae-Mircovici">
+            <persName>
+              <forename>Niculae</forename>
+              <surname>Mircovici</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Mircovici_Niculae.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Oana-Alexandra-Cambera">
+            <persName>
+              <forename>Oana-Alexandra</forename>
+              <surname>Cambera</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CamberaOanaAlexandra.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Oana-Gianina-Bulai">
+            <persName>
+              <forename>Oana-Gianina</forename>
+              <surname>Bulai</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BulaiOanaGianina.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Oana-Marciana-Ozmen">
+            <persName>
+              <forename>Oana-Marciana</forename>
+              <surname>Özmen</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/OzmenOanaMarciana.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Oana-Silvia-Toiu">
+            <persName>
+              <forename>Oana-Silvia</forename>
+              <surname>Ţoiu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/ToiuOanaSilvia.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Odon-Szabo">
+            <persName>
+              <forename>Ödön</forename>
+              <surname>Szabó</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Szabo_Odon.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ovidiu-Cristian-Iane">
+            <persName>
+              <forename>Ovidiu-Cristian</forename>
+              <surname>Iane</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Iane_Ovidiu_Cristian.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Ovidiu-Sergiu-Bilcea">
+            <persName>
+              <forename>Ovidiu-Sergiu</forename>
+              <surname>Bîlcea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BilceaOvidiuSergiu.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Ovidiu-Victor-Gant">
+            <persName>
+              <forename>Ovidiu</forename>
+              <forename>Victor</forename>
+              <surname>Ganţ</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Gant_Ovidiu_Victor.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Paul-Dumbravanu">
+            <persName>
+              <forename>Paul</forename>
+              <surname>Dumbrăvanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Dumbravanu_Paul.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Petru-Andea">
+            <persName>
+              <forename>Petru</forename>
+              <surname>Andea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/AndeaPetru.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Petru-Bejinariu">
+            <persName>
+              <forename>Petru</forename>
+              <surname>Bejinariu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Petru-Calian">
+            <persName>
+              <forename>Petru</forename>
+              <surname>Călian</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/CalianPetru.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Petru-Gabriel-Vlase">
+            <persName>
+              <forename>Petru</forename>
+              <forename>Gabriel</forename>
+              <surname>Vlase</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Vlase_Petru_Gabriel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Petru-Lakatos">
+            <persName>
+              <forename>Petru</forename>
+              <surname>Lakatos</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/LakatosPetru.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Puiu-Hasotti">
+            <persName>
+              <forename>Puiu</forename>
+              <surname>Hașotti</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Radu-Iulian-Molnar">
+            <persName>
+              <forename>Radu-Iulian</forename>
+              <surname>Molnar</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MolnarRaduIulian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Radu-Marcel-Tuhut">
+            <persName>
+              <forename>Radu-Marcel</forename>
+              <surname>Tuhuţ</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/TuhutRaduMarcel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Radu-Marin-Moisin">
+            <persName>
+              <forename>Radu-Marin</forename>
+              <surname>Moisin</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MoisinRaduMarin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Radu-Mihai-Popa">
+            <persName>
+              <forename>Radu</forename>
+              <forename>Mihai</forename>
+              <surname>Popa</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Popa_Radu_Mihai.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Radu-Zlati">
+            <persName>
+              <forename>Radu</forename>
+              <surname>Zlati</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Zlati_Radu.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Rares-Tudor-Pop">
+            <persName>
+              <forename>Rareș</forename>
+              <forename>Tudor</forename>
+              <surname>Pop</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PopRaresTudor.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Remus-Florinel-Cernea">
+            <persName>
+              <forename>Remus-Florinel</forename>
+              <surname>Cernea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Cernea_Remus_Florinel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Robert-Kalman-Raduly">
+            <persName>
+              <forename>Róbert</forename>
+              <forename>Kálmán</forename>
+              <surname>Ráduly</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Robert-Nicolae-Turcescu">
+            <persName>
+              <forename>Robert-Nicolae</forename>
+              <surname>Turcescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Turcescu_Robert.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Rodica-Nassar">
+            <persName>
+              <forename>Rodica</forename>
+              <surname>Nassar</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Nassar_Rodica.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Romulus-Marius-Damian">
+            <persName>
+              <forename>Romulus-Marius</forename>
+              <surname>Damian</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/DamianRomulusMarius.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Sandor-Gabor">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Sebastian-Ioan-Burduja">
+            <persName>
+              <forename>Sebastian-Ioan</forename>
+              <surname>Burduja</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BurdujaSebastianIoan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Silviu-Nicu-Macovei">
+            <persName>
+              <forename>Silviu</forename>
+              <forename>Nicu</forename>
+              <surname>Macovei</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MacoveiSilviuNicu.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Silviu-Titus-Paunescu">
+            <persName>
+              <forename>Silviu-Titus</forename>
+              <surname>Păunescu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/PaunescuSilviuTitus.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Simona-Bucura-Oprescu">
+            <persName>
+              <forename>Simona</forename>
+              <surname>Bucura-Oprescu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BucuraOprescuSimona.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Sorin-Avram-Iacoban">
+            <persName>
+              <forename>Sorin-Avram</forename>
+              <surname>Iacoban</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Iacoban_Sorin_Avram.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Sorin-Dan-Moldovan">
+            <persName>
+              <forename>Sorin-Dan</forename>
+              <surname>Moldovan</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MoldovanSorinDan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Sorin-Mihai-Grindeanu">
+            <persName>
+              <forename>Sorin</forename>
+              <forename>Mihai</forename>
+              <surname>Grindeanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/GrindeanuSorinMihai.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Sorin-Nacuta">
+            <persName>
+              <forename>Sorin</forename>
+              <surname>Năcuţă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/NacutaSorin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Sorin-Titus-Muncaciu">
+            <persName>
+              <forename>Sorin-Titus</forename>
+              <surname>Muncaciu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MuncaciuSorinTitus.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Stefan-Alexandru-Baisanu">
+            <persName>
+              <forename>Ștefan-Alexandru</forename>
+              <surname>Băișanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/Baisanu_Stefan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Stefan-Baban">
+            <persName>
+              <forename>Ștefan</forename>
+              <surname>Baban</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Stefan-Glavan">
+            <persName>
+              <forename>Ștefan</forename>
+              <surname>Glăvan</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/GlavanStefan.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Stefan-Musoiu">
+            <persName>
+              <forename>Ștefan</forename>
+              <surname>Mușoiu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/MusoiuStefan.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Stelian-Cristian-Ion">
+            <persName>
+              <forename>Stelian-Cristian</forename>
+              <surname>Ion</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/IonStelianCristian.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Steluta-Gustica-Cataniciu">
+            <persName>
+              <forename>Steluţa-Gustica</forename>
+              <surname>Cătăniciu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Catanicioiu_Steluta_Gustica.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Teodor-Atanasiu">
+            <persName>
+              <forename>Teodor</forename>
+              <surname>Atanasiu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Tinel-Gheorghe">
+            <persName>
+              <forename>Tinel</forename>
+              <surname>Gheorghe</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Gheorghe_Tinel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Tudor-Vlad-Benga">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Valentin-Popa">
+            <persName>
+              <forename>Necunoscut</forename>
+              <surname>Necunoscut</surname>
+            </persName>
+            <sex value="U"/>
+            <affiliation ana="#RoParl.55" ref="#RoParl" role="member" from="2016-12-21" to="2020-12-20"/>
+          </person>
+          <person xml:id="Valeriu-Stefan-Zgonea">
+            <persName>
+              <forename>Valeriu</forename>
+              <forename>Ștefan</forename>
+              <surname>Zgonea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Zgonea_Valeriu.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Varol-Amet">
+            <persName>
+              <forename>Varol</forename>
+              <surname>Amet</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AmetVarol.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Vasile-Blaga">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Blaga</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Vasile-Catalin-Dragusanu">
+            <persName>
+              <forename>Vasile-Cătălin</forename>
+              <surname>Drăgușanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Dragusanu_Vasile_Catalin.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Vasile-Citea">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Cîtea</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/CiteaVasile.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Vasile-Daniel-Suciu">
+            <persName>
+              <forename>Vasile-Daniel</forename>
+              <surname>Suciu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2016/mari/SuciuVasileDaniel.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Vasile-Horga">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Horga</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Horga_Vasile.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Vasile-Lupu">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Lupu</surname>
+            </persName>
+            <sex value="M"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Vasile-Mocanu">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Mocanu</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/MocanuVasile.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Vasile-Nagy">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Nagy</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/NagyVasile.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Vasile-Puscas">
+            <persName>
+              <forename>Vasile</forename>
+              <surname>Pușcaș</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2004/mari/PuscasVasile.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+          </person>
+          <person xml:id="Vetuta-Stanescu">
+            <persName>
+              <forename>Vetuţa</forename>
+              <surname>Stănescu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/StanescuVetuta.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Victor-Paul-Dobre">
+            <persName>
+              <forename>Victor</forename>
+              <forename>Paul</forename>
+              <surname>Dobre</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Dobre_Victor.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Victor-Viorel-Ponta">
+            <persName>
+              <forename>Victor-Viorel</forename>
+              <surname>Ponta</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Ponta_Victor.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.52" ref="#RoParl" role="member" from="2004-12-19" to="2008-12-13"/>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Victoria-Violeta-Alexandru">
+            <persName>
+              <forename>Victoria-Violeta</forename>
+              <surname>Alexandru</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/AlexandruVictoriaVioleta.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Viorel-Salan">
+            <persName>
+              <forename>Viorel</forename>
+              <surname>Salan</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SalanViorel.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Viorica-Afrasinei">
+            <persName>
+              <forename>Viorica</forename>
+              <surname>Afrăsinei</surname>
+            </persName>
+            <sex value="F"/>
+            <affiliation ana="#RoParl.50" ref="#RoParl" role="member" from="1996-11-27" to="2000-11-30"/>
+          </person>
+          <person xml:id="Viorica-Sandu">
+            <persName>
+              <forename>Viorica</forename>
+              <surname>Sandu</surname>
+            </persName>
+            <sex value="F"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/SanduViorica.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Virgil-Alin-Chirila">
+            <persName>
+              <forename>Virgil</forename>
+              <forename>Alin</forename>
+              <surname>Chirilă</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/ChirilaVirgilAlin.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+          <person xml:id="Virgil-Guran">
+            <persName>
+              <forename>Virgil</forename>
+              <surname>Guran</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2012/mari/Guran_Virgil.jpg"/>
+            </figure>
+            <affiliation ana="#RoParl.54" ref="#RoParl" role="member" from="2012-12-20" to="2016-12-21"/>
+          </person>
+          <person xml:id="Zacharie-Benedek">
+            <persName>
+              <forename>Zacharie</forename>
+              <surname>Benedek</surname>
+            </persName>
+            <sex value="M"/>
+            <figure>
+              <graphic url="http://www.cdep.ro/parlamentari/l2020/mari/BenedekZacharie.JPG"/>
+            </figure>
+            <affiliation ana="#RoParl.56" ref="#RoParl" role="member" from="2020-12-22"/>
+          </person>
+        </listPerson>
+      </particDesc>
+      <langUsage>
+        <language ident="ro" xml:lang="ro">Română</language>
+        <language ident="ro" xml:lang="en">Romanian</language>
+        <language ident="en" xml:lang="ro">Engleză</language>
+        <language ident="en" xml:lang="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2000-10-24-id4980.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2006-09-18-id6154.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2013-12-09-id7331.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2015-09-29-id7560.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2015-10-12-id7569.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2018-03-05-id7900.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2021-05-10-id8270.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2021-05-18-id8275.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2021-10-25-id8335.xml"/>
+  <xsi:include xmlns:xsi="http://www.w3.org/2001/XInclude" href="ParlaMint-RO_2021-11-09-id8341.xml"/>
+</teiCorpus>
