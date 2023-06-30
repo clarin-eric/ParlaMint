@@ -50,8 +50,9 @@ cp-samples:
 # Which corpora to process, takes cca 1 day per corpus, depending on the size
 # DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 # CORPORA = AT BA BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA # for MT
-CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-
+#CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+#CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS
+CORPORA = LT
 # All submitted corpora
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 # Missing corpora: ES ES-PV FI LT RO
@@ -97,7 +98,7 @@ FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${
 
 ### For real
 nohup:
-	nice nohup time make all > Logs/ParlaMint.1.log &
+	nice nohup time make all > Logs/ParlaMint.log &
 # Second nohup, in case we want to process several corpora at once
 # In which case CORPORA variable needs to be changed!
 nohup2:
@@ -125,14 +126,6 @@ final:
 ###### Targets for producing MTed corpora
 ###### Input are a) original TEI.ana corpus, b) CoNLL-U of speech translations and c) list of translated notes
 
-### Make joint vert for all ParlaMint corpora - Still neet to think about this!
-all-verts:
-	perl ../Scripts/join-all-verts.pl -codes 'AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS' \
-	-in 'Master' -out Verts/ParlaMint-XX.3.0.vert
-	perl ../Scripts/join-all-verts.pl -en -codes 'BA ES-CT' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
-	zcat Verts/ParlaMint-XX.3.0.vert.gz | grep -c '</s>' 
-	zcat Verts/ParlaMint-XX-en.3.0.vert.gz | grep -c '</s>' 
-
 ### Make MTed corpora
 
 # Make distribution with:
@@ -140,14 +133,19 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 
 # Targets
 mt-nohup:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.2.log &
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
 mt-all-final:	mt-convert
 mt-xall-final:	mt-convert mt-verts mt-pack
 
 mt-pack:
 	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
+### Make joint vert for all ParlaMint corpora - Still neet to think about this!
 mt-verts:
-	perl ../Scripts/join-mt-verts.pl -codes '${CORPORA}' -in Master -out Verts
+	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.3.0.vert
+	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
+	# Sanity check
+	zcat Verts/ParlaMint-XX.3.0.vert.gz | grep -c '</s>' 
+	zcat Verts/ParlaMint-XX-en.3.0.vert.gz | grep -c '</s>' 
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl ../Scripts/mt-conllu2tei.pl \
