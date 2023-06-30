@@ -543,10 +543,7 @@
         <xsl:value-of select="concat($name-en, ';')"/>
       </xsl:when>
       <xsl:when test="normalize-space($party)">
-        <xsl:message>
-          <xsl:text>WARN: party without proper name </xsl:text>
-          <xsl:value-of select="$party/@xml:id"/>
-        </xsl:message>
+        <xsl:message select="concat('WARN: party without orgName/@full = ', $full, ' for ', $party/@xml:id)"/>
         <!-- Shorten the ID if possible -->
         <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
         <xsl:text>;</xsl:text>
