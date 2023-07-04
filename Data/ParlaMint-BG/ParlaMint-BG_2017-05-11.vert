@@ -19,7 +19,7 @@
 .	.	.	PUNCT		3	punct	има	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing" content="(Звъни.)"/>
+<note type="kinesic:ringing" content="Звъни."/>
 <p id="ParlaMint-BG_2017-05-11.seg3" lang="Bulgarian">
 <s id="ParlaMint-BG_2017-05-11.seg3.1">
 Откривам	Откривам	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
@@ -1074,5 +1074,5 @@
 .	.	.	PUNCT		3	punct	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing" content="(Звъни.)"/>
+<note type="kinesic:ringing" content="Звъни."/>
 </speech>

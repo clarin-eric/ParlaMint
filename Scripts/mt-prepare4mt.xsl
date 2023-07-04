@@ -4,6 +4,7 @@
      with XIncludes for all corpus components
      Output is the corresponding .TEI.ana:
      - corpus root, 
+     - needed factorised taxonomies, listPerson and listOrg
      - components
      All are in their text-less form (empty <s> elements) ready for insertion of translated sentences
      STDERR gives a detailed log of actions.
@@ -366,7 +367,8 @@
   
   <!-- Fix XIncluded to point to MTed components -->
   <xsl:template match="xi:include">
-    <xsl:if test="not(contains(@href, 'UD-SYN'))">
+    <!-- We do not need the .ana taxonomies except ParlaMint-taxonomy-NER.ana.xml -->
+    <xsl:if test="not(matches(@href, 'taxonomy.*\.ana')) or contains(@href, 'ParlaMint-taxonomy-NER.ana')">
       <xsl:copy>
 	<xsl:attribute name="href">
 	  <xsl:choose>

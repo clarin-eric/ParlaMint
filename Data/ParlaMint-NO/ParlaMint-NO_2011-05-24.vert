@@ -1,5 +1,5 @@
 <note type="head" content="Møte tirsdag den 24. mai 2011 kl. 10"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e94" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Ettkammersystem" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-NO_2011-05-24.ud457e94" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Unicameralism" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e95" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2011-05-24.ana.segd457e95.1">
 Før	Før	før	SCONJ		1	mark	ta	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6
@@ -35,7 +35,7 @@ ferdigbehandlet	ferdigbehandlet	ferdigbehandle	VERB	VerbForm=Part	25	advcl	16.00
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Sak nr. 1 [10:00:33]"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e108" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Ettkammersystem" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1957">
+<speech id="ParlaMint-NO_2011-05-24.ud457e108" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Unicameralism" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.DTA" speaker_name="Andersen, Dag Terje" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1957">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e109" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2011-05-24.ana.segd457e109.1">
 Etter	Etter	etter	ADP		1	case	ønske	NOUN	Definite=Ind Gender=Neut Number=Sing	2
@@ -184,9 +184,7 @@ minutter	minutter	minutt	NOUN	Definite=Ind Gender=Neut Number=Plur	24	nmod	talet
 </p>
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e117" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2011-05-24.ana.segd457e117.1">
-<name type="ORG">
 –	–	–	PUNCT		1	dep	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
-</name>
 Det	Det	det	PRON	Gender=Neut Number=Sing Person=3 PronType=Prs	2	nsubj:pass	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
 anses	anses	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3	root	-	-	-	-
 vedtatt	vedtatt	vedta	VERB	VerbForm=Part	4	parataxis	anse	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	3
@@ -221,7 +219,7 @@ Søreide	Søreide	Søreide	PROPN		14	flat:name	Ine	PROPN		11
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e1905" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Ettkammersystem" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="-" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2011-05-24.ud457e1905" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Unicameralism" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="-" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1906" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1">
 I	I	i	ADP		1	case	sak	NOUN	Definite=Ind Gender=Fem Number=Sing	2
@@ -239,7 +237,7 @@ voteringstema	voteringstema	voteringstema	NOUN	Definite=Ind Gender=Neut Number=S
 </p>
 </speech>
 <note type="comment" content="Sak nr. 13"/>
-<speech id="ParlaMint-NO_2011-05-24.ud457e1945" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Ettkammersystem" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="-" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="" speaker_gender="M" speaker_birth="1960">
+<speech id="ParlaMint-NO_2011-05-24.ud457e1945" text_id="ParlaMint-NO_2011-05-24" subcorpus="Reference" body="Unicameralism" term="2009-2013" session="2010-2011" meeting="" sitting="2011-05-24" agenda="" date="2011-05-24" title="Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24" speaker_role="Chairperson" speaker_id="person.OYK" speaker_name="Korsberg, Øyvind" speaker_mp="MP" speaker_minister="-" speaker_party="FrP" speaker_party_name="Fremskrittspartiet" party_status="" speaker_gender="M" speaker_birth="1960">
 <p id="ParlaMint-NO_2011-05-24.ana.segd457e1946" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1">
 Dermed	Dermed	dermed	ADV		1	advmod	ferdigbehandle	ADJ	VerbForm=Part	7
@@ -265,9 +263,7 @@ heves	heves	heve	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6	advcl	forlan
 ?	?	?	PUNCT		7	punct	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2">
-<name type="ORG">
 –	–	–	PUNCT		1	punct	heve	VERB	VerbForm=Part	4
-</name>
 Møtet	Møtet	møte	NOUN	Definite=Def Gender=Neut Number=Sing	2	nsubj	heve	VERB	VerbForm=Part	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	heve	VERB	VerbForm=Part	4
 hevet	hevet	heve	VERB	VerbForm=Part	4	root	-	-	-	-

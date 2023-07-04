@@ -12,7 +12,7 @@
   <xsl:import href="parlamint-lib.xsl"/>
   
   <!-- Directory relative to location of this script, where the ParlaMint corpora are found -->
-  <xsl:param name="base">../Data</xsl:param>
+  <xsl:param name="base"/>
   
   <xsl:output method="xml" indent="yes"/>
   

@@ -807,7 +807,7 @@ objectiu	objectiu	objectiu	NOUN	Gender=Masc Number=Sing	17	advcl	objectiu	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	18	punct	objectiu	NOUN	Gender=Masc Number=Sing	11
 </s>
 </p>
-<note type="vocal:laughter" content="(Remor de veus i rialles.)"/>
+<note type="vocal:laughter" content="Remor de veus i rialles."/>
 <p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1" lang="Catalan">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1">
 En	En	en	ADP	AdpType=Prep	1	advmod	donar	VERB	Mood=Inf	11
@@ -1327,7 +1327,7 @@ naturalitat	naturalitat	naturalitat	NOUN	Gender=Fem Number=Sing	21	conj	naturali
 »	»	»	PUNCT	PunctType=Peri PunctSide=Fin	23	punct	-	-	-	-
 </s>
 </p>
-<note type="vocal:murmuring" content="(Remor de veus.)"/>
+<note type="vocal:murmuring" content="Remor de veus."/>
 <p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6" lang="Catalan">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.1">
 Per	Per	per	ADP	AdpType=Prep	1	advmod	tenir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	5

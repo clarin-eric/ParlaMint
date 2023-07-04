@@ -49,7 +49,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2023-04-13">2023-04-13</date>
+            <date when="2023-06-12">2023-06-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -71,38 +71,32 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="cs">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="note" occurs="2"/>
-               <tagUsage gi="pb" occurs="1"/>
-               <tagUsage gi="u" occurs="1"/>
-               <tagUsage gi="seg" occurs="17"/>
-               <tagUsage gi="kinesic" occurs="0"/>
-               <tagUsage gi="vocal" occurs="1"/>
-               <tagUsage gi="incident" occurs="0"/>
-               <tagUsage gi="gap" occurs="0"/>
-               <tagUsage gi="desc" occurs="1"/>
-               <tagUsage gi="s" occurs="39"/>
-               <tagUsage gi="name" occurs="52"/>
-               <tagUsage gi="time" occurs="14"/>
                <tagUsage gi="date" occurs="7"/>
-               <tagUsage gi="unit" occurs="0"/>
-               <tagUsage gi="num" occurs="24"/>
-               <tagUsage gi="email" occurs="0"/>
-               <tagUsage gi="ref" occurs="0"/>
-               <tagUsage gi="w" occurs="548"/>
-               <tagUsage gi="pc" occurs="106"/>
-               <tagUsage gi="linkGrp" occurs="39"/>
+               <tagUsage gi="desc" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="link" occurs="650"/>
+               <tagUsage gi="linkGrp" occurs="39"/>
+               <tagUsage gi="name" occurs="41"/>
+               <tagUsage gi="note" occurs="2"/>
+               <tagUsage gi="num" occurs="24"/>
+               <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="pc" occurs="106"/>
+               <tagUsage gi="s" occurs="39"/>
+               <tagUsage gi="seg" occurs="17"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="14"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="w" occurs="548"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -118,7 +112,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-04-13">
+         <change when="2023-06-12">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
@@ -704,19 +698,15 @@
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w7"
                         lemma="poslankyně"
                         msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne11"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne12">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w8"
-                              lemma="Barbora"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Barboru</w>
-                        </name>
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne13">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w9"
-                              lemma="Urbanová"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Urbanovou</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne12">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w8"
+                           lemma="Barbora"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Barboru</w>
+                     </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne13">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w9"
+                           lemma="Urbanová"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Urbanovou</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w10"
                         lemma="a"
@@ -724,20 +714,16 @@
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w11"
                         lemma="poslankyně"
                         msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne14"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne15">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w12"
-                              lemma="Renáta"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Renátu</w>
-                        </name>
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne16">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w13"
-                              lemma="Zajíčková"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos"
-                              join="right">Zajíčkovou</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne15">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w12"
+                           lemma="Renáta"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Renátu</w>
+                     </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne16">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w13"
+                           lemma="Zajíčková"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos"
+                           join="right">Zajíčkovou</w>
                      </name>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s2.w14"
                          msd="UPosTag=PUNCT">.</pc>
@@ -893,19 +879,15 @@
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s5.w13"
                         lemma="poslankyně"
                         msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne17"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne18">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s5.w14"
-                              lemma="Barbora"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Barboru</w>
-                        </name>
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne19">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s5.w15"
-                              lemma="Urbanová"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Urbanovou</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne18">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s5.w14"
+                           lemma="Barbora"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Barboru</w>
+                     </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne19">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s5.w15"
+                           lemma="Urbanová"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Urbanovou</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s5.w16"
                         lemma="a"
@@ -1230,19 +1212,15 @@
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w12"
                         lemma="poslankyně"
                         msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne26"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne27">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w13"
-                              lemma="Barbora"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Barboru</w>
-                        </name>
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne28">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w14"
-                              lemma="Urbanová"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Urbanovou</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne27">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w13"
+                           lemma="Barbora"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Barboru</w>
+                     </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne28">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w14"
+                           lemma="Urbanová"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Urbanovou</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w15"
                         lemma="a"
@@ -1250,20 +1228,16 @@
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w16"
                         lemma="poslankyně"
                         msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos">poslankyni</w>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne29"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne30">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w17"
-                              lemma="Renáta"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Renátu</w>
-                        </name>
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne31">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w18"
-                              lemma="Zajíčková"
-                              msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos"
-                              join="right">Zajíčkovou</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne30">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w17"
+                           lemma="Renáta"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Renátu</w>
+                     </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne31">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w18"
+                           lemma="Zajíčková"
+                           msd="UPosTag=PROPN|Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos"
+                           join="right">Zajíčkovou</w>
                      </name>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s3.w19"
                          msd="UPosTag=PUNCT">.</pc>
@@ -1451,19 +1425,15 @@
                         join="right">poslankyně</w>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w18"
                          msd="UPosTag=PUNCT">:</pc>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne34"
-                           type="PER">
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne35">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w19"
-                              lemma="Heller"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Heller</w>
-                        </name>
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne36">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w20"
-                              lemma="Šimon"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Šimon</w>
-                        </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne35">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w19"
+                           lemma="Heller"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Heller</w>
+                     </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne36">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w20"
+                           lemma="Šimon"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Šimon</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w21"
                         lemma="do"
@@ -1487,19 +1457,15 @@
                         join="right">důvody</w>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w27"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne38"
-                           type="PER">
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne39">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w28"
-                              lemma="Munzar"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Munzar</w>
-                        </name>
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne40">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w29"
-                              lemma="Vojtěch"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Vojtěch</w>
-                        </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne39">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w28"
+                           lemma="Munzar"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Munzar</w>
+                     </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne40">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w29"
+                           lemma="Vojtěch"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Vojtěch</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w30"
                         lemma="do"
@@ -1559,19 +1525,15 @@
                         join="right">důvody</w>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w45"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne45"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne46">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w46"
-                              lemma="Šimek"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Šimek</w>
-                        </name>
-                        <name ana="ne:pm" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne47">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w47"
-                              lemma="David"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">David</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne46">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w46"
+                           lemma="Šimek"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Šimek</w>
+                     </name>
+                     <name ana="ne:pm" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne47">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w47"
+                           lemma="David"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">David</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w48"
                         lemma="do"
@@ -1628,19 +1590,15 @@
                         join="right">důvody</w>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w62"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne52"
-                           type="PER">
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne53">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w63"
-                              lemma="Vondrák"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Vondrák</w>
-                        </name>
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne54">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w64"
-                              lemma="Ivo"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Ivo</w>
-                        </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne53">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w63"
+                           lemma="Vondrák"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Vondrák</w>
+                     </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne54">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w64"
+                           lemma="Ivo"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Ivo</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w65"
                         lemma="do"
@@ -1664,19 +1622,15 @@
                         join="right">důvody</w>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w71"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne56"
-                           type="PER">
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne57">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w72"
-                              lemma="Zajíčková"
-                              msd="UPosTag=PROPN|Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Zajíčková</w>
-                        </name>
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne58">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w73"
-                              lemma="Renáta"
-                              msd="UPosTag=PROPN|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Renáta</w>
-                        </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne57">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w72"
+                           lemma="Zajíčková"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos">Zajíčková</w>
+                     </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne58">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w73"
+                           lemma="Renáta"
+                           msd="UPosTag=PROPN|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos">Renáta</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1.w74"
                         lemma="do"
@@ -1912,19 +1866,15 @@
                         join="right">důvody</w>
                      <pc xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1.w14"
                          msd="UPosTag=PUNCT">,</pc>
-                     <name ana="ne:P"
-                           xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne63"
-                           type="PER">
-                        <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne64">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1.w15"
-                              lemma="Baxa"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Baxa</w>
-                        </name>
-                        <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne65">
-                           <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1.w16"
-                              lemma="Martin"
-                              msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Martin</w>
-                        </name>
+                     <name ana="ne:pf" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne64">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1.w15"
+                           lemma="Baxa"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos">Baxa</w>
+                     </name>
+                     <name ana="ne:ps" xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ne65">
+                        <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1.w16"
+                           lemma="Martin"
+                           msd="UPosTag=PROPN|Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos">Martin</w>
                      </name>
                      <w xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1.w17"
                         lemma="do"
@@ -3380,7 +3330,7 @@
                   </s>
                </seg>
                <vocal type="noise">
-                  <desc>(V sále velký hluk.)</desc>
+                  <desc>V sále velký hluk.</desc>
                </vocal>
                <seg xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p14">
                   <s xml:id="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p14.s1">

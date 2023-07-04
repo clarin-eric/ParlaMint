@@ -7,9 +7,9 @@
             <title type="main" xml:lang="en">Hungarian parliamentary corpus ParlaMint-HU [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="hu">A Magyar Országgyűlés ülései, 7., 8. és 9. ciklus (2014 - 2022)</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of Hungary, Term 7, 8 and 9 (2014 - 2022)</title>
-            <meeting ana="#parla.term #OGY.7" corresp="#OGY" n="7">7. ciklus</meeting>
-            <meeting ana="#parla.term #OGY.8" corresp="#OGY" n="8">8. ciklus</meeting>
-            <meeting ana="#parla.term #OGY.9" corresp="#OGY" n="9">9. ciklus</meeting>
+            <meeting ana="#parla.uni #parla.term #OGY.7" corresp="#OGY" n="7">7. ciklus</meeting>
+            <meeting ana="#parla.uni #parla.term #OGY.8" corresp="#OGY" n="8">8. ciklus</meeting>
+            <meeting ana="#parla.uni #parla.term #OGY.9" corresp="#OGY" n="9">9. ciklus</meeting>
             <respStmt>
                <persName>Noémi Ligeti-Nagy</persName>
                <resp xml:lang="hu">A ParlaMint TEI XML formátum előállítása</resp>
@@ -35,10 +35,10 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure xml:lang="hu" quantity="104521" unit="speeches">104.521 beszéd</measure>
-            <measure xml:lang="en" quantity="104521" unit="speeches">104,521 speeches</measure>
-            <measure xml:lang="hu" quantity="27506879" unit="words">27.506.879 szó</measure>
-            <measure xml:lang="en" quantity="27506879" unit="words">27,506,879 words</measure>
+            <measure unit="speeches" quantity="104521" xml:lang="hu">104.521 beszéd</measure>
+            <measure unit="speeches" quantity="104521" xml:lang="en">104,521 speeches</measure>
+            <measure unit="words" quantity="27506879" xml:lang="hu">27.506.879 szó</measure>
+            <measure unit="words" quantity="27506879" xml:lang="en">27,506,879 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -54,7 +54,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-26">2023-04-26</date>
+            <date when="2023-06-16">2023-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -67,10 +67,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="hu">A <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-                     projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.</p>
             <p xml:lang="en">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="hu">A <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> projekt célja, hogy (1) többnyelvű, egységes kódolású, összehasonlítható korpuszokat hozzon létre a parlamenti eljárások szövegeiből (2) ezen korpuszokat nyelvileg feldolgozza; (3) a korpuszokat letölthetővé és konkordancia-lekérdezőkön keresztül elérhetővé tegye; és ezáltal (4) a politikatudományok és a digitális bölcsészet területén felhasználható eseteket hozzon létre.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -92,17 +91,15 @@
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="515"/>
-               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="desc" occurs="91145"/>
                <tagUsage gi="div" occurs="515"/>
-               <tagUsage gi="gap" occurs="0"/>
-               <tagUsage gi="head" occurs="0"/>
-               <tagUsage gi="incident" occurs="3422"/>
-               <tagUsage gi="kinesic" occurs="44602"/>
-               <tagUsage gi="note" occurs="135812"/>
-               <tagUsage gi="seg" occurs="427187"/>
+               <tagUsage gi="incident" occurs="3426"/>
+               <tagUsage gi="kinesic" occurs="44614"/>
+               <tagUsage gi="note" occurs="135779"/>
+               <tagUsage gi="seg" occurs="427152"/>
                <tagUsage gi="text" occurs="515"/>
                <tagUsage gi="u" occurs="104521"/>
-               <tagUsage gi="vocal" occurs="43088"/>
+               <tagUsage gi="vocal" occurs="43105"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -167,12 +164,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-04-26">
+         <change when="2023-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-16">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2022-11-05">xi:include taxonomies and particDesc elements</change>
          <change when="2022-11-09">new sample made after revision</change>
-         <change when="2023-04-26">
-            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
+         <change when="2023-06-16">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

@@ -38,7 +38,7 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="126" xml:lang="sr">126 govora</measure>
             <measure unit="speeches" quantity="126" xml:lang="en">126 speeches</measure>
-            <measure unit="words" quantity="27438" xml:lang="sr">27.438 reči</measure>
+            <measure unit="words" quantity="27438" xml:lang="sr">27,438 reči</measure>
             <measure unit="words" quantity="27438" xml:lang="en">27,438 words</measure>
          </extent>
          <publicationStmt>
@@ -47,7 +47,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="sr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -55,7 +55,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-19">2023-04-19</date>
+            <date when="2023-06-16">2023-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -68,25 +68,28 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="sr">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="12"/>
                <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="0"/>
-               <tagUsage gi="note" occurs="126"/>
-               <tagUsage gi="u" occurs="126"/>
+               <tagUsage gi="gap" occurs="12"/>
+               <tagUsage gi="link" occurs="31403"/>
+               <tagUsage gi="linkGrp" occurs="1374"/>
+               <tagUsage gi="name" occurs="1387"/>
+               <tagUsage gi="note" occurs="2"/>
+               <tagUsage gi="pc" occurs="3965"/>
+               <tagUsage gi="s" occurs="1374"/>
                <tagUsage gi="seg" occurs="128"/>
-               <tagUsage gi="vocal" occurs="0"/>
-               <tagUsage gi="desc" occurs="0"/>
-               <tagUsage gi="kinesic" occurs="0"/>
-               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="126"/>
+               <tagUsage gi="w" occurs="27438"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -101,11 +104,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-19">
+         <change when="2023-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-19">
-            <name>Peter Rupnik</name>
-				Compile from source</change>
+            <name>Peter Rupnik</name> Compile from source</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -1232,7 +1234,7 @@
                               target="#ParlaMint-RS_2008-07-18-0.u1394.seg0.10.1 #ParlaMint-RS_2008-07-18-0.u1394.seg0.10.7"/>
                      </linkGrp>
                   </s>
-                  <note type="time">(Posle pauze.)</note>
+                  <note type="time">Posle pauze.</note>
                   <s xml:id="ParlaMint-RS_2008-07-18-0.u1394.seg0.12">
                      <w xml:id="ParlaMint-RS_2008-07-18-0.u1394.seg0.12.1"
                         msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"

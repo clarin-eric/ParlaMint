@@ -55,50 +55,51 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-04-27">2023-04-27</date>
+            <date when="2023-06-15">2023-06-15</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Senatu RP</title>
                <title type="main" xml:lang="en">Minutes of the Senat of the Republic of Poland</title>
                <publisher>Sprawozdanie stenograficzne z obrad Senatu RP</publisher>
-               <idno type="URI">https://www.senat.gov.pl/prace/posiedzenia/przebieg,534,3,opis.html</idno>
+               <idno type="URI" subtype="parliament">https://www.senat.gov.pl/prace/posiedzenia/przebieg,534,3,opis.html</idno>
                <date when="2020-01-17">17.01.2020</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="pl">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="115"/>
                <tagUsage gi="div" occurs="1"/>
                <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="note" occurs="265"/>
-               <tagUsage gi="u" occurs="224"/>
-               <tagUsage gi="seg" occurs="1752"/>
-               <tagUsage gi="vocal" occurs="52"/>
-               <tagUsage gi="desc" occurs="115"/>
+               <tagUsage gi="incident" occurs="2"/>
                <tagUsage gi="kinesic" occurs="61"/>
-               <tagUsage gi="s" occurs="4802"/>
-               <tagUsage gi="name" occurs="2317"/>
-               <tagUsage gi="w" occurs="60075"/>
-               <tagUsage gi="pc" occurs="12385"/>
-               <tagUsage gi="linkGrp" occurs="4802"/>
                <tagUsage gi="link" occurs="72460"/>
+               <tagUsage gi="linkGrp" occurs="4802"/>
+               <tagUsage gi="name" occurs="2317"/>
+               <tagUsage gi="note" occurs="265"/>
+               <tagUsage gi="pc" occurs="12385"/>
+               <tagUsage gi="s" occurs="4802"/>
+               <tagUsage gi="seg" occurs="1752"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="224"/>
+               <tagUsage gi="vocal" occurs="52"/>
+               <tagUsage gi="w" occurs="60075"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -113,7 +114,7 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-27">
+         <change when="2023-06-15">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>

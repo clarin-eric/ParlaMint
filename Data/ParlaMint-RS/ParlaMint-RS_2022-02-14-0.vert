@@ -3140,7 +3140,7 @@ Zahvaljujem	Zahvaljujem	zahvaljivati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pr
 </s>
 </p>
 </speech>
-<note type="time" content="(Posle pauze)"/>
+<note type="time" content="Posle pauze"/>
 <speech id="ParlaMint-RS_2022-02-14-0.u12441" text_id="ParlaMint-RS_2022-02-14-0" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="v18" sitting="2022-02-14" agenda="" date="2022-02-14" title="Term 12, Meeting v18" speaker_role="Chairperson" speaker_id="DačićIvica" speaker_name="Dačić, Ivica" speaker_mp="MP" speaker_minister="-" speaker_party="SPS" speaker_party_name="Socijalistička partija Srbije" party_status="Coalition" speaker_gender="M" speaker_birth="1966">
 <p id="ParlaMint-RS_2022-02-14-0.u12441.seg0" lang="Serbian">
 <s id="ParlaMint-RS_2022-02-14-0.u12441.seg0.1">

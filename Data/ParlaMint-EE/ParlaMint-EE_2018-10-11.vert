@@ -569,7 +569,7 @@ juurde	juurde	juurde	ADP	AdpType=Post	4	case	lõpp_hääletus	NOUN	Case=Gen Numb
 minna	minna	minema	VERB	VerbForm=Inf	5	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT		6	punct	minema	VERB	VerbForm=Inf	5
-<note type="-" content="(Hääl saalist: 'Jaa!')"/>
+<note type="-" content="Hääl saalist: 'Jaa!'"/>
 </s>
 <s id="ParlaMint-EE_2018-10-11_U7-P1.6">
 Okei	Okei	okei	INTJ		1	root	-	-	-	-
