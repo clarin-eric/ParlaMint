@@ -24,8 +24,8 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure quantity="227792" unit="speeches" xml:lang="en">227,792 speeches</measure>
-            <measure quantity="22874712" unit="words" xml:lang="en">22,874,712 words</measure>
+            <measure unit="speeches" quantity="227792" xml:lang="en">227,792 speeches</measure>
+            <measure unit="words" quantity="22874712" xml:lang="en">22,874,712 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -37,7 +37,7 @@
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-05-07">2023-05-07</date>
+            <date when="2023-06-11">2023-06-11</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -70,10 +70,20 @@
          </editorialDecl>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="note" occurs="233808"/>
-               <tagUsage gi="seg" occurs="359685"/>
+               <tagUsage gi="body" occurs="1317"/>
+               <tagUsage gi="desc" occurs="1"/>
+               <tagUsage gi="div" occurs="1317"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="link" occurs="26966679"/>
+               <tagUsage gi="linkGrp" occurs="1810153"/>
+               <tagUsage gi="name" occurs="743312"/>
+               <tagUsage gi="note" occurs="233727"/>
+               <tagUsage gi="pc" occurs="4091967"/>
+               <tagUsage gi="s" occurs="1810153"/>
+               <tagUsage gi="seg" occurs="359569"/>
                <tagUsage gi="text" occurs="1317"/>
-               <tagUsage gi="u" occurs="227872"/>
+               <tagUsage gi="u" occurs="227792"/>
+               <tagUsage gi="w" occurs="22874712"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -130,12 +140,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-05-07">
+         <change when="2023-06-11">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-11">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2023-03-01">
             <name>GitHub Action</name>: Made sample.</change>
-         <change when="2023-05-07">
-            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
+         <change when="2023-06-11">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

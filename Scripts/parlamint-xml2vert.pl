@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# Finalise XSLT produced vertical file with UD annotations:
+# Finalise XSLT produced vertical XML file
 # - remove namespaces
 # - de escape XML entities
 #
@@ -19,6 +19,10 @@ while (<>) {
     elsif (/^</) {
         #Get rid of namespaces
         s| xmlns(:.*?)?=".*?"||;
+        #Protect quote in various manifestations
+        s|&quot;|\\"|g;
+        s|&#34;|\\"|g;
+	s|&#x22;|\\"|g;
     }
     print;
 }

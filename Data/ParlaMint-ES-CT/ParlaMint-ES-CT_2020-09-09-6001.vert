@@ -484,7 +484,7 @@ Perdó	Perdó	perdó	NOUN	Gender=Masc Number=Sing	12	appos	diputada	NOUN	Gender=
 .	.	.	PUNCT	PunctType=Peri	13	punct	diputada	NOUN	Gender=Fem Number=Plur	1
 </s>
 </p>
-<note type="vocal:murmuring" content="(Veus de fons.)"/>
+<note type="vocal:murmuring" content="Veus de fons."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1.1">
 <name type="PER">
@@ -1468,7 +1468,7 @@ avui	avui	avui	ADV		12	advmod	jornada	NOUN	Gender=Fem Number=Sing	10
 .	.	.	PUNCT	PunctType=Peri	13	punct	passar	VERB	Mood=Ind Tense=Fut Person=1 Number=Plur	1
 </s>
 </p>
-<note type="vocal:murmuring" content="(Veus de fons.)"/>
+<note type="vocal:murmuring" content="Veus de fons."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.2" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.2.1">
 Sí	Sí	sí	ADV		1	root	-	-	-	-
@@ -1533,7 +1533,7 @@ comenten	comenten	comentar	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	9	root	
 .	.	.	PUNCT	PunctType=Peri	10	punct	comentar	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	9
 </s>
 </p>
-<note type="-" content="(Pausa llarga.)"/>
+<note type="-" content="Pausa llarga."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.3" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.3.1">
 Sí	Sí	sí	ADV		1	root	-	-	-	-
@@ -1595,7 +1595,7 @@ Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	2	punct	gràcies	PROPN		1
 </s>
 </p>
-<note type="-" content="(Pausa llarga.)"/>
+<note type="-" content="Pausa llarga."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.4" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.4.1">
 Molt	Molt	molt	ADV		1	advmod	bé	ADV		2
@@ -1749,7 +1749,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	28	nmod	preguntar	VERB	Mood=Inf	5
 .	.	.	PUNCT	PunctType=Peri	29	punct	i	CCONJ		1
 </s>
 </p>
-<note type="-" content="(Pausa.)"/>
+<note type="-" content="Pausa."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.9" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.9.1">
 Doncs	Doncs	doncs	ADV		1	advmod	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
@@ -1936,7 +1936,7 @@ Sí	Sí	sí	ADV		11	advmod	aquest	DET	PronType=Dem Gender=Masc Number=Sing	9
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	12	punct	voler	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	7
 </s>
 </p>
-<note type="-" content="(Pausa.)"/>
+<note type="-" content="Pausa."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.16" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.16.1">
 Doncs	Doncs	doncs	ADV		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
@@ -2805,7 +2805,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	37	nmod	proposició	NOUN	Gender=Fem N
 ...	...	.	PUNCT	PunctType=Comm	38	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<note type="vocal:murmuring" content="(Veus de fons i pausa llarga.)"/>
+<note type="vocal:murmuring" content="Veus de fons i pausa llarga."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.40" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.40.1">
 Disculpin	Disculpin	disculpar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	1	root	-	-	-	-
@@ -2924,7 +2924,7 @@ abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	23	appos	19	NUM		
 ...	...	.	PUNCT	PunctType=Comm	24	punct	vot	NOUN	Gender=Masc Number=Plur	5
 </s>
 </p>
-<note type="vocal:murmuring" content="(Veus de fons i pausa.)"/>
+<note type="vocal:murmuring" content="Veus de fons i pausa."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.42" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.42.1">
 <name type="PER">
@@ -2966,7 +2966,7 @@ Sí	Sí	sí	ADV		1	root	-	-	-	-
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	2	punct	sí	ADV		1
 </s>
 </p>
-<note type="-" content="(Pausa.)"/>
+<note type="-" content="Pausa."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.43" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.43.1">
 Ho	Ho	ho	PRON	PronType=Prs Person=3	1	obj	tornar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	2
@@ -3017,7 +3017,7 @@ Sí	Sí	sí	ADV		1	root	-	-	-	-
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	2	punct	sí	ADV		1
 </s>
 </p>
-<note type="-" content="(Pausa.)"/>
+<note type="-" content="Pausa."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.44" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.44.1">
 Molt	Molt	molt	ADV		1	advmod	bé	ADV		2
@@ -3075,7 +3075,7 @@ Sí	Sí	sí	ADV		1	root	-	-	-	-
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	2	punct	sí	ADV		1
 </s>
 </p>
-<note type="-" content="(Pausa.)"/>
+<note type="-" content="Pausa."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.46" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.46.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
@@ -3244,7 +3244,7 @@ abstenció	abstenció	abstenció	NOUN	Gender=Fem Number=Sing	70	appos	vot	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	71	punct	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	23
 </s>
 </p>
-<note type="kinesic:applause" content="(Aplaudiments.)"/>
+<note type="kinesic:applause" content="Aplaudiments."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51.1">
 I	I	i	CCONJ		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
@@ -3297,7 +3297,7 @@ proposició	proposició	proposició	NOUN	Gender=Fem Number=Sing	41	obj	presentar
 ...	...	.	PUNCT	PunctType=Comm	42	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<note type="vocal:murmuring" content="(Veus de fons.)"/>
+<note type="vocal:murmuring" content="Veus de fons."/>
 <p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52" lang="Catalan">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52.1">
 <name type="PER">

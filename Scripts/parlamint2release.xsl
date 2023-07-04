@@ -228,14 +228,13 @@
 	<!-- In NO corpus each meeting contains yearFrom-yearTo info, which we need -->
 	<xsl:variable name="toYear-NO" select="substring-after(., '-')"/>
 	<xsl:choose>
-          <xsl:when test="$country-code = 'GB' and
-                          contains(/tei:TEI/tei:teiHeader//tei:titleStmt
-                          /tei:title[@type='main'],
-                          'Commons')">
+          <xsl:when test="$country-code = 'GB' and 
+			  not(contains(@ana, '#parla.upper') and contains(@ana, '#parla.lower'))">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
 	  </xsl:when>
 	  <!-- Quasi-bicameral to 2009, then unicameral -->
-          <xsl:when test="$country-code = 'NO' and $toYear-NO &lt;= '2009'">
+          <xsl:when test="$country-code = 'NO' and 
+			  $toYear-NO &lt;= '2009'">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
 	  </xsl:when>
           <xsl:when test="$country-code = 'NO'">
@@ -323,9 +322,9 @@
   <xsl:template mode="comp" match="tei:meeting">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
+      <!-- BE uses their own special category for commitee meetings, change to common category -->
       <xsl:variable name="ana" select="replace(@ana, 'parla\.meeting\.committee', 'parla.committee')"/>
       <xsl:attribute name="ana">
-	<!-- BE uses their own special category for commitee meetings, change to common category -->
 	<xsl:if test="not(contains($ana, 'parla.upper') or contains($ana, 'parla.lower') or contains($ana, 'parla.committee'))">
 	  <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
 					     tei:title[@type='main']
