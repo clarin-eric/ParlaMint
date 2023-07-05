@@ -36,7 +36,7 @@
             <!--xsl:variable name="trans" select="et:prep(regex-group(6))"/-->
             <xsl:variable name="trans" select="regex-group(6)"/>
 	    <xsl:if test="$orig != 'content'"> <!-- Skip header row -->
-	      <item n="{replace(mk:normalize-note($orig), '\s', '')}">
+	      <item n="{replace($orig, '\s', '')}">
 		<xsl:value-of select="mk:normalize-note(et:cut($orig, $trans))"/>
 	      </item>
 	    </xsl:if>
