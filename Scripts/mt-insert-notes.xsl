@@ -36,7 +36,7 @@
             <!--xsl:variable name="trans" select="et:prep(regex-group(6))"/-->
             <xsl:variable name="trans" select="regex-group(6)"/>
 	    <xsl:if test="$orig != 'content'"> <!-- Skip header row -->
-	      <item n="{replace($orig, '\s', '')}">
+	      <item n="{replace(mk:normalize-note($orig), '\s', '')}">
 		<xsl:value-of select="mk:normalize-note(et:cut($orig, $trans))"/>
 	      </item>
 	    </xsl:if>
@@ -66,7 +66,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="id" select="ancestor-or-self::tei:*[@xml:id][1]/@xml:id"/>
       <xsl:variable name="orig" select="normalize-space(.)"/>
-      <xsl:variable name="trans" select="key('n', replace($orig, '\s', ''), $notes)[1]"/>
+      <xsl:variable name="trans" select="key('n', replace(mk:normalize-note($orig), '\s', ''), $notes)[1]"/>
       <xsl:choose>
 	<xsl:when test="normalize-space($trans)">
 	  <xsl:attribute name="xml:lang" select="$target-lang"/>
