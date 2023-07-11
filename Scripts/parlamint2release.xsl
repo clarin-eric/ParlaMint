@@ -430,7 +430,7 @@
   </xsl:template>
       
   <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
-  <xsl:template mode="comp" match="tei:body//tei:name[not(tei:w)]">
+  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing name tag as name ', normalize-space(.), 
 			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
