@@ -1,5 +1,13 @@
-### Fixes for 3.0:
+### Fixes for 3.0-en:
+# Make text dirs again but with *.tsvs
+mt-convert-txt:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Master; \
+	done;
 
+# Copy taja's CoNLL to master adding -en suffix to filesnames + readme.
+
+### Fixes for 3.0:
 # Merge per-language translated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
 mrg-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
@@ -8,7 +16,7 @@ mrg-conll:
 	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu Source-MT/ParlaMint-ES-CT-en.conllu
 	bin/merge-conllu.pl Master/ParlaMint-UA.conllu Source-MT/ParlaMint-UA-en.conllu
 
-# Fix a mistek with handle in corpora
+# Fix a mistake with handle in corpora
 fix-handle:
 	for CORPUS in ${CORPORA}; do \
 	bin/fix-handle.pl "Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml"; \
@@ -23,8 +31,8 @@ cp-readmes:
 samples:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
-	grep -a -i error Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
-	grep -a -i warn  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	done;
 
 # Make vertical files only
@@ -46,21 +54,20 @@ make-root:
 cp-samples:
 	bin/cp-samples.pl 'Master/Sample-ParlaMint-*' ../Data
 
+mt-logs:
+	for CORPUS in ${CORPORA}; do \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
+	done;
+
 ### VARIABLES
-# Which corpora to process, takes cca 1 day per corpus, depending on the size
-# DONE = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# CORPORA = AT BA BG CZ DK EE ES-CT ES-GA FR GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA # for MT
-#CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-#CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS
-CORPORA = LT
-# All submitted corpora
-# CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# Missing corpora: ES ES-PV FI LT RO
 # All ParlaMint II corpora
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-
-# Used for testing scripts
-CORPUS = NO
+# Missing corpora: ES ES-PV FI LT RO
+# All submitted corpora
+CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+# Used for testing scripts:
+# CORPUS = NO
 
 #Where things are, as we use several branches: this one (most likely dev) and documentation
 PARLAMINT = /project/corpora/Parla/ParlaMint
@@ -113,7 +120,7 @@ verts:
 final:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
-	grep -a -i 'error ' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	echo "$${CORPUS}.warn"; \
 	cat Logs/ParlaMint-$${CORPUS}.warn.log | wc -l;  \
@@ -139,7 +146,8 @@ mt-xall-final:	mt-convert mt-verts mt-pack
 
 mt-pack:
 	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
-### Make joint vert for all ParlaMint corpora - Still neet to think about this!
+
+### Make joint vert for all ParlaMint corpora
 mt-verts:
 	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.3.0.vert
 	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
@@ -155,7 +163,7 @@ mt-convert:
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	${FINALIZE-MT} -all -notei -noconll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
-	grep -a -i 'error ' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
+	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
