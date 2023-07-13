@@ -12,7 +12,7 @@ use open ':utf8';
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
-my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 0);
+my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
@@ -158,32 +158,38 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     #In case input dir is for samples
     unless (-e $inTeiRoot) {$inTeiRoot =~ s/\.TEI//}
     unless (-e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana//}
-
-    my $outTeiDir  = "$outDir/$teiDir";
-    my $outTeiRoot = "$outDir/$teiRoot";
-    my $outAnaDir  = "$outDir/$anaDir";
-    my $outAnaRoot = "$outDir/$anaRoot";
-    my $outSmpDir  = "$outDir/Sample-$XX";
-    my $outTxtDir  = "$outDir/$XX.txt";
-    my $outConlDir = "$outDir/$XX.conllu";
-    my $outVertDir = "$outDir/$XX.vert";
+    
+    my $outTeiDir  = "$outDir/$teiDir";      # $outTeiDir   =~ s/$XX/-$MT/ if $MT;
+    my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
+    my $outAnaDir  = "$outDir/$anaDir";      # $outAnaDir   =~ s/$XX/-$MT/ if $MT;
+    my $outAnaRoot = "$outDir/$anaRoot";     # $outAnaRoot  =~ s/$XX/-$MT/ if $MT;
+    my $outSmpDir  = "$outDir/Sample-$XX";   # $outSmpDir   =~ s/$XX/-$MT/ if $MT;
+    my $outTxtDir  = "$outDir/$XX.txt";      # $outTxtDir   =~ s/$XX/-$MT/ if $MT;
+    my $outConlDir = "$outDir/$XX.conllu";   # $outConlDir  =~ s/$XX/-$MT/ if $MT;
+    my $outVertDir = "$outDir/$XX.vert";     # $outVertDir  =~ s/$XX/-$MT/ if $MT;
+    
     my $vertRegi   = $regiPrefix . lc $countryCode . '.' . $regiExt;
     $vertRegi =~ s/-/_/g;  #e.g. parlamint30_es-ct.regi to parlamint30_es_ct.regi
-	
+
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
 	die "FATAL: Need version\n" unless $Version;
 	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
 	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	# Output top level readme
+	&cp_readme_top($countryCode, $MT, 'ana', $handleAna, $Version, $docsDir, $outDir);
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
 	die "FATAL: No handle given for TEI.ana distribution\n" unless $handleAna;
-	&cp_readme($countryCode, $handleAna, $inReadme, "$outAnaDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outAnaDir/00README.txt");
 	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
+	# Remove unwanted files
 	`rm -f $outAnaDir/Schema/.gitignore`;
 	`rm -f $outAnaDir/Schema/nohup.*`;
+	`rm -f $outAnaDir/Schema/*.log`;
+	`rm -f $outAnaDir/Schema/Makefile`;
 	my $tmpOutDir = "$tmpDir/release.ana";
 	my $tmpOutAnaDir = "$tmpDir/$anaDir";
 	my $tmpAnaRoot = "$tmpOutDir/$anaRoot";
@@ -199,10 +205,12 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL: Need version\n" unless $Version;
 	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
+	# Output top level readme
+	&cp_readme_top($countryCode, $MT, 'TEI', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
-	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
-	&cp_readme($countryCode, $handleTEI, $inReadme, "$outTeiDir/00README.txt");
+	else {$inReadme = "$docsDir/README.TEI.txt"}
+	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
 	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
@@ -222,19 +230,23 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if (-e $outTeiRoot) {
 	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
-	}
-	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
-	if (-e $outTeiRoot) {
 	    `$scriptTexts $outSmpDir $outSmpDir`;
 	}
+	else {print STDERR "WARN: No TEI files for $countryCode samples (needed root file is $outTeiRoot)\n"}
 	if (-e $outAnaRoot) {
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outAnaRoot`;
 	    #Make also derived files
 	    `$scriptTexts $outSmpDir $outSmpDir` unless $outTeiRoot;
 	    `$scriptVerts $outSmpDir $outSmpDir`;
+	    if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outSmpDir`}
+	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
+	# Output top level readme but not for $MTed version, as it would overwrite the original
+	# The Sample readme does not have handle or version, as the sample can change irrespective of them
+	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
+	    unless $MT;
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
@@ -252,7 +264,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
 	# We have an oportunistic handle!
-	&cp_readme($countryCode, $handleTxt, $inReadme, "$outTxtDir/00README.txt");
+	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
 	else {die "FATAL: Neither $outTeiDir nor $outAnaDir exits\n"}
@@ -265,7 +277,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
-	&cp_readme($countryCode, $handleAna, $inReadme, "$outTxtDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outConlDir/00README.txt");
 	`$scriptConls $outAnaDir $outConlDir`;
 	&dirify($outConlDir);
     }
@@ -276,12 +288,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
-	&cp_readme($countryCode, $handleAna, $inReadme, "$outVertDir/00README.txt");
+	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
 	if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outVertDir`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
     }
+    print STDERR "INFO: ***Finished processing $countryCode corpus.\n";
 }
 
 # Substitute local with common taxonomies
@@ -318,17 +331,89 @@ sub dirify {
     }
 }
 
+#Read in the appropriate top level $inFile README, modify it and output it $outFile
+sub cp_readme_top {
+    my $country = shift;
+    my $mt = shift;
+    my $type = shift;
+    my $handle  = shift;
+    my $version = shift;
+    my $inDir  = shift;
+    my $outDir = shift;
+    my $countryName; # Country name obtained from existing README
+    my $countryCode; # Country code obtained from existing README
+    my $RegionalSuffix; #Not used
+    die "FATAL: No country for cp_readme_top\n" unless $country;
+    die "FATAL: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
+    die "FATAL: No version for cp_readme_top\n" unless $version or $type eq 'sample';
+    my $inFile = "$inDir/README-$country.md";
+    $inFile =~ s|-$mt|| if $mt; #Need to remove e.g. '-en' from input readme, as we don't have such input files
+    # Construct output filename: in sample it is just README.md, other types add on a suffix
+    my $outFile = "$outDir/README";
+    if ($type eq 'sample') {}
+    elsif ($type eq 'ana' or $type eq 'tei') {
+	$outFile .= "-" . $country;
+    }
+    if ($type eq 'ana') {
+        $outFile .= ".ana"
+    }
+    $outFile .= ".md";
+    
+    open IN, '<:utf8', $inFile or die "FATAL: Can't open input top README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "FATAL: Can't open output top README $outFile\n";
+    # Input:  # ParlaMint directory for samples of country AT (Austria)
+    # Output depends on $type, $MT, and $country:
+    # sample: # Samples of the ParlaMint-AT corpus
+    # en-smp: # Samples of the ParlaMint-AT corpus (translation to English)
+    # TEI:    # Corpus of parliamentary debates ParlaMint-AT
+    # ana:    # Linguistically annotated corpus of parliamentary debates ParlaMint-AT.ana
+    # en-TEI: # Corpus of parliamentary debates, ParlaMint-AT-en (translation to English)
+    # en-ana: # Linguistically annotated corpus of parliamentary debates ParlaMint-AT-en.ana (translation to English)
+
+    while (<IN>) {
+	if (m|^# ParlaMint|) {
+	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
+	    die "FATAL: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
+	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
+	    elsif ($type =~ /TEI/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
+	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
+	    else {die "Strange type $type for cp_readme_top\n"}
+	    if ($MT) {print OUT " (translation to English)"}
+	    print OUT "\n";
+	}
+	elsif (m|- Language|) {
+	    if    ($countryCode =~ /^..-..$/) {print OUT "- Autonomous region: "}
+	    elsif ($countryCode =~ /^..$/)    {print OUT "- Country: "}
+	    else {die "Strange country code $countryCode for cp_readme_top\n"}
+	    print OUT "$countryCode ($countryName)\n";
+	    print OUT; # Languages
+	    unless ($type eq 'sample') {
+		print OUT "- Version: $version\n";
+		print OUT "- Handle: $handle\n";
+	    }
+	}
+	else {print OUT}
+    }
+    close IN;
+    close OUT;
+}
+
 #Read in the appropriate $inFile README, change XX in it to country code, and output it $outFile
 sub cp_readme {
     my $country = shift;
     my $handle  = shift;
+    my $version = shift;
     my $inFile  = shift;
     my $outFile = shift;
+    die "FATAL: No country for cp_readme\n" unless $country;
+    die "FATAL: No handle for cp_readme\n" unless $handle;
+    die "FATAL: No version for cp_readme\n" unless $version;
     open IN, '<:utf8', $inFile or die "FATAL: Can't open input README $inFile\n";
     open OUT,'>:utf8', $outFile or die "FATAL: Can't open output README $outFile\n";
     while (<IN>) {
 	s/XX/$country/g;
 	s/YY/$handle/g;
+	s/ZZ/$version/g;
 	print OUT
     }
     close IN;

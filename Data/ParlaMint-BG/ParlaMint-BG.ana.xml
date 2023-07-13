@@ -51,10 +51,10 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure quantity="210018" unit="speeches" xml:lang="bg">210.018 изказвания</measure>
-            <measure quantity="210018" unit="speeches" xml:lang="en">210,018 speeches</measure>
-            <measure quantity="26471533" unit="words" xml:lang="bg">26.471.533 думи</measure>
-            <measure quantity="26471533" unit="words" xml:lang="en">26,471,533 words</measure>
+            <measure unit="speeches" quantity="210018" xml:lang="bg">210.018 изказвания</measure>
+            <measure unit="speeches" quantity="210018" xml:lang="en">210,018 speeches</measure>
+            <measure unit="words" quantity="26471533" xml:lang="bg">26.471.533 думи</measure>
+            <measure unit="words" quantity="26471533" xml:lang="en">26,471,533 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -68,7 +68,7 @@
                <p xml:lang="bg">Корпусът е достъпен чрез международния лиценз <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-05-13">2023-05-13</date>
+            <date when="2023-06-12">2023-06-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -81,9 +81,9 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="bg">ParlaMint</p>
             <p xml:lang="en">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bg">ParlaMint</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -105,15 +105,20 @@
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="921"/>
-               <tagUsage gi="desc" occurs="52653"/>
-               <tagUsage gi="div" occurs="1073"/>
-               <tagUsage gi="incident" occurs="1081"/>
-               <tagUsage gi="kinesic" occurs="17907"/>
-               <tagUsage gi="p" occurs="717"/>
+               <tagUsage gi="desc" occurs="51652"/>
+               <tagUsage gi="div" occurs="923"/>
+               <tagUsage gi="incident" occurs="1569"/>
+               <tagUsage gi="kinesic" occurs="17930"/>
+               <tagUsage gi="link" occurs="31191840"/>
+               <tagUsage gi="linkGrp" occurs="1626624"/>
+               <tagUsage gi="name" occurs="1150923"/>
+               <tagUsage gi="pc" occurs="4720307"/>
+               <tagUsage gi="s" occurs="1626624"/>
                <tagUsage gi="seg" occurs="973864"/>
                <tagUsage gi="text" occurs="921"/>
                <tagUsage gi="u" occurs="210018"/>
-               <tagUsage gi="vocal" occurs="33171"/>
+               <tagUsage gi="vocal" occurs="32153"/>
+               <tagUsage gi="w" occurs="26471533"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -175,12 +180,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-05-13">
+         <change when="2023-06-12">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-12">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2023-01-10">
             <name>parlamint2final.xsl</name>: Finalize corpus.</change>
-         <change when="2023-05-13">
-            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
+         <change when="2023-06-12">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

@@ -141,7 +141,7 @@
 !	!	!	PUNCT		w5	punct	вітати	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	w1
 </s>
 </p>
-<note type="kinesic:applause" content="(Оплески)"/>
+<note type="kinesic:applause" content="Оплески"/>
 <p id="ParlaMint-UA_2019-03-22-m0.u1.p4" lang="ukrainian">
 <s id="ParlaMint-UA_2019-03-22-m0.u1.p4.s1">
 Колеги	Колеги	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w1	vocative vocative:cl vocative:mention	хотіти	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w4
@@ -420,7 +420,7 @@
 </p>
 </speech>
 <note type="vocal:shouting" content="ГОЛОС ІЗ ЗАЛУ."/>
-<note type="gap::inaudible" content="(Не чути)"/>
+<note type="gap::inaudible" content="Не чути"/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
 <speech id="ParlaMint-UA_2019-03-22-m0.u2" text_id="ParlaMint-UA_2019-03-22-m0" subcorpus="Reference" body="Unicameralism" term="8" session="10" meeting="" sitting="2019-03-22" agenda="" date="2019-03-22" title="Ukrainian parliamentary corpus ParlaMint-UA, term 8, session 10, sitting day 2019-03-22, n0" speaker_role="Chairperson" speaker_id="АндрійВолодимировичПарубій.1971" speaker_name="Володимирович Парубій, Андрій" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1971">
 <p id="ParlaMint-UA_2019-03-22-m0.u2.p1" lang="ukrainian">

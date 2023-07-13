@@ -618,7 +618,7 @@ glasova	glasova	glas	NOUN	Case=Gen Gender=Masc Number=Plur	10	obl	prihvatiti	ADJ
 …	…	…	PUNCT		1	root	-	-	-	-
 </s>
 <s id="ParlaMint-HR_2011-05-05-0.u72653.seg1.2">
-<note type="gap::inaudible" content="/Početak nije snimljen./"/>
+<note type="gap::inaudible" content="Početak nije snimljen."/>
 i	i	i	CCONJ		1	cc	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 prelazimo	prelazimo	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
 na	na	na	ADP	Case=Acc	3	case	točka	NOUN	Case=Acc Gender=Fem Number=Sing	5
@@ -672,7 +672,7 @@ na	na	na	ADP	Case=Loc	43	case	donijet	NOUN	Case=Ins Gender=Masc Number=Sing	42
 …	…	…	PUNCT		44	punct	prelaziti	VERB	Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 </s>
 <s id="ParlaMint-HR_2011-05-05-0.u72653.seg1.3">
-<note type="gap::inaudible" content="/Govornik se ne razumije./"/>
+<note type="gap::inaudible" content="Govornik se ne razumije."/>
 sjednici	sjednici	sjednica	NOUN	Case=Dat Gender=Fem Number=Sing	1	root	-	-	-	-
 održanoj	održanoj	održati	ADJ	Case=Dat Definite=Def Degree=Pos Gender=Fem Number=Sing VerbForm=Part Voice=Pass	2	acl	sjednica	NOUN	Case=Dat Gender=Fem Number=Sing	1
 6.	6.	6.	ADJ	NumType=Ord	3	amod	listopad	NOUN	Case=Gen Gender=Masc Number=Sing	4

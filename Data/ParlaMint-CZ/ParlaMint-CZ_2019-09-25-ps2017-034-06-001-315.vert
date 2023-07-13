@@ -52,8 +52,10 @@ bodu	bodu	bod	NOUN	Animacy=Inan Case=Gen Gender=Masc Number=Sing Polarity=Pos	w1
 ,	,	,	PUNCT		w13	punct	poslankyně	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15
 paní	paní	paní	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w14	nmod	poslankyně	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15
 poslankyně	poslankyně	poslankyně	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15	appos	navrhovatelka	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w10
-<name type="PER">
+<name>
 Markéta	Markéta	Markéta	PROPN	Case=Nom Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w16	flat	poslankyně	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15
+</name>
+<name>
 Pekarová	Pekarová	Pekarová	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w17	flat	poslankyně	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15
 Adamová	Adamová	Adamová	PROPN	Case=Nom Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w18	flat	poslankyně	NOUN	Case=Nom Gender=Fem Number=Sing Polarity=Pos	w15
 <g/>
@@ -693,7 +695,7 @@ bodech	bodech	bod	NOUN	Animacy=Inan Case=Loc Gender=Masc Number=Plur Polarity=Po
 <g/>
 .	.	.	PUNCT		w26	punct	vědět	VERB	Mood=Ind Number=Sing Person=1 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
-<note type="vocal:speaking" content="(Hlasy ze sálu: Už bylo navrženo.)"/>
+<note type="vocal:speaking" content="Hlasy ze sálu: Už bylo navrženo."/>
 <s id="ParlaMint-CZ_2019-09-25-ps2017-034-06-001-315.u46.p1.s3">
 Ono	Ono	on	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Prs	w1	nsubj	být	AUX	Gender=Neut Number=Sing Polarity=Neg Tense=Past VerbForm=Part Voice=Act	w7
 to	to	ten	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	w2	nsubj	být	AUX	Gender=Neut Number=Sing Polarity=Neg Tense=Past VerbForm=Part Voice=Act	w7
@@ -795,7 +797,7 @@ slovo	slovo	slovo	NOUN	Case=Acc Gender=Neut Number=Sing Polarity=Pos	w5	nmod	zá
 .	.	.	PUNCT		w6	punct	být	AUX	Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres VerbForm=Fin Voice=Act	w1
 </s>
 </p>
-<note type="kinesic:signal" content="(Předsedající gonguje.)"/>
+<note type="kinesic:signal" content="Předsedající gonguje."/>
 <p id="ParlaMint-CZ_2019-09-25-ps2017-034-06-001-315.u47.p2" lang="Czech">
 <s id="ParlaMint-CZ_2019-09-25-ps2017-034-06-001-315.u47.p2.s1">
 Budeme	Budeme	být	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Fut VerbForm=Fin Voice=Act	w1	aux	hlasovat	VERB	Aspect=Imp Polarity=Pos VerbForm=Inf	w3
@@ -861,8 +863,10 @@ práce	práce	práce	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w21	nmod	
 a	a	a	CCONJ		w22	cc	věc	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w24
 sociálních	sociálních	sociální	ADJ	Case=Gen Degree=Pos Gender=Fem Number=Plur Polarity=Pos	w23	amod	věc	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w24
 věcí	věcí	věc	NOUN	Case=Gen Gender=Fem Number=Plur Polarity=Pos	w24	conj	práce	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w21
-<name type="PER">
+<name>
 Jany	Jany	Jana	PROPN	Case=Gen Gender=Fem NameType=Giv Number=Sing Polarity=Pos	w25	flat	ministryně	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w20
+</name>
+<name>
 Maláčové	Maláčové	Maláčová	PROPN	Case=Gen Gender=Fem NameType=Sur Number=Sing Polarity=Pos	w26	flat	ministryně	NOUN	Case=Gen Gender=Fem Number=Sing Polarity=Pos	w20
 </name>
 o	o	o	ADP	AdpType=Prep Case=Loc	w27	case	plnění	NOUN	Case=Loc Gender=Neut Number=Sing Polarity=Pos VerbForm=Vnoun	w28

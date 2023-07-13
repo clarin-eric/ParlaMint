@@ -247,7 +247,7 @@ minuta	minuta	minuta	NOUN	Case=Gen Gender=Fem Number=Plur	6	obl	dati	VERB	Gender
 <g/>
 .	.	.	PUNCT		7	punct	dati	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part Voice=Act	1
 </s>
-<note type="time" content="(Posle pauze.)"/>
+<note type="time" content="Posle pauze."/>
 <s id="ParlaMint-RS_2008-07-18-0.u1394.seg0.12">
 Stavljam	Stavljam	stavljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	glasanje	NOUN	Case=Acc Gender=Neut Number=Sing	3

@@ -637,7 +637,7 @@ Filgueira	Filgueira	filgueira	PROPN		w29	flat flat:abs flat:date flat:dist flat:
 </s>
 </p>
 </speech>
-<note type="kinesic:applause" content="(Aplausos.)"/>
+<note type="kinesic:applause" content="Aplausos."/>
 <note type="speaker" content="O señor PRESIDENTE:"/>
 <speech id="ParlaMint-ES-GA_2022-05-24-DSPG082.u5" text_id="ParlaMint-ES-GA_2022-05-24-DSPG082" subcorpus="War" body="Unicameralism" term="011" session="" meeting="082" sitting="2022-05-24" agenda="" date="2022-05-24" title="Minutes of the Assembly of the Galician Parliament" speaker_role="Chairperson" speaker_id="SantalicesMiguelÁngel" speaker_name="Santalices Vieira, Miguel Ángel" speaker_mp="MP" speaker_minister="-" speaker_party="PPdeG" speaker_party_name="Partido Popular de Galicia" party_status="Coalition" speaker_gender="M" speaker_birth="1955">
 <p id="ParlaMint-ES-GA_2022-05-24-DSPG082.seg15" lang="Galician">

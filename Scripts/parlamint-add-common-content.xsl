@@ -731,7 +731,7 @@
 	  <xsl:text>&#32;</xsl:text>
 	</xsl:for-each>
       </xsl:variable>
-      <!-- Note that we don't make any provision for instering reference to commitee meeting! -->
+      <!-- Note that we don't make any provision for inserting reference to commitee meeting! -->
       <xsl:if test="not(
 		    contains($anas, 'parla.uni') or 
 		    contains($anas, 'parla.upper') or contains($anas, 'parla.lower') or 

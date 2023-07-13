@@ -7,11 +7,11 @@
             <title type="main" xml:lang="nl">Corpus van het Nederlandse Parlement ParlaMint-NL [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Eerste Kamer and Tweede Kamer of The Netherlands (2015-2022)</title>
             <title type="sub" xml:lang="nl">Minuten van de Eerste en Tweede Kamer van Nederland (2015-2022)</title>
-            <meeting n="28-lower" ana="#parla.lower #parla.term">28ste Tweede Kamer</meeting>
-            <meeting n="29-lower" ana="#parla.lower #parla.term">29ste Tweede Kamer</meeting>
-            <meeting n="34-upper" ana="#parla.upper #parla.term">34ste Eerste Kamer</meeting>
-            <meeting n="35-upper" ana="#parla.upper #parla.term">35ste Eerste Kamer</meeting>
-            <meeting n="36-upper" ana="#parla.upper #parla.term">36ste Eerste Kamer</meeting>
+            <meeting n="28-lower" ana="#parla.lower #parla.term"/>
+            <meeting n="29-lower" ana="#parla.lower #parla.term"/>
+            <meeting n="34-upper" ana="#parla.upper #parla.term"/>
+            <meeting n="35-upper" ana="#parla.upper #parla.term"/>
+            <meeting n="36-upper" ana="#parla.upper #parla.term"/>
             <respStmt>
                <persName xml:lang="nl">Ruben van Heusden</persName>
                <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
@@ -24,10 +24,10 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" xml:lang="nl" quantity="609248">609,248 toespraken</measure>
-            <measure unit="speeches" xml:lang="en" quantity="609248">609,248 speeches</measure>
-            <measure unit="words" xml:lang="nl" quantity="66848281">66,848,281 woorden</measure>
-            <measure unit="words" xml:lang="en" quantity="66848281">66,848,281 words</measure>
+            <measure unit="speeches" quantity="609248" xml:lang="nl">609,248 toespraken</measure>
+            <measure unit="speeches" quantity="609248" xml:lang="en">609,248 speeches</measure>
+            <measure unit="words" quantity="66848281" xml:lang="nl">66,848,281 woorden</measure>
+            <measure unit="words" quantity="66848281" xml:lang="en">66,848,281 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -40,17 +40,17 @@
                <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-17">2023-04-17</date>
+            <date when="2023-06-12">2023-06-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
-               <idno type="URI">https://www.eerstekamer.nl/</idno>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
                <date from="2014-12-15" to="2022-09-01">2014-12-15 - 2022-09-01</date>
             </bibl>
             <bibl>
                <title type="main">Minutes of the Tweede Kamer of The Netherlands</title>
-               <idno type="URI">https://www.tweedekamer.nl/</idno>
+               <idno type="URI" subtype="parliament">https://www.tweedekamer.nl/</idno>
                <date from="2014-04-16" to="2022-09-01">2014-04-16 - 2022-09-01</date>
             </bibl>
          </sourceDesc>
@@ -82,10 +82,10 @@
                <tagUsage gi="body" occurs="6100"/>
                <tagUsage gi="div" occurs="6100"/>
                <tagUsage gi="head" occurs="6100"/>
-               <tagUsage gi="note" occurs="783676"/>
-               <tagUsage gi="seg" occurs="921200"/>
+               <tagUsage gi="note" occurs="783558"/>
+               <tagUsage gi="seg" occurs="921101"/>
                <tagUsage gi="text" occurs="6100"/>
-               <tagUsage gi="u" occurs="609252"/>
+               <tagUsage gi="u" occurs="609248"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -123,7 +123,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-04-17">
+         <change when="2023-06-12">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>

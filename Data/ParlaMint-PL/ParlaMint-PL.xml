@@ -10,10 +10,10 @@
             <title type="main" xml:lang="en">Polish parliamentary corpus ParlaMint-PL [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="pl">Sprawozdania stenograficzne Sejmu i Senatu RP (2015-2022)</title>
             <title type="sub" xml:lang="en">Minutes of the Sejm and Senat of the Republic of Poland (2015-2022)</title>
-            <meeting n="8-lower" ana="#parla.lower #parla.term">8. kadencja Sejmu</meeting>
-            <meeting n="9-lower" ana="#parla.lower #parla.term">9. kadencja Sejmu</meeting>
-            <meeting n="9-upper" ana="#parla.upper #parla.term">9. kadencja Senatu</meeting>
-            <meeting n="10-upper" ana="#parla.upper #parla.term">10. kadencja Senatu</meeting>
+            <meeting n="8-lower" ana="#parla.lower #parla.term"/>
+            <meeting n="9-lower" ana="#parla.lower #parla.term"/>
+            <meeting n="9-upper" ana="#parla.upper #parla.term"/>
+            <meeting n="10-upper" ana="#parla.upper #parla.term"/>
             <respStmt>
                <persName>Maciej Ogrodniczuk</persName>
                <persName>Michał Lenart</persName>
@@ -63,7 +63,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-27">2023-04-27</date>
+            <date when="2023-06-15">2023-06-15</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -77,18 +77,18 @@
                <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Senatu RP</title>
                <title type="main" xml:lang="en">Minutes of the Senat of the Republic of Poland</title>
                <publisher>Kancelaria Senatu Rzeczypospolitej Polskiej</publisher>
-               <idno type="URI">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
+               <idno type="URI" subtype="parliament">https://www.senat.gov.pl/poprzednie-kadencje/</idno>
                <date from="2015-11-12" to="2022-06-30">12.11.2015 - 30.06.2022</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="pl">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -114,6 +114,7 @@
                <tagUsage gi="div" occurs="686"/>
                <tagUsage gi="gap" occurs="1606"/>
                <tagUsage gi="head" occurs="686"/>
+               <tagUsage gi="incident" occurs="47417"/>
                <tagUsage gi="kinesic" occurs="94217"/>
                <tagUsage gi="note" occurs="241406"/>
                <tagUsage gi="seg" occurs="1097269"/>
@@ -139,7 +140,7 @@
          </settingDesc>
          <textClass>
             <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
-                    target="#parla.lower #parla.upper"/>
+                    target="#parla.bi #parla.lower #parla.upper"/>
          </textClass>
          <particDesc>
             <xi:include href="ParlaMint-PL-listOrg.xml"/>
@@ -153,12 +154,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-27">
+         <change when="2023-06-15">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-15">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2023-03-28">
             <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
-         <change when="2023-04-27">
-            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
+         <change when="2023-06-15">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include href="ParlaMint-PL_2017-07-20-sejm-46-3.xml"/>

@@ -45,19 +45,18 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
-            .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
             </availability>
-            <date when="2023-04-18">2023-04-18</date>
+            <date when="2023-06-17">2023-06-17</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Hansards of the Norwegian Parliament</title>
                <publisher xml:lang="en">The Norwegian Parliament</publisher>
-               <idno type="URI">https://data.stortinget.no/eksport/publikasjon?publikasjonid=s110524</idno>
+               <idno type="URI" subtype="parliament">https://data.stortinget.no/eksport/publikasjon?publikasjonid=s110524</idno>
                <date when="2011-05-24">24.05.11</date>
             </bibl>
          </sourceDesc>
@@ -69,7 +68,19 @@
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="seg" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="13"/>
+               <tagUsage gi="link" occurs="44371"/>
+               <tagUsage gi="linkGrp" occurs="1997"/>
+               <tagUsage gi="name" occurs="1548"/>
+               <tagUsage gi="note" occurs="223"/>
+               <tagUsage gi="pc" occurs="4074"/>
+               <tagUsage gi="s" occurs="1997"/>
+               <tagUsage gi="seg" occurs="580"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="100"/>
+               <tagUsage gi="w" occurs="40297"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -85,11 +96,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-18">
+         <change when="2023-06-17">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2021-01-29">
-            <name>Lars Magne Tungland</name>
-            : Generated corpus in ParlaMint.</change>
+            <name>Lars Magne Tungland</name> : Generated corpus in ParlaMint.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -101,7 +111,7 @@
             <note type="comment">(nr. 91):</note>
             <note type="comment">1.</note>
             <note type="comment">Debatt om utenriksministerens redegjørelse om viktige EU- og EØS-saker</note>
-            <note type="comment">(Redegjørelsen holdt i Stortingets møte 19. mai 2011)</note>
+            <note type="comment">Redegjørelsen holdt i Stortingets møte 19. mai 2011</note>
             <note type="comment">2.</note>
             <note type="comment">Innstilling fra utenriks- og forsvarskomiteen om representantforslag fra stortingsrepresentantene Morten Høglund, Karin S. Woldseth, Peter N. Myhre og Kari Storstrand om en strategi for Internett og sosiale medier i et menneskerettighetsperspektiv</note>
             <note type="comment">(Innst. 317 S (2010–2011), jf. Dokument 8:93 S (2010–2011))</note>
@@ -286,7 +296,7 @@
          <div type="debateSection">
             <head>Sak nr. 1 [10:00:33]</head>
             <note type="comment">Debatt om utenriksministerens redegjørelse om viktige EU- og EØS-saker</note>
-            <note type="comment">(Redegjørelsen holdt i Stortingets møte 19. mai 2011)</note>
+            <note type="comment">Redegjørelsen holdt i Stortingets møte 19. mai 2011</note>
             <u who="#person.DTA"
                ana="#chair"
                xml:id="ParlaMint-NO_2011-05-24.ana.ud457e108"
@@ -856,10 +866,8 @@
                </seg>
                <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117">
                   <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1">
-                     <name type="ORG">
-                        <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.1"
-                            msd="UPosTag=PUNCT">–</pc>
-                     </name>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.1"
+                         msd="UPosTag=PUNCT">–</pc>
                      <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.2"
                         lemma="det"
                         msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|PronType=Prs">Det</w>
@@ -1076,18 +1084,18 @@
          </div>
          <div type="debateSection">
             <note type="comment">Sak nr. 13</note>
-            <note type="comment">[15:10:02]</note>
+            <note type="comment">15:10:02</note>
             <note type="comment">Referat</note>
             <note type="comment">1.</note>
-            <note type="comment">(355)</note>
+            <note type="comment">355</note>
             <note type="comment">Representantforslag fra stortingsrepresentantene Bent Høie, Sonja Irene Sjøli og Erna Solberg om raskere og bedre tilgang til legemidler (Dokument 8:146 S (2010–2011))</note>
             <note type="comment">Enst.: Sendes helse- og omsorgskomiten.</note>
             <note type="comment">2.</note>
-            <note type="comment">(356)</note>
+            <note type="comment">356</note>
             <note type="comment">Representantforslag fra stortingsrepresentantene Henning Warloe, Linda C. Hofstad Helleland, Elisabeth Røbekk Nørve, Gunnar Gundersen og Nikolai Astrup om en styrket innsats for kommersialisering av forskningsresultater (Dokument 8:148 S (2010–2011))</note>
             <note type="comment">Enst.: Sendes kirke-, utdannings- og forskningskomiteen.</note>
             <note type="comment">3.</note>
-            <note type="comment">(357)</note>
+            <note type="comment">357</note>
             <note type="comment">Representantforslag fra stortingsrepresentantene Elisabeth Røbekk Nørve, Frank Bakke-Jensen, Svein Flåtten og Henning Warloe om virkemiddelapparatet for næringsutvikling og innovasjon (Dokument 8:149 S (2010–2011))</note>
             <note type="comment">Enst.: Sendes næringskomiteen.</note>
             <u who="#person.OYK"
@@ -1181,10 +1189,8 @@
                      </linkGrp>
                   </s>
                   <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2">
-                     <name type="ORG">
-                        <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.1"
-                            msd="UPosTag=PUNCT">–</pc>
-                     </name>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.1"
+                         msd="UPosTag=PUNCT">–</pc>
                      <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.2"
                         lemma="møte"
                         msd="UPosTag=NOUN|Definite=Def|Gender=Neut|Number=Sing">Møtet</w>
