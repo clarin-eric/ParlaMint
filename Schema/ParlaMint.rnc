@@ -392,8 +392,13 @@ orgRole.val =
    | "parliament"
    | "politicalParty"
    | 
-     ## The following used only by BG:
+     ## The following used only by AT:
      "parliamentaryGroup"
+   | "europeanCommission"
+   | "europeanInstitution"
+   | 
+     ## The following used only by BG:
+     "federatedState"
    | 
      ## The following used only by LT:
      "ngo"
@@ -418,11 +423,7 @@ orgRole.val =
    | 
      ## The following used only by SI:
      "boardOfDirectors"
-   | 
-     ## The following used only by AT:
-     "ethnicCommunity"
-   | "europeanCommission"
-   | "europeanInstitution")
+   | "ethnicCommunity")
 
 ## Legal values of the affiliation/@role attribute.
 affiliationRole.val =
