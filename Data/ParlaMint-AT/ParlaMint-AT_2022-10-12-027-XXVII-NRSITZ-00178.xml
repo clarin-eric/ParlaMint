@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.sitting #covid"
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="de"
+     ana="#parla.sitting #covid #war"
      xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178">
    <teiHeader xml:lang="en">
       <fileDesc>
@@ -8,10 +10,22 @@
             <title type="sub" xml:lang="de">178. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Mittwoch, 12. Oktober 2022</title>
             <title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT, Shorthand records of the National Council of the Austrian Parliament, Legislative period XXVII [ParlaMint]</title>
             <title type="sub" xml:lang="en">Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022</title>
-            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.sitting" n="178">178. Sitzung</meeting>
-            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">XXVII. Gesetzgebungsperiode</meeting>
-            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.sitting" n="178">Sitting 178</meeting>
-            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XXVII" n="27">Legislative period XXVII</meeting>
+            <meeting xml:lang="de"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.sitting"
+                     n="178">178. Sitzung</meeting>
+            <meeting xml:lang="de"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.term #NR.XXVII"
+                     n="27">XXVII. Gesetzgebungsperiode</meeting>
+            <meeting xml:lang="en"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.sitting"
+                     n="178">Sitting 178</meeting>
+            <meeting xml:lang="en"
+                     corresp="#NR"
+                     ana="#parla.lower #parla.term #NR.XXVII"
+                     n="27">Legislative period XXVII</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0002-8111-5584">Hannes Pirker</persName>
                <persName ref="https://orcid.org/0000-0003-2436-0361">Daniel Schopper</persName>
@@ -51,12 +65,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>3.0a</edition>
          </editionStmt>
-         <extent><!--DUMMY These numbers do not reflect the size of the sample!--><measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
-            <measure unit="speeches" quantity="123" xml:lang="en">136 speeches</measure>
-            <measure unit="words" quantity="123" xml:lang="de">12263 Wörter</measure>
-            <measure unit="words" quantity="123" xml:lang="en">12263 words</measure>
+         <extent>
+            <measure unit="speeches" quantity="321" xml:lang="de">321 Äußerungen</measure>
+            <measure unit="speeches" quantity="321" xml:lang="en">321 speeches</measure>
+            <measure unit="words" quantity="92775" xml:lang="de">92,775 Wörter</measure>
+            <measure unit="words" quantity="92775" xml:lang="en">92,775 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -64,17 +79,13 @@
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
-               <p xml:lang="de">
-            Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.
-          </p>
-               <p xml:lang="en">
-            This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.
-          </p>
+               <p xml:lang="de">Dieses Werk ist lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-07-14">2023-07-14</date>
+            <date when="2023-07-19">2023-07-19</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -82,37 +93,41 @@
                <title type="sub" xml:lang="de">Plenarsitzung, des Nationalrates, Stenographisches Protokoll, 178. Sitzung des Nationalrates der Republik Österreich</title>
                <title type="main" xml:lang="en">Shorthand records of the plenary sittings of the National Council of the Austrian parliament</title>
                <title type="sub" xml:lang="en">Shorthand record, Sitting Number 178, Legislative period XXVII, Wednesday, 12. October 2022</title>
-               <publisher>
-            Parlamentsdirektion
-          </publisher>
-               <idno type="URI">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00178/fnameorig_1547883.html</idno>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlament.gv.at/PAKT/VHG/XXVII/NRSITZ/NRSITZ_00178/fnameorig_1547883.html</idno>
                <date when="2022-10-12">2022-10-12</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
             <p xml:lang="de">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.
-        </p>
          </projectDesc>
-         <tagsDecl><!--DUMMY: These numbers do not reflect the size of the sample!--><namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="723"/>
                <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="note" occurs="1"/>
-               <tagUsage gi="pb" occurs="1"/>
-               <tagUsage gi="u" occurs="1"/>
-               <tagUsage gi="seg" occurs="1"/>
-               <tagUsage gi="kinesic" occurs="1"/>
-               <tagUsage gi="vocal" occurs="1"/>
-               <tagUsage gi="incident" occurs="1"/>
-               <tagUsage gi="gap" occurs="1"/>
-               <tagUsage gi="desc" occurs="1"/>
-               <tagUsage gi="time" occurs="1"/>
+               <tagUsage gi="gap" occurs="31"/>
+               <tagUsage gi="kinesic" occurs="472"/>
+               <tagUsage gi="note" occurs="1180"/>
+               <tagUsage gi="pb" occurs="361"/>
+               <tagUsage gi="seg" occurs="1034"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="time" occurs="320"/>
+               <tagUsage gi="u" occurs="321"/>
+               <tagUsage gi="vocal" occurs="189"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -129,12 +144,10 @@
       </profileDesc>
       <revisionDesc>
          <change when="2023-07-14">
-            <name>Hannes Pirker</name>
-        : Converted from source HTML to TEI.
-      </change>
+            <name>Hannes Pirker</name> : Converted from source HTML to TEI.</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="#covid">
+   <text ana="#covid #war">
       <body>
          <div xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e178"
               type="debateSection">
@@ -144,12 +157,12 @@
             </gap>
             <note type="time">
                <time when="2022-10-12T10:04:23+02:00">10:04:23</time>
-</note>
+            </note>
             <note type="time">Beginn der Sitzung:<time when="2022-10-12T10:04:00+02:00">10:04</time>Uhr</note>
             <note type="chairpersons">Präsident Mag. Wolfgang Sobotka Zweite Präsidentin Doris Bures Dritter Präsident Ing. Norbert Hofer</note>
             <note type="time">
                <time when="2022-10-12T10:04:24+02:00">10:04:24</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4759"
@@ -164,10 +177,10 @@
             </u>
             <note type="time">
                <time when="2022-10-12T10:05:49+02:00">10:05:49</time>
-</note>
+            </note>
             <note type="time">
                <time when="2022-10-12T10:05:50+02:00">10:05:50</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
             <note type="procedural">(zur Geschäftsbehandlung)</note>
             <u who="#PAD_22694"
@@ -221,7 +234,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T10:07:00+02:00">10:07</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e4943"
@@ -231,7 +244,7 @@
             <pb n="43"/>
             <note type="time">
                <time when="2022-10-12T10:07:49+02:00">10:07:49</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
             <note type="procedural">(zur Geschäftsbehandlung)</note>
             <u who="#PAD_35468"
@@ -267,7 +280,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T10:09:00+02:00">10:09</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e5081"
@@ -277,7 +290,7 @@
             <pb n="44"/>
             <note type="time">
                <time when="2022-10-12T10:09:05+02:00">10:09:05</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Sigrid Maurer, BA (Grüne)</note>
             <note type="procedural">(zur Geschäftsbehandlung)</note>
             <u who="#PAD_83101"
@@ -309,7 +322,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T10:10:00+02:00">10:10</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e5196"
@@ -324,7 +337,7 @@
             <pb n="45"/>
             <note type="time">
                <time when="2022-10-12T10:11:03+02:00">10:11:03</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter August Wöginger (ÖVP)</note>
             <note type="procedural">(zur Geschäftsbehandlung)</note>
             <u who="#PAD_14795"
@@ -343,10 +356,10 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T10:12:00+02:00">10:12</time>
-</note>
+            </note>
             <note type="time">
                <time when="2022-10-12T10:12:22+02:00">10:12:22</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e5269"
@@ -406,7 +419,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e472">Wir gehen in die Tagesordnung ein.</seg>
                <note type="time">
                   <time when="2022-10-12T10:15:40+02:00">10:15:40</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e477">1. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e479">Erklärung des Bundesministers für Finanzen zur Regierungsvorlage betreffend das Bundesfinanzgesetz für das Jahr 2023 samt Anlagen</seg>
             </u>
@@ -420,7 +433,7 @@
             <pb n="49"/>
             <note type="time">
                <time when="2022-10-12T10:15:56+02:00">10:15:56</time>
-</note>
+            </note>
             <note type="speaker">Bundesminister für Finanzen Dr. Magnus Brunner, LL.M.</note>
             <u who="#PAD_55727"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e5633"
@@ -821,7 +834,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T11:36:00+02:00">11:36</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e6446"
@@ -830,7 +843,7 @@
                         xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e6454">Abg. Loacker: Die sind aber froh, dass der ... weg ist!</note>
                   <note type="time">
                      <time when="2022-10-12T11:37:48+02:00">11:37:48</time>
-</note>2. Punkt Bericht des Finanzausschusses über die Regierungsvorlage (1662 d.B.): Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Familienlastenausgleichsgesetz 1967 und das Umsatzsteuergesetz 1994 geändert werden (Teuerungs-Entlastungspaket Teil II) (1702 d.B.) 3. Punkt Bericht des Finanzausschusses über den Antrag 2812/A der Abgeordneten Karlheinz Kopf, Mag. Dr. Jakob Schwarz, BA, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Energiekostenausgleichsgesetz 2022 geändert wird (1703 d.B.)</seg>
+                  </note>2. Punkt Bericht des Finanzausschusses über die Regierungsvorlage (1662 d.B.): Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Familienlastenausgleichsgesetz 1967 und das Umsatzsteuergesetz 1994 geändert werden (Teuerungs-Entlastungspaket Teil II) (1702 d.B.) 3. Punkt Bericht des Finanzausschusses über den Antrag 2812/A der Abgeordneten Karlheinz Kopf, Mag. Dr. Jakob Schwarz, BA, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Energiekostenausgleichsgesetz 2022 geändert wird (1703 d.B.)</seg>
             </u>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
@@ -848,7 +861,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e6504">Ruf bei der SPÖ:Das war fast so viel Applaus wie vorher!</note>
             <note type="time">
                <time when="2022-10-12T11:38:35+02:00">11:38:35</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Kai Jan Krainer (SPÖ)</note>
             <u who="#PAD_14842"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e6528"
@@ -934,7 +947,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T11:45:00+02:00">11:45</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e6890"
@@ -943,7 +956,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T11:45:59+02:00">11:45:59</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter August Wöginger (ÖVP)</note>
             <u who="#PAD_14795"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e6912"
@@ -1052,7 +1065,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T11:54:00+02:00">11:54</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7263"
@@ -1065,7 +1078,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7282">Ruf bei der ÖVP:Das war eine Superrede!</note>
             <note type="time">
                <time when="2022-10-12T11:54:50+02:00">11:54:50</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter MMag. DDr. Hubert Fuchs (FPÖ)</note>
             <u who="#PAD_83127"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7305"
@@ -1110,7 +1123,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T12:05:00+02:00">12:05</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:</seg>
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:</seg>
             </u>
             <pb n="94"/>
             <gap reason="editorial">
@@ -1127,7 +1140,7 @@
             <pb n="96"/>
             <note type="time">
                <time when="2022-10-12T12:05:38+02:00">12:05:38</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Dr. Jakob Schwarz, BA (Grüne)</note>
             <u who="#PAD_05677"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7503"
@@ -1202,7 +1215,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7674">Abg. Haubner: Sehr gut, Herr Schwarz!</note>
             <note type="time">
                <time when="2022-10-12T12:10:00+02:00">12:10</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7694"
@@ -1211,7 +1224,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T12:10:14+02:00">12:10:14</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Beate Meinl-Reisinger, MES (NEOS)</note>
             <u who="#PAD_83122"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7715"
@@ -1284,7 +1297,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T12:20:00+02:00">12:20</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7949"
@@ -1293,7 +1306,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T12:20:49+02:00">12:20:49</time>
-</note>
+            </note>
             <note type="speaker">Bundesminister für Finanzen Dr. Magnus Brunner, LL.M.</note>
             <u who="#PAD_55727"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e7970"
@@ -1345,7 +1358,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T12:28:00+02:00">12:28</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e8157"
@@ -1354,7 +1367,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T12:28:11+02:00">12:28:11</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Karlheinz Kopf (ÖVP)</note>
             <u who="#PAD_02822"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e8181"
@@ -1416,7 +1429,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T12:35:00+02:00">12:35</time>
-</note>
+            </note>
             <pb n="111"/>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
@@ -1430,7 +1443,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e8485">Weiterer Ruf bei der ÖVP:Das wird jetzt schwierig!</note>
             <note type="time">
                <time when="2022-10-12T12:35:39+02:00">12:35:39</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dr. Christoph Matznetter (SPÖ)</note>
             <u who="#PAD_14844"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e8509"
@@ -1509,7 +1522,7 @@
                         xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e8878">Abg. Hanger: Geh bitte! Krainer/Matznetter, das finanzpolitische Traumduo!</note>
                   <note type="time">
                      <time when="2022-10-12T12:40:00+02:00">12:40</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -1525,7 +1538,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T12:41:03+02:00">12:41:03</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dipl.-Ing. Olga Voglauer (Grüne)</note>
             <u who="#PAD_05679"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9087"
@@ -1586,7 +1599,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9236">Abg. Erasim: Das mit hysterisch hättest du dir sparen können! Das ist das Niveau, von dem ihr redet!</note>
             <note type="time">
                <time when="2022-10-12T12:44:00+02:00">12:44</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9257"
@@ -1595,7 +1608,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T12:44:41+02:00">12:44:41</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Hermann Brückl, MA (FPÖ)</note>
             <u who="#PAD_61639"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9278"
@@ -1618,7 +1631,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T12:48:00+02:00">12:48</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -1635,7 +1648,7 @@
             <pb n="125"/>
             <note type="time">
                <time when="2022-10-12T12:48:37+02:00">12:48:37</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Corinna Scharzenberger (ÖVP)</note>
             <u who="#PAD_05629"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9442"
@@ -1692,7 +1705,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T12:53:00+02:00">12:53</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9554"
@@ -1701,7 +1714,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T12:53:41+02:00">12:53:41</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
             <u who="#PAD_83121"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9575"
@@ -1753,7 +1766,7 @@
                   </vocal>
                   <note type="time">
                      <time when="2022-10-12T12:59:00+02:00">12:59</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -1770,7 +1783,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9933">Ruf bei der SPÖ:Er hätte auch die Wissenschaft nehmen können! Er hätte auch sagen können, er ist besser als die Wissenschaft!</note>
             <note type="time">
                <time when="2022-10-12T12:59:23+02:00">12:59:23</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Christoph Zarits (ÖVP)</note>
             <u who="#PAD_02332"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e9956"
@@ -1801,7 +1814,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:03:00+02:00">13:03</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10070"
@@ -1810,7 +1823,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:03:45+02:00">13:03:45</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Eva Maria Holzleitner, BSc (SPÖ)</note>
             <u who="#PAD_02309"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10091"
@@ -1865,7 +1878,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10258">Abg. Krainer: Nicht jetzt Frauen schlechtreden!</note>
             <note type="time">
                <time when="2022-10-12T13:08:00+02:00">13:08</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10278"
@@ -1875,7 +1888,7 @@
             <pb n="140"/>
             <note type="time">
                <time when="2022-10-12T13:08:11+02:00">13:08:11</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Peter Haubner (ÖVP)</note>
             <u who="#PAD_12741"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10308"
@@ -1905,7 +1918,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:11:00+02:00">13:11</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10389"
@@ -1914,7 +1927,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:11:19+02:00">13:11:19</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Nurten Yılmaz (SPÖ)</note>
             <u who="#PAD_83117"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10413"
@@ -1935,7 +1948,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:14:00+02:00">13:14</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10472"
@@ -1945,7 +1958,7 @@
             <pb n="143"/>
             <note type="time">
                <time when="2022-10-12T13:15:04+02:00">13:15:04</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Andreas Hanger (ÖVP)</note>
             <u who="#PAD_83148"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10498"
@@ -1979,7 +1992,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:18:00+02:00">13:18</time>
-</note>
+            </note>
             <pb n="145"/>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
@@ -1989,7 +2002,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:19:01+02:00">13:19:01</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Ing. Reinhold Einwallner (SPÖ)</note>
             <u who="#PAD_24257"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10608"
@@ -2019,7 +2032,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T13:22:00+02:00">13:22</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10674"
@@ -2033,7 +2046,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:23:47+02:00">13:23:47</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Angela Baumgartner (ÖVP)</note>
             <u who="#PAD_01974"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10714"
@@ -2055,7 +2068,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:27:00+02:00">13:27</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10783"
@@ -2064,7 +2077,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:27:30+02:00">13:27:30</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Ing. Klaus Lindinger, BSc (ÖVP)</note>
             <u who="#PAD_02001"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10804"
@@ -2096,7 +2109,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:31:00+02:00">13:31</time>
-</note>
+            </note>
             <pb n="151"/>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
@@ -2106,7 +2119,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:31:53+02:00">13:31:53</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Meri Disoski (Grüne)</note>
             <u who="#PAD_05650"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e10912"
@@ -2153,7 +2166,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:35:00+02:00">13:35</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11030"
@@ -2163,7 +2176,7 @@
             <pb n="153"/>
             <note type="time">
                <time when="2022-10-12T13:35:18+02:00">13:35:18</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Maximilian Lercher (SPÖ)</note>
             <u who="#PAD_05642"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11060"
@@ -2226,7 +2239,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:39:00+02:00">13:39</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11255"
@@ -2236,7 +2249,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e2621">Ich verabschiede mich vom und bedanke mich beim Herrn Finanzminister, der bei dieser Debatte natürlich anwesend war. Die Abstimmung dazu erfolgt dann später.</seg>
                <note type="time">
                   <time when="2022-10-12T13:40:22+02:00">13:40:22</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e2626">4. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e2628">Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2810/A der Abgeordneten August Wöginger, Mag. Markus Koza, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz, das Pensionsgesetz 1965, das Bundestheaterpensionsgesetz und das Bundesbahn-Pensionsgesetz geändert werden (1721 d.B.)</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e2630">5. Punkt</seg>
@@ -2264,7 +2277,7 @@
             <pb n="157"/>
             <note type="time">
                <time when="2022-10-12T13:40:54+02:00">13:40:54</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Jörg Leichtfried (SPÖ)</note>
             <u who="#PAD_22694"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11406"
@@ -2310,10 +2323,10 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:45:00+02:00">13:45</time>
-</note>
+            </note>
             <note type="time">
                <time when="2022-10-12T13:45:25+02:00">13:45:25</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11531"
@@ -2338,7 +2351,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:45:52+02:00">13:45:52</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Markus Koza (Grüne)</note>
             <u who="#PAD_05670"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11626"
@@ -2369,7 +2382,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:51:00+02:00">13:51</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11735"
@@ -2378,7 +2391,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:51:38+02:00">13:51:38</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Peter Wurm (FPÖ)</note>
             <u who="#PAD_83137"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11760"
@@ -2402,7 +2415,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T13:56:00+02:00">13:56</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11856"
@@ -2411,7 +2424,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T13:56:58+02:00">13:56:58</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter August Wöginger (ÖVP)</note>
             <u who="#PAD_14795"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11881"
@@ -2443,7 +2456,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:02:00+02:00">14:02</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e11980"
@@ -2452,7 +2465,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:02:11+02:00">14:02:11</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
             <u who="#PAD_83121"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12004"
@@ -2482,7 +2495,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T14:07:00+02:00">14:07</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -2499,7 +2512,7 @@
             <pb n="172"/>
             <note type="time">
                <time when="2022-10-12T14:07:24+02:00">14:07:24</time>
-</note>
+            </note>
             <note type="speaker">Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz Johannes Rauch</note>
             <u who="#PAD_21029"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12192"
@@ -2529,7 +2542,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:12:00+02:00">14:12</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12258"
@@ -2539,7 +2552,7 @@
             <pb n="174"/>
             <note type="time">
                <time when="2022-10-12T14:12:15+02:00">14:12:15</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Bedrana Ribo, MA (Grüne)</note>
             <u who="#PAD_05673"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12284"
@@ -2583,7 +2596,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T14:17:00+02:00">14:17</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -2600,7 +2613,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:17:58+02:00">14:17:58</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dietmar Keck (SPÖ)</note>
             <u who="#PAD_14840"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12550"
@@ -2633,7 +2646,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:22:00+02:00">14:22</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12647"
@@ -2643,7 +2656,7 @@
             <pb n="182"/>
             <note type="time">
                <time when="2022-10-12T14:22:43+02:00">14:22:43</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Bettina Zopf (ÖVP)</note>
             <u who="#PAD_05634"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12676"
@@ -2693,7 +2706,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:27:00+02:00">14:27</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12830"
@@ -2702,7 +2715,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:27:56+02:00">14:27:56</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
             <u who="#PAD_35468"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12855"
@@ -2728,7 +2741,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12894">Abg. Gödl: ... 3 Prozent!</note>
             <note type="time">
                <time when="2022-10-12T14:32:00+02:00">14:32</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12915"
@@ -2737,7 +2750,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:32:56+02:00">14:32:56</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Carina Reiter (ÖVP)</note>
             <u who="#PAD_05627"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e12939"
@@ -2769,7 +2782,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:36:00+02:00">14:36</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13000"
@@ -2778,7 +2791,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:36:16+02:00">14:36:16</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Yannick Shetty (NEOS)</note>
             <u who="#PAD_05687"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13024"
@@ -2804,7 +2817,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:39:00+02:00">14:39</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13072"
@@ -2813,7 +2826,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:39:50+02:00">14:39:50</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Elisabeth Scheucher-Pichler (ÖVP)</note>
             <u who="#PAD_14896"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13096"
@@ -2834,7 +2847,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:43:00+02:00">14:43</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13174"
@@ -2843,7 +2856,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:43:26+02:00">14:43:26</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Verena Nussbaum (SPÖ)</note>
             <u who="#PAD_02334"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13199"
@@ -2860,7 +2873,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:46:00+02:00">14:46</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13238"
@@ -2869,7 +2882,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:46:30+02:00">14:46:30</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Rainer Wimmer (SPÖ)</note>
             <u who="#PAD_02013"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13262"
@@ -2900,10 +2913,10 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13355">Abg. Michael Hammer: Das schauen wir uns an!</note>
             <note type="time">
                <time when="2022-10-12T14:50:00+02:00">14:50</time>
-</note>
+            </note>
             <note type="time">
                <time when="2022-10-12T14:50:11+02:00">14:50:11</time>
-</note>
+            </note>
             <pb n="196"/>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
@@ -2936,7 +2949,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:51:46+02:00">14:51:46</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Gabriele Heinisch-Hosek (SPÖ)</note>
             <u who="#PAD_08177"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13497"
@@ -2965,7 +2978,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T14:55:00+02:00">14:55</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13554"
@@ -2974,7 +2987,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T14:55:48+02:00">14:55:48</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Barbara Neßler (Grüne)</note>
             <u who="#PAD_05672"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13578"
@@ -3019,7 +3032,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T15:00:00+02:00">15:00</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13689"
@@ -3028,7 +3041,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:00:23+02:00">15:00:23</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Erwin Angerer (FPÖ)</note>
             <u who="#PAD_84060"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13713"
@@ -3051,7 +3064,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:02:00+02:00">15:02</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13796"
@@ -3060,7 +3073,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:03:11+02:00">15:03:11</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Norbert Sieber (ÖVP)</note>
             <u who="#PAD_14769"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13820"
@@ -3091,7 +3104,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:06:00+02:00">15:06</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13894"
@@ -3100,7 +3113,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:06:39+02:00">15:06:39</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
             <u who="#PAD_83121"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e13919"
@@ -3121,7 +3134,7 @@
                </kinesic>
                <note type="time">
                   <time when="2022-10-12T15:10:00+02:00">15:10</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e3636">Der Antrag hat folgenden Gesamtwortlaut:</seg>
                <gap reason="editorial">
                   <desc xml:lang="en">Quoted printed matter omited</desc>
@@ -3137,7 +3150,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:10:41+02:00">15:10:41</time>
-</note>
+            </note>
             <note type="speaker">Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz Johannes Rauch</note>
             <u who="#PAD_21029"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14106"
@@ -3172,7 +3185,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:14:00+02:00">15:14</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14205"
@@ -3181,7 +3194,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:15:04+02:00">15:15:04</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Markus Koza (Grüne)</note>
             <u who="#PAD_05670"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14230"
@@ -3214,7 +3227,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:19:00+02:00">15:19</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14304"
@@ -3223,7 +3236,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:19:45+02:00">15:19:45</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michael Seemayer (SPÖ)</note>
             <u who="#PAD_05645"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14328"
@@ -3257,7 +3270,7 @@
                </kinesic>
                <note type="time">
                   <time when="2022-10-12T15:22:00+02:00">15:22</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e3797">Der Antrag hat folgenden Gesamtwortlaut:</seg>
                <gap reason="editorial">
                   <desc xml:lang="en">Quoted printed matter omited</desc>
@@ -3280,7 +3293,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14572">Abg. Leichtfried: Ist das der Hammer, der ständig Ordnungsrufe bekommt?</note>
             <note type="time">
                <time when="2022-10-12T15:23:02+02:00">15:23:02</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Michael Hammer (ÖVP)</note>
             <u who="#PAD_55227"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14596"
@@ -3323,7 +3336,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14722">Abg. Leichtfried: Eigentlich war die vom Wöginger gemeint!</note>
             <note type="time">
                <time when="2022-10-12T15:26:00+02:00">15:26</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14743"
@@ -3332,7 +3345,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:26:45+02:00">15:26:45</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Peter Wurm (FPÖ)</note>
             <u who="#PAD_83137"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14767"
@@ -3350,7 +3363,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:30:00+02:00">15:30</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14806"
@@ -3359,7 +3372,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:30:32+02:00">15:30:32</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Meri Disoski (Grüne)</note>
             <u who="#PAD_05650"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14830"
@@ -3406,7 +3419,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:35:00+02:00">15:35</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14957"
@@ -3415,7 +3428,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:35:35+02:00">15:35:35</time>
-</note>
+            </note>
             <note type="speaker">Bundesministerin für Frauen, Familie, Integration und Medien im Bundeskanzleramt MMag. Dr. Susanne Raab</note>
             <u who="#PAD_06486"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e14978"
@@ -3450,7 +3463,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:39:00+02:00">15:39</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15059"
@@ -3459,7 +3472,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:39:55+02:00">15:39:55</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Karl Schmidhofer (ÖVP)</note>
             <u who="#PAD_05138"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15084"
@@ -3479,7 +3492,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:42:00+02:00">15:42</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15129"
@@ -3489,7 +3502,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4052">Wie vereinbart verlege ich die Abstimmungen an den Schluss der Verhandlungen über die Tagesordnungspunkte 4 bis 14 und fahre in der Erledigung der Tagesordnung fort.</seg>
                <note type="time">
                   <time when="2022-10-12T15:43:03+02:00">15:43:03</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4057">14. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4059">Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2794/A der Abgeordneten Mag. Michael Hammer, Mag. Markus Koza, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversiche-</seg>
                <pb n="228"/>
@@ -3505,7 +3518,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:43:39+02:00">15:43:39</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Markus Koza (Grüne)</note>
             <u who="#PAD_05670"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15208"
@@ -3524,7 +3537,7 @@
             <note type="side_talk">(Abg. Neßler steht an der Regierungsbank und spricht mit Bundesminister Rauch.)</note>
             <note type="time">
                <time when="2022-10-12T15:45:00+02:00">15:45</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15256"
@@ -3534,7 +3547,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:46:13+02:00">15:46:13</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Gabriele Heinisch-Hosek (SPÖ)</note>
             <u who="#PAD_08177"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15283"
@@ -3558,7 +3571,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:49:00+02:00">15:49</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15344"
@@ -3567,7 +3580,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:49:29+02:00">15:49:29</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
             <u who="#PAD_35468"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15368"
@@ -3582,7 +3595,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:50:00+02:00">15:50</time>
-</note>
+            </note>
             <pb n="232"/>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
@@ -3592,7 +3605,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:51:03+02:00">15:51:03</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Ernst Gödl (ÖVP)</note>
             <u who="#PAD_83409"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15432"
@@ -3614,7 +3627,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T15:55:00+02:00">15:55</time>
-</note>
+            </note>
             <pb n="234"/>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
@@ -3624,7 +3637,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:55:24+02:00">15:55:24</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Wolfgang Zanger (FPÖ)</note>
             <u who="#PAD_35514"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15516"
@@ -3673,7 +3686,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T15:57:00+02:00">15:57</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15625"
@@ -3684,7 +3697,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4280">Meine sehr verehrten Damen und Herren, da umfangreiche Abänderungs- beziehungsweise Zusatzanträge und Verlangen auf getrennte Abstimmungen vorliegen und eine kurze Unterbrechung der Sitzung zur Vorbereitung der Klubs auf diese umfangreichen Abstimmungen nicht ausreicht, verlege ich diese Abstimmungen zu den Tagesordnungspunkten 5, 2 und 3 sowie 4 bis 14 bis nach der Abstimmung über die Tagesordnungspunkte 15 bis 22.</seg>
                <note type="time">
                   <time when="2022-10-12T15:58:38+02:00">15:58:38</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4285">15. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4287">Bericht des Gesundheitsausschusses über den Antrag 2830/A der Abgeordneten Dr. Josef Smolle, Ralph Schallmeiner, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden (1713 d.B.)</seg>
                <pb n="236"/>
@@ -3709,7 +3722,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T15:59:06+02:00">15:59:06</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Philip Kucher (SPÖ)</note>
             <u who="#PAD_83113"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15753"
@@ -3749,7 +3762,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:03:00+02:00">16:03</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15861"
@@ -3758,7 +3771,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:03:15+02:00">16:03:15</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Ralph Schallmeiner (Grüne)</note>
             <u who="#PAD_05676"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15883"
@@ -3805,7 +3818,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T16:07:00+02:00">16:07</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15966"
@@ -3814,7 +3827,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:07:33+02:00">16:07:33</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
             <u who="#PAD_35468"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e15988"
@@ -3832,7 +3845,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:10:00+02:00">16:10</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16030"
@@ -3842,7 +3855,7 @@
             <pb n="244"/>
             <note type="time">
                <time when="2022-10-12T16:10:14+02:00">16:10:14</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Laurenz Pöttinger (ÖVP)</note>
             <u who="#PAD_05486"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16056"
@@ -3898,7 +3911,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T16:14:00+02:00">16:14</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16203"
@@ -3907,7 +3920,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:15:03+02:00">16:15:03</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Fiona Fiedler, BEd (NEOS)</note>
             <u who="#PAD_05684"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16224"
@@ -3923,7 +3936,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:18:00+02:00">16:18</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16273"
@@ -3932,7 +3945,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:18:25+02:00">16:18:25</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Rudolf Silvan (SPÖ)</note>
             <u who="#PAD_05646"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16294"
@@ -3955,7 +3968,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16319">Abg. Belakowitsch: Alles haben Sie mitgetragen!</note>
             <note type="time">
                <time when="2022-10-12T16:21:00+02:00">16:21</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16339"
@@ -3964,7 +3977,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:21:35+02:00">16:21:35</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerhard Kaniak (FPÖ)</note>
             <u who="#PAD_01970"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16360"
@@ -3997,7 +4010,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:28:00+02:00">16:28</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16444"
@@ -4006,7 +4019,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:28:35+02:00">16:28:35</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Susanne Fürst (FPÖ)</note>
             <u who="#PAD_01567"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16465"
@@ -4033,7 +4046,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:33:00+02:00">16:33</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16539"
@@ -4042,7 +4055,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:33:13+02:00">16:33:13</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerald Hauser (FPÖ)</note>
             <u who="#PAD_35515"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16561"
@@ -4063,7 +4076,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:39:00+02:00">16:39</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16638"
@@ -4073,7 +4086,7 @@
             <pb n="258"/>
             <note type="time">
                <time when="2022-10-12T16:39:20+02:00">16:39:20</time>
-</note>
+            </note>
             <note type="speaker">Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz Johannes Rauch</note>
             <u who="#PAD_21029"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16664"
@@ -4103,7 +4116,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:45:00+02:00">16:45</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16751"
@@ -4113,7 +4126,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4797">Wie vereinbart verlege ich die Abstimmungen ans Ende der Verhandlungen über die Vorlagen des Gesundheitsausschusses.</seg>
                <note type="time">
                   <time when="2022-10-12T16:46:08+02:00">16:46:08</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4802">20. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4804">Bericht des Gesundheitsausschusses über den Antrag 2795/A der Abgeordneten Dr. Josef Smolle, Ralph Schallmeiner, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird (1718 d.B.)</seg>
             </u>
@@ -4127,7 +4140,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:46:51+02:00">16:46:51</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Christian Drobits (SPÖ)</note>
             <u who="#PAD_05638"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16818"
@@ -4146,7 +4159,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:50:00+02:00">16:50</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16870"
@@ -4155,7 +4168,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:50:56+02:00">16:50:56</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Ralph Schallmeiner (Grüne)</note>
             <u who="#PAD_05676"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16891"
@@ -4173,7 +4186,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:54:00+02:00">16:54</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16933"
@@ -4182,7 +4195,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:54:04+02:00">16:54:04</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerhard Kaniak (FPÖ)</note>
             <u who="#PAD_01970"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16954"
@@ -4199,7 +4212,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T16:56:00+02:00">16:56</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e16993"
@@ -4208,7 +4221,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T16:56:41+02:00">16:56:41</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dr. Josef Smolle (ÖVP)</note>
             <u who="#PAD_03132"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17015"
@@ -4231,7 +4244,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:00:00+02:00">17:00</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17072"
@@ -4240,7 +4253,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:00:55+02:00">17:00:55</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Martina Diesner-Wais (ÖVP)</note>
             <u who="#PAD_16218"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17093"
@@ -4256,7 +4269,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:03:00+02:00">17:03</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17130"
@@ -4267,7 +4280,7 @@
                <pb n="270"/>
                <note type="time">
                   <time when="2022-10-12T17:03:44+02:00">17:03:44</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4978">21. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e4980">Bericht des Gesundheitsausschusses über die Regierungsvorlage (1657 d.B.): Bundesgesetz, mit dem das Zahnärztegesetz und das Zahnärztekammergesetz geändert werden (1719 d.B.)</seg>
             </u>
@@ -4281,7 +4294,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:04:10+02:00">17:04:10</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Ralph Schallmeiner (Grüne)</note>
             <u who="#PAD_05676"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17192"
@@ -4303,7 +4316,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:07:00+02:00">17:07</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17247"
@@ -4312,7 +4325,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:07:56+02:00">17:07:56</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dietmar Keck (SPÖ)</note>
             <u who="#PAD_14840"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17268"
@@ -4361,7 +4374,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T17:09:00+02:00">17:09</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17535"
@@ -4370,7 +4383,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:10:02+02:00">17:10:02</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dr. Werner Saxinger, MSc (ÖVP)</note>
             <u who="#PAD_07106"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17556"
@@ -4402,10 +4415,10 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:14:00+02:00">17:14</time>
-</note>
+            </note>
             <note type="time">
                <time when="2022-10-12T17:14:19+02:00">17:14:19</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17640"
@@ -4419,7 +4432,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:14:34+02:00">17:14:34</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Julia Seidl (NEOS)</note>
             <u who="#PAD_19741"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17681"
@@ -4451,7 +4464,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:17:00+02:00">17:17</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17785"
@@ -4461,7 +4474,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5213">Wir verlegen wie schon vereinbart die Abstimmungen an den Schluss der Verhandlungen über die Vorlagen des Gesundheitsausschusses.</seg>
                <note type="time">
                   <time when="2022-10-12T17:18:14+02:00">17:18:14</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5218">22. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5220">Bericht des Gesundheitsausschusses über den Antrag 2714/A(E) der Abgeordneten Fiona Fiedler, BEd, Dr. Josef Smolle, Ralph Schallmeiner, Kolleginnen und Kollegen betreffend Musiktherapie in Krankenhäusern und Gesundheitseinrichtungen (1720 d.B.)</seg>
             </u>
@@ -4475,7 +4488,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:18:39+02:00">17:18:39</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Verena Nussbaum (SPÖ)</note>
             <u who="#PAD_02334"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e17854"
@@ -4504,7 +4517,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T17:21:00+02:00">17:21</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -4520,7 +4533,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:21:59+02:00">17:21:59</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Ralph Schallmeiner (Grüne)</note>
             <u who="#PAD_05676"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18028"
@@ -4549,7 +4562,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:24:00+02:00">17:24</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18085"
@@ -4558,7 +4571,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:25:00+02:00">17:25:00</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Rosa Ecker, MBA (FPÖ)</note>
             <u who="#PAD_87002"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18106"
@@ -4577,7 +4590,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:27:00+02:00">17:27</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18151"
@@ -4586,7 +4599,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:27:45+02:00">17:27:45</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Elisabeth Scheucher-Pichler (ÖVP)</note>
             <u who="#PAD_14896"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18173"
@@ -4610,7 +4623,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:32:00+02:00">17:32</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18232"
@@ -4619,7 +4632,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T17:32:54+02:00">17:32:54</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Fiona Fiedler, BEd (NEOS)</note>
             <u who="#PAD_05684"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18253"
@@ -4637,7 +4650,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T17:36:00+02:00">17:36</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e18308"
@@ -4649,11 +4662,11 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5434">Da die NEOS um eine Unterbrechung für 10 Minuten gebeten haben, weil für die Vorbereitung des Croquis noch Zeit gebraucht wird, unterbreche ich die Sitzung für 10 Minuten.</seg>
                <note type="time">
                   <time when="2022-10-12T17:36:31+02:00">17:36:31</time>
-</note>
+               </note>
                <note type="procedural">(Die Sitzung wird um 17.36 Uhr unterbrochen und um 17.47 Uhr wieder aufgenommen.)</note>
                <note type="time">
                   <time when="2022-10-12T17:47:43+02:00">17:47:43</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5444">Abstimmung über die Tagesordnungspunkte 15 bis 22</seg>
             </u>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
@@ -4697,12 +4710,12 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5519">Die Sitzung ist für 2 Minuten unterbrochen.</seg>
                <note type="time">
                   <time when="2022-10-12T17:52:21+02:00">17:52:21</time>
-</note>
+               </note>
                <note type="procedural">(Die Sitzung wird um 17.52 Uhr unterbrochen und um 17.54 Uhr wieder aufgenommen.)</note>
                <pb n="293"/>
                <note type="time">
                   <time when="2022-10-12T17:54:11+02:00">17:54:11</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5530">Abstimmung über die Tagesordnungspunkte 2 bis 14</seg>
             </u>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
@@ -4881,7 +4894,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5873">Wer diesen Entwurf auch in dritter Lesung annimmt, wird um ein entsprechendes Zeichen gebeten. – Das ist mehrheitlich auch in dritter Lesung angenommen.</seg>
                <note type="time">
                   <time when="2022-10-12T18:13:36+02:00">18:13:36</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5878">23. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5880">Bericht des Ausschusses für Wirtschaft, Industrie und Energie über den Antrag 2829/A der Abgeordneten Tanja Graf, Lukas Hammer, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Digitalisierung und Wirtschaftsstandort genehmigt wird, und das Bundesgesetz über einen Energiekostenzuschuss für energieintensive Unternehmen (Unternehmens-Energiekostenzuschussgesetz – UEZG) geändert werden (1732 d.B.)</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e5882">24. Punkt</seg>
@@ -4900,7 +4913,7 @@
             <note type="procedural">(Präsidentin Bures übernimmt den Vorsitz.)</note>
             <note type="time">
                <time when="2022-10-12T18:14:54+02:00">18:14:54</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dr. Christoph Matznetter (SPÖ)</note>
             <u who="#PAD_14844"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19314"
@@ -4920,7 +4933,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:18:00+02:00">18:18</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19360"
@@ -4931,7 +4944,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19371">Abg. Wurm: Peter, sag die Wahrheit!</note>
             <note type="time">
                <time when="2022-10-12T18:18:43+02:00">18:18:43</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Peter Haubner (ÖVP)</note>
             <u who="#PAD_12741"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19394"
@@ -4968,7 +4981,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:23:00+02:00">18:23</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19479"
@@ -4977,7 +4990,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:23:53+02:00">18:23:53</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Peter Wurm (FPÖ)</note>
             <u who="#PAD_83137"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19504"
@@ -4999,7 +5012,7 @@
                </kinesic>
                <note type="time">
                   <time when="2022-10-12T18:28:00+02:00">18:28</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6019">Der Antrag hat folgenden Gesamtwortlaut:</seg>
                <gap reason="editorial">
                   <desc xml:lang="en">Quoted printed matter omited</desc>
@@ -5015,7 +5028,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:28:11+02:00">18:28:11</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Elisabeth Götze (Grüne)</note>
             <u who="#PAD_05654"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19772"
@@ -5058,7 +5071,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T18:35:00+02:00">18:35</time>
-</note>
+                  </note>
                   <pb n="320"/>
             Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
@@ -5077,7 +5090,7 @@
             <pb n="321"/>
             <note type="time">
                <time when="2022-10-12T18:36:12+02:00">18:36:12</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dipl.-Ing. Karin Doppelbauer (NEOS)</note>
             <u who="#PAD_91141"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e19971"
@@ -5099,7 +5112,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:40:00+02:00">18:40</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20020"
@@ -5108,7 +5121,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:40:24+02:00">18:40:24</time>
-</note>
+            </note>
             <note type="speaker">Bundesminister für Arbeit und Wirtschaft Mag. Dr. Martin Kocher</note>
             <u who="#PAD_18140"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20042"
@@ -5131,7 +5144,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:46:00+02:00">18:46</time>
-</note>
+            </note>
             <pb n="326"/>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
@@ -5141,7 +5154,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:46:16+02:00">18:46:16</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Tanja Graf (ÖVP)</note>
             <u who="#PAD_01977"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20128"
@@ -5172,7 +5185,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:50:00+02:00">18:50</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20201"
@@ -5181,7 +5194,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:50:34+02:00">18:50:34</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Rainer Wimmer (SPÖ)</note>
             <u who="#PAD_02013"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20225"
@@ -5213,7 +5226,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20346">Abg. Kopf: Herr Minister, machen Sie auch einen Wumms!</note>
             <note type="time">
                <time when="2022-10-12T18:53:00+02:00">18:53</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20366"
@@ -5222,7 +5235,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:53:16+02:00">18:53:16</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Laurenz Pöttinger (ÖVP)</note>
             <u who="#PAD_05486"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20391"
@@ -5249,7 +5262,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:55:00+02:00">18:55</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20485"
@@ -5258,7 +5271,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:55:36+02:00">18:55:36</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Cornelia Ecker (SPÖ)</note>
             <u who="#PAD_83109"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20510"
@@ -5297,7 +5310,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T18:59:00+02:00">18:59</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -5313,7 +5326,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:59:17+02:00">18:59:17</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dipl.-Ing. Karin Doppelbauer (NEOS)</note>
             <u who="#PAD_91141"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20713"
@@ -5325,7 +5338,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T18:59:00+02:00">18:59</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20737"
@@ -5334,7 +5347,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T18:59:46+02:00">18:59:46</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Eva-Maria Himmelbauer, BSc (ÖVP)</note>
             <u who="#PAD_72959"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20758"
@@ -5363,7 +5376,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:03:00+02:00">19:03</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20852"
@@ -5372,7 +5385,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:03:16+02:00">19:03:16</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter MMMag. Dr. Axel Kassegger (FPÖ)</note>
             <u who="#PAD_83129"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20873"
@@ -5399,7 +5412,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:08:00+02:00">19:08</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e20963"
@@ -5409,7 +5422,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6464">Wie vereinbart verlege ich die Abstimmungen an den Schluss der Verhandlungen über die Vorlagen des Ausschusses für Wirtschaft, Industrie und Energie.</seg>
                <note type="time">
                   <time when="2022-10-12T19:09:01+02:00">19:09:01</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6469">25. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6471">Bericht des Ausschusses für Wirtschaft, Industrie und Energie über die Regierungsvorlage (1673 d.B.): Bundesgesetz, mit dem das Maschinen – Inverkehrbringungs- und NotifizierungsG (MING), das Elektrotechnikgesetz 1992 – ETG 1992, das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG und die Gewerbeordnung 1994 – GewO 1994 geändert werden (1729 d.B.)</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6473">26. Punkt</seg>
@@ -5428,7 +5441,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:09:58+02:00">19:09:58</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. (FH) Kurt Egger (ÖVP)</note>
             <u who="#PAD_20056"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21047"
@@ -5448,7 +5461,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T19:14:00+02:00">19:14</time>
-</note>
+                  </note>
                   <pb n="343"/>
             Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
@@ -5466,7 +5479,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:14:32+02:00">19:14:32</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Dr. Petra Oberrauner (SPÖ)</note>
             <u who="#PAD_05643"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21214"
@@ -5488,7 +5501,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:18:00+02:00">19:18</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21269"
@@ -5497,7 +5510,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:18:04+02:00">19:18:04</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Christian Ragger (FPÖ)</note>
             <u who="#PAD_01937"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21290"
@@ -5524,7 +5537,7 @@
                         xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21342">Ruf bei der ÖVP:Das war eine schlechte Rede!</note>
                   <note type="time">
                      <time when="2022-10-12T19:20:00+02:00">19:20</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:</seg>
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">Quoted printed matter omited</desc>
@@ -5540,7 +5553,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:20:53+02:00">19:20:53</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Elisabeth Götze (Grüne)</note>
             <u who="#PAD_05654"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21476"
@@ -5566,7 +5579,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:24:00+02:00">19:24</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21531"
@@ -5576,7 +5589,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6657">Auch in diesem Fall verlege ich die Abstimmung ans Ende der Verhandlungen über die Vorlagen dieses Ausschusses.</seg>
                <note type="time">
                   <time when="2022-10-12T19:24:17+02:00">19:24:17</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6662">28. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e6664">Bericht des Ausschusses für Wirtschaft, Industrie und Energie über den Antrag 2786/A(E) der Abgeordneten MMMag. Dr. Axel Kassegger, Kolleginnen und Kollegen betreffend bundesweite Volksbefragung über die sofortige Beendigung der Sanktionen gegen die Russische Föderation (1733 d.B.)</seg>
             </u>
@@ -5590,7 +5603,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:24:48+02:00">19:24:48</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter MMMag. Dr. Axel Kassegger (FPÖ)</note>
             <u who="#PAD_83129"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21594"
@@ -5611,7 +5624,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:31:00+02:00">19:31</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21651"
@@ -5621,7 +5634,7 @@
             <pb n="356"/>
             <note type="time">
                <time when="2022-10-12T19:31:35+02:00">19:31:35</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Andreas Ottenschläger (ÖVP)</note>
             <u who="#PAD_83150"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21681"
@@ -5645,7 +5658,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:35:00+02:00">19:35</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21729"
@@ -5654,7 +5667,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:35:34+02:00">19:35:34</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Maximilian Lercher (SPÖ)</note>
             <u who="#PAD_05642"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21754"
@@ -5711,7 +5724,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T19:38:00+02:00">19:38</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21960"
@@ -5720,7 +5733,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:38:50+02:00">19:38:50</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michel Reimon, MBA (Grüne)</note>
             <u who="#PAD_84054"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e21981"
@@ -5776,7 +5789,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T19:42:00+02:00">19:42</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e22158"
@@ -5785,7 +5798,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T19:42:37+02:00">19:42:37</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Carmen Jeitler-Cincelli, BA (ÖVP)</note>
             <u who="#PAD_01981"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e22179"
@@ -5872,7 +5885,7 @@
             </vocal>
             <note type="time">
                <time when="2022-10-12T19:48:00+02:00">19:48</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e22506"
@@ -5883,7 +5896,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e22511">Ruf bei der ÖVP:Jetzt wird’s schwierig!</note>
             <note type="time">
                <time when="2022-10-12T19:48:19+02:00">19:48:19</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Susanne Fürst (FPÖ)</note>
             <u who="#PAD_01567"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e22534"
@@ -5984,7 +5997,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T19:54:00+02:00">19:54</time>
-</note>
+            </note>
             <note type="speaker">Präsidentin Doris Bures</note>
             <u who="#PAD_00145"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e22893"
@@ -5994,7 +6007,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7170">Ich frage wie vereinbart alle Fraktionen, ob wir gleich zu den Abstimmungen kommen können. – Mir wird Zustimmung signalisiert. Dann gehe ich auch so vor.</seg>
                <note type="time">
                   <time when="2022-10-12T19:55:03+02:00">19:55:03</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7175">Abstimmung über die Tagesordnungspunkte 23 bis 28</seg>
             </u>
             <note type="speaker">Präsidentin Doris Bures</note>
@@ -6015,7 +6028,7 @@
             <pb n="372"/>
             Wer sich dafür ausspricht, den bitte ich um ein Zeichen der Zustimmung. – Das findet einstimmig die Zustimmung. Schließlich kommen wir zur Abstimmung über die restlichen, noch nicht abgestimmten Teile des Gesetzentwurfes. – Diese werden einstimmig auch so angenommen. Wir kommen sogleich zur dritten Lesung. – Der Gesetzentwurf ist in dritter Lesung einstimmig angenommen. Wir gelangen zur Abstimmung über den Entschließungsantrag der Abgeordneten Axel Kassegger, Kolleginnen und Kollegen betreffend „dringende Neukodifizierung der Gewerbeordnung“. Wer ist für diesen Entschließungsantrag? – Das ist die Minderheit, abgelehnt. Abstimmung über Tagesordnungspunkt 27: Entwurf betreffend ein Bundesgesetz, mit dem das Maß- und Eichgesetz geändert wird, samt Titel und Eingang in 1675 der Beilagen. Wer sich für diesen Gesetzentwurf ausspricht, den bitte ich um ein Zeichen der Zustimmung. – Das ist einstimmig so angenommen. Wir kommen sogleich zur dritten Lesung. – Der Gesetzentwurf ist in dritter Lesung einstimmig angenommen. Abstimmung über Tagesordnungspunkt 28: Antrag des Ausschusses für Wirtschaft, Industrie und Energie, seinen Bericht 1733 der Beilagen zur Kenntnis zu nehmen. Wer ist für diese Kenntnisnahme? – Der Bericht ist mit Mehrheit zur Kenntnis genommen. <note type="time">
                      <time when="2022-10-12T20:02:46+02:00">20:02:46</time>
-</note> 29. Punkt Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2793/A der Abgeordneten Mag. Michael Hammer, Mag. Markus Koza, Kolleginnen und
+                  </note> 29. Punkt Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2793/A der Abgeordneten Mag. Michael Hammer, Mag. Markus Koza, Kolleginnen und
             <pb n="373"/>
             Kollegen betreffend ein Bundesgesetz, mit dem das Urlaubsgesetz, das Landarbeitsgesetz 2021 und das Heimarbeitsgesetz 1960 geändert werden (1683 d.B.)</seg>
             </u>
@@ -6029,7 +6042,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:03:20+02:00">20:03:20</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Mag. Verena Nussbaum (SPÖ)</note>
             <u who="#PAD_02334"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23077"
@@ -6045,7 +6058,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T20:06:00+02:00">20:06</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:
             <gap reason="editorial">
                      <desc xml:lang="en">Quoted printed matter omited</desc>
                      <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
@@ -6061,7 +6074,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:06:16+02:00">20:06:16</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Michael Hammer (ÖVP)</note>
             <u who="#PAD_55227"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23267"
@@ -6094,7 +6107,7 @@
                   </kinesic>
                   <note type="time">
                      <time when="2022-10-12T20:08:00+02:00">20:08</time>
-</note> Der Antrag hat folgenden Gesamtwortlaut:</seg>
+                  </note> Der Antrag hat folgenden Gesamtwortlaut:</seg>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">Quoted printed matter omited</desc>
@@ -6110,7 +6123,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:09:09+02:00">20:09:09</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
             <u who="#PAD_35468"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23468"
@@ -6123,7 +6136,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:10:00+02:00">20:10</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23503"
@@ -6133,7 +6146,7 @@
             <pb n="381"/>
             <note type="time">
                <time when="2022-10-12T20:10:28+02:00">20:10:28</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Markus Koza (Grüne)</note>
             <u who="#PAD_05670"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23532"
@@ -6150,7 +6163,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23548">Abg. Krainer: Mich hast du nicht überzeugt!</note>
             <note type="time">
                <time when="2022-10-12T20:13:00+02:00">20:13</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23569"
@@ -6160,7 +6173,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7355">Wie vereinbart verlege ich die Abstimmungen an den Schluss der Verhandlungen über die Tagesordnungspunkte 29 bis 37 und fahre in der Erledigung der Tagesordnung fort.</seg>
                <note type="time">
                   <time when="2022-10-12T20:13:21+02:00">20:13:21</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7360">30. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7362">Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2763/A(E) der Abgeordneten Mag. Gerald Loacker, Kolleginnen und Kollegen betreffend Lohnnebenkosten senken und Lohnverhandlungsspielraum schaffen (1684 d.B.)</seg>
             </u>
@@ -6174,7 +6187,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:13:43+02:00">20:13:43</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
             <u who="#PAD_83121"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23635"
@@ -6198,7 +6211,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:16:00+02:00">20:16</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23692"
@@ -6207,7 +6220,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:16:27+02:00">20:16:27</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Klaus Fürlinger (ÖVP)</note>
             <u who="#PAD_72999"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23716"
@@ -6223,7 +6236,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:18:00+02:00">20:18</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23753"
@@ -6232,7 +6245,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:18:49+02:00">20:18:49</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michael Seemayer (SPÖ)</note>
             <u who="#PAD_05645"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23777"
@@ -6254,7 +6267,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:21:00+02:00">20:21</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23822"
@@ -6263,7 +6276,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:22:04+02:00">20:22:04</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Markus Koza (Grüne)</note>
             <u who="#PAD_05670"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23846"
@@ -6284,7 +6297,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23868">Abg. Hörl: Erbschaftssteuer!</note>
             <note type="time">
                <time when="2022-10-12T20:25:00+02:00">20:25</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23889"
@@ -6293,7 +6306,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:25:14+02:00">20:25:14</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michael Bernhard (NEOS)</note>
             <u who="#PAD_83124"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23913"
@@ -6322,7 +6335,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:28:00+02:00">20:28</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e23975"
@@ -6332,7 +6345,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7538">Wie vereinbart verlege ich die Abstimmungen an den Schluss der Verhandlungen über die Tagesordnungspunkte 29 bis 37 und fahre in der Erledigung der Tagesordnung fort.</seg>
                <note type="time">
                   <time when="2022-10-12T20:28:32+02:00">20:28:32</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7543">31. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7545">Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2796/A der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller, Barbara Neßler,</seg>
                <pb n="391"/>
@@ -6352,7 +6365,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:29:26+02:00">20:29:26</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Petra Wimmer (SPÖ)</note>
             <u who="#PAD_02338"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24078"
@@ -6379,7 +6392,7 @@
                </kinesic>
                <note type="time">
                   <time when="2022-10-12T20:32:00+02:00">20:32</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7608">Der Antrag hat folgenden Gesamtwortlaut:</seg>
                <gap reason="editorial">
                   <desc xml:lang="en">Quoted printed matter omited</desc>
@@ -6395,7 +6408,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:33:04+02:00">20:33:04</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Rebecca Kirchbaumer (ÖVP)</note>
             <u who="#PAD_01984"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24258"
@@ -6427,7 +6440,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:37:00+02:00">20:37</time>
-</note>
+            </note>
             <pb n="397"/>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
@@ -6437,7 +6450,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:38:05+02:00">20:38:05</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Rosa Ecker, MBA (FPÖ)</note>
             <u who="#PAD_87002"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24400"
@@ -6454,7 +6467,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:40:00+02:00">20:40</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24439"
@@ -6463,7 +6476,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:40:29+02:00">20:40:29</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Barbara Neßler (Grüne)</note>
             <u who="#PAD_05672"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24464"
@@ -6492,7 +6505,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24545">Abg. Belakowitsch: Ja, das sollten Sie nie aus den Augen verlieren!</note>
             <note type="time">
                <time when="2022-10-12T20:43:00+02:00">20:43</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24565"
@@ -6501,7 +6514,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:43:31+02:00">20:43:31</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Fiona Fiedler, BEd (NEOS)</note>
             <u who="#PAD_05684"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24587"
@@ -6525,7 +6538,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:46:00+02:00">20:46</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24649"
@@ -6535,7 +6548,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7788">Wie vereinbart verlege ich auch hierzu die Abstimmungen an den Schluss der Verhandlungen über die Tagesordnungspunkte 29 bis 37 und fahre in der Erledigung der Tagesordnung fort.</seg>
                <note type="time">
                   <time when="2022-10-12T20:47:11+02:00">20:47:11</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7793">34. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7795">Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2720/A der Abgeordneten Mag. Ernst Gödl, Mag. Markus Koza, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz geändert wird (1688 d.B.)</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e7797">35. Punkt</seg>
@@ -6552,7 +6565,7 @@
             <pb n="402"/>
             <note type="time">
                <time when="2022-10-12T20:47:51+02:00">20:47:51</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Dietmar Keck (SPÖ)</note>
             <u who="#PAD_14840"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24737"
@@ -6568,7 +6581,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:49:00+02:00">20:49</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24773"
@@ -6577,7 +6590,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:50:07+02:00">20:50:07</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Ernst Gödl (ÖVP)</note>
             <u who="#PAD_83409"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24797"
@@ -6606,7 +6619,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:54:00+02:00">20:54</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24864"
@@ -6615,7 +6628,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:54:30+02:00">20:54:30</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Dagmar Belakowitsch (FPÖ)</note>
             <u who="#PAD_35468"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24888"
@@ -6637,7 +6650,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T20:57:00+02:00">20:57</time>
-</note>
+            </note>
             <pb n="407"/>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
@@ -6647,7 +6660,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T20:57:40+02:00">20:57:40</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Georg Bürstmayr (Grüne)</note>
             <u who="#PAD_06501"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e24992"
@@ -6689,7 +6702,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25188">Abg. Belakowitsch: Fürs Protokoll, Kollege Gödl hat ... applaudiert! Bitte ins Protokoll aufnehmen!</note>
             <note type="time">
                <time when="2022-10-12T21:00:00+02:00">21:00</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25208"
@@ -6700,7 +6713,7 @@
                <pb n="409"/>
                <note type="time">
                   <time when="2022-10-12T21:01:17+02:00">21:01:17</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8006">36. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8008">Bericht des Ausschusses für Arbeit und Soziales über den Antrag 2760/A(E) der Abgeordneten Mag. Gerald Loacker, Kolleginnen und Kollegen betreffend Umlagensenkungen bei den Kammern (1690 d.B.)</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8010">37. Punkt</seg>
@@ -6716,7 +6729,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:01:50+02:00">21:01:50</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Gerald Loacker (NEOS)</note>
             <u who="#PAD_83121"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25290"
@@ -6740,7 +6753,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:05:00+02:00">21:05</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25361"
@@ -6749,7 +6762,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:05:07+02:00">21:05:07</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Bettina Zopf (ÖVP)</note>
             <u who="#PAD_05634"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25386"
@@ -6773,7 +6786,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:07:00+02:00">21:07</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25434"
@@ -6782,7 +6795,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:07:26+02:00">21:07:26</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Christian Drobits (SPÖ)</note>
             <u who="#PAD_05638"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25459"
@@ -6809,7 +6822,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:10:00+02:00">21:10</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25547"
@@ -6819,7 +6832,7 @@
             <pb n="414"/>
             <note type="time">
                <time when="2022-10-12T21:10:54+02:00">21:10:54</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Mag. Markus Koza (Grüne)</note>
             <u who="#PAD_05670"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25576"
@@ -6836,7 +6849,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:14:00+02:00">21:14</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25626"
@@ -6846,7 +6859,7 @@
             <pb n="416"/>
             <note type="time">
                <time when="2022-10-12T21:14:45+02:00">21:14:45</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michael Bernhard (NEOS)</note>
             <u who="#PAD_83124"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25656"
@@ -6862,7 +6875,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:17:00+02:00">21:17</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e25695"
@@ -6873,7 +6886,7 @@
                <pb n="418"/>
                <note type="time">
                   <time when="2022-10-12T21:18:11+02:00">21:18:11</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8196">Abstimmung über die Tagesordnungspunkte 29 bis 37</seg>
             </u>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
@@ -6936,7 +6949,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8307">Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist mehrheitlich angenommen.</seg>
                <note type="time">
                   <time when="2022-10-12T21:24:19+02:00">21:24:19</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8313">38. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8315">Bericht des Ausschusses für Familie und Jugend über den Antrag 2549/A(E) der Abgeordneten Petra Wimmer, Kolleginnen und Kollegen betreffend Väterbeteiligung erhöhen – Familienzeitbonus reformieren (1693 d.B.)</seg>
             </u>
@@ -6950,7 +6963,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:24:45+02:00">21:24:45</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Petra Wimmer (SPÖ)</note>
             <u who="#PAD_02338"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26045"
@@ -6980,7 +6993,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:28:00+02:00">21:28</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26118"
@@ -6989,7 +7002,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:29:08+02:00">21:29:08</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Joachim Schnabel (ÖVP)</note>
             <u who="#PAD_05630"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26142"
@@ -7030,7 +7043,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26230">Abg. Bernhard: Alles richtig gemacht?!</note>
             <note type="time">
                <time when="2022-10-12T21:32:00+02:00">21:32</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26250"
@@ -7039,7 +7052,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:32:42+02:00">21:32:42</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Rosa Ecker, MBA (FPÖ)</note>
             <u who="#PAD_87002"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26272"
@@ -7060,7 +7073,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:35:00+02:00">21:35</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26322"
@@ -7069,7 +7082,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:36:00+02:00">21:36:00</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Barbara Neßler (Grüne)</note>
             <u who="#PAD_05672"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26346"
@@ -7093,7 +7106,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:40:00+02:00">21:40</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26395"
@@ -7103,7 +7116,7 @@
             <pb n="430"/>
             <note type="time">
                <time when="2022-10-12T21:40:03+02:00">21:40:03</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michael Bernhard (NEOS)</note>
             <u who="#PAD_83124"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26424"
@@ -7121,7 +7134,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:44:00+02:00">21:44</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26463"
@@ -7130,7 +7143,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:44:01+02:00">21:44:01</time>
-</note>
+            </note>
             <note type="speaker">Bundesministerin für Frauen, Familie, Integration und Medien im Bundeskanzleramt MMag. Dr. Susanne Raab</note>
             <u who="#PAD_06486"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26484"
@@ -7162,7 +7175,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:46:00+02:00">21:46</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26549"
@@ -7173,7 +7186,7 @@
                <pb n="434"/>
                <note type="time">
                   <time when="2022-10-12T21:46:51+02:00">21:46:51</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8574">39. Punkt</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8576">Bericht des Ausschusses für Familie und Jugend über den Antrag 2608/A der Abgeordneten Michael Bernhard, Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Kinderbetreuungsgeldgesetz geändert wird (1694 d.B.)</seg>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8578">40. Punkt</seg>
@@ -7189,7 +7202,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:47:31+02:00">21:47:31</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Eva Maria Holzleitner, BSc (SPÖ)</note>
             <u who="#PAD_02309"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26628"
@@ -7266,7 +7279,7 @@
                   xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26785">Abg. Seidl: Das moderne Familienbild ...!</note>
             <note type="time">
                <time when="2022-10-12T21:51:00+02:00">21:51</time>
-</note>
+            </note>
             <pb n="437"/>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
@@ -7276,7 +7289,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:52:09+02:00">21:52:09</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Dr. Gudrun Kugler (ÖVP)</note>
             <u who="#PAD_01986"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e26834"
@@ -7372,7 +7385,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T21:57:00+02:00">21:57</time>
-</note>
+            </note>
             <note type="speaker">Präsident Ing. Norbert Hofer</note>
             <u who="#PAD_35521"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27097"
@@ -7381,7 +7394,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T21:57:56+02:00">21:57:56</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Edith Mühlberghuber (FPÖ)</note>
             <u who="#PAD_51569"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27122"
@@ -7407,7 +7420,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T22:01:00+02:00">22:01</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27176"
@@ -7416,7 +7429,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T22:01:37+02:00">22:01:37</time>
-</note>
+            </note>
             <note type="speaker">Abgeordnete Bedrana Ribo, MA (Grüne)</note>
             <u who="#PAD_05673"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27198"
@@ -7444,7 +7457,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T22:05:00+02:00">22:05</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27261"
@@ -7453,7 +7466,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T22:05:14+02:00">22:05:14</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Michael Bernhard (NEOS)</note>
             <u who="#PAD_83124"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27282"
@@ -7475,7 +7488,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T22:09:00+02:00">22:09</time>
-</note>
+            </note>
             <pb n="445"/>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
@@ -7485,7 +7498,7 @@
             </u>
             <note type="time">
                <time when="2022-10-12T22:09:47+02:00">22:09:47</time>
-</note>
+            </note>
             <note type="speaker">Abgeordneter Norbert Sieber (ÖVP)</note>
             <u who="#PAD_14769"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27364"
@@ -7513,7 +7526,7 @@
             </kinesic>
             <note type="time">
                <time when="2022-10-12T22:12:00+02:00">22:12</time>
-</note>
+            </note>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
             <u who="#PAD_88386"
                xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d8e27460"
@@ -7522,7 +7535,7 @@
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8962">Wünscht seitens der Berichterstattung jemand ein Schlusswort? – Das ist auch nicht der Fall.</seg>
                <note type="time">
                   <time when="2022-10-12T22:12:14+02:00">22:12:14</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8967">Abstimmung über die Tagesordnungspunkte 38 bis 40</seg>
             </u>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
@@ -7541,7 +7554,7 @@
                <pb n="447"/>
                <note type="time">
                   <time when="2022-10-12T22:13:22+02:00">22:13:22</time>
-</note>
+               </note>
                <seg xml:id="ParlaMint-AT_2022-10-12-027-XXVII-NRSITZ-00178_d2e8995">Einlauf</seg>
             </u>
             <note type="speaker">Präsident Mag. Wolfgang Sobotka</note>
@@ -7555,11 +7568,9 @@
             </u>
             <note type="time">
                <time when="2022-10-12T22:13:49+02:00">22:13:49</time>
-</note>
+            </note>
             <note type="time">Schluss der Sitzung:<time when="2022-10-12T22:13:00+02:00">22:13</time>Uhr</note>
          </div>
       </body>
-      <!--
-        Impressum: Parlamentsdirektion 1017 Wien
-      --></text>
+   </text>
 </TEI>
