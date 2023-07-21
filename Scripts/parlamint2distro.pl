@@ -146,18 +146,18 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $teiRoot = "$teiDir/$XX.xml";
     my $anaRoot = "$anaDir/$XX.ana.xml";
 
-    my $inTeiDir = "$inDir/$teiDir";
-    my $inAnaDir = "$inDir/$anaDir";
+    my $inTeiDir = "$inDir/$teiDir" if $inDir;
+    my $inAnaDir = "$inDir/$anaDir" if $inDir;
 
     my $listOrg    = "$XX-listOrg.xml";
     my $listPerson = "$XX-listPerson.xml";
     my $taxonomies = "*-taxonomy-*.xml";
     
-    my $inTeiRoot = "$inDir/$teiRoot";
-    my $inAnaRoot = "$inDir/$anaRoot";
+    my $inTeiRoot = "$inDir/$teiRoot" if $inDir;
+    my $inAnaRoot = "$inDir/$anaRoot" if $inDir;
     #In case input dir is for samples
-    unless (-e $inTeiRoot) {$inTeiRoot =~ s/\.TEI//}
-    unless (-e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana//}
+    unless ($inTeiRoot and -e $inTeiRoot) {$inTeiRoot =~ s/\.TEI// if $inTeiRoot}
+    unless ($inAnaRoot and -e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana// if $inAnaRoot}
     
     my $outTeiDir  = "$outDir/$teiDir";      # $outTeiDir   =~ s/$XX/-$MT/ if $MT;
     my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
@@ -206,7 +206,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
 	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
 	# Output top level readme
-	&cp_readme_top($countryCode, $MT, 'tei', $handleTEI, $Version, $docsDir, $outDir);
+	&cp_readme_top($countryCode, $MT, 'TEI', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.txt"}
@@ -227,10 +227,6 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
-	# Output top level readme but not for $MTed version, as it would overwrite the original
-	# The Sample readme does not have handle or version, as the sample can change irrespective of them
-	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
-	    unless $MT;
 	if (-e $outTeiRoot) {
 	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
@@ -247,6 +243,10 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
+	# Output top level readme but not for $MTed version, as it would overwrite the original
+	# The Sample readme does not have handle or version, as the sample can change irrespective of them
+	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
+	    unless $MT;
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
@@ -257,13 +257,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
+	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
-	# We have an oportunistic handle!
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
@@ -374,9 +374,9 @@ sub cp_readme_top {
 	if (m|^# ParlaMint|) {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
 	    die "FATAL: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
-	    if    ($type eq 'sample') {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
-	    elsif ($type eq 'TEI')    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
-	    elsif ($type eq 'ana')    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
+	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
+	    elsif ($type =~ /TEI/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
+	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
 	    else {die "Strange type $type for cp_readme_top\n"}
 	    if ($MT) {print OUT " (translation to English)"}
 	    print OUT "\n";

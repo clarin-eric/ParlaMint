@@ -187,8 +187,13 @@
 	    <xsl:variable name="body" select="key('idr', ., $rootHeader)/
 					      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
 					      tei:term"/>
-	    
-	    <xsl:if test="normalize-space($body)">
+
+	    <!-- We unfortunatelly need an explicit test if the reference we got is appropriate -->
+	    <!-- This needs to be rethought! (e.g. 'National Parliament' might be better than 'Unicameralism' -->
+	    <xsl:if test="$body = 'Unicameralism' or
+			  $body = 'Upper house' or 
+			  $body = 'Lower house' or 
+			  $body = 'Committee'">
 	      <xsl:if test="contains($body, $body-separator)">
 		<xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
 	      </xsl:if>
@@ -543,10 +548,7 @@
         <xsl:value-of select="concat($name-en, ';')"/>
       </xsl:when>
       <xsl:when test="normalize-space($party)">
-        <xsl:message>
-          <xsl:text>WARN: party without proper name </xsl:text>
-          <xsl:value-of select="$party/@xml:id"/>
-        </xsl:message>
+        <xsl:message select="concat('WARN: party without orgName/@full = ', $full, ' for ', $party/@xml:id)"/>
         <!-- Shorten the ID if possible -->
         <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
         <xsl:text>;</xsl:text>
