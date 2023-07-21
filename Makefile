@@ -8,7 +8,10 @@ PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
 
-LANG-CODE-LIST =
+LANG-LIST =
+leftBRACKET := (
+rightBRACKET := )
+LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBRACKET)]*$(rightBRACKET),*/ /g" | tr -s " " | sed 's/ $$//' )
 
 TAXONOMIES-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
 TAXONOMIES = $(addsuffix .xml, $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-INTERF)))
@@ -63,6 +66,9 @@ endif
 	mkdir ./Data/ParlaMint-$(PARLIAMENT-CODE)
 	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
 	echo "## Languages: $(LANG-LIST)" >> ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	echo "LANG-CODE-LIST=$(LANG-CODE-LIST)"
+	make initTaxonomies-$(PARLIAMENT-CODE) PARLIAMENTS="$(PARLIAMENT-CODE)" LANG-CODE-LIST="$(LANG-CODE-LIST)"
+	git status ./Data/ParlaMint-$(PARLIAMENT-CODE)/*
 
 setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Austria' PARLIAMENT-CODE='AT' LANG-LIST='de (German)'
@@ -253,12 +259,21 @@ $(chars-XX): chars-%: %
 
 
 text-XX = $(addprefix text-, $(PARLIAMENTS))
-## text ## create text version from tei files
+## text ## create text version from TEI files
 text: $(text-XX)
-## text-XX ## convert tei files to text
+## text-XX ## convert TEI files to text
 $(text-XX): text-%: %
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+
+text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
+## text.ana ## create text version from TEI.ana files
+text.ana: $(text.ana-XX)
+## text.ana-XX ## convert TEI.ana files to text
+$(text.ana-XX): text.ana-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 
@@ -383,6 +398,28 @@ $(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-te
 	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
 	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
 
+
+###### Useful conversions and scripts
+
+text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI files - each line contains one segment
+text.seg: $(text.seg-XX)
+## text-XX ## convert TEI files to text
+$(text.seg-XX): text.seg-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+
+text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI.ana files - each line contains one segment
+text.seg.ana: $(text.seg.ana-XX)
+## text.seg.ana-XX ## convert TEI.seg.ana files to text
+$(text.seg.ana-XX): text.seg.ana-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
 
 
 ######---------------

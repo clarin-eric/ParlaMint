@@ -57,10 +57,40 @@
       <xsl:choose>
         <xsl:when test="self::tei:u">
           <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
+	  <xsl:variable name="wordcount" select="count(.//tei:w[not(parent::tei:w)])"/>
+	  <xsl:variable name="lang">
+	    <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+	    <xsl:variable name="langs">
+	      <xsl:variable name="lgs">
+		<xsl:for-each select="tei:seg">
+		  <xsl:value-of select="@xml:lang"/>
+		  <xsl:text>&#32;</xsl:text>
+		</xsl:for-each>
+	      </xsl:variable>
+	      <xsl:value-of select="distinct-values(tokenize(normalize-space($lgs)))"/>
+	    </xsl:variable>
+	    <xsl:choose>
+	      <!-- Segments not marked for language, so language of utterance -->
+	      <xsl:when test="not(normalize-space($langs))">
+		<xsl:value-of select="$rootHeader//tei:langUsage/tei:language
+                                      [@ident = $defaultLang]
+                                      [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+	      </xsl:when>
+	      <!-- Multilingual content -->
+	      <xsl:when test="tokenize($langs)[2]">
+		<xsl:text>Multilingual</xsl:text>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:value-of select="$rootHeader//tei:langUsage/tei:language
+                                      [@ident = $langs]
+                                      [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:variable>
           <speech id="{$speech_id}" text_id="{$text_id}"
-                  subcorpus="{$subcorpus}" body="{$body}"
+                  subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
 		  term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
-                  date="{$at-date}" title="{$title}">
+                  date="{$at-date}" title="{$title}" wordcount="{$wordcount}">
             <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
             <xsl:choose>
             <xsl:when test="@who">
@@ -137,7 +167,6 @@
   
   <xsl:template match="tei:seg">
     <p id="{@xml:id}">
-      <!-- We add language attribute (needed for for BE, which has fr+nl) -->
       <xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
       <xsl:attribute name="lang" select="$rootHeader//tei:langUsage/tei:language
                                          [@ident=$lang-code]
@@ -293,7 +322,7 @@
         </xsl:if>
         <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
         <xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
-        <xsl:value-of select="key('id', $relation, $rootHeader)//tei:term
+        <xsl:value-of select="key('id', $relation, $rootHeader)/tei:catDesc/tei:term
                               [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
         <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
         <xsl:choose>

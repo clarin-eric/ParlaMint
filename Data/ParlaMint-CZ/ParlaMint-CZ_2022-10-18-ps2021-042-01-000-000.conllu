@@ -1,5 +1,6 @@
 # newdoc id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p1
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p1.s1
 # text = Vážené paní poslankyně, vážení páni poslanci, vážení členové vlády, zahajuji 42. schůzi Poslanecké sněmovny a všechny vás vítám.
 1	Vážené	vážený	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	amod	_	NER=O
@@ -64,6 +65,7 @@
 32	.	.	PUNCT	_	_	10	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p2
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p2.s1
 # text = Schůzi svolala předsedkyně Poslanecké sněmovny podle § 51 odst. 4 našeho jednacího řádu na základě žádosti 69 poslanců.
 1	Schůzi	schůze	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	_	NER=O
@@ -105,6 +107,7 @@
 14	.	.	PUNCT	_	_	4	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s1
 # text = Nyní přistoupíme k určení dvou ověřovatelů této schůze.
 1	Nyní	nyní	ADV	_	PronType=Dem	2	advmod	_	NER=O
@@ -126,12 +129,12 @@
 4	bychom	být	AUX	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	5	aux	_	_
 5	určili	určit	VERB	_	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	NER=O
 6	poslankyni	poslankyně	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	_	NER=O
-7	Barboru	Barbora	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	6	flat	_	NER=B-PER
-8	Urbanovou	Urbanová	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	6	flat	_	NER=I-PER
+7	Barboru	Barbora	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	6	flat	_	NER=O
+8	Urbanovou	Urbanová	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	6	flat	_	NER=O
 9	a	a	CCONJ	_	_	10	cc	_	NER=O
 10	poslankyni	poslankyně	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	conj	_	NER=O
-11	Renátu	Renáta	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	10	flat	_	NER=B-PER
-12	Zajíčkovou	Zajíčková	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	10	flat	_	NER=I-PER|SpaceAfter=No
+11	Renátu	Renáta	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	10	flat	_	NER=O
+12	Zajíčkovou	Zajíčková	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	10	flat	_	NER=O|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p3.s3
@@ -170,8 +173,8 @@
 10	určili	určit	VERB	_	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	_	NER=O
 11	paní	paní	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	12	nmod	_	NER=O
 12	poslankyni	poslankyně	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	10	obj	_	NER=O
-13	Barboru	Barbora	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	12	flat	_	NER=B-PER
-14	Urbanovou	Urbanová	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	12	flat	_	NER=I-PER
+13	Barboru	Barbora	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	12	flat	_	NER=O
+14	Urbanovou	Urbanová	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	12	flat	_	NER=O
 15	a	a	CCONJ	_	_	16	cc	_	NER=O
 16	poslankyni	poslankyně	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	12	conj	_	NER=O
 17	Renátu	Renáta	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	16	flat	_	NER=B-PER
@@ -185,6 +188,7 @@
 5	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p4
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p4.s1
 # text = Já zahajuji hlasování a ptám se, kdo je pro?
 1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
@@ -207,6 +211,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p5.s1
 # text = V hlasování číslo 1 přihlášeno 120 poslanců a poslankyň, pro 117, proti žádný.
 1	V	v	ADP	_	AdpType=Prep|Case=Loc	2	case	_	NER=O
@@ -247,15 +252,16 @@
 10	sněmovny	sněmovna	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	_	NER=I-ORG
 11	určili	určit	VERB	_	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	NER=O
 12	poslankyni	poslankyně	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	11	obj	_	NER=O
-13	Barboru	Barbora	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	12	flat	_	NER=B-PER
-14	Urbanovou	Urbanová	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	12	flat	_	NER=I-PER
+13	Barboru	Barbora	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	12	flat	_	NER=O
+14	Urbanovou	Urbanová	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	12	flat	_	NER=O
 15	a	a	CCONJ	_	_	16	cc	_	NER=O
 16	poslankyni	poslankyně	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	12	conj	_	NER=O
-17	Renátu	Renáta	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	16	flat	_	NER=B-PER
-18	Zajíčkovou	Zajíčková	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	16	flat	_	NER=I-PER|SpaceAfter=No
+17	Renátu	Renáta	PROPN	_	Case=Acc|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	16	flat	_	NER=O
+18	Zajíčkovou	Zajíčková	PROPN	_	Case=Acc|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	16	flat	_	NER=O|SpaceAfter=No
 19	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p6
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p6.s1
 # text = Mám zde jedno sdělení.
 1	Mám	mít	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
@@ -277,6 +283,7 @@
 9	.	.	PUNCT	_	_	4	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p7.s1
 # text = Sděluji, že do zahájení schůze požádali o omluvení své neúčasti na jednání tito poslanci a poslankyně: Heller Šimon do 15 hodin - pracovní důvody, Munzar Vojtěch do 15 hodin - zdravotní důvody, Pošarová Marie do 16 hodin - pracovní důvody, Šimek David do 14.30 - pracovní důvody, Voborská Milada od 18 hodin - pracovní důvody, Vondrák Ivo do 17 hodin - pracovní důvody, Zajíčková Renáta do 15.15 - pracovní důvody.
 1	Sděluji	sdělovat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
@@ -297,8 +304,8 @@
 16	a	a	CCONJ	_	_	17	cc	_	NER=O
 17	poslankyně	poslankyně	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	15	conj	_	NER=O|SpaceAfter=No
 18	:	:	PUNCT	_	_	19	punct	_	NER=O
-19	Heller	Heller	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	7	dep	_	NER=B-PER
-20	Šimon	Šimon	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	19	flat	_	NER=I-PER
+19	Heller	Heller	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	7	dep	_	NER=O
+20	Šimon	Šimon	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	19	flat	_	NER=O
 21	do	do	ADP	_	AdpType=Prep|Case=Gen	23	case	_	NER=O
 22	15	15	NUM	_	NumForm=Digit|NumType=Card	23	nummod	_	NER=O
 23	hodin	hodina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	19	conj	_	NER=O
@@ -306,8 +313,8 @@
 25	pracovní	pracovní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	26	amod	_	NER=O
 26	důvody	důvod	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	19	conj	_	NER=O|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	NER=O
-28	Munzar	Munzar	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=B-PER
-29	Vojtěch	Vojtěch	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	28	flat	_	NER=I-PER
+28	Munzar	Munzar	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=O
+29	Vojtěch	Vojtěch	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	28	flat	_	NER=O
 30	do	do	ADP	_	AdpType=Prep|Case=Gen	32	case	_	NER=O
 31	15	15	NUM	_	NumForm=Digit|NumType=Card	32	nummod	_	NER=O
 32	hodin	hodina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	28	orphan	_	NER=O
@@ -324,8 +331,8 @@
 43	pracovní	pracovní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	44	amod	_	NER=O
 44	důvody	důvod	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	41	dep	_	NER=O|SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	NER=O
-46	Šimek	Šimek	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=B-PER
-47	David	David	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	46	flat	_	NER=I-PER
+46	Šimek	Šimek	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=O
+47	David	David	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	46	flat	_	NER=O
 48	do	do	ADP	_	AdpType=Prep|Case=Gen	49	case	_	NER=O
 49	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	19	conj	_	NER=O
 50	-	-	PUNCT	_	_	52	punct	_	NER=O
@@ -341,8 +348,8 @@
 60	pracovní	pracovní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	61	amod	_	NER=O
 61	důvody	důvod	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	54	dep	_	NER=O|SpaceAfter=No
 62	,	,	PUNCT	_	_	19	punct	_	NER=O
-63	Vondrák	Vondrák	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=B-PER
-64	Ivo	Ivo	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	63	flat	_	NER=I-PER
+63	Vondrák	Vondrák	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=O
+64	Ivo	Ivo	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	63	flat	_	NER=O
 65	do	do	ADP	_	AdpType=Prep|Case=Gen	67	case	_	NER=O
 66	17	17	NUM	_	NumForm=Digit|NumType=Card	67	nummod	_	NER=O
 67	hodin	hodina	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	19	conj	_	NER=O
@@ -350,8 +357,8 @@
 69	pracovní	pracovní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	70	amod	_	NER=O
 70	důvody	důvod	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	19	conj	_	NER=O|SpaceAfter=No
 71	,	,	PUNCT	_	_	72	punct	_	NER=O
-72	Zajíčková	Zajíčková	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=B-PER
-73	Renáta	Renáta	PROPN	_	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	72	flat	_	NER=I-PER
+72	Zajíčková	Zajíčková	PROPN	_	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	19	conj	_	NER=O
+73	Renáta	Renáta	PROPN	_	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	72	flat	_	NER=O
 74	do	do	ADP	_	AdpType=Prep|Case=Gen	75	case	_	NER=O
 75	15.15	15.15	NUM	_	NumForm=Digit|NumType=Card	19	conj	_	NER=O
 76	-	-	PUNCT	_	_	78	punct	_	NER=O
@@ -360,6 +367,7 @@
 79	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p8.s1
 # text = Z členů vlády se omlouvají: Fiala Petr do 15.30 - pracovní důvody, Baxa Martin do 14.30 a od 17.30 - pracovní důvody, Černochová Jana do 17 hodin - pracovní důvody, Rakušan Vít do 16 hodin - pracovní důvody a Válek Vlastimil do 16 hodin z pracovních důvodů.
 1	Z	z	ADP	_	AdpType=Prep|Case=Gen	2	case	_	NER=O
@@ -376,8 +384,8 @@
 12	pracovní	pracovní	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	13	amod	_	NER=O
 13	důvody	důvod	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	7	conj	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	NER=O
-15	Baxa	Baxa	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	7	conj	_	NER=B-PER
-16	Martin	Martin	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	15	flat	_	NER=I-PER
+15	Baxa	Baxa	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	7	conj	_	NER=O
+16	Martin	Martin	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	15	flat	_	NER=O
 17	do	do	ADP	_	AdpType=Prep|Case=Gen	18	case	_	NER=O
 18	14.30	14.30	NUM	_	NumForm=Digit|NumType=Card	15	orphan	_	NER=O
 19	a	a	CCONJ	_	_	21	cc	_	NER=O
@@ -416,6 +424,7 @@
 52	.	.	PUNCT	_	_	5	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p9
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p9.s1
 # text = Vzhledem k tomu, že v návrhu pořadu této schůze je zařazen sněmovní tisk 284 ve třetím čtení, měli bychom před stanovením pořadu rozhodnout o vyčlenění jiného dne a jiných hodin pro jeho projednání.
 1	Vzhledem	vzhledem	ADP	_	AdpType=Comprep	3	case	_	NER=O
@@ -518,6 +527,7 @@
 20	.	.	PUNCT	_	_	3	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p10
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p10.s1
 # text = Já přivolám kolegy z předsálí, a pokud tedy nejsou námitky, budeme o tomto hlasovat jedním hlasováním.
 1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
@@ -541,6 +551,7 @@
 19	.	.	PUNCT	_	_	2	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p11
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p11.s1
 # text = Já zahajuji hlasování a ptám se, kdo je pro?
 1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
@@ -563,6 +574,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p12
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p12.s1
 # text = V hlasování číslo 2 přihlášeno 138 poslanců a poslankyň, pro 134, proti žádný.
 1	V	v	ADP	_	AdpType=Prep|Case=Loc	2	case	_	NER=O
@@ -617,6 +629,7 @@
 24	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p13
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p13.s1
 # text = Nyní přistoupíme ke stanovení pořadu 42. schůze, jehož návrh je uveden na pozvánce.
 1	Nyní	nyní	ADV	_	PronType=Dem	2	advmod	_	NER=O
@@ -683,6 +696,7 @@
 7	.	.	PUNCT	_	_	3	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p14
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p14.s1
 # text = Nyní bychom tedy hlasovali o celém návrhu pořadu 42. schůze Poslanecké sněmovny, jak byl písemně předložen.
 1	Nyní	nyní	ADV	_	PronType=Dem	4	advmod	_	NER=O
@@ -706,6 +720,7 @@
 19	.	.	PUNCT	_	_	4	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p15
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p15.s1
 # text = Já zahajuji hlasování a ptám se, kdo je pro?
 1	Já	já	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
@@ -728,6 +743,7 @@
 4	?	?	PUNCT	_	_	2	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p16
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p16.s1
 # text = V hlasování číslo 3 přihlášeno 142 poslanců a poslankyň, pro 141, proti žádný.
 1	V	v	ADP	_	AdpType=Prep|Case=Loc	2	case	_	NER=O
@@ -773,6 +789,7 @@
 15	.	.	PUNCT	_	_	1	punct	_	NER=O
 
 # newpar id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p17
+# lang = cs
 # sent_id = ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.u1.p17.s1
 # text = A nyní přistoupíme k jedinému bodu této schůze, kterým je
 1	A	a	CCONJ	_	_	3	cc	_	NER=O

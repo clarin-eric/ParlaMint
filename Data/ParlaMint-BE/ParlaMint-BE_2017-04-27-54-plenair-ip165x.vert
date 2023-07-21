@@ -771,7 +771,7 @@ bezwaar	bezwaar	bezwaar	NOUN	Gender=Neut Number=Sing	w41371	root	-	-	-	-
 <g/>
 ?	?	?	PUNCT		pc7221	punct	bezwaar	NOUN	Gender=Neut Number=Sing	w41371
 </s>
-<note type="answer" content="(Nee)"/>
+<note type="answer" content="Nee"/>
 <s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2850">
 De	De	de	DET	Definite=Def	w41373	det det:adj det:clf det:noun det:numgov det:nummod det:pmod det:poss det:predet det:pron det:rel	agenda	NOUN	Gender=Com Number=Sing	w41375
 gewijzigde	gewijzigde	gewijzigd	VERB	VerbForm=Part	w41374	amod amod:att amod:attlvc amod:flat	agenda	NOUN	Gender=Com Number=Sing	w41375
@@ -791,7 +791,7 @@ observation	observation	observation	NOUN	Gender=Fem Number=Sing	pc7226	root	-	-	
 <g/>
 ?	?	?	PUNCT		pc7225	punct	observation	NOUN	Gender=Fem Number=Sing	pc7226
 </s>
-<note type="answer" content="(Non)"/>
+<note type="answer" content="Non"/>
 <s id="ParlaMint-BE_2017-04-27-54-plenair-ip165x.s2853">
 L’	L’	le	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	w41381	det det:adj det:clf det:noun det:numgov det:nummod det:pmod det:poss det:predet det:pron det:rel	ordre	NOUN	Gender=Masc Number=Sing	pc7229
 <g/>

@@ -882,7 +882,7 @@ i	i	i	CCONJ		19	cc	široko	ADV	Degree=Cmp	20
 govoriti	govoriti	govoriti	VERB	VerbForm=Inf	21	xcomp	spreman	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing	16
 </s>
 <s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.25">
-<note type="vocal:interruption" content="/Upadica: Vrijeme./"/>
+<note type="vocal:interruption" content="Upadica: Vrijeme."/>
 ako	ako	ako	SCONJ		1	mark	potreban	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
 je	je	biti	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	cop	potreban	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
 to	to	taj	DET	Case=Nom Gender=Neut Number=Sing PronType=Dem	3	nsubj	potreban	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Neut Number=Sing	4
@@ -896,7 +896,7 @@ ja	ja	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	10	nsubj	razlika	NOUN	C
 sa	sa	sa	ADP	Case=Ins	11	case	ja	PRON	Case=Nom Number=Sing Person=1 PronType=Prs	10
 </s>
 <s id="ParlaMint-HR_2022-07-14-0.u102964.seg0.26">
-<note type="vocal:interruption" content="/Upadica: Vrijeme./"/>
+<note type="vocal:interruption" content="Upadica: Vrijeme."/>
 istinom	istinom	istina	NOUN	Case=Ins Gender=Fem Number=Sing	1	obl	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 problem	problem	problem	NOUN	Case=Acc Gender=Masc Number=Sing	2	obj	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 nemam	nemam	nemati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3	root	-	-	-	-

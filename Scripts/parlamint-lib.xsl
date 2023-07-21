@@ -7,7 +7,8 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0" 
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:et="http://nl.ijs.si/et" 
+  xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
+  xmlns:et="http://nl.ijs.si/et"
   exclude-result-prefixes="#all"
   version="2.0">
 
@@ -186,8 +187,13 @@
 	    <xsl:variable name="body" select="key('idr', ., $rootHeader)/
 					      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
 					      tei:term"/>
-	    
-	    <xsl:if test="normalize-space($body)">
+
+	    <!-- We unfortunatelly need an explicit test if the reference we got is appropriate -->
+	    <!-- This needs to be rethought! (e.g. 'National Parliament' might be better than 'Unicameralism' -->
+	    <xsl:if test="$body = 'Unicameralism' or
+			  $body = 'Upper house' or 
+			  $body = 'Lower house' or 
+			  $body = 'Committee'">
 	      <xsl:if test="contains($body, $body-separator)">
 		<xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
 	      </xsl:if>
@@ -391,15 +397,17 @@
   <xsl:function name="et:party-status" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
     <xsl:variable name="relations" select="$rootHeader//tei:relation
-                                           [@name='coalition' or @name='opposition']"/>
+                                           [@name = 'coalition' or @name = 'opposition']"/>
     <xsl:choose>
       <xsl:when test="not($relations/self::tei:relation[@name='coalition'])">
         <xsl:message>ERROR: no coalition info found in corpus</xsl:message>
         <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:if test="not($relations/self::tei:relation[@name='opposition'])">
-          <xsl:message>WARN: no opposition info found in corpus</xsl:message>
+        <xsl:if test="not($relations/self::tei:relation[@name = 'opposition'])">
+	  <!-- We do not output warning here, as otherwise a huge number of such warnings our output.
+	       Instead, validate-parlamint gives this warning only once for corpus
+          <xsl:message>WARN: no opposition info found in corpus</xsl:message-->
         </xsl:if>
         <!-- Relation in the correct time-frame, should be only 1 -->
         <xsl:variable name="relation">
@@ -540,10 +548,7 @@
         <xsl:value-of select="concat($name-en, ';')"/>
       </xsl:when>
       <xsl:when test="normalize-space($party)">
-        <xsl:message>
-          <xsl:text>WARN: party without proper name </xsl:text>
-          <xsl:value-of select="$party/@xml:id"/>
-        </xsl:message>
+        <xsl:message select="concat('WARN: party without orgName/@full = ', $full, ' for ', $party/@xml:id)"/>
         <!-- Shorten the ID if possible -->
         <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
         <xsl:text>;</xsl:text>
@@ -553,6 +558,52 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
+  <!-- Notes and incidents normalization - removing brackets and normalize spces-->
+  <xsl:function name="mk:normalize-note" as="xs:string">
+    <xsl:param name="noteIn" as="xs:string"/>
+    <xsl:variable name="noteOut1" select="normalize-space($noteIn)"/>
+    <!-- plain notes without any inner brackets of the same type-->
+    <xsl:variable name="noteOut2" select="replace($noteOut1,'^\s*\[\s*([^\[\]]*?)\s*\][\s\.]*$','$1')"/>
+    <xsl:variable name="noteOut3" select="replace($noteOut2,'^\s*/\s*([^/]*?)\s*/[\s\.]*$','$1')"/>
+    <xsl:variable name="noteOut4" select="replace($noteOut3,'^\s*\(\s*([^\(\)]*?)\s*\)[\s\.]*$','$1')"/>
+    <xsl:choose>
+      <xsl:when test="$noteIn = $noteOut4"><xsl:value-of select="$noteOut4"/></xsl:when>
+      <!-- make it recursive to make sure that double normalization has the same result -->
+      <xsl:otherwise><xsl:value-of select="mk:normalize-note($noteOut4)"/></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+
+  <!-- Format number-->
+  <xsl:function name="et:format-number" as="xs:string">
+    <xsl:param name="lang" as="xs:string"/>
+    <xsl:param name="quant"/>
+    <xsl:variable name="form" select="format-number($quant, '###,###,###,###')"/>
+    <xsl:choose>
+      <xsl:when test="$lang = 'fr'">
+        <xsl:value-of select="replace($form, ',', ' ')"/>
+      </xsl:when>
+      <xsl:when test="$lang = 'bg' or 
+                      $lang = 'cs' or
+                      $lang = 'hr' or
+                      $lang = 'hu' or
+                      $lang = 'is' or
+                      $lang = 'it' or
+                      $lang = 'lt' or
+                      $lang = 'lv' or
+                      $lang = 'pl' or
+                      $lang = 'ro' or
+                      $lang = 'sl' or
+                      $lang = 'tr'
+                      ">
+        <xsl:value-of select="replace($form, ',', '.')"/>
+      </xsl:when>
+      <!-- Comma for thousands separator by default -->
+      <xsl:otherwise>
+        <xsl:value-of select="$form"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
   
   <!-- Is the first date between the following two? -->
   <xsl:function name="et:between-dates" as="xs:boolean">

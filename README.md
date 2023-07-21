@@ -22,7 +22,7 @@ de Does, Katrien Depuydt, Tommaso Agnoloni, Giulia Venturi, María Calzada Pére
 Macedo, Costanza Navarretta, Giancarlo Luxardo, Matthew Coole, Paul Rayson, Vaidas Morkevičius,
 Tomas Krilavičius, Roberts Darǵis, Orsolya Ring, Ruben van Heusden, Maarten Marx & Darja Fišer.
 The ParlaMint corpora of parliamentary proceedings.
-*Language Resources & Evaluation* (2022).
+*Language Resources & Evaluation* 57:415–448 (2023).
 [10.1007/s10579-021-09574-0](https://doi.org/10.1007/s10579-021-09574-0).
    
 We are now working on extending the ParlaMint corpora with newer proceedings and with new

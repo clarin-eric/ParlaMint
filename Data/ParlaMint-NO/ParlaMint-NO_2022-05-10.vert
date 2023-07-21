@@ -1,5 +1,5 @@
 <note type="comment" content="Møte tirsdag den 10. mai 2022 kl. 10"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e62" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Ettkammersystem" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e62" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Unicameralism" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e63" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2022-05-10.ana.segd496e63.1">
 Representantene	Representantene	representant	NOUN	Definite=Def Gender=Masc Number=Plur	1	nmod	Eigil	PROPN	Gender=Masc	2
@@ -166,7 +166,7 @@ mai	mai	mai	NOUN	Gender=Masc	17	appos	dag	NOUN	Definite=Def Gender=Masc Number=P
 </p>
 </speech>
 <note type="comment" content="Statsråd Jon-Ivar Nygård"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e107" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Ettkammersystem" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e107" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Unicameralism" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e108" lang="Norwegian nynorsk">
 <s id="ParlaMint-NO_2022-05-10.ana.segd496e108.1">
 Representanten	Representanten	representant	NOUN	Definite=Def Gender=Masc Number=Sing	1	nmod	Torgeir	PROPN	Gender=Masc	2
@@ -185,7 +185,7 @@ representantforslag	representantforslag	representantforslag	NOUN	Definite=Ind Ge
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e2502" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Ettkammersystem" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e2502" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Unicameralism" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2503" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2022-05-10.ana.segd496e2503.1">
 Under	Under	under	ADP		1	case	debatt	NOUN	Definite=Def Gender=Masc Number=Sing	2
@@ -304,7 +304,7 @@ følgende	følgende	følgende	ADJ	Definite=Ind Degree=Pos Gender=Neut Number=Sin
 </p>
 </speech>
 <note type="comment" content="vedtak:"/>
-<speech id="ParlaMint-NO_2022-05-10.ud496e2557" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Ettkammersystem" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
+<speech id="ParlaMint-NO_2022-05-10.ud496e2557" text_id="ParlaMint-NO_2022-05-10" subcorpus="War" body="Unicameralism" term="2021-2025" session="2021-2022" meeting="" sitting="2022-05-10" agenda="" date="2022-05-10" title="Hansard from meeting in the Norwegian Parliament, term 2021-2025, Session 2021-2022, Sitting day 2022-05-10" speaker_role="Chairperson" speaker_id="person.MASG" speaker_name="Gharahkhani, Masud" speaker_mp="MP" speaker_minister="-" speaker_party="A" speaker_party_name="Arbeiderpartiet" party_status="Coalition" speaker_gender="M" speaker_birth="1982">
 <p id="ParlaMint-NO_2022-05-10.ana.segd496e2558" lang="Norwegian bokmål">
 <s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.1">
 Dermed	Dermed	dermed	ADV		1	advmod	ferdigbehandle	VERB	VerbForm=Part	5
@@ -326,9 +326,7 @@ heves	heves	heve	VERB	Mood=Ind Tense=Pres VerbForm=Fin Voice=Pass	6	advcl	forlan
 ?	?	?	PUNCT		7	punct	forlange	VERB	Mood=Ind Tense=Pres VerbForm=Fin	1
 </s>
 <s id="ParlaMint-NO_2022-05-10.ana.segd496e2558.3">
-<name type="ORG">
 –	–	–	PUNCT		1	punct	heve	VERB	VerbForm=Part	4
-</name>
 Møtet	Møtet	møte	NOUN	Definite=Def Gender=Neut Number=Sing	2	nsubj	heve	VERB	VerbForm=Part	4
 er	er	være	AUX	Mood=Ind Tense=Pres VerbForm=Fin	3	aux	heve	VERB	VerbForm=Part	4
 hevet	hevet	heve	VERB	VerbForm=Part	4	root	-	-	-	-

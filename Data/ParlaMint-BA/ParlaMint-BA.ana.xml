@@ -10,13 +10,13 @@
             <title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA [ParlaMint.ana SAMPLE]</title>
             <title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, sazivi 2-8(1998-11-26 - 2022-07-27)</title>
             <title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Terms 4-12(1998-11-26 -2022-07-27)</title>
-            <meeting n="2" corresp="#PS" ana="#parla.term #PS.2">2. saziv</meeting>
-            <meeting n="3" corresp="#PS" ana="#parla.term #PS.3">3. saziv</meeting>
-            <meeting n="4" corresp="#PS" ana="#parla.term #PS.4">4. saziv</meeting>
-            <meeting n="5" corresp="#PS" ana="#parla.term #PS.5">5. saziv</meeting>
-            <meeting n="6" corresp="#PS" ana="#parla.term #PS.6">6. saziv</meeting>
-            <meeting n="7" corresp="#PS" ana="#parla.term #PS.7">7. saziv</meeting>
-            <meeting n="8" corresp="#PS" ana="#parla.term #PS.8">8. saziv</meeting>
+            <meeting n="2" corresp="#PS" ana="#parla.uni #parla.term #PS.2">2. saziv</meeting>
+            <meeting n="3" corresp="#PS" ana="#parla.uni #parla.term #PS.3">3. saziv</meeting>
+            <meeting n="4" corresp="#PS" ana="#parla.uni #parla.term #PS.4">4. saziv</meeting>
+            <meeting n="5" corresp="#PS" ana="#parla.uni #parla.term #PS.5">5. saziv</meeting>
+            <meeting n="6" corresp="#PS" ana="#parla.uni #parla.term #PS.6">6. saziv</meeting>
+            <meeting n="7" corresp="#PS" ana="#parla.uni #parla.term #PS.7">7. saziv</meeting>
+            <meeting n="8" corresp="#PS" ana="#parla.uni #parla.term #PS.8">8. saziv</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
                <resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
@@ -41,9 +41,9 @@
             <edition>3.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="126252" xml:lang="bs">126.252 govora</measure>
+            <measure unit="speeches" quantity="126252" xml:lang="bs">126,252 govora</measure>
             <measure unit="speeches" quantity="126252" xml:lang="en">126,252 speeches</measure>
-            <measure unit="words" quantity="18307498" xml:lang="bs">18.307.498 riječi</measure>
+            <measure unit="words" quantity="18307498" xml:lang="bs">18,307,498 riječi</measure>
             <measure unit="words" quantity="18307498" xml:lang="en">18,307,498 words</measure>
          </extent>
          <publicationStmt>
@@ -52,7 +52,7 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1488</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
@@ -60,12 +60,12 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-13">2023-04-13</date>
+            <date when="2023-06-12">2023-06-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
-               <idno type="URI" subtype="business">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
                <idno type="URI" subtype="parliament">http://www.parlament.ba/</idno>
                <date from="1998-11-26" to="2022-07-27">1998-11-26 - 2022-07-27</date>
             </bibl>
@@ -73,11 +73,11 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="bs">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -99,16 +99,22 @@
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="743"/>
-               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="desc" occurs="7153"/>
                <tagUsage gi="div" occurs="743"/>
-               <tagUsage gi="gap" occurs="0"/>
-               <tagUsage gi="head" occurs="0"/>
-               <tagUsage gi="kinesic" occurs="0"/>
-               <tagUsage gi="note" occurs="126286"/>
-               <tagUsage gi="seg" occurs="133895"/>
+               <tagUsage gi="gap" occurs="3674"/>
+               <tagUsage gi="incident" occurs="1863"/>
+               <tagUsage gi="kinesic" occurs="78"/>
+               <tagUsage gi="link" occurs="20922336"/>
+               <tagUsage gi="linkGrp" occurs="969753"/>
+               <tagUsage gi="name" occurs="745152"/>
+               <tagUsage gi="note" occurs="121814"/>
+               <tagUsage gi="pc" occurs="2614838"/>
+               <tagUsage gi="s" occurs="969753"/>
+               <tagUsage gi="seg" occurs="133887"/>
                <tagUsage gi="text" occurs="743"/>
                <tagUsage gi="u" occurs="126252"/>
-               <tagUsage gi="vocal" occurs="0"/>
+               <tagUsage gi="vocal" occurs="1538"/>
+               <tagUsage gi="w" occurs="18307498"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -173,13 +179,12 @@
          </langUsage>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-13">
+         <change when="2023-06-12">
             <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-12">parlamint2release script: Fix some identifiable erros for the release.</change>
          <change when="2022-12-15">
-            <name>Peter Rupnik</name>
-             Initial commit</change>
-         <change when="2023-04-13">
-            <name>parlamint2final.xsl</name>: Finalize corpus.</change>
+            <name>Peter Rupnik</name> Initial commit</change>
+         <change when="2023-06-12">parlamint-add-common-content script: Adding common content.</change>
       </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"

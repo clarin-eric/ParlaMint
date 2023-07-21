@@ -7,10 +7,10 @@
             <title type="main" xml:lang="tr">Türkiye meclis derlemi ParlaMint-TR [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Grand National Assembly of Turkey, terms 24 - 27 (2011 - 2022)</title>
             <title type="sub" xml:lang="tr">Türkiye Büyük Millet Meclisi tutanakları, 24 - 27. dönemler (2011 - 2022)</title>
-            <meeting n="27" corresp="#TBMM" ana="#parla.term #TBMM.27"/>
-            <meeting n="26" corresp="#TBMM" ana="#parla.term #TBMM.26"/>
-            <meeting n="25" corresp="#TBMM" ana="#parla.term #TBMM.25"/>
-            <meeting n="24" corresp="#TBMM" ana="#parla.term #TBMM.24"/>
+            <meeting n="27" corresp="#TBMM" ana="#parla.uni #parla.term #TBMM.27"/>
+            <meeting n="26" corresp="#TBMM" ana="#parla.uni #parla.term #TBMM.26"/>
+            <meeting n="25" corresp="#TBMM" ana="#parla.uni #parla.term #TBMM.25"/>
+            <meeting n="24" corresp="#TBMM" ana="#parla.uni #parla.term #TBMM.24"/>
             <respStmt>
                <persName ref="https://orcid.org/0000-0003-1031-6327">Çağrı Çöltekin</persName>
                <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
@@ -37,13 +37,13 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="en">Bu çalışma <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Atıf 4.0 Uluslararası Lisansı</ref> ile lisanslanmıştır.</p>
             </availability>
-            <date when="2023-04-27">2023-04-27</date>
+            <date when="2023-06-16">2023-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Website of the Turkish National Assembly</title>
                <title type="main" xml:lang="en">Tükiye Büyük Millet Meclisi Internet sitesi</title>
-               <idno type="URI">https://www.tbmm.gov.tr/</idno>
+               <idno type="URI" subtype="parliament">https://www.tbmm.gov.tr/</idno>
                <date from="2011-06-28" to="2022-11-17"/>
             </bibl>
          </sourceDesc>
@@ -73,11 +73,12 @@
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1335"/>
+               <tagUsage gi="desc" occurs="114378"/>
                <tagUsage gi="div" occurs="6495"/>
                <tagUsage gi="incident" occurs="196"/>
                <tagUsage gi="kinesic" occurs="104527"/>
-               <tagUsage gi="note" occurs="109556"/>
-               <tagUsage gi="seg" occurs="1669648"/>
+               <tagUsage gi="note" occurs="109555"/>
+               <tagUsage gi="seg" occurs="1572318"/>
                <tagUsage gi="text" occurs="1335"/>
                <tagUsage gi="u" occurs="681052"/>
                <tagUsage gi="vocal" occurs="9655"/>
@@ -118,7 +119,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-04-27">
+         <change when="2023-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>

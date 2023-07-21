@@ -39,7 +39,7 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="81" xml:lang="bs">81 govora</measure>
             <measure unit="speeches" quantity="81" xml:lang="en">81 speeches</measure>
-            <measure unit="words" quantity="10837" xml:lang="bs">10.837 riječi</measure>
+            <measure unit="words" quantity="10837" xml:lang="bs">10,837 riječi</measure>
             <measure unit="words" quantity="10837" xml:lang="en">10,837 words</measure>
          </extent>
          <publicationStmt>
@@ -56,37 +56,35 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-13">2023-04-13</date>
+            <date when="2023-06-12">2023-06-12</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
-               <idno type="URI" subtype="business">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
                <idno type="URI" subtype="parliament">https://www.parlament.ba/</idno>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="bs">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="22"/>
                <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="0"/>
+               <tagUsage gi="gap" occurs="20"/>
+               <tagUsage gi="incident" occurs="2"/>
                <tagUsage gi="note" occurs="81"/>
-               <tagUsage gi="u" occurs="81"/>
                <tagUsage gi="seg" occurs="89"/>
-               <tagUsage gi="vocal" occurs="0"/>
-               <tagUsage gi="desc" occurs="0"/>
-               <tagUsage gi="kinesic" occurs="0"/>
-               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="81"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -101,11 +99,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-13">
+         <change when="2023-06-12">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-19">
-            <name>Peter Rupnik</name>
-				Compile from source</change>
+            <name>Peter Rupnik</name> Compile from source</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid #war">
@@ -117,7 +114,7 @@
                n="ParlaMint-BIH_DN.T8.S12h.u3743"
                xml:id="ParlaMint-BA_2022-06-30-0.u3743">
                <seg xml:id="ParlaMint-BA_2022-06-30-0.u3743.seg0">Dame i gospodo delegati, uvaženi gosti srdačno vas pozdravljam i otvaram 12. hitnu sjednicu Doma naroda Parlamentarne skupštine BiH. <incident type="action">
-                     <desc>/INTONIRANJE HIMNE/</desc>
+                     <desc>INTONIRANJE HIMNE</desc>
                   </incident>
 						Na sjednicu su pozvani naši redovni gosti predsjedavajući i članovi Predsjedništva BiH, predsjedavajući i članovi Savjeta ministara BiH, te predstavnici međunarodnih organizacija u BiH koji redovno prate rad ovoga Doma. Sjednicu, sjednici prisustvuje 11 delegata – 4 iz reda bošnjačkog, 4 iz reda hrvatskog naroda i 3 iz reda srpskog naroda. Želim da kažem da su gospodin Dragan Čović, Munib Jusufović, Dušanka Majkić i Sredoje Nović iz opravdanih razloga danas odsutni s ovog zasjedanja i mogu da konstatujem da imamo krvorum za punovažno i punopravno odlučivanje. Za 12. hitnu sjednicu predlažem sledeći Dnevni red 1. Usvajanje Zapisnika sa 11. hitne sjednice Doma naroda Parlamentarne skupštine Bosne i Hercegovine; 2. Prijedlog zakona o Budžetu institucija Bosne i Hercegovine i međunarodnih obaveza Bosne i Hercegovine za 2022. godinu (prvo čitanje), dostavljen od Predstavničkog doma Parlamentarne skupštine BiH, broj: 01,02-02-1-911/22 od 28.06.2022. godine. Ovo je usaglašeni, izmjenjeni i dopunjeni dnevni red Kolegijuma Doma naroda koji ste dobili. Otvaram raspravu vezano za dnevni red. Da li se neko javlja za riječ? Gospodin Bećirović, izvolite.</seg>
             </u>

@@ -29,7 +29,7 @@ BiH	BiH	BiH	PROPN	Case=Gen Gender=Fem Number=Sing	20	compound	skupština	NOUN	Ca
 .	.	.	PUNCT		21	punct	pozdravljati	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	10
 </s>
 <s id="ParlaMint-BA_2022-06-30-0.u3743.seg0.2">
-<note type="incident:action" content="/INTONIRANJE HIMNE/"/>
+<note type="incident:action" content="INTONIRANJE HIMNE"/>
 Na	Na	na	ADP	Case=Acc	1	case	sjednica	NOUN	Case=Acc Gender=Fem Number=Sing	2
 sjednicu	sjednicu	sjednica	NOUN	Case=Acc Gender=Fem Number=Sing	2	obl	pozvati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur VerbForm=Part Voice=Pass	4
 su	su	biti	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3	aux:pass	pozvati	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Plur VerbForm=Part Voice=Pass	4

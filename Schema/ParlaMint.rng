@@ -341,7 +341,7 @@
 		  </choice>
 		</attribute>
 	      </optional>
-              <ref name="personal.att"/>
+              <ref name="name.att"/>
               <ref name="normalized-space.string"/>
             </element>
           </oneOrMore>
@@ -356,19 +356,19 @@
 		  </choice>
 		</attribute>
 	      </optional>
-              <ref name="personal.att"/>
+              <ref name="name.att"/>
               <ref name="normalized-space.string"/>
             </element>
           </oneOrMore>
           <zeroOrMore>
             <element name="addName">
-              <ref name="personal.att"/>
+              <ref name="name.att"/>
               <ref name="normalized-space.string"/>
             </element>
           </zeroOrMore>
           <zeroOrMore>
             <element name="roleName">
-              <ref name="personal.att"/>
+              <ref name="name.att"/>
               <ref name="normalized-space.string"/>
             </element>
           </zeroOrMore>
@@ -601,9 +601,10 @@
     </element>
   </define>
   
-  <define name="personal.att">
+  <define name="name.att">
     <a:documentation>Attribute for the form of a person or organisation name,
     cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html</a:documentation>
+    <ref name="lang.att"/>
     <optional>
       <attribute name="full">
         <choice>

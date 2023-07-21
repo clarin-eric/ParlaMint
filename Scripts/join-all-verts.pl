@@ -12,10 +12,13 @@ sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("$0 -help\n");
     print STDERR ("$0 ");
-    print STDERR (" -in <InputFiles> -out <OutputFile>\n");
+    print STDERR (" [<procFlags>] -codes '<Codes>' -in <InputDirectory> -out <OutputFile>\n");
     print STDERR ("    Joins .vert files in reverse order.\n");
+    print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <InputFiles> is all the files that will be joined.\n");
     print STDERR ("    <OutputFile> is the output vertical gzipped file.\n");
+    print STDERR ("    <procFlags> are process flags that set which operations are carried out:\n");
+    print STDERR ("    * -en: finalizes the corpora translated to English\n");
 }
 
 use Getopt::Long;
@@ -28,8 +31,10 @@ my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
 GetOptions
     (
      'help'     => \$help,
-     'in=s'     => \$inFiles,
-     'out=s'    => \$outVertFile,
+     'codes=s'  => \$countryCodes,
+     'in=s'     => \$inDir,
+     'out=s'    => \$outFile,
+     'en!'      => \$procEn,
 );
 
 if ($help) {
@@ -37,38 +42,41 @@ if ($help) {
     exit;
 }
 
-$lastCountry = '';
-foreach my $inFile (glob $inFiles) {
-    ($fileName) =  $inFile =~ m|([^/]+)$|;
-    ($country, $date) = $fileName =~ m|.+?-(.+?)_(\d\d\d\d-\d\d-\d\d)|
-	or die "Strange $fileName\n";
-    print STDERR "INFO: Doing $country\n" unless $lastCountry eq $country;
-    $lastCountry = $country;
-    $outDir = "$tmpDir/$date";
-    `mkdir -p $outDir`;
-    $outFile = "$outDir/$fileName";
-    open(IN, '<:utf8', $inFile) or die;
-    open(OUT, '>:utf8', $outFile) or die;
-    #Add corpus attribute to speech and note
-    while (<IN>) {
-	if (m|<speech | or m|<note |) {
-	    s| | corpus="$country" |;
+foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
+    if ($procEn) {$countryCode .= '-en'};    
+    print STDERR "INFO: Gathering files for $countryCode\n";
+    $inVertDir = "$inDir/ParlaMint-$countryCode.vert";
+    die "FATAL: Can't find $inVertDir\n" unless -e $inVertDir;
+    foreach $inFile (glob "$inVertDir/*/*.vert") {
+	($date) = $inFile =~ m|_(\d\d\d\d-\d\d-\d\d)|
+	    or die "FATAL: Strange $inFile\n";
+	$key = $date . "_" . $countryCode;
+	if (exists $files{$key}) {$files{$key} .= "\t$inFile"}
+	else {$files{$key} = "$inFile"}
+    }
+}
+open(OUT, '>:utf8', $outFile) or die "FATAL: Can't open $outFile!\n";
+$oldYear = '0';
+# Sorting in reverse order!
+foreach $key (reverse sort keys %files) {
+    ($year, $countryCode) = $key =~ /(\d\d\d\d).*_(.+)/;
+    if ($oldYear != $year) {
+	print STDERR "INFO: Writing $year\n";
+	$oldYear = $year
+    }
+    foreach my $inFile (split(/\t/, $files{$key})) {
+	open(IN, '<:utf8', $inFile) or die;
+	while (<IN>) {
+	    #Add corpus attribute to speech and note
+	    if (m|<speech | or m|<note |) {
+		s| | corpus="$countryCode" |;
+	    }
+	    print OUT
 	}
-	print OUT
-    }
-    close IN;
-    close OUT;
-}
-
-#Remove old output file, remove gzip extension if there, will be added later
-`rm -f $outVertFile`;
-$outVertFile =~ s/\.gz//;
-`rm -f $outVertFile`;
-
-print STDERR "INFO: Joining verts to $outVertFile\n";
-foreach my $dayDir (reverse glob "$tmpDir/*") {
-    foreach my $inFile (glob "$dayDir/*") {
-	`cat $inFile >> $outVertFile`
+	close IN;
     }
 }
-`gzip $outVertFile`;
+close OUT;
+print STDERR "INFO: Compressing $outFile\n";
+`rm -f $outFile.gz`;
+`gzip $outFile`;

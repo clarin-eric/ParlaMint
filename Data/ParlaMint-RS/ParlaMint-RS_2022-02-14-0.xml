@@ -38,7 +38,7 @@
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="40" xml:lang="sr">40 govora</measure>
             <measure unit="speeches" quantity="40" xml:lang="en">40 speeches</measure>
-            <measure unit="words" quantity="23437" xml:lang="sr">23.437 reči</measure>
+            <measure unit="words" quantity="23437" xml:lang="sr">23,437 reči</measure>
             <measure unit="words" quantity="23437" xml:lang="en">23,437 words</measure>
          </extent>
          <publicationStmt>
@@ -55,7 +55,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-04-19">2023-04-19</date>
+            <date when="2023-06-16">2023-06-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -68,25 +68,20 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="sr">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="text" occurs="1"/>
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="0"/>
-               <tagUsage gi="note" occurs="40"/>
-               <tagUsage gi="u" occurs="40"/>
+               <tagUsage gi="note" occurs="41"/>
                <tagUsage gi="seg" occurs="40"/>
-               <tagUsage gi="vocal" occurs="0"/>
-               <tagUsage gi="desc" occurs="0"/>
-               <tagUsage gi="kinesic" occurs="0"/>
-               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="40"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -101,11 +96,10 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc xml:lang="en">
-         <change when="2023-04-19">
+         <change when="2023-06-16">
             <name>Tomaž Erjavec</name>: Made sample.</change>
          <change when="2022-12-19">
-            <name>Peter Rupnik</name>
-				Compile from source</change>
+            <name>Peter Rupnik</name> Compile from source</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#covid">
@@ -134,7 +128,7 @@
                xml:id="ParlaMint-RS_2022-02-14-0.u12440">
                <seg xml:id="ParlaMint-RS_2022-02-14-0.u12440.seg0">Zahvaljujem. Zaključujem načelni pretres o Predlogu zakona. Saglasno članu 87. stav 5. Poslovnika Narodne skupštine, određujem ponedeljak 14. februar 2022. godine, sa početkom u 17.30 časova kao dan za glasanje o tački dnevnog reda sednice Osamnaestog vanrednog zasedanja Skupštine Republike Srbije u Dvanaestom sazivu. Poštovani narodni poslanici, u skladu sa članom 87. Poslovnika Narodne skupštine, sada određujem pauzu u trajanju od jednog časa. Sa radom nastavljamo u 15.00 časova, sa sledećom sednicom. Zahvaljujem.</seg>
             </u>
-            <note type="time">(Posle pauze)</note>
+            <note type="time">Posle pauze</note>
             <note type="speaker">Dačić, Ivica</note>
             <u who="#DačićIvica"
                ana="#chair"

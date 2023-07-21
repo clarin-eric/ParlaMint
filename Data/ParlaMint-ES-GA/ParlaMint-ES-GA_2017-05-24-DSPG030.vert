@@ -150,7 +150,7 @@ un	un	un	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	w3	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	w4	punct	un	DET	Definite=Ind Gender=Masc Number=Sing PronType=Art	w3
 </s>
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s2">
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 Non	Non	non	ADV	Polarity=Neg	w1	advmod advmod:adj advmod:arg advmod:cau advmod:cmp advmod:deg advmod:det advmod:df advmod:dir advmod:emph advmod:eval advmod:fixed advmod:foc advmod:freq advmod:lfrom advmod:lmod advmod:lmp advmod:loc advmod:locy advmod:lto advmod:mmod advmod:mode advmod:neg advmod:obl advmod:que advmod:tfrom advmod:tlocy advmod:tmod advmod:to advmod:tto	perdón	NOUN	Gender=Masc Number=Sing	w5
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	w2	punct	perdón	NOUN	Gender=Masc Number=Sing	w5
@@ -282,7 +282,7 @@ Popular	Popular	popular	ADJ		w22	amod amod:att amod:attlvc amod:flat	grupo	NOUN	
 .	.	.	PUNCT	PunctType=Peri	w23	punct	incluír	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w3
 </s>
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s7">
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 Non	Non	non	ADV	Polarity=Neg	w1	advmod advmod:adj advmod:arg advmod:cau advmod:cmp advmod:deg advmod:det advmod:df advmod:dir advmod:emph advmod:eval advmod:fixed advmod:foc advmod:freq advmod:lfrom advmod:lmod advmod:lmp advmod:loc advmod:locy advmod:lto advmod:mmod advmod:mode advmod:neg advmod:obl advmod:que advmod:tfrom advmod:tlocy advmod:tmod advmod:to advmod:tto	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w2
 houbo	houbo	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w2	root	-	-	-	-
 inexactitude	inexactitude	inexactitude	NOUN	Gender=Fem Number=Sing	w3	obj obj:advmod obj:advneg obj:agent obj:appl obj:cau obj:caus obj:lvc obj:obl obj:periph	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w2
@@ -297,7 +297,7 @@ debate	debate	debate	NOUN	Gender=Masc Number=Sing	w9	obl obl:ad obl:adj obl:adv 
 .	.	.	PUNCT	PunctType=Peri	w10	punct	haber	VERB	Mood=Ind Number=Sing Person=3 Tense=Past	w2
 </s>
 <s id="ParlaMint-ES-GA_2017-05-24-DSPG030.seg1157.s8">
-<note type="-" content="(Murmurios.)"/>
+<note type="-" content="Murmurios."/>
 É	É	ser	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres	w1	cop cop:expl cop:locat cop:outer cop:own	así	ADV		w2
 así	así	así	ADV		w2	root	-	-	-	-
 <g/>

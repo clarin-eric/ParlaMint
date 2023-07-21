@@ -68,7 +68,7 @@
 .	.	.	PUNCT		5	punct	откривам-(се)	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing" content="(Звъни.)"/>
+<note type="kinesic:ringing" content="Звъни."/>
 <p id="ParlaMint-BG_2022-07-29.seg5" lang="Bulgarian">
 <s id="ParlaMint-BG_2022-07-29.seg5.1">
 Госпожо	Госпожо	госпож	X		1	vocative vocative:cl vocative:mention	заповядам	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin	7
@@ -491,7 +491,7 @@
 .	.	.	PUNCT		2	punct	благодаря	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:applause" content="(Ръкопляскания от ГЕРБ-СДС.)"/>
+<note type="kinesic:applause" content="Ръкопляскания от ГЕРБ-СДС."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <speech id="ParlaMint-BG_2022-07-29.u164" text_id="ParlaMint-BG_2022-07-29" subcorpus="War" body="Unicameralism" term="47" session="3" meeting="90" sitting="2022-07-29" agenda="" date="2022-07-29" title="Report of the meeting of the Bulgarian National Assembly, Term 47, Session 3, Meeting 90 (2022-07-29)" speaker_role="Regular" speaker_id="KostadinovKostadin" speaker_name="Тодоров Костадинов, Костадин" speaker_mp="MP" speaker_minister="-" speaker_party="RP" speaker_party_name="Парламентарна група: Партия Възраждане" party_status="Opposition" speaker_gender="M" speaker_birth="1979">
@@ -2222,7 +2222,7 @@
 !	!	!	PUNCT		4	punct	живея	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<note type="kinesic:applause" content="(Продължителни ръкопляскания от ВЪЗРАЖДАНЕ.)"/>
+<note type="kinesic:applause" content="Продължителни ръкопляскания от ВЪЗРАЖДАНЕ."/>
 </speech>
 <speech id="ParlaMint-BG_2022-07-29.u165" text_id="ParlaMint-BG_2022-07-29" subcorpus="War" body="Unicameralism" term="47" session="3" meeting="90" sitting="2022-07-29" agenda="" date="2022-07-29" title="Report of the meeting of the Bulgarian National Assembly, Term 47, Session 3, Meeting 90 (2022-07-29)" speaker_role="Chairperson" speaker_id="IvanovMiroslav" speaker_name="Николаев Иванов, Мирослав" speaker_mp="MP" speaker_minister="-" speaker_party="WCC" speaker_party_name="Парламентарна група: Продължаваме Промяната" party_status="Coalition" speaker_gender="M" speaker_birth="1986">
 <p id="ParlaMint-BG_2022-07-29.seg990" lang="Bulgarian">
@@ -2948,5 +2948,5 @@
 .	.	.	PUNCT		3	punct	закривам	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<note type="kinesic:ringing" content="(Звъни.)"/>
+<note type="kinesic:ringing" content="Звъни."/>
 </speech>
