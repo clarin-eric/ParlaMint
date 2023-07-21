@@ -46,18 +46,11 @@
     </list>
   </xsl:variable>
 
-  <xsl:template match="tei:*[tei:desc[@xml:lang='en']]">
+  <!-- Discard possible description in native language if an English one is already available -->
+  <xsl:template match="tei:body//tei:*[tei:desc[@xml:lang='en']]">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
-      <!-- Discard original (manual) description in case native language description exists, so it is consistently MT -->
-      <xsl:choose>
-	<xsl:when test="tei:desc[@xml:lang != 'en']">
-	  <xsl:apply-templates select="tei:desc[@xml:lang = 'en']"/>
-	</xsl:when>
-	<xsl:otherwise>
-	  <xsl:apply-templates select="tei:desc[@xml:lang != 'en']"/>
-	</xsl:otherwise>
-      </xsl:choose>
+      <xsl:copy-of select="tei:desc[@xml:lang = 'en']"/>
     </xsl:copy>
   </xsl:template>
   
@@ -66,7 +59,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:variable name="id" select="ancestor-or-self::tei:*[@xml:id][1]/@xml:id"/>
       <xsl:variable name="orig" select="normalize-space(.)"/>
-      <xsl:variable name="trans" select="key('n', replace($orig, '\s', ''), $notes)[1]"/>
+      <xsl:variable name="trans" select="key('n', replace(mk:normalize-note($orig), '\s', ''), $notes)[1]"/>
       <xsl:choose>
 	<xsl:when test="normalize-space($trans)">
 	  <xsl:attribute name="xml:lang" select="$target-lang"/>
