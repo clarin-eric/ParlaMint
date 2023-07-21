@@ -51,7 +51,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	($date) = $inFile =~ m|_(\d\d\d\d-\d\d-\d\d)|
 	    or die "FATAL: Strange $inFile\n";
 	$key = $date . "_" . $countryCode;
-	$files{$key} = $inFile
+	if (exists $files{$key}) {$files{$key} .= "\t$inFile"}
+	else {$files{$key} = "$inFile"}
     }
 }
 open(OUT, '>:utf8', $outFile) or die "FATAL: Can't open $outFile!\n";
@@ -59,20 +60,21 @@ $oldYear = '0';
 # Sorting in reverse order!
 foreach $key (reverse sort keys %files) {
     ($year, $countryCode) = $key =~ /(\d\d\d\d).*_(.+)/;
-    $inFile = $files{$key};
     if ($oldYear != $year) {
 	print STDERR "INFO: Writing $year\n";
 	$oldYear = $year
     }
-    open(IN, '<:utf8', $inFile) or die;
-    #Add corpus attribute to speech and note
-    while (<IN>) {
-	if (m|<speech | or m|<note |) {
-	    s| | corpus="$countryCode" |;
+    foreach my $inFile (split(/\t/, $files{$key})) {
+	open(IN, '<:utf8', $inFile) or die;
+	while (<IN>) {
+	    #Add corpus attribute to speech and note
+	    if (m|<speech | or m|<note |) {
+		s| | corpus="$countryCode" |;
+	    }
+	    print OUT
 	}
-	print OUT
+	close IN;
     }
-    close IN;
 }
 close OUT;
 print STDERR "INFO: Compressing $outFile\n";
