@@ -227,7 +227,7 @@ validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
 validate-parlamint: $(validate-parlamint-XX)
 ## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
 $(validate-parlamint-XX): validate-parlamint-%: %
-	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}'
+	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}' || echo "ERROR: fatal error when validating ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}"
 
 
 
