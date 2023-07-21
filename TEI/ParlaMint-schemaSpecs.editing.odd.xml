@@ -3260,8 +3260,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="org" module="namesdates" mode="change">
-    <desc versionDate="2023-04-06" xml:lang="en">provides information about an identifiable organisation such as the
-    government, political party, ministry etc.</desc>
+    <desc versionDate="2023-04-06" xml:lang="en">provides information about an identifiable organisation such as the government, political party, ministry etc.</desc>
     <content>
       <sequence>
         <elementRef key="head" minOccurs="0" maxOccurs="unbounded"/>
@@ -3278,6 +3277,7 @@
       <attDef ident="role" mode="replace" usage="req">
         <valList type="closed">
           <valItem ident="country"/>
+          <valItem ident="federatedState"/>
           <valItem ident="republic"/>
           <valItem ident="government"/>
           <valItem ident="ministry"/>
