@@ -30,9 +30,9 @@ $outDir = File::Spec->rel2abs(shift);
 
 $Para  = 'parallel --gnu --halt 0 --jobs 10';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
-$Convert = "$Bin/parlamint2conllu.xsl";
-$Meta = "$Bin/parlamint2meta.xsl";
-$Valid = "$Bin/tools/validate.py";
+$scriptConvert = "$Bin/parlamint2conllu.xsl";
+$scriptMeta = "$Bin/parlamint2meta.xsl";
+$scriptValid = "$Bin/tools/validate.py";
 
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
@@ -94,31 +94,31 @@ close TMP;
 `rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-$command = "$Saxon meta=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
+$command = "$Saxon meta=$rootAnaFile -xsl:$scriptMeta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
 
 # First produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}
 else {($checkLang) = $langs =~ /(.+?),/}
-$command = "$Saxon meta=$rootAnaFile -xsl:$Convert {} > $outDir/{/.}.conllu";
+$command = "$Saxon meta=$rootAnaFile -xsl:$scriptConvert {} > $outDir/{/.}.conllu";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*.conllu`;
-$command = "python3 $Valid --lang $checkLang --level 1 {}";
+$command = "python3 $scriptValid --lang $checkLang --level 1 {}";
 `ls $outDir/*.conllu | $Para '$command'`;
-$command = "python3 $Valid --lang $checkLang --level 2 {}"
+$command = "python3 $scriptValid --lang $checkLang --level 2 {}"
     unless defined $translation_lang; #MTed corpora do not have syntactic parses
 `ls $outDir/*.conllu | $Para '$command'`;
 
 # Now produce CoNLL-Us for separate langauges, if we have them
 if ($langs =~ /,/) {
     foreach $lang (split(/,\s*/, $langs)) {
-        $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
+        $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$scriptConvert {} > $outDir/{/.}-$lang.conllu";
         `cat $fileFile | $Para '$command'`;
         `rename 's/\.ana//' $outDir/*.conllu`;
-        $command = "python3 $Valid --lang $lang --level 1 {}";
+        $command = "python3 $scriptValid --lang $lang --level 1 {}";
         `ls $outDir/*.conllu | $Para '$command'`;
-        $command = "python3 $Valid --lang $lang --level 2 {}";
+        $command = "python3 $scriptValid --lang $lang --level 2 {}";
         `ls $outDir/*.conllu | $Para '$command'`;
     }
 }

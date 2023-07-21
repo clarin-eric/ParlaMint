@@ -146,18 +146,18 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $teiRoot = "$teiDir/$XX.xml";
     my $anaRoot = "$anaDir/$XX.ana.xml";
 
-    my $inTeiDir = "$inDir/$teiDir";
-    my $inAnaDir = "$inDir/$anaDir";
+    my $inTeiDir = "$inDir/$teiDir" if $inDir;
+    my $inAnaDir = "$inDir/$anaDir" if $inDir;
 
     my $listOrg    = "$XX-listOrg.xml";
     my $listPerson = "$XX-listPerson.xml";
     my $taxonomies = "*-taxonomy-*.xml";
     
-    my $inTeiRoot = "$inDir/$teiRoot";
-    my $inAnaRoot = "$inDir/$anaRoot";
+    my $inTeiRoot = "$inDir/$teiRoot" if $inDir;
+    my $inAnaRoot = "$inDir/$anaRoot" if $inDir;
     #In case input dir is for samples
-    unless (-e $inTeiRoot) {$inTeiRoot =~ s/\.TEI//}
-    unless (-e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana//}
+    unless ($inTeiRoot and -e $inTeiRoot) {$inTeiRoot =~ s/\.TEI// if $inTeiRoot}
+    unless ($inAnaRoot and -e $inAnaRoot) {$inAnaRoot =~ s/\.TEI\.ana// if $inAnaRoot}
     
     my $outTeiDir  = "$outDir/$teiDir";      # $outTeiDir   =~ s/$XX/-$MT/ if $MT;
     my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
@@ -257,13 +257,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTxt) or (!$procAll and $procTxt == 1)) {
 	print STDERR "INFO: ***Making $countryCode text\n";
+	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
 	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
-	# We have an oportunistic handle!
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}

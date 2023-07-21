@@ -1,6 +1,6 @@
 MC = BE
 HERE = /project/corpora/Parla/ParlaMint/ParlaMint-documentation/Data/Orientations/
-V3  = /project/corpora/Parla/ParlaMint/ParlaMint-full/Data/Corpora/
+V3  = /project/corpora/Parla/ParlaMint/ParlaMint-V3/Distro/Master/
 RUN = ../../Scripts
 SCH = ../../Schema
 OUT = tmp
@@ -12,22 +12,31 @@ generate-parties:
 
 ## Insert political orientation of parties from TSV into a ParlaMint root file.
 test-parlamint:
-	make test-orientation-parlamint 2> insert.log
-test-orientation-parlamint:
+	make test-orientation-parlamint-1 2> insert.log
+test-orientation-parlamint-2:
+	make test-orientation MC=HU
+	make test-orientation MC=NO
+	make test-orientation MC=SE
+test-orientation-parlamint-1:
+	make test-orientation MC=AT
 	make test-orientation MC=BE
 	make test-orientation MC=BG
 	make test-orientation MC=CZ
 	make test-orientation MC=DK
-	#make test-orientation MC=ES
+	make test-orientation MC=EE
 	make test-orientation MC=FR
 	make test-orientation MC=GB
+	make test-orientation MC=GR
 	make test-orientation MC=HR
+	make test-orientation MC=HU
 	make test-orientation MC=IS
 	make test-orientation MC=IT
-	#make test-orientation MC=LT
 	make test-orientation MC=LV
 	make test-orientation MC=NL
+	make test-orientation MC=NO
 	make test-orientation MC=PL
+	make test-orientation MC=PT
+	make test-orientation MC=SE
 	make test-orientation MC=SI
 	make test-orientation MC=TR
 

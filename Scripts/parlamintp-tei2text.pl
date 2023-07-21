@@ -51,5 +51,6 @@ opendir(CORPUSDIR, $inDir);
 closedir(CORPUSDIR);
 $command = "$Saxon meta=".File::Spec->catfile($inDir,$rootFile[0])." -xsl:$scriptMeta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
-`rm -f $outDir/*.ana-meta.tsv`;
+# The rm following looks like a but, as no TSV files are left if we are processing only .ana!
+#`rm -f $outDir/*.ana-meta.tsv`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
