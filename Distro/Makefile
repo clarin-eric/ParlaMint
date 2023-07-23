@@ -1,11 +1,61 @@
+############### Makefile for making a distributable version of the ParlaMint and ParlaMint-en corpora
+
+### VARIABLES
+
+# All ParlaMint II corpora
+# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
+# Missing corpora: ES ES-PV FI LT RO
+
+######## SUBMITTED CORPORA FOR V 3.0
+# CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+
+# Partial runs:
+CORPORA = AT
+
+######## MTed CORPORA FOR V 3.0
+MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+
+# Used in test targets:
+CORPUS = UA
+
+#Where things are, as we use several branches: this one (most likely dev), and documentation
+PARLAMINT = /project/corpora/Parla/ParlaMint
+HERE = ${PARLAMINT}/ParlaMint-V3/Distro
+DOC = ${PARLAMINT}/ParlaMint-documentation
+SCH = ${DOC}/Schema
+TEMP = ${HERE}/Temp
+
+#Where the submitted corpora are found (ParlaMint- .TEI/ and .TEI.ana/
+SOURCE = ${HERE}/Source
+SOURCE-MT = ${HERE}/Source-MT
+
+# Version number and PID of next(!) TEI and TEI.ana ParlaMint release
+VERSION = 3.1
+HANDLE-TEI = http://hdl.handle.net/11356/1859
+HANDLE-ANA = http://hdl.handle.net/11356/1860
+
+# Version number and PID of future(!) MTed ParlaMint-en.ana release
+VERSION-MT = 3.0
+HANDLE-MT = http://hdl.handle.net/11356/1810
+
+#Where the produced corpora are put for inspection
+WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
+
+###### Targets
+
 ### Fixes for 3.0-en:
-# Make text dirs again but with *.tsvs
+
+# Instead of TEI-derived CoNLL-U files we release original MTed CoNLL-U
+# because it contains word alignments 
+# Script also adds -en suffix to filesnames + readme.
+mt-cp-conllu:
+	bin/cp-conllu.pl 'Source-MT/ParlaMint-*-en.conllu' 'Master'
+
+# Make txt and tsv files with tsvs
 mt-convert-txt:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE-MT} -txt -conll -codes $${CORPUS}-en -out ${HERE}/Master; \
 	done;
-
-# Copy taja's CoNLL to master adding -en suffix to filesnames + readme.
 
 ### Fixes for 3.0:
 # Merge per-language translated CoNLL-Us (BE, ES-CT, UA) to joint CoNLL-Us
@@ -25,7 +75,8 @@ fix-handle:
 
 # Copy READMEs to master
 cp-readmes:
-	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -docs Docs -out ${HERE}/Master
+	bin/cp-readmes.pl -codes "${CORPORA}" -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} \
+	-docs Docs -out ${HERE}/Master
 
 # Make samples only
 samples:
@@ -38,11 +89,9 @@ samples:
 # Make vertical files only
 make-verts:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.vert.log; \
+	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master \
 	done;
 	make verts
-
-############### Makefile for making a distributable version of the ParlaMint corpora #################
 
 # Make overall root(.ana) for ParlaMint
 make-root:
@@ -50,6 +99,10 @@ make-root:
 	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
 	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
 	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
+
+mt-make-root:
+	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
 cp-samples:
 	bin/cp-samples.pl 'Master/Sample-ParlaMint-*' ../Data
@@ -60,36 +113,6 @@ mt-logs:
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
-### VARIABLES
-# All ParlaMint II corpora
-# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-# Missing corpora: ES ES-PV FI LT RO
-# All submitted corpora
-CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
-# Used for testing scripts:
-# CORPUS = NO
-
-#Where things are, as we use several branches: this one (most likely dev) and documentation
-PARLAMINT = /project/corpora/Parla/ParlaMint
-HERE = ${PARLAMINT}/ParlaMint-V3/Distro
-DOC = ${PARLAMINT}/ParlaMint-documentation
-SCH = ${DOC}/Schema
-TEMP = ${HERE}/Temp
-
-#Where the submitted corpora are found (ParlaMint- .TEI/ and .TEI.ana/
-SOURCE = ${HERE}/Source
-SOURCE-MT = ${HERE}/Source-MT
-
-# Version number and PID of TEI and TEI.ana ParlaMint release
-VERSION = 3.0
-HANDLE-TEI = http://hdl.handle.net/11356/1486
-HANDLE-ANA = http://hdl.handle.net/11356/1488
-# Version number and PID of MTed ParlaMint-en.ana release
-VERSION-MT = 3.0
-HANDLE-MT = http://hdl.handle.net/11356/1810
-
-#Where the produced corpora are put for inspection
-WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 web-nohup:
 	nice nohup time make web > ParlaMint-web &
 web:
@@ -106,10 +129,12 @@ FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${
 ### For real
 nohup:
 	nice nohup time make all > Logs/ParlaMint.log &
-# Second nohup, in case we want to process several corpora at once
-# In which case CORPORA variable needs to be changed!
+
+# Second nohup, in case we want several runs at once
+# In which case CORPORA variable needs to be changed first!
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
+
 all:	final
 xall:	final verts pack
 
@@ -141,19 +166,33 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 # Targets
 mt-nohup:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
-mt-all-final:	mt-convert
-mt-xall-final:	mt-convert mt-verts mt-pack
+mt-all-final:	mt-pack mt-web
+mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
+mt-web:
+	rsync -av Logs/*-en*.log ${WEB}/Logs
+	rsync -av Packed/*-en*.tgz ${WEB}/Repo
 mt-pack:
-	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Distro
+	perl ../Scripts/pack-parlamint.pl -codes '${MT-CORPORA}' -in Master -out Packed
 
 ### Make joint vert for all ParlaMint corpora
+
+# Make MT vertical files only
+mt-make-verts:
+	for CORPUS in ${CORPORA}; do \
+	${FINALIZE} -vert -codes $${CORPUS}-en -out ${HERE}/Master; \
+	done;
+	make mt-verts
+
+# Join verts only
 mt-verts:
 	perl ../Scripts/join-all-verts.pl     -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX.3.0.vert
 	perl ../Scripts/join-all-verts.pl -en -codes '${CORPORA}' -in 'Master' -out Verts/ParlaMint-XX-en.3.0.vert
 	# Sanity check
 	zcat Verts/ParlaMint-XX.3.0.vert.gz | grep -c '</s>' 
 	zcat Verts/ParlaMint-XX-en.3.0.vert.gz | grep -c '</s>' 
+
+# Convert from English CoNLL-U + source .TEI.ana -> -en.TEI.ana 
 mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl ../Scripts/mt-conllu2tei.pl \
@@ -167,7 +206,7 @@ mt-convert:
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
-### Various tests for debugging MT processing
+### Tests for debugging MT processing
 mt-test8:
 	$s -xsl:../Scripts/validate-parlamint.xsl \
 	${HERE}/Master/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml
