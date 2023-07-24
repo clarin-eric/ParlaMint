@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:ns0="http://schemas.assemblee-nationale.fr/referentiel"
+     xml:id="ParlaMint-FR-en_2019-01-16-O1119.ana"
+     ana="#parla.sitting #reference"
+     xml:lang="en"
+     corresp="../../ParlaMint-FR.TEI.ana/2019/ParlaMint-FR_2019-01-16-O1119.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fr">Corpus parlementaire français ParlaMint-FR-en, session ordinaire 16/01/2019 (119) [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">French parliamentary corpus ParlaMint-FR-en, ordinary session 16/01/2019 (119) [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale, séance : 119, 16/01/2019</title>
+            <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale, sitting: 119, 16/01/2019</title>
+            <meeting n="15"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.national #parla.lower #parla.term #parla.term.15"
+                     xml:lang="fr">15e législature</meeting>
+            <meeting n="O1"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.session #ParlaMint-FR-LOWER"
+                     xml:lang="fr">Session ordinaire 2018-2019 (CRSANR5L15S2019O1N119)</meeting>
+            <meeting n="119"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.sitting #ParlaMint-FR-LOWER"
+                     xml:lang="fr">119. séance</meeting>
+            <respStmt>
+               <persName>Sascha Diwersy</persName>
+               <resp xml:lang="fr">Annotation linguistique</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Giancarlo Luxardo</persName>
+               <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName>The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="417" xml:lang="en">417 speeches</measure>
+            <measure unit="speeches" quantity="417" xml:lang="fr">417 interventions</measure>
+            <measure unit="words" quantity="37652" xml:lang="en">37,652 words</measure>
+            <measure unit="words" quantity="37652" xml:lang="fr">37 652 mots</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>CLARIN research infrastructure</publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2023-06-26">2023-06-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="fr">Travaux parlementaires (Assemblée nationale)</title>
+               <title type="sub" xml:lang="fr">Débats en séance publique - Comptes rendus au format XML</title>
+               <idno type="URI" subtype="parliament">http://data.assemblee-nationale.fr/travaux-parlementaires/debats</idno>
+               <idno type="URI" subtype="parliament">https://data.assemblee-nationale.fr/dyn/opendata/CRSANR5L15S2019O1N119.xml</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="93"/>
+               <tagUsage gi="div" occurs="26"/>
+               <tagUsage gi="head" occurs="26"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="kinesic" occurs="85"/>
+               <tagUsage gi="name" occurs="1388"/>
+               <tagUsage gi="note" occurs="26"/>
+               <tagUsage gi="pc" occurs="5098"/>
+               <tagUsage gi="s" occurs="1746"/>
+               <tagUsage gi="seg" occurs="808"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="417"/>
+               <tagUsage gi="vocal" occurs="5"/>
+               <tagUsage gi="w" occurs="37652"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-FR.TEI.ana/2019/ParlaMint-FR_2019-01-16-O1119.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Paris</name>
+               <name type="country" key="FR">France</name>
+               <date when="2019-01-16">16/01/2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-26">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2022-12-26">
+            <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="fr" ana="#reference">
+      <body>
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_1"
+              n="1"
+              type="debateSection"
+              xml:lang="en"
+              corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.d1_1">
+            <head>Questions au Gouvernement</head>
+            <note type="debate" xml:lang="en">TITLE_TEXT_DISCUSSION</note>
+            <u who="#PA606171"
+               xml:id="ParlaMint-FR_2019-01-16-O1119.u1"
+               ana="#chair"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u1">
+               <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u1.1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u1.1">
+                  <s xml:id="ParlaMint-FR_2019-01-16-O1119.s1"
+                     n="1"
+                     corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.s1">
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t2"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="next">next</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="item">item</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t4"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="question">question</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="government"
+                        join="right">Government</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d2_2"
+              n="2"
+              type="debateSection"
+              xml:lang="en"
+              corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.d2_2">
+            <head>Grand débat national</head>
+            <note type="debate" xml:lang="en">HQ_1_1</note>
+            <u who="#PA606171"
+               xml:id="ParlaMint-FR_2019-01-16-O1119.u2"
+               ana="#regular"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u2">
+               <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u2.1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u2.1">
+                  <s xml:id="ParlaMint-FR_2019-01-16-O1119.s2"
+                     n="2"
+                     corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.s2">
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sebastien">Sebastien</w>
+                        <w xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t3"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Jumel">Jumel</w>
+                     </name>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t4"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="floor"
+                        join="right">floor</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s2.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d3_48"
+              n="396"
+              type="debateSection"
+              xml:lang="en"
+              corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.d3_48">
+            <u who="#PA1874"
+               xml:id="ParlaMint-FR_2019-01-16-O1119.u416"
+               ana="#chair"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u416">
+               <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u416.1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u416.1">
+                  <s xml:id="ParlaMint-FR_2019-01-16-O1119.s1743"
+                     n="1743"
+                     corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.s1743">
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t1"
+                        pos="JJR"
+                        msd="UPosTag=ADJ|Degree=Cmp"
+                        lemma="further">Further</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="discussion">discussion</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t3"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">was</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t4"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="postpone">postponed</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="until">until</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="next">next</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sitting"
+                        join="right">sitting</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1743.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div xml:id="ParlaMint-FR_2019-01-16-O1119.d1_49"
+              n="417"
+              type="debateSection"
+              xml:lang="en"
+              corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.d1_49">
+            <head>Ordre du jour de la prochaine séance</head>
+            <note type="debate" xml:lang="en">FIN_SEAN_1_2</note>
+            <u who="#PA1874"
+               xml:id="ParlaMint-FR_2019-01-16-O1119.u417"
+               ana="#chair"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u417">
+               <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u417.1">
+                  <s xml:id="ParlaMint-FR_2019-01-16-O1119.s1744"
+                     n="1744"
+                     corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.s1744">
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="next">Next</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t2"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="sit"
+                        join="right">sitting</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="tonight"
+                        join="right">tonight</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t7"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="twenty"
+                        join="right">twenty</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t9"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="one">one</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t10"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="thirty"
+                        join="right">thirty</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1744.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">:</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.2"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u417.2">
+                  <s xml:id="ParlaMint-FR_2019-01-16-O1119.s1745"
+                     n="1745"
+                     corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.s1745">
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t1"
+                        pos="RBR"
+                        msd="UPosTag=ADV|Degree=Cmp"
+                        lemma="far">Further</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t2"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="discussion"
+                        join="right">discussion</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="new">new</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reading"
+                        join="right">reading</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t10"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t12"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="2018"
+                        join="right">2018</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t14"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="2022">2022</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="programming">programming</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t16"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="justice">justice</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reform">reform</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t19"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bill"
+                        join="right">bill</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t20"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t21"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t22"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t23"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="organic">organic</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t24"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bill">bill</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t25"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t26"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="strengthen">strengthening</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t28"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="organization">organization</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t29"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t30"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="court"
+                        join="right">courts</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1745.t31"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-FR_2019-01-16-O1119.u417.3"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.u417.3">
+                  <s xml:id="ParlaMint-FR_2019-01-16-O1119.s1746"
+                     n="1746"
+                     corresp="mt-src:ParlaMint-FR_2019-01-16-O1119.s1746">
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1746.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1746.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting">meeting</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1746.t3"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-FR_2019-01-16-O1119.s1746.t4"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="adjourn"
+                        join="right">adjourned</w>
+                     <pc xml:id="ParlaMint-FR_2019-01-16-O1119.s1746.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

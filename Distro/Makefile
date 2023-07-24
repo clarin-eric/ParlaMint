@@ -105,7 +105,8 @@ mt-make-root:
 	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
 cp-samples:
-	bin/cp-samples.pl 'Master/Sample-ParlaMint-*' ../Data
+	# bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' Test
+	bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' ../Data
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
