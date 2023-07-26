@@ -26,8 +26,8 @@ SCH = ${DOC}/Schema
 TEMP = ${HERE}/Temp
 
 #Where the submitted corpora are found (ParlaMint- .TEI/ and .TEI.ana/
-SOURCE = ${HERE}/Source
-SOURCE-MT = ${HERE}/Source-MT
+SOURCES = ${HERE}/Sources-TEI
+SOURCES-MT = ${HERE}/Sources-MT
 
 # Version number and PID of next(!) TEI and TEI.ana ParlaMint release
 VERSION = 3.1
@@ -49,7 +49,7 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 # because it contains word alignments 
 # Script also adds -en suffix to filesnames + readme.
 mt-cp-conllu:
-	bin/cp-conllu.pl 'Source-MT/ParlaMint-*-en.conllu' 'Master'
+	bin/cp-conllu.pl '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
 
 # Make txt and tsv files with tsvs
 mt-convert-txt:
@@ -62,9 +62,9 @@ mt-convert-txt:
 mrg-conll-nohup:
 	nohup time make mrg-conll > Logs/ParlaMint_Merge_CoNLL-U.log &
 mrg-conll:
-	bin/merge-conllu.pl Master/ParlaMint-BE.conllu Source-MT/ParlaMint-BE-en.conllu
-	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu Source-MT/ParlaMint-ES-CT-en.conllu
-	bin/merge-conllu.pl Master/ParlaMint-UA.conllu Source-MT/ParlaMint-UA-en.conllu
+	bin/merge-conllu.pl Master/ParlaMint-BE.conllu ${SOURCES-MT}/ParlaMint-BE-en.conllu
+	bin/merge-conllu.pl Master/ParlaMint-ES-CT.conllu ${SOURCES-MT}/ParlaMint-ES-CT-en.conllu
+	bin/merge-conllu.pl Master/ParlaMint-UA.conllu ${SOURCES-MT}/ParlaMint-UA-en.conllu
 
 # Fix a mistake with handle in corpora
 fix-handle:
@@ -81,7 +81,7 @@ cp-readmes:
 # Make samples only
 samples:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
+	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	done;
@@ -89,7 +89,7 @@ samples:
 # Make vertical files only
 make-verts:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master \
+	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master \
 	done;
 	make verts
 
@@ -106,7 +106,7 @@ mt-make-root:
 
 cp-samples:
 	# bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' Test
-	bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' ../Data
+	bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' ../Samples
 
 mt-logs:
 	for CORPUS in ${CORPORA}; do \
@@ -122,7 +122,7 @@ web:
 
 ###### Factorisation of source corpora; needs to be run only once
 factor-all:
-	../Scripts/parlamint-factorize-corpora.pl ${SOURCE}
+	../Scripts/parlamint-factorize-corpora.pl ${SOURCES}
 
 ###### Targets for producing releasable version of ParlaMint corpora
 FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
@@ -145,7 +145,7 @@ verts:
 	perl ../Scripts/join-verts.pl -codes '${CORPORA}' -in Master -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCE} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
+	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
 	echo "$${CORPUS}.warn"; \
@@ -198,8 +198,8 @@ mt-convert:
 	for CORPUS in ${CORPORA}; do \
 	perl ../Scripts/mt-conllu2tei.pl \
 	${HERE}/Master/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml \
-	${SOURCE-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
-	${SOURCE-MT}/ParlaMint-$${CORPUS}-en.conllu \
+	${SOURCES-MT}/ParlaMint-$${CORPUS}-en-notes.tsv \
+	${SOURCES-MT}/ParlaMint-$${CORPUS}-en.conllu \
 	${TEMP}/ParlaMint-$${CORPUS}-en.TEI.ana 2> Logs/ParlaMint-$${CORPUS}-en.log; \
 	${FINALIZE-MT} -all -notei -noconll -codes $${CORPUS}-en -in ${TEMP} -out ${HERE}/Master \
 	2>> Logs/ParlaMint-$${CORPUS}-en.log; \
@@ -237,7 +237,7 @@ mt-test2a:
 	perl ../Scripts/conllu2tei.pl < Test/0.conllu > Test/0.body.xml
 mt-test2:
 	perl ../Scripts/conllu2tei.pl \
-	< Source-MT/ParlaMint-LV-en.conllu/2015/ParlaMint-LV_2015-11-12-PT12-329.conllu \
+	< ${SOURCES-MT}/ParlaMint-LV-en.conllu/2015/ParlaMint-LV_2015-11-12-PT12-329.conllu \
 	> Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 	xmllint --noout Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 mt-test1:
@@ -250,8 +250,8 @@ mt-prep-nohup:
 mt-prep-cnv:
 	perl ../Scripts/mt-conllu2tei.pl \
 	${HERE}/Master/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml \
-	${SOURCE-MT}/ParlaMint-${CORPUS}-en-notes.tsv \
-	${SOURCE-MT}/ParlaMint-${CORPUS}-en.conllu \
+	${SOURCES-MT}/ParlaMint-${CORPUS}-en-notes.tsv \
+	${SOURCES-MT}/ParlaMint-${CORPUS}-en.conllu \
 	Test/ParlaMint-${CORPUS}-en.TEI.ana
 
 #Tests for original corpora
@@ -266,12 +266,12 @@ test-factorize:
 	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI \
 	   prefix="ParlaMint-${CORPUS}-" \
 	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
-	   ${SOURCE}/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
+	   ${SOURCES}/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
 	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI.ana \
 	   prefix="ParlaMint-${CORPUS}-" \
 	   teiRoot=`pwd`"/Test/Factorized/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml" \
 	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
-	   ${SOURCE}/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
+	   ${SOURCES}/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
 
 errs1:
 	grep -i error Logs/*.log | \
