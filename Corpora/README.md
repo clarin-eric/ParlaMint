@@ -6,9 +6,9 @@ Note that the complete corpora are much to large to be stored on GitHub, so most
 
 Here you can find the following directories:
 
-* [Source/](Source/): source ParlaMint TEI encoded corpora
+* [Sources-TEI/](Sources-TEI/): source ParlaMint TEI encoded corpora
   (input to the release pipeline for ParlaMint)
-* [Source-MT/](Source-MT/): source CoNLL-U encoded corpora machine translated to Enlgish
+* [Sources-MT/](Sources-MT/): source CoNLL-U encoded corpora machine translated to Enlgish
  (input to the release pipeline for ParlaMint-en)
 * [Makefile](Makefile): targets with the release pipeline
 * [bin/](bin/): local scripts used for preparing a ParlaMint release
