@@ -1,0 +1,495 @@
+# newdoc id = ParlaMint-EE_2014-12-02_U1
+# newpar id = ParlaMint-EE_2014-12-02_U1-P1
+# lang = et
+# sent_id = ParlaMint-EE_2014-12-02_U1-P1.1
+# text = Austatud Riigikogu, tere hommikust!
+1	Austatud	austa=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	NER=O
+2	Riigikogu	Riigi_kogu	PROPN	S	Case=Nom|Number=Sing	0	root	_	NER=B-ORG|SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	_	NER=O
+4	tere	tere	INTJ	I	_	5	discourse	_	NER=O
+5	hommikust	hommik	NOUN	S	Case=Ela|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
+6	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U1-P1.2
+# text = Kellel on üle anda eelnõusid ja arupärimisi?
+1	Kellel	kes	PRON	P	Case=Ade|Number=Sing|PronType=Int,Rel	0	root	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O
+3	üle	üle	ADV	D	_	4	compound:prt	_	NER=O
+4	anda	andma	VERB	V	VerbForm=Inf	1	csubj:cop	_	NER=O
+5	eelnõusid	eel_nõu	NOUN	S	Case=Par|Number=Plur	4	obj	_	NER=O
+6	ja	ja	CCONJ	J	_	7	cc	_	NER=O
+7	arupärimisi	aru_pärimine	NOUN	S	Case=Par|Number=Plur	5	conj	_	NER=O|SpaceAfter=No
+8	?	?	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U1-P1.3
+# text = Palun, Arto Aas!
+1	Palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	_	NER=O
+3	Arto	Arto	PROPN	S	Case=Nom|Number=Sing	1	vocative	_	NER=B-PER
+4	Aas	Aas	PROPN	S	Case=Nom|Number=Sing	3	flat	_	NER=I-PER|SpaceAfter=No
+5	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-EE_2014-12-02_U2
+# newpar id = ParlaMint-EE_2014-12-02_U2-P1
+# lang = et
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.1
+# text = Austatud kolleegid!
+1	Austatud	austa=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	NER=O
+2	kolleegid	kolleeg	NOUN	S	Case=Nom|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.2
+# text = Majanduskomisjon algatab ühistranspordiseaduse eelnõu.
+1	Majanduskomisjon	majandus_komisjon	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	NER=O
+2	algatab	algatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	ühistranspordiseaduse	ühis_transpordi_seadus	NOUN	S	Case=Gen|Number=Sing	4	nmod	_	NER=O
+4	eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	2	obj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.3
+# text = Ühistranspordiseaduse eelmine terviktekst võeti vastu juba 14 aastat tagasi, aastal 2000.
+1	Ühistranspordiseaduse	ühis_transpordi_seadus	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+2	eelmine	eelmine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	NER=O
+3	terviktekst	tervik	NOUN	S	Case=Nom|Number=Sing	4	obj	_	NER=O
+4	võeti	võtma	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+5	vastu	vastu	ADV	D	_	4	compound:prt	_	NER=O
+6	juba	juba	ADV	D	_	7	advmod	_	NER=O
+7	14	14	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	8	nummod	_	NER=O
+8	aastat	aasta	NOUN	S	Case=Par|Number=Sing	4	obl	_	NER=O
+9	tagasi	tagasi	ADP	K	AdpType=Post	8	case	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	Z	_	11	punct	_	NER=O
+11	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	4	obl	_	NER=O
+12	2000.	2000.	ADJ	N	NumForm=Digit|NumType=Ord	11	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.4
+# text = Vahepeal on väga palju aega edasi läinud, elu on muutunud ja ka seadust on mitu korda muudetud.
+1	Vahepeal	vahe_peal	ADV	D	_	7	advmod	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	NER=O
+3	väga	väga	ADV	D	_	4	advmod	_	NER=O
+4	palju	palju	ADV	D	_	5	advmod	_	NER=O
+5	aega	aeg	NOUN	S	Case=Par|Number=Sing	7	obl	_	NER=O
+6	edasi	edasi	ADV	D	_	7	compound:prt	_	NER=O
+7	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	_	NER=O
+9	elu	elu	NOUN	S	Case=Nom|Number=Sing	11	nsubj	_	NER=O
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	NER=O
+11	muutunud	muutuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	NER=O
+12	ja	ja	CCONJ	J	_	18	cc	_	NER=O
+13	ka	ka	ADV	D	_	14	advmod	_	NER=O
+14	seadust	seadus	NOUN	S	Case=Par|Number=Sing	18	obj	_	NER=O
+15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	NER=O
+16	mitu	mitu	DET	P	Case=Nom|Number=Sing|PronType=Ind	17	det	_	NER=O
+17	korda	kord	NOUN	S	Case=Par|Number=Sing	18	obl	_	NER=O
+18	muudetud	muutma	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	Z	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.5
+# text = On aeg teha uus terviktekst.
+1	On	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	NER=O
+2	aeg	aeg	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O
+3	teha	tegema	VERB	V	VerbForm=Inf	2	csubj:cop	_	NER=O
+4	uus	uus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	terviktekst	tervik	NOUN	S	Case=Nom|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.6
+# text = Riigikogu jõudis selle koostamisega päris kaugele juba suvel, aga protseduurilistel põhjustel võttis eelnõu algataja selle menetlusest tagasi.
+1	Riigikogu	riigi_kogu	NOUN	S	Case=Nom|Number=Sing	2	nsubj	_	NER=B-ORG
+2	jõudis	jõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	4	det	_	NER=O
+4	koostamisega	koostamine	NOUN	S	Case=Com|Number=Sing	2	obl	_	NER=O
+5	päris	päris	ADV	D	_	6	advmod	_	NER=O
+6	kaugele	kaugele	ADV	D	_	2	advmod	_	NER=O
+7	juba	juba	ADV	D	_	8	advmod	_	NER=O
+8	suvel	suvi	NOUN	S	Case=Ade|Number=Sing	2	obl	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	Z	_	13	punct	_	NER=O
+10	aga	aga	CCONJ	J	_	13	cc	_	NER=O
+11	protseduurilistel	protseduuriline	ADJ	A	Case=Ade|Degree=Pos|Number=Plur	12	amod	_	NER=O
+12	põhjustel	põhjus	NOUN	S	Case=Ade|Number=Plur	13	obl	_	NER=O
+13	võttis	võtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	NER=O
+14	eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	15	nmod	_	NER=O
+15	algataja	algataja	NOUN	S	Case=Nom|Number=Sing	13	nsubj	_	NER=O
+16	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	13	obj	_	NER=O
+17	menetlusest	menetlus	NOUN	S	Case=Ela|Number=Sing	13	obl	_	NER=O
+18	tagasi	tagasi	ADV	D	_	13	compound:prt	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.7
+# text = Nüüd oleme jõudnud majanduskomisjoni ning Majandus- ja Kommunikatsiooniministeeriumi ühise töö tulemusel sinnamaani, et võime eelnõu uuesti sisse anda.
+1	Nüüd	nüüd	ADV	D	_	3	advmod	_	NER=O
+2	oleme	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	jõudnud	jõudma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+4	majanduskomisjoni	majandus_komisjon	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	NER=O
+5	ning	ning	CCONJ	J	_	6	cc	_	NER=O
+6	Majandus-	majandus	PROPN	S	Case=Gen|Hyph=Yes|Number=Sing	4	conj	_	NER=O
+7	ja	ja	CCONJ	J	_	8	cc	_	NER=O
+8	Kommunikatsiooniministeeriumi	Kommunikatsiooni_ministeerium	PROPN	S	Case=Gen|Number=Sing	4	conj	_	NER=B-ORG
+9	ühise	ühine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	10	amod	_	NER=O
+10	töö	töö	NOUN	S	Case=Gen|Number=Sing	11	nmod	_	NER=O
+11	tulemusel	tulemus	NOUN	S	Case=Ade|Number=Sing	3	obl	_	NER=O
+12	sinnamaani	sinna_maani	ADV	D	_	3	advmod	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	Z	_	19	punct	_	NER=O
+14	et	et	SCONJ	J	_	19	mark	_	NER=O
+15	võime	võima	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	NER=O
+16	eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	19	obj	_	NER=O
+17	uuesti	uuesti	ADV	D	_	19	advmod	_	NER=O
+18	sisse	sisse	ADV	D	_	19	compound:prt	_	NER=O
+19	anda	andma	VERB	V	VerbForm=Inf	3	advcl	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.8
+# text = Selle peamised eesmärgid on järgmised: võimaldada bussiliiniveol konkurentsi suurenemist ja tagada veoteenuse kvaliteedi stabiilsus, parandada taksoveoteenuse kvaliteeti, täpsustada sõidusoodustuste tegemise aluseid, korrastada teeliikluses sõitja ning sõidukijuhi õigusi ja kohustusi, täpsustada ühistransporti korraldavate asutuste pädevust ja ülesandeid jpm.
+1	Selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	3	nmod	_	NER=O
+2	peamised	peamine	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	NER=O
+3	eesmärgid	ees_märk	NOUN	S	Case=Nom|Number=Plur	5	nsubj:cop	_	NER=O
+4	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
+5	järgmised	järgmine	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+6	:	:	PUNCT	Z	_	7	punct	_	NER=O
+7	võimaldada	võimaldama	VERB	V	VerbForm=Inf	5	parataxis	_	NER=O
+8	bussiliiniveol	bussi_liini_vedu	NOUN	S	Case=Ade|Number=Sing	7	obl	_	NER=O
+9	konkurentsi	konkurents	NOUN	S	Case=Gen|Number=Sing	10	nmod	_	NER=O
+10	suurenemist	suurenemine	NOUN	S	Case=Par|Number=Sing	7	obj	_	NER=O
+11	ja	ja	CCONJ	J	_	12	cc	_	NER=O
+12	tagada	tagama	VERB	V	VerbForm=Inf	7	conj	_	NER=O
+13	veoteenuse	veo_teenus	NOUN	S	Case=Gen|Number=Sing	14	nmod	_	NER=O
+14	kvaliteedi	kvaliteet	NOUN	S	Case=Gen|Number=Sing	15	nmod	_	NER=O
+15	stabiilsus	stabiilsus	NOUN	S	Case=Nom|Number=Sing	12	obj	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	Z	_	17	punct	_	NER=O
+17	parandada	parandama	VERB	V	VerbForm=Inf	7	conj	_	NER=O
+18	taksoveoteenuse	takso_veo_teenus	NOUN	S	Case=Gen|Number=Sing	19	nmod	_	NER=O
+19	kvaliteeti	kvaliteet	NOUN	S	Case=Par|Number=Sing	17	obj	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	Z	_	21	punct	_	NER=O
+21	täpsustada	täpsustama	VERB	V	VerbForm=Inf	7	conj	_	NER=O
+22	sõidusoodustuste	sõidus_oodustus	NOUN	S	Case=Gen|Number=Plur	23	nmod	_	NER=O
+23	tegemise	tegemine	NOUN	S	Case=Gen|Number=Sing	24	nmod	_	NER=O
+24	aluseid	alus	NOUN	S	Case=Par|Number=Plur	21	obj	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	Z	_	26	punct	_	NER=O
+26	korrastada	korrastama	VERB	V	VerbForm=Inf	7	conj	_	NER=O
+27	teeliikluses	tee_liiklus	NOUN	S	Case=Ine|Number=Sing	26	obl	_	NER=O
+28	sõitja	sõitja	NOUN	S	Case=Gen|Number=Sing	31	nmod	_	NER=O
+29	ning	ning	CCONJ	J	_	30	cc	_	NER=O
+30	sõidukijuhi	sõiduki_juht	NOUN	S	Case=Gen|Number=Sing	28	conj	_	NER=O
+31	õigusi	õigus	NOUN	S	Case=Par|Number=Plur	26	obj	_	NER=O
+32	ja	ja	CCONJ	J	_	33	cc	_	NER=O
+33	kohustusi	kohustus	NOUN	S	Case=Par|Number=Plur	31	conj	_	NER=O|SpaceAfter=No
+34	,	,	PUNCT	Z	_	35	punct	_	NER=O
+35	täpsustada	täpsustama	VERB	V	VerbForm=Inf	7	conj	_	NER=O
+36	ühistransporti	ühis_transport	NOUN	S	Case=Par|Number=Sing	37	obj	_	NER=O
+37	korraldavate	korraldav	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	38	acl	_	NER=O
+38	asutuste	asutus	NOUN	S	Case=Gen|Number=Plur	39	nmod	_	NER=O
+39	pädevust	pädevus	NOUN	S	Case=Par|Number=Sing	35	obj	_	NER=O
+40	ja	ja	CCONJ	J	_	41	cc	_	NER=O
+41	ülesandeid	üles_anne	NOUN	S	Case=Par|Number=Plur	39	conj	_	NER=O
+42	jpm	jpm	ADV	Y	Abbr=Yes	41	nmod	_	NER=O|SpaceAfter=No
+43	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.9
+# text = Selline lugu.
+1	Selline	selline	DET	P	Case=Nom|Number=Sing|PronType=Dem	2	det	_	NER=O
+2	lugu	lugu	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U2-P1.10
+# text = Aitäh!
+1	Aitäh	aitäh	INTJ	I	_	0	root	_	NER=O|SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-EE_2014-12-02_U63
+# newpar id = ParlaMint-EE_2014-12-02_U63-P1
+# lang = et
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.1
+# text = Austatud esimees!
+1	Austatud	austa=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	NER=O
+2	esimees	esi_mees	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.2
+# text = Head kolleegid!
+1	Head	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	NER=O
+2	kolleegid	kolleeg	NOUN	S	Case=Nom|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.3
+# text = Keskkonnaseadustiku üldosa seaduse rakendamise seaduse muutmise seaduse eelnõu 781 algatas Riigikogu keskkonnakomisjon 17. novembril aastal 2014.
+1	Keskkonnaseadustiku	keskkonna_seadustik	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	NER=O
+2	üldosa	üld_osa	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+3	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	4	nmod	_	NER=O
+4	rakendamise	rakendamine	NOUN	S	Case=Gen|Number=Sing	6	nmod	_	NER=O
+5	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	6	nmod	_	NER=O
+6	muutmise	muutmine	NOUN	S	Case=Gen|Number=Sing	7	nmod	_	NER=O
+7	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	8	nmod	_	NER=O
+8	eelnõu	eel_nõu	NOUN	S	Case=Nom|Number=Sing	10	nsubj	_	NER=O
+9	781	781	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	8	nummod	_	NER=O
+10	algatas	algatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+11	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	12	nmod	_	NER=B-ORG
+12	keskkonnakomisjon	keskkonna_komisjon	NOUN	S	Case=Nom|Number=Sing	10	nsubj	_	NER=O
+13	17.	17.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	14	amod	_	NER=O
+14	novembril	november	NOUN	S	Case=Ade|Number=Sing	10	obl	_	NER=O
+15	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	10	obl	_	NER=O
+16	2014.	2014.	ADJ	N	NumForm=Digit|NumType=Ord	15	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.4
+# text = Riigikogu juhatus määras eelnõu juhtivkomisjoniks keskkonnakomisjoni.
+1	Riigikogu	riigi_kogu	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	NER=B-ORG
+2	juhatus	juhatus	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	NER=O
+3	määras	määrama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+5	juhtivkomisjoniks	juht_ivko_misjon	NOUN	S	Case=Tra|Number=Sing	3	xcomp	_	NER=O
+6	keskkonnakomisjoni	keskkonna_komisjon	NOUN	S	Case=Gen|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.5
+# text = Keskkonnaseadustiku üldosa seaduse rakendamise seadus sätestab, et 5. peatükk 'Loamenetlus' jõustub 1. jaanuaril 2015.
+1	Keskkonnaseadustiku	keskkonna_seadustik	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	NER=O
+2	üldosa	üld_osa	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+3	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	4	nmod	_	NER=O
+4	rakendamise	rakendamine	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+5	seadus	seadus	NOUN	S	Case=Nom|Number=Sing	6	nsubj	_	NER=O
+6	sätestab	sätestama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	Z	_	14	punct	_	NER=O
+8	et	et	SCONJ	J	_	14	mark	_	NER=O
+9	5.	5.	ADJ	N	Number=Sing|NumForm=Digit|NumType=Ord	10	amod	_	NER=O
+10	peatükk	pea_tükk	NOUN	S	Case=Nom|Number=Sing	14	nsubj	_	NER=O
+11	'	'	NOUN	S	Abbr=Yes	10	appos	_	NER=O|SpaceAfter=No
+12	Loamenetlus	Loame_netlus	PROPN	S	Case=Nom|Number=Sing	11	flat	_	NER=O|SpaceAfter=No
+13	'	'	NOUN	S	Abbr=Yes	11	flat	_	NER=O
+14	jõustub	jõustuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	NER=O
+15	1.	1.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	16	amod	_	NER=O
+16	jaanuaril	jaanuar	NOUN	S	Case=Ade|Number=Sing	14	obl	_	NER=O
+17	2015.	2015.	NUM	N	NumForm=Digit|NumType=Card	16	nummod	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.6
+# text = See kuupäev ei arvesta aga tegelikkust, kuna selle peatükiga vahetult seotud eriseadused ei jõua selleks ajaks jõustuda.
+1	See	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	2	det	_	NER=O
+2	kuupäev	kuu_päev	NOUN	S	Case=Nom|Number=Sing	4	nsubj	_	NER=O
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	_	NER=O
+4	arvesta	arvestama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+5	aga	aga	ADV	D	_	4	advmod	_	NER=O
+6	tegelikkust	tegelikkus	NOUN	S	Case=Par|Number=Sing	4	obj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	Z	_	15	punct	_	NER=O
+8	kuna	kuna	SCONJ	J	_	15	mark	_	NER=O
+9	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	10	det	_	NER=O
+10	peatükiga	pea_tükk	NOUN	S	Case=Com|Number=Sing	12	obl	_	NER=O
+11	vahetult	vahetult	ADV	D	_	12	advmod	_	NER=O
+12	seotud	seotud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	NER=O
+13	eriseadused	eri_seadus	NOUN	S	Case=Nom|Number=Plur	15	nsubj	_	NER=O
+14	ei	ei	AUX	V	Polarity=Neg	15	aux	_	NER=O
+15	jõua	jõudma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	NER=O
+16	selleks	see	DET	P	Case=Tra|Number=Sing|PronType=Dem	17	det	_	NER=O
+17	ajaks	aeg	NOUN	S	Case=Tra|Number=Sing	15	obl	_	NER=O
+18	jõustuda	jõustuma	VERB	V	VerbForm=Inf	15	xcomp	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.7
+# text = Eelnõuga ei kavandata kindlat jõustumiskuupäeva, sest selle täitmine võib hiljem võimatuks osutuda.
+1	Eelnõuga	eel_nõu	NOUN	S	Case=Com|Number=Sing	3	obl	_	NER=O
+2	ei	ei	AUX	V	Polarity=Neg	3	aux	_	NER=O
+3	kavandata	kavandama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	kindlat	kindel	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	NER=O
+5	jõustumiskuupäeva	jõustumis_kuu_päev	NOUN	S	Case=Par|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	Z	_	13	punct	_	NER=O
+7	sest	sest	SCONJ	J	_	13	mark	_	NER=O
+8	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	9	nmod	_	NER=O
+9	täitmine	täitmine	NOUN	S	Case=Nom|Number=Sing	13	nsubj	_	NER=O
+10	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	NER=O
+11	hiljem	hiljem	ADV	D	_	13	advmod	_	NER=O
+12	võimatuks	võimatu	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	13	xcomp	_	NER=O
+13	osutuda	osutuma	VERB	V	VerbForm=Inf	3	advcl	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.8
+# text = Keskkonnaseadustiku üldosa seaduse 5. peatükk jõustub ühe eriosa seaduse, näiteks kiirgusseaduse, veeseaduse, jäätmeseaduse, atmosfääriõhu kaitse seaduse või maapõueseaduse jõustumisel, kus selle peatüki jõustumine on sätestatud.
+1	Keskkonnaseadustiku	keskkonna_seadustik	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	NER=O
+2	üldosa	üld_osa	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+3	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+4	5.	5.	ADJ	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord	5	amod	_	NER=O
+5	peatükk	pea_tükk	NOUN	S	Case=Nom|Number=Sing	6	nsubj	_	NER=O
+6	jõustub	jõustuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+7	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	8	det	_	NER=O
+8	eriosa	eri_osa	NOUN	S	Case=Gen|Number=Sing	9	nmod	_	NER=O
+9	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	23	nmod	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	Z	_	12	punct	_	NER=O
+11	näiteks	näiteks	ADV	D	_	12	advmod	_	NER=O
+12	kiirgusseaduse	kiirgus_seadus	NOUN	S	Case=Gen|Number=Sing	9	conj	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	Z	_	14	punct	_	NER=O
+14	veeseaduse	vee_seadus	NOUN	S	Case=Gen|Number=Sing	12	conj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	Z	_	16	punct	_	NER=O
+16	jäätmeseaduse	jäätme_seadus	NOUN	S	Case=Gen|Number=Sing	9	conj	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	Z	_	20	punct	_	NER=O
+18	atmosfääriõhu	atmo_sfääri_õht	NOUN	S	Case=Gen|Number=Sing	19	nmod	_	NER=O
+19	kaitse	kaitse	NOUN	S	Case=Gen|Number=Sing	20	nmod	_	NER=O
+20	seaduse	seadus	NOUN	S	Case=Gen|Number=Sing	9	conj	_	NER=O
+21	või	või	CCONJ	J	_	22	cc	_	NER=O
+22	maapõueseaduse	maa_põue_seadus	NOUN	S	Case=Gen|Number=Sing	9	conj	_	NER=O
+23	jõustumisel	jõustumine	NOUN	S	Case=Ade|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	Z	_	30	punct	_	NER=O
+25	kus	kus	ADV	D	_	30	mark	_	NER=O
+26	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	27	det	_	NER=O
+27	peatüki	pea_tükk	NOUN	S	Case=Gen|Number=Sing	28	nmod	_	NER=O
+28	jõustumine	jõustumine	NOUN	S	Case=Nom|Number=Sing	30	obj	_	NER=O
+29	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	NER=O
+30	sätestatud	sätesta=tud	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	NER=O|SpaceAfter=No
+31	.	.	PUNCT	Z	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.9
+# text = See tähendab seda, et loamenetlus ei jõustu mitte 1. jaanuaril, vaid koos esimese seadusega, kus seda rakendatakse.
+1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	NER=O
+2	tähendab	tähendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	2	obj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	Z	_	8	punct	_	NER=O
+5	et	et	SCONJ	J	_	8	mark	_	NER=O
+6	loamenetlus	loa_menetlus	NOUN	S	Case=Nom|Number=Sing	8	nsubj	_	NER=O
+7	ei	ei	AUX	V	Polarity=Neg	8	aux	_	NER=O
+8	jõustu	jõustuma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	NER=O
+9	mitte	mitte	ADV	D	Polarity=Neg	10	advmod	_	NER=O
+10	1.	1.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	11	amod	_	NER=O
+11	jaanuaril	jaanuar	NOUN	S	Case=Ade|Number=Sing	8	obl	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	Z	_	16	punct	_	NER=O
+13	vaid	vaid	CCONJ	J	_	16	cc	_	NER=O
+14	koos	koos	ADP	K	AdpType=Prep	16	case	_	NER=O
+15	esimese	esimene	ADJ	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Ord	16	amod	_	NER=O
+16	seadusega	seadus	NOUN	S	Case=Com|Number=Sing	11	conj	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	Z	_	20	punct	_	NER=O
+18	kus	kus	ADV	D	_	20	mark	_	NER=O
+19	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	20	obj	_	NER=O
+20	rakendatakse	rakendama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P1.10
+# text = Eelnõu on heaks kiitnud ka Vabariigi Valitsus.
+1	Eelnõu	eel_nõu	NOUN	S	Case=Nom|Number=Sing	4	nsubj	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	NER=O
+3	heaks	hea	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	4	xcomp	_	NER=O
+4	kiitnud	kiitma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+5	ka	ka	ADV	D	_	7	advmod	_	NER=O
+6	Vabariigi	Vaba_riik	PROPN	S	Case=Gen|Number=Sing	7	nmod	_	NER=B-ORG
+7	Valitsus	valitsus	PROPN	S	Case=Nom|Number=Sing	4	nsubj	_	NER=I-ORG|SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# newpar id = ParlaMint-EE_2014-12-02_U63-P2
+# lang = et
+# sent_id = ParlaMint-EE_2014-12-02_U63-P2.1
+# text = Keskkonnakomisjoni 20. novembri 2014. aasta istungil otsustati võtta eelnõu Riigikogu täiskogu päevakorda 2. detsembril, teha ettepanek esimene lugemine lõpetada ja määrata eelnõu 781 muudatusettepanekute tähtajaks 5. detsember 2014.
+1	Keskkonnakomisjoni	keskkonna_komisjon	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+2	20.	20.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	3	amod	_	NER=O
+3	novembri	november	NOUN	S	Case=Gen|Number=Sing	5	nmod	_	NER=O
+4	2014.	2014.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	5	amod	_	NER=O
+5	aasta	aasta	NOUN	S	Case=Gen|Number=Sing	6	nmod	_	NER=O
+6	istungil	istung	NOUN	S	Case=Ade|Number=Sing	7	obl	_	NER=O
+7	otsustati	otsustama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+8	võtta	võtma	VERB	V	VerbForm=Inf	7	xcomp	_	NER=O
+9	eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	8	obj	_	NER=O
+10	Riigikogu	Riigi_kogu	PROPN	S	Case=Gen|Number=Sing	11	nmod	_	NER=B-ORG
+11	täiskogu	täis_kogu	NOUN	S	Case=Gen|Number=Sing	12	nmod	_	NER=O
+12	päevakorda	päeva_kord	NOUN	S	Case=Add|Number=Sing	8	obl	_	NER=O
+13	2.	2.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	14	amod	_	NER=O
+14	detsembril	detsember	NOUN	S	Case=Ade|Number=Sing	12	nmod	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	Z	_	16	punct	_	NER=O
+16	teha	tegema	VERB	V	VerbForm=Inf	8	conj	_	NER=O
+17	ettepanek	ette_panek	NOUN	S	Case=Nom|Number=Sing	16	obj	_	NER=O
+18	esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	19	amod	_	NER=O
+19	lugemine	lugemine	NOUN	S	Case=Nom|Number=Sing	20	obj	_	NER=O
+20	lõpetada	lõpetama	VERB	V	VerbForm=Inf	17	acl	_	NER=O
+21	ja	ja	CCONJ	J	_	22	cc	_	NER=O
+22	määrata	määrama	VERB	V	VerbForm=Inf	20	conj	_	NER=O
+23	eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	22	obj	_	NER=O
+24	781	781	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	25	nummod	_	NER=O
+25	muudatusettepanekute	muudatus_ette_panek	NOUN	S	Case=Gen|Number=Plur	26	nmod	_	NER=O
+26	tähtajaks	täht_aeg	NOUN	S	Case=Tra|Number=Sing	22	obl	_	NER=O
+27	5.	5.	ADJ	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord	28	amod	_	NER=O
+28	detsember	detsember	NOUN	S	Case=Nom|Number=Sing	22	obl	_	NER=O
+29	2014.	2014.	ADJ	N	NumForm=Digit|NumType=Ord	28	nmod	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P2.2
+# text = Kõik komisjoni otsused olid konsensuslikud.
+1	Kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	3	det	_	NER=O
+2	komisjoni	komisjon	NOUN	S	Case=Gen|Number=Sing	3	nmod	_	NER=O
+3	otsused	otsus	NOUN	S	Case=Nom|Number=Plur	5	nsubj:cop	_	NER=O
+4	olid	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	NER=O
+5	konsensuslikud	konsensus=lik	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U63-P2.3
+# text = Aitäh!
+1	Aitäh	aitäh	INTJ	I	_	0	root	_	NER=O|SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-EE_2014-12-02_U64
+# newpar id = ParlaMint-EE_2014-12-02_U64-P1
+# lang = et
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.1
+# text = Aitäh!
+1	Aitäh	aitäh	INTJ	I	_	0	root	_	NER=O|SpaceAfter=No
+2	!	!	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.2
+# text = Kas ettekandjale on küsimusi?
+1	Kas	kas	ADV	D	_	2	advmod	_	NER=O
+2	ettekandjale	ette_kandja	NOUN	S	Case=All|Number=Sing	0	root	_	NER=O
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	NER=O
+4	küsimusi	küsimus	NOUN	S	Case=Par|Number=Plur	2	nsubj:cop	_	NER=O|SpaceAfter=No
+5	?	?	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.3
+# text = Ei ole.
+1	Ei	ei	AUX	V	Polarity=Neg	2	aux	_	NER=O
+2	ole	olema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.4
+# text = Avan läbirääkimised.
+1	Avan	avama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	läbirääkimised	läbi_rääkimine	NOUN	S	Case=Nom|Number=Plur	1	obj	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.5
+# text = Kõnesoove ei ole.
+1	Kõnesoove	kõne_soov	NOUN	S	Case=Par|Number=Sing	0	root	_	NER=O
+2	ei	ei	AUX	V	Polarity=Neg	1	aux	_	NER=O
+3	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.6
+# text = Eelnõu 781 esimene lugemine on lõpetatud.
+1	Eelnõu	eel_nõu	NOUN	S	Case=Gen|Number=Sing	4	nmod	_	NER=O
+2	781	781	NUM	N	NumForm=Digit|NumType=Card	1	nummod	_	NER=O
+3	esimene	esimene	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	4	amod	_	NER=O
+4	lugemine	lugemine	NOUN	S	Case=Nom|Number=Sing	6	obj	_	NER=O
+5	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	NER=O
+6	lõpetatud	lõpetama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	Z	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.7
+# text = Määran muudatusettepanekute esitamise tähtajaks 5. detsembri kell 12.
+1	Määran	määrama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	muudatusettepanekute	muudatus_ette_panek	NOUN	S	Case=Gen|Number=Plur	3	nmod	_	NER=O
+3	esitamise	esitamine	NOUN	S	Case=Gen|Number=Sing	4	nmod	_	NER=O
+4	tähtajaks	täht_aeg	NOUN	S	Case=Tra|Number=Sing	1	xcomp	_	NER=O
+5	5.	5.	ADJ	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Ord	6	amod	_	NER=O
+6	detsembri	detsember	NOUN	S	Case=Gen|Number=Sing	7	nmod	_	NER=O
+7	kell	kell	NOUN	S	Case=Nom|Number=Sing	1	obl	_	NER=O
+8	12.	12.	ADJ	N	NumForm=Digit|NumType=Ord	7	amod	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.8
+# text = Istung on lõppenud.
+1	Istung	istung	NOUN	S	Case=Nom|Number=Sing	3	nsubj	_	NER=O
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	lõppenud	lõppema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-EE_2014-12-02_U64-P1.9
+# text = Kohtume homme.
+1	Kohtume	kohtuma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	homme	homme	ADV	D	_	1	advmod	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# newpar id = ParlaMint-EE_2014-12-02_U64-P2
+# lang = et
+# sent_id = ParlaMint-EE_2014-12-02_U64-P2.1
+# text = Istungi lõpp kell 11.35.
+1	Istungi	istung	NOUN	S	Case=Gen|Number=Sing	2	nmod	_	NER=O
+2	lõpp	lõpp	NOUN	S	Case=Nom|Number=Sing	0	root	_	NER=O
+3	kell	kell	NOUN	S	Case=Nom|Number=Sing	2	nmod	_	NER=O
+4	11.35	11.35	NUM	N	NumForm=Digit|NumType=Card	3	nummod	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	Z	_	2	punct	_	NER=O
+

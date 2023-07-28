@@ -17,26 +17,26 @@ foreach $file (@INFILES) {
     $txt = <TBL>;
     undef %c;
     if ($format eq 'xml') {
-	$txt =~ s| +||g; #most spaces are fake spaces
-	$txt =~ s|<[^>]+>||g;
-	$txt =~ s|&lt;|<|g;
-	$txt =~ s|&gt;|>|g;
-	$txt =~ s|&apos;|'|g;
-	$txt =~ s|&quot;|"|g;
-	$txt =~ s|&amp;|&|g;
+        $txt =~ s| +||g; #most spaces are fake spaces
+        $txt =~ s|<[^>]+>||g;
+        $txt =~ s|&lt;|<|g;
+        $txt =~ s|&gt;|>|g;
+        $txt =~ s|&apos;|'|g;
+        $txt =~ s|&quot;|"|g;
+        $txt =~ s|&amp;|&|g;
     }
     for $c (split(//, $txt)) {
-	if    (ord($c) < 33) {$c="&#".ord($c).';'}
-	elsif ($c eq "&")  {$c = '&#38;'}
-	elsif ($c eq ":")  {$c = '&#58;'}
-	$c{$c}++;
+        if    (ord($c) < 33) {$c="&#".ord($c).';'}
+        elsif ($c eq "&")  {$c = '&#38;'}
+        elsif ($c eq ":")  {$c = '&#58;'}
+        $c{$c}++;
     }
     close TBL;
     $n=0;
     @chars=();
     for $c (sort keys %c) {
-	push(@chars,"$c:$c{$c}");
-	$n+=$c{$c};
+        push(@chars,"$c:$c{$c}");
+        $n+=$c{$c};
     }
     print "$fName\t$n\t".join(" ",@chars)."\n";
 }

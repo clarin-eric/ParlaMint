@@ -11,8 +11,10 @@ include "ParlaMint-TEI.rnc" {
   ## Root element of a ParlaMint corpus root file.
   start =
     element teiCorpus {
-      id.att,
-      attribute xml:lang { lang.val },
+      id.att >> a:documentation [ "Obligatory @xml:lang." ],
+      attribute xml:lang { lang.val }
+      >> a:documentation [ "Optional @corresp for MTed corpora." ],
+      corresp.att,
       teiHeader,
       XInclude+
     }
