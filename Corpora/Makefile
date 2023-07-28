@@ -1,3 +1,7 @@
+full-mt-cp-conllu:
+	bin/cp-conllu.pl validate '/home/taja/ParlaMint-*.conllu.translated' '${SOURCES-MT}'
+	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
+
 ############### Makefile for making a distributable version of the ParlaMint and ParlaMint-en corpora
 
 ### VARIABLES
@@ -20,7 +24,7 @@ CORPUS = UA
 
 #Where things are, as we use several branches: this one (most likely dev), and documentation
 PARLAMINT = /project/corpora/Parla/ParlaMint
-HERE = ${PARLAMINT}/ParlaMint-V3/Distro
+HERE = ${PARLAMINT}/ParlaMint-V3/Corpora
 DOC = ${PARLAMINT}/ParlaMint-documentation
 SCH = ${DOC}/Schema
 TEMP = ${HERE}/Temp
@@ -34,7 +38,7 @@ VERSION = 3.1
 HANDLE-TEI = http://hdl.handle.net/11356/1859
 HANDLE-ANA = http://hdl.handle.net/11356/1860
 
-# Version number and PID of future(!) MTed ParlaMint-en.ana release
+# Version number and PID of next(!) MTed ParlaMint-en.ana release
 VERSION-MT = 3.0
 HANDLE-MT = http://hdl.handle.net/11356/1810
 
@@ -49,7 +53,7 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 # because it contains word alignments 
 # Script also adds -en suffix to filesnames + readme.
 mt-cp-conllu:
-	bin/cp-conllu.pl '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
+	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
 
 # Make txt and tsv files with tsvs
 mt-convert-txt:
@@ -168,7 +172,7 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 mt-nohup:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
 mt-all-final:	mt-pack mt-web
-mt-xall-final:	mt-convert mt-verts mt-pack mt-web
+mt-xall-final:	mt-init mt-convert mt-verts mt-pack mt-web
 
 mt-web:
 	rsync -av Logs/*-en*.log ${WEB}/Logs
@@ -206,6 +210,13 @@ mt-convert:
 	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.error.log;  \
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
+
+# Copy, fix and validate MT sources to here
+mt-init:
+	# ParlaMint-XX.notes.translated.tsv -> ParlaMint-XX-en-notes.tsv
+	cp /home/taja/Notes-translated/ParlaMint-*.notes.translated.tsv ${SOURCES-MT}
+	rename -f 's/\.notes.translated/-en-notes/' ${SOURCES-MT}/*.tsv
+	bin/cp-conllu.pl validate '/home/taja/ParlaMint-*.conllu.translated' '${SOURCES-MT}'
 
 ### Tests for debugging MT processing
 mt-test8:
