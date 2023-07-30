@@ -105,7 +105,7 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
 # We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
-$taxonomyDir = "$Bin/../Taxonomies/Taxonomies";
+$taxonomyDir = "$Bin/../Corpora/Taxonomies";
 # Currently we do it only for subcorpus
 $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
 #$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
