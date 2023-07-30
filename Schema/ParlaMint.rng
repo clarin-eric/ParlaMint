@@ -35,6 +35,12 @@
       <oneOrMore>
         <element name="desc">
           <ref name="lang.att"/>
+	  <a:documentation>Optional @n attribute for storing the name of the source corpus for a taxonomy.</a:documentation>
+	  <optional>
+	    <attribute name="n">
+              <data type="string"/>
+	    </attribute>
+	  </optional>
           <ref name="catDesc.content"/>
         </element>
       </oneOrMore>
@@ -52,6 +58,12 @@
       <oneOrMore>
         <element name="catDesc">
           <ref name="lang.att"/>
+	  <a:documentation>Optional @n attribute for storing the name of the source corpus for a taxonomy.</a:documentation>
+	  <optional>
+	    <attribute name="n">
+              <data type="string"/>
+	    </attribute>
+	  </optional>
           <ref name="catDesc.content"/>
         </element>
       </oneOrMore>

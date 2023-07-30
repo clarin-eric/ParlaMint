@@ -1,3 +1,25 @@
+######## Merge taxonomies
+
+TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
+TAXONOMIES-ANA = NER
+
+merge-taxos-nohup:
+	nohup time make merge-taxos 2> Taxonomies/ParlaMint-taxonomy-merge.log > Logs/ParlaMint-taxonomy.log &
+
+merge-taxos:
+	for TAXONOMY in ${TAXONOMIES-TEI}; do \
+	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.template.xml \
+	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.xml \
+	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.xml; \
+	done;
+	for TAXONOMY in ${TAXONOMIES-ANA}; do \
+	$s template=../Corpora/Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.template.xml \
+	-xsl:../Scripts/parlamint-merge-taxonomy.xsl Master/ParlaMint.ana.xml \
+	> Taxonomies/ParlaMint-taxonomy-$${TAXONOMY}.ana.xml; \
+	done;
+	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
+
+###### Copy (and fix) original conllu files first to source-mt directory and then to Master
 full-mt-cp-conllu:
 	bin/cp-conllu.pl validate '/home/taja/ParlaMint-*.conllu.translated' '${SOURCES-MT}'
 	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
@@ -14,7 +36,7 @@ full-mt-cp-conllu:
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = AT
+CORPORA = EE
 
 ######## MTed CORPORA FOR V 3.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -23,10 +45,9 @@ MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en G
 CORPUS = UA
 
 #Where things are, as we use several branches: this one (most likely dev), and documentation
-PARLAMINT = /project/corpora/Parla/ParlaMint
-HERE = ${PARLAMINT}/ParlaMint-V3/Corpora
-DOC = ${PARLAMINT}/ParlaMint-documentation
-SCH = ${DOC}/Schema
+PARLAMINT = /project/corpora/Parla/ParlaMint/ParlaMint-V3
+SCH = ${PARLAMINT}/Schema
+HERE = ${PARLAMINT}/Corpora
 TEMP = ${HERE}/Temp
 
 #Where the submitted corpora are found (ParlaMint- .TEI/ and .TEI.ana/
@@ -166,12 +187,12 @@ final:
 ### Make MTed corpora
 
 # Make distribution with:
-FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahandle ${HANDLE-MT} -schema ${DOC}/Schema -docs ${HERE}/Docs
+FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahandle ${HANDLE-MT} -schema ${PARLAMINT}/Schema -docs ${HERE}/Docs
 
 # Targets
 mt-nohup:
-	nice nohup time make mt-all-final > Logs/ParlaMint-en.3.log &
-mt-all-final:	mt-pack mt-web
+	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
+mt-all-final:	mt-convert
 mt-xall-final:	mt-init mt-convert mt-verts mt-pack mt-web
 
 mt-web:

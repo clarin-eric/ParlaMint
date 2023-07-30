@@ -24,14 +24,28 @@ taxonomy =
   element taxonomy {
     id.att,
     lang.att,
-    element desc { lang.att, catDesc.content }+,
+    element desc {
+      lang.att
+      >> a:documentation [
+           "Optional @n attribute for storing the name of the source corpus for a taxonomy."
+         ],
+      attribute n { xsd:string }?,
+      catDesc.content
+    }+,
     category+
   }
 category =
   element category {
     id.att,
     ana.att?,
-    element catDesc { lang.att, catDesc.content }+,
+    element catDesc {
+      lang.att
+      >> a:documentation [
+           "Optional @n attribute for storing the name of the source corpus for a taxonomy."
+         ],
+      attribute n { xsd:string }?,
+      catDesc.content
+    }+,
     category*
   }
 
