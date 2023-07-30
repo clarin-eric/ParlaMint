@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
-           xml:id="ParlaMint-CZ.ana"
-           xml:lang="cs">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ.ana" xml:lang="cs">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ [ParlaMint.ana SAMPLE]</title>
-            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="cs">Český parlamentní korpus ParlaMint-CZ [ParlaMint.ana]</title>
+            <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ [ParlaMint.ana]</title>
             <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
             <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
-            <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013"/>
-            <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017"/>
-            <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021"/>
+            <meeting ana="#parla.term #parla.lower #parliament.PSP7" n="ps2013">ps2013</meeting>
+            <meeting ana="#parla.term #parla.lower #parliament.PSP8" n="ps2017">ps2017</meeting>
+            <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021">ps2021</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
@@ -27,13 +25,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
-         <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="181310" xml:lang="cs">181.310 promluv</measure>
-            <measure unit="speeches" quantity="181310" xml:lang="en">181,310 speeches</measure>
-            <measure unit="words" quantity="27933321" xml:lang="cs">27.933.321 slov</measure>
-            <measure unit="words" quantity="27933321" xml:lang="en">27,933,321 words</measure>
+         <extent>
+            <measure unit="speeches" quantity="1859" xml:lang="cs">1859 promluv</measure>
+            <measure unit="speeches" quantity="1859" xml:lang="en">1859 speeches</measure>
+            <measure unit="words" quantity="375493" xml:lang="cs">375493 slov</measure>
+            <measure unit="words" quantity="375493" xml:lang="en">375493 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -47,24 +45,24 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2023-06-12">2023-06-12</date>
+            <date when="2023-07-30">RELEASE_DATE</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna</title>
                <title type="main" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies</title>
                <idno type="URI" subtype="parliament">https://www.psp.cz/eknih/</idno>
-               <date from="2013-11-25" to="2022-10-18">25.11.2013 - 18.10.2022</date>
+               <date from="2016-04-13" to="2022-01-28">13.04.2016 - 28.01.2022</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
             <p xml:lang="cs">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -83,65 +81,59 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+         <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="6328"/>
-               <tagUsage gi="date" occurs="180618"/>
-               <tagUsage gi="desc" occurs="31723"/>
-               <tagUsage gi="div" occurs="6328"/>
-               <tagUsage gi="email" occurs="101"/>
-               <tagUsage gi="gap" occurs="1021"/>
-               <tagUsage gi="incident" occurs="169"/>
-               <tagUsage gi="kinesic" occurs="12404"/>
-               <tagUsage gi="link" occurs="33222905"/>
-               <tagUsage gi="linkGrp" occurs="1804699"/>
-               <tagUsage gi="name" occurs="886270"/>
-               <tagUsage gi="note" occurs="223783"/>
-               <tagUsage gi="num" occurs="349372"/>
-               <tagUsage gi="pb" occurs="31252"/>
-               <tagUsage gi="pc" occurs="5117449"/>
-               <tagUsage gi="s" occurs="1804699"/>
-               <tagUsage gi="seg" occurs="477121"/>
-               <tagUsage gi="text" occurs="6328"/>
-               <tagUsage gi="time" occurs="54057"/>
-               <tagUsage gi="u" occurs="181310"/>
-               <tagUsage gi="unit" occurs="3726"/>
-               <tagUsage gi="vocal" occurs="18129"/>
-               <tagUsage gi="w" occurs="28277591"/>
+               <tagUsage gi="text" occurs="50"/>
+               <tagUsage gi="body" occurs="50"/>
+               <tagUsage gi="div" occurs="50"/>
+               <tagUsage gi="note" occurs="2433"/>
+               <tagUsage gi="pb" occurs="388"/>
+               <tagUsage gi="u" occurs="1859"/>
+               <tagUsage gi="seg" occurs="5551"/>
+               <tagUsage gi="kinesic" occurs="191"/>
+               <tagUsage gi="vocal" occurs="182"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="gap" occurs="8"/>
+               <tagUsage gi="desc" occurs="382"/>
+               <tagUsage gi="s" occurs="22430"/>
+               <tagUsage gi="name" occurs="13528"/>
+               <tagUsage gi="time" occurs="658"/>
+               <tagUsage gi="date" occurs="2053"/>
+               <tagUsage gi="unit" occurs="3"/>
+               <tagUsage gi="num" occurs="3695"/>
+               <tagUsage gi="email" occurs="2"/>
+               <tagUsage gi="ref" occurs="0"/>
+               <tagUsage gi="w" occurs="380414"/>
+               <tagUsage gi="pc" occurs="68935"/>
+               <tagUsage gi="linkGrp" occurs="22430"/>
+               <tagUsage gi="link" occurs="446954"/>
             </namespace>
          </tagsDecl>
          <classDecl>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-CZ-taxonomy-meeting.parts.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-speaker_types.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-NER.ana.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-CZ-taxonomy-NER.cnec2.0.ana.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ-taxonomy-meeting.parts.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ-taxonomy-NER.cnec2.0.ana.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
-               <p>Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
+               <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
             </prefixDef>
             <prefixDef ident="ne" matchPattern="(.+)" replacementPattern="#NER.cnec2.0.$1">
-               <p>Taxonomy for named entities (cnec2.0)</p>
+               <p xml:lang="en">Taxonomy for named entities (cnec2.0)</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
             <application ident="UDPipe" version="2">
                <label>UDPipe 2 (czech-pdt-ud-2.10-220711 model)</label>
-               <desc>POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with czech-pdt-ud-2.10-220711 model</desc>
+               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with czech-pdt-ud-2.10-220711 model</desc>
             </application>
             <application ident="NameTag" version="2">
                <label>NameTag 2 (czech-cnec2.0-200831 model)</label>
-               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with czech-cnec2.0-200831 model (<ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities has been merged to four categories (PER, LOC, ORG, MISC).</desc>
+               <desc xml:lang="en">Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with czech-cnec2.0-200831 model (<ref target="http://hdl.handle.net/11234/1-3443">http://hdl.handle.net/11234/1-3443</ref>). Posprocessing: nested named entities have been merged into four categories (PER, LOC, ORG, MISC).</desc>
             </application>
          </appInfo>
       </encodingDesc>
@@ -152,17 +144,15 @@
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
                <name type="country" key="CZ">Czech Republic</name>
-               <date from="2013-11-25" to="2022-10-18">25.11.2013 - 18.10.2022</date>
+               <date from="2016-04-13" to="2022-01-28">13.04.2016 - 28.01.2022</date>
             </setting>
          </settingDesc>
          <textClass>
-            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
-                    target="#parla.bi #parla.lower"/>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.bi #parla.lower"/>
          </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ-listOrg.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-                        href="ParlaMint-CZ-listPerson.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ-listPerson.xml"/>
          </particDesc>
          <langUsage>
             <language ident="cs" xml:lang="cs">čeština</language>
@@ -171,15 +161,50 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change when="2023-06-12">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
-      </revisionDesc>
    </teiHeader>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-CZ_2016-09-08-ps2013-049-03-018-187.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-CZ_2019-09-25-ps2017-034-06-001-315.ana.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-CZ_2022-10-18-ps2021-042-01-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-001-157.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-002-158.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-003-159.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-004-165.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-005-156.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-006-162.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-007-163.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-008-164.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-009-046.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-010-052.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-011-048.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-012-049.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-013-114.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-014-016.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-015-018.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2016-04-13-ps2013-044-02-016-098.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2018-11-13-ps2017-020-09-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2018-11-13-ps2017-020-09-001-018.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2018-11-13-ps2017-020-09-002-012.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2018-11-13-ps2017-020-09-003-056.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2018-11-13-ps2017-020-09-004-010.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-11-ps2021-006-01-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-11-ps2021-006-01-001-001.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-11-ps2021-006-01-002-002.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-11-ps2021-006-01-003-003.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-11-ps2021-006-01-004-004.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-11-ps2021-006-01-005-005.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-12-ps2021-006-02-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-13-ps2021-006-03-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-14-ps2021-006-04-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-25-ps2021-006-05-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-25-ps2021-006-05-002-060.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-25-ps2021-006-05-003-061.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-26-ps2021-006-06-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-26-ps2021-006-06-001-061.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-26-ps2021-006-06-002-079.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-26-ps2021-006-06-003-037.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-26-ps2021-006-06-004-042.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-26-ps2021-006-06-005-043.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-28-ps2021-006-08-000-000.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-28-ps2021-006-08-001-082.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-28-ps2021-006-08-002-057.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-28-ps2021-006-08-003-058.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ_2022-01-28-ps2021-006-08-004-036.ana.xml"/>
 </teiCorpus>
