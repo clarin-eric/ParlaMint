@@ -105,7 +105,7 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
 # We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
-$taxonomyDir = "$Bin/../Data/Taxonomies";
+$taxonomyDir = "$Bin/../Taxonomies/Taxonomies";
 # Currently we do it only for subcorpus
 $taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
 #$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
@@ -301,7 +301,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 sub commonTaxonomies {
     my $Dir = shift;
     foreach my $taxonomy (sort keys %taxonomy) {
-	`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	if (-e $taxonomy{$taxonomy}) {
+	    #This should not be a simple cp, but rather script that retains only relevant langauge(s)!!! 
+	    `cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	}
+	else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
     }
     return 1;
 }
