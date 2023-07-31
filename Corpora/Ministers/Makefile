@@ -1,7 +1,7 @@
-MC = PL
+MC = AT
 TSV = ../Data/Ministers/ParlaMint_ministers-${MC}.edited.tsv
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
-V3  = /project/corpora/Parla/ParlaMint/V3/Master
+V3  = /project/corpora/Parla/ParlaMint/ParlaMint-V3/Corpora/Master
 IN2 = ${V2}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3 = ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml
 IN3lp = ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml
