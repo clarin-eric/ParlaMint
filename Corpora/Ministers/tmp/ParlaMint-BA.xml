@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="bs" xml:id="ParlaMint-BA">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bs">Bosanski parlamentarni korpus ParlaMint-BA [ParlaMint]</title>
+            <title type="main" xml:lang="en">Bosnian parliamentary corpus ParlaMint-BA [ParlaMint]</title>
+            <title type="sub" xml:lang="bs">Zapisnici sjednica parlamentarne skupštine, sazivi 2-8(1998-11-26 - 2022-07-27)</title>
+            <title type="sub" xml:lang="en">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina, Terms 4-12(1998-11-26 -2022-07-27)</title>
+            <meeting n="2" corresp="#PS" ana="#parla.uni #parla.term #PS.2">2. saziv</meeting>
+            <meeting n="3" corresp="#PS" ana="#parla.uni #parla.term #PS.3">3. saziv</meeting>
+            <meeting n="4" corresp="#PS" ana="#parla.uni #parla.term #PS.4">4. saziv</meeting>
+            <meeting n="5" corresp="#PS" ana="#parla.uni #parla.term #PS.5">5. saziv</meeting>
+            <meeting n="6" corresp="#PS" ana="#parla.uni #parla.term #PS.6">6. saziv</meeting>
+            <meeting n="7" corresp="#PS" ana="#parla.uni #parla.term #PS.7">7. saziv</meeting>
+            <meeting n="8" corresp="#PS" ana="#parla.uni #parla.term #PS.8">8. saziv</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+               <resp xml:lang="bs">Preuzimanje i čiščenje digitalnog izvora</resp>
+               <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="bs">Kodiranje Parla-CLARIN TEI XML</resp>
+               <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Peter Rupnik</persName>
+               <resp xml:lang="bs">Kodiranje</resp>
+               <resp xml:lang="en">Construct TEI files from source</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="126252" xml:lang="bs">126,252 govora</measure>
+            <measure unit="speeches" quantity="126252" xml:lang="en">126,252 speeches</measure>
+            <measure unit="words" quantity="18307498" xml:lang="bs">18,307,498 riječi</measure>
+            <measure unit="words" quantity="18307498" xml:lang="en">18,307,498 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="bs">Istraživačka infrastrukutra CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="bs">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-06-12">2023-06-12</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Parliamentary Assembly of Bosnia and Herzegovina</title>
+               <idno type="URI" subtype="parliament">https://www.javnarasprava.ba/</idno>
+               <idno type="URI" subtype="parliament">http://www.parlament.ba/</idno>
+               <date from="1998-11-26" to="2022-07-27">1998-11-26 - 2022-07-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="bs"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for spacing.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="743"/>
+               <tagUsage gi="desc" occurs="7162"/>
+               <tagUsage gi="div" occurs="743"/>
+               <tagUsage gi="gap" occurs="3679"/>
+               <tagUsage gi="incident" occurs="1864"/>
+               <tagUsage gi="kinesic" occurs="80"/>
+               <tagUsage gi="note" occurs="126326"/>
+               <tagUsage gi="seg" occurs="133887"/>
+               <tagUsage gi="text" occurs="743"/>
+               <tagUsage gi="u" occurs="126252"/>
+               <tagUsage gi="vocal" occurs="1539"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Trg BiH 1</name>
+               <name type="city">Sarajevo</name>
+               <name type="country" key="BA">Bosnia</name>
+               <date from="1998-11-26" to="2022-07-27">1998-11-26 - 2022-07-27</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature" target="#parla.uni"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BA-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-BA-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="bs" xml:lang="bs">bosanski</language>
+            <language ident="bs" xml:lang="en">Bosnian</language>
+            <language ident="en" xml:lang="bs">engleski</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2023-06-12">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2022-12-15">
+            <name>Peter Rupnik</name> Initial commit</change>
+         <change when="2023-06-12">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1998/ParlaMint-BA_1998-11-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1998/ParlaMint-BA_1998-12-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1998/ParlaMint-BA_1998-12-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-01-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-01-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-02-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-02-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-05-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-05-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-06-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-07-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-07-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-07-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-07-27-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-08-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-08-31-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-09-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-10-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-10-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-11-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-11-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-11-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-12-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-12-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-12-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="1999/ParlaMint-BA_1999-12-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-01-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-02-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-03-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-03-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-03-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-03-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-04-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-04-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-04-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-05-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-06-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-06-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-06-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-06-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-07-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-07-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-07-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-08-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-09-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-10-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-10-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-10-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2000/ParlaMint-BA_2000-12-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-01-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-02-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-02-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-03-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-03-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-03-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-03-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-04-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-04-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-05-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-05-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-06-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-06-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-06-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-06-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-07-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-07-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-07-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-08-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-08-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-10-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-10-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-10-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-11-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-11-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-11-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-12-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-12-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2001/ParlaMint-BA_2001-12-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-01-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-01-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-02-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-02-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-03-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-03-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-03-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-04-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-04-17-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-04-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-05-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-05-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-05-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-05-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-06-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-06-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-07-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-07-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-07-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-07-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-07-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-08-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-09-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-09-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-09-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-10-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-12-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-12-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-12-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-12-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2002/ParlaMint-BA_2002-12-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-01-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-01-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-01-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-02-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-02-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-02-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-03-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-03-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-03-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-04-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-04-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-04-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-04-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-04-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-05-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-05-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-06-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-06-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-06-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-06-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-07-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-07-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-08-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-09-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-09-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-09-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-09-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-10-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-10-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-10-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-11-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-11-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-11-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-12-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-12-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-12-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-12-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2003/ParlaMint-BA_2003-12-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-01-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-01-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-02-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-02-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-02-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-03-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-03-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-03-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-04-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-04-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-04-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-04-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-04-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-05-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-05-04-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-05-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-05-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-05-21-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-06-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-06-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-06-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-06-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-07-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-07-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-07-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-09-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-09-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-09-09-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-09-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-09-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-09-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-10-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-10-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-11-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-11-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-12-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-12-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-12-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-12-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-12-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2004/ParlaMint-BA_2004-12-29-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-01-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-01-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-02-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-02-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-02-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-03-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-03-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-04-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-04-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-04-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-05-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-05-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-05-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-05-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-06-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-06-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-06-29-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-06-29-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-06-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-06-30-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-07-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-07-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-08-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-09-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-09-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-09-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-09-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-10-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-10-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-10-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-10-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-10-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-11-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-11-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-11-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-12-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2005/ParlaMint-BA_2005-12-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-01-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-01-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-01-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-02-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-02-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-03-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-03-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-03-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-04-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-04-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-04-13-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-04-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-05-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-05-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-05-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-06-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-06-20-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-07-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-07-07-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-07-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-08-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-09-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-09-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-09-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2006/ParlaMint-BA_2006-11-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-01-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-02-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-02-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-03-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-03-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-03-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-03-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-03-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-04-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-04-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-04-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-05-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-05-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-06-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-06-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-06-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-07-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-07-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-07-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-09-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-09-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-09-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-10-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-10-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-10-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-11-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-11-30-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-12-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-12-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-12-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-12-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2007/ParlaMint-BA_2007-12-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-01-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-01-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-02-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-02-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-02-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-02-25-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-02-25-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-03-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-03-18-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-03-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-03-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-03-20-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-04-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-04-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-04-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-04-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-04-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-04-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-05-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-05-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-06-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-06-04-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-06-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-06-17-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-06-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-07-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-07-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-07-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-07-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-07-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-09-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-09-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-09-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-08-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-22-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-10-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-11-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-11-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-11-19-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-12-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-12-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-12-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-12-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2008/ParlaMint-BA_2008-12-29-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-01-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-01-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-02-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-02-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-02-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-03-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-03-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-03-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-03-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-03-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-04-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-04-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-04-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-04-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-05-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-05-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-05-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-06-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-06-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-06-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-06-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-07-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-07-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-07-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-07-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-07-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-09-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-09-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-09-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-09-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-10-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-10-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-10-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-11-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-11-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-11-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-30-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-30-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2009/ParlaMint-BA_2009-12-30-3.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-01-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-01-21-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-02-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-02-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-02-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-03-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-03-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-03-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-03-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-04-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-04-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-04-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-04-19-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-04-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-05-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-05-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-05-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-06-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-06-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-06-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-07-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-07-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-07-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-09-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-11-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2010/ParlaMint-BA_2010-12-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-06-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-06-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-06-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-06-29-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-07-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-07-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-07-15-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-07-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-08-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-09-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-09-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-09-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-09-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-10-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-10-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-11-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-11-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2011/ParlaMint-BA_2011-12-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-01-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-01-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-03-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-02-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-03-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-03-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-04-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-04-19-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-05-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-05-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-05-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-05-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-05-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-06-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-06-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-06-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-07-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-07-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-07-19-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-07-19-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-07-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-09-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-09-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-10-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-10-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-11-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-11-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-11-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-06-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-06-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-06-3.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-06-4.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2012/ParlaMint-BA_2012-12-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-01-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-01-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-01-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-02-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-02-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-02-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-03-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-03-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-03-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-04-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-04-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-05-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-05-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-06-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-07-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-07-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-07-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-07-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-07-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-08-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-09-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-09-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-10-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-10-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-10-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-11-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-11-05-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-11-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-05-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-16-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-30-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2013/ParlaMint-BA_2013-12-30-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-01-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-01-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-02-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-02-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-03-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-03-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-03-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-04-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-04-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-05-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-05-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-06-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-06-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-07-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-07-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-07-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-07-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-07-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-09-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-09-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-09-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-12-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2014/ParlaMint-BA_2014-12-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-01-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-01-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-01-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-01-29-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-11-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-23-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-02-26-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-03-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-03-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-03-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-03-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-04-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-05-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-05-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-05-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-05-28-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-06-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-06-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-06-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-07-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-07-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-07-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-08-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-09-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-09-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-10-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-10-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-10-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-11-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-11-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-12-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-12-10-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-12-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2015/ParlaMint-BA_2015-12-30-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-01-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-02-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-02-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-02-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-03-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-03-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-03-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-04-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-04-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-04-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-04-27-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-05-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-05-11-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-05-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-05-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-05-27-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-05-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-06-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-06-15-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-06-15-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-06-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-06-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-07-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-07-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-08-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-08-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-08-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-10-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-10-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-11-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-11-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-11-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-12-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-12-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2016/ParlaMint-BA_2016-12-15-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-01-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-02-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-02-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-03-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-03-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-04-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-04-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-04-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-05-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-05-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-05-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-05-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-06-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-06-14-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-06-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-07-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-07-05-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-07-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-07-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-09-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-09-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-09-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-09-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-10-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-11-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-11-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-12-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-12-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-12-14-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-12-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-12-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2017/ParlaMint-BA_2017-12-22-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-01-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-01-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-01-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-01-31-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-02-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-02-20-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-03-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-03-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-04-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-04-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-04-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-04-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-05-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-05-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-05-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-06-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-06-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-07-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-07-05-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-07-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-07-26-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-09-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-09-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-09-17-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2018/ParlaMint-BA_2018-12-06-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-02-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-03-13-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-04-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-06-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-06-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-06-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-11-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-12-05-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-12-18-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-12-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-12-20-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2019/ParlaMint-BA_2019-12-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-01-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-01-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-01-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-02-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-02-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-02-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-03-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-03-11-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-04-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-05-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-05-19-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-05-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-05-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-06-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-06-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-06-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-15-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-21-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-21-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-21-2.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-07-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-09-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-09-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-10-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-10-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-11-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2020/ParlaMint-BA_2020-12-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-01-11-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-01-12-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-02-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-02-10-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-02-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-03-02-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-03-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-04-08-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-04-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-04-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-05-25-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-05-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-06-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-07-01-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-07-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-09-20-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-10-26-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-10-28-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-11-29-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2021/ParlaMint-BA_2021-12-14-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-02-03-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-02-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-03-04-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-03-09-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-03-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-03-24-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-03-31-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-04-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-04-27-1.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-05-16-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-05-23-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-06-07-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-06-15-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-06-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-06-30-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-07-27-0.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="2022/ParlaMint-BA_2022-07-27-1.xml"/>
+</teiCorpus>
+
