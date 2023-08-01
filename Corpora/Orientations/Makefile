@@ -1,14 +1,14 @@
 MC = BA
-HERE = /project/corpora/Parla/ParlaMint/ParlaMint-V3/Corpora/Orientations
-V3  = /project/corpora/Parla/ParlaMint/ParlaMint-V3/Corpora/Master
+HERE = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Orientations
+DATA = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Master
 RUN = ../../Scripts
 SCH = ../../Schema
 OUT = tmp
 
 ## Generate TSV files for party information on the basis of the corpus root files.
 generate-parties:
-	$s path=${V3} outDir=New -xsl:${RUN}/parties-tei2tsv.xsl \
-	${V3}/ParlaMint.xml 2> ParlaMint_parties.log
+	$s path=${DATA} outDir=New -xsl:${RUN}/parties-tei2tsv.xsl \
+	${DATA}/ParlaMint.xml 2> ParlaMint_parties.log
 
 ## Insert political orientation of parties from TSV into a ParlaMint root file.
 test-parlamint:
@@ -47,9 +47,9 @@ test-orientation-parlamint-1:
 
 test-orientation:
 	$s tsv=${HERE}/Orientation-${MC}.tsv -xsl:${RUN}/orientations-tsv2tei.xsl \
-	${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
+	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
 	${vro} tmp/ParlaMint-${MC}-listOrg.xml
-	#-diff -b ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
+	#-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
 
 ######################VARIABLES
 s = java -jar /usr/share/java/saxon.jar

@@ -36,7 +36,7 @@ full-mt-cp-conllu:
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = EE
+CORPORA = ES-CT
 
 ######## MTed CORPORA FOR V 3.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -45,7 +45,7 @@ MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en G
 CORPUS = UA
 
 #Where things are, as we use several branches: this one (most likely dev), and documentation
-PARLAMINT = /project/corpora/Parla/ParlaMint/ParlaMint-V3
+PARLAMINT = /project/corpora/Parla/ParlaMint/ParlaMint
 SCH = ${PARLAMINT}/Schema
 HERE = ${PARLAMINT}/Corpora
 TEMP = ${HERE}/Temp
@@ -161,7 +161,7 @@ nohup:
 nohup2:
 	nice nohup time make all > Logs/ParlaMint.2.log &
 
-all:	final
+all:	final verts
 xall:	final verts pack
 
 pack:

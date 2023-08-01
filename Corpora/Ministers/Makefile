@@ -1,6 +1,6 @@
 MC = BA
 V2  = /project/corpora/Parla/ParlaMint/V2/MasterV2.1
-V3  = /project/corpora/Parla/ParlaMint/ParlaMint-V3/Corpora/Master
+V3  = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Master
 OUT = tmp
 
 analyse:
