@@ -34,13 +34,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>2.0</edition>
+            <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="1442" xml:lang="es">1.442 intervenciones</measure>
-            <measure unit="speeches" quantity="1442" xml:lang="en">1,442 speeches</measure>
-            <measure quantity="0" unit="words" xml:lang="es">0 palabras</measure>
-            <measure quantity="0" unit="words" xml:lang="en">0 words</measure>
+            <measure unit="speeches" quantity="658" xml:lang="es">658 intervenciones</measure>
+            <measure unit="speeches" quantity="658" xml:lang="en">658 speeches</measure>
+            <measure unit="words" quantity="229202" xml:lang="es">229202 palabras</measure>
+            <measure unit="words" quantity="229202" xml:lang="en">229202 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -48,13 +48,13 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-08-01">August 1, 2023</date>
+            <date when="2023-08-03">2023-08-03</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -71,7 +71,7 @@
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
             </p>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
@@ -92,13 +92,19 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="10"/>
-               <tagUsage gi="div" occurs="50"/>
-               <tagUsage gi="head" occurs="49"/>
-               <tagUsage gi="seg" occurs="5256"/>
-               <tagUsage gi="note" occurs="1906"/>
-               <tagUsage gi="pb" occurs="628"/>
-               <tagUsage gi="u" occurs="1442"/>
+               <tagUsage gi="body" occurs="6"/>
+               <tagUsage gi="desc" occurs="1020"/>
+               <tagUsage gi="div" occurs="39"/>
+               <tagUsage gi="gap" occurs="10"/>
+               <tagUsage gi="head" occurs="38"/>
+               <tagUsage gi="incident" occurs="87"/>
+               <tagUsage gi="kinesic" occurs="689"/>
+               <tagUsage gi="note" occurs="43"/>
+               <tagUsage gi="pb" occurs="292"/>
+               <tagUsage gi="seg" occurs="2421"/>
+               <tagUsage gi="text" occurs="6"/>
+               <tagUsage gi="u" occurs="658"/>
+               <tagUsage gi="vocal" occurs="234"/>
             </namespace>
          </tagsDecl>
          <classDecl>
@@ -119,6 +125,10 @@
                <date from="2015-01-20" to="2023-02-23">2015-01-20 - 2023-02-23</date>
             </setting>
          </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.bi #parla.lower"/>
+         </textClass>
          <particDesc>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-ES-listOrg.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -131,29 +141,17 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change when="2023-08-01">
-            <name>Tomaž Erjavec</name>: Conversion to ParlaMint TEI.</change>
-      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2015-01-20-CD150120.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2016-01-13-CD160113.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2017-01-31-CD170131.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2018-02-06-CD180206.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2019-01-22-CD190122.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2020-01-04-CD200104.xml"/>
-   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2021-01-28-CD210128.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2022-01-25-CD220125.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-               href="ParlaMint-ES_2023-01-24-CD230124.xml"/>
+               href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
 </teiCorpus>
