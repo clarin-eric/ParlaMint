@@ -94,17 +94,16 @@
       <xsl:message>
         <xsl:text>INFO: For </xsl:text>
         <xsl:value-of select="$corpusCountry"/>
-        <xsl:text> assigned states to </xsl:text>
+        <xsl:text> assigned orientations to </xsl:text>
         <xsl:value-of select="count($parties/tei:org[tei:state[@type='politicalOrientation']])"/>
         <xsl:text> out of </xsl:text>
         <xsl:value-of select="count($parties/tei:org)"/>
-        <xsl:text> orgs.</xsl:text>
+        <xsl:text> orgs: </xsl:text>
         <xsl:text> CHES = </xsl:text>
         <xsl:value-of select="count($parties/tei:org[tei:state[@subtype='CHES']])"/>
-	
         <xsl:text>, Wiki = </xsl:text>
         <xsl:value-of select="count($parties/tei:org[tei:state[@subtype = 'Wikipedia']])"/>
-        <xsl:text>, unknown = </xsl:text>
+        <xsl:text>, other = </xsl:text>
         <xsl:value-of select="count($parties/tei:org[tei:state[@subtype='unknown']])"/>
         <xsl:text>, CHES + Wiki = </xsl:text>
         <xsl:value-of select="count($parties/tei:org
@@ -114,8 +113,12 @@
                               [not(tei:state[@subtype='CHES']) and tei:state[@subtype='Wikipedia']])"/>
         <xsl:text>, CHES only = </xsl:text>
         <xsl:value-of select="count($parties/tei:org
-                              [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
+                              [tei:state[@subtype = 'CHES'] and not(tei:state[@subtype = 'Wikipedia'])])"/>
       </xsl:message>
+      <xsl:for-each select="$parties/tei:org[not(tei:state[@type = 'politicalOrientation'])]">
+	<xsl:message select="concat('WARN: For ', $corpusCountry, ' missing orientation for ', 
+			     @role, ' ', @xml:id)"/>
+      </xsl:for-each>
       <xsl:copy-of select="$parties"/>
       <!-- Copy any other elements, like listRelation -->
       <xsl:copy-of select="tei:*[not(self::tei:org)]"/>

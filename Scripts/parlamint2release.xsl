@@ -180,6 +180,24 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template mode="root" match="tei:langUsage/tei:language">
+    <xsl:copy>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:variable name="okName" select="concat(upper-case(substring(., 1, 1)), lower-case(substring(., 2)))"/>
+      <xsl:choose>
+	<!-- English names of languages should be in title case -->
+	<xsl:when test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en' and . != $okName">
+	  <xsl:value-of select="$okName"/>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': changing language name from ', ., ' to ', $okName)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="normalize-space(.)"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+  
   <!-- Remove the two "speaker" parties from GB, i.e. 
        <org role="politicalParty" xml:id="party.S">
          <orgName full="yes">Speaker</orgName>
@@ -430,7 +448,7 @@
   </xsl:template>
       
   <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
-  <xsl:template mode="comp" match="tei:body//tei:name[not(tei:w)]">
+  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing name tag as name ', normalize-space(.), 
 			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
