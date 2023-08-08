@@ -96,12 +96,12 @@
                <tagUsage gi="gap" occurs="8"/>
                <tagUsage gi="desc" occurs="382"/>
                <tagUsage gi="s" occurs="22430"/>
-               <tagUsage gi="name" occurs="13528"/>
-               <tagUsage gi="time" occurs="658"/>
-               <tagUsage gi="date" occurs="2053"/>
-               <tagUsage gi="unit" occurs="3"/>
-               <tagUsage gi="num" occurs="3695"/>
-               <tagUsage gi="email" occurs="2"/>
+               <tagUsage gi="name" occurs="9973"/>
+               <tagUsage gi="time" occurs="379"/>
+               <tagUsage gi="date" occurs="0"/>
+               <tagUsage gi="unit" occurs="0"/>
+               <tagUsage gi="num" occurs="0"/>
+               <tagUsage gi="email" occurs="0"/>
                <tagUsage gi="ref" occurs="0"/>
                <tagUsage gi="w" occurs="380414"/>
                <tagUsage gi="pc" occurs="68935"/>
@@ -115,15 +115,11 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-UD-SYN.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-NER.ana.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-CZ-taxonomy-NER.cnec2.0.ana.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-taxonomy-subcorpus.xml"/>
          </classDecl>
          <listPrefixDef>
             <prefixDef ident="ud-syn" matchPattern="(.+)" replacementPattern="#$1">
                <p xml:lang="en">Private URIs with this prefix point to elements giving their name. In this document they are simply local references into the UD-SYN taxonomy categories in the corpus root TEI header.</p>
-            </prefixDef>
-            <prefixDef ident="ne" matchPattern="(.+)" replacementPattern="#NER.cnec2.0.$1">
-               <p xml:lang="en">Taxonomy for named entities (cnec2.0)</p>
             </prefixDef>
          </listPrefixDef>
          <appInfo>
