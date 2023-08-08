@@ -6,7 +6,7 @@
 
 ### Characteristics of the national parliament
 
-Spain’s Cortes Generales is a bicameral parliamentary system consisting of an Upper House (Senado) and a Lower House (Congreso de los Diputados). ParlaMint-ES contains transcripts of the Plenary Sessions of the latter Chamber from 01/01/2015 31/12/2020. This time span corresponds to the latter part of the 10th Legislature (13th December 2011- 12th January 2016); the whole 11th legislature (13th January 2016- 18th July 2016); the whole 12th legislature (19th July 2016-20th May 2019); the whole 13th legislature (21st May 2019- 2nd December 2019), and the 14th legislature (from 3rd December  up to the present date).
+Spain’s Cortes Generales is a bicameral parliamentary system consisting of an Upper House (Senado) and a Lower House (Congreso de los Diputados). ParlaMint-ES-v-3.0 contains transcripts of the Plenary Sessions of the latter Chamber from 01/01/2015 to 23/02/2023. This time span corresponds to the latter part of the 10th Legislature (13th December 2011- 12th January 2016); the whole 11th legislature (13th January 2016- 18th July 2016); the whole 12th legislature (19th July 2016-20th May 2019); the whole 13th legislature (21st May 2019- 2nd December 2019), and the 14th legislature (from 3rd December, 2019 up to 23rd February, 2023).
 
 The Congreso de los Diputados has 350 members (or MPs). They are elected to represent  52 constituencies (for the fifty Spanish provinces and two autonomous cities). The electing method is that of D’hont-informed proportional representation. MPs serve four-year terms in political groups (which may be formed by several political parties). In fact, groups must have at least 15 MPs. A group can also be formed with only 5 MPs if their parties obtained at least 5% of the nationwide vote or 15% of the votes in their original  constituencies. MPs who cannot create a Group form the Mixed Group. The functions and organisation of the Congreso de los Diputados is explained in its website
 
@@ -21,14 +21,13 @@ The source data were obtained by scraping from the parliamentary website (https:
 The conversion work-flow has several stages:
 
 - Work with parliamentary interventions:
-   - Step 1: Cleaning of HTML to get rid of unnecessary noise.
-   - Step 2: Conversion of HTML into the ECPC XML, by running regex-based scripts.
-   - Step 3: Conversion of ECPC XML format into ParlaMint TEI, with scripts and schemas developed by Tomaz Erjavec (see https://github.com/clarin-eric/ParlaMint).
-- Work with metadata:
-   - Step 1: Cleaning of HTML to get rid of unnecessary noise.
-   - Step 2: Conversion of HTML into ECPC XML, by running regex-based scripts.
-   - Step 3: Merging of all metadata in a common txt file.
-   - Step 4: Enriching parliamentary interventions (in ECPC XML format) with common txt file of metadata by using a perl script.
+   - Step 1: Cleaning of HTML to get rid of unnecessary noise (María Calzada Pérez and Monica ALbini).
+   - Step 2: Conversion of HTML into the ECPC XML, by running regex-based scripts (María Calzada Pérez and Rubén de Líbano).
+   - Step 3: Conversion of ECPC XML format into ParlaMint TEI, with scripts and schemas developed by Tomaz Erjavec (see https://github.com/clarin-eric/ParlaMint) and run by María Calzada Pérez and María del Mar Bonet Ramos) for version 3.0.
+   - Step 4: Enriching parliamentary interventions (in ECPC XML format) with common txt file of metadata by using a perl script (María Calzada Pérez).
+   - Step 5: Quality Control (Monica ALbini).
+
+All steps supervised and finalised by Matyas Kopp.
 
 ### Corpus-specific metadata
 
@@ -39,7 +38,7 @@ Apart from the common structure, original ECPC XML files contain:
    2. the political groups (and not just parties) of the Congreso de los Diputados, for each legislature
    3. constituencies of all MPs
 - As part of  intervention / speech metadata:
-   4. The original page number of published Parliamentary records. This is not present in the ana.xml version of ParlaMint-ES (to avoid unnecessary noise).
+   4. Notes complying with Parlamint-TEI (https://clarin-eric.github.io/ParlaMint/#TEI.note). 
 
 ### Linguistic annotation
 
