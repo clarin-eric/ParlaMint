@@ -36,7 +36,7 @@ full-mt-cp-conllu:
 # CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = ES-CT
+CORPORA = ES
 
 ######## MTed CORPORA FOR V 3.0
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -290,7 +290,7 @@ mt-prep-cnv:
 test1:
 	rm -fr Test/Out/ParlaMint-${CORPUS}*
 	perl ../Scripts/parlamint2distro.pl -all -codes ${CORPUS} -in Test/In -out Test/Out \
-	-version 3.0 -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
+	-version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
 
 test-factorize:
 	rm -fr Test/Factorized/ParlaMint-${CORPUS}*
