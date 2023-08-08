@@ -86,37 +86,32 @@ orgName =
     normalized-space.string
   }
 
-## Element defining the political orientation of a politicalParty or parliamentaryGroup.
+## Element defining political metadata of a politicalParty or parliamentaryGroup.
 state =
   
-  ## The type of state is fixed, as we use state only for political orientation.
+  ## The type (source) of state.
   element state {
-    attribute type { stateType.val }
-    >> a:documentation [
-         "The subtype of state gives the source of this information."
-       ],
-    attribute subtype { stateSubtype.val },
+    attribute type { stateType.val }?,
     source.att,
     
-    ## The political orientation if given as a numeric value.
+    ## The value of a some metadatum.
     (attribute n { xsd:decimal }?)
+    >> a:documentation [
+         "Optional pointer to the category of a metadatum."
+       ],
+    (attribute ana { xsd:anyURI }?)
     >> a:documentation [ "From - to when this information holds." ],
     (temporal.atts?)
     >> a:documentation [
-         "Pointer to category of a political orientation."
+         "Abbreviation(s) of the political party in the source."
        ],
-    attribute ana { xsd:anyURI }
+    ((element label { orgName+ }
+      >> a:documentation [ "Optional note(s)." ]
+      | element note { lang.att, normalized-space.string }+)?)
     >> a:documentation [
-         "Abbreviation of the political party in the source."
+         "Subsidiary states giving more detailed information, e.g. by type of metadatum or by year."
        ],
-    (element label {
-       element orgName {
-         attribute full { "abb" },
-         normalized-space.string
-       }
-     }
-     >> a:documentation [ "Optional note(s)." ]
-     | element note { lang.att, normalized-space.string }+)?
+    state*
   }
 
 ## A list of events connected to organisations.
@@ -202,7 +197,7 @@ affiliation =
     >> a:documentation [
          "The name of the organisation they are affiliated with."
        ],
-    (element orgName { lang.att, normalized-space.string }*)
+    (orgName*)
     >> a:documentation [
          "Optional note for free-text description of the affiliation period."
        ],
@@ -387,10 +382,19 @@ XInclude =
 a:documentation [ "Fixed ParlaMint vocabularies of attribute values:" ]
 
 ## The types of states of organisations distinguished.
-stateType.val = "politicalOrientation"
-
-## The subtypes of states of organisations distinguished.
-stateSubtype.val = "CHES" | "Wikipedia" | "unknown"
+stateType.val =
+  
+  ## Data from Chapel Hill Survey.
+  (
+   ## Data on political orientation.
+   "CHES"
+   | 
+     ## Data from Wikipedia.
+     "politicalOrientation"
+   | 
+     ## Data by an encoder.
+     "Wikipedia"
+   | "encoder")
 
 ## Legal values of the names of relation between
 ##     organisations.

@@ -1,4 +1,15 @@
-MC = BA
+MC = UA
+test-wiki:
+	$s tsv=${HERE}/Orientation-${MC}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl \
+	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
+	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
+test-ches:
+	$s tsv=${HERE}/Orientation-${MC}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl \
+	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
+	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	#-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
+
 HERE = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Orientations
 DATA = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Master
 RUN = ../../Scripts
@@ -10,42 +21,61 @@ generate-parties:
 	$s path=${DATA} outDir=New -xsl:${RUN}/parties-tei2tsv.xsl \
 	${DATA}/ParlaMint.xml 2> ParlaMint_parties.log
 
+#All CHES corpora:
+#CORPORA = AT BE BG CZ DK EE ES FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
+#CHES corpora for current ParlaMint:
+#CORPORA = AT BE BG CZ DK EE FR GB GR HR HU IS IT LV NL NO PL PT SE SI TR
+#All ParlaMint submitted corpora (missing FI, LT, RO):
+CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+test-all-wiki:
+	for CORPUS in ${CORPORA}; do \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl \
+	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	done;
+
+test-all-ches:
+	for CORPUS in ${CORPORA}; do \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl \
+	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	done;
+
 ## Insert political orientation of parties from TSV into a ParlaMint root file.
-test-parlamint:
-	make test-orientation-parlamint-2 2> insert.log
-test-orientation-parlamint-2:
-	make test-orientation MC=BA
-	make test-orientation MC=ES-GA
-	make test-orientation MC=ES-CT
-	make test-orientation MC=RS
-	make test-orientation MC=UA
-test-orientation-parlamint-1:
-	make test-orientation MC=HU
-	make test-orientation MC=NO
-	make test-orientation MC=SE
+xxxtest-parlamint:
+	make test-orientation-parlamint 2> insert.log
+xxxtest-orientation-parlamint:
 	make test-orientation MC=AT
+	make test-orientation MC=BA
 	make test-orientation MC=BE
 	make test-orientation MC=BG
 	make test-orientation MC=CZ
 	make test-orientation MC=DK
 	make test-orientation MC=EE
+	make test-orientation MC=ES-CT
+	make test-orientation MC=ES-GA
 	make test-orientation MC=FR
 	make test-orientation MC=GB
 	make test-orientation MC=GR
 	make test-orientation MC=HR
+	make test-orientation MC=HU
 	make test-orientation MC=HU
 	make test-orientation MC=IS
 	make test-orientation MC=IT
 	make test-orientation MC=LV
 	make test-orientation MC=NL
 	make test-orientation MC=NO
+	make test-orientation MC=NO
 	make test-orientation MC=PL
 	make test-orientation MC=PT
+	make test-orientation MC=RS
+	make test-orientation MC=SE
 	make test-orientation MC=SE
 	make test-orientation MC=SI
 	make test-orientation MC=TR
+	make test-orientation MC=UA
 
-test-orientation:
+xxxtest-orientation:
 	$s tsv=${HERE}/Orientation-${MC}.tsv -xsl:${RUN}/orientations-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
 	${vro} tmp/ParlaMint-${MC}-listOrg.xml
