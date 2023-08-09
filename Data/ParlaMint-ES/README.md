@@ -10,7 +10,12 @@ Spain’s Cortes Generales is a bicameral parliamentary system consisting of an 
 
 The Congreso de los Diputados has 350 members (or MPs). They are elected to represent  52 constituencies (for the fifty Spanish provinces and two autonomous cities). The electing method is that of D’hont-informed proportional representation. MPs serve four-year terms in political groups (which may be formed by several political parties). In fact, groups must have at least 15 MPs. A group can also be formed with only 5 MPs if their parties obtained at least 5% of the nationwide vote or 15% of the votes in their original  constituencies. MPs who cannot create a Group form the Mixed Group. The functions and organisation of the Congreso de los Diputados is explained in its website.
 
-ParlaMint-ES has been compiled and processed by the European Comparable and Parallel Corpus (ECPC) research group with funding from  the Spanish Ministry of Science and Innovation for the larger project Original, translated and interpreted representations of the refugee cris(e)s: methodological triangulation within corpus-based discourse studies (PID2019-108866RB-I00 / AEI / 10.13039/501100011033). ECPC has compiled other corpora with parliamentary proceedings from the House of Commons (from 2004-2014) and the European Parliament (2004-2011; in the Spanish and English versions). Conversion to ParlaMint framework would not have been possible without the expert aid of Tomaz Erjavec. Linguistic annotation (tokenization, lemmatization, POS, UD and NER) is the work of Luciana Dias de Macedo.
+ParlaMint-ES has been compiled and processed by the European Comparable and Parallel Corpus (ECPC) research group with funding from  the Spanish Ministry of Science and Innovation for the larger project Original, translated and interpreted representations of the refugee cris(e)s: methodological triangulation within corpus-based discourse studies (PID2019-108866RB-I00 / AEI / 10.13039/501100011033). ECPC has compiled other corpora with parliamentary proceedings from the House of Commons (from 2004-2014) and the European Parliament (2004-2011; in the Spanish and English versions). 
+
+Specific details of ECPC corpora can be found here:
+https://github.com/calzada/PARLAMINT-ES-MC/blob/master/README.md
+
+Conversion to ParlaMint framework would not have been possible without the expert aid of Tomaz Erjavec. In ParlaMint-ES-V-3.0, linguistic annotation is the work of MAttyas Kopp. In ParlaMint-ES-v-2.1, linguistic annotation (tokenization, lemmatization, POS, UD and NER) is the work of Luciana Dias de Macedo. i
 
 ### Data source and acquisition
 
@@ -25,26 +30,45 @@ The conversion work-flow has several stages:
    - Step 2: Conversion of HTML into the ECPC XML, by running regex-based scripts (María Calzada Pérez and Rubén de Líbano).
    - Step 3: Conversion of ECPC XML format into ParlaMint TEI, with scripts and schemas developed by Tomaz Erjavec (see https://github.com/clarin-eric/ParlaMint) and run by María Calzada Pérez and María del Mar Bonet Ramos) for version 3.0.
    - Step 4: Enriching parliamentary interventions (in ECPC XML format) with common txt file of metadata by using a perl script (María Calzada Pérez).
-   - Step 5: Quality Control (Monica ALbini).
+   - Step 5: Quality Control (Monica ALbini) to ensure text and XML format are perfectly distinguishable and clear.
+      
+- Work with metadata:
+  - Step 1: Metadata downloading from the Spanish Congreso's website (https://www.congreso.es) (María Calzada Pérez).
+   - Step 2: Metadata extraction with perl scripts (María Calzada Pérez) / Metadata extraction with wget to download wiki pages and a script for extracting information from html table to TEI: gov-wiki2tei.pl (Mattyas Kopp).
+.   - Step 3: Metadata insertion with perl scripts (María Calzada Pérez).
 
-All steps supervised and finalised by Matyas Kopp.
-
+Mattyas Kopp has been essential in corpus preparation and delivery.
+  
 ### Corpus-specific metadata
 
 Apart from the common structure, original ECPC XML files contain:
 
 - As part of speaker metadata:
    1. the specific role of ministers addressing the Chamber;
-   2. the political groups (and not just parties) of the Congreso de los Diputados, for each legislature
+   2. affiliation by political party and political group; only political group is employed in ParlaMint-ES.
    3. constituencies of all MPs
-- As part of  intervention / speech metadata:
-   4. Notes complying with Parlamint-TEI (https://clarin-eric.github.io/ParlaMint/#TEI.note). 
+- As part of intervention / speech metadata:
+   4. notes appear as <omit> in ECPC. In ParlaMint-ES-V-3.0, however, theyare refined according to Parlamint-TEI (https://clarin-eric.github.io/ParlaMint/#TEI.note). In ParlaMInt-ES-v-2.1 notes appear simply as <note>, without further refinement.
 
-### Linguistic annotation
+Notice, however, that:
+
+- the Chairperson appears as UNKNOWN both in ECPC and ParlaMint-ES due to the original format.
+- some government members (those without speech) are missing.
+- affiliation timespan is not present (the affiliation is known only at the time of speech).
+  
+### Linguistic annotation in ParlaMint-ES-v-3.0
+For UD and NER annotations, UDPipe (version 2) and NameTag (version 2) were used, with further details here: 
+https://github.com/matyaskopp/ParlaMint/blob/6fa360b0d7986319a93e3f801ecbe6ea3d880038/Data/ParlaMint-ES/ParlaMint-ES.ana.xml#L149-L158
+
+The work described herein has also been using tools provided by 
+the LINDAT/CLARIAH-CZ Research Infrastructure (https://lindat.cz), supported by 
+the Ministry of Education, Youth and Sports of the Czech Republic (Project No. LM2023062)
+
+### Linguistic annotation in ParlaMint-ES-v-2.1
 
 For both UD and NER annotations of the 306 files, Luciana D. de Macedo used Stanza, a Python NLP package (https://stanfordnlp.github.io/stanza/). The model used for the UD annotation was AnCora, default for Spanish, which covered tokenization, PoS, lemmatization, and dependency parsing. While the NER annotation relied on CoNLL02, also the default model for Spanish, which provided PER, LOC, ORG, and MISC tags.
 
-### Issues to report
+#### Issues to report regarding annotation in ParlaMint-es-v-2.1
 
 First and foremost, ParlaMint annotation of compounds (especially verbs) with two (or more) enclitics is faulty. In the case of verbs, for example, annotation splits verb_and_first_enclitic and second enclitic. This issue cannot be solved automatically (at least right now) because there are different types of verbs in Spanish (reflexive, passive, pronominal) with different solutions for this problem.  We will report this problem to Stanza. At any rate, all cases of enclitic pronouns were tagged with an error flag in a separate version so we could have it for a future fix.
 
