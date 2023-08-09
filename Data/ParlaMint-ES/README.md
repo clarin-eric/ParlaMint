@@ -58,7 +58,19 @@ Notice, however, that:
   
 ### Linguistic annotation in ParlaMint-ES-v-3.0
 For UD and NER annotations, UDPipe (version 2) and NameTag (version 2) were used, with further details here: 
-https://github.com/matyaskopp/ParlaMint/blob/6fa360b0d7986319a93e3f801ecbe6ea3d880038/Data/ParlaMint-ES/ParlaMint-ES.ana.xml#L149-L158
+
+```<appInfo>
+            <application ident="UDPipe" version="2">
+               <label>UDPipe 2 (spanish-ancora-ud-2.10-220711 model)</label>
+               <desc xml:lang="en">POS tagging, lemmatization and dependency parsing done with UDPipe 2 (<ref target="http://ufal.mff.cuni.cz/udpipe/2">http://ufal.mff.cuni.cz/udpipe/2</ref>) with spanish-ancora-ud-2.10-220711 model</desc>
+            </application>
+            <application ident="NameTag" version="2">
+               <label>NameTag 2 (spanish-conll-200831 model)</label>
+               <desc>Name entity recognition done with NameTag 2 (<ref target="http://ufal.mff.cuni.cz/nametag/2">http://ufal.mff.cuni.cz/nametag/2</ref>) with spanish-conll-200831 model.</desc>
+            </application>
+         </appInfo>
+```
+[https://github.com/matyaskopp/ParlaMint/blob/6fa360b0d7986319a93e3f801ecbe6ea3d880038/Data/ParlaMint-ES/ParlaMint-ES.ana.xml#L149-L158]
 
 The work described herein has also been using tools provided by 
 the LINDAT/CLARIAH-CZ Research Infrastructure (https://lindat.cz), supported by 
