@@ -98,30 +98,32 @@
 	  </orgName>
 	  <xsl:variable name="rows" select="current-group()"/>
 	  <xsl:variable name="country" select="$rows[1]/tei:cell[@type='country']"/>
-	  <state type="CHES">
-	    <xsl:attribute name="source">
-              <xsl:for-each select="$ches-source//tei:label">
-		<xsl:if test="matches($country, .)">
-                  <xsl:value-of select="following-sibling::tei:item[1]"/>
-		</xsl:if>
-              </xsl:for-each>
-            </xsl:attribute>
-	    <!-- CHES time-qualified names of the party -->
-	    <label>
-	      <xsl:call-template name="ches-name">
-		<xsl:with-param name="rows" select="$rows"/>
-	      </xsl:call-template>
-            </label>
-	    <xsl:for-each select="$rows/tei:cell">
-	      <!-- Columns we don't want in <state> -->
-	      <xsl:if test="@type != 'country' and @type != 'pm_id' and @type != 'ches_id' and @type != 'year'">
-		<xsl:call-template name="ches-variables">
-		  <xsl:with-param name="type" select="@type"/>
+	  <xsl:if test="$rows[1]/tei:cell[@type='ches_id'] != '-'">
+	    <state type="CHES">
+	      <xsl:attribute name="source">
+		<xsl:for-each select="$ches-source//tei:label">
+		  <xsl:if test="matches($country, .)">
+                    <xsl:value-of select="following-sibling::tei:item[1]"/>
+		  </xsl:if>
+		</xsl:for-each>
+              </xsl:attribute>
+	      <!-- CHES time-qualified names of the party -->
+	      <label>
+		<xsl:call-template name="ches-name">
 		  <xsl:with-param name="rows" select="$rows"/>
 		</xsl:call-template>
-	      </xsl:if>
-	    </xsl:for-each>
-	  </state>
+              </label>
+	      <xsl:for-each select="$rows/tei:cell">
+		<!-- Columns we don't want in <state> -->
+		<xsl:if test="@type != 'country' and @type != 'pm_id' and @type != 'ches_id' and @type != 'year'">
+		  <xsl:call-template name="ches-variables">
+		    <xsl:with-param name="type" select="@type"/>
+		    <xsl:with-param name="rows" select="$rows"/>
+		  </xsl:call-template>
+		</xsl:if>
+	      </xsl:for-each>
+	    </state>
+	  </xsl:if>
 	</org>
       </xsl:for-each-group>
     </listOrg>
@@ -170,7 +172,7 @@
           <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat('WARN: For ', $country, ' cant find party ', 
+          <xsl:message select="concat('ERROR: For ', $country, ' cant find party ', 
                                @xml:id, ' (', $abbr, ') in CHES TSV')"/>
         </xsl:otherwise>
       </xsl:choose>
@@ -180,7 +182,7 @@
       <xsl:copy-of select="tei:*[not(self::tei:orgName or 
 			   self::tei:state[@type = 'CHES']
 			   )]"/>
-      <xsl:copy-of select="$found//tei:state"/>
+      <xsl:copy-of select="$found//tei:state[@type = 'CHES']"/>
   </xsl:template>
   
   <xsl:template match="*">
@@ -253,7 +255,7 @@
       <xsl:for-each select="tokenize($tsv, '&#10;')">
 	<xsl:if test="matches(., '\t') and not(matches(., '^COUNTRY', 'i'))">
 	  <xsl:variable name="row" select="et:row2table($labels, .)"/>
-	  <xsl:if test="$row/self::tei:cell[@type = 'pm_id'] != '0'">
+	  <xsl:if test="$row/self::tei:cell[@type = 'pm_id'] != '-'">
 	    <row>
 	      <xsl:copy-of select="$row"/>
 	    </row>
