@@ -262,16 +262,12 @@ head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    normalized-space.string
-    # oneOrMore>
-    # <choice>
-    # <ref name="note"/>
-    # <ref name="pb"/>
-    # <text/>
-    # </choice>
-    # </oneOrMore
-    
+    # ref name="normalized-space.string"/
+    mixed { pb* }
   }
+
+## A page break, possibly with its source URI.
+pb = element pb { global.atts, corresp.att, source.att, empty }
 
 ## A series of paragraphs. Paragraphs are only used in the teiHeader.
 paras = element p { global.atts, annotated.text }+
