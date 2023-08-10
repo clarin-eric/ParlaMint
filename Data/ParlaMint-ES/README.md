@@ -15,7 +15,7 @@ ParlaMint-ES has been compiled and processed by the European Comparable and Para
 Specific details of ECPC corpora can be found here:
 https://github.com/calzada/PARLAMINT-ES-MC/blob/master/README.md
 
-Conversion to ParlaMint framework would not have been possible without the expert aid of Tomaz Erjavec. In ParlaMint-ES-V-3.0, linguistic annotation is the work of MAttyas Kopp. In ParlaMint-ES-v-2.1, linguistic annotation (tokenization, lemmatization, POS, UD and NER) is the work of Luciana Dias de Macedo. i
+Conversion to ParlaMint framework would not have been possible without the expert aid of Tomaz Erjavec. In ParlaMint-ES-V-3.0, linguistic annotation is the work of Matyas Kopp. In ParlaMint-ES-v-2.1, linguistic annotation (tokenization, lemmatization, POS, UD and NER) is the work of Luciana Dias de Macedo. 
 
 ### Data source and acquisition
 
@@ -30,14 +30,14 @@ The conversion work-flow has several stages:
    - Step 2: Conversion of HTML into the ECPC XML, by running regex-based scripts (María Calzada Pérez and Rubén de Líbano).
    - Step 3: Conversion of ECPC XML format into ParlaMint TEI, with scripts and schemas developed by Tomaz Erjavec (see https://github.com/clarin-eric/ParlaMint) and run by María Calzada Pérez and María del Mar Bonet Ramos) for version 3.0.
    - Step 4: Enriching parliamentary interventions (in ECPC XML format) with common txt file of metadata by using a perl script (María Calzada Pérez).
-   - Step 5: Quality Control (Monica ALbini) to ensure text and XML format are perfectly distinguishable and clear.
+   - Step 5: Quality Control (Monica ALbini) to ensure text and XML format are perfectly distinguishable and clear. This QA combines ChatGPT action with manual intervention.
       
 - Work with metadata:
   - Step 1: Metadata downloading from the Spanish Congreso's website (https://www.congreso.es) (María Calzada Pérez).
-   - Step 2: Metadata extraction with perl scripts (María Calzada Pérez) / Metadata extraction with wget to download wiki pages and a script for extracting information from html table to TEI: gov-wiki2tei.pl (Mattyas Kopp).
-.   - Step 3: Metadata insertion with perl scripts (María Calzada Pérez).
+   - Step 2: Metadata extraction with perl scripts (María Calzada Pérez) / Metadata extraction with wget to download wiki pages and a script for extracting information from html table to TEI: gov-wiki2tei.pl (Matyás Kopp).
+   - Step 3: Metadata insertion with perl scripts (María Calzada Pérez).
 
-Mattyas Kopp has been essential in corpus preparation and delivery.
+Mattyás Kopp has been essential in corpus preparation and delivery.
   
 ### Corpus-specific metadata
 
@@ -48,11 +48,11 @@ Apart from the common structure, original ECPC XML files contain:
    2. affiliation by political party and political group; only political group is employed in ParlaMint-ES.
    3. constituencies of all MPs
 - As part of intervention / speech metadata:
-   4. notes appear as <omit> in ECPC. In ParlaMint-ES-V-3.0, however, theyare refined according to Parlamint-TEI (https://clarin-eric.github.io/ParlaMint/#TEI.note). In ParlaMInt-ES-v-2.1 notes appear simply as <note>, without further refinement.
+   4. notes appear as ```<omit>``` in ECPC; in ParlaMint-ES-V-3.0, however, they are refined according to Parlamint-TEI (https://clarin-eric.github.io/ParlaMint/#TEI.note). In ParlaMInt-ES-v-2.1 notes appear simply as ```<note>```, without further refinement.
 
 Notice, however, that:
 
-- the Chairperson appears as UNKNOWN both in ECPC and ParlaMint-ES due to the original format.
+- the Chairperson appears as UNKNOWN both in ECPC and both ParlaMint-ES versions due to the original format.
 - some government members (those without speech) are missing.
 - affiliation timespan is not present (the affiliation is known only at the time of speech).
   
