@@ -1,4 +1,18 @@
 MC = BE
+test-metadata:
+	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
+	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | \
+	$s tsv=${HERE}/Orientation-${MC}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl - | \
+	$s tsv=${HERE}/Orientation-${MC}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl - | ${RUN}/polish-xml.pl \
+	> tmp/ParlaMint-${MC}-listOrg.xml
+	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
+test-enco:
+	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
+	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl \
+	> tmp/ParlaMint-${MC}-listOrg.xml
+	${vro} tmp/ParlaMint-${MC}-listOrg.xml
+	-diff -b ${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml tmp/ParlaMint-${MC}-listOrg.xml
 test-wiki:
 	$s tsv=${HERE}/Orientation-${MC}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-${MC}-listOrg.xml
@@ -15,6 +29,14 @@ DATA = /project/corpora/Parla/ParlaMint/ParlaMint/Corpora/Master
 RUN = ../../Scripts
 SCH = ../../Schema
 OUT = tmp
+
+## Dump encoder info on political orientations from TEI to TSV
+encoder:
+	make encoder-BE encoder-PT 2> Orientation-enco.log
+encoder-BE:
+	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-BE.TEI/ParlaMint-BE-listOrg.xml > Orientation-BE.enco.tsv
+encoder-PT:
+	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-PT.TEI/ParlaMint-PT-listOrg.xml > Orientation-PT.enco.tsv
 
 ## Generate TSV files for party information on the basis of the corpus root files.
 generate-parties:
