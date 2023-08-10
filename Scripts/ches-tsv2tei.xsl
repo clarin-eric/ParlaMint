@@ -237,8 +237,8 @@
 	</xsl:for-each>
       </xsl:variable>
       <xsl:variable name="years" select="count($values-per-year/tei:state)"/>
-      <xsl:message select="concat('INFO: ', $country, ' ', $party, ' ', $years, 
-			   ' years in CHES TSV ', $type)"/>
+      <!--xsl:message select="concat('INFO: ', $country, ' ', $party, ' ', $years, 
+			   ' years in CHES TSV ', $type)"/-->
       <!--xsl:if test="$years != 1 or $years = 4">
         <xsl:message select="concat('WARN: For ', $country, ' ', $party, ' only ', $years, 
 		     ' years in CHES TSV')"/>

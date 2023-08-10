@@ -25,7 +25,7 @@
       <orgName full="abb">BZÖ</orgName>
       ...
       <state type="politicalOrientation">
-         <state type="Wikipedia" source="https://en.wikipedia.org/wiki/Alliance_for_the_Future_of_Austria" ana="#lrgen.CRR">
+         <state type="Wikipedia" source="https://en.wikipedia.org/wiki/Alliance_for_the_Future_of_Austria" ana="#political.CRR">
          <note xml:lang="en">Coalition of NHI and HKDU</note>
       </state>
      </state>
@@ -45,8 +45,8 @@
   <!-- File with TSV data -->
   <xsl:param name="tsv"/>
 
-  <!-- Prefix used by CHES taxonomy -->
-  <xsl:param name="Orientation-prefix">#lrgen.</xsl:param>
+  <!-- Prefix used by political orientation taxonomy -->
+  <xsl:param name="Orientation-prefix">#political.</xsl:param>
   
   <xsl:output method="xml" indent="yes" omit-xml-declaration="no"/>
   
@@ -125,7 +125,7 @@
 
   <!-- Insert $data <state>s into <org> -->
   <xsl:template mode="insert" match="tei:org">
-    <!-- We try to match pm_id to a ParlaMint organisation -->
+    <!-- We try to match pm_id to a ParlaMint organisation, trying different variants of the party name: abbreviation, shortened ID -->
     <xsl:variable name="abbr" select="tei:orgName[@full = 'abb' and 
                                       ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1]"/>
     <xsl:variable name="abbr-lc" select="lower-case($abbr)"/>
@@ -165,8 +165,10 @@
     </xsl:if>
     <xsl:copy-of select="tei:listEvent"/>
     <xsl:variable name="state">
+      <!-- Copy over exsting political orientation info (except for Wikipedia or notes) -->
       <xsl:copy-of select="tei:state[@type = 'politicalOrientation']/tei:*
 			   [not(self::tei:state[@type = 'Wikipedia'] or self::tei:note)]"/>
+      <!-- And the newly added Wikipedia info -->
       <xsl:copy-of select="$found//tei:state"/>
     </xsl:variable>
     <xsl:if test="$state/tei:*">
