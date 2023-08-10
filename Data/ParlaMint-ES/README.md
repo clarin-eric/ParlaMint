@@ -78,7 +78,7 @@ the Ministry of Education, Youth and Sports of the Czech Republic (Project No. L
 
 ### Linguistic annotation in ParlaMint-ES-v-2.1
 
-For both UD and NER annotations of the 306 files, Luciana D. de Macedo used Stanza, a Python NLP package (https://stanfordnlp.github.io/stanza/). The model used for the UD annotation was AnCora, default for Spanish, which covered tokenization, PoS, lemmatization, and dependency parsing. While the NER annotation relied on CoNLL02, also the default model for Spanish, which provided PER, LOC, ORG, and MISC tags.
+For both UD and NER annotations of the 306 files, Luciana Dias de Macedo used Stanza, a Python NLP package (https://stanfordnlp.github.io/stanza/). The model used for the UD annotation was AnCora, default for Spanish, which covered tokenization, PoS, lemmatization, and dependency parsing. While the NER annotation relied on CoNLL02, also the default model for Spanish, which provided PER, LOC, ORG, and MISC tags.
 
 #### Issues to report regarding annotation in ParlaMint-es-v-2.1
 
