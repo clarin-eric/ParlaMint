@@ -30,14 +30,14 @@ The conversion work-flow has several stages:
    - Step 2: Conversion of HTML into the ECPC XML, by running regex-based scripts (María Calzada Pérez and Rubén de Líbano).
    - Step 3: Conversion of ECPC XML format into ParlaMint TEI, with scripts and schemas developed by Tomaz Erjavec (see https://github.com/clarin-eric/ParlaMint) and run by María Calzada Pérez and María del Mar Bonet Ramos) for version 3.0.
    - Step 4: Enriching parliamentary interventions (in ECPC XML format) with common txt file of metadata by using a perl script (María Calzada Pérez).
-   - Step 5: Quality Control (Monica ALbini) to ensure text and XML format are perfectly distinguishable and clear. This QA combines ChatGPT action with manual intervention.
+   - Step 5: Quality Control (Monica Albini) to ensure text and XML format are perfectly distinguishable and clear. QC combines ChatGPT action with manual intervention.
       
 - Work with metadata:
   - Step 1: Metadata downloading from the Spanish Congreso's website (https://www.congreso.es) (María Calzada Pérez).
    - Step 2: Metadata extraction with perl scripts (María Calzada Pérez) / Metadata extraction with wget to download wiki pages and a script for extracting information from html table to TEI: gov-wiki2tei.pl (Matyás Kopp).
    - Step 3: Metadata insertion with perl scripts (María Calzada Pérez).
 
-Mattyás Kopp has been essential in corpus preparation and delivery.
+Matyás Kopp has been essential in corpus preparation and delivery.
   
 ### Corpus-specific metadata
 
