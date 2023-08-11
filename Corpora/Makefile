@@ -114,7 +114,7 @@ samples:
 # Make vertical files only
 make-verts:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master \
+	${FINALIZE} -vert -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master; \
 	done;
 	make verts
 
@@ -167,7 +167,7 @@ xall:	final verts pack
 pack:
 	perl ../Scripts/pack-parlamint.pl -codes '${CORPORA}' -in Master -out Packed
 verts:
-	perl ../Scripts/join-verts.pl -codes '${CORPORA}' -in Master -out Verts
+	perl ../Scripts/join-verts.pl -version ${VERSION} -codes '${CORPORA}' -in Master -out Verts
 final:
 	for CORPUS in ${CORPORA}; do \
 	${FINALIZE} -all -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
