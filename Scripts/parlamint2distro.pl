@@ -18,10 +18,6 @@ binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 
-# Prefix and extension of registry files
-$regiPrefix = 'parlamint30_';
-$regiExt    = 'regi';
-
 sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("$0 -help\n");
@@ -167,10 +163,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $outTxtDir  = "$outDir/$XX.txt";      # $outTxtDir   =~ s/$XX/-$MT/ if $MT;
     my $outConlDir = "$outDir/$XX.conllu";   # $outConlDir  =~ s/$XX/-$MT/ if $MT;
     my $outVertDir = "$outDir/$XX.vert";     # $outVertDir  =~ s/$XX/-$MT/ if $MT;
-    
-    my $vertRegi   = $regiPrefix . lc $countryCode . '.' . $regiExt;
-    $vertRegi =~ s/-/_/g;  #e.g. parlamint30_es-ct.regi to parlamint30_es_ct.regi
 
+    # Location, name and extention of registry files, need $Version to compute it!
+    if ($Version) {
+	$regiDir = $docsDir . '/registry';
+	$vertRegi = 'parlamint' . $Version . '_' . lc $countryCode;
+	$vertRegi =~ s/\.//;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
+	$vertRegi =~ s/-/_/g;  #e.g. parlamint31_es-ct.regi to parlamint31_es_ct
+	$regiExt = 'regi'
+    }
+    
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
 	die "FATAL: Need version\n" unless $Version;
@@ -238,7 +240,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    #Make also derived files
 	    `$scriptTexts $outSmpDir $outSmpDir` unless $outTeiRoot;
 	    `$scriptVerts $outSmpDir $outSmpDir`;
-	    if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outSmpDir`}
+	    if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outSmpDir/$vertRegi.$regiExt`}
 	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
@@ -289,7 +291,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
-	if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outVertDir`}
+	if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outVertDir/$vertRegi.$regiExt`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
