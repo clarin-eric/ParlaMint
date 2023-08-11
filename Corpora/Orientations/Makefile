@@ -30,18 +30,42 @@ RUN = ../../Scripts
 SCH = ../../Schema
 OUT = tmp
 
-## Dump encoder info on political orientations from TEI to TSV
-encoder:
-	make encoder-BE encoder-PT 2> Orientation-enco.log
-encoder-BE:
-	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-BE.TEI/ParlaMint-BE-listOrg.xml > Orientation-BE.enco.tsv
-encoder-PT:
-	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-PT.TEI/ParlaMint-PT-listOrg.xml > Orientation-PT.enco.tsv
-
 ## Generate TSV files for party information on the basis of the corpus root files.
 generate-parties:
 	$s path=${DATA} outDir=New -xsl:${RUN}/parties-tei2tsv.xsl \
 	${DATA}/ParlaMint.xml 2> ParlaMint_parties.log
+
+######### Test over all (relevant) corpora
+#ENCO + CHES + WIKI corpora
+CENCO = BE PT
+#CHES + WIKI corpora
+CCHES = AT BG CZ DK EE FR GB GR HR HU IS IT LV NL NO PL SE SI TR
+#WIKI corpora
+CWIKI = BA ES-CT ES-GA RS UA
+
+test-cenco-metadata:
+	for CORPUS in ${CENCO}; do \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
+	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl - | \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl - | ${RUN}/polish-xml.pl \
+	> tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	done;
+test-cches-metadata:
+	for CORPUS in ${CCHES}; do \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl \
+	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl - | ${RUN}/polish-xml.pl \
+	> tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	done;
+test-cwiki-metadata:
+	for CORPUS in ${CORPORA}; do \
+	$s tsv=${HERE}/Orientation-$${CORPUS}.Wiki.tsv -xsl:${RUN}/wiki-tsv2tei.xsl \
+	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
+	done;
 
 #All CHES corpora:
 #CORPORA = AT BE BG CZ DK EE ES FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR
@@ -55,13 +79,22 @@ test-all-wiki:
 	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
 	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
 	done;
-
 test-all-ches:
 	for CORPUS in ${CORPORA}; do \
 	$s tsv=${HERE}/Orientation-$${CORPUS}.CHES.tsv -xsl:${RUN}/ches-tsv2tei.xsl \
 	${DATA}/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}-listOrg.xml | ${RUN}/polish-xml.pl > tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
 	${vro} tmp/ParlaMint-$${CORPUS}-listOrg.xml; \
 	done;
+
+## Dump encoder info on political orientations from TEI to TSV
+encoder:
+	make encoder-BE encoder-PT encoder-UA 2> Orientation-enco.log
+encoder-BE:
+	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-BE.TEI/ParlaMint-BE-listOrg.xml > Orientation-BE.enco.tsv
+encoder-PT:
+	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-PT.TEI/ParlaMint-PT-listOrg.xml > Orientation-PT.enco.tsv
+encoder-UA:
+	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml > Orientation-UA.enco.tsv
 
 ## Insert political orientation of parties from TSV into a ParlaMint root file.
 xxxtest-parlamint:
