@@ -46,7 +46,7 @@
   <xsl:param name="tsv"/>
 
   <!-- Prefix used by political orientation taxonomy -->
-  <xsl:param name="Orientation-prefix">#political.</xsl:param>
+  <xsl:param name="Orientation-prefix">#orientation.</xsl:param>
   
   <xsl:output method="xml" indent="yes" omit-xml-declaration="no"/>
   
