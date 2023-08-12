@@ -154,7 +154,7 @@
           <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat('WARN: For ', $country, ' cant find party ', 
+          <xsl:message select="concat('ERROR: For ', $country, ' cant find party ', 
                                $abbr, ' (', $abbr-id, ') in Wiki TSV')"/>
         </xsl:otherwise>
       </xsl:choose>
