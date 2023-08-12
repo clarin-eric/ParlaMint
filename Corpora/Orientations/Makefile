@@ -34,7 +34,7 @@ CCHES = AT BG CZ DK EE FR GB GR HR HU IS IT LV NL NO PL SE SI TR
 CWIKI = BA ES-CT ES-GA RS UA
 
 test-all-metadata-nohup:
-	nohup time make test-all-metadata > Orientation-tsv2tei.log &
+	nohup time make test-all-metadata 2> Orientation-tsv2tei.log > nohup.orientation.log &
 
 test-all-metadata:	test-cenco-metadata test-cches-metadata test-cwiki-metadata
 test-cenco-metadata:
