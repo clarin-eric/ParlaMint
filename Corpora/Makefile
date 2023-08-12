@@ -32,14 +32,14 @@ full-mt-cp-conllu:
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
 # Missing corpora: ES ES-PV FI LT RO
 
-######## SUBMITTED CORPORA FOR V 3.0
-# CORPORA = AT BA BE BG CZ DK EE ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+######## SUBMITTED CORPORA FOR V 3.1
+# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
 CORPORA = ES
 
-######## MTed CORPORA FOR V 3.0
-MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
+######## MTed CORPORA FOR V 3.1
+MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
 
 # Used in test targets:
 CORPUS = UA
@@ -59,16 +59,16 @@ VERSION = 3.1
 HANDLE-TEI = http://hdl.handle.net/11356/1859
 HANDLE-ANA = http://hdl.handle.net/11356/1860
 
-# Version number and PID of next(!) MTed ParlaMint-en.ana release
-VERSION-MT = 3.0
-HANDLE-MT = http://hdl.handle.net/11356/1810
+# Version number and PID of next MTed ParlaMint-en.ana release
+VERSION-MT = 3.1
+HANDLE-MT = http://hdl.handle.net/11356/1864
 
 #Where the produced corpora are put for inspection
 WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 
 ###### Targets
 
-### Fixes for 3.0-en:
+### Fixes for 3.1-en:
 
 # Instead of TEI-derived CoNLL-U files we release original MTed CoNLL-U
 # because it contains word alignments 
@@ -144,10 +144,6 @@ web-nohup:
 web:
 	rsync -av Logs/*.log ${WEB}/Logs
 	rsync -av Packed/*.tgz ${WEB}/Repo
-
-###### Factorisation of source corpora; needs to be run only once
-factor-all:
-	../Scripts/parlamint-factorize-corpora.pl ${SOURCES}
 
 ###### Targets for producing releasable version of ParlaMint corpora
 FINALIZE = perl ../Scripts/parlamint2distro.pl -version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs
@@ -291,19 +287,6 @@ test1:
 	rm -fr Test/Out/ParlaMint-${CORPUS}*
 	perl ../Scripts/parlamint2distro.pl -all -codes ${CORPUS} -in Test/In -out Test/Out \
 	-version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
-
-test-factorize:
-	rm -fr Test/Factorized/ParlaMint-${CORPUS}*
-	mkdir Test/Factorized || :
-	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI \
-	   prefix="ParlaMint-${CORPUS}-" \
-	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
-	   ${SOURCES}/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
-	$s outDir=Test/Factorized/ParlaMint-${CORPUS}.TEI.ana \
-	   prefix="ParlaMint-${CORPUS}-" \
-	   teiRoot=`pwd`"/Test/Factorized/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml" \
-	   -xsl:../Scripts/parlamint-factorize-teiHeader.xsl \
-	   ${SOURCES}/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
 
 errs1:
 	grep -i error Logs/*.log | \
