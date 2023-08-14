@@ -6,17 +6,17 @@ analyse:
 	grep ERROR ParlaMint_*.log > Ministers-errors.log
 
 ## Generate TSV .auto files for minister affiliations
-genV3:
+gen-auto-ministers:
 	$s outDir=. -xsl:${RUN}/ministers-tei2tsv.xsl ${V3}/ParlaMint.xml
 
 ## Generate speaker file
 PER = ParlaMint_speakers-${MC}.tsv
-gen-persons-v3:
-	#mv ${PER} ${PER}.v2
+gen-persons:
+	#mv ${PER} ${PER}.tmp
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml > ${PER}
-	#diff ${PER} ${PER}.v2
+	#diff ${PER} ${PER}.tmp
 
-insert-ministers-v3:
+insert-ministers:
 	cp ${V3}/ParlaMint-${MC}.TEI/*.xml ${OUT}/ #copy factorised files
 	$s meta=${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml tsv=../Corpora/Ministers/ParlaMint_ministers-${MC}.edited.tsv \
 	-xsl:${RUN}/ministers-tsv2tei.xsl ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml \
@@ -27,9 +27,10 @@ insert-ministers-v3:
 
 
 ## All corpora with edited minster TSVs
-# MCS = BA BE ES HR LT LV PL RS SI TR  #ES, LT missing corpora, TR has both auto and edited, check diff!!
-MCS = BA BE HR LV PL RS SI
-insert-all-ministers-v3:
+# MCS = BA BE ES HR LT LV PL RS SI TR  # LT missing corpus, TR has both auto and edited, check diff!!
+# MCS = BA BE ES HR LV PL RS SI        # Only actual corpora
+MCS = BA ES HR LV PL RS SI           # New corpora
+insert-all-ministers:
 	for MC in ${MCS}; do \
 	cp ${V3}/ParlaMint-$${MC}.TEI/*.xml ${OUT}/; \
 	$s meta=${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml tsv=../Corpora/Ministers/ParlaMint_ministers-$${MC}.edited.tsv \
@@ -40,7 +41,7 @@ insert-all-ministers-v3:
 	diff -b ${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}-listPerson.xml ${OUT}/ParlaMint-$${MC}-listPerson.xml; \
 	done;
 
-gen-all-persons-v3:
+gen-all-persons:
 	for MC in ${MCS}; do \
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml > ParlaMint_speakers-$${MC}.tsv; \
 	done;
