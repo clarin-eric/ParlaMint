@@ -17,10 +17,10 @@ CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL P
 check-diff:
 	for CORPUS in ${CORPORA}; do \
 	echo $${CORPUS} ; \
-	xmllint --c14n ParlaMint-$${CORPUS}.TEI.origRoot/ParlaMint-$${CORPUS}.xml > $${CORPUS}.orig.tmp ; \
+	xmllint --c14n Orig/ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml > $${CORPUS}.orig.tmp ; \
 	xmllint --c14n ParlaMint-$${CORPUS}.TEI/ParlaMint-$${CORPUS}.xml > $${CORPUS}.tmp ; \
 	diff $${CORPUS}.orig.tmp $${CORPUS}.tmp ; \
-	xmllint --c14n ParlaMint-$${CORPUS}.TEI.ana.origRoot/ParlaMint-$${CORPUS}.ana.xml > $${CORPUS}.ana.orig.tmp ; \
+	xmllint --c14n Orig/ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml > $${CORPUS}.ana.orig.tmp ; \
 	xmllint --c14n ParlaMint-$${CORPUS}.TEI.ana/ParlaMint-$${CORPUS}.ana.xml > $${CORPUS}.ana.tmp ; \
 	diff $${CORPUS}.ana.orig.tmp $${CORPUS}.ana.tmp ; \
 	done;
@@ -34,16 +34,16 @@ test-factorize:
 	$s outDir=Test/ParlaMint-${CORPUS}.TEI \
 	   prefix="ParlaMint-${CORPUS}-" \
 	   -xsl:../../Scripts/parlamint-factorize-teiHeader.xsl \
-	   ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
+	   Orig/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml || :
 	$s outDir=Test/ParlaMint-${CORPUS}.TEI.ana \
 	   prefix="ParlaMint-${CORPUS}-" \
 	   teiRoot=`pwd`"/Test/ParlaMint-${CORPUS}.TEI/ParlaMint-${CORPUS}.xml" \
 	   -xsl:../../Scripts/parlamint-factorize-teiHeader.xsl \
-	   ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
+	   Orig/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml || :
 
 ###### Factorisation of source corpora; needs to be run only once
 factor-all:
-	../../Scripts/parlamint-factorize-corpora.pl .
+	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies Orig
 
 
 FINALIZE = ${GIT}/Scripts/parlamint2distro.pl -schema ${GIT}/Schema -docs ${HERE}/Docs
