@@ -209,12 +209,12 @@
           <xsl:attribute name="source" select="$url"/>
         </xsl:if>
         <xsl:if test="et:has-content($name-xx)">
-          <orgName>
+          <orgName full="yes">
             <xsl:value-of select="$name-xx"/>
           </orgName>
         </xsl:if>
         <xsl:if test="et:has-content($name-en)">
-          <orgName xml:lang="en">
+          <orgName full="yes" xml:lang="en">
             <xsl:value-of select="$name-en"/>
           </orgName>
         </xsl:if>
