@@ -100,13 +100,16 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
-# We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
+# For the following taxonomies we substitute the local taxonomy with common one
+# We are assuming taxonomies are relative to the Scripts/ (i.e. $Bin/) directory
+# Probably a temporary solution, to be substituted by a separate script
 $taxonomyDir = "$Bin/../Corpora/Taxonomies";
 # Currently we do it only for subcorpus
-$taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+$taxonomy{'ParlaMint-taxonomy-subcorpus'}             = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
 #$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
 #$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
 #$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+#$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
