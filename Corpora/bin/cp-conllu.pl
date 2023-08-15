@@ -1,6 +1,8 @@
 #!/usr/bin/perl
-# Copy CoNLL-U files to official distribution directories
-# and shorten too long translations
+# Fix MTed CoNLL-U files:
+# shorten too long sentences vis a vis orignal
+# sort features and take care of SpaceAfter
+#
 use warnings;
 use utf8;
 use open ':utf8';
@@ -10,13 +12,13 @@ $validate = shift;
 $inDirs = shift;
 $outDir = shift;
     
-# How much longer the English text can be before we shorten it:
-$min_length = 20;
-$cut_ratio = 3;
-
 # Change to where tools is installed on local system
 # Source: https://github.com/universaldependencies/tools
 $Valid = "/usr/local/tools/validate.py";
+
+# What is the mininal length of the English text and how much longer than the original it has to be before we shorten it:
+$min_length = 20;
+$cut_ratio = 3;
 
 foreach $inDir (glob $inDirs) {
     ($corpus) = $inDir =~ m|(ParlaMint-[A-Z-]+)[\.-]|
@@ -42,11 +44,12 @@ foreach $inDir (glob $inDirs) {
 	    ($fName) = $inFile =~ m|/([^/]+\.conllu)$|;
 	    $fName =~ s|_|-en_| unless $fName =~ m|-en_|;
 	    $outFile = "$outYDir/$fName";
-	    &fix($inFile, $outFile)
+	    &cp($inFile, $outFile)
 	}
     }
 }
-sub fix {
+
+sub cp {
     my $inFile = shift;
     my $outFile = shift;
     my $src;
@@ -55,46 +58,142 @@ sub fix {
     open(OUT, '>:utf8', $outFile) or die;
     $/ = "\n\n";
     while (<IN>) {
-	($src) = /# source = (.+)/;
-	($trg) = /# text = (.+)/;
-	$trg_str = substr($trg, 0, length($src) * $cut_ratio);
-	$trg_str =~ s/(.+) .+/$1/;
-	if ($trg_str !~ / /) {print OUT}
-	elsif (length($trg) < $min_length) {print OUT}
-	elsif (length($trg) < length($src) * $cut_ratio) {print OUT}
-	elsif (($tail) = $trg =~ /\Q$trg_str\E(.+)/) {
-	    print STDERR "WARN: In $inFile\nSOURCE:\t$src\nLEAVING\t$trg_str\nCUTTING\t$tail\n\n";
-	    my $skip = 0;
-	    foreach my $line (split(/\n/, $_)) {
-		if    ($line =~ /^# text = /) {
-		    print OUT "# text = $trg_str\n";
-		    $trg_str =~ s/ //g;
-		}
-		elsif ($line =~ /^#/) {print OUT "$line\n"}
-		elsif (($word) = $line =~ /^\d+\t(.+?)\t/) {
+	$cut_text = &cut($_);
+	$fixed_text = &fix($cut_text);
+	print OUT $fixed_text;
+    }
+    close IN;
+    close OUT;
+    if ($validate eq 'validate') {&validate($outFile)}
+}
+
+sub cut {
+    my $sent = shift;
+    my $out;
+    ($src) = $sent =~ /# source = (.+)/;
+    ($trg) = $sent =~ /# text = (.+)/;
+    $trg_str = substr($trg, 0, length($src) * $cut_ratio);
+    $trg_str =~ s/(.+) .+/$1/;
+    if ($trg_str !~ / /) {$out = $sent}
+    elsif (length($trg) < $min_length) {$out = $sent}
+    elsif (length($trg) < length($src) * $cut_ratio) {$out = $sent}
+    elsif (($tail) = $trg =~ /\Q$trg_str\E(.+)/) {
+	print STDERR "WARN: In $inFile\nSOURCE:\t$src\nLEAVING\t$trg_str\nCUTTING\t$tail\n\n";
+	my $skip = 0;
+	foreach my $line (split(/\n/, $sent)) {
+	    if    ($line =~ /^# text = /) {
+		$out .= "# text = $trg_str\n";
+		$trg_str =~ s/ //g;
+	    }
+	    elsif ($line =~ /^#/) {$out .= "$line\n"}
+	    elsif (($word) = $line =~ /^\d+\t(.+?)\t/) {
 		    $word =~ s/ //g;
 		    if (not $trg_str) {$skip = 1}
 		    elsif ($trg_str =~ s/^\Q$word\E//) {
 			$line =~ s/\|?SpaceAfter=No//;
-			print OUT "$line\n"
+			$out .= "$line\n"
 		    }
 		    elsif ($word =~ /^\Q$trg_str\E/) {
 			$skip = 1
 		    }
 		    else {die "FATAL: out of synch\nTARGET:\t$trg_str\nWORD:\t$word\nLINE:\t$line\n"}
+	    }
+	}
+	$out .= "\n"
+    }
+    else {$out = $sent}
+    return $out;
+}
+
+sub fix {
+    my $sent = shift;
+    my @out = ();
+    my ($id) = $sent =~ /# sent_id = (.+)/;
+    my ($source) = $sent =~ /# source = (.+)/;
+    my ($text) = $sent =~ /# text = (.+)/;
+    # Fix PyUSAS bugs;
+    $id = &fix_usas($id);
+    $source = &fix_usas($source);
+    $text = &fix_usas($text);
+    
+    foreach my $line (split(/\n/, $sent)) {
+	if ($line =~ /^#/) {
+	    if    ($line =~ /# sent_id /) {push(@out, "# sent_id = $id")}
+	    elsif ($line =~ /# source /)  {push(@out, "# source = $source")}
+	    elsif ($line =~ /# text /)    {push(@out, "# text = $text")}
+	    else {
+		push(@out, $line);
+		die "FATAL: unexpected metadata line $line\n"
+	    }
+	}
+	elsif ($line =~ /\t/) {
+            my ($n, $token, $lemma, $upos, $xpos, $ufeats, $link, $role, $extra, $local) 
+		= split /\t/, $line;
+	    $token = &fix_usas($token);
+	    $lemma = &fix_usas($lemma);
+	    die "FATAL: Out of synch on $id / $n:$token in $text\n"
+		unless $text =~ s/^\Q$token\E//;
+	    $space = $text =~ s/^\s+//;
+	    if (not $space and $local !~ /SpaceAfter=No/) {
+		# print STDERR "WARN: fixing SpaceAfter for $id / $n:$token\n";
+		$local .= '|SpaceAfter=No';
+	    }
+	    if ($ufeats ne '_') {
+		my %feats;
+		my @sorted_feats = ();
+		foreach my $ufeat (split(/\|/, $ufeats)) {$feats{$ufeat}++}
+		foreach my $ufeat (sort {lc($a) cmp lc($b)} keys %feats) {push(@sorted_feats, $ufeat)}
+		$new_ufeats = join("|", @sorted_feats);
+		if ($new_ufeats ne $ufeats) {
+		    # print STDERR "WARN: sorting feats form '$ufeats' to '$new_ufeats'\n";
+		    $ufeats = $new_ufeats
 		}
 	    }
-	    print OUT "\n"
+	    push(@out, join("\t", ($n, $token, $lemma, $upos, $xpos, $ufeats, $link, $role, $extra, $local)));
 	}
-	else {print OUT}
     }
-    close IN;
-    close OUT;
-    if ($validate eq 'validate') {
-	print STDERR "INFO: Validating $outFile\n";
-	# lang doesn't really matter here I think
-	$error = `python3 $Valid --lang en --level 1 $outFile`;
-	print STDERR "INFO: tools validation says $error\n";
-	    
+    return join("\n", @out) . "\n\n";
+}
+
+sub validate {
+    my $file = shift;
+    print STDERR "INFO: Validating $file\n";
+    # lang doesn't really matter here I think
+    $error = `python3 $Valid --lang en --level 2 $file 2>&1`;
+    @errors = ();
+    foreach $e (split(/\n/, $error)) {
+	next unless $e;
+	next if $e =~ /DEPREL/;
+	next if $e =~ /^The following /;
+	next if $e =~ /^acl, advcl, advmod, /;
+	next if $e =~ /^If a language /;
+	next if $e =~ /^must have a /;
+	next if $e =~ /^See https:\/\/universaldependencies.org/;
+	next if $e =~ /^Documented dependency relations /;
+	next if $e =~ /^See https:\/\/quest.ms.mff.cuni.cz/;
+	next if $e =~ /^...suppressing further errors /;
+	next if $e =~ /^Syntax errors: /;
+	next if $e =~ /^\*\*\* FAILED \*\*\*/;
+	push(@errors, $e);
     }
+    if (@errors) {
+	print STDERR "ERROR: CoNLL-U validation:\n" . join("\n", @errors) . "\n";
+	return 1;
+    }
+    else {
+	print STDERR "INFO: CoNLL-U validation OK\n";
+	return 0;
+    }
+}
+
+sub fix_usas {
+    my $str = shift;
+    $str =~ s/\t//;
+    if ($str =~ /""""/) {$str = '"'}
+    elsif ($str =~ /""/) {
+	$str =~ s/""/"/g;
+	$str =~ s/^"//;
+	$str =~ s/"$//;
+    }
+    return $str
 }
