@@ -44,7 +44,9 @@ foreach $inDir (glob $inDirs) {
 	    ($fName) = $inFile =~ m|/([^/]+\.conllu)$|;
 	    $fName =~ s|_|-en_| unless $fName =~ m|-en_|;
 	    $outFile = "$outYDir/$fName";
-	    &cp($inFile, $outFile)
+	    print STDERR "INFO: Processing $inFile\n";
+	    &cp($inFile, $outFile);
+	    &validate($outFile) if $validate eq 'validate'
 	}
     }
 }
@@ -64,7 +66,6 @@ sub cp {
     }
     close IN;
     close OUT;
-    if ($validate eq 'validate') {&validate($outFile)}
 }
 
 sub cut {
@@ -72,6 +73,8 @@ sub cut {
     my $out;
     ($src) = $sent =~ /# source = (.+)/;
     ($trg) = $sent =~ /# text = (.+)/;
+    $src = &fix_usas($src);
+    $trg = &fix_usas($trg);
     $trg_str = substr($trg, 0, length($src) * $cut_ratio);
     $trg_str =~ s/(.+) .+/$1/;
     if ($trg_str !~ / /) {$out = $sent}
@@ -87,16 +90,17 @@ sub cut {
 	    }
 	    elsif ($line =~ /^#/) {$out .= "$line\n"}
 	    elsif (($word) = $line =~ /^\d+\t(.+?)\t/) {
-		    $word =~ s/ //g;
-		    if (not $trg_str) {$skip = 1}
-		    elsif ($trg_str =~ s/^\Q$word\E//) {
-			$line =~ s/\|?SpaceAfter=No//;
-			$out .= "$line\n"
-		    }
-		    elsif ($word =~ /^\Q$trg_str\E/) {
-			$skip = 1
-		    }
-		    else {die "FATAL: out of synch\nTARGET:\t$trg_str\nWORD:\t$word\nLINE:\t$line\n"}
+		$word =~ s/ //g;
+		$word = &fix_usas($word);
+		if (not $trg_str) {$skip = 1}
+		elsif ($trg_str =~ s/^\Q$word\E//) {
+		    $line =~ s/\|?SpaceAfter=No//;
+		    $out .= "$line\n"
+		}
+		elsif ($word =~ /^\Q$trg_str\E/) {
+		    $skip = 1
+		}
+		else {die "FATAL: Out of synch on cut in \nTARGET:\t$trg_str\nWORD:\t$word\nLINE:\t$line\n"}
 	    }
 	}
 	$out .= "\n"
@@ -131,7 +135,7 @@ sub fix {
 		= split /\t/, $line;
 	    $token = &fix_usas($token);
 	    $lemma = &fix_usas($lemma);
-	    die "FATAL: Out of synch on $id / $n:$token in $text\n"
+	    die "FATAL: Out of synch in fix on $id / $n:$token in $text\n"
 		unless $text =~ s/^\Q$token\E//;
 	    $space = $text =~ s/^\s+//;
 	    if (not $space and $local !~ /SpaceAfter=No/) {
@@ -157,7 +161,6 @@ sub fix {
 
 sub validate {
     my $file = shift;
-    print STDERR "INFO: Validating $file\n";
     # lang doesn't really matter here I think
     $error = `python3 $Valid --lang en --level 2 $file 2>&1`;
     @errors = ();
@@ -174,6 +177,7 @@ sub validate {
 	next if $e =~ /^...suppressing further errors /;
 	next if $e =~ /^Syntax errors: /;
 	next if $e =~ /^\*\*\* FAILED \*\*\*/;
+	next if $e =~ /^\*\*\* PASSED \*\*\*/;
 	push(@errors, $e);
     }
     if (@errors) {
@@ -181,7 +185,7 @@ sub validate {
 	return 1;
     }
     else {
-	print STDERR "INFO: CoNLL-U validation OK\n";
+	# print STDERR "INFO: CoNLL-U validation OK\n";
 	return 0;
     }
 }
@@ -189,7 +193,7 @@ sub validate {
 sub fix_usas {
     my $str = shift;
     $str =~ s/\t//;
-    if ($str =~ /""""/) {$str = '"'}
+    if ($str eq '""""') {$str = '"'}
     elsif ($str =~ /""/) {
 	$str =~ s/""/"/g;
 	$str =~ s/^"//;
