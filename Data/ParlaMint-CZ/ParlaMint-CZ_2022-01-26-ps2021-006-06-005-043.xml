@@ -7,10 +7,10 @@
             <title type="main" xml:lang="en">Czech parliamentary corpus ParlaMint-CZ, 2022-01-26 ps2021-006-06-005-043 [ParlaMint]</title>
             <title type="sub" xml:lang="cs">Parlament České republiky, Poslanecká sněmovna, 2022-01-26, 43. Vládní návrh zákona, kterým se mění některé zákony v souvislosti s přijetím zákona o omezení dopadu vybraných plastových výrobků na životní prostředí /sněmovní tisk 56/ - prvé čtení</title>
             <title type="sub" xml:lang="en">Parliament of the Czech Republic, Chamber of Deputies, 2022-01-26</title>
-            <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021">ps2021</meeting>
-            <meeting ana="#parla.meeting #parla.lower" n="ps2021/006">ps2021/006</meeting>
-            <meeting ana="#parla.sitting #parla.lower" n="ps2021/006/06">ps2021/006/06</meeting>
-            <meeting ana="#parla.agenda #parla.lower" n="ps2021/006/043">ps2021/006/043</meeting>
+            <meeting ana="#parla.term #parla.lower #parliament.PSP9" n="ps2021" corresp="#parliament.PSP">ps2021</meeting>
+            <meeting ana="#parla.meeting #parla.lower" n="ps2021/006" corresp="#parliament.PSP">ps2021/006</meeting>
+            <meeting ana="#parla.sitting #parla.lower" n="ps2021/006/06" corresp="#parliament.PSP">ps2021/006/06</meeting>
+            <meeting ana="#parla.agenda #parla.lower" n="ps2021/006/043" corresp="#parliament.PSP">ps2021/006/043</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
                <resp xml:lang="en">TEI XML corpus encoding</resp>
@@ -45,7 +45,7 @@
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
                <p xml:lang="cs">Toto dílo je licencováno <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Uveďte původ 4.0 Mezinárodní Veřejná licence</ref>.</p>
             </availability>
-            <date when="2023-08-08">RELEASE_DATE</date>
+            <date when="2023-08-15">RELEASE_DATE</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -65,10 +65,9 @@
       <encodingDesc>
          <projectDesc>
             <p xml:lang="cs">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
-            </p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> je projekt, jehož cílem je (1) vytvořit vícejazyčný soubor srovnatelných korpusů parlamentních jednání jednotně kódovaných podle <ref target="https://clarin-eric.github.io/ParlaMint/">kritérií ParlaMint</ref> pokrývajících období od roku 2015 do poloviny roku 2022; (2) přidat do korpusu jazykové anotace a strojově je přeložit do angličtiny; (3) zpřístupnit korpus prostřednictvím vyhledávacích nástrojů; a (4) představit příklady využití korpusu v politických vědách a digitálních humanitních vědách.</p>
             <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
@@ -79,11 +78,6 @@
                <tagUsage gi="pb" occurs="2"/>
                <tagUsage gi="u" occurs="5"/>
                <tagUsage gi="seg" occurs="10"/>
-               
-               
-               
-               
-               
                <tagUsage gi="time" occurs="2"/>
             </namespace>
          </tagsDecl>
@@ -94,7 +88,7 @@
                <name type="org">Parlament České republiky - Poslanecká sněmovna</name>
                <name type="address">Sněmovní 176/4</name>
                <name type="city">Praha</name>
-               <name type="country" key="CZ">Czech Republic</name>
+               <name type="country" key="CZ">Česká republika</name>
                <date when="2022-01-26" ana="#parla.sitting">2022-01-26</date>
             </setting>
          </settingDesc>
