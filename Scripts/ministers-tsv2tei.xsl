@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Insert minister affiliations from TSV into the TEI root file or directly into the listPersons file
+<!-- Insert minister affiliations from TSV into the the listPersons file
      Note that all existing minister affiliations in TEI and removed
 -->
 <xsl:stylesheet
@@ -18,17 +18,16 @@
   <xsl:param name="tsv"/>
   
   <xsl:output method="xml" version="1.0" encoding="utf-8" indent="yes" omit-xml-declaration="no"/>
-  <xsl:variable name="profileDesc" select="$rootHeader//tei:profileDesc"/>
-  
-  <!-- NOTE: we have to discuss how to name "regions" in setting! -->
+
+  <!-- Get country of corpus from filename -->
   <xsl:variable name="corpusCountry"
-                select="$profileDesc/
-                        tei:settingDesc/tei:setting/tei:name
-                        [@type = 'country' or @type = 'region']/@key"/>
+                select="replace(base-uri(), 
+                        '.*ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+                        '$1')"/>
+  <xsl:variable name="listPerson" select="/tei:listPerson"/>
   
   <!-- Parse TSV into a 
-       listPerson/person[@xml:id]/affiliation[@role='minister']@from][@to][@ref][@ana] 
-       structure -->
+       listPerson/person[@xml:id]/affiliation[@role='minister']@from][@to][@ref][@ana] structure -->
   <xsl:variable name="data">
     <listPerson>
       <!-- Read in TSV and get rid of spurious quote characters -->
@@ -68,7 +67,7 @@
                                      ' does not match minister! TSV is:&#10;', .)"/>
               </xsl:if>
               <xsl:choose>
-                <xsl:when test = "not(key('id', $personID, $profileDesc)/self::tei:person)">
+                <xsl:when test = "not(key('id', $personID, $listPerson))">
                   <xsl:message terminate="no"
                                select="concat('ERROR: Person ', $personID, 
                                        ' not found in TEI corpus, skipping!')"/>
@@ -163,7 +162,7 @@
         <xsl:if test="et:has-content($to)">
           <xsl:attribute name="to" select="$to"/>
         </xsl:if>
-        <xsl:variable name="govtEvent" select="key('id', $govtTermID, $profileDesc)/
+        <xsl:variable name="govtEvent" select="key('id', $govtTermID, $listPerson)/
                                                self::tei:event/@xml:id"/>
         <xsl:if test="et:has-content($govtTermID)">
           <xsl:choose>
@@ -180,8 +179,8 @@
         </xsl:if>
         <xsl:if test="et:has-content($govtTermID) or 
                       et:has-content($ministryID)">
-	  <xsl:variable name="govOrg" select="key('id', $govtTermID, $profileDesc)/tei:org/@xml:id"/>
-	  <xsl:variable name="miniOrg" select="key('id', $ministryID, $profileDesc)/tei:org/@xml:id"/>
+	  <xsl:variable name="govOrg" select="key('id', $govtTermID, $listPerson)/tei:org/@xml:id"/>
+	  <xsl:variable name="miniOrg" select="key('id', $ministryID, $listPerson)/tei:org/@xml:id"/>
 	  <xsl:variable name="ana">
             <xsl:if test="et:has-content($govtTermID)">
 	      <xsl:if test="normalize-space($govOrg)">
