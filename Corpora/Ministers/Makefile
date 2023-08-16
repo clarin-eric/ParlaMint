@@ -10,7 +10,7 @@ gen-auto-ministers:
 	$s outDir=. -xsl:${RUN}/ministers-tei2tsv.xsl ${V3}/ParlaMint.xml
 
 ## Generate speaker file
-PER = ParlaMint_speakers-${MC}.tsv
+PER = Speakers-${MC}.tsv
 gen-persons:
 	#mv ${PER} ${PER}.tmp
 	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml > ${PER}
@@ -18,24 +18,23 @@ gen-persons:
 
 insert-ministers:
 	cp ${V3}/ParlaMint-${MC}.TEI/*.xml ${OUT}/ #copy factorised files
-	$s meta=${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml tsv=../Corpora/Ministers/ParlaMint_ministers-${MC}.edited.tsv \
+	$s tsv=../Corpora/Ministers/Ministers-${MC}.edited.tsv \
 	-xsl:${RUN}/ministers-tsv2tei.xsl ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml \
-	2> ParlaMint_ministers-${MC}.log | ${RUN}/polish-xml.pl > ${OUT}/ParlaMint-${MC}-listPerson.xml 
+	2> Ministers-${MC}.log | ${RUN}/polish-xml.pl > ${OUT}/ParlaMint-${MC}-listPerson.xml 
 	${vrp} ${OUT}/ParlaMint-${MC}-listPerson.xml
 	${s} meta=${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}.xml -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-${MC}-listPerson.xml
 	-diff -b ${V3}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listPerson.xml ${OUT}/ParlaMint-${MC}-listPerson.xml
 
 
 ## All corpora with edited minster TSVs
-# MCS = BA BE ES HR LT LV PL RS SI TR  # LT missing corpus, TR has both auto and edited, check diff!!
-# MCS = BA BE ES HR LV PL RS SI        # Only actual corpora
-MCS = BA ES HR LV PL RS SI           # New corpora
+# MCS = BA BE ES HR LT LV PL RS SI      # LT is missing corpus
+MCS = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 insert-all-ministers:
 	for MC in ${MCS}; do \
 	cp ${V3}/ParlaMint-$${MC}.TEI/*.xml ${OUT}/; \
-	$s meta=${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml tsv=../Corpora/Ministers/ParlaMint_ministers-$${MC}.edited.tsv \
+	$s meta=${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml tsv=../Corpora/Ministers/Ministers-$${MC}.edited.tsv \
 	-xsl:${RUN}/ministers-tsv2tei.xsl ${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}-listPerson.xml \
-	2> ParlaMint_ministers-$${MC}.log | ${RUN}/polish-xml.pl > ${OUT}/ParlaMint-$${MC}-listPerson.xml; \
+	2> Ministers-$${MC}.log | ${RUN}/polish-xml.pl > ${OUT}/ParlaMint-$${MC}-listPerson.xml; \
 	${vrp} ${OUT}/ParlaMint-$${MC}-listPerson.xml; \
 	${s} meta=${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml -xsl:${RUN}/check-links.xsl ${OUT}/ParlaMint-$${MC}-listPerson.xml; \
 	diff -b ${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}-listPerson.xml ${OUT}/ParlaMint-$${MC}-listPerson.xml; \
@@ -43,7 +42,7 @@ insert-all-ministers:
 
 gen-all-persons:
 	for MC in ${MCS}; do \
-	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml > ParlaMint_speakers-$${MC}.tsv; \
+	$s -xsl:${RUN}/parlamint2tbl-persons.xsl ${V3}/ParlaMint-$${MC}.TEI/ParlaMint-$${MC}.xml > Speakers-$${MC}.tsv; \
 	done;
 
 ######################VARIABLES
