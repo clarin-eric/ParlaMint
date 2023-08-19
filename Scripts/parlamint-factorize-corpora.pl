@@ -14,19 +14,18 @@ $inDir = File::Spec->rel2abs(shift);
 $taxonomies_TEI = 'parla.legislature speaker_types subcorpus politicalOrientation CHES';
 $taxonomies_ana = 'NER.ana UD-SYN.ana';
 
-$bkpSuffix = ".BKP";
+$bkpName = "BKP";
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $Factorise  = "$Bin/parlamint-factorize-teiHeader.xsl";
 
 binmode(STDERR, 'utf8');
 
 foreach $corpDir (sort glob "$inDir/ParlaMint-*.TEI*") {
-    next if $corpDir =~ /$bkpSuffix/; #Ignore backup directories
     my $param = '';
     ($Corpus, $anaSuffix) = $corpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
     $anaSuffix = '' unless $anaSuffix;
     print STDERR "INFO: Doing $Corpus TEI$anaSuffix\n";
-    $bkpDir = "$corpDir$bkpSuffix";
+    $bkpDir = "$corpDir/$bkpName";
     
     # Make backup dir if necessary
     unless (-e $bkpDir) {
