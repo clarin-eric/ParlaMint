@@ -73,8 +73,8 @@ sub cut {
     my $out;
     ($src) = $sent =~ /# source = (.+)/;
     ($trg) = $sent =~ /# text = (.+)/;
-    $src = &fix_usas($src);
-    $trg = &fix_usas($trg);
+    #$src = &fix_usas($src);
+    #$trg = &fix_usas($trg);
     $trg_str = substr($trg, 0, length($src) * $cut_ratio);
     $trg_str =~ s/(.+) .+/$1/;
     if ($trg_str !~ / /) {$out = $sent}
@@ -91,7 +91,7 @@ sub cut {
 	    elsif ($line =~ /^#/) {$out .= "$line\n"}
 	    elsif (($word) = $line =~ /^\d+\t(.+?)\t/) {
 		$word =~ s/ //g;
-		$word = &fix_usas($word);
+		#$word = &fix_usas($word);
 		if (not $trg_str) {$skip = 1}
 		elsif ($trg_str =~ s/^\Q$word\E//) {
 		    $line =~ s/\|?SpaceAfter=No//;
@@ -116,9 +116,9 @@ sub fix {
     my ($source) = $sent =~ /# source = (.+)/;
     my ($text) = $sent =~ /# text = (.+)/;
     # Fix PyUSAS bugs;
-    $id = &fix_usas($id);
-    $source = &fix_usas($source);
-    $text = &fix_usas($text);
+    #$id = &fix_usas($id);
+    #$source = &fix_usas($source);
+    #$text = &fix_usas($text);
     
     foreach my $line (split(/\n/, $sent)) {
 	if ($line =~ /^#/) {
@@ -133,8 +133,8 @@ sub fix {
 	elsif ($line =~ /\t/) {
             my ($n, $token, $lemma, $upos, $xpos, $ufeats, $link, $role, $extra, $local) 
 		= split /\t/, $line;
-	    $token = &fix_usas($token);
-	    $lemma = &fix_usas($lemma);
+	    #$token = &fix_usas($token);
+	    #$lemma = &fix_usas($lemma);
 	    die "FATAL: Out of synch in fix on $id / $n:$token in $text\n"
 		unless $text =~ s/^\Q$token\E//;
 	    $space = $text =~ s/^\s+//;
@@ -166,6 +166,7 @@ sub validate {
     @errors = ();
     foreach $e (split(/\n/, $error)) {
 	next unless $e;
+	#Get rid of expected errros and useless lines
 	next if $e =~ /DEPREL/;
 	next if $e =~ /^The following /;
 	next if $e =~ /^acl, advcl, advmod, /;
