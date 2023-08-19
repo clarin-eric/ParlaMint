@@ -19,24 +19,19 @@ merge-taxos:
 	done;
 	${vta} Taxonomies/ParlaMint-taxonomy-*.xml
 
-###### Copy (and fix) original conllu files first to source-mt directory and then to Master
-full-mt-cp-conllu:
-	bin/cp-conllu.pl validate '/home/taja/ParlaMint-*.conllu.translated' '${SOURCES-MT}'
-	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
-
 ############### Makefile for making a distributable version of the ParlaMint and ParlaMint-en corpora
 
 ### VARIABLES
 
 # All ParlaMint II corpora
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RS RO SE SI TR UA
-# Missing corpora: ES ES-PV FI LT RO
+# Missing corpora: FI LT RO ES-PV
 
 ######## SUBMITTED CORPORA FOR V 3.1
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = ES
+CORPORA = CZ
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -228,14 +223,16 @@ mt-convert:
 	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}-en.log > Logs/ParlaMint-$${CORPUS}-en.warn.log;  \
 	done;
 
-# Copy, fix and validate MT sources to here
-mt-init:
-	# ParlaMint-XX.notes.translated.tsv -> ParlaMint-XX-en-notes.tsv
-	cp /home/taja/Notes-translated/ParlaMint-*.notes.translated.tsv ${SOURCES-MT}
-	rename -f 's/\.notes.translated/-en-notes/' ${SOURCES-MT}/*.tsv
-	bin/cp-conllu.pl validate '/home/taja/ParlaMint-*.conllu.translated' '${SOURCES-MT}'
-
 ### Tests for debugging MT processing
+
+mt-test9:
+	perl ../Scripts/mt-conllu2tei.pl \
+	${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml \
+	${SOURCES-MT}/ParlaMint-LV-en-notes.tsv \
+	Sources-Sem/Test/ParlaMint-LV-en.conllu \
+	${TEMP}/ParlaMint-LV-en.TEI.ana
+	${FINALIZE-MT} -all -notei -noconll -codes LV-en -in ${TEMP} -out ${HERE}/Test
+
 mt-test8:
 	$s -xsl:../Scripts/validate-parlamint.xsl \
 	${HERE}/Master/ParlaMint-AT-en.TEI.ana/ParlaMint-AT-en.ana.xml
@@ -271,26 +268,6 @@ mt-test2:
 mt-test1:
 	rm -fr Test/ParlaMint-CZ.tmp/*
 	$s outDir=Test/ParlaMint-CZ.tmp -xsl:../Scripts/mt-prepare4mt.xsl ${HERE}/Master/ParlaMint-CZ.TEI.ana/ParlaMint-CZ.ana.xml
-
-# Producing almost XX-en, uses CORPUS variable
-mt-prep-nohup:
-	nohup time make mt-prep-cnv > Logs/ParlaMint-${CORPUS}-mt2tei.log &
-mt-prep-cnv:
-	perl ../Scripts/mt-conllu2tei.pl \
-	${HERE}/Master/ParlaMint-${CORPUS}.TEI.ana/ParlaMint-${CORPUS}.ana.xml \
-	${SOURCES-MT}/ParlaMint-${CORPUS}-en-notes.tsv \
-	${SOURCES-MT}/ParlaMint-${CORPUS}-en.conllu \
-	Test/ParlaMint-${CORPUS}-en.TEI.ana
-
-#Tests for original corpora
-test1:
-	rm -fr Test/Out/ParlaMint-${CORPUS}*
-	perl ../Scripts/parlamint2distro.pl -all -codes ${CORPUS} -in Test/In -out Test/Out \
-	-version ${VERSION} -teihandle ${HANDLE-TEI} -anahandle ${HANDLE-ANA} -schema ../Schema -docs Docs \
-
-errs1:
-	grep -i error Logs/*.log | \
-	grep -v '...suppressing' | grep -v 'Format errors' | grep -v 'Syntax errors' | grep -v 'FAILED'
 
 ### Some idea, need to think about it!
 #REGIS=at ba be bg cz dk es_ct fr gb gr hr hu is it lv nl no pl pt rs se si tr ua
