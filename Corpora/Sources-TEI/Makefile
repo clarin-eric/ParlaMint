@@ -7,6 +7,7 @@ xprep:	factorize metadata
 ### Add metadata
 metadata:
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI" .
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI.ana" .
 ### Factorisation of source corpora and Orig
 factorize:
 	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies Orig
