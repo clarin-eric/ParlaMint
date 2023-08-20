@@ -110,6 +110,7 @@
           <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
           <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
           <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
+          <xsl:attribute name="party_orientation" select="et:party-orientation($speaker)"/>
           <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
           <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
         </xsl:when>
