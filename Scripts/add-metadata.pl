@@ -49,25 +49,25 @@ foreach $inCorpDir (sort glob $inDirs) {
 	`$poliScript < $xmlFile > $outCorpDir/$fName`;
     }
 
-    &process('encoder', 
+    &process('Encoder orientations',
 	     "$inCorpDir/ParlaMint-$country-listOrg.xml",
 	     "$orieDir/$oriePrefix$country$encoSuffix",
 	     $encoScript,
 	     "$tmpDir/listOrg.enco.xml"
 	     );
-    &process('CHES',
+    &process('CHES orientations',
 	     "$tmpDir/listOrg.enco.xml",
 	     "$orieDir/$oriePrefix$country$chesSuffix",
 	     $chesScript,
 	     "$tmpDir/listOrg.ches.xml");
-    &process('Wiki',
+    &process('Wiki orientations',
 	     "$tmpDir/listOrg.ches.xml",
 	     "$orieDir/$oriePrefix$country$wikiSuffix",
 	     $wikiScript,
 	     "$tmpDir/listOrg.wiki.xml");
     `$poliScript < $tmpDir/listOrg.wiki.xml > $outCorpDir/ParlaMint-$country-listOrg.xml`;
 
-    &process('Minister',
+    &process('Encoder ministers',
 	     "$inCorpDir/ParlaMint-$country-listPerson.xml",
 	     "$miniDir/$miniPrefix$country$miniSuffix",
 	     $miniScript,
