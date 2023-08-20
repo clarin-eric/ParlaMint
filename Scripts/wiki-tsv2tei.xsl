@@ -161,7 +161,7 @@
     </xsl:variable>
     <xsl:copy-of select="tei:*[not(self::tei:state or self::tei:listEvent)]"/>
     <!-- We cannot test if tei:idno = $found//tei:idno, as one can be mime-encoded, the other not -->
-    <xsl:if test="not(matches(tei:idno, 'wikipedia'))">
+    <xsl:if test="not(tei:idno[matches(., 'wikipedia')])">
       <xsl:copy-of select="$found//tei:idno"/>
     </xsl:if>
     <xsl:copy-of select="tei:listEvent"/>
