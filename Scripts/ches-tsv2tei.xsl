@@ -30,7 +30,7 @@
          <label>
             <orgName full="abb" from="2006" to="2018">BZO</orgName>
          </label>
-         <state ana="#ches-lrgen">
+         <state ana="#ches.lrgen">
             <state from="2006" to="2009" n="8.83"/>
             <state from="2010" to="2013" n="8.29"/>
             <state from="2014" to="2018" n="7.80"/>
@@ -226,7 +226,7 @@
     <xsl:param name="rows"/>
     <xsl:variable name="country" select="$rows[1]/tei:cell[@type='country']"/>
     <xsl:variable name="party" select="$rows[1]/tei:cell[@type='pm_id']"/>
-    <state ana="#ches-{@type}">
+    <state ana="#ches.{@type}">
       <xsl:variable name="values-per-year">
 	<xsl:for-each select="$rows">
 	  <xsl:if test="tei:cell[@type = $type]">
