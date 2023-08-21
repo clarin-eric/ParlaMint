@@ -215,7 +215,7 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
-      <xsl:when test="not(normalize-space($text))"> <!-- error if affiliation has no content and no ref -->
+      <xsl:when test="not(tei:orgName)"> <!-- error if affiliation has no ref and no orgName -->
         <xsl:call-template name="affiliation-error">
           <xsl:with-param name="ident">05</xsl:with-param>
           <xsl:with-param name="msg">
