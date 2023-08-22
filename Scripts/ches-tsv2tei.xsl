@@ -28,7 +28,7 @@
       ...
       <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
          <label>
-            <orgName full="abb" from="2006" to="2018">BZO</orgName>
+            <orgName full="abb" from="2006" to="2018" xml:lang="en">BZO</orgName>
          </label>
          <state ana="#ches.lrgen">
             <state from="2006" to="2009" n="8.83"/>
@@ -205,7 +205,7 @@
 	<xsl:sort select="tei:cell[@type = 'year']"/>
 	<xsl:variable name="from" select="tei:cell[@type = 'year']"/>
         <xsl:variable name="to" select="$ches-interval/tei:date[@from = $from]/@to"/>
-	<orgName full="abb" from="{$from}" to="{$to}">
+	<orgName full="abb" from="{$from}" to="{$to}" xml:lang="en">
 	  <xsl:value-of select="tei:cell[@type = 'ches_id']"/>
 	</orgName>
       </xsl:for-each>
