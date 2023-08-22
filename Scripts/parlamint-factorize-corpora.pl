@@ -47,20 +47,20 @@ foreach $corpDir (sort glob "$inDir/ParlaMint-*.TEI*") {
     # print STDERR "INFO: running $command\n";
     `$command`;
 
-    # Take care of missing taxonomies
+    # Insert common taxonomies, if any missing XInclude them
     @missing_taxonomies = ();
     if ($anaSuffix) {$taxonomies = "$taxonomies_TEI $taxonomies_ana"}
     else {$taxonomies = $taxonomies_TEI}
     foreach $taxonomy (split(/ /, $taxonomies)) {
 	$taxonomyFName = "ParlaMint-taxonomy-$taxonomy.xml";
+	$InTaxonomyFile = "$taxonomyDir/$taxonomyFName";
 	$taxonomyFile = "$corpDir/$taxonomyFName";
+	die "FATAL: Cant find base taxonomy file $InTaxonomyFile\n" unless -e $InTaxonomyFile;
 	unless (-e $taxonomyFile) {
-	    $InTaxonomyFile = "$taxonomyDir/$taxonomyFName";
 	    print STDERR "WARN: Inserting missing taxonomy file $taxonomyFName\n";
-	    die "FATAL: Cant find base taxonomy file $InTaxonomyFile\n" unless -e $InTaxonomyFile;
-	    `cp $InTaxonomyFile $taxonomyFile`;
 	    push(@missing_taxonomies, $taxonomyFName)
 	}
+	`cp $InTaxonomyFile $taxonomyFile`;
     }
     next unless @missing_taxonomies;
     $rootFile = "$corpDir/ParlaMint-$Corpus$anaSuffix.xml";
