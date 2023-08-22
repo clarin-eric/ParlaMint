@@ -382,8 +382,14 @@ stateType.val =
   
   ## Data from Chapel Hill Survey.
   (
-   ## Data on political orientation.
+   ## A CHES variable.
    "CHES"
+   | 
+     ## A value of a CHES variable.
+     "variable"
+   | 
+     ## Data on political orientation.
+     "value"
    | 
      ## Data from Wikipedia.
      "politicalOrientation"

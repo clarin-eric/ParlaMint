@@ -30,10 +30,10 @@
          <label>
             <orgName full="abb" from="2006" to="2018" xml:lang="en">BZO</orgName>
          </label>
-         <state ana="#ches.lrgen">
-            <state from="2006" to="2009" n="8.83"/>
-            <state from="2010" to="2013" n="8.29"/>
-            <state from="2014" to="2018" n="7.80"/>
+         <state type="variable" ana="#ches.lrgen">
+            <state type="value" from="2006" to="2009" n="8.83"/>
+            <state type="value" from="2010" to="2013" n="8.29"/>
+            <state type="value" from="2014" to="2018" n="7.80"/>
         </state>
       </state>
      </org>
@@ -226,13 +226,13 @@
     <xsl:param name="rows"/>
     <xsl:variable name="country" select="$rows[1]/tei:cell[@type='country']"/>
     <xsl:variable name="party" select="$rows[1]/tei:cell[@type='pm_id']"/>
-    <state ana="#ches.{@type}">
+    <state type="variable" ana="#ches.{@type}">
       <xsl:variable name="values-per-year">
 	<xsl:for-each select="$rows">
 	  <xsl:if test="tei:cell[@type = $type]">
 	    <xsl:variable name="from" select="tei:cell[@type = 'year']"/>
             <xsl:variable name="to" select="$ches-interval/tei:date[@from = $from]/@to"/>
-	    <state from="{$from}" to="{$to}" n="{tei:cell[@type = $type]}"/>
+	    <state type="value" from="{$from}" to="{$to}" n="{tei:cell[@type = $type]}"/>
 	  </xsl:if>
 	</xsl:for-each>
       </xsl:variable>

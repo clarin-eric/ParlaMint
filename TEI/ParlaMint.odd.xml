@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2023-08-20</date>
+        <date>2023-08-22</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,7 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
-      <change when="2023-08-20">Tomaž Erjavec: Change description of org/state.</change>
+      <change when="2023-08-22">Tomaž Erjavec: Change description of org/state.</change>
       <change when="2023-07-17">Tomaž Erjavec: Add org/@role='federatedState'.</change>
       <change when="2023-06-13">Tomaž Erjavec: Start work on section for MT.</change>
       <change when="2023-04-06">Tomaž Erjavec: allow orgName in affiliation.</change>
@@ -71,7 +71,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2023-08-20</docDate>
+        <docDate>2023-08-22</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -2037,27 +2037,29 @@
               top-level <gi>state</gi> element gives the <att>type</att> of the state, i.e. <val>CHES</val> and the URL of
               the CSV source for the information. Its <gi>label</gi> gives the abbreviation of the political party name in CHES,
               which can, and often does, differ from its ParlaMint abbreviation.
-              Each subordinate <gi>state</gi> then encodes one CHES variable, which is given, via the <att>ana</att> attribute,
-              as the reference to the appropriate category defined in the <val>CHES</val> taxonomy. Finally, as CHES gives
-              the variables according to years, the third level of <gi>state</gi> gives the time periods of the variable together
-              with its numeric value in the <att>n</att> attribute, as illustrated in the example below:
+              Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
+	      given, via the <att>ana</att> attribute, as the reference to the appropriate category defined in the <val>CHES</val>
+	      taxonomy. Finally, as CHES gives
+              variables according to years, the third level of <gi>state</gi> (of <att>type</att> <val>value</val>) gives the
+	      time periods of the variable together with its numeric value in the <att>n</att> attribute, as illustrated in the
+	      example below:
               
               <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ches">
                 <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
                   <label>
-                    <orgName full="abb" from="2002" to="2018">MR</orgName>
+                    <orgName full="abb" from="2002" to="2018" xml:lang="en">MR</orgName>
                   </label>
-                  <state ana="#ches-lrgen">
-                    <state from="2002" to="2005" n="6.35"/>
-                    <state from="2006" to="2009" n="6.67"/>
-                    <state from="2010" to="2013" n="7.0"/>
-                    <state from="2014" to="2018" n="7.0"/>
+                  <state type="variable" ana="#ches-lrgen">
+                    <state type="value" from="2002" to="2005" n="6.35"/>
+                    <state type="value" from="2006" to="2009" n="6.67"/>
+                    <state type="value" from="2010" to="2013" n="7.0"/>
+                    <state type="value" from="2014" to="2018" n="7.0"/>
                   </state>
-                  <state ana="#ches-lrecon">
-                    <state from="2002" to="2005" n="7.3"/>
-                    <state from="2006" to="2009" n="7.5"/>
-                    <state from="2010" to="2013" n="7.62"/>
-                    <state from="2014" to="2018" n="7.60"/>
+                  <state type="variable" ana="#ches-lrecon">
+                    <state type="value" from="2002" to="2005" n="7.3"/>
+                    <state type="value" from="2006" to="2009" n="7.5"/>
+                    <state type="value" from="2010" to="2013" n="7.62"/>
+                    <state type="value" from="2014" to="2018" n="7.60"/>
                   </state>
                   ...
                 </state>
