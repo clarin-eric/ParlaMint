@@ -205,7 +205,7 @@
 	<xsl:sort select="tei:cell[@type = 'year']"/>
 	<xsl:variable name="from" select="tei:cell[@type = 'year']"/>
         <xsl:variable name="to" select="$ches-interval/tei:date[@from = $from]/@to"/>
-	<orgName full="abb" from="{$from}" to="{$to}" xml:lang="en">
+	<orgName full="abb" from="{$from}" to="{$to}">
 	  <xsl:value-of select="tei:cell[@type = 'ches_id']"/>
 	</orgName>
       </xsl:for-each>
@@ -214,7 +214,7 @@
     <xsl:for-each-group select="$names/tei:orgName" group-by=".">
       <xsl:variable name="from" select="current-group()[1]/self::tei:orgName/@from"/>
       <xsl:variable name="to" select="current-group()[last()]/self::tei:orgName/@to"/>
-      <orgName full="abb" from="{$from}" to="{$to}">
+      <orgName full="abb" xml:lang="en" from="{$from}" to="{$to}">
 	<xsl:value-of select="current-grouping-key()"/>
       </orgName>
     </xsl:for-each-group>
