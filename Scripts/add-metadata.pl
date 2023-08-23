@@ -1,12 +1,18 @@
 #!/usr/bin/perl
 # Add TSV metadata to TEI corpora
+# Commented stubs for transliteration
 use warnings;
 use utf8;
+#use Lingua::Translit;
 use FindBin qw($Bin);
 use File::Spec;
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 my $tempdirroot = "$Bin/tmp";
 my $tmpDir = tempdir(DIR => $tempdirroot, CLEANUP => 1);
+
+# $standard{'BG'} = 'DIN 1460 BUL';
+# $standard{'GR'} = 'ISO 843';
+# $standard{'UA'} = 'DIN 1460 UKR';
 
 $orieDir = File::Spec->rel2abs(shift);
 $miniDir = File::Spec->rel2abs(shift);
@@ -22,6 +28,10 @@ $wikiScript = "$Bin/wiki-tsv2tei.xsl";
 
 # Scripts that add info to listPerson
 $miniScript = "$Bin/ministers-tsv2tei.xsl";
+
+# Scripts that transliterate metadata
+# $Trans2tsvScript = "$Bin/trans-tei2tsv.xsl";
+# $Trans2teiScript = "$Bin/trans-tsv2tei.xsl";
 
 # Script that makes XML prettier
 $poliScript = "$Bin/polish-xml.pl";
