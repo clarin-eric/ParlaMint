@@ -1,4 +1,16 @@
-######## Merge taxonomies
+## Transliteration tests
+test-translit4:
+	$s tsv=0.tsv -xsl:bin/trans-tsv2tei.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml > ParlaMint-BG-listPerson.xml
+test-translit3:
+	bin/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml
+test-translit2:
+	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
+test-translit1:
+	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml > ParlaMint-BG-listPerson.tsv
+	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listPerson.xml > ParlaMint-GR-listPerson.tsv
+	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml > ParlaMint-UA-listPerson.tsv
+
+######## Merging taxonomies
 
 TAXONOMIES-TEI = subcorpus speaker_types parla.legislature
 TAXONOMIES-ANA = NER
@@ -31,7 +43,7 @@ merge-taxos:
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = AT BA BE
+CORPORA = AT
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -66,7 +78,7 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 ### Fixes for 3.1-en:
 
 # Instead of TEI-derived CoNLL-U files we release original MTed CoNLL-U
-# because it contains word alignments 
+# because they also contain word alignments 
 # Script also adds -en suffix to filesnames + readme.
 mt-cp-conllu:
 	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'

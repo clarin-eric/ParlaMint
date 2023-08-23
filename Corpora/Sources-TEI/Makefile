@@ -2,13 +2,15 @@
 
 nohup:
 	nohup time make prep > preparation.log &
-prep:	metadata
+prep:	factorize metadata
 xprep:	factorize metadata
+
 ### Add metadata
 metadata:
-	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI" .
-	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI.ana" .
-### Factorisation of source corpora and Orig
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI" "."
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI.ana" "."
+
+### Factorisation of source corpora in Orig
 factorize:
 	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies Orig
 
