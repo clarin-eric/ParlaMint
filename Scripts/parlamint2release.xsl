@@ -10,6 +10,7 @@
      Changes to root file:
      - delete old and now redundant pubPlace
      - insert textClass if missing
+     - remove Anonymous speaker (BG, BE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
@@ -198,6 +199,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- Remove anonymous speaker -->
+  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing Anonymous speaker from listPerson ', @xml:id)"/>
+  </xsl:template>
+  
   <!-- Remove the two "speaker" parties from GB, i.e. 
        <org role="politicalParty" xml:id="party.S">
          <orgName full="yes">Speaker</orgName>
@@ -369,6 +376,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing @who = #Anonymous from utterance ', ../@xml:id)"/>
+  </xsl:template>
+    
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
