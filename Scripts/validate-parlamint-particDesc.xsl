@@ -188,13 +188,12 @@
                 <xsl:call-template name="affiliation-error">
                   <xsl:with-param name="ident">18</xsl:with-param>
                   <xsl:with-param name="severity"><xsl:value-of select="$severity"/></xsl:with-param>
-                  <xsl:with-param name="msg"><xsl:text>Missing implicated affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
+                  <xsl:with-param name="msg"><xsl:text>Missing implied affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
                 </xsl:call-template>
               </xsl:if>
             </xsl:if>
-
-
           </xsl:when>
+	  
           <xsl:when test="not($affWith)"> <!-- ref contain reference inside current corpus file -->
             <xsl:call-template name="error">
               <xsl:with-param name="ident">03</xsl:with-param>
@@ -216,14 +215,14 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
-      <xsl:otherwise>
+      <xsl:when test="not(tei:orgName)"> <!-- error if affiliation has no ref and no orgName -->
         <xsl:call-template name="affiliation-error">
           <xsl:with-param name="ident">05</xsl:with-param>
           <xsl:with-param name="msg">
             <xsl:text>Missing reference</xsl:text>
           </xsl:with-param>
         </xsl:call-template>
-      </xsl:otherwise>
+      </xsl:when>
     </xsl:choose>
 
   </xsl:template>

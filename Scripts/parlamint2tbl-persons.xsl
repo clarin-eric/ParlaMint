@@ -33,6 +33,7 @@
                                          '$1')"/>
     <xsl:apply-templates select="$rootHeader//tei:listPerson/tei:person">
       <xsl:with-param name="country" select="$country"/>
+      <xsl:sort select="@xml:id"/>
     </xsl:apply-templates>
   </xsl:template>
   

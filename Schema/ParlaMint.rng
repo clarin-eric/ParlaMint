@@ -35,6 +35,12 @@
       <oneOrMore>
         <element name="desc">
           <ref name="lang.att"/>
+	  <a:documentation>Optional @n attribute for storing the name of the source corpus for a taxonomy.</a:documentation>
+	  <optional>
+	    <attribute name="n">
+              <data type="string"/>
+	    </attribute>
+	  </optional>
           <ref name="catDesc.content"/>
         </element>
       </oneOrMore>
@@ -52,6 +58,12 @@
       <oneOrMore>
         <element name="catDesc">
           <ref name="lang.att"/>
+	  <a:documentation>Optional @n attribute for storing the name of the source corpus for a taxonomy.</a:documentation>
+	  <optional>
+	    <attribute name="n">
+              <data type="string"/>
+	    </attribute>
+	  </optional>
           <ref name="catDesc.content"/>
         </element>
       </oneOrMore>
@@ -145,41 +157,38 @@
   </define>
   
   <define name="state">
-    <a:documentation>Element defining the political orientation of a politicalParty or parliamentaryGroup.</a:documentation>
+    <a:documentation>Element defining political metadata of a politicalParty or parliamentaryGroup.</a:documentation>
     <element name="state">
-      <a:documentation>The type of state is fixed, as we use state only for political orientation.</a:documentation>
-      <attribute name="type">
-        <ref name="stateType.val"/>
-      </attribute>
-      <a:documentation>The subtype of state gives the source of this information.</a:documentation>
-      <attribute name="subtype">
-        <ref name="stateSubtype.val"/>
-      </attribute>
+      <a:documentation>The type (source) of state.</a:documentation>
+      <optional>
+	<attribute name="type">
+          <ref name="stateType.val"/>
+	</attribute>
+      </optional>
       <ref name="source.att"/>
       <optional>
-        <a:documentation>The political orientation if given as a numeric value.</a:documentation>
+        <a:documentation>The value of a some metadatum.</a:documentation>
         <attribute name="n">
           <data type="decimal"/>
         </attribute>
+      </optional>
+      <a:documentation>Optional pointer to the category of a metadatum.</a:documentation>
+      <optional>
+	<attribute name="ana">
+          <data type="anyURI"/>
+	</attribute>
       </optional>
       <a:documentation>From - to when this information holds.</a:documentation>
       <optional>
 	<ref name="temporal.atts"/>
       </optional>
-      <a:documentation>Pointer to category of a political orientation.</a:documentation>
-      <attribute name="ana">
-        <data type="anyURI"/>
-      </attribute>
-      <a:documentation>Abbreviation of the political party in the source.</a:documentation>
+      <a:documentation>Abbreviation(s) of the political party in the source.</a:documentation>
       <optional>
         <choice>
           <element name="label">
-            <element name="orgName">
-              <attribute name="full">
-                <value>abb</value>
-              </attribute>
-              <ref name="normalized-space.string"/>
-            </element>
+	    <oneOrMore>
+	      <ref name="orgName"/>
+	    </oneOrMore>
           </element>
           <a:documentation>Optional note(s).</a:documentation>
           <oneOrMore>
@@ -190,6 +199,10 @@
           </oneOrMore>
         </choice>
       </optional>
+      <a:documentation>Subsidiary states giving more detailed information, e.g. by type of metadatum or by year.</a:documentation>
+      <zeroOrMore>
+        <ref name="state"/>
+      </zeroOrMore>
     </element>
   </define>
   
@@ -405,10 +418,7 @@
       </zeroOrMore>
       <a:documentation>The name of the organisation they are affiliated with.</a:documentation>
       <zeroOrMore>
-        <element name="orgName">
-          <ref name="lang.att"/>
-          <ref name="normalized-space.string"/>
-        </element>
+	<ref name="orgName"/>
       </zeroOrMore>
       <a:documentation>Optional note for free-text description of the affiliation period.</a:documentation>
       <optional>
@@ -525,14 +535,22 @@
         </attribute>
       </optional>
       <ref name="global.atts"/>
-      <ref name="normalized-space.string"/>
-      <!--oneOrMore>
-          <choice>
-          <ref name="note"/>
+      <!--ref name="normalized-space.string"/-->
+      <mixed>
+	<zeroOrMore>
           <ref name="pb"/>
-          <text/>
-          </choice>
-          </oneOrMore-->
+	</zeroOrMore>
+      </mixed>
+    </element>
+  </define>
+  
+  <define name="pb">
+    <a:documentation>A page break, possibly with its source URI.</a:documentation>
+    <element name="pb">
+      <ref name="global.atts"/>
+      <ref name="corresp.att"/>
+      <ref name="source.att"/>
+      <empty/>
     </element>
   </define>
   
@@ -802,15 +820,20 @@
   
   <define name="stateType.val">
     <a:documentation>The types of states of organisations distinguished.</a:documentation>
-    <value>politicalOrientation</value>
-  </define>
-  
-  <define name="stateSubtype.val">
-    <a:documentation>The subtypes of states of organisations distinguished.</a:documentation>
     <choice>
+      <a:documentation>Data from Chapel Hill Survey.</a:documentation>
       <value>CHES</value>
+      <a:documentation>A CHES variable.</a:documentation>
+      <value>variable</value>
+      <a:documentation>A value of a CHES variable.</a:documentation>
+      <value>value</value>
+      
+      <a:documentation>Data on political orientation.</a:documentation>
+      <value>politicalOrientation</value>
+      <a:documentation>Data from Wikipedia.</a:documentation>
       <value>Wikipedia</value>
-      <value>unknown</value>
+      <a:documentation>Data by an encoder.</a:documentation>
+      <value>encoder</value>
     </choice>
   </define>
   
