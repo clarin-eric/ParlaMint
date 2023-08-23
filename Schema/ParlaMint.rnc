@@ -7,19 +7,45 @@ a:documentation [
   "  mandated vocabularis of attributes."
 ]
 
+## Prefix definition for extended TEI pointers.
+prefixDef =
+  element prefixDef {
+    attribute ident {
+      xsd:token { pattern = "[a-z][a-z0-9\+\.\-]*" }
+    },
+    attribute matchPattern { xsd:token },
+    attribute replacementPattern { xsd:token },
+    paras
+  }
+
 ## Taxonomy element included directly in the teiHeader of corpus root or stored
 ##     in a separate file.
 taxonomy =
   element taxonomy {
     id.att,
-    element desc { lang.att, catDesc.content }+,
+    lang.att,
+    element desc {
+      lang.att
+      >> a:documentation [
+           "Optional @n attribute for storing the name of the source corpus for a taxonomy."
+         ],
+      attribute n { xsd:string }?,
+      catDesc.content
+    }+,
     category+
   }
 category =
   element category {
     id.att,
     ana.att?,
-    element catDesc { lang.att, catDesc.content }+,
+    element catDesc {
+      lang.att
+      >> a:documentation [
+           "Optional @n attribute for storing the name of the source corpus for a taxonomy."
+         ],
+      attribute n { xsd:string }?,
+      catDesc.content
+    }+,
     category*
   }
 
@@ -31,7 +57,8 @@ catDesc.content =
 
 ## Organization list element included directly in the teiHeader of corpus root or
 ##     stored in a separate file.
-listOrg = element listOrg { head*, org+, listRelation? }
+listOrg =
+  element listOrg { id.att?, lang.att, head*, org+, listRelation? }
 
 ## Organization element for storing info on political parties, government,
 ##     etc.
@@ -59,42 +86,32 @@ orgName =
     normalized-space.string
   }
 
-## Element defining the political orientation of a politicalParty or
-##     parliamentaryGroup.
+## Element defining political metadata of a politicalParty or parliamentaryGroup.
 state =
   
-  ## The type of state is fixed, as we use state only for political
-  ##       orientation.
+  ## The type (source) of state.
   element state {
-    attribute type { stateType.val }
-    >> a:documentation [
-         "The subtype of state gives the source of this information."
-       ],
-    attribute subtype { stateSubtype.val },
+    attribute type { stateType.val }?,
+    source.att,
     
-    ## The URI of the source where this information was taken
-    ##         from.
-    (attribute source { anyURIs }?),
-    
-    ## The political orientation if given as a numeric value.
+    ## The value of a some metadatum.
     (attribute n { xsd:decimal }?)
+    >> a:documentation [
+         "Optional pointer to the category of a metadatum."
+       ],
+    (attribute ana { xsd:anyURI }?)
     >> a:documentation [ "From - to when this information holds." ],
-    temporal.atts
+    (temporal.atts?)
     >> a:documentation [
-         "Pointer to category of a political orientation."
+         "Abbreviation(s) of the political party in the source."
        ],
-    attribute ana { xsd:anyURI }
+    ((element label { orgName+ }
+      >> a:documentation [ "Optional note(s)." ]
+      | element note { lang.att, normalized-space.string }+)?)
     >> a:documentation [
-         "Abbreviation of the political party in the source."
+         "Subsidiary states giving more detailed information, e.g. by type of metadatum or by year."
        ],
-    (element label {
-       element orgName {
-         attribute full { "abb" },
-         normalized-space.string
-       }
-     }
-     >> a:documentation [ "Optional note(s)." ]
-     | element note { lang.att, normalized-space.string }+)?
+    state*
   }
 
 ## A list of events connected to organisations.
@@ -116,7 +133,7 @@ listRelation =
 
 ## A list of persons. This element can be included directly in the teiHeader of a
 ##     corpus root or stored in a separate file.
-listPerson = element listPerson { head*, person+ }
+listPerson = element listPerson { id.att?, lang.att, head*, person+ }
 
 ## All informaton pertaining to a person.
 person =
@@ -124,7 +141,7 @@ person =
     global.atts,
     
     ## We can have person name in several languages, or, rather,
-    ##         scripts.
+    ##         scripts or several names with different temporal information.
     (persName+),
     (element sex {
        attribute value { "M" | "F" | "U" | "O" | "N" },
@@ -142,26 +159,53 @@ person =
 ## The name of a person.
 persName =
   element persName {
-    lang.att,
+    lang.att
+    >> a:documentation [
+         "Names can change, and are then marked by @from / @to."
+       ],
+    attribute from { temporal.val }?,
+    attribute to { temporal.val }?,
     
     ## Special persons (like 'group') have their name in term. This possibility
     ##         might have to be revisited.
     (element term { normalized-space.string }
-     | (element surname { personal.att, normalized-space.string }+
-        & element forename { personal.att, normalized-space.string }+
-        & element addName { personal.att, normalized-space.string }*
-        & element roleName { personal.att, normalized-space.string }*
+     | (element surname {
+          attribute type { "birth" | "patronym" | "married" }?,
+          name.att,
+          normalized-space.string
+        }+
+        & element forename {
+            attribute type { "first" | "middle" | "unused" }?,
+            name.att,
+            normalized-space.string
+          }+
+        & element addName { name.att, normalized-space.string }*
+        & element roleName { name.att, normalized-space.string }*
         & element nameLink { normalized-space.string }*))
   }
 
-## The affiliation of a person, with temoral attributes and its type.
+## The affiliation of a person, with temporal attributes, its type and possibly some content.
 affiliation =
   element affiliation {
     ana.att?,
     temporal.atts?,
-    ref.att?,
-    attribute role { affiliationRole.val },
-    element roleName { lang.att, normalized-space.string }*
+    ref.att,
+    source.att,
+    attribute role { affiliationRole.val }
+    >> a:documentation [ "The written out name of the role." ],
+    (element roleName { lang.att, normalized-space.string }*)
+    >> a:documentation [
+         "The name of the organisation they are affiliated with."
+       ],
+    (orgName*)
+    >> a:documentation [
+         "Optional note for free-text description of the affiliation period."
+       ],
+    element note {
+      attribute type { "period" },
+      lang.att,
+      normalized-space.string
+    }?
   }
 
 ## The occupation of a person.
@@ -218,16 +262,15 @@ head =
   element head {
     attribute type { xsd:token }?,
     global.atts,
-    normalized-space.string
-    # oneOrMore>
-    # <choice>
-    # <ref name="note"/>
-    # <ref name="pb"/>
-    # <text/>
-    # </choice>
-    # </oneOrMore
-    
+    # ref name="normalized-space.string"/
+    mixed { pb* }
   }
+
+## A page break, possibly with its source URI.
+pb = element pb { global.atts, corresp.att, source.att, empty }
+
+## A series of paragraphs. Paragraphs are only used in the teiHeader.
+paras = element p { global.atts, annotated.text }+
 
 ## The identification number element identifies a corpus element with an URI,
 ##     and specifies its type and subtype.
@@ -253,7 +296,9 @@ date-simple = element date { when.att, text }
 
 ## Attribute for the form of a person or organisation name,
 ##     cf. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.personal.html
-personal.att = attribute full { "yes" | "abb" | "init" }?
+name.att =
+  lang.att,
+  attribute full { "yes" | "abb" | "init" }?
 
 ## Attributes giving temporal information on the current
 ##     element.
@@ -317,6 +362,9 @@ anyURIs = list { xsd:anyURI+ }
 ## Text maybe containing a reference to some other document.
 annotated.text = mixed { ref* }
 
+## A string that is non-empty and does not contain white-space.
+non-empty.string = xsd:string { pattern = "\S+" }
+
 ## A string that is non-empty, does not start or end with white-space, and
 ##     contains only ordinary spaces as spacing characters.
 normalized-space.string = xsd:string { pattern = "(\S)|(\S[\S ]*\S)" }
@@ -330,10 +378,25 @@ XInclude =
 a:documentation [ "Fixed ParlaMint vocabularies of attribute values:" ]
 
 ## The types of states of organisations distinguished.
-stateType.val = "politicalOrientation"
-
-## The subtypes of states of organisations distinguished.
-stateSubtype.val = "CHES" | "Wikipedia" | "unknown"
+stateType.val =
+  
+  ## Data from Chapel Hill Survey.
+  (
+   ## A CHES variable.
+   "CHES"
+   | 
+     ## A value of a CHES variable.
+     "variable"
+   | 
+     ## Data on political orientation.
+     "value"
+   | 
+     ## Data from Wikipedia.
+     "politicalOrientation"
+   | 
+     ## Data by an encoder.
+     "Wikipedia"
+   | "encoder")
 
 ## Legal values of the names of relation between
 ##     organisations.
@@ -351,8 +414,13 @@ orgRole.val =
    | "parliament"
    | "politicalParty"
    | 
-     ## The following used only by BG:
+     ## The following used only by AT:
      "parliamentaryGroup"
+   | "europeanCommission"
+   | "europeanInstitution"
+   | 
+     ## The following used only by BG:
+     "federatedState"
    | 
      ## The following used only by LT:
      "ngo"
@@ -377,11 +445,7 @@ orgRole.val =
    | 
      ## The following used only by SI:
      "boardOfDirectors"
-   | 
-     ## The following used only by AT:
-     "ethnicCommunity"
-   | "europeanCommission"
-   | "europeanInstitution")
+   | "ethnicCommunity")
 
 ## Legal values of the affiliation/@role attribute.
 affiliationRole.val =

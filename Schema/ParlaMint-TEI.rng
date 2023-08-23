@@ -23,6 +23,8 @@
       <attribute name="ana">
         <ref name="anyURIs"/>
       </attribute>
+      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+      <ref name="corresp.att"/>
       <ref name="teiHeader"/>
       <ref name="text-body"/>
     </element>
@@ -235,11 +237,11 @@
           <attribute name="when">
             <data type="date"/>
           </attribute>
-	  <mixed>
-	    <zeroOrMore>
+          <mixed>
+            <zeroOrMore>
               <ref name="name-header"/>
-	    </zeroOrMore>
-	  </mixed>
+            </zeroOrMore>
+          </mixed>
         </element>
       </oneOrMore>
     </element>
@@ -376,17 +378,6 @@
     </element>
   </define>
   
-  <define name="paras">
-    <a:documentation>A series of paragraphs. Paragrapgs are only used in the
-    teiHeader.</a:documentation>
-    <oneOrMore>
-      <element name="p">
-        <ref name="global.atts"/>
-        <ref name="annotated.text"/>
-      </element>
-    </oneOrMore>
-  </define>
-
   <define name="abs">
     <a:documentation>A series of anonymous blocks. Anonymous blocks are only used in the
     teiHeader.</a:documentation>
@@ -401,34 +392,68 @@
   <a:documentation>Start of definitions for text</a:documentation>
 
   <define name="text-body">
-    <a:documentation>The definition of the text and body (and division) elements.</a:documentation>
+    <a:documentation>The definition of the text and body elements.</a:documentation>
     <element name="text">
       <ref name="global.atts"/>
       <ref name="ana.att"/>
       <element name="body">
         <oneOrMore>
-          <element name="div">
-            <ref name="global.atts"/>
-            <attribute name="type">
-              <value>debateSection</value>
-            </attribute>
-            <zeroOrMore>
-              <ref name="head"/>
-            </zeroOrMore>
-            <oneOrMore>
-              <choice>
-                <ref name="note"/>
-                <ref name="comment"/>
-                <ref name="pb"/>
-                <ref name="u"/>
-              </choice>
-            </oneOrMore>
-          </element>
+          <ref name="div"/>
         </oneOrMore>
       </element>
     </element>
   </define>
   
+  <define name="div">
+    <a:documentation>The definition of the div element.</a:documentation>
+    <element name="div">
+      <ref name="global.atts"/>
+      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+      <ref name="corresp.att"/>
+      <choice>
+        <a:documentation>A standard div with utterances.</a:documentation>
+        <group>
+          <attribute name="type">
+            <value>debateSection</value>
+          </attribute>
+          <zeroOrMore>
+            <ref name="head"/>
+          </zeroOrMore>
+	  <a:documentation>We want at least one u in the debateSection.</a:documentation>
+          <zeroOrMore>
+            <choice>
+              <ref name="comment"/>
+              <ref name="pb"/>
+            </choice>
+          </zeroOrMore>
+          <ref name="u"/>
+          <zeroOrMore>
+            <choice>
+              <ref name="comment"/>
+              <ref name="pb"/>
+              <ref name="u"/>
+            </choice>
+          </zeroOrMore>
+        </group>
+        <a:documentation>A div with transcriber comments only.</a:documentation>
+        <group>
+          <attribute name="type">
+            <value>commentSection</value>
+          </attribute>
+          <zeroOrMore>
+            <ref name="head"/>
+          </zeroOrMore>
+          <oneOrMore>
+            <choice>
+              <ref name="comment"/>
+              <ref name="pb"/>
+            </choice>
+          </oneOrMore>
+        </group>
+      </choice>
+    </element>
+  </define>
+
   <define name="u">
     <a:documentation>One speech (i.e. 'utterance').</a:documentation>
     <element name="u">
@@ -454,6 +479,8 @@
           <ref name="anyURIs"/>
         </attribute>
       </optional>
+      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+      <ref name="corresp.att"/>
       <oneOrMore>
         <choice>
           <ref name="seg"/>
@@ -468,6 +495,8 @@
     <a:documentation>A segment (i.e paragraph) inside a speech.</a:documentation>
     <element name="seg">
       <ref name="global.atts"/>
+      <a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+      <ref name="corresp.att"/>
       <oneOrMore>
         <choice>
           <ref name="comment"/>
@@ -498,16 +527,6 @@
     </element>
   </define>
   
-  <define name="pb">
-    <a:documentation>A page break, possible with its source URI.</a:documentation>
-    <element name="pb">
-      <ref name="global.atts"/>
-      <ref name="corresp.att"/>
-      <ref name="source.att"/>
-      <empty/>
-    </element>
-  </define>
-  
   <define name="comment">
     <a:documentation>Any type of transcriber comment.</a:documentation>
     <choice>
@@ -517,6 +536,7 @@
           <choice>
             <value>editorial</value>
             <value>inaudible</value>
+            <value>foreign</value>
           </choice>
         </attribute>
         <oneOrMore>

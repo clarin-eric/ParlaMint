@@ -6,7 +6,7 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:mk="http://ufal.mff.cuni.cz/matyas-kopp"
-  exclude-result-prefixes="tei xi">
+  exclude-result-prefixes="tei mk xi">
 
   <xsl:import href="parlamint-lib.xsl"/>
   
@@ -188,13 +188,12 @@
                 <xsl:call-template name="affiliation-error">
                   <xsl:with-param name="ident">18</xsl:with-param>
                   <xsl:with-param name="severity"><xsl:value-of select="$severity"/></xsl:with-param>
-                  <xsl:with-param name="msg"><xsl:text>Missing implicated affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
+                  <xsl:with-param name="msg"><xsl:text>Missing implied affiliation role '</xsl:text><xsl:value-of select="$implicated-role"/><xsl:text>'</xsl:text></xsl:with-param>
                 </xsl:call-template>
               </xsl:if>
             </xsl:if>
-
-
           </xsl:when>
+	  
           <xsl:when test="not($affWith)"> <!-- ref contain reference inside current corpus file -->
             <xsl:call-template name="error">
               <xsl:with-param name="ident">03</xsl:with-param>
@@ -216,14 +215,14 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
-      <xsl:otherwise>
+      <xsl:when test="not(tei:orgName)"> <!-- error if affiliation has no ref and no orgName -->
         <xsl:call-template name="affiliation-error">
           <xsl:with-param name="ident">05</xsl:with-param>
           <xsl:with-param name="msg">
             <xsl:text>Missing reference</xsl:text>
           </xsl:with-param>
         </xsl:call-template>
-      </xsl:otherwise>
+      </xsl:when>
     </xsl:choose>
 
   </xsl:template>
@@ -480,9 +479,12 @@
         <xsl:value-of select="mk:get_from($aff-overlaps)"/>
         <xsl:text> --- </xsl:text>
         <xsl:value-of select="mk:get_to($aff-overlaps)"/>
-        <xsl:text>) affiliation (line:</xsl:text>
-        <xsl:value-of select="$aff-overlaps/@LINE"/>
-        <xsl:text>) </xsl:text>
+        <xsl:text>) affiliation </xsl:text>
+        <xsl:if test="$aff-overlaps/@LINE">
+          <xsl:text>(line:</xsl:text>
+          <xsl:value-of select="$aff-overlaps/@LINE"/>
+          <xsl:text>) </xsl:text>
+        </xsl:if>
         <xsl:value-of select="@role"/>
         <xsl:text>-</xsl:text>
         <xsl:value-of select="@ref"/>
@@ -500,9 +502,11 @@
       <xsl:text>[</xsl:text>
       <xsl:value-of select="$ident"/>
       <xsl:text>]&#32;</xsl:text>
-      <xsl:value-of select="/tei:*/@xml:id"/>
-      <xsl:text>:</xsl:text>
-      <xsl:value-of select="./@LINE"/>
+      <xsl:value-of select="./ancestor-or-self::tei:*[starts-with(@xml:id,'ParlaMint-')][1]/@xml:id"/>
+      <xsl:if test="./@LINE">
+        <xsl:text>:</xsl:text>
+        <xsl:value-of select="./@LINE"/>
+      </xsl:if>
       <xsl:text>&#32;</xsl:text>
       <xsl:value-of select="$msg"/>
     </xsl:message>
@@ -550,7 +554,7 @@
       <!-- TODO: extend rules -->
       <xsl:when test="contains(' MP primeMinister chairman viceChairman ', $role)">14:ERROR)not allowed in any context</xsl:when>
       <xsl:when test="$orgrole = 'parliament' and contains(' minister deputyMinister ', mk:borders($role))">15:ERROR)invalid affiliation role with parliament organization</xsl:when>
-      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead ', mk:borders($role)))">15:WARN)consider changing affiliation role with parliament organization</xsl:when>
+      <xsl:when test="$orgrole = 'parliament' and not(contains(' head member deputyHead replacement ', mk:borders($role)))">15:WARN)consider changing affiliation role with parliament organization</xsl:when>
       <xsl:when test="$orgrole = 'government' and not(contains(' head member deputyHead minister deputyMinister ', mk:borders($role)))">16:WARN)consider changing affiliation role with government organization</xsl:when>
       <xsl:when test="$orgrole = 'parliamentaryGroup' and not(contains(' head deputyHead member ', mk:borders($role)))">17:WARN)consider changing affiliation role with parliamentary group organization</xsl:when>
       <xsl:otherwise>PASS</xsl:otherwise>
@@ -594,15 +598,15 @@
     <xsl:param name="org"/>
     <xsl:choose>
       <xsl:when test="$org//tei:event/@*[contains(' from when ',mk:borders(name()))]"><xsl:value-of select="min($org//tei:event/@*[contains(' from when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-01-01','T00:00:00')))"/></xsl:when>
-      <xsl:otherwise>1500-01-01</xsl:otherwise>
+      <xsl:otherwise>1500-01-01T00:00:00</xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
   <xsl:function name="mk:get_org_to">
     <xsl:param name="org"/>
     <xsl:choose>
-      <xsl:when test="$org//tei:event/@*[contains(' to when ',mk:borders(name()))]"><xsl:value-of select="min($org//tei:event/@*[contains(' to when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59')))"/></xsl:when>
-      <xsl:otherwise><xsl:value-of select="$org/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:otherwise>
+      <xsl:when test="$org//tei:event/@*[contains(' to when ',mk:borders(name()))]"><xsl:value-of select="max($org//tei:event/@*[contains(' to when ',mk:borders(name()))]/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59')))"/></xsl:when>
+      <xsl:otherwise><xsl:value-of select="$org/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when/xs:dateTime(mk:fix_date(.,'-12-31','T23:59:59'))"/></xsl:otherwise>
     </xsl:choose>
   </xsl:function>
 
@@ -611,7 +615,7 @@
     <xsl:param name="node"/>
     <xsl:choose>
       <xsl:when test="$node/@from"><xsl:value-of select="$node/@from"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@from"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
                        and not($node/parent::tei:bibl/parent::tei:sourceDesc/parent::tei:fileDesc)">
@@ -625,7 +629,7 @@
     <xsl:param name="node"/>
     <xsl:choose>
       <xsl:when test="$node/@to"><xsl:value-of select="$node/@to"/></xsl:when>
-      <xsl:when test="$node/@when"><xsl:value-of select="$node/@to"/></xsl:when>
+      <xsl:when test="$node/@when"><xsl:value-of select="$node/@when"/></xsl:when>
       <xsl:when test="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"><xsl:value-of select="$node/ancestor::tei:teiHeader//tei:publicationStmt/tei:date/@when"/></xsl:when>
       <xsl:when test="$node
                        and $node/ancestor::tei:teiHeader//tei:sourceDesc/tei:bibl[1]/tei:date
