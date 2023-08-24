@@ -405,12 +405,13 @@
   <xsl:template mode="comp" match="tei:note[normalize-space(.) and not(./element())] | tei:desc">
     <xsl:variable name="textIn" select="normalize-space(.)"/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
-    <xsl:if test="$textIn != $textOut">
+    <!-- Remove this message, as there are too many of them -->
+    <!--xsl:if test="$textIn != $textOut">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': de-bracketing ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
     <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
