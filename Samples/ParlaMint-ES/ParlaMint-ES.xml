@@ -10,6 +10,7 @@
             <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
             <meeting n="11" corresp="#CD" ana="#parla.lower #parla.term #CD.11">Legislatura XI</meeting>
             <meeting n="12" corresp="#CD" ana="#parla.lower #parla.term #CD.12">Legislatura XII</meeting>
+            <meeting n="13" corresp="#CD" ana="#parla.lower #parla.term #CD.13">Legislatura XIII</meeting>
             <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
             <respStmt>
                <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
@@ -50,10 +51,10 @@
             <edition>3.0a</edition>
          </editionStmt>
          <extent>
-            <measure unit="speeches" quantity="486" xml:lang="es">486 intervenciones</measure>
-            <measure unit="speeches" quantity="486" xml:lang="en">486 speeches</measure>
-            <measure unit="words" quantity="144188" xml:lang="es">144188 palabras</measure>
-            <measure unit="words" quantity="144188" xml:lang="en">144188 words</measure>
+            <measure unit="speeches" quantity="76369" xml:lang="es">76369 intervenciones</measure>
+            <measure unit="speeches" quantity="76369" xml:lang="en">76369 speeches</measure>
+            <measure unit="words" quantity="19645025" xml:lang="es">19645025 palabras</measure>
+            <measure unit="words" quantity="19645025" xml:lang="en">19645025 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -67,7 +68,7 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-08-06">2023-08-06</date>
+            <date when="2023-08-10">2023-08-10</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -105,24 +106,25 @@
          </editorialDecl>
          <tagsDecl>
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="5"/>
-               <tagUsage gi="desc" occurs="399"/>
-               <tagUsage gi="div" occurs="36"/>
-               <tagUsage gi="gap" occurs="2"/>
-               <tagUsage gi="head" occurs="36"/>
-               <tagUsage gi="incident" occurs="84"/>
-               <tagUsage gi="kinesic" occurs="269"/>
-               <tagUsage gi="note" occurs="41"/>
-               <tagUsage gi="pb" occurs="191"/>
-               <tagUsage gi="seg" occurs="1944"/>
-               <tagUsage gi="text" occurs="5"/>
-               <tagUsage gi="u" occurs="486"/>
-               <tagUsage gi="vocal" occurs="44"/>
+               <tagUsage gi="body" occurs="450"/>
+               <tagUsage gi="desc" occurs="71876"/>
+               <tagUsage gi="div" occurs="2716"/>
+               <tagUsage gi="gap" occurs="694"/>
+               <tagUsage gi="head" occurs="2641"/>
+               <tagUsage gi="incident" occurs="13516"/>
+               <tagUsage gi="kinesic" occurs="46629"/>
+               <tagUsage gi="note" occurs="5885"/>
+               <tagUsage gi="seg" occurs="243994"/>
+               <tagUsage gi="text" occurs="450"/>
+               <tagUsage gi="u" occurs="76369"/>
+               <tagUsage gi="vocal" occurs="11037"/>
             </namespace>
          </tagsDecl>
          <classDecl>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-politicalOrientation.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                         href="ParlaMint-taxonomy-speaker_types.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -165,4 +167,5 @@
                href="ParlaMint-ES_2022-01-25-CD220125.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
+
 </teiCorpus>
