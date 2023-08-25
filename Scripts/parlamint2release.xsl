@@ -10,6 +10,7 @@
      Changes to root file:
      - delete old and now redundant pubPlace
      - insert textClass if missing
+     - remove Anonymous speaker (BG, BE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
@@ -198,6 +199,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- Remove anonymous speaker -->
+  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing Anonymous speaker from listPerson ', @xml:id)"/>
+  </xsl:template>
+  
   <!-- Remove the two "speaker" parties from GB, i.e. 
        <org role="politicalParty" xml:id="party.S">
          <orgName full="yes">Speaker</orgName>
@@ -370,6 +377,12 @@
   </xsl:template>
   
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing @who = #Anonymous from utterance ', ../@xml:id)"/>
+  </xsl:template>
+    
+  <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': no utterances in div/@type=debateSection, ',
@@ -392,12 +405,13 @@
   <xsl:template mode="comp" match="tei:note[normalize-space(.) and not(./element())] | tei:desc">
     <xsl:variable name="textIn" select="normalize-space(.)"/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
-    <xsl:if test="$textIn != $textOut">
+    <!-- Remove this message, as there are too many of them -->
+    <!--xsl:if test="$textIn != $textOut">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': de-bracketing ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
     <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,

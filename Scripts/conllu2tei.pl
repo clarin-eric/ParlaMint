@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 # Convert CoNLL-U file to TEI <body>
-# This is for ParlaMint slightly modified script from
+# This is a slightly modified script for ParlaMint from
 # https://github.com/clarinsi/TEI-conversions/blob/645dfbece8f52b45a51f159f5874e1038f9f1c12/Scripts/conllu2tei.pl
+# Also encodes USAS semantic information
 
 use warnings;
 use utf8;
@@ -9,9 +10,12 @@ binmode STDERR, 'utf8';
 binmode STDIN,  'utf8';
 binmode STDOUT, 'utf8';
 
-# Extended TEI prefixes to use on annotation
+# Extended TEI prefixes to use on annotation of syntactic annotations
 $ud_prefix   = 'ud-syn'; # Prefix for syntactic roles
 $ud_type     = 'UD-SYN'; # Type of syntatic dependencies
+
+# Extended TEI prefixes to use on annotation for USAS semantic labels
+$sem_prefix   = 'sem';      # Prefix for semantic annotation
 
 # ID prefixes
 $doc_prefix  = 'doc';    # Prefix for document IDs, if they are numeric in source
@@ -89,12 +93,15 @@ sub conllu2tei {
     my $tag;
     my $element;
     my $space;
-    my $ner_prev;
     my $ner;
+    my $ner_prev = 'O';
+    my $sem;
+    my $sem_prev = 'O';
     my @ids = ();
     my @toks = ();
     my @deps = ();
     $tei = "<s xml:id=\"$id\" n=\"$n\">\n";
+    @open_elements = ();
     foreach my $line (split(/\n/, $conllu)) {
         next unless $line =~ /^\d+\t/;
         chomp;
@@ -129,21 +136,40 @@ sub conllu2tei {
         #Bug in STANZA:
         if ($role eq '<PAD>') {$role = 'dep'}
         
+	#Encoding semantic <phr>
+        if (($sem) = $local =~ /SEMMWE=(.)/) {
+	    if ($sem ne 'I' and $sem_prev ne 'O') {
+		push(@toks, "</phr>");
+		pop(@open_elements);
+	    }
+	    if ($sem eq 'B') {
+		($semtype) = $local =~ /SEM=([^|]+)/;
+		$semtype =~ s/,/ $sem_prefix:/g;
+		push(@toks, "<phr type=\"sem\" ana=\"$sem_prefix:$semtype\">");
+		push(@open_elements, 'phr');
+	    }
+	    $sem_prev = $sem
+        }
+        #Encoding <name>
         if (($ner) = $local =~ /NER=([A-Z-]+)/) {
             if (($type) = $ner =~ /^B-(.+)/) {
-                if ($ner_prev and $ner_prev ne 'O') {
-                    push(@toks, "</name>")
+                if ($ner_prev ne 'O') {
+                    push(@toks, "</name>");
+		    pop(@open_elements);
                 }
                 push(@toks, "<name type=\"$type\">");
+		push(@open_elements, 'name');
             }
 	    #Sometimes NER begins with I! (bug in CLASSLA)
             elsif (($type) = $ner =~ /^I-(.+)/) {
-                if (not($ner_prev) or $ner_prev eq 'O') {
+                if ($ner_prev eq 'O') {
 		    push(@toks, "<name type=\"$type\">");
+		    push(@open_elements, 'name');
                 }
             }
-            elsif ($ner eq 'O' and $ner_prev and $ner_prev ne 'O') {
-		push(@toks, "</name>")
+            elsif ($ner eq 'O' and $ner_prev ne 'O') {
+		push(@toks, "</name>");
+		pop(@open_elements);
             }
             $ner_prev = $ner
         }
@@ -165,15 +191,23 @@ sub conllu2tei {
 	    }
 	    $element =~ s|>| lemma=\"$lemma\">|
 	}
+	if ($local =~ /SEM=([^|]+)/) {$semtype = $1}
+	else {$semtype = ''}
+	if ($semtype) {
+	    $semtype =~ s/,/ $sem_prefix:/g;
+	    $element =~ s|>| ana="$sem_prefix:$semtype">|;
+	}
         $element =~ s|>| join="right">| unless $space;
         push @ids, $id . '.t' . $n;
         push @toks, $element;
         push @deps, "$link\t$n\t$role" #Only if we have a parse
             if $role ne '_';
-    }
-    # If we haven't closed the last name
-    if ($ner_prev and $ner_prev ne 'O') {
-        push(@toks, '</name>')
+}
+
+    # If we haven't closed the last semantic phrase or name
+    while (@open_elements) {
+	$element = pop(@open_elements);
+        push(@toks, '</' . $element . '>')
     }
     #Give IDs to tokens
     foreach my $id (@ids) {

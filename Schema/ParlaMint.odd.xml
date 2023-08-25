@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2023-07-17</date>
+        <date>2023-08-22</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2023-08-22">Tomaž Erjavec: Change description of org/state.</change>
       <change when="2023-07-17">Tomaž Erjavec: Add org/@role='federatedState'.</change>
       <change when="2023-06-13">Tomaž Erjavec: Start work on section for MT.</change>
       <change when="2023-04-06">Tomaž Erjavec: allow orgName in affiliation.</change>
@@ -70,7 +71,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2023-07-17</docDate>
+        <docDate>2023-08-22</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -265,7 +266,7 @@
             <item>The corpus root file name should start with the string
             <code>ParlaMint-</code>, followed by the ISO
             3166 country (or automous region) code
-	    (cf. Section on <ref target="#sec-standard">Standard values</ref>)
+            (cf. Section on <ref target="#sec-standard">Standard values</ref>)
             e.g. <code>ParlaMint-NL.xml</code> or <code>ParlaMint-ES-CT</code>.</item>
             
             <item>For machine-translated corpora the ISO 639 code of
@@ -278,7 +279,7 @@
             <code>ParlaMint-IS_2015-01-21-54.xml</code>. In case a corpus component is further
             distinguished, so that there are are several components with the same date, the
             corpus compilers are free to extend the file name by a hyphen and any suffix containing
-	    only ASCII letters and numbers and the hyphen character,
+            only ASCII letters and numbers and the hyphen character,
             e.g. <code>ParlaMint-NL_2018-10-30-eerstekamer-4.xml</code> or
             <code>ParlaMint-CZ_2016-04-13-ps2013-044-02-016-098.xml</code></item>
 
@@ -286,8 +287,8 @@
             in separate files, in particular the list of speakers, <gi>listPerson</gi>,
             the list of political parties and other organisations, <gi>listOrg</gi>, and
             the ParlaMint structural and linguistic taxonomies, i.e. <gi>taxonomy</gi> elements.
-	    The file names for such metadata files start with the name of the corpus root,
-	    followed by a hyphen, and then the name of the element,
+            The file names for such metadata files start with the name of the corpus root,
+            followed by a hyphen, and then the name of the element,
             e.g. <code>ParlaMint-BE-listPerson.xml</code>. Where there are more files for
             instances of the same element name, as is the case for taxonomies, the filename
             should end with another hypen, followed by the ID of the particular element,
@@ -1196,7 +1197,7 @@
             meaning in its <gi>catDesc</gi> elements, which should always first contain the
             short name of the category, encoded in the <gi>term</gi> element.</p>
 
-            <p>ParlaMint requires three taxonomies to be defined in the class declaration
+            <p>ParlaMint requires several taxonomies to be defined in the class declaration
             of the corpus root (as well as a fourth one for the linguistically annotated
             corpus, as further described in the Section on <ref
             target="#sec-ana-metadata">Linguistic metadata</ref>). As mentioned, these
@@ -1205,11 +1206,7 @@
             repository</ref>, and there is a special procedure modifying them, in
             particular on how to insert translations of a new language.</p>
 
-            <p>The three defined taxonomies are:
-            
-            <!-- We actually refer to values of the categories in the text, we should give
-                 either a pointer to the Git file, or list the taxonomies, at least the
-                 speaker one, here. And maybe the legislations in an appendix -->
+            <p>The five obligatory taxonomies are:
             
             <list>
               <item>The <hi>subcorpus</hi> taxonomy, already given in the example</item>
@@ -1221,8 +1218,19 @@
               of a parliament, and is by far the most complex one, and will likely still have
               to be updated in line with the requirements of new corpora.</item>
               
+              <item>The <hi>political orientation</hi> taxonomy, which gives the values of
+              the (mostly) left-right political orientation of political parties and 
+              parliamentary groups.</item>
+              
+              <item>The <hi>CHES variables</hi> taxonomy, which gives the variables of the 
+              Chapel Hill Survey on political parties (cf. the Section on
+              <ref target="#sec-parties">Political parties and parliamentary groups</ref>).</item>
+              
             </list>
             </p>
+            <p>Furhtermore, there are two obligatory taxonomies which pertain to the linguistically analysed
+            version of the corpus only, cf. the Section on <ref target="#sec-ana-taxo">Linguistic taxonomies</ref>.</p>
+            
           </div>
         </div>
 
@@ -1493,7 +1501,7 @@
           
           Note that the <att>to</att>/<att>from</att> dates should not overlap, neither
           should they have gaps in them, as this would mean that the person
-	  could have either two names at once, or none.
+          could have either two names at once, or none.
           </p>
 
           <p>The person must also have the <gi>sex</gi> element, with the
@@ -1643,11 +1651,11 @@
             
             <p>Finally, it is also possible to specify the name of the organisation that the person is affilated with 
             directly inside the <gi>affiliation</gi> element, using the <gi>orgName</gi> element<note>The typical situation
-	    is that the organisation somebody is affiliated with is specificed as a organisation, using the <gi>org</gi>
-	    element (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) but if this is not the case, using
-	    <gi>orgName</gi> directly in the <gi>affiliation</gi> is an alternative encoding.</note> again, preferably
-	    both in the local language, as well as in English, as illustrated in the following example, which specifies
-	    that somebody is a minister of a certain ministry:
+            is that the organisation somebody is affiliated with is specificed as a organisation, using the <gi>org</gi>
+            element (cf. the Section on <ref target="#sec-orgs">Organisations</ref>) but if this is not the case, using
+            <gi>orgName</gi> directly in the <gi>affiliation</gi> is an alternative encoding.</note> again, preferably
+            both in the local language, as well as in English, as illustrated in the following example, which specifies
+            that somebody is a minister of a certain ministry:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-affiliation-orgName">
               <affiliation role="minister" ref="#GOV" from="2020-08-01">
@@ -1717,11 +1725,10 @@
               </item>
               
               <item>Leader of parliamentary group:
-              <code>affiliation/@role="head"</code> &amp;
+              <code>affiliation/@role="head"</code> &amp; 
               <code>affiliation/@role="member"</code> →
               <code>org/@role="parliamentaryGroup"</code>
-              (cf. Section on <ref target="#sec-parties">Political parties
-              and parliamentary groups</ref>)
+              (cf. Section on <ref target="#sec-parties">Political parties and parliamentary groups</ref>)
               </item>
               
               <item><emph>Member of parliamentary group</emph>:
@@ -1988,162 +1995,142 @@
 
             <p>The introduction to this chapter already gave examples of how organisations are
             encoded in general, so we here only give examples of the encoding of the
-            political orientation of political parties or parliamentary groups, which is encoded in the
-            <gi>state</gi> element(s).
-            The possible categories of political orientation are given in a dedicated
-            <q>politicalOrientation</q> taxonomy, and the <gi>state</gi> element(s)
-            refer to the categories of this taxonomy via the <att>ana</att> attribute.
-            Note that <gi>state</gi> elements should be the last element(s) in the <gi>org</gi>,
-            and that there can be several <gi>state</gi> elements, corresponding to different
-            sources, and, in the case of CHES, to different years of the survey.</p> 
+            additional metadata that can also be associated with political parties or parliamentary groups,
+            i.e. their political orientation on the left-to-right scale and the variables of the 
+            <ref target="https://www.chesdata.eu/ches-europe">Chapel Hill Expert Surveys for Europe</ref>,
+            CHES for short. This additional metadata is encoded in the <gi>state</gi> element(s), which
+            should be the last element(s) in the <gi>org</gi>.</p>
 
-            <p>ParlaMint distingishes three types of sources that the specified political
-            orientation is based on, namely the <ref target="https://www.chesdata.eu/ches-europe">Chapel
-            Hill Expert Surveys for Europe</ref> (CHES); the pages of political parties from
-            <ref target="https://en.wikipedia.org">Wikipeida</ref>; and unknown sources.  We
-            exemplify the encoding of each of these sources in turn, from last (the
-            simplest), to first (the most complicated).</p>
-
-            <p>If the source of the information for the political orientations is unknown,
-            then the orientation is given as follows:
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-unknown">
-              <org xml:id="BANAAN" role="parliamentaryGroup">
-                <orgName full="abb">BANAAN</orgName>
-                <orgName full="yes">Beter Alternatieven Nastreven Als Apathisch Nietsdoen</orgName>
-                <event from="1995-01-01">
-                  <label xml:lang="en">existence</label>
-                </event>
-                <state type="politicalOrientation" subtype="unknown" ana="#orientation.L">
-                  <note xml:lang="en">Orientation determined by encoder, using own knowledge of the
-                  parliamentary group.</note>
+            <div xml:id="sec-politicalOrientation">
+              <head>Encoding political orientation</head>
+              <p>Political orientation is encoded with the <gi>state</gi> element with the value of its
+              <att>type</att> attribute equal to <val>politicalOrientation</val>. The nested <gi>state</gi>
+              elements then give the type of the information, which can be either the (corpus) encoder or
+              Wikipedia, its <att>source</att> (either a pointer to the ID of the person for encoder, or to
+              the Wikipedia URL), and the reference to the category definition (defined in the
+              <val>politicalOrientation</val> taxonomy) via the <att>ana</att> attribute, as is illustrated
+              in the example below:
+              
+              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation">
+                <org role="parliamentaryGroup" xml:id="MR">
+                  <orgName full="abb">MR</orgName>
+                  <orgName full="yes">Mouvement Réformateur</orgName>
+                  <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Reformist_Movement</idno>
+                  <state type="politicalOrientation">
+                    <state type="encoder" source="#GrietDepoorter" ana="#orientation.CRR">
+                      <note xml:lang="en">Orientation determined by encoder, using own knowledge of the parliamentary group.</note>
+                    </state>
+                    <state type="Wikipedia" source="https://en.wikipedia.org/wiki/Reformist_Movement" ana="#orientation.CR">
+                      <note xml:lang="en">From 1992 the Reformist Movement (MR) consisted of: FDF, MCC, PRL and PFF. In September
+                      2001, FDF decides to leave the alliance and chooses a new name, becoming DeFI.</note>
+                    </state>
+                  </state>
+                </org>
+              </egXML>
+              Note also that a <gi>state</gi> may have a note that gives furuther free-text information about the orientation.</p> 
+            </div>
+            
+            <div xml:id="sec-CHES">
+              <head>Encoding CHES metadata</head>
+              <p>The second type of metadata comies from the <ref target="https://www.chesdata.eu/ches-europe">Chapel
+              Hill Expert Surveys for Europe</ref> (CHES), either from the 1999-2019 edition, of from the 2019 edition. Here the
+              top-level <gi>state</gi> element gives the <att>type</att> of the state, i.e. <val>CHES</val> and the URL of
+              the CSV source for the information. Its <gi>label</gi> gives the abbreviation of the political party name in CHES,
+              which can, and often does, differ from its ParlaMint abbreviation.
+              Each subordinate <gi>state</gi> (of <att>type</att> <val>variable</val>) then encodes one CHES variable, which is
+	      given, via the <att>ana</att> attribute, as the reference to the appropriate category defined in the <val>CHES</val>
+	      taxonomy. Finally, as CHES gives
+              variables according to years, the third level of <gi>state</gi> (of <att>type</att> <val>value</val>) gives the
+	      time periods of the variable together with its numeric value in the <att>n</att> attribute, as illustrated in the
+	      example below:
+              
+              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-ches">
+                <state type="CHES" source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv">
+                  <label>
+                    <orgName full="abb" from="2002" to="2018" xml:lang="en">MR</orgName>
+                  </label>
+                  <state type="variable" ana="#ches-lrgen">
+                    <state type="value" from="2002" to="2005" n="6.35"/>
+                    <state type="value" from="2006" to="2009" n="6.67"/>
+                    <state type="value" from="2010" to="2013" n="7.0"/>
+                    <state type="value" from="2014" to="2018" n="7.0"/>
+                  </state>
+                  <state type="variable" ana="#ches-lrecon">
+                    <state type="value" from="2002" to="2005" n="7.3"/>
+                    <state type="value" from="2006" to="2009" n="7.5"/>
+                    <state type="value" from="2010" to="2013" n="7.62"/>
+                    <state type="value" from="2014" to="2018" n="7.60"/>
+                  </state>
+                  ...
                 </state>
-              </org>
-            </egXML>
-            As can be seen, the <gi>state</gi> element must be of <att>type</att>
-            <val>politicalOrientation</val>, while the <att>subtype</att> has the value
-            <val>unknown</val>. As mentioned, the <att>ana</att> attribute points to the
-            political orientation taxonomy, which gives the valid types of categories for
-            the political orientation, in this case the part is categories as being left
-            oriented. Finally, it is possible (but not required) to give a comment
-            (preferably in English) about the orientation in the <gi>note</gi> element.
-            </p>
+              </egXML>
+              </p>
+            </div>
             
-            <p>If the source of the information for the political orientations is Wikipedia, 
-            then the <gi>state</gi> element is encoded as follows:
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-wiki">
-              <state type="politicalOrientation"
-                     subtype="Wikipedia"
-                     source="https://en.wikipedia.org/wiki/Christian_Democratic_and_Flemish"
-                     ana="#orientation.CCR">
-                <note xml:lang="en">CD&amp;V, CDV, CVP (until 2001)</note>
-              </state>
-            </egXML>
-            Here, the <att>subtype</att> has the value <val>Wikipedia</val>, while the
-            Wikipedia URL of the political party or parliamentary group is given as the
-            value of the <att>source</att> attribute. Note that in cases where the
-            orientation of a parliamentary group was arrived at by consulting the Wikipedia
-            pages of its constituent political parties, the <att>source</att> attribute can
-            contain the URLs of several political parties, separated by the space character.
-            As with orientations with unknown sources, the optional <gi>note</gi> element can
-            contain a comment on the orientation.</p>
-            
-            <p>Finally, if the source of the information CHES, then the orientation is encoded
-            as follows:
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-orientation-ches">
-              <state type="politicalOrientation" subtype="CHES"
-                     source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                     n="2.29" ana="#orientation.L"
-                     from="2010" to="2013">
-                <label>
-                  <orgName full="init">Groen</orgName>
-                </label>
-              </state>
-              <state type="politicalOrientation" subtype="CHES"
-                     source="https://www.chesdata.eu/s/1999-2019_CHES_dataset_meansv3.csv"
-                     n="2.20" ana="#orientation.L"
-                     from="2014" to="2018">
-                <label>
-                  <orgName full="abb">Groen</orgName>
-                </label>
-              </state>
-            </egXML>
-            Here, the <att>subtype</att> has the value <val>CHES</val>, while the value of the
-            <att>source</att> attribute is the URL form the CHES CSV files from where the
-            information was taken.  The orientation (i.e. the value of <att>ana</att>) is
-            calculated on the basis of the so called <q>LRGEN</q> column from the CHES CVS, and the
-            LRGEN value (with 0 meaning extreme left, 5 center, and 10 extreme right) is recorded
-            in the <att>n</att> attribute. Because the CHES gives values for each year that the
-            surveys were conducted, we also store these years in the <att>from</att> (the year of
-            the survey) and <att>to</att> (the year preceding the next survey) attributes.  Finaly,
-            the <gi>label</gi> contains the CHES abbreviation of the name of the party; in the
-            example above the abbreviation is identical to the one from ParlaMint but this is not
-            generally the case, so the CHES abbreviation is, for verifiability, preserved in the
-            encoding.</p>
-          </div>
-          
-          <div xml:id="sec-relation">
-            <head>Relations between organisations</head>
-            
-            <p>As mentioned, the relations between various organisations, in particular,
-            which parliamentary groups of political parties are in the <hi>coalition</hi> or in
-            <hi>opposition</hi> and when, are encoded in the final element of <gi>listOrg</gi>,
-            namely <gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as
-            shown in the example below:
-            
-            <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
-              <listRelation>
-                <relation name="coalition"
-                          mutual="#parliamentaryGroup.MR #parliamentaryGroup.OpenVld"
-                          from="2014-10-11"
-                          to="2018-12-09"
-                          ana="#period_54"/>
-                <relation name="opposition"
-                          active="#parliamentaryGroup.Ecolo #parliamentaryGroup.cdH"
-                          passive="#government.BE"
-                          from="2014-10-11"
-                          to="2018-12-09"
+            <div xml:id="sec-relation">
+              <head>Relations between organisations</head>
+              
+              <p>As mentioned, the relations between various organisations, in particular,
+              which parliamentary groups of political parties are in the <hi>coalition</hi> or in
+              <hi>opposition</hi> and when, are encoded in the final element of <gi>listOrg</gi>,
+              namely <gi>listRelation</gi>, which then contains <gi>relation</gi> elements, as
+              shown in the example below:
+              
+              <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-relations">
+                <listRelation>
+                  <relation name="coalition"
+                            mutual="#parliamentaryGroup.MR #parliamentaryGroup.OpenVld"
+                            from="2014-10-11"
+                            to="2018-12-09"
+                            ana="#period_54"/>
+                  <relation name="opposition"
+                            active="#parliamentaryGroup.Ecolo #parliamentaryGroup.cdH"
+                            passive="#government.BE"
+                            from="2014-10-11"
+                            to="2018-12-09"
                           ana="#period_54"/>
                 <relation name="representing" active="#parliamentaryGroup.MR"
                           passive="#politicalParty.CSSD.153 #politicalParty.ENO.1"
                           from="2013-10-29" to="2017-10-26"/>
               </listRelation>
-            </egXML>
+              </egXML>
 
-            The type of relation is given in the <att>name</att> attribute.
-            ParlaMint allows the following values of <att>name</att>:
-
-            <list>
-              <item><val>coalition</val>: the pointers to the organisations
-              (i.e. parliamentary groups or political parties) are given in the <att>mutual</att>
-              attribute (because a coalition is mutual relation betweent its members);</item>
+              The type of relation is given in the <att>name</att> attribute.
+              ParlaMint allows the following values of <att>name</att>:
               
-              <item><val>opposition</val>: the pointers to the organisations are given in
-              the <att>active</att> attribute, as the organisations are in an active relation to the
-              government, the pointer to which is given in the <att>passive</att> attribute;</item>
+              <list>
+               <item><val>coalition</val>: the pointers to the organisations
+               (i.e. parliamentary groups or political parties) are given in the <att>mutual</att>
+               attribute (because a coalition is mutual relation betweent its members);</item>
+               
+               <item><val>opposition</val>: the pointers to the organisations are given in
+               the <att>active</att> attribute, as the organisations are in an active relation to the
+               government, the pointer to which is given in the <att>passive</att> attribute;</item>
+               
+               <item><val>representing</val>: a parliamentary group representing one or more political
+               parties in the parliament. The parliamentary group is given as the value of the
+               <att>active</att> attribute, while the political parties are given as the value of
+               the <att>passive</att> attribute.</item>
+               
+               <item><val>renaming</val>: the two organisation (typically political parties)
+               referred to are essentially the same organistion, which has been, however, renamed at
+               some point in time; the reference to the old organisation is given in the
+               <att>passive</att> attribute, while the reference to the new one is given in the
+               <att>active</att> attribute;</item>
+               
+               <item><val>successor</val>: an organisation (again, typically a political party), or
+               several of them, ceased to exist, but a sucessor was created; as with renaming, the
+               previous organisation is given as the value of the <att>passive</att> attribute,
+               while the new one uses the <att>active</att> attribute.</item>
+               
+              </list>
               
-              <item><val>representing</val>: a parliamentary group representing one or more political
-              parties in the parliament. The parliamentary group is given as the value of the
-              <att>active</att> attribute, while the political parties are given as the value of
-              the <att>passive</att> attribute.</item>
-              
-              <item><val>renaming</val>: the two organisation (typically political parties)
-              referred to are essentially the same organistion, which has been, however, renamed at
-              some point in time; the reference to the old organisation is given in the
-              <att>passive</att> attribute, while the reference to the new one is given in the
-              <att>active</att> attribute;</item>
-              
-              <item><val>successor</val>: an organisation (again, typically a political party), or
-              several of them, ceased to exist, but a sucessor was created; as with renaming, the
-              previous organisation is given as the value of the <att>passive</att> attribute,
-              while the new one uses the <att>active</att> attribute.</item>
-
-            </list>
-            
-            For the relations it is typically also necessary to specify <att>from</att>
-            and possibly <att>to</att> when the relation was in force. Finally, it is
-            possible, but not necessary, to also give the legislative period and/or the
-            government when this particular coalition or opposition existed.
-            </p>
+              For the relations it is typically also necessary to specify <att>from</att>
+              and possibly <att>to</att> when the relation was in force. Finally, it is
+              possible, but not necessary, to also give the legislative period and/or the
+              government when this particular coalition or opposition existed.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -2309,24 +2296,24 @@
           serve to structure the transcription and are encoded as <gi>head</gi> elements, as
           explained at the start of this chapter, cf. the <ref
           target="#exa-div">Example</ref> there. Another type of transcribe comment treated separately
-	  is the presence of gaps in the transcript; these are treated in the
-	  Section on <ref target="#sec-gaps">Gaps</ref>.</p> 
+          is the presence of gaps in the transcript; these are treated in the
+          Section on <ref target="#sec-gaps">Gaps</ref>.</p> 
 
           <p xml:id="para-hierarchy-comments">Apart heads and gaps, transcriber comments
-	  are encoded using the
+          are encoded using the
           <gi>note</gi> element or one of several so called <q>incident</q> elements, as
           explained below. These elements can be placed directly inside <gi>div</gi>,
           <gi>u</gi>, <gi>seg</gi> or even <gi>s</gi> in the linguistically annotated version.
-	  They should be placed  as far up the
+          They should be placed  as far up the
           hierarchy as possible, i.e. if they would appear at the start or end of a segment or utterance,
-	  to encode them before the start, or, respectively, after the end of this segment or utterance.
-	  If possible, it is especially conventient not to have them inside <gi>seg</gi>
+          to encode them before the start, or, respectively, after the end of this segment or utterance.
+          If possible, it is especially conventient not to have them inside <gi>seg</gi>
           (which contains text), as placing these elements there leads to mixed content,
           which is more difficult to process further, in particular when linguistically
           annotating the corpus. Similary, it is also better to move them outside <gi>s</gi> elements.
-	  However, if a transcriber comments were placed in the middle
+          However, if a transcriber comments were placed in the middle
           of the text for good reasons then they can be encoded inside the segment or sentence.
-	  Note, however, that 
+          Note, however, that 
           utterances can also be split on transcriber comments, as is explained in the Section on <ref
           target="#sec-interruptions">Interrupted utterances</ref>.</p>
             
@@ -2554,12 +2541,12 @@
         An important note is that a linguistically annotated ParlaMint corpus is
         stored separately from its base (or <term>plain-text</term>) version, i.e. the
         version that has been discussed in the preceding sections.
-	The encoding of the linguistically annotated version differs from the plain-text one in the following:
+        The encoding of the linguistically annotated version differs from the plain-text one in the following:
         
         <list>
           <item>All  the corpus root and components file names 
           the extension <code>.ana.xml</code>.
-	  For example, if the plain-text root has the file name
+          For example, if the plain-text root has the file name
           <code>ParlaMint-CZ.xml</code>, the linguistically annotated one should be
           <code>ParlaMint-CZ.ana.xml</code>, or 
           <code>ParlaMint-CZ_2016-04-13.xml</code> and 
@@ -2827,14 +2814,14 @@
             <head>Syntactic parses</head>
             
             <p>Sentences are accompanied by a
-	    <ref target="https://universaldependencies.org/u/overview/syntax.html">Universal
+            <ref target="https://universaldependencies.org/u/overview/syntax.html">Universal
             Dependencies</ref> parse.
-	    These analyses are encoded inside their sentence mark-up, although in a stand-off manner.
-	    This means that each token must be given an ID, while the syntactic analysis is stored in the link
+            These analyses are encoded inside their sentence mark-up, although in a stand-off manner.
+            This means that each token must be given an ID, while the syntactic analysis is stored in the link
             group, <gi>linkGrp</gi> element containing a series of <gi>link</gi>
             elements.
-	    Each is labeled by a dependency label and joins two tokens.
-	    The example below illustrating the syntactic encoding:
+            Each is labeled by a dependency label and joins two tokens.
+            The example below illustrating the syntactic encoding:
             
             <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-analysis-syn">
               <s xml:id="ParlaMint-GB_2021-01-06.seg393.8">
@@ -2865,8 +2852,8 @@
             which is specified in the <att>ana</att> attribute. By convention, the links are
             ordered so that the argument references follow the ordering of the tokens
             in the sentence, i.e. all the tokens in the sentence should appear in order in the second position.
-	    Note that for the top level <code>root</code> relation (of which there should be only one in the sentence),
-	    the head is the reference to the sentence ID.</p>
+            Note that for the top level <code>root</code> relation (of which there should be only one in the sentence),
+            the head is the reference to the sentence ID.</p>
             
             <p>The relations themselves are pointers which use the <code>ud:</code> prefix that
             is, via the TEI extended pointer syntax as defined in the TEI header (cf. the Section
@@ -3070,103 +3057,103 @@
       
       <div xml:id="sec-mt">
         <head>Translations of corpora</head>
-	
+        
         <p>The ParlaMint machine translated corpora are encoded simliarly to corpora in their
         source language, i.e. they have an identically structured corpus root and components.
-	The most obvious differences are the following:
+        The most obvious differences are the following:
 
-	<list>
-	  <item>The filenames are extended with the target language code, as described in the
-	  Section on <ref target="#sec-files">Filenames</ref>, e.g. the linguistically analysed
-	  English translation of the Latvian corpus would have the root filename
-	  <code>ParlaMint-LV-en.ana.xml</code> and a component filename from could be
-	  <code>ParlaMint-LV_2014-11-04.ana.xml</code>.</item>
-	  <item>The top-level <att>xml:id</att> of the corpus root and of components must also be changed
-	  accordingly to e.g. <code>ParlaMint-LV-en.ana</code> or 
-	  <code>ParlaMint-LV_2014-11-04.ana</code>.</item>
-	  <item>The stamp in the main titles should be changed too by adding the target langauge
-	  suffix, e.g. to <code>[ParlaMint-en.ana]</code>.</item>
-	  <item>The top level <att>xml:lang</att> in the root and components should be set to
-	  the target language, e.g. <code>xml:id="en"</code>.</item>
-	</list>
+        <list>
+          <item>The filenames are extended with the target language code, as described in the
+          Section on <ref target="#sec-files">Filenames</ref>, e.g. the linguistically analysed
+          English translation of the Latvian corpus would have the root filename
+          <code>ParlaMint-LV-en.ana.xml</code> and a component filename from could be
+          <code>ParlaMint-LV_2014-11-04.ana.xml</code>.</item>
+          <item>The top-level <att>xml:id</att> of the corpus root and of components must also be changed
+          accordingly to e.g. <code>ParlaMint-LV-en.ana</code> or 
+          <code>ParlaMint-LV_2014-11-04.ana</code>.</item>
+          <item>The stamp in the main titles should be changed too by adding the target langauge
+          suffix, e.g. to <code>[ParlaMint-en.ana]</code>.</item>
+          <item>The top level <att>xml:lang</att> in the root and components should be set to
+          the target language, e.g. <code>xml:id="en"</code>.</item>
+        </list>
         </p>
-	
-	<p>The structure of the <gi>text</gi>, inluding the transcriber comments and
-	the linguistic analysis is encoded the same as as for the corpora in the source
-	language, with the only difference being that the aligned elements are linked
-	to their corresponding elements in the source corpus. In the current machine translted corpora
-	this alignment is very simple, as we have only sentence alignments, which have, furthermore,
-	always a 1-1 mapping to corresponding source sentences. Therefore the alignment is
-	trivial, simply specifiying the same <att>xml:id</att> value of the sentence in the source corpus,
-	as illustrated in the following example:
-	
+        
+        <p>The structure of the <gi>text</gi>, inluding the transcriber comments and
+        the linguistic analysis is encoded the same as as for the corpora in the source
+        language, with the only difference being that the aligned elements are linked
+        to their corresponding elements in the source corpus. In the current machine translted corpora
+        this alignment is very simple, as we have only sentence alignments, which have, furthermore,
+        always a 1-1 mapping to corresponding source sentences. Therefore the alignment is
+        trivial, simply specifiying the same <att>xml:id</att> value of the sentence in the source corpus,
+        as illustrated in the following example:
+        
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt">
-	  <div type="debateSection" xml:lang="en">
-	    <note type="speaker" xml:lang="en">Head of the sitting.</note>
-	    <u who="#ĀboltiņaSolvita" xml:id="ParlaMint-LV_2014-11.u1"
-	       ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11.u1">
-	      <seg xml:id="ParlaMint-LV_2014-11-04.seg1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11-04.seg1">
-		<s xml:id="ParlaMint-LV_2014-11-04.s1" corresp="mt-src:ParlaMint-LV_2014-11-04.s1">
-		  <w xml:id="ParlaMint-LV_2014-11-04.s1.t1" msd="UPosTag=PROPN|Number=Sing" lemma="Mr.">Mr.</w>
-		  <w xml:id="ParlaMint-LV_2014-11-04.s1.t2" msd="UPosTag=PROPN|Number=Sing" lemma="President" join="right">President</w>
-		  ...
-		</s>
-		...
-	      </seg>
-	      ...
-	    </u>
-	    ...
-	  </div>
+          <div type="debateSection" xml:lang="en">
+            <note type="speaker" xml:lang="en">Head of the sitting.</note>
+            <u who="#ĀboltiņaSolvita" xml:id="ParlaMint-LV_2014-11.u1"
+               ana="#chair" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11.u1">
+              <seg xml:id="ParlaMint-LV_2014-11-04.seg1" xml:lang="en" corresp="mt-src:ParlaMint-LV_2014-11-04.seg1">
+                <s xml:id="ParlaMint-LV_2014-11-04.s1" corresp="mt-src:ParlaMint-LV_2014-11-04.s1">
+                  <w xml:id="ParlaMint-LV_2014-11-04.s1.t1" msd="UPosTag=PROPN|Number=Sing" lemma="Mr.">Mr.</w>
+                  <w xml:id="ParlaMint-LV_2014-11-04.s1.t2" msd="UPosTag=PROPN|Number=Sing" lemma="President" join="right">President</w>
+                  ...
+                </s>
+                ...
+              </seg>
+              ...
+            </u>
+            ...
+          </div>
         </egXML>
 
-	As can be seen above, the alignment is specified on the <att>corresp</att> attibute on sentences
-	(<gi>s</gi>), as well as on segments (<gi>seg</gi>) and utterances (<gi>u</gi>).
-	The alignment reference makes use of the TEI extended pointer syntax (cf. the Section on
-	<ref target="#sec-ana-prefixDef">Prefix definitions</ref>), to define the <val>mt-src</val> prefix
-	which must resolve to the correct component file of the corpus in the source language.</p>
-	
+        As can be seen above, the alignment is specified on the <att>corresp</att> attibute on sentences
+        (<gi>s</gi>), as well as on segments (<gi>seg</gi>) and utterances (<gi>u</gi>).
+        The alignment reference makes use of the TEI extended pointer syntax (cf. the Section on
+        <ref target="#sec-ana-prefixDef">Prefix definitions</ref>), to define the <val>mt-src</val> prefix
+        which must resolve to the correct component file of the corpus in the source language.</p>
+        
         <p>In contrast to other linguistic annotations that specify one prefix definition for the complete
-	corpus (so, inside the corpus root <gi>teiHeader</gi>), the translated corpora should specify a
-	prefix definition inside each corpora component because its definition depends on the component file.
-	For example, the prefix definition of the corpus component file <code>ParlaMint-LV-en_2014-11-04.ana.xml</code>
-	should be as in the following example:
+        corpus (so, inside the corpus root <gi>teiHeader</gi>), the translated corpora should specify a
+        prefix definition inside each corpora component because its definition depends on the component file.
+        For example, the prefix definition of the corpus component file <code>ParlaMint-LV-en_2014-11-04.ana.xml</code>
+        should be as in the following example:
         
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt-prefixDef">
-	  <listPrefixDef>
+          <listPrefixDef>
             <prefixDef ident="mt-src"
-		       matchPattern="(.+)"
-		       replacementPattern="../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.ana.xml#$1">
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.ana.xml#$1">
               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
             </prefixDef>
-	  </listPrefixDef>
+          </listPrefixDef>
         </egXML>
 
-	The assumption above is that the two corpora are available in the same directory
-	(so, <code>./ParlaMint-LV.TEI.ana/</code> and <code>./ParlaMint-LV-en.TEI.ana/</code>), so that <att>corresp</att> values
-	of the file <code>ParlaMint-LV-en.TEI.ana/2014/ParlaMint-LV-en_2014-11-04.ana.xml</code> with the <code>mt-src</code>
-	prefix will point to
-	<code>ParlaMint-LV-en.TEI.ana/2014/../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014.ana.xml</code>
-	i.e. to <code>./ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.xml</code>.</p>
-	
-	<p>The final additional element of the transated corpora is the information on the application (<gi>application</gi>),
-	i.e. on the program that was used to translate the corpora, as illustrated by the following example:
-	
+        The assumption above is that the two corpora are available in the same directory
+        (so, <code>./ParlaMint-LV.TEI.ana/</code> and <code>./ParlaMint-LV-en.TEI.ana/</code>), so that <att>corresp</att> values
+        of the file <code>ParlaMint-LV-en.TEI.ana/2014/ParlaMint-LV-en_2014-11-04.ana.xml</code> with the <code>mt-src</code>
+        prefix will point to
+        <code>ParlaMint-LV-en.TEI.ana/2014/../../ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014.ana.xml</code>
+        i.e. to <code>./ParlaMint-LV.TEI.ana/2014/ParlaMint-LV_2014-11-04.xml</code>.</p>
+        
+        <p>The final additional element of the transated corpora is the information on the application (<gi>application</gi>),
+        i.e. on the program that was used to translate the corpora, as illustrated by the following example:
+        
         <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-mt-appInfo">
           <application ident="EasyNMT" version="2.0">
             <label>EasyNMT (OPUS-MT model)</label>
             <desc>Translation to English done with EasyNMT
-	    (<ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>)
-	    with OPUS-MT model bat
-	    (<ref target="https://github.com/Helsinki-NLP/Opus-MT">https://github.com/Helsinki-NLP/Opus-MT</ref>)</desc>
+            (<ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>)
+            with OPUS-MT model bat
+            (<ref target="https://github.com/Helsinki-NLP/Opus-MT">https://github.com/Helsinki-NLP/Opus-MT</ref>)</desc>
             </application>
         </egXML>
 
-	This element should be given in the corpus root, together with all the other information on applications
-	inside the application information (<gi>appInfo</gi>) element.</p>
-	
+        This element should be given in the corpus root, together with all the other information on applications
+        inside the application information (<gi>appInfo</gi>) element.</p>
+        
     </div>
       
-	  
+          
       <!--div xml:id="sec-audio">
           <head>Audio</head>
           
@@ -3468,21 +3455,14 @@
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/data">data</ref>
               serves as a pushing place for new sample files in ./Data/ParlaMint-XX directories.</item>
             <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/devel">devel</ref>:
-              development of scripts</item>
-              <item><ref target="https://github.com/clarin-eric/ParlaMint/tree/documentation">documentation</ref>:
-              development of schemas, the TEI ODD of these Guidelines, which are then deployed on GitHub pages.</item>
+              development of scripts and documentation.</item>
           </list>
         </p>
 
-        <p>The validation procedure for corpora is explained in the
-        Section on <ref target="#sec-validate">Validating ParlaMint
-        corpora</ref>, while the technical aspects of contributing
-        corpora is further explained in the <ref
-        target="https://github.com/clarin-eric/ParlaMint/blob/main/CONTRIBUTING.md">CONTRIBUTING
-        file</ref> of the repository.
+        <p>The validation procedure for corpora is explained in the Section on <ref target="#sec-validate">Validating ParlaMint
+        corpora</ref>, while the technical aspects of contributing corpora is further explained in the <ref
+        target="https://github.com/clarin-eric/ParlaMint/blob/main/CONTRIBUTING.md">CONTRIBUTING file</ref> of the repository.
         </p>
-
-        
       </div>
       
       <div xml:id="sec-ack">

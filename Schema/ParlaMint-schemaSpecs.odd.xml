@@ -60,7 +60,7 @@
             <elementRef key="include"/>
          </alternate>
       </content>
-      <!-- Make @xml:id, @xml:lang required, remove the other attributes -->
+      <!-- Make @xml:id, @xml:lang required, allow @corresp, remove the other attributes -->
       <attList>
          <attDef ident="xml:id" mode="replace" usage="req">
             <datatype>
@@ -72,6 +72,7 @@
                <dataRef key="teidata.language"/>
             </datatype>
          </attDef>
+         <!--teiCorpus/@corresp-->
          <attDef ident="version" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -79,7 +80,6 @@
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -168,6 +168,7 @@
                <dataRef key="teidata.pointer"/>
             </datatype>
          </attDef>
+         <!--TEI/@corresp-->
          <attDef ident="version" mode="delete"/>
          <attDef ident="n" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -175,7 +176,6 @@
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -301,7 +301,7 @@
             <elementRef key="u"/>
          </alternate>
       </content>
-      <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
+      <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, corresp, subtype -->
       <attList>
          <attDef ident="type" mode="replace" usage="req">
             <valList type="closed">
@@ -321,12 +321,12 @@
          <!--div/@xml:lang-->
          <!--div/@n-->
          <!--div/@subtype-->
+         <!--div/@corresp-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -972,7 +972,7 @@
       <content>
          <empty/>
       </content>
-      <attList><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp--><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp-->
+      <attList><!--pb/@xml:id--><!--pb/@n--><!--pb/@source--><!--pb/@corresp-->
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
@@ -1026,14 +1026,13 @@
             <elementRef key="seg"/>
          </alternate>
       </content>
-      <attList><!--u/@xml:id--><!--u/@xml:lang--><!--u/@n--><!--u/@prev--><!--u/@next--><!--u/@who--><!--u/@ana--><!--u/@source-->
+      <attList><!--u/@xml:id--><!--u/@xml:lang--><!--u/@n--><!--u/@prev--><!--u/@next--><!--u/@who--><!--u/@ana--><!--u/@source--><!--u/@corresp-->
          <attDef ident="trans" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -1078,13 +1077,12 @@
             </alternate>
          </alternate>
       </content>
-      <attList><!--seg/@xml:id--><!--seg/@xml:lang--><!--seg/@n-->
+      <attList><!--seg/@xml:id--><!--seg/@xml:lang--><!--seg/@n--><!--seg/@corresp-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -1137,15 +1135,14 @@
             <elementRef key="gap"/>
             <elementRef key="pb"/>
          </alternate>
-         <elementRef key="linkGrp"/>
+         <elementRef key="linkGrp" minOccurs="0" maxOccurs="1"/>
       </content>
-      <attList><!--s/@xml:id--><!--s/@xml:lang--><!--s/@n-->
+      <attList><!--s/@xml:id--><!--s/@xml:lang--><!--s/@corresp--><!--s/@n-->
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
          <attDef ident="style" mode="delete"/>
          <attDef ident="rendition" mode="delete"/>
-         <attDef ident="corresp" mode="delete"/>
          <attDef ident="synch" mode="delete"/>
          <attDef ident="sameAs" mode="delete"/>
          <attDef ident="copyOf" mode="delete"/>
@@ -5815,7 +5812,7 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="state" module="namesdates" mode="change">
-      <desc versionDate="2022-10-04" xml:lang="en">defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source.</desc>
+      <desc versionDate="2022-10-04" xml:lang="en">defines additional metadata on the political orientation of a political party or parliamentary group, e.g. its political orientation.</desc>
       <content>
          <alternate>
             <elementRef key="label"/>
@@ -5823,27 +5820,25 @@
          </alternate>
       </content>
       <attList>
-         <attDef ident="type" mode="replace" usage="req">
+         <attDef ident="type" mode="replace" usage="opt">
             <valList type="closed">
                <valItem ident="politicalOrientation"/>
-            </valList>
-         </attDef>
-         <attDef ident="subtype" mode="replace" usage="req">
-            <valList type="closed">
-               <valItem ident="CHES"/>
+               <valItem ident="encoder"/>
                <valItem ident="Wikipedia"/>
-               <valItem ident="unknown"/>
+               <valItem ident="CHES"/>
+               <valItem ident="variable"/>
+               <valItem ident="value"/>
             </valList>
          </attDef>
-         <attDef ident="ana" mode="change" usage="req">
+         <attDef ident="ana" mode="change" usage="opt">
             <datatype>
                <dataRef key="teidata.pointer"/>
             </datatype>
          </attDef>
          <!--state/@source-->
-         <!--state/@n-->
          <!--state/@from-->
          <!--state/@to-->
+         <!--state/@n-->
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
@@ -5882,6 +5877,7 @@
          <attDef ident="datingMethod" mode="delete"/>
          <attDef ident="evidence" mode="delete"/>
          <attDef ident="instant" mode="delete"/>
+         <attDef ident="subtype" mode="delete"/>
          <attDef ident="role" mode="delete"/>
          <attDef ident="nymRef" mode="delete"/>
          <attDef ident="key" mode="delete"/>
