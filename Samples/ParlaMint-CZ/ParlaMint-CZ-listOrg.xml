@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-CZ-listOrg" xml:lang="cs">
+  <org xml:id="republic.CZ" role="republic">
+    <orgName full="yes" xml:lang="cs">Česká republika</orgName>
+    <orgName full="yes" xml:lang="en">The Czech Republic</orgName>
+    <orgName full="abb">CZ</orgName>
+    <event from="1993-01-01">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
   <org xml:id="government.VladaCR" role="government">
     <orgName full="yes" xml:lang="cs">Vláda České republiky</orgName>
     <orgName full="yes" xml:lang="en">Government of the Czech Republic</orgName>
@@ -205,9 +213,9 @@
         <label xml:lang="cs">Poslanecká sněmovna (2013-10-26 - 2017-10-26)</label>
         <label xml:lang="en">Chamber of Deputies (2013-10-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="parliament.PSP8" from="2017-10-21" to="2021-10-21">
-        <label xml:lang="cs">Poslanecká sněmovna (2017-10-21 - 2021-10-21)</label>
-        <label xml:lang="en">Chamber of Deputies (2017-10-21 - 2021-10-21)</label>
+      <event xml:id="parliament.PSP8" from="2017-10-21" to="2021-10-20">
+        <label xml:lang="cs">Poslanecká sněmovna (2017-10-21 - 2021-10-20)</label>
+        <label xml:lang="en">Chamber of Deputies (2017-10-21 - 2021-10-20)</label>
       </event>
       <event xml:id="parliament.PSP9" from="2021-10-09">
         <label xml:lang="cs">Poslanecká sněmovna (2021-10-09 - )</label>
@@ -260,9 +268,9 @@
         <label xml:lang="cs">Senát (2014-11-19 - 2016-11-15)</label>
         <label xml:lang="en">Senate (2014-11-19 - 2016-11-15)</label>
       </event>
-      <event xml:id="senate.SE11" from="2016-10-15">
-        <label xml:lang="cs">Senát (2016-10-15 - )</label>
-        <label xml:lang="en">Senate (2016-10-15 - )</label>
+      <event xml:id="senate.SE11" from="2016-10-15" to="2018-11-13">
+        <label xml:lang="cs">Senát (2016-10-15 - 2018-11-13)</label>
+        <label xml:lang="en">Senate (2016-10-15 - 2018-11-13)</label>
       </event>
       <event xml:id="senate.SE12" from="2018-10-06">
         <label xml:lang="cs">Senát (2018-10-06 - )</label>
@@ -274,11 +282,74 @@
       </event>
     </listEvent>
   </org>
-  <org xml:id="boardOfDirectors.SRVZP.438" role="boardOfDirectors">
+  <org xml:id="senate.SE14" role="parliament" ana="#parla.national #parla.upper">
+    <orgName full="yes" xml:lang="cs">Senát</orgName>
+    <orgName full="abb">SE14</orgName>
+    <event from="2022-09-24">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfGovernors.SRVZP.438" role="boardOfDirectors">
     <orgName full="yes" xml:lang="cs">Správní rada VZP</orgName>
     <orgName full="yes" xml:lang="en">The Board of Directors of the General Health Insurance Company of the Czech Republic</orgName>
     <orgName full="abb">SRVZP</orgName>
     <event from="1992-01-01">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DZVZP.439" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada VZP</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the General Health Insurance Company of the Czech Republic</orgName>
+    <orgName full="abb">DZVZP</orgName>
+    <event from="1992-01-01" to="2001-01-01">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DRPF.441" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada Pozemkového fondu České republiky</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the Land Fund of the Czech Republic</orgName>
+    <orgName full="abb">DRPF</orgName>
+    <event from="1993-01-01" to="2013-01-01">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DRSFDI.476" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada Státního fondu dopravní infrastruktury</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the State Fund of Transport Infrastructure</orgName>
+    <orgName full="abb">DRSFDI</orgName>
+    <event from="2000-06-27">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DRSZIF.480" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada Státního zemědělského intervenčního fondu</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the State Agricultural Intervention Fund</orgName>
+    <orgName full="abb">DR SZIF</orgName>
+    <event from="2000-07-19">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DRSFRB.481" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada Státního fondu podpory investic</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the State Fund for Support of Investments</orgName>
+    <orgName full="abb">DR SFRB</orgName>
+    <event from="2000-07-21">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DRCKA.577" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada České konsolidační agentury</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the Czech Consolidation Agency</orgName>
+    <orgName full="abb">DR ČKA</orgName>
+    <event from="2001-09-01" to="2007-12-31">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="boardOfTrustees.DRVF.580" role="supervisoryBoard">
+    <orgName full="yes" xml:lang="cs">Dozorčí rada Vinařského fondu</orgName>
+    <orgName full="yes" xml:lang="en">The Supervisory Board of the Viticultural Fund</orgName>
+    <orgName full="abb">DR VF</orgName>
+    <event from="2002-03-27">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -342,9 +413,9 @@
         <label xml:lang="cs">Stálá komise pro práci Kanceláře Poslanecké sněmovny (2015-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Commission for the work of the Office of the Chamber of Deputies (2015-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKPKPS.1320" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro práci Kanceláře Poslanecké sněmovny (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Commission for the work of the Office of the Chamber of Deputies (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKPKPS.1320" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro práci Kanceláře Poslanecké sněmovny (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Commission for the work of the Office of the Chamber of Deputies (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKPKPS.1572" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro práci Kanceláře Poslanecké sněmovny (2021-11-23 - )</label>
@@ -435,9 +506,9 @@
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Bezpečnostní informační služby (2013-12-10 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Commission on Oversight over the work of the Security Information Service (2013-12-10 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKBIS.1326" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Bezpečnostní informační služby (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Commission on Oversight over the work of the Security Information Service (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKBIS.1326" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Bezpečnostní informační služby (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Commission on Oversight over the work of the Security Information Service (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKBIS.1563" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Bezpečnostní informační služby (2021-11-23 - )</label>
@@ -486,9 +557,9 @@
         <label xml:lang="cs">Volební komise (2013-11-21 - 2017-10-26)</label>
         <label xml:lang="en">Electoral Commission of the Chamber of Deputies (2013-11-21 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.VK.1301" from="2017-11-14" to="2021-10-21">
-        <label xml:lang="cs">Volební komise (2017-11-14 - 2021-10-21)</label>
-        <label xml:lang="en">Electoral Commission of the Chamber of Deputies (2017-11-14 - 2021-10-21)</label>
+      <event xml:id="commission.VK.1301" from="2017-11-14" to="2021-10-20">
+        <label xml:lang="cs">Volební komise (2017-11-14 - 2021-10-20)</label>
+        <label xml:lang="en">Electoral Commission of the Chamber of Deputies (2017-11-14 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.VK.1542" from="2021-11-02">
         <label xml:lang="cs">Volební komise (2021-11-02 - )</label>
@@ -634,9 +705,9 @@
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního bezpečnostního úřadu (2013-12-10 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Commission on Oversight over the work of the National Security Office (2013-12-10 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKNBU.1327" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního bezpečnostního úřadu (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Commission on Oversight over the work of the National Security Office (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKNBU.1327" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního bezpečnostního úřadu (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Commission on Oversight over the work of the National Security Office (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKNBU.1564" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního bezpečnostního úřadu (2021-11-23 - )</label>
@@ -685,9 +756,9 @@
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Vojenského zpravodajství (2013-12-10 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Commission on Oversight over the work of Military Intelligence (2013-12-10 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKVZ.1328" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Vojenského zpravodajství (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Commission on Oversight over the work of Military Intelligence (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKVZ.1328" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Vojenského zpravodajství (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Commission on Oversight over the work of Military Intelligence (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKVZ.1565" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Vojenského zpravodajství (2021-11-23 - )</label>
@@ -764,9 +835,9 @@
         <label xml:lang="cs">Stálá komise pro kontrolu použití odposlechu a záznamu telekomunikačního provozu, použití sledování osob a věcí a rušení provozu elektronických komunikací (2013-12-10 - 2017-10-26)</label>
         <label xml:lang="en">Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication (2013-12-10 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKKPO.1324" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu použití odposlechu a záznamu telekomunikačního provozu, použití sledování osob a věcí a rušení provozu elektronických komunikací (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKKPO.1324" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu použití odposlechu a záznamu telekomunikačního provozu, použití sledování osob a věcí a rušení provozu elektronických komunikací (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on Telecommunication Interception and Access, Spying and Interference to Electronic communication (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKKPO.1561" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu použití odposlechu a záznamu telekomunikačního provozu, použití sledování osob a věcí a rušení provozu elektronických komunikací (2021-11-23 - )</label>
@@ -787,9 +858,9 @@
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Generální inspekce bezpečnostních sborů (2013-12-10 - 2017-10-26)</label>
         <label xml:lang="en">Standing Commission on Activities of the General Inspection of Security Forces (2013-12-10 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKGIBS.1323" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Generální inspekce bezpečnostních sborů (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on Activities of the General Inspection of Security Forces (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKGIBS.1323" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Generální inspekce bezpečnostních sborů (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on Activities of the General Inspection of Security Forces (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKGIBS.1569" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Generální inspekce bezpečnostních sborů (2021-11-23 - )</label>
@@ -806,9 +877,9 @@
         <label xml:lang="cs">Stálá komise pro rodinu, rovné příležitosti a národnostní menšiny (2013-12-10 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Commission on Family Issues, Equal Opportunities and Minorities (2013-12-10 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKRRPM.1321" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro rodinu, rovné příležitosti a národnostní menšiny (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Commission on Family Issues, Equal Opportunities and Minorities (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKRRPM.1321" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro rodinu, rovné příležitosti a národnostní menšiny (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Commission on Family Issues, Equal Opportunities and Minorities (2017-11-28 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -829,9 +900,9 @@
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Finančního analytického úřadu (2015-10-02 - 2017-10-26)</label>
         <label xml:lang="en">Standing Commission on Activities of the Financial Analytical Office (2015-10-02 - 2017-10-26)</label>
       </event>
-      <event xml:id="commission.SKFAU.1329" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Finančního analytického úřadu (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on Activities of the Financial Analytical Office (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKFAU.1329" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Finančního analytického úřadu (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on Activities of the Financial Analytical Office (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKFAU.1566" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Finančního analytického úřadu (2021-11-23 - )</label>
@@ -860,9 +931,9 @@
     <orgName full="yes" xml:lang="en">Standing Commission on Data Delivery by the Central Evidence of Accounts</orgName>
     <orgName full="abb">SKCEÚ</orgName>
     <listEvent>
-      <event xml:id="commission.SKCEU.1325" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu poskytnutí údajů z centrální evidence účtů (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on Data Delivery by the Central Evidence of Accounts (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKCEU.1325" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu poskytnutí údajů z centrální evidence účtů (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on Data Delivery by the Central Evidence of Accounts (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKCEU.1562" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu poskytnutí údajů z centrální evidence účtů (2021-11-23 - )</label>
@@ -875,9 +946,9 @@
     <orgName full="yes" xml:lang="en">Standing Commission on the Activities of the National Cyber and Information Security Agency</orgName>
     <orgName full="abb">SKNÚKIB</orgName>
     <listEvent>
-      <event xml:id="commission.SKNUKIB.1330" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního úřadu pro kybernetickou a informační bezpečnost (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on the Activities of the National Cyber and Information Security Agency (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKNUKIB.1330" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního úřadu pro kybernetickou a informační bezpečnost (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on the Activities of the National Cyber and Information Security Agency (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKNUKIB.1567" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Národního úřadu pro kybernetickou a informační bezpečnost (2021-11-23 - )</label>
@@ -890,9 +961,9 @@
     <orgName full="yes" xml:lang="en">Standing Commission on the Constitution of the Czech Republic</orgName>
     <orgName full="abb">SKÚČR</orgName>
     <listEvent>
-      <event xml:id="commission.SKUCR.1322" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro Ústavu České republiky (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on the Constitution of the Czech Republic (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="commission.SKUCR.1322" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro Ústavu České republiky (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on the Constitution of the Czech Republic (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKUCR.1571" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro Ústavu České republiky (2021-11-23 - )</label>
@@ -904,7 +975,7 @@
     <orgName full="yes" xml:lang="cs">Vyšetřovací komise k OKD</orgName>
     <orgName full="yes" xml:lang="en">Investigatory Commission on OKD</orgName>
     <orgName full="abb">VKOKD</orgName>
-    <event from="2017-12-12" to="2021-10-21">
+    <event from="2017-12-12" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -913,9 +984,9 @@
     <orgName full="yes" xml:lang="en">Standing Commission on the Activities of the Office for Foreign Relations and Information</orgName>
     <orgName full="abb">SKÚZSI</orgName>
     <listEvent>
-      <event xml:id="commission.SKUZSI.1375" from="2018-01-17" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Úřadu pro zahraniční styky a informace (2018-01-17 - 2021-10-21)</label>
-        <label xml:lang="en">Standing Commission on the Activities of the Office for Foreign Relations and Information (2018-01-17 - 2021-10-21)</label>
+      <event xml:id="commission.SKUZSI.1375" from="2018-01-17" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro kontrolu činnosti Úřadu pro zahraniční styky a informace (2018-01-17 - 2021-10-20)</label>
+        <label xml:lang="en">Standing Commission on the Activities of the Office for Foreign Relations and Information (2018-01-17 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKUZSI.1568" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro kontrolu činnosti Úřadu pro zahraniční styky a informace (2021-11-23 - )</label>
@@ -926,7 +997,7 @@
   <org xml:id="commission.DKCOVID.1518" role="commission">
     <orgName full="yes" xml:lang="cs">Dočasná komise pro hodnocení účinnosti vládní pomoci v rámci COVID</orgName>
     <orgName full="abb">DKCOVID</orgName>
-    <event from="2020-06-03" to="2021-10-21">
+    <event from="2020-06-03" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -935,8 +1006,8 @@
     <orgName full="yes" xml:lang="en">Standing Commission on Hybrid Threats</orgName>
     <orgName full="abb">SKHH</orgName>
     <listEvent>
-      <event xml:id="commission.SKHH.1520" from="2020-06-16" to="2021-10-21">
-        <label xml:lang="cs">Stálá komise pro hybridní hrozby (2020-06-16 - 2021-10-21)</label>
+      <event xml:id="commission.SKHH.1520" from="2020-06-16" to="2021-10-20">
+        <label xml:lang="cs">Stálá komise pro hybridní hrozby (2020-06-16 - 2021-10-20)</label>
       </event>
       <event xml:id="commission.SKHH.1573" from="2021-11-23">
         <label xml:lang="cs">Stálá komise pro hybridní hrozby (2021-11-23 - )</label>
@@ -947,7 +1018,7 @@
   <org xml:id="commission.VKBECVA.1531" role="commission">
     <orgName full="yes" xml:lang="cs">Vyšetřovací komise k ekologické katastrofě na řece Bečvě</orgName>
     <orgName full="abb">VKBEČVA</orgName>
-    <event from="2021-04-21" to="2021-10-21">
+    <event from="2021-04-21" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -1003,9 +1074,9 @@
         <label xml:lang="cs">Hospodářský výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Economic Affairs (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.HV.1309" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Hospodářský výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Economic Affairs (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.HV.1309" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Hospodářský výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Economic Affairs (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.HV.1550" from="2021-11-10">
         <label xml:lang="cs">Hospodářský výbor (2021-11-10 - )</label>
@@ -1050,9 +1121,9 @@
         <label xml:lang="cs">Mandátový a imunitní výbor (2013-11-25 - 2017-10-26)</label>
         <label xml:lang="en">Mandate and Immunity Committee (2013-11-25 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.MIV.1302" from="2017-11-20" to="2021-10-21">
-        <label xml:lang="cs">Mandátový a imunitní výbor (2017-11-20 - 2021-10-21)</label>
-        <label xml:lang="en">Mandate and Immunity Committee (2017-11-20 - 2021-10-21)</label>
+      <event xml:id="committee.MIV.1302" from="2017-11-20" to="2021-10-20">
+        <label xml:lang="cs">Mandátový a imunitní výbor (2017-11-20 - 2021-10-20)</label>
+        <label xml:lang="en">Mandate and Immunity Committee (2017-11-20 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.MIV.1543" from="2021-11-08">
         <label xml:lang="cs">Mandátový a imunitní výbor (2021-11-08 - )</label>
@@ -1097,9 +1168,9 @@
         <label xml:lang="cs">Organizační výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Steering Committee (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.ORGV.1304" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Organizační výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Steering Committee (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.ORGV.1304" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Organizační výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Steering Committee (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.ORGV.1547" from="2021-11-10">
         <label xml:lang="cs">Organizační výbor (2021-11-10 - )</label>
@@ -1144,9 +1215,9 @@
         <label xml:lang="cs">Rozpočtový výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on the Budget (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.RV.1305" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Rozpočtový výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on the Budget (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.RV.1305" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Rozpočtový výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on the Budget (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.RV.1545" from="2021-11-10">
         <label xml:lang="cs">Rozpočtový výbor (2021-11-10 - )</label>
@@ -1191,9 +1262,9 @@
         <label xml:lang="cs">Ústavně právní výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Constitutional and Legal Affairs (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.UPV.1310" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Ústavně právní výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Constitutional and Legal Affairs (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.UPV.1310" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Ústavně právní výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Constitutional and Legal Affairs (2017-11-24 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -1288,9 +1359,9 @@
         <label xml:lang="cs">Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Science, Education, Culture, Youth and Sport (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VVVKM.1314" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Science, Education, Culture, Youth and Sport (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VVVKM.1314" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Science, Education, Culture, Youth and Sport (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VVVKM.1555" from="2021-11-10">
         <label xml:lang="cs">Výbor pro vědu, vzdělání, kulturu, mládež a tělovýchovu (2021-11-10 - )</label>
@@ -1335,9 +1406,9 @@
         <label xml:lang="cs">Zahraniční výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Foreign Affairs (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.ZAV.1318" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Zahraniční výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Foreign Affairs (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.ZAV.1318" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Zahraniční výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Foreign Affairs (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.ZAV.1559" from="2021-11-10">
         <label xml:lang="cs">Zahraniční výbor (2021-11-10 - )</label>
@@ -1382,9 +1453,9 @@
         <label xml:lang="cs">Zemědělský výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Agriculture (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.ZEV.1319" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Zemědělský výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Agriculture (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.ZEV.1319" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Zemědělský výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Agriculture (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.ZEV.1560" from="2021-11-10">
         <label xml:lang="cs">Zemědělský výbor (2021-11-10 - )</label>
@@ -1447,9 +1518,9 @@
         <label xml:lang="cs">Petiční výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Petitions (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.PV.1303" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Petiční výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Petitions (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.PV.1303" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Petiční výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Petitions (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.PV.1544" from="2021-11-10">
         <label xml:lang="cs">Petiční výbor (2021-11-10 - )</label>
@@ -1497,9 +1568,9 @@
         <label xml:lang="cs">Volební výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Electoral Committee (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VOV.1307" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Volební výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Electoral Committee (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VOV.1307" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Volební výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Electoral Committee (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VOV.1548" from="2021-11-10">
         <label xml:lang="cs">Volební výbor (2021-11-10 - )</label>
@@ -1528,9 +1599,9 @@
         <label xml:lang="cs">Výbor pro evropské záležitosti (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on European Affairs (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VEZ.1308" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro evropské záležitosti (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on European Affairs (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VEZ.1308" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro evropské záležitosti (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on European Affairs (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VEZ.1549" from="2021-11-10">
         <label xml:lang="cs">Výbor pro evropské záležitosti (2021-11-10 - )</label>
@@ -1555,9 +1626,9 @@
         <label xml:lang="cs">Kontrolní výbor (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Budgetary Control (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.KV.1306" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Kontrolní výbor (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Budgetary Control (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.KV.1306" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Kontrolní výbor (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Budgetary Control (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.KV.1546" from="2021-11-10">
         <label xml:lang="cs">Kontrolní výbor (2021-11-10 - )</label>
@@ -1582,9 +1653,9 @@
         <label xml:lang="cs">Výbor pro bezpečnost (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Security (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VB.1311" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro bezpečnost (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Security (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VB.1311" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro bezpečnost (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Security (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VB.1552" from="2021-11-10">
         <label xml:lang="cs">Výbor pro bezpečnost (2021-11-10 - )</label>
@@ -1609,9 +1680,9 @@
         <label xml:lang="cs">Výbor pro obranu (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Defence (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VO.1312" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro obranu (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Defence (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VO.1312" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro obranu (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Defence (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VO.1553" from="2021-11-10">
         <label xml:lang="cs">Výbor pro obranu (2021-11-10 - )</label>
@@ -1636,9 +1707,9 @@
         <label xml:lang="cs">Výbor pro sociální politiku (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Social Policy (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VSP.1313" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro sociální politiku (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Social Policy (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VSP.1313" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro sociální politiku (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Social Policy (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VSP.1554" from="2021-11-10">
         <label xml:lang="cs">Výbor pro sociální politiku (2021-11-10 - )</label>
@@ -1663,9 +1734,9 @@
         <label xml:lang="cs">Výbor pro veřejnou správu a regionální rozvoj (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Public Administration and Regional Development (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VSR.1315" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro veřejnou správu a regionální rozvoj (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Public Administration and Regional Development (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VSR.1315" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro veřejnou správu a regionální rozvoj (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Public Administration and Regional Development (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VSR.1556" from="2021-11-10">
         <label xml:lang="cs">Výbor pro veřejnou správu a regionální rozvoj (2021-11-10 - )</label>
@@ -1690,9 +1761,9 @@
         <label xml:lang="cs">Výbor pro zdravotnictví (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Health Care (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VZ.1316" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro zdravotnictví (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Health Care (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VZ.1316" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro zdravotnictví (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Health Care (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VZ.1557" from="2021-11-10">
         <label xml:lang="cs">Výbor pro zdravotnictví (2021-11-10 - )</label>
@@ -1717,9 +1788,9 @@
         <label xml:lang="cs">Výbor pro životní prostředí (2013-11-27 - 2017-10-26)</label>
         <label xml:lang="en">Committee on Environment (2013-11-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="committee.VZP.1317" from="2017-11-24" to="2021-10-21">
-        <label xml:lang="cs">Výbor pro životní prostředí (2017-11-24 - 2021-10-21)</label>
-        <label xml:lang="en">Committee on Environment (2017-11-24 - 2021-10-21)</label>
+      <event xml:id="committee.VZP.1317" from="2017-11-24" to="2021-10-20">
+        <label xml:lang="cs">Výbor pro životní prostředí (2017-11-24 - 2021-10-20)</label>
+        <label xml:lang="en">Committee on Environment (2017-11-24 - 2021-10-20)</label>
       </event>
       <event xml:id="committee.VZP.1558" from="2021-11-10">
         <label xml:lang="cs">Výbor pro životní prostředí (2021-11-10 - )</label>
@@ -1783,9 +1854,9 @@
         <label xml:lang="cs">Stálá delegace Parlamentu do Meziparlamentní unie (2013-12-12 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Delegation to the Inter-Parliamentary Union (2013-12-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="delegation.SDMPU.1331" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá delegace Parlamentu do Meziparlamentní unie (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Delegation to the Inter-Parliamentary Union (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="delegation.SDMPU.1331" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá delegace Parlamentu do Meziparlamentní unie (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Delegation to the Inter-Parliamentary Union (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="delegation.SDMPU.1574" from="2021-11-23">
         <label xml:lang="cs">Stálá delegace Parlamentu do Meziparlamentní unie (2021-11-23 - )</label>
@@ -1822,9 +1893,9 @@
         <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění NATO (2013-12-12 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Delegation to the NATO Parliamentary Assembly (2013-12-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="delegation.SDNATO.1332" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění NATO (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Delegation to the NATO Parliamentary Assembly (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="delegation.SDNATO.1332" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění NATO (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Delegation to the NATO Parliamentary Assembly (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="delegation.SDNATO.1575" from="2021-11-23">
         <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění NATO (2021-11-23 - )</label>
@@ -1861,9 +1932,9 @@
         <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Organizace pro bezpečnost a spolupráci v Evropě (2013-12-12 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Delegation to the Parliamentary Assembly of the OSCE (2013-12-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="delegation.SDOBSE.1333" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Organizace pro bezpečnost a spolupráci v Evropě (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Delegation to the Parliamentary Assembly of the OSCE (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="delegation.SDOBSE.1333" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Organizace pro bezpečnost a spolupráci v Evropě (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Delegation to the Parliamentary Assembly of the OSCE (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="delegation.SDOBSE.1576" from="2021-11-23">
         <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Organizace pro bezpečnost a spolupráci v Evropě (2021-11-23 - )</label>
@@ -1900,9 +1971,9 @@
         <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Rady Evropy (2013-12-12 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Delegation to the Parliament. Assembly of the Council of Europe (2013-12-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="delegation.SDPSRE.1334" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Rady Evropy (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Delegation to the Parliamentary Assembly of the Council of Europe (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="delegation.SDPSRE.1334" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Rady Evropy (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Delegation to the Parliamentary Assembly of the Council of Europe (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="delegation.SDPSRE.1577" from="2021-11-23">
         <label xml:lang="cs">Stálá delegace Parlamentu do Parlamentního shromáždění Rady Evropy (2021-11-23 - )</label>
@@ -1939,9 +2010,9 @@
         <label xml:lang="cs">Stálá delegace Parlamentu do Středoevropské iniciativy (2013-12-12 - 2017-10-26)</label>
         <label xml:lang="en">Permanent Delegation to the Central European Initiative (2013-12-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="delegation.SDSEI.1335" from="2017-11-28" to="2021-10-21">
-        <label xml:lang="cs">Stálá delegace Parlamentu do Středoevropské iniciativy (2017-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Permanent Delegation to the Central European Initiative (2017-11-28 - 2021-10-21)</label>
+      <event xml:id="delegation.SDSEI.1335" from="2017-11-28" to="2021-10-20">
+        <label xml:lang="cs">Stálá delegace Parlamentu do Středoevropské iniciativy (2017-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Permanent Delegation to the Central European Initiative (2017-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="delegation.SDSEI.1578" from="2021-11-23">
         <label xml:lang="cs">Stálá delegace Parlamentu do Středoevropské iniciativy (2021-11-23 - )</label>
@@ -2026,13 +2097,6 @@
     <orgName full="yes" xml:lang="en">The Czech Statistical Office</orgName>
     <orgName full="abb">ČSÚ</orgName>
     <event from="1993-01-01">
-      <label xml:lang="en">existence</label>
-    </event>
-  </org>
-  <org xml:id="institution.PFNM.434" role="institution">
-    <orgName full="yes" xml:lang="cs">Prezídium Fondu národního majetku České republiky</orgName>
-    <orgName full="abb">PFNM</orgName>
-    <event from="1993-01-01" to="2006-01-01">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -2122,9 +2186,9 @@
         <label xml:lang="cs">Rakousko (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Austria (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.A.1419" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Rakousko (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Austria (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.A.1419" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Rakousko (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Austria (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.A.1669" from="2022-02-21">
         <label xml:lang="cs">Rakousko (2022-02-21 - )</label>
@@ -2176,9 +2240,9 @@
         <label xml:lang="cs">Čínská lidová republika (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">People's Republic of China (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.CN.1453" from="2018-04-11" to="2021-10-21">
-        <label xml:lang="cs">Čína (2018-04-11 - 2021-10-21)</label>
-        <label xml:lang="en">China (2018-04-11 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.CN.1453" from="2018-04-11" to="2021-10-20">
+        <label xml:lang="cs">Čína (2018-04-11 - 2021-10-20)</label>
+        <label xml:lang="en">China (2018-04-11 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.CN.1692" from="2022-02-21">
         <label xml:lang="cs">Čína (2022-02-21 - )</label>
@@ -2211,9 +2275,9 @@
         <label xml:lang="cs">Izrael (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">State of Israel (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.ISR.1447" from="2018-04-10" to="2021-10-21">
-        <label xml:lang="cs">Izrael (2018-04-10 - 2021-10-21)</label>
-        <label xml:lang="en">State of Israel (2018-04-10 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.ISR.1447" from="2018-04-10" to="2021-10-20">
+        <label xml:lang="cs">Izrael (2018-04-10 - 2021-10-20)</label>
+        <label xml:lang="en">State of Israel (2018-04-10 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.ISR.1653" from="2022-02-21">
         <label xml:lang="cs">Izrael (2022-02-21 - )</label>
@@ -2246,9 +2310,9 @@
         <label xml:lang="cs">Polsko (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Poland (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.PL.1442" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Polsko (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Poland (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.PL.1442" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Polsko (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Poland (2018-03-21 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.PL.1667" from="2022-02-21">
         <label xml:lang="cs">Polsko (2022-02-21 - )</label>
@@ -2281,9 +2345,9 @@
         <label xml:lang="cs">Slovenská republika (2014-02-07 - 2017-10-26)</label>
         <label xml:lang="en">Slovak Republic (2014-02-07 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.SK.1443" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Slovensko (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Slovakia (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.SK.1443" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Slovensko (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Slovakia (2018-03-21 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.SK.1674" from="2022-02-21">
         <label xml:lang="cs">Slovensko (2022-02-21 - )</label>
@@ -2304,9 +2368,9 @@
         <label xml:lang="cs">Kuba (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Cuba (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.CU.1421" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Kuba (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Cuba (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.CU.1421" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Kuba (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Cuba (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.CU.1659" from="2022-02-21">
         <label xml:lang="cs">Kuba (2022-02-21 - )</label>
@@ -2343,9 +2407,9 @@
         <label xml:lang="cs">Řecko (2011-11-26 - 2013-08-28)</label>
         <label xml:lang="en">the Hellenic Republic (2011-11-26 - 2013-08-28)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.GR.1438" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Řecko (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Greece (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.GR.1438" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Řecko (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Greece (2018-03-21 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.GR.1670" from="2022-02-21">
         <label xml:lang="cs">Řecko (2022-02-21 - )</label>
@@ -2374,9 +2438,9 @@
         <label xml:lang="cs">Ruská federace (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Russian Federation (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.RU.1432" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Ruská federace (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">Russian Federation (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.RU.1432" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Ruská federace (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">Russian Federation (2018-03-07 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -2424,9 +2488,9 @@
         <label xml:lang="cs">Ukrajina (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Ukraine (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.UA.1433" from="2018-03-09" to="2021-10-21">
-        <label xml:lang="cs">Ukrajina (2018-03-09 - 2021-10-21)</label>
-        <label xml:lang="en">Ukraine (2018-03-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.UA.1433" from="2018-03-09" to="2021-10-20">
+        <label xml:lang="cs">Ukrajina (2018-03-09 - 2021-10-20)</label>
+        <label xml:lang="en">Ukraine (2018-03-09 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.UA.1680" from="2022-02-21">
         <label xml:lang="cs">Ukrajina (2022-02-21 - )</label>
@@ -2459,16 +2523,16 @@
         <label xml:lang="cs">Bulharsko (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Bulgaria (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.BG.1439" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Bulharsko (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Bulgaria (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.BG.1439" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Bulharsko (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Bulgaria (2018-03-21 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
   <org xml:id="interparliamentaryFriendshipGroup.BNL" role="interparliamentaryFriendshipGroup">
     <orgName full="yes" xml:lang="cs">Benelux</orgName>
     <orgName full="yes" xml:lang="en">Benelux</orgName>
-    <orgName full="abb">BNL</orgName>
+    <orgName full="abb">BENELUX</orgName>
     <listEvent>
       <event xml:id="interparliamentaryFriendshipGroup.BNL.234" from="1999-02-09" to="2002-06-20">
         <label xml:lang="cs">BENELUX (1999-02-09 - 2002-06-20)</label>
@@ -2490,6 +2554,9 @@
         <label xml:lang="cs">Benelux (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Benelux (2014-02-12 - 2017-10-26)</label>
       </event>
+      <event xml:id="interparliamentaryFriendshipGroup.BENELUX.1711" from="2022-10-27">
+        <label xml:lang="cs">Benelux (2022-10-27 - )</label>
+      </event>
     </listEvent>
   </org>
   <org xml:id="interparliamentaryFriendshipGroup.KW" role="interparliamentaryFriendshipGroup">
@@ -2509,9 +2576,9 @@
         <label xml:lang="cs">Kuvajt (2007-03-01 - 2010-06-03)</label>
         <label xml:lang="en">Kuwait (2007-03-01 - 2010-06-03)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.KW.1464" from="2018-05-22" to="2021-10-21">
-        <label xml:lang="cs">Kuvajt (2018-05-22 - 2021-10-21)</label>
-        <label xml:lang="en">Kuwait (2018-05-22 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.KW.1464" from="2018-05-22" to="2021-10-20">
+        <label xml:lang="cs">Kuvajt (2018-05-22 - 2021-10-20)</label>
+        <label xml:lang="en">Kuwait (2018-05-22 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.KW.1660" from="2022-02-21">
         <label xml:lang="cs">Kuvajt (2022-02-21 - )</label>
@@ -2532,9 +2599,9 @@
         <label xml:lang="cs">Litva (2014-06-20 - 2017-10-26)</label>
         <label xml:lang="en">Lithuania (2014-06-20 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.LT.1427" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Litva (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Lithuania (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.LT.1427" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Litva (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Lithuania (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.LT.1661" from="2022-02-21">
         <label xml:lang="cs">Litva (2022-02-21 - )</label>
@@ -2563,9 +2630,9 @@
         <label xml:lang="cs">Estonsko (2014-06-20 - 2017-10-26)</label>
         <label xml:lang="en">Estonia (2014-06-20 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.EE.1429" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Estonsko (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Estonia (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.EE.1429" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Estonsko (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Estonia (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.EE.1646" from="2022-02-21">
         <label xml:lang="cs">Estonsko (2022-02-21 - )</label>
@@ -2594,9 +2661,9 @@
         <label xml:lang="cs">Spojené království Velké Británie a Severního Irska (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">United Kingdom of Great Britain and Northern Ireland (2014-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.GBR.1457" from="2018-04-13" to="2021-10-21">
-        <label xml:lang="cs">Velká Británie (2018-04-13 - 2021-10-21)</label>
-        <label xml:lang="en">Great Britain (2018-04-13 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.GBR.1457" from="2018-04-13" to="2021-10-20">
+        <label xml:lang="cs">Velká Británie (2018-04-13 - 2021-10-20)</label>
+        <label xml:lang="en">Great Britain (2018-04-13 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.GBR.1681" from="2022-02-21">
         <label xml:lang="cs">Velká Británie (2022-02-21 - )</label>
@@ -2629,9 +2696,9 @@
         <label xml:lang="cs">Mongolsko (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Mongolia (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.MN.1498" from="2018-11-27" to="2021-10-21">
-        <label xml:lang="cs">Mongolsko (2018-11-27 - 2021-10-21)</label>
-        <label xml:lang="en">Mongolia (2018-11-27 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.MN.1498" from="2018-11-27" to="2021-10-20">
+        <label xml:lang="cs">Mongolsko (2018-11-27 - 2021-10-20)</label>
+        <label xml:lang="en">Mongolia (2018-11-27 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.MN.1666" from="2022-02-21">
         <label xml:lang="cs">Mongolsko (2022-02-21 - )</label>
@@ -2648,9 +2715,9 @@
         <label xml:lang="cs">Portugalsko (1999-02-10 - 2002-06-20)</label>
         <label xml:lang="en">Portugal (1999-02-10 - 2002-06-20)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.PT.1455" from="2018-04-13" to="2021-10-21">
-        <label xml:lang="cs">Portugalsko (2018-04-13 - 2021-10-21)</label>
-        <label xml:lang="en">Portugal (2018-04-13 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.PT.1455" from="2018-04-13" to="2021-10-20">
+        <label xml:lang="cs">Portugalsko (2018-04-13 - 2021-10-20)</label>
+        <label xml:lang="en">Portugal (2018-04-13 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.PT.1668" from="2022-02-21">
         <label xml:lang="cs">Portugalsko (2022-02-21 - )</label>
@@ -2706,9 +2773,9 @@
         <label xml:lang="cs">Švýcarská konfederace (2014-02-13 - 2017-10-26)</label>
         <label xml:lang="en">Swiss Confederation (2014-02-13 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.CH.1444" from="2018-03-09" to="2021-10-21">
-        <label xml:lang="cs">Švýcarsko (2018-03-09 - 2021-10-21)</label>
-        <label xml:lang="en">Switzerland (2018-03-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.CH.1444" from="2018-03-09" to="2021-10-20">
+        <label xml:lang="cs">Švýcarsko (2018-03-09 - 2021-10-20)</label>
+        <label xml:lang="en">Switzerland (2018-03-09 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.CH.1678" from="2022-02-21">
         <label xml:lang="cs">Švýcarsko (2022-02-21 - )</label>
@@ -2741,9 +2808,9 @@
         <label xml:lang="cs">Francie (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">French Republic (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.FR.1430" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Francie (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the French Republic (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.FR.1430" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Francie (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the French Republic (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.FR.1647" from="2022-02-21">
         <label xml:lang="cs">Francie (2022-02-21 - )</label>
@@ -2772,9 +2839,9 @@
         <label xml:lang="cs">Kypr (2010-12-10 - 2013-08-28)</label>
         <label xml:lang="en">the Republic of Cyprus (2010-12-10 - 2013-08-28)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.CY.1499" from="2019-03-13" to="2021-10-21">
-        <label xml:lang="cs">Kypr (2019-03-13 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Cyprus (2019-03-13 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.CY.1499" from="2019-03-13" to="2021-10-20">
+        <label xml:lang="cs">Kypr (2019-03-13 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Cyprus (2019-03-13 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -2818,9 +2885,9 @@
         <label xml:lang="cs">Japonsko (2014-02-13 - 2017-10-26)</label>
         <label xml:lang="en">Japan (2014-02-13 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.JP.1423" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Japonsko (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">Japan (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.JP.1423" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Japonsko (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">Japan (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.JP.1654" from="2022-02-21">
         <label xml:lang="cs">Japonsko (2022-02-21 - )</label>
@@ -2888,9 +2955,9 @@
         <label xml:lang="cs">Itálie (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Italy (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.IT.1417" from="2018-03-02" to="2021-10-21">
-        <label xml:lang="cs">Itálie (2018-03-02 - 2021-10-21)</label>
-        <label xml:lang="en">the Italian Republic (2018-03-02 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.IT.1417" from="2018-03-02" to="2021-10-20">
+        <label xml:lang="cs">Itálie (2018-03-02 - 2021-10-20)</label>
+        <label xml:lang="en">the Italian Republic (2018-03-02 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.IT.1652" from="2022-02-21">
         <label xml:lang="cs">Itálie (2022-02-21 - )</label>
@@ -2911,9 +2978,9 @@
         <label xml:lang="cs">Lotyšsko (2014-06-20 - 2017-10-26)</label>
         <label xml:lang="en">Latvia (2014-06-20 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.LV.1428" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Lotyšsko (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Latvia (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.LV.1428" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Lotyšsko (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Latvia (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.LV.1662" from="2022-02-21">
         <label xml:lang="cs">Lotyšsko (2022-02-21 - )</label>
@@ -2930,9 +2997,9 @@
         <label xml:lang="cs">Tunisko (1999-04-01 - 2002-06-20)</label>
         <label xml:lang="en">Tunisia (1999-04-01 - 2002-06-20)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.TN.1467" from="2018-05-25" to="2021-10-21">
-        <label xml:lang="cs">Tunisko (2018-05-25 - 2021-10-21)</label>
-        <label xml:lang="en">Tunisia (2018-05-25 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.TN.1467" from="2018-05-25" to="2021-10-20">
+        <label xml:lang="cs">Tunisko (2018-05-25 - 2021-10-20)</label>
+        <label xml:lang="en">Tunisia (2018-05-25 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.TN.1690" from="2022-02-21">
         <label xml:lang="cs">Tunisko (2022-02-21 - )</label>
@@ -2973,9 +3040,9 @@
         <label xml:lang="cs">Chorvatská republika (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Croatia (2014-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.HRV.1459" from="2018-04-18" to="2021-10-21">
-        <label xml:lang="cs">Chorvatsko (2018-04-18 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Croatia (2018-04-18 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.HRV.1459" from="2018-04-18" to="2021-10-20">
+        <label xml:lang="cs">Chorvatsko (2018-04-18 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Croatia (2018-04-18 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.HRV.1650" from="2022-02-21">
         <label xml:lang="cs">Chorvatsko (2022-02-21 - )</label>
@@ -3008,9 +3075,9 @@
         <label xml:lang="cs">Korejská republika (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Korea (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.KR.1422" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Korejská republika (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Korea (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.KR.1422" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Korejská republika (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Korea (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.KR.1658" from="2022-02-21">
         <label xml:lang="cs">Korejská republika (2022-02-21 - )</label>
@@ -3043,9 +3110,9 @@
         <label xml:lang="cs">Republika Slovinsko (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Slovenia (2014-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.SVN.1458" from="2018-03-09" to="2021-10-21">
-        <label xml:lang="cs">Slovinsko (2018-03-09 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Slovenia (2018-03-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.SVN.1458" from="2018-03-09" to="2021-10-20">
+        <label xml:lang="cs">Slovinsko (2018-03-09 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Slovenia (2018-03-09 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.SVN.1675" from="2022-02-21">
         <label xml:lang="cs">Slovinsko (2022-02-21 - )</label>
@@ -3078,9 +3145,9 @@
         <label xml:lang="cs">Kanada (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Canada (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.CA.1441" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Kanada (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Canada (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.CA.1441" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Kanada (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Canada (2018-03-21 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.CA.1655" from="2022-02-21">
         <label xml:lang="cs">Kanada (2022-02-21 - )</label>
@@ -3135,6 +3202,20 @@
       <event xml:id="interparliamentaryFriendshipGroup.PAUNZ.873" from="2007-03-01" to="2010-06-03">
         <label xml:lang="cs">Austrálie a Nový Zéland (2007-03-01 - 2010-06-03)</label>
         <label xml:lang="en">Australia and New Zeland (2007-03-01 - 2010-06-03)</label>
+      </event>
+    </listEvent>
+  </org>
+  <org xml:id="interparliamentaryFriendshipGroup.IN" role="interparliamentaryFriendshipGroup">
+    <orgName full="yes" xml:lang="cs">Indie</orgName>
+    <orgName full="yes" xml:lang="en">India</orgName>
+    <orgName full="abb">IN</orgName>
+    <listEvent>
+      <event xml:id="interparliamentaryFriendshipGroup.IND.212" from="1999-05-19" to="2002-06-20">
+        <label xml:lang="cs">Indie (1999-05-19 - 2002-06-20)</label>
+        <label xml:lang="en">India (1999-05-19 - 2002-06-20)</label>
+      </event>
+      <event xml:id="interparliamentaryFriendshipGroup.IN.1718" from="2023-02-01">
+        <label xml:lang="cs">Indie (2023-02-01 - )</label>
       </event>
     </listEvent>
   </org>
@@ -3198,9 +3279,9 @@
         <label xml:lang="cs">Maďarsko (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Hungary (2014-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.H.1437" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Maďarsko (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Hungary (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.H.1437" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Maďarsko (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Hungary (2018-03-21 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.H.1663" from="2022-02-21">
         <label xml:lang="cs">Maďarsko (2022-02-21 - )</label>
@@ -3225,9 +3306,9 @@
         <label xml:lang="cs">Maroko (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Kingdom of Morocco (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.MA.1507" from="2019-04-17" to="2021-10-21">
-        <label xml:lang="cs">Marocké království (2019-04-17 - 2021-10-21)</label>
-        <label xml:lang="en">Kingdom of Morocco (2019-04-17 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.MA.1507" from="2019-04-17" to="2021-10-20">
+        <label xml:lang="cs">Marocké království (2019-04-17 - 2021-10-20)</label>
+        <label xml:lang="en">Kingdom of Morocco (2019-04-17 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.MA.1664" from="2022-02-21">
         <label xml:lang="cs">Marocké království (2022-02-21 - )</label>
@@ -3263,9 +3344,9 @@
         <label xml:lang="cs">Libanon (1999-05-21 - 2002-06-20)</label>
         <label xml:lang="en">Lebanon (1999-05-21 - 2002-06-20)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.LB.1508" from="2019-04-17" to="2021-10-21">
-        <label xml:lang="cs">Libanon (2019-04-17 - 2021-10-21)</label>
-        <label xml:lang="en">Lebanon (2019-04-17 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.LB.1508" from="2019-04-17" to="2021-10-20">
+        <label xml:lang="cs">Libanon (2019-04-17 - 2021-10-20)</label>
+        <label xml:lang="en">Lebanon (2019-04-17 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -3286,9 +3367,9 @@
         <label xml:lang="cs">Pákistán (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Islamic Republic of Pakistan (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.PK.1470" from="2018-06-14" to="2021-10-21">
-        <label xml:lang="cs">Pákistánská islámská republika (2018-06-14 - 2021-10-21)</label>
-        <label xml:lang="en">Islamic Republic of Pakistan (2018-06-14 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.PK.1470" from="2018-06-14" to="2021-10-20">
+        <label xml:lang="cs">Pákistánská islámská republika (2018-06-14 - 2021-10-20)</label>
+        <label xml:lang="en">Islamic Republic of Pakistan (2018-06-14 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.PK.1687" from="2022-02-21">
         <label xml:lang="cs">Pákistánská islámská republika (2022-02-21 - )</label>
@@ -3313,9 +3394,9 @@
         <label xml:lang="cs">Arménie (2014-01-21 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Armenia (2014-01-21 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.AM.1425" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Arménie (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Armenia (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.AM.1425" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Arménie (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Armenia (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.AM.1643" from="2022-02-21">
         <label xml:lang="cs">Arménie (2022-02-21 - )</label>
@@ -3344,9 +3425,9 @@
         <label xml:lang="cs">Bělorusko (2014-12-11 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Belarus (2014-12-11 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.BY.1434" from="2018-03-09" to="2021-10-21">
-        <label xml:lang="cs">Bělorusko (2018-03-09 - 2021-10-21)</label>
-        <label xml:lang="en">Belarus (2018-03-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.BY.1434" from="2018-03-09" to="2021-10-20">
+        <label xml:lang="cs">Bělorusko (2018-03-09 - 2021-10-20)</label>
+        <label xml:lang="en">Belarus (2018-03-09 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -3371,9 +3452,9 @@
         <label xml:lang="cs">Kazachstán (2009-03-25 - 2010-06-03)</label>
         <label xml:lang="en">Kazakhstan (2009-03-25 - 2010-06-03)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.KZ.1431" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Kazachstán (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Republic of Kazakhstan (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.KZ.1431" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Kazachstán (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Republic of Kazakhstan (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.KZ.1657" from="2022-02-21">
         <label xml:lang="cs">Kazachstán (2022-02-21 - )</label>
@@ -3406,9 +3487,9 @@
         <label xml:lang="cs">Vietnam (2014-02-13 - 2017-10-26)</label>
         <label xml:lang="en">Socialist Republic of Vietnam (2014-02-13 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.VN.1416" from="2018-03-02" to="2021-10-21">
-        <label xml:lang="cs">Vietnam (2018-03-02 - 2021-10-21)</label>
-        <label xml:lang="en">Socialist Republic of Vietnam (2018-03-02 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.VN.1416" from="2018-03-02" to="2021-10-20">
+        <label xml:lang="cs">Vietnam (2018-03-02 - 2021-10-20)</label>
+        <label xml:lang="en">Socialist Republic of Vietnam (2018-03-02 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.VN.1682" from="2022-02-21">
         <label xml:lang="cs">Vietnam (2022-02-21 - )</label>
@@ -3437,9 +3518,9 @@
         <label xml:lang="cs">Íránská islámská republika (2017-02-01 - 2017-10-26)</label>
         <label xml:lang="en">Islamic Republic of Iran (2017-02-01 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.IR.1466" from="2018-05-23" to="2021-10-21">
-        <label xml:lang="cs">Íránská islámská republika (2018-05-23 - 2021-10-21)</label>
-        <label xml:lang="en">Islamic Republic of Iran (2018-05-23 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.IR.1466" from="2018-05-23" to="2021-10-20">
+        <label xml:lang="cs">Íránská islámská republika (2018-05-23 - 2021-10-20)</label>
+        <label xml:lang="en">Islamic Republic of Iran (2018-05-23 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.IR.1651" from="2022-02-21">
         <label xml:lang="cs">Íránská islámská republika (2022-02-21 - )</label>
@@ -3456,9 +3537,9 @@
         <label xml:lang="cs">Nizozemsko (2001-01-01 - 2002-06-20)</label>
         <label xml:lang="en">Netherlands (2001-01-01 - 2002-06-20)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.NL.1503" from="2019-03-25" to="2021-10-21">
-        <label xml:lang="cs">Nizozemské království (2019-03-25 - 2021-10-21)</label>
-        <label xml:lang="en">Kingdom of the Netherlands (2019-03-25 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.NL.1503" from="2019-03-25" to="2021-10-20">
+        <label xml:lang="cs">Nizozemské království (2019-03-25 - 2021-10-20)</label>
+        <label xml:lang="en">Kingdom of the Netherlands (2019-03-25 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -3594,9 +3675,9 @@
         <label xml:lang="cs">Spojené státy americké (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">United States of America (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.USA.1445" from="2018-04-10" to="2021-10-21">
-        <label xml:lang="cs">Spojené státy americké (2018-04-10 - 2021-10-21)</label>
-        <label xml:lang="en">United States of America (2018-04-10 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.USA.1445" from="2018-04-10" to="2021-10-20">
+        <label xml:lang="cs">Spojené státy americké (2018-04-10 - 2021-10-20)</label>
+        <label xml:lang="en">United States of America (2018-04-10 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.USA.1691" from="2022-02-21">
         <label xml:lang="cs">Spojené státy americké (2022-02-21 - )</label>
@@ -3668,9 +3749,9 @@
         <label xml:lang="cs">Afghánistán (2010-12-10 - 2013-08-28)</label>
         <label xml:lang="en">the Islamic Republic of Afghanistan (2010-12-10 - 2013-08-28)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.AFG.1517" from="2020-03-09" to="2021-10-21">
-        <label xml:lang="cs">Afghánská islámská republika (2020-03-09 - 2021-10-21)</label>
-        <label xml:lang="en">Islamic Republic of Afghanistan (2020-03-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.AFG.1517" from="2020-03-09" to="2021-10-20">
+        <label xml:lang="cs">Afghánská islámská republika (2020-03-09 - 2021-10-20)</label>
+        <label xml:lang="en">Islamic Republic of Afghanistan (2020-03-09 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -3691,9 +3772,9 @@
         <label xml:lang="cs">Ázerbájdžán (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Azerbaijan (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.AZE.1462" from="2018-04-17" to="2021-10-21">
-        <label xml:lang="cs">Ázerbajdžán (2018-04-17 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Azerbaijan (2018-04-17 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.AZE.1462" from="2018-04-17" to="2021-10-20">
+        <label xml:lang="cs">Ázerbajdžán (2018-04-17 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Azerbaijan (2018-04-17 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.AZE.1645" from="2022-02-21">
         <label xml:lang="cs">Ázerbajdžán (2022-02-21 - )</label>
@@ -3729,9 +3810,9 @@
         <label xml:lang="cs">Spolková republika Německo (2014-02-05 - 2017-10-26)</label>
         <label xml:lang="en">Federal Republic of Germany (2014-02-05 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.DE.1418" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Spolková republika Německo (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Federal Republic of Germany (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.DE.1418" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Spolková republika Německo (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Federal Republic of Germany (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.DE.1677" from="2022-02-21">
         <label xml:lang="cs">Spolková republika Německo (2022-02-21 - )</label>
@@ -3752,9 +3833,9 @@
         <label xml:lang="cs">Austrálie, Nový Zéland (2014-02-13 - 2017-10-26)</label>
         <label xml:lang="en">Commonwealth of Australia, New Zealand (2014-02-13 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.AUNZ.1424" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Austrálie, Nový Zéland (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the Commonwealth of Australia, New Zeland (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.AUNZ.1424" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Austrálie, Nový Zéland (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the Commonwealth of Australia, New Zeland (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.AUNZ.1644" from="2022-02-21">
         <label xml:lang="cs">Austrálie, Nový Zéland (2022-02-21 - )</label>
@@ -3873,9 +3954,9 @@
         <label xml:lang="cs">Srbská republika (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Serbia (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.RS.1496" from="2018-07-16" to="2021-10-21">
-        <label xml:lang="cs">Srbská republika (2018-07-16 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Serbia (2018-07-16 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.RS.1496" from="2018-07-16" to="2021-10-20">
+        <label xml:lang="cs">Srbská republika (2018-07-16 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Serbia (2018-07-16 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.RS.1688" from="2022-02-21">
         <label xml:lang="cs">Srbská republika (2022-02-21 - )</label>
@@ -3911,9 +3992,9 @@
         <label xml:lang="cs">státy Jižní Ameriky (Argentina, Bolívie, Ekvádor, Kolumbie, Peru, Paraguay, Uruguay) (2014-02-07 - 2017-10-26)</label>
         <label xml:lang="en">South America States (Argentine Republic, Plurinational State of Bolivia, Republic of Ecuador, Republic of Colombia, Republic of Peru, Republic of Paraguay, Eastern Republic of Uruguay) (2014-02-07 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.XJA.1460" from="2018-04-18" to="2021-10-21">
-        <label xml:lang="cs">státy Jižní Ameriky (2018-04-18 - 2021-10-21)</label>
-        <label xml:lang="en">States of South America (2018-04-18 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.XJA.1460" from="2018-04-18" to="2021-10-20">
+        <label xml:lang="cs">státy Jižní Ameriky (2018-04-18 - 2021-10-20)</label>
+        <label xml:lang="en">States of South America (2018-04-18 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -3930,9 +4011,9 @@
         <label xml:lang="cs">Brazílie (2014-02-13 - 2017-10-26)</label>
         <label xml:lang="en">Federative Republic of Brazil (2014-02-13 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.BR.1502" from="2019-03-18" to="2021-10-21">
-        <label xml:lang="cs">Brazílie (2019-03-18 - 2021-10-21)</label>
-        <label xml:lang="en">Federative Republic of Brasil (2019-03-18 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.BR.1502" from="2019-03-18" to="2021-10-20">
+        <label xml:lang="cs">Brazílie (2019-03-18 - 2021-10-20)</label>
+        <label xml:lang="en">Federative Republic of Brasil (2019-03-18 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -3980,9 +4061,9 @@
         <label xml:lang="cs">Gruzie (2014-02-06 - 2017-10-26)</label>
         <label xml:lang="en">Georgia (2014-02-06 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.GE.1440" from="2018-03-21" to="2021-10-21">
-        <label xml:lang="cs">Gruzie (2018-03-21 - 2021-10-21)</label>
-        <label xml:lang="en">Georgia (2018-03-21 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.GE.1440" from="2018-03-21" to="2021-10-20">
+        <label xml:lang="cs">Gruzie (2018-03-21 - 2021-10-20)</label>
+        <label xml:lang="en">Georgia (2018-03-21 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.GE.1648" from="2022-02-21">
         <label xml:lang="cs">Gruzie (2022-02-21 - )</label>
@@ -4007,9 +4088,9 @@
         <label xml:lang="cs">Chile (2014-02-13 - 2017-10-26)</label>
         <label xml:lang="en">Republic of Chile (2014-02-13 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.CL.1454" from="2018-04-11" to="2021-10-21">
-        <label xml:lang="cs">Chile (2018-04-11 - 2021-10-21)</label>
-        <label xml:lang="en">Chile (2018-04-11 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.CL.1454" from="2018-04-11" to="2021-10-20">
+        <label xml:lang="cs">Chile (2018-04-11 - 2021-10-20)</label>
+        <label xml:lang="en">Chile (2018-04-11 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.CL.1649" from="2022-02-21">
         <label xml:lang="cs">Chile (2022-02-21 - )</label>
@@ -4058,9 +4139,9 @@
         <label xml:lang="cs">Spojené státy Mexické (2014-12-12 - 2017-10-26)</label>
         <label xml:lang="en">United Mexican States (2014-12-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="interparliamentaryFriendshipGroup.MX.1420" from="2018-03-07" to="2021-10-21">
-        <label xml:lang="cs">Mexiko (2018-03-07 - 2021-10-21)</label>
-        <label xml:lang="en">the United Mexican States (2018-03-07 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.MX.1420" from="2018-03-07" to="2021-10-20">
+        <label xml:lang="cs">Mexiko (2018-03-07 - 2021-10-20)</label>
+        <label xml:lang="en">the United Mexican States (2018-03-07 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.MX.1665" from="2022-02-21">
         <label xml:lang="cs">Mexiko (2022-02-21 - )</label>
@@ -4128,9 +4209,9 @@
     <orgName full="yes" xml:lang="en">Nordic States</orgName>
     <orgName full="abb">NS</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.NS.1436" from="2018-03-06" to="2021-10-21">
-        <label xml:lang="cs">Severské státy (2018-03-06 - 2021-10-21)</label>
-        <label xml:lang="en">Nordic States (2018-03-06 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.NS.1436" from="2018-03-06" to="2021-10-20">
+        <label xml:lang="cs">Severské státy (2018-03-06 - 2021-10-20)</label>
+        <label xml:lang="en">Nordic States (2018-03-06 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.NS.1673" from="2022-02-21">
         <label xml:lang="cs">Severské státy (2022-02-21 - )</label>
@@ -4142,7 +4223,7 @@
     <orgName full="yes" xml:lang="cs">Syrská arabská republika</orgName>
     <orgName full="yes" xml:lang="en">Syrian Arab Republic</orgName>
     <orgName full="abb">SY</orgName>
-    <event from="2018-03-07" to="2021-10-21">
+    <event from="2018-03-07" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4151,9 +4232,9 @@
     <orgName full="yes" xml:lang="en">Kingdom of Spain</orgName>
     <orgName full="abb">ES</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.ES.1435" from="2018-03-09" to="2021-10-21">
-        <label xml:lang="cs">Španělské království (2018-03-09 - 2021-10-21)</label>
-        <label xml:lang="en">Kingdom of Spain (2018-03-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.ES.1435" from="2018-03-09" to="2021-10-20">
+        <label xml:lang="cs">Španělské království (2018-03-09 - 2021-10-20)</label>
+        <label xml:lang="en">Kingdom of Spain (2018-03-09 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.ES.1689" from="2022-02-21">
         <label xml:lang="cs">Španělské království (2022-02-21 - )</label>
@@ -4166,9 +4247,9 @@
     <orgName full="yes" xml:lang="en">United Arab Emirates</orgName>
     <orgName full="abb">ARE</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.ARE.1446" from="2018-04-10" to="2021-10-21">
-        <label xml:lang="cs">Spojené arabské emiráty (2018-04-10 - 2021-10-21)</label>
-        <label xml:lang="en">United Arab Emirates (2018-04-10 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.ARE.1446" from="2018-04-10" to="2021-10-20">
+        <label xml:lang="cs">Spojené arabské emiráty (2018-04-10 - 2021-10-20)</label>
+        <label xml:lang="en">United Arab Emirates (2018-04-10 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.ARE.1676" from="2022-02-21">
         <label xml:lang="cs">Spojené arabské emiráty (2022-02-21 - )</label>
@@ -4181,9 +4262,9 @@
     <orgName full="yes" xml:lang="en">Sultanate of Oman</orgName>
     <orgName full="abb">OMN</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.OMN.1448" from="2018-04-10" to="2021-10-21">
-        <label xml:lang="cs">Sultanát Omán (2018-04-10 - 2021-10-21)</label>
-        <label xml:lang="en">Sultanate of Oman (2018-04-10 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.OMN.1448" from="2018-04-10" to="2021-10-20">
+        <label xml:lang="cs">Sultanát Omán (2018-04-10 - 2021-10-20)</label>
+        <label xml:lang="en">Sultanate of Oman (2018-04-10 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.OMN.1693" from="2022-02-21">
         <label xml:lang="cs">Sultanát Omán (2022-02-21 - )</label>
@@ -4195,7 +4276,7 @@
     <orgName full="yes" xml:lang="cs">Nepál</orgName>
     <orgName full="yes" xml:lang="en">Federal Democratic Republic of Nepal</orgName>
     <orgName full="abb">NPL</orgName>
-    <event from="2018-04-11" to="2021-10-21">
+    <event from="2018-04-11" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4204,9 +4285,9 @@
     <orgName full="yes" xml:lang="en">Kingdom of Thailand</orgName>
     <orgName full="abb">THA</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.THA.1461" from="2018-04-16" to="2021-10-21">
-        <label xml:lang="cs">Thajské království (2018-04-16 - 2021-10-21)</label>
-        <label xml:lang="en">Kingdom of Thailand (2018-04-16 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.THA.1461" from="2018-04-16" to="2021-10-20">
+        <label xml:lang="cs">Thajské království (2018-04-16 - 2021-10-20)</label>
+        <label xml:lang="en">Kingdom of Thailand (2018-04-16 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.THA.1679" from="2022-02-21">
         <label xml:lang="cs">Thajské království (2022-02-21 - )</label>
@@ -4219,9 +4300,9 @@
     <orgName full="yes" xml:lang="en">Kingdom of Saudi Arabia</orgName>
     <orgName full="abb">SA</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.SA.1465" from="2018-04-25" to="2021-10-21">
-        <label xml:lang="cs">Saudská Arábie (2018-04-25 - 2021-10-21)</label>
-        <label xml:lang="en">Kingdom of Saudi Arabia (2018-04-25 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.SA.1465" from="2018-04-25" to="2021-10-20">
+        <label xml:lang="cs">Saudská Arábie (2018-04-25 - 2021-10-20)</label>
+        <label xml:lang="en">Kingdom of Saudi Arabia (2018-04-25 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.SA.1671" from="2022-02-21">
         <label xml:lang="cs">Saudská Arábie (2022-02-21 - )</label>
@@ -4233,7 +4314,7 @@
     <orgName full="yes" xml:lang="cs">Jamajka</orgName>
     <orgName full="yes" xml:lang="en">Jamaica</orgName>
     <orgName full="abb">JM</orgName>
-    <event from="2018-06-12" to="2021-10-21">
+    <event from="2018-06-12" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4242,9 +4323,9 @@
     <orgName full="yes" xml:lang="en">Hashemite Kingdom of Jordan</orgName>
     <orgName full="abb">JO</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.JO.1469" from="2018-06-14" to="2021-10-21">
-        <label xml:lang="cs">Jordánské hášimovské království (2018-06-14 - 2021-10-21)</label>
-        <label xml:lang="en">Hashemite Kingdom of Jordan (2018-06-14 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.JO.1469" from="2018-06-14" to="2021-10-20">
+        <label xml:lang="cs">Jordánské hášimovské království (2018-06-14 - 2021-10-20)</label>
+        <label xml:lang="en">Hashemite Kingdom of Jordan (2018-06-14 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.JO.1686" from="2022-02-21">
         <label xml:lang="cs">Jordánské hášimovské království (2022-02-21 - )</label>
@@ -4256,7 +4337,7 @@
     <orgName full="yes" xml:lang="cs">Angola</orgName>
     <orgName full="yes" xml:lang="en">Republic of Angola</orgName>
     <orgName full="abb">AO</orgName>
-    <event from="2019-03-15" to="2021-10-21">
+    <event from="2019-03-15" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4265,9 +4346,9 @@
     <orgName full="yes" xml:lang="en">Qatar</orgName>
     <orgName full="abb">QA</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.QA.1509" from="2019-05-09" to="2021-10-21">
-        <label xml:lang="cs">Katar (2019-05-09 - 2021-10-21)</label>
-        <label xml:lang="en">Qatar (2019-05-09 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.QA.1509" from="2019-05-09" to="2021-10-20">
+        <label xml:lang="cs">Katar (2019-05-09 - 2021-10-20)</label>
+        <label xml:lang="en">Qatar (2019-05-09 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.QA.1656" from="2022-02-21">
         <label xml:lang="cs">Katar (2022-02-21 - )</label>
@@ -4280,9 +4361,9 @@
     <orgName full="yes" xml:lang="en">Republic of Albania</orgName>
     <orgName full="abb">AL</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.AL.1510" from="2019-05-17" to="2021-10-21">
-        <label xml:lang="cs">Albánská republika (2019-05-17 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Albania (2019-05-17 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.AL.1510" from="2019-05-17" to="2021-10-20">
+        <label xml:lang="cs">Albánská republika (2019-05-17 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Albania (2019-05-17 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.AL.1683" from="2022-02-21">
         <label xml:lang="cs">Albánská republika (2022-02-21 - )</label>
@@ -4295,9 +4376,9 @@
     <orgName full="yes" xml:lang="en">Republic of Iraq</orgName>
     <orgName full="abb">IQ</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.IQ.1511" from="2019-06-13" to="2021-10-21">
-        <label xml:lang="cs">Irácká republika (2019-06-13 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Iraq (2019-06-13 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.IQ.1511" from="2019-06-13" to="2021-10-20">
+        <label xml:lang="cs">Irácká republika (2019-06-13 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Iraq (2019-06-13 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.IQ.1685" from="2022-02-21">
         <label xml:lang="cs">Irácká republika (2022-02-21 - )</label>
@@ -4310,9 +4391,9 @@
     <orgName full="yes" xml:lang="en">Republic of North Macedonia</orgName>
     <orgName full="abb">MK</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.MK.1513" from="2019-10-25" to="2021-10-21">
-        <label xml:lang="cs">Severní Makedonie (2019-10-25 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of North Macedonia (2019-10-25 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.MK.1513" from="2019-10-25" to="2021-10-20">
+        <label xml:lang="cs">Severní Makedonie (2019-10-25 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of North Macedonia (2019-10-25 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.MK.1672" from="2022-02-21">
         <label xml:lang="cs">Severní Makedonie (2022-02-21 - )</label>
@@ -4325,9 +4406,9 @@
     <orgName full="yes" xml:lang="en">Kingdom of Bahrain</orgName>
     <orgName full="abb">BH</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.BH.1514" from="2019-11-28" to="2021-10-21">
-        <label xml:lang="cs">Bahrajnské království (2019-11-28 - 2021-10-21)</label>
-        <label xml:lang="en">Kingdom of Bahrain (2019-11-28 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.BH.1514" from="2019-11-28" to="2021-10-20">
+        <label xml:lang="cs">Bahrajnské království (2019-11-28 - 2021-10-20)</label>
+        <label xml:lang="en">Kingdom of Bahrain (2019-11-28 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.BH.1684" from="2022-02-21">
         <label xml:lang="cs">Bahrajnské království (2022-02-21 - )</label>
@@ -4340,9 +4421,9 @@
     <orgName full="yes" xml:lang="en">Moldova</orgName>
     <orgName full="abb">MD</orgName>
     <listEvent>
-      <event xml:id="interparliamentaryFriendshipGroup.MD.1515" from="2019-12-02" to="2021-10-21">
-        <label xml:lang="cs">Moldavská republika (2019-12-02 - 2021-10-21)</label>
-        <label xml:lang="en">Republic of Moldova (2019-12-02 - 2021-10-21)</label>
+      <event xml:id="interparliamentaryFriendshipGroup.MD.1515" from="2019-12-02" to="2021-10-20">
+        <label xml:lang="cs">Moldavská republika (2019-12-02 - 2021-10-20)</label>
+        <label xml:lang="en">Republic of Moldova (2019-12-02 - 2021-10-20)</label>
       </event>
       <event xml:id="interparliamentaryFriendshipGroup.MD.1702" from="2022-04-08">
         <label xml:lang="cs">Moldavsko (2022-04-08 - )</label>
@@ -4354,7 +4435,7 @@
     <orgName full="yes" xml:lang="cs">Peruánská rapublika</orgName>
     <orgName full="yes" xml:lang="en">Republic of Peru</orgName>
     <orgName full="abb">PE</orgName>
-    <event from="2020-02-24" to="2021-10-21">
+    <event from="2020-02-24" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4394,7 +4475,7 @@
     <orgName full="yes" xml:lang="cs">Belgie, Lucembursko</orgName>
     <orgName full="yes" xml:lang="en">Belgium, Luxembourg</orgName>
     <orgName full="abb">BE, LU</orgName>
-    <event from="2022-05-23">
+    <event from="2022-05-23" to="2022-10-27">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4413,6 +4494,22 @@
       <label xml:lang="en">existence</label>
     </event>
   </org>
+  <org xml:id="interparliamentaryFriendshipGroup.MYA.1723" role="interparliamentaryFriendshipGroup">
+    <orgName full="yes" xml:lang="cs">Republika Myanmarský svaz</orgName>
+    <orgName full="yes" xml:lang="en">Myanmar</orgName>
+    <orgName full="abb">MYA</orgName>
+    <event from="2023-03-20">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="interparliamentaryFriendshipGroup.RI.1724" role="interparliamentaryFriendshipGroup">
+    <orgName full="yes" xml:lang="cs">Indonéská republika</orgName>
+    <orgName full="yes" xml:lang="en">Republic of Indonesia</orgName>
+    <orgName full="abb">RI</orgName>
+    <event from="2023-03-31">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
   <org xml:id="parliamentaryGroup.KSCS" role="parliamentaryGroup">
     <orgName full="yes" xml:lang="cs">Komunistická strana Československa</orgName>
     <orgName full="abb">KSČS</orgName>
@@ -4420,10 +4517,10 @@
       <event xml:id="parliamentaryGroup.K.338" from="1925-11-15" to="1929-09-25">
         <label xml:lang="cs">Komunistická strana Československa (1925-11-15 - 1929-09-25)</label>
       </event>
-      <event xml:id="parliamentaryGroup.KSCS.504" from="1990-06-07" to="1992-06-04">
+      <event xml:id="parliamentaryGroup.KSCS.489" from="1990-06-07" to="1992-06-04">
         <label xml:lang="cs">Komunistická strana Československa (1990-06-07 - 1992-06-04)</label>
       </event>
-      <event xml:id="parliamentaryGroup.KSCS.489" from="1990-06-07" to="1992-06-04">
+      <event xml:id="parliamentaryGroup.KSCS.504" from="1990-06-07" to="1992-06-04">
         <label xml:lang="cs">Komunistická strana Československa (1990-06-07 - 1992-06-04)</label>
       </event>
     </listEvent>
@@ -4463,9 +4560,9 @@
         <label xml:lang="cs">Poslanecký klub Křesťanské a demokratické unie-Československé strany lidové (2013-10-31 - 2017-10-26)</label>
         <label xml:lang="en">Political Group of the Christian and Democratic Union - Czechoslovak People's Party (2013-10-31 - 2017-10-26)</label>
       </event>
-      <event xml:id="parliamentaryGroup.KDU-CSL.1297" from="2017-10-24" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub KDU-ČSL (2017-10-24 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Christian and Democratic Union - Czechoslovak People's Party (2017-10-24 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.KDU-CSL.1297" from="2017-10-24" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub KDU-ČSL (2017-10-24 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Christian and Democratic Union - Czechoslovak People's Party (2017-10-24 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.KDU-CSL.1539" from="2021-10-12">
         <label xml:lang="cs">Poslanecký klub KDU-ČSL (2021-10-12 - )</label>
@@ -4509,9 +4606,9 @@
         <label xml:lang="cs">Poslanecký klub Komunistické strany Čech a Moravy (2013-10-27 - 2017-10-26)</label>
         <label xml:lang="en">Political group Communist Party of Bohemia and Moravia (2013-10-27 - 2017-10-26)</label>
       </event>
-      <event xml:id="parliamentaryGroup.KSCM.1293" from="2017-10-24" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub Komunistické strany Čech a Moravy (2017-10-24 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Communist Party of Bohemia and Moravia (2017-10-24 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.KSCM.1293" from="2017-10-24" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub Komunistické strany Čech a Moravy (2017-10-24 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Communist Party of Bohemia and Moravia (2017-10-24 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -4576,9 +4673,9 @@
         <label xml:lang="cs">Poslanecký klub České strany sociálně demokratické (2013-10-29 - 2017-10-26)</label>
         <label xml:lang="en">Political group Czech Social Democratic Party (2013-10-29 - 2017-10-26)</label>
       </event>
-      <event xml:id="parliamentaryGroup.CSSD.1294" from="2017-10-27" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub České strany sociálně demokratické (2017-10-27 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Czech Social Democratic Party (2017-10-27 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.CSSD.1294" from="2017-10-27" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub České strany sociálně demokratické (2017-10-27 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Czech Social Democratic Party (2017-10-27 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -4631,9 +4728,9 @@
         <label xml:lang="cs">Poslanecký klub Občanské demokratické strany (2013-10-30 - 2017-10-26)</label>
         <label xml:lang="en">Political Group of the Civic Democratic Party (2013-10-30 - 2017-10-26)</label>
       </event>
-      <event xml:id="parliamentaryGroup.ODS.1295" from="2017-10-24" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub Občanské demokratické strany (2017-10-24 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Civic Democratic Party (2017-10-24 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.ODS.1295" from="2017-10-24" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub Občanské demokratické strany (2017-10-24 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Civic Democratic Party (2017-10-24 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.ODS.1538" from="2021-10-12">
         <label xml:lang="cs">Poslanecký klub Občanské demokratické strany (2021-10-12 - )</label>
@@ -4673,9 +4770,9 @@
         <label xml:lang="cs">Poslanecký klub ANO 2011 (2013-10-30 - 2017-10-26)</label>
         <label xml:lang="en">Political group ANO 2011 (2013-10-30 - 2017-10-26)</label>
       </event>
-      <event xml:id="parliamentaryGroup.ANO.1292" from="2017-10-24" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub ANO 2011 (2017-10-24 - 2021-10-21)</label>
-        <label xml:lang="en">Political group ANO 2011 (2017-10-24 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.ANO.1292" from="2017-10-24" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub ANO 2011 (2017-10-24 - 2021-10-20)</label>
+        <label xml:lang="en">Political group ANO 2011 (2017-10-24 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.ANO.1537" from="2021-10-12">
         <label xml:lang="cs">Poslanecký klub ANO 2011 (2021-10-12 - )</label>
@@ -4696,9 +4793,9 @@
     <orgName full="yes" xml:lang="en">Political group Czech Pirate Party</orgName>
     <orgName full="abb">Piráti</orgName>
     <listEvent>
-      <event xml:id="parliamentaryGroup.Pirati.1300" from="2017-10-22" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub České pirátské strany (2017-10-22 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Czech Pirate Party (2017-10-22 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.Pirati.1300" from="2017-10-22" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub České pirátské strany (2017-10-22 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Czech Pirate Party (2017-10-22 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.Pirati.1535" from="2021-10-10">
         <label xml:lang="cs">Poslanecký klub České pirátské strany (2021-10-10 - )</label>
@@ -4711,9 +4808,9 @@
     <orgName full="yes" xml:lang="en">Political group Mayors and Independents</orgName>
     <orgName full="abb">STAN</orgName>
     <listEvent>
-      <event xml:id="parliamentaryGroup.STAN.1296" from="2017-10-23" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub Starostové a nezávislí (2017-10-23 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Mayors and Independents (2017-10-23 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.STAN.1296" from="2017-10-23" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub Starostové a nezávislí (2017-10-23 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Mayors and Independents (2017-10-23 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.STAN.1536" from="2021-10-15">
         <label xml:lang="cs">Poslanecký klub Starostové a nezávislí (2021-10-15 - )</label>
@@ -4726,9 +4823,9 @@
     <orgName full="yes" xml:lang="en">Political group Freedom and Direct Democracy</orgName>
     <orgName full="abb">SPD</orgName>
     <listEvent>
-      <event xml:id="parliamentaryGroup.SPD.1298" from="2017-10-26" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub Svoboda a přímá demokracie (2017-10-26 - 2021-10-21)</label>
-        <label xml:lang="en">Political group Freedom and Direct Democracy (2017-10-26 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.SPD.1298" from="2017-10-26" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub Svoboda a přímá demokracie (2017-10-26 - 2021-10-20)</label>
+        <label xml:lang="en">Political group Freedom and Direct Democracy (2017-10-26 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.SPD.1540" from="2021-10-12">
         <label xml:lang="cs">Poslanecký klub Svoboda a přímá demokracie (2021-10-12 - )</label>
@@ -4741,9 +4838,9 @@
     <orgName full="yes" xml:lang="en">Political group TOP 09</orgName>
     <orgName full="abb">TOP09</orgName>
     <listEvent>
-      <event xml:id="parliamentaryGroup.TOP09.1299" from="2017-10-31" to="2021-10-21">
-        <label xml:lang="cs">Poslanecký klub TOP 09 (2017-10-31 - 2021-10-21)</label>
-        <label xml:lang="en">Political group TOP 09 (2017-10-31 - 2021-10-21)</label>
+      <event xml:id="parliamentaryGroup.TOP09.1299" from="2017-10-31" to="2021-10-20">
+        <label xml:lang="cs">Poslanecký klub TOP 09 (2017-10-31 - 2021-10-20)</label>
+        <label xml:lang="en">Political group TOP 09 (2017-10-31 - 2021-10-20)</label>
       </event>
       <event xml:id="parliamentaryGroup.TOP09.1541" from="2021-10-12">
         <label xml:lang="cs">Poslanecký klub TOP 09 (2021-10-12 - )</label>
@@ -4861,11 +4958,10 @@
       <label xml:lang="en">existence</label>
     </event>
   </org>
-  <org xml:id="republic.CZ" role="republic">
-    <orgName full="yes" xml:lang="cs">Česká republika</orgName>
-    <orgName full="yes" xml:lang="en">The Czech Republic</orgName>
-    <orgName full="abb">CZ</orgName>
-    <event from="1993-01-01">
+  <org xml:id="presidium.PFNM.434" role="institution">
+    <orgName full="yes" xml:lang="cs">Prezídium Fondu národního majetku České republiky</orgName>
+    <orgName full="abb">PFNM</orgName>
+    <event from="1993-01-01" to="2006-01-01">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -4921,9 +5017,9 @@
         <label xml:lang="cs">Podvýbor pro vězeňství (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Prisons (2014-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PV.1395" from="2018-02-14" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro vězeňství (2018-02-14 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Penology (2018-02-14 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PV.1395" from="2018-02-14" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro vězeňství (2018-02-14 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Penology (2018-02-14 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PV.1606" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro vězeňství (2021-12-14 - )</label>
@@ -4975,9 +5071,9 @@
         <label xml:lang="cs">Podvýbor pro rozvoj venkova (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Rural Development (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PRV.1380" from="2018-01-18" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro rozvoj venkova (2018-01-18 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Rural Development (2018-01-18 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PRV.1380" from="2018-01-18" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro rozvoj venkova (2018-01-18 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Rural Development (2018-01-18 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PRV.1617" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro rozvoj venkova (2021-12-15 - )</label>
@@ -5010,9 +5106,9 @@
         <label xml:lang="cs">Podvýbor pro dopravu (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Transportation (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PD.1340" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro dopravu (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Transportation (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PD.1340" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro dopravu (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Transportation (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PD.1597" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro dopravu (2021-12-14 - )</label>
@@ -5068,9 +5164,9 @@
         <label xml:lang="cs">Podvýbor pro heraldiku a vexilologii (2014-01-23 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Heraldy and Vexillology (2014-01-23 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PHV.1357" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro heraldiku a vexilologii (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Heraldy and Vexillology (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PHV.1357" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro heraldiku a vexilologii (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Heraldy and Vexillology (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PHV.1583" from="2021-12-01">
         <label xml:lang="cs">Podvýbor pro heraldiku a vexilologii (2021-12-01 - )</label>
@@ -5099,9 +5195,9 @@
         <label xml:lang="cs">Podvýbor pro kulturu (2014-01-23 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Culture (2014-01-23 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PK.1363" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro kulturu (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Culture (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PK.1363" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro kulturu (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Culture (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PK.1582" from="2021-12-01">
         <label xml:lang="cs">Podvýbor pro kulturu (2021-12-01 - )</label>
@@ -5157,9 +5253,9 @@
         <label xml:lang="cs">Podvýbor pro vědu a vysoké školy (2014-01-23 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Science and Post-Secondary Educational Institutions (2014-01-23 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PVVS.1359" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro vědu a vysoké školy (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Science and Post-Secondary Educational Institutions (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVVS.1359" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro vědu a vysoké školy (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Science and Post-Secondary Educational Institutions (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PVVS.1579" from="2021-12-01">
         <label xml:lang="cs">Podvýbor pro vědu a vysoké školy (2021-12-01 - )</label>
@@ -5233,9 +5329,9 @@
         <label xml:lang="cs">Podvýbor pro styky s krajany (2014-03-04 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Countryman Relations (2014-03-04 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PSK.1385" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro styky s krajany (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee for Countryman Relations (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PSK.1385" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro styky s krajany (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee for Countryman Relations (2018-01-31 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PSK.1590" from="2021-12-02">
         <label xml:lang="cs">Podvýbor pro styky s krajany (2021-12-02 - )</label>
@@ -5268,9 +5364,9 @@
         <label xml:lang="cs">Podvýbor pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (2013-12-19 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Preparation of Recommendations for Conferring or Awarding State Decorations (2013-12-19 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PNPUSV.1353" from="2018-01-04" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (2018-01-04 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Preparation of Recommendations for Conferring or Awarding State Decorations (2018-01-04 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PNPUSV.1353" from="2018-01-04" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (2018-01-04 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Preparation of Recommendations for Conferring or Awarding State Decorations (2018-01-04 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PNPUSV.1632" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro přípravu návrhů na propůjčení nebo udělení státních vyznamenání (2021-12-14 - )</label>
@@ -5323,9 +5419,9 @@
         <label xml:lang="cs">Podvýbor pro bytovou politiku (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Housing Policy (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PBP.1388" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro bytovou politiku (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Housing Policy (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PBP.1388" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro bytovou politiku (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Housing Policy (2018-01-31 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -5380,9 +5476,9 @@
         <label xml:lang="cs">Podvýbor pro veřejnou správu (2002-07-17 - 2006-06-15)</label>
         <label xml:lang="en">Subcommittee for Public Administration (2002-07-17 - 2006-06-15)</label>
       </event>
-      <event xml:id="subcommittee.PVVS.1390" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro veřejnou správu (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Public Administration (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVVS.1390" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro veřejnou správu (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Public Administration (2018-01-31 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PVS.1639" from="2022-01-27">
         <label xml:lang="cs">Podvýbor pro veřejnou správu (2022-01-27 - )</label>
@@ -5675,9 +5771,9 @@
         <label xml:lang="cs">Podvýbor pro vnější ekonomické vztahy (2014-03-04 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Foreign Economic Relations (2014-03-04 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PVEV.1387" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro vnější ekonomické vztahy (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Foreign Economic Relations (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVEV.1387" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro vnější ekonomické vztahy (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Foreign Economic Relations (2018-01-31 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PVEV.1592" from="2021-12-02">
         <label xml:lang="cs">Podvýbor pro vnější ekonomické vztahy (2021-12-02 - )</label>
@@ -5752,9 +5848,9 @@
         <label xml:lang="cs">Finanční podvýbor (2014-10-31 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Finance (2014-10-31 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.FP.1336" from="2017-11-29" to="2021-10-21">
-        <label xml:lang="cs">Finanční podvýbor (2017-11-29 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Finance (2017-11-29 - 2021-10-21)</label>
+      <event xml:id="subcommittee.FP.1336" from="2017-11-29" to="2021-10-20">
+        <label xml:lang="cs">Finanční podvýbor (2017-11-29 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Finance (2017-11-29 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PF.1589" from="2021-12-01">
         <label xml:lang="cs">Finanční podvýbor (2021-12-01 - )</label>
@@ -5798,9 +5894,9 @@
         <label xml:lang="cs">Podvýbor pro myslivost, rybářství, včelařství, zahrádkářství a chovatelství (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Gamekeeping, Fisheries, Apiculture, Gardening and Animal Husbandry (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PMRVZCH.1376" from="2018-01-18" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro myslivost, rybářství, včelařství, zahrádkářství a chovatelství (2018-01-18 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Gamekeeping, Fisheries, Apiculture, Gardening and Animal Husbandry (2018-01-18 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PMRVZCH.1376" from="2018-01-18" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro myslivost, rybářství, včelařství, zahrádkářství a chovatelství (2018-01-18 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Gamekeeping, Fisheries, Apiculture, Gardening and Animal Husbandry (2018-01-18 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PMRVZC.1613" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro myslivost, rybářství, včelařství, zahrádkářství a chovatelství (2021-12-15 - )</label>
@@ -5891,9 +5987,9 @@
         <label xml:lang="cs">Podvýbor pro financování péče o životní prostředí (2014-02-20 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Environmental Finance (2014-02-20 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PFPZP.1364" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro financování péče o životní prostředí (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Environmental Finance (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PFPZP.1364" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro financování péče o životní prostředí (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Environmental Finance (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PFZP.1593" from="2021-12-08">
         <label xml:lang="cs">Podvýbor pro financování péče o životní prostředí (2021-12-08 - )</label>
@@ -5934,9 +6030,9 @@
         <label xml:lang="cs">Podvýbor pro ochranu přírody a krajiny (2014-02-20 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Nature and Countryside Conservation (2014-02-20 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.POPK.1365" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro ochranu přírody a krajiny (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Nature and Countryside Conservation (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.POPK.1365" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro ochranu přírody a krajiny (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Nature and Countryside Conservation (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.POPK.1594" from="2021-12-08">
         <label xml:lang="cs">Podvýbor pro ochranu přírody a krajiny (2021-12-08 - )</label>
@@ -5980,9 +6076,9 @@
         <label xml:lang="cs">Podvýbor pro ekonomiku ve zdravotnictví, zdravotní pojistění a lékovou politiku (2010-09-09 - 2013-08-28)</label>
         <label xml:lang="en">Subcommittee on Health Care Economics, Health Insurance and Medication Policy (2010-09-09 - 2013-08-28)</label>
       </event>
-      <event xml:id="subcommittee.PEZ.1351" from="2017-12-15" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro elektronizaci ve zdravotnictví (2017-12-15 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on computerisation in the Health Care (2017-12-15 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PEZ.1351" from="2017-12-15" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro elektronizaci ve zdravotnictví (2017-12-15 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on computerisation in the Health Care (2017-12-15 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -6035,9 +6131,9 @@
         <label xml:lang="cs">Podvýbor pro podnikatelské prostředí (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on the Business Environment (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PPP.1342" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro podnikatelské prostředí (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Business Environment (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PPP.1342" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro podnikatelské prostředí (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Business Environment (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PP.1599" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro podnikatelské prostředí (2021-12-14 - )</label>
@@ -6105,9 +6201,9 @@
         <label xml:lang="cs">Podvýbor pro kontrolu hospodaření ve veřejné správě (2010-09-30 - 2012-11-29)</label>
         <label xml:lang="en">Subcommittee on Audit over the Financial Management of Public Administration (2010-09-30 - 2012-11-29)</label>
       </event>
-      <event xml:id="subcommittee.PKHVS.1339" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro kontrolu hospodaření veřejného sektoru (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Public Sector Audit (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PKHVS.1339" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro kontrolu hospodaření veřejného sektoru (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Public Sector Audit (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.KHVS.1640" from="2022-01-20">
         <label xml:lang="cs">Podvýbor pro kontrolu hospodaření veřejného sektoru (2022-01-20 - )</label>
@@ -6183,9 +6279,9 @@
         <label xml:lang="cs">Podvýbor pro ochranu soukromí (2014-02-25 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Privacy Protection (2014-02-25 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.POS.1343" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro ochranu spotřebitele (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Consumer Protection (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.POS.1343" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro ochranu spotřebitele (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Consumer Protection (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.POS.1600" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro ochranu spotřebitele (2021-12-14 - )</label>
@@ -6225,9 +6321,9 @@
         <label xml:lang="cs">Podvýbor pro energetiku (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Power Engineering (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PE.1341" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro energetiku (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Power Engineering (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PE.1341" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro energetiku (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Power Engineering (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PE.1598" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro energetiku (2021-12-14 - )</label>
@@ -6287,9 +6383,9 @@
         <label xml:lang="cs">Podvýbor pro bankovnictví, pojišťovnictví a finanční trhy (2014-01-21 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Banking, Insurance and Capital Markets (2014-01-21 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PBPFT.1355" from="2018-01-10" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro bankovnictví, pojišťovnictví a finanční trhy (2018-01-10 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Banking, Insurance and Capital Markets (2018-01-10 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PBPFT.1355" from="2018-01-10" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro bankovnictví, pojišťovnictví a finanční trhy (2018-01-10 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Banking, Insurance and Capital Markets (2018-01-10 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PBPFT.1610" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro bankovnictví, pojišťovnictví a finanční trhy (2021-12-15 - )</label>
@@ -6310,9 +6406,9 @@
         <label xml:lang="cs">Podvýbor pro daně, cla a loterie (2014-01-21 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Taxation, Customs and Lotteries (2014-01-21 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PDCL.1354" from="2018-01-10" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro daně, cla a loterie (2018-01-10 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Taxation, Customs and Lotteries (2018-01-10 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PDCL.1354" from="2018-01-10" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro daně, cla a loterie (2018-01-10 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Taxation, Customs and Lotteries (2018-01-10 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PDCL.1611" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro daně, cla a loterie (2021-12-15 - )</label>
@@ -6333,9 +6429,9 @@
         <label xml:lang="cs">Podvýbor pro financování územních samospráv a využívání prostředků Evropské unie (2014-01-21 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Financial Management of Teritorial Self-governing Units and European Funding Use (2014-01-21 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PFUSVPE.1356" from="2018-01-10" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro financování územních samospráv a využívání prostředků Evropské unie (2018-01-10 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Financial Management of Teritorial Self-governing Units and European Funding Use (2018-01-10 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PFUSVPE.1356" from="2018-01-10" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro financování územních samospráv a využívání prostředků Evropské unie (2018-01-10 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Financial Management of Teritorial Self-governing Units and European Funding Use (2018-01-10 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PFMSPEU.1612" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro financování územních samospráv a využívání prostředků Evropské unie (2021-12-15 - )</label>
@@ -6356,9 +6452,9 @@
         <label xml:lang="cs">Podvýbor pro cestovní ruch (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Tourism (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PCR.1391" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro cestovní ruch (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Tourism (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PCR.1391" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro cestovní ruch (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Tourism (2018-01-31 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PCR.1636" from="2022-01-27">
         <label xml:lang="cs">Podvýbor pro cestovní ruch (2022-01-27 - )</label>
@@ -6402,9 +6498,9 @@
         <label xml:lang="cs">Podvýbor pro regionální školství (2014-01-23 - 2017-10-26)</label>
         <label xml:lang="en">Subcommitte on Regional Education (2014-01-23 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PRS.1360" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro regionální školství (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommitte on Regional Education (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PRS.1360" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro regionální školství (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommitte on Regional Education (2018-01-11 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -6448,9 +6544,9 @@
         <label xml:lang="cs">Podvýbor pro akvizice Ministerstva obrany, obchod s vojenským materiálem a inovace AČR (2014-04-09 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Defence Acquisitions, Military Equipment Trade and Innovation of the Army of the Czech Republic (2014-04-09 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PAMO.1367" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro akvizice Ministerstva obrany, obchod s vojenským materiálem a inovace AČR (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Defence Acquisitions, Military Equipment Trade and Innovation of the Army of the Czech Republic (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PAMO.1367" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro akvizice Ministerstva obrany, obchod s vojenským materiálem a inovace AČR (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Defence Acquisitions, Military Equipment Trade and Innovation of the Army of the Czech Republic (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PAMO.1699" from="2022-03-08">
         <label xml:lang="cs">Podvýbor pro akvizice Ministerstva obrany, obchod s vojenským materiálem a inovace AČR (2022-03-08 - )</label>
@@ -6550,9 +6646,9 @@
         <label xml:lang="cs">Podvýbor pro Policii České republiky, obecní policie a soukromé bezpečnostní služby (2014-02-12 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Police of the Czech Republic, Communal Police and Private Security Services (2014-02-12 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PPCR.1393" from="2018-02-14" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro Policii České republiky, obecní policii a soukromé bezpečnostní služby (2018-02-14 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Police of the Czech Republic, Municipal Police and Private Security Services (2018-02-14 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PPCR.1393" from="2018-02-14" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro Policii České republiky, obecní policii a soukromé bezpečnostní služby (2018-02-14 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Police of the Czech Republic, Municipal Police and Private Security Services (2018-02-14 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PPCR.1604" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro Policii České republiky, obecní policii a soukromé bezpečnostní služby (2021-12-14 - )</label>
@@ -6585,9 +6681,9 @@
         <label xml:lang="cs">Podvýbor pro evropské fondy a přeshraniční spolupráci (2014-01-23 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on European Funds and Cross-boarder Cooperation (2014-01-23 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PEFPS.1414" from="2018-02-15" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro evropské fondy a přeshraniční spolupráci (2018-02-15 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on European Funds and Cross-boarder Cooperation (2018-02-15 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PEFPS.1414" from="2018-02-15" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro evropské fondy a přeshraniční spolupráci (2018-02-15 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on European Funds and Cross-boarder Cooperation (2018-02-15 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -6624,9 +6720,9 @@
         <label xml:lang="cs">Podvýbor pro justici a soudní samosprávu (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Judiciary and Judicial Selfgovernment (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PJSS.1384" from="2018-01-24" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro justici a soudní samosprávu (2018-01-24 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommitte on Justice System and Court Administration (2018-01-24 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PJSS.1384" from="2018-01-24" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro justici a soudní samosprávu (2018-01-24 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommitte on Justice System and Court Administration (2018-01-24 - 2021-10-20)</label>
       </event>
     </listEvent>
   </org>
@@ -6639,9 +6735,9 @@
         <label xml:lang="cs">Podvýbor pro potravinářství, veterinární činnost a živočišnou výrobu (2014-02-26 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Food Industry, Veterinary Medicine and Animal Production (2014-02-26 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PP.1379" from="2018-01-18" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro potravinářství, veterinární činnost a živočišnou výrobu (2018-01-18 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Food Industry, Veterinary Medicine and Animal Production (2018-01-18 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PP.1379" from="2018-01-18" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro potravinářství, veterinární činnost a živočišnou výrobu (2018-01-18 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Food Industry, Veterinary Medicine and Animal Production (2018-01-18 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PPVCZV.1616" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro potravinářství, veterinární činnost a živočišnou výrobu (2021-12-15 - )</label>
@@ -6690,9 +6786,9 @@
         <label xml:lang="cs">Podvýbor pro rozvojovou spolupráci (2014-03-04 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Development and Cooperation (2014-03-04 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PRS.1386" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro rozvojovou spolupráci (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Development and Cooperation (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PRS.1386" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro rozvojovou spolupráci (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Development and Cooperation (2018-01-31 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PRS.1591" from="2021-12-02">
         <label xml:lang="cs">Podvýbor pro rozvojovou spolupráci (2021-12-02 - )</label>
@@ -6741,9 +6837,9 @@
         <label xml:lang="cs">Podvýbor pro válečné veterány (2014-04-09 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on War Veterans (2014-04-09 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PVV.1369" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro válečné veterány (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on War Veterans (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVV.1369" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro válečné veterány (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on War Veterans (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PVV.1701" from="2022-03-08">
         <label xml:lang="cs">Podvýbor pro válečné veterány (2022-03-08 - )</label>
@@ -6760,9 +6856,9 @@
         <label xml:lang="cs">Podvýbor pro migraci a azylovou politiku (2015-01-15 - 2017-10-26)</label>
         <label xml:lang="en">Subcommittee on Migration and Asylum Policy (2015-01-15 - 2017-10-26)</label>
       </event>
-      <event xml:id="subcommittee.PMAP.1415" from="2018-02-15" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro migraci a azylovou politiku (2018-02-15 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Migration and Asylum Policy (2018-02-15 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PMAP.1415" from="2018-02-15" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro migraci a azylovou politiku (2018-02-15 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Migration and Asylum Policy (2018-02-15 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PMAP.1609" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro migraci a azylovou politiku (2021-12-15 - )</label>
@@ -6775,9 +6871,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on ICT, Telecommunication and Digital Economy</orgName>
     <orgName full="abb">PITDE</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PIT.1344" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro ICT, telekomunikace a digitální ekonomiku (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on ICT, Telecommunication and Digital Economy (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PIT.1344" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro ICT, telekomunikace a digitální ekonomiku (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on ICT, Telecommunication and Digital Economy (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PITDE.1601" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro ICT, telekomunikace a digitální ekonomiku (2021-12-14 - )</label>
@@ -6790,9 +6886,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Aviation and Space Program</orgName>
     <orgName full="abb">PLVP</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PLVP.1345" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro letectví a vesmírný program (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Aviation and Space Program (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PLVP.1345" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro letectví a vesmírný program (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Aviation and Space Program (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PLVP.1602" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro letectví a vesmírný program (2021-12-14 - )</label>
@@ -6805,9 +6901,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Science, Research and Innovations</orgName>
     <orgName full="abb">PVVI</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PVVI.1346" from="2017-12-13" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro vědu, výzkum a inovace (2017-12-13 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Science, Research and Innovations (2017-12-13 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVVI.1346" from="2017-12-13" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro vědu, výzkum a inovace (2017-12-13 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Science, Research and Innovations (2017-12-13 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PVVI.1603" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro vědu, výzkum a inovace (2021-12-14 - )</label>
@@ -6819,7 +6915,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro lékovou politiku, racionální využití farmakoterapie a přístrojové techniky</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Medicines Policies, Sensible Use of Farmacology and Instrumentation</orgName>
     <orgName full="abb">PLK</orgName>
-    <event from="2017-12-15" to="2021-10-21">
+    <event from="2017-12-15" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -6827,7 +6923,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro implementaci nových léčebných a vyšetřovacích postupů do praxe, propojení vědy a praxe</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Implementation of New Medical Treatment and Examination into Practice, combining Science and Practice</orgName>
     <orgName full="abb">PNLP</orgName>
-    <event from="2017-12-15" to="2021-10-21">
+    <event from="2017-12-15" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -6835,7 +6931,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro vzdělávání ve zdravotnictví, včetně nelékařských pracovníků</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Education in Health Care, Including Non-medical Staff</orgName>
     <orgName full="abb">PV</orgName>
-    <event from="2017-12-15" to="2021-10-21">
+    <event from="2017-12-15" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -6843,7 +6939,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro ekonomiku ve zdravotnictví, zdravotní pojištění a přímo řízené organizace</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Healthcare Economy, Health Insurance and Directly Controlled Organizations</orgName>
     <orgName full="abb">PE</orgName>
-    <event from="2017-12-15" to="2021-10-21">
+    <event from="2017-12-15" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -6851,30 +6947,23 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro preventivní programy, přednemocniční zdravotní péči a práva pacientů</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Preventive Programmes, Prehospital Health Care and Patients' Rights</orgName>
     <orgName full="abb">PPP</orgName>
-    <event from="2017-12-15" to="2021-10-21">
+    <event from="2017-12-15" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
-  <org xml:id="subcommittee.POP" role="subcommittee">
+  <org xml:id="subcommittee.POP.1373" role="subcommittee">
     <orgName full="yes" xml:lang="cs">Podvýbor pro ochranu práv osob omezených na svobodě</orgName>
-    <orgName full="yes" xml:lang="en">Subcommittee on National Minorities</orgName>
-    <orgName full="abb">POPOS</orgName>
-    <listEvent>
-      <event xml:id="subcommittee.POP.1373" from="2018-01-09" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro ochranu práv osob omezených na svobodě (2018-01-09 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on the Protection of Rights of Persons Deprived of Liberty (2018-01-09 - 2021-10-21)</label>
-      </event>
-      <event xml:id="subcommittee.POPOS.1626" from="2021-12-14">
-        <label xml:lang="cs">Podvýbor pro ochranu práv osob omezených na svobodě (2021-12-14 - )</label>
-        <label xml:lang="en">Subcommittee on National Minorities (2021-12-14 - )</label>
-      </event>
-    </listEvent>
+    <orgName full="yes" xml:lang="en">Subcommittee on the Protection of Rights of Persons Deprived of Liberty</orgName>
+    <orgName full="abb">POP</orgName>
+    <event from="2018-01-09" to="2021-10-20">
+      <label xml:lang="en">existence</label>
+    </event>
   </org>
   <org xml:id="subcommittee.PSSM.1374" role="subcommittee">
     <orgName full="yes" xml:lang="cs">Podvýbor pro svobodu slova a média</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Freedom of Speech and Media</orgName>
     <orgName full="abb">PSSM</orgName>
-    <event from="2018-01-09" to="2021-10-21">
+    <event from="2018-01-09" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -6883,9 +6972,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Youth and Leisure Activities</orgName>
     <orgName full="abb">PMVA</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PMVA.1362" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro mládež a volnočasové aktivity (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Youth and Leisure Activities (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PMVA.1362" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro mládež a volnočasové aktivity (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Youth and Leisure Activities (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PMVA.1584" from="2021-12-01">
         <label xml:lang="cs">Podvýbor pro mládež a volnočasové aktivity (2021-12-01 - )</label>
@@ -6898,9 +6987,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Substitute Care</orgName>
     <orgName full="abb">PNVP</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PNVP.1361" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro náhradní výchovnou péči (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Surrogate Upbringing Care (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PNVP.1361" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro náhradní výchovnou péči (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Surrogate Upbringing Care (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PNVP.1581" from="2021-12-01">
         <label xml:lang="cs">Podvýbor pro náhradní výchovnou péči (2021-12-01 - )</label>
@@ -6913,9 +7002,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Sport</orgName>
     <orgName full="abb">PS</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PS.1358" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro sport (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Sport (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PS.1358" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro sport (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Sport (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PS.1585" from="2021-12-01">
         <label xml:lang="cs">Podvýbor pro sport (2021-12-01 - )</label>
@@ -6928,9 +7017,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Defence, Cybernetic and Security Policy and Strategic Conceptions for CR</orgName>
     <orgName full="abb">POKBP</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PSK.1368" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro obrannou, kybernetickou a bezpečnostní politiku a strategické koncepce ČR (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Defence, Cybernetic and Security Policy and Strategic Conceptions for CR (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PSK.1368" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro obrannou, kybernetickou a bezpečnostní politiku a strategické koncepce ČR (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Defence, Cybernetic and Security Policy and Strategic Conceptions for CR (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.POKBP.1700" from="2022-03-08">
         <label xml:lang="cs">Podvýbor pro obrannou, kybernetickou a bezpečnostní politiku a strategické koncepce ČR (2022-03-08 - )</label>
@@ -6943,9 +7032,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Social Services and Physically Disabled Persons</orgName>
     <orgName full="abb">PSSOZP</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PSS.1370" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro sociální služby a osoby zdravotně postižené (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Social Services and Physically Disabled Persons (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PSS.1370" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro sociální služby a osoby zdravotně postižené (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Social Services and Physically Disabled Persons (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PSSOZP.1629" from="2022-01-11">
         <label xml:lang="cs">Podvýbor pro sociální služby a osoby zdravotně postižené (2022-01-11 - )</label>
@@ -6958,9 +7047,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Common Issues of Social and Health Areas</orgName>
     <orgName full="abb">PSZP</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PSZP.1371" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro sociálně zdravotní pomezí (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Common Issues of Social and Health Areas (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PSZP.1371" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro sociálně zdravotní pomezí (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Common Issues of Social and Health Areas (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PSZP.1630" from="2022-01-11">
         <label xml:lang="cs">Podvýbor pro sociálně zdravotní pomezí (2022-01-11 - )</label>
@@ -6973,9 +7062,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Technical Protection of Environment</orgName>
     <orgName full="abb">PTOŽP</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PTOZP.1366" from="2018-01-11" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro technickou ochranu životního prostředí (2018-01-11 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Technical Protection of Environment (2018-01-11 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PTOZP.1366" from="2018-01-11" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro technickou ochranu životního prostředí (2018-01-11 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Technical Protection of Environment (2018-01-11 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PTOZP.1595" from="2021-12-08">
         <label xml:lang="cs">Podvýbor pro technickou ochranu životního prostředí (2021-12-08 - )</label>
@@ -6987,7 +7076,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro informační technologie a dávkové systémy</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Information Technologies and Benefit Systems</orgName>
     <orgName full="abb">PIT</orgName>
-    <event from="2018-01-11" to="2021-10-21">
+    <event from="2018-01-11" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -6996,9 +7085,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Forestry Management</orgName>
     <orgName full="abb">PLH</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PLH.1377" from="2018-01-18" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro lesní hospodářství (2018-01-18 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Forestry Management (2018-01-18 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PLH.1377" from="2018-01-18" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro lesní hospodářství (2018-01-18 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Forestry Management (2018-01-18 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PLH.1614" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro lesní hospodářství (2021-12-15 - )</label>
@@ -7011,9 +7100,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Water Management</orgName>
     <orgName full="abb">PVH</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PVH.1378" from="2018-01-18" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro vodní hospodářství (2018-01-18 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Water Management (2018-01-18 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVH.1378" from="2018-01-18" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro vodní hospodářství (2018-01-18 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Water Management (2018-01-18 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PVH.1615" from="2021-12-15">
         <label xml:lang="cs">Podvýbor pro vodní hospodářství (2021-12-15 - )</label>
@@ -7025,7 +7114,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro digitalizaci justice a e-Sbírku</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Digitalisation in Justice and E-collection</orgName>
     <orgName full="abb">PDJESB</orgName>
-    <event from="2018-01-24" to="2021-10-21">
+    <event from="2018-01-24" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -7033,7 +7122,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro problematiku exekucí, insolvencí a oddlužení</orgName>
     <orgName full="yes" xml:lang="en">Subcommitte on Executions, Insolvency and Debt Deleverage</orgName>
     <orgName full="abb">PEIO</orgName>
-    <event from="2018-01-24" to="2021-10-21">
+    <event from="2018-01-24" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -7042,9 +7131,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on e-Government</orgName>
     <orgName full="abb">PEG</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PVEG.1389" from="2018-01-31" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro e – Government (2018-01-31 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on E-Government (2018-01-31 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PVEG.1389" from="2018-01-31" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro e – Government (2018-01-31 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on E-Government (2018-01-31 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PEG.1637" from="2022-01-27">
         <label xml:lang="cs">Podvýbor pro e – Government (2022-01-27 - )</label>
@@ -7057,9 +7146,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Fire Rescue Service of the Czech Republic</orgName>
     <orgName full="abb">PHZS</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PHZS.1394" from="2018-02-14" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro Hasičský záchranný sbor České republiky (2018-02-14 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Fire Rescue Service of the Czech Republic (2018-02-14 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PHZS.1394" from="2018-02-14" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro Hasičský záchranný sbor České republiky (2018-02-14 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Fire Rescue Service of the Czech Republic (2018-02-14 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PHZS.1605" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro Hasičský záchranný sbor České republiky (2021-12-14 - )</label>
@@ -7071,7 +7160,7 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro udržitelný rozvoj</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Sustainable Development</orgName>
     <orgName full="abb">PUR</orgName>
-    <event from="2018-02-14" to="2021-10-21">
+    <event from="2018-02-14" to="2021-10-20">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -7080,9 +7169,9 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Ambulance Services</orgName>
     <orgName full="abb">PZZS</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PZZS.1396" from="2018-02-14" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro zdravotnické záchranné služby (2018-02-14 - 2021-10-21)</label>
-        <label xml:lang="en">Subcommittee on Ambulance Services (2018-02-14 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PZZS.1396" from="2018-02-14" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro zdravotnické záchranné služby (2018-02-14 - 2021-10-20)</label>
+        <label xml:lang="en">Subcommittee on Ambulance Services (2018-02-14 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PZZS.1607" from="2021-12-14">
         <label xml:lang="cs">Podvýbor pro zdravotnické záchranné služby (2021-12-14 - )</label>
@@ -7095,8 +7184,8 @@
     <orgName full="yes" xml:lang="en">Subcommittee on Regions in Transition</orgName>
     <orgName full="abb">PPRT</orgName>
     <listEvent>
-      <event xml:id="subcommittee.PRT.1530" from="2020-12-10" to="2021-10-21">
-        <label xml:lang="cs">Podvýbor pro regiony v transformaci (2020-12-10 - 2021-10-21)</label>
+      <event xml:id="subcommittee.PRT.1530" from="2020-12-10" to="2021-10-20">
+        <label xml:lang="cs">Podvýbor pro regiony v transformaci (2020-12-10 - 2021-10-20)</label>
       </event>
       <event xml:id="subcommittee.PPRT.1638" from="2022-01-27">
         <label xml:lang="cs">Podvýbor pro regiony v transformaci (2022-01-27 - )</label>
@@ -7156,6 +7245,14 @@
     <orgName full="yes" xml:lang="cs">Podvýbor pro lékovou politiku, přístrojovou techniku a zdravotnické prostředky</orgName>
     <orgName full="yes" xml:lang="en">Subcommittee on Pharmaceutical Policy, Instrumentation and Medical Devices</orgName>
     <orgName full="abb">PLPPTZP</orgName>
+    <event from="2021-12-14">
+      <label xml:lang="en">existence</label>
+    </event>
+  </org>
+  <org xml:id="subcommittee.POLP.1626" role="subcommittee">
+    <orgName full="yes" xml:lang="cs">Podvýbor pro ochranu lidských práv</orgName>
+    <orgName full="yes" xml:lang="en">Subcommittee on Protection of Human Rights</orgName>
+    <orgName full="abb">POLP</orgName>
     <event from="2021-12-14">
       <label xml:lang="en">existence</label>
     </event>
@@ -7224,59 +7321,17 @@
       <label xml:lang="en">existence</label>
     </event>
   </org>
-  <org xml:id="supervisoryBoard.DZVZP.439" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada VZP</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the General Health Insurance Company of the Czech Republic</orgName>
-    <orgName full="abb">DZVZP</orgName>
-    <event from="1992-01-01" to="2001-01-01">
+  <org xml:id="subcommittee.PPD.1717" role="subcommittee">
+    <orgName full="yes" xml:lang="cs">Podvýbor pro podporu demokracie a lidských práv v zahraničí</orgName>
+    <orgName full="abb">PPD</orgName>
+    <event from="2022-11-25">
       <label xml:lang="en">existence</label>
     </event>
   </org>
-  <org xml:id="supervisoryBoard.DRPF.441" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada Pozemkového fondu České republiky</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the Land Fund of the Czech Republic</orgName>
-    <orgName full="abb">DRPF</orgName>
-    <event from="1993-01-01" to="2013-01-01">
-      <label xml:lang="en">existence</label>
-    </event>
-  </org>
-  <org xml:id="supervisoryBoard.DRSFDI.476" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada Státního fondu dopravní infrastruktury</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the State Fund of Transport Infrastructure</orgName>
-    <orgName full="abb">DRSFDI</orgName>
-    <event from="2000-06-27">
-      <label xml:lang="en">existence</label>
-    </event>
-  </org>
-  <org xml:id="supervisoryBoard.DRSZIF.480" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada Státního zemědělského intervenčního fondu</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the State Agricultural Intervention Fund</orgName>
-    <orgName full="abb">DR SZIF</orgName>
-    <event from="2000-07-19">
-      <label xml:lang="en">existence</label>
-    </event>
-  </org>
-  <org xml:id="supervisoryBoard.DRSFRB.481" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada Státního fondu podpory investic</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the State Fund for Support of Investments</orgName>
-    <orgName full="abb">DR SFRB</orgName>
-    <event from="2000-07-21">
-      <label xml:lang="en">existence</label>
-    </event>
-  </org>
-  <org xml:id="supervisoryBoard.DRCKA.577" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada České konsolidační agentury</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the Czech Consolidation Agency</orgName>
-    <orgName full="abb">DR ČKA</orgName>
-    <event from="2001-09-01" to="2007-12-31">
-      <label xml:lang="en">existence</label>
-    </event>
-  </org>
-  <org xml:id="supervisoryBoard.DRVF.580" role="supervisoryBoard">
-    <orgName full="yes" xml:lang="cs">Dozorčí rada Vinařského fondu</orgName>
-    <orgName full="yes" xml:lang="en">The Supervisory Board of the Viticultural Fund</orgName>
-    <orgName full="abb">DR VF</orgName>
-    <event from="2002-03-27">
+  <org xml:id="supervisoryCommission.DKNSA.1725" role="institution">
+    <orgName full="yes" xml:lang="cs">Dozorčí komise Národní sportovní agentury</orgName>
+    <orgName full="abb">DKNSA</orgName>
+    <event from="2023-04-01">
       <label xml:lang="en">existence</label>
     </event>
   </org>
@@ -7323,10 +7378,10 @@
   <listRelation>
     <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="coalition" mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD #parliamentaryGroup.KDU-CSL" from="2014-01-29" to="2017-10-26" ana="#parliament.PSP7"/>
     <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="coalition" mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD" from="2017-12-13" to="2018-06-26" ana="#parliament.PSP8"/>
-    <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="coalition" mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD" from="2018-06-27" to="2021-10-21" ana="#parliament.PSP8"/>
+    <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="coalition" mutual="#parliamentaryGroup.ANO #parliamentaryGroup.CSSD" from="2018-06-27" to="2021-10-21"/>
     <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="coalition" mutual="#parliamentaryGroup.ODS #parliamentaryGroup.TOP09 #parliamentaryGroup.KDU-CSL #parliamentaryGroup.STAN #parliamentaryGroup.Pirati" from="2022-01-18" ana="#parliament.PSP9"/>
     <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="opposition" active="#parliamentaryGroup.KSCM #parliamentaryGroup.ODS #parliamentaryGroup.TOP09-S #parliamentaryGroup.Usvit.1111" passive="#government.VladaCR" from="2014-01-29" to="2017-10-26" ana="#parliament.PSP7"/>
-    <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="opposition" active="#parliamentaryGroup.KDU-CSL #parliamentaryGroup.ODS #parliamentaryGroup.Pirati #parliamentaryGroup.SPD #parliamentaryGroup.STAN #parliamentaryGroup.TOP09" passive="#government.VladaCR" from="2017-12-13" to="2021-10-21" ana="#parliament.PSP8"/>
+    <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="opposition" active="#parliamentaryGroup.KDU-CSL #parliamentaryGroup.ODS #parliamentaryGroup.Pirati #parliamentaryGroup.SPD #parliamentaryGroup.STAN #parliamentaryGroup.TOP09" passive="#government.VladaCR" from="2017-12-13" to="2021-10-21"/>
     <relation xmlns:xi="http://www.w3.org/2001/XInclude" name="opposition" active="#parliamentaryGroup.ANO #parliamentaryGroup.SPD" passive="#government.VladaCR" from="2022-01-18" ana="#parliament.PSP9"/>
     <relation name="representing" active="#parliamentaryGroup.KSCM" passive="#politicalParty.KSCM" from="1996-06-03" to="1998-06-19" ana="#parliament.PSP2 #parliamentaryGroup.KSCM.42"/>
     <relation name="representing" active="#parliamentaryGroup.ODS" passive="#politicalParty.ODS" from="1996-06-11" to="1998-06-19" ana="#parliament.PSP2 #parliamentaryGroup.ODS.45"/>
@@ -7354,15 +7409,15 @@
     <relation name="representing" active="#parliamentaryGroup.TOP09-S" passive="#politicalParty.TOP09" from="2013-10-31" to="2017-10-26" ana="#parliament.PSP7 #parliamentaryGroup.TOP09-S.1112"/>
     <relation name="representing" active="#parliamentaryGroup.KDU-CSL" passive="#politicalParty.KDU-CSL" from="2013-10-31" to="2017-10-26" ana="#parliament.PSP7 #parliamentaryGroup.KDU-CSL.1110"/>
     <relation name="representing" active="#parliamentaryGroup.Usvit.1111" passive="#politicalParty.Usvit" from="2013-11-05" to="2017-10-26" ana="#parliament.PSP7"/>
-    <relation name="representing" active="#parliamentaryGroup.Pirati" passive="#politicalParty.Pirati" from="2017-10-22" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.Pirati.1300"/>
-    <relation name="representing" active="#parliamentaryGroup.STAN" passive="#politicalParty.STAN" from="2017-10-23" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.STAN.1296"/>
-    <relation name="representing" active="#parliamentaryGroup.ANO" passive="#politicalParty.ANO2011" from="2017-10-24" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.ANO.1292"/>
-    <relation name="representing" active="#parliamentaryGroup.KSCM" passive="#politicalParty.KSCM" from="2017-10-24" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.KSCM.1293"/>
-    <relation name="representing" active="#parliamentaryGroup.ODS" passive="#politicalParty.ODS" from="2017-10-24" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.ODS.1295"/>
-    <relation name="representing" active="#parliamentaryGroup.KDU-CSL" passive="#politicalParty.KDU-CSL" from="2017-10-24" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.KDU-CSL.1297"/>
-    <relation name="representing" active="#parliamentaryGroup.SPD" passive="#politicalParty.SPD" from="2017-10-26" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.SPD.1298"/>
-    <relation name="representing" active="#parliamentaryGroup.CSSD" passive="#politicalParty.CSSD" from="2017-10-27" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.CSSD.1294"/>
-    <relation name="representing" active="#parliamentaryGroup.TOP09" passive="#politicalParty.TOP09" from="2017-10-31" to="2021-10-21" ana="#parliament.PSP8 #parliamentaryGroup.TOP09.1299"/>
+    <relation name="representing" active="#parliamentaryGroup.Pirati" passive="#politicalParty.Pirati" from="2017-10-22" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.Pirati.1300"/>
+    <relation name="representing" active="#parliamentaryGroup.STAN" passive="#politicalParty.STAN" from="2017-10-23" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.STAN.1296"/>
+    <relation name="representing" active="#parliamentaryGroup.ANO" passive="#politicalParty.ANO2011" from="2017-10-24" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.ANO.1292"/>
+    <relation name="representing" active="#parliamentaryGroup.KSCM" passive="#politicalParty.KSCM" from="2017-10-24" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.KSCM.1293"/>
+    <relation name="representing" active="#parliamentaryGroup.ODS" passive="#politicalParty.ODS" from="2017-10-24" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.ODS.1295"/>
+    <relation name="representing" active="#parliamentaryGroup.KDU-CSL" passive="#politicalParty.KDU-CSL" from="2017-10-24" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.KDU-CSL.1297"/>
+    <relation name="representing" active="#parliamentaryGroup.SPD" passive="#politicalParty.SPD" from="2017-10-26" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.SPD.1298"/>
+    <relation name="representing" active="#parliamentaryGroup.CSSD" passive="#politicalParty.CSSD" from="2017-10-27" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.CSSD.1294"/>
+    <relation name="representing" active="#parliamentaryGroup.TOP09" passive="#politicalParty.TOP09" from="2017-10-31" to="2021-10-20" ana="#parliament.PSP8 #parliamentaryGroup.TOP09.1299"/>
     <relation name="representing" active="#parliamentaryGroup.Pirati" passive="#politicalParty.Pirati" from="2021-10-10" ana="#parliament.PSP8 #parliament.PSP9 #parliamentaryGroup.Pirati.1535"/>
     <relation name="representing" active="#parliamentaryGroup.ANO" passive="#politicalParty.ANO2011" from="2021-10-12" ana="#parliament.PSP8 #parliament.PSP9 #parliamentaryGroup.ANO.1537"/>
     <relation name="representing" active="#parliamentaryGroup.ODS" passive="#politicalParty.ODS" from="2021-10-12" ana="#parliament.PSP8 #parliament.PSP9 #parliamentaryGroup.ODS.1538"/>
