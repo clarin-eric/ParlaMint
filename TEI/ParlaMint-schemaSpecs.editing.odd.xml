@@ -94,7 +94,7 @@
         <elementRef key="include"/>
       </alternate>
     </content>
-    <!-- Make @xml:id, @xml:lang required, remove the other attributes -->
+    <!-- Make @xml:id, @xml:lang required, allow @corresp, remove the other attributes -->
     <attList>
       <attDef ident="xml:id" mode="replace" usage="req">
         <datatype>
@@ -106,6 +106,7 @@
           <dataRef key="teidata.language"/>
         </datatype>
       </attDef>
+      <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
       <p>General structure of a ParlaMint corpus root:</p>
@@ -182,6 +183,7 @@
           <dataRef key="teidata.pointer"/>
         </datatype>
       </attDef>
+      <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
       <p>Example of ParlaMint corpus component:</p>
@@ -251,7 +253,7 @@
         <elementRef key="u"/>
       </alternate>
     </content>
-    <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, subtype -->
+    <!-- Redefine type values, remove other attributes except xml:id, xml:lang, n, corresp, subtype -->
     <attList>
       <attDef ident="type" mode="replace" usage="req">
         <valList type="closed">
@@ -271,6 +273,7 @@
       <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="n"/>
       <pm:attPreserve ident="subtype"/>
+      <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -668,10 +671,6 @@
       <pm:attPreserve ident="n"/>
       <pm:attPreserve ident="source"/>
       <pm:attPreserve ident="corresp"/>
-      <pm:attPreserve ident="xml:id"/>
-      <pm:attPreserve ident="n"/>
-      <pm:attPreserve ident="source"/>
-      <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -707,6 +706,7 @@
       <pm:attPreserve ident="who"/>
       <pm:attPreserve ident="ana"/>
       <pm:attPreserve ident="source"/>
+      <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
       <p>The element <gi>u</gi> marks up a speech, as illustrated below:
@@ -741,6 +741,7 @@
       <pm:attPreserve ident="xml:id"/>
       <pm:attPreserve ident="xml:lang"/>
       <pm:attPreserve ident="n"/>
+      <pm:attPreserve ident="corresp"/>
     </attList>
     <exemplum xml:lang="en">
       <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
@@ -768,11 +769,12 @@
         <elementRef key="gap"/>
         <elementRef key="pb"/>
       </alternate>
-      <elementRef key="linkGrp"/>
+      <elementRef key="linkGrp" minOccurs="0" maxOccurs="1"/>
     </content>
     <attList>
       <pm:attPreserve ident="xml:id"/>
       <pm:attPreserve ident="xml:lang"/>
+      <pm:attPreserve ident="corresp"/>
       <pm:attPreserve ident="n"/>
     </attList>
     <exemplum xml:lang="en">
@@ -3510,7 +3512,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="state" module="namesdates" mode="change">
-    <desc versionDate="2022-10-04" xml:lang="en">defines the political orientation of a political party or parliamentary group. The orientation can be taken from CHES, Wikipedia or an unknown source.</desc>
+    <desc versionDate="2022-10-04" xml:lang="en">defines additional metadata on the political orientation of a political party or parliamentary group, e.g. its political orientation.</desc>
   <content>
     <alternate>
       <elementRef key="label"/>
@@ -3518,27 +3520,25 @@
     </alternate>
   </content>
   <attList>
-    <attDef ident="type" mode="replace" usage="req">
+    <attDef ident="type" mode="replace" usage="opt">
       <valList type="closed">
         <valItem ident="politicalOrientation"/>
-      </valList>
-    </attDef>
-    <attDef ident="subtype" mode="replace" usage="req">
-      <valList type="closed">
-        <valItem ident="CHES"/>
+        <valItem ident="encoder"/>
         <valItem ident="Wikipedia"/>
-        <valItem ident="unknown"/>
+        <valItem ident="CHES"/>
+        <valItem ident="variable"/>
+        <valItem ident="value"/>
       </valList>
     </attDef>
-    <attDef ident="ana" mode="change" usage="req">
+    <attDef ident="ana" mode="change" usage="opt">
       <datatype>
         <dataRef key="teidata.pointer"/>
       </datatype>
     </attDef>
     <pm:attPreserve ident="source"/>
-    <pm:attPreserve ident="n"/>
     <pm:attPreserve ident="from"/>
     <pm:attPreserve ident="to"/>
+    <pm:attPreserve ident="n"/>
   </attList>
   <exemplum xml:lang="en">
     <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -4025,9 +4025,7 @@
     </exemplum>
   </elementSpec>
   <elementSpec ident="language" module="header" mode="change">
-    <desc
-        versionDate="2005-01-14"
-        xml:lang="en">characterizes a single language or sublanguage used within a text.</desc>
+    <desc versionDate="2005-01-14" xml:lang="en">characterizes a single language or sublanguage used within a text.</desc>
     <content>
       <textNode/>
     </content>

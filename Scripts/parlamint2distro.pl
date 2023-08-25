@@ -18,10 +18,6 @@ binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 
-# Prefix and extension of registry files
-$regiPrefix = 'parlamint30_';
-$regiExt    = 'regi';
-
 sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("$0 -help\n");
@@ -104,13 +100,16 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
-# We are assuming taxonomies are relative to Scripts/ (i.e. $Bin/) directory
-$taxonomyDir = "$Bin/../Data/Taxonomies";
+# For the following taxonomies we substitute the local taxonomy with common one
+# We are assuming taxonomies are relative to the Scripts/ (i.e. $Bin/) directory
+# Probably a temporary solution, to be substituted by a separate script
+$taxonomyDir = "$Bin/../Corpora/Taxonomies";
 # Currently we do it only for subcorpus
-$taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+$taxonomy{'ParlaMint-taxonomy-subcorpus'}             = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
 #$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
 #$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
 #$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+#$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
 #$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
@@ -167,10 +166,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $outTxtDir  = "$outDir/$XX.txt";      # $outTxtDir   =~ s/$XX/-$MT/ if $MT;
     my $outConlDir = "$outDir/$XX.conllu";   # $outConlDir  =~ s/$XX/-$MT/ if $MT;
     my $outVertDir = "$outDir/$XX.vert";     # $outVertDir  =~ s/$XX/-$MT/ if $MT;
-    
-    my $vertRegi   = $regiPrefix . lc $countryCode . '.' . $regiExt;
-    $vertRegi =~ s/-/_/g;  #e.g. parlamint30_es-ct.regi to parlamint30_es_ct.regi
 
+    # Location, name and extention of registry files, need $Version to compute it!
+    if ($Version) {
+	$regiDir = $docsDir . '/registry';
+	$vertRegi = 'parlamint' . $Version . '_' . lc $countryCode;
+	$vertRegi =~ s/\.//;   #e.g. 3.1 -> 31, so we will get e.g. parlamint31_at
+	$vertRegi =~ s/-/_/g;  #e.g. parlamint31_es-ct.regi to parlamint31_es_ct
+	$regiExt = 'regi'
+    }
+    
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
 	die "FATAL: Need version\n" unless $Version;
@@ -238,7 +243,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	    #Make also derived files
 	    `$scriptTexts $outSmpDir $outSmpDir` unless $outTeiRoot;
 	    `$scriptVerts $outSmpDir $outSmpDir`;
-	    if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outSmpDir`}
+	    if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outSmpDir/$vertRegi.$regiExt`}
 	    else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	    `$scriptConls $outSmpDir $outSmpDir`
 	}
@@ -289,7 +294,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outVertDir/00README.txt");
-	if (-e "$docsDir/$vertRegi") {`cp "$docsDir/$vertRegi" $outVertDir`}
+	if (-e "$regiDir/$vertRegi") {`cp $regiDir/$vertRegi $outVertDir/$vertRegi.$regiExt`}
 	else {print STDERR "WARN: registry file $vertRegi not found\n"}
 	`$scriptVerts $outAnaDir $outVertDir`;
 	&dirify($outVertDir);
@@ -301,7 +306,11 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 sub commonTaxonomies {
     my $Dir = shift;
     foreach my $taxonomy (sort keys %taxonomy) {
-	`cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	if (-e $taxonomy{$taxonomy}) {
+	    #This should not be a simple cp, but rather script that retains only relevant langauge(s)!!! 
+	    `cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	}
+	else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
     }
     return 1;
 }
