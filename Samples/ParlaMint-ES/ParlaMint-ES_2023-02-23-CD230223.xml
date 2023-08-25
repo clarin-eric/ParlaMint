@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="es"
+     xml:id="ParlaMint-ES_2023-02-23-CD230223"
+     ana="#parla.sitting #covid #war">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 239 (2023-02-23) [ParlaMint]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 239 (2023-02-23) [ParlaMint]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 239 (2023-02-23)</title>
+            <title xml:lang="en" type="sub">Plenary session 239 (2023-02-23)</title>
+            <meeting n="2023-02-23" corresp="#CD" ana="#parla.lower #parla.sitting">2023-02-23</meeting>
+            <meeting n="239" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 239</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/ruben-de-libano/">Ruben de Libano</persName>
+               <resp xml:lang="en">XML tagging improvement</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/monica-albini-3179ba166/">Monica Albini</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML. Quality Control</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maria del Mar Bonet Ramos</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="74" xml:lang="es">74 intervenciones</measure>
+            <measure unit="speeches" quantity="74" xml:lang="en">74 speeches</measure>
+            <measure unit="words" quantity="16765" xml:lang="es">16765 palabras</measure>
+            <measure unit="words" quantity="16765" xml:lang="en">16765 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-08-10">2023-08-10</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2023-02-23">2023-02-23</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="98"/>
+               <tagUsage gi="div" occurs="11"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="head" occurs="11"/>
+               <tagUsage gi="incident" occurs="20"/>
+               <tagUsage gi="kinesic" occurs="63"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="seg" occurs="222"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="74"/>
+               <tagUsage gi="vocal" occurs="14"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2023-02-23">2023-02-23</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid #war">
+      <body>
+         <div type="debateSection">
+            <head>PALABRAS DE LA PRESIDENCIA</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u1" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p1">Muy buenos días, señorías. Se reanuda la sesión.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p2">Antes de iniciar la sesión, me gustaría pronunciar unas breves palabras: Mañana, 24 de febrero, se cumple un año del comienzo de la guerra en Ucrania, desencadenada por una agresión ilegal y brutal a un país soberano. La guerra, durante este año, ha supuesto un desafío a nuestros valores compartidos como demócratas y como europeos. Rusia no solo ha violado el derecho internacional al invadir el territorio de otro país, lo ha hecho también atacando de forma indiscriminada a la población civil y cometiendo crímenes de guerra en territorio ucraniano. Pese a todo ello, un año después, Ucrania sigue en pie, luchando por su dignidad y su libertad.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p3">En defensa de estos valores y en solidaridad con todas las víctimas de la guerra, especialmente de los niños y las niñas, en nombre del Congreso de los Diputados, representante del pueblo español, quiero reiterar que estamos con el puebloucraniano, compartiendo su dolor y su sufrimiento y confiando en que, lo antes posible, se abra paso una paz justa y podamos dejar atrás la barbarie que estamos viviendo en el corazón de Europa.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u1.p4">Muchísimas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO. . - PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u2" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p1">Comenzamos con los puntos del orden del día relativos a la tramitación directa y en lectura única de los proyectos de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra; por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, y por la que se aprueba la metodología de señalamiento del Cupo del País Vasco para el quinquenio 20222026.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u2.p2">De conformidad con lo acordado por la Junta de Portavoces, estos puntos se debatirán acumuladamente. Les recuerdo que, finalizado este debate, se votarán las enmiendas a la totalidad correspondientes a estas iniciativas. Tiene la palabra,en primer lugar, en nombre del Gobierno, la señora ministra de Hacienda y Función Pública.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u3"
+               who="#MaríaJesúsMonteroCuadrado"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u3.p1">Muchas gracias, presidenta. Egun on a todos y a todas. Quiero saludar especialmente a los representantes del Gobierno autónomo vasco y del Gobierno de Navarra que nos acompañan en el día de hoy en esta tribuna.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u3.p2">Efectivamente, me dirijo a la Cámara para presentar los proyectos de ley de modificación del Convenio Económico de Navarra, el proyecto de Ley del Concierto Económico con el País Vasco y también la metodología de señalamiento que regirá en este último durante los próximos cinco años, proyectos de ley contra los que los grupos parlamentarios de Ciudadanos y VOX han presentado sendas enmiendas a la totalidad. Hablaré de ese tema más adelante.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u3.p3">Ahora, señorías, quiero centrarme, en primer lugar, en dar cuenta del contenido de estas normas que proponemos incluir conforme establece la normativa vigente, y que prevé, en el caso de que se hubiese producido una reforma en el ordenamiento tributario del Estado, proceder por ambas administraciones, de común acuerdo, a la pertinente adaptación del concierto y del Convenio Económico. Y así es. Desde que el pasado año nos reunimos en esta misma Cámara para aprobar las últimas modificaciones del convenio navarro y del concierto vasco, se han producido nuevos cambios en el ordenamiento tributario, como saben, en la línea de que aquellos que tienen más capacidad económica aporten más para ser capaces de financiarlas medidas que palien los efectos de la guerra para la mayoría social del país. Por tanto, hay que incorporar estas nuevas figuras, tal como se establece en los propios textos forales. No vamos a debatir estos cambios, puesto que ya lo hicimos en esta Cámara, son conocidos por sus señorías, pero sí vamos a dejar constancia de ellos a efectos del acta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u3.p4">Se incorpora el impuesto especial sobre los envases de plástico no reutilizable y se establecen los puntos de conexión para repartir la exacción del impuesto entre ambas administraciones tributarias. Igualmente, se modifican los puntos de conexión aplicables al impuesto sobre gases fluorados de efecto invernadero. Esta estructura, como saben, ha sido modificada en la normativa estatal y se fijó como punto de conexión la ubicación del establecimiento en el que se desarrolle la actividad de los fabricantes o de los almacenistas.</seg>
+               <vocal type="murmuring">
+                  <desc>Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u4" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u4.p1">Señorías, les pido silencio, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u5"
+               who="#MaríaJesúsMonteroCuadrado"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u5.p1">Se incorpora, en tercer lugar, el nuevo impuesto temporal de solidaridad de las grandes fortunas. Igualmente, se regula el mecanismo del ajuste al consumo del impuesto especial sobre los envases de plástico y también el que anteriormente hemos mencionado, al objeto de que quede constancia.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u5.p2">En lo que respecta al impuesto sobre el depósito de residuos en vertederos, la incineración y la coincineración de residuos, este impuesto ya se incorporó en el convenio navarro que aprobamos en el 2022, pero ahora tenemos que incluirlo en el Concierto Económico vasco. También los ajustes al consumo que ha sido necesario aplicar como resultado de la entrada en vigor de alguna de las leyes que regulan estos impuestos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u5.p3">Por otra parte, traigo ante todos ustedes el proyecto de ley por el que se aprueba la metodología de señalamiento del cupo que va a regir en el próximo quinquenio. Como saben, se acordó entre ambos gobiernos el pasado 17 de noviembre de 2022, en el marco, como establece la ley, de la Comisión Mixta del Concierto Económico. Por tanto, señorías, este debate que nos trae hoy aquí es el del procedimiento que rige en estos casos, que son adaptaciones bastante frecuentes, como saben ustedes, cuando el Gobierno es dinámico en la incorporación de nuevas figuras tributarias, pero cuyo motivo versa, en primer lugar - y quiero ponerlo en valor - sobre la propia configuración de nuestro modelo de Estado; una configuración que no todo el mundo comparte, pero que, evidentemente, tiene en el texto constitucional el fundamento, el mandato que se cumple a través de estas leyes que lo hacen posible.</seg>
+               <vocal type="murmuring">
+                  <desc>Continúan los rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u6" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u6.p1">Discúlpeme, señora ministra.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u6.p2">¡Señorías, les pido silencio, por favor!</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u7"
+               who="#MaríaJesúsMonteroCuadrado"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p1">Gracias, presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p2">Decía que esa primera parte, ser capaces de cumplir con ese mandato constitucional después de los cambios que ha sufrido el sistema tributario, es una parte obligada. Y la segunda, igualmente importante, tiene que ver también con el objetivo que hemos ido marcando a lo largo de la legislatura de profundizar en una modernización del propio sistema fiscal que hace frente a nuevos retos, los propios del siglo XXI, respecto a la digitalización, a la economía circular, y también la capacidad de que la realidad económica permita cumplir ese precepto constitucional de que cada uno contribuya según su capacidad y, por tanto, procurando un sistema fiscal equitativo, progresivo y justo.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p3">No cabe ninguna duda - y en el desarrollo de este debate va a estar presente - de que los impuestos son la principal fuente de financiación de los servicios públicos; es decir, son los que posibilitan un Estado del bienestar que garantice la igualdad de todos los ciudadanos, al menos según el pacto social constitucional, con independencia de dónde residan. Esto está en relación con la vivienda, con la sanidad, con la educación, con la dependencia,con la justicia gratuita y con todas las políticas públicas que se promueven por parte de las distintas administraciones. Por ello, se da cumplimiento a lo acordado con las comunidades autónomas y, por tanto, en este caso, también con el Gobiernovasco y el Gobierno Foral de Navarra. Pero no es lo que argumentan algunos de los grupos que han presentado enmienda a la totalidad, que plantean que el debate de hoy no es más que ahondar, profundizar en privilegios de un territorio respecto a otro y, por tanto, incrementar la brecha o las desigualdades entre los españoles. Todo lo contrario; se trata ni más ni menos que de hacer efectivo el respeto al marco, a las reglas que nacieron y surgieron de ese pacto común que implica la Carta Magna y que pactamos entre todos aquellos que estábamos presentes en aquel momento y que ha sido el principal estímulo democrático del que nos hemos dotado en estos años de democracia.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p4">Estas modificaciones, además de ser obligación legal, ponen de manifiesto que tanto el concierto vasco como el convenio navarro son herramientas útiles que se adaptan a los cambios del momento del ordenamiento tributario, que permiten establecer unas relaciones entre la Administración General y las comunidades autónomas, que están incorporadas al mismo, y que, por tanto, también señalan cuáles son los elementos que tenemos permanentemente que pactar para hacer posible el Estado Compuesto del que nos hemos dotado.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p5">Por eso, señorías de Ciudadanos y de VOX, tengo que decirles que esa presentación de las enmiendas a la totalidad nos sorprenden a todos, una vez más, por el desconocimiento que se muestra de la realidad del país y de aquello que lo caracteriza, que no es otra cosa que la pluralidad. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Y desde esta tribuna lo repetiremos una y otra vez: este país es rico, precisamente, gracias a esa diversidad, a la diversidad jurídica, a la diversidad social y también a la diversidad política; una diversidad que en esa conformación histórica de sus instituciones encierra una profunda sabiduría. Porque, señoría, la cuestión autonomista, los derechos forales de las comunidades vasca y navarra siempre han tenido una importancia muy relevante en la política y en la historia de nuestro país.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p6">Afortunadamente, desde que en el año 1979 nos dotamos de la Constitución y de un modelo democrático donde todos pudiéramos sentirnos referenciados, el propio texto constitucional zanjó el debate con el mismo concepto de la foralidad. Garantizó, por tanto, un marco de convivencia en progreso y en paz, tanto para los ciudadanos de Euskadi y Navarra como para el resto de españoles. Por eso, señorías, creo que la Constitución es algo demasiado importante como para pretender tergiversar según convenga en cada momento.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p7">Por otra parte, es algo que llevamos observando durante toda la legislatura. Algunos grupos utilizan torticeramente tal o cual artículo de nuestra Constitución - la de todos - cuando debatimos elementos o políticas que tienen que ver con la propia esencia del modelo autonómico, por tanto, del modelo constitucional. Por eso, creo que es de recibo recordar hoy aquí, en esta tribuna, lo que dice la Constitución en su disposición adicional primera con respecto a esta materia. Creo que todos los aquí presentes somos conscientes de ello, aunque a veces procuremos olvidarlo porque no encaja exactamente con nuestros titulares. Y dice que la Constitución ampara y respeta los derechos histórico de los territorios forales, y dice que la actuación general de ese régimen se llevará a cabo, en su caso, en el marco de la Constitución y de los estatutos de autonomía; estatutos de autonomía que esta misma Cámara aprobó concediendo a estos territorios las prerrogativas que en el día de hoy se discuten y amplían para hacer efectivo el cumplimiento de estas leyes de máximo nivel. Por tanto, señoría, no hay debate respecto a que estemos fuera del marco constitucional. Cumplimos de forma escrupulosa con el ordenamiento jurídico,y lo hacemos, además, gustosos de respetar un marco de convivencia que ha prevalecido y que ha permitido durante tanto tiempo el entendimiento entre las diferentes sensibilidades.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p8">Frente a esa posición, la señora Arrimadas firma una serie de enmiendas a la totalidad de su grupo en cuya exposición de motivos acusa al Gobierno de que el procedimiento de lectura única niega la posibilidad del debate. No sé, señora Arrimadas, si es por desconocimiento o por propio interés, pero parece que ustedes hacen caso omiso a que la jurisprudencia ha sido muy clara sobre este particular, ratificando la tesis según la cual el procedimiento de lectura única responde a la naturaleza negociada y paccionada de los textos tramitados. Han sido muchas las sentencias del Constitucional que han fallado siempre a favor y, en este sentido, el Alto Tribunal entiende que el convenio, el concierto y el cupo son accionados entre administraciones. Es decir, se establece una fase previa de negociación entre el Gobierno nacional y el Gobierno de la Comunidad vasca o navarra, que se plasma en un texto acordado entre ambas partes, y después hay una segunda fase en la que se aprueba mediante proyecto de ley, con artículo único, sin que puedan introducirse enmiendas de ninguna clase.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p9">Por tanto, señoría, no es que el Gobierno pretenda coartar ningún debate, como ustedes nos achacan, es que justamente el fundamento que le da esencia a esa garantía institucional de la foralidad reside, precisamente, en su carácter paccionado. Si no, carecería de sentido que se estableciera el acuerdo entre ambas administraciones, dejaría sin capacidad de negociación, dejaría sin capacidad de poder acordar justamente al Gobierno vasco o al Gobierno navarro, en caso de que el procedimiento en estas Cortes fuera un procedimiento distinto.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p10">Por tanto, señoría, lo que quiero trasladar es que no hay opacidad, hay cumplimiento del mandato constitucional, que es el que establece cómo se tienen que desarrollar las modificaciones del concierto en las que se recoja un acuerdo entre los gobiernos que he nombrado y el Gobierno central y que no puede modificarse por voluntad solo de alguna de las partes. Ocurre de forma parecida con otros proyectos de ley y, por tanto, es algo que creo que está fuera de cualquier duda.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p11">El debate, señoría, además, no se hurta. Cada grupo sube a la tribuna y tiene oportunidad de expresar la opinión, aprobar o rechazar aquello que se ha pactado entre el Gobierno central y el vasco y el navarro y, a partir de ahí, cada uno lo refleja en su voto. Como le he dicho, lo que no se puede es presentar enmiendas por el motivo que le acabo de expresar, que dejaría sin contenido la propia capacidad de pacto que se establece en este tipo de leyes.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p12">Señorías de VOX, ya tuvimos ocasión de discutir sobre esto hace unos meses, cuando justamente debatimos el convenio y el concierto en esta Cámara, y se lo vuelvo a decir en el día de hoy. Creo que su enmienda a la totalidad es una falta de respeto a los ciudadanos vascos y navarros. Ustedes llaman provincias a sus comunidades autónomas, y es una falta de respeto no solo a ellos, sino al resto del país y a la propia Constitución española. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Porque, como decía anteriormente, el debate no se hurta. Cada grupo político, cuando ahora suba a esta tribuna, va a expresar su opinión, pero parece que lo mínimo, a la hora de mantener el decoro y las formas en esta Cámara, es que se denomine o se designe a las instituciones que representan a cada una de las administraciones con la nomenclatura que leyes tan importantes como la Constitución o las leyes orgánicas que regulan los estatutos de autonomía les conceden. Lo demás, señorías, como digo, es un discurso constitucional o anticonstitucional, como ustedes prefieran, pero que de alguna forma probablemente refleja lo que piensan de la Constitución. Además, señorías, probablemente por desconocimiento, ustedes, en la exposición de motivos,trasladan una falta de evidencia, diría yo, sobre lo que ha representado nuestra historia y un desconocimiento de lo que se establece respecto de estos territorios en la propia Constitución. Pero lo resumen de una forma muy nítida en su diminuta concepción de España, en la que ustedes siempre denominan a la patria según quepan en ella los que piensan como ustedes, o excluyen a una parte de la patria según no piensen, no compartan la ideología o, de alguna forma, no tengan el mismo sentimiento o la misma percepción que todos ustedes. Estamos acostumbrados a verlo en sus exposiciones de motivos y en sus enmiendas a la totalidad: una falta de respeto a la diversidad cultural, lingüística o a los derechos históricos de algunos territorios y, por tanto, la negación de respeto al marco de convivencia que entre todos nos hemos dotado para seguir trabajando y aportando a un país que se ha construido en sus mejores años justamente a partir de ese respeto.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p13">Esa incomprensión o ese rechazo a lo que representa la foralidad es un ejemplo de ese país monocolor que les gustaría que se pusiera en marcha una vez más, olvidando toda la etapa de la Transición, del desarrollo democrático y, en definitiva, que el pacto constitucional quedará, sin motivo, sin efecto, poniendo punto final a muchas cuestiones - insisto - que han sido y fueron objeto de intenso debate, de intenso acuerdo y de respeto para seguir conviviendo en nuestro país. Negar esa foralidad es negar la Constitución, pero sobre todo es no entender ni a España ni a Euskadi ni a Navarra ni tampoco, creo yo, al sentimiento de los ciudadanos de este país, que siempre se desarrolla en unas líneas mucho más tolerantes y mucho más comprensivas con las diferentes sensibilidades, tanto ideológicas como políticas y territoriales, que se expresan en esta Cámara o que se expresan en el marco del Senado. Imagino que la propuesta de enmienda a la totalidad habrá sido escrita por algún miembro de su partido, de esa corriente joseantoniana que una exdirigente de su partido comentó hace unos días en un programa de televisión, y ustedes no han negado esa corriente ni han dicho nada al respecto. Si no, no consigo entender esa visión tan reaccionaria que han planteado.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p14">Concluyo, señora presidenta. Señorías, hay una nueva derecha que es nueva en tiempo de creación, pero muy antigua, como siempre, en ideas, y muy antigua respecto a la consideración de la estructura del Estado español. Es una derecha insolidaria, contraria al Estado de las autonomías y que permanentemente vive del enfrentamiento, que intenta sacar como rédito político, como rédito electoral, la pugna entre territorios de nuestro país y entre ciudadanos de diferentes ideologías. En definitiva, viven permanentemente de la bronca, del ruido y de intentar que la política no sea útil para la mayoría de los ciudadanos; al contrario, que provoque desapego y, por tanto, que sean los intereses económicos, los intereses predominantes los que puedan marcar el paso a los ciudadanos de nuestro país. Esta derecha nos dice que el concierto es un ataque a la igualdad de los españoles, y recurren al manoseo del texto constitucional y a exacerbar ese sentimiento de agravio. Por eso, creo que tienen ustedes, señorías de VOX y Ciudadanos, un problema grave con la Constitución y con el Reglamento de esta Cámara. Ustedes piensan que el cumplimiento de este marco jurídico es solo para los días que a ustedes les vienen bien, unos días sí y otros días no, pero retorcemos el discurso, nos envolvemos en la bandera nacional y exigimos saltarnos todo a la torera.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p15">Igualmente, señorías del Partido Popular, es el tipo de actitudes que ustedes permanentemente también propician y procuran, haciendo de la política un ejercicio que se aparta de la nobleza, que no permite que el diálogo se abra camino entre aquellos que pensamos distinto, que anima al ruido, a la bronca, al cuanto peor, mejor; en definitiva, que le pone alfombra roja a todo este tipo de planteamientos, incluido el registro de esa moción de censura que conocimos el día de ayer. Y lo que pretenden siempre con sus palabras, incluso con su actitud en esta Cámara, es tirar la piedra, esconder la mano y estar detrás de aquellos que hacen el trabajo de plantear todo aquello que, en el fondo, ustedes creen que les interesa.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p16">Nosotros, el resto de los miembros de este hemiciclo, vamos a seguir trabajando para que los ciudadanos perciban cada día que la utilidad de lo que se hace aquí, de lo que desarrolla el Ejecutivo o de lo que se hace en el Gobierno vasco o enel navarro ataca los problemas fundamentales que se derivan de enfermedades como las derivadas de la pandemia o de la guerra de Ucrania. Nosotros no nos vamos a dejar arrastrar por aquellos que quieren regresar a un Estado centralista por nostalgia de tiempos pasados o por intentar hacerse como sea un hueco en una escena pública que les ha dado la espalda, señorías de Ciudadanos, solo y exclusivamente porque no han sabido aprovechar ese hueco que la sociedad les brindó, porque permanentemente han sido la coletilla, algo más indiferenciados de la estrategia del Partido Popular. Frente a ese viejo centralismo de VOX o esa política inútil del cuanto peor, mejor de Ciudadanos, los demás seguiremos defendiendo un modelo que nos da estabilidad, nos plantea capacidad de entendimiento y refleja la voluntad libre de todos los ciudadanos de este país; un modelo en el que se integran el concierto vasco y el convenio navarro perfectamente. Por eso, solicito su voto, porque representa la voluntad negociada, tanto por el Gobierno central como por el vasco y el navarro, de seguir avanzando en la mejora de las relaciones entre ambas instituciones, especialmente de las relaciones tributarias, una mejora que no hace sino garantizar que los servicios públicos que disfrutan los ciudadanos del País Vasco y de Navarra cuenten con la mejor financiación posible, todo en el marco de solidaridad entre comunidades autónomas que marca la propia Constitución.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p17">Votar afirmativamente a estos proyectos de ley es votar por la España de las autonomías, por la España del Estado del bienestar que nos protege y que permite a los ciudadanos seguir progresando. Celebremos, por tanto, lo que nos une como sociedad diversa y como convivencia plural, ya que en nuestras diferencias tenemos la mejor herramienta para encontrarnos, para continuar progresando y para seguir construyendo una sociedad libre y democrática.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u7.p18">Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u8" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u8.p1">Muchas gracias, señora ministra.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u8.p2">Se han presentado dos enmiendas a la totalidad de devolución a cada uno de los proyectos de ley. Para la defensa de las enmiendas presentadas, tiene la palabra, por el Grupo Parlamentario Ciudadanos, la señora Arrimadas García.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u9"
+               who="#InésArrimadasGarcía"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p1">Gracias, señora presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p2">Señora Montero, esté atenta, muy atenta, a estas declaraciones: hay falta de transparencia en el cupo vasco. Primero, se ponen de acuerdo en qué cifra es la que tiene que terminar resultando y, posteriormente, articula el mecanismo para que esa cifra sea la correcta. No parece que eso sea lógico, y menos cuando todas las comunidades autónomas al unísono estamos reclamando un nuevo sistema de financiación. Eso decía usted en el año 2017, cuando era consejera de Hacienda de la Junta de Andalucía. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace un gesto con la mano.-Aplausos</desc>
+                  </kinesic> Me hace así con la mano como diciendo: ¡uy, pues si de eso ha pasado mucho! Claro, porque desde que usted es ministra...Yo creo que a usted le pasan por un túnel de lavado de principios y valores, el túnel Sánchez, y entonces da igual lo que ustedes hayan creído antes, da igual lo que ustedes piensen; se convierten simplemente en un ministro de Sánchez capaz de hacer y decir lo contrario de lo que decían hace cinco años. ¿Era usted un ignorante en el 2017 que no entendía cómo funcionaba esto del Concierto Económico? <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos negativos</desc>
+                  </kinesic> ¿Verdad que no? Entonces apoyará nuestra enmienda a la totalidad, porque si en 2017 decía que era un sistema que no tenía transparencia, en el 2023 es exactamente igual. Entonces lo criticará, ¿no? <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos negativos</desc>
+                  </kinesic> Si en el 2017 ya decía que esto no era un cálculo, que esto era un apaño político y que, luego, hacía la artimaña para llegar a ese número, supongo que en el 2023 dirá lo mismo. ¿O es que ya ha perdido todos esos principios en el tren de lavado del señor Sánchez?</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p3">¿Saben por qué hoy estamos haciendo lo mismo que se hizo en el año 2017? Porque los que deciden hoy el dinero de todos los españoles que va a ir a sufragar los servicios del cupo vasco son los mismos. Porque da igual quién gobierne España,¡el PNV siempre gobierna España! Da igual cuánto pierden los españoles, ¡porque el PNV siempre gana! <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Hace cinco años estaba aquí el señor Montoro, del Partido Popular, y hoy tenemos a la señora Montero, del Partido Socialista,haciendo lo mismo. ¿Sabe lo único que ha cambiado? Una vocal: de Montoro a Montero. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos negativos</desc>
+                  </kinesic> Y hoy el PP y el PSOE vuelven a confabularse para que los españoles no se enteren de lo que está pasando hoy aquí, y no me extraña, porque hoy ustedes no están aprobando un cálculo razonable del cupo vasco para los próximos cinco años, no; ustedes están aprobando una nueva estafa al conjunto de los españoles. <kinesic type="gesture">
+                     <desc>La Ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos negativos.-Aplausos</desc>
+                  </kinesic> Y no me nieguen, no me nieguen con la cabeza, ¡si lo reconocen ustedes mismos! Si esto no es una estafa, ¿por qué lo mezclan con otras dos leyes que requieren un debate aparte? Si esto no es una estafa, ¿por qué no vienen ustedes aquí y dejan que se escuche a los expertos para hacer una primera estimación del cupo? Si no es una estafa, ¿por qué ustedes lo tramitan de extrema urgencia, cuando el sistema de financiación de las comunidades autónomas lleva bloqueado desde el 2014? Es más, señora Montero, usted me decía: no, es que se ha negociado antes; entonces, aquí solo queda aprobarlo. ¿Y por qué no lo explica, señora Montero? ¿De Dónde salen los 1467 millones del cupo? No lo puede explicar, señora Montero, porque no se ha calculado, porque lo que se ha hecho es negociar a puerta cerrada bajo el chantaje del Partido Nacionalista Vasco. Se supone que el cálculo del cupo tiene que ser un cálculo objetivo. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos negativos</desc>
+                  </kinesic> ¡Me niega con la cabeza, me dice que no la ministra! Pues claro que sí. Se tienen que coger cuáles son las cargas asumidas y las no asumidas por las instituciones vascas, hacer una estimación y, de ahí, con decenas de indicadores, sale el cálculo del cupo. <vocal type="speaking">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado: Pues claro que sale de ahí</desc>
+                  </vocal> ¿Y dónde está la explicación de esa negociación? Ustedes no están explicando de dónde sale el número del cupo.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p4">Mire, le voy a poner un ejemplo y lo va a entender mejor, señora Montero. Miren, esto <kinesic type="gesture">
+                     <desc>muestra un documento</desc>
+                  </kinesic>, más de 120 páginas, es la información que tiene que dar el Estado sobre la liquidación de los recursos del sistema de financiaciónde las comunidades de régimen foral, ¿eh, señores del PNV?, de la plebe. Esto es lo que tiene que decir el Estado: 120 páginas, solo de un año, para justificar la liquidación del sistema de financiación. ¿Saben lo que trae el Gobierno de Españapara explicar el cupo de los próximos cinco años? Esto. <kinesic type="gesture">
+                     <desc>Muestra un folio escrito.-Aplausos</desc>
+                  </kinesic> Esto <kinesic type="gesture">
+                     <desc>mostrando los dos documentos</desc>
+                  </kinesic>, esto es la muestra de que esto es una estafa. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hacegestos negativos</desc>
+                  </kinesic> Esto no es un cálculo objetivo y, señora Montero, cuando usted quiera hablamos de lo que es el Concierto Económico, que está regulado en la Constitución española, y le daré mi opinión. Evidentemente, nosotros reconocemos queestá reconocido en la Constitución. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos negativos</desc>
+                  </kinesic> Sí, sí lo está. Otra cosa es que nos gustaría vivir en una nación de ciudadanos libres e iguales, pero es constitucional. Lo que no es constitucional es el chanchullo del negocio del cupo vasco, que no es un cálculo. Por eso, que sepan ustedes, les anuncio que ninguno de los diputados que suba hoy aquí a atacarnos podrá explicar de dónde salen los 1467 millones,porque no lo sabe ni usted, señora Montero. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos afirmativos</desc>
+                  </kinesic> Porque no lo puede justificar. Porque lo único con lo que viene usted aquí es con esto <kinesic type="gesture">
+                     <desc>vuelve a mostrar el folio anterior</desc>
+                  </kinesic>, que es lo que a usted le causaba vergüenza en el 2017 <kinesic type="gesture">
+                     <desc>la ministra de Hacienda y Función Pública, Montero Cuadrado, hace signos negativos</desc>
+                  </kinesic>, antes de pasar por el túnel de lavado de principios del señor Sánchez.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p5">Miren, esto incumple la Constitución española. ¡Claro que sí! Porque el artículo 138 de la Constitución dice que los estatutos no pueden suponer nunca un privilegio económico ni social. Incumple el artículo 156 de la Constitución que establece la solidaridad entre los españoles. Incumple hasta la propia ley del concierto en su artículo 2, que dice que se tiene que respetar la solidaridad entre los españoles. Al final, el País Vasco, que es el segundo territorio más rico de España, acaba recibiendo más de lo que aporta. Otros ciudadanos y otras empresas ubicadas en otros territorios más pobres acaban pagando más para sufragar el cupo vasco, porque no es un cálculo razonable y justo. Los ricos en España pagan menos yreciben más, siempre que sean los señores del Partido Nacionalista Vasco. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Eso pasa hoy en España y eso, ustedes, señores del Partido Popular <kinesic type="signal">
+                     <desc>señala a la bancada del Grupo Parlamentario Popular en el Congreso</desc>
+                  </kinesic>; ustedes, señores del Partido Socialista <kinesic type="signal">
+                     <desc>señala a la bancada del Grupo Parlamentario Socialista</desc>
+                  </kinesic>, y ustedes, señores de diferentes partidos <kinesic type="signal">
+                     <desc>señala a la parte central del hemiciclo</desc>
+                  </kinesic>, que algunos se atreven a autodenominarse de izquierdas, es lo que van a aprobar hoy aquí. Hoy, diputados del Partido Popular y del Partido Socialista de Andalucía, de Extremadura, de Castilla-La Mancha o de cualquier otro territorio que no sea el País Vasco van a votar que sí a privilegios territoriales. Hoy, esos diputados del PP y del PSOE van a votar que sí a que los ciudadanos de sus territorios, que son más pobres que el País Vasco, acaben financiando y pagando más a los ciudadanos y a las empresas del País Vasco. Hoy, esos diputados del PP y del PSOE van a votar que sí a que los niños de sus territorios tengan menos recursos de los que necesitan para sanidad y educación. Esos diputados del PP y del PSOE hoy van a votar que los españoles de sus territorios tengan menos oportunidades de sobrevivir a un cáncer de colon que los que viven en otros territorios de España. No vuelvan a sus territorios dándose golpecitos en el pecho y diciendo que les defienden porque hoy, aquí, los vuelven a apuñalar.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p6">Señores socialistas y del Partido Popular, esto que se está aprobando aquí es lo más retrógrado, lo más reaccionario, lo más clasista y lo menos progresista que se produce en España cada cinco años. ¿Y saben qué pasa? Que ustedes hanconseguido que haya gente que se crea en España que el Gobierno tiene una mayoría progresista, que se crea que el Partido Nacionalista Vasco forma parte de algo que sea progresista; el Partido Nacionalista Vasco, el partido fundado por SabinoArana, el partido que tiene como lema 'Dios y leyes viejas', el partido que menos cree en la igualdad de todos los aquí representados. Al lado del PNV, VOX es consenso progre. <note type="comment">Varios diputados del Partido Nacionalista Vasco (EAJ-PNV</note> hacen signosnegativos.- Aplausos.- Risas). Ustedes son la mayor derecha que hay en España: la insolidaria, la que no cree en la igualdad de los españoles. Y, les digo más, el Partido Nacionalista Vasco no solo negocia dinero, no solo negocia dinero, negociaimpunidad. La tragedia de Zaldibar podría haber hecho caer a cualquier Gobierno de España, pero a ustedes ni les roza. Miren, les voy a leer unos casos de corrupción, a ver si les suena aquí alguno a alguien: caso Alonsotegi Eraikiz, caso Balenciaga, caso Bidegi, caso Denokinn, caso Elorza, caso Epsilon, caso Glass Costa, caso Hacienda de Irún, caso Hacienda Guipúzcoa, caso Hiriko, caso Margüello, caso Miñano, caso Noticias, caso Pagalday. ¿Les suenan a ustedes estos casos de corrupción? ¿Verdad que no? Porque son casos de corrupción del Partido Nacionalista Vasco, son como la vaca sagrada de la política española. Nada les afecta. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> ¿Ustedes recuerdan al señor Feijóo o al señor Sánchez echarles en cara los casos de corrupción del PNV? Porque yo recuerdo al señor Feijóo hablando de los ERE, y bien que hace, y recuerdo al señor Sánchez hablando de la Gürtel, y bien que hace. ¿De verdad creen ustedes que si llega Feijóo se van a solucionar los problemas de España? ¿Ustedes creen que Feijóo va a cambiar la ley electoral para que estos señores no sigan decidiendo la política española? No. Feijóo no va a acabar con los privilegios de los nacionalistas, los va a blindar, que es lo que siempre ha hecho el Partido Popular. Y ya me adelanto, señores del Partido Nacionalista Vasco, yo sé que ustedes a quien más miedo le tienen de todo el arco parlamentario es a Ciudadanos. De hecho, el otro día un dirigente suyo lo reconoció públicamente, dijo casi textualmente: el mayor problema de la política española es Ciudadanos. Y no me extraña, porque ustedes saben que el PP no es un problema. Ustedes saben que el PSOE no es un problema, VOX no es un problema, que le pueden colgar las etiquetas de la extrema derecha. No, no. Ustedes saben que si hay un partido que puede acabar con este privilegio y esta injusticia en España de que haya niños naciendo en Andalucía que saben que van a tener menos oportunidades que los que nacen en otros territorios, esos somos nosotros. Y cuando salgan aquí ustedes - que ninguno va a poder justificar de dónde salen 1467 millones -, cuando nos ataquen me pondré los ataques como medallas, porque me metí en política precisamente para luchar contra esto, me metí en política precisamente para luchar por un país de ciudadanos libres e iguales, con los mismos derechos, las mismas libertades, las mismas oportunidades y las mismas obligaciones en toda España, en un país diverso, con diferentes lenguas - mis hijos aprenden el catalán y castellano en su casa -, pero un país unido, sin privilegios de ningún tipo. Y no me importa lo que cueste, no me importan los ataques, no me importa lo que se tarde, porque sé que en este país, más pronto que tarde, los que odian y desprecian a España van a dejar de decidir el futuro de todos los españoles.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u9.p7">Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos del Grupo Parlamentario Ciudadanos</desc>
+               </kinesic>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u10" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u10.p1">Muchas gracias, señora Arrimadas.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u10.p2">Para la defensa de las enmiendas presentadas, tiene la palabra, por el Grupo Parlamentario VOX, la señora Cañizares Pacheco.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u11"
+               who="#InésMaríaCañizaresPacheco"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p1">Gracias, presidenta. Buenos días, señorías.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p2">Señora ministra, no me hable usted de inconstitucionalidad, porque aquí el único inconstitucional es el Gobierno de Pedro Sánchez, que tiene tres sentencias por pisotear la Constitución y vulnerar derechos fundamentales. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Y sihablamos de exmiembros de partidos, ahí tienen ustedes un escaño vacío, a lo mejor nos está viendo desde la cárcel, el partido feminista, y a lo mejor está en la cárcel por ser poco feminista. <kinesic type="gesture">
+                     <desc>La ministra de Hacienda y Función Pública, Montero Cuadrado, hace gestos</desc>
+                  </kinesic> No me haga así, que sabe de lo que hablo.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p3">El pasado martes, sin ninguna sombra de duda, dejamos claro en esta tribuna que la posición del Grupo Parlamentario VOX respecto tanto de la forma como del fondo es un total desacuerdo con los tres proyectos de ley que hoy debatimos de manera atropellada y acumuladamente. El PSOE está claro que maneja la Mesa de este Parlamento y, en este caso, con la complicidad del Partido Popular, y es ese bipartidismo el que ha decidido que en doce minutos hagamos un paripé y no un auténtico debate sobre la financiación ya acordada, sellada, privilegiada, singular, diferente y ad hoc de dos comunidades autónomas españolas, mientras las otras quince regiones están en la lista de espera de la ministra de Hacienda desde 2019 para hablar de lo suyo, de su financiación.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p4">La ministra, cuando juró su cargo dijo que la mejora de la financiación de las autonomías será una de las cuestiones fundamentales de la agenda del nuevo Gobierno; dijo que hay que ser capaces de explicar muy bien cómo y dónde se depositan los euros para que los ciudadanos ganen en calidad de vida; dijo, sobre el cupo vasco, que lo importante es que sea transparente, y dijo que se tiene que explicar de forma transparente cómo se hacen los cálculos, que nunca se ha explicado de forma exhaustiva de qué manera se valoran los servicios que presta el Estado y que es importante que se tenga en cuenta en este momento que vivimos. Cómo cambia el cuento, Caperucita, cuando uno se atornilla al sillón azul, ¿verdad, señora ministra? Enfin, lo de siempre: Gobierno legal, pero ilegítimo en todos los ámbitos que ha mentido a los españoles, en su política de pactos, en su política de transparencia; ¡ah!, y en su política de: 'no subiremos los impuestos a las clases medias y a las clases trabajadoras', porque, señora ministra, dígame por qué estamos aquí hoy debatiendo la modificación del convenio navarro y el concierto vasco. ¿Por hobby? ¡No! Porque ustedes han creado nuevos impuestos para los españoles y tienen que regular su recaudación para las comunidades vasca y navarra. ¿Y a quién han subido los impuestos? A todos los ciudadanos. También, a las clases populares. O, dígame, ¿quién paga el impuesto al plástico? Usted sabe que solamente con ese impuesto a los plásticos va a recaudar 690 millones de euros, que será mucho más que lo que dejará de recaudar por la bajada temporal del IVA, que serán 630 millones. Por tanto, aquí, Hacienda siempre gana. ¿Y quién pierde? Los de siempre, los españoles más humildes.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p5">Nosotros amamos, admiramos, nos sentimos orgullosos de la diversidad cultural, artística, patrimonial, gastronómica, lingüística, paisajística de todos y cada uno de los rincones de España, una diversidad que nos enriquece, y por ello albergamos ese sentimiento de pertenencia a algo más grande y que cohesiona esa diversidad, que es nuestra nación, nuestra patria y España. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Así que, en el Grupo Parlamentario VOX partimos de un principio consagrado en nuestra Constitución. Para nosotros, todos los españoles son iguales ante la ley. Por tanto, atendiendo a ese derecho fundamental y principio constitucional, ninguna norma, ningún acuerdo y ningún convenio pueden vulnerar dicho principio. Y aunque muchos de ustedes harán referencia a los derechos históricos para justificar cuestiones que nada tienen que ver, nosotros, esto, ni lo discutimos ni lo negamos. Lo que sí decimos es que, apelando a la igualdad, a los artículos 31 y 138 de la Constitución,ningún acuerdo firmado dentro del marco constitucional puede quebrar el principio de solidaridad y las diferencias entre los estatutos no podrán implicar nunca privilegios económicos y sociales. Y el asunto de fondo no es la forma en la que se establecen las relaciones entre las comunidades vasca y navarra y el Estado, que sea esto un privilegio en sí o contravenga la Constitución, sino que es el resultado de esa relación y de ese convenio, de ese acuerdo, el que choca contra los principios de solidaridad y de igualdad. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Porque ustedes, Gobierno del PSOE y también del Partido Popular, siempre han construido la casa por el tejado. Es decir, el convenio navarro y concierto vasco son un acuerdo político, un acuerdo en el que se decide cuántos recursos del Estado se van a quedar en estas comunidades y, por tanto, van a financiar sus servicios públicos, su sanidad, su educación, sus universidades y no van a revertir en el resto de España. No sería un privilegio si al realizar la operación matemática inversa, es decir, manteniendo todo constante - recaudación, competencias -, calcularemos qué recursos les corresponden a las comunidades vasca y navarra por el método del régimen común. Si el resultado de esa operación matemática - y no política - arrojase la misma cifra que se desprende del convenio y del concierto, entonces, ustedes demostrarían que no hay privilegio. Pero ustedes saben que no es así, y ha habido y hay diversos autores, investigadores, artículos y estudios a lo largo de los años que han demostrado precisamente lo contrario. Y es que tanto el convenio navarro como el concierto vasco generan más recursos para estas comunidades, porque ustedes pactan el resultado y luego ajusta el método. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Porque hablamos de las dos comunidades españolas con mayor renta per cápita. Y nosotros nos alegramos mucho de que los vascos y de que los navarros puedan disfrutar de una mejor fiscalidad, de una mejor sanidad, de una mejor educación, aunque, en el caso concreto de la comunidad vasca, aún podría ser mejor si el partido que gobierna allí desde hace más de cuarenta años no fuera uno de los partidos con más casos de corrupción de España<kinesic type="applause">
+                     <desc>aplausos</desc>
+                  </kinesic>, donde ha habido mordidas, comisiones ilegales y otros chanchullos que han desviado dinero público a fines particulares, privando, por tanto, a los ciudadanos vascos de recibir mayores y mejores servicios públicos. Y es que la corrupción en España es una sombra que se cierne sobre muchos políticos. Por tanto, nosotros únicamente nos posicionamos contra esos privilegios que conlleva inyectar más dinero público a ciertas regiones, al suponer un agravio comparativo para el resto de los españoles.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p6">Señorías, hay literatura suficiente en España - de todos los signos, colores y partidos - en contra de estas fórmulas de financiación ad hoc para dos comunidades autónomas, pero nadie se atreve a poner el cascabel al gato. Está la opacidad,que alegaba la señora Montero cuando no era ministra; está el cuponazo del señor Iceta, cuando tampoco tenía cartera. En fin, que ustedes cambien de discurso como de chaqueta y, dependiendo de donde estén y el sillón que ocupan - qué es lo más penoso -, cambian sus principios y los cambian porque no los tienen, simple y llanamente. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Nosotros diremos exactamente lo mismo en Madrid, en Toledo, en Navarra, en Murcia y en Barcelona: igualdad, igualdad e igualdad. Los que enfrentan son precisamente ustedes, los socialistas, y el PP lo hace con diez años de retraso pero acaba haciendo lo mismo: enfrentan regiones de España en una lucha abierta por el agua; enfrentan regiones con el dumping fiscal; enfrentan hombres con mujeres; enfrentan personas LGTB con heteros; enfrentan trabajadores con empresarios; ricos con pobres; arriba y abajo, y los enfrentan porque su ADN, su esencia, su razón de ser proviene de la lucha, del enfrentamiento y del revanchismo. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Hace siglos fue la lucha de clases y su rédito no está en avanzar ni en progresar, su rédito partidista e interesado está en algo que es muy antiguo, esto de: divide y vencerás, y en VOX apelamos precisamente a todo lo contrario, al sentimiento de convivencia, de concordia, de unidad, de solidaridad. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Eso es lo que ustedes detestan. Mire, que nosotros tengamos opiniones o ideas diferentes sobre asuntos y debates que ustedes quisieron ya cerrar hace años mediante su totalitarismo e imposición del discurso único, es lícito y forma parte del juego democrático, de la pluralidad de la que ustedes hablan, pero, claro, como al señor Sánchez de vez en cuando le traiciona el subconsciente, ayer dijo en la sesión de control que quiere que todos vuelvan al redil. Sí, al redil. Eso se lo dijo al Partido Popular. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Y es que, claro, el señor Sánchez es el pastor y ustedes son las ovejas que balan y avalan las fechorías del señor Sánchez, sus fechorías continuas contra los españoles, contra los más débiles, contra las mujeres y a favor de los delincuentes. Con nosotros saben que no van a contar, porque no somos rebaño de ningún pastor, hemos venido única y exclusivamente a servir a los españoles. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Ustedes defienden esta forma de financiación de Navarra y las provincias vascas - sí, las provincias vascas - con un solo fin, los votos, el comodín del voto nacionalista, por si acaso. Con Cataluña lo hacen de otra forma, lo hacen vía presupuestos generales del Estado, aprobando las enmiendas estas que dice el señor Bel, que él mismo dice que le quedan muy bonitas. Pues así, y aquí todos callados. Yo creo que basta ya de mercado persa y de compra de voluntades. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Para terminar les voy a traer a su memoria histórica un caso paradigmático a cuenta del convenio navarro. ¿Se acuerdan ustedes de lo que pasó hace unos años con el IVA de la Volkswagen en Navarra? Allí se recauda el IVA por la Hacienda Foral, a cuenta de la venta de vehículos que hacía Volkswagen a una filial que tenía su domicilio fiscal en Barcelona. Esta filial era la que exportaba los vehículos a la Unión Europea y a otros países. En este triángulo quien recaudaba era la Hacienda Foral de Navarra, pero luego quien solicitaba la devolución del IVA era esa sociedad filial ubicada en Barcelona. Y, ¿a quién le solicitaba la devolución? ¡Oh, sorpresa! A la Agencia Tributaria, ¿verdad? Es decir, a la caja del resto de los españoles. Hacienda levantó por esto un acta de inspección de 1700 millones de euros a Navarra, que, por obra y gracia del señor Montoro, acabamos pagando esa irregularidad también el resto de España. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Por tanto, el Grupo Parlamentario VOX se opone a la existencia de regímenes económicos especiales por cuanto no hacen sino profundizar en las desigualdades entre los españoles sometidos al régimen común y los sometidos al régimen especial. Por tanto, frente a esto VOXlo que propone es un Estado al servicio de la unidad de España, en el que no haya diferencias entre regiones ni entre españoles por cuestión del lugar en el que residan o trabajen. Al contrario, nosotros creemos que es necesario fortalecer precisamente los vínculos entre españoles y garantizar la igualdad entre ellos, con el fin de asegurar la prosperidad y el bienestar de nuestra patria y conseguir un Estado en el que no existan dieciocho ordenamientos jurídicos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u11.p7">Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Varios señores diputados: ¡Bravo!-Aplausos de las señoras y los señores diputados del Grupo Parlamentario VOX, puestos en pie</desc>
+               </kinesic>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u12" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u12.p1">Muchas gracias, señora Cañizares.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u12.p2">En turno de fijación de posiciones, por el Grupo Parlamentario Mixto, tiene la palabra el señor García Adanero.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u13"
+               who="#CarlosGarcíaAdanero"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u13.p1">Muchas gracias, señora presidenta. Señorías, buenos días.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u13.p2">La verdad es que intervendré brevemente porque hay que decir que tanto en las enmiendas a la totalidad como en las intervenciones que ha habido, en el 95 o el 96 % de los casos no se han referido a la cuestión del convenio del Estado con la Comunidad Foral de Navarra, pero claro, que en el debate se agrupe todo, pues tiene estas cosas, porque es evidente que la cuestión que se refiere a la modificación en relación con la Comunidad Foral de Navarra es muy sencilla. Como ha dicho la ministra, aquí se han aprobado cuatro nuevos impuestos en las Cortes Generales, independientemente de si nos gustan, no nos gustan, o qué votamos en su momento, ya se hizo el debate sobre ello, y lo que toca hacer - de acuerdo con el artículo 6 de laley del convenio, que es una ley aprobada en las Cortes Generales - es que esos impuestos se pongan en el ordenamiento jurídico navarro para poder llevarlos a cabo, también como se decida en la comunidad, de acuerdo con el conjunto de España. Así de sencillo. Pero, claro, la Constitución a uno le puede no gustar, le puede gustar una parte, otra no, nadie estamos obligados a que nos guste la Constitución, pero, ¡hombre!, a cumplirla sí que estamos obligados, y lo que no puede ser es que acusemos a otros partidos de no cumplir cuestiones de la Constitución pero luego nosotros no queramos cumplir lo que dice. La disposición adicional primera ahí está; el Convenio Económico ahí está, y la LORAFNA ahí está. Por lo tanto, son leyes que se han aprobado en las Cortes Generales por una mayoría y que evidentemente ahora hay que cumplirlas, y si a alguien no le gusta, como ya existe en la Constitución el método para cambiar cosas de la misma, que establezca los mecanismos necesarios, si tiene votos para cambiar esas cosas, pero si no, se tienen que cumplir. Y desde luego, entrar aquí ahora en el debate de los privilegios, etcétera.... Por lo menos hoy hemos dado un paso, ya se ha reconocido que el convenio no es insolidario, que se puede aplicar el mismo. Hoy no estamos debatiendo aquí la aportación de la Comunidad Foral de Navarra, ese debate no se está produciendo. Por lo tanto, es un debate bastante sencillo, solo estamos hablando de cuatro impuestos que pasan al ordenamiento - en este caso al ordenamiento jurídico de la Comunidad Foral - y, por lo tanto, no estamos hablando de la aportación, ya se habló en su momento. Se habla de sí esto hay que hacerlo con lectura única o no, es que es un acuerdo entre gobiernos, como se ha explicado, pero es lo que establece la propia ley que aprobó el Congreso de los Diputados, las Cortes Generales en su momento, y es lo que está establecido en la propia Constitución. Es lo que nos marca el camino, y lo que se está haciendo es eso. Si tampoco es tan complicado, estamos hablando de cuatro impuestos, de cómo se va a hacer en la Comunidad Foral de Navarra, porque luego la gestión depende de cada comunidad. Pero tampoco estamos en ese debate. Es Que aquí se habla de las comunidades autónomas y de las competencias que tienen, pero luego cada comunidad gestiona como estima conveniente, y por eso se cambian los gobiernos y por eso unos aspiramos a gobernar y otros están gobernando, porque no todo el mundo gobierna igual; teniendo las mismas herramientas, luego uno puede gestionar de una forma totalmente diferente al otro, pero eso será otro paso. Ahora no estamos aquí decidiendo cómo se gobierna cada comunidad; eso se decidirá en mayo en algunas comunidades, como en la que vivo yo, en la Comunidad Foral de Navarra, en otras no. Entonces se decidirá cómo se gobierna y cómo se gestionan los recursos que se tienen, pero esta es otra herramienta y aquí se puede votar diferente. Aunque el debate haya sido conjunto, una cosa es el cupo, otra cosa es el acuerdo de los impuestos en la Comunidad autónoma vasca y otra cosa son los impuestos de acuerdo con el Convenio de la Comunidad Foral de Navarra. No voy a dar ideas, pero se puede estar en desacuerdo con el cupo y se puede estar de acuerdo con que, tanto en la Comunidad autónoma vasca como en la Comunidad Foral de Navarra, de acuerdo con la Constitución, con sus estatutos y con las propias leyes que regulan tanto el concierto como el convenio, se diga cómo se van a incluir esos impuestos que se aprobaron en el Congreso de los Diputados - aunque nosotros estuviéramos en contra de los mismos - y cómo se van a llevar a cabo. No hay que hacer una votación conjunta; el conjunto es el debate que, desde mi punto de vista, es equivocado, sí, porque al final, como digo, se habla el 99 % del tiempo sobre el cupo vasco y cómo se calcula ese cupo. En ese debate, desde luego, no voy a entrar. <vocal type="murmuring">
+                     <desc>Rumores</desc>
+                  </vocal> Cuando se habló de la aportación de Navarra ya hicimos el debate, presentamos las iniciativas correspondientes y, al final, el Congreso decidió apoyarlo por una amplísima mayoría.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u13.p3">Por lo tanto, creo que en lo que respecta a nuestra comunidad foral se está haciendo un trámite normal. Ha explicado perfectamente la ministra en qué consistía, los puntos de conexión, etcétera. Es una cosa mucho más técnica que política y, en ese sentido, le daremos lógicamente el visto bueno, porque estamos de acuerdo, como estuvo de acuerdo también el Parlamento de Navarra por unanimidad.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u13.p4">Muchas gracias.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u14" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u14.p1">Muchas gracias, señor García.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u14.p2">Por el Grupo Parlamentario Euskal Herria Bildu, tiene la palabra la señora Aizpurua Arzallus.</seg>
+               <vocal type="murmuring">
+                  <desc>Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u15"
+               who="#MertxeAizpuruaArzallus"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u15.p1">Egun on. Buenos días.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u15.p2">Hoy debatiremos y aprobaremos la actualización y modificación de los limitados instrumentos fiscales y económicos con los que contamos vascos y vascas: el Convenio navarro y el Concierto Económico vasco, y también el método para calcular el cupo. Hoy fuerzas reaccionarias y centralistas, como VOX y Ciudadanos, nos han vuelto a deleitar con una retahíla de ataques a nuestros sistemas de financiación, fruto, en primer lugar, de su manifiesto desconocimiento de los mismos y, en segundo lugar, de su afán descentralizador, que no persigue otra cosa que uniformizar el Estado y acabar con nuestras competencias. Hablan de privilegios, de estafas, de vivir de gorra, de chanchullos y demás sandeces que ustedes van soltando y que solamente demuestran que no tienen ni idea de lo que dicen o, si la tienen, lo hacen por maldad y por odio hacia la ciudadanía vasca. ¿Realmente saben qué suponen económicamente el concierto y el convenio? Que recaudamos...</seg>
+               <vocal type="murmuring">
+                  <desc>Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u16" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u16.p1">Silencio, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u17"
+               who="#MertxeAizpuruaArzallus"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u17.p1">Lo que suponen, en realidad, es que nosotros recaudamos una parte de nuestros impuestos - solo una parte - y los invertimos en las políticas y servicios que dependen de nuestras competencias. Mientras, seguimos pagando los suyos, esos servicios que España nos ofrece, tan 'necesarios y queridos' por la ciudadanía vasca, como la Casa Real, el Ejército o la Guardia Civil. Sí, señorías de la derecha, el chollo es el suyo, ya que, si por los vascos y las vascas fuera, no pagaremos ni un euro por la Monarquía ni por el Ejército español. Ambas instituciones cuentan con la peor valoración de entre todas y, como comprenderán, no ofrecen ningún servicio que la ciudadanía vasca quiera o necesite. Seguimos pagando porque el concierto y el convenio nos obligan a ello.</seg>
+               <vocal type="speaking">
+                  <desc>El señor Espinosa de los Monteros de Simón, dirigiéndose a los escaños del Grupo Parlamentario Socialista: Esos son sus socios.-Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u18" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u18.p1">Silencio, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u19"
+               who="#MertxeAizpuruaArzallus"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u19.p1">Además, el supuesto privilegio del concierto debe ser solo cuando vienen bien dadas, porque, cuando la recaudación va bien, contamos con fondos, sí, pero ¿qué sucede cuando va mal? Nadie nos rescata, nadie nos financia, nadie nos mantiene a flote, como ocurre en otras comunidades. Nosotros no recurrimos al papá Estado para que nos rescate, como hacen ustedes; y, la verdad, viendo la nefasta gestión en los pocos lugares donde gobiernan, ¡suerte que no cuentan con un convenio como el nuestro!, porque dirían todos y cada uno de los lugares donde alcanzaron el poder. Por tanto, sí, son mecanismos que nos aportan ventajas, pero también riesgos, grandes riesgos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u19.p2">En cuanto al contenido, me gustaría pararme en uno de los impuestos que consideramos más importantes en esta actualización del convenio y del concierto, que es el impuesto a las grandes fortunas. Quizás les parezca a algunos de ustedes una novedad, pero este impuesto ya existió hace diez años; fue puesto en marcha en la Diputación de Gipuzkoa bajo el Gobierno de Euskal Herria Bildu. Fue un impuesto que dio muy buenos resultados y que gravaba al 1 % más rico del territorio; un impuesto acordado y aprobado con el apoyo del Partido Socialista. Pero cuando el PNV llegó a la diputación eliminó el impuesto, también con el apoyo del Partido Socialista. Han hecho falta diez años para que ustedes, señorías del PSOE, desde Madrid - por supuesto - y con un alcance temporal y muy limitado, vuelvan a aceptar la necesidad de gravar la riqueza de las élites, de que estas aporten lo que deben en función de sus posibilidades. Ahora la aplicación del impuesto a las grandes fortunas volverá a estar en manos de las instituciones vascas, aunque, una vez más, no sabemos si finalmente se aplicará por las reticencias del PNV a hacerlo. Unos defienden gestionar este impuesto para poder impedir su aplicación, nosotras defendemos gestionarlo pero también aplicarlo. ¿Y qué harán ustedes esta vez, señorías del PSOE? ¿De qué lado se van a colocar?</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u19.p3">En cuanto al cupo, aunque aprobaremos su renovación, debemos señalar varias cuestiones frente a los previsibles discursos poniendo en valor el gran acuerdo alcanzado. La ley del cupo es una ley quinquenal que debía renovarse este año y su renovación se realizará exactamente en los mismos términos en los que se ha mantenido hasta ahora. Siendo así, me pregunto dónde está la negociación y el 'gran' acuerdo. Imaginamos que habrá sido fácil para el Gobierno español decir sí a un acuerdo para renovar el cupo, cuando en realidad tocaba y manteniendo la misma fórmula que hasta ahora, claramente beneficiosa para el Estado pero no para la ciudadanía vasca, por mucho que se diga aquí lo contrario. El actual cupo, establecido en el 6,24 % desde hace décadas, sigue suponiendo que vascos y vascas aportamos más de lo que nos corresponde por nuestro peso en el PIB y por población; millones de más que, por mucha solidaridad que tengamos, no deberíamos asumir. No lo decimos nosotras, lo han dicho diferentes consejeros del Gobierno vasco. Por tanto, quienes han negociado este acuerdo podría decirse que han hecho dejación de alguna forma, renunciando a negociar para conseguir un mejor acuerdo y aceptando seguir con la actual fórmula, es decir, seguir pagando más de lo que nos corresponde.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u19.p4">Hoy, con nuestras reservas, apoyaremos estas modificaciones, porque nos parece positivo que nuestras instituciones forales puedan contar con nuestras figuras fiscales, pero queremos recordar que seguir negociando y acordando infinitamente impuestos o competencias no es una solución para nuestro país. Aspiramos a una soberanía fiscal plena, y económica también. Aunque sean buenos instrumentos de autogobierno, el convenio y el concierto también son un freno para avanzar hacia nuestra soberanía. El hecho de tener que seguir, más de cuarenta años después, negociando el traspaso de competencias o la concertación de nuevos impuestos demuestra el mantenimiento de la relación de dependencia a la que este Estado sigue sometiendo a la ciudadanía vasca. Creemos que es hora de construir una nueva relación de igual a igual, una relación de respeto y no de imposición que alumbre una nueva realidad y que nos dé la capacidad íntegra de decidir y gestionar todos los aspectos sociales,económicos, culturales y lingüísticos. Además, todo esto no lo queremos contra nadie, no lo queremos contra ningún pueblo ni sociedad, sino simplemente a favor de la nuestra.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u19.p5">Eskerrik asko.</seg>
+               <vocal type="speaking">
+                  <desc>El señor Espinosa de los Monteros de Simón: ¡Qué vergüenza!-Aplausos.-Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u20" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u20.p1">Muchas gracias, señora Aizpurua.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u20.p2">Por el Grupo Parlamentario Vasco <note type="comment">EAJ-PNV</note>, tiene la palabra la señora Sagastizabal Unzetabarrenetxea.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u21"
+               who="#IdoiaSagastizabalUnzetabarrenetxea"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p1">Señora presidenta, ministra, según on.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p2">Quiero dar la bienvenida a los representantes del Gobierno vasco, de las diputaciones forales y del Gobierno de Navarra que se encuentran hoy aquí entre nosotros. Ongi etorri.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p3">Hoy es un día clave para Ugalde, el sur de nuestro país, porque aprobaremos la modificación de la ley por la que se aprueba el Concierto Económico, la ley quinquenal del cupo y la modificación de la ley por la que se aprueba el Convenio Navarro, ratificando, por tanto, lo acordado por la comisión mixta del concierto y la comisión negociadora del Convenio navarro para adaptar ambos instrumentos a los cambios legislativos producidos en el ordenamiento jurídico tributario del Estado.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p4">En el caso de Navarra, se incorporarán al convenio el impuesto especial sobre los envases de plástico, el impuesto a las grandes fortunas y la reforma del impuesto sobre los gases fluorados. En el caso de la Comunidad Autónoma del PaísVasco, los acuerdos lo son en dos ámbitos. En el ámbito tributario, se adapta el concierto a los cambios del impuesto sobre gases fluorados y se conciertan tres nuevas figuras: el impuesto especial sobre envases de plástico, el impuesto sobre depósitos de residuos y el impuesto a las grandes fortunas; este último, además, con capacidad normativa, por lo que serán las propias diputaciones forales las que lo tienen que regular. Y, en el ámbito financiero, se aprueba la nueva metodología del cupo para el quinquenio 2022-2026, cuya característica principal es la de su carácter continuista respecto del vigente cupo en la medida en que se mantienen la práctica totalidad de los parámetros que influyen en su determinación, entre ellos,el índice de imputación del 6,24 %. Son acuerdos, por tanto, que vienen a normalizar y regularizar las relaciones tributarias y financieras entre el Estado y la Comunidad autónoma vasca y la Comunidad Foral de Navarra permitiendo certidumbre económica, estabilidad financiera y seguridad jurídica a todas las instituciones en un momento muy particular de incertidumbre por la guerra de Ucrania. Por tanto, estamos ante un convenio y un concierto que se adaptan a las nuevas realidades y las diversas situaciones de carácter socioeconómico.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p5">Frente a las constantes apelaciones injustas que algunos grupos políticos hacen con respecto al convenio y el concierto, y que demuestran su desconocimiento y poco rigor en su crítica, voy a insistir en dos aspectos que siempre olvidan. Uno, el sistema de concierto o convenio está amparado en la disposición adicional primera de la Constitución española y su desarrollo se realiza a través de dos leyes orgánicas: el Estatuto de Autonomía de Gernika y la Ley orgánica de reintegración y amejoramiento del Régimen Foral de Navarra. Dos, su legitimidad y validez han sido avalados en repetidas ocasiones por la Unión Europea sobre la base de que cada comunidad autónoma cuenta con autonomía institucional, normativa y económica y, por tanto, las consecuencias financieras no serían compensadas por ayudas o subvenciones procedentes del Estado en el que esta comunidad está integrada, de forma que si existen dificultades o déficits por medidas que se hayan tomado, estas no pueden ser solucionadas con rescates del Estado, garantizando, por tanto, los principios y libertades comunitarios, incluidos los principios de subsidiariedad y solidaridad.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p6">Hoy, como ya ocurrió en 2017, volvemos a escuchar las mismas críticas interesadas desde determinados grupos políticos, calificando el concierto, el cupo y el convenio como privilegios, agravios, atentados a la igualdad, insolidarios y opacos, olvidando de forma intencionada lo que acabo de comentar. Hoy no voy a aclarar estas manifestaciones, ya lo hicimos en 2017; no me voy a repetir frente a quienes no quieren entender este sistema y, por tanto, no entienden la esencia contemplada en el bloque de constitucionalidad que conforman la Constitución, el Estatuto de Gernika y el amejoramiento navarro. Convenio y concierto significan pacto, saber llegar a acuerdos entre las distintas realidades; un pacto bilateral, un pacto que normaliza la relación institucional. Esto no es baladí, más si cabe en un momento en el que los desencuentros, los enfrentamientos, los descalificativos y los agravios residen en el debate político, dificultando cualquier acuerdo. Es un acuerdo que permite gestionar la pluralidad y la diversidad; un acuerdo complejo en cuanto a la fijación del cupo, sí, pero basado en criterios técnicos y transparentes; un acuerdo en el que el Estado defiende tanto el interés general como el de las demás regiones del Estado. Esto no lo digo yo, lo dice una sentencia del Tribunal de Justicia Europeo.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p7">Es un acuerdo que significa solidaridad, porque contribuimos a todas las cargas del Estado que no asuma cada comunidad autónoma, vía cupo o vía aportación; y contribuimos al Fondo de Compensación Interterritorial, y lo hacemos además por encima de la ratio de población y de riqueza, un 6,24 % frente al 5,93 %. Asimismo, significa riesgo unilateral, ya que asumimos el riesgo de una menor recaudación por los motivos que sean - una mala situación económica, decisiones normativas,...-; sea por lo que sea, debemos seguir pagando el cupo, independientemente de la evolución de nuestra recaudación en cada ejercicio, por lo que, si no disponemos de suficientes ingresos, o reducimos gasto o acudimos a déficits la deuda para financiar las necesidades presupuestarias de las administraciones vascas, pero no podemos acudir a quitas de deuda u otros mecanismos previstos para las comunidades autónomas de régimen común. Igualmente, significa capacidad de gestión, tanto en la recaudación de impuestos como en la gestión de gasto, porque los beneficios o perjuicios que se deriven de una buena o mala gestión tributaria corresponderá exclusivamente al conjunto de nuestras instituciones y repercutirán exclusivamente en la sociedad vasca. Es decir, debemos recaudar impuestos, gestionar de forma eficiente e invertir en políticas y servicios de nuestras competencias; conjugamos, por tanto, responsabilidad fiscal con capacidad de gasto.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p8">También significa estabilidad, manteniéndose actualizadas las competencias tributarias y financieras durante los siguientes cinco ejercicios presupuestarios en un momento de incertidumbre, sí, pero también ante futuros aires centralizadores, amenazas de la ultraderecha o un hipotético cambio de Gobierno. Y significa respeto a sistemas diferenciados, porque no hay vasos comunicantes entre los distintos sistemas de financiación del Estado y, por tanto, no se puede atribuir la responsabilidad de los problemas de financiación de las comunidades autónomas de régimen común al sistema de concierto o convenio, como tampoco se puede atribuir exclusivamente a la propia financiación autonómica los problemas que puedan padecer estas comunidades autónomas, ya que estos también dependen de otros factores y premisas. Igualmente, significa convivencia política, garantía de bienestar y respaldo social, porque es un sistema que cuenta con el reconocimiento y apoyo de la sociedad vasca y navarra. Lo dije en 2017 y hoy lo vuelvo a repetir: un hecho diferencial no equivale a privilegio alguno y tampoco el reconocimiento de una diferencia equivale a desigualdad.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u21.p9">Al hilo de esto, cuando menos es curioso que algún grupo político utilice el argumento de la igualdad del artículo 14 de la Constitución para oponerse al concierto y convenio, cuando precisamente son los que tienen el discurso más radical,excluyente y reaccionario. Una reflexión. ¿De verdad merece la pena utilizar la confrontación entre territorios, la confrontación entre ciudadanos, como forma de hacer política? Desde luego, no es la forma de hacer política que defendemos en nuestro grupo parlamentario, pero, lamentablemente, hoy hemos podido comprobar que hay quien seguirá utilizando el argumento del agravio, si bien, afortunadamente, no es lo que opina la mayoría de esta Cámara ni lo que piensan las vascas y vascos,las navarras y navarros. Porque quienes conocemos de primera mano lo que significan el convenio, el concierto y el cupo, pilares de nuestro autogobierno, sabemos que son herramientas claves para la competitividad y sostenibilidad de la economía,que nos permiten además contar con un sistema de protección social en salud, educación, vivienda, empleo y atención a las personas mayores, así como con políticas de igualdad y diversidad que han contribuido a mejorar la inclusión social y reducirla brecha de desigualdad entre la población.</seg>
+               <vocal type="murmuring">
+                  <desc>Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u22" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u22.p1">Señorías, les pido silencio, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u23"
+               who="#IdoiaSagastizabalUnzetabarrenetxea"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u23.p1">Término. Quiero manifestar mi agradecimiento a todos los grupos políticos que hoy van a apoyar estas tres leyes y a todo el cuerpo técnico que ha trabajado para lograr este acuerdo, en especial, al consejero de Hacienda del Gobierno vasco, el señor Azpiazu; a la ministra de Hacienda, la señora Montero, y a las diputadas y diputados de Hacienda de Araba, Bizkaia y Gipuzkoa, la señora Gonzalo de Zuazo, el señor Iruarrizaga y el señor Perona.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u23.p2">Eskerrik asko.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u24" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u24.p1">Muchas gracias, señora Sagastizabal.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u24.p2">Por el Grupo Parlamentario Plural, tiene la palabra, en primer lugar, el señor Rego Candamil.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u25"
+               who="#NéstorRegoCandamil"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u25.p1">Gracias, señora presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u25.p2">El BNG va a apoyar las tres propuestas del convenio, del concierto y del cupo, porque nos parece sensato, nos parece de sentido común. Igualmente, vamos a rechazar con absoluta contundencia las enmiendas a la totalidad de esa derecha ultra que continúa con su matraca de la España única de regiones y provincias, porque lo que realmente les molesta no es siquiera la existencia del convenio y del concierto, sino la existencia de pueblos diferentes de lo que ellos consideran el pueblo español, de naciones diferentes, de naciones como Galiza, que no encajan en su idea de esa España única. Pero, frente a esa posición de la derecha ultra, la defensa de los pueblos y de naciones como Galiza cada vez es más fuerte, así como la defensa de sus derechos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u25.p3">En ese sentido, considero que este debate abre también el debate general de la necesidad de modificar un sistema de financiación autonómica que, por lo menos en el caso de Galiza, no es justo ni adecuado. Hay que modificarlo para acabar con el expolio fiscal al que está sometido nuestro país, sí, porque, frente al relato tan funcional de los partidos estatales, tanto del PP como del PSOE, de que somos un país que vive subsidiado, que vive de la caridad de España, la realidad es muy diferente. Vivimos de nuestro propio trabajo y de nuestro propio esfuerzo. Y, como ya se sabe que dato mata relato, los datos son esclarecedores. En la liquidación de los presupuestos del año 2019 se certifica un saldo negativo para Galiza en sus relaciones fiscales con el Estado de aproximadamente 4500 millones de euros. El Estado recaudó en Galiza en ese año 13 212 millones, pero solo reintegró 8650 millones, es decir, perdemos prácticamente la tercera parte de los impuestos que pagamos al Estado, y eso sin contar con el efecto sede por el que más de 4000 empresas -4165 empresas el año pasado -, especialmente grandes empresas que operan en Galiza, pagan sus impuestos en Madrid. Podría poner muchos ejemplos porque entre ellas están las grandes eléctricas, como Endesa, esa empresa que era pública y que fue privatizada. Ahora es una filial de la empresa pública italiana Enel, pero aquí opera como gran empresa privada con embalses hidroeléctricos en nuestro país,Galiza, con parques eólicos y con una central térmica, y que paga el impuesto de sociedades en Madrid -329 millones de euros el año pasado -, donde no tiene ni centrales térmicas ni embalses hidroeléctricos ni parques eólicos y, por tanto, donde tampoco genera ningún impacto ambiental negativo. Creo que es un ejemplo esclarecedor.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u25.p4">En todo caso, más allá de esa defensa de un sistema de concierto, hay modificaciones posibles en el modelo actual que contribuirían a una mayor justicia, tomando en consideración, por ejemplo, criterios como el envejecimiento o la dispersión poblacional, que encarecen sobremanera los servicios que hay que prestar; aumentando al 90 % el porcentaje de cesión del IBI o del IRPF; con la cesión del impuesto sobre sociedades, o con la obligación de que las empresas que operan en Galicia Tributen en nuestro país para avanzar también en una fiscalidad verde para luchar contra la emergencia climática y, en todo caso, para hacer justicia con todo el mundo, en este caso con Galiza.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u25.p5">Obrigado.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u26" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u26.p1">Muchas gracias, señor Rego.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u26.p2">Por el mismo grupo parlamentario, tiene la palabra el señor Baldoví Roda.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u27"
+               who="#JoanBaldovíRoda"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u27.p1">Moltes gràcies, presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u27.p2">Permítanme comenzar con dos afirmaciones. Señorías del PP, señorías del PSOE, esto de hoy es una auténtica vergüenza y, sin embargo, votaré categórica y decididamente no a las enmiendas de VOX y de Ciudadanos, por supuesto. Me explico. ¿Recuerdan esos chistes en los que había un español, un francés, un inglés y un alemán? Pues los trasladó aquí. ¿Saben en qué se parecen un diputado vasco o navarro, de Unión del Pueblo Navarro, del PNV, de Bildu, del PSOE, del Partido Popular ode Unidas Podemos? En que cuando llega al Congreso el Convenio navarro, el cupo vasco o el Concierto Económico vasco todos votan igual, y eso les honra. Perfecto, defienden los intereses de sus ciudadanos, de su tierra, de su país. Me gustaría a mí que los diputados valencianos defendieran con el mismo ahínco sus intereses, pero no. Además, se cumple con la disposición adicional primera de la Constitución, que ampara y respeta los derechos históricos de los territorios forales; de algunos, porque hay territorios históricos y con fueros - con casi quinientos años de fueros - a los que no se nos respeta y ni siquiera quieren devolvernos nuestro derecho civil.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u27.p3">¿Y saben en qué se parecen el PP y el PSOE como dos gotas de agua? En que, cuando se habla de aprobar un nuevo sistema de financiación que sustituya al injusto sistema que lleva más de ocho años caducado, indefectiblemente siempre te dicen lo mismo: Ahora no es el momento, no hay un clima adecuado para que se pueda aprobar, no quiere el PP, no quiere el PSOE... Excusas, excusas, excusas, excusas. ¿Se puede aprobar la tramitación del Convenio navarro y del Concierto Económico vascoen dos días, con tramitación directa y en lectura única? Sí. ¿Y en ocho años, con gobiernos del PP con mayoría absoluta y del PSOE, no se ha podido tocar ni una coma del inaceptable, arbitrario y abusivo sistema de financiación caducado que castiga desde hace décadas a cinco millones de valencianas y valencianos a tener menos recursos y, por tanto, menos oportunidades? ¿En serio? Les doy solo dos datos. Media del PIB español, 25 000 euros; Comunidad Valenciana, 22.000 euros, 3000 por debajo; Navarra, 31 000 - nosotros estamos 8000 por debajo -; País Vasco, 32 000. Deuda de los valencianos, 54 000 millones; deuda de los navarros, 3000 millones; deuda de los vascos, 11 500 millones. Sistema de financiación, estamos al 93%, 7 puntos por debajo. Somos un territorio pobre con una mala financiación, y esto no se arregla. No se cumple el artículo 156 de la Constitución que habla de autonomía financiera. ¿Ustedes creen que con 54 000 millones de deuda los valencianos tenemos autonomía financiera? Si creen eso, que baje Dios y que lo vea.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u27.p4">Soluciones hemos dado, hemos dado muchas, muchas. Sin embargo, nunca llegan: ni fondo transitorio de liquidación, ni asunción de la deuda ilegítima -40 000 millones -, ni abordar el sistema de financiación.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u28" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u28.p1">Señor Baldoví, tiene que terminar, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u29"
+               who="#JoanBaldovíRoda"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u29.p1">Insisto, votaré convencido y decidido en contra de esas enmiendas y de toda la demagogia que se ha hecho aquí por parte de VOX y de Ciudadanos, pero, insisto, señores del PP y señores del PSOE, esto tiene que acabar de una vez por todas.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u30" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u30.p1">Muchas gracias, señor Baldoví.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u30.p2">Por el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, tiene la palabra la señora Garrido Gutiérrez.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u31"
+               who="#PilarGarridoGutiérrez"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u31.p1">Gracias, presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u31.p2">Diputados, diputadas, ministra, en primer lugar, quiero dar la bienvenida a los representantes del Gobierno vasco y del Gobierno navarro y también a los representantes de las diputaciones forales.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u31.p3">Hoy discutimos un tema que siempre nos lleva a grandes enfrentamientos. Respecto al discurso de la derecha, en este caso, de los señores de VOX y de Ciudadanos, que está basado básicamente en la profunda ignorancia y en el desconocimiento,solo quiero dar una idea que ya se ha repetido aquí pero en la que hay que hacer hincapié. El Concierto Económico vasco es también Constitución, señores de VOX y de Ciudadanos. El Concierto Económico, como ustedes saben, deriva de la disposición adicional primera de la Constitución, que ampara y respeta los derechos históricos de los territorios forales y ordena su actualización general en el Régimen Foral; y, por supuesto, el Concierto Económico es la manifestación quizás más genuina de esos derechos históricos. Con esta brevísima explicación quedaría zanjado el debate tan ruidoso de las derechas, que creo que se equivocan cuando atacan y descalifican el régimen especial de Euskadi y de Navarra, porque vuelvo a repetir que el Concierto Económico y el Convenio navarro son parte de la Constitución. Son parte esencial del pacto constitucional y hoy su posición y su discurso van en contra de la Constitución. Es un discurso de malos constitucionalistas porque, como bien decía la ministra, no se puede ser constitucionalistas a ratitos, un día sí y un día no. Pero lo que es más preocupante es que su discurso demuestra que no les gusta nada la España que somos, una España plural y una España de país de países. Eso es lo más grave de su discurso.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u31.p4">Respecto a las normas que hoy debatimos, por un lado, está el proyecto de ley que fija la metodología, el señalamiento del cupo en el próximo quinquenio. Como todos sabemos, el cupo es la aportación que Euskadi hace cada año a las arcas comunes del Estado por las competencias no transferidas al Gobierno autonómico: ciertas infraestructuras, aeropuertos, puertos, representación exterior y defensa. Nada que decidir y nada que objetar respecto al instrumento, al cupo. Quizás sí aprovecharía la ocasión para pedir un mayor esfuerzo de transparencia. Creo que es importante una mayor transparencia en relación a cómo se calcula ese cupo y la valoración de los servicios que el Estado desarrolla en Euskadi porque, como ya hemos visto aquí, hay demasiadas leyendas urbanas de la izquierda y de la derecha. Por eso, es necesario sacar el cupo de los despachos, alejarlo de las negociaciones y de los intereses partidistas, y ser capaces de explicarlo a la ciudadanía de una manera clara. Creo que con este trabajo y con este esfuerzo se fortalecería la imagen del Concierto Económico y del convenio tanto en Euskadi y en Navarra como en el resto del territorio.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u31.p5">Por otro lado, la modificación del convenio y del Concierto Económico para poder, como sabemos, incorporar los cambios que se han hecho en el sistema tributario del Estado que tienen que ver con nuevos impuestos, concretamente con el impuesto especial sobre envases de plástico, impuesto sobre el depósito de residuos en vertederos, impuesto sobre gases fluorados de efecto invernadero y el impuesto temporal de solidaridad de las grandes fortunas. En este último impuesto me quiero detener. Este último impuesto, el impuesto a las grandes fortunas, junto con otros gravámenes, como los gravámenes a la banca o a las empresas energéticas, ponen en marcha en el Estado una reforma fiscal que camina, por fin, hacia un modelo fiscal más justo y más progresivo, donde se les exige a aquellos que han obtenido beneficios extraordinarios - que se cuentan, como sabemos, por miles de millones en estos años de crisis - que sean corresponsables con su país y contribuyan a sostener lo público en nuestro Estado del bienestar, al igual que hacen, siempre y sin chistar, los trabajadores y trabajadoras de este país.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u31.p6">En relación con este camino emprendido - que espero que tenga más hitos, más recorrido y traiga más cambios -, y aprovechando también que están aquí representantes del Gobierno vasco, concretamente, el consejero de Hacienda, el señor Azpiazu,sí quiero decir que me preocupa, y mucho, que Euskadi - teniendo, como sabemos, los instrumentos de autogobierno propios y esa autonomía fiscal y tributaria - pierda el tren de la justicia fiscal. Me preocupa que seamos vagón de cola y no la locomotora que tiramos de esa nueva fiscalidad más justa y más progresiva. Ya sabemos que al Partido Nacionalista Vasco no le gusta la reforma iniciada en el Estado español, no le gusta el impuesto a las energéticas, no le gusta el impuesto a la banca ni tampoco el de grandes fortunas, y a los hechos me remito. A través de las enmiendas que introdujoel Partido Nacionalista Vasco conseguimos reducir casi a la mitad los ingresos que van a venir por parte de esos impuestos, dejando fuera, por ejemplo, los negocios en el extranjero o también los ingresos del mercado regulado. El partidonacionalista ha sido especialmente exigente, muy muy cabezón para rebajar el impuesto a las energéticas. Han sido muy muy generosos con Iberdrola y con Petronor. En el Senado propusieron una enmienda para equilibrar pérdidas y ganancias, y así Petronor no tenía que pagar ni un duro.</seg>
+               <vocal type="murmuring">
+                  <desc>Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u32" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u32.p1">Perdone, señora Garrido.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u32.p2">Señorías, silencio, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u33"
+               who="#PilarGarridoGutiérrez"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u33.p1">Decía que, a través de esa enmienda en el Senado, Petronor no tenía que pagar nada.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u33.p2">En cuanto al impuesto de las grandes fortunas en Euskadi, que es complementario, como sabemos, al de patrimonio, más de lo mismo. Se va a aplicar un solo año y ya veremos, no lo tengo claro. Mientras, Euskadi está a 7 puntos de distancia de la presión fiscal media en los países europeos. Por lo tanto, espero que esa reforma fiscal anunciada por el partido nacionalista, con el apoyo del Partido Socialista de Euskadi, no siga manteniéndonos en ese vagón de cola de la justicia fiscal. Sería muy triste, sobre todo, me imagino, para los nacionalistas, que España tenga que venir a sostener con sus impuestos los servicios públicos vascos. <vocal type="speaking">
+                     <desc>El señor Esteban Bravo: Eso es muy bueno</desc>
+                  </vocal> El gravamen a la banca y a las energéticas que no se va a traspasar, ese que han querido ustedes rebajar, nos va a dar a los vascos y a las vascas, aproximadamente en dos años, 400 millones. Hay una realidad en Euskadi: tenemos un Estado del bienestar muy débil. Osakidetza tiene muy mala salud. Tendremos manifestaciones multitudinarias este fin de semana.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u33.p3">Por lo tanto, necesitamos - y acabó - que todos arrimen el hombro, también aquellos que han obtenido beneficios extraordinarios, escandalosos en estos años. Necesitamos asegurar a la ciudadanía vasca servicios públicos de calidad. Para eso está nuestro autogobierno. Necesitamos una reforma fiscal mucho más justa y mucho más progresiva. No queremos ser vagón de cola de la justicia fiscal, queremos ser locomotora que tire de esa justicia fiscal más justa y más progresiva.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u34" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u34.p1">Gracias, señora Garrido.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u34.p2">Por el Grupo Parlamentario Popular en el Congreso, tiene la palabra el señor Elorriaga Pisarik.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u35"
+               who="#GabrielElorriagaPisarik"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u35.p1">Gracias, presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u35.p2">He de reconocer que subo a la tribuna con una singular satisfacción. Hace ahora poco más de veinte años tuve ocasión de firmar, en representación del Estado, el acuerdo que hizo ver la luz el Concierto Económico vasco; un acuerdo que,además de modernizar la norma original de 1981, dio el paso trascendental de darle carácter indefinido, muestra inequívoca del anclaje permanente del modelo foral en el modelo constitucional español.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u35.p3">Quiero empezar destacando - antes de saludar, que no quiero olvidarme, a todas las autoridades vascas y navarras que nos acompañan y, especialmente, a don Pedro Azpiazu, compañero de estos escaños durante muchísimos años - que mi grupo apoyará la aprobación de estos tres proyectos de ley que actualizan, como viene exigido por el modelo de concierto y convenio, la normativa vigente tras las alteraciones experimentadas por el sistema tributario español. Nada nuevo, una medida muchas veces repetida y, por lo tanto, un procedimiento que, periódicamente, es necesario para mantener actualizados los sistemas forales.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u35.p4">Despejada, por lo tanto, esta duda, permítame, señora Montero, que me dirija un poco más a lo que ha sido su responsabilidad en este y en otros temas. Deje por un momento su habitual triunfalismo, trate de rebajar ese tono desafiante que utiliza en la confrontación con cualquier grupo parlamentario y descienda un poco a la realidad. No soy tan ingenuo como para pensar que me va a escuchar usted a mí, pero quizá fuese útil que lo hiciera con un compañero de partido. Esto publicaba hace un par de días quien fue jefe de gabinete de un vicepresidente económico socialista, quien fue responsable de política económica en la ejecutiva federal del Partido Socialista, quien fue ministro de un Gobierno socialista. Decía exactamente esto sobre su política fiscal: Demasiada gente está quedando atrás en España como para no sentirse preocupado. Al menos, eso dicen los datos. Más de la mitad de las familias no llega a fin de mes o lo hace con muchas dificultades y más de un 60 % llega con mayor dificultad ahora que hace un año. El reciente estudio sobre desigualdad de los profesores Cantó y Ayala constata el preocupante estrechamiento de la clase media y su traspaso a la clase baja baja como una prueba más de la creciente desigualdad social en España. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Es perceptible - decía Jordi Sevilla, puesto que de él estoy hablando - la pérdida de poder adquisitivo de los salarios al crecer menos que los precios. Hace que de esta crisis se esté saliendo, otra vez, mediante una devaluación salarial en términos reales. Estos son los grandes problemas que afectan hoy a España: falla la predistribución y la redistribución, y así lo entiendeel 58 % de los ciudadanos, según recoge, nada menos, el CIS. El problema que más desafecta a los españoles es el paro y su situación económica. Este es el resultado de su gestión económica, señora Montero.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u35.p5">Probablemente, usted lo ha leído y lo conoce, pero el problema es que los proyectos que hoy debatimos nos traen una muestra de esa pésima gestión de la política fiscal española, porque lo que hoy nos traen aquí, aunque sea inevitable, aunque se derive necesariamente de las normas que nos hemos dado, es una inmensa chapuza. Y se lo voy a explicar. Primera chapuza. Ha impulsado usted la aprobación de un segundo impuesto sobre el patrimonio personal, con un afán abiertamente centralizador. Lo hace de la manera más torpe y con el único objetivo de confrontar con las comunidades autónomas gobernadas por el Partido Popular. Después, se da cuenta de que su decisión armonizadora choca frontalmente con el concierto y con el convenio. Finalmente, para no enfrentarse a sus aliados parlamentarios, nacionalistas e independentistas, concluye que su voracidad recaudatoria no alcanza a los territorios forales. Bien está; yo me alegro; no quiero el impuesto en ningún lado, por lo menos que no esté allí. Pero para excluirlos de las consecuencias derivadas de su decisión original, ahora concierta el impuesto; no le queda otro remedio. Pero entonces llegamos al más completo absurdo. Las haciendas forales no tendrán ahora un impuesto sobre el patrimonio personal, sino dos, y podrán recargar su propio impuesto con otro idéntico que se le superpone, un lucro sin precedentes de técnica legislativa. Y como el resultado es completamente absurdo, aunque sea inevitable, ya se nos anuncia desde el País Vasco y desde Navarra que el impuesto no se va a aplicar allí en el ejercicio 2022, como sí se va a hacer en el resto de España. Y ya le anunció que tampoco se hará en el 2023, simplemente porque su decisión fue un capricho y un completo disparate.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u35.p6">Segunda chapuza que nos trae hoy aquí. Usted impulsa la aprobación de dos gravámenes sobre los beneficios extraordinarios de la banca y las empresas energéticas. Como, según su tesis, no son tributos, no son susceptibles de ser incorporados al concierto ni al convenio. Vale. Pero de nuevo sus socios parlamentarios le recuerdan una cosa que en derecho se suele llamar el principio de irrelevancia del nomen iuris, lo que también se suele llamar a veces principio de primacía dela realidad, que significa una cosa muy simple: las cosas son lo que son y no lo que las partes dicen que son. Lo que usted llama gravámenes, son verdaderos impuestos, prestaciones coactivas exigidas sin contraprestación, y como tales deben ser tratadas. Por su naturaleza y por su configuración, deberían ser tributos concertados de normativa común, pero como no es posible, porque según usted no son impuestos y no son gravámenes, no se pueden concertar. Muy bien. ¿Cuál es la solución? Vale, no se conciertan, pero se compensan al margen, y así el País Vasco recibirá el 6,24 % del volumen de ingresos estimado para estas figuras en estos años próximos, unos 400 o 450 millones de euros. Muy bien, se descontarán del cupo. Para Navarra se llega al mismo acuerdo en la proporción de su PIB, el 1,6, unos 110 millones, que se descontarán de la aportación. Ambas comunidades asumen íntegramente al tiempo la definición y la gestión de aquellas ayudas que se financian con estos nuevos impuestos. Perfecto. <vocal type="murmuring">
+                     <desc>Rumores</desc>
+                  </vocal> Pero el problema es que si los gravámenes no se conciertan, pero se entrega la proporción correspondiente a las haciendas forales, ¿por qué no se hace con el resto de las haciendas autonómicas? Porque lo que usted está diciendo con este acuerdo...</seg>
+               <vocal type="murmuring">
+                  <desc>Rumores</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u36" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u36.p1">Señorías, silencio, por favor.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u37"
+               who="#GabrielElorriagaPisarik"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u37.p1">... es que, por un lado, los gastos son territorializables y, por otro lado, los ingresos distribuibles en función del PIB. Eso vale, señores de Esquerra Republicana, igual para Cataluña, señor Baldoví, igual para Valencia, o igual para Madrid; se podría distribuir para todos.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u37.p2">Por tanto, permítanme que termine ya con este tema, y voy a repetir una cosa que se ha dicho ya en muchas ocasiones y que conviene resaltar. Miren, precisión y transparencia son la mejor garantía de la continuidad de estas instituciones. Con acciones como las que en los últimos años se han desarrollado no han hecho sino perjudicarlas, ustedes de la mayoría socialista y todos los socios parlamentarios que en este tiempo les han apoyado.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u37.p3">Muchas gracias.</seg>
+               <vocal type="speaking">
+                  <desc>La señora Montesinos de Miguel: ¡Muy bien!-Aplausos</desc>
+               </vocal>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u38" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u38.p1">Muchas gracias, señor Elorriaga.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u38.p2">Por el Grupo Parlamentario Socialista, tiene la palabra el señor Cerdán León.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u39"
+               who="#SantosCerdánLeón"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p1">Gracias, presidenta.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p2">Un saludo para los representantes del Gobierno vasco que hoy nos acompañan. El convenio y el Concierto Económico tienen su respaldo constitucional en la disposición adicional primera de la Constitución - lo han referido algunos de los que han hablado antes que yo -, y los proyectos de ley que hoy debatimos han seguido los procedimientos establecidos. En el caso de Navarra han sido los siguientes. El pasado 28 de diciembre de 2022 se reunió la comisión negociadora para acordar la modificación del texto legal del convenio económico; a continuación, el Consejo de Ministros, en sesión celebrada el 31 de enero, aprobó los proyectos de ley. Estos acuerdos de modificación han sido sometidos también a la aprobación del Parlamento de Navarra, obteniendo el respaldo por unanimidad de la Cámara en sesión plenaria del pasado 2 de febrero. Por unanimidad, señora Arrimadas. También el parlamentario de Ciudadanos, nada más y nada menos que su secretario de organización nacional<kinesic type="applause">
+                     <desc>aplausos</desc>
+                  </kinesic>, votó a favor, señora Arrimadas. También voy a decir una cosa a favor de su diputado nacional, y es que es de los pocos que no ha saltado del barco; tiene mérito. Luego hablaré de su enmienda.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p3">En cuanto al contenido de la modificación, se trata de la armonización de nuevos impuestos en el convenio y en el concierto. El primero de ellos es un nuevo impuesto que se incorpora al convenio y al Concierto Económico, que ha entrado en vigor el pasado 1 de enero de 2023 a nivel estatal, y es el impuesto sobre envases y plásticos no reutilizables. El segundo se incorpora a una nueva disposición adicional octava con respecto al impuesto temporal de solidaridad de las grandes fortunas. La aprobación de estas leyes, convenio y concierto, hoy aquí supone la culminación de un largo y constante trabajo desarrollado entre administraciones con lealtad institucional y diálogo constante. Cuando a algunos se les llena la boca en la supuesta defensa de la Constitución, quizá lo más oportuno es contestarles con los hechos. Esto es defender Navarra y esto es defender la Constitución. Hechos y no palabras. Defender y mejorar una herramienta constitucional como es el Convenio Económico Navarra-Estado y el Concierto Económico Euskadi-Estado es lo que está haciendo el Gobierno de España.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p4">Señorías de Ciudadanos, su enmienda a la totalidad está redactada desde el desconocimiento y la ignorancia. Tenía dudas sobre si era solo eso o mala fe, pero me ha quedado claro después de su intervención, señora Arrimadas, que son las dos cosas. Es ignorancia, es desconocimiento y mala fe, y me ha quedado claro que 120 páginas son muchas para usted. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> El Gobierno de Navarra lo preside una socialista, que es la presidenta María Chivite, y es el Gobierno Navarra quien,junto al Gobierno de España, determina las relaciones tributarias entre Navarra y el Estado desde la armonización, y no lo hace ningún agente externo, como dicen en su enmienda a la totalidad. Y no, no es ningún privilegio, es todo lo contrario a lo que ustedes quieren mantener. Porque si vamos al segundo impuesto conveniado, el impuesto a las grandes fortunas, manifiestan en la enmienda a la totalidad su preocupación por la celeridad de la aplicación. Han oído bien, están preocupados por la celeridad, porque se va a hacer pronto. ¿Qué quieren decir, que no se aplique el impuesto en Navarra? Eso sí sería un privilegio, señora Arrimadas; no aplicarlo en Navarra sería un privilegio para las grandes fortunas de Navarra.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p5">También dicen que es un impuesto ideológico, y tienen razón, pero creo que de verdad es lo que les molesta. Claro que es ideológico, y es política, señora Arrimadas; una política muy distinta a la de la derecha que ustedes están apuntalando y han apuntalado. La justicia fiscal y la justicia social es ideología. Unos defendemos a la mayoría social y otros solo defienden los privilegios de unos cuantos poderosos, a la gente de bien, que diría Feijóo: a los bancos, a las energéticas y a las grandes fortunas. <kinesic type="applause">
+                     <desc>Aplausos</desc>
+                  </kinesic> Toda una ideología resumida en una sola expresión: gente de bien. Frente a eso están nuestras políticas, y se llama socialdemocracia, frente al neoliberalismo que ustedes representan. Porque destrozar la sanidad pública, como está haciendo Ayuso en Madrid, es ideología. Porque poner copago de 150 euros a la atención primaria, como propone Moreno Bonilla en Andalucía, es ideología. Porque el tijeretazo que le dio Feijóo a la sanidad en Galicia en el año 2022 es ideología, esa ideología y la política que el PP defiende y que ustedes, señora Arrimadas, apoyan. Porque las cosas son lo que son, es verdad, es lo que parece, es lo que es. Y claro que es política y es ideología lo que también hace el Gobierno de España gobernado por Pedro Sánchez: aumentar un 24 % las plazas mir es ideología; aumentar 1000 millones de euros la atención primaria es ideología; o aprobar, como aprobó el martes, la mayor partida presupuestaria de la historia en becas -2520 millones de euros-es ideología <kinesic type="applause">
+                     <desc>aplausos</desc>
+                  </kinesic>, un 70 % más que el PP. ¡Claro que es ideología! Y es política lo que hacemos en el PSOE, basada en la igualdad de oportunidades: política útil para la mayoría. Y para todos aquellos que con su discurso incendiario y anticonstitucional solo buscan destruir los cauces de entendimiento que ha costado mucho tiempo lograr, casi solo cabrían la indiferencia y el rechazo, pero no me resisto a decirles algo. Por cierto, señora Cañizares Pacheco, he visto los aplausos y los abrazos que le han dado cuando ha terminado la intervención, y se le está poniendo cara de Macarena Olona. <gap reason="inaudible">
+                     <desc>La señora Cañizares Pacheco pronuncia palabras que no se perciben</desc>
+                  </gap> Cuídese, porque seguramente estará el señor Évole detrás de usted.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p6">Señorías de VOX, este Convenio Económico Navarra-Estado y el Concierto Económico Euskadi-Estado son la expresión pura de respeto entre instituciones y ejemplo de convivencia, esa que ustedes desean destruir como sea.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u39.p7">Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u40" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u40.p1">Muchas gracias, señor Cerdán.</seg>
+               <kinesic type="signal">
+                  <desc>La señora Arrimadas García pide la palabra</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u40.p2">¿Sí, señora Arrimadas?</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u41"
+               who="#InésArrimadasGarcía"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u41.p1">Señora presidenta, por alusiones del portavoz socialista Santos Cerdán, en virtud del artículo 72...</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u42" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u42.p1">No considero que haya habido ninguna alusión ofensiva que esté en el marco del artículo del Reglamento. Señora Arrimadas, forma parte del debate.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u43"
+               who="#InésArrimadasGarcía"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u43.p1">Treinta segundos.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u44" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u44.p1">Muchas gracias.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>AVOCACIÓN DE INICIATIVAS LEGISLATIVAS - PROYECTO DE LEY DE MOVILIDAD SOSTENIBLE. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u45" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u45.p1">Continuamos con el punto del orden del día relativo a la propuesta de avocación por el Pleno de la Cámara de la deliberación y votación final del Proyecto de Ley de Movilidad Sostenible. Esta propuesta se someterá a votación junto con el resto de asuntos. Votaremos en tres minutos.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u46" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u46.p1">Señorías, vamos a dar comienzo a las votaciones. Ocupen sus escaños, por favor.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u46.p2">Tramitación directa y en lectura única de iniciativas legislativas. Votación de las enmiendas a la totalidad al Proyecto de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, presentadas por los Grupos Parlamentarios Ciudadanos y VOX.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u46.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u46.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 60; en contra, 278.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u47" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u47.p1">En consecuencia, quedan rechazadas las enmiendas.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u47.p2">- PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO.</seg>
+               <note type="comment">Número de expediente 121/000143</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u48" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u48.p1">Votación de las enmiendas a la totalidad al proyecto de ley por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, presentadas por los grupos parlamentarios Ciudadanos y VOX. Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u48.p2">Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 60; en contra, 278.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u49" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u49.p1">En consecuencia, quedan rechazadas las enmiendas.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u49.p2">- PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026.</seg>
+               <note type="comment">Número de expediente 121/000144</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u50" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u50.p1">Votación de las enmiendas a la totalidad al proyecto de ley por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2022-2026, presentadas por los grupos parlamentarios Ciudadanos y VOX.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u50.p2">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u50.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 338; a favor, 60; en contra, 278.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u51" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u51.p1">En consecuencia, quedan rechazadas las enmiendas.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>PALABRAS DE LA PRESIDENCIA</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u52" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u52.p1">Señorías, les informo de que desde las once y cinco hasta las once y cuarenta, es decir, durante media hora, se podrán votar telemáticamente las proposiciones no de ley, las mociones, la votación de conjunto de los proyectos de ley que se tramitan por el procedimiento de lectura única y la propuesta de avocación por el Pleno de la Cámara de la deliberación y votación final del Proyecto de ley de Movilidad Sostenible. Por tanto, suspenderemos la sesión durante cuarenta y cinco minutos. La votación presencial de estos puntos se producirá una vez reanudada la misma.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u52.p2">Se suspende la sesión hasta las once y cuarenta y cinco.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u52.p3">Muchas gracias.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u52.p4">Se suspende la sesión a las once de la mañana.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u52.p5">Se reanuda la sesión a las once y cuarenta y cinco minutos de la mañana.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>PROPOSICIONES NO DE LEY : - PROPOSICIÓN NO DE LEY DEL GRUPO PARLAMENTARIO PLURAL, SOBRE LA CONCESIÓN DE PERMISOS PARA LA PREVENCIÓN DEL SUICIDIO. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u53" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u53.p1">Señorías, reanudamos la sesión. Ocupan sus escaños. Comenzamos con las votaciones.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u53.p2">Proposiciones no de ley. Proposición no de ley del Grupo Parlamentario Plural, sobre la concesión de permisos para la prevención del suicidio. Se vota en los términos de la enmienda transaccional presentada por el Grupo ParlamentarioSocialista, el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común, el Grupo Parlamentario Plural, señor Errejón Galván, el Grupo Parlamentario Ciudadanos y el Grupo Parlamentario Vasco</seg>
+               <note type="comment">EAJ-PNV</note>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u53.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u53.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 340.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u54" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u54.p1">En consecuencia, queda aprobada por unanimidad la proposición no de ley.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u54.p2">- PROPOSICIÓN NO DE LEY DEL GRUPO PARLAMENTARIO CIUDADANOS, RELATIVA A GARANTIZAR LA IGUALDAD EN EL ACCESO A LOS TRATAMIENTOS DE CÁNCER EN TODO EL TERRITORIO NACIONAL.</seg>
+               <note type="comment">Número de expediente 162/00146</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u55" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u55.p1">Proposición no de ley del Grupo Parlamentario Ciudadanos, relativa a garantizar la igualdad en el acceso a los tratamientos de cáncer en todo el territorio nacional. Se vota en los términos de la enmienda transaccional presentada por el Grupo Parlamentario Socialista, el Grupo Parlamentario Popular en el Congreso, el Grupo Parlamentario Confederal de Unidas Podemos-En Comú Podem-Galicia en Común y el Grupo Parlamentario Ciudadanos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u55.p2">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u55.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 307; en contra, 14; abstenciones, 19.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u56" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u56.p1">En consecuencia, queda aprobada la proposición no de ley.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>MOCIONES CONSECUENCIA DE INTERPELACIONES URGENTES : - MOCIÓN CONSECUENCIA DE INTERPELACIÓN URGENTE DEL GRUPO PARLAMENTARIO REPUBLICANO, SOBRE LA NECESIDAD DE ADOPTAR LAS MODIFICACIONES LEGISLATIVAS OPORTUNAS PARA INCREMENTAR LAS INDEMNIZACIONES POR DESPIDO IMPROCEDENTE A FIN DE CONSEGUIR UN RESARCIMIENTO REAL DEL TRABAJADOR AFECTADO Y UN EFECTO DISUASORIO. .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u57" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u57.p1">Mociones consecuencia de interpelaciones urgentes. Moción consecuencia de interpelación urgente del Grupo Parlamentario Republicano, sobre la necesidad de adoptar las modificaciones legislativas oportunas para incrementar las indemnizaciones por despido improcedente a fin de conseguir un resarcimiento real del trabajador afectado y un efecto disuasorio. Se vota en sus términos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u57.p2">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u57.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 55; en contra, 222; abstenciones, 63.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u58" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u58.p1">En consecuencia, queda rechazada la moción.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u58.p2">- MOCIÓN CONSECUENCIA DE INTERPELACIÓN URGENTE DEL GRUPO PARLAMENTARIO POPULAR EN EL CONGRESO, SOBRE EL DESARROLLO DE LA ACCIÓN DEL GOBIERNO EN EL ÁMBITO DEL MINISTERIO DE JUSTICIA, ESPECIALMENTE EN LO REFERENTE A LA HUELGA DE LETRADOS DE LA ADMINISTRACIÓN DE JUSTICIA, ASÍ COMO SOBRE LA PROPUESTA Y EJECUCIÓN DE LA POLÍTICA DEL GOBIERNO PARA EL DESARROLLO DEL ORDENAMIENTO JURÍDICO EN MATERIA DE DERECHO PENAL, CIVIL, MERCANTIL Y PROCESAL.</seg>
+               <note type="comment">Número de expediente 173/000195</note>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u59" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u59.p1">Moción consecuencia de interpelación urgente del Grupo Parlamentario Popular en el Congreso, sobre el desarrollo de la acción del Gobierno en el ámbito del Ministerio de Justicia, especialmente en lo referente a la huelga de letrados de la Administración de Justicia, así como sobre la propuesta y ejecución de la política del Gobierno para el desarrollo del ordenamiento jurídico en materia de derecho penal, civil, mercantil y procesal. Votación separada por puntos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u59.p2">Punto 1.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u59.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u59.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 178; en contra, 151; abstenciones, 11.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u60" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u60.p1">En consecuencia, queda aprobado el punto 1.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u60.p2">Punto 2.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u60.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u60.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 169; en contra, 152; abstenciones, 19.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u61" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u61.p1">En consecuencia, queda aprobado el punto 2.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u61.p2">Punto 3.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u61.p3">Comienza la votación. <incident type="pause">
+                     <desc>Pausa</desc>
+                  </incident> Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 116; en contra, 150; abstenciones, 74.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u62" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u62.p1">En consecuencia, queda rechazado el punto 3.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u62.p2">Punto 4.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u62.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u62.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 314; en contra, 8; abstenciones, 18.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u63" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u63.p1">En consecuencia, queda aprobado el punto 4.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u63.p2">Punto 5.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u63.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u63.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 315; en contra, 8; abstenciones, 17.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u64" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u64.p1">En consecuencia, queda aprobado el punto 5.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u64.p2">Punto 6.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u64.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u64.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 303; en contra, 8; abstenciones, 29.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u65" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u65.p1">En consecuencia, queda aprobado el punto 6.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u65.p2">Y punto 7.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u65.p3">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u65.p4">Efectuada la votación, dio el siguiente resultado: votos emitidos, 340; a favor, 154; en contra, 150; abstenciones, 36.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u66" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u66.p1">En consecuencia, queda aprobado el punto 7.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>TRAMITACIÓN DIRECTA Y EN LECTURA ÚNICA DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 28/1990, DE 26 DE DICIEMBRE, POR LA QUE SE APRUEBA EL CONVENIO ECONÓMICO ENTRE EL ESTADO Y LA COMUNIDAD FORAL DE NAVARRA. . - VOTACIÓN DE CONJUNTO.</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u67" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u67.p1">Tramitación directa y en lectura única de iniciativas legislativas. Votación de conjunto del texto del Proyecto de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra, por tramitarse en lectura única, teniendo en cuenta las correcciones técnicas distribuidas.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u67.p2">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u67.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 336; a favor, 273; en contra, 59; abstenciones, 4.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u68" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u68.p1">En consecuencia, queda aprobado.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u68.p2">- PROYECTO DE LEY POR LA QUE SE MODIFICA LA LEY 12/2002, DE 23 DE MAYO, POR LA QUE SE APRUEBA EL CONCIERTO ECONÓMICO CON LA COMUNIDAD AUTÓNOMA DEL PAÍS VASCO.</seg>
+               <note type="comment">Número de expediente 121/000143</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>- VOTACIÓN DE CONJUNTO</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u69" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u69.p1">Votación de conjunto del texto del Proyecto de ley por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, por tramitarse en lectura única, teniendo en cuenta las correcciones técnicas distribuidas. Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u69.p2">Efectuada la votación, dio el siguiente resultado: votos emitidos, 336; a favor, 273; en contra, 60; abstenciones, 3.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u70" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u70.p1">En consecuencia, queda aprobado.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u70.p2">- PROYECTO DE LEY POR LA QUE SE APRUEBA LA METODOLOGÍA DE SEÑALAMIENTO DEL CUPO DEL PAÍS VASCO PARA EL QUINQUENIO 2022-2026, POR TRAMITARSE EN LECTURA ÚNICA.</seg>
+               <note type="comment">Número de expediente 121/000144</note>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>- VOTACIÓN DE CONJUNTO</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u71" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u71.p1">Votación de conjunto del texto del Proyecto de ley por la que se aprueba la metodología de señalamiento del cupo del País Vasco para el quinquenio 2022-2026, por tramitarse en lectura única, teniendo en cuenta las correcciones técnicas distribuidas.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u71.p2">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u71.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 336; a favor, 273; en contra, 60; abstenciones, 3.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u72" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u72.p1">En consecuencia, queda aprobado.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>AVOCACIÓN DE INICIATIVAS LEGISLATIVAS : - PROYECTO DE LEY DE MOVILIDAD SOSTENIBLE, PRESENTADA POR EL GRUPO PARLAMENTARIO PLURAL .</head>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u73" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p1">Avocación de iniciativas legislativas. Votación de la solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del Proyecto de Ley de Movilidad Sostenible, presentada por el Grupo Parlamentario Plural, señor Errejón Galván.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p2">Comienza la votación.</seg>
+               <incident type="pause">
+                  <desc>Pausa</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u73.p3">Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 339.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2023-02-23-CD230223.u74" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p1">En consecuencia, queda aprobada la avocación a Pleno.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p2">Muchas gracias a todos.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p3">Se levanta la sesión.</seg>
+               <seg xml:id="ParlaMint-ES_2023-02-23-CD230223.u74.p4">Eran las doce del mediodía.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
