@@ -3,7 +3,7 @@ cd ParlaMint
 
 FAIL=0
 
-DATADIR=Sample
+DATADIR=Samples
 
 TESTDIR="SAMPLE/Parla-CLARIN"
 mkdir -p $TESTDIR
