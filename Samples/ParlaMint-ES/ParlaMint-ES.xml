@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint]</title>
-            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint]</title>
+            <title type="main" xml:lang="es">Corpus parlamentario en español ParlaMint-ES [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Spanish parliamentary corpus ParlaMint-ES [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="es">Actas del Congreso de los Diputados de España, legislaturas X-XIV (2015-2023)</title>
             <title type="sub" xml:lang="en">Minutes from the National Congress in Spain, terms 10-14 (2015-2023)</title>
             <meeting n="10" corresp="#CD" ana="#parla.lower #parla.term #CD.10">Legislatura X</meeting>
@@ -50,7 +50,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="76369" xml:lang="es">76369 intervenciones</measure>
             <measure unit="speeches" quantity="76369" xml:lang="en">76369 speeches</measure>
             <measure unit="words" quantity="19645025" xml:lang="es">19645025 palabras</measure>
@@ -68,7 +68,7 @@
                <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
                <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
             </availability>
-            <date when="2023-08-10">2023-08-10</date>
+            <date when="2023-08-25">2023-08-25</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -104,7 +104,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="450"/>
                <tagUsage gi="desc" occurs="71876"/>
@@ -156,6 +156,10 @@
             <language ident="en" xml:lang="en">English</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-25">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2015-01-20-CD150120.xml"/>
@@ -167,5 +171,4 @@
                href="ParlaMint-ES_2022-01-25-CD220125.xml"/>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-ES_2023-02-23-CD230223.xml"/>
-
 </teiCorpus>
