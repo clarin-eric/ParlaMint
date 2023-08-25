@@ -2,9 +2,9 @@ pwd
 cd ParlaMint
 
 changed_files=$(git diff --name-only HEAD HEAD~1)
-parla_changed=$(echo "$changed_files"|grep 'Sample/ParlaMint-.*/'|sed -n 's/^Sample\/ParlaMint-\([-A-Z]*\).*.xml$/\1/p'|sort|uniq|tr '\n' ' '|sed 's/ *$//')
+parla_changed=$(echo "$changed_files"|grep 'Samples/ParlaMint-.*/'|sed -n 's/^Samples\/ParlaMint-\([-A-Z]*\).*.xml$/\1/p'|sort|uniq|tr '\n' ' '|sed 's/ *$//')
 scripts_changed=$(echo "$changed_files"|egrep  "^(Schema|Scripts)")
-parla_all=$(echo Sample/ParlaMint-*|sed 's/Sample\/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
+parla_all=$(echo Samples/ParlaMint-*|sed 's/Samples\/ParlaMint-\([-A-Z]*\)/\1/g'|sort)
 
 
 parla_process=$(test -z "${parla_changed}" && echo "${parla_all}" || echo "${parla_changed}")
@@ -13,8 +13,8 @@ parla_process=$(echo "[\"$parla_process\"]"|sed 's/  */","/g'| sed 's/^\[""\]$/[
 parla_changed_size=0
 for parla in $parla_changed;
 do
-  size=$(find Sample/ParlaMint-$parla -type f -name "ParlaMint-$parla*.xml"  -print0 | du -c --block-size=1000000 --files0-from=-|tail -1|cut -f 1)
-  echo "::notice:: Sample/ParlaMint-$parla size =${size} MB"
+  size=$(find Samples/ParlaMint-$parla -type f -name "ParlaMint-$parla*.xml"  -print0 | du -c --block-size=1000000 --files0-from=-|tail -1|cut -f 1)
+  echo "::notice:: Samples/ParlaMint-$parla size =${size} MB"
   parla_changed_size=$(echo "$parla_changed_size+$size"|bc)
 done
 
