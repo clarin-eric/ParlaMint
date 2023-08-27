@@ -1,14 +1,21 @@
 ## Transliteration tests
 test-translit4:
-	$s tsv=0.tsv -xsl:bin/trans-tsv2tei.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml > ParlaMint-BG-listPerson.xml
+	${vlp} ParlaMint-GR-listPerson.xml
+	${vlo} ParlaMint-GR-listOrg.xml
 test-translit3:
-	bin/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml ParlaMint-BG-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml ParlaMint-BG-listOrg.xml
+
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listPerson.xml ParlaMint-GR-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
+
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml ParlaMint-UA-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml ParlaMint-UA-listOrg.xml
 test-translit2:
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
+	bin/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
 test-translit1:
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml > ParlaMint-BG-listPerson.tsv
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listPerson.xml > ParlaMint-GR-listPerson.tsv
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml > ParlaMint-UA-listPerson.tsv
+	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
+
 
 ######## Merging taxonomies
 
@@ -43,7 +50,7 @@ merge-taxos:
 # CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = AT
+CORPORA = CZ
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -196,7 +203,7 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 mt-nohup:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
 mt-all-final:	mt-convert
-mt-xall-final:	mt-init mt-convert mt-verts mt-pack mt-web
+mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
 mt-web:
 	rsync -av Logs/*-en*.log ${WEB}/Logs
