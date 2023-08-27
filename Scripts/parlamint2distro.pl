@@ -197,7 +197,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
     my $outAnaDir  = "$outDir/$anaDir";      # $outAnaDir   =~ s/$XX/-$MT/ if $MT;
     my $outAnaRoot = "$outDir/$anaRoot";     # $outAnaRoot  =~ s/$XX/-$MT/ if $MT;
-    my $outSmpDir  = "$outDir/Sample-$XX";   # $outSmpDir   =~ s/$XX/-$MT/ if $MT;
+    my $outSmpDir  = "$outDir/$XX";          # $outSmpDir   =~ s/$XX/-$MT/ if $MT;
     my $outTxtDir  = "$outDir/$XX.txt";      # $outTxtDir   =~ s/$XX/-$MT/ if $MT;
     my $outConlDir = "$outDir/$XX.conllu";   # $outConlDir  =~ s/$XX/-$MT/ if $MT;
     my $outVertDir = "$outDir/$XX.vert";     # $outVertDir  =~ s/$XX/-$MT/ if $MT;
