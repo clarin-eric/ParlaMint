@@ -112,7 +112,7 @@
     </xsl:copy>
   </xsl:template>
     
-  <!-- This make a "proper" sample, but is confusing for those that
+  <!-- This makes a "proper" sample, but is confusing for those that
        take the samples as a model of how to prepare their corpora 
   <xsl:template match="tei:publicationStmt/tei:pubPlace"/>
   <xsl:template match="tei:publicationStmt/tei:idno[@type='handle']">
@@ -129,7 +129,7 @@
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <bibl>
-        <title>Multilingual comparable corpora of parliamentary debates ParlaMint 1.0</title>
+        <title>Multilingual comparable corpora of parliamentary debates ParlaMint</title>
         <xsl:copy-of select="ancestor::tei:teiHeader//tei:publicationStmt/tei:idno[@type='handle']"/>
       </bibl>
       <xsl:apply-templates/>
