@@ -21,9 +21,9 @@
 
   <xsl:variable name="notes">
     <xsl:variable name="data" select="unparsed-text($notesFile, 'UTF-8')"/>
-    <!--xsl:message terminate="yes" select="concat('FATAL: note file ', $notesFile, ' has ', $data)"/-->
+    <!--xsl:message terminate="yes" select="concat('FATAL ERROR: note file ', $notesFile, ' has ', $data)"/-->
     <!--xsl:if test="not(doc-available($notesFile))">
-      <xsl:message terminate="yes" select="concat('FATAL: note file ', $notesFile, ' not found!')"/>
+      <xsl:message terminate="yes" select="concat('FATAL ERROR: note file ', $notesFile, ' not found!')"/>
     </xsl:if-->
     <list xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:for-each select="tokenize($data, '\n')">

@@ -22,7 +22,7 @@
   
   <xsl:template match="/">
     <xsl:if test="not($country eq 'BG' or $country eq 'GR' or $country eq 'UA')">
-      <xsl:message terminate="yes" select="concat('FATAL: Script meant only for BG, GR, UA, not ', $country)"/>
+      <xsl:message terminate="yes" select="concat('FATAL ERROR: Script meant only for BG, GR, UA, not ', $country)"/>
     </xsl:if>
     <xsl:variable name="output">
       <xsl:apply-templates select="//tei:listPerson | //tei:listOrg"/>
@@ -44,7 +44,7 @@
     <xsl:variable name="lang" select = "ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:if test="$lang != 'en'">
       <xsl:if test="tei:*">
-	<xsl:message terminate="yes" select="concat('FATAL: nested element in ', name(), ': ', tei:*[1]/name())"/>
+	<xsl:message terminate="yes" select="concat('FATAL ERROR: nested element in ', name(), ': ', tei:*[1]/name())"/>
       </xsl:if>
       <xsl:value-of select="normalize-space(.)"/>
       <xsl:text>&#10;</xsl:text>

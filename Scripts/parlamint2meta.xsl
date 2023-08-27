@@ -90,7 +90,7 @@
         <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
         <xsl:if test="not(normalize-space($speaker))">
           <xsl:message terminate="yes">
-            <xsl:text>FATAL: Can't find speaker for </xsl:text>
+            <xsl:text>FATAL ERROR: Can't find speaker for </xsl:text>
             <xsl:value-of select="@who"/>
             <xsl:text> in </xsl:text>
             <xsl:value-of select="@xml:id"/>

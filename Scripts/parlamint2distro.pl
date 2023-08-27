@@ -178,17 +178,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
-	die "FATAL: Need version\n" unless $Version;
-	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
-	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: Need version\n" unless $Version;
+	die "FATAL ERROR: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
+	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	# Output top level readme
 	&cp_readme_top($countryCode, $MT, 'ana', $handleAna, $Version, $docsDir, $outDir);
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
-	die "FATAL: No handle given for TEI.ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: No handle given for TEI.ana distribution\n" unless $handleAna;
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outAnaDir/00README.txt");
-	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
+	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	# Remove unwanted files
 	`rm -f $outAnaDir/Schema/.gitignore`;
@@ -207,16 +207,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI\n";
-	die "FATAL: Need version\n" unless $Version;
-	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
-	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
+	die "FATAL ERROR: Need version\n" unless $Version;
+	die "FATAL ERROR: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
+	die "FATAL ERROR: No handle given for TEI distribution\n" unless $handleTEI;
 	# Output top level readme
 	&cp_readme_top($countryCode, $MT, 'TEI', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.txt"}
 	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
-	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
+	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
@@ -255,7 +255,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
-	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
+	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
 	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
 	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
@@ -265,20 +265,20 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
-	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
+	else {die "FATAL ERROR: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
-	else {die "FATAL: Neither $outTeiDir nor $outAnaDir exits\n"}
+	else {die "FATAL ERROR: Neither $outTeiDir nor $outAnaDir exits\n"}
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: ***Making $countryCode CoNLL-U\n";
-	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
-	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
@@ -288,8 +288,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: ***Making $countryCode vert\n";
-	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
-	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
@@ -352,9 +352,9 @@ sub cp_readme_top {
     my $countryName; # Country name obtained from existing README
     my $countryCode; # Country code obtained from existing README
     my $RegionalSuffix; #Not used
-    die "FATAL: No country for cp_readme_top\n" unless $country;
-    die "FATAL: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
-    die "FATAL: No version for cp_readme_top\n" unless $version or $type eq 'sample';
+    die "FATAL ERROR: No country for cp_readme_top\n" unless $country;
+    die "FATAL ERROR: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
+    die "FATAL ERROR: No version for cp_readme_top\n" unless $version or $type eq 'sample';
     my $inFile = "$inDir/README-$country.md";
     $inFile =~ s|-$mt|| if $mt; #Need to remove e.g. '-en' from input readme, as we don't have such input files
     # Construct output filename: in sample it is just README.md, other types add on a suffix
@@ -368,8 +368,8 @@ sub cp_readme_top {
     }
     $outFile .= ".md";
     
-    open IN, '<:utf8', $inFile or die "FATAL: Can't open input top README $inFile\n";
-    open OUT,'>:utf8', $outFile or die "FATAL: Can't open output top README $outFile\n";
+    open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input top README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "FATAL ERROR: Can't open output top README $outFile\n";
     # Input:  # ParlaMint directory for samples of country AT (Austria)
     # Output depends on $type, $MT, and $country:
     # sample: # Samples of the ParlaMint-AT corpus
@@ -382,7 +382,7 @@ sub cp_readme_top {
     while (<IN>) {
 	if (m|^# ParlaMint|) {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
-	    die "FATAL: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
+	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type =~ /TEI/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
@@ -414,11 +414,11 @@ sub cp_readme {
     my $version = shift;
     my $inFile  = shift;
     my $outFile = shift;
-    die "FATAL: No country for cp_readme\n" unless $country;
-    die "FATAL: No handle for cp_readme\n" unless $handle;
-    die "FATAL: No version for cp_readme\n" unless $version;
-    open IN, '<:utf8', $inFile or die "FATAL: Can't open input README $inFile\n";
-    open OUT,'>:utf8', $outFile or die "FATAL: Can't open output README $outFile\n";
+    die "FATAL ERROR: No country for cp_readme\n" unless $country;
+    die "FATAL ERROR: No handle for cp_readme\n" unless $handle;
+    die "FATAL ERROR: No version for cp_readme\n" unless $version;
+    open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "FATAL ERROR: Can't open output README $outFile\n";
     while (<IN>) {
 	s/XX/$country/g;
 	s/YY/$handle/g;

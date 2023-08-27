@@ -17,7 +17,7 @@ $conllDir = shift;
 $outDir = shift;
 
 ($country) = $inDir =~ m|-([A-Z]{2}(-[A-Z]{2})?)\.| or
-    die "FATAL: Strange input directory $inDir!\n";
+    die "FATAL ERROR: Strange input directory $inDir!\n";
 
 $notesFile = File::Spec->rel2abs($notesFile);
 $inTEI     = File::Spec->rel2abs($inDir);
@@ -42,7 +42,7 @@ mkdir $tmpTEI unless -d $tmpTEI;
 
 foreach $yearDir (glob "$tmpTEI/*") {
     next unless -d $yearDir;
-    ($year) = $yearDir =~ m|/(\d\d\d\d)$| or die "FATAL: Strange $yearDir\n";
+    ($year) = $yearDir =~ m|/(\d\d\d\d)$| or die "FATAL ERROR: Strange $yearDir\n";
     print STDERR "INFO: Processing $country $year\n";
     `mkdir $outDir/$year` unless -d "$outDir/$year";
     foreach $inFile (glob "$tmpTEI/$year/*.xml") {
@@ -50,7 +50,7 @@ foreach $yearDir (glob "$tmpTEI/*") {
 	$tmpFile1 = "$tmpDir/$fName.body.xml";
 	$tmpFile2 = "$tmpDir/$fName.note.xml";
 	$conllFile = "$conllDir/$year/$fName.conllu";
-	die "FATAL: Cant find ConLL-U file $conllFile\n" unless -e $conllFile;
+	die "FATAL ERROR: Cant find ConLL-U file $conllFile\n" unless -e $conllFile;
 	$outFile = "$outDir/$year/$fName.ana.xml";
 	print STDERR "INFO: Processing $year/$fName\n";
 	`$scriptConllu2Tei < $conllFile > $tmpFile1`;

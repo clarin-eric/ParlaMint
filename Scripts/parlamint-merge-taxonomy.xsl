@@ -21,7 +21,7 @@
   <!-- Template taxonomy -->
   <xsl:variable name="template-taxonomy">
     <xsl:if test="not(doc-available($template))">
-      <xsl:message terminate="yes" select="concat('FATAL: template file ', $template, ' not found')"/>
+      <xsl:message terminate="yes" select="concat('FATAL ERROR: template file ', $template, ' not found')"/>
     </xsl:if>
     <xsl:copy-of select="document($template)"/>
   </xsl:variable>

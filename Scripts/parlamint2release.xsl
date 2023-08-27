@@ -311,7 +311,7 @@
 	<xsl:value-of select="replace(., '^\s+', '')"/>
       </xsl:when>
       <xsl:otherwise>
-	  <xsl:message terminate="yes" select="concat('FATAL ', /tei:*/@xml:id, 
+	  <xsl:message terminate="yes" select="concat('FATAL ERROR ', /tei:*/@xml:id, 
                                ': strange situation with ', .)"/>
       </xsl:otherwise>
     </xsl:choose>

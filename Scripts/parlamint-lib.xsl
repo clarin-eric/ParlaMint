@@ -46,7 +46,7 @@
     <xsl:variable name="date" select="/tei:TEI/tei:teiHeader//tei:setting/tei:date"/>
     <xsl:if test="not($date/@when)">
       <xsl:message terminate="yes">
-        <xsl:text>FATAL: Can't find TEI date/@when in setting of input file </xsl:text>
+        <xsl:text>FATAL ERROR: Can't find TEI date/@when in setting of input file </xsl:text>
         <xsl:value-of select="/tei:TEI/@xml:id"/>
       </xsl:message>
     </xsl:if>
@@ -112,7 +112,7 @@
       <xsl:when test="normalize-space($meta)">
         <xsl:if test="not(doc-available($meta))">
           <xsl:message terminate="yes">
-            <xsl:text>FATAL: root document </xsl:text>
+            <xsl:text>FATAL ERROR: root document </xsl:text>
             <xsl:value-of select="$meta"/>
             <xsl:text> given as "meta" parameter not found !</xsl:text>
           </xsl:message>

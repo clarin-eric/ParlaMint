@@ -51,7 +51,7 @@ foreach $inCorpDir (sort glob $inDirs) {
     $anaSuffix = '' unless $anaSuffix;
     print STDERR "INFO: Doing $country TEI$anaSuffix\n";
     $outCorpDir = "$outDir/ParlaMint-$country.TEI$anaSuffix";
-    die "FATAL: Can't find output directory $outCorpDir\n" unless -e $outCorpDir;
+    die "FATAL ERROR: Can't find output directory $outCorpDir\n" unless -e $outCorpDir;
 
     # Copy all XML files, will overwrite the relevant listOrg and listPerson in &process
     foreach $xmlFile (glob "$inCorpDir/*.xml") {
@@ -91,7 +91,7 @@ sub process {
     my $tsvFile  = shift;
     my $script  = shift;
     my $outListFile  = shift;
-    die "FATAL: For $type can't find input file $inListFile\n" unless -e $inListFile;
+    die "FATAL ERROR: For $type can't find input file $inListFile\n" unless -e $inListFile;
     if (-e $tsvFile) {
 	print STDERR "INFO: Adding TSV metadata for $type\n";
 	my $command = "$Saxon tsv=$tsvFile -xsl:$script $inListFile > $outListFile";
