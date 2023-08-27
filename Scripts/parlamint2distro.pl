@@ -100,21 +100,56 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
-# For the following taxonomies we substitute the local taxonomy with common one
+# For the following taxonomies we substitute the local taxonomy with common one,
+# reduced to the relevant langauges
 # We are assuming taxonomies are relative to the Scripts/ (i.e. $Bin/) directory
-# Probably a temporary solution, to be substituted by a separate script
 $taxonomyDir = "$Bin/../Corpora/Taxonomies";
-# Currently we do it only for subcorpus
-$taxonomy{'ParlaMint-taxonomy-subcorpus'}             = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
-#$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
-#$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
-#$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
+$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
+$taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+$taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
+#We do not translate these two:
 #$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
-#$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
-#$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
+#$taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
+# Mapping of countries to langauges, we need it for mapping of common taxonomies
+# Note we don't always (for UA, ES-XX) choose all the languages that the transcripts are in but only the local one
+$country2lang{'AT'} = 'de';
+$country2lang{'BA'} = 'bs';
+$country2lang{'BE'} = 'fr nl';
+$country2lang{'BG'} = 'bg';
+$country2lang{'CZ'} = 'cs';
+$country2lang{'DK'} = 'da';
+$country2lang{'EE'} = 'et';
+$country2lang{'ES'} = 'es';
+$country2lang{'ES-CT'} = 'ca';
+$country2lang{'ES-GA'} = 'gl';
+$country2lang{'ES-PV'} = 'eu';
+$country2lang{'FI'} = 'fi';
+$country2lang{'FR'} = 'fr';
+$country2lang{'GB'} = 'en';
+$country2lang{'GR'} = 'el';
+$country2lang{'HR'} = 'hr';
+$country2lang{'HU'} = 'hu';
+$country2lang{'IS'} = 'is';
+$country2lang{'IT'} = 'it';
+$country2lang{'LT'} = 'lt';
+$country2lang{'LV'} = 'lv';
+$country2lang{'NL'} = 'nl';
+$country2lang{'NO'} = 'no';
+$country2lang{'PL'} = 'pl';
+$country2lang{'PT'} = 'pt';
+$country2lang{'RO'} = 'ro';
+$country2lang{'RS'} = 'sr';
+$country2lang{'SE'} = 'sv';
+$country2lang{'SI'} = 'sl';
+$country2lang{'TR'} = 'tr';
+$country2lang{'UA'} = 'uk'; 
+
 $scriptRelease = "$Bin/parlamint2release.xsl";
 $scriptCommon  = "$Bin/parlamint-add-common-content.xsl";
+$scriptTaxonomy= "$Bin/parlamint-init-taxonomy.xsl";
 $scriptPolish  = "$Bin/polish-xml.pl";
 $scriptValid   = "$Bin/validate-parlamint.pl";
 $scriptSample  = "$Bin/corpus2sample.xsl";
@@ -202,7 +237,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&commonTaxonomies($outAnaDir);
+	&commonTaxonomies($countryCode, $outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
@@ -227,13 +262,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: ***Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&commonTaxonomies($outTeiDir);
+	&commonTaxonomies($countryCode, $outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
+	`rm -fr $outSmpDir`;
 	if (-e $outTeiRoot) {
-	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	    `$scriptTexts $outSmpDir $outSmpDir`;
 	}
@@ -250,6 +285,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
 	# Output top level readme but not for $MTed version, as it would overwrite the original
 	# The Sample readme does not have handle or version, as the sample can change irrespective of them
+	&commonTaxonomies($countryCode, $outSmpDir);
 	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
 	    unless $MT;
     }
@@ -302,15 +338,18 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Finished processing $countryCode corpus.\n";
 }
 
-# Substitute local with common taxonomies
+# Substitute local with common taxonomies & reduce languages to en + corpus one(s)
 sub commonTaxonomies {
-    my $Dir = shift;
+    my $Country = shift;
+    my $outDir = shift;
     foreach my $taxonomy (sort keys %taxonomy) {
-	if (-e $taxonomy{$taxonomy}) {
-	    #This should not be a simple cp, but rather script that retains only relevant langauge(s)!!! 
-	    `cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	if ($taxonomy !~ /\.ana/ or
+	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
+	    if (-e $taxonomy{$taxonomy}) {
+		`$Saxon langs='$country2lang{$Country}' -xsl:$scriptTaxonomy $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
+	    }
+	    else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
 	}
-	else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
     }
     return 1;
 }
