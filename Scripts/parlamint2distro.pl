@@ -288,6 +288,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	&commonTaxonomies($countryCode, $outSmpDir);
 	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
 	    unless $MT;
+	&polish($outSmpDir);
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
