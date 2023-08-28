@@ -13,10 +13,15 @@ leftBRACKET := (
 rightBRACKET := )
 LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBRACKET)]*$(rightBRACKET),*/ /g" | tr -s " " | sed 's/ $$//' )
 
-TAXONOMIES-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
-TAXONOMIES = $(addsuffix .xml, $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-INTERF)))
+TAXONOMIES-TRANSLATE-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES-TRANSLATE = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-TRANSLATE-INTERF))
+
+TAXONOMIES-COPY-INTERF = UD-SYN.ana CHES
+TAXONOMIES-COPY = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-COPY-INTERF))
+
 ##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
 DATADIR = Samples
+SHARED = Corpora
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
 WORKINGDIR = Samples/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
@@ -89,16 +94,21 @@ setup-parliament-newInParlaMint2:
 ## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
 #### parameter LANG-CODE-LIST can contain space separated list of languages
 initTaxonomies-XX = $(addprefix initTaxonomies-, $(PARLIAMENTS))
-$(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMIES))
-	cp ${DATADIR}/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/
+$(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMIES-TRANSLATE)) $(addprefix copyTaxonomy-%--, $(TAXONOMIES-COPY))
 
-# initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(foreach Y,$(TAXONOMIES), initTaxonomy-$X-$Y))
-initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES) ) )
+# initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(foreach Y,$(TAXONOMIES-TRANSLATE), initTaxonomy-$X-$Y))
+initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
 $(initTaxonomy-XX-tt): initTaxonomy-%:
 	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
 	@${s} langs="$(LANG-CODE-LIST)" -xsl:Scripts/parlamint-init-taxonomy.xsl \
-	  ${DATADIR}/Taxonomies/`echo -n '$*' | sed 's/^.*--//'` \
-	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*' | sed 's/^.*--//'`
+	  ${SHARED}/Taxonomies/`echo -n '$*.template.xml' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
+
+copyTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix copyTaxonomy-${X}--, $(TAXONOMIES-COPY) ) )
+$(copyTaxonomy-XX-tt): copyTaxonomy-%:
+	@echo "INFO: copying " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
+	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
 
 ###### Validate with Relax NG schema
