@@ -107,8 +107,13 @@ $(initTaxonomy-XX-tt): initTaxonomy-%:
 copyTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix copyTaxonomy-${X}--, $(TAXONOMIES-COPY) ) )
 $(copyTaxonomy-XX-tt): copyTaxonomy-%:
 	@echo "INFO: copying " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
-	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
-	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
+	@${s} langs="$(LANG-CODE-LIST)" if-lang-missing="skip" -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
+
+
+#	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+#	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
 
 ###### Validate with Relax NG schema

@@ -16,6 +16,7 @@
 
   <xsl:output method="xml" indent="yes"/>
   <xsl:param name="langs"/>
+  <xsl:param name="if-lang-missing">comment</xsl:param>
   <xsl:variable name="languages" select="tokenize($langs, '\s+')"/>
 
   <xsl:template match="/">
@@ -54,9 +55,11 @@
         </xsl:when>
         <!-- prepare elements for new translation -->
         <xsl:otherwise>
-          <xsl:apply-templates select="$elem" mode="translate">
-            <xsl:with-param name="lang" select="$lang"/>
-          </xsl:apply-templates>
+          <xsl:if test="not($if-lang-missing = 'skip')">
+            <xsl:apply-templates select="$elem" mode="translate">
+              <xsl:with-param name="lang" select="$lang"/>
+            </xsl:apply-templates>
+          </xsl:if>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
@@ -81,8 +84,11 @@
   <xsl:template match="tei:*" mode="translate">
     <xsl:param name="lang"/>
     <xsl:copy>
-      <xsl:if test="$lang"><xsl:attribute name="xml:lang" select="$lang"/></xsl:if>
-      <xsl:apply-templates mode="translate"/>
+      <xsl:apply-templates select="@*[not(name() = 'lang')]"/>
+      <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="$lang"/></xsl:if>
+      <xsl:apply-templates mode="translate">
+        <xsl:with-param name="lang" select="$lang"/>
+      </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
 
@@ -91,8 +97,19 @@
   </xsl:template>
 
   <xsl:template match="text()[normalize-space(.)]" mode="translate">
-    <xsl:if test="matches(.,'^ *:.*$')"><xsl:text>: </xsl:text></xsl:if>
-    <xsl:comment><xsl:value-of select="replace(.,'^ *: *','')"/></xsl:comment>
+    <xsl:param name="lang"/>
+    <xsl:if test="matches(.,'^\s*:')"><xsl:text>: </xsl:text></xsl:if>
+    <xsl:variable name="text" select="normalize-space(replace(.,'^\s*: *',''))"/>
+    <xsl:if test="$text">
+      <xsl:choose>
+        <xsl:when test="$if-lang-missing = 'comment'">
+          <xsl:comment><xsl:value-of select="replace(.,'^\s*:\s*','')"/></xsl:comment>
+        </xsl:when>
+        <xsl:when test="$if-lang-missing = 'use-english'">
+          <xsl:value-of select="replace(.,'^\s*:\s*','')"/>[missing <xsl:value-of select="$lang"/> translation]
+        </xsl:when>
+      </xsl:choose>
+    </xsl:if>
   </xsl:template>
 
 </xsl:stylesheet>
