@@ -47,8 +47,7 @@ val-schema:
 	$j tei_odds.rng tmp/ParlaMint.xml
 
 # Validate samples
-#DATA = ../Data
-DATA = ../../ParlaMint-data/Data
+DATA = ../Samples
 val-samples:
 	./validate.pl samples ${DATA}
 

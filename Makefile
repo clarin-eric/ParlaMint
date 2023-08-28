@@ -1,16 +1,24 @@
 .DEFAULT_GOAL := help
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS UA
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
-##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
-DATADIR = Data
+
+LANG-LIST =
+leftBRACKET := (
+rightBRACKET := )
+LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBRACKET)]*$(rightBRACKET),*/ /g" | tr -s " " | sed 's/ $$//' )
+
+TAXONOMIES-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES = $(addsuffix .xml, $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-INTERF)))
+##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
+DATADIR = Samples
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
-WORKINGDIR = Data/TMP
+WORKINGDIR = Samples/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
 ##$##                 of corpus root file. E.g. setting CORPUSDIR_SUFFIX=.TEI allow running targets on content
 ##$##                 of ParlaMint-XX.TEI folder that contains corresponding ParlaMint-XX(.ana).xml files.
@@ -54,10 +62,13 @@ endif
 ifndef LANG-LIST
 	$(error LANG-LIST is not set - use "make TARGET LANG-LIST='<langcode1> (Language1), <langcode2> (Language2)'" )
 endif
-	test ! -d ./Data/ParlaMint-$(PARLIAMENT-CODE)
-	mkdir ./Data/ParlaMint-$(PARLIAMENT-CODE)
-	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
-	echo "## Languages: $(LANG-LIST)" >> ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	test ! -d ./Samples/ParlaMint-$(PARLIAMENT-CODE)
+	mkdir ./Samples/ParlaMint-$(PARLIAMENT-CODE)
+	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Samples/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	echo "## Languages: $(LANG-LIST)" >> ./Samples/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	echo "LANG-CODE-LIST=$(LANG-CODE-LIST)"
+	make initTaxonomies-$(PARLIAMENT-CODE) PARLIAMENTS="$(PARLIAMENT-CODE)" LANG-CODE-LIST="$(LANG-CODE-LIST)"
+	git status ./Samples/ParlaMint-$(PARLIAMENT-CODE)/*
 
 setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Austria' PARLIAMENT-CODE='AT' LANG-LIST='de (German)'
@@ -73,6 +84,21 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Galicia' PARLIAMENT-CODE='ES-GA' LANG-LIST='gl (Galician)'
 	make setup-parliament PARLIAMENT-NAME='Bosnia and Herzegovina' PARLIAMENT-CODE='BA' LANG-LIST='bs (Bosnian)'
 	make setup-parliament PARLIAMENT-NAME='Serbia' PARLIAMENT-CODE='RS' LANG-LIST='sr (Serbian)'
+
+
+## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
+#### parameter LANG-CODE-LIST can contain space separated list of languages
+initTaxonomies-XX = $(addprefix initTaxonomies-, $(PARLIAMENTS))
+$(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMIES))
+	cp ${DATADIR}/Taxonomies/ParlaMint-taxonomy-UD-SYN.ana.xml ${DATADIR}/ParlaMint-$*${CORPUSDIR_SUFFIX}/
+
+# initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(foreach Y,$(TAXONOMIES), initTaxonomy-$X-$Y))
+initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES) ) )
+$(initTaxonomy-XX-tt): initTaxonomy-%:
+	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
+	@${s} langs="$(LANG-CODE-LIST)" -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	  ${DATADIR}/Taxonomies/`echo -n '$*' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*' | sed 's/^.*--//'`
 
 
 ###### Validate with Relax NG schema
@@ -116,14 +142,14 @@ $(val-schema-ParlaCLARIN-XX): val-schema-ParlaCLARIN-%: val-schema-tei-ParlaCLAR
 
 $(val-schema-tei-ParlaMint-XX): val-schema-tei-ParlaMint-%: %
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | xargs ${vrt}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | grep -v '.ana.' | xargs ${vch_taxonomy}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 $(val-schema-ana-ParlaMint-XX): val-schema-ana-ParlaMint-%: %
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml" | xargs ${vra}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | xargs ${vch_taxonomy}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
@@ -201,7 +227,7 @@ validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
 validate-parlamint: $(validate-parlamint-XX)
 ## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
 $(validate-parlamint-XX): validate-parlamint-%: %
-	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}'
+	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}' || echo "ERROR: fatal error when validating ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}"
 
 
 
@@ -233,12 +259,21 @@ $(chars-XX): chars-%: %
 
 
 text-XX = $(addprefix text-, $(PARLIAMENTS))
-## text ## create text version from tei files
+## text ## create text version from TEI files
 text: $(text-XX)
-## text-XX ## convert tei files to text
+## text-XX ## convert TEI files to text
 $(text-XX): text-%: %
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+
+text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
+## text.ana ## create text version from TEI.ana files
+text.ana: $(text.ana-XX)
+## text.ana-XX ## convert TEI.ana files to text
+$(text.ana-XX): text.ana-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 
@@ -249,7 +284,7 @@ meta: $(meta-XX)
 ## meta-XX ## ...
 $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
 
@@ -363,6 +398,28 @@ $(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-te
 	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
 	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
 
+
+###### Useful conversions and scripts
+
+text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI files - each line contains one segment
+text.seg: $(text.seg-XX)
+## text-XX ## convert TEI files to text
+$(text.seg-XX): text.seg-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+
+text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI.ana files - each line contains one segment
+text.seg.ana: $(text.seg.ana-XX)
+## text.seg.ana-XX ## convert TEI.seg.ana files to text
+$(text.seg.ana-XX): text.seg.ana-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
 
 
 ######---------------

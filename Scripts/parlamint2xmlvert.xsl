@@ -17,6 +17,8 @@
   
   <xsl:output method="xml" indent="no" omit-xml-declaration="yes"/>
   
+  <xsl:param name="nosyntax"/>
+  
   <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
@@ -51,57 +53,81 @@
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:for-each select="tei:text/tei:body/tei:div[tei:u]/tei:*">
+    <xsl:apply-templates  select="tei:text/tei:body/tei:div[tei:u]/tei:*">
+      <xsl:with-param name="text_id" select="$text_id"/>
+      <xsl:with-param name="title" select="$title"/>
+    </xsl:apply-templates>
+  </xsl:template>
+  
+  <xsl:template match="tei:div/tei:u">
+    <xsl:param name="text_id"/>
+    <xsl:param name="title"/>
+    <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
+    <xsl:variable name="lang">
+      <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+      <!-- Collect all the languages of utterance segments -->
+      <xsl:variable name="langs">
+	<xsl:variable name="lgs">
+	  <xsl:for-each select="tei:seg">
+	    <xsl:value-of select="@xml:lang"/>
+	    <xsl:text>&#32;</xsl:text>
+	  </xsl:for-each>
+	</xsl:variable>
+	<xsl:value-of select="distinct-values(tokenize(normalize-space($lgs)))"/>
+      </xsl:variable>
       <xsl:choose>
-        <xsl:when test="self::tei:u">
-          <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
-          <speech id="{$speech_id}" text_id="{$text_id}"
-                  subcorpus="{$subcorpus}" body="{$body}"
-		  term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
-                  date="{$at-date}" title="{$title}">
-            <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
-            <xsl:choose>
-            <xsl:when test="@who">
-              <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
-              <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
-              <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
-              <xsl:attribute name="speaker_name" select="et:format-name-chrono(
-                                                         $speaker//tei:persName, 
-                                                         $at-date)"/>
-              <xsl:attribute name="speaker_mp" select="et:speaker-mp($speaker)"/>
-              <xsl:attribute name="speaker_minister" select="et:speaker-minister($speaker)"/>
-              <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
-              <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
-              <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
-              <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
-              <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:attribute name="speaker_role"/>
-              <xsl:attribute name="speaker_id"/>
-              <xsl:attribute name="speaker_name"/>
-              <xsl:attribute name="speaker_type"/>
-              <xsl:attribute name="speaker_party"/>
-              <xsl:attribute name="speaker_party_name"/>
-              <xsl:attribute name="party_status"/>
-              <xsl:attribute name="speaker_gender"/>
-              <xsl:attribute name="speaker_birth"/>
-            </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>&#10;</xsl:text>
-            <xsl:apply-templates/>
-          </speech>
-          <xsl:text>&#10;</xsl:text>
-        </xsl:when>
-	<!-- Process transcriber note only if last in the series, 
-	     as they are empty elements in vert -->
-        <xsl:when test="not(preceding::tei:*[1]
-			[self::tei:head | self::tei:note | self::tei:gap |
-			self::tei:vocal | self::tei:incident | self::tei:kinesic])">
-          <xsl:apply-templates select="."/>
+	<!-- Segments not marked for language, so name of language of utterance -->
+	<xsl:when test="not(normalize-space($langs))">
+	  <xsl:value-of select="$rootHeader//tei:langUsage/tei:language
+                                [@ident = $defaultLang]
+                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
 	</xsl:when>
+	<!-- Multilingual content -->
+	<xsl:when test="tokenize($langs)[2]">
+	  <xsl:text>Multilingual</xsl:text>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="$rootHeader//tei:langUsage/tei:language
+                                [@ident = $langs]
+                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+	</xsl:otherwise>
       </xsl:choose>
-    </xsl:for-each>
+    </xsl:variable>
+    <speech id="{$speech_id}" text_id="{$text_id}"
+            subcorpus="{$subcorpus}" lang="{$lang}" body="{$body}"
+	    term="{$term}" session="{$session}" meeting="{$meeting}" sitting="{$sitting}" agenda="{$agenda}"
+            date="{$at-date}" title="{$title}">
+      <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
+      <xsl:choose>
+        <xsl:when test="@who">
+          <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
+          <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
+          <xsl:attribute name="speaker_name" select="et:format-name-chrono(
+                                                     $speaker//tei:persName, 
+                                                     $at-date)"/>
+          <xsl:attribute name="speaker_mp" select="et:speaker-mp($speaker)"/>
+          <xsl:attribute name="speaker_minister" select="et:speaker-minister($speaker)"/>
+          <xsl:attribute name="speaker_party" select="et:speaker-party($speaker, 'abb')"/>
+          <xsl:attribute name="speaker_party_name" select="et:speaker-party($speaker, 'yes')"/>
+          <xsl:attribute name="party_status" select="et:party-status($speaker)"/>
+          <xsl:attribute name="party_orientation" select="et:party-orientation($speaker)"/>
+          <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
+          <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:attribute name="speaker_id"/>
+          <xsl:attribute name="speaker_name"/>
+          <xsl:attribute name="speaker_party"/>
+          <xsl:attribute name="speaker_party_name"/>
+          <xsl:attribute name="party_status"/>
+          <xsl:attribute name="speaker_gender"/>
+          <xsl:attribute name="speaker_birth"/>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:text>&#10;</xsl:text>
+      <xsl:apply-templates/>
+    </speech>
+    <xsl:text>&#10;</xsl:text>
   </xsl:template>
   
   <xsl:template match="tei:pb"/>
@@ -136,7 +162,6 @@
   
   <xsl:template match="tei:seg">
     <p id="{@xml:id}">
-      <!-- We add language attribute (needed for for BE, which has fr+nl) -->
       <xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
       <xsl:attribute name="lang" select="$rootHeader//tei:langUsage/tei:language
                                          [@ident=$lang-code]
@@ -235,28 +260,33 @@
           </xsl:for-each>
         </xsl:variable>
         <xsl:value-of select="et:join-annotations($toks)"/>
-        <xsl:variable name="deps">
-          <xsl:for-each select="tei:w | tei:pc">
-            <list>
-              <xsl:variable name="annots">
-                <xsl:call-template name="deps">
-                  <xsl:with-param name="id" select="@xml:id"/>
-                </xsl:call-template>
-              </xsl:variable>
-              <xsl:for-each select="tokenize($annots, '&#9;')">
-                <item>
-                  <xsl:value-of select="."/>
-                </item>
-              </xsl:for-each>
-            </list>
-          </xsl:for-each>
-        </xsl:variable>
-        <xsl:text>&#9;</xsl:text>
-        <xsl:value-of select="et:join-annotations($deps)"/>
+	<xsl:if test="not(normalize-space($nosyntax))">
+          <xsl:variable name="deps">
+            <xsl:for-each select="tei:w | tei:pc">
+              <list>
+		<xsl:variable name="annots">
+                  <xsl:call-template name="deps">
+                    <xsl:with-param name="id" select="@xml:id"/>
+                  </xsl:call-template>
+		</xsl:variable>
+		<xsl:for-each select="tokenize($annots, '&#9;')">
+                  <item>
+                    <xsl:value-of select="."/>
+                  </item>
+		</xsl:for-each>
+              </list>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:text>&#9;</xsl:text>
+          <xsl:value-of select="et:join-annotations($deps)"/>
+	</xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="concat(., '&#9;', et:output-annotations(.), '&#9;')"/>
-        <xsl:call-template name="deps"/>
+        <xsl:value-of select="concat(., '&#9;', et:output-annotations(.))"/>
+	<xsl:if test="not(normalize-space($nosyntax))">
+	  <xsl:text>&#9;</xsl:text>
+          <xsl:call-template name="deps"/>
+	</xsl:if>
       </xsl:otherwise>
     </xsl:choose>
     <xsl:text>&#10;</xsl:text>
@@ -287,7 +317,7 @@
         </xsl:if>
         <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
         <xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
-        <xsl:value-of select="key('id', $relation, $rootHeader)//tei:term
+        <xsl:value-of select="key('id', $relation, $rootHeader)/tei:catDesc/tei:term
                               [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
         <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
         <xsl:choose>
