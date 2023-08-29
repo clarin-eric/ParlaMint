@@ -187,7 +187,6 @@
 	    <xsl:variable name="body" select="key('idr', ., $rootHeader)/
 					      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
 					      tei:term"/>
-
 	    <!-- We unfortunatelly need an explicit test if the reference we got is appropriate -->
 	    <!-- This needs to be rethought! (e.g. 'National Parliament' might be better than 'Unicameralism' -->
 	    <xsl:if test="$body = 'Unicameralism' or
@@ -211,8 +210,9 @@
 	<xsl:value-of select="$bodies"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message terminate="yes" select="concat('ERROR: cannot determine of which body the component ', 
-					     replace(base-uri(), '.+/', ''), ' is a meeting of!')"/>
+        <xsl:message select="concat('ERROR: cannot determine of which body the component ', 
+			     replace(base-uri(), '.+/', ''), ' is a meeting of!')"/>
+	<xsl:text></xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
