@@ -347,7 +347,8 @@ sub commonTaxonomies {
 	if ($taxonomy !~ /\.ana/ or
 	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
 	    if (-e $taxonomy{$taxonomy}) {
-		`$Saxon langs='$country2lang{$Country}' -xsl:$scriptTaxonomy $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
+		my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$Country}' -xsl:$scriptTaxonomy";
+		`$command $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
 	    }
 	    else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
 	}
