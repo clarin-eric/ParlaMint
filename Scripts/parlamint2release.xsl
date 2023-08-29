@@ -25,6 +25,7 @@
      - in .ana change lemma tag from _ to normalised form or wordform
      - in .ana change root syntactic dependency to dep, if node is not sentence root
      - in .ana change <PAD> syntactic dependency to dep
+     - in .ana change obl:loc syntactic dependency to obl
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 -->
 <xsl:stylesheet 
@@ -553,6 +554,19 @@
         <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
                                ': replacing ud-syn:&lt;PAD&gt; with ud-syn:dep')"/>
 	<xsl:text>ud-syn:dep</xsl:text>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp" select="@target"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Bug in DK, using non-existent obl:loc dependency -->
+  <!-- We set it to "obl" -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:obl_loc']">
+    <xsl:copy>
+      <xsl:attribute name="ana">
+        <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:obl_loc with ud-syn:obl')"/>
+	<xsl:text>ud-syn:obl</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates mode="comp" select="@target"/>
     </xsl:copy>
