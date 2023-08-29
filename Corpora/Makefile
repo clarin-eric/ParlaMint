@@ -120,9 +120,7 @@ cp-readmes:
 # Make samples only
 samples:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
-	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
-	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
+	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 
 # Make vertical files only
@@ -243,14 +241,6 @@ mt-convert:
 	done;
 
 ### Tests for debugging MT processing
-
-mt-test9:
-	perl ../Scripts/mt-conllu2tei.pl \
-	${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml \
-	${SOURCES-MT}/ParlaMint-LV-en-notes.tsv \
-	Sources-Sem/Test/ParlaMint-LV-en.conllu \
-	${TEMP}/ParlaMint-LV-en.TEI.ana
-	${FINALIZE-MT} -all -notei -noconll -codes LV-en -in ${TEMP} -out ${HERE}/Test
 
 mt-test8:
 	$s -xsl:../Scripts/validate-parlamint.xsl \
