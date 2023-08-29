@@ -559,14 +559,15 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Bug in DK, using non-existent obl:loc dependency -->
-  <!-- We set it to "obl" -->
+  <!-- Bug in DK, using obsolete obl:loc dependency -->
+  <!-- We set it to "advmod:lmod", although this will produce errors when UPOS of token is not ADV 
+  cf. https://github.com/clarin-eric/ParlaMint/issues/737 -->
   <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:obl_loc']">
     <xsl:copy>
       <xsl:attribute name="ana">
         <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
-                               ': replacing ud-syn:obl_loc with ud-syn:obl')"/>
-	<xsl:text>ud-syn:obl</xsl:text>
+                               ': replacing ud-syn:obl_loc with ud-syn:advmod_lmod')"/>
+	<xsl:text>ud-syn:advmod_lmod</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates mode="comp" select="@target"/>
     </xsl:copy>
