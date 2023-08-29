@@ -11,14 +11,15 @@ use File::Spec;
 $taxonomyDir = shift;
 $inDir = File::Spec->rel2abs(shift);
 
-$taxonomies_TEI = 'parla.legislature speaker_types subcorpus politicalOrientation CHES';
+$taxonomies_force = 'subcorpus'; #Force overwriting of old taxonomy
+# Copy these from common taxonomies only of missing
+$taxonomies_TEI = 'parla.legislature speaker_types politicalOrientation CHES';
 $taxonomies_ana = 'NER.ana UD-SYN.ana';
 
 # Mapping of countries to languages, we need it for mapping of common taxonomies
-# Note we don't always (for UA, ES-XX) choose all the languages that the transcripts are in but only the local one
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'bs';
-$country2lang{'BE'} = 'fr nl';
+$country2lang{'BE'} = 'nl';
 $country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
 $country2lang{'DK'} = 'da';
@@ -84,18 +85,21 @@ foreach $corpDir (sort glob "$inDir/ParlaMint-*.TEI*") {
 
     # Insert common taxonomies, if any missing XInclude them
     @missing_taxonomies = ();
-    if ($anaSuffix) {$taxonomies = "$taxonomies_TEI $taxonomies_ana"}
-    else {$taxonomies = $taxonomies_TEI}
+    if ($anaSuffix) {$taxonomies = "$taxonomies_TEI $taxonomies_ana $taxonomies_force"}
+    else {$taxonomies = "$taxonomies_TEI $taxonomies_force"}
     foreach $taxonomy (split(/ /, $taxonomies)) {
 	$taxonomyFName = "ParlaMint-taxonomy-$taxonomy.xml";
-	$InTaxonomyFile = "$taxonomyDir/$taxonomyFName";
+	$CommonTaxonomyFile = "$taxonomyDir/$taxonomyFName";
 	$taxonomyFile = "$corpDir/$taxonomyFName";
-	die "FATAL: Cant find base taxonomy file $InTaxonomyFile\n" unless -e $InTaxonomyFile;
-	unless (-e $taxonomyFile) {
-	    print STDERR "WARN: Inserting missing taxonomy file $taxonomyFName\n";
-	    push(@missing_taxonomies, $taxonomyFName);
+	die "FATAL: Cant find base taxonomy file $CommonTaxonomyFile\n" unless -e $CommonTaxonomyFile;
+	if (not -e $taxonomyFile or $taxonomies_force =~ /\Q$taxonomy\E/) {
+	    if ($taxonomies_force =~ /\Q$taxonomy\E/) {print STDERR "WARN: Inserting forced taxonomy file $taxonomyFName\n"}
+	    else {
+		print STDERR "WARN: Inserting missing taxonomy file $taxonomyFName\n";
+		push(@missing_taxonomies, $taxonomyFName)
+	    }
 	    my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$country}' -xsl:$scriptTaxonomy";
-	    `$command $InTaxonomyFile > $taxonomyFile`;
+	    `$command $CommonTaxonomyFile > $taxonomyFile`;
 	}
     }
     if (@missing_taxonomies) {
