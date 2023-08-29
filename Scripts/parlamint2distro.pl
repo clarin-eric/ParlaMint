@@ -113,7 +113,7 @@ $taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-t
 #$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
 #$taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
-# Mapping of countries to langauges, we need it for mapping of common taxonomies
+# Mapping of countries to languages, we need it for mapping of common taxonomies
 # Note we don't always (for UA, ES-XX) choose all the languages that the transcripts are in but only the local one
 $country2lang{'AT'} = 'de';
 $country2lang{'BA'} = 'bs';
