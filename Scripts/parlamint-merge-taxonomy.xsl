@@ -159,7 +159,7 @@
     <xsl:copy>
       <xsl:attribute name="n" select="$id"/>
       <xsl:attribute name="xml:lang" select="@xml:lang"/>
-      <xsl:copy-of select="tei:*"/>
+      <xsl:copy-of select="node()"/>
     </xsl:copy>
   </xsl:template>
   

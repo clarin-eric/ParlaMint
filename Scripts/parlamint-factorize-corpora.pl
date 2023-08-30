@@ -11,10 +11,13 @@ use File::Spec;
 $taxonomyDir = shift;
 $inDir = File::Spec->rel2abs(shift);
 
-$taxonomies_force = 'subcorpus'; #Force overwriting of old taxonomy
+#Force overwriting of old taxonomy
+$taxonomies_TEI_force = 'subcorpus'; 
 # Copy these from common taxonomies only of missing
 $taxonomies_TEI = 'parla.legislature speaker_types politicalOrientation CHES';
-$taxonomies_ana = 'NER.ana UD-SYN.ana';
+#Ditto for ana
+$taxonomies_ana_force = 'UD-SYN.ana'; 
+$taxonomies_ana = 'NER.ana';
 
 # Mapping of countries to languages, we need it for mapping of common taxonomies
 $country2lang{'AT'} = 'de';
@@ -85,29 +88,30 @@ foreach $corpDir (sort glob "$inDir/ParlaMint-*.TEI*") {
 
     # Insert common taxonomies, if any missing XInclude them
     @missing_taxonomies = ();
-    if ($anaSuffix) {$taxonomies = "$taxonomies_TEI $taxonomies_ana $taxonomies_force"}
-    else {$taxonomies = "$taxonomies_TEI $taxonomies_force"}
+    if ($anaSuffix) {$taxonomies = "$taxonomies_TEI $taxonomies_TEI_force $taxonomies_ana $taxonomies_ana_force"}
+    else {$taxonomies = "$taxonomies_TEI $taxonomies_TEI_force"}
     foreach $taxonomy (split(/ /, $taxonomies)) {
 	$taxonomyFName = "ParlaMint-taxonomy-$taxonomy.xml";
 	$CommonTaxonomyFile = "$taxonomyDir/$taxonomyFName";
 	$taxonomyFile = "$corpDir/$taxonomyFName";
-	die "FATAL: Cant find base taxonomy file $CommonTaxonomyFile\n" unless -e $CommonTaxonomyFile;
-	if (not -e $taxonomyFile or $taxonomies_force =~ /\Q$taxonomy\E/) {
-	    if ($taxonomies_force =~ /\Q$taxonomy\E/) {print STDERR "WARN: Inserting forced taxonomy file $taxonomyFName\n"}
-	    else {
+	die "FATAL ERROR: Cant find base taxonomy file $CommonTaxonomyFile\n" unless -e $CommonTaxonomyFile;
+	if (not -e $taxonomyFile or
+	    $taxonomies_TEI_force =~ /\Q$taxonomy\E/ or $taxonomies_ana_force =~ /\Q$taxonomy\E/) {
+	    unless (-e $taxonomyFile) {
 		print STDERR "WARN: Inserting missing taxonomy file $taxonomyFName\n";
 		push(@missing_taxonomies, $taxonomyFName)
 	    }
+	    else {print STDERR "WARN: Inserting forced taxonomy file $taxonomyFName\n"}
 	    my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$country}' -xsl:$scriptTaxonomy";
 	    `$command $CommonTaxonomyFile > $taxonomyFile`;
 	}
     }
     if (@missing_taxonomies) {
 	$rootFile = "$corpDir/ParlaMint-$country$anaSuffix.xml";
-	die "FATAL: Cant find corpus root file $rootFile\n" unless -e $rootFile;
+	die "FATAL ERROR: Cant find corpus root file $rootFile\n" unless -e $rootFile;
 	$tmpRootFile = "$rootFile" . '.tmp';
 	open(IN,  '<:utf8', $rootFile);
-	open(OUT, '>:utf8', $tmpRootFile) or die "FATAL: Can't open tmp root file $tmpRootFile\n";
+	open(OUT, '>:utf8', $tmpRootFile) or die "FATAL ERROR: Can't open tmp root file $tmpRootFile\n";
 	while (<IN>) {
 	    if (m|</classDecl>|) {
 		foreach my $taxonomyFile (@missing_taxonomies) {
