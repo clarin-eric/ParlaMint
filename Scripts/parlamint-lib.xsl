@@ -349,15 +349,25 @@
   <!-- e.g. "#regular #topic.144_403_M" -->
   <xsl:function name="et:u-role" as="xs:string">
     <xsl:param name="ana"/>
-    <!--xsl:message terminate="yes" select="concat('THIS: ', $rootHeader)"/-->
-    <xsl:for-each select="tokenize($ana, ' ')">
-      <xsl:if test="key('idr', ., $rootHeader)/
-                    ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
-        <xsl:value-of select="key('idr', ., $rootHeader)//tei:catDesc
-                              [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-                              /tei:term"/>
-      </xsl:if>
-    </xsl:for-each>
+    <xsl:variable name="role">
+      <xsl:for-each select="tokenize($ana, ' ')">
+	<xsl:if test="key('idr', ., $rootHeader)/
+                      ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
+          <xsl:value-of select="key('idr', ., $rootHeader)//tei:catDesc
+				[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
+				/tei:term"/>
+	</xsl:if>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($role)">
+	<xsl:value-of select="$role"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message select="concat('ERROR: no speaker role found in taxonony for ', $ana)"/>
+	<xsl:text>unknown</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:function>
 
   <!-- Output appropriate label if the speaker is (not) an MP when speaking -->
