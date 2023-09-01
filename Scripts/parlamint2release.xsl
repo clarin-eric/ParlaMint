@@ -378,7 +378,7 @@
   </xsl:template>
   
   <!-- Remove @who for anonymous speakers -->
-  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = 'anonymous' or . = 'unknown']">
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = '#anonymous' or . = '#unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
 			 ': removing @who = ', ., ' from utterance ', ../@xml:id)"/>
   </xsl:template>
