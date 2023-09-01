@@ -196,7 +196,7 @@
       <xsl:if test="normalize-space($head-row) and $head-row != '-' and $head-row != '0' ">
 	<cell>
 	  <xsl:attribute name="type" select="$head-label"/>
-	  <xsl:value-of select="$head-row"/>
+	  <xsl:value-of select="normalize-space($head-row)"/>
 	</cell>
       </xsl:if>
       <xsl:if test="contains($labels, '&#9;')">
