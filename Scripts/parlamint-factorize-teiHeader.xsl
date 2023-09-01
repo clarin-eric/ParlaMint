@@ -17,6 +17,8 @@
 
   <xsl:import href="parlamint-lib.xsl"/>
 
+  <xsl:param name="taxonomies">NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation CHES</xsl:param>
+  
   <xsl:variable name="pref">
     <xsl:choose>
       <xsl:when test="$prefix"><xsl:value-of select="$prefix"/></xsl:when>
@@ -58,13 +60,10 @@
 
   <xsl:template match="tei:listPerson | tei:listOrg | tei:taxonomy">
     <xsl:variable name="is_common"
-                  select=".[@xml:id
-                            and
-                            (
-                              index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), @xml:id)
-                              or
-                              index-of(tokenize('NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation', '\s+'), replace(@xml:id,'^.*taxonomy-(.+)(.ana)?','$1'))
-                            )]"/>
+                  select=".[@xml:id and (
+			  index-of(tokenize($taxonomies, '\s+'), @xml:id) or
+                          index-of(tokenize($taxonomies, '\s+'), replace(@xml:id,'^.*taxonomy-(.+)(.ana)?','$1'))
+                          )]"/>
     <xsl:variable name="no_id_change"
                   select=".[starts-with(@xml:id,'ParlaMint-')
                             and
@@ -129,7 +128,7 @@
   <xsl:template match="tei:classDecl/xi:include | tei:particDesc/xi:include">
     <xsl:variable name="pathIn" select="concat($inDir,'/',@href)"/>
     <xsl:variable name="pathOut" select="concat($outDir,'/',@href)"/>
-    <xsl:message select="concat('INFO: Copying ',$pathIn, ' to ',$pathOut)"/>
+    <xsl:message select="concat('INFO: Copying ',@href)"/>
     <xsl:result-document href="{$pathOut}" method="xml">
       <xsl:copy-of select="document($pathIn)"/>
     </xsl:result-document>

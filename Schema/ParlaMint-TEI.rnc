@@ -276,9 +276,6 @@ note =
     (time | pb | text)+
   }
 
-## A page break, possible with its source URI.
-pb = element pb { global.atts, corresp.att, source.att, empty }
-
 ## Any type of transcriber comment.
 comment =
   note

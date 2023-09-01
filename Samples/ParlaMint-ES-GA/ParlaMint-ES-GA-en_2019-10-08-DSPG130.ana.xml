@@ -1,0 +1,3300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="ParlaMint-ES-GA-en_2019-10-08-DSPG130.ana"
+     ana="#parla.sitting #reference"
+     corresp="../../ParlaMint-ES-GA.TEI.ana/2019/ParlaMint-ES-GA_2019-10-08-DSPG130.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="gl">Corpus parlamentario galego ParlaMint-ES-GA-en, 2019-10-08-DSPG130.ana [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Galician parliamentary corpus ParlaMint-ES-GA-en, 2019-10-08-DSPG130.ana [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="gl">Diario de Sesións do Parlamento de Galicia</title>
+            <title type="sub" xml:lang="en">Minutes of the Assembly of the Galician Parliament</title>
+            <meeting ana="#parla.term #PG.10 #parla.uni" n="010">X Lexislatura</meeting>
+            <meeting ana="#parla.meeting #parla.uni" n="130">Número 130</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2019-10-08">08.10.2019</meeting>
+            <respStmt>
+               <persName>Adina Vladu</persName>
+               <persName>Carmen Magariños</persName>
+               <persName>Daniel Bardanca</persName>
+               <persName>Elisa Fernández Rei</persName>
+               <resp xml:lang="en">Data retrieval, TEI conversion and coordination</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="gl">Instituto da Lingua Galega, Universidade de Santiago de Compostela</orgName>
+               <orgName xml:lang="en">Galician Language Institute, University of Santiago de Compostela</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="gl">Proxecto Nós: O galego na sociedade e economía da intelixencia artificial (2021-CP080), convenio entre a Xunta de Galicia e a Universidade de Santiago de Compostela</orgName>
+               <orgName xml:lang="en">Nós: Galician in the society and economy of artificial intelligence (2021-CP080), agreement between Xunta de Galicia and the University of Santiago de Compostela</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="gl">Infraestrutura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="462"/>
+            <measure unit="words" quantity="86427"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2023-06-26">2023-06-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="en">Diario de Sesións do Parlamento de Galicia</title>
+               <publisher>Parlamento de Galicia</publisher>
+               <idno type="URI" subtype="parliament">https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100130.pdf</idno>
+               <date when="2019-10-08">08.10.2019</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="204"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="128"/>
+               <tagUsage gi="name" occurs="3053"/>
+               <tagUsage gi="note" occurs="672"/>
+               <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="pc" occurs="11881"/>
+               <tagUsage gi="s" occurs="3912"/>
+               <tagUsage gi="seg" occurs="1563"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="462"/>
+               <tagUsage gi="vocal" occurs="76"/>
+               <tagUsage gi="w" occurs="86427"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-ES-GA.TEI.ana/2019/ParlaMint-ES-GA_2019-10-08-DSPG130.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Rúa do Hórreo, 63</name>
+               <name type="city">Santiago de Compostela</name>
+               <name type="country" key="ES-GA">Galicia</name>
+               <date when="2019-10-08">08.10.2019</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-26">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2023-03-30">
+            <name>Resp</name>: Made XML-TEI.ana.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <pb source="https://www.parlamentodegalicia.gal/sitios/web/BibliotecaDiarioSesions/D100130.pdf"/>
+            <note type="time" xml:lang="en">The session is opened at ten in the morning.</note>
+            <note type="speaker" xml:lang="en">Mr. President:</note>
+            <u who="#SantalicesMiguelÁngel"
+               ana="#chair"
+               xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u1"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.u1">
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1"
+                     n="1"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1.t1"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="good">Good</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="morning"
+                        join="right">morning</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1.s1.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg2">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1"
+                     n="2"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="let"
+                        join="right">Let</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="start">start</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session"
+                        join="right">session</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg2.s1.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg3">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1"
+                     n="3"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t1"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="good">Good</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="morning"
+                        join="right">morning</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t6"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="open"
+                        join="right">open</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg3.s1.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg4">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1"
+                     n="4"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="agenda">agenda</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t3"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t4"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="publish">published</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t7"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="official">Official</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t8"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Bulletin">Bulletin</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t9"
+                           pos="IN"
+                           msd="UPosTag=ADP"
+                           lemma="of">of</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t10"
+                           pos="DT"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"
+                           lemma="the">the</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Parliament">Parliament</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t12"
+                           pos="IN"
+                           msd="UPosTag=ADP"
+                           lemma="of">of</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Galicia"
+                           join="right">Galicia</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t15"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="so">so</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t16"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t17"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="do">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t18"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t19"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="proceed">proceed</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t21"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs"
+                        lemma="its">its</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reading"
+                        join="right">reading</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg4.s1.t23"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg5">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1"
+                     n="5"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="he">He</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t2"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="justify">justified</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t3"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs"
+                        lemma="he">his</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="inattentiveness">inattentiveness</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="full"
+                        join="right">full</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="time">time</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="wife">wife</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Concepción">Concepción</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Burgo"
+                           join="right">Burgo</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg5.s1.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg6">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1"
+                     n="6"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">We</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="go">go</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="into">into</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="agenda">agenda</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t8"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="first">first</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="point"
+                        join="right">point</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t11"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="which">which</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t12"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t13"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="legislative">legislative</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t14"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="text"
+                        join="right">texts</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg6.s1.t15"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg7">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1"
+                     n="7"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t1"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="comprehensive">Comprehensive</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="discussion">discussion</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="draft">draft</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="law">law</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t8"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="measure">measures</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t9"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="guarantee">guarantee</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="supply">supply</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t13"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="drought">droughts</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t14"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="health">health</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="risk">risk</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg7.s1.t17"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="situation">situations</w>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:lang="en">Mr. President:</note>
+            <u who="#SantalicesMiguelÁngel"
+               ana="#chair"
+               xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u2"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.u2">
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg8">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1"
+                     n="8"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t1"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="amendment">Amendments</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t3"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t4"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="make">made</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="whole">whole</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="request">request</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t13"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Joint">Joint</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t14"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Parliamentary">Parliamentary</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t15"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Group"
+                           join="right">Group</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t16"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t18"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Parliamentary">Parliamentary</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t19"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Group">Group</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t22"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Nationalist">Nationalist</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t23"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Block">Block</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t24"
+                           pos="IN"
+                           msd="UPosTag=ADP"
+                           lemma="in">in</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t25"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Wales">Wales</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t26"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t28"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Joint">Joint</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t29"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Parliamentary">Parliamentary</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t30"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Group">Group</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t31"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t32"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t33"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Left"
+                        join="right">Left</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg8.s1.t34"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg9">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1"
+                     n="9"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">For</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="presentation">presentation</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bill"
+                        join="right">bill</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="adviser">adviser</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t10"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Infrastructure">Infrastructure</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t12"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Mobility"
+                           join="right">Mobility</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t15"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Ms.">Ms.</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t16"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Ethel">Ethel</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t17"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vázquez">Vázquez</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t18"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Mourelle"
+                           join="right">Mourelle</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t20"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="floor"
+                        join="right">floor</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg9.s1.t23"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#CondeFranciscoJosé"
+               ana="#regular"
+               xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u461"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.u461">
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1"
+                     n="3882"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Bará"
+                           join="right">Bará</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t4"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t5"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="should">should</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="review">review</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t7"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="speech">speech</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t9"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because">because</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t10"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t11"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t12"
+                        pos="PDT"
+                        msd="UPosTag=DET"
+                        lemma="such">such</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="disincentive"
+                        join="right">disincentive</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t15"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t16"
+                        pos="PDT"
+                        msd="UPosTag=DET"
+                        lemma="such">such</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="disincentive"
+                        join="right">disincentive</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t20"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t21"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t22"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t23"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t24"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="really">really</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t25"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="worthy">worthy</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t26"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t28"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="parliament"
+                        join="right">Parliament</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s1.t29"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <note xml:lang="en">Murmurs.</note>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2"
+                     n="3883"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="either">Either</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="he">he</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t3"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="come">comes</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here">here</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t5"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="talk">talk</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t7"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="seriously">seriously</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="about">about</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcan">Vulcan</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t10"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="worker">workers</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t11"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Barreras"
+                           join="right">Barreras</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t14"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="or">or</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t15"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="he">he</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t16"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="come">comes</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t17"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here">here</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t18"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t19"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="make">make</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t20"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="demagogy">demagogy</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t21"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t22"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do"
+                        join="right">does</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t23"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">n't</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t24"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="go">go</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t25"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="anywhere"
+                        join="right">anywhere</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s2.t26"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <note xml:lang="en">Applause</note>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3"
+                     n="3884"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t1"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because"
+                        join="right">Because</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP|ExtPos=ADV"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="course"
+                        join="right">course</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t6"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Bará"
+                           join="right">Bará</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t9"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="intervention">intervention</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t11"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t12"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t13"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="solve">solve</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t14"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="any">any</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="problem">problem</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t16"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="either">either</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t17"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="one">one</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="job">job</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t19"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="or">or</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t20"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="one">one</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t21"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcan">Vulcan</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t22"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="or">or</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t23"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Barreras"
+                           join="right">Barreras</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t24"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t25"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="none"
+                        join="right">none</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1556.s3.t26"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <note xml:lang="en">Applause</note>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1"
+                     n="3885"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">From</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t2"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="there"
+                        join="right">there</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t4"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="if">if</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="like"
+                        join="right">like</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t9"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="talk">talk</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="about">about</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcano"
+                           join="right">Vulcano</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s1.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2"
+                     n="3886"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I"
+                        join="right">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">'ve</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t3"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="totally">totally</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t5"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="transparent">transparent</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcan">Vulcan</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t8"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="worker">workers</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t9"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="ever">ever</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t10"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="since"
+                        join="right">since</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s2.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3"
+                     n="3887"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">From</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="first">first</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="moment">moment</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t6"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Galician">Galician</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Union"
+                           join="right">Union</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t10"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="2017"
+                        join="right">2017</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t12"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="push">pushed</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t14"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="financial">financial</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="structure">structure</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t16"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t17"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="allow">allowed</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t18"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t19"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="ferry">ferry</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t20"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t21"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="complete"
+                        join="right">complete</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t22"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t23"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t24"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="give">gave</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t25"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcan">Vulcan</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t26"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t27"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="loan">loan</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t28"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="so">so</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t29"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t30"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t31"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="ferry">ferry</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t32"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="could">could</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t33"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t34"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="complete"
+                        join="right">completed</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s3.t35"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4"
+                     n="3888"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">And</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t3"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Galician">Galician</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t4"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Union">Union</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t5"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="collaborate">collaborated</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t6"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t7"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="make">made</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t9"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="technical">technical</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="tutelage"
+                        join="right">tutelage</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s4.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5"
+                     n="3889"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="listen"
+                        join="right">Listen</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="there"
+                        join="right">there</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t6"
+                        pos="WRB"
+                        msd="UPosTag=ADV|PronType=Int"
+                        lemma="where"
+                        join="right">where</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t7"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="responsibility"
+                        join="right">responsibility</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s5.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6"
+                     n="3890"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="say">say</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">it</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t4"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t5"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="yard"
+                        join="right">yard</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t10"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t11"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="say"
+                        join="right">say</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s6.t12"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">!</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7"
+                     n="3891"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="yard">yard</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t3"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="debt">debt</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t7"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="200">200</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t8"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="million">million</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="euro"
+                        join="right">euros</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s7.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8"
+                     n="3892"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t1"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="who">Who</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t2"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="want">wants</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t3"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t4"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="charge">charge</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="responsibility"
+                        join="right">responsibility</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s8.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9"
+                     n="3893"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">To</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9.t2"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="whom"
+                        join="right">whom</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s9.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <note xml:lang="en">Murmurs.</note>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10"
+                     n="3894"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I"
+                        join="right">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">'ve</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t3"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="totally">totally</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t5"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="honest">honest</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t8"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="worker"
+                        join="right">workers</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1557.s10.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <note xml:lang="en">Murmurs.</note>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1"
+                     n="3895"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">With</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="situation"
+                        join="right">situation</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t5"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="logically"
+                        join="right">logically</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">it</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t8"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t9"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="very">very</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t10"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="difficult"
+                        join="right">difficult</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s1.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2"
+                     n="3896"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2.t1"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="200">200</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2.t2"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="million">million</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2.t3"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="euro">euros</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="loss"
+                        join="right">losses</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s2.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3"
+                     n="3897"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t1"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">What</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="do">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t4"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="want"
+                        join="right">want</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t6"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">what</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t7"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="do">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t9"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="nationalize"
+                        join="right">nationalize</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t11"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">what</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t12"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="do">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t13"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t14"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="want"
+                        join="right">want</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s3.t15"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <note xml:lang="en">Speak words that are not perceived.</note>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4"
+                     n="3898"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="maybe"
+                        join="right">Maybe</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">...</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t3"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="do">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t4"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="want">want</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t6"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="that"
+                        join="right">that</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s4.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <note xml:lang="en">Murmurs.</note>
+                  <note xml:lang="en">Speak words that are not perceived.</note>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5"
+                     n="3899"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t1"
+                        pos="UH"
+                        msd="UPosTag=INTJ|Polarity=Neg"
+                        lemma="no"
+                        join="right">No</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t3"
+                        pos="UH"
+                        msd="UPosTag=INTJ|Polarity=Neg"
+                        lemma="no"
+                        join="right">no</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t5"
+                        pos="UH"
+                        msd="UPosTag=INTJ|Polarity=Neg"
+                        lemma="no"
+                        join="right">no</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t7"
+                        pos="UH"
+                        msd="UPosTag=INTJ|Polarity=Neg"
+                        lemma="no"
+                        join="right">no</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s5.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6"
+                     n="3900"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here"
+                        join="right">Here</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="responsibility">responsibility</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t5"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because">because</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t6"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t7"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="manage">manage</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="resource">resources</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t10"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t12"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Greek">Greeks</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t13"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t14"
+                        pos="PDT"
+                        msd="UPosTag=DET"
+                        lemma="all">all</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t16"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="productive">productive</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t17"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="sector"
+                        join="right">sectors</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s6.t18"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7"
+                     n="3901"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">And</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t2"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="there">there</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="on"
+                        join="right">on</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t6"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">Your</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t7"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Honor"
+                        join="right">Honor</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t9"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="if">if</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t10"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there"
+                        join="right">there</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t11"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">an</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="investor">investor</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t15"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcan">Vulcan</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t16"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="who"
+                        join="right">who</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t17"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t18"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="willing"
+                        join="right">willing</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="settlement">settlement</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t23"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="plan"
+                        join="right">plan</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t24"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t25"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t26"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="give">give</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t27"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="he">him</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t28"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="continuity">continuity</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t29"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t30"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there"
+                        join="right">there</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t31"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t32"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t33"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="solvent">solvent</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t34"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="project">project</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t35"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t36"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t37"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="support">support</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t38"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">it</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s7.t39"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <note xml:lang="en">Applause</note>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8"
+                     n="3902"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">And</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t2"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="if">if</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t3"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there">there</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t4"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be"
+                        join="right">is</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t5"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">n't</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="solvent">solvent</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="project"
+                        join="right">project</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t10"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="logically"
+                        join="right">logically</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t12"
+                        pos="VB"
+                        msd="UPosTag=AUX|Mood=Imp|VerbForm=Fin"
+                        lemma="do"
+                        join="right">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t13"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">n't</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t14"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="ask">ask</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t15"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="irresponsibility"
+                        join="right">irresponsibility</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t17"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t18"
+                        pos="UH"
+                        msd="UPosTag=INTJ"
+                        lemma="like"
+                        join="right">like</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="by">by</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="way"
+                        join="right">way</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t23"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t24"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t25"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="do">did</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t26"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t27"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Alfageme"
+                           join="right">Alfageme</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t28"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t29"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="remember"
+                        join="right">remember</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t30"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t31"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="32">32</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t32"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="million">million</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t33"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="euro">euros</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t34"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t35"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="public">public</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t36"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="finances"
+                        join="right">finances</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1558.s8.t37"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <vocal type="murmuring">
+                  <desc xml:lang="en">Murmurs.</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1"
+                     n="3903"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">From</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t2"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="there"
+                        join="right">there</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t4"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="if">if</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="want"
+                        join="right">want</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t9"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="talk">talk</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="about">about</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Barreras"
+                           join="right">Barreras</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s1.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2"
+                     n="3904"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="look"
+                        join="right">Look</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t4"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">'ve</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t5"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="already">already</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t6"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="move">moved</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="shipowner">shipowner</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t10"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="yard">yard</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t12"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t13"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t14"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t15"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t16"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="go">going</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t17"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t18"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="admit">admit</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t19"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="any">any</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t20"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="partial">partial</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t21"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="solution"
+                        join="right">solution</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s2.t22"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3"
+                     n="3905"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and"
+                        join="right">And</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="logically"
+                        join="right">logically</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t6"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t7"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="go">going</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t8"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t9"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="support">support</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t10"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="any">any</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="kind">kind</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="proposal">proposal</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t14"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t15"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="allow">allows</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t16"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">us</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t17"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t18"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="develop">develop</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t19"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t20"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="workload"
+                        join="right">workload</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t21"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t22"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because">because</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t23"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there"
+                        join="right">there</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t24"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t25"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t26"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="responsibility">responsibility</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t27"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t28"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t29"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sector">sector</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t30"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t31"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there"
+                        join="right">there</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t32"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t33"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="also">also</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t34"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t35"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="responsibility">responsibility</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t36"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t37"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs"
+                        lemma="its">its</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t38"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="impact">impact</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t39"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t40"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t41"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="auxiliary">auxiliary</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t42"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="industry"
+                        join="right">industry</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s3.t43"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4"
+                     n="3906"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">We</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t3"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t5"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Barriers"
+                           join="right">Barriers</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t7"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="like">like</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t9"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin"
+                        lemma="be">were</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t10"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Vulcan">Vulcan</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t12"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t13"
+                        pos="WRB"
+                        msd="UPosTag=SCONJ|PronType=Int"
+                        lemma="how">how</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t14"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t15"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin"
+                        lemma="be">were</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t16"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sector"
+                        join="right">sector</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s4.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5"
+                     n="3907"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="remind">remind</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here">here</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t5"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="who">who</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t6"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">was</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="government">Government</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t9"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t10"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="propose">proposed</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t12"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="solution">solutions</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t13"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t14"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="problem">problem</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t16"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="tax">tax</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="read"
+                        join="right">read</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t20"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t21"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="remind">remind</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t22"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t23"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="who">who</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t24"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="collaborate">collaborated</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t25"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t26"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t27"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="search">search</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t28"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t29"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="workload">workload</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t30"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t31"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t32"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="remind">remind</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t33"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t34"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="who">who</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t35"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t36"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="destine">destined</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t37"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="50">50</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t38"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="million">million</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t39"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="euro">euros</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t40"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t41"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t42"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="government">government</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t43"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t44"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="precisely">precisely</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t45"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t46"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="measure">measures</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t47"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="related">related</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t48"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t49"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="innovation">innovation</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t50"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t51"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="training"
+                        join="right">training</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s5.t52"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6"
+                     n="3908"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Bará"
+                           join="right">Bará</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="lesson">lessons</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="naval">naval</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sector"
+                        join="right">sector</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="none"
+                        join="right">none</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1559.s6.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1"
+                     n="3909"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t2"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="just">just</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t3"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="hope">hope</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t4"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="proposal">proposals</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t6"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do"
+                        join="right">do</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t7"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">n't</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t9"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="develop">develop</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="part">part</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t15"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="any">any</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="government">Government</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t17"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t18"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t19"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Galician">Galician</w>
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t20"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Union">Union</w>
+                     </name>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t21"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because"
+                        join="right">because</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t22"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t23"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="unfortunately"
+                        join="right">unfortunately</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t24"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t25"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">they</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t26"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will"
+                        join="right">wo</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t27"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">n't</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t28"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="serve">serve</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t29"
+                        pos="NN"
+                        msd="UPosTag=PRON|Number=Sing"
+                        lemma="anyone"
+                        join="right">anyone</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1560.s1.t30"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <kinesic type="applause">
+                  <desc xml:lang="en">Applause</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1"
+                     n="3910"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t1"
+                        pos="NN"
+                        msd="UPosTag=PRON|Number=Sing"
+                        lemma="nothing">Nothing</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t2"
+                        pos="JJR"
+                        msd="UPosTag=ADJ|Degree=Cmp"
+                        lemma="more">more</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t3"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t4"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">thank</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t6"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="very">very</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t7"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="much"
+                        join="right">much</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1561.s1.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <kinesic type="applause">
+               <desc xml:lang="en">Applause</desc>
+            </kinesic>
+            <note type="speaker" xml:lang="en">Mr. President (Calvo Pouso):</note>
+            <u who="#CalvoDiego"
+               ana="#chair"
+               xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.u462"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.u462">
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1"
+                     n="3911"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t1"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">Thank</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="very">very</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="much"
+                        join="right">much</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t6"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr.">Mr.</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Conde"
+                           join="right">Conde</w>
+                     </name>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1562.s1.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563">
+                  <s xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1"
+                     n="3912"
+                     corresp="mt-src:ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1">
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">We</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="hold">hold</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="until">until</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="tomorrow">tomorrow</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t9"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="ten">ten</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t10"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="morning"
+                        join="right">morning</w>
+                     <pc xml:id="ParlaMint-ES-GA_2019-10-08-DSPG130.seg1563.s1.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="time" xml:lang="en">The session is suspended at nine and sixteen minutes at night.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

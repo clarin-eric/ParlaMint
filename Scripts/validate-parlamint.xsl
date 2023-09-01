@@ -380,6 +380,17 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template match="tei:*[@to &lt; @from]">
+    <xsl:call-template name="error">
+      <xsl:with-param name="msg">
+        <xsl:text>attribute to=</xsl:text>
+        <xsl:value-of select="@to"/>
+        <xsl:text> is before from=</xsl:text>
+        <xsl:value-of select="@from"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
+
   <xsl:template match="tei:u">
     <xsl:choose>
       <xsl:when test="not(@who)">

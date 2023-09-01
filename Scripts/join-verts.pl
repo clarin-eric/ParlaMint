@@ -10,15 +10,13 @@ binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 
-#Version number, will be embedded in vertical file name, e.g. ParlaMint-CZ.3.0.vert.gz
-$VER = '3.0'; 
-
 sub usage {
     print STDERR ("Usage:\n");
     print STDERR ("$0 -help\n");
     print STDERR ("$0 -codes '<Codes>'");
-    print STDERR (" -in <Input> -out <Output>\n");
+    print STDERR (" -version <Version> -in <Input> -out <Output>\n");
     print STDERR ("    Joins .vert files in reverse order.\n");
+    print STDERR ("    <Version> is the version number of the corpus.\n");
     print STDERR ("    <Codes> is the list of country codes of the corpora to be processed.\n");
     print STDERR ("    <Input> is the directory where ParlaMint-XX.vert/ is.\n");
     print STDERR ("    <Output> is the directory where output files are written.\n");
@@ -32,10 +30,11 @@ use File::Copy::Recursive qw(dircopy);
 
 GetOptions
     (
-     'help'     => \$help,
-     'codes=s'  => \$countryCodes,
-     'in=s'     => \$inDir,
-     'out=s'    => \$outDir,
+     'help'      => \$help,
+     'version=s' => \$Version,
+     'codes=s'   => \$countryCodes,
+     'in=s'      => \$inDir,
+     'out=s'     => \$outDir,
 );
 
 if ($help) {
@@ -53,7 +52,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $XX = $XX_template;
     $XX =~ s|XX|$countryCode|g;
     $inVertDir  = "$inDir/$XX.vert";
-    $outVert    = "$outDir/$XX.$VER.vert";
+    $outVert    = "$outDir/$XX.$Version.vert";
     `find $inVertDir -type f -name '*.vert' -print | sort -r | xargs cat | gzip > $outVert.gz`;
     $regis = '*_' . lc($countryCode) . ".regi";
     $regis =~ s/-/_/g; #Change e.g. es-ct to es_ct

@@ -15,10 +15,10 @@ LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBR
 
 TAXONOMIES-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
 TAXONOMIES = $(addsuffix .xml, $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-INTERF)))
-##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
-DATADIR = Data
+##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
+DATADIR = Samples
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
-WORKINGDIR = Data/TMP
+WORKINGDIR = Samples/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
 ##$##                 of corpus root file. E.g. setting CORPUSDIR_SUFFIX=.TEI allow running targets on content
 ##$##                 of ParlaMint-XX.TEI folder that contains corresponding ParlaMint-XX(.ana).xml files.
@@ -62,13 +62,13 @@ endif
 ifndef LANG-LIST
 	$(error LANG-LIST is not set - use "make TARGET LANG-LIST='<langcode1> (Language1), <langcode2> (Language2)'" )
 endif
-	test ! -d ./Data/ParlaMint-$(PARLIAMENT-CODE)
-	mkdir ./Data/ParlaMint-$(PARLIAMENT-CODE)
-	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
-	echo "## Languages: $(LANG-LIST)" >> ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	test ! -d ./Samples/ParlaMint-$(PARLIAMENT-CODE)
+	mkdir ./Samples/ParlaMint-$(PARLIAMENT-CODE)
+	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Samples/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	echo "## Languages: $(LANG-LIST)" >> ./Samples/ParlaMint-$(PARLIAMENT-CODE)/README.md
 	echo "LANG-CODE-LIST=$(LANG-CODE-LIST)"
 	make initTaxonomies-$(PARLIAMENT-CODE) PARLIAMENTS="$(PARLIAMENT-CODE)" LANG-CODE-LIST="$(LANG-CODE-LIST)"
-	git status ./Data/ParlaMint-$(PARLIAMENT-CODE)/*
+	git status ./Samples/ParlaMint-$(PARLIAMENT-CODE)/*
 
 setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Austria' PARLIAMENT-CODE='AT' LANG-LIST='de (German)'
@@ -227,7 +227,7 @@ validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
 validate-parlamint: $(validate-parlamint-XX)
 ## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
 $(validate-parlamint-XX): validate-parlamint-%: %
-	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}'
+	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}' || echo "ERROR: fatal error when validating ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}"
 
 
 

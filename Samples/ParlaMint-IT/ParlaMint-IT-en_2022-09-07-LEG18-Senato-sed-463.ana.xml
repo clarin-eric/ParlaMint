@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.sitting #war #covid #war"
+     xml:id="ParlaMint-IT-en_2022-09-07-LEG18-Senato-sed-463.ana"
+     xml:lang="en"
+     corresp="../../ParlaMint-IT.TEI.ana/2022/ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT-en, Legislatura 18, Seduta 463 Senato [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT-en, Term 18, Sitting 463 Senate [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 463, giorno (2022-09-07)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 18, Sitting 463, Day (2022-09-07)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.18" n="18-upper">18 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="463-upper">463 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-6829-6309">Roberto Bartolini</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Roberto Bartolini</persName>
+               <persName>Valeria Quochi</persName>
+               <resp xml:lang="it">Annotazione linguistica automatica</resp>
+               <resp xml:lang="en">Automatic Linguistic annotation</resp>
+               <resp xml:lang="it">Riconoscimento Entità Nominate</resp>
+               <resp xml:lang="en">NER</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Informatics and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="23" unit="speeches" xml:lang="it">23 discorsi</measure>
+            <measure quantity="23" unit="speeches" xml:lang="en">23 speeches</measure>
+            <measure quantity="2213" unit="words" xml:lang="it">2.213 parole</measure>
+            <measure quantity="2213" unit="words" xml:lang="en">2,213 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2023-06-27">2023-06-27</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI" subtype="parliament">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=18&amp;id=1360351</idno>
+               <date when="2022-09-07">07.09.2022</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="it">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="8"/>
+               <tagUsage gi="div" occurs="9"/>
+               <tagUsage gi="head" occurs="8"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="4"/>
+               <tagUsage gi="name" occurs="86"/>
+               <tagUsage gi="note" occurs="26"/>
+               <tagUsage gi="pc" occurs="301"/>
+               <tagUsage gi="s" occurs="91"/>
+               <tagUsage gi="seg" occurs="42"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="23"/>
+               <tagUsage gi="vocal" occurs="3"/>
+               <tagUsage gi="w" occurs="2213"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-IT.TEI.ana/2022/ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2022-09-07">07.09.2022</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-27">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#war #covid #war" xml:lang="it">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <note type="speaker" xml:lang="en">Chairmanship of the vice-president LA RUSSA</note>
+            <note type="speaker" xml:lang="en">PRESIDENT</note>
+            <u ana="#chair"
+               who="#LaRussaIgnazio"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u1"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u1">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1">
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1"
+                     n="1"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sitting">sitting</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t3"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">was</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t4"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="open">opened</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t6"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="14.33">14.33</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="p.m.">p.m.</w>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2"
+                     n="2"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.t2"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="Minute">Minutes</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.t3"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="shall">shall</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.t4"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="read"
+                        join="right">read</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.2.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3"
+                     n="3"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Durnwalder"
+                           join="right">Durnwalder</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t4"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Secretary"
+                        join="right">Secretary</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t6"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="give">gave</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reading">reading</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t11"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="Minute">Minutes</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sitting">sitting</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t15"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t16"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t17"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="previous">previous</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="day"
+                        join="right">day</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.3.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4"
+                     n="4"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="president"
+                        join="right">PRESIDENT</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="debate">debate</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t6"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t7"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="close"
+                        join="right">closed</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.4.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5"
+                     n="5"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t1"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="since">Since</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t2"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there">there</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t3"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">were</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t4"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="no">no</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="comment"
+                        join="right">comments</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t8"
+                        pos="NNPS"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        lemma="Minute">Minutes</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t9"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">were</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t10"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="approve"
+                        join="right">approved</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg1.5.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <head>Comunicazioni della Presidenza</head>
+            <note type="speaker" xml:lang="en">PRESIDENT</note>
+            <u ana="#chair"
+               who="#LaRussaIgnazio"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u2"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u2">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2">
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1"
+                     n="6"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="list">list</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="senator">senators</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="leave">leave</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t7"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t8"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="absent">absent</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="assignment">assignment</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t11"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin"
+                        lemma="receive">received</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t14"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Senate"
+                           join="right">Senate</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t15"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t16"
+                        pos="RB"
+                        msd="UPosTag=ADV|ExtPos=CCONJ"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t17"
+                        pos="RB"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        lemma="well">well</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t18"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t19"
+                        pos="JJR"
+                        msd="UPosTag=ADJ|Degree=Cmp"
+                        lemma="further">further</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t20"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="communication">communications</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t21"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t22"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t23"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Assembly"
+                           join="right">Assembly</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t24"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t25"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t26"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t27"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="publish">published</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t28"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t29"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="annex">Annex</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t30"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="B">B</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t31"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t32"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today"
+                        join="right">today</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t33"
+                        pos="POS"
+                        msd="UPosTag=PART"
+                        lemma="'s">'s</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t34"
+                        pos="NNPS"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        lemma="Minute"
+                        join="right">Minutes</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg2.1.t35"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <u ana="#chair"
+               who="#CalderoliRoberto"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u22"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u22">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41">
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1"
+                     n="90"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t2"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="motion"
+                        join="right">motions</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="question">questions</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t5"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t6"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="question">questions</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t7"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="receive">received</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="by">by</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Presidency"
+                           join="right">Presidency</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t12"
+                        pos="RB"
+                        msd="UPosTag=ADV|ExtPos=CCONJ"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t13"
+                        pos="RB"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        lemma="well">well</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t16"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="document">documents</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t17"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t18"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="document">documents</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t19"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="forward">forwarded</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="standing">standing</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t23"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="committee">committees</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t24"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="pursuant">pursuant</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t25"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t26"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="rule">Rule</w>
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t27"
+                           pos="CD"
+                           msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                           lemma="34">34</w>
+                     </name>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t28"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">(</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t29"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="1"
+                        join="right">1</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t30"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">)</pc>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t31"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t32"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="second">second</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t33"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sentence"
+                        join="right">sentence</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t34"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t35"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t36"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t37"
+                           pos="NNS"
+                           msd="UPosTag=NOUN|Number=Plur"
+                           lemma="rule">Rules</w>
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t38"
+                           pos="IN"
+                           msd="UPosTag=ADP"
+                           lemma="of">of</w>
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t39"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="procedure">Procedure</w>
+                     </name>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t40"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="shall">shall</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t41"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t42"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="publish">published</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t43"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t44"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="annex">Annex</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t45"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="B">B</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t46"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t47"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t48"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="Minute">Minutes</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t49"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t50"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today"
+                        join="right">today</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t51"
+                        pos="POS"
+                        msd="UPosTag=PART"
+                        lemma="'s">'s</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t52"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sitting"
+                        join="right">sitting</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg41.1.t53"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <head>Ordine del giorno per la seduta di martedì 13 settembre 2022</head>
+            <note type="speaker" xml:lang="en">PRESIDENT</note>
+            <u ana="#chair"
+               who="#CalderoliRoberto"
+               xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u23"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.u23">
+               <seg xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42">
+                  <s xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1"
+                     n="91"
+                     corresp="mt-src:ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1">
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Senate">Senate</w>
+                     </name>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t3"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t4"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="meet">meet</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t5"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="again">again</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="public">public</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t10"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Tuesday">Tuesday</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t11"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="13">13</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t12"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="September"
+                        join="right">September</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t15"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="12">12</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="noon"
+                        join="right">noon</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t17"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t18"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t19"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t20"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="follow">following</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t21"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="agenda"
+                        join="right">agenda</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t22"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">:</pc>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t23"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">(</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t24"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="see">See</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t25"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="agenda"
+                        join="right">agenda</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t26"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">)</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t28"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sitting">sitting</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t29"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t30"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="adjourn">adjourned</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t31"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">(</pc>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t32"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="17.43">17.43</w>
+                     <w xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t33"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="p.m."
+                        join="right">p.m.</w>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t34"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">)</pc>
+                     <pc xml:id="ParlaMint-IT_2022-09-07-LEG18-Senato-sed-463.ana.seg42.1.t35"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

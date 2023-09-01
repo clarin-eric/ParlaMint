@@ -25,7 +25,7 @@
   <!-- Output label for Ministers and non-Ministers (in vertical and metadata output) -->
   <!-- Non-minister set to -, as not all corpora have ministers encoded yet -->
   <xsl:param name="minister-label">Minister</xsl:param>
-  <xsl:param name="nonminister-label">-</xsl:param>
+  <xsl:param name="nonminister-label">notMinister</xsl:param>
   
   <!-- Output label for a coalition and opposition party (in vertical or metadata output) --> 
   <xsl:param name="coalition-label">Coalition</xsl:param>
@@ -187,8 +187,13 @@
 	    <xsl:variable name="body" select="key('idr', ., $rootHeader)/
 					      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
 					      tei:term"/>
-	    
-	    <xsl:if test="normalize-space($body)">
+
+	    <!-- We unfortunatelly need an explicit test if the reference we got is appropriate -->
+	    <!-- This needs to be rethought! (e.g. 'National Parliament' might be better than 'Unicameralism' -->
+	    <xsl:if test="$body = 'Unicameralism' or
+			  $body = 'Upper house' or 
+			  $body = 'Lower house' or 
+			  $body = 'Committee'">
 	      <xsl:if test="contains($body, $body-separator)">
 		<xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
 	      </xsl:if>
@@ -462,6 +467,39 @@
     </xsl:choose>
   </xsl:function>
   
+  <!-- Output left-right orientation of the speaker's party when speaking -->
+  <xsl:function name="et:party-orientation" as="xs:string">
+    <xsl:param name="speaker" as="element(tei:person)"/>
+    <!-- Collect all affiliation references where the speaker is a member and are in 
+         the correct time-frame for the speech -->
+    <xsl:variable name="refs" select="et:speaker-affiliations-refs($speaker)"/>
+    <xsl:variable name="parliamentaryGroups">
+      <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
+        <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='parliamentaryGroup']"/>
+        <xsl:call-template name="party-orientation">
+          <xsl:with-param name="party" select="$party"/>
+        </xsl:call-template>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="politicalParties">
+      <xsl:for-each select="distinct-values(tokenize($refs, ' '))">
+        <xsl:variable name="party" select="key('idr', ., $rootHeader)[@role='politicalParty']"/>
+        <xsl:call-template name="party-orientation">
+          <xsl:with-param name="party" select="$party"/>
+        </xsl:call-template>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="normalize-space($parliamentaryGroups)">
+        <xsl:value-of select="replace($parliamentaryGroups, ';$', '')"/>
+      </xsl:when>
+      <xsl:when test="normalize-space($politicalParties)">
+        <xsl:value-of select="replace($politicalParties, ';$', '')"/>
+      </xsl:when>
+      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
   <!-- Output the name of the party (or parties!) the speaker belongs to when speaking -->
   <xsl:function name="et:speaker-party" as="xs:string">
     <xsl:param name="speaker" as="element(tei:person)"/>
@@ -543,13 +581,29 @@
         <xsl:value-of select="concat($name-en, ';')"/>
       </xsl:when>
       <xsl:when test="normalize-space($party)">
-        <xsl:message>
-          <xsl:text>WARN: party without proper name </xsl:text>
-          <xsl:value-of select="$party/@xml:id"/>
-        </xsl:message>
+        <xsl:message select="concat('WARN: party without orgName/@full = ', $full, ' for ', $party/@xml:id)"/>
         <!-- Shorten the ID if possible -->
         <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
         <xsl:text>;</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text></xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- Return the political orientation of the party, either from Wikipedia, or, if missing, encoder -->
+  <xsl:template name="party-orientation">
+    <xsl:param name="party"/>
+    <xsl:variable name="orientation" select="$party/tei:state[@type = 'politicalOrientation']"/>
+    <xsl:choose>
+      <xsl:when test="$orientation/tei:state[@type = 'Wikipedia']">
+        <xsl:value-of select="key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)//
+			      tei:term[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+      </xsl:when>
+      <xsl:when test="$orientation/tei:state[@type = 'encoder']">
+        <xsl:value-of select="key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)//
+			      tei:term[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text></xsl:text>

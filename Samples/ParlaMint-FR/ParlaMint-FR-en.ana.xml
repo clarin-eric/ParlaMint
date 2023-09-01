@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+           xml:id="ParlaMint-FR-en.ana"
+           xml:lang="en"
+           corresp="../ParlaMint-FR.TEI.ana/ParlaMint-FR.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="fr">Corpus parlementaire français ParlaMint-FR-en [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">French parliamentary corpus ParlaMint-FR-en [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="fr">Comptes-rendus des débats en séance publique de l'Assemblée Nationale (2017 - 2022)</title>
+            <title type="sub" xml:lang="en">Proceedings of the debates in plenary sitting of the Assemblée Nationale (2017 - 2022)</title>
+            <meeting n="1562"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.national #parla.lower #parla.term #parla.term.15"/>
+            <meeting n="29"
+                     corresp="#ParlaMint-FR-LOWER"
+                     ana="#parla.national #parla.lower #parla.term #parla.term.16"/>
+            <respStmt>
+               <persName>Sascha Diwersy</persName>
+               <resp xml:lang="fr">Annotation linguistique</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Giancarlo Luxardo</persName>
+               <resp xml:lang="fr">Encodage du corpus selon ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName>The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="714860" xml:lang="en">714,860 speeches</measure>
+            <measure unit="words" quantity="46073630" xml:lang="en">46,073,630 words</measure>
+            <measure unit="speeches" quantity="714860" xml:lang="fr">714 860 interventions</measure>
+            <measure unit="words" quantity="46073630" xml:lang="fr">46 073 630 mots</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>CLARIN research infrastructure</publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="fr">This work is licensed under the terms of the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2023-06-26">2023-06-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="fr">Travaux parlementaires (Assemblée nationale)</title>
+               <title type="sub" xml:lang="fr">Débats en séance publique - Comptes rendus au format XML</title>
+               <idno type="URI" subtype="parliament">http://data.assemblee-nationale.fr/travaux-parlementaires/debats</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="fr">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p xml:lang="en">No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p xml:lang="en">Text has not been normalised, except for removing non-breaking spaces.</p>
+            </normalization>
+            <hyphenation>
+               <p xml:lang="en">No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p xml:lang="en">Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1564"/>
+               <tagUsage gi="desc" occurs="91128"/>
+               <tagUsage gi="div" occurs="22208"/>
+               <tagUsage gi="head" occurs="22123"/>
+               <tagUsage gi="incident" occurs="7505"/>
+               <tagUsage gi="kinesic" occurs="69105"/>
+               <tagUsage gi="name" occurs="1307776"/>
+               <tagUsage gi="note" occurs="22126"/>
+               <tagUsage gi="pc" occurs="6427835"/>
+               <tagUsage gi="s" occurs="2405054"/>
+               <tagUsage gi="seg" occurs="1191797"/>
+               <tagUsage gi="text" occurs="1564"/>
+               <tagUsage gi="u" occurs="714860"/>
+               <tagUsage gi="vocal" occurs="14518"/>
+               <tagUsage gi="w" occurs="46073630"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-parla.legislature.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-speaker_types.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-subcorpus.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-taxonomy-NER.ana.xml"/>
+         </classDecl>
+         <appInfo>
+            <application ident="EasyNMT" version="2.0">
+               <label>EasyNMT (OPUS-MT model)</label>
+               <desc>Translation to English done with EasyNMT (<ref target="https://github.com/UKPLab/EasyNMT">https://github.com/UKPLab/EasyNMT</ref>) with OPUS-MT model (<ref target="https://github.com/Helsinki-NLP/Opus-MT">https://github.com/Helsinki-NLP/Opus-MT</ref>)</desc>
+            </application>
+            <application ident="Stanza" version="1.5">
+               <label>Stanza</label>
+               <desc>Tokenisation, PoS tagging, lemmatization, and NER annotation done with Stanza (<ref target="https://stanfordnlp.github.io/stanza/">https://stanfordnlp.github.io/stanza/</ref>) with the model for English. For NER the conll03 model with 4 NE classes was used.</desc>
+            </application>
+         </appInfo>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Paris</name>
+               <name type="country" key="FR">France</name>
+               <date from="2017-06-27" to="2022-03-23">27/06/2017 - 23/03/2022</date>
+            </setting>
+         </settingDesc>
+         <textClass>
+            <catRef scheme="#ParlaMint-taxonomy-parla.legislature"
+                    target="#parla.bi #parla.lower"/>
+         </textClass>
+         <particDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="ParlaMint-FR-listOrg.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+                        href="ParlaMint-FR-listPerson.xml"/>
+         </particDesc>
+         <langUsage>
+            <language ident="fr" xml:lang="fr">français</language>
+            <language ident="en" xml:lang="fr">anglais</language>
+            <language ident="fr" xml:lang="en">French</language>
+            <language ident="en" xml:lang="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-26">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-26">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2023-06-26">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2023-06-14">parlamint2release script: Fix some identifiable erros for the release.</change>
+         <change when="2022-12-26">
+            <name>Giancarlo Luxardo</name>: ParlaMint II update, vs 3.0.</change>
+         <change when="2023-06-14">parlamint-add-common-content script: Adding common content.</change>
+         <change when="2023-06-26">parlamint-add-common-content script: Adding common content.</change>
+      </revisionDesc>
+   </teiHeader>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-FR-en_2019-01-16-O1119.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-FR-en_2020-10-01-O1003.ana.xml"/>
+   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+               href="ParlaMint-FR-en_2022-06-28-O1169.ana.xml"/>
+</teiCorpus>

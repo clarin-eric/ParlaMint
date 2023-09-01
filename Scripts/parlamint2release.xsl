@@ -10,6 +10,7 @@
      Changes to root file:
      - delete old and now redundant pubPlace
      - insert textClass if missing
+     - remove Anonymous speaker (BG, BE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
@@ -180,6 +181,30 @@
     </xsl:copy>
   </xsl:template>
   
+  <xsl:template mode="root" match="tei:langUsage/tei:language">
+    <xsl:copy>
+      <xsl:apply-templates mode="root" select="@*"/>
+      <xsl:variable name="okName" select="concat(upper-case(substring(., 1, 1)), lower-case(substring(., 2)))"/>
+      <xsl:choose>
+	<!-- English names of languages should be in title case -->
+	<xsl:when test="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en' and . != $okName">
+	  <xsl:value-of select="$okName"/>
+	  <xsl:message select="concat('WARN ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id, 
+                               ': changing language name from ', ., ' to ', $okName)"/>
+	</xsl:when>
+	<xsl:otherwise>
+	  <xsl:value-of select="normalize-space(.)"/>
+	</xsl:otherwise>
+      </xsl:choose>
+    </xsl:copy>
+  </xsl:template>
+  
+  <!-- Remove anonymous speaker -->
+  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing Anonymous speaker from listPerson ', @xml:id)"/>
+  </xsl:template>
+  
   <!-- Remove the two "speaker" parties from GB, i.e. 
        <org role="politicalParty" xml:id="party.S">
          <orgName full="yes">Speaker</orgName>
@@ -228,14 +253,13 @@
 	<!-- In NO corpus each meeting contains yearFrom-yearTo info, which we need -->
 	<xsl:variable name="toYear-NO" select="substring-after(., '-')"/>
 	<xsl:choose>
-          <xsl:when test="$country-code = 'GB' and
-                          contains(/tei:TEI/tei:teiHeader//tei:titleStmt
-                          /tei:title[@type='main'],
-                          'Commons')">
+          <xsl:when test="$country-code = 'GB' and 
+			  not(contains(@ana, '#parla.upper') and contains(@ana, '#parla.lower'))">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
 	  </xsl:when>
 	  <!-- Quasi-bicameral to 2009, then unicameral -->
-          <xsl:when test="$country-code = 'NO' and $toYear-NO &lt;= '2009'">
+          <xsl:when test="$country-code = 'NO' and 
+			  $toYear-NO &lt;= '2009'">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
 	  </xsl:when>
           <xsl:when test="$country-code = 'NO'">
@@ -323,9 +347,9 @@
   <xsl:template mode="comp" match="tei:meeting">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
+      <!-- BE uses their own special category for commitee meetings, change to common category -->
       <xsl:variable name="ana" select="replace(@ana, 'parla\.meeting\.committee', 'parla.committee')"/>
       <xsl:attribute name="ana">
-	<!-- BE uses their own special category for commitee meetings, change to common category -->
 	<xsl:if test="not(contains($ana, 'parla.upper') or contains($ana, 'parla.lower') or contains($ana, 'parla.committee'))">
 	  <xsl:variable name="title" select="/tei:TEI/tei:teiHeader//tei:titleStmt/
 					     tei:title[@type='main']
@@ -353,6 +377,12 @@
   </xsl:template>
   
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing @who = #Anonymous from utterance ', ../@xml:id)"/>
+  </xsl:template>
+    
+  <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': no utterances in div/@type=debateSection, ',
@@ -375,12 +405,13 @@
   <xsl:template mode="comp" match="tei:note[normalize-space(.) and not(./element())] | tei:desc">
     <xsl:variable name="textIn" select="normalize-space(.)"/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
-    <xsl:if test="$textIn != $textOut">
+    <!-- Remove this message, as there are too many of them -->
+    <!--xsl:if test="$textIn != $textOut">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': de-bracketing ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
     <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
@@ -431,7 +462,7 @@
   </xsl:template>
       
   <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
-  <xsl:template mode="comp" match="tei:body//tei:name[not(tei:w)]">
+  <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing name tag as name ', normalize-space(.), 
 			 ' contains no words for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
