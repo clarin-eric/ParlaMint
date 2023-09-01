@@ -377,7 +377,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
+  <!-- Remove @who for anonymous speakers -->
   <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = 'anonymous' or . = 'unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
 			 ': removing @who = ', ., ' from utterance ', ../@xml:id)"/>
