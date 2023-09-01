@@ -10,7 +10,7 @@
      Changes to root file:
      - delete old and now redundant pubPlace
      - insert textClass if missing
-     - remove Anonymous speaker (BG, BE)
+     - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
@@ -201,9 +201,9 @@
   </xsl:template>
   
   <!-- Remove anonymous speaker -->
-  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous']">
+  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-			 ': removing Anonymous speaker from listPerson ', @xml:id)"/>
+			 ': removing anonymous speaker from listPerson ', @xml:id)"/>
   </xsl:template>
   
   <!-- Remove the two "speaker" parties from GB, i.e. 
@@ -378,9 +378,9 @@
   </xsl:template>
   
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
-  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous']">
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = 'anonymous' or . = 'unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-			 ': removing @who = #Anonymous from utterance ', ../@xml:id)"/>
+			 ': removing @who = ', ., ' from utterance ', ../@xml:id)"/>
   </xsl:template>
     
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
