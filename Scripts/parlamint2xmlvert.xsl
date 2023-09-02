@@ -16,7 +16,8 @@
   <xsl:import href="parlamint-lib.xsl"/>
   
   <xsl:output method="xml" indent="no" omit-xml-declaration="yes"/>
-  
+
+  <!-- Do we want the syntactic dependency and head attributes? -->
   <xsl:param name="nosyntax"/>
   
   <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->

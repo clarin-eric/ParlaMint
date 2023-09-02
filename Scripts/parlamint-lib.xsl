@@ -12,6 +12,15 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
+  <!-- Which language the metadata should be output (where there is a choice).
+       Sensible choices are 
+       - empty (will chose the language of the corpus)
+       - "en" (will choose English, or xx-Latn, if avaialable)
+      Note that this is just a stub, which currently does nothing!
+    <xsl:param name="language"/>
+   -->
+  
+  
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
 
@@ -127,6 +136,8 @@
     </xsl:choose>
   </xsl:variable>
   
+  <!-- TEMPLATES WITH SPECIAL MODES -->
+
   <!-- Copy input element to output with XIncluding the files 
        ALSO: puts @xml:lang on all elements; the value is taken from the closest ancestor 
        or given as a paramter if the input does not have ancestor with @xml:lang i.e. root -->
