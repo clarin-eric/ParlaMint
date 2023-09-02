@@ -50,7 +50,7 @@ merge-taxos:
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = GR BA DK EE
+CORPORA = AT
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -130,16 +130,21 @@ make-verts:
 	done;
 	make verts
 
-# Make overall root(.ana) for ParlaMint
-make-root:
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
+# Make overall root(.ana) for ParlaMint in Sources-TEI/ or Master/
+source-roots:
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+master-roots:
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+master-mt-root:
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Sources-TEI/ParlaMint-en.ana.xml
 
-mt-make-root:
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
 cp-samples:
 	# bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' Test
