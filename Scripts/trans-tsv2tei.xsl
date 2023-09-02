@@ -40,6 +40,7 @@
   </xsl:template>
   
   <xsl:template match="tei:orgName[not(tei:*)]">
+    <xsl:variable name="default-lang" select="ancestor::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:variable name="full" select="@full"/>
     <xsl:variable name="str" select="normalize-space(.)"/>
@@ -48,8 +49,8 @@
 	   not be in English or already transliterated and
 	   not already have a translation to English or transliteration -->
       <xsl:when test="$str and 
-		      not($lang = 'en' or ends-with($lang, '-Latn')) and
-		      not(../tei:orgName[@full = $full][@xml:lang = 'en'] or 
+		      not($lang != $default-lang or ends-with($lang, '-Latn')) and
+		      not(../tei:orgName[@full = $full][@xml:lang != $default-lang] or 
 		      ../../tei:orgName[@full = $full][ends-with(@xml:lang, '-Latn')])">
 	<xsl:choose>
 	  <!-- String is already in Latin, error with language identficication or original! -->
@@ -85,6 +86,7 @@
   <xsl:template match="tei:education | tei:occupation | tei:roleName | tei:placeName | tei:label">
     <xsl:choose>
       <xsl:when test="not(tei:*)">
+	<xsl:variable name="default-lang" select="ancestor::tei:*[@xml:lang][1]/@xml:lang"/>
 	<xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
 	<xsl:variable name="element" select="name()"/>
 	<xsl:variable name="str" select="normalize-space(.)"/>
@@ -93,8 +95,8 @@
 	       not be in English or already transliterated and
 	       not already have a translation to English or transliteration -->
 	  <xsl:when test="$str and 
-			  not($lang = 'en' or ends-with($lang, '-Latn')) and
-			  not(../tei:*[name() = $element][@xml:lang = 'en'] or 
+			  not($lang != $default-lang  or ends-with($lang, '-Latn')) and
+			  not(../tei:*[name() = $element][@xml:lang != $default-lang ] or 
 			  ../tei:*[name() = $element][ends-with(@xml:lang, '-Latn')])">
 	    <xsl:choose>
 	      <!-- String is already in Latin, error with language identficication or original! -->
@@ -133,13 +135,14 @@
   </xsl:template>
   
   <xsl:template match="tei:persName">
+    <xsl:variable name="default-lang" select="ancestor::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:variable name="element" select="name()"/>
     <xsl:choose>
       <!-- Element must not be in English or already transliterated and
 	   not already have a translation to English or transliteration -->
-      <xsl:when test="not($lang = 'en' or ends-with($lang, '-Latn')) and
-		      not(../tei:*[name() = $element][@xml:lang = 'en'] or 
+      <xsl:when test="not($lang != $default-lang or ends-with($lang, '-Latn')) and
+		      not(../tei:*[name() = $element][@xml:lang != $default-lang ] or 
 		      ../tei:*[name() = $element][ends-with(@xml:lang, '-Latn')])">
 	<xsl:choose>
 	  <!-- Element content is already in Latin, error with language identficication or original! -->
@@ -167,7 +170,7 @@
   
   <xsl:template mode="trans" match="tei:persName">
     <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-    <xsl:comment>ADDED:</xsl:comment>
+    <!--xsl:comment>ADDED:</xsl:comment-->
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:attribute name="xml:lang" select="concat($lang, '-Latn')"/>
