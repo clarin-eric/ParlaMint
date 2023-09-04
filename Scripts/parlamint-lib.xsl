@@ -12,14 +12,12 @@
   exclude-result-prefixes="#all"
   version="2.0">
 
-  <!-- Which language the metadata should be output (where there is a choice).
-       Sensible choices are 
-       - empty (will chose the language of the corpus)
-       - "en" (will choose English, or xx-Latn, if avaialable)
-      Note that this is just a stub, which currently does nothing!
-    <xsl:param name="language"/>
-   -->
-  
+  <!-- Which language the metadata should be output (where there is a choice)
+       Legal values are:
+       - xx (language of the corpus or fall-back option)
+       - en (English or fall-back option)
+  -->
+  <xsl:param name="out-lang">xx</xsl:param>
   
   <!-- Filename of corpus root containing the corpus-wide metadata -->
   <xsl:param name="meta"/>
@@ -45,7 +43,7 @@
   <!-- Key which directly finds local references -->
   <xsl:key name="idr" match="tei:*" use="concat('#', @xml:id)"/>
 
-  <xsl:variable name="corpus-language" select="/tei:TEI/@xml:lang"/>
+  <xsl:variable name="corpus-language" select="/tei:*/@xml:lang"/>
   
   <!-- Current date in ISO format -->
   <xsl:variable name="today-iso" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
@@ -98,9 +96,9 @@
       <xsl:for-each select="tokenize(/tei:TEI/@ana, ' ')">
 	<xsl:if test="key('idr', ., $rootHeader)/
                       ancestor::tei:taxonomy/tei:desc/tei:term = 'Subcorpora'">
-          <xsl:value-of select="key('idr', ., $rootHeader)//tei:catDesc
-				[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-				/tei:term"/>
+	  <!-- The category term of the tokenised @ana: -->
+          <xsl:value-of select="et:l10n($corpus-language, 
+				key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
 	  <xsl:text>&#32;</xsl:text>
 	</xsl:if>
       </xsl:for-each>
@@ -195,15 +193,14 @@
       <xsl:variable name="bods">
 	<xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
 	  <xsl:if test="key('idr', ., $rootHeader)[ancestor::tei:category[@xml:id = 'parla.organization']]">
-	    <xsl:variable name="body" select="key('idr', ., $rootHeader)/
-					      tei:catDesc[ancestor-or-self::*[@xml:lang][1]/@xml:lang = 'en']/
-					      tei:term"/>
+          <xsl:variable name="body-en" select="et:l10n('en', key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
+          <xsl:variable name="body" select="et:l10n($corpus-language, key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
 	    <!-- We unfortunatelly need an explicit test if the reference we got is appropriate -->
 	    <!-- This needs to be rethought! (e.g. 'National Parliament' might be better than 'Unicameralism' -->
-	    <xsl:if test="$body = 'Unicameralism' or
-			  $body = 'Upper house' or 
-			  $body = 'Lower house' or 
-			  $body = 'Committee'">
+	    <xsl:if test="$body-en = 'Unicameralism' or
+			  $body-en = 'Upper house' or 
+			  $body-en = 'Lower house' or 
+			  $body-en = 'Committee'">
 	      <xsl:if test="contains($body, $body-separator)">
 		<xsl:message select="concat('ERROR: ', $body, ' should not contain ', $body-separator)"/>
 	      </xsl:if>
@@ -272,6 +269,7 @@
   <!-- FUNCTIONS -->
 
   <!-- Format the name of a person in a given point in time -->
+  <!-- (a person can change their name, qualified by @from and @to) -->
   <xsl:function name="et:format-name-chrono">
     <xsl:param name="persNames"/>
     <xsl:param name="when"/>
@@ -282,34 +280,19 @@
         </xsl:if>
       </xsl:for-each>
     </xsl:variable>
+    <xsl:variable name="persNameLoc" select="et:l10n($corpus-language, $persName/tei:*)"/>
     <xsl:choose>
-      <!-- Two names in different languages / scripts, we choose the
-           Latin script if possible, othewise first -->
-      <xsl:when test="$persName/tei:persName[2] and 
-                      $persName/tei:persName[1]/@xml:lang != $persName/tei:persName[2]/@xml:lang">
-        <xsl:choose>
-          <xsl:when test="ends-with($persName/tei:persName[1]/@xml:lang, 'Latn')">
-            <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
-          </xsl:when>
-          <xsl:when test="ends-with($persName/tei:persName[2]/@xml:lang, 'Latn')">
-            <xsl:value-of select="et:format-name($persName/tei:persName[2])"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:when>
-      <xsl:when test="$persName/tei:persName[2]">
-        <xsl:message select="concat('ERROR: several persNames ', $persName,
-                             ' on ', $when)"/>
-        <xsl:value-of select="et:format-name($persName/tei:persName[1])"/>
-      </xsl:when>
-      <xsl:when test="not($persName/tei:persName)">
-        <xsl:message select="concat('ERROR: empty persName', ' on ', $when)"/>
+      <xsl:when test="not($persNameLoc)">
+        <xsl:message select="concat('ERROR: empty persName from', $persNames[1], ' on ', $when)"/>
         <xsl:text></xsl:text>
       </xsl:when>
+      <xsl:when test="$persNameLoc[2]">
+        <xsl:message select="concat('ERROR: several persNames ', $persNameLoc,
+                             ' on ', $when)"/>
+        <xsl:value-of select="et:format-name($persNameLoc[1])"/>
+      </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="et:format-name($persName/tei:persName)"/>
+        <xsl:value-of select="et:format-name($persNameLoc)"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -364,9 +347,8 @@
       <xsl:for-each select="tokenize($ana, ' ')">
 	<xsl:if test="key('idr', ., $rootHeader)/
                       ancestor::tei:taxonomy/tei:desc/tei:term = 'Types of speakers'">
-          <xsl:value-of select="key('idr', ., $rootHeader)//tei:catDesc
-				[ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-				/tei:term"/>
+          <xsl:value-of select="et:l10n($corpus-language, 
+				key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
 	</xsl:if>
       </xsl:for-each>
     </xsl:variable>
@@ -583,27 +565,19 @@
   </xsl:function>
   
   <!-- Return the name of the party -->
+  <!-- if $party is empty, so it the result (it is not an error if this happens!) -->
   <xsl:template name="party-name">
     <xsl:param name="party"/>
     <xsl:param name="full"/>
-    <xsl:variable name="name-local"
-                  select="$party/tei:orgName[@full=$full]
-                          [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en']"/>
-    <xsl:variable name="name-en"
-                  select="$party/tei:orgName[@full=$full]
-                          [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+    <xsl:variable name="orgName" select="et:l10n($corpus-language, $party/tei:orgName[@full=$full])"/>
     <xsl:choose>
-      <!-- Non-English name first -->
-      <xsl:when test="normalize-space($name-local)">
-        <xsl:value-of select="concat($name-local, ';')"/>
-      </xsl:when>
-      <!-- then English name -->
-      <xsl:when test="normalize-space($name-en)">
-        <xsl:value-of select="concat($name-en, ';')"/>
+      <xsl:when test="normalize-space($orgName)">
+        <xsl:value-of select="$orgName"/>
+        <xsl:text>;</xsl:text>
       </xsl:when>
       <xsl:when test="normalize-space($party)">
-        <xsl:message select="concat('WARN: party without orgName/@full = ', $full, ' for ', $party/@xml:id)"/>
-        <!-- Shorten the ID if possible -->
+        <xsl:message select="concat('WARN: party ', $party/@xml:id, ' without orgName/@full = ', $full)"/>
+        <!-- As a fall-back, return ID (i.e. the part of the ID after period for e.g. 'politicalParty.VCA') -->
         <xsl:value-of select="replace($party/@xml:id, '.+?\.' , '')"/>
         <xsl:text>;</xsl:text>
       </xsl:when>
@@ -619,12 +593,12 @@
     <xsl:variable name="orientation" select="$party/tei:state[@type = 'politicalOrientation']"/>
     <xsl:choose>
       <xsl:when test="$orientation/tei:state[@type = 'Wikipedia']">
-        <xsl:value-of select="key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)//
-			      tei:term[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+	<xsl:value-of select="et:l10n($corpus-language, 
+			      key('idr', $orientation/tei:state[@type = 'Wikipedia']/@ana, $rootHeader)/tei:catDesc)/tei:term"/>
       </xsl:when>
       <xsl:when test="$orientation/tei:state[@type = 'encoder']">
-        <xsl:value-of select="key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)//
-			      tei:term[ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+	<xsl:value-of select="et:l10n($corpus-language, 
+			      key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)/tei:catDesc)/tei:term"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:text></xsl:text>
@@ -802,4 +776,92 @@
     </xsl:choose>
   </xsl:function>
 
+  <!-- Output the sibling element in $elements that is appropriate for output language (global $out-lang) -->
+  <!-- $elements = 
+          <orgName xml:lang="el" full="yes">Κοινοβούλιο της Ελλάδος</orgName>
+          <orgName xml:lang="en" full="yes">Parliament of Greece</orgName>
+       if $out-lang = xx result =
+          <orgName xml:lang="el" full="yes">Κοινοβούλιο της Ελλάδος</orgName>
+       if $out-lang = en result =
+          <orgName xml:lang="en" full="yes">Parliament of Greece</orgName>
+
+       $elements = 
+         <orgName full="abb">Ν.Δ.</orgName>
+         <orgName full="abb" xml:lang="el-Latn">N.D.</orgName>
+       if $out-lang = xx result =
+         <orgName full="abb">Ν.Δ.</orgName>
+       if $out-lang = en result =
+         <orgName full="abb" xml:lang="el-Latn">N.D.</orgName>
+
+       The asssumption is that all elements in $elements have @xml:lang, i.e. have been processed with XInclude mode
+  -->
+  <xsl:function name="et:l10n">
+    <xsl:param name="corpus-language"/>
+    <xsl:param name="elements"/>
+    <!-- Original language -->
+    <xsl:variable name="element-xx" select="$elements[@xml:lang = $corpus-language]"/>
+    <!-- Latin spelling -->
+    <xsl:variable name="element-lt" select="$elements[@xml:lang = concat($corpus-language, '-Latn')]"/>
+    <!-- English -->
+    <xsl:variable name="element-en" select="$elements[@xml:lang = 'en']"/>
+    <!-- For (the only example in ParlaMint) the French spelling of a name in GR. -->
+    <xsl:variable name="element-yy" select="$elements[@xml:lang != 'en' and @xml:lang != $corpus-language]"/>
+    <!-- If nothing else serves... -->
+    <xsl:variable name="element-fb" select="$elements[1]"/>
+    <xsl:choose>
+      <xsl:when test="$out-lang = 'xx'">
+	<xsl:choose>
+	  <xsl:when test="normalize-space($element-xx)">
+	    <xsl:copy-of select="$element-xx"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-lt)">
+	    <xsl:copy-of select="$element-lt"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-yy)">
+	    <xsl:copy-of select="$element-yy"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-en)">
+	    <xsl:copy-of select="$element-en"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-fb)">
+	    <xsl:copy-of select="$element-fb"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <!-- It is legitimate to get an empty $elements! -->
+	    <xsl:text></xsl:text>
+	    <!--xsl:message select="concat('ERROR: l10n cant find element in given parameter elements: ', 
+				 $elements[1]/name(), ' / ', $elements)"/-->
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
+      <xsl:when test="$out-lang = 'en'">
+	<xsl:choose>
+	  <xsl:when test="normalize-space($element-en)">
+	    <xsl:copy-of select="$element-en"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-yy)">
+	    <xsl:copy-of select="$element-yy"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-lt)">
+	    <xsl:copy-of select="$element-lt"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-fb)">
+	    <xsl:copy-of select="$element-fb"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <!-- It is legitimate to get an empty $elements! -->
+	    <xsl:text></xsl:text>
+	    <!--xsl:message select="concat('ERROR: l10n cant find element in given parameter elements for language ', 
+				 $out-lang, ' and element ', $elements/name(), ':', $elements)"/-->
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message terminate="yes"
+		     select="concat('FATAL ERROR: parameter out-lang should be xx or en, not ',
+			     '&quot;', $out-lang, '&quot;')"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:function>
+  
 </xsl:stylesheet>
