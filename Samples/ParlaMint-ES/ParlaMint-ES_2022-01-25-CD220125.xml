@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="es"
+     xml:id="ParlaMint-ES_2022-01-25-CD220125"
+     ana="#parla.sitting #covid">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Spanish parliamentary corpus ParlaMint-ES, Plenary session 146 (2022-01-25) [ParlaMint SAMPLE]</title>
+            <title xml:lang="es" type="main">Corpus parlamentario en español ParlaMint-ES, Sesión plenaria núm. 146 extraordinaria (2022-01-25) [ParlaMint SAMPLE]</title>
+            <title xml:lang="es" type="sub">Sesión plenaria núm. 146 extraordinaria (2022-01-25)</title>
+            <title xml:lang="en" type="sub">Plenary session 146 (2022-01-25)</title>
+            <meeting n="2022-01-25" corresp="#CD" ana="#parla.lower #parla.sitting">2022-01-25</meeting>
+            <meeting n="146" corresp="#CD" ana="#parla.lower #parla.session">Sesión plenaria núm. 146 extraordinaria</meeting>
+            <meeting n="14" corresp="#CD" ana="#parla.lower #parla.term #CD.14">Legislatura XIV</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-0830-4837">María Calzada Pérez</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/ruben-de-libano/">Ruben de Libano</persName>
+               <resp xml:lang="en">XML tagging improvement</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://www.linkedin.com/in/monica-albini-3179ba166/">Monica Albini</persName>
+               <resp xml:lang="en">Data retrieval and conversion to XML. Quality Control</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0001-7953-8783">Matyáš Kopp</persName>
+               <resp xml:lang="en">Government person metadata retrieval</resp>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Maria del Mar Bonet Ramos</persName>
+               <resp xml:lang="en">Conversion to ParlaMint TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="es">CLARIN infraestructura de investigación científica</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="es">Ministerio de Ciencia e Innovación</orgName>
+               <orgName xml:lang="en">Ministry of Science and Innovation of Spain</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="84" xml:lang="es">84 intervenciones</measure>
+            <measure unit="speeches" quantity="84" xml:lang="en">84 speeches</measure>
+            <measure unit="words" quantity="32271" xml:lang="es">32271 palabras</measure>
+            <measure unit="words" quantity="32271" xml:lang="en">32271 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="es">Infraestructura de investigación CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="es">Este trabajo se encuentra protegido por la licencia <ref target="https://creativecommons.org/licenses/by/4.0/">Atribución 4.0 Internacional</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-08-25">2023-08-25</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title xml:lang="es" type="main">CORTES GENERALES DIARIO DE SESIONES DEL CONGRESO DE LOS DIPUTADOS PLENO Y DIPUTACIÓN PERMANENTE</title>
+               <idno type="URI">http://www.congreso.es</idno>
+               <date when="2022-01-25">2022-01-25</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="es">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="83"/>
+               <tagUsage gi="div" occurs="2"/>
+               <tagUsage gi="head" occurs="2"/>
+               <tagUsage gi="incident" occurs="34"/>
+               <tagUsage gi="kinesic" occurs="47"/>
+               <tagUsage gi="note" occurs="4"/>
+               <tagUsage gi="seg" occurs="367"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="84"/>
+               <tagUsage gi="vocal" occurs="2"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Calle Floridablanca, s/n. 28071</name>
+               <name type="city">Madrid</name>
+               <name type="country" key="ES">Spain</name>
+               <date ana="#parla.sitting" when="2022-01-25">2022-01-25</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-25">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>CONVALIDACIÓN O DEROGACIÓN DE REALES DECRETOS-LEYES - REAL DECRETO-LEY 31/2021, DE 28 DE DICIEMBRE, POR EL QUE SE MODIFICA LA LEY 19/1994, DE 6 DE JULIO, DE MODIFICACIÓN DEL RÉGIMEN ECONÓMICO Y FISCAL DE CANARIAS, Y SE FIJA UN NUEVO PLAZO PARA PRESENTAR LAS RENUNCIAS O REVOCACIONES A MÉTODOS Y REGÍMENES ESPECIALES DE TRIBUTACIÓN. .</head>
+            <u xml:id="ParlaMint-ES_2022-01-25-CD220125.u1" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u1.p1">Muy buenas tardes, señorías. Se abre la sesión. Aprovecho para desearles, en este primer Pleno en periodo extraordinario, un feliz año 2022.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u1.p2">Comenzamos con el punto del orden del día correspondiente a la convalidación o derogación de reales decretos-leyes. En primer lugar, convalidación o derogación del Real Decreto-ley 31/2021, de 28 de diciembre, por el que se modifica la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, y se fija un nuevo plazo para presentar las renuncias o revocaciones a métodos y regímenes especiales de tributación. Para presentar el real decreto-ley, tiene la palabra, en nombre del Gobierno, la señora ministra de Hacienda y Función Pública.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-01-25-CD220125.u2"
+               who="#MaríaJesúsMonteroCuadrado"
+               ana="#regular">
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p1">Muchas gracias, presidenta. Señorías, muy buenas tardes a todos y a todas. Me sumo al deseo de la presidenta al iniciar la sesión de desearles a todos durante el año toda clase de éxitos y, además, les trasladó el deseo de que durante este periodo de sesiones y durante estos meses en los que seguro tendremos oportunidad de debatir, incluso de confrontar opiniones, lo hagamos con respeto entre las distintas opciones políticas y con el único objetivo de mejorar el día a día de la ciudadanía, que es a la que nos debemos.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p2">Esta tarde comparezco ante sus señorías para solicitar la convalidación del Real Decreto-ley 31/2021, aprobado por el Consejo de Ministros el pasado 28 de diciembre, para modificar la Ley 19/1994, de Régimen económico y Fiscal de Canarias a fin de adecuarlo al nuevo mapa de ayudas de finalidad regional. Saben sus señorías que en las últimas fechas esta comunidad autónoma, Canarias, se ha visto castigada de forma dura por las consecuencias derivadas de la erupción del volcán de la isla de La Palma. Es una circunstancia que el Gobierno, y seguro que gran parte de los grupos políticos, ha seguido minuto a minuto y que el Ejecutivo ha apoyado con recursos y medidas para que los ciudadanos y ciudadanas de La Palma pudieran volver, en la medida de lo posible, a la normalidad y para que la actividad económica de la isla no se viera afectada de forma negativa por las consecuencias derivadas de la erupción.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p3">Es cierto que queda mucho trabajo por hacer, pero sigue siendo una prioridad para este Gobierno devolver esa normalidad a la isla de La Palma y, por tanto, a la Comunidad Autónoma de Canarias. Esta ha sido una apuesta que se ha hecho desde el primer momento. En cuatro años del Gobierno del presidente Sánchez, de 2019 a 2022, tengo que decir que Canarias ha recibido un 53 % más de recursos que en los últimos cuatro años del presidente Rajoy. Además, como también saben, Canarias es una de las comunidades autónomas que ha contado con una mayor inversión en los Presupuestos Generales del Estado recientemente aprobados en esta Cámara. Ese presupuesto destina a las islas 362,4 millones de euros para inversiones. Por tanto,señorías, sin duda también va a ser una ayuda para esa recuperación económica. Es la cantidad más elevada de los últimos diez años. También hay que señalar que la singularidad que tiene esta tierra, básicamente por la insularidad, ha justificado que las inversiones estatales se articulen en muchos casos por transferencias de capital, es decir, que se hacen por el capítulo 8 del presupuesto y, por tanto, las financia el Estado pero las ejecuta la propia comunidad autónoma.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p4">En esta línea de atender esta especificidad y las necesidades, España notificó el pasado día 1 de diciembre a la Comisión Europea la propuesta de mapa de ayudas de finalidad regional para el periodo 2022-2027 - como recuerdan, es el periodo sobre el que se desarrolla el marco financiero plurianual - y, por tanto, acompaña toda la política de incentivos regionales. Es este hecho, es decir, la modificación del mapa de ayudas de finalidad regional, lo que obliga a que el Ejecutivo impulse esta iniciativa, porque hay que modificar varias referencias temporales que se recogen en el Régimen Económico y Fiscal de Canarias.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p5">En definitiva, lo que pretendemos con esta iniciativa es que el REF tenga el mismo alcance temporal que el Reglamento 651/2014 de la Comisión Europea, el reglamento que declara determinadas categorías de ayudas compatibles con el mercado interior; es decir, que cuando se subvencionan esas ayudas no tenga ningún problema con la competencia y, por tanto, señorías, previamente tengamos las reglas de juego definidas. El reglamento comunitario, el que se conoce como Reglamento General de Exención por Categorías, es aplicable hasta el 31 de diciembre de 2023. Sin embargo, algunas referencias temporales del REF estaban vinculadas a la vigencia del anterior mapa de ayudas, que expiró el pasado 31 de diciembre. En consecuencia, una vez notificado este nuevo mapa que propone el Gobierno de España, procede modificar estas referencias temporales hasta la fecha de aplicación del reglamento comunitario, es decir, hasta el 31 de diciembre de 2023. De ahí la necesidad de convalidar este real decreto-ley de forma que sigamos contemplando esa peculiaridad que tiene el régimen fiscal en relación con el resto del Estado, porque - insisto - habría expirado el pasado día 31 de diciembre.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p6">Además, en esta misma norma se atiende otra circunstancia, como es la vigencia de la Zona Especial Canaria hasta el nuevo término del periodo de vigencia del mapa, es decir, hasta el 31 de diciembre de 2027. Esta modificación última que acabo de comentarles pretende eliminar una inseguridad jurídica que se podría generar en los operadores económicos debido al mantenimiento de los plazos que acabo de mencionar, dada la actual redacción legal de la Ley 94/1994. De forma añadida,este mapa de ayudas regionales, entre los que está el Régimen de incentivos fiscales de Canarias, tiene que contar - y quiero así manifestarlo - con la autorización de la Comisión Europea. Por tanto, hasta que eso se produzca - elemento que se hará en los próximos días, según la propia Comisión, o en las próximas semanas - se hace necesario condicionar la eficacia de la modificación a la obtención de la citada autorización. Igualmente, señorías, la prórroga que se introdujo en la Ley de presupuestos para 2022 de los límites excluyentes del método de estimación objetiva del impuesto sobre la renta de las personas físicas y de los regímenes simplificados y de agricultura, ganadería y pesca del IVA previstos para 2022 también obliga a extender hasta el próximo día 31 de este mes de enero el plazo ordinario de presentación de renuncia y de revocación de renuncia previsto inicialmente para el mes de diciembre de 2021.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p7">Por ello, señorías, hemos intentado compilar todas estas circunstancias en la actual norma. Para ello, vamos a debatir un texto que consta de un artículo, dos disposiciones adicionales y tres disposiciones finales. El artículo único modifica desde el 1 de enero de 2022 el apartado 11 del artículo 27 de la Ley 19/1994, de modificación del Régimen Económico y Fiscal de Canarias, que regula la posibilidad de que los contribuyentes puedan llevar a cabo lo que llamamos inversiones anticipadas, que se considerarán como materialización del RIC, la reserva para inversiones en Canarias, que se dotan con cargo a los beneficios que se obtengan en el periodo impositivo en el que se realiza la inversión o bien en los tres posteriores, siempre y cuando se cumplan los requisitos que se exigen en el mismo. Estas dotaciones tendrán que realizarse con cargo a beneficios que se pudieran obtener hasta el 31 de diciembre del año 2023. Por ello, el real decreto que someto a la convalidación amplía este plazo, que anteriormente finaliza el 31 de diciembre de 2021, y lo prolonga hasta finales de 2023. La materialización y su sistema de financiación se comunicarán conjuntamente con la declaración del impuesto sobre sociedades, el impuesto sobre la renta de no residentes o el impuesto sobre la renta de personas físicas en el periodo impositivo en el que se realizan las inversiones anticipadas.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p8">Este mismo artículo único modifica también el 29 para ampliar la vigencia de la ZEC, la Zona Especial Canaria, que ahora tendrá como límite el 31 de diciembre de 2027, prorrogable, si así fuera necesario - que lo será -, previa autorización dela Comisión Europea. No obstante, la autorización de la inscripción en el Registro Oficial de Entidades de esta Zona Especial de Canarias tendrá como límite el 31 de diciembre de 2023. Este real decreto, por tanto, amplía un plazo que hubiera expirado el 31 de diciembre del año pasado. En todo caso, este mantenimiento de la ZEC, la Zona Especial Canaria, estará condicionado al resultado de las revisiones periódicas, tal como establece el reglamento, que realice la Comisión Europea. Por eso, señorías, este artículo único que da sentido a este real decreto-ley, tiene por sí mismo una importancia fundamental para mantener una situación sobre una parte del territorio imprescindible para el desarrollo de la actividad económica y para la convergencia de Canarias con el conjunto del Estado.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p9">En cualquier caso, también a este artículo único hemos añadido dos disposiciones adicionales. La primera de ellas establece esa condicionalidad de las modificaciones que se introducen en la ley del REF a la autorización, como no puede ser de otra manera, por la Comisión Europea del mapa de ayuda de finalidad regional para el periodo 2022-2027. Esa comunicación terminaba el 31 de diciembre del año 2021 - ya les he comentado que con fecha 1 de diciembre se trasladó a la propia Comisión - y en este momento el conjunto de los países están esperando que la Comisión resuelva, y lo hará, según todas las noticias y los contactos que mantenemos, en la línea que ha planteado el Gobierno de España, puesto que se trata de una metodología objetiva que se establece por la propia Comisión y no tiene capacidad importante de poder incorporar ninguna alteración.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p10">La segunda disposición adicional establece este plazo de renuncia y de revocaciones del método de estimación objetiva del impuesto sobre la renta y esos regímenes simplificados de agricultura, ganadería y pesca del IVA para el año 2022. Este plazo lo extendemos desde la fecha de publicación en el BOE del real decreto-ley, es decir, desde el 29 de diciembre, hasta el día 31 de este mismo mes de enero. Por tanto, se amplía el plazo previsto en los reglamentos de IRPF y de IVA, que perdurarán, como digo, durante el mes en curso. Por este motivo, la norma también establece que las renuncias y revocaciones que se presenten en el año 2022 a estos regímenes especiales o al método de estimación objetiva del impuesto sobre la renta durante este pasado mes de diciembre de 2021 se entenderán presentadas en periodo hábil.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p11">Por último, las tres disposiciones finales estarán referidas al título competencial, la habilitación normativa y la entrada en vigor de la norma.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p12">En definitiva, señorías, se trata de un texto muy jurídico, como podrán ustedes comprobar, un texto en línea con las autorizaciones que nos permite la propia Comisión Europea, aprovechando esa capacidad sobre una zona que necesita ese impulso adicional que permiten las reglas de la competencia y las reglas del mercado interior. Por tanto, lo que hacemos, en definitiva, es adecuar este REF al mapa de ayudas de finalidad regional para ese periodo en el que transcurre el marco financiero plurianual 2022-2027. Como saben, la ZEC en sí misma también fue autorizada por la propia Comisión Europea dentro de lo que significa un régimen especial para que se instalen los operadores económicos, y ya ha sido renovada en diferentes ocasiones; de hecho, la Agencia Estatal de Administración Tributaria estima que la prórroga de la aplicación del plazo de inscripción en el registro de entidades que corresponden a la Zona Especial Canaria estará vigente hasta el 31 de diciembre de 2023 y tendrá un impacto recaudatorio que puede alcanzar los 16,4 millones de euros. Por último, en lo relativo a la prórroga hasta 2023 de las inversiones anticipadas susceptibles de ser consideradas como materialización de la RIC, la reserva para inversiones en Canarias, la Agencia Estatal Tributaria estima un impacto recaudatorio en torno a 61 millones de euros.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p13">Por tanto, señorías, voy a pedir a todos los grupos parlamentarios su apoyo a una norma necesaria para Canarias. Tal como he querido señalar en esta intervención, habrán visto ustedes que no tiene ningún tipo de contenido político adicional. Este decreto-ley es estrictamente jurídico, aunque, evidentemente, detrás del mismo y del apoyo que pudiera concitar de los grupos políticos, seguiremos estableciendo un régimen especial en una zona tan importante de nuestro país como es Canarias al objeto de permitir una convergencia necesaria que permita corregir algunos indicadores de desigualdad y de que la inversión resulte atractiva en esta parte de nuestro territorio y las empresas se decidan a invertir en Canarias y, por tanto, contribuyan a la prosperidad y al bienestar de esta comunidad autónoma.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p14">Sin más, señorías, pido el voto favorable a la convalidación del decreto-ley.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u2.p15">Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>Aplausos</desc>
+               </kinesic>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u xml:id="ParlaMint-ES_2022-01-25-CD220125.u83" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p1">En segundo lugar, Real Decreto-ley 28/2021, de 17 de diciembre, por el que se adoptan medidas complementarias de carácter urgente para la reparación de los daños ocasionados por las erupciones volcánicas y para la recuperación económica y social de la isla de La Palma.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p2">Votos emitidos, 347; a favor, 334; abstenciones, 13.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p3">Queda convalidado.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p4">Se ha solicitado que el Real Decreto-ley sea tramitado como proyecto de ley por el procedimiento de urgencia.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p5">Votos emitidos, 346; a favor, 144; en contra, 188, abstenciones, 14.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p6">En consecuencia, no se tramitará como proyecto de ley por el procedimiento de urgencia.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u83.p7">- REAL DECRETO LEY 29/2021, DE 21 DE DICIEMBRE, POR EL QUE SE ADOPTAN MEDIDAS URGENTES EN EL ÁMBITO ENERGÉTICO PARA EL FOMENTO DE LA MOVILIDAD ELÉCTRICA, EL AUTOCONSUMO Y EL DESPLIEGUE DE ENERGÍAS RENOVABLES.</seg>
+            </u>
+            <u xml:id="ParlaMint-ES_2022-01-25-CD220125.u84" ana="#chair">
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p1">Finalmente, el Real Decreto-ley 29/2021, de 21 de diciembre, por el que se adoptan medidas urgentes en el ámbito energético para el fomento de la movilidad eléctrica, el autoconsumo y el despliegue de energías renovables.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p2">Votos emitidos, 347; a favor, 197; en contra, 3; abstenciones, 147.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p3">Queda convalidado el real decreto-ley.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p4">Se ha solicitado que este real decreto-ley sea tramitado como proyecto de ley por el procedimiento de urgencia.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p5">Votos emitidos, 347; a favor, 341; en contra, 4; abstenciones, 2.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p6">En consecuencia, el real decreto-ley se tramitará como proyecto de ley por el procedimiento de urgencia.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p7">Muchas gracias a todos. Buenas tardes.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p8">Se levanta la sesión.</seg>
+               <seg xml:id="ParlaMint-ES_2022-01-25-CD220125.u84.p9">Eran las ocho de la noche.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
