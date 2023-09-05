@@ -65,6 +65,7 @@
       <xsl:apply-templates select="@*"/>
       <xsl:copy-of select="*"/>
     </xsl:copy>
+    <xsl:variable name="term" select="./descendant::tei:term/text()"/>
     <xsl:variable name="element-name" select="local-name()"/>
     <xsl:variable name="parent-template" select="./parent::tei:*"/>
     <xsl:variable name="id" select="$parent-template/@xml:id"/>
@@ -105,8 +106,18 @@
           <xsl:copy-of select="$element-template"/>
         </xsl:when>
         <xsl:when test="$element-translation"><xsl:apply-templates select="$element-translation" mode="translate"/></xsl:when>
-        <xsl:when test="$updated-languages/item[@xml:lang = $lang]"><xsl:message>WARN: missing <xsl:value-of select="$lang"/> translation for <xsl:value-of select="$id"/></xsl:message></xsl:when>
+        <xsl:when test="$updated-languages/item[@xml:lang = $lang]">
+          <xsl:comment>Corpus <xsl:value-of select="$parlamint"/> is missing <xsl:value-of select="$lang"/> translation of <xsl:value-of select="$term"/></xsl:comment>
+          <xsl:message>WARN: missing <xsl:value-of select="$lang"/> translation for <xsl:value-of select="$id"/></xsl:message>
+        </xsl:when>
       </xsl:choose>
+      <xsl:for-each select="$parent-template/comment()[
+                                       contains(.,concat('missing ',$lang,' translation'))
+                                       and not( contains(.,concat($parlamint,' ')) )
+                                      ]">
+        <xsl:sort select="."/>
+        <xsl:comment><xsl:value-of select="."/></xsl:comment>
+      </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
 
