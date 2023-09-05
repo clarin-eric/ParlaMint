@@ -112,6 +112,31 @@ $(copyTaxonomy-XX-tt): copyTaxonomy-%:
 	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
 
+
+translateTaxonomies-XX = $(addprefix translateTaxonomies-, $(PARLIAMENTS))
+$(translateTaxonomies-XX): translateTaxonomies-%: $(addprefix translateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
+
+
+translateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix translateTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(translateTaxonomy-XX-tt): translateTaxonomy-%:
+	@mkdir tmp || :
+	@test -e `pwd`/${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	&& echo -n "INFO: validating translation taxonomy" ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` ": " \
+	&& ${vch_taxonomy} ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	&& echo OK \
+	&& echo "INFO: translating " `echo -n '$*' | sed 's/^.*--//'` "taxonomy" \
+	&& ${s} parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX} \
+	      translation-input=`pwd`/${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`  \
+	      -xsl:Scripts/parlamint-add-translation-to-taxonomy.xsl \
+	      ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	      > tmp/temporary-taxonomy.xml \
+	&& echo -n "INFO: validating output taxonomy with new translations: " \
+	&& ${vch_taxonomy} tmp/temporary-taxonomy.xml \
+	&& echo OK \
+	&& cp tmp/temporary-taxonomy.xml ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	|| echo -n "\nERROR: skipping - missing translation input file (or validations failed)  " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+
+
 #	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
 #	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
