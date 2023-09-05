@@ -121,7 +121,8 @@ translateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix translateTaxono
 $(translateTaxonomy-XX-tt): translateTaxonomy-%:
 	@mkdir tmp || :
 	@test -e `pwd`/${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
-	&& echo -n "INFO: validating translation taxonomy" ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` ": " \
+	|| echo -n "\nERROR: missing taxonomy " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+	@echo -n "INFO: validating translation taxonomy" ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` ": " \
 	&& ${vch_taxonomy} ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
 	&& echo OK \
 	&& echo "INFO: translating " `echo -n '$*' | sed 's/^.*--//'` "taxonomy" \
@@ -134,7 +135,20 @@ $(translateTaxonomy-XX-tt): translateTaxonomy-%:
 	&& ${vch_taxonomy} tmp/temporary-taxonomy.xml \
 	&& echo OK \
 	&& cp tmp/temporary-taxonomy.xml ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
-	|| echo -n "\nERROR: skipping - missing translation input file (or validations failed)  " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+	|| echo -n "\nERROR: validations failed " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+
+
+validateTaxonomies-XX = $(addprefix validateTaxonomies-, $(PARLIAMENTS))
+$(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
+
+validateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix validateTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(validateTaxonomy-XX-tt): validateTaxonomy-%:
+	@test -e `pwd`/${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	|| echo -n "\nERROR: missing taxonomy " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+	@echo -n "INFO: validating translation taxonomy" ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` ": " \
+	&& ${vch_taxonomy} ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	&& echo OK \
+	|| echo -n "\nERROR: validation failed  " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
 
 
 #	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
