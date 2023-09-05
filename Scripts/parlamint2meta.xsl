@@ -19,20 +19,14 @@
   
     <!-- Store sub title, if it exists, otherwise main title -->
     <xsl:variable name="title">
-      <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/
-                                          tei:titleStmt/tei:title"/>
+      <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      <xsl:variable name="subtitle" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
       <xsl:choose>
-        <xsl:when test="$titles[@type='sub']
-                        [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
-          <xsl:value-of select="$titles[@type='sub']
-                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-                                [1]"/>
-        </xsl:when>
-        <xsl:when test="$titles[@type='sub']">
-          <xsl:value-of select="$titles[@type='sub'][1]"/>
+        <xsl:when test="normalize-space($subtitle)">
+          <xsl:value-of select="$subtitle"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="$titles[1]"/>
+          <xsl:value-of select="et:l10n($corpus-language, $titles[1])"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
