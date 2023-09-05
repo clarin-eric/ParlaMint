@@ -86,7 +86,16 @@
                                                                                  ][1]"/>
       <xsl:choose>
         <xsl:when test="$element-translation and $element-template and $if-translation-exist = 'replace'">
-          <xsl:message>INFO: replacing existing <xsl:value-of select="$lang"/> transtation for <xsl:value-of select="$id"/></xsl:message>
+          <xsl:variable name="element-template-serialized"><xsl:apply-templates select="$element-template" mode="serialize"/></xsl:variable>
+          <xsl:variable name="element-translation-serialized">
+            <xsl:variable name="element-translation-fin"><xsl:apply-templates select="$element-translation" mode="translate"/></xsl:variable>
+            <xsl:apply-templates select="$element-translation-fin" mode="serialize"/>
+          </xsl:variable>
+          <xsl:if test="not($element-translation-serialized = $element-template-serialized)">
+            <xsl:message>INFO: replacing existing <xsl:value-of select="$lang"/> transtation for <xsl:value-of select="$id"/></xsl:message>
+            <xsl:message>INFO: old <xsl:apply-templates select="$element-template" mode="serialize"/></xsl:message>
+            <xsl:message>INFO: new <xsl:apply-templates select="$element-translation" mode="serialize"/></xsl:message>
+          </xsl:if>
           <xsl:apply-templates select="$element-translation" mode="translate"/>
         </xsl:when>
         <xsl:when test="$element-template">
@@ -120,4 +129,30 @@
     <xsl:copy/>
   </xsl:template>
 
+
+  <xsl:template match="*" mode="serialize">
+    <xsl:variable name="e" select="."/>
+    <xsl:text>[[</xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:for-each select="$e/@*/name()">
+      <xsl:sort select="."/>
+      <xsl:variable name="a" select="."/>
+      <xsl:apply-templates select="$e/@*[name()=$a]" mode="serialize"/>
+    </xsl:for-each>
+    <xsl:text>]]</xsl:text>
+    <xsl:apply-templates mode="serialize"/>
+    <xsl:text>[[/</xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:text>]]</xsl:text>
+  </xsl:template>
+  <xsl:template match="@*" mode="serialize">
+    <xsl:text> </xsl:text>
+    <xsl:value-of select="name()"/>
+    <xsl:text>="</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>"</xsl:text>
+  </xsl:template>
+  <xsl:template match="text()" mode="serialize">
+    <xsl:value-of select="normalize-space(.)"/>
+  </xsl:template>
 </xsl:stylesheet>
