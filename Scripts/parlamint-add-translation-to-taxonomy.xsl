@@ -29,7 +29,9 @@
     <xsl:choose>
       <xsl:when test="normalize-space($langs)">
         <xsl:for-each select="distinct-values(tokenize(normalize-space($langs),' '))">
-          <item xml:lang="{.}"/>
+          <xsl:if test="not(. = '-')">
+            <item xml:lang="{.}"/>
+          </xsl:if>
         </xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
@@ -49,6 +51,8 @@
   </xsl:variable>
 
   <xsl:template match="/">
+    <xsl:message>INFO: languages to be added <xsl:value-of select="string-join($updated-languages/item/@xml:lang,' ')"/></xsl:message>
+    <xsl:message>INFO: all languages <xsl:value-of select="string-join($all-languages/item/@xml:lang,' ')"/></xsl:message>
     <xsl:apply-templates select="$template" mode="template"/>
   </xsl:template>
 
@@ -85,6 +89,14 @@
                                                                                  and local-name() = $element-name
                                                                                  and $updated-languages/item[@xml:lang = $lang]
                                                                                  ][1]"/>
+      <xsl:variable name="element-translation-skipped" select="$parent-translation/tei:*[@xml:lang = $lang
+                                                                                 and local-name() = $element-name
+                                                                                 and not($updated-languages/item[@xml:lang = $lang])
+                                                                                 ][1]"/>
+      <xsl:if test="$element-translation-skipped">
+        <xsl:variable name="element-translation-skipped-fin"><xsl:apply-templates select="$element-translation-skipped" mode="translate"/></xsl:variable>
+        <xsl:message>WARN: skipping translation of not allowed language <xsl:value-of select="$lang"/>: <xsl:apply-templates select="$element-translation-skipped-fin" mode="serialize"/></xsl:message>
+      </xsl:if>
       <xsl:choose>
         <xsl:when test="$element-translation and $element-template and $if-translation-exist = 'replace'">
           <xsl:variable name="element-template-serialized"><xsl:apply-templates select="$element-template" mode="serialize"/></xsl:variable>
@@ -94,8 +106,8 @@
           </xsl:variable>
           <xsl:if test="not($element-translation-serialized = $element-template-serialized)">
             <xsl:message>INFO: replacing existing <xsl:value-of select="$lang"/> transtation for <xsl:value-of select="$id"/></xsl:message>
-            <xsl:message>INFO: old <xsl:apply-templates select="$element-template" mode="serialize"/></xsl:message>
-            <xsl:message>INFO: new <xsl:apply-templates select="$element-translation" mode="serialize"/></xsl:message>
+            <xsl:message>INFO: old <xsl:value-of select="$element-template-serialized"/></xsl:message>
+            <xsl:message>INFO: new <xsl:value-of select="$element-translation-serialized"/></xsl:message>
           </xsl:if>
           <xsl:apply-templates select="$element-translation" mode="translate"/>
         </xsl:when>
