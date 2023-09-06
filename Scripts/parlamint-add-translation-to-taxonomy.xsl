@@ -65,10 +65,7 @@
   </xsl:template>
 
   <xsl:template match="tei:desc[@xml:lang = 'en'] | tei:catDesc[@xml:lang = 'en']" mode="template">
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:copy-of select="*"/>
-    </xsl:copy>
+    <xsl:copy-of select="."/>
     <xsl:variable name="term" select="./descendant::tei:term/text()"/>
     <xsl:variable name="element-name" select="local-name()"/>
     <xsl:variable name="parent-template" select="./parent::tei:*"/>
