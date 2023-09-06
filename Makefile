@@ -145,6 +145,21 @@ $(translateTaxonomy-XX-tt): translateTaxonomy-%:
 	|| echo -n "\nERROR: validations failed ${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml\n"
 
 
+initTaxonomies4translation-XX = $(addprefix initTaxonomies4translation-, $(PARLIAMENTS))
+$(initTaxonomies4translation-XX): initTaxonomies4translation-%: $(addprefix initTaxonomy4translation-%--, $(TAXONOMIES-TRANSLATE))
+
+
+initTaxonomy4translation-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy4translation-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(initTaxonomy4translation-XX-tt): initTaxonomy4translation-%:
+	$(eval $@_XX := $(shell echo -n '$*' | sed 's/--.*$$//'))
+	$(eval $@_tt := $(shell echo -n '$*' | sed 's/^.*--//'))
+	$(eval $@_langs := $(shell grep 'ParlaMint-$($@_XX)$$' ${SHARED}/Taxonomies/taxonomy-translation-responsibility.tsv|cut -f1|tr "\n" " "|sed "s/ $$//"))
+	@echo "INFO: ParlaMint $($@_XX)"
+	@echo "INFO: Taxonomy $($@_tt)"
+	@echo "INFO: Languages $($@_langs)"
+	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)"
+
+
 validateTaxonomies-XX = $(addprefix validateTaxonomies-, $(PARLIAMENTS))
 $(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
 
