@@ -7,8 +7,7 @@ xprep:	factorize metadata
 
 ### Add metadata
 metadata:
-	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI" "."
-	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI.ana" "."
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI*" "."
 
 ### Factorisation of source corpora in Orig
 factorize:

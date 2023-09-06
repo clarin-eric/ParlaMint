@@ -751,7 +751,7 @@
 	      <xsl:copy-of select="$house-refs/tei:ref[. = 'Upper house']"/>
             </xsl:when>
             <xsl:otherwise>
-	      <xsl:message terminate="yes" select="concat('FATAL ', ancestor::tei:*[@xml:id][1]/@xml:id,
+	      <xsl:message terminate="yes" select="concat('FATAL ERROR: ', ancestor::tei:*[@xml:id][1]/@xml:id,
                                                    ': BAD HOUSES FOR COUNTRY IN THIS SCRIPT!')"/>
 	    </xsl:otherwise>
           </xsl:choose>
@@ -769,7 +769,7 @@
             <xsl:attribute name="ana" select="concat($refs, @ana)"/>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:message terminate="yes" select="concat('FATAL ', /tei:TEI/@xml:id,
+            <xsl:message terminate="yes" select="concat('FATAL ERROR: ', /tei:TEI/@xml:id,
 						 ': COULD NOT FIND HOUSES FOR MEETING ELEMENT!')"/>
           </xsl:otherwise>
         </xsl:choose>

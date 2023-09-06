@@ -57,13 +57,13 @@
               <xsl:variable name="comment" select="normalize-space(regex-group(11))"/>
               <xsl:if test = '$country != $corpusCountry'>
                 <xsl:message terminate="yes"
-                             select="concat('FATAL: TEI corpus country = ', $corpusCountry, 
+                             select="concat('FATAL ERROR: TEI corpus country = ', $corpusCountry, 
                                      ' does not match TSV country = ', $country,
                                      ' in TSV line&#10;', .)"/>
               </xsl:if>
               <xsl:if test = "$role != 'minister'">
                 <xsl:message terminate="yes"
-                             select="concat('FATAL: Role ', $role, 
+                             select="concat('FATAL ERROR: Role ', $role, 
                                      ' does not match minister! TSV is:&#10;', .)"/>
               </xsl:if>
               <xsl:choose>
@@ -89,7 +89,7 @@
             </xsl:matching-substring>
             <xsl:non-matching-substring>
               <xsl:message terminate="yes"
-                           select="concat('FATAL: Bad line in TSV: ', .)"/>
+                           select="concat('FATAL ERROR: Bad line in TSV: ', .)"/>
             </xsl:non-matching-substring>
           </xsl:analyze-string>
         </xsl:if>

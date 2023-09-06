@@ -16,7 +16,8 @@
   <xsl:import href="parlamint-lib.xsl"/>
   
   <xsl:output method="xml" indent="no" omit-xml-declaration="yes"/>
-  
+
+  <!-- Do we want the syntactic dependency and head attributes? -->
   <xsl:param name="nosyntax"/>
   
   <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->
@@ -36,20 +37,14 @@
   <xsl:template match="tei:TEI">
     <xsl:variable name="text_id" select="replace(@xml:id, '\.ana', '')"/>
     <xsl:variable name="title">
-      <xsl:variable name="titles" select="tei:teiHeader/tei:fileDesc/
-                                          tei:titleStmt/tei:title"/>
+      <xsl:variable name="titles" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+      <xsl:variable name="subtitle" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
       <xsl:choose>
-        <xsl:when test="$titles[@type='sub']
-                        [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]">
-          <xsl:value-of select="$titles[@type='sub']
-                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]
-                                [1]"/>
-        </xsl:when>
-        <xsl:when test="$titles[@type='sub']">
-          <xsl:value-of select="$titles[@type='sub'][1]"/>
+        <xsl:when test="normalize-space($subtitle)">
+          <xsl:value-of select="$subtitle"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="replace($titles[1], '\s*\[.+?\]$', '')"/>
+          <xsl:value-of select="et:l10n($corpus-language, $titles[1])"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -78,18 +73,17 @@
       <xsl:choose>
 	<!-- Segments not marked for language, so name of language of utterance -->
 	<xsl:when test="not(normalize-space($langs))">
-	  <xsl:value-of select="$rootHeader//tei:langUsage/tei:language
-                                [@ident = $defaultLang]
-                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+	  <xsl:value-of select="et:l10n($corpus-language, 
+				$rootHeader//tei:langUsage/tei:language[@ident = $defaultLang])"/>
 	</xsl:when>
 	<!-- Multilingual content -->
 	<xsl:when test="tokenize($langs)[2]">
+	<!-- This should be translated as well! -->
 	  <xsl:text>Multilingual</xsl:text>
 	</xsl:when>
 	<xsl:otherwise>
-	  <xsl:value-of select="$rootHeader//tei:langUsage/tei:language
-                                [@ident = $langs]
-                                [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+	  <xsl:value-of select="et:l10n($corpus-language, 
+				$rootHeader//tei:langUsage/tei:language[@ident = $langs])"/>
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
@@ -163,9 +157,8 @@
   <xsl:template match="tei:seg">
     <p id="{@xml:id}">
       <xsl:variable name="lang-code" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
-      <xsl:attribute name="lang" select="$rootHeader//tei:langUsage/tei:language
-                                         [@ident=$lang-code]
-                                         [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+      <xsl:attribute name="lang" select="et:l10n($corpus-language, 
+					 $rootHeader//tei:langUsage/tei:language[@ident = $lang-code])"/>
       <xsl:text>&#10;</xsl:text>
       <xsl:apply-templates/>
     </p>
@@ -317,8 +310,7 @@
         </xsl:if>
         <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
         <xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
-        <xsl:value-of select="key('id', $relation, $rootHeader)/tei:catDesc/tei:term
-                              [ancestor-or-self::tei:*[@xml:lang][1][@xml:lang='en']]"/>
+        <xsl:value-of select="et:l10n($corpus-language, key('id', $relation, $rootHeader)/tei:catDesc)/tei:term"/>
         <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
         <xsl:choose>
           <xsl:when test="$target/self::tei:s">

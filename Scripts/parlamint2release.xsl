@@ -10,7 +10,7 @@
      Changes to root file:
      - delete old and now redundant pubPlace
      - insert textClass if missing
-     - remove Anonymous speaker (BG, BE)
+     - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
@@ -25,6 +25,7 @@
      - in .ana change lemma tag from _ to normalised form or wordform
      - in .ana change root syntactic dependency to dep, if node is not sentence root
      - in .ana change <PAD> syntactic dependency to dep
+     - in .ana change obl:loc syntactic dependency to obl
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 -->
 <xsl:stylesheet 
@@ -200,9 +201,9 @@
   </xsl:template>
   
   <!-- Remove anonymous speaker -->
-  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous']">
+  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-			 ': removing Anonymous speaker from listPerson ', @xml:id)"/>
+			 ': removing anonymous speaker from listPerson ', @xml:id)"/>
   </xsl:template>
   
   <!-- Remove the two "speaker" parties from GB, i.e. 
@@ -311,7 +312,7 @@
 	<xsl:value-of select="replace(., '^\s+', '')"/>
       </xsl:when>
       <xsl:otherwise>
-	  <xsl:message terminate="yes" select="concat('FATAL ', /tei:*/@xml:id, 
+	  <xsl:message terminate="yes" select="concat('FATAL ERROR ', /tei:*/@xml:id, 
                                ': strange situation with ', .)"/>
       </xsl:otherwise>
     </xsl:choose>
@@ -376,10 +377,10 @@
     </xsl:copy>
   </xsl:template>
   
-  <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
-  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous']">
+  <!-- Remove @who for anonymous speakers -->
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = '#anonymous' or . = '#unknown']">
     <xsl:message select="concat('WARN ', /tei:*/@xml:id,
-			 ': removing @who = #Anonymous from utterance ', ../@xml:id)"/>
+			 ': removing @who = ', ., ' from utterance ', ../@xml:id)"/>
   </xsl:template>
     
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
@@ -553,6 +554,20 @@
         <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
                                ': replacing ud-syn:&lt;PAD&gt; with ud-syn:dep')"/>
 	<xsl:text>ud-syn:dep</xsl:text>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp" select="@target"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Bug in DK, using obsolete obl:loc dependency -->
+  <!-- We set it to "advmod:lmod", although this will produce errors when UPOS of token is not ADV 
+  cf. https://github.com/clarin-eric/ParlaMint/issues/737 -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:obl_loc']">
+    <xsl:copy>
+      <xsl:attribute name="ana">
+        <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:obl_loc with ud-syn:advmod_lmod')"/>
+	<xsl:text>ud-syn:advmod_lmod</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates mode="comp" select="@target"/>
     </xsl:copy>
