@@ -186,7 +186,7 @@ sub conllu2tei {
         if ($feats and $feats ne '_') {$element =~ s|>| msd=\"$feats\">|}
         if ($tag eq 'w') {
 	    if ($lemma eq '_') {
-                print STDERR "WARN: changing empty lemma to $token for\n$line\n";
+                print STDERR "WARN: changing empty lemma to $token for $line\n";
 		$lemma = $token
 	    }
 	    $element =~ s|>| lemma=\"$lemma\">|

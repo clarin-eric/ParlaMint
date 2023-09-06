@@ -100,21 +100,55 @@ $Saxon   = "java -jar /usr/share/java/saxon.jar";
 # Problem with Out of heap space with TR, NL, GB for ana
 $SaxonX  = "java -Xmx240g -jar /usr/share/java/saxon.jar";
 
-# For the following taxonomies we substitute the local taxonomy with common one
+# For the following taxonomies we substitute the local taxonomy with common one,
+# reduced to the relevant langauges
 # We are assuming taxonomies are relative to the Scripts/ (i.e. $Bin/) directory
-# Probably a temporary solution, to be substituted by a separate script
 $taxonomyDir = "$Bin/../Corpora/Taxonomies";
-# Currently we do it only for subcorpus
-$taxonomy{'ParlaMint-taxonomy-subcorpus'}             = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
-#$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
-#$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
-#$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+$taxonomy{'ParlaMint-taxonomy-parla.legislature'}    = "$taxonomyDir/ParlaMint-taxonomy-parla.legislature.xml";
+$taxonomy{'ParlaMint-taxonomy-politicalOrientation'} = "$taxonomyDir/ParlaMint-taxonomy-politicalOrientation.xml";
+$taxonomy{'ParlaMint-taxonomy-speaker_types'}        = "$taxonomyDir/ParlaMint-taxonomy-speaker_types.xml";
+$taxonomy{'ParlaMint-taxonomy-subcorpus'}            = "$taxonomyDir/ParlaMint-taxonomy-subcorpus.xml";
+$taxonomy{'ParlaMint-taxonomy-NER.ana'}              = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
+#We do not translate these two:
 #$taxonomy{'ParlaMint-taxonomy-CHES'}                 = "$taxonomyDir/ParlaMint-taxonomy-CHES.xml";
-#$taxonomy_ana{'ParlaMint-taxonomy-NER.ana'}          = "$taxonomyDir/ParlaMint-taxonomy-NER.ana.xml";
-#$taxonomy_ana{'ParlaMint-taxonomy-UD-SYN.ana'}       = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
+#$taxonomy{'ParlaMint-taxonomy-UD-SYN.ana'}           = "$taxonomyDir/ParlaMint-taxonomy-UD-SYN.ana.xml";
   
+# Mapping of countries to languages, we need it for mapping of common taxonomies
+$country2lang{'AT'} = 'de';
+$country2lang{'BA'} = 'bs';
+$country2lang{'BE'} = 'nl';
+$country2lang{'BG'} = 'bg';
+$country2lang{'CZ'} = 'cs';
+$country2lang{'DK'} = 'da';
+$country2lang{'EE'} = 'et';
+$country2lang{'ES'} = 'es';
+$country2lang{'ES-CT'} = 'ca';
+$country2lang{'ES-GA'} = 'gl';
+$country2lang{'ES-PV'} = 'eu';
+$country2lang{'FI'} = 'fi';
+$country2lang{'FR'} = 'fr';
+$country2lang{'GB'} = 'en';
+$country2lang{'GR'} = 'el';
+$country2lang{'HR'} = 'hr';
+$country2lang{'HU'} = 'hu';
+$country2lang{'IS'} = 'is';
+$country2lang{'IT'} = 'it';
+$country2lang{'LT'} = 'lt';
+$country2lang{'LV'} = 'lv';
+$country2lang{'NL'} = 'nl';
+$country2lang{'NO'} = 'no';
+$country2lang{'PL'} = 'pl';
+$country2lang{'PT'} = 'pt';
+$country2lang{'RO'} = 'ro';
+$country2lang{'RS'} = 'sr';
+$country2lang{'SE'} = 'sv';
+$country2lang{'SI'} = 'sl';
+$country2lang{'TR'} = 'tr';
+$country2lang{'UA'} = 'uk'; 
+
 $scriptRelease = "$Bin/parlamint2release.xsl";
 $scriptCommon  = "$Bin/parlamint-add-common-content.xsl";
+$scriptTaxonomy= "$Bin/parlamint-init-taxonomy.xsl";
 $scriptPolish  = "$Bin/polish-xml.pl";
 $scriptValid   = "$Bin/validate-parlamint.pl";
 $scriptSample  = "$Bin/corpus2sample.xsl";
@@ -162,7 +196,7 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     my $outTeiRoot = "$outDir/$teiRoot";     # $outTeiRoot  =~ s/$XX/-$MT/ if $MT;
     my $outAnaDir  = "$outDir/$anaDir";      # $outAnaDir   =~ s/$XX/-$MT/ if $MT;
     my $outAnaRoot = "$outDir/$anaRoot";     # $outAnaRoot  =~ s/$XX/-$MT/ if $MT;
-    my $outSmpDir  = "$outDir/Sample-$XX";   # $outSmpDir   =~ s/$XX/-$MT/ if $MT;
+    my $outSmpDir  = "$outDir/$XX";          # $outSmpDir   =~ s/$XX/-$MT/ if $MT;
     my $outTxtDir  = "$outDir/$XX.txt";      # $outTxtDir   =~ s/$XX/-$MT/ if $MT;
     my $outConlDir = "$outDir/$XX.conllu";   # $outConlDir  =~ s/$XX/-$MT/ if $MT;
     my $outVertDir = "$outDir/$XX.vert";     # $outVertDir  =~ s/$XX/-$MT/ if $MT;
@@ -178,17 +212,17 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     
     if (($procAll and $procAna) or (!$procAll and $procAna == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI.ana\n";
-	die "FATAL: Need version\n" unless $Version;
-	die "FATAL: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
-	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: Need version\n" unless $Version;
+	die "FATAL ERROR: Can't find input ana root $inAnaRoot\n" unless -e $inAnaRoot;
+	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	# Output top level readme
 	&cp_readme_top($countryCode, $MT, 'ana', $handleAna, $Version, $docsDir, $outDir);
 	`rm -fr $outAnaDir; mkdir $outAnaDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.ana.txt"}
 	else {$inReadme = "$docsDir/README.TEI.ana.txt"}
-	die "FATAL: No handle given for TEI.ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: No handle given for TEI.ana distribution\n" unless $handleAna;
 	&cp_readme($countryCode, $handleAna, $Version, $inReadme, "$outAnaDir/00README.txt");
-	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
+	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outAnaDir/Schema");
 	# Remove unwanted files
 	`rm -f $outAnaDir/Schema/.gitignore`;
@@ -202,21 +236,21 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX outDir=$tmpOutDir -xsl:$scriptRelease $inAnaRoot`;
 	print STDERR "INFO: ***Adding common content to TEI.ana corpus\n";
 	`$SaxonX version=$Version handle-ana=$handleAna anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpAnaRoot`;
-	&commonTaxonomies($outAnaDir);
+	&commonTaxonomies($countryCode, $outAnaDir);
     	&polish($outAnaDir);
     }
     if (($procAll and $procTei) or (!$procAll and $procTei == 1)) {
 	print STDERR "INFO: ***Finalizing $countryCode TEI\n";
-	die "FATAL: Need version\n" unless $Version;
-	die "FATAL: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
-	die "FATAL: No handle given for TEI distribution\n" unless $handleTEI;
+	die "FATAL ERROR: Need version\n" unless $Version;
+	die "FATAL ERROR: Can't find input tei root $inTeiRoot\n" unless -e $inTeiRoot; 
+	die "FATAL ERROR: No handle given for TEI distribution\n" unless $handleTEI;
 	# Output top level readme
 	&cp_readme_top($countryCode, $MT, 'TEI', $handleTEI, $Version, $docsDir, $outDir);
 	`rm -fr $outTeiDir; mkdir $outTeiDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.TEI.txt"}
 	else {$inReadme = "$docsDir/README.TEI.txt"}
 	&cp_readme($countryCode, $handleTEI, $Version, $inReadme, "$outTeiDir/00README.txt");
-	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
+	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	dircopy($schemaDir, "$outTeiDir/Schema");
 	`rm -f $outTeiDir/Schema/.gitignore`;
 	`rm -f $outTeiDir/Schema/nohup.*`;
@@ -227,13 +261,13 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	`$SaxonX anaDir=$outAnaDir outDir=$tmpOutDir -xsl:$scriptRelease $inTeiRoot`;
 	print STDERR "INFO: ***Adding common content to TEI corpus\n";
 	`$SaxonX version=$Version handle-txt=$handleTEI anaDir=$outAnaDir outDir=$outDir -xsl:$scriptCommon $tmpTeiRoot`;
-	&commonTaxonomies($outTeiDir);
+	&commonTaxonomies($countryCode, $outTeiDir);
 	&polish($outTeiDir);
     }
     if (($procAll and $procSample) or (!$procAll and $procSample == 1)) {
 	print STDERR "INFO: ***Making $countryCode samples\n";
+	`rm -fr $outSmpDir`;
 	if (-e $outTeiRoot) {
-	    `rm -fr $outSmpDir`;
 	    `$Saxon outDir=$outSmpDir -xsl:$scriptSample $outTeiRoot`;
 	    `$scriptTexts $outSmpDir $outSmpDir`;
 	}
@@ -250,12 +284,14 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	else {print STDERR "ERROR: No .ana files for $countryCode samples (needed root file is $outAnaRoot)\n"}
 	# Output top level readme but not for $MTed version, as it would overwrite the original
 	# The Sample readme does not have handle or version, as the sample can change irrespective of them
+	&commonTaxonomies($countryCode, $outSmpDir);
 	&cp_readme_top($countryCode, '', 'sample', '', '', $docsDir, $outSmpDir)
 	    unless $MT;
+	&polish($outSmpDir);
     }
     if (($procAll and $procValid) or (!$procAll and $procValid == 1)) {
 	print STDERR "INFO: ***Validating $countryCode TEI\n";
-	die "FATAL: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
+	die "FATAL ERROR: Can't find schema directory\n" unless $schemaDir and -e $schemaDir;
 	`$scriptValid $schemaDir $outSmpDir` if -e $outSmpDir; 
 	`$scriptValid $schemaDir $outTeiDir` if -e $outTeiDir;
 	`$scriptValid $schemaDir $outAnaDir` if -e $outAnaDir;
@@ -265,20 +301,20 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
 	# We have an oportunistic handle, could be $handleTEI or $handleAna, depending on which one exists
 	if    ($handleTEI) {$handleTxt = $handleTEI}
 	elsif ($handleAna) {$handleTxt = $handleAna}
-	else {die "FATAL: No handle given for TEI or .ana distribution\n"}
+	else {die "FATAL ERROR: No handle given for TEI or .ana distribution\n"}
 	`rm -fr $outTxtDir; mkdir $outTxtDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.txt.txt"}
 	else {$inReadme = "$docsDir/README.txt.txt"}
 	&cp_readme($countryCode, $handleTxt, $Version, $inReadme, "$outTxtDir/00README.txt");
 	if    (-e $outTeiDir) {`$scriptTexts $outTeiDir $outTxtDir`}
 	elsif (-e $outAnaDir) {`$scriptTexts $outAnaDir $outTxtDir`}
-	else {die "FATAL: Neither $outTeiDir nor $outAnaDir exits\n"}
+	else {die "FATAL ERROR: Neither $outTeiDir nor $outAnaDir exits\n"}
 	&dirify($outTxtDir);
     }
     if (($procAll and $procConll) or (!$procAll and $procConll == 1)) {
 	print STDERR "INFO: ***Making $countryCode CoNLL-U\n";
-	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
-	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outConlDir; mkdir $outConlDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.conll.txt"}
 	else {$inReadme = "$docsDir/README.conll.txt"}
@@ -288,8 +324,8 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     }
     if (($procAll and $procVert) or (!$procAll and $procVert == 1)) {
 	print STDERR "INFO: ***Making $countryCode vert\n";
-	die "FATAL: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
-	die "FATAL: No handle given for ana distribution\n" unless $handleAna;
+	die "FATAL ERROR: Can't find input ana dir $outAnaDir\n" unless -e $outAnaDir; 
+	die "FATAL ERROR: No handle given for ana distribution\n" unless $handleAna;
 	`rm -fr $outVertDir; mkdir $outVertDir`;
 	if ($MT) {$inReadme = "$docsDir/README-$MT.vert.txt"}
 	else {$inReadme = "$docsDir/README.vert.txt"}
@@ -302,15 +338,19 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     print STDERR "INFO: ***Finished processing $countryCode corpus.\n";
 }
 
-# Substitute local with common taxonomies
+# Substitute local with common taxonomies & reduce languages to en + corpus one(s)
 sub commonTaxonomies {
-    my $Dir = shift;
+    my $Country = shift;
+    my $outDir = shift;
     foreach my $taxonomy (sort keys %taxonomy) {
-	if (-e $taxonomy{$taxonomy}) {
-	    #This should not be a simple cp, but rather script that retains only relevant langauge(s)!!! 
-	    `cp $taxonomy{$taxonomy} $Dir/$taxonomy.xml`
+	if ($taxonomy !~ /\.ana/ or
+	    ($taxonomy =~ /\.ana/ and ($outDir =~ /\.ana/ or $outDir !~ /\.TEI/))) {
+	    if (-e $taxonomy{$taxonomy}) {
+		my $command = "$Saxon if-lang-missing=skip langs='$country2lang{$Country}' -xsl:$scriptTaxonomy";
+		`$command $taxonomy{$taxonomy} > $outDir/$taxonomy.xml`;
+	    }
+	    else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
 	}
-	else {print STDERR "ERROR: Can't find common taxonomy $taxonomy at $taxonomy{$taxonomy}\n"}
     }
     return 1;
 }
@@ -352,9 +392,9 @@ sub cp_readme_top {
     my $countryName; # Country name obtained from existing README
     my $countryCode; # Country code obtained from existing README
     my $RegionalSuffix; #Not used
-    die "FATAL: No country for cp_readme_top\n" unless $country;
-    die "FATAL: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
-    die "FATAL: No version for cp_readme_top\n" unless $version or $type eq 'sample';
+    die "FATAL ERROR: No country for cp_readme_top\n" unless $country;
+    die "FATAL ERROR: No handle for cp_readme_top\n" unless $handle or $type eq 'sample';
+    die "FATAL ERROR: No version for cp_readme_top\n" unless $version or $type eq 'sample';
     my $inFile = "$inDir/README-$country.md";
     $inFile =~ s|-$mt|| if $mt; #Need to remove e.g. '-en' from input readme, as we don't have such input files
     # Construct output filename: in sample it is just README.md, other types add on a suffix
@@ -368,8 +408,8 @@ sub cp_readme_top {
     }
     $outFile .= ".md";
     
-    open IN, '<:utf8', $inFile or die "FATAL: Can't open input top README $inFile\n";
-    open OUT,'>:utf8', $outFile or die "FATAL: Can't open output top README $outFile\n";
+    open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input top README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "FATAL ERROR: Can't open output top README $outFile\n";
     # Input:  # ParlaMint directory for samples of country AT (Austria)
     # Output depends on $type, $MT, and $country:
     # sample: # Samples of the ParlaMint-AT corpus
@@ -382,7 +422,7 @@ sub cp_readme_top {
     while (<IN>) {
 	if (m|^# ParlaMint|) {
 	    ($countryCode, $RegionalSuffix, $countryName) = m| ([A-Z]{2}(-[A-Z]{2})?) \((.+)\)$| or die;
-	    die "FATAL: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
+	    die "FATAL ERROR: Bad code $countryCode (!= $country) in $inFile\n" unless $country =~ /$countryCode/;
 	    if    ($type =~ /sample/i) {print OUT "# Samples of the ParlaMint-$countryCode corpus"}
 	    elsif ($type =~ /TEI/i)    {print OUT "# Corpus of parliamentary debates ParlaMint-$countryCode"}
 	    elsif ($type =~ /ana/i)    {print OUT "# Linguistically annotated corpus of parliamentary debates ParlaMint-$countryCode"}
@@ -414,11 +454,11 @@ sub cp_readme {
     my $version = shift;
     my $inFile  = shift;
     my $outFile = shift;
-    die "FATAL: No country for cp_readme\n" unless $country;
-    die "FATAL: No handle for cp_readme\n" unless $handle;
-    die "FATAL: No version for cp_readme\n" unless $version;
-    open IN, '<:utf8', $inFile or die "FATAL: Can't open input README $inFile\n";
-    open OUT,'>:utf8', $outFile or die "FATAL: Can't open output README $outFile\n";
+    die "FATAL ERROR: No country for cp_readme\n" unless $country;
+    die "FATAL ERROR: No handle for cp_readme\n" unless $handle;
+    die "FATAL ERROR: No version for cp_readme\n" unless $version;
+    open IN, '<:utf8', $inFile or die "FATAL ERROR: Can't open input README $inFile\n";
+    open OUT,'>:utf8', $outFile or die "FATAL ERROR: Can't open output README $outFile\n";
     while (<IN>) {
 	s/XX/$country/g;
 	s/YY/$handle/g;

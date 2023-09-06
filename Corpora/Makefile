@@ -1,14 +1,21 @@
 ## Transliteration tests
 test-translit4:
-	$s tsv=0.tsv -xsl:bin/trans-tsv2tei.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml > ParlaMint-BG-listPerson.xml
+	${vlp} ParlaMint-GR-listPerson.xml
+	${vlo} ParlaMint-GR-listOrg.xml
 test-translit3:
-	bin/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml ParlaMint-BG-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml ParlaMint-BG-listOrg.xml
+
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listPerson.xml ParlaMint-GR-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
+
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml ParlaMint-UA-listPerson.xml
+	../Scripts/trans-execute.pl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml ParlaMint-UA-listOrg.xml
 test-translit2:
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
+	bin/trans-execute.pl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listOrg.xml ParlaMint-GR-listOrg.xml
 test-translit1:
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listPerson.xml > ParlaMint-BG-listPerson.tsv
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-GR.TEI/ParlaMint-GR-listPerson.xml > ParlaMint-GR-listPerson.tsv
-	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-UA.TEI/ParlaMint-UA-listPerson.xml > ParlaMint-UA-listPerson.tsv
+	$s -xsl:bin/trans-tei2tsv.xsl Sources-TEI/ParlaMint-BG.TEI/ParlaMint-BG-listOrg.xml > ParlaMint-BG-listOrg.tsv
+
 
 ######## Merging taxonomies
 
@@ -40,7 +47,7 @@ merge-taxos:
 # Missing corpora: FI LT RO ES-PV
 
 ######## SUBMITTED CORPORA FOR V 3.1
-# CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
+#CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
 CORPORA = AT
@@ -113,9 +120,7 @@ cp-readmes:
 # Make samples only
 samples:
 	for CORPUS in ${CORPORA}; do \
-	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}.log; \
-	grep -a -i 'error' Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.error.log;  \
-	grep -a -i 'warn'  Logs/ParlaMint-$${CORPUS}.log > Logs/ParlaMint-$${CORPUS}.warn.log;  \
+	${FINALIZE} -sample -codes $${CORPUS} -in ${SOURCES} -out ${HERE}/Master 2> Logs/ParlaMint-$${CORPUS}-samples.log; \
 	done;
 
 # Make vertical files only
@@ -125,16 +130,21 @@ make-verts:
 	done;
 	make verts
 
-# Make overall root(.ana) for ParlaMint
-make-root:
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.xml > ${HERE}/Master/ParlaMint.xml
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Master/ParlaMint.ana.xml
+# Make overall root(.ana) for ParlaMint in Sources-TEI/ or Master/
+source-roots:
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+master-roots:
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.xml > ${HERE}/Sources-TEI/ParlaMint.xml
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template.ana.xml > ${HERE}/Sources-TEI/ParlaMint.ana.xml
+master-mt-root:
+	$s base=${HERE}/Sources-TEI -xsl:../Scripts/parlamint2root.xsl \
+	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Sources-TEI/ParlaMint-en.ana.xml
 
-mt-make-root:
-	$s base=${HERE}/Master -xsl:../Scripts/parlamint2root.xsl \
-	../Scripts/ParlaMint-template-en.ana.xml > ${HERE}/Master/ParlaMint-en.ana.xml
 
 cp-samples:
 	# bin/cp-samples.pl 'Master/Sample-ParlaMint-*-en' Test
@@ -196,7 +206,7 @@ FINALIZE-MT = perl ../Scripts/parlamint2distro.pl -version ${VERSION-MT} -anahan
 mt-nohup:
 	nice nohup time make mt-all-final > Logs/ParlaMint-en.log &
 mt-all-final:	mt-convert
-mt-xall-final:	mt-init mt-convert mt-verts mt-pack mt-web
+mt-xall-final:	mt-convert mt-verts mt-pack mt-web
 
 mt-web:
 	rsync -av Logs/*-en*.log ${WEB}/Logs
@@ -236,14 +246,6 @@ mt-convert:
 	done;
 
 ### Tests for debugging MT processing
-
-mt-test9:
-	perl ../Scripts/mt-conllu2tei.pl \
-	${HERE}/Master/ParlaMint-LV.TEI.ana/ParlaMint-LV.ana.xml \
-	${SOURCES-MT}/ParlaMint-LV-en-notes.tsv \
-	Sources-Sem/Test/ParlaMint-LV-en.conllu \
-	${TEMP}/ParlaMint-LV-en.TEI.ana
-	${FINALIZE-MT} -all -notei -noconll -codes LV-en -in ${TEMP} -out ${HERE}/Test
 
 mt-test8:
 	$s -xsl:../Scripts/validate-parlamint.xsl \

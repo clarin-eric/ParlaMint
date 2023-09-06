@@ -1,5 +1,5 @@
 ### Testing targets
-MC = BE
+MC = UA
 test-tsv2tei:
 	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | \
