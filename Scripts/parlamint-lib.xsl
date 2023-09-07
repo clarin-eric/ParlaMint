@@ -245,6 +245,7 @@
     <xsl:variable name="result">
       <xsl:variable name="idref" select="concat('#', $ref)"/>
       <xsl:for-each select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:meeting">
+	<!-- Maybe we should ignore @n and use l10n-ed content of the corresponding event content? -->
         <xsl:variable name="n" select="@n"/>
         <xsl:for-each select="tokenize(@ana, ' ')">
           <xsl:if test="starts-with(., $idref)">
@@ -798,14 +799,22 @@
   <xsl:function name="et:l10n">
     <xsl:param name="corpus-language"/>
     <xsl:param name="elements"/>
+    <!-- Should never happen, as all meta elements should be marked for @xml:lang -->
+    <xsl:if test="$elements[not(@xml:lang)]">
+      <xsl:message terminate="yes" select="concat('FATAL ERROR: no @xml:lang at least in ', 
+					   $elements[not(@xml:lang)][1])"/>
+    </xsl:if>
+    <!--xsl:message select="concat('DEBUG: out-lang = ', $out-lang, ', corpus language = ', $corpus-language)"/-->
     <!-- Original language -->
     <xsl:variable name="element-xx" select="$elements[@xml:lang = $corpus-language]"/>
     <!-- Latin spelling -->
-    <xsl:variable name="element-lt" select="$elements[@xml:lang = concat($corpus-language, '-Latn')]"/>
+    <xsl:variable name="element-lt" select="$elements[ends-with(@xml:lang, '-Latn')]"/>
     <!-- English -->
     <xsl:variable name="element-en" select="$elements[@xml:lang = 'en']"/>
     <!-- For (the only example in ParlaMint) the French spelling of a name in GR. -->
-    <xsl:variable name="element-yy" select="$elements[@xml:lang != 'en' and @xml:lang != $corpus-language]"/>
+    <!-- Note that corpus-langauge can be "en" for MTed corpora, so we need to choose only one result -->
+    <xsl:variable name="element-yy" select="$elements[not(@xml:lang = 'en' or
+					    @xml:lang = $corpus-language or ends-with(@xml:lang, '-Latn'))][1]"/>
     <!-- If nothing else serves... -->
     <xsl:variable name="element-fb" select="$elements[1]"/>
     <xsl:choose>
@@ -839,11 +848,11 @@
 	  <xsl:when test="normalize-space($element-en)">
 	    <xsl:copy-of select="$element-en"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-yy)">
-	    <xsl:copy-of select="$element-yy"/>
-	  </xsl:when>
 	  <xsl:when test="normalize-space($element-lt)">
 	    <xsl:copy-of select="$element-lt"/>
+	  </xsl:when>
+	  <xsl:when test="normalize-space($element-yy)">
+	    <xsl:copy-of select="$element-yy"/>
 	  </xsl:when>
 	  <xsl:when test="normalize-space($element-fb)">
 	    <xsl:copy-of select="$element-fb"/>
