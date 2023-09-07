@@ -58,12 +58,15 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     $outTxt = "$XX.tgz";
     $outAna = "$XX.ana.tgz";
     
-    print STDERR "INFO: *Packing $teiDir, $TxtDir\n";
-    `rm -fr $outDir/$outTxt`;
-    die "Can't find $inDir/$teiDir\n" unless -e "$inDir/$teiDir"; 
-    die "Can't find $inDir/$TxtDir\n" unless -e "$inDir/$TxtDir";
-    `cd $inDir; tar -czf $outTxt --mode='a+rwX' $teiDir $TxtDir`;
-    move("$inDir/$outTxt", $outDir);
+    unless (-e "$inDir/$teiDir" and -e "$inDir/$TxtDir") {
+	print STDERR "WARN: *Cant find $teiDir or $TxtDir, won't pack .TEI version!\n";
+    }
+    else {
+	print STDERR "INFO: *Packing $teiDir, $TxtDir\n";
+	`rm -fr $outDir/$outTxt`;
+	`cd $inDir; tar -czf $outTxt --mode='a+rwX' $teiDir $TxtDir`;
+	move("$inDir/$outTxt", $outDir);
+    }
     
     print STDERR "INFO: *Packing $anaDir, $ConlDir, $VertDir\n";
     if (-e "$inDir/$anaDir/$XX.ana.xml") {

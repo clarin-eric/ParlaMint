@@ -14,6 +14,13 @@
   <xsl:variable name="id" select="/tei:*/@xml:id"/>
   <xsl:variable name="idTemplate" select="'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?(-[a-z]{2,3})?'"/>
   
+  <!-- Is this an MTed corpus? Set $mt to name of MTed language (or empty, if not) -->
+  <xsl:variable name="MT">
+    <xsl:if test="matches($id, 'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?-[a-z]{2,3}')">
+      <xsl:value-of select="replace($id, 'ParlaMint-[A-Z]{2}(-[A-Z0-9]{1,3})?-([a-z]{2,3}).*', '$2')"/>
+    </xsl:if>
+  </xsl:variable>
+  
   <xsl:variable name="type">
     <xsl:choose>
       <xsl:when test="matches($fileName, concat($idTemplate,'\.ana\.xml$'))">ana</xsl:when>
@@ -53,16 +60,12 @@
     </xsl:if>
     <xsl:if test="$type = 'txt' and not(matches($id, $idTemplate))">
       <xsl:call-template name="error">
-        <xsl:with-param name="msg">
-          <xsl:text>teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?</xsl:text>
-        </xsl:with-param>
+        <xsl:with-param name="msg">teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:if test="$type = 'ana' and not(matches($id, concat($idTemplate,'\.ana')))">
       <xsl:call-template name="error">
-        <xsl:with-param name="msg">
-          <xsl:text>teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?.ana</xsl:text>
-        </xsl:with-param>
+        <xsl:with-param name="msg">teiCorpus ID should match ParlaMint-{ISO3166}(-{ISO639})?.ana</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:variable name="rootHeader">
@@ -135,13 +138,13 @@
     </xsl:variable>
     <xsl:if test="not(normalize-space($subcorpus-TEI))">
       <xsl:call-template name="error">
-        <xsl:with-param name="msg">TEI element should have #reference or #covid in @ana</xsl:with-param>
+        <xsl:with-param name="msg">TEI element should have #reference or #covid and/or #war in @ana</xsl:with-param>
       </xsl:call-template>
     </xsl:if>
     <xsl:choose>
       <xsl:when test="not(normalize-space($subcorpus-text))">
         <xsl:call-template name="error">
-          <xsl:with-param name="msg">text element should have #reference or #covid in @ana</xsl:with-param>
+          <xsl:with-param name="msg">text element should have #reference or #covid and/or #war in @ana</xsl:with-param>
         </xsl:call-template>
       </xsl:when>
       <xsl:when test="$subcorpus-TEI != $subcorpus-text">
@@ -159,10 +162,10 @@
     <xsl:variable name="title-prefix">[^ ]+( [^ ]+)? parliamentary corpus <xsl:value-of select="$idTemplate"/></xsl:variable>
     <xsl:variable name="title-suffix">
       <xsl:choose>
-        <xsl:when test="/tei:teiCorpus and $type = 'txt'"> \[ParlaMint( SAMPLE)?\]$</xsl:when>
-        <xsl:when test="/tei:teiCorpus and $type = 'ana'"> \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
-        <xsl:when test="/tei:TEI and $type = 'txt'">,? .+ \[ParlaMint( SAMPLE)?\]$</xsl:when>
-        <xsl:when test="/tei:TEI and $type = 'ana'">,? .+ \[ParlaMint\.ana( SAMPLE)?\]$</xsl:when>
+        <xsl:when test="not(/tei:TEI) and $type = 'txt'"> \[ParlaMint(-[a-z]{2,3})?( SAMPLE)?\]$</xsl:when> <!-- teiHeader context when testing teiCorpus header -->
+        <xsl:when test="not(/tei:TEI) and $type = 'ana'"> \[ParlaMint(-[a-z]{2,3})?\.ana( SAMPLE)?\]$</xsl:when>
+        <xsl:when test="/tei:TEI and $type = 'txt'">,? .+ \[ParlaMint(-[a-z]{2,3})?( SAMPLE)?\]$</xsl:when>
+        <xsl:when test="/tei:TEI and $type = 'ana'">,? .+ \[ParlaMint(-[a-z]{2,3})?\.ana( SAMPLE)?\]$</xsl:when>
       </xsl:choose>
     </xsl:variable>
     <xsl:variable name="title-pattern" select="concat($title-prefix, $title-suffix)"/>
@@ -249,7 +252,8 @@
           <xsl:with-param name="msg">Missing 'Named entities' taxonomy</xsl:with-param>
         </xsl:call-template>
       </xsl:if>
-      <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'])">
+      <!-- Machine translated corpora do not have syntacitc parses -->
+      <xsl:if test="not(tei:taxonomy[tei:desc/tei:term = 'UD syntactic relations'] or normalize-space($MT))">
         <xsl:call-template name="error">
           <xsl:with-param name="msg">Missing 'UD syntactic relations' taxonomy</xsl:with-param>
         </xsl:call-template>
@@ -257,9 +261,10 @@
     </xsl:if>
     <xsl:apply-templates/>
   </xsl:template>
-  
+
+  <!-- Check if UD relations have their prefix defined; not relevant for MTed corpora -->
   <xsl:template match="tei:listPrefixDef">
-    <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'])">
+    <xsl:if test="not(tei:prefixDef[@ident = 'ud-syn'] or normalize-space($MT))">
       <xsl:call-template name="error">
         <xsl:with-param name="msg">Missing UD prefixDef</xsl:with-param>
       </xsl:call-template>
@@ -337,6 +342,55 @@
     </xsl:call-template>
   </xsl:template>
   
+  <xsl:template match="tei:listRelation">
+    <xsl:if test="not(tei:relation[@name = 'coalition'])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="msg">No coalition relation found in listOrg</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
+    <xsl:if test="not(tei:relation[@name = 'opposition'])">
+      <xsl:call-template name="error">
+        <xsl:with-param name="severity">WARN</xsl:with-param>
+        <xsl:with-param name="msg">No opposition relation found in listOrg</xsl:with-param>
+      </xsl:call-template>
+    </xsl:if>
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <xsl:template match="tei:relation">
+    <xsl:choose>
+      <xsl:when test="@name = 'coalition'">
+	<xsl:if test="not(@mutual) or @active or @passive">
+	  <xsl:call-template name="error">
+            <xsl:with-param name="msg">Coalition relation should have the @mutual attribute</xsl:with-param>
+	  </xsl:call-template>
+	</xsl:if>
+      </xsl:when>
+      <xsl:when test="@name = 'opposition'">
+	<xsl:if test="@mutual or not(@active) or not(@passive)">
+	  <xsl:call-template name="error">
+            <xsl:with-param name="msg">
+	      <xsl:text>Opposition relation should have the attributes </xsl:text>
+	      <xsl:text>@active (list of references to opposition parties) and </xsl:text>
+	      <xsl:text>@passive (reference to the government organisation)</xsl:text>
+	    </xsl:with-param>
+	  </xsl:call-template>
+	</xsl:if>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="tei:*[@to &lt; @from]">
+    <xsl:call-template name="error">
+      <xsl:with-param name="msg">
+        <xsl:text>attribute to=</xsl:text>
+        <xsl:value-of select="@to"/>
+        <xsl:text> is before from=</xsl:text>
+        <xsl:value-of select="@from"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
+
   <xsl:template match="tei:u">
     <xsl:choose>
       <xsl:when test="not(@who)">

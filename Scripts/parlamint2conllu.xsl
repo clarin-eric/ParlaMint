@@ -25,6 +25,23 @@
   <!-- Save listPrefixes to $listPrefix -->
   <xsl:variable name="listPrefix" select="$rootHeader//tei:listPrefixDef"/>
 
+  <!-- Is this a multilingual CoNLL-U? -->
+  <!-- Variable not needed 
+  <xsl:variable name="multiLang" as="xs:boolean">
+    <xsl:choose>
+      <xsl:when test="normalize-space($seg-lang)">
+	<xsl:value-of select="false()"/>
+      </xsl:when>
+      <xsl:when test="distinct-values(//tei:seg/@xml:lang)[2]">
+	<xsl:value-of select="true()"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="false()"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
+  -->
+  
   <xsl:template match="text()"/>
 
   <!-- A speech corresponds to a document -->
@@ -41,18 +58,19 @@
   
   <!-- A segment corresponds to a paragraph -->
   <xsl:template match="tei:seg">
+    <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
     <xsl:choose>
       <xsl:when test="tei:s">
-        <xsl:if test="not(normalize-space($seg-lang)) or 
-                      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $seg-lang">
+        <xsl:if test="not(normalize-space($seg-lang)) or $lang = $seg-lang">
           <xsl:value-of select="concat('# newpar id = ', @xml:id, '&#10;')"/>
+	  <!--xsl:if test="$multiLang"-->
+          <xsl:value-of select="concat('# lang = ', $lang, '&#10;')"/>
+	  <!--/xsl:if-->
           <xsl:apply-templates select="tei:s"/>
         </xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message>
-          <xsl:value-of select="concat('WARN: skipping segment without sentences ', @xml:id)"/>
-        </xsl:message>
+        <xsl:message select="concat('WARN: skipping segment without sentences ', @xml:id)"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -143,16 +161,12 @@
         <xsl:value-of select="text()"/>
       </xsl:when>
       <xsl:when test="not(@lemma)">
-        <xsl:message terminate="no">
-          <xsl:value-of select="concat('ERROR: no lemma for token: ', text())"/>
-          <xsl:text></xsl:text>
-        </xsl:message>
+        <xsl:message terminate="no" select="concat('ERROR: no lemma for token: ', text())"/>
+        <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:if test="contains(@lemma,' ')">
-          <xsl:message>
-            <xsl:value-of select="concat('WARN: lemma for ', @xml:id, ' contains space: ', @lemma)"/>
-          </xsl:message>
+          <xsl:message select="concat('WARN: lemma for ', @xml:id, ' contains space: ', @lemma)"/>
         </xsl:if>
         <xsl:value-of select="@lemma"/>
       </xsl:otherwise>
@@ -162,9 +176,7 @@
     <!-- 4/CPOSTAG -->
     <xsl:choose>
       <xsl:when test="not(@msd)">
-        <xsl:message terminate="no">
-          <xsl:value-of select="concat('ERROR: no UPOS (@msd) for token: ', text())"/>
-        </xsl:message>
+        <xsl:message terminate="no" select="concat('ERROR: no UPOS (@msd) for token: ', text())"/>
         <xsl:text></xsl:text>
       </xsl:when>
       <xsl:otherwise>
@@ -270,15 +282,13 @@
     <xsl:variable name="link" select="$links//tei:link[matches(@target,concat(' #',$id,'$'))]"/>
     <xsl:variable name="head_id" select="substring-before($link/@target,' ')"/>
     <xsl:choose>
-      <xsl:when test="key('idr', $head_id)/name()= 's'">0</xsl:when>
-      <xsl:when test="key('idr', $head_id)[name()='pc' or name()='w']">
+      <xsl:when test="key('idr', $head_id)/local-name()= 's'">0</xsl:when>
+      <xsl:when test="key('idr', $head_id)[local-name()='pc' or local-name()='w']">
         <xsl:apply-templates mode="number" select="key('idr', $head_id)"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message terminate="no">
-          <xsl:value-of select="concat('ERROR: syntactic head ', $head_id, ' not found for id ', $id)"/>
-          <xsl:text></xsl:text>
-        </xsl:message>
+        <xsl:message terminate="no" select="concat('ERROR: syntactic head ', $head_id, ' not found for id ', $id)"/>
+        <xsl:text></xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -376,9 +386,7 @@
                                              /@replacementPattern"/>
         <xsl:choose>
           <xsl:when test="not(normalize-space($replace))">
-            <xsl:message terminate="yes">
-              <xsl:value-of select="concat('Couldnt find replacement pattern in listPrefixDef for ', $val)"/>
-            </xsl:message>
+            <xsl:message terminate="yes" select="concat('Couldnt find replacement pattern in listPrefixDef for ', $val)"/>
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="replace($val-in, $match, $replace)"/>

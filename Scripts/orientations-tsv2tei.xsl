@@ -94,37 +94,50 @@
       <xsl:message>
         <xsl:text>INFO: For </xsl:text>
         <xsl:value-of select="$corpusCountry"/>
-        <xsl:text> </xsl:text>
+        <xsl:text> assigned orientations to </xsl:text>
         <xsl:value-of select="count($parties/tei:org[tei:state[@type='politicalOrientation']])"/>
-        <xsl:text>/</xsl:text>
+        <xsl:text> out of </xsl:text>
         <xsl:value-of select="count($parties/tei:org)"/>
-        <xsl:text> assigned political orientation: </xsl:text>
+        <xsl:text> orgs: </xsl:text>
+        <xsl:text> CHES = </xsl:text>
+        <xsl:value-of select="count($parties/tei:org[tei:state[@subtype='CHES']])"/>
+        <xsl:text>, Wiki = </xsl:text>
+        <xsl:value-of select="count($parties/tei:org[tei:state[@subtype = 'Wikipedia']])"/>
+        <xsl:text>, other = </xsl:text>
+        <xsl:value-of select="count($parties/tei:org[tei:state[@subtype='unknown']])"/>
+        <xsl:text>, CHES + Wiki = </xsl:text>
         <xsl:value-of select="count($parties/tei:org
                               [tei:state[@subtype='CHES'] and tei:state[@subtype='Wikipedia']])"/>
-        <xsl:text> both + </xsl:text>
+        <xsl:text>, Wiki only = </xsl:text>
         <xsl:value-of select="count($parties/tei:org
                               [not(tei:state[@subtype='CHES']) and tei:state[@subtype='Wikipedia']])"/>
-        <xsl:text> Wikipedia + </xsl:text>
+        <xsl:text>, CHES only = </xsl:text>
         <xsl:value-of select="count($parties/tei:org
-                              [tei:state[@subtype='CHES'] and not(tei:state[@subtype='Wikipedia'])])"/>
-        <xsl:text> CHES</xsl:text>
+                              [tei:state[@subtype = 'CHES'] and not(tei:state[@subtype = 'Wikipedia'])])"/>
       </xsl:message>
+      <xsl:for-each select="$parties/tei:org[not(tei:state[@type = 'politicalOrientation'])]">
+	<xsl:message select="concat('WARN: For ', $corpusCountry, ' missing orientation for ', 
+			     @role, ' ', @xml:id)"/>
+      </xsl:for-each>
       <xsl:copy-of select="$parties"/>
+      <!-- Copy any other elements, like listRelation -->
+      <xsl:copy-of select="tei:*[not(self::tei:org)]"/>
     </xsl:copy>
   </xsl:template>
 
   <!-- Insert <state>s from $data into <org>, mark those covered with @n = $ches_id -->
   <xsl:template mode="insert" match="tei:org">
-    <xsl:variable name="abbr" select="lower-case(tei:orgName[@full = 'abb' and 
-                                      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1])"/>
+    <xsl:variable name="abbr" select="tei:orgName[@full = 'abb' and 
+                                      ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1]"/>
+    <xsl:variable name="abbr-lc" select="lower-case($abbr)"/>
     <!-- parliamentaryGroup.ANO.1108 -> ano.1108 -->
     <xsl:variable name="abbr-id" select="lower-case(replace(@xml:id, '.*?\.', ''))"/>
     <!-- ano.1108 -> ano -->
     <xsl:variable name="abbr-id2" select="replace($abbr-id, '\..*', '')"/>
     <xsl:variable name="found">
       <xsl:choose>
-        <xsl:when test="key('abbr', $abbr, $data)">
-          <xsl:copy-of select="key('abbr', $abbr, $data)"/>
+        <xsl:when test="key('abbr', $abbr-lc, $data)">
+          <xsl:copy-of select="key('abbr', $abbr-lc, $data)"/>
         </xsl:when>
         <xsl:when test="key('abbr', $abbr-id, $data)">
           <xsl:copy-of select="key('abbr', $abbr-id, $data)"/>
@@ -133,16 +146,19 @@
           <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat('ERROR: For ', $corpusCountry, ' cant find pm_id in TSV for ', 
-                               $abbr, ' with ID ', @xml:id)"/>
+          <xsl:message select="concat('ERROR: For ', $corpusCountry, ' cant find pm_id ', 
+                               $abbr, ' in TSV for ID ', @xml:id)"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:copy-of select="tei:orgName"/>
-      <!-- Remove prior <state> elements -->
-      <xsl:copy-of select="tei:*[not(self::tei:orgName or self::tei:state)]"/>
+      <!-- Remove prior CHES and Wikipedia <state> elements -->
+      <xsl:copy-of select="tei:*[not(self::tei:orgName or 
+			   self::tei:state[@type = 'politicalOrientation' and @subtype = 'Wikipedia'] or
+			   self::tei:state[@type = 'politicalOrientation' and @subtype = 'CHES']
+			   )]"/>
       <xsl:copy-of select="$found//tei:state"/>
     </xsl:copy>
   </xsl:template>
@@ -192,7 +208,7 @@
         <xsl:variable name="comment" select="regex-group(8)"/>
         <xsl:if test = '$country != $corpusCountry'>
           <xsl:message terminate="yes"
-                       select="concat('FATAL: TEI corpus country = ', $corpusCountry, 
+                       select="concat('FATAL ERROR: TEI corpus country = ', $corpusCountry, 
                                ' does not match TSV country = ', $country,
                                ' in TSV line&#10;', .)"/>
         </xsl:if>
@@ -212,7 +228,7 @@
       </xsl:matching-substring>
       <xsl:non-matching-substring>
         <xsl:message terminate="yes"
-                     select="concat('FATAL: Bad line in TSV: ', .)"/>
+                     select="concat('FATAL ERROR: Bad line in TSV: ', .)"/>
       </xsl:non-matching-substring>
     </xsl:analyze-string>
   </xsl:template>
