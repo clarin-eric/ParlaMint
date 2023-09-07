@@ -46,16 +46,16 @@ foreach my $countryCode (split(/[, ]+/, $countryCodes)) {
     if ($procEn) {$countryCode .= '-en'};    
     print STDERR "INFO: Gathering files for $countryCode\n";
     $inVertDir = "$inDir/ParlaMint-$countryCode.vert";
-    die "FATAL: Can't find $inVertDir\n" unless -e $inVertDir;
+    die "FATAL ERROR: Can't find $inVertDir\n" unless -e $inVertDir;
     foreach $inFile (glob "$inVertDir/*/*.vert") {
 	($date) = $inFile =~ m|_(\d\d\d\d-\d\d-\d\d)|
-	    or die "FATAL: Strange $inFile\n";
+	    or die "FATAL ERROR: Strange $inFile\n";
 	$key = $date . "_" . $countryCode;
 	if (exists $files{$key}) {$files{$key} .= "\t$inFile"}
 	else {$files{$key} = "$inFile"}
     }
 }
-open(OUT, '>:utf8', $outFile) or die "FATAL: Can't open $outFile!\n";
+open(OUT, '>:utf8', $outFile) or die "FATAL ERROR: Can't open $outFile!\n";
 $oldYear = '0';
 # Sorting in reverse order!
 foreach $key (reverse sort keys %files) {

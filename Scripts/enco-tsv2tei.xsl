@@ -53,9 +53,8 @@
   <!-- @type = 'ParlaMint' is the ParlaMint name of the party found in TSV -->
   <xsl:key name="abbr" match="tei:org" use="lower-case(tei:orgName[@type = 'ParlaMint'])"/>
 
-  <!-- Get country of corpus from filename -->
   <xsl:variable name="country"
-                select="replace(base-uri(), 
+                select="replace(/tei:listOrg/@xml:id, 
                         '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
                         '$1')"/>
   
@@ -197,7 +196,7 @@
       <xsl:if test="normalize-space($head-row) and $head-row != '-' and $head-row != '0' ">
 	<cell>
 	  <xsl:attribute name="type" select="$head-label"/>
-	  <xsl:value-of select="$head-row"/>
+	  <xsl:value-of select="normalize-space($head-row)"/>
 	</cell>
       </xsl:if>
       <xsl:if test="contains($labels, '&#9;')">
