@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-NL-en_2022-07-12-eerstekamer-3.ana"
+     xml:lang="en"
+     ana="#parla.sitting #war #covid #war"
+     corresp="../../ParlaMint-NL.TEI.ana/2022/ParlaMint-NL_2022-07-12-eerstekamer-3.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" type="main">Dutch parliamentary corpus ParlaMint-NL-en, Upper House 2022-07-12 [ParlaMint-en.ana SAMPLE]</title>
+            <title xml:lang="nl" type="main">Corpus van het Nederlandse Parlement ParlaMint-NL-en, Eerste Kamer 2022-07-12 [ParlaMint-en.ana SAMPLE]</title>
+            <title xml:lang="en" type="sub">Report of the meeting of the Dutch Upper House, Meeting 38, Session 3 (2022-07-12)</title>
+            <title xml:lang="nl" type="sub">Verslag van de vergadering van de Eerste Kamer, Meeting 38, Session 3 (2022-07-12)</title>
+            <meeting n="38"
+                     corresp="#EK"
+                     ana="#parla.upper #parla.meeting.regular"
+                     xml:lang="en">Meeting 38</meeting>
+            <meeting n="3"
+                     corresp="#EK"
+                     ana="#parla.upper #parla.session"
+                     xml:lang="en">Session 3</meeting>
+            <meeting n="36-upper"
+                     corresp="#EK"
+                     ana="#parla.upper #parla.term #EK.36"
+                     xml:lang="en">Meeting of the 36th Eerste Kamer</meeting>
+            <meeting xml:lang="en"
+                     ana="#parla.upper #parla.sitting"
+                     corresp="#EK"
+                     n="2022-07-12">Sitting 2022-07-12</meeting>
+            <respStmt>
+               <persName>Ruben van Heusden</persName>
+               <resp xml:lang="en">Downloading and converting the corpus to TEI format</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="80" xml:lang="en">80 speeches</measure>
+            <measure unit="speeches" quantity="80" xml:lang="nl">80 spreekbeurten</measure>
+            <measure unit="words" quantity="7714" xml:lang="en">7,714 words</measure>
+            <measure unit="words" quantity="7714" xml:lang="nl">7,714 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-06-30">2023-06-30</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Minutes of the Eerste Kamer of The Netherlands</title>
+               <idno type="URI" subtype="parliament">https://www.eerstekamer.nl/</idno>
+               <date when="2022-07-12">2022-07-12</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="name" occurs="268"/>
+               <tagUsage gi="note" occurs="113"/>
+               <tagUsage gi="pc" occurs="967"/>
+               <tagUsage gi="s" occurs="503"/>
+               <tagUsage gi="seg" occurs="118"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="80"/>
+               <tagUsage gi="w" occurs="7714"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-NL.TEI.ana/2022/ParlaMint-NL_2022-07-12-eerstekamer-3.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Binnenhof</name>
+               <name type="city">Den Haag</name>
+               <name type="country" key="NL">The Netherlands</name>
+               <date when="2022-07-12">2022-07-12</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-30">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="nl" ana="#war #covid #war">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <head>Wijziging begrotingsstaten Justitie en Veiligheid 2022 (Voorjaarsnota)</head>
+            <note type="speaker" xml:lang="en">The President</note>
+            <u ana="#chair"
+               xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u1"
+               who="#JanAnthonieBruijn"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.u1">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.seg1">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1"
+                     n="1"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s1">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="like">like</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t4"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="welcome">welcome</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t7"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Secretary">Secretary</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="State">State</w>
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t10"
+                           pos="IN"
+                           msd="UPosTag=ADP"
+                           lemma="for">for</w>
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Justice">Justice</w>
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t12"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Security">Security</w>
+                     </name>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t16"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Upper">Upper</w>
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t17"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Chamber"
+                           join="right">Chamber</w>
+                     </name>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t18"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t19"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="which">which</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t20"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t21"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t22"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">an</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t23"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|Polarity=Neg"
+                        lemma="unknown">unknown</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t24"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="area">area</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t25"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t26"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="he"
+                        join="right">him</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s1.t27"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2"
+                     n="2"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s2">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">It</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="nice">nice</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t4"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+                        lemma="he">him</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t6"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t7"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t8"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="able">able</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t9"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="come">come</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t11"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here">here</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t12"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="again">again</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t13"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="just">just</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="before">before</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="recess"
+                        join="right">recess</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s2.t17"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="comment" xml:lang="en">The debate will be opened.</note>
+            <note type="speaker" xml:lang="en">The President</note>
+            <u ana="#chair"
+               xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u2"
+               who="#JanAnthonieBruijn"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.u2">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg2"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.seg2">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4"
+                     n="3"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s4">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="give">give</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="floor">floor</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t6"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Van">Van</w>
+                        <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t8"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Hattem"
+                           join="right">Hattem</w>
+                     </name>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s4.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#chair"
+               xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u79"
+               who="#JanAnthonieBruijn"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.u79">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg116"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.seg116">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528"
+                     n="497"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s528">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528.t1"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">Thank</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s528.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="comment" xml:lang="en">The debate is closed.</note>
+            <note type="speaker" xml:lang="en">The President</note>
+            <u ana="#chair"
+               xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.u80"
+               who="#JanAnthonieBruijn"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.u80">
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg117"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.seg117">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530"
+                     n="498"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s530">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I"
+                        join="right">I</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'m</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here">here</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t4"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="deal">deal</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bill"
+                        join="right">bill</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s530.t9"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531"
+                     n="499"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s531">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t1"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do">Does</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t2"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="one">one</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t5"
+                        pos="NNPS"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        lemma="Member">Members</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="wish">wish</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t7"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="vote">vote</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bill"
+                        join="right">bill</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s531.t12"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532"
+                     n="500"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s532">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532.t1"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="that"
+                        join="right">That</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="case"
+                        join="right">case</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s532.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533"
+                     n="501"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s533">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="then">Then</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t3"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="suggest">suggest</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t4"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="vote">vote</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bill">bill</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="tonight">tonight</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="after">after</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="dinner">dinner</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="break"
+                        join="right">break</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s533.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534"
+                     n="502"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s534">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t2"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="therefore">therefore</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t3"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="propose">propose</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t4"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="vote">vote</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="motion">motions</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t10"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t11"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t12"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t13"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="tab"
+                        join="right">tabled</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s534.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.seg118"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.seg118">
+                  <s xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535"
+                     n="503"
+                     corresp="mt-src:ParlaMint-NL_2022-07-12-eerstekamer-3.s535">
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="then">Then</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I"
+                        join="right">I</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t3"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">'ll</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t4"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="suspend">suspend</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting">meeting</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="lunch">lunch</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="until">until</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t10"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="1:30">1:30</w>
+                     <w xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="p.m"
+                        join="right">p.m</w>
+                     <pc xml:id="ParlaMint-NL_2022-07-12-eerstekamer-3.s535.t12"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="time" xml:lang="en">The sitting was suspended from 12.39 a.m. to 13.32 p.m.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

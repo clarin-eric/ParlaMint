@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ParlaMint-BE-en_2022-07-13-voorlopig-55-commissie-ic862x.ana"
+     xml:lang="en"
+     ana="#parla.sitting #war #covid #war"
+     corresp="../../ParlaMint-BE.TEI.ana/2022/ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nl">Belgisch parlementair corpus ParlaMint-BE-en, commissievergadering van 13-07-2022 [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Belgian parliamentary corpus ParlaMint-BE-en, committee meeting of 13-07-2022 [ParlaMint-en.ana SAMPLE]</title>
+            <meeting corresp="#be_federal_parliament" ana="#parla.committee" n="ic862">Commissievergadering 862 van 13-07-2022</meeting>
+            <meeting ana="#parla.term #period_55"
+                     corresp="#be_federal_parliament"
+                     n="55">Zittingperiode 55</meeting>
+            <respStmt>
+               <persName>Henk van der Pol</persName>
+               <persName>Griet Depoorter</persName>
+               <resp xml:lang="nl">Datavergaring en conversie naar TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Jesse de Does</persName>
+               <resp xml:lang="nl">Taalkundige verrijking</resp>
+               <resp xml:lang="en">Linguistic annotation</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">De Europese Commissie</orgName>
+               <orgName xml:lang="en">The European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="nl">Taalunie</orgName>
+               <orgName xml:lang="en">Dutch Language Union</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="7" xml:lang="en">7 speeches</measure>
+            <measure unit="speeches" quantity="7" xml:lang="nl">7 spreekbeurten</measure>
+            <measure unit="words" quantity="1094" xml:lang="en">1,094 words</measure>
+            <measure unit="words" quantity="1094" xml:lang="nl">1,094 woorden</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="nl">Instituut voor de Nederlandse Taal</orgName>
+               <orgName xml:lang="en">Dutch Language Institute</orgName>
+               <orgName xml:lang="nl">De CLARIN-onderzoeksinfrastructuur</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="nl">Deze bestanden zijn beschikbaar volgens de <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-06-30">2023-06-30</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="fr">Commission de la Justice du Mercredi 13 juillet 2022 Après-midi</title>
+               <title type="main" xml:lang="nl">Commissie voor Justitie van Woensdag 13 juli 2022 Namiddag</title>
+               <idno type="URI" subtype="parliament">https://www.dekamer.be/doc/CCRI/html/55/ic862x.html</idno>
+               <date when="2022-07-13">2022-07-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="nl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is een project dat tot doel heeft (1) een meertalige reeks vergelijkbare corpora van parlementaire handelingen te creëren die uniform zijn gecodeerd volgens de <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN aanbevelingen</ref> en die zowel de COVID-19 pandemie vanaf november 2019 als de eerdere periode vanaf 2015 bestrijkt om als referentiecorpus te dienen; (2) de corpora taalkundig te verrijken met syntactische structuren volgens de Universal Dependenciesrichtlijnen, en annotatie van named entities toe te voegen; (3) de corpora beschikbaar te maken via concordancers en Parlameter; en (4) use cases in politieke wetenschappen en digitale geesteswetenschappen te bouwen op basis van de corpusgegevens.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="name" occurs="78"/>
+               <tagUsage gi="note" occurs="19"/>
+               <tagUsage gi="pc" occurs="136"/>
+               <tagUsage gi="s" occurs="55"/>
+               <tagUsage gi="seg" occurs="19"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="w" occurs="1094"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-BE.TEI.ana/2022/ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city">Brussel</name>
+               <name key="BE" type="country">België</name>
+               <date ana="#parla.sitting" when="2022-07-13">2022-07-13</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-30">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-06-27">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2022-07-27">
+            <name>Henk van der Pol</name>: initial version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#war #covid #war">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <note xml:lang="en" type="editorial">Questions will be dealt with at 13.02 p.m. The meeting is chaired by Kristien Van Vaerenbergh.</note>
+            <note xml:lang="en" type="editorial">The development of questions and inquiries begins at 1:03 p.m. The meeting was chaired by Ms. Kristien Van Vaerenbergh.</note>
+            <note type="speaker" xml:lang="en">The President:</note>
+            <u ana="#chair"
+               xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1"
+               who="#VanVaerenberghKristien"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u1">
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg1"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg1">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6"
+                     n="1"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t1"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="question">Questions</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="nos">Nos</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t3"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="55028132c">55028132C</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t4"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t5"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="55029370c">55029370C</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="by">by</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t7"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t8"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Erik">Erik</w>
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Gilissen">Gilissen</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t10"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t11"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="postpone"
+                        join="right">postponed</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s6.t12"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note xml:lang="en" type="editorial">01 Question from Roberto D'Amico to Mathieu Michel (Digitalization, Administrative Simplification, Protection of Privacy and Régie des Bâtiments, des Instit. Cultural) on "The report of the Irish Council for Civil Liberties" (55028141C)</note>
+            <note xml:lang="en" type="editorial">01 Question from Roberto D'Amico to Mathieu Michel (Digitalisation, Administrative Simplification, Privacy and Control of the Buildings, the Cultural Instel.) on the report of the Irish Council for Civil Liberties (55028141C)</note>
+            <note type="speaker" xml:lang="en">01.01. Roberto D'Amico (PVDA-PTB):</note>
+            <u ana="#regular"
+               xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2"
+               who="#DAmicoRoberto"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u2">
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg2">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11"
+                     n="2"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t2"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Secretary">Secretary</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t4"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="State"
+                        join="right">State</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">an</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t7"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Irish">Irish</w>
+                     </name>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t8"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="NGO">NGO</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t9"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t10"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="publish">published</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="report">report</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t13"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="reveal">revealing</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">"</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t16"
+                        pos="JJS"
+                        msd="UPosTag=ADJ|Degree=Sup"
+                        lemma="big">biggest</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="datum">data</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="breach">breach</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t19"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="ever">ever</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t20"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="record"
+                        join="right">recorded</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t21"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">"</pc>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s11.t22"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12"
+                     n="3"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">This</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="organisation">organisation</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t3"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="tell">tells</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t4"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">us</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t5"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="behaviour">behaviour</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="US">US</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="user">user</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t14"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Internet">Internet</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t15"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t16"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="share">shared</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t17"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="747">747</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t18"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="time">times</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t19"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t20"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="day"
+                        join="right">day</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s12.t21"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13"
+                     n="4"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">For</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Europe"
+                           join="right">Europe</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="average">average</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t6"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t7"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="376">376</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t8"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Belgium"
+                           join="right">Belgium</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t12"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="288">288</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t13"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="daily">daily</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t14"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="share"
+                        join="right">shares</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s13.t15"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14"
+                     n="5"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">It</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="therefore">therefore</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t4"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="observe">observed</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t5"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="GDPR">GDPR</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t8"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="protect">protects</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t9"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">us</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t10"
+                        pos="RBR"
+                        msd="UPosTag=ADV|Degree=Cmp"
+                        lemma="more">more</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="than">than</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="US">US</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t13"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="citizen"
+                        join="right">citizens</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t15"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">but</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t16"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="protection">protection</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t19"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t20"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="partial"
+                        join="right">partial</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t21"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t22"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="especially">especially</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t23"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="since">since</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t24"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t25"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="report">report</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t26"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do">does</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t27"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t28"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="contain">contain</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t29"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t30"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="datum">data</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t31"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t32"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Facebook">Facebook</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t33"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t34"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Amazon"
+                           join="right">Amazon</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t35"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t36"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="yet">yet</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t37"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="very">very</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t38"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="active">active</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t39"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t40"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t41"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="exploitation">exploitation</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t42"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t43"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs"
+                        lemma="we">our</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t44"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="datum">data</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t45"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t46"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t47"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="internet"
+                        join="right">internet</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s14.t48"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg3"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg3">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15"
+                     n="6"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t2"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Secretary">Secretary</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t4"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="State"
+                        join="right">State</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t6"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t8"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="read">read</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="report"
+                        join="right">report</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s15.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16"
+                     n="7"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t1"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">What</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t2"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">was</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t3"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reaction"
+                        join="right">reaction</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s16.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17"
+                     n="8"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t1"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">What</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t4"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="consider">considering</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t5"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="improve">improve</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="protection">protection</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t10"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Belgian">Belgians</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t11"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Internet"
+                           join="right">Internet</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s17.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18"
+                     n="9"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t1"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">Will</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="require">require</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="transparency">transparency</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="measure">measures</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t6"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="part">part</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Facebook">Facebook</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t11"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Amazon">Amazon</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t13"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="regard">regarding</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t14"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t15"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="datum">data</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t16"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Plur|PronType=Dem"
+                        lemma="this">these</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t18"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="company">companies</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t19"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="collect">collect</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t21"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Belgium"
+                           join="right">Belgium</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s18.t22"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular"
+               xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6"
+               who="#MichelMathieu"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u6">
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg16"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg16">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61"
+                     n="43"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t1"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t2"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="President"
+                        join="right">President</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t3"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t5"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="data">Data</w>
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t6"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Protection">Protection</w>
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Authority">Authority</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">(</pc>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="PDA"
+                           join="right">PDA</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">)</pc>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t12"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="which">which</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t13"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t14"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t15"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="ask">asked</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t16"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="subject"
+                        join="right">subject</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t20"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t21"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="confirm">confirmed</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t22"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t23"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">me</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t24"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t25"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t26"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t27"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t28"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="receive">received</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t29"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t30"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="complaint">complaint</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t31"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t32"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="BEUC"
+                           join="right">BEUC</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t33"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t34"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="unlike">unlike</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t35"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="other">other</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t36"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="European">European</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t37"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="regulator"
+                        join="right">regulators</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s61.t38"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62"
+                     n="44"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">On</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="basis">basis</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="cooperation">cooperation</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="mechanism">mechanism</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t10"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="gdpr"
+                           join="right">GDPR</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t12"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="if">if</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA">ODA</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t14"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="consider">considers</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t15"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes"
+                        lemma="itself">itself</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t16"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="authority">authority</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t18"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="concern"
+                        join="right">concerned</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t20"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t21"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t22"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t23"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="involve">involved</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t24"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t25"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t26"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="process">process</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t27"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t28"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="cooperation">cooperation</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t29"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t30"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="European">European</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t31"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="level"
+                        join="right">level</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s62.t32"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63"
+                     n="45"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t1"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="once">Once</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="complaint">complaint</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t4"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="process"
+                        join="right">processed</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t7"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there">there</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t8"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t9"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="likely">likely</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t10"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t11"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t12"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="lesson">lessons</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t13"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t14"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t15"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="learn"
+                        join="right">learned</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s63.t16"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64"
+                     n="46"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t1"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Plur|PronType=Dem"
+                        lemma="this">These</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="could">could</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="contribute">contribute</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reflection">reflection</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t7"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t8"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="strengthen">strengthening</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t10"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="gdpr">GDPR</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t11"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="privacy">privacy</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="law">law</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t15"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <name type="LOC">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t16"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Belgium"
+                           join="right">Belgium</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s64.t17"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65"
+                     n="47"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">But</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t2"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="every">every</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="thing">thing</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t5"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs"
+                        lemma="its">its</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="time"
+                        join="right">time</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">:</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="let">let</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="supervisory">supervisory</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t11"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="authority">authorities</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t12"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="do">do</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t13"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Plur|Person=3|Poss=Yes|PronType=Prs"
+                        lemma="they">their</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="job">job</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t15"
+                        pos="RB"
+                        msd="UPosTag=ADV|NumType=Ord"
+                        lemma="first"
+                        join="right">first</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s65.t16"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg17"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg17">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66"
+                     n="48"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="finally"
+                        join="right">Finally</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t4"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="like">like</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t6"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t7"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="point">point</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t8"
+                        pos="RP"
+                        msd="UPosTag=ADP"
+                        lemma="out">out</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t9"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="implementation">implementation</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t14"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="GDPR">GDPR</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t15"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t16"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="responsibility">responsibility</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t18"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t19"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA"
+                           join="right">ODA</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t20"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t21"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="which">which</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t22"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="act">acts</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t23"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="independently">independently</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t24"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t25"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t26"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="regard"
+                        join="right">regard</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s66.t27"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67"
+                     n="49"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">For</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t2"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs"
+                        lemma="my">my</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="part"
+                        join="right">part</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t6"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">am</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t7"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="continue">continuing</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t8"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs"
+                        lemma="my">my</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="work">work</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t10"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t11"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="raise">raising</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="awareness">awareness</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t13"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">at</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t14"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t15"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="national">national</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="level"
+                        join="right">level</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t17"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t18"
+                        pos="RB"
+                        msd="UPosTag=ADV|ExtPos=CCONJ"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t19"
+                        pos="RB"
+                        msd="UPosTag=ADV|Degree=Pos"
+                        lemma="well">well</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t22"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="ongoing">ongoing</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t23"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="work">work</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t24"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t25"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="revise">revising</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t26"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t27"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="privacy">privacy</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t28"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="law"
+                        join="right">law</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t29"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t30"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="which">which</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t31"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do">does</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t32"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t33"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="stop">stop</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t34"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t35"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t36"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA">ODA</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t37"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="law"
+                        join="right">law</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s67.t38"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg18"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg18">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68"
+                     n="50"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">You</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t3"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t4"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="escape">escaped</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t6"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t8"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin"
+                        lemma="plan">planned</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t9"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="discuss">discuss</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t11"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs"
+                        lemma="my">my</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA">ODA</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reform">reform</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="project">project</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today"
+                        join="right">today</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t16"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t17"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="precisely">precisely</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t18"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t19"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t20"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="aim">aim</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t21"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t22"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="place">placing</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t23"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t24"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t25"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t26"
+                        pos="JJR"
+                        msd="UPosTag=ADJ|Degree=Cmp"
+                        lemma="good">better</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t27"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="position">position</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t28"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t29"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="carry">carry</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t30"
+                        pos="RP"
+                        msd="UPosTag=ADP"
+                        lemma="out">out</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t31"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs"
+                        lemma="its">its</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t32"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="statutory">statutory</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t33"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="task"
+                        join="right">tasks</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t34"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t35"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="include">including</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t36"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t37"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="regard">regard</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t38"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t39"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t40"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="GAFAMs"
+                           join="right">GAFAMs</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s68.t41"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69"
+                     n="51"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="count">count</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t4"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Parliament">Parliament</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="whole">whole</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t8"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t9"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="support">support</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="strengthening">strengthening</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="independence">independence</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t15"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="expertise">expertise</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t17"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t18"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA"
+                           join="right">ODA</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t19"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t20"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">but</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t21"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="also">also</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t22"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t23"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="provide">provide</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t24"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t25"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t26"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="substantial">substantial</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t27"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="increase">increase</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t28"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t29"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t30"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="result">resulting</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t31"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="operational">operational</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t32"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="resource">resources</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t33"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t34"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA"
+                           join="right">ODA</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s69.t35"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:lang="en">02.3 Olivier Vajda (Ecolo-Green):</note>
+            <u ana="#regular"
+               xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7"
+               who="#VajdaOlivier"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.u7">
+               <seg xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg19"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.seg19">
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71"
+                     n="52"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t1"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">Thank</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t3"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="answer"
+                        join="right">answers</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t6"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t7"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Secretary">Secretary</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t8"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t9"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="State"
+                        join="right">State</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s71.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72"
+                     n="53"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="note">note</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t3"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that"
+                        join="right">that</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t5"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t6"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="view"
+                        join="right">view</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="ODA">ODA</w>
+                     </name>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t10"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t11"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="one">one</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t12"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="or">or</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t13"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="even">even</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t14"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t15"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="main">main</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="response">response</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t17"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t18"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t19"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="threat">threats</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t20"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="pose">posed</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t21"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="by">by</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t22"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="GAFAM"
+                           join="right">GAFAM</w>
+                     </name>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s72.t23"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73"
+                     n="54"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="for">For</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="rest"
+                        join="right">rest</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="assure">assure</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t9"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t10"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t11"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t12"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="escape">escaped</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t13"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">me</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t14"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t15"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">we</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t16"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t17"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="deal">dealt</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">today</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t19"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t20"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">an</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t21"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="important">important</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="law">law</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t23"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t24"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t25"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="regard"
+                        join="right">regard</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s73.t26"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74"
+                     n="55"
+                     corresp="mt-src:ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74">
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t1"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="this">This</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t3"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="another">another</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="reason">reason</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t5"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="for">for</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t6"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="move">moving</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t7"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="forward"
+                        join="right">forward</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t9"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="although">although</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t10"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="calmly">calmly</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t11"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t12"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="thoroughly"
+                        join="right">thoroughly</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t13"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t14"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">but</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t15"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="especially">especially</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t16"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t17"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="quickly">quickly</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t18"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t19"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="possible"
+                        join="right">possible</w>
+                     <pc xml:id="ParlaMint-BE_2022-07-13-voorlopig-55-commissie-ic862x.s74.t20"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note xml:lang="en" type="editorial">The incident is closed.</note>
+            <note xml:lang="en" type="editorial">L'incidentest close.</note>
+            <note xml:lang="en" type="editorial">The public committee meeting will be closed at 1.11 p.m.</note>
+            <note xml:lang="en" type="editorial">The public committee meeting was adjourned at 1.11 p.m.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

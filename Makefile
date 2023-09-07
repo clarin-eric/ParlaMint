@@ -1,16 +1,29 @@
 .DEFAULT_GOAL := help
 
 ##$PARLIAMENTS##Space separated list of parliaments codes.
-PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS
+PARLIAMENTS = AT BE BG CZ DK EE ES ES-CT ES-GA ES-PV FI FR GB GR HR HU IS IT LT LV NL NO PL PT RO SE SI TR BA RS UA
 PARLIAMENTS-v2 = BE BG CZ DK ES FR GB HR HU IS IT LT LV NL PL SI TR
 
 ##$JAVA-MEMORY## Set a java memory maxsize in GB
 JAVA-MEMORY =
 JM := $(shell test -n "$(JAVA-MEMORY)" && echo -n "-Xmx$(JAVA-MEMORY)g")
-##$DATADIR## Folder with country corpus folders. Default value is 'Data'.
-DATADIR = Data
+
+LANG-LIST =
+leftBRACKET := (
+rightBRACKET := )
+LANG-CODE-LIST := $(shell echo "$(LANG-LIST)" | sed "s/$(leftBRACKET)[^$(rightBRACKET)]*$(rightBRACKET),*/ /g" | tr -s " " | sed 's/ $$//' )
+
+TAXONOMIES-TRANSLATE-INTERF = NER.ana parla.legislature politicalOrientation speaker_types subcorpus
+TAXONOMIES-TRANSLATE = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-TRANSLATE-INTERF))
+
+TAXONOMIES-COPY-INTERF = UD-SYN.ana CHES
+TAXONOMIES-COPY = $(addprefix ParlaMint-taxonomy-, $(TAXONOMIES-COPY-INTERF))
+
+##$DATADIR## Folder with country corpus folders. Default value is 'Samples'.
+DATADIR = Samples
+SHARED = Corpora
 ##$WORKINGDIR## In this folder will be stored temporary files. Default value is 'DataTMP'.
-WORKINGDIR = Data/TMP
+WORKINGDIR = Samples/TMP
 ##$CORPUSDIR_SUFFIX## This value is appended to corpus folder so corpus directory name shouldn't be prefix
 ##$##                 of corpus root file. E.g. setting CORPUSDIR_SUFFIX=.TEI allow running targets on content
 ##$##                 of ParlaMint-XX.TEI folder that contains corresponding ParlaMint-XX(.ana).xml files.
@@ -54,10 +67,13 @@ endif
 ifndef LANG-LIST
 	$(error LANG-LIST is not set - use "make TARGET LANG-LIST='<langcode1> (Language1), <langcode2> (Language2)'" )
 endif
-	test ! -d ./Data/ParlaMint-$(PARLIAMENT-CODE)
-	mkdir ./Data/ParlaMint-$(PARLIAMENT-CODE)
-	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
-	echo "## Languages: $(LANG-LIST)" >> ./Data/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	test ! -d ./Samples/ParlaMint-$(PARLIAMENT-CODE)
+	mkdir ./Samples/ParlaMint-$(PARLIAMENT-CODE)
+	echo "# ParlaMint directory for samples of country $(PARLIAMENT-CODE) ($(PARLIAMENT-NAME))" > ./Samples/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	echo "## Languages: $(LANG-LIST)" >> ./Samples/ParlaMint-$(PARLIAMENT-CODE)/README.md
+	echo "LANG-CODE-LIST=$(LANG-CODE-LIST)"
+	make initTaxonomies-$(PARLIAMENT-CODE) PARLIAMENTS="$(PARLIAMENT-CODE)" LANG-CODE-LIST="$(LANG-CODE-LIST)"
+	git status ./Samples/ParlaMint-$(PARLIAMENT-CODE)/*
 
 setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Austria' PARLIAMENT-CODE='AT' LANG-LIST='de (German)'
@@ -73,6 +89,92 @@ setup-parliament-newInParlaMint2:
 	make setup-parliament PARLIAMENT-NAME='Galicia' PARLIAMENT-CODE='ES-GA' LANG-LIST='gl (Galician)'
 	make setup-parliament PARLIAMENT-NAME='Bosnia and Herzegovina' PARLIAMENT-CODE='BA' LANG-LIST='bs (Bosnian)'
 	make setup-parliament PARLIAMENT-NAME='Serbia' PARLIAMENT-CODE='RS' LANG-LIST='sr (Serbian)'
+
+
+## initTaxonomies-XX ## initialize taxonomies in folder ParlaMint-XX
+#### parameter LANG-CODE-LIST can contain space separated list of languages
+initTaxonomies-XX = $(addprefix initTaxonomies-, $(PARLIAMENTS))
+$(initTaxonomies-XX): initTaxonomies-%: $(addprefix initTaxonomy-%--, $(TAXONOMIES-TRANSLATE)) $(addprefix copyTaxonomy-%--, $(TAXONOMIES-COPY))
+
+# initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(foreach Y,$(TAXONOMIES-TRANSLATE), initTaxonomy-$X-$Y))
+initTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(initTaxonomy-XX-tt): initTaxonomy-%:
+	@test -z "$(LANG-CODE-LIST)" && echo "WARNING: no language specified in " `echo -n '$*' | sed 's/^.*--//'` " taxonomy preparation" || echo "INFO: preparing " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
+	@${s} langs="$(LANG-CODE-LIST)" parlamint="ParlaMint-"`echo -n '$*' | sed 's/--.*$$//'` -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
+
+copyTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix copyTaxonomy-${X}--, $(TAXONOMIES-COPY) ) )
+$(copyTaxonomy-XX-tt): copyTaxonomy-%:
+	@echo "INFO: copying " `echo -n '$*' | sed 's/^.*--//'` "taxonomy"
+	@${s} langs="$(LANG-CODE-LIST)" if-lang-missing="skip" -xsl:Scripts/parlamint-init-taxonomy.xsl \
+	  ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	  > ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
+
+
+
+translateTaxonomies-XX = $(addprefix translateTaxonomies-, $(PARLIAMENTS))
+$(translateTaxonomies-XX): translateTaxonomies-%: $(addprefix translateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
+
+
+translateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix translateTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(translateTaxonomy-XX-tt): translateTaxonomy-%:
+	$(eval $@_XX := $(shell echo -n '$*' | sed 's/--.*$$//'))
+	$(eval $@_tt := $(shell echo -n '$*' | sed 's/^.*--//'))
+	$(eval $@_langs := $(shell grep 'ParlaMint-$($@_XX)$$' ${SHARED}/Taxonomies/taxonomy-translation-responsibility.tsv|cut -f1|tr "\n" " "))
+	@echo "INFO: ParlaMint $($@_XX)"
+	@echo "INFO: Taxonomy $($@_tt)"
+	@echo "INFO: Languages $($@_langs)"
+	@mkdir tmp || :
+	@test -e `pwd`/${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml \
+	|| echo -n "\nERROR: missing taxonomy  ${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml\n"
+	@echo -n "INFO: validating translation taxonomy ${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml: " \
+	&& ${vch_taxonomy} ${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml \
+	&& echo OK \
+	&& echo "INFO: translating $($@_tt) taxonomy" \
+	&& ${s} parlamint="ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}" \
+	      translation-input=`pwd`/${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml  \
+	      langs="$($@_langs) -" \
+	      -xsl:Scripts/parlamint-add-translation-to-taxonomy.xsl \
+	      ${SHARED}/Taxonomies/$($@_tt).xml \
+	      > tmp/temporary-taxonomy.xml \
+	&& echo -n "INFO: validating output taxonomy with new translations: " \
+	&& ${vch_taxonomy} tmp/temporary-taxonomy.xml \
+	&& echo OK \
+	&& cp tmp/temporary-taxonomy.xml ${SHARED}/Taxonomies/$($@_tt).xml \
+	|| echo -n "\nERROR: validations failed ${DATADIR}/ParlaMint-$($@_XX)${CORPUSDIR_SUFFIX}/$($@_tt).xml\n"
+
+
+initTaxonomies4translation-XX = $(addprefix initTaxonomies4translation-, $(PARLIAMENTS))
+$(initTaxonomies4translation-XX): initTaxonomies4translation-%: $(addprefix initTaxonomy4translation-%--, $(TAXONOMIES-TRANSLATE))
+
+
+initTaxonomy4translation-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix initTaxonomy4translation-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(initTaxonomy4translation-XX-tt): initTaxonomy4translation-%:
+	$(eval $@_XX := $(shell echo -n '$*' | sed 's/--.*$$//'))
+	$(eval $@_tt := $(shell echo -n '$*' | sed 's/^.*--//'))
+	$(eval $@_langs := $(shell grep 'ParlaMint-$($@_XX)$$' ${SHARED}/Taxonomies/taxonomy-translation-responsibility.tsv|cut -f1|tr "\n" " "|sed "s/ $$//"))
+	@echo "INFO: ParlaMint $($@_XX)"
+	@echo "INFO: Taxonomy $($@_tt)"
+	@echo "INFO: Languages $($@_langs)"
+	make initTaxonomy-$($@_XX)--$($@_tt) LANG-CODE-LIST="$($@_langs)"
+
+
+validateTaxonomies-XX = $(addprefix validateTaxonomies-, $(PARLIAMENTS))
+$(validateTaxonomies-XX): validateTaxonomies-%: $(addprefix validateTaxonomy-%--, $(TAXONOMIES-TRANSLATE))
+
+validateTaxonomy-XX-tt = $(foreach X,$(PARLIAMENTS),$(addprefix validateTaxonomy-${X}--, $(TAXONOMIES-TRANSLATE) ) )
+$(validateTaxonomy-XX-tt): validateTaxonomy-%:
+	@test -e `pwd`/${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	|| echo -n "\nERROR: missing taxonomy " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+	@echo -n "INFO: validating translation taxonomy" ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` ": " \
+	&& ${vch_taxonomy} ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'` \
+	&& echo OK \
+	|| echo -n "\nERROR: validation failed  " ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`,"\n"
+
+
+#	@cp ${SHARED}/Taxonomies/`echo -n '$*.xml' | sed 's/^.*--//'` \
+#	   ${DATADIR}/ParlaMint-`echo -n '$*' | sed 's/--.*$$//'`${CORPUSDIR_SUFFIX}/`echo -n '$*.xml' | sed 's/^.*--//'`
 
 
 ###### Validate with Relax NG schema
@@ -116,14 +218,14 @@ $(val-schema-ParlaCLARIN-XX): val-schema-ParlaCLARIN-%: val-schema-tei-ParlaCLAR
 
 $(val-schema-tei-ParlaMint-XX): val-schema-tei-ParlaMint-%: %
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml" | xargs ${vrt}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | xargs ${vct}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | grep -v '.ana.' | xargs ${vch_taxonomy}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
 
 $(val-schema-ana-ParlaMint-XX): val-schema-ana-ParlaMint-%: %
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.ana.xml" | xargs ${vra}
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.ana.xml" | grep    '_' | xargs ${vca}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*taxonomy*.xml" | xargs ${vch_taxonomy}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listPerson.xml" | xargs ${vch_pers}
 	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<-listOrg.xml" | xargs ${vch_orgs}
@@ -201,7 +303,7 @@ validate-parlamint-XX = $(addprefix validate-parlamint-, $(PARLIAMENTS))
 validate-parlamint: $(validate-parlamint-XX)
 ## validate-parlamint-XX ## validate country XX (equivalent to val-lang in previous makefile)
 $(validate-parlamint-XX): validate-parlamint-%: %
-	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}'
+	Scripts/validate-parlamint.pl Schema '${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}' || echo "ERROR: fatal error when validating ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}"
 
 
 
@@ -233,12 +335,21 @@ $(chars-XX): chars-%: %
 
 
 text-XX = $(addprefix text-, $(PARLIAMENTS))
-## text ## create text version from tei files
+## text ## create text version from TEI files
 text: $(text-XX)
-## text-XX ## convert tei files to text
+## text-XX ## convert TEI files to text
 $(text-XX): text-%: %
-	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.txt |  grep -v '.ana.'`
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
+
+text.ana-XX = $(addprefix text.ana-, $(PARLIAMENTS))
+## text.ana ## create text version from TEI.ana files
+text.ana: $(text.ana-XX)
+## text.ana-XX ## convert TEI.ana files to text
+$(text.ana-XX): text.ana-%: %
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<_*.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
 	'$s -xsl:Scripts/parlamint-tei2text.xsl {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}.txt'
 
 
@@ -249,7 +360,7 @@ meta: $(meta-XX)
 ## meta-XX ## ...
 $(meta-XX): meta-%: %
 	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*-meta.tsv
-	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-*_*.xml" | grep -v '.ana.' | $P --jobs 10 \
 	'$s meta=../${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/ParlaMint-$<.xml -xsl:Scripts/parlamint2meta.xsl \
 	{} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/{/.}-meta.tsv'
 
@@ -363,6 +474,28 @@ $(composite-teiHeader-INPLACE-XX): composite-teiHeader-INPLACE-%: % composite-te
 	@rm -r ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/composite-teiHeader
 	@test -d .git && echo -n "=================\nINFO: Changes in ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}\n" && git status ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX} || :
 
+
+###### Useful conversions and scripts
+
+text.seg-XX = $(addprefix text.seg-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI files - each line contains one segment
+text.seg: $(text.seg-XX)
+## text-XX ## convert TEI files to text
+$(text.seg-XX): text.seg-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f `ls ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.txt |  grep -v '.ana.'`
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep -v '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
+
+text.seg.ana-XX = $(addprefix text.seg.ana-, $(PARLIAMENTS))
+## text.seg ## create text version from TEI.ana files - each line contains one segment
+text.seg.ana: $(text.seg.ana-XX)
+## text.seg.ana-XX ## convert TEI.seg.ana files to text
+$(text.seg.ana-XX): text.seg.ana-%: %
+	mkdir -p ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg
+	rm -f ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/ParlaMint-$<_*.seg.ana.txt
+	find ${DATADIR} -type f -path "${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/*" -name "ParlaMint-$<_*.xml" | grep '.ana.' | $P --jobs 10 \
+	'$s -xsl:Scripts/parlamint-tei2text.xsl element=seg {} > ${DATADIR}/ParlaMint-$<${CORPUSDIR_SUFFIX}/text.seg/{/.}.txt'
 
 
 ######---------------
@@ -585,55 +718,12 @@ $(DEV-data-XX-fix-XX): DEV-data-XX-fix-%: % DEV-data-XX-reset-data-%
 .update_DATA_XX_REP:
 	git -C ${DATA_XX_REP} pull --all
 
-
 ##!create-UD-SYN-taxonomy##
 create-taxonomy-UD-SYN:
 	test -d Scripts/UD-docs || git clone git@github.com:UniversalDependencies/docs.git Scripts/UD-docs
 	git -C Scripts/UD-docs checkout pages-source
 	git -C Scripts/UD-docs pull
 	Scripts/create-taxonomy-UD-SYN.pl --in Scripts/UD-docs --out ParlaMint-taxonomy-UD-SYN.ana.xml
-
-
-######################Generating and ingesting TSV added metadata
-
-## Generate TSV files for party information on the basis of the corpus root files.
-generate-parties:
-	$s path=../${DATADIR} outDir=Data/Metadata/Parties -xsl:Scripts/parties-tei2tsv.xsl \
-	${DATADIR}/ParlaMint.xml 2> Data/Metadata/Parties/ParlaMint_parties.log
-
-## Insert political orientation of parties from TSV file into a root file.
-insert-orientation-test-all:
-	make insert-orientation-test OC=BE DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=BG DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=CZ DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=DK DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=ES DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=FR DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=GB DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IS DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=LT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=LV DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=NL DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=IT DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=PL DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=SI DATADIR=../ParlaMint-v2tov3/Data
-	make insert-orientation-test OC=TR DATADIR=../ParlaMint-v2tov3/Data
-
-OC = DK
-insert-orientation-test-new:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}-listOrg.xml > Scripts/tmp/ParlaMint-${OC}-listOrg.xml
-insert-orientation-test:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-insert-orientation-test-val:
-	$s tsv=../Data/Metadata/Parties/Orientation-${OC}.tsv -xsl:Scripts/orientations-tsv2tei.xsl \
-	${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml > Scripts/tmp/ParlaMint-${OC}.xml
-	#-diff -b ${DATADIR}/ParlaMint-${OC}/ParlaMint-${OC}.xml Scripts/tmp/ParlaMint-${OC}.xml
-	#${pc} Scripts/tmp/ParlaMint-${OC}.xml
-	#${vrt} Scripts/tmp/ParlaMint-${OC}.xml
-	#${s} ${vlink} Scripts/tmp/ParlaMint-${OC}.xml
 
 ######################VARIABLES
 s = java $(JM) -jar /usr/share/java/saxon.jar

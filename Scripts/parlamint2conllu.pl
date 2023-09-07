@@ -55,7 +55,6 @@ $country2lang{'NO'} = 'no';
 $country2lang{'PL'} = 'pl';
 $country2lang{'PT'} = 'pt';
 $country2lang{'RO'} = 'ro';
-$country2lang{'RO'} = 'ro';
 $country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
@@ -79,15 +78,16 @@ foreach $inFile (@compAnaFiles) {
     $langs = $country2lang{$country} unless defined $langs;
     die "ERROR: Language is not defined for $country" unless defined $langs;
     #One corpus, one language
-    if ($langs !~ /,/) {
-        my $outFile = "$outDir/$fName.conllu";
-        &run("$Saxon meta=$rootAnaFile -xsl:$Convert $inFile > $outFile", $fName);
-        &run("python3 $Valid --lang $langs --level 1 $outFile", "level 1: $fName");
-        &run("python3 $Valid --lang $langs --level 2 $outFile", "level 2: $fName");
-        #&run("python3 $Valid --lang $langs --level 3 $outFile", "level 3: $fName");
-    }
+    if ($langs !~ /,/) {$checkLang = $langs}
+    else {($checkLang) = $langs =~ /(.+?),/}
+    my $outFile = "$outDir/$fName.conllu";
+    &run("$Saxon meta=$rootAnaFile -xsl:$Convert $inFile > $outFile", $fName);
+    &run("python3 $Valid --lang $checkLang --level 1 $outFile", "level 1: $fName");
+    &run("python3 $Valid --lang $checkLang --level 2 $outFile", "level 2: $fName");
+    #&run("python3 $Valid --lang $checkLang --level 3 $outFile", "level 3: $fName");
+
     #One corpus, several languages, several files (BE = nl, fr)
-    else {
+    if ($langs =~ /,/) {
         foreach $lang (split(/,\s*/, $langs)) {
             my $outFile = "$outDir/$fName-$lang.conllu";
             &run("$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert $inFile > $outFile", $fName);

@@ -2,7 +2,8 @@
 
 ## Git and GitHub
 
-Sample data should be pushed to the Data branch of the ParlaMint repository directly into the parliament folder (*`Data/ParlaMint-XX`*) in a flat structure of files.
+Sample data should be pushed to the Data branch of the ParlaMint repository directly into the samples folder
+(*`Samples/ParlaMint-XX`*) in a flat structure of files.
 
 ### Setup
 
@@ -43,16 +44,16 @@ git pull
 
 ```bash
 # replace XX with your country code
-git add Data/ParlaMint-XX/*.xml
-git commit -m 'XX' Data/ParlaMint-XX/ParlaMint-XX*.xml
+git add Samples/ParlaMint-XX/*.xml
+git commit -m 'XX' Samples/ParlaMint-XX/ParlaMint-XX*.xml
 ```
 
 - Add common content (tagUsages, word extents, version):
 
-  - edit files and save in `Data/ParlaMint-XX/add-common-content/ParlaMint-XX/` folder: `make add-common-content-XX`
+  - edit files and save in `Samples/ParlaMint-XX/add-common-content/ParlaMint-XX/` folder: `make add-common-content-XX`
   - check if modified files are ok
-  - replace `Data/ParlaMint-XX/*.xml` files with `Data/ParlaMint-XX/add-common-content/ParlaMint-XX/` content
-  - commit changes `git commit -m 'XX add common content' Data/ParlaMint-XX/ParlaMint-XX*.xml`
+  - replace `Samples/ParlaMint-XX/*.xml` files with `Samples/ParlaMint-XX/add-common-content/ParlaMint-XX/` content
+  - commit changes `git commit -m 'XX add common content' Samples/ParlaMint-XX/ParlaMint-XX*.xml`
 
 - Push data to your Fork:
 

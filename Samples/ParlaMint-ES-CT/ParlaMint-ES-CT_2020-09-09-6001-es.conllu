@@ -1,0 +1,45 @@
+# newdoc id = ParlaMint-ES-CT_2020-09-09-6001.2.0
+# newpar id = ParlaMint-ES-CT_2020-09-09-6001.2.0.0
+# lang = es
+# sent_id = ParlaMint-ES-CT_2020-09-09-6001.2.0.0.1
+# text = Gracias , presidente.
+1	Gracias	gracias	PROPN	_	_	3	dep	_	NER=B-PER
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
+3	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-CT_2020-09-09-6001.2.0.0.2
+# text = Conseller , ¿ puede usted asegurar que en el inicio del curso escolar está garantizada la seguridad del personal de los centros educativos y de los alumnos?
+1	Conseller	conseller	PROPN	_	_	6	nsubj	_	NER=B-PER
+2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
+3	¿	¿	PUNCT	_	PunctType=Qest	6	punct	_	NER=O
+4	puede	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	NER=O
+5	usted	usted	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	NER=O
+6	asegurar	asegurar	VERB	_	Mood=Inf	0	root	_	NER=O
+7	que	que	PRON	_	PronType=Rel	16	mark	_	NER=O
+8	en	en	ADP	_	AdpType=Prep	10	case	_	NER=O
+9	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	NER=O
+10	inicio	inicio	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	NER=O
+11-12	del	_	_	_	_	_	_	_	NER=O
+11	de	de	ADP	_	AdpType=Prep	13	case	_	_
+12	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	curso	curso	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	NER=O
+14	escolar	escolar	ADJ	_	Number=Sing	13	amod	_	NER=O
+15	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	cop	_	NER=O
+16	garantizada	garantizar	VERB	_	Gender=Fem|Mood=Par|Number=Sing	6	ccomp	_	NER=O
+17	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	NER=O
+18	seguridad	seguridad	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	NER=O
+19-20	del	_	_	_	_	_	_	_	NER=O
+19	de	de	ADP	_	AdpType=Prep	21	case	_	_
+20	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	personal	personal	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	NER=O
+22	de	de	ADP	_	AdpType=Prep	24	case	_	NER=O
+23	los	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	24	det	_	NER=O
+24	centros	centro	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	NER=O
+25	educativos	educativo	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	NER=O
+26	y	y	CCONJ	_	_	29	cc	_	NER=O
+27	de	de	ADP	_	AdpType=Prep	29	case	_	NER=O
+28	los	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	29	det	_	NER=O
+29	alumnos	alumno	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	NER=O|SpaceAfter=No
+30	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	6	punct	_	NER=O
+

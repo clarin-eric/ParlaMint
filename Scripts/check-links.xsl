@@ -23,9 +23,8 @@
   
   <xsl:variable name="primary" select="/"/>
   
-  <xsl:variable name="listPrefix">
-    <xsl:copy-of select="$rootHeader//tei:listPrefixDef"/>
-  </xsl:variable>
+  <xsl:variable name="rootListPrefix" select="$rootHeader//tei:listPrefixDef"/>
+  <xsl:variable name="componentListPrefix" select="//tei:teiHeader//tei:listPrefixDef"/>
 
   <xsl:template match="/">
     <!--xsl:call-template name="error">
@@ -34,7 +33,7 @@
                                          replace(base-uri(), '.+/', ''))"/>
                                          </xsl:call-template-->
     <xsl:apply-templates/>
-  </xsl:template>
+  </xsl:template>  
   <xsl:template match="text()"/>
   <xsl:template match="tei:*">
     <xsl:apply-templates select="@*"/>
@@ -73,12 +72,27 @@
       <xsl:value-of select="."/>
       <xsl:text>"</xsl:text>
     </xsl:variable>
-    <xsl:for-each select="tokenize(.,' ')">
-      <xsl:variable name="local-id" select="et:ref2id(.,$listPrefix)"/>
+    <xsl:variable name="idrefs" select="."/>
+    <xsl:for-each select="tokenize(., ' ')">
+      <xsl:if test="not(normalize-space(.))">
+        <xsl:call-template name="error">
+          <xsl:with-param name="msg" select="concat('ERROR: extra space in IDREFS ', $idrefs)"/>
+        </xsl:call-template>
+      </xsl:if>
+      <xsl:variable name="prefix" select="substring-before(., ':')"/>
+      <xsl:variable name="local-id">
+	<xsl:choose>
+	  <!-- Take component listPrefix, if it exists for this prefix -->
+	  <xsl:when test="$componentListPrefix//tei:prefixDef[@ident = $prefix]">
+	    <xsl:value-of select="et:ref2id(., $componentListPrefix)"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="et:ref2id(., $rootListPrefix)"/>
+	  </xsl:otherwise>
+	</xsl:choose>
+      </xsl:variable>
       <xsl:if test="normalize-space($local-id)">
-        <!--xsl:message>
-            <xsl:value-of select="concat('Info: link ', ., ' local ',$local-id)"/>
-        </xsl:message-->
+        <!--xsl:message select="concat('INFO: link ', ., ' local ',$local-id)"/-->
         <xsl:choose>
           <xsl:when test="not(normalize-space($local-id))"/>
           <xsl:when test="key('id', $local-id, $primary)"/>
@@ -114,7 +128,7 @@
       <!-- Extended TEI pointer -->
       <xsl:when test="contains($ptr, ':')">
         <xsl:variable name="prefix" select="substring-before($ptr, ':')"/>
-        <xsl:variable name="prefixDef" select="$listPrefix//tei:prefixDef[@ident=$prefix]"/>
+        <xsl:variable name="prefixDef" select="$listPrefix//tei:prefixDef[@ident = $prefix]"/>
         <xsl:choose>
           <xsl:when test="not($prefixDef)">
             <xsl:call-template name="error">
@@ -135,8 +149,8 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:when>
-      <!-- Local filename with extension -->
-      <xsl:when test="matches($ptr, '\.....?$')"/>
+      <!-- Local filename with extension and possibly followed by local reference -->
+      <xsl:when test="matches($ptr, '\..{3,4}$') or matches($ptr, '\..{3,4}#')"/>
       <!-- Probably forgotten hash -->
       <xsl:otherwise>
         <xsl:call-template name="error">
