@@ -80,9 +80,8 @@
   <!-- @type = 'ParlaMint' is the ParlaMint name of the party found in TSV -->
   <xsl:key name="abbr" match="tei:org" use="lower-case(tei:orgName[@type = 'ParlaMint'])"/>
 
-  <!-- Get country of corpus from filename -->
   <xsl:variable name="country"
-                select="replace(base-uri(), 
+                select="replace(/tei:listOrg/@xml:id, 
                         '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
                         '$1')"/>
   

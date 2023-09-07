@@ -23,7 +23,7 @@ while (<>) {
 	($id1) = m|<s xml:id="(.+)"|;
 	$sent = shift(@sents);
 	($id2) = $sent =~ m|<s xml:id="(.+?)"|;
-	die "Mismatch in IDs between $id1 and $id2\n" unless $id1 eq $id2;
+	die "FATAL ERROR: Mismatch in IDs between $id1 and $id2\n" unless $id1 eq $id2;
 	$sent =~ s|>| corresp="mt-src:$id1">|;
 	print $sent;
     }

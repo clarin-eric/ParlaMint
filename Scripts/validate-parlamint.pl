@@ -47,7 +47,7 @@ foreach my $inDir (glob "$inDirs") {
     }
     $/ = '>';
     if (not $rootFile and not $rootAnaFile) {
-        die "FATAL: Cannot find root file in $inDir!\n"
+        die "FATAL ERROR: Cannot find root file in $inDir!\n"
     }
     if ($rootFile) {
         print STDERR "INFO: Validating TEI root $rootFile\n";
