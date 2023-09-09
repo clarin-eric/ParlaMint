@@ -7,7 +7,7 @@
 <note type="gap::editorial" content="The frontmatter of the document has been removed"/>
 <note type="-" content="Αθήνα, σήμερα στις 4 Δεκεμβρίου 2019, ημέρα Τετάρτη και ώρα 9.08΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Β΄ Αντιπροέδρου αυτής κ. ΧΑΡΑΛΑΜΠΟΥ ΑΘΑΝΑΣΙΟΥ."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u1" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u1" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg1" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
@@ -787,7 +787,7 @@
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u2" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u2" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg18" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2
@@ -857,7 +857,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u51" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u51" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg212" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1">
 Συνεπώς	Συνεπώς	συνεπώς	ADV		1	advmod	εγκρίνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	4
@@ -894,7 +894,7 @@
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u52" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u52" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
 <p id="ParlaMint-GR_2019-12-04-S1-commons.seg214" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
