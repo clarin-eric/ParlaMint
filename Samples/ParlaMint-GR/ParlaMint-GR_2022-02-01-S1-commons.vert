@@ -1,7 +1,14 @@
 <note type="head" content="ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ"/>
+<note type="head" content="ΙΗ ΠΕΡΙΟΔΟΣ"/>
+<note type="head" content="ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ"/>
+<note type="head" content="ΣΥΝΟΔΟΣ Γ'"/>
+<note type="head" content="ΣΥΝΕΔΡΙΑΣΗ ΞΔ"/>
+<note type="head" content="Τρίτη 1η Φεβρουαρίου 2022"/>
+<note type="gap::editorial" content="The frontmatter of the document has been removed"/>
 <note type="-" content="Αθήνα, σήμερα 1η Φεβρουαρίου 2022, ημέρα Τρίτη και ώρα 10.10΄ συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Α΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ."/>
-<speech id="ParlaMint-GR_2022-02-01-S1-commons.u1" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" body="unicameral" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 64, 2022-02-01" speaker_role="Chairperson" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="ΚΑΚΛΑΜΑΝΗΣ, ΝΙΚΗΤΑΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg1" lang="greek">
+<note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):"/>
+<speech id="ParlaMint-GR_2022-02-01-S1-commons.u1" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Γ', συνεδρίαση ΞΔ, 2022-02-01" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="ΚΑΚΛΑΜΑΝΗΣ, ΝΙΚΗΤΑΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg1" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
@@ -17,7 +24,7 @@
 </s>
 </p>
 <note type="-" content="Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις"/>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg2" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg2" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg2.1">
 Θα	Θα	θα	AUX		1	aux	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	2
 γίνει	γίνει	γίνομαι	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	2	root	-	-	-	-
@@ -110,7 +117,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		12	punct	μιλώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 VerbForm=Fin Voice=Act	6
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg3" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg3" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg3.1">
 «	«	«	PUNCT		1	punct	υπάρχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	7
 <g/>
@@ -199,7 +206,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		48	punct	τιμώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	13
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg4" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg4" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg4.1">
 Πριν	Πριν	πριν	ADV		1	advmod	παίζω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	14
 από	από	από	ADP		2	case	χρόνος	NOUN	Case=Acc Gender=Neut Number=Plur	5
@@ -319,7 +326,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		43	punct	αναδεικνύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	11
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg5" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg5" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg5.1">
 Με	Με	με	ADP		1	case	καιρός	NOUN	Case=Acc Gender=Masc Number=Sing	3
 τον	τον	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Sing PronType=Art	2	det	καιρός	NOUN	Case=Acc Gender=Masc Number=Sing	3
@@ -431,7 +438,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		25	punct	σφαγή	NOUN	Case=Nom Gender=Fem Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg6" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg6" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg6.1">
 Ο	Ο	ο	DET	Case=Nom Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	απολογισμός	NOUN	Case=Nom Gender=Masc Number=Sing	2
 απολογισμός	απολογισμός	απολογισμός	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -538,7 +545,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		46	punct	θρηνώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg7" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg7" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg7.1">
 Μέσα	Μέσα	μέσα	ADV		1	advmod	χάνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	9
 σε	σε	σε	ADP		2	case	ζόφος	NOUN	Case=Acc Gender=Masc Number=Sing	5
@@ -700,7 +707,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		15	punct	πίστη	NOUN	Case=Acc Gender=Fem Number=Sing	3
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg8" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg8" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg8.1">
 Για	Για	για	ADP		1	case	εγώ	PRON	Case=Acc Gender=Masc Number=Plur Person=1 PronType=Prs	3
 όλους	όλους	όλος	DET	Case=Acc Gender=Masc Number=Plur PronType=Tot	2	det	εγώ	PRON	Case=Acc Gender=Masc Number=Plur Person=1 PronType=Prs	3
@@ -806,7 +813,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		65	punct	τόπος	NOUN	Case=Nom Gender=Masc Number=Sing	47
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg9" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg9" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg9.1">
 Γι'	Γι'	για	ADP		1	case	λόγος	NOUN	Case=Acc Gender=Masc Number=Sing	4
 αυτόν	αυτόν	αυτός	DET	Case=Acc Gender=Masc Number=Sing Person=3 PronType=Dem	2	det	λόγος	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -931,7 +938,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		55	punct	οφείλω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	5
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg10" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg10" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg10.1">
 Σας	Σας	εγώ	PRON	Case=Acc Gender=Masc Number=Plur Person=2 PronType=Prs	1	obj	ευχαριστώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2
 ευχαριστώ	ευχαριστώ	ευχαριστώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -940,7 +947,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 </s>
 </p>
 <note type="kinesic:applause" content="Χειροκροτήματα"/>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg11" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg11" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg11.1">
 Θα	Θα	θα	AUX		1	aux	προχωρώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	2
 προχωρήσουμε	προχωρήσουμε	προχωρώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -962,8 +969,8 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 </p>
 </speech>
 <note type="speaker" content="ΧΡΗΣΤΟΣ ΜΠΟΥΚΩΡΟΣ"/>
-<speech id="ParlaMint-GR_2022-02-01-S1-commons.u2" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" body="unicameral" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 64, 2022-02-01" speaker_role="Regular" speaker_id="ΜΠΟΥΚΩΡΟΣ_ΓΕΩΡΓΙΟΥ_ΧΡΗΣΤΟΣ" speaker_name="ΜΠΟΥΚΩΡΟΣ, ΧΡΗΣΤΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg12" lang="greek">
+<speech id="ParlaMint-GR_2022-02-01-S1-commons.u2" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Γ', συνεδρίαση ΞΔ, 2022-02-01" speaker_role="Τακτικός" speaker_id="ΜΠΟΥΚΩΡΟΣ_ΓΕΩΡΓΙΟΥ_ΧΡΗΣΤΟΣ" speaker_name="ΜΠΟΥΚΩΡΟΣ, ΧΡΗΣΤΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg12" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg12.1">
 Κύριε	Κύριε	κύριος	NOUN	Case=Voc Gender=Masc Number=Sing	1	vocative	εννοώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	15
 Πρόεδρε	Πρόεδρε	πρόεδρος	NOUN	Case=Voc Gender=Masc Number=Sing	2	flat	κύριος	NOUN	Case=Voc Gender=Masc Number=Sing	1
@@ -1021,7 +1028,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		14	punct	εξόντωση	NOUN	Case=Nom Gender=Fem Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg13" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg13" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg13.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	κοινοβούλιο	NOUN	Case=Nom Gender=Neut Number=Sing	3
 ελληνικό	ελληνικό	ελληνικός	ADJ	Case=Nom Gender=Neut Number=Sing	2	amod	κοινοβούλιο	NOUN	Case=Nom Gender=Neut Number=Sing	3
@@ -1097,7 +1104,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		19	punct	καθιερώνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	11
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg14" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg14" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg14.1">
 Ήταν	Ήταν	είμαι	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	1	cop	27ος	NUM	Case=Nom Gender=Fem Number=Sing NumType=Ord	3
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	27ος	NUM	Case=Nom Gender=Fem Number=Sing NumType=Ord	3
@@ -1316,7 +1323,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		35	punct	υπάρχω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg15" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg15" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg15.1">
 Χαρακτηριστικότερο	Χαρακτηριστικότερο	χαρακτηριστικός	ADJ	Case=Nom Degree=Cmp Gender=Neut Number=Sing	1	root	-	-	-	-
 όλων	όλων	όλος	DET	Case=Gen Gender=Masc Number=Plur PronType=Tot	2	det	χαρακτηριστικός	ADJ	Case=Nom Degree=Cmp Gender=Neut Number=Sing	1
@@ -1433,7 +1440,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		29	punct	προτάσσω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Act	10
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg16" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg16" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg16.1">
 Ένα	Ένα	ένας	DET	Case=Nom Definite=Ind Gender=Neut Number=Sing PronType=Art	1	det	παράδειγμα	NOUN	Case=Nom Gender=Neut Number=Sing	4
 άλλο	άλλο	άλλος	PRON	Case=Nom Gender=Neut Number=Sing Person=3 PronType=Ind	2	nmod	παράδειγμα	NOUN	Case=Nom Gender=Neut Number=Sing	4
@@ -1612,7 +1619,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		8	punct	μικρός	ADJ	Case=Nom Degree=Cmp Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg17" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg17" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg17.1">
 Νωρίτερα	Νωρίτερα	νωρίς	ADV	Degree=Cmp	1	advmod	παίρνω	VERB	Aspect=Perf VerbForm=Inf Voice=Act	17
 <g/>
@@ -1722,7 +1729,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		62	punct	αξιωματικός	NOUN	Case=Nom Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg18" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg18" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg18.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	ολοκαύτωμα	NOUN	Case=Nom Gender=Neut Number=Sing	2
 Ολοκαύτωμα	Ολοκαύτωμα	ολοκαύτωμα	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj	δοκιμάζω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	9
@@ -1813,7 +1820,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		9	punct	αφαιρώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	2
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg19" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg19" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg19.1">
 Κατά	Κατά	κατά	ADP		1	case	συνέπεια	NOUN	Case=Acc Gender=Fem Number=Sing	2
 συνέπεια	συνέπεια	συνέπεια	NOUN	Case=Acc Gender=Fem Number=Sing	2	obl	ζητώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
@@ -1871,7 +1878,7 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 .	.	.	PUNCT		44	punct	ζητώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
 </s>
 </p>
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg20" lang="greek">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg20" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg20.1">
 Αιωνία	Αιωνία	αιώνιος	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	μνήμη	NOUN	Case=Nom Gender=Fem Number=Sing	3
@@ -1883,8 +1890,8 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2022-02-01-S1-commons.u385" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" body="unicameral" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 64, 2022-02-01" speaker_role="Chairperson" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg1580" lang="greek">
+<speech id="ParlaMint-GR_2022-02-01-S1-commons.u385" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Γ', συνεδρίαση ΞΔ, 2022-02-01" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg1580" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg1580.1">
 Κύριοι	Κύριοι	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	1	vocative	δέχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Pass	3
 συνάδελφοι	συνάδελφοι	συνάδελφος	NOUN	Case=Voc Gender=Masc Number=Plur	2	flat	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	1
@@ -1903,8 +1910,8 @@ Hμέρα	Hμέρα	ημέρα	NOUN	Case=Acc Gender=Fem Number=Sing	8	nmod	αν�
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΑΘΑΝΑΣΙΟΣ ΜΠΟΥΡΑΣ):"/>
-<speech id="ParlaMint-GR_2022-02-01-S1-commons.u386" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" body="unicameral" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Minutes of the assembly of the greek parliament, Term 18, session 3, sitting 64, 2022-02-01" speaker_role="Chairperson" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2022-02-01-S1-commons.seg1581" lang="greek">
+<speech id="ParlaMint-GR_2022-02-01-S1-commons.u386" text_id="ParlaMint-GR_2022-02-01-S1-commons" subcorpus="COVID" lang="Ελληνικά" body="Μονοθάλαμο" term="18" session="3" meeting="" sitting="64" agenda="" date="2022-02-01" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Γ', συνεδρίαση ΞΔ, 2022-02-01" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΜΠΟΥΡΑΣ_ΚΩΝΣΤΑΝΤΙΝΟΥ_ΑΘΑΝΑΣΙΟΣ" speaker_name="ΜΠΟΥΡΑΣ, ΑΘΑΝΑΣΙΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2022-02-01-S1-commons.seg1581" lang="Ελληνικά">
 <s id="ParlaMint-GR_2022-02-01-S1-commons.seg1581.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
