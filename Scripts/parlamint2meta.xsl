@@ -20,19 +20,24 @@
     <!-- Store sub title, if it exists, otherwise main title -->
     <xsl:variable name="title">
       <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-      <xsl:variable name="subtitle" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
+      <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
       <xsl:choose>
-        <xsl:when test="normalize-space($subtitle[2])">
+        <xsl:when test="normalize-space($subtitles[2])">
+	  <xsl:variable name="joined-subtitles">
+	    <xsl:for-each select="$subtitles/self::tei:*">
+	      <xsl:value-of select="concat(., ' + ')"/>
+	    </xsl:for-each>
+	  </xsl:variable>
           <xsl:message>
-            <xsl:text>WARNING: Taking only first subtitle, ignoring second:  </xsl:text>
-            <xsl:value-of select="$subtitle[2]"/>
+            <xsl:text>INFO: Joining subtitles: </xsl:text>
+            <xsl:value-of select="replace($joined-subtitles, ' \+ $', '')"/>
             <xsl:text> in </xsl:text>
             <xsl:value-of select="/tei:*/@xml:id"/>
           </xsl:message>
-          <xsl:value-of select="$subtitle[1]"/>
+	  <xsl:value-of select="replace($joined-subtitles, ' \+ $', '')"/>
         </xsl:when>
-        <xsl:when test="normalize-space($subtitle)">
-          <xsl:value-of select="$subtitle"/>
+        <xsl:when test="normalize-space($subtitles)">
+          <xsl:value-of select="$subtitles"/>
         </xsl:when>
         <xsl:otherwise>
           <xsl:value-of select="et:l10n($corpus-language, $titles[@type='main'])"/>
