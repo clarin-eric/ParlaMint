@@ -22,11 +22,20 @@
       <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
       <xsl:variable name="subtitle" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
       <xsl:choose>
+        <xsl:when test="normalize-space($subtitle[2])">
+          <xsl:message>
+            <xsl:text>WARNING: Taking only first subtitle, ignoring second:  </xsl:text>
+            <xsl:value-of select="$subtitle[2]"/>
+            <xsl:text> in </xsl:text>
+            <xsl:value-of select="/tei:*/@xml:id"/>
+          </xsl:message>
+          <xsl:value-of select="$subtitle[1]"/>
+        </xsl:when>
         <xsl:when test="normalize-space($subtitle)">
           <xsl:value-of select="$subtitle"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:value-of select="et:l10n($corpus-language, $titles[1])"/>
+          <xsl:value-of select="et:l10n($corpus-language, $titles[@type='main'])"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
