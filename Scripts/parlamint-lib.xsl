@@ -820,19 +820,19 @@
     <xsl:choose>
       <xsl:when test="$out-lang = 'xx'">
 	<xsl:choose>
-	  <xsl:when test="normalize-space($element-xx)">
+	  <xsl:when test="normalize-space($element-xx[1])">
 	    <xsl:copy-of select="$element-xx"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-lt)">
+	  <xsl:when test="normalize-space($element-lt[1])">
 	    <xsl:copy-of select="$element-lt"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-yy)">
+	  <xsl:when test="normalize-space($element-yy[1])">
 	    <xsl:copy-of select="$element-yy"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-en)">
+	  <xsl:when test="normalize-space($element-en[1])">
 	    <xsl:copy-of select="$element-en"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-fb)">
+	  <xsl:when test="normalize-space($element-fb[1])">
 	    <xsl:copy-of select="$element-fb"/>
 	  </xsl:when>
 	  <xsl:otherwise>
@@ -845,16 +845,16 @@
       </xsl:when>
       <xsl:when test="$out-lang = 'en'">
 	<xsl:choose>
-	  <xsl:when test="normalize-space($element-en)">
+	  <xsl:when test="normalize-space($element-en[1])">
 	    <xsl:copy-of select="$element-en"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-lt)">
+	  <xsl:when test="normalize-space($element-lt[1])">
 	    <xsl:copy-of select="$element-lt"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-yy)">
+	  <xsl:when test="normalize-space($element-yy[1])">
 	    <xsl:copy-of select="$element-yy"/>
 	  </xsl:when>
-	  <xsl:when test="normalize-space($element-fb)">
+	  <xsl:when test="normalize-space($element-fb[1])">
 	    <xsl:copy-of select="$element-fb"/>
 	  </xsl:when>
 	  <xsl:otherwise>
