@@ -1,3 +1,12 @@
+test-meta2:
+	${FINALIZE} -txt -codes BG -in ${HERE}/Master -out ${HERE}/Master
+test-vert:
+	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
+	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-meta:
+	${FINALIZE} -txt -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
+	${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+
 ## Transliteration tests
 test-translit4:
 	${vlp} ParlaMint-GR-listPerson.xml
@@ -50,7 +59,8 @@ merge-taxos:
 #CORPORA = AT BA BE BG CZ DK EE ES ES-CT ES-GA FR GB GR HR HU IS IT LV NL NO PL PT RS SE SI TR UA
 
 # Partial runs:
-CORPORA = AT
+#CORPORA = GR BG UA
+CORPORA = BG UA BE
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en

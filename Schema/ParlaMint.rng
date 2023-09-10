@@ -485,7 +485,7 @@
   <define name="life-event.content">
     <a:documentation>The content of elements that describe life events: they can have an partial
     date (e.g. year only) in temporal attributes. The content can be empty, or gives the placeName
-    where the event happened.</a:documentation>
+    where the event happened. There can be several placenames in different langauges or scripts.</a:documentation>
     <attribute name="when">
       <choice>
         <data type="date"/>
@@ -493,12 +493,13 @@
         <data type="gYear"/>
       </choice>
     </attribute>
-    <optional>
+    <zeroOrMore>
       <element name="placeName">
+        <ref name="lang.att"/>
         <ref name="ref.att"/>
         <ref name="normalized-space.string"/>
       </element>
-    </optional>
+    </zeroOrMore>
   </define>
   
   <define name="event">
