@@ -219,7 +219,7 @@
       <xsl:otherwise>
         <xsl:message select="concat('ERROR: cannot determine of which body the component ', 
 			     replace(base-uri(), '.+/', ''), ' is a meeting of!')"/>
-	<xsl:text></xsl:text>
+	<xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -261,7 +261,7 @@
 	</xsl:for-each>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text></xsl:text>
+        <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -284,7 +284,7 @@
     <xsl:choose>
       <xsl:when test="not($persNameLoc)">
         <xsl:message select="concat('ERROR: empty persName from', $persNames[1], ' on ', $when)"/>
-        <xsl:text></xsl:text>
+        <xsl:text>-</xsl:text>
       </xsl:when>
       <xsl:when test="$persNameLoc[2]">
         <xsl:message select="concat('ERROR: several persNames ', $persNameLoc,
@@ -334,7 +334,7 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:message select="concat('ERROR: empty persName for ', $persName/@xml:id)"/>
-        <xsl:text></xsl:text>
+        <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
@@ -403,7 +403,7 @@
     <xsl:choose>
       <xsl:when test="not($relations/self::tei:relation[@name='coalition'])">
         <xsl:message>ERROR: no coalition info found in corpus</xsl:message>
-        <xsl:text></xsl:text>
+        <xsl:text>-</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:if test="not($relations/self::tei:relation[@name = 'opposition'])">
@@ -463,7 +463,9 @@
           <xsl:when test="normalize-space($in-relation)">
             <xsl:value-of select="normalize-space($in-relation)"/>
           </xsl:when>
-          <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+          <xsl:otherwise>
+	    <xsl:text>-</xsl:text>
+	  </xsl:otherwise>
         </xsl:choose>
       </xsl:otherwise>
     </xsl:choose>
@@ -498,7 +500,9 @@
       <xsl:when test="normalize-space($politicalParties)">
         <xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
-      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+      <xsl:otherwise>
+	<xsl:text>-</xsl:text>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
   
@@ -535,7 +539,9 @@
       <xsl:when test="normalize-space($politicalParties)">
         <xsl:value-of select="replace($politicalParties, ';$', '')"/>
       </xsl:when>
-      <xsl:otherwise><xsl:text></xsl:text></xsl:otherwise>
+      <xsl:otherwise>
+	<xsl:text>-</xsl:text>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
   
@@ -600,7 +606,7 @@
 			      key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)/tei:catDesc)/tei:term"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:text></xsl:text>
+        <xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
