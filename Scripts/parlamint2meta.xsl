@@ -46,6 +46,7 @@
     </xsl:variable>
     
   <xsl:template match="tei:TEI">
+    <xsl:message select="concat('INFO: Converting ', @xml:id, ' to metadata TSV')"/>
     <xsl:text>ID&#9;</xsl:text>
     <xsl:text>Title&#9;</xsl:text>
     <xsl:text>Date&#9;</xsl:text>
