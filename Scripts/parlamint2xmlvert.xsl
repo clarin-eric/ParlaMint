@@ -54,7 +54,9 @@
         <xsl:value-of select="$subtitles"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="et:l10n($corpus-language, $titles[@type='main'])"/>
+        <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles[@type='main'])"/>
+	<!-- Remove [ParlaMint] stamp -->
+        <xsl:value-of select="replace($main-title, '\s*\[.+\]$', '')"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:variable>
