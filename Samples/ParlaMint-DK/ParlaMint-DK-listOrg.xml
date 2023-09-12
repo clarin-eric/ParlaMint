@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listOrg xmlns="http://www.tei-c.org/ns/1.0"
-         xml:id="ParlaMint-DK-listOrg"
-         xml:lang="da">
+<listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-DK-listOrg" xml:lang="da">
+ 
    <org xml:id="ParlaMint-DK-GOV" role="government">
       <orgName xml:lang="da" full="yes">Regeringen</orgName>
       <orgName xml:lang="en" full="yes">The Danish Government</orgName>
+      
       <listEvent>
-         <head xml:lang="en">Cabinets</head>
+         <head xml:lang="en">Legislative period</head>
          <event xml:id="FT.14" from="2014-02-03" to="2015-06-28">
-            <label xml:lang="da">Regeringen Helle Thorning-Schmidt II (Fra 3. februar 2014 til 28. juni 2015)</label>
-            <label xml:lang="en">Thorning-Schmidt II Cabinet (3 February 2014 - 28 June 2015)</label>
+            <label xml:lang="da">Regeringen Helle Thorning-Schmidt II</label>
+            <label xml:lang="en">Thorning-Schmidt II Cabinet</label>
          </event>
          <event xml:id="FT.15" from="2015-06-28" to="2016-11-28">
-            <label xml:lang="da">Regeringen Lars Løkke Rasmussen II (Fra 28. juni 2015 til 28. november 2016)</label>
-            <label xml:lang="en">Lars Løkke Rasmussen II Cabinet (28 June 2015 - 28 November 2016)</label>
+            <label xml:lang="da">Regeringen Lars Løkke Rasmussen II</label>
+            <label xml:lang="en">Lars Løkke Rasmussen II Cabinet</label>
          </event>
          <event xml:id="FT.16" from="2016-11-28" to="2019-06-27">
-            <label xml:lang="da">Regeringen Lars Løkke Rasmussen III (Fra 28. november 2016 til 27. juni 2019)</label>
-            <label xml:lang="en">Lars Løkke Rasmussen III Cabinet (28 November 2016 til 27 June 2019)</label>
+            <label xml:lang="da">Regeringen Lars Løkke Rasmussen III</label>
+            <label xml:lang="en">Lars Løkke Rasmussen III Cabinet</label>
          </event>
          <event xml:id="FT.19" from="2019-06-27">
-            <label xml:lang="da">Regeringen Mette Frederiksen (Fra 27. juni 2019 - i dag)</label>
-            <label xml:lang="en">Frederiksen Cabinet (27 June 2019 - today)</label>
+            <label xml:lang="da">Regeringen Mette Frederiksen</label>
+            <label xml:lang="en">Frederiksen Cabinet</label>
          </event>
       </listEvent>
    </org>
@@ -31,8 +31,8 @@
       <event from="1849">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://da.wikipedia.org/wiki/Folketinget</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Folketing</idno>
+      <idno type="wikimedia" xml:lang="da">https://da.wikipedia.org/wiki/Folketinget</idno>
+      <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Folketing</idno> 
       <listEvent>
          <head xml:lang="en">Parliamentary year</head>
          <event xml:id="FT.20141" from="2014-10-07" to="2015-05-27">
@@ -67,6 +67,9 @@
          </event>
       </listEvent>
    </org>
+
+
+   
    <org xml:id="party.ALT" role="parliamentaryGroup">
       <orgName full="yes" xml:lang="da">Alternativet</orgName>
       <orgName full="abb">ALT</orgName>
@@ -201,43 +204,14 @@
       </event>
    </org>
    <listRelation>
-      <relation name="coalition"
-                mutual="#party.S #party.RV"
-                from="2014-02-03"
-                to="2015-06-27"
-                ana="#FT.14"/>
-      <relation name="coalition"
-                mutual="#party.V"
-                from="2015-06-28"
-                to="2016-11-27"
-                ana="#FT.15"/>
-      <relation name="coalition"
-                mutual="#party.V #party.KF #party.LA"
-                from="2016-11-28"
-                to="2019-06-05"
-                ana="#FT.16"/>
-      <relation name="coalition"
-                mutual="#party.S"
-                from="2019-06-27"
-                ana="#FT.19"/>
-      <relation name="opposition"
-                active="#party.V #party.KF #party.LA #party.DF"
-                passive="#FT.14"
-                from="2014-02-03"
-                to="2015-06-27"/>
-      <relation name="opposition"
-                active="#party.S #party.RV #party.SF #party.EL #party.ALT"
-                passive="#FT.15"
-                from="2015-06-28"
-                to="2016-11-27"/>
-      <relation name="opposition"
-                active="#party.S #party.RV #party.SF #party.EL #party.ALT"
-                passive="#FT.16"
-                from="2016-11-28"
-                to="2019-06-26"/>
-      <relation name="opposition"
-                active="#party.V #party.KF #party.LA #party.DF #party.NB"
-                passive="#FT.19"
-                from="2019-06-27"/>
+      <relation name="coalition" mutual="#party.S #party.RV" from="2014-02-03" to="2015-06-27" ana="#FT.14"/>
+      <relation name="coalition" mutual="#party.V" from="2015-06-28" to="2016-11-27" ana="#FT.15"/>
+      <relation name="coalition" mutual="#party.V #party.KF #party.LA" from="2016-11-28" to="2019-06-26" ana="#FT.16"/>
+      <relation name="coalition" mutual="#party.S" from="2019-06-27" ana="#FT.19"/>
+      <relation name="opposition" active="#party.V #party.KF #party.LA #party.DF" passive="#FT.14" from="2014-02-03" to="2015-06-27"/>
+      <relation name="opposition" active="#party.S #party.RV #party.SF #party.EL #party.ALT" passive="#FT.15" from="2015-06-28" to="2016-11-27"/>
+      <relation name="opposition" active="#party.S #party.RV #party.SF #party.EL #party.ALT" passive="#FT.16" from="2016-11-28" to="2019-06-26"/>
+      <relation name="opposition" active="#party.V #party.KF #party.LA #party.DF #party.NB" passive="#FT.19" from="2019-06-27"/>
    </listRelation>
 </listOrg>
+
