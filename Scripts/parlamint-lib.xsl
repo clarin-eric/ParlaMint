@@ -193,8 +193,8 @@
       <xsl:variable name="bods">
 	<xsl:for-each select="distinct-values(tokenize(normalize-space($references), ' '))">
 	  <xsl:if test="key('idr', ., $rootHeader)[ancestor::tei:category[@xml:id = 'parla.organization']]">
-          <xsl:variable name="body-en" select="et:l10n('en', key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
-          <xsl:variable name="body" select="et:l10n($corpus-language, key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
+            <xsl:variable name="body-en" select="et:l10n('en', key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
+            <xsl:variable name="body" select="et:l10n($corpus-language, key('idr', ., $rootHeader)//tei:catDesc)/tei:term"/>
 	    <!-- We unfortunatelly need an explicit test if the reference we got is appropriate -->
 	    <!-- This needs to be rethought! (e.g. 'National Parliament' might be better than 'Unicameralism' -->
 	    <xsl:if test="$body-en = 'Unicameralism' or

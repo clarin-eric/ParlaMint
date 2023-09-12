@@ -110,7 +110,7 @@
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
       <xsl:choose>
-        <xsl:when test="@who">
+        <xsl:when test="key('idr', @who, $rootHeader)/@xml:id">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
           <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
           <xsl:attribute name="speaker_name" select="et:format-name-chrono(
@@ -125,6 +125,11 @@
           <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
           <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
         </xsl:when>
+	<!-- A speaker that does not have a corresponding <person> element -->
+        <xsl:when test="normalize-space(@who)">
+          <xsl:message select="concat('ERROR: cannot find person ', @who, ' for ', $text_id)"/>
+	</xsl:when>
+	<!-- No @who, legit if speaker is unknown -->
         <xsl:otherwise>
           <xsl:attribute name="speaker_id"/>
           <xsl:attribute name="speaker_name"/>
