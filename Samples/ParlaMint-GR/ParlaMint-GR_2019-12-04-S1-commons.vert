@@ -1,7 +1,14 @@
 <note type="head" content="ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ"/>
+<note type="head" content="ΙΗ ΠΕΡΙΟΔΟΣ"/>
+<note type="head" content="ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ"/>
+<note type="head" content="ΣΥΝΟΔΟΣ Α'"/>
+<note type="head" content="ΣΥΝΕΔΡΙΑΣΗ ΞΑ'"/>
+<note type="head" content="Τετάρτη 4 Δεκεμβρίου 2019"/>
+<note type="gap::editorial" content="The frontmatter of the document has been removed"/>
 <note type="-" content="Αθήνα, σήμερα στις 4 Δεκεμβρίου 2019, ημέρα Τετάρτη και ώρα 9.08΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Β΄ Αντιπροέδρου αυτής κ. ΧΑΡΑΛΑΜΠΟΥ ΑΘΑΝΑΣΙΟΥ."/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u1" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Reference" body="unicameral" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg1" lang="greek">
+<note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):"/>
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u1" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg1" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
@@ -17,7 +24,7 @@
 </s>
 </p>
 <note type="-" content="Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις"/>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg2" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg2" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg2.1">
 Κατ'	Κατ'	κατά	ADP		1	case	αρχάς	NOUN	Case=Acc Gender=Fem Number=Plur	2
 αρχάς	αρχάς	αρχάς	NOUN	Case=Acc Gender=Fem Number=Plur	2	obl	επιτρέπω	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin Voice=Act	3
@@ -39,7 +46,7 @@
 .	.	.	PUNCT		17	punct	επιτρέπω	VERB	Aspect=Perf Mood=Imp Number=Plur Person=2 VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg3" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg3" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg3.1">
 Α.	Α.	Α.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΠΙΚΑΙΡΕΣ	ΕΠΙΚΑΙΡΕΣ	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Plur	2	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
@@ -68,7 +75,7 @@
 )	)	)	PUNCT		21	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg4" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg4" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg4.1">
 1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -125,7 +132,7 @@
 .	.	.	PUNCT		40	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg5" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg5" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg5.1">
 2.	2.	2.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -173,7 +180,7 @@
 .	.	.	PUNCT		35	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg6" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg6" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg6.1">
 3.	3.	3.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -219,7 +226,7 @@
 .	.	.	PUNCT		33	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg7" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg7" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg7.1">
 4.	4.	4.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -282,7 +289,7 @@
 .	.	.	PUNCT		49	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg8" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg8" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg8.1">
 Β.	Β.	Β.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΠΙΚΑΙΡΕΣ	ΕΠΙΚΑΙΡΕΣ	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Plur	2	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
@@ -311,7 +318,7 @@
 )	)	)	PUNCT		21	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Plur	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg9" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg9" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg9.1">
 1.	1.	1.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -370,7 +377,7 @@
 .	.	.	PUNCT		48	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg10" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg10" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg10.1">
 2.	2.	2.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -436,7 +443,7 @@
 .	.	.	PUNCT		46	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg11" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg11" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg11.1">
 3.	3.	3.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -491,7 +498,7 @@
 .	.	.	PUNCT		44	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg12" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg12" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg12.1">
 4.	4.	4.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -571,7 +578,7 @@
 .	.	.	PUNCT		60	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg13" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg13" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg13.1">
 5.	5.	5.	NUM	NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -631,7 +638,7 @@
 .	.	.	PUNCT		51	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg14" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg14" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg14.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	εισέρχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Pass	6
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
@@ -648,7 +655,7 @@
 ΕΡΓΑΣΙΑΣ	ΕΡΓΑΣΙΑΣ	εργασία	NOUN	Case=Gen Gender=Fem Number=Sing	14	nmod	διάταξη	NOUN	Case=Acc Gender=Fem Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg15" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg15" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg15.1">
 Μόνη	Μόνη	μόνος	DET	Case=Nom Gender=Fem Number=Sing PronType=Ind	1	det	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	2
 συζήτηση	συζήτηση	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -710,7 +717,7 @@
 .	.	.	PUNCT		50	punct	συζήτηση	NOUN	Case=Nom Gender=Fem Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg16" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg16" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg16.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	νομοσχέδιο	NOUN	Case=Nom Gender=Neut Number=Sing	2
 νομοσχέδιο	νομοσχέδιο	νομοσχέδιο	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj:pass	ψηφίζω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Pass	3
@@ -766,7 +773,7 @@
 .	.	.	PUNCT		34	punct	εισάγω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Pass	1
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg17" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg17" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg17.1">
 Συμφωνεί	Συμφωνεί	συμφωνώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 το	το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	2	det	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	3
@@ -780,8 +787,8 @@
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u2" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Reference" body="unicameral" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg18" lang="greek">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u2" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg18" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg18.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2
 Σώμα	Σώμα	σώμα	NOUN	Case=Nom Gender=Neut Number=Sing	2	nsubj	συμφωνώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
@@ -790,7 +797,7 @@
 .	.	.	PUNCT		4	punct	συμφωνώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg19" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg19" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg19.1">
 Υπέρ	Υπέρ	υπέρ	ADP		1	case	ψηφίζω	VERB	Aspect=Perf VerbForm=Inf Voice=Act	3
 έχει	έχει	έχω	AUX	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	aux	ψηφίζω	VERB	Aspect=Perf VerbForm=Inf Voice=Act	3
@@ -816,7 +823,7 @@
 .	.	.	PUNCT		14	punct	ψηφίζω	VERB	Aspect=Perf VerbForm=Inf Voice=Act	3
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg20" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg20" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg20.1">
 Επιφύλαξη	Επιφύλαξη	επιφύλαξη	NOUN	Case=Acc Gender=Fem Number=Sing	1	obj	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 είχε	είχε	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -830,7 +837,7 @@
 .	.	.	PUNCT		7	punct	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg21" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg21" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg21.1">
 Κύριε	Κύριε	κύριος	NOUN	Case=Voc Gender=Masc Number=Sing	1	vocative	έχω	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Act	4
 <name type="PER">
@@ -850,8 +857,8 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u51" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Reference" body="unicameral" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg212" lang="greek">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u51" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg212" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg212.1">
 Συνεπώς	Συνεπώς	συνεπώς	ADV		1	advmod	εγκρίνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	4
 η	η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	βουλή	NOUN	Case=Nom Gender=Fem Number=Sing	3
@@ -866,7 +873,7 @@
 .	.	.	PUNCT		8	punct	εγκρίνω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	4
 </s>
 </p>
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg213" lang="greek">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg213" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg213.1">
 Κύριοι	Κύριοι	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	1	vocative	δέχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Pass	4
 συνάδελφοι	συνάδελφοι	συνάδελφος	NOUN	Case=Voc Gender=Masc Number=Plur	2	flat	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	1
@@ -887,8 +894,8 @@
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΧΑΡΑΛΑΜΠΟΣ ΑΘΑΝΑΣΙΟΥ):"/>
-<speech id="ParlaMint-GR_2019-12-04-S1-commons.u52" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Reference" body="unicameral" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Minutes of the assembly of the greek parliament, Term 18, session 1, sitting 61, 2019-12-04" speaker_role="Chairperson" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2019-12-04-S1-commons.seg214" lang="greek">
+<speech id="ParlaMint-GR_2019-12-04-S1-commons.u52" text_id="ParlaMint-GR_2019-12-04-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="18" session="1" meeting="" sitting="61" agenda="" date="2019-12-04" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΗ, σύνοδος Α', συνεδρίαση ΞΑ', 2019-12-04" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΑΘΑΝΑΣΙΟΥ_ΧΡΙΣΤΟΦΑ_ΧΑΡΑΛΑΜΠΟΣ" speaker_name="ΑΘΑΝΑΣΙΟΥ, ΧΑΡΑΛΑΜΠΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2019-12-04-S1-commons.seg214" lang="Ελληνικά">
 <s id="ParlaMint-GR_2019-12-04-S1-commons.seg214.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3

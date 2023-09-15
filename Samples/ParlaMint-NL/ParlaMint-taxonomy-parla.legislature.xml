@@ -56,11 +56,11 @@
          <term>Organizatie</term>
       </catDesc>
       <category xml:id="parla.chambers">
-         <catDesc xml:lang="nl">
-            <term>Kamers</term>
-         </catDesc>
          <catDesc xml:lang="en">
             <term>Chambers</term>
+         </catDesc>
+         <catDesc xml:lang="nl">
+            <term>Kamers</term>
          </catDesc>
          <category xml:id="parla.uni">
             <catDesc xml:lang="en">
@@ -78,19 +78,19 @@
                <term>Tweekamerstelsel</term>
             </catDesc>
             <category xml:id="parla.upper">
-               <catDesc xml:lang="nl">
-                  <term>Eerste Kamer</term>
-               </catDesc>
                <catDesc xml:lang="en">
                   <term>Upper house</term>
                </catDesc>
-            </category>
-            <category xml:id="parla.lower">
                <catDesc xml:lang="nl">
                   <term>Eerste Kamer</term>
                </catDesc>
+            </category>
+            <category xml:id="parla.lower">
                <catDesc xml:lang="en">
                   <term>Lower house</term>
+               </catDesc>
+               <catDesc xml:lang="nl">
+                  <term>Eerste Kamer</term>
                </catDesc>
             </category>
          </category>
@@ -112,26 +112,34 @@
          </category>
       </category>
       <category xml:id="parla.committee">
-         <catDesc xml:lang="nl">
-            <term>Commissie</term>
-         </catDesc>
          <catDesc xml:lang="en">
             <term>Committee</term>
          </catDesc>
-         <category xml:id="parla.committee.special">
-            <catDesc xml:lang="nl">
-               <term>Speciale commissie</term>
+         <catDesc xml:lang="nl">
+            <term>Commissie</term>
+         </catDesc>
+         <category xml:id="parla.committee.standing">
+            <catDesc xml:lang="en">
+               <term>Standing committee</term>
             </catDesc>
+            <catDesc xml:lang="nl">
+               <term><!--Standing committee--></term>
+            </catDesc>
+         </category>
+         <category xml:id="parla.committee.special">
             <catDesc xml:lang="en">
                <term>Special committee</term>
             </catDesc>
+            <catDesc xml:lang="nl">
+               <term>Speciale commissie</term>
+            </catDesc>
          </category>
          <category xml:id="parla.committee.inquiry">
-            <catDesc xml:lang="nl">
-               <term>Onderzoekscommissie</term>
-            </catDesc>
             <catDesc xml:lang="en">
                <term>Committee of inquiry</term>
+            </catDesc>
+            <catDesc xml:lang="nl">
+               <term>Onderzoekscommissie</term>
             </catDesc>
          </category>
       </category>
@@ -142,15 +150,19 @@
       <catDesc xml:lang="nl">
          <term>Parlementaire zitting</term>: termijn van het parlament tussen algemene verkiezingen</catDesc>
       <category xml:id="parla.session">
+         <catDesc xml:lang="en">
+            <term>Legislative session</term>: the period of time in which a legislature is convened for
+      purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections.
+      A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or
+      announced purpose.</catDesc>
          <catDesc xml:lang="nl">
             <term>Sessie</term>: de periode tijdens welke een parlement samenkomt met het doel om wetgeving op te stellen, meestal door een of twee kleinere divisies tijdens de gehele zitting, tussen algemene verkiezingen. Een sessie is een vergadering, of serie van vergaderingen met een verbindend onderwerp, programma, agenda, of aangekondigd doel.</catDesc>
-         <catDesc xml:lang="en">
-            <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
          <category xml:id="parla.meeting">
+            <catDesc xml:lang="en">
+               <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings
+	constituting a session. The session/meeting may take one or more days.</catDesc>
             <catDesc xml:lang="nl">
                <term>Vergadering</term>: Elke vergadering kan een aparte seesie zijn, of deel van een groep van vergaderingen die dan samen een sessie vormen. The vergaderingen/sessies kunnen een of meerdere dagen duren.</catDesc>
-            <catDesc xml:lang="en">
-               <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
             <category xml:id="parla.meeting-types">
                <catDesc xml:lang="en">
                   <term>Types of meetings</term>
@@ -211,6 +223,14 @@
                      </catDesc>
                      <catDesc xml:lang="nl">
                         <term>Publieke presentatie van meningen</term>
+                     </catDesc>
+                  </category>
+                  <category xml:id="parla.meeting.committee">
+                     <catDesc xml:lang="en">
+                        <term>Committee meeting</term>
+                     </catDesc>
+                     <catDesc xml:lang="nl">
+                        <term><!--Committee meeting--></term>
                      </catDesc>
                   </category>
                </category>

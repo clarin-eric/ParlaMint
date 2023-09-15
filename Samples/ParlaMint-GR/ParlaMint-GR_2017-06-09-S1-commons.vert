@@ -1,7 +1,14 @@
 <note type="head" content="ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ"/>
+<note type="head" content="ΙΖ ΠΕΡΙΟΔΟΣ"/>
+<note type="head" content="ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ"/>
+<note type="head" content="ΣΥΝΟΔΟΣ Β"/>
+<note type="head" content="ΣΥΝΕΔΡΙΑΣΗ ΡΛΒ"/>
+<note type="head" content="Παρασκευή 9 Ιουνίου 2017"/>
+<note type="gap::editorial" content="The frontmatter of the document has been removed"/>
 <note type="-" content="Αθήνα, σήμερα στις 9 Ιουνίου 2017, ημέρα Παρασκευή και ώρα 9.58΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Δ΄ Αντιπροέδρου αυτής κ. ΝΙΚΗΤΑ ΚΑΚΛΑΜΑΝΗ."/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u1" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Reference" body="unicameral" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="ΚΑΚΛΑΜΑΝΗΣ, ΝΙΚΗΤΑΣ" speaker_mp="MP" speaker_minister="-" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="Opposition" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1" lang="greek">
+<note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ):"/>
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u1" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΖ, σύνοδος Β, συνεδρίαση ΡΛΒ, 2017-06-09" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΚΑΚΛΑΜΑΝΗΣ_ΜΙΧΑΗΛ_ΝΙΚΗΤΑΣ" speaker_name="ΚΑΚΛΑΜΑΝΗΣ, ΝΙΚΗΤΑΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Ν.Δ." speaker_party_name="Νέα Δημοκρατία" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg1.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	αρχίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	6
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
@@ -17,7 +24,7 @@
 </s>
 </p>
 <note type="-" content="Σημείωση: Ο παρακάτω πίνακας περιεχομένων δεν αποτελεί το τελικό κείμενο, διότι εκκρεμούν ορθογραφικές και συντακτικές διορθώσεις"/>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg2" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg2" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg2.1">
 Έχω	Έχω	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 την	την	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	τιμή	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -39,7 +46,7 @@
 .	.	.	PUNCT		19	punct	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg3" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg3" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg3.1">
 Α.	Α.	Α.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΠΙΚΑΙΡΕΣ	ΕΠΙΚΑΙΡΕΣ	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Plur	2	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
@@ -64,7 +71,7 @@
 )	)	)	PUNCT		17	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg4" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg4" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg4.1">
 1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -126,7 +133,7 @@
 .	.	.	PUNCT		46	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg5" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg5" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg5.1">
 2.	2.	2.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -177,7 +184,7 @@
 .	.	.	PUNCT		37	punct	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg6" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg6" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg6.1">
 3.	3.	3.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -232,7 +239,7 @@
 .	.	.	PUNCT		39	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg7" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg7" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg7.1">
 4.	4.	4.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -307,7 +314,7 @@
 .	.	.	PUNCT		56	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg8" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg8" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg8.1">
 5.	5.	5.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -346,7 +353,7 @@
 .	.	.	PUNCT		29	punct	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg9" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg9" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg9.1">
 6.	6.	6.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -389,7 +396,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		29	punct	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg10" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg10" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg10.1">
 Β.	Β.	Β.	NUM	Case=Nom Gender=Neut Number=Sing NumType=Card	1	nummod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
 ΕΠΙΚΑΙΡΕΣ	ΕΠΙΚΑΙΡΕΣ	επίκαιρος	ADJ	Case=Nom Gender=Fem Number=Plur	2	amod	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
@@ -414,7 +421,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 )	)	)	PUNCT		17	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg11" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg11" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg11.1">
 1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -464,7 +471,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		37	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg12" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg12" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg12.1">
 2.	2.	2.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -523,7 +530,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		43	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg13" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg13" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg13.1">
 3.	3.	3.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -574,7 +581,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		37	punct	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg14" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg14" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg14.1">
 4.	4.	4.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
@@ -624,7 +631,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		34	punct	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg15" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg15" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg15.1">
 5.	5.	5.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
@@ -698,7 +705,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		54	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg16" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg16" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg16.1">
 ΑΝΑΦΟΡΕΣ	ΑΝΑΦΟΡΕΣ	αναφορά	NOUN	Case=Nom Gender=Fem Number=Plur	1	root	-	-	-	-
 -	-	-	PUNCT		2	punct	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Plur	3
@@ -719,7 +726,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 )	)	)	PUNCT		13	punct	άρθρο	NOUN	Case=Nom Gender=Neut Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg17" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg17" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg17.1">
 1.	1.	1.	NUM	NumType=Card	1	nummod	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 Η	Η	ο	DET	Case=Nom Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	ερώτηση	NOUN	Case=Nom Gender=Fem Number=Sing	6
@@ -787,7 +794,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		51	punct	αριθμός	NOUN	Case=Acc Gender=Masc Number=Sing	4
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg18" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg18" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg18.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	εισέρχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Pass	6
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
@@ -803,7 +810,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 ΕΡΩΤΗΣΕΩΝ	ΕΡΩΤΗΣΕΩΝ	ερώτηση	NOUN	Case=Gen Gender=Fem Number=Plur	13	nmod	συζήτηση	NOUN	Case=Acc Gender=Fem Number=Sing	10
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg19" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg19" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg19.1">
 Πριν	Πριν	πριν	SCONJ		1	mark	ξεκινώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	2
 ξεκινήσουμε	ξεκινήσουμε	ξεκινώ	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 VerbForm=Fin Voice=Act	2	advcl	γνωρίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
@@ -901,7 +908,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		80	punct	γνωρίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	16
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg20" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg20" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg20.1">
 Επίσης	Επίσης	επίσης	ADV		1	advmod	συζητώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 VerbForm=Fin Voice=Pass	38
 <g/>
@@ -981,7 +988,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		13	punct	κ.	NOUN	Abbr=Yes	3
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg21" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg21" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg21.1">
 Το	Το	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Sing PronType=Art	1	det	ίδιος	ADJ	Case=Nom Gender=Neut Number=Sing	2
 ίδιο	ίδιο	ίδιος	ADJ	Case=Nom Gender=Neut Number=Sing	2	nsubj	ισχύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -1050,7 +1057,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		56	punct	ισχύω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg22" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg22" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg22.1">
 Για	Για	για	ADP		1	case	απουσία	NOUN	Case=Acc Gender=Fem Number=Plur	3
 τις	τις	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Plur PronType=Art	2	det	απουσία	NOUN	Case=Acc Gender=Fem Number=Plur	3
@@ -1077,7 +1084,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		18	punct	υπάρχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	9
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg23" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg23" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg23.1">
 Ξεκινάμε	Ξεκινάμε	ξεκινώ	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1149,7 +1156,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		9	punct	εδώ	ADV		5
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg24" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg24" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg24.1">
 Τον	Τον	ο	DET	Case=Acc Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	λόγος	NOUN	Case=Acc Gender=Masc Number=Sing	2
 λόγο	λόγο	λόγος	NOUN	Case=Acc Gender=Masc Number=Sing	2	obj	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	3
@@ -1165,8 +1172,8 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 </p>
 </speech>
 <note type="speaker" content="ΓΕΩΡΓΙΟΣ - ΔΗΜΗΤΡΙΟΣ ΚΑΡΡΑΣ"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u2" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Reference" body="unicameral" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Regular" speaker_id="ΚΑΡΡΑΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ-ΔΗΜΗΤΡΙΟΣ" speaker_name="ΚΑΡΡΑΣ, ΓΕΩΡΓΙΟΣ ΔΗΜΗΤΡΙΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg25" lang="greek">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u2" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΖ, σύνοδος Β, συνεδρίαση ΡΛΒ, 2017-06-09" speaker_role="Τακτικός" speaker_id="ΚΑΡΡΑΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ-ΔΗΜΗΤΡΙΟΣ" speaker_name="ΚΑΡΡΑΣ, ΓΕΩΡΓΙΟΣ ΔΗΜΗΤΡΙΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg25" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg25.1">
 Ευχαριστώ	Ευχαριστώ	ευχαριστώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 πολύ	πολύ	πολύ	ADV		2	advmod	ευχαριστώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
@@ -1193,7 +1200,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		20	punct	ευχαριστώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg26" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg26" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg26.1">
 Προ	Προ	προ	ADP		1	case	μήνας	NOUN	Case=Gen Gender=Masc Number=Plur	4
 δύο	δύο	δύο	NUM	Case=Gen Gender=Masc Number=Plur NumType=Card	2	nummod	μήνας	NOUN	Case=Gen Gender=Masc Number=Plur	4
@@ -1308,7 +1315,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		15	punct	ευδοκώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act	8
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg27" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg27" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg27.1">
 Κατόπιν	Κατόπιν	κατόπιν	ADV		1	advmod	παρατηρώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	4
 αυτού	αυτού	αυτός	PRON	Case=Gen Gender=Neut Number=Sing Person=3 PronType=Dem	2	obl	παρατηρώ	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	4
@@ -1425,7 +1432,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		50	punct	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg28" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg28" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg28.1">
 Διαπίστωσα	Διαπίστωσα	διαπιστώνω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1477,7 +1484,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		48	punct	διαπιστώνω	VERB	Aspect=Perf Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act	1
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg29" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg29" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg29.1">
 Και	Και	και	CCONJ		1	cc	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 έχει	έχει	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2	root	-	-	-	-
@@ -1543,7 +1550,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		54	punct	έχω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act	2
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg30" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg30" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg30.1">
 Νομίζω	Νομίζω	νομίζω	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1666,7 +1673,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		17	punct	πυλώνας	NOUN	Case=Gen Gender=Masc Number=Plur	10
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg31" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg31" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg31.1">
 Ευχαριστώ	Ευχαριστώ	ευχαριστώ	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin Voice=Act	1	root	-	-	-	-
 <g/>
@@ -1675,8 +1682,8 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u510" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Reference" body="unicameral" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="ΒΑΡΕΜΕΝΟΣ, ΓΕΩΡΓΙΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1723" lang="greek">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u510" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΖ, σύνοδος Β, συνεδρίαση ΡΛΒ, 2017-06-09" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="ΒΑΡΕΜΕΝΟΣ, ΓΕΩΡΓΙΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1723" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg1723.1">
 Συνεπώς	Συνεπώς	συνεπώς	ADV		1	advmod	επικυρώνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	29
 τα	τα	ο	DET	Case=Nom Definite=Def Gender=Neut Number=Plur PronType=Art	2	det	πρακτικό	NOUN	Case=Nom Gender=Neut Number=Plur	3
@@ -1717,7 +1724,7 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 .	.	.	PUNCT		30	punct	επικυρώνω	VERB	Aspect=Perf Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin Voice=Pass	29
 </s>
 </p>
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1724" lang="greek">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1724" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg1724.1">
 Κυρίες	Κυρίες	κυρία	NOUN	Case=Voc Gender=Fem Number=Plur	1	vocative	δέχομαι	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin Voice=Pass	6
 και	και	και	CCONJ		2	cc	κύριος	NOUN	Case=Voc Gender=Masc Number=Plur	3
@@ -1740,8 +1747,8 @@ SIEMENS	SIEMENS	SIEMENS	X	Foreign=Yes	27	flat	υπόθεση	NOUN	Case=Acc Gende
 </speech>
 <note type="vocal:shouting" content="Μάλιστα, μάλιστα."/>
 <note type="speaker" content="ΠΡΟΕΔΡΕΥΩΝ (ΓΕΩΡΓΙΟΣ ΒΑΡΕΜΕΝΟΣ):"/>
-<speech id="ParlaMint-GR_2017-06-09-S1-commons.u511" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Reference" body="unicameral" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Minutes of the assembly of the greek parliament, Term 17, session 2, sitting 132, 2017-06-09" speaker_role="Chairperson" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="ΒΑΡΕΜΕΝΟΣ, ΓΕΩΡΓΙΟΣ" speaker_mp="MP" speaker_minister="-" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1725" lang="greek">
+<speech id="ParlaMint-GR_2017-06-09-S1-commons.u511" text_id="ParlaMint-GR_2017-06-09-S1-commons" subcorpus="Αναφορά" lang="Ελληνικά" body="μονοθάλαμο" term="17" session="2" meeting="" sitting="132" agenda="" date="2017-06-09" title="Πρακτικά της ολομέλειας του ελληνικού κοινοβουλίου, κοινοβουλευτική περίοδος ΙΖ, σύνοδος Β, συνεδρίαση ΡΛΒ, 2017-06-09" speaker_role="ΠΡΟΕΔΡΕΥΟΝ" speaker_id="ΒΑΡΕΜΕΝΟΣ_ΒΑΣΙΛΕΙΟΥ_ΓΕΩΡΓΙΟΣ" speaker_name="ΒΑΡΕΜΕΝΟΣ, ΓΕΩΡΓΙΟΣ" speaker_mp="MP" speaker_minister="notMinister" speaker_party="ΣΥ.ΡΙΖ.Α." speaker_party_name="Συνασπισμός Ριζοσπαστικής Αριστεράς - Προοδευτική Συμμαχία" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-GR_2017-06-09-S1-commons.seg1725" lang="Ελληνικά">
 <s id="ParlaMint-GR_2017-06-09-S1-commons.seg1725.1">
 Με	Με	με	ADP		1	case	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3
 τη	τη	ο	DET	Case=Acc Definite=Def Gender=Fem Number=Sing PronType=Art	2	det	συναίνεση	NOUN	Case=Acc Gender=Fem Number=Sing	3

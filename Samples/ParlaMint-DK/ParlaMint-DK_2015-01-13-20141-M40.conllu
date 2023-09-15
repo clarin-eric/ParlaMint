@@ -1,0 +1,228 @@
+# newdoc id = ParlaMint-DK_20150113130001
+# newpar id = ParlaMint-DK_20150113130001.seg1
+# lang = da
+# sent_id = ParlaMint-DK_20150113130001.seg1.1
+# text = Mødet er åbnet.
+1	Mødet	møde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	åbnet	åbne	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20150113130001.seg1.2
+# text = I dag er der følgende anmeldelser: Beskæftigelsesministeren (Henrik Dam Kristensen): Lovforslag nr. L 106 (Forslag til lov om ændring af lov om aktiv socialpolitik (Midlertidig genindførelse af fradrag i uddannelses- og kontanthjælp for samlevers indtægter m.v.)). Martin Henriksen (DF) og Pia Kjærsgaard (DF): Hasteforespørgsel nr. F 17 (Hvad kan regeringen oplyse om Grimhøjmoskeen i Aarhus, og hvilke muligheder er der for at lukke moskeen?).
+1	I	i	ADP	_	AdpType=Prep	3	advmod	_	NER=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	1	fixed	_	NER=O
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+4	der	der	ADV	_	PartType=Inf	3	expl	_	NER=O
+5	følgende	følge	VERB	_	Tense=Pres|VerbForm=Part	6	amod	_	NER=O
+6	anmeldelser	anmeldelse	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	3	obj	_	NER=O|SpaceAfter=No
+7	:	:	PUNCT	_	_	6	punct	_	NER=O
+8	Beskæftigelsesministeren	beskæftigelsesminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	6	nmod	_	NER=O
+9	(	(	PUNCT	_	_	10	punct	_	NER=O|SpaceAfter=No
+10	Henrik	Henrik	PROPN	_	_	8	appos	_	NER=B-PER
+11	Dam	Dam	PROPN	_	_	10	flat	_	NER=I-PER
+12	Kristensen	Kristensen	PROPN	_	_	10	flat	_	NER=I-PER|SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	NER=O|SpaceAfter=No
+14	:	:	PUNCT	_	_	3	punct	_	NER=O
+15	Lovforslag	lovforslage	VERB	_	Mood=Imp	3	xcomp	_	NER=O
+16	nr.	nr.	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	NER=O
+17	L	l	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	NER=O
+18	106	106	NUM	_	NumType=Card	17	nmod	_	NER=O
+19	(	(	PUNCT	_	_	20	punct	_	NER=O|SpaceAfter=No
+20	Forslag	forslage	VERB	_	Mood=Imp	15	xcomp	_	NER=O
+21	til	til	ADP	_	AdpType=Prep	22	case	_	NER=O
+22	lov	lov	NOUN	_	_	20	obl	_	NER=O
+23	om	om	ADP	_	AdpType=Prep	24	case	_	NER=O
+24	ændring	ændring	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	obl	_	NER=O
+25	af	af	ADP	_	AdpType=Prep	26	case	_	NER=O
+26	lov	lov	NOUN	_	_	24	nmod	_	NER=O
+27	om	om	ADP	_	AdpType=Prep	29	case	_	NER=O
+28	aktiv	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	29	amod	_	NER=O
+29	socialpolitik	socialpolitik	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	26	nmod	_	NER=O
+30	(	(	PUNCT	_	_	32	punct	_	NER=O|SpaceAfter=No
+31	Midlertidig	midlertidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	32	amod	_	NER=O
+32	genindførelse	genindførelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	obj	_	NER=O
+33	af	af	ADP	_	AdpType=Prep	34	case	_	NER=O
+34	fradrag	fradrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	32	nmod	_	NER=O
+35	i	i	ADP	_	AdpType=Prep	36	case	_	NER=O
+36	uddannelses-	uddannelses-	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	34	nmod	_	NER=O
+37	og	og	CCONJ	_	_	38	cc	_	NER=O
+38	kontanthjælp	kontanthjælp	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	36	conj	_	NER=O
+39	for	for	ADP	_	AdpType=Prep	40	case	_	NER=O
+40	samlevers	samlever	NOUN	_	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	20	nmod	_	NER=O
+41	indtægter	indtægte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	NER=O
+42	m.v.)).	m.v.)).	X	_	Abbr=Yes	41	amod	_	NER=O
+43	Martin	Martin	PROPN	_	_	42	appos	_	NER=B-PER
+44	Henriksen	Henriksen	PROPN	_	_	43	flat	_	NER=I-PER
+45	(	(	PUNCT	_	_	46	punct	_	NER=O|SpaceAfter=No
+46	DF	DF	PROPN	_	_	43	flat	_	NER=B-ORG|SpaceAfter=No
+47	)	)	PUNCT	_	_	46	punct	_	NER=O
+48	og	og	CCONJ	_	_	49	cc	_	NER=O
+49	Pia	Pia	PROPN	_	_	43	conj	_	NER=B-PER
+50	Kjærsgaard	Kjærsgaard	PROPN	_	_	49	flat	_	NER=I-PER
+51	(	(	PUNCT	_	_	52	punct	_	NER=O|SpaceAfter=No
+52	DF	DF	PROPN	_	_	49	flat	_	NER=B-ORG|SpaceAfter=No
+53	)	)	PUNCT	_	_	52	punct	_	NER=O|SpaceAfter=No
+54	:	:	PUNCT	_	_	20	punct	_	NER=O
+55	Hasteforespørgsel	hasteforespørgsel	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	20	obj	_	NER=O
+56	nr.	nr.	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	55	nmod	_	NER=O
+57	F	f	X	_	Foreign=Yes	56	nmod	_	NER=O
+58	17	17	NUM	_	NumType=Card	57	nummod	_	NER=O
+59	(	(	PUNCT	_	_	63	punct	_	NER=O|SpaceAfter=No
+60	Hvad	hvad	PRON	_	Number=Sing|PronType=Int,Rel	63	mark	_	NER=O
+61	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	63	aux	_	NER=O
+62	regeringen	regering	NOUN	_	Definite=Def|Gender=Com|Number=Sing	63	nsubj	_	NER=O
+63	oplyse	oplyse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	55	acl:relcl	_	NER=O
+64	om	om	ADP	_	AdpType=Prep	65	case	_	NER=O
+65	Grimhøjmoskeen	grimhøjmoske	NOUN	_	Definite=Def|Gender=Com|Number=Sing	63	nmod	_	NER=O
+66	i	i	ADP	_	AdpType=Prep	67	case	_	NER=O
+67	Aarhus	århus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	65	nmod	_	NER=O|SpaceAfter=No
+68	,	,	PUNCT	_	_	72	punct	_	NER=O
+69	og	og	CCONJ	_	_	72	cc	_	NER=O
+70	hvilke	hvilken	PRON	_	Number=Plur|PronType=Int,Rel	71	mark	_	NER=O
+71	muligheder	mulighed	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	72	obj	_	NER=O
+72	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	63	conj	_	NER=O
+73	der	der	ADV	_	PartType=Inf	72	expl	_	NER=O
+74	for	for	ADP	_	AdpType=Prep	76	mark	_	NER=O
+75	at	at	PART	_	PartType=Inf	76	mark	_	NER=O
+76	lukke	lukke	VERB	_	VerbForm=Inf|Voice=Act	72	advcl	_	NER=O
+77	moskeen	moske	NOUN	_	Definite=Def|Gender=Com|Number=Sing	76	obj	_	NER=O|SpaceAfter=No
+78	?	?	PUNCT	_	_	63	punct	_	NER=O|SpaceAfter=No
+79	)	)	PUNCT	_	_	63	punct	_	NER=O|SpaceAfter=No
+80	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20150113130001.seg1.3
+# text = Titler på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor).
+1	Titler	titel	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	7	nsubj	_	NER=O
+2	på	på	ADP	_	AdpType=Prep	5	case	_	NER=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	NER=O
+4	anmeldte	anmeldt	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	NER=O
+5	sager	sag	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	NER=O
+6	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	NER=O
+7	fremgå	fremgå	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	NER=O
+8	af	af	ADP	_	AdpType=Prep	9	case	_	NER=O
+9	www.folketingstidende.dk	www.folketingstidende.dk	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	7	obl	_	NER=O
+10	(	(	PUNCT	_	_	11	punct	_	NER=O|SpaceAfter=No
+11	jf.	jf.	VERB	_	Mood=Imp	7	xcomp	_	NER=O
+12	ovenfor	ovenfor	ADV	_	_	11	advmod	_	NER=O|SpaceAfter=No
+13	)	)	PUNCT	_	_	11	punct	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# newdoc id = ParlaMint-DK_20150113130030
+# newpar id = ParlaMint-DK_20150113130030.seg2
+# lang = da
+# sent_id = ParlaMint-DK_20150113130030.seg2.1
+# text = Jeg giver ordet til statsministeren for en indledende redegørelse.
+1	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
+2	giver	give	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obj	_	NER=O
+4	til	til	ADP	_	AdpType=Prep	5	case	_	NER=O
+5	statsministeren	statsminister	NOUN	_	Definite=Def|Gender=Com|Number=Sing	3	nmod	_	NER=O
+6	for	for	ADP	_	AdpType=Prep	9	case	_	NER=O
+7	en	en	DET	_	Gender=Com|Number=Sing|PronType=Ind	9	det	_	NER=O
+8	indledende	indledende	ADJ	_	Degree=Pos	9	amod	_	NER=O
+9	redegørelse	redegørelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-DK_20150113155212
+# newpar id = ParlaMint-DK_20150113155212.seg217
+# lang = da
+# sent_id = ParlaMint-DK_20150113155212.seg217.1
+# text = Tak til ordføreren.
+1	Tak	tak	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	0	root	_	NER=O
+2	til	til	ADP	_	AdpType=Prep	3	case	_	NER=O
+3	ordføreren	ordfører	NOUN	_	Definite=Def|Gender=Com|Number=Sing	1	nmod	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20150113155212.seg217.2
+# text = Der er ingen bemærkninger.
+1	Der	der	ADV	_	PartType=Inf	2	expl	_	NER=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	ingen	ingen	DET	_	Gender=Com|Number=Sing|PronType=Ind	4	det	_	NER=O
+4	bemærkninger	bemærkning	NOUN	_	Definite=Ind|Gender=Com|Number=Plur	2	obj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20150113155212.seg217.3
+# text = Da der ikke er flere, der har bedt om ordet, er forhandlingen sluttet.
+1	Da	da	SCONJ	_	_	15	mark	_	NER=O
+2	der	der	ADV	_	PartType=Inf	15	expl	_	NER=O
+3	ikke	ikke	ADV	_	_	15	advmod	_	NER=O
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	NER=O
+5	flere	mange	ADJ	_	Degree=Cmp|Number=Plur	15	amod	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	NER=O
+7	der	der	PRON	_	PartType=Inf	9	nsubj	_	NER=O
+8	har	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	NER=O
+9	bedt	bede	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	NER=O
+10	om	om	ADP	_	AdpType=Prep	11	case	_	NER=O
+11	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	NER=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	NER=O
+14	forhandlingen	forhandling	NOUN	_	Definite=Def|Gender=Com|Number=Sing	15	nsubj	_	NER=O
+15	sluttet	slutte	VERB	_	Definite=Ind|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20150113155212.seg217.4
+# text = Afstemning om de fremsatte forslag til vedtagelse vil først finde sted torsdag den 15. januar 2015.
+1	Afstemning	afstemning	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	nsubj	_	NER=O
+2	om	om	ADP	_	AdpType=Prep	5	case	_	NER=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	NER=O
+4	fremsatte	fremsat	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	NER=O
+5	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	NER=O
+6	til	til	ADP	_	AdpType=Prep	7	case	_	NER=O
+7	vedtagelse	vedtagelse	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	NER=O
+8	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	NER=O
+9	først	først	ADV	_	_	10	advmod	_	NER=O
+10	finde	finde	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	NER=O
+11	sted	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	NER=O
+12	torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	NER=O
+13	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	15	det	_	NER=O
+14	15.	15.	ADJ	_	NumType=Ord	15	amod	_	NER=O
+15	januar	januar	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	10	obl	_	NER=O
+16	2015.	2015.	NUM	_	NumType=Card	15	nmod	_	NER=O
+
+# newdoc id = ParlaMint-DK_20150113155229
+# newpar id = ParlaMint-DK_20150113155229.seg218
+# lang = da
+# sent_id = ParlaMint-DK_20150113155229.seg218.1
+# text = Der er ikke mere at foretage i dette møde.
+1	Der	der	ADV	_	PartType=Inf	4	nsubj	_	NER=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	NER=O
+3	ikke	ikke	ADV	_	_	4	advmod	_	NER=O
+4	mere	mere	ADV	_	Degree=Cmp	0	root	_	NER=O
+5	at	at	PART	_	PartType=Inf	6	mark	_	NER=O
+6	foretage	foretage	VERB	_	VerbForm=Inf|Voice=Act	4	acl:relcl	_	NER=O
+7	i	i	ADP	_	AdpType=Prep	9	case	_	NER=O
+8	dette	denne	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	NER=O
+9	møde	møde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	NER=O
+
+# sent_id = ParlaMint-DK_20150113155229.seg218.2
+# text = Folketingets næste møde afholdes i morgen, onsdag den 14. januar 2015, kl. 13.00. Jeg henviser til den dagsorden, der fremgår af Folketingets hjemmeside.
+1	Folketingets	Folketing	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	NER=B-ORG
+2	næste	næste	ADJ	_	Degree=Pos	3	amod	_	NER=O
+3	møde	møde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	NER=O
+4	afholdes	afholde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+5	i	i	ADP	_	AdpType=Prep	4	advmod	_	NER=O
+6	morgen	morgen	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	5	fixed	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	NER=O
+8	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obl	_	NER=O
+9	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	11	det	_	NER=O
+10	14.	14.	NUM	_	NumType=Card	11	nummod	_	NER=O
+11	januar	januar	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	4	obl	_	NER=O
+12	2015	2015	NUM	_	NumType=Card	11	nmod	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	NER=O
+14	kl.	kl.	NOUN	_	Definite=Def|Gender=Com|Number=Sing	17	nsubj	_	NER=O
+15	13.00.	13.00.	NUM	_	NumType=Card	14	nummod	_	NER=O
+16	Jeg	jeg	PRON	_	Case=Nom|Gender=Com|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	NER=O
+17	henviser	henvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	NER=O
+18	til	til	ADP	_	AdpType=Prep	20	case	_	NER=O
+19	den	den	DET	_	Gender=Com|Number=Sing|PronType=Dem	20	det	_	NER=O
+20	dagsorden	dagsorden	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	17	obl	_	NER=O|SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	NER=O
+22	der	der	PRON	_	PartType=Inf	23	nsubj	_	NER=O
+23	fremgår	fremgå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	NER=O
+24	af	af	ADP	_	AdpType=Prep	26	case	_	NER=O
+25	Folketingets	Folketing	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	26	nmod:poss	_	NER=B-ORG
+26	hjemmeside	hjemmeside	NOUN	_	Definite=Ind|Gender=Com|Number=Sing	23	obl	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	_	_	17	punct	_	NER=O
+
