@@ -1,0 +1,78 @@
+# newdoc id = ParlaMint-FI_2015-05-28-ps-9.u1
+# newpar id = ParlaMint-FI_2015-05-28-ps-9.seg1
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-28-ps-9.seg1.1
+# text = Päiväjärjestyksen 2. asiana on pääministerin valinta.
+1	Päiväjärjestyksen	päiväjärjestys	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	NER=O
+2	2.	2.	ADJ	_	NumType=Ord	3	nummod	_	NER=O
+3	asiana	asia	NOUN	_	Case=Ess|Number=Sing	0	root	_	NER=O
+4	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	NER=O
+5	pääministerin	pääministeri	NOUN	_	Case=Gen|Number=Sing	6	nmod:gobj	_	NER=O
+6	valinta	valinta	NOUN	_	Case=Nom|Number=Sing	3	nsubj:cop	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-9.seg1.2
+# text = Tasavallan presidentti on 28.5.2015 päivätyllä kirjelmällään antanut eduskunnalle Suomen perustuslain 61 §:n 2 momentissa tarkoitetun tiedon pääministeriehdokkaasta.
+1	Tasavallan	tasavalta	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	NER=O
+2	presidentti	presidentti	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	NER=O
+3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	NER=O
+4	28.5.2015	28.5.2015	NUM	_	_	5	obl	_	NER=O
+5	päivätyllä	päivätä	VERB	_	Case=Ade|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	NER=O
+6	kirjelmällään	kirjelmä	NOUN	_	Case=Ade|Number=Sing|Person[psor]=3	7	obl	_	NER=O
+7	antanut	antaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+8	eduskunnalle	eduskunta	NOUN	_	Case=All|Number=Sing	7	obl	_	NER=B-ORG
+9	Suomen	Suomi	PROPN	_	Case=Gen|Number=Sing	10	nmod:poss	_	NER=O
+10	perustuslain	perustuslaki	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	NER=O
+11	61	61	NUM	_	NumType=Card	12	nummod	_	NER=O
+12	§:n	§	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	NER=O
+13	2	2	NUM	_	NumType=Card	14	nummod	_	NER=O
+14	momentissa	momentti	NOUN	_	Case=Ine|Number=Sing	15	obl	_	NER=O
+15	tarkoitetun	tarkoittaa	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	16	acl	_	NER=O
+16	tiedon	tieto	NOUN	_	Case=Gen|Number=Sing	17	nmod:poss	_	NER=O
+17	pääministeriehdokkaasta	pääministeriehdokas	NOUN	_	Case=Ela|Number=Sing	7	obl	_	NER=O|SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-9.seg1.3
+# text = Kirjelmä on saatettu eduskunnan tietoon jakamalla se edustajille.
+1	Kirjelmä	kirjelmä	NOUN	_	Case=Nom|Number=Sing	3	obj	_	NER=O
+2	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	NER=O
+3	saatettu	saattaa	AUX	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+4	eduskunnan	eduskunta	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	NER=B-ORG
+5	tietoon	tieto	NOUN	_	Case=Ill|Number=Sing	3	obl	_	NER=O
+6	jakamalla	jakaa	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	NER=O
+7	se	se	PRON	_	Case=Nom|Number=Sing|PronType=Dem	6	obj	_	NER=O
+8	edustajille	edustaja	NOUN	_	Case=All|Derivation=Ja|Number=Plur	6	obl	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-9.seg1.4
+# text = Työjärjestyksen 65 §:n 1 momentin mukaan asia on pantava pöydälle johonkin seuraavaan täysistuntoon.
+1	Työjärjestyksen	työjärjestys	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	NER=O
+2	65	65	NUM	_	NumType=Card	3	nummod	_	NER=O
+3	§:n	§	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	NER=O
+4	1	1	NUM	_	NumType=Card	5	nummod	_	NER=O
+5	momentin	momentti	NOUN	_	Case=Gen|Number=Sing	9	obl	_	NER=O
+6	mukaan	mukaan	ADP	_	AdpType=Post	5	case	_	NER=O
+7	asia	asia	NOUN	_	Case=Nom|Number=Sing	9	obj	_	NER=O
+8	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	NER=O
+9	pantava	panna	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+10	pöydälle	pöytä	NOUN	_	Case=All|Number=Sing	9	obl	_	NER=O
+11	johonkin	jokin	PRON	_	Case=Ill|Number=Sing|PronType=Ind	13	det	_	NER=O
+12	seuraavaan	seuraava	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	13	amod	_	NER=O
+13	täysistuntoon	täysistunto	NOUN	_	Case=Ill|Number=Sing	9	obl	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-9.seg1.5
+# text = Puhemiesneuvosto ehdottaa, että asia pannaan pöydälle tänään pidettävään toiseen täysistuntoon.
+1	Puhemiesneuvosto	puhemiesneuvosto	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	NER=O
+2	ehdottaa	ehdottaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	NER=O
+4	että	että	SCONJ	_	_	6	mark	_	NER=O
+5	asia	asia	NOUN	_	Case=Nom|Number=Sing	6	obj	_	NER=O
+6	pannaan	panna	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	ccomp	_	NER=O
+7	pöydälle	pöytä	NOUN	_	Case=All|Number=Sing	6	obl	_	NER=O
+8	tänään	tänään	ADV	_	_	9	advmod	_	NER=O
+9	pidettävään	pitää	VERB	_	Case=Ill|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	11	acl	_	NER=O
+10	toiseen	toinen	ADJ	_	Case=Ill|Derivation=Inen|Number=Sing|NumType=Ord	11	nummod	_	NER=O
+11	täysistuntoon	täysistunto	NOUN	_	Case=Ill|Number=Sing	6	obl	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	2	discourse	_	NER=O
+
