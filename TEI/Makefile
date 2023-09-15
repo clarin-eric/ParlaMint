@@ -1,7 +1,7 @@
 check: prepare val-schema html mount
 
 # Validate and compile ODD to RelaxNG, validate samples, make HTML
-all:	prepare val-schema xml-schemas val-samples html
+all:	prepare val-schema xml-schemas val-samples to-schema-dir html
 # We cannot currently validate samples, as they need first to be updated.
 xall:	prepare val-schema xml-schemas val-samples html
 
@@ -29,6 +29,11 @@ PROFILE = --profiledir=$(shell pwd) --profile=profile
 html:	prepare val-schema
 	Stylesheets/bin/teitohtml ${PROFILE} --odd ${SUBSET} ${OUTPUT} ${ODD} ../docs/index.html
 
+# Copy over to the official ParlaMint Schema directory, where the hand-made RelaxNG schemas are
+to-schema-dir:
+	cp ParlaMint.odd.* ../Schema/
+	cp ParlaMint-schemaSpecs.odd.xml ../Schema/
+
 # Compile schemas to RelaxNG, DTD and XSD; best use the RelaxNG one.
 xml-schemas:	val-schema
 	Stylesheets/bin/teitorelaxng    ${SUBSET} ${ODD} ParlaMint.odd.rng
@@ -42,8 +47,7 @@ val-schema:
 	$j tei_odds.rng tmp/ParlaMint.xml
 
 # Validate samples
-#DATA = ../Data
-DATA = ../../ParlaMint-v2tov3/Data
+DATA = ../Samples
 val-samples:
 	./validate.pl samples ${DATA}
 

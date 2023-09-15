@@ -1,0 +1,3449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="ParlaMint-PL-en_2017-07-20-sejm-46-3.ana"
+     ana="#parla.sitting #reference"
+     corresp="../../ParlaMint-PL.TEI.ana/2017/ParlaMint-PL_2017-07-20-sejm-46-3.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="pl">Korpus Dyskursu Parlamentarnego ParlaMint-PL-en (Sejm 46.3, 2023-03-28) [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Polish parliamentary corpus ParlaMint-PL-en (Sejm 46.3, 2023-03-28) [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP, 8.kadencja, 46. posiedzenie, 3. dzień (2017-07-20)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Sejm of the Republic of Poland, Term 8, Session 46, Day 3 (2017-07-20)</title>
+            <meeting ana="#parla.lower">Sejm</meeting>
+            <meeting n="8-lower" ana="#parla.lower #parla.term">8. kadencja Sejmu</meeting>
+            <meeting n="46-lower" ana="#parla.lower #parla.session">46. sesja Sejmu</meeting>
+            <meeting n="3-lower" ana="#parla.lower #parla.sitting">3. dzień sesji Sejmu</meeting>
+            <respStmt>
+               <persName>Maciej Ogrodniczuk</persName>
+               <persName>Michał Lenart</persName>
+               <persName>Daniel Janus</persName>
+               <persName>Bartłomiej Nitoń</persName>
+               <persName>Michał Rudolf</persName>
+               <resp xml:lang="pl">Pobieranie danych i konwersja do TEI</resp>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="pl">Infrastruktura naukowa CLARIN ERIC</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Komisja Europejska</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Instytut Podstaw Informatyki, Polska Akademia Nauk</orgName>
+               <orgName xml:lang="en">Institute of Computer Science, Polish Academy of Sciences</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="pl">Ministerstwo Nauki i Szkolnictwa Wyższego, Polska</orgName>
+               <orgName xml:lang="en">Ministry of Science and Higher Education, Poland</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="413" xml:lang="pl">413 wypowiedzi</measure>
+            <measure unit="speeches" quantity="413" xml:lang="en">413 speeches</measure>
+            <measure unit="words" quantity="68027" xml:lang="pl">68.027 słów</measure>
+            <measure unit="words" quantity="68027" xml:lang="en">68,027 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="pl">Infrastruktura badawcza CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="pl">Ten utwór jest dostępny na <ref target="http://creativecommons.org/licenses/by/4.0/">międzynarodowej licencji Creative Commons Attribution 4.0</ref>.</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-07-08">2023-07-08</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="pl">Sprawozdanie stenograficzne z obrad Sejmu RP</title>
+               <title type="main" xml:lang="en">Minutes of the Sejm of the Republic of Poland</title>
+               <publisher>Sprawozdanie stenograficzne z obrad Sejmu RP</publisher>
+               <idno type="URI" subtype="parliament">https://www.sejm.gov.pl/sejm8.nsf/wypowiedz.xsp?posiedzenie=46&amp;dzien=3&amp;wyp=0</idno>
+               <date when="2017-07-20">20.07.2017</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="pl">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="918"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="gap" occurs="6"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="incident" occurs="170"/>
+               <tagUsage gi="kinesic" occurs="329"/>
+               <tagUsage gi="name" occurs="2698"/>
+               <tagUsage gi="note" occurs="422"/>
+               <tagUsage gi="pc" occurs="10818"/>
+               <tagUsage gi="s" occurs="4816"/>
+               <tagUsage gi="seg" occurs="2460"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="413"/>
+               <tagUsage gi="vocal" occurs="413"/>
+               <tagUsage gi="w" occurs="68027"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-PL.TEI.ana/2017/ParlaMint-PL_2017-07-20-sejm-46-3.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">ul. Wiejska 4/6/8</name>
+               <name type="city">Warszawa</name>
+               <name type="country" key="PL">Poland</name>
+               <date ana="#parla.sitting" when="2017-07-20">20.07.2017</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2023-07-08">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-07-07">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2023-03-28">
+            <name>Michał Rudolf</name>: Generated corpus in Parla-CLARIN.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="pl" ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <head>46. posiedzenie Sejmu RP 8. kadencji, dzień 3</head>
+            <note type="debate" xml:lang="en">The meeting was chaired by Deputy Marshals Ryszard Terlecki, Stanisław Tyszka, Joachim Brudziński and Barbara Dolniak</note>
+            <note type="speaker" xml:lang="en">Deputy Marshal Richard Terlecki:</note>
+            <u who="#RyszardTerlecki"
+               ana="#chair"
+               xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u1"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-PL_2017-07-20-sejm-46-3.u1">
+               <seg xml:id="seg240511" xml:lang="en" corresp="mt-src:seg240511">
+                  <s xml:id="seg240511.1" n="1" corresp="mt-src:seg240511.1">
+                     <w xml:id="seg240511.1.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="resume">Resume</w>
+                     <w xml:id="seg240511.1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session"
+                        join="right">session</w>
+                     <pc xml:id="seg240511.1.t3" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240512" xml:lang="en" corresp="mt-src:seg240512">
+                  <s xml:id="seg240512.1" n="2" corresp="mt-src:seg240512.1">
+                     <w xml:id="seg240512.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg240512.1.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="seg240512.1.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="like">like</w>
+                     <w xml:id="seg240512.1.t4" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg240512.1.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="appoint">appoint</w>
+                     <name type="PER">
+                        <w xml:id="seg240512.1.t6"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Mr">Mr</w>
+                        <w xml:id="seg240512.1.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Kubov"
+                           join="right">Kubov</w>
+                     </name>
+                     <pc xml:id="seg240512.1.t8" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="seg240512.1.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Mr">Mr</w>
+                        <w xml:id="seg240512.1.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sobonia"
+                           join="right">Sobonia</w>
+                     </name>
+                     <pc xml:id="seg240512.1.t11" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg240512.1.t12"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="seg240512.1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sobonia"
+                           join="right">Sobonia</w>
+                     </name>
+                     <pc xml:id="seg240512.1.t14" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="seg240512.1.t15"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Mr">Mr</w>
+                        <w xml:id="seg240512.1.t16"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Duszek">Duszek</w>
+                     </name>
+                     <w xml:id="seg240512.1.t17"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg240512.1.t18"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="seg240512.1.t19"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Tulaev"
+                           join="right">Tulaev</w>
+                     </name>
+                     <w xml:id="seg240512.1.t20"
+                        pos="POS"
+                        msd="UPosTag=PART"
+                        lemma="'s">'s</w>
+                     <name type="MISC">
+                        <w xml:id="seg240512.1.t21"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="New">New</w>
+                        <w xml:id="seg240512.1.t22"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Year"
+                           join="right">Year</w>
+                        <w xml:id="seg240512.1.t23"
+                           pos="POS"
+                           msd="UPosTag=PART"
+                           lemma="'s">'s</w>
+                        <w xml:id="seg240512.1.t24"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Eve"
+                           join="right">Eve</w>
+                     </name>
+                     <pc xml:id="seg240512.1.t25" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240513" xml:lang="en" corresp="mt-src:seg240513">
+                  <s xml:id="seg240513.1" n="3" corresp="mt-src:seg240513.1">
+                     <w xml:id="seg240513.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="seg240513.1.t2"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="first">first</w>
+                     <w xml:id="seg240513.1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="part">part</w>
+                     <w xml:id="seg240513.1.t4" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg240513.1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg240513.1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="seg240513.1.t7"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="seg240513.1.t8"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="seg240513.1.t9"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="seg240513.1.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Krzysztof">Krzysztof</w>
+                        <w xml:id="seg240513.1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Kubów">Kubów</w>
+                     </name>
+                     <w xml:id="seg240513.1.t12"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg240513.1.t13"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Mr">Mr</w>
+                     <name type="PER">
+                        <w xml:id="seg240513.1.t14"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Artur">Artur</w>
+                        <w xml:id="seg240513.1.t15"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Soboń"
+                           join="right">Soboń</w>
+                     </name>
+                     <pc xml:id="seg240513.1.t16" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240514" xml:lang="en" corresp="mt-src:seg240514">
+                  <s xml:id="seg240514.1" n="4" corresp="mt-src:seg240514.1">
+                     <w xml:id="seg240514.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="seg240514.1.t2"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute">minutes</w>
+                     <w xml:id="seg240514.1.t3"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg240514.1.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="list">lists</w>
+                     <w xml:id="seg240514.1.t5" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg240514.1.t6"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="speaker">speakers</w>
+                     <w xml:id="seg240514.1.t7"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="seg240514.1.t8"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="seg240514.1.t9"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="lead">led</w>
+                     <w xml:id="seg240514.1.t10" pos="IN" msd="UPosTag=ADP" lemma="by">by</w>
+                     <w xml:id="seg240514.1.t11"
+                        pos="NNPS"
+                        msd="UPosTag=PROPN|Number=Plur"
+                        lemma="Member">Members</w>
+                     <name type="PER">
+                        <w xml:id="seg240514.1.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Krzysztof">Krzysztof</w>
+                        <w xml:id="seg240514.1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Kubów">Kubów</w>
+                     </name>
+                     <w xml:id="seg240514.1.t14"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <name type="PER">
+                        <w xml:id="seg240514.1.t15"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Marcin">Marcin</w>
+                        <w xml:id="seg240514.1.t16"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Duszek"
+                           join="right">Duszek</w>
+                     </name>
+                     <pc xml:id="seg240514.1.t17" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240515" xml:lang="en" corresp="mt-src:seg240515">
+                  <s xml:id="seg240515.1" n="5" corresp="mt-src:seg240515.1">
+                     <w xml:id="seg240515.1.t1"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="gentleman"
+                        join="right">Gentlemen</w>
+                     <pc xml:id="seg240515.1.t2" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg240515.1.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg240515.1.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="secretary">secretaries</w>
+                     <w xml:id="seg240515.1.t5"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="seg240515.1.t6"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="already">already</w>
+                     <w xml:id="seg240515.1.t7" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg240515.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="place"
+                        join="right">place</w>
+                     <pc xml:id="seg240515.1.t9" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240516" xml:lang="en" corresp="mt-src:seg240516">
+                  <s xml:id="seg240516.1" n="6" corresp="mt-src:seg240516.1">
+                     <w xml:id="seg240516.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I"
+                        join="right">I</w>
+                     <w xml:id="seg240516.1.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'m</w>
+                     <w xml:id="seg240516.1.t3"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="ask">asking</w>
+                     <w xml:id="seg240516.1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg240516.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="secretary">secretary</w>
+                     <w xml:id="seg240516.1.t6" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg240516.1.t7"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="read">read</w>
+                     <w xml:id="seg240516.1.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg240516.1.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="message"
+                        join="right">messages</w>
+                     <pc xml:id="seg240516.1.t10" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <note type="speaker" xml:lang="en">Secretary Krzysztof Kubów:</note>
+            <u who="#KrzysztofKubów"
+               ana="#regular"
+               xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u2"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-PL_2017-07-20-sejm-46-3.u2">
+               <seg xml:id="seg240517" xml:lang="en" corresp="mt-src:seg240517">
+                  <s xml:id="seg240517.1" n="7" corresp="mt-src:seg240517.1">
+                     <w xml:id="seg240517.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg240517.1.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="seg240517.1.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="like">like</w>
+                     <w xml:id="seg240517.1.t4" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg240517.1.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="inform">inform</w>
+                     <w xml:id="seg240517.1.t6"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg240517.1.t7"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="seg240517.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">today</w>
+                     <w xml:id="seg240517.1.t9"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="seg240517.1.t10"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="seg240517.1.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg240517.1.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting">meeting</w>
+                     <w xml:id="seg240517.1.t13" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg240517.1.t14"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg240517.1.t15"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="commission"
+                           join="right">Commission</w>
+                     </name>
+                     <pc xml:id="seg240517.1.t16" pos="Z" msd="UPosTag=PUNCT">:</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240518" xml:lang="en" corresp="mt-src:seg240518">
+                  <s xml:id="seg240518.1" n="8" corresp="mt-src:seg240518.1">
+                     <pc xml:id="seg240518.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <name type="ORG">
+                        <w xml:id="seg240518.1.t2"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="education"
+                           join="right">Education</w>
+                        <pc xml:id="seg240518.1.t3" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                        <w xml:id="seg240518.1.t4"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="science">Science</w>
+                        <w xml:id="seg240518.1.t5"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240518.1.t6"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="youth">Youth</w>
+                     </name>
+                     <pc xml:id="seg240518.1.t7" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240518.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour">hour</w>
+                     <w xml:id="seg240518.1.t9"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="9.30">9.30</w>
+                     <w xml:id="seg240518.1.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="a.m."
+                        join="right">a.m.</w>
+                     <pc xml:id="seg240518.1.t11" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240519" xml:lang="en" corresp="mt-src:seg240519">
+                  <s xml:id="seg240519.1" n="9" corresp="mt-src:seg240519.1">
+                     <pc xml:id="seg240519.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <name type="PER">
+                        <w xml:id="seg240519.1.t2"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="poselska">Poselska</w>
+                     </name>
+                     <w xml:id="seg240519.1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="etiquette">etiquette</w>
+                     <pc xml:id="seg240519.1.t4" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240519.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour"
+                        join="right">hour</w>
+                     <pc xml:id="seg240519.1.t6" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                     <w xml:id="seg240519.1.t7"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="9.30">9.30</w>
+                     <w xml:id="seg240519.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="a.m."
+                        join="right">a.m.</w>
+                     <pc xml:id="seg240519.1.t9" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240520" xml:lang="en" corresp="mt-src:seg240520">
+                  <s xml:id="seg240520.1" n="10" corresp="mt-src:seg240520.1">
+                     <pc xml:id="seg240520.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <name type="ORG">
+                        <w xml:id="seg240520.1.t2"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Public">Public</w>
+                        <w xml:id="seg240520.1.t3"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="finance">Finance</w>
+                     </name>
+                     <pc xml:id="seg240520.1.t4" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240520.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour"
+                        join="right">hour</w>
+                     <pc xml:id="seg240520.1.t6" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                     <w xml:id="seg240520.1.t7"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="9.30">9.30</w>
+                     <w xml:id="seg240520.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="a.m."
+                        join="right">a.m.</w>
+                     <pc xml:id="seg240520.1.t9" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240521" xml:lang="en" corresp="mt-src:seg240521">
+                  <s xml:id="seg240521.1" n="11" corresp="mt-src:seg240521.1">
+                     <pc xml:id="seg240521.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240521.1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="infrastructure">Infrastructure</w>
+                     <w xml:id="seg240521.1.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="together">together</w>
+                     <w xml:id="seg240521.1.t4" pos="IN" msd="UPosTag=ADP" lemma="with">with</w>
+                     <w xml:id="seg240521.1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg240521.1.t6"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Committee">Committee</w>
+                        <w xml:id="seg240521.1.t7" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                        <w xml:id="seg240521.1.t8"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="territorial">Territorial</w>
+                        <w xml:id="seg240521.1.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Government">Government</w>
+                        <w xml:id="seg240521.1.t10"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240521.1.t11"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Regional">Regional</w>
+                        <w xml:id="seg240521.1.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Policy">Policy</w>
+                     </name>
+                     <pc xml:id="seg240521.1.t13" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240521.1.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="h.m.">h.m.</w>
+                     <w xml:id="seg240521.1.t15"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="9.30">9.30</w>
+                     <w xml:id="seg240521.1.t16"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="a.m."
+                        join="right">a.m.</w>
+                     <pc xml:id="seg240521.1.t17" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240522" xml:lang="en" corresp="mt-src:seg240522">
+                  <s xml:id="seg240522.1" n="12" corresp="mt-src:seg240522.1">
+                     <pc xml:id="seg240522.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <name type="ORG">
+                        <w xml:id="seg240522.1.t2"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="social">Social</w>
+                        <w xml:id="seg240522.1.t3"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="policy">Policy</w>
+                        <w xml:id="seg240522.1.t4"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240522.1.t5"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="family">Family</w>
+                        <w xml:id="seg240522.1.t6"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="policy">Policy</w>
+                     </name>
+                     <pc xml:id="seg240522.1.t7" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240522.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour">hour</w>
+                     <w xml:id="seg240522.1.t9"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="9.30">9.30</w>
+                     <w xml:id="seg240522.1.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="a.m."
+                        join="right">a.m.</w>
+                     <pc xml:id="seg240522.1.t11" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240523" xml:lang="en" corresp="mt-src:seg240523">
+                  <s xml:id="seg240523.1" n="13" corresp="mt-src:seg240523.1">
+                     <pc xml:id="seg240523.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <name type="ORG">
+                        <w xml:id="seg240523.1.t2"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="Culture">Culture</w>
+                        <w xml:id="seg240523.1.t3"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240523.1.t4"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="media">Media</w>
+                     </name>
+                     <pc xml:id="seg240523.1.t5" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240523.1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour">hour</w>
+                     <w xml:id="seg240523.1.t7"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="11"
+                        join="right">11</w>
+                     <pc xml:id="seg240523.1.t8" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240524" xml:lang="en" corresp="mt-src:seg240524">
+                  <s xml:id="seg240524.1" n="14" corresp="mt-src:seg240524.1">
+                     <pc xml:id="seg240524.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <name type="ORG">
+                        <w xml:id="seg240524.1.t2"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Public">Public</w>
+                        <w xml:id="seg240524.1.t3"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="finance">Finance</w>
+                     </name>
+                     <w xml:id="seg240524.1.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="together">together</w>
+                     <w xml:id="seg240524.1.t5" pos="IN" msd="UPosTag=ADP" lemma="with">with</w>
+                     <w xml:id="seg240524.1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg240524.1.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Committee">Committee</w>
+                        <w xml:id="seg240524.1.t8" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                        <w xml:id="seg240524.1.t9"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="maritime">Maritime</w>
+                        <w xml:id="seg240524.1.t10"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="affair">Affairs</w>
+                        <w xml:id="seg240524.1.t11"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240524.1.t12"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="inland">Inland</w>
+                        <w xml:id="seg240524.1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Navigation"
+                           join="right">Navigation</w>
+                     </name>
+                     <pc xml:id="seg240524.1.t14" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg240524.1.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg240524.1.t16"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Committee">Committee</w>
+                        <w xml:id="seg240524.1.t17" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                        <w xml:id="seg240524.1.t18"
+                           pos="DT"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"
+                           lemma="the">the</w>
+                        <w xml:id="seg240524.1.t19"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="environment"
+                           join="right">Environment</w>
+                        <pc xml:id="seg240524.1.t20" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                        <w xml:id="seg240524.1.t21"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Natural">Natural</w>
+                        <w xml:id="seg240524.1.t22"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Resource">Resources</w>
+                        <w xml:id="seg240524.1.t23"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240524.1.t24"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Forestry">Forestry</w>
+                        <w xml:id="seg240524.1.t25"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240524.1.t26"
+                           pos="DT"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"
+                           lemma="the">the</w>
+                        <w xml:id="seg240524.1.t27"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Committee">Committee</w>
+                        <w xml:id="seg240524.1.t28" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                        <w xml:id="seg240524.1.t29"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Agriculture">Agriculture</w>
+                        <w xml:id="seg240524.1.t30"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240524.1.t31"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="rural">Rural</w>
+                        <w xml:id="seg240524.1.t32"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Development">Development</w>
+                     </name>
+                     <pc xml:id="seg240524.1.t33" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240524.1.t34"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="h.">h.</w>
+                     <w xml:id="seg240524.1.t35"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="12"
+                        join="right">12</w>
+                     <pc xml:id="seg240524.1.t36" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240525" xml:lang="en" corresp="mt-src:seg240525">
+                  <s xml:id="seg240525.1" n="15" corresp="mt-src:seg240525.1">
+                     <pc xml:id="seg240525.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240525.1.t2" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg240525.1.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg240525.1.t4"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="European">European</w>
+                        <w xml:id="seg240525.1.t5"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Union"
+                           join="right">Union</w>
+                     </name>
+                     <pc xml:id="seg240525.1.t6" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg240525.1.t7" pos="IN" msd="UPosTag=ADP" lemma="at">at</w>
+                     <w xml:id="seg240525.1.t8"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="3">3</w>
+                     <w xml:id="seg240525.1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="p.m.">p.m.</w>
+                     <w xml:id="seg240525.1.t10"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="13"
+                        join="right">13</w>
+                     <pc xml:id="seg240525.1.t11" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240526" xml:lang="en" corresp="mt-src:seg240526">
+                  <s xml:id="seg240526.1" n="16" corresp="mt-src:seg240526.1">
+                     <pc xml:id="seg240526.1.t1" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240526.1.t2"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="rule">Rules</w>
+                     <w xml:id="seg240526.1.t3" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg240526.1.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="procedure"
+                        join="right">Procedure</w>
+                     <pc xml:id="seg240526.1.t5" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <name type="ORG">
+                        <w xml:id="seg240526.1.t6"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Parliamentary">Parliamentary</w>
+                        <w xml:id="seg240526.1.t7"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="seg240526.1.t8"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="immunity">Immunity</w>
+                        <w xml:id="seg240526.1.t9"
+                           pos="NNS"
+                           msd="UPosTag=NOUN|Number=Plur"
+                           lemma="affair">Affairs</w>
+                     </name>
+                     <pc xml:id="seg240526.1.t10" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg240526.1.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour"
+                        join="right">hour</w>
+                     <pc xml:id="seg240526.1.t12" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                     <w xml:id="seg240526.1.t13"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="13"
+                        join="right">13</w>
+                     <pc xml:id="seg240526.1.t14" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg240527" xml:lang="en" corresp="mt-src:seg240527">
+                  <s xml:id="seg240527.1" n="17" corresp="mt-src:seg240527.1">
+                     <w xml:id="seg240527.1.t1"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">Thank</w>
+                     <w xml:id="seg240527.1.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg240527.1.t3" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u who="#LidiaGądek"
+               ana="#regular"
+               xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u412"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-PL_2017-07-20-sejm-46-3.u412">
+               <seg xml:id="seg242957" xml:lang="en" corresp="mt-src:seg242957">
+                  <s xml:id="seg242957.1" n="4773" corresp="mt-src:seg242957.1">
+                     <name type="PER">
+                        <w xml:id="seg242957.1.t1"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Mrs.">Mrs.</w>
+                        <w xml:id="seg242957.1.t2"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Marshal"
+                           join="right">Marshal</w>
+                     </name>
+                     <pc xml:id="seg242957.1.t3" pos="Z" msd="UPosTag=PUNCT">!</pc>
+                  </s>
+                  <s xml:id="seg242957.2" n="4774" corresp="mt-src:seg242957.2">
+                     <w xml:id="seg242957.2.t1"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="high">High</w>
+                     <w xml:id="seg242957.2.t2"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Izbo"
+                        join="right">Izbo</w>
+                     <pc xml:id="seg242957.2.t3" pos="Z" msd="UPosTag=PUNCT">!</pc>
+                  </s>
+                  <s xml:id="seg242957.3" n="4775" corresp="mt-src:seg242957.3">
+                     <w xml:id="seg242957.3.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242957.3.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">am</w>
+                     <w xml:id="seg242957.3.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="sorry">sorry</w>
+                     <w xml:id="seg242957.3.t4"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242957.3.t5"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">thank</w>
+                     <w xml:id="seg242957.3.t6"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242957.3.t7" pos="RB" msd="UPosTag=ADV" lemma="very">very</w>
+                     <w xml:id="seg242957.3.t8" pos="RB" msd="UPosTag=ADV" lemma="much">much</w>
+                     <w xml:id="seg242957.3.t9"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="for">for</w>
+                     <w xml:id="seg242957.3.t10"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="add">adding</w>
+                     <w xml:id="seg242957.3.t11"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">me</w>
+                     <w xml:id="seg242957.3.t12" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242957.3.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242957.3.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="list">list</w>
+                     <w xml:id="seg242957.3.t15" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242957.3.t16"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="speaker"
+                        join="right">speakers</w>
+                     <pc xml:id="seg242957.3.t17" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242957.4" n="4776" corresp="mt-src:seg242957.4">
+                     <w xml:id="seg242957.4.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242957.4.t2"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">was</w>
+                     <w xml:id="seg242957.4.t3"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="go">going</w>
+                     <w xml:id="seg242957.4.t4"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to"
+                        join="right">to</w>
+                     <pc xml:id="seg242957.4.t5" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242957.4.t6"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">but</w>
+                     <w xml:id="seg242957.4.t7"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="unfortunately"
+                        join="right">unfortunately</w>
+                     <pc xml:id="seg242957.4.t8" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242957.4.t9"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242957.4.t10"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin"
+                        lemma="have">had</w>
+                     <w xml:id="seg242957.4.t11" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242957.4.t12"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="run">run</w>
+                     <w xml:id="seg242957.4.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242957.4.t14"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="little">little</w>
+                     <w xml:id="seg242957.4.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="bit">bit</w>
+                     <w xml:id="seg242957.4.t16"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="back">back</w>
+                     <w xml:id="seg242957.4.t17"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <w xml:id="seg242957.4.t18"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="LOC">
+                        <w xml:id="seg242957.4.t19"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="presidential">Presidential</w>
+                        <w xml:id="seg242957.4.t20"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Palace"
+                           join="right">Palace</w>
+                     </name>
+                     <pc xml:id="seg242957.4.t21" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242958" xml:lang="en" corresp="mt-src:seg242958">
+                  <s xml:id="seg242958.1" n="4777" corresp="mt-src:seg242958.1">
+                     <w xml:id="seg242958.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242958.1.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="support">support</w>
+                     <w xml:id="seg242958.1.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg242958.1.t4"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="member"
+                           join="right">Member</w>
+                     </name>
+                     <pc xml:id="seg242958.1.t5" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242958.1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242958.1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="vice"
+                        join="right">vice</w>
+                     <pc xml:id="seg242958.1.t8"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">-</pc>
+                     <w xml:id="seg242958.1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="president">president</w>
+                     <w xml:id="seg242958.1.t10" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242958.1.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242958.1.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="team"
+                        join="right">team</w>
+                     <pc xml:id="seg242958.1.t13" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242958.1.t14"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="whom">whom</w>
+                     <w xml:id="seg242958.1.t15"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242958.1.t16"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242958.1.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242958.1.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="honour">honour</w>
+                     <w xml:id="seg242958.1.t19" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242958.1.t20"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="manage">manage</w>
+                     <w xml:id="seg242958.1.t21"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="thanks">thanks</w>
+                     <w xml:id="seg242958.1.t22" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242958.1.t23"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242958.1.t24"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="joint">joint</w>
+                     <w xml:id="seg242958.1.t25"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="election"
+                        join="right">election</w>
+                     <pc xml:id="seg242958.1.t26" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242958.1.t27"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242958.1.t28"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242958.1.t29"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="want">want</w>
+                     <w xml:id="seg242958.1.t30"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">us</w>
+                     <w xml:id="seg242958.1.t31" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242958.1.t32"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="take">take</w>
+                     <w xml:id="seg242958.1.t33"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="care">care</w>
+                     <w xml:id="seg242958.1.t34" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <name type="MISC">
+                        <w xml:id="seg242958.1.t35"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles">Poles</w>
+                     </name>
+                     <w xml:id="seg242958.1.t36"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="together"
+                        join="right">together</w>
+                     <pc xml:id="seg242958.1.t37" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242958.1.t38"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="about">about</w>
+                     <w xml:id="seg242958.1.t39"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242958.1.t40"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="health">health</w>
+                     <w xml:id="seg242958.1.t41" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <name type="MISC">
+                        <w xml:id="seg242958.1.t42"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles"
+                           join="right">Poles</w>
+                     </name>
+                     <pc xml:id="seg242958.1.t43" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242958.2" n="4778" corresp="mt-src:seg242958.2">
+                     <w xml:id="seg242958.2.t1" pos="IN" msd="UPosTag=ADP" lemma="on">On</w>
+                     <w xml:id="seg242958.2.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242958.2.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="other">other</w>
+                     <w xml:id="seg242958.2.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hand"
+                        join="right">hand</w>
+                     <pc xml:id="seg242958.2.t5" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242958.2.t6"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242958.2.t7"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="seg242958.2.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="like">like</w>
+                     <w xml:id="seg242958.2.t9" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242958.2.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="make">make</w>
+                     <w xml:id="seg242958.2.t11"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Sing|Person=1|Poss=Yes|PronType=Prs"
+                        lemma="my">my</w>
+                     <w xml:id="seg242958.2.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="statement">statement</w>
+                     <w xml:id="seg242958.2.t13" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                     <w xml:id="seg242958.2.t14"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="another">another</w>
+                     <w xml:id="seg242958.2.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="occasion"
+                        join="right">occasion</w>
+                     <pc xml:id="seg242958.2.t16" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242959" xml:lang="en" corresp="mt-src:seg242959">
+                  <s xml:id="seg242959.1" n="4779" corresp="mt-src:seg242959.1">
+                     <w xml:id="seg242959.1.t1"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="lady">Ladies</w>
+                     <w xml:id="seg242959.1.t2"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242959.1.t3"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="gentleman"
+                        join="right">gentlemen</w>
+                     <pc xml:id="seg242959.1.t4" pos="Z" msd="UPosTag=PUNCT">!</pc>
+                  </s>
+                  <s xml:id="seg242959.2" n="4780" corresp="mt-src:seg242959.2">
+                     <w xml:id="seg242959.2.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">Today</w>
+                     <w xml:id="seg242959.2.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="seg242959.2.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242959.2.t4" pos="RB" msd="UPosTag=ADV" lemma="very">very</w>
+                     <w xml:id="seg242959.2.t5"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="sad">sad</w>
+                     <w xml:id="seg242959.2.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="day"
+                        join="right">day</w>
+                     <pc xml:id="seg242959.2.t7" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242959.3" n="4781" corresp="mt-src:seg242959.3">
+                     <w xml:id="seg242959.3.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">And</w>
+                     <w xml:id="seg242959.3.t2"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because">because</w>
+                     <name type="PER">
+                        <w xml:id="seg242959.3.t3"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Marshal">Marshal</w>
+                        <w xml:id="seg242959.3.t4"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Brudziński">Brudziński</w>
+                     </name>
+                     <w xml:id="seg242959.3.t5"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would"
+                        join="right">would</w>
+                     <w xml:id="seg242959.3.t6" pos="RB" msd="UPosTag=PART" lemma="not">n't</w>
+                     <w xml:id="seg242959.3.t7"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="allow">allow</w>
+                     <w xml:id="seg242959.3.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">it</w>
+                     <pc xml:id="seg242959.3.t9" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242959.4" n="4782" corresp="mt-src:seg242959.4">
+                     <w xml:id="seg242959.4.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242959.4.t2"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="seg242959.4.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="like">like</w>
+                     <w xml:id="seg242959.4.t4" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242959.4.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="say">say</w>
+                     <w xml:id="seg242959.4.t6"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="seg242959.4.t7" pos="RB" msd="UPosTag=ADV" lemma="now">now</w>
+                     <w xml:id="seg242959.4.t8" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg242959.4.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242959.4.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="statement"
+                        join="right">statement</w>
+                     <pc xml:id="seg242959.4.t11" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242960" xml:lang="en" corresp="mt-src:seg242960">
+                  <s xml:id="seg242960.1" n="4783" corresp="mt-src:seg242960.1">
+                     <w xml:id="seg242960.1.t1"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="lady">Ladies</w>
+                     <w xml:id="seg242960.1.t2"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242960.1.t3"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="gentleman">gentlemen</w>
+                     <w xml:id="seg242960.1.t4" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242960.1.t5" pos="DT" msd="UPosTag=DET" lemma="all">all</w>
+                     <w xml:id="seg242960.1.t6"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="bench"
+                        join="right">benches</w>
+                     <pc xml:id="seg242960.1.t7" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242960.1.t8"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="seg242960.1.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="place">place</w>
+                     <w xml:id="seg242960.1.t10"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="seg242960.1.t11"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="seg242960.1.t12"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="here">here</w>
+                     <w xml:id="seg242960.1.t13"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="right">right</w>
+                     <w xml:id="seg242960.1.t14"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="now"
+                        join="right">now</w>
+                     <pc xml:id="seg242960.1.t15" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242960.2" n="4784" corresp="mt-src:seg242960.2">
+                     <w xml:id="seg242960.2.t1"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there"
+                        join="right">There</w>
+                     <w xml:id="seg242960.2.t2"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="seg242960.2.t3" pos="RB" msd="UPosTag=ADV" lemma="over">over</w>
+                     <w xml:id="seg242960.2.t4"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="100000">100,000</w>
+                     <w xml:id="seg242960.2.t5" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg242960.2.t6"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="there"
+                        join="right">there</w>
+                     <pc xml:id="seg242960.2.t7" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                     <w xml:id="seg242960.2.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <name type="MISC">
+                        <w xml:id="seg242960.2.t9"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles">Poles</w>
+                     </name>
+                     <w xml:id="seg242960.2.t10"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="seg242960.2.t11"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="wait">waiting</w>
+                     <w xml:id="seg242960.2.t12" pos="IN" msd="UPosTag=ADP" lemma="for">for</w>
+                     <w xml:id="seg242960.2.t13"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242960.2.t14" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <vocal type="speaking">
+                  <desc xml:lang="en">Member, we are working.</desc>
+               </vocal>
+               <seg xml:id="seg242961" xml:lang="en" corresp="mt-src:seg242961">
+                  <s xml:id="seg242961.1" n="4785" corresp="mt-src:seg242961.1">
+                     <w xml:id="seg242961.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they"
+                        join="right">They</w>
+                     <w xml:id="seg242961.1.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="seg242961.1.t3"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="wait">waiting</w>
+                     <w xml:id="seg242961.1.t4" pos="IN" msd="UPosTag=ADP" lemma="for">for</w>
+                     <w xml:id="seg242961.1.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242961.1.t6" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242961.1.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">they</w>
+                     <w xml:id="seg242961.1.t8"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="want">wanted</w>
+                     <w xml:id="seg242961.1.t9" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242961.1.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="talk">talk</w>
+                     <w xml:id="seg242961.1.t11" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242961.1.t12"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242961.1.t13" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242961.1.t14"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">they</w>
+                     <w xml:id="seg242961.1.t15"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="want">wanted</w>
+                     <w xml:id="seg242961.1.t16" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242961.1.t17"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="talk">talk</w>
+                     <w xml:id="seg242961.1.t18" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242961.1.t19"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">us</w>
+                     <pc xml:id="seg242961.1.t20" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242961.2" n="4786" corresp="mt-src:seg242961.2">
+                     <w xml:id="seg242961.2.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242961.2.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="know">know</w>
+                     <w xml:id="seg242961.2.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Prs"
+                        lemma="it">it's</w>
+                     <w xml:id="seg242961.2.t4" pos="RB" msd="UPosTag=PART" lemma="not">not</w>
+                     <w xml:id="seg242961.2.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242961.2.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="state"
+                        join="right">state</w>
+                     <pc xml:id="seg242961.2.t7" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242961.2.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">it</w>
+                     <w xml:id="seg242961.2.t9"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="seg242961.2.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="seg242961.2.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Kukiz">Kukiz</w>
+                     </name>
+                     <w xml:id="seg242961.2.t12"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="club"
+                        join="right">club</w>
+                     <w xml:id="seg242961.2.t13"
+                        pos="POS"
+                        msd="UPosTag=PART"
+                        lemma="'s">'s</w>
+                     <w xml:id="seg242961.2.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="representative">representative</w>
+                     <w xml:id="seg242961.2.t15"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="who">who</w>
+                     <w xml:id="seg242961.2.t16"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="block">blocked</w>
+                     <w xml:id="seg242961.2.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242961.2.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="break">break</w>
+                     <w xml:id="seg242961.2.t19" pos="IN" msd="UPosTag=ADP" lemma="for">for</w>
+                     <w xml:id="seg242961.2.t20"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242961.2.t21"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting">meeting</w>
+                     <w xml:id="seg242961.2.t22"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="seg242961.2.t23"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="citizen"
+                        join="right">citizens</w>
+                     <pc xml:id="seg242961.2.t24" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242961.2.t25"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242961.2.t26"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="man">man</w>
+                     <w xml:id="seg242961.2.t27"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="who">who</w>
+                     <w xml:id="seg242961.2.t28"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="belong">belongs</w>
+                     <w xml:id="seg242961.2.t29" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242961.2.t30"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242961.2.t31"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="club">club</w>
+                     <w xml:id="seg242961.2.t32"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="know">known</w>
+                     <w xml:id="seg242961.2.t33" pos="IN" msd="UPosTag=ADP" lemma="as">as</w>
+                     <pc xml:id="seg242961.2.t34"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">"</pc>
+                     <name type="ORG">
+                        <w xml:id="seg242961.2.t35"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Citizen"
+                           join="right">Citizen</w>
+                        <w xml:id="seg242961.2.t36"
+                           pos="POS"
+                           msd="UPosTag=PART"
+                           lemma="'s">'s</w>
+                        <w xml:id="seg242961.2.t37"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Movement"
+                           join="right">Movement</w>
+                     </name>
+                     <pc xml:id="seg242961.2.t38"
+                         pos="Z"
+                         msd="UPosTag=PUNCT"
+                         join="right">.</pc>
+                     <pc xml:id="seg242961.2.t39" pos="Z" msd="UPosTag=PUNCT">"</pc>
+                  </s>
+                  <s xml:id="seg242961.3" n="4787" corresp="mt-src:seg242961.3">
+                     <w xml:id="seg242961.3.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">You</w>
+                     <w xml:id="seg242961.3.t2"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="be">were</w>
+                     <w xml:id="seg242961.3.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="afraid">afraid</w>
+                     <w xml:id="seg242961.3.t4" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242961.3.t5"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="go">go</w>
+                     <w xml:id="seg242961.3.t6" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242961.3.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242961.3.t8"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="citizen">citizens</w>
+                     <w xml:id="seg242961.3.t9" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242961.3.t10"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="tell">tell</w>
+                     <w xml:id="seg242961.3.t11"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242961.3.t12"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="seg242961.3.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">today</w>
+                     <w xml:id="seg242961.3.t14"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242961.3.t15"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="break">broke</w>
+                     <w xml:id="seg242961.3.t16"
+                        pos="PDT"
+                        msd="UPosTag=DET"
+                        lemma="all">all</w>
+                     <w xml:id="seg242961.3.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242961.3.t18"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="principle">principles</w>
+                     <w xml:id="seg242961.3.t19" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242961.3.t20"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="democracy">democracy</w>
+                     <w xml:id="seg242961.3.t21"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242961.3.t22"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="free">free</w>
+                     <name type="LOC">
+                        <w xml:id="seg242961.3.t23"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Poland"
+                           join="right">Poland</w>
+                     </name>
+                     <pc xml:id="seg242961.3.t24" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242961.3.t25" pos="DT" msd="UPosTag=DET" lemma="all">all</w>
+                     <w xml:id="seg242961.3.t26" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242961.3.t27"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">them</w>
+                     <w xml:id="seg242961.3.t28"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="possible"
+                        join="right">possible</w>
+                     <pc xml:id="seg242961.3.t29" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242961.4" n="4788" corresp="mt-src:seg242961.4">
+                     <w xml:id="seg242961.4.t1" pos="RB" msd="UPosTag=ADV" lemma="now">Now</w>
+                     <w xml:id="seg242961.4.t2"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="go">go</w>
+                     <w xml:id="seg242961.4.t3" pos="RP" msd="UPosTag=ADP" lemma="out">out</w>
+                     <w xml:id="seg242961.4.t4" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242961.4.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="PER">
+                        <w xml:id="seg242961.4.t6"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sejm">Sejm</w>
+                     </name>
+                     <w xml:id="seg242961.4.t7"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242961.4.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="listen"
+                        join="right">listen</w>
+                     <pc xml:id="seg242961.4.t9" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242961.5" n="4789" corresp="mt-src:seg242961.5">
+                     <w xml:id="seg242961.5.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|Person=2|VerbForm=Fin"
+                        lemma="listen">Listen</w>
+                     <w xml:id="seg242961.5.t2" pos="IN" msd="UPosTag=SCONJ" lemma="to">to</w>
+                     <w xml:id="seg242961.5.t3"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">what</w>
+                     <w xml:id="seg242961.5.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="seg242961.5.t5"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles">Poles</w>
+                     </name>
+                     <w xml:id="seg242961.5.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242961.5.t7" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242961.5.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="say">say</w>
+                     <w xml:id="seg242961.5.t9"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242961.5.t10"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">they</w>
+                     <w xml:id="seg242961.5.t11"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242961.5.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242961.5.t13"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="lot">lot</w>
+                     <w xml:id="seg242961.5.t14" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242961.5.t15"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="say"
+                        join="right">say</w>
+                     <pc xml:id="seg242961.5.t16" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242962" xml:lang="en" corresp="mt-src:seg242962">
+                  <s xml:id="seg242962.1" n="4790" corresp="mt-src:seg242962.1">
+                     <w xml:id="seg242962.1.t1" pos="IN" msd="UPosTag=SCONJ" lemma="as">As</w>
+                     <w xml:id="seg242962.1.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242962.1.t3"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="say"
+                        join="right">say</w>
+                     <pc xml:id="seg242962.1.t4" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242962.1.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I"
+                        join="right">I</w>
+                     <w xml:id="seg242962.1.t6"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'m</w>
+                     <w xml:id="seg242962.1.t7"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="go">going</w>
+                     <w xml:id="seg242962.1.t8" pos="RB" msd="UPosTag=ADV" lemma="back">back</w>
+                     <w xml:id="seg242962.1.t9" pos="IN" msd="UPosTag=ADP" lemma="from">from</w>
+                     <w xml:id="seg242962.1.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="LOC">
+                        <w xml:id="seg242962.1.t11"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="presidential">Presidential</w>
+                        <w xml:id="seg242962.1.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Palace">Palace</w>
+                     </name>
+                     <w xml:id="seg242962.1.t13" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242962.1.t14"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="say">say</w>
+                     <w xml:id="seg242962.1.t15"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="this">this</w>
+                     <w xml:id="seg242962.1.t16"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242962.1.t17" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242962.1.t18"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="sound">sound</w>
+                     <w xml:id="seg242962.1.t19"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="like">like</w>
+                     <w xml:id="seg242962.1.t20"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242962.1.t21"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="parliamentary">parliamentary</w>
+                     <w xml:id="seg242962.1.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="speaker"
+                        join="right">speaker</w>
+                     <pc xml:id="seg242962.1.t23" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242962.2" n="4791" corresp="mt-src:seg242962.2">
+                     <w xml:id="seg242962.2.t1"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="pole">Poles</w>
+                     <w xml:id="seg242962.2.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242962.2.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242962.2.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="lot">lot</w>
+                     <w xml:id="seg242962.2.t5" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242962.2.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="tell">tell</w>
+                     <w xml:id="seg242962.2.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242962.2.t8" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242962.3" n="4792" corresp="mt-src:seg242962.3">
+                     <w xml:id="seg242962.3.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">And</w>
+                     <w xml:id="seg242962.3.t2" pos="RB" msd="UPosTag=PART" lemma="not">not</w>
+                     <pc xml:id="seg242962.3.t3" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg242962.3.t4" pos="IN" msd="UPosTag=SCONJ" lemma="as">as</w>
+                     <w xml:id="seg242962.3.t5" pos="DT" msd="UPosTag=DET" lemma="some">some</w>
+                     <w xml:id="seg242962.3.t6"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="say">say</w>
+                     <pc xml:id="seg242962.3.t7" pos="Z" msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="seg242962.3.t8"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="old">old</w>
+                     <w xml:id="seg242962.3.t9"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242962.3.t10"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="barker"
+                        join="right">barkers</w>
+                     <pc xml:id="seg242962.3.t11" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242962.4" n="4793" corresp="mt-src:seg242962.4">
+                     <w xml:id="seg242962.4.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">Today</w>
+                     <w xml:id="seg242962.4.t2"
+                        pos="EX"
+                        msd="UPosTag=PRON"
+                        lemma="there">there</w>
+                     <w xml:id="seg242962.4.t3"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="seg242962.4.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="hundred">hundreds</w>
+                     <w xml:id="seg242962.4.t5" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242962.4.t6"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="thousand">thousands</w>
+                     <w xml:id="seg242962.4.t7" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242962.4.t8"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="young">young</w>
+                     <name type="MISC">
+                        <w xml:id="seg242962.4.t9"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles">Poles</w>
+                     </name>
+                     <w xml:id="seg242962.4.t10" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <name type="LOC">
+                        <w xml:id="seg242962.4.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Krakowskie">Krakowskie</w>
+                        <w xml:id="seg242962.4.t12"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Przedmieście">Przedmieście</w>
+                     </name>
+                     <w xml:id="seg242962.4.t13"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242962.4.t14" pos="IN" msd="UPosTag=ADP" lemma="at">at</w>
+                     <w xml:id="seg242962.4.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="LOC">
+                        <w xml:id="seg242962.4.t16"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sejm"
+                           join="right">Sejm</w>
+                     </name>
+                     <pc xml:id="seg242962.4.t17" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242962.4.t18"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="seg242962.4.t19"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="small">small</w>
+                     <w xml:id="seg242962.4.t20"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="child"
+                        join="right">children</w>
+                     <pc xml:id="seg242962.4.t21" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242962.5" n="4794" corresp="mt-src:seg242962.5">
+                     <w xml:id="seg242962.5.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they"
+                        join="right">They</w>
+                     <w xml:id="seg242962.5.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="seg242962.5.t3"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="18"
+                        join="right">18</w>
+                     <pc xml:id="seg242962.5.t4" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242962.5.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="teenage"
+                        join="right">teenage</w>
+                     <pc xml:id="seg242962.5.t6" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242962.5.t7"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242962.5.t8"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they"
+                        join="right">they</w>
+                     <w xml:id="seg242962.5.t9"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="seg242962.5.t10"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="also">also</w>
+                     <w xml:id="seg242962.5.t11"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="senior"
+                        join="right">seniors</w>
+                     <pc xml:id="seg242962.5.t12" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242962.6" n="4795" corresp="mt-src:seg242962.6">
+                     <w xml:id="seg242962.6.t1" pos="DT" msd="UPosTag=DET" lemma="all">All</w>
+                     <w xml:id="seg242962.6.t2" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <name type="LOC">
+                        <w xml:id="seg242962.6.t3"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Poland"
+                           join="right">Poland</w>
+                     </name>
+                     <pc xml:id="seg242962.6.t4" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242962.6.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242962.6.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="representation">representation</w>
+                     <w xml:id="seg242962.6.t7" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242962.6.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242962.6.t9"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="whole">whole</w>
+                     <w xml:id="seg242962.6.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="nation">nation</w>
+                     <w xml:id="seg242962.6.t11"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="come">came</w>
+                     <w xml:id="seg242962.6.t12" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242962.6.t13"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="tell">tell</w>
+                     <w xml:id="seg242962.6.t14"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242962.6.t15" pos="Z" msd="UPosTag=PUNCT">:</pc>
+                     <w xml:id="seg242962.6.t16"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="stop"
+                        join="right">stop</w>
+                     <pc xml:id="seg242962.6.t17" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242962.6.t18"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="stop">stop</w>
+                     <w xml:id="seg242962.6.t19"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="dictatorship"
+                        join="right">dictatorship</w>
+                     <pc xml:id="seg242962.6.t20" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242962.7" n="4796" corresp="mt-src:seg242962.7">
+                     <w xml:id="seg242962.7.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">They</w>
+                     <w xml:id="seg242962.7.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do"
+                        join="right">do</w>
+                     <w xml:id="seg242962.7.t3" pos="RB" msd="UPosTag=PART" lemma="not">n't</w>
+                     <w xml:id="seg242962.7.t4"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="agree">agree</w>
+                     <w xml:id="seg242962.7.t5" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242962.7.t6"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="that"
+                        join="right">that</w>
+                     <pc xml:id="seg242962.7.t7" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242963" xml:lang="en" corresp="mt-src:seg242963">
+                  <s xml:id="seg242963.1" n="4797" corresp="mt-src:seg242963.1">
+                     <w xml:id="seg242963.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">It</w>
+                     <w xml:id="seg242963.1.t2"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="seg242963.1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">today</w>
+                     <w xml:id="seg242963.1.t4"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242963.1.t5"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="sad">sad</w>
+                     <w xml:id="seg242963.1.t6"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242963.1.t7"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="big">big</w>
+                     <w xml:id="seg242963.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="day"
+                        join="right">day</w>
+                     <pc xml:id="seg242963.1.t9" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.2" n="4798" corresp="mt-src:seg242963.2">
+                     <w xml:id="seg242963.2.t1"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="sad"
+                        join="right">Sad</w>
+                     <pc xml:id="seg242963.2.t2" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.2.t3"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because">because</w>
+                     <w xml:id="seg242963.2.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">today</w>
+                     <w xml:id="seg242963.2.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.2.t6"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242963.2.t7"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="break">broken</w>
+                     <w xml:id="seg242963.2.t8" pos="PDT" msd="UPosTag=DET" lemma="all">all</w>
+                     <w xml:id="seg242963.2.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242963.2.t10"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="legal">legal</w>
+                     <w xml:id="seg242963.2.t11"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="rule">rules</w>
+                     <w xml:id="seg242963.2.t12"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="seg242963.2.t13"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="apply">apply</w>
+                     <w xml:id="seg242963.2.t14" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg242963.2.t15"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242963.2.t16"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="democratic">democratic</w>
+                     <w xml:id="seg242963.2.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="state"
+                        join="right">state</w>
+                     <pc xml:id="seg242963.2.t18" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.2.t19"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">but</w>
+                     <w xml:id="seg242963.2.t20"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="great">great</w>
+                     <w xml:id="seg242963.2.t21"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="because">because</w>
+                     <name type="MISC">
+                        <w xml:id="seg242963.2.t22"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles">Poles</w>
+                     </name>
+                     <w xml:id="seg242963.2.t23"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242963.2.t24"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="wake">woken</w>
+                     <w xml:id="seg242963.2.t25"
+                        pos="RP"
+                        msd="UPosTag=ADP"
+                        lemma="up"
+                        join="right">up</w>
+                     <pc xml:id="seg242963.2.t26" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.3" n="4799" corresp="mt-src:seg242963.3">
+                     <w xml:id="seg242963.3.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="come">Come</w>
+                     <w xml:id="seg242963.3.t2" pos="RP" msd="UPosTag=ADP" lemma="out">out</w>
+                     <w xml:id="seg242963.3.t3" pos="IN" msd="UPosTag=ADP" lemma="for">for</w>
+                     <w xml:id="seg242963.3.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242963.3.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="moment"
+                        join="right">moment</w>
+                     <pc xml:id="seg242963.3.t6" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.3.t7"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="stand">stand</w>
+                     <w xml:id="seg242963.3.t8" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg242963.3.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="silence"
+                        join="right">silence</w>
+                     <pc xml:id="seg242963.3.t10" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.3.t11"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="if">if</w>
+                     <w xml:id="seg242963.3.t12"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.3.t13"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="do">do</w>
+                     <w xml:id="seg242963.3.t14"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">not</w>
+                     <w xml:id="seg242963.3.t15"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="want">want</w>
+                     <w xml:id="seg242963.3.t16" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242963.3.t17"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="appear"
+                        join="right">appear</w>
+                     <pc xml:id="seg242963.3.t18" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.3.t19"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242963.3.t20"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="listen">listen</w>
+                     <w xml:id="seg242963.3.t21"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="to">to</w>
+                     <w xml:id="seg242963.3.t22"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Int"
+                        lemma="what">what</w>
+                     <w xml:id="seg242963.3.t23"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="seg242963.3.t24"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles">Poles</w>
+                     </name>
+                     <w xml:id="seg242963.3.t25"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242963.3.t26" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242963.3.t27"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="say">say</w>
+                     <w xml:id="seg242963.3.t28" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242963.3.t29"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242963.3.t30" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.4" n="4800" corresp="mt-src:seg242963.4">
+                     <w xml:id="seg242963.4.t1"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">And</w>
+                     <w xml:id="seg242963.4.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it"
+                        join="right">it</w>
+                     <w xml:id="seg242963.4.t3"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="seg242963.4.t4"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="worth">worth</w>
+                     <w xml:id="seg242963.4.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hearing"
+                        join="right">hearing</w>
+                     <pc xml:id="seg242963.4.t6" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.5" n="4801" corresp="mt-src:seg242963.5">
+                     <w xml:id="seg242963.5.t1" pos="IN" msd="UPosTag=SCONJ" lemma="if">If</w>
+                     <w xml:id="seg242963.5.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.5.t3"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="say">said</w>
+                     <w xml:id="seg242963.5.t4"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.5.t5"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="be">were</w>
+                     <w xml:id="seg242963.5.t6"
+                        pos="VBG"
+                        msd="UPosTag=VERB|Tense=Pres|VerbForm=Part"
+                        lemma="go">going</w>
+                     <w xml:id="seg242963.5.t7" pos="TO" msd="UPosTag=PART" lemma="to">to</w>
+                     <w xml:id="seg242963.5.t8"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="listen">listen</w>
+                     <w xml:id="seg242963.5.t9" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242963.5.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="MISC">
+                        <w xml:id="seg242963.5.t11"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Poles"
+                           join="right">Poles</w>
+                     </name>
+                     <pc xml:id="seg242963.5.t12" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.5.t13"
+                        pos="WRB"
+                        msd="UPosTag=ADV|PronType=Int"
+                        lemma="why">why</w>
+                     <w xml:id="seg242963.5.t14"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="do"
+                        join="right">did</w>
+                     <w xml:id="seg242963.5.t15"
+                        pos="RB"
+                        msd="UPosTag=PART"
+                        lemma="not">n't</w>
+                     <w xml:id="seg242963.5.t16"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.5.t17"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="let">let</w>
+                     <w xml:id="seg242963.5.t18"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we">us</w>
+                     <w xml:id="seg242963.5.t19"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="go">go</w>
+                     <w xml:id="seg242963.5.t20" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242963.5.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="LOC">
+                        <w xml:id="seg242963.5.t22"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Krakow">Krakow</w>
+                        <w xml:id="seg242963.5.t23"
+                           pos="NNPS"
+                           msd="UPosTag=PROPN|Number=Plur"
+                           lemma="Suburb">Suburbs</w>
+                     </name>
+                     <w xml:id="seg242963.5.t24"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">today</w>
+                     <w xml:id="seg242963.5.t25"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="or">or</w>
+                     <w xml:id="seg242963.5.t26"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="go">go</w>
+                     <w xml:id="seg242963.5.t27" pos="RP" msd="UPosTag=ADP" lemma="out">out</w>
+                     <w xml:id="seg242963.5.t28" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                     <w xml:id="seg242963.5.t29"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="seg242963.5.t30"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="own"
+                        join="right">own</w>
+                     <pc xml:id="seg242963.5.t31" pos="Z" msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="seg242963.6" n="4802" corresp="mt-src:seg242963.6">
+                     <w xml:id="seg242963.6.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="shame"
+                        join="right">Shame</w>
+                     <pc xml:id="seg242963.6.t2" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.6.t3"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="lady">ladies</w>
+                     <w xml:id="seg242963.6.t4"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242963.6.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="gentleman"
+                        join="right">gentlemen</w>
+                     <pc xml:id="seg242963.6.t6" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.7" n="4803" corresp="mt-src:seg242963.7">
+                     <w xml:id="seg242963.7.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242963.7.t2"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="know">know</w>
+                     <w xml:id="seg242963.7.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="many">many</w>
+                     <w xml:id="seg242963.7.t4" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242963.7.t5"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242963.7.t6" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.7.t7"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Sing|Person=1|PronType=Prs"
+                        lemma="I">I</w>
+                     <w xml:id="seg242963.7.t8"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="respect">respect</w>
+                     <w xml:id="seg242963.7.t9"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">you</w>
+                     <pc xml:id="seg242963.7.t10" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.7.t11"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="but">but</w>
+                     <w xml:id="seg242963.7.t12"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.7.t13"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="promise">promised</w>
+                     <name type="MISC">
+                        <w xml:id="seg242963.7.t14"
+                           pos="NNS"
+                           msd="UPosTag=NOUN|Number=Plur"
+                           lemma="pole">Poles</w>
+                     </name>
+                     <w xml:id="seg242963.7.t15"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="seg242963.7.t16"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.7.t17"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="would">would</w>
+                     <w xml:id="seg242963.7.t18"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="listen">listen</w>
+                     <w xml:id="seg242963.7.t19" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242963.7.t20"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they"
+                        join="right">them</w>
+                     <pc xml:id="seg242963.7.t21" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.8" n="4804" corresp="mt-src:seg242963.8">
+                     <w xml:id="seg242963.8.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">Today</w>
+                     <w xml:id="seg242963.8.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.8.t3"
+                        pos="VBD"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin"
+                        lemma="break">broke</w>
+                     <w xml:id="seg242963.8.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242963.8.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="constitution">constitution</w>
+                     <w xml:id="seg242963.8.t6"
+                        pos="WDT"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="that">that</w>
+                     <w xml:id="seg242963.8.t7"
+                        pos="VBD"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+                        lemma="be">was</w>
+                     <w xml:id="seg242963.8.t8"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="pass">passed</w>
+                     <w xml:id="seg242963.8.t9" pos="IN" msd="UPosTag=ADP" lemma="by">by</w>
+                     <w xml:id="seg242963.8.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242963.8.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="majority">majority</w>
+                     <w xml:id="seg242963.8.t12" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242963.8.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242963.8.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="nation"
+                        join="right">nation</w>
+                     <pc xml:id="seg242963.8.t15" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.9" n="4805" corresp="mt-src:seg242963.9">
+                     <w xml:id="seg242963.9.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today"
+                        join="right">Today</w>
+                     <pc xml:id="seg242963.9.t2" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.9.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.9.t4"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="cut">cut</w>
+                     <w xml:id="seg242963.9.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242963.9.t6"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="million">million</w>
+                     <w xml:id="seg242963.9.t7"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="signature">signatures</w>
+                     <w xml:id="seg242963.9.t8" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                     <w xml:id="seg242963.9.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242963.9.t10"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="educational">educational</w>
+                     <w xml:id="seg242963.9.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="referendum"
+                        join="right">referendum</w>
+                     <pc xml:id="seg242963.9.t12" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.10" n="4806" corresp="mt-src:seg242963.10">
+                     <w xml:id="seg242963.10.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">Today</w>
+                     <w xml:id="seg242963.10.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.10.t3"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="seg242963.10.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="practically">practically</w>
+                     <w xml:id="seg242963.10.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="destroy">destroyed</w>
+                     <w xml:id="seg242963.10.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242963.10.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|NumForm=Word|NumType=Frac|Number=Sing"
+                        lemma="quarter">quarter</w>
+                     <w xml:id="seg242963.10.t8" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242963.10.t9"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="seg242963.10.t10"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="million">million</w>
+                     <w xml:id="seg242963.10.t11"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="citizen"
+                        join="right">citizens</w>
+                     <pc xml:id="seg242963.10.t12" pos="Z" msd="UPosTag=PUNCT">'</pc>
+                     <w xml:id="seg242963.10.t13"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="signature">signatures</w>
+                     <w xml:id="seg242963.10.t14" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg242963.10.t15"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="term">terms</w>
+                     <w xml:id="seg242963.10.t16" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242963.10.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="health">health</w>
+                     <w xml:id="seg242963.10.t18"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="pay"
+                        join="right">pay</w>
+                     <pc xml:id="seg242963.10.t19" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.11" n="4807" corresp="mt-src:seg242963.11">
+                     <w xml:id="seg242963.11.t1"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|VerbForm=Fin"
+                        lemma="come">Come</w>
+                     <w xml:id="seg242963.11.t2" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242963.11.t3"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="seg242963.11.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="sense"
+                        join="right">senses</w>
+                     <pc xml:id="seg242963.11.t5" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                     <w xml:id="seg242963.11.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|Mood=Imp|Person=2|VerbForm=Fin"
+                        lemma="come">Come</w>
+                     <w xml:id="seg242963.11.t7" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242963.11.t8"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Person=2|Poss=Yes|PronType=Prs"
+                        lemma="you">your</w>
+                     <w xml:id="seg242963.11.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="sense"
+                        join="right">senses</w>
+                     <pc xml:id="seg242963.11.t10" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.12" n="4808" corresp="mt-src:seg242963.12">
+                     <w xml:id="seg242963.12.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today">Today</w>
+                     <w xml:id="seg242963.12.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="seg242963.12.t3"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="must">must</w>
+                     <w xml:id="seg242963.12.t4"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="have">have</w>
+                     <w xml:id="seg242963.12.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="sound">sounded</w>
+                     <w xml:id="seg242963.12.t6" pos="IN" msd="UPosTag=ADP" lemma="out">out</w>
+                     <w xml:id="seg242963.12.t7" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242963.12.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Number=Sing|PronType=Dem"
+                        lemma="that">that</w>
+                     <w xml:id="seg242963.12.t9"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="podium"
+                        join="right">podium</w>
+                     <pc xml:id="seg242963.12.t10" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+                  <s xml:id="seg242963.13" n="4809" corresp="mt-src:seg242963.13">
+                     <w xml:id="seg242963.13.t1"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="thank">Thank</w>
+                     <w xml:id="seg242963.13.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="seg242963.13.t3"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="very">very</w>
+                     <w xml:id="seg242963.13.t4"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="much"
+                        join="right">much</w>
+                     <pc xml:id="seg242963.13.t5" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <name type="PER">
+                        <w xml:id="seg242963.13.t6"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Marshal"
+                           join="right">Marshal</w>
+                     </name>
+                     <pc xml:id="seg242963.13.t7" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242963.13.t8"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="again"
+                        join="right">again</w>
+                     <pc xml:id="seg242963.13.t9" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <kinesic type="applause">
+                  <desc xml:lang="en">Applause</desc>
+               </kinesic>
+            </u>
+            <note type="speaker" xml:lang="en">Deputy Marshal Barbara Dolniak:</note>
+            <u who="#BarbaraDolniak"
+               ana="#chair"
+               xml:id="ParlaMint-PL_2017-07-20-sejm-46-3.u413"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-PL_2017-07-20-sejm-46-3.u413">
+               <seg xml:id="seg242964" xml:lang="en" corresp="mt-src:seg242964">
+                  <s xml:id="seg242964.1" n="4810" corresp="mt-src:seg242964.1">
+                     <w xml:id="seg242964.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Person=2|PronType=Prs"
+                        lemma="you"
+                        join="right">You</w>
+                     <w xml:id="seg242964.1.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="seg242964.1.t3"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="welcome"
+                        join="right">welcome</w>
+                     <pc xml:id="seg242964.1.t4" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242965" xml:lang="en" corresp="mt-src:seg242965">
+                  <s xml:id="seg242965.1" n="4811" corresp="mt-src:seg242965.1">
+                     <w xml:id="seg242965.1.t1"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="that">That</w>
+                     <w xml:id="seg242965.1.t2"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="conclude">concludes</w>
+                     <w xml:id="seg242965.1.t3"
+                        pos="PRP$"
+                        msd="UPosTag=PRON|Number=Plur|Person=1|Poss=Yes|PronType=Prs"
+                        lemma="we">our</w>
+                     <w xml:id="seg242965.1.t4"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="parliamentary">parliamentary</w>
+                     <w xml:id="seg242965.1.t5"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="statement"
+                        join="right">statements</w>
+                     <pc xml:id="seg242965.1.t6" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242966" xml:lang="en" corresp="mt-src:seg242966">
+                  <s xml:id="seg242966.1" n="4812" corresp="mt-src:seg242966.1">
+                     <w xml:id="seg242966.1.t1"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="information">Information</w>
+                     <w xml:id="seg242966.1.t2"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="about">about</w>
+                     <w xml:id="seg242966.1.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242966.1.t4"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="impact">impact</w>
+                     <w xml:id="seg242966.1.t5" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242966.1.t6"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242966.1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="interpellation"
+                        join="right">interpellation</w>
+                     <pc xml:id="seg242966.1.t8" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242966.1.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="query">queries</w>
+                     <w xml:id="seg242966.1.t10"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242966.1.t11"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="answer">answers</w>
+                     <w xml:id="seg242966.1.t12" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242966.1.t13"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Number=Plur|Person=3|PronType=Prs"
+                        lemma="they">them</w>
+                     <w xml:id="seg242966.1.t14"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="seg242966.1.t15"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="available">available</w>
+                     <w xml:id="seg242966.1.t16" pos="IN" msd="UPosTag=ADP" lemma="in">in</w>
+                     <w xml:id="seg242966.1.t17"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg242966.1.t18"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sejm">Sejm</w>
+                        <w xml:id="seg242966.1.t19"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="information">Information</w>
+                        <w xml:id="seg242966.1.t20"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="system"
+                           join="right">System</w>
+                     </name>
+                     <pc xml:id="seg242966.1.t21" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242967" xml:lang="en" corresp="mt-src:seg242967">
+                  <s xml:id="seg242967.1" n="4813" corresp="mt-src:seg242967.1">
+                     <w xml:id="seg242967.1.t1"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Sing|PronType=Dem"
+                        lemma="this">This</w>
+                     <w xml:id="seg242967.1.t2"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="conclude">concludes</w>
+                     <w xml:id="seg242967.1.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242967.1.t4"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="46th">46th</w>
+                     <w xml:id="seg242967.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="seg242967.1.t6" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242967.1.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242967.1.t8"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Sejm">Sejm</w>
+                     <w xml:id="seg242967.1.t9" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242967.1.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="LOC">
+                        <w xml:id="seg242967.1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Republic">Republic</w>
+                        <w xml:id="seg242967.1.t12" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                        <w xml:id="seg242967.1.t13"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Poland"
+                           join="right">Poland</w>
+                     </name>
+                     <pc xml:id="seg242967.1.t14" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242968" xml:lang="en" corresp="mt-src:seg242968">
+                  <s xml:id="seg242968.1" n="4814" corresp="mt-src:seg242968.1">
+                     <w xml:id="seg242968.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="seg242968.1.t2"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute">minutes</w>
+                     <w xml:id="seg242968.1.t3" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242968.1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242968.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="sitting">sitting</w>
+                     <w xml:id="seg242968.1.t6"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="seg242968.1.t7"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="seg242968.1.t8"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="submit">submitted</w>
+                     <w xml:id="seg242968.1.t9" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242968.1.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="seg242968.1.t11"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Secretariat">Secretariat</w>
+                        <w xml:id="seg242968.1.t12" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                        <w xml:id="seg242968.1.t13"
+                           pos="DT"
+                           msd="UPosTag=DET|Definite=Def|PronType=Art"
+                           lemma="the">the</w>
+                        <w xml:id="seg242968.1.t14"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sejm"
+                           join="right">Sejm</w>
+                     </name>
+                     <pc xml:id="seg242968.1.t15" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242969" xml:lang="en" corresp="mt-src:seg242969">
+                  <s xml:id="seg242969.1" n="4815" corresp="mt-src:seg242969.1">
+                     <w xml:id="seg242969.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="seg242969.1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="agenda">agenda</w>
+                     <w xml:id="seg242969.1.t3" pos="IN" msd="UPosTag=ADP" lemma="for">for</w>
+                     <w xml:id="seg242969.1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242969.1.t5"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="47th">47th</w>
+                     <w xml:id="seg242969.1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="session">session</w>
+                     <w xml:id="seg242969.1.t7" pos="IN" msd="UPosTag=ADP" lemma="of">of</w>
+                     <w xml:id="seg242969.1.t8"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242969.1.t9"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Sejm"
+                        join="right">Sejm</w>
+                     <pc xml:id="seg242969.1.t10" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242969.1.t11"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="appoint">appointed</w>
+                     <w xml:id="seg242969.1.t12" pos="IN" msd="UPosTag=ADP" lemma="on">on</w>
+                     <w xml:id="seg242969.1.t13"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="12"
+                        join="right">12</w>
+                     <pc xml:id="seg242969.1.t14" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242969.1.t15"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="13"
+                        join="right">13</w>
+                     <pc xml:id="seg242969.1.t16" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242969.1.t17"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="14">14</w>
+                     <w xml:id="seg242969.1.t18"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242969.1.t19"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="15">15</w>
+                     <w xml:id="seg242969.1.t20"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="September">September</w>
+                     <w xml:id="seg242969.1.t21"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="2017"
+                        join="right">2017</w>
+                     <pc xml:id="seg242969.1.t22" pos="Z" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="seg242969.1.t23"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="seg242969.1.t24"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="seg242969.1.t25"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="serve">served</w>
+                     <w xml:id="seg242969.1.t26" pos="IN" msd="UPosTag=ADP" lemma="to">to</w>
+                     <w xml:id="seg242969.1.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="seg242969.1.t28"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="lady">ladies</w>
+                     <w xml:id="seg242969.1.t29"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="seg242969.1.t30"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="gentleman"
+                        join="right">gentlemen</w>
+                     <pc xml:id="seg242969.1.t31" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="seg242970" xml:lang="en" corresp="mt-src:seg242970">
+                  <s xml:id="seg242970.1" n="4816" corresp="mt-src:seg242970.1">
+                     <w xml:id="seg242970.1.t1"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Number=Plur|Person=1|PronType=Prs"
+                        lemma="we"
+                        join="right">We</w>
+                     <w xml:id="seg242970.1.t2"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'re</w>
+                     <w xml:id="seg242970.1.t3"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="adjourn"
+                        join="right">adjourned</w>
+                     <pc xml:id="seg242970.1.t4" pos="Z" msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <kinesic type="signal">
+                  <desc xml:lang="en">The Vice Marshal strikes three times with a marshal's cane</desc>
+               </kinesic>
+               <note type="time" xml:lang="en">The meeting is adjourned at 3 p.m. 22 min 13</note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

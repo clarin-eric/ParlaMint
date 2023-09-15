@@ -10,10 +10,10 @@
   version="2.0">
 
   <!-- Where the corpora can be found (relative to the location of this script). -->
-  <xsl:param name="path">../Data</xsl:param>
+  <xsl:param name="path">../Corpora</xsl:param>
   <!-- Directory where the output TSV files are written to -->
-  <xsl:param name="outDir">../Data/Metadata</xsl:param>
-  <!-- How many template lines to output for corpora without any ministers -->
+  <xsl:param name="outDir">../Corpora/Metadata</xsl:param>
+  <!-- Prefix for output files -->
   <xsl:param name="outFilePrefix">ParlaMint_parties-</xsl:param>
 
   <xsl:template match="text()"/>
@@ -22,17 +22,23 @@
     <xsl:for-each select="//xi:include">
       <xsl:variable name="href" select="concat($path, '/', @href)"/>
       <xsl:variable name="country" select="replace(@href, 
-					   '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
-					   '$1')"/>
+                                           '.+ParlaMint-([A-Z]{2}(-[A-Z0-9]{1,3})?).*', 
+                                           '$1')"/>
       <xsl:variable name="outFile" select="concat($outDir, '/', 
-					   $outFilePrefix, $country, '.tsv')"/>
+                                           $outFilePrefix, $country, '.tsv')"/>
       <xsl:message select="concat('INFO: Processing ', @href)"/>
       <xsl:result-document href="{$outFile}" method="text">
-	<xsl:text>Country&#9;orgType&#9;orgID&#9;Abb-xx&#9;Abb-en&#9;Full-xx&#9;Full-en&#9;From&#9;To&#9;Comment&#10;</xsl:text>
-	<xsl:apply-templates select="document($href)//tei:particDesc//tei:org
-				       [@role = 'parliamentaryGroup' or @role = 'politicalParty']">
-	  <xsl:with-param name="country" select="$country"/>
-	</xsl:apply-templates>
+        <xsl:text>Country&#9;orgType&#9;orgID&#9;Abb-xx&#9;Abb-en&#9;Full-xx&#9;Full-en&#9;From&#9;To&#9;Comment&#10;</xsl:text>
+
+	<!-- We asume factorised files, and $listOrg is it, with full path -->
+	<xsl:variable name="listOrg" select="concat(
+					     replace($href, '(.+)/.+', '$1'), '/', 
+					     document($href)//tei:particDesc/xi:include[contains(@href, 'listOrg')]/@href
+					     )"/>
+        <xsl:apply-templates select="document($listOrg)//tei:org
+                                     [@role = 'parliamentaryGroup' or @role = 'politicalParty']">
+          <xsl:with-param name="country" select="$country"/>
+        </xsl:apply-templates>
       </xsl:result-document>
     </xsl:for-each>
   </xsl:template>
@@ -45,31 +51,31 @@
     <xsl:text>&#9;</xsl:text>
     <xsl:value-of select="@xml:id"/>
     <xsl:text>&#9;</xsl:text>
-    <xsl:variable name="lang" select="ancestor::tei:teiCorpus/@xml:lang"/>
+    <xsl:variable name="lang" select="ancestor::tei:listOrg/@xml:lang"/>
     <xsl:variable name="name-xx-abb" select="tei:orgName[@full = 'abb' or @full = 'init']
-					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]"/>
+                                         [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]"/>
     <xsl:variable name="name-en-abb" select="tei:orgName[@full = 'abb' or @full = 'init']
-					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+                                         [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
     <xsl:variable name="name-en-full" select="tei:orgName[@full = 'yes']
-					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
+                                         [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = 'en']"/>
     <xsl:variable name="name-xx-full" select="tei:orgName[@full = 'yes']
-					 [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]"/>
+                                         [ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang = $lang]"/>
     <!-- Some sanity checks -->
     <xsl:if test="$name-en-full[2]">
-	<xsl:message select="concat('ERROR: more than one full party name in English language for ', 
-			     @xml:id, ': ', $name-en-full[1], ' + ', $name-en-full[2])"/>
+        <xsl:message select="concat('ERROR: more than one full party name in English language for ', 
+                             @xml:id, ': ', $name-en-full[1], ' + ', $name-en-full[2])"/>
     </xsl:if>
     <xsl:if test="$name-en-abb[2]">
-	<xsl:message select="concat('ERROR: more than one abbrev party name in English language for ', 
-			     @xml:id, ': ', $name-en-abb[1], ' + ', $name-en-abb[2])"/>
+        <xsl:message select="concat('ERROR: more than one abbrev party name in English language for ', 
+                             @xml:id, ': ', $name-en-abb[1], ' + ', $name-en-abb[2])"/>
     </xsl:if>
     <xsl:if test="$name-xx-full[2]">
-	<xsl:message select="concat('ERROR: more than one full party name in local language for ', 
-			     @xml:id, ': ', $name-xx-full[1], ' + ', $name-xx-full[2])"/>
+        <xsl:message select="concat('ERROR: more than one full party name in local language for ', 
+                             @xml:id, ': ', $name-xx-full[1], ' + ', $name-xx-full[2])"/>
     </xsl:if>
     <xsl:if test="$name-xx-abb[2]">
-	<xsl:message select="concat('ERROR: more than one abbrev party name in local language for ', 
-			     @xml:id, ': ', $name-xx-abb[1], ' + ', $name-xx-abb[2])"/>
+        <xsl:message select="concat('ERROR: more than one abbrev party name in local language for ', 
+                             @xml:id, ': ', $name-xx-abb[1], ' + ', $name-xx-abb[2])"/>
     </xsl:if>
     <xsl:value-of select="et:output($name-xx-abb[1])"/>
     <xsl:text>&#9;</xsl:text>
@@ -91,7 +97,7 @@
     <xsl:param name="input"/>
     <xsl:choose>
       <xsl:when test="normalize-space($input)">
-	<xsl:value-of select="$input"/>
+        <xsl:value-of select="$input"/>
       </xsl:when>
       <xsl:otherwise>-</xsl:otherwise>
     </xsl:choose>

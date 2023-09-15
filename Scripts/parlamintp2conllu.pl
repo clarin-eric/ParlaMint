@@ -30,20 +30,21 @@ $outDir = File::Spec->rel2abs(shift);
 
 $Para  = 'parallel --gnu --halt 0 --jobs 10';
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
-$Convert = "$Bin/parlamint2conllu.xsl";
-$Meta = "$Bin/parlamint2meta.xsl";
-$Valid = "$Bin/tools/validate.py";
+$scriptConvert = "$Bin/parlamint2conllu.xsl";
+$scriptMeta = "$Bin/parlamint2meta.xsl";
+$scriptValid = "$Bin/tools/validate.py";
 
 $country2lang{'AT'} = 'de';
+$country2lang{'BA'} = 'sr';  # Should be 'bs', but UD does not support it!
 $country2lang{'BE'} = 'fr, nl';
 $country2lang{'BG'} = 'bg';
 $country2lang{'CZ'} = 'cs';
 $country2lang{'DK'} = 'da';
 $country2lang{'EE'} = 'et';
 $country2lang{'ES'} = 'es';
-$country2lang{'ES-CT'} = 'ca';
+$country2lang{'ES-CT'} = 'ca, es';
 $country2lang{'ES-GA'} = 'gl';
-$country2lang{'ES-PV'} = 'eu';
+$country2lang{'ES-PV'} = 'eu, es';
 $country2lang{'FI'} = 'fi';
 $country2lang{'FR'} = 'fr';
 $country2lang{'GB'} = 'en';
@@ -59,10 +60,11 @@ $country2lang{'NO'} = 'no';
 $country2lang{'PL'} = 'pl';
 $country2lang{'PT'} = 'pt';
 $country2lang{'RO'} = 'ro';
-$country2lang{'RO'} = 'ro';
+$country2lang{'RS'} = 'sr';
 $country2lang{'SE'} = 'sv';
 $country2lang{'SI'} = 'sl';
 $country2lang{'TR'} = 'tr';
+$country2lang{'UA'} = 'uk, ru';
 
 
 print STDERR "INFO: Converting directory $inDir\n";
@@ -74,9 +76,10 @@ foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
-my ($country, $langs) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
+my ($country, $translation_lang) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
     or die "Can't find country code in root file $rootAnaFile!\n";
-$langs = $country2lang{$country} unless defined $langs;
+if (defined $translation_lang) {$langs = $translation_lang}
+else {$langs = $country2lang{$country}}
 die "ERROR: Language is not defined for $country" unless defined $langs;
 
 #Store all files to be processed in $fileFile
@@ -91,27 +94,31 @@ close TMP;
 `rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-$command = "$Saxon meta=$rootAnaFile -xsl:$Meta {} > $outDir/{/.}-meta.tsv";
+$command = "$Saxon meta=$rootAnaFile -xsl:$scriptMeta {} > $outDir/{/.}-meta.tsv";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
 
-if ($langs !~ /,/) {
-    $command = "$Saxon meta=$rootAnaFile -xsl:$Convert {} > $outDir/{/.}.conllu";
-    `cat $fileFile | $Para '$command'`;
-    `rename 's/\.ana//' $outDir/*.conllu`;
-    $command = "python3 $Valid --lang $langs --level 1 {}";
-    `ls $outDir/*.conllu | $Para '$command'`;
-    $command = "python3 $Valid --lang $langs --level 2 {}";
-    `ls $outDir/*.conllu | $Para '$command'`;
-}
-else {
+# First produce common CoNLL-U, even if we have more languages in a corpus
+if ($langs !~ /,/) {$checkLang = $langs}
+else {($checkLang) = $langs =~ /(.+?),/}
+$command = "$Saxon meta=$rootAnaFile -xsl:$scriptConvert {} > $outDir/{/.}.conllu";
+`cat $fileFile | $Para '$command'`;
+`rename 's/\.ana//' $outDir/*.conllu`;
+$command = "python3 $scriptValid --lang $checkLang --level 1 {}";
+`ls $outDir/*.conllu | $Para '$command'`;
+$command = "python3 $scriptValid --lang $checkLang --level 2 {}"
+    unless defined $translation_lang; #MTed corpora do not have syntactic parses
+`ls $outDir/*.conllu | $Para '$command'`;
+
+# Now produce CoNLL-Us for separate langauges, if we have them
+if ($langs =~ /,/) {
     foreach $lang (split(/,\s*/, $langs)) {
-	$command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$Convert {} > $outDir/{/.}-$lang.conllu";
-	`cat $fileFile | $Para '$command'`;
-	`rename 's/\.ana//' $outDir/*.conllu`;
-	$command = "python3 $Valid --lang $lang --level 1 {}";
-	`ls $outDir/*.conllu | $Para '$command'`;
-	$command = "python3 $Valid --lang $lang --level 2 {}";
-	`ls $outDir/*.conllu | $Para '$command'`;
+        $command = "$Saxon meta=$rootAnaFile seg-lang=$lang -xsl:$scriptConvert {} > $outDir/{/.}-$lang.conllu";
+        `cat $fileFile | $Para '$command'`;
+        `rename 's/\.ana//' $outDir/*.conllu`;
+        $command = "python3 $scriptValid --lang $lang --level 1 {}";
+        `ls $outDir/*.conllu | $Para '$command'`;
+        $command = "python3 $scriptValid --lang $lang --level 2 {}";
+        `ls $outDir/*.conllu | $Para '$command'`;
     }
 }

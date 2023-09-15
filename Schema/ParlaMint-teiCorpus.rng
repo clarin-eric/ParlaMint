@@ -15,10 +15,12 @@
       <a:documentation>Root element of a ParlaMint corpus root file.</a:documentation>
       <element name="teiCorpus">
         <ref name="id.att"/>
-	<a:documentation>Obligatory @xml:lang.</a:documentation>
+        <a:documentation>Obligatory @xml:lang.</a:documentation>
         <attribute name="xml:lang">
           <ref name="lang.val"/>
         </attribute>
+	<a:documentation>Optional @corresp for MTed corpora.</a:documentation>
+	<ref name="corresp.att"/>
         <ref name="teiHeader"/>
         <oneOrMore>
           <ref name="XInclude"/>
