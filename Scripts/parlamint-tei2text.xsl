@@ -13,7 +13,7 @@
   <xsl:param name="element">u</xsl:param>
 
   <xsl:template match="/">
-    <!--xsl:message select="concat('INFO: converting ', tei:TEI/@xml:id, ' to text')"/-->
+    <xsl:message select="concat('INFO: converting ', tei:TEI/@xml:id, ' to text file')"/>
     <xsl:apply-templates select="//tei:*[local-name() = $element]"/>
   </xsl:template>
   

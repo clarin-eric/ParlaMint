@@ -25,7 +25,7 @@
       </titleStmt>
       <publicationStmt>
         <publisher>CLARIN</publisher>
-        <date>2023-08-22</date>
+        <date>2023-10-09</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
           redistribute it in any way without further reference or permissions.</p>
@@ -48,6 +48,7 @@
       </projectDesc>
     </encodingDesc>
     <revisionDesc>
+      <change when="2023-10-09">Tomaž Erjavec: Allow multilingual names.</change>
       <change when="2023-08-22">Tomaž Erjavec: Change description of org/state.</change>
       <change when="2023-07-17">Tomaž Erjavec: Add org/@role='federatedState'.</change>
       <change when="2023-06-13">Tomaž Erjavec: Start work on section for MT.</change>
@@ -71,7 +72,7 @@
           corpora</ref></titlePart>
         </docTitle>
         <!--docEdition>v0.3a</docEdition-->
-        <docDate>2023-08-22</docDate>
+        <docDate>2023-10-09</docDate>
         <!--byline>Tomaž Erjavec, Matyáš Kopp, Katja Meden</byline-->
       </titlePage>
       <p></p>
@@ -1533,7 +1534,42 @@
             </person>
           </egXML>
           </p>
+	  
+          <p>Finally, the name of the person, their place of birth etc. can als be written in several languages or scripts,
+	  as illustrated below:
 
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:id="exa-person-langs">
+	    <person xml:id="PlevnelievRosen">
+	      <persName xml:lang="bg">
+		<forename>Росен</forename>
+		<surname>Асенов</surname>
+		<surname>Плевнелиев</surname>
+	      </persName>
+	      <persName xml:lang="en">
+		<forename>Rosen</forename>
+		<surname>Asenov</surname>
+		<surname>Plevneliev</surname>
+	      </persName>
+	      <sex value="M"/>
+	      <birth when="1964-05-14">
+		<placeName>Гоце Делчев</placeName>
+		<placeName xml:lang="bg-Latn">Gotse Delchev</placeName>
+	      </birth>
+	      <education>Висшия машинно-електротехнически институт в София, със специалност „изчислителна техника“</education>
+	      <education xml:lang="bg-Latn">Visshiya mashinno-elektrotehnicheski institut v Sofiya, sas spetsialnost „izchislitelna tehnika“</education>
+	      <occupation>политик</occupation>
+	      <occupation xml:lang="bg-Latn">politik</occupation>
+	      <affiliation from="2012-01-22" ref="#republic.Bulgaria" role="member" to="2017-01-21"/>
+	      <affiliation from="2012-01-22" ref="#republic.Bulgaria" role="head" to="2017-01-21">
+		<roleName xml:lang="bg">4-и президент на Република България</roleName>
+		<roleName xml:lang="bg-Latn">4-i prezident na Republika Balgariya</roleName>
+	      </affiliation>
+	      <idno type="URI" subtype="wikimedia">https://bg.wikipedia.org/wiki/Росен_Плевнелиев</idno>
+	      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Rosen_Plevneliev</idno>
+	    </person>
+          </egXML>
+	  </p>
+	  
           <div xml:id="sec-affiliation">
             <head>Speaker affiliations</head>
 

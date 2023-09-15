@@ -23,6 +23,43 @@
   <!-- String to put at the start and end of "incidents", i.e. transcriber notes -->
   <xsl:param name="note-open">[</xsl:param>
   <xsl:param name="note-close">]</xsl:param>
+
+  <!-- Label for multilingual utterances -->
+  <!-- Note that this label should be ideally translated into all (or at least those that have multilingual utterances, e.g. BE, UA) 
+       the ParlaMint languages as well, i.e. "mul" should be in their langUsage -->
+  <xsl:param name="multilingual-label">Multilingual</xsl:param>
+  
+  <xsl:variable name="text_id" select="replace(/tei:TEI/@xml:id, '\.ana', '')"/>
+  
+  <!-- Store sub title, if it exists, otherwise main title -->
+  <xsl:variable name="title">
+    <xsl:variable name="titles" select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+    <xsl:variable name="subtitles" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
+    <xsl:choose>
+      <xsl:when test="normalize-space($subtitles[2])">
+	<xsl:variable name="joined-subtitles">
+	  <xsl:for-each select="$subtitles/self::tei:*">
+	    <xsl:value-of select="concat(., ' + ')"/>
+	  </xsl:for-each>
+	</xsl:variable>
+        <xsl:message>
+          <xsl:text>INFO: Joining subtitles: </xsl:text>
+          <xsl:value-of select="replace($joined-subtitles, ' \+ $', '')"/>
+          <xsl:text> in </xsl:text>
+          <xsl:value-of select="/tei:*/@xml:id"/>
+        </xsl:message>
+	<xsl:value-of select="replace($joined-subtitles, ' \+ $', '')"/>
+      </xsl:when>
+      <xsl:when test="normalize-space($subtitles)">
+        <xsl:value-of select="$subtitles"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:variable name="main-title" select="et:l10n($corpus-language, $titles[@type='main'])"/>
+	<!-- Remove [ParlaMint] stamp -->
+        <xsl:value-of select="replace($main-title, '\s*\[.+\]$', '')"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:variable>
   
   <xsl:template match="@*"/>
   <xsl:template match="text()"/>
@@ -35,28 +72,11 @@
   </xsl:template>
 
   <xsl:template match="tei:TEI">
-    <xsl:variable name="text_id" select="replace(@xml:id, '\.ana', '')"/>
-    <xsl:variable name="title">
-      <xsl:variable name="titles" select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-      <xsl:variable name="subtitle" select="et:l10n($corpus-language, $titles[@type='sub'])"/>
-      <xsl:choose>
-        <xsl:when test="normalize-space($subtitle)">
-          <xsl:value-of select="$subtitle"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="et:l10n($corpus-language, $titles[1])"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:apply-templates  select="tei:text/tei:body/tei:div[tei:u]/tei:*">
-      <xsl:with-param name="text_id" select="$text_id"/>
-      <xsl:with-param name="title" select="$title"/>
-    </xsl:apply-templates>
+    <xsl:message select="concat('INFO: Converting ', @xml:id, ' to vertical')"/>
+    <xsl:apply-templates  select="tei:text/tei:body/tei:div[tei:u]/tei:*"/>
   </xsl:template>
   
   <xsl:template match="tei:div/tei:u">
-    <xsl:param name="text_id"/>
-    <xsl:param name="title"/>
     <xsl:variable name="speech_id" select="replace(@xml:id, '\.ana', '')"/>
     <xsl:variable name="lang">
       <xsl:variable name="defaultLang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
@@ -78,8 +98,7 @@
 	</xsl:when>
 	<!-- Multilingual content -->
 	<xsl:when test="tokenize($langs)[2]">
-	<!-- This should be translated as well! -->
-	  <xsl:text>Multilingual</xsl:text>
+	  <xsl:value-of select="$multilingual-label"/>
 	</xsl:when>
 	<xsl:otherwise>
 	  <xsl:value-of select="et:l10n($corpus-language, 
@@ -93,7 +112,7 @@
             date="{$at-date}" title="{$title}">
       <xsl:attribute name="speaker_role" select="et:u-role(@ana)"/>
       <xsl:choose>
-        <xsl:when test="@who">
+        <xsl:when test="key('idr', @who, $rootHeader)/@xml:id">
           <xsl:variable name="speaker" select="key('idr', @who, $rootHeader)"/>
           <xsl:attribute name="speaker_id" select="$speaker/@xml:id"/>
           <xsl:attribute name="speaker_name" select="et:format-name-chrono(
@@ -108,6 +127,11 @@
           <xsl:attribute name="speaker_gender" select="$speaker/tei:sex/@value"/>
           <xsl:attribute name="speaker_birth" select="replace($speaker/tei:birth/@when, '-.+', '')"/>
         </xsl:when>
+	<!-- A speaker that does not have a corresponding <person> element -->
+        <xsl:when test="normalize-space(@who)">
+          <xsl:message select="concat('ERROR: cannot find person ', @who, ' for ', $text_id)"/>
+	</xsl:when>
+	<!-- No @who, legit if speaker is unknown -->
         <xsl:otherwise>
           <xsl:attribute name="speaker_id"/>
           <xsl:attribute name="speaker_name"/>
