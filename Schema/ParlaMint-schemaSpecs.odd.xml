@@ -6129,10 +6129,11 @@
       </exemplum>
    </elementSpec>
    <elementSpec ident="birth" module="namesdates" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains information about a person's birth, such as its date and place.</desc>
+      <desc versionDate="2023-09-10" xml:lang="en">contains information about a person's birth, obligatorily its date and optionaly the place.
+    Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
       <content>
          <alternate>
-            <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="placeName" minOccurs="0"/>
             <empty/>
          </alternate>
       </content>
@@ -6206,19 +6207,21 @@
             </person>
          </egXML>
       </exemplum>
-      <exemplum xml:lang="en">
+      <exemplum xml:lang="bg">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <birth when="1966-03-22">
-               <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
+            <birth when="1963-06-18">
+               <placeName xml:lang="bg">Димитровград</placeName>
+               <placeName xml:lang="bg-Latn">Dimitrovgrad</placeName>
             </birth>
          </egXML>
       </exemplum>
    </elementSpec>
    <elementSpec ident="death" module="namesdates" mode="change">
-      <desc versionDate="2005-12-13" xml:lang="en">contains information about a person's death, such as its date and place.</desc>
+      <desc versionDate="2023-09-10" xml:lang="en">contains information about a person's death, obligatorily its date and optionaly the place.
+    Note that there can be several placeNames, all referring to the same place, but written in different languages or scripts.</desc>
       <content>
          <alternate>
-            <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="placeName" minOccurs="0"/>
             <empty/>
          </alternate>
       </content>
@@ -6289,16 +6292,24 @@
             <death when="2020-12-29"/>
          </egXML>
       </exemplum>
+      <exemplum xml:lang="bg">
+         <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
+            <death when="2020-06-08">
+               <placeName>София</placeName>
+               <placeName xml:lang="bg-Latn">Sofiya</placeName>
+            </death>
+         </egXML>
+      </exemplum>
    </elementSpec>
    <elementSpec ident="placeName" module="namesdates" mode="change">
-      <desc versionDate="2005-01-14" xml:lang="en">contains an absolute or relative place name.</desc>
+      <desc versionDate="2023-10-09" xml:lang="en">contains a place name.</desc>
       <content>
          <alternate>
             <elementRef key="name" minOccurs="0" maxOccurs="1"/>
             <textNode/>
          </alternate>
       </content>
-      <attList><!--placeName/@ref-->
+      <attList><!--placeName/@xml:lang--><!--placeName/@ref-->
          <attDef ident="calendar" mode="delete"/>
          <attDef ident="period" mode="delete"/>
          <attDef ident="when" mode="delete"/>
@@ -6322,7 +6333,6 @@
          <attDef ident="instant" mode="delete"/>
          <attDef ident="xml:id" mode="delete"/>
          <attDef ident="n" mode="delete"/>
-         <attDef ident="xml:lang" mode="delete"/>
          <attDef ident="xml:base" mode="delete"/>
          <attDef ident="xml:space" mode="delete"/>
          <attDef ident="rend" mode="delete"/>
@@ -6352,16 +6362,12 @@
       </attList>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <birth when="1966-03-22">
-               <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
-            </birth>
+            <placeName ref="https://www.geonames.org/2523918">Palermo</placeName>
          </egXML>
       </exemplum>
       <exemplum xml:lang="en">
          <egXML xmlns="http://www.tei-c.org/ns/Examples" source="#ParlaMint">
-            <birth when="1952-06-06">
-               <placeName>Tours-Saint-Symphorien, Indre-et-Loire</placeName>
-            </birth>
+            <placeName>Tours-Saint-Symphorien, Indre-et-Loire</placeName>
          </egXML>
       </exemplum>
    </elementSpec>
