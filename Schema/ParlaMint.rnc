@@ -236,10 +236,10 @@ figure =
 
 ## The content of elements that describe life events: they can have an partial
 ##     date (e.g. year only) in temporal attributes. The content can be empty, or gives the placeName
-##     where the event happened.
+##     where the event happened. There can be several placenames in different langauges or scripts.
 life-event.content =
   attribute when { xsd:date | xsd:gYearMonth | xsd:gYear },
-  element placeName { ref.att, normalized-space.string }?
+  element placeName { lang.att, ref.att, normalized-space.string }*
 
 ## The event (or duration) connected with an organisatoin, e.g. the period of its
 ##     existence.

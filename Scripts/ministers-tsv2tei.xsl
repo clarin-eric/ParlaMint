@@ -69,7 +69,7 @@
               <xsl:choose>
                 <xsl:when test = "not(key('id', $personID, $listPerson))">
                   <xsl:message terminate="no"
-                               select="concat('ERROR: Person ', $personID, 
+                               select="concat('WARN: TSV person ', $personID, 
                                        ' not found in TEI corpus, skipping!')"/>
                 </xsl:when>
                 <xsl:otherwise>

@@ -1,4 +1,8 @@
 ###### Preparing the received corpora
+CORPUS = HU
+one:
+	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies 'Orig/ParlaMint-${CORPUS}.TEI*'
+	../../Scripts/add-metadata.pl ../Orientations ../Ministers 'Orig/ParlaMint-${CORPUS}.TEI*' '.'
 
 nohup:
 	nohup time make prep > preparation.log &
