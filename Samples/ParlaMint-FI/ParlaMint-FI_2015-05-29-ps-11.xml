@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 11 [ParlaMint]</title>
-            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 11 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 11 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 11 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary session 11/2015, 2015-05-29</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistunnon 11/2015 pöytäkirja, 2015-05-29</title>
             <meeting ana="#parla.uni #parla.term #parl_term.2015"
@@ -31,7 +31,12 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-<extent><measure unit="speeches" quantity="10" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="10" xml:lang="en">speeches</measure><measure unit="words" quantity="611" xml:lang="fi">sanat</measure><measure unit="words" quantity="611" xml:lang="en">words</measure></extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="10" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="10" xml:lang="en">speeches</measure>
+            <measure unit="words" quantity="611" xml:lang="fi">sanat</measure>
+            <measure unit="words" quantity="611" xml:lang="en">words</measure>
+         </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -46,7 +51,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-09-01">2023-09-01</date>
+            <date when="2023-09-16">2023-09-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -71,7 +76,7 @@
             <p xml:lang="fi">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="4"/>
@@ -94,6 +99,10 @@
             </setting>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-16">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <text ana="#parla.sitting #reference">
       <body>
@@ -106,6 +115,9 @@
                xml:id="ParlaMint-FI_2015-05-29-ps-11.u1">
                <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg1">Valtioneuvoston jäseneksi nimitetyn edustaja Timo Soinin tilalle on valittava uusi eduskunnan ensimmäinen varapuhemies. Ensimmäisen varapuhemiehen vaali toimitetaan tänään pidettävässä toisessa täysistunnossa.</seg>
             </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
          </div>
          <div type="debateSection">
             <head>Puhemiehen vaali</head>
@@ -117,47 +129,11 @@
                xml:id="ParlaMint-FI_2015-05-29-ps-11.u2">
                <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg2">Nyt seuraa puhemiehen vaali, joka toimitetaan noudattamalla  Suomen  perustuslain 34 §:n 2 momentin ja eduskunnan  vaalisäännön 5 ja 6 §:n säännöksiä. Vaali toimitetaan siis umpilipuin. Edustajat tuovat äänestyslippunsa uurnaan nimenhuudon mukaan, joka toimitetaan aakkosjärjestyksessä. Pyydän huomauttaa, että ehdokkaan nimi on yksilöitävä riittävällä tarkkuudella tarvittaessa myös etunimeä käyttäen. Nu följer val av talman, vilket förrättas enligt 34 § 2 momentet i Finlands grundlag och 5 och 6 § i valstadgan för riksdagen. Valet förrättas således med slutna röstsedlar. Riksdagsledamöterna ska enligt namnupprop i alfabetisk ordning lägga röstsedeln i urnan. Jag vill påminna om att kandidatens namn ska anges tillräckligt tydligt. Vid behov kan också förnamnet anges. Avustajiksi äänestyslippujen tarkastamiseen ja äänten laskemiseen vaalissa pyydän seuraavat edustajat: Timo Kalli, Juho Eerola, Arto Satonen ja Antti Lindtman. Jag ber följande riksdagsledamöter granska röstsedlarna och räkna rösterna vid valet: Timo Kalli, Juho Eerola, Arto Satonen och Antti Lindtman. Totean, että annettuja ääniä ei julkilueta. Jag ber er notera att namnen på röstsedlarna inte läses upp.</seg>
             </u>
-            <u ana="#chair"
-               who="#BenZyskowicz"
-               xml:id="ParlaMint-FI_2015-05-29-ps-11.u3">
-               <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg3">Äänestyksen tulos luetaan.</seg>
-            </u>
-            <u ana="#chair"
-               who="#BenZyskowicz"
-               xml:id="ParlaMint-FI_2015-05-29-ps-11.u4">
-               <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg4">Kun edustaja Lohela on saanut vaalissa enemmän kuin puolet annetuista hyväksytyistä äänistä, on hänet valittu eduskunnan puhemieheksi vuoden 2015 valtiopäivien jäljellä olevaksi ajaksi. Eftersom ledamot Lohela vid valet erhållit mer än hälften av de avgivna godkända rösterna, har hon valts till talman för den återstående tiden av riksmötet 2015. Onnittelen, gratulerar!</seg>
-            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
          </div>
          <div type="debateSection">
-            <head>Ilmoituksia - Muut ilmoitukset</head>
-            <pb n="1"
-                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_11+2015+4.1.aspx"/>
-            <u ana="#chair"
-               who="#BenZyskowicz"
-               xml:id="ParlaMint-FI_2015-05-29-ps-11.u5">
-               <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg5">Pyydän puhemiestä antamaan eduskunnalle työjärjestyksen 4 §:ssä säädetyn juhlallisen vakuutuksen. Jag ber talmannen att inför riksdagen avge sin högtidliga försäkran i enlighet med 4 § i arbetsordningen.</seg>
-            </u>
-            <u ana="#chair"
-               who="#MariaLohela"
-               xml:id="ParlaMint-FI_2015-05-29-ps-11.u6">
-               <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg6">Minä Maria Lohela vakuutan, että minä puhemiehenä voimieni mukaan puolustan Suomen kansan ja eduskunnan oikeutta valtiosäännön mukaan. Jag Maria Lohela försäkrar att jag som talman efter all min förmåga skall försvara finska folkets och riksdagens rättigheter enligt konstitutionen.</seg>
-            </u>
-            <u ana="#chair"
-               who="#BenZyskowicz"
-               xml:id="ParlaMint-FI_2015-05-29-ps-11.u7">
-               <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg7">Pyydän rouva puhemiestä ottamaan paikkansa eduskunnassa ja ryhtymään toimeensa. Jag ber riksdagens fru talman inta talmannens plats och börja utöva sin befattning.</seg>
-            </u>
-            <u ana="#chair"
-               who="#MariaLohela"
-               xml:id="ParlaMint-FI_2015-05-29-ps-11.u8">
-               <seg xml:id="ParlaMint-FI_2015-05-29-ps-11.seg8">Arvoisat kansanedustajat, ärade riksdagsledamöter! Kiitän osoittamastanne luottamuksesta. Tulemme varapuhemiesten kanssa tekemään kaikkemme, että eduskunta voi hoitaa tärkeän ja vastuullisen tehtävänsä parhaalla mahdollisella tavalla. Jag tackar för det förtroende ni har visat mig. Tillsammans med vice talmännen ska vi göra vårt bästa för att riksdagen så framgångsrikt som möjligt ska kunna sköta sin viktiga och ansvarsfulla uppgift. Maailma ympärillämme, lähempänä ja kauempana, ei ole yksinkertaistunut, vaan monimutkaistunut. Se tuo eteemme pulmia ja haasteita, jotka on kyettävä ratkaisemaan, joskus nopeasti. Siinä meitä auttaa rohkeus, avoimuus ja periksiantamattomuus. Edessämme on monia vaikeita kysymyksiä ja päätettäviä asioita. Suomen talouden tila on vakava. Velaksi ei voi elää loputtomiin. Korkea työttömyys tulee kalliiksi yhteiskunnalle, eikä kaikkia sen vaikutuksia voi edes mitata rahassa. Samanaikaisesti meidän on kyettävä kannattelemaan ja auttamaan vaikeiden aikojen yli niitä, jotka tarvitsevat toisten apua. Uusi hallitus on laatinut ohjelman, jolla se pyrkii kääntämään maamme parempaan suuntaan. Hallitus tuo oman ratkaisuvaihtoehtonsa eduskunnan puntaroitavaksi ensi viikolla. Oppositiopuolueiden ainutlaatuinen ja merkityksellinen rooli on vastata siihen omilla ideoillaan ja esityksillään. Täysistuntosali on pohdiskeltujen, perusteltujen ja spontaanienkin sanojen ja ajatusten ilmaisukenttä, jossa ei ole vääriä mielipiteitä. Kansanedustajat ovat paljon vartijoina. Kansanedustajat päättävät yli viittä miljoonaa ihmistä koskevista asioista. Ottakaamme työ vakavasti ja olkaamme sen arvoisia. Kunnioitetaan toisiamme, sillä jokaisen panos yhteisten asioiden ajamisessa on tärkeä. Riksdagsledamöterna har ett stort ansvar att axla. De ska fatta beslut som berör över fem miljoner människor. Låt oss ta vårt uppdrag på allvar och leva upp till förväntningarna. Vi måste respektera varandra och förstå att allas insats är viktig när man driver gemensamma frågor. Arvoisat kansanedustajat, ärade riksdagsledamöter! Jag önskar er handlingskraft och framgång i ert arbete för Finlands bästa. Toivon teille tarmoa ja mitä parasta menestystä työssänne Suomen puolesta.</seg>
-            </u>
-         </div>
-         <div type="debateSection">
-            <head>Toisen varapuhemiehen vapautuspyyntö</head>
-            <note type="relatedDocument">Vapautuspyyntö VAP 2/2015 vp</note>
-            <pb n="1"
-                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_11+2015+5.aspx"/>
             <u ana="#chair"
                who="#MariaLohela"
                xml:id="ParlaMint-FI_2015-05-29-ps-11.u9">

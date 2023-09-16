@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 9 [ParlaMint]</title>
-            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 9 [ParlaMint]</title>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 9 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 9 [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary session 9/2015, 2015-05-28</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistunnon 9/2015 pöytäkirja, 2015-05-28</title>
             <meeting ana="#parla.uni #parla.term #parl_term.2015"
@@ -31,7 +31,12 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-<extent><measure unit="speeches" quantity="1" xml:lang="fi">puheet</measure><measure unit="speeches" quantity="1" xml:lang="en">speeches</measure><measure unit="words" quantity="54" xml:lang="fi">sanat</measure><measure unit="words" quantity="54" xml:lang="en">words</measure></extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="1" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="1" xml:lang="en">speeches</measure>
+            <measure unit="words" quantity="54" xml:lang="fi">sanat</measure>
+            <measure unit="words" quantity="54" xml:lang="en">words</measure>
+         </extent>
          <publicationStmt>
             <publisher>
                <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
@@ -46,7 +51,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-09-01">2023-09-01</date>
+            <date when="2023-09-16">2023-09-16</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -71,7 +76,7 @@
             <p xml:lang="fi">
                <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
          </projectDesc>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="1"/>
                <tagUsage gi="div" occurs="1"/>
@@ -94,6 +99,10 @@
             </setting>
          </settingDesc>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-16">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <text ana="#parla.sitting #reference">
       <body>
@@ -107,6 +116,9 @@
                xml:id="ParlaMint-FI_2015-05-28-ps-9.u1">
                <seg xml:id="ParlaMint-FI_2015-05-28-ps-9.seg1">Päiväjärjestyksen 2. asiana on pääministerin valinta. Tasavallan presidentti on 28.5.2015 päivätyllä kirjelmällään antanut eduskunnalle Suomen perustuslain 61 §:n 2 momentissa tarkoitetun tiedon pääministeriehdokkaasta. Kirjelmä on saatettu eduskunnan tietoon jakamalla se edustajille. Työjärjestyksen 65 §:n 1 momentin mukaan asia on pantava pöydälle johonkin seuraavaan täysistuntoon. Puhemiesneuvosto ehdottaa, että asia pannaan pöydälle tänään pidettävään toiseen täysistuntoon.</seg>
             </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
          </div>
       </body>
    </text>
