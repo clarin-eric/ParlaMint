@@ -8,6 +8,46 @@
    <desc xml:lang="bg">
       <term>Законодателство</term>
    </desc>
+   <category xml:id="parla.geo-political">
+      <catDesc xml:lang="en">
+         <term>Geo-political or administrative units</term>
+      </catDesc>
+      <catDesc xml:lang="bg">
+         <term>Геополитически или административни единици</term>
+      </catDesc>
+      <category xml:id="parla.supranational">
+         <catDesc xml:lang="en">
+            <term>Supranational legislature</term>
+         </catDesc>
+         <catDesc xml:lang="bg">
+            <term>Наднационално законодателство</term>
+         </catDesc>
+      </category>
+      <category xml:id="parla.national">
+         <catDesc xml:lang="en">
+            <term>National legislature</term>
+         </catDesc>
+         <catDesc xml:lang="bg">
+            <term>Национално законодателство</term>
+         </catDesc>
+      </category>
+      <category xml:id="parla.regional">
+         <catDesc xml:lang="en">
+            <term>Regional legislature</term>
+         </catDesc>
+         <catDesc xml:lang="bg">
+            <term>Регионално законодателство</term>
+         </catDesc>
+      </category>
+      <category xml:id="parla.local">
+         <catDesc xml:lang="en">
+            <term>Local legislature</term>
+         </catDesc>
+         <catDesc xml:lang="bg">
+            <term>Местно законодателство</term>
+         </catDesc>
+      </category>
+   </category>
    <category xml:id="parla.organization">
       <catDesc xml:lang="en">
          <term>Organization</term>
@@ -20,15 +60,55 @@
             <term>Chambers</term>
          </catDesc>
          <catDesc xml:lang="bg">
-            <term>Парламент</term>
+            <term>Камари</term>
          </catDesc>
          <category xml:id="parla.uni">
             <catDesc xml:lang="en">
                <term>Unicameralism</term>
             </catDesc>
             <catDesc xml:lang="bg">
-               <term>Еднокамарен</term>
+               <term>Еднокамерност</term>
             </catDesc>
+         </category>
+         <category xml:id="parla.bi">
+            <catDesc xml:lang="en">
+               <term>Bicameralism</term>
+            </catDesc>
+            <catDesc xml:lang="bg">
+               <term>Двукамерност</term>
+            </catDesc>
+            <category xml:id="parla.upper">
+               <catDesc xml:lang="en">
+                  <term>Upper house</term>
+               </catDesc>
+               <catDesc xml:lang="bg">
+                  <term>Горна камара</term>
+               </catDesc>
+            </category>
+            <category xml:id="parla.lower">
+               <catDesc xml:lang="en">
+                  <term>Lower house</term>
+               </catDesc>
+               <catDesc xml:lang="bg">
+                  <term>Долна камара</term>
+               </catDesc>
+            </category>
+         </category>
+         <category xml:id="parla.multi">
+            <catDesc xml:lang="en">
+               <term>Multicameralism</term>
+            </catDesc>
+            <catDesc xml:lang="bg">
+               <term>Многокамерност</term>
+            </catDesc>
+            <category xml:id="parla.chamber">
+               <catDesc xml:lang="en">
+                  <term>Chamber</term>
+               </catDesc>
+               <catDesc xml:lang="bg">
+                  <term>Камара</term>
+               </catDesc>
+            </category>
          </category>
       </category>
       <category xml:id="parla.committee">
@@ -64,21 +144,6 @@
          </category>
       </category>
    </category>
-   <category xml:id="parla.geo-political">
-      <catDesc xml:lang="en">
-         <term>Geo-political or administrative units</term>
-      </catDesc>
-      <category xml:id="parla.supranational">
-         <catDesc xml:lang="en">
-            <term>Supranational legislature</term>
-         </catDesc>
-      </category>
-      <category xml:id="parla.national">
-         <catDesc xml:lang="en">
-            <term>National legislature</term>
-         </catDesc>
-      </category>
-   </category>
    <category xml:id="parla.term">
       <catDesc xml:lang="en">
          <term>Legislative period</term>: term of the parliament between general elections.</catDesc>
@@ -87,19 +152,26 @@
       </catDesc>
       <category xml:id="parla.session">
          <catDesc xml:lang="en">
-            <term>Legislative session</term>: the period of time in which a legislature is convened for purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections. A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or announced purpose.</catDesc>
+            <term>Legislative session</term>: the period of time in which a legislature is convened for
+      purpose of lawmaking, usually being one of two or more smaller divisions of the entire time between two elections.
+      A session is a meeting or series of connected meetings devoted to a single order of business, program, agenda, or
+      announced purpose.</catDesc>
          <catDesc xml:lang="bg">
             <term>Законодателна сесия</term>
          </catDesc>
          <category xml:id="parla.meeting">
             <catDesc xml:lang="en">
-               <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings constituting a session. The session/meeting may take one or more days.</catDesc>
+               <term>Meeting</term>: Each meeting may be a separate session or part of a group of meetings
+	constituting a session. The session/meeting may take one or more days.</catDesc>
             <catDesc xml:lang="bg">
                <term>Заседание</term>
             </catDesc>
             <category xml:id="parla.meeting-types">
                <catDesc xml:lang="en">
                   <term>Types of meetings</term>
+               </catDesc>
+               <catDesc xml:lang="bg">
+                  <term>Видове заседания</term>
                </catDesc>
                <category xml:id="parla.meeting.regular">
                   <catDesc xml:lang="en">
@@ -114,7 +186,7 @@
                      <term>Special meeting</term>
                   </catDesc>
                   <catDesc xml:lang="bg">
-                     <term>Специална заседание</term>
+                     <term>Специално заседание</term>
                   </catDesc>
                   <category xml:id="parla.meeting.extraordinary">
                      <catDesc xml:lang="en">
@@ -156,10 +228,21 @@
                         <term>Публично представяне на мнения</term>
                      </catDesc>
                   </category>
+                  <category xml:id="parla.meeting.committee">
+                     <catDesc xml:lang="en">
+                        <term>Committee meeting</term>
+                     </catDesc>
+                     <catDesc xml:lang="bg">
+                        <term>Заседание на комисия</term>
+                     </catDesc>
+                  </category>
                </category>
                <category xml:id="parla.meeting.continued">
                   <catDesc xml:lang="en">
                      <term>Continued meeting</term>
+                  </catDesc>
+                  <catDesc xml:lang="bg">
+                     <term>Възобновено заседание</term>
                   </catDesc>
                </category>
                <category xml:id="parla.meeting.public">
@@ -183,7 +266,7 @@
                <catDesc xml:lang="en">
                   <term>Sitting</term>: sitting day</catDesc>
                <catDesc xml:lang="bg">
-                  <term>заседател ден</term>
+                  <term>Заседателен ден</term>
                </catDesc>
             </category>
          </category>

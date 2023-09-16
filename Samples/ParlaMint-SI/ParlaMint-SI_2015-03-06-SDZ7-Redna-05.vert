@@ -1,6 +1,10 @@
 <note type="head" content="DRŽAVNI ZBOR"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u1" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Reference" body="Lower house" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 5, (06. 03. 2015)" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="-" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" speaker_gender="M" speaker_birth="1967">
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1" lang="Slovenian">
+<note type="head" content="nadaljevanje 5. seje"/>
+<note type="head" content="Sejo so vodili predsednik Državnega zbora dr. Milan Brglez ter podpredsednika Primož Hainz in Andreja Katič."/>
+<note type="time" content="Seja se je začela ob 10.04."/>
+<note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u1" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Predsedujoči" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1967">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg1.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	1	amod	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 kolegice	kolegice	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -17,7 +21,7 @@ gospodje	gospodje	gospod	NOUN	Case=Nom Gender=Masc Number=Plur	10	conj	poslanec	
 !	!	!	PUNCT		11	punct	kolegica	NOUN	Case=Nom Gender=Fem Number=Plur	2
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg2.1">
 Začenjam	Začenjam	začenjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 z	z	z	ADP	Case=Ins	2	case	nadaljevanje	NOUN	Case=Ins Gender=Neut Number=Sing	3
@@ -32,7 +36,7 @@ zbora	zbora	zbor	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	seja	NOUN	Case=Gen
 .	.	.	PUNCT		8	punct	začenjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg3.1">
 Obveščen	Obveščen	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	root	-	-	-	-
 sem	sem	biti	AUX	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
@@ -186,7 +190,7 @@ Grims	Grims	Grims	PROPN	Case=Nom Gender=Masc Number=Sing	94	flat:name	Branko	PRO
 .	.	.	PUNCT		95	punct	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg4.1">
 Vse	Vse	ves	DET	Case=Acc Gender=Masc Number=Plur PronType=Tot	1	nmod	prisoten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	2
 prisotne	prisotne	prisoten	ADJ	Case=Acc Degree=Pos Gender=Fem Number=Plur	2	obj	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
@@ -196,7 +200,7 @@ pozdravljam	pozdravljam	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person
 .	.	.	PUNCT		5	punct	pozdravljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	4
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg5.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	27	NUM	NumForm=Digit NumType=Card	3
@@ -232,7 +236,7 @@ MARIBORU	MARIBORU	Maribor	PROPN	Case=Loc Gender=Masc Number=Sing	20	nmod	univerz
 .	.	.	PUNCT		21	punct	biti	VERB	Mood=Ind Number=Sing Person=3 Polarity=Pos Tense=Pres VerbForm=Fin	6
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg6.1">
 Predlog	Predlog	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1	obj	predložiti	VERB	Aspect=Perf Gender=Fem Number=Sing VerbForm=Part	8
 odloka	odloka	odlok	NOUN	Case=Gen Gender=Masc Number=Sing	2	nmod	predlog	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	1
@@ -290,8 +294,8 @@ Mačku	Mačku	Maček	PROPN	Case=Dat Gender=Masc Number=Sing	24	flat:name	Peter	P
 </p>
 </speech>
 <note type="speaker" content="DR. PETER MAČEK:"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u2" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Reference" body="Lower house" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 5, (06. 03. 2015)" speaker_role="Regular" speaker_id="MačekPeter" speaker_name="Maček, Peter" speaker_mp="notMP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="">
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7" lang="Slovenian">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u2" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Navadni" speaker_id="MačekPeter" speaker_name="Maček, Peter" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg7.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	gospod	NOUN	Case=Nom Gender=Masc Number=Sing	2
 gospod	gospod	gospod	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -314,7 +318,7 @@ poslanci	poslanci	poslanec	NOUN	Case=Nom Gender=Masc Number=Plur	4	conj	poslanka
 !	!	!	PUNCT		5	punct	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	2
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg8.1">
 S	S	z	ADP	Case=Ins	1	case	predlog	NOUN	Case=Ins Gender=Masc Number=Sing	2
 Predlogom	Predlogom	predlog	NOUN	Case=Ins Gender=Masc Number=Sing	2	obl	spreminjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	15
@@ -513,8 +517,8 @@ lepa	lepa	lep	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Sing	2	amod	hvala	NOUN	C
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u160" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Reference" body="Lower house" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 5, (06. 03. 2015)" speaker_role="Regular" speaker_id="KovačičMarijaAntonija" speaker_name="Kovačič, Marija Antonija" speaker_mp="MP" speaker_minister="-" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" speaker_gender="F" speaker_birth="1946">
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564" lang="Slovenian">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u160" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Navadni" speaker_id="KovačičMarijaAntonija" speaker_name="Kovačič, Marija Antonija" speaker_mp="MP" speaker_minister="notMinister" speaker_party="DeSUS" speaker_party_name="Demokratična stranka upokojencev Slovenije" party_status="Coalition" party_orientation="" speaker_gender="F" speaker_birth="1946">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg564.1">
 Spoštovani	Spoštovani	spoštovan	ADJ	Case=Nom Definite=Def Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	amod	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
 predsednik	predsednik	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2	root	-	-	-	-
@@ -530,7 +534,7 @@ pozdrav	pozdrav	pozdrav	NOUN	Case=Nom Gender=Masc Number=Sing	8	conj	predsednik	
 !	!	!	PUNCT		9	punct	predsednik	NOUN	Case=Nom Gender=Masc Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg565.1">
 Sredi	Sredi	sredi	ADP	Case=Gen	1	case	januar	NOUN	Case=Gen Gender=Masc Number=Sing	2
 januarja	januarja	januar	NOUN	Case=Gen Gender=Masc Number=Sing	2	obl	ugotoviti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	18
@@ -748,7 +752,7 @@ voda	voda	voda	NOUN	Case=Gen Gender=Fem Number=Plur	44	nmod	področje	NOUN	Case=
 .	.	.	PUNCT		45	punct	prebrati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	3
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg566.1">
 Razpoložljiva	Razpoložljiva	razpoložljiv	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur	1	amod	sredstvo	NOUN	Case=Nom Gender=Neut Number=Plur	2
 sredstva	sredstva	sredstvo	NOUN	Case=Nom Gender=Neut Number=Plur	2	nsubj	rabljen	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Plur VerbForm=Part	6
@@ -876,7 +880,7 @@ roki	roki	rok	NOUN	Case=Ins Gender=Masc Number=Plur	45	obl	skladno	ADV	Degree=Po
 .	.	.	PUNCT		46	punct	priznavati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg567.1">
 <name type="ORG">
 Računsko	Računsko	računski	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	1	amod	sodišče	NOUN	Case=Nom Gender=Neut Number=Sing	2
@@ -1006,7 +1010,7 @@ evrov	evrov	evro	NOUN	Case=Gen Gender=Masc Number=Plur	25	nmod	milijon	NOUN	Case
 .	.	.	PUNCT		26	punct	računati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	11
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg568.1">
 <name type="ORG">
 Računsko	Računsko	računski	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	1	amod	sodišče	NOUN	Case=Nom Gender=Neut Number=Sing	2
@@ -1172,7 +1176,7 @@ evrov	evrov	evro	NOUN	Case=Gen Gender=Masc Number=Plur	37	nmod	milijon	NOUN	Case
 .	.	.	PUNCT		38	punct	zbran	ADJ	Case=Gen Degree=Pos Gender=Masc Number=Plur VerbForm=Part	12
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg569.1">
 <name type="PER">
 Desus	Desus	DeSUS	PROPN	Case=Nom Gender=Masc Number=Sing	1	nsubj	strinjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
@@ -1214,8 +1218,8 @@ proti	proti	proti	ADV	Degree=Pos	28	advmod	glasovati	VERB	Gender=Neut Number=Sin
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK DR. MILAN BRGLEZ:"/>
-<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u161" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Reference" body="Lower house" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Minutes of the National Assembly of the Republic of Slovenia, Term 7, Regular Session 5, (06. 03. 2015)" speaker_role="Chairperson" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="-" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" speaker_gender="M" speaker_birth="1967">
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570" lang="Slovenian">
+<speech id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.u161" text_id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="7" session="" meeting="5" sitting="" agenda="" date="2015-03-06" title="Zapisi sej Državnega zbora Republike Slovenije, Redna 7. mandat, 5. redna seja (6. 3. 2015)" speaker_role="Predsedujoči" speaker_id="BrglezMilan" speaker_name="Brglez, Milan" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SMC" speaker_party_name="Stranka Mira Cerarja" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1967">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg570.1">
 Končali	Končali	končati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1	root	-	-	-	-
 smo	smo	biti	AUX	Mood=Ind Number=Plur Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	aux	končati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1
@@ -1228,7 +1232,7 @@ skupin	skupin	skupina	NOUN	Case=Gen Gender=Fem Number=Plur	7	nmod	stališče	NOU
 .	.	.	PUNCT		8	punct	končati	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	1
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg571.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	razprava	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -1258,7 +1262,7 @@ dne	dne	dan	NOUN	Case=Gen Gender=Masc Number=Sing	20	nmod	amandma	NOUN	Case=Gen 
 .	.	.	PUNCT		24	punct	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg572.1">
 V	V	v	ADP	Case=Acc	1	case	razprava	NOUN	Case=Acc Gender=Fem Number=Sing	2
 razpravo	razpravo	razprava	NOUN	Case=Acc Gender=Fem Number=Sing	2	obl	dajati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
@@ -1288,7 +1292,7 @@ Ne	Ne	ne	PART	Polarity=Neg	1	root	-	-	-	-
 .	.	.	PUNCT		2	punct	ne	PART	Polarity=Neg	1
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg573.1">
 Ker	Ker	ker	SCONJ		1	mark	želeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 ne	ne	ne	PART	Polarity=Neg	2	advmod	želeti	VERB	Aspect=Imp Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
@@ -1334,7 +1338,7 @@ glasovanj	glasovanj	glasovanje	NOUN	Case=Gen Gender=Neut Number=Plur	22	nmod	okv
 .	.	.	PUNCT		23	punct	odločati	VERB	Aspect=Imp Gender=Masc Number=Plur VerbForm=Part	12
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg574.1">
 S	S	z	ADP	Case=Ins	1	case	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2
 tem	tem	ta	DET	Case=Ins Gender=Neut Number=Sing PronType=Dem	2	obl	prekinjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
@@ -1347,7 +1351,7 @@ reda	reda	red	NOUN	Case=Gen Gender=Masc Number=Sing	7	nmod	točka	NOUN	Case=Acc 
 .	.	.	PUNCT		8	punct	prekinjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg575.1">
 Drage	Drage	drag	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur	1	amod	državljanka	NOUN	Case=Nom Gender=Fem Number=Plur	2
 državljanke	državljanke	državljanka	NOUN	Case=Nom Gender=Fem Number=Plur	2	nsubj	dovoliti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=2 Tense=Pres VerbForm=Fin	4
@@ -1419,7 +1423,7 @@ dan	dan	dan	NOUN	Animacy=Inan Case=Acc Gender=Masc Number=Sing	35	conj	vsepovsod
 .	.	.	PUNCT		36	punct	pozivati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	9
 </s>
 </p>
-<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576" lang="Slovenian">
+<p id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576" lang="slovenski">
 <s id="ParlaMint-SI_2015-03-06-SDZ7-Redna-05.ana.seg576.1">
 Prekinjam	Prekinjam	prekinjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 tudi	tudi	tudi	PART		2	advmod	prekinjati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
