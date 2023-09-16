@@ -1,6 +1,7 @@
 <note type="time" content="14.01"/>
-<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR_2022-11-17-tbmm-T27" subcorpus="War" body="Unicameralism" term="27" session="6" meeting="22" sitting="" agenda="" date="2022-11-17" title="The Turkish parliamentary corpus ParlaMint-TR, Term 27, Year 6, Session 22" speaker_role="Chairperson" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="-" speaker_party="HDP" speaker_party_name="Halkların Demokratik Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="1960">
-<p id="tbmm-2022-11-17sit01spe0001par0001.seg0" lang="Turkish">
+<note type="president" content="Nimetullah Erdoğmuş"/>
+<speech id="tbmm-2022-11-17sit01spe0001par0001" text_id="ParlaMint-TR_2022-11-17-tbmm-T27" subcorpus="Savaş" lang="Türkçe" body="Tek meclisli" term="27" session="6" meeting="22" sitting="-" agenda="-" date="2022-11-17" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 6, Birleşim 22" speaker_role="Başkan" speaker_id="Nimetullah.Erdoğmuş" speaker_name="Erdoğmuş, Nimetullah" speaker_mp="MP" speaker_minister="notMinister" speaker_party="HDP" speaker_party_name="Halkların Demokratik Partisi" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1960">
+<p id="tbmm-2022-11-17sit01spe0001par0001.seg0" lang="Türkçe">
 <s id="tbmm-2022-11-17sit01spe0001par0001-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	millet	NOUN	Case=Nom Number=Sing	t3
@@ -15,7 +16,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 .	.	.	PUNCT		t8	punct	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7
 </s>
 </p>
-<p id="tbmm-2022-11-17sit01spe0001par0002.seg1" lang="Turkish">
+<p id="tbmm-2022-11-17sit01spe0001par0002.seg1" lang="Türkçe">
 <s id="tbmm-2022-11-17sit01spe0001par0002-000010">
 <name type="ORG">
 Başkanlık	Başkanlık	başkanlık	NOUN	Case=Nom Number=Sing	t1	nmod	divan	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -29,7 +30,7 @@ başlayamıyoruz	başlayamıyoruz	başla	VERB	Aspect=Prog Evident=Fh Mood=Pot Nu
 .	.	.	PUNCT		t7	punct	başla	VERB	Aspect=Prog Evident=Fh Mood=Pot Number=Plur Person=1 Polarity=Neg Tense=Pres	t6
 </s>
 </p>
-<p id="tbmm-2022-11-17sit01spe0001par0003.seg2" lang="Turkish">
+<p id="tbmm-2022-11-17sit01spe0001par0003.seg2" lang="Türkçe">
 <s id="tbmm-2022-11-17sit01spe0001par0003-000010">
 Bu	Bu	bu	DET		t1	det	neden	NOUN	Case=Ins Number=Sing	t2
 nedenle	nedenle	neden	NOUN	Case=Ins Number=Sing	t2	obl	15	ADJ	Case=Nom NumType=Ord Number=Sing	t23
