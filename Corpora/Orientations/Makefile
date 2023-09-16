@@ -102,8 +102,10 @@ GSID-UAwiki := 65847493
 GSID-UAenco := 1425829794
 
 download-UA:
-	wget "https://docs.google.com/spreadsheets/d/e/$(GSID-UA)/pub?gid=$(GSID-UAwiki)&single=true&output=tsv" -O Orientation-UA.Wiki.tsv
-	wget "https://docs.google.com/spreadsheets/d/e/$(GSID-UA)/pub?gid=$(GSID-UAenco)&single=true&output=tsv" -O Orientation-UA.enco.tsv
+	wget "https://docs.google.com/spreadsheets/d/e/$(GSID-UA)/pub?gid=$(GSID-UAwiki)&single=true&output=tsv" -O - \
+	  | tr -d '\r' > Orientation-UA.Wiki.tsv
+	wget "https://docs.google.com/spreadsheets/d/e/$(GSID-UA)/pub?gid=$(GSID-UAenco)&single=true&output=tsv" -O - \
+	  | tr -d '\r' > Orientation-UA.enco.tsv
 
 
 ######################VARIABLES
