@@ -1,5 +1,8 @@
+test:
+	$s outDir=Test prefix='ParlaMint-GR-' teiRoot=Orig/ParlaMint-GR.TEI/ParlaMint-GR.xml \
+	-xsl:../../Scripts/parlamint-factorize-teiHeader.xsl Orig/ParlaMint-GR.TEI/BKP/ParlaMint-GR.xml
 ###### Preparing the received corpora
-CORPUS = HU
+CORPUS = DK
 one:
 	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies 'Orig/ParlaMint-${CORPUS}.TEI*'
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers 'Orig/ParlaMint-${CORPUS}.TEI*' '.'
