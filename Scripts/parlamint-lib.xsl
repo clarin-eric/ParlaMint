@@ -550,8 +550,9 @@
     <xsl:param name="speaker" as="element(tei:person)"/>
     <xsl:variable name="refs">
       <xsl:for-each select="$speaker/tei:affiliation
-                            [@role='member' or @role='candidateMP' or
-                            @role='president' or @role='vicePresident' or @role='secretary']">
+			    [@role='member' or @role='candidateMP' or
+                            @role='president' or @role='vicePresident' or
+			    @role='secretary' or @role='representative']">
         <xsl:if test="et:between-dates($at-date, @from, @to)">
           <xsl:value-of select="@ref"/>
           <xsl:text>&#32;</xsl:text>
