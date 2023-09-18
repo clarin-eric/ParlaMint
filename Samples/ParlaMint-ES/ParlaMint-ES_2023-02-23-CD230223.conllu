@@ -1,0 +1,584 @@
+# newdoc id = ParlaMint-ES_2023-02-23-CD230223.u1
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u1.p1
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p1.s1
+# text = Muy buenos días, señorías.
+1	Muy	mucho	ADV	ADV	_	3	advmod	_	NER=O
+2	buenos	buen	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	NER=O
+3	días	día	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	NER=O
+5	señorías	señoría	NOUN	NOUN	Gender=Fem|Number=Plur	3	appos	_	NER=O|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p1.s2
+# text = Se reanuda la sesión.
+1	Se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	expl:pass	_	NER=O
+2	reanuda	reanudar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	sesión	sesión	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u1.p2
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p2.s1
+# text = Antes de iniciar la sesión, me gustaría pronunciar unas breves palabras: Mañana, 24 de febrero, se cumple un año del comienzo de la guerra en Ucrania, desencadenada por una agresión ilegal y brutal a un país soberano.
+1	Antes	antes	ADV	ADV	_	8	advmod	_	NER=O
+2	de	de	ADP	ADP	_	3	mark	_	NER=O
+3	iniciar	iniciar	VERB	VERB	VerbForm=Inf	1	advcl	_	NER=O
+4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	NER=O
+5	sesión	sesión	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	NER=O
+7	me	yo	PRON	PRON	Case=Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	8	iobj	_	NER=O
+8	gustaría	gustar	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	NER=O
+9	pronunciar	pronunciar	VERB	VERB	VerbForm=Inf	8	csubj	_	NER=O
+10	unas	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	12	det	_	NER=O
+11	breves	breve	ADJ	ADJ	Number=Plur	12	amod	_	NER=O
+12	palabras	palabra	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	NER=O|SpaceAfter=No
+13	:	:	PUNCT	PUNCT	PunctType=Colo	21	punct	_	NER=O
+14	Mañana	mañana	ADV	ADV	_	21	advmod	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	NER=O
+16	24	24	NUM	NUM	NumForm=Digit|NumType=Card	14	obl	_	NER=O
+17	de	de	ADP	ADP	_	18	case	_	NER=O
+18	febrero	febrero	NOUN	NOUN	_	16	compound	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	NER=O
+20	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:pass	_	NER=O
+21	cumple	cumplir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	NER=O
+22	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	NER=O
+23	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	NER=O
+24-25	del	_	_	_	_	_	_	_	NER=O
+24	de	de	ADP	ADP	_	26	case	_	_
+25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	comienzo	comienzo	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	NER=O
+27	de	de	ADP	ADP	_	29	case	_	NER=O
+28	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	NER=O
+29	guerra	guerra	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	NER=O
+30	en	en	ADP	ADP	_	31	case	_	NER=O
+31	Ucrania	Ucrania	PROPN	PROPN	_	29	nmod	_	NER=B-LOC|SpaceAfter=No
+32	,	,	PUNCT	PUNCT	PunctType=Comm	33	punct	_	NER=O
+33	desencadenada	desencadenado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	29	amod	_	NER=O
+34	por	por	ADP	ADP	_	36	case	_	NER=O
+35	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	NER=O
+36	agresión	agresión	NOUN	NOUN	Gender=Fem|Number=Sing	33	obj	_	NER=O
+37	ilegal	ilegal	ADJ	ADJ	Number=Sing	36	amod	_	NER=O
+38	y	y	CCONJ	CCONJ	_	39	cc	_	NER=O
+39	brutal	brutal	ADJ	ADJ	Number=Sing	37	conj	_	NER=O
+40	a	a	ADP	ADP	_	42	case	_	NER=O
+41	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	NER=O
+42	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod	_	NER=O
+43	soberano	soberano	ADJ	ADJ	Gender=Masc|Number=Sing	42	amod	_	NER=O|SpaceAfter=No
+44	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p2.s2
+# text = La guerra, durante este año, ha supuesto un desafío a nuestros valores compartidos como demócratas y como europeos.
+1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
+2	guerra	guerra	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	NER=O
+4	durante	durante	ADP	ADP	_	6	case	_	NER=O
+5	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	NER=O
+6	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	NER=O
+8	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	NER=O
+9	supuesto	suponer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O
+10	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	NER=O
+11	desafío	desafío	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	NER=O
+12	a	a	ADP	ADP	_	14	case	_	NER=O
+13	nuestros	nuestro	DET	DET	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	NER=O
+14	valores	valor	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	NER=O
+15	compartidos	compartido	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	14	amod	_	NER=O
+16	como	como	SCONJ	SCONJ	_	17	mark	_	NER=O
+17	demócratas	demócrata	NOUN	NOUN	Number=Plur	15	obl	_	NER=O
+18	y	y	CCONJ	CCONJ	_	20	cc	_	NER=O
+19	como	como	SCONJ	SCONJ	_	20	mark	_	NER=O
+20	europeos	europeo	ADJ	ADJ	Gender=Masc|Number=Plur	17	conj	_	NER=O|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p2.s3
+# text = Rusia no solo ha violado el derecho internacional al invadir el territorio de otro país, lo ha hecho también atacando de forma indiscriminada a la población civil y cometiendo crímenes de guerra en territorio ucraniano.
+1	Rusia	Rusia	PROPN	PROPN	_	5	nsubj	_	NER=B-ORG
+2	no	no	PART	PART	_	5	advmod	_	NER=O
+3	solo	solo	NOUN	NOUN	_	2	fixed	_	NER=O
+4	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+5	violado	violar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	NER=O
+6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
+7	derecho	derecho	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	NER=O
+8	internacional	internacional	ADJ	ADJ	Number=Sing	7	amod	_	NER=O
+9-10	al	_	_	_	_	_	_	_	NER=O
+9	a	a	ADP	ADP	_	11	case	_	_
+10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	invadir	invadir	VERB	VERB	VerbForm=Inf	7	acl	_	NER=O
+12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NER=O
+13	territorio	territorio	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	NER=O
+14	de	de	ADP	ADP	_	16	case	_	NER=O
+15	otro	otro	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	NER=O
+16	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	NER=O
+18	lo	él	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	20	obj	_	NER=O
+19	ha	haber	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	NER=O
+20	hecho	hacer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	NER=O
+21	también	también	ADV	ADV	_	20	advmod	_	NER=O
+22	atacando	atacar	VERB	VERB	VerbForm=Ger	20	advcl	_	NER=O
+23	de	de	ADP	ADP	_	24	case	_	NER=O
+24	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	NER=O
+25	indiscriminada	indiscriminado	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	NER=O
+26	a	a	ADP	ADP	_	28	case	_	NER=O
+27	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	NER=O
+28	población	población	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	NER=O
+29	civil	civil	ADJ	ADJ	Number=Sing	28	amod	_	NER=O
+30	y	y	CCONJ	CCONJ	_	31	cc	_	NER=O
+31	cometiendo	cometer	VERB	VERB	VerbForm=Ger	22	conj	_	NER=O
+32	crímenes	crimen	NOUN	NOUN	Gender=Masc|Number=Plur	31	obj	_	NER=O
+33	de	de	ADP	ADP	_	34	case	_	NER=O
+34	guerra	guerra	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	NER=O
+35	en	en	ADP	ADP	_	36	case	_	NER=O
+36	territorio	territorio	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	NER=O
+37	ucraniano	ucraniano	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	NER=O|SpaceAfter=No
+38	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p2.s4
+# text = Pese a todo ello, un año después, Ucrania sigue en pie, luchando por su dignidad y su libertad.
+1	Pese	pese	NOUN	NOUN	_	4	case	_	NER=O
+2	a	a	ADP	ADP	_	1	fixed	_	NER=O
+3	todo	todo	DET	DET	Gender=Masc|Number=Sing|PronType=Tot	4	det	_	NER=O
+4	ello	él	PRON	PRON	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	NER=O
+6	un	uno	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
+7	año	año	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	NER=O
+8	después	después	ADV	ADV	_	11	advmod	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	NER=O
+10	Ucrania	Ucrania	PROPN	PROPN	_	11	nsubj	_	NER=B-ORG
+11	sigue	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+12	en	en	ADP	ADP	_	13	case	_	NER=O
+13	pie	pie	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	NER=O|SpaceAfter=No
+14	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	NER=O
+15	luchando	luchar	VERB	VERB	VerbForm=Ger	11	advcl	_	NER=O
+16	por	por	ADP	ADP	_	18	case	_	NER=O
+17	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	NER=O
+18	dignidad	dignidad	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	NER=O
+19	y	y	CCONJ	CCONJ	_	21	cc	_	NER=O
+20	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det	_	NER=O
+21	libertad	libertad	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	NER=O|SpaceAfter=No
+22	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u1.p3
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p3.s1
+# text = En defensa de estos valores y en solidaridad con todas las víctimas de la guerra, especialmente de los niños y las niñas, en nombre del Congreso de los Diputados, representante del pueblo español, quiero reiterar que estamos con el puebloucraniano, compartiendo su dolor y su sufrimiento y confiando en que, lo antes posible, se abra paso una paz justa y podamos dejar atrás la barbarie que estamos viviendo en el corazón de Europa.
+1	En	en	ADP	ADP	_	2	case	_	NER=O
+2	defensa	defensa	NOUN	NOUN	Number=Sing	40	obl	_	NER=O
+3	de	de	ADP	ADP	_	5	case	_	NER=O
+4	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	NER=O
+5	valores	valor	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	NER=O
+6	y	y	CCONJ	CCONJ	_	8	cc	_	NER=O
+7	en	en	ADP	ADP	_	8	case	_	NER=O
+8	solidaridad	solidaridad	NOUN	NOUN	Gender=Fem|Number=Sing	2	conj	_	NER=O
+9	con	con	ADP	ADP	_	12	case	_	NER=O
+10	todas	todo	DET	DET	Gender=Fem|Number=Plur|PronType=Tot	11	det	_	NER=O
+11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	NER=O
+12	víctimas	víctima	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	NER=O
+13	de	de	ADP	ADP	_	15	case	_	NER=O
+14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=O
+15	guerra	guerra	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	NER=O
+17	especialmente	especialmente	ADV	ADV	_	12	advmod	_	NER=O
+18	de	de	ADP	ADP	_	17	case	_	NER=O
+19	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	NER=O
+20	niños	niño	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	NER=O
+21	y	y	CCONJ	CCONJ	_	23	cc	_	NER=O
+22	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	NER=O
+23	niñas	niña	NOUN	NOUN	Gender=Fem|Number=Plur	20	conj	_	NER=O|SpaceAfter=No
+24	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	NER=O
+25	en	en	ADP	ADP	_	29	case	_	NER=O
+26	nombre	nombre	NOUN	NOUN	_	25	fixed	_	NER=O
+27-28	del	_	_	_	_	_	_	_	NER=O
+27	de	de	ADP	ADP	_	25	fixed	_	_
+28	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Congreso	Congreso	PROPN	PROPN	_	40	obl	_	NER=B-ORG
+30	de	de	ADP	ADP	_	32	case	_	NER=I-ORG
+31	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	NER=I-ORG
+32	Diputados	Diputados	PROPN	PROPN	_	29	flat	_	NER=I-ORG|SpaceAfter=No
+33	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	NER=O
+34	representante	representante	NOUN	NOUN	Number=Sing	29	appos	_	NER=O
+35-36	del	_	_	_	_	_	_	_	NER=O
+35	de	de	ADP	ADP	_	37	case	_	_
+36	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	pueblo	pueblo	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	NER=O
+38	español	español	ADJ	ADJ	Gender=Masc|Number=Sing	37	amod	_	NER=O|SpaceAfter=No
+39	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	NER=O
+40	quiero	querer	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+41	reiterar	reiterar	VERB	VERB	VerbForm=Inf	40	xcomp	_	NER=O
+42	que	que	SCONJ	SCONJ	_	46	mark	_	NER=O
+43	estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	46	cop	_	NER=O
+44	con	con	ADP	ADP	_	46	case	_	NER=O
+45	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	NER=O
+46	puebloucraniano	puebloucraniano	NOUN	NOUN	Gender=Masc|Number=Sing	41	ccomp	_	NER=O|SpaceAfter=No
+47	,	,	PUNCT	PUNCT	PunctType=Comm	48	punct	_	NER=O
+48	compartiendo	compartir	VERB	VERB	VerbForm=Ger	46	advcl	_	NER=O
+49	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	det	_	NER=O
+50	dolor	dolor	NOUN	NOUN	Gender=Masc|Number=Sing	48	obj	_	NER=O
+51	y	y	CCONJ	CCONJ	_	53	cc	_	NER=O
+52	su	su	DET	DET	Number=Sing|Person=3|Poss=Yes|PronType=Prs	53	det	_	NER=O
+53	sufrimiento	sufrimiento	NOUN	NOUN	Gender=Masc|Number=Sing	50	conj	_	NER=O
+54	y	y	CCONJ	CCONJ	_	55	cc	_	NER=O
+55	confiando	confiar	VERB	VERB	VerbForm=Ger	48	conj	_	NER=O
+56	en	en	ADP	ADP	_	64	mark	_	NER=O
+57	que	que	SCONJ	SCONJ	_	64	mark	_	NER=O|SpaceAfter=No
+58	,	,	PUNCT	PUNCT	PunctType=Comm	61	punct	_	NER=O
+59	lo	él	PRON	PRON	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	61	det	_	NER=O
+60	antes	antes	ADV	ADV	_	61	advmod	_	NER=O
+61	posible	posible	ADJ	ADJ	Number=Sing	64	advmod	_	NER=O|SpaceAfter=No
+62	,	,	PUNCT	PUNCT	PunctType=Comm	61	punct	_	NER=O
+63	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	64	expl:pass	_	NER=O
+64	abra	abrir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	ccomp	_	NER=O
+65	paso	paso	NOUN	NOUN	Gender=Masc|Number=Sing	64	obj	_	NER=O
+66	una	uno	DET	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	67	det	_	NER=O
+67	paz	paz	NOUN	NOUN	Gender=Fem|Number=Sing	64	nsubj	_	NER=O
+68	justa	justo	ADJ	ADJ	Gender=Fem|Number=Sing	67	amod	_	NER=O
+69	y	y	CCONJ	CCONJ	_	71	cc	_	NER=O
+70	podamos	poder	AUX	AUX	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	71	aux	_	NER=O
+71	dejar	dejar	VERB	VERB	VerbForm=Inf	64	conj	_	NER=O
+72	atrás	atrás	ADV	ADV	_	71	advmod	_	NER=O
+73	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	NER=O
+74	barbarie	barbarie	NOUN	NOUN	Gender=Fem|Number=Sing	71	obj	_	NER=O
+75	que	que	PRON	PRON	PronType=Int,Rel	77	obj	_	NER=O
+76	estamos	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	77	aux	_	NER=O
+77	viviendo	vivir	VERB	VERB	VerbForm=Ger	74	acl	_	NER=O
+78	en	en	ADP	ADP	_	80	case	_	NER=O
+79	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	80	det	_	NER=O
+80	corazón	corazón	NOUN	NOUN	Gender=Masc|Number=Sing	77	obl	_	NER=O
+81	de	de	ADP	ADP	_	82	case	_	NER=O
+82	Europa	Europa	PROPN	PROPN	_	80	nmod	_	NER=B-LOC|SpaceAfter=No
+83	.	.	PUNCT	PUNCT	PunctType=Peri	40	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u1.p4
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u1.p4.s1
+# text = Muchísimas gracias.
+1	Muchísimas	muchísimo	DET	DET	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	2	det	_	NER=O
+2	gracias	gracia	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	NER=O|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES_2023-02-23-CD230223.u2
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u2.p1
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u2.p1.s1
+# text = Comenzamos con los puntos del orden del día relativos a la tramitación directa y en lectura única de los proyectos de ley por la que se modifica la Ley 28/1990, de 26 de diciembre, por la que se aprueba el Convenio Económico entre el Estado y la Comunidad Foral de Navarra; por la que se modifica la Ley 12/2002, de 23 de mayo, por la que se aprueba el Concierto Económico con la Comunidad Autónoma del País Vasco, y por la que se aprueba la metodología de señalamiento del Cupo del País Vasco para el quinquenio 20222026.
+1	Comenzamos	comenzar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+2	con	con	ADP	ADP	_	4	case	_	NER=O
+3	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	NER=O
+4	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	1	obl	_	NER=O
+5-6	del	_	_	_	_	_	_	_	NER=O
+5	de	de	ADP	ADP	_	7	case	_	_
+6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	orden	orden	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	NER=O
+8-9	del	_	_	_	_	_	_	_	NER=O
+8	de	de	ADP	ADP	_	10	case	_	_
+9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	día	día	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	NER=O
+11	relativos	relativo	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	NER=O
+12	a	a	ADP	ADP	_	14	case	_	NER=O
+13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=O
+14	tramitación	tramitación	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	NER=O
+15	directa	directo	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	NER=O
+16	y	y	CCONJ	CCONJ	_	18	cc	_	NER=O
+17	en	en	ADP	ADP	_	18	case	_	NER=O
+18	lectura	lectura	NOUN	NOUN	Gender=Fem|Number=Sing	15	conj	_	NER=O
+19	única	único	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	NER=O
+20	de	de	ADP	ADP	_	22	case	_	NER=O
+21	los	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	NER=O
+22	proyectos	proyecto	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	NER=O
+23	de	de	ADP	ADP	_	24	case	_	NER=O
+24	ley	ley	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	NER=O
+25	por	por	ADP	ADP	_	27	case	_	NER=O
+26	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	NER=O
+27	que	que	PRON	PRON	PronType=Int,Rel	29	obl	_	NER=O
+28	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	expl:pass	_	NER=O
+29	modifica	modificar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl	_	NER=O
+30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	NER=O
+31	Ley	Ley	PROPN	PROPN	_	29	nsubj	_	NER=B-MISC
+32	28/1990	28/1990	NUM	NUM	NumForm=Digit|NumType=Card	31	nummod	_	NER=I-MISC|SpaceAfter=No
+33	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	NER=O
+34	de	de	ADP	ADP	_	35	case	_	NER=O
+35	26	26	NUM	NUM	NumForm=Digit|NumType=Card	31	nmod	_	NER=O
+36	de	de	ADP	ADP	_	37	case	_	NER=O
+37	diciembre	diciembre	NOUN	NOUN	_	35	compound	_	NER=O|SpaceAfter=No
+38	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	NER=O
+39	por	por	ADP	ADP	_	41	case	_	NER=O
+40	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	NER=O
+41	que	que	PRON	PRON	PronType=Int,Rel	43	obl	_	NER=O
+42	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	43	expl:pass	_	NER=O
+43	aprueba	aprobar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	NER=O
+44	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	NER=O
+45	Convenio	Convenio	PROPN	PROPN	_	43	nsubj	_	NER=B-MISC
+46	Económico	Económico	PROPN	PROPN	_	45	flat	_	NER=I-MISC
+47	entre	entre	ADP	ADP	_	49	case	_	NER=O
+48	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	NER=O
+49	Estado	Estado	PROPN	PROPN	_	45	nmod	_	NER=B-ORG
+50	y	y	CCONJ	CCONJ	_	52	cc	_	NER=O
+51	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	NER=O
+52	Comunidad	Comunidad	PROPN	PROPN	_	49	conj	_	NER=B-ORG
+53	Foral	Foral	PROPN	PROPN	_	52	flat	_	NER=I-ORG
+54	de	de	ADP	ADP	_	55	case	_	NER=I-ORG
+55	Navarra	Navarra	PROPN	PROPN	_	52	flat	_	NER=I-ORG|SpaceAfter=No
+56	;	;	PUNCT	PUNCT	PunctType=Semi	61	punct	_	NER=O
+57	por	por	ADP	ADP	_	59	case	_	NER=O
+58	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	NER=O
+59	que	que	PRON	PRON	PronType=Int,Rel	61	obl	_	NER=O
+60	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	61	expl:pass	_	NER=O
+61	modifica	modificar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	NER=O
+62	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	NER=O
+63	Ley	Ley	PROPN	PROPN	_	61	nsubj	_	NER=B-MISC
+64	12/2002	12/2002	NUM	NUM	NumForm=Digit|NumType=Card	63	nummod	_	NER=I-MISC|SpaceAfter=No
+65	,	,	PUNCT	PUNCT	PunctType=Comm	67	punct	_	NER=O
+66	de	de	ADP	ADP	_	67	case	_	NER=O
+67	23	23	NUM	NUM	NumForm=Digit|NumType=Card	63	nmod	_	NER=O
+68	de	de	ADP	ADP	_	69	case	_	NER=O
+69	mayo	mayo	NOUN	NOUN	_	67	compound	_	NER=O|SpaceAfter=No
+70	,	,	PUNCT	PUNCT	PunctType=Comm	67	punct	_	NER=O
+71	por	por	ADP	ADP	_	73	case	_	NER=O
+72	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	NER=O
+73	que	que	PRON	PRON	PronType=Int,Rel	75	obl	_	NER=O
+74	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	75	expl:pass	_	NER=O
+75	aprueba	aprobar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	acl	_	NER=O
+76	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	NER=O
+77	Concierto	Concierto	PROPN	PROPN	_	75	nsubj	_	NER=B-MISC
+78	Económico	Económico	PROPN	PROPN	_	77	flat	_	NER=I-MISC
+79	con	con	ADP	ADP	_	81	case	_	NER=O
+80	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	81	det	_	NER=O
+81	Comunidad	Comunidad	PROPN	PROPN	_	77	nmod	_	NER=B-ORG
+82	Autónoma	Autónoma	PROPN	PROPN	_	81	flat	_	NER=I-ORG
+83-84	del	_	_	_	_	_	_	_	NER=I-ORG
+83	de	de	ADP	ADP	_	85	case	_	_
+84	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
+85	País	País	PROPN	PROPN	_	81	flat	_	NER=I-ORG
+86	Vasco	Vasco	PROPN	PROPN	_	81	flat	_	NER=I-ORG|SpaceAfter=No
+87	,	,	PUNCT	PUNCT	PunctType=Comm	93	punct	_	NER=O
+88	y	y	CCONJ	CCONJ	_	93	cc	_	NER=O
+89	por	por	ADP	ADP	_	91	case	_	NER=O
+90	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	91	det	_	NER=O
+91	que	que	PRON	PRON	PronType=Int,Rel	93	obl	_	NER=O
+92	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	93	expl:pass	_	NER=O
+93	aprueba	aprobar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	75	conj	_	NER=O
+94	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	95	det	_	NER=O
+95	metodología	metodología	NOUN	NOUN	Gender=Fem|Number=Sing	93	nsubj	_	NER=O
+96	de	de	ADP	ADP	_	97	case	_	NER=O
+97	señalamiento	señalamiento	NOUN	NOUN	Gender=Masc|Number=Sing	95	nmod	_	NER=O
+98-99	del	_	_	_	_	_	_	_	NER=O
+98	de	de	ADP	ADP	_	100	case	_	_
+99	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	100	det	_	_
+100	Cupo	Cupo	PROPN	PROPN	_	97	nmod	_	NER=B-MISC
+101-102	del	_	_	_	_	_	_	_	NER=I-MISC
+101	de	de	ADP	ADP	_	103	case	_	_
+102	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	103	det	_	_
+103	País	País	PROPN	PROPN	_	100	flat	_	NER=I-MISC
+104	Vasco	Vasco	PROPN	PROPN	_	103	flat	_	NER=I-MISC
+105	para	para	ADP	ADP	_	107	case	_	NER=O
+106	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	107	det	_	NER=O
+107	quinquenio	quinquenio	NOUN	NOUN	Gender=Masc|Number=Sing	95	nmod	_	NER=O
+108	20222026	20222026	NUM	NUM	NumForm=Digit|NumType=Card	107	appos	_	NER=O|SpaceAfter=No
+109	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u2.p2
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u2.p2.s1
+# text = De conformidad con lo acordado por la Junta de Portavoces, estos puntos se debatirán acumuladamente.
+1	De	de	ADP	ADP	_	5	case	_	NER=O
+2	conformidad	conformidad	NOUN	NOUN	_	1	fixed	_	NER=O
+3	con	con	ADP	ADP	_	1	fixed	_	NER=O
+4	lo	él	PRON	PRON	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	5	det	_	NER=O
+5	acordado	acordado	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	15	advmod	_	NER=O
+6	por	por	ADP	ADP	_	8	case	_	NER=O
+7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	NER=O
+8	Junta	Junta	PROPN	PROPN	_	5	obj	_	NER=B-ORG
+9	de	de	ADP	ADP	_	10	case	_	NER=I-ORG
+10	Portavoces	Portavoces	PROPN	PROPN	_	8	flat	_	NER=I-ORG|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	NER=O
+12	estos	este	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	NER=O
+13	puntos	punto	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	NER=O
+14	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	expl:pass	_	NER=O
+15	debatirán	debatir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	NER=O
+16	acumuladamente	acumuladamente	ADV	ADV	_	15	advmod	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u2.p2.s2
+# text = Les recuerdo que, finalizado este debate, se votarán las enmiendas a la totalidad correspondientes a estas iniciativas.
+1	Les	él	PRON	PRON	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	iobj	_	NER=O
+2	recuerdo	recordar	VERB	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	que	que	SCONJ	SCONJ	_	10	mark	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	NER=O
+5	finalizado	finalizar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	NER=O
+6	este	este	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	NER=O
+7	debate	debate	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	NER=O|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	NER=O
+9	se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	expl:pass	_	NER=O
+10	votarán	votar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	NER=O
+11	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	NER=O
+12	enmiendas	enmienda	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	NER=O
+13	a	a	ADP	ADP	_	15	case	_	NER=O
+14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=O
+15	totalidad	totalidad	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	NER=O
+16	correspondientes	correspondiente	ADJ	ADJ	Number=Plur	12	amod	_	NER=O
+17	a	a	ADP	ADP	_	19	case	_	NER=O
+18	estas	este	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	NER=O
+19	iniciativas	iniciativa	NOUN	NOUN	Gender=Fem|Number=Plur	16	nmod	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u2.p2.s3
+# text = Tiene la palabra,en primer lugar, en nombre del Gobierno, la señora ministra de Hacienda y Función Pública.
+1	Tiene	tener	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
+3	palabra,en	palabra,en	NOUN	NOUN	Gender=Fem|Number=Sing	1	obj	_	NER=O
+4	primer	primero	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	NER=O
+5	lugar	lugar	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	NER=O
+7	en	en	ADP	ADP	_	11	case	_	NER=O
+8	nombre	nombre	NOUN	NOUN	Gender=Masc|Number=Sing	7	fixed	_	NER=O
+9-10	del	_	_	_	_	_	_	_	NER=O
+9	de	de	ADP	ADP	_	7	fixed	_	_
+10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Gobierno	Gobierno	PROPN	PROPN	_	1	obl	_	NER=B-ORG|SpaceAfter=No
+12	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	NER=O
+13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	NER=O
+14	señora	señora	NOUN	NOUN	Gender=Fem|Number=Sing	1	obj	_	NER=O
+15	ministra	ministra	NOUN	NOUN	Gender=Fem|Number=Sing	14	appos	_	NER=O
+16	de	de	ADP	ADP	_	17	case	_	NER=O
+17	Hacienda	Hacienda	PROPN	PROPN	_	15	nmod	_	NER=B-MISC
+18	y	y	CCONJ	CCONJ	_	19	cc	_	NER=O
+19	Función	Función	PROPN	PROPN	_	17	conj	_	NER=B-MISC
+20	Pública	Pública	PROPN	PROPN	_	19	flat	_	NER=I-MISC|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES_2023-02-23-CD230223.u73
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u73.p1
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u73.p1.s1
+# text = Avocación de iniciativas legislativas.
+1	Avocación	avocación	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	de	de	ADP	ADP	_	3	case	_	NER=O
+3	iniciativas	iniciativa	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	NER=O
+4	legislativas	legislativo	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u73.p1.s2
+# text = Votación de la solicitud de avocación por el Pleno de la Cámara de la deliberación y votación final del Proyecto de Ley de Movilidad Sostenible, presentada por el Grupo Parlamentario Plural, señor Errejón Galván.
+1	Votación	votación	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	NER=O
+2	de	de	ADP	ADP	_	4	case	_	NER=O
+3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	solicitud	solicitud	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	NER=O
+5	de	de	ADP	ADP	_	6	case	_	NER=O
+6	avocación	avocación	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	NER=O
+7	por	por	ADP	ADP	_	9	case	_	NER=O
+8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NER=O
+9	Pleno	Pleno	PROPN	PROPN	_	4	nmod	_	NER=B-ORG
+10	de	de	ADP	ADP	_	12	case	_	NER=I-ORG
+11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER=I-ORG
+12	Cámara	Cámara	PROPN	PROPN	_	9	flat	_	NER=I-ORG
+13	de	de	ADP	ADP	_	15	case	_	NER=O
+14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	NER=O
+15	deliberación	deliberación	NOUN	NOUN	_	9	flat	_	NER=O
+16	y	y	CCONJ	CCONJ	_	17	cc	_	NER=O
+17	votación	votación	NOUN	NOUN	Gender=Fem|Number=Sing	1	conj	_	NER=O
+18	final	final	ADJ	ADJ	Number=Sing	17	amod	_	NER=O
+19-20	del	_	_	_	_	_	_	_	NER=O
+19	de	de	ADP	ADP	_	21	case	_	_
+20	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Proyecto	Proyecto	PROPN	PROPN	_	17	nmod	_	NER=B-MISC
+22	de	de	ADP	ADP	_	23	case	_	NER=I-MISC
+23	Ley	Ley	PROPN	PROPN	_	21	flat	_	NER=I-MISC
+24	de	de	ADP	ADP	_	25	case	_	NER=I-MISC
+25	Movilidad	Movilidad	PROPN	PROPN	_	21	flat	_	NER=I-MISC
+26	Sostenible	Sostenible	PROPN	PROPN	_	25	flat	_	NER=I-MISC|SpaceAfter=No
+27	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	NER=O
+28	presentada	presentado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	NER=O
+29	por	por	ADP	ADP	_	31	case	_	NER=O
+30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	NER=O
+31	Grupo	Grupo	PROPN	PROPN	_	28	obj	_	NER=B-ORG
+32	Parlamentario	Parlamentario	PROPN	PROPN	_	31	flat	_	NER=I-ORG
+33	Plural	Plural	PROPN	PROPN	_	31	flat	_	NER=I-ORG|SpaceAfter=No
+34	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	NER=O
+35	señor	señor	NOUN	NOUN	Gender=Masc|Number=Sing	31	appos	_	NER=O
+36	Errejón	Errejón	PROPN	PROPN	_	35	appos	_	NER=B-PER
+37	Galván	Galván	PROPN	PROPN	_	36	flat	_	NER=I-PER|SpaceAfter=No
+38	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u73.p2
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u73.p2.s1
+# text = Comienza la votación.
+1	Comienza	comenzar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
+3	votación	votación	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u73.p3
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u73.p3.s1
+# text = Efectuada la votación, dio el siguiente resultado: votos emitidos, 339; a favor, 339.
+1	Efectuada	efectuar	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	NER=O
+2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
+3	votación	votación	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	NER=O
+5	dio	dar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	NER=O
+6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=O
+7	siguiente	siguiente	ADJ	ADJ	Number=Sing	8	amod	_	NER=O
+8	resultado	resultado	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	NER=O|SpaceAfter=No
+9	:	:	PUNCT	PUNCT	PunctType=Colo	10	punct	_	NER=O
+10	votos	voto	NOUN	NOUN	Gender=Masc|Number=Plur	8	appos	_	NER=O
+11	emitidos	emitido	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	NER=O
+13	339	339	NUM	NUM	NumForm=Digit|NumType=Card	10	appos	_	NER=O|SpaceAfter=No
+14	;	;	PUNCT	PUNCT	PunctType=Semi	10	punct	_	NER=O
+15	a	a	ADP	ADP	_	16	case	_	NER=O
+16	favor	favor	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	NER=O
+18	339	339	NUM	NUM	NumForm=Digit|NumType=Card	10	appos	_	NER=O|SpaceAfter=No
+19	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	NER=O
+
+# newdoc id = ParlaMint-ES_2023-02-23-CD230223.u74
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u74.p1
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u74.p1.s1
+# text = En consecuencia, queda aprobada la avocación a Pleno.
+1	En	en	ADP	ADP	_	4	advmod	_	NER=O
+2	consecuencia	consecuencia	NOUN	NOUN	_	1	fixed	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	NER=O
+4	queda	quedar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+5	aprobada	aprobado	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	4	obj	_	NER=O
+6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=O
+7	avocación	avocación	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	NER=O
+8	a	a	ADP	ADP	_	9	case	_	NER=O
+9	Pleno	Pleno	PROPN	PROPN	_	7	nmod	_	NER=B-ORG|SpaceAfter=No
+10	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u74.p2
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u74.p2.s1
+# text = Muchas gracias a todos.
+1	Muchas	mucho	DET	DET	Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	2	det	_	NER=O
+2	gracias	gracia	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	NER=O
+3	a	a	ADP	ADP	_	4	case	_	NER=O
+4	todos	todo	PRON	PRON	Gender=Masc|Number=Plur|PronType=Tot	2	nmod	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u74.p3
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u74.p3.s1
+# text = Se levanta la sesión.
+1	Se	él	PRON	PRON	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	expl:pass	_	NER=O
+2	levanta	levantar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
+4	sesión	sesión	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	NER=O
+
+# newpar id = ParlaMint-ES_2023-02-23-CD230223.u74.p4
+# lang = es
+# sent_id = ParlaMint-ES_2023-02-23-CD230223.u74.p4.s1
+# text = Eran las doce del mediodía.
+1	Eran	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	NER=O
+2	las	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	NER=O
+3	doce	doce	NUM	NUM	Number=Plur|NumType=Card	0	root	_	NER=O
+4-5	del	_	_	_	_	_	_	_	NER=O
+4	de	de	ADP	ADP	_	6	case	_	_
+5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mediodía	mediodía	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	NER=O
+

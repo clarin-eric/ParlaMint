@@ -10,6 +10,7 @@
      Changes to root file:
      - delete old and now redundant pubPlace
      - insert textClass if missing
+     - remove anonymous/unknown speaker (BG, BE, SE)
      - fix some corpus-dependent (GB) orgs and affiliations 
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 
@@ -24,6 +25,7 @@
      - in .ana change lemma tag from _ to normalised form or wordform
      - in .ana change root syntactic dependency to dep, if node is not sentence root
      - in .ana change <PAD> syntactic dependency to dep
+     - in .ana change obl:loc syntactic dependency to obl
      - fix sprurious spaces in text content (multiple, leading and trailing spaces)
 -->
 <xsl:stylesheet 
@@ -198,6 +200,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- Remove anonymous speaker -->
+  <xsl:template mode="root" match="tei:person[@xml:id='Anonymous' or @xml:id='anonymous' or @xml:id='unknown']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing anonymous speaker from listPerson ', @xml:id)"/>
+  </xsl:template>
+  
   <!-- Remove the two "speaker" parties from GB, i.e. 
        <org role="politicalParty" xml:id="party.S">
          <orgName full="yes">Speaker</orgName>
@@ -304,7 +312,7 @@
 	<xsl:value-of select="replace(., '^\s+', '')"/>
       </xsl:when>
       <xsl:otherwise>
-	  <xsl:message terminate="yes" select="concat('FATAL ', /tei:*/@xml:id, 
+	  <xsl:message terminate="yes" select="concat('FATAL ERROR ', /tei:*/@xml:id, 
                                ': strange situation with ', .)"/>
       </xsl:otherwise>
     </xsl:choose>
@@ -369,6 +377,12 @@
     </xsl:copy>
   </xsl:template>
   
+  <!-- Remove @who for anonymous speakers -->
+  <xsl:template mode="comp" match="tei:u/@who[. = '#Anonymous' or . = '#anonymous' or . = '#unknown']">
+    <xsl:message select="concat('WARN ', /tei:*/@xml:id,
+			 ': removing @who = ', ., ' from utterance ', ../@xml:id)"/>
+  </xsl:template>
+    
   <!-- Change div/@type="debateSection" to "commentSection" if div contains no utterances -->
   <xsl:template mode="comp" match="tei:div[@type='debateSection'][not(tei:u)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
@@ -392,12 +406,13 @@
   <xsl:template mode="comp" match="tei:note[normalize-space(.) and not(./element())] | tei:desc">
     <xsl:variable name="textIn" select="normalize-space(.)"/>
     <xsl:variable name="textOut" select="mk:normalize-note($textIn)"/>
-    <xsl:if test="$textIn != $textOut">
+    <!-- Remove this message, as there are too many of them -->
+    <!--xsl:if test="$textIn != $textOut">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
                          ': de-bracketing ',
                          parent::tei:*/local-name(),'/',local-name(),
                          ' &quot;',$textIn,'&quot;')"/>
-    </xsl:if>
+    </xsl:if-->
     <xsl:if test="not(normalize-space( replace($textOut, '[^\p{Lu}\p{Lt}\p{Ll}0-9]',' ')))
                  and not($allowedNotes[. = normalize-space($textOut)])">
       <xsl:message select="concat('WARN ', /tei:TEI/@xml:id,
@@ -539,6 +554,20 @@
         <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
                                ': replacing ud-syn:&lt;PAD&gt; with ud-syn:dep')"/>
 	<xsl:text>ud-syn:dep</xsl:text>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp" select="@target"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <!-- Bug in DK, using obsolete obl:loc dependency -->
+  <!-- We set it to "advmod:lmod", although this will produce errors when UPOS of token is not ADV 
+  cf. https://github.com/clarin-eric/ParlaMint/issues/737 -->
+  <xsl:template mode="comp" match="tei:linkGrp[@type = 'UD-SYN']/tei:link[@ana='ud-syn:obl_loc']">
+    <xsl:copy>
+      <xsl:attribute name="ana">
+        <xsl:message select="concat('WARN ', ancestor::tei:s/@xml:id, 
+                               ': replacing ud-syn:obl_loc with ud-syn:advmod_lmod')"/>
+	<xsl:text>ud-syn:advmod_lmod</xsl:text>
       </xsl:attribute>
       <xsl:apply-templates mode="comp" select="@target"/>
     </xsl:copy>

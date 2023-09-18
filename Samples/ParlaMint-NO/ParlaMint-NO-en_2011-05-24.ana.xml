@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="ParlaMint-NO-en_2011-05-24.ana"
+     ana="#parla.sitting #reference"
+     corresp="../../ParlaMint-NO.TEI.ana/2011/ParlaMint-NO_2011-05-24.ana.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="nb">Norsk parlamentarisk korpus ParlaMint-NO-en, 2011-05-24 [ParlaMint-en.ana SAMPLE]</title>
+            <title type="main" xml:lang="en">Norwegian parliamentary corpus ParlaMint-NO-en, 2011-05-24 [ParlaMint-en.ana SAMPLE]</title>
+            <title type="sub" xml:lang="nb">Referat fra møte i Stortinget, Stortingsperiode 2009-2013, sesjon 2010-2011, møtedag 2011-05-24</title>
+            <title type="sub" xml:lang="en">Hansard from meeting in the Norwegian Parliament, term 2009-2013, Session 2010-2011, Sitting day 2011-05-24</title>
+            <meeting ana="#parla.uni #parla.sitting" corresp="#ST" n="2011-05-24">Sitting day 2011-05-24</meeting>
+            <meeting ana="#parla.uni #parla.session #ST.2010-2011"
+                     corresp="#ST"
+                     n="2010-2011">Session 2010-2011</meeting>
+            <meeting ana="#parla.uni #parla.term #ST.2009-2013"
+                     corresp="#ST"
+                     n="2009-2013">Term 2009-2013</meeting>
+            <respStmt>
+               <persName>Lars Magne Tungland</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Taja Kuzman</persName>
+               <persName>Nikola Ljubešić</persName>
+               <resp xml:lang="en">Machine translation to English and linguistic analysis of the translation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">National Library of Norway</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure quantity="100" unit="speeches" xml:lang="en">100 speeches</measure>
+            <measure quantity="100" unit="speeches" xml:lang="nb">100 taler</measure>
+            <measure quantity="44809" unit="words" xml:lang="en">44,809 words</measure>
+            <measure quantity="44809" unit="words" xml:lang="nb">44,809 ord</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2023-07-07">2023-07-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Norwegian Parliament</title>
+               <publisher xml:lang="en">The Norwegian Parliament</publisher>
+               <idno type="URI" subtype="parliament">https://data.stortinget.no/eksport/publikasjon?publikasjonid=s110524</idno>
+               <date when="2011-05-24">24.05.11</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="16"/>
+               <tagUsage gi="head" occurs="13"/>
+               <tagUsage gi="name" occurs="2021"/>
+               <tagUsage gi="note" occurs="223"/>
+               <tagUsage gi="pc" occurs="4711"/>
+               <tagUsage gi="s" occurs="1997"/>
+               <tagUsage gi="seg" occurs="580"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="100"/>
+               <tagUsage gi="w" occurs="44809"/>
+            </namespace>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef ident="mt-src"
+                       matchPattern="(.+)"
+                       replacementPattern="../../ParlaMint-NO.TEI.ana/2011/ParlaMint-NO_2011-05-24.ana.xml#$1">
+               <p>Private URIs with this prefix point to aligned source elements of the MTed corpus.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="org">Stortinget</name>
+               <name type="address">Karl Johans Gate 22</name>
+               <name type="city">0026 Oslo</name>
+               <name type="country" key="NO">Norway</name>
+               <date ana="#parla.sitting" when="2011-05-24">24.05.11</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2023-07-07">
+            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-07-01">
+            <name>Tomaž Erjavec</name>: Generate TEI version of MTed corpus.</change>
+         <change when="2021-01-29">
+            <name>Lars Magne Tungland</name>: Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection" xml:lang="en">
+            <head>Møte tirsdag den 24. mai 2011 kl. 10</head>
+            <note type="comment" xml:lang="en">Dag Terje Andersen</note>
+            <note type="comment" xml:lang="en">Agenda</note>
+            <note type="comment" xml:lang="en">(no 91):</note>
+            <note type="comment" xml:lang="en">1st@it</note>
+            <note type="comment" xml:lang="en">Debates of the Minister for Foreign Affairs on important EU and EEA matters</note>
+            <note type="comment" xml:lang="en">The statement was held at the Stortings meeting on 19 May 2011</note>
+            <note type="comment" xml:lang="en">2nd@it</note>
+            <note type="comment" xml:lang="en">Opinion of the Committee on Foreign Affairs and Defence on the proposal from the representatives of the Grand Duchy of Morten Høglund, Karin S. Woldseth, Peter N. Myhre and Kari Storstrand for a strategy for the Internet and social media in a human rights perspective</note>
+            <note type="comment" xml:lang="en">(Inc. 317 S (2010-2011), cf. Document 8:93 S (2010-2011)</note>
+            <note type="comment" xml:lang="en">3rd@it</note>
+            <note type="comment" xml:lang="en">Recommendation of the Foreign and Defence Committee on agreements concluded with foreign powers or international organisations in 2009</note>
+            <note type="comment" xml:lang="en">(Inc. 330 S (2010-2011)</note>
+            <note type="comment" xml:lang="en">4th@it</note>
+            <note type="comment" xml:lang="en">Opinion of the Committee on Foreign Affairs and Defence on the Annual Report of the European Parliament’s Delegation to the Western European Union (WEU) Parliamentary Assembly for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 337 S (2010-2011), cf. Document 13 (2010-2011)</note>
+            <note type="comment" xml:lang="en">5th@it</note>
+            <note type="comment" xml:lang="en">Recommendation of the Foreign and Defence Committee on the cooperation of the Organisation for Security and Cooperation in Europe (OSSE) in 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 336 S (2010-2011), cf. Report. St. 19 (2010)–2011)</note>
+            <note type="comment" xml:lang="en">6th@it</note>
+            <note type="comment" xml:lang="en">Opinion of the Committee on Foreign Affairs and Defence on the Annual Report of the Government Delegation to the Organisation for Security and Cooperation in the European Parliamentary Assembly (OSSE) for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 338 S (2010-2011), cf. Document 9 (2010-2011)</note>
+            <note type="comment" xml:lang="en">7th@it</note>
+            <note type="comment" xml:lang="en">Recommendation of the Foreign and Defence Committee on Norway's participation in the Council of Europe in 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 332 S (2010-2011), cf. Report. St. 20 (2010)–2011)</note>
+            <note type="comment" xml:lang="en">Eight.</note>
+            <note type="comment" xml:lang="en">Recommendation of the Committee on Foreign Affairs and Defence on the annual report of the European Parliament delegation to the Council of Europe Parliamentary Assembly for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 333 S (2010-2011), cf. Document 16 (2010-2011)</note>
+            <note type="comment" xml:lang="en">9th@it</note>
+            <note type="comment" xml:lang="en">Opening of the Committee on Foreign Affairs and Defence on the annual report from the delegation of the European Parliament to the EFTA Parliamentary Committees and the EEA Joint Parliamentary Committee for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 334 S (2010-2011), cf. Document 19 (2010-2011)</note>
+            <note type="comment" xml:lang="en">10th@item</note>
+            <note type="comment" xml:lang="en">Opinion of the Committee on Foreign Affairs and Defence on the Annual Report from the European Parliament’s Delegation to the Interparliamentary Union (IPU) for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 335 S (2010-2011), cf. Document 20 (2010-2011)</note>
+            <note type="comment" xml:lang="en">11th@item</note>
+            <note type="comment" xml:lang="en">Recommendation of the Committee on Foreign Affairs and Defence on the proposal of the representatives of the Governments Peter Skovholt Gitmark, Ivar Kristiansen, Gunnar Gundersen and Ine M. Eriksen Soreide on annual public corruption report of the country's main aid organisations</note>
+            <note type="comment" xml:lang="en">(Inc. 316 S (2010-2011), cf. Document 8:101 S (2010-2011)</note>
+            <note type="comment" xml:lang="en">12th@item</note>
+            <note type="comment" xml:lang="en">Interpellation of the representative Trygve Schlagsvold Vedum to the Minister for the Environment and Development:</note>
+            <note type="comment" xml:lang="en">‘Since 1990, the United Nations Organisation for Agriculture and Food, FAO, has measured the price of the five main sources of activity. FAO figures show that food prices have not been higher than they are today since measurements began. While price increases were relatively stable and slightly increasing for many years, prices have moved up rapidly over the last two years. Increasing food prices have led to political unrest and riots in many countries. The number of people who starve in the world is still very high.</note>
+            <note type="comment" xml:lang="en">How does the Council of State assess the international food situation, and what does he think Norway can do to help achieve sub-target number three in UN Millennium Goal 1 to halve the proportion of chronic hunger between 1990 and 2015?’</note>
+            <note type="comment" xml:lang="en">13th@item</note>
+            <note type="comment" xml:lang="en">Unit</note>
+            <u who="#person.DTA"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2011-05-24.ana.ud457e94"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NO_2011-05-24.ana.ud457e94">
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e95">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1"
+                     n="1"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e95.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t1"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="before">Before</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t3"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="matter">matters</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today"
+                        join="right">today</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t6"
+                        pos="POS"
+                        msd="UPosTag=PART"
+                        lemma="'s">'s</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="map">map</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t8"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">are</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t9"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="deal">dealt</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t10"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with"
+                        join="right">with</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t12"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t13"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="President">President</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t14"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t15"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="inform">inform</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t16"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Acc|Person=2|PronType=Prs"
+                        lemma="you">you</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t17"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t18"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t19"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting">meeting</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t20"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t21"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="continue">continue</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t22"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="beyond">beyond</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t23"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="1">1</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t24"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="p.m.">p.m.</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t25"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="16.00">16.00</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t26"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="until">until</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t28"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="current">current</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t29"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="map">map</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t30"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">has</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t31"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t32"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="process"
+                        join="right">processed</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e95.1.t33"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <head>Sak nr. 1 [10:00:33]</head>
+            <note type="comment" xml:lang="en">Debates of the Minister for Foreign Affairs on important EU and EEA matters</note>
+            <note type="comment" xml:lang="en">The statement was held at the Stortings meeting on 19 May 2011</note>
+            <u who="#person.DTA"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2011-05-24.ana.ud457e108"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NO_2011-05-24.ana.ud457e108">
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e109">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1"
+                     n="2"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e109.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="at">At</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="request">request</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t4"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t6"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="foreign">Foreign</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t7"
+                           pos="CC"
+                           msd="UPosTag=CCONJ"
+                           lemma="and">and</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t8"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Defence">Defence</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Committee"
+                           join="right">Committee</w>
+                     </name>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t11"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t12"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="President">President</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t13"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t14"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="propose">propose</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t15"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t16"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t17"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="debate">debate</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t18"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t19"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="limit">limited</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t21"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="1">1</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t22"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="hour">hour</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t23"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t24"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="30">30</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t25"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute">minutes</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t26"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t27"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t28"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="speak">speaking</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t29"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="time">time</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t30"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t31"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="allocate">allocated</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t32"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="as">as</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t33"
+                        pos="VBZ"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="follow"
+                        join="right">follows</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e109.1.t34"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">:</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e111">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1"
+                     n="3"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e111.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t1"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="work">Working</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t2"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="party">Party</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t3"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="35">35</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t4"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t5"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t6"
+                           pos="NN"
+                           msd="UPosTag=NOUN|Number=Sing"
+                           lemma="progress">Progress</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t7"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Party">Party</w>
+                     </name>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t8"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="20">20</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t9"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t11"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="right">Right</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t12"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="15">15</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t13"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t15"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="socialist">Socialist</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t16"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Left">Left</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t17"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Party">Party</w>
+                     </name>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t18"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="5">5</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t19"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t20"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t21"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Center">Center</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t22"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Party">Party</w>
+                     </name>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t23"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="5">5</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t24"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t25"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t26"
+                           pos="NNP"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="Christian">Christian</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t27"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="People"
+                           join="right">People</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t28"
+                           pos="POS"
+                           msd="UPosTag=PART"
+                           lemma="'s">'s</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t29"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Party">Party</w>
+                     </name>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t30"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="5">5</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t31"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute">minutes</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t32"
+                        pos="CC"
+                        msd="UPosTag=CCONJ"
+                        lemma="and">and</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t33"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Left">Left</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t34"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="5">5</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t35"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e111.1.t36"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e113">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1"
+                     n="4"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e113.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="furthermore"
+                        join="right">Furthermore</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t3"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t4"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="President">President</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t5"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="will">will</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t6"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="propose">propose</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="possibility">possibility</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t9"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t10"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t11"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="replacement">replacement</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t12"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t13"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="line">lines</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t14"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t15"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="up">up</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t16"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t17"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Word|NumType=Card"
+                        lemma="six">six</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t18"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="line">lines</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t19"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="with">with</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t20"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="reply">replies</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t21"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="from">from</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t22"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t23"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="minister">Minister</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t24"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="ORG">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t25"
+                           pos="JJ"
+                           msd="UPosTag=ADJ|Degree=Pos"
+                           lemma="foreign">Foreign</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t26"
+                           pos="NNS"
+                           msd="UPosTag=NOUN|Number=Plur"
+                           lemma="affair">Affairs</w>
+                     </name>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t27"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="within">within</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t28"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t29"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="allocate">allocated</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t30"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="speak">speaking</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t31"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="time"
+                        join="right">time</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e113.1.t32"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e115">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1"
+                     n="5"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e115.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t1"
+                        pos="RB"
+                        msd="UPosTag=ADV"
+                        lemma="furthermore"
+                        join="right">Furthermore</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t2"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t3"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">it</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t4"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="suggest">suggested</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t6"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="that">that</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t7"
+                        pos="DT"
+                        msd="UPosTag=PRON|Number=Plur|PronType=Dem"
+                        lemma="that">those</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t8"
+                        pos="WP"
+                        msd="UPosTag=PRON|PronType=Rel"
+                        lemma="who">who</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t9"
+                        pos="VBP"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t10"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t11"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="sign">sign</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t12"
+                        pos="RP"
+                        msd="UPosTag=ADP"
+                        lemma="up">up</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t13"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t14"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t15"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="list">list</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t16"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t17"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="speaker">speakers</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t18"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">in</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t19"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="addition">addition</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t20"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t21"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t22"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part"
+                        lemma="allocate">allocated</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t23"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="speak">speaking</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t24"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="time">time</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t25"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="should">should</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t26"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t27"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t28"
+                        pos="VBG"
+                        msd="UPosTag=VERB|VerbForm=Ger"
+                        lemma="speak">speaking</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t29"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="time">time</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t30"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t31"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="up">up</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t32"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t33"
+                        pos="CD"
+                        msd="UPosTag=NUM|NumForm=Digit|NumType=Card"
+                        lemma="3">3</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t34"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="minute"
+                        join="right">minutes</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e115.1.t35"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e117">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1"
+                     n="6"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e117.1">
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t1"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">–</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t2"
+                        pos="PRP"
+                        msd="UPosTag=PRON|Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs"
+                        lemma="it">It</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t3"
+                        pos="MD"
+                        msd="UPosTag=AUX|VerbForm=Fin"
+                        lemma="shall">shall</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t4"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="be">be</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t5"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="deem">deemed</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t6"
+                        pos="TO"
+                        msd="UPosTag=PART"
+                        lemma="to">to</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t7"
+                        pos="VB"
+                        msd="UPosTag=AUX|VerbForm=Inf"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t8"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t9"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="adopt"
+                        join="right">adopted</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e117.1.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e119">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1"
+                     n="7"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e119.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t1"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t2"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos|NumType=Ord"
+                        lemma="first">first</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="speaker">speaker</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t4"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="representative">representative</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t8"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Sven">Sven</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t9"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Roald">Roald</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t10"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Hansen"
+                           join="right">Hansen</w>
+                     </name>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t12"
+                        pos="RB"
+                        msd="UPosTag=ADV|PronType=Dem"
+                        lemma="then">then</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t13"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t14"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="representative">representative</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t15"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="of">of</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t16"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Ine">Ine</w>
+                     <name type="PER">
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t17"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="M.">M.</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t18"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Eriksen">Eriksen</w>
+                        <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t19"
+                           pos="NNP"
+                           msd="UPosTag=PROPN|Number=Sing"
+                           lemma="Soreide"
+                           join="right">Soreide</w>
+                     </name>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e119.1.t20"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 3 [12:28:37]</head>
+            <note type="comment" xml:lang="en">Recommendation of the Foreign and Defence Committee on agreements concluded with foreign powers or international organisations in 2009</note>
+            <note type="comment" xml:lang="en">(Inc. 330 S (2010-2011)</note>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 4 [12:28:51]</head>
+            <note type="comment" xml:lang="en">Opinion of the Committee on Foreign Affairs and Defence on the Annual Report of the European Parliament’s Delegation to the Western European Union (WEU) Parliamentary Assembly for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 337 S (2010-2011), cf. Document 13 (2010-2011)</note>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 5 [12:29:02]</head>
+            <note type="comment" xml:lang="en">Recommendation of the Foreign and Defence Committee on the cooperation of the Organisation for Security and Cooperation in Europe (OSSE) in 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 336 S (2010-2011), cf. Report. St. 19 (2010)–2011)</note>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 6 [12:29:15]</head>
+            <note type="comment" xml:lang="en">Opinion of the Committee on Foreign Affairs and Defence on the Annual Report of the Government Delegation to the Organisation for Security and Cooperation in the European Parliamentary Assembly (OSSE) for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 338 S (2010-2011), cf. Document 9 (2010-2011)</note>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 7 [12:29:30]</head>
+            <note type="comment" xml:lang="en">Recommendation of the Foreign and Defence Committee on Norway's participation in the Council of Europe in 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 332 S (2010-2011), cf. Report. St. 20 (2010)–2011)</note>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 8 [12:29:40]</head>
+            <note type="comment" xml:lang="en">Recommendation of the Committee on Foreign Affairs and Defence on the annual report of the European Parliament delegation to the Council of Europe Parliamentary Assembly for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 333 S (2010-2011), cf. Document 16 (2010-2011)</note>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <head>Sak nr. 9 [12:29:52]</head>
+            <note type="comment" xml:lang="en">Opening of the Committee on Foreign Affairs and Defence on the annual report from the delegation of the European Parliament to the EFTA Parliamentary Committees and the EEA Joint Parliamentary Committee for 2010</note>
+            <note type="comment" xml:lang="en">(Inc. 334 S (2010-2011), cf. Document 19 (2010-2011)</note>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <u who="#person.OYK"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2011-05-24.ana.ud457e1905"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NO_2011-05-24.ana.ud457e1905">
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1906">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1"
+                     n="1994"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1906.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="in">In</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t2"
+                        pos="NNP"
+                        msd="UPosTag=PROPN|Number=Sing"
+                        lemma="Case">Case</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t3"
+                        pos="UH"
+                        msd="UPosTag=INTJ"
+                        lemma="no"
+                        join="right">No</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET"
+                        lemma="no">No</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t6"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="voting">voting</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t7"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="theme">theme</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t8"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t9"
+                        pos="JJ"
+                        msd="UPosTag=ADJ|Degree=Pos"
+                        lemma="available"
+                        join="right">available</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1906.1.t10"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div type="debateSection" xml:lang="en">
+            <note type="comment" xml:lang="en">Case No. 13</note>
+            <note type="comment" xml:lang="en">15:10:02</note>
+            <note type="comment" xml:lang="en">Unit</note>
+            <note type="comment" xml:lang="en">1st@it</note>
+            <note type="comment" xml:lang="en">355</note>
+            <note type="comment" xml:lang="en">Representative proposals by the depositors Bent Höie, Sonja Irene Sjøli and Erna Solberg on faster and better access to medicines (Document 8:146 S (2010–2011))</note>
+            <note type="comment" xml:lang="en">Enst.: to be sent to the Health and Care Committee.</note>
+            <note type="comment" xml:lang="en">2nd@it</note>
+            <note type="comment" xml:lang="en">356</note>
+            <note type="comment" xml:lang="en">Representative proposal by Mr Henning Warloe, Ms Linda C. Hofstad Helleland, Ms Elisabeth Røbekk Nørve, Mr Gunnar Gundersen and Mr Nikolai Astrup for a stronger commitment to commercialising research results (Document 8:148 S (2010-2011))</note>
+            <note type="comment" xml:lang="en">Enst.: To be sent to the Church, Education and Research Committee.</note>
+            <note type="comment" xml:lang="en">3rd@it</note>
+            <note type="comment" xml:lang="en">357</note>
+            <note type="comment" xml:lang="en">Representative proposals by the deposit representatives Elisabeth Røbekk Nørve, Frank Bakke-Jensen, Svein Flötten and Henning Warloe on the industrial development and innovation instrument (Document 8:149 S (2010-2011))</note>
+            <note type="comment" xml:lang="en">Enst.: To be sent to the Business Committee.</note>
+            <u who="#person.OYK"
+               ana="#chair"
+               xml:id="ParlaMint-NO_2011-05-24.ana.ud457e1945"
+               xml:lang="en"
+               corresp="mt-src:ParlaMint-NO_2011-05-24.ana.ud457e1945">
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1946">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1"
+                     n="1995"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1946.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t1"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="as">As</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="result"
+                        join="right">result</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t4"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t5"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t6"
+                        pos="NNS"
+                        msd="UPosTag=NOUN|Number=Plur"
+                        lemma="case">cases</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t7"
+                        pos="IN"
+                        msd="UPosTag=ADP"
+                        lemma="on">on</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="today"
+                        join="right">today</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t9"
+                        pos="POS"
+                        msd="UPosTag=PART"
+                        lemma="'s">'s</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t10"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="map">map</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t11"
+                        pos="VBP"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="have">have</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t12"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t13"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="complete"
+                        join="right">completed</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1946.1.t14"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+               <seg xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948"
+                    xml:lang="en"
+                    corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1948">
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1"
+                     n="1996"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1948.1">
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t1"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="do">Does</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t2"
+                        pos="NN"
+                        msd="UPosTag=PRON|Number=Sing"
+                        lemma="anyone">anyone</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t3"
+                        pos="VB"
+                        msd="UPosTag=VERB|VerbForm=Inf"
+                        lemma="require">require</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t4"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Ind|PronType=Art"
+                        lemma="a">a</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t5"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="word">word</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t6"
+                        pos="IN"
+                        msd="UPosTag=SCONJ"
+                        lemma="before">before</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t7"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">the</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t8"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting">meeting</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t9"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">is</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t10"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="cancel"
+                        join="right">cancelled</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.1.t11"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">?</pc>
+                  </s>
+                  <s xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2"
+                     n="1997"
+                     corresp="mt-src:ParlaMint-NO_2011-05-24.ana.segd457e1948.2">
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t1"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">-</pc>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t2"
+                        pos="DT"
+                        msd="UPosTag=DET|Definite=Def|PronType=Art"
+                        lemma="the">The</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t3"
+                        pos="NN"
+                        msd="UPosTag=NOUN|Number=Sing"
+                        lemma="meeting"
+                        join="right">meeting</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t4"
+                        pos="VBZ"
+                        msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+                        lemma="be">'s</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t5"
+                        pos="VBN"
+                        msd="UPosTag=AUX|Tense=Past|VerbForm=Part"
+                        lemma="be">been</w>
+                     <w xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t6"
+                        pos="VBN"
+                        msd="UPosTag=VERB|Tense=Past|VerbForm=Part|Voice=Pass"
+                        lemma="cancel"
+                        join="right">cancelled</w>
+                     <pc xml:id="ParlaMint-NO_2011-05-24.ana.segd457e1948.2.t7"
+                         pos="Z"
+                         msd="UPosTag=PUNCT">.</pc>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div type="commentSection" xml:lang="en">
+            <note type="comment" xml:lang="en">The meeting was closed at 1 p.m. 15.10.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

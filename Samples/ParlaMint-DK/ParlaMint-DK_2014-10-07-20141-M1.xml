@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="da"
+     xml:id="ParlaMint-DK_2014-10-07-20141-M1"
+     ana="#parla.sitting #reference">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">The Danish parliamentary corpus ParlaMint-DK, Session 20141, Sitting M1 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="da">Det danske korpus ParlaMint-DK, folketingsåret 20141, møde M1 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Hansard of the session of the Danish Parliament (Folketinget), 20141, M1 (2014-10-07), final version</title>
+            <title type="sub" xml:lang="da">Referat fra folketingssalen, folketingsåret 20141, møde M1 (2014-10-07) endelig version</title>
+            <meeting n="2014-2015" corresp="#FT" ana="#parla.term #FT.14">Regeringen Helle Thorning-Schmidt II</meeting>
+            <meeting n="20141" ana="#parla.uni #parla.session">20141</meeting>
+            <meeting n="1" ana="#parla.uni #parla.meeting">M1</meeting>
+            <respStmt>
+               <persName>Bart Jongejan</persName>
+               <persName>Dorte Haltrup Hansen</persName>
+               <persName>Costanza Navarretta</persName>
+               <resp xml:lang="en">Data retrieval and conversion to TEI</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">Department of Nordic Studies and Linguistics (NorS), University of Copenhagen</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="10" xml:lang="en">10 speeches</measure>
+            <measure unit="words" quantity="5431" xml:lang="en">5,431 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <date when="2023-09-12">2023-09-12</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <title type="main" xml:lang="en">Hansards of the Danish Parliament</title>
+               <publisher xml:lang="en">The Danish Parliament</publisher>
+               <idno type="URI" subtype="parliament">https://www.ft.dk/</idno>
+               <date when="2014-10-07">2014-10-07</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="7"/>
+               <tagUsage gi="head" occurs="7"/>
+               <tagUsage gi="note" occurs="7"/>
+               <tagUsage gi="seg" occurs="10"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="10"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Folketinget, Christiansborg</name>
+               <name type="city">1240 Copenhagen K</name>
+               <name type="country" key="DK">Denmark</name>
+               <date ana="#parla.sitting" when="2014-10-07">2014-10-07</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2023-09-12">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2021-01-29">
+            <name>Dorte Haltrup Hansen</name>: Generated corpus in ParlaMint.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="da" ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2014-10-07-0</note>
+            <u who="#HaarderBertel"
+               xml:id="ParlaMint-DK_20141007120002"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20141007120002.seg1">Mødet er åbnet. 164 gange er Folketinget trådt sammen den første mandag eller tirsdag i oktober i lyst og nød, under krig og besættelse, efter sejre og nederlag, sådan som vi bliver mindet om i dette jubilæumsår, 2014. Da Grundtvig var aldersformand i 1857, åbnede han Tinget med et ønske om Danmarks opblomstring i en ny skikkelse, som om han forudså, hvad der forestod i 1864, og forudså opblomstringen derefter. Nu er det så mig, der som den længst siddende – men ikke den ældste – har til opgave at lede valget af præsidium og tingsekretærer.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <head>Valg af formand.</head>
+            <note type="agendaItem">2014-10-07-1</note>
+            <u who="#HaarderBertel"
+               xml:id="ParlaMint-DK_20141007120050"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20141007120050.seg2">Til formand har samtlige grupper indstillet hr. Mogens Lykketoft, og da der således ikke foreligger andre indstillinger, vil jeg betragte indstillingen som vedtaget af alle partier. Den er vedtaget.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u who="#LykketoftMogens"
+               xml:id="ParlaMint-DK_20141007124633"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20141007124633.seg9">Tak til statsministeren for redegørelsen.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Punkt 0</head>
+            <note type="agendaItem">2014-10-07-0</note>
+            <u who="#LykketoftMogens"
+               xml:id="ParlaMint-DK_20141007124638"
+               ana="#chair">
+               <seg xml:id="ParlaMint-DK_20141007124638.seg10">Inden vi slutter mødet, er der tre fremsættelser. Finansministeren (Bjarne Corydon): Lovforslag nr. L 1 (Forslag til finanslov for finansåret 2015), Lovforslag nr. L 2 (Forslag til lov om fastsættelse af udgiftslofter for stat, kommuner og regioner for finansåret 2018) og Lovforslag nr. L 3 (Forslag til lov om ændring af lov om fastsættelse af udgiftslofter for stat, kommuner og regioner for finansårene 2014-2017). Titler på de anmeldte sager vil fremgå af www.folketingstidende.dk (jf. ovenfor). Så er der ikke mere at foretage i dette møde. Folketingets næste møde afholdes i morgen, onsdag den 8. oktober 2014, kl. 13.00. Jeg henviser til den dagsorden, der er opslået på Folketingets hjemmeside.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

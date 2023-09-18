@@ -3,7 +3,7 @@ cd ParlaMint
 
 FAIL=0
 
-DATADIR=Data
+DATADIR=Samples
 
 TESTDIR="SAMPLE/Parla-CLARIN"
 mkdir -p $TESTDIR
@@ -14,6 +14,11 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   mkdir -p $DIR
   echo "Cleaning old sample files [$parla]"
   rm -f ${DATADIR}/ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
+
+  echo "::warning:: TMP check whether are taxonomies translated"
+  make translateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/taxonomies.log
+  make initTaxonomies4translation-$parla
+  make validateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error:: incomplete taxonomy translation \1\2/i" | tee $DIR/taxonomies.log
 
   if [ -f "${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.xml" ] ; then
 
@@ -55,6 +60,10 @@ for parla in $(jq -r '.[]' <<< $1 ); do
     FAIL=1
     echo "::error:: ParlaMint-$parla validation failed"
   fi
+
+  echo "::warning:: TMP restore taxonomy"
+  git checkout Corpora/Taxonomies/ParlaMint-taxonomy*
+  git checkout ${DATADIR}/ParlaMint-$parla/ParlaMint-taxonomy*
 done
 
 if [ $FAIL -eq 1 ] ; then
