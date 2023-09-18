@@ -11,7 +11,7 @@
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = GR
+CORPORA = HU  #RUN THIS ONE NEXT!!
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
