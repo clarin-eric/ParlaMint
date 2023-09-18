@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<listOrg xmlns="http://www.tei-c.org/ns/1.0"
-         xml:id="ParlaMint-AT-listOrg"
-         xml:lang="mul">
-   <org xml:id="NR" role="parliament" ana="#parla.national #parla.lower">
+<listOrg xmlns="http://www.tei-c.org/ns/1.0" xml:id="ParlaMint-AT-listOrg" xml:lang="mul">
+            <!-- "Nationalrat (i.e. lower house) with the list of legislative periods -->
+            <org xml:id="NR" role="parliament" ana="#parla.national #parla.lower">
       <orgName xml:lang="de" full="yes">Nationalrat der Republik Österreich</orgName>
       <orgName xml:lang="en" full="yes">National Council of the Republic of Austria</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Nationalrat_(%C3%96sterreich)</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/National_Council_(Austria)</idno>
+      <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Nationalrat_(%C3%96sterreich)</idno>
+      <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/National_Council_(Austria)</idno>
       <listEvent>
          <head xml:lang="de">Gesetzgebungsperiode</head>
          <head xml:lang="en">Legislative period</head>
@@ -128,80 +127,195 @@
          </event>
       </listEvent>
    </org>
-   <org xml:id="BR" role="parliament" ana="#parla.national #parla.upper">
-      <orgName xml:lang="de" full="yes">Bundesrat der Republik Österreich</orgName>
-      <orgName xml:lang="en" full="yes">Federal Council of the Republic of Austria</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesrat_(%C3%96sterreich)</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Federal_Council_(Austria)</idno>
-   </org>
-   <org xml:id="institution.AT.VAW" role="institution">
-      <orgName xml:lang="de" full="yes">Volksanwaltschaft</orgName>
-      <orgName xml:lang="en" full="yes">Austrian Ombudsman Board</orgName>
-      <idno type="URI">https://volksanwaltschaft.gv.at</idno>
-      <idno type="URI">https://volksanwaltschaft.gv.at/en</idno>
-   </org>
-   <org xml:id="institution.AT.RH" role="institution">
-      <orgName xml:lang="de" full="yes">Rechnungshof</orgName>
-      <orgName xml:lang="en" full="yes">Court of Audit</orgName>
-      <event from="1761">
-         <label xml:lang="en">existence</label>
-      </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Rechnungshof_(%C3%96sterreich)</idno>
-   </org>
-   <org xml:id="europeanCommision.EC" role="europeanCommission">
-      <orgName full="yes" xml:lang="de">Europäische Kommission</orgName>
-      <orgName full="yes" xml:lang="en">European Commission</orgName>
-      <orgName full="abb">EC</orgName>
-      <event from="1967-06-01">
-         <label xml:lang="en">existence</label>
-      </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Europ%C3%A4ische_Kommission</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/European_Commission</idno>
-   </org>
-   <org xml:id="europeanParliament.EP" role="europeanParliament">
-      <orgName full="yes" xml:lang="de">Europäisches Parlament</orgName>
-      <orgName full="yes" xml:lang="en">European Parliament</orgName>
-      <orgName full="abb">EP</orgName>
-      <event from="1952-09-10">
-         <label xml:lang="en">existence</label>
-      </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Europ%C3%A4isches_Parlament</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/European_Parliament</idno>
-   </org>
-   <org xml:id="europeanInstitution.PACE" role="europeanInstitution">
-      <orgName full="yes" xml:lang="de">Parlamentarische Versammlung des Europarates</orgName>
-      <orgName full="yes" xml:lang="en">Parliamentary Assembly of the Council of Europe</orgName>
-      <orgName full="abb">PACE</orgName>
-      <event from="1949">
-         <label xml:lang="en">existence</label>
-      </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Parlamentarische_Versammlung_des_Europarates</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Parliamentary_Assembly_of_the_Council_of_Europe</idno>
-   </org>
-   <org xml:id="republic.Austria" role="republic">
-      <orgName xml:lang="de" full="yes">Republik Österreich</orgName>
-      <orgName xml:lang="en" full="yes">Republic of Austria</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/%C3%96sterreich</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Austria</idno>
-   </org>
-   <org xml:id="internationalOrganisation.UN" role="internationalOrganisation">
-      <orgName full="yes" xml:lang="de">Vereinte Nationen</orgName>
-      <orgName full="yes" xml:lang="en">United Nations</orgName>
-      <orgName full="abb">UN</orgName>
-      <event from="1945-06-26">
-         <label xml:lang="en">existence</label>
-      </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Vereinte_Nationen</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/United_Nations</idno>
-   </org>
-   <org xml:id="GOV" role="government">
+            <!-- "Bundesrat (i.e. upper house) -->
+               <org xml:id="BR" role="parliament" ana="#parla.national #parla.upper">
+                  <orgName xml:lang="de" full="yes">Bundesrat der Republik Österreich</orgName>
+                  <orgName xml:lang="en" full="yes">Federal Council of the Republic of Austria</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Bundesrat_(%C3%96sterreich)</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Federal_Council_(Austria)</idno>
+               </org>
+               <!-- Volksanwaltschaft -->
+               <org xml:id="institution.AT.VAW" role="institution">
+                  <orgName xml:lang="de" full="yes">Volksanwaltschaft</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Ombudsman Board</orgName>
+                  <idno type="URI" xml:lang="de">https://volksanwaltschaft.gv.at</idno>
+                  <idno type="URI" xml:lang="en">https://volksanwaltschaft.gv.at/en</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Volksanwaltschaft</idno>
+                  <!-- no wikipage in English -->
+               </org>
+               <!-- Rechnungshof -->
+               <org xml:id="institution.AT.RH" role="institution">
+                  <!-- Rechnungshof is an institution of the Nationalrat -->
+                  <orgName xml:lang="de" full="yes">Rechnungshof</orgName>
+                  <orgName xml:lang="en" full="yes">Court of Audit</orgName>
+                  <event from="1761">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Rechnungshof_(%C3%96sterreich)</idno>
+                 <!-- no wikipage in English --> 
+               </org>
+               <!-- Europäische Kommission -->
+               <org xml:id="europeanCommision.EC" role="europeanCommission">
+                  <orgName full="yes" xml:lang="de">Europäische Kommission</orgName>
+                  <orgName full="yes" xml:lang="en">European Commission</orgName>
+                  <orgName full="abb">EC</orgName>
+                  <event from="1967-06-01">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Europ%C3%A4ische_Kommission</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/European_Commission</idno>         
+               </org>
+               <!-- European Parliament -->
+               <org xml:id="europeanParliament.EP" role="europeanParliament">
+                  <orgName full="yes" xml:lang="de">Europäisches Parlament</orgName>
+                  <orgName full="yes" xml:lang="en">European Parliament</orgName>
+                  <orgName full="abb">EP</orgName>
+                  <event from="1952-09-10">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Europ%C3%A4isches_Parlament
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/European_Parliament
+                  </idno>         
+               </org>
+               <!-- Parlamentarische Versammlung des Europarates -->
+               <org xml:id="europeanInstitution.PACE" role="europeanInstitution">
+                  <orgName full="yes" xml:lang="de">Parlamentarische Versammlung des Europarates</orgName>
+                  <orgName full="yes" xml:lang="en">Parliamentary Assembly of the Council of Europe</orgName>
+                  <orgName full="abb">PACE</orgName>
+                  <event from="1949">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Parlamentarische_Versammlung_des_Europarates</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Parliamentary_Assembly_of_the_Council_of_Europe</idno>         
+               </org>               
+               <!-- a entry for Austria as a federal republic - this is required e.g. for encoding the President of the Republic 
+                 who is specified as head ( @role="head" ) of the republic  -->
+               <org xml:id="republic.Austria" role="republic">
+                  <orgName xml:lang="de" full="yes">Republik Österreich</orgName>
+                  <orgName xml:lang="en" full="yes">Republic of Austria</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/%C3%96sterreich
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/Austria
+                  </idno>
+               </org>
+               <!-- Bundesländer ( federated states / provinces ) which together form the Federal Republic of Austria. 
+                  They are required for specifying the political function "Landeshauptmann" (regional governor) as head ( @role="head" ) of such a federated state  -->
+               <org xml:id="federatedState.Austria.Vorarlberg" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Vorarlberg</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Vorarlberg</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Vorarlberg
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                    https://en.wikipedia.org/wiki/Vorarlberg
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Tirol" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Tirol</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Tyrol</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Land_Tirol
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/Tyrol_(state)
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Salzburg" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Salzburg</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Salzburg</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Land_Salzburg
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/Salzburg_(state)
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Oberösterreich" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Oberösterreich</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Upper Austria</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Ober%C3%B6sterreich
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                    https://en.wikipedia.org/wiki/Upper_Austria
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Niederösterreich" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Niederösterreich</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Lower Austria</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Nieder%C3%B6sterreich
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                    https://en.wikipedia.org/wiki/Lower_Austria
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Wien" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Wien</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Vienna</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Wien
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/Vienna
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Burgenland" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Burgenland</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Burgenland</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Burgenland
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/Burgenland
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Steiermark" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Steiermark</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Styria</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/Steiermark
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                    https://en.wikipedia.org/wiki/Styria
+                  </idno>
+                </org>
+   <org xml:id="federatedState.Austria.Kärnten" role="federatedState">
+                  <orgName xml:lang="de" full="yes">Bundesland Kärnten</orgName>
+                  <orgName xml:lang="en" full="yes">Austrian Province Carinthia</orgName>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">
+                     https://de.wikipedia.org/wiki/K%C3%A4rnten
+                  </idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">
+                     https://en.wikipedia.org/wiki/Carinthia
+                  </idno>
+                </org>
+               <!-- United Nations -->
+               <org xml:id="internationalOrganisation.UN" role="internationalOrganisation">
+                  <orgName full="yes" xml:lang="de">Vereinte Nationen</orgName>
+                  <orgName full="yes" xml:lang="en">United Nations</orgName>
+                  <orgName full="abb">UN</orgName>
+                  <event from="1945-06-26">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <idno type="URI" subtype="wikimedia" xml:lang="de">https://de.wikipedia.org/wiki/Vereinte_Nationen</idno>
+                  <idno type="URI" subtype="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/United_Nations</idno>         
+               </org>
+                           
+            <!-- list of governments --> 
+            <org xml:id="GOV" role="government">
       <orgName xml:lang="de" full="yes">Bundesregierung der Republik Österreich</orgName>
       <orgName xml:lang="en" full="yes">Government of Austria</orgName>
       <event from="1918-10-31">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_(%C3%96sterreich)</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Austria</idno>
+      <idno xml:lang="de" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_(%C3%96sterreich)</idno>
+      <idno xml:lang="en" type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Government_of_Austria</idno>
       <listEvent>
          <event xml:id="GV.36.Klaus_I" from="1964-04-02" to="1966-04-19">
             <label xml:lang="de">Klaus I: 02.04.1964 - 19.04.1966</label>
@@ -263,8 +377,7 @@
          <event xml:id="GV.55.Kurz_I" from="2017-12-18" to="2019-05-28">
             <label xml:lang="de">Kurz I: 18.12.2017 - 28.05.2019</label>
          </event>
-         <event xml:id="GV.56.Einstweilige_Bundesregierung_Löger"
-                from="2019-05-28"
+         <event xml:id="GV.56.Einstweilige_Bundesregierung_Löger" from="2019-05-28"
                 to="2019-06-03">
             <label xml:lang="de">Einstweilige Bundesregierung Löger: 28.05.2019 - 03.06.2019</label>
          </event>
@@ -282,96 +395,79 @@
          </event>
       </listEvent>
    </org>
-   <org xml:id="parliamentaryGroup.SPÖ"
-        role="parliamentaryGroup"
-        xml:lang="de">
+            <!-- List of "organisations", i.e. political parties and other formally established groupings -->
+            <org xml:id="parliamentaryGroup.SPÖ" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Die Sozialdemokratische Parlamentsfraktion - Klub der sozialdemokratischen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group of the Social Democratic Party of Austria</orgName>
       <orgName full="abb">SPÖ</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_%C3%96sterreichs</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Austria</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.ÖVP"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_%C3%96sterreichs</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Austria</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.ÖVP" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Parlamentsklub der Österreichischen Volkspartei</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group of the Austrian People's Party</orgName>
       <orgName full="abb">ÖVP</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/%C3%96sterreichische_Volkspartei</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Austrian_People%27s_Party</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.FPÖ"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/%C3%96sterreichische_Volkspartei</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Austrian_People%27s_Party</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.FPÖ" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Freiheitlicher Parlamentsklub</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group of the Austrian Freedom Party</orgName>
       <orgName full="abb">FPÖ</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Freiheitliche_Partei_%C3%96sterreichs</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Freedom_Party_of_Austria</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.BZÖ"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Freiheitliche_Partei_%C3%96sterreichs</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Freedom_Party_of_Austria</idno>
+    </org>
+   <org xml:id="parliamentaryGroup.BZÖ" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Palamentsklub Bündnis Zukunft Österreich</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group Alliance for the Future of Austria</orgName>
       <orgName full="abb">BZÖ</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/B%C3%BCndnis_Zukunft_%C3%96sterreich</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Alliance_for_the_Future_of_Austria</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.GRÜNE"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/B%C3%BCndnis_Zukunft_%C3%96sterreich</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Alliance_for_the_Future_of_Austria</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.GRÜNE" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Der Grüne Klub im Parlament - Klub der Grünen Abgeordneten zum Nationalrat, Bundesrat und Europäischen Parlament</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group of The Greens – The Green Alternative</orgName>
       <orgName full="abb">Grüne</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Die_Gr%C3%BCnen_%E2%80%93_Die_Gr%C3%BCne_Alternative</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/The_Greens_%E2%80%93_The_Green_Alternative</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.LIF"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Die_Gr%C3%BCnen_%E2%80%93_Die_Gr%C3%BCne_Alternative</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/The_Greens_%E2%80%93_The_Green_Alternative</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.LIF" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Parlamentsklub des Liberalen Forum</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group of Liberal Forum</orgName>
       <orgName full="abb">LIF</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Liberales_Forum</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Liberal_Forum</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.NEOS"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Liberales_Forum</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Liberal_Forum</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.NEOS" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Parlamentsklub der NEOS</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group of NEOS</orgName>
       <orgName full="abb">NEOS</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/NEOS_%E2%80%93_Das_Neue_%C3%96sterreich_und_Liberales_Forum</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/NEOS_%E2%80%93_The_New_Austria_and_Liberal_Forum</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.JETZT"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/NEOS_%E2%80%93_Das_Neue_%C3%96sterreich_und_Liberales_Forum</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/NEOS_%E2%80%93_The_New_Austria_and_Liberal_Forum</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.JETZT" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Parlamentsklub JETZT – Liste Pilz</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group JETZT – Pilz List</orgName>
       <orgName full="abb">JETZT</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Jetzt_%E2%80%93_Liste_Pilz</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/JETZT_(party)</idno>
-   </org>
-   <org xml:id="parliamentaryGroup.STRONACH"
-        role="parliamentaryGroup"
-        xml:lang="de">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Jetzt_%E2%80%93_Liste_Pilz</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/JETZT_(party)</idno>
+  </org>
+   <org xml:id="parliamentaryGroup.STRONACH" role="parliamentaryGroup" xml:lang="de">
       <orgName full="yes" xml:lang="de">Parlamentsklub Team Stronach</orgName>
       <orgName full="yes" xml:lang="en">parliamentary group Team Stronach</orgName>
       <orgName full="abb">STRONACH</orgName>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Team_Stronach</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Team_Stronach</idno>
-   </org>
-   <org xml:id="politicalParty.SPÖ" role="politicalParty">
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Team_Stronach</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Team_Stronach</idno>
+  </org>
+            <org xml:id="politicalParty.SPÖ" role="politicalParty">
       <orgName full="yes" xml:lang="de">Sozialdemokratische Partei Österreichs</orgName>
       <orgName full="yes" xml:lang="en">Social Democratic Party of Austria</orgName>
       <orgName full="abb">SPÖ</orgName>
       <event from="1888-12-30">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_%C3%96sterreichs</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Austria</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_%C3%96sterreichs</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Austria</idno>
    </org>
    <org xml:id="politicalParty.ÖVP" role="politicalParty">
       <orgName full="yes" xml:lang="de">Österreichische Volkspartei</orgName>
@@ -380,8 +476,8 @@
       <event from="1945-04-17">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/%C3%96sterreichische_Volkspartei</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Austrian_People%27s_Party</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/%C3%96sterreichische_Volkspartei</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Austrian_People%27s_Party</idno>
    </org>
    <org xml:id="politicalParty.FPÖ" role="politicalParty">
       <orgName full="yes" xml:lang="de">Freiheitliche Partei Österreichs</orgName>
@@ -390,8 +486,8 @@
       <event from="1956-04-07">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Freiheitliche_Partei_%C3%96sterreichs</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Freedom_Party_of_Austria</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Freiheitliche_Partei_%C3%96sterreichs</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Freedom_Party_of_Austria</idno>
    </org>
    <org xml:id="politicalParty.GRÜNE" role="politicalParty">
       <orgName full="yes" xml:lang="de">Die Grünen – Die Grüne Alternative</orgName>
@@ -400,8 +496,8 @@
       <event from="1993-01-01">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Die_Gr%C3%BCnen_%E2%80%93_Die_Gr%C3%BCne_Alternative</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/The_Greens_%E2%80%93_The_Green_Alternative</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Die_Gr%C3%BCnen_%E2%80%93_Die_Gr%C3%BCne_Alternative</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/The_Greens_%E2%80%93_The_Green_Alternative</idno>
    </org>
    <org xml:id="politicalParty.NEOS" role="politicalParty">
       <orgName full="yes" xml:lang="de">NEOS – Das Neue Österreich und Liberales Forum</orgName>
@@ -410,28 +506,28 @@
       <event from="2014-01-25">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/NEOS_%E2%80%93_Das_Neue_%C3%96sterreich_und_Liberales_Forum</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/NEOS_%E2%80%93_The_New_Austria_and_Liberal_Forum</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/NEOS_%E2%80%93_Das_Neue_%C3%96sterreich_und_Liberales_Forum</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/NEOS_%E2%80%93_The_New_Austria_and_Liberal_Forum</idno>
    </org>
    <org xml:id="politicalParty.STRONACH" role="politicalParty">
       <orgName full="yes" xml:lang="de">Team Stronach</orgName>
       <orgName full="yes" xml:lang="en">Team Stronach</orgName>
       <orgName full="abb">STRONACH</orgName>
-      <event from="2012-09-25" to="2017-12-31">
-         <label xml:lang="en">existence</label>
+      <event from="2012-09-25" to="2017-12-31"> <!-- aufgelöst --> 
+   <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Team_Stronach</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Team_Stronach</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Team_Stronach</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Team_Stronach</idno>
    </org>
    <org xml:id="politicalParty.LIF" role="politicalParty">
       <orgName full="yes" xml:lang="de">Liberales Forum</orgName>
       <orgName full="yes" xml:lang="en">Liberal Forum</orgName>
-      <orgName full="abb">LIF</orgName>
-      <event from="1993-02-04" to="2014-01-25">
-         <label xml:lang="en">existence</label>
+      <orgName full="abb">LIF</orgName> 
+      <event from="1993-02-04" to="2014-01-25"> <!-- Fusion mit NEOS --> 
+   <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Liberales_Forum</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Liberal_Forum</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Liberales_Forum</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Liberal_Forum</idno>
    </org>
    <org xml:id="politicalParty.BZÖ" role="politicalParty">
       <orgName full="yes" xml:lang="de">Bündnis Zukunft Österreich</orgName>
@@ -440,253 +536,229 @@
       <event from="2005-04-17">
          <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/B%C3%BCndnis_Zukunft_%C3%96sterreich</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/Alliance_for_the_Future_of_Austria</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/B%C3%BCndnis_Zukunft_%C3%96sterreich</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/Alliance_for_the_Future_of_Austria</idno>
    </org>
    <org xml:id="politicalParty.JETZT" role="politicalParty">
       <orgName full="yes" xml:lang="de">JETZT – Liste Pilz</orgName>
       <orgName full="yes" xml:lang="en">JETZT – Pilz List</orgName>
       <orgName full="abb">JETZT</orgName>
-      <event from="2017-07-26" to="2020-01-01">
-         <label xml:lang="en">existence</label>
+      <event from="2017-07-26" to="2020-01-01"> <!-- end date: guesstimated! -->
+   <label xml:lang="en">existence</label>
       </event>
-      <idno type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Jetzt_%E2%80%93_Liste_Pilz</idno>
-      <idno type="URI" subtype="wikimedia">https://en.wikipedia.org/wiki/JETZT_(party)</idno>
+      <idno type="URI" xml:lang="de" subtype="wikimedia">https://de.wikipedia.org/wiki/Jetzt_%E2%80%93_Liste_Pilz</idno>
+      <idno type="URI" xml:lang="en" subtype="wikimedia">https://en.wikipedia.org/wiki/JETZT_(party)</idno>
    </org>
-   <listRelation>
-      <relation name="coalition"
-                from="1983-05-24"
-                to="1986-06-16"
+            <listRelation>
+      
+	<!-- starting with "historical" government GV.42.Sinowatz -->             
+	<!-- Government: GV.42.Sinowatz -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Sinowatz</tei:idno>-->
+	<relation name="coalition" from="1983-05-24" to="1986-06-16"
                 mutual="#politicalParty.SPÖ #politicalParty.FPÖ"
                 ana="#NR.XVI"/>
-      <relation name="opposition"
-                from="1983-05-24"
-                to="1986-06-16"
+	     <relation name="opposition" from="1983-05-24" to="1986-06-16"
                 active="#politicalParty.ÖVP"
                 passive="#GOV"
                 ana="#GV.42.Sinowatz #NR.XVI"/>
-      <relation name="coalition"
-                from="1986-06-16"
-                to="1987-01-21"
+
+	     <!-- Government: GV.43.Vranitzky_I -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Vranitzky_I</tei:idno>-->
+	<relation name="coalition" from="1986-06-16" to="1987-01-21"
                 mutual="#politicalParty.SPÖ #politicalParty.FPÖ"
                 ana="#NR.XVI"/>
-      <relation name="opposition"
-                from="1986-06-16"
-                to="1987-01-21"
+	     <relation name="opposition" from="1986-06-16" to="1987-01-21"
                 active="#politicalParty.ÖVP"
                 passive="#GOV"
                 ana="#GV.43.Vranitzky_I #NR.XVI"/>
-      <relation name="coalition"
-                from="1987-01-21"
-                to="1990-12-17"
+
+	     <!-- Government: GV.44.Vranitzky_II -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Vranitzky_II</tei:idno>-->
+	<relation name="coalition" from="1987-01-21" to="1990-12-17"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XVII"/>
-      <relation name="opposition"
-                from="1987-01-21"
-                to="1990-12-17"
+	     <relation name="opposition" from="1987-01-21" to="1990-12-17"
                 active="#politicalParty.FPÖ #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.44.Vranitzky_II #NR.XVII"/>
-      <relation name="coalition"
-                from="1990-12-17"
-                to="1994-11-29"
+
+	     <!-- Government: GV.45.Vranitzky_III -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Vranitzky_III</tei:idno>-->
+	<relation name="coalition" from="1990-12-17" to="1994-11-29"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XVIII"/>
-      <relation name="opposition"
-                from="1990-12-17"
-                to="1994-11-29"
+	     <relation name="opposition" from="1990-12-17" to="1994-11-29"
                 active="#politicalParty.FPÖ #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.45.Vranitzky_III #NR.XVIII"/>
-      <relation name="coalition"
-                from="1994-11-29"
-                to="1996-03-12"
+
+	     <!-- Government: GV.46.Vranitzky_IV -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Vranitzky_IV</tei:idno>-->
+	<relation name="coalition" from="1994-11-29" to="1996-03-12"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XIX"/>
-      <relation name="opposition"
-                from="1994-11-29"
-                to="1996-03-12"
+	     <relation name="opposition" from="1994-11-29" to="1996-03-12"
                 active="#politicalParty.FPÖ #politicalParty.GRÜNE #politicalParty.LIF"
                 passive="#GOV"
                 ana="#GV.46.Vranitzky_IV #NR.XIX"/>
-      <relation name="coalition"
-                from="1996-03-12"
-                to="1997-01-28"
+
+	     <!-- Government: GV.47.Vranitzky_V -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Vranitzky_V</tei:idno>-->
+	<relation name="coalition" from="1996-03-12" to="1997-01-28"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XX"/>
-      <relation name="opposition"
-                from="1996-03-12"
-                to="1997-01-28"
+	     <relation name="opposition" from="1996-03-12" to="1997-01-28"
                 active="#politicalParty.FPÖ #politicalParty.LIF #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.47.Vranitzky_V #NR.XX"/>
-      <relation name="coalition"
-                from="1997-01-28"
-                to="2000-02-04"
+
+	     <!-- Government: GV.48.Klima -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Klima</tei:idno>-->
+	<relation name="coalition" from="1997-01-28" to="2000-02-04"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XX"/>
-      <relation name="opposition"
-                from="1997-01-28"
-                to="2000-02-04"
+	     <relation name="opposition" from="1997-01-28" to="2000-02-04"
                 active="#politicalParty.FPÖ #politicalParty.LIF #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.48.Klima #NR.XX"/>
-      <relation name="coalition"
-                from="2000-02-04"
-                to="2003-02-28"
+
+	     <!-- Government: GV.49.Schüssel_I -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Schüssel_I</tei:idno>-->
+	<relation name="coalition" from="2000-02-04" to="2003-02-28"
                 mutual="#politicalParty.ÖVP #politicalParty.FPÖ"
                 ana="#NR.XXI"/>
-      <relation name="opposition"
-                from="2000-02-04"
-                to="2003-02-28"
+	     <relation name="opposition" from="2000-02-04" to="2003-02-28"
                 active="#politicalParty.SPÖ #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.49.Schüssel_I #NR.XXI"/>
-      <relation name="coalition"
-                from="2003-02-28"
-                to="2007-01-11"
+
+	     <!-- Government: GV.50.Schüssel_II -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Schüssel_II</tei:idno>-->
+	<relation name="coalition" from="2003-02-28" to="2007-01-11"
                 mutual="#politicalParty.ÖVP #politicalParty.FPÖ #politicalParty.BZÖ"
                 ana="#NR.XXII"/>
-      <relation name="opposition"
-                from="2003-02-28"
-                to="2007-01-11"
+	     <relation name="opposition" from="2003-02-28" to="2007-01-11"
                 active="#politicalParty.SPÖ #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.50.Schüssel_II #NR.XXII"/>
-      <relation name="coalition"
-                from="2007-01-11"
-                to="2008-12-02"
+
+	     <!-- Government: GV.51.Gusenbauer -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Gusenbauer</tei:idno>-->
+	<relation name="coalition" from="2007-01-11" to="2008-12-02"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XXIII"/>
-      <relation name="opposition"
-                from="2007-01-11"
-                to="2008-12-02"
+	     <relation name="opposition" from="2007-01-11" to="2008-12-02"
                 active="#politicalParty.FPÖ #politicalParty.GRÜNE #politicalParty.BZÖ"
                 passive="#GOV"
                 ana="#GV.51.Gusenbauer #NR.XXIII"/>
-      <relation name="coalition"
-                from="2008-12-02"
-                to="2013-12-16"
+
+	     <!-- Government: GV.52.Faymann_I -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Faymann_I</tei:idno>-->
+	<relation name="coalition" from="2008-12-02" to="2013-12-16"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XXIV"/>
-      <relation name="opposition"
-                from="2008-12-02"
-                to="2013-12-16"
+	     <relation name="opposition" from="2008-12-02" to="2013-12-16"
                 active="#politicalParty.FPÖ #politicalParty.BZÖ #politicalParty.GRÜNE"
                 passive="#GOV"
                 ana="#GV.52.Faymann_I #NR.XXIV"/>
-      <relation name="coalition"
-                from="2013-12-16"
-                to="2016-05-17"
+
+	     <!-- Government: GV.53.Faymann_II -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Faymann_II</tei:idno>-->
+	<relation name="coalition" from="2013-12-16" to="2016-05-17"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XXV"/>
-      <relation name="opposition"
-                from="2013-12-16"
-                to="2016-05-17"
+	     <relation name="opposition" from="2013-12-16" to="2016-05-17"
                 active="#politicalParty.FPÖ #politicalParty.GRÜNE #politicalParty.STRONACH #politicalParty.NEOS"
                 passive="#GOV"
                 ana="#GV.53.Faymann_II #NR.XXV"/>
-      <relation name="coalition"
-                from="2016-05-17"
-                to="2017-12-18"
+
+	     <!-- Government: GV.54.Kern -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Kern</tei:idno>-->
+	<relation name="coalition" from="2016-05-17" to="2017-12-18"
                 mutual="#politicalParty.SPÖ #politicalParty.ÖVP"
                 ana="#NR.XXV"/>
-      <relation name="opposition"
-                from="2016-05-17"
-                to="2017-12-18"
+	     <relation name="opposition" from="2016-05-17" to="2017-12-18"
                 active="#politicalParty.FPÖ #politicalParty.GRÜNE #politicalParty.STRONACH #politicalParty.NEOS"
                 passive="#GOV"
                 ana="#GV.54.Kern #NR.XXV"/>
-      <relation name="coalition"
-                from="2017-12-18"
-                to="2019-05-28"
+
+	     <!-- Government: GV.55.Kurz_I -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Kurz_I</tei:idno>-->
+	<relation name="coalition" from="2017-12-18" to="2019-05-28"
                 mutual="#politicalParty.ÖVP #politicalParty.FPÖ"
                 ana="#NR.XXVI"/>
-      <relation name="opposition"
-                from="2017-12-18"
-                to="2019-05-28"
+	     <relation name="opposition" from="2017-12-18" to="2019-05-28"
                 active="#politicalParty.SPÖ #politicalParty.NEOS #politicalParty.JETZT"
                 passive="#GOV"
                 ana="#GV.55.Kurz_I #NR.XXVI"/>
-      <relation name="coalition"
-                from="2019-05-28"
-                to="2019-06-03"
-                mutual="#politicalParty.ÖVP"
+
+	     <!-- Government: GV.56.Einstweilige_Bundesregierung_Löger -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Einstweilige_Bundesregierung_L%C3%B6ger</tei:idno>-->
+	<!-- a temporary government after GV.55.Kurz_I "blew up" due to the so called "Ibiza-scandal": it was formed by ÖVP and party-less "experts"  -->
+	<relation name="coalition" from="2019-05-28" to="2019-06-03" mutual="#politicalParty.ÖVP"
                 ana="#NR.XXVI"/>
-      <relation name="opposition"
-                from="2019-05-28"
-                to="2019-06-03"
+	     <relation name="opposition" from="2019-05-28" to="2019-06-03"
                 active="#politicalParty.SPÖ #politicalParty.NEOS #politicalParty.JETZT #politicalParty.FPÖ"
                 passive="#GOV"
                 ana="#GV.56.Einstweilige_Bundesregierung_Löger #NR.XXVI"/>
-      <relation name="coalition"
-                from="2019-06-03"
-                to="2020-01-07"
-                mutual="#politicalParty.ÖVP"
+
+	     <!-- Government: GV.57.Bierlein --> <!-- Beamtenregierung i.e. a "Government of Experts" --> 
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Bierlein</tei:idno>-->
+	<relation name="coalition" from="2019-06-03" to="2020-01-07" mutual="#politicalParty.ÖVP"
                 ana="#NR.XXVI"/>
-      <relation name="opposition"
-                from="2019-06-03"
-                to="2020-01-07"
+	     <relation name="opposition" from="2019-06-03" to="2020-01-07"
                 active="#politicalParty.SPÖ #politicalParty.NEOS #politicalParty.JETZT #politicalParty.FPÖ"
                 passive="#GOV"
                 ana="#GV.57.Bierlein #NR.XXVI"/>
-      <relation name="coalition"
-                from="2020-01-07"
-                to="2021-10-11"
+
+	     <!-- Government: GV.58.Kurz_II -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Kurz_II</tei:idno>-->
+	<relation name="coalition" from="2020-01-07" to="2021-10-11"
                 mutual="#politicalParty.ÖVP #politicalParty.GRÜNE"
                 ana="#NR.XXVII"/>
-      <relation name="opposition"
-                from="2020-01-07"
-                to="2021-10-11"
+	     <relation name="opposition" from="2020-01-07" to="2021-10-11"
                 active="#politicalParty.SPÖ #politicalParty.FPÖ #politicalParty.NEOS"
                 passive="#GOV"
                 ana="#GV.58.Kurz_II #NR.XXVII"/>
-      <relation name="coalition"
-                from="2021-10-11"
-                to="2021-12-06"
+
+	     <!-- Government: GV.59.Schallenberg -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Schallenberg</tei:idno>-->
+	<relation name="coalition" from="2021-10-11" to="2021-12-06"
                 mutual="#politicalParty.ÖVP #politicalParty.GRÜNE"
                 ana="#NR.XXVII"/>
-      <relation name="opposition"
-                from="2021-10-11"
-                to="2021-12-06"
+	     <relation name="opposition" from="2021-10-11" to="2021-12-06"
                 active="#politicalParty.SPÖ #politicalParty.FPÖ #politicalParty.NEOS"
                 passive="#GOV"
                 ana="#GV.59.Schallenberg #NR.XXVII"/>
-      <relation name="coalition"
-                from="2021-12-06"
+
+	     <!-- Government: GV.60.Nehammer -->
+	<!-- <tei:idno xml:lang="en" type="URI" subtype="wikimedia">https://de.wikipedia.org/wiki/Bundesregierung_Nehammer</tei:idno>-->
+	<relation name="coalition" from="2021-12-06"
                 mutual="#politicalParty.ÖVP #politicalParty.GRÜNE"
                 ana="#NR.XXVII"/>
-      <relation name="opposition"
-                from="2021-12-06"
+	     <relation name="opposition" from="2021-12-06"
                 active="#politicalParty.SPÖ #politicalParty.FPÖ #politicalParty.NEOS"
                 passive="#GOV"
                 ana="#GV.60.Nehammer #NR.XXVII"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.SPÖ"
-                passive="#politicalParty.SPÖ"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.ÖVP"
-                passive="#politicalParty.ÖVP"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.FPÖ"
+		
+	     <!-- Relationships between parties and their "Klubs" -->
+	<relation name="representing" active="#parliamentaryGroup.SPÖ"
+                passive="#politicalParty.SPÖ"/> 
+	     <relation name="representing" active="#parliamentaryGroup.ÖVP"
+                passive="#politicalParty.ÖVP"/> 
+	     <relation name="representing" active="#parliamentaryGroup.FPÖ"
                 passive="#politicalParty.FPÖ"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.BZÖ"
+	     <relation name="representing" active="#parliamentaryGroup.BZÖ"
                 passive="#politicalParty.BZÖ"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.GRÜNE"
+	     <relation name="representing" active="#parliamentaryGroup.GRÜNE"
                 passive="#politicalParty.GRÜNE"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.LIF"
+	     <relation name="representing" active="#parliamentaryGroup.LIF"
                 passive="#politicalParty.LIF"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.NEOS"
+	     <relation name="representing" active="#parliamentaryGroup.NEOS"
                 passive="#politicalParty.NEOS"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.JETZT"
+	     <relation name="representing" active="#parliamentaryGroup.JETZT"
                 passive="#politicalParty.JETZT"/>
-      <relation name="representing"
-                active="#parliamentaryGroup.STRONACH"
+	     <relation name="representing" active="#parliamentaryGroup.STRONACH"
                 passive="#politicalParty.STRONACH"/>
    </listRelation>
 </listOrg>
