@@ -11,7 +11,7 @@
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = ES-CT
+CORPORA = GR
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -49,6 +49,9 @@ test-vert3:
 	${HERE}/Master/ParlaMint-BG.TEI.ana/2022/ParlaMint-BG_2022-05-04.ana.xml > test.vert
 test-vert2:
 	${FINALIZE} -vert -codes ES-PV -in ${HERE}/Master -out ${HERE}/Master
+test-meta3:
+	$s meta=../Corpora/Master/ParlaMint-BE.TEI/ParlaMint-BE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-19-54-plenair-ip001x.xml > test.tsv
 test-meta2:
 	${FINALIZE} -txt -codes BE -in ${HERE}/Master -out ${HERE}/Master
 test-vert1:
