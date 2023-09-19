@@ -34,7 +34,9 @@ foreach $inDir (glob $inDirs) {
 	next unless ($year) = $inYDir =~ m|(\d\d\d\d)$|;
 	# print STDERR "INFO: Doing $year\n";
 	$outYDir = "$outCDir/$year";
-	if (-e $outYDir) {`rm -f $outYDir/*.conllu`}
+	if (-e $outYDir) {
+	    #`rm -f $outYDir/*.conllu`
+	}
 	else {
 	    print STDERR "INFO: Creating $outYDir\n";
 	    `mkdir $outYDir`
@@ -100,7 +102,7 @@ sub cut {
 		elsif ($word =~ /^\Q$trg_str\E/) {
 		    $skip = 1
 		}
-		else {die "FATAL: Out of synch on cut in \nTARGET:\t$trg_str\nWORD:\t$word\nLINE:\t$line\n"}
+		else {die "FATAL ERROR: Out of synch on cut in \nTARGET:\t$trg_str\nWORD:\t$word\nLINE:\t$line\n"}
 	    }
 	}
 	$out .= "\n"
@@ -127,7 +129,7 @@ sub fix {
 	    elsif ($line =~ /# text /)    {push(@out, "# text = $text")}
 	    else {
 		push(@out, $line);
-		die "FATAL: unexpected metadata line $line\n"
+		die "FATAL ERROR: unexpected metadata line $line\n"
 	    }
 	}
 	elsif ($line =~ /\t/) {
@@ -135,7 +137,7 @@ sub fix {
 		= split /\t/, $line;
 	    #$token = &fix_usas($token);
 	    #$lemma = &fix_usas($lemma);
-	    die "FATAL: Out of synch in fix on $id / $n:$token in $text\n"
+	    die "FATAL ERROR: Out of synch in fix on $id / $n:$token in $text\n"
 		unless $text =~ s/^\Q$token\E//;
 	    $space = $text =~ s/^\s+//;
 	    if (not $space and $local !~ /SpaceAfter=No/) {

@@ -11,10 +11,10 @@ use File::Spec;
 $taxonomyDir = shift;
 $inDir = File::Spec->rel2abs(shift);
 
-#Force overwriting of old taxonomy
-$taxonomies_TEI_force = 'subcorpus'; 
-# Copy these from common taxonomies only of missing
-$taxonomies_TEI = 'parla.legislature speaker_types politicalOrientation CHES';
+# Force overwriting of submitted taxonomies with common ones:
+$taxonomies_TEI_force = 'parla.legislature speaker_types politicalOrientation subcorpus'; 
+# Copy these from common taxonomies only of missing:
+$taxonomies_TEI = 'CHES';
 #Ditto for ana
 $taxonomies_ana_force = 'UD-SYN.ana'; 
 $taxonomies_ana = 'NER.ana';
