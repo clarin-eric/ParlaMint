@@ -1,6 +1,10 @@
 <note type="head" content="DRŽAVNI ZBOR REPUBLIKE SLOVENIJE"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u1" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Reference" body="Lower house" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Minutes of the National Assembly of the Republic of Slovenia, Term 4, Extraordinary Session 30, (28. 11. 2007)" speaker_role="Chairperson" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="-" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" speaker_gender="M" speaker_birth="1971">
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1" lang="Slovenian">
+<note type="head" content="Nadaljevanje 30. izredne seje"/>
+<note type="head" content="Sejo je vodil Sašo Peče, podpredsednik Državnega zbora."/>
+<note type="time" content="Seja se je pričela ob 9.01."/>
+<note type="speaker" content="PODPREDSEDNIK SAŠO PEČE:"/>
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u1" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Predsedujoči" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="1971">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1.1">
 Spoštovane	Spoštovane	spoštovan	ADJ	Case=Nom Degree=Pos Gender=Fem Number=Plur VerbForm=Part	1	amod	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	2
 poslanke	poslanke	poslanka	NOUN	Case=Nom Gender=Fem Number=Plur	2	root	-	-	-	-
@@ -25,7 +29,7 @@ Slovenije	Slovenije	Slovenija	PROPN	Case=Gen Gender=Fem Number=Sing	8	nmod	repub
 .	.	.	PUNCT		9	punct	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg2.1">
 Obveščen	Obveščen	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1	root	-	-	-	-
 sem	sem	biti	AUX	Mood=Ind Number=Sing Person=1 Polarity=Pos Tense=Pres VerbForm=Fin	2	cop	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
@@ -116,7 +120,7 @@ Rop	Rop	Rop	PROPN	Case=Nom Gender=Masc Number=Sing	55	flat:name	Anton	PROPN	Case
 .	.	.	PUNCT		56	punct	obveščen	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=Sing VerbForm=Part	1
 </s>
 </p>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg3.1">
 Preden	Preden	preden	SCONJ		1	mark	preiti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2
 preidemo	preidemo	preiti	VERB	Aspect=Perf Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	2	advcl	prositi	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	8
@@ -164,7 +168,7 @@ upošteval	upošteval	upoštevati	VERB	Gender=Masc Number=Sing VerbForm=Part	17	
 .	.	.	PUNCT		18	punct	upoštevati	VERB	Gender=Masc Number=Sing VerbForm=Part	17
 </s>
 </p>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg4.1">
 Nadaljujemo	Nadaljujemo	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 se	se	se	PRON	PronType=Prs Reflex=Yes Variant=Short	2	expl	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
@@ -189,7 +193,7 @@ leto	leto	leto	NOUN	Case=Acc Gender=Neut Number=Sing	16	nmod	sprememba	NOUN	Case
 .	.	.	PUNCT		18	punct	nadaljevati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg5.1">
 Prehajamo	Prehajamo	prehajati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 na	na	na	ADP	Case=Acc	2	case	odločanje	NOUN	Case=Acc Gender=Neut Number=Sing	3
@@ -256,8 +260,8 @@ Izvolite	Izvolite	izvoliti	VERB	Mood=Imp Number=Plur Person=2 VerbForm=Fin	1	roo
 </p>
 </speech>
 <note type="speaker" content="CIRIL TESTEN:"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u2" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Reference" body="Lower house" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Minutes of the National Assembly of the Republic of Slovenia, Term 4, Extraordinary Session 30, (28. 11. 2007)" speaker_role="Regular" speaker_id="TestenCiril" speaker_name="Testen, Ciril" speaker_mp="MP" speaker_minister="-" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" party_status="Coalition" speaker_gender="M" speaker_birth="1947">
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6" lang="Slovenian">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u2" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Navadni" speaker_id="TestenCiril" speaker_name="Testen, Ciril" speaker_mp="MP" speaker_minister="notMinister" speaker_party="NSi" speaker_party_name="Nova Slovenija – Krščanski demokrati" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1947">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg6.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 za	za	za	ADP	Case=Acc	2	case	beseda	NOUN	Case=Acc Gender=Fem Number=Sing	3
@@ -501,7 +505,7 @@ poti	poti	pot	NOUN	Case=Loc Gender=Fem Number=Sing	29	appos	samouprava	NOUN	Case
 .	.	.	PUNCT		30	punct	zaskrbljen	ADJ	Case=Nom Degree=Pos Gender=Masc Number=Plur VerbForm=Part	4
 </s>
 </p>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg7.1">
 Zelo	Zelo	zelo	ADV	Degree=Pos	1	advmod	pomemben	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	2
 pomembno	pomembno	pomemben	ADJ	Case=Nom Degree=Pos Gender=Neut Number=Sing	2	root	-	-	-	-
@@ -589,8 +593,8 @@ podprli	podprli	podpreti	VERB	Aspect=Perf Gender=Masc Number=Plur VerbForm=Part	
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u716" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Reference" body="Lower house" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Minutes of the National Assembly of the Republic of Slovenia, Term 4, Extraordinary Session 30, (28. 11. 2007)" speaker_role="Regular" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="-" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" speaker_gender="M" speaker_birth="1971">
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772" lang="Slovenian">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u716" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Navadni" speaker_id="PečeSašo" speaker_name="Peče, Sašo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SNS" speaker_party_name="Slovenska nacionalna stranka" party_status="Opposition" party_orientation="" speaker_gender="M" speaker_birth="1971">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1772.1">
 Zvon	Zvon	zvon	NOUN	Case=Nom Gender=Masc Number=Sing	1	nsubj	nevarnost	NOUN	Case=Nom Gender=Fem Number=Sing	15
 <g/>
@@ -911,8 +915,8 @@ omogočate	omogočate	omogočati	VERB	Aspect=Imp Mood=Ind Number=Plur Person=2 T
 </p>
 </speech>
 <note type="speaker" content="PREDSEDNIK FRANCE CUKJATI:"/>
-<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u717" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Reference" body="Lower house" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Minutes of the National Assembly of the Republic of Slovenia, Term 4, Extraordinary Session 30, (28. 11. 2007)" speaker_role="Chairperson" speaker_id="CukjatiFrance" speaker_name="Cukjati, France" speaker_mp="MP" speaker_minister="-" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="Coalition" speaker_gender="M" speaker_birth="1943">
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773" lang="Slovenian">
+<speech id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.u717" text_id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30" subcorpus="Referenčni" lang="slovenski" body="Spodnji dom" term="4" session="" meeting="30" sitting="" agenda="" date="2007-11-28" title="Zapisi sej Državnega zbora Republike Slovenije, Izredna 4. mandat, 30. izredna seja (28. 11. 2007)" speaker_role="Predsedujoči" speaker_id="CukjatiFrance" speaker_name="Cukjati, France" speaker_mp="MP" speaker_minister="notMinister" speaker_party="SDS" speaker_party_name="Slovenska demokratska stranka" party_status="Coalition" party_orientation="" speaker_gender="M" speaker_birth="1943">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1773.1">
 Hvala	Hvala	hvala	NOUN	Case=Nom Gender=Fem Number=Sing	1	root	-	-	-	-
 <g/>
@@ -946,7 +950,7 @@ proti	proti	proti	ADP	Case=Dat	13	case	14	NUM	NumForm=Digit NumType=Card	14
 </p>
 <note type="-" content="Za je glasovalo 45."/>
 <note type="-" content="Proti 14."/>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1775.1">
 Ugotavljam	Ugotavljam	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 <g/>
@@ -959,7 +963,7 @@ sprejet	sprejet	sprejet	ADJ	Case=Nom Definite=Ind Degree=Pos Gender=Masc Number=
 .	.	.	PUNCT		7	punct	ugotavljati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776" lang="Slovenian">
+<p id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776" lang="slovenski">
 <s id="ParlaMint-SI_2007-11-28-SDZ4-Izredna-30.ana.seg1776.1">
 Zaključujem	Zaključujem	zaključevati	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 to	to	ta	DET	Case=Acc Gender=Fem Number=Sing PronType=Dem	2	det	točka	NOUN	Case=Acc Gender=Fem Number=Sing	3

@@ -1,0 +1,152 @@
+# newdoc id = ParlaMint-FI_2015-05-28-ps-10.u1
+# newpar id = ParlaMint-FI_2015-05-28-ps-10.seg1
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.1
+# text = Ainoaan käsittelyyn esitellään päiväjärjestyksen 2. asia.
+1	Ainoaan	ainoa	ADJ	_	Case=Ill|Degree=Pos|Number=Sing	2	amod	_	NER=O
+2	käsittelyyn	käsittely	NOUN	_	Case=Ill|Derivation=U|Number=Sing	3	obl	_	NER=O
+3	esitellään	esitellä	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	päiväjärjestyksen	päiväjärjestys	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	NER=O
+5	2.	2.	ADJ	_	NumType=Ord	6	nummod	_	NER=O
+6	asia	asia	NOUN	_	Case=Nom|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.2
+# text = Edellisessä täysistunnossa esiteltiin tasavallan presidentin tälle päivälle päivätty kirjelmä, jonka mukaan pääministeriehdokas on kansanedustaja, diplomi-insinööri Juha Sipilä.
+1	Edellisessä	edellinen	ADJ	_	Case=Ine|Degree=Pos|Derivation=Llinen|Number=Sing	2	amod	_	NER=O
+2	täysistunnossa	täysistunto	NOUN	_	Case=Ine|Number=Sing	3	obl	_	NER=O
+3	esiteltiin	esitellä	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	tasavallan	tasavalta	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	NER=O
+5	presidentin	presidentti	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	NER=B-PER
+6	tälle	tämä	PRON	_	Case=All|Number=Sing|PronType=Dem	7	det	_	NER=O
+7	päivälle	päivä	NOUN	_	Case=All|Number=Sing	8	obl	_	NER=O
+8	päivätty	päivätä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	9	acl	_	NER=O
+9	kirjelmä	kirjelmä	NOUN	_	Case=Nom|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	NER=O
+11	jonka	joka	PRON	_	Case=Gen|Number=Sing|PronType=Rel	15	obl	_	NER=O
+12	mukaan	mukaan	ADP	_	AdpType=Post	11	case	_	NER=O
+13	pääministeriehdokas	pääministeriehdokas	NOUN	_	Case=Nom|Number=Sing	15	nsubj:cop	_	NER=O
+14	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	NER=O
+15	kansanedustaja	kansanedustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	9	acl:relcl	_	NER=O|SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	NER=O
+17	diplomi-insinööri	diplomiinsinööri	NOUN	_	Case=Nom|Number=Sing	18	compound:nn	_	NER=O
+18	Juha	Juha	PROPN	_	Case=Nom|Number=Sing	9	appos	_	NER=O
+19	Sipilä	Sipilä	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.3
+# text = Ehdokkaan hyväksymisestä on eduskunnan nyt tehtävä päätös.
+1	Ehdokkaan	ehdokas	NOUN	_	Case=Gen|Number=Sing	2	nmod:gobj	_	NER=O
+2	hyväksymisestä	hyväksyminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	6	obl	_	NER=O
+3	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	NER=O
+4	eduskunnan	eduskunta	NOUN	_	Case=Gen|Number=Sing	2	nmod:gobj	_	NER=O
+5	nyt	nyt	ADV	_	_	6	advmod	_	NER=O
+6	tehtävä	tehdä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+7	päätös	päätös	NOUN	_	Case=Nom|Number=Sing	6	obj	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.4
+# text = Valinnassa noudatetaan Suomen perustuslain 61 §:n 2 momentin ja eduskunnan työjärjestyksen 65 §:n 1 momentin säännöksiä.
+1	Valinnassa	valinta	NOUN	_	Case=Ine|Number=Sing	2	obl	_	NER=O
+2	noudatetaan	noudattaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+3	Suomen	Suomi	PROPN	_	Case=Gen|Number=Sing	4	nmod:poss	_	NER=O
+4	perustuslain	perustuslaki	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	NER=O
+5	61	61	NUM	_	NumType=Card	6	nummod	_	NER=O
+6	§:n	§	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	NER=O
+7	2	2	NUM	_	NumType=Card	8	nummod	_	NER=O
+8	momentin	momentti	NOUN	_	Case=Gen|Number=Sing	16	nmod:poss	_	NER=O
+9	ja	ja	CCONJ	_	_	15	cc	_	NER=O
+10	eduskunnan	eduskunta	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	NER=O
+11	työjärjestyksen	työjärjestys	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	NER=O
+12	65	65	NUM	_	NumType=Card	13	nummod	_	NER=O
+13	§:n	§	NOUN	_	Case=Gen|Number=Sing	15	nmod:poss	_	NER=O
+14	1	1	NUM	_	NumType=Card	15	nummod	_	NER=O
+15	momentin	momentti	NOUN	_	Case=Gen|Number=Sing	8	conj	_	NER=O
+16	säännöksiä	säännös	NOUN	_	Case=Par|Number=Plur	2	obj	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.5
+# text = Ehdokas on tullut valituksi pääministeriksi, jos toimitettavassa avoimessa äänestyksessä enemmän kuin puolet annetuista äänistä on kannattanut hänen valitsemistaan.
+1	Ehdokas	ehdokas	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	NER=O
+2	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	tullut	tulla	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	NER=O
+4	valituksi	valita	VERB	_	Case=Tra|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	NER=O
+5	pääministeriksi	pääministeri	NOUN	_	Case=Tra|Number=Sing	3	xcomp	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	17	punct	_	NER=O
+7	jos	jos	SCONJ	_	_	17	mark	_	NER=O
+8	toimitettavassa	toimittaa	VERB	_	Case=Ine|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	10	acl	_	NER=O
+9	avoimessa	avoin	ADJ	_	Case=Ine|Degree=Pos|Number=Sing	10	amod	_	NER=O
+10	äänestyksessä	äänestys	NOUN	_	Case=Ine|Number=Sing	17	obl	_	NER=O
+11	enemmän	enemmän	ADV	_	_	17	advmod	_	NER=O
+12	kuin	kuin	SCONJ	_	_	13	mark	_	NER=O
+13	puolet	puoli	NOUN	_	Case=Nom|Number=Plur	17	nsubj	_	NER=O
+14	annetuista	antaa	VERB	_	Case=Ela|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	15	acl	_	NER=O
+15	äänistä	ääni	NOUN	_	Case=Ela|Number=Plur	13	nmod	_	NER=O
+16	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	NER=O
+17	kannattanut	kannattaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	advcl	_	NER=O
+18	hänen	hän	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	nmod:gsubj	_	NER=O
+19	valitsemistaan	valitseminen	NOUN	_	Case=Par|Derivation=Minen|Number=Sing|Person[psor]=3	17	obj	_	NER=O|SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.6
+# text = Asiasta ei sallita keskustelua.
+1	Asiasta	asia	NOUN	_	Case=Ela|Number=Sing	4	nmod	_	NER=O
+2	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	NER=O
+3	sallita	sallia	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	keskustelua	keskustelu	NOUN	_	Case=Par|Derivation=U|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.7
+# text = Pääministeriehdokkaan hyväksymisestä toimitetaan koneäänestys.
+1	Pääministeriehdokkaan	pääministeriehdokas	NOUN	_	Case=Gen|Number=Sing	2	nmod:gobj	_	NER=O
+2	hyväksymisestä	hyväksyminen	NOUN	_	Case=Ela|Derivation=Minen|Number=Sing	3	obl	_	NER=O
+3	toimitetaan	toimittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+4	koneäänestys	koneäänestys	NOUN	_	Case=Nom|Number=Sing	3	obj	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg1.8
+# text = Joka kannattaa ehdotusta, että kansanedustaja, diplomi-insinööri Juha Sipilä valitaan pääministeriksi, äänestää "jaa"; joka ei sitä kannata, äänestää "ei".
+1	Joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	2	nsubj	_	NER=O
+2	kannattaa	kannattaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	ehdotusta	ehdotus	NOUN	_	Case=Par|Number=Sing	2	obj	_	NER=O|SpaceAfter=No
+4	,	,	PUNCT	_	_	11	punct	_	NER=O
+5	että	että	SCONJ	_	_	11	mark	_	NER=O
+6	kansanedustaja	kansanedustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	9	compound:nn	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	NER=O
+8	diplomi-insinööri	diplomiinsinööri	NOUN	_	Case=Nom|Number=Sing	9	compound:nn	_	NER=O
+9	Juha	Juha	PROPN	_	Case=Nom|Number=Sing	11	obj	_	NER=O
+10	Sipilä	Sipilä	PROPN	_	Case=Nom|Number=Sing	9	flat:name	_	NER=O
+11	valitaan	valita	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	ccomp	_	NER=O
+12	pääministeriksi	pääministeri	NOUN	_	Case=Tra|Number=Sing	11	xcomp:ds	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	NER=O
+14	äänestää	äänestää	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	conj	_	NER=O
+15	"	"	PUNCT	_	_	16	punct	_	NER=O|SpaceAfter=No
+16	jaa	jaa	NOUN	_	Case=Nom|Number=Sing	14	obj	_	NER=O|SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	NER=O|SpaceAfter=No
+18	;	;	PUNCT	_	_	22	punct	_	NER=O
+19	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	22	nsubj	_	NER=O
+20	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	22	aux	_	NER=O
+21	sitä	se	PRON	_	Case=Par|Number=Sing|PronType=Dem	22	obj	_	NER=O
+22	kannata	kannattaa	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	NER=O|SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	NER=O
+24	äänestää	äänestää	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	22	xcomp	_	NER=O
+25	"	"	PUNCT	_	_	26	punct	_	NER=O|SpaceAfter=No
+26	ei	ei	VERB	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	24	parataxis	_	NER=O|SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	NER=O|SpaceAfter=No
+28	.	.	PUNCT	_	_	2	discourse	_	NER=O
+
+# newdoc id = ParlaMint-FI_2015-05-28-ps-10.u2
+# newpar id = ParlaMint-FI_2015-05-28-ps-10.seg2
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-28-ps-10.seg2.1
+# text = Eduskunta päättänee saattaa valinnan tuloksen tasavallan presidentin tietoon.
+1	Eduskunta	eduskunta	NOUN	_	Case=Nom|Number=Sing	2	compound:nn	_	NER=B-ORG
+2	päättänee	päättänee	VERB	_	Case=Nom|Number=Sing	0	root	_	NER=O
+3	saattaa	saattaa	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	NER=O
+4	valinnan	valinta	NOUN	_	Case=Gen|Number=Sing	5	nmod:poss	_	NER=O
+5	tuloksen	tulos	NOUN	_	Case=Gen|Number=Sing	2	obj	_	NER=O
+6	tasavallan	tasavalta	NOUN	_	Case=Gen|Number=Sing	7	nmod:poss	_	NER=O
+7	presidentin	presidentti	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	NER=O
+8	tietoon	tieto	NOUN	_	Case=Ill|Number=Sing	5	nmod	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	5	nmod	_	NER=O
+
