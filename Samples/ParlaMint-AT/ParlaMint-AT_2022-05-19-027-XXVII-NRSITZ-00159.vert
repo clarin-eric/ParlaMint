@@ -2,9 +2,10 @@
 <note type="time" content="19:28:33"/>
 <note type="time" content="Beginn der Sitzung:19:28Uhr"/>
 <note type="chairpersons" content="Dritter Präsident Ing. Norbert Hofer"/>
+<note type="time" content="19:28:34"/>
 <note type="speaker" content="Präsident Ing. Norbert Hofer"/>
-<speech id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e395" text_id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159" subcorpus="War" body="Lower house" term="27" session="" meeting="" sitting="159" agenda="" date="2022-05-19" title="Sitting Number 159, Legislative period XXVII, Thursday, 19. May 2022" speaker_role="Chairperson" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="-" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" speaker_gender="M" speaker_birth="1971">
-<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198" lang="German">
+<speech id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e395" text_id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159" subcorpus="Krieg" lang="Deutsch" body="Nationalrat" term="27" session="-" meeting="-" sitting="159" agenda="-" date="2022-05-19" title="159. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 19. Mai 2022" speaker_role="PräsidentIn" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1971">
+<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198" lang="Deutsch">
 <s id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e198.s1">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3
 159.	159.	159.	ADJ	Person=3	w2	amod	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3
@@ -19,7 +20,7 @@ eröffnet	eröffnet	eröffnen	VERB	Aspect=Perf VerbForm=Part	w7	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	w8	punct	eröffnen	VERB	Aspect=Perf VerbForm=Part	w7
 </s>
 </p>
-<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200" lang="German">
+<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200" lang="Deutsch">
 <s id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e200.s1">
 Als	Als	Als	CCONJ	ConjType=Comp	w1	mark	verhindern	ADJ	Degree=Pos Variant=Short	w2
 verhindert	verhindert	verhindern	ADJ	Degree=Pos Variant=Short	w2	advcl	melden	VERB	Aspect=Perf VerbForm=Part	w3
@@ -88,7 +89,7 @@ Voglauer	Voglauer	Voglauer	PROPN	Person=3	w8	flat:name	Dipl.-Ing.	NOUN	Person=3	
 .	.	.	PUNCT	PunctType=Peri	w9	punct	Hubert	PROPN	Gender=Masc Number=Sing Person=3	w1
 </s>
 </p>
-<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202" lang="German">
+<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202" lang="Deutsch">
 <s id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e202.s1">
 Einlauf	Einlauf	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 und	und	und	CCONJ		w2	cc	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3
@@ -97,8 +98,8 @@ Zuweisungen	Zuweisungen	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3	conj	E
 </p>
 </speech>
 <note type="speaker" content="Präsident Ing. Norbert Hofer"/>
-<speech id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e441" text_id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159" subcorpus="War" body="Lower house" term="27" session="" meeting="" sitting="159" agenda="" date="2022-05-19" title="Sitting Number 159, Legislative period XXVII, Thursday, 19. May 2022" speaker_role="Chairperson" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="-" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" speaker_gender="M" speaker_birth="1971">
-<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207" lang="German">
+<speech id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d7e441" text_id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159" subcorpus="Krieg" lang="Deutsch" body="Nationalrat" term="27" session="-" meeting="-" sitting="159" agenda="-" date="2022-05-19" title="159. Sitzung des Nationalrates der Republik Österreich, XXVII. Gesetzgebungsperiode, Donnerstag, 19. Mai 2022" speaker_role="PräsidentIn" speaker_id="PAD_35521" speaker_name="Hofer, Norbert" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1971">
+<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207" lang="Deutsch">
 <s id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e207.s1">
 Hinsichtlich	Hinsichtlich	Hinsichtlich	ADP	AdpType=Prep Case=Gen	w1	case	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
 der	der	der	DET	Case=Gen Number=Plur PronType=Art	w2	det	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
@@ -126,7 +127,7 @@ Mitteilung	Mitteilung	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w24	obj	ve
 .	.	.	PUNCT	PunctType=Peri	w25	punct	verweisen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w8
 </s>
 </p>
-<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209" lang="German">
+<p id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209" lang="Deutsch">
 <s id="ParlaMint-AT_2022-05-19-027-XXVII-NRSITZ-00159_d2e209.s1">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
 schriftliche	schriftliche	schriftlich	ADJ	Degree=Pos Gender=Fem Number=Sing	w2	amod	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3

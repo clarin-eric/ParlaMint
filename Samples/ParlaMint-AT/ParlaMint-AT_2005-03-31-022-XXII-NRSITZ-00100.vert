@@ -2,8 +2,9 @@
 <note type="time" content="21:16:10"/>
 <note type="time" content="Beginn der Sitzung:21:16Uhr"/>
 <note type="chairpersons" content="Dritter Präsident Dipl.-Ing. Thomas Prinzhorn"/>
-<speech id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d7e355" text_id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100" subcorpus="Reference" body="Lower house" term="22" session="" meeting="" sitting="100" agenda="" date="2005-03-31" title="Sitting Number 100, Legislative period XXII, Thursday, 31. March 2005" speaker_role="Chairperson" speaker_id="PAD_03613" speaker_name="Prinzhorn, Thomas" speaker_mp="MP" speaker_minister="-" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="" speaker_gender="M" speaker_birth="1943">
-<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e195" lang="German">
+<note type="speaker" content="Präsident Dipl.-Ing. Thomas Prinzhorn"/>
+<speech id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d7e355" text_id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="22" session="-" meeting="-" sitting="100" agenda="-" date="2005-03-31" title="100. Sitzung des Nationalrates der Republik Österreich, XXII. Gesetzgebungsperiode, Donnerstag, 31. März 2005" speaker_role="PräsidentIn" speaker_id="PAD_03613" speaker_name="Prinzhorn, Thomas" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1943">
+<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e195" lang="Deutsch">
 <s id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e195.s1">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3
 100.	100.	100.	ADJ	Person=3	w2	amod	Sitzung	NOUN	Gender=Fem Number=Sing Person=3	w3
@@ -18,7 +19,7 @@ eröffnet	eröffnet	eröffnen	VERB	Aspect=Perf VerbForm=Part	w7	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	w8	punct	eröffnen	VERB	Aspect=Perf VerbForm=Part	w7
 </s>
 </p>
-<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e197" lang="German">
+<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e197" lang="Deutsch">
 <s id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e197.s1">
 Als	Als	Als	CCONJ	ConjType=Comp	w1	mark	verhindern	ADJ	Degree=Pos Variant=Short	w2
 verhindert	verhindert	verhindern	ADJ	Degree=Pos Variant=Short	w2	advcl	melden	VERB	Aspect=Perf VerbForm=Part	w3
@@ -34,7 +35,7 @@ Haidlmayr	Haidlmayr	Haidlmayr	PROPN	Person=3	w7	flat:name	Abgeordnet	NOUN	Gender
 </s>
 </p>
 <note type="time" content="21:16:47"/>
-<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e202" lang="German">
+<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e202" lang="Deutsch">
 <s id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e202.s1">
 Einlauf	Einlauf	Einlauf	NOUN	Gender=Masc Number=Sing Person=3	w1	root	-	-	-	-
 und	und	und	CCONJ		w2	cc	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3
@@ -43,8 +44,8 @@ Zuweisungen	Zuweisungen	Zuweisung	NOUN	Gender=Fem Number=Plur Person=3	w3	conj	E
 </p>
 </speech>
 <note type="speaker" content="Präsident Dipl.-Ing. Thomas Prinzhorn"/>
-<speech id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d7e386" text_id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100" subcorpus="Reference" body="Lower house" term="22" session="" meeting="" sitting="100" agenda="" date="2005-03-31" title="Sitting Number 100, Legislative period XXII, Thursday, 31. March 2005" speaker_role="Chairperson" speaker_id="PAD_03613" speaker_name="Prinzhorn, Thomas" speaker_mp="MP" speaker_minister="-" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="" speaker_gender="M" speaker_birth="1943">
-<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e207" lang="German">
+<speech id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d7e386" text_id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100" subcorpus="Reference" lang="Deutsch" body="Nationalrat" term="22" session="-" meeting="-" sitting="100" agenda="-" date="2005-03-31" title="100. Sitzung des Nationalrates der Republik Österreich, XXII. Gesetzgebungsperiode, Donnerstag, 31. März 2005" speaker_role="PräsidentIn" speaker_id="PAD_03613" speaker_name="Prinzhorn, Thomas" speaker_mp="MP" speaker_minister="notMinister" speaker_party="FPÖ" speaker_party_name="Freiheitlicher Parlamentsklub" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1943">
+<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e207" lang="Deutsch">
 <s id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e207.s1">
 Hinsichtlich	Hinsichtlich	Hinsichtlich	ADP	AdpType=Prep Case=Gen	w1	case	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
 der	der	der	DET	Case=Gen Number=Plur PronType=Art	w2	det	Gegenständ	NOUN	Gender=Masc Number=Plur Person=3	w4
@@ -72,7 +73,7 @@ Mitteilung	Mitteilung	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w24	obj	ve
 .	.	.	PUNCT	PunctType=Peri	w25	punct	verweisen	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w8
 </s>
 </p>
-<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e209" lang="German">
+<p id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e209" lang="Deutsch">
 <s id="ParlaMint-AT_2005-03-31-022-XXII-NRSITZ-00100_d2e209.s1">
 Die	Die	Die	DET	Case=Nom Gender=Fem Number=Sing PronType=Art	w1	det	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
 schriftliche	schriftliche	schriftlich	ADJ	Degree=Pos Gender=Fem Number=Sing	w2	amod	Mitteilung	NOUN	Gender=Fem Number=Sing Person=3	w3
