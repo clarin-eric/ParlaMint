@@ -1,6 +1,7 @@
 <note type="speaker" content="Presidenza della vice presidente FEDELI"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" body="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="FedeliValeria" speaker_name="Fedeli, Valeria" speaker_mp="MP" speaker_minister="-" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="Coalition" speaker_gender="F" speaker_birth="1949">
-<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1" lang="Italian">
+<note type="speaker" content="PRESIDENTE"/>
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u1" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="17-upper" session="-" meeting="-" sitting="462-upper" agenda="-" date="2015-06-10" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 462, giorno (2015-06-10)" speaker_role="Presidente" speaker_id="FedeliValeria" speaker_name="Fedeli, Valeria" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PD" speaker_party_name="Partito Democratico" party_status="Coalition" party_orientation="--" speaker_gender="F" speaker_birth="1949">
+<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1" lang="italiano">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
 seduta	seduta	seduta	NOUN	Gender=Fem Number=Sing	2	nsubj:pass	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
@@ -52,8 +53,9 @@ giugno	giugno	giugno	NOUN	Gender=Masc Number=Sing	18	flat	4	NUM	NumType=Card	17
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Sul processo verbale"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" body="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="SantangeloVincenzo" speaker_name="Santangelo, Vincenzo" speaker_mp="MP" speaker_minister="-" speaker_party="M5S.1" speaker_party_name="Movimento 5 Stelle" party_status="Opposition" speaker_gender="M" speaker_birth="1972">
-<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2" lang="Italian">
+<note type="speaker" content="SANTANGELO (M5S)"/>
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u2" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="17-upper" session="-" meeting="-" sitting="462-upper" agenda="-" date="2015-06-10" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 462, giorno (2015-06-10)" speaker_role="Membro" speaker_id="SantangeloVincenzo" speaker_name="Santangelo, Vincenzo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="M5S.1" speaker_party_name="Movimento 5 Stelle" party_status="Opposition" party_orientation="--" speaker_gender="M" speaker_birth="1972">
+<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2" lang="italiano">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg2.1">
 Domando	Domando	domare	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 di	di	di	ADP		2	mark	parlare	VERB	VerbForm=Inf	3
@@ -64,8 +66,8 @@ parlare	parlare	parlare	VERB	VerbForm=Inf	3	xcomp	domare	VERB	Mood=Ind Number=Si
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u199" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" body="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Regular" speaker_id="DiBiagioAldo" speaker_name="Di Biagio, Aldo" speaker_mp="MP" speaker_minister="-" speaker_party="AP (NCD-UDC)" speaker_party_name="Area Popolare (NCD-UDC)" party_status="Coalition" speaker_gender="M" speaker_birth="1964">
-<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288" lang="Italian">
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u199" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="17-upper" session="-" meeting="-" sitting="462-upper" agenda="-" date="2015-06-10" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 462, giorno (2015-06-10)" speaker_role="Membro" speaker_id="DiBiagioAldo" speaker_name="Di Biagio, Aldo" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AP (NCD-UDC)" speaker_party_name="Area Popolare (NCD-UDC)" party_status="Coalition" party_orientation="--" speaker_gender="M" speaker_birth="1964">
+<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288" lang="italiano">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg288.1">
 DI	DI	di	ADP		1	case	biagio	PROPN		2
 <name type="PER">
@@ -443,8 +445,9 @@ bisognosi	bisognosi	bisognoso	ADJ	Gender=Masc Number=Plur	45	amod	cittadino	NOUN
 </p>
 </speech>
 <note type="head" content="Mozioni, interpellanze e interrogazioni, annunzio"/>
-<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u200" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" body="Upper house" term="17-upper" session="" meeting="" sitting="462-upper" agenda="" date="2015-06-10" title="Report of the session of the Senate of the Italian Republic, Term 17, Sitting 462, Day (2015-06-10)" speaker_role="Chairperson" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_mp="MP" speaker_minister="-" speaker_party="PdL" speaker_party_name="Il Popolo della Libertà" party_status="" speaker_gender="M" speaker_birth="1956">
-<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289" lang="Italian">
+<note type="speaker" content="PRESIDENTE"/>
+<speech id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.u200" text_id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="17-upper" session="-" meeting="-" sitting="462-upper" agenda="-" date="2015-06-10" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 462, giorno (2015-06-10)" speaker_role="Presidente" speaker_id="GasparriMaurizio" speaker_name="Gasparri, Maurizio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PdL" speaker_party_name="Il Popolo della Libertà" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1956">
+<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289" lang="italiano">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg289.1">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
 mozioni	mozioni	mozione	NOUN	Gender=Fem Number=Plur	2	nsubj:pass	pubblicare	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	12
@@ -471,7 +474,7 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	23	amod	seduta	NOUN	Gender=Fe
 .	.	.	PUNCT		24	punct	pubblicare	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	12
 </s>
 </p>
-<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290" lang="Italian">
+<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290" lang="italiano">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg290.1">
 Ricordo	Ricordo	ricordare	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 che	che	che	SCONJ		2	mark	tornare	VERB	Mood=Ind Number=Sing Person=3 Tense=Fut VerbForm=Fin	5
@@ -503,7 +506,7 @@ giorno	giorno	giorno	NOUN	Gender=Masc Number=Sing	25	nmod	ordine	NOUN	Gender=Mas
 .	.	.	PUNCT		26	punct	ricordare	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1
 </s>
 </p>
-<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291" lang="Italian">
+<p id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291" lang="italiano">
 <s id="ParlaMint-IT_2015-06-10-LEG17-Senato-sed-462.ana.seg291.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
 seduta	seduta	seduta	NOUN	Gender=Fem Number=Sing	2	nsubj:pass	togliere	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
