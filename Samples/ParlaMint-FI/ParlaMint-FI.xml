@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI [ParlaMint]</title>
-            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint]</title>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary sessions from parliamentary session 2015 to parliamentary session 2021</title>
             <title type="sub" xml:lang="fi">Suomen eduskunnan täysistuntojen pöytäkirjat valtiopäivistä 2015 valtiopäiviin 2021</title>
             <meeting ana="#parla.term #parla.uni #parl_term.2015"
@@ -31,7 +31,7 @@
          <editionStmt>
             <edition>3.0a</edition>
          </editionStmt>
-         <extent>
+         <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="109" xml:lang="en">109 speeches</measure>
             <measure unit="words" quantity="16245" xml:lang="en">16,245 words</measure>
          </extent>
@@ -49,7 +49,7 @@
                <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
                </p>
             </availability>
-            <date when="2023-09-01">2023-09-01</date>
+            <date when="2023-09-18">2023-09-18</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -91,7 +91,7 @@
                <p xml:lang="en">The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
             </segmentation>
          </editorialDecl>
-         <tagsDecl>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
                <tagUsage gi="body" occurs="5"/>
                <tagUsage gi="desc" occurs="18"/>
@@ -5592,6 +5592,12 @@
             <language ident="sv" usage="1" xml:lang="fi">ruotsi</language>
          </langUsage>
       </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-18">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-16">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
    </teiHeader>
    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
                href="ParlaMint-FI_2015-05-22-ps-7.xml"/>
