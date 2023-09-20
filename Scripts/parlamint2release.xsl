@@ -16,6 +16,7 @@
 
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
+     - change #parla.meeting.unregistered to #parla.meeting (IS)
      - change div/@type for divs without utterances
      - remove empty notes
      - assign IDs to segments without them
@@ -254,10 +255,6 @@
 	<!-- In NO corpus each meeting contains yearFrom-yearTo info, which we need -->
 	<xsl:variable name="toYear-NO" select="substring-after(., '-')"/>
 	<xsl:choose>
-          <xsl:when test="$country-code = 'GB' and 
-			  not(contains(@ana, '#parla.upper') and contains(@ana, '#parla.lower'))">
-	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
-	  </xsl:when>
 	  <!-- Quasi-bicameral to 2009, then unicameral -->
           <xsl:when test="$country-code = 'NO' and 
 			  $toYear-NO &lt;= '2009'">
@@ -265,6 +262,14 @@
 	  </xsl:when>
           <xsl:when test="$country-code = 'NO'">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.uni ', @ana))"/>
+	  </xsl:when>
+          <xsl:when test="$country-code = 'GB' and 
+			  not(contains(@ana, '#parla.upper') and contains(@ana, '#parla.lower'))">
+	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
+	  </xsl:when>
+	  <!-- Used by IS, but common taxonomy doesn't have this category of meetings -->
+          <xsl:when test="contains(@ana, '#parla.meeting.unregistered')">
+	    <xsl:attribute name="ana" select="replace(@ana, '#parla.meeting.unregistered', '#parla.meeting')"/>
 	  </xsl:when>
 	</xsl:choose>
 	<xsl:apply-templates mode="root"/>
