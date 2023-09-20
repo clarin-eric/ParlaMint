@@ -136,7 +136,7 @@
   
   <xsl:template match="tei:persName">
     <xsl:variable name="default-lang" select="ancestor::tei:*[@xml:lang][1]/@xml:lang"/>
-    <xsl:variable name="lang" select="ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang"/>
+    <xsl:variable name="lang" select="$default-lang"/>
     <xsl:variable name="element" select="name()"/>
     <xsl:choose>
       <!-- Element must not be in English or already transliterated and

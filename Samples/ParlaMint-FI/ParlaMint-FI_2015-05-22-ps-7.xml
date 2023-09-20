@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.sitting #reference"
+     xml:id="ParlaMint-FI_2015-05-22-ps-7"
+     xml:lang="fi">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 7 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 7 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary session 7/2015, 2015-05-22</title>
+            <title type="sub" xml:lang="fi">Suomen eduskunnan täysistunnon 7/2015 pöytäkirja, 2015-05-22</title>
+            <meeting ana="#parla.uni #parla.term #parl_term.2015"
+                     corresp="#fi_parliament"
+                     n="2015">Vaalikausi 2015</meeting>
+            <meeting ana="#parla.uni #parla.session" corresp="#fi_parliament" n="2015">Valtiopäivät 2015</meeting>
+            <meeting ana="#parla.uni #parla.meeting" corresp="#fi_parliament" n="7">Täysistunto 7</meeting>
+            <meeting ana="#parla.uni #parla.sitting"
+                     corresp="#fi_parliament"
+                     n="2015-05-22">2015-05-22</meeting>
+            <respStmt>
+               <persName>Laura Sinikallio</persName>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="fi">ParlaMint TEI XML korpuksen koodaus</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="45" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="45" xml:lang="en">speeches</measure>
+            <measure unit="words" quantity="6060" xml:lang="fi">sanat</measure>
+            <measure unit="words" quantity="6060" xml:lang="en">words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-09-19">2023-09-19</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the plenary session 7/2015 of the Finnish Parliament</title>
+               <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 7/2015 pöytäkirja</title>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_7+2015.aspx</idno>
+               <date when="2015-05-22">22.05.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="10"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="5"/>
+               <tagUsage gi="note" occurs="2"/>
+               <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="seg" occurs="96"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="45"/>
+               <tagUsage gi="vocal" occurs="5"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="place">Sibelius-Akatemia</name>
+               <name type="city">Helsinki</name>
+               <name key="FI" type="country">Finland</name>
+               <date when="2015-05-22">22.05.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-19">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-18">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-16">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#parla.sitting #reference">
+      <body>
+         <div type="debateSection">
+            <head>Hallituksen esitys eduskunnalle laiksi ulkomaalaislain 36 §:n muuttamisesta</head>
+            <note type="relatedDocument">Hallituksen esitys HE 2/2015 vp</note>
+            <note type="relatedDocument">Valiokunnan mietintö HaVM 1/2015 vp</note>
+            <pb n="1"
+                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_7+2015+2.aspx"/>
+            <u ana="#chair"
+               who="#JuhaSipilä"
+               xml:id="ParlaMint-FI_2015-05-22-ps-7.u1">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg1">Ensimmäiseen käsittelyyn esitellään päiväjärjestyksen 2. asia. Käsittelyn pohjana on hallintovaliokunnan mietintö HaVM 1/2015 vp. Nyt päätetään lakiehdotuksen sisällöstä.</seg>
+            </u>
+            <u ana="#regular"
+               who="#EskoKiviranta"
+               xml:id="ParlaMint-FI_2015-05-22-ps-7.u2">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg2">Arvoisa puhemies! Käsittelyssä on eduskunnan ensimmäinen mietintö alkaneella vaalikaudella. Hallituksen esitys ei sisällöllisesti ole erityisen haastava. Siinä ehdotetaan muutettavaksi ulkomaalaislain 36 §:ää, jossa säädetään oleskeluluvan myöntämisen yleisistä edellytyksistä. Vielä tällä hetkellä on voimassa ulkomaalaislain 36 §:n 1 momenttiin vuodesta 2007 sisältynyt virke, jonka mukaan kansanterveyden vaarantaminen ei estä jatkoluvan myöntämistä, jos luvan myöntämisen edellytykset ovat muutoin olemassa. Kyseinen virke, joka siis sisältyy vielä voimassa olevaan lakiin, on pudonnut viime vaalikauden lopulla lainkohtaa uudistettaessa epähuomiossa pois lakiehdotuksesta. Tämä tarkoittamaton muutos on nyt tulossa voimaan lailla 507/2015 aivan lähiaikoina, tarkemmin sanottuna runsaan viikon päästä 1.6.2015.</seg>
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg3">Kysymys on siis lakiin syntymässä olevan, puhtaasti teknisen virheen korjaamisesta. On toivottavaa ja suotavaa, että eduskunta omalta osaltaan hyväksymällä käsiteltävänä olevan lakiehdotuksen pitää huolta siitä, että oikeusjärjestys on siinä muodossa kuin on tarkoitettu. Hallintovaliokunta on kuullut esityksen johdosta asiantuntijoita, käynyt keskustelun ja päättänyt yksimielisesti puoltaa hallituksen esityksen hyväksymistä muuttamattomana.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+            <u ana="#regular"
+               who="#ToukoAalto"
+               xml:id="ParlaMint-FI_2015-05-22-ps-7.u46">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg94">Arvoisa puhemies! On hieno kuulla, että on myös akateemista tutkimusta kehitysmaatutkimuksen tiimoilta. Itsekin olen cum laude -opinnot tehnyt Helsingin yliopistossa aiheesta, ja hauskimpia kokemuksia, tämmöisiä, mitä on jäänyt mieleen, on kehitysavun historia, mistä lähdettiin. Alun perinhän Suomi vei ihan jotain Valtran traktoreita tuonne Afrikan sarveen, ja sitten unohdettiin, hitsi vieköön, opettaa, miten ne tankataan ja miten ne huolletaan, ja nehän romuttuivat sinne. Tästä olemme tulleet aika pitkän matkan nykytilanteeseen.</seg>
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg95">Toki edelleenkin tehdään evaluointia ja raportit tehdään näistä asioista, jatkuvasti seurataan hyvin tarkasti, miten euro menee perille, ja kaikkiin epäkohtiin, kaikkiin tämmöisiin havaittuihin ongelmiin kyllä puututaan. Ja ihan samalla tapaa kuin on tultu eteenpäin sieltä Valtra-ajoista, samalla tapaa tullaan menemään myös ajassa eteenpäin, ja kaikkiin epäkohtiin puututaan.</seg>
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg96">Mutta jos esimerkiksi vaikkapa Suomessa suomalaista sosiaaliturvaa väärinkäytetään, onko se syy lakkauttaa koko Suomen sosiaaliturva? Tai jos kehitysyhteistyössä ilmenee jotakin epäkohtia, onko se syy lakkauttaa koko kehitysyhteistyö? Ei ole, pitää pystyä korjaamaan ne epäkohdat ja mennä eteenpäin.</seg>
+            </u>
+            <u ana="#regular"
+               who="#OzanYanar"
+               xml:id="ParlaMint-FI_2015-05-22-ps-7.u47">
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg97">Arvoisa puhemies! Todella hyvä puheenvuoro edustaja Aallolta.</seg>
+               <seg xml:id="ParlaMint-FI_2015-05-22-ps-7.seg98">Edustaja Ruoho puhui todellisista avuntarvitsijoista. Kun me mietimme vaikka pakolaisleirejä — hän viittasi pakolaisleireihin — niin siellä ovat todelliset avuntarvitsijat. Suomi valitsee sieltä kiintiöpakolaisjärjestelmän kautta YK:n kanssa yhteistyössä ihmisiä, jotka aidosti tarvitsevat apua, mutta toisaalta perussuomalaiset haluavat vähentää juuri näitten ihmisten Suomeen tuloa. En tiedä, mikä siinä on perusteena, mutta sitten samalla yritetään puhua tässä avuntarvitsijoista. Jälleen ristiriita, jälleen kommentti, joka herättää kysymysmerkkejä. — Kiitos.</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

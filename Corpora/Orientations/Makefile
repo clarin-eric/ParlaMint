@@ -1,5 +1,5 @@
 ### Testing targets
-MC = UA
+MC = PT
 test-tsv2tei:
 	$s tsv=${HERE}/Orientation-${MC}.enco.tsv -xsl:${RUN}/enco-tsv2tei.xsl \
 	${DATA}/ParlaMint-${MC}.TEI/ParlaMint-${MC}-listOrg.xml | \
@@ -94,6 +94,19 @@ encoder-PT:
 	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-PT.TEI/ParlaMint-PT-listOrg.xml > Orientation-PT.enco.tsv
 encoder-UA:
 	$s -xsl:${RUN}/enco-tei2tsv.xsl ${DATA}/ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml > Orientation-UA.enco.tsv
+
+## Download TSV files from external sources (overwrite existing)
+
+GSID-UA := 2PACX-1vRTvI3QU1_q3V8cyVHeDv_Uo_OSDwuwYlmQgNq6OMClZ3QN5-5xKQ1uv34GvWV9Mvorv8ul4qJQoyEU
+GSID-UAwiki := 65847493
+GSID-UAenco := 1425829794
+
+download-UA:
+	wget "https://docs.google.com/spreadsheets/d/e/$(GSID-UA)/pub?gid=$(GSID-UAwiki)&single=true&output=tsv" -O - \
+	  | tr -d '\r' > Orientation-UA.Wiki.tsv
+	wget "https://docs.google.com/spreadsheets/d/e/$(GSID-UA)/pub?gid=$(GSID-UAenco)&single=true&output=tsv" -O - \
+	  | tr -d '\r' > Orientation-UA.enco.tsv
+
 
 ######################VARIABLES
 

@@ -1,6 +1,7 @@
 <note type="time" content="14.03"/>
-<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Reference" body="Unicameralism" term="27" session="2" meeting="13" sitting="" agenda="" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR, Term 27, Year 2, Session 13" speaker_role="Chairperson" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="-" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" speaker_gender="M" speaker_birth="1968">
-<p id="tbmm-2018-11-01sit01spe0001par0001.seg0" lang="Turkish">
+<note type="president" content="Mustafa Şentop"/>
+<speech id="tbmm-2018-11-01sit01spe0001par0001" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1968">
+<p id="tbmm-2018-11-01sit01spe0001par0001.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0001-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	millet	NOUN	Case=Nom Number=Sing	t3
@@ -15,7 +16,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 .	.	.	PUNCT		t8	punct	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0001par0002.seg1" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0001par0002.seg1" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0002-000010">
 Toplantı	Toplantı	toplantı	NOUN	Case=Nom Number=Sing	t1	nmod	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2
 yeter	yeter	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2	obl	var	ADJ		t4
@@ -31,7 +32,7 @@ başlıyoruz	başlıyoruz	başla	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plu
 .	.	.	PUNCT		t9	punct	başla	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres	t8
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0001par0003.seg2" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0001par0003.seg2" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0003-000010">
 Gündeme	Gündeme	gündem	NOUN	Case=Dat Number=Sing	t1	nmod	ver	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Fut	t10
 geçmeden	geçmeden	geç	VERB	Polarity=Neg VerbForm=Conv	t2	compound	gündem	NOUN	Case=Dat Number=Sing	t1
@@ -49,7 +50,7 @@ vereceğim	vereceğim	ver	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Perso
 .	.	.	PUNCT		t11	punct	ver	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Fut	t10
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0001par0004.seg3" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0001par0004.seg3" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0004-000010">
 Gündem	Gündem	gündem	NOUN	Case=Nom Number=Sing	t1	nmod	dış	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
 dışı	dışı	dış	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2	nmod	söz	NOUN	Case=Nom Number=Sing	t4
@@ -89,7 +90,7 @@ tir	tir	i	AUX	Mood=Gen Number=Sing Person=3	t22	cop	ait	ADP		t21
 .	.	.	PUNCT		t23	punct	ait	ADP		t21
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0001par0005.seg4" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0001par0005.seg4" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0005-000010">
 Buyurun	Buyurun	buyur	VERB	Mood=Imp Number=Plur Person=2	t1	nmod	sayın	ADJ		t2
 <name type="PER">
@@ -101,7 +102,7 @@ Sırakaya	Sırakaya	Sırakaya	PROPN	Case=Nom Number=Sing	t3	compound	sayın	ADJ	
 </s>
 </p>
 <note type="kinesic:applause" content="AK PARTİ sıralarından alkışlar"/>
-<p id="tbmm-2018-11-01sit01spe0001par0007.seg5" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0001par0007.seg5" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0001par0007-000010">
 Süreniz	Süreniz	süre	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=2	t1	nsubj	dakika	NOUN	Case=Nom Number=Sing	t3
 beş	beş	beş	NUM		t2	nummod	dakika	NOUN	Case=Nom Number=Sing	t3
@@ -113,8 +114,8 @@ dır	dır	i	AUX	Mood=Gen Number=Sing Person=3	t4	cop	dakika	NOUN	Case=Nom Number
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Reference" body="Unicameralism" term="27" session="2" meeting="13" sitting="" agenda="" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR, Term 27, Year 2, Session 13" speaker_role="Regular" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="-" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" speaker_gender="M" speaker_birth="1974">
-<p id="tbmm-2018-11-01sit01spe0002par0011.seg0" lang="Turkish">
+<speech id="tbmm-2018-11-01sit01spe0002par0011" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="Zafer.Sırakaya" speaker_name="Sırakaya, Zafer" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1974">
+<p id="tbmm-2018-11-01sit01spe0002par0011.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0011-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	başkan	NOUN	Case=Nom Number=Sing	t2
 Başkan	Başkan	başkan	NOUN	Case=Nom Number=Sing	t2	nmod	değer	NOUN	Number=Sing	t4
@@ -502,7 +503,7 @@ bulmuştur	bulmuştur	bul	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Pers
 .	.	.	PUNCT		t18	punct	bul	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past	t17
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0002par0012.seg1" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0002par0012.seg1" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0012-000010">
 <name type="ORG">
 AK	AK	ak	ADJ		t1	amod	parti	NOUN	Case=Nom Number=Sing	t2
@@ -663,7 +664,7 @@ dirler	dirler	i	AUX	Mood=Gen Number=Plur Person=3	t36	cop	li	NOUN	Case=Nom Numbe
 .	.	.	PUNCT		t37	punct	li	NOUN	Case=Nom Number=Sing	t35
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0002par0013.seg2" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0002par0013.seg2" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0013-000010">
 Konsolos	Konsolos	konsolos	NOUN		t1	nmod	koy	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past Voice=Pass	t64
 <g/>
@@ -835,7 +836,7 @@ olmalıyız	olmalıyız	ol	AUX	Aspect=Imp Evident=Fh Mood=Nec Number=Plur Person
 .	.	.	PUNCT		t21	punct	ol	AUX	Aspect=Imp Evident=Fh Mood=Nec Number=Plur Person=1 Tense=Pres	t20
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0002par0014.seg3" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0002par0014.seg3" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0014-000010">
 <name type="LOC">
 Avrupa’da	Avrupa’da	Avrupa	PROPN	Case=Loc Number=Sing	t1	obl	yaşa	VERB	Tense=Pres VerbForm=Part	t2
@@ -913,7 +914,7 @@ tir	tir	i	AUX	Mood=Gen Number=Sing Person=3	t28	cop	zedele	VERB	Case=Nom Number=
 .	.	.	PUNCT		t29	punct	zedele	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t27
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0002par0015.seg4" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0002par0015.seg4" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0015-000010">
 <name type="LOC">
 Alman	Alman	Alman	PROPN	Case=Nom Number=Sing	t1	nmod	makam	NOUN	Case=Abl Number=Sing Number[psor]=Plur Person[psor]=3	t2
@@ -1011,7 +1012,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t36	cop	gösterge	NOUN	Case=Nom Numb
 .	.	.	PUNCT		t37	punct	gösterge	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t35
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0002par0016.seg5" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0002par0016.seg5" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0002par0016-000010">
 <name type="ORG">
 Cezalandırma	Cezalandırma	cezalan	VERB	Case=Nom Number=Sing VerbForm=Vnoun Voice=Cau	t1	nsubj	yöntem	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t13
@@ -1065,8 +1066,8 @@ tutulması	tutulması	tut	VERB	Case=Nom Number=Sing Number[psor]=Sing Person[pso
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Reference" body="Unicameralism" term="27" session="2" meeting="13" sitting="" agenda="" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR, Term 27, Year 2, Session 13" speaker_role="Regular" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="-" speaker_party="Saadet" speaker_party_name="Saadet Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="1959">
-<p id="tbmm-2018-11-01sit01spe0122par0609.seg0" lang="Turkish">
+<speech id="tbmm-2018-11-01sit01spe0122par0609" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Normal" speaker_id="NazırCihangir.İslam" speaker_name="İslam, Nazır Cihangir" speaker_mp="MP" speaker_minister="notMinister" speaker_party="Saadet" speaker_party_name="Saadet Partisi" party_status="Opposition" party_orientation="--" speaker_gender="M" speaker_birth="1959">
+<p id="tbmm-2018-11-01sit01spe0122par0609.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0122par0609-000010">
 <name type="ORG">
 Etik	Etik	etik	NOUN	Case=Nom Number=Sing	t1	nsubj	de	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Past	t3
@@ -1085,8 +1086,8 @@ etik	etik	etik	NOUN	Case=Nom Number=Sing	t7	root	-	-	-	-
 </s>
 </p>
 </speech>
-<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Reference" body="Unicameralism" term="27" session="2" meeting="13" sitting="" agenda="" date="2018-11-01" title="The Turkish parliamentary corpus ParlaMint-TR, Term 27, Year 2, Session 13" speaker_role="Chairperson" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="-" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" speaker_gender="M" speaker_birth="1968">
-<p id="tbmm-2018-11-01sit01spe0126par0610.seg0" lang="Turkish">
+<speech id="tbmm-2018-11-01sit01spe0126par0610" text_id="ParlaMint-TR_2018-11-01-tbmm-T27" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="27" session="2" meeting="13" sitting="-" agenda="-" date="2018-11-01" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 27, Yıl 2, Birleşim 13" speaker_role="Başkan" speaker_id="Mustafa.Şentop" speaker_name="Şentop, Mustafa" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="M" speaker_birth="1968">
+<p id="tbmm-2018-11-01sit01spe0126par0610.seg0" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0126par0610-000010">
 Etik	Etik	etik	NOUN	Case=Nom Number=Sing	t1	nsubj	değil	CCONJ	Polarity=Neg	t2
 değil	değil	değil	CCONJ	Polarity=Neg	t2	aux	var	ADJ		t6
@@ -1106,7 +1107,7 @@ kalmıyor	kalmıyor	kal	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=
 .	.	.	PUNCT		t11	punct	kal	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Polarity=Neg Tense=Pres	t10
 </s>
 </p>
-<p id="tbmm-2018-11-01sit01spe0126par0611.seg1" lang="Turkish">
+<p id="tbmm-2018-11-01sit01spe0126par0611.seg1" lang="Türkçe">
 <s id="tbmm-2018-11-01sit01spe0126par0611-000010">
 Değer	Değer	değer	NOUN	Number=Sing	t1	nmod	arkadaş	NOUN	Case=Nom Number=Plur	t3
 <g/>

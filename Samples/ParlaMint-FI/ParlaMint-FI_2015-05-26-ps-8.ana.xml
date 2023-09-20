@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.sitting #reference"
+     xml:id="ParlaMint-FI_2015-05-26-ps-8.ana"
+     xml:lang="fi">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 8 [ParlaMint.ana SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 8 [ParlaMint.ana SAMPLE]</title>
+            <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary session 8/2015, 2015-05-26</title>
+            <title type="sub" xml:lang="fi">Suomen eduskunnan täysistunnon 8/2015 pöytäkirja, 2015-05-26</title>
+            <meeting ana="#parla.uni #parla.term #parl_term.2015"
+                     corresp="#fi_parliament"
+                     n="2015">Vaalikausi 2015</meeting>
+            <meeting ana="#parla.uni #parla.session" corresp="#fi_parliament" n="2015">Valtiopäivät 2015</meeting>
+            <meeting ana="#parla.uni #parla.meeting" corresp="#fi_parliament" n="8">Täysistunto 8</meeting>
+            <meeting ana="#parla.uni #parla.sitting"
+                     corresp="#fi_parliament"
+                     n="2015-05-26">2015-05-26</meeting>
+            <respStmt>
+               <persName>Laura Sinikallio</persName>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="fi">ParlaMint TEI XML korpuksen koodaus</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Minna Tamper</persName>
+               <resp xml:lang="fi">ParlaMint TEI XML Lingvistinen annotaatio</resp>
+               <resp xml:lang="en">ParlaMint TEI XML Linguistic annotation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="50" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="50" xml:lang="en">speeches</measure>
+            <measure unit="words" quantity="9383" xml:lang="fi">sanat</measure>
+            <measure unit="words" quantity="9383" xml:lang="en">words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-09-19">2023-09-19</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the plenary session 8/2015 of the Finnish Parliament</title>
+               <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 8/2015 pöytäkirja</title>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_8+2015.aspx</idno>
+               <date when="2015-05-26">26.05.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="6"/>
+               <tagUsage gi="head" occurs="6"/>
+               <tagUsage gi="link" occurs="10837"/>
+               <tagUsage gi="linkGrp" occurs="625"/>
+               <tagUsage gi="name" occurs="54"/>
+               <tagUsage gi="note" occurs="9"/>
+               <tagUsage gi="pb" occurs="6"/>
+               <tagUsage gi="pc" occurs="1454"/>
+               <tagUsage gi="s" occurs="625"/>
+               <tagUsage gi="seg" occurs="173"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="50"/>
+               <tagUsage gi="w" occurs="9383"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="place">Sibelius-Akatemia</name>
+               <name type="city">Helsinki</name>
+               <name key="FI" type="country">Finland</name>
+               <date when="2015-05-26">26.05.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-19">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-18">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-16">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#parla.sitting #reference">
+      <body>
+         <div type="debateSection">
+            <head>Hallituksen esitys eduskunnalle laiksi ulkomaalaislain 36 §:n muuttamisesta</head>
+            <note type="relatedDocument">Hallituksen esitys HE 2/2015 vp</note>
+            <note type="relatedDocument">Valiokunnan mietintö HaVM 1/2015 vp</note>
+            <pb n="1"
+                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_8+2015+2.aspx"/>
+            <u ana="#chair"
+               who="#BenZyskowicz"
+               xml:id="ParlaMint-FI_2015-05-26-ps-8.u1">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1">
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.1"
+                        lemma="toinen"
+                        msd="UPosTag=ADJ|Case=Ill|Derivation=Inen|Number=Sing|NumType=Ord">Toiseen</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.2"
+                        lemma="käsittely"
+                        msd="UPosTag=NOUN|Case=Ill|Derivation=U|Number=Sing">käsittelyyn</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.3"
+                        lemma="esitellä"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">esitellään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.4"
+                        lemma="päiväjärjestys"
+                        msd="UPosTag=NOUN|Case=Gen|Number=Sing">päiväjärjestyksen</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.5"
+                        lemma="2."
+                        msd="UPosTag=ADJ|NumType=Ord">2.</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.6"
+                        lemma="asia"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">asia</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.1.7" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1.2 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.1"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.3"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.4"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg1.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.8"
+                        lemma="nyt"
+                        msd="UPosTag=ADV">Nyt</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.9"
+                        lemma="voida"
+                        msd="UPosTag=AUX|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">voidaan</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.10"
+                        lemma="hyväksyä"
+                        msd="UPosTag=VERB|InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act">hyväksyä</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.11"
+                        lemma="tai"
+                        msd="UPosTag=CCONJ">tai</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.12"
+                        lemma="hylätä"
+                        msd="UPosTag=VERB|InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act">hylätä</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.13"
+                        lemma="lakiehdotus"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">lakiehdotus</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.14" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.15"
+                        lemma="joka"
+                        msd="UPosTag=PRON|Case=Gen|Number=Sing|PronType=Rel">jonka</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.16"
+                        lemma="sisältö"
+                        msd="UPosTag=NOUN|Case=Ela|Number=Sing">sisällöstä</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.17"
+                        lemma="päättää"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass">päätettiin</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.18"
+                        lemma="ensimmäinen"
+                        msd="UPosTag=ADJ|Case=Ine|Derivation=Inen|Number=Sing|NumType=Ord">ensimmäisessä</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.19"
+                        lemma="käsittely"
+                        msd="UPosTag=NOUN|Case=Ine|Derivation=U|Number=Sing"
+                        join="right">käsittelyssä</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg1.2.20" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:advmod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.10 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.8"/>
+                        <link ana="ud-syn:aux"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.10 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.9"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.10"/>
+                        <link ana="ud-syn:cc"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.12 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.11"/>
+                        <link ana="ud-syn:conj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.10 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.12"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.10 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.13"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.14"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.16 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.15"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.16"/>
+                        <link ana="ud-syn:acl_relcl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.17"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.19 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.18"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.19"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg1.2.19 #ParlaMint-FI_2015-05-26-ps-8.seg1.2.20"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <head>Hallituksen esitys eduskunnalle laeiksi eräiden  maistraatin  toimivallan  määräytymistä koskevien säännösten muuttamisesta</head>
+            <note type="relatedDocument">Hallituksen esitys HE 6/2015 vp</note>
+            <pb n="1"
+                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_8+2015+3.aspx"/>
+            <u ana="#chair"
+               who="#BenZyskowicz"
+               xml:id="ParlaMint-FI_2015-05-26-ps-8.u2">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2">
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.1"
+                        lemma="lähetekeskustelu"
+                        msd="UPosTag=NOUN|Case=Par|Derivation=U|Number=Sing">Lähetekeskustelua</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.2"
+                        lemma="varten"
+                        msd="UPosTag=ADP|AdpType=Post">varten</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.3"
+                        lemma="esitellä"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">esitellään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.4"
+                        lemma="päiväjärjestys"
+                        msd="UPosTag=NOUN|Case=Gen|Number=Sing">päiväjärjestyksen</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.5"
+                        lemma="3."
+                        msd="UPosTag=ADJ|NumType=Ord">3.</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.6"
+                        lemma="asia"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">asia</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.1.7" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.1"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1.1 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.3"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.4"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg2.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.8"
+                        lemma="puhemiesneuvosto"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">Puhemiesneuvosto</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.9"
+                        lemma="ehdottaa"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">ehdottaa</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.10" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.11"
+                        lemma="että"
+                        msd="UPosTag=SCONJ">että</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.12"
+                        lemma="asia"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">asia</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.13"
+                        lemma="lähettää"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">lähetetään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.14"
+                        lemma="hallintovaliokunta"
+                        msd="UPosTag=NOUN|Case=Ill|Number=Sing"
+                        join="right">hallintovaliokuntaan</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg2.2.15" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.9 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.8"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.10"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.11"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.12"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.9 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.13"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.14"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg2.2.14 #ParlaMint-FI_2015-05-26-ps-8.seg2.2.15"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+         <div type="debateSection">
+            <u ana="#chair"
+               who="#BenZyskowicz"
+               xml:id="ParlaMint-FI_2015-05-26-ps-8.u49">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174">
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.1"
+                        lemma="pöydällepano"
+                        msd="UPosTag=NOUN|Case=Par|Number=Sing">Pöydällepanoa</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.2"
+                        lemma="varten"
+                        msd="UPosTag=ADP|AdpType=Post">varten</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.3"
+                        lemma="esitellä"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">esitellään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.4"
+                        lemma="päiväjärjestys"
+                        msd="UPosTag=NOUN|Case=Gen|Number=Sing">päiväjärjestyksen</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.5"
+                        lemma="6."
+                        msd="UPosTag=ADJ|NumType=Ord">6.</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.6"
+                        lemma="asia"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">asia</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.1.7" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.1"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1.1 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.3"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.4"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg174.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.8"
+                        lemma="puhemiesneuvosto"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">Puhemiesneuvosto</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.9"
+                        lemma="ehdottaa"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">ehdottaa</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.10" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.11"
+                        lemma="että"
+                        msd="UPosTag=SCONJ">että</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.12"
+                        lemma="mietintö"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">mietintö</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.13"
+                        lemma="panna"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">pannaan</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.14"
+                        lemma="pöytä"
+                        msd="UPosTag=NOUN|Case=All|Number=Sing">pöydälle</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.15"
+                        lemma="28.5.2015"
+                        msd="UPosTag=NUM">28.5.2015</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.16"
+                        lemma="pitää"
+                        msd="UPosTag=VERB|Case=Ill|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass">pidettävään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.17"
+                        lemma="täysistunto"
+                        msd="UPosTag=NOUN|Case=Ill|Number=Sing"
+                        join="right">täysistuntoon</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg174.2.18" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.9 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.8"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.10"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.11"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.12"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.9 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.13"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.14"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.16 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.15"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.16"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.17"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg174.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg174.2.18"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head>Hallituksen esitys eduskunnalle laeiksi luottolaitosten ja sijoituspalveluyritysten kriisinratkaisusta annetun lain 8 luvun muuttamisesta,  sijoituspalvelulain 6 luvun 2 §:n muuttamisesta sekä rahoitusvakausviranomaisesta annetun lain 5 luvun muuttamisesta</head>
+            <note type="relatedDocument">Hallituksen esitys HE 1/2015 vp</note>
+            <note type="relatedDocument">Valiokunnan mietintö TaVM 1/2015 vp</note>
+            <pb n="1"
+                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_8+2015+7.aspx"/>
+            <u ana="#chair"
+               who="#BenZyskowicz"
+               xml:id="ParlaMint-FI_2015-05-26-ps-8.u50">
+               <seg xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175">
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.1"
+                        lemma="pöydällepano"
+                        msd="UPosTag=NOUN|Case=Par|Number=Sing">Pöydällepanoa</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.2"
+                        lemma="varten"
+                        msd="UPosTag=ADP|AdpType=Post">varten</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.3"
+                        lemma="esitellä"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">esitellään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.4"
+                        lemma="päiväjärjestys"
+                        msd="UPosTag=NOUN|Case=Gen|Number=Sing">päiväjärjestyksen</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.5"
+                        lemma="7."
+                        msd="UPosTag=ADJ|NumType=Ord">7.</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.6"
+                        lemma="asia"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing"
+                        join="right">asia</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.1.7" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.1"/>
+                        <link ana="ud-syn:case"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1.1 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.2"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.3"/>
+                        <link ana="ud-syn:nmod_poss"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.4"/>
+                        <link ana="ud-syn:nummod"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1.6 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.5"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.6"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.1.3 #ParlaMint-FI_2015-05-26-ps-8.seg175.1.7"/>
+                     </linkGrp>
+                  </s>
+                  <s xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2">
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.8"
+                        lemma="puhemiesneuvosto"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">Puhemiesneuvosto</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.9"
+                        lemma="ehdottaa"
+                        msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act"
+                        join="right">ehdottaa</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.10" msd="UPosTag=PUNCT">,</pc>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.11"
+                        lemma="että"
+                        msd="UPosTag=SCONJ">että</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.12"
+                        lemma="mietintö"
+                        msd="UPosTag=NOUN|Case=Nom|Number=Sing">mietintö</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.13"
+                        lemma="panna"
+                        msd="UPosTag=VERB|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass">pannaan</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.14"
+                        lemma="pöytä"
+                        msd="UPosTag=NOUN|Case=All|Number=Sing">pöydälle</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.15"
+                        lemma="28.5.2015"
+                        msd="UPosTag=NUM">28.5.2015</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.16"
+                        lemma="pitää"
+                        msd="UPosTag=VERB|Case=Ill|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass">pidettävään</w>
+                     <w xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.17"
+                        lemma="täysistunto"
+                        msd="UPosTag=NOUN|Case=Ill|Number=Sing"
+                        join="right">täysistuntoon</w>
+                     <pc xml:id="ParlaMint-FI_2015-05-26-ps-8.seg175.2.18" msd="UPosTag=PUNCT">.</pc>
+                     <linkGrp targFunc="head argument" type="UD-SYN">
+                        <link ana="ud-syn:nsubj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.9 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.8"/>
+                        <link ana="ud-syn:root"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.9"/>
+                        <link ana="ud-syn:punct"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.10"/>
+                        <link ana="ud-syn:mark"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.11"/>
+                        <link ana="ud-syn:obj"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.12"/>
+                        <link ana="ud-syn:ccomp"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.9 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.13"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.14"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.16 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.15"/>
+                        <link ana="ud-syn:acl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.16"/>
+                        <link ana="ud-syn:obl"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.13 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.17"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-FI_2015-05-26-ps-8.seg175.2.17 #ParlaMint-FI_2015-05-26-ps-8.seg175.2.18"/>
+                     </linkGrp>
+                  </s>
+               </seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

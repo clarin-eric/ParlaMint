@@ -1,0 +1,285 @@
+# newdoc id = ParlaMint-FI_2015-05-29-ps-11.u1
+# newpar id = ParlaMint-FI_2015-05-29-ps-11.seg1
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg1.1
+# text = Valtioneuvoston jäseneksi nimitetyn edustaja Timo Soinin tilalle on valittava uusi eduskunnan ensimmäinen varapuhemies.
+1	Valtioneuvoston	valtioneuvosto	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	NER=O
+2	jäseneksi	jäsen	NOUN	_	Case=Tra|Number=Sing	3	xcomp	_	NER=O
+3	nimitetyn	nimittää	VERB	_	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	NER=O
+4	edustaja	edustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Sing	5	compound:nn	_	NER=O
+5	Timo	Timo	PROPN	_	Case=Nom|Number=Sing	9	obl	_	NER=O
+6	Soinin	Soin	PROPN	_	Case=Gen|Number=Sing	5	flat:name	_	NER=O
+7	tilalle	tilalle	ADP	_	AdpType=Post	5	case	_	NER=O
+8	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	NER=O
+9	valittava	valita	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	NER=O
+10	uusi	uusi	ADJ	_	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	NER=O
+11	eduskunnan	eduskunta	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	NER=B-ORG
+12	ensimmäinen	ensimmäinen	ADJ	_	Case=Nom|Derivation=Inen|Number=Sing|NumType=Ord	13	nummod	_	NER=O
+13	varapuhemies	varapuhemies	NOUN	_	Case=Nom|Number=Sing	9	obj	_	NER=O|SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg1.2
+# text = Ensimmäisen varapuhemiehen vaali toimitetaan tänään pidettävässä toisessa täysistunnossa.
+1	Ensimmäisen	ensimmäinen	ADJ	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	2	nummod	_	NER=O
+2	varapuhemiehen	varapuhemies	NOUN	_	Case=Gen|Number=Sing	3	nmod:poss	_	NER=O
+3	vaali	vaali	NOUN	_	Case=Nom|Number=Sing	4	obj	_	NER=O
+4	toimitetaan	toimittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+5	tänään	tänään	ADV	_	_	6	advmod	_	NER=O
+6	pidettävässä	pitää	VERB	_	Case=Ine|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	8	acl	_	NER=O
+7	toisessa	toinen	ADJ	_	Case=Ine|Derivation=Inen|Number=Sing|NumType=Ord	8	nummod	_	NER=O
+8	täysistunnossa	täysistunto	NOUN	_	Case=Ine|Number=Sing	4	obl	_	NER=O|SpaceAfter=No
+9	.	.	PUNCT	_	_	4	obl	_	NER=O
+
+# newdoc id = ParlaMint-FI_2015-05-29-ps-11.u2
+# newpar id = ParlaMint-FI_2015-05-29-ps-11.seg2
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.1
+# text = Nyt seuraa puhemiehen vaali, joka toimitetaan noudattamalla Suomen perustuslain 34 §:n 2 momentin ja eduskunnan vaalisäännön 5 ja 6 §:n säännöksiä.
+1	Nyt	nyt	ADV	_	_	2	advmod	_	NER=O
+2	seuraa	seurata	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	puhemiehen	puhemies	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	NER=O
+4	vaali	vaali	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	NER=O
+6	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	7	obj	_	NER=O
+7	toimitetaan	toimittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	NER=O
+8	noudattamalla	noudattaa	VERB	_	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	advcl	_	NER=O
+9	Suomen	asuomi	NOUN	_	Case=Gen|Number=Sing	10	nmod:poss	_	NER=O
+10	perustuslain	perustuslaki	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	NER=O
+11	34	34	NUM	_	NumType=Card	12	nummod	_	NER=O
+12	§:n	§	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	NER=O
+13	2	2	NUM	_	NumType=Card	14	nummod	_	NER=O
+14	momentin	momentti	NOUN	_	Case=Gen|Number=Sing	21	nmod:poss	_	NER=O
+15	ja	ja	CCONJ	_	_	21	cc	_	NER=O
+16	eduskunnan	eduskunta	NOUN	_	Case=Gen|Number=Sing	17	nmod:poss	_	NER=O
+17	vaalisäännön	vvaalisääntö	NOUN	_	Case=Gen|Number=Sing	14	nmod:poss	_	NER=O
+18	5	5	NUM	_	NumType=Card	21	nummod	_	NER=O
+19	ja	ja	CCONJ	_	_	20	cc	_	NER=O
+20	6	6	NUM	_	NumType=Card	18	conj	_	NER=O
+21	§:n	§	NOUN	_	Abbr=Yes|Case=Gen|Number=Sing	22	nmod:poss	_	NER=O
+22	säännöksiä	säännös	NOUN	_	Case=Par|Number=Plur	8	obj	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.2
+# text = Vaali toimitetaan siis umpilipuin.
+1	Vaali	vaali	NOUN	_	Case=Nom|Number=Sing	2	obj	_	NER=O
+2	toimitetaan	toimittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+3	siis	siis	ADV	_	_	2	advmod	_	NER=O
+4	umpilipuin	umpilippu	NOUN	_	Case=Ins|Number=Plur	2	obl	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.3
+# text = Edustajat tuovat äänestyslippunsa uurnaan nimenhuudon mukaan, joka toimitetaan aakkosjärjestyksessä.
+1	Edustajat	edustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	NER=O
+2	tuovat	tuoda	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	äänestyslippunsa	äänestyslippu	NOUN	_	Case=Gen|Number=Sing|Person[psor]=3	2	obj	_	NER=O
+4	uurnaan	uurna	NOUN	_	Case=Ill|Number=Sing	2	obl	_	NER=O
+5	nimenhuudon	nimenhuuto	NOUN	_	Case=Gen|Number=Sing	2	obl	_	NER=O
+6	mukaan	mukaan	ADP	_	AdpType=Post	5	case	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	NER=O
+8	joka	joka	PRON	_	Case=Nom|Number=Sing|PronType=Rel	9	obj	_	NER=O
+9	toimitetaan	toimittaa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	NER=O
+10	aakkosjärjestyksessä	aakkonenjärjestys	NOUN	_	Case=Ine|Number=Sing	9	obl	_	NER=O|SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.4
+# text = Pyydän huomauttaa, että ehdokkaan nimi on yksilöitävä riittävällä tarkkuudella tarvittaessa myös etunimeä käyttäen.
+1	Pyydän	pyytää	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+2	huomauttaa	huomauttaa	VERB	_	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	NER=O|SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	NER=O
+4	että	että	SCONJ	_	_	8	mark	_	NER=O
+5	ehdokkaan	ehdokas	NOUN	_	Case=Gen|Number=Sing	6	nmod:poss	_	NER=O
+6	nimi	nimi	NOUN	_	Case=Nom|Number=Sing	8	obj	_	NER=O
+7	on	olla	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	NER=O
+8	yksilöitävä	yksilöidä	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	ccomp	_	NER=O
+9	riittävällä	riittävä	ADJ	_	Case=Ade|Degree=Pos|Number=Sing	10	amod	_	NER=O
+10	tarkkuudella	tarkkuus	NOUN	_	Case=Ade|Derivation=Vs|Number=Sing	8	obl	_	NER=O
+11	tarvittaessa	tarvita	VERB	_	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Pass	8	advcl	_	NER=O
+12	myös	myös	ADV	_	_	14	advmod	_	NER=O
+13	etunimeä	etunimi	NOUN	_	Case=Par|Number=Sing	14	obj	_	NER=O
+14	käyttäen	käyttää	VERB	_	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	8	advcl	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.5
+# text = Nu följer val av talman, vilket förrättas enligt 34 § 2 momentet i Finlands grundlag och 5 och 6 §
+1	Nu	Nu	X	_	Foreign=Yes	0	root	_	NER=O
+2	följer	följer	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+3	val	val	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+4	av	av	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+5	talman	talma	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	NER=O
+7	vilket	vilket	X	_	Foreign=Yes	1	appos	_	NER=O
+8	förrättas	förrättas	X	_	Foreign=Yes	7	flat:name	_	NER=O
+9	enligt	enligt	X	_	Foreign=Yes	7	flat:name	_	NER=O
+10	34	34	NUM	_	NumType=Card	7	nummod	_	NER=O
+11	§	§	PROPN	_	Case=Nom|Number=Sing	1	conj	_	NER=O
+12	2	2	NUM	_	NumType=Card	11	nummod	_	NER=O
+13	momentet	momentet	PROPN	_	Case=Nom|Number=Sing	1	conj	_	NER=O
+14	i	i	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	NER=O
+15	Finlands	Finlands	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	NER=O
+16	grundlag	grundlag	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	NER=O
+17	och	och	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	NER=O
+18	5	5	NUM	_	NumType=Card	13	flat:name	_	NER=O
+19	och	och	PROPN	_	Case=Nom|Number=Sing	21	compound:nn	_	NER=O
+20	6	6	NUM	_	NumType=Card	21	nummod	_	NER=O
+21	§	§	NOUN	_	Case=Nom|Number=Sing	13	appos	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.6
+# text = i valstadgan för riksdagen.
+1	i	i	X	_	Foreign=Yes	0	root	_	NER=O
+2	valstadgan	valstadga	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	NER=O
+3	för	för	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+4	riksdagen	riksdagen	PROPN	_	Case=Nom|Number=Sing	1	flat:foreign	_	NER=O|SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.7
+# text = Valet förrättas således med slutna röstsedlar.
+1	Valet	Valet	X	_	Foreign=Yes	0	root	_	NER=O
+2	förrättas	förrättas	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+3	således	således	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+4	med	med	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+5	slutna	slutna	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+6	röstsedlar	röstsedlar	X	_	Foreign=Yes	1	flat:foreign	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.8
+# text = Riksdagsledamöterna ska enligt namnupprop i alfabetisk ordning lägga röstsedeln i urnan.
+1	Riksdagsledamöterna	Riksdagsledamöterna	PROPN	_	Case=Nom|Number=Sing	0	root	_	NER=O
+2	ska	ska	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+3	enligt	enligt	X	_	Foreign=Yes	1	flat:name	_	NER=O
+4	namnupprop	namnupprop	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+5	i	i	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+6	alfabetisk	alfabetisk	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+7	ordning	ordning	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+8	lägga	lägga	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+9	röstsedeln	röstsedeln	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	NER=O
+10	i	i	ADJ	_	NumType=Ord	1	flat:name	_	NER=O
+11	urnan	urna	PROPN	_	Case=Gen|Number=Sing	1	flat:name	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.9
+# text = Jag vill påminna om att kandidatens namn ska anges tillräckligt tydligt.
+1	Jag	Jag	X	_	Foreign=Yes	0	root	_	NER=O
+2	vill	vill	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+3	påminna	påminna	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+4	om	om	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+5	att	att	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+6	kandidatens	kandidatens	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+7	namn	namn	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+8	ska	ska	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+9	anges	anges	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+10	tillräckligt	tillräckligt	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+11	tydligt	tydligt	X	_	Foreign=Yes	1	flat:foreign	_	NER=O|SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.10
+# text = Vid behov kan också förnamnet anges.
+1	Vid	Vid	X	_	Foreign=Yes	0	root	_	NER=O
+2	behov	behov	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+3	kan	kan	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+4	också	också	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+5	förnamnet	förnamnet	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+6	anges	anges	X	_	Foreign=Yes	1	flat:foreign	_	NER=O|SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.11
+# text = Avustajiksi äänestyslippujen tarkastamiseen ja äänten laskemiseen vaalissa pyydän seuraavat edustajat: Timo Kalli, Juho Eerola, Arto Satonen ja Antti Lindtman.
+1	Avustajiksi	avustaja	NOUN	_	Case=Tra|Derivation=Ja|Number=Plur	8	xcomp:ds	_	NER=O
+2	äänestyslippujen	äänestyslippu	NOUN	_	Case=Gen|Number=Plur	3	nmod:gobj	_	NER=O
+3	tarkastamiseen	tarkastaminen	NOUN	_	Case=Ill|Derivation=Minen|Number=Sing	8	obl	_	NER=O
+4	ja	ja	CCONJ	_	_	6	cc	_	NER=O
+5	äänten	ääni	NOUN	_	Case=Gen|Number=Plur	6	nmod:gobj	_	NER=O
+6	laskemiseen	laskeminen	NOUN	_	Case=Ill|Derivation=Minen|Number=Sing	3	conj	_	NER=O
+7	vaalissa	vaali	NOUN	_	Case=Ine|Number=Sing	3	nmod	_	NER=O
+8	pyydän	pyytää	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+9	seuraavat	seuraava	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	NER=O
+10	edustajat	edustaja	NOUN	_	Case=Nom|Derivation=Ja|Number=Plur	8	obj	_	NER=O|SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	NER=O
+12	Timo	Timo	PROPN	_	Case=Nom|Number=Sing	10	appos	_	NER=B-PER
+13	Kalli	Kalli	PROPN	_	Case=Nom|Number=Sing	12	flat:name	_	NER=I-PER|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	NER=O
+15	Juho	Juho	PROPN	_	Case=Nom|Number=Sing	12	conj	_	NER=O
+16	Eerola	Eerola	PROPN	_	Case=Nom|Number=Sing	15	flat:name	_	NER=O|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	NER=O
+18	Arto	Arto	PROPN	_	Case=Nom|Number=Sing	12	conj	_	NER=O
+19	Satonen	Satonen	PROPN	_	Case=Nom|Number=Sing	18	flat:name	_	NER=O
+20	ja	ja	CCONJ	_	_	21	cc	_	NER=O
+21	Antti	Antti	PROPN	_	Case=Nom|Number=Sing	12	conj	_	NER=O
+22	Lindtman	Lindtman	PROPN	_	Case=Nom|Number=Sing	21	flat:name	_	NER=O|SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.12
+# text = Jag ber följande riksdagsledamöter granska röstsedlarna och räkna rösterna vid valet: Timo Kalli, Juho Eerola, Arto Satonen och Antti Lindtman.
+1	Jag	Jag	X	_	Foreign=Yes	0	root	_	NER=O
+2	ber	ber	X	_	Foreign=Yes	1	flat:name	_	NER=O
+3	följande	följande	X	_	Foreign=Yes	1	flat:name	_	NER=O
+4	riksdagsledamöter	riksdagsledamöter	X	_	Foreign=Yes	1	flat:name	_	NER=O
+5	granska	granska	X	_	Foreign=Yes	1	flat:name	_	NER=O
+6	röstsedlarna	röstsedlarna	X	_	Foreign=Yes	1	flat:name	_	NER=O
+7	och	och	X	_	Foreign=Yes	1	flat:name	_	NER=O
+8	räkna	räkna	X	_	Foreign=Yes	1	flat:name	_	NER=O
+9	rösterna	rösterna	X	_	Foreign=Yes	1	flat:name	_	NER=O
+10	vid	vid	X	_	Foreign=Yes	1	flat:name	_	NER=O
+11	valet	valet	X	_	Foreign=Yes	1	flat:name	_	NER=O|SpaceAfter=No
+12	:	:	PUNCT	_	_	1	flat:name	_	NER=O
+13	Timo	Timo	PROPN	_	Case=Nom|Number=Sing	1	conj	_	NER=B-PER
+14	Kalli	Kalli	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	NER=I-PER|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	NER=O
+16	Juho	Juho	PROPN	_	Case=Nom|Number=Sing	1	conj	_	NER=O
+17	Eerola	Eerola	PROPN	_	Case=Nom|Number=Sing	16	flat:name	_	NER=O|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	NER=O
+19	Arto	Arto	PROPN	_	Case=Nom|Number=Sing	1	conj	_	NER=O
+20	Satonen	Satonen	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	NER=O
+21	och	och	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	NER=O
+22	Antti	Antti	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	NER=O
+23	Lindtman	Lindtman	PROPN	_	Case=Nom|Number=Sing	19	flat:name	_	NER=O|SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.13
+# text = Totean, että annettuja ääniä ei julkilueta.
+1	Totean	todeta	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	_	_	7	punct	_	NER=O
+3	että	että	SCONJ	_	_	7	mark	_	NER=O
+4	annettuja	antaa	VERB	_	Case=Par|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	NER=O
+5	ääniä	ääni	NOUN	_	Case=Par|Number=Plur	7	obj	_	NER=O
+6	ei	ei	AUX	_	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	NER=O
+7	julkilueta	julkilua	VERB	_	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	NER=O
+
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg2.14
+# text = Jag ber er notera att namnen på röstsedlarna inte läses upp.
+1	Jag	Jag	X	_	Foreign=Yes	0	root	_	NER=O
+2	ber	ber	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+3	er	er	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+4	notera	notera	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+5	att	att	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+6	namnen	namnen	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+7	på	på	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+8	röstsedlarna	röstsedlarna	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+9	inte	inte	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+10	läses	läses	X	_	Foreign=Yes	1	flat:foreign	_	NER=O
+11	upp.	upp.	SYM	_	_	1	flat:foreign	_	NER=O
+
+# newdoc id = ParlaMint-FI_2015-05-29-ps-11.u9
+# newpar id = ParlaMint-FI_2015-05-29-ps-11.seg9
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg9.1
+# text = Luetaan eduskunnan toisen varapuhemiehen eduskunnalle osoittama kirjelmä.
+1	Luetaan	lukea	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	NER=O
+2	eduskunnan	eduskunta	NOUN	_	Case=Gen|Number=Sing	6	nsubj	_	NER=B-ORG
+3	toisen	toinen	PRON	_	Case=Gen|Derivation=Inen|Number=Sing|NumType=Ord	4	nummod	_	NER=O
+4	varapuhemiehen	varapuhemies	NOUN	_	Case=Gen|Number=Sing	6	nsubj	_	NER=O
+5	eduskunnalle	eduskunta	NOUN	_	Case=All|Number=Sing	6	obl	_	NER=B-ORG
+6	osoittama	osoittaa	VERB	_	Case=Nom|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	7	acl	_	NER=O
+7	kirjelmä	kirjelmä	NOUN	_	Case=Nom|Number=Sing	1	obj	_	NER=O|SpaceAfter=No
+8	.	.	PUNCT	_	_	7	appos	_	NER=O
+
+# newdoc id = ParlaMint-FI_2015-05-29-ps-11.u10
+# newpar id = ParlaMint-FI_2015-05-29-ps-11.seg10
+# lang = fi
+# sent_id = ParlaMint-FI_2015-05-29-ps-11.seg10.1
+# text = Puhemiesneuvosto puoltaa eronpyyntöä.
+1	Puhemiesneuvosto	puhemiesneuvosto	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	NER=O
+2	puoltaa	puoltaa	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NER=O
+3	eronpyyntöä	eronpyyntö	NOUN	_	Case=Par|Number=Sing	2	obj	_	NER=O|SpaceAfter=No
+4	.	.	PUNCT	_	_	3	appos	_	NER=O
+

@@ -11,10 +11,10 @@ use File::Spec;
 $taxonomyDir = shift;
 $inDir = File::Spec->rel2abs(shift);
 
-#Force overwriting of old taxonomy
-$taxonomies_TEI_force = 'subcorpus'; 
-# Copy these from common taxonomies only of missing
-$taxonomies_TEI = 'parla.legislature speaker_types politicalOrientation CHES';
+# Force overwriting of submitted taxonomies with common ones:
+$taxonomies_TEI_force = 'parla.legislature speaker_types politicalOrientation subcorpus'; 
+# Copy these from common taxonomies only of missing:
+$taxonomies_TEI = 'CHES';
 #Ditto for ana
 $taxonomies_ana_force = 'UD-SYN.ana'; 
 $taxonomies_ana = 'NER.ana';
@@ -59,7 +59,9 @@ $scriptTaxonomy= "$Bin/parlamint-init-taxonomy.xsl";
 
 binmode(STDERR, 'utf8');
 
-foreach $corpDir (sort glob "$inDir/ParlaMint-*.TEI*") {
+if ($inDir =~ /ParlaMint-[A-Z-]+\.TEI/) {$corpDirs = $inDir}
+else {$corpDirs = "$inDir/ParlaMint-*.TEI*"}
+foreach $corpDir (sort glob($corpDirs)) {
     my $param = '';
     ($country, $anaSuffix) = $corpDir =~ /ParlaMint-([A-Z-]+)\.TEI(\..+)?/ or die;
     $anaSuffix = '' unless $anaSuffix;
@@ -76,7 +78,8 @@ foreach $corpDir (sort glob "$inDir/ParlaMint-*.TEI*") {
     # Factorise
     if ($anaSuffix) {
 	#For .ana we will also need the .TEI root file
-        my $teiRoot = "$inDir/ParlaMint-$country.TEI/ParlaMint-$country.xml";
+        my $teiRoot = "$corpDir/ParlaMint-$country.xml";
+	$teiRoot =~ s|\Q$anaSuffix\E||;
         if (-e $teiRoot){$param = " teiRoot=$teiRoot "}
 	else {print STDERR "WARN: $teiRoot not found\n"}
     }

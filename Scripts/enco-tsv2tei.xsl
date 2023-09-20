@@ -61,11 +61,12 @@
   <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName -->
   <xsl:variable name="data">
     <listOrg>
-      <xsl:variable name="tsv" select="unparsed-text($tsv, 'UTF-8')"/>
+      <xsl:variable name="tsv" select="replace(unparsed-text($tsv, 'UTF-8'), '&#x0D;', '')"/>
       <xsl:variable name="table" select="et:tsv2table($tsv)"/>
       <xsl:for-each select="$table/tei:row">
 	<xsl:variable name="country" select="tei:cell[@type='country']"/>
-	<xsl:variable name="pm_id" select="tei:cell[@type='pm_id']"/>
+	<!-- UA now has hash mark in front of party name = party ID -->
+	<xsl:variable name="pm_id" select="replace(tei:cell[@type='pm_id'], '^#', '')"/>
 	<xsl:variable name="lr" select="tei:cell[@type='lr']"/>
 	<xsl:variable name="encoder" select="tei:cell[@type='encoder']"/>
 	<xsl:variable name="comment" select="tei:cell[@type='comment']"/>
@@ -93,6 +94,9 @@
   </xsl:variable>
   
   <xsl:template match="/">
+    <xsl:if test="not(unparsed-text-available($tsv))">
+      <xsl:message select="concat('FATAL ERROR: TSV file ', $tsv, ' not found')"/>
+    </xsl:if>
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates/>
   </xsl:template>
@@ -106,7 +110,7 @@
 
   <!-- Insert $data <state>s into <org> -->
   <xsl:template mode="insert" match="tei:org">
-    <!-- We try to match pm_id to a ParlaMint organisation -->
+    <!-- We try to match pm_id to a ParlaMint organisation, trying different variants of the party name: abbreviation, shortened ID -->
     <xsl:variable name="abbr" select="tei:orgName[@full = 'abb' and 
                                       ancestor-or-self::tei:*[@xml:lang][1]/@xml:lang != 'en'][1]"/>
     <xsl:variable name="abbr-lc" select="lower-case($abbr)"/>
@@ -135,7 +139,7 @@
           <xsl:copy-of select="key('abbr', $abbr-id2, $data)"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:message select="concat('WARN: For ', $country, ' cant find party ', 
+          <xsl:message select="concat('ERROR: For ', $country, ' cant find party ', 
                                $abbr, ' (', $abbr-id, ') in encoder TSV')"/>
         </xsl:otherwise>
       </xsl:choose>
@@ -146,6 +150,7 @@
     </xsl:if>
     <xsl:copy-of select="tei:listEvent"/>
     <xsl:variable name="state">
+      <!-- Copy over exsting political orientation info (except for encoder or notes) -->
       <xsl:copy-of select="tei:state[@type = 'politicalOrientation']/tei:*
 			   [not(self::tei:state[@type = 'encoder'] or self::tei:note)]"/>
       <xsl:copy-of select="$found//tei:state"/>
@@ -175,9 +180,10 @@
     <xsl:variable name="labels" select="tokenize($tsv, '&#10;')[1]"/>
     <table>
       <xsl:for-each select="tokenize($tsv, '&#10;')">
-	<xsl:if test="matches(., '\t') and not(matches(., '^COUNTRY', 'i'))">
+	<xsl:if test="matches(., '\t') and not(matches(., '^country', 'i'))">
 	  <xsl:variable name="row" select="et:row2table($labels, .)"/>
-	  <xsl:if test="$row/self::tei:cell[@type = 'pm_id'] != '0'">
+	  <xsl:if test="$row/self::tei:cell[@type = 'pm_id'] != '0' and 
+			$row/self::tei:cell[@type = 'pm_id'] != '-'">
 	    <row>
 	      <xsl:copy-of select="$row"/>
 	    </row>
@@ -200,7 +206,8 @@
 	</cell>
       </xsl:if>
       <xsl:if test="contains($labels, '&#9;')">
-	<xsl:copy-of select="et:row2table(substring-after($labels, '&#9;'), substring-after($row, '&#9;'))"/>
+	<xsl:copy-of select="et:row2table(substring-after($labels, '&#9;'), 
+			     substring-after($row, '&#9;'))"/>
       </xsl:if>
     </xsl:if>
   </xsl:function>

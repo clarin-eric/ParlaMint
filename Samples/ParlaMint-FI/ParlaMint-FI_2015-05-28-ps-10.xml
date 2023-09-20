@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     ana="#parla.sitting #reference"
+     xml:id="ParlaMint-FI_2015-05-28-ps-10"
+     xml:lang="fi">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="en">Finnish parliamentary corpus ParlaMint-FI, plenary session 10 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="fi">Suomalainen parlamentaarinen korpus ParlaMint-FI, täysistunto 10 [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="en">Minutes of the Finnish Parliament's plenary session 10/2015, 2015-05-28</title>
+            <title type="sub" xml:lang="fi">Suomen eduskunnan täysistunnon 10/2015 pöytäkirja, 2015-05-28</title>
+            <meeting ana="#parla.uni #parla.term #parl_term.2015"
+                     corresp="#fi_parliament"
+                     n="2015">Vaalikausi 2015</meeting>
+            <meeting ana="#parla.uni #parla.session" corresp="#fi_parliament" n="2015">Valtiopäivät 2015</meeting>
+            <meeting ana="#parla.uni #parla.meeting" corresp="#fi_parliament" n="10">Täysistunto 10</meeting>
+            <meeting ana="#parla.uni #parla.sitting"
+                     corresp="#fi_parliament"
+                     n="2015-05-28">2015-05-28</meeting>
+            <respStmt>
+               <persName>Laura Sinikallio</persName>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="fi">ParlaMint TEI XML korpuksen koodaus</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>3.0a</edition>
+         </editionStmt>
+         <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="3" xml:lang="fi">puheet</measure>
+            <measure unit="speeches" quantity="3" xml:lang="en">speeches</measure>
+            <measure unit="words" quantity="137" xml:lang="fi">sanat</measure>
+            <measure unit="words" quantity="137" xml:lang="en">words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <orgName xml:lang="fi">CLARIN tutkimusinfrastruktuuri</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/XXXX</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+               <p xml:lang="fi">Tämä aineisto on saatavilla lisenssillä <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+               </p>
+            </availability>
+            <date when="2023-09-19">2023-09-19</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="en">Minutes of the plenary session 10/2015 of the Finnish Parliament</title>
+               <title type="main" xml:lang="fi">Suomen eduskunnan täysistunnon 10/2015 pöytäkirja</title>
+               <idno type="URI" subtype="parliament">https://www.eduskunta.fi/FI/vaski/Poytakirja/Sivut/PTK_10+2015.aspx</idno>
+               <date when="2015-05-28">28.05.2015</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a
+    project that aims to (1) create a multilingual set of comparable corpora of parliamentary
+    proceedings uniformly encoded according to the
+    <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, 
+    covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and
+    machine-translate them to English; (3) make the corpora available through concordancers; and
+    (4) build use cases in Political Sciences and Digital Humanities based on the corpus
+    data.</p>
+            <p xml:lang="fi">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> -projektin tavoitteena on 1) luoda monikielinen, yhtenäisesti koodattu parlamentaaristen aineistojen korpuksen; 2) käsitellä aineisto lingvistisesti; 3) tuoda korpus saataville ladattavana sekä konkordanssihakemistoina; ja 4) kehittää korpuksen aineistoihin pohjautuvia poliittisen tutkimuksen sekä digitaalisten ihmistieteiden käyttötapauksia.</p>
+         </projectDesc>
+         <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="head" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+               <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="seg" occurs="3"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="3"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="place">Sibelius-Akatemia</name>
+               <name type="city">Helsinki</name>
+               <name key="FI" type="country">Finland</name>
+               <date when="2015-05-28">28.05.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-19">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-18">
+            <name>GitHub Action</name>: Made sample.</change>
+         <change when="2023-09-16">
+            <name>GitHub Action</name>: Made sample.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="#parla.sitting #reference">
+      <body>
+         <div type="debateSection">
+            <head>Pääministerin valinta</head>
+            <note type="relatedDocument">Muu asia M 1/2015 vp</note>
+            <pb n="1"
+                source="https://www.eduskunta.fi/FI/vaski/PoytakirjaAsiakohta/Sivut/PTK_10+2015+2.aspx"/>
+            <u ana="#chair"
+               who="#JuhaSipilä"
+               xml:id="ParlaMint-FI_2015-05-28-ps-10.u1">
+               <seg xml:id="ParlaMint-FI_2015-05-28-ps-10.seg1">Ainoaan käsittelyyn esitellään päiväjärjestyksen 2. asia. Edellisessä täysistunnossa esiteltiin tasavallan presidentin tälle päivälle päivätty kirjelmä, jonka mukaan pääministeriehdokas on kansanedustaja, diplomi-insinööri Juha Sipilä. Ehdokkaan hyväksymisestä on eduskunnan nyt tehtävä päätös. Valinnassa noudatetaan Suomen perustuslain 61 §:n 2 momentin ja eduskunnan työjärjestyksen 65 §:n 1 momentin säännöksiä. Ehdokas on tullut valituksi pääministeriksi, jos toimitettavassa avoimessa äänestyksessä enemmän kuin puolet annetuista äänistä on kannattanut hänen valitsemistaan. Asiasta ei sallita keskustelua. Pääministeriehdokkaan hyväksymisestä toimitetaan koneäänestys. Joka kannattaa ehdotusta, että kansanedustaja, diplomi-insinööri Juha Sipilä valitaan pääministeriksi, äänestää "jaa"; joka ei sitä kannata, äänestää "ei".</seg>
+            </u>
+            <u ana="#chair"
+               who="#JuhaSipilä"
+               xml:id="ParlaMint-FI_2015-05-28-ps-10.u2">
+               <seg xml:id="ParlaMint-FI_2015-05-28-ps-10.seg2">Eduskunta päättänee saattaa valinnan tuloksen tasavallan presidentin tietoon.</seg>
+            </u>
+            <gap reason="editorial">
+               <desc xml:lang="en">SAMPLING</desc>
+            </gap>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -11,12 +11,12 @@ $outDir = shift;
 
 binmode(STDERR, 'utf8');
 
-`mkdir $outDir` unless -e "$outDir";
-
 $Saxon = 'java -jar /usr/share/java/saxon.jar';
 $TEI2VERT  = "$Bin/parlamint2xmlvert.xsl";
 $POLISH = "$Bin/parlamint-xml2vert.pl";
 $Includes = "$Bin/get-includes.xsl";
+
+`mkdir $outDir` unless -e "$outDir";
 
 die "Can't find root TEI file with teiHeader: $rootFile\n"
     unless -e $rootFile;
@@ -36,7 +36,21 @@ foreach $inFile (@inFiles) {
     }
     else {die "Weird input file $inFile\n"}
     my $outFile = "$outDir/$fName.vert";
-    $command = "$Saxon meta=$rootFile -xsl:$TEI2VERT $inFile | $POLISH > $outFile";
+    #Is this a machine translated corpus? If so, $mt will be the langauge it was translated to.
+    if ($inFile =~ m/-([a-z]{2,3})\.ana/) {$MT = $1}
+    else {$MT = 0}
+    #MTed corpora do not have syntactic annotation, and we produce English metadata
+    if ($MT) {
+	$noSytaxFlag = 'nosyntax=true';
+	$outLang = 'out-lang=en'
+    }
+    #For original corpora we produce metadata in source language
+    else {
+	$noSytaxFlag = '';
+	$outLang = 'out-lang=xx'
+    }
+    $command = "$Saxon meta=$rootFile $outLang $noSytaxFlag " .
+	"-xsl:$TEI2VERT $inFile | $POLISH > $outFile";
     #print STDERR "\$ $command\n";
     my $status = system($command);
     die "ERROR: Conversion to vert for $inFile failed!\n"

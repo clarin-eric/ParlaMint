@@ -52,9 +52,18 @@ foreach $inFile (@compAnaFiles) {
 }
 close TMP;
 
-if ($MT) {$noSytaxFlag = 'nosyntax=true'}
-else {$noSytaxFlag = ''}
+#MTed corpora do not have syntactic annotation, and we produce English metadata
+if ($MT) {
+    $noSytaxFlag = 'nosyntax=true';
+    $outLang = 'out-lang=en'
+}
+#For original corpora we produce metadata in source language
+else {
+    $noSytaxFlag = '';
+    $outLang = 'out-lang=xx'
+}
 
-$command = "$Saxon meta=$rootAnaFile $noSytaxFlag -xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
+$command = "$Saxon meta=$rootAnaFile $outLang $noSytaxFlag " .
+    "-xsl:$TEI2VERT {} | $POLISH > $outDir/{/.}.vert";
 `cat $fileFile | $Para '$command'`;
 `rename 's/\.ana//' $outDir/*.vert`;

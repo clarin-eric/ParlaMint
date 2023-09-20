@@ -1,6 +1,7 @@
 <note type="time" content="11.00"/>
-<speech id="tbmm-2014-12-11sit01spe0001par0001" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Reference" body="Unicameralism" term="24" session="5" meeting="26" sitting="" agenda="" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Year 5, Session 26" speaker_role="Chairperson" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="-" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" speaker_gender="F" speaker_birth="1954">
-<p id="tbmm-2014-12-11sit01spe0001par0001.seg0" lang="Turkish">
+<note type="president" content="Ayşe Nur Bahçekapılı"/>
+<speech id="tbmm-2014-12-11sit01spe0001par0001" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Başkan" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="F" speaker_birth="1954">
+<p id="tbmm-2014-12-11sit01spe0001par0001.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0001-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	millet	NOUN	Case=Nom Number=Sing	t3
@@ -15,7 +16,7 @@ açıyorum	açıyorum	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 .	.	.	PUNCT		t8	punct	aç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0002.seg1" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0002.seg1" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0002-000010">
 Toplantı	Toplantı	toplantı	NOUN	Case=Nom Number=Sing	t1	nmod	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2
 yeter	yeter	yet	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t2	nmod	sayı	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -31,7 +32,7 @@ geçiyoruz	geçiyoruz	geç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Pers
 .	.	.	PUNCT		t9	punct	geç	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres	t8
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0003.seg2" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0003.seg2" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0003-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2
 milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2	nsubj	devam	NOUN	Case=Nom Number=Sing	t25
@@ -69,7 +70,7 @@ edeceğiz	edeceğiz	et	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Plur Person=1
 .	.	.	PUNCT		t27	punct	devam	NOUN	Case=Nom Number=Sing	t25
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0004.seg3" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0004.seg3" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0004-000010">
 Program	Program	program	NOUN	Case=Nom Number=Sing	t1	obj	uyar	VERB	VerbForm=Conv	t2
 uyarınca	uyarınca	uyar	VERB	VerbForm=Conv	t2	obl	yap	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Fut	t8
@@ -86,7 +87,7 @@ yapacağız	yapacağız	yap	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Plur Per
 .	.	.	PUNCT		t9	punct	yap	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Fut	t8
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0005.seg4" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0005.seg4" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0005-000010">
 Birinci	Birinci	Birinci	PROPN	Case=Nom Number=Sing	t1	nummod	tur	NOUN	Case=Loc Number=Sing	t2
 turda	turda	tur	NOUN	Case=Loc Number=Sing	t2	nmod	cumhurbaşkanlığı	NOUN	Case=Nom Number=Sing	t3
@@ -184,7 +185,7 @@ almaktadır	almaktadır	al	VERB	Aspect=Prog Evident=Fh Mood=Gen Number=Sing Pers
 .	.	.	PUNCT		t57	punct	yer	NOUN	Case=Nom Number=Sing	t55
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0011.seg5" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0011.seg5" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0011-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -199,7 +200,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0012.seg6" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0012.seg6" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0012-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -215,7 +216,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0014.seg7" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0014.seg7" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0014-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t10
 <g/>
@@ -233,7 +234,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0015.seg8" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0015.seg8" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0015-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t11
 <g/>
@@ -252,7 +253,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0017.seg9" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0017.seg9" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0017-000010">
 1	1	1	NUM		t1	obl	denetçi	NOUN		t4
 <g/>
@@ -271,7 +272,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0018.seg10" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0018.seg10" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0018-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t11
 <g/>
@@ -291,7 +292,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0020.seg11" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0020.seg11" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0020-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -306,7 +307,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0021.seg12" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0021.seg12" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0021-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -322,7 +323,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0023.seg13" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0023.seg13" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0023-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t8
 <g/>
@@ -338,7 +339,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0024.seg14" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0024.seg14" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0024-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t9
 <g/>
@@ -355,7 +356,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0026.seg15" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0026.seg15" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0026-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -370,7 +371,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0027.seg16" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0027.seg16" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0027-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -386,7 +387,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0029.seg17" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0029.seg17" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0029-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -401,7 +402,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0030.seg18" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0030.seg18" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0030-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -417,7 +418,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0032.seg19" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0032.seg19" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0032-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -432,7 +433,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0033.seg20" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0033.seg20" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0033-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -448,7 +449,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0034.seg21" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0034.seg21" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0034-000010">
 <name type="ORG">
 Ğ	Ğ	ğ	SYM		t1	nmod	teşkilat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t5
@@ -463,7 +464,7 @@ MÜSTEŞAR	MÜSTEŞAR	müsteşar	NOUN		t6	nmod	teşkilat	NOUN	Case=Nom Number=Si
 LIĞI	LIĞI	lik	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t7	flat	ğ	SYM		t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0035.seg22" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0035.seg22" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0035-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t11
 <g/>
@@ -485,7 +486,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0036.seg23" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0036.seg23" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0036-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t12
 <g/>
@@ -508,7 +509,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0038.seg24" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0038.seg24" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0038-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t12
 <g/>
@@ -529,7 +530,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0039.seg25" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0039.seg25" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0039-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t13
 <g/>
@@ -551,7 +552,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0041.seg26" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0041.seg26" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0041-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t9
 <g/>
@@ -570,7 +571,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0042.seg27" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0042.seg27" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0042-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t10
 <g/>
@@ -590,7 +591,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0044.seg28" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0044.seg28" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0044-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t9
 <g/>
@@ -609,7 +610,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0045.seg29" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0045.seg29" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0045-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t10
 <g/>
@@ -627,7 +628,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0047.seg30" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0047.seg30" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0047-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t10
 <g/>
@@ -645,7 +646,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0048.seg31" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0048.seg31" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0048-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t11
 <g/>
@@ -664,7 +665,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0049.seg32" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0049.seg32" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0049-000010">
 <name type="ORG">
 Komisyon	Komisyon	komisyon	NOUN	Case=Nom Number=Sing	t1	root	-	-	-	-
@@ -678,7 +679,7 @@ Burada	Burada	bura	PRON	Case=Loc Number=Sing	t1	root	-	-	-	-
 .	.	.	PUNCT		t2	punct	bura	PRON	Case=Loc Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0050.seg33" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0050.seg33" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0050-000010">
 <name type="ORG">
 Hükûmet	Hükûmet	hükûmet	NOUN	Case=Nom Number=Sing	t1	root	-	-	-	-
@@ -692,7 +693,7 @@ Burada	Burada	bura	PRON	Case=Loc Number=Sing	t1	root	-	-	-	-
 .	.	.	PUNCT		t2	punct	bura	PRON	Case=Loc Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0051.seg34" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0051.seg34" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0051-000010">
 <name type="PER">
 Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2
@@ -729,7 +730,7 @@ tır	tır	i	AUX	Mood=Gen Number=Sing Person=3	t24	compound:lvc	kararlaş	VERB	Ca
 .	.	.	PUNCT		t25	punct	kararlaş	VERB	Case=Nom Number=Sing Voice=CauPass	t23
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0052.seg35" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0052.seg35" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0052-000010">
 Buna	Buna	bu	PRON	Case=Dat Number=Sing	t1	obl	gerek	VERB	Aspect=Prog Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres	t16
 göre	göre	göre	ADP		t2	case	bu	PRON	Case=Dat Number=Sing	t1
@@ -807,7 +808,7 @@ sunulur	sunulur	sun	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Ten
 .	.	.	PUNCT		t3	punct	sun	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres Voice=Pass	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0053.seg36" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0053.seg36" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0053-000010">
 <name type="ORG">
 Birinci	Birinci	Birinci	PROPN	Case=Nom Number=Sing	t1	nummod	grup	NOUN	Case=Acc Number=Plur	t3
@@ -827,7 +828,7 @@ okuyorum	okuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 
 :	:	:	PUNCT		t13	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t12
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0054.seg37" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0054.seg37" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0054-000010">
 <name type="ORG">
 Milliyetçi	Milliyetçi	milliyetçi	NOUN	Case=Nom Number=Sing	t1	nmod	parti	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -885,7 +886,7 @@ konuşacaklardır	konuşacaklardır	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen 
 .	.	.	PUNCT		t28	punct	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Plur Person=3 Tense=Fut	t27
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0055.seg38" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0055.seg38" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0055-000010">
 <name type="ORG">
 Cumhuriyet	Cumhuriyet	cumhuriyet	NOUN	Case=Nom Number=Sing	t1	nmod	parti	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -994,7 +995,7 @@ konuşacaklardır	konuşacaklardır	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen 
 .	.	.	PUNCT		t55	punct	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Plur Person=3 Tense=Fut	t54
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0056.seg39" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0056.seg39" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0056-000010">
 <name type="ORG">
 Halkların	Halkların	halk	NOUN	Case=Nom Number=Plur Number[psor]=Sing Person[psor]=2	t1	nmod	parti	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -1052,7 +1053,7 @@ konuşacaktır	konuşacaktır	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number
 .	.	.	PUNCT		t30	punct	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Fut	t29
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0057.seg40" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0057.seg40" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0057-000010">
 <name type="ORG">
 AK	AK	ak	ADJ		t1	amod	ad	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t4
@@ -1199,7 +1200,7 @@ konuşacaktır	konuşacaktır	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number
 .	.	.	PUNCT		t74	punct	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Fut	t73
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0058.seg41" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0058.seg41" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0058-000010">
 Şahıslar	Şahıslar	şahıs	NOUN	Case=Nom Number=Plur	t1	nsubj	konuş	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Fut	t17
 adına	adına	ad	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t2	obl	konuş	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Fut	t17
@@ -1232,7 +1233,7 @@ konuşacak	konuşacak	konuş	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Pe
 .	.	.	PUNCT		t18	punct	konuş	VERB	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Fut	t17
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0059.seg42" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0059.seg42" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0059-000010">
 Hükûmet	Hükûmet	hükûmet	NOUN	Case=Nom Number=Sing	t1	obl	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Plur Person=3 Tense=Fut	t8
 adına	adına	ad	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t2	obl	Bülent	PROPN	Case=Nom Number=Sing	t6
@@ -1248,7 +1249,7 @@ konuşacaklardır	konuşacaklardır	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen 
 .	.	.	PUNCT		t9	punct	konuş	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Plur Person=3 Tense=Fut	t8
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0060.seg43" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0060.seg43" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0060-000010">
 Şimdi	Şimdi	şimdi	ADV		t1	advmod	Atila	PROPN	Case=Nom Number=Sing	t12
 ilk	ilk	ilk	ADV		t2	amod	söz	NOUN	Case=Nom Number=Sing	t3
@@ -1273,7 +1274,7 @@ Kaya’da	Kaya’da	kaya	NOUN	Case=Loc Number=Sing	t13	obl	Atila	PROPN	Case=Nom 
 .	.	.	PUNCT		t14	punct	Atila	PROPN	Case=Nom Number=Sing	t12
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0001par0061.seg44" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0061.seg44" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0061-000010">
 Buyurun	Buyurun	buyur	VERB	Mood=Imp Number=Plur Person=2	t1	root	-	-	-	-
 <g/>
@@ -1281,7 +1282,7 @@ Buyurun	Buyurun	buyur	VERB	Mood=Imp Number=Plur Person=2	t1	root	-	-	-	-
 </s>
 </p>
 <note type="kinesic:applause" content="MHP sıralarından alkışlar"/>
-<p id="tbmm-2014-12-11sit01spe0001par0063.seg45" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0001par0063.seg45" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0001par0063-000010">
 Süreniz	Süreniz	süre	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=2	t1	nsubj	dakika	NOUN	Case=Nom Number=Sing	t4
 on	on	on	NUM		t2	nummod	dakika	NOUN	Case=Nom Number=Sing	t4
@@ -1294,8 +1295,8 @@ dır	dır	i	AUX	Mood=Gen Number=Sing Person=3	t5	cop	dakika	NOUN	Case=Nom Number
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-12-11sit01spe0002par0064" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Reference" body="Unicameralism" term="24" session="5" meeting="26" sitting="" agenda="" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Year 5, Session 26" speaker_role="Regular" speaker_id="Atila.Kaya" speaker_name="Kaya, Atila" speaker_mp="MP" speaker_minister="-" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="1957">
-<p id="tbmm-2014-12-11sit01spe0002par0064.seg0" lang="Turkish">
+<speech id="tbmm-2014-12-11sit01spe0002par0064" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Normal" speaker_id="Atila.Kaya" speaker_name="Kaya, Atila" speaker_mp="MP" speaker_minister="notMinister" speaker_party="MHP" speaker_party_name="Milliyetçi Hareket Partisi" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1957">
+<p id="tbmm-2014-12-11sit01spe0002par0064.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0064-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	başkan	NOUN	Case=Nom Number=Sing	t2
 Başkan	Başkan	başkan	NOUN	Case=Nom Number=Sing	t2	nmod	değer	NOUN	Number=Sing	t4
@@ -1360,7 +1361,7 @@ ediyorum	ediyorum	et	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 T
 .	.	.	PUNCT		t18	punct	et	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t17
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0065.seg1" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0065.seg1" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0065-000010">
 Değer	Değer	değer	NOUN	Number=Sing	t1	nmod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t3
 <g/>
@@ -1443,7 +1444,7 @@ yım	yım	i	AUX	Number=Sing Person=1	t29	cop	huzur	NOUN	Case=Loc Number=Plur Num
 .	.	.	PUNCT		t30	punct	huzur	NOUN	Case=Loc Number=Plur Number[psor]=Plur Person[psor]=2	t28
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0066.seg2" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0066.seg2" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0066-000010">
 Değer	Değer	değer	NOUN	Number=Sing	t1	nmod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t3
 <g/>
@@ -1630,7 +1631,7 @@ görmüştür	görmüştür	gör	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Si
 .	.	.	PUNCT		t25	punct	gör	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past	t24
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0067.seg3" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0067.seg3" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0067-000010">
 Değer	Değer	değer	NOUN	Number=Sing	t1	nmod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t3
 <g/>
@@ -1797,7 +1798,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t56	cop	boğ	VERB	Case=Nom Number=Si
 .	.	.	PUNCT		t57	punct	boğ	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t53
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0068.seg4" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0068.seg4" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0068-000010">
 Feleğin	Feleğin	felek	NOUN	Case=Gen Number=Sing	t1	nsubj	de	VERB	Tense=Pres VerbForm=Part	t13
 işine	işine	iş	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t2	obl	bak	VERB	Mood=Imp Number=Plur Person=2	t3
@@ -1960,7 +1961,7 @@ konuşuyoruz	konuşuyoruz	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plu
 .	.	.	PUNCT		t40	punct	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres	t39
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0069.seg5" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0069.seg5" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0069-000010">
 Feleğin	Feleğin	felek	NOUN	Case=Gen Number=Sing	t1	nsubj	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Pres Voice=Pass	t28
 işine	işine	iş	NOUN	Case=Dat Number=Sing Number[psor]=Sing Person[psor]=3	t2	obl	bak	VERB	Mood=Imp Number=Plur Person=2	t3
@@ -1999,7 +2000,7 @@ konuşuluyor	konuşuluyor	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sin
 .	.	.	PUNCT		t29	punct	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Pres Voice=Pass	t28
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0070.seg6" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0070.seg6" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0070-000010">
 Hepimiz	Hepimiz	hepimiz	PRON	Case=Nom Number=Plur Person=1	t1	nsubj	bile	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres	t2
 biliyoruz	biliyoruz	bile	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Plur Person=1 Tense=Pres	t2	advcl	Oluş	PROPN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=1	t34
@@ -2052,7 +2053,7 @@ tır	tır	i	AUX	Mood=Gen Number=Sing Person=3	t40	compound	teferruat	NOUN	Case=N
 .	.	.	PUNCT		t41	punct	i	AUX	Mood=Gen Number=Sing Person=3	t40
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0071.seg7" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0071.seg7" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0071-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2
 milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2	obl	katlan	VERB		t37
@@ -2165,7 +2166,7 @@ dur	dur	i	AUX	Mood=Gen Number=Sing Person=3	t12	cop	malum	NOUN	Case=Nom Number=S
 .	.	.	PUNCT		t13	punct	malum	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=2	t11
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0072.seg8" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0072.seg8" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0072-000010">
 Üzerinde	Üzerinde	üzeri	NOUN	Case=Loc Number=Sing Number[psor]=Sing Person[psor]=3	t1	obl	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Pres	t2
 konuşmakta	konuşmakta	konuş	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Pres	t2	nsubj	ol	AUX	Number[psor]=Plur Person[psor]=1 Tense=Past VerbForm=Part	t3
@@ -2255,7 +2256,7 @@ olacaktır	olacaktır	ol	AUX	Aspect=Perf Evident=Fh Mood=Gen Number=Sing Person=
 .	.	.	PUNCT		t20	punct	ol	AUX	Aspect=Perf Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Fut	t19
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0073.seg9" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0073.seg9" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0073-000010">
 Bununla	Bununla	bu	PRON	Case=Ins Number=Sing	t1	obl	birlikte	ADP		t2
 birlikte	birlikte	birlikte	ADP		t2	advmod	tarz	NOUN	Case=Nom Number=Sing Number[psor]=Plur Person[psor]=2	t24
@@ -2513,7 +2514,7 @@ bırakmayacaktır	bırakmayacaktır	bırak	VERB	Aspect=Perf Evident=Fh Mood=Gen 
 .	.	.	PUNCT		t19	punct	peş	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	t17
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0074.seg10" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0074.seg10" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0074-000010">
 Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2
 milletvekilleri	milletvekilleri	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2	nsubj	say	VERB	Aspect=Perf Evident=Fh Mood=Gen Number=Sing Person=3 Polarity=Neg Tense=Fut Voice=Pass	t32
@@ -2667,7 +2668,7 @@ ydi	ydi	i	AUX	Aspect=Perf Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Past	t2
 .	.	.	PUNCT		t27	punct	belli	ADJ		t25
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0075.seg11" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0075.seg11" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0075-000010">
 Yapım	Yapım	yapım	NOUN	Case=Nom Number=Sing	t1	nmod	iş	NOUN	Case=Loc Number=Sing Number[psor]=Sing Person[psor]=2	t2
 işinde	işinde	iş	NOUN	Case=Loc Number=Sing Number[psor]=Sing Person[psor]=2	t2	obl	siz	ADJ		t5
@@ -2761,7 +2762,7 @@ biliyor	biliyor	bil	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Te
 .	.	.	PUNCT		t12	punct	bil	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=3 Tense=Pres	t11
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0076.seg12" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0076.seg12" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0076-000010">
 "	"	"	PUNCT		t1	punct	zihniyet	NOUN	Case=Nom Number=Sing	t2
 <g/>
@@ -2880,7 +2881,7 @@ dir	dir	i	AUX	Mood=Gen Number=Sing Person=3	t28	cop	şükret	VERB	Aspect=Imp Evi
 .	.	.	PUNCT		t29	punct	yer	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t27
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0077.seg13" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0077.seg13" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0077-000010">
 Değer	Değer	değer	NOUN	Number=Sing	t1	nmod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t3
 <g/>
@@ -2982,7 +2983,7 @@ etmektedir	etmektedir	et	VERB	Aspect=Prog Evident=Fh Mood=Gen Number=Sing Person
 .	.	.	PUNCT		t78	punct	devam	NOUN	Case=Nom Number=Sing	t76
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0078.seg14" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0078.seg14" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0078-000010">
 O	O	o	DET		t1	nsubj	çıkar	VERB	Aspect=Prog Evident=Fh Mood=Gen Number=Sing Person=3 Tense=Pres Voice=Cau	t17
 <g/>
@@ -3059,7 +3060,7 @@ oluşturmuştur	oluşturmuştur	oluş	VERB	Aspect=Perf Evident=Nfh Mood=Gen Numb
 .	.	.	PUNCT		t21	punct	oluş	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Cau	t20
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0079.seg15" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0079.seg15" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0079-000010">
 Toplumsal	Toplumsal	toplumsal	ADJ		t1	amod	cehalet	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
 cehaleti	cehaleti	cehalet	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2	obl	üre	VERB	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3 VerbForm=Vnoun Voice=Cau	t4
@@ -3143,7 +3144,7 @@ yapmaz	yapmaz	yap	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Polar
 .	.	.	PUNCT		t38	punct	yap	VERB	Aspect=Hab Evident=Fh Mood=Gen Number=Sing Person=3 Polarity=Neg Tense=Pres	t37
 </s>
 </p>
-<p id="tbmm-2014-12-11sit01spe0002par0080.seg16" lang="Turkish">
+<p id="tbmm-2014-12-11sit01spe0002par0080.seg16" lang="Türkçe">
 <s id="tbmm-2014-12-11sit01spe0002par0080-000010">
 Unutmasın	Unutmasın	unut	VERB	Mood=Imp Number=Sing Person=3 Polarity=Neg	t1	amod	anekdot	NOUN	Case=Nom Number=Sing	t6
 ki	ki	ki	ADV		t2	case	unut	VERB	Mood=Imp Number=Sing Person=3 Polarity=Neg	t1
@@ -3180,8 +3181,8 @@ selamlıyorum	selamlıyorum	selamla	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="tbmm-2014-12-11sit05spe0654par0504" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Reference" body="Unicameralism" term="24" session="5" meeting="26" sitting="" agenda="" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Year 5, Session 26" speaker_role="Regular" speaker_id="Mahmut.Tanal" speaker_name="Tanal, Mahmut" speaker_mp="MP" speaker_minister="-" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" speaker_gender="M" speaker_birth="1961">
-<p id="tbmm-2014-12-11sit05spe0654par0504.seg0" lang="Turkish">
+<speech id="tbmm-2014-12-11sit05spe0654par0504" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Normal" speaker_id="Mahmut.Tanal" speaker_name="Tanal, Mahmut" speaker_mp="MP" speaker_minister="notMinister" speaker_party="CHP" speaker_party_name="Cumhuriyet Halk Partisi" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1961">
+<p id="tbmm-2014-12-11sit05spe0654par0504.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0654par0504-000010">
 <name type="PER">
 Sayın	Sayın	sayın	ADJ		t1	amod	başkan	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=1	t2
@@ -3220,15 +3221,15 @@ bakın	bakın	bak	VERB	Mood=Imp Number=Plur Person=2	t22	conj	kabul	NOUN	Case=No
 </s>
 </p>
 </speech>
-<speech id="tbmm-2014-12-11sit05spe0650par0505" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Reference" body="Unicameralism" term="24" session="5" meeting="26" sitting="" agenda="" date="2014-12-11" title="The Turkish parliamentary corpus ParlaMint-TR, Term 24, Year 5, Session 26" speaker_role="Chairperson" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="-" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" speaker_gender="F" speaker_birth="1954">
-<p id="tbmm-2014-12-11sit05spe0650par0505.seg0" lang="Turkish">
+<speech id="tbmm-2014-12-11sit05spe0650par0505" text_id="ParlaMint-TR_2014-12-11-tbmm-T24" subcorpus="Referans" lang="Türkçe" body="Tek meclisli" term="24" session="5" meeting="26" sitting="-" agenda="-" date="2014-12-11" title="Türkiye meclis derlemi ParlaMint-TR, Dönem 24, Yıl 5, Birleşim 26" speaker_role="Başkan" speaker_id="AyşeNur.Bahçekapılı" speaker_name="Bahçekapılı, Ayşe Nur" speaker_mp="MP" speaker_minister="notMinister" speaker_party="AKP" speaker_party_name="Adalet ve Kalkınma Partisi" party_status="Coalition" party_orientation="---" speaker_gender="F" speaker_birth="1954">
+<p id="tbmm-2014-12-11sit05spe0650par0505.seg0" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0505-000010">
 Peki	Peki	peki	ADV		t1	root	-	-	-	-
 <g/>
 .	.	.	PUNCT		t2	punct	peki	ADV		t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0506.seg1" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0506.seg1" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0506-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3244,14 +3245,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t9	punct	kabul	NOUN	Case=Nom Number=Sing	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0507.seg2" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0507.seg2" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0507-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	nmod	43502000	NUM		t3
 43.502.000	43.502.000	43502000	NUM		t3	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0508.seg3" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0508.seg3" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0508-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3270,7 +3271,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0509.seg4" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0509.seg4" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0509-000010">
 <name type="ORG">
 Anayasa	Anayasa	anayasa	NOUN	Case=Nom Number=Sing	t1	nmod	mahkeme	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -3289,7 +3290,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t11
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0510.seg5" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0510.seg5" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0510-000010">
 <name type="ORG">
 Anayasa	Anayasa	anayasa	NOUN	Case=Nom Number=Sing	t1	nmod	mahkeme	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -3325,7 +3326,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0511.seg6" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0511.seg6" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0511-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t10
 <g/>
@@ -3343,7 +3344,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0512.seg7" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0512.seg7" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0512-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -3358,7 +3359,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0514.seg8" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0514.seg8" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0514-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	36372408,44	NUM		t3
@@ -3367,7 +3368,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	36372408,44	NUM		t3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0515.seg9" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0515.seg9" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0515-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -3376,7 +3377,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0516.seg10" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0516.seg10" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0516-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	root	-	-	-	-
@@ -3386,7 +3387,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0517.seg11" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0517.seg11" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0517-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -3411,7 +3412,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0518.seg12" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0518.seg12" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0518-000010">
 <name type="ORG">
 Anayasa	Anayasa	anayasa	NOUN	Case=Nom Number=Sing	t1	nmod	mahkeme	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -3431,7 +3432,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t13	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t12
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0519.seg13" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0519.seg13" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0519-000010">
 <name type="ORG">
 Yargıtay	Yargıtay	Yargıtay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3460,7 +3461,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t19	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t18
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0522.seg14" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0522.seg14" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0522-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -3475,7 +3476,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0524.seg15" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0524.seg15" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0524-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -3486,7 +3487,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	advmod:emph	kamu	NOUN	
 31.525.000	31.525.000	31525000	NUM		t5	obl	hizmet	NOUN	Case=Acc Number=Plur	t4
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0525.seg16" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0525.seg16" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0525-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3501,7 +3502,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0526.seg17" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0526.seg17" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0526-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -3514,7 +3515,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	flat	131442000	NUM		t7
 131.442.000	131.442.000	131442000	NUM		t7	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0527.seg18" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0527.seg18" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0527-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3533,14 +3534,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0528.seg19" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0528.seg19" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0528-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	nmod	162967000	NUM		t3
 162.967.000	162.967.000	162967000	NUM		t3	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0529.seg20" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0529.seg20" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0529-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3559,7 +3560,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0530.seg21" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0530.seg21" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0530-000010">
 <name type="ORG">
 Yargıtay	Yargıtay	Yargıtay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3576,7 +3577,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t10	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t9
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0531.seg22" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0531.seg22" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0531-000010">
 <name type="ORG">
 Yargıtay	Yargıtay	Yargıtay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3610,7 +3611,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0532.seg23" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0532.seg23" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0532-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -3626,7 +3627,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0533.seg24" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0533.seg24" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0533-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -3641,7 +3642,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0535.seg25" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0535.seg25" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0535-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	root	-	-	-	-
@@ -3650,7 +3651,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	root	-	-	-	-
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0536.seg26" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0536.seg26" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0536-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -3659,7 +3660,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0537.seg27" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0537.seg27" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0537-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -3669,7 +3670,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0538.seg28" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0538.seg28" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0538-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -3694,7 +3695,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0539.seg29" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0539.seg29" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0539-000010">
 <name type="ORG">
 Yargıtay	Yargıtay	Yargıtay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3712,7 +3713,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t11	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0540.seg30" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0540.seg30" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0540-000010">
 <name type="ORG">
 Danıştay	Danıştay	Danıştay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3741,7 +3742,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t19	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t18
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0543.seg31" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0543.seg31" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0543-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -3756,7 +3757,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0545.seg32" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0545.seg32" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0545-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -3767,7 +3768,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	root	-	-	-	-
 18.722.000	18.722.000	18722000	NUM		t5	nummod	hizmet	NOUN	Case=Acc Number=Plur	t4
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0546.seg33" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0546.seg33" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0546-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3782,7 +3783,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0547.seg34" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0547.seg34" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0547-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -3795,7 +3796,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	nmod	84951000	NUM		t7
 84.951.000	84.951.000	84951000	NUM		t7	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0548.seg35" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0548.seg35" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0548-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3814,7 +3815,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0549.seg36" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0549.seg36" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0549-000010">
 09	09	09	NUM		t1	obl	hizmet	NOUN	Case=Acc Number=Plur	t3
 Eğitim	Eğitim	eğitim	NOUN	Case=Nom Number=Sing	t2	obl	hizmet	NOUN	Case=Acc Number=Plur	t3
@@ -3822,7 +3823,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	nmod	30000	NUM		t4
 30.000	30.000	30000	NUM		t4	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0550.seg37" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0550.seg37" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0550-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3841,14 +3842,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0551.seg38" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0551.seg38" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0551-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	nmod	103703000	NUM		t3
 103.703.000	103.703.000	103703000	NUM		t3	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0552.seg39" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0552.seg39" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0552-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -3867,7 +3868,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0553.seg40" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0553.seg40" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0553-000010">
 <name type="ORG">
 Danıştay	Danıştay	Danıştay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3884,7 +3885,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t10	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t9
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0554.seg41" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0554.seg41" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0554-000010">
 <name type="ORG">
 Danıştay	Danıştay	Danıştay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -3918,7 +3919,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0555.seg42" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0555.seg42" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0555-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -3934,7 +3935,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0556.seg43" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0556.seg43" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0556-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -3949,7 +3950,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0558.seg44" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0558.seg44" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0558-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	89653280,00	NUM		t3
@@ -3958,7 +3959,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	89653280,00	NUM		t3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0559.seg45" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0559.seg45" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0559-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -3967,7 +3968,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0560.seg46" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0560.seg46" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0560-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -3977,7 +3978,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0561.seg47" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0561.seg47" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0561-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -4002,7 +4003,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0562.seg48" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0562.seg48" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0562-000010">
 <name type="ORG">
 Danıştay	Danıştay	Danıştay	PROPN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -4020,7 +4021,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t11	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0563.seg49" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0563.seg49" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0563-000010">
 <name type="ORG">
 Başbakanlık	Başbakanlık	başbakanlık	NOUN	Case=Nom Number=Sing	t1	obl	2015	NUM		t2
@@ -4053,7 +4054,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0566.seg50" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0566.seg50" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0566-000010">
 1	1	1	NUM		t1	nummod	yönetim	NOUN	Case=Nom Number=Sing	t7
 <g/>
@@ -4068,7 +4069,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0568.seg51" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0568.seg51" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0568-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -4079,7 +4080,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	nmod	845597000	NUM		t5
 845.597.000	845.597.000	845597000	NUM		t5	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0569.seg52" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0569.seg52" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0569-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4094,7 +4095,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0570.seg53" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0570.seg53" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0570-000010">
 <name type="ORG">
 02	02	02	NUM		t1	nmod	savun	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2
@@ -4104,7 +4105,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	root	-	-	-	-
 2.159.000	2.159.000	2159000	NUM		t4	nummod	hizmet	NOUN	Case=Acc Number=Plur	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0571.seg54" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0571.seg54" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0571-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4123,7 +4124,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0572.seg55" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0572.seg55" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0572-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -4136,7 +4137,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	root	-	-	-	-
 5.034.000	5.034.000	5034000	NUM		t7	nummod	hizmet	NOUN	Case=Acc Number=Plur	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0573.seg56" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0573.seg56" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0573-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4155,7 +4156,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0574.seg57" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0574.seg57" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0574-000010">
 04	04	04	NUM		t1	amod	53628000	NUM		t6
 Ekonomik	Ekonomik	ekonomik	ADJ		t2	amod	iş	NOUN	Case=Nom Number=Plur	t3
@@ -4165,7 +4166,7 @@ Hizmetler	Hizmetler	hizmet	NOUN	Case=Nom Number=Plur	t5	conj	iş	NOUN	Case=Nom N
 53.628.000	53.628.000	53628000	NUM		t6	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0575.seg58" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0575.seg58" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0575-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4184,7 +4185,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0576.seg59" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0576.seg59" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0576-000010">
 <name type="ORG">
 07	07	07	NUM		t1	obj	hizmet	NOUN	Case=Acc Number=Plur	t3
@@ -4194,7 +4195,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	root	-	-	-	-
 701.000	701.000	701000	NUM		t4	compound	hizmet	NOUN	Case=Acc Number=Plur	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0577.seg60" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0577.seg60" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0577-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4213,7 +4214,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0578.seg61" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0578.seg61" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0578-000010">
 <name type="ORG">
 10	10	10	NUM		t1	nummod	güvenlik	NOUN	Case=Nom Number=Sing	t3
@@ -4227,7 +4228,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t7	flat	22000000	NUM		t8
 22.000.000	22.000.000	22000000	NUM		t8	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0579.seg62" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0579.seg62" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0579-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4246,14 +4247,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0580.seg63" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0580.seg63" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0580-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	nmod	929119000	NUM		t3
 929.119.000	929.119.000	929119000	NUM		t3	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0581.seg64" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0581.seg64" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0581-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4272,7 +4273,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0582.seg65" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0582.seg65" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0582-000010">
 <name type="ORG">
 Başbakanlık	Başbakanlık	başbakanlık	NOUN	Case=Nom Number=Sing	t1	obl	2015	NUM		t2
@@ -4289,7 +4290,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t10	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t9
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0583.seg66" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0583.seg66" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0583-000010">
 <name type="ORG">
 Başbakanlık	Başbakanlık	başbakanlık	NOUN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -4323,7 +4324,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0584.seg67" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0584.seg67" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0584-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t8
 <g/>
@@ -4339,7 +4340,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0585.seg68" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0585.seg68" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0585-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -4354,7 +4355,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0587.seg69" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0587.seg69" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0587-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Number=Sing	t2
@@ -4363,7 +4364,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Num
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0588.seg70" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0588.seg70" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0588-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -4372,7 +4373,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0589.seg71" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0589.seg71" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0589-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -4382,7 +4383,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0590.seg72" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0590.seg72" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0590-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -4407,7 +4408,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0591.seg73" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0591.seg73" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0591-000010">
 <name type="ORG">
 Başbakanlık	Başbakanlık	başbakanlık	NOUN	Case=Nom Number=Sing	t1	nmod	yıl	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -4425,7 +4426,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t11	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0592.seg74" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0592.seg74" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0592-000010">
 <name type="ORG">
 Millî	Millî	millî	ADJ		t1	amod	istihbarat	NOUN	Case=Nom Number=Sing	t2
@@ -4461,7 +4462,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0594.seg75" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0594.seg75" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0594-000010">
 07.75	07.75	07,75	NUM		t1	amod	teşkilat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t5
 <g/>
@@ -4474,7 +4475,7 @@ TEŞKİLATI	TEŞKİLATI	teşkilat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Pe
 MÜŞTEŞARLIĞI	MÜŞTEŞARLIĞI	MÜŞTEŞARLIĞI	X		t6	nmod	teşkilat	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t5
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0595.seg76" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0595.seg76" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0595-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t11
 <g/>
@@ -4496,7 +4497,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0597.seg77" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0597.seg77" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0597-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -4509,7 +4510,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	root	-	-	-	-
 1.108.220.000	1.108.220.000	1108220000	NUM		t7	nummod	hizmet	NOUN	Case=Acc Number=Plur	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0598.seg78" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0598.seg78" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0598-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4528,14 +4529,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0599.seg79" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0599.seg79" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0599-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	root	-	-	-	-
 1.108.220.000	1.108.220.000	1108220000	NUM		t3	nummod	toplam	NOUN	Case=Nom Number=Sing	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0600.seg80" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0600.seg80" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0600-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4554,7 +4555,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0601.seg81" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0601.seg81" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0601-000010">
 <name type="ORG">
 Millî	Millî	millî	ADJ		t1	amod	istihbarat	NOUN	Case=Nom Number=Sing	t2
@@ -4576,7 +4577,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t14	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t13
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0602.seg82" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0602.seg82" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0602-000010">
 <name type="ORG">
 Millî	Millî	millî	ADJ		t1	amod	istihbarat	NOUN	Case=Nom Number=Sing	t2
@@ -4615,7 +4616,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0603.seg83" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0603.seg83" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0603-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t12
 <g/>
@@ -4638,7 +4639,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0604.seg84" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0604.seg84" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0604-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -4653,7 +4654,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0606.seg85" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0606.seg85" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0606-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Number=Sing	t2
@@ -4662,7 +4663,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Num
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0607.seg86" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0607.seg86" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0607-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -4671,7 +4672,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0608.seg87" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0608.seg87" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0608-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -4681,7 +4682,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0609.seg88" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0609.seg88" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0609-000010">
 <name type="ORG">
 Ertesi	Ertesi	ertesi	ADJ		t1	amod	yıl	NOUN	Case=Dat Number=Sing	t2
@@ -4692,7 +4693,7 @@ Devredilen	Devredilen	devret	VERB	Tense=Pres VerbForm=Part Voice=Pass	t3	root	-	
 27.682.869,87	27.682.869,87	27682869,87	NUM		t5	compound	devret	VERB	Tense=Pres VerbForm=Part Voice=Pass	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0610.seg89" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0610.seg89" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0610-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -4717,7 +4718,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0611.seg90" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0611.seg90" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0611-000010">
 <name type="ORG">
 Millî	Millî	millî	ADJ		t1	amod	istihbarat	NOUN	Case=Nom Number=Sing	t2
@@ -4740,7 +4741,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t15	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t14
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0612.seg91" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0612.seg91" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0612-000010">
 <name type="PER">
 Millî	Millî	millî	ADJ		t1	amod	kurul	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -4779,7 +4780,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0614.seg92" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0614.seg92" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0614-000010">
 <name type="ORG">
 07.76	07.76	07,76	NUM		t1	nsubj	sekreter	NOUN		t7
@@ -4795,7 +4796,7 @@ SEKRETER	SEKRETER	sekreter	NOUN		t7	root	-	-	-	-
 LİĞİ	LİĞİ	lik	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t8	compound	sekreter	NOUN		t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0615.seg93" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0615.seg93" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0615-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t12
 <g/>
@@ -4816,7 +4817,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0617.seg94" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0617.seg94" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0617-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -4827,7 +4828,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	advmod:emph	kamu	NOUN	
 22.575.000	22.575.000	22575000	NUM		t5	flat	kamu	NOUN	Case=Nom Number=Sing	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0618.seg95" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0618.seg95" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0618-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4842,14 +4843,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0619.seg96" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0619.seg96" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0619-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	root	-	-	-	-
 22.575.000	22.575.000	22575000	NUM		t3	case	toplam	NOUN	Case=Nom Number=Sing	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0620.seg97" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0620.seg97" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0620-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -4868,7 +4869,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0621.seg98" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0621.seg98" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0621-000010">
 <name type="PER">
 Millî	Millî	millî	ADJ		t1	amod	kurul	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -4908,7 +4909,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0622.seg99" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0622.seg99" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0622-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t13
 <g/>
@@ -4930,7 +4931,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0623.seg100" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0623.seg100" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0623-000010">
 BAŞKAN	BAŞKAN	başkan	NOUN	Case=Nom Number=Sing	t1	nmod	cetvel	NOUN	Case=Gen Number=Sing Number[psor]=Sing Person[psor]=3	t6
 <g/>
@@ -4948,7 +4949,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t10	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t9
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0625.seg101" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0625.seg101" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0625-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Number=Sing	t2
@@ -4957,7 +4958,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Num
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0626.seg102" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0626.seg102" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0626-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -4966,7 +4967,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0627.seg103" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0627.seg103" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0627-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -4976,7 +4977,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0628.seg104" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0628.seg104" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0628-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -5001,7 +5002,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0629.seg105" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0629.seg105" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0629-000010">
 <name type="PER">
 Millî	Millî	millî	ADJ		t1	amod	güvenlik	NOUN	Case=Nom Number=Sing	t2
@@ -5025,7 +5026,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t16	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t15
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0630.seg106" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0630.seg106" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0630-000010">
 <name type="ORG">
 Diyanet	Diyanet	diyanet	NOUN	Case=Nom Number=Sing	t1	nmod	başkanlık	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -5056,7 +5057,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t21	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t20
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0632.seg107" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0632.seg107" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0632-000010">
 07.86	07.86	07,86	NUM		t1	root	-	-	-	-
 <g/>
@@ -5068,7 +5069,7 @@ DİYANET	DİYANET	diyanet	NOUN	Case=Nom Number=Sing	t3	nmod	iş	NOUN	Case=Acc Nu
 BAŞKANLIĞI	BAŞKANLIĞI	başkanlık	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t5	conj	07,86	NUM		t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0633.seg108" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0633.seg108" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0633-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t9
 <g/>
@@ -5087,7 +5088,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0635.seg109" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0635.seg109" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0635-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -5098,7 +5099,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	root	-	-	-	-
 39.419.145	39.419.145	39419145	NUM		t5	nummod	hizmet	NOUN	Case=Acc Number=Plur	t4
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0636.seg110" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0636.seg110" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0636-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5113,7 +5114,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0637.seg111" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0637.seg111" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0637-000010">
 <name type="ORG">
 02	02	02	NUM		t1	nmod	savun	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2
@@ -5123,7 +5124,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	xcomp	191525	NUM		t4
 191.525	191.525	191525	NUM		t4	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0638.seg112" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0638.seg112" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0638-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5142,7 +5143,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0639.seg113" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0639.seg113" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0639-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -5155,7 +5156,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	root	-	-	-	-
 9.593.000	9.593.000	9593000	NUM		t7	nummod	hizmet	NOUN	Case=Acc Number=Plur	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0640.seg114" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0640.seg114" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0640-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5174,7 +5175,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0641.seg115" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0641.seg115" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0641-000010">
 <name type="ORG">
 07	07	07	NUM		t1	obj	sağlık	NOUN	Case=Nom Number=Sing	t2
@@ -5184,7 +5185,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	root	-	-	-	-
 519.117	519.117	519117	NUM		t4	obl	hizmet	NOUN	Case=Acc Number=Plur	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0642.seg116" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0642.seg116" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0642-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5203,7 +5204,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0643.seg117" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0643.seg117" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0643-000010">
 08	08	08	NUM		t1	amod	dinlen	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2
 Dinlenme	Dinlenme	dinlen	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2	root	-	-	-	-
@@ -5218,7 +5219,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t7	conj	dinlen	VERB	Case=
 5.692.332.513	5.692.332.513	5692332513	NUM		t8	nummod	hizmet	NOUN	Case=Acc Number=Plur	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0644.seg118" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0644.seg118" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0644-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5237,7 +5238,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0645.seg119" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0645.seg119" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0645-000010">
 <name type="ORG">
 09	09	09	NUM		t1	obl	eğitim	NOUN	Case=Nom Number=Sing	t2
@@ -5247,7 +5248,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	flat	1327700	NUM		t4
 1.327.700	1.327.700	1327700	NUM		t4	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0646.seg120" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0646.seg120" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0646-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5266,14 +5267,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0647.seg121" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0647.seg121" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0647-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	root	-	-	-	-
 5.743.383.000	5.743.383.000	5743383000	NUM		t3	nummod	toplam	NOUN	Case=Nom Number=Sing	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0648.seg122" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0648.seg122" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0648-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5292,7 +5293,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0649.seg123" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0649.seg123" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0649-000010">
 <name type="ORG">
 Diyanet	Diyanet	diyanet	NOUN	Case=Nom Number=Sing	t1	nmod	iş	NOUN	Case=Acc Number=Plur	t2
@@ -5311,7 +5312,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t11
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0650.seg124" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0650.seg124" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0650-000010">
 <name type="ORG">
 Diyanet	Diyanet	diyanet	NOUN	Case=Nom Number=Sing	t1	nmod	başkanlık	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -5347,7 +5348,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0651.seg125" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0651.seg125" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0651-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t10
 <g/>
@@ -5367,7 +5368,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0652.seg126" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0652.seg126" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0652-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -5382,7 +5383,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0654.seg127" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0654.seg127" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0654-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Number=Sing	t2
@@ -5391,7 +5392,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Num
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0655.seg128" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0655.seg128" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0655-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -5400,7 +5401,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0656.seg129" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0656.seg129" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0656-000010">
 Ödenek	Ödenek	ödenek	NOUN	Case=Nom Number=Sing	t1	det	gider	NOUN	Case=Nom Number=Sing	t3
 Üstü	Üstü	üst	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2	obl	49461325,44	NUM		t4
@@ -5408,7 +5409,7 @@ Gider	Gider	gider	NOUN	Case=Nom Number=Sing	t3	root	-	-	-	-
 49.461.325,44	49.461.325,44	49461325,44	NUM		t4	compound:lvc	gider	NOUN	Case=Nom Number=Sing	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0657.seg130" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0657.seg130" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0657-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -5418,7 +5419,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0658.seg131" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0658.seg131" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0658-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -5443,7 +5444,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0659.seg132" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0659.seg132" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0659-000010">
 <name type="ORG">
 Diyanet	Diyanet	diyanet	NOUN	Case=Nom Number=Sing	t1	nmod	iş	NOUN	Case=Acc Number=Plur	t2
@@ -5463,7 +5464,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t13	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t12
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0660.seg133" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0660.seg133" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0660-000010">
 <name type="ORG">
 Vakıflar	Vakıflar	vakıf	NOUN	Case=Nom Number=Plur	t1	nmod	müdürlük	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -5494,7 +5495,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t21	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t20
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0662.seg134" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0662.seg134" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0662-000010">
 <name type="LOC">
 40.18	40.18	40,18	NUM		t1	nmod	müdürlük	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t5
@@ -5506,7 +5507,7 @@ GENEL	GENEL	genel	ADJ		t4	amod	müdürlük	NOUN	Case=Nom Number=Sing Number[psor
 MÜDÜRLÜĞÜ	MÜDÜRLÜĞÜ	müdürlük	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t5	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0663.seg135" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0663.seg135" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0663-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t9
 <g/>
@@ -5525,7 +5526,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0665.seg136" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0665.seg136" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0665-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -5536,7 +5537,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	obl	26935000	NUM		t5
 26.935.000	26.935.000	26935000	NUM		t5	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0666.seg137" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0666.seg137" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0666-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5551,7 +5552,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0667.seg138" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0667.seg138" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0667-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -5564,7 +5565,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	root	-	-	-	-
 8.910.000	8.910.000	8910000	NUM		t7	nummod	hizmet	NOUN	Case=Acc Number=Plur	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0668.seg139" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0668.seg139" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0668-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5579,7 +5580,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0669.seg140" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0669.seg140" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0669-000010">
 <name type="ORG">
 07	07	07	NUM		t1	obj	sağlık	NOUN	Case=Nom Number=Sing	t2
@@ -5589,7 +5590,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t3	nmod	559500	NUM		t4
 559.500	559.500	559500	NUM		t4	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0670.seg141" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0670.seg141" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0670-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5604,7 +5605,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0671.seg142" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0671.seg142" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0671-000010">
 08	08	08	NUM		t1	amod	dinlen	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2
 Dinlenme	Dinlenme	dinlen	VERB	Case=Nom Number=Sing VerbForm=Vnoun	t2	root	-	-	-	-
@@ -5619,7 +5620,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t7	advmod:emph	kültür	N
 355.836.500	355.836.500	355836500	NUM		t8	obj	hizmet	NOUN	Case=Acc Number=Plur	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0672.seg143" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0672.seg143" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0672-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5634,7 +5635,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0673.seg144" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0673.seg144" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0673-000010">
 <name type="ORG">
 10	10	10	NUM		t1	nummod	güvenlik	NOUN	Case=Nom Number=Sing	t3
@@ -5648,7 +5649,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t7	flat	60573000	NUM		t8
 60.573.000	60.573.000	60573000	NUM		t8	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0674.seg145" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0674.seg145" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0674-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5663,14 +5664,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0675.seg146" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0675.seg146" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0675-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	nmod	452814000	NUM		t3
 452.814.000	452.814.000	452814000	NUM		t3	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0676.seg147" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0676.seg147" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0676-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5689,7 +5690,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0679.seg148" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0679.seg148" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0679-000010">
 <name type="ORG">
 03	03	03	NUM		t1	acl	teşebbüs	NOUN	Case=Nom Number=Sing	t2
@@ -5701,7 +5702,7 @@ Gelirleri	Gelirleri	gelir	NOUN	Case=Nom Number=Plur Number[psor]=Sing Person[pso
 499.350.000	499.350.000	499350000	NUM		t6	conj	teşebbüs	NOUN	Case=Nom Number=Sing	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0680.seg149" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0680.seg149" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0680-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5716,7 +5717,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0681.seg150" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0681.seg150" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0681-000010">
 <name type="ORG">
 05	05	05	NUM		t1	amod	gelir	NOUN	Case=Nom Number=Plur	t3
@@ -5726,7 +5727,7 @@ Gelirler	Gelirler	gelir	NOUN	Case=Nom Number=Plur	t3	nsubj	49272000	NUM		t4
 49.272.000	49.272.000	49272000	NUM		t4	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0682.seg151" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0682.seg151" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0682-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5741,7 +5742,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0683.seg152" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0683.seg152" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0683-000010">
 <name type="ORG">
 06	06	06	NUM		t1	amod	sermaye	NOUN	Case=Nom Number=Sing	t2
@@ -5751,7 +5752,7 @@ Gelirleri	Gelirleri	gelir	NOUN	Case=Nom Number=Plur Number[psor]=Sing Person[pso
 88.000.000	88.000.000	88000000	NUM		t4	nummod	gelir	NOUN	Case=Nom Number=Plur Number[psor]=Sing Person[psor]=3	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0684.seg153" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0684.seg153" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0684-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5766,13 +5767,13 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t8	punct	kabul	NOUN	Case=Nom Number=Sing	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0685.seg154" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0685.seg154" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0685-000010">
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	636622000	NUM		t2
 636.622.000	636.622.000	636622000	NUM		t2	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0686.seg155" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0686.seg155" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0686-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -5791,7 +5792,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0687.seg156" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0687.seg156" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0687-000010">
 <name type="ORG">
 Vakıflar	Vakıflar	vakıf	NOUN	Case=Nom Number=Plur	t1	nsubj	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t11
@@ -5810,7 +5811,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t11
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0688.seg157" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0688.seg157" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0688-000010">
 <name type="ORG">
 Vakıflar	Vakıflar	vakıf	NOUN	Case=Nom Number=Plur	t1	nmod	müdürlük	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t3
@@ -5842,7 +5843,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t22	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t21
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0689.seg158" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0689.seg158" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0689-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t10
 <g/>
@@ -5860,7 +5861,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0690.seg159" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0690.seg159" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0690-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -5875,7 +5876,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0692.seg160" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0692.seg160" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0692-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Number=Sing	t2
@@ -5884,7 +5885,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Num
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0693.seg161" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0693.seg161" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0693-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -5893,7 +5894,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0694.seg162" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0694.seg162" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0694-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -5903,7 +5904,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0695.seg163" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0695.seg163" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0695-000010">
 <name type="ORG">
 Ertesi	Ertesi	ertesi	ADJ		t1	amod	yıl	NOUN	Case=Dat Number=Sing	t2
@@ -5914,7 +5915,7 @@ Devredilen	Devredilen	devret	VERB	Tense=Pres VerbForm=Part Voice=Pass	t3	root	-	
 120.444,18	120.444,18	120444,18	NUM		t5	conj	devret	VERB	Tense=Pres VerbForm=Part Voice=Pass	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0696.seg164" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0696.seg164" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0696-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -5935,7 +5936,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	kabul	NOUN	Case=Nom Number=Sing	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0697.seg165" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0697.seg165" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0697-000010">
 Kesin	Kesin	kesin	ADJ		t1	amod	hesap	NOUN	Case=Nom Number=Sing	t2
 hesap	hesap	hesap	NOUN	Case=Nom Number=Sing	t2	nmod	cetvel	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	t6
@@ -5950,7 +5951,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0699.seg166" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0699.seg166" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0699-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gelir	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -5960,13 +5961,13 @@ Tahmini	Tahmini	tahmin	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=
 501.023.000,00	501.023.000,00	501023000,00	NUM		t4	nummod	gelir	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0700.seg167" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0700.seg167" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0700-000010">
 Tahsilat	Tahsilat	tahsilat	NOUN	Case=Nom Number=Sing	t1	nsubj	554398305,88	NUM		t2
 554.398.305,88	554.398.305,88	554398305,88	NUM		t2	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0701.seg168" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0701.seg168" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0701-000010">
 <name type="ORG">
 Ret	Ret	ret	NOUN	Case=Nom Number=Sing	t1	root	-	-	-	-
@@ -5976,7 +5977,7 @@ ve	ve	ve	CCONJ		t2	cc	iade	NOUN	Case=Nom Number=Plur	t3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0702.seg169" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0702.seg169" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0702-000010">
 <name type="ORG">
 Net	Net	net	NOUN	Case=Nom Number=Sing	t1	nmod	tahsilat	NOUN	Case=Nom Number=Sing	t2
@@ -5985,7 +5986,7 @@ Tahsilat	Tahsilat	tahsilat	NOUN	Case=Nom Number=Sing	t2	nsubj	536060965,17	NUM		
 536.060.965,17	536.060.965,17	536060965,17	NUM		t3	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0703.seg170" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0703.seg170" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0703-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -6006,7 +6007,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	kabul	NOUN	Case=Nom Number=Sing	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0704.seg171" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0704.seg171" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0704-000010">
 <name type="ORG">
 Vakıflar	Vakıflar	vakıf	NOUN	Case=Nom Number=Plur	t1	nsubj	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t12
@@ -6026,7 +6027,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t13	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t12
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0705.seg172" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0705.seg172" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0705-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	insan	NOUN	Case=Nom Number=Sing	t2
@@ -6058,7 +6059,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t22	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t21
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0707.seg173" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0707.seg173" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0707-000010">
 <name type="ORG">
 40.61	40.61	40,61	NUM		t1	nsubj	kurum	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t6
@@ -6071,7 +6072,7 @@ KURUMU	KURUMU	kurum	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0708.seg174" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0708.seg174" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0708-000010">
 1	1	1	NUM		t1	obl	yönetim	NOUN	Case=Nom Number=Sing	t10
 <g/>
@@ -6089,7 +6090,7 @@ Bütçesi	Bütçesi	bütçe	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[p
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0710.seg175" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0710.seg175" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0710-000010">
 <name type="ORG">
 01	01	01	NUM		t1	amod	kamu	NOUN	Case=Nom Number=Sing	t3
@@ -6100,7 +6101,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t4	root	-	-	-	-
 4.633.000	4.633.000	4633000	NUM		t5	nummod	hizmet	NOUN	Case=Acc Number=Plur	t4
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0711.seg176" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0711.seg176" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0711-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -6119,7 +6120,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0712.seg177" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0712.seg177" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0712-000010">
 <name type="ORG">
 03	03	03	NUM		t1	nmod	kamu	NOUN	Case=Nom Number=Sing	t2
@@ -6132,7 +6133,7 @@ Hizmetleri	Hizmetleri	hizmet	NOUN	Case=Acc Number=Plur	t6	root	-	-	-	-
 200.000	200.000	200000	NUM		t7	cop	hizmet	NOUN	Case=Acc Number=Plur	t6
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0713.seg178" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0713.seg178" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0713-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -6151,14 +6152,14 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0714.seg179" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0714.seg179" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0714-000010">
 GENEL	GENEL	genel	ADJ		t1	amod	toplam	NOUN	Case=Nom Number=Sing	t2
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t2	root	-	-	-	-
 4.833.000	4.833.000	4833000	NUM		t3	nummod	toplam	NOUN	Case=Nom Number=Sing	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0715.seg180" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0715.seg180" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0715-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -6177,7 +6178,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0718.seg181" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0718.seg181" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0718-000010">
 04	04	04	NUM		t1	nmod	alın	VERB	Tense=Pres VerbForm=Part	t2
 Alınan	Alınan	alın	VERB	Tense=Pres VerbForm=Part	t2	obl	bağış	NOUN	Case=Nom Number=Plur	t3
@@ -6190,7 +6191,7 @@ Gelirler	Gelirler	gelir	NOUN	Case=Nom Number=Plur	t8	nsubj	4818000	NUM		t9
 4.818.000	4.818.000	4818000	NUM		t9	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0719.seg182" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0719.seg182" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0719-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -6209,7 +6210,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0720.seg183" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0720.seg183" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0720-000010">
 05	05	05	NUM		t1	nmod	gelir	NOUN	Case=Nom Number=Plur	t3
 Diğer	Diğer	diğer	DET		t2	amod	gelir	NOUN	Case=Nom Number=Plur	t3
@@ -6217,7 +6218,7 @@ Gelirler	Gelirler	gelir	NOUN	Case=Nom Number=Plur	t3	nsubj	15000	NUM		t4
 15.000	15.000	15000	NUM		t4	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0721.seg184" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0721.seg184" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0721-000010">
 Kabul	Kabul	kabul	NOUN	Case=Nom Number=Sing	t1	nmod	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2
 edenler	edenler	et	VERB	Case=Nom Number=Plur Tense=Pres VerbForm=Part	t2	root	-	-	-	-
@@ -6236,13 +6237,13 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t3	punct	kabul	NOUN	Case=Nom Number=Sing	t1
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0722.seg185" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0722.seg185" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0722-000010">
 TOPLAM	TOPLAM	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	4833000	NUM		t2
 4.833.000	4.833.000	4833000	NUM		t2	root	-	-	-	-
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0723.seg186" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0723.seg186" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0723-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -6263,7 +6264,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	kabul	NOUN	Case=Nom Number=Sing	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0724.seg187" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0724.seg187" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0724-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	amod	insan	NOUN	Case=Nom Number=Sing	t2
@@ -6283,7 +6284,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t13	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t12
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0725.seg188" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0725.seg188" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0725-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	hak	NOUN	Case=Acc Number=Plur	t3
@@ -6316,7 +6317,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t23	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t22
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0726.seg189" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0726.seg189" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0726-000010">
 2	2	2	NUM		t1	obl	kesin	ADJ		t11
 <g/>
@@ -6335,7 +6336,7 @@ Hesabı	Hesabı	hesap	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0727.seg190" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0727.seg190" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0727-000010">
 (	(	(	PUNCT		t1	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 <g/>
@@ -6350,7 +6351,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0729.seg191" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0729.seg191" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0729-000010">
 <name type="ORG">
 Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Number=Sing	t2
@@ -6359,7 +6360,7 @@ Toplam	Toplam	toplam	NOUN	Case=Nom Number=Sing	t1	nmod	ödenek	NOUN	Case=Nom Num
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0730.seg192" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0730.seg192" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0730-000010">
 <name type="ORG">
 Bütçe	Bütçe	bütçe	NOUN	Case=Nom Number=Sing	t1	nmod	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t2
@@ -6368,7 +6369,7 @@ Gideri	Gideri	gider	NOUN	Case=Nom Number=Sing Number[psor]=Sing Person[psor]=3	t
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0731.seg193" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0731.seg193" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0731-000010">
 <name type="PER">
 İptal	İptal	iptal	NOUN	Case=Nom Number=Sing	t1	acl	ödenek	NOUN	Case=Nom Number=Sing	t3
@@ -6378,7 +6379,7 @@ Edilen	Edilen	et	VERB	Tense=Pres VerbForm=Part Voice=Pass	t2	compound:lvc	iptal	
 </name>
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0732.seg194" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0732.seg194" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0732-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -6399,7 +6400,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	kabul	NOUN	Case=Nom Number=Sing	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0733.seg195" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0733.seg195" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0733-000010">
 Kesin	Kesin	kesin	ADJ		t1	amod	hesap	NOUN	Case=Nom Number=Sing	t2
 hesap	hesap	hesap	NOUN	Case=Nom Number=Sing	t2	nmod	cetvel	NOUN	Case=Acc Number=Sing Number[psor]=Sing Person[psor]=3	t6
@@ -6414,7 +6415,7 @@ okutuyorum	okutuyorum	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Perso
 :	:	:	PUNCT		t8	punct	oku	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres Voice=Cau	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0735.seg196" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0735.seg196" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0735-000010">
 <name type="ORG">
 Net	Net	net	NOUN	Case=Nom Number=Sing	t1	nmod	tahsilat	NOUN	Case=Nom Number=Sing	t2
@@ -6423,7 +6424,7 @@ Tahsilat	Tahsilat	tahsilat	NOUN	Case=Nom Number=Sing	t2	root	-	-	-	-
 765.900,73	765.900,73	765900,73	NUM		t3	nummod	tahsilat	NOUN	Case=Nom Number=Sing	t2
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0736.seg197" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0736.seg197" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0736-000010">
 (	(	(	PUNCT		t1	punct	kabul	NOUN	Case=Nom Number=Sing	t5
 <g/>
@@ -6444,7 +6445,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t12	punct	kabul	NOUN	Case=Nom Number=Sing	t10
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0737.seg198" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0737.seg198" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0737-000010">
 <name type="ORG">
 Türkiye	Türkiye	Türkiye	PROPN	Case=Nom Number=Sing	t1	nmod	hak	NOUN	Case=Acc Number=Plur	t3
@@ -6465,7 +6466,7 @@ edilmiştir	edilmiştir	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Per
 .	.	.	PUNCT		t14	punct	et	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t13
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0738.seg199" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0738.seg199" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0738-000010">
 <name type="PER">
 Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2
@@ -6496,7 +6497,7 @@ dilemekteyim	dilemekteyim	dile	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing 
 .	.	.	PUNCT		t4	punct	dile	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0739.seg200" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0739.seg200" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0739-000010">
 <name type="PER">
 Sayın	Sayın	sayın	ADJ		t1	amod	milletvekili	NOUN	Case=Nom Number=Plur Number[psor]=Plur Person[psor]=3	t2
@@ -6512,7 +6513,7 @@ tamamlanmıştır	tamamlanmıştır	tamamla	VERB	Aspect=Perf Evident=Nfh Mood=Ge
 .	.	.	PUNCT		t8	punct	tamamla	VERB	Aspect=Perf Evident=Nfh Mood=Gen Number=Sing Person=3 Tense=Past Voice=Pass	t7
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0740.seg201" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0740.seg201" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0740-000010">
 Programa	Programa	program	NOUN	Case=Dat Number=Sing	t1	acl	kuruluş	NOUN	Case=Gen Number=Plur	t3
 göre	göre	göre	ADP		t2	case	program	NOUN	Case=Dat Number=Sing	t1
@@ -6548,7 +6549,7 @@ kapatıyorum	kapatıyorum	kapat	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing
 .	.	.	PUNCT		t6	punct	kapat	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t5
 </s>
 </p>
-<p id="tbmm-2014-12-11sit05spe0650par0741.seg202" lang="Turkish">
+<p id="tbmm-2014-12-11sit05spe0650par0741.seg202" lang="Türkçe">
 <s id="tbmm-2014-12-11sit05spe0650par0741-000010">
 İyi	İyi	iyi	ADJ		t1	amod	gece	NOUN	Case=Nom Number=Plur	t2
 geceler	geceler	gece	NOUN	Case=Nom Number=Plur	t2	nmod	dile	VERB	Aspect=Prog Evident=Fh Mood=Ind Number=Sing Person=1 Tense=Pres	t3
