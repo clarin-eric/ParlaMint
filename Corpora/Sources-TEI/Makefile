@@ -9,7 +9,7 @@ test-f:
 	-xsl:../../Scripts/parlamint-factorize-teiHeader.xsl Orig/ParlaMint-GR.TEI/BKP/ParlaMint-GR.xml
 
 ###### Preparing the received corpora
-CORPUS = HU
+CORPUS = PT
 one:
 	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies 'Orig/ParlaMint-${CORPUS}.TEI*'
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers 'Orig/ParlaMint-${CORPUS}.TEI*' '.'

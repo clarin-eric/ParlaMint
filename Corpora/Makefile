@@ -11,7 +11,7 @@
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = HU  #RUN THIS ONE NEXT!!
+CORPORA = LV
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -45,18 +45,22 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 
 ###### Tests
 test-vert3:
-	$s meta=${HERE}/Master/ParlaMint-BG.TEI.ana/ParlaMint-BG.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
-	${HERE}/Master/ParlaMint-BG.TEI.ana/2022/ParlaMint-BG_2022-05-04.ana.xml > test.vert
+	$s meta=${HERE}/Master/ParlaMint-SI.TEI.ana/ParlaMint-SI.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
+	${HERE}/Master/ParlaMint-SI.TEI.ana/2000/ParlaMint-SI_2000-10-27-SDZ3-Redna-01.ana.xml > test.vert
 test-vert2:
 	${FINALIZE} -vert -codes ES-PV -in ${HERE}/Master -out ${HERE}/Master
-test-meta3:
-	$s meta=../Corpora/Master/ParlaMint-BE.TEI/ParlaMint-BE.xml -xsl:../Scripts/parlamint2meta.xsl \
-	../Corpora/Master/ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-19-54-plenair-ip001x.xml > test.tsv
-test-meta2:
-	${FINALIZE} -txt -codes BE -in ${HERE}/Master -out ${HERE}/Master
 test-vert1:
 	${FINALIZE} -vert -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -vert -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll3:
+	${FINALIZE} -conll -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll2:
+	${FINALIZE} -conll -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
+test-conll1:
+	${FINALIZE} -conll -codes SI -in ${HERE}/Master -out ${HERE}/Master
+test-meta2:
+	$s meta=../Corpora/Master/ParlaMint-BE.TEI/ParlaMint-BE.xml -xsl:../Scripts/parlamint2meta.xsl \
+	../Corpora/Master/ParlaMint-BE.TEI/2014/ParlaMint-BE_2014-06-19-54-plenair-ip001x.xml > test.tsv
 test-meta1:
 	${FINALIZE} -txt -codes GR -in ${HERE}/Temp -out ${HERE}/Temp
 	${FINALIZE} -txt -codes GR-en -in ${HERE}/Temp -out ${HERE}/Temp
@@ -106,7 +110,8 @@ merge-taxos:
 # Instead of TEI-derived CoNLL-U files we release original MTed CoNLL-U
 # because they also contain word alignments 
 # Script also adds -en suffix to filesnames + readme.
-mt-cp-conllu:
+# We will not do this, as u ids are missing from Conllu!
+xx-mt-cp-conllu:
 	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
 
 # Make txt and tsv files with tsvs
