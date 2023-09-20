@@ -300,41 +300,29 @@
   <!-- Format the name of a person from persName -->
   <xsl:function name="et:format-name">
     <xsl:param name="persName"/>
-    <xsl:variable name="surnames">
-      <xsl:for-each select="$persName/tei:surname">
-        <xsl:value-of select="."/>
-        <xsl:if test="following-sibling::tei:surname">
-          <xsl:text>&#32;</xsl:text>
-        </xsl:if>
-      </xsl:for-each>
-    </xsl:variable>
-    <xsl:variable name="forenames">
-      <xsl:for-each select="$persName/tei:forename">
-        <xsl:value-of select="."/>
-        <xsl:if test="following-sibling::tei:forename">
-          <xsl:text>&#32;</xsl:text>
-        </xsl:if>
-      </xsl:for-each>
-    </xsl:variable>
     <xsl:choose>
-      <xsl:when test="normalize-space($surnames) and normalize-space($forenames)">
-        <xsl:value-of select="concat($surnames, ', ', $forenames)"/>
-      </xsl:when>
-      <xsl:when test="normalize-space($surnames)">
-        <xsl:value-of select="normalize-space($surnames)"/>
-      </xsl:when>
-      <xsl:when test="normalize-space($forenames)">
-        <xsl:value-of select="normalize-space($surnames)"/>
+      <xsl:when test="$persName/tei:forename[normalize-space(.)] or $persName/tei:surname[normalize-space(.)]">
+	<xsl:value-of select="normalize-space(
+                              string-join(
+                              (
+                              string-join($persName/tei:surname[not(@type='patronym')]/normalize-space(.),' '),
+                              concat(
+                              string-join($persName/tei:forename/normalize-space(.),' '),
+                              ' ',
+                              string-join($persName/tei:surname[@type='patronym']/normalize-space(.),' ')
+                              )
+                              )[normalize-space(.)],
+                              ', ' ))"/>
       </xsl:when>
       <xsl:when test="$persName/tei:term">
-        <xsl:value-of select="concat('@', $persName/tei:term, '@')"/>
+	<xsl:value-of select="concat('@', $persName/tei:term, '@')"/>
       </xsl:when>
       <xsl:when test="normalize-space($persName)">
-        <xsl:value-of select="$persName"/>
+	<xsl:value-of select="$persName"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:message select="concat('ERROR: empty persName for ', $persName/@xml:id)"/>
-        <xsl:text>-</xsl:text>
+	<xsl:message select="concat('ERROR: empty persName for ', $persName/@xml:id)"/>
+	<xsl:text>-</xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:function>
