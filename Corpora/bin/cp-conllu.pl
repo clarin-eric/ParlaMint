@@ -73,12 +73,13 @@ sub cp {
 sub cut {
     my $sent = shift;
     my $out;
+    $sent =~ s/ +\n/\n/g; # We don't want space at EOL, esp. for # text
     ($src) = $sent =~ /# source = (.+)/;
     ($trg) = $sent =~ /# text = (.+)/;
     #$src = &fix_usas($src);
     #$trg = &fix_usas($trg);
     $trg_str = substr($trg, 0, length($src) * $cut_ratio);
-    $trg_str =~ s/(.+) .+/$1/;
+    $trg_str =~ s/(.+) .*/$1/;
     if ($trg_str !~ / /) {$out = $sent}
     elsif (length($trg) < $min_length) {$out = $sent}
     elsif (length($trg) < length($src) * $cut_ratio) {$out = $sent}
