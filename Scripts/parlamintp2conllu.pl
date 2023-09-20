@@ -76,9 +76,9 @@ foreach $inFile (glob($corpusFiles)) {
     if ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?\.ana\.xml|) {$rootAnaFile = $inFile}
     elsif ($inFile =~ m|ParlaMint-[A-Z]{2}(?:-[A-Z0-9]{1,3})?(?:-[a-z]{2,3})?_.+\.ana\.xml|) {push(@compAnaFiles, $inFile)}
 }
-my ($country, $translation_lang) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
+my ($country, $MT) = $rootAnaFile =~ /ParlaMint-([A-Z]{2}(?:-[A-Z0-9]{1,3})?)(?:-([a-z]{2,3}))?\.ana\.xml/
     or die "Can't find country code in root file $rootAnaFile!\n";
-if (defined $translation_lang) {$langs = $translation_lang}
+if (defined $MT) {$langs = $MT}
 else {$langs = $country2lang{$country}}
 die "ERROR: Language is not defined for $country" unless defined $langs;
 
@@ -94,11 +94,26 @@ close TMP;
 `rm -f $outDir/*-meta.tsv`;
 `rm -f $outDir/*.conllu`;
 
-$command = "$Saxon meta=$rootAnaFile -xsl:$scriptMeta {} > $outDir/{/.}-meta.tsv";
-`cat $fileFile | $Para '$command'`;
+#For MTed corpora output only en metadata, for native, both xx and en
+if ($MT) {@outLangs = ('en')} else {@outLangs = ('xx', 'en')}
+# For orig corpora make ParlaMint-XX-meta.tsv in corpus language and ParlaMint-XX-meta-en.tsv in English
+# For MTed corpora we produce ParlaMint-XX-en-meta.tsv in English
+foreach my $outLang (@outLangs) {
+    my $outSuffix;
+    if    ($MT and $outLang eq 'xx') {}
+    elsif ($MT and $outLang eq 'en') {$outSuffix = "-meta.tsv"}
+    elsif ($outLang eq 'xx') {$outSuffix = "-meta.tsv"}
+    elsif ($outLang eq 'en') {$outSuffix = "-meta-en.tsv"}
+    if ($outSuffix) {
+	$command = "$Saxon meta=$rootAnaFile" .
+	    " out-lang=$outLang" .
+	    " -xsl:$scriptMeta {} > $outDir/{/.}$outSuffix";
+	`cat $fileFile | $Para '$command'`;
+    }
+}
 `rename 's/\.ana//' $outDir/*-meta.tsv`;
 
-# First produce common CoNLL-U, even if we have more languages in a corpus
+# Produce common CoNLL-U, even if we have more languages in a corpus
 if ($langs !~ /,/) {$checkLang = $langs}
 else {($checkLang) = $langs =~ /(.+?),/}
 $command = "$Saxon meta=$rootAnaFile -xsl:$scriptConvert {} > $outDir/{/.}.conllu";
@@ -107,7 +122,7 @@ $command = "$Saxon meta=$rootAnaFile -xsl:$scriptConvert {} > $outDir/{/.}.conll
 $command = "python3 $scriptValid --lang $checkLang --level 1 {}";
 `ls $outDir/*.conllu | $Para '$command'`;
 $command = "python3 $scriptValid --lang $checkLang --level 2 {}"
-    unless defined $translation_lang; #MTed corpora do not have syntactic parses
+    unless defined $MT; #MTed corpora do not have syntactic parses
 `ls $outDir/*.conllu | $Para '$command'`;
 
 # Now produce CoNLL-Us for separate langauges, if we have them
