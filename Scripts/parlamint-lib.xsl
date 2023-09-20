@@ -606,9 +606,6 @@
 	<xsl:value-of select="et:l10n($corpus-language, 
 			      key('idr', $orientation/tei:state[@type = 'encoder']/@ana, $rootHeader)/tei:catDesc)/tei:term"/>
       </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>-</xsl:text>
-      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
   
