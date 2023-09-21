@@ -1,3 +1,13 @@
+test-mw:
+	$s tsv=../Corpora/Orientations/Orientation-UA.Wiki.tsv -xsl:../../Scripts/wiki-tsv2tei.xsl \
+	ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml > ParlaMint-UA-listOrg.tmp.xml
+test-me:
+	$s tsv=../Corpora/Orientations/Orientation-UA.enco.tsv -xsl:../../Scripts/enco-tsv2tei.xsl \
+	ParlaMint-UA.TEI/ParlaMint-UA-listOrg.xml > ParlaMint-UA-listOrg.tmp.xml
+test-f:
+	$s outDir=Test prefix='ParlaMint-GR-' teiRoot=Orig/ParlaMint-GR.TEI/ParlaMint-GR.xml \
+	-xsl:../../Scripts/parlamint-factorize-teiHeader.xsl Orig/ParlaMint-GR.TEI/BKP/ParlaMint-GR.xml
+
 ###### Preparing the received corpora
 CORPUS = HU
 one:
@@ -12,7 +22,6 @@ xprep:	factorize metadata
 ### Add metadata
 metadata:
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers "Orig/ParlaMint-*.TEI*" "."
-
 ### Factorisation of source corpora in Orig
 factorize:
 	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies Orig

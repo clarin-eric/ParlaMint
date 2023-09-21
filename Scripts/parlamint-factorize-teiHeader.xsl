@@ -15,7 +15,7 @@
   <xsl:output method="xml" indent="yes" encoding="UTF-8" />
   <xsl:preserve-space elements="catDesc seg"/>
 
-  <xsl:import href="parlamint-lib.xsl"/>
+  <!--xsl:import href="parlamint-lib.xsl"/-->
 
   <xsl:param name="taxonomies">NER UD-SYN parla.legislature speaker_types subcorpus politicalOrientation CHES</xsl:param>
   

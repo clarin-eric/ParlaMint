@@ -6,7 +6,7 @@
 <note type="narrative" content="Веде засідання Голова Верховної Ради України СТЕФАНЧУК Р.О."/>
 <note type="time" content="12:03:50"/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2022-12-01-m0.u1" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="" sitting="2022-12-01" agenda="" date="2022-12-01" title="Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 8, sitting day 2022-12-01, n0 [ParlaMint.ana SAMPLE]" speaker_role="головуючий" speaker_id="РусланОлексійовичСтефанчук.1975" speaker_name="Олексійович Стефанчук, Руслан" speaker_mp="MP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-UA_2022-12-01-m0.u1" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="РусланОлексійовичСтефанчук.1975" speaker_name="Олексійович Стефанчук, Руслан" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-UA_2022-12-01-m0.u1.p1" lang="Українська">
 <s id="ParlaMint-UA_2022-12-01-m0.u1.p1.s1">
 Слава	Слава	слава	NOUN	Animacy=Inan Case=Nom Gender=Fem Number=Sing	w1	root	-	-	-	-
@@ -2252,7 +2252,7 @@
 <note type="narrative" content="Веде засідання Перший заступник Голови Верховної Ради України"/>
 <note type="narrative" content="КОРНІЄНКО О.С."/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2022-12-01-m0.u2" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="" sitting="2022-12-01" agenda="" date="2022-12-01" title="Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 8, sitting day 2022-12-01, n0 [ParlaMint.ana SAMPLE]" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="1984">
+<speech id="ParlaMint-UA_2022-12-01-m0.u2" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1984">
 <p id="ParlaMint-UA_2022-12-01-m0.u2.p1" lang="Українська">
 <s id="ParlaMint-UA_2022-12-01-m0.u2.p1.s1">
 Шановні	Шановні	шановний	ADJ	Case=Nom Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
@@ -2284,7 +2284,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-UA_2022-12-01-m0.u185" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="" sitting="2022-12-01" agenda="" date="2022-12-01" title="Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 8, sitting day 2022-12-01, n0 [ParlaMint.ana SAMPLE]" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="1984">
+<speech id="ParlaMint-UA_2022-12-01-m0.u185" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1984">
 <p id="ParlaMint-UA_2022-12-01-m0.u185.p1" lang="Українська">
 <s id="ParlaMint-UA_2022-12-01-m0.u185.p1.s1">
 До	До	до	ADP	Case=Gen	w1	case	оголошення	NOUN	Animacy=Inan Case=Gen Gender=Neut Number=Sing	w2
@@ -2997,7 +2997,7 @@
 <note type="time" content="17:13:20"/>
 <note type="narrative" content="Веде засідання Голова Верховної Ради України СТЕФАНЧУК Р.О."/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2022-12-01-m0.u186" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="" sitting="2022-12-01" agenda="" date="2022-12-01" title="Ukrainian parliamentary corpus ParlaMint-UA, term 9, session 8, sitting day 2022-12-01, n0 [ParlaMint.ana SAMPLE]" speaker_role="головуючий" speaker_id="РусланОлексійовичСтефанчук.1975" speaker_name="Олексійович Стефанчук, Руслан" speaker_mp="MP" speaker_minister="notMinister" speaker_party="" speaker_party_name="" party_status="" party_orientation="" speaker_gender="M" speaker_birth="1975">
+<speech id="ParlaMint-UA_2022-12-01-m0.u186" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="РусланОлексійовичСтефанчук.1975" speaker_name="Олексійович Стефанчук, Руслан" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1975">
 <p id="ParlaMint-UA_2022-12-01-m0.u186.p1" lang="Українська">
 <s id="ParlaMint-UA_2022-12-01-m0.u186.p1.s1">
 Дякую	Дякую	дякувати	VERB	Aspect=Imp Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	w1	root	-	-	-	-

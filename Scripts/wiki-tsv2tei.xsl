@@ -61,11 +61,12 @@
   <!-- Parse TSV into a listOrg/org/state structures with pm_id as orgName -->
   <xsl:variable name="data">
     <listOrg>
-      <xsl:variable name="tsv" select="unparsed-text($tsv, 'UTF-8')"/>
+      <xsl:variable name="tsv" select="replace(unparsed-text($tsv, 'UTF-8'), '&#x0D;', '')"/>
       <xsl:variable name="table" select="et:tsv2table($tsv)"/>
       <xsl:for-each select="$table/tei:row">
 	<xsl:variable name="country" select="tei:cell[@type='country']"/>
-	<xsl:variable name="pm_id" select="tei:cell[@type='pm_id']"/>
+	<!-- UA now has hash mark in front of party name = party ID -->
+	<xsl:variable name="pm_id" select="replace(tei:cell[@type='pm_id'], '^#', '')"/>
 	<xsl:variable name="lr" select="tei:cell[@type='lr']"/>
 	<xsl:variable name="url" select="tei:cell[@type='url']"/>
 	<xsl:variable name="comment" select="tei:cell[@type='comment']"/>
@@ -111,6 +112,9 @@
   </xsl:variable>
   
   <xsl:template match="/">
+    <xsl:if test="not(unparsed-text-available($tsv))">
+      <xsl:message select="concat('FATAL ERROR: TSV file ', $tsv, ' not found')"/>
+    </xsl:if>
     <xsl:text>&#10;</xsl:text>
     <xsl:apply-templates/>
   </xsl:template>
@@ -176,7 +180,7 @@
 	<xsl:copy-of select="$state"/>
       </state>
     </xsl:if>
-    <!-- Remove prior Wikipedia <state> elements -->
+    <!-- Remove prior political orientation elements -->
     <xsl:copy-of select="tei:state[not(@type = 'politicalOrientation')]"/>
   </xsl:template>
   
@@ -196,9 +200,10 @@
     <xsl:variable name="labels" select="tokenize($tsv, '&#10;')[1]"/>
     <table>
       <xsl:for-each select="tokenize($tsv, '&#10;')">
-	<xsl:if test="matches(., '\t') and not(matches(., '^COUNTRY', 'i'))">
+	<xsl:if test="matches(., '\t') and not(matches(., '^country', 'i'))">
 	  <xsl:variable name="row" select="et:row2table($labels, .)"/>
-	  <xsl:if test="$row/self::tei:cell[@type = 'pm_id'] != '0'">
+	  <xsl:if test="$row/self::tei:cell[@type = 'pm_id'] != '0' and 
+			$row/self::tei:cell[@type = 'pm_id'] != '-'">
 	    <row>
 	      <xsl:copy-of select="$row"/>
 	    </row>
@@ -217,11 +222,12 @@
       <xsl:if test="normalize-space($head-row) and $head-row != '-' and $head-row != '0' ">
 	<cell>
 	  <xsl:attribute name="type" select="$head-label"/>
-	  <xsl:value-of select="$head-row"/>
+	  <xsl:value-of select="normalize-space($head-row)"/>
 	</cell>
       </xsl:if>
       <xsl:if test="contains($labels, '&#9;')">
-	<xsl:copy-of select="et:row2table(substring-after($labels, '&#9;'), substring-after($row, '&#9;'))"/>
+	<xsl:copy-of select="et:row2table(substring-after($labels, '&#9;'), 
+			     substring-after($row, '&#9;'))"/>
       </xsl:if>
     </xsl:if>
   </xsl:function>

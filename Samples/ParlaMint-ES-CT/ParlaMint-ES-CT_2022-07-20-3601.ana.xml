@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
-     ana="#parla.sitting #covid #war"
+     ana="#parla.sitting #covid"
      xml:lang="ca"
      xml:id="ParlaMint-ES-CT_2022-07-20-3601.ana">
    <teiHeader>
@@ -33,13 +33,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
-            <measure unit="speeches" quantity="268" xml:lang="ca">268 intervencions</measure>
-            <measure unit="speeches" quantity="268" xml:lang="en">268 speeches</measure>
-            <measure unit="words" quantity="81421" xml:lang="ca">81,421 paraules</measure>
-            <measure unit="words" quantity="81421" xml:lang="en">81,421 words</measure>
+            <measure unit="speeches" quantity="269" xml:lang="ca">269 intervencions</measure>
+            <measure unit="speeches" quantity="269" xml:lang="en">269 speeches</measure>
+            <measure unit="words" quantity="78563" xml:lang="ca">78563 paraules</measure>
+            <measure unit="words" quantity="78563" xml:lang="en">78563 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -47,46 +47,41 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-06-10">2023-06-10</date>
+            <date when="2023-09-20">2023-09-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
                <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
-               <idno type="URI" subtype="parliament">https://www.parlament.cat/</idno>
+               <idno type="URI">https://www.parlament.cat/</idno>
                <date when="2022-07-20">2022-07-20</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="desc" occurs="29"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="incident" occurs="1"/>
-               <tagUsage gi="kinesic" occurs="13"/>
-               <tagUsage gi="link" occurs="97476"/>
-               <tagUsage gi="linkGrp" occurs="3145"/>
-               <tagUsage gi="name" occurs="2568"/>
-               <tagUsage gi="note" occurs="379"/>
-               <tagUsage gi="pc" occurs="12125"/>
-               <tagUsage gi="s" occurs="3145"/>
-               <tagUsage gi="seg" occurs="1184"/>
                <tagUsage gi="text" occurs="1"/>
-               <tagUsage gi="u" occurs="268"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="2"/>
+               <tagUsage gi="note" occurs="113"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="269"/>
+               <tagUsage gi="seg" occurs="1184"/>
+               <tagUsage gi="kinesic" occurs="13"/>
                <tagUsage gi="vocal" occurs="15"/>
-               <tagUsage gi="w" occurs="85351"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -101,44 +96,44 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-10">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-09-20">
+            <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
-   <text ana="#covid #war">
+   <text ana="#covid">
       <body>
          <div type="debateSection">
-            <head>Sessió 36.1</head>
-            <note type="narrative">La sessió s’obre les nou del matí i dos minuts. Presideix la presidenta del Parlament, acompanyada de tots els membres de la Mesa, la qual és assistida pel lletrat major en funcions de secretari general, la lletrada Mercè Arderiu i Usart i el lletrat Antoni Bayona Rocamora.</note>
+            <head>Sessió 36, primera reunió, dimecres 20 de juliol de 2022</head>
+            <note type="narrative">La sessió s'obre les nou del matí i dos minuts. Presideix la presidenta del Parlament, acompanyada de tots els membres de la Mesa, la qual és assistida pel lletrat major en funcions de secretari general, la lletrada Mercè Arderiu i Usart i el lletrat Antoni Bayona Rocamora.</note>
             <note type="narrative">Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident i conseller de Polítiques Digitals i Territori, la consellera de la Presidència, el conseller d'Empresa i Treball, el conseller d'Economia i Hisenda, la consellera d'Igualtat i Feminismes, la consellera d'Acció Exterior i Govern Obert, el conseller d'Educació, la consellera de Recerca i Universitats, el conseller de Salut, el conseller d'Interior, la consellera de Drets Socials, la consellera de Cultura i la consellera de Justícia.</note>
             <note type="narrative">ORDRE DEL DIA DE LA CONVOCATÒRIA</note>
-            <note type="narrative">1. Homenatge en memòria de l’exdiputat Antoni Dalmau i Ribalta (tram. 401-00021/13). Junta de Portaveus. Substanciació.</note>
+            <note type="narrative">1. Homenatge en memòria de l'exdiputat Antoni Dalmau i Ribalta (tram. 401-00021/13). Junta de Portaveus. Substanciació.</note>
             <note type="narrative">2. Preguntes amb resposta oral.</note>
-            <note type="narrative">3. Decret llei 10/2022, del 5 de juliol, de modificació del Decret llei 4/2018, del 17 de juliol, pel qual s’assumeix la gestió directa del servei d’abastament d’aigua a poblacions per mitjà de les instal·lacions de la xarxa d’abastament Ter-Llobregat de titularitat de la Generalitat i es crea l’Ens d’Abastament d’Aigua Ter-Llobregat (tram. 203-00027/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei.</note>
+            <note type="narrative">3. Decret llei 10/2022, del 5 de juliol, de modificació del Decret llei 4/2018, del 17 de juliol, pel qual s'assumeix la gestió directa del servei d'abastament d'aigua a poblacions per mitjà de les instal·lacions de la xarxa d'abastament Ter-Llobregat de titularitat de la Generalitat i es crea l'Ens d'Abastament d'Aigua Ter-Llobregat (tram. 203-00027/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei.</note>
             <note type="narrative">4. Decret llei 9/2022, del 5 de juliol, de mesures urgents en matèria de lloguer de vehicles amb conductor (tram. 203-00026/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei.</note>
-            <note type="narrative">5. Decret llei 8/2022, del 12 de juliol, pel qual s’autoritza el Govern a prestar un aval a Circuits de Catalunya, SL, i un contraaval davant l’entitat financera garant, relatiu al contracte de promoció de cursa amb Formula One World Championship Limited (FOWC), per garantir el pagament dels drets contractuals per a l’organització del Gran Premi Fórmula 1 dels anys 2023 al 2026 (tram. 203-00028/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei.</note>
-            <note type="narrative">6. Proposició de llei de modificació de l’article 47 de la Llei 5/2008, del 24 d’abril, del dret de les dones a erradicar la violència masclista, relativa a les indemnitzacions i els ajuts per a dones víctimes de violència masclista i llurs filles i fills (tram. 202-00027/13). Grup Parlamentari Socialistes i Units per Avançar. Debat de totalitat (text presentat: BOPC 178, 19)</note>
-            <note type="narrative">7. Designació dels diputats que han de defensar davant el Congrés dels Diputats la proposició de llei de garantia del servei de caixer automàtic en els municipis en risc d’exclusió financera i de garantia en l’accés als serveis bancaris (tram. 271-00001/13). Ple del Parlament. Designació dels diputats.</note>
+            <note type="narrative">5. Decret llei 8/2022, del 12 de juliol, pel qual s'autoritza el Govern a prestar un aval a Circuits de Catalunya, SL, i un contraaval davant l'entitat financera garant, relatiu al contracte de promoció de cursa amb Formula One World Championship Limited (FOWC), per garantir el pagament dels drets contractuals per a l'organització del Gran Premi Fórmula 1 dels anys 2023 al 2026 (tram. 203-00028/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei.</note>
+            <note type="narrative">6. Proposició de llei de modificació de l'article 47 de la Llei 5/2008, del 24 d'abril, del dret de les dones a erradicar la violència masclista, relativa a les indemnitzacions i els ajuts per a dones víctimes de violència masclista i llurs filles i fills (tram. 202-00027/13). Grup Parlamentari Socialistes i Units per Avançar. Debat de totalitat (text presentat: BOPC 178, 19)</note>
+            <note type="narrative">7. Designació dels diputats que han de defensar davant el Congrés dels Diputats la proposició de llei de garantia del servei de caixer automàtic en els municipis en risc d'exclusió financera i de garantia en l'accés als serveis bancaris (tram. 271-00001/13). Ple del Parlament. Designació dels diputats.</note>
             <note type="narrative">8. Interpel·lació al Govern sobre la despesa en ajuts i subvencions i en publicitat institucional als mitjans de comunicació (tram. 300-00212/13). Grup Parlamentari de VOX en Cataluña. Substanciació.</note>
             <note type="narrative">9. Interpel·lació al Govern sobre la situació econòmica (tram. 300-00214/13). Grup Parlamentari Socialistes i Units per Avançar. Substanciació.</note>
-            <note type="narrative">10. Interpel·lació al Govern sobre la situació econòmica provocada per la crisi (tram. 300-00215/13). Grup Parlamentari d’En Comú Podem. Substanciació.</note>
-            <note type="narrative">11. Interpel·lació al Govern sobre la paràlisi del primer curs polític de la catorzena legislatura (tram. 300-00210/13). Grup Parlamentari de la Candidatura d’Unitat Popular - Un Nou Cicle per Guanyar. Substanciació.</note>
-            <note type="narrative">12. Interpel·lació al Govern sobre l’ús de les llengües a l’escola (tram. 300-00208/13). Grup Parlamentari de Ciutadans. Substanciació.</note>
-            <note type="narrative">13. Interpel·lació al Govern sobre l’impuls de la política lingüística (tram. 300-00211/13). Grup Parlamentari d’Esquerra Republicana. Substanciació.</note>
-            <note type="narrative">14. Interpel·lació al Govern sobre les agressions a funcionaris de presons per part d’interns (tram. 300-00213/13). Grup Parlamentari Socialistes i Units per Avançar. Substanciació.</note>
-            <note type="narrative">15. Interpel·lació al Govern sobre l’aprovació del nou contracte programa de serveis socials (tram. 300-00209/13). Grup Parlamentari de Junts per Catalunya. Substanciació.</note>
+            <note type="narrative">10. Interpel·lació al Govern sobre la situació econòmica provocada per la crisi (tram. 300-00215/13). Grup Parlamentari d'En Comú Podem. Substanciació.</note>
+            <note type="narrative">11. Interpel·lació al Govern sobre la paràlisi del primer curs polític de la catorzena legislatura (tram. 300-00210/13). Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar. Substanciació.</note>
+            <note type="narrative">12. Interpel·lació al Govern sobre l'ús de les llengües a l'escola (tram. 300-00208/13). Grup Parlamentari de Ciutadans. Substanciació.</note>
+            <note type="narrative">13. Interpel·lació al Govern sobre l'impuls de la política lingüística (tram. 300-00211/13). Grup Parlamentari d'Esquerra Republicana. Substanciació.</note>
+            <note type="narrative">14. Interpel·lació al Govern sobre les agressions a funcionaris de presons per part d'interns (tram. 300-00213/13). Grup Parlamentari Socialistes i Units per Avançar. Substanciació.</note>
+            <note type="narrative">15. Interpel·lació al Govern sobre l'aprovació del nou contracte programa de serveis socials (tram. 300-00209/13). Grup Parlamentari de Junts per Catalunya. Substanciació.</note>
             <note type="narrative">16. Moció subsegüent a la interpel·lació al Govern sobre les polítiques digitals (tram. 302-00177/13). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació.</note>
-            <note type="narrative">17. Moció subsegüent a la interpel·lació al Govern sobre l’estratègia de futur per a la vegueria de l’Alt Pirineu i Aran (tram. 302-00179/13). Grup Parlamentari d’En Comú Podem. Debat i votació.</note>
-            <note type="narrative">18. Moció subsegüent a la interpel·lació al Govern sobre els col·lapses de l’autopista AP-7 (tram. 302-00180/13). Grup Parlamentari de Ciutadans. Debat i votació.</note>
-            <note type="narrative">19. Moció subsegüent a la interpel·lació al Govern sobre la creació d’un fons de transició nuclear just amb els territoris propers a Ascó i a Vandellòs (tram. 302-00178/13). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació.</note>
-            <note type="narrative">20. Moció subsegüent a la interpel·lació al Govern sobre la protecció del medi litoral (tram. 302-00184/13). Grup Parlamentari de la Candidatura d’Unitat Popular - Un Nou Cicle per Guanyar. Debat i votació.</note>
-            <note type="narrative">21. Moció subsegüent a la interpel·lació al Govern sobre la situació política internacional i el dret a l’autodeterminació (tram. 302-00181/13). Grup Parlamentari de Junts per Catalunya. Debat i votació.</note>
-            <note type="narrative">22. Moció subsegüent a la interpel·lació al Govern sobre l’impacte de la repressió en l’independentisme i en els estàndards democràtics de l’Estat espanyol (tram. 302-00182/13). Grup Parlamentari d’Esquerra Republicana. Debat i votació.</note>
-            <note type="narrative">23. Moció subsegüent a la interpel·lació al Govern sobre les polítiques per a frenar l’ocupació il·legal d’habitatges (tram. 302-00183/13). Grup Parlamentari de VOX en Cataluña. Debat i votació.</note>
+            <note type="narrative">17. Moció subsegüent a la interpel·lació al Govern sobre l'estratègia de futur per a la vegueria de l'Alt Pirineu i Aran (tram. 302-00179/13). Grup Parlamentari d'En Comú Podem. Debat i votació.</note>
+            <note type="narrative">18. Moció subsegüent a la interpel·lació al Govern sobre els col·lapses de l'autopista AP-7 (tram. 302-00180/13). Grup Parlamentari de Ciutadans. Debat i votació.</note>
+            <note type="narrative">19. Moció subsegüent a la interpel·lació al Govern sobre la creació d'un fons de transició nuclear just amb els territoris propers a Ascó i a Vandellòs (tram. 302-00178/13). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació.</note>
+            <note type="narrative">20. Moció subsegüent a la interpel·lació al Govern sobre la protecció del medi litoral (tram. 302-00184/13). Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar. Debat i votació.</note>
+            <note type="narrative">21. Moció subsegüent a la interpel·lació al Govern sobre la situació política internacional i el dret a l'autodeterminació (tram. 302-00181/13). Grup Parlamentari de Junts per Catalunya. Debat i votació.</note>
+            <note type="narrative">22. Moció subsegüent a la interpel·lació al Govern sobre l'impacte de la repressió en l'independentisme i en els estàndards democràtics de l'Estat espanyol (tram. 302-00182/13). Grup Parlamentari d'Esquerra Republicana. Debat i votació.</note>
+            <note type="narrative">23. Moció subsegüent a la interpel·lació al Govern sobre les polítiques per a frenar l'ocupació il·legal d'habitatges (tram. 302-00183/13). Grup Parlamentari de VOX en Cataluña. Debat i votació.</note>
             <note type="speaker">La presidenta</note>
             <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0"
                who="#BorràsLaura"
-               ana="#regular"
+               ana="#chair"
                xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0" xml:lang="ca">
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0.1" xml:lang="ca">
@@ -316,7 +311,8 @@
                         lemma="i">I</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.2"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.3"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acord">acord</w>
@@ -325,14 +321,17 @@
                         lemma="amb">amb</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.5"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.6"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="article">article</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.7"
                         msd="UPosTag=NUM"
                         lemma="164">164</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.10">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.8"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.10">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.8"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -377,11 +376,14 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.22"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.23"
                         msd="UPosTag=NOUN|Number=Sing"
                         lemma="ordre">ordre</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.26">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.24"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.26">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.24"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -395,7 +397,8 @@
                         lemma="dia">dia</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.28"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2.29"
                         msd="UPosTag=DET|PronType=Dem|Gender=Fem|Number=Sing"
                         lemma="aquest">aquesta</w>
@@ -570,11 +573,14 @@
                         lemma="amb">amb</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.26"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.27"
                         msd="UPosTag=NOUN|Number=Sing"
                         lemma="ordre">ordre</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.30">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.28"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.30">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.28"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -592,7 +598,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.33"
                         msd="UPosTag=ADP|AdpType=Prep"
                         lemma="de">de</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.36">comunicar-los<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.34"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.36">
+                        comunicar-los
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1.34"
                            msd="UPosTag=VERB|Mood=Inf"
                            norm="comunicar"
                            lemma="comunicar"/>
@@ -702,7 +710,8 @@
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1" xml:lang="ca">
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.1"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">D'</w>
+                        lemma="de"
+                        join="right">D'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.2"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acord">acord</w>
@@ -718,7 +727,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.6"
                         msd="UPosTag=ADJ|Number=Plur"
                         lemma="oficial">oficials</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.9">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.7"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.9">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.7"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -733,7 +744,8 @@
                            lemma="departament">Departament</w>
                         <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.11"
                            msd="UPosTag=PROPN"
-                           lemma="d'">d'</w>
+                           lemma="d'"
+                           join="right">d'</w>
                         <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1.12"
                            msd="UPosTag=PROPN"
                            lemma="interior">Interior</w>
@@ -904,7 +916,8 @@
                         lemma="compromís">compromís</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2.18"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2.19"
                         msd="UPosTag=DET|PronType=Dem|Gender=Masc|Number=Sing"
                         lemma="aquest">aquest</w>
@@ -918,7 +931,8 @@
                         lemma="en">en</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2.22"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2.23"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="erradicació">erradicació</w>
@@ -963,7 +977,8 @@
                         lemma="tot">tot</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2.37"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2.38"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="esforç">esforç</w>
@@ -1086,7 +1101,8 @@
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1" xml:lang="ca">
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.1"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">D'</w>
+                        lemma="de"
+                        join="right">D'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.2"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acord">acord</w>
@@ -1105,7 +1121,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.7"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="dol">dol</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.10">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.8"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.10">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.8"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -1212,7 +1230,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.41"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="sessió">sessió</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.44">al<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.42"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.44">
+                        al
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.42"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="a"
                            lemma="a"/>
@@ -1226,7 +1246,9 @@
                            msd="UPosTag=PROPN"
                            lemma="ple">Ple</w>
                      </name>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.48">al<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.46"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.48">
+                        al
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.46"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="a"
                            lemma="a"/>
@@ -1253,7 +1275,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.54"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="façana">façana</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.57">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.55"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.57">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1.55"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -1390,12 +1414,13 @@
                      </linkGrp>
                   </s>
                </seg>
-               <note>Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d’acollida de migrants</note>
+               <note>Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants</note>
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5" xml:lang="ca">
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1" xml:lang="ca">
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.1"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">D'</w>
+                        lemma="de"
+                        join="right">D'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.2"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acord">acord</w>
@@ -1428,7 +1453,9 @@
                         join="right">111/XII</w>
                      <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.11"
                          msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.14">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.12"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.14">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.12"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -1485,7 +1512,8 @@
                         lemma="política">polítiques</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.29"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.30"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="acollida">acollida</w>
@@ -1527,7 +1555,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.43"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.44"
                            msd="UPosTag=PROPN"
@@ -1550,7 +1579,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.50"
                         msd="UPosTag=ADP|AdpType=Prep"
                         lemma="des">des</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.53">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.51"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.53">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.51"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -1564,7 +1595,8 @@
                         lemma="començament">començament</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.55"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1.56"
                         msd="UPosTag=DET|PronType=Dem|Gender=Masc|Number=Sing"
                         lemma="aquest">aquest</w>
@@ -1773,7 +1805,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.2"
                         msd="UPosTag=ADV"
                         lemma="també">també</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.5">al<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.3"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.5">
+                        al
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.3"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="a"
                            lemma="a"/>
@@ -1785,7 +1819,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.6"
                         msd="UPosTag=ADJ|Gender=Masc|Number=Sing"
                         lemma="llarg">llarg</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.9">dels<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.7"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.9">
+                        dels
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.7"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -1847,11 +1883,14 @@
                         lemma="miler">milers</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.27"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.28"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="hectàrea">hectàrees</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.31">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.29"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.31">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1.29"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -1981,7 +2020,8 @@
                         lemma="paraula">paraules</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.2.13"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.2.14"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acompanyament"
@@ -2282,7 +2322,8 @@
                         lemma="aprofitar">aprofitar</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.6"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.7"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="ocasió">ocasió</w>
@@ -2303,7 +2344,8 @@
                         lemma="agraïment">agraïment</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.13"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.14"
                         msd="UPosTag=DET|PronType=Dem|Gender=Masc|Number=Sing"
                         lemma="aquest">aquest</w>
@@ -2340,8 +2382,9 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
                         lemma="incendi"
                         join="right">incendis</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.25"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.25"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.26"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
                         lemma="bomber"
@@ -2393,7 +2436,8 @@
                         lemma="servei">serveis</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.42"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5.43"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="emergència">emergències</w>
@@ -2571,7 +2615,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.2"
                         msd="UPosTag=ADP|AdpType=Prep"
                         lemma="per">per</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.5">ser-hi<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.3"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.5">
+                        ser-hi
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.3"
                            msd="UPosTag=AUX|Mood=Inf"
                            norm="ser"
                            lemma="ser"/>
@@ -2584,8 +2630,9 @@
                         msd="UPosTag=ADV"
                         lemma="sempre"
                         join="right">sempre</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.7"
-                         msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.7"
+                        msd="UPosTag=PUNCT|PunctType=Semi"
+                        lemma=";">;</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.6.8"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="gràcia">gràcies</w>
@@ -2683,7 +2730,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.6"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="professionalitat">professionalitat</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.9">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.7"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.9">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.7"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -2700,7 +2749,8 @@
                         lemma="sistema">sistema</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.12"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2.13"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="emergència">emergències</w>
@@ -2863,7 +2913,8 @@
                         lemma="risc">risc</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.4.5"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.4.6"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="incendi"
@@ -2893,7 +2944,8 @@
                         lemma="ja">Ja</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.5.2"
                         msd="UPosTag=PRON|PronType=Prs|Person=3"
-                        lemma="en">n'</w>
+                        lemma="en"
+                        join="right">n'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.5.3"
                         msd="UPosTag=AUX|Mood=Ind|Tense=Pres|Person=1|Number=Plur"
                         lemma="haver">hem</w>
@@ -3001,7 +3053,8 @@
                         lemma="forma">forma</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.5.38"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.5.39"
                         msd="UPosTag=VERB|Mood=Inf"
                         lemma="apagar">apagar</w>
@@ -3144,7 +3197,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.5"
                         msd="UPosTag=ADV"
                         lemma="ja">ja</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.8">al<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.6"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.8">
+                        al
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.6"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="a"
                            lemma="a"/>
@@ -3164,11 +3219,14 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.12"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.13"
                         msd="UPosTag=NOUN|Number=Sing"
                         lemma="ordre">ordre</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.16">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.14"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.16">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.14"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -3181,8 +3239,9 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="dia"
                         join="right">dia</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.18"
-                         msd="UPosTag=PUNCT|PunctType=Comm">...</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.18"
+                        msd="UPosTag=PUNCT|PunctType=Comm"
+                        lemma="...">...</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.19"
                         msd="UPosTag=ADV"
                         lemma="sí"
@@ -3221,8 +3280,9 @@
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="paraula"
                         join="right">paraula</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.31"
-                         msd="UPosTag=PUNCT|PunctType=Qest|PunctSide=Fin">?</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.31"
+                        msd="UPosTag=PUNCT|PunctType=Qest|PunctSide=Fin"
+                        lemma="?">?</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1 #ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1.1"/>
@@ -3400,8 +3460,9 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="lògicament"
                         join="right">lògicament</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0.2.24"
-                         msd="UPosTag=PUNCT|PunctType=Comm">...</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0.2.24"
+                        msd="UPosTag=PUNCT|PunctType=Comm"
+                        lemma="...">...</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:mark"
                               target="#ParlaMint-ES-CT_2022-07-20-3601.2.0.0.2.2 #ParlaMint-ES-CT_2022-07-20-3601.2.0.0.2.1"/>
@@ -3524,8 +3585,9 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="objectiu"
                         join="right">objectiu</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0.2.12"
-                         msd="UPosTag=PUNCT">–</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0.2.12"
+                        msd="UPosTag=PUNCT"
+                        lemma="–">–</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0.2.13"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no">no</w>
@@ -3585,7 +3647,7 @@
                   </s>
                </seg>
                <vocal type="laughter">
-                  <desc>Remor de veus i rialles.</desc>
+                  <desc>(Remor de veus i rialles.)</desc>
                </vocal>
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1" xml:lang="ca">
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1" xml:lang="ca">
@@ -3672,7 +3734,8 @@
                         lemma="perquè">perquè</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1.28"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1.29"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="escola">escola</w>
@@ -3729,7 +3792,8 @@
                         lemma="disposar">disposar</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1.47"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1.48"
                         msd="UPosTag=DET|PronType=Ind|Gender=Fem|Number=Sing"
                         lemma="un">una</w>
@@ -4174,8 +4238,9 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Imp|Person=3|Number=Sing"
                         lemma="dir"
                         join="right">deia</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.7"
                         msd="UPosTag=PRON|PronType=Int"
                         lemma="què">què</w>
@@ -4183,8 +4248,9 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=1|Number=Plur"
                         lemma="voler"
                         join="right">volem</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Qest|PunctSide=Fin">?</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.9"
+                        msd="UPosTag=PUNCT|PunctType=Qest|PunctSide=Fin"
+                        lemma="?">?</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:advcl"
                               target="#ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.5 #ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1.1"/>
@@ -4251,7 +4317,8 @@
                         lemma="conseller">conseller</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.15"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <name type="ORG">
                         <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.16"
                            msd="UPosTag=PROPN"
@@ -4270,8 +4337,9 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="govern"
                         join="right">govern</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.21"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.21"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.22"
                         msd="UPosTag=DET|PronType=Art|Gender=Masc|Number=Sing"
                         lemma="el">el</w>
@@ -4292,7 +4360,8 @@
                         lemma="model">model</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.28"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.29"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="escola">escola</w>
@@ -4309,11 +4378,14 @@
                         msd="UPosTag=VERB|Mood=Ger"
                         lemma="garantir"
                         join="right">garantint</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.34"
-                         msd="UPosTag=PUNCT|PunctType=Comm">...</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.34"
+                        msd="UPosTag=PUNCT|PunctType=Comm"
+                        lemma="...">...</w>
                      <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.35"
                          msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.38">refermar-lo<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.36"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.38">
+                        refermar-lo
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.36"
                            msd="UPosTag=VERB|Mood=Inf"
                            norm="refermar"
                            lemma="refermar"/>
@@ -4344,7 +4416,8 @@
                         lemma="garantir">garanteix</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.46"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.47"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="equitat"
@@ -4359,7 +4432,8 @@
                         lemma="igualtat">igualtat</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.51"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.52"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="oportunitat">oportunitats</w>
@@ -4397,8 +4471,9 @@
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="dècada"
                         join="right">dècades</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.64"
-                         msd="UPosTag=PUNCT">–</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.64"
+                        msd="UPosTag=PUNCT"
+                        lemma="–">–</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2.65"
                         msd="UPosTag=PRON|PronType=Prs|Person=3"
                         lemma="ho">ho</w>
@@ -4587,7 +4662,8 @@
                         lemma="model">model</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.3.9"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.3.10"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="escola">escola</w>
@@ -4706,7 +4782,8 @@
                         lemma="model">model</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.4"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.5"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="escola">escola</w>
@@ -4751,7 +4828,8 @@
                         lemma="acabar">acabin</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.19"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.20"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="etapa">etapa</w>
@@ -4767,7 +4845,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.24"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
                         lemma="coneixement">coneixements</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.27">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.25"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.27">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.25"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -4791,7 +4871,9 @@
                         join="right">evidentment</w>
                      <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.32"
                          msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.35">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.33"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.35">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4.33"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -5044,8 +5126,9 @@
                         msd="UPosTag=INTJ"
                         lemma="eh"
                         join="right">eh</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3.1.10"
-                         msd="UPosTag=PUNCT|PunctType=Qest|PunctSide=Fin">?</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3.1.10"
+                        msd="UPosTag=PUNCT|PunctType=Qest|PunctSide=Fin"
+                        lemma="?">?</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:case"
                               target="#ParlaMint-ES-CT_2022-07-20-3601.267.0.3.1.2 #ParlaMint-ES-CT_2022-07-20-3601.267.0.3.1.1"/>
@@ -5159,7 +5242,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3.2.30"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <name type="LOC">
                         <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3.2.31"
                            msd="UPosTag=PROPN"
@@ -5348,7 +5432,8 @@
                         lemma="a">a</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.9"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.10"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="inici"
@@ -5361,7 +5446,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.13"
                         msd="UPosTag=AUX|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="ser">és</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.16">al<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.14"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.16">
+                        al
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.14"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="a"
                            lemma="a"/>
@@ -5379,7 +5466,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.19"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="referència">referència</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.22">al<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.20"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.22">
+                        al
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.20"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="a"
                            lemma="a"/>
@@ -5401,8 +5490,9 @@
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="intervenció"
                         join="right">intervenció</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.27"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.27"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.28"
                         msd="UPosTag=ADV"
                         lemma="malauradament"
@@ -5431,8 +5521,9 @@
                         msd="UPosTag=ADV"
                         lemma="tampoc"
                         join="right">tampoc</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.37"
-                         msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.37"
+                        msd="UPosTag=PUNCT|PunctType=Semi"
+                        lemma=";">;</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1.38"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no">no</w>
@@ -5696,7 +5787,8 @@
                         lemma="intervenció">intervenció</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.8"
                         msd="UPosTag=PRON|PronType=Prs|Person=1|Number=Sing"
-                        lemma="em">m'</w>
+                        lemma="em"
+                        join="right">m'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.9"
                         msd="UPosTag=AUX|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="haver">ha</w>
@@ -5722,10 +5814,12 @@
                         msd="UPosTag=VERB|Mood=Ger"
                         lemma="dir"
                         join="right">dient</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.17"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.18"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.17"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.18"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.19"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="naturalitat"
@@ -5738,8 +5832,6 @@
                         join="right">naturalitat</w>
                      <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.22"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.23"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:advmod"
                               target="#ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.10 #ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.1"/>
@@ -5785,13 +5877,11 @@
                               target="#ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.19 #ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.21"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.10 #ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.22"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1 #ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1.23"/>
                      </linkGrp>
                   </s>
                </seg>
                <vocal type="murmuring">
-                  <desc>Remor de veus.</desc>
+                  <desc>(Remor de veus.)</desc>
                </vocal>
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6" xml:lang="ca">
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.1" xml:lang="ca">
@@ -5875,13 +5965,15 @@
                         lemma="estar">estic</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.3.4"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.3.5"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acord"
                         join="right">acord</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.3.6"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.3.6"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.3.7"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="naturalitat"
@@ -5925,8 +6017,9 @@
                         msd="UPosTag=VERB|Mood=Sub|Tense=Pres|Person=3|Number=Sing"
                         lemma="voler"
                         join="right">vulgui</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.6"
-                         msd="UPosTag=PUNCT">–</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.6"
+                        msd="UPosTag=PUNCT"
+                        lemma="–">–</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.7"
                         msd="UPosTag=VERB|Mood=Imp|Person=3|Number=Sing"
                         lemma="expressar">expressi</w>
@@ -5940,9 +6033,10 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.10"
                         msd="UPosTag=VERB|Mood=Sub|Tense=Pres|Person=3|Number=Sing"
                         lemma="voler">vulgui</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.11"
-                         msd="UPosTag=PUNCT"
-                         join="right">–</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.11"
+                        msd="UPosTag=PUNCT"
+                        lemma="–"
+                        join="right">–</w>
                      <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.12"
                          msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.13"
@@ -5951,19 +6045,22 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.14"
                         msd="UPosTag=VERB|Mood=Ind|Person=3|Number=Sing"
                         lemma="faltar">faltaria</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.15"
-                         msd="UPosTag=PUNCT">–</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.15"
+                        msd="UPosTag=PUNCT"
+                        lemma="–">–</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.16"
                         msd="UPosTag=ADV"
                         lemma="només">només</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.17"
                         msd="UPosTag=VERB|Mood=Ind|Person=3|Number=Sing"
                         lemma="faltar">faltaria</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.18"
-                         msd="UPosTag=PUNCT"
-                         join="right">–</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.19"
-                         msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.18"
+                        msd="UPosTag=PUNCT"
+                        lemma="–"
+                        join="right">–</w>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.19"
+                        msd="UPosTag=PUNCT|PunctType=Semi"
+                        lemma=";">;</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.20"
                         msd="UPosTag=CCONJ"
                         lemma="però"
@@ -6008,7 +6105,8 @@
                         lemma="no">no</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.34"
                         msd="UPosTag=PRON"
-                        lemma="es">s'</w>
+                        lemma="es"
+                        join="right">s'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4.35"
                         msd="UPosTag=VERB|Mood=Sub|Tense=Pres|Person=3|Number=Plur"
                         lemma="inventar"
@@ -6214,8 +6312,9 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="repte"
                         join="right">repte</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.1.11"
-                         msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.1.11"
+                        msd="UPosTag=PUNCT|PunctType=Semi"
+                        lemma=";">;</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.1.12"
                         msd="UPosTag=DET|PronType=Art|Gender=Masc|Number=Sing"
                         lemma="el">el</w>
@@ -6356,8 +6455,9 @@
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="por"
                         join="right">por</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.2.12"
-                         msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.2.12"
+                        msd="UPosTag=PUNCT|PunctType=Semi"
+                        lemma=";">;</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.2.13"
                         msd="UPosTag=AUX|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="ser">és</w>
@@ -6539,7 +6639,8 @@
                         lemma="tothom">tothom</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.3.23"
                         msd="UPosTag=PRON|PronType=Prs|Person=1|Number=Sing"
-                        lemma="em">m'</w>
+                        lemma="em"
+                        join="right">m'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.3.24"
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="entendre"
@@ -6677,8 +6778,9 @@
                         msd="UPosTag=ADV"
                         lemma="ara"
                         join="right">ara</w>
-                     <pc xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.13"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.13"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.14"
                         msd="UPosTag=SCONJ"
                         lemma="que"
@@ -6699,7 +6801,8 @@
                         lemma="que">que</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.20"
                         msd="UPosTag=PRON"
-                        lemma="es">s'</w>
+                        lemma="es"
+                        join="right">s'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.21"
                         msd="UPosTag=VERB|Mood=Sub|Tense=Pres|Person=3|Number=Sing"
                         lemma="expressar">expressi</w>
@@ -6727,7 +6830,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.29"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="govern">govern</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.32">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.30"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.32">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.30"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -6781,7 +6886,9 @@
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.47"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="escola">escoles</w>
-                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.50">del<w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.48"
+                     <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.50">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.48"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -6822,7 +6929,8 @@
                         lemma="acabar">acaba</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.61"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4.62"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="etapa">etapa</w>
@@ -7055,7 +7163,7 @@
             <note type="speaker">La presidenta</note>
             <u xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0"
                who="#BorràsLaura"
-               ana="#regular"
+               ana="#chair"
                xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0" xml:lang="ca">
                   <s xml:id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0.1" xml:lang="ca">

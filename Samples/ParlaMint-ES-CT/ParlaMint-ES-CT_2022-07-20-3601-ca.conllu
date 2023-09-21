@@ -44,12 +44,12 @@
 24	.	.	PUNCT	_	PunctType=Peri	12	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2
-# text = I d' acord amb l' article 164 del Reglament , se substanciaran aquest matí com a segon punt de l' ordre del dia d' aquesta sessió plenària que ara comencem.
+# text = I d'acord amb l'article 164 del Reglament , se substanciaran aquest matí com a segon punt de l'ordre del dia d'aquesta sessió plenària que ara comencem.
 1	I	i	CCONJ	_	_	13	advmod	_	NER=O
-2	d'	de	ADP	_	AdpType=Prep	6	case	_	NER=O
+2	d'	de	ADP	_	AdpType=Prep	6	case	_	NER=O|SpaceAfter=No
 3	acord	acord	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	NER=O
 4	amb	amb	ADP	_	AdpType=Prep	2	fixed	_	NER=O
-5	l'	el	DET	_	Number=Sing|PronType=Art	6	det	_	NER=O
+5	l'	el	DET	_	Number=Sing|PronType=Art	6	det	_	NER=O|SpaceAfter=No
 6	article	article	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	NER=O
 7	164	164	NUM	_	_	6	appos	_	NER=O
 8-9	del	_	_	_	_	_	_	_	NER=O
@@ -66,13 +66,13 @@
 18	segon	segon	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	NER=O
 19	punt	punt	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	NER=O
 20	de	de	ADP	_	AdpType=Prep	22	case	_	NER=O
-21	l'	el	DET	_	Number=Sing|PronType=Art	22	det	_	NER=O
+21	l'	el	DET	_	Number=Sing|PronType=Art	22	det	_	NER=O|SpaceAfter=No
 22	ordre	ordre	NOUN	_	Number=Sing	19	nmod	_	NER=O
 23-24	del	_	_	_	_	_	_	_	NER=O
 23	de	de	ADP	_	AdpType=Prep	25	case	_	_
 24	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	dia	dia	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	NER=O
-26	d'	de	ADP	_	AdpType=Prep	28	case	_	NER=O
+26	d'	de	ADP	_	AdpType=Prep	28	case	_	NER=O|SpaceAfter=No
 27	aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	28	det	_	NER=O
 28	sessió	sessió	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	NER=O
 29	plenària	plenari	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	NER=O
@@ -84,7 +84,7 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.1.0.2
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1
-# text = Els faig avinent que dos diputats han delegat el seu vot per a aquesta sessió i que, malauradament, també abans de començar amb l' ordre del dia he de comunicar-los un nou feminicidi.
+# text = Els faig avinent que dos diputats han delegat el seu vot per a aquesta sessió i que, malauradament, també abans de començar amb l'ordre del dia he de comunicar-los un nou feminicidi.
 1	Els	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	2	det	_	NER=O
 2	faig	faig	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	NER=O
 3	avinent	avinent	ADJ	_	Number=Sing	0	root	_	NER=O
@@ -110,7 +110,7 @@
 23	de	de	ADP	_	AdpType=Prep	24	mark	_	NER=O
 24	començar	començar	VERB	_	Mood=Inf	22	advcl	_	NER=O
 25	amb	amb	ADP	_	AdpType=Prep	27	case	_	NER=O
-26	l'	el	DET	_	Number=Sing|PronType=Art	27	det	_	NER=O
+26	l'	el	DET	_	Number=Sing|PronType=Art	27	det	_	NER=O|SpaceAfter=No
 27	ordre	ordre	NOUN	_	Number=Sing	24	obl	_	NER=O
 28-29	del	_	_	_	_	_	_	_	NER=O
 28	de	de	ADP	_	AdpType=Prep	30	case	_	_
@@ -129,8 +129,8 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.1.0.3
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1
-# text = D' acord amb les dades oficials del Departament d' Interior , el passat 16 de juliol va morir assassinada a Maçanet de la Selva la Margarita .
-1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O
+# text = D'acord amb les dades oficials del Departament d'Interior , el passat 16 de juliol va morir assassinada a Maçanet de la Selva la Margarita .
+1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O|SpaceAfter=No
 2	acord	acord	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O
 3	amb	amb	ADP	_	AdpType=Prep	1	fixed	_	NER=O
 4	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	5	det	_	NER=O
@@ -140,7 +140,7 @@
 7	de	de	ADP	_	AdpType=Prep	9	case	_	_
 8	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Departament	departament	PROPN	_	_	5	nmod	_	NER=B-ORG
-10	d'	d'	PROPN	_	_	11	case	_	NER=I-ORG
+10	d'	d'	PROPN	_	_	11	case	_	NER=I-ORG|SpaceAfter=No
 11	Interior	interior	PROPN	_	_	9	flat	_	NER=I-ORG
 12	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	NER=O
@@ -161,7 +161,7 @@
 28	.	.	PUNCT	_	PunctType=Peri	19	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.3.2
-# text = I, en nom de la cambra, lamento i condemno aquest crim i reitero el compromís d' aquest Parlament en l' erradicació de qualsevol forma de violència contra les dones, i també de tot l' esforç per vetllar per el seu record.
+# text = I, en nom de la cambra, lamento i condemno aquest crim i reitero el compromís d'aquest Parlament en l'erradicació de qualsevol forma de violència contra les dones, i també de tot l'esforç per vetllar per el seu record.
 1	I	i	CCONJ	_	_	9	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	7	punct	_	NER=O
 3	en	en	ADP	_	AdpType=Prep	7	case	_	NER=O
@@ -179,11 +179,11 @@
 15	reitero	reiterar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	9	conj	_	NER=O
 16	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	NER=O
 17	compromís	compromís	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	NER=O
-18	d'	de	ADP	_	AdpType=Prep	20	case	_	NER=O
+18	d'	de	ADP	_	AdpType=Prep	20	case	_	NER=O|SpaceAfter=No
 19	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	NER=O
 20	Parlament	parlament	PROPN	_	_	17	nmod	_	NER=B-ORG
 21	en	en	ADP	_	AdpType=Prep	23	case	_	NER=O
-22	l'	el	DET	_	Number=Sing|PronType=Art	23	det	_	NER=O
+22	l'	el	DET	_	Number=Sing|PronType=Art	23	det	_	NER=O|SpaceAfter=No
 23	erradicació	erradicació	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	NER=O
 24	de	de	ADP	_	AdpType=Prep	26	case	_	NER=O
 25	qualsevol	qualsevol	DET	_	Number=Sing|PronType=Ind	26	det	_	NER=O
@@ -198,7 +198,7 @@
 34	també	també	ADV	_	_	23	conj	_	NER=O
 35	de	de	ADP	_	AdpType=Prep	34	case	_	NER=O
 36	tot	tot	DET	_	Gender=Masc|Number=Sing|PronType=Ind	37	det	_	NER=O
-37	l'	el	DET	_	Number=Sing|PronType=Art	38	det	_	NER=O
+37	l'	el	DET	_	Number=Sing|PronType=Art	38	det	_	NER=O|SpaceAfter=No
 38	esforç	esforç	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	NER=O
 39	per	per	ADP	_	AdpType=Prep	40	mark	_	NER=O
 40	vetllar	vetllar	VERB	_	Mood=Inf	38	acl	_	NER=O
@@ -211,8 +211,8 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.1.0.4
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1
-# text = D' acord amb el protocol de dol del Parlament de Catalunya contra les violències masclistes, aprovat per el Grup de Treball en Equitat de Gènere , aquesta presidència convoca un minut de silenci en acabar avui la sessió al Ple al migdia, davant de la façana del palau.
-1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O
+# text = D'acord amb el protocol de dol del Parlament de Catalunya contra les violències masclistes, aprovat per el Grup de Treball en Equitat de Gènere , aquesta presidència convoca un minut de silenci en acabar avui la sessió al Ple al migdia, davant de la façana del palau.
+1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O|SpaceAfter=No
 2	acord	acord	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O
 3	amb	amb	ADP	_	AdpType=Prep	1	fixed	_	NER=O
 4	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=O
@@ -275,8 +275,8 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.1.0.5
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1
-# text = D' acord també amb el que estableix la Moció 111/XII, del Parlament de Catalunya sobre les operacions de rescat a la Mediterrània i les polítiques d' acollida de migrants, els informo que, segons les dades oficials de l' Organització Internacional de les Migracions , des del començament d' aquest any 2022 hi ha un total de 971 persones mortes o desaparegudes a la Mediterrània .
-1	D'	de	ADP	_	AdpType=Prep	3	case	_	NER=O
+# text = D'acord també amb el que estableix la Moció 111/XII, del Parlament de Catalunya sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants, els informo que, segons les dades oficials de l'Organització Internacional de les Migracions , des del començament d'aquest any 2022 hi ha un total de 971 persones mortes o desaparegudes a la Mediterrània .
+1	D'	de	ADP	_	AdpType=Prep	3	case	_	NER=O|SpaceAfter=No
 2	acord	acord	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O
 3	també	també	ADV	_	_	34	advmod	_	NER=O
 4	amb	amb	ADP	_	AdpType=Prep	7	mark	_	NER=O
@@ -304,7 +304,7 @@
 25	i	i	CCONJ	_	_	27	cc	_	NER=O
 26	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	27	det	_	NER=O
 27	polítiques	política	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	NER=O
-28	d'	de	ADP	_	AdpType=Prep	29	case	_	NER=O
+28	d'	de	ADP	_	AdpType=Prep	29	case	_	NER=O|SpaceAfter=No
 29	acollida	acollida	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	NER=O
 30	de	de	ADP	_	AdpType=Prep	31	case	_	NER=O
 31	migrants	migrants	NOUN	_	Number=Plur	29	nmod	_	NER=O|SpaceAfter=No
@@ -318,7 +318,7 @@
 39	dades	dada	NOUN	_	Gender=Fem|Number=Plur	58	obl	_	NER=O
 40	oficials	oficial	ADJ	_	Number=Plur	39	amod	_	NER=O
 41	de	de	ADP	_	AdpType=Prep	43	case	_	NER=O
-42	l'	el	DET	_	Number=Sing|PronType=Art	43	det	_	NER=O
+42	l'	el	DET	_	Number=Sing|PronType=Art	43	det	_	NER=O|SpaceAfter=No
 43	Organització	organització	PROPN	_	_	39	nmod	_	NER=B-ORG
 44	Internacional	internacional	PROPN	_	_	43	flat	_	NER=I-ORG
 45	de	de	PROPN	_	_	47	case	_	NER=I-ORG
@@ -330,7 +330,7 @@
 50	de	de	ADP	_	AdpType=Prep	49	fixed	_	_
 51	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	començament	començament	NOUN	_	Gender=Masc|Number=Sing	58	obl	_	NER=O
-53	d'	de	ADP	_	AdpType=Prep	55	case	_	NER=O
+53	d'	de	ADP	_	AdpType=Prep	55	case	_	NER=O|SpaceAfter=No
 54	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	55	det	_	NER=O
 55	any	any	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	NER=O
 56	2022	2022	NUM	_	_	55	compound	_	NER=O
@@ -352,7 +352,7 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.1.0.6
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1
-# text = I també al llarg dels darrers dies hem vist de nou com la virulència de les flames ha arrasat centenars, milers d' hectàrees del nostre país.
+# text = I també al llarg dels darrers dies hem vist de nou com la virulència de les flames ha arrasat centenars, milers d'hectàrees del nostre país.
 1	I	i	CCONJ	_	_	11	advmod	_	NER=O
 2	també	també	ADV	_	_	11	advmod	_	NER=O
 3-4	al	_	_	_	_	_	_	_	NER=O
@@ -379,7 +379,7 @@
 22	centenars	centenar	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	NER=O|SpaceAfter=No
 23	,	,	PUNCT	_	PunctType=Comm	24	punct	_	NER=O
 24	milers	miler	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	NER=O
-25	d'	de	ADP	_	AdpType=Prep	26	case	_	NER=O
+25	d'	de	ADP	_	AdpType=Prep	26	case	_	NER=O|SpaceAfter=No
 26	hectàrees	hectàrea	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	NER=O
 27-28	del	_	_	_	_	_	_	_	NER=O
 27	de	de	ADP	_	AdpType=Prep	30	case	_	_
@@ -389,7 +389,7 @@
 31	.	.	PUNCT	_	PunctType=Peri	11	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.6.2
-# text = Per això voldria, també, començar aquest Ple adreçant unes paraules d' acompanyament, de suport a tots els veïns de les zones afectades per els incendis aquests dies i aquestes setmanes.
+# text = Per això voldria, també, començar aquest Ple adreçant unes paraules d'acompanyament, de suport a tots els veïns de les zones afectades per els incendis aquests dies i aquestes setmanes.
 1	Per	per	ADP	_	AdpType=Prep	2	case	_	NER=O
 2	això	això	PRON	_	Number=Sing|PronType=Dem	3	obl	_	NER=O
 3	voldria	voler	VERB	_	Mood=Ind|Number=Sing|Person=1	0	root	_	NER=O|SpaceAfter=No
@@ -402,7 +402,7 @@
 10	adreçant	adreçar	VERB	_	Mood=Ger	7	xcomp	_	NER=O
 11	unes	un	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	NER=O
 12	paraules	paraula	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	NER=O
-13	d'	de	ADP	_	AdpType=Prep	14	case	_	NER=O
+13	d'	de	ADP	_	AdpType=Prep	14	case	_	NER=O|SpaceAfter=No
 14	acompanyament	acompanyament	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	NER=O|SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
 16	de	de	ADP	_	AdpType=Prep	17	case	_	NER=O
@@ -460,20 +460,20 @@
 19	.	.	PUNCT	_	PunctType=Peri	4	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.6.5
-# text = Així mateix, vull aprofitar l' ocasió per mostrar el profund agraïment d' aquest Parlament envers totes les persones que lluiten contra els incendis: bombers, protecció civil, agents rurals, ADFs , mossos, policies locals, serveis d' emergències mèdiques, Creu Roja , alcaldes, regidors, pagesos, voluntaris, tothom.
+# text = Així mateix, vull aprofitar l'ocasió per mostrar el profund agraïment d'aquest Parlament envers totes les persones que lluiten contra els incendis: bombers, protecció civil, agents rurals, ADFs , mossos, policies locals, serveis d'emergències mèdiques, Creu Roja , alcaldes, regidors, pagesos, voluntaris, tothom.
 1	Així	així	ADV	_	_	4	advmod	_	NER=O
 2	mateix	mateix	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
 4	vull	voler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O
 5	aprofitar	aprofitar	VERB	_	Mood=Inf	4	xcomp	_	NER=O
-6	l'	el	DET	_	Number=Sing|PronType=Art	7	det	_	NER=O
+6	l'	el	DET	_	Number=Sing|PronType=Art	7	det	_	NER=O|SpaceAfter=No
 7	ocasió	ocasió	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	NER=O
 8	per	per	ADP	_	AdpType=Prep	9	mark	_	NER=O
 9	mostrar	mostrar	VERB	_	Mood=Inf	5	advcl	_	NER=O
 10	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	NER=O
 11	profund	profund	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	NER=O
 12	agraïment	agraïment	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	NER=O
-13	d'	de	ADP	_	AdpType=Prep	15	case	_	NER=O
+13	d'	de	ADP	_	AdpType=Prep	15	case	_	NER=O|SpaceAfter=No
 14	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	NER=O
 15	Parlament	parlament	PROPN	_	_	12	nmod	_	NER=B-ORG
 16	envers	envers	ADP	_	AdpType=Prep	19	case	_	NER=O
@@ -502,7 +502,7 @@
 39	locals	local	ADJ	_	Number=Plur	38	amod	_	NER=O|SpaceAfter=No
 40	,	,	PUNCT	_	PunctType=Comm	41	punct	_	NER=O
 41	serveis	servei	NOUN	_	Gender=Masc|Number=Plur	26	appos	_	NER=O
-42	d'	de	ADP	_	AdpType=Prep	43	case	_	NER=O
+42	d'	de	ADP	_	AdpType=Prep	43	case	_	NER=O|SpaceAfter=No
 43	emergències	emergència	NOUN	_	Gender=Fem|Number=Plur	41	nmod	_	NER=O
 44	mèdiques	mèdic	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	NER=O|SpaceAfter=No
 45	,	,	PUNCT	_	PunctType=Comm	46	punct	_	NER=O
@@ -547,7 +547,7 @@
 6	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.7.2
-# text = Però la dedicació i la professionalitat del nostre sistema d' emergències contra els incendis no ens pot fer abaixar la guàrdia.
+# text = Però la dedicació i la professionalitat del nostre sistema d'emergències contra els incendis no ens pot fer abaixar la guàrdia.
 1	Però	però	CCONJ	_	_	19	advmod	_	NER=O
 2	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
 3	dedicació	dedicació	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	NER=O
@@ -559,7 +559,7 @@
 8	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	nostre	nostre	ADJ	_	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes	10	det	_	NER=O
 10	sistema	sistema	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	NER=O
-11	d'	de	ADP	_	AdpType=Prep	12	case	_	NER=O
+11	d'	de	ADP	_	AdpType=Prep	12	case	_	NER=O|SpaceAfter=No
 12	emergències	emergència	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	NER=O
 13	contra	contra	ADP	_	AdpType=Prep	15	case	_	NER=O
 14	els	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	15	det	_	NER=O
@@ -588,19 +588,19 @@
 11	.	.	PUNCT	_	PunctType=Peri	10	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.7.4
-# text = Situació extrema de risc d' incendi.
+# text = Situació extrema de risc d'incendi.
 1	Situació	situació	NOUN	_	Gender=Fem|Number=Sing	0	root	_	NER=O
 2	extrema	extrem	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	NER=O
 3	de	de	ADP	_	AdpType=Prep	4	case	_	NER=O
 4	risc	risc	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	NER=O
-5	d'	de	ADP	_	AdpType=Prep	6	case	_	NER=O
+5	d'	de	ADP	_	AdpType=Prep	6	case	_	NER=O|SpaceAfter=No
 6	incendi	incendi	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	NER=O|SpaceAfter=No
 7	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.7.5
-# text = Ja n' hem viscut molts i aquest estiu encara es preveu llarg i molt calorós, així és que, de nou, recordem que cal extremar les precaucions i tenir sempre present que la millor forma d' apagar un incendi és evitant que es produeixi.
+# text = Ja n'hem viscut molts i aquest estiu encara es preveu llarg i molt calorós, així és que, de nou, recordem que cal extremar les precaucions i tenir sempre present que la millor forma d'apagar un incendi és evitant que es produeixi.
 1	Ja	ja	ADV	_	_	4	advmod	_	NER=O
-2	n'	en	PRON	_	Person=3|PronType=Prs	4	obj	_	NER=O
+2	n'	en	PRON	_	Person=3|PronType=Prs	4	obj	_	NER=O|SpaceAfter=No
 3	hem	haver	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	4	aux	_	NER=O
 4	viscut	viure	VERB	_	Gender=Masc|Mood=Par|Number=Sing	0	root	_	NER=O
 5	molts	molt	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	obj	_	NER=O
@@ -636,7 +636,7 @@
 35	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	37	det	_	NER=O
 36	millor	millor	ADJ	_	Number=Sing	37	amod	_	NER=O
 37	forma	forma	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	NER=O
-38	d'	de	ADP	_	AdpType=Prep	39	mark	_	NER=O
+38	d'	de	ADP	_	AdpType=Prep	39	mark	_	NER=O|SpaceAfter=No
 39	apagar	apagar	VERB	_	Mood=Inf	37	acl	_	NER=O
 40	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	41	det	_	NER=O
 41	incendi	incendi	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	NER=O
@@ -650,7 +650,7 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.1.0.8
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1
-# text = Passem, doncs, ja al primer punt de l' ordre del dia... Sí, senyor Martín Blanco , per què em demana la paraula?
+# text = Passem, doncs, ja al primer punt de l'ordre del dia... Sí, senyor Martín Blanco , per què em demana la paraula?
 1	Passem	passar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
 3	doncs	doncs	ADV	_	_	1	advmod	_	NER=O|SpaceAfter=No
@@ -662,7 +662,7 @@
 8	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	9	amod	_	NER=O
 9	punt	punt	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	NER=O
 10	de	de	ADP	_	AdpType=Prep	12	case	_	NER=O
-11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O
+11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O|SpaceAfter=No
 12	ordre	ordre	NOUN	_	Number=Sing	9	nmod	_	NER=O
 13-14	del	_	_	_	_	_	_	_	NER=O
 13	de	de	ADP	_	AdpType=Prep	15	case	_	_
@@ -717,7 +717,7 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.267.0.1
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1
-# text = En tot cas, el meu objectiu és cada dia donar el millor de mi mateix per prendre les millors decisions i acompanyar els centres educatius perquè l' escola cada cop sigui de més qualitat, cada cop estigui menys segregada, cada cop puguem disposar d' una escola, de forma estructural, en millors condicions, perquè els nostres mestres i els nostres professors facin la feina que saben fer, que és educar els nostres infants.
+# text = En tot cas, el meu objectiu és cada dia donar el millor de mi mateix per prendre les millors decisions i acompanyar els centres educatius perquè l'escola cada cop sigui de més qualitat, cada cop estigui menys segregada, cada cop puguem disposar d'una escola, de forma estructural, en millors condicions, perquè els nostres mestres i els nostres professors facin la feina que saben fer, que és educar els nostres infants.
 1	En	en	ADP	_	AdpType=Prep	11	advmod	_	NER=O
 2	tot	tot	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	fixed	_	NER=O
 3	cas	cas	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O|SpaceAfter=No
@@ -745,7 +745,7 @@
 25	centres	centre	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	NER=O
 26	educatius	educatiu	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	NER=O
 27	perquè	perquè	SCONJ	_	_	35	mark	_	NER=O
-28	l'	el	DET	_	Number=Sing|PronType=Art	29	det	_	NER=O
+28	l'	el	DET	_	Number=Sing|PronType=Art	29	det	_	NER=O|SpaceAfter=No
 29	escola	escola	NOUN	_	Gender=Fem|Number=Sing	35	nsubj	_	NER=O
 30	cada	cada	DET	_	Number=Sing|PronType=Ind	31	det	_	NER=O
 31	cop	cop	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	NER=O
@@ -764,7 +764,7 @@
 44	cop	cop	NOUN	_	Gender=Masc|Number=Sing	46	obl	_	NER=O
 45	puguem	poder	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Pres	46	aux	_	NER=O
 46	disposar	disposar	VERB	_	Mood=Inf	11	advcl	_	NER=O
-47	d'	de	ADP	_	AdpType=Prep	49	case	_	NER=O
+47	d'	de	ADP	_	AdpType=Prep	49	case	_	NER=O|SpaceAfter=No
 48	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	49	det	_	NER=O
 49	escola	escola	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	NER=O|SpaceAfter=No
 50	,	,	PUNCT	_	PunctType=Comm	52	punct	_	NER=O
@@ -851,7 +851,7 @@
 9	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	5	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.2.2
-# text = Jo li responc el que volem, si més no, com a conseller d' Educació i com a govern: el que volem és un model d' escola catalana que continuï garantint... , refermar-lo , perquè és el model que garanteix l' equitat, la igualtat d' oportunitats i la cohesió social, i ho ha fet durant dècades– ho ha fet durant dècades.
+# text = Jo li responc el que volem, si més no, com a conseller d'Educació i com a govern: el que volem és un model d'escola catalana que continuï garantint... , refermar-lo , perquè és el model que garanteix l'equitat, la igualtat d'oportunitats i la cohesió social, i ho ha fet durant dècades– ho ha fet durant dècades.
 1	Jo	jo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	NER=O
 2	li	li	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	iobj	_	NER=O
 3	responc	respondre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O
@@ -866,7 +866,7 @@
 12	com	com	PRON	_	PronType=Int	14	case	_	NER=O
 13	a	a	ADP	_	AdpType=Prep	12	fixed	_	NER=O
 14	conseller	conseller	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	NER=O
-15	d'	de	ADP	_	AdpType=Prep	16	case	_	NER=O
+15	d'	de	ADP	_	AdpType=Prep	16	case	_	NER=O|SpaceAfter=No
 16	Educació	educació	PROPN	_	_	14	nmod	_	NER=B-ORG
 17	i	i	CCONJ	_	_	20	cc	_	NER=O
 18	com	com	SCONJ	_	_	20	case	_	NER=O
@@ -879,7 +879,7 @@
 25	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	cop	_	NER=O
 26	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	NER=O
 27	model	model	NOUN	_	Gender=Masc|Number=Sing	6	advcl	_	NER=O
-28	d'	de	ADP	_	AdpType=Prep	29	case	_	NER=O
+28	d'	de	ADP	_	AdpType=Prep	29	case	_	NER=O|SpaceAfter=No
 29	escola	escola	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	NER=O
 30	catalana	català	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	NER=O
 31	que	que	PRON	_	PronType=Rel	32	obj	_	NER=O
@@ -897,12 +897,12 @@
 42	model	model	NOUN	_	Gender=Masc|Number=Sing	27	advcl	_	NER=O
 43	que	que	PRON	_	PronType=Rel	44	nsubj	_	NER=O
 44	garanteix	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	42	acl	_	NER=O
-45	l'	el	DET	_	Number=Sing|PronType=Art	46	det	_	NER=O
+45	l'	el	DET	_	Number=Sing|PronType=Art	46	det	_	NER=O|SpaceAfter=No
 46	equitat	equitat	NOUN	_	Gender=Fem|Number=Sing	44	obj	_	NER=O|SpaceAfter=No
 47	,	,	PUNCT	_	PunctType=Comm	49	punct	_	NER=O
 48	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	49	det	_	NER=O
 49	igualtat	igualtat	NOUN	_	Gender=Fem|Number=Sing	46	appos	_	NER=O
-50	d'	de	ADP	_	AdpType=Prep	51	case	_	NER=O
+50	d'	de	ADP	_	AdpType=Prep	51	case	_	NER=O|SpaceAfter=No
 51	oportunitats	oportunitat	NOUN	_	Gender=Fem|Number=Plur	49	nmod	_	NER=O
 52	i	i	CCONJ	_	_	54	cc	_	NER=O
 53	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	54	det	_	NER=O
@@ -924,7 +924,7 @@
 69	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.2.3
-# text = I, per tant, volem un model d' escola catalana que no segregui per cap motiu, i tampoc, evidentment, per llengua.
+# text = I, per tant, volem un model d'escola catalana que no segregui per cap motiu, i tampoc, evidentment, per llengua.
 1	I	i	CCONJ	_	_	6	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
 3	per	per	ADP	_	AdpType=Prep	6	advmod	_	NER=O
@@ -933,7 +933,7 @@
 6	volem	voler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 7	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	NER=O
 8	model	model	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	NER=O
-9	d'	de	ADP	_	AdpType=Prep	10	case	_	NER=O
+9	d'	de	ADP	_	AdpType=Prep	10	case	_	NER=O|SpaceAfter=No
 10	escola	escola	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	NER=O
 11	catalana	català	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	NER=O
 12	que	que	SCONJ	_	_	14	nsubj	_	NER=O
@@ -953,11 +953,11 @@
 26	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.2.4
-# text = Volem un model d' escola catalana on tots els nostres infants, on tots els nostres joves acabin l' etapa obligatòria amb plens coneixements del català i, evidentment, del castellà, i de com més llengües, millor.
+# text = Volem un model d'escola catalana on tots els nostres infants, on tots els nostres joves acabin l'etapa obligatòria amb plens coneixements del català i, evidentment, del castellà, i de com més llengües, millor.
 1	Volem	voler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	NER=O
 3	model	model	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	NER=O
-4	d'	de	ADP	_	AdpType=Prep	5	case	_	NER=O
+4	d'	de	ADP	_	AdpType=Prep	5	case	_	NER=O|SpaceAfter=No
 5	escola	escola	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	NER=O
 6	catalana	català	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	NER=O
 7	on	on	PRON	_	PronType=Rel	18	obl	_	NER=O
@@ -972,7 +972,7 @@
 16	nostres	nostre	ADJ	_	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes	17	det	_	NER=O
 17	joves	jova	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	NER=O
 18	acabin	acabar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres	3	acl	_	NER=O
-19	l'	el	DET	_	Number=Sing|PronType=Art	20	det	_	NER=O
+19	l'	el	DET	_	Number=Sing|PronType=Art	20	det	_	NER=O|SpaceAfter=No
 20	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	NER=O
 21	obligatòria	obligatori	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	NER=O
 22	amb	amb	ADP	_	AdpType=Prep	24	case	_	NER=O
@@ -1036,7 +1036,7 @@
 10	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	7	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.3.2
-# text = Vostès no trobaran cap jove que tingui menys coneixements en castellà, o que no tingui coneixements en català, comparats amb qualsevol sistema educatiu de la resta de l' Estat espanyol.
+# text = Vostès no trobaran cap jove que tingui menys coneixements en castellà, o que no tingui coneixements en català, comparats amb qualsevol sistema educatiu de la resta de l'Estat espanyol.
 1	Vostès	vostè	PRON	_	Number=Plur|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	NER=O
 2	no	no	ADV	_	Polarity=Neg	3	advmod	_	NER=O
 3	trobaran	trobar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut	0	root	_	NER=O
@@ -1066,7 +1066,7 @@
 27	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	28	det	_	NER=O
 28	resta	resta	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	NER=O
 29	de	de	ADP	_	AdpType=Prep	28	case	_	NER=O
-30	l'	el	DET	_	Number=Sing|PronType=Art	28	det	_	NER=O
+30	l'	el	DET	_	Number=Sing|PronType=Art	28	det	_	NER=O|SpaceAfter=No
 31	Estat	estat	PROPN	_	_	24	nmod	_	NER=B-LOC
 32	espanyol	espanyol	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	NER=O|SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
@@ -1092,7 +1092,7 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.267.0.4
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1
-# text = Per tant, el que li deia a l' inici, i és al que feia referència al començar la meva intervenció: malauradament, no ens sorprendrem, avui, tampoc; no ens agradarem mútuament i tampoc ens sorprendrem, perquè vostès parteixen de fal·làcies, perquè vostès parteixen de mentides, perquè el sistema educatiu català no té cap problema lingüístic.
+# text = Per tant, el que li deia a l'inici, i és al que feia referència al començar la meva intervenció: malauradament, no ens sorprendrem, avui, tampoc; no ens agradarem mútuament i tampoc ens sorprendrem, perquè vostès parteixen de fal·làcies, perquè vostès parteixen de mentides, perquè el sistema educatiu català no té cap problema lingüístic.
 1	Per	per	ADP	_	AdpType=Prep	7	advmod	_	NER=O
 2	tant	tant	ADV	_	_	1	fixed	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
@@ -1101,7 +1101,7 @@
 6	li	li	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	7	obj	_	NER=O
 7	deia	dir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp	0	root	_	NER=O
 8	a	a	ADP	_	AdpType=Prep	10	case	_	NER=O
-9	l'	el	DET	_	Number=Sing|PronType=Art	10	det	_	NER=O
+9	l'	el	DET	_	Number=Sing|PronType=Art	10	det	_	NER=O|SpaceAfter=No
 10	inici	inici	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	NER=O|SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	13	punct	_	NER=O
 12	i	i	CCONJ	_	_	13	cc	_	NER=O
@@ -1166,7 +1166,7 @@
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.267.0.5
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1
-# text = De fet, durant la seva intervenció m' ha semblat que per un moment estava dient: « Naturalitat, naturalitat. »
+# text = De fet, durant la seva intervenció m'ha semblat que per un moment estava dient: « Naturalitat, naturalitat.
 1	De	de	ADP	_	AdpType=Prep	10	advmod	_	NER=O
 2	fet	fet	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
@@ -1174,7 +1174,7 @@
 5	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	NER=O
 6	seva	seu	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	7	det	_	NER=O
 7	intervenció	intervenció	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	NER=O
-8	m'	em	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obj	_	NER=O
+8	m'	em	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obj	_	NER=O|SpaceAfter=No
 9	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	NER=O
 10	semblat	semblar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	0	root	_	NER=O
 11	que	que	SCONJ	_	_	16	mark	_	NER=O
@@ -1189,7 +1189,6 @@
 20	,	,	PUNCT	_	PunctType=Comm	21	punct	_	NER=O
 21	naturalitat	naturalitat	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	NER=O|SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	10	punct	_	NER=O
-23	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	0	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2022-07-20-3601.267.0.6
 # lang = ca
@@ -1212,18 +1211,18 @@
 2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.6.3
-# text = Jo hi estic d' acord: naturalitat.
+# text = Jo hi estic d'acord: naturalitat.
 1	Jo	jo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	NER=O
 2	hi	hi	PRON	_	Person=3|PronType=Prs	0	root	_	NER=O
 3	estic	estar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	7	cop	_	NER=O
-4	d'	de	ADP	_	AdpType=Prep	7	advmod	_	NER=O
+4	d'	de	ADP	_	AdpType=Prep	7	advmod	_	NER=O|SpaceAfter=No
 5	acord	acord	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	NER=O|SpaceAfter=No
 6	:	:	PUNCT	_	PunctType=Colo	7	punct	_	NER=O
 7	naturalitat	naturalitat	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	NER=O|SpaceAfter=No
 8	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.6.4
-# text = Vostè expressi 'scom vulgui– expressi 'scom vulgui –, només faltaria – només faltaria –; però, si us plau, amb la mateixa naturalitat li dic que no s' inventin, llavors, que hi ha un conflicte lingüístic a les escoles catalanes, perquè no hi és.
+# text = Vostè expressi 'scom vulgui– expressi 'scom vulgui –, només faltaria – només faltaria –; però, si us plau, amb la mateixa naturalitat li dic que no s'inventin, llavors, que hi ha un conflicte lingüístic a les escoles catalanes, perquè no hi és.
 1	Vostè	vostè	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER=O
 2	expressi	expressar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	NER=O
 3	's	es	PRON	_	_	2	obj	_	NER=O|SpaceAfter=No
@@ -1257,7 +1256,7 @@
 31	dic	dir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	conj	_	NER=O
 32	que	que	SCONJ	_	_	35	mark	_	NER=O
 33	no	no	ADV	_	Polarity=Neg	35	advmod	_	NER=O
-34	s'	es	PRON	_	_	35	obj	_	NER=O
+34	s'	es	PRON	_	_	35	obj	_	NER=O|SpaceAfter=No
 35	inventin	inventar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres	31	ccomp	_	NER=O|SpaceAfter=No
 36	,	,	PUNCT	_	PunctType=Comm	37	punct	_	NER=O
 37	llavors	llavors	ADV	_	_	35	advmod	_	NER=O|SpaceAfter=No
@@ -1344,7 +1343,7 @@
 29	.	.	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.7.3
-# text = I, per tant, com està veient, no he assumit el seu repte, entre altres motius, perquè tothom m' entén, quan parlo en català en aquest hemicicle.
+# text = I, per tant, com està veient, no he assumit el seu repte, entre altres motius, perquè tothom m'entén, quan parlo en català en aquest hemicicle.
 1	I	i	CCONJ	_	_	12	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
 3	per	per	ADP	_	AdpType=Prep	12	advmod	_	NER=O
@@ -1367,7 +1366,7 @@
 20	,	,	PUNCT	_	PunctType=Comm	19	punct	_	NER=O
 21	perquè	perquè	SCONJ	_	_	24	mark	_	NER=O
 22	tothom	tothom	PRON	_	Number=Sing|PronType=Ind	24	nsubj	_	NER=O
-23	m'	em	PRON	_	Number=Sing|Person=1|PronType=Prs	24	obj	_	NER=O
+23	m'	em	PRON	_	Number=Sing|Person=1|PronType=Prs	24	obj	_	NER=O|SpaceAfter=No
 24	entén	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	advcl	_	NER=O|SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	27	punct	_	NER=O
 26	quan	quan	SCONJ	_	_	27	mark	_	NER=O
@@ -1380,7 +1379,7 @@
 33	.	.	PUNCT	_	PunctType=Peri	12	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2022-07-20-3601.267.0.7.4
-# text = I, entre altres motius, el que li deia fins ara: que, evidentment, cadascú que s' expressi com vulgui, però, com a govern del país, hem de garantir que el català és la llengua vehicular a les escoles del país, i, per tant, que tothom acaba l' etapa obligatòria amb coneixements de català, de castellà i de com més llengües, millor.
+# text = I, entre altres motius, el que li deia fins ara: que, evidentment, cadascú que s'expressi com vulgui, però, com a govern del país, hem de garantir que el català és la llengua vehicular a les escoles del país, i, per tant, que tothom acaba l'etapa obligatòria amb coneixements de català, de castellà i de com més llengües, millor.
 1	I	i	CCONJ	_	_	10	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
 3	entre	entre	ADP	_	AdpType=Prep	5	case	_	NER=O
@@ -1400,7 +1399,7 @@
 17	,	,	PUNCT	_	PunctType=Comm	16	punct	_	NER=O
 18	cadascú	cadascú	PRON	_	Number=Sing|PronType=Ind	36	nsubj	_	NER=O
 19	que	que	PRON	_	PronType=Rel	21	nsubj	_	NER=O
-20	s'	es	PRON	_	_	21	obj	_	NER=O
+20	s'	es	PRON	_	_	21	obj	_	NER=O|SpaceAfter=No
 21	expressi	expressar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres	18	acl	_	NER=O
 22	com	com	SCONJ	_	_	23	mark	_	NER=O
 23	vulgui	voler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres	21	advcl	_	NER=O|SpaceAfter=No
@@ -1441,7 +1440,7 @@
 56	que	que	SCONJ	_	_	58	mark	_	NER=O
 57	tothom	tothom	PRON	_	Number=Sing|PronType=Ind	58	nsubj	_	NER=O
 58	acaba	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	42	conj	_	NER=O
-59	l'	el	DET	_	Number=Sing|PronType=Art	60	det	_	NER=O
+59	l'	el	DET	_	Number=Sing|PronType=Art	60	det	_	NER=O|SpaceAfter=No
 60	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	58	obj	_	NER=O
 61	obligatòria	obligatori	ADJ	_	Gender=Fem|Number=Sing	60	amod	_	NER=O
 62	amb	amb	ADP	_	AdpType=Prep	63	case	_	NER=O

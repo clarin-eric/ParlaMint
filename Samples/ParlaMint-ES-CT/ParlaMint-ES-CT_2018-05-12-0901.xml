@@ -33,13 +33,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="72" xml:lang="ca">72 intervencions</measure>
             <measure unit="speeches" quantity="72" xml:lang="en">72 speeches</measure>
-            <measure unit="words" quantity="45041" xml:lang="ca">45,041 paraules</measure>
-            <measure unit="words" quantity="45041" xml:lang="en">45,041 words</measure>
+            <measure unit="words" quantity="43253" xml:lang="ca">43253 paraules</measure>
+            <measure unit="words" quantity="43253" xml:lang="en">43253 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -47,39 +47,41 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1486</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-06-10">2023-06-10</date>
+            <date when="2023-09-20">2023-09-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
                <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
-               <idno type="URI" subtype="parliament">https://www.parlament.cat/</idno>
+               <idno type="URI">https://www.parlament.cat/</idno>
                <date when="2018-05-12">2018-05-12</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="desc" occurs="86"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="kinesic" occurs="51"/>
-               <tagUsage gi="note" occurs="84"/>
-               <tagUsage gi="seg" occurs="687"/>
                <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="12"/>
+               <tagUsage gi="pb" occurs="0"/>
                <tagUsage gi="u" occurs="72"/>
+               <tagUsage gi="seg" occurs="687"/>
+               <tagUsage gi="kinesic" occurs="51"/>
                <tagUsage gi="vocal" occurs="35"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -94,8 +96,8 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-10">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-09-20">
+            <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -107,23 +109,23 @@
             <note type="narrative">Punt únic: Debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat (tram. 201-00005/12).</note>
             <note type="speaker">El president</note>
             <u xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0"
-               who="#MuroXavier"
-               ana="#regular"
+               who="#TorrentRoger"
+               ana="#chair"
                xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.0" xml:lang="ca">Bon dia a tothom, comença la sessió.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1" xml:lang="ca">Abans d’iniciar l’ordre del dia, però, em plau saludar en nom de la cambra els expresidents del Parlament, l’expresident de la Generalitat, exdiputats, autoritats que avui ens acompanyen.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1" xml:lang="ca">Abans d'iniciar l'ordre del dia, però, em plau saludar en nom de la cambra els expresidents del Parlament, l'expresident de la Generalitat, exdiputats, autoritats que avui ens acompanyen.</seg>
                <note>Debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat</note>
                <note>201-00005/12</note>
-               <note>Com saben, l’únic punt de l’ordre del dia d’aquesta sessió plenària és el debat del programa i votació d’investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat de Catalunya.</note>
-               <note>D’acord amb l’article 149.1 del Reglament del Parlament de Catalunya, el debat d’investidura comença amb la lectura de la resolució del president del Parlament en què es proposa el candidat a la presidència de la Generalitat. Prego en aquest cas al secretari primer que doni lectura a aquesta resolució.</note>
+               <note>Com saben, l'únic punt de l'ordre del dia d'aquesta sessió plenària és el debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat de Catalunya.</note>
+               <note>D'acord amb l'article 149.1 del Reglament del Parlament de Catalunya, el debat d'investidura comença amb la lectura de la resolució del president del Parlament en què es proposa el candidat a la presidència de la Generalitat. Prego en aquest cas al secretari primer que doni lectura a aquesta resolució.</note>
             </u>
             <note type="speaker">El secretari primer</note>
-            <u xml:id="ParlaMint-ES-CT_2018-05-12-0901.72.0"
+            <u xml:id="ParlaMint-ES-CT_2018-05-12-0901.2.0"
                who="#CampdepadrósEusebi"
                ana="#regular"
-               xml:lang="ca">
-               <note>Senyor president... «Proposta de candidat a la presidència de la Generalitat, presidència del Parlament, d’acord amb l’article 4 de la Llei 13/2008, de 5 de novembre, de la presidència de la Generalitat i del Govern. Havent consultat novament els representants dels grups i subgrups parlamentaris, proposo com a nou candidat a la presidència de la Generalitat el diputat Quim Torra i Pla, i deixo sense efecte la proposta de candidat del dia 9 d’abril de 2018.</note>
-               <note>»El molt honorable president del Parlament de Catalunya, Roger Torrent i Ramió, Palau del Parlament, a 11 de maig de 2018.»</note>
+               xml:lang="es">
+               <note>Senyor president... «Proposta de candidat a la presidència de la Generalitat, presidència del Parlament, d'acord amb l'article 4 de la Llei 13/2008, de 5 de novembre, de la presidència de la Generalitat i del Govern. Havent consultat novament els representants dels grups i subgrups parlamentaris, proposo com a nou candidat a la presidència de la Generalitat el diputat Quim Torra i Pla, i deixo sense efecte la proposta de candidat del dia 9 d'abril de 2018.</note>
+               <note>El molt honorable president del Parlament de Catalunya, Roger Torrent i Ramió, Palau del Parlament, a 11 de maig de 2018.</note>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
@@ -132,92 +134,92 @@
                who="#PérezDavid"
                ana="#regular"
                xml:lang="ca">
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0" xml:lang="ca">Esther Niubó Cidoncha: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1" xml:lang="ca">Joan Josep Nuet i Pujals: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2" xml:lang="ca">Òscar Ordeig i Molist: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3" xml:lang="ca">Mònica Palacín París: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4" xml:lang="ca">Teresa Pallarès Piqué: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5" xml:lang="ca">Ferran Pedret i Santos: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6" xml:lang="ca">Òscar Peris i Ròdenas: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7" xml:lang="ca">Carles Puigdemont i Casamajó. (Elsa Artadi i Vila diu: «Sí.»)</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8" xml:lang="ca">Eduard Pujol i Bonell: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9" xml:lang="ca">Xavier Quinquillà Durich: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10" xml:lang="ca">Marta Ribas Frías: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11" xml:lang="ca">Rut Ribas i Martí: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12" xml:lang="ca">Carles Riera Albert: «Abstenció.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13" xml:lang="ca">Josep Riera i Font: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14" xml:lang="ca">Javier Rivas Escamilla: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15" xml:lang="ca">Manuel Rodríguez de l'Hotellerie de Fallois: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16" xml:lang="ca">David Rodríguez i González: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17" xml:lang="ca">Santi Rodríguez i Serra: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18" xml:lang="ca">Lorena Roldán Suárez: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19" xml:lang="ca">Alícia Romero Llano: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20" xml:lang="ca">Raül Romeva i Rueda. (Sergi Sabrià i Benito diu: «Sí.»)</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21" xml:lang="ca">Ferran Roquer i Padrosa: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22" xml:lang="ca">Josep Rull i Andreu. (Elsa Artadi i Vila diu: «Sí.»)</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23" xml:lang="ca">Sergi Sabrià i Benito: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24" xml:lang="ca">Mònica Sales de la Cruz: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25" xml:lang="ca">Josep Lluís Salvadó i Tenesa: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26" xml:lang="ca">Natàlia Sànchez Dipp: «Abstenció.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27" xml:lang="ca">Alfonso Sánchez Fisac: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28" xml:lang="ca">Jordi Sànchez i Picanyol. (Elsa Artadi i Vila diu: «Sí.»)</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29" xml:lang="ca">Carlos Sánchez Martín: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30" xml:lang="ca">Sergio Sanz Jiménez: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31" xml:lang="ca">Susana Segovia Sánchez: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32" xml:lang="ca">Sonia Sierra Infante: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33" xml:lang="ca">Beatriz Silva Gallardo: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34" xml:lang="ca">Maria Sirvent Escrig: «Abstenció.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35" xml:lang="ca">Bernat Solé i Barril: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36" xml:lang="ca">Jorge Soler González: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37" xml:lang="ca">Marc Solsona i Aixalà: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38" xml:lang="ca">Anna Tarrés i Campà: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39" xml:lang="ca">Francesc Ten i Costa: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40" xml:lang="ca">Jordi Terrades i Santacreu: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41" xml:lang="ca">Quim Torra i Pla: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42" xml:lang="ca">Jordi Turull i Negre. (Elsa Artadi i Vila diu: «Sí.»)</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43" xml:lang="ca">Elisabeth Valencia Mimbrero: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44" xml:lang="ca">María Francisca Valle Fuentes: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45" xml:lang="ca">Francesc Viaplana Manresa: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46" xml:lang="ca">Laura Vílchez Sánchez: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47" xml:lang="ca">Ruben Wagensberg Ramon: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48" xml:lang="ca">Elisenda Alamany Gutiérrez: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49" xml:lang="ca">Jordi Albert i Caballero: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50" xml:lang="ca">Jéssica Albiach Satorres: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51" xml:lang="ca">Matías Alonso Ruiz: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52" xml:lang="ca">Héctor Amelló Montiu: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53" xml:lang="ca">Vidal Aragonés Chicharro: «Abstenció.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54" xml:lang="ca">Inés Arrimadas García: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55" xml:lang="ca">Elsa Artadi i Vila: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56" xml:lang="ca">Eva Baró Ramos: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57" xml:lang="ca">Martín Eusebio Barra López: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58" xml:lang="ca">Albert Batet i Canadell: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59" xml:lang="ca">Susana Beltrán García: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60" xml:lang="ca">David Bertran Román: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61" xml:lang="ca">Laura Borràs i Castanyer: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62" xml:lang="ca">Marina Bravo Sobrino: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63" xml:lang="ca">Rafel Bruguera Batalla: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64" xml:lang="ca">José María Cano Navarro: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65" xml:lang="ca">Carlos Carrizosa Torres: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66" xml:lang="ca">Magda Casamitjana i Aguilà: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67" xml:lang="ca">Alba Vergés i Bosch: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68" xml:lang="ca">Joan García González: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69" xml:lang="ca">David Pérez Ibáñez: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70" xml:lang="ca">Eusebi Campdepadrós i Pucurull: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71" xml:lang="ca">José María Espejo-Saavedra Conesa: «No.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72" xml:lang="ca">Josep Costa i Rosselló: «Sí.»</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73" xml:lang="ca">Roger Torrent i Ramió: «Sí.»</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0" xml:lang="ca">Esther Niubó Cidoncha: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1" xml:lang="ca">Joan Josep Nuet i Pujals: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2" xml:lang="ca">Òscar Ordeig i Molist: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3" xml:lang="ca">Mònica Palacín París: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4" xml:lang="ca">Teresa Pallarès Piqué: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5" xml:lang="ca">Ferran Pedret i Santos: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6" xml:lang="ca">Òscar Peris i Ròdenas: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7" xml:lang="ca">Carles Puigdemont i Casamajó. (Elsa Artadi i Vila diu: «Sí.)</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8" xml:lang="ca">Eduard Pujol i Bonell: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9" xml:lang="ca">Xavier Quinquillà Durich: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10" xml:lang="ca">Marta Ribas Frías: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11" xml:lang="ca">Rut Ribas i Martí: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12" xml:lang="ca">Carles Riera Albert: «Abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13" xml:lang="ca">Josep Riera i Font: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14" xml:lang="ca">Javier Rivas Escamilla: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15" xml:lang="ca">Manuel Rodríguez de l'Hotellerie de Fallois: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16" xml:lang="ca">David Rodríguez i González: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17" xml:lang="ca">Santi Rodríguez i Serra: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18" xml:lang="ca">Lorena Roldán Suárez: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19" xml:lang="ca">Alícia Romero Llano: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20" xml:lang="ca">Raül Romeva i Rueda. (Sergi Sabrià i Benito diu: «Sí.)</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21" xml:lang="ca">Ferran Roquer i Padrosa: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22" xml:lang="ca">Josep Rull i Andreu. (Elsa Artadi i Vila diu: «Sí.)</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23" xml:lang="ca">Sergi Sabrià i Benito: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24" xml:lang="ca">Mònica Sales de la Cruz: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25" xml:lang="ca">Josep Lluís Salvadó i Tenesa: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26" xml:lang="ca">Natàlia Sànchez Dipp: «Abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27" xml:lang="ca">Alfonso Sánchez Fisac: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28" xml:lang="ca">Jordi Sànchez i Picanyol. (Elsa Artadi i Vila diu: «Sí.)</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29" xml:lang="ca">Carlos Sánchez Martín: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30" xml:lang="ca">Sergio Sanz Jiménez: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31" xml:lang="ca">Susana Segovia Sánchez: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32" xml:lang="ca">Sonia Sierra Infante: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33" xml:lang="ca">Beatriz Silva Gallardo: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34" xml:lang="ca">Maria Sirvent Escrig: «Abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35" xml:lang="ca">Bernat Solé i Barril: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36" xml:lang="ca">Jorge Soler González: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37" xml:lang="ca">Marc Solsona i Aixalà: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38" xml:lang="ca">Anna Tarrés i Campà: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39" xml:lang="ca">Francesc Ten i Costa: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40" xml:lang="ca">Jordi Terrades i Santacreu: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41" xml:lang="ca">Quim Torra i Pla: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42" xml:lang="ca">Jordi Turull i Negre. (Elsa Artadi i Vila diu: «Sí.)</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43" xml:lang="ca">Elisabeth Valencia Mimbrero: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44" xml:lang="ca">María Francisca Valle Fuentes: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45" xml:lang="ca">Francesc Viaplana Manresa: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46" xml:lang="ca">Laura Vílchez Sánchez: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47" xml:lang="ca">Ruben Wagensberg Ramon: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48" xml:lang="ca">Elisenda Alamany Gutiérrez: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49" xml:lang="ca">Jordi Albert i Caballero: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50" xml:lang="ca">Jéssica Albiach Satorres: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51" xml:lang="ca">Matías Alonso Ruiz: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52" xml:lang="ca">Héctor Amelló Montiu: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53" xml:lang="ca">Vidal Aragonés Chicharro: «Abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54" xml:lang="ca">Inés Arrimadas García: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55" xml:lang="ca">Elsa Artadi i Vila: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56" xml:lang="ca">Eva Baró Ramos: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57" xml:lang="ca">Martín Eusebio Barra López: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58" xml:lang="ca">Albert Batet i Canadell: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59" xml:lang="ca">Susana Beltrán García: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60" xml:lang="ca">David Bertran Román: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61" xml:lang="ca">Laura Borràs i Castanyer: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62" xml:lang="ca">Marina Bravo Sobrino: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63" xml:lang="ca">Rafel Bruguera Batalla: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64" xml:lang="ca">José María Cano Navarro: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65" xml:lang="ca">Carlos Carrizosa Torres: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66" xml:lang="ca">Magda Casamitjana i Aguilà: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67" xml:lang="ca">Alba Vergés i Bosch: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68" xml:lang="ca">Joan García González: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69" xml:lang="ca">David Pérez Ibáñez: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70" xml:lang="ca">Eusebi Campdepadrós i Pucurull: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71" xml:lang="ca">José María Espejo-Saavedra Conesa: «No.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72" xml:lang="ca">Josep Costa i Rosselló: «Sí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73" xml:lang="ca">Roger Torrent i Ramió: «Sí.</seg>
             </u>
             <note type="speaker">El president</note>
             <u xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0"
-               who="#MuroXavier"
-               ana="#regular"
+               who="#TorrentRoger"
+               ana="#chair"
                xml:lang="ca">
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0" xml:lang="ca">El resultat de la votació ha estat el següent: 66 vots «sí»; 65 nos i 4 abstencions.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1" xml:lang="ca">Atès, doncs, que el senyor Quim Torra i Pla en aquesta votació no ha obtingut la majoria absoluta que requereix l’article 4.3 de la Llei de presidència de la Generalitat i del Govern, i d’acord amb l’article 4.4 de l’esmentada llei, el candidat es pot sotmetre a un segon debat i a una segona votació, en què bastarà la majoria simple.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0" xml:lang="ca">El resultat de la votació ha estat el següent: 66 vots «sí; 65 nos i 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1" xml:lang="ca">Atès, doncs, que el senyor Quim Torra i Pla en aquesta votació no ha obtingut la majoria absoluta que requereix l'article 4.3 de la Llei de presidència de la Generalitat i del Govern, i d'acord amb l'article 4.4 de l'esmentada llei, el candidat es pot sotmetre a un segon debat i a una segona votació, en què bastarà la majoria simple.</seg>
                <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2" xml:lang="ca">Aquest segon debat i aquesta segona votació es farà reprenent la sessió el dilluns 14 de maig a les 10.30 hores del matí.</seg>
-               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3" xml:lang="ca">S’aixeca la sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3" xml:lang="ca">S'aixeca la sessió.</seg>
             </u>
-            <note type="narrative">La sessió s’aixeca a un quart de vuit del vespre i dos minuts.</note>
+            <note type="narrative">La sessió s'aixeca a un quart de vuit del vespre i dos minuts.</note>
          </div>
       </body>
    </text>

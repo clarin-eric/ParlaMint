@@ -1,6 +1,8 @@
 <note type="speaker" content="Presidenza del presidente provvisorio NAPOLITANO"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" lang="Italian">
+<note type="-" content="Il senatore Napolitano, presidente provvisorio ai sensi dell'articolo 2, comma 1, del Regolamento, sale al banco presidenziale"/>
+<note type="speaker" content="PRESIDENTE"/>
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u1" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg1.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	seduta	NOUN	Gender=Fem Number=Sing	2
 seduta	seduta	seduta	NOUN	Gender=Fem Number=Sing	2	nsubj:pass	aprire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
@@ -19,9 +21,10 @@ ore	ore	ora	NOUN	Gender=Fem Number=Plur	6	obl	aprire	VERB	Gender=Fem Number=Sing
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
 <note type="head" content="Per l'apertura della XVIII legislatura"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
+<note type="speaker" content="PRESIDENTE"/>
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u2" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
 <note type="incident:action" content="Si leva in piedi."/>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg2.1">
 Onorevoli	Onorevoli	onorevole	ADJ	Number=Plur	1	amod	senatrico	NOUN	Gender=Fem Number=Plur	2
 senatrici	senatrici	senatrico	NOUN	Gender=Fem Number=Plur	2	vocative	saluto	NOUN	Gender=Masc Number=Sing	10
@@ -98,7 +101,7 @@ rappresentare	rappresentare	rappresentare	VERB	VerbForm=Inf	67	xcomp	chiamare	VE
 .	.	.	PUNCT		68	punct	forza	NOUN	Gender=Fem Number=Sing	59
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg3.1">
 Questa	Questa	questo	DET	Gender=Fem Number=Sing PronType=Dem	1	det	legislatura	NOUN	Gender=Fem Number=Sing	3
 XVIII	XVIII	diciottesimo	ADJ	NumType=Ord Number=Sing	2	amod	legislatura	NOUN	Gender=Fem Number=Sing	3
@@ -138,7 +141,7 @@ scaturite	scaturite	scaturire	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Pa
 .	.	.	PUNCT		35	punct	nascere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	4
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg4.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	voto	NOUN	Gender=Masc Number=Sing	2
 voto	voto	voto	NOUN	Gender=Masc Number=Sing	2	nsubj	rispecchiare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	8
@@ -260,7 +263,7 @@ passato	passato	passato	NOUN	Gender=Masc Number=Sing	27	nmod	rottura	NOUN	Gender
 .	.	.	PUNCT		28	punct	premiare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg5.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	contestazione	NOUN	Gender=Fem Number=Sing	2
 contestazione	contestazione	contestazione	NOUN	Gender=Fem Number=Sing	2	nsubj	scaturire	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	4
@@ -342,7 +345,7 @@ voto	voto	voto	NOUN	Gender=Masc Number=Sing	38	obl	esprimere	VERB	Gender=Fem Num
 .	.	.	PUNCT		39	punct	pesare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg6.1">
 Sono	Sono	essere	AUX	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	1	aux	condannato	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	3
 stati	stati	essere	AUX	Gender=Masc Number=Plur Tense=Past VerbForm=Part	2	aux:pass	condannato	VERB	Gender=Masc Number=Plur Tense=Past VerbForm=Part	3
@@ -410,7 +413,7 @@ maggioranza	maggioranza	maggioranza	NOUN	Gender=Fem Number=Sing	25	nmod	partito	
 .	.	.	PUNCT		26	punct	mostrare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg7.1">
 In	In	in	ADP		1	case	termine	NOUN	Gender=Masc Number=Plur	2
 termini	termini	termine	NOUN	Gender=Masc Number=Plur	2	obl	contare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
@@ -465,7 +468,7 @@ allarme	allarme	allarme	NOUN	Gender=Masc Number=Sing	49	conj	insicurezza	NOUN	Ge
 .	.	.	PUNCT		50	punct	contare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	7
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg8.1">
 Tutto	Tutto	tutto	DET	Gender=Masc Number=Sing PronType=Ind	1	det	ciò	PRON	Number=Sing PronType=Dem	2
 ciò	ciò	ciò	PRON	Number=Sing PronType=Dem	2	nsubj:pass	mettere	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	4
@@ -545,7 +548,7 @@ italiani	italiani	italiano	NOUN	Gender=Masc Number=Plur	11	obl	dilagare	VERB	Gen
 .	.	.	PUNCT		12	punct	inquietudine	NOUN	Gender=Fem Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg9.1">
 Sulla	Su|la	su|il	ADP|DET	|Definite=Def Gender=Fem Number=Sing PronType=Art	1|2	case|det	scena	NOUN	Gender=Fem Number=Sing	3
 scena	scena	scena	NOUN	Gender=Fem Number=Sing	3	obl	determinare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	13
@@ -659,7 +662,7 @@ Camere	Camere	camera	NOUN	Gender=Fem Number=Plur	28	obl	conquistare	VERB	Gender=
 .	.	.	PUNCT		29	punct	nascere	VERB	Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg10.1">
 Occorre	Occorre	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 comunque	comunque	comunque	ADV		2	advmod	occorrere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	1
@@ -995,7 +998,7 @@ pace	pace	pace	NOUN	Gender=Fem Number=Sing	32	nmod	conquista	NOUN	Gender=Fem Num
 .	.	.	PUNCT		33	punct	Conquiste	NOUN	Gender=Fem Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg11.1">
 Fare	Fare	fare	VERB	VerbForm=Inf	1	csubj	interesse	NOUN	Gender=Masc Number=Sing	11
 i	i	il	DET	Definite=Def Gender=Masc Number=Plur PronType=Art	2	det	conte	NOUN	Gender=Masc Number=Plur	3
@@ -1042,7 +1045,7 @@ Parlamento	Parlamento	parlamento	NOUN	Gender=Masc Number=Sing	32	obl	rappresenta
 .	.	.	PUNCT		33	punct	interesse	NOUN	Gender=Masc Number=Sing	11
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg12.1">
 Aggiungo	Aggiungo	aggiungere	VERB	Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin	1	root	-	-	-	-
 che	che	che	SCONJ		2	mark	violenza	NOUN	Gender=Fem Number=Sing	41
@@ -1188,7 +1191,7 @@ dialogo	dialogo	dialogo	NOUN	Gender=Masc Number=Sing	24	conj	libertà	NOUN	Gende
 .	.	.	PUNCT		25	punct	restare	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg13.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	confronto	NOUN	Gender=Masc Number=Sing	2
 confronto	confronto	confronto	NOUN	Gender=Masc Number=Sing	2	nsubj:pass	liberare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
@@ -1228,7 +1231,7 @@ Italia	Italia	Italia	PROPN		29	obj	dominare	VERB	Gender=Masc Number=Sing Tense=P
 .	.	.	PUNCT		30	punct	liberare	VERB	Gender=Masc Number=Sing Tense=Past VerbForm=Part	6
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg14.1">
 Infine	Infine	infine	ADV		1	advmod	essere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2
 è	è	essere	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	2	root	-	-	-	-
@@ -1338,7 +1341,7 @@ fiducia	fiducia	fiducia	NOUN	Gender=Fem Number=Sing	56	conj	stima	NOUN	Gender=Fe
 </s>
 </p>
 <note type="kinesic:applause" content="Generali applausi"/>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg15.1">
 Onorevoli	Onorevoli	onorevole	ADJ	Number=Plur	1	amod	senatrico	NOUN	Gender=Fem Number=Plur	2
 senatrici	senatrici	senatrico	NOUN	Gender=Fem Number=Plur	2	nsubj	porre	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
@@ -1389,7 +1392,7 @@ democrazia	democrazia	democrazia	NOUN	Gender=Fem Number=Sing	42	obj	rendere	VERB
 .	.	.	PUNCT		43	punct	porre	VERB	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	16
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg16.1">
 La	La	il	DET	Definite=Def Gender=Fem Number=Sing PronType=Art	1	det	riforma	NOUN	Gender=Fem Number=Sing	3
 prima	prima	primo	ADJ	Gender=Fem NumType=Ord Number=Sing	2	amod	riforma	NOUN	Gender=Fem Number=Sing	3
@@ -1482,7 +1485,7 @@ alternativa	alternativa	alternativa	NOUN	Gender=Fem Number=Sing	12	obj	presentar
 .	.	.	PUNCT		13	punct	essere	AUX	Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin	3
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg17.1">
 Nel	In|il	in|il	ADP|DET	|Definite=Def Gender=Masc Number=Sing PronType=Art	1|2	case|det	solco	NOUN	Gender=Masc Number=Sing	3
 solco	solco	solco	NOUN	Gender=Masc Number=Sing	3	obl	mettere	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	33
@@ -1523,7 +1526,7 @@ prova	prova	prova	NOUN	Gender=Fem Number=Sing	37	obl	mettere	VERB	Gender=Fem Num
 .	.	.	PUNCT		38	punct	mettere	VERB	Gender=Fem Number=Sing Tense=Past VerbForm=Part	33
 </s>
 </p>
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18" lang="Italian">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg18.1">
 Grazie	Grazie	grazie	NOUN		1	root	-	-	-	-
 per	per	per	ADP		2	case	attenzione	NOUN	Gender=Fem Number=Sing	4
@@ -1537,8 +1540,8 @@ attenzione	attenzione	attenzione	NOUN	Gender=Fem Number=Sing	4	nmod	grazie	NOUN	
 <note type="kinesic:applause" content="Generali applausi."/>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55" lang="Italian">
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u15" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg55.1">
 Le	Le	il	DET	Definite=Def Gender=Fem Number=Plur PronType=Art	1	det	mozione	NOUN	Gender=Fem Number=Plur	2
 mozioni	mozioni	mozione	NOUN	Gender=Fem Number=Plur	2	nsubj:pass	pubblicare	VERB	Gender=Fem Number=Plur Tense=Past VerbForm=Part	12
@@ -1567,8 +1570,9 @@ odierna	odierna	odierno	ADJ	Gender=Fem Number=Sing	23	amod	seduta	NOUN	Gender=Fe
 </p>
 </speech>
 <note type="head" content="Ordine del giorno per la seduta di sabato 24 marzo 2018"/>
-<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" body="Upper house" term="18-upper" session="" meeting="" sitting="1-upper" agenda="" date="2018-03-23" title="Report of the session of the Senate of the Italian Republic, Term 18, Sitting 1, Day (2018-03-23)" speaker_role="Chairperson" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="-" speaker_party="" speaker_party_name="" party_status="" speaker_gender="M" speaker_birth="1925">
-<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" lang="Italian">
+<note type="speaker" content="PRESIDENTE"/>
+<speech id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.u16" text_id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1" subcorpus="Reference" lang="italiano" body="Senato della Repubblica" term="18-upper" session="-" meeting="-" sitting="1-upper" agenda="-" date="2018-03-23" title="Resoconto della seduta del Senato della Repubblica italiana, Legislatura 18, seduta 1, giorno (2018-03-23)" speaker_role="Presidente" speaker_id="NapolitanoGiorgio" speaker_name="Napolitano, Giorgio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1925">
+<p id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56" lang="italiano">
 <s id="ParlaMint-IT_2018-03-23-LEG18-Senato-sed-1.ana.seg56.1">
 Il	Il	il	DET	Definite=Def Gender=Masc Number=Sing PronType=Art	1	det	Senato	PROPN		2
 <name type="ORG">
