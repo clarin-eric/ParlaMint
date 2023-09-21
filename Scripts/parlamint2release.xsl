@@ -449,7 +449,7 @@
   </xsl:template>
 
   <!-- Bug where a segment contains no elements, remove segment -->
-  <xsl:template mode="comp" match="tei:seg[not(.//tei:*)]">
+  <xsl:template mode="comp" match="tei:seg[not(normalize-space(.) or .//tei:*)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing segment without elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
