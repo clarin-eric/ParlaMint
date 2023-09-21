@@ -18,12 +18,14 @@
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change #parla.meeting.unregistered to #parla.meeting (IS)
      - change div/@type for divs without utterances
+     - remove empty segments
      - remove empty notes
      - assign IDs to segments without them
      - in .ana remove body name tag if name contains no words
+     - in .ana remove sentences without tokens
      - in .ana change tag from <w> to <pc> for punctuation
      - in .ana change UPoS tag from - to X
-     - in .ana change lemma tag from _ to normalised form or wordform
+     - in .ana change lemma tag from empty or _ to normalised form or wordform, lower-cased if not PROPN
      - in .ana change root syntactic dependency to dep, if node is not sentence root
      - in .ana change <PAD> syntactic dependency to dep
      - in .ana change obl:loc syntactic dependency to obl
@@ -446,11 +448,18 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Bug where a segment contains no elements, remove segment -->
+  <xsl:template mode="comp" match="tei:seg[not(.//tei:*)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing segment without elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+  
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
-  <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
+  <xsl:template mode="comp" match="tei:seg">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:choose>
+        <xsl:when test="@xml:id"/>
         <xsl:when test="parent::tei:u/@xml:id">
           <xsl:attribute name="xml:id">
             <xsl:value-of select="parent::tei:u/@xml:id"/>
@@ -467,6 +476,12 @@
     </xsl:copy>
   </xsl:template>
       
+  <!-- Bug where a sentence contains no tokens, remove sentence -->
+  <xsl:template mode="comp" match="tei:s[not(.//tei:w or .//tei:pc)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+  
   <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
   <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
