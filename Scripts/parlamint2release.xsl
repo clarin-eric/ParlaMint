@@ -336,6 +336,14 @@
     <xsl:copy/>
   </xsl:template>
 
+  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
+  <xsl:template mode="comp" match="tei:u/@prev">
+    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:u/@next">
+    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
+  </xsl:template>
+
   <!-- Set correct ID of component -->
   <xsl:template mode="comp" match="tei:TEI/@xml:id">
     <xsl:variable name="id" select="replace(base-uri(), '^.*?([^/]+)\.xml$', '$1')"/>
@@ -403,7 +411,7 @@
   </xsl:template>
   
   <!-- Remove empty notes -->
-  <xsl:template mode="comp" match="tei:note[not(normalize-space(.))]">
+  <xsl:template mode="comp" match="tei:note[not(normalize-space(.) or tei:*)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
@@ -449,14 +457,28 @@
 
   <!-- Bug where an utterance contains no elements, remove utterance -->
   <xsl:template mode="comp" match="tei:u[not(.//tei:*)]">
-    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                         ': removing utterance without elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+    <xsl:variable name="segs">
+      <xsl:apply-templates mode="comp"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="$segs/tei:*">
+	<xsl:copy>
+	  <xsl:apply-templates mode="comp" select="@*"/>
+	  <xsl:copy-of select="$segs"/>
+	  <xsl:apply-templates mode="comp"/>
+	</xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                             ': removing utterance without content for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <!-- Bug where a segment contains no elements, remove segment -->
   <xsl:template mode="comp" match="tei:seg[not(normalize-space(.) or .//tei:*)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                         ': removing segment without elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+                         ': removing segment without content for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
   
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
