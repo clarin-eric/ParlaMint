@@ -11,7 +11,7 @@
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = UA
+CORPORA = BA
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -27,7 +27,7 @@ TEMP = ${HERE}/Temp
 
 #Where the submitted corpora are found (ParlaMint- .TEI/ and .TEI.ana/
 SOURCES = ${HERE}/Sources-TEI
-SOURCES-MT = ${HERE}/Sources-MT
+SOURCES-MT = ${HERE}/Sources-Sem
 
 # Version number and PID of next(!) TEI and TEI.ana ParlaMint release
 VERSION = 3.1
@@ -110,12 +110,11 @@ merge-taxos:
 
 ### Fixes for 3.1-en:
 
-# Instead of TEI-derived CoNLL-U files we release original MTed CoNLL-U
-# because they also contain word alignments 
+# Instead of TEI-derived CoNLL-U files we release MTed CoNLL-U
+# merged with TEI-derived CoNLL-U because they also contain word alignments 
 # Script also adds -en suffix to filesnames + readme.
-# We will not do this, as u ids are missing from Conllu!
-xx-mt-cp-conllu:
-	bin/cp-conllu.pl validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
+mt-cp-conllu:
+	bin/cp-conllu.pl Master validate '${SOURCES-MT}/ParlaMint-*-en.conllu' 'Master'
 
 # Make txt and tsv files with tsvs
 mt-convert-txt:
