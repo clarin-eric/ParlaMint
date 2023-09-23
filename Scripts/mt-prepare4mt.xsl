@@ -258,7 +258,8 @@
   </xsl:template>
 
   <!-- Give the corresp attribute to these elements -->
-  <xsl:template mode="comp" match="tei:div | tei:u | tei:seg">
+  <xsl:template mode="comp" match="tei:div | tei:u | tei:seg |
+				   tei:head |tei:note | tei:gap | tei:vocal | tei:kinesic | tei:incident">
     <xsl:param name="corresp"/>
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
