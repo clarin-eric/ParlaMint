@@ -280,20 +280,24 @@ note =
 comment =
   note
   | element gap {
+      global.atts,
       attribute reason { "editorial" | "inaudible" | "foreign" },
       incidentDesc+
     }
   | element kinesic {
+      global.atts,
       attribute type { kinesicType.val }?,
       who.att?,
       incidentDesc+
     }
   | element incident {
+      global.atts,
       attribute type { incidentType.val }?,
       who.att?,
       incidentDesc+
     }
   | element vocal {
+      global.atts,
       attribute type { vocalType.val },
       who.att?,
       incidentDesc+
