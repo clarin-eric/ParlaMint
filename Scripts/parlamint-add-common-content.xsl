@@ -585,6 +585,25 @@
     </xsl:copy>
   </xsl:template>
       
+  <!-- Silently give IDs to the various transcriber comments -->
+  <xsl:template mode="comp" match="tei:head[not(@xml:id)] | 
+				   tei:gap[not(@xml:id)] |
+				   tei:note[not(@xml:id)] |
+				   tei:vocal[not(@xml:id)] | 
+				   tei:kinesic[not(@xml:id)] |
+				   tei:incident[not(@xml:id)]">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:attribute name="xml:id">
+	<xsl:value-of select="ancestor::tei:TEI/@xml:id"/>
+        <xsl:text>.</xsl:text>
+	<xsl:value-of select="name()"/>
+        <xsl:number level="any" from="text"/>
+      </xsl:attribute>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+      
   <!-- PROCESSING ROOT -->
   
   <xsl:template mode="root" match="*">
