@@ -18,8 +18,7 @@
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
      - change #parla.meeting.unregistered to #parla.meeting (IS)
      - change div/@type for divs without utterances
-     - remove empty segments
-     - remove empty notes
+     - remove empty utterances, segments, notes
      - assign IDs to segments without them
      - in .ana remove body name tag if name contains no words
      - in .ana remove sentences without tokens
@@ -448,6 +447,12 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Bug where an utterance contains no elements, remove utterance -->
+  <xsl:template mode="comp" match="tei:u[not(.//tei:*)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing utterance without elements for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+  
   <!-- Bug where a segment contains no elements, remove segment -->
   <xsl:template mode="comp" match="tei:seg[not(normalize-space(.) or .//tei:*)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
