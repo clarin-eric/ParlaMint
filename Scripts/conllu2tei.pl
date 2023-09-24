@@ -150,8 +150,8 @@ sub conllu2tei {
 	    }
 	    if ($sem eq 'B') {
 		($semtype) = $local =~ /SEM=([^|]+)/;
-		$semtype =~ s/,/ $sem_prefix:/g;
-		push(@toks, "<phr type=\"sem\" ana=\"$sem_prefix:$semtype\">");
+		$semana = &sem2ana($semtype);
+		push(@toks, "<phr type=\"sem\" function=\"$semtype\" ana=\"$sem_prefix:$semana\">");
 		push(@open_elements, 'phr');
 	    }
 	    $sem_prev = $sem
@@ -200,8 +200,8 @@ sub conllu2tei {
 	if ($local =~ /SEM=([^|]+)/) {$semtype = $1}
 	else {$semtype = ''}
 	if ($semtype) {
-	    $semtype =~ s/,/ $sem_prefix:/g;
-	    $element =~ s|>| ana="$sem_prefix:$semtype">|;
+	    $semana = &sem2ana($semtype);
+	    $element =~ s|>| function="$semtype" ana="$sem_prefix:$semana">|;
 	}
         $element =~ s|>| join="right">| unless $space;
         push @ids, $id . '.t' . $n;
@@ -340,4 +340,19 @@ sub fix_elements {
     }
     foreach $item (@tmp) {push(@out, $item) if $item}
     return @out
+}
+
+# Convert USAS tags to simplified pointers for @ana, cf.
+# https://github.com/clarin-eric/ParlaMint/issues/202
+sub sem2ana {
+    my $semtypes = shift;
+    my @out;
+    $semtypes =~ s/,.+//; #Retain only the first tag
+    foreach my $semtype (split(m|/|, $semtypes)) {
+	$semtype =~ s/[mfnci%\@]//g; #Remove modifiers
+	$semtype =~ s/\-/m/g; #Change - to m
+	$semtype =~ s/\+/p/g; #Change + to p
+	push(@out, "$sem_prefix:$semtype")
+    }
+    return join(' ', @out)
 }
