@@ -146,12 +146,13 @@ sub conllu2tei {
         if (($sem) = $local =~ /SEMMWE=(.)/) {
 	    if ($sem ne 'I' and $sem_prev ne 'O') {
 		push(@toks, "</phr>");
-		pop(@open_elements);
+		if ($open_elements[0] eq 'phr') {shift(@open_elements)}
+		else {pop(@open_elements)}
 	    }
 	    if ($sem eq 'B') {
 		($semtype) = $local =~ /SEM=([^|]+)/;
 		$semana = &sem2ana($semtype);
-		push(@toks, "<phr type=\"sem\" function=\"$semtype\" ana=\"$sem_prefix:$semana\">");
+		push(@toks, "<phr type=\"sem\" function=\"$semtype\" ana=\"$semana\">");
 		push(@open_elements, 'phr');
 	    }
 	    $sem_prev = $sem
@@ -161,7 +162,8 @@ sub conllu2tei {
             if (($type) = $ner =~ /^B-(.+)/) {
                 if ($ner_prev ne 'O') {
                     push(@toks, "</name>");
-		    pop(@open_elements);
+		    if ($open_elements[0] eq 'name') {shift(@open_elements)}
+		    else {pop(@open_elements)}
                 }
                 push(@toks, "<name type=\"$type\">");
 		push(@open_elements, 'name');
@@ -175,7 +177,8 @@ sub conllu2tei {
             }
             elsif ($ner eq 'O' and $ner_prev ne 'O') {
 		push(@toks, "</name>");
-		pop(@open_elements);
+		if ($open_elements[0] eq 'name') {shift(@open_elements)}
+		else {pop(@open_elements)}
             }
             $ner_prev = $ner
         }
@@ -201,7 +204,7 @@ sub conllu2tei {
 	else {$semtype = ''}
 	if ($semtype) {
 	    $semana = &sem2ana($semtype);
-	    $element =~ s|>| function="$semtype" ana="$sem_prefix:$semana">|;
+	    $element =~ s|>| function="$semtype" ana="$semana">|;
 	}
         $element =~ s|>| join="right">| unless $space;
         push @ids, $id . '.t' . $n;
