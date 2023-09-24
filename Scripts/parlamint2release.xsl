@@ -456,7 +456,7 @@
   </xsl:template>
 
   <!-- Bug where an utterance contains no elements, remove utterance -->
-  <xsl:template mode="comp" match="tei:u[not(.//tei:*)]">
+  <xsl:template mode="comp" match="tei:u">
     <xsl:variable name="segs">
       <xsl:apply-templates mode="comp"/>
     </xsl:variable>
@@ -465,7 +465,6 @@
 	<xsl:copy>
 	  <xsl:apply-templates mode="comp" select="@*"/>
 	  <xsl:copy-of select="$segs"/>
-	  <xsl:apply-templates mode="comp"/>
 	</xsl:copy>
       </xsl:when>
       <xsl:otherwise>
