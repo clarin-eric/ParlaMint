@@ -323,27 +323,33 @@
     <xsl:variable name="s" select="ancestor::tei:s"/>
     <xsl:choose>
       <xsl:when test="$s/tei:linkGrp[@type=$type]">
+	<!-- We need to take only the first link, in case of errros in linkGrp (two links with same token in FI) -->
         <xsl:variable name="link"
                       select="$s/tei:linkGrp[@type=$type]/tei:link
-                              [ends-with(@target, concat(' #', $id))]"/>
-        <xsl:if test="not(normalize-space($link/@ana))">
-          <xsl:message>
-            <xsl:text>ERROR: no syntactic link for token </xsl:text>
-            <xsl:value-of select="concat(ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
-          </xsl:message>
-        </xsl:if>
-        <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
-        <xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
-        <xsl:value-of select="et:l10n($corpus-language, key('id', $relation, $rootHeader)/tei:catDesc)/tei:term"/>
-        <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
-        <xsl:choose>
-          <xsl:when test="$target/self::tei:s">
-            <xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="concat('&#9;', et:output-annotations($target))"/>
-          </xsl:otherwise>
-        </xsl:choose>
+                              [ends-with(@target, concat(' #', $id))][1]"/>
+	<xsl:choose>
+          <xsl:when test="not(normalize-space($link/@ana))">
+            <xsl:message>
+              <xsl:text>ERROR: no syntactic link for token </xsl:text>
+              <xsl:value-of select="concat(ancestor::tei:TEI/@xml:id, ':', @xml:id)"/>
+            </xsl:message>
+            <xsl:text>-&#9;-&#9;-&#9;-&#9;-</xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+            <!-- Syntactic relation is the English term in the UD-SYN taxonomy -->
+            <xsl:variable name="relation" select="substring-after($link/@ana,':')"/>
+            <xsl:value-of select="et:l10n($corpus-language, key('id', $relation, $rootHeader)/tei:catDesc)/tei:term"/>
+            <xsl:variable name="target" select="key('id', replace($link/@target,'#(.+?) #.*','$1'))"/>
+            <xsl:choose>
+              <xsl:when test="$target/self::tei:s">
+		<xsl:text>&#9;-&#9;-&#9;-&#9;-</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+		<xsl:value-of select="concat('&#9;', et:output-annotations($target))"/>
+              </xsl:otherwise>
+            </xsl:choose>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:message>
