@@ -2252,7 +2252,7 @@
 <note type="narrative" content="Веде засідання Перший заступник Голови Верховної Ради України"/>
 <note type="narrative" content="КОРНІЄНКО О.С."/>
 <note type="speaker" content="ГОЛОВУЮЧИЙ."/>
-<speech id="ParlaMint-UA_2022-12-01-m0.u2" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1984">
+<speech id="ParlaMint-UA_2022-12-01-m0.u2" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="СН" speaker_party_name="Політична партія \"Слуга народу\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1984">
 <p id="ParlaMint-UA_2022-12-01-m0.u2.p1" lang="Українська">
 <s id="ParlaMint-UA_2022-12-01-m0.u2.p1.s1">
 Шановні	Шановні	шановний	ADJ	Case=Nom Number=Plur	w1	amod	колега	NOUN	Animacy=Anim Case=Voc Gender=Masc Number=Plur	w2
@@ -2284,7 +2284,7 @@
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-UA_2022-12-01-m0.u185" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="-" speaker_party_name="-" party_status="-" party_orientation="-" speaker_gender="M" speaker_birth="1984">
+<speech id="ParlaMint-UA_2022-12-01-m0.u185" text_id="ParlaMint-UA_2022-12-01-m0" subcorpus="ковідний" lang="Українська" body="однопалатний парламент" term="9" session="8" meeting="-" sitting="2022-12-01" agenda="-" date="2022-12-01" title="Корпус Верховної Ради України ParlaMint-UA, 9 скликання, 8 сесія, дата пленарного засідання 2022-12-01, номер засідання №0" speaker_role="головуючий" speaker_id="ОлександрСергійовичКорнієнко.1984" speaker_name="Сергійович Корнієнко, Олександр" speaker_mp="MP" speaker_minister="notMinister" speaker_party="СН" speaker_party_name="Політична партія \"Слуга народу\"" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1984">
 <p id="ParlaMint-UA_2022-12-01-m0.u185.p1" lang="Українська">
 <s id="ParlaMint-UA_2022-12-01-m0.u185.p1.s1">
 До	До	до	ADP	Case=Gen	w1	case	оголошення	NOUN	Animacy=Inan Case=Gen Gender=Neut Number=Sing	w2

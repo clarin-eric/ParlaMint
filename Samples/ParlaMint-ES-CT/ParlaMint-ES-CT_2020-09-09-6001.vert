@@ -1,6 +1,30 @@
 <note type="head" content="Sessió 60.1"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.1.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="60" sitting="1" agenda="" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Chairperson" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="-" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="" speaker_gender="M" speaker_birth="1979">
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0" lang="Catalan">
+<note type="narrative" content="La sessió s'obre a les deu del matí i tres minuts. Presideix el president del Parlament, acompanyat del vicepresident primer i les secretàries tercera i quarta. Assisteixen la Mesa el secretari general, el lletrat major i el lletrat Miquel Lluís Palomares Amat."/>
+<note type="narrative" content="Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident del Govern i conseller d'Economia i Hisenda i els consellers de la Presidència, d'Interior, d'Educació, de Salut, de Territori i Sostenibilitat, de Cultura, de Treball, Afers Socials i Famílies, d'Empresa i Coneixement i d'Agricultura, Ramaderia, Pesca i Alimentació."/>
+<note type="narrative" content="ORDRE DEL DIA DE LA CONVOCATÒRIA"/>
+<note type="narrative" content="1. Preguntes amb resposta oral."/>
+<note type="narrative" content="2. Decret llei 29/2020, del 28 de juliol, pel qual s'adopten mesures pressupostàries en relació amb el desplegament de les actuacions d'atenció social, ordenació i reforç de determinats serveis socials de caràcter residencial i d'atenció diürna que preveu el Pla de contingència per a residències, per fer front als brots de la pandèmia generada per la Covid-19, pel qual es manté la vigència de preceptes en matèria d'infància i adolescència del Decret llei 11/2020, del 7 d'abril, pel qual s'adopten mesures econòmiques, socials i administratives per pal·liar els efectes de la pandèmia generada per la Covid-19 i altres de complementàries, i pel qual es modifica el Decret llei 21/2020, del 2 de juny, de mesures urgents de caràcter econòmic, cultural i social, sota el títol de mesures de caràcter social (tram. 203-00054/12). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei (text presentat: BOPC 671, 23)."/>
+<note type="narrative" content="3. Decret llei 30/2020, del 4 d'agost, pel qual s'estableix el règim sancionador específic per l'incompliment de les mesures de prevenció i contenció sanitàries per fer front a la crisi sanitària provocada per la Covid-19 (tram. 203-00055/12). Govern de la Generalitat Debat i votació sobre la validació o derogació del decret llei (text presentat: BOPC 671, 31)."/>
+<note type="narrative" content="4. Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d'arrendament d'habitatge (tram. 202-00080/12). Grup Parlamentari de Junts per Catalunya, Grup Parlamentari Republicà, Grup Parlamentari de Catalunya en Comú Podem i Subgrup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent. Debat i votació de les esmenes presentades en la tramitació en lectura única i de les esmenes presentades subsegüents al dictamen del Consell de Garanties Estatutàries (text presentat: BOPC 651, 27)."/>
+<note type="narrative" content="5. Proposta per a presentar a la Mesa del Congrés dels Diputats la Proposició de llei per a garantir el retorn social del rescat bancari (tram. 270-00002/12). Grup Parlamentari Republicà. Debat de totalitat i votació de l'esmena a la totalitat (text presentat: BOPC 472, 164)."/>
+<note type="narrative" content="6. Interpel·lació al Govern sobre l'emergència educativa i la planificació del curs escolar 2020-21 (tram. 300-00291/12). Grup Parlamentari Socialistes i Units per Avançar. Substanciació."/>
+<note type="narrative" content="7. Interpel·lació al Govern sobre l'inici del curs escolar 2020-2021 (tram. 300-00292/12). Grup Parlamentari de Ciutadans. Substanciació."/>
+<note type="narrative" content="8. Interpel·lació al Govern sobre l'inici del curs escolar 2020-2021 (tram. 300-00295/12). Subgrup Parlamentari de la Candidatura d'Unitat Popular - Crida Constituent. Substanciació."/>
+<note type="narrative" content="9. Interpel·lació al Govern sobre l'ocupació i les condicions sociolaborals del treball autònom (tram. 300-00293/12). Grup Parlamentari de Ciutadans. Substanciació."/>
+<note type="narrative" content="10. Interpel·lació al Govern sobre la regularització de persones immigrants (tram. 300-00296/12). Grup Parlamentari Republicà. Substanciació."/>
+<note type="narrative" content="11. Interpel·lació al Govern sobre la necessitat d'un pla de rescat per al sector de la cultura (tram. 300-00294/12). Concepción Abellán Carretero, del Grup Parlamentari de Catalunya en Comú Podem. Substanciació."/>
+<note type="narrative" content="12. Interpel·lació al Govern sobre la defensa de les institucions i l'autogovern (tram. 300-00298/12). Grup Parlamentari de Junts per Catalunya. Substanciació."/>
+<note type="narrative" content="13. Interpel·lació al Govern sobre l'economia productiva (tram. 300-00299/12). Grup Parlamentari de Junts per Catalunya. Substanciació."/>
+<note type="narrative" content="14. Interpel·lació al Govern sobre la gestió dels fons Covid-19 per a la recuperació econòmica i social (tram. 300-00297/12). Grup Parlamentari Republicà. Substanciació."/>
+<note type="narrative" content="15. Moció subsegüent a la interpel·lació al Govern sobre la política pressupostària de la Generalitat (tram. 302-00228/12). Grup Parlamentari de Ciutadans. Debat i votació."/>
+<note type="narrative" content="16. Moció subsegüent a la interpel·lació al Govern sobre la gestió econòmica (tram. 302-00232/12). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació."/>
+<note type="narrative" content="17. Moció subsegüent a la interpel·lació al Govern sobre la desinformació i la manca de transparència en l'actuació de la Generalitat a l'exterior (tram. 302-00229/12). Grup Parlamentari de Ciutadans. Debat i votació."/>
+<note type="narrative" content="18. Moció subsegüent a la interpel·lació al Govern sobre el balanç de la política general del Govern (tram. 302-00230/12). Subgrup Parlamentari del Partit Popular de Catalunya. Debat i votació."/>
+<note type="narrative" content="19. Moció subsegüent a la interpel·lació al Govern sobre el confinament de Lleida i el baix Segrià (tram. 302-00231/12). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació."/>
+<note type="narrative" content="20. Moció subsegüent a la interpel·lació al Govern sobre la política industrial (tram. 302-00233/12). Grup Parlamentari de Catalunya en Comú Podem. Debat i votació."/>
+<note type="speaker" content="El president"/>
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.1.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Català" body="Unicameralisme" term="12" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1979">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.0.1">
 <name type="PER">
 Diputats	Diputats	diputats	PROPN		1	nsubj	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
@@ -16,7 +40,7 @@ sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	7	nsubj	començar	VERB	Mood=
 .	.	.	PUNCT	PunctType=Peri	8	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1.1">
 La	La	el	DET	PronType=Art Gender=Fem Number=Sing	1	det	llista	NOUN	Gender=Fem Number=Sing	2
 llista	llista	llista	NOUN	Gender=Fem Number=Sing	2	nsubj	incloure	VERB	Mood=Par Number=Sing Gender=Fem	12
@@ -43,9 +67,11 @@ Ple	Ple	ple	PROPN		19	nmod	dossier	NOUN	Gender=Masc Number=Sing	15
 </s>
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.1.2">
 D'	D'	de	ADP	AdpType=Prep	1	case	article	NOUN	Gender=Masc Number=Sing	5
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	2	fixed	de	ADP	AdpType=Prep	1
 amb	amb	amb	ADP	AdpType=Prep	3	fixed	de	ADP	AdpType=Prep	1
 l'	l'	el	DET	PronType=Art Number=Sing	4	det	article	NOUN	Gender=Masc Number=Sing	5
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	5	obl	substanciar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	13
 164	164	164	NUM		6	appos	article	NOUN	Gender=Masc Number=Sing	5
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	7|8	case|det	reglament	PROPN	|	10
@@ -63,10 +89,12 @@ primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	18	amod	punt	NOUN	G
 punt	punt	punt	NOUN	Gender=Masc Number=Sing	19	obj	substanciar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	13
 de	de	de	ADP	AdpType=Prep	20	case	ordre	NOUN	Number=Sing	22
 l'	l'	el	DET	PronType=Art Number=Sing	21	det	ordre	NOUN	Number=Sing	22
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	22	nmod	punt	NOUN	Gender=Masc Number=Sing	19
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	23|24	case|det	dia	NOUN	Gender=Masc Number=Sing	26
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	26	nmod	ordre	NOUN	Number=Sing	22
 d'	d'	de	ADP	AdpType=Prep	27	case	sessió	NOUN	Gender=Fem Number=Sing	29
+<g/>
 aquesta	aquesta	aquest	DET	PronType=Dem Gender=Fem Number=Sing	28	det	sessió	NOUN	Gender=Fem Number=Sing	29
 sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	29	nmod	dia	NOUN	Gender=Masc Number=Sing	26
 plenària	plenària	plenari	ADJ	Gender=Fem Number=Sing	30	amod	sessió	NOUN	Gender=Fem Number=Sing	29
@@ -75,12 +103,13 @@ plenària	plenària	plenari	ADJ	Gender=Fem Number=Sing	30	amod	sessió	NOUN	Gend
 </s>
 </p>
 <note type="-" content="Manifestació de condol i de condemna de la violència masclista"/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.2" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.2.1">
 Abans	Abans	abans	ADV		1	advmod	comunicar	VERB	Mood=Inf	12
 de	de	de	ADP	AdpType=Prep	2	mark	començar	VERB	Mood=Inf	3
 començar	començar	començar	VERB	Mood=Inf	3	advcl	abans	ADV		1
 l'	l'	el	DET	PronType=Art Number=Sing	4	det	ordre	NOUN	Number=Sing	5
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	5	nsubj	començar	VERB	Mood=Inf	3
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	6|7	case|det	dia	NOUN	Gender=Masc Number=Sing	9
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	9	nmod	ordre	NOUN	Number=Sing	5
@@ -91,6 +120,7 @@ que	que	que	SCONJ		15	mark	morir	VERB	Mood=Inf	37
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	16	punct	dada	NOUN	Gender=Fem Number=Plur	21
 d'	d'	de	ADP	AdpType=Prep	17	case	dada	NOUN	Gender=Fem Number=Plur	21
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	18	fixed	de	ADP	AdpType=Prep	17
 amb	amb	amb	ADP	AdpType=Prep	19	fixed	de	ADP	AdpType=Prep	17
 les	les	el	DET	PronType=Art Gender=Fem Number=Plur	20	det	dada	NOUN	Gender=Fem Number=Plur	21
@@ -100,6 +130,7 @@ del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	23|24	
 <name type="ORG">
 Departament	Departament	departament	PROPN		26	nmod	dada	NOUN	Gender=Fem Number=Plur	21
 d'	d'	d'	PROPN		27	case	interior	PROPN		28
+<g/>
 Interior	Interior	interior	PROPN		28	flat	departament	PROPN		26
 </name>
 ,	,	,	PUNCT	PunctType=Comm	29	punct	dada	NOUN	Gender=Fem Number=Plur	21
@@ -108,9 +139,11 @@ el	el	el	DET	PronType=Art Gender=Masc Number=Sing	31	det	22	NUM		33
 passat	passat	passat	NOUN	Gender=Masc Number=Sing	32	amod	22	NUM		33
 22	22	22	NUM		33	obl	morir	VERB	Mood=Inf	37
 d'	d'	de	ADP	AdpType=Prep	34	case	agost	NOUN	Gender=Masc Number=Sing	35
+<g/>
 agost	agost	agost	NOUN	Gender=Masc Number=Sing	35	compound	22	NUM		33
 va	va	anar	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	36	aux	morir	VERB	Mood=Inf	37
-morir	morir	morir	VERB	Mood=Inf	37	xcomp	c			14
+morir	morir	morir	VERB	Mood=Inf	37	xcomp	
+			14
 assassinada	assassinada	assassinar	VERB	Mood=Par Number=Sing Gender=Fem	38	obj	morir	VERB	Mood=Inf	37
 a	a	a	ADP	AdpType=Prep	39	case	terrassa	PROPN		40
 <name type="LOC">
@@ -135,7 +168,7 @@ Catalunya	Catalunya	catalunya	PROPN		52	nmod	víctima	NOUN	Gender=Fem Number=Sin
 .	.	.	PUNCT	PunctType=Peri	53	punct	comunicar	VERB	Mood=Inf	12
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.3" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.3.1">
 En	En	en	ADP	AdpType=Prep	1	case	cambra	NOUN	Gender=Fem Number=Sing	5
 nom	nom	nom	NOUN	Gender=Masc Number=Sing	2	fixed	en	ADP	AdpType=Prep	1
@@ -159,6 +192,7 @@ Parlament	Parlament	parlament	PROPN		19	nmod	compromís	NOUN	Gender=Masc Number=
 </name>
 en	en	en	ADP	AdpType=Prep	20	case	eradicació	NOUN	Gender=Fem Number=Sing	22
 l'	l'	el	DET	PronType=Art Number=Sing	21	det	eradicació	NOUN	Gender=Fem Number=Sing	22
+<g/>
 eradicació	eradicació	eradicació	NOUN	Gender=Fem Number=Sing	22	nmod	compromís	NOUN	Gender=Masc Number=Sing	15
 de	de	de	ADP	AdpType=Prep	23	case	forma	NOUN	Gender=Fem Number=Sing	25
 qualsevol	qualsevol	qualsevol	DET	PronType=Ind Number=Sing	24	det	forma	NOUN	Gender=Fem Number=Sing	25
@@ -178,9 +212,10 @@ record	record	record	NOUN	Gender=Masc Number=Sing	36	obl	vetllar	VERB	Mood=Inf	3
 .	.	.	PUNCT	PunctType=Peri	37	punct	lamentar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.4" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.4" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.4.1">
 D'	D'	de	ADP	AdpType=Prep	1	case	protocol	NOUN	Gender=Masc Number=Sing	5
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	2	fixed	de	ADP	AdpType=Prep	1
 amb	amb	amb	ADP	AdpType=Prep	3	fixed	de	ADP	AdpType=Prep	1
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	4	det	protocol	NOUN	Gender=Masc Number=Sing	5
@@ -240,15 +275,14 @@ façana	façana	façana	NOUN	Gender=Fem Number=Sing	51	obl	davant	ADV		48
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	52|53	case|det	palau	PROPN	|	55
 <name type="LOC">
 Palau	Palau	palau	PROPN		55	nmod	façana	NOUN	Gender=Fem Number=Sing	51
-de	de	de	PROPN		56	case	parlament	PROPN		58
-el	el	el	PROPN		57	det	parlament	PROPN		58
-Parlament	Parlament	parlament	PROPN		58	flat	palau	PROPN		55
+del	del	del	PROPN		56	case	parlament	PROPN		57
+Parlament	Parlament	parlament	PROPN		57	flat	palau	PROPN		55
 </name>
-.	.	.	PUNCT	PunctType=Peri	59	punct	convocar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	31
+.	.	.	PUNCT	PunctType=Peri	58	punct	convocar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	31
 </s>
 </p>
-<note type="-" content="Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d’acollida de migrants"/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.5" lang="Catalan">
+<note type="-" content="Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.5" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.5.1">
 Així	Així	així	ADV		1	advmod	informar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	5
 mateix	mateix	mateix	ADJ	Gender=Masc Number=Sing	2	fixed	així	ADV		1
@@ -262,6 +296,7 @@ que	que	que	SCONJ		6	mark	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60
 en	en	en	ADP	AdpType=Prep	8	case	compliment	NOUN	Gender=Masc Number=Sing	9
 compliment	compliment	compliment	NOUN	Gender=Masc Number=Sing	9	obl	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60
 d'	d'	de	ADP	AdpType=Prep	10	case	allò	PRON	PronType=Dem Number=Sing	11
+<g/>
 allò	allò	allò	PRON	PronType=Dem Number=Sing	11	nmod	compliment	NOUN	Gender=Masc Number=Sing	9
 que	que	que	PRON	PronType=Rel	12	obj	establir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13
 estableix	estableix	establir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13	acl	allò	PRON	PronType=Dem Number=Sing	11
@@ -291,6 +326,7 @@ i	i	i	CCONJ		32	cc	política	NOUN	Gender=Fem Number=Plur	34
 les	les	el	DET	PronType=Art Gender=Fem Number=Plur	33	det	política	NOUN	Gender=Fem Number=Plur	34
 polítiques	polítiques	política	NOUN	Gender=Fem Number=Plur	34	conj	operació	NOUN	Gender=Fem Number=Plur	26
 d'	d'	de	ADP	AdpType=Prep	35	case	acollida	NOUN	Gender=Fem Number=Sing	36
+<g/>
 acollida	acollida	acollida	NOUN	Gender=Fem Number=Sing	36	nmod	política	NOUN	Gender=Fem Number=Plur	34
 de	de	de	ADP	AdpType=Prep	37	case	migrants	NOUN	Number=Plur	38
 migrants	migrants	migrants	NOUN	Number=Plur	38	nmod	acollida	NOUN	Gender=Fem Number=Sing	36
@@ -302,6 +338,7 @@ dades	dades	dada	NOUN	Gender=Fem Number=Plur	42	obl	haver	VERB	Mood=Ind Tense=Pr
 oficials	oficials	oficial	ADJ	Number=Plur	43	amod	dada	NOUN	Gender=Fem Number=Plur	42
 de	de	de	ADP	AdpType=Prep	44	case	organització	PROPN		46
 l'	l'	el	DET	PronType=Art Number=Sing	45	det	organització	PROPN		46
+<g/>
 <name type="ORG">
 Organització	Organització	organització	PROPN		46	nmod	dada	NOUN	Gender=Fem Number=Plur	42
 Internacional	Internacional	internacional	PROPN		47	flat	organització	PROPN		46
@@ -312,6 +349,7 @@ Migracions	Migracions	migracions	PROPN		50	flat	organització	PROPN		46
 des	des	des	ADP	AdpType=Prep	51	case	inici	NOUN	Gender=Masc Number=Sing	54
 de	de	de	ADP	AdpType=Prep	52	fixed	des	ADP	AdpType=Prep	51
 l'	l'	el	DET	PronType=Art Number=Sing	53	det	inici	NOUN	Gender=Masc Number=Sing	54
+<g/>
 inici	inici	inici	NOUN	Gender=Masc Number=Sing	54	obl	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	55|56	case|det	2020	NUM	|	58
 2020	2020	2020	NUM		58	nmod	inici	NOUN	Gender=Masc Number=Sing	54
@@ -330,9 +368,9 @@ Mediterrània	Mediterrània	mediterrània	PROPN		68	obl	matar	VERB	Mood=Par Numb
 .	.	.	PUNCT	PunctType=Peri	69	punct	informar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	5
 </s>
 </p>
-<note type="-" content="Pregunta al Govern sobre l’inici del curs escolar 2020-2021"/>
+<note type="-" content="Pregunta al Govern sobre l'inici del curs escolar 2020-2021"/>
 <note type="-" content="310-00375/12"/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.6" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.6.1">
 Seguim	Seguim	seguir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 amb	amb	amb	ADP	AdpType=Prep	2	case	punt	NOUN	Gender=Masc Number=Sing	5
@@ -341,10 +379,12 @@ primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	4	amod	punt	NOUN	Ge
 punt	punt	punt	NOUN	Gender=Masc Number=Sing	5	obl	seguir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 de	de	de	ADP	AdpType=Prep	6	case	ordre	NOUN	Number=Sing	8
 l'	l'	el	DET	PronType=Art Number=Sing	7	det	ordre	NOUN	Number=Sing	8
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	8	nmod	punt	NOUN	Gender=Masc Number=Sing	5
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	9|10	case|det	dia	NOUN	Gender=Masc Number=Sing	12
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	12	nmod	ordre	NOUN	Number=Sing	8
 d'	d'	de	ADP	AdpType=Prep	13	case	sessió	NOUN	Gender=Fem Number=Sing	15
+<g/>
 aquesta	aquesta	aquest	DET	PronType=Dem Gender=Fem Number=Sing	14	det	sessió	NOUN	Gender=Fem Number=Sing	15
 sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	15	nmod	dia	NOUN	Gender=Masc Number=Sing	12
 <g/>
@@ -360,7 +400,7 @@ Govern	Govern	govern	PROPN		24	nmod	pregunta	NOUN	Gender=Fem Number=Plur	20
 .	.	.	PUNCT	PunctType=Peri	25	punct	seguir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7.1">
 I	I	i	CCONJ		1	advmod	inici	NOUN	Gender=Masc Number=Sing	8
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	pregunta	NOUN	Gender=Fem Number=Sing	4
@@ -369,6 +409,7 @@ pregunta	pregunta	pregunta	NOUN	Gender=Fem Number=Sing	4	nsubj	inici	NOUN	Gender
 és	és	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	5	cop	inici	NOUN	Gender=Masc Number=Sing	8
 sobre	sobre	sobre	ADP	AdpType=Prep	6	case	inici	NOUN	Gender=Masc Number=Sing	8
 l'	l'	el	DET	PronType=Art Number=Sing	7	det	inici	NOUN	Gender=Masc Number=Sing	8
+<g/>
 inici	inici	inici	NOUN	Gender=Masc Number=Sing	8	root	-	-	-	-
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	9|10	case|det	curs	NOUN	Gender=Masc Number=Sing	12
 curs	curs	curs	NOUN	Gender=Masc Number=Sing	12	nmod	inici	NOUN	Gender=Masc Number=Sing	8
@@ -387,22 +428,21 @@ del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	22|23	
 <name type="ORG">
 Subgrup	Subgrup	subgrup	PROPN		25	nmod	formular	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	18
 Parlamentari	Parlamentari	parlamentari	PROPN		26	flat	subgrup	PROPN		25
-de	de	de	PROPN		27	case	partit	PROPN		29
-el	el	el	PROPN		28	det	partit	PROPN		29
-Partit	Partit	partit	PROPN		29	nmod	subgrup	PROPN		25
-Popular	Popular	popular	PROPN		30	flat	partit	PROPN		29
-de	de	de	PROPN		31	case	catalunya	PROPN		32
-Catalunya	Catalunya	catalunya	PROPN		32	flat	partit	PROPN		29
+del	del	del	PROPN		27	case	partit	PROPN		28
+Partit	Partit	partit	PROPN		28	nmod	subgrup	PROPN		25
+Popular	Popular	popular	PROPN		29	flat	partit	PROPN		28
+de	de	de	PROPN		30	case	catalunya	PROPN		31
+Catalunya	Catalunya	catalunya	PROPN		31	flat	partit	PROPN		28
 </name>
-,	,	,	PUNCT	PunctType=Comm	33	punct	diputat	NOUN	Gender=Masc Number=Sing	35
-el	el	el	DET	PronType=Art Gender=Masc Number=Sing	34	det	diputat	NOUN	Gender=Masc Number=Sing	35
-diputat	diputat	diputat	NOUN	Gender=Masc Number=Sing	35	appos	subgrup	PROPN		25
-senyor	senyor	senyor	NOUN	Gender=Masc Number=Sing	36	appos	diputat	NOUN	Gender=Masc Number=Sing	35
+,	,	,	PUNCT	PunctType=Comm	32	punct	diputat	NOUN	Gender=Masc Number=Sing	34
+el	el	el	DET	PronType=Art Gender=Masc Number=Sing	33	det	diputat	NOUN	Gender=Masc Number=Sing	34
+diputat	diputat	diputat	NOUN	Gender=Masc Number=Sing	34	appos	subgrup	PROPN		25
+senyor	senyor	senyor	NOUN	Gender=Masc Number=Sing	35	appos	diputat	NOUN	Gender=Masc Number=Sing	34
 <name type="PER">
-Daniel	Daniel	daniel	PROPN		37	appos	diputat	NOUN	Gender=Masc Number=Sing	35
-Serrano	Serrano	serrano	PROPN		38	flat	daniel	PROPN		37
+Daniel	Daniel	daniel	PROPN		36	appos	diputat	NOUN	Gender=Masc Number=Sing	34
+Serrano	Serrano	serrano	PROPN		37	flat	daniel	PROPN		36
 </name>
-.	.	.	PUNCT	PunctType=Peri	39	punct	inici	NOUN	Gender=Masc Number=Sing	8
+.	.	.	PUNCT	PunctType=Peri	38	punct	inici	NOUN	Gender=Masc Number=Sing	8
 </s>
 <s id="ParlaMint-ES-CT_2020-09-09-6001.1.0.7.2">
 Quan	Quan	quan	SCONJ		1	mark	voler	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	2
@@ -413,8 +453,8 @@ vulgui	vulgui	voler	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	2	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="Daniel Serrano Coronado"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.2.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="60" sitting="1" agenda="" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Member" speaker_id="SerranoDaniel" speaker_name="Serrano Coronado, Daniel" speaker_mp="MP" speaker_minister="-" speaker_party="PP" speaker_party_name="Partido Popular" party_status="" speaker_gender="M" speaker_birth="1976">
-<p id="ParlaMint-ES-CT_2020-09-09-6001.2.0.0" lang="Spanish">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.2.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Espanyol" body="Unicameralisme" term="12" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Diputat/da" speaker_id="SerranoDaniel" speaker_name="Serrano Coronado, Daniel" speaker_mp="MP" speaker_minister="notMinister" speaker_party="PP" speaker_party_name="Partido Popular" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1976">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.2.0.0" lang="Espanyol">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.2.0.0.1">
 <name type="PER">
 Gracias	Gracias	gracias	PROPN		1	dep	presidente	NOUN	Gender=Masc Number=Sing	3
@@ -460,8 +500,8 @@ alumnos	alumnos	alumno	NOUN	Gender=Masc Number=Plur	31	conj	centro	NOUN	Gender=M
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.244.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="60" sitting="1" agenda="" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Member" speaker_id="BargallóJosep" speaker_name="Bargalló Valls, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="" speaker_gender="M" speaker_birth="1977">
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0" lang="Catalan">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.244.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Català" body="Unicameralisme" term="12" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Diputat/da" speaker_id="BargallóJosep" speaker_name="Bargalló Valls, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1977">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.0.1">
 Diputades	Diputades	diputada	NOUN	Gender=Fem Number=Plur	1	root	-	-	-	-
 <g/>
@@ -478,14 +518,14 @@ en	en	en	ADP	AdpType=Prep	8	case	lloc	NOUN	Gender=Masc Number=Sing	10
 primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	9	amod	lloc	NOUN	Gender=Masc Number=Sing	10
 lloc	lloc	lloc	NOUN	Gender=Masc Number=Sing	10	nmod	diputada	NOUN	Gender=Fem Number=Plur	1
 <g/>
-...	...	.	PUNCT	PunctType=Comm	11	punct	perdó	NOUN	Gender=Masc Number=Sing	12
+...	...	...	PUNCT	PunctType=Comm	11	punct	perdó	NOUN	Gender=Masc Number=Sing	12
 Perdó	Perdó	perdó	NOUN	Gender=Masc Number=Sing	12	appos	diputada	NOUN	Gender=Fem Number=Plur	1
 <g/>
 .	.	.	PUNCT	PunctType=Peri	13	punct	diputada	NOUN	Gender=Fem Number=Plur	1
 </s>
 </p>
-<note type="vocal:murmuring" content="Veus de fons."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1" lang="Catalan">
+<note type="vocal:murmuring" content="(Veus de fons.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.1.1">
 <name type="PER">
 Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
@@ -499,15 +539,18 @@ lloc	lloc	lloc	NOUN	Gender=Masc Number=Sing	3	obl	lloc	NOUN	Gender=Masc Number=S
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	4	punct	lloc	NOUN	Gender=Masc Number=Sing	3
 l'	l'	el	DET	PronType=Art Number=Sing	5	det	escola	NOUN	Gender=Fem Number=Sing	6
+<g/>
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	6	nsubj	lloc	NOUN	Gender=Masc Number=Sing	23
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	7	punct	institut	NOUN	Gender=Masc Number=Sing	9
 l'	l'	el	DET	PronType=Art Number=Sing	8	det	institut	NOUN	Gender=Masc Number=Sing	9
+<g/>
 institut	institut	institut	NOUN	Gender=Masc Number=Sing	9	appos	escola	NOUN	Gender=Fem Number=Sing	6
 o	o	o	CCONJ		10	cc	llar	NOUN	Gender=Fem Number=Sing	12
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	11	det	llar	NOUN	Gender=Fem Number=Sing	12
 llar	llar	llar	NOUN	Gender=Fem Number=Sing	12	conj	escola	NOUN	Gender=Fem Number=Sing	6
 d'	d'	de	ADP	AdpType=Prep	13	case	infant	NOUN	Gender=Masc Number=Plur	14
+<g/>
 infants	infants	infant	NOUN	Gender=Masc Number=Plur	14	nmod	llar	NOUN	Gender=Fem Number=Sing	12
 seran	seran	ser	AUX	Mood=Ind Tense=Fut Person=3 Number=Plur	15	cop	lloc	NOUN	Gender=Masc Number=Sing	23
 <g/>
@@ -553,7 +596,7 @@ seva	seva	seu	ADJ	Poss=Yes Gender=Fem Number=Sing Person=3	55	det	casa	NOUN	Gend
 .	.	.	PUNCT	PunctType=Peri	56	punct	lloc	NOUN	Gender=Masc Number=Sing	23
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.2" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.2.1">
 Serà	Serà	ser	AUX	Mood=Ind Tense=Fut Person=3 Number=Sing	1	cop	lloc	NOUN	Gender=Masc Number=Sing	3
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	2	det	lloc	NOUN	Gender=Masc Number=Sing	3
@@ -659,6 +702,7 @@ màximes	màximes	màxima	NOUN	Gender=Fem Number=Plur	8	obj	haver	VERB	Mood=Ind 
 ,	,	,	PUNCT	PunctType=Comm	9	punct	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	6
 no	no	no	ADV	Polarity=Neg	10	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13
 n'	n'	en	PRON	PronType=Prs Person=3	11	obj	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13
+<g/>
 hi	hi	hi	PRON	PronType=Prs Person=3	12	obj	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13
 ha	ha	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13	root	-	-	-	-
 més	més	més	ADV		14	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13
@@ -666,6 +710,7 @@ més	més	més	ADV		14	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sin
 –	–	–	PUNCT		15	punct	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	19
 no	no	no	ADV	Polarity=Neg	16	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	19
 n'	n'	en	PRON	PronType=Prs Person=3	17	obj	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	19
+<g/>
 hi	hi	hi	PRON	PronType=Prs Person=3	18	obj	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	19
 ha	ha	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	19	advcl	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	13
 més	més	més	ADV		20	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	19
@@ -676,6 +721,7 @@ més	més	més	ADV		20	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sin
 Ara	Ara	ara	ADV		1	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
 no	no	no	ADV	Polarity=Neg	2	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
 n'	n'	en	PRON	PronType=Prs Person=3	3	obj	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
+<g/>
 hi	hi	hi	PRON	PronType=Prs Person=3	4	obj	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
 ha	ha	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5	root	-	-	-	-
 més	més	més	ADV		6	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
@@ -704,6 +750,7 @@ posin	posin	posar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	4	root	-	-	-	-
 alguna	alguna	algun	DET	PronType=Ind Gender=Fem Number=Sing	5	obj	posar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	4
 més	més	més	ADV		6	advmod	algun	DET	PronType=Ind Gender=Fem Number=Sing	5
 d'	d'	de	ADP	AdpType=Prep	7	case	aquí	ADV		8
+<g/>
 aquí	aquí	aquí	ADV		8	advmod	algun	DET	PronType=Ind Gender=Fem Number=Sing	5
 a	a	a	ADP	AdpType=Prep	9	case	setmana	NOUN	Gender=Fem Number=Sing	11
 una	una	un	DET	PronType=Ind Gender=Fem Number=Sing	10	det	setmana	NOUN	Gender=Fem Number=Sing	11
@@ -753,6 +800,7 @@ el	el	el	DET	PronType=Art Gender=Masc Number=Sing	2	det	projecte	PROPN		3
 Projecte	Projecte	projecte	PROPN		3	obj	tenir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 </name>
 d'	d'	de	ADP	AdpType=Prep	4	case	escola	NOUN	Gender=Fem Number=Plur	5
+<g/>
 escoles	escoles	escola	NOUN	Gender=Fem Number=Plur	5	nmod	projecte	PROPN		3
 sentinelles	sentinelles	sentinella	NOUN	Number=Plur	6	amod	escola	NOUN	Gender=Fem Number=Plur	5
 <g/>
@@ -770,6 +818,7 @@ continu	continu	continu	ADJ	Gender=Masc Number=Sing	16	amod	seguiment	NOUN	Gende
 per	per	per	ADP	AdpType=Prep	17	mark	veure	VERB	Mood=Inf	18
 veure	veure	veure	VERB	Mood=Inf	18	advcl	fer	VERB	Mood=Ind Tense=Fut Person=3 Number=Sing	13
 l'	l'	el	DET	PronType=Art Number=Sing	19	det	evolució	NOUN	Gender=Fem Number=Sing	20
+<g/>
 evolució	evolució	evolució	NOUN	Gender=Fem Number=Sing	20	obj	veure	VERB	Mood=Inf	18
 de	de	de	ADP	AdpType=Prep	21	case	pandèmia	NOUN	Gender=Fem Number=Sing	23
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	22	det	pandèmia	NOUN	Gender=Fem Number=Sing	23
@@ -793,11 +842,13 @@ la	la	el	DET	PronType=Art Gender=Fem Number=Sing	40	det	vall	PROPN		41
 <name type="LOC">
 Vall	Vall	vall	PROPN		41	nmod	tutela	NOUN	Gender=Fem Number=Sing	38
 d'	d'	d'	PROPN		42	case	hebron	PROPN		43
+<g/>
 Hebron	Hebron	hebron	PROPN		43	flat	vall	PROPN		41
 </name>
 i	i	i	CCONJ		44	cc	hospital	PROPN		47
 de	de	de	ADP	AdpType=Prep	45	case	hospital	PROPN		47
 l'	l'	el	DET	PronType=Art Number=Sing	46	det	hospital	PROPN		47
+<g/>
 <name type="ORG">
 Hospital	Hospital	hospital	PROPN		47	conj	vall	PROPN		41
 Sant	Sant	sant	PROPN		48	flat	hospital	PROPN		47
@@ -821,7 +872,7 @@ totes	totes	tot	DET	PronType=Ind Gender=Fem Number=Plur	7	appos	mesura	NOUN	Gend
 .	.	.	PUNCT	PunctType=Peri	8	punct	mesura	NOUN	Gender=Fem Number=Plur	4
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.3" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.3.1">
 Una	Una	un	DET	PronType=Ind Gender=Fem Number=Sing	1	det	mesura	NOUN	Gender=Fem Number=Sing	2
 mesura	mesura	mesura	NOUN	Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -852,6 +903,7 @@ estable	estable	estable	ADJ	Number=Sing	25	amod	grup	NOUN	Gender=Masc Number=Sin
 ,	,	,	PUNCT	PunctType=Comm	26	punct	estancabilitat	NOUN	Gender=Fem Number=Sing	29
 sinó	sinó	sinó	CCONJ		27	cc	estancabilitat	NOUN	Gender=Fem Number=Sing	29
 l'	l'	el	DET	PronType=Art Number=Sing	28	det	estancabilitat	NOUN	Gender=Fem Number=Sing	29
+<g/>
 estancabilitat	estancabilitat	estancabilitat	NOUN	Gender=Fem Number=Sing	29	conj	important	ADJ	Number=Sing	18
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	30|31	case|det	grup	NOUN	Gender=Masc Number=Sing	33
 grup	grup	grup	NOUN	Gender=Masc Number=Sing	33	nmod	estancabilitat	NOUN	Gender=Fem Number=Sing	29
@@ -877,20 +929,19 @@ estancabilitat	estancabilitat	estancabilitat	NOUN	Gender=Fem Number=Sing	49	nsub
 .	.	.	PUNCT	PunctType=Peri	50	punct	grup	NOUN	Gender=Masc Number=Plur	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4.1">
-De	De	de	ADP	AdpType=Prep	1	case	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
-el	el	el	DET	PronType=Art Gender=Masc Number=Sing	2	det	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
-que	que	que	PRON	PronType=Rel	3	obj	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
-vostè	vostè	vostè	PRON	PronType=Prs Person=2 Number=Sing Polite=Form	4	nsubj	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
-ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	5	aux	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
-comentat	comentat	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6	root	-	-	-	-
+Del	De|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	1|2	case|det	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7
+que	que	que	PRON	PronType=Rel	4	obj	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7
+vostè	vostè	vostè	PRON	PronType=Prs Person=2 Number=Sing Polite=Form	5	nsubj	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7
+ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	6	aux	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7
+comentat	comentat	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7	acl	presencialitat	NOUN	Gender=Fem Number=Sing	10
 <g/>
-,	,	,	PUNCT	PunctType=Comm	7	punct	presencialitat	NOUN	Gender=Fem Number=Sing	9
-la	la	el	DET	PronType=Art Gender=Fem Number=Sing	8	det	presencialitat	NOUN	Gender=Fem Number=Sing	9
-presencialitat	presencialitat	presencialitat	NOUN	Gender=Fem Number=Sing	9	obj	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
+,	,	,	PUNCT	PunctType=Comm	8	punct	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7
+la	la	el	DET	PronType=Art Gender=Fem Number=Sing	9	det	presencialitat	NOUN	Gender=Fem Number=Sing	10
+presencialitat	presencialitat	presencialitat	NOUN	Gender=Fem Number=Sing	10	root	-	-	-	-
 <g/>
-.	.	.	PUNCT	PunctType=Peri	10	punct	comentar	VERB	Mood=Par Number=Sing Gender=Masc	6
+.	.	.	PUNCT	PunctType=Peri	11	punct	presencialitat	NOUN	Gender=Fem Number=Sing	10
 </s>
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4.2">
 Hem	Hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	1	aux	apostar	VERB	Mood=Par Number=Sing Gender=Masc	2
@@ -903,6 +954,7 @@ presencialitat	presencialitat	presencialitat	NOUN	Gender=Fem Number=Sing	5	obj	a
 </s>
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.4.3">
 L'	L'	el	DET	PronType=Art Number=Sing	1	det	ensenyament	NOUN	Gender=Masc Number=Sing	2
+<g/>
 ensenyament	ensenyament	ensenyament	NOUN	Gender=Masc Number=Sing	2	nsubj	fer	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	10
 híbrid	híbrid	híbrid	ADJ	Gender=Masc Number=Sing	3	amod	ensenyament	NOUN	Gender=Masc Number=Sing	2
 fora	fora	fora	ADV		4	advmod	ensenyament	NOUN	Gender=Masc Number=Sing	2
@@ -926,6 +978,7 @@ som	som	ser	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	5	cop	govern	NOUN	Gende
 dels	de|els	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Plur	6|7	case|det	govern	NOUN	Gender=Masc Number=Plur	9
 governs	governs	govern	NOUN	Gender=Masc Number=Plur	9	root	-	-	-	-
 d'	d'	de	ADP	AdpType=Prep	10	case	europa	PROPN		11
+<g/>
 <name type="LOC">
 Europa	Europa	europa	PROPN		11	nmod	govern	NOUN	Gender=Masc Number=Plur	9
 </name>
@@ -941,7 +994,7 @@ presencialitat	presencialitat	presencialitat	NOUN	Gender=Fem Number=Sing	19	obj	
 .	.	.	PUNCT	PunctType=Peri	20	punct	govern	NOUN	Gender=Masc Number=Plur	9
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.5" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.5" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.5.1">
 La	La	el	DET	PronType=Art Gender=Fem Number=Sing	1	det	connectivitat	NOUN	Gender=Fem Number=Sing	2
 connectivitat	connectivitat	connectivitat	NOUN	Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -963,6 +1016,7 @@ curs	curs	curs	NOUN	Gender=Masc Number=Sing	8	nmod	pla	NOUN	Gender=Masc Number=S
 de	de	de	ADP	AdpType=Prep	10	case	106000000	NUM		11
 106_milions	106_milions	106000000	NUM		11	nmod	pla	NOUN	Gender=Masc Number=Sing	2
 d'	d'	de	ADP	AdpType=Prep	12	case	euro	NOUN	Gender=Masc Number=Plur	13
+<g/>
 euros	euros	euro	NOUN	Gender=Masc Number=Plur	13	nmod	106000000	NUM		11
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	14	punct	xifra	NOUN	Gender=Fem Number=Plur	17
@@ -998,7 +1052,7 @@ encara	encara	encara	ADV		41	advmod	material	NOUN	Gender=Masc Number=Sing	40
 .	.	.	PUNCT	PunctType=Peri	42	punct	pla	NOUN	Gender=Masc Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6.1">
 La	La	el	DET	PronType=Art Gender=Fem Number=Sing	1	det	conciliació	NOUN	Gender=Fem Number=Sing	2
 conciliació	conciliació	conciliació	NOUN	Gender=Fem Number=Sing	2	root	-	-	-	-
@@ -1052,10 +1106,12 @@ ens	ens	ens	PRON	PronType=Prs Person=1 Number=Plur	37	obj	obligar	VERB	Mood=Ind 
 obliguen	obliguen	obligar	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	38	advcl	més	ADV		29
 i	i	i	CCONJ		39	cc	demanar	VERB	Mood=Ger	42
 d'	d'	de	ADP	AdpType=Prep	40	case	altre	ADJ	Number=Plur	41
+<g/>
 altres	altres	altre	ADJ	Number=Plur	41	conj	demanar	VERB	Mood=Ger	42
 demanant	demanant	demanar	VERB	Mood=Ger	42	xcomp	assumir	VERB	Mood=Ger	28
 a	a	a	ADP	AdpType=Prep	43	case	estat	PROPN		45
 l'	l'	el	DET	PronType=Art Number=Sing	44	det	estat	PROPN		45
+<g/>
 <name type="ORG">
 Estat	Estat	estat	PROPN		45	iobj	demanar	VERB	Mood=Ger	42
 </name>
@@ -1099,52 +1155,60 @@ farem	farem	fer	VERB	Mood=Ind Tense=Fut Person=1 Number=Plur	20	ccomp	recordar	V
 nosaltres	nosaltres	nosaltres	PRON	PronType=Prs Person=1 Number=Plur	21	nsubj	fer	VERB	Mood=Ind Tense=Fut Person=1 Number=Plur	20
 <g/>
 .	.	.	PUNCT	PunctType=Peri	22	punct	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	3
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	23	punct	recordar	VERB	Mood=Inf	4
-Perquè	Perquè	perquè	SCONJ		24	mark	recordar	VERB	Mood=Inf	4
-és	és	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	25	cop	recordar	VERB	Mood=Inf	4
-evident	evident	evident	ADJ	Number=Sing	26	root	-	-	-	-
-que	que	que	SCONJ		27	mark	el	DET	PronType=Art Gender=Masc Number=Sing	9
-és	és	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	28	cop	recordar	VERB	Mood=Inf	4
-el	el	el	DET	PronType=Art Gender=Masc Number=Sing	29	det	cas	NOUN	Gender=Masc Number=Sing	8
-mateix	mateix	mateix	ADJ	Gender=Masc Number=Sing	30	nsubj	el	DET	PronType=Art Gender=Masc Number=Sing	9
-tenir	tenir	tenir	VERB	Mood=Inf	31	csubj	recordar	VERB	Mood=Inf	4
-cura	cura	cura	NOUN	Gender=Fem Number=Sing	32	obj	el	DET	PronType=Art Gender=Masc Number=Sing	9
-de	de	de	ADP	AdpType=Prep	33	case	dir	VERB	Mood=Par Number=Sing Gender=Masc	13
-l'	l'	el	DET	PronType=Art Number=Sing	34	det	dir	VERB	Mood=Par Number=Sing Gender=Masc	13
-aïllament	aïllament	aïllament	NOUN	Gender=Masc Number=Sing	35	nmod	que	PRON	PronType=Rel	10
-d'	d'	de	ADP	AdpType=Prep	36	case	«	PUNCT	PunctType=Peri	16
-un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	37	det	«	PUNCT	PunctType=Peri	16
-menor	menor	menor	NOUN	Number=Sing	38	nmod	dir	VERB	Mood=Par Number=Sing Gender=Masc	13
-d'	d'	de	ADP	AdpType=Prep	39	case	ja	ADV		18
-edat	edat	edat	NOUN	Gender=Fem Number=Sing	40	nmod	«	PUNCT	PunctType=Peri	16
-infectat	infectat	infectar	VERB	Mood=Par Number=Sing Gender=Masc	41	amod	«	PUNCT	PunctType=Peri	16
-que	que	que	PRON	PronType=Rel	42	mark	nosaltres	PRON	PronType=Prs Person=1 Number=Plur	21
-tenir	tenir	tenir	VERB	Mood=Inf	43	xcomp	el	DET	PronType=Art Gender=Masc Number=Sing	9
-cura	cura	cura	NOUN	Gender=Fem Number=Sing	44	obj	nosaltres	PRON	PronType=Prs Person=1 Number=Plur	21
-de	de	de	ADP	AdpType=Prep	45	case	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	25
-l'	l'	el	DET	PronType=Art Number=Sing	46	det	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	25
-aïllament	aïllament	aïllament	NOUN	Gender=Masc Number=Sing	47	nmod	.	PUNCT	PunctType=Peri	22
-d'	d'	de	ADP	AdpType=Prep	48	case	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	28
-un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	49	det	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	28
-menor	menor	menor	NOUN	Number=Sing	50	nmod	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	25
-d'	d'	de	ADP	AdpType=Prep	51	case	mateix	ADJ	Gender=Masc Number=Sing	30
-edat	edat	edat	NOUN	Gender=Fem Number=Sing	52	nmod	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	28
-contacte	contacte	contacte	NOUN	Gender=Masc Number=Sing	53	appos	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	28
-estret	estret	estrènyer	VERB	Mood=Par Number=Sing Gender=Masc	54	amod	tenir	VERB	Mood=Inf	31
-d'	d'	de	ADP	AdpType=Prep	55	case	aïllament	NOUN	Gender=Masc Number=Sing	35
-un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	56	det	aïllament	NOUN	Gender=Masc Number=Sing	35
-infectat	infectat	infectar	VERB	Mood=Par Number=Sing Gender=Masc	57	nmod	tenir	VERB	Mood=Inf	31
-<g/>
-.	.	.	PUNCT	PunctType=Peri	58	punct	recordar	VERB	Mood=Inf	4
 </s>
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6.4">
+Perquè	Perquè	perquè	SCONJ		1	mark	evident	ADJ	Number=Sing	3
+és	és	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	2	cop	evident	ADJ	Number=Sing	3
+evident	evident	evident	ADJ	Number=Sing	3	root	-	-	-	-
+que	que	que	SCONJ		4	mark	tenir	VERB	Mood=Inf	8
+és	és	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	5	cop	evident	ADJ	Number=Sing	3
+el	el	el	DET	PronType=Art Gender=Masc Number=Sing	6	det	mateix	ADJ	Gender=Masc Number=Sing	7
+mateix	mateix	mateix	ADJ	Gender=Masc Number=Sing	7	nsubj	evident	ADJ	Number=Sing	3
+tenir	tenir	tenir	VERB	Mood=Inf	8	csubj	evident	ADJ	Number=Sing	3
+cura	cura	cura	NOUN	Gender=Fem Number=Sing	9	obj	tenir	VERB	Mood=Inf	8
+de	de	de	ADP	AdpType=Prep	10	case	aïllament	NOUN	Gender=Masc Number=Sing	12
+l'	l'	el	DET	PronType=Art Number=Sing	11	det	aïllament	NOUN	Gender=Masc Number=Sing	12
+<g/>
+aïllament	aïllament	aïllament	NOUN	Gender=Masc Number=Sing	12	nmod	cura	NOUN	Gender=Fem Number=Sing	9
+d'	d'	de	ADP	AdpType=Prep	13	case	menor	NOUN	Number=Sing	15
+<g/>
+un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	14	det	menor	NOUN	Number=Sing	15
+menor	menor	menor	NOUN	Number=Sing	15	nmod	aïllament	NOUN	Gender=Masc Number=Sing	12
+d'	d'	de	ADP	AdpType=Prep	16	case	edat	NOUN	Gender=Fem Number=Sing	17
+<g/>
+edat	edat	edat	NOUN	Gender=Fem Number=Sing	17	nmod	menor	NOUN	Number=Sing	15
+infectat	infectat	infectar	VERB	Mood=Par Number=Sing Gender=Masc	18	amod	menor	NOUN	Number=Sing	15
+que	que	que	PRON	PronType=Rel	19	mark	tenir	VERB	Mood=Inf	20
+tenir	tenir	tenir	VERB	Mood=Inf	20	xcomp	tenir	VERB	Mood=Inf	8
+cura	cura	cura	NOUN	Gender=Fem Number=Sing	21	obj	tenir	VERB	Mood=Inf	20
+de	de	de	ADP	AdpType=Prep	22	case	aïllament	NOUN	Gender=Masc Number=Sing	24
+l'	l'	el	DET	PronType=Art Number=Sing	23	det	aïllament	NOUN	Gender=Masc Number=Sing	24
+<g/>
+aïllament	aïllament	aïllament	NOUN	Gender=Masc Number=Sing	24	nmod	cura	NOUN	Gender=Fem Number=Sing	21
+d'	d'	de	ADP	AdpType=Prep	25	case	menor	NOUN	Number=Sing	27
+<g/>
+un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	26	det	menor	NOUN	Number=Sing	27
+menor	menor	menor	NOUN	Number=Sing	27	nmod	aïllament	NOUN	Gender=Masc Number=Sing	24
+d'	d'	de	ADP	AdpType=Prep	28	case	edat	NOUN	Gender=Fem Number=Sing	29
+<g/>
+edat	edat	edat	NOUN	Gender=Fem Number=Sing	29	nmod	menor	NOUN	Number=Sing	27
+contacte	contacte	contacte	NOUN	Gender=Masc Number=Sing	30	appos	menor	NOUN	Number=Sing	27
+estret	estret	estrènyer	VERB	Mood=Par Number=Sing Gender=Masc	31	amod	contacte	NOUN	Gender=Masc Number=Sing	30
+d'	d'	de	ADP	AdpType=Prep	32	case	infectar	VERB	Mood=Par Number=Sing Gender=Masc	34
+<g/>
+un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	33	det	infectar	VERB	Mood=Par Number=Sing Gender=Masc	34
+infectat	infectat	infectar	VERB	Mood=Par Number=Sing Gender=Masc	34	nmod	contacte	NOUN	Gender=Masc Number=Sing	30
+<g/>
+.	.	.	PUNCT	PunctType=Peri	35	punct	evident	ADJ	Number=Sing	3
+</s>
+<s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6.5">
 És	És	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	1	cop	mateix	ADJ	Gender=Masc Number=Sing	3
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	2	det	mateix	ADJ	Gender=Masc Number=Sing	3
 mateix	mateix	mateix	ADJ	Gender=Masc Number=Sing	3	root	-	-	-	-
 <g/>
 .	.	.	PUNCT	PunctType=Peri	4	punct	mateix	ADJ	Gender=Masc Number=Sing	3
 </s>
-<s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6.5">
+<s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.6.6">
 Socialment	Socialment	socialment	ADV		1	advmod	tenir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
 i	i	i	CCONJ		2	cc	comunitàriament	ADV		3
 comunitàriament	comunitàriament	comunitàriament	ADV		3	conj	socialment	ADV		1
@@ -1156,7 +1220,7 @@ diferència	diferència	diferència	NOUN	Gender=Fem Number=Sing	7	obj	tenir	VERB
 .	.	.	PUNCT	PunctType=Peri	8	punct	tenir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.7" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.7" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.7.1">
 Per	Per	per	ADP	AdpType=Prep	1	case	actuació	NOUN	Gender=Fem Number=Plur	7
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	2	det	actuació	NOUN	Gender=Fem Number=Plur	7
@@ -1184,9 +1248,11 @@ en	en	en	PRON	PronType=Prs Person=3	22	obj	tenir	VERB	Mood=Ind Tense=Imp Person=
 tenien	tenien	tenir	VERB	Mood=Ind Tense=Imp Person=3 Number=Plur	23	conj	actuació	NOUN	Gender=Fem Number=Plur	7
 més	més	més	ADV		24	advmod	tenir	VERB	Mood=Ind Tense=Imp Person=3 Number=Plur	23
 d'	d'	de	ADP	AdpType=Prep	25	case	abans	ADV		26
+<g/>
 abans	abans	abans	ADV		26	advmod	més	ADV		24
 i	i	i	CCONJ		27	cc	agreujar	VERB	Mood=Par Number=Sing Gender=Masc	30
 s'	s'	es	PRON		28	obj	agreujar	VERB	Mood=Par Number=Sing Gender=Masc	30
+<g/>
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	29	aux	agreujar	VERB	Mood=Par Number=Sing Gender=Masc	30
 agreujat	agreujat	agreujar	VERB	Mood=Par Number=Sing Gender=Masc	30	conj	patir	VERB	Mood=Par Number=Sing Gender=Masc	13
 o	o	o	CCONJ		31	cc	tenir	VERB	Mood=Ind Tense=Imp Person=3 Number=Plur	34
@@ -1203,6 +1269,7 @@ pla	pla	pla	NOUN	Gender=Masc Number=Sing	40	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	41	case	45000000	NUM		42
 45_milions	45_milions	45000000	NUM		42	nmod	pla	NOUN	Gender=Masc Number=Sing	40
 d'	d'	de	ADP	AdpType=Prep	43	case	euro	NOUN	Gender=Masc Number=Plur	44
+<g/>
 euros	euros	euro	NOUN	Gender=Masc Number=Plur	44	nmod	45000000	NUM		42
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	45	punct	acció	NOUN	Gender=Fem Number=Plur	47
@@ -1229,6 +1296,7 @@ concretes	concretes	concret	ADJ	Gender=Fem Number=Plur	63	amod	acció	NOUN	Gende
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	65	det	majoria	NOUN	Gender=Fem Number=Sing	66
 majoria	majoria	majoria	NOUN	Gender=Fem Number=Sing	66	obj	seguir	VERB	Mood=Ger	69
 d'	d'	de	ADP	AdpType=Prep	67	case	ells	PRON	PronType=Prs Person=3 Gender=Fem Number=Plur	68
+<g/>
 elles	elles	ells	PRON	PronType=Prs Person=3 Gender=Fem Number=Plur	68	nmod	majoria	NOUN	Gender=Fem Number=Sing	66
 seguint	seguint	seguir	VERB	Mood=Ger	69	acl	acció	NOUN	Gender=Fem Number=Plur	61
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	70	det	pla	NOUN	Gender=Masc Number=Sing	71
@@ -1245,13 +1313,14 @@ Greuges	Greuges	greuges	PROPN		80	flat	síndic	PROPN		78
 ,	,	,	PUNCT	PunctType=Comm	81	punct	nou	ADJ	Gender=Fem Number=Plur	85
 i	i	i	CCONJ		82	cc	nou	ADJ	Gender=Fem Number=Plur	85
 d'	d'	de	ADP	AdpType=Prep	83	case	nou	ADJ	Gender=Fem Number=Plur	85
+<g/>
 altres	altres	altre	PRON	PronType=Ind Number=Plur	84	det	nou	ADJ	Gender=Fem Number=Plur	85
 noves	noves	nou	ADJ	Gender=Fem Number=Plur	85	conj	seguir	VERB	Mood=Ger	69
 <g/>
 .	.	.	PUNCT	PunctType=Peri	86	punct	pla	NOUN	Gender=Masc Number=Sing	40
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.8" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.8" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.8.1">
 Hem	Hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	1	aux	fer	VERB	Mood=Par Number=Sing Gender=Masc	2
 fet	fet	fer	VERB	Mood=Par Number=Sing Gender=Masc	2	root	-	-	-	-
@@ -1302,6 +1371,7 @@ i	i	i	CCONJ		41	cc	fer	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	42
 facin	facin	fer	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	42	conj	apostar	VERB	Mood=Ger	36
 de	de	de	ADP	AdpType=Prep	43	case	situació	NOUN	Gender=Fem Number=Sing	46
 l'	l'	el	DET	PronType=Art Number=Sing	44	det	situació	NOUN	Gender=Fem Number=Sing	46
+<g/>
 actual	actual	actual	ADJ	Number=Sing	45	amod	situació	NOUN	Gender=Fem Number=Sing	46
 situació	situació	situació	NOUN	Gender=Fem Number=Sing	46	obl	fer	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	42
 una	una	un	DET	PronType=Ind Gender=Fem Number=Sing	47	det	situació	NOUN	Gender=Fem Number=Sing	48
@@ -1374,12 +1444,14 @@ segons	segons	segons	ADP	AdpType=Prep	38	case	tipus	NOUN	Gender=Masc	40
 quin	quin	quin	DET	PronType=Int Gender=Masc Number=Sing	39	det	tipus	NOUN	Gender=Masc	40
 tipus	tipus	tipus	NOUN	Gender=Masc	40	obl	cosa	NOUN	Gender=Fem Number=Sing	53
 d'	d'	de	ADP	AdpType=Prep	41	case	escola	NOUN	Gender=Fem Number=Sing	42
+<g/>
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	42	nmod	tipus	NOUN	Gender=Masc	40
 de	de	de	ADP	AdpType=Prep	43	case	barri	NOUN	Gender=Masc Number=Sing	46
 segons	segons	segons	ADP	AdpType=Prep	44	case	barri	NOUN	Gender=Masc Number=Sing	46
 quin	quin	quin	DET	PronType=Int Gender=Masc Number=Sing	45	det	barri	NOUN	Gender=Masc Number=Sing	46
 barri	barri	barri	NOUN	Gender=Masc Number=Sing	46	nmod	tipus	NOUN	Gender=Masc	40
 d'	d'	de	ADP	AdpType=Prep	47	case	ciutat	NOUN	Gender=Fem Number=Sing	49
+<g/>
 una	una	un	DET	PronType=Ind Gender=Fem Number=Sing	48	det	ciutat	NOUN	Gender=Fem Number=Sing	49
 ciutat	ciutat	ciutat	NOUN	Gender=Fem Number=Sing	49	nmod	barri	NOUN	Gender=Masc Number=Sing	46
 és	és	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	50	cop	cosa	NOUN	Gender=Fem Number=Sing	53
@@ -1420,7 +1492,7 @@ escola	escola	escola	NOUN	Gender=Fem Number=Sing	79	nmod	riquesa	NOUN	Gender=Fem
 .	.	.	PUNCT	PunctType=Peri	80	punct	professorat	NOUN	Gender=Masc Number=Sing	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.9" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.244.0.9" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.244.0.9.1">
 Moltes	Moltes	molt	DET	PronType=Ind Gender=Fem Number=Plur	1	root	-	-	-	-
 gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	2	nmod	molt	DET	PronType=Ind Gender=Fem Number=Plur	1
@@ -1430,8 +1502,8 @@ gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	2	nmod	molt	DET	PronType=I
 </p>
 </speech>
 <note type="speaker" content="El president"/>
-<speech id="ParlaMint-ES-CT_2020-09-09-6001.245.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" body="Unicameralism" term="12" session="" meeting="60" sitting="1" agenda="" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Chairperson" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="-" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="" speaker_gender="M" speaker_birth="1979">
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0" lang="Catalan">
+<speech id="ParlaMint-ES-CT_2020-09-09-6001.245.0" text_id="ParlaMint-ES-CT_2020-09-09-6001" subcorpus="COVID" lang="Català" body="Unicameralisme" term="12" session="-" meeting="60" sitting="1" agenda="-" date="2020-09-09" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2020-09-09 6001.ana" speaker_role="Presidència" speaker_id="TorrentRoger" speaker_name="Torrent Ramió, Roger" speaker_mp="MP" speaker_minister="notMinister" speaker_party="JuntsPelSí" speaker_party_name="Junts pel Sí" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1979">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.0.1">
 <name type="PER">
 Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
@@ -1442,7 +1514,7 @@ conseller	conseller	conseller	NOUN	Gender=Masc Number=Sing	3	appos	gràcies	PROP
 .	.	.	PUNCT	PunctType=Peri	4	punct	gràcies	PROPN		1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.1.1">
 Hem	Hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	1	aux	cridar	VERB	Mood=Par Number=Sing Gender=Masc	2
 cridat	cridat	cridar	VERB	Mood=Par Number=Sing Gender=Masc	2	root	-	-	-	-
@@ -1463,13 +1535,14 @@ durant	durant	durant	ADP	AdpType=Prep	8	case	jornada	NOUN	Gender=Fem Number=Sing
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	9	det	jornada	NOUN	Gender=Fem Number=Sing	10
 jornada	jornada	jornada	NOUN	Gender=Fem Number=Sing	10	obl	debatre	VERB	Mood=Par Number=Plur Gender=Masc	7
 d'	d'	de	ADP	AdpType=Prep	11	case	avui	ADV		12
+<g/>
 avui	avui	avui	ADV		12	advmod	jornada	NOUN	Gender=Fem Number=Sing	10
 <g/>
 .	.	.	PUNCT	PunctType=Peri	13	punct	passar	VERB	Mood=Ind Tense=Fut Person=1 Number=Plur	1
 </s>
 </p>
-<note type="vocal:murmuring" content="Veus de fons."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.2" lang="Catalan">
+<note type="vocal:murmuring" content="(Veus de fons.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.2.1">
 Sí	Sí	sí	ADV		1	root	-	-	-	-
 <g/>
@@ -1498,6 +1571,7 @@ plau	plau	plaure	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	14	advcl	segar	VE
 ,	,	,	PUNCT	PunctType=Comm	15	punct	plaure	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	14
 a	a	a	ADP	AdpType=Prep	16	case	escó	NOUN	Gender=Masc Number=Sing	18
 l'	l'	el	DET	PronType=Art Number=Sing	17	det	escó	NOUN	Gender=Masc Number=Sing	18
+<g/>
 escó	escó	escó	NOUN	Gender=Masc Number=Sing	18	obj	segar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	10
 que	que	que	PRON	PronType=Rel	19	obj	tenir	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	20
 tenen	tenen	tenir	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	20	acl	escó	NOUN	Gender=Masc Number=Sing	18
@@ -1533,8 +1607,8 @@ comenten	comenten	comentar	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	9	root	
 .	.	.	PUNCT	PunctType=Peri	10	punct	comentar	VERB	Mood=Ind Tense=Pres Person=3 Number=Plur	9
 </s>
 </p>
-<note type="-" content="Pausa llarga."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.3" lang="Catalan">
+<note type="-" content="(Pausa llarga.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.3.1">
 Sí	Sí	sí	ADV		1	root	-	-	-	-
 <g/>
@@ -1556,6 +1630,7 @@ hagut	hagut	heure	VERB	Mood=Par Number=Sing Gender=Masc	12	advcl	organitzar	VERB
 alguna	alguna	algun	DET	PronType=Ind Gender=Fem Number=Sing	13	det	retirada	NOUN	Gender=Fem Number=Sing	14
 retirada	retirada	retirada	NOUN	Gender=Fem Number=Sing	14	obj	heure	VERB	Mood=Par Number=Sing Gender=Masc	12
 d'	d'	de	ADP	AdpType=Prep	15	case	delegació	NOUN	Gender=Fem Number=Sing	17
+<g/>
 alguna	alguna	algun	DET	PronType=Ind Gender=Fem Number=Sing	16	det	delegació	NOUN	Gender=Fem Number=Sing	17
 delegació	delegació	delegació	NOUN	Gender=Fem Number=Sing	17	nmod	retirada	NOUN	Gender=Fem Number=Sing	14
 i	i	i	CCONJ		18	cc	adaptar	VERB	Mood=Inf	23
@@ -1563,6 +1638,7 @@ per	per	per	ADP	AdpType=Prep	19	advmod	adaptar	VERB	Mood=Inf	23
 tant	tant	tant	ADV		20	fixed	per	ADP	AdpType=Prep	19
 hem	hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	21	aux	adaptar	VERB	Mood=Inf	23
 d'	d'	de	ADP	AdpType=Prep	22	mark	adaptar	VERB	Mood=Inf	23
+<g/>
 adaptar	adaptar	adaptar	VERB	Mood=Inf	23	conj	organitzar	VERB	Mood=Ger	2
 de	de	de	ADP	AdpType=Prep	24	advmod	adaptar	VERB	Mood=Inf	23
 nou	nou	nou	ADJ	Gender=Masc Number=Sing	25	fixed	de	ADP	AdpType=Prep	24
@@ -1595,8 +1671,8 @@ Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	2	punct	gràcies	PROPN		1
 </s>
 </p>
-<note type="-" content="Pausa llarga."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.4" lang="Catalan">
+<note type="-" content="(Pausa llarga.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.4" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.4.1">
 Molt	Molt	molt	ADV		1	advmod	bé	ADV		2
 bé	bé	bé	ADV		2	root	-	-	-	-
@@ -1620,7 +1696,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	9	obj	passar	VERB	Mood=In
 </p>
 <note type="-" content="Decret llei 29/2020, del 28 de juliol, pel qual s'adopten mesures pressupostàries en relació amb el desplegament de les actuacions d'atenció social, ordenació i reforç de determinats serveis socials de caràcter residencial i d'atenció diürna que preveu el Pla de contingència per a residències, per fer front als brots de la pandèmia generada per la Covid-19, pel qual es manté la vigència de preceptes en matèria d'infància i adolescència del Decret llei 11/2020, del 7 d'abril, pel qual s'adopten mesures econòmiques, socials i administratives per pal·liar els efectes de la pandèmia generada per la Covid-19 i altres de complementàries, i pel qual es modifica el Decret llei 21/2020, del 2 de juny, de mesures urgents de caràcter econòmic, cultural i social, sota el títol de mesures de caràcter social (continuació)"/>
 <note type="-" content="203-00054/12"/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.5" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.5" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.5.1">
 El	El	el	DET	PronType=Art Gender=Masc Number=Sing	1	det	punt	NOUN	Gender=Masc Number=Sing	3
 primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	2	amod	punt	NOUN	Gender=Masc Number=Sing	3
@@ -1636,6 +1712,7 @@ número	número	número	NOUN	Gender=Masc Number=Sing	13	appos	punt	NOUN	Gender=M
 2	2	2	NUM		14	appos	número	NOUN	Gender=Masc Number=Sing	13
 de	de	de	ADP	AdpType=Prep	15	case	ordre	NOUN	Number=Sing	17
 l'	l'	el	DET	PronType=Art Number=Sing	16	det	ordre	NOUN	Number=Sing	17
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	17	nmod	punt	NOUN	Gender=Masc Number=Sing	12
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	18|19	case|det	dia	NOUN	Gender=Masc Number=Sing	21
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	21	nmod	ordre	NOUN	Number=Sing	17
@@ -1662,7 +1739,7 @@ juliol	juliol	juliol	NOUN	Gender=Masc Number=Sing	35	compound	28	NUM		33
 .	.	.	PUNCT	PunctType=Peri	36	punct	corresponent	ADJ	Number=Sing	8
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.6" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.6.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -1671,7 +1748,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.7" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.7" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.7.1">
 El	El	el	DET	PronType=Art Gender=Masc Number=Sing	1	det	decret	PROPN		2
 <name type="MISC">
@@ -1712,7 +1789,7 @@ abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	30	appos	23	NUM		
 .	.	.	PUNCT	PunctType=Peri	31	punct	convalidar	VERB	Mood=Par Number=Sing Gender=Masc	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.8" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.8" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.8.1">
 I	I	i	CCONJ		1	advmod	preguntar	VERB	Mood=Inf	5
 ara	ara	ara	ADV		2	advmod	preguntar	VERB	Mood=Inf	5
@@ -1732,7 +1809,7 @@ tramiti	tramiti	tramitar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	15	ccomp	
 com	com	com	SCONJ		16	case	sí	ADV		20
 a	a	a	ADP	AdpType=Prep	17	fixed	com	SCONJ		16
 <g/>
-...	...	.	PUNCT	PunctType=Comm	18	punct	sí	ADV		20
+...	...	...	PUNCT	PunctType=Comm	18	punct	sí	ADV		20
 –	–	–	PUNCT		19	punct	sí	ADV		20
 sí	sí	sí	ADV		20	advmod	voler	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	12
 <g/>
@@ -1749,8 +1826,8 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	28	nmod	preguntar	VERB	Mood=Inf	5
 .	.	.	PUNCT	PunctType=Peri	29	punct	i	CCONJ		1
 </s>
 </p>
-<note type="-" content="Pausa."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.9" lang="Catalan">
+<note type="-" content="(Pausa.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.9" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.9.1">
 Doncs	Doncs	doncs	ADV		1	advmod	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 passem	passem	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2	root	-	-	-	-
@@ -1776,7 +1853,7 @@ no	no	no	ADV	Polarity=Neg	18	conj	tramitar	VERB	Mood=Ind Tense=Pres Person=3 Num
 .	.	.	PUNCT	PunctType=Peri	19	punct	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.10" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.10" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.10.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -1785,7 +1862,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.11" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.11" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.11.1">
 Atès	Atès	atendre	VERB	Mood=Par Number=Sing Gender=Masc	1	mark	heure	VERB	Mood=Par Number=Sing Gender=Masc	5
 que	que	que	SCONJ		2	fixed	atendre	VERB	Mood=Par Number=Sing Gender=Masc	1
@@ -1839,7 +1916,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	40	nmod	projecte	NOUN	Gender=Masc Num
 </p>
 <note type="-" content="Decret llei 30/2020, del 4 d'agost, pel qual s'estableix el règim sancionador específic per l'incompliment de les mesures de prevenció i contenció sanitàries per fer front a la crisi sanitària provocada per la Covid-19 (continuació)"/>
 <note type="-" content="203-00055/12"/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.12" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.12" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.12.1">
 Passem	Passem	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 ara	ara	ara	ADV		2	advmod	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
@@ -1863,12 +1940,13 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	13	flat	decret	PROPN		12
 de	de	de	ADP	AdpType=Prep	16	case	4	NUM		17
 4	4	4	NUM		17	nmod	decret	PROPN		12
 d'	d'	de	ADP	AdpType=Prep	18	case	agost	NOUN	Gender=Masc Number=Sing	19
+<g/>
 agost	agost	agost	NOUN	Gender=Masc Number=Sing	19	compound	4	NUM		17
 <g/>
 .	.	.	PUNCT	PunctType=Peri	20	punct	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.13" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.13" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.13.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -1877,7 +1955,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.14" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.14" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.14.1">
 Aquest	Aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	1	det	decret	NOUN	Gender=Masc Number=Sing	2
 decret	decret	decret	NOUN	Gender=Masc Number=Sing	2	nsubj	convalidar	VERB	Mood=Par Number=Sing Gender=Masc	6
@@ -1917,7 +1995,7 @@ abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	31	appos	23	NUM		
 .	.	.	PUNCT	PunctType=Peri	32	punct	convalidar	VERB	Mood=Par Number=Sing Gender=Masc	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.15" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.15" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.15.1">
 En	En	en	ADP	AdpType=Prep	1	case	cas	NOUN	Gender=Masc Number=Sing	3
 aquest	aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	2	det	cas	NOUN	Gender=Masc Number=Sing	3
@@ -1930,14 +2008,14 @@ vol	vol	voler	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	7	root	-	-	-	-
 tramitar	tramitar	tramitar	VERB	Mood=Inf	8	xcomp	voler	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	7
 aquest	aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	9	obj	tramitar	VERB	Mood=Inf	8
 <g/>
-...	...	.	PUNCT	PunctType=Comm	10	punct	sí	ADV		11
+...	...	...	PUNCT	PunctType=Comm	10	punct	sí	ADV		11
 Sí	Sí	sí	ADV		11	advmod	aquest	DET	PronType=Dem Gender=Masc Number=Sing	9
 <g/>
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	12	punct	voler	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	7
 </s>
 </p>
-<note type="-" content="Pausa."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.16" lang="Catalan">
+<note type="-" content="(Pausa.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.16" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.16.1">
 Doncs	Doncs	doncs	ADV		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 votem	votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2	root	-	-	-	-
@@ -1949,6 +2027,7 @@ projecte	projecte	projecte	NOUN	Gender=Masc Number=Sing	7	nmod	tramitació	NOUN	
 de	de	de	ADP	AdpType=Prep	8	case	llei	NOUN	Gender=Fem Number=Sing	9
 llei	llei	llei	NOUN	Gender=Fem Number=Sing	9	nmod	projecte	NOUN	Gender=Masc Number=Sing	7
 d'	d'	de	ADP	AdpType=Prep	10	case	decret	NOUN	Gender=Masc Number=Sing	12
+<g/>
 aquest	aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	11	det	decret	NOUN	Gender=Masc Number=Sing	12
 decret	decret	decret	NOUN	Gender=Masc Number=Sing	12	nmod	tramitació	NOUN	Gender=Fem Number=Sing	4
 llei	llei	llei	NOUN	Gender=Fem Number=Sing	13	appos	decret	NOUN	Gender=Masc Number=Sing	12
@@ -1956,7 +2035,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	13	appos	decret	NOUN	Gender=Masc Numb
 .	.	.	PUNCT	PunctType=Peri	14	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.17" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.17" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.17.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -1965,11 +2044,12 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.18" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.18" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.18.1">
 Atès	Atès	atendre	VERB	Mood=Par Number=Sing Gender=Masc	1	mark	emetre	VERB	Mood=Par Number=Sing Gender=Masc	5
 que	que	que	SCONJ		2	fixed	atendre	VERB	Mood=Par Number=Sing Gender=Masc	1
 s'	s'	es	PRON		3	obj	emetre	VERB	Mood=Par Number=Sing Gender=Masc	5
+<g/>
 han	han	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Plur	4	aux	emetre	VERB	Mood=Par Number=Sing Gender=Masc	5
 emès	emès	emetre	VERB	Mood=Par Number=Sing Gender=Masc	5	advcl	tramitar	VERB	Mood=Ind Tense=Fut Person=3 Number=Sing	36
 44	44	44	NUM		6	nummod	vot	NOUN	Gender=Masc Number=Plur	7
@@ -2018,7 +2098,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	41	nmod	projecte	NOUN	Gender=Masc Num
 </p>
 <note type="-" content="Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d'arrendament d'habitatge (continuació)"/>
 <note type="-" content="202-00080/12"/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.19" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.19" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.19.1">
 Passem	Passem	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 ara	ara	ara	ADV		2	advmod	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
@@ -2052,14 +2132,16 @@ en	en	en	ADP	AdpType=Prep	26	case	contracta	NOUN	Gender=Fem Number=Plur	28
 els	els	el	DET	PronType=Art Gender=Masc Number=Plur	27	det	contracta	NOUN	Gender=Fem Number=Plur	28
 contractes	contractes	contracta	NOUN	Gender=Fem Number=Plur	28	nmod	contenció	NOUN	Gender=Fem Number=Sing	23
 d'	d'	de	ADP	AdpType=Prep	29	case	arrendament	NOUN	Gender=Masc Number=Sing	30
+<g/>
 arrendament	arrendament	arrendament	NOUN	Gender=Masc Number=Sing	30	nmod	contracta	NOUN	Gender=Fem Number=Plur	28
 d'	d'	de	ADP	AdpType=Prep	31	case	habitatge	NOUN	Gender=Masc Number=Sing	32
+<g/>
 habitatge	habitatge	habitatge	NOUN	Gender=Masc Number=Sing	32	nmod	arrendament	NOUN	Gender=Masc Number=Sing	30
 <g/>
 .	.	.	PUNCT	PunctType=Peri	33	punct	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.20" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.20" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.20.1">
 Els	Els	el	DET	PronType=Art Gender=Masc Number=Plur	1	det	faig	NOUN	Gender=Masc Number=Sing	2
 faig	faig	faig	NOUN	Gender=Masc Number=Sing	2	nsubj	avinent	ADJ	Number=Sing	3
@@ -2069,6 +2151,7 @@ avinent	avinent	avinent	ADJ	Number=Sing	3	root	-	-	-	-
 tal	tal	tal	PRON	PronType=Dem Number=Sing	5	obl	avinent	ADJ	Number=Sing	3
 com	com	com	PRON	PronType=Rel	6	obl	assenyalar	VERB	Mood=Par Number=Sing Gender=Masc	9
 s'	s'	es	PRON		7	obj	assenyalar	VERB	Mood=Par Number=Sing Gender=Masc	9
+<g/>
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	8	aux	assenyalar	VERB	Mood=Par Number=Sing Gender=Masc	9
 assenyalat	assenyalat	assenyalar	VERB	Mood=Par Number=Sing Gender=Masc	9	acl	tal	PRON	PronType=Dem Number=Sing	5
 <g/>
@@ -2111,7 +2194,7 @@ text	text	text	NOUN	Gender=Masc Number=Sing	38	obl	retirar	VERB	Mood=Par Number=
 .	.	.	PUNCT	PunctType=Peri	39	punct	avinent	ADJ	Number=Sing	3
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.21" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.21" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.21.1">
 En	En	en	ADP	AdpType=Prep	1	case	lloc	NOUN	Gender=Masc Number=Sing	3
 primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	2	amod	lloc	NOUN	Gender=Masc Number=Sing	3
@@ -2147,22 +2230,22 @@ el	el	el	DET	PronType=Art Gender=Masc Number=Sing	25	det	subgrup	PROPN		26
 <name type="ORG">
 Subgrup	Subgrup	subgrup	PROPN		26	conj	grup	PROPN		17
 Parlamentari	Parlamentari	parlamentari	PROPN		27	flat	subgrup	PROPN		26
-de	de	de	PROPN		28	case	partit	PROPN		30
-el	el	el	PROPN		29	det	partit	PROPN		30
-Partit	Partit	partit	PROPN		30	nmod	subgrup	PROPN		26
-Popular	Popular	popular	PROPN		31	flat	partit	PROPN		30
-de	de	de	PROPN		32	case	catalunya	PROPN		33
-Catalunya	Catalunya	catalunya	PROPN		33	flat	partit	PROPN		30
+del	del	del	PROPN		28	case	partit	PROPN		29
+Partit	Partit	partit	PROPN		29	nmod	subgrup	PROPN		26
+Popular	Popular	popular	PROPN		30	flat	partit	PROPN		29
+de	de	de	PROPN		31	case	catalunya	PROPN		32
+Catalunya	Catalunya	catalunya	PROPN		32	flat	partit	PROPN		29
 </name>
-.	.	.	PUNCT	PunctType=Peri	34	punct	votar	VERB	Mood=Ind Tense=Fut Person=1 Number=Plur	5
+.	.	.	PUNCT	PunctType=Peri	33	punct	votar	VERB	Mood=Ind Tense=Fut Person=1 Number=Plur	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.22" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.22" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.22.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
 votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 d'	d'	de	ADP	AdpType=Prep	4	case	esmena	NOUN	Gender=Fem Number=Plur	6
+<g/>
 aquestes	aquestes	aquest	DET	PronType=Dem Gender=Fem Number=Plur	5	det	esmena	NOUN	Gender=Fem Number=Plur	6
 esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	6	nmod	votació	NOUN	Gender=Fem Number=Sing	3
 a	a	a	ADP	AdpType=Prep	7	case	totalitat	NOUN	Gender=Fem Number=Sing	9
@@ -2172,7 +2255,7 @@ totalitat	totalitat	totalitat	NOUN	Gender=Fem Number=Sing	9	obl	començar	VERB	M
 .	.	.	PUNCT	PunctType=Peri	10	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.23" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.23" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.23.1">
 Aquestes	Aquestes	aquest	DET	PronType=Dem Gender=Fem Number=Plur	1	det	esmena	NOUN	Gender=Fem Number=Plur	2
 esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	2	nsubj	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	8
@@ -2214,7 +2297,7 @@ abstenció	abstenció	abstenció	NOUN	Gender=Fem Number=Sing	33	conj	23	NUM		27
 .	.	.	PUNCT	PunctType=Peri	34	punct	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	8
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.24" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.24" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.24.1">
 Procedim	Procedim	procedir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 ara	ara	ara	ADV		2	advmod	procedir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
@@ -2224,6 +2307,7 @@ les	les	el	DET	PronType=Art Gender=Fem Number=Plur	5	det	esmena	NOUN	Gender=Fem 
 esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	6	obj	votar	VERB	Mood=Inf	4
 a	a	a	ADP	AdpType=Prep	7	case	articulat	NOUN	Gender=Masc Number=Sing	9
 l'	l'	el	DET	PronType=Art Number=Sing	8	det	articulat	NOUN	Gender=Masc Number=Sing	9
+<g/>
 articulat	articulat	articulat	NOUN	Gender=Masc Number=Sing	9	obl	votar	VERB	Mood=Inf	4
 <g/>
 .	.	.	PUNCT	PunctType=Peri	10	punct	procedir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
@@ -2242,6 +2326,7 @@ en	en	en	ADP	AdpType=Prep	8	case	lloc	NOUN	Gender=Masc Number=Sing	10
 primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	9	amod	lloc	NOUN	Gender=Masc Number=Sing	10
 lloc	lloc	lloc	NOUN	Gender=Masc Number=Sing	10	obl	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
 l'	l'	el	DET	PronType=Art Number=Sing	11	det	esmena	NOUN	Gender=Fem Number=Sing	12
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	12	obj	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
 número	número	número	NOUN	Gender=Masc Number=Sing	13	appos	esmena	NOUN	Gender=Fem Number=Sing	12
 3	3	3	NUM		14	appos	número	NOUN	Gender=Masc Number=Sing	13
@@ -2253,17 +2338,16 @@ el	el	el	DET	PronType=Art Gender=Masc Number=Sing	18	det	subgrup	PROPN		19
 <name type="ORG">
 Subgrup	Subgrup	subgrup	PROPN		19	obj	presentar	VERB	Mood=Par Number=Sing Gender=Fem	16
 Parlamentari	Parlamentari	parlamentari	PROPN		20	flat	subgrup	PROPN		19
-de	de	de	PROPN		21	case	partit	PROPN		23
-el	el	el	PROPN		22	det	partit	PROPN		23
-Partit	Partit	partit	PROPN		23	nmod	subgrup	PROPN		19
-Popular	Popular	popular	PROPN		24	flat	partit	PROPN		23
-de	de	de	PROPN		25	case	catalunya	PROPN		26
-Catalunya	Catalunya	catalunya	PROPN		26	flat	partit	PROPN		23
+del	del	del	PROPN		21	case	partit	PROPN		22
+Partit	Partit	partit	PROPN		22	nmod	subgrup	PROPN		19
+Popular	Popular	popular	PROPN		23	flat	partit	PROPN		22
+de	de	de	PROPN		24	case	catalunya	PROPN		25
+Catalunya	Catalunya	catalunya	PROPN		25	flat	partit	PROPN		22
 </name>
-.	.	.	PUNCT	PunctType=Peri	27	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
+.	.	.	PUNCT	PunctType=Peri	26	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.25" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.25" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.25.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -2272,7 +2356,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.26" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.26" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.26.1">
 Aquesta	Aquesta	aquest	DET	PronType=Dem Gender=Fem Number=Sing	1	det	esmena	NOUN	Gender=Fem Number=Sing	2
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	2	nsubj	rebutjar	VERB	Mood=Par Number=Sing Gender=Fem	5
@@ -2311,7 +2395,7 @@ abstenció	abstenció	abstenció	NOUN	Gender=Fem Number=Sing	30	appos	23	NUM		24
 .	.	.	PUNCT	PunctType=Peri	31	punct	rebutjar	VERB	Mood=Par Number=Sing Gender=Fem	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.27" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.27" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.27.1">
 Votem	Votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 ara	ara	ara	ADV		2	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
@@ -2383,73 +2467,72 @@ i	i	i	CCONJ		49	cc	45	NUM		50
 ,	,	,	PUNCT	PunctType=Comm	51	punct	esmena	NOUN	Gender=Fem Number=Plur	19
 i	i	i	CCONJ		52	cc	esmena	NOUN	Gender=Fem Number=Plur	54
 les	les	el	DET	PronType=Art Gender=Fem Number=Plur	53	det	esmena	NOUN	Gender=Fem Number=Plur	54
-esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	54	conj	esmena	NOUN	Gender=Fem Number=Plur	4
+esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	54	conj	esmena	NOUN	Gender=Fem Number=Plur	19
 presentades	presentades	presentar	VERB	Mood=Par Number=Plur Gender=Fem	55	amod	esmena	NOUN	Gender=Fem Number=Plur	54
 per	per	per	ADP	AdpType=Prep	56	case	subgrup	PROPN		58
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	57	det	subgrup	PROPN		58
 <name type="ORG">
 Subgrup	Subgrup	subgrup	PROPN		58	obj	presentar	VERB	Mood=Par Number=Plur Gender=Fem	55
 Parlamentari	Parlamentari	parlamentari	PROPN		59	flat	subgrup	PROPN		58
-de	de	de	PROPN		60	case	partit	PROPN		62
-el	el	el	PROPN		61	det	partit	PROPN		62
-Partit	Partit	partit	PROPN		62	nmod	subgrup	PROPN		58
-Popular	Popular	popular	PROPN		63	flat	partit	PROPN		62
-de	de	de	PROPN		64	case	catalunya	PROPN		65
-Catalunya	Catalunya	catalunya	PROPN		65	flat	partit	PROPN		62
+del	del	del	PROPN		60	case	partit	PROPN		61
+Partit	Partit	partit	PROPN		61	nmod	subgrup	PROPN		58
+Popular	Popular	popular	PROPN		62	flat	partit	PROPN		61
+de	de	de	PROPN		63	case	catalunya	PROPN		64
+Catalunya	Catalunya	catalunya	PROPN		64	flat	partit	PROPN		61
 </name>
-,	,	,	PUNCT	PunctType=Comm	66	punct	esmena	NOUN	Gender=Fem Number=Plur	67
-esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	67	appos	esmena	NOUN	Gender=Fem Number=Plur	54
-número	número	número	NOUN	Gender=Masc Number=Sing	68	appos	esmena	NOUN	Gender=Fem Number=Plur	67
-8	8	8	NUM		69	appos	esmena	NOUN	Gender=Fem Number=Plur	67
+,	,	,	PUNCT	PunctType=Comm	65	punct	esmena	NOUN	Gender=Fem Number=Plur	66
+esmenes	esmenes	esmena	NOUN	Gender=Fem Number=Plur	66	appos	esmena	NOUN	Gender=Fem Number=Plur	54
+número	número	número	NOUN	Gender=Masc Number=Sing	67	appos	esmena	NOUN	Gender=Fem Number=Plur	66
+8	8	8	NUM		68	appos	esmena	NOUN	Gender=Fem Number=Plur	66
 <g/>
-,	,	,	PUNCT	PunctType=Comm	70	punct	12	NUM		71
-12	12	12	NUM		71	conj	9	NUM		20
+,	,	,	PUNCT	PunctType=Comm	69	punct	12	NUM		70
+12	12	12	NUM		70	conj	9	NUM		20
 <g/>
-,	,	,	PUNCT	PunctType=Comm	72	punct	16	NUM		73
-16	16	16	NUM		73	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	71	punct	16	NUM		72
+16	16	16	NUM		72	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	74	punct	19	NUM		75
-19	19	19	NUM		75	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	73	punct	19	NUM		74
+19	19	19	NUM		74	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	76	punct	22	NUM		77
-22	22	22	NUM		77	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	75	punct	22	NUM		76
+22	22	22	NUM		76	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	78	punct	24	NUM		79
-24	24	24	NUM		79	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	77	punct	24	NUM		78
+24	24	24	NUM		78	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	80	punct	26	NUM		81
-26	26	26	NUM		81	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	79	punct	26	NUM		80
+26	26	26	NUM		80	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	82	punct	29	NUM		83
-29	29	29	NUM		83	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	81	punct	29	NUM		82
+29	29	29	NUM		82	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	84	punct	31	NUM		85
-31	31	31	NUM		85	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	83	punct	31	NUM		84
+31	31	31	NUM		84	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	86	punct	33	NUM		87
-33	33	33	NUM		87	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	85	punct	33	NUM		86
+33	33	33	NUM		86	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	88	punct	35	NUM		89
-35	35	35	NUM		89	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	87	punct	35	NUM		88
+35	35	35	NUM		88	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	90	punct	37	NUM		91
-37	37	37	NUM		91	conj	8	NUM		69
+,	,	,	PUNCT	PunctType=Comm	89	punct	37	NUM		90
+37	37	37	NUM		90	conj	8	NUM		68
 <g/>
-,	,	,	PUNCT	PunctType=Comm	92	punct	39	NUM		93
-39	39	39	NUM		93	conj	9	NUM		20
+,	,	,	PUNCT	PunctType=Comm	91	punct	39	NUM		92
+39	39	39	NUM		92	conj	9	NUM		20
 <g/>
-,	,	,	PUNCT	PunctType=Comm	94	punct	42	NUM		95
-42	42	42	NUM		95	conj	9	NUM		20
+,	,	,	PUNCT	PunctType=Comm	93	punct	42	NUM		94
+42	42	42	NUM		94	conj	9	NUM		20
 <g/>
-,	,	,	PUNCT	PunctType=Comm	96	punct	44	NUM		97
-44	44	44	NUM		97	conj	9	NUM		20
-i	i	i	CCONJ		98	cc	46	NUM		99
-46	46	46	NUM		99	conj	9	NUM		20
+,	,	,	PUNCT	PunctType=Comm	95	punct	44	NUM		96
+44	44	44	NUM		96	conj	9	NUM		20
+i	i	i	CCONJ		97	cc	46	NUM		98
+46	46	46	NUM		98	conj	9	NUM		20
 <g/>
-.	.	.	PUNCT	PunctType=Peri	100	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
+.	.	.	PUNCT	PunctType=Peri	99	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.28" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.28" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.28.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -2458,7 +2541,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.29" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.29" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.29.1">
 Han	Han	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Plur	1	aux	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	3
 estat	estat	ser	AUX	Mood=Par Number=Sing Gender=Masc	2	aux	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	3
@@ -2501,7 +2584,7 @@ abstenció	abstenció	abstenció	NOUN	Gender=Fem Number=Sing	32	appos	23	NUM		26
 .	.	.	PUNCT	PunctType=Peri	33	punct	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	3
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.30" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.30" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.30.1">
 Votem	Votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 ara	ara	ara	ADV		2	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
@@ -2530,7 +2613,7 @@ Ciutadans	Ciutadans	ciutadans	PROPN		19	flat	grup	PROPN		16
 .	.	.	PUNCT	PunctType=Peri	20	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.31" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.31" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.31.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -2539,7 +2622,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.32" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.32" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.32.1">
 Han	Han	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Plur	1	aux	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	3
 estat	estat	ser	AUX	Mood=Par Number=Sing Gender=Masc	2	aux	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	3
@@ -2576,12 +2659,13 @@ abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	28	appos	23	NUM		
 .	.	.	PUNCT	PunctType=Peri	29	punct	rebutjar	VERB	Mood=Par Number=Plur Gender=Fem	3
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.33" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.33" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.33.1">
 I	I	i	CCONJ		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 votem	votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2	root	-	-	-	-
 ara	ara	ara	ADV		3	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 l'	l'	el	DET	PronType=Art Number=Sing	4	det	esmena	NOUN	Gender=Fem Number=Sing	5
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	5	obj	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 número	número	número	NOUN	Gender=Masc Number=Sing	6	appos	esmena	NOUN	Gender=Fem Number=Sing	5
 18	18	18	NUM		7	appos	número	NOUN	Gender=Masc Number=Sing	6
@@ -2599,7 +2683,7 @@ Ciutadans	Ciutadans	ciutadans	PROPN		15	flat	grup	PROPN		12
 .	.	.	PUNCT	PunctType=Peri	16	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.34" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.34" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.34.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -2608,7 +2692,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.35" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.35" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.35.1">
 Ha	Ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	1	aux	rebutjar	VERB	Mood=Par Number=Sing Gender=Fem	3
 estat	estat	ser	AUX	Mood=Par Number=Sing Gender=Masc	2	aux	rebutjar	VERB	Mood=Par Number=Sing Gender=Fem	3
@@ -2651,7 +2735,7 @@ abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	32	appos	23	NUM		
 .	.	.	PUNCT	PunctType=Peri	33	punct	rebutjar	VERB	Mood=Par Number=Sing Gender=Fem	3
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.36" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.36" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.36.1">
 A	A	a	ADP	AdpType=Prep	1	advmod	procedir	VERB	Mood=Imp Person=1 Number=Plur	3
 continuació	continuació	continuació	NOUN	Gender=Fem Number=Sing	2	fixed	a	ADP	AdpType=Prep	1
@@ -2676,6 +2760,7 @@ lloc	lloc	lloc	NOUN	Gender=Masc Number=Sing	5	obl	votar	VERB	Mood=Ind Tense=Pres
 ,	,	,	PUNCT	PunctType=Comm	6	punct	lloc	NOUN	Gender=Masc Number=Sing	5
 votem	votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7	root	-	-	-	-
 l'	l'	el	DET	PronType=Art Number=Sing	8	det	esmena	NOUN	Gender=Fem Number=Sing	9
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	9	obj	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
 transaccional	transaccional	transaccional	ADJ	Number=Sing	10	amod	esmena	NOUN	Gender=Fem Number=Sing	9
 número	número	número	NOUN	Gender=Masc Number=Sing	11	appos	esmena	NOUN	Gender=Fem Number=Sing	9
@@ -2684,6 +2769,7 @@ número	número	número	NOUN	Gender=Masc Number=Sing	11	appos	esmena	NOUN	Gender
 ,	,	,	PUNCT	PunctType=Comm	13	punct	esmena	NOUN	Gender=Fem Number=Sing	16
 entre	entre	entre	ADP	AdpType=Prep	14	case	esmena	NOUN	Gender=Fem Number=Sing	16
 l'	l'	el	DET	PronType=Art Number=Sing	15	det	esmena	NOUN	Gender=Fem Number=Sing	16
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	16	obl	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
 11	11	11	NUM		17	appos	esmena	NOUN	Gender=Fem Number=Sing	16
 <g/>
@@ -2700,6 +2786,7 @@ Catalunya	Catalunya	catalunya	PROPN		27	flat	junts	PROPN		25
 ,	,	,	PUNCT	PunctType=Comm	28	punct	grup	PROPN		22
 i	i	i	CCONJ		29	cc	article	NOUN	Gender=Masc Number=Sing	31
 l'	l'	el	DET	PronType=Art Number=Sing	30	det	article	NOUN	Gender=Masc Number=Sing	31
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	31	conj	esmena	NOUN	Gender=Fem Number=Sing	16
 6	6	6	NUM		32	appos	article	NOUN	Gender=Masc Number=Sing	31
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	33|34	case|det	text	NOUN	Gender=Masc Number=Sing	36
@@ -2713,7 +2800,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	41	nmod	proposició	NOUN	Gender=Fem N
 .	.	.	PUNCT	PunctType=Peri	42	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	7
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.37" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.37" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.37.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -2722,7 +2809,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.38" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.38" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.38.1">
 Aquesta	Aquesta	aquest	DET	PronType=Dem Gender=Fem Number=Sing	1	det	esmena	NOUN	Gender=Fem Number=Sing	2
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	2	nsubj	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	6
@@ -2762,12 +2849,13 @@ abstenció	abstenció	abstenció	NOUN	Gender=Fem Number=Sing	31	appos	23	NUM		21
 .	.	.	PUNCT	PunctType=Peri	32	punct	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.39" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.39" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.39.1">
 I	I	i	CCONJ		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 votem	votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2	root	-	-	-	-
 ara	ara	ara	ADV		3	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 l'	l'	el	DET	PronType=Art Number=Sing	4	det	esmena	NOUN	Gender=Fem Number=Sing	5
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	5	obj	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 transaccional	transaccional	transaccional	ADJ	Number=Sing	6	amod	esmena	NOUN	Gender=Fem Number=Sing	5
 número	número	número	NOUN	Gender=Masc Number=Sing	7	appos	esmena	NOUN	Gender=Fem Number=Sing	5
@@ -2776,6 +2864,7 @@ número	número	número	NOUN	Gender=Masc Number=Sing	7	appos	esmena	NOUN	Gender=
 ,	,	,	PUNCT	PunctType=Comm	9	punct	esmena	NOUN	Gender=Fem Number=Sing	12
 entre	entre	entre	ADP	AdpType=Prep	10	case	esmena	NOUN	Gender=Fem Number=Sing	12
 l'	l'	el	DET	PronType=Art Number=Sing	11	det	esmena	NOUN	Gender=Fem Number=Sing	12
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	12	nmod	esmena	NOUN	Gender=Fem Number=Sing	5
 15	15	15	NUM		13	appos	esmena	NOUN	Gender=Fem Number=Sing	12
 <g/>
@@ -2792,6 +2881,7 @@ Catalunya	Catalunya	catalunya	PROPN		23	flat	junts	PROPN		21
 ,	,	,	PUNCT	PunctType=Comm	24	punct	grup	PROPN		18
 i	i	i	CCONJ		25	cc	article	NOUN	Gender=Masc Number=Sing	27
 l'	l'	el	DET	PronType=Art Number=Sing	26	det	article	NOUN	Gender=Masc Number=Sing	27
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	27	conj	esmena	NOUN	Gender=Fem Number=Sing	12
 7	7	7	NUM		28	appos	article	NOUN	Gender=Masc Number=Sing	27
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	29|30	case|det	text	NOUN	Gender=Masc Number=Sing	32
@@ -2802,11 +2892,11 @@ proposició	proposició	proposició	NOUN	Gender=Fem Number=Sing	35	nmod	text	NOU
 de	de	de	ADP	AdpType=Prep	36	case	llei	NOUN	Gender=Fem Number=Sing	37
 llei	llei	llei	NOUN	Gender=Fem Number=Sing	37	nmod	proposició	NOUN	Gender=Fem Number=Sing	35
 <g/>
-...	...	.	PUNCT	PunctType=Comm	38	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
+...	...	...	PUNCT	PunctType=Comm	38	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<note type="vocal:murmuring" content="Veus de fons i pausa llarga."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.40" lang="Catalan">
+<note type="vocal:murmuring" content="(Veus de fons i pausa llarga.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.40" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.40.1">
 Disculpin	Disculpin	disculpar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	1	root	-	-	-	-
 <g/>
@@ -2856,6 +2946,7 @@ Estem	Estem	estar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	aux	parlar	VER
 parlant	parlant	parlar	VERB	Mood=Ger	2	root	-	-	-	-
 de	de	de	ADP	AdpType=Prep	3	case	esmena	NOUN	Gender=Fem Number=Sing	5
 l'	l'	el	DET	PronType=Art Number=Sing	4	det	esmena	NOUN	Gender=Fem Number=Sing	5
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	5	obj	parlar	VERB	Mood=Ger	2
 transaccional	transaccional	transaccional	ADJ	Number=Sing	6	amod	esmena	NOUN	Gender=Fem Number=Sing	5
 número	número	número	NOUN	Gender=Masc Number=Sing	7	appos	esmena	NOUN	Gender=Fem Number=Sing	5
@@ -2864,6 +2955,7 @@ número	número	número	NOUN	Gender=Masc Number=Sing	7	appos	esmena	NOUN	Gender=
 ,	,	,	PUNCT	PunctType=Comm	9	punct	esmena	NOUN	Gender=Fem Number=Sing	12
 entre	entre	entre	ADP	AdpType=Prep	10	case	esmena	NOUN	Gender=Fem Number=Sing	12
 l'	l'	el	DET	PronType=Art Number=Sing	11	det	esmena	NOUN	Gender=Fem Number=Sing	12
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	12	obl	parlar	VERB	Mood=Ger	2
 11	11	11	NUM		13	appos	esmena	NOUN	Gender=Fem Number=Sing	12
 <g/>
@@ -2880,6 +2972,7 @@ Catalunya	Catalunya	catalunya	PROPN		23	flat	junts	PROPN		21
 ,	,	,	PUNCT	PunctType=Comm	24	punct	grup	PROPN		18
 i	i	i	CCONJ		25	cc	article	NOUN	Gender=Masc Number=Sing	27
 l'	l'	el	DET	PronType=Art Number=Sing	26	det	article	NOUN	Gender=Masc Number=Sing	27
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	27	conj	esmena	NOUN	Gender=Fem Number=Sing	12
 6	6	6	NUM		28	appos	article	NOUN	Gender=Masc Number=Sing	27
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	29|30	case|det	text	NOUN	Gender=Masc Number=Sing	32
@@ -2893,7 +2986,7 @@ llei	llei	llei	NOUN	Gender=Fem Number=Sing	37	nmod	proposició	NOUN	Gender=Fem N
 .	.	.	PUNCT	PunctType=Peri	38	punct	parlar	VERB	Mood=Ger	2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.41" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.41" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.41.1">
 El	El	el	DET	PronType=Art Gender=Masc Number=Sing	1	det	resultat	NOUN	Gender=Masc Number=Sing	2
 resultat	resultat	resultat	NOUN	Gender=Masc Number=Sing	2	nsubj	vot	NOUN	Gender=Masc Number=Plur	5
@@ -2921,11 +3014,11 @@ telemàtics	telemàtics	telemàtic	ADJ	Gender=Masc Number=Plur	19	nmod	19	NUM		1
 4	4	4	NUM		22	nummod	abstenció	NOUN	Gender=Fem Number=Plur	23
 abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	23	appos	19	NUM		17
 <g/>
-...	...	.	PUNCT	PunctType=Comm	24	punct	vot	NOUN	Gender=Masc Number=Plur	5
+...	...	...	PUNCT	PunctType=Comm	24	punct	vot	NOUN	Gender=Masc Number=Plur	5
 </s>
 </p>
-<note type="vocal:murmuring" content="Veus de fons i pausa."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.42" lang="Catalan">
+<note type="vocal:murmuring" content="(Veus de fons i pausa.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.42" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.42.1">
 <name type="PER">
 Perdó	Perdó	perdó	PROPN		1	root	-	-	-	-
@@ -2941,7 +3034,7 @@ no	no	no	ADV	Polarity=Neg	3	conj	no	ADV	Polarity=Neg	1
 ,	,	,	PUNCT	PunctType=Comm	4	punct	no	ADV	Polarity=Neg	5
 no	no	no	ADV	Polarity=Neg	5	conj	no	ADV	Polarity=Neg	1
 <g/>
-...	...	.	PUNCT	PunctType=Comm	6	punct	no	ADV	Polarity=Neg	1
+...	...	...	PUNCT	PunctType=Comm	6	punct	no	ADV	Polarity=Neg	1
 Disculpin	Disculpin	disculpar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	7	root	-	-	-	-
 <g/>
 :	:	:	PUNCT	PunctType=Colo	8	punct	vot	NOUN	Gender=Masc Number=Plur	10
@@ -2966,8 +3059,8 @@ Sí	Sí	sí	ADV		1	root	-	-	-	-
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	2	punct	sí	ADV		1
 </s>
 </p>
-<note type="-" content="Pausa."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.43" lang="Catalan">
+<note type="-" content="(Pausa.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.43" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.43.1">
 Ho	Ho	ho	PRON	PronType=Prs Person=3	1	obj	tornar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	2
 torno	torno	tornar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	2	root	-	-	-	-
@@ -3017,8 +3110,8 @@ Sí	Sí	sí	ADV		1	root	-	-	-	-
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	2	punct	sí	ADV		1
 </s>
 </p>
-<note type="-" content="Pausa."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.44" lang="Catalan">
+<note type="-" content="(Pausa.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.44" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.44.1">
 Molt	Molt	molt	ADV		1	advmod	bé	ADV		2
 bé	bé	bé	ADV		2	root	-	-	-	-
@@ -3026,13 +3119,14 @@ bé	bé	bé	ADV		2	root	-	-	-	-
 .	.	.	PUNCT	PunctType=Peri	3	punct	bé	ADV		2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.45" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.45" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.45.1">
 Passem	Passem	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 ara	ara	ara	ADV		2	advmod	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 a	a	a	ADP	AdpType=Prep	3	mark	votar	VERB	Mood=Inf	4
 votar	votar	votar	VERB	Mood=Inf	4	xcomp	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 l'	l'	el	DET	PronType=Art Number=Sing	5	det	esmena	NOUN	Gender=Fem Number=Sing	6
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	6	obj	votar	VERB	Mood=Inf	4
 transaccional	transaccional	transaccional	ADJ	Number=Sing	7	amod	esmena	NOUN	Gender=Fem Number=Sing	6
 número	número	número	NOUN	Gender=Masc Number=Sing	8	appos	esmena	NOUN	Gender=Fem Number=Sing	6
@@ -3041,6 +3135,7 @@ número	número	número	NOUN	Gender=Masc Number=Sing	8	appos	esmena	NOUN	Gender=
 ,	,	,	PUNCT	PunctType=Comm	10	punct	esmena	NOUN	Gender=Fem Number=Sing	13
 entre	entre	entre	ADP	AdpType=Prep	11	case	esmena	NOUN	Gender=Fem Number=Sing	13
 l'	l'	el	DET	PronType=Art Number=Sing	12	det	esmena	NOUN	Gender=Fem Number=Sing	13
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	13	obl	votar	VERB	Mood=Inf	4
 15	15	15	NUM		14	appos	esmena	NOUN	Gender=Fem Number=Sing	13
 <g/>
@@ -3057,6 +3152,7 @@ Catalunya	Catalunya	catalunya	PROPN		24	flat	junts	PROPN		22
 ,	,	,	PUNCT	PunctType=Comm	25	punct	grup	PROPN		19
 i	i	i	CCONJ		26	cc	article	NOUN	Gender=Masc Number=Sing	28
 l'	l'	el	DET	PronType=Art Number=Sing	27	det	article	NOUN	Gender=Masc Number=Sing	28
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	28	conj	esmena	NOUN	Gender=Fem Number=Sing	13
 7	7	7	NUM		29	appos	article	NOUN	Gender=Masc Number=Sing	28
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	30|31	case|det	text	NOUN	Gender=Masc Number=Sing	33
@@ -3075,8 +3171,8 @@ Sí	Sí	sí	ADV		1	root	-	-	-	-
 ?	?	?	PUNCT	PunctType=Qest PunctSide=Fin	2	punct	sí	ADV		1
 </s>
 </p>
-<note type="-" content="Pausa."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.46" lang="Catalan">
+<note type="-" content="(Pausa.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.46" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.46.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -3085,7 +3181,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.47" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.47" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.47.1">
 Aquesta	Aquesta	aquest	DET	PronType=Dem Gender=Fem Number=Sing	1	det	esmena	NOUN	Gender=Fem Number=Sing	2
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	2	nsubj	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	6
@@ -3124,7 +3220,7 @@ abstencions	abstencions	abstenció	NOUN	Gender=Fem Number=Plur	31	conj	57	NUM		2
 .	.	.	PUNCT	PunctType=Peri	32	punct	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.48" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.48" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.48.1">
 I	I	i	CCONJ		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	5
 <g/>
@@ -3142,13 +3238,14 @@ text	text	text	NOUN	Gender=Masc Number=Sing	11	obj	votar	VERB	Mood=Ind Tense=Pre
 que	que	que	SCONJ		13	nsubj	esmenar	VERB	Mood=Par Number=Sing Gender=Masc	17
 no	no	no	ADV	Polarity=Neg	14	advmod	esmenar	VERB	Mood=Par Number=Sing Gender=Masc	17
 s'	s'	es	PRON		15	obj	esmenar	VERB	Mood=Par Number=Sing Gender=Masc	17
+<g/>
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	16	aux	esmenar	VERB	Mood=Par Number=Sing Gender=Masc	17
 esmenat	esmenat	esmenar	VERB	Mood=Par Number=Sing Gender=Masc	17	acl	text	NOUN	Gender=Masc Number=Sing	11
 <g/>
 .	.	.	PUNCT	PunctType=Peri	18	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.49" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.49" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.49.1">
 Comença	Comença	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	votació	NOUN	Gender=Fem Number=Sing	3
@@ -3157,7 +3254,7 @@ votació	votació	votació	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mo
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.50" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.50" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.50.1">
 La	La	el	DET	PronType=Art Gender=Fem Number=Sing	1	det	proposició	PROPN		2
 <name type="MISC">
@@ -3178,8 +3275,10 @@ en	en	en	ADP	AdpType=Prep	14	case	contracta	NOUN	Gender=Fem Number=Plur	16
 els	els	el	DET	PronType=Art Gender=Masc Number=Plur	15	det	contracta	NOUN	Gender=Fem Number=Plur	16
 contractes	contractes	contracta	NOUN	Gender=Fem Number=Plur	16	nmod	mesura	NOUN	Gender=Fem Number=Plur	6
 d'	d'	de	ADP	AdpType=Prep	17	case	arrendament	NOUN	Gender=Masc Number=Sing	18
+<g/>
 arrendament	arrendament	arrendament	NOUN	Gender=Masc Number=Sing	18	nmod	contracta	NOUN	Gender=Fem Number=Plur	16
 d'	d'	de	ADP	AdpType=Prep	19	case	habitatge	NOUN	Gender=Masc Number=Sing	20
+<g/>
 habitatge	habitatge	habitatge	NOUN	Gender=Masc Number=Sing	20	nmod	arrendament	NOUN	Gender=Masc Number=Sing	18
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	21	aux	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	23
 estat	estat	ser	AUX	Mood=Par Number=Sing Gender=Masc	22	aux	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	23
@@ -3208,7 +3307,7 @@ telemàtics	telemàtics	telemàtic	ADJ	Gender=Masc Number=Plur	40	nmod	19	NUM		3
 59	59	59	NUM		43	appos	19	NUM		38
 en	en	en	ADP	AdpType=Prep	44	case	59	NUM		43
 <g/>
-...	...	.	PUNCT	PunctType=Comm	45	punct	perdó	NOUN	Gender=Masc Number=Sing	47
+...	...	...	PUNCT	PunctType=Comm	45	punct	perdó	NOUN	Gender=Masc Number=Sing	47
 ,	,	,	PUNCT	PunctType=Comm	46	punct	perdó	NOUN	Gender=Masc Number=Sing	47
 perdó	perdó	perdó	NOUN	Gender=Masc Number=Sing	47	appos	59	NUM		43
 <g/>
@@ -3244,8 +3343,8 @@ abstenció	abstenció	abstenció	NOUN	Gender=Fem Number=Sing	70	appos	vot	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	71	punct	aprovar	VERB	Mood=Par Number=Sing Gender=Fem	23
 </s>
 </p>
-<note type="kinesic:applause" content="Aplaudiments."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51" lang="Catalan">
+<note type="kinesic:applause" content="(Aplaudiments.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.51.1">
 I	I	i	CCONJ		1	advmod	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 votem	votem	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2	root	-	-	-	-
@@ -3259,6 +3358,7 @@ punt	punt	punt	NOUN	Gender=Masc Number=Sing	7	obj	votar	VERB	Mood=Ind Tense=Pres
 cinquè	cinquè	cinquè	ADJ	NumType=Ord Gender=Masc Number=Sing	8	amod	punt	NOUN	Gender=Masc Number=Sing	7
 de	de	de	ADP	AdpType=Prep	9	case	ordre	NOUN	Number=Sing	11
 l'	l'	el	DET	PronType=Art Number=Sing	10	det	ordre	NOUN	Number=Sing	11
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	11	nmod	punt	NOUN	Gender=Masc Number=Sing	7
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	12|13	case|det	dia	NOUN	Gender=Masc Number=Sing	15
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	15	nmod	ordre	NOUN	Number=Sing	11
@@ -3268,6 +3368,7 @@ que	que	que	PRON	PronType=Rel	17	nsubj	correspondre	VERB	Mood=Ind Tense=Pres Per
 correspon	correspon	correspondre	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	18	acl	punt	NOUN	Gender=Masc Number=Sing	7
 a	a	a	ADP	AdpType=Prep	19	case	esmena	NOUN	Gender=Fem Number=Sing	21
 l'	l'	el	DET	PronType=Art Number=Sing	20	det	esmena	NOUN	Gender=Fem Number=Sing	21
+<g/>
 esmena	esmena	esmena	NOUN	Gender=Fem Number=Sing	21	obj	correspondre	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	18
 a	a	a	ADP	AdpType=Prep	22	case	totalitat	NOUN	Gender=Fem Number=Sing	24
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	23	det	totalitat	NOUN	Gender=Fem Number=Sing	24
@@ -3284,21 +3385,19 @@ a	a	a	ADP	AdpType=Prep	31	case	mesa	PROPN		33
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	32	det	mesa	PROPN		33
 <name type="MISC">
 Mesa	Mesa	mesa	PROPN		33	obl	presentar	VERB	Mood=Inf	30
-de	de	de	PROPN		34	case	congrés	PROPN		36
-el	el	el	PROPN		35	det	congrés	PROPN		36
-Congrés	Congrés	congrés	PROPN		36	flat	mesa	PROPN		33
-de	de	de	PROPN		37	case	diputats	PROPN		39
-els	els	els	PROPN		38	det	diputats	PROPN		39
-Diputats	Diputats	diputats	PROPN		39	flat	mesa	PROPN		33
+del	del	del	PROPN		34	case	congrés	PROPN		35
+Congrés	Congrés	congrés	PROPN		35	flat	mesa	PROPN		33
+dels	dels	dels	PROPN		36	case	diputats	PROPN		37
+Diputats	Diputats	diputats	PROPN		37	flat	mesa	PROPN		33
 </name>
-la	la	el	DET	PronType=Art Gender=Fem Number=Sing	40	det	proposició	NOUN	Gender=Fem Number=Sing	41
-proposició	proposició	proposició	NOUN	Gender=Fem Number=Sing	41	obj	presentar	VERB	Mood=Inf	30
+la	la	el	DET	PronType=Art Gender=Fem Number=Sing	38	det	proposició	NOUN	Gender=Fem Number=Sing	39
+proposició	proposició	proposició	NOUN	Gender=Fem Number=Sing	39	obj	presentar	VERB	Mood=Inf	30
 <g/>
-...	...	.	PUNCT	PunctType=Comm	42	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
+...	...	...	PUNCT	PunctType=Comm	40	punct	votar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 </s>
 </p>
-<note type="vocal:murmuring" content="Veus de fons."/>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52" lang="Catalan">
+<note type="vocal:murmuring" content="(Veus de fons.)"/>
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.52.1">
 <name type="PER">
 Perdó	Perdó	perdó	PROPN		1	nsubj	votar	VERB	Mood=Inf	7
@@ -3306,6 +3405,7 @@ Perdó	Perdó	perdó	PROPN		1	nsubj	votar	VERB	Mood=Inf	7
 ,	,	,	PUNCT	PunctType=Comm	2	punct	perdó	PROPN		1
 no	no	no	ADV	Polarity=Neg	3	advmod	votar	VERB	Mood=Inf	7
 s'	s'	es	PRON		4	obj	votar	VERB	Mood=Inf	7
+<g/>
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	5	aux	votar	VERB	Mood=Inf	7
 de	de	de	ADP	AdpType=Prep	6	mark	votar	VERB	Mood=Inf	7
 votar	votar	votar	VERB	Mood=Inf	7	root	-	-	-	-
@@ -3313,6 +3413,7 @@ votar	votar	votar	VERB	Mood=Inf	7	root	-	-	-	-
 ,	,	,	PUNCT	PunctType=Comm	8	punct	retirar	VERB	Mood=Par Number=Sing Gender=Masc	12
 perquè	perquè	perquè	SCONJ		9	mark	retirar	VERB	Mood=Par Number=Sing Gender=Masc	12
 l'	l'	el	PRON	PronType=Prs Person=3 Number=Sing Case=Acc	10	obj	retirar	VERB	Mood=Par Number=Sing Gender=Masc	12
+<g/>
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	11	aux	retirar	VERB	Mood=Par Number=Sing Gender=Masc	12
 retirat	retirat	retirar	VERB	Mood=Par Number=Sing Gender=Masc	12	advcl	votar	VERB	Mood=Inf	7
 <g/>
@@ -3330,17 +3431,16 @@ el	el	el	DET	PronType=Art Gender=Masc Number=Sing	21	det	subgrup	PROPN		22
 <name type="ORG">
 Subgrup	Subgrup	subgrup	PROPN		22	nsubj	retirar	VERB	Mood=Par Number=Sing Gender=Masc	12
 Parlamentari	Parlamentari	parlamentari	PROPN		23	flat	subgrup	PROPN		22
-de	de	de	PROPN		24	case	partit	PROPN		26
-el	el	el	PROPN		25	det	partit	PROPN		26
-Partit	Partit	partit	PROPN		26	nmod	subgrup	PROPN		22
-Popular	Popular	popular	PROPN		27	flat	partit	PROPN		26
-de	de	de	PROPN		28	case	catalunya	PROPN		29
-Catalunya	Catalunya	catalunya	PROPN		29	flat	partit	PROPN		26
+del	del	del	PROPN		24	case	partit	PROPN		25
+Partit	Partit	partit	PROPN		25	nmod	subgrup	PROPN		22
+Popular	Popular	popular	PROPN		26	flat	partit	PROPN		25
+de	de	de	PROPN		27	case	catalunya	PROPN		28
+Catalunya	Catalunya	catalunya	PROPN		28	flat	partit	PROPN		25
 </name>
-.	.	.	PUNCT	PunctType=Peri	30	punct	votar	VERB	Mood=Inf	7
+.	.	.	PUNCT	PunctType=Peri	29	punct	votar	VERB	Mood=Inf	7
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.53" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.53" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.53.1">
 Per	Per	per	ADP	AdpType=Prep	1	advmod	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	6
 tant	tant	tant	ADV		2	fixed	per	ADP	AdpType=Prep	1
@@ -3362,7 +3462,7 @@ votar	votar	votar	VERB	Mood=Inf	14	acl	punt	NOUN	Gender=Masc Number=Sing	12
 .	.	.	PUNCT	PunctType=Peri	15	punct	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	6
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.54" lang="Catalan">
+<p id="ParlaMint-ES-CT_2020-09-09-6001.245.0.54" lang="Català">
 <s id="ParlaMint-ES-CT_2020-09-09-6001.245.0.54.1">
 Suspenem	Suspenem	suspendre	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	2	det	sessió	NOUN	Gender=Fem Number=Sing	3

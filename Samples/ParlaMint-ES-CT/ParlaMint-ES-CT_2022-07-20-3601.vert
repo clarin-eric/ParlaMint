@@ -1,6 +1,33 @@
-<note type="head" content="Sessió 36.1"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.1.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="War" body="Unicameralism" term="14" session="" meeting="36" sitting="1" agenda="" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Member" speaker_id="BorràsLaura" speaker_name="Borràs Castanyer, Laura" speaker_mp="notMP" speaker_minister="-" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" speaker_gender="F" speaker_birth="1970">
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0" lang="Catalan">
+<note type="head" content="Sessió 36, primera reunió, dimecres 20 de juliol de 2022"/>
+<note type="narrative" content="La sessió s'obre les nou del matí i dos minuts. Presideix la presidenta del Parlament, acompanyada de tots els membres de la Mesa, la qual és assistida pel lletrat major en funcions de secretari general, la lletrada Mercè Arderiu i Usart i el lletrat Antoni Bayona Rocamora."/>
+<note type="narrative" content="Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident i conseller de Polítiques Digitals i Territori, la consellera de la Presidència, el conseller d'Empresa i Treball, el conseller d'Economia i Hisenda, la consellera d'Igualtat i Feminismes, la consellera d'Acció Exterior i Govern Obert, el conseller d'Educació, la consellera de Recerca i Universitats, el conseller de Salut, el conseller d'Interior, la consellera de Drets Socials, la consellera de Cultura i la consellera de Justícia."/>
+<note type="narrative" content="ORDRE DEL DIA DE LA CONVOCATÒRIA"/>
+<note type="narrative" content="1. Homenatge en memòria de l'exdiputat Antoni Dalmau i Ribalta (tram. 401-00021/13). Junta de Portaveus. Substanciació."/>
+<note type="narrative" content="2. Preguntes amb resposta oral."/>
+<note type="narrative" content="3. Decret llei 10/2022, del 5 de juliol, de modificació del Decret llei 4/2018, del 17 de juliol, pel qual s'assumeix la gestió directa del servei d'abastament d'aigua a poblacions per mitjà de les instal·lacions de la xarxa d'abastament Ter-Llobregat de titularitat de la Generalitat i es crea l'Ens d'Abastament d'Aigua Ter-Llobregat (tram. 203-00027/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei."/>
+<note type="narrative" content="4. Decret llei 9/2022, del 5 de juliol, de mesures urgents en matèria de lloguer de vehicles amb conductor (tram. 203-00026/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei."/>
+<note type="narrative" content="5. Decret llei 8/2022, del 12 de juliol, pel qual s'autoritza el Govern a prestar un aval a Circuits de Catalunya, SL, i un contraaval davant l'entitat financera garant, relatiu al contracte de promoció de cursa amb Formula One World Championship Limited (FOWC), per garantir el pagament dels drets contractuals per a l'organització del Gran Premi Fórmula 1 dels anys 2023 al 2026 (tram. 203-00028/13). Govern de la Generalitat. Debat i votació sobre la validació o derogació del decret llei."/>
+<note type="narrative" content="6. Proposició de llei de modificació de l'article 47 de la Llei 5/2008, del 24 d'abril, del dret de les dones a erradicar la violència masclista, relativa a les indemnitzacions i els ajuts per a dones víctimes de violència masclista i llurs filles i fills (tram. 202-00027/13). Grup Parlamentari Socialistes i Units per Avançar. Debat de totalitat (text presentat: BOPC 178, 19)"/>
+<note type="narrative" content="7. Designació dels diputats que han de defensar davant el Congrés dels Diputats la proposició de llei de garantia del servei de caixer automàtic en els municipis en risc d'exclusió financera i de garantia en l'accés als serveis bancaris (tram. 271-00001/13). Ple del Parlament. Designació dels diputats."/>
+<note type="narrative" content="8. Interpel·lació al Govern sobre la despesa en ajuts i subvencions i en publicitat institucional als mitjans de comunicació (tram. 300-00212/13). Grup Parlamentari de VOX en Cataluña. Substanciació."/>
+<note type="narrative" content="9. Interpel·lació al Govern sobre la situació econòmica (tram. 300-00214/13). Grup Parlamentari Socialistes i Units per Avançar. Substanciació."/>
+<note type="narrative" content="10. Interpel·lació al Govern sobre la situació econòmica provocada per la crisi (tram. 300-00215/13). Grup Parlamentari d'En Comú Podem. Substanciació."/>
+<note type="narrative" content="11. Interpel·lació al Govern sobre la paràlisi del primer curs polític de la catorzena legislatura (tram. 300-00210/13). Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar. Substanciació."/>
+<note type="narrative" content="12. Interpel·lació al Govern sobre l'ús de les llengües a l'escola (tram. 300-00208/13). Grup Parlamentari de Ciutadans. Substanciació."/>
+<note type="narrative" content="13. Interpel·lació al Govern sobre l'impuls de la política lingüística (tram. 300-00211/13). Grup Parlamentari d'Esquerra Republicana. Substanciació."/>
+<note type="narrative" content="14. Interpel·lació al Govern sobre les agressions a funcionaris de presons per part d'interns (tram. 300-00213/13). Grup Parlamentari Socialistes i Units per Avançar. Substanciació."/>
+<note type="narrative" content="15. Interpel·lació al Govern sobre l'aprovació del nou contracte programa de serveis socials (tram. 300-00209/13). Grup Parlamentari de Junts per Catalunya. Substanciació."/>
+<note type="narrative" content="16. Moció subsegüent a la interpel·lació al Govern sobre les polítiques digitals (tram. 302-00177/13). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació."/>
+<note type="narrative" content="17. Moció subsegüent a la interpel·lació al Govern sobre l'estratègia de futur per a la vegueria de l'Alt Pirineu i Aran (tram. 302-00179/13). Grup Parlamentari d'En Comú Podem. Debat i votació."/>
+<note type="narrative" content="18. Moció subsegüent a la interpel·lació al Govern sobre els col·lapses de l'autopista AP-7 (tram. 302-00180/13). Grup Parlamentari de Ciutadans. Debat i votació."/>
+<note type="narrative" content="19. Moció subsegüent a la interpel·lació al Govern sobre la creació d'un fons de transició nuclear just amb els territoris propers a Ascó i a Vandellòs (tram. 302-00178/13). Grup Parlamentari Socialistes i Units per Avançar. Debat i votació."/>
+<note type="narrative" content="20. Moció subsegüent a la interpel·lació al Govern sobre la protecció del medi litoral (tram. 302-00184/13). Grup Parlamentari de la Candidatura d'Unitat Popular - Un Nou Cicle per Guanyar. Debat i votació."/>
+<note type="narrative" content="21. Moció subsegüent a la interpel·lació al Govern sobre la situació política internacional i el dret a l'autodeterminació (tram. 302-00181/13). Grup Parlamentari de Junts per Catalunya. Debat i votació."/>
+<note type="narrative" content="22. Moció subsegüent a la interpel·lació al Govern sobre l'impacte de la repressió en l'independentisme i en els estàndards democràtics de l'Estat espanyol (tram. 302-00182/13). Grup Parlamentari d'Esquerra Republicana. Debat i votació."/>
+<note type="narrative" content="23. Moció subsegüent a la interpel·lació al Govern sobre les polítiques per a frenar l'ocupació il·legal d'habitatges (tram. 302-00183/13). Grup Parlamentari de VOX en Cataluña. Debat i votació."/>
+<note type="speaker" content="La presidenta"/>
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.1.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Català" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="--" speaker_gender="F" speaker_birth="1970">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.0.1">
 Bon	Bon	bo	ADJ	Gender=Masc Number=Sing	1	root	-	-	-	-
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	2	flat	bo	ADJ	Gender=Masc Number=Sing	1
@@ -15,7 +42,7 @@ sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	3	nsubj	començar	VERB	Mood=
 .	.	.	PUNCT	PunctType=Peri	4	punct	començar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.1">
 La	La	el	DET	PronType=Art Gender=Fem Number=Sing	1	det	llista	NOUN	Gender=Fem Number=Sing	2
 llista	llista	llista	NOUN	Gender=Fem Number=Sing	2	nsubj	incloure	VERB	Mood=Par Number=Sing Gender=Fem	12
@@ -46,9 +73,11 @@ disposició	disposició	disposició	NOUN	Gender=Fem Number=Sing	23	obl	tenir	VER
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.1.2">
 I	I	i	CCONJ		1	advmod	substanciar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	14
 d'	d'	de	ADP	AdpType=Prep	2	case	article	NOUN	Gender=Masc Number=Sing	6
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	3	fixed	de	ADP	AdpType=Prep	2
 amb	amb	amb	ADP	AdpType=Prep	4	fixed	de	ADP	AdpType=Prep	2
 l'	l'	el	DET	PronType=Art Number=Sing	5	det	article	NOUN	Gender=Masc Number=Sing	6
+<g/>
 article	article	article	NOUN	Gender=Masc Number=Sing	6	obl	substanciar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	14
 164	164	164	NUM		7	appos	article	NOUN	Gender=Masc Number=Sing	6
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	8|9	case|det	reglament	PROPN	|	11
@@ -66,10 +95,12 @@ segon	segon	segon	ADJ	NumType=Ord Gender=Masc Number=Sing	19	amod	punt	NOUN	Gend
 punt	punt	punt	NOUN	Gender=Masc Number=Sing	20	obj	substanciar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	14
 de	de	de	ADP	AdpType=Prep	21	case	ordre	NOUN	Number=Sing	23
 l'	l'	el	DET	PronType=Art Number=Sing	22	det	ordre	NOUN	Number=Sing	23
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	23	nmod	punt	NOUN	Gender=Masc Number=Sing	20
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	24|25	case|det	dia	NOUN	Gender=Masc Number=Sing	27
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	27	nmod	ordre	NOUN	Number=Sing	23
 d'	d'	de	ADP	AdpType=Prep	28	case	sessió	NOUN	Gender=Fem Number=Sing	30
+<g/>
 aquesta	aquesta	aquest	DET	PronType=Dem Gender=Fem Number=Sing	29	det	sessió	NOUN	Gender=Fem Number=Sing	30
 sessió	sessió	sessió	NOUN	Gender=Fem Number=Sing	30	nmod	dia	NOUN	Gender=Masc Number=Sing	27
 plenària	plenària	plenari	ADJ	Gender=Fem Number=Sing	31	amod	sessió	NOUN	Gender=Fem Number=Sing	30
@@ -80,7 +111,7 @@ comencem	comencem	començar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	34	acl
 .	.	.	PUNCT	PunctType=Peri	35	punct	substanciar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	14
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.2.1">
 Els	Els	el	DET	PronType=Art Gender=Masc Number=Plur	1	det	faig	NOUN	Gender=Masc Number=Sing	2
 faig	faig	faig	NOUN	Gender=Masc Number=Sing	2	nsubj	avinent	ADJ	Number=Sing	3
@@ -110,6 +141,7 @@ de	de	de	ADP	AdpType=Prep	23	mark	començar	VERB	Mood=Inf	24
 començar	començar	començar	VERB	Mood=Inf	24	advcl	abans	ADV		22
 amb	amb	amb	ADP	AdpType=Prep	25	case	ordre	NOUN	Number=Sing	27
 l'	l'	el	DET	PronType=Art Number=Sing	26	det	ordre	NOUN	Number=Sing	27
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	27	obl	començar	VERB	Mood=Inf	24
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	28|29	case|det	dia	NOUN	Gender=Masc Number=Sing	31
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	31	nmod	ordre	NOUN	Number=Sing	27
@@ -118,15 +150,17 @@ de	de	de	ADP	AdpType=Prep	33	mark	comunicar	VERB	Mood=Inf	34
 comunicar-los	comunicar|-los	comunicar|els	VERB|PRON	Mood=Inf|PronType=Prs Person=3 Number=Plur	34|35	conj|obj	delegar|comunicar	VERB	Mood=Par Number=Sing Gender=Masc|Mood=Inf	8|34
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	37	det	feminicidi	NOUN	Gender=Masc Number=Sing	39
 nou	nou	nou	ADJ	Gender=Masc Number=Sing	38	amod	feminicidi	NOUN	Gender=Masc Number=Sing	39
-feminicidi	feminicidi	feminicidi	NOUN	Gender=Masc Number=Sing	39	obj	c			36
+feminicidi	feminicidi	feminicidi	NOUN	Gender=Masc Number=Sing	39	obj	
+			36
 <g/>
 .	.	.	PUNCT	PunctType=Peri	40	punct	avinent	ADJ	Number=Sing	3
 </s>
 </p>
 <note type="-" content="Manifestació de condol i de condemna de la violència masclista"/>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.3.1">
 D'	D'	de	ADP	AdpType=Prep	1	case	dada	NOUN	Gender=Fem Number=Plur	5
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	2	fixed	de	ADP	AdpType=Prep	1
 amb	amb	amb	ADP	AdpType=Prep	3	fixed	de	ADP	AdpType=Prep	1
 les	les	el	DET	PronType=Art Gender=Fem Number=Plur	4	det	dada	NOUN	Gender=Fem Number=Plur	5
@@ -136,6 +170,7 @@ del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	7|8	ca
 <name type="ORG">
 Departament	Departament	departament	PROPN		10	nmod	dada	NOUN	Gender=Fem Number=Plur	5
 d'	d'	d'	PROPN		11	case	interior	PROPN		12
+<g/>
 Interior	Interior	interior	PROPN		12	flat	departament	PROPN		10
 </name>
 ,	,	,	PUNCT	PunctType=Comm	13	punct	dada	NOUN	Gender=Fem Number=Plur	5
@@ -179,12 +214,14 @@ reitero	reitero	reiterar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	15	conj	l
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	16	det	compromís	NOUN	Gender=Masc Number=Sing	17
 compromís	compromís	compromís	NOUN	Gender=Masc Number=Sing	17	obj	reiterar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	15
 d'	d'	de	ADP	AdpType=Prep	18	case	parlament	PROPN		20
+<g/>
 aquest	aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	19	det	parlament	PROPN		20
 <name type="ORG">
 Parlament	Parlament	parlament	PROPN		20	nmod	compromís	NOUN	Gender=Masc Number=Sing	17
 </name>
 en	en	en	ADP	AdpType=Prep	21	case	erradicació	NOUN	Gender=Fem Number=Sing	23
 l'	l'	el	DET	PronType=Art Number=Sing	22	det	erradicació	NOUN	Gender=Fem Number=Sing	23
+<g/>
 erradicació	erradicació	erradicació	NOUN	Gender=Fem Number=Sing	23	nmod	compromís	NOUN	Gender=Masc Number=Sing	17
 de	de	de	ADP	AdpType=Prep	24	case	forma	NOUN	Gender=Fem Number=Sing	26
 qualsevol	qualsevol	qualsevol	DET	PronType=Ind Number=Sing	25	det	forma	NOUN	Gender=Fem Number=Sing	26
@@ -201,6 +238,7 @@ també	també	també	ADV		34	conj	erradicació	NOUN	Gender=Fem Number=Sing	23
 de	de	de	ADP	AdpType=Prep	35	case	també	ADV		34
 tot	tot	tot	DET	PronType=Ind Gender=Masc Number=Sing	36	det	el	DET	PronType=Art Number=Sing	37
 l'	l'	el	DET	PronType=Art Number=Sing	37	det	esforç	NOUN	Gender=Masc Number=Sing	38
+<g/>
 esforç	esforç	esforç	NOUN	Gender=Masc Number=Sing	38	nmod	també	ADV		34
 per	per	per	ADP	AdpType=Prep	39	mark	vetllar	VERB	Mood=Inf	40
 vetllar	vetllar	vetllar	VERB	Mood=Inf	40	acl	esforç	NOUN	Gender=Masc Number=Sing	38
@@ -212,9 +250,10 @@ record	record	record	NOUN	Gender=Masc Number=Sing	44	obl	vetllar	VERB	Mood=Inf	4
 .	.	.	PUNCT	PunctType=Peri	45	punct	lamentar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	9
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.4.1">
 D'	D'	de	ADP	AdpType=Prep	1	case	protocol	NOUN	Gender=Masc Number=Sing	5
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	2	fixed	de	ADP	AdpType=Prep	1
 amb	amb	amb	ADP	AdpType=Prep	3	fixed	de	ADP	AdpType=Prep	1
 el	el	el	DET	PronType=Art Gender=Masc Number=Sing	4	det	protocol	NOUN	Gender=Masc Number=Sing	5
@@ -278,10 +317,11 @@ palau	palau	palau	NOUN	Gender=Masc Number=Sing	58	nmod	façana	NOUN	Gender=Fem N
 .	.	.	PUNCT	PunctType=Peri	59	punct	convocar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	32
 </s>
 </p>
-<note type="-" content="Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d’acollida de migrants"/>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5" lang="Catalan">
+<note type="-" content="Compliment de la Moció 111/XII, sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants"/>
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.5.1">
 D'	D'	de	ADP	AdpType=Prep	1	case	també	ADV		3
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	2	fixed	de	ADP	AdpType=Prep	1
 també	també	també	ADV		3	advmod	informar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	35
 amb	amb	amb	ADP	AdpType=Prep	4	mark	establir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	7
@@ -315,6 +355,7 @@ i	i	i	CCONJ		26	cc	política	NOUN	Gender=Fem Number=Plur	28
 les	les	el	DET	PronType=Art Gender=Fem Number=Plur	27	det	política	NOUN	Gender=Fem Number=Plur	28
 polítiques	polítiques	política	NOUN	Gender=Fem Number=Plur	28	conj	operació	NOUN	Gender=Fem Number=Plur	20
 d'	d'	de	ADP	AdpType=Prep	29	case	acollida	NOUN	Gender=Fem Number=Sing	30
+<g/>
 acollida	acollida	acollida	NOUN	Gender=Fem Number=Sing	30	nmod	política	NOUN	Gender=Fem Number=Plur	28
 de	de	de	ADP	AdpType=Prep	31	case	migrants	NOUN	Number=Plur	32
 migrants	migrants	migrants	NOUN	Number=Plur	32	nmod	acollida	NOUN	Gender=Fem Number=Sing	30
@@ -331,6 +372,7 @@ dades	dades	dada	NOUN	Gender=Fem Number=Plur	40	obl	haver	VERB	Mood=Ind Tense=Pr
 oficials	oficials	oficial	ADJ	Number=Plur	41	amod	dada	NOUN	Gender=Fem Number=Plur	40
 de	de	de	ADP	AdpType=Prep	42	case	organització	PROPN		44
 l'	l'	el	DET	PronType=Art Number=Sing	43	det	organització	PROPN		44
+<g/>
 <name type="ORG">
 Organització	Organització	organització	PROPN		44	nmod	dada	NOUN	Gender=Fem Number=Plur	40
 Internacional	Internacional	internacional	PROPN		45	flat	organització	PROPN		44
@@ -343,6 +385,7 @@ des	des	des	ADP	AdpType=Prep	50	case	començament	NOUN	Gender=Masc Number=Sing	5
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	51|52	fixed|det	des|començament	ADP|NOUN	AdpType=Prep|Gender=Masc Number=Sing	50|54
 començament	començament	començament	NOUN	Gender=Masc Number=Sing	54	obl	haver	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60
 d'	d'	de	ADP	AdpType=Prep	55	case	any	NOUN	Gender=Masc Number=Sing	57
+<g/>
 aquest	aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	56	det	any	NOUN	Gender=Masc Number=Sing	57
 any	any	any	NOUN	Gender=Masc Number=Sing	57	nmod	començament	NOUN	Gender=Masc Number=Sing	54
 2022	2022	2022	NUM		58	compound	any	NOUN	Gender=Masc Number=Sing	57
@@ -364,13 +407,15 @@ Mediterrània	Mediterrània	mediterrània	PROPN		71	obl	matar	VERB	Mood=Par Numb
 .	.	.	PUNCT	PunctType=Peri	72	punct	informar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	35
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.6.1">
 I	I	i	CCONJ		1	advmod	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
 també	també	també	ADV		2	advmod	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
 al	a|el	a|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	3|4	case|det	dia	NOUN	Gender=Masc Number=Plur	11
-llarg	llarg	llarg	ADJ	Gender=Masc Number=Sing	6	fixed	a			5
-dels	de|els	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Plur	7|8	fixed|det	a|dia	|NOUN	|Gender=Masc Number=Plur	5|11
+llarg	llarg	llarg	ADJ	Gender=Masc Number=Sing	6	fixed	
+			5
+dels	de|els	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Plur	7|8	fixed|det	
+|dia	|NOUN	|Gender=Masc Number=Plur	5|11
 darrers	darrers	darrer	ADJ	NumType=Ord Gender=Masc Number=Plur	10	amod	dia	NOUN	Gender=Masc Number=Plur	11
 dies	dies	dia	NOUN	Gender=Masc Number=Plur	11	obl	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
 hem	hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	12	aux	veure	VERB	Mood=Par Number=Sing Gender=Masc	13
@@ -390,6 +435,7 @@ centenars	centenars	centenar	NOUN	Gender=Masc Number=Plur	24	obj	arrasar	VERB	Mo
 ,	,	,	PUNCT	PunctType=Comm	25	punct	miler	NOUN	Gender=Masc Number=Plur	26
 milers	milers	miler	NOUN	Gender=Masc Number=Plur	26	conj	centenar	NOUN	Gender=Masc Number=Plur	24
 d'	d'	de	ADP	AdpType=Prep	27	case	hectàrea	NOUN	Gender=Fem Number=Plur	28
+<g/>
 hectàrees	hectàrees	hectàrea	NOUN	Gender=Fem Number=Plur	28	nmod	centenar	NOUN	Gender=Masc Number=Plur	24
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	29|30	case|det	país	NOUN	Gender=Masc Number=Sing	33
 nostre	nostre	nostre	ADJ	Poss=Yes Gender=Masc Number=Sing Person=1 Number[psor]=Plur	32	det	país	NOUN	Gender=Masc Number=Sing	33
@@ -415,6 +461,7 @@ adreçant	adreçant	adreçar	VERB	Mood=Ger	10	xcomp	començar	VERB	Mood=Inf	7
 unes	unes	un	DET	PronType=Ind Gender=Fem Number=Plur	11	det	paraula	NOUN	Gender=Fem Number=Plur	12
 paraules	paraules	paraula	NOUN	Gender=Fem Number=Plur	12	obj	adreçar	VERB	Mood=Ger	10
 d'	d'	de	ADP	AdpType=Prep	13	case	acompanyament	NOUN	Gender=Masc Number=Sing	14
+<g/>
 acompanyament	acompanyament	acompanyament	NOUN	Gender=Masc Number=Sing	14	nmod	paraula	NOUN	Gender=Fem Number=Plur	12
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	15	punct	suport	NOUN	Gender=Masc Number=Sing	17
@@ -481,6 +528,7 @@ mateix	mateix	mateix	ADJ	Gender=Masc Number=Sing	2	fixed	així	ADV		1
 vull	vull	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	4	root	-	-	-	-
 aprofitar	aprofitar	aprofitar	VERB	Mood=Inf	5	xcomp	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	4
 l'	l'	el	DET	PronType=Art Number=Sing	6	det	ocasió	NOUN	Gender=Fem Number=Sing	7
+<g/>
 ocasió	ocasió	ocasió	NOUN	Gender=Fem Number=Sing	7	obj	aprofitar	VERB	Mood=Inf	5
 per	per	per	ADP	AdpType=Prep	8	mark	mostrar	VERB	Mood=Inf	9
 mostrar	mostrar	mostrar	VERB	Mood=Inf	9	advcl	aprofitar	VERB	Mood=Inf	5
@@ -488,6 +536,7 @@ el	el	el	DET	PronType=Art Gender=Masc Number=Sing	10	det	agraïment	NOUN	Gender=
 profund	profund	profund	ADJ	Gender=Masc Number=Sing	11	amod	agraïment	NOUN	Gender=Masc Number=Sing	12
 agraïment	agraïment	agraïment	NOUN	Gender=Masc Number=Sing	12	obj	mostrar	VERB	Mood=Inf	9
 d'	d'	de	ADP	AdpType=Prep	13	case	parlament	PROPN		15
+<g/>
 aquest	aquest	aquest	DET	PronType=Dem Gender=Masc Number=Sing	14	det	parlament	PROPN		15
 <name type="ORG">
 Parlament	Parlament	parlament	PROPN		15	nmod	agraïment	NOUN	Gender=Masc Number=Sing	12
@@ -527,6 +576,7 @@ locals	locals	local	ADJ	Number=Plur	39	amod	policia	NOUN	Number=Plur	38
 ,	,	,	PUNCT	PunctType=Comm	40	punct	servei	NOUN	Gender=Masc Number=Plur	41
 serveis	serveis	servei	NOUN	Gender=Masc Number=Plur	41	appos	bomber	NOUN	Gender=Masc Number=Plur	26
 d'	d'	de	ADP	AdpType=Prep	42	case	emergència	NOUN	Gender=Fem Number=Plur	43
+<g/>
 emergències	emergències	emergència	NOUN	Gender=Fem Number=Plur	43	nmod	servei	NOUN	Gender=Masc Number=Plur	41
 mèdiques	mèdiques	mèdic	ADJ	Gender=Fem Number=Plur	44	amod	emergència	NOUN	Gender=Fem Number=Plur	43
 <g/>
@@ -556,9 +606,13 @@ tothom	tothom	tothom	PRON	PronType=Ind Number=Sing	57	appos	bomber	NOUN	Gender=M
 <name type="PER">
 Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
 </name>
-per	per	per	ADP	AdpType=Prep	2	mark	s			5
-ser-hi	ser|-hi	ser|hi	AUX|PRON	Mood=Inf|PronType=Prs Person=3	3|4	aux|obj	s	|	|	5
-sempre	sempre	sempre	ADV		6	advmod	s			5
+per	per	per	ADP	AdpType=Prep	2	mark	
+			5
+ser-hi	ser|-hi	ser|hi	AUX|PRON	Mood=Inf|PronType=Prs Person=3	3|4	aux|obj	
+|
+	|	|	5
+sempre	sempre	sempre	ADV		6	advmod	
+			5
 <g/>
 ;	;	;	PUNCT	PunctType=Semi	7	punct	gràcia	NOUN	Gender=Fem Number=Plur	8
 gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	8	conj	gràcies	PROPN		1
@@ -569,7 +623,7 @@ fallar	fallar	fallar	VERB	Mood=Inf	11	acl	gràcia	NOUN	Gender=Fem Number=Plur	8
 .	.	.	PUNCT	PunctType=Peri	12	punct	gràcies	PROPN		1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.1">
 Estem	Estem	estar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	2	case	mà	NOUN	Gender=Fem Number=Plur	5
@@ -590,6 +644,7 @@ del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	7|8	ca
 nostre	nostre	nostre	ADJ	Poss=Yes Gender=Masc Number=Sing Person=1 Number[psor]=Plur	10	det	sistema	NOUN	Gender=Masc Number=Sing	11
 sistema	sistema	sistema	NOUN	Gender=Masc Number=Sing	11	nmod	dedicació	NOUN	Gender=Fem Number=Sing	3
 d'	d'	de	ADP	AdpType=Prep	12	case	emergència	NOUN	Gender=Fem Number=Plur	13
+<g/>
 emergències	emergències	emergència	NOUN	Gender=Fem Number=Plur	13	nmod	sistema	NOUN	Gender=Masc Number=Sing	11
 contra	contra	contra	ADP	AdpType=Prep	14	case	incendi	NOUN	Gender=Masc Number=Plur	16
 els	els	el	DET	PronType=Art Gender=Masc Number=Plur	15	det	incendi	NOUN	Gender=Masc Number=Plur	16
@@ -626,6 +681,7 @@ extrema	extrema	extrem	ADJ	Gender=Fem Number=Sing	2	amod	situació	NOUN	Gender=F
 de	de	de	ADP	AdpType=Prep	3	case	risc	NOUN	Gender=Masc Number=Sing	4
 risc	risc	risc	NOUN	Gender=Masc Number=Sing	4	nmod	situació	NOUN	Gender=Fem Number=Sing	1
 d'	d'	de	ADP	AdpType=Prep	5	case	incendi	NOUN	Gender=Masc Number=Sing	6
+<g/>
 incendi	incendi	incendi	NOUN	Gender=Masc Number=Sing	6	nmod	risc	NOUN	Gender=Masc Number=Sing	4
 <g/>
 .	.	.	PUNCT	PunctType=Peri	7	punct	situació	NOUN	Gender=Fem Number=Sing	1
@@ -633,6 +689,7 @@ incendi	incendi	incendi	NOUN	Gender=Masc Number=Sing	6	nmod	risc	NOUN	Gender=Mas
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.7.5">
 Ja	Ja	ja	ADV		1	advmod	viure	VERB	Mood=Par Number=Sing Gender=Masc	4
 n'	n'	en	PRON	PronType=Prs Person=3	2	obj	viure	VERB	Mood=Par Number=Sing Gender=Masc	4
+<g/>
 hem	hem	haver	AUX	Mood=Ind Tense=Pres Person=1 Number=Plur	3	aux	viure	VERB	Mood=Par Number=Sing Gender=Masc	4
 viscut	viscut	viure	VERB	Mood=Par Number=Sing Gender=Masc	4	root	-	-	-	-
 molts	molts	molt	DET	PronType=Ind Gender=Masc Number=Plur	5	obj	viure	VERB	Mood=Par Number=Sing Gender=Masc	4
@@ -672,6 +729,7 @@ la	la	el	DET	PronType=Art Gender=Fem Number=Sing	35	det	forma	NOUN	Gender=Fem Nu
 millor	millor	millor	ADJ	Number=Sing	36	amod	forma	NOUN	Gender=Fem Number=Sing	37
 forma	forma	forma	NOUN	Gender=Fem Number=Sing	37	nsubj	tenir	VERB	Mood=Inf	31
 d'	d'	de	ADP	AdpType=Prep	38	mark	apagar	VERB	Mood=Inf	39
+<g/>
 apagar	apagar	apagar	VERB	Mood=Inf	39	acl	forma	NOUN	Gender=Fem Number=Sing	37
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	40	det	incendi	NOUN	Gender=Masc Number=Sing	41
 incendi	incendi	incendi	NOUN	Gender=Masc Number=Sing	41	obj	apagar	VERB	Mood=Inf	39
@@ -684,7 +742,7 @@ produeixi	produeixi	produir	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	46	cco
 .	.	.	PUNCT	PunctType=Peri	47	punct	viure	VERB	Mood=Par Number=Sing Gender=Masc	4
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.1.0.8.1">
 Passem	Passem	passar	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 <g/>
@@ -698,11 +756,12 @@ primer	primer	primer	ADJ	NumType=Ord Gender=Masc Number=Sing	9	amod	punt	NOUN	Ge
 punt	punt	punt	NOUN	Gender=Masc Number=Sing	10	nmod	ja	ADV		5
 de	de	de	ADP	AdpType=Prep	11	case	ordre	NOUN	Number=Sing	13
 l'	l'	el	DET	PronType=Art Number=Sing	12	det	ordre	NOUN	Number=Sing	13
+<g/>
 ordre	ordre	ordre	NOUN	Number=Sing	13	nmod	punt	NOUN	Gender=Masc Number=Sing	10
 del	de|el	de|el	ADP|DET	AdpType=Prep|PronType=Art Gender=Masc Number=Sing	14|15	case|det	dia	NOUN	Gender=Masc Number=Sing	17
 dia	dia	dia	NOUN	Gender=Masc Number=Sing	17	nmod	ordre	NOUN	Number=Sing	13
 <g/>
-...	...	.	PUNCT	PunctType=Comm	18	punct	demanar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	28
+...	...	...	PUNCT	PunctType=Comm	18	punct	demanar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	28
 Sí	Sí	sí	ADV		19	advmod	demanar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	28
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	20	punct	sí	ADV		19
@@ -724,8 +783,8 @@ paraula	paraula	paraula	NOUN	Gender=Fem Number=Sing	30	nsubj	demanar	VERB	Mood=I
 </p>
 </speech>
 <note type="speaker" content="Ignacio Martín Blanco"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.2.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="War" body="Unicameralism" term="14" session="" meeting="36" sitting="1" agenda="" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Member" speaker_id="MartínIgnacio" speaker_name="Martín Blanco, Ignacio" speaker_mp="MP" speaker_minister="-" speaker_party="GP-Cs" speaker_party_name="Grup Parlamentari de Ciutadans" party_status="Opposition" speaker_gender="M" speaker_birth="1982">
-<p id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0" lang="Spanish">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.2.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Espanyol" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="MartínIgnacio" speaker_name="Martín Blanco, Ignacio" speaker_mp="MP" speaker_minister="notMinister" speaker_party="GP-Cs" speaker_party_name="Grup Parlamentari de Ciutadans" party_status="Opposition" party_orientation="---" speaker_gender="M" speaker_birth="1982">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0" lang="Espanyol">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.2.0.0.1">
 <name type="PER">
 Presidenta	Presidenta	presidenta	PROPN		1	root	-	-	-	-
@@ -766,13 +825,13 @@ Puig	Puig	puig	PROPN		20	flat	lluís	PROPN		19
 perquè	perquè	perquè	ADJ	Number=Sing	22	case	lògicament	NOUN	Gender=Masc Number=Sing	23
 lògicament	lògicament	lògicament	NOUN	Gender=Masc Number=Sing	23	advmod	senyor	ADJ	Number=Sing	18
 <g/>
-...	...	.	PUNCT	PunctType=Comm	24	punct	confirmi	ADJ		6
+...	...	...	PUNCT	PunctType=Comm	24	punct	confirmi	ADJ		6
 </s>
 </p>
 </speech>
 <note type="gap::editorial" content="SAMPLING"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.267.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="War" body="Unicameralism" term="14" session="" meeting="36" sitting="1" agenda="" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Member" speaker_id="Gonzàlez-CambrayJosep" speaker_name="Gonzàlez-Cambray, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="" speaker_gender="M" speaker_birth="1972">
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0" lang="Catalan">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.267.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Català" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Diputat/da" speaker_id="Gonzàlez-CambrayJosep" speaker_name="Gonzàlez-Cambray, Josep" speaker_mp="notMP" speaker_minister="Minister" speaker_party="ERC" speaker_party_name="Esquerra Republicana de Catalunya" party_status="-" party_orientation="--" speaker_gender="M" speaker_birth="1972">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.0.1">
 <name type="PER">
 Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
@@ -807,8 +866,8 @@ objectiu	objectiu	objectiu	NOUN	Gender=Masc Number=Sing	17	advcl	objectiu	NOUN	G
 .	.	.	PUNCT	PunctType=Peri	18	punct	objectiu	NOUN	Gender=Masc Number=Sing	11
 </s>
 </p>
-<note type="vocal:laughter" content="Remor de veus i rialles."/>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1" lang="Catalan">
+<note type="vocal:laughter" content="(Remor de veus i rialles.)"/>
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.1.1">
 En	En	en	ADP	AdpType=Prep	1	advmod	donar	VERB	Mood=Inf	11
 tot	tot	tot	DET	PronType=Ind Gender=Masc Number=Sing	2	fixed	en	ADP	AdpType=Prep	1
@@ -839,6 +898,7 @@ centres	centres	centre	NOUN	Gender=Masc Number=Plur	25	obj	acompanyar	VERB	Mood=
 educatius	educatius	educatiu	ADJ	Gender=Masc Number=Plur	26	amod	centre	NOUN	Gender=Masc Number=Plur	25
 perquè	perquè	perquè	SCONJ		27	mark	qualitat	NOUN	Gender=Fem Number=Sing	35
 l'	l'	el	DET	PronType=Art Number=Sing	28	det	escola	NOUN	Gender=Fem Number=Sing	29
+<g/>
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	29	nsubj	qualitat	NOUN	Gender=Fem Number=Sing	35
 cada	cada	cada	DET	PronType=Ind Number=Sing	30	det	cop	NOUN	Gender=Masc Number=Sing	31
 cop	cop	cop	NOUN	Gender=Masc Number=Sing	31	obl	qualitat	NOUN	Gender=Fem Number=Sing	35
@@ -860,6 +920,7 @@ cop	cop	cop	NOUN	Gender=Masc Number=Sing	44	obl	disposar	VERB	Mood=Inf	46
 puguem	puguem	poder	VERB	Mood=Sub Tense=Pres Person=1 Number=Plur	45	aux	disposar	VERB	Mood=Inf	46
 disposar	disposar	disposar	VERB	Mood=Inf	46	advcl	donar	VERB	Mood=Inf	11
 d'	d'	de	ADP	AdpType=Prep	47	case	escola	NOUN	Gender=Fem Number=Sing	49
+<g/>
 una	una	un	DET	PronType=Ind Gender=Fem Number=Sing	48	det	escola	NOUN	Gender=Fem Number=Sing	49
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	49	obj	disposar	VERB	Mood=Inf	46
 <g/>
@@ -939,7 +1000,7 @@ popularitat	popularitat	popularitat	NOUN	Gender=Fem Number=Sing	15	obj	aconsegui
 .	.	.	PUNCT	PunctType=Peri	16	punct	prendre	VERB	Mood=Ind Tense=Fut Person=1 Number=Sing	5
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.2.1">
 Dit	Dit	dir	VERB	Mood=Par Number=Sing Gender=Masc	1	advcl	dir	VERB	Mood=Ind Tense=Imp Person=3 Number=Sing	5
 això	això	això	PRON	PronType=Dem Number=Sing	2	obj	dir	VERB	Mood=Par Number=Sing Gender=Masc	1
@@ -972,6 +1033,7 @@ com	com	com	PRON	PronType=Int	12	case	conseller	NOUN	Gender=Masc Number=Sing	14
 a	a	a	ADP	AdpType=Prep	13	fixed	com	PRON	PronType=Int	12
 conseller	conseller	conseller	NOUN	Gender=Masc Number=Sing	14	obl	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	6
 d'	d'	de	ADP	AdpType=Prep	15	case	educació	PROPN		16
+<g/>
 <name type="ORG">
 Educació	Educació	educació	PROPN		16	nmod	conseller	NOUN	Gender=Masc Number=Sing	14
 </name>
@@ -988,13 +1050,15 @@ volem	volem	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	24	csubj	model	N
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	26	det	model	NOUN	Gender=Masc Number=Sing	27
 model	model	model	NOUN	Gender=Masc Number=Sing	27	advcl	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	6
 d'	d'	de	ADP	AdpType=Prep	28	case	escola	NOUN	Gender=Fem Number=Sing	29
+<g/>
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	29	nmod	model	NOUN	Gender=Masc Number=Sing	27
 catalana	catalana	català	ADJ	Gender=Fem Number=Sing	30	amod	escola	NOUN	Gender=Fem Number=Sing	29
 que	que	que	PRON	PronType=Rel	31	obj	continuar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	32
 continuï	continuï	continuar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	32	acl	model	NOUN	Gender=Masc Number=Sing	27
 garantint	garantint	garantir	VERB	Mood=Ger	33	xcomp	continuar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	32
 <g/>
-...	...	.	PUNCT	PunctType=Comm	34	punct	r			38
+...	...	...	PUNCT	PunctType=Comm	34	punct	
+			38
 ,	,	,	PUNCT	PunctType=Comm	35	punct	refermar	VERB	Mood=Inf	36
 refermar-lo	refermar|-lo	refermar|el	VERB|PRON	Mood=Inf|PronType=Prs Person=3 Gender=Masc Number=Sing Case=Acc	36|37	advcl|obj	model|refermar	NOUN|VERB	Gender=Masc Number=Sing|Mood=Inf	27|36
 ,	,	,	PUNCT	PunctType=Comm	39	punct	model	NOUN	Gender=Masc Number=Sing	43
@@ -1005,12 +1069,14 @@ model	model	model	NOUN	Gender=Masc Number=Sing	43	advcl	model	NOUN	Gender=Masc N
 que	que	que	PRON	PronType=Rel	44	nsubj	garantir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	45
 garanteix	garanteix	garantir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	45	acl	model	NOUN	Gender=Masc Number=Sing	43
 l'	l'	el	DET	PronType=Art Number=Sing	46	det	equitat	NOUN	Gender=Fem Number=Sing	47
+<g/>
 equitat	equitat	equitat	NOUN	Gender=Fem Number=Sing	47	obj	garantir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	45
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	48	punct	igualtat	NOUN	Gender=Fem Number=Sing	50
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	49	det	igualtat	NOUN	Gender=Fem Number=Sing	50
 igualtat	igualtat	igualtat	NOUN	Gender=Fem Number=Sing	50	appos	equitat	NOUN	Gender=Fem Number=Sing	47
 d'	d'	de	ADP	AdpType=Prep	51	case	oportunitat	NOUN	Gender=Fem Number=Plur	52
+<g/>
 oportunitats	oportunitats	oportunitat	NOUN	Gender=Fem Number=Plur	52	nmod	igualtat	NOUN	Gender=Fem Number=Sing	50
 i	i	i	CCONJ		53	cc	cohesió	NOUN	Gender=Fem Number=Sing	55
 la	la	el	DET	PronType=Art Gender=Fem Number=Sing	54	det	cohesió	NOUN	Gender=Fem Number=Sing	55
@@ -1046,6 +1112,7 @@ volem	volem	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	6	root	-	-	-	-
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	7	det	model	NOUN	Gender=Masc Number=Sing	8
 model	model	model	NOUN	Gender=Masc Number=Sing	8	obj	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	6
 d'	d'	de	ADP	AdpType=Prep	9	case	escola	NOUN	Gender=Fem Number=Sing	10
+<g/>
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	10	nmod	model	NOUN	Gender=Masc Number=Sing	8
 catalana	catalana	català	ADJ	Gender=Fem Number=Sing	11	amod	escola	NOUN	Gender=Fem Number=Sing	10
 que	que	que	SCONJ		12	nsubj	segregar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	14
@@ -1073,6 +1140,7 @@ Volem	Volem	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1	root	-	-	-	-
 un	un	un	DET	PronType=Ind Gender=Masc Number=Sing	2	det	model	NOUN	Gender=Masc Number=Sing	3
 model	model	model	NOUN	Gender=Masc Number=Sing	3	obj	voler	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	1
 d'	d'	de	ADP	AdpType=Prep	4	case	escola	NOUN	Gender=Fem Number=Sing	5
+<g/>
 escola	escola	escola	NOUN	Gender=Fem Number=Sing	5	nmod	model	NOUN	Gender=Masc Number=Sing	3
 catalana	catalana	català	ADJ	Gender=Fem Number=Sing	6	amod	escola	NOUN	Gender=Fem Number=Sing	5
 on	on	on	PRON	PronType=Rel	7	obl	acabar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	18
@@ -1089,6 +1157,7 @@ nostres	nostres	nostre	ADJ	Poss=Yes Number=Plur Person=1 Number[psor]=Plur	16	de
 joves	joves	jova	NOUN	Gender=Fem Number=Plur	17	nsubj	acabar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	18
 acabin	acabin	acabar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	18	acl	model	NOUN	Gender=Masc Number=Sing	3
 l'	l'	el	DET	PronType=Art Number=Sing	19	det	etapa	NOUN	Gender=Fem Number=Sing	20
+<g/>
 etapa	etapa	etapa	NOUN	Gender=Fem Number=Sing	20	obj	acabar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	18
 obligatòria	obligatòria	obligatori	ADJ	Gender=Fem Number=Sing	21	amod	etapa	NOUN	Gender=Fem Number=Sing	20
 amb	amb	amb	ADP	AdpType=Prep	22	case	coneixement	NOUN	Gender=Masc Number=Plur	24
@@ -1141,7 +1210,7 @@ succeeix	succeeix	succeir	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	16	ccomp
 .	.	.	PUNCT	PunctType=Peri	17	punct	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	3
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.3.1">
 A	A	a	ADP	AdpType=Prep	1	case	vegada	NOUN	Gender=Fem Number=Plur	2
 vegades	vegades	vegada	NOUN	Gender=Fem Number=Plur	2	obl	comentar	VERB	Mood=Par Number=Sing Gender=Masc	7
@@ -1189,6 +1258,7 @@ la	la	el	DET	PronType=Art Gender=Fem Number=Sing	27	det	resta	NOUN	Gender=Fem Nu
 resta	resta	resta	NOUN	Gender=Fem Number=Sing	28	nmod	estat	PROPN		31
 de	de	de	ADP	AdpType=Prep	29	case	resta	NOUN	Gender=Fem Number=Sing	28
 l'	l'	el	DET	PronType=Art Number=Sing	30	det	resta	NOUN	Gender=Fem Number=Sing	28
+<g/>
 <name type="LOC">
 Estat	Estat	estat	PROPN		31	nmod	sistema	NOUN	Gender=Masc Number=Sing	24
 </name>
@@ -1216,7 +1286,7 @@ castellà	castellà	castellà	NOUN	Gender=Masc Number=Sing	14	nmod	coneixement	N
 .	.	.	PUNCT	PunctType=Peri	15	punct	trobar	VERB	Mood=Ind Tense=Fut Person=3 Number=Plur	3
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.4.1">
 Per	Per	per	ADP	AdpType=Prep	1	advmod	dir	VERB	Mood=Ind Tense=Imp Person=3 Number=Sing	7
 tant	tant	tant	ADV		2	fixed	per	ADP	AdpType=Prep	1
@@ -1228,6 +1298,7 @@ li	li	li	PRON	PronType=Prs Person=3 Number=Sing Case=Dat	6	obj	dir	VERB	Mood=Ind
 deia	deia	dir	VERB	Mood=Ind Tense=Imp Person=3 Number=Sing	7	root	-	-	-	-
 a	a	a	ADP	AdpType=Prep	8	case	inici	NOUN	Gender=Masc Number=Sing	10
 l'	l'	el	DET	PronType=Art Number=Sing	9	det	inici	NOUN	Gender=Masc Number=Sing	10
+<g/>
 inici	inici	inici	NOUN	Gender=Masc Number=Sing	10	obl	dir	VERB	Mood=Ind Tense=Imp Person=3 Number=Sing	7
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	11	punct	ser	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	13
@@ -1296,7 +1367,7 @@ lingüístic	lingüístic	lingüístic	ADJ	Gender=Masc Number=Sing	68	amod	probl
 .	.	.	PUNCT	PunctType=Peri	69	punct	dir	VERB	Mood=Ind Tense=Imp Person=3 Number=Sing	7
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.5.1">
 De	De	de	ADP	AdpType=Prep	1	advmod	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10
 fet	fet	fet	NOUN	Gender=Masc Number=Sing	2	fixed	de	ADP	AdpType=Prep	1
@@ -1307,6 +1378,7 @@ la	la	el	DET	PronType=Art Gender=Fem Number=Sing	5	det	intervenció	NOUN	Gender=
 seva	seva	seu	ADJ	Poss=Yes Gender=Fem Number=Sing Person=3	6	det	intervenció	NOUN	Gender=Fem Number=Sing	7
 intervenció	intervenció	intervenció	NOUN	Gender=Fem Number=Sing	7	obl	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10
 m'	m'	em	PRON	PronType=Prs Person=1 Number=Sing	8	obj	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10
+<g/>
 ha	ha	haver	AUX	Mood=Ind Tense=Pres Person=3 Number=Sing	9	aux	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10
 semblat	semblat	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10	root	-	-	-	-
 que	que	que	SCONJ		11	mark	dir	VERB	Mood=Ger	16
@@ -1324,11 +1396,10 @@ Naturalitat	Naturalitat	naturalitat	NOUN	Gender=Fem Number=Sing	19	obj	dir	VERB	
 naturalitat	naturalitat	naturalitat	NOUN	Gender=Fem Number=Sing	21	conj	naturalitat	NOUN	Gender=Fem Number=Sing	19
 <g/>
 .	.	.	PUNCT	PunctType=Peri	22	punct	semblar	VERB	Mood=Par Number=Sing Gender=Masc	10
-»	»	»	PUNCT	PunctType=Peri PunctSide=Fin	23	punct	-	-	-	-
 </s>
 </p>
-<note type="vocal:murmuring" content="Remor de veus."/>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6" lang="Catalan">
+<note type="vocal:murmuring" content="(Remor de veus.)"/>
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.6.1">
 Per	Per	per	ADP	AdpType=Prep	1	advmod	tenir	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	5
 tant	tant	tant	ADV		2	fixed	per	ADP	AdpType=Prep	1
@@ -1354,6 +1425,7 @@ Jo	Jo	jo	PRON	PronType=Prs Person=1 Number=Sing Case=Nom	1	nsubj	hi	PRON	PronTyp
 hi	hi	hi	PRON	PronType=Prs Person=3	2	root	-	-	-	-
 estic	estic	estar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	3	cop	naturalitat	NOUN	Gender=Fem Number=Sing	7
 d'	d'	de	ADP	AdpType=Prep	4	advmod	naturalitat	NOUN	Gender=Fem Number=Sing	7
+<g/>
 acord	acord	acord	NOUN	Gender=Masc Number=Sing	5	fixed	de	ADP	AdpType=Prep	4
 <g/>
 :	:	:	PUNCT	PunctType=Colo	6	punct	naturalitat	NOUN	Gender=Fem Number=Sing	7
@@ -1403,6 +1475,7 @@ dic	dic	dir	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	31	conj	expressar	VERB
 que	que	que	SCONJ		32	mark	inventar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	35
 no	no	no	ADV	Polarity=Neg	33	advmod	inventar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	35
 s'	s'	es	PRON		34	obj	inventar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	35
+<g/>
 inventin	inventin	inventar	VERB	Mood=Sub Tense=Pres Person=3 Number=Plur	35	ccomp	dir	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	31
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	36	punct	llavors	ADV		37
@@ -1429,7 +1502,7 @@ hi	hi	hi	PRON	PronType=Prs Person=3	52	obj	haver	VERB	Mood=Ind Tense=Pres Person
 .	.	.	PUNCT	PunctType=Peri	54	punct	expressar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	2
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.7.1">
 Jo	Jo	jo	PRON	PronType=Prs Person=1 Number=Sing Case=Nom	1	nsubj	tenir	VERB	Mood=Ind Person=3 Number=Sing	3
 no	no	no	ADV	Polarity=Neg	2	advmod	tenir	VERB	Mood=Ind Person=3 Number=Sing	3
@@ -1527,6 +1600,7 @@ motius	motius	motiu	NOUN	Gender=Masc Number=Plur	19	obl	assumir	VERB	Mood=Par Nu
 perquè	perquè	perquè	SCONJ		21	mark	entendre	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	24
 tothom	tothom	tothom	PRON	PronType=Ind Number=Sing	22	nsubj	entendre	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	24
 m'	m'	em	PRON	PronType=Prs Person=1 Number=Sing	23	obj	entendre	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	24
+<g/>
 entén	entén	entendre	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	24	advcl	assumir	VERB	Mood=Par Number=Sing Gender=Masc	12
 <g/>
 ,	,	,	PUNCT	PunctType=Comm	25	punct	parlar	VERB	Mood=Ind Tense=Pres Person=1 Number=Sing	27
@@ -1566,6 +1640,7 @@ evidentment	evidentment	evidentment	ADV		16	advmod	garantir	VERB	Mood=Inf	37
 cadascú	cadascú	cadascú	PRON	PronType=Ind Number=Sing	18	nsubj	garantir	VERB	Mood=Inf	37
 que	que	que	PRON	PronType=Rel	19	nsubj	expressar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	21
 s'	s'	es	PRON		20	obj	expressar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	21
+<g/>
 expressi	expressi	expressar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	21	acl	cadascú	PRON	PronType=Ind Number=Sing	18
 com	com	com	SCONJ		22	mark	voler	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	23
 vulgui	vulgui	voler	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	23	advcl	expressar	VERB	Mood=Sub Tense=Pres Person=3 Number=Sing	21
@@ -1609,6 +1684,7 @@ que	que	que	SCONJ		58	mark	acabar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	
 tothom	tothom	tothom	PRON	PronType=Ind Number=Sing	59	nsubj	acabar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60
 acaba	acaba	acabar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60	conj	llengua	NOUN	Gender=Fem Number=Sing	43
 l'	l'	el	DET	PronType=Art Number=Sing	61	det	etapa	NOUN	Gender=Fem Number=Sing	62
+<g/>
 etapa	etapa	etapa	NOUN	Gender=Fem Number=Sing	62	obj	acabar	VERB	Mood=Ind Tense=Pres Person=3 Number=Sing	60
 obligatòria	obligatòria	obligatori	ADJ	Gender=Fem Number=Sing	63	amod	etapa	NOUN	Gender=Fem Number=Sing	62
 amb	amb	amb	ADP	AdpType=Prep	64	case	coneixement	NOUN	Gender=Masc Number=Plur	65
@@ -1631,7 +1707,7 @@ millor	millor	millor	ADJ	Number=Sing	77	advmod	llengua	NOUN	Gender=Fem Number=Pl
 .	.	.	PUNCT	PunctType=Peri	78	punct	dir	VERB	Mood=Ind Tense=Imp Person=3 Number=Sing	10
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.8" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.267.0.8" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.267.0.8.1">
 <name type="PER">
 Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
@@ -1641,8 +1717,8 @@ Gràcies	Gràcies	gràcies	PROPN		1	root	-	-	-	-
 </p>
 </speech>
 <note type="speaker" content="La presidenta"/>
-<speech id="ParlaMint-ES-CT_2022-07-20-3601.268.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="War" body="Unicameralism" term="14" session="" meeting="36" sitting="1" agenda="" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Member" speaker_id="BorràsLaura" speaker_name="Borràs Castanyer, Laura" speaker_mp="notMP" speaker_minister="-" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" speaker_gender="F" speaker_birth="1970">
-<p id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0" lang="Catalan">
+<speech id="ParlaMint-ES-CT_2022-07-20-3601.268.0" text_id="ParlaMint-ES-CT_2022-07-20-3601" subcorpus="COVID" lang="Català" body="Unicameralisme" term="14" session="-" meeting="36" sitting="1" agenda="-" date="2022-07-20" title="Corpus Parlamentari en català ParlaMint-ES-CT, 2022-07-20 3601.ana" speaker_role="Presidència" speaker_id="BorràsLaura" speaker_name="Borràs Castanyer, Laura" speaker_mp="notMP" speaker_minister="notMinister" speaker_party="GP-JxCAT" speaker_party_name="Grup Parlamentari de Junts per Catalunya" party_status="Coalition" party_orientation="--" speaker_gender="F" speaker_birth="1970">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.268.0.0.1">
 Moltes	Moltes	molt	DET	PronType=Ind Gender=Fem Number=Plur	1	root	-	-	-	-
 gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	2	nmod	molt	DET	PronType=Ind Gender=Fem Number=Plur	1
@@ -1650,7 +1726,7 @@ gràcies	gràcies	gràcia	NOUN	Gender=Fem Number=Plur	2	nmod	molt	DET	PronType=I
 .	.	.	PUNCT	PunctType=Peri	3	punct	molt	DET	PronType=Ind Gender=Fem Number=Plur	1
 </s>
 </p>
-<p id="ParlaMint-ES-CT_2022-07-20-3601.268.0.1" lang="Catalan">
+<p id="ParlaMint-ES-CT_2022-07-20-3601.268.0.1" lang="Català">
 <s id="ParlaMint-ES-CT_2022-07-20-3601.268.0.1.1">
 Doncs	Doncs	doncs	ADV		1	advmod	suspendre	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2
 suspenem	suspenem	suspendre	VERB	Mood=Ind Tense=Pres Person=1 Number=Plur	2	root	-	-	-	-

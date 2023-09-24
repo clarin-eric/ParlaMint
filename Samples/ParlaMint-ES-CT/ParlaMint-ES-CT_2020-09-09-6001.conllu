@@ -38,11 +38,11 @@
 19	.	.	PUNCT	_	PunctType=Peri	12	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.1.2
-# text = D' acord amb l' article 164 del Reglament , se substanciaran aquest matí com a primer punt de l' ordre del dia d' aquesta sessió plenària.
-1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O
+# text = D'acord amb l'article 164 del Reglament , se substanciaran aquest matí com a primer punt de l'ordre del dia d'aquesta sessió plenària.
+1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O|SpaceAfter=No
 2	acord	acord	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O
 3	amb	amb	ADP	_	AdpType=Prep	1	fixed	_	NER=O
-4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O
+4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O|SpaceAfter=No
 5	article	article	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	NER=O
 6	164	164	NUM	_	_	5	appos	_	NER=O
 7-8	del	_	_	_	_	_	_	_	NER=O
@@ -59,13 +59,13 @@
 17	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	NER=O
 18	punt	punt	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	NER=O
 19	de	de	ADP	_	AdpType=Prep	21	case	_	NER=O
-20	l'	el	DET	_	Number=Sing|PronType=Art	21	det	_	NER=O
+20	l'	el	DET	_	Number=Sing|PronType=Art	21	det	_	NER=O|SpaceAfter=No
 21	ordre	ordre	NOUN	_	Number=Sing	18	nmod	_	NER=O
 22-23	del	_	_	_	_	_	_	_	NER=O
 22	de	de	ADP	_	AdpType=Prep	24	case	_	_
 23	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	dia	dia	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	NER=O
-25	d'	de	ADP	_	AdpType=Prep	27	case	_	NER=O
+25	d'	de	ADP	_	AdpType=Prep	27	case	_	NER=O|SpaceAfter=No
 26	aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	NER=O
 27	sessió	sessió	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	NER=O
 28	plenària	plenari	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	NER=O|SpaceAfter=No
@@ -74,11 +74,11 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.1.0.2
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.2.1
-# text = Abans de començar l' ordre del dia he de comunicar-los que, d' acord amb les dades oficials del Departament d' Interior , malauradament el passat 22 d' agost va morir assassinada a Terrassa , Montserrat , la novena víctima per violència de gènere a Catalunya .
+# text = Abans de començar l'ordre del dia he de comunicar-los que, d'acord amb les dades oficials del Departament d'Interior , malauradament el passat 22 d'agost va morir assassinada a Terrassa , Montserrat , la novena víctima per violència de gènere a Catalunya .
 1	Abans	abans	ADV	_	_	11	advmod	_	NER=O
 2	de	de	ADP	_	AdpType=Prep	3	mark	_	NER=O
 3	començar	començar	VERB	_	Mood=Inf	1	advcl	_	NER=O
-4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O
+4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O|SpaceAfter=No
 5	ordre	ordre	NOUN	_	Number=Sing	3	nsubj	_	NER=O
 6-7	del	_	_	_	_	_	_	_	NER=O
 6	de	de	ADP	_	AdpType=Prep	8	case	_	_
@@ -91,7 +91,7 @@
 12	-los	els	PRON	_	Number=Plur|Person=3|PronType=Prs	11	iobj	_	_
 13	que	que	SCONJ	_	_	34	mark	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	19	punct	_	NER=O
-15	d'	de	ADP	_	AdpType=Prep	19	case	_	NER=O
+15	d'	de	ADP	_	AdpType=Prep	19	case	_	NER=O|SpaceAfter=No
 16	acord	acord	NOUN	_	Gender=Masc|Number=Sing	15	fixed	_	NER=O
 17	amb	amb	ADP	_	AdpType=Prep	15	fixed	_	NER=O
 18	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	19	det	_	NER=O
@@ -101,14 +101,14 @@
 21	de	de	ADP	_	AdpType=Prep	23	case	_	_
 22	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Departament	departament	PROPN	_	_	19	nmod	_	NER=B-ORG
-24	d'	d'	PROPN	_	_	25	case	_	NER=I-ORG
+24	d'	d'	PROPN	_	_	25	case	_	NER=I-ORG|SpaceAfter=No
 25	Interior	interior	PROPN	_	_	23	flat	_	NER=I-ORG
 26	,	,	PUNCT	_	PunctType=Comm	19	punct	_	NER=O
 27	malauradament	malauradament	ADV	_	_	34	advmod	_	NER=O
 28	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	30	det	_	NER=O
 29	passat	passat	NOUN	_	Gender=Masc|Number=Sing	30	amod	_	NER=O
 30	22	22	NUM	_	_	34	obl	_	NER=O
-31	d'	de	ADP	_	AdpType=Prep	32	case	_	NER=O
+31	d'	de	ADP	_	AdpType=Prep	32	case	_	NER=O|SpaceAfter=No
 32	agost	agost	NOUN	_	Gender=Masc|Number=Sing	30	compound	_	NER=O
 33	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	34	aux	_	NER=O
 34	morir	morir	VERB	_	Mood=Inf	10	xcomp	_	NER=O
@@ -132,7 +132,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.1.0.3
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.3.1
-# text = En nom de la cambra, lamento i condemno aquest crim i reitero el compromís del Parlament en l' eradicació de qualsevol forma de violència contra les dones i vetllar per el seu record.
+# text = En nom de la cambra, lamento i condemno aquest crim i reitero el compromís del Parlament en l'eradicació de qualsevol forma de violència contra les dones i vetllar per el seu record.
 1	En	en	ADP	_	AdpType=Prep	5	case	_	NER=O
 2	nom	nom	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O
 3	de	de	ADP	_	AdpType=Prep	1	fixed	_	NER=O
@@ -153,7 +153,7 @@
 17	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Parlament	parlament	PROPN	_	_	15	nmod	_	NER=B-ORG
 19	en	en	ADP	_	AdpType=Prep	21	case	_	NER=O
-20	l'	el	DET	_	Number=Sing|PronType=Art	21	det	_	NER=O
+20	l'	el	DET	_	Number=Sing|PronType=Art	21	det	_	NER=O|SpaceAfter=No
 21	eradicació	eradicació	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	NER=O
 22	de	de	ADP	_	AdpType=Prep	24	case	_	NER=O
 23	qualsevol	qualsevol	DET	_	Number=Sing|PronType=Ind	24	det	_	NER=O
@@ -174,8 +174,8 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.1.0.4
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.4.1
-# text = D' acord amb el protocol de dol del Parlament de Catalunya contra les violències masclistes aprovat per el Grup de Treball en Equitat de Gènere , aquesta Presidència convoca un minut de silenci en suspendre la sessió plenària, avui al migdia, davant de la façana del Palau de el Parlament .
-1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O
+# text = D'acord amb el protocol de dol del Parlament de Catalunya contra les violències masclistes aprovat per el Grup de Treball en Equitat de Gènere , aquesta Presidència convoca un minut de silenci en suspendre la sessió plenària, avui al migdia, davant de la façana del Palau del Parlament .
+1	D'	de	ADP	_	AdpType=Prep	5	case	_	NER=O|SpaceAfter=No
 2	acord	acord	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O
 3	amb	amb	ADP	_	AdpType=Prep	1	fixed	_	NER=O
 4	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=O
@@ -230,15 +230,14 @@
 50	de	de	ADP	_	AdpType=Prep	52	case	_	_
 51	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	Palau	palau	PROPN	_	_	49	nmod	_	NER=B-LOC
-53	de	de	PROPN	_	_	55	case	_	NER=I-LOC
-54	el	el	PROPN	_	_	55	det	_	NER=I-LOC
-55	Parlament	parlament	PROPN	_	_	52	flat	_	NER=I-LOC
-56	.	.	PUNCT	_	PunctType=Peri	30	punct	_	NER=O
+53	del	del	PROPN	_	_	54	case	_	NER=I-LOC
+54	Parlament	parlament	PROPN	_	_	52	flat	_	NER=I-LOC
+55	.	.	PUNCT	_	PunctType=Peri	30	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.1.0.5
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.5.1
-# text = Així mateix, els informo que, en compliment d' allò que estableix la Moció 111/XII del Parlament de Catalunya , sobre les operacions de rescat a la Mediterrània i les polítiques d' acollida de migrants, segons les dades oficials de l' Organització Internacional de les Migracions des de l' inici del 2020 hi ha 558 víctimes mortes i desaparegudes a la Mediterrània .
+# text = Així mateix, els informo que, en compliment d'allò que estableix la Moció 111/XII del Parlament de Catalunya , sobre les operacions de rescat a la Mediterrània i les polítiques d'acollida de migrants, segons les dades oficials de l'Organització Internacional de les Migracions des de l'inici del 2020 hi ha 558 víctimes mortes i desaparegudes a la Mediterrània .
 1	Així	així	ADV	_	_	5	advmod	_	NER=O
 2	mateix	mateix	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
@@ -248,7 +247,7 @@
 7	,	,	PUNCT	_	PunctType=Comm	9	punct	_	NER=O
 8	en	en	ADP	_	AdpType=Prep	9	case	_	NER=O
 9	compliment	compliment	NOUN	_	Gender=Masc|Number=Sing	58	obl	_	NER=O
-10	d'	de	ADP	_	AdpType=Prep	11	case	_	NER=O
+10	d'	de	ADP	_	AdpType=Prep	11	case	_	NER=O|SpaceAfter=No
 11	allò	allò	PRON	_	Number=Sing|PronType=Dem	9	nmod	_	NER=O
 12	que	que	PRON	_	PronType=Rel	13	obj	_	NER=O
 13	estableix	establir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	acl	_	NER=O
@@ -273,7 +272,7 @@
 31	i	i	CCONJ	_	_	33	cc	_	NER=O
 32	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	33	det	_	NER=O
 33	polítiques	política	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	NER=O
-34	d'	de	ADP	_	AdpType=Prep	35	case	_	NER=O
+34	d'	de	ADP	_	AdpType=Prep	35	case	_	NER=O|SpaceAfter=No
 35	acollida	acollida	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	NER=O
 36	de	de	ADP	_	AdpType=Prep	37	case	_	NER=O
 37	migrants	migrants	NOUN	_	Number=Plur	35	nmod	_	NER=O|SpaceAfter=No
@@ -283,7 +282,7 @@
 41	dades	dada	NOUN	_	Gender=Fem|Number=Plur	58	obl	_	NER=O
 42	oficials	oficial	ADJ	_	Number=Plur	41	amod	_	NER=O
 43	de	de	ADP	_	AdpType=Prep	45	case	_	NER=O
-44	l'	el	DET	_	Number=Sing|PronType=Art	45	det	_	NER=O
+44	l'	el	DET	_	Number=Sing|PronType=Art	45	det	_	NER=O|SpaceAfter=No
 45	Organització	organització	PROPN	_	_	41	nmod	_	NER=B-ORG
 46	Internacional	internacional	PROPN	_	_	45	flat	_	NER=I-ORG
 47	de	de	PROPN	_	_	49	case	_	NER=I-ORG
@@ -291,7 +290,7 @@
 49	Migracions	migracions	PROPN	_	_	45	flat	_	NER=I-ORG
 50	des	des	ADP	_	AdpType=Prep	53	case	_	NER=O
 51	de	de	ADP	_	AdpType=Prep	50	fixed	_	NER=O
-52	l'	el	DET	_	Number=Sing|PronType=Art	53	det	_	NER=O
+52	l'	el	DET	_	Number=Sing|PronType=Art	53	det	_	NER=O|SpaceAfter=No
 53	inici	inici	NOUN	_	Gender=Masc|Number=Sing	58	obl	_	NER=O
 54-55	del	_	_	_	_	_	_	_	NER=O
 54	de	de	ADP	_	AdpType=Prep	56	case	_	_
@@ -312,20 +311,20 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.1.0.6
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.6.1
-# text = Seguim amb el primer punt de l' ordre del dia d' aquesta sessió, que són les preguntes al Govern .
+# text = Seguim amb el primer punt de l'ordre del dia d'aquesta sessió, que són les preguntes al Govern .
 1	Seguim	seguir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	amb	amb	ADP	_	AdpType=Prep	5	case	_	NER=O
 3	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	NER=O
 4	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	NER=O
 5	punt	punt	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	NER=O
 6	de	de	ADP	_	AdpType=Prep	8	case	_	NER=O
-7	l'	el	DET	_	Number=Sing|PronType=Art	8	det	_	NER=O
+7	l'	el	DET	_	Number=Sing|PronType=Art	8	det	_	NER=O|SpaceAfter=No
 8	ordre	ordre	NOUN	_	Number=Sing	5	nmod	_	NER=O
 9-10	del	_	_	_	_	_	_	_	NER=O
 9	de	de	ADP	_	AdpType=Prep	11	case	_	_
 10	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	dia	dia	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	NER=O
-12	d'	de	ADP	_	AdpType=Prep	14	case	_	NER=O
+12	d'	de	ADP	_	AdpType=Prep	14	case	_	NER=O|SpaceAfter=No
 13	aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	NER=O
 14	sessió	sessió	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	NER=O|SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	19	punct	_	NER=O
@@ -342,14 +341,14 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.1.0.7
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.7.1
-# text = I la primera pregunta és sobre l' inici del curs escolar 2020-2021, i la formula, en nom del Subgrup Parlamentari de el Partit Popular de Catalunya , el diputat senyor Daniel Serrano .
+# text = I la primera pregunta és sobre l'inici del curs escolar 2020-2021, i la formula, en nom del Subgrup Parlamentari del Partit Popular de Catalunya , el diputat senyor Daniel Serrano .
 1	I	i	CCONJ	_	_	8	advmod	_	NER=O
 2	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
 3	primera	primer	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	NER=O
 4	pregunta	pregunta	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	NER=O
 5	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	NER=O
 6	sobre	sobre	ADP	_	AdpType=Prep	8	case	_	NER=O
-7	l'	el	DET	_	Number=Sing|PronType=Art	8	det	_	NER=O
+7	l'	el	DET	_	Number=Sing|PronType=Art	8	det	_	NER=O|SpaceAfter=No
 8	inici	inici	NOUN	_	Gender=Masc|Number=Sing	0	root	_	NER=O
 9-10	del	_	_	_	_	_	_	_	NER=O
 9	de	de	ADP	_	AdpType=Prep	11	case	_	_
@@ -369,19 +368,18 @@
 22	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Subgrup	subgrup	PROPN	_	_	17	nmod	_	NER=B-ORG
 24	Parlamentari	parlamentari	PROPN	_	_	23	flat	_	NER=I-ORG
-25	de	de	PROPN	_	_	27	case	_	NER=I-ORG
-26	el	el	PROPN	_	_	27	det	_	NER=I-ORG
-27	Partit	partit	PROPN	_	_	23	nmod	_	NER=I-ORG
-28	Popular	popular	PROPN	_	_	27	flat	_	NER=I-ORG
-29	de	de	PROPN	_	_	30	case	_	NER=I-ORG
-30	Catalunya	catalunya	PROPN	_	_	27	flat	_	NER=I-ORG
-31	,	,	PUNCT	_	PunctType=Comm	33	punct	_	NER=O
-32	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	33	det	_	NER=O
-33	diputat	diputat	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	NER=O
-34	senyor	senyor	NOUN	_	Gender=Masc|Number=Sing	33	appos	_	NER=O
-35	Daniel	daniel	PROPN	_	_	33	appos	_	NER=B-PER
-36	Serrano	serrano	PROPN	_	_	35	flat	_	NER=I-PER
-37	.	.	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
+25	del	del	PROPN	_	_	26	case	_	NER=I-ORG
+26	Partit	partit	PROPN	_	_	23	nmod	_	NER=I-ORG
+27	Popular	popular	PROPN	_	_	26	flat	_	NER=I-ORG
+28	de	de	PROPN	_	_	29	case	_	NER=I-ORG
+29	Catalunya	catalunya	PROPN	_	_	26	flat	_	NER=I-ORG
+30	,	,	PUNCT	_	PunctType=Comm	32	punct	_	NER=O
+31	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	NER=O
+32	diputat	diputat	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	NER=O
+33	senyor	senyor	NOUN	_	Gender=Masc|Number=Sing	32	appos	_	NER=O
+34	Daniel	daniel	PROPN	_	_	32	appos	_	NER=B-PER
+35	Serrano	serrano	PROPN	_	_	34	flat	_	NER=I-PER
+36	.	.	PUNCT	_	PunctType=Peri	8	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.1.0.7.2
 # text = Quan vulgui.
@@ -461,20 +459,20 @@
 2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.1.2
-# text = En primer lloc, l' escola, l' institut o la llar d' infants seran, a partir de dilluns, el lloc més segur per al infants i els joves fora de casa seva– seran el lloc més segur per al infants i els joves fora de casa seva.
+# text = En primer lloc, l'escola, l'institut o la llar d'infants seran, a partir de dilluns, el lloc més segur per al infants i els joves fora de casa seva– seran el lloc més segur per al infants i els joves fora de casa seva.
 1	En	en	ADP	_	AdpType=Prep	3	case	_	NER=O
 2	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	NER=O
 3	lloc	lloc	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	NER=O|SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
-5	l'	el	DET	_	Number=Sing|PronType=Art	6	det	_	NER=O
+5	l'	el	DET	_	Number=Sing|PronType=Art	6	det	_	NER=O|SpaceAfter=No
 6	escola	escola	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	NER=O|SpaceAfter=No
 7	,	,	PUNCT	_	PunctType=Comm	9	punct	_	NER=O
-8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	_	NER=O
+8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	_	NER=O|SpaceAfter=No
 9	institut	institut	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	NER=O
 10	o	o	CCONJ	_	_	12	cc	_	NER=O
 11	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	NER=O
 12	llar	llar	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	NER=O
-13	d'	de	ADP	_	AdpType=Prep	14	case	_	NER=O
+13	d'	de	ADP	_	AdpType=Prep	14	case	_	NER=O|SpaceAfter=No
 14	infants	infant	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	NER=O
 15	seran	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut	23	cop	_	NER=O|SpaceAfter=No
 16	,	,	PUNCT	_	PunctType=Comm	20	punct	_	NER=O
@@ -612,7 +610,7 @@
 45	.	.	PUNCT	_	PunctType=Peri	40	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.2.5
-# text = Perquè de garanties sanitàries hi ha les màximes, no n' hi ha més– no n' hi ha més.
+# text = Perquè de garanties sanitàries hi ha les màximes, no n'hi ha més– no n'hi ha més.
 1	Perquè	perquè	SCONJ	_	_	6	mark	_	NER=O
 2	de	de	ADP	_	AdpType=Prep	3	case	_	NER=O
 3	garanties	garantia	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	NER=O
@@ -623,23 +621,23 @@
 8	màximes	màxima	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	NER=O|SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	6	punct	_	NER=O
 10	no	no	ADV	_	Polarity=Neg	13	advmod	_	NER=O
-11	n'	en	PRON	_	Person=3|PronType=Prs	13	obj	_	NER=O
+11	n'	en	PRON	_	Person=3|PronType=Prs	13	obj	_	NER=O|SpaceAfter=No
 12	hi	hi	PRON	_	Person=3|PronType=Prs	13	obj	_	NER=O
 13	ha	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	NER=O
 14	més	més	ADV	_	_	13	advmod	_	NER=O|SpaceAfter=No
 15	–	–	PUNCT	_	_	19	punct	_	NER=O
 16	no	no	ADV	_	Polarity=Neg	19	advmod	_	NER=O
-17	n'	en	PRON	_	Person=3|PronType=Prs	19	obj	_	NER=O
+17	n'	en	PRON	_	Person=3|PronType=Prs	19	obj	_	NER=O|SpaceAfter=No
 18	hi	hi	PRON	_	Person=3|PronType=Prs	19	obj	_	NER=O
 19	ha	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	advcl	_	NER=O
 20	més	més	ADV	_	_	19	advmod	_	NER=O|SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	13	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.2.6
-# text = Ara no n' hi ha més.
+# text = Ara no n'hi ha més.
 1	Ara	ara	ADV	_	_	5	advmod	_	NER=O
 2	no	no	ADV	_	Polarity=Neg	5	advmod	_	NER=O
-3	n'	en	PRON	_	Person=3|PronType=Prs	5	obj	_	NER=O
+3	n'	en	PRON	_	Person=3|PronType=Prs	5	obj	_	NER=O|SpaceAfter=No
 4	hi	hi	PRON	_	Person=3|PronType=Prs	5	obj	_	NER=O
 5	ha	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	NER=O
 6	més	més	ADV	_	_	5	advmod	_	NER=O|SpaceAfter=No
@@ -658,14 +656,14 @@
 9	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.2.8
-# text = Potser ens en posin alguna més d' aquí a una setmana.
+# text = Potser ens en posin alguna més d'aquí a una setmana.
 1	Potser	potser	ADV	_	_	4	advmod	_	NER=O
 2	ens	ens	PRON	_	Number=Plur|Person=1|PronType=Prs	4	obj	_	NER=O
 3	en	en	PRON	_	Person=3|PronType=Prs	4	obj	_	NER=O
 4	posin	posar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres	0	root	_	NER=O
 5	alguna	algun	DET	_	Gender=Fem|Number=Sing|PronType=Ind	4	obj	_	NER=O
 6	més	més	ADV	_	_	5	advmod	_	NER=O
-7	d'	de	ADP	_	AdpType=Prep	8	case	_	NER=O
+7	d'	de	ADP	_	AdpType=Prep	8	case	_	NER=O|SpaceAfter=No
 8	aquí	aquí	ADV	_	_	5	advmod	_	NER=O
 9	a	a	ADP	_	AdpType=Prep	11	case	_	NER=O
 10	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	NER=O
@@ -706,11 +704,11 @@
 24	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.2.11
-# text = Tenim el Projecte d' escoles sentinelles: cinquanta escoles que se 'nfarà un seguiment continu per veure l' evolució de la pandèmia respecte al infants i quines mesures hem de prendre, amb la tutela de la Vall d' Hebron i de l' Hospital Sant Joan de Déu .
+# text = Tenim el Projecte d'escoles sentinelles: cinquanta escoles que se 'nfarà un seguiment continu per veure l'evolució de la pandèmia respecte al infants i quines mesures hem de prendre, amb la tutela de la Vall d'Hebron i de l'Hospital Sant Joan de Déu .
 1	Tenim	tenir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	NER=O
 3	Projecte	projecte	PROPN	_	_	1	obj	_	NER=B-MISC
-4	d'	de	ADP	_	AdpType=Prep	5	case	_	NER=O
+4	d'	de	ADP	_	AdpType=Prep	5	case	_	NER=O|SpaceAfter=No
 5	escoles	escola	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	NER=O
 6	sentinelles	sentinella	NOUN	_	Number=Plur	5	amod	_	NER=O|SpaceAfter=No
 7	:	:	PUNCT	_	PunctType=Colo	9	punct	_	NER=O
@@ -725,7 +723,7 @@
 16	continu	continu	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	NER=O
 17	per	per	ADP	_	AdpType=Prep	18	mark	_	NER=O
 18	veure	veure	VERB	_	Mood=Inf	13	advcl	_	NER=O
-19	l'	el	DET	_	Number=Sing|PronType=Art	20	det	_	NER=O
+19	l'	el	DET	_	Number=Sing|PronType=Art	20	det	_	NER=O|SpaceAfter=No
 20	evolució	evolució	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	NER=O
 21	de	de	ADP	_	AdpType=Prep	23	case	_	NER=O
 22	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=O
@@ -748,11 +746,11 @@
 38	de	de	ADP	_	AdpType=Prep	40	case	_	NER=O
 39	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	40	det	_	NER=O
 40	Vall	vall	PROPN	_	_	37	nmod	_	NER=B-LOC
-41	d'	d'	PROPN	_	_	42	case	_	NER=I-LOC
+41	d'	d'	PROPN	_	_	42	case	_	NER=I-LOC|SpaceAfter=No
 42	Hebron	hebron	PROPN	_	_	40	flat	_	NER=I-LOC
 43	i	i	CCONJ	_	_	46	cc	_	NER=O
 44	de	de	ADP	_	AdpType=Prep	46	case	_	NER=O
-45	l'	el	DET	_	Number=Sing|PronType=Art	46	det	_	NER=O
+45	l'	el	DET	_	Number=Sing|PronType=Art	46	det	_	NER=O|SpaceAfter=No
 46	Hospital	hospital	PROPN	_	_	40	conj	_	NER=B-ORG
 47	Sant	sant	PROPN	_	_	46	flat	_	NER=I-ORG
 48	Joan	joan	PROPN	_	_	46	flat	_	NER=I-ORG
@@ -774,7 +772,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.244.0.3
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.3.1
-# text = Una mesura important són els grups estables, que com més reduïts millor, però no és important el nombre del grup estable, sinó l' estancabilitat del grup, abans que el nombre, i les condicions en les quals es garanteix aquesta estancabilitat.
+# text = Una mesura important són els grups estables, que com més reduïts millor, però no és important el nombre del grup estable, sinó l'estancabilitat del grup, abans que el nombre, i les condicions en les quals es garanteix aquesta estancabilitat.
 1	Una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	NER=O
 2	mesura	mesura	NOUN	_	Gender=Fem|Number=Sing	0	root	_	NER=O
 3	important	important	ADJ	_	Number=Sing	2	amod	_	NER=O
@@ -802,7 +800,7 @@
 24	estable	estable	ADJ	_	Number=Sing	23	amod	_	NER=O|SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	28	punct	_	NER=O
 26	sinó	sinó	CCONJ	_	_	28	cc	_	NER=O
-27	l'	el	DET	_	Number=Sing|PronType=Art	28	det	_	NER=O
+27	l'	el	DET	_	Number=Sing|PronType=Art	28	det	_	NER=O|SpaceAfter=No
 28	estancabilitat	estancabilitat	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	NER=O
 29-30	del	_	_	_	_	_	_	_	NER=O
 29	de	de	ADP	_	AdpType=Prep	31	case	_	_
@@ -829,17 +827,18 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.244.0.4
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.4.1
-# text = De el que vostè ha comentat, la presencialitat.
-1	De	de	ADP	_	AdpType=Prep	6	case	_	NER=O
-2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	NER=O
+# text = Del que vostè ha comentat, la presencialitat.
+1-2	Del	_	_	_	_	_	_	_	NER=O
+1	De	de	ADP	_	AdpType=Prep	6	case	_	_
+2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 3	que	que	PRON	_	PronType=Rel	6	obj	_	NER=O
 4	vostè	vostè	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	NER=O
 5	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux	_	NER=O
-6	comentat	comentar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	0	root	_	NER=O|SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	9	punct	_	NER=O
+6	comentat	comentar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	9	acl	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	_	PunctType=Comm	6	punct	_	NER=O
 8	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	NER=O
-9	presencialitat	presencialitat	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	NER=O|SpaceAfter=No
-10	.	.	PUNCT	_	PunctType=Peri	6	punct	_	NER=O
+9	presencialitat	presencialitat	NOUN	_	Gender=Fem|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+10	.	.	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.4.2
 # text = Hem apostat per la presencialitat.
@@ -851,8 +850,8 @@
 6	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.4.3
-# text = L' ensenyament híbrid fora dels centres es fa en casos molt excepcionals.
-1	L'	el	DET	_	Number=Sing|PronType=Art	2	det	_	NER=O
+# text = L'ensenyament híbrid fora dels centres es fa en casos molt excepcionals.
+1	L'	el	DET	_	Number=Sing|PronType=Art	2	det	_	NER=O|SpaceAfter=No
 2	ensenyament	ensenyament	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	NER=O
 3	híbrid	híbrid	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	NER=O
 4	fora	fora	ADV	_	_	2	advmod	_	NER=O
@@ -869,7 +868,7 @@
 14	.	.	PUNCT	_	PunctType=Peri	9	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.4.4
-# text = I en aquest sentit som dels governs d' Europa que més clarament han apostat per la presencialitat.
+# text = I en aquest sentit som dels governs d'Europa que més clarament han apostat per la presencialitat.
 1	I	i	CCONJ	_	_	8	advmod	_	NER=O
 2	en	en	ADP	_	AdpType=Prep	4	case	_	NER=O
 3	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	NER=O
@@ -879,7 +878,7 @@
 6	de	de	ADP	_	AdpType=Prep	8	case	_	_
 7	els	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	governs	govern	NOUN	_	Gender=Masc|Number=Plur	0	root	_	NER=O
-9	d'	de	ADP	_	AdpType=Prep	10	case	_	NER=O
+9	d'	de	ADP	_	AdpType=Prep	10	case	_	NER=O|SpaceAfter=No
 10	Europa	europa	PROPN	_	_	8	nmod	_	NER=B-LOC
 11	que	que	PRON	_	PronType=Rel	15	nsubj	_	NER=O
 12	més	més	ADV	_	_	13	advmod	_	NER=O
@@ -900,7 +899,7 @@
 3	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.5.2
-# text = Un pla digital, en el primer curs, de 106_milions d' euros, amb les xifres que he donat– amb les xifres que he donat – i amb negociació amb qüestions internacionals per si podem aconseguir més material encara.
+# text = Un pla digital, en el primer curs, de 106_milions d'euros, amb les xifres que he donat– amb les xifres que he donat – i amb negociació amb qüestions internacionals per si podem aconseguir més material encara.
 1	Un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	NER=O
 2	pla	pla	NOUN	_	Gender=Masc|Number=Sing	0	root	_	NER=O
 3	digital	digital	ADJ	_	Number=Sing	2	amod	_	NER=O|SpaceAfter=No
@@ -912,7 +911,7 @@
 9	,	,	PUNCT	_	PunctType=Comm	8	punct	_	NER=O
 10	de	de	ADP	_	AdpType=Prep	11	case	_	NER=O
 11	106_milions	106000000	NUM	_	_	2	nmod	_	NER=O
-12	d'	de	ADP	_	AdpType=Prep	13	case	_	NER=O
+12	d'	de	ADP	_	AdpType=Prep	13	case	_	NER=O|SpaceAfter=No
 13	euros	euro	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
 15	amb	amb	ADP	_	AdpType=Prep	17	case	_	NER=O
@@ -953,7 +952,7 @@
 3	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.6.2
-# text = Vostè sap que hem fet propostes des del Govern i, en especial, treballades amb Salut , amb Treball , i Educació , algunes assumint més del que les nostres competències ens obliguen i d' altres demanant a l' Estat que o faci un pas o ens el deixi fer a nosaltres.
+# text = Vostè sap que hem fet propostes des del Govern i, en especial, treballades amb Salut , amb Treball , i Educació , algunes assumint més del que les nostres competències ens obliguen i d'altres demanant a l'Estat que o faci un pas o ens el deixi fer a nosaltres.
 1	Vostè	vostè	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	NER=O
 2	sap	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	NER=O
 3	que	que	SCONJ	_	_	5	mark	_	NER=O
@@ -993,11 +992,11 @@
 35	ens	ens	PRON	_	Number=Plur|Person=1|PronType=Prs	36	obj	_	NER=O
 36	obliguen	obligar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres	28	advcl	_	NER=O
 37	i	i	CCONJ	_	_	40	cc	_	NER=O
-38	d'	de	ADP	_	AdpType=Prep	39	case	_	NER=O
+38	d'	de	ADP	_	AdpType=Prep	39	case	_	NER=O|SpaceAfter=No
 39	altres	altre	ADJ	_	Number=Plur	40	conj	_	NER=O
 40	demanant	demanar	VERB	_	Mood=Ger	27	xcomp	_	NER=O
 41	a	a	ADP	_	AdpType=Prep	43	case	_	NER=O
-42	l'	el	DET	_	Number=Sing|PronType=Art	43	det	_	NER=O
+42	l'	el	DET	_	Number=Sing|PronType=Art	43	det	_	NER=O|SpaceAfter=No
 43	Estat	estat	PROPN	_	_	40	iobj	_	NER=B-ORG
 44	que	que	PRON	_	PronType=Rel	46	mark	_	NER=O
 45	o	o	CCONJ	_	_	46	cc	_	NER=O
@@ -1014,7 +1013,7 @@
 56	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.6.3
-# text = Perquè els vull recordar que en algun cas el que li hem dit és: « Doncs ja ho farem nosaltres. » Perquè és evident que és el mateix tenir cura de l' aïllament d' un menor d' edat infectat que tenir cura de l' aïllament d' un menor d' edat contacte estret d' un infectat.
+# text = Perquè els vull recordar que en algun cas el que li hem dit és: « Doncs ja ho farem nosaltres.
 1	Perquè	perquè	SCONJ	_	_	3	mark	_	NER=O
 2	els	els	PRON	_	Number=Plur|Person=3|PronType=Prs	3	iobj	_	NER=O
 3	vull	voler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O
@@ -1037,51 +1036,53 @@
 20	farem	fer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	4	ccomp	_	NER=O
 21	nosaltres	nosaltres	PRON	_	Number=Plur|Person=1|PronType=Prs	20	nsubj	_	NER=O|SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
-23	»	»	PUNCT	_	PunctSide=Fin|PunctType=Peri	4	punct	_	NER=O
-24	Perquè	perquè	SCONJ	_	_	4	mark	_	NER=O
-25	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	NER=O
-26	evident	evident	ADJ	_	Number=Sing	0	root	_	NER=O
-27	que	que	SCONJ	_	_	9	mark	_	NER=O
-28	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	NER=O
-29	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	NER=O
-30	mateix	mateix	ADJ	_	Gender=Masc|Number=Sing	9	nsubj	_	NER=O
-31	tenir	tenir	VERB	_	Mood=Inf	4	csubj	_	NER=O
-32	cura	cura	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	NER=O
-33	de	de	ADP	_	AdpType=Prep	13	case	_	NER=O
-34	l'	el	DET	_	Number=Sing|PronType=Art	13	det	_	NER=O
-35	aïllament	aïllament	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	NER=O
-36	d'	de	ADP	_	AdpType=Prep	16	case	_	NER=O
-37	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	NER=O
-38	menor	menor	NOUN	_	Number=Sing	13	nmod	_	NER=O
-39	d'	de	ADP	_	AdpType=Prep	18	case	_	NER=O
-40	edat	edat	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	NER=O
-41	infectat	infectar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	16	amod	_	NER=O
-42	que	que	PRON	_	PronType=Rel	21	mark	_	NER=O
-43	tenir	tenir	VERB	_	Mood=Inf	9	xcomp	_	NER=O
-44	cura	cura	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	NER=O
-45	de	de	ADP	_	AdpType=Prep	25	case	_	NER=O
-46	l'	el	DET	_	Number=Sing|PronType=Art	25	det	_	NER=O
-47	aïllament	aïllament	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	NER=O
-48	d'	de	ADP	_	AdpType=Prep	28	case	_	NER=O
-49	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	28	det	_	NER=O
-50	menor	menor	NOUN	_	Number=Sing	25	nmod	_	NER=O
-51	d'	de	ADP	_	AdpType=Prep	30	case	_	NER=O
-52	edat	edat	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	NER=O
-53	contacte	contacte	NOUN	_	Gender=Masc|Number=Sing	28	appos	_	NER=O
-54	estret	estrènyer	VERB	_	Gender=Masc|Mood=Par|Number=Sing	31	amod	_	NER=O
-55	d'	de	ADP	_	AdpType=Prep	35	case	_	NER=O
-56	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	35	det	_	NER=O
-57	infectat	infectar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	31	nmod	_	NER=O|SpaceAfter=No
-58	.	.	PUNCT	_	PunctType=Peri	4	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.6.4
+# text = Perquè és evident que és el mateix tenir cura de l'aïllament d'un menor d'edat infectat que tenir cura de l'aïllament d'un menor d'edat contacte estret d'un infectat.
+1	Perquè	perquè	SCONJ	_	_	3	mark	_	NER=O
+2	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	NER=O
+3	evident	evident	ADJ	_	Number=Sing	0	root	_	NER=O
+4	que	que	SCONJ	_	_	8	mark	_	NER=O
+5	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	NER=O
+6	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
+7	mateix	mateix	ADJ	_	Gender=Masc|Number=Sing	3	nsubj	_	NER=O
+8	tenir	tenir	VERB	_	Mood=Inf	3	csubj	_	NER=O
+9	cura	cura	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	NER=O
+10	de	de	ADP	_	AdpType=Prep	12	case	_	NER=O
+11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O|SpaceAfter=No
+12	aïllament	aïllament	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	NER=O
+13	d'	de	ADP	_	AdpType=Prep	15	case	_	NER=O|SpaceAfter=No
+14	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	NER=O
+15	menor	menor	NOUN	_	Number=Sing	12	nmod	_	NER=O
+16	d'	de	ADP	_	AdpType=Prep	17	case	_	NER=O|SpaceAfter=No
+17	edat	edat	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	NER=O
+18	infectat	infectar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	15	amod	_	NER=O
+19	que	que	PRON	_	PronType=Rel	20	mark	_	NER=O
+20	tenir	tenir	VERB	_	Mood=Inf	8	xcomp	_	NER=O
+21	cura	cura	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	NER=O
+22	de	de	ADP	_	AdpType=Prep	24	case	_	NER=O
+23	l'	el	DET	_	Number=Sing|PronType=Art	24	det	_	NER=O|SpaceAfter=No
+24	aïllament	aïllament	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	NER=O
+25	d'	de	ADP	_	AdpType=Prep	27	case	_	NER=O|SpaceAfter=No
+26	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	NER=O
+27	menor	menor	NOUN	_	Number=Sing	24	nmod	_	NER=O
+28	d'	de	ADP	_	AdpType=Prep	29	case	_	NER=O|SpaceAfter=No
+29	edat	edat	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	NER=O
+30	contacte	contacte	NOUN	_	Gender=Masc|Number=Sing	27	appos	_	NER=O
+31	estret	estrènyer	VERB	_	Gender=Masc|Mood=Par|Number=Sing	30	amod	_	NER=O
+32	d'	de	ADP	_	AdpType=Prep	34	case	_	NER=O|SpaceAfter=No
+33	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	34	det	_	NER=O
+34	infectat	infectar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	30	nmod	_	NER=O|SpaceAfter=No
+35	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
+
+# sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.6.5
 # text = És el mateix.
 1	És	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	NER=O
 2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	NER=O
 3	mateix	mateix	ADJ	_	Gender=Masc|Number=Sing	0	root	_	NER=O|SpaceAfter=No
 4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
 
-# sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.6.5
+# sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.6.6
 # text = Socialment i comunitàriament no té cap diferència.
 1	Socialment	socialment	ADV	_	_	5	advmod	_	NER=O
 2	i	i	CCONJ	_	_	3	cc	_	NER=O
@@ -1095,7 +1096,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.244.0.7
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.7.1
-# text = Per el que fa a les actuacions amb els alumnes que han patit més vulnerabilitat en aquesta situació, o ja en tenien més d' abans i s' ha agreujat o ja en tenien i es manté, un pla de 45_milions d' euros, amb accions molt concretes, destinats al centres de més complexitat, amb accions molt concretes, la majoria d' elles seguint el pla contra la segregació del Síndic de Greuges , i d' altres noves.
+# text = Per el que fa a les actuacions amb els alumnes que han patit més vulnerabilitat en aquesta situació, o ja en tenien més d'abans i s'ha agreujat o ja en tenien i es manté, un pla de 45_milions d'euros, amb accions molt concretes, destinats al centres de més complexitat, amb accions molt concretes, la majoria d'elles seguint el pla contra la segregació del Síndic de Greuges , i d'altres noves.
 1	Per	per	ADP	_	AdpType=Prep	7	case	_	NER=O
 2	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	NER=O
 3	que	que	PRON	_	PronType=Rel	7	case	_	NER=O
@@ -1120,10 +1121,10 @@
 22	en	en	PRON	_	Person=3|PronType=Prs	23	obj	_	NER=O
 23	tenien	tenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp	7	conj	_	NER=O
 24	més	més	ADV	_	_	23	advmod	_	NER=O
-25	d'	de	ADP	_	AdpType=Prep	26	case	_	NER=O
+25	d'	de	ADP	_	AdpType=Prep	26	case	_	NER=O|SpaceAfter=No
 26	abans	abans	ADV	_	_	24	advmod	_	NER=O
 27	i	i	CCONJ	_	_	30	cc	_	NER=O
-28	s'	es	PRON	_	_	30	obj	_	NER=O
+28	s'	es	PRON	_	_	30	obj	_	NER=O|SpaceAfter=No
 29	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	30	aux	_	NER=O
 30	agreujat	agreujar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	13	conj	_	NER=O
 31	o	o	CCONJ	_	_	34	cc	_	NER=O
@@ -1138,7 +1139,7 @@
 40	pla	pla	NOUN	_	Gender=Masc|Number=Sing	0	root	_	NER=O
 41	de	de	ADP	_	AdpType=Prep	42	case	_	NER=O
 42	45_milions	45000000	NUM	_	_	40	nmod	_	NER=O
-43	d'	de	ADP	_	AdpType=Prep	44	case	_	NER=O
+43	d'	de	ADP	_	AdpType=Prep	44	case	_	NER=O|SpaceAfter=No
 44	euros	euro	NOUN	_	Gender=Masc|Number=Plur	42	nmod	_	NER=O|SpaceAfter=No
 45	,	,	PUNCT	_	PunctType=Comm	47	punct	_	NER=O
 46	amb	amb	ADP	_	AdpType=Prep	47	case	_	NER=O
@@ -1162,7 +1163,7 @@
 63	,	,	PUNCT	_	PunctType=Comm	68	punct	_	NER=O
 64	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	65	det	_	NER=O
 65	majoria	majoria	NOUN	_	Gender=Fem|Number=Sing	68	obj	_	NER=O
-66	d'	de	ADP	_	AdpType=Prep	67	case	_	NER=O
+66	d'	de	ADP	_	AdpType=Prep	67	case	_	NER=O|SpaceAfter=No
 67	elles	ells	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	65	nmod	_	NER=O
 68	seguint	seguir	VERB	_	Mood=Ger	60	acl	_	NER=O
 69	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	70	det	_	NER=O
@@ -1178,7 +1179,7 @@
 78	Greuges	greuges	PROPN	_	_	76	flat	_	NER=I-PER
 79	,	,	PUNCT	_	PunctType=Comm	83	punct	_	NER=O
 80	i	i	CCONJ	_	_	83	cc	_	NER=O
-81	d'	de	ADP	_	AdpType=Prep	83	case	_	NER=O
+81	d'	de	ADP	_	AdpType=Prep	83	case	_	NER=O|SpaceAfter=No
 82	altres	altre	PRON	_	Number=Plur|PronType=Ind	83	det	_	NER=O
 83	noves	nou	ADJ	_	Gender=Fem|Number=Plur	68	conj	_	NER=O|SpaceAfter=No
 84	.	.	PUNCT	_	PunctType=Peri	40	punct	_	NER=O
@@ -1186,7 +1187,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.244.0.8
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.8.1
-# text = Hem fet i farem tots els esforços perquè, com vostè deia, senyor Riera , no siguin només les escoles obertes unes escoles segures, siguin també les escoles obertes unes escoles que continuïn apostant per la millora educativa i facin de l' actual situació una situació perquè aquesta millora tingui més força.
+# text = Hem fet i farem tots els esforços perquè, com vostè deia, senyor Riera , no siguin només les escoles obertes unes escoles segures, siguin també les escoles obertes unes escoles que continuïn apostant per la millora educativa i facin de l'actual situació una situació perquè aquesta millora tingui més força.
 1	Hem	haver	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	2	aux	_	NER=O
 2	fet	fer	VERB	_	Gender=Masc|Mood=Par|Number=Sing	0	root	_	NER=O
 3	i	i	CCONJ	_	_	4	cc	_	NER=O
@@ -1230,7 +1231,7 @@
 41	i	i	CCONJ	_	_	42	cc	_	NER=O
 42	facin	fer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres	36	conj	_	NER=O
 43	de	de	ADP	_	AdpType=Prep	46	case	_	NER=O
-44	l'	el	DET	_	Number=Sing|PronType=Art	46	det	_	NER=O
+44	l'	el	DET	_	Number=Sing|PronType=Art	46	det	_	NER=O|SpaceAfter=No
 45	actual	actual	ADJ	_	Number=Sing	46	amod	_	NER=O
 46	situació	situació	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	NER=O
 47	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	48	det	_	NER=O
@@ -1258,7 +1259,7 @@
 11	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.244.0.8.3
-# text = I gràcies al professorat, gràcies a les direccions, gràcies a la diversitat, gràcies a entendre que un grup estable en una escola rural és una cosa i que un grup estable en segons quin tipus d' escola de segons quin barri d' una ciutat és una altra cosa, i que, per tant, no es pot fer una instrucció única, perquè la diversitat també és la riquesa de la nostra escola.
+# text = I gràcies al professorat, gràcies a les direccions, gràcies a la diversitat, gràcies a entendre que un grup estable en una escola rural és una cosa i que un grup estable en segons quin tipus d'escola de segons quin barri d'una ciutat és una altra cosa, i que, per tant, no es pot fer una instrucció única, perquè la diversitat també és la riquesa de la nostra escola.
 1	I	i	CCONJ	_	_	5	cc	_	NER=O
 2	gràcies	gràcia	NOUN	_	Gender=Fem|Number=Plur	5	case	_	NER=O
 3-4	al	_	_	_	_	_	_	_	NER=O
@@ -1299,13 +1300,13 @@
 37	segons	segons	ADP	_	AdpType=Prep	39	case	_	NER=O
 38	quin	quin	DET	_	Gender=Masc|Number=Sing|PronType=Int	39	det	_	NER=O
 39	tipus	tipus	NOUN	_	Gender=Masc	52	obl	_	NER=O
-40	d'	de	ADP	_	AdpType=Prep	41	case	_	NER=O
+40	d'	de	ADP	_	AdpType=Prep	41	case	_	NER=O|SpaceAfter=No
 41	escola	escola	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	NER=O
 42	de	de	ADP	_	AdpType=Prep	45	case	_	NER=O
 43	segons	segons	ADP	_	AdpType=Prep	45	case	_	NER=O
 44	quin	quin	DET	_	Gender=Masc|Number=Sing|PronType=Int	45	det	_	NER=O
 45	barri	barri	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	NER=O
-46	d'	de	ADP	_	AdpType=Prep	48	case	_	NER=O
+46	d'	de	ADP	_	AdpType=Prep	48	case	_	NER=O|SpaceAfter=No
 47	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	48	det	_	NER=O
 48	ciutat	ciutat	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	NER=O
 49	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	52	cop	_	NER=O
@@ -1369,7 +1370,7 @@
 5	.	.	PUNCT	_	PunctType=Peri	2	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.1.2
-# text = Passarem ara a votar els punts debatuts durant la jornada d' avui.
+# text = Passarem ara a votar els punts debatuts durant la jornada d'avui.
 1	Passarem	passar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	0	root	_	NER=O
 2	ara	ara	ADV	_	_	1	advmod	_	NER=O
 3	a	a	ADP	_	AdpType=Prep	4	mark	_	NER=O
@@ -1380,7 +1381,7 @@
 8	durant	durant	ADP	_	AdpType=Prep	10	case	_	NER=O
 9	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	NER=O
 10	jornada	jornada	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	NER=O
-11	d'	de	ADP	_	AdpType=Prep	12	case	_	NER=O
+11	d'	de	ADP	_	AdpType=Prep	12	case	_	NER=O|SpaceAfter=No
 12	avui	avui	ADV	_	_	10	advmod	_	NER=O|SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
@@ -1394,7 +1395,7 @@
 4	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.2.2
-# text = Em permeto recordar que tots els diputats i diputades seguin, si us plau, a l' escó que tenen assignat; si no, tindrem problemes amb el sistema de votació.
+# text = Em permeto recordar que tots els diputats i diputades seguin, si us plau, a l'escó que tenen assignat; si no, tindrem problemes amb el sistema de votació.
 1	Em	em	PRON	_	Number=Sing|Person=1|PronType=Prs	2	iobj	_	NER=O
 2	permeto	permetre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	NER=O
 3	recordar	recordar	VERB	_	Mood=Inf	2	ccomp	_	NER=O
@@ -1411,7 +1412,7 @@
 14	plau	plaure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	NER=O|SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	14	punct	_	NER=O
 16	a	a	ADP	_	AdpType=Prep	18	case	_	NER=O
-17	l'	el	DET	_	Number=Sing|PronType=Art	18	det	_	NER=O
+17	l'	el	DET	_	Number=Sing|PronType=Art	18	det	_	NER=O|SpaceAfter=No
 18	escó	escó	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	NER=O
 19	que	que	PRON	_	PronType=Rel	20	obj	_	NER=O
 20	tenen	tenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	acl	_	NER=O
@@ -1450,7 +1451,7 @@
 2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.3.2
-# text = Estem organitzant de nou el sistema de votacions perquè hi ha hagut alguna retirada d' alguna delegació i per tant hem d' adaptar de nou els escons en els quals es votarà.
+# text = Estem organitzant de nou el sistema de votacions perquè hi ha hagut alguna retirada d'alguna delegació i per tant hem d'adaptar de nou els escons en els quals es votarà.
 1	Estem	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	2	aux	_	NER=O
 2	organitzant	organitzar	VERB	_	Mood=Ger	0	root	_	NER=O
 3	de	de	ADP	_	AdpType=Prep	2	advmod	_	NER=O
@@ -1465,14 +1466,14 @@
 12	hagut	heure	VERB	_	Gender=Masc|Mood=Par|Number=Sing	2	advcl	_	NER=O
 13	alguna	algun	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	NER=O
 14	retirada	retirada	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	NER=O
-15	d'	de	ADP	_	AdpType=Prep	17	case	_	NER=O
+15	d'	de	ADP	_	AdpType=Prep	17	case	_	NER=O|SpaceAfter=No
 16	alguna	algun	DET	_	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	NER=O
 17	delegació	delegació	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	NER=O
 18	i	i	CCONJ	_	_	23	cc	_	NER=O
 19	per	per	ADP	_	AdpType=Prep	23	advmod	_	NER=O
 20	tant	tant	ADV	_	_	19	fixed	_	NER=O
 21	hem	haver	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	23	aux	_	NER=O
-22	d'	de	ADP	_	AdpType=Prep	23	mark	_	NER=O
+22	d'	de	ADP	_	AdpType=Prep	23	mark	_	NER=O|SpaceAfter=No
 23	adaptar	adaptar	VERB	_	Mood=Inf	2	conj	_	NER=O
 24	de	de	ADP	_	AdpType=Prep	23	advmod	_	NER=O
 25	nou	nou	ADJ	_	Gender=Masc|Number=Sing	24	fixed	_	NER=O
@@ -1525,7 +1526,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.5
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.5.1
-# text = El primer punt a votar és el corresponent al punt número 2 de l' ordre del dia, és a dir, el Decret llei 29/2020, de 28 de juliol.
+# text = El primer punt a votar és el corresponent al punt número 2 de l'ordre del dia, és a dir, el Decret llei 29/2020, de 28 de juliol.
 1	El	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	NER=O
 2	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	NER=O
 3	punt	punt	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	NER=O
@@ -1541,7 +1542,7 @@
 12	número	número	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	NER=O
 13	2	2	NUM	_	_	12	appos	_	NER=O
 14	de	de	ADP	_	AdpType=Prep	16	case	_	NER=O
-15	l'	el	DET	_	Number=Sing|PronType=Art	16	det	_	NER=O
+15	l'	el	DET	_	Number=Sing|PronType=Art	16	det	_	NER=O|SpaceAfter=No
 16	ordre	ordre	NOUN	_	Number=Sing	11	nmod	_	NER=O
 17-18	del	_	_	_	_	_	_	_	NER=O
 17	de	de	ADP	_	AdpType=Prep	19	case	_	_
@@ -1724,7 +1725,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.12
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.12.1
-# text = Passem ara a votar el punt tercer, que és el Decret llei 30/2020, de 4 d' agost.
+# text = Passem ara a votar el punt tercer, que és el Decret llei 30/2020, de 4 d'agost.
 1	Passem	passar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	ara	ara	ADV	_	_	1	advmod	_	NER=O
 3	a	a	ADP	_	AdpType=Prep	4	mark	_	NER=O
@@ -1742,7 +1743,7 @@
 15	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
 16	de	de	ADP	_	AdpType=Prep	17	case	_	NER=O
 17	4	4	NUM	_	_	12	nmod	_	NER=O
-18	d'	de	ADP	_	AdpType=Prep	19	case	_	NER=O
+18	d'	de	ADP	_	AdpType=Prep	19	case	_	NER=O|SpaceAfter=No
 19	agost	agost	NOUN	_	Gender=Masc|Number=Sing	17	compound	_	NER=O|SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
@@ -1812,7 +1813,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.16
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.16.1
-# text = Doncs votem la tramitació com a projecte de llei d' aquest decret llei.
+# text = Doncs votem la tramitació com a projecte de llei d'aquest decret llei.
 1	Doncs	doncs	ADV	_	_	2	advmod	_	NER=O
 2	votem	votar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 3	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	NER=O
@@ -1822,7 +1823,7 @@
 7	projecte	projecte	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	NER=O
 8	de	de	ADP	_	AdpType=Prep	9	case	_	NER=O
 9	llei	llei	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	NER=O
-10	d'	de	ADP	_	AdpType=Prep	12	case	_	NER=O
+10	d'	de	ADP	_	AdpType=Prep	12	case	_	NER=O|SpaceAfter=No
 11	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	NER=O
 12	decret	decret	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	NER=O
 13	llei	llei	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	NER=O|SpaceAfter=No
@@ -1840,10 +1841,10 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.18
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.18.1
-# text = Atès que s' han emès 44 vots a favor, 65 en contra– corresponents a 42 de delegats i presencials i 23 de telemàtics– i 25 abstencions, aquest decret llei no es tramitarà com a projecte de llei.
+# text = Atès que s'han emès 44 vots a favor, 65 en contra– corresponents a 42 de delegats i presencials i 23 de telemàtics– i 25 abstencions, aquest decret llei no es tramitarà com a projecte de llei.
 1	Atès	atendre	VERB	_	Gender=Masc|Mood=Par|Number=Sing	5	mark	_	NER=O
 2	que	que	SCONJ	_	_	1	fixed	_	NER=O
-3	s'	es	PRON	_	_	5	obj	_	NER=O
+3	s'	es	PRON	_	_	5	obj	_	NER=O|SpaceAfter=No
 4	han	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	aux	_	NER=O
 5	emès	emetre	VERB	_	Gender=Masc|Mood=Par|Number=Sing	36	advcl	_	NER=O
 6	44	44	NUM	_	_	7	nummod	_	NER=O
@@ -1887,7 +1888,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.19
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.19.1
-# text = Passem ara a votar el punt número 4, la votació de la Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d' arrendament d' habitatge.
+# text = Passem ara a votar el punt número 4, la votació de la Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d'arrendament d'habitatge.
 1	Passem	passar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	ara	ara	ADV	_	_	1	advmod	_	NER=O
 3	a	a	ADP	_	AdpType=Prep	4	mark	_	NER=O
@@ -1916,23 +1917,23 @@
 26	en	en	ADP	_	AdpType=Prep	28	case	_	NER=O
 27	els	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	28	det	_	NER=O
 28	contractes	contracta	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	NER=O
-29	d'	de	ADP	_	AdpType=Prep	30	case	_	NER=O
+29	d'	de	ADP	_	AdpType=Prep	30	case	_	NER=O|SpaceAfter=No
 30	arrendament	arrendament	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	NER=O
-31	d'	de	ADP	_	AdpType=Prep	32	case	_	NER=O
+31	d'	de	ADP	_	AdpType=Prep	32	case	_	NER=O|SpaceAfter=No
 32	habitatge	habitatge	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	NER=O|SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.20
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.20.1
-# text = Els faig avinent, tal com s' ha assenyalat, que el Grup Parlamentari de Junts per Catalunya ha retirat les esmenes número 5, 6, 7, 21, 28 i 47 per a aquest text.
+# text = Els faig avinent, tal com s'ha assenyalat, que el Grup Parlamentari de Junts per Catalunya ha retirat les esmenes número 5, 6, 7, 21, 28 i 47 per a aquest text.
 1	Els	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	2	det	_	NER=O
 2	faig	faig	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	NER=O
 3	avinent	avinent	ADJ	_	Number=Sing	0	root	_	NER=O|SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
 5	tal	tal	PRON	_	Number=Sing|PronType=Dem	3	obl	_	NER=O
 6	com	com	PRON	_	PronType=Rel	9	obl	_	NER=O
-7	s'	es	PRON	_	_	9	obj	_	NER=O
+7	s'	es	PRON	_	_	9	obj	_	NER=O|SpaceAfter=No
 8	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	aux	_	NER=O
 9	assenyalat	assenyalar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	5	acl	_	NER=O|SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
@@ -1969,7 +1970,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.21
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.21.1
-# text = En primer lloc, votarem conjuntament les dues esmenes a la totalitat, presentades per el Grup Parlamentari Socialistes i Units per Avançar i el Subgrup Parlamentari de el Partit Popular de Catalunya .
+# text = En primer lloc, votarem conjuntament les dues esmenes a la totalitat, presentades per el Grup Parlamentari Socialistes i Units per Avançar i el Subgrup Parlamentari del Partit Popular de Catalunya .
 1	En	en	ADP	_	AdpType=Prep	3	case	_	NER=O
 2	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	NER=O
 3	lloc	lloc	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	NER=O|SpaceAfter=No
@@ -1997,22 +1998,21 @@
 25	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	NER=O
 26	Subgrup	subgrup	PROPN	_	_	17	conj	_	NER=B-ORG
 27	Parlamentari	parlamentari	PROPN	_	_	26	flat	_	NER=I-ORG
-28	de	de	PROPN	_	_	30	case	_	NER=I-ORG
-29	el	el	PROPN	_	_	30	det	_	NER=I-ORG
-30	Partit	partit	PROPN	_	_	26	nmod	_	NER=I-ORG
-31	Popular	popular	PROPN	_	_	30	flat	_	NER=I-ORG
-32	de	de	PROPN	_	_	33	case	_	NER=I-ORG
-33	Catalunya	catalunya	PROPN	_	_	30	flat	_	NER=I-ORG
-34	.	.	PUNCT	_	PunctType=Peri	5	punct	_	NER=O
+28	del	del	PROPN	_	_	29	case	_	NER=I-ORG
+29	Partit	partit	PROPN	_	_	26	nmod	_	NER=I-ORG
+30	Popular	popular	PROPN	_	_	29	flat	_	NER=I-ORG
+31	de	de	PROPN	_	_	32	case	_	NER=I-ORG
+32	Catalunya	catalunya	PROPN	_	_	29	flat	_	NER=I-ORG
+33	.	.	PUNCT	_	PunctType=Peri	5	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.22
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.22.1
-# text = Comença la votació d' aquestes esmenes a la totalitat.
+# text = Comença la votació d'aquestes esmenes a la totalitat.
 1	Comença	començar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	NER=O
 2	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	NER=O
 3	votació	votació	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	NER=O
-4	d'	de	ADP	_	AdpType=Prep	6	case	_	NER=O
+4	d'	de	ADP	_	AdpType=Prep	6	case	_	NER=O|SpaceAfter=No
 5	aquestes	aquest	DET	_	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	NER=O
 6	esmenes	esmena	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	NER=O
 7	a	a	ADP	_	AdpType=Prep	9	case	_	NER=O
@@ -2062,7 +2062,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.24
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.24.1
-# text = Procedim ara a votar les esmenes a l' articulat.
+# text = Procedim ara a votar les esmenes a l'articulat.
 1	Procedim	procedir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	ara	ara	ADV	_	_	1	advmod	_	NER=O
 3	a	a	ADP	_	AdpType=Prep	4	mark	_	NER=O
@@ -2070,12 +2070,12 @@
 5	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	6	det	_	NER=O
 6	esmenes	esmena	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	NER=O
 7	a	a	ADP	_	AdpType=Prep	9	case	_	NER=O
-8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	_	NER=O
+8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	_	NER=O|SpaceAfter=No
 9	articulat	articulat	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	NER=O|SpaceAfter=No
 10	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.24.2
-# text = I, en aquest cas, votem en primer lloc l' esmena número 3, presentada per el Subgrup Parlamentari de el Partit Popular de Catalunya .
+# text = I, en aquest cas, votem en primer lloc l'esmena número 3, presentada per el Subgrup Parlamentari del Partit Popular de Catalunya .
 1	I	i	CCONJ	_	_	7	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
 3	en	en	ADP	_	AdpType=Prep	5	case	_	NER=O
@@ -2086,7 +2086,7 @@
 8	en	en	ADP	_	AdpType=Prep	10	case	_	NER=O
 9	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	NER=O
 10	lloc	lloc	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	NER=O
-11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O
+11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O|SpaceAfter=No
 12	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	NER=O
 13	número	número	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	NER=O
 14	3	3	NUM	_	_	13	appos	_	NER=O|SpaceAfter=No
@@ -2096,13 +2096,12 @@
 18	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	NER=O
 19	Subgrup	subgrup	PROPN	_	_	16	obj	_	NER=B-ORG
 20	Parlamentari	parlamentari	PROPN	_	_	19	flat	_	NER=I-ORG
-21	de	de	PROPN	_	_	23	case	_	NER=I-ORG
-22	el	el	PROPN	_	_	23	det	_	NER=I-ORG
-23	Partit	partit	PROPN	_	_	19	nmod	_	NER=I-ORG
-24	Popular	popular	PROPN	_	_	23	flat	_	NER=I-ORG
-25	de	de	PROPN	_	_	26	case	_	NER=I-ORG
-26	Catalunya	catalunya	PROPN	_	_	23	flat	_	NER=I-ORG
-27	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
+21	del	del	PROPN	_	_	22	case	_	NER=I-ORG
+22	Partit	partit	PROPN	_	_	19	nmod	_	NER=I-ORG
+23	Popular	popular	PROPN	_	_	22	flat	_	NER=I-ORG
+24	de	de	PROPN	_	_	25	case	_	NER=I-ORG
+25	Catalunya	catalunya	PROPN	_	_	22	flat	_	NER=I-ORG
+26	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.25
 # lang = ca
@@ -2152,7 +2151,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.27
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.27.1
-# text = Votem ara les esmenes de supressió presentades respectivament per el Grup Parlamentari de Ciutadans , que són les esmenes 9, 13, 17, 20, 23, 25, 27, 30, 32, 34, 36, 38, 40, 41, 43 i 45, i les esmenes presentades per el Subgrup Parlamentari de el Partit Popular de Catalunya , esmenes número 8, 12, 16, 19, 22, 24, 26, 29, 31, 33, 35, 37, 39, 42, 44 i 46.
+# text = Votem ara les esmenes de supressió presentades respectivament per el Grup Parlamentari de Ciutadans , que són les esmenes 9, 13, 17, 20, 23, 25, 27, 30, 32, 34, 36, 38, 40, 41, 43 i 45, i les esmenes presentades per el Subgrup Parlamentari del Partit Popular de Catalunya , esmenes número 8, 12, 16, 19, 22, 24, 26, 29, 31, 33, 35, 37, 39, 42, 44 i 46.
 1	Votem	votar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	ara	ara	ADV	_	_	1	advmod	_	NER=O
 3	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	4	det	_	NER=O
@@ -2206,53 +2205,52 @@
 51	,	,	PUNCT	_	PunctType=Comm	19	punct	_	NER=O
 52	i	i	CCONJ	_	_	54	cc	_	NER=O
 53	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	54	det	_	NER=O
-54	esmenes	esmena	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	NER=O
+54	esmenes	esmena	NOUN	_	Gender=Fem|Number=Plur	19	conj	_	NER=O
 55	presentades	presentar	VERB	_	Gender=Fem|Mood=Par|Number=Plur	54	amod	_	NER=O
 56	per	per	ADP	_	AdpType=Prep	58	case	_	NER=O
 57	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	58	det	_	NER=O
 58	Subgrup	subgrup	PROPN	_	_	55	obj	_	NER=B-ORG
 59	Parlamentari	parlamentari	PROPN	_	_	58	flat	_	NER=I-ORG
-60	de	de	PROPN	_	_	62	case	_	NER=I-ORG
-61	el	el	PROPN	_	_	62	det	_	NER=I-ORG
-62	Partit	partit	PROPN	_	_	58	nmod	_	NER=I-ORG
-63	Popular	popular	PROPN	_	_	62	flat	_	NER=I-ORG
-64	de	de	PROPN	_	_	65	case	_	NER=I-ORG
-65	Catalunya	catalunya	PROPN	_	_	62	flat	_	NER=I-ORG
-66	,	,	PUNCT	_	PunctType=Comm	67	punct	_	NER=O
-67	esmenes	esmena	NOUN	_	Gender=Fem|Number=Plur	54	appos	_	NER=O
-68	número	número	NOUN	_	Gender=Masc|Number=Sing	67	appos	_	NER=O
-69	8	8	NUM	_	_	67	appos	_	NER=O|SpaceAfter=No
-70	,	,	PUNCT	_	PunctType=Comm	71	punct	_	NER=O
-71	12	12	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
-72	,	,	PUNCT	_	PunctType=Comm	73	punct	_	NER=O
-73	16	16	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-74	,	,	PUNCT	_	PunctType=Comm	75	punct	_	NER=O
-75	19	19	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-76	,	,	PUNCT	_	PunctType=Comm	77	punct	_	NER=O
-77	22	22	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-78	,	,	PUNCT	_	PunctType=Comm	79	punct	_	NER=O
-79	24	24	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-80	,	,	PUNCT	_	PunctType=Comm	81	punct	_	NER=O
-81	26	26	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-82	,	,	PUNCT	_	PunctType=Comm	83	punct	_	NER=O
-83	29	29	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-84	,	,	PUNCT	_	PunctType=Comm	85	punct	_	NER=O
-85	31	31	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-86	,	,	PUNCT	_	PunctType=Comm	87	punct	_	NER=O
-87	33	33	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-88	,	,	PUNCT	_	PunctType=Comm	89	punct	_	NER=O
-89	35	35	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-90	,	,	PUNCT	_	PunctType=Comm	91	punct	_	NER=O
-91	37	37	NUM	_	_	69	conj	_	NER=O|SpaceAfter=No
-92	,	,	PUNCT	_	PunctType=Comm	93	punct	_	NER=O
-93	39	39	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
-94	,	,	PUNCT	_	PunctType=Comm	95	punct	_	NER=O
-95	42	42	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
-96	,	,	PUNCT	_	PunctType=Comm	97	punct	_	NER=O
-97	44	44	NUM	_	_	20	conj	_	NER=O
-98	i	i	CCONJ	_	_	99	cc	_	NER=O
-99	46	46	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
-100	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
+60	del	del	PROPN	_	_	61	case	_	NER=I-ORG
+61	Partit	partit	PROPN	_	_	58	nmod	_	NER=I-ORG
+62	Popular	popular	PROPN	_	_	61	flat	_	NER=I-ORG
+63	de	de	PROPN	_	_	64	case	_	NER=I-ORG
+64	Catalunya	catalunya	PROPN	_	_	61	flat	_	NER=I-ORG
+65	,	,	PUNCT	_	PunctType=Comm	66	punct	_	NER=O
+66	esmenes	esmena	NOUN	_	Gender=Fem|Number=Plur	54	appos	_	NER=O
+67	número	número	NOUN	_	Gender=Masc|Number=Sing	66	appos	_	NER=O
+68	8	8	NUM	_	_	66	appos	_	NER=O|SpaceAfter=No
+69	,	,	PUNCT	_	PunctType=Comm	70	punct	_	NER=O
+70	12	12	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
+71	,	,	PUNCT	_	PunctType=Comm	72	punct	_	NER=O
+72	16	16	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+73	,	,	PUNCT	_	PunctType=Comm	74	punct	_	NER=O
+74	19	19	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+75	,	,	PUNCT	_	PunctType=Comm	76	punct	_	NER=O
+76	22	22	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+77	,	,	PUNCT	_	PunctType=Comm	78	punct	_	NER=O
+78	24	24	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+79	,	,	PUNCT	_	PunctType=Comm	80	punct	_	NER=O
+80	26	26	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+81	,	,	PUNCT	_	PunctType=Comm	82	punct	_	NER=O
+82	29	29	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+83	,	,	PUNCT	_	PunctType=Comm	84	punct	_	NER=O
+84	31	31	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+85	,	,	PUNCT	_	PunctType=Comm	86	punct	_	NER=O
+86	33	33	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+87	,	,	PUNCT	_	PunctType=Comm	88	punct	_	NER=O
+88	35	35	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+89	,	,	PUNCT	_	PunctType=Comm	90	punct	_	NER=O
+90	37	37	NUM	_	_	68	conj	_	NER=O|SpaceAfter=No
+91	,	,	PUNCT	_	PunctType=Comm	92	punct	_	NER=O
+92	39	39	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
+93	,	,	PUNCT	_	PunctType=Comm	94	punct	_	NER=O
+94	42	42	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
+95	,	,	PUNCT	_	PunctType=Comm	96	punct	_	NER=O
+96	44	44	NUM	_	_	20	conj	_	NER=O
+97	i	i	CCONJ	_	_	98	cc	_	NER=O
+98	46	46	NUM	_	_	20	conj	_	NER=O|SpaceAfter=No
+99	.	.	PUNCT	_	PunctType=Peri	1	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.28
 # lang = ca
@@ -2372,11 +2370,11 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.33
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.33.1
-# text = I votem ara l' esmena número 18, presentada per el Grup Parlamentari de Ciutadans .
+# text = I votem ara l'esmena número 18, presentada per el Grup Parlamentari de Ciutadans .
 1	I	i	CCONJ	_	_	2	advmod	_	NER=O
 2	votem	votar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 3	ara	ara	ADV	_	_	2	advmod	_	NER=O
-4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O
+4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O|SpaceAfter=No
 5	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	NER=O
 6	número	número	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	NER=O
 7	18	18	NUM	_	_	6	appos	_	NER=O|SpaceAfter=No
@@ -2453,7 +2451,7 @@
 10	.	.	PUNCT	_	PunctType=Peri	3	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.36.2
-# text = I, en primer lloc, votem l' esmena transaccional número 1, entre l' esmena 11, del Grup Parlamentari de Junts per Catalunya , i l' article 6 del text de la proposició de llei.
+# text = I, en primer lloc, votem l'esmena transaccional número 1, entre l'esmena 11, del Grup Parlamentari de Junts per Catalunya , i l'article 6 del text de la proposició de llei.
 1	I	i	CCONJ	_	_	7	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
 3	en	en	ADP	_	AdpType=Prep	5	case	_	NER=O
@@ -2461,14 +2459,14 @@
 5	lloc	lloc	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	NER=O|SpaceAfter=No
 6	,	,	PUNCT	_	PunctType=Comm	5	punct	_	NER=O
 7	votem	votar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
-8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	_	NER=O
+8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	_	NER=O|SpaceAfter=No
 9	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	NER=O
 10	transaccional	transaccional	ADJ	_	Number=Sing	9	amod	_	NER=O
 11	número	número	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	NER=O
 12	1	1	NUM	_	_	11	appos	_	NER=O|SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	16	punct	_	NER=O
 14	entre	entre	ADP	_	AdpType=Prep	16	case	_	NER=O
-15	l'	el	DET	_	Number=Sing|PronType=Art	16	det	_	NER=O
+15	l'	el	DET	_	Number=Sing|PronType=Art	16	det	_	NER=O|SpaceAfter=No
 16	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	NER=O
 17	11	11	NUM	_	_	16	appos	_	NER=O|SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	21	punct	_	NER=O
@@ -2483,7 +2481,7 @@
 26	Catalunya	catalunya	PROPN	_	_	24	flat	_	NER=I-ORG
 27	,	,	PUNCT	_	PunctType=Comm	21	punct	_	NER=O
 28	i	i	CCONJ	_	_	30	cc	_	NER=O
-29	l'	el	DET	_	Number=Sing|PronType=Art	30	det	_	NER=O
+29	l'	el	DET	_	Number=Sing|PronType=Art	30	det	_	NER=O|SpaceAfter=No
 30	article	article	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	NER=O
 31	6	6	NUM	_	_	30	appos	_	NER=O
 32-33	del	_	_	_	_	_	_	_	NER=O
@@ -2546,18 +2544,18 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.39
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.39.1
-# text = I votem ara l' esmena transaccional número 2, entre l' esmena 15, del Grup Parlamentari de Junts per Catalunya , i l' article 7 del text de la proposició de llei...
+# text = I votem ara l'esmena transaccional número 2, entre l'esmena 15, del Grup Parlamentari de Junts per Catalunya , i l'article 7 del text de la proposició de llei...
 1	I	i	CCONJ	_	_	2	advmod	_	NER=O
 2	votem	votar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 3	ara	ara	ADV	_	_	2	advmod	_	NER=O
-4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O
+4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O|SpaceAfter=No
 5	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	NER=O
 6	transaccional	transaccional	ADJ	_	Number=Sing	5	amod	_	NER=O
 7	número	número	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	NER=O
 8	2	2	NUM	_	_	7	appos	_	NER=O|SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
 10	entre	entre	ADP	_	AdpType=Prep	12	case	_	NER=O
-11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O
+11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O|SpaceAfter=No
 12	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	NER=O
 13	15	15	NUM	_	_	12	appos	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
@@ -2572,7 +2570,7 @@
 22	Catalunya	catalunya	PROPN	_	_	20	flat	_	NER=I-ORG
 23	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
 24	i	i	CCONJ	_	_	26	cc	_	NER=O
-25	l'	el	DET	_	Number=Sing|PronType=Art	26	det	_	NER=O
+25	l'	el	DET	_	Number=Sing|PronType=Art	26	det	_	NER=O|SpaceAfter=No
 26	article	article	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	NER=O
 27	7	7	NUM	_	_	26	appos	_	NER=O
 28-29	del	_	_	_	_	_	_	_	NER=O
@@ -2625,18 +2623,18 @@
 33	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.40.2
-# text = Estem parlant de l' esmena transaccional número 1, entre l' esmena 11, del Grup Parlamentari de Junts per Catalunya , i l' article 6 del text de la proposició de llei.
+# text = Estem parlant de l'esmena transaccional número 1, entre l'esmena 11, del Grup Parlamentari de Junts per Catalunya , i l'article 6 del text de la proposició de llei.
 1	Estem	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	2	aux	_	NER=O
 2	parlant	parlar	VERB	_	Mood=Ger	0	root	_	NER=O
 3	de	de	ADP	_	AdpType=Prep	5	case	_	NER=O
-4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O
+4	l'	el	DET	_	Number=Sing|PronType=Art	5	det	_	NER=O|SpaceAfter=No
 5	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	NER=O
 6	transaccional	transaccional	ADJ	_	Number=Sing	5	amod	_	NER=O
 7	número	número	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	NER=O
 8	1	1	NUM	_	_	7	appos	_	NER=O|SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
 10	entre	entre	ADP	_	AdpType=Prep	12	case	_	NER=O
-11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O
+11	l'	el	DET	_	Number=Sing|PronType=Art	12	det	_	NER=O|SpaceAfter=No
 12	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	NER=O
 13	11	11	NUM	_	_	12	appos	_	NER=O|SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
@@ -2651,7 +2649,7 @@
 22	Catalunya	catalunya	PROPN	_	_	20	flat	_	NER=I-ORG
 23	,	,	PUNCT	_	PunctType=Comm	17	punct	_	NER=O
 24	i	i	CCONJ	_	_	26	cc	_	NER=O
-25	l'	el	DET	_	Number=Sing|PronType=Art	26	det	_	NER=O
+25	l'	el	DET	_	Number=Sing|PronType=Art	26	det	_	NER=O|SpaceAfter=No
 26	article	article	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	NER=O
 27	6	6	NUM	_	_	26	appos	_	NER=O
 28-29	del	_	_	_	_	_	_	_	NER=O
@@ -2785,19 +2783,19 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.45
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.45.1
-# text = Passem ara a votar l' esmena transaccional número 2, entre l' esmena 15, del Grup Parlamentari de Junts per Catalunya , i l' article 7 del text de la proposició de llei.
+# text = Passem ara a votar l'esmena transaccional número 2, entre l'esmena 15, del Grup Parlamentari de Junts per Catalunya , i l'article 7 del text de la proposició de llei.
 1	Passem	passar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O
 2	ara	ara	ADV	_	_	1	advmod	_	NER=O
 3	a	a	ADP	_	AdpType=Prep	4	mark	_	NER=O
 4	votar	votar	VERB	_	Mood=Inf	1	xcomp	_	NER=O
-5	l'	el	DET	_	Number=Sing|PronType=Art	6	det	_	NER=O
+5	l'	el	DET	_	Number=Sing|PronType=Art	6	det	_	NER=O|SpaceAfter=No
 6	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	NER=O
 7	transaccional	transaccional	ADJ	_	Number=Sing	6	amod	_	NER=O
 8	número	número	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	NER=O
 9	2	2	NUM	_	_	8	appos	_	NER=O|SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	13	punct	_	NER=O
 11	entre	entre	ADP	_	AdpType=Prep	13	case	_	NER=O
-12	l'	el	DET	_	Number=Sing|PronType=Art	13	det	_	NER=O
+12	l'	el	DET	_	Number=Sing|PronType=Art	13	det	_	NER=O|SpaceAfter=No
 13	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	NER=O
 14	15	15	NUM	_	_	13	appos	_	NER=O|SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	18	punct	_	NER=O
@@ -2812,7 +2810,7 @@
 23	Catalunya	catalunya	PROPN	_	_	21	flat	_	NER=I-ORG
 24	,	,	PUNCT	_	PunctType=Comm	18	punct	_	NER=O
 25	i	i	CCONJ	_	_	27	cc	_	NER=O
-26	l'	el	DET	_	Number=Sing|PronType=Art	27	det	_	NER=O
+26	l'	el	DET	_	Number=Sing|PronType=Art	27	det	_	NER=O|SpaceAfter=No
 27	article	article	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	NER=O
 28	7	7	NUM	_	_	27	appos	_	NER=O
 29-30	del	_	_	_	_	_	_	_	NER=O
@@ -2880,7 +2878,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.48
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.48.1
-# text = I, finalment, votem la resta del text, que no s' ha esmenat.
+# text = I, finalment, votem la resta del text, que no s'ha esmenat.
 1	I	i	CCONJ	_	_	5	advmod	_	NER=O|SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	NER=O
 3	finalment	finalment	ADV	_	_	5	advmod	_	NER=O|SpaceAfter=No
@@ -2895,7 +2893,7 @@
 11	,	,	PUNCT	_	PunctType=Comm	16	punct	_	NER=O
 12	que	que	SCONJ	_	_	16	nsubj	_	NER=O
 13	no	no	ADV	_	Polarity=Neg	16	advmod	_	NER=O
-14	s'	es	PRON	_	_	16	obj	_	NER=O
+14	s'	es	PRON	_	_	16	obj	_	NER=O|SpaceAfter=No
 15	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	aux	_	NER=O
 16	esmenat	esmenar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	10	acl	_	NER=O|SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	5	punct	_	NER=O
@@ -2912,7 +2910,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.50
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.50.1
-# text = La Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d' arrendament d' habitatge ha estat aprovada per 71 vots a favor– corresponents a 52 de delegats i presencials i 19 de telemàtics– , 59 en... , perdó, 63 en contra– ara sí– i cap abstenció; 71 vots a favor, 63 en contra, cap abstenció.
+# text = La Proposició de llei de mesures urgents en matèria de contenció de rendes en els contractes d'arrendament d'habitatge ha estat aprovada per 71 vots a favor– corresponents a 52 de delegats i presencials i 19 de telemàtics– , 59 en... , perdó, 63 en contra– ara sí– i cap abstenció; 71 vots a favor, 63 en contra, cap abstenció.
 1	La	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	2	det	_	NER=O
 2	Proposició	proposició	PROPN	_	_	23	nsubj	_	NER=B-MISC
 3	de	de	ADP	_	AdpType=Prep	4	case	_	NER=O
@@ -2929,9 +2927,9 @@
 14	en	en	ADP	_	AdpType=Prep	16	case	_	NER=O
 15	els	el	DET	_	Gender=Masc|Number=Plur|PronType=Art	16	det	_	NER=O
 16	contractes	contracta	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	NER=O
-17	d'	de	ADP	_	AdpType=Prep	18	case	_	NER=O
+17	d'	de	ADP	_	AdpType=Prep	18	case	_	NER=O|SpaceAfter=No
 18	arrendament	arrendament	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	NER=O
-19	d'	de	ADP	_	AdpType=Prep	20	case	_	NER=O
+19	d'	de	ADP	_	AdpType=Prep	20	case	_	NER=O|SpaceAfter=No
 20	habitatge	habitatge	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	NER=O
 21	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	aux	_	NER=O
 22	estat	ser	AUX	_	Gender=Masc|Mood=Par|Number=Sing	23	aux	_	NER=O
@@ -2988,7 +2986,7 @@
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.51
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.51.1
-# text = I votem, finalment, el punt cinquè de l' ordre del dia, que correspon a l' esmena a la totalitat sobre la Proposta per a presentar a la Mesa de el Congrés de els Diputats la proposició...
+# text = I votem, finalment, el punt cinquè de l'ordre del dia, que correspon a l'esmena a la totalitat sobre la Proposta per a presentar a la Mesa del Congrés dels Diputats la proposició...
 1	I	i	CCONJ	_	_	2	advmod	_	NER=O
 2	votem	votar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	NER=O|SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	4	punct	_	NER=O
@@ -2998,7 +2996,7 @@
 7	punt	punt	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	NER=O
 8	cinquè	cinquè	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	NER=O
 9	de	de	ADP	_	AdpType=Prep	11	case	_	NER=O
-10	l'	el	DET	_	Number=Sing|PronType=Art	11	det	_	NER=O
+10	l'	el	DET	_	Number=Sing|PronType=Art	11	det	_	NER=O|SpaceAfter=No
 11	ordre	ordre	NOUN	_	Number=Sing	7	nmod	_	NER=O
 12-13	del	_	_	_	_	_	_	_	NER=O
 12	de	de	ADP	_	AdpType=Prep	14	case	_	_
@@ -3008,7 +3006,7 @@
 16	que	que	PRON	_	PronType=Rel	17	nsubj	_	NER=O
 17	correspon	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	acl	_	NER=O
 18	a	a	ADP	_	AdpType=Prep	20	case	_	NER=O
-19	l'	el	DET	_	Number=Sing|PronType=Art	20	det	_	NER=O
+19	l'	el	DET	_	Number=Sing|PronType=Art	20	det	_	NER=O|SpaceAfter=No
 20	esmena	esmena	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	NER=O
 21	a	a	ADP	_	AdpType=Prep	23	case	_	NER=O
 22	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	23	det	_	NER=O
@@ -3022,30 +3020,28 @@
 30	a	a	ADP	_	AdpType=Prep	32	case	_	NER=O
 31	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	32	det	_	NER=O
 32	Mesa	mesa	PROPN	_	_	29	obl	_	NER=B-MISC
-33	de	de	PROPN	_	_	35	case	_	NER=I-MISC
-34	el	el	PROPN	_	_	35	det	_	NER=I-MISC
-35	Congrés	congrés	PROPN	_	_	32	flat	_	NER=I-MISC
-36	de	de	PROPN	_	_	38	case	_	NER=I-MISC
-37	els	els	PROPN	_	_	38	det	_	NER=I-MISC
-38	Diputats	diputats	PROPN	_	_	32	flat	_	NER=I-MISC
-39	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	40	det	_	NER=O
-40	proposició	proposició	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	NER=O|SpaceAfter=No
-41	...	...	PUNCT	_	PunctType=Comm	2	punct	_	NER=O
+33	del	del	PROPN	_	_	34	case	_	NER=I-MISC
+34	Congrés	congrés	PROPN	_	_	32	flat	_	NER=I-MISC
+35	dels	dels	PROPN	_	_	36	case	_	NER=I-MISC
+36	Diputats	diputats	PROPN	_	_	32	flat	_	NER=I-MISC
+37	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	38	det	_	NER=O
+38	proposició	proposició	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	NER=O|SpaceAfter=No
+39	...	...	PUNCT	_	PunctType=Comm	2	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.52
 # lang = ca
 # sent_id = ParlaMint-ES-CT_2020-09-09-6001.245.0.52.1
-# text = Perdó , no s' ha de votar, perquè l' ha retirat, certament, en la seva intervenció, el Subgrup Parlamentari de el Partit Popular de Catalunya .
+# text = Perdó , no s'ha de votar, perquè l'ha retirat, certament, en la seva intervenció, el Subgrup Parlamentari del Partit Popular de Catalunya .
 1	Perdó	perdó	PROPN	_	_	7	nsubj	_	NER=B-PER
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	NER=O
 3	no	no	ADV	_	Polarity=Neg	7	advmod	_	NER=O
-4	s'	es	PRON	_	_	7	obj	_	NER=O
+4	s'	es	PRON	_	_	7	obj	_	NER=O|SpaceAfter=No
 5	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux	_	NER=O
 6	de	de	ADP	_	AdpType=Prep	7	mark	_	NER=O
 7	votar	votar	VERB	_	Mood=Inf	0	root	_	NER=O|SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	12	punct	_	NER=O
 9	perquè	perquè	SCONJ	_	_	12	mark	_	NER=O
-10	l'	el	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	obj	_	NER=O
+10	l'	el	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	obj	_	NER=O|SpaceAfter=No
 11	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	NER=O
 12	retirat	retirar	VERB	_	Gender=Masc|Mood=Par|Number=Sing	7	advcl	_	NER=O|SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	14	punct	_	NER=O
@@ -3059,13 +3055,12 @@
 21	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	NER=O
 22	Subgrup	subgrup	PROPN	_	_	12	nsubj	_	NER=B-ORG
 23	Parlamentari	parlamentari	PROPN	_	_	22	flat	_	NER=I-ORG
-24	de	de	PROPN	_	_	26	case	_	NER=I-ORG
-25	el	el	PROPN	_	_	26	det	_	NER=I-ORG
-26	Partit	partit	PROPN	_	_	22	nmod	_	NER=I-ORG
-27	Popular	popular	PROPN	_	_	26	flat	_	NER=I-ORG
-28	de	de	PROPN	_	_	29	case	_	NER=I-ORG
-29	Catalunya	catalunya	PROPN	_	_	26	flat	_	NER=I-ORG
-30	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
+24	del	del	PROPN	_	_	25	case	_	NER=I-ORG
+25	Partit	partit	PROPN	_	_	22	nmod	_	NER=I-ORG
+26	Popular	popular	PROPN	_	_	25	flat	_	NER=I-ORG
+27	de	de	PROPN	_	_	28	case	_	NER=I-ORG
+28	Catalunya	catalunya	PROPN	_	_	25	flat	_	NER=I-ORG
+29	.	.	PUNCT	_	PunctType=Peri	7	punct	_	NER=O
 
 # newpar id = ParlaMint-ES-CT_2020-09-09-6001.245.0.53
 # lang = ca

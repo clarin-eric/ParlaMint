@@ -33,13 +33,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>3.0</edition>
+            <edition>2.0</edition>
          </editionStmt>
          <extent><!--These numbers do not reflect the size of the sample!-->
             <measure unit="speeches" quantity="72" xml:lang="ca">72 intervencions</measure>
             <measure unit="speeches" quantity="72" xml:lang="en">72 speeches</measure>
-            <measure unit="words" quantity="45041" xml:lang="ca">45,041 paraules</measure>
-            <measure unit="words" quantity="45041" xml:lang="en">45,041 words</measure>
+            <measure unit="words" quantity="43253" xml:lang="ca">43253 paraules</measure>
+            <measure unit="words" quantity="43253" xml:lang="en">43253 words</measure>
          </extent>
          <publicationStmt>
             <publisher>
@@ -47,45 +47,41 @@
                <orgName xml:lang="en">CLARIN research infrastructure</orgName>
                <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
             </publisher>
-            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1810</idno>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
             <availability status="free">
                <licence>http://creativecommons.org/licenses/by/4.0/</licence>
                <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
             </availability>
-            <date when="2023-06-10">2023-06-10</date>
+            <date when="2023-09-20">2023-09-20</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
                <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
                <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
-               <idno type="URI" subtype="parliament">https://www.parlament.cat/</idno>
+               <idno type="URI">https://www.parlament.cat/</idno>
                <date when="2018-05-12">2018-05-12</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p xml:lang="en">
-               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
          </projectDesc>
          <tagsDecl><!--These numbers do not reflect the size of the sample!-->
             <namespace name="http://www.tei-c.org/ns/1.0">
-               <tagUsage gi="body" occurs="1"/>
-               <tagUsage gi="desc" occurs="86"/>
-               <tagUsage gi="div" occurs="1"/>
-               <tagUsage gi="head" occurs="1"/>
-               <tagUsage gi="kinesic" occurs="51"/>
-               <tagUsage gi="link" occurs="55418"/>
-               <tagUsage gi="linkGrp" occurs="2192"/>
-               <tagUsage gi="name" occurs="1618"/>
-               <tagUsage gi="note" occurs="84"/>
-               <tagUsage gi="pc" occurs="8395"/>
-               <tagUsage gi="s" occurs="2192"/>
-               <tagUsage gi="seg" occurs="687"/>
                <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="12"/>
+               <tagUsage gi="pb" occurs="0"/>
                <tagUsage gi="u" occurs="72"/>
+               <tagUsage gi="seg" occurs="687"/>
+               <tagUsage gi="kinesic" occurs="51"/>
                <tagUsage gi="vocal" occurs="35"/>
-               <tagUsage gi="w" occurs="47023"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
             </namespace>
          </tagsDecl>
       </encodingDesc>
@@ -100,8 +96,8 @@
          </settingDesc>
       </profileDesc>
       <revisionDesc>
-         <change when="2023-06-10">
-            <name>Tomaž Erjavec</name>: Made sample.</change>
+         <change when="2023-09-20">
+            <name>GitHub Action</name>: Made sample.</change>
       </revisionDesc>
    </teiHeader>
    <text ana="#reference">
@@ -174,17 +170,21 @@
                         lemma="abans">Abans</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.2"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.3"
                         msd="UPosTag=VERB|Mood=Inf"
                         lemma="iniciar">iniciar</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.4"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.5"
                         msd="UPosTag=NOUN|Number=Sing"
                         lemma="ordre">ordre</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.8">del<w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.6"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.8">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.6"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -235,7 +235,9 @@
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.22"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
                         lemma="expresident">expresidents</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.25">del<w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.23"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.25">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.23"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -253,7 +255,8 @@
                          msd="UPosTag=PUNCT|PunctType=Comm">,</pc>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.28"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.1.0.1.1.29"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="expresident">expresident</w>
@@ -382,16 +385,16 @@
                </seg>
                <note>Debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat</note>
                <note>201-00005/12</note>
-               <note>Com saben, l’únic punt de l’ordre del dia d’aquesta sessió plenària és el debat del programa i votació d’investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat de Catalunya.</note>
-               <note>D’acord amb l’article 149.1 del Reglament del Parlament de Catalunya, el debat d’investidura comença amb la lectura de la resolució del president del Parlament en què es proposa el candidat a la presidència de la Generalitat. Prego en aquest cas al secretari primer que doni lectura a aquesta resolució.</note>
+               <note>Com saben, l'únic punt de l'ordre del dia d'aquesta sessió plenària és el debat del programa i votació d'investidura del diputat Quim Torra i Pla, candidat proposat a la presidència de la Generalitat de Catalunya.</note>
+               <note>D'acord amb l'article 149.1 del Reglament del Parlament de Catalunya, el debat d'investidura comença amb la lectura de la resolució del president del Parlament en què es proposa el candidat a la presidència de la Generalitat. Prego en aquest cas al secretari primer que doni lectura a aquesta resolució.</note>
             </u>
             <note type="speaker">El secretari primer</note>
-            <u xml:id="ParlaMint-ES-CT_2018-05-12-0901.72.0"
+            <u xml:id="ParlaMint-ES-CT_2018-05-12-0901.2.0"
                who="#CampdepadrósEusebi"
                ana="#regular"
-               xml:lang="ca">
-               <note>Senyor president... «Proposta de candidat a la presidència de la Generalitat, presidència del Parlament, d’acord amb l’article 4 de la Llei 13/2008, de 5 de novembre, de la presidència de la Generalitat i del Govern. Havent consultat novament els representants dels grups i subgrups parlamentaris, proposo com a nou candidat a la presidència de la Generalitat el diputat Quim Torra i Pla, i deixo sense efecte la proposta de candidat del dia 9 d’abril de 2018.</note>
-               <note>»El molt honorable president del Parlament de Catalunya, Roger Torrent i Ramió, Palau del Parlament, a 11 de maig de 2018.»</note>
+               xml:lang="es">
+               <note>Senyor president... «Proposta de candidat a la presidència de la Generalitat, presidència del Parlament, d'acord amb l'article 4 de la Llei 13/2008, de 5 de novembre, de la presidència de la Generalitat i del Govern. Havent consultat novament els representants dels grups i subgrups parlamentaris, proposo com a nou candidat a la presidència de la Generalitat el diputat Quim Torra i Pla, i deixo sense efecte la proposta de candidat del dia 9 d'abril de 2018.</note>
+               <note>El molt honorable president del Parlament de Catalunya, Roger Torrent i Ramió, Palau del Parlament, a 11 de maig de 2018.</note>
             </u>
             <gap reason="editorial">
                <desc xml:lang="en">SAMPLING</desc>
@@ -413,18 +416,18 @@
                            msd="UPosTag=PROPN"
                            lemma="cidoncha">Cidoncha</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.1"/>
@@ -440,8 +443,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.0.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -466,18 +467,18 @@
                            msd="UPosTag=PROPN"
                            lemma="pujals">Pujals</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.7"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.7"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.8"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.9"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.10"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.1"/>
@@ -497,8 +498,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.8"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.9"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.1.1.10"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -520,18 +519,18 @@
                            msd="UPosTag=PROPN"
                            lemma="molist">Molist</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.1"/>
@@ -549,8 +548,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.2.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -567,18 +564,18 @@
                            msd="UPosTag=PROPN"
                            lemma="parís">París</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.6"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.1"/>
@@ -594,8 +591,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.3.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -612,18 +607,18 @@
                            msd="UPosTag=PROPN"
                            lemma="piqué">Piqué</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.6"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.1"/>
@@ -639,8 +634,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.4.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -662,18 +655,18 @@
                            msd="UPosTag=PROPN"
                            lemma="santos">Santos</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.1"/>
@@ -691,8 +684,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.5.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -714,18 +705,18 @@
                            msd="UPosTag=PROPN"
                            lemma="ròdenas">Ròdenas</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.1"/>
@@ -743,8 +734,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.6.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -768,8 +757,9 @@
                      </name>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.5"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Brck">(</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Brck"
+                        lemma="(">(</w>
                      <name type="PER">
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.7"
                            msd="UPosTag=PROPN"
@@ -790,21 +780,21 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="dir"
                         join="right">diu</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.12"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.13"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.12"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.13"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.14"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.15"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.16"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin"
-                         join="right">»</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.17"
-                         msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin">)</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.16"
+                        msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin"
+                        lemma=")">)</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.1"/>
@@ -836,10 +826,8 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.14"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.15"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.16"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.17"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.7.1.16"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -861,18 +849,18 @@
                            msd="UPosTag=PROPN"
                            lemma="bonell">Bonell</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.1"/>
@@ -890,8 +878,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.8.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -908,18 +894,18 @@
                            msd="UPosTag=PROPN"
                            lemma="durich">Durich</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.6"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.1"/>
@@ -935,8 +921,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.9.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -953,18 +937,18 @@
                            msd="UPosTag=PROPN"
                            lemma="frías">Frías</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.1"/>
@@ -980,8 +964,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.10.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1003,18 +985,18 @@
                            msd="UPosTag=PROPN"
                            lemma="martí">Martí</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.1"/>
@@ -1032,8 +1014,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.11.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1050,18 +1030,18 @@
                            msd="UPosTag=PROPN"
                            lemma="albert">Albert</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.6"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="abstenció"
                         join="right">Abstenció</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.1"/>
@@ -1077,8 +1057,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.12.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1100,18 +1078,18 @@
                            msd="UPosTag=PROPN"
                            lemma="font">Font</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.1"/>
@@ -1129,8 +1107,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.13.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1147,18 +1123,18 @@
                            msd="UPosTag=PROPN"
                            lemma="escamilla">Escamilla</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.1"/>
@@ -1174,8 +1150,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.14.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1193,7 +1167,8 @@
                            lemma="de">de</w>
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.4"
                            msd="UPosTag=PROPN"
-                           lemma="l'">l'</w>
+                           lemma="l'"
+                           join="right">l'</w>
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.5"
                            msd="UPosTag=PROPN"
                            lemma="hotellerie">Hotellerie</w>
@@ -1204,18 +1179,18 @@
                            msd="UPosTag=PROPN"
                            lemma="fallois">Fallois</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.8"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.9"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.10"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.11"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.12"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.1"/>
@@ -1239,8 +1214,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.10"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.10 #ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.11"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.15.1.12"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1262,18 +1235,18 @@
                            msd="UPosTag=PROPN"
                            lemma="gonzález">González</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.1"/>
@@ -1291,8 +1264,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.16.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1314,18 +1285,18 @@
                            msd="UPosTag=PROPN"
                            lemma="serra">Serra</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.1"/>
@@ -1343,8 +1314,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.17.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1361,18 +1330,18 @@
                            msd="UPosTag=PROPN"
                            lemma="suárez">Suárez</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.1"/>
@@ -1388,8 +1357,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.18.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1406,18 +1373,18 @@
                            msd="UPosTag=PROPN"
                            lemma="llano">Llano</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.1"/>
@@ -1433,8 +1400,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.19.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1458,8 +1423,9 @@
                      </name>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.5"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Brck">(</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Brck"
+                        lemma="(">(</w>
                      <name type="PER">
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.7"
                            msd="UPosTag=PROPN"
@@ -1480,21 +1446,21 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="dir"
                         join="right">diu</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.12"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.13"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.12"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.13"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.14"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.15"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.16"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin"
-                         join="right">»</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.17"
-                         msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin">)</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.16"
+                        msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin"
+                        lemma=")">)</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.1"/>
@@ -1526,10 +1492,8 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.14"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.15"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.16"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.17"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.20.1.16"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1551,18 +1515,18 @@
                            msd="UPosTag=PROPN"
                            lemma="padrosa">Padrosa</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.1"/>
@@ -1580,8 +1544,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.21.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1605,8 +1567,9 @@
                      </name>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.5"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Brck">(</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Brck"
+                        lemma="(">(</w>
                      <name type="PER">
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.7"
                            msd="UPosTag=PROPN"
@@ -1627,21 +1590,21 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="dir"
                         join="right">diu</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.12"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.13"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.12"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.13"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.14"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.15"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.16"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin"
-                         join="right">»</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.17"
-                         msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin">)</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.16"
+                        msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin"
+                        lemma=")">)</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.1"/>
@@ -1673,10 +1636,8 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.14"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.15"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.16"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.17"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.22.1.16"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1698,18 +1659,18 @@
                            msd="UPosTag=PROPN"
                            lemma="benito">Benito</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.1"/>
@@ -1727,8 +1688,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.23.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1751,18 +1710,18 @@
                            msd="UPosTag=PROPN"
                            lemma="cruz">Cruz</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.7"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.7"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.8"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.9"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.10"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.1"/>
@@ -1782,8 +1741,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.8"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.9"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.24.1.10"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1808,18 +1765,18 @@
                            msd="UPosTag=PROPN"
                            lemma="tenesa">Tenesa</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.7"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.7"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.8"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.9"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.10"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.1"/>
@@ -1839,8 +1796,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.8"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.9"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.25.1.10"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1857,18 +1812,18 @@
                            msd="UPosTag=PROPN"
                            lemma="dipp">Dipp</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.6"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="abstenció"
                         join="right">Abstenció</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.1"/>
@@ -1884,8 +1839,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.26.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1902,18 +1855,18 @@
                            msd="UPosTag=PROPN"
                            lemma="fisac">Fisac</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.1"/>
@@ -1929,8 +1882,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.27.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -1954,8 +1905,9 @@
                      </name>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.5"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Brck">(</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Brck"
+                        lemma="(">(</w>
                      <name type="PER">
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.7"
                            msd="UPosTag=PROPN"
@@ -1976,21 +1928,21 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="dir"
                         join="right">diu</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.12"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.13"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.12"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.13"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.14"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.15"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.16"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin"
-                         join="right">»</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.17"
-                         msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin">)</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.16"
+                        msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin"
+                        lemma=")">)</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.1"/>
@@ -2022,10 +1974,8 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.14"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.15"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.16"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.17"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.28.1.16"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2042,18 +1992,18 @@
                            msd="UPosTag=PROPN"
                            lemma="martín">Martín</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.1"/>
@@ -2069,8 +2019,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.29.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2087,18 +2035,18 @@
                            msd="UPosTag=PROPN"
                            lemma="jiménez">Jiménez</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.1"/>
@@ -2114,8 +2062,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.30.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2132,18 +2078,18 @@
                            msd="UPosTag=PROPN"
                            lemma="sánchez">Sánchez</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.1"/>
@@ -2159,8 +2105,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.31.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2177,18 +2121,18 @@
                            msd="UPosTag=PROPN"
                            lemma="infante">Infante</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.1"/>
@@ -2204,8 +2148,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.32.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2222,18 +2164,18 @@
                            msd="UPosTag=PROPN"
                            lemma="gallardo">Gallardo</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.1"/>
@@ -2249,8 +2191,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.33.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2267,18 +2207,18 @@
                            msd="UPosTag=PROPN"
                            lemma="escrig">Escrig</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.6"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="abstenció"
                         join="right">Abstenció</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:nsubj"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.3 #ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.1"/>
@@ -2294,8 +2234,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.3 #ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.3 #ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.34.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2317,18 +2255,18 @@
                            msd="UPosTag=PROPN"
                            lemma="barril">Barril</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.1"/>
@@ -2346,8 +2284,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.35.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2364,18 +2300,18 @@
                            msd="UPosTag=PROPN"
                            lemma="gonzález">González</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.1"/>
@@ -2391,8 +2327,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.36.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2414,18 +2348,18 @@
                            msd="UPosTag=PROPN"
                            lemma="aixalà">Aixalà</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.1"/>
@@ -2443,8 +2377,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.37.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2466,18 +2398,18 @@
                            msd="UPosTag=PROPN"
                            lemma="campà">Campà</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.1"/>
@@ -2495,8 +2427,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.38.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2518,18 +2448,18 @@
                            msd="UPosTag=PROPN"
                            lemma="costa">Costa</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.1"/>
@@ -2547,8 +2477,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.39.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2570,18 +2498,18 @@
                            msd="UPosTag=PROPN"
                            lemma="santacreu">Santacreu</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.1"/>
@@ -2599,8 +2527,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.40.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2622,18 +2548,18 @@
                            msd="UPosTag=PROPN"
                            lemma="pla">Pla</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.1"/>
@@ -2651,8 +2577,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.41.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2676,8 +2600,9 @@
                      </name>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.5"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Brck">(</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Brck"
+                        lemma="(">(</w>
                      <name type="PER">
                         <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.7"
                            msd="UPosTag=PROPN"
@@ -2698,21 +2623,21 @@
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="dir"
                         join="right">diu</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.12"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.13"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.12"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.13"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.14"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.15"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.16"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin"
-                         join="right">»</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.17"
-                         msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin">)</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.16"
+                        msd="UPosTag=PUNCT|PunctType=Brck|PunctSide=Fin"
+                        lemma=")">)</w>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.1"/>
@@ -2744,10 +2669,8 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.14"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.6 #ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.15"/>
-                        <link ana="ud-syn:root"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.16"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.17"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.42.1.16"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2764,18 +2687,18 @@
                            msd="UPosTag=PROPN"
                            lemma="mimbrero">Mimbrero</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.1"/>
@@ -2791,8 +2714,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.43.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2812,18 +2733,18 @@
                            msd="UPosTag=PROPN"
                            lemma="fuentes">Fuentes</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.1"/>
@@ -2841,8 +2762,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.44.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2859,18 +2778,18 @@
                            msd="UPosTag=PROPN"
                            lemma="manresa">Manresa</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.6"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.1"/>
@@ -2886,8 +2805,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.45.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2904,18 +2821,18 @@
                            msd="UPosTag=PROPN"
                            lemma="sánchez">Sánchez</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.1"/>
@@ -2931,8 +2848,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.46.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2949,18 +2864,18 @@
                            msd="UPosTag=PROPN"
                            lemma="ramon">Ramon</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.6"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.1"/>
@@ -2976,8 +2891,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.47.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -2994,18 +2907,18 @@
                            msd="UPosTag=PROPN"
                            lemma="gutiérrez">Gutiérrez</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.1"/>
@@ -3021,8 +2934,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.48.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3044,18 +2955,18 @@
                            msd="UPosTag=PROPN"
                            lemma="caballero">Caballero</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.1"/>
@@ -3073,8 +2984,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.49.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3091,18 +3000,18 @@
                            msd="UPosTag=PROPN"
                            lemma="satorres">Satorres</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.1"/>
@@ -3118,8 +3027,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.50.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3136,18 +3043,18 @@
                            msd="UPosTag=PROPN"
                            lemma="ruiz">Ruiz</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.1"/>
@@ -3163,8 +3070,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.51.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3181,18 +3086,18 @@
                            msd="UPosTag=PROPN"
                            lemma="montiu">Montiu</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.1"/>
@@ -3208,8 +3113,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.52.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3226,18 +3129,18 @@
                            msd="UPosTag=PROPN"
                            lemma="chicharro">Chicharro</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.6"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Sing"
                         lemma="abstenció"
                         join="right">Abstenció</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.1"/>
@@ -3253,8 +3156,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.53.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3271,18 +3172,18 @@
                            msd="UPosTag=PROPN"
                            lemma="garcía">García</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.1"/>
@@ -3298,8 +3199,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.54.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3321,18 +3220,18 @@
                            msd="UPosTag=PROPN"
                            lemma="vila">Vila</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.1"/>
@@ -3350,8 +3249,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.55.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3368,18 +3265,18 @@
                            msd="UPosTag=PROPN"
                            lemma="ramos">Ramos</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.6"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.1"/>
@@ -3395,8 +3292,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.56.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3416,18 +3311,18 @@
                            msd="UPosTag=PROPN"
                            lemma="lópez">López</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.1"/>
@@ -3445,8 +3340,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.57.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3468,18 +3361,18 @@
                            msd="UPosTag=PROPN"
                            lemma="canadell">Canadell</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.1"/>
@@ -3497,8 +3390,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.58.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3515,18 +3406,18 @@
                            msd="UPosTag=PROPN"
                            lemma="garcía">García</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.1"/>
@@ -3542,8 +3433,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.59.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3560,18 +3449,18 @@
                            msd="UPosTag=PROPN"
                            lemma="román">Román</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.1"/>
@@ -3587,8 +3476,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.60.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3610,18 +3497,18 @@
                            msd="UPosTag=PROPN"
                            lemma="castanyer">Castanyer</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.1"/>
@@ -3639,8 +3526,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.61.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3657,18 +3542,18 @@
                            msd="UPosTag=PROPN"
                            lemma="sobrino">Sobrino</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.1"/>
@@ -3684,8 +3569,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.62.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3702,18 +3585,18 @@
                            msd="UPosTag=PROPN"
                            lemma="batalla">Batalla</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.1"/>
@@ -3729,8 +3612,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.63.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3750,18 +3631,18 @@
                            msd="UPosTag=PROPN"
                            lemma="navarro">Navarro</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.1"/>
@@ -3779,8 +3660,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.64.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3797,18 +3676,18 @@
                            msd="UPosTag=PROPN"
                            lemma="torres">Torres</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.1"/>
@@ -3824,8 +3703,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.65.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3847,18 +3724,18 @@
                            msd="UPosTag=PROPN"
                            lemma="aguilà">Aguilà</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.1"/>
@@ -3876,8 +3753,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.66.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3899,18 +3774,18 @@
                            msd="UPosTag=PROPN"
                            lemma="bosch">Bosch</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.1"/>
@@ -3928,8 +3803,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.67.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3946,18 +3819,18 @@
                            msd="UPosTag=PROPN"
                            lemma="gonzález">González</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.1"/>
@@ -3973,8 +3846,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.68.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -3991,18 +3862,18 @@
                            msd="UPosTag=PROPN"
                            lemma="ibáñez">Ibáñez</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.4"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.4"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.6"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.7"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.8"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.1"/>
@@ -4018,8 +3889,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.6"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.7"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.69.1.8"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -4041,18 +3910,18 @@
                            msd="UPosTag=PROPN"
                            lemma="pucurull">Pucurull</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.1"/>
@@ -4070,8 +3939,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.70.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -4091,18 +3958,18 @@
                            msd="UPosTag=PROPN"
                            lemma="conesa">Conesa</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.7"
                         msd="UPosTag=ADV|Polarity=Neg"
                         lemma="no"
                         join="right">No</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.1"/>
@@ -4120,8 +3987,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.71.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -4143,18 +4008,18 @@
                            msd="UPosTag=PROPN"
                            lemma="rosselló">Rosselló</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.1"/>
@@ -4172,8 +4037,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.72.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -4195,18 +4058,18 @@
                            msd="UPosTag=PROPN"
                            lemma="ramió">Ramió</w>
                      </name>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.5"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.6"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.5"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.6"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.7"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">Sí</w>
                      <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.8"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.9"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:root"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.1"/>
@@ -4224,8 +4087,6 @@
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.7"/>
                         <link ana="ud-syn:punct"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.8"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1 #ParlaMint-ES-CT_2018-05-12-0901.70.0.73.1.9"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -4265,8 +4126,9 @@
                         msd="UPosTag=ADJ|Number=Sing"
                         lemma="següent"
                         join="right">següent</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.10"
-                         msd="UPosTag=PUNCT|PunctType=Colo">:</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.10"
+                        msd="UPosTag=PUNCT|PunctType=Colo"
+                        lemma=":">:</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.11"
                         msd="UPosTag=NUM"
                         lemma="66">66</w>
@@ -4274,33 +4136,33 @@
                         msd="UPosTag=NOUN|Gender=Masc|Number=Plur"
                         lemma="vot"
                         join="right">vots</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.13"
-                         msd="UPosTag=PUNCT|PunctType=Peri">«</pc>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.13"
+                        msd="UPosTag=PUNCT|PunctType=Peri"
+                        lemma="«">«</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.14"
                         msd="UPosTag=ADV"
                         lemma="sí"
                         join="right">sí</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.15"
-                         msd="UPosTag=PUNCT|PunctType=Peri|PunctSide=Fin">»</pc>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.16"
-                         msd="UPosTag=PUNCT|PunctType=Semi">;</pc>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.17"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.15"
+                        msd="UPosTag=PUNCT|PunctType=Semi"
+                        lemma=";">;</w>
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.16"
                         msd="UPosTag=NUM"
                         lemma="65">65</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.18"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.17"
                         msd="UPosTag=NOUN|Gender=Masc"
                         lemma="nosegon">nos</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.19"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.18"
                         msd="UPosTag=CCONJ"
                         lemma="i">i</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.20"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.19"
                         msd="UPosTag=NUM"
                         lemma="4">4</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.21"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.20"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="abstenció"
                         join="right">abstencions</w>
-                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.22"
+                     <pc xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.21"
                          msd="UPosTag=PUNCT|PunctType=Peri">.</pc>
                      <linkGrp type="UD-SYN" targFunc="head argument">
                         <link ana="ud-syn:det"
@@ -4332,21 +4194,19 @@
                         <link ana="ud-syn:advmod"
                               target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.12 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.14"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.14 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.15"/>
-                        <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.18 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.16"/>
-                        <link ana="ud-syn:nummod"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.12 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.17"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.16 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.15"/>
                         <link ana="ud-syn:appos"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.12 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.18"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.12 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.16"/>
+                        <link ana="ud-syn:appos"
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.16 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.17"/>
                         <link ana="ud-syn:cc"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.21 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.19"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.20 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.18"/>
                         <link ana="ud-syn:nummod"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.21 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.20"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.20 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.19"/>
                         <link ana="ud-syn:conj"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.12 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.21"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.12 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.20"/>
                         <link ana="ud-syn:punct"
-                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.9 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.22"/>
+                              target="#ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.9 #ParlaMint-ES-CT_2018-05-12-0901.71.0.0.1.21"/>
                      </linkGrp>
                   </s>
                </seg>
@@ -4424,7 +4284,8 @@
                         lemma="requerir">requereix</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.23"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.24"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="article">article</w>
@@ -4462,7 +4323,9 @@
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.34"
                         msd="UPosTag=CCONJ"
                         lemma="i">i</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.37">del<w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.35"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.37">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.35"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -4483,7 +4346,8 @@
                         lemma="i">i</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.41"
                         msd="UPosTag=ADP|AdpType=Prep"
-                        lemma="de">d'</w>
+                        lemma="de"
+                        join="right">d'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.42"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="acord">acord</w>
@@ -4492,7 +4356,8 @@
                         lemma="amb">amb</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.44"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.45"
                         msd="UPosTag=NOUN|Gender=Masc|Number=Sing"
                         lemma="article">article</w>
@@ -4504,7 +4369,8 @@
                         lemma="de">de</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.48"
                         msd="UPosTag=DET|PronType=Art|Number=Sing"
-                        lemma="el">l'</w>
+                        lemma="el"
+                        join="right">l'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.1.1.49"
                         msd="UPosTag=VERB|Mood=Par|Number=Sing|Gender=Fem"
                         lemma="esmentar">esmentada</w>
@@ -4785,7 +4651,9 @@
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2.1.21"
                         msd="UPosTag=NOUN|Gender=Fem|Number=Plur"
                         lemma="hora">hores</w>
-                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2.1.24">del<w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2.1.22"
+                     <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2.1.24">
+                        del
+                        <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.2.1.22"
                            msd="UPosTag=ADP|AdpType=Prep"
                            norm="de"
                            lemma="de"/>
@@ -4860,7 +4728,8 @@
                   <s xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3.1" xml:lang="ca">
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3.1.1"
                         msd="UPosTag=PRON"
-                        lemma="es">S'</w>
+                        lemma="es"
+                        join="right">S'</w>
                      <w xml:id="ParlaMint-ES-CT_2018-05-12-0901.71.0.3.1.2"
                         msd="UPosTag=VERB|Mood=Ind|Tense=Pres|Person=3|Number=Sing"
                         lemma="aixecar">aixeca</w>
@@ -4888,7 +4757,7 @@
                   </s>
                </seg>
             </u>
-            <note type="narrative">La sessió s’aixeca a un quart de vuit del vespre i dos minuts.</note>
+            <note type="narrative">La sessió s'aixeca a un quart de vuit del vespre i dos minuts.</note>
          </div>
       </body>
    </text>
