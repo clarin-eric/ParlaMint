@@ -11,7 +11,7 @@
 
 # Partial runs:
 #CORPORA = GR BG UA
-CORPORA = BA
+CORPORA = FI
 
 ######## MTed CORPORA FOR V 3.1
 MT-CORPORA = AT-en BA-en BE-en BG-en CZ-en DK-en EE-en ES-en ES-CT-en ES-GA-en FR-en GR-en HR-en HU-en IS-en IT-en LV-en NL-en NO-en PL-en PT-en RS-en SE-en SI-en TR-en UA-en
@@ -44,6 +44,8 @@ WEB = tomaz@nl.ijs.si:/home/tomaz/www/tmp/ParlaMint/
 ###### Targets
 
 ###### Tests
+test-tei1:
+	${FINALIZE} -tei -valid -codes FI -in ${HERE}/Temp -out ${HERE}/Temp/Out
 test-vert4:
 	$s meta=${HERE}/Master/ParlaMint-BG.TEI.ana/ParlaMint-BG.ana.xml -xsl:../Scripts/parlamint2xmlvert.xsl \
 	${HERE}/Master/ParlaMint-BG.TEI.ana/2014/ParlaMint-BG_2014-10-27.ana.xml > test.vert
@@ -302,7 +304,7 @@ mt-test2a:
 	perl ../Scripts/conllu2tei.pl < Test/0.conllu > Test/0.body.xml
 mt-test2:
 	perl ../Scripts/conllu2tei.pl \
-	< ${SOURCES-MT}/ParlaMint-LV-en.conllu/2015/ParlaMint-LV_2015-11-12-PT12-329.conllu \
+	< ${SOURCES-MT}/USAS/ParlaMint-LV-en.conllu/2015/ParlaMint-LV-en_2015-11-12-PT12-329.conllu \
 	> Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 	xmllint --noout Test/ParlaMint-LV_2015-11-12-PT12-329.body.xml
 mt-test1:
