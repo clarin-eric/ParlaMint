@@ -15,7 +15,7 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   echo "Cleaning old sample files [$parla]"
   rm -f ${DATADIR}/ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
 
-  if [ $2 eq '1' ] ; then
+  if [ $2 = '1' ] ; then
     echo "INFO check whether are taxonomies translated"
     make translateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/taxonomies.log
     make initTaxonomies-$parla
