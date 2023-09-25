@@ -11,7 +11,7 @@ namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 namespace xsl = "http://www.w3.org/1999/XSL/Transform"
 
-# Schema generated from ODD source 2023-09-10T08:34:44Z. 2023-10-09.
+# Schema generated from ODD source 2023-09-23T09:02:29Z. 2023-10-09.
 # TEI Edition: Version 4.6.0a. Last updated on
 #         5th January 2023, revision 9074b9038
 # TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0a./
@@ -768,6 +768,9 @@ tei_gap =
   ## (gap) indicates a point where material has been omitted in a transcription, whether for editorial reasons described in the TEI header, as part of sampling practice, or because the material is illegible, invisible, or inaudible. [3.5.3. Additions, Deletions, and Omissions]
   element gap {
     tei_desc+,
+    tei_att.global.attribute.xmlid,
+    tei_att.global.attribute.n,
+    tei_att.global.attribute.xmllang,
     
     ##
     attribute reason {

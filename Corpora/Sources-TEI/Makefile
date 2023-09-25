@@ -8,14 +8,17 @@ test-f:
 	$s outDir=Test prefix='ParlaMint-GR-' teiRoot=Orig/ParlaMint-GR.TEI/ParlaMint-GR.xml \
 	-xsl:../../Scripts/parlamint-factorize-teiHeader.xsl Orig/ParlaMint-GR.TEI/BKP/ParlaMint-GR.xml
 
-###### Preparing the received corpora
-CORPUS = HU
+###### Adding common taxonomies
+###### and inserting TSV metadata (political orientations for <listOrg>, ministers for <listPerson>)
+
+### For one corpus
+CORPUS = TR
 one:
 	../../Scripts/parlamint-factorize-corpora.pl ../Taxonomies 'Orig/ParlaMint-${CORPUS}.TEI*'
 	../../Scripts/add-metadata.pl ../Orientations ../Ministers 'Orig/ParlaMint-${CORPUS}.TEI*' '.'
-
+### For everything
 nohup:
-	nohup time make prep > preparation.log &
+	nohup time make prep > ParlaMint-metadata.log &
 prep:	factorize metadata
 xprep:	factorize metadata
 

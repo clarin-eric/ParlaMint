@@ -16,13 +16,15 @@
 
      Changes to component files:
      - add meeting reference to corpus specific parliamentary body of the meeting, if missing
+     - change #parla.meeting.unregistered to #parla.meeting (IS)
      - change div/@type for divs without utterances
-     - remove empty notes
+     - remove empty utterances, segments, notes
      - assign IDs to segments without them
      - in .ana remove body name tag if name contains no words
+     - in .ana remove sentences without tokens
      - in .ana change tag from <w> to <pc> for punctuation
      - in .ana change UPoS tag from - to X
-     - in .ana change lemma tag from _ to normalised form or wordform
+     - in .ana change lemma tag from empty or _ to normalised form or wordform, lower-cased if not PROPN
      - in .ana change root syntactic dependency to dep, if node is not sentence root
      - in .ana change <PAD> syntactic dependency to dep
      - in .ana change obl:loc syntactic dependency to obl
@@ -254,10 +256,6 @@
 	<!-- In NO corpus each meeting contains yearFrom-yearTo info, which we need -->
 	<xsl:variable name="toYear-NO" select="substring-after(., '-')"/>
 	<xsl:choose>
-          <xsl:when test="$country-code = 'GB' and 
-			  not(contains(@ana, '#parla.upper') and contains(@ana, '#parla.lower'))">
-	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
-	  </xsl:when>
 	  <!-- Quasi-bicameral to 2009, then unicameral -->
           <xsl:when test="$country-code = 'NO' and 
 			  $toYear-NO &lt;= '2009'">
@@ -265,6 +263,14 @@
 	  </xsl:when>
           <xsl:when test="$country-code = 'NO'">
 	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.uni ', @ana))"/>
+	  </xsl:when>
+          <xsl:when test="$country-code = 'GB' and 
+			  not(contains(@ana, '#parla.upper') and contains(@ana, '#parla.lower'))">
+	    <xsl:attribute name="ana" select="normalize-space(concat('#parla.upper #parla.lower ', @ana))"/>
+	  </xsl:when>
+	  <!-- Used by IS, but common taxonomy doesn't have this category of meetings -->
+          <xsl:when test="contains(@ana, '#parla.meeting.unregistered')">
+	    <xsl:attribute name="ana" select="replace(@ana, '#parla.meeting.unregistered', '#parla.meeting')"/>
 	  </xsl:when>
 	</xsl:choose>
 	<xsl:apply-templates mode="root"/>
@@ -328,6 +334,14 @@
   </xsl:template>
   <xsl:template mode="comp" match="@*">
     <xsl:copy/>
+  </xsl:template>
+
+  <!-- Used only by FI, but even here bugs in such linkage, so, remove -->
+  <xsl:template mode="comp" match="tei:u/@prev">
+    <xsl:message select="concat('WARN: removing u/@prev from ', ../@xml:id)"/>
+  </xsl:template>
+  <xsl:template mode="comp" match="tei:u/@next">
+    <xsl:message select="concat('WARN: removing u/@next from ', ../@xml:id)"/>
   </xsl:template>
 
   <!-- Set correct ID of component -->
@@ -397,7 +411,7 @@
   </xsl:template>
   
   <!-- Remove empty notes -->
-  <xsl:template mode="comp" match="tei:note[not(normalize-space(.))]">
+  <xsl:template mode="comp" match="tei:note[not(normalize-space(.) or tei:*)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
                          ': removing empty note in ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
   </xsl:template>
@@ -441,11 +455,37 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- Bug where an utterance contains no elements, remove utterance -->
+  <xsl:template mode="comp" match="tei:u">
+    <xsl:variable name="segs">
+      <xsl:apply-templates mode="comp"/>
+    </xsl:variable>
+    <xsl:choose>
+      <xsl:when test="$segs/tei:*">
+	<xsl:copy>
+	  <xsl:apply-templates mode="comp" select="@*"/>
+	  <xsl:copy-of select="$segs"/>
+	</xsl:copy>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                             ': removing utterance without content for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <!-- Bug where a segment contains no elements, remove segment -->
+  <xsl:template mode="comp" match="tei:seg[not(normalize-space(.) or .//tei:*)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing segment without content for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+  
   <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
-  <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
+  <xsl:template mode="comp" match="tei:seg">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
       <xsl:choose>
+        <xsl:when test="@xml:id"/>
         <xsl:when test="parent::tei:u/@xml:id">
           <xsl:attribute name="xml:id">
             <xsl:value-of select="parent::tei:u/@xml:id"/>
@@ -462,6 +502,12 @@
     </xsl:copy>
   </xsl:template>
       
+  <!-- Bug where a sentence contains no tokens, remove sentence -->
+  <xsl:template mode="comp" match="tei:s[not(.//tei:w or .//tei:pc)]">
+    <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
+                         ': removing sentence without tokens for ', ancestor-or-self::tei:*[@xml:id][1]/@xml:id)"/>
+  </xsl:template>
+  
   <!-- Bug where a name contains no words, but only a transcriber comment: remove <name> tag -->
   <xsl:template mode="comp" match="tei:body//tei:name[not(.//tei:w)]">
     <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
@@ -509,19 +555,23 @@
     </xsl:attribute>
   </xsl:template>
   
-  <!-- Bug where word lemma is set to "_": chang to @norm, if it exists, else to text() of the word -->
-  <xsl:template mode="comp" match="tei:w/@lemma[. = '_']">
+  <!-- Bug where lemma is empty or "_": change to @norm, if it exists, else to text() of the word -->
+  <xsl:template mode="comp" match="tei:w/@lemma[not(normalize-space(.)) or . = '_']">
+    <xsl:variable name="message" select="concat('WARN ', /tei:TEI/@xml:id,  ': changing bad lemma to ')"/>
+    <xsl:variable name="location" select="concat(' in ', ../@xml:id)"/>
     <xsl:attribute name="lemma">
       <xsl:choose>
         <xsl:when test="../@norm">
-          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                               ': changing _ lemma to @norm ', ../@norm, ' in ', ../@xml:id)"/>
+          <xsl:message select="concat($message, ' @norm ', ../@norm, $location)"/>
           <xsl:value-of select="../@norm"/>
         </xsl:when>
-        <xsl:otherwise>
-          <xsl:message select="concat('WARN ', /tei:TEI/@xml:id, 
-                               ': changing _ lemma to token ', ../text(), ' in ', ../@xml:id)"/>
+        <xsl:when test="../contains(@msd, 'UPosTag=PROPN')">
+          <xsl:message select="concat($message, ' PROPN token ', ../text(), $location)"/>
           <xsl:value-of select="../text()"/>
+	</xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat($message, ' lower-cased token ', lower-case(../text()), $location)"/>
+          <xsl:value-of select="lower-case(../text())"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:attribute>

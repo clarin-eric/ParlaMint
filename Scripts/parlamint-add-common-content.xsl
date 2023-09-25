@@ -37,12 +37,16 @@
   <!-- Directories must have absolute paths! -->
   <xsl:param name="outDir">.</xsl:param>
   <xsl:param name="anaDir">.</xsl:param>
-  <xsl:param name="version">3.0a</xsl:param>
   <xsl:param name="reference-date" as="xs:date">2020-01-30</xsl:param>
   <xsl:param name="covid-date" as="xs:date">2020-01-31</xsl:param>
   <xsl:param name="war-date" as="xs:date">2022-02-24</xsl:param>
+
+  <!-- We give fake values here, the calling program should set these parameters! -->
+  <xsl:param name="version">3.0a</xsl:param>
   <xsl:param name="handle-txt">http://hdl.handle.net/11356/XXXX</xsl:param>
   <xsl:param name="handle-ana">http://hdl.handle.net/11356/XXXX</xsl:param>
+
+  <!-- Is this a linguistically annotated (ana) or plain text corpus (txt)? -->
   <xsl:param name="type">
     <xsl:choose>
       <xsl:when test="contains(/tei:teiCorpus/@xml:id, '.ana')">ana</xsl:when>
@@ -55,6 +59,7 @@
                                          tei:fileDesc/tei:titleStmt/
                                          tei:title[@type='main' and @xml:lang='en'],
                                          '([^ ]+) .*', '$1')"/>
+
   <!-- Is this an MTed corpus? $mt should be name of MTed language, or empty, if original corpus -->
   <xsl:param name="mt">
     <xsl:if test="matches($country-code, '-[a-z]{2,3}$')">
@@ -131,6 +136,8 @@
         <term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'FI'">
+        <term>Legislature</term>
+        <term>Unicameralism</term>
       </xsl:when>
       <xsl:when test="$country-code = 'FR'">
         <term>Legislature</term>
@@ -557,7 +564,7 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- Give IDs to segs without them (if u has ID, otherwise complain) -->
+  <!-- Silently give IDs to segs without them (if u has ID, otherwise complain) -->
   <xsl:template mode="comp" match="tei:seg[not(@xml:id)]">
     <xsl:copy>
       <xsl:apply-templates mode="comp" select="@*"/>
@@ -574,6 +581,25 @@
                                ': seg without ID but utterance also has no ID!')"/>
         </xsl:otherwise>
       </xsl:choose>
+      <xsl:apply-templates mode="comp"/>
+    </xsl:copy>
+  </xsl:template>
+      
+  <!-- Silently give IDs to the various transcriber comments -->
+  <xsl:template mode="comp" match="tei:head[not(@xml:id)] | 
+				   tei:gap[not(@xml:id)] |
+				   tei:note[not(@xml:id)] |
+				   tei:vocal[not(@xml:id)] | 
+				   tei:kinesic[not(@xml:id)] |
+				   tei:incident[not(@xml:id)]">
+    <xsl:copy>
+      <xsl:apply-templates mode="comp" select="@*"/>
+      <xsl:attribute name="xml:id">
+	<xsl:value-of select="ancestor::tei:TEI/@xml:id"/>
+        <xsl:text>.</xsl:text>
+	<xsl:value-of select="name()"/>
+        <xsl:number level="any" from="text"/>
+      </xsl:attribute>
       <xsl:apply-templates mode="comp"/>
     </xsl:copy>
   </xsl:template>
