@@ -15,10 +15,17 @@ for parla in $(jq -r '.[]' <<< $1 ); do
   echo "Cleaning old sample files [$parla]"
   rm -f ${DATADIR}/ParlaMint-$parla/ParlaMint-*.{txt,tsv,conllu,vert}
 
-  echo "::warning:: TMP check whether are taxonomies translated"
-  make translateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/taxonomies.log
-  make initTaxonomies4translation-$parla
-  make validateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error:: incomplete taxonomy translation \1\2/i" | tee $DIR/taxonomies.log
+  if [ $2 eq '1' ] ; then
+    echo "INFO check whether are taxonomies translated"
+    make translateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error::\1\2/i" | tee $DIR/taxonomies.log
+    make initTaxonomies-$parla
+    echo "INFO overwriting taxonomies that are expected to be translated"
+    make initTaxonomies4translation-$parla
+    make validateTaxonomies-$parla | sed "s/^\(.*\)\(\berror\b\)/::error:: incomplete taxonomy translation \1\2/i" | tee $DIR/taxonomies.log
+  else
+    echo "::warning:: INFO initialize taxonomies with no translations - check if correct(known) ids has been used"
+    make initTaxonomies-$parla
+  fi
 
   if [ -f "${DATADIR}/ParlaMint-$parla/ParlaMint-$parla.xml" ] ; then
 
